@@ -21,14 +21,7 @@
 
 - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
 - [genbeta.com: Siete webs (explicadas a fondo) donde encontrar trabajo freelance o autónomo por si te niegas a volver a la oficina](https://www.genbeta.com/web/siete-webs-explicadas-a-fondo-donde-encontrar-trabajo-freelance-autonomo-te-niegas-a-volver-a-oficina)
-- [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)
-- [malt.com: Las 7 dudas legales que siempre tenemos como autónomos](https://resources.malt.com/es/freelances/art%C3%ADculos-freelance/dudas-legales-freelance/)
 - [calculadora.malt.es](https://calculadora.malt.es/) Una de las dudas de los freelance es saber cómo fijar su tarifa, respetando su experiencia y la cotización de su sector. Con la calculadora de Malt vas a tener una orientación sobre cuánto podrías ingresar en función de tu sector y especialización.
-- [eleconomista.es: El acceso a financiación, una barrera (casi) infranqueable para los autónomos](https://www.eleconomista.es/actualidad/noticias/11361634/08/21/El-acceso-a-financiacion-una-barrera-casi-infranqueable-para-los-autonomos.html)
-- [gestoresderiesgo.com: Prohibición de utilizar programas informáticos que permitan llevar una doble contabilidad empresarial](http://www.gestoresderiesgo.com/colaboradores/prohibicion-de-utilizar-programas-informaticos-que-permitan-llevar-una-doble-contabilidad-empresarial)
-- [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)
-- [eleconomista.es: Estos son los gastos de los autónomos que no se pueden deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)
-- [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)
 - [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://www.noticiastrabajo.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico/)
 - [autonomosyemprendedor.es: Los autónomos no sólo deben presentar el IVA en octubre, hay más obligaciones tributarias este mes](https://www.autonomosyemprendedor.es/articulo/tus-finanzas/autonomos-solo-deben-presentar-iva-octubre-mas-obligaciones-tributarias-mes/20210927125637025167.html)
 - [xataka.com: La Seguridad Social crea una app móvil para gestionar la nueva cuota de autónomos: permitirá cambiar de tramo mensualmente](https://www.xataka.com/pro/seguridad-social-crea-app-movil-para-gestionar-nueva-cuota-autonomos-permitira-cambiar-tramo-mensualmente-ingresos)
@@ -36,27 +29,20 @@
 - [blog.xolo.io: ¿Es rentable ser autónomo en España?](https://blog.xolo.io/es/es-rentable-ser-aut%C3%B3nomo-en-espa%C3%B1a)
 - [marinaaisa.com: Trabajar en remoto desde España como 'contractor'](https://marinaaisa.com/es/blog/contractor-eeuu-espana/) Una opción alternativa para impulsarte a una carrera internacional sin tener que mudarte fuera de España pudiendo trabajar en remoto.
 - [billin.net: Cómo ser freelance en España en 2022](https://www.billin.net/blog/como-ser-freelance/)
-- [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html)
 - [youtube: Freelance vs Empleo como Programador | midulive](https://www.youtube.com/watch?v=81VnO4puNkg)
 
 ### Advisory. Asesorías
 
-- [Acento: Cooperativa de freelance](https://acentocoop.es)
 - [declarando.es](https://declarando.es) Asesoría para autónomos
 
 ## Top Freelancing Platforms
 
-- [malt 🌟](https://www.malt.com/)
 - [upper 🌟](https://upper.co) Europe’s top product & tech professionals, on demand
-- [upwork 🌟](https://www.upwork.com/)
-- [freelancer 🌟](https://www.freelancer.com/)
 - [yeeply 🌟](https://www.yeeply.com/)
 - [codementor](https://www.codementor.io/)
 - [toptal](https://www.toptal.com/)
-- [fiverr](https://www.fiverr.com/)
 - [guru](https://www.guru.com/)
 - [truelancer](https://www.truelancer.com/)
-- [peopleperhour](https://www.peopleperhour.com/)
 - [crossover](https://www.crossover.com/)
 - [arc - formerly codementor](https://arc.dev/)
 - [scalablepath](https://www.scalablepath.com/)
@@ -68,7 +54,6 @@
 - [worksome](https://worksome.co.uk/)
 - [certace](https://www.certace.com/)
 - [hellobonsai](https://www.hellobonsai.com/)
-- [remoteone](https://remote.one/)
 - [BairesDev](https://www.bairesdev.com/join-us/) We are a nearshore software outsourcing company, 100% remote, and we are always looking for the best tech talent.
 
 ## Alternatives. Contractor Management / Umbrella Company solutions
@@ -77,9 +62,7 @@
 - They offer solutions across Europe, the Middle East and Africa.
 - Most of the time the umbrella company will want you to work as a freelancer. Otherwise it's a B2B contract between the umbrella company and the client, raising the invoices to the client (they will probably reject it).
 - [paystream.co.uk: What is an umbrella company?](https://www.paystream.co.uk/umbrella/what-is-an-umbrella-company/)
-- [umbrellaselector.com/Spain](http://umbrellaselector.com/Spain)
 - [freelance.es](https://freelance.es/) Work like an umbrella company
-- [contractortaxation.com/contracting-in-spain](https://contractortaxation.com/contracting-in-spain)
 
 ### Umbrella Companies
 

@@ -49,7 +49,6 @@ A consequence of these technical assessment tests is the willingness to learn ho
 
 [^2]: Manual operations with CLI are more appropriate for queries and troubleshooting (without modify permissions) when monitoring systems don't provide enough information. GitOps pipelines should be controlled and triggered by an automation server.
 
-Inbreeding is not a good strategy in IT. Hiring people with different background and skills is a better bet. Cronyism, [kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down) and blame games hurt employee retention and economic growth. This is terrible common too. If an employee doesn't trust their manager, the company suffers. Sure, ruling through fear works, but the employee will do the bare minimum amount of work needed to keep their job (manually and without automation).
 
 **Culture of mutual trust** is key to beating competition and increasing employee retention. When something isn't right the employee should be able to bring it up without being afraid of being fired.
 
@@ -67,13 +66,9 @@ As professionals we are obliged to a high commitment to our clients, sometimes s
 
 Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternatives often seem to be manual work with low salary expectations, lack of opportunities with new cloud jobs (better paid), promotion to a management position or emigration to countries with a different economic model (where technical jobs are better valued). This does not scale either. Freelancing worldwide is not for everyone either.
 
-> *"One of the biggest problems in IT is that we keep reinventing the wheel. We are running the same circles, producing similar technologies to solve the same problems. Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software"* ([@dmokafa](https://twitter.com/dmokafa))
 
-> *"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes"* ([@rakyll](https://twitter.com/rakyll))
 
-Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called [day 2](https://dzone.com/articles/defining-day-2-operations). You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for [reinventing the wheel](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/) on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.**
 
-**Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and [silos](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68) and promote digital transformation.**
 
 Does saying this publicly imply being blacklisted and losing professional opportunities? What kind of society do we live in?
 

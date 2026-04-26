@@ -32,10 +32,8 @@
 - [Cloud Developer Tools](https://cloud.google.com/products/tools)
 - [Google Cloud Code](https://cloud.google.com/code)
 - [Google Cloud Build](https://cloud.google.com/cloud-build)
-- [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
 - [Platform comparisons](https://cloud.google.com/docs/compare)
     - [AWS and GCP comparison](https://cloud.google.com/docs/compare/aws)
-    - [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws/)
 - [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform/)
 - [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
     - [Google Cloud Skills Boost](https://inthecloud.withgoogle.com/free-training-21/register.html)
@@ -46,10 +44,8 @@
 
 - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)
 - [techradar.com: Google Cloud is making it easier for developers to smuggle ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code) Google Cloud wants to make building secure applications simpler
-- [venturebeat.com: Google Cloud announces Network Connectivity Center to simplify hybrid cloud management](https://venturebeat.com/2021/03/23/google-cloud-announces-network-connectivity-center-to-simplify-hybrid-cloud-management)
 - [cloud.google.com: Demystifying Cloud Spanner multi-region configurations](https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations) Cloud Spanner remains unique as a managed relational database that scales across regions while maintaining strong consistency. How does the regional and multi-regional setup differ?
 - [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison)
-- [thecloudgirl.dev: What is Google Cloud Load Balancing?](https://thecloudgirl.dev/CLB.html)
 - [cloud.google.com: Secret Manager Best Practices](https://cloud.google.com/secret-manager/docs/best-practices)
 - [cloud.google.com: Choose the best way to use and authenticate service accounts on Google Cloud](https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure)
 - [cloud.google.com: 5 cheat sheets to help you get started on your Google Cloud journey 🌟](https://cloud.google.com/blog/products/gcp/5-google-cloud-product-cheat-sheets-2021) Sometimes a picture is worth a thousand words, and that’s where these cheat sheets come in handy. Cloud Developer Advocate Priyanka Vergadia has built a number of guides that help developers visually navigate critical decisions, whether it’s determining the best way to move to the cloud, or deciding on the best storage options. Below are five of her top cheat sheets in one handy location.
@@ -80,7 +76,6 @@
 
 ## Google Landing Zone
 
-- [medium.com/google-cloud: Design your Landing Zone — Design Considerations Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)
 
 ## Dev Library
 
@@ -105,7 +100,6 @@
 
 - https://cloud.google.com/spanner
 - https://github.com/cloudspannerecosystem/autoscaler
-- [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler/)
 
 ## Serverless
 
@@ -115,12 +109,9 @@
 
 - [Anthos 🌟](https://cloud.google.com/anthos/)
 - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform/)
-- [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)
-- [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82)
 - [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://cloud.google.com/solutions/partners/a-hybrid-cloud-native-devsecops-pipeline-with-jfrog-artifactory-and-gke-on-prem) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud.
 - [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) Windows container support to GKE on-premises through Anthos.
 - [cloud.google.com: Anthos makes multi-cloud easier with new API, support for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)
-- [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) In this article, you will learn the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself
 
 ## Python
 
@@ -128,7 +119,6 @@
 
 ## Cloud Code
 
-- [Cloud Code 🌟](https://cloud.google.com/code) Everything you need to write, debug, and deploy your cloud-native applications.
 
 ## Google Cloud Buildpacks
 

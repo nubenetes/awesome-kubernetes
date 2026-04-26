@@ -14,36 +14,26 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
     - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/create-configure-manage-projects-openproject/)
     - [youtube.com: Learn to deploy OpenProject with Postgres in Kubernetes](https://www.youtube.com/watch?v=2mNAsrThius&ab_channel=CloudControl)
 - [==nextcloud.com==](https://nextcloud.com) Open Source On-Premises Content collaboration platform
-- [Servicenow](https://www.servicenow.com/)
-- [BMC Remedy ITSM](https://www.bmcsoftware.es/it-solutions/remedy-itsm.html)
 - [Atlassian Confluence](https://www.atlassian.com/software/confluence)
     - [nightfall.ai: Is Atlassian Cloud HIPAA Compliant?](https://nightfall.ai/atlassian-cloud-hipaa-compliant) HIPAA stands for Health Insurance Portability and Accountability Act, the standard for sensitive patient data protection.
 - [opensource.com: A guide to simplifying invoicing with this open source tool](https://opensource.com/article/21/7/open-source-invoicing-po) [project-open](https://www.project-open.com/) simplifies one of the most challenging activities in IT: writing customer invoices.
-- [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management/)
 - [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html) Download free over 300, customizable project plan templates for Microsoft Word to track, manage, and prioritize your projects.
 - Microsoft Excel:
-    - [mundodeportivo.com: 31 plantillas de Excel gratis agrupadas por usos](https://www.mundodeportivo.com/urbantecno/office/plantillas-de-excel-gratis-agrupadas-por-usos)
 - [namelix.com](https://namelix.com) Struggling to come up with a business name? Namelix can help you out.
 
 ## Alternatives
 
 - [32 Best Jira Alternatives For Agile Project Management Teams In 2020 [Free and Paid]](https://dzone.com/articles/32-best-jira-alternatives-for-agile-project-manage) 
-- [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software/)
 - [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence) BlueSpice, XWiki, and DokuWiki give you all the features of more popular knowledge-management software without the proprietary limitations.
 - [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com/article/356991) The pros and cons of five popular project management timeline software companies.
 - [joplin](https://github.com/laurent22/joplin) is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.
 - [Podium](https://github.com/sa-mw-dach/podium) A collaboration environment.
-- [Renoj](https://ribal.dev/renoj) Fast to-do task management in Desktop for ultimate productivity. Manage your day-to-day like a boss.
-- [neilpatel.com: Best Free Project Management Software](https://neilpatel.com/blog/best-free-project-management-software/)
-- [Swim](https://swimm.io/) Sync Teams with Code. 
     - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation/)
-- [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management/)
 - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)
 - [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom) Try one of these open source video conferencing services.
 - [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)
 - [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools) These articles show the power of open source in business as tools, platforms, or integration points.
 - [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter/)
-- [towardsdatascience.com: Personal Knowledge Graphs](https://towardsdatascience.com/personal-knowledge-graphs-9a23a0b099af) **A new generation of note-taking tools helps us quickly organize thoughts as knowledge graphs**
 - [ifuckinghatejira.com](https://ifuckinghatejira.com)
 
 ## Productivity Tips with .new TLD to quickly create

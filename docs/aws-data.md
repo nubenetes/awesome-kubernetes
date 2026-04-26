@@ -20,5 +20,4 @@
 
 - [AWS Data Pipeline](https://aws.amazon.com/datapipeline/)
 - [AWS Data Pipeline Documentation](https://docs.aws.amazon.com/data-pipeline/index.html)
-- [medium: No-Code Data Collect API on AWS](https://medium.com/@dima.statz_89242/no-code-data-collect-api-on-aws-d79e3681d204) A No-Code Data Collections mechanism for Big Data Pipelines on AWS.
 - [AWS Big Data Blog: Category - AWS Data Pipeline](https://aws.amazon.com/blogs/big-data/category/analytics/aws-data-pipeline/)

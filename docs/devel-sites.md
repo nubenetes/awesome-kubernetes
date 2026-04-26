@@ -26,23 +26,15 @@
 - https://opensource.apple.com 🌟
 - https://www.frontendmentor.io  Improve your front-end coding skills by building real projects
 - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) Recursos gratuitos para empezar a ser un Frontend Developer o ampliar conocimientos
-- [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
-- [medium: 5 Programming Languages that will Die](https://medium.com/@lidiaaa08/5-programming-languages-that-will-die-1a4e40371a2e)
-- [dev.to: Software Engineering Best Practices + The Best Resources to Save🚀](https://dev.to/alexomeyer/software-engineering-best-practices-useful-resources-c75)
 - [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/)
-- [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
 - [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/7-most-in-demand-and-high-paying-programming-jobs/)
 - [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/)
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
 - [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
-- [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
 - https://suckless.org/philosophy software that sucks less
-- [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
-- [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/)
 - [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)
 - [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/)
-- [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078)
 - [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) Full stack developers are in high demand in today's job market. But what does "full stack" actually mean, and what skills do you need to have? In this detailed guide, Dionysia explains what a full stack dev is, and what you should learn to become one.
 - [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)
 - [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff)
@@ -56,10 +48,6 @@
     - [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
     - [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
     - etc
-- [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb)
-- [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292)
-- [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d)
-- [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs. Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b)
 
 ## Documentation Driven Development (DDD)
 
@@ -85,10 +73,6 @@
 
 ### Red Hat Software Collections and Red Hat Developer Toolset
 
-- [==softwarecollections.org==](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use multiple versions of software on the same system, without affecting system-wide installed packages.
-- [developers.redhat.com: ==Red Hat Software Collections==](https://developers.redhat.com/products/softwarecollections/overview)
-- [developers.redhat.com: ==Red Hat Developer Toolset==](https://developers.redhat.com/products/developertoolset/overview)
-- [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally)
 
 ### Dhall Configuration Language
 
@@ -103,7 +87,6 @@
 ### OCLIF
 
 - [oclif.io 🌟](https://oclif.io) Build simple to advanced CLIs in minutes. oclif is an open source framework for building a command line interface (CLI) in Node.js. Create CLIs with a few flags or advanced CLIs that have subcommands. oclif makes it easy for you to build CLIs for your company, service, or your own development needs.
-- [medium.com/@jdxcode: 12 Factor CLI Apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
 
 ## AI Programming
 
@@ -114,7 +97,6 @@
 
 ## No code tools
 
-- [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
 
 ## Images
 

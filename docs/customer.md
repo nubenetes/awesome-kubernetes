@@ -37,7 +37,6 @@
 
 ### BMW ConnectedDrive and OpenShift
 
-- [**BMW ConnectedDrive**:](https://www.bmw-connecteddrive.com/) BMW ConnectedDrive Platform helps drivers communicate with their cars. Initially, the platform was enabled for convenience type of features like locating the vehicle, sounding the horn, locking the car, remote car health check... As the adoption of electric cars grows, BMW decided to create an ultimate driving experience by adding new services addressing the unique challenges of electric vehicles, like locating the closest electric charging stations, monitoring the car battery... This addition of new services has been creating new challenges in terms of API security.
 - [Red Hat OpenShift Container Platform Takes Digital Innovation into the Fast Lane with Major European Automaker](https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker)
 - [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus/)
 - [Youtube: BMW enables the BMW Group to deliver the continuous service that today's consumers expect (video starts at 1:29:00)](https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8): BMW Group started working with 4 Openshift clusters in 2016 to support ConnectedDrive, a solution that delivers IoT digital services since 20 years ago. It took them a full-time migration for 2 years with a big transformation of the culture of the company, migrating monolithic applications to microservices. This is a consequence of having 30% of growth of request rate, by selling 2.5 million of cars yearly, all of them connected. Traditional IT could not cope with this growth. In 2019 they have 19 Openshift Clusters worldwide, with 12000 containers, 300 microservices, and 1 Billion requests per week. Future plans are to move to OpenShift Dedicated in the Public Cloud since they need to be more scalable and resilient, while building an Artificial Intelligence platform with a Data Lake on the public cloud to offer the best possible experience to their customers.
@@ -54,7 +53,6 @@
 
 ## Audi
 
-- [redhat.com: Audi builds developer environment with Red Hat OpenShift](https://www.redhat.com/en/resources/audi-case-study) Audi decided to use Red Hat OpenShift, an enterprise Kubernetes platform, as the foundation of **Kubika-O**, its new self-service developer environment, to speed and scale delivery of innovative projects.
 
 ## Volkswagen
 
@@ -79,7 +77,6 @@
 ## IDRA Group
 
 - [teslarati.com: IDRA finishes 9,000-ton Giga Press; Tesla expecting it any day now](https://www.teslarati.com/idra-9000-ton-giga-press/)
-- [eleconomista.es: Giga Press, la colosal máquina de Tesla que ha revolucionado la fabricación de coches eléctricos](https://www.eleconomista.es/motor/noticias/12630740/01/24/giga-press-la-colosal-maquina-de-tesla-que-ha-revolucionado-la-fabricacion-de-coches-electricos.html)
 
 ## Williams F1
 
@@ -87,7 +84,6 @@
 
 ## Carrefour Spain
 
-- [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
 
 ## Decathlon
 
@@ -104,10 +100,8 @@
 ## AI for Medical Imaging
 
 - [chaimeleon.eu](https://chaimeleon.eu) Accelerating the lab to market transition of AI tools for cancer management. CHAIMELEON will set up an EU-wide structured repository for health imaging data as an open source for artificial intelligence (AI) experimentation in cancer management.
-- [healthitanalytics.com: AI for Medical Imaging Boosts Cancer Screenings with Provider Aid](https://healthitanalytics.com/news/ai-for-medical-imaging-boosts-cancer-screenings-with-provider-aid)
 - [valenciaplaza.com: El IIS La Fe liderará la dirección científica del Nodo Central del Atlas de Imágenes en Cáncer](https://valenciaplaza.com/iis-fe-liderara-direccion-cientifica-nodo-central-atlas-imagenes-cancer) Se trata de una plataforma diseñada para generar "conjuntos masivos de datos de calidad" centrados en la imagen médica y su información clínica, molecular y genética relacionada, obtenidos en el ámbito asistencial y de investigación. Estos datos enlazados permiten construir estudios clínicos observacionales controlados, como si fueran ensayos clínicos. Esta gran plataforma de imágenes y datos será también "clave" para el desarrollo y validación de modelos de inteligencia artificial que permitan un diagnóstico temprano, predecir la evolución de la enfermedad y estimar la respuesta a un tratamiento oncológico específico en un paciente concreto. Los datos clínicos y las imágenes que se obtienen en el ámbito asistencial se adquieren con el foco en un paciente individual, su aprovechamiento posterior necesita procesos que garanticen su seguridad (desidentificación) y normalización (armonización) para minimizar las diferencias en calidad de imagen entre diferentes equipamientos y fabricantes.
 - [aws.amazon.com: Accelerating radiology imaging workflows with relevant clinical context on AWS](https://aws.amazon.com/blogs/industries/accelerating-radiology-imaging-workflows-with-relevant-clinical-context-on-aws/)
-- [biobanking.com: Europe’s Leading Cancer Image Biobank (EUCAIM) Launched by Quibim and European Commission](https://www.biobanking.com/europes-leading-cancer-image-biobank-eucaim-launched-by-quibim-and-european-commission/)
 - [health.google: AI-enabled imaging and diagnostics previously thought impossible](https://health.google/intl/ALL_en/health-research/imaging-and-diagnostics/)
 - [nature.com: Quibim: empowering biopharma to turn images into actionable predictions using artificial intelligence](https://www.nature.com/articles/d43747-023-00028-w) Taking an innovative approach to applying artificial intelligence (AI) to medical imaging, Quibim is designing predictive panels to enable healthcare providers to improve patient outcomes.
 - [imperialbiosciencereview.wordpress.com: Redefining diagnostics: the integration of machine learning in medical imaging](https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2/)
@@ -117,7 +111,6 @@
 
 ## AXA Group
 
-- [hashicorp.com: Standardizing infrastructure automation with Terraform Enterprise](https://www.hashicorp.com/resources/building-a-migration-factory-with-terraform-enterprise-at-axa-group)
 
 ## Videos
 

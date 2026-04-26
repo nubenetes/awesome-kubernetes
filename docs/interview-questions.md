@@ -30,43 +30,33 @@
 
 ## Ansible Interview Questions
 
-- [interviewbit.com: Ansible Interview Questions](https://www.interviewbit.com/ansible-interview-questions/)
 - [guru99.com: Top 19 Ansible Interview Questions and Answers for 2022](https://www.guru99.com/ansible-interview-questions.html)
-- [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions/)
 
 ## Terraform Interview Questions
 
-- [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions/)
 - [simplilearn.com: Top 40 Terraform Interview Questions and Answers for 2022](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
 - [k21academy.com: Top Terraform Interview Questions & Answers [ Revised – 2022]](https://k21academy.com/terraform-iac/terraform-interview-questions/)
-- [mrdevops.hashnode.dev: Top 40 Terraform Interview Questions and Answers for 2023](https://mrdevops.hashnode.dev/top-40-terraform-interview-questions-and-answers-for-2023)
 - [fosstechnix.com: Top 50 Terraform Cloud Interview Questions and Answers](https://www.fosstechnix.com/terraform-cloud-interview-questions-and-answer/)
 
 ## AWS Interview Questions
 
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
-- [Frequently Asked AWS Interview Questions](https://www.interviewbit.com/aws-interview-questions/)
 - [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/top-aws-interview-questions-and-answers/)
 
 ## SQL Interview Questions
 
-- [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html)
 - [artoftesting.com: Top 40 SQL Query Interview Questions and Answers for Practice](https://artoftesting.com/sql-queries-for-interview)
 
 ## API and API Testing Interview Questions
 
 - [automationreinvented.blogspot.com: Top 30 API Testing Interview Questions & Answers for SDET/API Automation-Rest Assured? SET-03](https://automationreinvented.blogspot.com/2020/11/top-30-api-testing-interview-questions.html)
 - [automationqahub.com: Latest API Testing Interview Questions And Answers](https://automationqahub.com/latest-api-testing-interview-questions-and-answers/)
-- [grokkinginterview.com: 13 REST API interview questions you need to know](https://grokkinginterview.com/13-rest-api-interview-questions-you-need-to-know-f0e7ec857550)
 
 ## DevOps Interview Questions
 
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
-- [denic.hashnode.dev: Resources to crush the technical interview](https://denic.hashnode.dev/resources-to-crush-the-technical-interview)
 - [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline/)
 - [intellipaat.com: Top DevOps Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/devops-interview-questions/)
-- [vitalflux.com: 15 Tricky DevOps Architect Interview Questions & Answers](https://vitalflux.com/devops-architect-interview-questions)
-- [devsecops.co.in: DevOps Interview Questions and Answers](https://devsecops.co.in/2021/05/20/devops-interview-questions/)
 - [learnsteps.com: DevOps Interview Questions: What do you know about proc filesystem in Linux.](https://www.learnsteps.com/devops-interview-questions-what-do-you-know-about-proc-filesystem-in-linux/)
 - [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets/)
 
@@ -91,13 +81,9 @@
 ## Microservices Interview Questions
 
 - [java67.com: Top 15 Microservices Interview Questions with Answers for 3 to 5 Years Experienced](https://www.java67.com/2021/02/microservices-interview-questions-answers-java-spring.html)
-- [towardsdev.com: Microservice Interview questions for Backend Developers series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a)
 
 ## Java and Java Collections Interview Questions
 
-- [java-success.com: 01: 9 Java low latency interview questions & answers](https://www.java-success.com/writing-low-latency-applications-in-java/)
-- [java-success.com: 9 Java Garbage Collection interview questions & answers](https://www.java-success.com/java-garbage-collection-interview-questions-and-answers/)
-- [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)
 - [javaguides.net: Java main() Method Interview Questions with Answers](https://www.javaguides.net/2018/10/java-main-method-interview-questions-with-answers.html)
 
 ## Jenkins Interview Questions
@@ -111,7 +97,6 @@
 - [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html)
 - [intellipaat.com: Top Kubernetes Interview Questions and Answers](https://intellipaat.com/blog/interview-question/kubernetes-interview-questions-answers/)
 - [automationreinvented.blogspot.com: Top 11 Kubernetes interview question and answers for SDET Devops QA SET-01?](https://automationreinvented.blogspot.com/2020/09/top-11-kubernetes-interview-question.html)
-- [devsecops.co.in: Kubernetes Interview Questions and Answers](https://devsecops.co.in/2021/05/22/kubernetes-interview/)
 - [ymmt2005.hatenablog.com: 47 things that you should know to be a Kubernetes experts (questions + answers)](https://ymmt2005.hatenablog.com/entry/k8s-things)
 - [automationreinvented.blogspot.com: kubernetes posts](https://automationreinvented.blogspot.com/search/label/Kubernetes?m=1)
 - [jakubstransky.com: 4 devs by devs: Kubernetes interview question made easy](https://jakubstransky.com/2021/11/05/4-devs-kubernetes-interview-question-made-easy/) Distilled introduction for developers. Things I believe that every developer should be aware of.
@@ -123,7 +108,6 @@
 
 ## Scrum Product Owner Interview Questions
 
-- [age-of-product.com: Hiring: 71 Scrum Product Owner Interview Questions to Avoid Agile Imposters](https://age-of-product.com/42-scrum-product-owner-interview-questions/)
 
 ## Rest Assured Interview Questions
 

@@ -48,30 +48,24 @@
 
 - [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes/)
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
-- [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
 - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools/) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
-- [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [==ksoclabs/awesome-kubernetes-security== 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
-- [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
 - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
-- [k8s-at-home/awesome-home-kubernetes: Awesome Home Kubernetes 🌟](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
     - https://clusterpedia.io
 - [==mikeroyal/Kubernetes-Guide: Kubernetes Guide== 🌟](https://github.com/mikeroyal/Kubernetes-Guide) A guide covering Kubernetes including the applications and tools that will make you a better and more efficient Kubernetes developer.
 - [fairwinds.com: Top 12 Kubernetes Resources: Learn and Stay Up-to-Date](https://www.fairwinds.com/blog/top-12-kubernetes-resources)
 - [github.com/joseadanof: Awesome Cloud Native Trainings](https://github.com/joseadanof/awesome-cloudnative-trainings) In this repository, you will find all the free training with and without certificates that were released for different companies supporting Cloud Native Computing Foundations Projects and Kubernetes.
-- [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7) A curated (but not exhaustive) list of FOSS projects addressing multi-tenancy challenges in K8s.
 - [github.com/calvin-puram: Awesome Kubernetes Operator Resources](https://github.com/calvin-puram/awesome-kubernetes-operator-resources) Awesome Kubernetes Operator Resources is a curated list of awesome resources: articles, books and videos about Kubernetes Operators
 
 ## Other Awesome Lists
 
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
-- [Awesome WSL](https://awesomeopensource.com/project/sirredbeard/Awesome-WSL)
 - [Awesome Container](https://github.com/tcnksm/awesome-container) A curated list of awesome container technologies and services
 - [Awesome Productivity](https://github.com/jyguyomarch/awesome-productivity) A curated list of delightful productivity resources.
 - [Awesome Linux](https://github.com/inputsh/awesome-linux) A list of awesome projects and resources that make Linux even more awesome
@@ -81,8 +75,6 @@
 - [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.
 - [How they SRE](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) Materials to help you rock your next coding interview
-- [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
-- [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github](https://awesomeopensource.com/projects/cidr)
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) A collection of ZSH frameworks, plugins, themes and tutorials.
 - [developer-guy/awesome-falco](https://github.com/developer-guy/awesome-falco) A curated list of Falco related tools, frameworks and articles
 - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
@@ -136,7 +128,6 @@
 ### DevSecOps
 
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)
-    - [==sottlmarek/DevSecOps - kubernetes==](https://github.com/sottlmarek/DevSecOps#kubernetes)
 - [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) Collection and Roadmap for everyone who wants DevSecOps
 
 ### GitOps
@@ -150,11 +141,9 @@
 - [SquadcastHub/awesome-sre-tools](https://github.com/SquadcastHub/awesome-sre-tools)
 - [mancubus77/awesome-sre](https://github.com/mancubus77/awesome-sre)
 - [awesome-sre/awesome-sre](https://github.com/awesome-sre/awesome-sre)
-- [upgundecha/howtheysre 🌟](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 
 ### OpenShift
 
-- [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
 ### Microservices
@@ -189,7 +178,6 @@
 
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Compose](https://github.com/docker/awesome-compose)
-    - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/) for project development kickoff
 - [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions/) A Curated List of Docker Extensions
 
 ### Configuration Management
@@ -231,7 +219,6 @@
 - Awesome Go:
     - [Awesome Go](https://github.com/avelino/awesome-go)
         - [awesome-go.com](https://awesome-go.com/)
-        - [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
     - [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
     - [nleiva/go-links](https://github.com/nleiva/go-links)
 - Awesome .NET Core:
@@ -252,7 +239,6 @@
 
 #### Bash
 
-- [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
 - [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets/) Generate SSH Keys, Push SSH public key, run remote commands, etc.
 
 #### Powershell
@@ -279,7 +265,6 @@
 ## Open Source Alternatives
 
 - [opensource.builders](https://opensource.builders/)
-- [free-for.dev](https://free-for.dev/)
 
 ## Kubectl Plugins
 
