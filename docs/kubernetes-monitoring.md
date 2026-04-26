@@ -27,7 +27,6 @@
 - [sysdig.com: Monitoring Kubernetes in Production](https://sysdig.com/blog/monitoring-kubernetes/)
 - [sysdig.com: How to monitor Kubernetes control plane](https://sysdig.com/blog/monitor-kubernetes-control-plane/)
 - [thenewstack.io: 12 Critical Kubernetes Health Conditions You Need to Monitor](https://thenewstack.io/12-critical-kubernetes-health-conditions-you-need-to-monitor/)
-- [devopscurry.com: Best  Open-Source Monitoring Tools for Kubernetes in 2021](https://devopscurry.com/best-open-source-monitoring-tools-for-kubernetes-in-2021/)
 - [circonus.com: 12 Critical Kubernetes Health Conditions You Need to Monitor and Why](https://www.circonus.com/2020/12/12-critical-kubernetes-health-conditions-you-need-to-monitor-and-why/)
 - [circonus.com: Guide to Kubernetes Monitoring: Part 1](https://www.circonus.com/2020/09/guide-to-kubernetes-monitoring-part-1/)
     - [circonus.com: Guide to Monitoring Kubernetes, Part 2: Which Metrics and Health Conditions You Should be Monitoring](https://www.circonus.com/2021/01/guide-to-monitoring-kubernetes-part-2-which-metrics-and-health-conditions-you-should-be-monitoring/)
@@ -41,7 +40,6 @@
 - [youtube.com: Cloud Quick POCs - Kubernetes monitoring metrics using Grafana Cloud on AWS EKS | Observability | Grafana](https://www.youtube.com/watch?v=FVDHWPxK5nU&ab_channel=CloudQuickPOCs)
 - [loft.sh: Kubernetes Cost Monitoring with Prometheus & Grafana](https://loft.sh/blog/kubernetes-cost-monitoring-with-prometheus-and-grafana/)
 - [==anaisurl.com: Full Tutorial: Monitoring and Troubleshooting stack with Prometheus, Grafana, Loki and Komodor== 🌟](https://anaisurl.com/full-tutorial-monitoring/)
-- [==blog.flant.com: Collecting system information from a bunch of Kubernetes clusters==](https://blog.flant.com/collect-system-information-stats-from-kubernetes-clusters/)
 - [medium.com/is-it-observable: How to collect metrics in a Kubernetes cluster](https://medium.com/is-it-observable/how-to-collect-metrics-in-a-kubernetes-cluster-9ad4a69aafb0)
 - [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913)
 - [medium.com/@lucapompei91: Kubernetes observability](https://medium.com/@lucapompei91/kubernetes-observability-17a7875a38f6)
@@ -61,7 +59,6 @@
 - [dev.to/mikeyglitz: Proactive Kubernetes Monitoring with Alerting](https://dev.to/mikeyglitz/proactive-kubernetes-monitoring-with-alerting-58en) In this tutorial, you'll learn how to combine Prometheus, Alertmanager, Grafana and Linkerd to deliver timely alerts when a problem occurs in a Kubernetes cluster.
 - [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes/)
 - [grafana.com: How to manage high cardinality metrics in Prometheus and Kubernetes](https://grafana.com/blog/2022/10/20/how-to-manage-high-cardinality-metrics-in-prometheus-and-kubernetes/)
-- [==containiq.com: Leveraging Kubernetes Metrics | Tutorial & Tools To Use==](https://www.containiq.com/post/kubernetes-metrics) In Kubernetes, resource metrics, cluster state metrics, and control plane metrics are mission-critical. In this article, we explore these three types of metrics, explain how to use them, and introduce a number of tools to collect and monitor them.
 - [medium.com/@HirenDhaduk1: Top Kubernetes Observability Tools and their Usage](https://medium.com/@HirenDhaduk1/top-kubernetes-observability-tools-and-their-usage-e4e8eef8aec3)
 - [milindasenaka96.medium.com: Setup Prometheus and Grafana to Monitor the K8s Cluster](https://milindasenaka96.medium.com/setup-prometheus-and-grafana-to-monitor-the-k8s-cluster-e1d35343d7a9)
 - [blog.fourninecloud.com: Kubernetes monitoring — How to monitor using prometheus?](https://blog.fourninecloud.com/kubernetes-monitoring-how-to-monitor-using-prometheus-f2eff767f6bb)
@@ -103,7 +100,6 @@
 - [medium: How to Deploy an EFK stack to Kubernetes](https://medium.com/avmconsulting-blog/how-to-deploy-an-efk-stack-to-kubernetes-ebc1b539d063)
 - [digitalocean.com: How To Set Up an Elasticsearch, Fluentd and Kibana (EFK) Logging Stack on Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes)
 - [portworx.com: How to backup and restore Elasticsearch on Kubernetes](https://portworx.com/how-to-backup-and-restore-elasticsearch-on-kubernetes/)
-- [elastic.co: Elastic Stack Monitoring with Elastic Cloud on Kubernetes (ECK - official operator)](https://www.elastic.co/es/blog/elastic-stack-monitoring-with-elastic-cloud-on-kubernetes) In this blog post, we'll explore how the official **ElasticCloud** on **Kubernetes operator** can be used to easily deploy and manage **ElasticStack Monitoring** using the new **Beat CRD**.
 - [papertrail.com: Quick and Easy Way to Implement Kubernetes Logging](https://www.papertrail.com/blog/quick-and-easy-way-to-implement-kubernetes-logging/) The SolarWinds® Papertrail™ team is excited to announce SolarWinds rKubeLog, an open-source project designed to streamline Kubernetes logging. rKubeLog allows you to forward logs to Papertrail from within a Kubernetes cluster without using a daemon or setting up application-level logging or a logging sidecar.
 - [qlinh.com: Leveraging Kubernetes audit logs for threat detection](https://qlinh.com/infosec/2020/09/30/threat-detection-with-kubernetes-audit-logs.html) Kubernetes audit logs can provide great visibility into the operation and inner workings of your cluster. Learn how to leverage Kubernetes audit logs for threat detection
 - [itnext.io: Kubernetes Logging in Production](https://itnext.io/kubernetes-logging-in-production-545ea88d9a4a)
@@ -116,7 +112,6 @@
     - In Kubernetes 1.19, we are adding support for structured logs, which natively support (key, value) pairs and object references. We have also updated many logging calls such that over 99% of logging volume in a typical deployment are now migrated to the structured format.
     - To maintain backwards compatibility, structured logs will still be outputted as a string where the string contains representations of those “key”=”value” pairs. Starting in alpha in 1.19, logs can also be outputted in JSON format using the --logging-format=json flag.
 - [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3) Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.
-- [==containiq.com: Kubernetes Audit Logs | Use Cases & Best Practices==](https://www.containiq.com/post/kubernetes-audit-logs) Kubernetes audit logs are powerful, but only if enabled and correctly configured. This article will help you get started using audit logs, and show you how to get the most out of them.
 - [blog.devops.dev: Importance of Logging In Kubernetes, Intro to Grafana Loki & deploying with helm-charts](https://blog.devops.dev/importance-of-logging-in-kubernetes-and-intro-to-grafana-loki-f8dc6f736e6)
 - [faun.pub: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://faun.pub/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-86076da0812f) We are going to learn how to use the Sidecar Container pattern to install Logstash and FluentD on Kubernetes for log aggregation.
 - [dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi)
@@ -166,7 +161,6 @@
 - [==github.com/microsoft/retina==](https://github.com/microsoft/retina) - [retina.sh](https://retina.sh) **eBPF distributed networking observability tool for Kubernetes**
     - Retina is a cloud-agnostic, open-source Kubernetes network observability platform that provides a centralized hub for monitoring application health, network health, and security. It provides actionable insights to cluster network administrators, cluster security administrators, and DevOps engineers navigating DevOps, SecOps, and compliance use cases.
     - Retina collects customizable telemetry, which can be exported to multiple storage options (such as Prometheus, Azure Monitor, and other vendors) and visualized in a variety of ways (like Grafana, Azure Log Analytics, and other vendors).
-- [blog.teknews.cloud/aks: A look at Retina on AKS](https://blog.teknews.cloud/aks/network/2024/06/29/A_look_at_Retina_on_AKS.html)
 
 ## Videos
 
