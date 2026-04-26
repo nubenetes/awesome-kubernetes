@@ -75,7 +75,6 @@
 
 ### Azure Red Hat OpenShift ARO
 
-- [ARO](https://www.openshift.com/products/azure-openshift)
 - [aroworkshop.io 🌟](http://aroworkshop.io/) 
 - [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/jboss-deployment-red-hat)
 
@@ -97,11 +96,6 @@
 
 Reference | Author | URL
 :---------|:-------------|:-------------
-"Given the difficulty of navigating the cloud-native ecosystem, especially the one around Kubernetes, **there is a high demand for easy-to-administer development platforms** that deliver applications in Kubernetes-managed containers."| OMDIA|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
-Industry momentum has aligned behind Kubernetes as the orchestration platform for Linux® containers. Choosing Kubernetes means you’ll be running the de facto standard regardless of which cloud environments and providers are in your future.|CNCF Survey 2019|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
-“It's not just enough to do Kubernetes. **You do need to do CI/CD.** You need to use alerting. You need to understand how the security model of the cloud and your applications interplay.”|Clayton Coleman,Senior Distinguished Engineer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
-“Kubernetes is scalable. It helps develop applications faster. It does hybrid and multicloud. These are not just technology buzzwords, they're real, legitimate business problems.”|Brian Gracely,Director, Product Strategy, Red Hat OpenShift|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
-“Our job is to **make it easier and easier to use**, either from an ops point of view or a developer point of view—while acknowledging it is complex, because we're solving a complex problem.”|Chris Wright,Chief Technology Officer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
 
 <center>
 [![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users/)
@@ -110,7 +104,6 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ## OpenShift.io online IDE
 
-- [openshift.io 🌟](https://openshift.io/) an online IDE for building container-based apps, built for team collaboration.
 
 ## OC CLI Auto Completion
 
@@ -180,7 +173,6 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### OKD 3
 
-- [OKD.io:](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
 - [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
 - [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
 - [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.
@@ -292,7 +284,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://access.redhat.com/containers/) License required
 - [DockerHub OpenShift](https://hub.docker.com/r/openshift/)
 - [github.com/sclorg/](https://github.com/sclorg/)
-- [github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
 - [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
 ### Gitlab
@@ -316,7 +307,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [cloudpak8s.io](https://cloudpak8s.io/) 
 - **What are IBM Cloud Paks?** Beyond containers and Kubernetes, enterprises need to orchestrate their production topology, and to provide management, security and governance for their applications. They need to do this while improving efficiency and resiliency, reducing costs and maximizing ROI.
-- IBM Cloud® Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud. Each IBM Cloud Pak® includes containerized IBM middleware and common software services for development and management, on top of a common integration layer — designed to **reduce development time by up to 84 percent and operational expenses by up to 75 percent**. **IBM Cloud Paks run wherever Red Hat® OpenShift® runs** and are optimized for productivity and performance on [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift).
 - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/) The **Cloud Pak for Applications** provides product offerings to support **modernizing existing applications and building new cloud native applications**. The applications run within a **Kubernetes cluster** provided with the **Red Hat OpenShift Container Platform**. The focus provided here is on running application workloads as containers. The Cloud Pak for Applications is a bundle of multiple offerings.  This diagram provides an overview of what offerings are included and what they would be used for:
 
 <center>
@@ -331,7 +321,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ## OpenShift Dedicated
 
-- [OpenShift Dedicated 🌟](https://www.openshift.com/products/dedicated/)
 - [Bringing OpenShift Dedicated to Life at Red Hat](https://www.openshift.com/blog/bringing-openshift-dedicated-to-life-at-red-hat)
 - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 
@@ -339,4 +328,3 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
-
