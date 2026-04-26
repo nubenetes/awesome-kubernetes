@@ -51,8 +51,6 @@
 - [Orchestrate: DBaaS|NoSQL with One REST API](https://orchestrate.io/)
 - [mongodirector: MongoDB Hosting](http://mongodirector.com)
 - [MongoDB security tutorial](https://docs.mongodb.org/manual/administration/security)
-- [MongoDB Security Part 1 - Design and Configuration](http://blog.mongodb.org/post/86408399868/mongodb-security-part-1-design-and-configuration)
-- [MongoDB Security Part II: 10 mistakes that can compromise your database](http://blog.mongodb.org/post/87691901392/mongodb-security-part-ii-10-mistakes-that-can)
 - [Avoiding pitfalls running Mongo 3.2 in Docker on OSX](https://iainhunter.wordpress.com/2016/01/12/avoiding-pitfalls-running-mongo-3-2-in-docker-on-osx/)
 - [MongoDB Tutorial – A Scalable NoSQL DB](http://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)
 - [MongoDB Cloud Manager](https://youtu.be/bB57HKeOvmw)
@@ -61,7 +59,6 @@
 - [MongoDB Administration Checklist for MySQL DBAs 🌟](https://dzone.com/articles/mongodb-administration-checklist-for-mysql-dbas) If you are MySQL DBA, starting MongoDB administration is not always an easy transition. This post provides a checklist for MongoDB administrators who are familiar with MySQL.
 - [DZone: Maximizing MongoDB on AWS](https://dzone.com/articles/maximizing-mongodb-on-aws) This lengthy post will tell you everything you need to know about getting MongoDB Atlas working as best as it can on Amazon Web Services.
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/kubernetes)
-- [polarsparc.com: Hands-on MongoDB :: Part-5 🌟](https://www.polarsparc.com/xhtml/MongoDB-5.html)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport/)
 - [==adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation== 🌟](https://adamtheautomator.com/mongodb-kubernetes/) In this tutorial, you'll learn how to deploy MongoDB to Kubernetes using the MongoDB Operator.
@@ -72,7 +69,6 @@
 ### Redis
 
 - [Redis](http://redis.io/)
-- [Start to Finish with Databases on Kubernetes 🌟](https://redislabs.com/blog/start-to-finish-with-databases-on-kubernetes/)
 
 ### Alternatives
 
@@ -117,4 +113,3 @@
 	<center>
 	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Very interesting decision matrix for multicloud on data.. <a href="https://twitter.com/hashtag/cloud?src=hash&amp;ref_src=twsrc%5Etfw">#cloud</a> <a href="https://twitter.com/hashtag/sql?src=hash&amp;ref_src=twsrc%5Etfw">#sql</a> <a href="https://t.co/aAWJ9uzK65">pic.twitter.com/aAWJ9uzK65</a></p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1499870941727313922?ref_src=twsrc%5Etfw">March 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</center>
-
