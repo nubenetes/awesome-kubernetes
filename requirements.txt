@@ -1,6 +1,5 @@
-# Núcleo de IA y API
+# Núcleo de IA (Ligero y sin compilación)
 google-generativeai
-pydantic-ai
 pydantic>=2.7.0
 
 # Integración con X y GitHub
@@ -8,7 +7,7 @@ twikit==1.7.6
 PyGithub
 
 # Utilidades de Red y Saneamiento
-aiohttp[speedups]
+aiohttp
 beautifulsoup4
 httpx
 fake-useragent

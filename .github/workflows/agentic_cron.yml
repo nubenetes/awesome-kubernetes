@@ -1,8 +1,8 @@
-name: Nubenetes - Intelligent Health Check
+name: Nubenetes - Discovery & Ingestion
 
 on:
   schedule:
-    - cron: '0 0 1 * *' # El día 1 de cada mes
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  health-check-process:
+  discovery-process:
     runs-on: ubuntu-latest
     steps:
       - name: Sincronización del repositorio
@@ -27,10 +27,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Ejecución de Revisión Inteligente de Enlaces
+      - name: Ejecución de Descubrimiento e Inyección
         env:
+          TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
+          TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
+          TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONPATH: .
         run: |
-          # Aumentamos el tiempo de espera ya que este proceso es más lento
-          python src/main.py health
+          python src/main.py discovery

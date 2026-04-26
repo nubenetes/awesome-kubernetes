@@ -1,37 +1,50 @@
+import json
+import google.generativeai as genai
 from pydantic import BaseModel, Field
-from pydantic_ai import Agent
-from typing import List, Optional
-from src.config import NUBENETES_CATEGORIES
+from typing import List
+from src.config import GEMINI_API_KEY, NUBENETES_CATEGORIES
 
 class LinkEvaluationResult(BaseModel):
-    is_exceptional_value: bool = Field(description="¿Es un recurso avanzado o disruptivo para el ecosistema Kubernetes/SRE?")
-    category_assignments: List[str] = Field(description="Lista de categorías donde encaja este recurso.", min_items=1)
-    canonical_title: str = Field(description="Título formal y directo, omitiendo lenguaje de marketing.")
-    technical_description: str = Field(description="Descripción técnica de máx 150 caracteres enfocada en la utilidad.")
-    evaluation_rationale: str = Field(description="Razonamiento interno justificando la decisión de retener o purgar el enlace.")
+    is_exceptional_value: bool
+    category_assignments: List[str]
+    canonical_title: str
+    technical_description: str
+    evaluation_rationale: str
 
-# NOTA: En versiones recientes de pydantic-ai, result_type se pasa al ejecutar .run() 
-# o se define en la configuración del agente según la versión. 
-# Para máxima compatibilidad, lo definiremos aquí.
-
-curation_agent = Agent(
-    'google-gla:gemini-1.5-flash',
-    system_prompt=(
-        "Actúas como el Ingeniero Curador Principal de 'nubenetes/awesome-kubernetes'. "
-        "Tu misión es filtrar recursos de altísima calidad sobre K8s, Agentes de IA, MCP y Cloud Native. "
-        "Puedes asignar un recurso a MÁS DE UNA categoría si es estrictamente necesario, pero intenta ser preciso. "
-        "Categorías válidas: " + ", ".join(NUBENETES_CATEGORIES)
-    )
-)
+# Configuración del modelo
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 async def evaluate_extracted_assets(raw_assets: list[dict]) -> list[dict]:
     curated_assets = []
+    
+    system_instruction = (
+        "Actúas como el Ingeniero Curador Principal de 'nubenetes/awesome-kubernetes'. "
+        "Tu misión es filtrar recursos de altísima calidad sobre K8s, Agentes de IA, MCP y Cloud Native. "
+        "Categorías válidas: " + ", ".join(NUBENETES_CATEGORIES) + ". "
+        "Responde EXCLUSIVAMENTE en formato JSON siguiendo el esquema de LinkEvaluationResult."
+    )
+
     for asset in raw_assets:
-        cognitive_prompt = f"Evalúa este candidato:\nURL: {asset['url']}\nContexto: {asset['context']}"
+        prompt = (
+            f"{system_instruction}\n\n"
+            f"Evalúa este candidato:\nURL: {asset['url']}\nContexto: {asset['context']}\n"
+            "Si el recurso no es de alta calidad o no encaja en las categorías, pon is_exceptional_value como false."
+        )
+        
         try:
-            # Pasamos result_type aquí para evitar errores de inicialización
-            response = await curation_agent.run(cognitive_prompt, result_type=LinkEvaluationResult)
-            ev = response.data
+            # Generación con restricción de formato (JSON)
+            response = model.generate_content(
+                prompt,
+                generation_config=genai.GenerationConfig(
+                    response_mime_type="application/json"
+                )
+            )
+            
+            data = json.loads(response.text)
+            # Validar con Pydantic para asegurar integridad
+            ev = LinkEvaluationResult(**data)
+            
             if ev.is_exceptional_value:
                 for cat in ev.category_assignments:
                     if cat in NUBENETES_CATEGORIES:
@@ -42,5 +55,6 @@ async def evaluate_extracted_assets(raw_assets: list[dict]) -> list[dict]:
                             "category": cat
                         })
         except Exception as e:
-            print(f"Error evaluando {asset['url']}: {str(e)}")
+            print(f"[!] Error evaluando con Gemini: {e}")
+            
     return curated_assets
