@@ -1,0 +1,36 @@
+name: Nubenetes - Intelligent Health Check
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # El día 1 de cada mes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  health-check-process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sincronización del repositorio
+        uses: actions/checkout@v4
+      
+      - name: Provisión del Entorno Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          
+      - name: Instalación del Árbol de Dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Ejecución de Revisión Inteligente de Enlaces
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: .
+        run: |
+          # Aumentamos el tiempo de espera ya que este proceso es más lento
+          python src/main.py health

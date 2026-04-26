@@ -1,8 +1,8 @@
-name: Nubenetes Automated Agentic Curation
+name: Nubenetes - Discovery & Ingestion
 
 on:
   schedule:
-    - cron: '0 5 * * 0'
+    - cron: '0 5 * * *' # Diario a las 5 AM
   workflow_dispatch:
 
 permissions:
@@ -10,25 +10,29 @@ permissions:
   pull-requests: write
 
 jobs:
-  agentic-curation-process:
+  discovery-process:
     runs-on: ubuntu-latest
     steps:
       - name: Sincronización del repositorio
         uses: actions/checkout@v4
+      
       - name: Provisión del Entorno Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
+          
       - name: Instalación de dependencias del sistema
         run: |
           sudo apt-get update
           sudo apt-get install -y protobuf-compiler
+          
       - name: Instalación del Árbol de Dependencias
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Ejecución de la Canalización Agéntica Integral
+          
+      - name: Ejecución de Descubrimiento e Inyección
         env:
           TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
           TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
@@ -37,4 +41,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONPATH: .
         run: |
-          python src/main.py
+          python src/main.py discovery

@@ -8,3 +8,4 @@ pytz
 python-dotenv
 pydantic>=2.7.0
 httpx
+fake-useragent
