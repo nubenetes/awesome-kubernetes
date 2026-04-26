@@ -147,7 +147,6 @@ A simple extension to make indentation more readable
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) Makes it easy to create, manage, and debug containerized applications.
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) Support for [DotENV](https://github.com/zaynali53/DotENV) file syntax
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) Use Facebook's [Jest](https://github.com/facebook/jest), a delightful JavaScript Testing Framework.
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) This extension integrates Draw.io into VS Code.
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) Automating the process of writing meaningful log messages.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) Visual Studio Code plugin that autocompletes filenames
@@ -216,7 +215,6 @@ A simple extension to make indentation more readable
 - [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow)
 - [Kubernetes (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) Develop, deploy and debug Kubernetes applications
 - [Kubernetes Kind (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode)
-- [Docker (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) Syntax highlighting, linting, formatting, and validation for Hashicorp's Terraform
     - [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/)
     - [Announcing the Terraform Visual Studio Code Extension v2.0.0](https://www.hashicorp.com/blog/announcing-the-terraform-visual-studio-code-extension-v2-0-0/)
@@ -264,7 +262,6 @@ A simple extension to make indentation more readable
 
 ## Python in Visual Studio Code
 
-- [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
 - [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/)
 - [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/)
 
@@ -331,7 +328,6 @@ A simple extension to make indentation more readable
 - [Java, Gradle, and VS Code](https://www.youtube.com/shorts/0xq_ZYfl6Vk)
 - [VS Code February 2023 Release Highlights (v1.76)](https://www.youtube.com/shorts/hdmaP4ibJ4I)
 - [Extension of the week: Thunder Client](https://www.youtube.com/shorts/X3wgBid4gO8)
-- [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4)
 - [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI)
 - [Extensión de Visual Studio Code que genera tests y mejora tu código](https://youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)
 - [Create diagrams in vscode](https://www.youtube.com/shorts/0N-NFIfy5lI)
