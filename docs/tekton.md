@@ -14,7 +14,6 @@
 - [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/)
 - [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)
 - [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
-- [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
 - [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)
 - [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines)
 - [developers.redhat.com: An introduction to cloud native CI/CD with Red Hat OpenShift pipelines](https://developers.redhat.com/blog/2019/07/18an-introduction-to-cloud-native-ci-cd-with-red-hat-openshift-pipelines/)
