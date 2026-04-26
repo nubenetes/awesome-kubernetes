@@ -1,11 +1,18 @@
-twikit==1.7.6
-pydantic-ai
+# Núcleo de IA y API
 google-generativeai
-PyGithub
-aiohttp
-beautifulsoup4
-pytz
-python-dotenv
+pydantic-ai
 pydantic>=2.7.0
+
+# Integración con X y GitHub
+twikit==1.7.6
+PyGithub
+
+# Utilidades de Red y Saneamiento
+aiohttp[speedups]
+beautifulsoup4
 httpx
 fake-useragent
+
+# Otros
+pytz
+python-dotenv

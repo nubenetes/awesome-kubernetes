@@ -2,7 +2,7 @@ name: Nubenetes - Discovery & Ingestion
 
 on:
   schedule:
-    - cron: '0 5 * * *' # Diario a las 5 AM
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 permissions:
@@ -20,16 +20,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
           
-      - name: Instalación de dependencias del sistema
+      - name: Instalación de dependencias del sistema (Protobuf)
         run: |
           sudo apt-get update
           sudo apt-get install -y protobuf-compiler
+          echo "PROTOC=$(which protoc)" >> $GITHUB_ENV
           
       - name: Instalación del Árbol de Dependencias
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip setuptools wheel
+          # Instalamos grpcio primero para evitar que otras lo compilen mal
+          pip install grpcio-tools 
           pip install -r requirements.txt
           
       - name: Ejecución de Descubrimiento e Inyección
