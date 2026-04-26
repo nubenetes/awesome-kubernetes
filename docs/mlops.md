@@ -167,7 +167,6 @@
 
 ## KServe Cloud Native Model Server
 
-- [kserve.github.io](https://kserve.github.io/website/0.8/) Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI
 - [thenewstack.io: KServe: A Robust and Extensible Cloud Native Model Server](https://thenewstack.io/kserve-a-robust-and-extensible-cloud-native-model-server/)
 - [medium.com/bakdata: Scalable Machine Learning with Kafka Streams and KServe](https://medium.com/bakdata/scalable-machine-learning-with-kafka-streams-and-kserve-85308858d867) In this blog post, you'll learn how to use Apache Kafka and Kafka Streams in combination with the KServe inference platform for an easy integration of ML models with data streams
 
@@ -275,4 +274,3 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Building robust <a href="https://twitter.com/hashtag/data?src=hash&amp;ref_src=twsrc%5Etfw">#data</a> and <a href="https://twitter.com/hashtag/ML?src=hash&amp;ref_src=twsrc%5Etfw">#ML</a> pipelines by tapping into the power of multiple tools and integrating them should not be a challenging task.<br><br>With Flyte, you can simplify the entire process of developing data and ML pipelines through access to more than 30 integrations. ✨ <a href="https://t.co/UBege732tQ">pic.twitter.com/UBege732tQ</a></p>&mdash; Flyte (@flyteorg) <a href="https://twitter.com/flyteorg/status/1633771669566238723?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-
