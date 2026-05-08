@@ -66,7 +66,6 @@
 
 ## Kubernetes and AI
 
-- [k8sgpt.ai](https://k8sgpt.ai) k8sgpt is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
 - [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin/)
 
 ## IaC Terraform and AI
@@ -90,6 +89,7 @@
 - [github.com/SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers) This repository is a curated collection of the most exciting and influential CVPR 2023 papers.
 
 ## AIOps
+  - [kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
 
 - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)
     - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 2](https://www.apmdigest.com/aiops-itops-2)
