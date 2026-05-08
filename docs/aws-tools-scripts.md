@@ -46,7 +46,6 @@
 - [github.com/awslabs/amazon-s3-tar-tool: Amazon S3 Tar Tool](https://github.com/awslabs/amazon-s3-tar-tool) A utility tool to create a tarball of existing objects in Amazon S3
 - [==github.com/aws-samples/aws-cdk-stack-builder-tool==](https://github.com/aws-samples/aws-cdk-stack-builder-tool) AWS CDK Builder is a browser-based tool designed to streamline bootstrapping of Infrastructure as Code (IaC) projects using the AWS Cloud Development Kit (CDK).
 - [github.com/containerscrew/aws-sso-auth](https://github.com/containerscrew/aws-sso-auth) Fetch your local ~/.aws/credentials using AWS SSO
-- [==cloudcatalog.dev==](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
 - [==spacelift.io/blog/aws-s3-cp: AWS S3 Cp [Copy] Command Overview with Examples==](https://spacelift.io/blog/aws-s3-cp) Effectively working with S3 requires moving data in and out of S3 buckets efficiently, supporting use cases such as web hosting, content distribution, backups, archiving, media storage and streaming, and more. In this article, we will explore how to use the aws s3 cp command to transfer data between your local filesystem and the S3 buckets.
 - [github.com/infrahouse/infrahouse-toolkit](https://github.com/infrahouse/infrahouse-toolkit) A collection of tools for building infrastructure
 
@@ -92,12 +91,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 - [Amazon CodeWhisperer 🌟](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 - [genbeta.com: Amazon lanza CodeWhisperer, su propia alternativa a GitHub Copilot… que no insertará código ya licenciado sin avisar](https://www.genbeta.com/desarrollo/amazon-lanza-codewhisperer-su-propia-alternativa-a-github-copilot-que-no-insertara-codigo-licenciado-avisar)
-- [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)
 - [aws.amazon.com/blogs: Introducing Amazon CodeWhisperer for command line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/)
 
 ## AWS S3 Sync
 
-- [==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==](https://blog.awsfundamentals.com/aws-s3-sync) Learn all about AWS S3 sync - covering download, upload, synchronize buckets, file selection patterns, dry-run, and more - examples included. The CLI is a daily tool for every DevOps engineer working with AWS. A deep-dive for the 𝗮𝘄𝘀 𝘀𝟯 𝘀𝘆𝗻𝗰 command & its powerful options.
 
 ## Third Party Tools
 
