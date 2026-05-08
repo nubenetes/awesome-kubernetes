@@ -43,11 +43,9 @@
 - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
 - [AWS Support](https://aws.amazon.com/en/premiumsupport/)
-- [github.com/awslabs](https://github.com/awslabs)
 - [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)
 - [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/tutorials/)
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
-- [onlineitguru.com: AWS Services](https://onlineitguru.com/tutorial/aws-services)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides/) Your guides to learning the AWS Cloud. Build Your AWS Cloud Knowledge with Ramp-Up Guides.
 - [serverlessland.com](https://serverlessland.com/) This site brings together all the latest blogs, videos, and training for AWS Serverless. Learn to use and build apps that scale automatically on low-cost, fully-managed serverless architecture.
@@ -57,7 +55,6 @@
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
 - [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free/)
 - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)
-- [dzone: AWS Elastic Compute Cloud (EC2) Basics](https://dzone.com/articles/aws-elastic-compute-cloud-ec2-basics) We will learn about IP Addresses and also connect to public EC2 instances externally using SSH. Let's have a look at public and private IP behavior first.
 - [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) In this post, we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://acloudguru.com/blog/engineering/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
 - [dannys.cloud: 10 Best Free AWS Learning Resources for Beginners](https://dannys.cloud/10-best-free-aws-learning-resources-for-beginners) This blogpost provides free resources for beginners to get started with AWS through videos, whitepapers, labs, and certification guides.
@@ -65,7 +62,6 @@
 - [towardsaws.com: A Gentle Introduction to Amazon Web Services (AWS)](https://towardsaws.com/a-gentle-introduction-to-amazon-web-services-aws-50f18c7c57dc)
 - [docs.aws.amazon.com: The AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html)
 - [thenewstack.io: The AWS Shared Responsibility Model for Kubernetes](https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes/)
-- [dzone: Migrating to AWS](https://dzone.com/articles/migrating-to-aws) AWS Cloud is the way to go, but migrating to the cloud is not simple. Read this article for a step-by-step migration strategy.
 - [medium: AWS Services Every Developer Should Be Aware Of](https://medium.com/@ashish_fagna/aws-services-every-developer-should-be-aware-of-f7c48aaa854f)
 - [blog.cloudyali.io: The Absolute minimum every developer must know about AWS security!](https://blog.cloudyali.io/absolute-minimum-every-developer-must-know-about-aws-security)
 - [acloudguru.com: 12 AWS Config rules that every account should have](https://acloudguru.com/blog/engineering/12-aws-config-rules-that-every-account-should-have)
@@ -124,7 +120,6 @@
 You can filter by topic using the toolbar above.
 - [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)
 - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)
-- [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 
 ## Containers on AWS
 
