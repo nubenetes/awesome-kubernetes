@@ -30,12 +30,10 @@
         - Kanister is easy to integrate with your CI/CD pipeline, because it uses Kubernetes API extensions called custom resources. You can easily extend Kanister to work with custom applications as well as several common cloud native databases, simplifying and streamlining testing operations while reducing risk.
 - [thenewstack.io: DevSecOps Teams Need Application-Consistent Backups for Kubernetes Workloads](https://thenewstack.io/devsecops-teams-need-application-consistent-backups-for-kubernetes-workloads/)
 - [percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)](https://www.percona.com/blog/2020/10/22/using-volume-snapshot-clone-in-kubernetes/)
-- [kasten.io: Kubernetes Application Mobility](https://www.kasten.io/kubernetes/application-mobility/) Reliable and Powerful Migration of Complete Applications Across Kubernetes Clusters.
 - [longhorn issue: Move replica to a different server](https://github.com/longhorn/longhorn/issues/292)
 - [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift/)
 - [cloudify.co: Migrating Pods With Containerized Applications Between Nodes In The Same Kubernetes Cluster Using Cloudify 🌟](https://cloudify.co/blog/migrating-pods-containerized-applications-nodes-kubernetes-cluster-using-cloudify/)
 - [thenewstack.io: Red Hat Brings Backup, Snapshots to OpenShift Container Storage](https://thenewstack.io/red-hat-brings-backup-snapshots-to-openshift-container-storage/)
-- [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)
 - [Bacula Enterprise for OpenShift and Kubernetes 🌟](https://www.baculasystems.com/)
 - [dani-izquierdo95.medium.com: Batch processing using Cron Jobs. MySQL automated backup on Openshift/K8s](https://dani-izquierdo95.medium.com/mysql-automated-backup-on-openshift-k8s-3690280d304f)
 - [itnext.io: Backup and Restore of Kubernetes Stateful Application Data with CSI Volume Snapshots](https://itnext.io/backup-and-restore-of-kubernetes-stateful-application-data-with-csi-volume-snapshots-14ce9e6f3778)
@@ -51,7 +49,6 @@
 ## ETCD Backup
 
 - [youtube: Kubernetes.. ETCD Backup and Restore... Very Easy Steps... CKA Exam Tips..](https://www.youtube.com/watch?app=desktop&v=mODkt1OJDew&ab_channel=AlokKumar)
-- [gsanjeewa1111.medium.com: How to backup and restore the ETCD in the Rancher cluster](https://gsanjeewa1111.medium.com/how-to-backup-and-restore-the-etcd-in-the-rancher-cluster-f4f075f528c2)
 - [github.com/gardener/etcd-backup-restore](https://github.com/gardener/etcd-backup-restore) Collection of components to backup and restore the Etcd of a Kubernetes cluster. It also provides the ability to validate the data directory, so that we could know the data directory is in good shape to bootstrap etcd successfully.
 
 ## Kubernetes Volume Snapshot
@@ -80,7 +77,6 @@
 - [github.com/vmware-tanzu/velero](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes
 - [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero/?utm_sq=ggwzo8xdd8)
 - [wecloudpro.com: Kubernetes Disaster Recovery with Velero 🌟](https://www.wecloudpro.com/2020/08/22/kubernetes-disaster-recovery-with-velero.html)
-- [medium: Backup,Restore & Migrate Kubernetes cluster with Velero](https://medium.com/@maheshd7878/restore-backup-migrate-kubernetes-cluster-with-velero-434fa151f1e8)
 - [medium: Velero backup/restore for K8s Stateful Applications managed by Operators](https://medium.com/@Sandeepkallazhi/velero-backup-restore-for-k8s-stateful-applications-managed-by-operators-8fd9c732ffcc?utm_sq=gi0vbpxxa3)
 - [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://cloud.redhat.com/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 - [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)
@@ -95,7 +91,6 @@
 
 ## Backup for GKE
 
-- [cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke)
 
 ## Konveyor Open Source Migration Tool for Kubernetes
 
