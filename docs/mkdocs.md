@@ -14,7 +14,6 @@
 - [MkDocs](https://www.mkdocs.org/)
 - [websites that use MkDocs](https://www.wappalyzer.com/technologies/documentation-tools/mkdocs):
     - [docs.traefik.io](https://docs.traefik.io/)
-    - [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
     - [www.electron.build](https://www.electron.build/)
     - etc
 - [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)
@@ -28,11 +27,6 @@
 ## Markdown and Markdown Cheat Sheet
 
 - [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-- [markdownguide.org](https://www.markdownguide.org/)
-    - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
-- [guides.github.com: Markdown Cheat Sheet 2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
-- [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09)
 - [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one/) R Markdown is a dynamic file format that allows you to make documents containing normal text alongside chunks of embedded R code.
 - [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)
