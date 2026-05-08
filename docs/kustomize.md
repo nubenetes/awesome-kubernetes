@@ -14,7 +14,6 @@
     - __It is available both as a standalone binary and as a native feature of kubectl.__
 - [kubernetes.io: Introducing kustomize; Template-free Configuration Customization for Kubernetes](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes/) If you run a Kubernetes environment, chances are you’ve customized a Kubernetes configuration — you've copied some API object YAML files and edited them to suit your needs. But there are drawbacks to this approach — it can be hard to go back to the source material and incorporate any improvements that were made to it. Today Google is announcing kustomize, a command-line tool contributed as a subproject of SIG-CLI. The tool provides a new, purely declarative approach to configuration customization that adheres to and leverages the familiar and carefully designed Kubernetes API.
 - [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/)
-- [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
 - [Kubestack Gitops Framework](https://github.com/kbst/terraform-kubestack) is a Gitops framework built on Terraform and Kustomize
 - [3 ways to customize off-the-shelf Helm charts with Kustomize - Kubernetes](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html)
 - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
@@ -54,7 +53,6 @@
 
 ## Boilerplate
 
-- [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize
 
 ## Videos
 
