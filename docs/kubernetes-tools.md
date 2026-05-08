@@ -1250,6 +1250,8 @@ elastic quotas - Effortless optimization at its finest!
 </script>
 
 ## kubernetes-tools
+  - [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes
+  - [kubevirt](https://github.com/kubevirt/kubevirt) - Kubernetes Virtualization API and runtime in order to define and manage virtual machines.
   - [typhoon](https://github.com/poseidon/typhoon) - Minimal and free Kubernetes distribution with Terraform
   - [kubeinvaders](https://github.com/lucky-sideburn/kubeinvaders) - Gamified Chaos Engineering Tool for Kubernetes
   - [mlrun](https://github.com/mlrun/mlrun) - MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecycle. MLRun integrates into your development and CI/CD environment and automates the delivery of production data, ML pipelines, and online applications.
