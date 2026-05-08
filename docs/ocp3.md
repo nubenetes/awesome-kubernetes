@@ -23,7 +23,6 @@
 - [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https/)
 - [blog.openshift.com - Kubernetes: A Pod’s Life 🌟](https://blog.openshift.com/kubernetes-pods-life/)
 - [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)
-- [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/)
 - [developers.redhat.com: Customizing OpenShift project creation 🌟](https://developers.redhat.com/blog/2020/02/05/customizing-openshift-project-creation/)
 - [developers.redhat.com: Testing memory-based horizontal pod autoscaling on OpenShift 🌟](https://developers.redhat.com/blog/2020/03/19/testing-memory-based-horizontal-pod-autoscaling-on-openshift/)
 - [How to Run HA Elasticsearch (ELK) on Red Hat OpenShift](https://portworx.com/run-ha-elasticsearch-elk-red-hat-openshift/)
@@ -39,10 +38,6 @@
 
 ## OpenShift GitOps
 
-- [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift/)
-- [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/)
-- [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops/)
-- [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
 - [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.openshift.com/blog/from-code-to-production-with-gitops)
 
 ## Debugging apps
@@ -65,12 +60,10 @@
 - [blog.openshift.com: Stateful Workloads and the Two Data Center Conundrum](https://www.openshift.com/blog/stateful-workloads-and-the-two-data-center-conundrum)
 - [OpenShift 3.11 Multi-cluster Federation](https://blog.openshift.comkubernetes-federation-v2-on-openshift-3-11/)
 - [Multi-cluster Federation in OpenShift 4 is called **KubeFed**](https://blog.openshift.comfederation-v2-is-now-kubefed/)
-- [Katacoda e-learning platform – Federated Clusters](https://www.katacoda.com/openshift/coursesintroduction/federated-clusters)
 - [**KubeFed Operator**](https://operatorhub.io/operator/kubefed-operator)
 
 ## Troubleshooting Java applications on Openshift
 
-- [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
 - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 
 ## Red Hat Communities of Practice. Uncontained.io Project
@@ -85,7 +78,6 @@
 
 ## Identity Management
 
-- [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible/tree/master/roles/identity-management )
 
 ## Quota Management
 
