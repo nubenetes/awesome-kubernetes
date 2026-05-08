@@ -45,8 +45,6 @@
 
 ## Deploying Kubernetes Cluster with Kops
 
-- [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops)
-- [Kubernetes.io: Installing Kubernetes with kops](https://kubernetes.io/docs/setup/production-environment/tools/kops/)
 - Minikube and docker client are great for local setups, but not for real clusters. **Kops** and **kubeadm** are tools to spin up a production cluster. You don't need both tools, just one of them.
 - On AWS, the best tool is **kops**. Since [AWS EKS (hosted kubernetes)](https://aws.amazon.com/eks) is currently available, this is the preferred option **(you don't need to maintain the masters)**.
 - For other installs, or if you can't get kops to work, you can use **kubeadm**.
@@ -90,42 +88,31 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Deploying Kubernetes Cluster with Ansible
 
-- [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
-- [krd](https://github.com/electrocucaracha/krd) offers a reference for deploying a Kubernetes cluster. Its ansible playbooks allow to provision a deployment on Bare-metal or Virtual Machines
 - [Kubeinit 🌟](https://github.com/kubeinit/kubeinit) KubeInit provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions. KubeInit's mission is to have a fully automated way to deploy in a single command a curated list of prescribed architectures.
     - [youtube: OpenShift Commons En Vivo - KubeInit con Maria Bracho, Scott McCarty, and Carlos Camacho (Red Hat, Spanish) 🌟](https://www.youtube.com/watch?v=9_6H7Ahsdm4&ab_channel=OpenShift)
 - [itwonderlab.com: Kubernetes Cluster using Vagrant and Ansible with Containerd (in 3 minutes) 🌟](https://www.itwonderlab.com/en/ansible-kubernetes-vagrant-tutorial/)
 
 ## kube-aws Kubernetes on AWS
 
-- [Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
 
 ## Kubespray
 
-- [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
 - [redhat.com: An introduction to Kubespray](https://www.redhat.com/sysadmin/kubespray-deploy-kubernetes) By combining Ansible and Kubernetes, Kubespray can deploy Kubernetes clusters on multiple machines.
 - [adamtheautomator.com/kubespray: Conquer Kubernetes Clusters with Ansible Kubespray](https://adamtheautomator.com/kubespray/)
     - Manually deploying Kubernetes can be challenging for administrators, especially on bare-metal infrastructure deployment. Luckily, there is an automation tool for deploying production-ready Kubernetes called Kubespray.
     - Kubespray is an Ansible Playbook for deploying Kubernetes Cluster and provides a High Availability cluster, composable attributes, components, and supports multiple Linux distributions. Kubespray also supports cloud services like AWS, GCE, and Azure.
-- [github.com/bluxmit: Kubespray Workspace](https://github.com/bluxmit/alnoda-workspaces/tree/main/workspaces/kubespray-workspace) Containerized development, execution and admin environment for Kubernetes, Ansible and Terraform.
 
 ## Conjure up
 
-- [**Conjure up**](https://conjure-up.io/)
 
 ## WKSctl
 
-- [**Weave Kubernetes System Control - wksctl**](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
-- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
-- [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
 
 ## Terraform (kubernetes the hard way)
 
 - [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)
-- [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 - [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
 - [medium: Upgrading Kubernetes The Hard Way](https://medium.com/nordcloud-engineering/upgrading-kubernetes-the-hard-way-ac533cfb4ff2)
-- [Monzo: we learned a lot from self-hosting Kubernetes, but we wouldn't do it again](https://www.computing.co.uk/news/4019233/monzo-learned-lot-self-hosting-kubernetes-wouldn%E2%80%99) Don't need to do it the hard way anymore
 - [medium: Kubernetes the hard way on Docker](https://medium.com/@brightzheng100/kubernetes-the-hard-way-on-docker-f512bae734af)
 - [Autoscalable Kubernetes cluster at Exoscale, using Packer and Terraform](https://github.com/PhilippeChepy/exoscale-kubernetes-crio)
 - [Kubernetes the Hard Way: Azure Edition](https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure) teaches you how to deploy Kubernetes from scratch on Azure based on the legendary Kubernetes the Hard Way.
@@ -135,7 +122,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Caravan
 
-- [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
 
 ## ClusterAPI
 
@@ -154,7 +140,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Microk8s
 
-- [**Microk8s**](https://microk8s.io/)
 - [Kata Containers on MicroK8s](https://github.com/didier-durand/microk8s-kata-containers) This repository encompasses a fully scripted Github workflow to test the transparent use of the runtime for Kata Containers (Katas) on MicroK8s
 - [MicroK8s & Kubernetes security benchmark from CIS](https://github.com/didier-durand/microk8s-kube-bench)
 - [cloudsavvyit.com: How to run your own kubernetes cluster with Microk8s](https://www.cloudsavvyit.com/13024/how-to-run-your-own-kubernetes-cluster-with-microk8s)
@@ -167,7 +152,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Project Neco
 
-- [cybozu-go/neco](https://github.com/cybozu-go/neco) Neco is a project to build and maintain highly automated on-premise data centers using Kubernetes. A Neco data center consists of a few (from 3 to 5) management servers called boot servers and thousands of servers for Kubernetes clusters.
 
 ## Zarf. DevSecOps for Air Gap Systems
 
@@ -175,7 +159,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Kubernetes Operating Systems
 
-- [kubedex.com: Kubernetes Operating Systems 🌟](https://kubedex.com/kubernetes-operating-systems/)
 
 ## Kubernetes Distributions
 
@@ -197,8 +180,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ### Red Hat OpenShift
 
 - [Openshift Container Platform](openshift.md)
-- [OKD](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift
-- [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.itprotoday.com/containers/whos-winning-container-software-market) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
 
 ### Rancher
 
@@ -206,19 +187,13 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Weave Kubernetes Platform
 
-- [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way
-- [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
 
 ### Ubuntu Charmed Kubernetes
 
-- [Charmed Kubernetes](https://ubuntu.com/kubernetes/features)
-- [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)
 
 ### VMware Kubernetes Tanzu and Project Pacific
 
 - [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
-- [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/vsphere.html)
-- [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
 - [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action/)
 - [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes/)
 - [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html/)
@@ -227,7 +202,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [wecloudpro.com: VMware Tanzu Community Edition 🌟](https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html)
 - [vmware-tanzu/octant](https://github.com/vmware-tanzu/octant) Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.
 - [zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption](https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption/) The platform, introduced in 2019, is designed to help customers quickly build and deploy software on any public cloud or on-premises Kubernetes cluster.
-- [cabai.pro: Instalando Tanzu Community Edition (TCE)](https://cabai.pro/vmware/kubernetes/instalando-tanzu-community-edition/)
 - [dev.to/saintdle: Deploying Nvidia GPU enabled Tanzu Kubernetes Clusters](https://dev.to/saintdle/deploying-nvidia-gpu-enabled-tanzu-kubernetes-clusters-40ma)
 
 #### KubeAcademy Pro (free training)
@@ -242,7 +216,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Mirantis Docker Enterprise with Kubernetes and Docker Swarm
 
-- [Mirantis Docker Enterprise 3.1+ with Kubernetes](https://www.mirantis.com/software/docker/docker-enterprise/)
 - Docker Enterprise 3.1 announced. Features:
     - Istio is now built into Docker Enterprise 3.1!
     - Comes with Kubernetes 1.17. Kubernetes on Windows capability.
@@ -254,7 +227,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Mirantis k0s
 
-- [k0s](https://k0sproject.io/)
 - [infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution](https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution/)
 - [medium: K0s Supports Kubernetes 1.22](https://medium.com/k0sproject/k0s-supports-kubernetes-1-22-a498e41bf5af)
 
