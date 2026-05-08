@@ -25,11 +25,9 @@
 - [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/48/aws-security-fundamentals-second-edition) In this self-paced course, you will learn fundamental AWS cloud security concepts, including AWS access control, data encryption methods, and how network access to your AWS infrastructure can be secured. We will address and your security responsibility in the AWS cloud and the different security-oriented services available.
 - [==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources==](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 - [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)
-- [==youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟==](https://www.youtube.com/watch?v=zA8guDqfv40)
 
 ## eBooks
 
-- [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
 
 ## AWS Certification
 
