@@ -19,7 +19,6 @@
 
 - [golang.org](https://golang.org/)
 - [github.com/golang/go](https://github.com/golang/go)
-- [wikipedia: Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 - [golang-design/history](https://github.com/golang-design/history) Go: A Documentary. This document collects many interesting (publicly observable) issues, discussions, proposals, CLs, and talks from the Go development process, which intents to offer a comprehensive reference of the Go history.
 - [Awesome Go 🌟](https://github.com/avelino/awesome-go)
 - [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto)
@@ -27,7 +26,6 @@
 - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io/) Host your Go-based applications for free on the JFrog Platform.
 - [dev.to: Deploying Your First Golang Webapp](https://dev.to/heroku/deploying-your-first-golang-webapp-11b3)
 - [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/)
-- [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/)
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 - [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go)
@@ -36,14 +34,12 @@
 - [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide)
 - [go-ini/ini](https://github.com/go-ini/ini) Package ini provides INI file read and write functionality in Go
 - [rakyll/go-test-trace 🌟](https://github.com/rakyll/go-test-trace) Go test with tracing. go-test-trace is like go test but it also generates distributed traces. Generated traces are exported in OTLP to a OpenTelemetry collector. You need to run go-test-trace alongside a collector to export data to distributed tracing service.
-- [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code)
 - [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/)
 - [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign)
 - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) Learn Go with test-driven development
 - [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#? - [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60)
 - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)
 - [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)
-- [dev.to: JSON Schema Validation in Golang](https://dev.to/franciscomendes10866/how-to-validate-data-in-golang-1f87)
 - [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/)
 - [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7)
 - [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183)
@@ -78,7 +74,6 @@
 - [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)
 - [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop/)
-- [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)
 
 ## Building container images
 
@@ -86,17 +81,12 @@
 
 ## Go cheatsheets
 
-- [devhints.io/go: Go cheatsheet](https://devhints.io/go)
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
-- [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
-- [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
 - [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) An overview of Go syntax and features.
 
 ## Go Frameworks and libraries
 
 - [go-micro](https://github.com/asim/go-micro) Go Micro is a framework for distributed systems development
-- [dapr.io](https://dapr.io)
-- [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/)
 - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) Useful template functions for Go templates. The Go language comes with a built-in template language, but not very many template functions. Sprig is a library that provides more than 100 commonly used template functions.
 - [go-kratos/kratos](https://github.com/go-kratos/kratos) A modular-designed and easy-to-use __microservices framework__ in Go.
 - [gnet](https://github.com/panjf2000/gnet) 🚀 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go./ gnet
@@ -141,7 +131,6 @@
 
 ## Dockerfile for go
 
-- [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)
 - [dev.to: Dockerize a GoLang HTTP server and deploy it on Kubernetes](https://dev.to/aksrao1998/dockerize-a-golang-http-server-and-deploy-it-on-kubernetes-592j)
 
 ## Videos
