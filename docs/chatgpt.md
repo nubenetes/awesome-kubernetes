@@ -19,7 +19,6 @@
 - [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data) Lets generate SQL using chatGPT and simplify our work
 - [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162)
 - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data/) ChatGPT is a powerful language model that can be used for a variety of tasks. But did you know you can use custom data to improve its accuracy and speed?
-- [techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023](https://www.techrepublic.com/article/chatgpt-cheat-sheet/)
 - [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional/)
 - [christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve your Microsft Excel skills?](https://christianmartinezfinancialfox.medium.com/how-to-use-chatgpt-to-improve-your-microsft-excel-skills-41817b6465df)
 - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code/) With so many AI-powered assistants waiting to be explored, we've now entered the phase where excited coders are trying their own homegrown experiments — and sharing the results online.
@@ -31,7 +30,6 @@
 
 ## k8sgpt
 
-- [k8sgpt.ai](https://k8sgpt.ai)
 
 ## ChatGPT YAML generator
 
