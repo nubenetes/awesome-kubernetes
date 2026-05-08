@@ -26,7 +26,6 @@
 ## Introduction
 
 - [crunchydata.com](https://www.crunchydata.com/)
-- [redhat.com: Overview - Crunchy Data PostgreSQL on Red Hat OpenShift Container Storage 🌟](https://www.redhat.com/en/resources/crunchy-data-postgresql-overview)
 - [learn.crunchydata.com 🌟](https://learn.crunchydata.com/)
 - [github.com/CrunchyData](https://github.com/CrunchyData)
 - [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator)
@@ -59,13 +58,11 @@
 - [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator 🌟](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
 - [postgresql.org: Crunchy PostgreSQL Operator 4.5: Enhanced Monitoring, Custom Annotations, PostgreSQL 13 🌟](https://www.postgresql.org/about/news/crunchy-postgresql-operator-45-enhanced-monitoring-custom-annotations-postgresql-13-2086/)
 - [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://info.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
-- [redhat.com: Crunchy Data PostgreSQL on Red Hat OpenShift Container Storage (Overview) 🌟](https://www.redhat.com/en/resources/crunchy-data-postgresql-overview)
 - [info.crunchydata.com: PostgreSQL Monitoring for Application Developers: The DBA Fundamentals](https://info.crunchydata.com/blog/postgresql-monitoring-for-application-developers-dba-stats)
 - [youtube: OCB: High Availability PostgreSQL and more on OpenShift - Jonathan Katz (Crunchy Data) 🌟](https://www.youtube.com/watch?v=9jbR9lZuSU0) Learn how the PostgreSQL Operator from Crunchy Data makes it easy to deploy high availability Postgres clusters on OpenShift. Beyond that, we'll look at how the Operator pattern makes it possible to run your own open source database-as-a-service and cover the essential features: provisioning, HA, disaster recovery, monitoring, and how to do it all securely!
 - [info.crunchydata.com: Tuning Your Postgres Database for High Write Loads](https://info.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads)
 - [info.crunchydata.com: Using the PostgreSQL Operator with Rook Ceph Storage](https://info.crunchydata.com/blog/crunchy-postgresql-operator-with-rook-ceph-storage)
 - [info.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://info.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
-- [developer.ibm.com: Deploy a Crunchy PostgreSQL for Kubernetes Operator to an OpenShift cluster 🌟](https://developer.ibm.com/technologies/databases/tutorials/deploy-a-crunchy-posgresql-kubernetes-operator-red-hat-marketplace-openshift/) Follow these steps to deploy a supported Crunchy PostgreSQL for Kubernetes operator from Red Hat Marketplace to an OpenShift cluster
 - [info.crunchydata.com: An Easy Recipe for Creating a PostgreSQL Cluster with Docker Swarm](https://info.crunchydata.com/blog/an-easy-recipe-for-creating-a-postgresql-cluster-with-docker-swarm)
 - [info.crunchydata.com: Deploying the PostgreSQL Operator on GKE](https://info.crunchydata.com/blog/install-postgres-operator-kubernetes-on-gke-ansible)
 - [info.crunchydata.com: Using GitOps to Self-Manage Postgres in Kubernetes 🌟](https://info.crunchydata.com/blog/gitops-postgres-kubernetes)
@@ -185,7 +182,6 @@ spec:
 
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/4.1/authentication/using-service-accounts-in-applications.html)
-    - [ref2](https://docs.okd.io/latest/dev_guide/deployments/basic_deployment_operations.html#run-pod-with-different-service-account) 
     - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain) 
 
 - Each service account is represented by the ServiceAccount resource and is associated with two additional secrets for access to the OpenShift API and the internal registry:
@@ -249,7 +245,6 @@ role "view" removed: "system:serviceaccounts"
 
 ##### SCC Recommendations
 
-- Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies (PSP)](https://kubernetes.io/docs/concepts/policy/pod-security-policy/). PSPs are still beta in Kubernetes 1.10, 1.11, 1.12, 1.13, 1.14, 1.15 .
 - **Use the restricted SCC as the default** 
 - For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC 
 - Remediation: Apply the SCC with the least privilege required
@@ -365,8 +360,6 @@ users:
     - “pgo” Project -> Secrets
     - “pgo” Project -> Config Maps
 - References:
-    - [ref1](https://access.crunchydata.com/documentation/postgres-operator/latest/operatorcli/pgo-overview/)
-    - [ref2](https://crunchydata.github.io/postgres-operator/latest/operatorcli/common-pgo-cli-operations/)
 - WSL (Windows Subystem for Linux): **alog/olog/clog** functions must be adapted to be run in WSL's Ubuntu:
  
 ```bash
