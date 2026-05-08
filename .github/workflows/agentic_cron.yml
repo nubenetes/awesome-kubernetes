@@ -24,7 +24,7 @@ jobs:
       - name: Instalación de dependencias (LIGERO Y ROBUSTO)
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit==1.7.6
+          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2
 
       - name: Ejecución de la Canalización Agéntica Integral
         env:

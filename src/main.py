@@ -14,15 +14,20 @@ async def master_orchestrator():
     
     print("[*] INICIANDO CURADURÍA AGÉNTICA (SOLO INYECCIÓN DE NOVEDADES)")
     
-    # 1. Determinar horizonte temporal
+    # 1. Determinar horizonte temporal incremental
     try:
+        # Buscamos commits solo en la carpeta docs para saber cuándo se actualizó el contenido por última vez
         commits = git_controller.repository.get_commits(path="docs")
         if commits.totalCount > 0:
+            # Tomamos la fecha del commit más reciente
             last_commit_date = commits[0].commit.committer.date.replace(tzinfo=MADRID_TZ)
+            # El horizonte es un segundo después para evitar reprocesar el mismo commit
             time_horizon = last_commit_date + timedelta(seconds=1)
         else:
-            raise Exception()
-    except:
+            # Fecha base solicitada: Octubre 2024
+            time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
+    except Exception as e:
+        print(f"[!] Error calculando horizonte temporal: {e}. Usando fecha base.")
         time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
 
     print(f"[*] Buscando novedades desde: {time_horizon}")
