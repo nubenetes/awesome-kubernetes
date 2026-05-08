@@ -11,26 +11,21 @@
 
 - These tools help you manage servers and deploy happier and more often with more confidence.
 - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
-- [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 - [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners/)
 - [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
 - [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
 - [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop/)
 - [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners) DevOps toolchain plays a crucial role in automating and orchestrating DevOps capabilities to deliver software at the desired speed and quality.
 - [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/resources/devops-report-2020)
-- [dzone: Top 12 DevOps Tools for Your DevOps Implementation Plan 🌟](https://dzone.com/articles/top-12-devops-tools-for-your-devops-implementation)
 - [dzone: Most Popular DevOps Tools You Must Learn In 2019](https://dzone.com/articles/most-popular-devops-tools-you-must-learn-in-2019)
 - [dzone: 5 DevOps Tools You Should Know In 2019](https://dzone.com/articles/5-devops-tools-you-should-know-in-2019) From containers and automation to CI/CD, this list has five basic tools you need to get started with DevOps.
-- [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)
 - [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools/)
 - [hackr.io: Top 10 DevOps Tools To Look For in 2020](https://hackr.io/blog/top-devops-tools)
-- [medium: The 10 best DevOps tools for 2020](https://medium.com/javarevisited/the-10-best-devops-tools-for-2020-72e7c489342a)
 - [victorops.com: 20 Top DevOps Tools for 2020](https://victorops.com/blog/20-top-devops-tools-for-2020)
 - [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools)
 - [geekflare.com: devops-tools](https://geekflare.com/devops-tools/)
 - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools/)
 - [DevOps Tool Comparison: Docker Vs Kubernetes Vs Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
-- [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
 - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)
 - [reviewnprep.com: DevOps Tool Primer: Docker, Kubernetes, Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
 - [ASDF 🌟](https://asdf-vm.com/) Manage multiple runtime versions with a single CLI tool
@@ -53,7 +48,6 @@
 
 ## Devtron. Tool integration platform for kubernetes
 
-- [Devtron](https://github.com/devtron-labs/devtron) is an Open Source End-to-End Software Delivery workflow for Kubernetes.
 - It leverages popular DevOps tools to provide a No-Code, ***Unified Heroku-like*** Experience for Kubernetes.
 - Integrations happen with existing Open-source systems like argocd, Argo workflow, Clair, hibernator, grafana, Prometheus, envoy, and many others and add capabilities on top of them to enable self serve for developers and DevOps.
 - [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1)
