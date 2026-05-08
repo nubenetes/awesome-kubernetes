@@ -76,24 +76,18 @@
 
 ## Introduction
 
-- [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
 - [devopszone.info: DevSecOps Explained](https://www.devopszone.info/post/devsecops-explained)
 - [linkedin: Dear Google, my data has left your building!](https://www.linkedin.com/pulse/dear-google-my-data-has-left-your-building-zakir-khan/)
 - [snyk.io: The State of Open Source Security 2020](https://snyk.io/open-source-security-report/)
-- [managedsentinel.com: Executive View — Current and Future Cybersecurity Architecture On One Page](https://www.managedsentinel.com/2019/05/23/cybersecurity-roadmap/)
 - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation/)
 - [kalilinuxtutorials.com: Deploying & Securing Kubernetes Clusters](https://kalilinuxtutorials.com/deploying-securing-kubernetes-clusters/)
 - [loves.cloud: Creating a fully automated DevSecOps CI/CD Pipeline](https://loves.cloud/creation-of-a-fully-automated-devsecops-cicd-pipeline/)
 - [redhat.com: Balancing Linux security with usability](https://www.redhat.com/sysadmin/linux-security-usability) Your system should be secure, but open enough to serve its function. Here are some tips on how to strike that balance.
 - [thenewstack.io: Culture, Vulnerabilities and Budget: Why Devs and AppSec Disagree](https://thenewstack.io/culture-vulnerabilities-and-budget-why-devs-and-appsec-disagree/)
-- [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) CEO Sacha Labourey: 'DevOps is a pretty good proxy for what needs to happen in any organisation'
 - [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://blog.paloaltonetworks.com/2020/10/cloud-iam-misconfiguration-risks/)
 - [devops.com: How to Successfully Integrate Security and DevOps](https://devops.com/how-to-successfully-integrate-security-and-devops/)
-- [helpnetsecurity.com: How to make DevSecOps stick with developers](https://www.helpnetsecurity.com/2020/12/14/how-devsecops-developers/)
 - [blog.christophetd.fr: Shifting Cloud Security Left — Scanning Infrastructure as Code for Security Issues](https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues/)
 - [devclass.com: Docker: It’s not dead yet, but there’s a tendency to walk away, security report finds](https://devclass.com/2021/01/13/sysdig-container-security-and-usage-report-2021/)
-- [roxsrossve.medium.com: El camino hacia DevSecOps](https://roxsrossve.medium.com/el-camino-hacia-devsecops-bbd55e075043)
-- [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together/)
 - [opensource.com: How to adopt DevSecOps successfully](https://opensource.com/article/21/2/devsecops) Integrating security throughout the software development lifecycle is important, but it's not always easy.
 - [devops.com: DevSecOps Trends to Know For 2021](https://devops.com/devsecops-trends-for-2021/)
 - [devops.com: From Agile to DevOps to DevSecOps: The Next Evolution](https://devops.com/from-agile-to-devops-to-devsecops-the-next-evolution/)
@@ -106,7 +100,6 @@
 - [invensislearning.com: Difference between DevOps and DevSecOps](https://www.invensislearning.com/blog/devops-vs-devsecops/)
 - [techerati.com: DevSecOps: Eight tips for truly securing software](https://www.techerati.com/features-hub/opinions/devsecops-eight-tips-for-truly-securing-software/)
 - [devops.com: SecDevOps is the Solution to Cybersecurity 🌟](https://devops.com/secdevops-is-the-solution-to-cybersecurity/)
-- [techrepublic.com: DevOps is getting code released faster than ever. But security is lagging behind](https://www.techrepublic.com/article/devops-is-getting-code-released-faster-than-ever-but-security-is-lagging-behind/)
 - [redeszone.net: No configurar bien la nube es culpable de la mayoría de vulnerabilidades](https://www.redeszone.net/noticias/seguridad/configurar-mal-nube-vulnerabilidades/)
 - [cybersecuritydive.com: Relationships between DevOps, security warm slowly](https://www.cybersecuritydive.com/news/developer-security-gitlab-devsecops/) Some hurdles stem from miscommunication, or balancing quick product releases with undesired security gaps. **"Security people need developers to be more like security people and developers need security people to be more like developers."** James Arlen, CISO at Aiven.
 - [bbvanexttechnologies.com: Filosofía DevSecOps en el desarrollo de aplicaciones sobre Azure](https://www.bbvanexttechnologies.com/blogs/filosofia-devsecops-en-el-desarrollo-de-aplicaciones-sobre-azure/)
@@ -123,7 +116,6 @@
 - [thenewstack.io: The DevSecOps Skillsets Required for Cloud Deployments](https://thenewstack.io/the-devsecops-skillsets-required-for-cloud-deployments/)
 - [devblogs.microsoft.com: You can’t have security for DevOps until you have DevOps for security](https://devblogs.microsoft.com/engineering-at-microsoft/you-cant-have-security-for-devops-until-you-have-devops-for-security/)
 - [goteleport.com: Anatomy of a Cloud Infrastructure Attack via a Pull Request](https://goteleport.com/blog/hack-via-pull-request/)
-    - [==edidiongasikpo.com: How to Give Developers Secure Access to Kubernetes Clusters== 🌟](https://edidiongasikpo.com/how-to-give-developers-secure-access-to-kubernetes-clusters)
 - [cncf/tag-security: CNCF Security Technical Advisory Group 🌟](https://github.com/cncf/tag-security) CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!
 - [enterprisersproject.com: 5 DevSecOps open source projects to know](https://enterprisersproject.com/article/2021/8/5-devsecops-open-source-projects-know) Teams that embrace the DevSecOps approach make security an integral part of the entire application life cycle. These open source projects aim to help
     - [Clair](https://github.com/quay/clair)
@@ -155,7 +147,6 @@
 - [blog.aquasec.com: Advanced Persistent Threat Techniques Used in Container Attacks](https://blog.aquasec.com/advanced-persistent-threat-techniques-container-attacks) In this blog, you will explore advanced persistent threat techniques used in container attacks, learn how rootkits work, and how adversaries are using them to attack cloud native environments.
 - [thenewstack.io: 5 Misconceptions About DevSecOps](https://thenewstack.io/5-misconceptions-about-devsecops/)
 - [thenewstack.io: Why Cloud Native Systems Demand a Zero Trust Approach](https://thenewstack.io/why-cloud-native-systems-demand-a-zero-trust-approach/)
-- [==redhat.com: Considerations for implementing DevSecOps practices. Checklist== 🌟](https://www.redhat.com/en/resources/considerations-implementing-devsecops-checklist)
 - [==dzone: Security Matters: Vulnerability Scanning Done Right!== 🌟](https://dzone.com/articles/security-matters-vulnerability-scanning-done-right-1) Security has become the priority in every company these days. Let's see how vulnerability scanning is done the right way.
 - [==redhat.com: Getting DevSecOps to production and beyond==](https://www.redhat.com/architect/devsecops-enterprise-architecture) Building security into DevOps practices helps safeguard the organization across the software development lifecycle.
 - [opensource.com: 5 open source security resources from 2021](https://opensource.com/article/21/12/open-source-security) This countdown is for the security articles for 2021 you need to read right now.
@@ -176,7 +167,6 @@
 - [==research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines==](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
 - [thenewstack.io: SecOps in a Post-COVID World: 3 Security Trends to Watch](https://thenewstack.io/secops-in-a-post-covid-world-3-security-trends-to-watch/)
 - [==medium.com/microservices-learning: How to implement security for microservices==](https://medium.com/microservices-learning/how-to-implement-security-for-microservices-89b140d3e555)
-- [==kubernetes.io: Overview of Cloud Native Security==](https://kubernetes.io/docs/concepts/security/overview/) This overview defines a model for thinking about Kubernetes security in the context of Cloud Native security. **The 4C's of Cloud Native security:**
     - Cloud
     - Clusters
     - Containers
@@ -210,7 +200,6 @@
 
 ## Kubernetes Security Compliance Frameworks
 
-- [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/)
     - The challenge of administering security and maintaining compliance in a Kubernetes ecosystem is typically the same: an increasingly dynamic, changing landscape, be it new approaches of cyberattacks or adhering to changing regulations. Kubernetes security requires a complex and multifaceted approach since an effective strategy needs to:
         - Ensure clean code
         - Provide full observability
@@ -230,8 +219,6 @@
 
 - [dzone.com: What Is Zero Trust Security? 🌟](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
 - [thenewstack.io: Secured Access to Kubernetes from Anywhere with Zero Trust | Tenry Fu 🌟](https://thenewstack.io/secured-access-to-kubernetes-from-anywhere-with-zero-trust/)
-- [rafay.co: Securing Access to Kubernetes Environments with Zero Trust | Kyle Hunter 🌟](https://rafay.co/the-kubernetes-current/securing-access-to-kubernetes-environments-with-zero-trust/)
-- [securityboulevard.com: Implementing Zero-Trust Security With Service Mesh and Kubernetes](https://securityboulevard.com/2022/10/implementing-zero-trust-security-with-service-mesh-and-kubernetes/)
 - [cncf.io: Seven zero trust rules for Kubernetes](https://www.cncf.io/blog/2022/11/04/seven-zero-trust-rules-for-kubernetes/)
 - [rtinsights.com: Implementing Zero Trust for Kubernetes](https://www.rtinsights.com/implementing-zero-trust-for-kubernetes/)
 - [cisecurity.org: Where Does Zero Trust Begin and Why is it Important?](https://www.cisecurity.org/insights/blog/where-does-zero-trust-begin-and-why-is-it-important)
@@ -247,7 +234,6 @@
 - [medium.com/getindata-blog: OAuth2-based authentication on Istio-powered Kubernetes clusters 🌟](https://medium.com/getindata-blog/oauth2-based-authentication-on-istio-powered-kubernetes-clusters-2bd0999b7332) Starting with Envoy 1.17, authentication and authorization to Istio clusters don't require setting up external services if you decide to use OAuth2 Learn how it works in this hands-on tutorial.
 - [==oauth2-proxy/oauth2-proxy: OAuth2 Proxy== 🌟](https://github.com/oauth2-proxy/oauth2-proxy) A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
 - [manfredmlange.medium.com: Containerized Keycloak in Development](https://manfredmlange.medium.com/containerized-keycloak-in-development-2f9d079ec4a3) How to set up an OpenID Connect compliant development environment with Docker?
-- [redis.com: JSON Web Tokens (JWTs) are Not Safe (ebook)](https://redis.com/docs/json-web-tokens-jwts-are-not-safe)
 - [dev.to/fidalmathew: Session-Based vs. Token-Based Authentication: Which is better?](https://dev.to/fidalmathew/session-based-vs-token-based-authentication-which-is-better-227o)
 - [dev.to/irakan: Is JWT really a good fit for authentication?](https://dev.to/irakan/is-jwt-really-a-good-fit-for-authentication-1khm)
 
@@ -278,7 +264,6 @@
 
 ## Kubernetes Threat Modelling
 
-- [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
 
 ## Kubernetes Config Security Threats
 
@@ -294,7 +279,6 @@
 
 - [kubeLinter 🌟](https://github.com/stackrox/kube-linter) KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
 - [thenewstack.io: StackRox KubeLinter Brings Security Linting to Kubernetes](https://thenewstack.io/stackrox-kubelinter-brings-security-linting-to-kubernetes/)
-- [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) **A FAST Kubernetes manifests validator, with support for Custom Resources!**
 
 ## IaC and Security
 
@@ -303,11 +287,9 @@
 ## Multi-Level Security (MLS) vs Multi-Category Security (MCS). Make Secure Pipelines with Podman and Containers
 
 - [Why you should be using Multi-Category Security (MCS) for your Linux containers](https://www.redhat.com/en/blog/why-you-should-be-using-multi-category-security-your-linux-containers)
-- [Using Podman and Containers to make a more secure pipeline](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline)
 
 ## Project Calico
 
-- [Project Calico](https://www.projectcalico.org/) Secure networking for the cloud native era
 - [thenewstack.io: Project Calico: Kubernetes Security as SaaS](https://thenewstack.io/project-calico-kubernetes-security-as-saas/)
 
 ## The Falco Project
@@ -334,8 +316,6 @@
 ## OWASP
 
 - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)
-- [redeszone.net: OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades](https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/)
-- [sonarqube.org: OWASP Top 10 - We’ve got you covered!](https://www.sonarqube.org/features/security/owasp/) See issues in the 10 most critical security risk categories in your web applications.
 - [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://cloud.google.com/architecture/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 - [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp/)
 - [thenewstack.io: OWASP Top 10: A Guide to the Worst Software Vulnerabilities](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/)
@@ -394,7 +374,6 @@
 - [infracloud.io: Enforcing Image Trust on Docker Containers using Notary](https://www.infracloud.io/blogs/enforcing-image-trust-docker-containers-notary/)
 - [medium: Verify Container Image Signatures in Kubernetes using Notary or Cosign or both](https://medium.com/sse-blog/verify-container-image-signatures-in-kubernetes-using-notary-or-cosign-or-both-c25d9e79ec45) Connaisseur v2.0 adds support for multiple keys and signature solutions.
 - [infracloud.io: How to Secure Containers with Cosign and Distroless Images](https://www.infracloud.io/blogs/secure-containers-cosign-distroless-images/)
-- [appvia.io: Tutorial: Keyless Sign and Verify Your Container Images With Cosign](https://www.appvia.io/blog/tutorial-keyless-sign-and-verify-your-container-images)
 - [==github.blog: Safeguard your containers with new container signing capability in GitHub Actions (cosign)==](https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/)
 - [chrisns/cosign-keyless-demo: Cosign Keyless GitHub Action Demo](https://github.com/chrisns/cosign-keyless-demo) Proof of concept that uses cosign and GitHub's in built OIDC for actions to sign container images, providing a proof that what is in the registry came from your GitHub action.
 - [blog.chainguard.dev: How To Verify Cosigned Container Images In Amazon ECS](https://blog.chainguard.dev/cosign-verify-ecs/)
@@ -418,7 +397,6 @@
 ## Pentesting
 
 - [forbes.com: DevOps Drives Pentesting Delivered As A Service](https://www.forbes.com/sites/chenxiwang/2020/06/17/devops-drives-pentesting-delivered-as-a-service/)
-- [emagined.com: How to conduct a penetration test](https://www.emagined.com/news-notes/2020/6/8/how-to-conduct-a-penetration-test)
 - [securityboulevard.com: Kubernetes Pentest Methodology Part 3](https://securityboulevard.com/2019/11/kubernetes-pentest-methodology-part-3/)
 
 ## SQL Injection
@@ -505,53 +483,32 @@
 - [hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store CSI Driver](https://github.com/hashicorp/vault-csi-provider) HashiCorp Vault provider for the Secrets Store CSI driver allows you to get secrets stored in Vault and use the Secrets Store CSI driver interface to mount them into Kubernetes pods
 - [vaultproject.io](https://www.vaultproject.io/) Manage Secrets and Protect Sensitive Data. Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 - [medium: Coding for Secrets Reliability with HashiCorp Vault](https://medium.com/hashicorp-engineering/coding-for-secrets-reliability-with-hashicorp-vault-2090dd8667e)
-- [hashicorp.com: Vault & Kubernetes: Better Together](https://www.hashicorp.com/resources/vault-and-kubernetes-better-together/)
 - OpenShift Blogs:
     - https://www.openshift.com/blog/managing-secrets-openshift-vault-integration
     - https://www.openshift.com/blog/vault-integration-using-kubernetes-authentication-method
     - https://www.openshift.com/blog/integrating-vault-with-legacy-applications
     - https://www.openshift.com/blog/integrating-hashicorp-vault-in-openshift-4
-- [Vault Learning Resources: Vault 1.5 features and more](https://www.hashicorp.com/blog/learn-vault-1-5)
 - [medium: Securing K8s Ingress Traffic with HashiCorp Vault PKIaaS and JetStack Cert-Manager](https://medium.com/hashicorp-engineering/securing-k8s-ingress-traffic-with-hashicorp-vault-pkiaas-and-jetstack-cert-manager-cb46195742ca)
-- [hashicorp.com: Automate Secret Injection into CI/CD Workflows with the GitHub Action for Vault](https://www.hashicorp.com/blog/vault-github-action)
-- [hashicorp.com: Use AWS Lambda Extensions to Securely Retrieve Secrets From HashiCorp Vault](https://www.hashicorp.com/blog/aws-lambda-extensions-for-hashicorp-vault) Developers no longer have to make their Lambda functions Vault-aware.
 - [github.com/kelseyhightower: Serverless Vault with Cloud Run](https://github.com/kelseyhightower/serverless-vault-with-cloud-run) This tutorial walks you through deploying Hashicorp's Vault on Cloud Run, Google Cloud's container based Serverless compute platform.
 - [confluent.io: How to Manage Secrets for Confluent with Kubernetes and HashiCorp Vault](https://www.confluent.io/blog/manage-secrets-with-kubernetes-and-hashicorp-vault/)
 - [digitalvarys.com: Simple Introduction to HashiCorp Vault](https://digitalvarys.com/simple-introduction-to-hashicorp-vault/)
-- [hashicorp.com: HCP Vault is now generally available on AWS 🌟](https://www.hashicorp.com/blog/vault-on-the-hashicorp-cloud-platform-ga)
-- [hashicorp.com: Serverless Secrets with HashiCorp Vault](https://www.hashicorp.com/resources/serverless-secrets-vault) Learn how to securely store and retrieve credentials across providers for applications running within AWS Lambda, Azure Functions, and Google Cloud Functions.
 - [thenewstack.io: HashiCorp Releases HCP Vault to Combat ‘Secrets Management’ Fatigue](https://thenewstack.io/hashicorps-releases-hcp-vault-to-combat-secrets-management-fatigue/)
 - [datadoghq.com: Monitor HashiCorp Vault metrics and logs](https://www.datadoghq.com/blog/monitor-vault-metrics-and-logs/)
 - [thenewstack.io: Reasons to Implement HashiCorp Vault and Other Zero Trust Tools](https://thenewstack.io/reasons-to-implement-hashicorp-vault-and-other-zero-trust-tools/)
-- [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi) Learn how to use CSI to expose secrets on a volume within a Kubernetes pod and retrieve them using our beta Vault Provider for the Kubernetes Secrets Store CSI Driver.
 - [testdriven.io: Running Vault and Consul on Kubernetes](https://testdriven.io/blog/running-vault-and-consul-on-kubernetes/)
-- [hashicorp.com: Onboarding Applications to Vault Using Terraform: A Practical Guide 🌟](https://www.hashicorp.com/blog/onboarding-applications-to-vault-using-terraform-a-practical-guide) Learn how to build an automated HashiCorp Vault onboarding system with Terraform using sensible naming standards, ACL policy templates, pre-created application entities, and workflows driven by VCS and CI/CD.
-- [hashicorp.com: Managing SSH Access at Scale with HashiCorp Vault](https://www.hashicorp.com/blog/managing-ssh-access-at-scale-with-hashicorp-vault) Learn how to build scalable, role-based SSH access with SSH certificates and HashiCorp Vault.
 - [devopscube.com: How to Setup Vault in Kubernetes- Beginners Tutorial 🌟](https://devopscube.com/vault-in-kubernetes/)
-- [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI 🌟](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi) Learn how to use CSI to expose secrets on a volume within a Kubernetes pod and retrieve them using our beta Vault Provider for the Kubernetes Secrets Store CSI Driver.
 - [devopscube.com: Vault Agent Injector Tutorial: Inject Secrets to Pods Using Vault Agent](https://devopscube.com/vault-agent-injector-tutorial/)
-- [hashicorp.com: Announcing HashiCorp Vault 1.8](https://www.hashicorp.com/blog/vault-1-8)
-- [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
-- [igorzhivilo.com: Scheduled backup of Vault secrets with Jenkins on Kubernetes](https://igorzhivilo.com/vault/scheduled-backup-vault-secrets/) If you ever wondered how to save the secrets of HashiCorp's Vault on a daily basis.
-- [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)
 - [==medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1== | Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1)
     - [==medium: Install Hashicorp Vault on Kubernetes using Helm — Part 2== | Marco Franssen](https://medium.com/@marco.franssen/install-hashicorp-vault-on-kubernetes-using-helm-part-2-d612cf6c0c91)
 - [piotrminkowski.com: Vault on Kubernetes with Spring Cloud](https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud/)
-- [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)
 - [==medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S==](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)
-- [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) In this post, you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
-- [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault) Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into **Flux** or other GitOps tools on Kubernetes.
-- [==hashicorp.com: How to Integrate Your Application with Vault: Static Secrets==](https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets) Learn how to retrieve static secrets from HashiCorp Vault in a real-world setting using a new sample application.
 - [blog.devops.dev: Using Vault in Kubernetes Production for Security Engineers](https://blog.devops.dev/using-vault-in-kubernetes-production-for-security-engineers-54d2f0aca4d1)
-- [hashicorp.com: HashiCorp Vault 1.11 Adds Kubernetes Secrets Engine, PKI Updates, and More 🌟](https://www.hashicorp.com/blog/vault-1-11)
     - Favorite OSS feature is the K8S secrets engine that can generate K8S service accounts as dynamic secrets.
     - Favorite Ent feature is that Autopilot can now perform safe, automated upgrades.
     - Plus a dozen other improvements...
 
 - [medium.com/@nikhil.purva: Securing Kubernetes Secrets with HashiCorp Vault](https://medium.com/@nikhil.purva/securing-kubernetes-secrets-with-hashicorp-vault-a9555728e095)
-- [hashicorp.com: The State of Vault and Kubernetes, and Future Plans](https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans) Get an overview of the most common ways to use HashiCorp Vault and Kubernetes together, and get a preview of a new method we're considering.
 - [alexandre-vazquez.com: How To Inject Secrets in Pods To Improve Security with Hashicorp Vault in 5 Minutes 🌟](https://alexandre-vazquez.com/inject-secrets-in-pods-using-hashicorp-vault/)
-- [adfinis.com: Secret zero with ACME](https://adfinis.com/en/blog/secret-zero-with-acme/) As of Vault 1.14, the HashiCorp Vault PKI engine can issue certificates using the standard ACME protocol. The Automatic Certificate Management Environment (ACME) was made popular by Let’s Encrypt, which has been the default mechanism to request valid certificates from a public CA for over 10 years.
 - [medium.com/@martin.hodges: Introduction to Vault to provide secret management in your Kubernetes cluster](https://medium.com/@martin.hodges/introduction-to-vault-to-provide-secret-management-in-your-kubernetes-cluster-658b58372569) One of the core Kubernetes resources is a Secret. However, these Secrets are not actually secure, as anyone with access to the cluster may be able to read and update the secret. This article introduces Vault into the cluster to securely manage secrets.
     - [medium.com/@martin.hodges: Enabling TLS on your Vault cluster on Kubernetes](https://medium.com/@martin.hodges/enabling-tls-on-your-vault-cluster-on-kubernetes-0d20439b13d0) In this article I look at adding TLS secured connections to our unprotected Vault cluster. We will do this to ensure our secrets remain, well, secret.
 - [medium.com/@calvineotieno010: Managing Application Secrets with Hashicorp Vault](https://medium.com/@calvineotieno010/managing-application-secrets-with-hashicorp-vault-8efb5e1d87fd)
@@ -559,12 +516,9 @@
 
 #### HashiCorp Vault Agent
 
-- [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)
 - [harness.io: Tutorial: How to Use the New Vault Agent Integration Method With Harness](https://harness.io/blog/devops/vault-agent-secrets-management)
 - [harness.io: Tutorial: Vault Agent Advanced Use Case With Kubernetes Delegates and Shared Volumes 🌟](https://harness.io/blog/devops/vault-agent-kubernetes-delegates)
-- [hashicorp.com: Why Use the Vault Agent for Secrets Management?](https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management)
 - [medium.com/nerd-for-tech: PKI Certs Injection to K8s Pods with Vault Agent Injector](https://medium.com/nerd-for-tech/pki-certs-injection-to-k8s-pods-with-vault-agent-injector-d97482b48f3d) In this article, you'll learn how to use the Vault Agent Injector to dynamically generate and Inject PKI Certs to Pods by rendering secrets to a shared volume, containers within the pod will consume Vault secrets without being Vault aware.
-- [hashicorp.com: Refresh Secrets for Kubernetes Applications with Vault Agent](https://www.hashicorp.com/blog/refresh-secrets-for-kubernetes-applications-with-vault-agent) Learn the system signal and live reload methods for updating Kubernetes applications when secrets change. See an example via a Spring Boot application.
 
 ### Azure Key Vault
 
@@ -573,7 +527,6 @@
 - [==akv2k8s.io: Azure Key Vault to Kubernetes akv2k8s== 🌟](https://akv2k8s.io/) Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way
     - [Azure Key Vault to Kubernetes](https://github.com/SparebankenVest/azure-key-vault-to-kubernetes) Azure Key Vault to Kubernetes (akv2k8s for short) makes it simple and secure to use Azure Key Vault secrets, keys and certificates in Kubernetes.
 - [Neoteroi/essentials-configuration-keyvault](https://github.com/Neoteroi/essentials-configuration-keyvault) Azure Key Vault source for essentials-configuration
-- [==techcommunity.microsoft.com: In preview: Azure Key Vault secrets provider extension for Arc enabled Kubernetes clusters==](https://techcommunity.microsoft.com/t5/azure-arc-blog/in-preview-azure-key-vault-secrets-provider-extension-for-arc/ba-p/3002160)
 - [vcloud-lab.com: Create Azure Key Vault Certificates on Azure Portal and Powershell](http://vcloud-lab.com/entries/microsoft-azure/-create-azure-key-vault-certificates-on-azure-portal-and-powershell)
 
 ### CyberArk and Ansible
@@ -596,7 +549,6 @@
 
 ### Kapitan
 
-- [Kapitan: Generic templated configuration management for Kubernetes, Terraform and other things](https://kapitan.dev)
 - [medium: Declarative secret management for GitOps with Kapitan](https://medium.com/kapitan-blog/declarative-secret-management-for-gitops-with-kapitan-b3c596eab088)
 
 ### Alternatives with Kubernetes External Secrets
@@ -713,7 +665,6 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 ### Security-Guard
 
 - [pkg.go.dev/knative.dev/security-guard](https://pkg.go.dev/knative.dev/security-guard)
-- [developer.ibm.com: Secure microservices by monitoring behavior](https://developer.ibm.com/articles/secure-microservices-by-monitoring-behavior/) An open source Kubernetes-native extension to secure containerized applications.
 
 ## Books
 
@@ -726,7 +677,6 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 
 ### Log4j Log4Shell
 
-- [medium: CVE-2021–44228: finding Log4j vulnerable k8s pods with bash & trivy](https://medium.com/linkbynet/cve-2021-44228-finding-log4j-vulnerable-k8s-pods-with-bash-trivy-caa10905744d)
 - [sysdig.com: Mitigating log4j with Runtime-based Kubernetes Network Policies](https://sysdig.com/blog/mitigating-log4j-kubernetes-network-policies/)
 - [github.com/aws-samples: Apache Log4j2 CVE-2021-44228 node agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent) AWS has developed an RPM that performs a JVM-level hot-patch which disables JNDI lookups from the Log4j2 library, mitigating Log4j2 CVE-2021-44228. **The Apache Log4j2 CVE-2021-44228 node agent is an open source project built by the Kubernetes team at AWS. It is designed to run as a DaemonSet and mitigate the impact of Log4j2 CVE-2021-44228, which affects applications running Apache Log4j2 versions < 2.15.0 when processing inputs from untrusted sources. Running this DeamonSet will patch JVMs running in containers as well as on the host.**
 - [proferosec/log4jScanner](https://github.com/proferosec/log4jScanner) This tool provides you with the ability to scan internal (only) subnets for vulnerable log4j web services.
@@ -744,7 +694,6 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 - [dynatrace.com: Log4Shell vulnerability discovery and mitigation require automatic and intelligent observability](https://www.dynatrace.com/news/blog/log4shell-vulnerability-discovery-and-mitigation)
 - [thenewstack.io: Yet Another Log4j Security Problem Appears](https://thenewstack.io/yet-another-log4j-security-problem-appears)
 - [==cisagov/log4j-scanner==](https://github.com/cisagov/log4j-scanner) **log4j-scanner is a project derived from other members of the open-source community by CISA to help organizations identify potentially vulnerable web services affected by the log4j vulnerabilities.**
-- [venturebeat.com: What Log4Shell teaches us about open source security](https://venturebeat.com/2021/12/18/what-log4shell-teaches-us-about-open-source-security/)
 - [tanzu.vmware.com: Log4Shell Vulnerability Spotlights the Importance of Adopting Trusted Open Source Software Providers for the Enterprise](https://tanzu.vmware.com/developer/blog/log4shell-vulnerability-spotlights-the-importance-of-adopting-trusted-open-source-software-providers-for-the-enterprise/)
 - [==google/log4jscanner==](https://github.com/google/log4jscanner) A log4j vulnerability filesystem scanner and Go package for analyzing JAR files.
 - [thehackernews.com: Microsoft Warns of Continued Attacks Exploiting Apache Log4j Vulnerabilities](https://thehackernews.com/2022/01/microsoft-warns-of-continued-attacks.html)
@@ -761,7 +710,6 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 
 ## Let's Encrypt SSL certificates
 
-- [techrepublic.com: How to create Let's Encrypt SSL certificates with acme.sh on Linux](https://www.techrepublic.com/article/how-to-create-lets-encrypt-ssl-certificates-with-acme-sh-on-linux/)
 
 ## WAF Web Application Firewall
 
@@ -774,7 +722,6 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 - [tryhackme.com: Metasploit: Introduction](https://tryhackme.com/room/metasploitintro) An introduction to the main components of the Metasploit Framework. Metasploit is a powerful tool that can support all phases of a penetration testing engagement
 - [bridgecrew](https://bridgecrew.io) The codified cloud security platform for developers. Complete security and compliance visibility streamlined into developer-friendly workflows.
     - [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)
-- [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more
 - [==socket.dev: Introducing Socket==](https://socket.dev/blog/introducing-socket) Socket's mission is to make open source safer. A platform that protects your most critical apps from software supply chain attacks.
 - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad/)
 - [deepfence/ThreatMapper 🌟](https://github.com/deepfence/ThreatMapper/) 🔥 🔥 Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more. 🔥 🔥 ThreatMapper hunts for vulnerabilities in your production platforms and ranks these vulnerabilities based on their risk of exploitation. You can then prioritize the issues that present the greatest risk to the security of your applications.
