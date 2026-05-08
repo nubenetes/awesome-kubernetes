@@ -41,13 +41,10 @@
 
 ## IBM WebSphere Liberty
 
-- [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
-- [IBM open sources WebSphere Liberty code to support Java microservices and cloud-native apps](https://developer.ibm.com/dwblog/2017/websphere-liberty-java-open-source/)
 
 ## Alternatives
 
 - [TomEE from Tomitribe](http://tomee.apache.org/)
-- [KumuluzEE](https://ee.kumuluz.com/)
 
 ## Tweets
 
