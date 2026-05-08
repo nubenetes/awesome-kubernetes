@@ -38,7 +38,6 @@
 - [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml/)
 - [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab) This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.
 - [==realpython.com: YAML: The Missing Battery in Python==](https://realpython.com/python-yaml/) Python lacks built-in support for the YAML data format, commonly used for configuration and serialization, despite clear similarities between the two languages. In this tutorial, you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on PyYAML.
-- [==kubesimplify.com: A Simplified Guide To YAML==](https://kubesimplify.com/a-simplified-guide-to-yaml)
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 - [==spacelift.io/blog/yaml==](https://spacelift.io/blog/yaml) YAML Tutorial : A Complete Language Guide with Examples
 - [ruudvanasseldonk.com: The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell)
@@ -81,9 +80,7 @@
 
 - [==onlineyamltools.com== 🌟](https://onlineyamltools.com)
 - [avencera/yamine](https://github.com/avencera/yamine) A simple CLI for combining json and yaml files
-- [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
 - [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45) - [ref2 at hackernoon.com](https://hackernoon.com/how-to-create-kubernetes-yaml-files)
-- [datree.io](https://www.datree.io) Prevent Kubernetes Misconfigurations From Reaching Production
     - [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 - [23andMe/Yamale](https://github.com/23andMe/Yamale) A schema and validator for YAML. Ensure that your schema definitions come from internal or trusted sources. Yamale does not protect against intentionally malicious schemas.
 - [==instrumenta/kubeval==](https://github.com/instrumenta/kubeval) Validate your Kubernetes configuration files, supports multiple Kubernetes versions. kubeval is a tool for validating a Kubernetes YAML or JSON configuration file. It does so using schemas generated from the Kubernetes OpenAPI specification, and therefore can validate schemas for multiple versions of Kubernetes.
@@ -98,7 +95,6 @@
 
 ### Helm and Kustomize
 
-- [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
 - [medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts](https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455) - [Helmify](https://github.com/arttor/helmify)
 
 ## JSON. Templating JSON Files
@@ -117,11 +113,9 @@
 - [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d) Processing and creating JSON data in Python
 - [betterprogramming.pub: Exploring JSON, JSON5, and Circular References](https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532) An in-depth guide on JavaScript Object Notation (JSON)
 - [automationreinvented.blogspot.com: What is Json Schema and how to perform schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html)
-- [==schemastore.org/json: JSON Schema Store== 🌟](https://www.schemastore.org/json/)
 
 ### JSONPath query language
 
-- [blog.mariano.cloud: Do you even JSONPath?](https://blog.mariano.cloud/do-you-even-jsonpath) JSONPath as in a JSON query language that enables you to interact with a JSON structured data set. In this article, you will learn how to use JSONPath expressions to parse and format responses from the Kubernetes API.
 
 ### JSON in Ansible
 
@@ -144,7 +138,6 @@
 
 ### Kubernetes JSON Schemas
 
-- [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) Schemas for every version of every object in every version of Kubernetes
 
 ## Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
 
@@ -158,21 +151,17 @@
     - [Config-lint](https://stelligent.github.io/config-lint)
     - [Copper](https://github.com/cloud66-oss/copper)
     - [Conftest](https://www.conftest.dev/)
-    - [Polaris](https://github.com/FairwindsOps/polaris)
 - [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools/)
-- [KubeLinter](https://github.com/stackrox/kube-linter) KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
     - [==thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline==](https://thomasthornton.cloud/2022/04/13/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline/)
 - [medium.com/@jonathan_37674: How to validate Kubernetes YAML files? | ARMO](https://medium.com/@jonathan_37674/how-to-validate-kubernetes-yaml-files-armo-e45dd006d633) Explore defining Kubernetes applications using YAML configs and the various steps we can take to effectively validate these config definitions.
 
 ## Alternatives
 
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
-    - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)
     - [github.com/shipa-corp/ketch](https://github.com/shipa-corp/ketch/) Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.
     - [dzone.com: Use Ketch to Deploy Apps on Kubernetes Without YAML](https://dzone.com/articles/how-to-use-ketch-to-deploy-applications-on-kuberne) An open-source project for deploying and managing applications on Kubernetes with a command-line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
 - [naml: Not another markup language](https://github.com/kris-nova/naml) Framework for replacing Kubernetes YAML with Go.
-- [jvns.ca: A list of new(ish) command line tools](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
     - [jq](https://stedolan.github.io/jq/) (a great JSON-wrangling tool)
     - [jc](https://github.com/kellyjonbrazil/jc) (convert various tools’ output into JSON)
     - [jo](https://github.com/jpmens/jo) (create JSON objects)
