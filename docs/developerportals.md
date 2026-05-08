@@ -35,7 +35,6 @@
 ## Introduction
 
 - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
-- [ajay-yadav109458.medium.com: Concepts of API Gateway](https://ajay-yadav109458.medium.com/concepts-of-api-gateway-ac4993a0af44)
 - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
 - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)
 - [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)
@@ -54,7 +53,6 @@
 ### API Marketplaces
 
 - [chakray.com: API Strategy. How to create an API Marketplace](https://www.chakray.com/api-strategy-how-to-create-an-api-marketplace/)
-- [rapidapi.com: What is an API Marketplace?](https://rapidapi.com/blog/api-glossary/api-marketplace/)
 - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference/)
 
 ### Rapid API Marketplace. Free Public & Open REST APIs
@@ -64,13 +62,10 @@
 
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 
-- [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
 ## API Managers with API Gateways & Developer Portals
 
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
-- [towardsdatascience.com: Building Small Services, Deploying on Kubernetes, and Integrating with API Gateway](https://towardsdatascience.com/building-small-services-deploying-on-kubernetes-and-integrating-with-api-gateway-4909db4e5282) Abstracting Backend API Authentication with Python & Redis
-- [eng.uber.com: The Architecture of Uber’s API gateway](https://eng.uber.com/architecture-api-gateway/)
 
 ### API Management vs API Gateway vs Developer Portals
 
@@ -105,7 +100,6 @@
 
 ### WSO2 API Manager
 
-- [WSO2 API Manager](https://wso2.com/api-management/)
 - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)
 - [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://www.chakray.com/why-api-lifecycle-management-is-must-organisation-apis/)
 - [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://www.chakray.com/11-steps-achieving-successful-api-management-strategy/)
@@ -121,7 +115,6 @@
 - [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)
 - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)
 - [==dzone: Breaking Up a Monolithic Database with Kong==](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong) If your microservice design results in a very large API or multiple services accessing a single database, check out why Kong Gateway should be part of your project.
-- [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/kong-and-red-hat-collaboration)
 - [medium.com/@martin.hodges: Why do I need an API Gateway on a Kubernetes cluster](https://medium.com/@martin.hodges/why-do-i-need-an-api-gateway-on-a-kubernetes-cluster-c70f15da836c) In this article I introduce the concepts of an API Gateway and explain why you would need one in your Kubernetes cluster. In my next article I will show how to set one up using Kong.
 
 ### Tyk API Manager
@@ -183,10 +176,6 @@
 
 ## Automotive
 
-- [medium: I want to build a car insurance app — which APIs should I use?](https://medium.com/high-mobility/i-want-to-build-a-car-insurance-app-which-apis-should-i-use-6c0998267c33)
-- [medium.com: BMW CarData now integrated with Auto API](https://medium.com/high-mobility/integrate-bmw-cardata-in-the-high-mobility-platform-now-335b7d880dd6)
-- [medium.com: Field test: Using the Auto API to work with BMW CarData](https://medium.com/high-mobility/field-test-using-the-auto-api-to-work-with-bmw-cardata-480c90148569)
-- [medium.com: Field Test: Accessing Mercedes-Benz Data with the Auto API](https://medium.com/high-mobility/field-test-accessing-mercedes-benz-data-with-the-auto-api-a43d88363dfd)
 
 ### Auto API
 
@@ -204,7 +193,6 @@
 ### Others
 
 - [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api)
-- [BMW InnovationLab](https://github.com/BMW-InnovationLab)
 
 ## Banking
 
@@ -215,12 +203,10 @@
 - [Santander APIs](https://developerhub.santander.com/)
 - [BBVA API Market](https://www.bbvaapimarket.com/)
 - [CaixaBank API Store](https://apistore.caixabank.com/)
-- [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
 - [Deutsche Bank API Program](https://developer.db.com/)
 - [TSB API Developer Portal](https://apis.developer.tsb.co.uk/)
 - [ING Developer Portal](https://developer.ing.com/)
     - [ING API Marketplace](https://developer.ing.com/api-marketplace/marketplace)
-- [OrangeBank API PSD2](https://orangebank.es/para-desarrolladores/)
 - [Rabobank Developer Portal](https://developer.rabobank.nl/)
     - [Rabobank API Marketplace](https://developer.rabobank.nl/api-marketplace)
 - [Cecabank API Market](https://apimarket.cecabank.es/)
@@ -232,7 +218,6 @@
 
 ## Telecom
 
-- [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
 
 ## Tweets
