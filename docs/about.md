@@ -22,14 +22,12 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 
 **DevOps principles: People, processes, technology**
 
-**[GitOps](https://opensource.com/article/21/3/gitops) principles: Correctness, doing DevOps correctly**
 
 | __Principle__ | __Focus__ | __Main Tool__ | __Other Tools__ | __Flexibility__ | __Correctness__ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | __DevOps__ | Automation and frequent deployments | CI/CD pipeline | Supply chain management, Cloud Configuration as Code, etc. | Less strict and more open | Less focus on correctness |
 | __GitOps__ | ==Correctness; doing DevOps correctly== | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | ==Stricter and less open== | ==Designed with correctness== |
 
->[The SRE Experience Is Changing with Cloud Native:](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/)
 >
 >- From Firefighting to Prevention for SREs.
 >- Empower Developers with Self-Service.
@@ -59,7 +57,6 @@ Everyone sells the same thing: cloud, devops, big data, etc. Speaking is cheap. 
 
 There are very few unicorns and to a certain extent it depends a lot on the environment created.
 
-**CKA is the top Kubernetes certification but [only a few employers require one](https://kube.careers/report-2021-q4#:~:text=How%20essential%20are,quarters%20for%202021.). Same logic applies to other certifications.**
 
 It is surprising the numerous resources and the strategy of psychological exhaustion of recruitment companies that continuously bombard us with interviews. They also force us to transfer our data to third parties without any control of where our CV ends. It is also very common to gather information from detailed CVs and interviews to afterwards publish similar JDs that can be sold as services to potential clients. Again, only the service name is what matters, not how this is implemented and whether the client have the capacity to implement it in a proper manner.
 
@@ -73,7 +70,6 @@ Losing employment and significantly penalizing employability and economic bargai
 
 Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called [day 2](https://dzone.com/articles/defining-day-2-operations). You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for [reinventing the wheel](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/) on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.**
 
-**Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and [silos](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68) and promote digital transformation.**
 
 Does saying this publicly imply being blacklisted and losing professional opportunities? What kind of society do we live in?
 
