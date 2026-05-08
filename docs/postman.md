@@ -10,7 +10,6 @@
 
 - [getpostman.com](https://www.getpostman.com/)
 - [blog.getpostman.com](https://blog.getpostman.com/)
-- [Dzone: getting started with postman](https://dzone.com/articles/getting-started-with-postman)
 - [Dzone: testing APIs with postman](https://dzone.com/articles/testing-apis-with-postman)
 - [Dzone: the postman API network](https://dzone.com/articles/the-postman-api-network)
 - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)
@@ -20,7 +19,6 @@
     - [medium: API Testing with Postman](https://medium.com/@michaelkm03/rest-api-test-automation-with-postman-jenkins-1-of-3-860edf3c2a45)
 - [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery/)
     - [medium: API Testing with Postman — Build a Dynamic Test Suite](https://medium.com/@michaelkm03/api-testing-with-postman-build-a-dynamic-test-suite-e874f4d78e69)
-- [API Testing with Postman — Run a Collection with Docker](https://www.linkedin.com/pulse/api-testing-postman-run-collection-docker-michael-montgomery/)
 - [medium: Kubernetes Tutorial: Your Complete Guide to Deploying an App on AWS with Postman 🌟](https://medium.com/better-practices/kubernetes-tutorial-b6f302a67426) Use Postman to learn Kubernetes and deploy an app on an AWS cluster
 - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1)
     - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 2](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-2)
@@ -30,7 +28,6 @@
 - [==blog.postman.com: Introducing the Secret Variable Type in Postman==](https://blog.postman.com/introducing-secret-variable-type-in-postman/)
 - [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices/)
 - [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try/)
-- [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman/)
 - [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/) You can use the Postman desktop app to test the performance of your APIs. Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load. It can also help you identify any issues or bottlenecks that affect performance.
 
 ## Newman
