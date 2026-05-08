@@ -15,7 +15,6 @@
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
 - [Using Amazon EFS for AWS Lambda in your serverless applications](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
-- [medium: AWS Serverless Application Lens — A Summary](https://medium.com/swlh/aws-serverless-application-lens-a-summary-4f740c4f376d)
 - [blog.usejournal.com: Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)
 - [dashbird.io: Deploying AWS Lambda with Docker Containers: I Gave it a Try and Here’s My Review](https://dashbird.io/blog/deploying-aws-lambda-with-docker/)
 - [aws.amazon.com: Operating Lambda: Understanding event-driven architecture – Part 1](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
@@ -25,7 +24,6 @@
 - [infoworld.com: Serverless computing with AWS Lambda, Part 1](https://www.infoworld.com/article/3210726/serverless-computing-with-aws-lambda.html) Get an overview of AWS Lambda's nanoservices architecture and execution model, then build your first Lambda function in Java
 - [dashbird.io: 4 Tips for AWS Lambda Optimization for Production](https://dashbird.io/blog/optimizing-aws-lambda-for-production/)
 - [AWS Step Functions](https://aws.amazon.com/step-functions/)
-- [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
 - [medium: Going Serverless (on AWS)](https://medium.com/galvanize/going-serverless-on-aws-116a04a0defd)
 - [Data Caching Across Microservices in a Serverless Architecture](https://aws.amazon.com/blogs/architecture/data-caching-across-microservices-in-a-serverless-architecture/)
 - [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications)
@@ -42,8 +40,6 @@
 - [Migrating a monolithic .NET REST API to AWS Lambda](https://aws.amazon.com/blogs/compute/migrating-a-monolithic-net-rest-api-to-aws-lambda/)
 - [==medium.com/aws-serverless-microservices-with-patterns-best: Cloud-Native Microservices Evolves to AWS Serverless Event-driven Architectures==](https://medium.com/aws-serverless-microservices-with-patterns-best/cloud-native-microservices-evolves-to-aws-serverless-event-driven-architectures-9a38c473f4f8) In this article, we are going to discuss about How Cloud-Native Microservices Evolves to AWS Serverless Event-driven Architectures when developing Serverless E-Commerce application.
 - [betterprogramming.pub: Exploring the Serverless Event-Driven Architecture](https://betterprogramming.pub/exploring-the-serverless-event-driven-architecture-8d6bda93e823) Meet your old friends Terraform, Lambda, SQS, and Python
-- [==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and Performance==](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab) With the big push to use Step Functions over Lambda, you might be wondering “which is more cost-effective”? The answer might surprise you.
-    - There are use cases for both, but the consensus for production development lives with a hybrid approach: performing a base set of actions synchronously, like validations and id creation **and kicking off the rest of the processing asynchronously**. You’d then [use a WebSocket](https://betterprogramming.pub/introduction-to-aws-websockets-8b336a92c379) to inform the user when the workflow is complete.
 - [medium.com/awesome-cloud: AWS — Difference between Serverless (Lambda) and Containers (Kubernetes)](https://medium.com/awesome-cloud/aws-difference-between-serverless-lambda-and-containers-kubernetes-serverless-vs-containers-lambda-vs-k8s-a166931870a2)
 - [aws.amazon.com: Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC)](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac/)
 - [aws.amazon.com: Understanding AWS Lambda scaling and throughput](https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput/)
