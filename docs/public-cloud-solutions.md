@@ -18,7 +18,6 @@
 
 - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com/) A unique website gathering all catalogs
     - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)
-- [learntocloud.guide](https://learntocloud.guide)
 
 ## Cloud Agnostic Design
 
@@ -51,7 +50,6 @@
 - [thenewstack.io: Is a Multicloud Strategy Right for Your Organization?](https://thenewstack.io/is-a-multicloud-strategy-right-for-your-organization/)
 - [betterprogramming.pub: AWS vs. Digital Ocean vs. Hetzner Cloud — Which Has the Best Value for Money?](https://betterprogramming.pub/aws-vs-digital-ocean-vs-hetzner-cloud-which-has-the-best-value-for-money-bd9cb3c06dee)
 - [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)
-- [simform.com: AWS vs. Azure vs. GCP: A Complete Comparison Guide](https://www.simform.com/blog/aws-vs-azure-vs-gcp/)
 - [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison/)
 - [thenewstack.io: How to Evaluate Kubernetes Cloud Providers](https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers/) Companies turn to cloud providers for benefits like scalability, security and high availability, but the offerings are not identical. How can you ensure a good fit?
 - [==cloud.google.com: Compare AWS and Azure services to Google Cloud==](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
@@ -65,8 +63,6 @@
 ## Kubernetes as a Service
 
 - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms) With the number of services for Kubernetes increasing at a fast pace, we take a look at five such services and compare them.
-- [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) Enterprise-Grade Kubernetes
-- [Digital Ocean Kubernetes](https://www.digitalocean.com/products/kubernetes/)
     - [Digital Ocean pricing](https://www.digitalocean.com/pricing/)
 - [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing/)
 - [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service/)
@@ -90,9 +86,6 @@
 
 ## Outages
 
-- [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233) AWS disruption leaves parcels undelivered, popular websites and devices offline
-- [==techrepublic.com: AWS outage: Your response to AWS going down shouldn't be multicloud==](https://www.techrepublic.com/article/aws-outage-your-response-to-aws-going-down-shouldnt-be-multicloud/) Commentary: It's convenient to assume multicloud will solve your application resilience woes. Convenient, but wrong. Here's why.
-- [techrepublic.com: AWS has gone down before, as have other providers; Fastly has lessons to share from its own outage](https://www.techrepublic.com/article/aws-has-gone-down-before-as-have-other-providers-fastly-has-lessons-to-share-from-its-own-outage/)
 - [==Downdetector==](https://downdetector.co.uk)
     - [downdetector: aws](https://downdetector.co.uk/status/aws-amazon-web-services/)
 - [sdxcentral.com: AWS Outage Stresses Telco Cloud Challenges](https://www.sdxcentral.com/articles/news/aws-outage-stresses-telco-cloud-challenges/2021/12/)
