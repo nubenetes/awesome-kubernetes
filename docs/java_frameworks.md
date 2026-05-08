@@ -42,12 +42,10 @@
 
 ## Introduction
 
-- [reddit.com/r/java](https://www.reddit.com/r/java)
 - [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)
 - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
 - [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support/)
 - [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk)
-- [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
 - [marcobehler.com: Java Versions and Features 🌟](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features)
 - [advancedweb.hu: A categorized list of all Java and JVM features since JDK 8 to 14](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-14/)
 - [JDK 15: The new features in Java 15](https://www.infoworld.com/article/3534133/jdk-15-the-new-features-in-java-15.html) Just-arrived update to standard Java features text blocks, hidden classes, the Z Garbage Collector, and previews of pattern matching and records.
@@ -59,7 +57,6 @@
 - [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-design-principles/)
 - [javatechonline.com: Making Java easy to learn - Spring Boot Annotations With Examples](https://javatechonline.com/spring-boot-annotations-with-examples/)
 - [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview)
-- [dzone: How can Java bring you into Kubernetes-Native Future](https://dzone.com/articles/how-can-java-bring-you-into-kubernetes-native-futu)
 - [infoq.com: Java 17, the Next Long-Term Support Release, is Now Available](https://www.infoq.com/news/2021/09/java17-released/)
 - [developers.redhat.com: Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses)
 - [tschatzl.github.io: JDK 17 G1/Parallel GC changes](https://tschatzl.github.io/2021/09/16/jdk17-g1-parallel-gc-changes.html)
@@ -71,7 +68,6 @@
 - [==geeksforgeeks.org: 5 Best Java Frameworks For Microservices==](https://www.geeksforgeeks.org/5-best-java-frameworks-for-microservices/)
 - [medium.com/@aritra.chatterjee_: Hexagonal architecture in java](https://medium.com/@aritra.chatterjee_/hexagonal-architecture-in-java-7ac8f4bea753) This article will implement the basic concepts of Hexagonal Architecture in Java.
 - [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53) An in-depth explanation of all SOLID Design Principles with real-world use cases and code examples
-- [analyticsinsight.net: Why is Java the Most Unsuitable Programming Language for Startups?](https://www.analyticsinsight.net/why-is-java-the-most-unsuitable-programming-language-for-startups/)
 - [medium.com/javarevisited: Do you know about the different microservices frameworks for Java? 🌟](https://medium.com/javarevisited/do-you-know-about-the-different-microservices-frameworks-for-java-90b61f8cdbd7)
 
 ### How to migrate Java workloads to containers
@@ -82,9 +78,7 @@
 ### Existing Java Implementations
 
 - [Oracle Java](https://www.oracle.com/technetwork/java/javase/overview/index.html)
-    - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
 - [Oracle OpenJDK](https://jdk.java.net/11/)
-- [IBM JDK](https://developer.ibm.com/javasdk/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 - [AdoptOpenJDk](https://adoptopenjdk.net/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
 - [docs.microsoft.com: Microsoft OpenJDK](https://docs.microsoft.com/en-us/java/openjdk/overview)
@@ -109,7 +103,6 @@
 ### Java 17
 
 - [tecmint.com: How to Install Java 17 on RHEL-based Linux Distributions](https://www.tecmint.com/install-java-on-centos-rhel-fedora/)
-- [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) JVM with <5ms GC pauses (ZGC). JDK17 is a huge leap forward in benchmark after benchmark. Upgrade as fast as you can. Amazon’s Corretto builds are available for a huge number of platforms and distribution channels. The JRE disappeared with jdk9: use jlink to assemble exactly the JRE you need.
 
 ### Java 18
 
@@ -159,11 +152,7 @@ optimizing Enterprise Java for the microservices architecture.
 
 ### Server Vendors providing MicroProfile runtimes
 
-- [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
-- [TomEE from Tomitribe](http://tomee.apache.org/)
-- [Payara](https://www.payara.fish/)
 - [RedHat’s WildFly Swarm](http://wildfly-swarm.io/)
-- [KumuluzEE](https://ee.kumuluz.com/)
 
  ## Hibernate
 
@@ -185,7 +174,6 @@ optimizing Enterprise Java for the microservices architecture.
 - [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/)
 - [java67.com: 10 Spring Framework Annotations Java Developer should learn - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html)
 - [javarevisited.blogspot.com: Role based Access control using Spring Security and MVC, Mapping LDAP Groups to Authorities for Authorization](https://javarevisited.blogspot.com/2013/07/role-based-access-control-using-spring-security-ldap-authorities-mapping-mvc.html)
-- [==odedia.org: Production Considerations for Spring on Kubernetes== 🌟🌟🌟](https://odedia.org/production-considerations-for-spring-on-kubernetes)
 
 ### SpringBoot
 
@@ -196,7 +184,6 @@ optimizing Enterprise Java for the microservices architecture.
 - [dzone: Deploying Spring Boot App to JBoss Wildfly](https://dzone.com/articles/deploying-spring-boot-app-to-jboss-wildfly)
 - [Spring Boot: ¿war o jar? Ambos](https://www.adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos/)
 - [javatutorial.net: Spring vs. Java EE](https://javatutorial.net/spring-vs-java-ee)
-- [medium.com: Spring Cloud kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 - [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 - [__Spring Boot Istio library__: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio/)
 - [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications)
@@ -260,8 +247,6 @@ optimizing Enterprise Java for the microservices architecture.
 
 ##### Demos
 
-- [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) Workshop-style guide for rearchitecting a Java Monolith application to a Cloud Native architecture running in Kubernetes
-- [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)
 
 #### Spring Cloud
 
@@ -269,8 +254,6 @@ optimizing Enterprise Java for the microservices architecture.
 
 ##### Spring Cloud Kubernetes
 
-- [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes)
-- [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 - [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes)
 
 ##### Spring Cloud Config and Spring Cloud Config Server
@@ -319,7 +302,6 @@ optimizing Enterprise Java for the microservices architecture.
 - [developers.redhat.com: Build an API using Quarkus from the ground up 🌟](https://developers.redhat.com/blog/2021/05/11/building-an-api-using-quarkus-from-the-ground-up/)
 - [developers.redhat.com: RESTEasy Reactive and more in Quarkus 2.0](https://developers.redhat.com/articles/2021/07/01/resteasy-reactive-and-more-quarkus-20)
 - [opensource.com: 3 reasons Quarkus 2.0 improves developer productivity on Linux 🌟](https://opensource.com/article/21/7/developer-productivity-linux) New features in Quarkus 2.0 make it easier to test code in the developer console.
-- [redhat.com: Four reasons to try Quarkus (pdf checklist)](https://www.redhat.com/en/engage/four-reasons-quarkus-s-202002130647) Quarkus is an open source, Kubernetes-native Java™ framework tailored for GraalVM and OpenJDK HotSpot. It offers a full-stack framework, using top Java libraries and standards. With Quarkus, Java can be a leading platform in Kubernetes and serverless environments, while offering developers a unified reactive and imperative programming model to address a wider range of distributed application architectures. Download this checklist to learn 4 reasons why developers should use Quarkus as a programming tool.
 - [developers.redhat.com: Deploy Quarkus everywhere with Red Hat Enterprise Linux (RHEL)](https://developers.redhat.com/blog/2021/04/07/deploy-quarkus-everywhere-with-red-hat-enterprise-linux-rhel)
 - [infoq.com: Quarkus 2.0 Delivers Continuous Testing, CLI and Supports Minimal JDK 11](https://www.infoq.com/news/2021/08/quarkus-2-0-final-release/)
 - [Quarkus - Dev UI 🌟](https://quarkus.io/guides/dev-ui)
@@ -348,7 +330,6 @@ optimizing Enterprise Java for the microservices architecture.
 
 ## Spring Boot VS MicroProfile
 
-- [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)
 - [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/cloud/blog/migrate-java-microservices-from-spring-to-microprofile-p2) Spring Boot or MicroProfile for Java microservices apps? Choose the path of least resistance. The Spring Boot and MicroProfile frameworks have many of the same goals (i.e., you can do everything in MicroProfile that you can do in Spring Boot). Both of them are built on top of the same core APIs; even though there are differences in some of the APIs, the work they do is similar.
 
 ## Quarkus vs Spring Boot
