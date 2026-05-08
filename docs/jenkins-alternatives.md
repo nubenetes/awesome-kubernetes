@@ -44,7 +44,6 @@
 - [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.lambdatest.com/blog/circleci-vs-gitlab/)
 - [==acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools== 🌟](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)
 - [medium: Choosing a CI that grows at the same pace as a scale-up 🌟](https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084)
-- [cloud.redhat.com: Top Open Source CI/CD Tools for Kubernetes to Know 🌟](https://cloud.redhat.com/blog/top-open-source-ci/cd-tools-for-kubernetes-to-know)
     - Tekton
     - Argo
     - GitHub Actions
@@ -57,7 +56,6 @@
 
 ## Alternatives
 
-- [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 - [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
 - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 - [Agola](https://agola.io/)
@@ -69,9 +67,6 @@
 - [Buildbot](https://buildbot.net/)
 - [GoCD](https://www.gocd.org/)
 - [Codefresh](https://codefresh.io/)
-- [skaffold](https://skaffold.dev/) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
-- [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
-- [Google Cloud Build](https://cloud.google.com/cloud-build)
 - [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
 - [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
 
@@ -83,13 +78,11 @@
 - [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config/)
 - [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config/)
 - [dev.to: CI/CD: Automating our build and deploy process](https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91)
-- [towardsdatascience.com: How to Build an Automated Development Pipeline](https://towardsdatascience.com/how-to-build-an-automated-development-pipeline-d0b9820a2f3d) A playbook for developing software with minimum frustration
 - [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing)
 ### Travis CI
 
 - [Travis CI](https://travis-ci.org/)
 - [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/)
-- [lambdatest.com: Building A CI/CD Pipeline With Travis CI, Docker, And LambdaTest](https://www.lambdatest.com/blog/ci-cd-pipeline-with-travis-ci-docker-and-lambdatest/)
 
 ### Concourse
 
@@ -107,13 +100,8 @@
 - [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/)
 - [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
 - [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) GitHub Actions and Jenkins both get the job done. Let’sfind out whether it’s worth considering moving from Jenkins.
-- [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.openshift.com/blogdeploying-to-openshift-using-github-actions)
 - [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry/)
 - [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
-- [redhat-actions](https://github.com/redhat-actions)
-- [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runner)
-    - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
-- [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
 - [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) A GitHub Action that setupKubernetes tools (kubectl, kustomize, helm, kubeval, conftest, yq) and cache them on the runner. It is like a typescriptversion of stefanprodan/kube-tools with no command input param, but it's very fast as it installs the tools asynchronously.
 - [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) This controller operatesself-hosted runners for GitHub Actions on your Kubernetes cluster.
 - [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How toautomatically build your Docker images; a case study.
@@ -124,7 +112,6 @@
 
 ### Azure DevOps
 
-- [Azure DevOps](https://azure.microsoft.com/services/devops/)
 - [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/)
 
 ### ShuttleOps
@@ -134,8 +121,6 @@
 
 ### HashiCorp Waypoint
 
-- [HashiCorp Waypoint](https://www.waypointproject.io/)
-- [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
 
 ### OneDev
 
@@ -152,7 +137,6 @@
 ### Octopus Deploy
 
 - [Octopus Deploy - deployment tool](https://octopus.com/)
-- [octopus.com: Octopus Configuration-as-Code with a language based on Hashicorp's HCL](https://octopus.com/blogshaping-config-as-code)
 - [octopus.com: Deployment process as code](https://octopus.com/docs/deployments/patterns/deployment-process-as-code) If youwant to do Octopus configuration as code today, we recommend using our .NET SDK which will always be supported. The Terraformprovider will be a simpler, more declarative approach, that we will support in the future.
 - [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs)
 - [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) Go API Client for OctopusDeploy. A Go client for the Octopus Deploy API. This client is used by the [Octopus Deploy Terraform Provider](https://githubcom/OctopusDeploy/terraform-provider-octopusdeploy).
@@ -178,15 +162,12 @@
 ### Devtron
 
 - https://devtron.ai
-- [devtron-labs/devtron](https://github.com/devtron-labs/devtron) is an open source software delivery workflow for kubernetes written in go. Web based CI/CD Platform for Kubernetes.
 
 ## Cloud Native CI/CD
 
-- [tynybay.com: ArgoCD vs FluxCD vs Jenkins X: Which GitOps implementation tool suits you the best?](https://www.tynybay.com/insights-our-thinking/argocd-vs-fluxcd-vs-jenkins-x-which-gitops-implementation-tool-suits-you-the-best)
 - [csweichel/werft](https://github.com/csweichel/werft) Werft is a Kubernetes-native CI system. It knows no pipelines, just jobs and each job is a Kubernetes pod. What you do in that pod is up to you. We do not impose a "declarative pipeline syntax" or some groovy scripting language. Instead, Werft jobs have run Node, Golang or bash scripts in production environments.
 ### Jenkins X
 
-- [jenkins-x.io](https://jenkins-x.io/)
 - [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)
 - [devopstoolkitseries.com](https://www.devopstoolkitseries.com/)
     - [youtube: Jenkins X: The Recipe For Continuous Delivery](https://www.youtube.com/watch?v=ihHr-iLfEGo)
@@ -201,11 +182,8 @@
 - [speakerdeck.com: Spinnaker Application management by Terraform Plugins](https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins)
 - [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8)
 - [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) Spinnaker provides unique building blocks to create tailor-made,and highly-collaborative continuous delivery pipelines.
-- [medium: How we rolled out our Kubernetes platform in Adevinta Spain](https://medium.com/adevinta-tech-bloghow-we-rolled-out-our-kubernetes-platform-in-adevinta-spain-63495884a1db)
 - [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
-- [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
 - [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
-- [gspann.com: Significance of Using Spinnaker When Adopting a Kubernetes Environment 🌟](https://www.gspann.com/resources/blogs/significance-of-using-spinnaker-when-adopting-a-kubernetes-environment/) Spinnaker acts as a multi-cloud deployment tool to support continuous workflows in a Kubernetes nvironment. Understand the Spinnaker architecture and learn about the best practices that can help you better deploy applications on Kubernetes clusters.
 
 ### ArgoCD
 
@@ -219,7 +197,6 @@
 
 - [Jenkins-X + Tekton on OpenShift](https://github.com/openshift/tektoncd-pipeline-operator)
 - [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton)
-- [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)
 - [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image)
 - [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3)
 
