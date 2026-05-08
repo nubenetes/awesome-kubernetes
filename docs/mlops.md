@@ -28,12 +28,10 @@
 - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
 - [dafriedman97.github.io: Machine Learning from Scratch](https://dafriedman97.github.io/mlbook/content/introduction.html) Derivations in Concept and Code.
 - [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models)
-- [github: A very Long never ending Learning around Data Engineering & Machine Learning](https://github.com/abhishek-ch/around-dataengineering)
 - [towardsdatascience.com: A Kubernetes architecture for machine learning web-application deployments](https://towardsdatascience.com/a-kubernetes-architecture-for-machine-learning-web-application-deployments-632f7765ef29) Use Kubernetes to reduce machine learning infrastructure costs and scale resources with ease.
 - [cloud.google.com: How to use a machine learning model from a Google Sheet using BigQuery ML](https://cloud.google.com/blog/topics/developers-practitioners/how-use-machine-learning-model-google-sheet-using-bigquery-ml)
 - [itnext.io: Building ML Componentes on Kubernetes](https://itnext.io/building-ml-componentes-on-kubernetes-fc7e24cb9269)
 - [towardsdatascience.com: Deploying An ML Model With FastAPI — A Succinct Guide](https://towardsdatascience.com/deploying-an-ml-model-with-fastapi-a-succinct-guide-69eceda27b21)
-- [towardsdatascience.com: Production Machine Learning Monitoring: Outliers, Drift, Explainers & Statistical Performance](https://towardsdatascience.com/production-machine-learning-monitoring-outliers-drift-explainers-statistical-performance-d9b1d02ac158) A practical deep dive on production monitoring architectures for machine learning at scale using real-time metrics, outlier detectors, drift detectors, metrics servers and explainers.
 - [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://cloudblogs.microsoft.com/opensource/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices/)
 - [ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop) Example code for a basic ML Platform based on Pulumi, FastAPI, DVC, MLFlow and more
 - [rubrix](https://github.com/recognai/rubrix) A free and open-source tool to explore, label, and monitor data for NLP projects.
@@ -51,7 +49,6 @@
 - [datarevenue.com: Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow) Choosing a task orchestration tool
 - [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/3673976/13-open-source-projects-transforming-ai-and-machine-learning.html) From deepfakes to natural language processing and more, the open source world is ripe with projects to support software development on the frontiers of artificial intelligence and machine learning.
 - [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) In this tutorial, we’ll build an NLP app starting from DagsHub-MLflow, then diving into deployment in SageMaker and EC2 with the front end in Streamlit.
-- [valuecoders.com: How AI And ML Have Revamped Mobile App Development?](https://www.valuecoders.com/blog/technology-and-apps/how-ai-and-ml-have-revamped-mobile-app-development/)
 - [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865/) El sistema AlphaFold de Google revela la estructura en 3D de las proteínas y ya es utilizado por miles de biólogos, pero Meta contraataca con otro algoritmo. ¿Cuál es mejor?
 - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)
 - [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops/)
@@ -74,7 +71,6 @@
 - [marvelousmlops.substack.com: Learn Machine Learning and Neural Networks without Frameworks](https://www.freecodecamp.org/news/learn-machine-learning-and-neural-networks-without-frameworks/)
 - [==seattledataguy.substack.com: Data Engineering Vs Machine Learning Pipelines==](https://seattledataguy.substack.com/p/data-engineering-vs-machine-learning)
 - [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphoreci.com/blog/devops-ml-data)
-- [nannyml.com: Automating post-deployment Data Collection for ML Monitoring](https://www.nannyml.com/blog/sdk-nannyml-data-collection-ml-monitoring)
 - [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium/)
 - [==medium.com/@samiullah6799: Different Roles in MLOps==](https://medium.com/@samiullah6799/different-roles-in-mlops-0918de5321a4)
 - [==dev.to/pavanbelagatti: Deploy Any AI/ML Application On Kubernetes: A Step-by-Step Guide!==](https://dev.to/pavanbelagatti/deploy-any-aiml-application-on-kubernetes-a-step-by-step-guide-2i37)
@@ -104,15 +100,11 @@
 ## MLFlow
 
 - https://mlflow.org
-- [towardsdatascience.com: A Beginner-Friendly Introduction to Kubernetes 🌟](https://towardsdatascience.com/a-beginner-friendly-introduction-to-kubernetes-540b5d63b3d7) With a hands-on MLFlow deployment example
-- [towardsdatascience.com: Empowering Spark with MLflow](https://towardsdatascience.com/empowering-spark-with-mlflow-58e6eb5d85e8)
 - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server) A Helm chart for MLFlow On Kubernetes
 - [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow/) An Apache Airflow provider to interact with MLflow using Operators and Hooks
 
 ## Kubeflow
 
-- [kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
-- [medium.com: Machine Learning using Kubeflow](https://medium.com/cloud-techies/machine-learning-using-kubeflow-ad7c9f767df0)
 - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow/)
 - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline. In this article you will learn how to deploy Kubeflow in AWS.
 - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)
@@ -167,7 +159,6 @@
 
 ## KServe Cloud Native Model Server
 
-- [kserve.github.io](https://kserve.github.io/website/0.8/) Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI
 - [thenewstack.io: KServe: A Robust and Extensible Cloud Native Model Server](https://thenewstack.io/kserve-a-robust-and-extensible-cloud-native-model-server/)
 - [medium.com/bakdata: Scalable Machine Learning with Kafka Streams and KServe](https://medium.com/bakdata/scalable-machine-learning-with-kafka-streams-and-kserve-85308858d867) In this blog post, you'll learn how to use Apache Kafka and Kafka Streams in combination with the KServe inference platform for an easy integration of ML models with data streams
 
@@ -177,7 +168,6 @@
 - [analyticsindiamag.com: Is coding necessary to work as a data scientist?](https://analyticsindiamag.com/is-coding-necessary-to-work-as-a-data-scientist/) Non-programmers with a no-coding background can have a glorious career in data science and programming, and coding knowledge is more like a skill and not a criterion.
 - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
-- [towardsdatascience.com: How to Structure a Data Science Project for Readability and Transparency](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) And How to Create One in One Line of Code
 
 ## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
