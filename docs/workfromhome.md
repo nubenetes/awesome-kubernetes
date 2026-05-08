@@ -42,7 +42,6 @@
 
 ## Tips
 
-- [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
 - [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586) Diversos estudios demuestran que las personas con cargos directivos ponen de manifiesto su preocupación por la falta de cohesión de los empleados.
 
 ## Tweets
