@@ -36,22 +36,36 @@ class RepositoryController:
         # Informe Visual en el PR
         categories_str = ", ".join([f"`{c}`" for c in metrics.get('categories', [])])
         
+        # Detalle de enlaces añadidos
+        added_md = ""
+        if metrics.get('added_list'):
+            added_md = "### ➕ Enlaces Añadidos\n| Recurso | Categoría | URL |\n| :--- | :--- | :--- |\n"
+            for item in metrics['added_list']:
+                added_md += f"| {item['title']} | `{item['category']}` | {item['url']} |\n"
+        
+        # Detalle de curación/borrado
+        removed_md = ""
+        if metrics.get('removed_list'):
+            removed_md = "### 🧹 Curación y Limpieza (Duplicados)\n| Categoría | Acción |\n| :--- | :--- |\n"
+            for item in metrics['removed_list']:
+                removed_md += f"| `{item['category']}` | {item['reason']} |\n"
+
         pr_narrative = (
             f"## 💎 Actualización de Conocimiento: Kubernetes & Cloud Native\n\n"
             f"Este PR añade **{metrics.get('total_new', 0)}** nuevos recursos y optimiza los existentes.\n\n"
-            f"### ✅ Mejoras realizadas:\n"
-            f"- **Inyección de Novedades**: Nuevos recursos filtrados desde X y Trending.\n"
-            f"- **Optimización de Duplicados**: Se han detectado URLs repetidas y el bot ha elegido mantener la versión con **más estrellas (🌟)** y **mejor descripción**, eliminando las versiones redundantes más pobres.\n\n"
-            f"### 📊 Resumen de Ingesta:\n"
+            f"**Rango Temporal Analizado:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
+            f"### ✅ Resumen de Ingesta:\n"
             f"```mermaid\n"
-            f"pie title Origen de los Nuevos Recursos\n"
+            f"pie title Origen de los Recursos\n"
             f"    \"X (@nubenetes)\" : {metrics.get('social_injections', 0)}\n"
             f"    \"GitHub Trending\" : {metrics.get('trending_injections', 0)}\n"
             f"```\n\n"
+            f"{added_md}\n"
+            f"{removed_md}\n"
             f"### 📂 Categorías Impactadas:\n"
             f"{categories_str}\n\n"
             f"---\n"
-            f"**Nota del Bot:** El bot ya no borra enlaces por falta de respuesta del servidor (salud), solo optimiza el contenido duplicado basándose en la calidad del texto y las menciones destacadas."
+            f"**Nota del Bot:** El bot utiliza heurísticas de calidad para decidir qué duplicados mantener (estrellas 🌟 y longitud de descripción)."
         )
 
         self.repository.create_pull(

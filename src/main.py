@@ -50,7 +50,14 @@ async def master_orchestrator():
 
     # 4. Inyección en Markdowns
     file_updates = {}
-    stats = {"new_links": 0, "categories_updated": set()}
+    stats = {
+        "new_links": 0, 
+        "categories_updated": set(),
+        "added_details": [], # Lista de {title, url, category}
+        "removed_details": [], # Lista de {url, category, reason}
+        "time_horizon": time_horizon.isoformat(),
+        "end_date": datetime.now(MADRID_TZ).isoformat()
+    }
 
     for category in NUBENETES_CATEGORIES:
         file_path = f"docs/{category}.md"
@@ -59,15 +66,31 @@ async def master_orchestrator():
             content = repo_file.decoded_content.decode("utf-8")
             
             # Limpiamos solo duplicados existentes para mantener higiene
-            final_content, _ = await markdown_sanitizer.sanitize_document(content)
+            final_content, doc_stats = await markdown_sanitizer.sanitize_document(content)
             
+            # Registrar duplicados eliminados (curación)
+            if doc_stats.get("duplicates", 0) > 0:
+                # Nota: markdown_sanitizer no devuelve qué URLs borró exactamente, 
+                # pero podemos inferir que hubo limpieza de calidad.
+                stats["removed_details"].append({
+                    "category": category,
+                    "reason": "Optimización de duplicados (mejor calidad mantenida)"
+                })
+
             # Inyectar novedades
             original_content = final_content
             for asset in all_new_assets:
                 if asset["category"] == category:
+                    prev_len = len(final_content)
                     final_content = markdown_sanitizer.inject_curated_link(
                         final_content, category, asset["title"], asset["url"], asset["description"]
                     )
+                    if len(final_content) > prev_len:
+                        stats["added_details"].append({
+                            "title": asset["title"],
+                            "url": asset["url"],
+                            "category": category
+                        })
             
             if final_content.strip() != original_content.strip():
                 file_updates[file_path] = final_content
@@ -76,13 +99,17 @@ async def master_orchestrator():
         except Exception:
             continue
 
-    # 5. GitOps - Generar Informe Mermaid en el PR
+    # 5. GitOps - Generar Informe Detallado en el PR
     if file_updates:
         metrics = {
             "social_injections": len(curated),
             "trending_injections": len(trending),
             "total_new": stats["new_links"],
-            "categories": list(stats["categories_updated"])
+            "categories": list(stats["categories_updated"]),
+            "added_list": stats["added_details"],
+            "removed_list": stats["removed_details"],
+            "start_date": stats["time_horizon"],
+            "end_date": stats["end_date"]
         }
         
         print(f"[+] Éxito. Preparando PR con {stats['new_links']} nuevos recursos.")
