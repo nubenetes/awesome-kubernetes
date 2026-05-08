@@ -28,15 +28,12 @@
 - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) Recursos gratuitos para empezar a ser un Frontend Developer o ampliar conocimientos
 - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
-- [medium: 5 Programming Languages that will Die](https://medium.com/@lidiaaa08/5-programming-languages-that-will-die-1a4e40371a2e)
-- [dev.to: Software Engineering Best Practices + The Best Resources to Save🚀](https://dev.to/alexomeyer/software-engineering-best-practices-useful-resources-c75)
 - [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/)
 - [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
 - [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/7-most-in-demand-and-high-paying-programming-jobs/)
 - [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/)
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
 - [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
-- [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
 - https://suckless.org/philosophy software that sucks less
 - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
 - [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/)
@@ -68,7 +65,6 @@
 ## Developer Tools
 
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
-- [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)
 
 ### Firebase
 
@@ -107,14 +103,11 @@
 
 ## AI Programming
 
-- [GitHub Copilot](https://copilot.github.com/)
 - [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 - [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/2024/03/devin-inteligencia-artificial-programa-software)
 
 ## No code tools
 
-- [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
 
 ## Images
 
