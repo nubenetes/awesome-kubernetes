@@ -56,7 +56,6 @@
 - [opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟](https://opensource.com/article/20/9/ansible-modules-kubernetes) Combine Ansible with Kubernetes for cloud automation. Plus, get our cheat sheet for using the Ansible k8s module.
 - [opensource.com: A quickstart guide to Ansible 🌟](https://opensource.com/article/19/2/quickstart-guide-ansible) Download the Ansible Automation for SysAdmins guide.
 - [opensource.com: 7 things you can do with Ansible right now](https://opensource.com/article/20/9/ansible) If Ansible's inclusion as a leader on the Forrester Wave report piqued your interest, here are some ways the automation solution can simplify your life.
-- [medium.com: The Ultimate Guide for Ansible Total Domination 🌟](https://medium.com/the-programming-hub/the-ultimate-guide-for-ansible-total-domination-e70bdfc11175)
 - [opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟](https://opensource.com/article/20/10/calendar-ansible) Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
 - [opensource.com: My first day using Ansible](https://opensource.com/article/20/10/first-day-ansible) A sysadmin shares information and advice about putting Ansible into real-world use configuring computers on his network.
 - [siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟](https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management/)
@@ -85,14 +84,12 @@
 - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.
 - [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/sysadmin/developing-ansible-role) In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.
 - [ansible.com: Ansible whitepaper](https://www.ansible.com/resources/whitepapers/ansible-in-depth) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
-- [redhat.slides.com: Ansible 202 - Best Practices from the field](http://redhat.slides.com/jparrill/ansible-202/fullscreen?token=1hUEEPF4#/11/1) - [asciinema.org/~padajuan](https://asciinema.org/~padajuan)
 - [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/sysadmin/configure-gmail-using-ansible)
 - [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/sysadmin/reverse-proxy-ansible) Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.
 - [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)
 - [fedoramagazine.org: Using Ansible to configure Podman containers 🌟](https://fedoramagazine.org/using-ansible-to-configure-podman-containers/)
 - [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://acloudguru.com/blog/engineering/ansible-vs-puppet-which-is-right-for-you)
 - [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/sysadmin/install-ansible-way) How to add package repositories and install packages on many hosts by using Ansible.
-- [automateinfra.com: Everything about Ansible 🌟](https://automateinfra.com/everything-about-ansible/)
 - [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux
 - [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands/)
 - [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/ansible/ansible-for-beginners)
@@ -115,7 +112,6 @@
 - [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook/)
 - [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB)
 - [==opensource.com: 9 ways to learn Ansible this year== 🌟](https://opensource.com/article/22/1/learn-ansible) Ansible is an open source automation tool that can be used in a variety of ways. Here are a few examples of last year's most popular Ansible tutorials and stories.
-- [redhat.com: Top 10 Ansible tutorials of 2021](https://www.redhat.com/sysadmin/top-ansible-articles-2021) Whether you're new to Ansible or looking to level up your automation skills, you'll find something of value in 2021's top Ansible articles.
 - [cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible](https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent)
 - [cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands](https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands)
 - [redhat.com: 8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution) Here's how to optimize your Ansible playbooks to make them run faster.
@@ -179,9 +175,7 @@
 
 - [linuxctl.com: Ansible - Interacting with external REST API](https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api/) Ansible has many powerful modules. One of which is called uri which is capable of sending any kind of HTTP request. Using this module, it is fairly simple to allow ansible to intelligently talk to a REST API. This will come in handy during for automation of the sensu monitoring docker infrastructure I am currently working on.
 - [steampunk.si: Let us give Ansible a REST](https://steampunk.si/blog/let-us-give-ansible-a-rest/)
-- [netways.de: Ansible puede hablar con tu API favorita](https://www.netways.de/blog/2019/04/26/ansible-can-talk-to-your-favorite-api/)
 - [redhat.com: Using Ansible to interact with web endpoints](https://www.redhat.com/sysadmin/ansible-web-endpoints) How about an Ansible use case that you can implement today?
-- [opensource.com: Using Ansible with REST APIs](https://opensource.com/article/21/9/ansible-rest-apis) You may have queried APIs with a web browser or curl, but one of the overlooked capabilities of Ansible is how well it can leverage APIs as part of any playbook.
 
 ### Writing an Ansible module for a REST API
 
@@ -223,9 +217,7 @@
 - [redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators) Industry’s leading IT automation platform now re-architected for deploying portable automation at massive scale across hybrid clouds and edge environments while shifting automation left into application development
 - [ansible.com: What's new in Ansible Automation Platform 2: automation controller](https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-controller)
     - [ansible.com: What's new in Ansible Automation Platform 2: automation content navigator](https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator)
-- [venturebeat.com: Red Hat brings Ansible IT automation engine to Azure](https://venturebeat.com/2021/12/08/red-hat-brings-its-ansible-it-automation-engine-to-azure/)
 - [redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to **Microsoft Azure**](https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure) Customers can more easily automate across hybrid clouds, IoT and edge deployments with Red Hat Ansible Automation Platform on Microsoft Azure
-- [==redhat.com: Red Hat Ansible Automation Platform 2 (ebook)==](https://www.redhat.com/en/resources/ansible-automation-platform-2-ebook)
 - [wraltechwire.com: Red Hat expands hybrid cloud efforts in Ansible deal with Microsoft Azure](https://www.wraltechwire.com/2021/12/11/red-hat-expands-hybrid-cloud-efforts-in-ansible-deal-with-microsoft-azure/)
 
 ### Automation services catalog
@@ -234,7 +226,6 @@
 
 ### Red Hat Certified Ansible Content Collections
 
-- [ansible.com: Now Available: Red Hat-Maintained Content Collections on Automation Hub](https://www.ansible.com/blog/now-available-the-new-ansible-content-collections-on-automation-hub)
 - [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)
 - [ansible.com: Automating Red Hat Satellite with Ansible](https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible)
     - [galaxy.ansible.com: letsencrypt](https://galaxy.ansible.com/t_systems_mms/letsencrypt) This collection contains a role for issuing ssl certificates from Let's Encrypt via dns or http-challenge
@@ -270,9 +261,7 @@
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/)
 - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower/)
 - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx/)
-- [miquelmariano.github.io: Instalación de Ansible AWX sobre Centos 7 con Docker](https://miquelmariano.github.io/2020/01/15/instalacion-ansible-awx-docker-centos7/)
 - [techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8](https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html)
-- [developer.ibm.com: Automating IT infrastructure using Ansible and AWX](https://developer.ibm.com/technologies/systems/articles/automation-using-ansible-awx-gui/)
 - [medium: Ansible AWX: from scratch to REST API (part 4 of 8)](https://medium.com/@claudio.domingos/ansible-awx-from-scratch-to-rest-api-part-4-of-8-4aa860d823f6) Playbook to automate AWX REST API interactions
 
 #### Tower and AWX Installers
@@ -296,7 +285,6 @@
     - [RFC: Foreman Operations Ansible Collection](https://community.theforeman.org/t/rfc-operations-ansible-collection/20971)
     - [theforeman.org: Updating Foreman inventory with system facts](https://theforeman.org/2021/01/updating-foreman-inventory-with-system-facts.html)
     - [theforeman.org: Foreman 3.0 is here!](https://theforeman.org/2021/09/foreman-30-is-here.html)
-- [Rundeck](https://www.rundeck.com/ansible)
 
 ## Ansible Kubernetes Operators
 
@@ -305,7 +293,6 @@
 ## Ansible Molecule. Development and Testing of Ansible Roles
 
 - [Ansible Molecule](https://molecule.readthedocs.io/) Molecule project is designed to aid in the development and testing of Ansible roles.
-- [Molecule Configuration](https://molecule.readthedocs.io/en/latest/configuration.html)
 - [jeffgeerling.com: Testing your Ansible roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)
 - [PDF: Practical Ansible Testing with Molecule](https://www.ansible.com/hubfs//AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf)
 - [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule) Learn how to automate your verifications using Python.
