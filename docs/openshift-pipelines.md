@@ -28,14 +28,12 @@
 ##  Deploying Jenkins on OpenShift
 
 - [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
-- [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 - [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
 - [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
 - [developers.redhat.com: An easier way to create custom Jenkins containers in OpenShift 4 🌟](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers/) Create your own custom Jenkins container image by aggregating readily available containers in a pod template.
 
 ### Jenkins Container Images in OpenShift
 
-- [docs.okd.io: Jenkins in Openshift](https://docs.okd.io/latest/using_images/other_images/jenkins.html) Openshift provides a container image for running Jenkins. This image provides a Jenkins server instance, which can be used to set up a basic flow for continuous testing, integration, and delivery.
 - [OCP 4.2 - Jenkins image](https://docs.openshift.com/container-platform/4.2/openshift_images/using_images/images-other-jenkins-agent.html)
 
 ## External Jenkins Integration with OpenShift
@@ -58,13 +56,10 @@
 ### OpenShift Pipelines with S2i
 
 - [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
-- [blog.openshift.com: From zero to container deployment hero with OpenShift 3 and S2i (Video) 🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 - [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 
 #### OpenShift Pipelines with S2i and Jenkins Blue Ocean. Deploying Blue Ocean on OpenShift
 
-- [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean)
-- [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) Jenkins Blue Ocean for OpenShift Jenkins S2I
 
 ## OpenShift Deployments with Deployment Descriptor
 
@@ -98,22 +93,17 @@
 
 ### Fabric8 Pipeline Library (deprecated)
 
-- [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [client-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
-- [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
 - [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html)
 - [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 - [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
-- [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
 
 ### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes & OpenShift Plugins
 
 - [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of Maven and Gradle plugins, and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
-- [GitHub: Eclipse JKube](https://github.com/eclipse/jkube)
 
 ### Jenkins Pipelines with OpenShift 3
 
 - [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
-- [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 
 ### OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax
 
