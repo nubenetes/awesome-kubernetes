@@ -1,6 +1,5 @@
 # Swagger code generator for REST APIs
 
-- [Wikipedia.org: Swagger Software](https://en.wikipedia.org/wiki/Swagger_(software))
 - [https://swagger.io/](https://swagger.io/)
 - [https://github.com/swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen)
 - [Dzone: API First Approach and API Management With Swagger](https://dzone.com/articles/api-first-approach-and-api-management-with-swagger) Looking for a new API management tool? Read on to see how one team faired while using Swagger's suite of API development tools.
