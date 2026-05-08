@@ -41,7 +41,6 @@
 - [dzone: Removing the Bastion Host and Improving the Security in AWS](https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi) This article covers the security in AWS and overcoming the classic SSH/RDP jump with a better alternative for all OS.
 - [acloudguru.com: How to audit and secure an AWS account](https://acloudguru.com/blog/engineering/how-to-audit-and-secure-an-aws-account)
 - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://www.yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18/)
-- [try.jupiterone.com: The Absolute Minimum Every Developer Must Know about AWS Security](https://try.jupiterone.com/the-absolute-minimum-every-developer-must-know-about-aws-security)
 - [==How to automate AWS account creation with SSO user assignment==](https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment/)
 - [Security practices in AWS multi-tenant SaaS environments](https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments/) Many good tips, from identity management to tenant isolation.
 - [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem/)
@@ -91,7 +90,6 @@
 - [ben11kehoe.medium.com: AWS Authentication: Principals (users and roles) in AWS IAM](https://ben11kehoe.medium.com/principals-in-aws-iam-38c4a3dc322a) this article uses the boto3, the AWS Python SDK, as an example, but other SDKs have analogous features.
 - [infoq.com: Incorrect IAM Policy Raised Questions About AWS Access to S3 Data](https://www.infoq.com/news/2022/01/aws-iam-s3-access/)
 - [==iann0036/iamlive==](https://github.com/iann0036/iamlive) Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy
-- [==awsiam.info: AWS IAM Search==](https://www.awsiam.info)
 - [daan.fyi: AWS IAM Demystified](https://www.daan.fyi/writings/iam)
 - [willdady/cdk-iam-credentials-rotator: IAM Credentials Rotator](https://github.com/willdady/cdk-iam-credentials-rotator) AWS CDK construct for rotating IAM user credentials and sending to a third party.
 - [==Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)==](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) Reasons you should be using multiple accounts in AWS:
@@ -127,9 +125,7 @@
 
 ## AWS Control Tower
 
-- [==AWS Control Tower==](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
 - [==aws.amazon.com: New – AWS Control Tower Account Factory for Terraform==](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
-- [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform) AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.
 - [aws.amazon.com: Automate AWS Control Tower landing zone operations using APIs](https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis/)
 
 ## AWS Firewalls
@@ -159,7 +155,6 @@
 ## AWS Vault
 
 - [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
-- [AWS: Sourcing AWS CLI Credentials using a Custom AWS CLI Credential Provider and AWS Vault](https://thomas.geens.be/2020/05/24/aws-sourcing-aws-cli-credentials-using-a-custom-aws-cli-credential-provider-and-aws-vault/)
 
 ## Tweets
 
