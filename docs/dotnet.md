@@ -16,7 +16,6 @@
 - [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET) .NET (previously named .NET Core) is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems. It is a cross-platform successor to .NET Framework. The project is primarily developed by Microsoft employees by way of the .NET Foundation, and released under the MIT License.
 - https://dotnet.microsoft.com
 - https://github.com/dotnet/core
-- [techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps](https://techcommunity.microsoft.com/t5/apps-on-azure/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static/ba-p/2933428)
 - [developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift)
 - [developers.redhat.com: .NET 6 now available for RHEL and OpenShift](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift)
 - [telerik.com: Your First Microservice in .NET 6](https://www.telerik.com/blogs/your-first-microservice-dotnet-6)
