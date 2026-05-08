@@ -15,7 +15,6 @@
 - [v8.dev:](https://v8.dev/) Google’s open source high-performance JavaScript and WebAssembly engine.
 - [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob)
 - [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k)
-- [dev.to: 25 Métodos de Arrays en JavaScript que todo desarrollador debe conocer](https://dev.to/gdcodev/25-metodos-de-arrays-en-javascript-que-todo-desarrollador-debe-conocer-4a2d)
 - [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg)
 - [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) Usernames should be formatted and they should conform to follow some validation constraints.
 - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course/)
@@ -43,7 +42,6 @@
 9. Good to know - How to write clean code: [Clean code concepts adapted for JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 10. Async JavaScript. Another epic tutorial by Tyler McGinnis [Async JavaScript: From Callbacks, to Promises, to Async/Await](https://ui.dev/async-javascript-from-callbacks-to-promises-to-async-await/)
 11. Other things good to know but don't need to necessarily master as a beginner: closures, Ajax requests, modules. To listen to the episode that inspired this thread: [The Fundamentals — JS](https://syntax.fm/show/162/the-fundamentals-js)
-12. This blew up—if you’d like to join myself and an amazing community of beginners and advanced developers, I host this free club: [CodeBookClub](https://madisonkanna.com/codebookclub/)
 
 ## Node.js
 
@@ -55,7 +53,6 @@
 
 ## Npm
 
-- [wikipedia: Npm](https://en.wikipedia.org/wiki/Npm_(software)) (originally short for Node Package Manager) is a package manager for the JavaScript programming language.
 - [Npm](https://www.npmjs.com/)
 - [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/)
 
