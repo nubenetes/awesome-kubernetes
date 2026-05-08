@@ -48,8 +48,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)
-- [==Kubernetes magic is in enterprise standardization, not app portability==](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
-- [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)
 - [An emerging Job: Kubernetes engineer 🌟](https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/)
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
@@ -98,8 +96,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==DevOps-Books== 🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)
 - [community.aws/kubernetes](https://community.aws/kubernetes) Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
-- [cloudcatalog.dev](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
-- [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
 - [Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?](https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool)
 - [Redefining Virtualization in the VMware Acquisition Era](https://chaoslever.com/cl-20240118/)
 - [Do Kubernetes Certs Prepare You For Real-World Production?](https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/)
