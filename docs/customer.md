@@ -19,7 +19,6 @@
 
 ## BMW IT-Zentrum (Munich)
 
-- [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)
 - CI/CD at BMW IT-Zentrum (2018):
     - Jenkins in OpenShift (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
     - Requirements of each microservice (configurations) defined in a single json file.
@@ -50,11 +49,9 @@
 - Google Cloud Handle’s machine learning capabilities were used to implement use cases — ranging from charging optimisation for our electric vehicles, to wheel classification along our assembly line.
 - Artificial Intelligence is a key technology in our digital transformation, and we want to enable our colleagues across all disciplines to work with the latest technologies. We strive to offer our worldwide network of software developers the opportunity to view, change, and develop their own algorithms. These projects illustrate the range of solutions that AI can provide, from automatic image recognition to natural language processing.
 - We also make selected algorithms available in an open source platform. “We expect the further open source development to lead to a rapid and agile advancement of the software,” says Kai Demtroeder, Head of Artificial Intelligence and Data Platforms at BMW Group IT.
-- [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws/)
 
 ## Audi
 
-- [redhat.com: Audi builds developer environment with Red Hat OpenShift](https://www.redhat.com/en/resources/audi-case-study) Audi decided to use Red Hat OpenShift, an enterprise Kubernetes platform, as the foundation of **Kubika-O**, its new self-service developer environment, to speed and scale delivery of innovative projects.
 
 ## Volkswagen
 
@@ -79,7 +76,6 @@
 ## IDRA Group
 
 - [teslarati.com: IDRA finishes 9,000-ton Giga Press; Tesla expecting it any day now](https://www.teslarati.com/idra-9000-ton-giga-press/)
-- [eleconomista.es: Giga Press, la colosal máquina de Tesla que ha revolucionado la fabricación de coches eléctricos](https://www.eleconomista.es/motor/noticias/12630740/01/24/giga-press-la-colosal-maquina-de-tesla-que-ha-revolucionado-la-fabricacion-de-coches-electricos.html)
 
 ## Williams F1
 
@@ -117,7 +113,6 @@
 
 ## AXA Group
 
-- [hashicorp.com: Standardizing infrastructure automation with Terraform Enterprise](https://www.hashicorp.com/resources/building-a-migration-factory-with-terraform-enterprise-at-axa-group)
 
 ## Videos
 
