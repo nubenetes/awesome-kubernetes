@@ -7,10 +7,7 @@
 
 ## Introduction
 
-- [AWS DevOps](https://aws.amazon.com/devops/)
 - [AWS DevOps Blog](https://blogs.aws.amazon.com/application-management/)
-- [Continuous Delivery for a PHP Application Using AWS CodePipeline, AWS Elastic Beanstalk, and Solano Labs](https://blogs.aws.amazon.com/application-management/post/TxYSRRBH57NP2P/Continuous-Delivery-for-a-PHP-Application-Using-AWS-CodePipeline-AWS-Elastic-Bea)
-- [Building Continuous Deployment on AWS with AWS CodePipeline, Jenkins and AWS Elastic Beanstalk](https://blogs.aws.amazon.com/application-management/post/Tx34AXRMYLXG5OT/Building-Continuous-Deployment-on-AWS-with-AWS-CodePipeline-Jenkins-and-AWS-Elas)
 - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)
 - [AWS Partner Network - CodePipeline Integrations](https://aws.amazon.com/es/codepipeline/product-integrations/)
 - [**Multi-Region Infrastructure Deployment**](https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
