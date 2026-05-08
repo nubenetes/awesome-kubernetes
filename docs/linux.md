@@ -42,15 +42,12 @@
 
 ## Introduction
 
-- [zdnet.com: Linus Torvalds prepares to move the Linux kernel to modern C](https://www.zdnet.com/google-amp/article/linus-torvalds-prepares-to-move-the-linux-kernel-to-modern-c/) The Linux kernel's foundation is the ancient C89 standard of C. Now, Torvalds has decided to upgrade to 2011's more modern C11 standard.
 
 ## RHEL
 
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
 - [arstechnica.com: CentOS is gone—but RHEL is now free for up to 16 production servers](https://arstechnica.com/gadgets/2021/01/centos-is-gone-but-rhel-is-now-free-for-up-to-16-production-servers/) RHEL is now free for dev teams, and it's even free in production for up to 16 systems.
 - [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option/)
-- [zdnet.com: Red Hat introduces free RHEL for small production workloads and development teams](https://www.zdnet.com/google-amp/article/red-hat-introduces-free-rhel-for-small-production-workloads-development-teams/) In response to complaints about Red Hat's latest plans for CentOS Linux, Red Hat will start offering no-cost Red Hat Enterprise Linux for small production workloads and customer development teams.
-- [enterpriseai.news: Red Hat’s Disruption of CentOS Unleashes Storm of Dissent](https://www.enterpriseai.news/2021/01/22/red-hats-disruption-of-centos-unleashes-storm-of-dissent/)
 - [arstechnica.com: Why Red Hat killed CentOS—a CentOS board member speaks](https://arstechnica.com/gadgets/2021/01/on-the-death-of-centos-red-hat-liaison-brian-exelbierd-speaks/) "The CentOS Board doesn't get to decide what Red Hat engineering teams do."
 - [zdnet.com: Red Hat introduces free RHEL for open-source, non-profit organizations](https://www.zdnet.com/article/free-red-hat-enterprise-linux-for-open-source-non-profit-organizations/) Some CentOS users still aren't happy, but Red Hat is keeping its promise to open-source organizations that they'll have access to a free version of RHEL.
 - [genbeta.com: Red Hat Enterprise Linux lanza una versión a bajo costo para llegar a más público de sectores de investigación y académico](https://www.genbeta.com/actualidad/red-hat-enterprise-linux-lanza-version-a-costo-para-llegar-a-publico-sectores-investigacion-academico)
@@ -68,7 +65,6 @@
 
 - [VimWiki](https://github.com/vimwiki/vimwiki)
 - [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands)
-- [dev.to: Another one short Vim cheat sheet](https://dev.to/gleb_the_human/another-one-short-vim-cheat-sheet-39fc)
 - [thevaluable.dev: A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
 - [redhat.com: Recursive Vim macros: One step further into automating repetitive tasks](https://www.redhat.com/sysadmin/recursive-vim-macros) Take Vim to the limit with recursive macros.
 - [openvim.com](https://openvim.com/) Interactive Vim tutorial for developers, sysadmins and Linux or Unix users.
@@ -121,7 +117,6 @@
 - [tecadmin.net](https://tecadmin.net/)
 - [systemcodegeeks.com](https://www.systemcodegeeks.com/)
 - [linuxnix.com](https://www.linuxnix.com/)
-- [learnitguide.net 🌟](https://www.learnitguide.net/)
 - [FOSS Force](http://fossforce.com/)
 - [linuxhomenetworking.com](http://www.linuxhomenetworking.com/)
 - [linuxtoday.com](http://www.linuxtoday.com/)
@@ -147,7 +142,6 @@
 
 ## Reddit
 
-- [reddit.com/r/linuxadmin](https://www.reddit.com/r/linuxadmin/) Expanding Linux SysAdmin knowledge
 
 ## Linux Commands and Tools
 
@@ -212,7 +206,6 @@
 - [opensource.com: Check used disk space on Linux with du](https://opensource.com/article/21/7/check-disk-space-linux-du) Find out how much disk space you're using with the Linux du command.
 - [linuxshelltips.com: How to Kill Running Linux Process on Particular Port](https://www.linuxshelltips.com/kill-linux-process-with-port/)
 - [freecodecamp.org: The Linux Command Handbook 🌟](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
-- [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)
 - [tecmint.com: 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 - [tecmint.com: 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/)
 - [tecmint.com: What’s Difference Between Grep, Egrep and Fgrep in Linux?](https://www.tecmint.com/difference-between-grep-egrep-and-fgrep-in-linux/)
@@ -226,7 +219,6 @@
 - [redhat.com: 3 basic Linux group management commands every sysadmin should know](https://www.redhat.com/sysadmin/linux-commands-manage-groups) How to use the groupadd, groupmod, and groupdel commands is essential knowledge for Linux sysadmins.
 - [itsfoss.com/exa](https://itsfoss.com/exa) **exa**: A Modern Replacement for the ls Command
 - [cyberciti.biz: diff Command Colorize Output On the Unix / Linux Command Line](https://www.cyberciti.biz/programming/color-terminal-highlighter-for-diff-files/) **colordiff**
-- [dev.to: Useful Tmux Configuration Examples](https://dev.to/iggredible/useful-tmux-configuration-examples-k3g)
 - [betterprogramming.pub: How to Use tmuxp to Manage Your tmux Session](https://betterprogramming.pub/how-to-use-tmuxp-to-manage-your-tmux-session-614b6d42d6b6) Take control of your tmux sessions.
 - [opensource.com: Linux tips for using cron to schedule tasks](https://opensource.com/article/21/11/cron-linux) Schedule backups, file cleanups, and other tasks by using this simple yet powerful Linux command-line tool. Download our new cron cheat sheet.
 - [opensource.com: 7 handy tricks for using the Linux wget command](https://opensource.com/article/21/10/linux-wget-command) Download files from the internet in your Linux terminal. Get the most out of the wget command with our new cheat sheet.
@@ -273,10 +265,7 @@
 - [github: Safe ways to do things in bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md)
 - [rexegg.com: Regex Syntax Tricks](https://rexegg.com/regex-tricks.html)
 - [pement.org: Handy one-line scripts for AWK](http://www.pement.org/awk/awk1line.txt)
-- [flowfactor.be: Unit testing bash scripts the cloud-native way](https://www.flowfactor.be/2021/03/23/unit-testing-bash-scripts-the-cloud-native-way/)
-- [robertmuth.blogspot.com: Better Bash Scripting in 15 Minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
 - [cyberciti.biz: How To Bash Shell Find Out If a Variable Is Empty Or Not](https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty/)
-- [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls)
 - [cyberciti.biz: Bash For Loop Examples](https://www.cyberciti.biz/faq/bash-for-loop)
 - [opensource.com: Parsing config files with Bash](https://opensource.com/article/21/6/bash-config) Separating config files from code enables anyone to change their configurations without any special programming skills.
 - [cloudsavvyit.com: How to Use Multi-Threaded Processing in Bash Scripts](https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts/)
@@ -327,7 +316,6 @@
 - https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md
 - https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
 - https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md
-- [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)
 
 ## Linux processes
 
@@ -381,7 +369,6 @@
 
 ### Hashicorp
 
-- [Announcing the HashiCorp Linux Repository](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository)
 
 ## Linux Libraries
 
@@ -390,14 +377,12 @@
 ## Linux Networking
 
 - [ntop](http://www.ntop.org/)
-- [ngrep](http://ngrep.sourceforge.net/)
 - [Angry IP Scanner (or simply ipscan)](http://angryip.org/) to Nmap and cross-platform
 - [cyberciti.biz - ss: Display Linux TCP / UDP Network and Socket Information](http://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html)
 - [cyberciti.biz - SS Utility: Quick Intro](http://www.cyberciti.biz/files/ss.html)
 - [binarytides.com - 10 examples of Linux ss command to monitor network connections](http://www.binarytides.com/linux-ss-command/)
 - [unix.stackexchange.com: ss - linux socket statistics utility output format](http://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)
 - [stackoverflow.com: difference between netstat and ss in linux?](http://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)
-- [lintut.com: Monitoring network connection using ss command](http://lintut.com/monitoring-network-connection-using-ss-command/)
 - [Linux networking examples and tutorials for advanced users](https://github.com/knorrie/network-examples) Includes lab examples for lxc, bgp, vpn, & more
 - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands/) VNStat, ping, traceroute, ping, arp, curl and wget, netstat, whois, ssh, tcpdump, ngrep, nmap, netcat, lsof, iptraf
 - [Diferencias entre servidor proxy y servidor proxy inverso](https://www.redeszone.net/tutoriales/servidores/diferencias-proxy-vs-proxy-inverso/)
