@@ -34,9 +34,7 @@
 
 - [AWS Architecture Blog](https://www.awsarchitectureblog.com)
 - [AWS Official Blog](http://blogs.aws.amazon.com/)
-- [AWS Labs GitHub](https://github.com/awslabs)
 - [AWS Quick Start Reference Deployments](http://aws.amazon.com/es/quickstart/)
-    - [AWS Quick Start - GitHub](https://github.com/awslabs/aws-quickstart)
 - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql/)
 - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data/)
 
