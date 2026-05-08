@@ -25,15 +25,12 @@
 ## Serverless Architectures
 
 - [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
-- [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture/)
 - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
-- [serverless.com: Comparisons - Serverless vs. other tools](https://www.serverless.com/learn/comparisons/)
 - [Is Serverless The End Of Kubernetes?](https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609) A comparison of both technologies to stop the debate about what is better.
 - [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49/)
 - [medium: What a typical 100% Serverless Architecture looks like in AWS!](https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb)
 - [theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'](https://www.theregister.com/2020/09/22/microservices_talk_gotopia/)
 - [serverless.com: Why we switched from docker to serverless](https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless)
-- [dzone: The Serverless Path to DevOps](https://dzone.com/articles/the-serverless-path-to-devops) Serverless and DevOps combine in this article the uses AWS services as examples of how serverless technologies benefit DevOps processes.
 - [developers.redhat.com: Orchestrate event-driven, distributed services with Serverless Workflow and Kubernetes](https://developers.redhat.com/blog/2020/11/26/event-driven-distributed-service-orchestration-with-serverless-workflow/)
 - [dzone: The State of Serverless Computing 2021](https://dzone.com/articles/the-state-of-serverless-computing-2021)
 - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture) In this article, we will explain how enterprises can implement serverless microservices architectures using AWS Cloud.
@@ -43,13 +40,10 @@
 - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes) If you are stuck at a crossroads and need some help deciding, here are some conditions which might help you make your selection.
 - [dzone: Serverless Guide for Everyone](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 - [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
-- [kohera.be: Should I use serverless for all my Azure SQL Databases? 🌟](https://kohera.be/azure-cloud/should-i-use-serverless-for-all-my-azure-sql-databases/)
-- [dev.to/brentmitchell: After 5 years, I'm out of the serverless compute cult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
 - [readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟](https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount/) **When designing serverless apps, you must consider the right level of scale. Your architecture choices will vary greatly depending on the expected load. "Just because serverless services can scale doesn't mean they will scale".**
 - [==jeromevdl.medium.com: When to use a Lambda function, and when not?== 🌟](https://jeromevdl.medium.com/when-to-use-a-lambda-function-and-when-not-9a225e6dd2dd)
 - [==c-sharpcorner.com: Why and When to use Azure Functions==](https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions/)
 - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions) Here we take a look at two of the programs in Azure's toolbox, Logic Apps and Azure Functions, and compare them with each other.
-- [dvtsoftware.com: When is it a good choice to use Azure serverless functions?](https://www.dvtsoftware.com/en/news-insights/insights/item/389-when-is-it-a-good-choice-to-use-azure-serverless-functions)
 - [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.serverlessguru.com/blog/enterprise-serverless-adoption) Adopting a new architecture may be intimidating. Having to migrate all of your workloads over to your cloud provider can be time-consuming and stressful. I’m sure you’re wondering, “How can I benefit from serverless?” In this article, I’m going to detail how some of the biggest companies in the world are maximizing efficiencies within their organization using serverless technology! Let’s dive in.
 - [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://aws.amazon.com/architecture/serverless/serverless-or-kubernetes/)
 - [==serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture== 🌟](https://serverlessland.com/event-driven-architecture) What are Event Driven Architectures ?
@@ -67,7 +61,6 @@
 
 ### Terraform and Serverless
 
-- [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together)
 
 ### Governance
 
@@ -116,7 +109,6 @@
 - [OpenFaaS](https://www.openfaas.com/)
 - [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9)
 - [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)
-- [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
 - [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-openfaas-java/)
 - [dzone: Getting Started with the OpenFaaS Kubernetes Operator on EKS 🌟](https://dzone.com/articles/getting-started-with-the-openfaas-kubernetes-opera)
 - [openfaas.com: Learn how to build functions faster using Rancher's kim and K3s](https://www.openfaas.com/blog/kim/) Learn how the kim tool from Rancher can be used to build functions directly into a K3s cluster.
@@ -129,12 +121,9 @@
 
 - [knative.dev](https://knative.dev/)
 - [kn: knative client](https://github.com/knative/client) Knative developer experience, docs, reference Knative CLI implementation. The Knative client kn is your door to the Knative world. It allows you to create Knative resources interactively from the command line or from within Shell scripts.
-- [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
-- [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
 
 #### OpenShift Serverless with Knative
 
-- [OpenShift Serverless](https://www.openshift.com/learn/topics/serverless)
 - [developers.redhat.com: Build and deploy a serverless app with Camel K and Red Hat OpenShift Serverless 1.5.0 Tech Preview](https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview/)
 - [openshift.com: Why and When you need to consider OpenShift Serverless](https://www.openshift.com/blog/why-and-when-you-need-to-consider-openshift-serverless)
 - [redhat-scholars.github.io: Welcome to OpenShift Serverless Logic Tutorial](https://redhat-scholars.github.io/serverless-workflow/osl/index.html)
@@ -150,7 +139,6 @@
 
 ### Dapr Microservices Frameworks
 
-- [Dapr](https://dapr.io/)
 - [Building microservices? Give Dapr a try](https://www.infoworld.com/article/3604010/building-microservices-give-dapr-a-try.html) Microsoft’s open source, cross-platform microservices framework is ready for prime time at last.
 - [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications)
 - [developers.redhat.com: Build and deploy microservices with Kubernetes and Dapr](https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr)
@@ -160,7 +148,6 @@
 
 ## Popular Deployment Frameworks for AWS Lambda
 
-- [lumigo.io: AWS Lambda Deployment Frameworks Compared](https://lumigo.io/blog/comparison-of-lambda-deployment-frameworks/)
 - [thenewstack.io: Build a Serverless API with AWS Gateway and Lambda](https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda/)
 
 ## TriggerMesh serverless event router
