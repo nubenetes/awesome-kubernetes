@@ -27,7 +27,6 @@
 ## Project Management Methodology
 
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
-- [dzone: Agile Project Management Explained – A Beginner’s Guide](https://dzone.com/articles/agile-project-management-explained-a-beginners-gui) For all who are looking into the good Agile project management can do, here's an explanation and some benefits.
 - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle) If you know about the product management lifecycle but aren't familiar with each of its phases, take a look at how they break down.
 - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)
 - [dzone: 7 Project Management Basics](https://dzone.com/articles/7-project-management-basics-for-lifetime) Whether you're just starting out or are a career PM, these rules should never leave your mind.
@@ -35,7 +34,6 @@
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)
 - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/3584559/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
 - [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster)
-- [scruminc.com: Better Scrum with Essence](https://www.scruminc.com/better-scrum-with-essence/) Essence is an industry standard for describing practices, which means there is no change to the actual Scrum content but an enhanced way for presenting it to teams. One of the main things you notice with Essence is the use of cards to represent the main concepts of any practice.
 - [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios) Agile methodologies can make all the difference in your digital transformation, but successful adoption requires culture change. Consider this expert advice on scrum and Kanban.
 - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)
 - [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful)
@@ -69,7 +67,6 @@
 - [medium.com/@TonyBologni: 4 reasons why 4 is the perfect team size for (agile) software development 🌟](https://medium.com/@TonyBologni/4-reasons-why-4-is-the-perfect-team-size-for-agile-software-development-8597d33f3cfe) There is no one-size-fits-all, but what I found in my career in (agile) software development is that teams are often too big rather than too small.
 - [medium.com/dkatalis: Component Team vs Feature Team in a Nutshell 🌟](https://medium.com/dkatalis/component-team-vs-feature-team-in-a-nutshell-60c58671496f)
 - [medium.com/the-ascent: Quiet People in Meetings Are Incredible](https://medium.com/the-ascent/quiet-people-in-meetings-are-incredible-7bb05ef9acd1) Knowing when not to talk is an art.
-- [autoblog.com: VW CEO lost his job over buggy software that delayed new models](https://www.autoblog.com/2022/07/25/vw-ceo-herbert-diess-fired-over-cariad-buggy-software/)
 - [techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code](https://techcrunch.com/2022/07/27/protestware-code-sabotage/)
 - [hbr.org: How to Debate Ideas Productively at Work](https://hbr.org/2019/01/how-to-debate-ideas-productively-at-work)
 - [betterprogramming.pub: Techniques for Managing Your Time and Cognitive Load as a Senior Leader](https://betterprogramming.pub/techniques-for-managing-your-time-and-cognitive-load-as-a-senior-leader-2b9eadb0daa4)
@@ -95,11 +92,9 @@
 - [devops.com: Breaking Down Silos: Applying Open Source Practices in the Workplace](https://devops.com/breaking-down-silos-applying-open-source-practices-in-the-workplace/)
 - [devops.com: How Good Developers Become Good Engineering Managers](https://devops.com/how-good-developers-become-good-engineering-managers/)
 - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9)
-- [techrepublic.com: What is Lean Software Development?](https://www.techrepublic.com/article/lean-development/)
 - [medium.com/@ElizAyer: Meetings *are* the work](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)
 - [newsletter.pragmaticengineer.com: Engineering Leadership Skill Set Overlaps](https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps) How Staff Engineer, Engineering Manager (EM), Product Manager (PM), Tech Lead Manager (TLM) and Technical Program Manager (TPM) positions overlap in Big Tech and at high-growth startups. **If you are an individual contributor engineer, you really need to print this out and hang it somewhere**
 - [hbr.org: What It Takes to Give a Great Presentation](https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation)
-- [inc.com: 27 Years Ago, Steve Jobs Said the Best Employees Focus on Content, Not Process. Research Shows He Was Right](https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html) According to the Apple co-founder, the best employees are also a pain in the butt to manage.
 - [==Bus factor==](https://en.wikipedia.org/wiki/Bus_factor) The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus".
 - [businessinsider.com: I'm an ex-Amazon senior leader. Here's why layoffs keep happening and why ambitious managers are fueling them](https://www.businessinsider.com/amazon-reason-for-layoffs-former-senior-tech-leader-2023-5)
 - [medium.com/codex: The Only True Agency A Software Engineer Requires](https://medium.com/codex/the-only-true-agency-a-software-engineer-requires-2c0816b263bc)
@@ -113,7 +108,6 @@
 - [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://www.entrepreneur.com/article/365880)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [bbc.com: Por qué en Japón los jefes NO felicitan a sus empleados cuando hacen bien su trabajo](https://www.bbc.com/mundo/vert-cap-37270163)
-- [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://smoda.elpais.com/trabajo/apariencias-venderse-trabajo/) Muchos trabajadores sufren en silencio la ‘performance’ diaria de quienes ponen más empeño en contar sus supuestos logros que en materializarlos.
 - [blogs.elconfidencial.com: Los españoles somos más improductivos que nunca y el problema no es de los empleados](https://blogs.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786/) El progreso nunca ha venido de pretender que los humanos trabajemos como robots. Para tener un debate serio no debemos engañarnos sobre cómo funciona la productividad.
 - [elfinanciero.com.mx: Tu jefe no siempre tiene la razón: ¿de qué manera puedes contradecirlo?](https://www.elfinanciero.com.mx/empresas/2021/07/06/tu-jefe-no-siempre-tiene-la-razon-de-que-manera-puedes-contradecirlo/) Los primeros beneficiados de que exista un pensamiento crítico constructivo en las empresas son los jefes.
 - [elconfidencial.com: La mejor forma de decirle a tu jefe que estás hasta arriba y no puedes más con tanto trabajo](https://www.elconfidencial.com/alma-corazon-vida/2022-02-14/jefe-trabajo-empleo-quemado-no-puedes_3372444/) Cuando sientes que lo das todo y no puedes más, a veces merece la pena echar el freno y hablar claramente con tu superior del agobio que estás sintiendo. ¿Cómo hacerlo bien?
@@ -121,8 +115,6 @@
 - [lavanguardia.com: La delgada línea roja del liderazgo: de la cercanía al compadreo](https://www.lavanguardia.com/economia/20220223/8075492/liderazgo-empresa-jefes-empleados-cercania-decisiones.html)
 - [okdiario.com: Telefónica y Santander despiden a 467 empleados en 2021 por denuncias de compañeros](https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690) Fraude interno, acoso laboral..
 - [cronista.com: Cómo identificar a un mal jefe y qué errores no pueden cometer hoy los líderes](https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres/) Con la pandemia, la digitalización acelerada y los rediseños organizacionales, la forma de liderar cambió. Qué errores no pueden permitirse hoy las empresas en materia de liderazgo. Los nuevos roles.
-- [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)
-- [vozpopuli.com: Cliente tóxico: cuando el que paga no siempre tiene la razón](https://www.vozpopuli.com/economia_y_finanzas/cliente-toxico.html) Un cliente conflictivo, demasiado exigente o que tiende a tensar mucho la relación con sus proveedores es un problema para cualquier empresa. Así se gestiona un cliente tóxico.
 - [elconfidencial.com: Esta psicóloga ha estudiado a los capullos de tu empresa y sabe por qué se comportan así](https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185/) Tessa West, profesora de la Universidad de Nueva York, lleva 15 años estudiando el comportamiento humano y tiene una buena idea de por qué somos así en el trabajo.
 - [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://business.vogue.es/carrera/articulos/adios-jefes-toxicos-la-salud-organizacional-rentabilidad-residen-liderazgo-gentil/533) Un líder tóxico tiene un coste (mental) para el trabajador y, por tanto, también (económico) para la empresa
 - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://magnet.xataka.com/en-diez-minutos/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)
@@ -155,11 +147,9 @@
 
 - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall/)
 - [deloitte.com: Bringing Agile benefits to a waterfall project](https://www2.deloitte.com/us/en/insights/industry/public-sector/agile-in-government-waterfall-software-approach.html)
-- [deloitte.com: ¿Cuál es la metodología más adecuada para tu proyecto? Metodología Waterfall vs Agile](https://www2.deloitte.com/es/es/pages/technology/articles/waterfall-vs-agile.html)
 
 ### Agile vs Scrum vs Kanban
 
-- [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)
 - [dzone: Agile vs. Scrum: Differences Between Scrum and Agile Development](https://dzone.com/articles/agile-vs-scrum-differences-between-scrum-and-agile)
 - [softwaretestinghelp.com: Kanban Vs Scrum Vs Agile: A Detailed Comparison To Find Differences](https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile/)
 - [atlassian.com: Kanban vs. Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)
@@ -195,7 +185,6 @@
 
 ## Other Development Methodologies. Worst practices in Project Management
 
-- [nichesoftware.co.nz: Other Development Methodologies](http://www.nichesoftware.co.nz/other-methodologies.html) We’ve all heard of Test-Driven Development (aka TDD), and those of us who’ve been around the block a few times have no double heard of Behaviour Driven Development (BDD) and Domain Driven Development (DDD) as well. But have you heard of their dodgy cousins? In this series I want to explore a handful of these lesser-known development methodologies, exploring both what they are, and what you might want (or need) to do to address them when they occur.
 - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices/)
 
 ### DevDriven.By
@@ -204,13 +193,10 @@
 
 ### Promotion Driven Development
 
-- [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion/) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
 - [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
-- [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
 ## Culture and Leadership
 
-- [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)
 - [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
 - [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/tan-dificil-decir-no-jefe-965459)
 - [businessinsider.es: Así es como tu educación te ha moldeado sutilmente para que nunca consigas ascender en el trabajo](https://www.businessinsider.es/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737)
