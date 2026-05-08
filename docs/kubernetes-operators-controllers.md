@@ -17,8 +17,6 @@
 
 - [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
 - [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
-- [redhat.com: Kubernetes operators - Embedding operational expertise side by side with containerized applications](https://www.redhat.com/sysadmin/kubernetes-operators)
-- [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes/)
 - [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade/)
 - [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
     - [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
@@ -36,8 +34,6 @@
 - [cncf.io: Kubernetes Operators 101](https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101/)
 - [container-solutions.com: Kubernetes Operators Explained](https://blog.container-solutions.com/kubernetes-operators-explained)
 - [kubeload - load testing](https://github.com/Efrat19/kubeload) is a Kubernetes operator that lets you configure your load-test initial load, max load, interval and hatch-rate. You can use CRD to define all the parameters and repeat your load testing experiments.
-- [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/2020/10/20/open-source-kube-secret-syncer/)
-    - [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer)
 - [registry-creds](https://github.com/alexellis/registry-creds) is a Kubernetes operator that can be used to propagate a single ImagePullSecret to all namespaces within your cluster. The primary reason for creating this operator is to make it easier to consume images from Docker Hub.
 - [gemini](https://github.com/FairwindsOps/gemini) is a Kubernetes CRD and operator for managing VolumeSnapshots. This allows you to back up your PersistentVolumes on a regular schedule, retire old backups, and restore backups with minimal downtime.
 - [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev/) Kdo is a command line tool that enables developers to run, develop and test code changes in a realistic deployed setting without having to deal with the complexity of Kubernetes deployment and configuration.
@@ -57,13 +53,11 @@
     - [velotio.com: Getting Started With Kubernetes Operators (Golang Based) - Part 3](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-golang-based-part-3)
 - [IngressMonitorController (Deprecated)](https://github.com/stakater/IngressMonitorController) A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices in UptimeRobot, StatusCake, Pingdom, etc.
 - [==FairwindsOps/rbac-manager: RBAC Manager== 🌟](https://github.com/FairwindsOps/rbac-manager) A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. RBAC Manager is designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.
-- [KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟](https://github.com/cloud-ark/kubeplus)
 - [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels/)
 - [kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟](https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea/)
 - [thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator 🌟](https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator/)
 - [cncf.io: CNCF Operator White Paper (PDF) 🌟](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf) This white paper defines Operators in a wider context than Kubernetes. It describes their characteristics and components, gives an overview of common patterns currently in use and explains how they differ from Kubernetes controllers.
 - [itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!](https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07) Access your Kubernetes Deployment over the Internet - [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator) Access your Kubernetes Deployment over the Internet
-- [redhat.com: Kubernetes Operators on Red Hat Marketplace](https://www.redhat.com/en/resources/kubernetes-operators-marketplace-datasheet)
 - [itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps](https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345)
 - [digitalis-io/vals-operator](https://github.com/digitalis-io/vals-operator) Kubernetes Operator to sync secrets between different secret backends and Kubernetes
 - [banzaicloud/thanos-operator 🌟](https://github.com/banzaicloud/thanos-operator) Thanos Operator is a Kubernetes operator to manage Thanos stack deployment on Kubernetes.
@@ -72,7 +66,6 @@
 - [Quentin-M/etcd-cloud-operator](https://github.com/Quentin-M/etcd-cloud-operator) Deploying and managing production-grade etcd clusters on cloud providers: failure recovery, disaster recovery, backups and resizing.
 - [==spring.io: Get to Know a Kubernetes Operator!==](https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator)
 - [==levelup.gitconnected.com: Operators : Extending Kubernetes Capabilities==](https://levelup.gitconnected.com/operators-extending-kubernetes-capabilities-184df001b7e) Operators are software extensions to Kubernetes that make use of custom resources to manage applications and their components. So what it means is that there are some applications whose deployment and management might require manual intervention and operators is the solution to automate it. **Let’s say you need to deploy a database cluster for which each pod needs to be brought in sync after deployment, or say you need to perform a security scan whenever a new component is deployed, or maybe some configuration needs to be populated based on some event. Such a functionalities are not available in Kubernetes out of the box but can be implemented using operators.**
-- [==developer.redis.com: Kubernetes Operator: What It Is and Why You Should Really Care About It==](https://developer.redis.com/create/kubernetes/kubernetes-operator/)
 - [VictoriaMetrics/operator](https://github.com/VictoriaMetrics/operator) Kubernetes operator for Victoria Metrics
 - [blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)](https://blog.px.dev/k8s-operator)
 - [==dzone.com: What Is a Kubernetes Operator?==](https://dzone.com/articles/what-is-a-kubernetes-operator) A Kubernetes Operator fills in the gaps between the capabilities and automation provided by Kubernetes and how your software uses Kubernetes for task automation.
@@ -101,14 +94,12 @@
 - [learnsteps.com: Advance Kubernetes: What exactly are Kubernetes Operators?](https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators/) Kubernetes has gained a lot of traction recently and is one of the standards followed across organizations when it comes to running and managing their containerized workloads. In this article, we are going to talk about Kubernetes operators.
 - [betterprogramming.pub: Build a Kubernetes Operator in 10 Minutes 🌟](https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30)
 - [alain-airom.medium.com: Kubernetes Operators Patterns and Best Practices 🌟](https://alain-airom.medium.com/kubernetes-operators-patterns-and-best-practices-b7fbaa4cbd1) Using operators to manage the lifecycle of multi-cloud, Kubernetes-based applications.
-- [theregister.com: IBM launches Db2 operator for Kubenetes on AWS](https://www.theregister.com/AMP/2022/07/20/ibm_db2_operator/) Azure soon to follow as Big Blue accomodates a world with many clouds
 - [OT-CONTAINER-KIT/mongodb-operator: MongoDB Operator](https://github.com/OT-CONTAINER-KIT/mongodb-operator) MongoDB Operator is an operator created in Golang to create, update, and manage MongoDB standalone, replicated, and arbiter replicated setup on Kubernetes and Openshift clusters.
 - [prosimcorp/reforma](https://github.com/prosimcorp/reforma) Reforma is a Kubernetes operator to patch resources with information from other resources. It is intended to use with GitOps and lets you do things such as creating annotation on a Service Account from metadata stored in a ConfigMap.
 - [weaveworks/tf-controller: Weave GitOps Terraform Controller](https://github.com/weaveworks/tf-controller) A GitOps Terraform controller for Kubernetes. Weave TF-controller is a controller for Flux to reconcile Terraform resources in the GitOps way.
 - [awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK)](https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb) The AWS team released the ACK project, which allows users to create AWS services from within a Kubernetes cluster. In this tutorial, you will learn how to create an S3 bucket with a "Bucket" CRD.
 - [vitobotta/velero-notifications](https://github.com/vitobotta/velero-notifications) Velero-notifications is a simple Kubernetes controller written in Ruby that sends email/Slack/webhook notifications when backups or restores are performed by Velero in a Kubernetes cluster.
 - [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes. The NVIDIA GPU is a Kubernetes operator that automates the management of all NVIDIA software components needed to provision GPUs. These components include drivers, the Kubernetes device plugin, the NVIDIA Container Runtime, etc.
-    - [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically:
         - Expose the number of GPUs on each node of your cluster
         - Keep track of the health of your GPUs
         - Run GPU enabled containers in your Kubernetes cluster
@@ -123,7 +114,6 @@
 - [github.com/DevOps-Nirvana: Kubernetes Volume / Disk Autoscaler (via Prometheus)](https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler)
     - This repository contains a Kubernetes controller that automatically increases the size of a Persistent Volume Claim in Kubernetes when it is nearing full. Initially engineered based on AWS EKS, this should support any Kubernetes cluster or cloud provider which supports dynamically hot-resizing storage volumes in Kubernetes.
     - Keeping your volumes at a minimal size can help reduce cost, but having to manually scale them up can be painful and a waste of time for an DevOps / Systems Administrator. This is often used on storage volumes against things in Kubernetes such as Prometheus, MySQL, Redis, RabbitMQ, or any other stateful service.
-- [borchero/switchboard: Switchboard](https://github.com/borchero/switchboard) Kubernetes Operator for Automatically Issuing DNS Records and TLS Certificates for Traefik Ingress Routes.
 - [scylladb/scylla-operator](https://github.com/scylladb/scylla-operator) Scylla Operator is a Kubernetes Operator for managing and automating tasks related to managing Scylla clusters
 - [==faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained==](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)
     - This article will dive deep into one of Kubernetes’ core concepts — Controllers, Kubernetes API, CRDs, and Operators.
@@ -161,7 +151,6 @@
 - [github.com/2-alchemists/krossboard-kubernetes-operator](https://github.com/2-alchemists/krossboard-kubernetes-operator) Kubernetes Operator to handle cross-site, cross-distribution & multi-Kubernetes usage tracking, analytics and accounting (vanilla Kubernetes, OpenShift, EKS, AKS, GKE and other distros).
     - Krossboard is a multi-cluster and cross-distribution Kubernetes usage accounting and analytics software
     - Each instance of Krossboard enables tracking the usage of a set of Kubernetes clusters listed in a kubeconfig secret
-- [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8) Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.
 - [github.com/gianlucam76/k8s-cleaner 🌟](https://github.com/gianlucam76/k8s-cleaner) **K8s cleaner is a controller that identifies, removes, or updates stale/orphaned or unhealthy resources to maintain a clean and efficient Kubernetes cluster**
 - [dragondscv.medium.com: Controller runtime — handle resource deletion with predicate](https://dragondscv.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802)
 - [github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟](https://github.com/NCCloud/mayfly) An operator to manage ephemeral Kubernetes resources
@@ -216,20 +205,16 @@
 
 ## Writing Kubernetes Operators and Controllers
 
-- [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 - [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)
 - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7)
 - [magalix.com: Creating Custom Kubernetes Operators](https://www.magalix.com/blog/creating-custom-kubernetes-operators)
 - [medium.com: Writing Your First Kubernetes Operator](https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234)
 - [bmc.com: What Is a Kubernetes Operator?](https://www.bmc.com/blogs/kubernetes-operator/)
-- [Writing a Kubernetes Operator in Java Cheat Sheet](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
 - [linuxera.org: Writing Operators using the Operator Framework SDK](https://linuxera.org/writing-operators-using-operator-framework/)
 - [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)
 - [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89) In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.
 - [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool) **Go-based operators are by far the most popular. That is why Go is probably the first option to consider.** The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don't need any complex [capability levels](https://operatorframework.io/operator-capabilities/). I'd leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.
-- [codilime.com: How to create a custom resource with Kubernetes Operator](https://codilime.com/how-to-create-a-custom-resource-with-kubernetes-operator/) Implementing DaemonJob from scratch learn how to create a custom resource with the Kubernetes Operator Framework.
 - [rookout.com: Lessons Learned When Building A Kubernetes Operator](https://www.rookout.com/blog/lessons-learned-when-building-a-kubernetes-operator)
-- [pavel.cool: Oxidizing the Kubernetes operator](https://www.pavel.cool/rust/rust-kubernetes-operators/)
 - [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://brennerm.github.io/posts/k8s-operators-with-python-part-1.html)
 - [vivilearns2code.github.io: Writing Controllers For Kubernetes Resources](https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html)
 - [cloudark.medium.com: Writing Kubernetes Custom Controllers](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)
