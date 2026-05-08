@@ -51,7 +51,6 @@
 - [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://blocksandfiles.com/2020/12/22/the-storageless-storage-paradox/)
 - [rancher.com: What is Cloud-Native Storage?](https://rancher.com/blog/2020/what-is-cloud-native-storage)
 - [softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/)
-- [devopscurry.com: Top 7 Object Storage tools to consider in 2021](https://devopscurry.com/top-7-object-storage-tools-to-consider-in-2021/)
 - [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale/)
 - [blog.min.io: Why Kubernetes Managed Object Storage Matters](https://blog.min.io/why-kubernetes-managed/)
 - [gitlab.com: Kubernetes storage provider benchmarks](https://gitlab.com/mrman/k8s-storage-provider-benchmarks)
@@ -79,8 +78,6 @@
 - [discoblocks.io 🌟](https://discoblocks.io) - [ondat/discoblocks](https://github.com/ondat/discoblocks) **Open Source declarative disk configuration system for Kubernetes.** Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.
 - [medium.com/geekculture: Storage | Kubernetes](https://medium.com/geekculture/storage-kubernetes-92eb3d027282) A Deep Dive into Kubernetes Storage
 - [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. In this article, you will compare emptyDir and the container's local storage.
-- [==container-object-storage-interface.github.io: Kubernetes COSI==](https://container-object-storage-interface.github.io/) Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes. COSI is meant to be a departure from the CSI since the latter does not work well with object storage.
-- [containiq.com: Kubernetes Ephemeral Volumes & Storage | Tutorial](https://www.containiq.com/post/kubernetes-ephemeral-storage) In this article, we’ll discuss how Kubernetes handles ephemeral storage and learn how these volumes are provisioned in operating clusters.
 - [medium.com/nerd-for-tech: Persistence with Kubernetes](https://medium.com/nerd-for-tech/persistence-with-kubernetes-46f039d9a2ad)
 - [cncf.io: Kubernetes storage is complex, but it’s getting better](https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better/)
 - [==yuminlee2.medium.com: Kubernetes: Storage==](https://yuminlee2.medium.com/kubernetes-storage-fe5363d88d42) **In Kubernetes, pods are temporary and any data stored within them is lost when they’re deleted or restarted. To avoid this, use persistent storage options such as PVs(Persistent Volumes)and PVCs(Persistent Volume Claims). PVs are storage resources with an independent lifecycle, while PVCs are requests for storage. Use them for simplified storage management and scaling. Provisioning persistent volumes can be static or dynamic. StorageClass defines the provisioner, parameters, and reclaim policy for dynamically provisioned PVs.**
@@ -93,13 +90,11 @@
 ## Kubernetes Storage Classes
 
 - [==kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes==](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/)
-- [==containiq.com: Kubernetes Storage Classes | In-Depth Tutorial==](https://www.containiq.com/post/kubernetes-storage-classes) Storage Classes are an essential part of Kubernetes, and can provide a great deal of flexibility and control over how your data is stored. In this guide, we provide an in-depth tutorial on using storage classes effectively.
 
 ## Kubernetes Volumes
 
 - [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99)
 - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
-- [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
 - [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
 - [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) **The local volume static provisioner manages PersistentVolume lifecycle for pre-allocated disks by detecting and creating PVs for each local disk on the host and cleaning up the disks when released. It does not support dynamic provisioning**
 - [shuanglu1993.medium.com: What happens when volumeManager in the kubelet starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce) In this deep-dive, you will learn how the volumeManager sync loop is initialized and starts 3 async calls to maintain the objects 'desiredStateOfWorld' and 'actualStateOfWorld' and 'reconcile' the volumes on the node to the desired state.
@@ -111,7 +106,6 @@
     - How to attach the PVC to a Pod
 - [giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime)
 - [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) In this blog post, you will get a hands-on practice and learn how to provide persistent storage in the form of different volumes to the Pods.
-- [blog.cloudnloud.com: Kubernetes Volume](https://blog.cloudnloud.com/kubernetes-volume)
 - [==adamtheautomator.com: Effortless Storage Management With Kubernetes PVC== 🌟](https://adamtheautomator.com/kubernetes-pvc/) In this tutorial, you'll learn about Kubernetes PVC and set up a persistent volume for a MySQL database. You'll also confirm that the data persists even after deleting and recreating the pods.
 - [==faun.pub: Dynamic Volume Provisioning | Kubernetes== 🌟](https://faun.pub/dynamic-volume-provisioning-kubernetes-632b43b1ee79) Dynamically provision persistent volume on Kubernetes
 - [portworx.com: Kubernetes Persistent Volume Tutorial by Portworx](https://portworx.com/tutorial-kubernetes-persistent-volumes/)
@@ -147,7 +141,6 @@
 
 ## Ebooks
 
-- [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
 
 ## Cloud Native Storage Solutions
 
@@ -157,7 +150,6 @@
 
 - [Rook](https://rook.io/)
 - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)
-- [documentation.suse.com: Rook Best Practices for running Ceph on Kubernetes (PDF)](https://documentation.suse.com/sbp/all/pdf/SBP-rook-ceph-kubernetes_color_en.pdf)
 - [medium.com/@abdulfayis: storage Orchestration for Kubernetes](https://medium.com/@abdulfayis/storage-orchestration-for-kubernetes-c6370f943e23)
 
 ### Robin
@@ -174,7 +166,6 @@
 
 ### StorageOS
 
-- [StorageOS](https://storageos.com/)
 
 ### OpenEBS
 
@@ -201,8 +192,6 @@
 
 ### IBM Spectrum Storage Suite
 
-- [IBM Spectrum](https://www.ibm.com/it-infrastructure/storage/spectrum) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
-- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 - [searchstorage.techtarget.com: IBM Spectrum](https://searchstorage.techtarget.com/definition/IBM-Spectrum)
 
 ### Linbit
@@ -228,7 +217,6 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 ### NetApp Data Store
 
-- [docs.netapp.com: Intro to Astra Data Store preview](https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html)
 
 ### Stork Storage Operator
 
@@ -258,7 +246,6 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
     - [Rook](https://rook.io) (don't confuse this with non-redhat ["Rook Ceph"](https://operatorhub.io/operator/rook-ceph) -> [RH ref](https://www.redhat.com/en/blog/rook-ceph-storage-operator-now-operatorhubio)).
         - Replaces [Heketi](https://github.com/heketi/heketi)  (OpenShift 3)
         - Uses **Red Hat Ceph Storage** and **Noobaa**.
-    - [Red Hat Ceph Storage](https://ceph.io)
     - [Noobaa](https://www.noobaa.io):
         - Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)
         - Asynchronous replication of data between my local ceph and my cloud provider
@@ -278,12 +265,10 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 ## Kubestr
 
-- [kubestr.io](https://kubestr.io/) Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.
 - [blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with Kubestr](https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr)
 
 ## VolSync
 
-- [VolSync 🌟](https://github.com/backube/volsync) Asynchronous data replication for Kubernetes volumes. VolSync asynchronously replicates Kubernetes persistent volumes between clusters using either rsync or rclone. It also supports creating backups of persistent volumes via restic.
 - [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere/) VolSync, a new storage-agnostic utility for exporting and importing objects from one Kubernetes namespace to another, even across clusters!
 
 ## Discoblocks
