@@ -19,7 +19,6 @@
 ## Metrics
 
 - [logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping with Logz.io](https://logz.io/blog/aws-ec2-metrics/)
-- [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide/)
 
 ## AWS Cloudwatch
 
