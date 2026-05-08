@@ -18,7 +18,6 @@
 - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)
 - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/)
 - [AWS CloudShell - Command-Line Access to AWS Resources](https://aws.amazon.com/es/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/)
-- [zdnet.com: AWS rolls out S3 Object Lambda to process data for multiple applications](https://www.zdnet.com/google-amp/article/aws-rolls-out-s3-object-lambda-to-process-data-for-multiple-applications/) The new capability allows you to share data across applications, without having to manage a proxy layer or create copies of the dataset.
 - [github.com/hayao-k/cdk-ecr-image-scan-notify](https://github.com/hayao-k/cdk-ecr-image-scan-notify)
 - [cloudonaut.io: Seamless EC2 monitoring with the Unified CloudWatch Agent](https://cloudonaut.io/seamless-ec2-monitoring-with-the-unified-cloudwatch-agent/)
 - [amazon.com: Reduce Unwanted Traffic on Your Website with New AWS WAF Bot Control](https://aws.amazon.com/blogs/aws/reduce-unwanted-traffic-on-your-web-site-with-aws-bot-control/)
@@ -44,11 +43,9 @@
 - [Now — AWS Step Functions Supports 200 AWS Services To Enable Easier Workflow Automation](https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation/)
 - [AWS Control Tower now supports nested organizational units](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-control-tower-supports-nested-organizational-units/)
 - [==Visualize all your Kubernetes clusters in one place with Amazon EKS Connector, now generally available==](https://aws.amazon.com/about-aws/whats-new/2021/11/visualize-kubernetes-clusters-one-place-amazon-eks-connector-generally-available/)
-- [==venturebeat.com: Amazon’s AWS expands free ‘egress’ data transfer limits==](https://venturebeat.com/2021/11/25/amazons-aws-expands-free-egress-data-transfer-limits/)
 - [linux.slashdot.org: AWS Embraces Fedora Linux for Its Cloud-Based 'Amazon Linux'](https://linux.slashdot.org/story/21/11/27/0328223/aws-embraces-fedora-linux-for-its-cloud-based-amazon-linux)
 - [AWS announces the new **Amazon Inspector** for continual vulnerability management](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/)
 - [techcrunch.com: AWS to launch over 30 new Local Zones internationally starting in 2022](https://techcrunch.com/2021/12/02/aws-to-launch-over-30-new-local-zones-starting-in-2022/)
-- [==venturebeat.com: 6 big Kubernetes container security launches at AWS re:Invent 2021==](https://venturebeat.com/2021/12/03/6-big-kubernetes-container-security-launches-at-aws-reinvent-2021/)
 - [forbes.com: AWS re:Invent - A Roundup Of Container Services Announcements](https://www.forbes.com/sites/janakirammsv/2021/12/03/aws-reinventa-roundup-of-container-services-announcements/)
 - [==aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021==](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021/)
 - [infoq.com: Recap of AWS re:Invent 2021](https://www.infoq.com/news/2021/12/recap-reinvent-2021/)
@@ -56,7 +53,6 @@
 - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/2021/12/09/the_big_aws_event_120/) Our wrap-up: Instant Glacier storage, Kubernetes at AWS, Adobe pops up despite Microsoft partnership, and more
 - [aws.amazon.com: Share your Amazon CloudWatch Dashboards with anyone using AWS Single Sign-On](https://aws.amazon.com/blogs/mt/share-your-amazon-cloudwatch-dashboards-with-anyone-using-aws-single-sign-on/)
 - [New – Amazon VPC Network Access Analyzer](https://aws.amazon.com/blogs/aws/new-amazon-vpc-network-access-analyzer/)
-- [AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/)
 - [Migrate AWS Landing Zone solution to AWS Control Tower](https://aws.amazon.com/blogs/mt/migrate-aws-landing-zone-solution-to-aws-control-tower/) **AWS Control Tower creates your landing zone using AWS Organizations, thereby bringing together ongoing account management and governance, as well as implementation of best practices based on our experience of working with thousands of customers as they migrate to the cloud.**
 - [infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ Deployments](https://www.infoq.com/news/2022/01/aws-rds-readable-standby/)
 - [Announcing Amazon Elastic File System Replication](https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-elastic-file-system-replication/) Amazon EFS Replication provides you with an easy way to keep an up-to-date copy of your file system in a second AWS Region or within the same Region.
