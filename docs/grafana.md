@@ -12,7 +12,6 @@
 
 ## Introduction
 
-- [Grafana](https://grafana.com/)
 - Prometheus utiliza plantillas de consola para los dashboards, si bien su curva de aprendizaje de sus múltiples funcionalidades es alta, con una interfaz de usuario insuficiente. Por este motivo es muy habitual utilizar **Grafana** como interfaz de usuario.
 - [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning/) Las últimas versiones de Grafana permiten la creación de "datasources" y "dashboards" con Ansible, mediante las opciones de provisión de Grafana. Funciona con cualquier "datasource" (Prometheus, InfluxDB, etc), incluyendo la configuración de Grafana correspondiente y dejando poco margen para el error humano.
     - [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
@@ -77,7 +76,6 @@
 - [github.com/kubevirt/monitoring](https://github.com/kubevirt/monitoring) KubeVirt monitoring dashboards. This repository collects Grafana dashboards for KubeVirt and Prometheus runbooks for alerts shipped with the KubeVirt stack.
 - [medium.com/@dotdc: A set of modern Grafana dashboards for Kubernetes 🌟](https://medium.com/@dotdc/a-set-of-modern-grafana-dashboards-for-kubernetes-4b989c72a4b2) In this article, I will present a set of modern Grafana dashboards I made for Kubernetes, explain why I decided to create them and how they work.
 - [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/2022/06/06/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build/)
-- [blog.bespinian.io: Creating Grafana Dashboards for Node.js Apps on Kubernetes](https://blog.bespinian.io/posts/creating-grafana-dashboards-for-nodejs-on-kubernetes/) While Grafana and Prometheus are relatively easy to understand, creating useful dashboards requires familiarity with PromQL and Prometheus’ data model. In this article, you'll learn how to create a dashboard for a Node.js app deployed on Kubernetes.
 - [medium.com/how-tos: How To Provisioning Dashboards In Grafana via Kubernetes](https://medium.com/how-tos/how-to-provisioning-dashboards-in-grafana-via-kubernetes-5d261508658d) Create a nice Dashboard that matches your needs
 - [==github.com/dotdc/grafana-dashboards-kubernetes== 🌟](https://github.com/dotdc/grafana-dashboards-kubernetes)
 - [github.com/onzack/grafana-dashboards](https://github.com/onzack/grafana-dashboards) Grafana Dashboards for Kubernetes, OpenShift and other systems
@@ -85,7 +83,6 @@
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
 ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[Ref1](https://docs.wavefront.com/activemq.html), [Ref2](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq), [Ref3](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/activemq.yml), [Ref4](https://stackoverflow.com/questions/57107282/prometheus-and-activemq-integration)
-ActiveMQ Artemis/Red Hat AMQ Broker|[JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[Ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml), [Ref2](http://techiekhannotes.blogspot.com/2018/12/artemis-monitoring-with-grafana.html), [Ref3](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
 Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/grafana/dashboards/9777)|
 
 ## Grafana Releases
@@ -101,7 +98,6 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 
 - [Grafana Loki](https://grafana.com/oss/loki/)
 - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. In this article, you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
-- [medium.com/devopsturkiye: Deploy Grafana Loki and Promtail using ArgoCD](https://medium.com/devopsturkiye/deploy-grafana-loki-and-promtail-using-argocd-416b2fd4539f)
 - [faun.pub: Manage Grafana Loki alerting and recording rules using GitOps](https://faun.pub/manage-grafana-lokis-alerting-and-recording-rules-using-gitops-c26d06d772c6)
 - [cleancloud-k8s.com: Handling Multiline Logs with Loki and Fluent Bit on Kubernetes](https://cleancloud-k8s.com/2022/01/19/handling-multiline-logging-with-loki-and-fluent-bit-on-kubernetes/) In this blog post, you will learn how to handle multiline logs such as Java stack traces with Loki and Fluent Bit on Kubernetes.
 - [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc)
