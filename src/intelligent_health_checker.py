@@ -169,23 +169,44 @@ class IntelligentLinkCleaner:
         # Agrupar podas por archivo
         prunes_by_file = {}
         for url, occurrences in self.link_registry.items():
+            is_dead = url in self.dead_links
             for occ in occurrences:
-                if url in self.dead_links or occ.get("should_prune"):
+                if is_dead or occ.get("should_prune"):
                     if occ["file"] not in prunes_by_file:
                         prunes_by_file[occ["file"]] = []
-                    prunes_by_file[occ["file"]].append(occ["line_index"])
+                    # Guardamos si es por muerto para la lógica de excepciones
+                    prunes_by_file[occ["file"]].append({
+                        "idx": occ["line_index"],
+                        "is_dead": is_dead,
+                        "url": url
+                    })
 
-        for file_path, lines_to_remove in prunes_by_file.items():
-            with open(file_path, 'r') as f:
-                lines = f.readlines()
-            
-            # Borrar de atrás hacia adelante para no arruinar índices
-            for idx in sorted(lines_to_remove, reverse=True):
-                if file_path not in CORE_FILES or url in self.dead_links: # Los core solo pierden links muertos
-                    lines.pop(idx)
-                    if url in self.dead_links: self.stats["dead_links_removed"] += 1
+        for file_path, tasks in prunes_by_file.items():
+            try:
+                with open(file_path, 'r') as f:
+                    lines = f.readlines()
+                
+                original_count = len(lines)
+                # Borrar de atrás hacia adelante para no arruinar índices
+                for task in sorted(tasks, key=lambda x: x["idx"], reverse=True):
+                    idx = task["idx"]
+                    is_dead = task["is_dead"]
+                    
+                    # Regla: Solo borramos de CORE_FILES si el link está MUERTO.
+                    # Los duplicados se permiten en CORE_FILES.
+                    if file_path not in CORE_FILES or is_dead:
+                        if idx < len(lines):
+                            lines.pop(idx)
+                            if is_dead: 
+                                self.stats["dead_links_removed"] += 1
+                            else:
+                                self.stats["duplicates_pruned"] += 1
 
-            file_updates[file_path] = "".join(lines)
+                if len(lines) < original_count:
+                    file_updates[file_path] = "".join(lines)
+                    print(f"    - {file_path}: {original_count - len(lines)} líneas eliminadas.")
+            except Exception as e:
+                print(f"[!] Error al procesar limpieza en {file_path}: {e}")
 
         if file_updates:
             print(f"[+] Generando PR con {len(file_updates)} archivos modificados.")
@@ -196,10 +217,9 @@ class IntelligentLinkCleaner:
                 "ai_decisions": self.stats["ai_decisions"],
                 "files_impacted": list(file_updates.keys())
             }
-            # Custom narrative para el PR
             self._create_pr(file_updates, metrics)
         else:
-            print("[~] No se encontraron mejoras necesarias.")
+            print("[~] No se encontraron mejoras necesarias (todo limpio).")
 
     def _create_pr(self, updates: Dict[str, str], metrics: Dict):
         # Usamos el git_controller para aplicar cambios
