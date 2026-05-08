@@ -12,7 +12,6 @@
 
 ## Digital Ocean Kubernetes (DOKS)
 
-- [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes/)
 
 ## Migrating to Digital Ocean with CloudPlex
 
@@ -21,7 +20,6 @@
 ## Community Tools
 
 - [Community Tools 🌟](https://www.digitalocean.com/community/tools)
-- [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.
 
 ## App Platform. Digital Ocean PaaS
 
