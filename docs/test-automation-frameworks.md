@@ -25,9 +25,6 @@
 ## Selenium
 
 - [selenium.dev](https://selenium.dev/)
-- [Dzone: what is selenium, getting started](https://dzone.com/articles/what-is-selenium-getting-started-with-selenium-aut)
-- [Dzone: selenium tutorial for beginners](https://dzone.com/articles/selenium-tutorial-for-beginners-2)
-- [Dzone: discover the top tips and tricks of selenium](https://dzone.com/articles/discover-the-top-tips-and-tricks-of-the-selenium-w)
 - [Dzone: best practices for selenium automation](https://dzone.com/articles/best-practices-for-selenium-automation-one-must-kn)
 - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)
 - [youtube: execution test Selenium + Grafana + Jenkins](https://www.youtube.com/watch?v=vDj5IsWjU0A)
@@ -54,7 +51,6 @@ based on your test scripts.
 - [lambdatest.com: How To Scroll a Page Using Selenium WebDriver?](https://www.lambdatest.com/blog/scroll-a-webpage-in-selenium-using-java/)
 - [automationscript.com: Parallel Execution In Selenium Using Jenkins](https://automationscript.com/parallel-execution-in-selenium-using-jenkins/)
 - [lambdatest.com: How To Modify HTTP Request Headers In JAVA Using Selenium WebDriver?](https://www.lambdatest.com/blog/modifying-http-request-headers-in-java-using-selenium-webdriver)
-- [dzone: What's New in Selenium 4?](https://dzone.com/articles/what-is-new-in-selenium-4) The newly released Selenium 4 is creating a lot of buzz and the complete testing community is looking forward to exploring its updated features.
 - [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot)
 - [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.lambdatest.com/blog/debunking-selenium-testing-myths/)
 - [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna/) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
@@ -90,8 +86,7 @@ based on your test scripts.
 ### Appium
 
 - [appium.io](http://appium.io/)
-- [Dzone: appium tutorial for complete beginners](https://dzone.com/articles/appium-tutorial-for-complete-beginners)
-- [Dzone: best practices in appium](https://dzone.com/articles/best-practices-in-appium)
+- [Dzone: appium tutorial for complete beginners [ARCHIVED]](http://web.archive.org/web/20221205072555/https://dzone.com/articles/appium-tutorial-for-complete-beginners)
 - [automationqahub.com: How to get started with Appium 2.0](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0/)
 
 ### Cucumber and Appium. Behavior Driven Development
@@ -107,7 +102,4 @@ based on your test scripts.
 
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)
 - [Dzone: 14 of the best automation testing tools available](https://dzone.com/articles/14-of-the-best-automation-testing-tools-available)
-- [Dzone: Find the best agile testing tools for your team](https://dzone.com/articles/find-the-best-agile-testing-tools-for-your-team)
-- [Dzone: Zephyr for Jira cloud](https://dzone.com/articles/zephyr-for-jira-cloud-june-release-is-here)
 - [Dzone: The power of automated testing and test management](https://dzone.com/articles/the-power-of-automated-testing-and-test-management)
-- [Dzone: A Jira tutorial for software developers](https://dzone.com/articles/a-jira-tutorial-for-software-developers-get-the-mo)
