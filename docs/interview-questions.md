@@ -30,13 +30,11 @@
 
 ## Ansible Interview Questions
 
-- [interviewbit.com: Ansible Interview Questions](https://www.interviewbit.com/ansible-interview-questions/)
 - [guru99.com: Top 19 Ansible Interview Questions and Answers for 2022](https://www.guru99.com/ansible-interview-questions.html)
 - [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions/)
 
 ## Terraform Interview Questions
 
-- [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions/)
 - [simplilearn.com: Top 40 Terraform Interview Questions and Answers for 2022](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
 - [k21academy.com: Top Terraform Interview Questions & Answers [ Revised – 2022]](https://k21academy.com/terraform-iac/terraform-interview-questions/)
 - [mrdevops.hashnode.dev: Top 40 Terraform Interview Questions and Answers for 2023](https://mrdevops.hashnode.dev/top-40-terraform-interview-questions-and-answers-for-2023)
@@ -45,7 +43,6 @@
 ## AWS Interview Questions
 
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
-- [Frequently Asked AWS Interview Questions](https://www.interviewbit.com/aws-interview-questions/)
 - [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/top-aws-interview-questions-and-answers/)
 
 ## SQL Interview Questions
