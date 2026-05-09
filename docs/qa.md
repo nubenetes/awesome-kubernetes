@@ -41,8 +41,6 @@ the #1 test automation community.
 - [blog.testproject.io: REST API Automation From Scratch 🌟](https://blog.testproject.io/2021/07/28/rest-api-automation-from-scratch/)
 - [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
 - [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation/)
-- [dzone: A Detailed Comparison: Unit Testing vs. Functional Testing](https://dzone.com/articles/detailed-comparison-unit-testing-vs-functional-testing) The main goal of any testing is to deliver a quality product with find the right job balance between unit testing and functional testing.
-- [dzone: Microservice Testing Strategies](https://dzone.com/articles/microservice-testing-strategies) This article contains Microservice testing strategies. Learn more about testing in layered architectures.
 - [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly) We should write tests to enable developers to move fast with confidence. Code is always evolving, so question everything, collect experience, and judge for yourself.
 - [thenewstack.io: Error Handling from Backends to the Frontend](https://thenewstack.io/error-handling-from-backends-to-the-frontend/)
 - [==lambdatest.com: Top Automation Testing Trends To Look Out In 2021==](https://www.lambdatest.com/blog/top-automation-testing-trends-2021)
@@ -104,13 +102,11 @@ the #1 test automation community.
 - [==google/clusterfuzzlite== 🌟](https://github.com/google/clusterfuzzlite) ClusterFuzzLite - Simple continuous [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) that runs in CI.
     - [thenewstack.io: Google Introduces ClusterFuzzLite Security Tool for CI/CD](https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd/)
 - [convert.com: Top 10 A/B Testing Tools That Are Good for the Next 5 Years (Vetted by Features, Privacy, Maturity & Price)](https://www.convert.com/blog/a-b-testing/a-b-testing-tools-2022-beyond/)
-- [==K6 Cloud==](https://k6.io/cloud/) Managed performance testing for engineering teams
     - [grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana](https://grafana.com/blog/2021/11/29/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana/)
     - [itnext.io: How to run distributed performance tests in Kubernetes with K6](https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774) In this article, you'll learn how to perform load testing natively on a Kubernetes cluster using multiple pods simulating real-world traffic to test an ElasticSearch cluster deployed using the ECK Operator
 - [==circleci.com: Unit testing vs integration testing== 🌟](https://circleci.com/blog/unit-testing-vs-integration-testing/)
 - [==reviewdog - A code review dog who keeps your codebase healthy.==](https://github.com/reviewdog/reviewdog) 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
 - [==dzone: Component Tests for Spring Cloud Microservices==](https://dzone.com/articles/component-tests-for-spring-cloud-microservices) In this tutorial, we discussed guidelines and considerations for Spring Cloud microservices component tests and provided a recipe for common use cases.
-- [CoolerVoid/codecat: CodeCat - Tool to help in static code analysis](https://github.com/CoolerVoid/codecat) CodeCat is an open-source tool to help you find/track user input sinks and security bugs using static code analysis. These points follow regex rules.
 - [==beellz.hashnode.dev: Continuous Profiling in Kubernetes Using Pyroscope==](https://beellz.hashnode.dev/continuous-profiling-in-kubernetes-using-pyroscope) In this blog post, you will learn about continuous profiling, and then instrument a few microservices running on Kubernetes using an open-source tool called Pyroscope to find performance issues and bottlenecks in your code.
 
 ## Performance Testing
