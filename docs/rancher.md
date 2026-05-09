@@ -35,7 +35,6 @@
 - [rancher.com: Driving Kubernetes Adoption in Finance with Rancher](https://rancher.com/blog/2020/driving-kubernetes-adoption-finance-rancher)
 - [devclass.com: Open sauce - Rancher 2.5 puts new UI forward, gets to continuously delivering](https://devclass.com/2020/10/06/rancher-2_5/)
 - [rancher.com: Rancher 2.5 Delivers On "Computing Everywhere" Strategy](https://rancher.com/blog/2020/rancher-2-5-delivers-computing-everwhere-strategy)
-- [vitobotta.com: Kubernetes in DigitalOcean with Rancher](https://vitobotta.com/2020/11/02/kubernetes-digitalocean-rancher/?utm_sq=gkuh2clx8u)
 - [rancher: Speed Up Development with Automated Kubernetes Deployments](https://rancher.com/blog/2020/speed-development-automated-kubernetes-deployments)
 - [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops/)
 - [SUSE & Rancher Community 🌟](https://community.suse.com/feed) Learn and share with other cloud native enthusiasts
@@ -80,7 +79,6 @@
 ### Rancher 2 RKE
 
 - [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
-    - [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 - [Bootstrap RKE Kubernetes Cluster in AWS Environment](https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws)
 - [github.com/gruberdev/local-gitops: Local Gitops 🌟](https://github.com/gruberdev/local-gitops) An automated local cluster setup w/ tls, monitoring, ingress and DNS configuration. The goal of this project is to provide a simplified approach to creating your own local cluster, as well as all the utilities you'll need to run a functional cluster using GitOps
 - [github.com/rancherfederal/rke2-aws-tf](https://github.com/rancherfederal/rke2-aws-tf) This repository is intended to clearly demonstrate one method of deploying rke2 in a highly available, resilient, scalable, and simple method on AWS
@@ -109,7 +107,6 @@
     - What's new with k3d v3
     - Create a multi-server and multi-agent with k3s
     - How to replace the default CNI plugin of k3s
-- [edgelab 🌟 (with k3s)](https://github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
 - [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020.
 - [dev.to: All about k3s - Lightweight Kubernetes 🌟](https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell)
 - [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) In this article, you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.
