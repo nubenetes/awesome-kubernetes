@@ -19,7 +19,6 @@
 
 - [golang.org](https://golang.org/)
 - [github.com/golang/go](https://github.com/golang/go)
-- [wikipedia: Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 - [golang-design/history](https://github.com/golang-design/history) Go: A Documentary. This document collects many interesting (publicly observable) issues, discussions, proposals, CLs, and talks from the Go development process, which intents to offer a comprehensive reference of the Go history.
 - [Awesome Go 🌟](https://github.com/avelino/awesome-go)
 - [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto)
@@ -43,7 +42,6 @@
 - [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#? - [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60)
 - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)
 - [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)
-- [dev.to: JSON Schema Validation in Golang](https://dev.to/franciscomendes10866/how-to-validate-data-in-golang-1f87)
 - [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/)
 - [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7)
 - [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183)
@@ -88,7 +86,6 @@
 
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
-- [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
 - [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) An overview of Go syntax and features.
 
@@ -141,7 +138,6 @@
 
 ## Dockerfile for go
 
-- [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)
 - [dev.to: Dockerize a GoLang HTTP server and deploy it on Kubernetes](https://dev.to/aksrao1998/dockerize-a-golang-http-server-and-deploy-it-on-kubernetes-592j)
 
 ## Videos
