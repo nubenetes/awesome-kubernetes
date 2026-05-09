@@ -40,7 +40,6 @@
 
 - [Cycle.io](https://cycle.io)
 - [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes/)
-- [bretfisher.com: Cycle.io LowOps container platform](https://www.bretfisher.com/podcast-136-cycle-io-lowops-container-platform/)
 - [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers/) "Kubernetes has not been able to deliver this level of multicloud portability and ease of use with containers. Cycle promises to fill this gap."
 
 ## Nomad
@@ -50,7 +49,6 @@
 - [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes/)
 - [nomadproject.io: Nomad vs. Kubernetes](https://www.nomadproject.io/intro/vs/kubernetes/)
 - [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/dev-hub/backend-dev/nomad-kubernetes-but-without-the-complexity/)
-- [autentia.com: Nomad vs. Kubernetes](https://www.autentia.com/2018/09/20/nomad-vs-kubernetes/)
 - [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
 - [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad/)
 - [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes)
@@ -62,19 +60,16 @@
 ## Portainer
 
 - [Portainer](https://www.portainer.io/) Making Docker management easy
-- [peppe8o.com: Portainer vs Rancher: comparison between the 2 Docker GUI](https://peppe8o.com/portainer-vs-rancher-comparison-between-the-2-docker-gui/)
 - [stackshare.io: Kubernetes vs Portainer](https://stackshare.io/stackups/kubernetes-vs-portainer)
 
 ## Docker Enterprise and Docker Universal Control Plane (UCP)
 
-- [Docker Enterprise](https://docs.docker.com/ee/)
 - [Universal Control Plane overview](https://docs.docker.com/ee/ucp/) Docker Universal Control Plane (UCP) is the enterprise-grade cluster management solution from Docker. You install it on-premises or in your virtual private cloud, and it helps you manage your Docker cluster and applications through a single interface.
 
 ## Docker Swarm
 
 - [Docker Swarm](https://docs.docker.com/engine/swarm/)
 - [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) Setup Docker on RHEL/CentOS and Debian/Ubuntu servers. The role supports Docker Engine's "Swarm Mode" to create a cluster of Docker nodes.
-- [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
 - [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert/)
 - [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.dotnettricks.com/learn/docker/kubernetes-vs-docker-analyzing-the-differences)
 - [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
@@ -94,8 +89,6 @@
 - [Taubyte](https://taubyte.com) Alternative to Kubernetes that aims to eliminate as much ops as possible (NoOps)
 - [tau](https://github.com/taubyte/tau) Implementation of Taubyte. Build a Cloud Computing Platform running few commands.
 - [dreamland](https://github.com/taubyte/dreamland) Implementation of Taubyte for local development and E2E testing automation.
-- [Introduction to Taubyte](https://taubyte.com/blog/introduction-to-taubyte/)
-- [Create your own Cloud: How to deploy tau](https://taubyte.com/blog/be-competitive-in-few-minutes/)
 - [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite) llama.cpp integration for WebAssembly
 
 ## More comparisons and alternatives
