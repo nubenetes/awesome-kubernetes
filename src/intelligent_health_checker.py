@@ -57,7 +57,6 @@ class IntelligentLinkCleaner:
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         domain = url.split("//")[-1].split("/")[0]
         domain_info = self.learning_data["domains"].get(domain, {})
-        use_playwright_first = domain_info.get("requires_playwright", False)
         
         # Estrategias de Evasión (Perfiles)
         strategies = [
@@ -68,9 +67,12 @@ class IntelligentLinkCleaner:
             {"type": "playwright", "ua": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36", "ref": "https://www.google.com/", "desc": "PW Mobile/Google"}
         ]
 
-        if use_playwright_first:
-            # Reordenar para priorizar Playwright
-            strategies = [s for s in strategies if s["type"] == "playwright"] + [s for s in strategies if s["type"] == "http"]
+        # Inteligencia: Si ya conocemos qué estrategia funciona para este dominio, reordenamos
+        best_strat_idx = domain_info.get("best_strategy_idx")
+        if best_strat_idx is not None and best_strat_idx < len(strategies):
+            # Mover la mejor estrategia al principio
+            best_strat = strategies.pop(best_strat_idx)
+            strategies.insert(0, best_strat)
 
         for attempt in range(min(max_retries, len(strategies))):
             strategy = strategies[attempt]
@@ -80,11 +82,16 @@ class IntelligentLinkCleaner:
                 is_alive, reason = await self._check_url_logic(url, strategy)
                 
                 if is_alive:
-                    if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {"success_count": 0, "fail_count": 0}
-                    self.learning_data["domains"][domain]["success_count"] += 1
+                    if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {}
+                    # Guardamos el índice real de la estrategia que funcionó
+                    # (si movimos la mejor al principio, hay que mapearla de nuevo)
+                    original_idx = attempt if best_strat_idx is None else (best_strat_idx if attempt == 0 else (attempt if attempt < best_strat_idx else attempt))
+                    self.learning_data["domains"][domain]["best_strategy_idx"] = original_idx
+                    self.learning_data["domains"][domain]["success_count"] = self.learning_data["domains"][domain].get("success_count", 0) + 1
                     return url, True, None, f"Alive ({strategy['desc']})"
                 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
+                    # REPO CONSOLIDATION
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/")
                         if len(parts) > 4:
@@ -92,7 +99,6 @@ class IntelligentLinkCleaner:
                             root_alive, _ = await self._check_url_logic(repo_root, strategies[0])
                             if root_alive: return url, False, f"REPO_ROOT:{repo_root}", f"Consolidated (Original: {reason})"
                     
-                    # Si es el último intento y sigue dando error duro (404), verificamos Wayback
                     if attempt == max_retries - 1:
                         archived = await self._check_wayback(url)
                         if archived: return url, False, f"ARCHIVE:{archived}", f"Archived (Original: {reason})"
