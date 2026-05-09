@@ -15,21 +15,15 @@
 - [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco)
 - [medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
 - [medium.com: Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers](https://medium.com/free-code-camp/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)
-- [kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7](https://kubernetestutorials.com/install-and-deploy-kubernetes-on-centos-7/)
 - [medium.com: Simplifying orchestration with Kubernetes](https://medium.com/@swapnasagarpradhan/simplifying-orchestration-with-kubernetes-e81015681a85)
 - [aquasec.com: 70 Best Kubernetes Tutorials](https://www.aquasec.com/wiki/display/containers/70+Best+Kubernetes+Tutorials) Valuable Kubernetes tutorials from multiple sources, classified into the following categories: Kubernetes AWS and Azure tutorials, networking tutorials, clustering and federation tutorials and more.
 - [cloud.google.com: kubernetes comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic/) Learn about kubernetes and how you can use it for continuous integration and delivery.
 - [magalix.com: Kubernetes 101 - Concepts and Why It Matters](https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters)
-- [Google Play: Learning Solution - Learn Kubernetes](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnKubernetes)
-- [Google Play: TomApp - Learn Kubernetes](https://play.google.com/store/apps/details?id=tomtran.learnkubernetes)
     - [apkplz.net: Learn Kubernetes 1 APK](https://apkplz.net/app/com.LearningSolution.LearnKubernetes)
     - [Google Play Search](https://play.google.com/store/search?q=learn+kubernetes)
 - [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
-- [dzone: The complete kubernetes collection tutorials and tools](https://dzone.com/articles/the-complete-kubernetes-collection-tutorials-and-tools)
-- [dzone: kubernetes in 10 minutes a complete guide to look](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 - [magalix.com: The Best Kubernetes Tutorials](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 - [35 Advanced Tutorials to Learn Kubernetes](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
-- [geekflare.com: 14 Kubernetes Tutorials for Beginner to Master](https://geekflare.com/learn-kubernetes/)
 - [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
 - [youtube: Kubernetes Pods and ReplicaSets explained](https://www.youtube.com/playlist?list=PLy0Gle4XyvbGhGpX0CXAuiEsfL-MD-rND)
 - [medium: DraftKings Kubernetes Workshop: Hands-on Learning in K8s (with Video Walkthrough)](https://medium.com/draftkings-engineering/draftkings-workshop-demystifying-kubernetes-4ce86c187408)
@@ -61,7 +55,6 @@
 - [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners== 🌟🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
 - [medium.com/google-cloud: Running Workloads in Kubernetes 🌟](https://medium.com/google-cloud/running-workloads-in-kubernetes-86194d133593)
 - [==omerbsezer/Fast-Kubernetes== 🌟🌟](https://github.com/omerbsezer/Fast-Kubernetes) **This repo covers Kubernetes objects' and components' details (Kubectl, Pod, Deployment, Service, ConfigMap, Volume, PV, PVC, Daemonset, Secret, Affinity, Taint-Toleration, Helm, etc.), and possible example usage scenarios (how-to, hands-on labs, etc.)**
-- [containiq.com: 10 Awesome Kubernetes Projects for Beginners](https://www.containiq.com/post/kubernetes-projects-for-beginners) Kubernetes is powerful, but it’s a lot to learn! In this roundup, explore 10 of the best beginner Kubernetes projects and tutorials to learn from as a new user.
 - [javarevisited.blogspot.com: Top 5 Online Courses to Learn Kubernetes in 2022 - Best of Lot](https://javarevisited.blogspot.com/2020/06/top-5-courses-to-learn-kubernetes-for-devops-and-certification.html)
 - [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.**
 - [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/the-kubernetes-course) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**
@@ -85,7 +78,6 @@
     - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 - [udemy.com: Learn DevOps: Advanced Kubernetes Usage](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
     - [wardviaene/advanced-kubernetes-course](https://github.com/wardviaene/advanced-kubernetes-course)
-- [Certified Kubernetes Administrator CKA course notes — diagrams for each subject area and use as reference for future refresher](https://drive.google.com/file/d/1RhPULD1IAVgCo1KD857iCoaNKuJjQKa1/view)
 - [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 - [kodekloud.com](https://kodekloud.com)
 - [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Want to learn Kubernetes? Get an in-depth primer on this powerful system for managing containerized applications in this free course.
@@ -108,7 +100,6 @@
 - [==exploreneptune.io== 🌟](https://exploreneptune.io) - [oslabs-beta/neptune]](https://github.com/oslabs-beta/neptune) Neptune is a light-weight, open-source dev tool which introduces developers to Kubernetes and get started with interacting with Kubernetes clusters.
     - Get to know your Kubernetes cluster better with an easy-to-use monitoring tool
     - Render the metrics of your nodes, pods, and namespaces all in one easy to visualize UI. Focus on what matters, with built in alerts and cluster health monitoring.
-- [medium.com/@lawyeh: Introducing Neptune](https://medium.com/@lawyeh/introducing-neptune-fecb0299cfa1) Neptune is a light-weight, open-source dev tool which introduces developers to Kubernetes and get started with interacting with Kubernetes clusters.
 
 ## Videos
 
