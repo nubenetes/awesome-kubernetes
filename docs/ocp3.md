@@ -16,7 +16,6 @@
 
 ## OpenShift Container Platform 3 (OCP 3)
 
-- [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
 - [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
 - [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources/)
 - [blog.openshift.com: Using OpenShift 3 on your **local environment** 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment/)
@@ -47,7 +46,6 @@
 
 ## Debugging apps
 
-- [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject/)
 - [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https:/developers.redhat.com/blog/2020/01/09debugging-applications-within-red-hat-openshift-containers/)
 
 ## Capacity Management
@@ -65,7 +63,6 @@
 - [blog.openshift.com: Stateful Workloads and the Two Data Center Conundrum](https://www.openshift.com/blog/stateful-workloads-and-the-two-data-center-conundrum)
 - [OpenShift 3.11 Multi-cluster Federation](https://blog.openshift.comkubernetes-federation-v2-on-openshift-3-11/)
 - [Multi-cluster Federation in OpenShift 4 is called **KubeFed**](https://blog.openshift.comfederation-v2-is-now-kubefed/)
-- [Katacoda e-learning platform – Federated Clusters](https://www.katacoda.com/openshift/coursesintroduction/federated-clusters)
 - [**KubeFed Operator**](https://operatorhub.io/operator/kubefed-operator)
 
 ## Troubleshooting Java applications on Openshift
