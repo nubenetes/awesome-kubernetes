@@ -47,9 +47,7 @@
 ## AWS OpsWorks
 
 - [AWS OpsWorks](https://aws.amazon.com/opsworks/)
-- [AWS OpsWorks - Chef Versions](http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-chef11.html)
 - [youtube: AWS OpsWorks Overview and Demo](https://www.youtube.com/watch?v=cj_LoG6C2xk&list=PLR3sVanzLpJN6BiYS20K4BMPpiDGifbZy)
-- [Use OpsWorks to create and manage instances that run CentOS 7](https://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os-linux.html?adbsc=docs_20160709_63418706&adbid=UPDATE-c2382910-6157610151248490496&adbpl=li&adbpr=2382910#workinginstances-os-linux-centos)
 
 ## AWS Cloud Control API
 
@@ -59,7 +57,6 @@
 ## VMware Cloud on AWS
 
 - [VMware Cloud on AWS](https://aws.amazon.com/es/vmware/) The Only Way to Extend Your VMware Environment into AWS
-- [infoworld.com: 4 no-bull insights into the AWS/VMware deal](http://www.infoworld.com/article/3131347/hybrid-cloud/4-no-bull-insights-into-the-awsvmware-deal.html)
 
 ### AWS Application Discovery Service Update. Agentless Discovery for VMware
 
@@ -76,11 +73,9 @@
 
 ## AWS Elastic Transcoder. Video streaming
 
-- [Settings that You Specify When You Create an Elastic Transcoder Job](http://docs.aws.amazon.com/elastictranscoder/latest/developerguide/job-settings.html)
 
 ## Amazon Alexa. Voice User Interface
 
-- [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour)
 
 ## AWS Partner Network (APN)
 
@@ -182,4 +177,3 @@
 ## AWS Landing Zone
 
 - [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)
-- [blog.brainboard.co: AWS Landing Zone Architecture: Comprehensive Guide to Best Practices and Design Secrets](https://blog.brainboard.co/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962) Key Components and Best Practices
