@@ -29,7 +29,6 @@
 
 ## eBooks
 
-- [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
 
 ## AWS Certification
 
