@@ -79,6 +79,17 @@ class IntelligentLinkCleaner:
                     return url, True, None
                 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
+                    # REPO CONSOLIDATION: Si es un sub-enlace de Git (GitHub/GitLab), probar el raíz del repo
+                    if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
+                        # Extraer el base del repo (ej: https://github.com/user/repo)
+                        parts = url.split("/")
+                        if len(parts) > 4:
+                            repo_root = "/".join(parts[:5])
+                            root_alive, _ = await self._check_url_logic(repo_root, False)
+                            if root_alive:
+                                return url, False, repo_root
+
+                    # ARCHIVE FALLBACK
                     archived = await self._check_wayback(url)
                     if archived:
                         return url, False, archived
