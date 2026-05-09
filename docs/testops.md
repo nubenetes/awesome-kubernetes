@@ -11,7 +11,6 @@
 ## TestOps
 
 - [devops.com: Shift-Right Testing: The Emergence of TestOps](https://devops.com/shift-right-testing-the-emergence-of-testops/)
-- [devopsonline.co.uk: DevOps and the emergence of TestOps!](https://www.devopsonline.co.uk/devops-and-the-emergence-of-testops/)
 - [opcito.com: TestOps: How to automate your software pipeline at the speed of DevOps](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [xeridia.co.uk: Benefits of Test-Driven Development in DevOps Environments](https://www.xeridia.co.uk/blog/benefits-test-driven-development-devops-environments)
