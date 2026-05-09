@@ -34,11 +34,8 @@
 - [jmeter.apache.org: Best Practices](https://jmeter.apache.org/usermanual/best-practices.html)
 - [Dzone: JMeter tutorial](https://dzone.com/articles/jmeter-tutorial-1)
 - [Dzone: JMeter tutorial for beginners](https://dzone.com/articles/jmeter-tutorial-for-beginners-jmeter-load-testing)
-- [Dzone: Getting started with JMeter](https://dzone.com/articles/getting-started-with-jmeter-a-basic-tutorial)
 - [Dzone: Apache JMeter Keyboards shortcuts](https://dzone.com/articles/apache-jmeter-keyboard-shortcuts)
-- [Dzone: Apache JMeter functions](https://dzone.com/articles/apache-jmeter-functions-an-introduction)
-- [Dzone: What's new in JMeter 3.3](https://dzone.com/articles/whats-new-in-jmeter-33)
-- [Dzone: The simple anatomy of a good performance report](https://dzone.com/articles/the-simple-anatomy-of-a-good-performance-report)
+- [Dzone: What's new in JMeter 3.3 [ARCHIVED]](http://web.archive.org/web/20230201092044/https://dzone.com/articles/whats-new-in-jmeter-33)
 - [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf)
 - [JMeter Distributed Testing Step-by-step](https://venkatmatta.files.wordpress.com/2016/03/jmeter_distributed_testing_step_by_step.pdf)
 - [testinglpoint.com: Timer in JMeter](https://www.testinglpoint.com/timer/) Timer in JMeter is easy but crucial part of JMeter where we have to manage the thread user count and time to apply the load to the application.
@@ -67,17 +64,13 @@
 ## Gatling
 
 - [gatling.io](https://gatling.io/)
-- [Gatling Cloud Marketplaces](https://gatling.io/gatling-frontline/cloud-marketplaces/)
+- [Gatling Cloud Marketplaces [ARCHIVED]](http://web.archive.org/web/20210515175648/https://gatling.io/gatling-frontline/cloud-marketplaces//)
 - [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)
 - [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)
 - [An Introduction to Load Testing With Gatling](https://dzone.com/articles/gatling-gun-is-now-a-prospecting-tool-for-testers)
-- [8 Reasons You Should Use Gatling for Your Load Testing](https://dzone.com/articles/8-reasons-you-should-use-gatling-for-your-load-tes)
-- [Measuring Performance With Gatling](https://dzone.com/articles/let-measure-performance-with-gatling)
 - [Gatling Performance Testing Pros and Cons](https://dzone.com/articles/gatling-performance-testing-pros-and-cons)
 - [How to Set up a Gatling Test's Implementation Environment 🌟](https://dzone.com/articles/how-to-set-up-a-gatling-tests-implementation-envir)
-- [Gatling Tool Review for Performance Tests (Written in Scala)](https://dzone.com/articles/gatling-tool-review-for-performance-tests-written)
 - [How to Use RegEx Extractor in Gatling Projects](https://dzone.com/articles/how-to-use-regex-extractor-in-gatling-projects)
-- [How to Implement Load Test Scenarios in Gatling](https://dzone.com/articles/how-to-implement-load-test-scenarios-in-gatling)
 - [qautomation.blog: Power Full Load Testing Tool : Gatling](https://qautomation.blog/2019/05/03/power-full-load-testing-tool-gatling/)
 
 ### API Load Testing
@@ -88,7 +81,6 @@
 ### Gatling and Maven
 
 - [How to Use Gatling With Maven](https://dzone.com/articles/how-to-use-gatling-with-maven) Learn all the details of how to integrate the Gatling performance testing framework with a Maven project in this tutorial.
-- [Gatling Integration With Maven](https://dzone.com/articles/gatling-integration-with-maven)
 
 ## Jenkins & Gatling
 
