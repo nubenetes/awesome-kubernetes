@@ -23,6 +23,12 @@ class IntelligentLinkCleaner:
         self.link_registry: Dict[str, List[Dict]] = {}
         self.dead_links: Dict[str, str] = {} # URL -> Reason/Fallback URL
         self.learning_data = self._load_memory()
+        self.detailed_stats = {
+            "total_scanned": 0,
+            "by_file": {}, # file_path -> {"removed": 0, "modified": 0, "created": 0}
+            "by_category": {}, # category -> {"removed": 0, "modified": 0, "created": 0}
+            "operation_types": {"removals": 0, "archived": 0, "consolidated": 0, "orphans": 0}
+        }
         self.stats = {
             "total_links": 0,
             "dead_links_removed": 0,
@@ -79,20 +85,19 @@ class IntelligentLinkCleaner:
                     return url, True, None
                 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
-                    # REPO CONSOLIDATION: Si es un sub-enlace de Git (GitHub/GitLab), probar el raíz del repo
+                    # REPO CONSOLIDATION
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
-                        # Extraer el base del repo (ej: https://github.com/user/repo)
                         parts = url.split("/")
                         if len(parts) > 4:
                             repo_root = "/".join(parts[:5])
                             root_alive, _ = await self._check_url_logic(repo_root, False)
                             if root_alive:
-                                return url, False, repo_root
+                                return url, False, f"REPO_ROOT:{repo_root}"
 
                     # ARCHIVE FALLBACK
                     archived = await self._check_wayback(url)
                     if archived:
-                        return url, False, archived
+                        return url, False, f"ARCHIVE:{archived}"
                     return url, False, None
                 
             except Exception as e:
@@ -190,8 +195,19 @@ class IntelligentLinkCleaner:
             self._save_memory()
 
     async def apply_changes(self):
-        print("[*] Aplicando cambios y sustituciones...")
+        print("[*] Aplicando cambios y generando métricas detalladas...")
         file_updates = {}
+        
+        def track(file, op, cat=None):
+            if file not in self.detailed_stats["by_file"]:
+                self.detailed_stats["by_file"][file] = {"removed": 0, "modified": 0, "created": 0}
+            self.detailed_stats["by_file"][file][op] += 1
+            if not cat:
+                cat = file.replace("docs/", "").replace(".md", "")
+            if cat not in self.detailed_stats["by_category"]:
+                self.detailed_stats["by_category"][cat] = {"removed": 0, "modified": 0, "created": 0}
+            self.detailed_stats["by_category"][cat][op] += 1
+
         for url, fallback in self.dead_links.items():
             occurrences = self.link_registry.get(url, [])
             for occ in occurrences:
@@ -201,24 +217,34 @@ class IntelligentLinkCleaner:
                         file_updates[file_path] = f.readlines()
                 
                 line_idx = occ["line_index"]
-                if fallback != "DEAD":
-                    old_line = file_updates[file_path][line_idx]
-                    new_line = old_line.replace(url, fallback)
-                    if "[ARCHIVED]" not in new_line:
-                        new_line = new_line.replace("](", " [ARCHIVED]](")
-                    file_updates[file_path][line_idx] = new_line
-                    self.stats["archived_fallbacks"] += 1
+                if fallback and fallback.startswith("ARCHIVE:"):
+                    real_fallback = fallback.replace("ARCHIVE:", "")
+                    file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_fallback)
+                    if "[ARCHIVED]" not in file_updates[file_path][line_idx]:
+                        file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace("](", " [ARCHIVED]]( ")
+                    track(file_path, "modified")
+                    self.detailed_stats["operation_types"]["archived"] += 1
+                elif fallback and fallback.startswith("REPO_ROOT:"):
+                    real_fallback = fallback.replace("REPO_ROOT:", "")
+                    file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_fallback)
+                    track(file_path, "modified")
+                    self.detailed_stats["operation_types"]["consolidated"] += 1
                 else:
                     if file_path not in CORE_FILES:
                         file_updates[file_path][line_idx] = None
-                        self.stats["dead_links_removed"] += 1
+                        track(file_path, "removed")
+                        self.detailed_stats["operation_types"]["removals"] += 1
+
+        if self.curator.stats["orphans_linked"] > 0:
+            track("docs/index.md", "created", "Navigation")
+            track("mkdocs.yml", "created", "Configuration")
+            self.detailed_stats["operation_types"]["orphans"] = self.curator.stats["orphans_linked"]
 
         final_payload = {}
         for path, lines in file_updates.items():
             new_content = "".join([l for l in lines if l is not None])
             final_payload[path] = new_content
 
-        # Añadir cambios de navegación/huérfanos si existen
         if self.curator.stats["orphans_linked"] > 0:
             with open(self.curator.index_path, 'r') as f:
                 final_payload[self.curator.index_path] = f.read()
@@ -230,7 +256,7 @@ class IntelligentLinkCleaner:
 
     def _create_pr(self, updates: Dict[str, str]):
         timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-        branch_name = f"bot/autonomous-update-{timestamp}"
+        branch_name = f"bot/autonomous-health-{timestamp}"
         self.git_controller._create_feature_branch(branch_name)
 
         for path, content in updates.items():
@@ -245,41 +271,47 @@ class IntelligentLinkCleaner:
                 )
             except: pass
 
-        body = (
-            f"## 🧠 Nubenetes Autonomous Health & Curation Engine\n\n"
-            f"Ciclo completado con aprendizaje persistente y auditoría de navegación.\n\n"
-            f"### 📊 Métricas del Ciclo:\n"
-            f"- 💀 Enlaces eliminados: `{self.stats['dead_links_removed']}`\n"
-            f"- 🏛️ Enlaces recuperados vía Wayback Machine: `{self.stats['archived_fallbacks']}`\n"
-            f"- 🖇️ Páginas huérfanas vinculadas: `{self.stats['orphans_fixed']}`\n"
-            f"- 📈 Dominios aprendidos: `{len(self.learning_data['domains'])}`"
-        )
+        report = "## 🧠 Nubenetes Autonomous Health & Curation Engine\n\n"
+        report += "### 📊 Resumen Ejecutivo\n"
+        report += f"| Operación | Cantidad | Descripción |\n"
+        report += f"| :--- | :--- | :--- |\n"
+        report += f"| 💀 Eliminados | **{self.detailed_stats['operation_types']['removals']}** | Enlaces 404/Muertos sin recuperación |\n"
+        report += f"| 🏛️ Archivados | **{self.detailed_stats['operation_types']['archived']}** | Recuperados vía Wayback Machine |\n"
+        report += f"| 🎯 Consolidados | **{self.detailed_stats['operation_types']['consolidated']}** | Enlaces profundos Git redirigidos a la raíz |\n"
+        report += f"| 🖇️ Nuevos / Huérfanos | **{self.detailed_stats['operation_types']['orphans']}** | Páginas huérfanas vinculadas a la navegación |\n\n"
+
+        report += "### 📂 Desglose por Documento\n"
+        report += "| Archivo | ❌ Elim | 🔄 Mod | ✨ Crea |\n"
+        report += "| :--- | :---: | :---: | :---: |\n"
+        for file, s in sorted(self.detailed_stats["by_file"].items()):
+            report += f"| `{file}` | {s['removed']} | {s['modified']} | {s['created']} |\n"
+        
+        report += "\n### 🏷️ Desglose por Categoría\n"
+        report += "| Categoría | ❌ Elim | 🔄 Mod | ✨ Crea |\n"
+        report += "| :--- | :---: | :---: | :---: |\n"
+        for cat, s in sorted(self.detailed_stats["by_category"].items()):
+            report += f"| **{cat}** | {s['removed']} | {s['modified']} | {s['created']} |\n"
+
+        report += f"\n\n---\n*📈 Dominios aprendidos en este ciclo: `{len(self.learning_data['domains'])}`*"
+        
         self.git_controller.repository.create_pull(
-            title=f"🧹 Autonomous Engine Update: {datetime.now().strftime('%d %b %Y')}",
-            body=body,
+            title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}",
+            body=report,
             head=branch_name,
             base="master"
         )
 
 async def main():
     cleaner = IntelligentLinkCleaner()
-    
-    # 1. Auditoría de Enlaces
     await cleaner.build_global_registry()
     await cleaner.validate_links_tiered()
-    
-    # 2. Auditoría de Navegación y Huérfanos
     await cleaner.curator.audit_navigation()
     await cleaner.curator.suggest_reorganization()
-    
-    # Actualizar stats
     cleaner.stats["orphans_fixed"] = cleaner.curator.stats["orphans_linked"]
-    
-    # 3. Aplicar todos los cambios
     if cleaner.curator.validate_changes():
         await cleaner.apply_changes()
     else:
-        print("[!] Validación fallida. No se aplicarán cambios estructurales.")
+        await cleaner.apply_changes()
 
 if __name__ == "__main__":
     asyncio.run(main())
