@@ -17,10 +17,8 @@
 
 - [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server) 
 - [Payara](https://www.payara.fish/) Java EE/Jakarta EE Application Server and MicroProfile implementation.
-- [Dzone: Automate Deployments to Payara Application Server](https://dzone.com/articles/automate-deployments-to-payara-application-server)
-- [Dzone: Easy Java EE Microservices With Payara Micro](https://dzone.com/articles/easy-java-ee-microservices-with-payara-micro)
 - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)
-- [Dzone: What's New in Payara Server and Payara Micro 5?](https://dzone.com/articles/whats-new-in-payara-server-and-payara-micro-5)
+- [Dzone: What's New in Payara Server and Payara Micro 5? [ARCHIVED]](http://web.archive.org/web/20180414205753/https://dzone.com/articles/whats-new-in-payara-server-and-payara-micro-5)
 
 ### Docker Hub images
 
@@ -35,14 +33,12 @@
 ## WildFly
 
 - [WildFly](https://wildfly.org/)
-- [Dzone: Building a Mission-Critical Open Source Java Platform - The Web Layer](https://dzone.com/articles/building-a-mission-critical-open-source-java-platf) Currently the Java platform is one of the most consolidated in the world, much of this is due to platform's ability to support other languages such as Kotlin...
 - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes) Learn how to create a custom Wildfly instance that runs a Jakarta EE appplications through Kubernetes.
 - [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) WildFly is a popular choice for developers who want to develop enterprise-ready applications.
 
 ## IBM WebSphere Liberty
 
 - [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
-- [IBM open sources WebSphere Liberty code to support Java microservices and cloud-native apps](https://developer.ibm.com/dwblog/2017/websphere-liberty-java-open-source/)
 
 ## Alternatives
 
