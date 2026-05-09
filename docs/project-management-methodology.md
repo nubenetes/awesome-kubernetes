@@ -27,15 +27,12 @@
 ## Project Management Methodology
 
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
-- [dzone: Agile Project Management Explained – A Beginner’s Guide](https://dzone.com/articles/agile-project-management-explained-a-beginners-gui) For all who are looking into the good Agile project management can do, here's an explanation and some benefits.
 - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle) If you know about the product management lifecycle but aren't familiar with each of its phases, take a look at how they break down.
 - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)
-- [dzone: 7 Project Management Basics](https://dzone.com/articles/7-project-management-basics-for-lifetime) Whether you're just starting out or are a career PM, these rules should never leave your mind.
 - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2/)
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)
 - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/3584559/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
 - [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster)
-- [scruminc.com: Better Scrum with Essence](https://www.scruminc.com/better-scrum-with-essence/) Essence is an industry standard for describing practices, which means there is no change to the actual Scrum content but an enhanced way for presenting it to teams. One of the main things you notice with Essence is the use of cards to represent the main concepts of any practice.
 - [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios) Agile methodologies can make all the difference in your digital transformation, but successful adoption requires culture change. Consider this expert advice on scrum and Kanban.
 - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)
 - [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful)
@@ -62,7 +59,6 @@
 - [dev.to: What’s Wrong With Measuring Developer Performance (+ 10 Best Metrics)](https://dev.to/actitime/whats-wrong-with-measuring-developer-performance-10-best-metrics-5620)
 - [betterprogramming.pub: How to Speed Up Your Progress With Feedback](https://betterprogramming.pub/how-to-speed-up-your-progress-with-feedback-1f41872b290a) Know the key features of an effective feedback loop
 - [betterprogramming.pub: Sprint Planning: Best Practices](https://betterprogramming.pub/sprint-planning-best-practices-1aad4103f6cb)
-- [betterhumans.pub: 3 Productivity Tips I Learned Working at Google That You Should Already Be Using](https://betterhumans.pub/3-productivity-tips-i-learned-working-at-google-that-you-should-already-be-using-1bfb62356463)
 - [medium.com/@victor.ronin: The dark side of a cross-functional team](https://medium.com/@victor.ronin/the-dark-side-of-a-cross-functional-team-e0d379e37c70)
 - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)
 - [hbr.org: How to Deal with High Pressure Situations at Work](https://hbr.org/2022/05/how-to-deal-with-high-pressure-situations-at-work)
@@ -122,7 +118,6 @@
 - [okdiario.com: Telefónica y Santander despiden a 467 empleados en 2021 por denuncias de compañeros](https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690) Fraude interno, acoso laboral..
 - [cronista.com: Cómo identificar a un mal jefe y qué errores no pueden cometer hoy los líderes](https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres/) Con la pandemia, la digitalización acelerada y los rediseños organizacionales, la forma de liderar cambió. Qué errores no pueden permitirse hoy las empresas en materia de liderazgo. Los nuevos roles.
 - [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)
-- [vozpopuli.com: Cliente tóxico: cuando el que paga no siempre tiene la razón](https://www.vozpopuli.com/economia_y_finanzas/cliente-toxico.html) Un cliente conflictivo, demasiado exigente o que tiende a tensar mucho la relación con sus proveedores es un problema para cualquier empresa. Así se gestiona un cliente tóxico.
 - [elconfidencial.com: Esta psicóloga ha estudiado a los capullos de tu empresa y sabe por qué se comportan así](https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185/) Tessa West, profesora de la Universidad de Nueva York, lleva 15 años estudiando el comportamiento humano y tiene una buena idea de por qué somos así en el trabajo.
 - [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://business.vogue.es/carrera/articulos/adios-jefes-toxicos-la-salud-organizacional-rentabilidad-residen-liderazgo-gentil/533) Un líder tóxico tiene un coste (mental) para el trabajador y, por tanto, también (económico) para la empresa
 - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://magnet.xataka.com/en-diez-minutos/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)
@@ -139,14 +134,12 @@
 ### Team Topologies
 
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
-- [dzone: Breaking Silos: Enhance Speed and Value Delivery](https://dzone.com/articles/silos-breaking-for-business-to-enhance-speed-to-va) How do we diagnose organizational silos? And how do we slice the large size business teams who are serving many customers or products with poor efficiency?
 - [itrevolution.com: Get Started With Team Topologies In 8 Steps](https://itrevolution.com/get-started-with-team-topologies-in-8-steps/)
 - [betterprogramming.pub: Team Topologies — A New Way of Thinking About Teams](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) Organize teams around four fundamental types: stream-aligned, enabling, complicated subsystem, and platform.
 
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
 
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
-- [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://www.lucidchart.com/blog/agile-vs-waterfall-vs-kanban-vs-scrum)
 - [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall)
@@ -155,12 +148,10 @@
 
 - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall/)
 - [deloitte.com: Bringing Agile benefits to a waterfall project](https://www2.deloitte.com/us/en/insights/industry/public-sector/agile-in-government-waterfall-software-approach.html)
-- [deloitte.com: ¿Cuál es la metodología más adecuada para tu proyecto? Metodología Waterfall vs Agile](https://www2.deloitte.com/es/es/pages/technology/articles/waterfall-vs-agile.html)
 
 ### Agile vs Scrum vs Kanban
 
 - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)
-- [dzone: Agile vs. Scrum: Differences Between Scrum and Agile Development](https://dzone.com/articles/agile-vs-scrum-differences-between-scrum-and-agile)
 - [softwaretestinghelp.com: Kanban Vs Scrum Vs Agile: A Detailed Comparison To Find Differences](https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile/)
 - [atlassian.com: Kanban vs. Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)
 - [medium: Are Scrum and Kanban Allies Or Enemies?](https://medium.com/serious-scrum/are-scrum-and-kanban-allies-or-enemies-9d1d27353cd7) The potential and pitfalls of Scrum and Kanban
@@ -195,7 +186,6 @@
 
 ## Other Development Methodologies. Worst practices in Project Management
 
-- [nichesoftware.co.nz: Other Development Methodologies](http://www.nichesoftware.co.nz/other-methodologies.html) We’ve all heard of Test-Driven Development (aka TDD), and those of us who’ve been around the block a few times have no double heard of Behaviour Driven Development (BDD) and Domain Driven Development (DDD) as well. But have you heard of their dodgy cousins? In this series I want to explore a handful of these lesser-known development methodologies, exploring both what they are, and what you might want (or need) to do to address them when they occur.
 - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices/)
 
 ### DevDriven.By
