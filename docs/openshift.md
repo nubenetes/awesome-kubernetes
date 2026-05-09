@@ -128,9 +128,6 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - [O'Reilly Free Book: **Openshift for developers**](https://www.openshift.com/for-developers/)
 - [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
 - [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)
-- [Packt publishing: **Learn Openshift**](https://www.packtpub.com/application-development/learn-openshift)
-- [O’Reilly: Free ebook: **Knative Cookbook**: Building Effective Serverless Applications with Kubernetes and OpenShift](https://developers.redhat.com/books/knative-cookbook/)
-- [redhat.com Free ebook: **Container Storage for Dummies**](https://www.redhat.com/en/resources/container-storage-dummies)
 
 ### Kubernetes e-Books
 
@@ -149,22 +146,17 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 ## Local Installers
 
 - [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
-- A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
+- A few other options to use OKD locally include [oc cluster up [ARCHIVED]](http://web.archive.org/web/20180925151411/https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift [ARCHIVED]](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
 - [github.com/redhatdemocentral: OpenShift Container Platform Install Demo 🌟](https://github.com/redhatdemocentral/ocp-install-demo)
-    - [Dzone.com: Installing OpenShift Container Platform v3.5 in Minutes](https://dzone.com/articles/installing-openshift-container-platform-v35-in-min)
-    - [Dzone.com: Install OpenShift Container Platform 3.6 in Minutes](https://dzone.com/articles/cloud-happiness-install-openshift-container-platfo)
-    - [Dzone.com: How to Install New OpenShift Container Platform 3.7](https://dzone.com/articles/cloud-happiness-how-to-install-new-openshift-conta-2)
     - [Dzone.com: Install OpenShift Container Platform in Minutes [Video]](https://dzone.com/articles/install-openshift-container-platform-in-minutes-video)
 
 ## Cloud Native Development Architecture. Architectural Diagrams
 
 - Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
-- [Dzone: Cloud-native development - A blueprint 🌟](https://dzone.com/articles/cloud-native-development-a-blueprint) These architectural blueprints are providing you with a way to implement a solution using open source technologies focusing on the integrations, structures and interactions proven to work.
     - [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html)
     - [schabell.org: Cloud-native development - On local containers 🌟](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
     - etc
-- [Dzone: Cloud-Native Development - Common Architectural Elements 🌟](https://dzone.com/articles/cloud-native-development-common-architectural-elem)
-- [Dzone: Cloud-native development - An advanced deployment blueprint 🌟](https://dzone.com/articles/cloud-native-development-an-advanced-deployment-bl)
+- [Dzone: Cloud-native development - An advanced deployment blueprint 🌟 [ARCHIVED]](http://web.archive.org/web/20200804033448/https://dzone.com/articles/cloud-native-development-an-advanced-deployment-bl)
 - [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
 - [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
 - [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
@@ -184,18 +176,14 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
 - [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
 - [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.
-- [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 
 ### OpenShift 3
 
-- [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
 - [uncontained.io: Installing a Highly Available OpenShift Cluster 🌟](http://uncontained.io/articles/openshift-ha-installation/)
 
 ### OpenShift 4
 
 - [github.com/openshift/installer openshift installer 🌟](https://github.com/openshift/installer)
-- [CI/CD Pipeline to deploy OpenShift Container Platform 4.x to AWS 🌟](https://github.com/r3dact3d/rhocp4_aws)
-- [blog.openshift.com: 9 steps to awesome with kubernetes openshift](https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/)
     - [github: burrsutter/9stepsawesome](https://github.com/burrsutter/9stepsawesome) 
 
 #### OpenShift 4 deployment on VMWare vSphere
@@ -278,7 +266,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 #### OpenShift Route and OpenShift Ingress
 
 - [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.openshift.com/blog/kubernetes-ingress-vs-openshift-route)
-- [Ingress Operator in OCP 4](https://docs.openshift.com/container-platform/4.4/networking/ingress-operator.html)
 - [cloud.ibm.com: OpenShift Ingress](https://cloud.ibm.com/docs/openshift?topic=openshift-ingress)
 
 #### OpenShift Egress
@@ -309,7 +296,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ### Rocket Chat
 
-- [Deploying Rocket.Chat on OpenShift](https://rocket.chat/docs/installation/paas-deployments/openshift/)
 - [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy)
 
 ## IBM Cloud Paks and OpenShift
@@ -332,11 +318,9 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 ## OpenShift Dedicated
 
 - [OpenShift Dedicated 🌟](https://www.openshift.com/products/dedicated/)
-- [Bringing OpenShift Dedicated to Life at Red Hat](https://www.openshift.com/blog/bringing-openshift-dedicated-to-life-at-red-hat)
 - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 
 ## Other Awesome Lists
 
-- [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
