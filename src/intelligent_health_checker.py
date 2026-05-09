@@ -54,35 +54,57 @@ class IntelligentLinkCleaner:
         except: pass
         return None
 
-    async def _check_url_with_retries(self, url: str, max_retries=3) -> Tuple[str, bool, Optional[str], str]:
+    async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         domain = url.split("//")[-1].split("/")[0]
         domain_info = self.learning_data["domains"].get(domain, {})
         use_playwright_first = domain_info.get("requires_playwright", False)
         
-        for attempt in range(max_retries):
+        # Estrategias de Evasión (Perfiles)
+        strategies = [
+            {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Desktop/Google"},
+            {"type": "http", "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1", "ref": "https://t.co/", "desc": "Mobile/Twitter"},
+            {"type": "playwright", "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", "ref": "https://www.linkedin.com/", "desc": "PW Desktop/LinkedIn"},
+            {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0", "ref": "https://news.ycombinator.com/", "desc": "Firefox/Reddit"},
+            {"type": "playwright", "ua": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36", "ref": "https://www.google.com/", "desc": "PW Mobile/Google"}
+        ]
+
+        if use_playwright_first:
+            # Reordenar para priorizar Playwright
+            strategies = [s for s in strategies if s["type"] == "playwright"] + [s for s in strategies if s["type"] == "http"]
+
+        for attempt in range(min(max_retries, len(strategies))):
+            strategy = strategies[attempt]
             try:
                 if attempt > 0: await asyncio.sleep((2 ** attempt) + random.random())
-                is_alive, reason = await self._check_url_logic(url, use_playwright_first)
+                
+                is_alive, reason = await self._check_url_logic(url, strategy)
+                
                 if is_alive:
                     if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {"success_count": 0, "fail_count": 0}
                     self.learning_data["domains"][domain]["success_count"] += 1
-                    return url, True, None, "Alive"
+                    return url, True, None, f"Alive ({strategy['desc']})"
+                
                 if reason in ["404", "soft_404", "redirect_to_home"]:
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/")
                         if len(parts) > 4:
                             repo_root = "/".join(parts[:5])
-                            root_alive, _ = await self._check_url_logic(repo_root, False)
+                            root_alive, _ = await self._check_url_logic(repo_root, strategies[0])
                             if root_alive: return url, False, f"REPO_ROOT:{repo_root}", f"Consolidated (Original: {reason})"
-                    archived = await self._check_wayback(url)
-                    if archived: return url, False, f"ARCHIVE:{archived}", f"Archived (Original: {reason})"
-                    return url, False, None, reason
+                    
+                    # Si es el último intento y sigue dando error duro (404), verificamos Wayback
+                    if attempt == max_retries - 1:
+                        archived = await self._check_wayback(url)
+                        if archived: return url, False, f"ARCHIVE:{archived}", f"Archived (Original: {reason})"
+                        return url, False, None, reason
             except: pass
-        return url, True, None, "Keep (Error)"
+            
+        return url, True, None, "Conservative Keep (Exhausted all strategies)"
 
-    async def _check_url_logic(self, url: str, force_playwright: bool) -> Tuple[bool, str]:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "Referer": "https://www.google.com/"}
-        if not force_playwright:
+    async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
+        headers = {"User-Agent": strategy["ua"], "Referer": strategy["ref"], "Accept-Language": "en-US,en;q=0.9"}
+        
+        if strategy["type"] == "http":
             try:
                 async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12) as client:
                     resp = await client.get(url)
@@ -90,30 +112,33 @@ class IntelligentLinkCleaner:
                     if resp.status_code < 300:
                         final_url = str(resp.url).rstrip('/')
                         original_base = "/".join(url.split("/")[:3])
-                        if len(url) > len(original_base) + 10 and final_url == original_base: pass
+                        if len(url) > len(original_base) + 10 and final_url == original_base: return False, "redirect_to_home"
                         else: return True, "ok"
                     if resp.status_code in [403, 429, 401]:
                         domain = url.split("//")[-1].split("/")[0]
                         if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {}
                         self.learning_data["domains"][domain]["requires_playwright"] = True
-            except: pass
-        try:
-            from playwright.async_api import async_playwright
-            async with async_playwright() as p:
-                browser = await p.chromium.launch(headless=True)
-                page = await browser.new_page(user_agent=headers["User-Agent"])
-                try:
-                    response = await page.goto(url, wait_until="domcontentloaded", timeout=25000)
-                    if not response: return True, "timeout"
-                    if response.status in [404, 410]: return False, "404"
-                    content = (await page.content()).lower(); title = (await page.title()).lower()
-                    soft_404_keywords = ["page not found", "404 not found", "artículo no encontrado", "página no encontrada"]
-                    if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): return False, "soft_404"
-                    final_url = page.url.rstrip('/'); original_base = "/".join(url.split("/")[:3])
-                    if len(url) > len(original_base) + 10 and final_url == original_base: return False, "redirect_to_home"
-                    return True, "ok"
-                finally: await browser.close()
-        except: return True, "engine_error"
+                        return False, "blocked" # Forzar siguiente estrategia
+            except: return False, "http_error"
+        else:
+            try:
+                from playwright.async_api import async_playwright
+                async with async_playwright() as p:
+                    browser = await p.chromium.launch(headless=True)
+                    context = await browser.new_context(user_agent=strategy["ua"], extra_http_headers={"Referer": strategy["ref"]})
+                    page = await context.new_page()
+                    try:
+                        response = await page.goto(url, wait_until="domcontentloaded", timeout=25000)
+                        if not response: return True, "timeout"
+                        if response.status in [404, 410]: return False, "404"
+                        content = (await page.content()).lower(); title = (await page.title()).lower()
+                        soft_404_keywords = ["page not found", "404 not found", "artículo no encontrado", "página no encontrada"]
+                        if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): return False, "soft_404"
+                        final_url = page.url.rstrip('/'); original_base = "/".join(url.split("/")[:3])
+                        if len(url) > len(original_base) + 10 and final_url == original_base: return False, "redirect_to_home"
+                        return True, "ok"
+                    finally: await browser.close()
+            except: return True, "engine_error"
 
     async def build_global_registry(self):
         print("[*] Construyendo registro global...")
