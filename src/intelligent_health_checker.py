@@ -26,6 +26,7 @@ class IntelligentLinkCleaner:
         self.action_log: List[Dict] = [] 
         self.detailed_stats = {
             "total_scanned": 0,
+            "skipped_recent": 0,
             "by_file": {}, 
             "by_category": {}, 
             "operation_types": {"removals": 0, "archived": 0, "consolidated": 0, "orphans": 0}
@@ -37,7 +38,7 @@ class IntelligentLinkCleaner:
             try:
                 with open(MEMORY_FILE, 'r') as f: return json.load(f)
             except: pass
-        return {"domains": {}, "known_soft_404_patterns": []}
+        return {"domains": {}, "link_cache": {}, "known_soft_404_patterns": []}
 
     def _save_memory(self):
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
@@ -55,10 +56,17 @@ class IntelligentLinkCleaner:
         return None
 
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
+        # 1. Check Cache (Incremental Processing para evitar Timeouts)
+        now = datetime.now().timestamp()
+        cache_entry = self.learning_data.get("link_cache", {}).get(url)
+        if cache_entry and cache_entry.get("status") == "ALIVE":
+            if now - cache_entry.get("last_checked", 0) < (21 * 24 * 3600): # 21 días
+                self.detailed_stats["skipped_recent"] += 1
+                return url, True, None, "Cached (Recent)"
+
         domain = url.split("//")[-1].split("/")[0]
         domain_info = self.learning_data["domains"].get(domain, {})
         
-        # Estrategias de Evasión (Perfiles)
         strategies = [
             {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Desktop/Google"},
             {"type": "http", "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1", "ref": "https://t.co/", "desc": "Mobile/Twitter"},
@@ -67,10 +75,8 @@ class IntelligentLinkCleaner:
             {"type": "playwright", "ua": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36", "ref": "https://www.google.com/", "desc": "PW Mobile/Google"}
         ]
 
-        # Inteligencia: Si ya conocemos qué estrategia funciona para este dominio, reordenamos
         best_strat_idx = domain_info.get("best_strategy_idx")
         if best_strat_idx is not None and best_strat_idx < len(strategies):
-            # Mover la mejor estrategia al principio
             best_strat = strategies.pop(best_strat_idx)
             strategies.insert(0, best_strat)
 
@@ -78,20 +84,16 @@ class IntelligentLinkCleaner:
             strategy = strategies[attempt]
             try:
                 if attempt > 0: await asyncio.sleep((2 ** attempt) + random.random())
-                
                 is_alive, reason = await self._check_url_logic(url, strategy)
                 
                 if is_alive:
                     if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {}
-                    # Guardamos el índice real de la estrategia que funcionó
-                    # (si movimos la mejor al principio, hay que mapearla de nuevo)
                     original_idx = attempt if best_strat_idx is None else (best_strat_idx if attempt == 0 else (attempt if attempt < best_strat_idx else attempt))
                     self.learning_data["domains"][domain]["best_strategy_idx"] = original_idx
-                    self.learning_data["domains"][domain]["success_count"] = self.learning_data["domains"][domain].get("success_count", 0) + 1
-                    return url, True, None, f"Alive ({strategy['desc']})"
+                    self.learning_data["link_cache"][url] = {"status": "ALIVE", "last_checked": now}
+                    return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
                 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
-                    # REPO CONSOLIDATION
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/")
                         if len(parts) > 4:
@@ -105,26 +107,19 @@ class IntelligentLinkCleaner:
                         return url, False, None, reason
             except: pass
             
-        return url, True, None, "Conservative Keep (Exhausted all strategies)"
+        return url, True, None, "Conservative Keep"
 
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
         headers = {"User-Agent": strategy["ua"], "Referer": strategy["ref"], "Accept-Language": "en-US,en;q=0.9"}
-        
+        paywall_indicators = ["sign in", "create free account", "member-only story", "página de suscripción", "inicia sesión"]
+
         if strategy["type"] == "http":
             try:
                 async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12) as client:
                     resp = await client.get(url)
                     if resp.status_code in [404, 410]: return False, "404"
-                    if resp.status_code < 300:
-                        final_url = str(resp.url).rstrip('/')
-                        original_base = "/".join(url.split("/")[:3])
-                        if len(url) > len(original_base) + 10 and final_url == original_base: return False, "redirect_to_home"
-                        else: return True, "ok"
-                    if resp.status_code in [403, 429, 401]:
-                        domain = url.split("//")[-1].split("/")[0]
-                        if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {}
-                        self.learning_data["domains"][domain]["requires_playwright"] = True
-                        return False, "blocked" # Forzar siguiente estrategia
+                    if resp.status_code < 400: return True, "HTTP OK"
+                    if resp.status_code in [403, 429, 401]: return False, f"Blocked ({resp.status_code})"
             except: return False, "http_error"
         else:
             try:
@@ -138,11 +133,12 @@ class IntelligentLinkCleaner:
                         if not response: return True, "timeout"
                         if response.status in [404, 410]: return False, "404"
                         content = (await page.content()).lower(); title = (await page.title()).lower()
+                        if any(kw in content for kw in paywall_indicators): return True, "Paywall Detected"
                         soft_404_keywords = ["page not found", "404 not found", "artículo no encontrado", "página no encontrada"]
                         if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): return False, "soft_404"
                         final_url = page.url.rstrip('/'); original_base = "/".join(url.split("/")[:3])
                         if len(url) > len(original_base) + 10 and final_url == original_base: return False, "redirect_to_home"
-                        return True, "ok"
+                        return True, "Render OK"
                     finally: await browser.close()
             except: return True, "engine_error"
 
@@ -164,15 +160,17 @@ class IntelligentLinkCleaner:
             except: pass
 
     async def validate_links_tiered(self):
-        print(f"[*] Validando {len(self.link_registry)} URLs...")
+        print(f"[*] Validando {len(self.link_registry)} URLs con procesamiento incremental...")
         unique_urls = list(self.link_registry.keys()); random.shuffle(unique_urls)
-        for i in range(0, len(unique_urls), 20):
-            batch = unique_urls[i:i+20]
+        batch_size = 40
+        for i in range(0, len(unique_urls), batch_size):
+            batch = unique_urls[i:i+batch_size]
             tasks = [self._check_url_with_retries(url) for url in batch]
             results = await asyncio.gather(*tasks)
             for url, is_alive, fallback, reason in results:
                 if not is_alive: self.dead_links[url] = (fallback if fallback else "DEAD", reason)
             self._save_memory()
+            if i % 100 == 0: print(f"    - Progreso: {i}/{len(unique_urls)}")
 
     async def apply_changes(self):
         print("[*] Aplicando cambios y métricas visuales...")
@@ -227,24 +225,21 @@ class IntelligentLinkCleaner:
             except: pass
 
         report = "## 🧠 Nubenetes Autonomous Health & Curation Engine\n\n"
-        
-        # Mermaid Pie Chart
         report += "### 📊 Distribución de Operaciones\n"
         report += "```mermaid\npie title Operaciones de Mantenimiento\n"
         report += f"    \"Muertos (Eliminados)\" : {self.detailed_stats['operation_types']['removals']}\n"
         report += f"    \"Archivados (Wayback)\" : {self.detailed_stats['operation_types']['archived']}\n"
-        report += f"|    \"Consolidados (Git)\" : {self.detailed_stats['operation_types']['consolidated']}\n"
+        report += f"    \"Consolidados (Git)\" : {self.detailed_stats['operation_types']['consolidated']}\n"
         report += f"    \"Nuevos (Huérfanos)\" : {self.detailed_stats['operation_types']['orphans']}\n```\n\n"
 
-        # Executive Summary
-        report += "### 📈 Resumen de Operaciones\n"
-        report += "| Operación | Cantidad | Impacto / Detalle |\n| :--- | :---: | :--- |\n"
-        report += f"| 💀 Eliminados | **{self.detailed_stats['operation_types']['removals']}** | 404 definitivos (No recuperables) |\n"
-        report += f"| 🏛️ Archivados | **{self.detailed_stats['operation_types']['archived']}** | Restaurados vía Wayback Machine |\n"
-        report += f"| 🎯 Consolidados | **{self.detailed_stats['operation_types']['consolidated']}** | Deep-links Git movidos a la raíz |\n"
-        report += f"| 🖇️ Nuevos | **{self.detailed_stats['operation_types']['orphans']}** | Páginas vinculadas automáticamente |\n\n"
+        report += "### 📈 Resumen de Eficiencia\n"
+        report += f"| Métrica | Cantidad | Detalle |\n| :--- | :---: | :--- |\n"
+        report += f"| ⏩ Omitidos (Cache) | **{self.detailed_stats['skipped_recent']}** | Verificados hace menos de 21 días |\n"
+        report += f"| 💀 Eliminados | **{self.detailed_stats['operation_types']['removals']}** | 404 definitivos |\n"
+        report += f"| 🏛️ Archivados | **{self.detailed_stats['operation_types']['archived']}** | Vía Wayback Machine |\n"
+        report += f"| 🎯 Consolidados | **{self.detailed_stats['operation_types']['consolidated']}** | Raíz de Repositorio Git |\n"
+        report += f"| 🖇️ Nuevos | **{self.detailed_stats['operation_types']['orphans']}** | Páginas vinculadas |\n\n"
 
-        # Health Matrix (Documentos Críticos)
         report += "### 🧮 Matriz de Mantenimiento por Documento\n"
         report += "| Documento | 🔴 Elim | 🟡 Mod | 🟢 Crea | Estado |\n| :--- | :---: | :---: | :---: | :---: |\n"
         for file, s in sorted(self.detailed_stats["by_file"].items()):
@@ -252,14 +247,12 @@ class IntelligentLinkCleaner:
             if s['removed'] > 5: status = "⚠️ Crítico"
             report += f"| `{file}` | {s['removed']} | {s['modified']} | {s['created']} | {status} |\n"
 
-        # Action Log
         report += "\n### 📝 Registro Detallado (Log)\n<details><summary>Click para ver todas las acciones</summary>\n\n"
         report += "| Archivo | Acción | URL / Recurso | Motivo |\n| :--- | :---: | :--- | :--- |\n"
         for log in sorted(self.action_log, key=lambda x: x["file"]):
             emoji = {"removed": "❌", "modified": "🔄", "created": "✨"}.get(log["action"], "❓")
             report += f"| `{log['file']}` | {emoji} | {log['url']} | {log['reason']} |\n"
         report += "</details>\n\n"
-
         report += f"\n---\n*📈 Inteligencia de dominios acumulada: `{len(self.learning_data['domains'])}`*"
         self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=report, head=branch_name, base="master")
 
