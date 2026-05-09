@@ -63,11 +63,9 @@
 ## AWS EKS (Hosted/Managed Kubernetes on AWS)
 
 - [community.aws/kubernetes](https://community.aws/kubernetes) Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.
-- [dzone: kops vs EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
 - [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
 - [eksctl: EKS installer](https://github.com/weaveworks/eksctl)
     - [medium.com/@thapliyal705: Create Amazon EKS Cluster from scratch using eksctl](https://medium.com/@thapliyal705/create-amazon-eks-cluster-from-scratch-using-eksctl-67e0d0900245)
-- [medium: Implementing Kubernetes Cluster using AWS EKS (AWS Managed Kubernetes)](https://medium.com/@devopsadvocate/how-to-setup-kubernetes-cluster-using-aws-eks-aws-managed-kubernetes-181d5567a8ef)
 - [Amazon EKS Security Best Practices](https://www.stackrox.com/post/2019/09/amazon-eks-security-best-practices/)
 - [thenewstack.io: Install and Configure OpenEBS on Amazon Elastic Kubernetes Service](https://thenewstack.io/tutorial-install-and-configure-openebs-on-amazon-elastic-kubernetes-service/)
 - [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/)
@@ -77,10 +75,8 @@
 - [medium: Building the CI/CD of the Future, Creating the EKS Cluster 🌟](https://medium.com/swlh/building-the-ci-cd-of-the-future-creating-the-eks-cluster-e4cce4eb3500)
 - [Announcing the AWS Controllers for Kubernetes Preview](https://aws.amazon.com/about-aws/whats-new/2020/08/announcing-the-aws-controllers-for-kubernetes-preview/)
 - [daveops.xyz: Administrar usuarios en EKS](https://daveops.xyz/2020/08/25/administrar-usuarios-en-eks/)
-- [aws.github.io: AWS Controllers for Kubernetes](https://aws.github.io/aws-controllers-k8s/)
 - [stacksimplify.com: AWS ALB Ingress Service - Basics 🌟](https://www.stacksimplify.com/aws-eks/aws-alb-ingress/lean-kubernetes-aws-alb-ingress-basics/)
 - [Kubernetes PVCs with EFS provisioner](https://www.padok.fr/en/blog/efs-provisioner-kubernetes)
-- [Using Helm with Amazon EKS without kubeconfigs](https://medium.com/analytics-vidhya/using-helm-with-amazon-eks-without-a-kubeconfig-733f44a31b1d)
 - [Running spot instances effectively with Amazon EKS](https://m.signalvnoise.com/running-spot-instances-effectively-with-amazon-eks)
 - [medium: Designing a Kubernetes Cluster with Amazon EKS From Scratch 🌟](https://medium.com/adobetech/designing-a-kubernetes-cluster-with-amazon-eks-from-scratch-4b4ee9d1b8f)
 - [en.sokube.ch: AWS + Kubernetes = AWS Elastic Kubernetes Service (EKS) 🌟](https://en.sokube.ch/post/aws-kubernetes-aws-elastic-kubernetes-service-eks)
@@ -88,7 +84,6 @@
 - [clickittech.com: Amazon ECS vs EKS : The Best Container Orchestration Platform 🌟](https://www.clickittech.com/aws/amazon-ecs-vs-eks/)
 - [POKE - Provision Opinionated Kubernetes on EKS](https://github.com/bit-cloner/poke) Poke is infrastructure as software to provision EKS cluster in an opinianated way. Code is written in nodejs utilising pulumi framework. It is opinionated in such a way to improve security and simplicity.Consider this similar to terraform module. This package can be used to provision eks clusters declaratively with immutability and repeatability.
 - [clickittech.com: Kubernetes Multi tenancy with Amazon EKS: Best practices and considerations](https://www.clickittech.com/saas/kubernetes-multi-tenancy/)
-- [automateinfra.com: Getting Started with Amazon Elastic kubernetes Service (AWS EKS)](https://automateinfra.com/2021/04/01/the-only-ultimate-for-beginners-getting-started-with-amazon-eks/)
 - [medium: Run Kubernetes Production Environment on EC2 Spot Instances With Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)
 - [releaseops.io: Scaling Kubernetes Deployments in AWS with Container Insights Metrics](https://releaseops.io/blog/scaling-kubernetes-deployments-in-aws-with-container-insights-metrics)
 - [medium: Create Kubernetes Cluster On AWS EKS](https://medium.com/codex/create-kubernetes-cluster-on-aws-eks-6ced4c488e62) Setup AWS credentials and install kubectl, eksctl on Ubuntu. Create Kubernetes cluster using eksctl.
@@ -99,9 +94,7 @@
 - [itnext.io: Using AWS NLB manually targeting an EKS Service exposing UDP traffic](https://itnext.io/using-aws-nlb-manually-targeting-an-eks-service-exposing-udp-traffic-17053ecd8f52)
 - [Amazon EKS Now Supports EC2 Inf1 Instances](https://aws.amazon.com/blogs/aws/amazon-eks-now-supports-ec2-inf1-instances/)
 - [Create a pipeline with canary deployments for Amazon EKS with AWS App Mesh 🌟](https://aws.amazon.com/blogs/containers/create-a-pipeline-with-canary-deployments-for-amazon-eks-with-aws-app-mesh/)
-- [medium: Using Helm with Amazon EKS without kubeconfigs](https://medium.com/analytics-vidhya/using-helm-with-amazon-eks-without-a-kubeconfig-733f44a31b1d)
 - [linkedin.com: Amazon EKS Distro (EKS-D): The Kubernetes Distribution Used by Amazon EKS 🌟](https://www.linkedin.com/pulse/amazon-eks-distro-eks-d-kubernetes-distribution-used-gokul-chandra/)
-- [aws.amazon.com: Introducing Federated Amazon EKS Clusters on AWS](https://aws.amazon.com/about-aws/whats-new/2021/01/introducing-federated-amazon-eks-clusters-aws/)
 - [medium: How to Deploy an EKS stack in AWS?](https://medium.com/avmconsulting-blog/how-to-deploy-an-eks-stack-to-kubernetes-aws-5ec9c5a07247)
 - [aws.amazon.com: Fluent Bit Integration in CloudWatch Container Insights for EKS](https://aws.amazon.com/blogs/containers/fluent-bit-integration-in-cloudwatch-container-insights-for-eks/)
 - [Optimizing Your Kubernetes Clusters with Rancher and Amazon EKS 🌟](https://aws.amazon.com/blogs/apn/optimizing-your-kubernetes-clusters-with-rancher-and-amazon-eks/)
@@ -118,7 +111,6 @@
     - [Setup External DNS](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/guide/integrations/external_dns/)
 - [particule.io: Create Kubernetes federated clusters on AWS](https://particule.io/en/blog/aws-federated-eks/)
 - [==aws.github.io/aws-eks-best-practices== 🌟](https://aws.github.io/aws-eks-best-practices/) __The primary goal of this project is to offer a set of best practices for day 2 operations for Amazon EKS.__
-    - [aws.github.io/aws-eks-best-practices: Networking in EKS](https://aws.github.io/aws-eks-best-practices/reliability/docs/networkmanagement)
 - [betterprogramming.pub: Amazon EKS Is Eating My IPs!](https://betterprogramming.pub/amazon-eks-is-eating-my-ips-e18ea057e045) Understand how AWS EKS manages IP addresses and what you can do about it
 - [engineering.salesforce.com: Optimizing EKS networking for scale](https://engineering.salesforce.com/optimizing-eks-networking-for-scale-1325706c8f6d)
 - [blog.usejournal.com: Spice up Your Kubernetes Environment with AWS Lambda 🌟](https://blog.usejournal.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607) In this blog you will learn a simple yet effective and secure way to integrate AWS Lambda with an existing Kubernetes environment without codes changes.
@@ -138,7 +130,6 @@
 - [aws.amazon.com: Using Prometheus Adapter to autoscale applications running on Amazon EKS](https://aws.amazon.com/blogs/mt/automated-scaling-of-applications-running-on-eks-using-custom-metric-collected-by-amazon-prometheus-using-prometheus-adapter/)
 - [youtube: CloudGeeks - Terraform Eks Kubernetes RDS Secrets Manager Eksctl Cloudformation ALB Controller (Redmine App)](https://www.youtube.com/watch?v=OFZYIr66Ku4&ab_channel=cloudgeeksinc) - [quickbooks2018/eks-redmin](https://github.com/quickbooks2018/eks-redmin)
 - [aws.amazon.com: Kubernetes Ingress with AWS ALB Ingress Controller](https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
-- [automateinfra.com: The Ultimate Guide on AWS EKS for Beginners (Easiest Way)](https://automateinfra.com/2021/10/19/the-ultimate-guide-on-aws-eks-for-beginners-easiest-way/)
 - [==aws/aws-node-termination-handler== 🌟](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
 - [==howtoforge.com: How to Create a Kubernetes Cluster with AWS CLI==](https://www.howtoforge.com/how-to-create-a-kubernetes-cluster-with-the-aws-cli/)
 - [blog.searce.com: Optimise cost for AWS EKS cluster using Spotinst 🌟](https://blog.searce.com/optimize-cost-for-aws-eks-cluster-using-spotinst-ffcebe8e3571)
@@ -155,7 +146,6 @@
 - [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) AWS Controllers for Kubernetes (ACK) lets you define & use AWS service resources directly from Kubernetes. With ACK, you can take advantage of AWS managed services for your applications without needing to define resources outside of the cluster.
 - [itnext.io: Deploy Kubernetes (K8s) on Amazon AWS using mixed on-demand and spot instances 🌟](https://itnext.io/deploy-kubernetes-k8s-on-amazon-aws-using-mixed-on-demand-and-spot-instances-5440e5bece7)
 - [==github.com/awslabs: Kubernetes Migration Factory User Guide== 🌟](https://github.com/awslabs/aws-kubernetes-migration-factory) **Kubernetes Migrations Factory (KMF) is a tool developed for migrating docker containers to Amazon EKS.  The Kubernetes Migration Factory solution is an orchestration platform for migrating containers to Amazon EKS at scale.**
-- [==github.com/aws-ia/terraform-aws-eks-blueprints (examples) 🌟🌟🌟==](https://github.com/aws-ia/terraform-aws-eks-blueprints/tree/main/examples)
     - [Direction for v5 of Terraform EKS Blueprints](https://github.com/aws-ia/terraform-aws-eks-blueprints/blob/main/docs/v4-to-v5/motivation.md)
 - [akintola-lonlon.medium.com: AWS Kubernetes: The #1 Rule You Need To Master Before Going To Production.](https://akintola-lonlon.medium.com/aws-kubernetes-the-1-rule-you-need-to-master-before-going-to-production-628b75ba1b6a) This is the most important thing to consider before going to production on EKS.
 - [amod-kadam.medium.com: Are there two Load Balancer Controllers with EKS? 🌟](https://amod-kadam.medium.com/are-there-two-load-balancer-controllers-with-eks-8a7b04db8c93) In this article, you will learn how AWS provision different types of load balancers (Classic vs Network) to expose your applications depending on the annotations that you use.
@@ -194,7 +184,6 @@
     - Creating the Role
     - Installing the ALB Ingress controller
 - [==medium.com/@ankit.wal: Understanding IAM roles for service accounts, IRSA, on AWS EKS==](https://medium.com/@ankit.wal/the-how-of-iam-roles-for-service-accounts-irsa-on-aws-eks-3d76badb8942) A simple visual explanation of how IRSA works to help you understand and remember. IRSA is the AWS EKS native way to allow applications running in EKS pods to access AWS API, using permissions configured in AWS IAM roles. It’s an improvement over the previous architecture of applications running in pods to use the IAM roles of the underlying EKS nodes. Being able to configure access to AWS API per service account tends towards the principle of least privilege, and more secure architecture.
-- [blog.realvarez.com: Reduce Amazon EKS cost by scaling node groups to zero 🌟](https://blog.realvarez.com/reduce-amazon-eks-cost-by-scaling-node-groups-to-zero/) - [blog.devops.dev: Reduce Amazon EKS cost by scaling node groups to zero](https://blog.devops.dev/reduce-amazon-eks-cost-by-scaling-node-groups-to-zero-41dce9db50ef) Scaling down to zero can result in significant cost savings when you have workloads that don't run 24x7. In this tutorial, you'll learn how to do that with labels, taints, and the Cluster Autoscaler.
 - [dev.to: Autoprovisioning NFS volumes in EKS with CDK](https://dev.to/memark/autoprovisioning-nfs-volumes-in-eks-with-cdk-4fn9)
 - [levelup.gitconnected.com: Running Workflows on windows with Jenkins pipeline and Kubernetes](https://levelup.gitconnected.com/running-workflows-on-windows-with-jenkins-pipeline-and-kubernetes-52752a89a0e7)
 - [nivogt.medium.com: Boost your Kubernetes cluster’s Autoscaler on AWS EKS with Karpenter](https://nivogt.medium.com/boost-your-kubernetes-clusters-autoscaler-on-aws-eks-with-karpenter-4d23955944f2)
@@ -225,7 +214,6 @@
 - [itnext.io: Running resilient workloads in EKS using Spot instances](https://itnext.io/running-production-workloads-in-eks-using-spot-instances-fc6808a7b462) In this article, you will learn how giffgaff run all of their applications in an EKS cluster using 100% spot instances and what additional safeguards they put in place to improve reliability
 - [Simplifying Amazon EBS volume migration and modification on Kubernetes using the EBS CSI Driver](https://aws.amazon.com/de/blogs/storage/simplifying-amazon-ebs-volume-migration-and-modification-using-the-ebs-csi-driver/)
 - [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/) In this post, you'll learn how to over-provision the cluster worker nodes using dummy pods for quicker scaling. The dummy pods contain a pause container that is scheduled by the scheduler according to pod specifications' placements and CPU/memory.
-- [==itnext.io: Efficient Kubernetes Cluster Deployment: Accelerating Setup with EKS Blueprints==](https://itnext.io/efficient-kubernetes-cluster-deployment-accelerating-setup-with-eks-blueprints-68324b582ec9)
 - [medium.com/@danielresponda: Testing Spot Reclamation Mechanisms with AWS Node Termination Handler and Kubernetes Autoscaler](https://medium.com/@danielresponda/testing-spot-reclamation-mechanisms-with-aws-node-termination-handler-and-kubernetes-autoscaler-43194d05dae0) What happens if a spot instance is reclaimed, but no more capacity is available in the cluster? In this article, you will learn how to use the AWS Node Termination Handler with Kubernetes Autoscaler to handle spot reclamations seamlessly
 - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity)
 - [itnext.io: AWS Elastic Kubernetes Service: RBAC Authorization via AWS IAM and RBAC Groups](https://itnext.io/aws-elastic-kubernetes-service-rbac-authorization-via-aws-iam-and-rbac-groups-7b70ded144b5)
@@ -270,7 +258,6 @@
     - Standalone clusters
     - Distribute environments
 - [blog.techknowtrendz.com: Taking Amazon EKS Anywhere for a spin](https://blog.techknowtrendz.com/taking-amazon-eks-anywhere-for-a-spin) Bringing EKS to a datacenter near you
-- [rafay.co: Amazon EKS and EKS Anywhere – All You Need To Know](https://rafay.co/the-kubernetes-current/amazon-eks-and-eks-anywhere-all-you-need-to-know/) Take a look into both AmazonEKS and EKSAnywhere and how they are different. By the end of this post, you will be able to pick the right offering for your organization.
 - [aws.amazon.com: Blue/Green Kubernetes upgrades for Amazon EKS Anywhere using Flux](https://aws.amazon.com/blogs/containers/blue-green-kubernetes-upgrades-for-amazon-eks-anywhere-using-flux/)
 
 ### EKS Distro (EKS-D)
@@ -288,7 +275,6 @@
 - [youtube: The AKS Community 🌟](https://www.youtube.com/@theakscommunity)
 - [==the-aks-checklist.com: The Azure Kubernetes Service Checklist== 🌟🌟🌟](https://www.the-aks-checklist.com/) This checklist contains a large set of best practices and some of them may not be relevant to your context and thus the rating may be incorrect in your case. Please choose and apply them wisely.
 - [Azure Updates AKS 🌟](https://azure.microsoft.com/en-us/updates/?query=AKS)
-- [aks-learning.github.io/learningpath: AKS Learning Path](https://aks-learning.github.io/learningpath/)
 - [docs.microsoft.com: Baseline architecture for an Azure Kubernetes Service (AKS) cluster 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks) In this reference architecture, you'll build a baseline infrastructure that deploys an AKS cluster. The article includes recommendations for networking, security, identity, management, and monitoring.
 - [docs.microsoft.com: Microservices architecture on Azure Kubernetes Service (AKS) 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices) This reference architecture shows a microservices application deployed to Azure Kubernetes Service (AKS). It describes a basic AKS configuration that can be the starting point for most deployments. The architecture consists of the following components:
     - Azure Kubernetes Service (AKS)
@@ -306,7 +292,6 @@
 - [docs.microsoft.com: Configure Azure CNI networking in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni)
 - [trstringer.com: Run Kubernetes Pods on Specific VM Types in AKS](https://trstringer.com/run-kubernetes-pods-on-vm-types/)
 - [docs.microsoft.com: AKS-managed Azure Active Directory integration](https://docs.microsoft.com/en-us/azure/aks/managed-aad)
-- [==stacksimplify.com/azure-aks: Kubernetes On Cloud Roadmap==](https://stacksimplify.com/azure-aks/)
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
 - [github.com: AKS: Use AAD identity for pods and make your SecOps happy](https://github.com/dfrappart/articles/blob/master/podidentityjourney.md)
 - [docs.microsoft.com: Microservices architecture on Azure Kubernetes Service (AKS) 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices)
@@ -322,7 +307,6 @@
     - [medium: Secure your Microservices on AKS — Part 2 🌟](https://medium.com/microsoftazure/secure-your-microservices-on-aks-part-2-5496bf2ba00c)
 - [zartis.com: How To Save A Fortune On Azure Kubernetes Service](https://www.zartis.com/minimizing-costs-aks/)
 - [itnext.io: AKS Performance: Limit Ranges](https://itnext.io/aks-performance-limit-ranges-8e18cbebe351) Limit Ranges can be used to fine tune your resource consumption by limiting your min/max requests/limits in namespaces.
-- [devoteam.com: Azure Kubernetes Service (AKS) with Azure DevOps](https://nl.devoteam.com/en/blog-post/azure-kubernetes-service-aks-with-azure-devops/)
 - [itnext.io: Kubernetes Ingress on Azure using the Application Gateway](https://itnext.io/kubernetes-ingress-on-azure-using-the-application-gateway-2779b647deb5) How to expose multiple services on a single host
 - [joachim8675309.medium.com: AKS with GRPC and ingress-nginx](https://joachim8675309.medium.com/aks-with-grpc-and-ingress-nginx-32481a792a1) Using GRPC with ingress-nginx add-on with AKS
 - [thenewstack.io: Microsoft’s Practical Approach to Kubernetes Management](https://thenewstack.io/microsoft-takes-practical-approach-to-kubernetes-management/)
@@ -427,17 +411,14 @@
 - [==pixelrobots.co.uk: Exploring Azure Kubernetes Service’s Node Autoprovision: A Deep Dive into the Latest Public Preview Feature==](https://pixelrobots.co.uk/2023/12/exploring-azure-kubernetes-services-node-autoprovision-a-deep-dive-into-the-latest-public-preview-feature/)
     - Node Autoprovision (NAP) in AKS is a game-changer for managing node pools. As your workloads expand and diversify in complexity, needing various CPU, memory, and capability configurations, managing your VM configurations can become quite daunting. This is where NAP steps in.
     - NAP dynamically decides the optimal VM configuration for your pending pod resource requirements, ensuring that your workloads run efficiently and cost-effectively. This feature is rooted in the open-source Karpenter project, and its implementation in AKS is also open-source.
-- [==blog.teknews.cloud/aks: A look at Retina on AKS (Observability)==](https://blog.teknews.cloud/aks/network/2024/06/29/A_look_at_Retina_on_AKS.html)
 - [techcommunity.microsoft.com: Advanced Network Observability for your Azure Kubernetes Service clusters through Azure Monitor](https://techcommunity.microsoft.com/t5/azure-observability-blog/advanced-network-observability-for-your-azure-kubernetes-service/ba-p/4176736)
 - [learn.microsoft.com: Deploy AKS and API Management with mTLS](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/mutual-tls-deploy-aks-api-management)
 - [blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier Project using Azure AKS, fluxCD, Prometheus, Grafana, and GitLab](https://blog.stackademic.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-azure-aks-fluxcd-prometheus-cca3c5e61953)
 - [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)
 - [techcommunity.microsoft.com: Leveraging Azure Copilot for Azure Kubernetes Services (AKS)](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/leveraging-azure-copilot-for-azure-kubernetes-services-aks/ba-p/4212457)
-- [azure.github.io: Using AKS-managed Istio External Ingress Gateway with Gateway API](https://azure.github.io/AKS/2024/08/06/istio-with-gateway-api) Learn how to use the Gateway API to manage the Istio external ingress gateway on AKS.
 
 ### AKS Releases
 
-- [dinantpaardenkooper.nl: Microsoft AKS updates 2023 - Q4](https://dinantpaardenkooper.nl/posts/aks23q4/)
 
 ### AKS Lite
 
