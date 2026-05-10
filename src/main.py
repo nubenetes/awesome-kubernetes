@@ -102,11 +102,25 @@ async def master_orchestrator():
                 stats["categories_updated"].add(category)
         except: continue
 
-    # 6. Actualizar Estado de Tiempo
+    # 6. Actualizar Estado de Tiempo y Persistir en Repo
     if raw_social:
-        new_horizon = max([datetime.fromisoformat(t["timestamp"]) for t in raw_social]) + timedelta(seconds=1)
-        with open(state_file, 'w') as f:
-            json.dump({"last_processed_tweet_date": new_horizon.isoformat()}, f)
+        try:
+            # Obtener el timestamp más reciente de los nuevos tweets
+            all_timestamps = [datetime.fromisoformat(t["timestamp"]) for t in raw_social]
+            new_horizon = max(all_timestamps) + timedelta(seconds=1)
+            
+            state_data = {"last_processed_tweet_date": new_horizon.isoformat()}
+            new_state_json = json.dumps(state_data, indent=2)
+            
+            # Guardar localmente
+            with open(state_file, 'w') as f:
+                f.write(new_state_json)
+            
+            # Incluir en la subida a GitHub para "tener memoria"
+            file_updates[state_file] = new_state_json
+            print(f"[+] Memoria actualizada: Siguiente run desde {new_horizon.isoformat()}")
+        except Exception as e:
+            print(f"[!] Error actualizando memoria: {e}")
 
     # 7. GitOps
     if file_updates or x_diagnostics:
