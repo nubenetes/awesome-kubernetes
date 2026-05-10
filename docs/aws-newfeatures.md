@@ -18,7 +18,6 @@
 - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)
 - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/)
 - [AWS CloudShell - Command-Line Access to AWS Resources](https://aws.amazon.com/es/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/)
-- [zdnet.com: AWS rolls out S3 Object Lambda to process data for multiple applications](https://www.zdnet.com/google-amp/article/aws-rolls-out-s3-object-lambda-to-process-data-for-multiple-applications/) The new capability allows you to share data across applications, without having to manage a proxy layer or create copies of the dataset.
 - [github.com/hayao-k/cdk-ecr-image-scan-notify](https://github.com/hayao-k/cdk-ecr-image-scan-notify)
 - [cloudonaut.io: Seamless EC2 monitoring with the Unified CloudWatch Agent](https://cloudonaut.io/seamless-ec2-monitoring-with-the-unified-cloudwatch-agent/)
 - [amazon.com: Reduce Unwanted Traffic on Your Website with New AWS WAF Bot Control](https://aws.amazon.com/blogs/aws/reduce-unwanted-traffic-on-your-web-site-with-aws-bot-control/)
