@@ -75,7 +75,13 @@ class SocialDataExtractor:
                         await context.add_cookies(formatted)
                     except: pass
 
-                await page.goto(f"https://x.com/{self.target_account}", wait_until="domcontentloaded", timeout=90000)
+                import urllib.parse
+                search_query = f"from:{self.target_account} since:{since_date.date().isoformat()}"
+                encoded_query = urllib.parse.quote(search_query)
+                search_url = f"https://x.com/search?q={encoded_query}&f=live"
+                
+                self.log_audit("Advanced Search", None, f"Query: {search_query}")
+                await page.goto(search_url, wait_until="domcontentloaded", timeout=90000)
                 await asyncio.sleep(15)
                 
                 stop_scrolling = False
@@ -87,6 +93,10 @@ class SocialDataExtractor:
                 while not stop_scrolling and scroll_count < max_scrolls:
                     articles = await page.query_selector_all('article[data-testid="tweet"]')
                     
+                    if not articles and scroll_count > 5:
+                        self.log_audit("Extraction", False, "No se detectan más tweets en la búsqueda.")
+                        break
+
                     for article in articles:
                         # 1. Ignorar Pinned Posts (Post Fijo)
                         social_context = await article.query_selector('[data-testid="socialContext"]')
@@ -138,7 +148,7 @@ class SocialDataExtractor:
                     scroll_count += 1
                 
                 if not stop_scrolling and scroll_count >= max_scrolls:
-                    self.log_audit("Scrolling", False, f"Alcanzado límite de scrolls ({max_scrolls}) sin llegar a la fecha objetivo.")
+                    self.log_audit("Scrolling", False, f"Alcanzado límite de scrolls ({max_scrolls}) en búsqueda avanzada.")
                 
                 await browser.close()
                 
