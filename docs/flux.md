@@ -34,7 +34,6 @@
     - Deployment with a script
     - Flux
 - [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/) Server-side reconciliation will make Flux more performant, improve overall observability and going forward will allow us to add new capabilities, like being able to preview local changes to manifests without pushing to upstream.
-- [shipa.io: FluxCD and GitOps in the Enterprise](https://shipa.io/2021/10/fluxcd-and-gitops-in-the-enterprise/)
 - [solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways)
 - [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) Manage multi-tenant clusters with Flux
 - [==flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo==](https://flux-subsystem-argo.github.io/website/tutorials/terraform/) This is a tutorial to show how could we use Flux Subsystem for Argo (FSA) to bring the Terraform management feature from the Flux world to your Argo CD UI. In order to do so, we need Weave GitOps Terraform Controller to help us reconcile our Terraform resources.
@@ -54,7 +53,6 @@
 
 ## Flux Terraform Controller
 
-- [weaveworks.github.io: Weave GitOps Terraform Controller](https://weaveworks.github.io/tf-controller/)
 - [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform/)
 - [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) Tofu Controller: An IAC Controller for Flux. A GitOps OpenTofu and Terraform controller for Flux. GitOps Terraform Controller is a controller for Flux to reconcile Terraform resources in the GitOps way
 
