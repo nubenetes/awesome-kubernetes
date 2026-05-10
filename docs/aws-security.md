@@ -24,7 +24,6 @@
 - [AWS Security docs](https://docs.aws.amazon.com/security/)
 - [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)
 - [The Most Popular AWS Security Blog Posts in 2015](http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)
-- [dzone: Private Subnets Are Broken on AWS](https://dzone.com/articles/private-subnets-are-broken-on-aws)
 - [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4#.qyixu5mu3)
 - [Announcing Industry Best Practices for Securing AWS Resources](http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)
 - [The Most Viewed AWS Security Blog Posts so Far in 2016](http://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016)
@@ -36,12 +35,10 @@
 - [Amazon Inspector Announces General Availability for Windows](https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows/)
 - [encrypt and decrypt data: Importing Key Material in AWS Key Management Service (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html) Use your own encryption keys with AWS Key Management Service.
 - [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)
-- [dzone: 9 AWS Security Best Practices: Securing Your AWS Cloud](https://dzone.com/articles/9-aws-security-best-practices-securing-your-aws-cl) Working with Amazon facilities, it is necessary to implement AWS security best practices to ensure the safety of the data and the cloud.
 - [Encrypt global data client-side with AWS KMS multi-Region keys](https://aws.amazon.com/blogs/security/encrypt-global-data-client-side-with-aws-kms-multi-region-keys/) Today, AWS Key Management Service (AWS KMS) is introducing multi-Region keys, a new capability that lets you replicate keys from one Amazon Web Services (AWS) Region into another. Multi-Region keys are designed to simplify management of client-side encryption when your encrypted data has to be copied into other Regions for disaster recovery or is replicated in Amazon DynamoDB global tables.
 - [dzone: Removing the Bastion Host and Improving the Security in AWS](https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi) This article covers the security in AWS and overcoming the classic SSH/RDP jump with a better alternative for all OS.
 - [acloudguru.com: How to audit and secure an AWS account](https://acloudguru.com/blog/engineering/how-to-audit-and-secure-an-aws-account)
 - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://www.yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18/)
-- [try.jupiterone.com: The Absolute Minimum Every Developer Must Know about AWS Security](https://try.jupiterone.com/the-absolute-minimum-every-developer-must-know-about-aws-security)
 - [==How to automate AWS account creation with SSO user assignment==](https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment/)
 - [Security practices in AWS multi-tenant SaaS environments](https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments/) Many good tips, from identity management to tenant isolation.
 - [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem/)
@@ -104,7 +101,6 @@
 - [Use IAM Access Analyzer policy generation to grant fine-grained permissions for your AWS CloudFormation service roles](https://aws.amazon.com/blogs/security/use-iam-access-analyzer-policy-generation-to-grant-fine-grained-permissions-for-your-aws-cloudformation-service-roles/)
 - [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://ermetic.com/blog/aws/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-session-iam433/)
 - [globaldatanet.com: .AWS IAM Identity Center Permission Management at Scale Part 2](https://globaldatanet.com/tech-blog/aws-iam-identity-center-permission-management-at-scale-part-2)
-- [awstip.com: AWS Permissions Set deep dive](https://awstip.com/aws-permissions-set-deep-dive-228d0ed35249)
 - [How to monitor and query IAM resources at scale – Part 1](https://aws.amazon.com/blogs/security/how-to-monitor-and-query-iam-resources-at-scale-part-1/) Useful details on how AWS IAM works so that you can use it more effectively.
 - [github.com/aws-samples: Visualize AWS IAM Access Analyzer Policy Validation Findings](https://github.com/aws-samples/visualize-iam-access-analyzer-policy-validation-findings)
 - [thenewstack.io: A Deep Dive into the Security of IAM in AWS](https://thenewstack.io/a-deep-dive-into-the-security-of-iam-in-aws/) How do you tighten up identity access management when you're using Amazon's cloud? Here are some best practices and useful tools for keeping everything safe.
@@ -159,7 +155,6 @@
 ## AWS Vault
 
 - [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
-- [AWS: Sourcing AWS CLI Credentials using a Custom AWS CLI Credential Provider and AWS Vault](https://thomas.geens.be/2020/05/24/aws-sourcing-aws-cli-credentials-using-a-custom-aws-cli-credential-provider-and-aws-vault/)
 
 ## Tweets
 
