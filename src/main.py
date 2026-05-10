@@ -31,7 +31,7 @@ async def master_orchestrator():
     # 2. Ingesta Multi-fuente
     twitter_client = SocialDataExtractor()
     raw_social = await twitter_client.fetch_links_since(time_horizon)
-    x_diagnostics = twitter_client.diagnostics
+    x_diagnostics = twitter_client.audit_trail
     
     print("[*] Buscando novedades en GitHub Trending...")
     trending = await discover_trending_assets()
