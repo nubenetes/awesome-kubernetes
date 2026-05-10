@@ -11,24 +11,17 @@ from src.gitops_manager import RepositoryController
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
     markdown_sanitizer = MarkdownSanitizer()
+    state_file = "src/memory/state.json"
     
     print("[*] INICIANDO CURADURÍA AGÉNTICA (SOLO INYECCIÓN DE NOVEDADES)")
     
-    # 1. Determinar horizonte temporal incremental
+    # 1. Cargar Estado y Horizonte Temporal
     try:
-        # Buscamos commits solo en la carpeta docs para saber cuándo se actualizó el contenido por última vez
-        commits = git_controller.repository.get_commits(path="docs")
-        if commits.totalCount > 0:
-            # Tomamos la fecha del commit más reciente
-            last_commit_date = commits[0].commit.committer.date.replace(tzinfo=MADRID_TZ)
-            # El horizonte es un segundo después para evitar reprocesar el mismo commit
-            time_horizon = last_commit_date + timedelta(seconds=1)
-        else:
-            # Fecha base solicitada: Enero 2026
-            time_horizon = datetime(2026, 1, 1, 0, 0, tzinfo=MADRID_TZ)
-    except Exception as e:
-        print(f"[!] Error calculando horizonte temporal: {e}. Usando fecha base.")
-        time_horizon = datetime(2026, 1, 1, 0, 0, tzinfo=MADRID_TZ)
+        with open(state_file, 'r') as f:
+            state = json.load(f)
+            time_horizon = datetime.fromisoformat(state["last_processed_tweet_date"]).replace(tzinfo=MADRID_TZ)
+    except:
+        time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
 
     print(f"[*] Buscando novedades desde: {time_horizon}")
 
@@ -46,16 +39,35 @@ async def master_orchestrator():
         curated = await evaluate_extracted_assets(raw_social)
     
     all_new_assets = curated + trending
-    print(f"[*] Total candidatos a inyectar: {len(all_new_assets)}")
+    
+    # 4. Deduplicación Global (Pre-escaneo de todos los .md)
+    print("[*] Escaneando repositorio para deduplicación global...")
+    existing_urls = set()
+    for doc in os.listdir("docs"):
+        if doc.endswith(".md"):
+            try:
+                with open(os.path.join("docs", doc), 'r') as f:
+                    existing_urls.update(re.findall(r'\]\((https?://[^\)]+)\)', f.read()))
+            except: pass
+    
+    # Filtrar solo los que no existen
+    unique_new_assets = []
+    for asset in all_new_assets:
+        clean_url = asset["url"].split('#')[0].rstrip('/')
+        if any(clean_url in ex for ex in existing_urls):
+            continue
+        unique_new_assets.append(asset)
+    
+    print(f"[*] Total candidatos únicos a inyectar: {len(unique_new_assets)}")
 
-    # 4. Inyección en Markdowns
+    # 5. Inyección en Markdowns
     file_updates = {}
     stats = {
         "new_links": 0, 
         "categories_updated": set(),
-        "added_details": [], # Lista de {title, url, category}
-        "removed_details": [], # Lista de {url, category, reason}
-        "time_horizon": time_horizon.isoformat(),
+        "added_details": [],
+        "removed_details": [],
+        "start_date": time_horizon.isoformat(),
         "end_date": datetime.now(MADRID_TZ).isoformat()
     }
 
@@ -64,22 +76,10 @@ async def master_orchestrator():
         try:
             repo_file = git_controller.repository.get_contents(file_path)
             content = repo_file.decoded_content.decode("utf-8")
-            
-            # Limpiamos solo duplicados existentes para mantener higiene
             final_content, doc_stats = await markdown_sanitizer.sanitize_document(content)
             
-            # Registrar duplicados eliminados (curación)
-            if doc_stats.get("duplicates", 0) > 0:
-                # Nota: markdown_sanitizer no devuelve qué URLs borró exactamente, 
-                # pero podemos inferir que hubo limpieza de calidad.
-                stats["removed_details"].append({
-                    "category": category,
-                    "reason": "Optimización de duplicados (mejor calidad mantenida)"
-                })
-
-            # Inyectar novedades
             original_content = final_content
-            for asset in all_new_assets:
+            for asset in unique_new_assets:
                 if asset["category"] == category:
                     prev_len = len(final_content)
                     final_content = markdown_sanitizer.inject_curated_link(
@@ -96,10 +96,15 @@ async def master_orchestrator():
                 file_updates[file_path] = final_content
                 stats["new_links"] += (final_content.count("  - [") - original_content.count("  - ["))
                 stats["categories_updated"].add(category)
-        except Exception:
-            continue
+        except: continue
 
-    # 5. GitOps - Generar Informe Detallado en el PR
+    # 6. Actualizar Estado de Tiempo
+    if raw_social:
+        new_horizon = max([datetime.fromisoformat(t["timestamp"]) for t in raw_social]) + timedelta(seconds=1)
+        with open(state_file, 'w') as f:
+            json.dump({"last_processed_tweet_date": new_horizon.isoformat()}, f)
+
+    # 7. GitOps
     if file_updates:
         metrics = {
             "social_injections": len(curated),
@@ -108,14 +113,12 @@ async def master_orchestrator():
             "categories": list(stats["categories_updated"]),
             "added_list": stats["added_details"],
             "removed_list": stats["removed_details"],
-            "start_date": stats["time_horizon"],
+            "start_date": stats["start_date"],
             "end_date": stats["end_date"]
         }
-        
-        print(f"[+] Éxito. Preparando PR con {stats['new_links']} nuevos recursos.")
         git_controller.apply_multi_file_changes(file_updates, metrics)
     else:
-        print("[~] No se han encontrado novedades relevantes en este ciclo.")
+        print("[~] No se han encontrado novedades relevantes.")
 
 if __name__ == "__main__":
     asyncio.run(master_orchestrator())
