@@ -55,11 +55,9 @@
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [==ksoclabs/awesome-kubernetes-security== 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
-- [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
 - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
-- [k8s-at-home/awesome-home-kubernetes: Awesome Home Kubernetes 🌟](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
     - https://clusterpedia.io
 - [==mikeroyal/Kubernetes-Guide: Kubernetes Guide== 🌟](https://github.com/mikeroyal/Kubernetes-Guide) A guide covering Kubernetes including the applications and tools that will make you a better and more efficient Kubernetes developer.
@@ -154,7 +152,6 @@
 
 ### OpenShift
 
-- [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
 ### Microservices
