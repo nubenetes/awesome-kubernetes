@@ -86,26 +86,25 @@ async def master_orchestrator():
                 "source": asset.get("source_type", "Unknown")
             })
 
-    # 4. Inyección en Markdowns
+    # 4. Inyección en Markdowns (IA Agentica)
     file_updates = {}
     stats = {"added_details": [], "categories_updated": set()}
+    curator_agent = AgenticCurator()
 
     for asset in unique_new_assets:
         category = asset["category"]
         file_path = f"docs/{category}.md"
         try:
-            # Leer contenido (usar caché local o git)
             content = file_updates.get(file_path)
             if not content:
                 repo_file = git_controller.repository.get_contents(file_path)
                 content = repo_file.decoded_content.decode("utf-8")
             
-            final_content = markdown_sanitizer.inject_curated_link(
-                content, category, asset["title"], asset["url"], asset["description"]
-            )
+            # Inyección inteligente con Gemini
+            new_content = await curator_agent.decide_smart_injection(content, asset)
             
-            if len(final_content) > len(content):
-                file_updates[file_path] = final_content
+            if len(new_content) > len(content):
+                file_updates[file_path] = new_content
                 stats["added_details"].append(asset)
                 stats["categories_updated"].add(category)
         except: continue
