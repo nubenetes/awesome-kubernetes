@@ -247,15 +247,36 @@ class IntelligentLinkCleaner:
             status = "🧹 Limpio" if s['removed'] + s['modified'] < 3 else "🛠️ Refactor"
             if s['removed'] > 5: status = "⚠️ Crítico"
             report += f"| `{file}` | {s['removed']} | {s['modified']} | {s['created']} | {status} |\n"
+# Action Log con Truncado de Seguridad
+report += "\n### 📝 Registro Detallado (Log)\n<details><summary>Click para ver acciones</summary>\n\n"
+report += "| Archivo | Acción | URL / Recurso | Motivo |\n| :--- | :---: | :--- | :--- |\n"
 
-        report += "\n### 📝 Registro Detallado (Log)\n<details><summary>Click para ver todas las acciones</summary>\n\n"
-        report += "| Archivo | Acción | URL / Recurso | Motivo |\n| :--- | :---: | :--- | :--- |\n"
-        for log in sorted(self.action_log, key=lambda x: x["file"]):
-            emoji = {"removed": "❌", "modified": "🔄", "created": "✨"}.get(log["action"], "❓")
-            report += f"| `{log['file']}` | {emoji} | {log['url']} | {log['reason']} |\n"
-        report += "</details>\n\n"
-        report += f"\n---\n*📈 Inteligencia de dominios acumulada: `{len(self.learning_data['domains'])}`*"
-        self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=report, head=branch_name, base="master")
+log_entries = []
+is_truncated = False
+current_len = len(report)
+
+for log in sorted(self.action_log, key=lambda x: x["file"]):
+    emoji = {"removed": "❌", "modified": "🔄", "created": "✨"}.get(log["action"], "❓")
+    entry = f"| `{log['file']}` | {emoji} | {log['url']} | {log['reason']} |\n"
+
+    # Dejar margen de seguridad (64k es el límite, cortamos en 60k)
+    if current_len + len(entry) > 60000:
+        is_truncated = True
+        break
+
+    report += entry
+    current_len += len(entry)
+
+if is_truncated:
+    report += f"\n> ⚠️ **Log Truncado**: Se han omitido entradas adicionales para no exceder el límite de GitHub. Consulta los archivos modificados para ver todos los cambios.\n"
+
+report += "</details>\n\n"
+report += f"\n---\n*📈 Inteligencia de dominios acumulada: `{len(self.learning_data['domains'])}`*"
+
+# Validación final de longitud
+safe_report = report[:65000]
+self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=safe_report, head=branch_name, base="master")
+
 
 async def main():
     try:
