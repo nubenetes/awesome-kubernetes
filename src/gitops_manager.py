@@ -50,10 +50,21 @@ class RepositoryController:
             for item in metrics['removed_list']:
                 removed_md += f"| `{item['category']}` | {item['reason']} |\n"
 
+        # Informe de Diagnóstico de X.com
+        x_report = ""
+        if metrics.get('x_diagnostics'):
+            x_report = "### ⚠️ Informe de Diagnóstico: X.com\n"
+            for diag in metrics['x_diagnostics']:
+                # Escapar markdown básico en mensajes de error
+                safe_diag = diag.replace("|", "\\|").replace("`", "'")
+                x_report += f"- {safe_diag}\n"
+            x_report += "\n"
+
         pr_narrative = (
             f"## 💎 Actualización de Conocimiento: Kubernetes & Cloud Native\n\n"
             f"Este PR añade **{metrics.get('total_new', 0)}** nuevos recursos y optimiza los existentes.\n\n"
             f"**Rango Temporal Analizado:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
+            f"{x_report}"
             f"### ✅ Resumen de Ingesta:\n"
             f"```mermaid\n"
             f"pie title Origen de los Recursos\n"

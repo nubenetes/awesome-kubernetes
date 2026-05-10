@@ -31,6 +31,7 @@ async def master_orchestrator():
     # 2. Ingesta Multi-fuente
     twitter_client = SocialDataExtractor()
     raw_social = await twitter_client.fetch_links_since(time_horizon)
+    x_diagnostics = twitter_client.diagnostics
     
     print("[*] Buscando novedades en GitHub Trending...")
     trending = await discover_trending_assets()
@@ -108,7 +109,7 @@ async def master_orchestrator():
             json.dump({"last_processed_tweet_date": new_horizon.isoformat()}, f)
 
     # 7. GitOps
-    if file_updates:
+    if file_updates or x_diagnostics:
         metrics = {
             "social_injections": len(curated),
             "trending_injections": len(trending),
@@ -117,7 +118,8 @@ async def master_orchestrator():
             "added_list": stats["added_details"],
             "removed_list": stats["removed_details"],
             "start_date": stats["start_date"],
-            "end_date": stats["end_date"]
+            "end_date": stats["end_date"],
+            "x_diagnostics": x_diagnostics
         }
         git_controller.apply_multi_file_changes(file_updates, metrics)
     else:
