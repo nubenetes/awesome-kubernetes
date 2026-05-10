@@ -13,13 +13,12 @@ class SocialDataExtractor:
         self.client = Client('en-US')
         self.target_account = target_account
         self.cookies_file = 'cookies.json'
-        # No compartimos el conector para evitar "Session is closed" tras cerrar una sesión previa
         self.timeout = aiohttp.ClientTimeout(total=30)
         self.diagnostics = []
         self.user_agents = [
-            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1',
-            'Mozilla/5.0 (iPad; CPU OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1'
         ]
 
     def log_diagnostic(self, msg: str):
@@ -32,7 +31,6 @@ class SocialDataExtractor:
 
     async def _authenticate(self) -> bool:
         try:
-            # IP Check independiente
             async with aiohttp.ClientSession() as s:
                 async with s.get('https://api.ipify.org') as r:
                     ip = await r.text()
@@ -43,10 +41,10 @@ class SocialDataExtractor:
                 return True
             
             if not TWITTER_USERNAME or not TWITTER_PASSWORD:
-                self.log_diagnostic("[!] Sin credenciales de X. Intentando modo Guest.")
+                self.log_diagnostic("[!] Sin credenciales de X. Saltando login.")
                 return False
 
-            await asyncio.sleep(random.uniform(5, 10))
+            await asyncio.sleep(random.uniform(2, 5))
             await self.client.login(
                 auth_info_1=TWITTER_USERNAME,
                 auth_info_2=TWITTER_EMAIL,
@@ -56,127 +54,108 @@ class SocialDataExtractor:
             return True
         except Exception as e:
             err_msg = str(e)
-            self.log_diagnostic(f"[!] Error de acceso a X: {err_msg}")
-            if "KEY_BYTE" in err_msg:
-                self.log_diagnostic("    - Causa: Twikit no pudo obtener claves criptográficas (Bloqueo WAF/JS desafiado).")
+            self.log_diagnostic(f"[!] Error auth Twikit: {err_msg}")
             return False
+
+    async def _fetch_via_wayback(self, since_date: datetime) -> list[dict]:
+        """
+        Estrategia Sofisticada 1: Wayback Machine (CDX API).
+        Ideal para recuperar tweets cuando X.com bloquea el acceso directo.
+        """
+        self.log_diagnostic("[*] Intentando recuperación vía Wayback Machine...")
+        # Buscamos capturas de la página de perfil desde la fecha solicitada
+        cdx_url = f"https://web.archive.org/cdx/search/cdx?url=x.com/{self.target_account}&output=json&limit=5&sort=timestamp:desc"
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(cdx_url, timeout=20) as resp:
+                    if resp.status == 200:
+                        snapshots = await resp.json()
+                        if len(snapshots) > 1:
+                            # Tomar la captura más reciente (excluyendo cabecera CDX)
+                            latest_ts = snapshots[1][1]
+                            snap_url = f"https://web.archive.org/web/{latest_ts}/https://x.com/{self.target_account}"
+                            self.log_diagnostic(f"[+] Snapshot encontrado: {snap_url}")
+                            
+                            async with session.get(snap_url, timeout=30) as snap_resp:
+                                html = await snap_resp.text()
+                                urls = self._extract_urls_from_text(html)
+                                return [{
+                                    "url": u, "context": "Wayback Machine Archive",
+                                    "timestamp": datetime.now(MADRID_TZ).isoformat()
+                                } for u in set(urls) if all(x not in u for x in ["x.com", "twitter.com", "t.co", "archive.org"])]
+        except Exception as e:
+            self.log_diagnostic(f"[!] Error Wayback: {e}")
+        return []
+
+    async def _fetch_via_nitter(self) -> list[dict]:
+        """
+        Estrategia Sofisticada 2: Nitter Instances (Public mirror sin WAF agresivo).
+        """
+        instances = ["nitter.net", "nitter.cz", "nitter.privacydev.net"]
+        self.log_diagnostic("[*] Intentando extracción vía Nitter Instances...")
+        for inst in instances:
+            url = f"https://{inst}/{self.target_account}"
+            try:
+                async with aiohttp.ClientSession(headers={"User-Agent": random.choice(self.user_agents)}) as session:
+                    async with session.get(url, timeout=15) as resp:
+                        if resp.status == 200:
+                            html = await resp.text()
+                            urls = self._extract_urls_from_text(html)
+                            valid = [u for u in set(urls) if all(x not in u for x in ["x.com", "twitter.com", "t.co", inst])]
+                            if valid:
+                                self.log_diagnostic(f"[+] Éxito con instancia {inst}")
+                                return [{"url": u, "context": f"Nitter ({inst})", "timestamp": datetime.now(MADRID_TZ).isoformat()} for u in valid]
+            except: continue
+        return []
+
+    async def fetch_links_since(self, since_date: datetime) -> list[dict]:
+        # 1. Intentar Twikit (Modo Pro)
+        if await self._authenticate():
+            try:
+                user = await self.client.get_user_by_screen_name(self.target_account)
+                extracted_data = []
+                tweets = await self.client.get_user_tweets(user.id, 'Tweets')
+                
+                fetching = True
+                while fetching and tweets:
+                    for tweet in tweets:
+                        tweet_date = tweet.created_at_datetime.astimezone(MADRID_TZ)
+                        if tweet_date < since_date:
+                            fetching = False; break
+                        
+                        full_content = tweet.full_text if hasattr(tweet, 'full_text') else tweet.text
+                        for url in self._extract_urls_from_text(full_content):
+                            if "x.com" not in url and "twitter.com" not in url:
+                                extracted_data.append({"url": url, "context": full_content, "timestamp": tweet_date.isoformat()})
+                    if fetching:
+                        await asyncio.sleep(random.uniform(2, 5))
+                        tweets = await tweets.next()
+                if extracted_data: return extracted_data
+            except Exception as e:
+                self.log_diagnostic(f"[!] Fallo Twikit Extracción: {e}")
+
+        # 2. Fallback Sofisticado 1: Nitter (Espejo Público)
+        nitter_links = await self._fetch_via_nitter()
+        if nitter_links: return nitter_links
+
+        # 3. Fallback Sofisticado 2: Wayback Machine
+        wayback_links = await self._fetch_via_wayback(since_date)
+        if wayback_links: return wayback_links
+
+        # 4. Fallback Final: Guest Scrape (ya configurado antes)
+        self.log_diagnostic("[~] Usando Guest Scrape como último recurso...")
+        return await self._fetch_via_guest_scrape()
 
     async def _fetch_via_guest_scrape(self) -> list[dict]:
         url = f"https://x.com/{self.target_account}"
-        headers = {
-            "User-Agent": random.choice(self.user_agents[:2]),
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-        }
-        
-        self.log_diagnostic(f"[*] Intentando extracción Guest (Mobile Bypass) para {self.target_account}...")
+        headers = {"User-Agent": random.choice(self.user_agents), "Accept": "text/html"}
         try:
-            # Aumentamos agresivamente los límites del parser de HTTP
-            # max_line_size y max_field_size controlan el tamaño máximo de una cabecera HTTP
-            async with aiohttp.ClientSession(
-                headers=headers, 
-                read_bufsize=2**17,      # 128KB buffer
-                max_line_size=65536,     # 64KB por línea de header (X usa CSPs gigantes)
-                max_field_size=65536     # 64KB por campo de header
-            ) as session:
+            async with aiohttp.ClientSession(headers=headers, read_bufsize=2**17, max_line_size=65536) as session:
                 async with session.get(url, timeout=self.timeout) as response:
-                    if response.status != 200:
-                        self.log_diagnostic(f"[!] Error en modo Guest: HTTP {response.status}")
-                        return []
-                    
-                    html = await response.text()
-                    extracted_data = []
-                    
-                    if "Log in to X" in html or "Sign up" in html:
-                        self.log_diagnostic("[!] Detectado Login Wall. X requiere login.")
-                        self._update_learning("LoginWall")
-                    
-                    urls = self._extract_urls_from_text(html)
-                    valid_urls = [u for u in urls if all(x not in u for x in ["x.com", "twitter.com", "t.co"])]
-                    
-                    if not valid_urls:
-                        self.log_diagnostic("[~] Scrape finalizado: 0 enlaces útiles encontrados.")
-                        self._update_learning("NoLinksFound")
-                    else:
-                        self._update_learning("Success")
-                    
-                    for url in set(valid_urls):
-                        extracted_data.append({
-                            "url": url,
-                            "context": "Extraído vía Guest Scrape (Mobile Bypass)",
-                            "timestamp": datetime.now(MADRID_TZ).isoformat()
-                        })
-                    
-                    return extracted_data
-        except Exception as e:
-            err_msg = str(e)
-            self.log_diagnostic(f"[!] Fallo crítico en extracción Guest: {err_msg}")
-            if "8190" in err_msg:
-                self._update_learning("HeaderSizeLimit")
-            else:
-                self._update_learning("TechnicalError")
-            return []
-
-    def _update_learning(self, failure_type: str):
-        learning_file = "src/memory/health_learning.json"
-        try:
-            with open(learning_file, 'r+') as f:
-                data = json.load(f)
-                data["last_x_failure"] = failure_type
-                f.seek(0); json.dump(data, f, indent=2); f.truncate()
+                    if response.status == 200:
+                        html = await response.text()
+                        urls = self._extract_urls_from_text(html)
+                        return [{"url": u, "context": "Guest Scrape", "timestamp": datetime.now(MADRID_TZ).isoformat()} 
+                                for u in set(urls) if all(x not in u for x in ["x.com", "twitter.com", "t.co"])]
         except: pass
-
-    async def fetch_links_since(self, since_date: datetime) -> list[dict]:
-        # Cargar aprendizaje previo
-        learning_file = "src/memory/health_learning.json"
-        try:
-            with open(learning_file, 'r') as f:
-                learning = json.load(f)
-                if learning.get("last_x_failure") == "LoginWall":
-                    self.log_diagnostic("[*] Memoria: El último run falló por LoginWall. Probando User-Agent alternativo.")
-                    self.user_agents.reverse()
-        except: pass
-
-        if not await self._authenticate():
-            self.log_diagnostic("[~] Autenticación fallida. Usando modo Guest Scrape.")
-            links = await self._fetch_via_guest_scrape()
-            # Guardar aprendizaje si falló
-            if not links:
-                try:
-                    with open(learning_file, 'r+') as f:
-                        data = json.load(f)
-                        data["last_x_failure"] = "NoLinksFound"
-                        f.seek(0); json.dump(data, f, indent=2); f.truncate()
-                except: pass
-            return links
-
-        try:
-            user = await self.client.get_user_by_screen_name(self.target_account)
-            extracted_data = []
-            tweets = await self.client.get_user_tweets(user.id, 'Tweets')
-            
-            fetching = True
-            while fetching and tweets:
-                for tweet in tweets:
-                    tweet_date = tweet.created_at_datetime.astimezone(MADRID_TZ)
-                    if tweet_date < since_date:
-                        fetching = False
-                        break
-                    
-                    full_content = tweet.full_text if hasattr(tweet, 'full_text') else tweet.text
-                    urls = self._extract_urls_from_text(full_content)
-                    
-                    for url in urls:
-                        if "x.com" not in url and "twitter.com" not in url:
-                            extracted_data.append({
-                                "url": url,
-                                "context": full_content,
-                                "timestamp": tweet_date.isoformat()
-                            })
-                if fetching:
-                    await asyncio.sleep(random.uniform(2, 5))
-                    tweets = await tweets.next()
-            return extracted_data
-        except Exception as e:
-            print(f"[!] Fallo extrayendo tweets: {e}")
-            return []
+        return []
