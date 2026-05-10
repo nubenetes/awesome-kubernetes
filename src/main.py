@@ -24,11 +24,11 @@ async def master_orchestrator():
             # El horizonte es un segundo después para evitar reprocesar el mismo commit
             time_horizon = last_commit_date + timedelta(seconds=1)
         else:
-            # Fecha base solicitada: Octubre 2024
-            time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
+            # Fecha base solicitada: Enero 2026
+            time_horizon = datetime(2026, 1, 1, 0, 0, tzinfo=MADRID_TZ)
     except Exception as e:
         print(f"[!] Error calculando horizonte temporal: {e}. Usando fecha base.")
-        time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
+        time_horizon = datetime(2026, 1, 1, 0, 0, tzinfo=MADRID_TZ)
 
     print(f"[*] Buscando novedades desde: {time_horizon}")
 
