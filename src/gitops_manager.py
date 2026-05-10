@@ -16,6 +16,14 @@ class RepositoryController:
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
         self._create_feature_branch(branch_name)
 
+        # Si no hay cambios en Markdowns, añadimos un cambio técnico para permitir abrir la PR con el reporte
+        if not updates:
+            updates["src/memory/last_audit_run.json"] = json.dumps({
+                "timestamp": metrics.get("end_date"),
+                "total_extracted": metrics.get("total_extracted"),
+                "status": "Audit Only (No new links injected)"
+            }, indent=2)
+
         for file_path, content in updates.items():
             try:
                 commit_signature = f"chore: update {file_path} [{timestamp_slug}]"
@@ -38,14 +46,18 @@ class RepositoryController:
         full_report = metrics.get('full_report', [])
         
         # 1. Tabla Matricial de Auditoría
+        # Limitamos la tabla si es muy larga para evitar errores de API de GitHub
         matrix_table = "### 📋 Matriz de Auditoría de Enlaces (Full Extraction)\n"
         matrix_table += "| Estado | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- |\n"
         
         counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
-        for item in full_report:
+        for item in full_report[:200]: # Mostrar solo los primeros 200 para no romper el límite de caracteres del PR
             status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
             matrix_table += f"| {status_emoji} {item['status']} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
             counts[item['status']] = counts.get(item['status'], 0) + 1
+
+        if len(full_report) > 200:
+            matrix_table += f"\n> 💡 *... y {len(full_report) - 200} enlaces más procesados.*"
 
         # 2. Diagrama Mermaid
         mermaid_pie = "### 📊 Métricas de Decisión\n```mermaid\npie title Distribución de Decisión Agéntica\n"

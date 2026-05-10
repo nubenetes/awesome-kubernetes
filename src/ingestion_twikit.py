@@ -71,14 +71,14 @@ class SocialDataExtractor:
                 await page.goto(f"https://x.com/{self.target_account}", wait_until="domcontentloaded", timeout=60000)
                 await asyncio.sleep(8)
                 
-                for _ in range(4): # Scroll moderado
+                for _ in range(10): # Scroll profundo para histórico
                     html = await page.content()
                     urls = self._extract_urls_from_text(html)
                     for u in urls:
-                        if all(x not in u for x in ["x.com", "twitter.com", "t.co", "abs.twimg", "archive.org"]):
+                        if all(x not in u for x in ["x.com", "twitter.com", "t.co", "abs.twimg", "archive.org", "pbs.twimg"]):
                             results.append({"url": u, "context": "Playwright Browser", "timestamp": datetime.now(MADRID_TZ).isoformat()})
-                    await page.evaluate("window.scrollBy(0, 1200)")
-                    await asyncio.sleep(4)
+                    await page.evaluate("window.scrollBy(0, 2000)")
+                    await asyncio.sleep(5)
                 
                 await browser.close()
                 return results
