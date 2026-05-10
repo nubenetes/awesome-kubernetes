@@ -16,8 +16,6 @@
 ## Introduction
 
 - [FinOps Foundation: FinOps.org](https://www.finops.org/) Collaborative, Real-Time Cloud Financial Management
-- [finops.org: What is FinOps?](https://www.finops.org/what-is-finops/)
-- [deloitte.com: Matching cloud costs to need: Using FinOps for more effective cloud governance](https://www2.deloitte.com/us/en/pages/consulting/articles/using-finops-to-effectively-match-cloud-costs-to-value-for-cloud-professionals-podcast-automation-governance.html) Using FinOps to more effectively govern cloud usage and match cost to need to value can help organizations avoid potentially costly reactions, such as overprovisioning.
 - [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8) Why do we need an accountant in IT?
 - [padok.fr: FinOps, or the Culture of Cloud Cost Optimization](https://www.padok.fr/en/blog/finops-cloud)
 - [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://es.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)
@@ -84,7 +82,6 @@
 - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)
 - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/3693050/5-steps-to-bringing-kubernetes-costs-in-line.html)
 - [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6) In this article, you'll discuss resource over-provisioning in Kubernetes and learn some tips to improve utilisation to save money and have a well-architected workload
-- [itnext.io: Kubernetes Cost Optimization Made Easy: Efficient Tools for Streamlining FinOps](https://itnext.io/kubernetes-cost-optimization-made-easy-efficient-tools-for-streamlining-finops-be0b6a54d2bb)
 - [thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs/) Grafana introduces new infrastructure and cost monitoring capabilities in Grafana Cloud.
 
 ## Licence Managers
@@ -98,7 +95,6 @@
 
 ## Books
 
-- [Cloud FinOps O’Reilly Book](https://www.finops.org/cloud-finops-oreilly-book/)
 
 ## Kubernetes Governance and Cost Management for the Cloud-Native Enterprise
 
