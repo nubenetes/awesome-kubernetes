@@ -31,6 +31,7 @@ jobs:
           TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
           TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
           TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
+          TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONPATH: .

@@ -34,15 +34,32 @@ class SocialDataExtractor:
 
     async def _authenticate(self) -> bool:
         try:
+            # 1. Intentar cargar cookies desde Secreto de GitHub (Prioridad Máxima)
+            env_cookies = os.getenv("TWITTER_COOKIES")
+            if env_cookies:
+                try:
+                    # Escribir a archivo temporal para twikit
+                    with open(self.cookies_file, 'w') as f:
+                        f.write(env_cookies)
+                    self.client.load_cookies(self.cookies_file)
+                    self.log_audit("Auth Cookies", True, "Sesión cargada desde TWITTER_COOKIES.")
+                    return True
+                except Exception as e:
+                    self.log_audit("Auth Cookies", False, f"Error cargando secreto: {str(e)[:50]}")
+
+            # 2. Intentar cargar cookies locales si existen
             if os.path.exists(self.cookies_file):
                 self.client.load_cookies(self.cookies_file)
                 return True
+            
+            # 3. Intentar Login (solo si no hay cookies)
             if not TWITTER_USERNAME or not TWITTER_PASSWORD: return False
+            self.log_audit("Twikit Login", False, "Intentando login tradicional (puede fallar por retos JS)...")
             await self.client.login(auth_info_1=TWITTER_USERNAME, auth_info_2=TWITTER_EMAIL, password=TWITTER_PASSWORD)
             self.client.save_cookies(self.cookies_file)
             return True
         except Exception as e:
-            self.log_audit("Twikit Login", False, f"Error de autenticación: {str(e)[:100]}")
+            self.log_audit("Auth", False, f"Fallo total de autenticación: {str(e)[:100]}")
             return False
 
     async def _fetch_via_rss(self) -> list[dict]:
