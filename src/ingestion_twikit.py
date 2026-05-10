@@ -34,26 +34,36 @@ class SocialDataExtractor:
         """Estrategia de Fuerza Bruta: Navegador Real."""
         try:
             from playwright.async_api import async_playwright
-            try:
-                from playwright_stealth import stealth_async as stealth
-            except ImportError:
-                from playwright_stealth import stealth # Fallback a nombre de función común
+            import playwright_stealth
         except ImportError:
             self.log_audit("Playwright", False, "Librerías no disponibles.")
             return []
         
-        self.log_audit("Playwright Browser", None, "Lanzando instancia Chromium...")
+        self.log_audit("Playwright Browser", None, "Lanzando instancia Chromium (Modo Invisible)...")
         results = []
         try:
             async with async_playwright() as p:
                 browser = await p.chromium.launch(headless=True)
-                context = await browser.new_context(user_agent=self.user_agents[0])
+                # Contexto localizado (España) para máxima credibilidad
+                context = await browser.new_context(
+                    user_agent=self.user_agents[0],
+                    locale="es-ES",
+                    timezone_id="Europe/Madrid",
+                    viewport={'width': 1920, 'height': 1080}
+                )
                 page = await context.new_page()
                 
+                # Aplicar Stealth con detección dinámica de función
                 try:
-                    await stealth(page)
-                except:
-                    self.log_audit("Playwright", None, "Aviso: No se pudo aplicar modo stealth.")
+                    if hasattr(playwright_stealth, 'stealth_async'):
+                        await playwright_stealth.stealth_async(page)
+                    elif hasattr(playwright_stealth, 'stealth'):
+                        # Si es síncrona pero la llamamos en contexto async, suele funcionar o dar error controlado
+                        res = playwright_stealth.stealth(page)
+                        if asyncio.iscoroutine(res): await res
+                    self.log_audit("Playwright", True, "Modo Stealth activado con éxito.")
+                except Exception as e:
+                    self.log_audit("Playwright", None, f"Aviso: Modo stealth limitado ({str(e)[:40]})")
                 
                 env_cookies = os.getenv("TWITTER_COOKIES")
                 if env_cookies:
