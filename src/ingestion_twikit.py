@@ -34,15 +34,14 @@ class SocialDataExtractor:
         """Estrategia de Fuerza Bruta: Navegador Real."""
         try:
             from playwright.async_api import async_playwright
-            from playwright_stealth import stealth_async
+            try:
+                from playwright_stealth import stealth_async as stealth
+            except ImportError:
+                from playwright_stealth import stealth # Fallback a nombre de función común
         except ImportError:
-            # Reintento de importación dinámica por si el path de pip es inestable
-            import sys
-            import subprocess
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "playwright-stealth"])
-            from playwright_stealth import stealth_async
-            from playwright.async_api import async_playwright
-
+            self.log_audit("Playwright", False, "Librerías no disponibles.")
+            return []
+        
         self.log_audit("Playwright Browser", None, "Lanzando instancia Chromium...")
         results = []
         try:
@@ -50,7 +49,11 @@ class SocialDataExtractor:
                 browser = await p.chromium.launch(headless=True)
                 context = await browser.new_context(user_agent=self.user_agents[0])
                 page = await context.new_page()
-                await stealth_async(page)
+                
+                try:
+                    await stealth(page)
+                except:
+                    self.log_audit("Playwright", None, "Aviso: No se pudo aplicar modo stealth.")
                 
                 env_cookies = os.getenv("TWITTER_COOKIES")
                 if env_cookies:
