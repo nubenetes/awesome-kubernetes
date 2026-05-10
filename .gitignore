@@ -353,3 +353,4 @@ src/__pycache__/
 *.json
 .env
 nubenetes_agent_env/
+.venv/

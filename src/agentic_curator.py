@@ -48,13 +48,17 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> List[Dict]:
         context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
         
         prompt = (
-            "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'. "
-            f"Filtra este recurso para estas categorías: {', '.join(NUBENETES_CATEGORIES)}. "
-            "Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'.\n"
+            "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
+            "Tu misión es identificar contenido TÉCNICO de alta calidad sobre Kubernetes y el ecosistema Cloud Native.\n"
+            f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
+            "REGLAS DE FILTRADO:\n"
+            "1. EXCLUYE: Marketing genérico, noticias de negocios sin impacto técnico, enlaces rotos, o contenido autopromocional sin valor educativo.\n"
+            "2. PRIORIZA: Tutoriales 'hands-on', nuevas herramientas open-source, guías de arquitectura, seguridad avanzada y Model Context Protocol (MCP).\n"
+            "3. ASIGNACIÓN: Si es sobre MCP, asígnalo obligatoriamente a 'ai-agents-mcp'.\n\n"
             f"URL: {asset['url']}\nContexto: {context}\nWeb: {web_content}\n\n"
-            "Evalúa el IMPACTO SOCIAL y PROFUNDIDAD (1-100):\n"
-            "- >80: Recurso excepcional, disruptivo.\n"
-            "- <20: Contenido pobre o irrelevante.\n\n"
+            "Evalúa el IMPACTO TÉCNICO y PROFUNDIDAD (1-100):\n"
+            "- >80: Recurso excepcional (🌟).\n"
+            "- <30: Descartar (No aporta valor suficiente).\n\n"
             "Responde SOLAMENTE un JSON: {\"is_exceptional\": bool, \"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\"}"
         )
 

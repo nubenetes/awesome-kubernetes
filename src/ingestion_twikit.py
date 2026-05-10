@@ -80,8 +80,9 @@ class SocialDataExtractor:
                 
                 stop_scrolling = False
                 scroll_count = 0
-                max_scrolls = 25
+                max_scrolls = 100
                 collected_tweets = {} # URL -> tweet_data para evitar duplicados en scroll
+                target_link_count = 100
                 
                 while not stop_scrolling and scroll_count < max_scrolls:
                     articles = await page.query_selector_all('article[data-testid="tweet"]')
@@ -126,9 +127,14 @@ class SocialDataExtractor:
                                     "timestamp": tweet_dt.isoformat(),
                                     "source_type": "X.com (@nubenetes)"
                                 }
+                                if len(collected_tweets) >= target_link_count:
+                                    stop_scrolling = True
+                                    break
+                        if stop_scrolling: break
 
-                    await page.evaluate("window.scrollBy(0, 2500)")
-                    await asyncio.sleep(6)
+                    if stop_scrolling: break
+                    await page.evaluate("window.scrollBy(0, 3500)")
+                    await asyncio.sleep(4)
                     scroll_count += 1
                 
                 await browser.close()

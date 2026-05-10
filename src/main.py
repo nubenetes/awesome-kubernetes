@@ -16,18 +16,9 @@ async def master_orchestrator():
     
     print("[*] INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)")
     
-    # 1. Determinar Horizonte Temporal (Prioridad Oct 2024 si no hay merges)
+    # 1. Horizonte Temporal Fijo (Octubre 2024) - Requisito de Curaduría Histórica
     time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
-    try:
-        pulls = git_controller.repository.get_pulls(state='closed', sort='updated', direction='desc')
-        for pr in pulls:
-            if pr.merged and "💎 Knowledge Update" in pr.title:
-                time_horizon = pr.merged_at.replace(tzinfo=MADRID_TZ) + timedelta(seconds=1)
-                print(f"[+] Retomando desde último merge exitoso: {pr.merged_at}")
-                break
-    except: pass
-
-    print(f"[*] Buscando posts desde: {time_horizon.date()}")
+    print(f"[*] FORZANDO CURADURÍA HISTÓRICA desde: {time_horizon.date()}")
 
     # 2. Ingesta Multi-fuente
     twitter_client = SocialDataExtractor()
@@ -42,7 +33,7 @@ async def master_orchestrator():
     
     all_raw_assets = raw_social + trending
     
-    # 3. Evaluación y Registro de Auditoría
+    # 3. Evaluación y Registro de Auditoría (Uso de archivos locales)
     existing_urls = set()
     for doc in os.listdir("docs"):
         if doc.endswith(".md"):
@@ -85,7 +76,7 @@ async def master_orchestrator():
                 "post_date": asset.get("timestamp")
             })
 
-    # 4. Inyección en Markdowns (IA Agentica)
+    # 4. Inyección en Markdowns (Uso de archivos locales)
     file_updates = {}
     stats = {"added_details": [], "categories_updated": set()}
     curator_agent = AgenticCurator()
@@ -94,17 +85,24 @@ async def master_orchestrator():
         category = asset["category"]
         file_path = f"docs/{category}.md"
         try:
+            # Leer localmente si no está en file_updates
             content = file_updates.get(file_path)
             if not content:
-                repo_file = git_controller.repository.get_contents(file_path)
-                content = repo_file.decoded_content.decode("utf-8")
+                if os.path.exists(file_path):
+                    with open(file_path, 'r') as f:
+                        content = f.read()
+                else:
+                    print(f"[!] Archivo no encontrado localmente: {file_path}")
+                    continue
             
             new_content = await curator_agent.decide_smart_injection(content, asset)
             if len(new_content) > len(content):
                 file_updates[file_path] = new_content
                 stats["added_details"].append(asset)
                 stats["categories_updated"].add(category)
-        except: continue
+        except Exception as e:
+            print(f"[!] Error inyectando en {file_path}: {e}")
+            continue
 
     # 5. GitOps con Reporte Matricial
     metrics = {
