@@ -26,6 +26,10 @@ class SocialDataExtractor:
         print(msg)
         self.diagnostics.append(msg)
 
+    def _extract_urls_from_text(self, text: str) -> list[str]:
+        url_pattern = re.compile(r'https?://[^\s<>\"]+|www\.[^\s<>\"]+')
+        return url_pattern.findall(text)
+
     async def _authenticate(self) -> bool:
         try:
             # IP Check independiente
