@@ -21,17 +21,29 @@ class RepositoryController:
 
         for file_path, content in updates.items():
             try:
-                file_meta = self.repository.get_contents(file_path, ref=self.default_branch_name)
-                commit_signature = f"chore(docs): optimizar y curar {file_path} [{timestamp_slug}]"
-                self.repository.update_file(
-                    path=file_path,
-                    message=commit_signature,
-                    content=content,
-                    sha=file_meta.sha,
-                    branch=branch_name
-                )
+                commit_signature = f"chore: update {file_path} [{timestamp_slug}]"
+                try:
+                    file_meta = self.repository.get_contents(file_path, ref=self.default_branch_name)
+                    self.repository.update_file(
+                        path=file_path,
+                        message=commit_signature,
+                        content=content,
+                        sha=file_meta.sha,
+                        branch=branch_name
+                    )
+                except Exception as e:
+                    # Si no existe (404), lo creamos
+                    if "404" in str(e):
+                        self.repository.create_file(
+                            path=file_path,
+                            message=f"chore: create {file_path} [{timestamp_slug}]",
+                            content=content,
+                            branch=branch_name
+                        )
+                    else:
+                        raise e
             except Exception as e:
-                print(f"Error actualizando {file_path}: {e}")
+                print(f"Error procesando {file_path}: {e}")
 
         # Informe Visual en el PR
         categories_str = ", ".join([f"`{c}`" for c in metrics.get('categories', [])])

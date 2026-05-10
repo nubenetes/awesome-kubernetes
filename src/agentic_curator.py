@@ -15,6 +15,9 @@ async def _deep_fetch_content(url: str) -> str:
             resp = await client.get(url, timeout=10, headers=headers)
             if resp.status_code == 200:
                 html = resp.text
+                from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+                import warnings
+                warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
                 soup = BeautifulSoup(html, 'html.parser')
                 for s in soup(['script', 'style', 'nav', 'footer']):
                     s.decompose()
