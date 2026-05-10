@@ -13,9 +13,9 @@ class SocialDataExtractor:
         self.client = Client('en-US')
         self.target_account = target_account
         self.cookies_file = 'cookies.json'
-        self.connector = aiohttp.TCPConnector(limit=10)
+        # No compartimos el conector para evitar "Session is closed" tras cerrar una sesión previa
         self.timeout = aiohttp.ClientTimeout(total=30)
-        self.diagnostics = [] # Almacenar problemas para reporte PR
+        self.diagnostics = []
         self.user_agents = [
             'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1',
             'Mozilla/5.0 (iPad; CPU OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1',
@@ -28,7 +28,8 @@ class SocialDataExtractor:
 
     async def _authenticate(self) -> bool:
         try:
-            async with aiohttp.ClientSession(connector=self.connector) as s:
+            # IP Check independiente
+            async with aiohttp.ClientSession() as s:
                 async with s.get('https://api.ipify.org') as r:
                     ip = await r.text()
                     self.log_diagnostic(f"[*] IP de ejecución: {ip}")
@@ -50,7 +51,10 @@ class SocialDataExtractor:
             self.client.save_cookies(self.cookies_file)
             return True
         except Exception as e:
-            self.log_diagnostic(f"[!] Error de acceso a X (Probable bloqueo Cloudflare/WAF): {e}")
+            err_msg = str(e)
+            self.log_diagnostic(f"[!] Error de acceso a X: {err_msg}")
+            if "KEY_BYTE" in err_msg:
+                self.log_diagnostic("    - Causa: Twikit no pudo obtener claves criptográficas (Bloqueo WAF/JS desafiado).")
             return False
 
     async def _fetch_via_guest_scrape(self) -> list[dict]:
@@ -63,28 +67,24 @@ class SocialDataExtractor:
         
         self.log_diagnostic(f"[*] Intentando extracción Guest (Mobile Bypass) para {self.target_account}...")
         try:
-            async with aiohttp.ClientSession(headers=headers, connector=self.connector, read_bufsize=2**16) as session:
+            # Sesión totalmente aislada con su propio conector
+            async with aiohttp.ClientSession(headers=headers, read_bufsize=2**16) as session:
                 async with session.get(url, timeout=self.timeout) as response:
                     if response.status != 200:
                         self.log_diagnostic(f"[!] Error en modo Guest: HTTP {response.status}")
-                        if response.status == 400: self.log_diagnostic("    - Nota: X.com bloqueó el payload (Buffer/Header issue).")
                         return []
                     
                     html = await response.text()
                     extracted_data = []
                     
                     if "Log in to X" in html or "Sign up" in html:
-                        self.log_diagnostic("[!] Detectado Login Wall. X.com requiere login para ver este perfil.")
-                    
-                    state_match = re.search(r'window\.__INITIAL_STATE__\s*=\s*({.*?});', html)
-                    if state_match:
-                        self.log_diagnostic("[+] Estado inicial encontrado, pero X ha ofuscado el contenido en el SSR.")
+                        self.log_diagnostic("[!] Detectado Login Wall. X requiere login.")
                     
                     urls = self._extract_urls_from_text(html)
                     valid_urls = [u for u in urls if all(x not in u for x in ["x.com", "twitter.com", "t.co"])]
                     
                     if not valid_urls:
-                        self.log_diagnostic("[~] Scrape finalizado: 0 enlaces útiles encontrados (Posible contenido dinámico bloqueado).")
+                        self.log_diagnostic("[~] Scrape finalizado: 0 enlaces (Contenido dinámico no cargado).")
                     
                     for url in set(valid_urls):
                         extracted_data.append({
