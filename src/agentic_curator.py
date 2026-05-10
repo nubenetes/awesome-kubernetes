@@ -44,12 +44,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> List[Dict]:
         if domain in domain_blacklist: continue
 
         web_content = await _deep_fetch_content(asset['url'])
+        context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
         
         prompt = (
             "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'. "
             f"Filtra este recurso para estas categorías: {', '.join(NUBENETES_CATEGORIES)}. "
             "Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'.\n"
-            f"URL: {asset['url']}\nContexto: {asset['context']}\nWeb: {web_content}\n\n"
+            f"URL: {asset['url']}\nContexto: {context}\nWeb: {web_content}\n\n"
             "Evalúa el IMPACTO SOCIAL y PROFUNDIDAD (1-100):\n"
             "- >80: Recurso excepcional, disruptivo (añadir estrella 🌟).\n"
             "- <20: Contenido pobre, clickbait o marketing puro (descartar).\n\n"
