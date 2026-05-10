@@ -271,8 +271,13 @@ class IntelligentLinkCleaner:
 
             for log in actions:
                 emoji = {"removed": "❌", "modified": "🔄", "created": "✨"}.get(log["action"], "❓")
-                # Acortar URL para ahorrar espacio
-                short_url = (log["url"][:45] + "...") if len(log["url"]) > 48 else log["url"]
+                
+                # Inteligencia: Mantener URL completa mientras haya espacio
+                if current_len > 45000:
+                    short_url = (log["url"][:50] + "...") if len(log["url"]) > 53 else log["url"]
+                else:
+                    short_url = log["url"]
+                
                 entry = f"| `{log['file']}` | {emoji} | {short_url} | {log['reason']} |\n"
                 
                 if current_len + len(entry) > 62000:
