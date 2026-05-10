@@ -45,24 +45,40 @@ class RepositoryController:
         # --- CONSTRUCCIÓN DEL REPORTE ---
         full_report = metrics.get('full_report', [])
         
-        # 1. Tabla Matricial con Columna de Fecha
+        # 1. Tabla Matricial con Índice Numérico y Fecha
         matrix_table = "### 📋 Matriz de Auditoría de Enlaces (Full Extraction)\n"
-        matrix_table += "| Estado | Fecha Post | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n"
+        matrix_table += "| # | Estado | Fecha Post | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
         
         counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
         source_counts = {}
-        for item in full_report[:200]:
+        for idx, item in enumerate(full_report[:500], 1):
             status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
-            # Formatear fecha para legibilidad
             date_str = item.get('post_date', 'N/A')[:10] if item.get('post_date') else 'N/A'
             
-            matrix_table += f"| {status_emoji} {item['status']} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
+            matrix_table += f"| {idx} | {status_emoji} {item['status']} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
             counts[item['status']] = counts.get(item['status'], 0) + 1
             if item['status'] == "INCLUDED":
                 src = item.get('source', 'Unknown')
                 source_counts[src] = source_counts.get(src, 0) + 1
 
-        # 2. Diagramas Mermaid
+        # 2. Diagnóstico de Extracción Histórica
+        extraction_audit = "### 🕵️ Diagnóstico de Horizonte Temporal\n"
+        start_date_str = metrics.get('start_date')[:10] if metrics.get('start_date') else 'N/A'
+        
+        # Encontrar la fecha más antigua realmente extraída
+        actual_oldest = "N/A"
+        dates = [item.get('post_date') for item in full_report if item.get('post_date')]
+        if dates:
+            actual_oldest = min(dates)[:10]
+
+        if actual_oldest != "N/A" and actual_oldest > start_date_str:
+            extraction_audit += f"⚠️ **Límite Alcanzado:** Se solicitó desde `{start_date_str}`, pero la extracción se detuvo en `{actual_oldest}`.\n"
+            extraction_audit += "- **Motivo:** X.com limita el scroll infinito en perfiles públicos sin sesión persistente o se alcanzó el límite de 1000 enlaces.\n"
+            extraction_audit += "- **Acción Recomendada:** Si faltan posts críticos de Oct 2024, intenta eliminar manualmente posts irrelevantes o Pinned Posts antiguos para 'limpiar' el timeline que ve el bot.\n"
+        else:
+            extraction_audit += f"✅ **Horizonte Alcanzado:** La extracción cubrió exitosamente desde `{start_date_str}`.\n"
+
+        # 3. Diagramas Mermaid
         mermaid_pie = "### 📊 Métricas de Decisión\n```mermaid\npie title Distribución de Decisión Agéntica\n"
         mermaid_pie += f"    \"Aceptados (Inyectados)\" : {counts['INCLUDED']}\n"
         mermaid_pie += f"    \"Duplicados (Ignorados)\" : {counts['DUPLICATE']}\n"
@@ -75,7 +91,7 @@ class RepositoryController:
                 mermaid_origin += f"    \"{src}\" : {val}\n"
             mermaid_origin += "```\n"
 
-        # 3. Log de Ingesta
+        # 4. Log de Ingesta
         x_log = "### ⚡ Audit Trail de Ingesta (X.com)\n"
         for entry in metrics.get('x_audit', []):
             x_log += f"- {entry}\n"
@@ -83,14 +99,14 @@ class RepositoryController:
         pr_narrative = (
             f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
             f"Este reporte detalla el procesamiento de **{metrics.get('total_extracted', 0)}** enlaces detectados.\n\n"
-            f"**Rango de Posts Analizados:** `{metrics.get('start_date')[:10]}` ➔ `{metrics.get('end_date')[:10]}` (Cronología: Antiguos a Recientes)\n\n"
+            f"{extraction_audit}\n"
             f"{mermaid_pie}\n"
             f"{mermaid_origin}\n"
             f"{x_log}\n"
             f"{matrix_table}\n"
             f"---\n"
-            f"**Nota de Evaluación:** Este PR incluye {len(metrics.get('added_list', []))} novedades reales. "
-            f"Se ha ignorado el post fijo (Pinned) para evitar duplicidad cíclica."
+            f"**Nota de Evaluación:** Se ha bajado el umbral de filtrado para incluir más contenido relevante aunque no sea destacado. "
+            f"Se han analizado hasta {len(full_report)} elementos en esta ejecución."
         )
 
         self.repository.create_pull(

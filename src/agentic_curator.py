@@ -58,7 +58,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> List[Dict]:
             f"URL: {asset['url']}\nContexto: {context}\nWeb: {web_content}\n\n"
             "Evalúa el IMPACTO TÉCNICO y PROFUNDIDAD (1-100):\n"
             "- >80: Recurso excepcional (🌟).\n"
-            "- <30: Descartar (No aporta valor suficiente).\n\n"
+            "- >10: Aceptar si está relacionado con la temática.\n"
+            "- <10: Descartar (Ruido absoluto).\n\n"
             "Responde SOLAMENTE un JSON: {\"is_exceptional\": bool, \"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\"}"
         )
 
@@ -71,10 +72,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> List[Dict]:
                     if match:
                         data = json.loads(match.group(0))
                         score = data.get("impact_score", 50)
-                        if score < 20:
+                        if score < 10:
                             domain_blacklist.add(domain)
                             continue
-                        if data.get("is_exceptional") or score > 40:
+                        if data.get("is_exceptional") or score >= 10:
                             for cat in data.get("categories", []):
                                 if cat in NUBENETES_CATEGORIES:
                                     curated_assets.append({
