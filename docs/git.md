@@ -73,15 +73,11 @@
 - [devdocs.io/git/](https://devdocs.io/git/)
 - [tutorialzine.com: Learn git in 30 minutes 🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
 - [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)
-- [Git and Github in Plain English](https://red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 - [opensource.com: How to restore older file versions in Git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)
 - [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 - [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
-- [dzone.com: intro git 🌟](https://dzone.com/articles/intro-git)
 - [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)
-- [dzone.com: 8 Useful But Not Well-Known Git Concepts](https://dzone.com/articles/8-useful-but-not-well-known-git-concepts) These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs
-- [dzone.com: Git Commands Tutorial - Part 1](https://dzone.com/articles/git-commands-tutorial-part-1)
-- [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
+- [dzone.com: 8 Useful But Not Well-Known Git Concepts [ARCHIVED]]( http://web.archive.org/web/20220820091342/https://dzone.com/articles/8-useful-but-not-well-known-git-concepts) These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs
 - [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
 - [Oh shit, git!](https://ohshitgit.com/)
 - [freecodecamp.org: Learn Git Fundamentals – A Handbook on Day-to-Day Development Tasks 🌟](https://www.freecodecamp.org/news/learn-git-basics/)
@@ -91,7 +87,6 @@
 - [dev.to: Git Explained - The Basics](https://dev.to/milu_franz/git-explained-the-basics-igc)
 - [medium: 7 Best Courses to Master Git and Github for Programmers](https://medium.com/javarevisited/7-best-courses-to-master-git-and-github-for-programmers-d671859a68b2) These are the best courses to learn Git from scratch and also advanced concepts like branching and merging. It also includes a free course to learn git.
 - [medium: Top 7 Cloud Source Code Management Tools Features and Pricing Plans](https://medium.com/@atif.ramzan89/top-7-cloud-source-code-management-tools-features-and-pricing-plans-105f4eb88a3a)
-- [towardsdatascience.com: The 6 Git Commands Data Scientist Should Know](https://towardsdatascience.com/the-only-6-git-commands-you-need-to-know-995065db1ae0) An introduction to using Git for machine learning projects.
 - [dev.to: Git Concepts I Wish I Knew Years Ago 🌟](https://dev.to/g_abud/advanced-git-reference-1o9j)
 - [opensource.com: 6 best practices for managing Git repos](https://opensource.com/article/20/7/git-repos-best-practices) Resist the urge to add things in Git that will make it harder to manage; here's what to do instead.
 - [codeburst.io: Debug your code using git bisect](https://codeburst.io/debug-your-code-using-git-bisect-45db2983cc69)
@@ -119,14 +114,12 @@
 - [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) Git offers several ways you can quickly see which files changed in a commit.
 - [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
 - [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/2021/03/18/iteration-and-code-review/)
-- [dzone: GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 - [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks/)
 - [blog.balasundar.com: Automate Git Operations Using Python](https://blog.balasundar.com/automate-git-operations-using-python) Automate your git operations using GitPython.
 - [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/13-git-commands-to-know-in-order)
 - [levelup.gitconnected.com: 5 Git Commands to Know Before Your First Tech Job or Internship](https://levelup.gitconnected.com/5-git-commands-to-know-before-your-first-tech-job-or-internship-1b5856313338)
 - [dev.to: Master Git in 7 minutes 🌟](https://dev.to/valeriavg/master-git-in-7-minutes-gai)
 - [blog.greenroots.info: How NOT to use Git in Practice. Ten Git usages, you should know to avoid](https://blog.greenroots.info/how-not-to-use-git-in-practice-ten-git-usages-you-should-know-to-avoid)
-- [integratn.io: My Git Worktree Workflow](https://integratn.io/posts/my-git-worktree-workflow/)
 - [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://livecodestream.dev/post/five-advanced-git-concepts-that-make-you-look-like-a-pro/) Learn how to master GIT with these 5 advanced concepts
 - [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
 - [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/)
@@ -136,7 +129,6 @@
 - [netflixtechblog.medium.com: Improving Pull Request Confidence for the Netflix TV App](https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65)
 - [cloudsavvyit.com: How to Use Git Hooks For Commit Automation 🌟](https://www.cloudsavvyit.com/14036/how-to-use-git-hooks-for-commit-automation/)
 - [simplilearn.com: How to Resolve Merge Conflicts in Git?](https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git)
-- [towardsdatascience.com: How to Learn Git in Simple Words](https://towardsdatascience.com/how-to-learn-git-in-simple-words-263618071dd8) A playbook for protecting your job position as a data scientist
 - [blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321)
 - [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356)
 - [blog.testproject.io: Git 101 From Scratch: The Ultimate Guide for QAs 🌟](https://blog.testproject.io/2021/09/23/git-101-from-scratch-the-ultimate-guide-for-qas)
@@ -152,7 +144,6 @@
     - [css-tricks.com: Cherry-Picking Commits in Git](https://css-tricks.com/cherry-picking-commits-in-git/)
     - [css-tricks.com: Using the Reflog to Restore Lost Commits](https://css-tricks.com/using-the-reflog-to-restore-lost-commits/)
 - [cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟](https://www.cloudbees.com/blog/git-reset-undo-changes)
-- [dev.to: How to become a Git expert! 🌟](https://dev.to/sagarbarapatre/how-to-become-a-git-expert-1jl2)
 - [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers/)
 - [==cloudsavvyit.com: Should You Use HTTPS or SSH For Git?== 🌟](https://www.cloudsavvyit.com/14822/should-you-use-https-or-ssh-for-git/)
 - [==marklodato.github.io: A Visual Git Reference== 🌟](https://marklodato.github.io/visual-git-guide/index-en.html)
@@ -252,7 +243,6 @@
 
 - [backhub.co](https://www.backhub.co/) Reliable GitHub repository backup, set up in minutes
 - [devops.com: Make GitHub Backups Part of Your Development Process](https://devops.com/make-github-backups-part-of-your-development-process/)
-- [dzone.com: Git Clone Command vs. GitHub Backup - Best Practices](https://dzone.com/articles/git-clone-command-vs-github-backup-best-practices) Git clone command vs. GitHub backup - what you should know to keep your git repositories and metadata safe and sound. Check in-depth analysis.
 - [dev.to: 3 Ways to Backup Your Code (Even If You Don’t Know Git)](https://dev.to/github/3-ways-to-backup-your-code-even-if-you-dont-know-git-1o5l)
 
 ## Cherry-picking
@@ -294,15 +284,12 @@ It prescribes that software designers should define formal, precise and verifiab
     - [Distributed Git - Distributed Workflows - Integration-Manager Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
     - [Setup Git Integration Manager Workflow in Eclipse](https://stackoverflow.com/questions/26003298/how-to-setup-local-git-with-local-blessed-repo-integration-manager-workflow)
 - [Dzone refcard: Git Patterns and Anti-Patterns](https://dzone.com/refcardz/git-patterns-and-anti-patterns) Scaling from Workgroup to Enterprise. Suggests patterns and anti-patterns, including Hybrid SCM, Git champions, blessed repository, per-feature topic branches, and ALM integration.
-- [Dzone: Basic Git Branching](https://dzone.com/articles/basic-git-branching) In this article, we walk through the basics of branching with Git to get you started with better managing your versioning during projects.
 - [martinfowler.com: Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
     - [Release Branch Pattern:](https://martinfowler.com/articles/branching-patterns.html#release-branch) A branch that only accepts commits accepted to stabilize a version of the product ready for release.
 - [medium: Which Git branching model should I select for my project?](https://medium.com/aventude/which-git-branching-model-should-i-select-73aafc503b5f)
 - [speakerdeck.com: 10 Git Anti Patterns You Should be Aware of 🌟](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of)
-- [Dzone: Git Branch Naming Conventions](https://dzone.com/articles/git-branch-naming-conventions-1) A primer on naming branches for modern git workflows.
 - [gitkraken.com: Branching in Git 🌟](https://www.gitkraken.com/learn/git/branch)
 - [jmfloreszazo.com: Flujos de trabajo de git](https://jmfloreszazo.com/flujos-de-trabajo-de-git/)
-- [towardsdatascience.com: How To Structure Your Git Branching Strategy — By A Data Engineer](https://towardsdatascience.com/how-to-structure-your-git-branching-strategy-by-a-data-engineer-45ff96857bb) Data pipelines require version control too!
 
 ??? note "Slide: 10 git anti patterns. Click to expand!"
 
@@ -363,7 +350,6 @@ It prescribes that software designers should define formal, precise and verifiab
 - [medium: GitFlow VS Trunk-Based-Development](https://medium.com/@vafrcor2009/gitflow-vs-trunk-based-development-3beff578030b)
 - [Dzone: Why I Prefer Trunk-Based Development Over Feature Branching and GitFlow 🌟](https://dzone.com/articles/why-i-prefer-trunk-based-development-over-feature) Check out the components of Trunk-based Development as implemented by Facebook and Google, and see how it helps resolve and prevent merge conflicts.
 - [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development/)
-- [stridenyc.com/podcasts: Trunk Based Development vs Gitflow](https://www.stridenyc.com/podcasts/30-trunk-based-development-vs-gitflow)
 - [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development)
 
 ### Alternative Branching Models
@@ -448,8 +434,6 @@ git rebase -i HEAD~5
 
 - [bitbucket.org](https://bitbucket.org/)
 - [Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
-- [Dzone: source control using atlassian bitbucket](https://dzone.com/articles/source-control-using-atlassian-bitbucket)
-- [Dzone: how I use bitbucket in my regular routine](https://dzone.com/articles/how-i-use-bitbucket-in-my-regular-routine)
 
 ## GitLab
 
@@ -478,7 +462,6 @@ git rebase -i HEAD~5
 - [vadosware.io: Level 1 Automated K8S Deployments With GitLab CI](https://vadosware.io/post/level-one-automated-k8s-deployments-with-gitlab-ci/)
 - [==redpill-solutions.medium.com: Deploying to Kubernetes with GitLab==](https://redpill-solutions.medium.com/deploying-to-kubernetes-with-gitlab-28c2f1a42e57)
 - [==venturebeat.com: GitLab acquires open source observability distribution Opstrace==](https://venturebeat.com/2021/12/14/gitlab-acquires-open-source-observability-distribution-opstrace/)
-- [==medium: Kubernetes & Gitlab-CI — Simplified app deployment automation==](https://medium.com/@david.alvares.62/kubernetes-gitlab-ci-simplified-app-deployment-automation-84ad182a59db) In 5 minutes, I explain how to put in an automated GitLab pipeline to deploy your application to Kubernets with Helm.
 - [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22/)
 - [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2/)
 - [freecodecamp.org: DevOps with GitLab CI Course 🌟](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course/)
@@ -524,7 +507,6 @@ git rebase -i HEAD~5
 - [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/2021-02-04-extending-gitops-to-reliability-as-code-with-github-and-stackpulse/)
 - [GitHub public roadmap 🌟](https://github.com/github/roadmap)
 - [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/2021-03-23-solving-the-innersource-discovery-problem/)
-- [devopstips.net: Create, Host and Share Docker Images with GitHub Packages](https://devopstips.net/create-host-and-share-docker-images-with-github-packages)
 - [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
 - [github.blog: Security keys are now supported for SSH Git operations 🌟](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/)
 - [education.github.com](https://education.github.com/) Real-world tools, engaged students. GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
@@ -554,7 +536,6 @@ git rebase -i HEAD~5
 - [==adamtheautomator.com: How to Manage GitHub Actions Environment Variables and Secrets==](https://adamtheautomator.com/github-actions-environment-variables/)
 - [dev.to: Introduction to Git and GitHub](https://dev.to/estherwanjiru/introduction-to-git-and-github-25ei)
 - [github.blog: Improving GitHub code search](https://github.blog/2021-12-08-improving-github-code-search/)
-- [towardsdatascience.com: Git and GitHub basics for Data Scientists](https://towardsdatascience.com/git-and-github-basics-for-data-scientists-b9fd96f8a02a) UCL Data Science Workshop 8: What is Git, Creating a local repository, Committing your first files, Linking to a remote repository
 - [github.blog: Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta/) Lists level up the starring experience by making it easy to organize and curate your favorite repositories on GitHub. You can create public lists that appear on your stars page at https://github.com/USERNAME?tab=stars.
 - [freecodecamp.org: How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/)
 - [==about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)==](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp)
@@ -711,7 +692,6 @@ git rebase -i HEAD~5
     - [Sourcetree Cheat Sheet](https://kapeli.com/cheat_sheets/Sourcetree.docset/Contents/Resources/Documents/index)
 - [gitkraken.com](https://www.gitkraken.com/)
     - [GitKraken Git Cheat](https://www.gitkraken.com/resources/gitkraken-cheat-sheet)
-    - [dzone.com: See What's New in GitKraken v4.0](https://dzone.com/articles/see-whats-new-in-gitkraken-v40)
     - [youtube: GitKraken Tutorials and Tips](https://www.youtube.com/watch?v=gjtXTm_TvvE&list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n)
 - [gmaster](https://gmaster.io/)
 - [Visual Studio Code (Git Extensions)](visual-studio.md)
@@ -747,7 +727,6 @@ git rebase -i HEAD~5
 ## Pre Commit Hooks
 
 - [pre-commit](https://pre-commit.com/) A framework for managing and maintaining multi-language pre-commit hooks.
-- [towardsdatascience.com: CI/CD by Example in Python](https://towardsdatascience.com/ci-cd-by-example-in-python-46f1533cb09d) A simple demonstration of CI/CD in Python with poetry and pre-commit hooks, [poetry-template](https://github.com/edkrueger/poetry-template)
 
 ## Merge BOTs
 
@@ -763,7 +742,6 @@ git rebase -i HEAD~5
 ### Jenkins for git merges
 
 - [**Git Plugin**: Merge Extensions](https://plugins.jenkins.io/git/#merge-extensions)
-- [**Validated Merge Plugin** for Git in CloudBees Jenkins Enterprise 🌟](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/validated-merge#chapter-validated-merge_validated-merge)
 - [How to configure Jenkins for git merge](https://support.cloudbees.com/hc/en-us/articles/227246387-How-to-Configure-Jenkins-for-Git-Merge-)
 - [GitHub Pull Request Builder Plugin](https://plugins.jenkins.io/ghprb/) , [github ref](https://github.com/jenkinsci/ghprb-plugin). You should probably migrate to GitHub Branch Source Plugin.
 - [GitHub Branch Source Plugin:](https://plugins.jenkins.io/github-branch-source/) Allows you to create a new project based on the repository structure from one or more GitHub users or organizations.
@@ -814,7 +792,6 @@ Automate them.
 ### Mergify bot
 
 - [mergify.io](https://mergify.io/)
-- [medium: Merging Bots’ Pull Requests Automatically](https://medium.com/mergify/merging-bots-pull-requests-automatically-548ed0b4a424)
 
 ### GitHub bots
 
@@ -828,7 +805,7 @@ Automate them.
 - [Rultor](http://www.rultor.com/) A merging bot for Github pull requests
     - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
-    - [help.github.com: Configuring protected branches](https://help.github.com/en/github/administering-a-repository/configuring-protected-branches)
+    - [help.github.com: Configuring protected branches](https://help.github.com/en/github)
     - [help.github.com: Enabling required status checks:](https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks)
         - Select Require status checks to pass before merging
         - Choose (create) a status check, that always fails
@@ -836,7 +813,6 @@ Automate them.
 #### Bors GitHub bot
 
 - [Bors Bot](https://bors.tech/)
-- [Bors - Readme](https://bors.tech/devdocs/bors-ng/readme.html)
 - [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 - [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
 
