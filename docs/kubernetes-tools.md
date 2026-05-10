@@ -845,7 +845,6 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Kubectl Connections
 
-- [KubePlus kubectl plugins -> kubectl connections](https://github.com/cloud-ark/kubeplus)
 - [cloudark.medium.com: kubectl connections](https://cloudark.medium.com/whats-cooking-in-your-kubernetes-namespace-9200be114f8) that can help you discover and visualize relationship between resources (Deployments, Services, etc.) in your namespace
 
 ## Benchmark Operator
@@ -1234,6 +1233,10 @@ elastic quotas - Effortless optimization at its finest!
 </script>
 
 ## kubernetes-tools
+  - [cerbos](https://github.com/cerbos/cerbos) - Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policies for your application resources.
+  - [kube-green](https://github.com/kube-green/kube-green) - A K8s operator to reduce CO2 footprint of your clusters
+  - [seaweedfs](https://github.com/seaweedfs/seaweedfs) - SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.
+  - [ozone](https://github.com/apache/ozone) - Scalable, reliable, distributed storage system optimized for data analytics and object store workloads.
   - [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes
   - [kubevirt](https://github.com/kubevirt/kubevirt) - Kubernetes Virtualization API and runtime in order to define and manage virtual machines.
   - [typhoon](https://github.com/poseidon/typhoon) - Minimal and free Kubernetes distribution with Terraform
