@@ -17,7 +17,6 @@ class RepositoryController:
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
         self._create_feature_branch(branch_name)
 
-        # Garantizar que siempre haya al menos un commit (técnico) para abrir la PR
         if not updates:
             updates["src/memory/last_audit_run.json"] = json.dumps({
                 "timestamp": metrics.get("end_date"),
@@ -46,15 +45,18 @@ class RepositoryController:
         # --- CONSTRUCCIÓN DEL REPORTE ---
         full_report = metrics.get('full_report', [])
         
-        # 1. Tabla Matricial
+        # 1. Tabla Matricial con Columna de Fecha
         matrix_table = "### 📋 Matriz de Auditoría de Enlaces (Full Extraction)\n"
-        matrix_table += "| Estado | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- |\n"
+        matrix_table += "| Estado | Fecha Post | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n"
         
         counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
         source_counts = {}
         for item in full_report[:200]:
             status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
-            matrix_table += f"| {status_emoji} {item['status']} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
+            # Formatear fecha para legibilidad
+            date_str = item.get('post_date', 'N/A')[:10] if item.get('post_date') else 'N/A'
+            
+            matrix_table += f"| {status_emoji} {item['status']} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
             counts[item['status']] = counts.get(item['status'], 0) + 1
             if item['status'] == "INCLUDED":
                 src = item.get('source', 'Unknown')
@@ -81,14 +83,14 @@ class RepositoryController:
         pr_narrative = (
             f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
             f"Este reporte detalla el procesamiento de **{metrics.get('total_extracted', 0)}** enlaces detectados.\n\n"
-            f"**Ventana Temporal:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
+            f"**Rango de Posts Analizados:** `{metrics.get('start_date')[:10]}` ➔ `{metrics.get('end_date')[:10]}` (Cronología: Antiguos a Recientes)\n\n"
             f"{mermaid_pie}\n"
             f"{mermaid_origin}\n"
             f"{x_log}\n"
             f"{matrix_table}\n"
             f"---\n"
             f"**Nota de Evaluación:** Este PR incluye {len(metrics.get('added_list', []))} novedades reales. "
-            f"Ventana temporal automática basada en el histórico de merges."
+            f"Se ha ignorado el post fijo (Pinned) para evitar duplicidad cíclica."
         )
 
         self.repository.create_pull(

@@ -14,26 +14,20 @@ from src.gitops_manager import RepositoryController
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
     
-    print("[*] INICIANDO CURADURÍA AGÉNTICA (ESTRATEGIA DE TRANSPARENCIA TOTAL)")
+    print("[*] INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)")
     
-    # 1. Determinar Horizonte Temporal (Oct 2024 por defecto)
+    # 1. Determinar Horizonte Temporal (Prioridad Oct 2024 si no hay merges)
     time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
-    
-    # Solo buscamos PRs mergeadas si el usuario acepta que ya hubo un ciclo exitoso
     try:
         pulls = git_controller.repository.get_pulls(state='closed', sort='updated', direction='desc')
         for pr in pulls:
-            # Solo consideramos PRs mergeadas por el bot que el usuario ACEPTE como punto de corte
             if pr.merged and "💎 Knowledge Update" in pr.title:
-                # Si el usuario dice que no se ha mergeado ninguno 'de este tipo', 
-                # podemos ignorar los antiguos o usar una etiqueta/keyword especial.
-                # Por ahora, si existe uno de mayo 2026, lo usamos.
                 time_horizon = pr.merged_at.replace(tzinfo=MADRID_TZ) + timedelta(seconds=1)
-                print(f"[+] Último PR mergeado encontrado ({pr.merged_at}). Retomando desde ahí.")
+                print(f"[+] Retomando desde último merge exitoso: {pr.merged_at}")
                 break
     except: pass
 
-    print(f"[*] Rango de búsqueda: {time_horizon} ➔ Ahora")
+    print(f"[*] Buscando posts desde: {time_horizon.date()}")
 
     # 2. Ingesta Multi-fuente
     twitter_client = SocialDataExtractor()
@@ -42,7 +36,9 @@ async def master_orchestrator():
     
     print("[*] Buscando novedades en GitHub Trending...")
     trending = await discover_trending_assets()
-    for t in trending: t["source_type"] = "GitHub Trending"
+    for t in trending: 
+        t["source_type"] = "GitHub Trending"
+        t["timestamp"] = datetime.now(MADRID_TZ).isoformat()
     
     all_raw_assets = raw_social + trending
     
@@ -68,7 +64,7 @@ async def master_orchestrator():
             clean_url = url.split('#')[0].rstrip('/')
             
             status = "INCLUDED"
-            reason = "Aceptado por relevancia técnica"
+            reason = "Aceptado"
             
             if clean_url in [u.split('#')[0].rstrip('/') for u in existing_urls]:
                 status = "DUPLICATE"
@@ -85,7 +81,8 @@ async def master_orchestrator():
                 "status": status,
                 "reason": reason,
                 "category": curated_urls[url]["category"] if url in curated_urls else "N/A",
-                "source": asset.get("source_type", "Unknown")
+                "source": asset.get("source_type", "Unknown"),
+                "post_date": asset.get("timestamp")
             })
 
     # 4. Inyección en Markdowns (IA Agentica)
@@ -122,7 +119,7 @@ async def master_orchestrator():
     }
     
     if file_updates or full_extraction_report:
-        print(f"[+] Finalizado. Generando PR con auditoría completa.")
+        print(f"[+] Generando PR con auditoría completa.")
         git_controller.apply_multi_file_changes(file_updates, metrics)
 
 if __name__ == "__main__":
