@@ -35,7 +35,6 @@
 ## Introduction
 
 - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
-- [ajay-yadav109458.medium.com: Concepts of API Gateway](https://ajay-yadav109458.medium.com/concepts-of-api-gateway-ac4993a0af44)
 - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
 - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)
 - [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)
@@ -54,7 +53,6 @@
 ### API Marketplaces
 
 - [chakray.com: API Strategy. How to create an API Marketplace](https://www.chakray.com/api-strategy-how-to-create-an-api-marketplace/)
-- [rapidapi.com: What is an API Marketplace?](https://rapidapi.com/blog/api-glossary/api-marketplace/)
 - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference/)
 
 ### Rapid API Marketplace. Free Public & Open REST APIs
@@ -64,13 +62,10 @@
 
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 
-- [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
 ## API Managers with API Gateways & Developer Portals
 
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
-- [towardsdatascience.com: Building Small Services, Deploying on Kubernetes, and Integrating with API Gateway](https://towardsdatascience.com/building-small-services-deploying-on-kubernetes-and-integrating-with-api-gateway-4909db4e5282) Abstracting Backend API Authentication with Python & Redis
-- [eng.uber.com: The Architecture of Uber’s API gateway](https://eng.uber.com/architecture-api-gateway/)
 
 ### API Management vs API Gateway vs Developer Portals
 
@@ -87,8 +82,6 @@
 - [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://blog.openshift.com/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale/)
 - [Adding API Gateway Policies Now Easier With Red Hat 3scale API Management](https://developers.redhat.com/blog/2018/05/30/3scale-api-gateway-policies/)
 - [Install Red Hat 3scale and configure tenants with 7 simple commands](https://developers.redhat.com/blog/2019/09/09/install-3scale-multitenant-in-7-commands/)
-- [dzone: 3Scale Developer Portal Docs Per Application](https://dzone.com/articles/3scale-developer-portal-docs-per-application) Using this open source platform, we to create a more effective version of your API documentation, allowing devs to only see that docs that are relevant to their work.
-- [dzone: Why Red Hat and 3scale Matter: A Developer's View](https://dzone.com/articles/why-red-hat-and-3scale-matter)
 - [developers.redhat.com: New custom metrics and air gapped (restricted networks) installation in Red Hat 3scale API Management 2.9](https://developers.redhat.com/blog/2020/10/29/new-custom-metrics-and-air-gapped-installation-in-red-hat-3scale-api-management-2-9/) The 3scale Operator now fully supports air gapped installation for 3scale API Management on OpenShift. Air gapped or restricted networks are isolated from the Internet and physically isolated from any other network. Secure environments such as government agencies and financial institutions typically require an air gapped installation for Red Hat Integration on OpenShift.
 - [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens/)
 - [developers.redhat.com: How to expose a WebSocket endpoint using Red Hat 3scale API Management](https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management)
@@ -105,7 +98,6 @@
 
 ### WSO2 API Manager
 
-- [WSO2 API Manager](https://wso2.com/api-management/)
 - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)
 - [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://www.chakray.com/why-api-lifecycle-management-is-must-organisation-apis/)
 - [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://www.chakray.com/11-steps-achieving-successful-api-management-strategy/)
@@ -183,10 +175,6 @@
 
 ## Automotive
 
-- [medium: I want to build a car insurance app — which APIs should I use?](https://medium.com/high-mobility/i-want-to-build-a-car-insurance-app-which-apis-should-i-use-6c0998267c33)
-- [medium.com: BMW CarData now integrated with Auto API](https://medium.com/high-mobility/integrate-bmw-cardata-in-the-high-mobility-platform-now-335b7d880dd6)
-- [medium.com: Field test: Using the Auto API to work with BMW CarData](https://medium.com/high-mobility/field-test-using-the-auto-api-to-work-with-bmw-cardata-480c90148569)
-- [medium.com: Field Test: Accessing Mercedes-Benz Data with the Auto API](https://medium.com/high-mobility/field-test-accessing-mercedes-benz-data-with-the-auto-api-a43d88363dfd)
 
 ### Auto API
 
@@ -215,12 +203,10 @@
 - [Santander APIs](https://developerhub.santander.com/)
 - [BBVA API Market](https://www.bbvaapimarket.com/)
 - [CaixaBank API Store](https://apistore.caixabank.com/)
-- [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
 - [Deutsche Bank API Program](https://developer.db.com/)
 - [TSB API Developer Portal](https://apis.developer.tsb.co.uk/)
 - [ING Developer Portal](https://developer.ing.com/)
     - [ING API Marketplace](https://developer.ing.com/api-marketplace/marketplace)
-- [OrangeBank API PSD2](https://orangebank.es/para-desarrolladores/)
 - [Rabobank Developer Portal](https://developer.rabobank.nl/)
     - [Rabobank API Marketplace](https://developer.rabobank.nl/api-marketplace)
 - [Cecabank API Market](https://apimarket.cecabank.es/)
@@ -232,7 +218,6 @@
 
 ## Telecom
 
-- [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
 
 ## Tweets

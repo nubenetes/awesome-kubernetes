@@ -33,7 +33,6 @@
 
 ## NuGet Packages and nuspec file
 
-- [dzone: How to Create and Publish NuGet Packages Using .NET Core CLI](https://dzone.com/articles/how-to-create-and-publish-nuget-packages-using-net)
 - [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md)
 - [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b)
 - [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package)
@@ -70,7 +69,6 @@
 ## Deploying ASP.NET Core applications to Kubernetes 
 
 - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
-- [dzone: CI/CD as a Code for .NET Core Application and Kubernetes 🌟](https://dzone.com/articles/cicd-as-a-code-for-net-core-application-and-kubern) The process of building a simple CI/CD pipeline for existing .net core application to moving it to Azure Kubernetes Services using Azure DevOps.
 
 ## Tweets
 

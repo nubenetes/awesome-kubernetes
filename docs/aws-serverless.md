@@ -15,7 +15,6 @@
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
 - [Using Amazon EFS for AWS Lambda in your serverless applications](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
-- [medium: AWS Serverless Application Lens — A Summary](https://medium.com/swlh/aws-serverless-application-lens-a-summary-4f740c4f376d)
 - [blog.usejournal.com: Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)
 - [dashbird.io: Deploying AWS Lambda with Docker Containers: I Gave it a Try and Here’s My Review](https://dashbird.io/blog/deploying-aws-lambda-with-docker/)
 - [aws.amazon.com: Operating Lambda: Understanding event-driven architecture – Part 1](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
@@ -57,7 +56,6 @@
 - [medium.com/@dan.avila7: Prueba tus proyectos serverless de forma local con serverless-offline](https://medium.com/@dan.avila7/prueba-tus-proyectos-serverless-de-forma-local-con-serverless-offline-2e555f2b5e9b) En este artículo veremos como instalar y configurar el plugin serverless-offline con sls framework para realizar pruebas locales de las funciones lambda antes de realizar el deploy en AWS.
 - [tutorialsdojo.com: Real-time Monitoring of 5XX Errors using AWS Lambda, CloudWatch Logs and Slack](https://tutorialsdojo.com/real-time-monitoring-of-5xx-errors-using-aws-lambda-cloudwatch-logs-slack/)
 - [dev.to: Go fast and reduce risk: using CDK to deploy your serverless applications on AWS](https://dev.to/aws-builders/go-fast-and-reduce-risk-using-cdk-to-deploy-your-serverless-applications-on-aws-2i3k)
-- [awstip.com: Tips for keeping your Lambda functions secure](https://awstip.com/tips-for-keeping-your-lambda-functions-secure-25349dd5d9df)
 - [dev.to: Event driven architectures using AWS with example](https://dev.to/aws-builders/event-driven-architectures-using-aws-with-example-3d2d)
 - [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)
 - [medium.com/lego-engineering: A Journey into Serverless and Handling Step Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99) Have you ever wondered how you would handle failures in your AWS Step Functions? And what benefits would a robust failure-handling system have?

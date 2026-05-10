@@ -15,15 +15,12 @@
 - [Amazon RDS for SQL Server – Support for Windows Authentication](https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication/)
 - [Why Support of PostgreSQL 9.5 by Amazon RDS is Such Great News](http://blog.rubyroidlabs.com/2016/04/postgresql-9-5/)
 - [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://aws.amazon.com/getting-started/tutorials/create-mysql-db/)
-- [Migrating from MySQL (RDS) to Aurora with no downtime](http://cantrill.io/howto/aws/2016/06/06/migrating-from-mysql-to-aurora-with-almost-no-downtime.html)
-- [Replicating Amazon Aurora DB Clusters Across AWS Regions](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.CrossRegion.html)
 - [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers.
 - [Working with an Amazon RDS DB Instance in a VPC](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
 - [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/)
 - [besanttechnologies.com: AWS – Relational Database Service](https://www.besanttechnologies.com/amazon-web-services-relational-database)
 - [Introducing the Aurora Storage Engine](https://aws.amazon.com/blogs/database/introducing-the-aurora-storage-engine/)
-- [dzone: AWS Relational Database Service (RDS): PostgreSQL in Cloud](https://dzone.com/articles/aws-relational-database-service-rds-postgresql-in) Today, we will go into details of Amazon RDS. We also set up a PostgreSQL instance using this service and connect to it using a tool Azure Data Studio.
 - [sysadminxpert.com: How to Enable Slow Query Logs in AWS RDS MySQL](https://sysadminxpert.com/how-to-enable-slow-query-logs-in-aws-rds-mysql/)
 - [New – Create Microsoft SQL Server Instances of Amazon RDS on AWS Outposts](https://aws.amazon.com/blogs/aws/new-create-microsoft-sql-server-instances-of-amazon-rds-on-aws-outposts/)
 - [percona.com: The Benefits of Amazon RDS for MySQL](https://www.percona.com/blog/2019/12/19/the-benefits-of-amazon-rds-for-mysql/)
@@ -66,10 +63,7 @@
 
 ## AWS Data Mesh and Batch Data Processing
 
-- [dev.to: Introduction to Data Mesh](https://dev.to/aws-builders/introduction-to-data-mesh-3f1b)
-- [dev.to: Introduction to Batch Data Processing](https://dev.to/aws-builders/introduction-to-batch-data-processing-4k56)
 
 ## AWS NoSQL DynamoDB
 
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/)
-- [medium: An Ultimate Guide to AWS Serverless database — DynamoDB](https://medium.com/javascript-in-plain-english/an-ultimate-guide-to-aws-serverless-database-dynamodb-aa048a62f2da) AWS DynamoDb is a fully managed, NoSQL, Single digit latency, a serverless database that can handle any kind of online workloads.

@@ -35,7 +35,6 @@
 - [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 - [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
-- [deepu.js.org: My VS Code setup - Making the most out of VS Code](https://deepu.js.org/make-the-most-out-of-vscode/)
 - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
 - [kite: Code Faster with AI Autocomplete](https://kite.com/)
 - [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)
@@ -46,15 +45,12 @@
 - [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/)
 - [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx)
 - [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code)
-- [jung-christian.de: Ansible support in Visual Studio Code 🌟](https://www.jung-christian.de/post/2021/02/ansible-vscode/)
 - [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode)
 - [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)
 - [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)
 - [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) Remember all those times you’ve wanted to manage a pull request but didn’t want to leave VS Code? Now they’re in the past. Create and manage them with the GitHub Pull Requests Extension.
 - [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc)
 - [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/)
-- [softzone.es: Mejora y añade más funciones a Visual Studio Code con plugins](https://www.softzone.es/programas/lenguajes/mejores-plugins-anadir-visual-code/)
-- [dzone: VS Code Extensions for Frontend Developers](https://dzone.com/articles/7-vs-code-extensions-for-frontend-developers)
 - In code 1.61.0, you can get a colorized bracket pair guide, just enable it by setting:
     - `"editor.guides.bracketPairs": true`
 - [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
@@ -65,12 +61,10 @@
 - [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea) An overview to clone a repository, push changes, and make pull requests in VS code
 - [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-snippets-5041)
 - [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)
-- [pythonsimplified.com: How to SSH into EC2 from VS Code](https://pythonsimplified.com/how-to-ssh-into-ec2-from-vs-code/)
 - [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) These shortcuts make the lives of developers easier.
 - [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) Use PlantUML directly in the Visual Studio Code
 - [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/)
 - [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)
-- [towardsdatascience.com: VS Code for data science](https://towardsdatascience.com/vs-code-for-data-science-aee82fe08bac) How a good Visual Studio Code setup can make you a more productive data scientist
 - [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279)
 - [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant/)
 - [==developers.redhat.com: Remote container development with VS Code and Podman== 🌟](https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman)
@@ -110,7 +104,6 @@
     - [GitLens interactive rebase](https://github.com/eamodio/vscode-gitlens#interactive-rebase-editor-)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 - [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
     - [A collapsible section containing markdown](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 - [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1)
@@ -201,7 +194,6 @@ A simple extension to make indentation more readable
 #### Themes
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code
-- [Lucy Theme](https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode) Soft but clear syntax theme
 - [Monokai Pro Theme](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) Professional theme and matching icons, from the author of the original Monokai color scheme.
 - [Codey Midnight Theme](https://marketplace.visualstudio.com/items?itemName=salesforce.codey-midnight) Dark theme configured for accessibility and Salesforce development
 - [1984 Theme](https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984)
@@ -220,7 +212,6 @@ A simple extension to make indentation more readable
 - [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) Syntax highlighting, linting, formatting, and validation for Hashicorp's Terraform
     - [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/)
     - [Announcing the Terraform Visual Studio Code Extension v2.0.0](https://www.hashicorp.com/blog/announcing-the-terraform-visual-studio-code-extension-v2-0-0/)
-- [Ansible](https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)
 - [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
     - [Introducing MongoDB for VS Code](https://www.mongodb.com/blog/post/introducing-mongodb-for-vs-code)
 
@@ -255,7 +246,6 @@ A simple extension to make indentation more readable
 
 ## Debugging in VScode
 
-- [How to configure Visual Studio Code for test debugging](https://medium.com/guidesmiths-dev/how-to-configure-visual-studio-code-for-test-debugging-39d0d7f24d79)
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)
 - [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) **A Visual Studio Code extension that lets you easily mirror traffic from your Kubernetes cluster to your development environment.** When you start debugging, mirrord will prompt you to select a pod to mirror traffic from. It will then mirror all traffic from that pod to the process you're debugging.

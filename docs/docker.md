@@ -32,23 +32,18 @@
 
 ## Introduction and Tutorials
 
-- [Wikipedia.org: Docker](https://en.wikipedia.org/wiki/Docker_(software))
 - [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 - [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
 - [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
-- [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 - [medium.freecodecamp.com: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.com/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
-- [Google Play: Learning Solution - Learn Docker 🌟](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnDocker&hl=en)
 - [Play with docker 🌟](https://labs.play-with-docker.com/) A simple, interactive and fun playground to learn Docker
 - [medium: Strategies of docker images optimization](https://medium.com/sciforce/strategies-of-docker-images-optimization-2ca9cc5719b6)
 - [Dzone: Docker explained, an introductory guide to docker](https://dzone.com/articles/docker-explained-an-introductory-guide-to-docker)
 - [Dzone: everything you need to know about docker](https://dzone.com/articles/everything-you-need-to-know-about-docker)
-- [Dzone: a start to finish guide to docker with java](https://dzone.com/articles/a-start-to-finish-guide-to-docker-with-java)
 - [**GitHub build-push-action**](https://github.com/docker/build-push-action) Build+push official Docker GitHub action
 - [itnext.io: Getting Started with Docker: Facts You Should Know 🌟](https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598)
 - [jfrog.com: A Beginner’s Guide to Understanding and Building Docker Images 🌟](https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/)
 - [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard/)
-- [geekflare.com: docker tutorials](https://geekflare.com/docker-tutorials/)
 - [medium: What is Docker, Why should you use it in simple words](https://medium.com/@shahinghasemy/what-is-docker-why-should-you-use-it-in-simple-words-cc5e6160f9db)
 - [docker.com: Top Questions for Getting Started with Docker 🌟](https://www.docker.com/blog/top-questions-for-getting-started-with-docker/)
 - [medium: How to Start Working With Docker Containers](https://medium.com/swlh/how-to-start-working-with-docker-containers-72b73ca60e0c)
@@ -72,7 +67,6 @@
     - [docker.com: Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/)
 - [pythonspeed.com: The worst so-called “best practice” for Docker](https://pythonspeed.com/articles/security-updates-in-docker/)
 - [developers.redhat.com: Making environment variables accessible in front-end containers](https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers/)
-- [towardsdatascience.com: Have you heard about our lord and savior Docker?](https://towardsdatascience.com/docker-101-ee3d2b8ace11) Introduction to working with Docker and creating your own development environment
 - [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)
 - [datamechanics.co: Optimized Apache Spark Docker Images](https://www.datamechanics.co/blog-post/optimized-spark-docker-images-now-available)
 - [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial/)
@@ -87,7 +81,6 @@
 - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
 - [blog.gougousis.net: File Permissions: the painful side of Docker 🌟](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/)
     - ["Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)"](https://twitter.com/agarcia)
-- [katacoda.com: Learn Docker & Containers using Interactive Browser-Based Scenarios 🌟](https://www.katacoda.com/courses/docker)
 - [medium: Push Docker Image To Docker Hub](https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad) Create Docker hub account and push Docker image.
 - [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker)
 - [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure/)
@@ -136,9 +129,7 @@
 - [nishnit007.medium.com: A Journey from Dockerfile to Application Deployment on Kubernetes For Beginners](https://nishnit007.medium.com/a-journey-from-dockerfile-to-application-deployment-on-kubernetes-for-beginners-fea1eb0f3581)
 - [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial/)
 - [==dev.to: Docker 101: Introduction to Docker==](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)
-- [blog.devgenius.io: K8s — Advanced Container Knowledge](https://blog.devgenius.io/k8s-advanced-container-knowledge-fcc45a2f6db8)
 - [medium.com/@joelbelton: Optimising Docker Performance — The Key 4 Techniques You Need](https://medium.com/@joelbelton/optimising-docker-performance-the-key-4-techniques-you-need-6440cfebb650)
-- [kubesimplify.com: The secret gems behind building container images, Enter: BuildKit & Docker Buildx](https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx)
 - [medium.com/geekculture: Docker — Limit Container CPU Usage 🌟](https://medium.com/geekculture/docker-limit-container-cpu-usage-11eb8ee0de5a)
 - [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
 - [fatehmuhammad.medium.com: Introduction to Docker | part 1](https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372)
@@ -231,7 +222,6 @@
 
 - [blog.testproject.io: A Comparison of Kubernetes and Docker](https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker/)
 - [==containerjournal.com: What’s the Difference Between Docker and Kubernetes?==](https://containerjournal.com/features/whats-the-difference-between-docker-and-kubernetes/)
-- [peoplactive.com: Kubernetes Vs Docker – Which to Adopt?](https://peoplactive.com/kubernetes-vs-docker-swarm-difference)
 
 ## Docker Patterns and Antipatterns
 
@@ -290,7 +280,7 @@
 
 ## Modify containers without rebuilding
 
-- [cloudowski.com: How to modify containers without rebuilding their image](https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding/)
+- [cloudowski.com: How to modify containers without rebuilding their image [ARCHIVED]]( http://web.archive.org/web/20210731130210/https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding//)
 
 ## Docker Tools
 
@@ -363,7 +353,6 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 ## DockStation
 
-- [dockstation.io](https://dockstation.io/)
 
 ## Linux Container Base Images
 
@@ -371,7 +360,6 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 - [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
     - [developers.redhat.com: book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
-- [dev.to: The best Docker base image for your Python application](https://dev.to/pmutua/the-best-docker-base-image-for-your-python-application-3o83)
 - [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat)
 - [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care)
 - [redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub](https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub) Verified content from the world’s leading enterprise Linux platform aimed at helping developers and operators build more secure and scalable containerized solutions from the industry’s leading container registry

@@ -46,7 +46,6 @@
 ## Deploying Kubernetes Cluster with Kops
 
 - [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops)
-- [Kubernetes.io: Installing Kubernetes with kops](https://kubernetes.io/docs/setup/production-environment/tools/kops/)
 - Minikube and docker client are great for local setups, but not for real clusters. **Kops** and **kubeadm** are tools to spin up a production cluster. You don't need both tools, just one of them.
 - On AWS, the best tool is **kops**. Since [AWS EKS (hosted kubernetes)](https://aws.amazon.com/eks) is currently available, this is the preferred option **(you don't need to maintain the masters)**.
 - For other installs, or if you can't get kops to work, you can use **kubeadm**.
@@ -98,7 +97,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## kube-aws Kubernetes on AWS
 
-- [Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
 
 ## Kubespray
 
@@ -107,7 +105,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [adamtheautomator.com/kubespray: Conquer Kubernetes Clusters with Ansible Kubespray](https://adamtheautomator.com/kubespray/)
     - Manually deploying Kubernetes can be challenging for administrators, especially on bare-metal infrastructure deployment. Luckily, there is an automation tool for deploying production-ready Kubernetes called Kubespray.
     - Kubespray is an Ansible Playbook for deploying Kubernetes Cluster and provides a High Availability cluster, composable attributes, components, and supports multiple Linux distributions. Kubespray also supports cloud services like AWS, GCE, and Azure.
-- [github.com/bluxmit: Kubespray Workspace](https://github.com/bluxmit/alnoda-workspaces/tree/main/workspaces/kubespray-workspace) Containerized development, execution and admin environment for Kubernetes, Ansible and Terraform.
+- [github.com/bluxmit: Kubespray Workspace](https://github.com/bluxmit/alnoda-workspaces) Containerized development, execution and admin environment for Kubernetes, Ansible and Terraform.
 
 ## Conjure up
 
@@ -125,7 +123,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 - [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
 - [medium: Upgrading Kubernetes The Hard Way](https://medium.com/nordcloud-engineering/upgrading-kubernetes-the-hard-way-ac533cfb4ff2)
-- [Monzo: we learned a lot from self-hosting Kubernetes, but we wouldn't do it again](https://www.computing.co.uk/news/4019233/monzo-learned-lot-self-hosting-kubernetes-wouldn%E2%80%99) Don't need to do it the hard way anymore
 - [medium: Kubernetes the hard way on Docker](https://medium.com/@brightzheng100/kubernetes-the-hard-way-on-docker-f512bae734af)
 - [Autoscalable Kubernetes cluster at Exoscale, using Packer and Terraform](https://github.com/PhilippeChepy/exoscale-kubernetes-crio)
 - [Kubernetes the Hard Way: Azure Edition](https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure) teaches you how to deploy Kubernetes from scratch on Azure based on the legendary Kubernetes the Hard Way.
@@ -167,7 +164,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Project Neco
 
-- [cybozu-go/neco](https://github.com/cybozu-go/neco) Neco is a project to build and maintain highly automated on-premise data centers using Kubernetes. A Neco data center consists of a few (from 3 to 5) management servers called boot servers and thousands of servers for Kubernetes clusters.
 
 ## Zarf. DevSecOps for Air Gap Systems
 
@@ -227,7 +223,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [wecloudpro.com: VMware Tanzu Community Edition 🌟](https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html)
 - [vmware-tanzu/octant](https://github.com/vmware-tanzu/octant) Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.
 - [zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption](https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption/) The platform, introduced in 2019, is designed to help customers quickly build and deploy software on any public cloud or on-premises Kubernetes cluster.
-- [cabai.pro: Instalando Tanzu Community Edition (TCE)](https://cabai.pro/vmware/kubernetes/instalando-tanzu-community-edition/)
 - [dev.to/saintdle: Deploying Nvidia GPU enabled Tanzu Kubernetes Clusters](https://dev.to/saintdle/deploying-nvidia-gpu-enabled-tanzu-kubernetes-clusters-40ma)
 
 #### KubeAcademy Pro (free training)

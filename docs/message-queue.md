@@ -70,7 +70,6 @@
 - [redhat.com: Event-driven architecture: Understanding the essential benefits 🌟](https://www.redhat.com/architect/event-driven-architecture-essentials) Event-driven architectures bring significant benefits when managing many endpoints, but it also has its complexities to be aware of.
 - [medium: Introduction to Message Queues 🌟](https://medium.com/hookdeck/introduction-to-message-queues-20d00373cc1f)
 - [headspring.com: Is Kafka or RabbitMQ the right messaging tool for you?](https://headspring.com/2019/07/09/kafka-or-rabbitmq-messaging/)
-- [dzone: Why Pub/Sub Isn’t Enough for Modern Apps](https://dzone.com/articles/why-pubsub-isnt-enough-for-modern-apps) Pub/Sub is the most appropriate way of architecting the delivery side of an event-driven architecture (especially for the web).
 - [baeldung.com: Pub-Sub vs. Message Queues 🌟](https://www.baeldung.com/pub-sub-vs-message-queues)
 - [engineering.atspotify.com: Spotify’s Event Delivery – The Road to the Cloud (Part I)](https://engineering.atspotify.com/2016/02/25/spotifys-event-delivery-the-road-to-the-cloud-part-i/)
 - [==medium: Monolithic to Microservices Architecture with Patterns & Best Practices== 🌟](https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2)
@@ -129,14 +128,13 @@
 - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
 - [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
 - [developers.redhat.com: Choosing the right asynchronous-messaging infrastructure for the job](https://developers.redhat.com/blog/2020/07/31/choosing-the-right-asynchronous-messaging-infrastructure-for-the-job/)
-- [medium.com/@codeeverywhere: Redis vs Kafka vs RabbitMQ](https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb)
 - [==kai-waehner.de: When to use Apache Camel vs. Apache Kafka?== 🌟](https://www.kai-waehner.de/blog/2022/01/28/when-to-use-apache-camel-vs-apache-kafka-for-etl-application-integration-event-streaming/) Should I use Apache Camel or Apache Kafka for my next integration project? The question is very valid and comes up regularly. This blog post explores both open-source frameworks and explains the difference between application integration and event streaming. The comparison discusses when to use Kafka or Camel, when to combine them, when not to use them at all. A decision tree shows how you can quickly qualify out one for the other.
 
 ### ActiveMQ message broker
 
 - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic/)
 - [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) Apache ActiveMQ is a subproject of Apache ActiveMQ. It has been donated to the Apache Software Foundation in 2015. There were lots of changes in project names in the past. The Artemis project first started as JBoss Messaging and got renamed to HornetQ in August 2009.
-- [Apache Artemis JMeter](https://github.com/apache/activemq-artemis/tree/master/examples/perf/jmeter) Running the ActiveMQ Artemis JMeter Performance Testing Examples.
+- [Apache Artemis JMeter](https://github.com/apache/activemq-artemis) Running the ActiveMQ Artemis JMeter Performance Testing Examples.
 - [developers.redhat.com: Implementing Apache ActiveMQ-style broker meshes with Apache Artemis](https://developers.redhat.com/articles/2021/06/30/implementing-apache-activemq-style-broker-meshes-apache-artemis)
 
 ### RabbitMQ message broker
@@ -181,7 +179,6 @@
 ### Google Cloud Platform Pub/Sub
 
 - [Google Cloud Platform Pub/Sub](https://cloud.google.com/pubsub/docs/overview)
-- [A generic framework of concurrent consumers for Google Cloud Platform Pub/Sub 🌟](https://towardsdatascience.com/a-python-implementation-of-concurrent-consumers-for-google-cloud-platform-pub-sub-991ae8b9841d) An example shows how to publish messages to Pub/Sub and build a service to consume the messages concurrently using the Python multiprocessing module
 
 ### JMS Message Queue vs. Apache Kafka
 
@@ -198,7 +195,6 @@
 ### Red Hat Fuse and Red Hat Fuse Online
 
 - [**Red Hat Fuse**](https://www.redhat.com/en/technologies/jboss-middleware/fuse)
-- [**Red Hat Fuse Online**](https://www.redhat.com/en/technologies/jboss-middleware/fuse-online)
 
 ### Syndesis open source integration platform
 
@@ -227,7 +223,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: A Visual Introduction to Debezium 🌟](https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8) A story-based introduction to understanding what Debezium is, how it is made of, and how it works in a real-world scenario
 - [debezium.io: Using Debezium to Create a Data Lake with Apache Iceberg](https://debezium.io/blog/2021/10/20/using-debezium-create-data-lake-with-apache-iceberg/)
 - [developers.redhat.com: Improve your Kafka Connect builds of Debezium.](https://developers.redhat.com/articles/2021/12/06/improve-your-kafka-connect-builds-debezium#build_a_debezium_kafka_connect_image_with_a_custom_resource) A Kubernetes native way of building Kafka Connect images in Debezium 1.6
-- [conduktor.io: Capturing MySQL database changes using Debezium, Kafka, and Conduktor](https://www.conduktor.io/capturing-mysql-database-changes-using-debezium-kafka-and-conduktor) Using Kafka Connect in Conduktor and specifically how to use Debezium to monitor the changes in a MySQL database.
 
 ## Red Hat Integration service registry and Apicurio
 
@@ -249,7 +244,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
 - [cloudblog.withgoogle.com: Turn any Dataflow pipeline into a reusable template](https://cloudblog.withgoogle.com/products/data-analytics/create-templates-from-any-dataflow-pipeline/amp/)
 - [thenewstack.io: Part 1: The Evolution of Data Pipeline Architecture](https://thenewstack.io/part-1-the-evolution-of-data-pipeline-architecture/)
-- [eng.uber.com: Uber’s Journey Toward Better Data Culture From First Principles](https://eng.uber.com/ubers-journey-toward-better-data-culture-from-first-principles/)
 - [satishchandragupta.com: Scalable Efficient Big Data Pipeline Architecture](https://www.satishchandragupta.com/tech/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud.html)
 - [openshift.com: How to Orchestrate Data Pipelines with Applications Deployed on OpenShift](https://www.openshift.com/blog/how-to-orchestrate-data-pipelines-with-applications-deployed-on-openshift)
 
@@ -264,7 +258,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Apache Kafka Startup Guide: System Design Architectures: Notification System, Web Activity Tracker, ELT Pipeline, Storage System 🌟](https://medium.com/swlh/apache-kafka-startup-guide-system-design-architectures-notification-system-web-activity-tracker-6dcaf0cf8a7)
 - [medium: Getting Started With Kafka on OpenShift](https://medium.com/swlh/getting-started-with-kafka-on-openshift-c44c0fdec384)
 - [containerjournal.com: Red Hat Platform Brings Kafka Closer to Kubernetes](https://containerjournal.com/topics/container-management/red-hat-platform-brings-kafka-closer-to-kubernetes/)
-- [lightbend.com: Monitor Kafka Consumer Group Latency with Kafka Lag Exporter](https://www.lightbend.com/blog/monitor-kafka-consumer-group-latency-with-kafka-lag-exporter)
+- [lightbend.com: Monitor Kafka Consumer Group Latency with Kafka Lag Exporter [ARCHIVED]]( http://web.archive.org/web/20241113105415/https://www.lightbend.com/blog/monitor-kafka-consumer-group-latency-with-kafka-lag-exporter)
 - [AKHQ (previously known as KafkaHQ) 🌟](https://github.com/tchiotludo/akhq) Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry, connect and more...
 - [banzaicloud.com: Kafka Schema Registry on Kubernetes the declarative way](https://banzaicloud.com/blog/kafka-schemareg/)
 - [Build a simple cloud-native change data capture pipeline](https://developers.redhat.com/blog/2020/07/02/build-a-simple-cloud-native-change-data-capture-pipeline/)
@@ -302,8 +296,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [piotrminkowski.com: Knative Eventing with Kafka and Quarkus](https://piotrminkowski.com/2021/03/31/knative-eventing-with-kafka-and-quarkus/)
 - [blog.cloudera.com: Scalability of Kafka Messaging using Consumer Groups](https://blog.cloudera.com/scalability-of-kafka-messaging-using-consumer-groups/)
 - [thenewstack.io: Beyond the Quickstart: Running Apache Kafka as a Service on Kubernetes](https://thenewstack.io/beyond-the-quickstart-running-apache-kafka-as-a-service-on-kubernetes/)
-- [towardsdatascience.com: You Can Replace Kafka with a Database](https://towardsdatascience.com/you-can-replace-kafka-with-a-database-39e13b610b63)
-- [Handling Retries in Kafka: If You’re Using Kafka With Your Microservices, You’re Probably Handling Retries Wrong](https://dt-23597.medium.com/if-youre-using-kafka-with-your-microservices-you-re-probably-handling-retries-wrong-8492890899fa)
 - [confluent.io: What’s New in Apache Kafka 2.8](https://www.confluent.io/blog/kafka-2-8-0-features-and-improvements-with-early-access-to-kip-500/)
 - [devclass.com: Apache Kafka 2.8.0 previews life without ZooKeeper](https://devclass.com/2021/04/20/apache-kafka-2-8-0-previews-life-without-zookeeper/)
 - [instaclustr.com: Apache Kafka Architecture: A Complete Guide 🌟](https://www.instaclustr.com/apache-kafka-architecture/)
@@ -314,17 +306,14 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [newrelic.com: Effective Strategies for Kafka Topic Partitioning 🌟](https://newrelic.com/blog/best-practices/effective-strategies-kafka-topic-partitioning)
 - [gentlydownthe.stream](https://www.gentlydownthe.stream/) A children’s book about Apache Kafka.
 - [confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper](https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/)
-- [dzone: Event-Driven APIs and Schema Governance for Apache Kafka](https://dzone.com/articles/event-driven-apis-and-schema-governance-for-apache) As a developer, I'm always excited to attend so many great sessions addressing critical challenges in the Apache Kafka ecosystem like how changes to event-driven APIs are leading developers to focus on contract-first development for Kafka.
 - [phoenixnap.com: How to Set Up and Run Kafka on Kubernetes 🌟](https://phoenixnap.com/kb/kafka-on-kubernetes)
 - [piotrminkowski.com: Knative Eventing with Quarkus, Kafka and Camel](https://piotrminkowski.com/2021/06/14/knative-eventing-with-quarkus-kafka-and-camel/)
 - [itnext.io: Configuring Kafka Sources and Sinks declaratively in Kubernetes using Knative](https://itnext.io/configuring-kafka-sources-and-sinks-in-kubernetes-271e3757b208) This solves the complexity in work flow of compiling JARs and uploading them to a Kafka connect cluster. Using Knative it can be possible to leverage the Kubernetes cluster and define Kafka sources and sinks with Kubernetes objects.
 - [strimzi.io: Kafka upgrade improvements](https://strimzi.io/blog/2021/07/05/upgrade-improvements/)
-- [==redhat.com: Introducing Red Hat OpenShift Streams for Apache Kafka==](https://www.redhat.com/en/blog/introducing-red-hat-openshift-streams-apache-kafka)
 - [developers.redhat.com: Getting started with Red Hat OpenShift Streams for Apache Kafka](https://developers.redhat.com/articles/2021/07/07/getting-started-red-hat-openshift-streams-apache-kafka)
 - [developers.redhat.com: Managing the API life cycle in an event-driven architecture: A practical approach 🌟](https://developers.redhat.com/articles/2021/07/07/managing-api-life-cycle-event-driven-architecture-practical-approach)
 - [baeldung.com: List Active Brokers in a Kafka Cluster Using Shell Commands 🌟](https://www.baeldung.com/ops/kafka-list-active-brokers-in-cluster)
 - [developers.redhat.com: How to secure Apache Kafka schemas with Red Hat Integration Service Registry 2.0](https://developers.redhat.com/articles/2021/07/16/how-secure-apache-kafka-schemas-red-hat-integration-service-registry-20)
-- [mercurytfs.blogspot.com: Colas Kafka](https://mercurytfs.blogspot.com/2021/07/colas-kafka.html)
 - [grafana.com: Get comprehensive monitoring for your Apache Kafka ecosystem instances quickly with Grafana Cloud](https://grafana.com/blog/2021/07/26/get-comprehensive-monitoring-for-your-apache-kafka-ecosystem-instances-quickly-with-grafana-cloud/)
 - [dzone: Next-Gen Data Pipes With Spark, Kafka and k8s 🌟](https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s) This article examines the architecture patterns and provides some sample code for the readers to implement in their own environment.
 - [confluent.io: Making Apache Kafka Serverless: Lessons From Confluent Cloud](https://www.confluent.io/blog/designing-an-elastic-apache-kafka-for-the-cloud/)
@@ -439,7 +428,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
 
 - [Redpanda 🌟](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
-- [hub.docker.com/r/vectorized/redpanda](https://hub.docker.com/r/vectorized/redpanda) Easy Docker experience to use VectorizedIO Redpanda in a container. Streaming platform for mission critical workloads, Kafka compatible, no Zookeeper, no JVM, no code changes required - 10x faster.
 - [Redpanda is now Free & Source Available](https://vectorized.io/blog/open-source/)
 - [softwareengineeringdaily.com: Redpanda: Kafka Alternative with Alexander Gallego 🌟](https://softwareengineeringdaily.com/2021/01/22/redpanda-kafka-alternative-with-alexander-gallego/)
 
@@ -457,7 +445,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Apache Flink
 
 - [Apache Flink](https://flink.apache.org/) Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
-- [How to set up Apache Flink on Kubernetes for real time data processing](https://ci.apache.org/projects/flink/flink-docs-stable/ops/deployment/kubernetes.html)
 - [flink.apache.org: How to natively deploy Flink on Kubernetes with High-Availability (HA)](https://flink.apache.org/2021/02/10/native-k8s-with-ha.html)
 
 ### Hazelcast JET
@@ -481,13 +468,11 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 ### Apache Airflow
 
-- [towardsdatascience.com: A journey to Airflow on Kubernetes](https://towardsdatascience.com/a-journey-to-airflow-on-kubernetes-472df467f556)
 - [dzone: Apache Airflow Architecture on OpenShift](https://dzone.com/articles/apache-airflow-architecture-on-openshift)
 - [redhat.com: Monitoring Apache Airflow using Prometheus](https://www.redhat.com/en/blog/monitoring-apache-airflow-using-prometheus)
 - [towardsdatascience.com: Apache Airflow for containerized data-pipelines](https://towardsdatascience.com/apache-airflow-for-containerized-data-pipelines-4d7a3c385bd) Are you having problems running tasks with a different version of Python on Airflow? In this article, I explain how to solve this issue.
 - [Apache Airflow official helm chart 🌟](https://airflow.apache.org/docs/helm-chart/)
 - [youtube: Airflow Helm Chart : Quick Start For Beginners in 10mins](https://www.youtube.com/watch?v=GDOw8ByzMyY&ab_channel=MarcLamberti)
-- [snowflake.com: Migrating Airflow from Amazon EC2 to Kubernetes](https://www.snowflake.com/blog/migrating-airflow-from-amazon-ec2-to-kubernetes/)
 - [dev.to: Get started with Apache Airflow](https://dev.to/arunkc/get-started-with-apache-airflow-1218)
 - [betterprogramming.pub: Running Airflow Using Kubernetes Executor and Kubernetes Pod Operator with Istio](https://betterprogramming.pub/running-airflow-using-kubernetes-executor-and-kubernetes-pod-operator-with-istio-d5aa7af16ef5) There are many obstacles when you deploy Airflow with the Kubernetes executor, Pod Operator and Istio since the Istio proxy sidecar makes the worker pod hang and run forever. In this article, you will learn how to overcome that.
 - [towardsdatascience.com: Apache Airflow Architecture 🌟](https://towardsdatascience.com/apache-airflow-architecture-496b9cb28288) A deep dive into Apache Airflow architecture and how it orchestrates workflows
@@ -522,7 +507,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Red Hat AMQ Streams
 
 - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1/)
-- [Red Hat **AMQ streams** (kafka): Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
 - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update/)
 - [speakerdeck.com: Apache Kafka with Red Hat AMQ Streams 🌟](https://speakerdeck.com/mabulgu/apache-kafka-with-red-hat-amq-streams)
 - [HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/#more-720187)
