@@ -12,9 +12,6 @@ class RepositoryController:
         self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_branch.commit.sha)
 
     def apply_multi_file_changes(self, updates: dict, metrics: dict) -> None:
-        if not updates:
-            return
-
         timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
         self._create_feature_branch(branch_name)
@@ -25,70 +22,52 @@ class RepositoryController:
                 try:
                     file_meta = self.repository.get_contents(file_path, ref=self.default_branch_name)
                     self.repository.update_file(
-                        path=file_path,
-                        message=commit_signature,
-                        content=content,
-                        sha=file_meta.sha,
-                        branch=branch_name
+                        path=file_path, message=commit_signature, content=content,
+                        sha=file_meta.sha, branch=branch_name
                     )
                 except Exception as e:
-                    # Si no existe (404), lo creamos
                     if "404" in str(e):
                         self.repository.create_file(
-                            path=file_path,
-                            message=f"chore: create {file_path} [{timestamp_slug}]",
-                            content=content,
-                            branch=branch_name
+                            path=file_path, message=f"chore: create {file_path}",
+                            content=content, branch=branch_name
                         )
-                    else:
-                        raise e
             except Exception as e:
                 print(f"Error procesando {file_path}: {e}")
 
-        # Informe Visual en el PR
-        categories_str = ", ".join([f"`{c}`" for c in metrics.get('categories', [])])
+        # --- CONSTRUCCIÓN DEL REPORTE ÉLITE ---
+        full_report = metrics.get('full_report', [])
         
-        # Detalle de enlaces añadidos
-        added_md = ""
-        if metrics.get('added_list'):
-            added_md = "### ➕ Enlaces Añadidos\n| Recurso | Categoría | URL |\n| :--- | :--- | :--- |\n"
-            for item in metrics['added_list']:
-                added_md += f"| {item['title']} | `{item['category']}` | {item['url']} |\n"
+        # 1. Tabla Matricial de Auditoría
+        matrix_table = "### 📋 Matriz de Auditoría de Enlaces (Full Extraction)\n"
+        matrix_table += "| Estado | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- |\n"
         
-        # Detalle de curación/borrado
-        removed_md = ""
-        if metrics.get('removed_list'):
-            removed_md = "### 🧹 Curación y Limpieza (Duplicados)\n| Categoría | Acción |\n| :--- | :--- |\n"
-            for item in metrics['removed_list']:
-                removed_md += f"| `{item['category']}` | {item['reason']} |\n"
+        counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
+        for item in full_report:
+            status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
+            matrix_table += f"| {status_emoji} {item['status']} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
+            counts[item['status']] = counts.get(item['status'], 0) + 1
 
-        # Informe de Diagnóstico de X.com
-        x_report = ""
-        if metrics.get('x_diagnostics'):
-            x_report = "### ⚠️ Informe de Diagnóstico: X.com\n"
-            for diag in metrics['x_diagnostics']:
-                # Escapar markdown básico en mensajes de error
-                safe_diag = diag.replace("|", "\\|").replace("`", "'")
-                x_report += f"- {safe_diag}\n"
-            x_report += "\n"
+        # 2. Diagrama Mermaid
+        mermaid_pie = "### 📊 Métricas de Decisión\n```mermaid\npie title Distribución de Decisión Agéntica\n"
+        mermaid_pie += f"    \"Aceptados (Inyectados)\" : {counts['INCLUDED']}\n"
+        mermaid_pie += f"    \"Duplicados (Ignorados)\" : {counts['DUPLICATE']}\n"
+        mermaid_pie += f"    \"Filtrados (Calidad/Impacto)\" : {counts['FILTERED']}\n```\n"
+
+        # 3. Log de Ingesta
+        x_log = "### ⚡ Audit Trail de Ingesta (X.com)\n"
+        for entry in metrics.get('x_audit', []):
+            x_log += f"- {entry}\n"
 
         pr_narrative = (
-            f"## 💎 Actualización de Conocimiento: Kubernetes & Cloud Native\n\n"
-            f"Este PR añade **{metrics.get('total_new', 0)}** nuevos recursos y optimiza los existentes.\n\n"
-            f"**Rango Temporal Analizado:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
-            f"{x_report}"
-            f"### ✅ Resumen de Ingesta:\n"
-            f"```mermaid\n"
-            f"pie title Origen de los Recursos\n"
-            f"    \"X (@nubenetes)\" : {metrics.get('social_injections', 0)}\n"
-            f"    \"GitHub Trending\" : {metrics.get('trending_injections', 0)}\n"
-            f"```\n\n"
-            f"{added_md}\n"
-            f"{removed_md}\n"
-            f"### 📂 Categorías Impactadas:\n"
-            f"{categories_str}\n\n"
+            f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
+            f"Este reporte detalla el procesamiento de **{metrics.get('total_extracted', 0)}** enlaces detectados.\n\n"
+            f"**Ventana Temporal:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
+            f"{mermaid_pie}\n"
+            f"{x_log}\n"
+            f"{matrix_table}\n"
             f"---\n"
-            f"**Nota del Bot:** El bot utiliza heurísticas de calidad para decidir qué duplicados mantener (estrellas 🌟 y longitud de descripción)."
+            f"**Nota de Evaluación:** Este PR incluye {len(metrics.get('added_list', []))} novedades reales. "
+            f"La ventana temporal se ha calculado automáticamente basándose en el último PR mergeado con éxito."
         )
 
         self.repository.create_pull(
