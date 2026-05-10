@@ -845,7 +845,6 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Kubectl Connections
 
-- [KubePlus kubectl plugins -> kubectl connections](https://github.com/cloud-ark/kubeplus)
 - [cloudark.medium.com: kubectl connections](https://cloudark.medium.com/whats-cooking-in-your-kubernetes-namespace-9200be114f8) that can help you discover and visualize relationship between resources (Deployments, Services, etc.) in your namespace
 
 ## Benchmark Operator
@@ -1234,6 +1233,10 @@ elastic quotas - Effortless optimization at its finest!
 </script>
 
 ## kubernetes-tools
+  - [cue](https://github.com/cue-lang/cue) - The home of the CUE language! Validate and define text-based and dynamic configuration
+  - [llm-d](https://github.com/llm-d/llm-d) - Achieve state of the art inference performance with modern accelerators on Kubernetes
+  - [ceph](https://github.com/ceph/ceph) - Ceph is a distributed object, block, and file storage platform 
+  - [kube-green](https://github.com/kube-green/kube-green) - A K8s operator to reduce CO2 footprint of your clusters
   - [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes
   - [kubevirt](https://github.com/kubevirt/kubevirt) - Kubernetes Virtualization API and runtime in order to define and manage virtual machines.
   - [typhoon](https://github.com/poseidon/typhoon) - Minimal and free Kubernetes distribution with Terraform
