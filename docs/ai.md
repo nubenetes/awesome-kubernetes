@@ -37,7 +37,6 @@
 
 - [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum==](https://github.com/microsoft/ML-For-Beginners)
 - [==amazon.science/base-tts-samples==](https://www.amazon.science/base-tts-samples/) BASE TTS: Audio samples. Audio samples for the paper [BASE TTS: Lessons from building a billion-parameter text-to-speech model on 100K hours of data](https://www.amazon.science/publications/base-tts-lessons-from-building-a-billion-parameter-text-to-speech-model-on-100k-hours-of-data).
-    - [mundodeportivo.com: Amazon causa sensación en los entusiastas de la tecnología: ha creado el modelo de voz más grande del mundo](https://www.mundodeportivo.com/urbantecno/tecnologia/amazon-causa-sensacion-en-los-entusiastas-de-la-tecnologia-ha-creado-el-modelo-de-voz-mas-grande-del-mundo)
 
 ## Transformers Library
 
