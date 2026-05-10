@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from src.config import TARGET_REPO, MADRID_TZ, GH_TOKEN, NUBENETES_CATEGORIES
 from src.ingestion_twikit import SocialDataExtractor
 from src.markdown_ast import MarkdownSanitizer
-from src.agentic_curator import evaluate_extracted_assets
+from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
 from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 
