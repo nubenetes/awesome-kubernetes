@@ -27,7 +27,6 @@
 
 ## IBM cloud Enterprise Sandbox
 
-- [IBM cloud Enterprise Sandbox 🌟](https://ibm-gsi-ecosystem.github.io/ibm-gsi-cloudnative-journey/)
 
 ## IBM API Connect
 
@@ -43,7 +42,6 @@
 ### Open Liberty
 
 - [openliberty.io](https://www.openliberty.io/) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
-- [IBM open sources WebSphere Liberty code to support Java microservices and cloud-native apps](https://developer.ibm.com/dwblog/2017/websphere-liberty-java-open-source/)
 - [github.com/openliberty](https://github.com/openliberty/)
 - [developers.redhat.com: Support for GraphQL with Open Liberty 20.0.0.6](https://developers.redhat.com/blog/2020/06/17/support-for-graphql-with-open-liberty-20-0-0-6/)
 
@@ -84,7 +82,6 @@
     - [medium: IBM Multicloud Manager Cluster Sizing](https://medium.com/@cdoan/ibm-multicloud-manager-cluster-sizing-bc3b609b7de9)
     - [medium: Installing Monitoring Module on IBM Cloud Pak for MultiCloud Management](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/installing-monitoring-module-on-ibm-cloud-pak-for-multicloud-management-v1-3-0-58e5d3e5e047)
 - [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) Repo to hold and manage documentation and samples for the CloudPak for MCM components. Integrating business partner apps into IBM Cloud Pak for Multicloud Management (MCM) can be mutually beneficial to both parties. Depending on the business partner’s app, there may be different scenarios and requirements for the integration. This repository provides documentations and samples for various scenarios to help business partners integrate their app into IBM MCM.
-- [IBM Cloud Pak for Multicloud Management Ideas Portal](https://cp4mcm.ideas.aha.io/) 
 
 ## Videos
 
