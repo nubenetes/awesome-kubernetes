@@ -27,7 +27,19 @@ class SocialDataExtractor:
         print(entry)
 
     def _extract_urls_from_text(self, text: str) -> list[str]:
-        return list(set(re.findall(r'https?://[^\s<>\"]+|www\.[^\s<>\"]+', text)))
+        urls = re.findall(r'https?://[^\s<>\"]+|www\.[^\s<>\"]+', text)
+        # Filtro de ruido masivo y dominios de marketing/tracking
+        noise_domains = [
+            "x.com", "twitter.com", "t.co", "abs.twimg", "pbs.twimg", 
+            "notoriete-web.com", "google-analytics", "doubleclick", 
+            "facebook.com", "linkedin.com/sharing", "buffer.com",
+            "help.twitter", "archive.org", "nitter"
+        ]
+        valid_urls = []
+        for u in urls:
+            if all(d not in u.lower() for d in noise_domains):
+                valid_urls.append(u)
+        return list(set(valid_urls))
 
     async def _fetch_via_playwright(self, since_date: datetime) -> list[dict]:
         """Estrategia de Navegador Real con reintentos y control de tiempo."""
