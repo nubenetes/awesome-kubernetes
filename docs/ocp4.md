@@ -78,7 +78,6 @@
 - [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
 - [nextplatform.com: red hat flexes CoreOS muscle in openshift kubernetes platform](https://www.nextplatform.com/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/)
 - [OpenShift 4 documentation 🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform/)
-- [Dzone: What’s in OpenShift 4?](https://dzone.com/articles/whats-in-openshift-4)
 - [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
 - [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
 - [cloudowski.com: Honest review of OpenShift 4 🌟](https://cloudowski.com/articles/honest-review-of-openshift-4/)
@@ -89,7 +88,6 @@
 - [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 - [devclass.com: OpenShift 4.4 goes all out on mixed workloads, puts observability at devs’ fingertips 🌟](https://devclass.com/2020/05/04/openshift-4-4-goes-all-out-on-mixed-workloads-puts-observability-at-devs-fingertips/)
 - [OpenShift 4.5: Node Improvements](https://www.openshift.com/blog/openshift-4.5-node-improvements)
-- [OpenShift 4.5: Red Hat takes Kubernetes to the cloud's edge](https://www.zdnet.com/google-amp/article/red-hat-takes-kubernetes-to-the-clouds-edge/) Red Hat agrees that edge computing is the future and it's getting ready for this next stage in cloud computing with its latest OpenShift release.
 - [Fully Automated OpenShift Deployments With VMware vSphere](https://www.openshift.com/blog/fully-automated-openshift-deployments-with-vmware-vsphere)
 - [OpenShift 4 “under-the-hood” 🌟](https://medium.com/faun/openshift-4-under-the-hood-ab854c3439dd)
 - [thenewstack.io: Red Hat Launches an OpenShift-Based Marketplace to Aid Multicloud Portability 🌟](https://thenewstack.io/red-hat-launches-an-openshift-based-marketplace-to-aid-multicloud-portability/)
@@ -111,14 +109,12 @@
     - Horizontal Pod Autoscaler (CPU & Memory)
     - New RHACM integrations
     - and much, much more!!
-- [zdnet.com: Red Hat opens the door for both VMs and containers in its latest OpenShift release](https://www.zdnet.com/google-amp/article/red-hat-opens-the-door-for-both-vms-and-containers-in-its-latest-openshift-release/) Red Hat's OpenShift 4.7 can help you manage your entire cloud application stack.
 - [finance.yahoo.com: IBM's Red Hat OpenShift Platform to be Leveraged by Siemens](https://finance.yahoo.com/news/ibms-red-hat-openshift-platform-143702224.html)
 - [openshift.com: How to Offer Service Running on OpenShift on AWS to Other AWS VPCs, Privately 🌟](https://www.openshift.com/blog/how-to-offer-service-running-on-openshift-on-aws-to-other-aws-vpcs-privately)
 - [developers.redhat.com: A guide to Red Hat OpenShift 4.5 installer-provisioned infrastructure on vSphere 🌟](https://developers.redhat.com/blog/2021/03/09/a-guide-to-red-hat-openshift-4-5-installer-provisioned-infrastructure-on-vsphere/)
 - [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.openshift.com/blog/openshift-security-best-practices-for-kubernetes-cluster-design)
 - [fiercetelecom.com: Red Hat bundles security, management into OpenShift Plus](https://www.fiercetelecom.com/platforms/red-hat-bundles-security-management-into-openshift-plus) IBM subsidiary Red Hat put its recently acquired StackRox assets to work, rolling out a new version of its OpenShift cloud platform that incorporates security, cluster management and registry capabilities in a single package.
 - [openshift.com: Descheduler GA in OpenShift 4.7 🌟](https://www.openshift.com/blog/descheduler-ga-in-openshift-4.7) The [Descheduler](https://github.com/kubernetes-sigs/descheduler) is an upstream Kubernetes subproject owned by SIG-Scheduling. Its purpose is to serve as a complement to the stock kube-scheduler, which assigns new pods to nodes based on the myriad criteria and algorithms it provides.
-- [opensourcerers.org: Automated Application Packaging and Distribution with OpenShift – Part 1/2](https://www.opensourcerers.org/2021/04/26/automated-application-packaging-and-distribution-with-openshift-part-12/ 🌟) Learn how to automate application deployment and packaging with openshift and tools like source-to-image, templates, kustomize.
 - [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.openshift.com/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift)
 - [schabell.org: How to setup the OpenShift Container Platform 4.7 on your local machine](https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html)
 - [developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container)
@@ -138,7 +134,6 @@
 - [cloud.redhat.com: Red Hat OpenShift 4.8 Is Now Generally Available](https://cloud.redhat.com/blog/red-hat-openshift-4.8-is-now-generally-available)
 - [zdnet.com: Qualys partners with Red Hat to improve Linux and Kubernetes security](https://www.zdnet.com/article/qualys-partners-with-red-hat-to-improve-linux-and-kubernetes-security/) Security company Qualys is partnering with Red Hat to bring built-in Cloud Agent security to Red Hat Enterprise Linux CoreOS and Red Hat OpenShift.
 - [cloud.redhat.com: Getting Started in OpenShift 🌟](https://cloud.redhat.com/blog/getting-started-in-openshift)
-- [redhat.com: Simplify application management in Kubernetes environments (ebook)](https://www.redhat.com/en/resources/simplify-app-management-in-kuberentes-e-book) Automation is at the core of cloud-native application development and deployment. Helm and Kubernetes Operators are two popular choices for automating the management of application and infrastructure software within your Kubernetes environment. These tools help to improve developer productivity, simplify application deployment and streamline updates and upgrades. Red Hat OpenShift supports both of these automation technologies, helping you to increase speed, efficiency, and scale and deliver a better user experience.
 - [cloud.redhat.com: OpenShift Sandboxed Containers 101 🌟](https://cloud.redhat.com/blog/openshift-sandboxed-containers-101)
 - [thenewstack.io: IBM, Red Hat Bring Load-Aware Resource Management to Kubernetes](https://thenewstack.io/ibm-red-hat-bring-load-aware-resource-management-to-kubernetes/)
     - [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) Trimaran is a collection of load-aware scheduler plugins
@@ -239,7 +234,6 @@
         - [Security](https://docs.openshift.com/container-platform/4.4/authentication/managing-security-context-constraints.html)
         - [Multi-tenancy features](https://www.slideshare.net/Smals_ICT/20171010-multitenancy-in-openshift) (self-service)
 - OpenShift 4 is built on top of Kubernetes 1.13+ 
-- [Roadmap](https://assets.openshift.com/hubfs/Commons-London-OpenShift-Container-Platform-4.3-Roadmap.pdf)
 - [Release Notes](https://docs.openshift.com/container-platform/4.4/release_notes/ocp-4-4-release-notes.html)
 
 <center>
@@ -451,13 +445,11 @@ etcd 14h myoperator 14h
     - OpenShift router has the endpoints as targets and therefore the pod of the application.
     - [Shared/Stikcy sessions are enabled by default](https://dzone.com/articles/session-stickiness-in-openshift)
     - [HAProxy template router](https://docs.openshift.com/container-platform/3.11/architecture/networking/assembly_available_router_plugins.html#architecture-haproxy-router) (default router): HTTP(s) & TLS-enabled traffic via SIN.
-        - [dzone.com/articles/updating-haproxy-configurations-openshift](https://dzone.com/articles/updating-haproxy-configurations-openshift)
         - [dzone.com/articles/openshift-egress-options](https://dzone.com/articles/openshift-egress-options)
     - F5 BIG-IP Router plug-in integrates with an existing F5 BIG-IP system in your environment
     - Since the 9th May 2018, [NGINX](https://www.openshift.com/blog/introducing-nginx-and-nginx-plus-routers-for-openshift) is also available as « router ».
 - Routers in OCP4:
     - [Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) is the most common way to allow external access to an OpenShift Container Platform cluster
-    - [Configuring Ingress Operator in OCP4](https://docs.openshift.com/container-platform/4.4/networking/ingress-operator.html)
     - Limited to HTTP, HTTPS using SNI, and TLS using SNI (sufficient for web applications and services)
     - Has two replicas by default, which means it should be running on two worker nodes.
     - Can be scaled up to have more replicas on more nodes.
@@ -475,7 +467,6 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 
 - ServiceMesh: [Istio](https://istio.io/) + [kiali](https://kiali.io/) + [Jaeger](https://www.jaegertracing.io/)
 - ServiceMesh Community Edition: [github.com/maistra/istio](https://github.com/maistra/istio)
-    - Red Hat community installer compliant with OCP 4.1: [maistra.io/docs/getting_started/install](https://maistra.io/docs/getting_started/install)
     - Outcome: publicly known errors in 2 or 3 components.
 - **Certified ServiceMesh Operator**
     - [ServiceMesh](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.4/html-single/service_mesh/index) GA in September 2019 (available in OperatorHub):
@@ -517,7 +508,6 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Integrated Prometheus v2.7.2 (deployed by default):
 - Monitoring -> metrics
 - Project “openshift-monitoring”
-- [prometheus.io/docs/prometheus/2.7/getting_started/](https://prometheus.io/docs/prometheus/2.7/getting_started/)
 
 #### Alerts and Silences
 
@@ -615,14 +605,10 @@ oc login
 - [learn.openshift.com](https://learn.openshift.com/)
     - [OpenShift 4.4](https://learn.openshift.com/playgrounds/openshift44)
 - [learn.crunchydata.com](https://learn.crunchydata.com/)
-- [Red Hat Shares ― Learning Kubernetes](https://www.redhat.com/en/blog/red-hat-shares-%E2%80%95-learning-kubernetes)
 
 ## OpenShift 4 Roadmap
 
-- [blog.openshift.com: OpenShift 4 Roadmap (slides) - this link may change](https://assets.openshift.com/hubfs/Commons-London-OpenShift-Container-Platform-4.3-Roadmap.pdf)
-- [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides)](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
     - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
-- [blog.openshift.com: OpenShift 4 Roadmap Update (slides)](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
     - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
 
 ## Kubevirt Virtual Machine Management on Kubernetes
@@ -692,15 +678,11 @@ oc login
 
 - [Homepage](https://crc.dev)
 - [developers.redhat.com: Developing applications on Kubernetes 🌟](https://developers.redhat.com/topics/kubernetes/)
-- [crc-org/crc: Getting Started Guide 🌟](https://crc-org.github.io/crc/)
 - [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
-- [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
 - [Overview: running crc on a remote server](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
-- [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
 - [developers.redhat.com: How to install CodeReady Workspaces in a restricted OpenShift 4 environment](https://developers.redhat.com/blog/2020/06/12/how-to-install-codeready-workspaces-in-a-restricted-openshift-4-environment/)
 - [Install Red Hat OpenShift Operators on your laptop using Red Hat CodeReady Containers and Red Hat Marketplace](https://developers.redhat.com/blog/2020/09/09/install-red-hat-openshift-operators-on-your-laptop-using-red-hat-codeready-containers-and-red-hat-marketplace/)
 - [schabell.org: How to setup OpenShift Container Platform 4.5 on your local machine in minutes](https://www.schabell.org/2020/09/how-to-setup-openshift-container-platform-45.html)
-- [dzone: CodeReady Containers - Getting Started with OpenShift 4.5 and Process Automation Tooling](https://dzone.com/articles/codeready-containers-getting-started-with-openshif-1) What can you do with the fully stocked container registry provided to you? There is no better way to learn about container technologies, cloud native methods...
 
 ## OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers
 
@@ -728,7 +710,6 @@ oc login
 - [docs.okd.io 🌟](https://docs.okd.io/)
 - [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
 - [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
-- [**OKD4 Roadmap**: The Road To OKD4: Operators, FCOS and K8S 🌟](https://blog.openshift.com/wp-content/uploads/DevConf-CZ-2020_OKD4_FCOS__Mueller.pdf)
 - [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md)
 - [youtube.com: How To Install OKD4 on GCP - Vadim Rutkovsky (Red Hat)](https://www.youtube.com/watch?v=2UwQD0diUxk)
 - [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://blog.openshift.com/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab/)
@@ -743,7 +724,6 @@ oc login
 - [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
 - [developers.redhat.com: **Serverless Architecture**](https://developers.redhat.com/topics/serverless-architecture/)
 - [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
-- [Announcing OpenShift Serverless 1.5.0 Tech Preview – A sneak peek of our GA](https://blog.openshift.com/announcing-openshift-serverless-1-5-0-tech-preview-a-sneak-peek-of-our-ga/)
 - [Serverless applications made faster and simpler with **OpenShift Serverless GA**](https://developers.redhat.com/blog/2020/04/30/serverless-applications-made-faster-and-simpler-with-openshift-serverless-ga/)
 
 ## Helm Charts and OpenShift 4
@@ -766,7 +746,6 @@ oc login
 ## OpenShift Cost Management
 
 - [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure 🌟](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
-- [Cost Management and OpenShift - Sergio Ocón-Cárdenas (Red Hat) 🌟](https://www.openshift.com/blog/cost-management-and-openshift-sergio-oc%C3%B3n-c%C3%A1rdenas-red-hat)
 
 ## Operators in OCP 4
 
