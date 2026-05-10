@@ -37,6 +37,12 @@ async def master_orchestrator():
     raw_social = await twitter_client.fetch_links_since(time_horizon)
     x_audit_trail = twitter_client.audit_trail
     
+    print("[*] Buscando novedades en GitHub Trending...")
+    trending = await discover_trending_assets()
+    for t in trending: t["source_type"] = "GitHub Trending"
+    
+    all_raw_assets = raw_social + trending
+    
     # 3. Evaluación y Registro de Auditoría (Deduplicación Global Previa)
     existing_urls = set()
     for doc in os.listdir("docs"):
@@ -49,13 +55,13 @@ async def master_orchestrator():
     full_extraction_report = []
     unique_new_assets = []
     
-    if raw_social:
-        print(f"[*] Evaluando {len(raw_social)} candidatos con Gemini...")
-        curated = await evaluate_extracted_assets(raw_social)
+    if all_raw_assets:
+        print(f"[*] Evaluando {len(all_raw_assets)} candidatos con Gemini...")
+        curated = await evaluate_extracted_assets(all_raw_assets)
         
         # Mapear resultados para el reporte matricial
         curated_urls = {a["url"]: a for a in curated}
-        for asset in raw_social:
+        for asset in all_raw_assets:
             url = asset["url"]
             clean_url = url.split('#')[0].rstrip('/')
             
@@ -76,7 +82,8 @@ async def master_orchestrator():
                 "url": url,
                 "status": status,
                 "reason": reason,
-                "category": curated_urls[url]["category"] if url in curated_urls else "N/A"
+                "category": curated_urls[url]["category"] if url in curated_urls else "N/A",
+                "source": asset.get("source_type", "Unknown")
             })
 
     # 4. Inyección en Markdowns
