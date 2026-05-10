@@ -14,7 +14,7 @@ class SocialDataExtractor:
         self.client = Client('en-US')
         self.target_account = target_account
         self.cookies_file = 'cookies.json'
-        self.timeout = aiohttp.ClientTimeout(total=45)
+        self.timeout = aiohttp.ClientTimeout(total=50)
         self.audit_trail = []
         self.user_agents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -31,15 +31,19 @@ class SocialDataExtractor:
         return list(set(re.findall(r'https?://[^\s<>\"]+|www\.[^\s<>\"]+', text)))
 
     async def _fetch_via_playwright(self, since_date: datetime) -> list[dict]:
-        """Estrategia Definitiva: Navegador Real con Playwright."""
+        """Estrategia de Fuerza Bruta: Navegador Real."""
         try:
             from playwright.async_api import async_playwright
             from playwright_stealth import stealth_async
         except ImportError:
-            self.log_audit("Playwright", False, "Librerías no instaladas.")
-            return []
-        
-        self.log_audit("Playwright Browser", None, "Lanzando navegador real (Stealth Mode)...")
+            # Reintento de importación dinámica por si el path de pip es inestable
+            import sys
+            import subprocess
+            subprocess.check_call([sys.executable, "-m", "pip", "install", "playwright-stealth"])
+            from playwright_stealth import stealth_async
+            from playwright.async_api import async_playwright
+
+        self.log_audit("Playwright Browser", None, "Lanzando instancia Chromium...")
         results = []
         try:
             async with async_playwright() as p:
@@ -52,47 +56,43 @@ class SocialDataExtractor:
                 if env_cookies:
                     try:
                         cookies = json.loads(env_cookies)
-                        formatted_cookies = []
+                        formatted = []
                         for c in cookies:
                             if isinstance(c, dict) and 'name' in c and 'value' in c:
-                                # Playwright necesita dominio sin el punto inicial a veces, o con el dominio correcto
                                 c['domain'] = c.get('domain', '.x.com')
-                                # Eliminar campos incompatibles si existen
-                                for k in ['sameSite', 'storeId']: c.pop(k, None)
-                                formatted_cookies.append(c)
-                        await context.add_cookies(formatted_cookies)
-                        self.log_audit("Playwright", True, "Cookies inyectadas.")
+                                for k in ['sameSite', 'storeId', 'id']: c.pop(k, None)
+                                formatted.append(c)
+                        await context.add_cookies(formatted)
                     except: pass
 
-                await page.goto(f"https://x.com/{self.target_account}", wait_until="networkidle", timeout=60000)
-                await asyncio.sleep(10)
+                await page.goto(f"https://x.com/{self.target_account}", wait_until="domcontentloaded", timeout=60000)
+                await asyncio.sleep(8)
                 
-                # Scroll para cargar contenido
-                for i in range(3):
-                    content = await page.content()
-                    urls = self._extract_urls_from_text(content)
+                for _ in range(4): # Scroll moderado
+                    html = await page.content()
+                    urls = self._extract_urls_from_text(html)
                     for u in urls:
-                        if all(x not in u for x in ["x.com", "twitter.com", "t.co", "abs.twimg"]):
-                            results.append({"url": u, "context": "Playwright Scrape", "timestamp": datetime.now(MADRID_TZ).isoformat()})
-                    await page.evaluate("window.scrollBy(0, 1000)")
-                    await asyncio.sleep(3)
+                        if all(x not in u for x in ["x.com", "twitter.com", "t.co", "abs.twimg", "archive.org"]):
+                            results.append({"url": u, "context": "Playwright Browser", "timestamp": datetime.now(MADRID_TZ).isoformat()})
+                    await page.evaluate("window.scrollBy(0, 1200)")
+                    await asyncio.sleep(4)
                 
                 await browser.close()
                 return results
         except Exception as e:
-            self.log_audit("Playwright", False, f"Error: {str(e)[:50]}")
+            self.log_audit("Playwright", False, str(e)[:60])
         return []
 
     async def fetch_links_since(self, since_date: datetime) -> list[dict]:
         # 1. Intentar Playwright (Navegador Real)
         play_links = await self._fetch_via_playwright(since_date)
         if play_links: 
-            self.log_audit("Estrategia Playwright", True, f"Encontrados {len(play_links)} recursos.")
+            self.log_audit("Estrategia Playwright", True, f"Recuperados {len(play_links)} enlaces vía DOM.")
             return play_links
 
-        # 2. RSS-Bridge Fallback
-        self.log_audit("RSS Fallback", None, "Intentando vía RSS-Bridge...")
-        bridges = ["rssbridge.org", "rss.idoc.pub"]
+        # 2. RSS-Bridge Fallback (Efectivo y rápido)
+        self.log_audit("RSS Fallback", None, "Consultando puentes RSS...")
+        bridges = ["rssbridge.org", "rss.idoc.pub", "bridge.the-pankratz.de"]
         for b in bridges:
             url = f"https://{b}/?action=display&bridge=TwitterBridge&context=By+username&user={self.target_account}&format=Mrss"
             try:
@@ -106,4 +106,21 @@ class SocialDataExtractor:
                                 return [{"url": u, "context": "RSS", "timestamp": datetime.now(MADRID_TZ).isoformat()} for u in valid]
             except: continue
 
+        # 3. Wayback Deep Fallback (Histórico profundo)
+        self.log_audit("Wayback Fallback", None, "Buscando histórico en Archive.org...")
+        from_ts = since_date.strftime("%Y%m%d")
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(f"https://web.archive.org/cdx/search/cdx?url=twitter.com/{self.target_account}&output=json&from={from_ts}&limit=5", timeout=20) as resp:
+                    if resp.status == 200:
+                        snaps = await resp.json()
+                        if len(snaps) > 1:
+                            latest = snaps[-1][1]
+                            async with session.get(f"https://web.archive.org/web/{latest}/https://twitter.com/{self.target_account}") as s_resp:
+                                urls = self._extract_urls_from_text(await s_resp.text())
+                                valid = [u for u in urls if all(x not in u for x in ["x.com", "twitter.com", "t.co", "archive.org"])]
+                                if valid:
+                                    self.log_audit("Wayback", True, f"Recuperados {len(valid)} históricos.")
+                                    return [{"url": u, "context": "Wayback", "timestamp": datetime.now(MADRID_TZ).isoformat()} for u in valid]
+        except: pass
         return []
