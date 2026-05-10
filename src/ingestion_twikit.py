@@ -22,8 +22,10 @@ class SocialDataExtractor:
             'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
         ]
 
-    def log_audit(self, method: str, success: bool, msg: str):
-        status = "✅ ÉXITO" if success else "❌ FALLO"
+    def log_audit(self, method: str, success: Optional[bool], msg: str):
+        if success is True: status = "✅ ÉXITO"
+        elif success is False: status = "❌ FALLO"
+        else: status = "ℹ️ INFO"
         entry = f"**Método: {method}** - {status}: {msg}"
         self.audit_trail.append(entry)
         print(entry)
@@ -38,14 +40,26 @@ class SocialDataExtractor:
             env_cookies = os.getenv("TWITTER_COOKIES")
             if env_cookies:
                 try:
-                    # Escribir a archivo temporal para twikit
+                    raw_data = json.loads(env_cookies)
+                    cookies_dict = {}
+                    
+                    # Convertir formato de extensión (lista) a formato twikit (dict)
+                    if isinstance(raw_data, list):
+                        for cookie in raw_data:
+                            if 'name' in cookie and 'value' in cookie:
+                                cookies_dict[cookie['name']] = cookie['value']
+                    else:
+                        cookies_dict = raw_data
+
+                    # Guardar en el formato que twikit espera
                     with open(self.cookies_file, 'w') as f:
-                        f.write(env_cookies)
+                        json.dump(cookies_dict, f)
+                    
                     self.client.load_cookies(self.cookies_file)
-                    self.log_audit("Auth Cookies", True, "Sesión cargada desde TWITTER_COOKIES.")
+                    self.log_audit("Auth Cookies", True, f"Sesión cargada ({len(cookies_dict)} cookies encontradas).")
                     return True
                 except Exception as e:
-                    self.log_audit("Auth Cookies", False, f"Error cargando secreto: {str(e)[:50]}")
+                    self.log_audit("Auth Cookies", False, f"Error procesando formato: {str(e)[:50]}")
 
             # 2. Intentar cargar cookies locales si existen
             if os.path.exists(self.cookies_file):
@@ -54,12 +68,12 @@ class SocialDataExtractor:
             
             # 3. Intentar Login (solo si no hay cookies)
             if not TWITTER_USERNAME or not TWITTER_PASSWORD: return False
-            self.log_audit("Twikit Login", False, "Intentando login tradicional (puede fallar por retos JS)...")
+            self.log_audit("Twikit Login", None, "Intentando login tradicional...")
             await self.client.login(auth_info_1=TWITTER_USERNAME, auth_info_2=TWITTER_EMAIL, password=TWITTER_PASSWORD)
             self.client.save_cookies(self.cookies_file)
             return True
         except Exception as e:
-            self.log_audit("Auth", False, f"Fallo total de autenticación: {str(e)[:100]}")
+            self.log_audit("Auth", False, f"Fallo: {str(e)[:100]}")
             return False
 
     async def _fetch_via_rss(self) -> list[dict]:
