@@ -13,22 +13,25 @@ from src.gitops_manager import RepositoryController
 
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
-    markdown_sanitizer = MarkdownSanitizer()
     
     print("[*] INICIANDO CURADURÍA AGÉNTICA (ESTRATEGIA DE TRANSPARENCIA TOTAL)")
     
-    # 1. Determinar Horizonte Temporal según el último MERGE
+    # 1. Determinar Horizonte Temporal (Oct 2024 por defecto)
     time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
+    
+    # Solo buscamos PRs mergeadas si el usuario acepta que ya hubo un ciclo exitoso
     try:
-        # Buscamos PRs cerradas y merged del bot
         pulls = git_controller.repository.get_pulls(state='closed', sort='updated', direction='desc')
         for pr in pulls:
+            # Solo consideramos PRs mergeadas por el bot que el usuario ACEPTE como punto de corte
             if pr.merged and "💎 Knowledge Update" in pr.title:
+                # Si el usuario dice que no se ha mergeado ninguno 'de este tipo', 
+                # podemos ignorar los antiguos o usar una etiqueta/keyword especial.
+                # Por ahora, si existe uno de mayo 2026, lo usamos.
                 time_horizon = pr.merged_at.replace(tzinfo=MADRID_TZ) + timedelta(seconds=1)
                 print(f"[+] Último PR mergeado encontrado ({pr.merged_at}). Retomando desde ahí.")
                 break
-    except Exception as e:
-        print(f"[!] No se pudieron consultar PRs mergeadas: {e}. Usando fallback Oct 2024.")
+    except: pass
 
     print(f"[*] Rango de búsqueda: {time_horizon} ➔ Ahora")
 
@@ -43,7 +46,7 @@ async def master_orchestrator():
     
     all_raw_assets = raw_social + trending
     
-    # 3. Evaluación y Registro de Auditoría (Deduplicación Global Previa)
+    # 3. Evaluación y Registro de Auditoría
     existing_urls = set()
     for doc in os.listdir("docs"):
         if doc.endswith(".md"):
@@ -59,21 +62,20 @@ async def master_orchestrator():
         print(f"[*] Evaluando {len(all_raw_assets)} candidatos con Gemini...")
         curated = await evaluate_extracted_assets(all_raw_assets)
         
-        # Mapear resultados para el reporte matricial
         curated_urls = {a["url"]: a for a in curated}
         for asset in all_raw_assets:
             url = asset["url"]
             clean_url = url.split('#')[0].rstrip('/')
             
-            reason = "Aceptado"
             status = "INCLUDED"
+            reason = "Aceptado por relevancia técnica"
             
             if clean_url in [u.split('#')[0].rstrip('/') for u in existing_urls]:
                 status = "DUPLICATE"
                 reason = "Ya existe en Nubenetes.com"
             elif url not in curated_urls:
                 status = "FILTERED"
-                reason = "Bajo impacto o no encaja en categorías"
+                reason = "Bajo impacto o contenido no bookmark"
             
             if status == "INCLUDED":
                 unique_new_assets.append(curated_urls[url])
@@ -100,9 +102,7 @@ async def master_orchestrator():
                 repo_file = git_controller.repository.get_contents(file_path)
                 content = repo_file.decoded_content.decode("utf-8")
             
-            # Inyección inteligente con Gemini
             new_content = await curator_agent.decide_smart_injection(content, asset)
-            
             if len(new_content) > len(content):
                 file_updates[file_path] = new_content
                 stats["added_details"].append(asset)
@@ -111,8 +111,8 @@ async def master_orchestrator():
 
     # 5. GitOps con Reporte Matricial
     metrics = {
-        "social_injections": len(unique_new_assets),
-        "total_extracted": len(raw_social),
+        "social_injections": len([a for a in unique_new_assets if "X.com" in a.get("source_type", "")]),
+        "total_extracted": len(all_raw_assets),
         "full_report": full_extraction_report,
         "x_audit": x_audit_trail,
         "added_list": stats["added_details"],
@@ -124,8 +124,6 @@ async def master_orchestrator():
     if file_updates or full_extraction_report:
         print(f"[+] Finalizado. Generando PR con auditoría completa.")
         git_controller.apply_multi_file_changes(file_updates, metrics)
-    else:
-        print("[~] Sin novedades ni reportes que generar.")
 
 if __name__ == "__main__":
     asyncio.run(master_orchestrator())
