@@ -29,7 +29,7 @@ class SocialDataExtractor:
     def _extract_urls_from_text(self, text: str) -> list[str]:
         urls = re.findall(r'https?://[^\s<>\"]+|www\.[^\s<>\"]+', text)
         noise_domains = [
-            "x.com", "twitter.com", "t.co", "abs.twimg", "pbs.twimg", 
+            "x.com", "twitter.com", "abs.twimg", "pbs.twimg", 
             "notoriete-web.com", "google-analytics", "doubleclick", 
             "facebook.com", "linkedin.com/sharing", "buffer.com",
             "help.twitter", "archive.org", "nitter"
@@ -115,7 +115,7 @@ class SocialDataExtractor:
                         for link in links:
                             href = await link.get_attribute('href')
                             if href and href.startswith('http'):
-                                if all(x not in href for x in ["x.com", "twitter.com", "t.co", "abs.twimg", "pbs.twimg"]):
+                                if all(x not in href for x in ["x.com", "twitter.com", "abs.twimg", "pbs.twimg"]):
                                     found_in_tweet.append(href)
                         
                         found_in_tweet.extend(self._extract_urls_from_text(tweet_text))
@@ -133,8 +133,8 @@ class SocialDataExtractor:
                         if stop_scrolling: break
 
                     if stop_scrolling: break
-                    await page.evaluate("window.scrollBy(0, 3500)")
-                    await asyncio.sleep(4)
+                    await page.evaluate("window.scrollBy(0, 4500)")
+                    await asyncio.sleep(7)
                     scroll_count += 1
                 
                 await browser.close()
