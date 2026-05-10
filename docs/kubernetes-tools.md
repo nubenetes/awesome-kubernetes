@@ -845,7 +845,6 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Kubectl Connections
 
-- [KubePlus kubectl plugins -> kubectl connections](https://github.com/cloud-ark/kubeplus)
 - [cloudark.medium.com: kubectl connections](https://cloudark.medium.com/whats-cooking-in-your-kubernetes-namespace-9200be114f8) that can help you discover and visualize relationship between resources (Deployments, Services, etc.) in your namespace
 
 ## Benchmark Operator
@@ -1234,6 +1233,8 @@ elastic quotas - Effortless optimization at its finest!
 </script>
 
 ## kubernetes-tools
+  - [ozone](https://github.com/apache/ozone) - Scalable, reliable, distributed storage system optimized for data analytics and object store workloads.
+  - [dokku](https://github.com/dokku/dokku) - A docker-powered PaaS that helps you build and manage the lifecycle of applications
   - [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes
   - [kubevirt](https://github.com/kubevirt/kubevirt) - Kubernetes Virtualization API and runtime in order to define and manage virtual machines.
   - [typhoon](https://github.com/poseidon/typhoon) - Minimal and free Kubernetes distribution with Terraform
