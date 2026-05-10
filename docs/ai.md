@@ -89,6 +89,7 @@
 - [github.com/SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers) This repository is a curated collection of the most exciting and influential CVPR 2023 papers.
 
 ## AIOps
+  - [kata-containers](https://github.com/kata-containers/kata-containers) - Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/
 - [HolmesGPT (Robusta)](https://github.com/robusta-dev/holmesgpt) - Agentic alert investigation for Kubernetes.
 - [CAST AI](https://cast.ai/) - AI-driven Kubernetes cost optimization and autonomous rightsizing.
 - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)
