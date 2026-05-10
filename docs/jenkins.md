@@ -61,9 +61,7 @@
 ## Jenkins
 
 - [CloudBees](https://www.cloudbees.com/)
-- [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
 - [Jenkins.io (new Jenkins 2.0 site) 🌟](https://jenkins.io/)
-- [jenkinsci.github.io 🌟](http://jenkinsci.github.io/)
 - [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)
 - [github.com/jenkinsci 🌟](https://github.com/jenkinsci)
 - [reddit.com/r/jenkinsci 🌟](https://www.reddit.com/r/jenkinsci)
@@ -87,10 +85,8 @@
 - [youtube: MSBuild With Jenkins | Jenkins For C# / .NET Applications](https://www.youtube.com/watch?v=uC7vajbnZS4)
 - [betsol.com: DevOps Using Jenkins, Docker, and Kubernetes](https://www.betsol.com/blog/devops-using-jenkins-docker-and-kubernetes/)
 - [Setup Chained Jenkins Declarative Pipeline Projects with Triggers 🌟](https://medium.com/@rosaniline/setup-chained-jenkins-declarative-pipeline-projects-with-triggers-d3d04f1daf75)
-- [devopscurry.com: What makes Jenkins everyone’s favorite in 2020](https://devopscurry.com/what-makes-jenkins-everyones-favorite-in-2020/)
 - [linkedin: Jenkins Server setup with dynamic worker nodes](https://www.linkedin.com/pulse/jenkins-server-setup-dynamic-worker-nodes-shishir-khandelwal/)
 - [medium: CI/CD with Dockers and Jenkins](https://medium.com/avmconsulting-blog/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)
-- [harness.io: Modernizing Jenkins CI/CD Pipelines](https://harness.io/blog/continuous-delivery/modernizing-jenkins-ci-cd-pipelines-with-harness/)
 - [jenkins.io: Docker image updates](https://www.jenkins.io/blog/2021/02/08/docker-base-os-upgrade/)
 - [blog.executeautomation.com: Running Jenkins Build Agent within Docker container – Part A](https://blog.executeautomation.com/running-jenkins-build-agent-within-docker-container-part-a/) Jenkins is one of the most popular CI/CD open source tool without any doubt. It has evolved so much in recent past that, the tool can be utilised with many modern way approach to build the application and deploy the application. Jenkins can be scaled with not just by installing different build agents in different machines, rather we can use the power of Docker containers to install agent and perform build operations effortlessly.
 - [lambdatest.com: How To Set Up Continuous Integration With Git and Jenkins?](https://www.lambdatest.com/blog/how-to-setup-continuous-integration-with-git-jenkins/)
@@ -114,7 +110,6 @@
 - [youtube: Jenkins World 2017: How to Use Jenkins Less 🌟](https://www.youtube.com/watch?v=Zeqc6--0eQw&ab_channel=CloudBeesTV) In
 jenkinsci CloudBees' advice is to use build tool features when possible (Maven/Gradle/make/etc.). When the tools are not enough and you need a distributed orchestrator/reporting layer, this is where Jenkins shines. - [slides & demos](https://github.com/jglick/jk--)
 - [youtube: Build Docker Image using Jenkins Pipeline | Push Docker Image to Docker Hub using Jenkins 🌟](https://www.youtube.com/watch?v=ShTC1u7_jew&ab_channel=DevOpsHint)
-- [sngular.com: QA + DEVOPS - Dockerizando un pipeline de Jenkins](https://www.sngular.com/es/qa-devops-dockerizando-un-pipeline-de-jenkins/)
 - [youtube: Online Meetup: From local installation to scalable Jenkins on Kubernetes 🌟](https://www.youtube.com/watch?v=BsYYVkophsk)
 - [youtube: Jenkins and Sonarqube Integration with Maven | SonarScanner for Maven and Integrate with Jenkins](https://www.youtube.com/watch?v=yEyVXUExSqs&ab_channel=DevOpsHint)
 - [youtube: LambdaTest - Jenkins Tutorial For Beginners | Part 7 | Adding A Jenkins Controller & Jenkins Agent Node On Azure](https://www.youtube.com/watch?v=-NUQhwmhTCw&ab_channel=LambdaTest)
@@ -139,7 +134,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [dev.to: Setting up a CI/CD with Jenkins](https://dev.to/kennethatria/setting-up-a-ci-cd-with-jenkins-4hln)
 - [fabiogomezdiaz.com: How to Run Packer Pipelines on Jenkins: Part 1 - Traditional Jenkins](https://fabiogomezdiaz.com/posts/how-to-run-packer-pipelines-on-jenkins-part1-traditional-jenkins/)
 - [jenkins.io: Docker images use Java 11 by default 🌟](https://www.jenkins.io/blog/2021/08/17/docker-images-use-jdk-11-by-default/) The default Java version in the Jenkins Docker images is switching to Java 11.
-- [igorzhivilo.com: Build CI/CD of the future with Kubernetes (AWS EKS) and Jenkins 🌟](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/) **A series of tutorials with code examples about how to build CI/CD of the future using Kubernetes/Jenkins/AWS**
 - [community.jenkins.io: DSTY - jenkins-std-lib (Shared Library) - Interact with files/directories using Groovy!](https://community.jenkins.io/t/dsty-jenkins-std-lib-shared-library-interact-with-files-directories-using-groovy/398) - [Pipeline Utility Steps 🌟](https://plugins.jenkins.io/pipeline-utility-steps/) Small, miscellaneous, cross platform utility steps for Jenkins Pipeline jobs [githu ref](https://github.com/jenkinsci/pipeline-utility-steps-plugin)
 - [Connecting and authenticating to Jenkins with Teleport Application Access](https://github.com/gravitational/teleport/discussions/8330) This shows integrating a Jenkins with Teleport Application Access for Access and Authentication.
 - [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs) Select different Jenkinsfiles as a parameter in MultiBranch Jobs
@@ -172,7 +166,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ## Jenkins and Terraform
 
-- [towardsaws.com: Terraform: Jenkins CI/CD Pipeline](https://towardsaws.com/terraform-jenkins-ci-cd-pipeline-b8901978710e)
 - [aws.plainenglish.io: Deploying AWS Resources and a Jenkins Server with Terraform](https://aws.plainenglish.io/deploying-aws-resources-and-a-jenkins-server-with-terraform-297bad905459)
 - [aws.plainenglish.io: Terraform: How To Deploy Jenkins CI/CD Pipelines Using Terraform](https://aws.plainenglish.io/terraform-how-to-deploy-jenkins-ci-cd-pipelines-using-terraform-9ffc086dcd56) Deploy an EC2 instance bootstrapped with a script to install and run Jenkins.
 
@@ -222,7 +215,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Groovy
 
 - [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Dzone: Introduction to Groovy](https://dzone.com/articles/introduction-groovy)
 - [Dzone refcard: Groovy, a Rapid-Development JVM Language](https://dzone.com/refcardz/groovy)
 - [opensource.com: Read and write files with Groovy](https://opensource.com/article/21/4/groovy-io)
 - [dzone: Groovy Goodness: Using The Call Operator](https://dzone.com/articles/groovy-goodness-using-the-call-operator) In the newest installment of Groovy Goodness, Mr. Haki presents how to use Groovy's call operator to take our code density to the next level.
@@ -272,7 +264,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     - [Jenkins Job DSL Plugin documentation 🌟](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
 - [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
     - [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
-    - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps/blob/master/doc/cps-basics.md) is a style of programming in which the remainder of the program is passed explicitly as a parameter, as opposed to that being handled implicitly represented as call stack.
+    - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps) is a style of programming in which the remainder of the program is passed explicitly as a parameter, as opposed to that being handled implicitly represented as call stack.
         - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS) transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin/#plugin/workflow-cps):
             - [cps](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cps): WorkflowDefinitionContext
             - [cpsScm](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cpsScm): WorkflowDefinitionContext
@@ -300,12 +292,10 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [Dzone refcard: **Continuous Delivery with Jenkins Pipeline** 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline)
 - [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4)
 - [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/)
-- [dzone.com: Jenkins Pipeline - Software Delivery Made Easy](https://dzone.com/articles/jenkins-pipeline-software-delivery-made-easy) Jenkins 2.0 has focused on solving the problem for organizations wanting to continuously deliver software.
 - [DZone refcard: declarative pipeline with jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
 - [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
 - [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible, Docker, Golang App) 🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins)
 - [dzone: learn how to setup a cicd pipeline from scratch 🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)
-- [dzone: how to use basic jenkins pipelines](https://dzone.com/articles/how-to-use-basic-jenkins-pipelines)
 - [opensource.com - building cicd pipelines with jenkins 🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)
 - [devopscube.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code/)
 - [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins/)
@@ -374,8 +364,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     - [plugins.jenkins.io/configuration-as-code](https://plugins.jenkins.io/configuration-as-code/)
     - [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
 - [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
-- [opensource.com: Getting started with Jenkins Configuration as Code 🌟](https://opensource.com/article/20/4/getting-started-jcasc-jenkins) JCasC uses YAML formats to set up Jenkins configurations.
-- [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
       - [https://github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
 - [Dzone: Running Jenkins Server With Configuration-as-Code 🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code) Take a look at the new plugin for Jenkins that allows you to to create pipelines using YAML! Let's check out the details and examples.
 - [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
@@ -386,8 +374,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support)
 - [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins)
 - [iceburn.medium.com: Jenkins Configuration As Code](https://iceburn.medium.com/jenkins-configuration-as-code-afd9031a42c9)
-- [werner-dijkerman.nl: Jenkins as code, part 1: Setting up Jenkins in Docker (JCasC)](https://werner-dijkerman.nl/2021/06/14/jenkins-as-code-part-1-setting-up-jenkins-in-docker/)
-    - [werner-dijkerman.nl: Jenkins as code, part 2: Setting up the Jenkins job (job-dsl-plugin, sharedlibrary & jenkinsfile)](https://werner-dijkerman.nl/2021/06/17/jenkins-as-code-part-2-setting-up-the-jenkins-job/)
 
 #### Read-only Jenkins Configuration
 
@@ -416,8 +402,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
 - [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 - [devops.com: kubernetes jenkins master slave scalability](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
-- [rancher.com: scaling jenkins](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
-- [rancher.com: Deploying and Scaling Jenkins on Kubernetes 🌟](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
 - [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
 - [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 - [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
@@ -437,7 +421,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Jenkins Tools
 
 - [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/)
-- [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md)
+- [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin)
 - [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
 - [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit)
 - [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager)
@@ -451,7 +435,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ### Pipeline Development Tools
 
 - [Pipeline Development Tools (Command-line Pipeline Linter)](https://www.jenkins.io/doc/book/pipeline/development/#linter)
-- [Validating Jenkinsfile in Vim and/or using CLI / terminal](https://gist.github.com/MorganGeek/2958ba47630a176733e0136b42557284)
 
 ### Custom WAR Docker Packager
 
@@ -475,9 +458,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Jenkins Plugins
 
 - [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin)
-- [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟](https://caylent.com/jenkins-plugins)
 - [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/)
-- [dzone: Top 5 Jenkins Plugins (2017)](https://dzone.com/articles/5-best-jenkins-plugins-recommended-by-our-team)
 - [devops.com: 15 must have Jenkins plugins to increase productivity](https://devops.com/15-must-jenkins-plugins-increase-productivity/)
 - [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)
 - [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/)
@@ -543,7 +524,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [QF-Test](https://plugins.jenkins.io/qftest/) is a cross-platform software tool for the GUI test automation specialized on Java and Web applications.
 - [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy/)
 - [Extensible Choice Parameter](https://plugins.jenkins.io/extensible-choice-parameter/)
-- [devopscurry.com: Best Jenkins Plugin for 2021 🌟](https://devopscurry.com/best-jenkins-plugins-for-2021/)
 - [Allure 🌟](https://plugins.jenkins.io/allure-jenkins-plugin/) This plugin allows to automatically generate [Allure Report](http://allure.qatools.ru/) and attach it to build during Jenkins job run.
 - [Amazon Web Services SDK](https://plugins.jenkins.io/aws-java-sdk/)
 - [Metrics](https://plugins.jenkins.io/metrics/) This plugin exposes the Metrics API to Jenkins plugins.
@@ -638,7 +618,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [Chrome Extension](https://chrome.google.com/webstore/detail/monitor-me-jenkins/jhbokpimjgedmpcmfoghhiokhpihlkgc)
 - [Jenkins plugin to provide automatic status for multibranch jobs (Grafana)](https://plugins.jenkins.io/github-autostatus)
     - [github.com/jenkinsci/github-autostatus-plugin](https://github.com/jenkinsci/github-autostatus-plugin)
-- [20 Jenkins Plugins You Can’t Live Without](https://caylent.com/jenkins-plugins)
 - [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)
 - [Jenkins opentelemetry-plugin 🌟](https://github.com/jenkinsci/opentelemetry-plugin) Publish Jenkins performances metrics to an OpenTelemetry endpoint, including distributed traces of job executions and health metrics of the controller. What if you could transform your jenkinsci pipeline into an observable transaction that can be analyzed using OpenTelemetry backends such as Elastic APM? Code analyzed via code?
 - [influxdata.com: Monitoring Jenkins CI with InfluxDB](https://www.influxdata.com/influxdb-templates/jenkins-monitoring/)
@@ -675,10 +654,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd)
 - [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker/)
 - [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff)
-- [getintodevops.com: the simplest way to run docker in docker](https://getintodevops.com/blog/the-simple-way-to-run-docker-in-docker-for-ci#%3A~%3AtargetText=Building+Docker+containers+with+Jenkins+inside+a+container)
 - Docker in Docker on EKS:
     - [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
-    - [ref2](https://github.com/weaveworks/eksctl/issues/942)
+    - [ref2](https://github.com/weaveworks/eksctl)
 
 ## CloudBees
 
@@ -710,7 +688,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ## Backup for Jenkins on Kubernetes
 
-- [igorzhivilo.com: Simple Backup for Jenkins on Kubernetes](https://igorzhivilo.com/jenkins/simple-backup-jenkins/) - [ref2: medium](https://medium.com/swlh/simple-backup-for-jenkins-on-kubernetes-f24743de7499)
 
 ## Jervis: Jenkins as a service
 
