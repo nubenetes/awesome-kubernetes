@@ -67,8 +67,14 @@ class SocialDataExtractor:
         
         self.log_diagnostic(f"[*] Intentando extracción Guest (Mobile Bypass) para {self.target_account}...")
         try:
-            # Sesión totalmente aislada con su propio conector
-            async with aiohttp.ClientSession(headers=headers, read_bufsize=2**16) as session:
+            # Aumentamos agresivamente los límites del parser de HTTP
+            # max_line_size y max_field_size controlan el tamaño máximo de una cabecera HTTP
+            async with aiohttp.ClientSession(
+                headers=headers, 
+                read_bufsize=2**17,      # 128KB buffer
+                max_line_size=65536,     # 64KB por línea de header (X usa CSPs gigantes)
+                max_field_size=65536     # 64KB por campo de header
+            ) as session:
                 async with session.get(url, timeout=self.timeout) as response:
                     if response.status != 200:
                         self.log_diagnostic(f"[!] Error en modo Guest: HTTP {response.status}")
@@ -79,12 +85,16 @@ class SocialDataExtractor:
                     
                     if "Log in to X" in html or "Sign up" in html:
                         self.log_diagnostic("[!] Detectado Login Wall. X requiere login.")
+                        self._update_learning("LoginWall")
                     
                     urls = self._extract_urls_from_text(html)
                     valid_urls = [u for u in urls if all(x not in u for x in ["x.com", "twitter.com", "t.co"])]
                     
                     if not valid_urls:
-                        self.log_diagnostic("[~] Scrape finalizado: 0 enlaces (Contenido dinámico no cargado).")
+                        self.log_diagnostic("[~] Scrape finalizado: 0 enlaces útiles encontrados.")
+                        self._update_learning("NoLinksFound")
+                    else:
+                        self._update_learning("Success")
                     
                     for url in set(valid_urls):
                         extracted_data.append({
@@ -95,8 +105,22 @@ class SocialDataExtractor:
                     
                     return extracted_data
         except Exception as e:
-            self.log_diagnostic(f"[!] Fallo crítico en extracción Guest: {e}")
+            err_msg = str(e)
+            self.log_diagnostic(f"[!] Fallo crítico en extracción Guest: {err_msg}")
+            if "8190" in err_msg:
+                self._update_learning("HeaderSizeLimit")
+            else:
+                self._update_learning("TechnicalError")
             return []
+
+    def _update_learning(self, failure_type: str):
+        learning_file = "src/memory/health_learning.json"
+        try:
+            with open(learning_file, 'r+') as f:
+                data = json.load(f)
+                data["last_x_failure"] = failure_type
+                f.seek(0); json.dump(data, f, indent=2); f.truncate()
+        except: pass
 
     async def fetch_links_since(self, since_date: datetime) -> list[dict]:
         # Cargar aprendizaje previo
