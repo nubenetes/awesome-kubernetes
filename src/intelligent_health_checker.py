@@ -247,30 +247,46 @@ class IntelligentLinkCleaner:
             status = "🧹 Limpio" if s['removed'] + s['modified'] < 3 else "🛠️ Refactor"
             if s['removed'] > 5: status = "⚠️ Crítico"
             report += f"| `{file}` | {s['removed']} | {s['modified']} | {s['created']} | {status} |\n"
-# Action Log con Truncado de Seguridad
-report += "\n### 📝 Registro Detallado (Log)\n<details><summary>Click para ver acciones</summary>\n\n"
-report += "| Archivo | Acción | URL / Recurso | Motivo |\n| :--- | :---: | :--- | :--- |\n"
+        # Action Log con Compresión Adaptativa
+        report += "\n### 📝 Registro de Acciones\n<details><summary>Ver detalle de cambios</summary>\n\n"
+        report += "| Archivo | Acción | Recurso (Acortado) | Motivo |\n| :--- | :---: | :--- | :--- |\n"
+        
+        is_compressed = False
+        current_len = len(report)
+        processed_logs = 0
+        
+        # Agrupar logs por archivo para poder comprimir si es necesario
+        from collections import defaultdict
+        logs_by_file = defaultdict(list)
+        for log in self.action_log:
+            logs_by_file[log["file"]].append(log)
 
-log_entries = []
-is_truncated = False
-current_len = len(report)
+        for file_path, actions in sorted(logs_by_file.items()):
+            if current_len > 55000: # Umbral de compresión agresiva
+                is_compressed = True
+                summary = f"| `{file_path}` | 🛠️ | *Múltiples enlaces* | Se procesaron {len(actions)} cambios en este archivo. |\n"
+                report += summary
+                current_len += len(summary)
+                continue
 
-for log in sorted(self.action_log, key=lambda x: x["file"]):
-    emoji = {"removed": "❌", "modified": "🔄", "created": "✨"}.get(log["action"], "❓")
-    entry = f"| `{log['file']}` | {emoji} | {log['url']} | {log['reason']} |\n"
+            for log in actions:
+                emoji = {"removed": "❌", "modified": "🔄", "created": "✨"}.get(log["action"], "❓")
+                # Acortar URL para ahorrar espacio
+                short_url = (log["url"][:45] + "...") if len(log["url"]) > 48 else log["url"]
+                entry = f"| `{log['file']}` | {emoji} | {short_url} | {log['reason']} |\n"
+                
+                if current_len + len(entry) > 62000:
+                    is_compressed = True
+                    break
+                
+                report += entry
+                current_len += len(entry)
+                processed_logs += 1
 
-    # Dejar margen de seguridad (64k es el límite, cortamos en 60k)
-    if current_len + len(entry) > 60000:
-        is_truncated = True
-        break
-
-    report += entry
-    current_len += len(entry)
-
-if is_truncated:
-    report += f"\n> ⚠️ **Log Truncado**: Se han omitido entradas adicionales para no exceder el límite de GitHub. Consulta los archivos modificados para ver todos los cambios.\n"
-
-report += "</details>\n\n"
+        if is_compressed:
+            report += f"\n> 💡 **Nota**: El log ha sido comprimido o truncado para cumplir con los límites de GitHub ({processed_logs}/{len(self.action_log)} acciones detalladas).\n"
+        
+        report += "</details>\n\n"
 report += f"\n---\n*📈 Inteligencia de dominios acumulada: `{len(self.learning_data['domains'])}`*"
 
 # Validación final de longitud
