@@ -25,8 +25,6 @@
 
 ## Java Performance Optimization
 
-- [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps
-- [DZone: String Concatenation's Effect on Performance](https://dzone.com/articles/string-concatentions-effect-on-performance) Don’t use the string concatenation operator to combine more than a few strings unless performance is irrelevant. Use StringBuilder’s append method instead.
 - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)
 - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained) An overview of the different components of the JVM, along with a very useful diagram
 - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes) Your Java application has been running fine, but all of a sudden CPU consumption starts to go higher and higher... sound familiar?
@@ -93,8 +91,6 @@ etc|
 
 - [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/)
 - [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
-- [dzone.com: Java RAM Usage in Containers: Top 5 Tips for Not Losing Your Memory](https://dzone.com/articles/java-ram-usage-in-containers-top-5-tips-not-to-los)
-- [dzone.com: Running a JVM in a Container Without Getting Killed:](https://dzone.com/articles/running-a-jvm-in-a-container-without-getting-kille) Starting in JDK 9, and earlier if you use JDK 8u131, your JVM can detect how much memory is available when running inside a Docker container.
 - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) If you've tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here's how to fix it.
 - [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d)
 - [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/)
@@ -109,7 +105,6 @@ etc|
 - [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
 - [VisualVM](https://en.wikipedia.org/wiki/VisualVM)
 - [OverOps](https://en.wikipedia.org/wiki/OverOps)
-- [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
 - etc
 
 ### Threadumps, Heapdumps and GC Analysis Tools
@@ -131,8 +126,6 @@ etc|
 - [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed)
 - [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)
 - [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/)
-- [cubrid.org: How to Tune Java Garbage Collection](http://www.cubrid.org/blog/dev-platform/how-to-tune-java-garbage-collection)
-- [DZone: Revisiting the Advanced Theories of ‘Java Garbage Collection’ 🌟](https://dzone.com/articles/revisiting-the-advanced-theories-of-java-garbage-c)
 - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag) In this article we will try to understand the Java memory model and how garbage collection works. In this article I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.
 - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) When you aren't using objects, but they aren't touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.
 - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)
