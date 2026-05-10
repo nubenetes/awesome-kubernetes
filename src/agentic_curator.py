@@ -13,7 +13,12 @@ class AgenticCurator:
         self.docs_dir = "docs"
         self.index_path = os.path.join(self.docs_dir, "index.md")
         self.mkdocs_path = "mkdocs.yml"
-        self.stats = {"orphans_found": 0, "orphans_linked": 0, "structural_improvements": 0}
+        self.stats = {
+            "orphans_found": 0, 
+            "orphans_linked": 0, 
+            "structural_improvements": 0,
+            "orphan_details": []
+        }
 
     def _get_all_docs(self) -> Set[str]:
         return {f for f in os.listdir(self.docs_dir) if f.endswith('.md')}
@@ -21,7 +26,8 @@ class AgenticCurator:
     def _get_nav_files(self) -> Set[str]:
         with open(self.mkdocs_path, 'r') as f:
             content = f.read()
-        return set(re.findall(r'[:\s]([a-zA-Z0-9_-]+\.md)', content))
+        # Captura archivos .md precedidos por ":" o espacio, terminando con salto de línea o espacio
+        return set(re.findall(r'[:\s]([a-zA-Z0-9_\-\./]+\.md)', content))
 
     def _get_index_links(self) -> Set[str]:
         with open(self.index_path, 'r') as f:
@@ -56,6 +62,11 @@ class AgenticCurator:
             if decision:
                 await self._apply_placement(orphan, decision)
                 self.stats["orphans_linked"] += 1
+                self.stats["orphan_details"].append({
+                    "file": orphan, 
+                    "title": decision.get("title"), 
+                    "category": decision.get("category")
+                })
 
     async def _ask_gemini_placement(self, filename: str, content: str) -> Dict:
         with open(self.mkdocs_path, 'r') as f:

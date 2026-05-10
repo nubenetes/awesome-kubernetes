@@ -225,12 +225,13 @@ class IntelligentLinkCleaner:
             except: pass
 
         report = "## 🧠 Nubenetes Autonomous Health & Curation Engine\n\n"
+        # Mermaid Pie Chart
         report += "### 📊 Distribución de Operaciones\n"
         report += "```mermaid\npie title Operaciones de Mantenimiento\n"
-        report += f"    \"Muertos (Eliminados)\" : {self.detailed_stats['operation_types']['removals']}\n"
-        report += f"    \"Archivados (Wayback)\" : {self.detailed_stats['operation_types']['archived']}\n"
-        report += f"    \"Consolidados (Git)\" : {self.detailed_stats['operation_types']['consolidated']}\n"
-        report += f"    \"Nuevos (Huérfanos)\" : {self.detailed_stats['operation_types']['orphans']}\n```\n\n"
+        report += f"    \"Eliminados\" : {self.detailed_stats['operation_types']['removals']}\n"
+        report += f"    \"Archivados\" : {self.detailed_stats['operation_types']['archived']}\n"
+        report += f"    \"Consolidados\" : {self.detailed_stats['operation_types']['consolidated']}\n"
+        report += f"    \"Nuevos\" : {self.detailed_stats['operation_types']['orphans']}\n```\n\n"
 
         report += "### 📈 Resumen de Eficiencia\n"
         report += f"| Métrica | Cantidad | Detalle |\n| :--- | :---: | :--- |\n"
@@ -257,11 +258,18 @@ class IntelligentLinkCleaner:
         self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=report, head=branch_name, base="master")
 
 async def main():
-    cleaner = IntelligentLinkCleaner()
-    await cleaner.build_global_registry()
-    await cleaner.validate_links_tiered()
-    await cleaner.curator.audit_navigation()
-    await cleaner.curator.suggest_reorganization()
-    await cleaner.apply_changes()
+    try:
+        cleaner = IntelligentLinkCleaner()
+        await cleaner.build_global_registry()
+        await cleaner.validate_links_tiered()
+        await cleaner.curator.audit_navigation()
+        await cleaner.curator.suggest_reorganization()
+        await cleaner.apply_changes()
+    except Exception as e:
+        import traceback
+        print(f"[CRITICAL ERROR]: {e}")
+        traceback.print_exc()
+        exit(1)
 
-if __name__ == "__main__": asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
