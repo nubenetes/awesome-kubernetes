@@ -9,7 +9,6 @@
 ## Introduction
 
 - [thenewstack.io: Chaos Engineering Is Not Just for Ops](https://thenewstack.io/chaos-engineering-is-not-just-for-ops/)
-- [==dzone: How to Pinpoint and Fix Distributed Problems Across Microservices==](https://dzone.com/articles/how-to-pinpoint-and-fix-distributed-problems-acros) While logical separation of APIs fosters parallel development of independent functions, complexity and interdependency becomes harder to manage.
 - [thenewstack.io: Why Chaos Engineering Isn’t Just for Operations](https://thenewstack.io/why-chaos-engineering-isnt-just-for-operations/)
 - [medium.com/adidoescode: Chaos Engineering: How simulating adversity can help build eCommerce Resilience](https://medium.com/adidoescode/chaos-engineering-how-simulating-adversity-can-help-build-ecommerce-resilience-4a799c8912dc)
 - [opsmx.com: What is Chaos Engineering?](https://www.opsmx.com/blog/what-is-chaos-engineering/)
@@ -21,7 +20,6 @@
 - [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other/)
 - [GitHub: kube-monkey](https://github.com/asobti/kube-monkey) An implementation of Netflix's Chaos Monkey for Kubernetes clusters
 - [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.comjoshmsmith/monkey-ops)
-- [chaoskube periodically kills random pods in your Kubernetes cluster](https://github.com/linkichaoskube)
 - [Chaos Mesh](https://github.com/pingcap/chaos-mesh)
 - [Litmus Chaos is a toolset to do chaos engineering in a kubernetes native way. Litmus provides chaos CRDs for Cloud-Native developers and SREs to inject, orchestrate and monitor chaos to find weaknesses in Kubernetes deployments](https://github.com/litmuschaos/litmus)
     - [cloud.redhat.com: Chaos Engineering With LitmusChaos](https://cloud.redhat.com/blog/chaos-engineering-with-litmuschaos)
@@ -40,7 +38,6 @@
     - Chaos Toolkit
     - KubeInvaders
 - [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
-- [devopscurry.com: How Chaos Engineering plays a vital role in devops success](https://devopscurry.com/how-chaos-engineering-plays-a-vital-role-in-devops-success)
 - [BuggyApp: Simulate performance problems](https://buggyapp.ycrash.io/) BuggyApp can simulate various performance problems like Memory Leak, OutOfMemoryError, CPU spike, thread leak StackOverflowError, deadlock, unresponsiveness and so on. [youtube: BuggyApp Demo](https://www.youtube.com/watch?v=exsv-RUrUFY&t=2s&ab_channel=yCrash)
 - [medium.com: Getting Started with Chaos Engineering](https://1829034.medium.com/getting-started-with-chaos-engineering-13e85a438d37)
 - [Chaos Mesh 🌟](https://chaos-mesh.org/) A Powerful Chaos Engineering Platform for Kubernetes - [github ref](https://github.com/chaos-mesh/chaos-mesh)
