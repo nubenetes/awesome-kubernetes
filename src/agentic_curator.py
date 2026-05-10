@@ -205,42 +205,73 @@ class AgenticCurator:
             f.writelines(mkdocs_lines)
 
     async def suggest_reorganization(self):
-        """Refactorización automática de categorías superpobladas (>15 links)."""
-        print("[*] Analizando densidad de categorías para refactorización...")
+        """
+        Analiza la estructura de los documentos para mejorar la jerarquía interna.
+        En lugar de dividir por número de links, busca coherencia temática y 
+        propone subsecciones (##, ###) o nuevas páginas solo si el tema es 
+        completamente disruptivo, manteniendo la navegación limpia.
+        """
+        print("[*] Analizando coherencia y jerarquía de categorías...")
         for category in NUBENETES_CATEGORIES:
             file_path = os.path.join(self.docs_dir, f"{category}.md")
             if not os.path.exists(file_path): continue
             
-            with open(file_path, 'r') as f:
-                content = f.read()
-            
-            links = re.findall(r'^\s*-\s*\[', content, re.MULTILINE)
-            if len(links) > 15:
-                print(f"    [!] Categoría '{category}' sobrepoblada ({len(links)} links). Dividiendo...")
-                await self._split_category(category, content)
+            # Solo analizamos archivos grandes para optimizar su estructura interna
+            if os.path.getsize(file_path) > 50000: # >50KB suele indicar mucha densidad
+                print(f"    [~] Analizando optimización jerárquica para '{category}'...")
+                await self._optimize_file_hierarchy(category, file_path)
 
-    async def _split_category(self, category: str, content: str):
+    async def _optimize_file_hierarchy(self, category: str, file_path: str):
+        with open(file_path, 'r') as f:
+            content = f.read()
+
         prompt = (
-            f"La categoría '{category}' de Nubenetes es demasiado grande.\n"
-            f"Contenido:\n{content[:5000]}\n\n"
-            "Propón una división en 2 o 3 subcategorías semánticas.\n"
-            "Responde JSON: {\"subcategories\": [{\"name\": \"cat-slug\", \"title\": \"Título\", \"links\": [\"línea completa del link\"]}]}"
+            f"Actúas como Arquitecto de Información para Nubenetes.\n"
+            f"El documento '{category}.md' tiene mucha información. No quiero dividirlo en muchos archivos pequeños.\n"
+            f"Prefiero una jerarquía profunda (Secciones ##, Subsecciones ###) dentro del mismo archivo.\n"
+            "Analiza este contenido y propón una nueva estructura de encabezados que agrupe mejor los links.\n"
+            "Si detectas un subtema que REALMENTE merece su propia página por ser muy distinto, dímelo.\n"
+            "Responde JSON: {\"internal_structure\": \"...contenido completo con nuevos encabezados...\", \"new_pages\": [{\"name\": \"...\", \"title\": \"...\", \"content\": \"...\", \"nav_parent\": \"...\"}]}"
         )
         
         api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
         try:
             async with httpx.AsyncClient() as client:
-                resp = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=40)
+                resp = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=60)
                 if resp.status_code == 200:
-                    data = json.loads(re.search(r'\{.*\}', resp.json()['candidates'][0]['content']['parts'][0]['text'], re.DOTALL).group(0))
-                    for sub in data['subcategories']:
-                        new_file = f"{sub['name']}.md"
-                        new_path = os.path.join(self.docs_dir, new_file)
-                        with open(new_path, 'w') as nf:
-                            nf.write(f"# {sub['title']}\n\n" + "\n".join(sub['links']))
-                        # Simular el registro para que main.py lo sepa (o se hará en el siguiente ciclo)
-                        self.stats["structural_improvements"] += 1
-        except: pass
+                    raw_text = resp.json()['candidates'][0]['content']['parts'][0]['text']
+                    data = json.loads(re.search(r'\{.*\}', raw_text, re.DOTALL).group(0))
+                    
+                    # 1. Aplicar reestructuración interna
+                    if data.get("internal_structure"):
+                        with open(file_path, 'w') as f:
+                            f.write(data["internal_structure"])
+                        print(f"    [+] Jerarquía interna optimizada en {category}.md")
+
+                    # 2. Gestionar nuevas páginas (solo si son estrictamente necesarias)
+                    for new_pg in data.get("new_pages", []):
+                        await self._create_and_link_new_page(new_pg)
+        except Exception as e:
+            print(f"    [!] Error en optimización jerárquica: {e}")
+
+    async def _create_and_link_new_page(self, page_data: Dict):
+        name = page_data["name"]
+        if not name.endswith(".md"): name += ".md"
+        path = os.path.join(self.docs_dir, name)
+        
+        # Crear el archivo
+        with open(path, 'w') as f:
+            f.write(f"# {page_data['title']}\n\n{page_data['content']}")
+        
+        print(f"    [+] Nueva página disruptiva creada: {name}")
+        
+        # Vincular de forma autónoma en mkdocs.yml (bajo el padre sugerido o sección lógica)
+        await self._apply_placement(name, {
+            "category": page_data.get("nav_parent", "More Resources"),
+            "title": page_data["title"],
+            "index_section": page_data.get("nav_parent", "Miscellaneous")
+        })
+        self.stats["structural_improvements"] += 1
 
     def validate_changes(self) -> bool:
         try:
