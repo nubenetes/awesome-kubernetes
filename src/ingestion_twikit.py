@@ -2,6 +2,7 @@ import asyncio
 import os
 import re
 import random
+import json
 import aiohttp
 from datetime import datetime
 from twikit import Client
@@ -12,6 +13,9 @@ class SocialDataExtractor:
         self.client = Client('en-US')
         self.target_account = target_account
         self.cookies_file = 'cookies.json'
+        # Límites de buffer aumentados para evitar errores de lectura de headers grandes
+        self.connector = aiohttp.TCPConnector(limit=10)
+        self.timeout = aiohttp.ClientTimeout(total=30)
         # User agents modernos, incluyendo móviles para evasión
         self.user_agents = [
             'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1',
@@ -22,7 +26,7 @@ class SocialDataExtractor:
     async def _authenticate(self) -> bool:
         try:
             # Intentamos obtener la IP para debug en logs
-            async with aiohttp.ClientSession() as s:
+            async with aiohttp.ClientSession(connector=self.connector) as s:
                 async with s.get('https://api.ipify.org') as r:
                     ip = await r.text()
                     print(f"[*] IP de ejecución: {ip}")
@@ -67,8 +71,14 @@ class SocialDataExtractor:
         
         print(f"[*] Intentando extracción Guest (Mobile Bypass) para {self.target_account}...")
         try:
-            async with aiohttp.ClientSession(headers=headers) as session:
-                async with session.get(url, timeout=15) as response:
+            # Aumentamos los límites del parser de HTTP para manejar headers enormes de X
+            async with aiohttp.ClientSession(
+                headers=headers, 
+                connector=self.connector,
+                read_bufsize=2**16 # 64KB buffer
+            ) as session:
+                # El parámetro 'max_line_size' y 'max_field_size' se pasan al HttpParser vía la sesión
+                async with session.get(url, timeout=self.timeout) as response:
                     if response.status != 200:
                         print(f"[!] Error en modo Guest: HTTP {response.status}")
                         return []
@@ -81,22 +91,13 @@ class SocialDataExtractor:
                     for ld_text in ld_matches:
                         try:
                             ld_data = json.loads(ld_text)
-                            # Analizar si contiene artículos/tweets
-                            # (X cambia esto a menudo, pero suele haber texto relevante)
                         except: continue
 
-                    # Estrategia 2: Regex de enlaces status/ (rápido y efectivo para pillar URLs de interés)
-                    # Si el tweet tiene una URL externa, a veces aparece en el contexto
-                    # Buscamos patrones de texto que parezcan contenido de tweet
-                    # Nota: Este método es limitado pero sobrevive a bloqueos de API.
-                    
-                    # Intentar extraer de __INITIAL_STATE__ si existe
+                    # Estrategia 2: Regex de enlaces status/
                     state_match = re.search(r'window\.__INITIAL_STATE__\s*=\s*({.*?});', html)
                     if state_match:
                         print("[+] Se encontró estado inicial de la página.")
-                        # Aquí se podría parsear el JSON profundamente si fuera necesario
                     
-                    # Por ahora, extraemos URLs directamente del HTML como fallback simple
                     urls = self._extract_urls_from_text(html)
                     for url in set(urls):
                         if "x.com" not in url and "twitter.com" not in url and "t.co" not in url:
