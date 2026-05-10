@@ -17,12 +17,12 @@ class RepositoryController:
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
         self._create_feature_branch(branch_name)
 
-        # Si no hay cambios en Markdowns, añadimos un cambio técnico para permitir abrir la PR con el reporte
+        # Garantizar que siempre haya al menos un commit (técnico) para abrir la PR
         if not updates:
             updates["src/memory/last_audit_run.json"] = json.dumps({
                 "timestamp": metrics.get("end_date"),
                 "total_extracted": metrics.get("total_extracted"),
-                "status": "Audit Only (No new links injected)"
+                "status": "Audit Only"
             }, indent=2)
 
         for file_path, content in updates.items():
@@ -43,10 +43,10 @@ class RepositoryController:
             except Exception as e:
                 print(f"Error procesando {file_path}: {e}")
 
-        # --- CONSTRUCCIÓN DEL REPORTE ÉLITE ---
+        # --- CONSTRUCCIÓN DEL REPORTE ---
         full_report = metrics.get('full_report', [])
         
-        # 1. Tabla Matricial de Auditoría
+        # 1. Tabla Matricial
         matrix_table = "### 📋 Matriz de Auditoría de Enlaces (Full Extraction)\n"
         matrix_table += "| Estado | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- |\n"
         
@@ -56,7 +56,6 @@ class RepositoryController:
             status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
             matrix_table += f"| {status_emoji} {item['status']} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
             counts[item['status']] = counts.get(item['status'], 0) + 1
-            
             if item['status'] == "INCLUDED":
                 src = item.get('source', 'Unknown')
                 source_counts[src] = source_counts.get(src, 0) + 1
@@ -74,19 +73,6 @@ class RepositoryController:
                 mermaid_origin += f"    \"{src}\" : {val}\n"
             mermaid_origin += "```\n"
 
-        # ... resto de la lógica ...
-        pr_narrative = (
-            f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
-            f"Este reporte detalla el procesamiento de **{metrics.get('total_extracted', 0)}** enlaces detectados.\n\n"
-            f"**Ventana Temporal:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
-            f"{mermaid_pie}\n"
-            f"{mermaid_origin}\n"
-            f"{x_log}\n"
-            f"{matrix_table}\n"
-            f"---\n"
-            f"**Nota de Evaluación:** Este PR incluye {len(metrics.get('added_list', []))} novedades reales."
-        )
-
         # 3. Log de Ingesta
         x_log = "### ⚡ Audit Trail de Ingesta (X.com)\n"
         for entry in metrics.get('x_audit', []):
@@ -97,11 +83,12 @@ class RepositoryController:
             f"Este reporte detalla el procesamiento de **{metrics.get('total_extracted', 0)}** enlaces detectados.\n\n"
             f"**Ventana Temporal:** `{metrics.get('start_date')}` ➔ `{metrics.get('end_date')}`\n\n"
             f"{mermaid_pie}\n"
+            f"{mermaid_origin}\n"
             f"{x_log}\n"
             f"{matrix_table}\n"
             f"---\n"
             f"**Nota de Evaluación:** Este PR incluye {len(metrics.get('added_list', []))} novedades reales. "
-            f"La ventana temporal se ha calculado automáticamente basándose en el último PR mergeado con éxito."
+            f"Ventana temporal automática basada en el histórico de merges."
         )
 
         self.repository.create_pull(
