@@ -4,6 +4,7 @@ import re
 import random
 import json
 import aiohttp
+from typing import List, Dict, Set, Optional
 from datetime import datetime
 from twikit import Client
 from src.config import MADRID_TZ, TWITTER_USERNAME, TWITTER_EMAIL, TWITTER_PASSWORD
