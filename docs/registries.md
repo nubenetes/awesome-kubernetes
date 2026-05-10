@@ -42,7 +42,6 @@
     - They support any git server and let you build advanced workflows by doing things like mapping git branches to Docker tags so that when you commit code it automatically builds a corresponding image.
     - Quay offers unlimited free public repositories. Otherwise, you pay by the number of private repositories. There’s no extra charge for storage or bandwidth.
 - [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers): support for multiple architectures, Windows containers, and a [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)-based image to this container image registry.
-- [Quay 3.1 released in September 2019](https://www.redhat.com/en/blog/red-hat-quay-31-now-even-better-across-distributed-environments): The newest Quay feature is repository mirroring, which complements our existing geographic replication features. Repository mirroring reflects content between distinct, different registries. With this, you can synchronize whitelisted repositories or a source registry subset into Quay. This makes it much easier to distribute images and related data through Quay. 
 - [Quay Community Edition operator](https://github.com/redhat-cop/quay-operator)
 - [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.openshift.com/products/quay)
 - Open Source [ProjectQuay.io](https://www.projectquay.io/) Container Registry: 
@@ -58,7 +57,6 @@
 ### Getting Started
 
 - [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven)
-- [Dzone: Nexus Guide Update January 2018](https://dzone.com/articles/nexus-guide-update-january-2018)
 
 ### Setup Nexus Kubernetes. Run nexus3 with docker in a kubernetes cluster
 
@@ -71,7 +69,6 @@
 
 - [Docker Registry](https://help.sonatype.com/repomanager3/formats/docker-registry)
 - [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://blog.sonatype.com/using-nexus-3-as-your-repository-part-3-docker-images)
-- [Dzone: Setting up a docker private registry with authentication](https://dzone.com/articles/setting-up-a-docker-private-registry-with-authenti)
 - [sonatype: how to delete docker images from Nexus Repository Manager](https://support.sonatype.com/hc/en-us/articles/360009696054-How-to-delete-docker-images-from-Nexus-Repository-Manager)
 - [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8)
 
@@ -92,7 +89,6 @@
 - [Test an insecure registry 🌟](https://docs.docker.com/registry/insecure/)
 - [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry)
 - [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159)
-- [Add Insecure Registry to Docker](https://intellipaat.com/community/19079/add-insecure-registry-to-docker)
 
 ### Jenkins Integration with Nexus
 
@@ -123,9 +119,7 @@
 - [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry/)
 - [JFrog Container Registry](https://jfrog.com/container-registry/) The world’s most advanced, powerful, hybrid Docker and Helm registry. Power your world of Docker without limits.
 - [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production/)
-- [jfrog.com: Control Your Kubernetes Voyage with JFrog Artifactory 🌟](https://jfrog.com/blog/control-your-kubernetes-voyage-with-artifactory/) 5-Step Kubernetes CI/CD Process using Artifactory & Helm
 - [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog)
-- [jfrog.com: JFrog and Docker Partner to Combine the Power of JFrog Artifactory and Docker Hub to Improve Quality, Performance, and Developer Experience for Modern Application Development](https://jfrog.com/press/jfrog-docker-partner-to-combine-the-power-jfrog-artifactory-docker-hub/)
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
 - [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops/)
 - [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) JFrog’s software is similarly disruptive as MongoDB’s, and likewise its cloud offering is growing faster than the overall company.
