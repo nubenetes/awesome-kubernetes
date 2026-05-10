@@ -50,11 +50,8 @@
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
 - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
 - [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
-- [Dzone: 5 Tips for Better REST API Design](https://dzone.com/articles/my-5-tips-for-better-restapi-design) Good API design is difficult. Maintaining backwards compatibility, effectively testing, handling upgrades, etc. is hard to manage. Check out this guide for help!
 - [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway/)
 - [redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟](https://www.redhat.com/architect/apis-soap-rest-graphql-grpc) There are many strategies for data exchange. Here's a primer on four essentials.
-- [dev.to: Why RESTful API rules are not enough or good for you to design good apis?](https://dev.to/calidion/why-restful-api-rules-are-not-enough-or-good-for-you-to-design-good-apis-3530)
-- [dzone: Why Is REST API Architecture Gaining Popularity in the Digital Industry? 🌟](https://dzone.com/articles/why-is-rest-api-architecture-gaining-popularity-in)
 - [amazicworld.com: Why APIs can’t be missed when it comes to DevOps](https://amazicworld.com/why-apis-cant-be-missed-when-it-comes-to-devops/)
 - [medium: API Gateway Part 1](https://medium.com/easyread/api-gateway-part-1-7901ba703f9) Understanding how API Gateway Works
     - [medium: API Gateway Part 2](https://medium.com/easyread/api-gateway-part-2-7264ee5be187)
@@ -157,7 +154,6 @@
 - [OpenAPI](https://www.openapis.org/) (f.k.a Swagger) has introduced a set of standardized specifications for REST APIs that, among many things, allows producers and consumers of APIs to work together in designing an API before even writing a single line of code! This design-first approach has improved the experience of API developers by giving them the opportunity to use tools like [OpenAPI generator](https://openapi-generator.tech/) which takes an OpenAPI definition and generates scaffolding code for backenders, making the development of APIs much faster.
 - [Wikipedia: OpenAPI Specification 🌟](https://en.wikipedia.org/wiki/OpenAPI_Specification)
 - [OpenAPI FAQ. What is OpenAPI Specification (OAS)? OpenAPI Specification](https://www.openapis.org/faq) The OAS defines a standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
-- [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
 ### RPC API Protocol (Remote Procedure Call)
 
@@ -220,7 +216,6 @@
 
 - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/)
 - [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) Learn the primary differences between REST and SOAP APIs, each one's benefits, and when it's appropriate to use the two.
-- [dzone: Web Services Architecture – When to Use SOAP vs REST](https://dzone.com/articles/web-services-architecture) Learn why SOAP (Simple Object Access Protocol) and REST (Representation State Transfer) are popular with developers working on system integration projects.
 - [dzone: Comparing RESTful APIs and SOAP APIs Using MuleSoft as an Example](https://dzone.com/articles/comparing-restful-apis-and-soap-apis)
 - [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en/content/webservices-soap-and-rest-a-simple-introduction)
     - SOAP is a communications protocol while REST is a set of architectural principles for data transmission.
@@ -266,7 +261,6 @@
 - [thenewstack.io: Why Backend Developers Should Fall in Love with GraphQL too](https://thenewstack.io/why-backend-developers-should-fall-in-love-with-graphql-too/)
 - [blog.dream11engineering.com: Lessons learned from running GraphQL at scale](https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb)
 - [world.hey.com: Another REST vs GraphQL comparison](https://world.hey.com/sammy.henningsson/another-rest-vs-graphql-comparison-8e8357bb)
-- [dzone: A Schema Architecture for Microservices](https://dzone.com/articles/a-schema-architecture-for-microservices)
 - [medium.datadriveninvestor.com: Everything You Wanted to Know About GraphQL (But Were Afraid to Ask)](https://medium.datadriveninvestor.com/everything-you-wanted-to-know-about-graphql-but-were-afraid-to-ask-ad66980116cb) API’s are Everywhere now. So, modern developers need an efficient Query Language, GraphQL. Learn everything about this query language used by Twitter, Facebook, Github, Shopify, Pinterest and thousands more.
 - [betterprogramming.pub: Building GraphQL Server Using Schema-first Approach in Python](https://betterprogramming.pub/building-graphql-server-using-schema-first-approach-in-python-68aeee38bcc3) Handle CRUD operations with ease
 
