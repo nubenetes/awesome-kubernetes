@@ -29,7 +29,8 @@ async def _deep_fetch_content(url: str) -> str:
 
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
-    api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    # Usar v1beta para mayor compatibilidad con gemini-1.5-flash
+    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     
     memory_file = "src/memory/health_learning.json"
     domain_blacklist = set()
@@ -40,63 +41,69 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                 domain_blacklist = set(memory_data.get("blacklisted_domains", []))
         except: pass
 
-    for asset in raw_assets:
-        domain = asset['url'].split("//")[-1].split("/")[0]
-        if domain in domain_blacklist:
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra de reputación"}
-            continue
+    async with httpx.AsyncClient() as client:
+        for asset in raw_assets:
+            domain = asset['url'].split("//")[-1].split("/")[0]
+            if domain in domain_blacklist:
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra de reputación"}
+                continue
 
-        web_content = await _deep_fetch_content(asset['url'])
-        context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
-        
-        prompt = (
-            "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
-            "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
-            "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total.\n\n"
-            f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
-            "INSTRUCCIONES:\n"
-            "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos.\n"
-            "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X).\n"
-            "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'. Si es técnico pero no sabes dónde, usa 'kubernetes-tools'.\n\n"
-            f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:1500]}\n\n"
-            "Evalúa (1-100):\n"
-            "- >80: Recurso excepcional (🌟).\n"
-            "- >1: Aceptar (si es técnico o útil).\n\n"
-            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"rejection_reason\": \"... (si aplica)\"}"
-        )
+            web_content = await _deep_fetch_content(asset['url'])
+            context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
+            
+            prompt = (
+                "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
+                "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
+                "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total.\n\n"
+                f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
+                "INSTRUCCIONES:\n"
+                "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos.\n"
+                "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X).\n"
+                "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'. Si es técnico pero no sabes dónde, usa 'kubernetes-tools'.\n\n"
+                f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:1500]}\n\n"
+                "Evalúa (1-100):\n"
+                "- >80: Recurso excepcional (🌟).\n"
+                "- >1: Aceptar (si es técnico o útil).\n\n"
+                "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"rejection_reason\": \"... (si aplica)\"}"
+            )
 
-        try:
-            async with httpx.AsyncClient() as client:
-                response = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=35)
-                if response.status_code == 200:
-                    text_resp = response.json()['candidates'][0]['content']['parts'][0]['text']
-                    match = re.search(r'\{.*\}', text_resp, re.DOTALL)
-                    if match:
-                        data = json.loads(match.group(0))
-                        score = data.get("impact_score", 50)
-                        
-                        valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
-                        
-                        if score < 1:
-                            evaluations[asset["url"]] = {"status": "FILTERED", "reason": data.get("rejection_reason", "Bajo impacto técnico")}
-                            if score < -50: domain_blacklist.add(domain) # Solo blacklist si es basura extrema
-                        elif not valid_cats:
-                            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No se encontró categoría técnica válida"}
+            # Reintento exponencial simple
+            for attempt in range(3):
+                try:
+                    response = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=35)
+                    if response.status_code == 200:
+                        text_resp = response.json()['candidates'][0]['content']['parts'][0]['text']
+                        match = re.search(r'\{.*\}', text_resp, re.DOTALL)
+                        if match:
+                            data = json.loads(match.group(0))
+                            score = data.get("impact_score", 50)
+                            valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
+                            
+                            if score < 1:
+                                evaluations[asset["url"]] = {"status": "FILTERED", "reason": data.get("rejection_reason", "Bajo impacto técnico")}
+                            elif not valid_cats:
+                                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No se encontró categoría técnica válida"}
+                            else:
+                                evaluations[asset["url"]] = {
+                                    "status": "INCLUDED", "title": data["title"], "description": data["desc"],
+                                    "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80
+                                }
+                            break
                         else:
-                            evaluations[asset["url"]] = {
-                                "status": "INCLUDED",
-                                "title": data["title"],
-                                "description": data["desc"],
-                                "category": valid_cats[0],
-                                "impact_score": score,
-                                "is_exceptional": score > 80
-                            }
+                            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "IA retornó formato inválido"}
+                            break
+                    elif response.status_code == 429: # Rate limit
+                        await asyncio.sleep(2 ** attempt + random.random())
+                        continue
                     else:
-                        evaluations[asset["url"]] = {"status": "FILTERED", "reason": "IA retornó formato inválido"}
-                else:
-                    evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error API Gemini: {response.status_code}"}
-        except Exception as e:
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error procesamiento: {str(e)[:50]}"}
+                        evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error API Gemini: {response.status_code}"}
+                        break
+                except Exception as e:
+                    if attempt == 2:
+                        evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error procesamiento: {str(e)[:50]}"}
+                    await asyncio.sleep(1)
+            
+            await asyncio.sleep(0.5) # Evitar saturar la API
             
     if domain_blacklist:
         try:
