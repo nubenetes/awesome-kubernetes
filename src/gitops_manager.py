@@ -45,21 +45,40 @@ class RepositoryController:
         # --- CONSTRUCCIÓN DEL REPORTE ---
         full_report = metrics.get('full_report', [])
         
-        # 1. Tabla Matricial con Índice Numérico y Fecha
+        # 1. Tabla Matricial con Índice Numérico y Fecha (Priorizando INCLUDED)
+        # Ordenamos para que los INCLUDED salgan primero en el reporte del PR
+        sorted_report = sorted(full_report, key=lambda x: 0 if x['status'] == 'INCLUDED' else 1)
+        
         matrix_table = "### 📋 Matriz de Auditoría de Enlaces (Full Extraction)\n"
         matrix_table += "| # | Estado | Fecha Post | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
         
         counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
         source_counts = {}
-        for idx, item in enumerate(full_report[:500], 1):
+        
+        # Construcción segura para no exceder el límite de GH (65k chars)
+        current_table_rows = ""
+        is_truncated = False
+        
+        for idx, item in enumerate(sorted_report, 1):
             status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
             date_str = item.get('post_date', 'N/A')[:10] if item.get('post_date') else 'N/A'
             
-            matrix_table += f"| {idx} | {status_emoji} {item['status']} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
+            row = f"| {idx} | {status_emoji} {item['status']} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n"
+            
+            # Si la tabla ya es muy grande (~45k chars), truncamos para dejar espacio al resto del PR
+            if len(current_table_rows) < 45000:
+                current_table_rows += row
+            else:
+                is_truncated = True
+                
             counts[item['status']] = counts.get(item['status'], 0) + 1
             if item['status'] == "INCLUDED":
                 src = item.get('source', 'Unknown')
                 source_counts[src] = source_counts.get(src, 0) + 1
+
+        matrix_table += current_table_rows
+        if is_truncated:
+            matrix_table += f"\n> ⚠️ **Nota:** El reporte se ha truncado debido al límite de caracteres de GitHub. Se muestran los primeros {idx-1} de {len(full_report)} elementos procesados.\n"
 
         # 2. Diagnóstico de Extracción Histórica
         extraction_audit = "### 🕵️ Diagnóstico de Horizonte Temporal\n"
@@ -73,8 +92,8 @@ class RepositoryController:
 
         if actual_oldest != "N/A" and actual_oldest > start_date_str:
             extraction_audit += f"⚠️ **Límite Alcanzado:** Se solicitó desde `{start_date_str}`, pero la extracción se detuvo en `{actual_oldest}`.\n"
-            extraction_audit += "- **Motivo:** X.com limita el scroll infinito en perfiles públicos sin sesión persistente o se alcanzó el límite de 1000 enlaces.\n"
-            extraction_audit += "- **Acción Recomendada:** Si faltan posts críticos de Oct 2024, intenta eliminar manualmente posts irrelevantes o Pinned Posts antiguos para 'limpiar' el timeline que ve el bot.\n"
+            extraction_audit += "- **Motivo:** X.com limita el scroll infinito o se alcanzó el límite de 1000 enlaces.\n"
+            extraction_audit += "- **Acción Recomendada:** Para llegar a Oct 2024 exacto, el bot usa búsqueda avanzada. Si no lo logra, puede ser por densidad de posts.\n"
         else:
             extraction_audit += f"✅ **Horizonte Alcanzado:** La extracción cubrió exitosamente desde `{start_date_str}`.\n"
 
@@ -105,8 +124,8 @@ class RepositoryController:
             f"{x_log}\n"
             f"{matrix_table}\n"
             f"---\n"
-            f"**Nota de Evaluación:** Se ha bajado el umbral de filtrado para incluir más contenido relevante aunque no sea destacado. "
-            f"Se han analizado hasta {len(full_report)} elementos en esta ejecución."
+            f"**Nota de Evaluación:** Se ha analizado exitosamente el histórico. "
+            f"Se han procesado un total de {len(full_report)} elementos."
         )
 
         self.repository.create_pull(
