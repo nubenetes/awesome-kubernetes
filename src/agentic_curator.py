@@ -29,8 +29,12 @@ async def _deep_fetch_content(url: str) -> str:
 
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
-    # Usar v1beta para mayor compatibilidad con gemini-1.5-flash
-    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    # Revertir a v1 y asegurar que la clave existe
+    if not GEMINI_API_KEY:
+        print("[!] ERROR CRÍTICO: GEMINI_API_KEY no encontrada en el entorno.")
+        return {a["url"]: {"status": "FILTERED", "reason": "Configuración: API KEY faltante"} for a in raw_assets}
+
+    api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     
     memory_file = "src/memory/health_learning.json"
     domain_blacklist = set()
@@ -96,6 +100,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         await asyncio.sleep(2 ** attempt + random.random())
                         continue
                     else:
+                        # Si da 404, podría ser que el modelo flash no esté disponible en esa región, probamos con alias genérico
+                        if response.status_code == 404 and "gemini-1.5-flash" in api_url:
+                            api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key={GEMINI_API_KEY}"
+                            continue
                         evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error API Gemini: {response.status_code}"}
                         break
                 except Exception as e:
