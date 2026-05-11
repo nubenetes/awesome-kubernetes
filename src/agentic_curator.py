@@ -49,18 +49,19 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> List[Dict]:
         
         prompt = (
             "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
-            "Tu misión es identificar contenido TÉCNICO de alta calidad sobre Kubernetes y el ecosistema Cloud Native.\n"
+            "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
+            "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total (publicidad agresiva, error 404, o contenido no técnico).\n\n"
             f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
-            "REGLAS DE FILTRADO:\n"
-            "1. EXCLUYE: Marketing genérico, noticias de negocios sin impacto técnico, enlaces rotos, o contenido autopromocional sin valor educativo.\n"
-            "2. PRIORIZA: Tutoriales 'hands-on', nuevas herramientas open-source, guías de arquitectura, seguridad avanzada y Model Context Protocol (MCP).\n"
-            "3. ASIGNACIÓN: Si es sobre MCP, asígnalo obligatoriamente a 'ai-agents-mcp'.\n\n"
-            f"URL: {asset['url']}\nContexto: {context}\nWeb: {web_content}\n\n"
-            "Evalúa el IMPACTO TÉCNICO y PROFUNDIDAD (1-100):\n"
+            "INSTRUCCIONES:\n"
+            "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos según su temática.\n"
+            "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X) ya que suele explicar por qué se compartió.\n"
+            "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'.\n\n"
+            f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:2000]}\n\n"
+            "Evalúa el IMPACTO TÉCNICO (1-100):\n"
             "- >80: Recurso excepcional (🌟).\n"
-            "- >10: Aceptar si está relacionado con la temática.\n"
-            "- <10: Descartar (Ruido absoluto).\n\n"
-            "Responde SOLAMENTE un JSON: {\"is_exceptional\": bool, \"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\"}"
+            "- >5: Aceptar (si encaja en alguna categoría).\n"
+            "- <5: Descartar (Ruido absoluto).\n\n"
+            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\"}"
         )
 
         try:
@@ -72,17 +73,19 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> List[Dict]:
                     if match:
                         data = json.loads(match.group(0))
                         score = data.get("impact_score", 50)
-                        if score < 10:
+                        if score < 5:
                             domain_blacklist.add(domain)
                             continue
-                        if data.get("is_exceptional") or score >= 10:
-                            for cat in data.get("categories", []):
-                                if cat in NUBENETES_CATEGORIES:
-                                    curated_assets.append({
-                                        "url": asset["url"], "title": data["title"],
-                                        "description": data["desc"], "category": cat,
-                                        "impact_score": score, "is_exceptional": data.get("is_exceptional", False)
-                                    })
+                        
+                        # Si no hay categorías válidas, no podemos inyectar
+                        valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
+                        if valid_cats:
+                            for cat in valid_cats:
+                                curated_assets.append({
+                                    "url": asset["url"], "title": data["title"],
+                                    "description": data["desc"], "category": cat,
+                                    "impact_score": score, "is_exceptional": score > 80
+                                })
         except: pass
             
     if domain_blacklist:
