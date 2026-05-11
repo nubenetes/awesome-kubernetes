@@ -48,31 +48,33 @@ async def master_orchestrator():
     
     if all_raw_assets:
         print(f"[*] Evaluando {len(all_raw_assets)} candidatos con Gemini...")
-        curated = await evaluate_extracted_assets(all_raw_assets)
+        evaluations = await evaluate_extracted_assets(all_raw_assets)
         
-        curated_urls = {a["url"]: a for a in curated}
         for asset in all_raw_assets:
             url = asset["url"]
             clean_url = url.split('#')[0].rstrip('/')
             
-            status = "INCLUDED"
-            reason = "Aceptado"
+            evaluation = evaluations.get(url, {"status": "FILTERED", "reason": "No evaluado por IA"})
+            status = evaluation["status"]
+            reason = evaluation.get("reason", "Aceptado")
+            category = evaluation.get("category", "N/A")
             
             if clean_url in [u.split('#')[0].rstrip('/') for u in existing_urls]:
                 status = "DUPLICATE"
                 reason = "Ya existe en Nubenetes.com"
-            elif url not in curated_urls:
-                status = "FILTERED"
-                reason = "Bajo impacto o contenido no bookmark"
             
             if status == "INCLUDED":
-                unique_new_assets.append(curated_urls[url])
+                unique_new_assets.append({
+                    "url": url, "title": evaluation["title"],
+                    "description": evaluation["description"], "category": category,
+                    "impact_score": evaluation["impact_score"]
+                })
             
             full_extraction_report.append({
                 "url": url,
                 "status": status,
                 "reason": reason,
-                "category": curated_urls[url]["category"] if url in curated_urls else "N/A",
+                "category": category,
                 "source": asset.get("source_type", "Unknown"),
                 "post_date": asset.get("timestamp")
             })
