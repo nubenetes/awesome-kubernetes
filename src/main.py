@@ -21,8 +21,9 @@ async def master_orchestrator():
     print(f"[*] FORZANDO CURADURÍA HISTÓRICA desde: {time_horizon.date()}")
 
     # 2. Ingesta Multi-fuente
+    strategy = os.getenv("EXTRACTION_STRATEGY", "scroll")
     twitter_client = SocialDataExtractor()
-    raw_social = await twitter_client.fetch_links_since(time_horizon)
+    raw_social = await twitter_client.fetch_links_since(time_horizon, strategy=strategy)
     x_audit_trail = twitter_client.audit_trail
     
     print("[*] Buscando novedades en GitHub Trending...")

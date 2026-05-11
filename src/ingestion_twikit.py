@@ -40,7 +40,7 @@ class SocialDataExtractor:
                 valid_urls.append(u)
         return list(set(valid_urls))
 
-    async def _fetch_via_playwright(self, since_date: datetime) -> list[dict]:
+    async def _fetch_via_playwright(self, since_date: datetime, strategy: str = "scroll") -> list[dict]:
         try:
             from playwright.async_api import async_playwright
             import playwright_stealth
@@ -48,7 +48,7 @@ class SocialDataExtractor:
             self.log_audit("Playwright", False, "Librerías no disponibles.")
             return []
         
-        self.log_audit("Playwright Browser", None, f"Cronología: Desde {since_date.date()} hasta hoy.")
+        self.log_audit(f"Playwright ({strategy})", None, f"Cronología: Desde {since_date.date()} hasta hoy.")
         results = []
         
         try:
@@ -75,13 +75,17 @@ class SocialDataExtractor:
                         await context.add_cookies(formatted)
                     except: pass
 
-                import urllib.parse
-                search_query = f"from:{self.target_account} since:{since_date.date().isoformat()}"
-                encoded_query = urllib.parse.quote(search_query)
-                search_url = f"https://x.com/search?q={encoded_query}&f=live"
-                
-                self.log_audit("Advanced Search", None, f"Query: {search_query}")
-                await page.goto(search_url, wait_until="domcontentloaded", timeout=90000)
+                if strategy == "search":
+                    import urllib.parse
+                    search_query = f"from:{self.target_account} since:{since_date.date().isoformat()}"
+                    encoded_query = urllib.parse.quote(search_query)
+                    target_url = f"https://x.com/search?q={encoded_query}&f=live"
+                    self.log_audit("Advanced Search", None, f"Query: {search_query}")
+                else:
+                    target_url = f"https://x.com/{self.target_account}"
+                    self.log_audit("Profile Scroll", None, "Navegando al muro directo.")
+
+                await page.goto(target_url, wait_until="domcontentloaded", timeout=90000)
                 await asyncio.sleep(15)
                 
                 stop_scrolling = False
@@ -94,16 +98,17 @@ class SocialDataExtractor:
                     articles = await page.query_selector_all('article[data-testid="tweet"]')
                     
                     if not articles and scroll_count > 5:
-                        self.log_audit("Extraction", False, "No se detectan más tweets en la búsqueda.")
+                        self.log_audit("Extraction", False, "No se detectan más tweets en el DOM.")
                         break
 
                     for article in articles:
-                        # 1. Ignorar Pinned Posts (Post Fijo)
-                        social_context = await article.query_selector('[data-testid="socialContext"]')
-                        if social_context:
-                            sc_text = await social_context.inner_text()
-                            if "Fijado" in sc_text or "Pinned" in sc_text:
-                                continue
+                        # 1. Ignorar Pinned Posts (Solo en Profile Scroll)
+                        if strategy == "scroll":
+                            social_context = await article.query_selector('[data-testid="socialContext"]')
+                            if social_context:
+                                sc_text = await social_context.inner_text()
+                                if "Fijado" in sc_text or "Pinned" in sc_text:
+                                    continue
 
                         # 2. Extraer Fecha
                         time_el = await article.query_selector('time')
@@ -135,7 +140,7 @@ class SocialDataExtractor:
                                 collected_tweets[u] = {
                                     "url": u, "context": tweet_text[:200], 
                                     "timestamp": tweet_dt.isoformat(),
-                                    "source_type": "X.com (@nubenetes)"
+                                    "source_type": f"X.com ({strategy})"
                                 }
                                 if len(collected_tweets) >= target_link_count:
                                     stop_scrolling = True
@@ -148,7 +153,7 @@ class SocialDataExtractor:
                     scroll_count += 1
                 
                 if not stop_scrolling and scroll_count >= max_scrolls:
-                    self.log_audit("Scrolling", False, f"Alcanzado límite de scrolls ({max_scrolls}) en búsqueda avanzada.")
+                    self.log_audit("Scrolling", False, f"Alcanzado límite de scrolls ({max_scrolls}) usando {strategy}.")
                 
                 await browser.close()
                 
@@ -161,8 +166,8 @@ class SocialDataExtractor:
             self.log_audit("Playwright", False, str(e)[:60])
         return []
 
-    async def fetch_links_since(self, since_date: datetime) -> list[dict]:
-        play_links = await self._fetch_via_playwright(since_date)
+    async def fetch_links_since(self, since_date: datetime, strategy: str = "scroll") -> list[dict]:
+        play_links = await self._fetch_via_playwright(since_date, strategy=strategy)
         if play_links: 
             self.log_audit("Estrategia Playwright", True, f"Recuperados {len(play_links)} bookmarks ordenados cronológicamente.")
             return play_links

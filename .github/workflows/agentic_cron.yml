@@ -4,6 +4,18 @@ on:
   schedule:
     - cron: '0 5 * * 0'
   workflow_dispatch:
+    inputs:
+      extraction_strategy:
+        description: 'Estrategia de Extracción'
+        required: true
+        default: 'scroll'
+        type: choice
+        options:
+          - scroll
+          - search
+        # Explicación para el usuario:
+        # scroll: MÁS EXHAUSTIVO. Simula navegación humana. Captura TODO, pero puede ser limitado por X en fechas muy antiguas.
+        # search: MÁS FIABLE PARA 2024. Usa búsqueda avanzada. Llega siempre a la fecha, pero el algoritmo de X puede filtrar posts.
 
 permissions:
   contents: write
@@ -35,6 +47,7 @@ jobs:
           TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'scroll' }}
           PYTHONPATH: .
         run: |
           python src/main.py
