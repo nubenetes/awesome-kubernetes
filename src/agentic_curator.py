@@ -7,6 +7,7 @@ import random
 from typing import List, Dict, Set, Optional
 from src.config import GEMINI_API_KEY, GH_TOKEN, TARGET_REPO, NUBENETES_CATEGORIES
 from src.gitops_manager import RepositoryController
+from src.gemini_utils import call_gemini_with_retry
 
 # Silenciar advertencias de XML/HTML
 import warnings
@@ -34,8 +35,6 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         print("[!] ERROR CRÍTICO: GEMINI_API_KEY no encontrada en el entorno.")
         return {a["url"]: {"status": "FILTERED", "reason": "Configuración: API KEY faltante"} for a in raw_assets}
 
-    api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
-    
     memory_file = "src/memory/health_learning.json"
     domain_blacklist = set()
     if os.path.exists(memory_file):
@@ -45,73 +44,49 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                 domain_blacklist = set(memory_data.get("blacklisted_domains", []))
         except: pass
 
-    async with httpx.AsyncClient() as client:
-        for asset in raw_assets:
-            domain = asset['url'].split("//")[-1].split("/")[0]
-            if domain in domain_blacklist:
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra de reputación"}
-                continue
+    for asset in raw_assets:
+        domain = asset['url'].split("//")[-1].split("/")[0]
+        if domain in domain_blacklist:
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra de reputación"}
+            continue
 
-            web_content = await _deep_fetch_content(asset['url'])
-            context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
-            
-            prompt = (
-                "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
-                "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
-                "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total.\n\n"
-                f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
-                "INSTRUCCIONES:\n"
-                "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos.\n"
-                "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X).\n"
-                "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'. Si es técnico pero no sabes dónde, usa 'kubernetes-tools'.\n\n"
-                f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:1500]}\n\n"
-                "Evalúa (1-100):\n"
-                "- >80: Recurso excepcional (🌟).\n"
-                "- >1: Aceptar (si es técnico o útil).\n\n"
-                "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"rejection_reason\": \"... (si aplica)\"}"
-            )
+        web_content = await _deep_fetch_content(asset['url'])
+        context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
+        
+        prompt = (
+            "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
+            "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
+            "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total.\n\n"
+            f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
+            "INSTRUCCIONES:\n"
+            "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos.\n"
+            "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X).\n"
+            "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'. Si es técnico pero no sabes dónde, usa 'kubernetes-tools'.\n\n"
+            f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:1500]}\n\n"
+            "Evalúa (1-100):\n"
+            "- >80: Recurso excepcional (🌟).\n"
+            "- >1: Aceptar (si es técnico o útil).\n\n"
+            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"rejection_reason\": \"... (si aplica)\"}"
+        )
 
-            # Reintento exponencial simple
-            for attempt in range(3):
-                try:
-                    response = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=35)
-                    if response.status_code == 200:
-                        text_resp = response.json()['candidates'][0]['content']['parts'][0]['text']
-                        match = re.search(r'\{.*\}', text_resp, re.DOTALL)
-                        if match:
-                            data = json.loads(match.group(0))
-                            score = data.get("impact_score", 50)
-                            valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
-                            
-                            if score < 1:
-                                evaluations[asset["url"]] = {"status": "FILTERED", "reason": data.get("rejection_reason", "Bajo impacto técnico")}
-                            elif not valid_cats:
-                                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No se encontró categoría técnica válida"}
-                            else:
-                                evaluations[asset["url"]] = {
-                                    "status": "INCLUDED", "title": data["title"], "description": data["desc"],
-                                    "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80
-                                }
-                            break
-                        else:
-                            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "IA retornó formato inválido"}
-                            break
-                    elif response.status_code == 429: # Rate limit
-                        await asyncio.sleep(2 ** attempt + random.random())
-                        continue
-                    else:
-                        # Si da 404, podría ser que el modelo flash no esté disponible en esa región, probamos con alias genérico
-                        if response.status_code == 404 and "gemini-1.5-flash" in api_url:
-                            api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key={GEMINI_API_KEY}"
-                            continue
-                        evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error API Gemini: {response.status_code}"}
-                        break
-                except Exception as e:
-                    if attempt == 2:
-                        evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error procesamiento: {str(e)[:50]}"}
-                    await asyncio.sleep(1)
+        try:
+            data = await call_gemini_with_retry(prompt)
+            score = data.get("impact_score", 50)
+            valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
             
-            await asyncio.sleep(0.5) # Evitar saturar la API
+            if score < 1:
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": data.get("rejection_reason", "Bajo impacto técnico")}
+            elif not valid_cats:
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No se encontró categoría técnica válida"}
+            else:
+                evaluations[asset["url"]] = {
+                    "status": "INCLUDED", "title": data["title"], "description": data["desc"],
+                    "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80
+                }
+        except Exception as e:
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error Gemini: {str(e)[:50]}"}
+        
+        await asyncio.sleep(0.5) # Evitar saturar la API
             
     if domain_blacklist:
         try:
@@ -131,7 +106,6 @@ class AgenticCurator:
 
     async def decide_smart_injection(self, markdown_content: str, asset: Dict) -> str:
         """Usa Gemini para decidir dónde y cómo inyectar el enlace dentro del markdown."""
-        api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
         lines = markdown_content.splitlines()
         structure = "\n".join([l for l in lines if l.startswith("#")])
         
@@ -148,22 +122,21 @@ class AgenticCurator:
         )
 
         try:
-            async with httpx.AsyncClient() as client:
-                resp = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=30)
-                if resp.status_code == 200:
-                    data = json.loads(re.search(r'\{.*\}', resp.json()['candidates'][0]['content']['parts'][0]['text'], re.DOTALL).group(0))
-                    header = data.get("header")
-                    new_line = data.get("formatted_line")
-                    if header and new_line:
-                        new_lines = []
-                        inserted = False
-                        for line in lines:
-                            new_lines.append(line)
-                            if not inserted and header.lower() in line.lower() and line.strip().startswith("#"):
-                                new_lines.append(new_line)
-                                inserted = True
-                        if inserted: return "\n".join(new_lines)
-        except: pass
+            data = await call_gemini_with_retry(prompt)
+            header = data.get("header")
+            new_line = data.get("formatted_line")
+            if header and new_line:
+                new_lines = []
+                inserted = False
+                for line in lines:
+                    new_lines.append(line)
+                    if not inserted and header.lower() in line.lower() and line.strip().startswith("#"):
+                        new_lines.append(new_line)
+                        inserted = True
+                if inserted: return "\n".join(new_lines)
+        except Exception as e:
+            print(f"[!] Error en decide_smart_injection: {e}")
+            pass
         return self._manual_fallback_injection(markdown_content, asset)
 
     def _manual_fallback_injection(self, content: str, asset: Dict) -> str:

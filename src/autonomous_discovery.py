@@ -3,6 +3,7 @@ import json
 import httpx
 import re
 from src.config import GEMINI_API_KEY, NUBENETES_CATEGORIES
+from src.gemini_utils import call_gemini_with_retry
 
 async def fetch_github_trending_cloud_native() -> list[dict]:
     queries = [
@@ -35,7 +36,6 @@ async def discover_trending_assets() -> list[dict]:
         return []
 
     # Intentar clasificar con Gemini vía REST
-    api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     prompt = (
         "Analiza estos repositorios y selecciona los 4 mejores.\n"
         f"Categorías: {', '.join(NUBENETES_CATEGORIES)}\n"
@@ -44,14 +44,9 @@ async def discover_trending_assets() -> list[dict]:
     )
     
     try:
-        async with httpx.AsyncClient() as client:
-            response = await client.post(api_url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=30)
-            if response.status_code == 200:
-                text_resp = response.json()['candidates'][0]['content']['parts'][0]['text']
-                match = re.search(r'\[.*\]', text_resp, re.DOTALL)
-                if match:
-                    results = json.loads(match.group(0))
-                    return [res for res in results if res.get("category") in NUBENETES_CATEGORIES]
+        results = await call_gemini_with_retry(prompt)
+        if isinstance(results, list):
+            return [res for res in results if res.get("category") in NUBENETES_CATEGORIES]
     except Exception as e:
         print(f"[~] Gemini REST falló, usando clasificación heurística: {e}")
 
