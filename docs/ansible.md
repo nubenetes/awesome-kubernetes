@@ -400,3 +400,5 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/_TVNCTK808I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/rx4Uh3jv1cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
+  - [AnsiScale: Ansible for Kubernetes Scaling](https://t.co/Ja7VlzAMsB) 🌟 - Herramienta que permite gestionar y automatizar el escalado de recursos en Kubernetes utilizando la sintaxis y capacidades de Ansible.
+  - [The Beginner's Guide to the Ansible Inventory](https://t.co/WEK0eH2hfA) 🌟 - Una guía fundamental y estructurada que explica cómo gestionar inventarios en Ansible para automatizar la configuración de infraestructura.
