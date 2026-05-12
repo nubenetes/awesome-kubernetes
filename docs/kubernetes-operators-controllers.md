@@ -252,3 +252,4 @@
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ha3LjlD6g7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
+  - [Kubernetes External Secrets Operator (ESO) Tutorial](https://t.co/8tAeTBUOn1) 🌟 - Guía práctica sobre cómo gestionar secretos en Kubernetes integrando servicios de gestión de claves externos como AWS Secrets Manager, HashiCorp Vault o Google Secret Manager usando External Secrets Operator.
