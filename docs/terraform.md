@@ -640,6 +640,7 @@
 ==}
 
 ### Terraform and AWS
+  - [==Terraform for AI Infrastructure as Code==](https://t.co/Pnt0Le90Mo) 🌟🌟🌟 - Guía técnica esencial para automatizar el aprovisionamiento de infraestructura escalable para flujos de trabajo de IA utilizando Terraform.
 
 - [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)
 - [==github.com/terraform-aws-modules/terraform-aws-solutions==](https://github.com/terraform-aws-modules/terraform-aws-solutions) **Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules**
@@ -1182,5 +1183,4 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wNllmEAuCTg?si=xyKNxoi-Diu_m5yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 </details>
-
-  - [Terraform Skill: Resources for learning and mastering Terraform](https://t.co/aXThkh0fx7) 🌟 - Un repositorio curado por Anton Babenko que recopila los mejores recursos, libros, cursos y herramientas para aprender y profesionalizarse en Terraform.
+  - [The Right Way to Use Terraform with AI](https://t.co/xGGSOOVZ86) 🌟 - Análisis sobre cómo integrar eficientemente la inteligencia artificial en los flujos de trabajo de infraestructura como código utilizando Terraform.
