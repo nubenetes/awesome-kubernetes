@@ -34,7 +34,6 @@
 - [youtube: AWS re:Invent 2023 - From hype to impact: Building a generative AI architecture (ARC217)](https://www.youtube.com/watch?v=1Lat8dP7Eq0) Generative AI represents a paradigm shift for how companies operate today. Generative AI is empowering developers to reimagine customer experiences and applications while transforming virtually every industry. Organizations are rapidly innovating to create the right architecture for scaling generative AI securely, economically, and responsibly to deliver business value. In this talk, learn how leaders are modernizing their data foundation, selecting industry-leading foundation models, and deploying purpose-built accelerators to unlock the possibilities of generative AI.
 
 ## Machine Learning
-  - [==LLMs from scratch==](https://t.co/JuJmxnwJwK) 🌟🌟🌟 - Un recurso exhaustivo y práctico que explica el funcionamiento interno de los LLMs mediante la implementación desde cero utilizando PyTorch.
 
 - [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum==](https://github.com/microsoft/ML-For-Beginners)
 - [==amazon.science/base-tts-samples==](https://www.amazon.science/base-tts-samples/) BASE TTS: Audio samples. Audio samples for the paper [BASE TTS: Lessons from building a billion-parameter text-to-speech model on 100K hours of data](https://www.amazon.science/publications/base-tts-lessons-from-building-a-billion-parameter-text-to-speech-model-on-100k-hours-of-data).
@@ -47,8 +46,7 @@
 - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt/)
 
 ## LLMOps
-  - [==Free LLM API Resources==](https://t.co/SOGxZvqvpf) 🌟🌟🌟 - Lista curada de proveedores y APIs de LLM gratuitas, optimizadas para integración en flujos de trabajo de Kubernetes y despliegues Cloud Native.
-  - [==Claude 101: Masterclass de IA y MCP==](https://t.co/o4HkTDnUtb) 🌟🌟🌟 - Guía integral para aprender a utilizar Claude y aprovechar el Model Context Protocol para integrar datos y herramientas externas en flujos de trabajo de IA.
+  - [==Free LLM API Resources==](https://t.co/SOGxZvqvpf) 🌟🌟🌟 - Lista curada de APIs de LLM gratuitas o con niveles generosos para integrar en aplicaciones y flujos de trabajo de Kubernetes.
 
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops/) LLMOps: MLOps for Large Language Models
@@ -80,8 +78,7 @@
 - [IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac/)
 
 ## Programming
-  - [==GitHub Copilot CLI for Beginners==](https://github.com/github/copilot-cli-for-beginners) 🌟🌟 - Guía esencial y recursos prácticos para dominar la interfaz de línea de comandos de GitHub Copilot.
-  - [==Awesome Copilot==](https://github.com/thangchung/awesome-copilot) 🌟🌟🌟 - Una lista curada esencial de recursos, herramientas y extensiones para maximizar la productividad con GitHub Copilot en cualquier entorno de desarrollo.
+  - [==Awesome Copilot==](https://github.com/thangchung/awesome-copilot) 🌟🌟🌟 - Una recopilación curada de herramientas, extensiones y recursos esenciales para optimizar el flujo de trabajo con GitHub Copilot en diversos entornos de desarrollo.
 
 - [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos)
 
@@ -127,3 +124,4 @@ security from the beginning with continuous testing, automation, zero trust, and
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eNIqz_noix8?si=PDx7Xqu4bJocLdao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/M5QHwkkHgAA?si=yoygGsgi0QL4N8Ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </center>
+  - [LLMs from scratch](https://t.co/JuJmxnwJwK) 🌟 - Un recurso educativo fundamental para entender la arquitectura y el entrenamiento de LLMs desde cero utilizando Python y PyTorch.
