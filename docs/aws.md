@@ -92,7 +92,6 @@
 - [==mrdevops.hashnode.dev: How to Create EC2 Instance in AWS: Step by Step Tutorial==](https://mrdevops.hashnode.dev/how-to-create-ec2-instance-in-aws-step-by-step-tutorial)
 
 ## AWS Reference Archigtecture
-  - [==AWS Reference Architecture==](https://github.com/awslabs/aws-reference-architecture) 🌟🌟🌟 - Repositorio oficial con arquitecturas de referencia probadas y patrones de diseño para despliegues escalables en AWS.
 
 - [infoq.com: AWS Publishes Reference Architecture and Implementations for Deployment Pipelines](https://www.infoq.com/news/2023/02/aws-deployment-pipelines/) - [New - Deployment Pipelines Reference Architecture and Reference Implementations](https://aws.amazon.com/blogs/aws/new_deployment_pipelines_reference_architecture_and_-reference_implementations/)
 
@@ -276,3 +275,5 @@ You can filter by topic using the toolbar above.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A list of small tools with a 𝗯𝗶𝗴 𝗶𝗺𝗽𝗮𝗰𝘁 𝗼𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝘁𝘆 when working with AWS 🛠 📈 ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1543982797320327169?ref_src=twsrc%5Etfw">July 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [awesome-aws](https://t.co/jVldbudrEK) 🌟 - Una lista curada y exhaustiva de recursos, bibliotecas y herramientas para el ecosistema de Amazon Web Services.
