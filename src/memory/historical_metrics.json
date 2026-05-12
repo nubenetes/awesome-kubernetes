@@ -1,293 +1,405 @@
 {
-  "total_extracted": 35,
+  "total_extracted": 49,
   "full_report": [
     {
-      "url": "https://t.co/5QdnvMKmDm",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "kubernetes-tools",
-      "source": "X.com (search)",
-      "post_date": "2025-11-14T18:16:27+01:00"
-    },
-    {
-      "url": "https://t.co/4pyShnjD56",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "kubernetes-security",
-      "source": "X.com (search)",
-      "post_date": "2025-11-16T11:30:03+01:00"
-    },
-    {
-      "url": "https://t.co/YqG2HkLTkK",
+      "url": "https://t.co/T5z60YFIPN",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2025-11-18T19:24:25+01:00"
+      "post_date": "2025-05-17T17:19:55+02:00"
     },
     {
-      "url": "https://t.co/bNzqPqH7ze",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "kubernetes-security",
-      "source": "X.com (search)",
-      "post_date": "2025-11-21T17:54:19+01:00"
-    },
-    {
-      "url": "https://t.co/e7oaxo2O2k",
+      "url": "https://t.co/RCbjE0RWIZ",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2025-11-21T22:02:39+01:00"
+      "post_date": "2025-06-03T16:19:48+02:00"
     },
     {
-      "url": "https://t.co/96vp9N8mt6",
+      "url": "https://t.co/uTqIT7rVWB",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2025-11-21T22:49:11+01:00"
+      "post_date": "2025-06-05T20:48:51+02:00"
     },
     {
-      "url": "https://t.co/AzeBjUMPFU",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "docker",
-      "source": "X.com (search)",
-      "post_date": "2025-12-18T12:48:15+01:00"
-    },
-    {
-      "url": "https://t.co/YX0wMUx8l6",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "ai",
-      "source": "X.com (search)",
-      "post_date": "2025-12-18T15:02:42+01:00"
-    },
-    {
-      "url": "https://t.co/UwbF0wvQM2",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n ",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2025-12-23T16:40:25+01:00"
-    },
-    {
-      "url": "https://t.co/vlaiNtIich",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-01-07T07:46:09+01:00"
-    },
-    {
-      "url": "https://t.co/wv8b0PH4gv",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-01-16T11:13:05+01:00"
-    },
-    {
-      "url": "https://t.co/rAefuVQJhq",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "azure",
-      "source": "X.com (search)",
-      "post_date": "2026-01-16T22:54:05+01:00"
-    },
-    {
-      "url": "https://t.co/5hSoNprv8I",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n ",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-01-23T16:15:12+01:00"
-    },
-    {
-      "url": "https://t.co/Pnt0Le90Mo",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "terraform",
-      "source": "X.com (search)",
-      "post_date": "2026-02-05T22:15:31+01:00"
-    },
-    {
-      "url": "https://t.co/QfJ9MXxnB6",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-03-23T21:12:55+01:00"
-    },
-    {
-      "url": "https://t.co/zmzQwFFesa",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-03-25T19:37:16+01:00"
-    },
-    {
-      "url": "https://t.co/jX6wbMDrPq",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-03T11:22:47+02:00"
-    },
-    {
-      "url": "https://t.co/u7RCCRGi5l",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-04T13:58:08+02:00"
-    },
-    {
-      "url": "https://t.co/mwjOllLAW4",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-08T18:08:08+02:00"
-    },
-    {
-      "url": "https://t.co/SLChIxr1vB",
-      "status": "FILTERED",
-      "reason": "El enlace ha sido marcado por los sistemas de seguridad de X como potencialmente malicioso o spam, lo cual imposibilita la verificaci\u00f3n de su utilidad t\u00e9cnica y representa un riesgo para la integridad del repositorio.",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-11T00:06:28+02:00"
-    },
-    {
-      "url": "https://t.co/lvUaKO3qif",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "ai-agents-mcp",
-      "source": "X.com (search)",
-      "post_date": "2026-04-11T17:50:36+02:00"
-    },
-    {
-      "url": "https://t.co/4dtMSm4yj6",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n ",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-13T22:19:56+02:00"
-    },
-    {
-      "url": "https://t.co/AkWHD2voAC",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n ",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-19T18:51:20+02:00"
-    },
-    {
-      "url": "https://t.co/jVldbudrEK",
+      "url": "https://t.co/FgptqruNLZ",
       "status": "INCLUDED",
       "reason": "Aceptado",
       "category": "aws",
       "source": "X.com (search)",
-      "post_date": "2026-04-20T23:33:31+02:00"
+      "post_date": "2025-06-20T13:45:59+02:00"
     },
     {
-      "url": "https://t.co/aXThkh0fx7",
+      "url": "https://t.co/QLn6f4JBNV",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2026-04-22T21:01:55+02:00"
+      "post_date": "2025-06-22T16:35:24+02:00"
     },
     {
-      "url": "https://t.co/tlUzYpOGBa",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-23T08:18:04+02:00"
-    },
-    {
-      "url": "https://t.co/3zN2RNquHZ",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
-      "category": "N/A",
-      "source": "X.com (search)",
-      "post_date": "2026-04-30T00:17:33+02:00"
-    },
-    {
-      "url": "https://t.co/3f5Hb1MqV1",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "kubernetes-tutorials",
-      "source": "X.com (search)",
-      "post_date": "2026-04-30T21:35:06+02:00"
-    },
-    {
-      "url": "https://t.co/0uAkeQXcAD",
+      "url": "https://t.co/e2xQliTgOC",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n ",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2026-04-30T23:40:25+02:00"
+      "post_date": "2025-06-23T23:30:51+02:00"
     },
     {
-      "url": "https://t.co/X0eZOR1Zz5",
+      "url": "https://t.co/9Lk12L0DzL",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2026-05-01T09:22:40+02:00"
+      "post_date": "2025-06-25T23:40:44+02:00"
     },
     {
-      "url": "https://t.co/xGGSOOVZ86",
+      "url": "https://t.co/AexYimoUnw",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-08T23:06:26+02:00"
+    },
+    {
+      "url": "https://t.co/JlDuOyHd0U",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-09T12:11:30+02:00"
+    },
+    {
+      "url": "https://t.co/gh7dNRe9aH",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-10T09:34:50+02:00"
+    },
+    {
+      "url": "https://t.co/srutP1sBrt",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-11T19:42:32+02:00"
+    },
+    {
+      "url": "https://t.co/dVsyluHNBn",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-13T21:35:30+02:00"
+    },
+    {
+      "url": "https://t.co/G6AXhE0rwZ",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-14T23:16:48+02:00"
+    },
+    {
+      "url": "https://t.co/BfBTsDegk1",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-17T20:24:47+02:00"
+    },
+    {
+      "url": "https://t.co/XbOIVeDYCe",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-20T18:01:01+02:00"
+    },
+    {
+      "url": "https://t.co/ls8xRROE6W",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-20T18:46:08+02:00"
+    },
+    {
+      "url": "https://t.co/qXRiofIiZV",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-07-20T21:48:49+02:00"
+    },
+    {
+      "url": "https://t.co/fv1t7dgIld",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-08-06T16:28:07+02:00"
+    },
+    {
+      "url": "https://t.co/jYjz4IKd9F",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "terraform",
+      "category": "kubernetes-networking",
       "source": "X.com (search)",
-      "post_date": "2026-05-02T00:06:52+02:00"
+      "post_date": "2025-08-18T22:49:09+02:00"
     },
     {
-      "url": "https://t.co/SOGxZvqvpf",
+      "url": "https://t.co/jgrV4w158j",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2026-05-04T19:41:49+02:00"
+      "post_date": "2025-08-26T17:25:19+02:00"
     },
     {
-      "url": "https://t.co/wwrr5Solmj",
+      "url": "https://t.co/RPb3MUJkTT",
       "status": "FILTERED",
       "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
       "category": "N/A",
       "source": "X.com (search)",
-      "post_date": "2026-05-05T08:36:59+02:00"
+      "post_date": "2025-08-27T22:34:35+02:00"
     },
     {
-      "url": "https://t.co/KZ8waqA47g",
+      "url": "https://t.co/suAcaASwsS",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "azure",
+      "category": "ai-agents-mcp",
       "source": "X.com (search)",
-      "post_date": "2026-05-09T23:06:26+02:00"
+      "post_date": "2025-08-30T12:02:46+02:00"
     },
     {
-      "url": "https://t.co/JuJmxnwJwK",
+      "url": "https://t.co/Ki4uUi0H8V",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-08-30T14:24:29+02:00"
+    },
+    {
+      "url": "https://t.co/VeFIbufHPi",
+      "status": "INCLUDED",
+      "reason": "Aceptado",
+      "category": "python",
+      "source": "X.com (search)",
+      "post_date": "2025-09-02T16:09:55+02:00"
+    },
+    {
+      "url": "https://t.co/eRCjx8Qnpn",
+      "status": "INCLUDED",
+      "reason": "Aceptado",
+      "category": "kubernetes-tools",
+      "source": "X.com (search)",
+      "post_date": "2025-09-04T19:04:55+02:00"
+    },
+    {
+      "url": "https://t.co/8H0gM0LsgS",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-04T21:18:13+02:00"
+    },
+    {
+      "url": "https://t.co/qBHYQIdkg7",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-04T21:18:42+02:00"
+    },
+    {
+      "url": "https://t.co/fTkHFB4bEb",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-05T17:35:58+02:00"
+    },
+    {
+      "url": "https://t.co/V4SYhWEjtN",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-21T09:52:46+02:00"
+    },
+    {
+      "url": "https://t.co/EtLYLtlEzq",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-26T17:56:08+02:00"
+    },
+    {
+      "url": "https://t.co/Da6lLRa5Ll",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-26T22:15:08+02:00"
+    },
+    {
+      "url": "https://t.co/CijyrNkjth",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-09-27T09:48:00+02:00"
+    },
+    {
+      "url": "https://t.co/LCZDinlWby",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-07T19:11:20+02:00"
+    },
+    {
+      "url": "https://t.co/Eeb3XvLqD8",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-10T16:12:47+02:00"
+    },
+    {
+      "url": "https://t.co/dUzsTamhEc",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-12T11:09:08+02:00"
+    },
+    {
+      "url": "https://t.co/YnsXfz347R",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-12T23:15:17+02:00"
+    },
+    {
+      "url": "https://t.co/IZsqF0mc29",
+      "status": "INCLUDED",
+      "reason": "Aceptado",
+      "category": "kubernetes-tutorials",
+      "source": "X.com (search)",
+      "post_date": "2025-10-13T08:39:26+02:00"
+    },
+    {
+      "url": "https://t.co/s61J8WjXPg",
+      "status": "INCLUDED",
+      "reason": "Aceptado",
+      "category": "api",
+      "source": "X.com (search)",
+      "post_date": "2025-10-13T18:43:24+02:00"
+    },
+    {
+      "url": "https://t.co/i33dYfpuu6",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-15T18:05:51+02:00"
+    },
+    {
+      "url": "https://t.co/GAJxbF25JI",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-18T22:16:01+02:00"
+    },
+    {
+      "url": "https://t.co/d1hdEDNWRa",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-10-19T18:48:30+02:00"
+    },
+    {
+      "url": "https://t.co/2MzHE6V7qK",
       "status": "INCLUDED",
       "reason": "Aceptado",
       "category": "ai",
       "source": "X.com (search)",
-      "post_date": "2026-05-10T22:36:37+02:00"
+      "post_date": "2025-10-26T11:26:49+01:00"
+    },
+    {
+      "url": "https://t.co/OaOnhw3s5P",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-01T09:17:11+01:00"
+    },
+    {
+      "url": "https://t.co/qXtIPX5eF6",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-01T09:26:23+01:00"
+    },
+    {
+      "url": "https://t.co/KZ8waqABWO",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-02T17:05:22+01:00"
+    },
+    {
+      "url": "https://t.co/ilGFdozd76",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-02T22:16:55+01:00"
+    },
+    {
+      "url": "https://t.co/dUzsTalJOE",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-09T08:57:10+01:00"
+    },
+    {
+      "url": "https://t.co/VumtExLmJ1",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-10T11:34:58+01:00"
+    },
+    {
+      "url": "https://t.co/q0F3HquvNV",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-3.1-flash] Status: 404 | Error: Modelo no encontrado\n  2. [gemini-3.1-pro] Status: 404 | Error: Modelo no encontrado\n  3. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  4. [gemini-3-flash] Status: 404 | Error: Modelo no encontra",
+      "category": "N/A",
+      "source": "X.com (search)",
+      "post_date": "2025-11-10T15:04:52+01:00"
     }
   ],
   "x_audit": [
-    "**Playwright (search)** - \u26a1 INTENTO: Cronolog\u00eda: Desde 2025-11-13 hasta 2026-05-12.",
-    "**Advanced Search** - \u26a1 INTENTO: Query: from:nubenetes since:2025-11-13 until:2026-05-12",
+    "**Playwright (search)** - \u26a1 INTENTO: Cronolog\u00eda: Desde 2025-05-17 hasta 2025-11-13.",
+    "**Advanced Search** - \u26a1 INTENTO: Query: from:nubenetes since:2025-05-17 until:2025-11-13",
     "**Scrolling** - \u274c FALLO: Alcanzado l\u00edmite de scrolls (100) usando search.",
-    "**Estrategia Playwright** - \u2705 \u00c9XITO: Recuperados 35 bookmarks en el rango 2025-11-13 a 2026-05-12."
+    "**Estrategia Playwright** - \u2705 \u00c9XITO: Recuperados 49 bookmarks en el rango 2025-05-17 a 2025-11-13."
   ],
-  "start_date": "2025-11-13T13:28:43.979502+02:00",
-  "end_date": "2026-05-12T13:28:43.979502+02:00"
+  "start_date": "2025-05-17T13:28:43.979502-00:15",
+  "end_date": "2025-11-13T13:28:43.979502-00:15"
 }
