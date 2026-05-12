@@ -8,11 +8,20 @@ on:
       extraction_strategy:
         description: 'Estrategia de Extracción'
         required: true
-        default: 'scroll'
+        default: 'search'
         type: choice
         options:
-          - scroll
           - search
+          - scroll
+      historical_mode:
+        description: 'Activar Modo Histórico'
+        required: false
+        default: 'false'
+        type: boolean
+      historical_until_date:
+        description: 'Fecha límite superior (tramo)'
+        required: false
+        default: ''
         # Explicación para el usuario:
         # scroll: MÁS EXHAUSTIVO. Simula navegación humana. Captura TODO, pero puede ser limitado por X en fechas muy antiguas.
         # search: MÁS FIABLE PARA 2024. Usa búsqueda avanzada. Llega siempre a la fecha, pero el algoritmo de X puede filtrar posts.
@@ -47,7 +56,18 @@ jobs:
           TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'scroll' }}
+          EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'search' }}
+          HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
+          HISTORICAL_UNTIL_DATE: ${{ github.event.inputs.historical_until_date || '' }}
+          HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |
-          python src/main.py
+          python src/main.py > output.log 2>&1
+          cat output.log
+          
+          # Lógica de Re-disparo para Modo Histórico
+          if grep -q "\[>\] Tramo finalizado" output.log; then
+            NEXT_DATE=$(grep "Próximo inicio:" output.log | cut -d' ' -f4)
+            echo "Disparando siguiente tramo histórico hasta: $NEXT_DATE"
+            gh workflow run agentic_cron.yml -f historical_mode=true -f historical_until_date=$NEXT_DATE
+          fi

@@ -40,7 +40,7 @@ class SocialDataExtractor:
                 valid_urls.append(u)
         return list(set(valid_urls))
 
-    async def _fetch_via_playwright(self, since_date: datetime, strategy: str = "scroll") -> list[dict]:
+    async def _fetch_via_playwright(self, since_date: datetime, until_date: Optional[datetime] = None, strategy: str = "scroll") -> list[dict]:
         try:
             from playwright.async_api import async_playwright
             import playwright_stealth
@@ -48,7 +48,7 @@ class SocialDataExtractor:
             self.log_audit("Playwright", False, "Librerías no disponibles.")
             return []
         
-        self.log_audit(f"Playwright ({strategy})", None, f"Cronología: Desde {since_date.date()} hasta hoy.")
+        self.log_audit(f"Playwright ({strategy})", None, f"Cronología: Desde {since_date.date()} hasta {until_date.date() if until_date else 'hoy'}.")
         results = []
         
         try:
@@ -78,6 +78,9 @@ class SocialDataExtractor:
                 if strategy == "search":
                     import urllib.parse
                     search_query = f"from:{self.target_account} since:{since_date.date().isoformat()}"
+                    if until_date:
+                        search_query += f" until:{until_date.date().isoformat()}"
+                    
                     encoded_query = urllib.parse.quote(search_query)
                     target_url = f"https://x.com/search?q={encoded_query}&f=live"
                     self.log_audit("Advanced Search", None, f"Query: {search_query}")
@@ -168,10 +171,10 @@ class SocialDataExtractor:
             self.log_audit("Playwright", False, str(e)[:60])
         return []
 
-    async def fetch_links_since(self, since_date: datetime, strategy: str = "scroll") -> list[dict]:
-        play_links = await self._fetch_via_playwright(since_date, strategy=strategy)
+    async def fetch_links_since(self, since_date: datetime, until_date: Optional[datetime] = None, strategy: str = "scroll") -> list[dict]:
+        play_links = await self._fetch_via_playwright(since_date, until_date=until_date, strategy=strategy)
         if play_links: 
-            self.log_audit("Estrategia Playwright", True, f"Recuperados {len(play_links)} bookmarks ordenados cronológicamente.")
+            self.log_audit("Estrategia Playwright", True, f"Recuperados {len(play_links)} bookmarks en el rango {since_date.date()} a {until_date.date() if until_date else 'hoy'}.")
             return play_links
 
         # Fallback a RSS (menos preciso en fechas, pero útil como respaldo)

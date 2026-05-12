@@ -12,10 +12,48 @@ class RepositoryController:
         base_branch = self.repository.get_branch(self.default_branch_name)
         self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_branch.commit.sha)
 
+    def apply_historical_chunk(self, updates: dict, next_since: str) -> None:
+        branch_name = "bot/historical-accumulator"
+        
+        # Verificar si la rama existe, si no, crearla desde master
+        try:
+            self.repository.get_branch(branch_name)
+        except:
+            self._create_feature_branch(branch_name)
+
+        for file_path, content in updates.items():
+            try:
+                try:
+                    file_meta = self.repository.get_contents(file_path, ref=branch_name)
+                    self.repository.update_file(
+                        path=file_path, message=f"chore(historical): chunk sync since {next_since}",
+                        content=content, sha=file_meta.sha, branch=branch_name
+                    )
+                except Exception as e:
+                    if "404" in str(e):
+                        self.repository.create_file(
+                            path=file_path, message=f"chore(historical): init {file_path}",
+                            content=content, branch=branch_name
+                        )
+            except Exception as e:
+                print(f"Error en tramo histórico para {file_path}: {e}")
+
     def apply_multi_file_changes(self, updates: dict, metrics: dict) -> None:
         timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
+        is_historical = "historical" in metrics.get("start_date", "").lower() or metrics.get("total_extracted", 0) > 500
+        
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
-        self._create_feature_branch(branch_name)
+        
+        # En el último tramo histórico, usamos el accumulator como base si existe
+        accumulator_branch = "bot/historical-accumulator"
+        base_sha = None
+        try:
+            acc = self.repository.get_branch(accumulator_branch)
+            base_sha = acc.commit.sha
+            # Si venimos de histórico, la rama destino debe ser creada desde el accumulator
+            self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_sha)
+        except:
+            self._create_feature_branch(branch_name)
 
         if not updates:
             updates["src/memory/last_audit_run.json"] = json.dumps({
