@@ -640,7 +640,6 @@
 ==}
 
 ### Terraform and AWS
-  - [==Terraform for AI Infrastructure as Code==](https://t.co/Pnt0Le90Mo) 🌟🌟🌟 - Guía técnica esencial para automatizar el aprovisionamiento de infraestructura escalable para flujos de trabajo de IA utilizando Terraform.
 
 - [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)
 - [==github.com/terraform-aws-modules/terraform-aws-solutions==](https://github.com/terraform-aws-modules/terraform-aws-solutions) **Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules**
@@ -1183,4 +1182,12 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wNllmEAuCTg?si=xyKNxoi-Diu_m5yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 </details>
-  - [The Right Way to Use Terraform with AI](https://t.co/xGGSOOVZ86) 🌟 - Análisis sobre cómo integrar eficientemente la inteligencia artificial en los flujos de trabajo de infraestructura como código utilizando Terraform.
+
+  - [Should Terraform Lock HCL File Be Added to gitignore or Committed to Git Repo?](https://t.co/JQmx4h65kh) 🌟 - Análisis detallado sobre la importancia de versionar el archivo .terraform.lock.hcl para garantizar la integridad y coherencia de los proveedores en despliegues de infraestructura como código.
+  - [Terraform Provider AzAPI v2.2.0 Release](https://t.co/qBuRJ7pSkg) 🌟 - Lanzamiento de la versión 2.2.0 del proveedor de Terraform AzAPI para Azure, incluyendo actualizaciones en la gestión de recursos de la API de ARM.
+  - [terraform-compliance](https://t.co/ek8YvaJfYw) 🌟 - Un framework ligero basado en BDD (Behavior Driven Development) que permite aplicar políticas de cumplimiento y seguridad en el código Terraform antes de su despliegue.
+  - [Weekly.tf](https://t.co/dyvDGpKcYe) 🌟 - Un boletín semanal curado que recopila las actualizaciones, artículos y recursos más relevantes del ecosistema de Terraform y la infraestructura como código.
+  - [Gitignore Command Guide: Practical Examples and Terraform Tips](https://t.co/y2etsk814P) 🌟 - Guía práctica sobre el uso de gitignore enfocado en la gestión de archivos en entornos de automatización con Terraform.
+  - [Terraform Module Releaser](https://t.co/EAKakWgwtY) 🌟 - Herramienta automatizada para la gestión de versiones y publicación de módulos de Terraform mediante flujos de trabajo optimizados.
+  - [Announcing General Availability of Terraform Azure Verified Modules for Platform](https://t.co/cJ0IMJOlkZ) 🌟 - Microsoft anuncia la disponibilidad general (GA) de los módulos de Terraform verificados para Azure, facilitando la estandarización y calidad en el despliegue de infraestructura como código.
+  - [Terraform Best Practices](https://t.co/pVFWVbOcVG) 🌟 - Una guía exhaustiva y ampliamente adoptada que recopila las mejores prácticas, patrones y convenciones para escribir código Terraform mantenible y escalable.
