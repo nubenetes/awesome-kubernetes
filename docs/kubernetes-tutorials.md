@@ -127,4 +127,4 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What problem is Kubernetes trying to solve?<br><br>Is it simply container orchestration?<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1557304846730002435?ref_src=twsrc%5Etfw">August 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
-  - [Guía Práctica: Despliegue y Gestión de Aplicaciones en Kubernetes](https://t.co/3f5Hb1MqV1) - Recurso técnico enfocado en los fundamentos y mejores prácticas para el despliegue de cargas de trabajo dentro de clústeres de Kubernetes.
+  - [Fast-Kubernetes: K8s Deployment Guide](https://t.co/IZsqF0mc29) 🌟 - Una guía práctica y concisa que detalla los pasos esenciales para realizar despliegues efectivos en Kubernetes.
