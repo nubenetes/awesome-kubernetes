@@ -16,12 +16,18 @@ async def master_orchestrator():
     
     print("[*] INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)")
     
-    # 1. Horizonte Temporal Fijo (Octubre 2024) - Requisito de Curaduría Histórica
-    time_horizon = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
-    print(f"[*] FORZANDO CURADURÍA HISTÓRICA desde: {time_horizon.date()}")
+    # 1. Horizonte Temporal Dinámico
+    # Por defecto, solo buscamos los últimos 30 días para evitar Timeouts de 6h.
+    # Si se requiere curaduría histórica, se puede pasar vía variable de entorno.
+    days_back = int(os.getenv("CURATION_DAYS_BACK", "30"))
+    time_horizon = datetime.now(MADRID_TZ) - timedelta(days=days_back)
+    
+    if days_back > 60:
+        print(f"[*] ALERTA: Ejecutando Curaduría Histórica Profunda ({days_back} días).")
+    print(f"[*] Horizonte temporal: {time_horizon.date()}")
 
     # 2. Ingesta Multi-fuente
-    strategy = os.getenv("EXTRACTION_STRATEGY", "scroll")
+    strategy = os.getenv("EXTRACTION_STRATEGY", "search") # Cambiamos default a 'search' por ser más rápido
     twitter_client = SocialDataExtractor()
     raw_social = await twitter_client.fetch_links_since(time_horizon, strategy=strategy)
     x_audit_trail = twitter_client.audit_trail

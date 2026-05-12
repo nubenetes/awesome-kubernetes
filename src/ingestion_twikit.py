@@ -90,14 +90,14 @@ class SocialDataExtractor:
                 
                 stop_scrolling = False
                 scroll_count = 0
-                max_scrolls = 300
+                max_scrolls = 100 # Reducido de 300
                 collected_tweets = {} # URL -> tweet_data para evitar duplicados en scroll
-                target_link_count = 1000
+                target_link_count = 300 # Reducido de 1000
                 
                 while not stop_scrolling and scroll_count < max_scrolls:
                     articles = await page.query_selector_all('article[data-testid="tweet"]')
                     
-                    if not articles and scroll_count > 5:
+                    if not articles and scroll_count > 3:
                         self.log_audit("Extraction", False, "No se detectan más tweets en el DOM.")
                         break
 
@@ -118,6 +118,7 @@ class SocialDataExtractor:
                         tweet_dt = datetime.fromisoformat(datetime_str.replace('Z', '+00:00')).astimezone(MADRID_TZ)
                         
                         if tweet_dt < since_date:
+                            self.log_audit("Timeline", True, f"Alcanzado horizonte temporal: {tweet_dt.date()}")
                             stop_scrolling = True
                             break
 
@@ -148,8 +149,9 @@ class SocialDataExtractor:
                         if stop_scrolling: break
 
                     if stop_scrolling: break
-                    await page.evaluate("window.scrollBy(0, 5000)")
-                    await asyncio.sleep(8)
+                    # Scroll más agresivo y menos esperas
+                    await page.evaluate("window.scrollBy(0, 8000)")
+                    await asyncio.sleep(5)
                     scroll_count += 1
                 
                 if not stop_scrolling and scroll_count >= max_scrolls:
