@@ -253,3 +253,6 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How does Pod to Pod communication work in Kubernetes?<br><br>How does the traffic reach the pod?<br><br>Let&#39;s dive into how low-level networking works in Kubernetes. <a href="https://t.co/K8bBT8YiOf">pic.twitter.com/K8bBT8YiOf</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1655540892365889538?ref_src=twsrc%5Etfw">May 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
+
+  - [The Kubernetes Troubleshooting Handbook](https://t.co/HhU4IgRV90) 🌟 - Una guía exhaustiva que detalla metodologías y mejores prácticas para diagnosticar y resolver problemas comunes en clústeres de Kubernetes.
+  - [Enhance Your Kubernetes Visibility with K8sGPT and Deepseek LLM](https://t.co/aOJaVF1S2Y) 🌟 - Guía práctica sobre cómo integrar K8sGPT con el modelo Deepseek para automatizar el diagnóstico y la resolución de problemas en clusters de Kubernetes mediante IA.
