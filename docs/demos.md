@@ -942,3 +942,5 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## Labs
 
 - [==learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)==](https://learntocloud.guide/#/projects/README)
+
+  - [Red Hat Demo Central](https://t.co/wphx802sCz) 🌟 - Repositorio centralizado con una vasta colección de demostraciones técnicas y scripts para entornos Red Hat OpenShift y soluciones Cloud Native.
