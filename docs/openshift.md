@@ -324,3 +324,5 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
+
+  - [Vagrant Ansible OKD4](https://t.co/RPW5G0VhXz) 🌟 - Un entorno automatizado mediante Vagrant y Ansible para desplegar un clúster local de OKD 4 (OpenShift) con fines de desarrollo y experimentación.
