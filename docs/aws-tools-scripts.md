@@ -107,3 +107,4 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Amazon CodeCatalyst](https://codecatalyst.aws/explore) Quickly build and deliver apps at scale on AWS.
 - [github.com/Reaimua/AWS-CLI-Uploader-Project](https://github.com/Reaimua/AWS-CLI-Uploader-Project/) Simple bash scripts that uploads a local file to an Amazon S3 bucket
 - [github.com/welldone-cloud/aws-list-resources](https://github.com/welldone-cloud/aws-list-resources) Uses the AWS Cloud Control API to list resources that are present in a given AWS account and region(s). Discovered resources are written to a JSON output file.
+  - [AWS Toolbox](https://t.co/dEQSierIDe) 🌟 - Un repositorio curado que recopila herramientas de código abierto esenciales para el desarrollo, despliegue y gestión de infraestructura en AWS.
