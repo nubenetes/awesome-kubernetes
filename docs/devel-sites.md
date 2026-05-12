@@ -154,3 +154,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Data structures and algorithms are important for any software developer.<br><br>Sometimes loved, more often dreaded, but at the core of our craft.<br><br>Here is an introduction to the most important data structures, including learning resources:</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1603790282910228481?ref_src=twsrc%5Etfw">December 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [Colors & Fonts](https://t.co/lhOIbEnBPq) - Una colección de recursos, paletas de colores y tipografías útiles para el diseño de interfaces de aplicaciones web.
+  - [Call to Inspiration](https://t.co/rVZ9xKiHfd) - Un directorio curado de sitios web con diseño y experiencia de usuario de alta calidad para inspirar el desarrollo de interfaces frontend.
