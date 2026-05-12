@@ -137,6 +137,7 @@
 - [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
+  - [==Ingate==](https://t.co/5QdnvMKmDm) 🌟🌟🌟 - Proyecto oficial de la SIG de Kubernetes para gestionar el ingreso de tráfico a clusters de forma simplificada y eficiente.
 
 - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need
 - [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
@@ -669,7 +670,6 @@ elastic quotas - Effortless optimization at its finest!
 - [==open-cluster-management.io==](https://open-cluster-management.io/) Make working with many Kubernetes clusters super easy regardless of where they are deployed. Open Cluster Management is a community-driven project focused on multicluster and multicloud scenarios for Kubernetes apps. Open APIs are evolving within this project for cluster registration, work distribution, dynamic placement of policies and workloads, and much more.
 
 ## Penetration Testing Tools
-  - [==Web-Check==](https://t.co/UwbF0wvQM2) 🌟🌟 - Herramienta de código abierto para un análisis profundo y detallado de sitios web, incluyendo configuración de servidores, registros DNS y seguridad de infraestructura.
 
 - [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
 - [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
