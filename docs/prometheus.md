@@ -811,3 +811,5 @@ JMeter|Artemis Grafana|Artemis Dashboard
 </center>
 </details>
 
+
+  - [Prometheus 3.0 Release](https://t.co/ujnZ0gZg8M) 🌟 - Lanzamiento oficial de Prometheus 3.0 que introduce mejoras significativas en rendimiento, una interfaz de usuario renovada y configuración simplificada.
