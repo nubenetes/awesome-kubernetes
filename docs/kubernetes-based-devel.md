@@ -230,3 +230,6 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RjqDpF6_ZHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
+
+  - [Node.js Best Practices (Versión en Español)](https://t.co/UwrWMXvQZb) 🌟 - Recopilación exhaustiva de mejores prácticas para el desarrollo con Node.js, esencial para optimizar aplicaciones que corren sobre entornos Kubernetes y contenedores.
+  - [The 12-Factor App: An Updated Guide](https://t.co/ifMhKQLXlt) 🌟 - Una guía actualizada que adapta los principios de la metodología 12-Factor App al panorama actual de aplicaciones nativas de la nube y Kubernetes.
