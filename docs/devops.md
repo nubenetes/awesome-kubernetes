@@ -561,3 +561,5 @@ Resolve your software incidents 10x faster
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Drone flight through the<a href="https://twitter.com/hashtag/GigaBerlinBrandenburg?src=hash&amp;ref_src=twsrc%5Etfw">#GigaBerlinBrandenburg</a> <a href="https://twitter.com/Tesla?ref_src=twsrc%5Etfw">@Tesla</a> <a href="https://t.co/7yCehZl5G3">pic.twitter.com/7yCehZl5G3</a></p>&mdash; Gigafactory Berlin-Brandenburg 🕊🇺🇦 (@Gf4Tesla) <a href="https://twitter.com/Gf4Tesla/status/1507447173436297217?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+
+  - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://t.co/vwltrhmssw) 🌟 - Un análisis profundo sobre cómo democratizar el acceso a las plataformas internas para desarrolladores, permitiendo que la construcción y el consumo sean procesos colaborativos y descentralizados.
