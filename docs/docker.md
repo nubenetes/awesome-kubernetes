@@ -233,7 +233,7 @@
     - Building different images per environment.
 
 ## Docker Security
-  - [==Docker Hardened Images for Every Developer==](https://t.co/AzeBjUMPFU) 🌟🌟🌟 - Docker ofrece imágenes endurecidas (hardened) para mejorar la seguridad de las aplicaciones en contenedores y reducir la superficie de ataque.
+  - [==Docker Hardened Images for Every Developer==](https://t.co/AzeBjUMPFU) 🌟🌟🌟 - Docker introduce imágenes endurecidas para mejorar la seguridad en la cadena de suministro de software desde el entorno de desarrollo.
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
@@ -247,7 +247,6 @@
 - [securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes](https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1/)
 
 ## How To Build a Smaller Docker Image and write dockerfiles efficiently
-  - [==Optimización de Imágenes: Build Smaller & Efficient Dockerfiles==](https://github.com/danhper/awesome-docker#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently) 🌟🌟🌟 - Guía esencial para reducir la superficie de ataque y mejorar el despliegue mediante la creación de imágenes minimalistas y Dockerfiles de alto rendimiento.
 
 - [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
 - [medium: How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a) When you’re building a Docker image it’s important to keep the size under control. Having small images means ensuring faster deployment and transfers.
