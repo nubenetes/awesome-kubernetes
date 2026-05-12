@@ -325,3 +325,5 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A lot of senior engineers are going to find themselves coerced into becoming team leads with management responsibilities, just to provide relief for managers with too many direct reports.<br><br>My suggestion is to be open to trying it. But confirm with your manager that you can go… <a href="https://t.co/Iayep0lHxj">https://t.co/Iayep0lHxj</a></p>&mdash; Karthik Hariharan (@hkarthik) <a href="https://twitter.com/hkarthik/status/1756363374651400575?ref_src=twsrc%5Etfw">February 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [A name for thy role definitions](https://t.co/XgN1hL52nJ) - Análisis sobre la importancia de estandarizar y nombrar correctamente las definiciones de roles en equipos de ingeniería para mejorar la claridad organizacional.
