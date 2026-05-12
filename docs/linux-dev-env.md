@@ -35,3 +35,5 @@
 ## Alternatives to WSL on Windows
 
 - [cmder 🌟](https://cmder.net/)
+  - [Developer Tooling Preferences: Go, IntelliJ, and VS Code](https://t.co/YaGm5klCXh) - Discusión técnica sobre las preferencias y flujos de trabajo de los desarrolladores al elegir IDEs y editores para trabajar con lenguajes como Go y Rust.
+  - [The Art of Command Line](https://t.co/PXCnkzEg2E) 🌟 - Una guía exhaustiva y esencial para dominar la línea de comandos en sistemas tipo Unix, ideal para profesionales que trabajan en entornos Cloud Native.
