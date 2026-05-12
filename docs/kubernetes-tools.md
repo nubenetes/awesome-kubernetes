@@ -137,6 +137,7 @@
 - [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
+  - [==Pollianna==](https://t.co/96vp9N8mt6) 🌟🌟🌟 - Una herramienta de Apple para analizar y extraer métricas de rendimiento de los recursos de Kubernetes directamente desde el clúster.
 
 - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need
 - [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
