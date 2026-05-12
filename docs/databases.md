@@ -402,3 +402,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">State of Database 2023 <a href="https://t.co/uXd2sM7dq9">https://t.co/uXd2sM7dq9</a> <a href="https://t.co/sGBmXqT3CA">pic.twitter.com/sGBmXqT3CA</a></p>&mdash; Architecture Notes (@arcnotes) <a href="https://twitter.com/arcnotes/status/1688248500398473217?ref_src=twsrc%5Etfw">August 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [pgroll: Zero-downtime PostgreSQL schema migrations](https://t.co/dBNXZdpoMh) 🌟 - Herramienta de línea de comandos para realizar migraciones de esquema en PostgreSQL sin tiempo de inactividad utilizando una arquitectura basada en vistas.
+  - [Turso: Edge Database based on libSQL](https://t.co/WVBjePyZCk) 🌟 - Una base de datos de borde (edge) de alto rendimiento, optimizada para baja latencia y basada en libSQL, ideal para despliegues distribuidos en Kubernetes y Cloud Native.
