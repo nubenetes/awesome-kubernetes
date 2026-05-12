@@ -228,3 +228,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CI/CD is a must-know in DevOps. <br><br>Here&#39;s a dead simple guide to understanding it:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1619966395965493248?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [Kestra: Orquestación de flujos de trabajo basada en eventos](https://t.co/GLJuDZtyuF) 🌟 - Plataforma de orquestación de código abierto que permite automatizar flujos de trabajo complejos y pipelines de datos de forma declarativa sobre Kubernetes.
+  - [Configuring custom deployment protection rules in GitHub Actions](https://t.co/V4VdVNBeIJ) 🌟 - Guía oficial para implementar reglas de protección personalizadas en despliegues de GitHub Actions, permitiendo integrar verificaciones externas antes de ejecutar entornos críticos.
+  - [Migrating CI/CD from Jenkins to Argo](https://t.co/vw3IRWhoVS) 🌟 - Guía técnica detallada sobre la migración de flujos de trabajo de CI/CD desde Jenkins hacia Argo CD, enfocándose en la adopción de GitOps y la modernización de los procesos de despliegue.
