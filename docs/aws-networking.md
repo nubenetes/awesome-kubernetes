@@ -125,4 +125,6 @@
 </center>
 </details>
 
-  - [djtools-nsg-editor](https://t.co/X0eZOR1Zz5) - Herramienta CLI para editar y gestionar reglas de Network Security Groups (NSG) en AWS mediante un flujo de trabajo simplificado.
+  - [Tips to Save AWS Cross-AZ Traffic Costs](https://t.co/x1MjuwuSna) 🌟 - Guía práctica con estrategias técnicas para optimizar y reducir los costos operativos asociados al tráfico de red entre zonas de disponibilidad en AWS.
+  - [Private Link Reality Bytes: What's My Source IP?](https://t.co/1hiUPwZz9q) 🌟 - Un análisis técnico profundo sobre el comportamiento del tráfico y la resolución de direcciones IP de origen al utilizar AWS PrivateLink dentro de arquitecturas en la nube.
+  - [Private Link Reality Bites: Service Endpoints vs. Private Link](https://t.co/2eerTAk9Fh) 🌟 - Un análisis técnico comparativo entre AWS PrivateLink y VPC Service Endpoints para entender sus diferencias, casos de uso y limitaciones en arquitecturas de red seguras.
