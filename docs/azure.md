@@ -188,6 +188,7 @@
 - [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024)
 
 ## Azure Cloud Adoption Framework CAF
+  - [==Azure Cloud Adoption Framework: Enterprise-scale transition==](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) 🌟🌟🌟 - Guía esencial sobre la transición hacia Azure a escala empresarial dentro del CAF, enfocada en la madurez operativa y arquitectónica.
 
 - [learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
 - [linkedin.com: The Ultimate Guide to Azure Cloud Adoption Framework Lifecycle](https://www.linkedin.com/pulse/ultimate-guide-azure-cloud-adoption-framework-gregor-wohlfarter-hb4sf/)
@@ -378,6 +379,7 @@
 - [==DevOps Azure Pipelines: YAML Schema==](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline)
 
 ### Azure Pipeline Tasks
+  - [==Azure DevOps Terraform Pipeline==](https://t.co/Bu5U7w5aCo) 🌟🌟🌟 - Guía técnica para implementar CI/CD de Infraestructura como Código (IaC) utilizando Azure DevOps y Terraform.
 
 - [==Microsoft/azure-pipelines-tasks==](https://github.com/Microsoft/azure-pipelines-tasks) This repo contains the tasks that are provided out-of-the-box with Azure Pipelines and Team Foundation Server. This provides open examples on how we write tasks which will help you write other tasks which can be uploaded to your account or server.
     - [github.com/datakickstart](https://github.com/datakickstart)
@@ -484,6 +486,7 @@
 - [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html)
 
 ## Azure Application Gateway
+  - [==Application Gateway for Containers – Istio Integration==](https://t.co/naocYAZNS3) 🌟🌟🌟 - Guía para integrar Azure Application Gateway for Containers con Istio, optimizando el tráfico y las capacidades de service mesh en Kubernetes.
 
 - [==nathannellans.com: Azure Application Gateway - Part 1== 🌟](https://www.nathannellans.com/post/azure-application-gateway-part-1)
 - [acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs](https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm/)
@@ -625,6 +628,7 @@
 - [octopus.com: Getting started with PowerShell Desired State Configuration (DSC)](https://octopus.com/blog/getting-started-with-powershell-dsc) PowerShell DSC is an Infrastructure as Code (IaC) technology that uses PowerShell to create Managed Object Format (MOF) files, which Windows Management Instrumentation (WMI) can use to configure a machine. In other words, PowerShell DSC uses PowerShell to programmatically configure your Windows-based computers. Additionally, DSC can monitor the state of the configured resources to make sure your machines stay consistent. Along with monitoring, DSC can also automatically correct the configuration of your system, so it’s always in the desired state. **PowerShell != PowerShell DSC**
 
 ## Azure Bicep
+  - [==Azure Bicep: Infrastructure as Code Modernized==](https://t.co/KZ8waqA47g) 🌟🌟🌟 - Repositorio curado definitivo con mejores prácticas, herramientas y recursos esenciales para dominar el despliegue de recursos en Azure mediante Bicep.
 
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
 - [github.com/johnlokerse/azure-bicep-cheat-sheet: Azure Bicep Cheat Sheet](https://github.com/johnlokerse/azure-bicep-cheat-sheet) Quick-reference guide on Azure Bicep 💪🏻
@@ -646,6 +650,7 @@
     - [Deploy Secure Azure AI Studio with a managed virtual network](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/managedvnet/README.md)
 
 ## Azure Verified Modules
+  - [==Enterprise-scale Azure Subscription Vending using Azure Verified Modules (AVM)==](https://t.co/4dtMSm4yj6) 🌟🌟🌟 - Guía técnica para automatizar el aprovisionamiento de suscripciones en entornos empresariales mediante Azure Verified Modules y patrones de arquitectura escalables.
 
 - [==azure.github.io/Azure-Verified-Modules 🌟==](https://azure.github.io/Azure-Verified-Modules/) Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries.
 - [youtube: Code To Cloud - Getting Started With: Azure Verified Modules](https://www.youtube.com/watch?v=y1lOKQOapTw)
@@ -851,3 +856,7 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you looking to start a career in AI using Microsoft Azure? <br><br>Here are some of the best Azure services to learn:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1626147296630001667?ref_src=twsrc%5Etfw">February 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
+
+  - [Awesome Azure Developer CLI (azd)](https://t.co/zDs2dPYDH4) 🌟 - Una lista curada de recursos, herramientas y mejores prácticas para el Azure Developer CLI (azd), cubriendo ejemplos y extensiones.
+  - [Which Azure Network is Cheaper?](https://t.co/wv8b0PH4gv) 🌟 - Este artículo compara diferentes opciones de redes en Azure para determinar cuál es la más económica para varios casos de uso.
+  - [Azure AZVerify](https://t.co/mwjOllLAW4) 🌟 - Herramienta de Microsoft para validar configuraciones de seguridad y despliegues en Azure, asegurando el cumplimiento de las mejores prácticas en entornos cloud.
