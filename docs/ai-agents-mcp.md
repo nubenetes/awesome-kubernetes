@@ -27,9 +27,8 @@ Resources, tools, and projects related to autonomous AI agents, Model Context Pr
 - [Google Cloud Managed MCP](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini) - Production-grade MCP service for accessing GCP resources from Gemini.
 
 ## LLM Operators and Infrastructure
+  - [==Kiro: AWS Agentic AI-based IDE==](https://t.co/suAcaASwsS) 🌟🌟🌟 - Un IDE avanzado impulsado por agentes de IA diseñado para automatizar flujos de trabajo críticos en AWS, elevando la eficiencia en la gestión de infraestructura.
 - [Kube-Ray](https://github.com/ray-project/kuberay) - A toolkit to run Ray applications on Kubernetes.
 - [vLLM on Kubernetes](https://github.com/vllm-project/vllm) - High-throughput LLM serving with PagedAttention.
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator) - Automates the management of all NVIDIA software components needed to provision GPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven, local OpenAI-compatible API.
-
-  - [Announcing Azure MCP Server 2.0 Stable Release](https://t.co/lvUaKO3qif) 🌟 - Microsoft lanza la versión 2.0 estable del servidor MCP para Azure, facilitando la integración de recursos de nube en agentes de IA con herramientas de autenticación y descubrimiento mejoradas.
