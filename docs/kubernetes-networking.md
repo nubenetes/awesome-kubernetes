@@ -204,6 +204,7 @@
 - [==bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm==](https://bagas-awibowo.medium.com/helm-templating-network-policy-using-helm-783b2f7e401a)
 
 ## Nginx Ingress Controller
+  - [==Transition from Ingress-Nginx to Traefik==](https://t.co/jYjz4IKd9F) 🌟🌟🌟 - Guía técnica detallada sobre cómo migrar de Ingress-Nginx a Traefik para mejorar la gestión de tráfico en entornos Kubernetes.
 
 - [blog.teamhephy.info: Learn how to use the Nginx Ingress controller to serve traffic over SSH with TCP load balancing](https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html)
 - [nginx.com: A Guide to Choosing an Ingress Controller, Part 4: NGINX Ingress Controller Options](https://www.nginx.com/blog/guide-to-choosing-ingress-controller-part-4-nginx-ingress-controller-options/)
