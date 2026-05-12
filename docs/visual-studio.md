@@ -394,3 +394,4 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;I joined a company which brands itself as a tech-first company. I was super excited.<br><br>As I was setting up my laptop, I noticed I have no admin rights. Turned out I needed to request permission to install anything. And my request for Visual Studio Code was rejected.&quot;<br><br>🤯</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1510851664399548417?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [CodeSnap - VS Code Extension](https://t.co/F3Efib1N0g) - Extensión para Visual Studio Code que permite generar imágenes estéticas y de alta calidad a partir de fragmentos de código para documentación o presentaciones.
