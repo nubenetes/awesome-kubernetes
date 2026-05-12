@@ -2005,3 +2005,5 @@ will dive into the details of how they work
 
   gtag('config', 'UA-168051035-1');
 </script>
+
+  - [Detailed Explanation of Deployments in Kubernetes](https://t.co/E91QMUaFdO) 🌟 - Una guía exhaustiva que explica el funcionamiento, la arquitectura y los casos de uso de los Deployments en Kubernetes para la gestión de aplicaciones.
