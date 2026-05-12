@@ -776,3 +776,4 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
   gtag('config', 'UA-168051035-1');
 </script>
+  - [Marc's Napkin Upgrade Guide](https://t.co/apBnbRDiyJ) 🌟 - Una guía concisa y práctica para planificar y ejecutar actualizaciones de Jenkins de manera segura y eficiente.
