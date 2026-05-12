@@ -27,8 +27,13 @@ Resources, tools, and projects related to autonomous AI agents, Model Context Pr
 - [Google Cloud Managed MCP](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini) - Production-grade MCP service for accessing GCP resources from Gemini.
 
 ## LLM Operators and Infrastructure
-  - [==Kiro: AWS Agentic AI-based IDE==](https://t.co/suAcaASwsS) 🌟🌟🌟 - Un IDE avanzado impulsado por agentes de IA diseñado para automatizar flujos de trabajo críticos en AWS, elevando la eficiencia en la gestión de infraestructura.
 - [Kube-Ray](https://github.com/ray-project/kuberay) - A toolkit to run Ray applications on Kubernetes.
 - [vLLM on Kubernetes](https://github.com/vllm-project/vllm) - High-throughput LLM serving with PagedAttention.
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator) - Automates the management of all NVIDIA software components needed to provision GPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven, local OpenAI-compatible API.
+
+  - [Model Context Protocol (MCP) by Anthropic](https://t.co/Rzpkh1tE22) 🌟 - Estándar abierto para conectar sistemas de IA con fuentes de datos y herramientas locales o remotas mediante una arquitectura cliente-host-servidor.
+  - [Model Context Protocol (MCP) by Anthropic](https://t.co/MBl2IbZojx) 🌟 - Estándar abierto que permite conectar asistentes de IA con sistemas de datos y herramientas de infraestructura como Kubernetes de forma estandarizada.
+  - [Model Context Protocol (MCP) Official Documentation](https://t.co/cgguaXlIKQ) 🌟 - Documentación oficial del protocolo MCP que permite conectar asistentes de IA a sistemas de datos y herramientas de infraestructura de forma estandarizada.
+  - [Introduction to Model Context Protocol (MCP)](https://t.co/qwkpkGsyok) 🌟 - Una guía esencial sobre cómo el Model Context Protocol permite conectar asistentes de IA con sistemas externos y herramientas de infraestructura de manera estandarizada.
+  - [Building a Kubernetes MCP Server](https://t.co/TEKPSqgmNx) 🌟 - Guía práctica para implementar un Model Context Protocol (MCP) server que permite interactuar y gestionar recursos de Kubernetes mediante asistentes de IA.
