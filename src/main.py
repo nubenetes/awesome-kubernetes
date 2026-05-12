@@ -154,7 +154,7 @@ async def master_orchestrator():
         
         if has_more:
             # Commit y trigger siguiente (esto se gestiona mejor en el YAML del workflow)
-            print(f"[>] Tramo finalizado. Próximo inicio: {since_date.isoformat()}")
+            print(f"NEXT_CHUNK_START: {since_date.isoformat()}")
             git_controller.apply_historical_chunk(file_updates, since_date.isoformat())
         else:
             # Último tramo: Crear el PR final

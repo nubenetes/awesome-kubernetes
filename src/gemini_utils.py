@@ -56,7 +56,10 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             if response_format == "json":
                                 match = re.search(r'\{.*\}|\[.*\]', text_resp, re.DOTALL)
                                 if match:
-                                    return json.loads(match.group(0))
+                                    data = json.loads(match.group(0))
+                                    if isinstance(data, list):
+                                        return data[0] if len(data) > 0 else {}
+                                    return data
                                 diagnostics.add_attempt(model, 200, "JSON no encontrado en texto", text_resp)
                                 break 
                             return text_resp

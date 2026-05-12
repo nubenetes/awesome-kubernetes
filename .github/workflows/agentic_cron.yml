@@ -29,6 +29,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   agentic-curation-process:
@@ -66,8 +67,8 @@ jobs:
           cat output.log
           
           # Lógica de Re-disparo para Modo Histórico
-          if grep -q "\[>\] Tramo finalizado" output.log; then
-            NEXT_DATE=$(grep "Próximo inicio:" output.log | cut -d' ' -f4)
+          if grep -q "NEXT_CHUNK_START:" output.log; then
+            NEXT_DATE=$(grep "NEXT_CHUNK_START:" output.log | awk '{print $2}')
             echo "Disparando siguiente tramo histórico hasta: $NEXT_DATE"
             gh workflow run agentic_cron.yml -f historical_mode=true -f historical_until_date=$NEXT_DATE
           fi
