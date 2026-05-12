@@ -304,6 +304,7 @@
 - [dev.to: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 1)](https://dev.to/tutorialboy/a-detailed-talk-about-k8s-cluster-security-from-the-perspective-of-attackers-part-1-3mm5) This 2-part series summarizes the methods and experience of attacking Kubernetes components, external services of nodes, business pods, and container escaping, including lateral attacks, as well as attacks on the Kubernetes management platform
 
 ## Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager
+  - [==Impacto de la reducción de validez de certificados TLS a 47 días==](https://t.co/bNzqPqH7ze) 🌟🌟🌟 - Análisis crítico sobre las implicaciones operativas y la necesidad de automatización avanzada en la gestión de ciclos de vida cortos de certificados mediante cert-manager.
 
 - [==cert-manager.io== 🌟](https://cert-manager.io/docs/) cert-manager adds certificates and certificate issuers as resource types in Kubernetes clusters, and simplifies the process of obtaining, renewing and using those certificates. It can issue certificates from a variety of supported sources, including Let's Encrypt, HashiCorp Vault, and Venafi as well as private PKI.
 - [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
@@ -324,6 +325,7 @@
 - [==dev.to: Kubernetes TLS, Demystified== 🌟](https://dev.to/otomato_io/possible-paths-2hfc)
 
 ## Kubernetes OpenID Connect OIDC
+  - [==Microsoft Entra Exporter==](https://t.co/4pyShnjD56) 🌟🌟 - Herramienta oficial de Microsoft para exportar registros de auditoría y sign-in de Entra ID a sistemas de almacenamiento compatibles para análisis y seguridad.
 
 - [gini/dexter](https://github.com/gini/dexter) dexter is an OIDC (OpenId Connect) helper designed to create a hassle-free Kubernetes login experience powered by Google or Azure as Identity Provider. All you need is a properly configured Google or Azure client ID & secret
 - [betterprogramming.pub: Kubernetes Authentication Sidecars: A Revelation in Microservice Architecture](https://betterprogramming.pub/kubernetes-authentication-sidecars-a-revelation-in-microservice-architecture-12c4608189ab) A history of authentication and how to solve authentication in a reusable way using sidecar containers in Kubernetes
