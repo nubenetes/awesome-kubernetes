@@ -173,6 +173,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [allthingsdistributed.com: Redefining application communications with AWS App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)
 
 ## Istio and AWS EKS
+  - [==Application Gateway for Containers (AGIC) Istio Integration==](https://t.co/naocYAZNS3) 🌟🌟🌟 - Guía técnica detallada sobre cómo integrar AWS Application Gateway for Containers con Istio para una gestión avanzada del tráfico en Kubernetes.
 
 - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
 
