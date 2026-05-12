@@ -1242,4 +1242,12 @@ elastic quotas - Effortless optimization at its finest!
   - [kuberay](https://github.com/ray-project/kuberay) - A toolkit to run Ray applications on Kubernetes
 
   - [odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
-  - [Quiz Grader](https://t.co/eRCjx8Qnpn) - Herramienta de automatización para la calificación de cuestionarios basada en contenedores, diseñada para facilitar la evaluación técnica en entornos educativos o de testing.
+  - [Karpor: Kubernetes Resource Aggregation and Governance](https://t.co/BGu0huQPMc) 🌟 - Karpor es una herramienta de gobernanza de recursos multiclúster que permite la agregación, búsqueda y gestión de configuraciones de Kubernetes a escala utilizando una arquitectura basada en agregadores.
+  - [Sharing a NVIDIA GPU between pods in Kubernetes](https://t.co/5yHRBX1Lgr) 🌟 - Guía técnica sobre cómo configurar y compartir recursos de GPU NVIDIA entre múltiples pods en un clúster de Kubernetes utilizando Time-Slicing.
+  - [Seabird: Cloud-native application delivery platform](https://t.co/KNpemB1Al4) 🌟 - Una plataforma diseñada para simplificar el despliegue y la gestión de aplicaciones en entornos Kubernetes mediante una experiencia optimizada para desarrolladores.
+  - [zoyron/sketches: Kubernetes Resource Utilities](https://t.co/TtCNO4ufn3) - Colección de scripts y utilidades para la gestión, inspección y manipulación de recursos en clústeres de Kubernetes.
+  - [Run KubeVirt VM inside a Kubernetes Pod](https://t.co/2mbfiKO70r) 🌟 - Tutorial técnico sobre cómo ejecutar máquinas virtuales de KubeVirt dentro de pods de Kubernetes utilizando arquitecturas anidadas.
+  - [Kube Startup CPU Boost](https://t.co/TesjBmHgis) 🌟 - Un controlador de Kubernetes que aumenta temporalmente los límites de CPU durante la fase de arranque de los pods para acelerar el inicio de aplicaciones Java o de carga pesada.
+  - [Quick Demo: Kubernetes Resource Management](https://t.co/1rWAZgfKqA) - Breve demostración técnica sobre la gestión y visualización de recursos dentro de un clúster de Kubernetes.
+  - [Autodotes: Kubernetes Resource Limits and Requests Explained](https://t.co/inY8NlsPVe) 🌟 - Una guía técnica y visual sobre la configuración óptima de límites y peticiones (requests/limits) en Kubernetes para garantizar la estabilidad y eficiencia de los pods.
+  - [bul: Interactive Kubernetes Log Viewer](https://t.co/WL3q69OYbG) 🌟 - Herramienta CLI interactiva diseñada para explorar y visualizar logs de pods en Kubernetes de manera eficiente.
