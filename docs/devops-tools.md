@@ -1,5 +1,4 @@
 # DevOps Tools aka Toolchain
-  - [==TS Diagram==](https://t.co/CA9IqE5abe) 🌟🌟🌟 - Plataforma esencial para la visualización y documentación de arquitecturas en entornos Cloud Native y sistemas complejos.
 
 1. [Introduction](#introduction)
 2. [Keptn](#keptn)
@@ -65,4 +64,5 @@
 - [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) Platform Engineering capabilities and stacks installed with one command.
 - You know what’s missing? An easy tool that just installs capibilities (ArgoCD, Datadog, KubeVirt, etc.) in an easy way. One command to do it all. A tool that easily gets whatever capabilities you want your kubernetes cluster to have deployed in production. Capipe, which stands for Capibility Platform Engineering, allows you to specify capabilities that you want to install within your Platform Engineering environment.
 
-  - [Web-Check: All-in-one OSINT Tool for Website Analysis](https://t.co/UwbF0wvQM2) 🌟 - Web-Check is a comprehensive OSINT tool providing detailed insights into any website, covering DNS, security headers, SSL certificates, Whois information, page speed, SEO score, technologies used, and more.
+
+  - [Warp: The AI-enabled Terminal](https://t.co/y3G8j08SuE) 🌟 - Terminal moderna basada en Rust diseñada para aumentar la productividad del desarrollador con funciones integradas de IA y colaboración en la nube.
