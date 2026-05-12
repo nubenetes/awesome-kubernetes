@@ -3,15 +3,39 @@ import asyncio
 import random
 import json
 import re
+from typing import Dict, Any, List, Optional
 from src.config import GEMINI_API_KEY, GEMINI_API_VERSION, GEMINI_MODELS
+
+class GeminiDiagnostics:
+    def __init__(self):
+        self.attempts = []
+
+    def add_attempt(self, model: str, status: int, error: str = None, response_text: str = None):
+        self.attempts.append({
+            "model": model,
+            "status": status,
+            "error": error,
+            "response_preview": response_text[:200] if response_text else None
+        })
+
+    def get_report(self) -> str:
+        report = "DIAGNÓSTICO GEMINI:\n"
+        for i, a in enumerate(self.attempts):
+            report += f"  {i+1}. [{a['model']}] Status: {a['status']}"
+            if a['error']: report += f" | Error: {a['error']}"
+            if a['response_preview']: report += f" | Resp: {a['response_preview']}"
+            report += "\n"
+        return report
 
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
     """
-    Llama a la API de Gemini con rotación de modelos y reintentos ante 404 o 429.
+    Llama a la API de Gemini con rotación de modelos y diagnóstico detallado.
     """
     if not GEMINI_API_KEY:
         raise ValueError("GEMINI_API_KEY no configurada.")
 
+    diagnostics = GeminiDiagnostics()
+    
     async with httpx.AsyncClient() as client:
         for model in GEMINI_MODELS:
             api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/models/{model}:generateContent?key={GEMINI_API_KEY}"
@@ -23,35 +47,41 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                     
                     if response.status_code == 200:
                         try:
-                            text_resp = response.json()['candidates'][0]['content']['parts'][0]['text']
+                            resp_json = response.json()
+                            if 'candidates' not in resp_json or not resp_json['candidates']:
+                                diagnostics.add_attempt(model, 200, "Respuesta vacía (no candidates)", response.text)
+                                break
+
+                            text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']
                             if response_format == "json":
                                 match = re.search(r'\{.*\}|\[.*\]', text_resp, re.DOTALL)
                                 if match:
                                     return json.loads(match.group(0))
-                                raise ValueError("No se encontró JSON en la respuesta")
+                                diagnostics.add_attempt(model, 200, "JSON no encontrado en texto", text_resp)
+                                break 
                             return text_resp
-                        except (KeyError, IndexError, json.JSONDecodeError) as e:
-                            print(f"[!] Error parseando respuesta de {model}: {e}")
-                            break # Probar siguiente modelo si el formato es basura
+                        except Exception as e:
+                            diagnostics.add_attempt(model, 200, f"Error parseo: {str(e)}", response.text)
+                            break
                     
                     elif response.status_code == 404:
-                        print(f"[!] Modelo {model} no encontrado (404) en {api_url}. Probando siguiente...")
-                        break # Ir al siguiente modelo en GEMINI_MODELS
+                        diagnostics.add_attempt(model, 404, "Modelo no encontrado")
+                        break # Probar siguiente modelo
                     
                     elif response.status_code == 429:
+                        diagnostics.add_attempt(model, 429, "Rate Limit")
                         wait = (2 ** attempt) + random.random()
-                        print(f"[*] Rate limit (429) para {model}. Reintentando en {wait:.2f}s...")
                         await asyncio.sleep(wait)
                         continue
                     
                     else:
-                        print(f"[!] Error {response.status_code} de Gemini ({model}): {response.text[:200]}")
-                        break # Probar siguiente modelo
+                        diagnostics.add_attempt(model, response.status_code, "Error API", response.text)
+                        break
                         
                 except Exception as e:
-                    print(f"[!] Excepción llamando a {model}: {e}")
+                    diagnostics.add_attempt(model, 0, f"Excepción: {str(e)}")
                     if attempt == max_retries - 1:
                         break
                     await asyncio.sleep(1)
         
-    raise Exception("Todos los modelos de Gemini fallaron o no están disponibles.")
+    raise Exception(f"Fallo crítico Gemini.\n{diagnostics.get_report()}")

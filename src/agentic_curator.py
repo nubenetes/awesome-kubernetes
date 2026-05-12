@@ -84,7 +84,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80
                 }
         except Exception as e:
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error Gemini: {str(e)[:50]}"}
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error Gemini: {str(e)[:500]}"}
         
         await asyncio.sleep(0.5) # Evitar saturar la API
             
