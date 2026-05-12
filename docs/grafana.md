@@ -110,4 +110,4 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana as Code
 
 - [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/2022/12/06/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks/)
-  - [Grafana Assistant Journey PoC for Grafana 13 Features](https://t.co/wwrr5Solmj) 🌟 - Explora un PoC para las nuevas características de Grafana 13, centrándose en la implementación y el viaje del asistente de IA.
+  - [Grafana Assistant Journey POC](https://t.co/wwrr5Solmj) 🌟 - Documentación técnica detallada sobre la implementación y capacidades de asistencia mediante IA integrada en Grafana 13.
