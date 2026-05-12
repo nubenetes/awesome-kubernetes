@@ -68,8 +68,6 @@
 - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6) “Declaring the Kubes”
 
 ### Config Connector
-  - [==Infrastructure as Code using Kubernetes: Config Connector==](https://t.co/jPGtsnsUYj) 🌟🌟🌟 - Guía esencial para integrar recursos de nube existentes en IaC y garantizar la consistencia del estado en entornos Kubernetes.
-  - [==Nobody wants to create a new repo==](https://t.co/zmzQwFFesa) 🌟🌟 - Un análisis sobre cómo reducir la fricción en la creación de repositorios mediante IaC optimizada para mejorar la experiencia del desarrollador.
 
 - [==cloud.google.com/config-connector==](https://cloud.google.com/config-connector/docs/overview) Config Connector is an open source Kubernetes addon that allows you to manage Google Cloud resources through Kubernetes.
 - [medium.com/globant: Infrastructure as Code using Kubernetes](https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517)
@@ -99,3 +97,4 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you use the AWS, GCP, or Azure web consoles beyond getting started with a new cloud provider? If so, why not an automation tool such as Terraform or Cloud Formation? <a href="https://t.co/5LIZSTcNpG">pic.twitter.com/5LIZSTcNpG</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1483820927402004484?ref_src=twsrc%5Etfw">January 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [TerraSchema: Generación de esquemas JSON para Terraform](https://t.co/ibfessjeYW) 🌟 - Herramienta de HPE que permite generar esquemas JSON a partir de proveedores de Terraform para facilitar la validación y el análisis de infraestructura como código.
