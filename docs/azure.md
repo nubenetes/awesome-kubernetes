@@ -184,11 +184,11 @@
 - [arinco.com.au: Awesome Azure Policy Chapter 2](https://arinco.com.au/blog/awesome-azure-policy-chapter-2/)
 
 ### Azure Policy Best Practices
-  - [==AZVerify: Validación Automatizada de Configuraciones==](https://t.co/mwjOllLAW4) 🌟🌟🌟 - Herramienta esencial para auditar y asegurar que tus despliegues en Azure cumplen con las mejores prácticas, estándares de seguridad y el marco del Well-Architected Framework.
 
 - [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024)
 
 ## Azure Cloud Adoption Framework CAF
+  - [==Transitioning to Enterprise-Scale in Azure==](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/) 🌟🌟🌟 - Guía técnica oficial de Microsoft para migrar y evolucionar hacia una arquitectura Enterprise-Scale bajo el Cloud Adoption Framework.
 
 - [learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
 - [linkedin.com: The Ultimate Guide to Azure Cloud Adoption Framework Lifecycle](https://www.linkedin.com/pulse/ultimate-guide-azure-cloud-adoption-framework-gregor-wohlfarter-hb4sf/)
@@ -284,7 +284,6 @@
 - [learn.microsoft.com: Mission-critical workloads](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview)
 
 ## Understand Azure Load Balancing
-  - [==Which Azure Network is Cheaper?==](https://t.co/wv8b0PH4gv) 🌟🌟🌟 - Análisis comparativo técnico sobre los costos de red en Azure para optimizar el gasto en infraestructura cloud.
 
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
 - [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
@@ -627,6 +626,7 @@
 - [octopus.com: Getting started with PowerShell Desired State Configuration (DSC)](https://octopus.com/blog/getting-started-with-powershell-dsc) PowerShell DSC is an Infrastructure as Code (IaC) technology that uses PowerShell to create Managed Object Format (MOF) files, which Windows Management Instrumentation (WMI) can use to configure a machine. In other words, PowerShell DSC uses PowerShell to programmatically configure your Windows-based computers. Additionally, DSC can monitor the state of the configured resources to make sure your machines stay consistent. Along with monitoring, DSC can also automatically correct the configuration of your system, so it’s always in the desired state. **PowerShell != PowerShell DSC**
 
 ## Azure Bicep
+  - [==Azure Bicep: Infrastructure as Code==](https://github.com/Azure/bicep) 🌟🌟🌟 - Repositorio oficial y recurso fundamental para dominar la implementación de recursos en Azure mediante código declarativo.
 
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
 - [github.com/johnlokerse/azure-bicep-cheat-sheet: Azure Bicep Cheat Sheet](https://github.com/johnlokerse/azure-bicep-cheat-sheet) Quick-reference guide on Azure Bicep 💪🏻
@@ -853,6 +853,3 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you looking to start a career in AI using Microsoft Azure? <br><br>Here are some of the best Azure services to learn:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1626147296630001667?ref_src=twsrc%5Etfw">February 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
-
-  - [Awesome AZD - Azure Developer CLI Resources](https://t.co/zDs2dPYDH4) 🌟 - Este recurso es una colección curada de proyectos, muestras, artículos y contribuciones de la comunidad relacionados con Azure Developer CLI (azd), una herramienta diseñada para acelerar el desarrollo de aplicaciones en Azure.
-  - [Azure DevOps Terraform Pipeline](https://t.co/Bu5U7w5aCo) 🌟 - A technical guide detailing how to integrate Terraform with Azure DevOps to create and manage infrastructure as code pipelines.
