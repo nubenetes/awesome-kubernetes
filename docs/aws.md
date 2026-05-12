@@ -276,4 +276,4 @@ You can filter by topic using the toolbar above.
 </center>
 </details>
 
-  - [awesome-aws](https://t.co/jVldbudrEK) 🌟 - Una lista curada y exhaustiva de recursos, bibliotecas y herramientas para el ecosistema de Amazon Web Services.
+  - [awesome-aws](https://t.co/FgptqruNLZ) 🌟 - Una curaduría exhaustiva y altamente valorada de recursos, bibliotecas y herramientas para el ecosistema de Amazon Web Services.
