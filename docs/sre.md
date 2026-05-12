@@ -1,4 +1,5 @@
 # Site Reliability Engineering (SRE)
+  - [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed/) 🌟🌟🌟 - Guía fundamental y referencia técnica indispensable para implementar estrategias de observabilidad y monitoreo en sistemas distribuidos a gran escala.
 
 1. [SRE](#sre)
 2. [SRE Tools](#sre-tools)
