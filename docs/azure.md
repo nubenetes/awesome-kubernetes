@@ -188,7 +188,6 @@
 - [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024)
 
 ## Azure Cloud Adoption Framework CAF
-  - [==Transitioning to Enterprise-Scale in Azure==](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/) 🌟🌟🌟 - Guía técnica oficial de Microsoft para migrar y evolucionar hacia una arquitectura Enterprise-Scale bajo el Cloud Adoption Framework.
 
 - [learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
 - [linkedin.com: The Ultimate Guide to Azure Cloud Adoption Framework Lifecycle](https://www.linkedin.com/pulse/ultimate-guide-azure-cloud-adoption-framework-gregor-wohlfarter-hb4sf/)
@@ -626,7 +625,6 @@
 - [octopus.com: Getting started with PowerShell Desired State Configuration (DSC)](https://octopus.com/blog/getting-started-with-powershell-dsc) PowerShell DSC is an Infrastructure as Code (IaC) technology that uses PowerShell to create Managed Object Format (MOF) files, which Windows Management Instrumentation (WMI) can use to configure a machine. In other words, PowerShell DSC uses PowerShell to programmatically configure your Windows-based computers. Additionally, DSC can monitor the state of the configured resources to make sure your machines stay consistent. Along with monitoring, DSC can also automatically correct the configuration of your system, so it’s always in the desired state. **PowerShell != PowerShell DSC**
 
 ## Azure Bicep
-  - [==Azure Bicep: Infrastructure as Code==](https://github.com/Azure/bicep) 🌟🌟🌟 - Repositorio oficial y recurso fundamental para dominar la implementación de recursos en Azure mediante código declarativo.
 
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
 - [github.com/johnlokerse/azure-bicep-cheat-sheet: Azure Bicep Cheat Sheet](https://github.com/johnlokerse/azure-bicep-cheat-sheet) Quick-reference guide on Azure Bicep 💪🏻
@@ -853,3 +851,17 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you looking to start a career in AI using Microsoft Azure? <br><br>Here are some of the best Azure services to learn:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1626147296630001667?ref_src=twsrc%5Etfw">February 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
+
+  - [Azure IP Address Management (IPAM)](https://t.co/kVFVq169UL) 🌟 - Visión general de las capacidades de gestión de direcciones IP en Azure Virtual Network Manager para simplificar la planificación y administración de redes a gran escala.
+  - [Configure NGINX Ingress Controller in Azure Kubernetes Service (AKS) App Routing](https://t.co/c1CYc4zjJw) 🌟 - Documentación técnica oficial sobre cómo personalizar y controlar la configuración del controlador de ingreso NGINX gestionado en AKS mediante el complemento de enrutamiento de aplicaciones.
+  - [Azure Event Grid Trigger Functions: The Two-Step Tango with Terraform](https://t.co/ktLTzZYsYH) 🌟 - Análisis técnico sobre las limitaciones de aplicar Terraform en un solo paso al configurar disparadores de Azure Event Grid y cómo gestionar su ciclo de vida correctamente.
+  - [Flexible Federated Credentials for Terraform in Azure](https://t.co/4bVlzQURFs) 🌟 - Guía técnica detallada sobre la implementación de credenciales federadas (OIDC) en Azure para automatizar despliegues con Terraform de forma segura sin secretos estáticos.
+  - [Instalar el módulo de PowerShell para Microsoft Entra](https://t.co/6faKPkGWmU) - Documentación oficial de Microsoft Learn sobre cómo instalar y configurar el módulo de PowerShell necesario para administrar Microsoft Entra ID (anteriormente Azure AD).
+  - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://t.co/4T9Wdoarkx) 🌟 - Guía práctica sobre cómo automatizar la generación de descripciones de Pull Requests en Azure DevOps utilizando Azure OpenAI para mejorar la documentación y consistencia en el ciclo de vida de desarrollo.
+  - [Azure Well-Architected Framework: Azure Kubernetes Service](https://t.co/j7FO6oZfV5) 🌟 - Guía oficial y exhaustiva de Microsoft sobre mejores prácticas, arquitectura y diseño para optimizar cargas de trabajo en AKS.
+  - [A guide to Azure data transfer pricing](https://t.co/XfbYoXlP0L) 🌟 - Guía técnica detallada sobre cómo funcionan los costes de transferencia de datos en Azure, esencial para la optimización de costes y arquitecturas en la nube.
+  - [Four methods to access Azure Key Vault from Azure Kubernetes Service (AKS)](https://t.co/hzBVDsuypW) 🌟 - Guía técnica detallada sobre las cuatro estrategias para integrar AKS con Azure Key Vault, incluyendo el uso de Secret Store CSI Driver y Managed Identities.
+  - [Azure Cloud Adoption Framework: Monitoring Reference](https://t.co/njMLofr7sv) 🌟 - Guía oficial de Microsoft sobre las mejores prácticas y referencias técnicas para implementar monitoreo en servicios de Azure dentro del marco de adopción de la nube.
+  - [Deploy Azure Landing Zones with Terraform](https://t.co/lWOMyDJfiW) 🌟 - Guía oficial de Microsoft sobre cómo implementar Azure Landing Zones utilizando Terraform bajo el Cloud Adoption Framework.
+  - [Azure Landing Zones](https://t.co/ekYnaWTAFP) 🌟 - Guía oficial de Microsoft para el diseño y despliegue de entornos en la nube escalables, seguros y alineados con las mejores prácticas de gobernanza.
+  - [Application Gateway for Containers: A Not-So-Gentle Intro](https://t.co/LxVaI2MIl0) 🌟 - Una guía técnica profunda sobre la implementación y configuración de Azure Application Gateway for Containers en entornos de Kubernetes.
