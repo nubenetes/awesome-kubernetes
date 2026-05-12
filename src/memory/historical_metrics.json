@@ -5,7 +5,7 @@
       "url": "https://t.co/96vp9N8mt6",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "kubernetes-tools",
+      "category": "ai-agents-mcp",
       "source": "X.com (search)",
       "post_date": "2025-11-21T22:49:11+01:00"
     },
@@ -21,7 +21,7 @@
       "url": "https://t.co/CA9IqE5abe",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "devops-tools",
+      "category": "cloud-arch-diagrams",
       "source": "X.com (search)",
       "post_date": "2025-12-02T17:29:05+01:00"
     },
@@ -29,7 +29,7 @@
       "url": "https://t.co/abBnSWk7lE",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "kubernetes-releases",
+      "category": "ai-agents-mcp",
       "source": "X.com (search)",
       "post_date": "2025-12-04T18:33:05+01:00"
     },
@@ -37,7 +37,7 @@
       "url": "https://t.co/naocYAZNS3",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "azure",
+      "category": "istio",
       "source": "X.com (search)",
       "post_date": "2025-12-07T14:42:13+01:00"
     },
@@ -69,15 +69,15 @@
       "url": "https://t.co/UwbF0wvQM2",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "devops-tools",
+      "category": "kubernetes-tools",
       "source": "X.com (search)",
       "post_date": "2025-12-23T16:40:25+01:00"
     },
     {
       "url": "https://t.co/vlaiNtIich",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "sre",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  5. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\"",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-01-07T07:46:09+01:00"
     },
@@ -91,25 +91,25 @@
     },
     {
       "url": "https://t.co/rAefuVQJhq",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "azure",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-01-16T22:54:05+01:00"
     },
     {
       "url": "https://t.co/5hSoNprv8I",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "terraform",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-01-23T16:15:12+01:00"
     },
     {
       "url": "https://t.co/Pnt0Le90Mo",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "terraform",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 0 | Error: Excepci\u00f3n: \n  5. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\"",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-02-05T22:15:31+01:00"
     },
@@ -123,25 +123,25 @@
     },
     {
       "url": "https://t.co/zmzQwFFesa",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "iac",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-03-25T19:37:16+01:00"
     },
     {
       "url": "https://t.co/jX6wbMDrPq",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "ai",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-03T11:22:47+02:00"
     },
     {
       "url": "https://t.co/u7RCCRGi5l",
-      "status": "FILTERED",
-      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  2. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually t",
-      "category": "N/A",
+      "status": "INCLUDED",
+      "reason": "Aceptado",
+      "category": "ai-agents-mcp",
       "source": "X.com (search)",
       "post_date": "2026-04-04T13:58:08+02:00"
     },
@@ -156,7 +156,7 @@
     {
       "url": "https://t.co/SLChIxr1vB",
       "status": "FILTERED",
-      "reason": "El enlace ha sido identificado por X como 'potentially spammy or unsafe', 'malicious links that could steal personal information or harm electronic devices', o 'spammy links that mislead people'. Seg\u00fan la REGLA DE ORO, es considerado 'ruido total' y no debe ser catalogado para proteger la integridad de la lista.",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
       "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-11T00:06:28+02:00"
@@ -171,25 +171,25 @@
     },
     {
       "url": "https://t.co/4dtMSm4yj6",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "azure",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-13T22:19:56+02:00"
     },
     {
       "url": "https://t.co/AkWHD2voAC",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "docker",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-19T18:51:20+02:00"
     },
     {
       "url": "https://t.co/jVldbudrEK",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "aws",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-20T23:33:31+02:00"
     },
@@ -211,9 +211,9 @@
     },
     {
       "url": "https://t.co/jPGtsnsUYj",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "iac",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-23T20:31:07+02:00"
     },
@@ -221,31 +221,31 @@
       "url": "https://t.co/o4HkTDnUtb",
       "status": "INCLUDED",
       "reason": "Aceptado",
-      "category": "ai",
+      "category": "ai-agents-mcp",
       "source": "X.com (search)",
       "post_date": "2026-04-26T23:41:24+02:00"
     },
     {
       "url": "https://t.co/m9HFffK9Fq",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "ai-agents-mcp",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-04-27T00:25:05+02:00"
     },
     {
       "url": "https://t.co/X0eZOR1Zz5",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "aws-networking",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-05-01T09:22:40+02:00"
     },
     {
       "url": "https://t.co/xGGSOOVZ86",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "terraform",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-05-02T00:06:52+02:00"
     },
@@ -267,9 +267,9 @@
     },
     {
       "url": "https://t.co/KZ8waqA47g",
-      "status": "INCLUDED",
-      "reason": "Aceptado",
-      "category": "azure",
+      "status": "FILTERED",
+      "reason": "Error Gemini: Fallo cr\u00edtico Gemini.\nDIAGN\u00d3STICO GEMINI:\n  1. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  2. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  3. [gemini-2.5-flash] Status: 429 | Error: Rate Limit\n  4. [gemini-3.1-flash-lite] Status: 503 | Error: Error API | Resp: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n\n  5. [gemini-1.5-flash]",
+      "category": "N/A",
       "source": "X.com (search)",
       "post_date": "2026-05-09T23:06:26+02:00"
     },
@@ -288,6 +288,6 @@
     "**Scrolling** - \u274c FALLO: Alcanzado l\u00edmite de scrolls (100) usando search.",
     "**Estrategia Playwright** - \u2705 \u00c9XITO: Recuperados 35 bookmarks en el rango 2025-11-13 a 2026-05-12."
   ],
-  "start_date": "2025-11-13T10:35:16.295852+02:00",
-  "end_date": "2026-05-12T10:35:16.295852+02:00"
+  "start_date": "2025-11-13T12:48:48.230130+02:00",
+  "end_date": "2026-05-12T12:48:48.230130+02:00"
 }
