@@ -110,4 +110,5 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana as Code
 
 - [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/2022/12/06/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks/)
-  - [Grafana Assistant Journey POC](https://t.co/wwrr5Solmj) 🌟 - Documentación técnica detallada sobre la implementación y capacidades de asistencia mediante IA integrada en Grafana 13.
+  - [Open standards, lower costs, and centralized observability: Why FalconX moved to Grafana Cloud](https://t.co/ZMhtfXmsCV) 🌟 - Caso de éxito donde FalconX optimiza su observabilidad y reduce costos migrando a Grafana Cloud aprovechando estándares abiertos.
+  - [A guide to scaling Grafana Alloy deployments across multiple hosts](https://t.co/ZWMMDsZeSx) 🌟 - Guía técnica sobre estrategias y mejores prácticas para escalar despliegues de Grafana Alloy en entornos distribuidos.
