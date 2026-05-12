@@ -640,6 +640,7 @@
 ==}
 
 ### Terraform and AWS
+  - [==Terraform AI: Infrastructure as Code for AI Deployments==](https://t.co/Pnt0Le90Mo) 🌟🌟🌟 - Guía avanzada sobre automatización, despliegue y gestión de infraestructura optimizada para cargas de trabajo de IA.
 
 - [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)
 - [==github.com/terraform-aws-modules/terraform-aws-solutions==](https://github.com/terraform-aws-modules/terraform-aws-solutions) **Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules**
@@ -759,6 +760,7 @@
 - [==serverless.tf: Doing serverless with Terraform==](https://serverless.tf) serverless.tf is an opinionated open-source framework for developing, building, deploying, and securing serverless applications and infrastructures on AWS using Terraform.
 
 ### Terraform with Azure
+  - [==Automatización de Microsoft Entra ID con Terraform: De CSV a Usuarios y RBAC en Minutos==](https://t.co/5hSoNprv8I) 🌟🌟🌟 - Guía técnica de Nubenetes.com para automatizar la gestión de identidades y control de acceso (RBAC) en Azure utilizando flujos de trabajo basados en datos (CSV) y Terraform.
 
 - [registry.terraform.io: Terraform Azure Resources 🌟](https://registry.terraform.io/modules/azurerm/resources/azure/latest) This set of terraform modules will help you to create and manage a Azure Resources.
 - [build5nines.com: Get Started with Terraform on Azure](https://build5nines.com/get-started-with-terraform-on-microsoft-azure/)
@@ -1182,3 +1184,5 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wNllmEAuCTg?si=xyKNxoi-Diu_m5yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 </details>
+  - [Terraform Skill](https://t.co/aXThkh0fx7) 🌟 - Una guía exhaustiva y curada de recursos para aprender y dominar Terraform, ideal para profesionales en el ecosistema Cloud Native.
+  - [The Right Way to Use Terraform with AI](https://t.co/xGGSOOVZ86) 🌟 - Análisis sobre cómo integrar eficientemente la inteligencia artificial en flujos de trabajo de infraestructura como código utilizando Terraform y Spacelift.
