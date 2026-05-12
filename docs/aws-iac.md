@@ -37,3 +37,6 @@
 ## Console Recorder for AWS
 
 - [==onecloudplease.com: Console Recorder for AWS==](https://onecloudplease.com/project/console-recorder) **Records actions made in the AWS Management Console and outputs the equivalent CLI / SDK commands and CloudFormation / Terraform templates.**
+
+  - [AVM Terraform Labs](https://t.co/yMVA1zEssv) 🌟 - Laboratorios prácticos de Microsoft para aprender a implementar módulos de Azure Verified Modules (AVM) mediante Terraform siguiendo las mejores prácticas de IaC.
+  - [Well-Architected IaC Analyzer](https://t.co/4fclqjbuWV) 🌟 - Herramienta de AWS para analizar plantillas de infraestructura como código (IaC) y detectar desviaciones de las mejores prácticas del AWS Well-Architected Framework.
