@@ -124,3 +124,5 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝗔𝗺𝗮𝘇𝗼𝗻 𝗩irtual 𝗣rivate 𝗖loud ☁️ 🔐<br>Your 𝗹𝗼𝗴𝗶𝗰𝗮𝗹𝗹𝘆 𝗶𝘀𝗼𝗹𝗮𝘁𝗲𝗱 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗻𝗲𝘁𝘄𝗼𝗿𝗸 in the cloud 🛠<br><br>From Security Groups, over Route Tables to VPC Peering ↓ <a href="https://t.co/OWhIWVbJwu">pic.twitter.com/OWhIWVbJwu</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1582330939442536448?ref_src=twsrc%5Etfw">October 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [djtools-nsg-editor](https://t.co/X0eZOR1Zz5) - Herramienta CLI para editar y gestionar reglas de Network Security Groups (NSG) en AWS mediante un flujo de trabajo simplificado.
