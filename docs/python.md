@@ -256,6 +256,7 @@
 - [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) One of Thoth's major offerings is a cloud-based resolver, which examines the packages and libraries requested by an application and determines the best way to resolve them so that they work together in the target environment.
 
 ## Python Books
+  - [==Think Python: An Introduction to Software Design==](https://t.co/VeFIbufHPi) 🌟🌟🌟 - Libro de texto integral que enseña los fundamentos de la programación en Python mediante la resolución de problemas y el diseño de software.
 
 - [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks.
     - [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
