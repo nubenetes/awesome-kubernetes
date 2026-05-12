@@ -137,7 +137,6 @@
 - [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
-  - [==Ingate==](https://t.co/5QdnvMKmDm) 🌟🌟🌟 - Proyecto oficial de la SIG de Kubernetes para gestionar el ingreso de tráfico a clusters de forma simplificada y eficiente.
 
 - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need
 - [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
@@ -1243,3 +1242,4 @@ elastic quotas - Effortless optimization at its finest!
   - [kuberay](https://github.com/ray-project/kuberay) - A toolkit to run Ray applications on Kubernetes
 
   - [odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
+  - [Quiz Grader](https://t.co/eRCjx8Qnpn) - Herramienta de automatización para la calificación de cuestionarios basada en contenedores, diseñada para facilitar la evaluación técnica en entornos educativos o de testing.
