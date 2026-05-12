@@ -233,7 +233,7 @@
     - Building different images per environment.
 
 ## Docker Security
-  - [==Docker Hardened Images for Every Developer==](https://t.co/AzeBjUMPFU) 🌟🌟🌟 - Docker introduce imágenes endurecidas para mejorar la seguridad en la cadena de suministro de software desde el entorno de desarrollo.
+  - [==Docker Hardened Images: Imágenes base seguras para la cadena de suministro==](https://t.co/AzeBjUMPFU) 🌟🌟🌟 - Nueva iniciativa de Docker para reducir vulnerabilidades desde el origen mediante imágenes base 'hardened' optimizadas para producción.
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
