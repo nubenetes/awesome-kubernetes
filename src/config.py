@@ -20,12 +20,10 @@ GH_TOKEN = os.getenv("GH_TOKEN")
 # Gemini Configuration (May 2026)
 GEMINI_API_VERSION = "v1beta"
 GEMINI_MODELS = [
-    "gemini-3.1-flash", 
-    "gemini-3.1-pro", 
     "gemini-3.1-flash-lite", 
-    "gemini-3-flash", 
-    "gemini-3-pro", 
-    "gemini-2.5-flash"
+    "gemini-2.5-flash", 
+    "gemini-2.5-flash-lite", 
+    "gemini-2.0-flash"
 ]
 
 TARGET_REPO = "nubenetes/awesome-kubernetes"

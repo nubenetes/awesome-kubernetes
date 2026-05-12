@@ -86,7 +86,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         except Exception as e:
             evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error Gemini: {str(e)[:500]}"}
         
-        await asyncio.sleep(0.5) # Evitar saturar la API
+        await asyncio.sleep(2.0) # Evitar saturar la API con un delay más conservador
             
     if domain_blacklist:
         try:

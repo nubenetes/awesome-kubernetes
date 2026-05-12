@@ -27,7 +27,7 @@ class GeminiDiagnostics:
             report += "\n"
         return report
 
-async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
+async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 5):
     """
     Llama a la API de Gemini con rotación de modelos y diagnóstico detallado.
     """
@@ -71,9 +71,11 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                         diagnostics.add_attempt(model, 404, "Modelo no encontrado")
                         break # Probar siguiente modelo
                     
-                    elif response.status_code == 429:
-                        diagnostics.add_attempt(model, 429, "Rate Limit")
-                        wait = (2 ** attempt) + random.random()
+                    elif response.status_code in [429, 503]:
+                        reason = "Rate Limit" if response.status_code == 429 else "Service Unavailable"
+                        diagnostics.add_attempt(model, response.status_code, reason)
+                        # Backoff agresivo: 5, 10, 20, 40... segundos
+                        wait = (5 * (2 ** attempt)) + random.random() * 5
                         await asyncio.sleep(wait)
                         continue
                     
