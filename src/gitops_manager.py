@@ -1,4 +1,5 @@
 import json
+import base64
 from github import Github
 from datetime import datetime
 
@@ -11,6 +12,13 @@ class RepositoryController:
     def _create_feature_branch(self, branch_name: str) -> None:
         base_branch = self.repository.get_branch(self.default_branch_name)
         self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_branch.commit.sha)
+
+    def get_file_from_branch(self, file_path: str, branch_name: str) -> str:
+        try:
+            file_meta = self.repository.get_contents(file_path, ref=branch_name)
+            return base64.b64decode(file_meta.content).decode("utf-8")
+        except:
+            return ""
 
     def apply_historical_chunk(self, updates: dict, next_since: str) -> None:
         branch_name = "bot/historical-accumulator"

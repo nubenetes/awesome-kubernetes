@@ -130,12 +130,29 @@ async def master_orchestrator():
     # 5. Gestión de Métricas Acumulativas (Para reporte final)
     metrics_file = "src/memory/historical_metrics.json"
     accumulated_report = full_extraction_report
-    if is_historical and os.path.exists(metrics_file):
-        try:
-            with open(metrics_file, 'r') as f:
-                prev_metrics = json.load(f)
-                accumulated_report.extend(prev_metrics.get("full_report", []))
-        except: pass
+    
+    # Intentar cargar métricas previas (Local o desde la rama accumulator)
+    prev_metrics = None
+    if is_historical:
+        if os.path.exists(metrics_file):
+            try:
+                with open(metrics_file, 'r') as f: prev_metrics = json.load(f)
+            except: pass
+        else:
+            # Intentar desde la rama
+            acc_content = git_controller.get_file_from_branch(metrics_file, "bot/historical-accumulator")
+            if acc_content:
+                try: prev_metrics = json.loads(acc_content)
+                except: pass
+
+    if prev_metrics:
+        # Filtrar fallos críticos de Gemini del histórico para no "ensuciar" el reporte final
+        # y permitir que se re-intenten si el tramo se solapa.
+        clean_prev_report = [
+            item for item in prev_metrics.get("full_report", [])
+            if "Fallo crítico Gemini" not in item.get("reason", "")
+        ]
+        accumulated_report.extend(clean_prev_report)
 
     metrics = {
         "total_extracted": len(accumulated_report),
