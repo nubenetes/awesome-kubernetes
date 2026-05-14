@@ -413,6 +413,7 @@
 - [howdns.works](https://howdns.works/) A fun and colorful explanation of how DNS works.
 
 ## Linux Hardening Security
+  - [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) 🌟 - This repository provides an evolving how-to guide for securing a Linux server, offering comprehensive steps and instructions for protecting servers or VPS instances.
 
 - [cyberciti.biz: 40 Linux Server Hardening Security Tips [2022 edition]](https://www.cyberciti.biz/tips/linux-security.html)
 

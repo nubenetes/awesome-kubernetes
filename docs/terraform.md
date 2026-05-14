@@ -130,6 +130,7 @@
 - [nedinthecloud.com](https://nedinthecloud.com)
 
 ## Terraform
+  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support](https://t.co/C6uicr7ZPS) 🌟 - This update to Terraform (version 1.15) introduces significant enhancements, including flexible module management via variable support in source attributes, explicit deprecation warnings for configurations, and native support for Windows ARM64. These features aim to improve user experience, configuration clarity, and platform compatibility.
   - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code/) 🌟 - This article explores how Terraform 2.0 integrates AI capabilities to automatically generate infrastructure code (HCL) from natural language descriptions. It highlights the benefits of using AI with Terraform, such as reducing errors, accelerating deployment, and creating standardized environments.
   - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - This post details how to automate the creation of users and Role-Based Access Control (RBAC) in Microsoft Entra ID using Terraform. It explains a practical workflow to import user data from a CSV file and provision them along with their assigned roles, significantly reducing manual effort.
   - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) - A Terraform module for managing IP Address Management (IPAM) resources within Azure, facilitating automated provisioning and configuration of IP address spaces.
@@ -420,6 +421,7 @@
 - [github.com/reneaudain/jenkins_tf_repo: Jenkins Server and S3 Artifact Storage on AWS using Terraform](https://github.com/reneaudain/jenkins_tf_repo)
 
 ## Alternatives to Terraform
+  - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) - *(Related to iac topic)*
 
 - [medium.com/@mike_tyson_cloud: IT Automation: 10 Alternatives To Terraform](https://medium.com/@mike_tyson_cloud/it-automation-10-alternatives-to-terraform-286107def5ad)
 - [kvs-vishnu23.medium.com: Is AWS CDK better than Terraform?](https://kvs-vishnu23.medium.com/is-aws-cdk-better-than-terraform-85194e7a42cd)
@@ -499,6 +501,7 @@
 - [Terraform Cheat Sheets](cheatsheets.md)
 
 ## Best Practices
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead](https://t.co/y414rbxM7l) - This resource highlights how Terraform can be used to achieve scalability with improved cost visibility, enhanced governance, and reduced operational overhead. It suggests leveraging Terraform for better control and efficiency in cloud environments.
   - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 - A comprehensive GitHub repository containing a free ebook on Terraform best practices, translated into multiple languages. It covers various aspects of writing and structuring Terraform code.
 
 - [github.com/ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices)
@@ -664,6 +667,7 @@
 ==}
 
 ### Terraform and AWS
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98) - This resource explains how Terraform can be used to standardize deployments within AWS at scale, ensuring consistency, visibility, and control for development teams.
 
 - [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)
 - [==github.com/terraform-aws-modules/terraform-aws-solutions==](https://github.com/terraform-aws-modules/terraform-aws-solutions) **Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules**

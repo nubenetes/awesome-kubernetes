@@ -46,6 +46,7 @@
 - [Conmon](https://github.com/containers/conmon) An OCI container runtime monitor.
 
 ## Container Managers / Container Runtimes (CRI runtimes)
+  - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) 🌟 - The containerd GitHub repository hosts the source code and documentation for containerd, an open and reliable container runtime. It is a core component for running containers, often used by higher-level orchestrators like Kubernetes and Docker.
   - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) - *(Related to kubernetes topic)*
   - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/) - An article from Build5Nines providing a detailed overview of Podman, an open-source container engine developed by Red Hat. It explains Podman's key features such as its daemonless architecture, rootless execution, native pod support, and Docker-compatible CLI, and contrasts it with Docker's daemon-based model. The article aims to help developers transition between the two container management tools.
 

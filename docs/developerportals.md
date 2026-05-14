@@ -47,6 +47,8 @@
 - [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)
 
 ## API Landscape and API Marketplaces
+  - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) - *(Related to ai topic)*
+  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills/) - *(Related to ai topic)*
   - [Claude 101: Free Guides to Master Claude](https://claude101.com/) - *(Related to ai topic)*
   - [Public APIs Directory](https://publicapis.io/) - *(Related to api topic)*
 
@@ -66,6 +68,9 @@
 
 
 ## API Managers with API Gateways & Developer Portals
+  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/) - *(Related to git topic)*
+  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) - *(Related to ai topic)*
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy) - *(Related to kubernetes-tutorials topic)*
   - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces/) - *(Related to ai topic)*
   - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - *(Related to ai-agents-mcp topic)*
   - [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) - *(Related to aws-architecture topic)*

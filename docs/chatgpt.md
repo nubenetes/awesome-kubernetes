@@ -73,6 +73,8 @@
 > *In summary, both approaches have their advantages and disadvantages and are suited to different situations and needs. It depends on the preferences and skills of the development and IT operations team to choose the appropriate approach for their organization.*
 
 ## Tools
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai/) - *(Related to ai topic)*
+  - [Cerebras AI](https://www.cerebras.ai/) - *(Related to ai topic)*
   - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
   - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) - *(Related to ai topic)*
   - [Claude 101: Free Guides to Master Claude](https://claude101.com/) - *(Related to ai topic)*

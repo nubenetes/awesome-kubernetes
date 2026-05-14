@@ -329,6 +329,7 @@
 - [containerjournal.com: Best of 2021 – Kubernetes Enables DevOps-as-a-Service (DaaS)](https://containerjournal.com/editorial-calendar/best-of-2021/kubernetes-enables-devops-as-a-service-daas/)
 
 ## IaC Infrastructure as Code
+  - [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) - *(Related to linux topic)*
   - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/) - *(Related to iac topic)*
   - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) - *(Related to ansible topic)*
   - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions/) - *(Related to terraform topic)*
@@ -393,6 +394,7 @@
 - [blog.postman.com: What Is PlatformOps?](https://blog.postman.com/what-is-platformops/)
 
 ## GPT 3 Tools
+  - [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) - *(Related to ai topic)*
   - [Skills for Real Engineers](https://github.com/mattpocock/skills) - *(Related to ai topic)*
 
 - [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de) This article will explore GPT-3 applications in the developer space to discuss how GPT-3 can help DevOps Engineers, SREs, technical customer support, and developers.

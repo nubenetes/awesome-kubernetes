@@ -123,6 +123,7 @@
     - Render the metrics of your nodes, pods, and namespaces all in one easy to visualize UI. Focus on what matters, with built in alerts and cluster health monitoring.
 
 ## Videos
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy) - A YouTube video discussing Spec Kit, explaining its purpose, the challenges it addresses, and how clear specifications facilitate effective collaboration in software development.
   - [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://youtu.be/1v15VSKPZRU?si=vK_9UKjGV8F24Ebt) - Comparativa técnica de los métodos de instalación de OpenShift en baremetal: Agent, Assisted e IPI, para ayudarte a elegir el más adecuado.
 
 ??? note "Click to expand!"

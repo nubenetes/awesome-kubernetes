@@ -232,6 +232,7 @@
 - [trstringer.com: Kubernetes Ingress with Contour](https://trstringer.com/kubernetes-ingress-with-contour/)
 
 ## Kubernetes Gateway API
+  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) 🌟 - The Kubernetes Gateway API is a collection of APIs that model service networking in Kubernetes. It aims to provide a more expressive, role-oriented, and extensible successor to the Kubernetes Ingress API, enabling advanced traffic management, routing, and load balancing capabilities.
 
 - [==gateway-api.sigs.k8s.io== 🌟](https://gateway-api.sigs.k8s.io/) Gateway API is an open source project managed by the SIG-NETWORK community. It's is a collection of resources that model service networking in Kubernetes. These resources - GatewayClass,Gateway, HTTPRoute, TCPRoute, Service, etc - aim to evolve Kubernetes service networking through expressive, extensible, and role-oriented interfaces that are implemented by many vendors and have broad industry support.
 - [kubernetes.io: Evolving Kubernetes networking with the Gateway API](https://kubernetes.io/blog/2021/04/22/evolving-kubernetes-networking-with-the-gateway-api/)
