@@ -22,6 +22,11 @@ on:
         required: false
         default: 'true'
         type: boolean
+      historical_chunked:
+        description: 'Trocear ejecución (múltiples PRs)'
+        required: false
+        default: 'false'
+        type: boolean
       historical_until_date:
         description: 'Fecha límite superior (tramo)'
         required: false
@@ -64,6 +69,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'search' }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
+          HISTORICAL_CHUNKED: ${{ github.event.inputs.historical_chunked || 'false' }}
           HISTORICAL_UNTIL_DATE: ${{ github.event.inputs.historical_until_date || '' }}
           CURATION_START_DATE: ${{ github.event.inputs.start_date || '' }}
           HISTORICAL_CHUNK_DAYS: '180'
@@ -71,9 +77,9 @@ jobs:
         run: |
           python -u src/main.py 2>&1 | tee output.log
           
-          # Lógica de Re-disparo para Modo Histórico
-          if grep -q "NEXT_CHUNK_START:" output.log; then
+          # Lógica de Re-disparo para Modo Histórico (SOLO SI SE SOLICITA TROCEADO)
+          if [ "${{ github.event.inputs.historical_chunked }}" == "true" ] && grep -q "NEXT_CHUNK_START:" output.log; then
             NEXT_DATE=$(grep "NEXT_CHUNK_START:" output.log | awk '{print $2}')
             echo "Disparando siguiente tramo histórico hasta: $NEXT_DATE"
-            gh workflow run agentic_cron.yml -f historical_mode=true -f historical_until_date=$NEXT_DATE
+            gh workflow run agentic_cron.yml -f historical_mode=true -f historical_chunked=true -f historical_until_date=$NEXT_DATE
           fi

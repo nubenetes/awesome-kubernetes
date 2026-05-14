@@ -22,24 +22,31 @@ async def master_orchestrator():
     
     # 1. Dynamic / Historical Time Horizon
     is_historical = os.getenv("HISTORICAL_MODE", "false").lower() == "true"
+    is_chunked = os.getenv("HISTORICAL_CHUNKED", "false").lower() == "true"
+    
+    until_date = datetime.now(MADRID_TZ)
     
     if is_historical:
-        # Historical Mode by Chunks (e.g., 180-day chunks)
+        # Unified mode is now DEFAULT for historical
         final_stop_date = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
-        chunk_days = int(os.getenv("HISTORICAL_CHUNK_DAYS", "180"))
         
-        # Current chunk ends where the previous one started (or 'now' if first)
-        until_str = os.getenv("HISTORICAL_UNTIL_DATE")
-        if until_str:
-            until_date = datetime.fromisoformat(until_str).replace(tzinfo=MADRID_TZ)
+        if is_chunked:
+            # Chunked Mode: Use chunks (e.g., 180 days)
+            chunk_days = int(os.getenv("HISTORICAL_CHUNK_DAYS", "180"))
+            until_str = os.getenv("HISTORICAL_UNTIL_DATE")
+            if until_str:
+                until_date = datetime.fromisoformat(until_str).replace(tzinfo=MADRID_TZ)
+            else:
+                until_date = datetime.now(MADRID_TZ)
+                
+            since_date = until_date - timedelta(days=chunk_days)
+            if since_date < final_stop_date:
+                since_date = final_stop_date
+            log_event(f"[*] HISTORICAL MODE (CHUNKED): Chunk {since_date.date()} -> {until_date.date()}")
         else:
-            until_date = datetime.now(MADRID_TZ)
-            
-        since_date = until_date - timedelta(days=chunk_days)
-        if since_date < final_stop_date:
+            # Unified Historical Mode: process all in one go (Single PR)
             since_date = final_stop_date
-            
-        log_event(f"[*] HISTORICAL MODE: Chunk {since_date.date()} -> {until_date.date()}")
+            log_event(f"[*] HISTORICAL MODE (UNIFIED): Processing all since {since_date.date()} in a single run")
     else:
         # Normal Mode: Use CURATION_START_DATE if exists, else state.json
         env_start = os.getenv("CURATION_START_DATE")
@@ -284,8 +291,8 @@ async def master_orchestrator():
     if max_tweet_date > since_date:
         save_state(max_tweet_date + timedelta(seconds=1))
 
-    # Re-trigger logic for Historical Mode in GitHub Actions
-    if is_historical and since_date > final_stop_date:
+    # Re-trigger logic for Historical Mode in GitHub Actions (ONLY IF CHUNKED)
+    if is_historical and is_chunked and since_date > final_stop_date:
         # Print for YAML to capture
         print(f"\nNEXT_CHUNK_START: {since_date.isoformat()}")
         log_event(f"[*] CHUNK FINISHED. Suggesting next chunk from: {since_date.date()}", section_break=True)
