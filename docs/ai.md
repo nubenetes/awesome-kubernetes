@@ -46,6 +46,8 @@
 - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt/)
 
 ## LLMOps
+  - [LLMs from Scratch](https://github.com/rasbt/LLMs-from-scratch) 🌟 - A repository providing step-by-step implementation of a ChatGPT-like LLM in PyTorch from scratch, covering development, pretraining, and finetuning.
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/) 🌟 - This post announces the stable release of Azure MCP Server 2.0, an open-source software that implements the Model Context Protocol (MCP) specification. It allows AI agents and developer tools to interact with Azure resources through a standardized tool interface. Key advancements include self-hosted, remote MCP server support, enabling deployment closer to where teams build and operate, and integration into modern developer workflows for flexible use across local development, tool integrations, and centralized deployments. The release aims for consistent policy, security controls, and configuration.
 
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops/) LLMOps: MLOps for Large Language Models
@@ -53,10 +55,12 @@
 - [itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes](https://itnext.io/deploy-flexible-and-custom-setups-with-anything-llm-on-kubernetes-a2b5687f2bcc) Step-by-Step Guide to Deploy Anything LLM with OpenAI, Azure AI, and Ollama
 
 ## The MAD (ML/AI/Data) Landscape
+  - [AI Still Befuddled by Basic Reasoning](https://thenewstack.io/ignore-prior-instructions-ai-still-befuddled-by-basic-reasoning/) - An article discussing the limitations of current AI models in understanding and performing basic reasoning, despite their advancements in other areas. It highlights that AI struggles with common sense and context, which are fundamental for true understanding and problem-solving.
 
 - [mad.firstmark.com: The MAD (ML/AI/Data) Landscape](https://mad.firstmark.com/)
 
 ## OpenAI
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - A GitHub repository focused on 'from vibe coding to agentic engineering' showcasing best practices for using Claude, an AI model, in coding and engineering contexts. It includes sections on agents, commands, skills, development workflows, and implementation examples.
 
 - [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook) Examples and guides for using the OpenAI API
 - [xataka.com: Microsoft no quiere poner todos los huevos en la misma cesta: anuncia una asociación con Mistral AI, la OpenAI de Europa](https://www.xataka.com/robotica-e-ia/microsoft-no-quiere-poner-todos-huevos-cesta-anuncia-asociacion-mistral-ai-openai-europa)
@@ -69,6 +73,7 @@
 - [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin/)
 
 ## IaC Terraform and AI
+  - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code/) - *(Related to terraform topic)*
 
 - [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)
 
@@ -77,6 +82,7 @@
 - [IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac/)
 
 ## Programming
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) - A GitHub repository containing a collection of AI agent skills designed for practical software engineering. These skills are presented as small, adaptable, and composable units intended to assist in developing real applications without sacrificing control or making bug resolution difficult. They are presented as alternatives to prescriptive approaches like GSD, BMAD, and Spec-Kit.
 
 - [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos)
 
@@ -107,6 +113,10 @@ security from the beginning with continuous testing, automation, zero trust, and
 - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws/)
 
 ## Other Tools
+  - [Using Workspaces for AI Changes Across Multiple Repositories](https://ettema.dev/posts/ai-multi-repo-workspaces/) - This article discusses a workflow for using AI development tools, such as GitHub Copilot, when changes need to be made across multiple repositories. It proposes creating a multi-root workspace in IDEs like VS Code to encompass all relevant repositories for a feature, providing the AI with a broader context and reducing the back-and-forth iteration required when the AI only has access to a single repository.
+  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - A curated collection of NotebookLM and Kael.im slide prompts, sourced from various creative platforms. These prompts are designed to assist users in generating presentations from documents and notes, leveraging AI capabilities for creative and research purposes.
+  - [Tabularis: Open-Source Desktop Client for Modern Databases with AI Features](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) - *(Related to kubernetes-tools topic)*
+  - [Claude 101](https://claude101.com/) - A collection of free guides aimed at mastering Claude, an AI assistant. The guides cover various skill levels from beginner to expert, including prompt engineering, team collaboration, AI certification, and advanced techniques for controlling AI behavior and output.
 
 - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) A generative AI extension for JupyterLab
 - [github.com/XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold
