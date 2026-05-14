@@ -131,66 +131,124 @@ class AgenticCurator:
         self.mkdocs_path = "mkdocs.yml"
 
     async def decide_smart_injection(self, markdown_content: str, asset: Dict) -> str:
+        """
+        Inyecta un enlace de forma inteligente buscando o creando la subsección (##) más adecuada.
+        Sigue el mandato: "Priorizar secciones internas (## Headers) sobre nuevos archivos".
+        """
         lines = markdown_content.splitlines()
+        # Extraer solo los headers para dar contexto a la IA sin saturar
         structure = "\n".join([l for l in lines if l.startswith("#")])
         
+        stars = " 🌟" if asset['impact_score'] > 80 else ""
+        formatted_line = f"  - [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
+
         prompt = (
-            "Actúas como Arquitecto de Contenidos.\n"
-            f"Enlace: [{asset['title']}]({asset['url']}) - {asset['description']}\n"
-            f"Impacto: {asset['impact_score']}/100.\n\n"
-            "Estructura:\n"
+            "Actúas como Arquitecto de Contenidos de Nubenetes.com.\n"
+            f"Tu misión es inyectar este nuevo recurso en el archivo markdown de forma lógica:\n"
+            f"RECURSO: {formatted_line}\n"
+            f"RAZONAMIENTO IA: {asset.get('reasoning', 'N/A')}\n\n"
+            "ESTRUCTURA ACTUAL DEL ARCHIVO:\n"
             f"{structure[:1500]}\n\n"
-            "Responde JSON: {\"header\": \"## ...\", \"formatted_line\": \"  - [Título](url) - Desc\", \"reasoning\": \"...\"}"
+            "INSTRUCCIONES:\n"
+            "1. Identifica el header (##) más adecuado para este recurso.\n"
+            "2. Si no existe un header adecuado, PROPÓN UNO NUEVO que sea semánticamente correcto.\n"
+            "3. Si el archivo está vacío o solo tiene un # Título, propón un ## Header inicial.\n\n"
+            "Responde SOLAMENTE un JSON con este formato:\n"
+            "{\n"
+            "  \"target_header\": \"## Nombre del Header (existente o nuevo)\",\n"
+            "  \"is_new_header\": true/false,\n"
+            "  \"insert_after_header\": \"## Header de referencia (si es nuevo, ¿después de cuál lo pongo?)\",\n"
+            "  \"reasoning\": \"Breve explicación\"\n"
+            "}"
         )
 
         try:
             data = await call_gemini_with_retry(prompt)
-            header = data.get("header")
-            new_line = data.get("formatted_line")
+            target_header = data.get("target_header")
+            is_new = data.get("is_new_header", False)
+            ref_header = data.get("insert_after_header")
             
-            if header and new_line:
-                new_lines = []
-                inserted = False
+            if not target_header:
+                return self._manual_fallback_injection(markdown_content, asset)
+
+            new_lines = []
+            inserted = False
+            
+            if is_new:
+                # Caso: Insertar un NUEVO header
+                if not ref_header: # Si no hay referencia, al final
+                    new_lines = lines + ["", target_header, formatted_line]
+                    inserted = True
+                else:
+                    for line in lines:
+                        new_lines.append(line)
+                        if not inserted and ref_header.lower() in line.lower() and line.strip().startswith("#"):
+                            # Buscar el final de la sección actual para insertar el nuevo header
+                            new_lines.append("")
+                            new_lines.append(target_header)
+                            new_lines.append(formatted_line)
+                            inserted = True
+            else:
+                # Caso: Insertar en un header EXISTENTE
                 for line in lines:
                     new_lines.append(line)
-                    if not inserted and header.lower() in line.lower() and line.strip().startswith("#"):
-                        new_lines.append(new_line)
+                    if not inserted and target_header.lower() in line.lower() and line.strip().startswith("#"):
+                        new_lines.append(formatted_line)
                         inserted = True
-                if inserted: return "\n".join(new_lines)
-        except: pass
+            
+            if inserted:
+                log_event(f"  [🏠] IA decidió: Secc '{target_header}' ({'NUEVA' if is_new else 'EXISTENTE'})")
+                return "\n".join(new_lines)
+                
+        except Exception as e:
+            log_event(f"  [!] Fallo en inyección inteligente: {e}")
+            
         return self._manual_fallback_injection(markdown_content, asset)
 
     def _manual_fallback_injection(self, content: str, asset: Dict) -> str:
         stars = " 🌟" if asset['impact_score'] > 80 else ""
         line = f"  - [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
+        # Si no hay secciones, añadir un header genérico
+        if "##" not in content:
+            return content + f"\n\n## Herramientas y Recursos\n{line}"
         return content + f"\n{line}"
 
     async def suggest_reorganization(self):
-        """Detecta categorías con >15 links y propone/realiza el split."""
-        log_event("[*] Iniciando Auditoría de Reorganización Estructural...", section_break=True)
+        """
+        Audita archivos con exceso de enlaces y los reorganiza INTERNAMENTE.
+        Sigue el mandato: "No dividir en archivos, sino en secciones internas".
+        """
+        log_event("[*] Iniciando Auditoría de Reorganización Interna...", section_break=True)
         
-        bloated_files = []
         for file in os.listdir(self.docs_dir):
-            if file.endswith(".md") and file != "index.md":
-                path = os.path.join(self.docs_dir, file)
-                with open(path, 'r') as f:
-                    content = f.read()
-                    links = re.findall(r'^\s*-\s*\[', content, re.MULTILINE)
-                    if len(links) > 15:
-                        bloated_files.append((file, len(links), content))
-
-        for file, count, content in bloated_files:
-            log_event(f"  [!] CATEGORÍA SATURADA: {file} tiene {count} enlaces. Proponiendo subdivisión...")
+            if not file.endswith(".md") or file == "index.md": continue
             
-            prompt = (
-                f"El archivo '{file}' tiene demasiados enlaces ({count}).\n"
-                "Propón una subdivisión semántica en 2 o 3 subcategorías nuevas.\n"
-                "Responde JSON: {\"subcategories\": [{\"name\": \"nombre-slug\", \"title\": \"Título Legible\", \"links_indices\": [int]}]}"
-                "Nota: Para simplificar, solo propón los nombres de las subcategorías por ahora."
-            )
-            # Por ahora, solo logueamos la intención para no romper el flujo principal
-            # En una fase futura, implementaremos el split físico de archivos.
-            log_event(f"  [>>>] SUGERENCIA: Subdividir {file} para mejorar legibilidad.")
+            path = os.path.join(self.docs_dir, file)
+            with open(path, 'r') as f: content = f.read()
+            
+            links = re.findall(r'^\s*-\s*\[', content, re.MULTILINE)
+            headers = re.findall(r'^##\s+', content, re.MULTILINE)
+            
+            # Si tiene muchos links y pocos headers, reorganizar
+            if len(links) > 25 and len(headers) < 3:
+                log_event(f"  [!] REORGANIZANDO: {file} ({len(links)} links, {len(headers)} headers)")
+                
+                prompt = (
+                    f"El archivo '{file}' tiene {len(links)} enlaces pero solo {len(headers)} secciones.\n"
+                    "Está demasiado plano. Reorganiza el contenido en secciones (##) lógicas.\n"
+                    "Devuelve el contenido COMPLETO del archivo markdown reorganizado.\n"
+                    "MANTÉN TODOS LOS ENLACES. SOLO AGRÚPALOS BAJO HEADERS SEMÁNTICOS.\n\n"
+                    "CONTENIDO ACTUAL:\n"
+                    f"{content[:5000]}" # Limitar para no saturar context window
+                )
+                
+                try:
+                    new_content = await call_gemini_with_retry(prompt, response_format="text")
+                    if len(new_content) > len(content) * 0.8: # Validación básica de que no borró todo
+                        with open(path, 'w') as f: f.write(new_content)
+                        log_event(f"  [OK] Reorganización aplicada a {file}")
+                except Exception as e:
+                    log_event(f"  [!] Error reorganizando {file}: {e}")
 
     def validate_changes(self) -> bool:
         return True

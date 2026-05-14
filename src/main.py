@@ -11,8 +11,8 @@ from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
 from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
-
 from src.gemini_utils import call_gemini_with_retry, resolve_url
+from src.state_manager import get_last_date, save_state
 
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
@@ -250,10 +250,6 @@ async def master_orchestrator():
         # Imprimir para que el YAML lo capture
         print(f"\nNEXT_CHUNK_START: {since_date.isoformat()}")
         log_event(f"[*] TRAMO FINALIZADO. Sugiriendo siguiente tramo desde: {since_date.date()}", section_break=True)
-
-    log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
-
-
 
     log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
 

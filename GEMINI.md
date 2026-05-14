@@ -12,7 +12,8 @@ Este archivo contiene las instrucciones acumuladas y la visión de largo plazo p
 
 ## 🛠️ Evolución Estructural (Progressive Reorganization)
 
-*   **Subsecciones Inteligentes**: El sistema debe detectar categorías superpobladas (>15 links) y proponer subdivisiones semánticas usando Gemini.
+*   **Sin Límites de Enlaces**: NO existe un límite de enlaces por archivo `.md`. Históricamente se han gestionado miles de enlaces en una sola página y se desea mantener este patrón.
+*   **Secciones Internas Inteligentes**: En lugar de proponer nuevas páginas `.md`, el sistema debe priorizar la creación o ajuste de secciones (## Headers) dentro de los archivos existentes para organizar el contenido. No se deben añadir nuevas páginas a menos que sea estrictamente necesario por un cambio temático mayor.
 *   **Integridad de Navegación**: Cada cambio en los archivos markdown debe reflejarse en:
     *   `mkdocs.yml` (Menú horizontal/lateral).
     *   `docs/index.md` (Tabla de contenidos principal).
