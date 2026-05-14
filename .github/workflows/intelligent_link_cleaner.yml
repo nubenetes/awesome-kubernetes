@@ -12,7 +12,7 @@ permissions:
 jobs:
   intelligent-clean-process:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/develop'
+    # This job can now be triggered from any branch but will always checkout 'develop'
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
