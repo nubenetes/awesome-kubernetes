@@ -120,6 +120,8 @@
 - Networking: Ingress, Service, Network Policy
 
 ## Introduction
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) - *(Related to ai-agents-mcp topic)*
+  - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409) - *(Related to ai topic)*
 
 - [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
@@ -294,6 +296,9 @@
 - [serokell.io/blog/kubernetes-guide: A Guide to Kubernetes](https://serokell.io/blog/kubernetes-guide) Modern cloud native computing heavily relies on the use of containers and the adoption of Kubernetes. Despite being a relatively new technology, it is deployed by many global enterprises to manage business-critical applications in their production environments. The popularity of Kubernetes is driven by a growing range of features, such as enhanced security, better management of microservices, improved observability, and more efficient scaling and resource use. In this article, we take a look at the essence of technology, its architecture, and its real-world applications.
 
 ### Kubernetes Jobs Market
+  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html/) - *(Related to kubernetes-troubleshooting topic)*
+  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups/) - *(Related to azure topic)*
+  - [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) - *(Related to kubernetes-security topic)*
 
 - [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
     - Kubernetes salary ranges
@@ -355,10 +360,12 @@
 - https://play-with-k8s.com
 
 ### Kubernetes Scalability Thresholds
+  - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) 🌟 - This blog post introduces the AKS Fleet Manager strategy as a solution for scaling Kubernetes beyond the limits of a single cluster, particularly for AI and data-intensive workloads. It highlights the challenges of scaling within a single cluster (control plane bottlenecks, resource limits) and proposes managing tens or hundreds of clusters using AKS Fleet Manager, powered by the KubeFleet project, to achieve 'limitless' scalability.
 
 - [github.com/kubernetes: Kubernetes Scalability thresholds](https://github.com/kubernetes/community/blob/master/sig-scalability/configs-and-limits/thresholds.md)
 
 ### Kubernetes Installation Methods
+  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) - *(Related to devops topic)*
 
 - [itnext.io: Kubernetes Installation Methods The Complete Guide](https://itnext.io/kubernetes-installation-methods-the-complete-guide-1036c860a2b3)
 - [medium.com/@DevOpsfreak: Top 12 Kubernetes Installation Errors You Can’t Afford to Miss](https://medium.com/@DevOpsfreak/top-12-kubernetes-installation-errors-you-cant-afford-to-miss-b52d7cda1a52) Common Errors Encountered During Kubernetes Installation and How to Resolve Them
@@ -366,6 +373,9 @@
 {==
 
 ### Kubernetes Knowledge Hubs
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) - *(Related to istio topic)*
+  - [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform/) - *(Related to terraform topic)*
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide/) - *(Related to kubernetes-troubleshooting topic)*
 
 - [kubernetes.io](https://kubernetes.io/)
 - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)
@@ -407,6 +417,14 @@
 ==}
 
 ## Kubernetes Open Source Container Orchestation
+  - [Google Agents CLI](https://github.com/google/agents-cli) - *(Related to ai topic)*
+  - [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) - *(Related to kubernetes-tools topic)*
+  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/) 🌟 - This resource describes ClusterClass, an experimental feature within the Cluster API project that aims to reduce boilerplate and enable flexible customization of Kubernetes clusters. It provides a powerful abstraction for streamlining cluster lifecycle management while maintaining the underlying API. The documentation covers its background, authoring, changing, publishing, and operational aspects, including quick start guides for creating clusters using ClusterClass templates.
+  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/) - *(Related to iac topic)*
+  - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) - *(Related to gitops topic)*
+  - [FreeLens](https://github.com/freelensapp/freelens) - *(Related to kubernetes-tools topic)*
+  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com/) - *(Related to cicd topic)*
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops/) - *(Related to cicd topic)*
 
 - [kubedex.com](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
 - [medium.com: A Year Of Running Kubernetes at MYOB, And The Importance Of Empathy](https://medium.com/@jpcontad/a-year-of-running-kubernetes-as-a-product-7eed1204eecd)
@@ -710,6 +728,7 @@
 - [faun.pub: Understanding the Kubernetes Manifest](https://faun.pub/understanding-the-kubernetes-manifest-e96d680f2a11)
 
 ### Docker and Kubernetes
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer/) - *(Related to docker topic)*
 
 - [kruyt.org: Migrate from Docker to Containerd in Kubernetes](https://kruyt.org/migrate-docker-containerd-kubernetes)
 - [opensourcerers.org: How to go from Docker to Kubernetes the right way 🌟](https://www.opensourcerers.org/2021/02/01/how-to-go-from-docker-to-kubernetes-the-right-way/)
@@ -759,6 +778,11 @@
 - [medium: The Kubernetes Cloud Controller Manager](https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5)
 
 ### Kubernetes Resources
+  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide/) - *(Related to azure topic)*
+  - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) 🌟 - A practical tutorial demonstrating how to limit CPU and RAM consumption of processes using Linux Control Groups (cgroups). It covers manual manipulation of cgroupfs, as well as using higher-level tools like libcgroup and systemd. The techniques discussed are directly applicable to managing container and Pod resources in environments like Docker and Kubernetes.
+  - [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) - *(Related to ai topic)*
+  - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) 🌟 - A technical explanation of control plane load balancing in Kubernetes, detailing its importance, common strategies, and considerations for high availability and performance.
+  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) - *(Related to azure topic)*
 
 - [medium: Kubernetes Resources 🌟](https://medium.com/@pratyush.mathur/kubernetes-resources-c09d172dbdc5)
 - [enterprisersproject.com: Managing Kubernetes resources: 5 things to remember](https://enterprisersproject.com/article/2020/8/managing-kubernetes-resources-5-things-remember) Kubernetes automates much of the work of managing containers at scale. But containerized applications commonly share pooled resources, so you need to allocate and manage them properly
