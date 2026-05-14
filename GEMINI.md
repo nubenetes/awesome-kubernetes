@@ -11,15 +11,25 @@ Este archivo contiene las instrucciones acumuladas y la visión de largo plazo p
 5.  **Expansión de URLs**: Todos los enlaces acortados (t.co, bit.ly, buff.ly, etc.) DEBEN ser expandidos a su versión larga original antes de ser evaluados o inyectados. Esto garantiza la homogeneidad del inventario y mejora la precisión de la deduplicación global.
 6.  **Idioma Oficial (English Only)**: Todo el contenido inyectado (títulos, descripciones, encabezados), los logs de ejecución y las comunicaciones automatizadas (PRs) DEBEN ser exclusivamente en INGLÉS. Nubenetes es un recurso global y la consistencia lingüística es crítica.
 
-## 🛠️ Evolución Estructural (Progressive Reorganization)
+## 🛠️ Structural Evolution & Navigation (Evolución Estructural)
 
-*   **Sin Límites de Enlaces**: NO existe un límite de enlaces por archivo `.md`. Históricamente se han gestionado miles de enlaces en una sola página y se desea mantener este patrón.
-*   **Secciones Internas Inteligentes**: En lugar de proponer nuevas páginas `.md`, el sistema debe priorizar la creación o ajuste de secciones (## Headers) dentro de los archivos existentes para organizar el contenido. No se deben añadir nuevas páginas a menos que sea estrictamente necesario por un cambio temático mayor.
-*   **Integridad de Navegación**: Cada cambio en los archivos markdown debe reflejarse en:
-    *   `mkdocs.yml` (Menú horizontal/lateral).
-    *   `docs/index.md` (Tabla de contenidos principal).
-    *   El TOC interno de cada markdown (si lo tiene).
-*   **Curación de Huérfanos**: Audita periódicamente la carpeta `docs/` para encontrar archivos no enlazados e intégralos en la navegación según su temática.
+*   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
+*   **TOC Consistency**: Every `.md` page (including the main index `docs/index.md`) MUST maintain an internal Table of Contents (TOC) at the beginning. This TOC must include all sections (##) and subsections (###) nested correctly using a numbered list format with working anchors.
+*   **Relative References & Anchors**:
+    *   **Internal**: Use simplified lowercase slugs for anchors (remove special characters, replace spaces with hyphens).
+    *   **External/Cross-page**: Ensure references between different `.md` files are correct and up-to-date.
+*   **Main Index Maintenance (`docs/index.md`)**:
+    *   `docs/index.md` is the landing page for nubenetes.com and the primary entry point. It MUST be updated whenever a new page is added or a major category is renamed.
+    *   **Top Links Preservation**: The "Motivation" section in `docs/index.md` contains highly relevant links. These MUST be preserved even if they are duplicated in other thematic pages. The AI should prioritize keeping this index curated and high-signal.
+*   **Intelligent Internal Reorganization**:
+    *   **No File Splitting**: Do NOT create new `.md` files unless strictly necessary for a major new theme. Prefer creating new sub-sections (## or ###) within existing files to maintain order.
+    *   **Semantic Polish**: When a section becomes excessively flat, the AI should propose and implement a reorganization into logical sub-sections purely to improve readability and classification, without restricting the volume of content.
+*   **Navigation Integrity**: Every structural change must be reflected in:
+    *   `mkdocs.yml` (Navigation menu).
+    *   `docs/index.md` (Main Table of Contents).
+    *   The internal TOC of the modified page.
+
+*   **Orphan Curation**: Periodically audit the `docs/` folder to find unlinked files and integrate them into the navigation based on their topic.
 
 ## 🚀 Estrategias de Evasión de Bloqueos
 
