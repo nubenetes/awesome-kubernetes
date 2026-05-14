@@ -4,8 +4,9 @@ import json
 import asyncio
 import httpx
 import random
+import difflib
 from datetime import datetime
-from typing import List, Dict, Set, Optional
+from typing import List, Dict, Set, Optional, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, NUBENETES_CATEGORIES
 from src.gitops_manager import RepositoryController
 from src.gemini_utils import call_gemini_with_retry
@@ -14,6 +15,15 @@ from src.gemini_utils import call_gemini_with_retry
 import warnings
 from bs4 import XMLParsedAsHTMLWarning
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+def get_best_category_match(suggested: str) -> Optional[str]:
+    """Usa similitud de texto para mapear sugerencias de la IA a categorías existentes."""
+    if not suggested: return None
+    suggested = suggested.lower().strip()
+    if suggested in NUBENETES_CATEGORIES: return suggested
+    
+    matches = difflib.get_close_matches(suggested, NUBENETES_CATEGORIES, n=1, cutoff=0.6)
+    return matches[0] if matches else None
 
 async def _deep_fetch_content(url: str) -> str:
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'}
@@ -94,40 +104,49 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "You act as a Senior Curation Engineer for 'nubenetes/awesome-kubernetes'.\n"
             "Your mission is to catalog TECHNICAL content about Kubernetes and Cloud Native shared by the user.\n"
             "GOLDEN RULE: If the link is in the feed, it's because the user considers it useful. DO NOT discard unless it is total noise.\n\n"
-            f"Valid categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
+            f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
             "INSTRUCTIONS:\n"
             "1. LANGUAGE: ALL outputs (title, desc, reasoning) MUST BE IN ENGLISH.\n"
             "2. STYLE: Summaries MUST BE DESCRIPTIVE (neutral, objective, explaining what/why).\n"
             "3. MVQ: If it's a GitHub repo inactive for >4 years, penalize the impact score.\n"
-            "4. SUMMARY: Create a concise summary (1 sentence).\n"
+            "4. INTERLINKING: Identify ONE primary_category and up to TWO related_categories (from the list above).\n"
             f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
             f"URL: {asset['url']}\nX Context: {context}\nExtracted Web Content: {web_content[:2000]}\n\n"
             "Evaluate TECHNICAL IMPACT (1-100):\n"
             "- >80: Exceptional resource (🌟).\n"
-            "- >5: Accept (if it fits a category).\n"
-            "- <5: Discard (Absolute noise).\n\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\"}"
+            "- >5: Accept.\n\n"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\"}"
         )
 
         try:
             data = await call_gemini_with_retry(prompt)
             score = data.get("impact_score", 50)
-            valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
+            
+            # Predictive Mapping
+            primary_cat = get_best_category_match(data.get("primary_category"))
+            related_cats = []
+            for rc in data.get("related_categories", []):
+                matched = get_best_category_match(rc)
+                if matched and matched != primary_cat:
+                    related_cats.append(matched)
+
             reasoning = data.get("reasoning", "No reason specified")
             
             if score < 5:
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Low technical impact"}
                 log_event(f"  [-] REJECTED: Low technical impact (Score: {score})")
-            elif not valid_cats:
+            elif not primary_cat:
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No valid technical category found"}
                 log_event(f"  [-] REJECTED: No valid category found")
             else:
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
-                    "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80,
+                    "category": primary_cat, "related_categories": list(set(related_cats))[:2],
+                    "impact_score": score, "is_exceptional": score > 80,
                     "reasoning": reasoning
                 }
                 log_event(f"  [+] ACCEPTED: \"{data['title']}\" (Score: {score})")
+                log_event(f"      Primary: {primary_cat} | Related: {', '.join(related_cats)}")
 
         except Exception as e:
             log_event(f"  [!] ERROR EVALUATING {asset['url']}: {e}")

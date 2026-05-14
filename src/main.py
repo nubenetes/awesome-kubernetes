@@ -189,11 +189,16 @@ async def master_orchestrator():
             
             full_report_metrics.append({
                 "url": url, "status": evaluation["status"], "reason": evaluation.get("reason", "Accepted"),
-                "category": evaluation.get("category", "N/A"), "post_date": asset.get("timestamp"),
-                "source": asset.get("source_type", "Social")
+                "category": evaluation.get("category", "N/A"), 
+                "related_categories": evaluation.get("related_categories", []),
+                "post_date": asset.get("timestamp"),
+                "source": asset.get("source_type", "Social"),
+                "impact_score": evaluation.get("impact_score", 0),
+                "title": evaluation.get("title", "N/A")
             })
 
             if evaluation["status"] == "INCLUDED":
+                # 1. Primary Injection
                 unique_new_assets.append({
                     "url": url, "title": evaluation["title"],
                     "description": evaluation["description"], "category": evaluation.get("category", "kubernetes-tools"),
@@ -202,13 +207,27 @@ async def master_orchestrator():
                 })
                 existing_urls.add(url.split('#')[0].rstrip('/').lower())
 
+                # 2. Semantic Interlinking (Secondary References)
+                for rel_cat in evaluation.get("related_categories", []):
+                    # Inyectamos una referencia corta en lugar del link completo
+                    interlink_asset = {
+                        "url": url, "title": evaluation["title"],
+                        "description": f"*(Related to {evaluation.get('category')} topic)*",
+                        "category": rel_cat, "impact_score": 50 # No estrellas en interlinks
+                    }
+                    unique_new_assets.append(interlink_asset)
+
         # Immediate injection
         if unique_new_assets:
-            log_event(f">>> APPLYING {len(unique_new_assets)} INJECTIONS IN MARKDOWN...", section_break=True)
+            log_event(f">>> APPLYING {len(unique_new_assets)} INJECTIONS (Inc. Interlinking)...", section_break=True)
             for asset in unique_new_assets:
                 category = asset["category"]
                 file_path = f"docs/{category}.md"
                 try:
+                    # Evitar duplicados exactos en el mismo archivo durante la misma ejecución
+                    if file_path in modified_files_content and asset['url'] in modified_files_content[file_path]:
+                        continue
+                        
                     if file_path in modified_files_content:
                         content = modified_files_content[file_path]
                     else:
@@ -217,6 +236,8 @@ async def master_orchestrator():
                         else:
                             with open(file_path, 'r') as f: content = f.read()
                     
+                    if asset['url'] in content: continue # Doble check
+
                     new_content = await curator_agent.decide_smart_injection(content, asset)
                     
                     if len(new_content) > len(content):
@@ -233,8 +254,16 @@ async def master_orchestrator():
             log_event(f"[*] Safety pause: 5s for the next batch...")
             await asyncio.sleep(5)
 
-    # 4. Finalization and PR
-    if modified_files_content:
+    # 4. Finalization, Report and PR
+    if modified_files_content or full_report_metrics:
+        # Generar Dashboard Visual
+        try:
+            from src.report_generator import generate_visual_report
+            report_path = generate_visual_report(full_report_metrics)
+            log_event(f"[*] Visual Health Dashboard generated: {report_path}")
+        except Exception as e:
+            log_event(f"[!] Error generating visual report: {e}")
+
         log_event(">>> GENERATING PULL REQUEST...", section_break=True)
         metrics = {
             "total_extracted": len(all_raw_assets),
