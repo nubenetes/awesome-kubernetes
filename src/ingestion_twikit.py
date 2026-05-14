@@ -62,10 +62,10 @@ class SocialDataExtractor:
                     elif hasattr(playwright_stealth, 'stealth'): playwright_stealth.stealth(page)
                 except: pass
                 
-                env_cookies = os.getenv("TWITTER_COOKIES")
                 if env_cookies:
                     try:
                         cookies = json.loads(env_cookies)
+                        self.log_audit("Cookies", True, f"Cargando {len(cookies)} cookies desde secretos.")
                         formatted = []
                         for c in cookies:
                             if isinstance(c, dict) and 'name' in c and 'value' in c:
@@ -73,7 +73,8 @@ class SocialDataExtractor:
                                 for k in ['sameSite', 'storeId', 'id']: c.pop(k, None)
                                 formatted.append(c)
                         await context.add_cookies(formatted)
-                    except: pass
+                    except Exception as e:
+                        self.log_audit("Cookies", False, f"Error aplicando cookies: {e}")
 
                 if strategy == "search":
                     import urllib.parse
@@ -83,27 +84,36 @@ class SocialDataExtractor:
                     
                     encoded_query = urllib.parse.quote(search_query)
                     target_url = f"https://x.com/search?q={encoded_query}&f=live"
-                    self.log_audit("Advanced Search", None, f"Query: {search_query}")
+                    self.log_audit("Advanced Search", None, f"URL: {target_url}")
                 else:
                     target_url = f"https://x.com/{self.target_account}"
-                    self.log_audit("Profile Scroll", None, "Navegando al muro directo.")
+                    self.log_audit("Profile Scroll", None, f"URL: {target_url}")
 
-                await page.goto(target_url, wait_until="domcontentloaded", timeout=90000)
-                await asyncio.sleep(15)
+                self.log_audit("Browser", None, "Navegando a la página...")
+                await page.goto(target_url, wait_until="load", timeout=60000)
+                
+                title = await page.title()
+                self.log_audit("Browser", True, f"Página cargada: '{title}'")
+                
+                await asyncio.sleep(10)
                 
                 stop_scrolling = False
                 scroll_count = 0
-                max_scrolls = 100 # Reducido de 300
-                collected_tweets = {} # URL -> tweet_data para evitar duplicados en scroll
-                target_link_count = 300 # Reducido de 1000
+                max_scrolls = 60 
+                collected_tweets = {}
+                target_link_count = 200
                 
                 while not stop_scrolling and scroll_count < max_scrolls:
+                    self.log_audit("Scraping", None, f"Escaneando DOM (Scroll {scroll_count+1}/{max_scrolls})...")
                     articles = await page.query_selector_all('article[data-testid="tweet"]')
                     
-                    if not articles and scroll_count > 3:
-                        self.log_audit("Extraction", False, "No se detectan más tweets en el DOM.")
-                        break
-
+                    if not articles:
+                        if scroll_count > 5:
+                            self.log_audit("Extraction", False, "No se detectan tweets. ¿Posible bloqueo o fin de lista?")
+                            break
+                        self.log_audit("Scraping", None, "Esperando a que aparezcan los tweets...")
+                        await asyncio.sleep(5)
+                    
                     for article in articles:
                         # 1. Ignorar Pinned Posts (Solo en Profile Scroll)
                         if strategy == "scroll":
