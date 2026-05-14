@@ -14,15 +14,60 @@ V2_DIR = "v2-docs"
 
 class V2VisionEngine:
     def __init__(self):
-        # Multi-dimensional hierarchy for a more sophisticated navigation
+        # Comprehensive 2026 Taxonomy mapping EVERY relevant area from V1
         self.dimensions = {
-            "Intelligent Control Plane": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
-            "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams"],
-            "Automated Operations": ["devops", "sre", "developerportals", "scaffolding", "finops", "chaos-engineering"],
-            "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth"],
-            "Cloud & Connectivity": ["aws", "azure", "GoogleCloudPlatform", "digitalocean", "cloudflare", "networking", "kubernetes-networking", "servicemesh", "istio"],
-            "The Modern Stack": ["docker", "container-managers", "serverless", "wasm", "databases", "nosql", "message-queue", "bigdata", "databricks"],
-            "Engineering Flow": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "visual-studio", "golang", "python", "java_frameworks"]
+            "Intelligent Control Plane": [
+                "ai", "ai-agents-mcp", "chatgpt", "mlops"
+            ],
+            "Architectural Foundations": [
+                "introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", 
+                "introduction", "matrix-table", "other-awesome-lists"
+            ],
+            "Platform & Site Reliability": [
+                "sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering",
+                "performance-testing-with-jenkins-and-jmeter", "project-management-methodology",
+                "project-management-tools", "qa", "test-automation-frameworks", "testops"
+            ],
+            "Hardened Infrastructure": [
+                "iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", 
+                "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase"
+            ],
+            "Cloud Providers (Hyperscalers)": [
+                "aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", 
+                "cloudflare", "scaleway", "managed-kubernetes-in-public-cloud", "public-cloud-solutions",
+                "private-cloud-solutions", "edge-computing", "aws-architecture", "aws-security",
+                "aws-networking", "aws-databases", "aws-storage", "aws-monitoring", "aws-iac",
+                "aws-tools-scripts", "aws-messaging", "aws-data", "aws-devops", "aws-serverless",
+                "aws-containers", "aws-backup", "aws-training", "aws-newfeatures"
+            ],
+            "Networking & Service Mesh": [
+                "networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers"
+            ],
+            "The Container Stack": [
+                "docker", "container-managers", "serverless", "kubernetes-autoscaling", 
+                "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring",
+                "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise",
+                "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases",
+                "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher",
+                "openshift", "ocp3", "ocp4"
+            ],
+            "Data & Advanced Analytics": [
+                "databases", "nosql", "newsql", "message-queue", "crunchydata", "yaml"
+            ],
+            "Engineering Pipeline": [
+                "cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives",
+                "openshift-pipelines", "sonarqube", "registries", "keptn", "stackstorm", 
+                "cicd-kubernetes-plugins"
+            ],
+            "Developer Ecosystem": [
+                "visual-studio", "javascript", "golang", "python", "java_frameworks", "java_app_servers",
+                "java-and-java-performance-optimization", "dotnet", "angular", "react", "web3", 
+                "api", "swagger-code-generator-for-rest-apis", "postman", "lowcode-nocode",
+                "devel-sites", "dom", "linux-dev-env", "ChromeDevTools"
+            ],
+            "Career & Industry": [
+                "recruitment", "hr", "freelancing", "remote-tech-jobs", "workfromhome", "interview-questions", "elearning", "about"
+            ]
         }
         
         self.elite_criteria = (
@@ -38,7 +83,7 @@ class V2VisionEngine:
         )
 
     async def analyze_and_cluster(self):
-        log_event("STARTING V2 ARCHITECT'S CUT TRANSFORMATION", section_break=True)
+        log_event("STARTING V2 ARCHITECT'S CUT TRANSFORMATION (FULL COVERAGE)", section_break=True)
         
         all_v1_links = await self._gather_all_v1_content()
         log_event(f"[*] Discovery: Found {len(all_v1_links)} nodes in V1.")
@@ -79,7 +124,8 @@ class V2VisionEngine:
 
     async def _evaluate_quality(self, links: List[Dict]) -> List[Dict]:
         refined = []
-        BATCH_SIZE = 50
+        # Increase batch size slightly but keep it manageable
+        BATCH_SIZE = 60
         for i in range(0, len(links), BATCH_SIZE):
             batch = links[i:i+BATCH_SIZE]
             batch_num = i//BATCH_SIZE + 1
@@ -99,21 +145,23 @@ class V2VisionEngine:
                 tags_map = data.get("tags", {})
                 
                 for idx in indices:
-                    idx_str = str(idx)
-                    item = batch[int(idx)].copy()
-                    item["tag"] = tags_map.get(idx_str, "[PRODUCTION-READY]")
-                    refined.append(item)
+                    try:
+                        idx_int = int(idx)
+                        if idx_int < len(batch):
+                            item = batch[idx_int].copy()
+                            item["tag"] = tags_map.get(str(idx), "[PRODUCTION-READY]")
+                            refined.append(item)
+                    except: continue
                 
                 log_event(f"    [Batch {batch_num}] Quality: Kept {len(indices)}/{len(batch)}")
             except:
-                # Fallback: Keep if Awesome or recently curated
+                # Conservative fallback for critical nodes
                 refined.extend([l for l in batch if "awesome" in l['title'].lower()])
             
             await asyncio.sleep(0.5)
         return refined
 
     async def _rebuild_structure(self, inventory: List[Dict]) -> Dict[str, Dict]:
-        # Dimensional clustering
         v2_structure = {dim: {"summary": "", "categories": {}} for dim in self.dimensions.keys()}
         
         file_to_dim = {}
@@ -150,7 +198,7 @@ class V2VisionEngine:
             "    This portal represents the state-of-the-art in Cloud Native engineering. It is a derived intelligence layer "
             "    filtered through the lens of production stability and technical innovation.\n\n"
             "## Exploration Dimensions\n"
-            "Our repository is organized into five critical dimensions for modern platform engineering:\n\n"
+            "Our repository is organized into professional dimensions for the modern engineer:\n\n"
         )
         for dim, content in data.items():
             if not content["categories"]: continue
@@ -190,7 +238,7 @@ class V2VisionEngine:
             updated_content = re.sub(r'nav:.*', new_nav, content, flags=re.DOTALL)
             
             with open("v2-mkdocs.yml", "w") as f: f.write(updated_content)
-            log_event("  [OK] v2-mkdocs.yml navigation updated for Enterprise View.")
+            log_event("  [OK] v2-mkdocs.yml navigation updated for Full Enterprise View.")
         except Exception as e:
             log_event(f"  [!] Error syncing navigation: {e}")
 
