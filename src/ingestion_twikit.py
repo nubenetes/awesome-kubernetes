@@ -21,7 +21,7 @@ class SocialDataExtractor:
         ]
 
     def log_audit(self, method: str, success: Optional[bool], msg: str):
-        icons = {True: "✅ ÉXITO", False: "❌ FALLO", None: "⚡ INTENTO"}
+        icons = {True: "✅ SUCCESS", False: "❌ FAILURE", None: "⚡ ATTEMPT"}
         entry = f"**{method}** - {icons.get(success, 'ℹ️ INFO')}: {msg}"
         self.audit_trail.append(entry)
         print(entry)
@@ -50,10 +50,10 @@ class SocialDataExtractor:
             from playwright.async_api import async_playwright
             import playwright_stealth
         except:
-            self.log_audit("Playwright", False, "Librerías no disponibles.")
+            self.log_audit("Playwright", False, "Libraries not available.")
             return []
         
-        self.log_audit(f"Playwright ({strategy})", None, f"Cronología: Desde {since_date.date()} hasta {until_date.date() if until_date else 'hoy'}.")
+        self.log_audit(f"Playwright ({strategy})", None, f"Chronology: From {since_date.date()} to {until_date.date() if until_date else 'today'}.")
         results = []
         
         try:
@@ -72,7 +72,7 @@ class SocialDataExtractor:
                 if env_cookies:
                     try:
                         cookies = json.loads(env_cookies)
-                        self.log_audit("Cookies", True, f"Cargando {len(cookies)} cookies desde secretos.")
+                        self.log_audit("Cookies", True, f"Loading {len(cookies)} cookies from secrets.")
                         formatted = []
                         for c in cookies:
                             if isinstance(c, dict) and 'name' in c and 'value' in c:
@@ -96,11 +96,11 @@ class SocialDataExtractor:
                     target_url = f"https://x.com/{self.target_account}"
                     self.log_audit("Profile Scroll", None, f"URL: {target_url}")
 
-                self.log_audit("Browser", None, "Navegando a la página...")
+                self.log_audit("Browser", None, "Navigating to page...")
                 await page.goto(target_url, wait_until="load", timeout=60000)
                 
                 title = await page.title()
-                self.log_audit("Browser", True, f"Página cargada: '{title}'")
+                self.log_audit("Browser", True, f"Page loaded: '{title}'")
                 
                 await asyncio.sleep(10)
                 
@@ -111,14 +111,14 @@ class SocialDataExtractor:
                 target_link_count = 200
                 
                 while not stop_scrolling and scroll_count < max_scrolls:
-                    self.log_audit("Scraping", None, f"Escaneando DOM (Scroll {scroll_count+1}/{max_scrolls})...")
+                    self.log_audit("Scraping", None, f"Scanning DOM (Scroll {scroll_count+1}/{max_scrolls})...")
                     articles = await page.query_selector_all('article[data-testid="tweet"]')
                     
                     if not articles:
                         if scroll_count > 5:
-                            self.log_audit("Extraction", False, "No se detectan tweets. ¿Posible bloqueo o fin de lista?")
+                            self.log_audit("Extraction", False, "No tweets detected. Possible block or end of list?")
                             break
-                        self.log_audit("Scraping", None, "Esperando a que aparezcan los tweets...")
+                        self.log_audit("Scraping", None, "Waiting for tweets to appear...")
                         await asyncio.sleep(5)
                     
                     for article in articles:
@@ -138,7 +138,7 @@ class SocialDataExtractor:
                         tweet_dt = datetime.fromisoformat(datetime_str.replace('Z', '+00:00')).astimezone(MADRID_TZ)
                         
                         if tweet_dt < since_date:
-                            self.log_audit("Timeline", True, f"Alcanzado horizonte temporal: {tweet_dt.date()}")
+                            self.log_audit("Timeline", True, f"Time horizon reached: {tweet_dt.date()}")
                             stop_scrolling = True
                             break
 
@@ -191,11 +191,11 @@ class SocialDataExtractor:
     async def fetch_links_since(self, since_date: datetime, until_date: Optional[datetime] = None, strategy: str = "scroll") -> list[dict]:
         play_links = await self._fetch_via_playwright(since_date, until_date=until_date, strategy=strategy)
         if play_links: 
-            self.log_audit("Estrategia Playwright", True, f"Recuperados {len(play_links)} bookmarks en el rango {since_date.date()} a {until_date.date() if until_date else 'hoy'}.")
+            self.log_audit("Playwright Strategy", True, f"Retrieved {len(play_links)} bookmarks in range {since_date.date()} to {until_date.date() if until_date else 'today'}.")
             return play_links
 
         # Fallback a RSS (menos preciso en fechas, pero útil como respaldo)
-        self.log_audit("RSS Fallback", None, "Intentando vía RSS-Bridge...")
+        self.log_audit("RSS Fallback", None, "Attempting via RSS-Bridge...")
         from bs4 import BeautifulSoup
         bridges = ["rssbridge.org", "rss.idoc.pub"]
         for b in bridges:
@@ -224,7 +224,7 @@ class SocialDataExtractor:
                                     })
                             
                             if results:
-                                self.log_audit(f"RSS-Bridge ({b})", True, f"Encontrados {len(results)} enlaces en {len(items)} items.")
+                                self.log_audit(f"RSS-Bridge ({b})", True, f"Found {len(results)} links in {len(items)} items.")
                                 return results
             except: continue
         return []

@@ -9,7 +9,7 @@ class BackupDataExtractor:
         self.audit_trail = []
 
     def log_audit(self, method: str, success: bool, msg: str):
-        icons = {True: "✅ ÉXITO", False: "❌ FALLO", None: "⚡ INTENTO"}
+        icons = {True: "✅ SUCCESS", False: "❌ FAILURE", None: "⚡ ATTEMPT"}
         entry = f"**{method}** - {icons.get(success, 'ℹ️ INFO')}: {msg}"
         self.audit_trail.append(entry)
         print(entry)
@@ -29,7 +29,7 @@ class BackupDataExtractor:
         return list(set(valid_urls))
 
     async def fetch_links(self) -> list[dict]:
-        self.log_audit("Backup Ingestion", None, f"Procesando: {self.file_path}")
+        self.log_audit("Backup Ingestion", None, f"Processing: {self.file_path}")
         results = []
         
         try:
@@ -94,7 +94,7 @@ class BackupDataExtractor:
             except:
                 pass
 
-            self.log_audit("Backup Ingestion", True, f"Total enlaces extraídos: {len(results)}")
+            self.log_audit("Backup Ingestion", True, f"Total links extracted: {len(results)}")
             return results
 
         except Exception as e:
