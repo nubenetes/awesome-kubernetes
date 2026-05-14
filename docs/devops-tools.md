@@ -48,6 +48,8 @@
 - [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) The open-source wants to expand DevOps to cover cloud and containers with its newest program.
 
 ## Devtron. Tool integration platform for kubernetes
+  - [Using Workspaces for AI Changes Across Multiple Repositories](https://ettema.dev/posts/ai-multi-repo-workspaces/) - *(Related to ai topic)*
+  - [Web Check](https://web-check.xyz/) - *(Related to kubernetes-tools topic)*
 
 - [Devtron](https://github.com/devtron-labs/devtron) is an Open Source End-to-End Software Delivery workflow for Kubernetes.
 - It leverages popular DevOps tools to provide a No-Code, ***Unified Heroku-like*** Experience for Kubernetes.
@@ -63,4 +65,3 @@
 
 - [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) Platform Engineering capabilities and stacks installed with one command.
 - You know what’s missing? An easy tool that just installs capibilities (ArgoCD, Datadog, KubeVirt, etc.) in an easy way. One command to do it all. A tool that easily gets whatever capabilities you want your kubernetes cluster to have deployed in production. Capipe, which stands for Capibility Platform Engineering, allows you to specify capabilities that you want to install within your Platform Engineering environment.
-
