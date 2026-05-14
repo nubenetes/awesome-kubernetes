@@ -212,6 +212,8 @@
 - [techcommunity.microsoft.com: Infra in Azure for Developers - The What](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/infra-in-azure-for-developers-the-what/ba-p/4026102)
 
 ## Azure Landing Zones
+  - [Enterprise-Scale Azure Subscription Vending using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) - Explora la automatización de la creación de suscripciones de Azure a gran escala utilizando Azure Verified Modules (AVM) para un despliegue eficiente y estandarizado.
+  - [Transicionar un entorno Azure existente a la arquitectura de referencia de zona de aterrizaje de Azure](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - Guía para organizaciones que buscan migrar sus entornos Azure existentes a la arquitectura de referencia de zona de aterrizaje de Azure, incluyendo consideraciones para mover recursos y suscripciones.
 
 - [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
 - [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-landing-zones-accelerators-for-bicep-and-terraform/ba-p/4029866)
@@ -252,6 +254,7 @@
 - [hlokensgard.no: Azure Virtual Network Manager – A game changer or just a costly upgrade?](https://hlokensgard.no/2024/07/01/azure-virtual-network-manager-a-game-changer-or-just-a-costly-upgrade/)
 
 ## Blogs
+  - [Which Azure network design is cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - Compara el costo de diferentes diseños de red en Azure, enfocándose en los flujos de tráfico y el procesamiento de datos.
 
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com)
 - [thomasthornton.cloud: Thomas Thornton](https://thomasthornton.cloud)
@@ -315,6 +318,7 @@
 - [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/dev-test-microservice)
 
 ## Azure DevOps
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) 🌟 - Guía completa para construir un pipeline de Azure DevOps listo para producción con Terraform, incluyendo autenticación OIDC, plantillas reutilizables, aprobaciones de etapas y acceso a módulos privados.
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 - [Azure DevOps Labs 🌟](https://www.azuredevopslabs.com/)
@@ -484,6 +488,7 @@
 - [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html)
 
 ## Azure Application Gateway
+  - [Integración de Application Gateway for Containers con Istio](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) 🌟 - Este post explora la integración de Azure Application Gateway for Containers (AGC) con el service mesh Istio en clústeres de Kubernetes para lograr cifrado de tráfico de extremo a extremo sin modificar la aplicación.
 
 - [==nathannellans.com: Azure Application Gateway - Part 1== 🌟](https://www.nathannellans.com/post/azure-application-gateway-part-1)
 - [acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs](https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm/)
