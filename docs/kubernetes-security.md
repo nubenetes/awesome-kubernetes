@@ -415,6 +415,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [box/kube-exec-controller](https://github.com/box/kube-exec-controller) An admission controller service and kubectl plugin to handle container drift in K8s clusters
 
 ## Kubernetes Security Best Practices
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer/) - *(Related to docker topic)*
 
 - [Kubernetes Security 101: Risks and 29 Best Practices 🌟](https://www.stackrox.com/post/2020/05/kubernetes-security-101/) Security Best Practices Across Build, Deploy, and Runtime Phases.
 - Build Phase:
