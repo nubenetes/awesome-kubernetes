@@ -17,6 +17,8 @@ sources:
       - "GoogleCloud"
       - "0GiS0"             # Gisela Torres (returngis) - Azure/DevOps expert
       - "NTFAQGuy"          # John Savill - Azure technical deep-dives
+      - "cantrillio"        # Adrian Cantrill - AWS technical deep-dives
+      - "pvergadia"         # Priyanka Vergadia (Cloud Girl) - GCP visual deep-dives
       - "QuinnyPig"        # AWS Billing/FinOps expert
 
   - topic: "AI & Agentic Systems"
