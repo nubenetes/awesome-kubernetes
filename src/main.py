@@ -240,6 +240,12 @@ async def master_orchestrator():
     if max_tweet_date > since_date:
         save_state(max_tweet_date + timedelta(seconds=1))
 
+    # Lógica de re-disparo para Modo Histórico en GitHub Actions
+    if is_historical and since_date > final_stop_date:
+        # Imprimir para que el YAML lo capture
+        print(f"\nNEXT_CHUNK_START: {since_date.isoformat()}")
+        log_event(f"[*] TRAMO FINALIZADO. Sugiriendo siguiente tramo desde: {since_date.date()}", section_break=True)
+
     log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
 
 
