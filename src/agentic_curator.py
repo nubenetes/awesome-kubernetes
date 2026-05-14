@@ -31,6 +31,26 @@ async def _deep_fetch_content(url: str) -> str:
 
 from src.logger import log_event
 
+async def _get_github_activity(url: str) -> Optional[datetime]:
+    """Obtiene la fecha del último commit de un repo de GitHub usando la API (si hay token)."""
+    if "github.com" not in url or not GH_TOKEN: return None
+    try:
+        # Extraer user/repo
+        match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
+        if match:
+            owner, repo = match.groups()
+            repo = repo.split('#')[0].split('?')[0].rstrip('.git')
+            api_url = f"https://api.github.com/repos/{owner}/{repo}"
+            headers = {"Authorization": f"token {GH_TOKEN}"}
+            async with httpx.AsyncClient() as client:
+                resp = await client.get(api_url, headers=headers, timeout=5)
+                if resp.status_code == 200:
+                    pushed_at = resp.json().get("pushed_at")
+                    if pushed_at:
+                        return datetime.fromisoformat(pushed_at.replace('Z', '+00:00'))
+    except: pass
+    return None
+
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
     if not GEMINI_API_KEYS:
@@ -52,8 +72,6 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         
         log_event(f"--- EVALUATING {i+1}/{len(raw_assets)} ---", section_break=False)
         log_event(f"  - URL: {asset['url']}")
-        log_event(f"  - Post Date: {post_date}")
-        log_event(f"  - Post Context: \"{context[:300]}...\"")
 
         domain = asset['url'].split("//")[-1].split("/")[0]
         if domain in domain_blacklist:
@@ -61,24 +79,34 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Blacklisted domain"}
             continue
 
+        # MVQ: Check GitHub activity
+        mvq_penalty = False
+        last_activity = await _get_github_activity(asset['url'])
+        if last_activity:
+            years_inactive = (datetime.now(last_activity.tzinfo) - last_activity).days / 365
+            if years_inactive > 4:
+                log_event(f"  [⚠️] MVQ Warning: Inactive for {years_inactive:.1f} years.")
+                mvq_penalty = True
+
         web_content = await _deep_fetch_content(asset['url'])
         
         prompt = (
             "You act as a Senior Curation Engineer for 'nubenetes/awesome-kubernetes'.\n"
             "Your mission is to catalog TECHNICAL content about Kubernetes and Cloud Native shared by the user.\n"
-            "GOLDEN RULE: If the link is in the feed, it's because the user considers it useful. DO NOT discard unless it is total noise (aggressive ads, 404, or non-technical content).\n\n"
+            "GOLDEN RULE: If the link is in the feed, it's because the user considers it useful. DO NOT discard unless it is total noise.\n\n"
             f"Valid categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
             "INSTRUCTIONS:\n"
             "1. LANGUAGE: ALL outputs (title, desc, reasoning) MUST BE IN ENGLISH.\n"
-            "2. YOUTUBE: Accept technical videos or tutorials. Categorize them by topic.\n"
-            "3. SUMMARY: Create a concise summary (1 sentence). Use the 'Context' (the X post) as a priority as it explains why it was shared.\n"
-            "4. ASSIGNMENT: If it's about Model Context Protocol (MCP), assign it to 'ai-agents-mcp'.\n\n"
+            "2. STYLE: Summaries MUST BE DESCRIPTIVE (neutral, objective, explaining what/why).\n"
+            "3. MVQ: If it's a GitHub repo inactive for >4 years, penalize the impact score.\n"
+            "4. SUMMARY: Create a concise summary (1 sentence).\n"
+            f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
             f"URL: {asset['url']}\nX Context: {context}\nExtracted Web Content: {web_content[:2000]}\n\n"
             "Evaluate TECHNICAL IMPACT (1-100):\n"
             "- >80: Exceptional resource (🌟).\n"
             "- >5: Accept (if it fits a category).\n"
             "- <5: Discard (Absolute noise).\n\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\", \"rejection_reason\": \"... (if applicable, English)\"}"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\"}"
         )
 
         try:
@@ -88,18 +116,11 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             reasoning = data.get("reasoning", "No reason specified")
             
             if score < 5:
-                reason = data.get("rejection_reason", "Low technical impact")
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": reason}
-                log_event(f"  [-] REJECTED: {reason} (Score: {score})")
-                log_event(f"      AI Reason: {reasoning}")
-                
-                if score < 1 and domain not in domain_blacklist:
-                    domain_blacklist.add(domain)
-                    log_event(f"  [!] Domain {domain} added to blacklist.")
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Low technical impact"}
+                log_event(f"  [-] REJECTED: Low technical impact (Score: {score})")
             elif not valid_cats:
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No valid technical category found"}
-                log_event(f"  [-] REJECTED: No valid category found (Suggested: {data.get('categories')})")
-                log_event(f"      AI Reason: {reasoning}")
+                log_event(f"  [-] REJECTED: No valid category found")
             else:
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
@@ -107,23 +128,20 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "reasoning": reasoning
                 }
                 log_event(f"  [+] ACCEPTED: \"{data['title']}\" (Score: {score})")
-                log_event(f"      Destination: docs/{valid_cats[0]}.md")
-                log_event(f"      Description: {data['desc']}")
-                log_event(f"      AI Reason: {reasoning}")
 
         except Exception as e:
-            log_event(f"  [!] CRITICAL ERROR EVALUATING {asset['url']}: {e}")
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Evaluation Failed: {str(e)[:100]}"}
+            log_event(f"  [!] ERROR EVALUATING {asset['url']}: {e}")
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Evaluation Failed"}
         
-        await asyncio.sleep(2.0) # Steady pace
+        await asyncio.sleep(1.0)
             
-    # Guardar blacklist actualizada
     try:
         os.makedirs(os.path.dirname(memory_file), exist_ok=True)
         with open(memory_file, 'w') as f:
             json.dump({"blacklisted_domains": list(domain_blacklist)}, f, indent=2)
     except: pass
     return evaluations
+
 
 class AgenticCurator:
     def __init__(self):

@@ -32,54 +32,70 @@ class GeminiDiagnostics:
         return report
 
 async def resolve_url(url: str) -> str:
-    """Sigue las redirecciones para obtener la URL larga final y consolida repositorios si fallan."""
-    shorteners = ['t.co', 'bit.ly', 'buff.ly', 'goo.gl', 'tinyurl.com', 't.ly', 'rb.gy', 'is.gd', 'drp.li', 't.me']
+    """Sigue las redirecciones para obtener la URL larga final, consolidando repositorios y evitando bucles."""
+    shorteners = ['t.co', 'bit.ly', 'buff.ly', 'goo.gl', 'tinyurl.com', 't.ly', 'rb.gy', 'is.gd', 'drp.li', 't.me', 'lnkd.in']
     try:
         domain = url.split("//")[-1].split("/")[0].lower()
     except:
         return url
     
-    # 1. Expansión inicial
+    # 1. Expansión Multi-salto (evita intermediarios de tracking)
     final_url = url
-    if domain in shorteners or url.endswith('…'):
-        try:
-            async with httpx.AsyncClient(follow_redirects=True) as client:
-                resp = await client.head(url, timeout=5)
-                final_url = str(resp.url)
-                if final_url != url:
-                    log_event(f"  [🔗] URL Expandida: {url} -> {final_url}")
-        except:
-            pass
+    max_hops = 5
+    current_hop = 0
+    
+    async with httpx.AsyncClient(follow_redirects=True, timeout=8) as client:
+        while current_hop < max_hops:
+            try:
+                # Si no es un acortador conocido y ya tenemos una URL larga, paramos
+                current_domain = final_url.split("//")[-1].split("/")[0].lower()
+                if current_hop > 0 and current_domain not in shorteners:
+                    break
+                    
+                resp = await client.head(final_url, timeout=5)
+                new_url = str(resp.url)
+                if new_url == final_url: break
+                
+                final_url = new_url
+                current_hop += 1
+            except:
+                break
 
-    # 2. Consolidación de Repositorios (GitHub/GitLab)
+    # 2. Consolidación de Repositorios (GitHub/GitLab) con chequeo de MVQ (vía REST si es necesario)
     repo_domains = ['github.com', 'gitlab.com']
     current_domain = final_url.split("//")[-1].split("/")[0].lower()
     
     if any(d in current_domain for d in repo_domains):
-        # Intentar validar si el enlace profundo funciona
         try:
             async with httpx.AsyncClient(follow_redirects=True) as client:
                 resp = await client.head(final_url, timeout=5)
-                if resp.status_code == 200:
-                    return final_url
-                
-                # Si falla, intentar consolidar a la raíz del repo
-                # Formato esperado: https://github.com/user/repo/...
-                parts = final_url.split('/')
-                if len(parts) > 4: # https: , , domain, user, repo
-                    root_repo = "/".join(parts[:5])
-                    resp_root = await client.head(root_repo, timeout=5)
-                    if resp_root.status_code == 200:
-                        log_event(f"  [📦] Consolidación: {final_url} -> {root_repo} (Raíz validada)")
-                        return root_repo
+                if resp.status_code != 200:
+                    parts = final_url.split('/')
+                    if len(parts) > 4: 
+                        root_repo = "/".join(parts[:5])
+                        resp_root = await client.head(root_repo, timeout=5)
+                        if resp_root.status_code == 200:
+                            log_event(f"  [📦] Consolidación: {final_url} -> {root_repo}")
+                            final_url = root_repo
         except:
             pass
             
     return final_url
 
+def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
+    """Detecta si dos URLs son iguales ignorando parámetros de tracking comunes."""
+    def clean(u):
+        u = u.split('#')[0].rstrip('/').lower()
+        # Eliminar parámetros utm_* y otros comunes
+        u = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+)', '', u)
+        if u.endswith('?'): u = u[:-1]
+        return u
+    return clean(url_a) == clean(url_b)
+
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
     """
-    Llama a la API de Gemini con rotación exhaustiva y REINTENTO REAL en 429.
+    Llama a Gemini optimizando el uso de cuota (pay-per-use).
+    Rota llaves inmediatamente en 429 y usa backoff exponencial inteligente.
     """
     global CURRENT_KEY_INDEX
     if not GEMINI_API_KEYS:
@@ -87,16 +103,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
 
     diagnostics = GeminiDiagnostics()
     
-    async with httpx.AsyncClient() as client:
-        for key_attempt in range(len(GEMINI_API_KEYS)):
-            api_key = GEMINI_API_KEYS[CURRENT_KEY_INDEX]
-            
+    # Intentamos rotar entre todas las llaves disponibles antes de fallar
+    for key_attempt in range(len(GEMINI_API_KEYS)):
+        api_key = GEMINI_API_KEYS[CURRENT_KEY_INDEX]
+        
+        async with httpx.AsyncClient() as client:
             for model in GEMINI_MODELS:
                 full_model_name = f"models/{model}"
                 api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                 
-                # Reintentos por modelo (incluyendo 429)
-                for attempt in range(max_retries + 2):
+                for attempt in range(max_retries):
                     try:
                         payload = {"contents": [{"parts": [{"text": prompt}]}]}
                         response = await client.post(api_url, json=payload, timeout=45)
@@ -117,14 +133,14 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             break
                         
                         elif response.status_code == 429:
-                            wait_time = (10 * (attempt + 1)) + random.random() * 5
-                            log_event(f"  [!] API 429 (Límite): Reintentando {model} en {wait_time:.1f}s... (Intento {attempt+1})")
-                            await asyncio.sleep(wait_time)
-                            continue # Reintentar el MISMO modelo
+                            # 429: Rotamos llave inmediatamente para no desperdiciar tiempo
+                            log_event(f"  [!] API 429 en llave {CURRENT_KEY_INDEX+1}. Rotando...")
+                            CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
+                            # Rompemos el bucle de intentos para este modelo/llave y pasamos a la siguiente llave
+                            break 
                         
                         elif response.status_code in [500, 503, 504]:
-                            diagnostics.add_attempt(model, response.status_code, "Server Error")
-                            await asyncio.sleep(5)
+                            await asyncio.sleep(2 * (attempt + 1))
                             continue
                         
                         else:
@@ -135,7 +151,13 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                         diagnostics.add_attempt(model, 0, f"Excepción: {str(e)}")
                         break
             
+            # Si terminamos los modelos de una llave con 429, saltamos a la siguiente
+            if response.status_code == 429:
+                continue
+            
+            # Si llegamos aquí y no tuvimos éxito, probamos la siguiente llave tras un breve respiro
             CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
-            await asyncio.sleep(2)
+            await asyncio.sleep(1)
 
-    raise Exception(f"Fallo crítico Gemini tras rotación exhaustiva.\n{diagnostics.get_report()}")
+    raise Exception(f"Fallo crítico Gemini tras rotación de llaves.\n{diagnostics.get_report()}")
+

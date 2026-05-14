@@ -64,7 +64,7 @@ class IntelligentLinkCleaner:
                 return url, True, None, "Cached (Recent)"
 
         domain = url.split("//")[-1].split("/")[0]
-        domain_info = self.learning_data["domains"].get(domain, {})
+        domain_info = self.learning_data.get("domains", {}).get(domain, {})
         strategies = [
             {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Desktop/Google"},
             {"type": "http", "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1", "ref": "https://t.co/", "desc": "Mobile/Twitter"},
@@ -72,9 +72,13 @@ class IntelligentLinkCleaner:
             {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0", "ref": "https://news.ycombinator.com/", "desc": "Firefox/Reddit"},
             {"type": "playwright", "ua": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36", "ref": "https://www.google.com/", "desc": "PW Mobile/Google"}
         ]
+        
+        # PRIORIZACIÓN INTELIGENTE: Si ya sabemos qué funciona para este dominio, empezar por ahí.
         best_strat_idx = domain_info.get("best_strategy_idx")
         if best_strat_idx is not None and best_strat_idx < len(strategies):
-            best_strat = strategies.pop(best_strat_idx); strategies.insert(0, best_strat)
+            # Mover la mejor estrategia al inicio
+            best_strat = strategies.pop(best_strat_idx)
+            strategies.insert(0, best_strat)
 
         for attempt in range(min(max_retries, len(strategies))):
             strategy = strategies[attempt]
@@ -82,11 +86,17 @@ class IntelligentLinkCleaner:
                 if attempt > 0: await asyncio.sleep((2 ** attempt) + random.random())
                 is_alive, reason = await self._check_url_logic(url, strategy)
                 if is_alive:
+                    if "domains" not in self.learning_data: self.learning_data["domains"] = {}
                     if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {}
+                    
+                    # Guardar el índice REAL de la estrategia que funcionó
                     original_idx = attempt if best_strat_idx is None else (best_strat_idx if attempt == 0 else (attempt if attempt < best_strat_idx else attempt))
                     self.learning_data["domains"][domain]["best_strategy_idx"] = original_idx
+                    
+                    if "link_cache" not in self.learning_data: self.learning_data["link_cache"] = {}
                     self.learning_data["link_cache"][url] = {"status": "ALIVE", "last_checked": now}
                     return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
+
                 if reason in ["404", "soft_404", "redirect_to_home"]:
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/"); repo_root = "/".join(parts[:5]) if len(parts) > 4 else None

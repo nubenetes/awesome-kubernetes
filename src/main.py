@@ -108,6 +108,7 @@ async def master_orchestrator():
     log_event(f"[*] Total after initial deduplication: {len(all_raw_assets)} unique links.")
 
     # 4. Evaluation and Registration (Robust Global Deduplication)
+    from src.gemini_utils import is_fuzzy_duplicate
     existing_urls = set()
     for root, dirs, files in os.walk("docs"):
         for file in files:
@@ -140,6 +141,21 @@ async def master_orchestrator():
             url = asset["url"]
             clean_url = url.split('#')[0].rstrip('/').lower()
             
+            # Fuzzy Deduplication
+            is_dup = False
+            for existing in existing_urls:
+                if is_fuzzy_duplicate(url, existing):
+                    is_dup = True
+                    break
+
+            if is_dup:
+                log_event(f"  [=] SKIPPED: {url[:60]}... (Already exists - Fuzzy)")
+                full_report_metrics.append({
+                    "url": url, "status": "DUPLICATE", "reason": "Already exists in repository",
+                    "category": "N/A", "post_date": asset.get('timestamp'), "source": asset.get("source_type", "Social")
+                })
+                continue
+            
             # Track max date
             try:
                 ts = asset.get('timestamp')
@@ -157,14 +173,8 @@ async def master_orchestrator():
                     max_tweet_date = asset_date
             except: pass
 
-            if clean_url in existing_urls:
-                log_event(f"  [=] SKIPPED: {url[:60]}... (Already exists)")
-                full_report_metrics.append({
-                    "url": url, "status": "DUPLICATE", "reason": "Already exists in repository",
-                    "category": "N/A", "post_date": ts, "source": asset.get("source_type", "Social")
-                })
-                continue
             assets_to_evaluate.append(asset)
+
 
         if not assets_to_evaluate:
             log_event("  [*] Entire batch consists of duplicates. Next batch.")
