@@ -100,6 +100,9 @@
 - [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-application-services/)
 
 ## Blogs
+  - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409) - *(Related to ai topic)*
+  - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively) - A comprehensive guide to AWS Organizations, explaining its importance for managing multiple AWS accounts, including account management, consolidated billing, and policy enforcement for security and compliance. It highlights the benefits of separating resources into distinct accounts for production, non-production, and other organizational units.
+  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) - *(Related to devops topic)*
 
 - [Jayendra's Blog 🌟🌟](https://jayendrapatil.com/)
 - [aws.plainenglish.io](https://aws.plainenglish.io/)
@@ -125,6 +128,7 @@ You can filter by topic using the toolbar above.
 - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 
 ## Containers on AWS
+  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com/) - *(Related to cicd topic)*
 
 - [==vladionescu.me: Scaling containers on AWS in 2022 (comparison)==](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022/)
 
@@ -154,11 +158,13 @@ You can filter by topic using the toolbar above.
 - [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
 
 ## AWS Developer Blog
+  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions/) 🌟 - This blog post introduces an enhanced local Integrated Development Environment (IDE) experience for AWS Step Functions, integrating Workflow Studio directly into Visual Studio Code (VS Code) via the AWS Toolkit extension. This allows developers to visually author and edit state machines locally, mirroring the AWS Console experience. The integration simplifies the development of distributed applications, process automation, microservice orchestration, and data/ML pipelines by providing a seamless workflow authoring experience within the developer's preferred IDE, synchronizing visual changes with the Amazon States Language (ASL) definition.
 
 - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer/)
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
 ## AWS Patterns
+  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - Cloudburn is an open-source policy engine designed to prevent and remediate inefficient AWS spending patterns. It aims to block 'bad AWS spending patterns before they ship' and actively remediates existing 'burning' costs.
 
 - [medium: Top 4 AWS Patterns of Highly Available API](https://medium.com/greenm/top-4-aws-patterns-of-highly-available-api-d34599bfbb96) We want to tell you about a few common patterns that can be used to build highly available APIs on top of AWS infrastructure. We will highlight each of them and briefly describe the pros and cons.
 
