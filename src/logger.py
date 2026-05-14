@@ -6,8 +6,8 @@ DEFAULT_LOG_PATH = "/home/inafev/.gemini/tmp/awesome-kubernetes/curation_progres
 
 def log_event(message: str, section_break: bool = False):
     """
-    Registra un evento tanto en la consola (STDOUT) como en el archivo de log local si existe.
-    En GitHub Actions, esto aparecerá en los logs del workflow.
+    Logs an event to both console (STDOUT) and local log file if it exists.
+    In GitHub Actions, this will appear in the workflow logs.
     """
     timestamp = datetime.now().strftime('%H:%M:%S')
     formatted_msg = f"[{timestamp}] {message}"
@@ -21,10 +21,10 @@ def log_event(message: str, section_break: bool = False):
         _write_to_file(formatted_msg)
 
 def _write_to_file(message: str):
-    # Solo intentamos escribir en archivo si no estamos en GitHub Actions
+    # Only try to write to file if not in GitHub Actions
     if not os.getenv("GITHUB_ACTIONS"):
         try:
-            # Aseguramos que el directorio existe
+            # Ensure directory exists
             os.makedirs(os.path.dirname(DEFAULT_LOG_PATH), exist_ok=True)
             with open(DEFAULT_LOG_PATH, "a") as f:
                 f.write(message + "\n")

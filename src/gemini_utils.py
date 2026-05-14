@@ -94,16 +94,16 @@ def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
 
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
     """
-    Llama a Gemini optimizando el uso de cuota (pay-per-use).
-    Rota llaves inmediatamente en 429 y usa backoff exponencial inteligente.
+    Calls Gemini API optimizing for quota usage (pay-per-use).
+    Rotates keys immediately on 429 and uses smart exponential backoff.
     """
     global CURRENT_KEY_INDEX
     if not GEMINI_API_KEYS:
-        raise ValueError("No hay GEMINI_API_KEYS configuradas.")
+        raise ValueError("No GEMINI_API_KEYS configured.")
 
     diagnostics = GeminiDiagnostics()
     
-    # Intentamos rotar entre todas las llaves disponibles antes de fallar
+    # Try rotating through all available keys before failing
     for key_attempt in range(len(GEMINI_API_KEYS)):
         api_key = GEMINI_API_KEYS[CURRENT_KEY_INDEX]
         
@@ -126,17 +126,17 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                     if match:
                                         data = json.loads(match.group(0))
                                         return data[0] if isinstance(data, list) and len(data) > 0 else data
-                                    diagnostics.add_attempt(model, 200, "JSON no encontrado", text_resp)
+                                    diagnostics.add_attempt(model, 200, "JSON not found", text_resp)
                                     break 
                                 return text_resp
-                            diagnostics.add_attempt(model, 200, "Sin candidates")
+                            diagnostics.add_attempt(model, 200, "No candidates")
                             break
                         
                         elif response.status_code == 429:
-                            # 429: Rotamos llave inmediatamente para no desperdiciar tiempo
-                            log_event(f"  [!] API 429 en llave {CURRENT_KEY_INDEX+1}. Rotando...")
+                            # 429: Rotate key immediately to save time
+                            log_event(f"  [!] API 429 on key {CURRENT_KEY_INDEX+1}. Rotating...")
                             CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
-                            # Rompemos el bucle de intentos para este modelo/llave y pasamos a la siguiente llave
+                            # Break current model loop and move to next key
                             break 
                         
                         elif response.status_code in [500, 503, 504]:
@@ -148,16 +148,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             break
                             
                     except Exception as e:
-                        diagnostics.add_attempt(model, 0, f"Excepción: {str(e)}")
+                        diagnostics.add_attempt(model, 0, f"Exception: {str(e)}")
                         break
             
-            # Si terminamos los modelos de una llave con 429, saltamos a la siguiente
+            # If we finished all models for a key with 429, skip to next key
             if response.status_code == 429:
                 continue
             
-            # Si llegamos aquí y no tuvimos éxito, probamos la siguiente llave tras un breve respiro
+            # If we are here and didn't succeed, try next key after a brief pause
             CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
             await asyncio.sleep(1)
 
-    raise Exception(f"Fallo crítico Gemini tras rotación de llaves.\n{diagnostics.get_report()}")
+    raise Exception(f"Critical Gemini failure after key rotation.\n{diagnostics.get_report()}")
 

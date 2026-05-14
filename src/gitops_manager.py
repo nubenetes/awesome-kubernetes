@@ -23,7 +23,7 @@ class RepositoryController:
     def apply_historical_chunk(self, updates: dict, next_since: str) -> None:
         branch_name = "bot/historical-accumulator"
         
-        # Verificar si la rama existe, si no, crearla desde master
+        # Check if branch exists, if not, create from master
         try:
             self.repository.get_branch(branch_name)
         except:
@@ -44,21 +44,18 @@ class RepositoryController:
                             content=content, branch=branch_name
                         )
             except Exception as e:
-                print(f"Error en tramo histórico para {file_path}: {e}")
+                print(f"Error in historical chunk for {file_path}: {e}")
 
     def apply_multi_file_changes(self, updates: dict, metrics: dict) -> None:
         timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
-        is_historical = "historical" in metrics.get("start_date", "").lower() or metrics.get("total_extracted", 0) > 500
-        
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
         
-        # En el último tramo histórico, usamos el accumulator como base si existe
+        # In the last historical chunk, use the accumulator as base if it exists
         accumulator_branch = "bot/historical-accumulator"
         base_sha = None
         try:
             acc = self.repository.get_branch(accumulator_branch)
             base_sha = acc.commit.sha
-            # Si venimos de histórico, la rama destino debe ser creada desde el accumulator
             self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_sha)
         except:
             self._create_feature_branch(branch_name)
@@ -86,15 +83,15 @@ class RepositoryController:
                             content=content, branch=branch_name
                         )
             except Exception as e:
-                print(f"Error procesando {file_path}: {e}")
+                print(f"Error processing {file_path}: {e}")
 
-        # --- CONSTRUCCIÓN DEL REPORTE ---
+        # --- REPORT CONSTRUCTION ---
         full_report = metrics.get('full_report', [])
         
-        # 1. Tabla Matricial con Índice Numérico y Fecha (Priorizando INCLUDED)
+        # 1. Matrix Table with Numeric Index and Date (Prioritizing INCLUDED)
         sorted_report = sorted(full_report, key=lambda x: 0 if x['status'] == 'INCLUDED' else 1)
         
-        header_table = "| # | Estado | Fecha Post | Origen | Motivo | Categoría | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
+        header_table = "| # | Status | Post Date | Source | Reason | Category | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
         
         counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
         source_counts = {}
@@ -110,8 +107,7 @@ class RepositoryController:
                 src = item.get('source', 'Unknown')
                 source_counts[src] = source_counts.get(src, 0) + 1
 
-        # Dividir filas en fragmentos para PR Body y Comentarios
-        # Límite GH: 65,536. Usamos fragmentos de ~50k chars para seguridad.
+        # Split rows into chunks for PR Body and Comments
         chunks = []
         current_chunk = header_table
         for row in all_rows:
@@ -124,10 +120,10 @@ class RepositoryController:
 
         matrix_table_body = chunks[0]
         if len(chunks) > 1:
-            matrix_table_body += f"\n> ℹ️ **Nota:** La tabla continúa en los comentarios del PR ({len(chunks)-1} partes adicionales).\n"
+            matrix_table_body += f"\n> ℹ️ **Note:** The table continues in PR comments ({len(chunks)-1} additional parts).\n"
 
-        # 2. Diagnóstico de Extracción Histórica
-        extraction_audit = "### 🕵️ Diagnóstico de Horizonte Temporal\n"
+        # 2. Historical Extraction Diagnosis
+        extraction_audit = "### 🕵️ Time Horizon Diagnosis\n"
         start_date_str = metrics.get('start_date')[:10] if metrics.get('start_date') else 'N/A'
         
         actual_oldest = "N/A"
@@ -135,37 +131,37 @@ class RepositoryController:
         if dates: actual_oldest = min(dates)[:10]
 
         if actual_oldest != "N/A" and actual_oldest > start_date_str:
-            extraction_audit += f"⚠️ **Límite Alcanzado:** Se solicitó desde `{start_date_str}`, pero se detuvo en `{actual_oldest}`.\n"
+            extraction_audit += f"⚠️ **Limit Reached:** Requested from `{start_date_str}`, but stopped at `{actual_oldest}`.\n"
         else:
-            extraction_audit += f"✅ **Horizonte Alcanzado:** La extracción cubrió exitosamente desde `{start_date_str}`.\n"
+            extraction_audit += f"✅ **Horizon Reached:** Extraction successfully covered since `{start_date_str}`.\n"
 
-        # 3. Diagramas Mermaid
-        mermaid_pie = "### 📊 Métricas de Decisión\n```mermaid\npie title Distribución de Decisión Agéntica\n"
-        mermaid_pie += f"    \"Aceptados (Inyectados)\" : {counts['INCLUDED']}\n"
-        mermaid_pie += f"    \"Duplicados (Ignorados)\" : {counts['DUPLICATE']}\n"
-        mermaid_pie += f"    \"Filtrados (Calidad/Impacto)\" : {counts['FILTERED']}\n```\n"
+        # 3. Mermaid Diagrams
+        mermaid_pie = "### 📊 Decision Metrics\n```mermaid\npie title Agentic Decision Distribution\n"
+        mermaid_pie += f"    \"Accepted (Injected)\" : {counts['INCLUDED']}\n"
+        mermaid_pie += f"    \"Duplicates (Ignored)\" : {counts['DUPLICATE']}\n"
+        mermaid_pie += f"    \"Filtered (Quality/Impact)\" : {counts['FILTERED']}\n```\n"
 
         mermaid_origin = ""
         if source_counts:
-            mermaid_origin = "### 🌍 Origen de las Novedades Inyectadas\n```mermaid\npie title Fuentes de Referencias Añadidas\n"
+            mermaid_origin = "### 🌍 Source of Injected Updates\n```mermaid\npie title Added References Sources\n"
             for src, val in source_counts.items():
                 mermaid_origin += f"    \"{src}\" : {val}\n"
             mermaid_origin += "```\n"
 
-        # 4. Log de Ingesta
-        x_log = "### ⚡ Audit Trail de Ingesta (X.com)\n"
+        # 4. Ingestion Log
+        x_log = "### ⚡ Ingestion Audit Trail (X.com)\n"
         for entry in metrics.get('x_audit', []): x_log += f"- {entry}\n"
 
         pr_narrative = (
             f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
-            f"Este reporte detalla el procesamiento de **{metrics.get('total_extracted', 0)}** enlaces detectados.\n\n"
+            f"This report details the processing of **{metrics.get('total_extracted', 0)}** detected links.\n\n"
             f"{extraction_audit}\n"
             f"{mermaid_pie}\n"
             f"{mermaid_origin}\n"
             f"{x_log}\n"
-            f"### 📋 Matriz de Auditoría (Parte 1)\n{matrix_table_body}\n"
+            f"### 📋 Audit Matrix (Part 1)\n{matrix_table_body}\n"
             f"---\n"
-            f"**Nota de Evaluación:** Se ha analizado exitosamente el histórico completo."
+            f"**Evaluation Note:** Full history analyzed successfully."
         )
 
         pr = self.repository.create_pull(
@@ -175,8 +171,8 @@ class RepositoryController:
             base=self.default_branch_name
         )
 
-        # 5. Publicar comentarios con el resto de la tabla
+        # 5. Post comments with the rest of the table
         if len(chunks) > 1:
             for i, chunk in enumerate(chunks[1:], 2):
-                pr.create_issue_comment(f"### 📋 Matriz de Auditoría (Parte {i})\n{chunk}")
+                pr.create_issue_comment(f"### 📋 Audit Matrix (Part {i})\n{chunk}")
 

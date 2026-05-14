@@ -15,7 +15,7 @@ def load_state() -> dict:
             with open(STATE_FILE, 'r') as f:
                 return json.load(f)
         except Exception as e:
-            log_event(f"[!] Error cargando state.json: {e}")
+            log_event(f"[!] Error loading state.json: {e}")
     return default_state
 
 def save_state(last_date: datetime):
@@ -26,9 +26,9 @@ def save_state(last_date: datetime):
     try:
         with open(STATE_FILE, 'w') as f:
             json.dump(state, f, indent=2)
-        log_event(f"[*] Estado guardado: última fecha procesada {last_date.date()}")
+        log_event(f"[*] State saved: last processed date {last_date.date()}")
     except Exception as e:
-        log_event(f"[!] Error guardando state.json: {e}")
+        log_event(f"[!] Error saving state.json: {e}")
 
 def get_last_date() -> datetime:
     state = load_state()
