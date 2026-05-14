@@ -5,12 +5,32 @@ on:
       - master
 jobs:
   build:
-    name: Deploy docs
+    name: Deploy Dual Versions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@v2
-      - name: Deploy MkDocs
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install MkDocs and Material
+        run: |
+          pip install mkdocs-material pymdown-extensions
+
+      # 1. Build V1 (Root)
+      - name: Build V1 Edition
+        run: mkdocs build -f mkdocs.yml -d site/
+
+      # 2. Build V2 (Subdirectory)
+      - name: Build V2 Elite Edition
+        run: mkdocs build -f v2-mkdocs.yml -d site/v2/
+
+      - name: Deploy to GitHub Pages
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
@@ -18,4 +38,3 @@ jobs:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
           EXTRA_PACKAGES: build-base
           REQUIREMENTS: requirements.txt
-

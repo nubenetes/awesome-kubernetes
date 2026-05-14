@@ -1,0 +1,55 @@
+site_name: "Nubenetes V2: Agentic Elite"
+site_url: "https://nubenetes.com/v2/"
+site_description: "The ultra-curated, AI-driven selection of top-tier Cloud Native resources for 2026."
+site_author: "Inaki Fernandez"
+copyright: "Copyright &copy; 2026 Inaki Fernandez"
+
+repo_name: "nubenetes/awesome-kubernetes"
+repo_url: "https://github.com/nubenetes/awesome-kubernetes"
+edit_uri: "edit/master/v2-docs/"
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Welcome: index.md
+  - Elite Selection:
+      - "Architecture & Trends": architecture.md
+      - "The 2026 Agentic Stack": agentic-stack.md
+      - "Core Infrastructure": infrastructure.md
