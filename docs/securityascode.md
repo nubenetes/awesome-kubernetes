@@ -76,10 +76,13 @@
 - [hashicorp.com: Securing Infrastructure In Application Pipelines](https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines/) Learn how to use policy as code in Terraform Cloud to securely deliver applications.
 
 ### Other OPA based solutions
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn) - *(Related to ai-agents-mcp topic)*
 
 - [Fugue: Container and Kubernetes. Runtime infrastructure security](https://www.fugue.co/container-kubernetes) - [darkreading.com: Fugue Adds Kubernetes Security Checks to Secure Infrastructure-as-Code](https://www.darkreading.com/dr-tech/fugue-adds-kubernetes-security-checks-to-secure-infrastructure-as-code) Developers can apply proper security controls as they programmatically deploy Kubernetes clusters.
 
 ## Other Policy as Code Scanning Tools
+  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF) - *(Related to ibm_cloud topic)*
+  - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/) - *(Related to devsecops topic)*
   - [Web-Check](https://web-check.xyz/) - *(Related to kubernetes-tools topic)*
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer/) - *(Related to docker topic)*
 
