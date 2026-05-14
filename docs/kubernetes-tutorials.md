@@ -95,6 +95,7 @@
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
 ## Learning Tools
+  - [Build Your Own X - Master Programming by Recreating Technologies](https://github.com/codecrafters-io/build-your-own-x) 🌟 - A GitHub repository featuring step-by-step guides to help developers learn by building fundamental technologies from scratch, such as databases, Docker, Git, and more.
 
 ### Neptune
 
