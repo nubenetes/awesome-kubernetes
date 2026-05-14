@@ -120,6 +120,7 @@
 - Networking: Ingress, Service, Network Policy
 
 ## Introduction
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/) - *(Related to ai topic)*
 
 - [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
@@ -366,6 +367,8 @@
 {==
 
 ### Kubernetes Knowledge Hubs
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) - *(Related to ai-agents-mcp topic)*
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) - *(Related to istio topic)*
 
 - [kubernetes.io](https://kubernetes.io/)
 - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)
@@ -407,6 +410,7 @@
 ==}
 
 ## Kubernetes Open Source Container Orchestation
+  - [Kubeterm: Graphical Kubernetes Management Tool](https://github.com/kbterm/kubeterm) - *(Related to kubernetes-tools topic)*
 
 - [kubedex.com](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
 - [medium.com: A Year Of Running Kubernetes at MYOB, And The Importance Of Empathy](https://medium.com/@jpcontad/a-year-of-running-kubernetes-as-a-product-7eed1204eecd)
