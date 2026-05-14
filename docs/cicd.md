@@ -170,6 +170,7 @@
 - [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/)
 
 ## CI/CD with AWS
+  - [Azure DevOps Terraform Pipeline: A Production-Ready Guide](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) 🌟 - This article provides a comprehensive guide to building a production-grade Azure DevOps YAML pipeline for Terraform deployments. It covers essential features like OIDC authentication, reusable templates, gated approvals, private module access, and dynamic state file naming, aiming for safety, reusability, security, and structure for multiple teams and environments.
 
 - [mediatemple.net: Cloud-Native CI/CD Workflows in AWS: 3 Use Cases](https://mediatemple.net/blog/cloud-hosting/cicd-workflows-aws-3-use-cases/)
 - [trek10.com: Enterprise CI/CD on AWS: a pragmatic approach](https://www.trek10.com/blog/pragmatic-enterprise-cicd) How can we work within the constraints of a large organization to develop CI/CD flows that help us deploy applications quickly, safely, and accountably on AWS?
@@ -183,6 +184,7 @@
 </center>
 
 ## Tools
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
 
 - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)
 - [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)
