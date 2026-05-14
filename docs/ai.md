@@ -46,6 +46,9 @@
 - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt/)
 
 ## LLMOps
+  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces/) 🌟 - Explora cómo utilizar carpetas de espacio de trabajo multi-repositorio en VS Code para mejorar la eficiencia de la IA en flujos de trabajo que abarcan múltiples repositorios de código.
+  - [Implementa un LLM similar a ChatGPT en PyTorch desde cero](https://github.com/rasbt/LLMs-from-scratch) 🌟 - Este repositorio ofrece el código necesario para desarrollar, preentrenar y ajustar un LLM tipo GPT, permitiendo construir un modelo de lenguaje grande (LLM) desde cero.
+  - [Claude 101 - Guías gratuitas para dominar Claude](https://claude101.com/) - Claude 101 ofrece una colección de guías gratuitas, desde principiante hasta experto, para aprender a utilizar y optimizar el uso de Claude, incluyendo técnicas avanzadas y su aplicación en codificación y colaboración.
 
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops/) LLMOps: MLOps for Large Language Models
@@ -77,6 +80,7 @@
 - [IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac/)
 
 ## Programming
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) 🌟 - Repositorio de GitHub que comparte habilidades y enfoques para ingenieros, diseñados para ser adaptables, componibles y usables con cualquier modelo de IA.
 
 - [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos)
 
@@ -107,6 +111,7 @@ security from the beginning with continuous testing, automation, zero trust, and
 - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws/)
 
 ## Other Tools
+  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - Una colección curada de los prompts de diapositivas más potentes para NotebookLM y Kael.im, procedentes del mundo creativo.
 
 - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) A generative AI extension for JupyterLab
 - [github.com/XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold
