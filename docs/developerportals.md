@@ -47,6 +47,10 @@
 - [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)
 
 ## API Landscape and API Marketplaces
+  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) - *(Related to ai topic)*
+  - [Claude 101](https://claude101.com/) - *(Related to ai topic)*
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - *(Related to ai topic)*
 
 - [API Landscape](https://www.apidays.co/api-landscape)
 
