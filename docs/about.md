@@ -193,3 +193,4 @@ Let's improve both the private & public IT sector and the opportunities in large
 <center>
 [![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
 </center>
+  - [Schema.org](https://schema.org) - Schema.org es un proyecto comunitario para crear y mantener esquemas de datos estructurados para Internet, desarrollado por Google, Microsoft, Yahoo y Yandex.
