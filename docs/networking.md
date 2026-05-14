@@ -15,6 +15,7 @@
 8. [Tweets](#tweets)
 
 ## Introduction
+  - [Which Azure network design is cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - *(Related to azure topic)*
 
 - [networkwalks.com: TCP/IP Model](https://networkwalks.com/tcp-ip-model/)
 - [devopscube.com: IP Address Tutorial For Beginners [IPV4 and IPV6 Protocols]](https://devopscube.com/ip-address-tutorial/)
