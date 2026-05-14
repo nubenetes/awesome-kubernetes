@@ -108,6 +108,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 ----
 
 ## Cloud Computing job market in 2016
+  - [Schema.org](https://schema.org) - Schema.org es un esfuerzo colaborativo para crear y mantener vocabularios de esquemas para datos estructurados en Internet, utilizado por millones de dominios web y aplicaciones.
 
 ??? note "Click to expand!"
 
