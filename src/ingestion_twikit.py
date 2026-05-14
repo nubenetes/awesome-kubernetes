@@ -9,6 +9,8 @@ from datetime import datetime
 from twikit import Client
 from src.config import MADRID_TZ, TWITTER_USERNAME, TWITTER_EMAIL, TWITTER_PASSWORD
 
+from src.logger import log_event
+
 class SocialDataExtractor:
     def __init__(self, target_account: str = "nubenetes"):
         self.client = Client('en-US')
@@ -24,7 +26,7 @@ class SocialDataExtractor:
         icons = {True: "✅ ÉXITO", False: "❌ FALLO", None: "⚡ INTENTO"}
         entry = f"**{method}** - {icons.get(success, 'ℹ️ INFO')}: {msg}"
         self.audit_trail.append(entry)
-        print(entry)
+        log_event(entry)
 
     def _extract_urls_from_text(self, text: str) -> list[str]:
         urls = re.findall(r'https?://[^\s<>\"]+|www\.[^\s<>\"]+', text)
