@@ -22,8 +22,19 @@ sources:
       - "OpenAI"
       - "AnthropicAI"      # Claude
       - "GoogleDeepMind"   # Gemini
-      - "Microsoft"        # Copilot
+      - "GoogleAI"         # Gemini / Research
+      - "LoganK"           # Logan Kilpatrick (Google AI / Gemini DX)
+      - "NotebookLM"       # Official NotebookLM
       - "LangChainAI"      # Agentic frameworks
+      - "llama_index"      # RAG & Agents
+
+  - topic: "Developer Productivity & AI Agents"
+    accounts:
+      - "GitHub"           # Copilot / Copilot CLI
+      - "Microsoft"        # Copilot
+      - "Cursor_AI"        # Agentic IDE
+      - "natfriedman"      # AI Expert (Former GitHub CEO)
+      - "karpathy"         # AI Expert (Andrej Karpathy)
 
   - topic: "Data & Big Data"
     accounts:
