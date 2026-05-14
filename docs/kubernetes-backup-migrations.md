@@ -113,6 +113,8 @@
     - [youtube: Migrating JBoss EAP Applications to Kubernetes with Source-to-Image (S2I)](https://www.youtube.com/watch?v=9hDdg_Beui4&ab_channel=Konveyor)
 
 ## Other Tools
+  - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery/) 🌟 - A comprehensive guide to recovering standalone RKE2 clusters not managed by Rancher, covering scenarios like etcd quorum loss, restoring from backup, and troubleshooting node join issues.
+  - [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell/) - This article provides a PowerShell script to automate SQL Server backups. It outlines the script's functionality, including generating backups for specified databases, prioritizing larger ones, and moving the backup files to a designated folder. Key configuration elements like SQL Server IP and instance name, user credentials, excluded databases, and log file path are detailed.
 
 - [k8up.io](https://k8up.io) K8up is a Kubernetes Operator that helps you:
     - Backup all PVCs marked as ReadWriteMany or with a specific label
@@ -144,4 +146,3 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01qcYSck1c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
-
