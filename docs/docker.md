@@ -233,6 +233,7 @@
     - Building different images per environment.
 
 ## Docker Security
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer/) - This blog post from Docker introduces their new line of hardened images designed to enhance security for developers by incorporating best practices and reducing the attack surface.
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
@@ -283,6 +284,7 @@
 - [cloudowski.com: How to modify containers without rebuilding their image [ARCHIVED]]( http://web.archive.org/web/20210731130210/https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding//)
 
 ## Docker Tools
+  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) - *(Related to kubernetes-tools topic)*
 
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
 - [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin/)
