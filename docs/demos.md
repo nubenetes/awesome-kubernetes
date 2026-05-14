@@ -153,6 +153,7 @@
 - [todaywasawesome/oss-apps: OSS Applications](https://github.com/todaywasawesome/oss-apps) Example repo to show GitOps lifecycle from staging to production with canary and blue/green deployments. This is a GitOps repo that acts as the source of truth for the open source team at Codefresh demoing GitOps apps.
 
 ## Kubernetes Demos
+  - [Kubeterm: Graphical Kubernetes Management Tool](https://github.com/kbterm/kubeterm) - *(Related to kubernetes-tools topic)*
 
 - [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
 - [==Free Kubernetes== 🌟🌟](https://github.com/learnk8s/free-kubernetes/) **List of free Trials/Credit for Managed Kubernetes Services.**
