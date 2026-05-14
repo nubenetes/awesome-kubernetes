@@ -13,6 +13,10 @@ Resources, tools, and projects related to autonomous AI agents, Model Context Pr
 - [modelcontextprotocol.io: MCP Official Documentation](https://modelcontextprotocol.io/introduction)
 
 ## AI Agents
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) - *(Related to ai topic)*
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) 🌟 - This blog post announces the launch of Google's official Agent Skills repository, hosted on GitHub. Agent Skills are designed to provide AI models with condensed expertise in specific technologies or tasks, written in a simple, open Markdown format. This approach helps reduce 'context bloat' in AI agents by loading information only as needed, contrasting with the direct use of Model Context Protocol (MCP) servers. The initial repository includes thirteen skills focused on Google Cloud technologies such as AlloyDB, BigQuery, Cloud Run, Cloud SQL, Firebase, Gemini API, and Google Kubernetes Engine (GKE), as well as skills related to the Well-Architected Pillars (Security, Reliability, Cost Optimization) and onboarding recipes.
+  - [Google Agents CLI for Building and Deploying AI Agents on Google Cloud](https://github.com/google/agents-cli) 🌟 - The `agents-cli` project provides a command-line interface and a set of skills designed to empower coding assistants (like Gemini, Claude Code, Codex) to create, evaluate, and deploy AI agents on Google Cloud. It aims to simplify the process of building enterprise-grade agents by providing the necessary commands and integrating with Google Cloud services.
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - *(Related to ai topic)*
 - [HolmesGPT (Robusta)](https://github.com/robusta-dev/holmesgpt) - An open-source AI agent for investigating Prometheus alerts and Kubernetes incidents. It uses LLMs to triage issues and provide recommended fixes.
 - [Skyvern](https://github.com/Skyvern-ai/Skyvern) - Automate browser-based workflows using LLMs and Computer Vision.
 
