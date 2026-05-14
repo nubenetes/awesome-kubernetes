@@ -460,3 +460,5 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">HTTP HEAD method. When is it used?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1645899271315808257?ref_src=twsrc%5Etfw">April 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [REST API Handbook | Developer.WordPress.org](https://api.w.org/) - Una guía sobre la API REST de WordPress, que permite a las aplicaciones interactuar con sitios de WordPress enviando y recibiendo datos JSON.
