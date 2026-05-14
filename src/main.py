@@ -209,7 +209,9 @@ async def master_orchestrator():
                     if len(new_content) > len(content):
                         modified_files_content[file_path] = new_content
                         with open(file_path, 'w') as f: f.write(new_content)
-                        log_event(f"  [>>>] INYECTADO: {asset['url']}")
+                        log_event(f"  [>>>] ÉXITO: Inyectado en docs/{category}.md -> {asset['url']}")
+                    else:
+                        log_event(f"  [!] ADVERTENCIA: La inyección no modificó el archivo para {asset['url']}")
                 except Exception as e:
                     log_event(f"  [!] Error inyectando {asset['url']}: {e}")
 

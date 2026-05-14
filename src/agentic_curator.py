@@ -105,7 +105,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80,
                     "reasoning": reasoning
                 }
-                log_event(f"  [+] ACEPTADO: \"{data['title']}\" -> {valid_cats[0]} (Score: {score})")
+                log_event(f"  [+] ACEPTADO: \"{data['title']}\" (Score: {score})")
+                log_event(f"      Destino: docs/{valid_cats[0]}.md")
                 log_event(f"      Descripción: {data['desc']}")
                 log_event(f"      Motivo IA: {reasoning}")
 
