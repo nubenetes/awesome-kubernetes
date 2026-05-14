@@ -56,11 +56,17 @@
 - "As an AWS user, I often want to know the cheapest options for compute resources given some project-specific criteria. So, I made a tool to show me that data in a way that is useful to me. Maybe it will be useful to you" @ericwastl
 
 ## AWS Cost Optimizations
+  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - *(Related to aws topic)*
 
 - [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)
 - [aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common Architectures](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/)
 
 ## Azure Cost Governance
+  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - *(Related to azure topic)*
+  - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) 🌟 - This blog post explores how to design and automate a FinOps-ready Azure Landing Zone by embedding cost governance, tagging, and budgets from the initial setup using infrastructure-as-code and Azure-native services. It details core infrastructure components for FinOps enablement, including management groups, subscriptions, resource tags, budgets, alerts, Azure Policy, and Log Analytics. The post also provides a walkthrough of automating FinOps controls with PowerShell and ARM templates.
+  - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) 🌟 - This blog post from the Microsoft Community Hub's FinOps Blog introduces a new self-paced training plan on Microsoft Learn, 'Manage Azure and AI investments for Cost Efficiency.' It aims to equip teams with the skills to manage cloud spending, build financial best practices into AI and cloud computing, and foster a culture of cost efficiency. The post highlights how Azure savings plans and FinOps principles can lead to significant cost savings, using The Carlsberg Group as a case study.
+  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization/) - *(Related to serverless topic)*
+  - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) - *(Related to azure topic)*
 
 - [==github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide== 🌟](https://github.com/dolevshor/azure-finops-guide) Centralizes Azure FinOps information and tools to enabling a better understanding and optimization of cloud costs
 - [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html) Learn how to gain full control of your Azure costs by creating a continuous cost governance and optimization process. This comprehensive Packt e-book covers essential topics like cloud cost management and sustainable modeling of cloud expenses.
@@ -97,6 +103,7 @@
 
 
 ## Kubernetes Governance and Cost Management for the Cloud-Native Enterprise
+  - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless/) - *(Related to serverless topic)*
 
 - [medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical Pod Autoscaler](https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301) In this article, you'll learn how the team at Compass managed to reduce the need for over 50 per cent of the total nodes in each cluster (halving their compute costs) by using the vertical pod autoscaler
 
@@ -106,6 +113,8 @@
 - [replex.io: An Introduction to Kubernetes FinOps](https://www.replex.io/blog/an-introduction-to-kubernetes-finops) FinOps is a cross domain discipline that represents a set of tools, best practices and processes aimed towards making software and infrastructure more cost effective. In this article we provide an introduction to Kubernetes Finops.
 
 ## Cost Optimization Tools
+  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to terraform topic)*
+  - [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops) - OpenOps is a no-code platform designed for FinOps automation, integrating AI capabilities to manage cloud costs and operations efficiently. It aims to simplify financial operations in cloud environments.
 
 - [CAST AI](https://cast.ai/) cuts your cloud bill automatically so engineers can focus on building a better product
 - [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot) The serverless cost optimization bot. Bill enables AWS customers to proactively monitor their infrastructure costs and identify unforeseen expenses in a timely manner. Bill wants to prevent AWS customers from receiving bad surprises in their monthly bill. Therefore he addresses two primary problem areas:
