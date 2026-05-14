@@ -47,6 +47,8 @@
 - [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)
 
 ## API Landscape and API Marketplaces
+  - [Claude 101: Free Guides to Master Claude](https://claude101.com/) - *(Related to ai topic)*
+  - [Public APIs Directory](https://publicapis.io/) - *(Related to api topic)*
 
 - [API Landscape](https://www.apidays.co/api-landscape)
 
@@ -64,6 +66,12 @@
 
 
 ## API Managers with API Gateways & Developer Portals
+  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces/) - *(Related to ai topic)*
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - *(Related to ai-agents-mcp topic)*
+  - [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) - *(Related to aws-architecture topic)*
+  - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) - *(Related to ai topic)*
+  - [Warp: The Agentic Development Environment](https://www.warp.dev/) - *(Related to kubernetes-tools topic)*
+  - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it/) - This article explains what a GitHub Wiki is, its benefits for project documentation, and provides a step-by-step guide on how to enable, create, and locally clone a wiki for a GitHub repository. It highlights that wikis are integrated with GitHub repositories and primarily use Markdown for content creation.
 
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
 
@@ -221,6 +229,7 @@
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
 
 ## Tweets
+  - [Programming with GitHub Copilot Agent Mode](https://t.co/FhNsA9iy4Q) - *(Related to ai topic)*
 
 <details>
   <summary>Click to expand!</summary>
