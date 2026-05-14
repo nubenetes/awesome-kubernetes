@@ -18,10 +18,10 @@
 16. [SaaS](#saas)
 17. [Multi Cloud](#multi-cloud)
 18. [Cloud Automation](#cloud-automation)
-     1. [Automation Glossary](#automation-glossary)
+    1. [Automation Glossary](#automation-glossary)
 19. [Microservices Best Practices and Design Patterns](#microservices-best-practices-and-design-patterns)
 20. [Microservice Patterns](#microservice-patterns)
-     1. [CQRS Pattern](#cqrs-pattern)
+    1. [CQRS Pattern](#cqrs-pattern)
 21. [Microservices Anti Patterns](#microservices-anti-patterns)
 22. [Micro Frontend Architecture. Microservices for the Frontend](#micro-frontend-architecture-microservices-for-the-frontend)
 23. [Backends for Frontends](#backends-for-frontends)
@@ -36,21 +36,22 @@
 32. [PaaS](#paas)
 33. [Modular Monolith](#modular-monolith)
 34. [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
-35. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
-36. [Microservices to Monolith](#microservices-to-monolith)
-37. [Openshift VS Kubernetes](#openshift-vs-kubernetes)
-38. [Career Path](#career-path)
-39. [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
-40. [Software Development Models](#software-development-models)
-41. [Domain Driven Design DDD](#domain-driven-design-ddd)
-42. [Software Development Tools](#software-development-tools)
-43. [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
-44. [Software in Automotive Industry](#software-in-automotive-industry)
-45. [Data Centers in Spain](#data-centers-in-spain)
-46. [Bunch of Images](#bunch-of-images)
-47. [Videos](#videos)
-48. [Devel Videos](#devel-videos)
-49. [Tweets](#tweets)
+35. [kubernetes-tutorials](#kubernetes-tutorials)
+36. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
+37. [Microservices to Monolith](#microservices-to-monolith)
+38. [Openshift VS Kubernetes](#openshift-vs-kubernetes)
+39. [Career Path](#career-path)
+40. [Full Stack Developer's Roadmap](#full-stack-developer's-roadmap)
+41. [Software Development Models](#software-development-models)
+42. [Domain Driven Design DDD](#domain-driven-design-ddd)
+43. [Software Development Tools](#software-development-tools)
+44. [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
+45. [Software in Automotive Industry](#software-in-automotive-industry)
+46. [Data Centers in Spain](#data-centers-in-spain)
+47. [Bunch of Images](#bunch-of-images)
+48. [Videos](#videos)
+49. [Devel Videos](#devel-videos)
+50. [Tweets](#tweets)
 
 ## Introduction
 
@@ -501,6 +502,9 @@
 - [kamilgrzybek.com: Modular Monolith: A Primer 🌟](https://www.kamilgrzybek.com/design/modular-monolith-primer/)
 
 ## From Java EE To Cloud Native
+
+## kubernetes-tutorials
+  - [Build Your Own X - Master Programming by Recreating Technologies](https://github.com/codecrafters-io/build-your-own-x) - *(Related to kubernetes-tutorials topic)*
 
 - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)
 - [==lightbend.com: From Java EE To Cloud Native: The End Of The Heavyweight Era== 🌟](https://www.lightbend.com/white-papers-and-reports/java-ee-to-cloud-native-modernization)
