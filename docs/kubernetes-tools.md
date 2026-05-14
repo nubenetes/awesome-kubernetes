@@ -137,6 +137,7 @@
 - [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
+  - [Kubeterm: Herramienta Gráfica para la Gestión de Kubernetes](https://github.com/kbterm/kubeterm) - Kubeterm es una herramienta gráfica de gestión para clústeres de Kubernetes que se ejecuta localmente, sin necesidad de instalar nada en el clúster, y soporta tanto dispositivos de escritorio como móviles.
   - [Web Terminal Operator: Tips y Trucos](https://www.techqna.io/2024/09/web-terminal-operator-tips-tricks-for.html) - Explora consejos y trucos prácticos para utilizar el operador de terminal web en entornos Kubernetes.
 
 - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need
