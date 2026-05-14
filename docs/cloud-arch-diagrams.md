@@ -42,6 +42,7 @@
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
 ## Architecture Icons
+  - [Cloud Canvas](https://cloudcanvas.co/) - Cloud Canvas is a diagramming tool that allows users to create cloud architecture diagrams with pre-built AWS, Azure, and GCP icons.
 
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)
 - [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now/)
