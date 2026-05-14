@@ -95,6 +95,7 @@
 </center>
 
 ## Azure
+  - [Which Azure network design is cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - A blog post detailing a cost comparison of different Azure network designs, specifically hub-and-spoke vs. Azure Virtual WAN. It highlights the importance of considering data processing and traffic peering costs, suggesting that Virtual WAN can be cheaper for many scenarios with heavy VNet-to-VNet flows.
 
 - [Microsoft Azure](https://azure.microsoft.com/)
 - [Microsoft Docs](https://docs.microsoft.com/)
@@ -212,6 +213,9 @@
 - [techcommunity.microsoft.com: Infra in Azure for Developers - The What](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/infra-in-azure-for-developers-the-what/ba-p/4026102)
 
 ## Azure Landing Zones
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) 🌟 - A comprehensive guide on automating Azure subscription creation at scale using Azure Verified Modules (AVM) with Terraform. It covers identity and billing permissions, role assignments, and best practices aligned with Azure Landing Zones, addressing challenges like inconsistent management group placement, delayed policy enforcement, and RBAC assignment issues.
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) - *(Related to iac topic)*
+  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - This article from Microsoft Learn's Cloud Adoption Framework provides guidance and recommendations for organizations looking to transition their existing Azure environments, including current resource deployments and management group structures, to align with the Azure landing zone reference architecture. It covers considerations for moving resources within Azure and evaluating transition plans.
 
 - [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
 - [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-landing-zones-accelerators-for-bicep-and-terraform/ba-p/4029866)
@@ -252,6 +256,7 @@
 - [hlokensgard.no: Azure Virtual Network Manager – A game changer or just a costly upgrade?](https://hlokensgard.no/2024/07/01/azure-virtual-network-manager-a-game-changer-or-just-a-costly-upgrade/)
 
 ## Blogs
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/) - *(Related to ai topic)*
 
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com)
 - [thomasthornton.cloud: Thomas Thornton](https://thomasthornton.cloud)
@@ -304,6 +309,7 @@
 - [==docs.microsoft.com: Cloud Design Patterns== 🌟](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
 ## ARM Templates
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Live Environments](https://github.com/Azure/AZVerify) - AZVerify is a tool designed to synchronize disparate sources of truth in Azure cloud environments. It leverages GitHub Copilot's capabilities to connect Azure diagrams, Bicep templates, and the live Azure environment, helping to prevent drift and maintain consistency. It supports integration with VS Code extensions like Draw.io and MCP servers.
 
 - [==azure.microsoft.com: Azure Quickstart Templates==](https://azure.microsoft.com/en-us/resources/templates/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
 - [thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates](https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates/)
@@ -315,6 +321,7 @@
 - [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/dev-test-microservice)
 
 ## Azure DevOps
+  - [Azure DevOps Terraform Pipeline: A Production-Ready Guide](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) - *(Related to cicd topic)*
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 - [Azure DevOps Labs 🌟](https://www.azuredevopslabs.com/)
@@ -416,6 +423,7 @@
 - [youtube: Databricks CI/CD: Azure DevOps Pipeline + DABs](https://www.youtube.com/watch?v=SZM49lGovTg) Many organizations choose Azure DevOps for automated deployments on Azure. When deploying to Databricks you can take similar deploy pipeline code that you use for other projects but use it with Databricks Asset Bundles. This video shows most of the steps involved in setting this up by following along with a blog post that shares example code and steps.
 
 ## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra
+  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - *(Related to terraform topic)*
 
 - [==stackoverflow.com: What is the difference between an Azure tenant and Azure subscription?==](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)
 - [==marckean.com: Azure Vs Azure AD – Accounts / Tenants / Subscriptions==](https://marckean.com/2016/06/01/azure-vs-azure-ad-accounts-tenants-subscriptions/)
@@ -484,6 +492,7 @@
 - [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html)
 
 ## Azure Application Gateway
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) - *(Related to istio topic)*
 
 - [==nathannellans.com: Azure Application Gateway - Part 1== 🌟](https://www.nathannellans.com/post/azure-application-gateway-part-1)
 - [acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs](https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm/)
