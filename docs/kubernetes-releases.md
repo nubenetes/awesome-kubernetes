@@ -1,5 +1,8 @@
 # Kubernetes Releases
 
+## Kubernetes Operators and Controllers
+  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) - *(Related to kubernetes-operators-controllers topic)*
+
 - [==relnotes.k8s.io: Kubernetes Release Notes==](https://relnotes.k8s.io) **Tip: Click on "deprecation" and select "releaseVersions: 1.x**
 - [sysdig.com: What’s new in Kubernetes 1.20?](https://sysdig.com/blog/whats-new-kubernetes-1-20/)
 - [magalix: What You Should Know about Kubernetes 1.20](https://www.magalix.com/blog/what-you-should-know-about-kubernetes-1.20)
