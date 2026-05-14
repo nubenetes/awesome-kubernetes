@@ -30,6 +30,9 @@
 - [infoq.com: AWS Updates the Well-Architected Framework](https://www.infoq.com/news/2023/04/aws-well-architected-framework/)
 
 ## AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
+  - [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) - This blog post explores the application of Clean Architecture principles to frontend development, focusing on how to structure applications for better maintainability, testability, and scalability. It discusses separating concerns and organizing code in a way that promotes independence from UI frameworks and external services.
+  - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively) - *(Related to aws topic)*
+  - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer/) 🌟 - A sample generative AI tool designed to evaluate Infrastructure as Code (IaC) definitions and architecture diagrams against AWS Well-Architected best practices. This repository provides a practical approach to leveraging AI for enhancing cloud architecture quality and compliance.
 
 - [AWS Architecture Blog](https://www.awsarchitectureblog.com)
 - [AWS Official Blog](http://blogs.aws.amazon.com/)
