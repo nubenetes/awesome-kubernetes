@@ -72,6 +72,7 @@ based on your test scripts.
 - [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.lambdatest.com/blog/cypress-vs-selenium-comparison/)
 
 ## Microsoft Playwright
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - *(Related to azure topic)*
 - [automationqahub.com: How to Configure Playwright](https://automationqahub.com/how-to-install-playwright-tool/)
 - [automationqahub.com: How to build a Playwright Page Object Model](https://automationqahub.com/how-to-build-playwright-page-object-model/)
 - [automationqahub.com: How to Configure multiple environments in Playwright](https://automationqahub.com/how-to-configure-multiple-environments-in-playwright/)

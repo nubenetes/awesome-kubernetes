@@ -325,6 +325,7 @@
 - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)
 
 ## Linux processes
+  - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) - *(Related to kubernetes topic)*
 
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)
 
@@ -337,6 +338,7 @@
 - [github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox 🌟](https://github.com/cyberus-technology/virtualbox-kvm) This repository contains a KVM backend for the open source virtualization tool VirtualBox. With this backend, Linux KVM is used as the underlying hypervisor.
 
 ## Linux and Kubernetes
+  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to kubernetes-troubleshooting topic)*
 
 - [tldp.org: The Linux System Administrator's Guide 🌟](https://tldp.org/LDP/sag/html/index.html)
 - [How Linux PID namespaces work with containers 🌟](https://www.redhat.com/sysadmin/linux-pid-namespaces)

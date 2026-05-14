@@ -46,6 +46,8 @@
 - [Conmon](https://github.com/containers/conmon) An OCI container runtime monitor.
 
 ## Container Managers / Container Runtimes (CRI runtimes)
+  - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) - *(Related to kubernetes topic)*
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/) - An article from Build5Nines providing a detailed overview of Podman, an open-source container engine developed by Red Hat. It explains Podman's key features such as its daemonless architecture, rootless execution, native pod support, and Docker-compatible CLI, and contrasts it with Docker's daemon-based model. The article aims to help developers transition between the two container management tools.
 
 - [Kubernetes.io: Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 - [Docker](https://www.docker.com/products/container-runtime)
@@ -138,6 +140,7 @@
 - [developers.redhat.com: How to pick the right container base image](https://developers.redhat.com/blog/2021/04/13/how-to-pick-the-right-container-base-image/)
 
 ## Container Tools
+  - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) - *(Related to kubernetes-tools topic)*
 
 - [How to use the --privileged flag with container engines](https://www.redhat.com/sysadmin/privileged-flag-container-engines) Let's take a deep dive into what the --privileged flag does for container engines such as Podman, Docker, and Buildah.
 - [itnext.io: Docker, Kaniko, Buildah](https://itnext.io/docker-kaniko-buildah-209abdde5f94) Different ways to build container images

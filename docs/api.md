@@ -234,6 +234,7 @@
 - [danhacks.com: REST vs. GraphQL vs. gRPC](https://www.danhacks.com/software/grpc-rest-graphql.html)
 
 ## Tools
+  - [APIDog](https://apidog.com/) - APIDog is a platform that allows users to manage and test APIs. It provides features for API documentation, testing, and collaboration.
 
 - [OpenAPI Generator 🌟](https://openapi-generator.tech/) Generate clients, servers, and documentation from OpenAPI 2.0/3.x documents
 - [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)
@@ -285,6 +286,7 @@
 - [==medium.com/@sajjadfazlani: How to protect your APIs and Microservices?== 🌟](https://medium.com/@sajjadfazlani/how-to-protect-your-apis-and-microservices-f22b99ce2322) **The simplest answer is to enforce 1) Zero Trust and 2) Mitigate the critical security vulnerabilities by considering the OWASP top 10 recommendations.**
 
 ## Free Web Services (Public APIs)
+  - [Public APIs Directory](https://publicapis.io/) - A curated directory of over 1000 free public REST APIs for developers to discover and integrate into their projects. It allows browsing by category, comparing alternatives, and accessing code examples.
 
 - [free-web-services.com](http://free-web-services.com/)
 - [SwaggerHub: Free Web Service](https://swagger.io/tools/swaggerhub/)

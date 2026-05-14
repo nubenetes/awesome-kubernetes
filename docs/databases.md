@@ -215,6 +215,7 @@
 - https://github.com/oracle/oracle-database-operator
 
 ## SQL Server
+  - [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell/) - *(Related to kubernetes-backup-migrations topic)*
 
 - [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/)
 - [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/)
@@ -326,6 +327,8 @@
 - [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/) VictoriaLogs is an open source database for logs that uses up to 30x less RAM and up to 15x disk space than Elasticsearch has just relased several new features to celebrate their one year anniversary
 
 ## Tools
+  - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) - *(Related to kubernetes-tools topic)*
+  - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) - *(Related to kubernetes-tools topic)*
 
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) Sql mock driver for golang to test database interactions

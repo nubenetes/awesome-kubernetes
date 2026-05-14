@@ -59,6 +59,7 @@
 35. [Tweets](#tweets)
 
 ## Jenkins
+  - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) - A personal guide detailing the process of updating Jenkins servers, particularly for those less experienced. It covers pre-work like plugin management and changelog review, backup strategies for security roles and user configurations, and emphasizes taking snapshots before starting the upgrade.
 
 - [CloudBees](https://www.cloudbees.com/)
 - [Jenkins.io (new Jenkins 2.0 site) 🌟](https://jenkins.io/)
@@ -184,6 +185,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 </center>
 
 ## Evolution of open source CI/CD Tools
+  - [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) - *(Related to cicd topic)*
 
 - [Presentation: NADOG - Evolution of open source CI/CD tools - Oleg Nenashev 🌟](https://docs.google.com/presentation/d/17bQ30ycAUB-k4YZ4dC23cxNiNChvRRQO7_6FNGcS0j4/edit?usp=sharing)
 

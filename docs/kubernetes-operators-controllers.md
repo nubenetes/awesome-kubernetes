@@ -14,6 +14,8 @@
 12. [Videos](#videos)
 
 ## Introduction
+  - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue) 🌟 - This documentation introduces Red Hat Build of Kueue, a Kubernetes-native batch job orchestrator. It explains how Kueue manages and schedules batch workloads by providing features like fair-sharing, preemption, and resource aggregation, making it suitable for AI and high-performance computing (HPC) workloads.
+  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/) 🌟 - This article explores the role of Kubernetes Operators in modern platform engineering, highlighting their advantages over traditional Infrastructure as Code (IaC) for managing complex applications and infrastructure within the Kubernetes control plane. It discusses how operators encapsulate expertise for tasks like backups, upgrades, and scaling, integrating seamlessly with tools like Argo and Flux for enhanced drift detection and reconciliation.
 
 - [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
 - [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
@@ -196,6 +198,9 @@
 - [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.
 
 ## Cluster Addons
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) - *(Related to kubernetes-networking topic)*
+  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/) - *(Related to azure topic)*
+  - [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/blog/azureforisvandstartupstechnicalblog/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) - *(Related to kubernetes-security topic)*
 
 - [Cluster Addons 🌟](https://github.com/kubernetes-sigs/cluster-addons) With cluster addon operators, we are exploring a kubernetes-native way of managing addons using CRDs(Custom Resource Definitions) and controllers where the controllers encode how best to manage the addon. Installing and managing an addon could be as simple as creating a custom resource.
 
@@ -210,6 +215,10 @@
 - [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/) transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic [KPIs](https://kpi.org/KPI-Basics).
 
 ## Writing Kubernetes Operators and Controllers
+  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) - This is a release note for Kueue, an open-source Kubernetes project designed for workload management and scheduling. Version v0.14.0 includes changes such as the removal of deprecated annotations related to ProvisioningRequest, which is important for users upgrading from previous versions. It also highlights the necessity for ProvisioningRequest reconcilers to be updated to avoid issues.
+  - [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation/) - *(Related to ai topic)*
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/) - *(Related to kubernetes-troubleshooting topic)*
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/) - *(Related to ansible topic)*
 
 - [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 - [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)
@@ -252,3 +261,4 @@
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ha3LjlD6g7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
+  - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes/) - *(Related to kubernetes-tools topic)*

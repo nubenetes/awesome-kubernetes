@@ -173,10 +173,13 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [allthingsdistributed.com: Redefining application communications with AWS App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)
 
 ## Istio and AWS EKS
+  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro/) - *(Related to kubernetes-tutorials topic)*
 
 - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
 
 ## Istio Tools
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) 🌟 - This post explores the integration of Azure Application Gateway for Containers (AGC) with Istio, a Kubernetes service mesh. It details how AGC can leverage Istio to provide end-to-end TLS encryption for traffic between AGC and application pods, even if the applications themselves do not natively support TLS. This is part of a series on AGC, focusing on security aspects and simplified TLS implementation.
+  - [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/) 🌟 - A comprehensive guide on implementing Istio as a Service Mesh in a Kubernetes environment, covering installation methods (Helm), enabling mTLS, and ensuring sidecar injection into pods. It highlights the common reasons for adopting a service mesh, such as encryption, traffic visibility, and network resilience.
 
 - [Istio Performance/Stability Testing](https://github.com/istio/tools/blob/master/perf/README.md)
 

@@ -22,6 +22,8 @@
 - [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser/)
 
 ## Useful websites for web developers
+  - [useHooks - React Hooks Library](https://usehooks.com/) 🌟 - A comprehensive collection of modern, server-safe React Hooks designed to simplify common UI and state management tasks. Includes hooks for debouncing, local storage, window resizing, and more, with examples and easy npm installation.
+  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) - *(Related to devel-sites topic)*
 
 - [canva.com](https://www.canva.com/) Create cover images, graphs, videos and more
 - [mockuper.net](https://mockuper.net/) Mockups generator
@@ -44,6 +46,7 @@
 11. Other things good to know but don't need to necessarily master as a beginner: closures, Ajax requests, modules. To listen to the episode that inspired this thread: [The Fundamentals — JS](https://syntax.fm/show/162/the-fundamentals-js)
 
 ## Node.js
+  - [Koa.js](https://koa) - *(Related to web-servers topic)*
 
 - [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)
 - [nodejs.org](https://nodejs.org/)
@@ -57,6 +60,7 @@
 - [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/)
 
 ## More Frontend JavaScript Frameworks
+  - [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) - *(Related to aws-architecture topic)*
 
 - [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021/)
 - [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies)  Things I think about when I write React code

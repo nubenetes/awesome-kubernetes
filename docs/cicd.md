@@ -20,6 +20,7 @@
 18. [Tweets](#tweets)
 
 ## Introduction
+  - [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) - *(Related to introduction topic)*
 
 - [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
 - [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps)
@@ -111,6 +112,8 @@
 - [hart-michael.medium.com: Why You Need Continuous Deployment](https://hart-michael.medium.com/why-you-need-continuous-deployment-93d7b5936523)
 
 ## CI/CD Pipelines With Kubernetes
+  - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) - *(Related to iac topic)*
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
 
 - [==dzone.com: An Overview of CI/CD Pipelines With Kubernetes==](https://dzone.com/articles/an-overview-of-cicd-pipelines-with-kubernetes) Take a look at CI/CD approaches in a Kubernetes ecosystem, best practices for implementing an efficient CI/CD framework, and popular open-source CI/CD tools.
 - [==thenewstack.io: Kubernetes CI/CD Pipelines Explained==](https://thenewstack.io/kubernetes-ci-cd-pipelines-explained/) Building an effective CI/CD pipeline requires diligent technical analysis, a generous amount of planning and choosing the right set of tools.
@@ -120,10 +123,16 @@
 - [==betanews.com: Overcoming observability challenges in the CI/CD Pipeline==](https://betanews.com/2022/01/26/overcoming-observability-challenges/)
 
 ## Code Review
+  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits/) - *(Related to git topic)*
+  - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai/) - This article details how to leverage Azure OpenAI's large language models to automatically generate pull request descriptions in Azure DevOps. It outlines a process where Azure Pipelines, triggered by pull request creation, use Azure DevOps variables to interact with the Azure OpenAI API. The LLM summarizes code changes into natural language, which is then programmatically set as the pull request description via the Azure DevOps API. This aims to enhance developer experience by providing context without manual effort.
 
 - [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like)
 
 ## Security in CI/CD
+  - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc/) 🌟 - This blog post explains the benefits of using OpenID Connect (OIDC) for securing GitHub Actions workflows when deploying to Azure. It provides a step-by-step guide on setting up OIDC authentication using Azure CLI, including creating an Azure AD application with federated credentials, and demonstrates its implementation within a GitHub repository workflow. The article highlights how OIDC eliminates the need for long-lived secrets in GitHub, thus enhancing security and simplifying credential management.
+  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - *(Related to azure topic)*
+  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) - *(Related to aws-security topic)*
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses/) - *(Related to azure topic)*
 
 - [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/)
 - [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd/)
@@ -154,10 +163,14 @@
 </center>
 
 ## Pipeline Patterns
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) 🌟 - A comprehensive guide to building a production-ready Azure DevOps pipeline for Terraform, focusing on safety, reusability, security, and structure. It covers OIDC authentication, reusable templates, gated approvals, private module access, and dynamic state file naming, presenting a robust pattern beyond basic 'plan and apply' scripts.
+  - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev/) - *(Related to ai-agents-mcp topic)*
 
 - [harness.io: Pipeline Patterns for CI/CD Pipelines 🌟](https://harness.io/blog/devops/deployment-pipeline-patterns/) **Button Push Pattern, Test Automation Pattern, Full Approval Pattern.**
 
 ## CI/CD with Kubernetes
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254) - *(Related to azure topic)*
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) - *(Related to iac topic)*
 
 - [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
 - [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai/)
@@ -170,6 +183,9 @@
 - [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/)
 
 ## CI/CD with AWS
+  - [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on/) - *(Related to kubernetes-tools topic)*
+  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com/) 🌟 - RunsOn provides a self-hosted solution for GitHub Actions runners, allowing you to run them within your own AWS account. This enables significant cost savings (up to 90%) compared to GitHub-hosted runners and offers greater control over instance types (x64, ARM64, GPU) and configurations. It integrates seamlessly with existing workflow syntax and handles runner management, caching, networking, and observability.
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) - *(Related to azure topic)*
 
 - [mediatemple.net: Cloud-Native CI/CD Workflows in AWS: 3 Use Cases](https://mediatemple.net/blog/cloud-hosting/cicd-workflows-aws-3-use-cases/)
 - [trek10.com: Enterprise CI/CD on AWS: a pragmatic approach](https://www.trek10.com/blog/pragmatic-enterprise-cicd) How can we work within the constraints of a large organization to develop CI/CD flows that help us deploy applications quickly, safely, and accountably on AWS?
@@ -183,6 +199,26 @@
 </center>
 
 ## Tools
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
+  - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - *(Related to cloud-arch-diagrams topic)*
+  - [Buildbot](https://t.co/qXtIPX5eF6) - Buildbot is an open-source Python-based framework for automating software build, test, and release processes. It facilitates continuous integration and continuous delivery pipelines.
+  - [PMEase QuickBuild](https://www.pmease.com/) - QuickBuild is a flexible continuous integration and continuous deployment (CI/CD) server designed for DevOps teams. It offers features like build promotion, integration with LDAP, and support for various build customization options. Version 16.0 includes updates for Java LTS, improved build subscriptions, artifact reservation, and API enhancements.
+  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - A CI/CD pipeline for GitHub projects using GitHub Actions, Argo CD for GitOps, and FluxCD.
+  - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh/) - *(Related to kubernetes-tools topic)*
+  - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - *(Related to azure topic)*
+  - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview/) - *(Related to ai topic)*
+  - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) - *(Related to ai topic)*
+  - [Programming with GitHub Copilot Agent Mode](https://t.co/FhNsA9iy4Q) - *(Related to ai topic)*
+  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to terraform topic)*
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines/) - *(Related to terraform topic)*
+  - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) - *(Related to ai topic)*
+  - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) - *(Related to jenkins topic)*
+  - [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) - *(Related to iac topic)*
+  - [Gama: Terminal UI for GitHub Actions](https://github.com/termkit/gama) - Gama is a terminal-based user interface (TUI) tool that allows users to manage GitHub Actions workflows directly from their terminal. It enables listing, triggering, and managing workflows, with support for extended workflow inputs and workflow history.
+  - [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 - This article from DEV Community details Intuit's experience and considerations when migrating their CI/CD pipelines from Jenkins to Argo Workflows. It discusses the challenges of running Jenkins at scale on Kubernetes and explores how Argo Workflows can be used alongside Argo CD for cloud-native CI/CD. The post focuses on the CI aspect and provides insights into mapping Jenkins functionalities to Argo Workflows, with an example to illustrate the differences.
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops/) - This article details how to integrate Dependabot-like functionality into Azure DevOps pipelines, allowing for automated dependency updates in repositories. It covers installing the 'Dependabot' extension from the Azure DevOps Marketplace and configuring a pipeline to run the task regularly, mimicking GitHub's Dependabot behavior. The setup includes utilizing a `dependabot.yml` configuration file, similar to its GitHub counterpart, to define package ecosystems and update strategies.
+  - [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) - This GitHub Action allows users to debug their GitHub Actions by providing SSH access to the runner system itself. It leverages tmate to establish a secure shell connection, enabling real-time interaction and inspection of the execution environment.
+  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga/) - GitHub's Copilot can now assist users by explaining why an Actions job failed. This feature, now Generally Available, allows users to select 'Explain Error' from a failing check in the pull request merge box or on the Actions job page. Copilot analyzes the job and provides tailored guidance for resolution, consuming one chat message per use. This integration aims to streamline debugging and improve CI/CD workflows.
 
 - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)
 - [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)

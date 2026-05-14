@@ -13,6 +13,9 @@
 11. [Videos](#videos)
 
 ## Introduction
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/) - *(Related to monitoring topic)*
+  - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/) - *(Related to monitoring topic)*
+  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to kubernetes-troubleshooting topic)*
 
 - [DZone: Kubernetes Monitoring Essentials](https://dzone.com/refcardz/monitoring-kubernetes)
 - [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
@@ -95,6 +98,9 @@
 - [==signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial== 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring/)
 
 ## Kubernetes Logging
+  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart/) - *(Related to prometheus topic)*
+  - [KoaPerf: Kubernetes Performance Monitoring](https://koaperf-apeseqd2cehnhjgh.z03.azurefd.net/) - KoaPerf is a performance monitoring tool specifically designed for Kubernetes environments. It aims to provide insights into the performance characteristics of Kubernetes clusters and applications running within them.
+  - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) - *(Related to kubernetes-tools topic)*
 
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)
 - [medium: How to Deploy an EFK stack to Kubernetes](https://medium.com/avmconsulting-blog/how-to-deploy-an-efk-stack-to-kubernetes-ebc1b539d063)
@@ -140,6 +146,7 @@
 - [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d)
 
 ## kubeshark
+  - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes/) - *(Related to kubernetes-tools topic)*
 
 - [==kubeshark.co==](https://kubeshark.co) The API Traffic Viewer for  kubernetes. Deep visibility and monitoring of all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster.
 - [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) The API traffic viewer for Kubernetes providing deep visibility into all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster. Think TCPDump and Wireshark re-invented for Kubernetes

@@ -9,10 +9,11 @@
     3. [HTTP/3](#http3)
     4. [HTTP Structured Fields](#http-structured-fields)
 4. [Container Networking](#container-networking)
-5. [Load Balancing](#load-balancing)
-6. [DNS](#dns)
-7. [Images](#images)
-8. [Tweets](#tweets)
+5. [Azure](#azure)
+6. [Load Balancing](#load-balancing)
+7. [DNS](#dns)
+8. [Images](#images)
+9. [Tweets](#tweets)
 
 ## Introduction
 
@@ -92,12 +93,28 @@
 - [http-sfv: HTTP Structured Field Values in Python](https://pypi.org/project/http-sfv/)
 
 ## Container Networking
+  - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link/) - *(Related to kubernetes-networking topic)*
+
+## Azure
+  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - *(Related to azure topic)*
+  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform/) - *(Related to azure topic)*
+  - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://t.co/F244mqpeaR) - *(Related to azure topic)*
+  - [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) - *(Related to azure topic)*
+  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups/) - *(Related to azure topic)*
+  - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) - *(Related to azure topic)*
+  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://t.co/PPlhHZx5Bh) - *(Related to aws-networking topic)*
+  - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b) - *(Related to azure topic)*
+  - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) - *(Related to azure topic)*
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) - *(Related to azure topic)*
+  - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) - *(Related to azure topic)*
+  - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) - *(Related to azure topic)*
 
 - [iximiuz.com: Container Networking Is Simple! 🌟](https://iximiuz.com/en/posts/container-networking-is-simple/)
     - How to virtualize network resources to make containers think each of them has a dedicated network stack?
     - How to reach the outside world (e.g. the Internet) from inside the container?
 
 ## Load Balancing
+  - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/) - *(Related to kubernetes-networking topic)*
 
 - [harshityadav95.medium.com: Load Balancing Layer 4 vs Layer 7](https://harshityadav95.medium.com/load-balancing-layer-4-vs-layer-7-f37a839afd9c)
 

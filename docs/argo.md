@@ -118,6 +118,7 @@
     - Have a CVE response plan ready
 
 ## Argo CD Tools and Plugins
+  - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) - *(Related to gitops topic)*
 
 - [argoproj-labs/argocd-autopilot: Argo-CD Autopilot](https://github.com/argoproj-labs/argocd-autopilot)  The Argo-CD Autopilot is a tool which offers an opinionated way of installing Argo-CD and managing GitOps epositories. New users to GitOps and Argo CD are not often sure how they should structure their repos, add applications, promote apps across environments, and manage the Argo CD installation itself using GitOps. Argo Autopilot is a project that solves that
 - [argoproj-labs/applicationset: Argo CD ApplicationSet Controller](https://github.com/argoproj-labs/applicationset) The ApplicationSet controller is a Kubernetes controller that adds support for a new custom ApplicationSet CustomResourceDefinition (CRD). The ApplicationSet controller manages multiple Argo CD Applications as a single ApplicationSet unit, supporting deployments to large numbers of clusters, deployments of large monorepos, and enabling secure Application self-service.
@@ -140,6 +141,7 @@
 - [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf)
 
 ## Argo Workflows
+  - [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) - *(Related to cicd topic)*
 
 - [blog.argoproj.io: What’s new in Argo Workflows v3.3](https://blog.argoproj.io/whats-new-in-argo-workflows-v3-3-dd051d2f1c7)
 - [dev.to: The three meanings of "template" in Argo Workflows](https://dev.to/crenshaw_dev/the-three-meanings-of-template-in-argo-workflows-2paf)

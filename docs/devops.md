@@ -45,6 +45,7 @@
 </center>
 
 ## Introduction to Digital Business Transformation
+  - [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) - *(Related to introduction topic)*
 
 - [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need) Consider these lessons learned as you strive to give DevOps teams what they need to succeed - from flexible technogy models to transparency.
 - [redhat.com: Understanding DevOps](https://www.redhat.com/en/topics/devops) DevOps is an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. This is all made possible through fast-paced, iterative IT service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure.
@@ -78,6 +79,8 @@
 - [==DZone: Defining Day-2 Operations==](https://dzone.com/articles/defining-day-2-operations) Day-2 operations is where the system generates an outcome for the organization. Thus, continually seek improvements in day-2 operations, to maximize benefits.
 
 ## Blogs
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/) - *(Related to ai-agents-mcp topic)*
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/) - *(Related to kubernetes-troubleshooting topic)*
 
 - [devops.com](https://devops.com/)
 - [devopscube.com](https://devopscube.com/)
@@ -139,6 +142,7 @@
 - [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure)
 
 ## DevOps Docs
+  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd) - *(Related to kubernetes-troubleshooting topic)*
 
 {==
 
@@ -301,6 +305,7 @@
 - [medium.com/keptn: DORA metrics: automatically, for all your Kubernetes workloads](https://medium.com/keptn/dora-metrics-automatically-for-all-your-kubernetes-workloads-42225f4b8515) DORA’s Four Key DevOps metrics have gained much attention as they provide critical insights into an organization’s maturity in automating the delivery of high-quality software. And rightfully so: According to the previous State of DevOps reports, organizations with higher successful deployment frequency have more business success in their market and tend to retain technical talent longer. But getting those insights can sometimes be tricky and cause even more manual work. How can you extract DORA metrics more efficiently?
 
 ## DevOps Roadmap
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) 🌟 - A comprehensive, step-by-step guide for aspiring DevOps engineers, featuring curated learning resources. This roadmap aims to provide a clear path and overview of the DevOps landscape, updated for 2026.
 
 - [medium: The Complete DevOps RoadMap 🌟](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb) An illustrated guide to becoming a DevOps Engineer with links to relevant courses
 - [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)
@@ -324,6 +329,9 @@
 - [containerjournal.com: Best of 2021 – Kubernetes Enables DevOps-as-a-Service (DaaS)](https://containerjournal.com/editorial-calendar/best-of-2021/kubernetes-enables-devops-as-a-service-daas/)
 
 ## IaC Infrastructure as Code
+  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/) - *(Related to iac topic)*
+  - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) - *(Related to ansible topic)*
+  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions/) - *(Related to terraform topic)*
 
 - [IaC Infrastructure as Code](iac.md)
 
@@ -335,6 +343,11 @@
 - [Periodic Table of DevOps 🌟](https://xebialabs.com/periodic-table-of-devops-tools/)
 
 ## DevOps Tools
+  - [Buildbot](https://t.co/qXtIPX5eF6) - *(Related to cicd topic)*
+  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits/) - *(Related to git topic)*
+  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) - *(Related to chaos-engineering topic)*
+  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) 🌟 - This DEV Community post guides Windows users on how to streamline the installation of essential DevOps tools like AWS CLI, ECS CLI, Docker, and Terraform using Chocolatey, a Windows package manager. It explains Chocolatey's benefits for automating software installations and updates and provides steps for setting up Chocolatey and subsequently installing these tools via PowerShell.
+  - [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on/) - *(Related to kubernetes-tools topic)*
 
 - [DevOps Tools](devops-tools.md)
 
@@ -346,10 +359,14 @@
 ## Public Cloud DevOps
 
 ### AWS DevOps
+  - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - *(Related to aws topic)*
 
 - [AWS DevOps 🌟](https://aws.amazon.com/devops/)
 
 ### Azure DevOps
+  - [EntraExporter](https://github.com/microsoft/entraexporter) - *(Related to azure topic)*
+  - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) - *(Related to azure topic)*
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses/) - *(Related to azure topic)*
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 
@@ -376,6 +393,7 @@
 - [blog.postman.com: What Is PlatformOps?](https://blog.postman.com/what-is-platformops/)
 
 ## GPT 3 Tools
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) - *(Related to ai topic)*
 
 - [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de) This article will explore GPT-3 applications in the developer space to discuss how GPT-3 can help DevOps Engineers, SREs, technical customer support, and developers.
     - [Zebrium](https://www.zebrium.com/) Monitoring detects problems, Zebrium finds root cause
@@ -400,6 +418,8 @@ Resolve your software incidents 10x faster
 - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h)
 
 ## Platform Engineering and Internal Developer Platform
+  - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide) 🌟 - This guide explains platform engineering and its impact on software development. It highlights how building a centralized Internal Developer Platform (IDP) automates tasks like environment provisioning, CI/CD, and infrastructure management, empowering developers. The guide details five key use cases, including accelerated project bootstrap and simplified database management, providing tangible benefits and technical examples of how IDPs leverage tools like Kubernetes, Prometheus, and Grafana.
+  - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) - This article discusses the evolution of platform engineering, from the Dev/Ops split to DevOps and the emergence of Platform Teams. It critiques the limitations of centralized platform teams and introduces the concept of 'Platform Democracy,' where multiple teams collaborate to build and consume platform capabilities in a more decentralized and collaborative manner.
 
 - [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
 - [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering) Platform engineering is the discipline of building workflows, toolchains, platforms & docs to support app teams in their delivery of business value. Benefits Include:

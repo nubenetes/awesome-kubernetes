@@ -338,6 +338,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus](https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus) Prometheus, the de facto standard for Kubernetes monitoring, works well for many basic deployments, but managing Prometheus infrastructure can become challenging at scale. As Kubernetes deployments continue to play a bigger role in enterprise IT, scaling Prometheus for a large number of metrics across a global footprint has become a pressing need for many organizations. Today, we’re excited to announce the public preview of Google Cloud Managed Service for Prometheus, a new monitoring offering designed for scale and ease of use that maintains compatibility with the open-source Prometheus ecosystem.
 
 ## Prometheus Installers
+  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart/) 🌟 - A detailed guide on how to set up Prometheus on a Kubernetes cluster using the official community Helm chart, including best practices and an overview of the components involved like Alertmanager, Kube State Metrics, and Node Exporter.
 
 ### Binaries, source code or Docker
 
@@ -810,4 +811,3 @@ JMeter|Artemis Grafana|Artemis Dashboard
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prometheus 101 (thread)<br><br>1⃣ Metrics<br><br>A metric is a feature (i.e., a characteristic) of a system that is being measured.<br><br>Typical examples:<br><br>- http_requests_total<br>- http_request_size_bytes<br>- system_memory_used_bytes<br>- node_network_receive_bytes_total <a href="https://t.co/lDZHezBmUH">pic.twitter.com/lDZHezBmUH</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1482363582100684801?ref_src=twsrc%5Etfw">January 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-

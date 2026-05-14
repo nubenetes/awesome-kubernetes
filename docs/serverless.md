@@ -54,6 +54,7 @@
 - [theburningmonk.com: Why you should use ephemeral environments when you do serverless](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless/)
 
 ### Serverless Bad Practices
+  - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless/) - ServerlessHorrors is a website dedicated to collecting real-life stories and experiences of developers facing unexpected issues and exorbitant costs within the serverless cloud environment. It serves as a 'horror museum' for the cloud, documenting cases of massive bills, billing errors, configuration misunderstandings, and abuses of serverless models across major providers like Vercel, Google Cloud, AWS, and Cloudflare.
 
 - [==serverlesshorrors.com== 🌟](https://serverlesshorrors.com/)
 
@@ -94,10 +95,12 @@
 - [dev.to: Price Comparison of Popular Serverless Architecture Providers](https://dev.to/mbagley1020/price-comparison-of-popular-serverless-architecture-providers-2jk9)
 
 ## Serverless Framework (the most popular serverless ecosystem)
+  - [Docker for LLMs](https://www.docker.com/llm/) - *(Related to docker topic)*
 
 - [serverless.com: Serverless Framework](https://www.serverless.com/)
 
 ## Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)
+  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization/) - A comprehensive guide to understanding and optimizing costs for Azure Functions. It covers different pricing models (Consumption, Premium, Dedicated), key cost drivers (execution time, memory, invocations, network traffic), and strategies for cost reduction (optimizing execution time, batching events, right-sizing resources, reducing cold starts). The article also discusses hidden costs and tools for cost management and budgeting.
 
 - [epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more/)
 - [winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more](https://winderresearch.com/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more/)

@@ -95,6 +95,10 @@
 </center>
 
 ## Azure
+  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide/) - A step-by-step guide demonstrating how to obtain free automated Let's Encrypt TLS certificates and store them securely in Azure Key Vault. This solution allows for automatic renewal and provisioning of additional certificates, offering a cost-effective way to secure services in Azure.
+  - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b) 🌟 - A technical article demonstrating how to implement application network security in Azure using subnets, endpoints, DNS, and Network Security Groups (NSGs), with accompanying Terraform code.
+  - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) 🌟 - This page provides a comprehensive table of Azure products and their availability across various Azure regions globally. It's a valuable resource for understanding where specific Azure services can be deployed.
+  - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) 🌟 - This article explains Azure Network Security Perimeter (NSP), a feature that establishes logical network boundaries around Azure Platform-as-a-Service (PaaS) resources deployed outside of virtual networks. It enhances security by controlling public network access to PaaS resources like Azure Storage and Key Vault, restricting inbound and outbound traffic by default and allowing explicit exceptions. Key benefits include preventing data exfiltration, managing external access, providing access logs for auditing, and offering a unified management experience across PaaS resources.
 
 - [Microsoft Azure](https://azure.microsoft.com/)
 - [Microsoft Docs](https://docs.microsoft.com/)
@@ -160,6 +164,7 @@
 - [build5nines.com: Azure CDN POP Locations: Interactive Map of Azure CDN Points of Presence](https://build5nines.com/azure-cdn-endpoint-interactive-map/)
 
 ## Azure Architecture Check List
+  - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://t.co/F244mqpeaR) - This article details how to deploy and manage virtual networks across different Azure tenants using Azure Virtual Network Manager. It covers the capabilities and implementation steps for achieving cross-tenant network connectivity, which is crucial for large organizations with multiple Azure subscriptions and tenants.
 
 - [luke.geek.nz/azure: Azure Architecture - Solution Requirement Consideration Checklist](https://luke.geek.nz/azure/azure-architecture-solution-requirement-consideration-checklist/)
 
@@ -188,11 +193,14 @@
 - [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024)
 
 ## Azure Cloud Adoption Framework CAF
+  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - This Microsoft Learn article provides guidance and recommendations for organizations looking to migrate their existing Azure environments, including resources and management group structures, to align with the Azure landing zone reference architecture. It covers considerations for moving resources within Azure and discusses different approaches based on user RBAC permissions.
+  - [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options) 🌟 - This article from Microsoft Learn details the various implementation options for deploying and managing Azure platform landing zones, a key component of the Cloud Adoption Framework. It highlights Infrastructure-as-Code (IaC) using Azure Verified Modules (AVMs) with Terraform or Bicep as the recommended approach, while also presenting a portal-based approach for organizations less familiar with IaC.
 
 - [learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
 - [linkedin.com: The Ultimate Guide to Azure Cloud Adoption Framework Lifecycle](https://www.linkedin.com/pulse/ultimate-guide-azure-cloud-adoption-framework-gregor-wohlfarter-hb4sf/)
 
 ## Azure Well-Architected Framework WAF
+  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) 🌟 - This document provides architectural recommendations for Azure Kubernetes Service (AKS), aligning with the principles of the Azure Well-Architected Framework. It covers best practices for both the AKS cluster itself and the workloads deployed on it, distinguishing between responsibilities of cluster administrators and developers. The content aims to guide architects in making informed decisions for deploying and managing containerized applications on AKS.
 
 - [learn.microsoft.com: Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) The Azure Well-Architected Framework (WAF) is a set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads.
 - [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://infoq.com/news/2023/11/azure-well-architected-framework)
@@ -212,6 +220,14 @@
 - [techcommunity.microsoft.com: Infra in Azure for Developers - The What](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/infra-in-azure-for-developers-the-what/ba-p/4026102)
 
 ## Azure Landing Zones
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) 🌟 - This article from the Microsoft Community Hub details a production-ready guide for implementing automated Azure subscription vending at enterprise scale. It leverages Azure Verified Modules (AVM) with Terraform to ensure standardized, governed, and automated subscription creation, addressing common scalability and governance challenges associated with manual processes. The guide covers necessary permissions, role assignments, and best practices aligned with Azure Landing Zones.
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) - *(Related to iac topic)*
+  - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) - *(Related to finops topic)*
+  - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) 🌟 - This article provides implementation guidance for automating the process of requesting, deploying, and governing Azure subscriptions. It aims to standardize subscription provisioning, enabling application teams to deploy workloads more efficiently. The guidance includes an architecture diagram illustrating a management group hierarchy and a subscription automation workflow, detailing how subscriptions are organized under platform, landing zones, and sandbox child groups, with specific examples of subscription types and associated resources.
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) - *(Related to iac topic)*
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones/) 🌟 - Comprehensive documentation for deploying and managing Azure landing zones, covering foundational components, governance, networking, security, and management.
+  - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) - *(Related to terraform topic)*
+  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone/) 🌟 - This documentation describes the concept of an Azure landing zone, which is a standardized and recommended approach for organizations to set up and manage their Azure environments at scale. It emphasizes consistency, security, compliance, and operational efficiency through platform and application landing zones, built upon a well-architected foundation across eight design areas. The content also touches on the scalable and modular nature of the Azure landing zone architecture, its repeatable infrastructure, and the use of modules for deployment and modification. It references a specific reference architecture as a starting point.
 
 - [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
 - [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-landing-zones-accelerators-for-bicep-and-terraform/ba-p/4029866)
@@ -230,6 +246,7 @@
 - [Azure Sandbox](https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox) Azure Sandbox is a collection of interdependent cloud computing configurations for implementing common Azure services on a single subscription. This collection provides a flexible and cost effective sandbox environment for experimenting with Azure services and capabilities.
 
 ## Azure Marketplace
+  - [AKS Bitnami Open Source Deployments](http://blog.aks.azure.com/2025/04/03/aks-bitnami-open-source-deployments) 🌟 - This article discusses leveraging Bitnami's open-source application catalog for easier deployments on Azure Kubernetes Service (AKS). It highlights how Bitnami charts simplify the installation and management of various applications within AKS environments, promoting efficient use of cloud-native technologies.
 
 - [azuremarketplace.microsoft.com: Firefly](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/gofireflyltd1705083203658.firefly) Firefly's Cloud Asset Management solution enables Cloud teams to rediscover their entire cloud footprint and manage it more efficiently and consistently as a single inventory across multi-cloud, multi-accounts, and Kubernetes deployments. At the same time, it empowers DevOps to quickly ramp Infrastructure-as-code, and to create and deploy cloud infrastructure safely and consistently within organizational policies.
 
@@ -242,6 +259,7 @@
 - [==github.com/Azure/azqr==](https://github.com/Azure/azqr) Azure Quick Review (azqr) is a command-line interface (CLI) tool specifically designed to analyze Azure resources and identify whether they comply with Azure's best practices and recommendations. Its primary purpose is to provide users with a detailed overview of their Azure resources, enabling them to easily identify any non-compliant configurations or potential areas for improvement.
 
 ## New Features
+  - [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) - This Microsoft Community Hub blog post introduces Subnet Peering in Azure, a new networking capability that allows users to peer specific subnets across local and remote Virtual Networks (VNETs). This feature offers enhanced flexibility compared to traditional VNET peering by enabling granular control over which subnets participate in the peering. Key benefits include IPv4 address space conservation through reuse, limiting unnecessary exposure of non-peered subnets across hub gateways, and implementing IPv6-only peering for dual-stack subnets. The article highlights use cases such as peering subnets with overlapping address spaces (in a hub-and-spoke model) and leveraging IPv6 for peering connectivity in dual-stack environments. It also addresses scenarios involving on-premises connectivity via gateways where specific subnets need to be exposed selectively.
 
 - [==azure.microsoft.com: General availability: Azure Bastion native client support==](https://azure.microsoft.com/en-gb/updates/general-availability-azure-bastion-native-client-support/)
 - [azure.microsoft.com: Generally available: SFTP support for Azure Blob Storage](https://azure.microsoft.com/en-us/updates/sftp-support-for-azure-blob-storage-now-generally-available/)
@@ -252,6 +270,13 @@
 - [hlokensgard.no: Azure Virtual Network Manager – A game changer or just a costly upgrade?](https://hlokensgard.no/2024/07/01/azure-virtual-network-manager-a-game-changer-or-just-a-costly-upgrade/)
 
 ## Blogs
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/) - *(Related to ai-agents-mcp topic)*
+  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - A blog post comparing the costs of different Azure networking services to help users make more cost-effective decisions.
+  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform/) 🌟 - A blog post detailing how to provision and utilize Azure IPAM (IP Address Management) service using Terraform. It explains the benefits of IPAM in simplifying IP address allocation across teams and environments by abstracting the complexity of IP ranges, allowing consumers to request a specific number of addresses from a shared pool.
+  - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) 🌟 - This blog post outlines the development of a comprehensive DDoS response strategy by leveraging the capabilities of Azure DDoS Protection. It details the types of DDoS attacks (Volumetric, Protocol, and Resource), and explains how Azure DDoS Protection, in conjunction with Azure Web Application Firewall (WAF), provides mitigation. The post emphasizes the importance of incident detection, communication protocols, and the overall creation of a robust plan to ensure the availability and performance of online services.
+  - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) - *(Related to kubernetes topic)*
+  - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) - *(Related to finops topic)*
+  - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) - This Microsoft Community Hub blog post provides a comprehensive guide to understanding Azure data transfer pricing. It breaks down costs by various use cases including VM to VM (same VNet, across VNets, same region, and global peering), VM to Private Endpoint, VM to Internal Standard Load Balancer, VM to Internet, and hybrid connectivity. The article aims to clarify the complexities of Azure networking charges for effective budget management.
 
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com)
 - [thomasthornton.cloud: Thomas Thornton](https://thomasthornton.cloud)
@@ -278,11 +303,14 @@
 - [justinoconnor.codes: Azure Periodic Table of Resource Naming Convention Shorthands](https://justinoconnor.codes/2022/08/19/azure-periodic-table-of-resource-naming-convention-shorthands/)
 
 ## Mission-critical Architecture on Azure
+  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://t.co/PPlhHZx5Bh) - *(Related to aws-networking topic)*
 
 - [==learn.microsoft.com: Mission-critical baseline architecture on Azure==](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro)
 - [learn.microsoft.com: Mission-critical workloads](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview)
 
 ## Understand Azure Load Balancing
+  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups/) - This article explains how Azure Proximity Placement Groups can be used to physically co-locate Azure compute resources, ensuring low latency between them. It discusses use cases for latency-sensitive applications like manufacturing systems and in-memory computations, and includes details on testing the effectiveness of these groups.
+  - [Azure Front Door Integration with AKS Ingress for TLS and App Routing](http://blog.aks.azure.com/2025/03/14/afd-aks-ingress-tls-approuting) - *(Related to kubernetes-networking topic)*
 
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
 - [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
@@ -299,11 +327,21 @@
 - [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner) Linux OS for Azure 1P services and edge appliances
 
 ## Azure Patterns
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-app-service) - This article from the Azure Architecture Center outlines enterprise web app patterns, offering a structured approach for developers and architects to guide web applications through the cloud journey. It focuses on two phases, each addressing a common business goal and progressing towards more advanced web applications, with prescriptive guidance aligned with the Azure Well-Architected Framework.
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) - This Microsoft Learn page details the hub-spoke network pattern as a recommended best practice for Azure network topology by the Cloud Adoption Framework. It provides an architecture diagram and explains the implementation of customer-managed hub infrastructure components. The page also references an alternative solution with Microsoft-managed hub infrastructure using Azure Virtual WAN.
 
 - [==mattfeltonma/azure-networking-patterns==](https://github.com/mattfeltonma/azure-networking-patterns)
 - [==docs.microsoft.com: Cloud Design Patterns== 🌟](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
 ## ARM Templates
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot](https://github.com/Azure/AZVerify) - AZVerify is a GitHub repository that enhances GitHub Copilot's capabilities to synchronize Azure resources, Bicep templates, and live environment diagrams. It addresses the common issue of drift between these three sources of truth. The project provides skills for GitHub Copilot Chat and the Copilot CLI to facilitate this synchronization, allowing users to generate diagrams from Azure resources or vice versa, and ensuring consistency.
+  - [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform/) - *(Related to terraform topic)*
+  - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) - *(Related to terraform topic)*
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://t.co/mv3tyz1oRt) - *(Related to terraform topic)*
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) - *(Related to terraform topic)*
+  - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) - *(Related to iac topic)*
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines/) - *(Related to terraform topic)*
+  - [Terraform Provider for Azure IPAM](https://github.com/XtratusCloud/terraform-provider-azureipam) - *(Related to terraform topic)*
 
 - [==azure.microsoft.com: Azure Quickstart Templates==](https://azure.microsoft.com/en-us/resources/templates/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
 - [thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates](https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates/)
@@ -315,6 +353,18 @@
 - [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/dev-test-microservice)
 
 ## Azure DevOps
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) - *(Related to cicd topic)*
+  - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - This repository contains the server-side implementation for the Microsoft Cloud Platform (MCP) agent, which integrates Azure DevOps capabilities directly with agent environments. It enables enhanced CI/CD workflows and DevOps automation by bringing Azure DevOps features to the agent level.
+  - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview/) - *(Related to ai topic)*
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254) 🌟 - This article demonstrates how to automate the deployment of Microsoft Sentinel using Azure DevOps CI/CD pipelines. It covers the setup of Sentinel resources, workspace configuration, and the integration with Azure DevOps for continuous integration and deployment.
+  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro/) - *(Related to kubernetes-tutorials topic)*
+  - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc/) - *(Related to cicd topic)*
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops/) - *(Related to cicd topic)*
+  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - This article, originating from a LinkedIn post about securing Azure DevOps when utilizing private repositories, appears to be lost. The provided link redirects to a general LinkedIn 'Top Content' page, indicating the original content is unavailable. Therefore, its technical value and cataloging are impossible.
+  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions/) - *(Related to terraform topic)*
+  - [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/blog/azureforisvandstartupstechnicalblog/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) - *(Related to kubernetes-security topic)*
+  - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai/) - *(Related to cicd topic)*
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses/) - This post announces upcoming changes to Azure DevOps networking infrastructure, requiring users to allow list new IP addresses in their firewall configurations. These updates are aimed at enhancing performance, speed, and stability of Azure DevOps services, with a transition period to ensure a smooth migration. The new IPv4 and IPv6 ranges, as well as ExpressRoute IP ranges, are provided.
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 - [Azure DevOps Labs 🌟](https://www.azuredevopslabs.com/)
@@ -378,6 +428,7 @@
 - [==DevOps Azure Pipelines: YAML Schema==](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline)
 
 ### Azure Pipeline Tasks
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) - This article provides a step-by-step guide on how to install Java 23 within an Azure DevOps pipeline, specifically when the default JavaToolInstaller task does not support the desired version. It outlines the necessary scripts to download, extract, and configure Java 23, setting JAVA_HOME and updating the PATH environment variables, and then demonstrates how to use it with a Maven build.
 
 - [==Microsoft/azure-pipelines-tasks==](https://github.com/Microsoft/azure-pipelines-tasks) This repo contains the tasks that are provided out-of-the-box with Azure Pipelines and Team Foundation Server. This provides open examples on how we write tasks which will help you write other tasks which can be uploaded to your account or server.
     - [github.com/datakickstart](https://github.com/datakickstart)
@@ -416,6 +467,9 @@
 - [youtube: Databricks CI/CD: Azure DevOps Pipeline + DABs](https://www.youtube.com/watch?v=SZM49lGovTg) Many organizations choose Azure DevOps for automated deployments on Azure. When deploying to Databricks you can take similar deploy pipeline code that you use for other projects but use it with Databricks Asset Bundles. This video shows most of the steps involved in setting this up by following along with a blog post that shares example code and steps.
 
 ## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra
+  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - *(Related to terraform topic)*
+  - [EntraExporter](https://github.com/microsoft/entraexporter) - A PowerShell module for exporting Entra (Azure AD) and Azure AD B2C configuration settings to local JSON files. It can be integrated into scheduled tasks or CI/CD pipelines (Azure DevOps, GitHub, Jenkins) and the exported files can be version controlled.
+  - [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) - *(Related to kubernetes-security topic)*
 
 - [==stackoverflow.com: What is the difference between an Azure tenant and Azure subscription?==](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)
 - [==marckean.com: Azure Vs Azure AD – Accounts / Tenants / Subscriptions==](https://marckean.com/2016/06/01/azure-vs-azure-ad-accounts-tenants-subscriptions/)
@@ -459,6 +513,7 @@
 - [==zer1t0.gitlab.io: Attacking Active Directory: 0 to 0.9== 🌟](https://zer1t0.gitlab.io/posts/attacking_ad/)
 
 ## Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc
+  - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) - *(Related to gitops topic)*
 
 - [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview) Alternative to Google Anthos or RHACM
 - [azurearcjumpstart.io](https://azurearcjumpstart.io/) - [microsoft/azure_arc](https://github.com/microsoft/azure_arc)
@@ -475,6 +530,7 @@
 - [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://www.ismiletechnologies.com/devsecops/secure-devops-kit-azureazsk/)
 
 ## Azure App Service
+  - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) 🌟 - This blog post details Azure App Service Auto-Heal, a diagnostic and recovery feature designed to proactively detect and mitigate application performance issues. It explains how Auto-Heal can be configured with custom rules based on metrics like request duration and memory usage to trigger automatic corrective actions such as recycling the application process, collecting diagnostic dumps, or logging additional telemetry. The goal is to minimize downtime, improve reliability, and facilitate efficient troubleshooting by capturing vital diagnostic data.
 
 - [learn.microsoft.com: Environment variables and app settings in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings)
 - [learn.microsoft.com: Configure a Java app for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-language-java)
@@ -484,16 +540,21 @@
 - [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html)
 
 ## Azure Application Gateway
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) - *(Related to istio topic)*
+  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/) - *(Related to kubernetes-networking topic)*
+  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/) - A detailed introduction to Azure Application Gateway for Containers (AGC), a reverse proxy solution for Kubernetes workloads. This post covers its architecture, components, and how it differs from the previous Application Gateway Ingress Controller (AGIC), focusing on benefits like external deployment to conserve cluster resources and faster reconfiguration times.
 
 - [==nathannellans.com: Azure Application Gateway - Part 1== 🌟](https://www.nathannellans.com/post/azure-application-gateway-part-1)
 - [acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs](https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm/)
 
 ## Azure Functions
+  - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization/) - *(Related to serverless topic)*
 
 - [learn.microsoft.com: AZ-204: Implement Azure Functions 🌟](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/)
 - [azurebrains.com: Despliega tu Azure Function App con Terraform y Azure DevOps 🌟](https://www.azurebrains.com/2021/03/25/despliega-azure-function-terraform-azuredevops/)
 
 ## Azure Monitor
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - This Microsoft Learn article outlines how to plan, configure, and optimize monitoring for Azure cloud environments. It covers integrating data from other clouds, on-premises, and edge locations, and details monitoring responsibilities based on deployment models (IaaS, PaaS, SaaS). The article emphasizes defining a monitoring strategy to detect, diagnose, and predict issues.
 
 - [techcommunity.microsoft.com: Azure Monitor Logs Next Evolution: Multi-tier logging](https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-logs-next-evolution-multi-tier-logging/ba-p/4200871)
 
@@ -851,3 +912,4 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you looking to start a career in AI using Microsoft Azure? <br><br>Here are some of the best Azure services to learn:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1626147296630001667?ref_src=twsrc%5Etfw">February 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
+  - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link/) - *(Related to kubernetes-networking topic)*

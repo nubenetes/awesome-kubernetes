@@ -3,12 +3,15 @@
 1. [Introduction](#introduction)
 2. [Online Training](#online-training)
 3. [K8s Diagrams](#k8s-diagrams)
-4. [Learning Tools](#learning-tools)
+4. [Kubernetes Networking](#kubernetes-networking)
+5. [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
+6. [Learning Tools](#learning-tools)
     1. [Neptune](#neptune)
-5. [Videos](#videos)
-6. [Tweets](#tweets)
+7. [Videos](#videos)
+8. [Tweets](#tweets)
 
 ## Introduction
+  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro/) 🌟 - This resource provides an introduction to AKS Labs, a series of workshops designed for hands-on learning of Azure Kubernetes Service (AKS). It covers deploying, scaling, and managing containerized applications on AKS, with featured workshops on getting started, automated cluster deployment, and Istio Service Mesh implementation.
 
 - [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/) Official documentation from Kubernetes. One can go through this official documentation and can learn much more about Kubernetes.
 - [devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide](https://devopscube.com/kubernetes-tutorials-beginners/)
@@ -71,6 +74,7 @@
 - [dev.to: Understanding Kubernetes: part 48 – Kubernetes 1.27 Changelog](https://dev.to/aurelievache/understanding-kubernetes-part-48-kubernetes-127-changelog-1alk)
 
 ## Online Training
+  - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - The Red Hat Customer Portal's community section, previously the Red Hat Learning Community, offers resources for learning and certification related to Red Hat products, including OpenShift and Kubernetes. It provides access to training materials, e-books, and videos to supplement learning journeys.
 
 - [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers
 - [kubernetesbyexample.com](http://kubernetesbyexample.com/)
@@ -92,9 +96,25 @@
 
 ## K8s Diagrams
 
+## Kubernetes Networking
+  - [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/) - *(Related to istio topic)*
+
+## Kubernetes Troubleshooting
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide/) - *(Related to kubernetes-troubleshooting topic)*
+  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd) - *(Related to kubernetes-troubleshooting topic)*
+  - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing) - *(Related to kubernetes-networking topic)*
+
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
 ## Learning Tools
+  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) 🌟 - A repository offering step-by-step guides to recreate various technologies from scratch, promoting deep understanding through practical implementation. It covers a wide range of domains including AI, databases, operating systems, and networking.
+  - [OCP4 Getting Started Showroom](https://rhpds.github.io/ocp4-getting-started-showroom/modules/main/index.html) - *(Related to ocp4 topic)*
+  - [Quiz Grader](https://github.com/ned1313/quiz-grader) - *(Related to ai topic)*
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) - *(Related to devops topic)*
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/) - *(Related to container-managers topic)*
+  - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) - *(Related to jenkins topic)*
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
+  - [useHooks - React Hooks Library](https://usehooks.com/) - *(Related to javascript topic)*
 
 ### Neptune
 

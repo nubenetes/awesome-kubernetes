@@ -10,25 +10,26 @@
 8. [Docker Swarm](#docker-swarm)
 9. [Awesome Lists](#awesome-lists)
 10. [Docker VS Kubernetes](#docker-vs-kubernetes)
-11. [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
-12. [Docker Security](#docker-security)
-13. [How To Build a Smaller Docker Image and write dockerfiles efficiently](#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently)
-14. [Reducing Build Time](#reducing-build-time)
-15. [Modify containers without rebuilding](#modify-containers-without-rebuilding)
-16. [Docker Tools](#docker-tools)
-17. [Docker and WSL2](#docker-and-wsl2)
-18. [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
-19. [Docker Compose](#docker-compose)
-20. [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
-21. [Windows Containers](#windows-containers)
-22. [Portainer](#portainer)
-23. [DockStation](#dockstation)
-24. [Linux Container Base Images](#linux-container-base-images)
-25. [Blogs](#blogs)
-26. [Cloud Native Buildpacks](#cloud-native-buildpacks)
-27. [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
-28. [Videos and Podcasts](#videos-and-podcasts)
-29. [Tweets](#tweets)
+11. [Docker for LLMs](#docker-for-llms)
+12. [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
+13. [Docker Security](#docker-security)
+14. [How To Build a Smaller Docker Image and write dockerfiles efficiently](#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently)
+15. [Reducing Build Time](#reducing-build-time)
+16. [Modify containers without rebuilding](#modify-containers-without-rebuilding)
+17. [Docker Tools](#docker-tools)
+18. [Docker and WSL2](#docker-and-wsl2)
+19. [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
+20. [Docker Compose](#docker-compose)
+21. [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
+22. [Windows Containers](#windows-containers)
+23. [Portainer](#portainer)
+24. [DockStation](#dockstation)
+25. [Linux Container Base Images](#linux-container-base-images)
+26. [Blogs](#blogs)
+27. [Cloud Native Buildpacks](#cloud-native-buildpacks)
+28. [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
+29. [Videos and Podcasts](#videos-and-podcasts)
+30. [Tweets](#tweets)
 
 ## Introduction and Tutorials
 
@@ -220,6 +221,9 @@
 
 ## Docker VS Kubernetes
 
+## Docker for LLMs
+  - [Docker for LLMs](https://www.docker.com/llm/) - This page from Docker introduces how Docker can be leveraged to deploy and manage Large Language Models (LLMs), highlighting its capabilities in simplifying the LLM development lifecycle. It covers aspects like packaging models, managing dependencies, and scaling LLM applications.
+
 - [blog.testproject.io: A Comparison of Kubernetes and Docker](https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker/)
 - [==containerjournal.com: What’s the Difference Between Docker and Kubernetes?==](https://containerjournal.com/features/whats-the-difference-between-docker-and-kubernetes/)
 
@@ -233,6 +237,7 @@
     - Building different images per environment.
 
 ## Docker Security
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer/) 🌟 - This article from Docker introduces their new hardened images, designed to provide developers with a more secure foundation for building and deploying containerized applications. It highlights the benefits of using these images and how they contribute to a stronger security posture.
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
@@ -283,6 +288,8 @@
 - [cloudowski.com: How to modify containers without rebuilding their image [ARCHIVED]]( http://web.archive.org/web/20210731130210/https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding//)
 
 ## Docker Tools
+  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) - *(Related to kubernetes-tools topic)*
+  - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer is a project designed to simplify the process of running applications within Docker. It aims to provide a quick and easy way to get started with Docker, offering users the option to rely on it for various Docker system configurations or use it as a learning tool for more advanced setups.
 
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
 - [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin/)
@@ -376,6 +383,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [dev.to/pmbanugo: Goodbye Dockerfiles: Build Secure & Optimised Node.js Container Images with Cloud Native Buildpacks](https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p)
 
 ## Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/) - *(Related to container-managers topic)*
 
 - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)
 - [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)

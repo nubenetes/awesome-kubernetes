@@ -82,6 +82,7 @@
 - [medium.com/google-cloud: Design your Landing Zone — Design Considerations Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)
 
 ## Dev Library
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) - *(Related to ai-agents-mcp topic)*
 
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
 
@@ -148,6 +149,8 @@
 - [Announcing Apigee Integration: An API-first approach for connecting data and applications](https://cloud.google.com/blog/products/api-management/google-cloud-announces-apigee-integration)
 
 ## Tools
+  - [Google Agents CLI](https://github.com/google/agents-cli) - *(Related to ai topic)*
+  - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga) - *(Related to terraform topic)*
 
 - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases
 

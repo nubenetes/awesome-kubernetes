@@ -124,6 +124,7 @@
 - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) Have you come across to someone that thinks you don't deserve a job because you don't have GitHub contributions? Never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn't use GitHub, use fake-it-til-you-make-it to generate two years of contributions.
 
 ## Tweets
+  - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career/) - *(Related to devsecops topic)*
 
 <details>
   <summary>Click to expand!</summary>
@@ -308,4 +309,3 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
-

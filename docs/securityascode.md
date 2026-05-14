@@ -80,6 +80,8 @@
 - [Fugue: Container and Kubernetes. Runtime infrastructure security](https://www.fugue.co/container-kubernetes) - [darkreading.com: Fugue Adds Kubernetes Security Checks to Secure Infrastructure-as-Code](https://www.darkreading.com/dr-tech/fugue-adds-kubernetes-security-checks-to-secure-infrastructure-as-code) Developers can apply proper security controls as they programmatically deploy Kubernetes clusters.
 
 ## Other Policy as Code Scanning Tools
+  - [Web-Check](https://web-check.xyz/) - *(Related to kubernetes-tools topic)*
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer/) - *(Related to docker topic)*
 
 - [thenewstack.io: Yor Automates Tagging for Infrastructure as Code](https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code/)
 - [yor.io](https://yor.io/) Automated IaC tag and trace. Yor is an open-source tool that automatically tags infrastructure as code (IaC) templates with attribution and ownership details, unique IDs that get carried across to cloud resources, and any other need-to-know information. Run Yor as a pre-commit hook or in your CI/CD pipeline for code to cloud traceability and auditability.
@@ -158,5 +160,7 @@
 - [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code/)
 
 ## Azure Policy
+  - [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) - *(Related to kubernetes-security topic)*
+  - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) - *(Related to azure topic)*
 
 - [Azure Policy](azure.md)

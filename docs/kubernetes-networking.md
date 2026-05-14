@@ -2,31 +2,32 @@
 
 1. [Introduction](#introduction)
 2. [Kubernetes DNS](#kubernetes-dns)
-3. [TCP Keep Alive Requests](#tcp-keep-alive-requests)
-4. [Headless Kubernetes Service](#headless-kubernetes-service)
-5. [NetworkPolicy](#networkpolicy)
-6. [Nginx Ingress Controller](#nginx-ingress-controller)
-7. [Contour Ingress Controller](#contour-ingress-controller)
-8. [Kubernetes Gateway API](#kubernetes-gateway-api)
-9. [Kube-proxy](#kube-proxy)
-10. [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
-11. [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
-12. [Kubernetes Network Policy](#kubernetes-network-policy)
-     1. [Cilium](#cilium)
-     2. [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
-13. [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
-14. [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
-15. [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
-16. [CNI Container Networking Interface](#cni-container-networking-interface)
-     1. [List of existing CNI Plugins (IPAM)](#list-of-existing-cni-plugins-ipam)
-     2. [Project Calico](#project-calico)
-17. [DNS Service with CoreDNS](#dns-service-with-coredns)
-18. [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
-19. [k8gb](#k8gb)
-20. [VPC Lattice](#vpc-lattice)
-21. [Images](#images)
-22. [Videos](#videos)
-23. [Tweets](#tweets)
+3. [Kubernetes Services and Load Balancing](#kubernetes-services-and-load-balancing)
+4. [TCP Keep Alive Requests](#tcp-keep-alive-requests)
+5. [Headless Kubernetes Service](#headless-kubernetes-service)
+6. [NetworkPolicy](#networkpolicy)
+7. [Nginx Ingress Controller](#nginx-ingress-controller)
+8. [Contour Ingress Controller](#contour-ingress-controller)
+9. [Kubernetes Gateway API](#kubernetes-gateway-api)
+10. [Kube-proxy](#kube-proxy)
+11. [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
+12. [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
+13. [Kubernetes Network Policy](#kubernetes-network-policy)
+    1. [Cilium](#cilium)
+    2. [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
+14. [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
+15. [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
+16. [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
+17. [CNI Container Networking Interface](#cni-container-networking-interface)
+    1. [List of existing CNI Plugins (IPAM)](#list-of-existing-cni-plugins-ipam)
+    2. [Project Calico](#project-calico)
+18. [DNS Service with CoreDNS](#dns-service-with-coredns)
+19. [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
+20. [k8gb](#k8gb)
+21. [VPC Lattice](#vpc-lattice)
+22. [Images](#images)
+23. [Videos](#videos)
+24. [Tweets](#tweets)
 
 ## Introduction
 
@@ -179,6 +180,11 @@
 
 ## Kubernetes DNS
 
+## Kubernetes Services and Load Balancing
+  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/) 🌟 - This post delves into the integration of Azure Application Gateway for Containers (AGC) with Azure Kubernetes Service (AKS) when using the overlay network option. It explores how AGC interacts with pods using non-routable IP addresses and examines the feasibility of using VNet Flow Logs to monitor traffic between AGC and AKS.
+  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/) - *(Related to azure topic)*
+  - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing) 🌟 - An in-depth exploration of Kubernetes networking, focusing on Services, kube-proxy, and load balancing mechanisms. The article details how pods communicate within a cluster, the role of Services in directing traffic, and managing external access. It covers ClusterIP, NodePort, and LoadBalancer service types, their implementation via iptables, and advanced topics like preserving source IPs, handling terminating endpoints, and integrating with cloud load balancers. The content is illustrated with a practical example of deploying a two-tier application.
+
 - [blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide](https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide/) Kubernetes DNS service allows you to contact services with consistent DNS names instead of IP addresses.
 
 ## TCP Keep Alive Requests
@@ -204,6 +210,8 @@
 - [==bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm==](https://bagas-awibowo.medium.com/helm-templating-network-policy-using-helm-783b2f7e401a)
 
 ## Nginx Ingress Controller
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) - InGate was an Ingress and Gateway API controller for Kubernetes, developed by the kubernetes-sigs organization. It aimed to provide advanced traffic management capabilities for Kubernetes clusters. The project has been archived and is recommended for migration to the Gateway API.
+  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik) 🌟 - This article discusses the challenges and strategies for migrating Kubernetes ingress traffic from ingress-nginx to Traefik, especially in light of ingress-nginx entering maintenance mode. It highlights Traefik's modern approach and features as a viable alternative for managing cloud-native API gateways.
 
 - [blog.teamhephy.info: Learn how to use the Nginx Ingress controller to serve traffic over SSH with TCP load balancing](https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html)
 - [nginx.com: A Guide to Choosing an Ingress Controller, Part 4: NGINX Ingress Controller Options](https://www.nginx.com/blog/guide-to-choosing-ingress-controller-part-4-nginx-ingress-controller-options/)
@@ -234,11 +242,14 @@
 - [navendu.me: Comparing Kubernetes Gateway and Ingress APIs](https://navendu.me/posts/gateway-vs-ingress-api/) In this article, you will explore the new Kubernetes Gateway API and compare it with the existing Kubernetes Ingress API for handling external traffic
 
 ## Kube-proxy
+  - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/) 🌟 - This article introduces the new nftables mode for kube-proxy, an alpha feature in Kubernetes 1.29 that is currently in beta and expected to reach General Availability (GA) in version 1.33. The new mode addresses long-standing performance issues associated with the iptables mode, particularly for large Kubernetes clusters with numerous Services. It leverages the capabilities of nftables to improve data plane latency by providing a more scalable and efficient way to handle Service proxying compared to the traditional iptables approach. The article encourages users with recent kernels to try out this new mode.
 
 - [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods) In this article you will learn how Kubernetes's kube-proxy uses iptables to direct traffic to pods randomly. You'll focus on the ClusterIP type of Kubernetes services.
 - [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy/) This post analyzes the Kubernetes node proxy model, and provides 5 demo implementations (within couples of lines of code) of the model, each based on different tech-stacks (userspace/iptables/ipvs/tc-ebpf/sock-ebpf).
 
 ## Multicloud communication for Kubernetes
+  - [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) - *(Related to azure topic)*
+  - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link/) - This blog post explores the differences and commonalities between Azure VNet Service Endpoints and Azure Private Link, addressing common confusion among organizations, especially those who adopted service endpoints before Private Link's release. It provides context by tracing the evolution from public IP access to the introduction of service endpoints and then Private Link for Azure services.
 
 - [developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters 🌟](https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters/) - [skupper.io](https://skupper.io/) Multicloud communication for Kubernetes. Skupper is a layer 7 service interconnect. It enables secure communication across Kubernetes clusters with no VPNs or special firewall rules. With Skupper, your application can span multiple cloud providers, data centers, and regions.
 
@@ -292,6 +303,7 @@ Cilium allows users to specify an egress NAT policy
 - [==ahmetb/kubernetes-network-policy-recipes== 🌟](https://github.com/ahmetb/kubernetes-network-policy-recipes) Example recipes for Kubernetes Network Policies that you can just copy paste. This repository contains various use cases of Kubernetes Network Policies and sample YAML files to leverage in your setup. If you ever wondered how to drop/restrict traffic to applications running on Kubernetes, this is for you
 
 ## Kubernetes Ingress Specification
+  - [Azure Front Door Integration with AKS Ingress for TLS and App Routing](http://blog.aks.azure.com/2025/03/14/afd-aks-ingress-tls-approuting) 🌟 - This blog post details how to integrate Azure Front Door (AFD) with Azure Kubernetes Service (AKS) Ingress controller to handle TLS termination and application routing. It provides a technical walkthrough for setting up a more robust and scalable ingress solution for Kubernetes applications hosted on AKS.
 
 - [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/)
 - [medium: Ingress service types in Kubernetes 🌟](https://medium.com/faun/ingress-service-types-in-kubernetes-3e9b68b78307)
@@ -425,3 +437,4 @@ Cilium allows users to specify an egress NAT policy
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you deal with peaks of traffic in Kubernetes?<br><br>You can use an autoscaler, but how should you configure and test it?<br><br>Let&#39;s dive into it. <a href="https://t.co/AxfEgqyEFW">pic.twitter.com/AxfEgqyEFW</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1647935320288284673?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) - *(Related to kubernetes topic)*

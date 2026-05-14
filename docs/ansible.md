@@ -189,6 +189,7 @@
     - [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn) In this tutorial, we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.
 
 ## Ansible Playbooks
+  - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) 🌟 - A GitHub repository containing example Ansible playbooks and roles specifically tailored for DevOps practices. It covers various use cases, including infrastructure deployment, application configuration, and automation for common DevOps tools.
 
 - [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible) Build a Kubernetes cluster using Ansible with k3s.
 - [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) Ansible role for installing k3s as either a standalone server or HA cluster.
@@ -332,6 +333,7 @@
 - [https://github.com/awesome-devops/awesome-ansible](https://github.com/awesome-devops/awesome-ansible)
 
 ## Ansible and Public Cloud Guides
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/) 🌟 - This guide explains the core concept of Ansible Inventory, detailing its role in organizing and defining automation targets. It covers both static and dynamic inventory types, their respective formats (INI and YAML), and how to configure dynamic inventories using plugins with sources like NetBox. The article also touches upon inventory filtering for precise host automation.
 
 - [Public Cloud Guides 🌟](https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html)
 - [Ansible to automate Microsoft Azure](https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure)

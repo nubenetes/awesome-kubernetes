@@ -24,6 +24,8 @@
 - [Gatling vs JMeter](https://dzone.com/articles/gatling-vs-jmeter)
 
 ## Performance testing of microservices running on Kubernetes
+  - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) - *(Related to kubernetes-troubleshooting topic)*
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) - *(Related to openshift topic)*
 
 - [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) In this article, you'll learn how to measure the performance of backend applications running on Kubernetes & how to use Vegeta, a versatile HTTP load testing and benchmarking tool written in Golang
 - [garden.io: Performance testing on a microservice architecture](https://garden.io/blog/performance-testing)

@@ -11,6 +11,8 @@
 7. [Tweets](#tweets)
 
 ## SRE
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) - *(Related to ai topic)*
+  - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) - *(Related to devops topic)*
 
 - [wikipedia: Site Reliability Engineering](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 - [==sre.google: What is Site Reliability Engineering (SRE)?== 🌟](https://sre.google/)
@@ -77,6 +79,7 @@
 - [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both/) A look at the differences, what they do, how they benefit the business and why organizations need all three to succeed.
 
 ## SRE Tools
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/) - *(Related to monitoring topic)*
 
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack/)
 - [getcortexapp.com: A guide to the best SRE tools](https://www.getcortexapp.com/post/a-guide-to-the-best-sre-tools)
