@@ -82,6 +82,8 @@
 - [medium.com/google-cloud: Design your Landing Zone — Design Considerations Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)
 
 ## Dev Library
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) - *(Related to ai-agents-mcp topic)*
+  - [Google Agents CLI for Building and Deploying AI Agents on Google Cloud](https://github.com/google/agents-cli) - *(Related to ai-agents-mcp topic)*
 
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
 
