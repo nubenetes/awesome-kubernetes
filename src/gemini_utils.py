@@ -31,6 +31,52 @@ class GeminiDiagnostics:
             report += "\n"
         return report
 
+async def resolve_url(url: str) -> str:
+    """Sigue las redirecciones para obtener la URL larga final y consolida repositorios si fallan."""
+    shorteners = ['t.co', 'bit.ly', 'buff.ly', 'goo.gl', 'tinyurl.com', 't.ly', 'rb.gy', 'is.gd', 'drp.li', 't.me']
+    try:
+        domain = url.split("//")[-1].split("/")[0].lower()
+    except:
+        return url
+    
+    # 1. Expansión inicial
+    final_url = url
+    if domain in shorteners or url.endswith('…'):
+        try:
+            async with httpx.AsyncClient(follow_redirects=True) as client:
+                resp = await client.head(url, timeout=5)
+                final_url = str(resp.url)
+                if final_url != url:
+                    log_event(f"  [🔗] URL Expandida: {url} -> {final_url}")
+        except:
+            pass
+
+    # 2. Consolidación de Repositorios (GitHub/GitLab)
+    repo_domains = ['github.com', 'gitlab.com']
+    current_domain = final_url.split("//")[-1].split("/")[0].lower()
+    
+    if any(d in current_domain for d in repo_domains):
+        # Intentar validar si el enlace profundo funciona
+        try:
+            async with httpx.AsyncClient(follow_redirects=True) as client:
+                resp = await client.head(final_url, timeout=5)
+                if resp.status_code == 200:
+                    return final_url
+                
+                # Si falla, intentar consolidar a la raíz del repo
+                # Formato esperado: https://github.com/user/repo/...
+                parts = final_url.split('/')
+                if len(parts) > 4: # https: , , domain, user, repo
+                    root_repo = "/".join(parts[:5])
+                    resp_root = await client.head(root_repo, timeout=5)
+                    if resp_root.status_code == 200:
+                        log_event(f"  [📦] Consolidación: {final_url} -> {root_repo} (Raíz validada)")
+                        return root_repo
+        except:
+            pass
+            
+    return final_url
+
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
     """
     Llama a la API de Gemini con rotación exhaustiva y REINTENTO REAL en 429.

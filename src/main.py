@@ -12,7 +12,7 @@ from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
 
-from src.state_manager import get_last_date, save_state
+from src.gemini_utils import call_gemini_with_retry, resolve_url
 
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
@@ -82,7 +82,29 @@ async def master_orchestrator():
         log_event("[!] No se encontraron nuevos enlaces para procesar.")
         return
 
-    # 3. Evaluación y Registro (Deduplicación Global Robusta)
+    # 3. Expansión y Deduplicación Inicial
+    log_event(f"[*] Expandiendo y deduplicando {len(all_raw_assets)} enlaces brutos...")
+    
+    async def process_asset(asset):
+        expanded_url = await resolve_url(asset["url"])
+        asset["url"] = expanded_url
+        return asset
+
+    all_raw_assets = await asyncio.gather(*[process_asset(a) for a in all_raw_assets])
+    
+    unique_assets_map = {}
+    for asset in all_raw_assets:
+        clean_url = asset["url"].split('#')[0].rstrip('/').lower()
+        if clean_url not in unique_assets_map:
+            unique_assets_map[clean_url] = asset
+        else:
+            if len(asset.get("context", "")) > len(unique_assets_map[clean_url].get("context", "")):
+                unique_assets_map[clean_url] = asset
+
+    all_raw_assets = list(unique_assets_map.values())
+    log_event(f"[*] Total tras deduplicación inicial: {len(all_raw_assets)} enlaces únicos.")
+
+    # 4. Evaluación y Registro (Deduplicación Global Robusta)
     existing_urls = set()
     for root, dirs, files in os.walk("docs"):
         for file in files:

@@ -8,6 +8,7 @@ Este archivo contiene las instrucciones acumuladas y la visión de largo plazo p
 2.  **Aprendizaje Persistente**: Utiliza `src/memory/health_learning.json` para almacenar el conocimiento sobre dominios (bloqueos anti-bot, estrategias exitosas) y patrones de navegación.
 3.  **Resiliencia Total**: El workflow debe ser capaz de continuar incluso si hay errores individuales en validaciones de links o archivos. Prioriza generar un resultado (PR) aunque sea parcial.
 4.  **Consolidación de Repositorios**: Ante un fallo en un enlace profundo de GitHub/GitLab, intenta siempre validar la raíz del repositorio antes de darlo por muerto. Preferimos enlaces estables a raíces de repositorios que deep-links volátiles.
+5.  **Expansión de URLs**: Todos los enlaces acortados (t.co, bit.ly, buff.ly, etc.) DEBEN ser expandidos a su versión larga original antes de ser evaluados o inyectados. Esto garantiza la homogeneidad del inventario y mejora la precisión de la deduplicación global.
 
 ## 🛠️ Evolución Estructural (Progressive Reorganization)
 

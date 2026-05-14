@@ -60,20 +60,39 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             log_event(f"  [-] RECHAZADO: Dominio en lista negra ({domain})")
             evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra"}
             continue
-...
+
+        web_content = await _deep_fetch_content(asset['url'])
+        
+        prompt = (
+            "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
+            "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
+            "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total (publicidad agresiva, error 404, o contenido no técnico).\n\n"
+            f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
+            "INSTRUCCIONES:\n"
+            "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos según su temática.\n"
+            "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X) ya que suele explicar por qué se compartió.\n"
+            "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'.\n\n"
+            f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:2000]}\n\n"
+            "Evalúa el IMPACTO TÉCNICO (1-100):\n"
+            "- >80: Recurso excepcional (🌟).\n"
+            "- >5: Aceptar (si encaja en alguna categoría).\n"
+            "- <5: Descartar (Ruido absoluto).\n\n"
+            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Breve explicación de por qué esta categoría y score\", \"rejection_reason\": \"... (si aplica)\"}"
+        )
+
         try:
             data = await call_gemini_with_retry(prompt)
             score = data.get("impact_score", 50)
             valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
             reasoning = data.get("reasoning", "Sin motivo especificado")
             
-            if score < 20:
+            if score < 5:
                 reason = data.get("rejection_reason", "Bajo impacto técnico")
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": reason}
                 log_event(f"  [-] RECHAZADO: {reason} (Score: {score})")
                 log_event(f"      Motivo IA: {reasoning}")
                 
-                if score < 10 and domain not in domain_blacklist:
+                if score < 1 and domain not in domain_blacklist:
                     domain_blacklist.add(domain)
                     log_event(f"  [!] Dominio {domain} añadido a lista negra.")
             elif not valid_cats:
@@ -171,10 +190,6 @@ class AgenticCurator:
             # Por ahora, solo logueamos la intención para no romper el flujo principal
             # En una fase futura, implementaremos el split físico de archivos.
             log_event(f"  [>>>] SUGERENCIA: Subdividir {file} para mejorar legibilidad.")
-
-    def validate_changes(self) -> bool:
-        return True
-
 
     def validate_changes(self) -> bool:
         return True
