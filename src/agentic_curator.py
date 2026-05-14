@@ -85,9 +85,12 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     for i, asset in enumerate(raw_assets):
         post_date = asset.get('timestamp', 'Unknown date')
         context = asset.get('context', asset.get('description', 'No additional context'))
+        source = asset.get('source_type', 'Social')
+        is_primary = "nubenetes" in source.lower()
         
         log_event(f"--- EVALUATING {i+1}/{len(raw_assets)} ---", section_break=False)
         log_event(f"  - URL: {asset['url']}")
+        log_event(f"  - Source: {source} {'(Primary)' if is_primary else '(External)'}")
 
         domain = asset['url'].split("//")[-1].split("/")[0]
         if domain in domain_blacklist:
@@ -110,9 +113,19 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         web_content = await _deep_fetch_content(asset['url'])
         
         log_event(f"  [*] Calling Gemini for evaluation...")
+        
+        strictness_directive = ""
+        if not is_primary:
+            strictness_directive = (
+                "STRICTNESS: This source is EXTERNAL (not the primary account).\n"
+                "BE EXTREMELY SELECTIVE. Only accept links that are TOP-TIER, INNOVATIVE, or HIGHLY RELEVANT for Kubernetes/Cloud Native ecosystem.\n"
+                "Reject generic news, common tutorials, or low-value tools.\n"
+            )
+
         prompt = (
             "You act as a Senior Curation Engineer for 'nubenetes/awesome-kubernetes'.\n"
             "Your mission is to catalog TECHNICAL content about Kubernetes and Cloud Native shared by the user.\n"
+            f"{strictness_directive}"
             "GOLDEN RULE: If the link is in the feed, it's because the user considers it useful. DO NOT discard unless it is total noise.\n\n"
             f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
             "INSTRUCTIONS:\n"
@@ -142,9 +155,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
 
             reasoning = data.get("reasoning", "No reason specified")
             
-            if score < 5:
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Low technical impact"}
-                log_event(f"  [-] REJECTED: Low technical impact (Score: {score})")
+            # Apply Differentiated Thresholds
+            min_score = 5 if is_primary else 80 # Much stricter for external sources
+            
+            if score < min_score:
+                reason = "Low technical impact" if is_primary else f"Insufficient impact for external source (Score: {score}/80 required)"
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": reason}
+                log_event(f"  [-] REJECTED: {reason}")
             elif not primary_cat:
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No valid technical category found"}
                 log_event(f"  [-] REJECTED: No valid category found")
