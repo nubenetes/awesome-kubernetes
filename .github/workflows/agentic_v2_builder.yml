@@ -39,7 +39,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONPATH: .
         run: |
-          python src/v2_optimizer.py
+          python -u src/v2_optimizer.py
           
       - name: Create Pull Request for V2 Elite Update
         uses: peter-evans/create-pull-request@v6
