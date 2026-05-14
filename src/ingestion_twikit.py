@@ -32,11 +32,14 @@ class SocialDataExtractor:
             "x.com", "twitter.com", "abs.twimg", "pbs.twimg", 
             "notoriete-web.com", "google-analytics", "doubleclick", 
             "facebook.com", "linkedin.com/sharing", "buffer.com",
-            "help.twitter", "archive.org", "nitter"
+            "help.twitter", "archive.org", "nitter", "schema.org",
+            "fonts.gstatic.com", "fonts.googleapis.com", "w.org",
+            "wp.com", "gravatar.com", "xmlrpc.php"
         ]
         valid_urls = []
         for u in urls:
-            if all(d not in u.lower() for d in noise_domains):
+            u_clean = u.rstrip('/').split('?')[0].lower()
+            if not any(d in u_clean for d in noise_domains):
                 valid_urls.append(u)
         return list(set(valid_urls))
 
@@ -189,6 +192,7 @@ class SocialDataExtractor:
 
         # Fallback a RSS (menos preciso en fechas, pero útil como respaldo)
         self.log_audit("RSS Fallback", None, "Intentando vía RSS-Bridge...")
+        from bs4 import BeautifulSoup
         bridges = ["rssbridge.org", "rss.idoc.pub"]
         for b in bridges:
             url = f"https://{b}/?action=display&bridge=TwitterBridge&context=By+username&user={self.target_account}&format=Mrss"
@@ -196,10 +200,27 @@ class SocialDataExtractor:
                 async with aiohttp.ClientSession() as session:
                     async with session.get(url, timeout=20) as resp:
                         if resp.status == 200:
-                            urls = self._extract_urls_from_text(await resp.text())
-                            valid = [u for u in urls if all(x not in u for x in ["x.com", "twitter.com", "t.co", b])]
-                            if valid:
-                                self.log_audit(f"RSS-Bridge ({b})", True, f"Encontrados {len(valid)} enlaces.")
-                                return [{"url": u, "context": "RSS Feed", "timestamp": datetime.now(MADRID_TZ).isoformat(), "source_type": "X.com (RSS)"} for u in valid]
+                            xml_content = await resp.text()
+                            soup = BeautifulSoup(xml_content, 'xml')
+                            items = soup.find_all('item')
+                            
+                            results = []
+                            for item in items:
+                                desc = item.find('description')
+                                desc_text = desc.get_text() if desc else ""
+                                title = item.find('title')
+                                title_text = title.get_text() if title else ""
+                                
+                                found_urls = self._extract_urls_from_text(title_text + " " + desc_text)
+                                for u in found_urls:
+                                    results.append({
+                                        "url": u, "context": desc_text[:200], 
+                                        "timestamp": datetime.now(MADRID_TZ).isoformat(), 
+                                        "source_type": f"X.com (RSS-{b})"
+                                    })
+                            
+                            if results:
+                                self.log_audit(f"RSS-Bridge ({b})", True, f"Encontrados {len(results)} enlaces en {len(items)} items.")
+                                return results
             except: continue
         return []
