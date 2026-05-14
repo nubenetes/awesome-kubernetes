@@ -69,48 +69,49 @@
 66. [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
 67. [Azure AAD Pod Identity](#azure-aad-pod-identity)
 68. [Azure Related](#azure-related)
-69. [kubernetes-operators-controllers](#kubernetes-operators-controllers)
-70. [MicroShift](#microshift)
-71. [kubernetes-networking](#kubernetes-networking)
-72. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
-73. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
-74. [Auto-portforward (apf)](#auto-portforward-apf)
-75. [Gardener](#gardener)
-76. [Werf](#werf)
-77. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
-78. [Netshoot](#netshoot)
-79. [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
-80. [Kratix](#kratix)
-81. [gRPC-Gateway](#grpc-gateway)
-82. [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
-83. [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
-84. [vcluster](#vcluster)
-85. [Kateyes](#kateyes)
-86. [Keepass Secret](#keepass-secret)
-87. [Workflow Schedulers](#workflow-schedulers)
+69. [Related AI](#related-ai)
+70. [kubernetes-operators-controllers](#kubernetes-operators-controllers)
+71. [MicroShift](#microshift)
+72. [kubernetes-networking](#kubernetes-networking)
+73. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
+74. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
+75. [Auto-portforward (apf)](#auto-portforward-apf)
+76. [Gardener](#gardener)
+77. [Werf](#werf)
+78. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
+79. [Netshoot](#netshoot)
+80. [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
+81. [Kratix](#kratix)
+82. [gRPC-Gateway](#grpc-gateway)
+83. [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
+84. [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
+85. [vcluster](#vcluster)
+86. [Kateyes](#kateyes)
+87. [Keepass Secret](#keepass-secret)
+88. [Workflow Schedulers](#workflow-schedulers)
     1. [Komodor Workflows](#komodor-workflows)
-88. [Azure Eraser](#azure-eraser)
-89. [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
-90. [ConfigMap Reloader](#configmap-reloader)
-91. [Kluctl](#kluctl)
-92. [k2tf Kubernetes YAML to Terraform HCL converter](#k2tf-kubernetes-yaml-to-terraform-hcl-converter)
-93. [Kubernetes Security Tools](#kubernetes-security-tools)
-94. [PureLB](#purelb)
-95. [Murre](#murre)
-96. [k9s](#k9s)
-97. [Pluto](#pluto)
-98. [Konf Lightweight Kubeconfig Manager](#konf-lightweight-kubeconfig-manager)
-99. [K8spacket](#k8spacket)
-100. [Infrastructure as Code using Kubernetes. Config Connector](#infrastructure-as-code-using-kubernetes-config-connector)
-101. [Claudie Cloud-agnostic managed Kubernetes](#claudie-cloud-agnostic-managed-kubernetes)
-102. [Observability Monitoring Tools](#observability-monitoring-tools)
+89. [Azure Eraser](#azure-eraser)
+90. [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
+91. [ConfigMap Reloader](#configmap-reloader)
+92. [Kluctl](#kluctl)
+93. [k2tf Kubernetes YAML to Terraform HCL converter](#k2tf-kubernetes-yaml-to-terraform-hcl-converter)
+94. [Kubernetes Security Tools](#kubernetes-security-tools)
+95. [PureLB](#purelb)
+96. [Murre](#murre)
+97. [k9s](#k9s)
+98. [Pluto](#pluto)
+99. [Konf Lightweight Kubeconfig Manager](#konf-lightweight-kubeconfig-manager)
+100. [K8spacket](#k8spacket)
+101. [Infrastructure as Code using Kubernetes. Config Connector](#infrastructure-as-code-using-kubernetes-config-connector)
+102. [Claudie Cloud-agnostic managed Kubernetes](#claudie-cloud-agnostic-managed-kubernetes)
+103. [Observability Monitoring Tools](#observability-monitoring-tools)
     1. [Debugging and Troubleshooting Tools](#debugging-and-troubleshooting-tools)
-103. [Security](#security)
-104. [Develop microservices locally while being connected to your Kubernetes environment](#develop-microservices-locally-while-being-connected-to-your-kubernetes-environment)
-105. [AI Tools](#ai-tools)
-106. [Tweets](#tweets)
-107. [Videos](#videos)
-108. [kubernetes-tools](#kubernetes-tools)
+104. [Security](#security)
+105. [Develop microservices locally while being connected to your Kubernetes environment](#develop-microservices-locally-while-being-connected-to-your-kubernetes-environment)
+106. [AI Tools](#ai-tools)
+107. [Tweets](#tweets)
+108. [Videos](#videos)
+109. [kubernetes-tools](#kubernetes-tools)
 
 ## Introduction
 
@@ -142,6 +143,7 @@
 - [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
+  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support](https://t.co/C6uicr7ZPS) - *(Related to terraform topic)*
   - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) 🌟 - Floci is a free and open-source local emulator for AWS services, designed to be an alternative to AWS Localstack. It leverages Docker Compose for easy setup and operation, providing a local development environment without requiring AWS accounts or facing feature gates. The project aims to offer a 'light, fluffy, and always free' experience for developers working with AWS services.
   - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) - Tabularis is an open-source desktop client designed for modern databases. It offers support for PostgreSQL, MySQL/MariaDB, and SQLite, featuring SQL notebooks, AI functionalities, MCP integration, and an external plugin system. The README provides installation instructions for Windows and macOS.
   - [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) - Kubeterm is a desktop and mobile graphical management tool for Kubernetes clusters. It offers clear visibility, easy resource and application management, and troubleshooting capabilities without requiring any installation within the cluster. It supports automatic kubeconfig loading and integrates with cloud provider accounts (GCP, Azure, AWS) for cluster import.
@@ -157,6 +159,7 @@
   - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) - KubeUI is a desktop application designed to simplify day-to-day Kubernetes cluster management. It offers features for browsing Kubernetes resources and editing YAML manifests directly from a desktop environment.
 
 ## CI/CD Tools
+  - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) - *(Related to iac topic)*
   - [PMEase QuickBuild](https://www.pmease.com/) - *(Related to cicd topic)*
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) - *(Related to gitops topic)*
   - [FossFLOW](https://github.com/stan-smith/FossFLOW) - *(Related to cicd topic)*
@@ -1032,6 +1035,10 @@ elastic quotas - Effortless optimization at its finest!
 ## Azure AAD Pod Identity
 
 ## Azure Related
+
+## Related AI
+  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) - *(Related to ai topic)*
+  - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - *(Related to ai topic)*
 
 ## kubernetes-operators-controllers
   - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) - *(Related to kubernetes-operators-controllers topic)*
