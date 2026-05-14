@@ -38,6 +38,7 @@
 - [github.com/robusta-dev/chatgpt-yaml-generator](https://github.com/robusta-dev/chatgpt-yaml-generator)
 
 ## Explained by ChatGPT
+  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for/) - *(Related to ai topic)*
 
 ### DevOps Compliance
 
@@ -72,6 +73,13 @@
 > *In summary, both approaches have their advantages and disadvantages and are suited to different situations and needs. It depends on the preferences and skills of the development and IT operations team to choose the appropriate approach for their organization.*
 
 ## Tools
+  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
+  - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) - *(Related to ai topic)*
+  - [Claude 101: Free Guides to Master Claude](https://claude101.com/) - *(Related to ai topic)*
+  - [Think Python](https://www.google.com/share.google?q=rRH2WBGGgW1LON3N1) - *(Related to python topic)*
+  - [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task/) - *(Related to ai topic)*
+  - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) - *(Related to ai topic)*
+  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga/) - *(Related to cicd topic)*
 
 - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot/) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
 - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
