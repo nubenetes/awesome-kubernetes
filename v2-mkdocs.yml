@@ -1,6 +1,6 @@
 site_name: "Nubenetes V2 | The Architect's Cut"
 site_url: "https://nubenetes.com/v2/"
-site_description: "Enterprise-grade curated portal for the 2026 Cloud Native ecosystem."
+site_description: "Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources."
 site_author: "Inaki Fernandez"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
 
@@ -11,6 +11,7 @@ edit_uri: "edit/master/v2-docs/"
 theme:
   name: material
   language: en
+  favicon: images/favicon-car.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -36,12 +37,26 @@ theme:
     - navigation.indexes
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     - content.action.view
     - content.action.edit
+    - toc.integrate
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nubenetes/awesome-kubernetes
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nubenetes
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/1937212/
+  version:
+    provider: mike # Ready for version switching
 
 extra_css:
-  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
+  - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
+  - static/extra.css
 
 markdown_extensions:
   - admonition
@@ -52,12 +67,14 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.mermaid_format
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: "material.extensions.emoji.twemoji"
+      emoji_generator: "material.extensions.emoji.to_svg"
   - attr_list
   - md_in_html
   - toc:
       permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - "The 2026 Vision": index.md
