@@ -1,0 +1,58 @@
+name: Nubenetes V2 Agentic Builder
+
+on:
+  workflow_dispatch:
+  # Automatically run after a successful curation run to sync V2
+  workflow_run:
+    workflows: ["Nubenetes Automated Agentic Curation"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build-v2-edition:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v4
+        with:
+          ref: develop
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installation of Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml
+          
+      - name: Run V2 Agentic Optimizer
+        env:
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: .
+        run: |
+          python src/v2_optimizer.py
+          
+      - name: Create Pull Request for V2 Elite Update
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/v2-elite-sync
+          base: develop
+          title: "V2 Elite: Agentic Optimization Sync (2026)"
+          body: |
+            This PR updates the Nubenetes V2 (Agentic Elite) edition.
+            
+            The AI agent has scanned the V1 archive and selected the top-tier resources according to 2026 architectural standards.
+            - GitHub Repos inactive for too long have been deprioritized.
+            - Fundational 'Awesome' lists have been preserved.
+            - Redundancy has been reduced to focus on innovation.
+          commit-message: "feat: sync V2 elite curated edition"
+          labels: "v2-elite, agentic-sync"
