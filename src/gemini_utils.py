@@ -148,7 +148,10 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             break
                             
                     except Exception as e:
-                        diagnostics.add_attempt(model, 0, f"Exception: {str(e)}")
+                        import traceback
+                        error_msg = f"{type(e).__name__}: {str(e)}"
+                        diagnostics.add_attempt(model, 0, error_msg)
+                        log_event(f"  [!] Model {model} failed with exception: {error_msg}")
                         break
                 
                 if key_blocked:

@@ -16,9 +16,10 @@ This file contains the accumulated instructions and long-term vision for the aut
 10. **Official Language (English Only)**: All injected content (titles, descriptions, headers), execution logs, and automated communications (PRs) MUST be exclusively in ENGLISH. Nubenetes is a global resource and linguistic consistency is critical.
 11. **Workflow-Config Synchronization**: The GitHub Actions curation workflow form (`agentic_cron.yml`) MUST remain perfectly synchronized with the curation sources configuration file (`data/curation_sources.yaml`). Any addition, removal, or renaming of topics/categories in the configuration file requires a corresponding update to the workflow's input fields (checkboxes) to ensure users can toggle those sources manually. This maintains consistency between data-driven sources and the UI trigger.
 12. **V2 Elite Maintenance**: The Nubenetes V2 (Agentic Elite) edition is a derived view of the V1 archive. It is managed via the `src/v2_optimizer.py` script and stored in the `v2-docs/` directory. AI agents MUST NOT modify `v2-docs/` directly via standard curation workflows; they must only use the `agentic_v2_builder.yml` workflow to perform the periodic "Elite Selection" process. Standard curation and cleaning workflows must always target the `docs/` directory as the primary source of truth.
+13. **Detailed Logging for V2**: When running the V2 Optimizer, agents MUST use unbuffered logging and detailed output messages. If the optimizer returns '0 links kept', the agent MUST investigate the logs to determine if it was due to AI selection or a parsing/API error.
 
 ## 🛠️ Structural Evolution & Navigation
-
+...
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
 *   **TOC Consistency**: Every `.md` page (including the main index `docs/index.md`) MUST maintain an internal Table of Contents (TOC) at the beginning. This TOC must include all sections (##) and subsections (###) nested correctly using a numbered list format with working anchors.
 *   **Relative References & Anchors**:

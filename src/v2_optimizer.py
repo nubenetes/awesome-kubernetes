@@ -40,47 +40,75 @@ class V2Optimizer:
             # If no links, just copy the structure/headers
             headers = [l for l in content.splitlines() if l.startswith("#")]
             with open(v2_path, "w") as f:
-                f.write("\n".join(headers) + "\n\n*Content coming soon as part of the 2026 Agentic Elite curation.*")
+                v2_header = f"# {filename.replace('.md', '').capitalize()} (Elite Selection)\n\n"
+                v2_header += "!!! info \"Note\"\n    This category is currently under review by our Agentic AI.\n\n"
+                f.write(v2_header + "\n".join(headers))
             return
 
         formatted_links = []
-        for title, url, desc in links:
-            formatted_links.append(f"- [{title}]({url}) {desc.strip()}")
-
-        log_event(f"[*] V2 Optimizer: Analyzing {len(formatted_links)} links in {filename}")
-
-        prompt = (
-            f"{self.elite_criteria}\n"
-            f"FILE: {filename}\n"
-            f"LINKS TO EVALUATE:\n" + "\n".join(formatted_links[:100]) + "\n\n"
-            "Respond ONLY with a JSON list of indices to KEEP. "
-            "Example: [0, 5, 22]. Remember to ALWAYS keep 'Awesome' repos."
-        )
-
-        try:
-            indices = await call_gemini_with_retry(prompt)
-            if not isinstance(indices, list): indices = []
+        pre_selected_indices = []
+        for i, (title, url, desc) in enumerate(links):
+            link_text = f"[{title}]({url}) {desc.strip()}"
+            formatted_links.append(f"{i}. {link_text}")
             
-            selected_links = [formatted_links[i] for i in indices if i < len(formatted_links)]
-            
-            # Reconstruct V2 file
-            v2_content = f"# {filename.replace('.md', '').capitalize()} (Elite Selection)\n\n"
-            v2_content += "!!! abstract \"2026 Agentic Vision\"\n"
-            v2_content += "    This page contains a curated selection of top-tier resources, strictly filtered by our Agentic AI for high impact and modern relevance.\n\n"
-            
-            if selected_links:
-                v2_content += "## Selected Resources\n"
-                v2_content += "\n".join(selected_links)
-            else:
-                v2_content += "\n*No resources met the elite criteria for this specific category yet.*"
+            # MANDATE: Always keep Awesome lists
+            if "awesome" in title.lower() or "awesome" in url.lower():
+                pre_selected_indices.append(i)
 
-            with open(v2_path, "w") as f:
-                f.write(v2_content)
+        log_event(f"[*] V2 Optimizer: Analyzing {len(formatted_links)} links in {filename} (Pre-selected Awesome: {len(pre_selected_indices)})")
+
+        # Split into manageable chunks if too many links
+        MAX_LINKS_PER_PROMPT = 150
+        all_selected_indices = set(pre_selected_indices)
+        
+        for chunk_start in range(0, len(formatted_links), MAX_LINKS_PER_PROMPT):
+            chunk = formatted_links[chunk_start:chunk_start + MAX_LINKS_PER_PROMPT]
+            
+            prompt = (
+                f"{self.elite_criteria}\n"
+                f"FILE: {filename}\n"
+                f"LINKS TO EVALUATE (Indices {chunk_start} to {chunk_start + len(chunk) - 1}):\n" + "\n".join(chunk) + "\n\n"
+                "Respond ONLY with a JSON object: {\"keep_indices\": [int, int, ...]}\n"
+                "Example: {\"keep_indices\": [0, 5, 22]}"
+            )
+
+            try:
+                log_event(f"  [>] Requesting AI selection for chunk {chunk_start}...")
+                response_data = await call_gemini_with_retry(prompt)
                 
-            log_event(f"  [OK] V2 file generated: {v2_path} ({len(selected_links)} links kept)")
+                # Robust parsing of keep_indices
+                indices = []
+                if isinstance(response_data, dict):
+                    indices = response_data.get("keep_indices", [])
+                elif isinstance(response_data, list):
+                    indices = response_data
+                
+                for idx in indices:
+                    try:
+                        all_selected_indices.add(int(idx))
+                    except: continue
+                    
+            except Exception as e:
+                log_event(f"  [!] AI error on chunk {chunk_start}: {e}")
 
-        except Exception as e:
-            log_event(f"  [!] Error optimizing {filename} for V2: {e}")
+        # Final reconstruction
+        selected_links = [links[i] for i in sorted(list(all_selected_indices)) if i < len(links)]
+        
+        v2_content = f"# {filename.replace('.md', '').capitalize()} (Elite Selection)\n\n"
+        v2_content += "!!! abstract \"2026 Agentic Vision\"\n"
+        v2_content += "    This page contains a curated selection of top-tier resources, strictly filtered by our Agentic AI for high impact and modern relevance.\n\n"
+        
+        if selected_links:
+            v2_content += "## Selected Resources\n"
+            for title, url, desc in selected_links:
+                v2_content += f"  - [{title}]({url}){desc}\n"
+        else:
+            v2_content += "\n*No resources met the elite criteria for this specific category yet.*"
+
+        with open(v2_path, "w") as f:
+            f.write(v2_content)
+            
+        log_event(f"  [OK] V2 file generated: {v2_path} (Total kept: {len(selected_links)})")
 
     async def run_full_optimization(self):
         log_event("STARTING V2 AGENTIC OPTIMIZATION (THE ARCHITECT'S CUT)", section_break=True)
