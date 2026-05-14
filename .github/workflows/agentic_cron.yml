@@ -66,6 +66,7 @@ jobs:
           TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
           TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'search' }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
