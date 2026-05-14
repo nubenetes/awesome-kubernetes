@@ -13,6 +13,12 @@ Resources, tools, and projects related to autonomous AI agents, Model Context Pr
 - [modelcontextprotocol.io: MCP Official Documentation](https://modelcontextprotocol.io/introduction)
 
 ## AI Agents
+  - [Google's Official Skills Repository for AI Agents](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) 🌟 - Google lanza un repositorio oficial de 'skills' para agentes de IA, utilizando el Model Context Protocol (MCP) para mejorar la eficiencia y reducir el 'context bloat' al interactuar con tecnologías como GKE.
+  - [Google Agents CLI: Herramientas para crear y desplegar agentes de IA en Google Cloud](https://github.com/google/agents-cli) 🌟 - El CLI y las habilidades que convierten a cualquier asistente de codificación en un experto en la creación, evaluación y despliegue de agentes de IA en Google Cloud.
+  - [Announcing Azure MCP Server 2.0 Stable Release](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/) 🌟 - Microsoft anuncia el lanzamiento estable de Azure MCP Server 2.0, que implementa el protocolo MCP para la automatización de flujos de trabajo agentic en Azure, destacando el soporte para servidores MCP auto-alojados.
+  - [AZVerify: Conecta diagramas, Bicep y Azure con GitHub Copilot](https://github.com/Azure/AZVerify) 🌟 - AZVerify dota a GitHub Copilot de habilidades para conectar tu diagrama de Azure, plantillas Bicep y entorno en vivo, mitigando la deriva entre fuentes de verdad.
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - Un repositorio de GitHub que explora las mejores prácticas para codificar con Claude, transitando desde la codificación de vibración hasta la ingeniería agéntica.
+  - [Draw.io MCP para Generación de Diagramas](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) 🌟 - Este artículo explora cómo Draw.io MCP puede automatizar la generación de diagramas a partir de datos estructurados, integrándose con flujos de trabajo de ingeniería y herramientas de IA para mantener las arquitecturas como activos vivos.
 - [HolmesGPT (Robusta)](https://github.com/robusta-dev/holmesgpt) - An open-source AI agent for investigating Prometheus alerts and Kubernetes incidents. It uses LLMs to triage issues and provide recommended fixes.
 - [Skyvern](https://github.com/Skyvern-ai/Skyvern) - Automate browser-based workflows using LLMs and Computer Vision.
 
