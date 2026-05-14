@@ -11,6 +11,7 @@
 7. [Tweets](#tweets)
 
 ## SRE
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/) 🌟 - Capítulo 6 del libro SRE de Google que proporciona principios y mejores prácticas para construir sistemas exitosos de monitoreo y alerta en entornos distribuidos.
 
 - [wikipedia: Site Reliability Engineering](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 - [==sre.google: What is Site Reliability Engineering (SRE)?== 🌟](https://sre.google/)
