@@ -337,6 +337,7 @@
 - [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database/)
 
 ## Data Analytics and Visualization Tools
+  - [Tabularis: Base de Datos Tabular de Código Abierto para la IA](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) - Tabularis es una base de datos tabular de código abierto diseñada para simplificar la preparación y el acceso a datos para la IA, permitiendo a los usuarios cargar datos directamente en sus aplicaciones de IA y realizar análisis complejos.
 
 - [opensource.com: Make your data boss-friendly with EDA - Enterprise Data Analytics](https://opensource.com/article/21/4/visualize-data-eda) - [EDA](https://eda.jortilles.com/en/jortilles-english/)
 - [thenewstack.io: Kubernetes-Run Analytics at the Edge: Postgres, Kafka, Debezium](https://thenewstack.io/kubernetes-run-analytics-at-the-edge-postgres-kafka-debezium/)
