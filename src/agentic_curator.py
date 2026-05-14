@@ -26,10 +26,16 @@ def get_best_category_match(suggested: str) -> Optional[str]:
     return matches[0] if matches else None
 
 async def _deep_fetch_content(url: str) -> str:
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+    }
     try:
-        async with httpx.AsyncClient() as client:
-            resp = await client.get(url, timeout=12, headers=headers, follow_redirects=True)
+        # Stricter timeouts for Pay-as-you-go stability
+        timeout = httpx.Timeout(10.0, connect=5.0)
+        async with httpx.AsyncClient(timeout=timeout) as client:
+            resp = await client.get(url, headers=headers, follow_redirects=True)
             if resp.status_code == 200:
                 from bs4 import BeautifulSoup
                 soup = BeautifulSoup(resp.text, 'html.parser')
@@ -156,8 +162,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             log_event(f"  [!] ERROR EVALUATING {asset['url']}: {e}")
             evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Evaluation Failed"}
         
-        # Increased safety delay to avoid hitting rate limits too fast (15 RPM default for Gemini Free)
-        await asyncio.sleep(2.0)
+        # Re-optimized for Pay-as-you-go
+        await asyncio.sleep(1.0)
             
     try:
         os.makedirs(os.path.dirname(memory_file), exist_ok=True)
