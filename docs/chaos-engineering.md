@@ -7,6 +7,7 @@
 5. [Videos](#videos)
 
 ## Introduction
+  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) 🌟 - A curated list of Chaos Engineering resources, covering principles, culture, books, tools, papers, and community events.
 
 - [thenewstack.io: Chaos Engineering Is Not Just for Ops](https://thenewstack.io/chaos-engineering-is-not-just-for-ops/)
 - [thenewstack.io: Why Chaos Engineering Isn’t Just for Operations](https://thenewstack.io/why-chaos-engineering-isnt-just-for-operations/)
@@ -16,6 +17,7 @@
 - [faun.pub: What is Chaos Engineering?](https://faun.pub/what-is-chaos-engineering-a89b64db9af0) Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
 
 ## Chaos Engineering for kubernetes/Openshift
+  - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) - *(Related to devops topic)*
 
 - [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other/)
 - [GitHub: kube-monkey](https://github.com/asobti/kube-monkey) An implementation of Netflix's Chaos Monkey for Kubernetes clusters
