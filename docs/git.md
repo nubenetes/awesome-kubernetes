@@ -638,6 +638,7 @@ git rebase -i HEAD~5
 - [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/redhat-actions/openshift-actions-runner-chart)
 
 ### GitHub Copilot
+  - [Using Workspaces for AI Changes Across Multiple Repositories](https://ettema.dev/posts/ai-multi-repo-workspaces/) - *(Related to ai topic)*
 
 - [GitHub Copilot 🌟](https://copilot.github.com/) Your AI pair programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
 - [hipertextual.com: GitHub une fuerzas con OpenIA para crear una inteligencia artificial capaz de autocompletar código](https://hipertextual.com/2021/06/github-inteligencia-artificial-autocompletar-codigo) GitHub Copilot funciona con la inteligencia artificial de OpenAI. La herramienta busca mejorar el aprendizaje de lenguajes de programación.
