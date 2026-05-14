@@ -132,6 +132,7 @@
 - [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) In this post, we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
 
 ### REST API Protocol (Representational State Transfer)
+  - [REST API Handbook | Developer.WordPress.org](https://api.w.org/) - Una guía completa sobre la REST API de WordPress, que permite a las aplicaciones interactuar con sitios de WordPress enviando y recibiendo datos JSON.
 
 - [wikipedia: REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 - [geeksforgeeks.org: REST API (Introduction)](https://www.geeksforgeeks.org/rest-api-introduction/)
