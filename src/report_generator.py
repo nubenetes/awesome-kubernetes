@@ -2,11 +2,12 @@ import os
 import json
 from datetime import datetime
 
-REPORT_PATH = "/home/inafev/.gemini/tmp/awesome-kubernetes/report.html"
+REPORT_PATH = "report.html"
 
 def generate_visual_report(metrics: list) -> str:
     """Genera un reporte HTML con gráficos y tabla detallada."""
-    os.makedirs(os.path.dirname(REPORT_PATH), exist_ok=True)
+    # REPORT_PATH is now relative to current working directory
+    # No need to create directory as it goes to root of project or where script runs
     
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
