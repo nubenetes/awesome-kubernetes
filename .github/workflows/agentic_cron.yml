@@ -6,43 +6,43 @@ on:
   workflow_dispatch:
     inputs:
       start_date:
-        description: 'Fecha inicial (YYYY-MM-DD). Por defecto 2026-05-15'
+        description: 'Start date (YYYY-MM-DD). Default: 2026-05-15'
         required: true
         default: '2026-05-15'
       days_back:
-        description: 'Últimos N días (ej: 7). Prioritario sobre fecha inicial si se rellena'
+        description: 'Last N days (e.g. 7). Overrides start date if filled'
         required: false
         default: ''
       exclude_accounts:
-        description: 'Cuentas a excluir (separadas por coma, ej: nubenetes,OpenAI)'
+        description: 'Accounts to exclude (comma separated, e.g. nubenetes,OpenAI)'
         required: false
         default: ''
       include_k8s:
-        description: 'Incluir Kubernetes & Cloud Native'
+        description: 'Include Kubernetes & Cloud Native'
         type: boolean
         default: true
       include_cloud:
-        description: 'Incluir Cloud Providers (AWS/Azure/GCP)'
+        description: 'Include Cloud Providers (AWS/Azure/GCP)'
         type: boolean
         default: true
       include_ai:
-        description: 'Incluir AI & Agentic Systems'
+        description: 'Include AI & Agentic Systems'
         type: boolean
         default: true
       include_dev:
-        description: 'Incluir Developer Productivity & AI Agents'
+        description: 'Include Developer Productivity & AI Agents'
         type: boolean
         default: true
       include_data:
-        description: 'Incluir Data & Big Data'
+        description: 'Include Data & Big Data'
         type: boolean
         default: true
       include_iac:
-        description: 'Incluir Infrastructure as Code & GitOps'
+        description: 'Include Infrastructure as Code & GitOps'
         type: boolean
         default: true
       extraction_strategy:
-        description: 'Estrategia de Extracción'
+        description: 'Extraction Strategy'
         required: true
         default: 'search'
         type: choice
@@ -50,17 +50,17 @@ on:
           - search
           - scroll
       historical_mode:
-        description: 'Activar Modo Histórico'
+        description: 'Activate Historical Mode'
         required: false
         default: 'true'
         type: boolean
       historical_chunked:
-        description: 'Trocear ejecución (múltiples PRs)'
+        description: 'Chunk execution (multiple PRs)'
         required: false
         default: 'false'
         type: boolean
       historical_until_date:
-        description: 'Fecha límite superior (tramo)'
+        description: 'Upper limit date (chunk)'
         required: false
         default: ''
 
@@ -74,23 +74,23 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/develop' || github.event_name == 'schedule'
     steps:
-      - name: Sincronización del repositorio
+      - name: Repository Synchronization
         uses: actions/checkout@v4
         with:
           ref: develop
 
-      - name: Provisión del Entorno Python 3.11
+      - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalación de dependencias
+      - name: Installation of Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth pyyaml
           playwright install chromium --with-deps
 
-      - name: Ejecución de la Canalización Agéntica Integral
+      - name: Global Agentic Curation Execution
         id: run_curation
         env:
           TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
@@ -122,10 +122,10 @@ jobs:
           PR_URL=$(grep "PULL_REQUEST_URL:" output.log | awk '{print $2}')
           echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
           
-          # Lógica de Re-disparo para Modo Histórico
+          # Re-trigger logic for Historical Mode
           if [ "${{ github.event.inputs.historical_chunked }}" == "true" ] && grep -q "NEXT_CHUNK_START:" output.log; then
             NEXT_DATE=$(grep "NEXT_CHUNK_START:" output.log | awk '{print $2}')
-            echo "Disparando siguiente tramo histórico hasta: $NEXT_DATE"
+            echo "Triggering next historical chunk until: $NEXT_DATE"
             gh workflow run agentic_cron.yml -f historical_mode=true -f historical_chunked=true -f historical_until_date=$NEXT_DATE
           fi
 

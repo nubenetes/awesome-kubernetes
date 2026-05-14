@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       backup_file:
-        description: 'Ruta al fichero de backup (JSON o MD) dentro del repositorio'
+        description: 'Path to the backup file (JSON or MD) inside the repository'
         required: true
         default: 'data/backup_posts.json'
       historical_mode:
-        description: 'Activar Modo Histórico (Ignora fecha de 30 días)'
+        description: 'Activate Historical Mode (Ignores 30-day limit)'
         required: false
         default: 'true'
         type: boolean
@@ -21,23 +21,23 @@ jobs:
   backup-curation-process:
     runs-on: ubuntu-latest
     steps:
-      - name: Sincronización del repositorio
+      - name: Repository Synchronization
         uses: actions/checkout@v4
 
-      - name: Provisión del Entorno Python 3.11
+      - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalación de dependencias
+      - name: Installation of Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth
-          # Playwright es necesario porque el evaluador de Gemini o el curator podrían usarlo indirectamente, 
-          # aunque para la extracción del backup no sea estrictamente necesario.
+          # Playwright is required because Gemini evaluator or curator might use it indirectly, 
+          # even if backup extraction doesn't strictly need it.
           playwright install chromium --with-deps
 
-      - name: Ejecución de la Canalización Agéntica (Modo Backup)
+      - name: Agentic Curation Execution (Backup Mode)
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -47,8 +47,8 @@ jobs:
           PYTHONPATH: .
         run: |
           if [ ! -f "$BACKUP_FILE" ]; then
-            echo "❌ ERROR: El archivo '$BACKUP_FILE' no se encuentra en el repositorio."
-            echo "Por favor, sube el archivo a esa ruta y vuelve a intentarlo."
+            echo "❌ ERROR: File '$BACKUP_FILE' not found in repository."
+            echo "Please upload the file to that path and try again."
             exit 1
           fi
           python src/main.py
