@@ -8,15 +8,16 @@
     1. [Consul Connect](#consul-connect)
 6. [Linkerd Service Mesh](#linkerd-service-mesh)
 7. [Maesh Service Mesh](#maesh-service-mesh)
-8. [Traffic Director (Google's Service Mesh)](#traffic-director-googles-service-mesh)
+8. [Traffic Director (Google's Service Mesh)](#traffic-director-google's-service-mesh)
     1. [Google L7 Internal Load Balancer](#google-l7-internal-load-balancer)
 9. [Envoy Proxy Service Mesh](#envoy-proxy-service-mesh)
-    1. [xDS protocol (Envoy's Discovery Service Protocol)](#xds-protocol-envoys-discovery-service-protocol)
+    1. [xDS protocol (Envoy's Discovery Service Protocol)](#xds-protocol-envoy's-discovery-service-protocol)
 10. [Istio Service Mesh](#istio-service-mesh)
 11. [Open Service Mesh](#open-service-mesh)
 12. [Kourier](#kourier)
 13. [AWS App Mesh](#aws-app-mesh)
 14. [NGINX Service mesh](#nginx-service-mesh)
+15. [Kubernetes Networking](#kubernetes-networking)
 
 ## Introduction
 
@@ -74,6 +75,7 @@
 - [medianova.com: Service Mesh vs. API Gateway](https://www.medianova.com/en-blog/service-mesh-vs-api-gateway/)
 
 ## Tools For Evaluating Service Meshes
+  - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/) - *(Related to monitoring topic)*
 
 - [Meshery.io:](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
 
@@ -154,6 +156,7 @@
 - "The [gRPC project](https://grpc.io/faq/) is adding support for the **xDS protocol**, think Envoy Proxy as a library, which will provide a subset of functionality without an external proxy. 🤯 The best part, xDS based control planes such as Istio, Traffic Director, and Consul Connect should just work." Kelsey Hightower
 
 ## Istio Service Mesh
+  - [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/) - *(Related to istio topic)*
 
 - [Istio](istio.md)
 
@@ -171,6 +174,11 @@
 - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)
 
 ## NGINX Service mesh
+
+## Kubernetes Networking
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) - *(Related to kubernetes-networking topic)*
+  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik) - *(Related to kubernetes-networking topic)*
+  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/) - *(Related to kubernetes-networking topic)*
 
 - [nginx.com: Introducing NGINX Service Mesh](https://www.nginx.com/blog/introducing-nginx-service-mesh/)
 - [nginx.com: The mTLS Architecture in NGINX Service Mesh](https://www.nginx.com/blog/mtls-architecture-nginx-service-mesh/)
