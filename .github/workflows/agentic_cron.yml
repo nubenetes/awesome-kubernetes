@@ -69,8 +69,7 @@ jobs:
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |
-          python src/main.py > output.log 2>&1
-          cat output.log
+          python -u src/main.py 2>&1 | tee output.log
           
           # Lógica de Re-disparo para Modo Histórico
           if grep -q "NEXT_CHUNK_START:" output.log; then
