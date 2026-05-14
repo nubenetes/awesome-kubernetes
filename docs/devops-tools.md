@@ -8,6 +8,9 @@
 6. [CapabilityPE (capipe)](#capabilitype-capipe)
 
 ## Introduction
+  - [Claude Code Templates](https://github.com/davila7/claude-code-templates) - *(Related to ai topic)*
+  - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html) - *(Related to cheatsheets topic)*
+  - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) 🌟 - A curated list of amazingly awesome Free and Open-Source sysadmin resources, covering software for automation, backups, cloud computing, configuration management, CI/CD, databases, and more.
 
 - These tools help you manage servers and deploy happier and more often with more confidence.
 - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
@@ -38,6 +41,7 @@
 - [medium.com/4th-coffee: 10 Best DevOps Tools for Start-ups](https://medium.com/4th-coffee/10-best-devops-tools-for-start-ups-91eb69bc3128)
 
 ## Keptn
+  - [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) - *(Related to cicd topic)*
 
 - [Keptn](keptn.md)
 
@@ -48,6 +52,14 @@
 - [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) The open-source wants to expand DevOps to cover cloud and containers with its newest program.
 
 ## Devtron. Tool integration platform for kubernetes
+  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces/) - *(Related to ai topic)*
+  - [Web-Check](https://web-check.xyz/) - *(Related to kubernetes-tools topic)*
+  - [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) - *(Related to kubernetes-tools topic)*
+  - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev/) - *(Related to ai-agents-mcp topic)*
+  - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) - *(Related to kubernetes-tools topic)*
+  - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh/) - *(Related to kubernetes-tools topic)*
+  - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - *(Related to azure topic)*
+  - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - *(Related to docker topic)*
 
 - [Devtron](https://github.com/devtron-labs/devtron) is an Open Source End-to-End Software Delivery workflow for Kubernetes.
 - It leverages popular DevOps tools to provide a No-Code, ***Unified Heroku-like*** Experience for Kubernetes.
@@ -64,3 +76,7 @@
 - [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) Platform Engineering capabilities and stacks installed with one command.
 - You know what’s missing? An easy tool that just installs capibilities (ArgoCD, Datadog, KubeVirt, etc.) in an easy way. One command to do it all. A tool that easily gets whatever capabilities you want your kubernetes cluster to have deployed in production. Capipe, which stands for Capibility Platform Engineering, allows you to specify capabilities that you want to install within your Platform Engineering environment.
 
+
+  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga/) - *(Related to cicd topic)*
+  - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) - *(Related to kubernetes-tools topic)*
+  - [PMEase QuickBuild](https://www.pmease.com/) - *(Related to cicd topic)*
