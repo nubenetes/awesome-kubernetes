@@ -9,6 +9,7 @@
 7. [Airflow](#airflow)
 
 ## Introduction
+  - [CloudCanvas](https://cloudcanvas.co/) - CloudCanvas is a tool designed to visualize and manage cloud infrastructure. It allows users to create diagrams of their cloud architectures, potentially aiding in understanding, documentation, and planning.
 
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
 - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)
@@ -38,6 +39,7 @@
 - [diagrams.mingrammer.com: Diagram as Code](https://diagrams.mingrammer.com/) Diagrams lets you draw the cloud system architecture in Python code.
 
 ## K8s Diagrams
+  - [Draw.io MCP for Diagram Generation](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - This article explains the benefits of using Draw.io MCP (Model Context Protocol) for generating diagrams from structured input, such as text, CSV, or Mermaid. It highlights how this approach integrates diagrams with code and infrastructure, making them living assets that evolve with the system, which is particularly valuable for cloud, platform, and AI-assisted engineering workflows. The post details what Draw.io MCP does, how it fits into engineering workflows, provides an example of generating CI/CD diagrams, and discusses its relevance in an AI-assisted world.
 
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
@@ -50,6 +52,8 @@
 - [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/master/icons) These icons are a way to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandability
 
 ## AWS
+  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - *(Related to azure topic)*
+  - [Which Azure network design is cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/) - *(Related to azure topic)*
 
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://cloudcraft.co/)
