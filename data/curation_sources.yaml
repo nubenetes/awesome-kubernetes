@@ -1,0 +1,39 @@
+# Curation Sources for Nubenetes
+# This file defines the accounts to monitor for high-quality technical content.
+
+sources:
+  - topic: "Kubernetes & Cloud Native"
+    accounts:
+      - "nubenetes"        # Main source
+      - "kubernetesio"     # Official Kubernetes
+      - "cncf"             # Cloud Native Computing Foundation
+      - "kelseyhightower"  # Industry expert
+      - "memenetes"        # Community & technical insights
+
+  - topic: "Cloud Providers (AWS/Azure/GCP)"
+    accounts:
+      - "awscloud"
+      - "Azure"
+      - "GoogleCloud"
+      - "QuinnyPig"        # AWS Billing/FinOps expert
+
+  - topic: "AI & Agentic Systems"
+    accounts:
+      - "OpenAI"
+      - "AnthropicAI"      # Claude
+      - "GoogleDeepMind"   # Gemini
+      - "Microsoft"        # Copilot
+      - "LangChainAI"      # Agentic frameworks
+
+  - topic: "Data & Big Data"
+    accounts:
+      - "Databricks"
+      - "ApacheSpark"
+      - "snowflakedb"
+
+  - topic: "Infrastructure as Code & GitOps"
+    accounts:
+      - "HashiCorp"
+      - "PulumiCorp"
+      - "ArgoProj"
+      - "fluxcd"
