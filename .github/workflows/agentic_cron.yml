@@ -17,6 +17,30 @@ on:
         description: 'Cuentas a excluir (separadas por coma, ej: nubenetes,OpenAI)'
         required: false
         default: ''
+      include_k8s:
+        description: 'Incluir Kubernetes & Cloud Native'
+        type: boolean
+        default: true
+      include_cloud:
+        description: 'Incluir Cloud Providers (AWS/Azure/GCP)'
+        type: boolean
+        default: true
+      include_ai:
+        description: 'Incluir AI & Agentic Systems'
+        type: boolean
+        default: true
+      include_dev:
+        description: 'Incluir Developer Productivity & AI Agents'
+        type: boolean
+        default: true
+      include_data:
+        description: 'Incluir Data & Big Data'
+        type: boolean
+        default: true
+      include_iac:
+        description: 'Incluir Infrastructure as Code & GitOps'
+        type: boolean
+        default: true
       extraction_strategy:
         description: 'Estrategia de Extracción'
         required: true
@@ -83,6 +107,12 @@ jobs:
           CURATION_START_DATE: ${{ github.event.inputs.start_date || '2026-05-15' }}
           CURATION_DAYS_BACK: ${{ github.event.inputs.days_back || '' }}
           EXCLUDE_ACCOUNTS: ${{ github.event.inputs.exclude_accounts || '' }}
+          INCLUDE_K8S: ${{ github.event.inputs.include_k8s || 'true' }}
+          INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
+          INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
+          INCLUDE_DEV: ${{ github.event.inputs.include_dev || 'true' }}
+          INCLUDE_DATA: ${{ github.event.inputs.include_data || 'true' }}
+          INCLUDE_IAC: ${{ github.event.inputs.include_iac || 'true' }}
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |

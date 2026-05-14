@@ -26,7 +26,17 @@ async def master_orchestrator():
     
     until_date = datetime.now(MADRID_TZ)
     
-    if is_historical:
+    # Priority: 1. Relative Range, 2. Historical Mode, 3. Manual Start Date, 4. state.json
+    days_back_env = os.getenv("CURATION_DAYS_BACK")
+    if days_back_env and days_back_env.strip():
+        try:
+            days = int(days_back_env)
+            since_date = until_date - timedelta(days=days)
+            log_event(f"[*] Mode: Relative range (Last {days} days) -> {since_date.date()}")
+            is_historical = False # Force normal mode for relative range
+        except:
+            since_date = get_last_date()
+    elif is_historical:
         # DEFAULT START DATE: 2026-05-15 (as requested)
         final_stop_date = datetime(2026, 5, 15, 0, 0, tzinfo=MADRID_TZ)
         
@@ -46,31 +56,37 @@ async def master_orchestrator():
             since_date = final_stop_date
             log_event(f"[*] HISTORICAL MODE (UNIFIED): Processing all since {since_date.date()} in a single run")
     else:
-        # Check for relative range first (last N days)
-        days_back_env = os.getenv("CURATION_DAYS_BACK")
-        if days_back_env and days_back_env.strip():
+        env_start = os.getenv("CURATION_START_DATE")
+        if env_start:
             try:
-                days = int(days_back_env)
-                since_date = until_date - timedelta(days=days)
-                log_event(f"[*] Normal Mode: Relative range (Last {days} days) -> {since_date.date()}")
+                since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
+                log_event(f"[*] Normal Mode: From manual workflow date {since_date.date()}")
             except:
                 since_date = get_last_date()
+                log_event(f"[*] Normal Mode: Error parsing manual date, using state.json {since_date.date()}")
         else:
-            env_start = os.getenv("CURATION_START_DATE")
-            if env_start:
-                try:
-                    since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
-                    log_event(f"[*] Normal Mode: From manual workflow date {since_date.date()}")
-                except:
-                    since_date = get_last_date()
-                    log_event(f"[*] Normal Mode: Error parsing manual date, using state.json {since_date.date()}")
-            else:
-                since_date = get_last_date()
-                log_event(f"[*] Normal Mode: From last saved date {since_date.date()}")
+            since_date = get_last_date()
+            log_event(f"[*] Normal Mode: From last saved date {since_date.date()}")
 
-    # 2. Load Multi-source Accounts
-    accounts_to_scan = ["nubenetes"] # Default
+    # Safety: Ensure since_date is not in the future compared to until_date
+    if since_date > until_date:
+        since_date = until_date - timedelta(days=1)
+        log_event(f"[!] Warning: since_date was in the future. Reset to: {since_date.date()}")
+
+    # 2. Load Multi-source Accounts with Topic Filtering
+    accounts_to_scan = []
     sources_file = "data/curation_sources.yaml"
+    
+    # Topic Inclusion Flags (from Env)
+    topic_map = {
+        "Kubernetes & Cloud Native": os.getenv("INCLUDE_K8S", "true").lower() == "true",
+        "Cloud Providers (AWS/Azure/GCP)": os.getenv("INCLUDE_CLOUD", "true").lower() == "true",
+        "AI & Agentic Systems": os.getenv("INCLUDE_AI", "true").lower() == "true",
+        "Developer Productivity & AI Agents": os.getenv("INCLUDE_DEV", "true").lower() == "true",
+        "Data & Big Data": os.getenv("INCLUDE_DATA", "true").lower() == "true",
+        "Infrastructure as Code & GitOps": os.getenv("INCLUDE_IAC", "true").lower() == "true"
+    }
+
     exclude_env = os.getenv("EXCLUDE_ACCOUNTS", "")
     exclude_list = [a.strip().lower() for a in exclude_env.split(",") if a.strip()]
 
@@ -79,24 +95,21 @@ async def master_orchestrator():
             with open(sources_file, 'r') as f:
                 data = yaml.safe_load(f)
                 all_accounts = set()
-                for topic in data.get("sources", []):
-                    for acc in topic.get("accounts", []):
-                        if acc.lower() not in exclude_list:
-                            all_accounts.add(acc)
+                for topic_data in data.get("sources", []):
+                    topic_name = topic_data.get("topic")
+                    if topic_map.get(topic_name, True): # Default to true if topic not in map
+                        for acc in topic_data.get("accounts", []):
+                            if acc.lower() not in exclude_list:
+                                all_accounts.add(acc)
                 if all_accounts:
                     accounts_to_scan = list(all_accounts)
-                    log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts (Excluded: {exclude_env})")
-                else:
-                    accounts_to_scan = []
+                    log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts from enabled topics.")
         except Exception as e:
             log_event(f"[!] Error loading sources: {e}")
-    else:
-        # Fallback if file doesn't exist but we have exclusion
-        accounts_to_scan = [a for a in accounts_to_scan if a.lower() not in exclude_list]
-
-    if not accounts_to_scan:
-        log_event("[!] No accounts to scan after filtering. Exiting.")
-        return
+    
+    if not accounts_to_scan and not exclude_list:
+        accounts_to_scan = ["nubenetes"] # Ultimate fallback
+        log_event("[*] No accounts found in topics, using default: nubenetes")
 
     # 3. Multi-source Ingestion
     backup_file = os.getenv("BACKUP_FILE")
