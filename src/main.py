@@ -18,17 +18,17 @@ async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
     start_time = datetime.now(MADRID_TZ)
     
-    log_event("INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)", section_break=True)
+    log_event("STARTING AGENTIC CURATION (CHRONOLOGY & TRANSPARENCY)", section_break=True)
     
-    # 1. Horizonte Temporal Dinámico / Histórico
+    # 1. Dynamic / Historical Time Horizon
     is_historical = os.getenv("HISTORICAL_MODE", "false").lower() == "true"
     
     if is_historical:
-        # Modo Histórico por Tramos (Ej: tramos de 180 días)
+        # Historical Mode by Chunks (e.g., 180-day chunks)
         final_stop_date = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
         chunk_days = int(os.getenv("HISTORICAL_CHUNK_DAYS", "180"))
         
-        # El tramo actual termina donde el anterior empezó (o en 'ahora' si es el primero)
+        # Current chunk ends where the previous one started (or 'now' if first)
         until_str = os.getenv("HISTORICAL_UNTIL_DATE")
         if until_str:
             until_date = datetime.fromisoformat(until_str).replace(tzinfo=MADRID_TZ)
@@ -39,22 +39,22 @@ async def master_orchestrator():
         if since_date < final_stop_date:
             since_date = final_stop_date
             
-        log_event(f"[*] MODO HISTÓRICO: Tramo {since_date.date()} -> {until_date.date()}")
+        log_event(f"[*] HISTORICAL MODE: Chunk {since_date.date()} -> {until_date.date()}")
     else:
-        # Modo Normal: Usar CURATION_START_DATE si existe, si no state.json
+        # Normal Mode: Use CURATION_START_DATE if exists, else state.json
         env_start = os.getenv("CURATION_START_DATE")
         if env_start:
             try:
                 since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
-                log_event(f"[*] Modo Normal: Desde fecha manual del workflow {since_date.date()}")
+                log_event(f"[*] Normal Mode: From manual workflow date {since_date.date()}")
             except:
                 since_date = get_last_date()
-                log_event(f"[*] Modo Normal: Error parseando fecha manual, usando state.json {since_date.date()}")
+                log_event(f"[*] Normal Mode: Error parsing manual date, using state.json {since_date.date()}")
         else:
             since_date = get_last_date()
-            log_event(f"[*] Modo Normal: Desde la última fecha guardada {since_date.date()}")
+            log_event(f"[*] Normal Mode: From last saved date {since_date.date()}")
 
-    # 2. Ingesta Multi-fuente
+    # 2. Multi-source Ingestion
     backup_file = os.getenv("BACKUP_FILE")
     x_audit_trail = []
     if backup_file and os.path.exists(backup_file):
@@ -68,10 +68,10 @@ async def master_orchestrator():
         raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy)
         x_audit_trail = twitter_client.audit_trail
     
-    # GitHub Trending solo en modo normal (para no repetir)
+    # GitHub Trending only in normal mode (to avoid repetition)
     trending = []
     if not is_historical and not backup_file:
-        log_event("[*] Buscando novedades en GitHub Trending...")
+        log_event("[*] Searching for news in GitHub Trending...")
         trending = await discover_trending_assets()
         for t in trending: 
             t["source_type"] = "GitHub Trending"
@@ -79,13 +79,13 @@ async def master_orchestrator():
     
     all_raw_assets = raw_social + trending
     if not all_raw_assets:
-        log_event("[!] No se encontraron nuevos enlaces para procesar.")
+        log_event("[!] No new links found to process.")
         return
 
-    # 3. Expansión y Deduplicación Inicial
-    log_event(f"[*] Expandiendo y deduplicando {len(all_raw_assets)} enlaces brutos...")
+    # 3. Expansion and Initial Deduplication
+    log_event(f"[*] Expanding and deduplicating {len(all_raw_assets)} raw links...")
     
-    semaphore = asyncio.Semaphore(20) # Máximo 20 peticiones simultáneas
+    semaphore = asyncio.Semaphore(20) # Max 20 simultaneous requests
 
     async def process_asset(asset):
         async with semaphore:
@@ -105,9 +105,9 @@ async def master_orchestrator():
                 unique_assets_map[clean_url] = asset
 
     all_raw_assets = list(unique_assets_map.values())
-    log_event(f"[*] Total tras deduplicación inicial: {len(all_raw_assets)} enlaces únicos.")
+    log_event(f"[*] Total after initial deduplication: {len(all_raw_assets)} unique links.")
 
-    # 4. Evaluación y Registro (Deduplicación Global Robusta)
+    # 4. Evaluation and Registration (Robust Global Deduplication)
     existing_urls = set()
     for root, dirs, files in os.walk("docs"):
         for file in files:
@@ -120,9 +120,9 @@ async def master_orchestrator():
                             existing_urls.add(url.split('#')[0].rstrip('/').lower())
                 except: pass
     
-    log_event(f"[*] Deduplicación Global: {len(existing_urls)} URLs existentes cargadas.")
+    log_event(f"[*] Global Deduplication: {len(existing_urls)} existing URLs loaded.")
 
-    # --- INICIO PROCESAMIENTO POR LOTES ---
+    # --- START BATCH PROCESSING ---
     BATCH_SIZE = 40
     all_raw_assets_batches = [all_raw_assets[i:i + BATCH_SIZE] for i in range(0, len(all_raw_assets), BATCH_SIZE)]
     
@@ -133,14 +133,14 @@ async def master_orchestrator():
     modified_files_content = {}
 
     for batch_index, batch_assets in enumerate(all_raw_assets_batches):
-        log_event(f">>> INICIANDO LOTE {batch_index + 1}/{len(all_raw_assets_batches)} ({len(batch_assets)} enlaces)", section_break=True)
+        log_event(f">>> STARTING BATCH {batch_index + 1}/{len(all_raw_assets_batches)} ({len(batch_assets)} links)", section_break=True)
         
         assets_to_evaluate = []
         for asset in batch_assets:
             url = asset["url"]
             clean_url = url.split('#')[0].rstrip('/').lower()
             
-            # Trackear fecha máxima
+            # Track max date
             try:
                 ts = asset.get('timestamp')
                 asset_date = None
@@ -158,16 +158,16 @@ async def master_orchestrator():
             except: pass
 
             if clean_url in existing_urls:
-                log_event(f"  [=] SALTADO: {url[:60]}... (Ya existe)")
+                log_event(f"  [=] SKIPPED: {url[:60]}... (Already exists)")
                 full_report_metrics.append({
-                    "url": url, "status": "DUPLICATE", "reason": "Ya existe en repositorio",
+                    "url": url, "status": "DUPLICATE", "reason": "Already exists in repository",
                     "category": "N/A", "post_date": ts, "source": asset.get("source_type", "Social")
                 })
                 continue
             assets_to_evaluate.append(asset)
 
         if not assets_to_evaluate:
-            log_event("  [*] El lote completo consiste en duplicados. Siguiente lote.")
+            log_event("  [*] Entire batch consists of duplicates. Next batch.")
             continue
 
         evaluations = await evaluate_extracted_assets(assets_to_evaluate)
@@ -175,10 +175,10 @@ async def master_orchestrator():
         
         for asset in assets_to_evaluate:
             url = asset["url"]
-            evaluation = evaluations.get(url, {"status": "FILTERED", "reason": "No evaluado por IA"})
+            evaluation = evaluations.get(url, {"status": "FILTERED", "reason": "Not evaluated by AI"})
             
             full_report_metrics.append({
-                "url": url, "status": evaluation["status"], "reason": evaluation.get("reason", "Aceptado"),
+                "url": url, "status": evaluation["status"], "reason": evaluation.get("reason", "Accepted"),
                 "category": evaluation.get("category", "N/A"), "post_date": asset.get("timestamp"),
                 "source": asset.get("source_type", "Social")
             })
@@ -192,9 +192,9 @@ async def master_orchestrator():
                 })
                 existing_urls.add(url.split('#')[0].rstrip('/').lower())
 
-        # Inyección inmediata
+        # Immediate injection
         if unique_new_assets:
-            log_event(f">>> APLICANDO {len(unique_new_assets)} INYECCIONES EN MARKDOWN...", section_break=True)
+            log_event(f">>> APPLYING {len(unique_new_assets)} INJECTIONS IN MARKDOWN...", section_break=True)
             for asset in unique_new_assets:
                 category = asset["category"]
                 file_path = f"docs/{category}.md"
@@ -212,20 +212,20 @@ async def master_orchestrator():
                     if len(new_content) > len(content):
                         modified_files_content[file_path] = new_content
                         with open(file_path, 'w') as f: f.write(new_content)
-                        log_event(f"  [>>>] ÉXITO: Inyectado en docs/{category}.md -> {asset['url']}")
+                        log_event(f"  [>>>] SUCCESS: Injected into docs/{category}.md -> {asset['url']}")
                     else:
-                        log_event(f"  [!] ADVERTENCIA: La inyección no modificó el archivo para {asset['url']}")
+                        log_event(f"  [!] WARNING: Injection did not modify file for {asset['url']}")
                 except Exception as e:
-                    log_event(f"  [!] Error inyectando {asset['url']}: {e}")
+                    log_event(f"  [!] Error injecting {asset['url']}: {e}")
 
         total_processed += len(batch_assets)
         if batch_index < len(all_raw_assets_batches) - 1:
-            log_event(f"[*] Pausa de seguridad: 5s para el siguiente lote...")
+            log_event(f"[*] Safety pause: 5s for the next batch...")
             await asyncio.sleep(5)
 
-    # 4. Finalización y PR
+    # 4. Finalization and PR
     if modified_files_content:
-        log_event(">>> GENERANDO PULL REQUEST...", section_break=True)
+        log_event(">>> GENERATING PULL REQUEST...", section_break=True)
         metrics = {
             "total_extracted": len(all_raw_assets),
             "start_date": since_date.isoformat(),
@@ -236,22 +236,22 @@ async def master_orchestrator():
         try:
             git_controller.apply_multi_file_changes(modified_files_content, metrics)
         except Exception as e:
-            log_event(f"[!] Error creando PR: {e}")
+            log_event(f"[!] Error creating PR: {e}")
 
-    # Auditoría de reorganización
+    # Reorganization audit
     await curator_agent.suggest_reorganization()
 
-    # Actualizar estado
+    # Update state
     if max_tweet_date > since_date:
         save_state(max_tweet_date + timedelta(seconds=1))
 
-    # Lógica de re-disparo para Modo Histórico en GitHub Actions
+    # Re-trigger logic for Historical Mode in GitHub Actions
     if is_historical and since_date > final_stop_date:
-        # Imprimir para que el YAML lo capture
+        # Print for YAML to capture
         print(f"\nNEXT_CHUNK_START: {since_date.isoformat()}")
-        log_event(f"[*] TRAMO FINALIZADO. Sugiriendo siguiente tramo desde: {since_date.date()}", section_break=True)
+        log_event(f"[*] CHUNK FINISHED. Suggesting next chunk from: {since_date.date()}", section_break=True)
 
-    log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
+    log_event("PROCESS FINISHED SUCCESSFULLY.", section_break=True)
 
 if __name__ == "__main__":
     asyncio.run(master_orchestrator())

@@ -34,8 +34,8 @@ from src.logger import log_event
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
     if not GEMINI_API_KEYS:
-        log_event("[!] ERROR CRÍTICO: GEMINI_API_KEYS no encontrada en el entorno.")
-        return {a["url"]: {"status": "FILTERED", "reason": "Configuración: API KEY faltante"} for a in raw_assets}
+        log_event("[!] CRITICAL ERROR: GEMINI_API_KEYS not found in environment.")
+        return {a["url"]: {"status": "FILTERED", "reason": "Config: Missing API KEY"} for a in raw_assets}
 
     memory_file = "src/memory/health_learning.json"
     domain_blacklist = set()
@@ -47,74 +47,75 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         except: pass
 
     for i, asset in enumerate(raw_assets):
-        post_date = asset.get('timestamp', 'Fecha desconocida')
-        context = asset.get('context', asset.get('description', 'Sin contexto adicional'))
+        post_date = asset.get('timestamp', 'Unknown date')
+        context = asset.get('context', asset.get('description', 'No additional context'))
         
-        log_event(f"--- EVALUANDO {i+1}/{len(raw_assets)} ---", section_break=False)
+        log_event(f"--- EVALUATING {i+1}/{len(raw_assets)} ---", section_break=False)
         log_event(f"  - URL: {asset['url']}")
         log_event(f"  - Post Date: {post_date}")
-        log_event(f"  - Contexto del Post: \"{context[:300]}...\"")
+        log_event(f"  - Post Context: \"{context[:300]}...\"")
 
         domain = asset['url'].split("//")[-1].split("/")[0]
         if domain in domain_blacklist:
-            log_event(f"  [-] RECHAZADO: Dominio en lista negra ({domain})")
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra"}
+            log_event(f"  [-] REJECTED: Blacklisted domain ({domain})")
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Blacklisted domain"}
             continue
 
         web_content = await _deep_fetch_content(asset['url'])
         
         prompt = (
-            "Actúas como Ingeniero Curador Senior de 'nubenetes/awesome-kubernetes'.\n"
-            "Tu misión es catalogar contenido TÉCNICO sobre Kubernetes y Cloud Native compartido por el usuario.\n"
-            "REGLA DE ORO: Si el enlace está en el feed, es porque el usuario lo considera útil. NO lo descartes a menos que sea ruido total (publicidad agresiva, error 404, o contenido no técnico).\n\n"
-            f"Categorías válidas: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
-            "INSTRUCCIONES:\n"
-            "1. YOUTUBE: Acepta videos técnicos o tutoriales. Categorízalos según su temática.\n"
-            "2. RESUMEN: Crea un resumen conciso (1 frase). Usa prioritariamente el 'Contexto' (que es el post de X) ya que suele explicar por qué se compartió.\n"
-            "3. ASIGNACIÓN: Si es sobre Model Context Protocol (MCP), asígnalo a 'ai-agents-mcp'.\n\n"
-            f"URL: {asset['url']}\nContexto de X: {context}\nContenido Web Extraído: {web_content[:2000]}\n\n"
-            "Evalúa el IMPACTO TÉCNICO (1-100):\n"
-            "- >80: Recurso excepcional (🌟).\n"
-            "- >5: Aceptar (si encaja en alguna categoría).\n"
-            "- <5: Descartar (Ruido absoluto).\n\n"
-            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Breve explicación de por qué esta categoría y score\", \"rejection_reason\": \"... (si aplica)\"}"
+            "You act as a Senior Curation Engineer for 'nubenetes/awesome-kubernetes'.\n"
+            "Your mission is to catalog TECHNICAL content about Kubernetes and Cloud Native shared by the user.\n"
+            "GOLDEN RULE: If the link is in the feed, it's because the user considers it useful. DO NOT discard unless it is total noise (aggressive ads, 404, or non-technical content).\n\n"
+            f"Valid categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
+            "INSTRUCTIONS:\n"
+            "1. LANGUAGE: ALL outputs (title, desc, reasoning) MUST BE IN ENGLISH.\n"
+            "2. YOUTUBE: Accept technical videos or tutorials. Categorize them by topic.\n"
+            "3. SUMMARY: Create a concise summary (1 sentence). Use the 'Context' (the X post) as a priority as it explains why it was shared.\n"
+            "4. ASSIGNMENT: If it's about Model Context Protocol (MCP), assign it to 'ai-agents-mcp'.\n\n"
+            f"URL: {asset['url']}\nX Context: {context}\nExtracted Web Content: {web_content[:2000]}\n\n"
+            "Evaluate TECHNICAL IMPACT (1-100):\n"
+            "- >80: Exceptional resource (🌟).\n"
+            "- >5: Accept (if it fits a category).\n"
+            "- <5: Discard (Absolute noise).\n\n"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\", \"rejection_reason\": \"... (if applicable, English)\"}"
         )
 
         try:
             data = await call_gemini_with_retry(prompt)
             score = data.get("impact_score", 50)
             valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
-            reasoning = data.get("reasoning", "Sin motivo especificado")
+            reasoning = data.get("reasoning", "No reason specified")
             
             if score < 5:
-                reason = data.get("rejection_reason", "Bajo impacto técnico")
+                reason = data.get("rejection_reason", "Low technical impact")
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": reason}
-                log_event(f"  [-] RECHAZADO: {reason} (Score: {score})")
-                log_event(f"      Motivo IA: {reasoning}")
+                log_event(f"  [-] REJECTED: {reason} (Score: {score})")
+                log_event(f"      AI Reason: {reasoning}")
                 
                 if score < 1 and domain not in domain_blacklist:
                     domain_blacklist.add(domain)
-                    log_event(f"  [!] Dominio {domain} añadido a lista negra.")
+                    log_event(f"  [!] Domain {domain} added to blacklist.")
             elif not valid_cats:
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Sin categoría técnica válida"}
-                log_event(f"  [-] RECHAZADO: No se encontró categoría válida (Sugeridas: {data.get('categories')})")
-                log_event(f"      Motivo IA: {reasoning}")
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No valid technical category found"}
+                log_event(f"  [-] REJECTED: No valid category found (Suggested: {data.get('categories')})")
+                log_event(f"      AI Reason: {reasoning}")
             else:
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
                     "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80,
                     "reasoning": reasoning
                 }
-                log_event(f"  [+] ACEPTADO: \"{data['title']}\" (Score: {score})")
-                log_event(f"      Destino: docs/{valid_cats[0]}.md")
-                log_event(f"      Descripción: {data['desc']}")
-                log_event(f"      Motivo IA: {reasoning}")
+                log_event(f"  [+] ACCEPTED: \"{data['title']}\" (Score: {score})")
+                log_event(f"      Destination: docs/{valid_cats[0]}.md")
+                log_event(f"      Description: {data['desc']}")
+                log_event(f"      AI Reason: {reasoning}")
 
         except Exception as e:
-            log_event(f"  [!] ERROR CRÍTICO EVALUANDO {asset['url']}: {e}")
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Fallo Evaluación: {str(e)[:100]}"}
+            log_event(f"  [!] CRITICAL ERROR EVALUATING {asset['url']}: {e}")
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Evaluation Failed: {str(e)[:100]}"}
         
-        await asyncio.sleep(2.0) # Ritmo estable
+        await asyncio.sleep(2.0) # Steady pace
             
     # Guardar blacklist actualizada
     try:
@@ -182,7 +183,7 @@ class AgenticCurator:
 
     async def decide_smart_injection(self, markdown_content: str, asset: Dict) -> str:
         """
-        Inyecta un enlace de forma inteligente y actualiza el TOC si es necesario.
+        Smartly injects a link and updates the TOC if necessary.
         """
         lines = markdown_content.splitlines()
         structure = "\n".join([l for l in lines if l.startswith("#")])
@@ -191,15 +192,15 @@ class AgenticCurator:
         formatted_line = f"  - [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
 
         prompt = (
-            "Actúas como Arquitecto de Contenidos de Nubenetes.com.\n"
-            f"Tu misión es inyectar este nuevo recurso en el archivo markdown de forma lógica:\n"
-            f"RECURSO: {formatted_line}\n"
-            "ESTRUCTURA ACTUAL:\n"
+            "You act as a Content Architect for Nubenetes.com.\n"
+            f"Your mission is to logically inject this new resource into the markdown file (LANGUAGE: ENGLISH):\n"
+            f"RESOURCE: {formatted_line}\n"
+            "CURRENT STRUCTURE:\n"
             f"{structure[:1500]}\n\n"
-            "INSTRUCCIONES:\n"
-            "1. Identifica el header (##) más adecuado.\n"
-            "2. Si no existe, PROPÓN UNO NUEVO.\n"
-            "Responde JSON: {\"target_header\": \"## ...\", \"is_new_header\": bool, \"insert_after_header\": \"## ...\"}"
+            "INSTRUCTIONS:\n"
+            "1. Identify the most suitable header (##).\n"
+            "2. If it doesn't exist, PROPOSE A NEW ONE (in English).\n"
+            "Respond JSON: {\"target_header\": \"## ...\", \"is_new_header\": bool, \"insert_after_header\": \"## ...\"}"
         )
 
         try:
@@ -236,19 +237,29 @@ class AgenticCurator:
                 new_content_raw = "\n".join(new_lines)
             
             if inserted:
-                # Si se añadió un header nuevo, reconstruir el TOC
+                # If a new header was added, rebuild the TOC
                 if is_new:
+                    log_event(f"  [🏠] AI decided: Section '{target_header}' (NEW)")
                     return await self._rebuild_toc(new_content_raw)
+                log_event(f"  [🏠] AI decided: Section '{target_header}' (EXISTING)")
                 return new_content_raw
                 
         except: pass
         return self._manual_fallback_injection(markdown_content, asset)
 
+    def _manual_fallback_injection(self, content: str, asset: Dict) -> str:
+        stars = " 🌟" if asset['impact_score'] > 80 else ""
+        line = f"  - [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
+        # If no sections, add a generic header
+        if "##" not in content:
+            return content + f"\n\n## Tools and Resources\n{line}"
+        return content + f"\n{line}"
+
     async def suggest_reorganization(self):
         """
-        Audita archivos y los reorganiza INTERNAMENTE, reconstruyendo el TOC.
+        Audits files and reorganizes them INTERNALLY, rebuilding the TOC.
         """
-        log_event("[*] Iniciando Auditoría de Reorganización Interna...", section_break=True)
+        log_event("[*] Starting Internal Reorganization Audit...", section_break=True)
         
         for file in os.listdir(self.docs_dir):
             if not file.endswith(".md") or file == "index.md": continue
@@ -260,23 +271,24 @@ class AgenticCurator:
             headers = re.findall(r'^##\s+', content, re.MULTILINE)
             
             if len(links) > 25 and len(headers) < 3:
-                log_event(f"  [!] REORGANIZANDO: {file}")
+                log_event(f"  [!] REORGANIZING: {file}")
                 
                 prompt = (
-                    f"Reorganiza el archivo '{file}' en secciones (##) lógicas.\n"
-                    "MANTÉN TODOS LOS ENLACES. NO incluyas el TOC (yo lo generaré).\n"
-                    f"CONTENIDO ACTUAL:\n{content[:5000]}"
+                    f"Reorganize the file '{file}' into logical sections (##).\n"
+                    "KEEP ALL LINKS. DO NOT include the TOC (I will generate it).\n"
+                    "ALL HEADERS MUST BE IN ENGLISH.\n"
+                    f"CURRENT CONTENT:\n{content[:5000]}"
                 )
                 
                 try:
                     reorganized = await call_gemini_with_retry(prompt, response_format="text")
                     if len(reorganized) > len(content) * 0.7:
-                        # Reconstruir el TOC después de la reorganización masiva
+                        # Rebuild the TOC after massive reorganization
                         final_content = await self._rebuild_toc(reorganized)
                         with open(path, 'w') as f: f.write(final_content)
-                        log_event(f"  [OK] Reorganización y TOC actualizados para {file}")
+                        log_event(f"  [OK] Reorganization and TOC updated for {file}")
                 except Exception as e:
-                    log_event(f"  [!] Error reorganizando {file}: {e}")
+                    log_event(f"  [!] Error reorganizing {file}: {e}")
 
     def validate_changes(self) -> bool:
         return True
