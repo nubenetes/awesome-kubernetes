@@ -14,6 +14,7 @@
 - [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd) High-level explanation of in which cases Argo CD makes sense and what you should keep in mind if you want to use it.
 
 ## Argo CD
+  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) 🌟 - This pull request introduces the ability to display the ApplicationSet resource as a parent in the Application Resource Tree within the Argo CD UI. This enhancement, now merged and part of Argo CD v3.5, allows users to see which ApplicationSet created or manages an application, providing a clearer understanding of application relationships.
 
 - [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/)
 - [youtube: GitOps with Argo-CD & Kubernetes](https://www.youtube.com/watch?v=QrLwFEXvxbo&ab_channel=HoussemDellai)
@@ -174,6 +175,7 @@
 - [medium.com/atlantbh: Implementing CI/CD pipeline using Argo Workflows and Argo Events 🌟](https://medium.com/atlantbh/implementing-ci-cd-pipeline-using-argo-workflows-and-argo-events-6417dd157566)
 
 ## Videos
+  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) 🌟 - The Call for Proposals (CFP) for ArgoCon North America 2026 is open, inviting submissions for presentations, panel discussions, and lightning talks focusing on the Argo Project (Argo CD, Argo Workflows, Argo Rollouts, Argo Events). Topics include software delivery, scalability, data processing, observability, and progressive delivery. Submissions are due by June 21, 2026.
 
 ??? note "Click to expand!"
 
