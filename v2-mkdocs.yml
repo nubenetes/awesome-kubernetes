@@ -1,8 +1,8 @@
-site_name: "Nubenetes V2: Agentic Elite"
+site_name: "Nubenetes V2 | The Architect's Cut"
 site_url: "https://nubenetes.com/v2/"
-site_description: "The ultra-curated, AI-driven selection of top-tier Cloud Native resources for 2026."
+site_description: "Enterprise-grade curated portal for the 2026 Cloud Native ecosystem."
 site_author: "Inaki Fernandez"
-copyright: "Copyright &copy; 2026 Inaki Fernandez"
+copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
 
 repo_name: "nubenetes/awesome-kubernetes"
 repo_url: "https://github.com/nubenetes/awesome-kubernetes"
@@ -14,42 +14,51 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: deep orange
+      primary: blue grey
+      accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: material/shield-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: deep orange
+      primary: blue grey
+      accent: cyan
       toggle:
-        icon: material/brightness-4
+        icon: material/shield
         name: Switch to light mode
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - navigation.sections
+    - navigation.expand
     - navigation.indexes
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.view
+    - content.action.edit
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
 
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
   - pymdownx.emoji:
-      emoji_index: "material.extensions.emoji.twemoji"
-      emoji_generator: "material.extensions.emoji.to_svg"
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - toc:
       permalink: true
 
 nav:
-  - Welcome: index.md
-  - Elite Selection:
-      - "Architecture & Trends": architecture.md
-      - "The 2026 Agentic Stack": agentic-stack.md
-      - "Core Infrastructure": infrastructure.md
+  - "The 2026 Vision": index.md
+  - "Elite Portal": [] # Dynamically populated
