@@ -81,6 +81,7 @@
 - [medium.com: Optimizing Latency and Bandwidth for AWS Traffic](https://medium.com/aws-activate-startup-blog/optimizing-latency-and-bandwidth-for-aws-traffic-cdfd18d0d0f7)
 
 ## AWS VPC
+  - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://t.co/PPlhHZx5Bh) - This article details best practices for configuring Azure ExpressRoute to ensure high availability and resiliency for production-critical workloads. It covers topics like redundant connections, diverse routing, and failover mechanisms.
 
 - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)
 - [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)
