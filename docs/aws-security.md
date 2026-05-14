@@ -62,6 +62,7 @@
 - [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available/) A set of guidelines for deploying the full complement of AWS security services in a multi-account environment.
 
 ## Application Security
+  - [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) - *(Related to linux topic)*
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - *(Related to azure topic)*
 
 - [docs.aws.amazon.com: Application security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/application-security.html) Application security (AppSec) describes the overall process of how you design, build, and test the security properties of the workloads you develop. You should have appropriately trained people in your organization, understand the security properties of your build and release infrastructure, and use automation to identify security issues.
