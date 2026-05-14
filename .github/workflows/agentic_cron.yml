@@ -20,7 +20,7 @@ on:
       historical_mode:
         description: 'Activar Modo Histórico'
         required: false
-        default: 'false'
+        default: 'true'
         type: boolean
       historical_until_date:
         description: 'Fecha límite superior (tramo)'
