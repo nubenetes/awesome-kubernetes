@@ -112,6 +112,7 @@
 - [hart-michael.medium.com: Why You Need Continuous Deployment](https://hart-michael.medium.com/why-you-need-continuous-deployment-93d7b5936523)
 
 ## CI/CD Pipelines With Kubernetes
+  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) - *(Related to argo topic)*
   - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) - *(Related to iac topic)*
   - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
 
@@ -199,6 +200,9 @@
 </center>
 
 ## Tools
+  - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI) - *(Related to terraform topic)*
+  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) - *(Related to argo topic)*
+  - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - *(Related to ai topic)*
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - *(Related to cloud-arch-diagrams topic)*
   - [Buildbot](https://t.co/qXtIPX5eF6) - Buildbot is an open-source Python-based framework for automating software build, test, and release processes. It facilitates continuous integration and continuous delivery pipelines.
