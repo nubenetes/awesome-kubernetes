@@ -46,21 +46,34 @@ async def master_orchestrator():
             since_date = final_stop_date
             log_event(f"[*] HISTORICAL MODE (UNIFIED): Processing all since {since_date.date()} in a single run")
     else:
-        env_start = os.getenv("CURATION_START_DATE")
-        if env_start:
+        # Check for relative range first (last N days)
+        days_back_env = os.getenv("CURATION_DAYS_BACK")
+        if days_back_env and days_back_env.strip():
             try:
-                since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
-                log_event(f"[*] Normal Mode: From manual workflow date {since_date.date()}")
+                days = int(days_back_env)
+                since_date = until_date - timedelta(days=days)
+                log_event(f"[*] Normal Mode: Relative range (Last {days} days) -> {since_date.date()}")
             except:
                 since_date = get_last_date()
-                log_event(f"[*] Normal Mode: Error parsing manual date, using state.json {since_date.date()}")
         else:
-            since_date = get_last_date()
-            log_event(f"[*] Normal Mode: From last saved date {since_date.date()}")
+            env_start = os.getenv("CURATION_START_DATE")
+            if env_start:
+                try:
+                    since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
+                    log_event(f"[*] Normal Mode: From manual workflow date {since_date.date()}")
+                except:
+                    since_date = get_last_date()
+                    log_event(f"[*] Normal Mode: Error parsing manual date, using state.json {since_date.date()}")
+            else:
+                since_date = get_last_date()
+                log_event(f"[*] Normal Mode: From last saved date {since_date.date()}")
 
     # 2. Load Multi-source Accounts
     accounts_to_scan = ["nubenetes"] # Default
     sources_file = "data/curation_sources.yaml"
+    exclude_env = os.getenv("EXCLUDE_ACCOUNTS", "")
+    exclude_list = [a.strip().lower() for a in exclude_env.split(",") if a.strip()]
+
     if os.path.exists(sources_file):
         try:
             with open(sources_file, 'r') as f:
@@ -68,12 +81,22 @@ async def master_orchestrator():
                 all_accounts = set()
                 for topic in data.get("sources", []):
                     for acc in topic.get("accounts", []):
-                        all_accounts.add(acc)
+                        if acc.lower() not in exclude_list:
+                            all_accounts.add(acc)
                 if all_accounts:
                     accounts_to_scan = list(all_accounts)
-                    log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts from {sources_file}")
+                    log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts (Excluded: {exclude_env})")
+                else:
+                    accounts_to_scan = []
         except Exception as e:
             log_event(f"[!] Error loading sources: {e}")
+    else:
+        # Fallback if file doesn't exist but we have exclusion
+        accounts_to_scan = [a for a in accounts_to_scan if a.lower() not in exclude_list]
+
+    if not accounts_to_scan:
+        log_event("[!] No accounts to scan after filtering. Exiting.")
+        return
 
     # 3. Multi-source Ingestion
     backup_file = os.getenv("BACKUP_FILE")

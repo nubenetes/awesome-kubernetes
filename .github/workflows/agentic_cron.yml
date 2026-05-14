@@ -6,9 +6,17 @@ on:
   workflow_dispatch:
     inputs:
       start_date:
-        description: 'Fecha inicial para la búsqueda (YYYY-MM-DD)'
+        description: 'Fecha inicial (YYYY-MM-DD). Por defecto 2026-05-15'
         required: true
         default: '2026-05-15'
+      days_back:
+        description: 'Últimos N días (ej: 7). Prioritario sobre fecha inicial si se rellena'
+        required: false
+        default: ''
+      exclude_accounts:
+        description: 'Cuentas a excluir (separadas por coma, ej: nubenetes,OpenAI)'
+        required: false
+        default: ''
       extraction_strategy:
         description: 'Estrategia de Extracción'
         required: true
@@ -73,6 +81,8 @@ jobs:
           HISTORICAL_CHUNKED: ${{ github.event.inputs.historical_chunked || 'false' }}
           HISTORICAL_UNTIL_DATE: ${{ github.event.inputs.historical_until_date || '' }}
           CURATION_START_DATE: ${{ github.event.inputs.start_date || '2026-05-15' }}
+          CURATION_DAYS_BACK: ${{ github.event.inputs.days_back || '' }}
+          EXCLUDE_ACCOUNTS: ${{ github.event.inputs.exclude_accounts || '' }}
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |
