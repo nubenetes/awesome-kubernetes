@@ -98,7 +98,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "Nubenetes Curation Report - ${{ job.status }}"
-          to: "inafev@gmail.com"
+          to: "nubenetes@gmail.com"
           from: "Nubenetes Bot <bot@nubenetes.com>"
           body: |
             Nubenetes Automated Curation has finished.
