@@ -77,29 +77,43 @@ class V2VisionEngine:
     async def _evaluate_professional_impact(self, links: List[Dict]) -> List[Dict]:
         elite = []
         
-        async def process_link_batch(batch):
+        async def process_link_batch(batch, batch_num):
             prompt = (
-                "Act as a Principal Platform Architect in 2026. Filter these resources for a HIGH-DENSITY professional portal.\n"
+                "Act as a Principal Platform Architect in 2026. Your mission is to curate an ELITE portal for professionals.\n"
+                "You must be RUTHLESS. Only keep the absolute top-tier tools, standard-setting blogs, and innovative resources.\n"
                 "RULES:\n"
-                "1. REMOVE: Non-professional content, jokes, personal notes, broken/outdated tools pre-2022.\n"
-                "2. KEEP: All 'Awesome' repos, innovative tools (eBPF, AI, Agentic, WASM), and industry standards.\n"
-                "3. TRANSFORM: Ensure descriptions are technical and English only.\n\n"
-                "LINKS:\n" + "\n".join([f"{i}. [{l['title']}]({l['url']}) - {l['description']}" for i, l in enumerate(batch)]) + "\n\n"
-                "Respond ONLY with a JSON list of indices to KEEP. Example: [0, 2, 3]"
+                "1. REMOVE: Generic tutorials, basic news, personal links, minor tools, and anything pre-2022 that isn't a cornerstone of the industry.\n"
+                "2. KEEP: All repositories with 'awesome' in title/URL, and industry leaders (e.g. Istio, Terraform, Kubernetes official, etc).\n"
+                "3. DENSITY GOAL: From a list of 50, you should typically keep only 5-15 of the most impactful ones.\n\n"
+                "LINKS TO EVALUATE:\n" + "\n".join([f"{i}. [{l['title']}]({l['url']}) - {l['description']}" for i, l in enumerate(batch)]) + "\n\n"
+                "Respond ONLY with a JSON object: {\"keep_indices\": [int, int, ...]}"
             )
             try:
-                indices = await call_gemini_with_retry(prompt)
-                return [batch[i] for i in indices if i < len(batch)]
-            except:
-                # On error, keep all in batch to avoid data loss (safe fallback)
-                return batch
+                response = await call_gemini_with_retry(prompt)
+                indices = []
+                if isinstance(response, dict):
+                    indices = response.get("keep_indices", [])
+                elif isinstance(response, list):
+                    indices = response
+                
+                kept = [batch[int(i)] for i in indices if int(i) < len(batch)]
+                log_event(f"    [Batch {batch_num}] Kept {len(kept)}/{len(batch)} links.")
+                return kept
+            except Exception as e:
+                log_event(f"    [Batch {batch_num}] Evaluation failed: {e}. Falling back to Awesome-only for this batch.")
+                # Safe fallback: only keep Awesome lists if AI fails
+                return [l for l in batch if "awesome" in l['title'].lower() or "awesome" in l['url'].lower()]
 
-        for i in range(0, len(links), 50):
-            batch = links[i:i+50]
-            log_event(f"  [>] Evaluating batch {i//50 + 1}...")
-            result = await process_link_batch(batch)
+        # Reduced batch size for higher AI attention
+        BATCH_SIZE = 50
+        for i in range(0, len(links), BATCH_SIZE):
+            batch = links[i:i+BATCH_SIZE]
+            batch_num = i//BATCH_SIZE + 1
+            log_event(f"  [>] Evaluating batch {batch_num}...")
+            result = await process_link_batch(batch, batch_num)
             elite.extend(result)
-            await asyncio.sleep(1)
+            # Short sleep to respect rate limits even in pay-per-use
+            await asyncio.sleep(0.5)
             
         return elite
 
@@ -164,21 +178,32 @@ class V2VisionEngine:
                 f.write(content)
 
     async def _generate_v2_navigation(self, structure: Dict[str, List[Dict]]):
-        with open("v2-mkdocs.yml", "r") as f:
-            config = yaml.safe_load(f)
+        """
+        Updates the v2-mkdocs.yml with the new structure.
+        Uses a simpler approach to avoid breaking custom YAML tags.
+        """
+        try:
+            with open("v2-mkdocs.yml", "r") as f:
+                content = f.read()
 
-        nav = [{"Home": "index.md"}]
-        elite_nav = []
-        
-        for cat in structure.keys():
-            slug = cat.lower().replace(" ", "-").replace("&", "and")
-            elite_nav.append({cat: f"{slug}.md"})
+            nav_lines = ["nav:", "  - Welcome: index.md"]
+            elite_nav = ["  - Elite Portal:"]
             
-        nav.append({"Elite Portal": elite_nav})
-        config["nav"] = nav
-        
-        with open("v2-mkdocs.yml", "w") as f:
-            yaml.dump(config, f, sort_keys=False)
+            for cat in structure.keys():
+                slug = cat.lower().replace(" ", "-").replace("&", "and")
+                elite_nav.append(f"      - \"{cat}\": {slug}.md")
+            
+            nav_section = "\n".join(nav_lines + elite_nav)
+            
+            # Replace the old nav section using regex
+            new_content = re.sub(r'nav:.*', nav_section, content, flags=re.DOTALL)
+            
+            with open("v2-mkdocs.yml", "w") as f:
+                f.write(new_content)
+            
+            log_event("  [OK] v2-mkdocs.yml navigation updated using regex.")
+        except Exception as e:
+            log_event(f"  [!] Error updating navigation: {e}")
 
 if __name__ == "__main__":
     engine = V2VisionEngine()
