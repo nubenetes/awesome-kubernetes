@@ -159,6 +159,7 @@
     - [manifests.io/kubernetes/1.28](https://www.manifests.io/kubernetes/1.28)
 
 ## Kubernetes and Kubectl Cheat Sheets
+  - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html) 🌟 - QuickRef.ME is a curated collection of quick reference cheat sheets for various programming languages, tools, and technologies, including Kubernetes, Docker, Python, JavaScript, and more. It serves as a centralized repository for developers and engineers to quickly access essential commands, syntax, and configurations.
 
 - [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
 - [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
@@ -458,6 +459,7 @@
 - [betterprogramming.pub: 15 Kafka CLI Commands For Everyday Programming](https://betterprogramming.pub/kafka-cli-commands-1a135a4ae1bd) Demonstrating the use of the most commonly used Kafka Command Line Interface Commands
 
 ## Machine Learning
+  - [Quiz Grader](https://github.com/ned1313/quiz-grader) - *(Related to ai topic)*
 
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
 
@@ -517,6 +519,7 @@
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
 
 ## NodeJS
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) - *(Related to golang topic)*
 
 - [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)
 
