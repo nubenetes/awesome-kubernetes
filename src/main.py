@@ -85,10 +85,13 @@ async def master_orchestrator():
     # 3. Expansión y Deduplicación Inicial
     log_event(f"[*] Expandiendo y deduplicando {len(all_raw_assets)} enlaces brutos...")
     
+    semaphore = asyncio.Semaphore(20) # Máximo 20 peticiones simultáneas
+
     async def process_asset(asset):
-        expanded_url = await resolve_url(asset["url"])
-        asset["url"] = expanded_url
-        return asset
+        async with semaphore:
+            expanded_url = await resolve_url(asset["url"])
+            asset["url"] = expanded_url
+            return asset
 
     all_raw_assets = await asyncio.gather(*[process_asset(a) for a in all_raw_assets])
     
