@@ -34,12 +34,14 @@ class SocialDataExtractor:
             "facebook.com", "linkedin.com/sharing", "buffer.com",
             "help.twitter", "archive.org", "nitter", "schema.org",
             "fonts.gstatic.com", "fonts.googleapis.com", "w.org",
-            "wp.com", "gravatar.com", "xmlrpc.php"
+            "wp.com", "gravatar.com", "xmlrpc.php", "youtube.com/channel",
+            "youtube.com/user", "facebook.com/plugins"
         ]
         valid_urls = []
         for u in urls:
-            u_clean = u.rstrip('/').split('?')[0].lower()
-            if not any(d in u_clean for d in noise_domains):
+            # Normalización agresiva para comparación
+            u_lower = u.lower()
+            if not any(d in u_lower for d in noise_domains):
                 valid_urls.append(u)
         return list(set(valid_urls))
 
@@ -65,6 +67,8 @@ class SocialDataExtractor:
                     elif hasattr(playwright_stealth, 'stealth'): playwright_stealth.stealth(page)
                 except: pass
                 
+                # CORRECCIÓN: Definir env_cookies antes de usarlo
+                env_cookies = os.getenv("TWITTER_COOKIES")
                 if env_cookies:
                     try:
                         cookies = json.loads(env_cookies)
