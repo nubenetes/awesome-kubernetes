@@ -10,11 +10,12 @@ from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
 from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
+from src.logger import log_event
 
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
     
-    print("[*] INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)")
+    log_event("INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)", section_break=True)
     
     # 1. Horizonte Temporal Dinámico / Histórico
     is_historical = os.getenv("HISTORICAL_MODE", "false").lower() == "true"
@@ -35,24 +36,31 @@ async def master_orchestrator():
         if since_date < final_stop_date:
             since_date = final_stop_date
             
-        print(f"[*] MODO HISTÓRICO: Tramo {since_date.date()} -> {until_date.date()}")
+        log_event(f"[*] MODO HISTÓRICO: Tramo {since_date.date()} -> {until_date.date()}")
     else:
         # Modo Normal (30 días)
         days_back = int(os.getenv("CURATION_DAYS_BACK", "30"))
         since_date = datetime.now(MADRID_TZ) - timedelta(days=days_back)
         until_date = None
-        print(f"[*] Modo Normal: Desde {since_date.date()}")
+        log_event(f"[*] Modo Normal: Desde {since_date.date()}")
 
     # 2. Ingesta Multi-fuente
-    strategy = os.getenv("EXTRACTION_STRATEGY", "search")
-    twitter_client = SocialDataExtractor()
-    raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy)
-    x_audit_trail = twitter_client.audit_trail
+    backup_file = os.getenv("BACKUP_FILE")
+    if backup_file and os.path.exists(backup_file):
+        from src.ingestion_backup import BackupDataExtractor
+        extractor = BackupDataExtractor(backup_file)
+        raw_social = await extractor.fetch_links()
+        x_audit_trail = extractor.audit_trail
+    else:
+        strategy = os.getenv("EXTRACTION_STRATEGY", "search")
+        twitter_client = SocialDataExtractor()
+        raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy)
+        x_audit_trail = twitter_client.audit_trail
     
     # GitHub Trending solo en modo normal (para no repetir)
     trending = []
-    if not is_historical:
-        print("[*] Buscando novedades en GitHub Trending...")
+    if not is_historical and not backup_file:
+        log_event("[*] Buscando novedades en GitHub Trending...")
         trending = await discover_trending_assets()
         for t in trending: 
             t["source_type"] = "GitHub Trending"
@@ -69,14 +77,22 @@ async def master_orchestrator():
                     existing_urls.update(re.findall(r'\]\((https?://[^\)]+)\)', f.read()))
             except: pass
 
-    full_extraction_report = []
-    unique_new_assets = []
+    # --- INICIO PROCESAMIENTO POR LOTES ---
+    BATCH_SIZE = 50
+    all_raw_assets_batches = [all_raw_assets[i:i + BATCH_SIZE] for i in range(0, len(all_raw_assets), BATCH_SIZE)]
     
-    if all_raw_assets:
-        print(f"[*] Evaluando {len(all_raw_assets)} candidatos con Gemini...")
-        evaluations = await evaluate_extracted_assets(all_raw_assets)
+    curator_agent = AgenticCurator()
+    total_processed = 0
+
+    for batch_index, batch_assets in enumerate(all_raw_assets_batches):
+        log_event(f">>> INICIANDO LOTE {batch_index + 1}/{len(all_raw_assets_batches)} ({len(batch_assets)} enlaces)", section_break=True)
         
-        for asset in all_raw_assets:
+        full_extraction_report = []
+        unique_new_assets = []
+        
+        evaluations = await evaluate_extracted_assets(batch_assets)
+        
+        for asset in batch_assets:
             url = asset["url"]
             clean_url = url.split('#')[0].rstrip('/')
             
@@ -88,102 +104,42 @@ async def master_orchestrator():
             if clean_url in [u.split('#')[0].rstrip('/') for u in existing_urls]:
                 status = "DUPLICATE"
                 reason = "Ya existe en Nubenetes.com"
+                log_event(f"  [=] DUPLICADO: El enlace ya está en el repositorio.")
             
             if status == "INCLUDED":
                 unique_new_assets.append({
                     "url": url, "title": evaluation["title"],
                     "description": evaluation["description"], "category": category,
-                    "impact_score": evaluation["impact_score"]
+                    "impact_score": evaluation["impact_score"],
+                    "reasoning": evaluation.get("reasoning")
                 })
-            
-            full_extraction_report.append({
-                "url": url,
-                "status": status,
-                "reason": reason,
-                "category": category,
-                "source": asset.get("source_type", "Unknown"),
-                "post_date": asset.get("timestamp")
-            })
 
-    # 4. Inyección en Markdowns (Local)
-    file_updates = {}
-    stats = {"added_details": [], "categories_updated": set()}
-    curator_agent = AgenticCurator()
+        # Inyección inmediata de este lote
+        if unique_new_assets:
+            log_event(">>> APLICANDO INYECCIONES EN MARKDOWN...", section_break=True)
 
-    for asset in unique_new_assets:
-        category = asset["category"]
-        file_path = f"docs/{category}.md"
-        try:
-            content = file_updates.get(file_path)
-            if not content:
-                if os.path.exists(file_path):
+            for asset in unique_new_assets:
+                category = asset["category"]
+                file_path = f"docs/{category}.md"
+                try:
                     with open(file_path, 'r') as f: content = f.read()
-                else: continue
-            
-            new_content = await curator_agent.decide_smart_injection(content, asset)
-            if len(new_content) > len(content):
-                file_updates[file_path] = new_content
-                stats["added_details"].append(asset)
-                stats["categories_updated"].add(category)
-        except: continue
+                    
+                    new_content = await curator_agent.decide_smart_injection(content, asset)
+                    if len(new_content) > len(content):
+                        # Actualizar archivo físico inmediatamente
+                        with open(file_path, 'w') as f: f.write(new_content)
+                except Exception as e:
+                    log_event(f"  [!] Error inyectando {asset['url']}: {e}")
 
-    # 5. Gestión de Métricas Acumulativas (Para reporte final)
-    metrics_file = "src/memory/historical_metrics.json"
-    accumulated_report = full_extraction_report
-    
-    # Intentar cargar métricas previas (Local o desde la rama accumulator)
-    prev_metrics = None
-    if is_historical:
-        if os.path.exists(metrics_file):
-            try:
-                with open(metrics_file, 'r') as f: prev_metrics = json.load(f)
-            except: pass
-        else:
-            # Intentar desde la rama
-            acc_content = git_controller.get_file_from_branch(metrics_file, "bot/historical-accumulator")
-            if acc_content:
-                try: prev_metrics = json.loads(acc_content)
-                except: pass
-
-    if prev_metrics:
-        # Filtrar fallos críticos de Gemini del histórico para no "ensuciar" el reporte final
-        # y permitir que se re-intenten si el tramo se solapa.
-        clean_prev_report = [
-            item for item in prev_metrics.get("full_report", [])
-            if "Fallo crítico Gemini" not in item.get("reason", "")
-        ]
-        accumulated_report.extend(clean_prev_report)
-
-    metrics = {
-        "total_extracted": len(accumulated_report),
-        "full_report": accumulated_report,
-        "x_audit": x_audit_trail,
-        "start_date": since_date.isoformat() if is_historical else (datetime.now(MADRID_TZ) - timedelta(days=30)).isoformat(),
-        "end_date": until_date.isoformat() if until_date else datetime.now(MADRID_TZ).isoformat()
-    }
-    
-    if is_historical:
-        # En modo histórico, guardamos métricas para el siguiente tramo
-        file_updates[metrics_file] = json.dumps(metrics, indent=2)
+        total_processed += len(batch_assets)
+        log_event(f"Fin del Lote {batch_index + 1}. Total procesado: {total_processed}/{len(all_raw_assets)}", section_break=True)
         
-        # Si aún no hemos llegado al stop_date, señalamos que hay que seguir
-        has_more = since_date > datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
-        
-        if has_more:
-            # Commit y trigger siguiente (esto se gestiona mejor en el YAML del workflow)
-            print(f"NEXT_CHUNK_START: {since_date.isoformat()}")
-            git_controller.apply_historical_chunk(file_updates, since_date.isoformat())
-        else:
-            # Último tramo: Crear el PR final
-            print("[+] Todos los tramos completados. Generando PR final...")
-            git_controller.apply_multi_file_changes(file_updates, metrics)
-            # Borrar el archivo de métricas temporal en el commit final
-            if os.path.exists(metrics_file):
-                os.remove(metrics_file)
-    else:
-        # Modo Normal: PR inmediato
-        if file_updates or full_extraction_report:
-            git_controller.apply_multi_file_changes(file_updates, metrics)
+        # Pausa entre lotes para dejar respirar a la API
+        if batch_index < len(all_raw_assets_batches) - 1:
+            log_event("[*] Esperando 30 segundos para el siguiente lote...")
+            await asyncio.sleep(30)
+
+    log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
 
 if __name__ == "__main__":
     asyncio.run(master_orchestrator())

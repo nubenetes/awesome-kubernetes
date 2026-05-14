@@ -11,7 +11,13 @@ TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
 TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
 # Pydantic-AI y otras librerías pueden usar diferentes nombres para la misma clave
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEYS = [
+    os.getenv("GEMINI_API_KEY_1"),
+    os.getenv("GEMINI_API_KEY_2")
+]
+GEMINI_API_KEYS = [k for k in GEMINI_API_KEYS if k] # Filtrar nulos
+
+GEMINI_API_KEY = GEMINI_API_KEYS[0] if GEMINI_API_KEYS else None
 if GEMINI_API_KEY and not os.getenv("GOOGLE_API_KEY"):
     os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
@@ -20,9 +26,8 @@ GH_TOKEN = os.getenv("GH_TOKEN")
 # Gemini Configuration (May 2026)
 GEMINI_API_VERSION = "v1beta"
 GEMINI_MODELS = [
-    "gemini-3.1-flash-lite", 
-    "gemini-2.5-flash", 
-    "gemini-2.5-flash-lite", 
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
     "gemini-2.0-flash"
 ]
 

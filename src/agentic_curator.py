@@ -4,8 +4,9 @@ import json
 import asyncio
 import httpx
 import random
+from datetime import datetime
 from typing import List, Dict, Set, Optional
-from src.config import GEMINI_API_KEY, GH_TOKEN, TARGET_REPO, NUBENETES_CATEGORIES
+from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, NUBENETES_CATEGORIES
 from src.gitops_manager import RepositoryController
 from src.gemini_utils import call_gemini_with_retry
 
@@ -28,11 +29,12 @@ async def _deep_fetch_content(url: str) -> str:
     except: return ""
     return ""
 
+from src.logger import log_event
+
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
-    # Revertir a v1 y asegurar que la clave existe
-    if not GEMINI_API_KEY:
-        print("[!] ERROR CRÍTICO: GEMINI_API_KEY no encontrada en el entorno.")
+    if not GEMINI_API_KEYS:
+        log_event("[!] ERROR CRÍTICO: GEMINI_API_KEYS no encontrada en el entorno.")
         return {a["url"]: {"status": "FILTERED", "reason": "Configuración: API KEY faltante"} for a in raw_assets}
 
     memory_file = "src/memory/health_learning.json"
@@ -44,10 +46,16 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                 domain_blacklist = set(memory_data.get("blacklisted_domains", []))
         except: pass
 
-    for asset in raw_assets:
+    for i, asset in enumerate(raw_assets):
+        post_date = asset.get('timestamp', 'Fecha desconocida')
+        log_event(f"--- EVALUANDO {i+1}/{len(raw_assets)} ---")
+        log_event(f"  - URL: {asset['url']}\n  - Post Date: {post_date}")
+
         domain = asset['url'].split("//")[-1].split("/")[0]
         if domain in domain_blacklist:
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Dominio en lista negra de reputación"}
+            eval_res = {"status": "FILTERED", "reason": "Dominio en lista negra de reputación"}
+            evaluations[asset["url"]] = eval_res
+            log_event(f"  [-] RECHAZADO: {eval_res['reason']}")
             continue
 
         web_content = await _deep_fetch_content(asset['url'])
@@ -66,7 +74,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "Evalúa (1-100):\n"
             "- >80: Recurso excepcional (🌟).\n"
             "- >1: Aceptar (si es técnico o útil).\n\n"
-            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"rejection_reason\": \"... (si aplica)\"}"
+            "Responde SOLAMENTE un JSON: {\"impact_score\": int, \"categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Breve explicación de por qué esta categoría y score\", \"rejection_reason\": \"... (si aplica)\"}"
         )
 
         try:
@@ -75,18 +83,31 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             valid_cats = [c for c in data.get("categories", []) if c in NUBENETES_CATEGORIES]
             
             if score < 1:
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": data.get("rejection_reason", "Bajo impacto técnico")}
+                reason = data.get("rejection_reason", "Bajo impacto técnico")
+                evaluations[asset["url"]] = {"status": "FILTERED", "reason": reason}
+                log_event(f"  [-] RECHAZADO: {reason} (Score: {score})\n      Motivo IA: {data.get('reasoning')}")
             elif not valid_cats:
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No se encontró categoría técnica válida"}
+                log_event(f"  [-] RECHAZADO: Sin categoría válida (Cats sugeridas: {data.get('categories')})\n      Motivo IA: {data.get('reasoning')}")
             else:
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
-                    "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80
+                    "category": valid_cats[0], "impact_score": score, "is_exceptional": score > 80,
+                    "reasoning": data.get("reasoning")
                 }
+                log_event(f"  [+] ACEPTADO: {data['title']} -> {valid_cats[0]} (Score: {score})\n      Desc: {data['desc']}\n      Motivo IA: {data.get('reasoning')}")
+
         except Exception as e:
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Error Gemini: {str(e)[:500]}"}
+            err_msg = str(e)
+            if "Rate Limit" in err_msg or "429" in err_msg:
+                log_event(f"  [!] RATE LIMIT DETECTADO. Entrando en modo COOL DOWN (2 min)...")
+                await asyncio.sleep(120) 
+            
+            err_log = f"  [!] ERROR GEMINI: {err_msg[:200]}"
+            evaluations[asset["url"]] = {"status": "FILTERED", "reason": err_log}
+            log_event(err_log)
         
-        await asyncio.sleep(2.0) # Evitar saturar la API con un delay más conservador
+        await asyncio.sleep(5.0) 
             
     if domain_blacklist:
         try:
@@ -118,14 +139,18 @@ class AgenticCurator:
             "1. Encuentra el ## o ### más semántico.\n"
             "2. Decide formato: si es excelente, añade estrellas (🌟, 🌟🌟 o 🌟🌟🌟).\n"
             "3. Decide si usar negritas (==enlace== o **texto**).\n"
-            "Responde JSON: {\"header\": \"Nombre exacto del ## o ###\", \"formatted_line\": \"  - [==Título==](url) 🌟 - Descripción\"}"
+            "Responde JSON: {\"header\": \"Nombre exacto del ## o ###\", \"formatted_line\": \"  - [==Título==](url) 🌟 - Descripción\", \"reasoning\": \"Breve por qué de esta ubicación/formato\"}"
         )
 
         try:
             data = await call_gemini_with_retry(prompt)
             header = data.get("header")
             new_line = data.get("formatted_line")
+            reasoning = data.get("reasoning", "Sin motivo especificado")
+            
             if header and new_line:
+                log_event(f"  [>>>] UBICACIÓN: Header '{header}'\n      Formato: {new_line}\n      Motivo IA: {reasoning}")
+
                 new_lines = []
                 inserted = False
                 for line in lines:
@@ -135,7 +160,7 @@ class AgenticCurator:
                         inserted = True
                 if inserted: return "\n".join(new_lines)
         except Exception as e:
-            print(f"[!] Error en decide_smart_injection: {e}")
+            log_event(f"[!] Error en decide_smart_injection: {e}")
             pass
         return self._manual_fallback_injection(markdown_content, asset)
 
