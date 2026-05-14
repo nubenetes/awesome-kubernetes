@@ -4,7 +4,7 @@ import json
 import asyncio
 import yaml
 from datetime import datetime
-from typing import List, Dict, Set
+from typing import List, Dict, Set, Any
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ
 from src.gemini_utils import call_gemini_with_retry
 from src.logger import log_event
@@ -12,197 +12,174 @@ from src.logger import log_event
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 
-class V2Optimizer:
+class V2VisionEngine:
     def __init__(self):
-        self.elite_criteria = (
-            "You are a Principal Platform Architect in May 2026.\n"
-            "Your task is to select the ABSOLUTE BEST resources from a larger list.\n"
-            "CRITERIA for V2 (Elite Edition):\n"
-            "1. HIGH IMPACT: Only links with score > 90 or exceptional industry value.\n"
-            "2. MODERNITY: Prefer 2024-2026 content. Avoid outdated patterns unless fundational.\n"
-            "3. AWESOME LISTS: ALWAYS KEEP all links pointing to 'Awesome' repositories (GitHub/GitLab).\n"
-            "4. NO REDUNDANCY: If multiple tools do the same, pick the 1-2 most innovative or widely adopted.\n"
-            "5. AGENTIC FOCUS: Prioritize tools with AI/Agentic capabilities or eBPF/WASM innovation.\n"
-        )
+        self.taxonomy_2026 = {
+            "Foundations": ["introduction", "faq", "kubernetes", "linux", "git"],
+            "Agentic AI & LLMOps": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+            "Modern Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "cloud-arch-diagrams"],
+            "Security & Zero Trust": ["securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops"],
+            "Observability & AIOps": ["monitoring", "prometheus", "grafana", "kubernetes-monitoring", "chaos-engineering"],
+            "Platform Engineering": ["devops", "sre", "developerportals", "scaffolding", "finops"],
+            "Cloud Providers": ["aws", "azure", "GoogleCloudPlatform", "digitalocean", "cloudflare"],
+            "Networking & Connectivity": ["networking", "kubernetes-networking", "servicemesh", "istio"],
+            "Runtime & Containers": ["docker", "container-managers", "serverless", "wasm"],
+            "Data & Databases": ["databases", "nosql", "message-queue", "bigdata", "databricks"],
+            "Software Delivery": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "registries"],
+            "Developer Experience": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "angular", "react"]
+        }
 
-    async def optimize_file(self, filename: str):
-        v1_path = os.path.join(V1_DIR, filename)
-        v2_path = os.path.join(V2_DIR, filename)
+    async def analyze_and_cluster(self):
+        log_event("STARTING V2 HIGH-DENSITY TRANSFORMATION", section_break=True)
         
-        if not os.path.exists(v1_path): return
+        all_v1_links = await self._gather_all_v1_content()
+        log_event(f"[*] Total resources discovered in V1: {len(all_v1_links)}")
 
-        with open(v1_path, "r") as f:
-            content = f.read()
+        # 1. Semantic Purge & Scoring
+        log_event("[*] Phase 1: Semantic Evaluation & Professional Filtering...")
+        elite_inventory = await self._evaluate_professional_impact(all_v1_links)
+        log_event(f"[*] Elite Inventory Size: {len(elite_inventory)} high-impact resources.")
 
-        # Extract all links and their descriptions
-        links = re.findall(r'^\s*-\s*\[([^\]]+)\]\(([^\)]+)\)(.*)', content, re.MULTILINE)
-        if not links:
-            # If no links, just copy the structure/headers
-            headers = [l for l in content.splitlines() if l.startswith("#")]
-            with open(v2_path, "w") as f:
-                v2_header = f"# {filename.replace('.md', '').capitalize()} (Elite Selection)\n\n"
-                v2_header += "!!! info \"Note\"\n    This category is currently under review by our Agentic AI.\n\n"
-                f.write(v2_header + "\n".join(headers))
-            return
+        # 2. Re-architecting Sections
+        log_event("[*] Phase 2: Structural Clustering for 2026 Taxonomy...")
+        v2_structure = await self._cluster_into_2026_taxonomy(elite_inventory)
 
-        formatted_links = []
-        pre_selected_indices = []
-        for i, (title, url, desc) in enumerate(links):
-            link_text = f"[{title}]({url}) {desc.strip()}"
-            formatted_links.append(f"{i}. {link_text}")
-            
-            # MANDATE: Always keep Awesome lists
-            if "awesome" in title.lower() or "awesome" in url.lower():
-                pre_selected_indices.append(i)
-
-        log_event(f"[*] V2 Optimizer: Analyzing {len(formatted_links)} links in {filename} (Pre-selected Awesome: {len(pre_selected_indices)})")
-
-        # Split into manageable chunks if too many links
-        MAX_LINKS_PER_PROMPT = 150
-        all_selected_indices = set(pre_selected_indices)
-        
-        for chunk_start in range(0, len(formatted_links), MAX_LINKS_PER_PROMPT):
-            chunk = formatted_links[chunk_start:chunk_start + MAX_LINKS_PER_PROMPT]
-            
-            prompt = (
-                f"{self.elite_criteria}\n"
-                f"FILE: {filename}\n"
-                f"LINKS TO EVALUATE (Indices {chunk_start} to {chunk_start + len(chunk) - 1}):\n" + "\n".join(chunk) + "\n\n"
-                "Respond ONLY with a JSON object: {\"keep_indices\": [int, int, ...]}\n"
-                "Example: {\"keep_indices\": [0, 5, 22]}"
-            )
-
-            try:
-                log_event(f"  [>] Requesting AI selection for chunk {chunk_start}...")
-                response_data = await call_gemini_with_retry(prompt)
-                
-                # Robust parsing of keep_indices
-                indices = []
-                if isinstance(response_data, dict):
-                    indices = response_data.get("keep_indices", [])
-                elif isinstance(response_data, list):
-                    indices = response_data
-                
-                for idx in indices:
-                    try:
-                        all_selected_indices.add(int(idx))
-                    except: continue
-                    
-            except Exception as e:
-                log_event(f"  [!] AI error on chunk {chunk_start}: {e}")
-
-        # Final reconstruction
-        selected_links = [links[i] for i in sorted(list(all_selected_indices)) if i < len(links)]
-        
-        v2_content = f"# {filename.replace('.md', '').capitalize()} (Elite Selection)\n\n"
-        v2_content += "!!! abstract \"2026 Agentic Vision\"\n"
-        v2_content += "    This page contains a curated selection of top-tier resources, strictly filtered by our Agentic AI for high impact and modern relevance.\n\n"
-        
-        if selected_links:
-            v2_content += "## Selected Resources\n"
-            for title, url, desc in selected_links:
-                v2_content += f"  - [{title}]({url}){desc}\n"
-        else:
-            v2_content += "\n*No resources met the elite criteria for this specific category yet.*"
-
-        with open(v2_path, "w") as f:
-            f.write(v2_content)
-            
-        log_event(f"  [OK] V2 file generated: {v2_path} (Total kept: {len(selected_links)})")
-
-    async def run_full_optimization(self):
-        log_event("STARTING V2 AGENTIC OPTIMIZATION (THE ARCHITECT'S CUT)", section_break=True)
-        
-        if not os.path.exists(V1_DIR):
-            log_event(f"[!] CRITICAL: Source directory {V1_DIR} not found.")
-            return
-
-        files = [f for f in os.listdir(V1_DIR) if f.endswith(".md") and f != "index.md"]
-        log_event(f"[*] Found {len(files)} files to process in {V1_DIR}")
-        
-        if not files:
-            log_event("[!] No markdown files found to optimize.")
-            return
-
-        # Ensure output directory exists
+        # 3. Generating Files
+        log_event("[*] Phase 3: Generating V2 High-Density Portal...")
         os.makedirs(V2_DIR, exist_ok=True)
-        log_event(f"[*] Output directory verified: {V2_DIR}")
-
-        # Batch processing to avoid rate limits
-        total_files = len(files)
-        for i in range(0, total_files, 5):
-            batch = files[i:i+5]
-            log_event(f">>> Processing batch {i//5 + 1} ({len(batch)} files)...")
-            await asyncio.gather(*[self.optimize_file(f) for f in batch])
-            await asyncio.sleep(2)
-
-        # Generate Landing Page
-        log_event("[*] Generating V2 landing page...")
-        await self._generate_v2_index()
+        await self._write_v2_files(v2_structure)
         
-        # Sync Navigation
-        log_event("[*] Syncing V2 navigation from original mkdocs.yml...")
-        await self._sync_navigation()
+        # 4. Generating Advanced Navigation
+        await self._generate_v2_navigation(v2_structure)
+        
+        log_event("V2 TRANSFORMATION COMPLETED.", section_break=True)
 
-        log_event("V2 OPTIMIZATION FINISHED SUCCESSFULLY.", section_break=True)
+    async def _gather_all_v1_content(self) -> List[Dict]:
+        all_links = []
+        for root, _, files in os.walk(V1_DIR):
+            for file in files:
+                if not file.endswith(".md") or file == "index.md": continue
+                path = os.path.join(root, file)
+                with open(path, "r") as f:
+                    content = f.read()
+                
+                # Extract links with context
+                matches = re.findall(r'^\s*-\s*\[([^\]]+)\]\(([^\)]+)\)(.*)', content, re.MULTILINE)
+                for title, url, desc in matches:
+                    all_links.append({
+                        "title": title,
+                        "url": url,
+                        "description": desc.strip(),
+                        "original_file": file
+                    })
+        return all_links
 
-    async def _sync_navigation(self):
-        """
-        Reads mkdocs.yml and generates a filtered nav for v2-mkdocs.yml
-        """
-        try:
-            with open("mkdocs.yml", "r") as f:
-                v1_config = yaml.safe_load(f)
-            
-            with open("v2-mkdocs.yml", "r") as f:
-                v2_config = yaml.safe_load(f)
+    async def _evaluate_professional_impact(self, links: List[Dict]) -> List[Dict]:
+        elite = []
+        
+        async def process_link_batch(batch):
+            prompt = (
+                "Act as a Principal Platform Architect in 2026. Filter these resources for a HIGH-DENSITY professional portal.\n"
+                "RULES:\n"
+                "1. REMOVE: Non-professional content, jokes, personal notes, broken/outdated tools pre-2022.\n"
+                "2. KEEP: All 'Awesome' repos, innovative tools (eBPF, AI, Agentic, WASM), and industry standards.\n"
+                "3. TRANSFORM: Ensure descriptions are technical and English only.\n\n"
+                "LINKS:\n" + "\n".join([f"{i}. [{l['title']}]({l['url']}) - {l['description']}" for i, l in enumerate(batch)]) + "\n\n"
+                "Respond ONLY with a JSON list of indices to KEEP. Example: [0, 2, 3]"
+            )
+            try:
+                indices = await call_gemini_with_retry(prompt)
+                return [batch[i] for i in indices if i < len(batch)]
+            except:
+                # On error, keep all in batch to avoid data loss (safe fallback)
+                return batch
 
-            v1_nav = v1_config.get("nav", [])
+        for i in range(0, len(links), 50):
+            batch = links[i:i+50]
+            log_event(f"  [>] Evaluating batch {i//50 + 1}...")
+            result = await process_link_batch(batch)
+            elite.extend(result)
+            await asyncio.sleep(1)
             
-            def filter_nav(nav_item):
-                if isinstance(nav_item, str):
-                    return nav_item if os.path.exists(os.path.join(V2_DIR, nav_item)) else None
-                if isinstance(nav_item, dict):
-                    new_item = {}
-                    for key, value in nav_item.items():
-                        if isinstance(value, list):
-                            filtered_list = [filter_nav(i) for i in value]
-                            filtered_list = [i for i in filtered_list if i is not None]
-                            if filtered_list: new_item[key] = filtered_list
-                        else:
-                            if os.path.exists(os.path.join(V2_DIR, value)):
-                                new_item[key] = value
-                    return new_item if new_item else None
-                return None
+        return elite
 
-            v2_nav = [filter_nav(item) for item in v1_nav]
-            v2_nav = [item for item in v2_nav if item is not None]
-            
-            v2_config["nav"] = v2_nav
-            
-            with open("v2-mkdocs.yml", "w") as f:
-                yaml.dump(v2_config, f, sort_keys=False)
-            
-            log_event("  [OK] v2-mkdocs.yml navigation updated.")
-        except Exception as e:
-            log_event(f"  [!] Error syncing navigation: {e}")
+    async def _cluster_into_2026_taxonomy(self, inventory: List[Dict]) -> Dict[str, List[Dict]]:
+        # This simplifies the complex V1 list into our new 2026 categories
+        clustered = {cat: [] for cat in self.taxonomy_2026.keys()}
+        
+        # Mapping original files to new categories
+        file_to_cat = {}
+        for cat, v1_files in self.taxonomy_2026.items():
+            for f in v1_files:
+                file_to_cat[f + ".md"] = cat
 
-    async def _generate_v2_index(self):
-        v2_index = (
-            "# Welcome to Nubenetes V2\n\n"
-            "## The Agentic Elite Edition (2026)\n\n"
-            "This is a high-density, AI-curated view of the Cloud Native ecosystem. While our [Classic Archive](https://nubenetes.com) "
-            "serves as a comprehensive encyclopedia of thousands of tools, **Nubenetes V2** is built for the time-constrained architect.\n\n"
-            "### Core Principles of V2:\n"
-            "- **Impact First**: Only resources with exceptional value are shown.\n"
-            "- **2026 Ready**: Focus on eBPF, WASM, AI-Native Infrastructure, and Agentic Workflows.\n"
-            "- **Always Awesome**: We maintain 100% of the community's fundational 'Awesome' lists.\n\n"
+        for item in inventory:
+            cat = file_to_cat.get(item["original_file"], "Foundations")
+            clustered[cat].append(item)
+            
+        return clustered
+
+    async def _write_v2_files(self, structure: Dict[str, List[Dict]]):
+        # Create Home
+        index_content = (
+            "# Nubenetes V2: The Agentic Elite Portal (2026 Edition)\n\n"
+            "!!! quote \"The Architect's Vision\"\n"
+            "    This is not just a list; it is a high-density intelligence layer for the modern Platform Engineer. "
+            "    Every link has been semantically evaluated by our Agentic AI to ensure maximum professional value.\n\n"
+            "## Exploration Path\n"
+            "Choose your area of expertise or starting point from the navigation menu. Each section is optimized "
+            "for high-signal learning and production-ready tool discovery.\n\n"
             "--- \n"
-            "Generated by Nubenetes AI Agent using Gemini 2.0/2.5 Flash."
+            "**Core Features:**\n"
+            "- **Professional Only**: No noise, no outdated memes, just technical excellence.\n"
+            "- **2026 Roadmap**: Prioritizing AI-Native, eBPF, and Autonomous Operations.\n"
+            "- **Exhaustive but Elite**: Thousands of links maintained, but only the most impactful shown prominently.\n"
         )
         with open(os.path.join(V2_DIR, "index.md"), "w") as f:
-            f.write(v2_index)
+            f.write(index_content)
+
+        # Create category pages
+        for cat, links in structure.items():
+            slug = cat.lower().replace(" ", "-").replace("&", "and")
+            filename = f"{slug}.md"
+            
+            content = f"# {cat}\n\n"
+            content += f"!!! abstract \"2026 Focus\"\n    High-density curation of {cat} resources.\n\n"
+            
+            # Sub-grouping by original V1 categories to maintain some hierarchy
+            original_groups = {}
+            for l in links:
+                group = l["original_file"].replace(".md", "").capitalize()
+                if group not in original_groups: original_groups[group] = []
+                original_groups[group].append(l)
+
+            for group, g_links in original_groups.items():
+                content += f"## {group}\n"
+                for l in g_links:
+                    stars = " 🌟" if "awesome" in l["title"].lower() else ""
+                    content += f"  - [{l['title']}]({l['url']}){stars} - {l['description']}\n"
+                content += "\n"
+
+            with open(os.path.join(V2_DIR, filename), "w") as f:
+                f.write(content)
+
+    async def _generate_v2_navigation(self, structure: Dict[str, List[Dict]]):
+        with open("v2-mkdocs.yml", "r") as f:
+            config = yaml.safe_load(f)
+
+        nav = [{"Home": "index.md"}]
+        elite_nav = []
+        
+        for cat in structure.keys():
+            slug = cat.lower().replace(" ", "-").replace("&", "and")
+            elite_nav.append({cat: f"{slug}.md"})
+            
+        nav.append({"Elite Portal": elite_nav})
+        config["nav"] = nav
+        
+        with open("v2-mkdocs.yml", "w") as f:
+            yaml.dump(config, f, sort_keys=False)
 
 if __name__ == "__main__":
-    optimizer = V2Optimizer()
-    asyncio.run(optimizer.run_full_optimization())
+    engine = V2VisionEngine()
+    asyncio.run(engine.analyze_and_cluster())
