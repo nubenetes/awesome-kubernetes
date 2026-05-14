@@ -68,6 +68,7 @@ permissions:
   contents: write
   pull-requests: write
   actions: write
+  issues: write
 
 jobs:
   agentic-curation-process:
@@ -129,21 +130,29 @@ jobs:
             gh workflow run agentic_cron.yml -f historical_mode=true -f historical_chunked=true -f historical_until_date=$NEXT_DATE
           fi
 
-      - name: Send Email Notification
+      - name: Upload Visual Dashboard Artifact
         if: always()
-        uses: dawidd6/action-send-mail@v3
+        uses: actions/upload-artifact@v4
         with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: "Nubenetes Curation Report - ${{ job.status }}"
-          to: "nubenetes@gmail.com"
-          from: "Nubenetes Bot <bot@nubenetes.com>"
-          body: |
-            Nubenetes Automated Curation has finished.
-            
-            Status: ${{ job.status }}
-            Pull Request: ${{ steps.run_curation.outputs.pr_url || 'No PR created (no changes or error)' }}
-            
-            Check the logs for more details: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          name: curation-visual-report
+          path: report.html
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Create Notification Issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_URL="${{ steps.run_curation.outputs.pr_url }}"
+          STATUS="${{ job.status }}"
+          RUN_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
+          if [ -z "$PR_URL" ]; then
+            PR_URL="No PR created (no changes or error)"
+          fi
+          
+          TITLE="Curation Report: $STATUS - $(date +'%Y-%m-%d')"
+          BODY="### Nubenetes Automated Curation has finished.\n\n**Status:** $STATUS\n**Pull Request:** $PR_URL\n\nCheck the [workflow logs]($RUN_URL) for more details. If a visual report was generated, you can download it from the artifacts section of the workflow run."
+          
+          gh issue create --title "$TITLE" --body "$BODY" --label "curation-report" || echo "Failed to create issue"
