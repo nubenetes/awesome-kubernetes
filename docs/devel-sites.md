@@ -64,6 +64,9 @@
 - [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem)
 
 ## Developer Tools
+  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) - *(Related to kubernetes-tutorials topic)*
+  - [FreeLens](https://github.com/freelensapp/freelens) - *(Related to kubernetes-tools topic)*
+  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) - A discussion thread on the Rust programming language forum where users share their experiences and reasons for switching between IntelliJ IDEA and Visual Studio Code for their development workflow, particularly focusing on the perceived benefits and drawbacks of each IDE.
 
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
 - [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)
