@@ -164,6 +164,7 @@ You can filter by topic using the toolbar above.
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
 ## AWS Patterns
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98) - *(Related to terraform topic)*
   - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - Cloudburn is an open-source policy engine designed to prevent and remediate inefficient AWS spending patterns. It aims to block 'bad AWS spending patterns before they ship' and actively remediates existing 'burning' costs.
 
 - [medium: Top 4 AWS Patterns of Highly Available API](https://medium.com/greenm/top-4-aws-patterns-of-highly-available-api-d34599bfbb96) We want to tell you about a few common patterns that can be used to build highly available APIs on top of AWS infrastructure. We will highlight each of them and briefly describe the pros and cons.

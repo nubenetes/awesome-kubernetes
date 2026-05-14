@@ -29,6 +29,7 @@
     - If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3. In this article we will not use Lambda.
 
 ## Amazon EFS Elastic File System
+  - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) - *(Related to kubernetes-storage topic)*
 
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
 - [Amazon Elastic File System triples read throughput](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput/)

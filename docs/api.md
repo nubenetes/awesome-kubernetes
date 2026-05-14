@@ -308,6 +308,7 @@
 - [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy/) **Platform Ops Is API Ops**
 
 ## Related
+  - [Cerebras AI](https://www.cerebras.ai/) - *(Related to ai topic)*
 
 - [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
 - [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)

@@ -2,15 +2,47 @@ name: Nubenetes Automated Agentic Curation
 
 on:
   schedule:
-    - cron: '0 5 * * 0'
+    - cron: '0 5 1 * *'  # Monthly: 1st day of the month at 05:00 UTC
   workflow_dispatch:
     inputs:
       start_date:
-        description: 'Fecha inicial para la búsqueda (YYYY-MM-DD)'
+        description: 'Start date (YYYY-MM-DD). Default: 2026-05-15'
         required: true
-        default: '2024-10-01'
+        default: '2026-05-15'
+      days_back:
+        description: 'Last N days (e.g. 7). Overrides start date if filled'
+        required: false
+        default: ''
+      exclude_accounts:
+        description: 'Accounts to exclude (comma separated, e.g. nubenetes,OpenAI)'
+        required: false
+        default: ''
+      include_k8s:
+        description: 'Include Kubernetes & Cloud Native'
+        type: boolean
+        default: true
+      include_cloud:
+        description: 'Include Cloud Providers (AWS/Azure/GCP)'
+        type: boolean
+        default: true
+      include_ai:
+        description: 'Include AI & Agentic Systems'
+        type: boolean
+        default: true
+      include_dev:
+        description: 'Include Developer Productivity & AI Agents'
+        type: boolean
+        default: true
+      include_data:
+        description: 'Include Data & Big Data'
+        type: boolean
+        default: true
+      include_iac:
+        description: 'Include Infrastructure as Code & GitOps'
+        type: boolean
+        default: true
       extraction_strategy:
-        description: 'Estrategia de Extracción'
+        description: 'Extraction Strategy'
         required: true
         default: 'search'
         type: choice
@@ -18,17 +50,17 @@ on:
           - search
           - scroll
       historical_mode:
-        description: 'Activar Modo Histórico'
+        description: 'Activate Historical Mode'
         required: false
         default: 'true'
         type: boolean
       historical_chunked:
-        description: 'Trocear ejecución (múltiples PRs)'
+        description: 'Chunk execution (multiple PRs)'
         required: false
         default: 'false'
         type: boolean
       historical_until_date:
-        description: 'Fecha límite superior (tramo)'
+        description: 'Upper limit date (chunk)'
         required: false
         default: ''
 
@@ -40,26 +72,26 @@ permissions:
 jobs:
   agentic-curation-process:
     runs-on: ubuntu-latest
-    # Solo ejecutar en develop
-    if: github.ref == 'refs/heads/develop'
+    if: github.ref == 'refs/heads/develop' || github.event_name == 'schedule'
     steps:
-      - name: Sincronización del repositorio
+      - name: Repository Synchronization
         uses: actions/checkout@v4
         with:
           ref: develop
 
-      - name: Provisión del Entorno Python 3.11
+      - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalación de dependencias (LIGERO Y ROBUSTO)
+      - name: Installation of Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth
+          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth pyyaml
           playwright install chromium --with-deps
 
-      - name: Ejecución de la Canalización Agéntica Integral
+      - name: Global Agentic Curation Execution
+        id: run_curation
         env:
           TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
           TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
@@ -72,15 +104,46 @@ jobs:
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
           HISTORICAL_CHUNKED: ${{ github.event.inputs.historical_chunked || 'false' }}
           HISTORICAL_UNTIL_DATE: ${{ github.event.inputs.historical_until_date || '' }}
-          CURATION_START_DATE: ${{ github.event.inputs.start_date || '' }}
+          CURATION_START_DATE: ${{ github.event.inputs.start_date || '2026-05-15' }}
+          CURATION_DAYS_BACK: ${{ github.event.inputs.days_back || '' }}
+          EXCLUDE_ACCOUNTS: ${{ github.event.inputs.exclude_accounts || '' }}
+          INCLUDE_K8S: ${{ github.event.inputs.include_k8s || 'true' }}
+          INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
+          INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
+          INCLUDE_DEV: ${{ github.event.inputs.include_dev || 'true' }}
+          INCLUDE_DATA: ${{ github.event.inputs.include_data || 'true' }}
+          INCLUDE_IAC: ${{ github.event.inputs.include_iac || 'true' }}
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |
           python -u src/main.py 2>&1 | tee output.log
           
-          # Lógica de Re-disparo para Modo Histórico (SOLO SI SE SOLICITA TROCEADO)
+          # Capture PR URL if exists
+          PR_URL=$(grep "PULL_REQUEST_URL:" output.log | awk '{print $2}')
+          echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+          
+          # Re-trigger logic for Historical Mode
           if [ "${{ github.event.inputs.historical_chunked }}" == "true" ] && grep -q "NEXT_CHUNK_START:" output.log; then
             NEXT_DATE=$(grep "NEXT_CHUNK_START:" output.log | awk '{print $2}')
-            echo "Disparando siguiente tramo histórico hasta: $NEXT_DATE"
+            echo "Triggering next historical chunk until: $NEXT_DATE"
             gh workflow run agentic_cron.yml -f historical_mode=true -f historical_chunked=true -f historical_until_date=$NEXT_DATE
           fi
+
+      - name: Send Email Notification
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Nubenetes Curation Report - ${{ job.status }}"
+          to: "nubenetes@gmail.com"
+          from: "Nubenetes Bot <bot@nubenetes.com>"
+          body: |
+            Nubenetes Automated Curation has finished.
+            
+            Status: ${{ job.status }}
+            Pull Request: ${{ steps.run_curation.outputs.pr_url || 'No PR created (no changes or error)' }}
+            
+            Check the logs for more details: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}

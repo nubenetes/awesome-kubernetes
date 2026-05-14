@@ -1,0 +1,55 @@
+# Curation Sources for Nubenetes
+# This file defines the accounts to monitor for high-quality technical content.
+
+sources:
+  - topic: "Kubernetes & Cloud Native"
+    accounts:
+      - "nubenetes"        # Main source
+      - "kubernetesio"     # Official Kubernetes
+      - "cncf"             # Cloud Native Computing Foundation
+      - "kelseyhightower"  # Industry expert
+      - "memenetes"        # Community & technical insights
+
+  - topic: "Cloud Providers (AWS/Azure/GCP)"
+    accounts:
+      - "awscloud"
+      - "Azure"
+      - "GoogleCloud"
+      - "0GiS0"             # Gisela Torres (returngis) - Azure/DevOps expert
+      - "NTFAQGuy"          # John Savill - Azure technical deep-dives
+      - "cantrillio"        # Adrian Cantrill - AWS technical deep-dives
+      - "pvergadia"         # Priyanka Vergadia (Cloud Girl) - GCP visual deep-dives
+      - "QuinnyPig"        # AWS Billing/FinOps expert
+
+  - topic: "AI & Agentic Systems"
+    accounts:
+      - "OpenAI"
+      - "AnthropicAI"      # Claude
+      - "GoogleDeepMind"   # Gemini
+      - "GoogleAI"         # Gemini / Research
+      - "LoganK"           # Logan Kilpatrick (Google AI / Gemini DX)
+      - "NotebookLM"       # Official NotebookLM
+      - "LangChainAI"      # Agentic frameworks
+      - "llama_index"      # RAG & Agents
+
+  - topic: "Developer Productivity & AI Agents"
+    accounts:
+      - "GitHub"           # Copilot / Copilot CLI
+      - "Microsoft"        # Copilot
+      - "Cursor_AI"        # Agentic IDE
+      - "midudev"          # Web Dev & AI Content Creator
+      - "natfriedman"      # AI Expert (Former GitHub CEO)
+      - "karpathy"         # AI Expert (Andrej Karpathy)
+
+  - topic: "Data & Big Data"
+    accounts:
+      - "Databricks"
+      - "ApacheSpark"
+      - "snowflakedb"
+
+  - topic: "Infrastructure as Code & GitOps"
+    accounts:
+      - "HashiCorp"
+      - "PulumiCorp"
+      - "ArgoProj"
+      - "fluxcd"

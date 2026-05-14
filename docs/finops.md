@@ -113,6 +113,7 @@
 - [replex.io: An Introduction to Kubernetes FinOps](https://www.replex.io/blog/an-introduction-to-kubernetes-finops) FinOps is a cross domain discipline that represents a set of tools, best practices and processes aimed towards making software and infrastructure more cost effective. In this article we provide an introduction to Kubernetes Finops.
 
 ## Cost Optimization Tools
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead](https://t.co/y414rbxM7l) - *(Related to terraform topic)*
   - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to terraform topic)*
   - [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops) - OpenOps is a no-code platform designed for FinOps automation, integrating AI capabilities to manage cloud costs and operations efficiently. It aims to simplify financial operations in cloud environments.
 

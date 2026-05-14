@@ -120,6 +120,7 @@
 - Networking: Ingress, Service, Network Policy
 
 ## Introduction
+  - [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) - *(Related to ai topic)*
   - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) - *(Related to ai-agents-mcp topic)*
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409) - *(Related to ai topic)*
 
@@ -417,6 +418,7 @@
 ==}
 
 ## Kubernetes Open Source Container Orchestation
+  - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) - *(Related to container-managers topic)*
   - [Google Agents CLI](https://github.com/google/agents-cli) - *(Related to ai topic)*
   - [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) - *(Related to kubernetes-tools topic)*
   - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/) 🌟 - This resource describes ClusterClass, an experimental feature within the Cluster API project that aims to reduce boilerplate and enable flexible customization of Kubernetes clusters. It provides a powerful abstraction for streamlining cluster lifecycle management while maintaining the underlying API. The documentation covers its background, authoring, changing, publishing, and operational aspects, including quick start guides for creating clusters using ClusterClass templates.
@@ -711,6 +713,7 @@
 - [rpadovani.com: How Kubernetes picks which pods to delete during scale-in](https://rpadovani.com/k8s-algorithm-pick-pod-scale-in) Have you ever wondered how K8s choose which pods to delete when a deployment is scaled down? Given it is not documented, I dived in the source code to learn.
 
 ### KubeCon
+  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) - *(Related to argo topic)*
 
 - [silverliningsinfo.com: KubeCon: Five biggest trends from the Kubernetes love fest in Amsterdam](https://www.silverliningsinfo.com/multi-cloud/cloud-9-lunch-ladies-news-wrap-live-cloud-executive-summit)
 

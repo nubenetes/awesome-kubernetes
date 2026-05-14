@@ -3,6 +3,7 @@ import sys
 import os
 import json
 import re
+import yaml
 from datetime import datetime, timedelta
 from src.config import TARGET_REPO, MADRID_TZ, GH_TOKEN, NUBENETES_CATEGORIES
 from src.ingestion_twikit import SocialDataExtractor
@@ -16,7 +17,6 @@ from src.state_manager import get_last_date, save_state
 
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
-    start_time = datetime.now(MADRID_TZ)
     
     log_event("STARTING AGENTIC CURATION (CHRONOLOGY & TRANSPARENCY)", section_break=True)
     
@@ -26,12 +26,21 @@ async def master_orchestrator():
     
     until_date = datetime.now(MADRID_TZ)
     
-    if is_historical:
-        # Unified mode is now DEFAULT for historical
-        final_stop_date = datetime(2024, 10, 1, 0, 0, tzinfo=MADRID_TZ)
+    # Priority: 1. Relative Range, 2. Historical Mode, 3. Manual Start Date, 4. state.json
+    days_back_env = os.getenv("CURATION_DAYS_BACK")
+    if days_back_env and days_back_env.strip():
+        try:
+            days = int(days_back_env)
+            since_date = until_date - timedelta(days=days)
+            log_event(f"[*] Mode: Relative range (Last {days} days) -> {since_date.date()}")
+            is_historical = False # Force normal mode for relative range
+        except:
+            since_date = get_last_date()
+    elif is_historical:
+        # DEFAULT START DATE: 2026-05-15 (as requested)
+        final_stop_date = datetime(2026, 5, 15, 0, 0, tzinfo=MADRID_TZ)
         
         if is_chunked:
-            # Chunked Mode: Use chunks (e.g., 180 days)
             chunk_days = int(os.getenv("HISTORICAL_CHUNK_DAYS", "180"))
             until_str = os.getenv("HISTORICAL_UNTIL_DATE")
             if until_str:
@@ -44,11 +53,9 @@ async def master_orchestrator():
                 since_date = final_stop_date
             log_event(f"[*] HISTORICAL MODE (CHUNKED): Chunk {since_date.date()} -> {until_date.date()}")
         else:
-            # Unified Historical Mode: process all in one go (Single PR)
             since_date = final_stop_date
             log_event(f"[*] HISTORICAL MODE (UNIFIED): Processing all since {since_date.date()} in a single run")
     else:
-        # Normal Mode: Use CURATION_START_DATE if exists, else state.json
         env_start = os.getenv("CURATION_START_DATE")
         if env_start:
             try:
@@ -61,7 +68,50 @@ async def master_orchestrator():
             since_date = get_last_date()
             log_event(f"[*] Normal Mode: From last saved date {since_date.date()}")
 
-    # 2. Multi-source Ingestion
+    # Safety: Ensure since_date is not in the future compared to until_date
+    if since_date > until_date:
+        since_date = until_date - timedelta(days=1)
+        log_event(f"[!] Warning: since_date was in the future. Reset to: {since_date.date()}")
+
+    # 2. Load Multi-source Accounts with Topic Filtering
+    accounts_to_scan = []
+    sources_file = "data/curation_sources.yaml"
+    
+    # Topic Inclusion Flags (from Env)
+    topic_map = {
+        "Kubernetes & Cloud Native": os.getenv("INCLUDE_K8S", "true").lower() == "true",
+        "Cloud Providers (AWS/Azure/GCP)": os.getenv("INCLUDE_CLOUD", "true").lower() == "true",
+        "AI & Agentic Systems": os.getenv("INCLUDE_AI", "true").lower() == "true",
+        "Developer Productivity & AI Agents": os.getenv("INCLUDE_DEV", "true").lower() == "true",
+        "Data & Big Data": os.getenv("INCLUDE_DATA", "true").lower() == "true",
+        "Infrastructure as Code & GitOps": os.getenv("INCLUDE_IAC", "true").lower() == "true"
+    }
+
+    exclude_env = os.getenv("EXCLUDE_ACCOUNTS", "")
+    exclude_list = [a.strip().lower() for a in exclude_env.split(",") if a.strip()]
+
+    if os.path.exists(sources_file):
+        try:
+            with open(sources_file, 'r') as f:
+                data = yaml.safe_load(f)
+                all_accounts = set()
+                for topic_data in data.get("sources", []):
+                    topic_name = topic_data.get("topic")
+                    if topic_map.get(topic_name, True): # Default to true if topic not in map
+                        for acc in topic_data.get("accounts", []):
+                            if acc.lower() not in exclude_list:
+                                all_accounts.add(acc)
+                if all_accounts:
+                    accounts_to_scan = list(all_accounts)
+                    log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts from enabled topics.")
+        except Exception as e:
+            log_event(f"[!] Error loading sources: {e}")
+    
+    if not accounts_to_scan and not exclude_list:
+        accounts_to_scan = ["nubenetes"] # Ultimate fallback
+        log_event("[*] No accounts found in topics, using default: nubenetes")
+
+    # 3. Multi-source Ingestion
     backup_file = os.getenv("BACKUP_FILE")
     x_audit_trail = []
     if backup_file and os.path.exists(backup_file):
@@ -72,10 +122,9 @@ async def master_orchestrator():
     else:
         strategy = os.getenv("EXTRACTION_STRATEGY", "search")
         twitter_client = SocialDataExtractor()
-        raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy)
+        raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy, accounts=accounts_to_scan)
         x_audit_trail = twitter_client.audit_trail
     
-    # GitHub Trending only in normal mode (to avoid repetition)
     trending = []
     if not is_historical and not backup_file:
         log_event("[*] Searching for news in GitHub Trending...")
@@ -89,10 +138,9 @@ async def master_orchestrator():
         log_event("[!] No new links found to process.")
         return
 
-    # 3. Expansion and Initial Deduplication
+    # 4. Expansion and Initial Deduplication
     log_event(f"[*] Expanding and deduplicating {len(all_raw_assets)} raw links...")
-    
-    semaphore = asyncio.Semaphore(20) # Max 20 simultaneous requests
+    semaphore = asyncio.Semaphore(20)
 
     async def process_asset(asset):
         async with semaphore:
@@ -114,7 +162,7 @@ async def master_orchestrator():
     all_raw_assets = list(unique_assets_map.values())
     log_event(f"[*] Total after initial deduplication: {len(all_raw_assets)} unique links.")
 
-    # 4. Evaluation and Registration (Robust Global Deduplication)
+    # 5. Evaluation and Registration
     from src.gemini_utils import is_fuzzy_duplicate
     existing_urls = set()
     for root, dirs, files in os.walk("docs"):
@@ -130,7 +178,6 @@ async def master_orchestrator():
     
     log_event(f"[*] Global Deduplication: {len(existing_urls)} existing URLs loaded.")
 
-    # --- START BATCH PROCESSING ---
     BATCH_SIZE = 40
     all_raw_assets_batches = [all_raw_assets[i:i + BATCH_SIZE] for i in range(0, len(all_raw_assets), BATCH_SIZE)]
     
@@ -142,13 +189,9 @@ async def master_orchestrator():
 
     for batch_index, batch_assets in enumerate(all_raw_assets_batches):
         log_event(f">>> STARTING BATCH {batch_index + 1}/{len(all_raw_assets_batches)} ({len(batch_assets)} links)", section_break=True)
-        
         assets_to_evaluate = []
         for asset in batch_assets:
             url = asset["url"]
-            clean_url = url.split('#')[0].rstrip('/').lower()
-            
-            # Fuzzy Deduplication
             is_dup = False
             for existing in existing_urls:
                 if is_fuzzy_duplicate(url, existing):
@@ -156,36 +199,29 @@ async def master_orchestrator():
                     break
 
             if is_dup:
-                log_event(f"  [=] SKIPPED: {url[:60]}... (Already exists - Fuzzy)")
                 full_report_metrics.append({
                     "url": url, "status": "DUPLICATE", "reason": "Already exists in repository",
                     "category": "N/A", "post_date": asset.get('timestamp'), "source": asset.get("source_type", "Social")
                 })
                 continue
             
-            # Track max date
             try:
                 ts = asset.get('timestamp')
                 asset_date = None
                 if ts:
                     if isinstance(ts, str):
                         try:
-                            # Twitter format: 'Tue Oct 01 19:56:51 +0000 2024'
                             asset_date = datetime.strptime(ts, '%a %b %d %H:%M:%S +0000 %Y').replace(tzinfo=MADRID_TZ)
                         except:
                             try: asset_date = datetime.fromisoformat(ts.replace('Z', '+00:00'))
                             except: pass
-                    
                 if asset_date and asset_date > max_tweet_date:
                     max_tweet_date = asset_date
             except: pass
 
             assets_to_evaluate.append(asset)
 
-
-        if not assets_to_evaluate:
-            log_event("  [*] Entire batch consists of duplicates. Next batch.")
-            continue
+        if not assets_to_evaluate: continue
 
         evaluations = await evaluate_extracted_assets(assets_to_evaluate)
         unique_new_assets = []
@@ -205,7 +241,6 @@ async def master_orchestrator():
             })
 
             if evaluation["status"] == "INCLUDED":
-                # 1. Primary Injection
                 unique_new_assets.append({
                     "url": url, "title": evaluation["title"],
                     "description": evaluation["description"], "category": evaluation.get("category", "kubernetes-tools"),
@@ -213,28 +248,21 @@ async def master_orchestrator():
                     "reasoning": evaluation.get("reasoning")
                 })
                 existing_urls.add(url.split('#')[0].rstrip('/').lower())
-
-                # 2. Semantic Interlinking (Secondary References)
                 for rel_cat in evaluation.get("related_categories", []):
-                    # Inyectamos una referencia corta en lugar del link completo
                     interlink_asset = {
                         "url": url, "title": evaluation["title"],
                         "description": f"*(Related to {evaluation.get('category')} topic)*",
-                        "category": rel_cat, "impact_score": 50 # No estrellas en interlinks
+                        "category": rel_cat, "impact_score": 50 
                     }
                     unique_new_assets.append(interlink_asset)
 
-        # Immediate injection
         if unique_new_assets:
-            log_event(f">>> APPLYING {len(unique_new_assets)} INJECTIONS (Inc. Interlinking)...", section_break=True)
             for asset in unique_new_assets:
                 category = asset["category"]
                 file_path = f"docs/{category}.md"
                 try:
-                    # Evitar duplicados exactos en el mismo archivo durante la misma ejecución
                     if file_path in modified_files_content and asset['url'] in modified_files_content[file_path]:
                         continue
-                        
                     if file_path in modified_files_content:
                         content = modified_files_content[file_path]
                     else:
@@ -243,35 +271,26 @@ async def master_orchestrator():
                         else:
                             with open(file_path, 'r') as f: content = f.read()
                     
-                    if asset['url'] in content: continue # Doble check
-
+                    if asset['url'] in content: continue 
                     new_content = await curator_agent.decide_smart_injection(content, asset)
-                    
                     if len(new_content) > len(content):
                         modified_files_content[file_path] = new_content
                         with open(file_path, 'w') as f: f.write(new_content)
-                        log_event(f"  [>>>] SUCCESS: Injected into docs/{category}.md -> {asset['url']}")
-                    else:
-                        log_event(f"  [!] WARNING: Injection did not modify file for {asset['url']}")
                 except Exception as e:
                     log_event(f"  [!] Error injecting {asset['url']}: {e}")
 
         total_processed += len(batch_assets)
         if batch_index < len(all_raw_assets_batches) - 1:
-            log_event(f"[*] Safety pause: 5s for the next batch...")
             await asyncio.sleep(5)
 
-    # 4. Finalization, Report and PR
+    # 6. Finalization, Report and PR
+    pr_url = None
     if modified_files_content or full_report_metrics:
-        # Generar Dashboard Visual
         try:
             from src.report_generator import generate_visual_report
             report_path = generate_visual_report(full_report_metrics)
-            log_event(f"[*] Visual Health Dashboard generated: {report_path}")
-        except Exception as e:
-            log_event(f"[!] Error generating visual report: {e}")
+        except: pass
 
-        log_event(">>> GENERATING PULL REQUEST...", section_break=True)
         metrics = {
             "total_extracted": len(all_raw_assets),
             "start_date": since_date.isoformat(),
@@ -280,22 +299,19 @@ async def master_orchestrator():
             "x_audit": x_audit_trail
         }
         try:
-            git_controller.apply_multi_file_changes(modified_files_content, metrics)
+            pr_url = git_controller.apply_multi_file_changes(modified_files_content, metrics)
+            if pr_url:
+                print(f"PULL_REQUEST_URL: {pr_url}")
         except Exception as e:
             log_event(f"[!] Error creating PR: {e}")
 
-    # Reorganization audit
     await curator_agent.suggest_reorganization()
 
-    # Update state
     if max_tweet_date > since_date:
         save_state(max_tweet_date + timedelta(seconds=1))
 
-    # Re-trigger logic for Historical Mode in GitHub Actions (ONLY IF CHUNKED)
     if is_historical and is_chunked and since_date > final_stop_date:
-        # Print for YAML to capture
         print(f"\nNEXT_CHUNK_START: {since_date.isoformat()}")
-        log_event(f"[*] CHUNK FINISHED. Suggesting next chunk from: {since_date.date()}", section_break=True)
 
     log_event("PROCESS FINISHED SUCCESSFULLY.", section_break=True)
 

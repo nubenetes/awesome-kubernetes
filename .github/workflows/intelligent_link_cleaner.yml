@@ -16,23 +16,23 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Sincronización del repositorio
+      - name: Repository Synchronization
         uses: actions/checkout@v4
         with:
           ref: develop
 
-      - name: Provisión del Entorno Python 3.11
+      - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalación de dependencias y Playwright
+      - name: Dependencies and Playwright Installation
         run: |
           python -m pip install --upgrade pip
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML
           playwright install chromium --with-deps
 
-      - name: Ejecución de la Limpieza Inteligente Global
+      - name: Global Intelligent Cleaning Execution
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

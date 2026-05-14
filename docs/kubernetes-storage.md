@@ -145,6 +145,7 @@
 
 
 ## Cloud Native Storage Solutions
+  - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) 🌟 - This repository contains the source code for Ceph, a powerful and highly scalable distributed storage system. Ceph provides object, block, and file storage interfaces, making it suitable for a wide range of cloud-native and enterprise storage needs, including integration with Kubernetes.
 
 - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)
 

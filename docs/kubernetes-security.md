@@ -169,6 +169,7 @@
 - [medium.com/@martin.hodges: Using a wildcard certificate within your Kubernetes cluster](https://medium.com/@martin.hodges/using-a-wildcard-certificate-within-your-kubernetes-cluster-87c014e8dafe)
 
 ## Kubernetes Security Scanners
+  - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/) - *(Related to devsecops topic)*
 
 - [==blog.cloudsecque.com: How to Improve the Security of Your Applications with Kubernetes Security Scanners==](https://blog.cloudsecque.com/how-to-improve-the-security-of-your-applications-with-kubernetes-security-scanners-cda97fd2f574) Kubernetes security scanners are tools that can be used to detect vulnerabilities and security issues in your applications. In this article you will find:
     - Grype

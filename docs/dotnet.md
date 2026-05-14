@@ -55,6 +55,7 @@
 - Paradigm Framework is a .net core Enterprise libraries, ORM and code scaffolding tool.
 
 ## More dotnet frameworks and tools
+  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills/) - *(Related to ai topic)*
 
 - [Oakton](https://jasperfx.github.io/oakton/) Add Robust Command Line Options to .Net Applications
 - [Lamar](https://jasperfx.github.io/lamar/) Lamar is a .NET library that provides two pieces of functionality:

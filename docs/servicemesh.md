@@ -176,6 +176,7 @@
 ## NGINX Service mesh
 
 ## Kubernetes Networking
+  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) - *(Related to kubernetes-networking topic)*
   - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) - *(Related to kubernetes-networking topic)*
   - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik) - *(Related to kubernetes-networking topic)*
   - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/) - *(Related to kubernetes-networking topic)*
