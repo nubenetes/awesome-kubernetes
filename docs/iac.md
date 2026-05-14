@@ -58,12 +58,21 @@
 - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison/)
 
 ## Tools
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/) 🌟 - This guide addresses the common challenge of migrating existing cloud infrastructure, often built through manual 'clickops', into Infrastructure as Code (IaC) using tools like Terraform. It explains why IaC is crucial for audit trails, security, access control, and documentation, and outlines various approaches for importing resources.
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
+  - [CloudCanvas](https://cloudcanvas.co/) - *(Related to cloud-arch-diagrams topic)*
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Live Environments](https://github.com/Azure/AZVerify) - *(Related to azure topic)*
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) 🌟 - This page provides release notes for the Azure Landing Zone (ALZ) IaC Accelerator, detailing breaking changes and upgrade guidance. It includes links to individual release notes for various components like PowerShell Module, Bootstrap Modules, Terraform Starter Modules, and Bicep Starter Modules. The latest release (v17.0.0 of Terraform Starter Module) introduces a new Local management group for Azure Local/Sovereign cloud workloads and expands the Sovereign Landing Zone (SLZ) example.
+  - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code/) - *(Related to terraform topic)*
+  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - *(Related to terraform topic)*
 
 - [==Checkmarx/kics==](https://github.com/Checkmarx/kics) Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
 - [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
 - [==github.com/gofireflyio/aiac: AIaC==](https://github.com/gofireflyio/aiac) Artificial Intelligence Infrastructure-as-Code Generator.
 
 ## Infrastructure as Code using Kubernetes
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) - *(Related to azure topic)*
+  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - *(Related to azure topic)*
 
 - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6) “Declaring the Kubes”
 
