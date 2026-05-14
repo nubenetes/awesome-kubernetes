@@ -395,6 +395,7 @@
 - [itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed and Encrypted Container Images](https://itnext.io/securing-kubernetes-workloads-a-practical-approach-to-signed-and-encrypted-container-images-ff6e98b65bcd) Podman — one tool to rule them all
 
 ## GitHub security
+  - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/) - This blog post from GitHub introduces the Code Security Risk Assessment, a free, one-click tool that scans up to 20 active repositories for vulnerabilities using CodeQL. It provides a dashboard summarizing findings by severity, language, detected rules, and vulnerable repositories, aiming to help organizations quickly identify and prioritize code security risks.
 
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
 

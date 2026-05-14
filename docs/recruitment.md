@@ -124,6 +124,7 @@
 - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) Have you come across to someone that thinks you don't deserve a job because you don't have GitHub contributions? Never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn't use GitHub, use fake-it-til-you-make-it to generate two years of contributions.
 
 ## Tweets
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai/) - *(Related to ai topic)*
   - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career/) - *(Related to devsecops topic)*
 
 <details>

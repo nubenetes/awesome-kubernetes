@@ -8,6 +8,9 @@
 6. [CapabilityPE (capipe)](#capabilitype-capipe)
 
 ## Introduction
+  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF) - *(Related to ibm_cloud topic)*
+  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) - *(Related to ai topic)*
+  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) - *(Related to ai topic)*
   - [Claude Code Templates](https://github.com/davila7/claude-code-templates) - *(Related to ai topic)*
   - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html) - *(Related to cheatsheets topic)*
   - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) 🌟 - A curated list of amazingly awesome Free and Open-Source sysadmin resources, covering software for automation, backups, cloud computing, configuration management, CI/CD, databases, and more.

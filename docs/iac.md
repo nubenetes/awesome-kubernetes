@@ -59,6 +59,12 @@
 - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison/)
 
 ## Tools
+  - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) 🌟 - Pulumi is an open-source Infrastructure as Code (IaC) tool that allows users to define and manage cloud infrastructure using familiar programming languages like Python, JavaScript, TypeScript, Go, C#, and Java. It enables developers to provision and manage resources across various cloud providers and services with the power of general-purpose programming languages, offering benefits like code reuse, testing, and better developer workflows.
+  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support](https://t.co/C6uicr7ZPS) - *(Related to terraform topic)*
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn) - *(Related to ai-agents-mcp topic)*
+  - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI) - *(Related to terraform topic)*
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead](https://t.co/y414rbxM7l) - *(Related to terraform topic)*
+  - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98) - *(Related to terraform topic)*
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
   - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) - *(Related to azure topic)*
   - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co/) - *(Related to cloud-arch-diagrams topic)*

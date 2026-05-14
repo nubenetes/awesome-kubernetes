@@ -244,6 +244,7 @@
 	</center>
 
 ## Videos
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy) - *(Related to kubernetes-tutorials topic)*
 
 ??? note "Click to expand!"
 

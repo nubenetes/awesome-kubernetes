@@ -477,6 +477,7 @@ git rebase -i HEAD~5
 - [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow/)
 
 ## GitHub
+  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/) - A guide for beginners on how to contribute to open-source software (OSS) projects using GitHub. It covers finding suitable projects, understanding repositories, and making initial contributions. The article emphasizes that OSS has freely available source code, encouraging developers to learn and build upon existing projects.
   - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it/) - *(Related to developerportals topic)*
 
 - [githubstatus.com 🌟](https://www.githubstatus.com/)

@@ -3,6 +3,7 @@
 1. [CloudQuery](#cloudquery)
 2. [Steampipe](#steampipe)
 3. [Azure Architecture](#azure-architecture)
+4. [kubernetes-storage](#kubernetes-storage)
 
 ## CloudQuery
 
@@ -14,6 +15,10 @@
   - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless/) - *(Related to serverless topic)*
 
 ## Azure Architecture
+
+## kubernetes-storage
+  - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) - *(Related to kubernetes-storage topic)*
+  - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) - *(Related to aws-training topic)*
   - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co/) - *(Related to cloud-arch-diagrams topic)*
   - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - *(Related to azure topic)*
   - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) - *(Related to azure topic)*
