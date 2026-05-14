@@ -15,6 +15,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 9.  **URL Expansion**: All shortened links (t.co, bit.ly, buff.ly, etc.) MUST be expanded to their original long version before being evaluated or injected. This ensures inventory homogeneity and improves global deduplication precision.
 10. **Official Language (English Only)**: All injected content (titles, descriptions, headers), execution logs, and automated communications (PRs) MUST be exclusively in ENGLISH. Nubenetes is a global resource and linguistic consistency is critical.
 11. **Workflow-Config Synchronization**: The GitHub Actions curation workflow form (`agentic_cron.yml`) MUST remain perfectly synchronized with the curation sources configuration file (`data/curation_sources.yaml`). Any addition, removal, or renaming of topics/categories in the configuration file requires a corresponding update to the workflow's input fields (checkboxes) to ensure users can toggle those sources manually. This maintains consistency between data-driven sources and the UI trigger.
+12. **V2 Elite Maintenance**: The Nubenetes V2 (Agentic Elite) edition is a derived view of the V1 archive. It is managed via the `src/v2_optimizer.py` script and stored in the `v2-docs/` directory. AI agents MUST NOT modify `v2-docs/` directly via standard curation workflows; they must only use the `agentic_v2_builder.yml` workflow to perform the periodic "Elite Selection" process. Standard curation and cleaning workflows must always target the `docs/` directory as the primary source of truth.
 
 ## 🛠️ Structural Evolution & Navigation
 
@@ -31,6 +32,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     *   **Semantic Polish**: When a section becomes excessively flat, the AI should propose and implement a reorganization into logical sub-sections purely to improve readability and classification, without restricting the volume of content.
 *   **Navigation Integrity**: Every structural change must be reflected in:
     *   `mkdocs.yml` (Navigation menu).
+    *   `v2-mkdocs.yml` (V2 Navigation menu).
     *   `docs/index.md` (Main Table of Contents).
     *   The internal TOC of the modified page.
 *   **Orphan Curation**: Periodically audit the `docs/` folder to find unlinked files and integrate them into the navigation based on their topic.
@@ -51,3 +53,4 @@ The bot must rotate between profiles to avoid detection:
 *   **May 2026**: Generation of PRs with visual analytics (Mermaid) and Health Matrix.
 *   **May 2026**: Implementation of Backup-based Curation (JSON/MD) to avoid X.com blocks.
 *   **May 2026**: Implementation of multi-source curation and category-based filtering in GitHub Workflow.
+*   **May 2026**: Introduction of **Nubenetes V2 (Agentic Elite)** architecture. Implemented persistent `v2-docs/` storage, the `v2_optimizer.py` engine for 2026 standard filtering, and a dual-deployment pipeline to host both V1 (Exhaustive) and V2 (Elite) versions in parallel.

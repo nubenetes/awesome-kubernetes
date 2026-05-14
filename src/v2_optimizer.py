@@ -84,17 +84,80 @@ class V2Optimizer:
 
     async def run_full_optimization(self):
         log_event("STARTING V2 AGENTIC OPTIMIZATION (THE ARCHITECT'S CUT)", section_break=True)
-        files = [f for f in os.listdir(V1_DIR) if f.endswith(".md") and f != "index.md"]
         
+        if not os.path.exists(V1_DIR):
+            log_event(f"[!] CRITICAL: Source directory {V1_DIR} not found.")
+            return
+
+        files = [f for f in os.listdir(V1_DIR) if f.endswith(".md") and f != "index.md"]
+        log_event(f"[*] Found {len(files)} files to process in {V1_DIR}")
+        
+        if not files:
+            log_event("[!] No markdown files found to optimize.")
+            return
+
+        # Ensure output directory exists
+        os.makedirs(V2_DIR, exist_ok=True)
+        log_event(f"[*] Output directory verified: {V2_DIR}")
+
         # Batch processing to avoid rate limits
-        for i in range(0, len(files), 5):
+        total_files = len(files)
+        for i in range(0, total_files, 5):
             batch = files[i:i+5]
+            log_event(f">>> Processing batch {i//5 + 1} ({len(batch)} files)...")
             await asyncio.gather(*[self.optimize_file(f) for f in batch])
             await asyncio.sleep(2)
 
         # Generate Landing Page
+        log_event("[*] Generating V2 landing page...")
         await self._generate_v2_index()
+        
+        # Sync Navigation
+        log_event("[*] Syncing V2 navigation from original mkdocs.yml...")
+        await self._sync_navigation()
+
         log_event("V2 OPTIMIZATION FINISHED SUCCESSFULLY.", section_break=True)
+
+    async def _sync_navigation(self):
+        """
+        Reads mkdocs.yml and generates a filtered nav for v2-mkdocs.yml
+        """
+        try:
+            with open("mkdocs.yml", "r") as f:
+                v1_config = yaml.safe_load(f)
+            
+            with open("v2-mkdocs.yml", "r") as f:
+                v2_config = yaml.safe_load(f)
+
+            v1_nav = v1_config.get("nav", [])
+            
+            def filter_nav(nav_item):
+                if isinstance(nav_item, str):
+                    return nav_item if os.path.exists(os.path.join(V2_DIR, nav_item)) else None
+                if isinstance(nav_item, dict):
+                    new_item = {}
+                    for key, value in nav_item.items():
+                        if isinstance(value, list):
+                            filtered_list = [filter_nav(i) for i in value]
+                            filtered_list = [i for i in filtered_list if i is not None]
+                            if filtered_list: new_item[key] = filtered_list
+                        else:
+                            if os.path.exists(os.path.join(V2_DIR, value)):
+                                new_item[key] = value
+                    return new_item if new_item else None
+                return None
+
+            v2_nav = [filter_nav(item) for item in v1_nav]
+            v2_nav = [item for item in v2_nav if item is not None]
+            
+            v2_config["nav"] = v2_nav
+            
+            with open("v2-mkdocs.yml", "w") as f:
+                yaml.dump(v2_config, f, sort_keys=False)
+            
+            log_event("  [OK] v2-mkdocs.yml navigation updated.")
+        except Exception as e:
+            log_event(f"  [!] Error syncing navigation: {e}")
 
     async def _generate_v2_index(self):
         v2_index = (
