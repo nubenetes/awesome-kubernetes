@@ -33,6 +33,7 @@ sources:
       - "GitHub"           # Copilot / Copilot CLI
       - "Microsoft"        # Copilot
       - "Cursor_AI"        # Agentic IDE
+      - "midudev"          # Web Dev & AI Content Creator
       - "natfriedman"      # AI Expert (Former GitHub CEO)
       - "karpathy"         # AI Expert (Andrej Karpathy)
 
