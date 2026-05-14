@@ -31,6 +31,7 @@
 
 
 ## AWS Certification
+  - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) 🌟 - A comprehensive 2-hour course designed to help users understand the fundamentals of AWS and prepare for the Cloud Practitioner certification.
 
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
