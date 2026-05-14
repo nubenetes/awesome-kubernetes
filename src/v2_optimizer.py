@@ -28,6 +28,16 @@ class V2VisionEngine:
             "Software Delivery": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "registries"],
             "Developer Experience": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "angular", "react"]
         }
+        self.elite_criteria = (
+            "You are a Senior Principal Architect in May 2026.\n"
+            "Your task is to curate an EXCELLENCE-DRIVEN portal for platform professionals.\n"
+            "CRITERIA for V2 Selection:\n"
+            "1. TECHNICAL DEPTH: Prioritize deep-dives, architectural masterclasses, and authoritative sources over shallow or introductory content.\n"
+            "2. PRODUCTION VALUE: Keep tools and resources that are production-ready or represent the cutting edge of industry standards (2024-2026).\n"
+            "3. AWESOME LISTS: ALWAYS KEEP all links pointing to 'Awesome' repositories, as they are foundational knowledge nodes.\n"
+            "4. NO FLUFF: Remove personal anecdotes, outdated jokes, or introductory tutorials that don't add advanced value.\n"
+            "5. MODERN ECOSYSTEM: Favor resources focusing on eBPF, WASM, Platform Engineering, Agentic AI, and Zero Trust security.\n"
+        )
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY TRANSFORMATION", section_break=True)
@@ -79,12 +89,13 @@ class V2VisionEngine:
         
         async def process_link_batch(batch, batch_num):
             prompt = (
-                "Act as a Principal Platform Architect in 2026. Your mission is to curate an ELITE portal for professionals.\n"
-                "You must be RUTHLESS. Only keep the absolute top-tier tools, standard-setting blogs, and innovative resources.\n"
+                f"{self.elite_criteria}\n"
+                "Your mission is to evaluate the technical quality of these resources.\n"
+                "Do not limit the quantity, but hold a VERY HIGH bar for quality.\n"
                 "RULES:\n"
-                "1. REMOVE: Generic tutorials, basic news, personal links, minor tools, and anything pre-2022 that isn't a cornerstone of the industry.\n"
-                "2. KEEP: All repositories with 'awesome' in title/URL, and industry leaders (e.g. Istio, Terraform, Kubernetes official, etc).\n"
-                "3. DENSITY GOAL: From a list of 50, you should typically keep only 5-15 of the most impactful ones.\n\n"
+                "1. If a resource is technically exceptional and authoritative, KEEP IT.\n"
+                "2. If it is a generic tutorial or an outdated news piece, DISCARD IT.\n"
+                "3. Ensure the selection remains dense but purely high-quality.\n\n"
                 "LINKS TO EVALUATE:\n" + "\n".join([f"{i}. [{l['title']}]({l['url']}) - {l['description']}" for i, l in enumerate(batch)]) + "\n\n"
                 "Respond ONLY with a JSON object: {\"keep_indices\": [int, int, ...]}"
             )
@@ -97,11 +108,10 @@ class V2VisionEngine:
                     indices = response
                 
                 kept = [batch[int(i)] for i in indices if int(i) < len(batch)]
-                log_event(f"    [Batch {batch_num}] Kept {len(kept)}/{len(batch)} links.")
+                log_event(f"    [Batch {batch_num}] Quality Filter: Kept {len(kept)}/{len(batch)} high-quality links.")
                 return kept
             except Exception as e:
-                log_event(f"    [Batch {batch_num}] Evaluation failed: {e}. Falling back to Awesome-only for this batch.")
-                # Safe fallback: only keep Awesome lists if AI fails
+                log_event(f"    [Batch {batch_num}] Evaluation failed: {e}. Falling back to original curation for safety.")
                 return [l for l in batch if "awesome" in l['title'].lower() or "awesome" in l['url'].lower()]
 
         # Reduced batch size for higher AI attention
