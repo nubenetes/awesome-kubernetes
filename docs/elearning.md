@@ -51,6 +51,7 @@
     - [coursera.org: Building Scalable Java Microservices with Spring Boot and Spring Cloud](https://www.coursera.org/learn/google-cloud-java-spring)
 
 ## Spanish E-learning
+  - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) - *(Related to ai topic)*
 
 - [open-bootcamp.com](http://open-bootcamp.com)
 
