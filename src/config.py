@@ -10,9 +10,10 @@ TWITTER_USERNAME = os.getenv("TWITTER_USERNAME")
 TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
 TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
-# Pydantic-AI y otras librerías pueden usar diferentes nombres para la misma clave
+# Gemini API Keys Rotation
 GEMINI_API_KEYS = [
     os.getenv("GEMINI_API_KEY_1"),
+    os.getenv("GEMINI_API_KEY"),   # Fallback para compatibilidad
     os.getenv("GEMINI_API_KEY_2")
 ]
 GEMINI_API_KEYS = [k for k in GEMINI_API_KEYS if k] # Filtrar nulos

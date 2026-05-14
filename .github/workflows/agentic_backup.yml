@@ -39,7 +39,7 @@ jobs:
 
       - name: Ejecución de la Canalización Agéntica (Modo Backup)
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BACKUP_FILE: ${{ github.event.inputs.backup_file }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode }}
