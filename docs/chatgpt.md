@@ -72,6 +72,9 @@
 > *In summary, both approaches have their advantages and disadvantages and are suited to different situations and needs. It depends on the preferences and skills of the development and IT operations team to choose the appropriate approach for their organization.*
 
 ## Tools
+  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
+  - [LLMs from Scratch](https://github.com/rasbt/LLMs-from-scratch) - *(Related to ai topic)*
+  - [Claude 101](https://claude101.com/) - *(Related to ai topic)*
 
 - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot/) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
 - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
