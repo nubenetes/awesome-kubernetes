@@ -91,15 +91,19 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
 
         # MVQ: Check GitHub activity
         mvq_penalty = False
-        last_activity = await _get_github_activity(asset['url'])
-        if last_activity:
-            years_inactive = (datetime.now(last_activity.tzinfo) - last_activity).days / 365
-            if years_inactive > 4:
-                log_event(f"  [⚠️] MVQ Warning: Inactive for {years_inactive:.1f} years.")
-                mvq_penalty = True
+        if "github.com" in asset['url']:
+            log_event(f"  [*] Checking GitHub activity...")
+            last_activity = await _get_github_activity(asset['url'])
+            if last_activity:
+                years_inactive = (datetime.now(last_activity.tzinfo) - last_activity).days / 365
+                if years_inactive > 4:
+                    log_event(f"  [⚠️] MVQ Warning: Inactive for {years_inactive:.1f} years.")
+                    mvq_penalty = True
 
+        log_event(f"  [*] Fetching web content...")
         web_content = await _deep_fetch_content(asset['url'])
         
+        log_event(f"  [*] Calling Gemini for evaluation...")
         prompt = (
             "You act as a Senior Curation Engineer for 'nubenetes/awesome-kubernetes'.\n"
             "Your mission is to catalog TECHNICAL content about Kubernetes and Cloud Native shared by the user.\n"
@@ -152,7 +156,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             log_event(f"  [!] ERROR EVALUATING {asset['url']}: {e}")
             evaluations[asset["url"]] = {"status": "FILTERED", "reason": f"Evaluation Failed"}
         
-        await asyncio.sleep(1.0)
+        # Increased safety delay to avoid hitting rate limits too fast (15 RPM default for Gemini Free)
+        await asyncio.sleep(2.0)
             
     try:
         os.makedirs(os.path.dirname(memory_file), exist_ok=True)

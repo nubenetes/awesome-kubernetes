@@ -103,8 +103,8 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
 
     diagnostics = GeminiDiagnostics()
     
-    # Try rotating through all available keys before failing
-    for key_attempt in range(len(GEMINI_API_KEYS)):
+    # Try rotating through all available keys
+    for _ in range(len(GEMINI_API_KEYS)):
         api_key = GEMINI_API_KEYS[CURRENT_KEY_INDEX]
         
         async with httpx.AsyncClient() as client:
@@ -112,6 +112,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                 full_model_name = f"models/{model}"
                 api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                 
+                key_blocked = False
                 for attempt in range(max_retries):
                     try:
                         payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -127,17 +128,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                         data = json.loads(match.group(0))
                                         return data[0] if isinstance(data, list) and len(data) > 0 else data
                                     diagnostics.add_attempt(model, 200, "JSON not found", text_resp)
-                                    break 
+                                    break # Try next model
                                 return text_resp
                             diagnostics.add_attempt(model, 200, "No candidates")
-                            break
+                            break # Try next model
                         
                         elif response.status_code == 429:
-                            # 429: Rotate key immediately to save time
                             log_event(f"  [!] API 429 on key {CURRENT_KEY_INDEX+1}. Rotating...")
                             CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
-                            # Break current model loop and move to next key
-                            break 
+                            key_blocked = True
+                            break # Break attempt loop
                         
                         elif response.status_code in [500, 503, 504]:
                             await asyncio.sleep(2 * (attempt + 1))
@@ -150,14 +150,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                     except Exception as e:
                         diagnostics.add_attempt(model, 0, f"Exception: {str(e)}")
                         break
+                
+                if key_blocked:
+                    break # Break model loop to try next key
             
-            # If we finished all models for a key with 429, skip to next key
-            if response.status_code == 429:
-                continue
+            if key_blocked:
+                continue # Try next key_attempt
             
-            # If we are here and didn't succeed, try next key after a brief pause
+            # If we are here and didn't succeed with any model, rotate for the next global call
             CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
-            await asyncio.sleep(1)
+            await asyncio.sleep(0.5)
 
     raise Exception(f"Critical Gemini failure after key rotation.\n{diagnostics.get_report()}")
 
