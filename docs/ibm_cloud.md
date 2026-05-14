@@ -59,6 +59,7 @@
 - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## IBM Cloud Paks and OpenShift
+  - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF) - This update to IBM Vault 2.0 focuses on improving the user interface for better feature discoverability and product usability. It also includes reporting enhancements to provide greater transparency and support for forecasting.
 
 - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io/)
 - **What are IBM Cloud Paks?** Beyond containers and Kubernetes, enterprises need to orchestrate their production topology, and to provide management, security and governance for their applications. They need to do this while improving efficiency and resiliency, reducing costs and maximizing ROI.
