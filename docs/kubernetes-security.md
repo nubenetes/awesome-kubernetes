@@ -242,6 +242,7 @@
     - [rancher/cis-operator](https://github.com/rancher/cis-operator) This is an operator that can run on a given Kubernetes cluster and provide ability to run security scans as per the CIS benchmarks, on the cluster.
 
 ## User and Workload identities in Kubernetes
+  - [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/blog/azureforisvandstartupstechnicalblog/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) 🌟 - This article explores various methods for applications hosted on Azure Kubernetes Service (AKS) to securely retrieve secrets from Azure Key Vault. It details the use of Microsoft Entra Workload ID, which integrates with Kubernetes to federate with external identity providers, enabling pods to obtain Kubernetes identities via Service Account Token Volume Projection. This allows for the secure exchange of Kubernetes tokens for Microsoft Entra access tokens, facilitating secure access to Azure resources.
 
 - [==learnk8s.io/authentication-kubernetes: User and workload identities in Kubernetes== 🌟🌟🌟](https://learnk8s.io/authentication-kubernetes)
     - The difference b/w externally managed and internal identities.
@@ -415,6 +416,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [box/kube-exec-controller](https://github.com/box/kube-exec-controller) An admission controller service and kubectl plugin to handle container drift in K8s clusters
 
 ## Kubernetes Security Best Practices
+  - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) - *(Related to azure topic)*
 
 - [Kubernetes Security 101: Risks and 29 Best Practices 🌟](https://www.stackrox.com/post/2020/05/kubernetes-security-101/) Security Best Practices Across Build, Deploy, and Runtime Phases.
 - Build Phase:
@@ -462,6 +464,8 @@ Each of these alternatives provides different features and may be more suitable 
 </center>
 
 ## Kubernetes Authentication and Authorization
+  - [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) 🌟 - A comprehensive guide for Kubernetes administrators transitioning to Azure Kubernetes Service (AKS), explaining the integration of Microsoft Entra ID (formerly Azure Active Directory) for centralized identity and access management. It covers the differences and complementary nature of Azure RBAC and Kubernetes RBAC, how to use Azure RBAC for Kubernetes authorization, assigning roles and permissions, the impact on local admin accounts, implementing managed and workload identities, and best practices for AKS authentication and authorization.
+  - [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) - This article provides guidance on configuring Microsoft Entra for enhanced security, organized by themes aligned with the Secure Future Initiative (SFI). It focuses on implementing controls for traditional workforce tenants to reduce credential-related risks and build a foundation for secure resource management. The document highlights the use of automated assessments like the Zero Trust Assessment for efficient validation of security configurations.
 
 - [kubernetes.io: Authenticating](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
 - [kubernetes.io: Access Clusters Using the Kubernetes API](https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/)
