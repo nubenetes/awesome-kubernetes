@@ -38,11 +38,16 @@ async def master_orchestrator():
             
         log_event(f"[*] MODO HISTÓRICO: Tramo {since_date.date()} -> {until_date.date()}")
     else:
-        # Modo Normal (30 días)
-        days_back = int(os.getenv("CURATION_DAYS_BACK", "30"))
-        since_date = datetime.now(MADRID_TZ) - timedelta(days=days_back)
+        # Modo Normal (30 días o Manual Override)
+        since_override = os.getenv("SINCE_DATE_OVERRIDE")
+        if since_override:
+            since_date = datetime.strptime(since_override, "%Y-%m-%d").replace(tzinfo=MADRID_TZ)
+            log_event(f"[*] Modo Manual (Override): Desde {since_date.date()}")
+        else:
+            days_back = int(os.getenv("CURATION_DAYS_BACK", "30"))
+            since_date = datetime.now(MADRID_TZ) - timedelta(days=days_back)
+            log_event(f"[*] Modo Normal: Desde {since_date.date()}")
         until_date = None
-        log_event(f"[*] Modo Normal: Desde {since_date.date()}")
 
     # 2. Ingesta Multi-fuente
     backup_file = os.getenv("BACKUP_FILE")

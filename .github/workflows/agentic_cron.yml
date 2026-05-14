@@ -5,6 +5,10 @@ on:
     - cron: '0 5 * * 0'
   workflow_dispatch:
     inputs:
+      since_date:
+        description: 'Extraer posts DESDE esta fecha (Formato: YYYY-MM-DD)'
+        required: false
+        default: ''
       extraction_strategy:
         description: 'Estrategia de Extracción'
         required: true
@@ -14,7 +18,7 @@ on:
           - search
           - scroll
       historical_mode:
-        description: 'Activar Modo Histórico'
+        description: 'Activar Modo Histórico (Ignora fecha de 30 días)'
         required: false
         default: 'false'
         type: boolean
@@ -59,15 +63,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'search' }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
+          SINCE_DATE_OVERRIDE: ${{ github.event.inputs.since_date || '' }}
           HISTORICAL_UNTIL_DATE: ${{ github.event.inputs.historical_until_date || '' }}
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |
-          python src/main.py > output.log 2>&1
-          cat output.log
+          python src/main.py
           
           # Lógica de Re-disparo para Modo Histórico
-          if grep -q "NEXT_CHUNK_START:" output.log; then
+          if [ -f output.log ] && grep -q "NEXT_CHUNK_START:" output.log; then
             NEXT_DATE=$(grep "NEXT_CHUNK_START:" output.log | awk '{print $2}')
             echo "Disparando siguiente tramo histórico hasta: $NEXT_DATE"
             gh workflow run agentic_cron.yml -f historical_mode=true -f historical_until_date=$NEXT_DATE
