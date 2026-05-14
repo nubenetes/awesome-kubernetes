@@ -14,6 +14,7 @@ Este archivo contiene las instrucciones acumuladas y la visión de largo plazo p
 8. **Consolidación de Repositorios**: Ante un fallo en un enlace profundo de GitHub/GitLab, intenta siempre validar la raíz del repositorio antes de darlo por muerto. Preferimos enlaces estables a raíces de repositorios que deep-links volátiles.
 9. **Expansión de URLs**: Todos los enlaces acortados (t.co, bit.ly, buff.ly, etc.) DEBEN ser expandidos a su versión larga original antes de ser evaluados o inyectados. Esto garantiza la homogeneidad del inventario y mejora la precisión de la deduplicación global.
 10. **Idioma Oficial (English Only)**: Todo el contenido inyectado (títulos, descripciones, encabezados), los logs de ejecución y las comunicaciones automatizadas (PRs) DEBEN ser exclusivamente en INGLÉS. Nubenetes es un recurso global y la consistencia lingüística es crítica.
+11. **Workflow-Config Synchronization**: The GitHub Actions curation workflow form (`agentic_cron.yml`) MUST remain perfectly synchronized with the curation sources configuration file (`data/curation_sources.yaml`). Any addition, removal, or renaming of topics/categories in the configuration file requires a corresponding update to the workflow's input fields (checkboxes) to ensure users can toggle those sources manually. This maintain consistency between data-driven sources and the UI trigger.
 
 ## 🛠️ Structural Evolution & Navigation (Evolución Estructural)
 
