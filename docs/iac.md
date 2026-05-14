@@ -58,12 +58,14 @@
 - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison/)
 
 ## Tools
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) - Notas de lanzamiento para el acelerador IaC de Azure Landing Zone, detallando cambios importantes y actualizaciones, incluyendo una nueva gestión de grupos para cargas de trabajo locales/soberanas.
 
 - [==Checkmarx/kics==](https://github.com/Checkmarx/kics) Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
 - [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
 - [==github.com/gofireflyio/aiac: AIaC==](https://github.com/gofireflyio/aiac) Artificial Intelligence Infrastructure-as-Code Generator.
 
 ## Infrastructure as Code using Kubernetes
+  - [Guía Definitiva para Importar Recursos Cloud a IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/) 🌟 - Este artículo proporciona una guía completa sobre cómo importar recursos de infraestructura cloud existentes a un estado de Infraestructura como Código (IaC), destacando la importancia de IaC para la trazabilidad, seguridad y documentación.
 
 - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6) “Declaring the Kubes”
 
