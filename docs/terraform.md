@@ -127,6 +127,8 @@
 - [nedinthecloud.com](https://nedinthecloud.com)
 
 ## Terraform
+  - [Terraform 2.0: Usando IA para Generar Infraestructura como Código](https://markaicode.com/terraform-ai-infrastructure-as-code/) 🌟 - Explora cómo Terraform 2.0 integra capacidades de IA para generar automáticamente código de infraestructura, reduciendo errores y acelerando flujos de trabajo DevOps.
+  - [Automatización de Microsoft Entra ID con Terraform: De CSV a Usuarios y RBAC en Minutos](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - Un tutorial sobre cómo automatizar la creación de usuarios y la asignación de RBAC en Microsoft Entra ID utilizando Terraform a partir de datos en formato CSV.
 
 - [roadmap.sh/terraform 🌟](https://roadmap.sh/terraform)
 - [terraform.io](https://www.terraform.io/)
@@ -522,6 +524,7 @@
 - [thomasthornton.cloud: Using Terraform tfvars for environment-agnostic deployments 🌟](https://thomasthornton.cloud/2024/04/25/using-terraform-tfvars-for-environment-agnostic-deployments/)
 
 ## Terraform and CI/CD. Terraform Workspaces
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 - Un repositorio que proporciona patrones, pruebas, CI/CD y mejores prácticas de Terraform/OpenTofu para agentes de IA.
 
 - [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
 - [hashicorp.com: Announcing Support for Code Signing for AWS Lambda in the Terraform AWS Provider](https://www.hashicorp.com/blog/announcing-support-for-aws-lambda-code-signing-in-the-terraform-aws-provider)
