@@ -120,6 +120,7 @@
 - [levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0)
 
 ## Blogs and Newsletters
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/) - *(Related to iac topic)*
 
 - [weekly.tf: Terraform Weekly](https://weekly.tf)
     - [weekly.tf: Issue #171 - Terramate, Using LLMs to generate Terraform, API Gateway with Lambda, GuardDuty, IMDSv2 at Slack, Azure DevOps Pipelines](https://www.weekly.tf/p/issue-171-terramate-using-llms-to-generate-terraform-api-gateway-with-lambda-guardduty-imdsv2)
@@ -127,6 +128,8 @@
 - [nedinthecloud.com](https://nedinthecloud.com)
 
 ## Terraform
+  - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code/) 🌟 - This article explores the integration of AI capabilities within Terraform 2.0 to automate the generation and management of infrastructure code. It highlights how AI assistance can reduce configuration errors, accelerate deployment, and standardize environments by translating natural language descriptions into HCL.
+  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) 🌟 - This post demonstrates how to automate the provisioning of users and Role-Based Access Control (RBAC) in Microsoft Entra ID (formerly Azure AD) using Terraform. It covers a practical workflow to import user data from a CSV file and configure necessary permissions, significantly reducing manual effort and time.
 
 - [roadmap.sh/terraform 🌟](https://roadmap.sh/terraform)
 - [terraform.io](https://www.terraform.io/)
@@ -382,6 +385,7 @@
 - [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]]( http://web.archive.org/web/20240724222526/https://squareops.com/terraform-pipeline-with-gitlab//)
 
 ## Terraform Testing
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 - This repository provides a comprehensive skill set for AI coding agents focused on Terraform and OpenTofu best practices. It covers testing strategies, module patterns, CI/CD workflows, and production infrastructure code, including decision matrices for testing frameworks and examples of various testing workflows.
 
 - [Testing Infrastructure as Code on Localhost](https://www.hashicorp.com/resources/testing-infrastructure-as-code-on-localhost/)
 - [hashicorp.com: Testing HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/testing-hashicorp-terraform) Learn testing strategies for HashiCorp Terraform modules and configuration, and learn how to run tests against infrastructure.
@@ -522,6 +526,7 @@
 - [thomasthornton.cloud: Using Terraform tfvars for environment-agnostic deployments 🌟](https://thomasthornton.cloud/2024/04/25/using-terraform-tfvars-for-environment-agnostic-deployments/)
 
 ## Terraform and CI/CD. Terraform Workspaces
+  - [Azure DevOps Terraform Pipeline: A Production-Ready Guide](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) - *(Related to cicd topic)*
 
 - [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
 - [hashicorp.com: Announcing Support for Code Signing for AWS Lambda in the Terraform AWS Provider](https://www.hashicorp.com/blog/announcing-support-for-aws-lambda-code-signing-in-the-terraform-aws-provider)
@@ -539,6 +544,8 @@
 - etc
 
 ## Terraform and Kubernetes
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) - *(Related to azure topic)*
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) - *(Related to iac topic)*
 
 - [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
 - [hodovi.cc: Creating a Low Cost Managed Kubernetes Cluster for Personal Development using Terraform](https://hodovi.cc/blog/creating-low-cost-managed-kubernetes-cluster-personal-development-terraform/)
