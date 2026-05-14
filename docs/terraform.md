@@ -120,6 +120,9 @@
 - [levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0)
 
 ## Blogs and Newsletters
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/) - *(Related to iac topic)*
+  - [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform/) 🌟 - This blog post details how to leverage a public preview feature in the Azure portal to export existing Azure resources directly as Terraform code. It explains the process of enabling the necessary resource provider and demonstrates how to export resources like storage accounts, simplifying the migration and management of infrastructure as code for Azure users adopting Terraform.
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://t.co/mv3tyz1oRt) 🌟 - This blog post announces the public preview of a new feature in the Azure portal that allows users to export existing Azure resources as Terraform configuration files. This capability aims to simplify the adoption and management of Infrastructure as Code (IaC) for Azure environments.
 
 - [weekly.tf: Terraform Weekly](https://weekly.tf)
     - [weekly.tf: Issue #171 - Terramate, Using LLMs to generate Terraform, API Gateway with Lambda, GuardDuty, IMDSv2 at Slack, Azure DevOps Pipelines](https://www.weekly.tf/p/issue-171-terramate-using-llms-to-generate-terraform-api-gateway-with-lambda-guardduty-imdsv2)
@@ -127,6 +130,12 @@
 - [nedinthecloud.com](https://nedinthecloud.com)
 
 ## Terraform
+  - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code/) 🌟 - This article explores how Terraform 2.0 integrates AI capabilities to automatically generate infrastructure code (HCL) from natural language descriptions. It highlights the benefits of using AI with Terraform, such as reducing errors, accelerating deployment, and creating standardized environments.
+  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - This post details how to automate the creation of users and Role-Based Access Control (RBAC) in Microsoft Entra ID using Terraform. It explains a practical workflow to import user data from a CSV file and provision them along with their assigned roles, significantly reducing manual effort.
+  - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) - A Terraform module for managing IP Address Management (IPAM) resources within Azure, facilitating automated provisioning and configuration of IP address spaces.
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) 🌟 - This blog post announces the public preview of a new feature in the Azure Portal that allows users to export existing Azure resources into Terraform configuration files. This streamlines infrastructure-as-code (IaC) workflows by enabling users to declaratively manage their Azure resources using the AzureRM and AzAPI providers directly from the portal. The feature supports exporting individual resources or entire resource groups and aims to help users understand how their Azure infrastructure is represented in Terraform.
+  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions/) - This article details a workaround for obtaining the User Principal Name (UPN) of the user running a Terraform deployment in Azure when that user lacks the necessary Entra ID read permissions. The solution involves using an Azure CLI command to retrieve the UPN before the Terraform deployment, enabling the configuration of Azure resources like PostgreSQL Active Directory administrators.
+  - [Terraform Provider for Azure IPAM](https://github.com/XtratusCloud/terraform-provider-azureipam) - A Terraform provider designed to manage reservations within an Azure IPAM (IP Address Management) solution via its REST API. This tool allows users to programmatically control network range reservations in Azure.
 
 - [roadmap.sh/terraform 🌟](https://roadmap.sh/terraform)
 - [terraform.io](https://www.terraform.io/)
@@ -382,12 +391,16 @@
 - [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]]( http://web.archive.org/web/20240724222526/https://squareops.com/terraform-pipeline-with-gitlab//)
 
 ## Terraform Testing
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 - A repository providing best-practices for Terraform and OpenTofu, designed to serve as a skill for AI coding agents. It covers testing strategies (native tests vs. Terratest), testing workflows (static, integration, E2E), module patterns, CI/CD workflows, and production infrastructure code.
+  - [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation/) - *(Related to ai topic)*
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines/) 🌟 - This article details the experience of learning and implementing the Terraform testing framework within Azure DevOps Pipelines. It emphasizes the importance of testing Infrastructure as Code (IaC) for reliability and safety, aiming to empower readers to confidently integrate Terraform testing into their projects. The post also provides links to useful blogs and YouTube videos for further learning.
 
 - [Testing Infrastructure as Code on Localhost](https://www.hashicorp.com/resources/testing-infrastructure-as-code-on-localhost/)
 - [hashicorp.com: Testing HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/testing-hashicorp-terraform) Learn testing strategies for HashiCorp Terraform modules and configuration, and learn how to run tests against infrastructure.
 - [==mattias.engineer: A Comprehensive Guide to Testing in Terraform: Keep your tests, validations, checks, and policies in order== 🌟](https://mattias.engineer/posts/terraform-testing-and-validation/)
 
 ## Terraform docs
+  - [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) - TerraSchema is a CLI tool that scans Terraform configuration files (.tf), parses variables with their types and validation rules, and converts them into JSON Schema Draft-07 compliant files. This is useful for validating .tfvars.json files against a defined schema.
 
 - [terraform-docs.io](https://terraform-docs.io/user-guide/introduction/) terraform-docs is a utility to generate documentation from Terraform modules in various output formats.
 
@@ -412,6 +425,7 @@
 - [kvs-vishnu23.medium.com: Is AWS CDK better than Terraform?](https://kvs-vishnu23.medium.com/is-aws-cdk-better-than-terraform-85194e7a42cd)
 
 ## Managing secrets in your Terraform code
+  - [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform/) 🌟 - This article explains the introduction of ephemeral values in Terraform 1.10, a new feature designed to address concerns about sensitive information in Terraform state and plan files. It details how ephemeral values, applied to input variables, output values, and a new ephemeral resource type, are not written to state or execution plans, thereby enhancing security. The article also touches upon use cases like provider blocks, provisioner blocks, and write-only arguments.
 
 - [==blog.gruntwork.io: A comprehensive guide to managing secrets in your Terraform code== 🌟🌟🌟](https://blog.gruntwork.io/a-comprehensive-guide-to-managing-secrets-in-your-terraform-code-1d586955ace1)
 
@@ -468,6 +482,7 @@
 - [opensource.com: How I use Terraform and Helm to deploy the Kubernetes Dashboard 🌟](https://opensource.com/article/21/8/terraform-deploy-helm) Terraform can deploy Helm Charts. Is it right for you?
 
 ## Terraform Infracost
+  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - This article details the integration of InfraCost into Terraform Pull Requests (PRs) to provide real-time cost visibility for infrastructure changes. It addresses concerns about workflow slowdowns and emphasizes how this practice helps avoid unexpected cloud bills, enables smarter decisions, and builds accountability within engineering teams.
 
 - [Infracost 🌟](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront.
 - [A Guide to Cloud Cost Optimization with HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/a-guide-to-cloud-cost-optimization-with-hashicorp-terraform) The Terraform AWS provider now supports Code Signing for AWS Lambda, which involves digitally signing code artifacts and verifying at deployment.
@@ -484,6 +499,7 @@
 - [Terraform Cheat Sheets](cheatsheets.md)
 
 ## Best Practices
+  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 - A comprehensive GitHub repository containing a free ebook on Terraform best practices, translated into multiple languages. It covers various aspects of writing and structuring Terraform code.
 
 - [github.com/ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices)
 - [globaldatanet.com: Terraform CI/CD Best Practices](https://globaldatanet.com/blog/terraform-cicd-best-practices)
@@ -522,6 +538,8 @@
 - [thomasthornton.cloud: Using Terraform tfvars for environment-agnostic deployments 🌟](https://thomasthornton.cloud/2024/04/25/using-terraform-tfvars-for-environment-agnostic-deployments/)
 
 ## Terraform and CI/CD. Terraform Workspaces
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) - *(Related to cicd topic)*
+  - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) 🌟 - This blog post announces the general availability of Terraform Azure Verified Modules (AVM) for Azure Landing Zone (ALZ). It details the modular approach to deploying ALZ, replacing the previous CAF Enterprise Scale module. The post highlights key AVMs for platform deployment, emphasizes the flexibility of choosing specific modules, and mentions the use of a new Terraform provider for enhanced deployment reliability and faster feature integration.
 
 - [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
 - [hashicorp.com: Announcing Support for Code Signing for AWS Lambda in the Terraform AWS Provider](https://www.hashicorp.com/blog/announcing-support-for-aws-lambda-code-signing-in-the-terraform-aws-provider)
@@ -539,6 +557,11 @@
 - etc
 
 ## Terraform and Kubernetes
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) - *(Related to azure topic)*
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) - *(Related to iac topic)*
+  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform/) - *(Related to azure topic)*
+  - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b) - *(Related to azure topic)*
+  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51) - An article introducing 'The Maester', a Terraform module designed to manage various Kubernetes resources, simplifying their deployment and configuration.
 
 - [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
 - [hodovi.cc: Creating a Low Cost Managed Kubernetes Cluster for Personal Development using Terraform](https://hodovi.cc/blog/creating-low-cost-managed-kubernetes-cluster-personal-development-terraform/)
@@ -615,6 +638,7 @@
 - [Global K3s Deployment on Packet Baremetal 🌟](https://github.com/c0dyhi11/k3s-linkerd) This repository contains Terraform scripts to deploy K3s and LinkerD on Packet baremetal servers spanning the globe.
 
 ### Terraform and GCP
+  - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga) 🌟 - Announces the General Availability (GA) of version 7.0 of the Terraform provider for Google Cloud, highlighting new features and improvements for managing Google Cloud resources with Terraform.
 
 - [==cloud.google.com: Terraform blueprints and modules for Google Cloud== 🌟](https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints)
 - [medium.com/@nanditasahu031: Terraform with GCP Cloud](https://medium.com/@nanditasahu031/terraform-with-gcp-cloud-d25d60a6e740)
