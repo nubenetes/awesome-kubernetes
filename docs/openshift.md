@@ -324,3 +324,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
+
+  - [Rescue My OpenShift Cluster From Loss of 2 Masters](https://medium.com/@haozhao_2156/rescue-my-openshift-cluster-from-loss-of-2-masters-59f118a30f95) 🌟 - Este artículo detalla un escenario real de recuperación de un clúster OpenShift tras la pérdida de dos nodos master, ofreciendo pasos prácticos para la restauración.
+  - [Automated Disaster Recovery failover and failback with Red Hat OpenShift](https://youtu.be/OPKVKPfJrRA?si=YBt3LmBRNNq-GrqL) 🌟 - Este video demuestra cómo configurar la recuperación ante desastres automatizada con failover y failback en Red Hat OpenShift.

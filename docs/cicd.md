@@ -228,3 +228,4 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CI/CD is a must-know in DevOps. <br><br>Here&#39;s a dead simple guide to understanding it:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1619966395965493248?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [GitBook Webinar: GitBook for Public Docs](https://youtu.be/gnYU0jtQbug?si=dWSDPD4eXvF3dx5r) - Webinar sobre el uso de GitBook para la documentación pública, útil para equipos que gestionan documentación de proyectos de Kubernetes y Cloud Native.

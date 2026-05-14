@@ -639,3 +639,5 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Does anyone want to try out the <a href="https://twitter.com/hashtag/k8s?src=hash&amp;ref_src=twsrc%5Etfw">#k8s</a> <a href="https://twitter.com/hashtag/slack?src=hash&amp;ref_src=twsrc%5Etfw">#slack</a> bot? It helps with browsing clusters directly from Slack and notifies you about important changes to your clusters. Your feedback would be super helpful! Please DM for details. <a href="https://t.co/SpRFz2wgtZ">pic.twitter.com/SpRFz2wgtZ</a></p>&mdash; Kubevious (@kubevious) <a href="https://twitter.com/kubevious/status/1471208374196850693?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [OpenTelemetry (OTel) vs Application Performance Monitoring (APM)](https://medium.com/@rahul.fiem/opentelemetry-otel-vs-application-performance-monitoring-apm-86ae829877cf) 🌟 - Este artículo técnico ofrece una comparación detallada entre OpenTelemetry (OTel) y las soluciones tradicionales de Application Performance Monitoring (APM).

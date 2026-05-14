@@ -103,6 +103,7 @@
     - Render the metrics of your nodes, pods, and namespaces all in one easy to visualize UI. Focus on what matters, with built in alerts and cluster health monitoring.
 
 ## Videos
+  - [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://youtu.be/1v15VSKPZRU?si=vK_9UKjGV8F24Ebt) - Comparativa técnica de los métodos de instalación de OpenShift en baremetal: Agent, Assisted e IPI, para ayudarte a elegir el más adecuado.
 
 ??? note "Click to expand!"
 
@@ -127,3 +128,4 @@
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What problem is Kubernetes trying to solve?<br><br>Is it simply container orchestration?<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1557304846730002435?ref_src=twsrc%5Etfw">August 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
+  - [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8) 🌟 - Una playlist de YouTube que ofrece una guía definitiva y completa sobre Kubernetes para principiantes absolutos, cubriendo conceptos fundamentales y prácticos.

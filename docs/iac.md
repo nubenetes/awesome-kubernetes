@@ -97,3 +97,4 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you use the AWS, GCP, or Azure web consoles beyond getting started with a new cloud provider? If so, why not an automation tool such as Terraform or Cloud Formation? <a href="https://t.co/5LIZSTcNpG">pic.twitter.com/5LIZSTcNpG</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1483820927402004484?ref_src=twsrc%5Etfw">January 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP)](https://medium.com/@nidhibansal26/iac-and-openshift-virtualization-handshake-c0a4ada79af5) 🌟 - Explora la integración de Infraestructura como Código (IaC) con Terraform para gestionar Máquinas Virtuales (VMs) en OpenShift Virtualization, demostrando un 'handshake' efectivo entre ambas tecnologías.

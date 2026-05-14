@@ -137,6 +137,7 @@
 - [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
+  - [Web Terminal Operator: Tips y Trucos](https://www.techqna.io/2024/09/web-terminal-operator-tips-tricks-for.html) - Explora consejos y trucos prácticos para utilizar el operador de terminal web en entornos Kubernetes.
 
 - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need
 - [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
@@ -1242,3 +1243,11 @@ elastic quotas - Effortless optimization at its finest!
   - [kuberay](https://github.com/ray-project/kuberay) - A toolkit to run Ray applications on Kubernetes
 
   - [odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
+  - [Grafana OnCall OSS](https://grafana.com/oss/oncall/) 🌟 - Grafana OnCall OSS es un sistema de gestión de guardias de código abierto para mejorar la colaboración y resolver incidentes más rápido, ahora en modo de mantenimiento.
+  - [Kubernetes: Un tour por los comandos básicos](https://youtube.com/shorts/VP4JoijL_TY?si=dBGfs6sn1ryzPcYT) 🌟 - Este video de YouTube ofrece un recorrido por los comandos esenciales de Kubernetes, ideal para iniciarse en la herramienta.
+  - [RBAC Wizard: Herramienta para visualizar y analizar la configuración RBAC de Kubernetes](https://t.…) 🌟 - RBAC Wizard es una herramienta que ayuda a visualizar y analizar las configuraciones RBAC de tu clúster de Kubernetes, facilitando la gestión de permisos.
+  - [Bank Vaults: Un Cuchillo Suizo para HashiCorp Vault en Kubernetes](https://github.com/bank-vaults/bank-vaults) 🌟 - Bank Vaults es una herramienta CLI multifuncional para inicializar, desbloquear y configurar HashiCorp Vault, facilitando su integración y gestión en entornos Kubernetes.
+  - [K3s vs Talos Linux](https://faun.pub/k3s-vs-talos-linux-8a1e0dce9a77) 🌟 - Comparativa técnica entre K3s y Talos Linux, dos opciones para desplegar Kubernetes.
+  - [Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen](https://medium.com/itnext/atomic-configmap-updates-in-kubernetes-how-symlinks-and-kubelet-make-it-happen-21a44338c247) 🌟 - Este artículo explica cómo las actualizaciones atómicas de ConfigMap en Kubernetes son posibles gracias a la interacción entre los symlinks y el Kubelet, permitiendo cambios seguros y eficientes.
+  - [Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen](https://medium.com/itnext/atomic-configmap-updates-in-kubernetes-how-symlinks-and-kubelet-make-it-happen-21a44338c247) 🌟 - Este artículo explica cómo las actualizaciones atómicas de ConfigMap en Kubernetes son posibles gracias a la interacción entre los symlinks y el Kubelet, permitiendo cambios seguros y eficientes.
+  - [ASCIIFlow](https://asciiflow.com/#/) 🌟 - Herramienta para crear diagramas en ASCII en el navegador, útil para visualizar arquitecturas y flujos.

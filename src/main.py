@@ -12,8 +12,11 @@ from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
 
+from src.state_manager import get_last_date, save_state
+
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
+    start_time = datetime.now(MADRID_TZ)
     
     log_event("INICIANDO CURADURÍA AGÉNTICA (CRONOLOGÍA Y TRANSPARENCIA)", section_break=True)
     
@@ -38,14 +41,22 @@ async def master_orchestrator():
             
         log_event(f"[*] MODO HISTÓRICO: Tramo {since_date.date()} -> {until_date.date()}")
     else:
-        # Modo Normal (30 días)
-        days_back = int(os.getenv("CURATION_DAYS_BACK", "30"))
-        since_date = datetime.now(MADRID_TZ) - timedelta(days=days_back)
-        until_date = None
-        log_event(f"[*] Modo Normal: Desde {since_date.date()}")
+        # Modo Normal: Usar CURATION_START_DATE si existe, si no state.json
+        env_start = os.getenv("CURATION_START_DATE")
+        if env_start:
+            try:
+                since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
+                log_event(f"[*] Modo Normal: Desde fecha manual del workflow {since_date.date()}")
+            except:
+                since_date = get_last_date()
+                log_event(f"[*] Modo Normal: Error parseando fecha manual, usando state.json {since_date.date()}")
+        else:
+            since_date = get_last_date()
+            log_event(f"[*] Modo Normal: Desde la última fecha guardada {since_date.date()}")
 
     # 2. Ingesta Multi-fuente
     backup_file = os.getenv("BACKUP_FILE")
+    x_audit_trail = []
     if backup_file and os.path.exists(backup_file):
         from src.ingestion_backup import BackupDataExtractor
         extractor = BackupDataExtractor(backup_file)
@@ -67,77 +78,149 @@ async def master_orchestrator():
             t["timestamp"] = datetime.now(MADRID_TZ).isoformat()
     
     all_raw_assets = raw_social + trending
-    
-    # 3. Evaluación y Registro (Ignorar duplicados locales)
+    if not all_raw_assets:
+        log_event("[!] No se encontraron nuevos enlaces para procesar.")
+        return
+
+    # 3. Evaluación y Registro (Deduplicación Global Robusta)
     existing_urls = set()
-    for doc in os.listdir("docs"):
-        if doc.endswith(".md"):
-            try:
-                with open(os.path.join("docs", doc), 'r') as f:
-                    existing_urls.update(re.findall(r'\]\((https?://[^\)]+)\)', f.read()))
-            except: pass
+    for root, dirs, files in os.walk("docs"):
+        for file in files:
+            if file.endswith(".md"):
+                try:
+                    with open(os.path.join(root, file), 'r') as f:
+                        content = f.read()
+                        found = re.findall(r'\]\((https?://[^\)]+)\)', content)
+                        for url in found:
+                            existing_urls.add(url.split('#')[0].rstrip('/').lower())
+                except: pass
+    
+    log_event(f"[*] Deduplicación Global: {len(existing_urls)} URLs existentes cargadas.")
 
     # --- INICIO PROCESAMIENTO POR LOTES ---
-    BATCH_SIZE = 50
+    BATCH_SIZE = 40
     all_raw_assets_batches = [all_raw_assets[i:i + BATCH_SIZE] for i in range(0, len(all_raw_assets), BATCH_SIZE)]
     
     curator_agent = AgenticCurator()
     total_processed = 0
+    max_tweet_date = since_date
+    full_report_metrics = []
+    modified_files_content = {}
 
     for batch_index, batch_assets in enumerate(all_raw_assets_batches):
         log_event(f">>> INICIANDO LOTE {batch_index + 1}/{len(all_raw_assets_batches)} ({len(batch_assets)} enlaces)", section_break=True)
         
-        full_extraction_report = []
-        unique_new_assets = []
-        
-        evaluations = await evaluate_extracted_assets(batch_assets)
-        
+        assets_to_evaluate = []
         for asset in batch_assets:
             url = asset["url"]
-            clean_url = url.split('#')[0].rstrip('/')
+            clean_url = url.split('#')[0].rstrip('/').lower()
             
+            # Trackear fecha máxima
+            try:
+                ts = asset.get('timestamp')
+                asset_date = None
+                if ts:
+                    if isinstance(ts, str):
+                        try:
+                            # Twitter format: 'Tue Oct 01 19:56:51 +0000 2024'
+                            asset_date = datetime.strptime(ts, '%a %b %d %H:%M:%S +0000 %Y').replace(tzinfo=MADRID_TZ)
+                        except:
+                            try: asset_date = datetime.fromisoformat(ts.replace('Z', '+00:00'))
+                            except: pass
+                    
+                if asset_date and asset_date > max_tweet_date:
+                    max_tweet_date = asset_date
+            except: pass
+
+            if clean_url in existing_urls:
+                log_event(f"  [=] SALTADO: {url[:60]}... (Ya existe)")
+                full_report_metrics.append({
+                    "url": url, "status": "DUPLICATE", "reason": "Ya existe en repositorio",
+                    "category": "N/A", "post_date": ts, "source": asset.get("source_type", "Social")
+                })
+                continue
+            assets_to_evaluate.append(asset)
+
+        if not assets_to_evaluate:
+            log_event("  [*] El lote completo consiste en duplicados. Siguiente lote.")
+            continue
+
+        evaluations = await evaluate_extracted_assets(assets_to_evaluate)
+        unique_new_assets = []
+        
+        for asset in assets_to_evaluate:
+            url = asset["url"]
             evaluation = evaluations.get(url, {"status": "FILTERED", "reason": "No evaluado por IA"})
-            status = evaluation["status"]
-            reason = evaluation.get("reason", "Aceptado")
-            category = evaluation.get("category", "N/A")
             
-            if clean_url in [u.split('#')[0].rstrip('/') for u in existing_urls]:
-                status = "DUPLICATE"
-                reason = "Ya existe en Nubenetes.com"
-                log_event(f"  [=] DUPLICADO: El enlace ya está en el repositorio.")
-            
-            if status == "INCLUDED":
+            full_report_metrics.append({
+                "url": url, "status": evaluation["status"], "reason": evaluation.get("reason", "Aceptado"),
+                "category": evaluation.get("category", "N/A"), "post_date": asset.get("timestamp"),
+                "source": asset.get("source_type", "Social")
+            })
+
+            if evaluation["status"] == "INCLUDED":
                 unique_new_assets.append({
                     "url": url, "title": evaluation["title"],
-                    "description": evaluation["description"], "category": category,
+                    "description": evaluation["description"], "category": evaluation.get("category", "kubernetes-tools"),
                     "impact_score": evaluation["impact_score"],
                     "reasoning": evaluation.get("reasoning")
                 })
+                existing_urls.add(url.split('#')[0].rstrip('/').lower())
 
-        # Inyección inmediata de este lote
+        # Inyección inmediata
         if unique_new_assets:
-            log_event(">>> APLICANDO INYECCIONES EN MARKDOWN...", section_break=True)
-
+            log_event(f">>> APLICANDO {len(unique_new_assets)} INYECCIONES EN MARKDOWN...", section_break=True)
             for asset in unique_new_assets:
                 category = asset["category"]
                 file_path = f"docs/{category}.md"
                 try:
-                    with open(file_path, 'r') as f: content = f.read()
+                    if file_path in modified_files_content:
+                        content = modified_files_content[file_path]
+                    else:
+                        if not os.path.exists(file_path):
+                            content = f"# {category.capitalize()}\n\n"
+                        else:
+                            with open(file_path, 'r') as f: content = f.read()
                     
                     new_content = await curator_agent.decide_smart_injection(content, asset)
+                    
                     if len(new_content) > len(content):
-                        # Actualizar archivo físico inmediatamente
+                        modified_files_content[file_path] = new_content
                         with open(file_path, 'w') as f: f.write(new_content)
+                        log_event(f"  [>>>] INYECTADO: {asset['url']}")
                 except Exception as e:
                     log_event(f"  [!] Error inyectando {asset['url']}: {e}")
 
         total_processed += len(batch_assets)
-        log_event(f"Fin del Lote {batch_index + 1}. Total procesado: {total_processed}/{len(all_raw_assets)}", section_break=True)
-        
-        # Pausa entre lotes para dejar respirar a la API
         if batch_index < len(all_raw_assets_batches) - 1:
-            log_event("[*] Esperando 30 segundos para el siguiente lote...")
-            await asyncio.sleep(30)
+            log_event(f"[*] Pausa de seguridad: 5s para el siguiente lote...")
+            await asyncio.sleep(5)
+
+    # 4. Finalización y PR
+    if modified_files_content:
+        log_event(">>> GENERANDO PULL REQUEST...", section_break=True)
+        metrics = {
+            "total_extracted": len(all_raw_assets),
+            "start_date": since_date.isoformat(),
+            "end_date": datetime.now(MADRID_TZ).isoformat(),
+            "full_report": full_report_metrics,
+            "x_audit": x_audit_trail
+        }
+        try:
+            git_controller.apply_multi_file_changes(modified_files_content, metrics)
+        except Exception as e:
+            log_event(f"[!] Error creando PR: {e}")
+
+    # Auditoría de reorganización
+    await curator_agent.suggest_reorganization()
+
+    # Actualizar estado
+    if max_tweet_date > since_date:
+        save_state(max_tweet_date + timedelta(seconds=1))
+
+    log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
+
+
 
     log_event("PROCESO FINALIZADO CON ÉXITO.", section_break=True)
 

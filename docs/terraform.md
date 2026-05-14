@@ -1182,3 +1182,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wNllmEAuCTg?si=xyKNxoi-Diu_m5yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 </details>
+
+  - [Automatización de aplicaciones Spring Boot con Terraform, Ansible y GitHub Actions](https://buff.ly/3sl0yYu) 🌟 - Tutorial para automatizar el despliegue de aplicaciones Spring Boot utilizando Terraform para la infraestructura, Ansible para la configuración y GitHub Actions para la CI/CD.
+  - [Teaser: Chapter 2 of Terraform Authoring and Operations Professional Study Guide](https://mattias.engineer/blog/2024/terraform-professional-chapter-2/) 🌟 - Un teaser del capítulo 2 de la guía de estudio profesional de autoría y operaciones de Terraform, cubriendo el viaje completo desde la instalación hasta la configuración de workspaces y la implementación de recursos con HCP Terraform.

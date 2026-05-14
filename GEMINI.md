@@ -32,3 +32,4 @@ El bot debe rotar entre perfiles para evitar ser detectado:
 *   **Mayo 2026**: Añadido sistema de Evasión Multidimensional (5 intentos, rotación de perfiles).
 *   **Mayo 2026**: Creación del `AgenticCurator` para auditoría de navegación y consolidación de repositorios.
 *   **Mayo 2026**: Generación de PRs con analíticas visuales (Mermaid) y Matriz de Salud.
+*   **Mayo 2026**: Implementación de Curaduría vía Backup (JSON/MD) para evitar bloqueos de X.com.

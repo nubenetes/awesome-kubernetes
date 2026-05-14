@@ -275,3 +275,5 @@ You can filter by topic using the toolbar above.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A list of small tools with a 𝗯𝗶𝗴 𝗶𝗺𝗽𝗮𝗰𝘁 𝗼𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝘁𝘆 when working with AWS 🛠 📈 ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1543982797320327169?ref_src=twsrc%5Etfw">July 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+  - [Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available](https://go.aws/4eFRwIt) 🌟 - AWS Console-to-Code is now generally available, enabling users to convert AWS console actions and workflows into reusable Infrastructure as Code (IaC) formats like AWS CLI, CloudFormation, and AWS CDK.

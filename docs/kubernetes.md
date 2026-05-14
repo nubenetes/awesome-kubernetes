@@ -920,6 +920,7 @@
 - [cloudhero.io](https://cloudhero.io/creating-users-for-your-kubernetes-cluster) Creating Users for your Kubernetes Cluster. Learn how to use x509 certificates to authenticate users in your cluster.
 
 #### Kubernetes Labels and Selectors
+  - [Centralized Add-on Management Across N Kubernetes Clusters](https://dev.to/gianlucam76/centralized-add-on-management-across-n-kubernetes-clusters-308k) - This article discusses a centralized management approach using selectors to streamline add-on deployments and simplify Kubernetes multi-cluster management, addressing the complexity of managing distributed clusters across various environments.
 
 - [sandeepbaldawa.medium.com: K8s Labels & Selectors](https://sandeepbaldawa.medium.com/k8s-labels-selectors-9ad2fcf78a4e) In this post, we will look at What Kubernetes(K8s) Labels and Selectors are, Why do we need them, How to use them.
 - [blog.kubecost.com: The Guide to Kubernetes Labels](https://blog.kubecost.com/blog/kubernetes-labels/)
@@ -2005,3 +2006,4 @@ will dive into the details of how they work
 
   gtag('config', 'UA-168051035-1');
 </script>
+  - [KEP-2837: Especificaciones de Recursos a Nivel de Pod](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md#summary) 🌟 - Este KEP propone la especificación de recursos de CPU y memoria a nivel de pod en Kubernetes para mejorar la gestión de recursos y el aislamiento.

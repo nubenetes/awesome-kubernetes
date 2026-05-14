@@ -5,6 +5,10 @@ on:
     - cron: '0 5 * * 0'
   workflow_dispatch:
     inputs:
+      start_date:
+        description: 'Fecha inicial para la búsqueda (YYYY-MM-DD)'
+        required: true
+        default: '2024-10-01'
       extraction_strategy:
         description: 'Estrategia de Extracción'
         required: true
@@ -22,9 +26,6 @@ on:
         description: 'Fecha límite superior (tramo)'
         required: false
         default: ''
-        # Explicación para el usuario:
-        # scroll: MÁS EXHAUSTIVO. Simula navegación humana. Captura TODO, pero puede ser limitado por X en fechas muy antiguas.
-        # search: MÁS FIABLE PARA 2024. Usa búsqueda avanzada. Llega siempre a la fecha, pero el algoritmo de X puede filtrar posts.
 
 permissions:
   contents: write
@@ -34,9 +35,13 @@ permissions:
 jobs:
   agentic-curation-process:
     runs-on: ubuntu-latest
+    # Solo ejecutar en develop
+    if: github.ref == 'refs/heads/develop'
     steps:
       - name: Sincronización del repositorio
         uses: actions/checkout@v4
+        with:
+          ref: develop
 
       - name: Provisión del Entorno Python 3.11
         uses: actions/setup-python@v5
@@ -60,6 +65,7 @@ jobs:
           EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'search' }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
           HISTORICAL_UNTIL_DATE: ${{ github.event.inputs.historical_until_date || '' }}
+          CURATION_START_DATE: ${{ github.event.inputs.start_date || '' }}
           HISTORICAL_CHUNK_DAYS: '180'
           PYTHONPATH: .
         run: |

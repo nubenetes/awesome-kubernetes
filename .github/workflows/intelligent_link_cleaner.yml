@@ -12,11 +12,14 @@ permissions:
 jobs:
   intelligent-clean-process:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/develop'
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Sincronización del repositorio
         uses: actions/checkout@v4
+        with:
+          ref: develop
 
       - name: Provisión del Entorno Python 3.11
         uses: actions/setup-python@v5
