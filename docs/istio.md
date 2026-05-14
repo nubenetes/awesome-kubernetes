@@ -177,6 +177,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
 
 ## Istio Tools
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) 🌟 - This blog post details the integration of Azure Application Gateway for Containers (AGC) with Istio, a Kubernetes service mesh. It focuses on leveraging Istio's capabilities for encrypting traffic between AGC and application pods, especially for applications that do not natively support TLS.
 
 - [Istio Performance/Stability Testing](https://github.com/istio/tools/blob/master/perf/README.md)
 
