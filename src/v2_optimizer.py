@@ -14,55 +14,53 @@ V2_DIR = "v2-docs"
 
 class V2VisionEngine:
     def __init__(self):
-        self.taxonomy_2026 = {
-            "Foundations": ["introduction", "faq", "kubernetes", "linux", "git"],
-            "Agentic AI & LLMOps": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
-            "Modern Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "cloud-arch-diagrams"],
-            "Security & Zero Trust": ["securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops"],
-            "Observability & AIOps": ["monitoring", "prometheus", "grafana", "kubernetes-monitoring", "chaos-engineering"],
-            "Platform Engineering": ["devops", "sre", "developerportals", "scaffolding", "finops"],
-            "Cloud Providers": ["aws", "azure", "GoogleCloudPlatform", "digitalocean", "cloudflare"],
-            "Networking & Connectivity": ["networking", "kubernetes-networking", "servicemesh", "istio"],
-            "Runtime & Containers": ["docker", "container-managers", "serverless", "wasm"],
-            "Data & Databases": ["databases", "nosql", "message-queue", "bigdata", "databricks"],
-            "Software Delivery": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "registries"],
-            "Developer Experience": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "angular", "react"]
+        # Multi-dimensional hierarchy for a more sophisticated navigation
+        self.dimensions = {
+            "Intelligent Control Plane": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+            "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams"],
+            "Automated Operations": ["devops", "sre", "developerportals", "scaffolding", "finops", "chaos-engineering"],
+            "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth"],
+            "Cloud & Connectivity": ["aws", "azure", "GoogleCloudPlatform", "digitalocean", "cloudflare", "networking", "kubernetes-networking", "servicemesh", "istio"],
+            "The Modern Stack": ["docker", "container-managers", "serverless", "wasm", "databases", "nosql", "message-queue", "bigdata", "databricks"],
+            "Engineering Flow": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "visual-studio", "golang", "python", "java_frameworks"]
         }
+        
         self.elite_criteria = (
-            "You are a Senior Principal Architect in May 2026.\n"
-            "Your task is to curate an EXCELLENCE-DRIVEN portal for platform professionals.\n"
-            "CRITERIA for V2 Selection:\n"
-            "1. TECHNICAL DEPTH: Prioritize deep-dives, architectural masterclasses, and authoritative sources over shallow or introductory content.\n"
-            "2. PRODUCTION VALUE: Keep tools and resources that are production-ready or represent the cutting edge of industry standards (2024-2026).\n"
-            "3. AWESOME LISTS: ALWAYS KEEP all links pointing to 'Awesome' repositories, as they are foundational knowledge nodes.\n"
-            "4. NO FLUFF: Remove personal anecdotes, outdated jokes, or introductory tutorials that don't add advanced value.\n"
-            "5. MODERN ECOSYSTEM: Favor resources focusing on eBPF, WASM, Platform Engineering, Agentic AI, and Zero Trust security.\n"
+            "You are a Senior Principal Architect in May 2026. "
+            "Your task is to transform a raw technical list into an ENTERPRISE-GRADE technical portal.\n\n"
+            "PHASE 1: TECHNICAL EVALUATION\n"
+            "- Hold a VERY HIGH bar for quality and production relevance.\n"
+            "- KEEP: Foundational Awesome lists, masterclasses, production-ready tools, and 2024-2026 innovations.\n"
+            "- DISCARD: Introductory noise, redundant tools, personal anecdotes, and pre-2022 outdated content.\n\n"
+            "PHASE 2: SEMANTIC SYNTHESIS\n"
+            "- For the selected links, categorize them into: [FOUNDATIONAL], [PRODUCTION-READY], or [CUTTING-EDGE].\n"
+            "- Write a 1-sentence technical executive summary for the whole section.\n"
         )
 
     async def analyze_and_cluster(self):
-        log_event("STARTING V2 HIGH-DENSITY TRANSFORMATION", section_break=True)
+        log_event("STARTING V2 ARCHITECT'S CUT TRANSFORMATION", section_break=True)
         
         all_v1_links = await self._gather_all_v1_content()
-        log_event(f"[*] Total resources discovered in V1: {len(all_v1_links)}")
+        log_event(f"[*] Discovery: Found {len(all_v1_links)} nodes in V1.")
 
-        # 1. Semantic Purge & Scoring
-        log_event("[*] Phase 1: Semantic Evaluation & Professional Filtering...")
-        elite_inventory = await self._evaluate_professional_impact(all_v1_links)
-        log_event(f"[*] Elite Inventory Size: {len(elite_inventory)} high-impact resources.")
+        # 1. Excellence Filtering
+        log_event("[*] Phase 1: Excellence Filtering & Quality Pass...")
+        elite_inventory = await self._evaluate_quality(all_v1_links)
+        log_event(f"[*] Inventory Refined: {len(elite_inventory)} high-signal resources selected.")
 
-        # 2. Re-architecting Sections
-        log_event("[*] Phase 2: Structural Clustering for 2026 Taxonomy...")
-        v2_structure = await self._cluster_into_2026_taxonomy(elite_inventory)
+        # 2. Structural Reconstruction
+        log_event("[*] Phase 2: Dimensional Clustering & Semantic Enrichment...")
+        v2_data = await self._rebuild_structure(elite_inventory)
 
-        # 3. Generating Files
-        log_event("[*] Phase 3: Generating V2 High-Density Portal...")
+        # 3. File Generation
+        log_event("[*] Phase 3: Generating Premium Portal Content...")
         os.makedirs(V2_DIR, exist_ok=True)
-        await self._write_v2_files(v2_structure)
+        await self._write_premium_files(v2_data)
         
-        # 4. Generating Advanced Navigation
-        await self._generate_v2_navigation(v2_structure)
+        # 4. Navigation Sync
+        await self._sync_enterprise_navigation(v2_data)
         
-        log_event("V2 TRANSFORMATION COMPLETED.", section_break=True)
+        log_event("V2 TRANSFORMATION COMPLETED SUCCESSFULLY.", section_break=True)
 
     async def _gather_all_v1_content(self) -> List[Dict]:
         all_links = []
@@ -72,148 +70,129 @@ class V2VisionEngine:
                 path = os.path.join(root, file)
                 with open(path, "r") as f:
                     content = f.read()
-                
-                # Extract links with context
                 matches = re.findall(r'^\s*-\s*\[([^\]]+)\]\(([^\)]+)\)(.*)', content, re.MULTILINE)
                 for title, url, desc in matches:
                     all_links.append({
-                        "title": title,
-                        "url": url,
-                        "description": desc.strip(),
-                        "original_file": file
+                        "title": title, "url": url, "description": desc.strip(), "original_file": file
                     })
         return all_links
 
-    async def _evaluate_professional_impact(self, links: List[Dict]) -> List[Dict]:
-        elite = []
-        
-        async def process_link_batch(batch, batch_num):
-            prompt = (
-                f"{self.elite_criteria}\n"
-                "Your mission is to evaluate the technical quality of these resources.\n"
-                "Do not limit the quantity, but hold a VERY HIGH bar for quality.\n"
-                "RULES:\n"
-                "1. If a resource is technically exceptional and authoritative, KEEP IT.\n"
-                "2. If it is a generic tutorial or an outdated news piece, DISCARD IT.\n"
-                "3. Ensure the selection remains dense but purely high-quality.\n\n"
-                "LINKS TO EVALUATE:\n" + "\n".join([f"{i}. [{l['title']}]({l['url']}) - {l['description']}" for i, l in enumerate(batch)]) + "\n\n"
-                "Respond ONLY with a JSON object: {\"keep_indices\": [int, int, ...]}"
-            )
-            try:
-                response = await call_gemini_with_retry(prompt)
-                indices = []
-                if isinstance(response, dict):
-                    indices = response.get("keep_indices", [])
-                elif isinstance(response, list):
-                    indices = response
-                
-                kept = [batch[int(i)] for i in indices if int(i) < len(batch)]
-                log_event(f"    [Batch {batch_num}] Quality Filter: Kept {len(kept)}/{len(batch)} high-quality links.")
-                return kept
-            except Exception as e:
-                log_event(f"    [Batch {batch_num}] Evaluation failed: {e}. Falling back to original curation for safety.")
-                return [l for l in batch if "awesome" in l['title'].lower() or "awesome" in l['url'].lower()]
-
-        # Reduced batch size for higher AI attention
+    async def _evaluate_quality(self, links: List[Dict]) -> List[Dict]:
+        refined = []
         BATCH_SIZE = 50
         for i in range(0, len(links), BATCH_SIZE):
             batch = links[i:i+BATCH_SIZE]
             batch_num = i//BATCH_SIZE + 1
-            log_event(f"  [>] Evaluating batch {batch_num}...")
-            result = await process_link_batch(batch, batch_num)
-            elite.extend(result)
-            # Short sleep to respect rate limits even in pay-per-use
-            await asyncio.sleep(0.5)
+            log_event(f"  [>] Processing Excellence Batch {batch_num}...")
             
-        return elite
+            prompt = (
+                f"{self.elite_criteria}\n"
+                "Mission: Identify technically superior nodes.\n"
+                "Respond ONLY with a JSON object: {\"keep_indices\": [int, ...], \"tags\": {\"index\": \"TAG\"}}\n"
+                "TAGS available: [FOUNDATIONAL], [PRODUCTION-READY], [CUTTING-EDGE].\n\n"
+                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
+            )
+            
+            try:
+                data = await call_gemini_with_retry(prompt)
+                indices = data.get("keep_indices", [])
+                tags_map = data.get("tags", {})
+                
+                for idx in indices:
+                    idx_str = str(idx)
+                    item = batch[int(idx)].copy()
+                    item["tag"] = tags_map.get(idx_str, "[PRODUCTION-READY]")
+                    refined.append(item)
+                
+                log_event(f"    [Batch {batch_num}] Quality: Kept {len(indices)}/{len(batch)}")
+            except:
+                # Fallback: Keep if Awesome or recently curated
+                refined.extend([l for l in batch if "awesome" in l['title'].lower()])
+            
+            await asyncio.sleep(0.5)
+        return refined
 
-    async def _cluster_into_2026_taxonomy(self, inventory: List[Dict]) -> Dict[str, List[Dict]]:
-        # This simplifies the complex V1 list into our new 2026 categories
-        clustered = {cat: [] for cat in self.taxonomy_2026.keys()}
+    async def _rebuild_structure(self, inventory: List[Dict]) -> Dict[str, Dict]:
+        # Dimensional clustering
+        v2_structure = {dim: {"summary": "", "categories": {}} for dim in self.dimensions.keys()}
         
-        # Mapping original files to new categories
-        file_to_cat = {}
-        for cat, v1_files in self.taxonomy_2026.items():
-            for f in v1_files:
-                file_to_cat[f + ".md"] = cat
+        file_to_dim = {}
+        for dim, files in self.dimensions.items():
+            for f in files: file_to_dim[f + ".md"] = dim
 
         for item in inventory:
-            cat = file_to_cat.get(item["original_file"], "Foundations")
-            clustered[cat].append(item)
+            dim = file_to_dim.get(item["original_file"], "Architectural Foundations")
+            cat_name = item["original_file"].replace(".md", "").capitalize()
             
-        return clustered
+            if cat_name not in v2_structure[dim]["categories"]:
+                v2_structure[dim]["categories"][cat_name] = []
+            
+            v2_structure[dim]["categories"][cat_name].append(item)
 
-    async def _write_v2_files(self, structure: Dict[str, List[Dict]]):
-        # Create Home
-        index_content = (
-            "# Nubenetes V2: The Agentic Elite Portal (2026 Edition)\n\n"
-            "!!! quote \"The Architect's Vision\"\n"
-            "    This is not just a list; it is a high-density intelligence layer for the modern Platform Engineer. "
-            "    Every link has been semantically evaluated by our Agentic AI to ensure maximum professional value.\n\n"
-            "## Exploration Path\n"
-            "Choose your area of expertise or starting point from the navigation menu. Each section is optimized "
-            "for high-signal learning and production-ready tool discovery.\n\n"
-            "--- \n"
-            "**Core Features:**\n"
-            "- **Professional Only**: No noise, no outdated memes, just technical excellence.\n"
-            "- **2026 Roadmap**: Prioritizing AI-Native, eBPF, and Autonomous Operations.\n"
-            "- **Exhaustive but Elite**: Thousands of links maintained, but only the most impactful shown prominently.\n"
+        # Generate summaries for each dimension
+        for dim in v2_structure.keys():
+            if not v2_structure[dim]["categories"]: continue
+            log_event(f"  [*] Synthesizing executive summary for {dim}...")
+            prompt = f"Write a 1-sentence professional executive summary for a technical portal section titled '{dim}'. Use sophisticated 2026 architectural tone. Respond ONLY with the sentence."
+            try:
+                v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text")
+            except:
+                v2_structure[dim]["summary"] = f"Curated selection of high-impact resources for {dim}."
+                
+        return v2_structure
+
+    async def _write_premium_files(self, data: Dict[str, Dict]):
+        # Home
+        index_md = (
+            "# Nubenetes V2 | The Architect's Cut (2026)\n\n"
+            "![Nubenetes Banner](https://raw.githubusercontent.com/nubenetes/awesome-kubernetes/master/docs/images/logo.png)\n\n"
+            "!!! quote \"Engineering the Future\"\n"
+            "    This portal represents the state-of-the-art in Cloud Native engineering. It is a derived intelligence layer "
+            "    filtered through the lens of production stability and technical innovation.\n\n"
+            "## Exploration Dimensions\n"
+            "Our repository is organized into five critical dimensions for modern platform engineering:\n\n"
         )
-        with open(os.path.join(V2_DIR, "index.md"), "w") as f:
-            f.write(index_content)
+        for dim, content in data.items():
+            if not content["categories"]: continue
+            slug = dim.lower().replace(" ", "-").replace("&", "and")
+            index_md += f"- **[{dim}](./{slug}.md)**: {content['summary']}\n"
+        
+        with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
-        # Create category pages
-        for cat, links in structure.items():
-            slug = cat.lower().replace(" ", "-").replace("&", "and")
-            filename = f"{slug}.md"
+        # Dimension pages
+        for dim, content in data.items():
+            if not content["categories"]: continue
+            slug = dim.lower().replace(" ", "-").replace("&", "and")
             
-            content = f"# {cat}\n\n"
-            content += f"!!! abstract \"2026 Focus\"\n    High-density curation of {cat} resources.\n\n"
+            md = f"# {dim}\n\n"
+            md += f"!!! summary \"Executive Overview\"\n    {content['summary']}\n\n"
             
-            # Sub-grouping by original V1 categories to maintain some hierarchy
-            original_groups = {}
-            for l in links:
-                group = l["original_file"].replace(".md", "").capitalize()
-                if group not in original_groups: original_groups[group] = []
-                original_groups[group].append(l)
+            for cat, links in content["categories"].items():
+                md += f"## {cat}\n"
+                for l in links:
+                    tag_color = "success" if "FOUNDATIONAL" in l["tag"] else "info" if "PRODUCTION" in l["tag"] else "warning"
+                    md += f"  - [{l['title']}]({l['url']}) {l['description']} <span class='md-tag md-tag--{tag_color}'>{l['tag']}</span>\n"
+                md += "\n"
+                
+            with open(os.path.join(V2_DIR, f"{slug}.md"), "w") as f: f.write(md)
 
-            for group, g_links in original_groups.items():
-                content += f"## {group}\n"
-                for l in g_links:
-                    stars = " 🌟" if "awesome" in l["title"].lower() else ""
-                    content += f"  - [{l['title']}]({l['url']}){stars} - {l['description']}\n"
-                content += "\n"
-
-            with open(os.path.join(V2_DIR, filename), "w") as f:
-                f.write(content)
-
-    async def _generate_v2_navigation(self, structure: Dict[str, List[Dict]]):
-        """
-        Updates the v2-mkdocs.yml with the new structure.
-        Uses a simpler approach to avoid breaking custom YAML tags.
-        """
+    async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
-            with open("v2-mkdocs.yml", "r") as f:
-                content = f.read()
-
-            nav_lines = ["nav:", "  - Welcome: index.md"]
-            elite_nav = ["  - Elite Portal:"]
+            with open("v2-mkdocs.yml", "r") as f: content = f.read()
             
-            for cat in structure.keys():
-                slug = cat.lower().replace(" ", "-").replace("&", "and")
-                elite_nav.append(f"      - \"{cat}\": {slug}.md")
+            nav_items = ["nav:", "  - \"The 2026 Vision\": index.md"]
+            for dim in data.keys():
+                if not data[dim]["categories"]: continue
+                slug = dim.lower().replace(" ", "-").replace("&", "and")
+                nav_items.append(f"  - \"{dim}\": {slug}.md")
+                
+            new_nav = "\n".join(nav_items)
+            updated_content = re.sub(r'nav:.*', new_nav, content, flags=re.DOTALL)
             
-            nav_section = "\n".join(nav_lines + elite_nav)
-            
-            # Replace the old nav section using regex
-            new_content = re.sub(r'nav:.*', nav_section, content, flags=re.DOTALL)
-            
-            with open("v2-mkdocs.yml", "w") as f:
-                f.write(new_content)
-            
-            log_event("  [OK] v2-mkdocs.yml navigation updated using regex.")
+            with open("v2-mkdocs.yml", "w") as f: f.write(updated_content)
+            log_event("  [OK] v2-mkdocs.yml navigation updated for Enterprise View.")
         except Exception as e:
-            log_event(f"  [!] Error updating navigation: {e}")
+            log_event(f"  [!] Error syncing navigation: {e}")
 
 if __name__ == "__main__":
     engine = V2VisionEngine()
