@@ -5,6 +5,7 @@
 3. [Databricks](#databricks)
 
 ## Introduction
+  - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue) - *(Related to kubernetes-operators-controllers topic)*
 
 - [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp)
 

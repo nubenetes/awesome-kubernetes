@@ -105,6 +105,7 @@
 - [DevStack](https://devstack.in/) All about DevOps
 
 ## Kubernetes Blogs
+  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
 
 - [kubernetes-advocate.medium.com 🌟](https://kubernetes-advocate.medium.com/)
 
@@ -348,6 +349,7 @@
     - [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
 ## OpenShift Demos
+  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) - *(Related to visual-studio topic)*
 
 - [developers.redhat.com: Developing on OpenShift (katacoda interactive learning) 🌟](https://developers.redhat.com/courses/openshift/) Learn how to access an OpenShift cluster, manage apps with the odo command-line tool, then try image and source-based deployment techniques.
 - [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)

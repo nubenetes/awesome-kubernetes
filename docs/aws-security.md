@@ -7,15 +7,16 @@
 5. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
 6. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
 7. [AWS IAM](#aws-iam)
+8. [CI/CD Security](#cicd-security)
     1. [Terraform IAM Policy Validator](#terraform-iam-policy-validator)
     2. [AWS IAM Anywhere](#aws-iam-anywhere)
-8. [AWS Organizations](#aws-organizations)
-9. [AWS Control Tower](#aws-control-tower)
-10. [AWS Firewalls](#aws-firewalls)
-11. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
-12. [AWS Secrets Manager](#aws-secrets-manager)
-13. [AWS Vault](#aws-vault)
-14. [Tweets](#tweets)
+9. [AWS Organizations](#aws-organizations)
+10. [AWS Control Tower](#aws-control-tower)
+11. [AWS Firewalls](#aws-firewalls)
+12. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
+13. [AWS Secrets Manager](#aws-secrets-manager)
+14. [AWS Vault](#aws-vault)
+15. [Tweets](#tweets)
 
 ## Introduction
 
@@ -61,6 +62,7 @@
 - [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available/) A set of guidelines for deploying the full complement of AWS security services in a multi-account environment.
 
 ## Application Security
+  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - *(Related to azure topic)*
 
 - [docs.aws.amazon.com: Application security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/application-security.html) Application security (AppSec) describes the overall process of how you design, build, and test the security properties of the workloads you develop. You should have appropriately trained people in your organization, understand the security properties of your build and release infrastructure, and use automation to identify security issues.
 
@@ -73,6 +75,10 @@
 - [PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment/)
 
 ## AWS IAM
+
+## CI/CD Security
+  - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc/) - *(Related to cicd topic)*
+  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) 🌟 - This blog post discusses common security misconfigurations when integrating third-party SaaS solutions with AWS accounts using OpenID Connect (OIDC). It highlights the importance of specific conditions in AWS IAM trust policies, particularly the 'sub' condition, to prevent unauthorized access. The article uses GitHub Actions as a concrete example, explaining how a missing 'sub' condition could allow any GitHub user to assume an IAM role, and provides an example of a correctly configured trust policy.
 
 - [AWS Identity and Access Management - Getting Started](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
 - [AWS Identity and Access Management (IAM) best practices in 2016](http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)
@@ -146,6 +152,7 @@
 - [dev.to: AWS WAF (Web Application Firewall): Deep Dive](https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd)
 
 ## AWS Secrets Manager
+  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide/) - *(Related to azure topic)*
 
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)
 - [AWS Secrets Manager controller POC: an EKS operator for automatic rotation of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets/)

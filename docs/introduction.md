@@ -279,6 +279,7 @@
 - [==eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture== 🌟](https://www.eventstore.com/blog/service-oriented-architecture-vs-event-driven-architecture) __SOA vs EDA: which should you use? Best article about EventSourcing CQRS related patterns and usages. A close-to-a-must-read for those who wants to clarify and understand better.__
 
 ## Cloud Native
+  - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) - *(Related to ai topic)*
 
 - [==mkaschke.medium.com: ud Native Part 1: What Is Cloud Native?== 🌟](https://mkaschke.medium.com/cloud-native-part-1-what-is-cloud-native-40640f128834)
 
@@ -294,6 +295,7 @@
 - [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/3704233/you-cant-run-away-from-technical-debt.html) Like student loans and credit card balances, technical debt is holding you back or even killing your business. Unfortunately, the cloud can't always save you.
 
 ## Twelve-Factor Apps in Kubernetes
+  - [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) 🌟 - An updated guide to the 12-Factor App methodology, originally introduced by Adam Wiggins of Heroku. This article reviews the methodology, its original formulation, and its evolution in modern software development, touching on aspects like codebase management and dependency handling.
 
 - [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
 - [==opensource.com: An open source developer's guide to 12-Factor App methodology==](https://opensource.com/article/21/11/open-source-12-factor-app-methodology) How 12 basic principles can help teams build highly scalable apps quickly and efficiently.
@@ -375,6 +377,9 @@
 - [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
 
 ## Microservices Best Practices and Design Patterns
+  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) - *(Related to kubernetes-tutorials topic)*
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) - *(Related to golang topic)*
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-app-service) - *(Related to azure topic)*
 
 - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) In this article, we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.
 - [zdnet.com: Why microservices need event-driven architecture](https://www.zdnet.com/article/when-microservices-need-event-driven-architecture/) A call for greater microservice stability and alignment in legacy environments
@@ -515,6 +520,7 @@
 - [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90) The move from a distributed microservices architecture to a monolith application helped achieve higher scale, resilience, and reduce costs.
 
 ## Openshift VS Kubernetes
+  - [OCP4 Getting Started Showroom](https://rhpds.github.io/ocp4-getting-started-showroom/modules/main/index.html) - *(Related to ocp4 topic)*
 
 - [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
 - [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)

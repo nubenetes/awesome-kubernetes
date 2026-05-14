@@ -477,6 +477,7 @@ git rebase -i HEAD~5
 - [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow/)
 
 ## GitHub
+  - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it/) - *(Related to developerportals topic)*
 
 - [githubstatus.com 🌟](https://www.githubstatus.com/)
 - [buttons.github.io: GitHub Buttons](https://buttons.github.io/)
@@ -580,6 +581,7 @@ git rebase -i HEAD~5
 - [github.com/giscus/giscus](https://github.com/giscus/giscus) A comments system powered by [GitHub Discussions](https://docs.github.com/en/discussions). Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances](https://github.com/utterance/utterances).
 
 ### GitHub Actions
+  - [Gama: Terminal UI for GitHub Actions](https://github.com/termkit/gama) - *(Related to cicd topic)*
 
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
 - [docker.com: Docker Github Actions](https://www.docker.com/blog/docker-github-actions/)
@@ -872,3 +874,4 @@ Automate them.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to organizing GitHub repositories for your project?<br><br>A thread 👇 <a href="https://t.co/QSnnyDyupe">pic.twitter.com/QSnnyDyupe</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1655208517903740928?ref_src=twsrc%5Etfw">May 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits/) 🌟 - A blog post by Chris Arcand discussing strategies for managing Git commit history, advocating for practices that result in a cleaner and more understandable history by avoiding noisy merge commits and WIP messages, ultimately making it easier to track changes, revert regressions, and understand the evolution of a codebase.

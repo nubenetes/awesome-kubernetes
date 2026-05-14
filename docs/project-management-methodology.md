@@ -186,6 +186,7 @@
 - [dev.to: Construyendo un MVP sin base de datos](https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k)
 
 ## Other Development Methodologies. Worst practices in Project Management
+  - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career/) - *(Related to devsecops topic)*
 
 - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices/)
 

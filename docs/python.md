@@ -256,6 +256,7 @@
 - [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) One of Thoth's major offerings is a cloud-based resolver, which examines the packages and libraries requested by an application and determines the best way to resolve them so that they work together in the target environment.
 
 ## Python Books
+  - [Think Python](https://www.google.com/share.google?q=rRH2WBGGgW1LON3N1) - An introduction to Python programming designed for beginners, now entirely presented in Jupyter notebooks. It includes interactive code execution, revised text, more exercises, and suggestions for using AI tools like ChatGPT and Colab AI for learning.
 
 - [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks.
     - [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
@@ -328,6 +329,8 @@
 - [coursereport.com: A Beginner’s Guide to Python for Cybersecurity](https://www.coursereport.com/blog/python-for-cyber-security-with-flatiron-school)
 
 ## Data Science
+  - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) - *(Related to ai topic)*
+  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) - *(Related to visual-studio topic)*
 
 - [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) Set up a shared library of packages and applications that you can dynamically load into your Kubernetes Data Science environments.
 - [==huyenchip.com: Why data scientists shouldn’t need to know Kubernetes==](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)

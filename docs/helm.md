@@ -168,6 +168,8 @@
 - [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree/)
 
 ## Helm Charts repositories
+  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart/) - *(Related to prometheus topic)*
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) 🌟 - This article explains how to automate Kubernetes deployments using Helm charts. It covers the creation of Helm charts, their structure, and how to use them for consistent and repeatable application deployments in Kubernetes environments.
 
 - [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts/)
 - [hub.helm.sh 🌟](http://hub.helm.sh) -> [artifacthub.io 🌟](https://artifacthub.io/) Find, install and publish
@@ -215,6 +217,8 @@ Kubernetes packages
 - [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805)
 
 ## Helm Tools
+  - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) - Nelm is a Kubernetes deployment tool designed as a modern alternative to Helm. It aims to address long-standing issues in Helm and introduce new features, managing Helm Charts and facilitating their deployment to Kubernetes.
+  - [AKS Bitnami Open Source Deployments](http://blog.aks.azure.com/2025/04/03/aks-bitnami-open-source-deployments) - *(Related to azure topic)*
 
 - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
 - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
@@ -232,6 +236,7 @@ Kubernetes packages
 - [abhaypore.medium.com: Migrate your manifest yaml files into Helm Chart](https://abhaypore.medium.com/migrate-your-manifest-yaml-files-into-helm-chart-32a44230f3b5)
 
 ## Helm Books
+  - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - *(Related to kubernetes-tutorials topic)*
 
 
 ## Videos

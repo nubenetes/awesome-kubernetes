@@ -228,6 +228,10 @@
 - [devopsera.com: How to Structure Directories in a GitOps Repository for the Best User-Friendliness and Flexibility](https://devopsera.com/2023/06/how-to-structure-directories-in-a-gitops-repository-for-the-best-user-friendliness-and-flexibility/)
 
 ## GitOps Tools
+  - [EntraExporter](https://github.com/microsoft/entraexporter) - *(Related to azure topic)*
+  - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 - A Terraform component from Cloud Posse for provisioning Argo CD on AWS EKS, facilitating declarative GitOps continuous delivery for Kubernetes. Note that Argo CD CRDs need separate installation.
+  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - *(Related to cicd topic)*
+  - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) 🌟 - Microsoft is announcing the private preview of ArgoCD delivered as a cluster extension for Azure Kubernetes Service (AKS) and Azure Arc-enabled Kubernetes. This offering aims to provide a consistent management, security, and deployment experience for ArgoCD across heterogeneous environments, complementing existing Flux support. Key advantages highlighted include simplified deployment, managed upgrades, official supportability, integration with Azure identity, and sample application deployments.
 
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
 - [slideshare: GitOps, Jenkins X & Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd)
@@ -261,6 +265,7 @@
 - [Kustomize - Template-Free Kubernetes Configuration Customization](kustomize.md)
 
 ### Helm
+  - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) - *(Related to helm topic)*
 
 - [Helm](helm.md)
 
@@ -290,6 +295,7 @@
     - [opstree.github.io](https://opstree.github.io/)
 
 ### Terraform
+  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) - *(Related to terraform topic)*
 
 - [How to Create a GitOps Workflow with Terraform and Jenkins](https://www.hashicorp.com/resources/how-create-gitops-workflow-terraform-jenkins/)
 
@@ -330,6 +336,8 @@
     - [thenewstack.io: KubeStack: Towards Full-Stack GitOps](https://thenewstack.io/kubestack-towards-full-stack-gitops/)
 
 ## Kubernetes Platforms and GitOps
+  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/) - *(Related to kubernetes-operators-controllers topic)*
+  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/) - *(Related to kubernetes topic)*
 
 - [==medium.com/bumble-tech: GitOps for multi-cluster K8s environments== 🌟](https://medium.com/bumble-tech/gitops-for-multi-cluster-k8s-environments-d305431ba6d6) A single repository approach for scalability and transparency
 
@@ -346,6 +354,7 @@
 - [==piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes== 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes/) In this article, you will learn how to manage multiple clusters with Argo CD and Advanced Cluster Management for Kubernetes. Advanced Cluster Management (ACM) for Kubernetes is a tool provided by Red Hat based on a community-driven project [Open Cluster Management](https://open-cluster-management.io/). I’ll show you how to use it with OpenShift to implement gitops approach for running apps across multiple clusters. However, you can as well deploy a community-driven version on Kubernetes.
 
 ### AWS Kubernetes
+  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) - *(Related to aws-security topic)*
 
 - [info.acloud.guru: Adopting GitOps for Kubernetes on AWS](https://info.acloud.guru/resources/deploying-kubernetes-with-gitops)
 

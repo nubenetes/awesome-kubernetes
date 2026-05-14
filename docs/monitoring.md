@@ -52,6 +52,8 @@
 27. [Tweets](#tweets)
 
 ## Monitoring and Observability
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/) 🌟 - This chapter from the Google SRE book provides fundamental principles and best practices for building robust monitoring and alerting systems within distributed environments. It outlines guidelines on what constitutes an actionable alert that should interrupt a human and strategies for handling less critical issues.
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - *(Related to azure topic)*
 
 - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
 - [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring/)
@@ -214,6 +216,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [==cncf.io: Monitoring micro-front ends on Kubernetes with NGINX== 🌟](https://www.cncf.io/blog/2023/02/01/monitoring-micro-front-ends-on-kubernetes-with-nginx/)
 
 ## Prometheus vs OpenTelemetry
+  - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/) - This article discusses the challenges and incompatibilities encountered when trying to integrate Prometheus and OpenTelemetry, exploring the technical reasons behind their difficulties in working together.
 
 - [timescale.com: Prometheus vs. OpenTelemetry Metrics: A Complete Guide](https://www.timescale.com/blog/prometheus-vs-opentelemetry-metrics-a-complete-guide/)
 
@@ -302,11 +305,14 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [devops.com: The Fallacy of Continuous Integration, Delivery and Testing](https://devops.com/the-fallacy-of-continuous-integration-delivery-and-testing/) Whether your organization embraces CI/CD/CT already or is rethinking its approach to DevOps, this article should give you pause. Your job–perhaps as part of a larger team–is to catch performance issues and potential disruptions with your application before client impact is realized. Without IPM, only part of that job is being done.
 
 ## Performance
+  - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) - *(Related to kubernetes-troubleshooting topic)*
 
 - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
 - [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
 ## List of Performance Analysis Tools
+  - [KoaPerf: Kubernetes Performance Monitoring](https://koaperf-apeseqd2cehnhjgh.z03.azurefd.net/) - *(Related to kubernetes-monitoring topic)*
+  - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - *(Related to devops-tools topic)*
 
 - Threadumps + heapdumps + GC analysis tools
 - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
@@ -457,6 +463,7 @@ done
 - [opensource.com: Get started with distributed tracing using Grafana Tempo](https://opensource.com/article/21/2/tempo-distributed-tracing) Grafana Tempo is a new open source, high-volume distributed tracing backend.
 
 ## Application Performance Management (APM)
+  - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) - *(Related to azure topic)*
 
 - [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management): The monitoring and management of performance and availability of software applications. APM strives to detect and diagnose complex application performance problems to maintain an expected level of service. APM is "the translation of IT metrics into business meaning.”
 - Tip: [Download APM report from IT Central Station](https://www.itcentralstation.com/categories/application-performance-management-apm)
@@ -641,3 +648,4 @@ Resolve your software incidents 10x faster
 </details>
 
   - [OpenTelemetry (OTel) vs Application Performance Monitoring (APM)](https://medium.com/@rahul.fiem/opentelemetry-otel-vs-application-performance-monitoring-apm-86ae829877cf) 🌟 - Este artículo técnico ofrece una comparación detallada entre OpenTelemetry (OTel) y las soluciones tradicionales de Application Performance Monitoring (APM).
+  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html/) - *(Related to kubernetes-troubleshooting topic)*

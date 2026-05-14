@@ -253,6 +253,7 @@ A simple extension to make indentation more readable
 - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)
 
 ## Python in Visual Studio Code
+  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) 🌟 - This document introduces Data Wrangler, a code-centric data viewing and cleaning tool integrated into Visual Studio Code and VS Code Jupyter Notebooks. It offers a rich UI for data analysis, column statistics, visualizations, and automatically generates Pandas code for data cleaning and transformation, which can then be exported back to the notebook.
 
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
 - [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/)

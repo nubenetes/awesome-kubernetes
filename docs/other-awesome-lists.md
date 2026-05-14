@@ -97,6 +97,7 @@
 - [github.com/palark/awesome-devops-telegram: Awesome DevOps Telegram](https://github.com/palark/awesome-devops-telegram) A curated list of public Telegram channels and groups (chats) dedicated to DevOps, SRE, and Platform Engineering. English language only.
 
 ## AI and ML
+  - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - *(Related to ai-agents-mcp topic)*
 
 - [github.com/terrytangyuan/awesome-kubeflow: Awesome Kubeflow 🌟](https://github.com/terrytangyuan/awesome-kubeflow) In this repository, you will find a curated list of awesome projects and resources related to Kubeflow
 

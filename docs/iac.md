@@ -10,6 +10,7 @@
 7. [Tweets](#tweets)
 
 ## Introduction
+  - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide) - *(Related to devops topic)*
 
 - [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
 - [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial/)
@@ -58,12 +59,48 @@
 - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison/)
 
 ## Tools
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
+  - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) - *(Related to azure topic)*
+  - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co/) - *(Related to cloud-arch-diagrams topic)*
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot](https://github.com/Azure/AZVerify) - *(Related to azure topic)*
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) 🌟 - Official release notes for the Azure Landing Zone Infrastructure as Code (IaC) Accelerator, detailing changes, particularly breaking changes that may require user action. It also links to release notes for individual components like PowerShell modules and Terraform/Bicep starter modules, and highlights new features such as a local management group for Azure Local/Sovereign workloads.
+  - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code/) - *(Related to terraform topic)*
+  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - *(Related to terraform topic)*
+  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) - *(Related to azure topic)*
+  - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga) - *(Related to terraform topic)*
+  - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively) - *(Related to aws topic)*
+  - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) - *(Related to terraform topic)*
+  - [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform/) - *(Related to terraform topic)*
+  - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://t.co/F244mqpeaR) - *(Related to azure topic)*
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://t.co/mv3tyz1oRt) - *(Related to terraform topic)*
+  - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) - *(Related to terraform topic)*
+  - [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/) - *(Related to kubernetes topic)*
+  - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) 🌟 - This blog post introduces an updated experience for GitHub Copilot for Azure, simplifying the generation and updating of Infrastructure as Code (IaC) files using Bicep or Terraform. The new release allows users to directly update project details, hosting, services, configurations, and environment variables through a streamlined UI, improving workflow efficiency and reducing errors compared to previous methods relying solely on Copilot Chat.
+  - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) - *(Related to azure topic)*
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) - *(Related to devops topic)*
+  - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - *(Related to devops-tools topic)*
+  - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) - *(Related to terraform topic)*
+  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions/) - *(Related to aws topic)*
+  - [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) - *(Related to terraform topic)*
+  - [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) - A GitHub Action designed to automate the versioning, release process, and documentation generation for Terraform modules, particularly useful in monorepo environments.
+  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51) - *(Related to terraform topic)*
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) 🌟 - The Azure Landing Zone IaC Accelerator provides opinionated modules for deploying and managing Azure landing zone architecture core platform capabilities using Bicep or Terraform. It supports Azure DevOps and GitHub for version control and bootstraps a continuous delivery environment, guiding users through planning, prerequisites, bootstrapping, and running the deployment.
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones/) - *(Related to azure topic)*
+  - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) - *(Related to terraform topic)*
+  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone/) - *(Related to azure topic)*
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/) - *(Related to ansible topic)*
+  - [Terraform Provider for Azure IPAM](https://github.com/XtratusCloud/terraform-provider-azureipam) - *(Related to terraform topic)*
+  - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer/) - *(Related to aws-architecture topic)*
 
 - [==Checkmarx/kics==](https://github.com/Checkmarx/kics) Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
 - [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
 - [==github.com/gofireflyio/aiac: AIaC==](https://github.com/gofireflyio/aiac) Artificial Intelligence Infrastructure-as-Code Generator.
 
 ## Infrastructure as Code using Kubernetes
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/) 🌟 - This guide provides a comprehensive approach to migrating existing cloud infrastructure, built manually via portals or CLI commands, into an Infrastructure as Code (IaC) format, specifically mentioning Terraform. It highlights the importance of IaC for auditability, security, access control, documentation, and disaster recovery, contrasting it with the limitations of 'clickOps'.
+  - [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/) - *(Related to kubernetes-operators-controllers topic)*
+  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/) 🌟 - This article discusses how the increasing pace of feature development in DevOps often strains infrastructure teams, creating a bottleneck. It argues that Infrastructure as Code (IaC) orchestration is crucial for scaling DevOps practices effectively and preventing team burnout, moving beyond just automation to true orchestration.
+  - [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options) - *(Related to azure topic)*
 
 - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6) “Declaring the Kubes”
 
@@ -98,3 +135,4 @@
 </center>
 </details>
   - [IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP)](https://medium.com/@nidhibansal26/iac-and-openshift-virtualization-handshake-c0a4ada79af5) 🌟 - Explora la integración de Infraestructura como Código (IaC) con Terraform para gestionar Máquinas Virtuales (VMs) en OpenShift Virtualization, demostrando un 'handshake' efectivo entre ambas tecnologías.
+  - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) - *(Related to finops topic)*

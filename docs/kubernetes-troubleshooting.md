@@ -87,6 +87,7 @@
 - [medium.com/@yusufkaratoprak: Advanced Troubleshooting Techniques in Kubernetes Pods](https://medium.com/@yusufkaratoprak/advanced-troubleshooting-techniques-in-kubernetes-pods-24ee0cebfa6f)
 
 ## Kubernetes Events
+  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) 🌟 - This article provides an in-depth explanation of how CPU limits in Kubernetes function, detailing the underlying mechanisms involving the Linux Kernel and cgroups v2. It addresses the common issue of pods being throttled even when idle, exploring the complex interactions between Kubernetes, container runtimes, and the host operating system to shed light on performance impacts.
 
 - [Understanding Kubernetes cluster events](https://banzaicloud.com/blog/k8s-cluster-logging/)
 - [groundcover.com: Failure Is an Option: How to Stay on Top of K8s Container Events](https://www.groundcover.com/blog/k8s-container-events) Gain a deep understanding of how Kubernetes tracks container and Pod status, how it reports error information and how you can collect all of the above in an efficient way
@@ -102,6 +103,7 @@
 - [==komodor.com: Exit Codes In Containers & Kubernetes – The Complete Guide==  🌟](https://komodor.com/learn/exit-codes-in-containers-and-kubernetes-the-complete-guide/) In this article, you will learn everything there is to know about exit codes used by container engines to indicate reasons for container termination.
 
 ## ImagePullBackOff
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/) 🌟 - This article provides practical, hands-on solutions for common Kubernetes production issues. It details 10 real-world scenarios, including ImagePullBackOff due to private registry authentication failure, and offers exact kubectl commands and steps for diagnosis and resolution. It also touches upon cloud-managed Kubernetes solutions and IAM roles for registry authentication.
 
 - [blog.ediri.io: Kubernetes: ImagePullBackOff!](https://blog.ediri.io/kubernetes-imagepullbackoff) How to keep your calm and fix this like a pro!
 
@@ -126,6 +128,7 @@
 - [blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8)
 
 ## OOM Kills
+  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html/) 🌟 - This article explains the 'OOMKilled' status in Kubernetes, detailing how the Linux kernel's Out-Of-Memory (OOM) Killer terminates pods when memory limits are exceeded. It covers common triggers such as incorrect resource limits, application memory leaks, traffic spikes, and resource competition among containers. The content also delves into the OOM Killer's scoring mechanism and provides insights into identifying and resolving these issues to prevent production environment disruptions.
 
 - [medium.com/@reefland: Tracking Down “Invisible” OOM Kills in Kubernetes](https://medium.com/@reefland/tracking-down-invisible-oom-kills-in-kubernetes-192a3de33a60) An “Invisible” OOM Kill happens when a child process in a container is killed, not the init process. It is “invisible” to Kubernetes and not detected. What is OOM? well.. not a good thing.
 - [baykara.medium.com: A Gentle Inspection of OOMKilled in Kubernetes](https://baykara.medium.com/a-gentle-inspection-of-oomkilled-in-kubernetes-4b4124cd23a8) Quality of Service in Kubernetes
@@ -163,6 +166,10 @@
 - [medium.com/geekculture: K8s Troubleshooting — How to Debug CoreDNS Issues](https://medium.com/geekculture/k8s-troubleshooting-how-to-debug-coredns-issues-724e8b973cfc)
 
 ## Debugging Techniques and Strategies. Debugging with ephemeral containers
+  - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) 🌟 - This article explains how Kubernetes CPU throttling, governed by the Linux kernel's CFS scheduler with a 100ms time slice, can silently degrade application performance even when resource usage appears low. It highlights the disconnect between Kubernetes limits and typical monitoring timescales, leading to unexpected slowdowns and impacting user experience.
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide/) 🌟 - A comprehensive, step-by-step guide to effectively troubleshoot issues within a Kubernetes environment. This resource likely covers common problems, diagnostic tools, and methodologies for resolving them.
+  - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) - *(Related to chaos-engineering topic)*
+  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd) 🌟 - A comprehensive guide to common Kubernetes troubleshooting scenarios, offering practical advice and solutions for developers and operators facing issues with pods, deployments, services, and networking.
 
 - [kubectl-debug](https://github.com/aylei/kubectl-debug)
 - [==loft.sh: Using Kubernetes Ephemeral Containers for Troubleshooting==](https://loft.sh/blog/using-kubernetes-ephemeral-containers-for-troubleshooting/)
@@ -196,6 +203,10 @@
 - [medium.com/adaltas: Kubernetes: debugging with ephemeral containers](https://medium.com/adaltas/kubernetes-debugging-with-ephemeral-containers-e4be659d9ef6) In this article, you will learn how to debug pods using kubectl debug and ephemeral containers
 
 ## Troubleshooting Tools
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/) - *(Related to iac topic)*
+  - [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery/) - *(Related to kubernetes-backup-migrations topic)*
+  - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) - *(Related to kubernetes-tools topic)*
+  - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command/) - *(Related to kubernetes-tools topic)*
 
 - [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) Troubleshoot is a framework for collecting and analyzing diagnostic information about a Kubernetes cluster. The framework is customizable and allows third-party application developers to create troubleshoot specs that can be run by cluster operators.
 - [github.com/airwallex: k8s-pod-restart-info-collector](https://github.com/airwallex/k8s-pod-restart-info-collector) k8s-pod-restart-info-collector is a simple Kubernetes customer controller that watches for Pods changes and collects K8s Pod restart reasons, logs, and events to Slack channels when a Pod restarts

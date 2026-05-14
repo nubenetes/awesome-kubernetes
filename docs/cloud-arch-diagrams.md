@@ -9,6 +9,7 @@
 7. [Airflow](#airflow)
 
 ## Introduction
+  - [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co/) - CloudCanvas is a web-based tool that allows users to visually design and document their cloud infrastructure. It supports various cloud providers and services, enabling the creation of detailed architecture diagrams.
 
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
 - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)
@@ -38,6 +39,8 @@
 - [diagrams.mingrammer.com: Diagram as Code](https://diagrams.mingrammer.com/) Diagrams lets you draw the cloud system architecture in Python code.
 
 ## K8s Diagrams
+  - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - This blog post discusses the benefits of using Draw.io MCP (Model Context Protocol) to generate diagrams from structured input like text, CSV, or Mermaid. It highlights how this approach integrates diagrams with code and infrastructure, turning them into living assets that evolve with the system, especially relevant for cloud, platform, and AI-assisted engineering workflows.
+  - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) - *(Related to kubernetes topic)*
 
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
@@ -50,6 +53,13 @@
 - [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/master/icons) These icons are a way to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandability
 
 ## AWS
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot](https://github.com/Azure/AZVerify) - *(Related to azure topic)*
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-app-service) - *(Related to azure topic)*
+  - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) - *(Related to azure topic)*
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) - *(Related to azure topic)*
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones/) - *(Related to azure topic)*
+  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone/) - *(Related to azure topic)*
+  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) - *(Related to azure topic)*
 
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://cloudcraft.co/)

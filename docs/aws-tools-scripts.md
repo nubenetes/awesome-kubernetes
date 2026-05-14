@@ -31,6 +31,7 @@
 - [OpenSource at AWS](https://aws.github.io/)
 
 ## AWS Tools
+  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) - *(Related to kubernetes-tools topic)*
 
 - [github.com/awslabs](https://github.com/awslabs)
 - [==steampipe== 🌟](https://steampipe.io) Steampipe is an open source tool for querying cloud APIs in a universal way and reasoning about the data in SQL.

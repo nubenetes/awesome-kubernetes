@@ -42,6 +42,7 @@
 22. [Other Awesome Lists](#other-awesome-lists)
 
 ## OpenShift
+  - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue) - *(Related to kubernetes-operators-controllers topic)*
 - [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)
 - [OpenShift.com](https://www.openshift.com/)
 - [OpenShift blog 🌟](https://www.openshift.com/blog)
@@ -80,6 +81,7 @@
 - [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/jboss-deployment-red-hat)
 
 ## Blogs
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) 🌟 - This article introduces Kruize, an open-source solution for performance testing and optimization of applications running on OpenShift. It details how Kruize uses Kubernetes operators to collect performance metrics, identify performance bottlenecks, and suggest optimal configurations for workloads, aiming to improve resource utilization and application performance.
 
 - [Rcarrata's blog](https://rcarrata.com/)
 
@@ -134,6 +136,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)
 
 ## Online Learning
+  - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - *(Related to kubernetes-tutorials topic)*
 
 - [learn.openshift.com 🌟](https://learn.openshift.com) Interactive Learning Portal
 - [katacoda.com 🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 

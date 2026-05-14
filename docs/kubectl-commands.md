@@ -112,6 +112,7 @@ complete -F __start_kubectl k
 ```
 
 ## kubectl exec
+  - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command/) - *(Related to kubernetes-tools topic)*
 
 - [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03) In this article, we will look at the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
 - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl/) This article compares `kubectl exec` and SSH and discusses their strengths and weaknesses
