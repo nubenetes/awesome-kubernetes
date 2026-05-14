@@ -13,6 +13,7 @@
 11. [Videos](#videos)
 
 ## Introduction
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/) - *(Related to monitoring topic)*
 
 - [DZone: Kubernetes Monitoring Essentials](https://dzone.com/refcardz/monitoring-kubernetes)
 - [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
