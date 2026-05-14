@@ -15,6 +15,7 @@ sources:
       - "awscloud"
       - "Azure"
       - "GoogleCloud"
+      - "0GiS0"             # Gisela Torres (returngis) - Azure/DevOps expert
       - "QuinnyPig"        # AWS Billing/FinOps expert
 
   - topic: "AI & Agentic Systems"
