@@ -52,6 +52,7 @@
 27. [Tweets](#tweets)
 
 ## Monitoring and Observability
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/) 🌟 - This chapter from the Google SRE book delves into the principles and best practices for building effective monitoring and alerting systems in distributed environments. It offers guidelines on what types of issues warrant human intervention (pagers) and how to handle less critical alerts.
 
 - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
 - [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring/)
