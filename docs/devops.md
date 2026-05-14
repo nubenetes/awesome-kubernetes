@@ -324,6 +324,7 @@
 - [containerjournal.com: Best of 2021 – Kubernetes Enables DevOps-as-a-Service (DaaS)](https://containerjournal.com/editorial-calendar/best-of-2021/kubernetes-enables-devops-as-a-service-daas/)
 
 ## IaC Infrastructure as Code
+  - [Draw.io MCP for Diagram Generation](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - *(Related to cloud-arch-diagrams topic)*
 
 - [IaC Infrastructure as Code](iac.md)
 
