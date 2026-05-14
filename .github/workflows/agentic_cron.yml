@@ -72,7 +72,7 @@ permissions:
 jobs:
   agentic-curation-process:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/develop' || github.event_name == 'schedule'
+    # This job can now be triggered from any branch but will always checkout 'develop'
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v4
