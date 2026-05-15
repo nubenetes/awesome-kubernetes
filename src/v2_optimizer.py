@@ -159,7 +159,12 @@ class V2VisionEngine:
                 
                 log_event(f"    [Batch {batch_num}] Quality Filter: Kept {len(indices)}/{len(batch)}")
             except:
-                refined.extend([l for l in batch if "awesome" in l['title'].lower()])
+                for l in batch:
+                    if "awesome" in l['title'].lower():
+                        item = l.copy()
+                        item["tag"] = "[FOUNDATIONAL]"
+                        item["is_elite"] = False
+                        refined.append(item)
             
             await asyncio.sleep(0.5)
         return refined
@@ -235,8 +240,9 @@ class V2VisionEngine:
                     md += "\n"
 
                 for l in normal_links:
-                    tag_color = "success" if "FOUNDATIONAL" in l["tag"] else "info" if "PRODUCTION" in l["tag"] else "warning"
-                    md += f"  - [{l['title']}]({l['url']}) {l['description']} <span class='md-tag md-tag--{tag_color}'>{l['tag']}</span>\n"
+                    tag = l.get("tag", "[PRODUCTION-READY]")
+                    tag_color = "success" if "FOUNDATIONAL" in tag else "info" if "PRODUCTION" in tag else "warning"
+                    md += f"  - [{l['title']}]({l['url']}) {l['description']} <span class='md-tag md-tag--{tag_color}'>{tag}</span>\n"
                 md += "\n"
                 
             with open(os.path.join(V2_DIR, f"{slug}.md"), "w") as f: f.write(md)
