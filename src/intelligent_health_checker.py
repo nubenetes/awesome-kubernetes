@@ -326,7 +326,6 @@ async def main():
         await cleaner.validate_links_tiered()
         
         log_event("STARTING NAVIGATION & REORGANIZATION AUDIT...", section_break=True)
-        await cleaner.curator.audit_navigation()
         await cleaner.curator.suggest_reorganization()
         
         await cleaner.apply_changes()
