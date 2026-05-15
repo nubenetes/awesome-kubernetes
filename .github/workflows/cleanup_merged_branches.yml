@@ -1,0 +1,39 @@
+name: Automated Merged Branch Cleanup
+
+on:
+  schedule:
+    # Runs at 00:00 on day 1 and 15 of every month
+    - cron: '0 0 1,15 * *'
+  workflow_dispatch: # Allow manual trigger for testing
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Delete merged branches
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          echo "Fetching latest changes..."
+          git fetch --prune
+          
+          echo "Identifying branches merged into develop..."
+          # Get remote branches merged into origin/develop
+          # Filter out protected branches: master, develop, gh-pages, and the HEAD pointer
+          branches=$(git branch -r --merged origin/develop | grep -vE 'origin/(master|develop|gh-pages|HEAD)' | sed 's/.*origin\///')
+          
+          if [ -z "$branches" ]; then
+            echo "No merged branches to clean up."
+            exit 0
+          fi
+          
+          for branch in $branches; do
+            echo "Deleting remote branch: $branch"
+            git push origin --delete "$branch"
+          done

@@ -20,6 +20,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 14. **Persistent V2 Caching**: The V2 Optimizer MUST use a persistent cache file (`data/v2_cache.json`) to store AI evaluations (year, quality, category). This is mandatory to minimize API costs and ensure execution speed across 15k+ links.
 15. **GitHub Metadata Enrichment**: For all `github.com` resources, the bot MUST attempt to fetch real-time metadata (stars, last commit) using the GitHub API. This data must be included in the V2 rendering to provide current context.
 16. **Resilient Link Health**: Every V2 generation cycle MUST perform asynchronous health checks. The bot MUST use identity rotation (User-Agents) and multiple attempts (3x) with backoff to minimize false negatives. Only definitive **404 Not Found** errors lead to removal; other failures (timeouts, 403s) result in the link being preserved but flagged as `[OFFLINE?]` to ensure maximum technical preservation. GitHub and 'Foundational' resources are exempt from removal based on health checks.
+17. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote branches already merged into `develop`. The branches `master`, `develop`, and `gh-pages` are strictly protected and MUST NEVER be deleted.
 
 ## 🛠️ Structural Evolution & Navigation
 ...

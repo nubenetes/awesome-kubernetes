@@ -238,6 +238,7 @@ Nubenetes uses a sophisticated multi-stage automation pipeline. Below is the det
 | 4 | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | **Maintenance:** Global asynchronous health check, deduplication, and `[OFFLINE?]` flagging. | Monthly / Manual | `develop` |
 | 5 | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | **Historical Ingestion:** Processes manual JSON/MD backups through the Agentic AI pipeline. | Manual | `develop` |
 | 6 | **[Production Deploy](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml)** | [`main.yml`](.github/workflows/main.yml) | **Deployment:** Builds both V1 and V2 editions using MkDocs and deploys to nubenetes.com. | Push to `master` | GitHub Pages |
+| 7 | **[Merged Branch Cleanup](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml)** | [`cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) | **Hygiene:** Automatically deletes remote branches merged into `develop` to keep the repo clean. | Bi-weekly (1st/15th) | `develop` |
 
 ### Recommended Execution Pipeline
 
@@ -305,6 +306,9 @@ Nubenetes follows a dual-branch GitOps model to ensure stability while allowing 
     -   The stable, production-ready branch that powers [nubenetes.com](https://nubenetes.com).
     -   **Direct PRs to `master` are strictly prohibited.**
     -   Only the repository owner performs the final review and merge from `develop` to `master`.
+-   **Branch Lifecycle Automation:**
+    -   To maintain repository hygiene, an automated workflow deletes remote branches merged into `develop` every 15 days (1st and 15th of each month).
+    -   **Protected Branches:** The branches `master`, `develop`, and `gh-pages` are EXEMPT from deletion and will always be preserved.
 
 ---
 
