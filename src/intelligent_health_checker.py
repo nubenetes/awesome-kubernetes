@@ -10,6 +10,7 @@ from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORI
 from src.gitops_manager import RepositoryController
 from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
+from src.logger import log_event
 
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
@@ -171,7 +172,7 @@ class IntelligentLinkCleaner:
         return True, "Conservative Keep"
 
     async def build_global_registry(self):
-        print("[*] Construyendo registro global...")
+        log_event("STARTING GLOBAL LINK DISCOVERY...", section_break=True)
         all_files = CORE_FILES + [f"docs/{cat}.md" for cat in NUBENETES_CATEGORIES]
         for file_path in all_files:
             try:
@@ -186,20 +187,25 @@ class IntelligentLinkCleaner:
                             self.link_registry[clean_url].append({"file": file_path, "line_index": i, "content": line, "title": title})
                             self.stats["total_links"] += 1
             except: pass
+        log_event(f"[*] Discovery: Registered {self.stats['total_links']} links from {len(all_files)} files.")
 
     async def validate_links_tiered(self):
-        print(f"[*] Validando {len(self.link_registry)} URLs...")
+        log_event(f"[*] Validating {len(self.link_registry)} unique URLs (Randomized Tiered Batching)...", section_break=True)
         unique_urls = list(self.link_registry.keys()); random.shuffle(unique_urls)
-        for i in range(0, len(unique_urls), 40):
+        total_unique = len(unique_urls)
+        for i in range(0, total_unique, 40):
             batch = unique_urls[i:i+40]
+            log_event(f"    [>] Processing batch {i//40 + 1}/{(total_unique-1)//40 + 1} ({min(i+40, total_unique)}/{total_unique})...")
             tasks = [self._check_url_with_retries(url) for url in batch]
             results = await asyncio.gather(*tasks)
             for url, is_alive, fallback, reason in results:
-                if not is_alive: self.dead_links[url] = (fallback if fallback else "DEAD", reason)
+                if not is_alive: 
+                    self.dead_links[url] = (fallback if fallback else "DEAD", reason)
+                    log_event(f"        [!] DEAD: {url} -> {reason} {'(Fallback: ' + fallback + ')' if fallback else ''}")
             self._save_memory()
 
     async def apply_changes(self):
-        print("[*] Aplicando cambios y generando métricas visuales...")
+        log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)
         file_updates = {}
         def track(file, op, url, reason, cat=None):
             if file not in self.detailed_stats["by_file"]: self.detailed_stats["by_file"][file] = {"removed": 0, "modified": 0, "created": 0}
@@ -297,10 +303,18 @@ async def main():
         cleaner = IntelligentLinkCleaner()
         await cleaner.build_global_registry()
         await cleaner.validate_links_tiered()
+        
+        log_event("STARTING NAVIGATION & REORGANIZATION AUDIT...", section_break=True)
         await cleaner.curator.audit_navigation()
         await cleaner.curator.suggest_reorganization()
+        
         await cleaner.apply_changes()
+        log_event("INTELLIGENT CLEANING COMPLETED SUCCESSFULLY.", section_break=True)
     except Exception as e:
-        import traceback; print(f"[CRITICAL ERROR]: {e}"); traceback.print_exc(); exit(1)
+        import traceback
+        error_msg = f"[CRITICAL ERROR]: {e}"
+        log_event(error_msg)
+        print(traceback.format_exc())
+        exit(1)
 
 if __name__ == "__main__": asyncio.run(main())
