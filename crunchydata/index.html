@@ -24,7 +24,7 @@
         
       
       
-      <link rel="icon" href="../images/favicon-car.png">
+      <link rel="icon" href="/images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
@@ -55,7 +55,7 @@
       
     
     
-      <link rel="stylesheet" href="../static/extra.css">
+      <link rel="stylesheet" href="/static/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -110,13 +110,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <img src="/images/kubernetes_logo.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -893,13 +887,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <img src="/images/kubernetes_logo.jpg" alt="logo">
 
     </a>
     Nubenetes
@@ -8060,7 +8048,9 @@
 </li>
 </ul>
 <center>
-![crunchdydata in operatorhub](images/crunchydata_operator_hub.png)
+
+![crunchdydata in operatorhub](/images/crunchydata_operator_hub.png)
+
 </center>
 
 <h3 id="crunchydata-postgres-operator-35">Crunchydata Postgres Operator 3.5</h3>
@@ -8074,7 +8064,9 @@
 <li>pgo-scheduler</li>
 </ul>
 <center>
-![crunchydata operator 3.5](images/crunchydata_operator_3_5.png)
+
+![crunchydata operator 3.5](/images/crunchydata_operator_3_5.png)
+
 </center>
 
 <h3 id="crunchydata-postgres-operator-401">Crunchydata Postgres Operator 4.0.1</h3>
@@ -8087,7 +8079,9 @@
 <li><strong>Operator Lifecycle Management (OLM):</strong> The OLM project is a component of the Operator Framework, an open source toolkit to manage Operators, in an effective, automated, and scalable way. OLM concepts were included into Crunchy PostgreSQL Operator to assist in the deployment on Kubernetes using OLM integration.</li>
 </ul>
 <center>
-![crunchdydata operator 4.0.1](images/crunchydata_operator_4_0_1.png)
+
+![crunchdydata operator 4.0.1](/images/crunchydata_operator_4_0_1.png)
+
 </center>
 
 <h3 id="crunchydata-postgres-operator-401-community-edition">Crunchydata Postgres Operator 4.0.1 Community Edition</h3>
@@ -8186,7 +8180,9 @@ role<span class="w"> </span><span class="s2">&quot;view&quot;</span><span class=
 <li>If required, a cluster administrator may <strong>allow certain pods to run with different SCCs</strong>. Pods should be run with the most restrictive SCC possible. <strong>Pods inherit their SCC from the Service Account used to run the pod</strong>. With the default project template, new projects get a <strong>Service Account named default</strong> that is used to run pods. This default service account is only granted the ability to run the restricted SCC.</li>
 </ul>
 <center>
-![crunchdydata scc1](images/crunchydata_scc1.png) ![crunchdydata scc2](images/crunchydata_scc2.png)
+
+![crunchdydata scc1](/images/crunchydata_scc1.png) ![crunchdydata scc2](/images/crunchydata_scc2.png)
+
 </center>
 
 <h5 id="scc-recommendations">SCC Recommendations</h5>
@@ -8205,7 +8201,9 @@ role<span class="w"> </span><span class="s2">&quot;view&quot;</span><span class=
 openshift.io/scc:<span class="w"> </span>restricted<span class="w">             </span>
 </code></pre></div>
 <center>
-![crunchdydata scc3](images/crunchydata_scc3.png)
+
+![crunchdydata scc3](/images/crunchydata_scc3.png)
+
 </center>
 
 <ul>
@@ -8214,9 +8212,9 @@ openshift.io/scc:<span class="w"> </span>restricted<span class="w">             
 <ul>
 <li><code>oc get rs</code>: </li>
 </ul>
-<p><center>
-<img alt="crunchdydata restricted scc" src="../images/crunchydata_restricted_scc.png" />
-</center></p>
+<center>
+<p><img alt="crunchdydata restricted scc" src="/images/crunchydata_restricted_scc.png" /></p>
+</center>
 <ul>
 <li><code>oc describe rs mycluster5-lgyb-84b58f5dd9</code>: Warning <strong>FailedCreate</strong> 3m24s (x17 over 7m30s) <strong>replicaset-controller Error creating: pods &ldquo;mycluster5-lgyb-84b58f5dd9-&rdquo; is forbidden: unable to validate against any security context constraint: [fsGroup: Invalid value: []int64{26}: 26 is not an allowed group]</strong></li>
 </ul>
@@ -8263,12 +8261,16 @@ openshift.io/scc:<span class="w"> </span>restricted<span class="w">             
 </ul>
 <h5 id="workflow1-without-custom-service-account-and-without-deploymentconfig">Workflow1 without custom Service Account and without DeploymentConfig</h5>
 <center>
-![crunchdydata scc workflow1](images/crunchydata_scc_workflow1.png)
+
+![crunchdydata scc workflow1](/images/crunchydata_scc_workflow1.png)
+
 </center>
 
 <h5 id="workflow2-with-custom-service-account-and-without-deploymentconfig">Workflow2 with custom Service Account and without DeploymentConfig</h5>
 <center>
-![crunchdydata scc workflow2](images/crunchydata_scc_workflow2.png)
+
+![crunchdydata scc workflow2](/images/crunchydata_scc_workflow2.png)
+
 </center>
 
 <ul>
@@ -8309,7 +8311,9 @@ openshift.io/scc:<span class="w"> </span>restricted<span class="w">             
 </ul>
 <h5 id="workflow3-with-custom-service-account-and-deploymentconfig">Workflow3 with custom service Account and DeploymentConfig</h5>
 <center>
-![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
+
+![crunchdydata scc workflow3](/images/crunchydata_scc_workflow3.png)
+
 </center>
 
 <h4 id="environment-setup-port-forward-and-wsl">Environment setup. Port Forward and WSL</h4>
@@ -8573,7 +8577,9 @@ Type<span class="w"> </span><span class="s2">&quot;help&quot;</span><span class=
 <li><a href="https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/examples/administration/pgadmin4/">pgAdmin 4</a></li>
 </ul>
 <center>
-![crunchdydata pgadmin](images/crunchydata_pgadmin.png)
+
+![crunchdydata pgadmin](/images/crunchydata_pgadmin.png)
+
 </center>
 
 <h4 id="debugging-crunchydata-postgres-operator-401-community-edition">Debugging Crunchydata Postgres Operator 4.0.1 Community Edition</h4>
@@ -8600,34 +8606,42 @@ Type<span class="w"> </span><span class="s2">&quot;help&quot;</span><span class=
 </li>
 </ul>
 <center>
-![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)
 
-![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
+![crunchdydata operatorhub install2](/images/crunchydata_operatorhub_install1.png)
+
+![crunchdydata operatorhub install2](/images/crunchydata_operatorhub_install2.png)
+
 </center>
 
 <ul>
 <li>NO PODs are deployed -&gt; configuration needed:</li>
 </ul>
 <center>
-![crunchdydata operatorhub install3](images/crunchydata_operatorhub_install3.png)
 
-![crunchdydata operatorhub install4](images/crunchydata_operatorhub_install4.png)
+![crunchdydata operatorhub install3](/images/crunchydata_operatorhub_install3.png)
+
+![crunchdydata operatorhub install4](/images/crunchydata_operatorhub_install4.png)
+
 </center>
 
 <ul>
 <li>Replica Sets: where PODs should be launched</li>
 </ul>
 <center>
-![crunchdydata operatorhub install5](images/crunchydata_operatorhub_install5.png)
+
+![crunchdydata operatorhub install5](/images/crunchydata_operatorhub_install5.png)
+
 </center>
 
 <ul>
 <li>ReplicaSets (environment) and Deployment:</li>
 </ul>
 <center>
-![crunchdydata operatorhub install6](images/crunchydata_operatorhub_install6.png)
 
-![crunchdydata operatorhub install7](images/crunchydata_operatorhub_install7.png)
+![crunchdydata operatorhub install6](/images/crunchydata_operatorhub_install6.png)
+
+![crunchdydata operatorhub install7](/images/crunchydata_operatorhub_install7.png)
+
 </center>
 
 <ul>
@@ -8636,36 +8650,44 @@ Type<span class="w"> </span><span class="s2">&quot;help&quot;</span><span class=
 <div class="highlight"><pre><span></span><code>oc<span class="w"> </span>adm<span class="w"> </span>policy<span class="w"> </span>add-scc-to-user<span class="w"> </span>anyuid<span class="w"> </span>system:serviceaccount:pgophub:default
 </code></pre></div>
 <center>
-![crunchdydata operatorhub install8](images/crunchydata_operatorhub_install8.png)
+
+![crunchdydata operatorhub install8](/images/crunchydata_operatorhub_install8.png)
+
 </center>
 
 <ul>
 <li>We see now a new POD being created:</li>
 </ul>
 <center>
-![crunchdydata operatorhub install9](images/crunchydata_operatorhub_install9.png)
+
+![crunchdydata operatorhub install9](/images/crunchydata_operatorhub_install9.png)
+
 </center>
 
 <ul>
 <li>New errors: “secrets” need to be setup:</li>
 </ul>
 <center>
-![crunchdydata operatorhub install10](images/crunchydata_operatorhub_install10.png)
 
-![crunchdydata operatorhub install11](images/crunchydata_operatorhub_install11.png)
+![crunchdydata operatorhub install10](/images/crunchydata_operatorhub_install10.png)
 
-![crunchdydata operatorhub install12](images/crunchydata_operatorhub_install12.png)
+![crunchdydata operatorhub install11](/images/crunchydata_operatorhub_install11.png)
+
+![crunchdydata operatorhub install12](/images/crunchydata_operatorhub_install12.png)
+
 </center>
 
 <ul>
 <li>New errors: 3 “secrets” need to be setup manually -&gt; POD is started successfully and we have psql access.</li>
 </ul>
 <center>
-![crunchdydata operatorhub install13](images/crunchydata_operatorhub_install13.png) ![crunchdydata operatorhub install14](images/crunchydata_operatorhub_install14.png)
 
-![crunchdydata operatorhub install15](images/crunchydata_operatorhub_install15.png)
+![crunchdydata operatorhub install13](/images/crunchydata_operatorhub_install13.png) ![crunchdydata operatorhub install14](/images/crunchydata_operatorhub_install14.png)
 
-![crunchdydata operatorhub install16](images/crunchydata_operatorhub_install16.png)
+![crunchdydata operatorhub install15](/images/crunchydata_operatorhub_install15.png)
+
+![crunchdydata operatorhub install16](/images/crunchydata_operatorhub_install16.png)
+
 </center>
 
 
@@ -8940,7 +8962,7 @@ Type<span class="w"> </span><span class="s2">&quot;help&quot;</span><span class=
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascript/extra.js"></script>
+        <script src="/javascript/extra.js"></script>
       
     
   </body>
