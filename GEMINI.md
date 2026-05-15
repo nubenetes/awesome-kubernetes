@@ -41,13 +41,18 @@ This file contains the accumulated instructions and long-term vision for the aut
     *   The internal TOC of the modified page.
 *   **Orphan Curation**: Periodically audit the `docs/` folder to find unlinked files and integrate them into the navigation based on their topic.
 
-## 🚀 Block Evasion Strategies
+## 📊 Mermaid Diagram Best Practices
 
-The bot must rotate between profiles to avoid detection:
-1.  **Desktop/Google**: Standard desktop request.
-2.  **Mobile/Twitter**: Mobile request with Twitter Referer (high success rate).
-3.  **Playwright/LinkedIn**: Real navigation with JS enabled.
-4.  **Firefox/Reddit**: Alternative desktop profile.
+To ensure robust rendering across GitHub, VSCode, and MkDocs, follow these standards when creating or modifying Mermaid diagrams:
+
+1.  **Node Label Quoting**: ALWAYS wrap node labels in double quotes (e.g., `A["Label Text"]`) if they contain spaces, special characters (parentheses, brackets, dots), or reserved words. This prevents parse errors in more restrictive environments.
+2.  **Explicit Direction**: Use `graph TD` (Top-Down) for deep hierarchies and `graph LR` (Left-to-Right) for flat process flows to optimize readability and prevent horizontal clipping.
+3.  **Label Length**: Keep labels concise (under 25 characters). If a longer description is needed, use a tooltip or sub-text.
+4.  **Syntax Validation**: Before committing, verify the syntax using a Mermaid previewer. Common pitfalls include:
+    *   Unescaped brackets `[` or `]` inside labels.
+    *   Missing semicolons or newlines between node definitions.
+    *   Recursive loops without proper termination.
+5.  **Integration with MkDocs**: Ensure `pymdownx.superfences` is configured in `mkdocs.yml` to support Mermaid blocks within Markdown.
 
 ## 📈 Learning Diary (Improvement History)
 

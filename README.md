@@ -34,11 +34,11 @@
 ## 🌟 Introduction & Motivation
 
 ### Origins
-Nubenetes was born in 2018 during a large-scale Cloud Native project for a major multinational car manufacturer in Munich. The project involved building a **self-service developer platform** with high standards of automation, GitOps patterns, and continuous improvement. The lessons learned from that German engineering environment—standardization, evidence-based decisions, and extreme automation—became the DNA of this repository.
+Nubenetes was born in 2018 during a large-scale Cloud Native project for the **BMW IT-Zentrum in Munich**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement. The lessons learned from that German engineering environment—standardization, evidence-based decisions, and extreme automation—became the DNA of this repository.
 
 ### Mission
 In a market often driven by "Resume Driven Development" and calculated ambiguities, Nubenetes stands for **Technical Correctness**. We promote:
-- **Evidence-based Engineering:** Relying on standard tools and proven architectures.
+- **Evidence-based Engineering:** Relying on standard tools and proven architectures (e.g., OpenShift, CloudBees/Jenkins).
 - **Automation over Manual Work:** If it can be scripted, it should be.
 - **Knowledge Democratization:** Breaking silos by sharing high-value, production-grade resources.
 
@@ -81,7 +81,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 #### Annual Growth Summary
 | Year | Commits | Est. New Refs | Key Milestone |
 | :---: | :---: | :---: | :--- |
-| 2018 | 350 | 1,445 | Project Inception (Munich Era) |
+| 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
 | 2019 | 142 | 586 | Early Growth & Open Source Launch |
 | 2020 | 2,046 | 8,450 | **The Great Expansion** (Global Lockdowns) |
 | 2021 | 531 | 2,193 | Maturity & Industry Standardization |
@@ -123,12 +123,12 @@ As of **May 2026**, the repository has transitioned to a **Fully Autonomous Agen
 
 ```mermaid
 graph TD
-    A[2018: Origin - Manual Collection] --> B[2020: X.com/nubenetes Curation]
-    B --> C[2022: GitOps Trunk-based Workflow]
-    C --> D[May 2026: Agentic AI Surge]
-    D --> E[Gemini-powered Discovery]
-    D --> F[Autonomous Link Health]
-    D --> G[V2 Elite Edition Generation]
+    A["2018: Munich Era (BMW)"] --> B["2020: X.com Curation"]
+    B --> C["2022: GitOps Workflow"]
+    C --> D["2026: Agentic AI Surge"]
+    D --> E["Gemini Discovery"]
+    D --> F["Health Monitoring"]
+    D --> G["V2 Elite Generation"]
 ```
 
 ---
@@ -196,13 +196,13 @@ Nubenetes uses a complex network of GitHub Actions to maintain the archive.
 
 ```mermaid
 graph LR
-    A[AI Discovery] --> B[V1 Update (develop)]
-    B --> C[CI/CD Build V1]
-    B --> D[V2 Vision Engine]
-    D --> E[V2 Update (develop)]
-    E --> F[CI/CD Build V2]
-    C --> G[nubenetes.com]
-    F --> H[nubenetes.com/v2/]
+    A["AI Discovery"] --> B["V1 Update (develop)"]
+    B --> C["CI/CD Build V1"]
+    B --> D["V2 Vision Engine"]
+    D --> E["V2 Update (develop)"]
+    E --> F["CI/CD Build V2"]
+    C --> G["nubenetes.com"]
+    F --> H["nubenetes.com/v2/"]
 ```
 
 ---
