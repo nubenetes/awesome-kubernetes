@@ -136,7 +136,6 @@
 
 ## Python Interview Questions
 
-- [15 Essential Python Interview Questions](https://www.codementor.io/python/tutorial/essential-python-interview-questions)
 - [Python mini-quiz](http://www.mypythonquiz.com/)
 - [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions/)
 
