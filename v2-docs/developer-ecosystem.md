@@ -46,7 +46,7 @@
   - **(2024)** [Apache Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Apache Maven Javadoc Plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Maven Cheat Sheets](cheatsheets.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Maven Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -64,7 +64,7 @@
   - **(2024)** [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [baeldung.com: Kotlin DSL for Gradle](https://www.baeldung.com/kotlin/gradle-dsl) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [baeldung.com: Convert a Maven Build to Gradle](https://www.baeldung.com/maven-convert-to-gradle) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Gradle Cheat Sheets](cheatsheets.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Gradle Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [SdkMan](https://sdkman.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>

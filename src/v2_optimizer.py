@@ -105,6 +105,14 @@ class V2VisionEngine:
                 matches = re.finditer(r'^\s*-\s*\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
                 for m in matches:
                     title, url, full_desc = m.groups()
+                    
+                    # FIX: Convert relative .md links to absolute V1 links for cross-edition stability
+                    if not url.startswith(("http://", "https://", "mailto:", "#")):
+                        if url.endswith(".md"):
+                            url = f"https://nubenetes.com/{url.replace('.md', '/')}"
+                        elif url.startswith("images/"):
+                            url = f"https://nubenetes.com/{url}"
+
                     all_links.append({
                         "title": title, 
                         "url": url, 
@@ -311,6 +319,9 @@ class V2VisionEngine:
         return v2_structure
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
+        # FIX: Ensure mosaic images point to V1 root
+        mosaic_html = mosaic_html.replace('src="images/', 'src="https://nubenetes.com/images/').replace('](images/', '](https://nubenetes.com/images/')
+        
         master_selection = []
         for dim in data.values():
             for cat_links in dim["categories"].values():
@@ -370,7 +381,11 @@ class V2VisionEngine:
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
-            nav_items = ["nav:", "  - \"The 2026 Vision\": index.md"]
+            nav_items = [
+                "nav:", 
+                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/",
+                "  - \"The 2026 Vision\": index.md"
+            ]
             for dim in data.keys():
                 if not data[dim]["categories"]: continue
                 slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "").replace(" ", "-")

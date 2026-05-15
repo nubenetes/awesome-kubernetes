@@ -1241,8 +1241,8 @@
   - **(2024)** [==cncf.io: Monitoring micro-front ends on Kubernetes with NGINX== 🌟](https://www.cncf.io/blog/2023/02/01/monitoring-micro-front-ends-on-kubernetes-with-nginx/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [timescale.com: Prometheus vs. OpenTelemetry Metrics: A Complete Guide](https://www.timescale.com/blog/prometheus-vs-opentelemetry-metrics-a-complete-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Prometheus](prometheus.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Grafana](grafana.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Grafana](https://nubenetes.com/grafana/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Kibana](https://www.elastic.co/kibana) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
 
       - [Kibana Docs](https://www.elastic.co/guide/index.html)
@@ -1456,7 +1456,7 @@
   - **(2024)** [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [manz.dev/cheatsheets](https://manz.dev/cheatsheets) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [crontab.guru 🌟](https://crontab.guru) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Networking Cheat Sheet](networking.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Networking Cheat Sheet](https://nubenetes.com/networking/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [wikipedia: Google Search](https://en.wikipedia.org/wiki/Google_Search) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [seranking.com: The cheat sheet of 30+ Google Search operators](https://seranking.com/blog/practical-tips-google-search-operators/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [supple.com.au: Google advanced search operators tips and tricks](https://supple.com.au/tools/google-advanced-search-operators/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -2874,8 +2874,8 @@
   - **(2024)** [==redhat.com: 3 questions to answer when considering a multi-cluster Kubernetes architecture==](https://www.redhat.com/architect/multi-cluster-kubernetes-architecture) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [==itnext.io: Do You Need Multi-Clusters?== 🌟](https://itnext.io/do-you-need-multi-clusters-6e58556f7f06) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [itnext.io: 3 Reasons to Choose a Wide Cluster over Multi-Cluster with Kubernetes](https://itnext.io/3-reasons-to-choose-a-wide-cluster-over-multi-cluster-with-kubernetes-c923fecf4644) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Client Libraries for Kubernetes](kubernetes-client-libraries.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Helm](helm.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Client Libraries for Kubernetes](https://nubenetes.com/kubernetes-client-libraries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Helm](https://nubenetes.com/helm/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Templating YAML in Kubernetes with real code](https://learnk8s.io/templating-yaml-with-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
 
       - TL;DR: You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/).
@@ -2893,7 +2893,7 @@
   - **(2024)** [openkruise.io](https://openkruise.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [OpenKruise/Kruise](https://github.com/openkruise/kruise) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [thenewstack.io: Introducing CloneSet: A Production-Grade Kubernetes Deployment CRD](https://thenewstack.io/introducing-cloneset-production-grade-kubernetes-deployment-crd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Crossplane](crossplane.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Crossplane](https://nubenetes.com/crossplane/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Community Forums 🌟](https://discuss.kubernetes.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [SIG Apps: build apps for and operate them in Kubernetes](https://kubernetes.io/blog/2016/08/sig-apps-running-apps-in-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -2992,7 +2992,7 @@
           - [kubegen](https://github.com/errordeveloper/kubegen) Simple way to describe Kubernetes resources in a structured way, but without new syntax or magic
           - [Pulumi](https://www.pulumi.com/docs/get-started/kubernetes/)
 
-  - **(2024)** [Serverless Architectures](serverless.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Serverless Architectures](https://nubenetes.com/serverless/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Virtual Clusters for Kubernetes — Benefits and Use Cases](https://medium.com/better-programming/virtual-clusters-for-kubernetes-benefits-use-cases-a4eee1c5c5a5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [loft-sh.medium.com: How Virtual Kubernetes Clusters Can Speed Up Your Local Development](https://loft-sh.medium.com/how-virtual-kubernetes-clusters-can-speed-up-your-local-development-e5645614a3c5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [KubeFed: Kubernetes Cluster Federation](https://github.com/kubernetes-sigs/kubefed) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -3093,7 +3093,7 @@
   - **(2024)** [medium.com/4th-coffee: 10 New DevOps Tools to Watch in 2023 🌟](https://medium.com/4th-coffee/10-new-devops-tools-to-watch-in-2023-e974dbb1f1bb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [medium.com/4th-coffee: 10 Best DevOps Tools for Start-ups](https://medium.com/4th-coffee/10-best-devops-tools-for-start-ups-91eb69bc3128) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Keptn](keptn.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Keptn](https://nubenetes.com/keptn/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Relay](https://relay.sh/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -4861,7 +4861,7 @@
   - **(2024)** [git-scm.com: Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [sitepoint.com: Understanding and Working with Submodules in Git](https://www.sitepoint.com/git-submodules-introduction/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [shields.io 🌟](https://shields.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Git and GitHub Cheat Sheets](cheatsheets.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Git and GitHub Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [fourtheorem.com: How to end Microservice pain and embrace the Monorepo](https://www.fourtheorem.com/blog/monorepo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [medium: The Pros and Cons of Monorepos, Explained](https://betterprogramming.pub/the-pros-and-cons-monorepos-explained-f86c998392e1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -5141,7 +5141,7 @@
           - [youtube: GitKraken Tutorials and Tips](https://www.youtube.com/watch?v=gjtXTm_TvvE&list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n)
 
   - **(2024)** [gmaster](https://gmaster.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Visual Studio Code (Git Extensions)](visual-studio.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Visual Studio Code (Git Extensions)](https://nubenetes.com/visual-studio/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [==github.com/MichaelMure/git-bug==](https://github.com/MichaelMure/git-bug) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>

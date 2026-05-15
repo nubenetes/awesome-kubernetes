@@ -421,7 +421,7 @@
   - **(2024)** [==infoworld.com: CNCF survey: Managed Kubernetes becomes the norm==](https://www.infoworld.com/article/3649710/cncf-survey-managed-kubernetes-becomes-the-norm.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [redhat.com: What architects need to know about managed Kubernetes](https://www.redhat.com/architect/managed-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [dev.to/thenjdevopsguy: AKS vs EKS vs GKE](https://dev.to/thenjdevopsguy/aks-vs-eks-vs-gke-2459) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Terraform Kubernetes Boilerplates 🌟](terraform.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [stackrox.com: EKS vs GKE vs AKS - Evaluating Kubernetes in the Cloud](https://www.stackrox.com/post/2020/02/eks-vs-gke-vs-aks/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [youtube: Kubernetes Comparison](https://www.youtube.com/watch?v=xM9jpcVGTzY) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>

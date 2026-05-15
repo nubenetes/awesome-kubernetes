@@ -110,7 +110,7 @@
   - **(2024)** [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure Policy](azure.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Azure Policy](https://nubenetes.com/azure/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
 
 ## Kubernetes-security
   - **(2024)** [cilium.io](https://cilium.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -735,7 +735,7 @@
   - **(2024)** [linkedin.com/pulse: How to Estimate Cloud Costs with Terraform (Azure, AWS, GCP, etc.) via Azure DevOps Pipelines](https://www.linkedin.com/pulse/how-estimate-cloud-costs-terraform-azure-aws-gcp-etc-via-kaan-turgut-msexc/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
   - **(2024)** [github.com/Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [Terraform Cheat Sheets](cheatsheets.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Terraform Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead](https://t.co/y414rbxM7l) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [github.com/ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -1257,7 +1257,7 @@
   - **(2024)** [opensource.com: 5 tips for choosing an Ansible collection that's right for you](https://opensource.com/article/21/3/ansible-collections) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟](https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Ansible Cheat Sheets](cheatsheets.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Ansible Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Ansible Let's Encrypt Collection](https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>

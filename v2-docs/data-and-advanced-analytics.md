@@ -717,7 +717,7 @@
   - **(2024)** [Patroni](https://github.com/zalando/patroni) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Zalando Postgres Operator](https://github.com/zalando/postgres-operator) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Crunchy Data PostgreSQL Operator](crunchydata.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [medium: Running Oracle 12c on OpenShift Container Platform](https://medium.com/@pittar/running-oracle-12c-on-openshift-container-platform-ca471a9f7057) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
