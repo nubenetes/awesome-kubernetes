@@ -1,7 +1,7 @@
 # Networking & Service Mesh
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Networking & Service Mesh.
+    Impact-driven reference library for Networking & Service Mesh.
 
 ## Istio
   - [istiobyexample.dev 🌟](https://istiobyexample.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

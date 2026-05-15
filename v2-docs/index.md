@@ -3,7 +3,7 @@
 ![Banner](images/kubernetes_logo.jpg)
 
 !!! quote "The Library of 2026"
-    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing     chronological clarity and expert quality synthesis.
+    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing impact-driven synthesis and expert quality classification.
 
 <center markdown="1">
 [![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
@@ -69,14 +69,14 @@ A global selection of the most impactful resources across all dimensions.
     </center>
 
 ## Strategic Dimensions
-- **[Intelligent Control Plane](./intelligent-control-plane.md)**: Comprehensive chronological reference library for Intelligent Control Plane.
-- **[Architectural Foundations](./architectural-foundations.md)**: Comprehensive chronological reference library for Architectural Foundations.
-- **[Platform & Site Reliability](./platform-and-site-reliability.md)**: Comprehensive chronological reference library for Platform & Site Reliability.
-- **[Hardened Infrastructure](./hardened-infrastructure.md)**: Comprehensive chronological reference library for Hardened Infrastructure.
-- **[Cloud Providers (Hyperscalers)](./cloud-providers-hyperscalers.md)**: Comprehensive chronological reference library for Cloud Providers (Hyperscalers).
-- **[Networking & Service Mesh](./networking-and-service-mesh.md)**: Comprehensive chronological reference library for Networking & Service Mesh.
-- **[The Container Stack](./the-container-stack.md)**: Comprehensive chronological reference library for The Container Stack.
-- **[Data & Advanced Analytics](./data-and-advanced-analytics.md)**: Comprehensive chronological reference library for Data & Advanced Analytics.
-- **[Engineering Pipeline](./engineering-pipeline.md)**: Comprehensive chronological reference library for Engineering Pipeline.
-- **[Developer Ecosystem](./developer-ecosystem.md)**: Comprehensive chronological reference library for Developer Ecosystem.
-- **[Career & Industry](./career-and-industry.md)**: Comprehensive chronological reference library for Career & Industry.
+- **[Intelligent Control Plane](./intelligent-control-plane.md)**: Impact-driven reference library for Intelligent Control Plane.
+- **[Architectural Foundations](./architectural-foundations.md)**: Impact-driven reference library for Architectural Foundations.
+- **[Platform & Site Reliability](./platform-and-site-reliability.md)**: Impact-driven reference library for Platform & Site Reliability.
+- **[Hardened Infrastructure](./hardened-infrastructure.md)**: Impact-driven reference library for Hardened Infrastructure.
+- **[Cloud Providers (Hyperscalers)](./cloud-providers-hyperscalers.md)**: Impact-driven reference library for Cloud Providers (Hyperscalers).
+- **[Networking & Service Mesh](./networking-and-service-mesh.md)**: Impact-driven reference library for Networking & Service Mesh.
+- **[The Container Stack](./the-container-stack.md)**: Impact-driven reference library for The Container Stack.
+- **[Data & Advanced Analytics](./data-and-advanced-analytics.md)**: Impact-driven reference library for Data & Advanced Analytics.
+- **[Engineering Pipeline](./engineering-pipeline.md)**: Impact-driven reference library for Engineering Pipeline.
+- **[Developer Ecosystem](./developer-ecosystem.md)**: Impact-driven reference library for Developer Ecosystem.
+- **[Career & Industry](./career-and-industry.md)**: Impact-driven reference library for Career & Industry.

@@ -1,7 +1,7 @@
 # Architectural Foundations
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Architectural Foundations.
+    Impact-driven reference library for Architectural Foundations.
 
 ## Mkdocs
   - [docs.traefik.io](https://docs.traefik.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

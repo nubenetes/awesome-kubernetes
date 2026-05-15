@@ -1,7 +1,7 @@
 # Career & Industry
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Career & Industry.
+    Impact-driven reference library for Career & Industry.
 
 ## Elearning
   - [medium.com/javarevisited: 11 Best Java Microservices Courses with Spring Boot and Spring Cloud in 2022](https://medium.com/javarevisited/10-best-java-microservices-courses-with-spring-boot-and-spring-cloud-6d04556bdfed) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

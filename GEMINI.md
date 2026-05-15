@@ -35,7 +35,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Rendering Fix (HTML in MD)**: All `<center>` tags MUST be defined as `<center markdown="1">` and followed by a mandatory blank line before and after the content. This ensures MkDocs processes the Markdown within the HTML block.
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
-21. **V2 Logic-Driven Sorting**: The V2 portal MUST prioritize **relevance over dates** within sections. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). This ensures the highest-quality resources are always at the top.
+21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
@@ -141,6 +141,7 @@ The bot must rotate between profiles to avoid detection:
 *   **May 2026**: **V2 UI Hardening & Unified Curation Engine**:
     - **Highlighting Fixed**: Enabled `pymdownx.mark` in V2 and implemented strategic highlighting (`==text==`) for top-tier/Standard resources.
     - **Clean Chronology**: Refined V1 and V2 engines to hide `(N/A)` dates, providing a cleaner UI.
+    - **Impact-Driven Synthesis**: Shifted V2 mission from pure "chronological clarity" to "impact-driven synthesis", prioritizing Stars/Impact over dates while maintaining chronological data.
     - **Relevance-First Sorting**: Updated V2 logic to prioritize Stars/Impact over dates within dimension categories.
     - **Unified Metadata Engine**: Integrated V2's year extraction and professional description logic into the main V1 curation workflow (`src/agentic_curator.py`).
     - **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.

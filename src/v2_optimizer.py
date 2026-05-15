@@ -373,7 +373,7 @@ class V2VisionEngine:
             try:
                 v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text")
             except:
-                v2_structure[dim]["summary"] = f"Comprehensive chronological reference library for {dim}."
+                v2_structure[dim]["summary"] = f"Impact-driven reference library for {dim}."
                 
         return v2_structure
 
@@ -400,7 +400,7 @@ class V2VisionEngine:
             "![Banner](images/kubernetes_logo.jpg)\n\n"
             "!!! quote \"The Library of 2026\"\n"
             "    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing "
-            "    chronological clarity and expert quality synthesis.\n\n"
+            "    impact-driven synthesis and expert quality classification.\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
             
             "## 🛡️ V2 Taxonomy & Maturity Tags\n"

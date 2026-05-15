@@ -1,7 +1,7 @@
 # Engineering Pipeline
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Engineering Pipeline.
+    Impact-driven reference library for Engineering Pipeline.
 
 ## Sonarqube
   - [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

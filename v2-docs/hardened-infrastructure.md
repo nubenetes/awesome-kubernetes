@@ -1,7 +1,7 @@
 # Hardened Infrastructure
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Hardened Infrastructure.
+    Impact-driven reference library for Hardened Infrastructure.
 
 ## Kubernetes-security
   - [cilium.io](https://cilium.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

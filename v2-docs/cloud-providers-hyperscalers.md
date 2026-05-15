@@ -1,7 +1,7 @@
 # Cloud Providers (Hyperscalers)
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Cloud Providers (Hyperscalers).
+    Impact-driven reference library for Cloud Providers (Hyperscalers).
 
 ## Aws-storage
   - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

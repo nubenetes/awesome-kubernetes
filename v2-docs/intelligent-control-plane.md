@@ -1,7 +1,7 @@
 # Intelligent Control Plane
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Intelligent Control Plane.
+    Impact-driven reference library for Intelligent Control Plane.
 
 ## Ai
   - [xataka.com: Microsoft no quiere poner todos los huevos en la misma cesta: anuncia una asociación con Mistral AI, la OpenAI de Europa](https://www.xataka.com/robotica-e-ia/microsoft-no-quiere-poner-todos-huevos-cesta-anuncia-asociacion-mistral-ai-openai-europa) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
