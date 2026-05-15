@@ -200,6 +200,7 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 2. **Dynamic "Upgrading"**: Even for cached links, the engine performs real-time local updates:
    - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy.
    - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
+   - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
 3. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
 ### Comparison Matrix

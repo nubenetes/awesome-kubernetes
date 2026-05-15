@@ -36,10 +36,14 @@ class V2VisionEngine:
             "PHASE 1: TECHNICAL PRESERVATION (HIGH INCLUSIVITY)\n"
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION YEAR: Look for dates in the URL (e.g., /2023/05/ post dates), Twitter/X post dates, or text context. Return 'N/A' if truly unknown, do NOT guess '2024'.\n"
+            "- Extract precise PUBLICATION YEAR: Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
             "- Assign QUALITY level (1-3 stars).\n"
-            "- Assign a MATURITY TAG based on content type/status: '[ENTERPRISE-STABLE]', '[EMERGING / INNOVATION]', '[ARCHITECTURE-GUIDE]', '[TOOLING]', '[CASE-STUDY]', or '[CHEATSHEET]'.\n"
-            "  * Note: We will override tags for GitHub repos using real API data (Stars/Commits), so focus on classifying blogs and articles correctly.\n"
+            "- Assign a MATURITY TAG based on content type/status.\n"
+            "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
+            "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
+            "- If 'Current Desc' is empty, too short, or non-descriptive, generate a professional 1-2 sentence summary.\n"
+            "- To generate the summary: Analyze the URL and title. If you recognize the technical resource, describe its core value proposition for a Cloud Architect in 2026.\n"
+            "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
         self.cache = self._load_cache()
 
@@ -219,9 +223,14 @@ class V2VisionEngine:
             item = l.copy()
             if not force_eval and url in self.cache and "stars" in self.cache[url]:
                 item.update(self.cache[url])
-            else:
+                # If cache has a generated description and item is missing one, use it
+                if "ai_summary" in self.cache[url] and not item["description"]:
+                    item["description"] = self.cache[url]["ai_summary"]
+            
+            # Re-evaluate if description is still missing even after cache check
+            if not item.get("description"):
                 to_evaluate.append(item)
-                continue # process later via API
+                continue
             
             # Re-apply GitHub metadata and mature tagging for cached items
             if "github.com" in url:
@@ -239,12 +248,12 @@ class V2VisionEngine:
         for i in range(0, len(to_evaluate), BATCH_SIZE):
             batch = to_evaluate[i:i+BATCH_SIZE]
             batch_num = i//BATCH_SIZE + 1
-            log_event(f"  [>] Processing Batch {batch_num} with AI...")
+            log_event(f"  [>] Processing Batch {batch_num} with AI (Mandatory Descriptions)...")
             
             prompt = (
                 f"{self.library_criteria}\n"
-                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": int, \"is_video\": bool, \"tag\": \"[TAG]\"}, ...]}\n\n"
-                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
+                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": int, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\"}, ...]}\n\n"
+                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Current Desc: {l['description'][:50]}" for idx, l in enumerate(batch)])
             )
             
             try:
@@ -260,9 +269,12 @@ class V2VisionEngine:
                                 "year": str(res.get("year", "N/A")),
                                 "stars": min(max(int(res.get("stars", 1)), 1), 3),
                                 "is_video": res.get("is_video", False),
-                                "tag": res.get("tag", "[ENTERPRISE-STABLE]")
+                                "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
+                                "ai_summary": res.get("summary", "")
                             }
                             item.update(eval_data)
+                            if not item["description"] and item["ai_summary"]:
+                                item["description"] = item["ai_summary"]
                             
                             # GitHub overrides
                             if "github.com" in item["url"]:

@@ -126,4 +126,5 @@ The bot must rotate between profiles to avoid detection:
         - **Automatic Detection**: The `agentic_v2_builder.yml` workflow now triggers automatically whenever `docs/` changes or after a curation run.
         - **Cost Efficiency**: Only NEW links from V1 are sent to Gemini. Existing links use cached AI evaluations but are locally "upgraded" with real-time GitHub metadata (stars/dates) and dynamic maturity tagging.
         - **Maturity Taxonomy**: Replaced generic labels with a professional 5-tier system (`[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`, `[EMERGING]`, `[LEGACY]`, `[GUIDE]`) explained in the V2 Index.
+        - **Mandatory Descriptions**: Every resource in V2 MUST have a description. If the V1 source is missing one, the Optimizer uses Gemini to generate a professional 1-2 sentence summary and caches it.
         - **Manual Control**: The workflow supports a `force_reevaluate` flag for full architectural refreshes.
