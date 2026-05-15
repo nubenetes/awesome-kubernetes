@@ -1,5 +1,6 @@
 name: Nubenetes Automated Agentic Curation
 
+# Last Sync: 2026-05-15 - Triggering Refresh
 on:
   schedule:
     - cron: '0 5 1 * *'  # Monthly: 1st day of the month at 05:00 UTC
