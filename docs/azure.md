@@ -248,7 +248,6 @@
 - [Azure Sandbox](https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox) Azure Sandbox is a collection of interdependent cloud computing configurations for implementing common Azure services on a single subscription. This collection provides a flexible and cost effective sandbox environment for experimenting with Azure services and capabilities.
 
 ## Azure Marketplace
-  - [AKS Bitnami Open Source Deployments](http://blog.aks.azure.com/2025/04/03/aks-bitnami-open-source-deployments) 🌟 - This article discusses leveraging Bitnami's open-source application catalog for easier deployments on Azure Kubernetes Service (AKS). It highlights how Bitnami charts simplify the installation and management of various applications within AKS environments, promoting efficient use of cloud-native technologies.
 
 - [azuremarketplace.microsoft.com: Firefly](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/gofireflyltd1705083203658.firefly) Firefly's Cloud Asset Management solution enables Cloud teams to rediscover their entire cloud footprint and manage it more efficiently and consistently as a single inventory across multi-cloud, multi-accounts, and Kubernetes deployments. At the same time, it empowers DevOps to quickly ramp Infrastructure-as-code, and to create and deploy cloud infrastructure safely and consistently within organizational policies.
 
@@ -312,7 +311,6 @@
 
 ## Understand Azure Load Balancing
   - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups/) - This article explains how Azure Proximity Placement Groups can be used to physically co-locate Azure compute resources, ensuring low latency between them. It discusses use cases for latency-sensitive applications like manufacturing systems and in-memory computations, and includes details on testing the effectiveness of these groups.
-  - [Azure Front Door Integration with AKS Ingress for TLS and App Routing](http://blog.aks.azure.com/2025/03/14/afd-aks-ingress-tls-approuting) - *(Related to kubernetes-networking topic)*
 
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
 - [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
@@ -469,7 +467,6 @@
 - [youtube: Databricks CI/CD: Azure DevOps Pipeline + DABs](https://www.youtube.com/watch?v=SZM49lGovTg) Many organizations choose Azure DevOps for automated deployments on Azure. When deploying to Databricks you can take similar deploy pipeline code that you use for other projects but use it with Databricks Asset Bundles. This video shows most of the steps involved in setting this up by following along with a blog post that shares example code and steps.
 
 ## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra
-  - [Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes](https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/) - *(Related to terraform topic)*
   - [EntraExporter](https://github.com/microsoft/entraexporter) - A PowerShell module for exporting Entra (Azure AD) and Azure AD B2C configuration settings to local JSON files. It can be integrated into scheduled tasks or CI/CD pipelines (Azure DevOps, GitHub, Jenkins) and the exported files can be version controlled.
   - [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) - *(Related to kubernetes-security topic)*
 
