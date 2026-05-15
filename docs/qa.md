@@ -130,11 +130,9 @@ the #1 test automation community.
 
 ??? note "Click to expand!"
 
-    <center markdown="1">
-
+    <center>
     ![tests in prod](images/testinprodmeme.jfif)
     ![10 must haves test automation](images/10-must-haves-test-automation.jfif)
-
     </center>
 
 ## Tweets
@@ -142,8 +140,7 @@ the #1 test automation community.
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If your code has no tests, then:<br><br>- it is not clean<br>- it is not complete<br>- it is not correct<br>- it is not documented<br>- it is not verified<br>- it is not working<br><br>And most importantly: It is not quality.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1365995255322001409?ref_src=twsrc%5Etfw">February 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The term &quot;legacy&quot; is not about time or author. It is about quality.</p>&mdash; Mario Cervera (@macerub) <a href="https://twitter.com/macerub/status/1441072867974725636?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -153,6 +150,5 @@ the #1 test automation community.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why refactor your code and keep up with dependency deprecations when you can get a new job every 3 years to avoid your own technical debt?</p>&mdash; Carla Notarobot 🤖👩🏻‍💻 (@CarlaNotarobot) <a href="https://twitter.com/CarlaNotarobot/status/1482715184028397571?ref_src=twsrc%5Etfw">January 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Software engineering, a haiku:<br><br>fuck fuck fuck fuck fuck<br>fuck fuck fu-oh hey it works<br>wait, no - fuck fuck fuck</p>&mdash; Kelly Vaughn (@kvlly) <a href="https://twitter.com/kvlly/status/1538310552451264512?ref_src=twsrc%5Etfw">June 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>

@@ -49,9 +49,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I consume so much information and content, and I find it really important to come back to the things I learn.<br><br>I take notes manually on videos and paper books, and I use <a href="https://twitter.com/readwiseio?ref_src=twsrc%5Etfw">@readwiseio</a>&#39;s supplemental notes to double check my own. I use instapaper to highlight stuff online.<br><br>1/3</p>&mdash; Ali Spittel 🐞 (@ASpittel) <a href="https://twitter.com/ASpittel/status/1432435361981112323?ref_src=twsrc%5Etfw">August 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>

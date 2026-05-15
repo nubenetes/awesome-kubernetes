@@ -169,10 +169,8 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zztufl4mFQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </center>
 </details>
 
@@ -180,12 +178,10 @@
 
 ??? note "Click to expand!"
 
-	<center markdown="1">
-
+	<center>
 	[![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
 
     [![google cloud devops flow](images/google_cloud_devops_flow.jfif)](https://cloud.google.com/deploy/docs/deploy-app-run)
-
 	</center>
 
 ## Tweets
@@ -193,13 +189,11 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🎟 You want to get a ticket to <a href="https://twitter.com/googlecloud?ref_src=twsrc%5Etfw">@googlecloud</a> networking, it&#39;s really cool!<br>🤓 I take an example company and walk trough the different networking services, take look 👉 <a href="https://t.co/tTwLp7DXH4">https://t.co/tTwLp7DXH4</a><a href="https://twitter.com/hashtag/cloudnetworking?src=hash&amp;ref_src=twsrc%5Etfw">#cloudnetworking</a> <a href="https://twitter.com/hashtag/cloudcomputing?src=hash&amp;ref_src=twsrc%5Etfw">#cloudcomputing</a> <a href="https://t.co/yFVEUpLy1g">pic.twitter.com/yFVEUpLy1g</a></p>&mdash; Priyanka Vergadia (@pvergadia) <a href="https://twitter.com/pvergadia/status/1455233394476998660?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our new managed continuous service delivery, <a href="https://twitter.com/googlecloud?ref_src=twsrc%5Etfw">@googlecloud</a> Deploy, just became generally available. <br><br>I&#39;m supposed to be working on something else, but I want to check it out. Let&#39;s procrastinate on real-work together, shall we? <br><br>Quick 🧵 as I deploy a <a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> app to GKE. <a href="https://t.co/Ve07Gnog7q">pic.twitter.com/Ve07Gnog7q</a></p>&mdash; Richard Seroter (@rseroter) <a href="https://twitter.com/rseroter/status/1484585434432749573?ref_src=twsrc%5Etfw">January 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Creating a GCP service account for each running k8s deployment is ugly. Thankfully, good folks working on Workload Identity <a href="https://twitter.com/googlecloud?ref_src=twsrc%5Etfw">@googlecloud</a> have conjured up some dark magic that allows you to bind RBAC directly to Kubernetes service accounts!<br><br>Checkout a short demo 🧵 showing how…</p>&mdash; Nick Eberts (@nicholas_eberts) <a href="https://twitter.com/nicholas_eberts/status/1504860417201520643?ref_src=twsrc%5Etfw">March 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>

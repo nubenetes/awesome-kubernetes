@@ -295,10 +295,8 @@ Cilium allows users to specify an egress NAT policy
 - [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog/exploring-cilium-layer-7-capabilities-compared-to-istio/)
 - [betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor 🌟](https://betterprogramming.pub/k8s-network-policy-made-simple-with-cilium-editor-a5b55781291c) An intuitive graphical tool to define complex network policies
 
-<center markdown="1">
-
+<center>
 <script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
 </center>
 
 ### Kubernetes Network Policy Samples
@@ -354,10 +352,8 @@ Cilium allows users to specify an egress NAT policy
     - [Multus](https://github.com/openshift/multus-cni)
     - [CNI-Genie](https://github.com/cni-genie/CNI-Genie)
 
-<center markdown="1">
-
+<center>
 [![kubernetes sdn solutions](images/kubernetes_sdn_solutions.png)](https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/)
-
 </center>
 
 ### Project Calico
@@ -405,23 +401,19 @@ Cilium allows users to specify an egress NAT policy
 
 ??? note "Click to expand!"
 
-    <center markdown="1">
-
+    <center>
     [![k8s service types img](images/k8s_service_types_matrix.png)](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)
-
     </center>
 
 ## Videos
 
 ??? note "Click to expand!"
 
-    <center markdown="1">
-
+    <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/T4Z7visMM4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5cNrTU6o3Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/80Ew_fsV4rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/VSn6DPKIhM8?si=pNaN7q9t3UKWaEhK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
     </center>
 
 ## Tweets
@@ -429,8 +421,7 @@ Cilium allows users to specify an egress NAT policy
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes is an example of what happens when you have an indefinitely complex network stack and no troubleshooting tools in place.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1458317772941713408?ref_src=twsrc%5Etfw">November 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s see how many folks here haven&#39;t seen this thread on Kubernetes Networking.<br><br>Once again, the thread doesn&#39;t try to explain the subject matter in great detail but offers a particular learning order instead.<br><br>As usual, based on my personal experience 🔽 <a href="https://t.co/pxCWJUxj5j">pic.twitter.com/pxCWJUxj5j</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1464922049604997121?ref_src=twsrc%5Etfw">November 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -444,7 +435,6 @@ Cilium allows users to specify an egress NAT policy
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Networking in Kubernetes is arguably the most important piece.<br><br>Why?<br><br>Because there’s not much you can do in a Kubernetes cluster without proper networking.<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1607747382711664640?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you deal with peaks of traffic in Kubernetes?<br><br>You can use an autoscaler, but how should you configure and test it?<br><br>Let&#39;s dive into it. <a href="https://t.co/AxfEgqyEFW">pic.twitter.com/AxfEgqyEFW</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1647935320288284673?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
   - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) - *(Related to kubernetes topic)*

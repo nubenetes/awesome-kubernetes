@@ -239,8 +239,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is clean code?<br><br>Clean code is the code if:<br>- it is easily readable<br>- it is easily extendable and maintainable<br>- it is as simple as possible<br>- it is cheap and risk-free to change<br>- it reveals our intent<br>- it has corresponding clean tests <br><br>What else would you add?</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1353311679845703685?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">5 things I&#39;ve learned in 10 years as a developer:<br><br>1. No one knows exactly what they are doing<br>2. Anything can be learned with enough dedication<br>3. Perception &gt; reality<br>4. Taking on the toughest problems pays dividends<br>5. People like to make things sound complicated for their ego</p>&mdash; Nader Dabit (@dabit3) <a href="https://twitter.com/dabit3/status/1385379589615198209?ref_src=twsrc%5Etfw">April 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -256,6 +255,5 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Computer Networking For Developers 🧵<br><br>Need to get into networking but all materials you find feel like they are written for bearded networking gurus?<br><br>I&#39;ve got a bunch of &quot;different&quot; articles for you! Written by a developer for fellow developers 👇 <a href="https://t.co/HdgrG7yNys">pic.twitter.com/HdgrG7yNys</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1588183033303207936?ref_src=twsrc%5Etfw">November 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do we need &quot;software architecture?&quot; Some thoughts that might help you in our busy software development world 🧵</p>&mdash; Markus Harrer (@feststelltaste) <a href="https://twitter.com/feststelltaste/status/1592891290643226625?ref_src=twsrc%5Etfw">November 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>

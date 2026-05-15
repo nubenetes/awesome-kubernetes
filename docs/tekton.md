@@ -41,12 +41,10 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mvrpxz_BfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOXPWPt8Iiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CnVCgMRE4xI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </center>
 </details>
 
@@ -55,11 +53,9 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <script async class="speakerdeck-embed" data-id="d3d70ab67e894e74912beb835e927d10" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 <script async class="speakerdeck-embed" data-id="63bd2b3c53d748b0be8e2f91ac3e6870" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
 </center>
 </details>

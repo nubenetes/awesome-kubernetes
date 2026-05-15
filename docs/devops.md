@@ -40,10 +40,8 @@
 32. [Videos](#videos)
 33. [Tweets](#tweets)
 
-<center markdown="1">
-
+<center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
-
 </center>
 
 ## Introduction to Digital Business Transformation
@@ -290,12 +288,10 @@
 - [medium.com/@perspectivementor: 6 Essential Skills for Landing a DevOps Job in 2024](https://medium.com/@perspectivementor/6-essential-skills-for-landing-a-devops-job-in-2024-88f6c19341d7)
 - [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024/)
 
-<center markdown="1">
-
+<center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
 
 [![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
-
 </center>
 
 ## DORA metrics
@@ -481,8 +477,7 @@ Resolve your software incidents 10x faster
 
 ??? note "Click to expand!"
 
-	<center markdown="1">
-
+	<center>
 	[![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 
 	[![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
@@ -524,19 +519,16 @@ Resolve your software incidents 10x faster
 	[![devops lifecycle](images/devops_lifecycle.jfif)](https://twitter.com/tfortricks_ind)
 
 	[![devops tools declarative imperative](images/devops_tools_declarative_imperative.jfif)](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
-
 	</center>
 
 ## Slides
 
 ??? note "Click to expand!"
 
-	<center markdown="1">
-
+	<center>
 	<div class="container">
 	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 	</div>
-
 	</center>
 
 ## Videos
@@ -544,8 +536,7 @@ Resolve your software incidents 10x faster
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0yWAtQ6wYNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9pZ2xmsSDdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/js-rq7SvPpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -556,7 +547,6 @@ Resolve your software incidents 10x faster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cthla7KqU04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lTZJUVgQeO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 </center>
 </details>
 
@@ -565,8 +555,7 @@ Resolve your software incidents 10x faster
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It drives me nuts when people say &quot;DevOps&quot; when they really mean &quot;Ops.&quot; Ops didn&#39;t just disappear, folks.</p>&mdash; emily freeman (@editingemily) <a href="https://twitter.com/editingemily/status/1404840667558207489?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/HelmPack?ref_src=twsrc%5Etfw">@HelmPack</a> can hide some deep K8s knowledge.<a href="https://twitter.com/crossplane_io?ref_src=twsrc%5Etfw">@crossplane_io</a> does the same for infrastructure, best practices Postgres can be as simple as provide the version and the size. A game-changer for platforms</p>&mdash; Omer Kahani (@OmerKahani) <a href="https://twitter.com/OmerKahani/status/1427711077350006786?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -586,12 +575,9 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interview on Austrian TV 😊 Talked about how we started our YouTube channel, as a temporary side project, which turned into this amazing and fulfilling job of educating people in DevOps engineering 💙<br>.<br>Full interview on <a href="https://twitter.com/4Gamechanger?ref_src=twsrc%5Etfw">@4Gamechanger</a>: <a href="https://t.co/3jViGROFTP">https://t.co/3jViGROFTP</a>😊<a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/youtube?src=hash&amp;ref_src=twsrc%5Etfw">#youtube</a> <a href="https://t.co/FIb8DubPup">pic.twitter.com/FIb8DubPup</a></p>&mdash; TechWorld with Nana | DevOps 🚀 (@Njuchi_) <a href="https://twitter.com/Njuchi_/status/1505151354607656961?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master DevOps, watch these YouTube videos:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1590615976558485508?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Drone flight through the<a href="https://twitter.com/hashtag/GigaBerlinBrandenburg?src=hash&amp;ref_src=twsrc%5Etfw">#GigaBerlinBrandenburg</a> <a href="https://twitter.com/Tesla?ref_src=twsrc%5Etfw">@Tesla</a> <a href="https://t.co/7yCehZl5G3">pic.twitter.com/7yCehZl5G3</a></p>&mdash; Gigafactory Berlin-Brandenburg 🕊🇺🇦 (@Gf4Tesla) <a href="https://twitter.com/Gf4Tesla/status/1507447173436297217?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>

@@ -178,12 +178,10 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development/) A Jenkins-based tool receives pipeline alerts and, in turn, determines who to notify.
 - [jenkinsistheway.io: Jenkins is the way to DevSecOps. Cybersecurity CI/CD](https://jenkinsistheway.io/user-story/to-devsecops/) A cumbersome legacy process for building, testing and releasing software is a huge challenge for a global cybersecurity company that has to stay ahead of hackers, fraudsters and trends in cybercrime.
 
-<center markdown="1">
-
+<center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
 
 [![Jenkins growth](images/jenkins_growth.png)](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/)
-
 </center>
 
 ## Evolution of open source CI/CD Tools
@@ -326,10 +324,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [jenkins.io: Share a standard Pipeline across multiple projects with Shared Libraries 🌟](https://www.jenkins.io/blog/2017/10/02/pipeline-templates-with-shared-libraries/)
 - [jenkins.io: Parallel stages with Declarative Pipeline 1.2 🌟](https://www.jenkins.io/blog/2017/09/25/declarative-1/)
 
-<center markdown="1">
-
+<center>
 [![real world pipeline flow](images/realworld-pipeline-flow.png)](https://www.jenkins.io/solutions/pipeline/)
-
 </center>
 
 #### Jenkins Pipeline Syntax. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax
@@ -360,10 +356,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ??? note "Jenkinsfile Runner slides. Click to expand!"
 
-    <center markdown="1">
-
+    <center>
     <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
     </center>
 
 ### DSL 3. Jenkins Configuration as Code (JCasC)
@@ -587,11 +581,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ??? note "Jenkins Blue Ocean Videos. Click to expand!"
 
-    <center markdown="1">
-
+    <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </center>
 
 ### Cloudbees Flow
@@ -601,11 +593,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ??? note "Cloudbees Flow Videos. Click to expand!"
 
-    <center markdown="1">
-
+    <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4RFlwU9klQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </center>
 
 ## Monitoring jenkins
@@ -735,30 +725,24 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [templates.cloudonaut.io: Jenkins 2.0: highly available master](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master)
 - [templates.cloudonaut.io: Jenkins 2.0: highly available master and dynamic agents](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master-and-dynamic-agents)
 
-<center markdown="1">
-
+<center>
 [![jenkins and openshift](images/jenkins-ose.png)](https://www.cloudbees.com/)
-
 </center>
 
-<center markdown="1">
-
+<center>
 [![jenkins hub CD](images/jenkins-hub.png)](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
-
 </center>
 
 ## Videos
 
 ??? note "Click to expand!"
-    <center markdown="1">
-
+    <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zI7_8M2KtRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/08Wwof68cxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/7KCS70sCoK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/SwQE5hM4trg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
     </center>
 
 ## Tweets
@@ -766,8 +750,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 <details>
   <summary>Click to expand!</summary>
 
-<center markdown="1">
-
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linus Torvalds: Shared libraries are not a good thing in general<a href="https://t.co/j94eT3n4qW">https://t.co/j94eT3n4qW</a> <a href="https://t.co/pZp4m50qtx">pic.twitter.com/pZp4m50qtx</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/1388630310225469441?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Please everyone in technology stop using <a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> for CI/CD systems. It is one of the worst non immutable systems out there. Also don&#39;t get me started with pipelines. Otherwise <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> future is just going to be managing multi decade old jenkins servers :( What a nightmare.</p>&mdash; The Sheff (@thesheff17) <a href="https://twitter.com/thesheff17/status/1414909241295581184?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -783,7 +766,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">For everyone participating in the the <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> panel by <a href="https://twitter.com/incredibuild?ref_src=twsrc%5Etfw">@incredibuild</a>, here are my slides about evolution of CI/CD tools. Jenkins and other &quot;classic&quot; tools remain very relevant in 2021 <a href="https://t.co/iFyNe6Mqn9">https://t.co/iFyNe6Mqn9</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1440684224793624582?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why did I not think of this before <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> if you want your build parameters to be sticky:<br><br>parameters {<br> string name: &#39;STICKY&#39;, defaultValue: params.STICKY?:&#39;initial value&#39;<br>} <a href="https://t.co/QCRFYuTfJS">pic.twitter.com/QCRFYuTfJS</a></p>&mdash; 😀 Stephen Connolly (@connolly_s) <a href="https://twitter.com/connolly_s/status/1450743524291399682?ref_src=twsrc%5Etfw">October 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
 
