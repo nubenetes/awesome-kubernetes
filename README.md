@@ -13,17 +13,21 @@
 1.  [Introduction & Motivation](#-introduction--motivation)
 2.  [Repository Metrics & Evolution](#-repository-metrics--evolution)
     *   [Top Categories by Density](#top-categories-by-density)
-    *   [Historical Growth](#historical-growth)
+    *   [Historical Growth (Commits & References)](#historical-growth-commits--references)
     *   [Content Distribution](#content-distribution)
 3.  [The 2026 Architectural Shift](#-the-2026-architectural-shift)
     *   [From Manual to Agentic](#from-manual-to-agentic)
     *   [Evolution Path](#evolution-path)
-4.  [The Agentic AI Engine](#-the-agentic-ai-engine)
-5.  [GitHub Workflows & Automation](#-github-workflows--automation)
+4.  [Dual-Edition Architecture (V1 vs V2)](#-dual-edition-architecture-v1-vs-v2)
+    *   [V1: The Exhaustive Archive](#v1-the-exhaustive-archive)
+    *   [V2: The Agentic Elite Edition](#v2-the-agentic-elite-edition)
+    *   [Comparison Matrix](#comparison-matrix)
+5.  [The Agentic AI Engine](#-the-agentic-ai-engine)
+6.  [GitHub Workflows & Automation](#-github-workflows--automation)
     *   [Workflow Inventory](#workflow-inventory)
     *   [Curation Flow Architecture](#curation-flow-architecture)
-6.  [Branching Strategy & Lifecycle](#-branching-strategy--lifecycle)
-7.  [Developer Experience & VSCode Setup](#-developer-experience--vscode-setup)
+7.  [Branching Strategy & Lifecycle](#-branching-strategy--lifecycle)
+8.  [Developer Experience & VSCode Setup](#-developer-experience--vscode-setup)
 
 ---
 
@@ -70,20 +74,28 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | [Managed Kubernetes (EKS/AKS/GKE)](docs/managed-kubernetes-in-public-cloud.md) | 379 |
 | [Observability & Monitoring](docs/monitoring.md) | 347 |
 
-### Historical Growth
+### Historical Growth (Commits & References)
 
-#### Commits by Year
-| Year | Commits | Milestone |
-| :---: | :---: | :--- |
-| 2018 | 350 | Project Inception |
-| 2019 | 142 | Early Growth |
-| 2020 | 2,046 | **The Great Expansion** |
-| 2021 | 531 | Maturity & Standardization |
-| 2022 | 402 | Cloud Native Hardening |
-| 2023 | 30 | Maintenance |
-| 2024 | 53 | Curation Refinement |
-| 2025 | 5 | Stability |
-| 2026 | 402+ | **Agentic AI Automation Era** |
+The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem. Since 2026, the adoption of Agentic AI has resulted in a vertical surge in both commit frequency and link discovery.
+
+#### Annual Growth Summary
+| Year | Commits | Est. New Refs | Key Milestone |
+| :---: | :---: | :---: | :--- |
+| 2018 | 350 | 1,445 | Project Inception (Munich Era) |
+| 2019 | 142 | 586 | Early Growth & Open Source Launch |
+| 2020 | 2,046 | 8,450 | **The Great Expansion** (Global Lockdowns) |
+| 2021 | 531 | 2,193 | Maturity & Industry Standardization |
+| 2022 | 402 | 1,660 | Cloud Native Hardening & GitOps Era |
+| 2023 | 30 | 124 | Maintenance & Refinement |
+| 2024 | 53 | 219 | Curation Strategy Pivot |
+| 2025 | 5 | 21 | Stability & Research Phase |
+| 2026 | 402+ | 1,660+ | **Agentic AI Surge** (May 2026 Inception) |
+
+#### 2026: The Agentic Monthly Surge
+| Month | Commits | Est. New Refs | Status |
+| :--- | :---: | :---: | :--- |
+| 2026-04 | 25 | 103 | Pre-Agentic Preparation |
+| **2026-05** | **377+** | **1,557+** | **Agentic Inception (Gemini Era)** |
 
 ### Content Distribution
 
@@ -121,6 +133,34 @@ graph TD
 
 ---
 
+## 🏛️ Dual-Edition Architecture (V1 vs V2)
+
+Nubenetes now operates with two distinct editions to serve different engineering needs. Both are managed via GitOps and deployed to [nubenetes.com](https://nubenetes.com).
+
+### V1: The Exhaustive Archive
+- **Purpose:** Preservation of all technical knowledge since 2018.
+- **Scope:** 17,000+ links across 160+ pages.
+- **Source of Truth:** The `docs/` directory.
+- **Deployment:** [nubenetes.com](https://nubenetes.com)
+
+### V2: The Agentic Elite Edition
+- **Purpose:** A high-density, enterprise-grade portal for the 2026 ecosystem.
+- **Algorithm:** Uses the `V2VisionEngine` to select only the top 10% of resources based on quality, impact, and freshness.
+- **Source of Truth:** The `v2-docs/` directory (Derived from V1).
+- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
+
+### Comparison Matrix
+
+| Feature | V1 (Exhaustive) | V2 (Elite) |
+| :--- | :--- | :--- |
+| **Philosophy** | "Leave no resource behind" | "Only the best for 2026" |
+| **Volume** | High (17k+ Links) | Optimized (~2k Links) |
+| **Depth** | Historical & Wide | Cutting-edge & Deep |
+| **Filtering** | Basic (Health only) | AI-Scored (🌟🌟🌟) |
+| **MVQ Check** | No | Yes (Stale repos deprioritized) |
+
+---
+
 ## 🤖 The Agentic AI Engine
 
 The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
@@ -130,8 +170,8 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and date.
     - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching.
 2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
-    - **Elite Selection:** Scans the massive V1 archive (17k+ links) to select the "Elite" top-tier resources.
-    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane", "Hardened Infrastructure").
+    - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
+    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane").
     - **Deprioritization:** Automatically identifies stale repositories (>4 years without activity) and reduces their visibility.
 3.  **IntelligentHealthChecker (`src/intelligent_health_checker.py`)**:
     - **Resilience:** Performs asynchronous health checks with 3x retry and identity rotation.
@@ -152,23 +192,17 @@ Nubenetes uses a complex network of GitHub Actions to maintain the archive.
 | **Link Health** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | Global link health check & deduplication. | Monthly / Manual | None |
 | **Backup Curation** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | Processes historical backups (JSON/MD) into the repo. | Manual | None |
 
-### Curation Flow Architecture
+### Deployment Lifecycle
 
 ```mermaid
-sequenceDiagram
-    participant X as X.com / Sources
-    participant G as Gemini Agent
-    participant W as GitHub Workflow
-    participant R as Repo (develop)
-
-    W->>X: Extract Raw Data
-    X-->>W: Raw JSON/MD
-    W->>G: Evaluate & Score Assets
-    G-->>W: Scored & Categorized Assets
-    W->>W: Inject into docs/*.md
-    W->>R: Create Pull Request
-    Note over R: V2 Builder Triggered...
-    W->>R: Update V2 Elite Edition
+graph LR
+    A[AI Discovery] --> B[V1 Update (develop)]
+    B --> C[CI/CD Build V1]
+    B --> D[V2 Vision Engine]
+    D --> E[V2 Update (develop)]
+    E --> F[CI/CD Build V2]
+    C --> G[nubenetes.com]
+    F --> H[nubenetes.com/v2/]
 ```
 
 ---
