@@ -75,8 +75,6 @@
 - [automationqahub.com: The Ultimate List of Selenium Interview Questions](https://automationqahub.com/latest-selenium-interview-questions-and-answers/)
 - [automationreinvented.blogspot.com: Top 30 Interview Questions on Automation Testing - Selenium for SDET/Automation QA?](https://automationreinvented.blogspot.com/2020/06/top-30-interview-questions-on.html)
 
-
-
 ## MySQL Interview Questions
 
 - [intellipaat.com: Top Answers to MySQL Interview Questions](https://intellipaat.com/blog/interview-question/mysql-interview-questions/)
@@ -135,8 +133,6 @@
 - [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)
 - [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html)
 - [automationreinvented.blogspot.com: Top 80 API Testing Interview Questions for QA and SDET ? API Interview Questions 2022](https://automationreinvented.blogspot.com/2022/03/top-80-api-testing-interview-questions.html)
-
-
 
 ## Python Interview Questions
 

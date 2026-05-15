@@ -818,7 +818,6 @@ elastic quotas - Effortless optimization at its finest!
     - Built-in **Terminal** with full `kubectl` context  
     - View object timelines & security posture at a glance  
 
-
 ## KubeLibrary
 
 - [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) KubeLibrary is a RobotFramework library for testing Kubernetes cluster
@@ -1149,8 +1148,10 @@ elastic quotas - Effortless optimization at its finest!
 
 - [github.com/Azure/eraser 🌟](https://github.com/Azure/eraser) 🧹 Cleaning up images from Kubernetes nodes. **Eraser is a tool that helps Kubernetes admins remove a list of non-running images from all Kubernetes nodes in a cluster**
 
-<center>
+<center markdown="1">
+
 [![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
+
 </center>
 
 ## Data Pipeline Workflow Schedulers
@@ -1256,7 +1257,8 @@ elastic quotas - Effortless optimization at its finest!
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the biggest problems in IT is that we keep reinventing the wheel.<br><br>We are running the same circles, producing similar technologies to solve the same problems.<br><br>Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1388448114047164416?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">`kubectl logs --previous` saved my life <a href="https://t.co/mIsCJehVwI">pic.twitter.com/mIsCJehVwI</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1425925390644690954?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -1266,6 +1268,7 @@ elastic quotas - Effortless optimization at its finest!
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting developer tools &amp; frameworks for <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> to learn in 2022:<br>🔹<a href="https://twitter.com/telepresenceio?ref_src=twsrc%5Etfw">@telepresenceio</a> - dev CLI<br>🔹<a href="https://twitter.com/DevSpace?ref_src=twsrc%5Etfw">@DevSpace</a> - dev CLI <br>🔹<a href="https://twitter.com/KnativeProject?ref_src=twsrc%5Etfw">@KnativeProject</a> - <a href="https://twitter.com/hashtag/serverless?src=hash&amp;ref_src=twsrc%5Etfw">#serverless</a> platform<br>🔹<a href="https://twitter.com/skaffolddev?ref_src=twsrc%5Etfw">@skaffolddev</a> - dev CLI<br>🔹<a href="https://twitter.com/hashtag/KubeVela?src=hash&amp;ref_src=twsrc%5Etfw">#KubeVela</a> - <a href="https://twitter.com/oam_dev?ref_src=twsrc%5Etfw">@oam_dev</a> platform<br>🔹<a href="https://twitter.com/okteto?ref_src=twsrc%5Etfw">@okteto</a> - dev platform <br>🔹<a href="https://twitter.com/QuarkusIO?ref_src=twsrc%5Etfw">@QuarkusIO</a> - <a href="https://twitter.com/hashtag/java?src=hash&amp;ref_src=twsrc%5Etfw">#java</a> framework</p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1475065476388728832?ref_src=twsrc%5Etfw">December 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Running tests in Kubernetes using existing CI/CD pipelines can lead to security, performance, and consistency challenges.<br><br>Hear from <a href="https://twitter.com/olensmar?ref_src=twsrc%5Etfw">@olensmar</a>, CTO at <a href="https://twitter.com/thekubeshop?ref_src=twsrc%5Etfw">@thekubeshop</a>, about how <a href="https://twitter.com/Testkube_io?ref_src=twsrc%5Etfw">@Testkube_io</a> can help teams overcome these challenges. <a href="https://t.co/7yMQyiTJjk">pic.twitter.com/7yMQyiTJjk</a></p>&mdash; Kunal Kushwaha (@kunalstwt) <a href="https://twitter.com/kunalstwt/status/1656625448980480001?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
 
@@ -1273,8 +1276,10 @@ elastic quotas - Effortless optimization at its finest!
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CB79eTFbR0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

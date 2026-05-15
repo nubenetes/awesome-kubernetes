@@ -10,7 +10,6 @@
 
 ## Scaffold Definition
 
-
 ## Nodejs Scaffolding with Yeoman
 
 - [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application/)

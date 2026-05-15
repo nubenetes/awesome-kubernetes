@@ -42,7 +42,6 @@
 
 ## Introduction
 
-
 ## RHEL
 
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
@@ -421,16 +420,20 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
+
 	[![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
+
 	</center>
 
 ## Videos
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=wIr50Eu2-ZPwdI6N&amp;list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 	</center>
 
 ## Tweets
@@ -438,7 +441,8 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">bash for president <a href="https://t.co/CpIQh23az1">pic.twitter.com/CpIQh23az1</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1407081109570166791?ref_src=twsrc%5Etfw">June 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">DEPRECATED LINUX COMMANDS AND THEIR REPLACEMENTS💻<br><br>A short overview for Linux commands that have been replaced.❌</p>&mdash; Seb 🇧🇦 (@LinuxSeb) <a href="https://twitter.com/LinuxSeb/status/1443393886865408002?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -454,5 +458,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Linux? Open this: 🧵</p>&mdash; Rohit Ghumare | That #DevOps Guy✍️ (@ghumare64) <a href="https://twitter.com/ghumare64/status/1590550565142290432?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to make rsync faster? <a href="https://t.co/bIdizhoNoS">pic.twitter.com/bIdizhoNoS</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1633732722329001985?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

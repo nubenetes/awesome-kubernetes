@@ -129,7 +129,6 @@
 
 ### Container Tools
 
-
 ### Ansible and Ansible Tower
 
 - [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
@@ -255,7 +254,6 @@
 
 ### Envoy Service Mesh
 
-
 ### Consul Service Mesh
 
 - [medium: Consul-Kubernetes Ingress Gateways and L7 Traffic Management](https://medium.com/hashicorp-engineering/consul-kubernetes-ingress-gateways-and-l7-traffic-management-178957dcd934)
@@ -319,7 +317,6 @@
 - [The Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
 
 ### Harbor Container Registry
-
 
 ### OPA Gatekeeper
 
@@ -610,8 +607,10 @@
 
 ??? note "Video: From Freestyle jobs to Pipeline, with JobDSL. Click to expand!"
 
-    <center>
+    <center markdown="1">
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/uhD49XXiRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>
 
 ### Jenkins and GitHub
@@ -633,8 +632,10 @@
 
 ??? note "Video: Jenkins Pipeline with multiple Java versions. Click to expand!"
 
-    <center>
+    <center markdown="1">
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/j1lH3vOhucw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>
 
 ### Jenkins Scripts
