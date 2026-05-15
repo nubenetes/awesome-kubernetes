@@ -25708,5 +25708,185 @@
   },
   "https://rancher.com/blog/2020/announcing-hosted-rancher": {
     "status": "online"
+  },
+  "https://www.learnsteps.com/difference-between-minor-page-faults-vs-major-page-faults/": {
+    "status": "online"
+  },
+  "https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb": {
+    "status": "online"
+  },
+  "http://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation/": {
+    "status": "online"
+  },
+  "https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka": {
+    "status": "online"
+  },
+  "https://www.helpnetsecurity.com/2021/05/04/security-kubernetes/": {
+    "status": "online"
+  },
+  "https://securitycafe.ro/2023/02/27/a-complete-kubernetes-config-review-methodology/": {
+    "status": "online"
+  },
+  "https://ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder": {
+    "status": "online"
+  },
+  "https://www.codementor.io/python/tutorial/essential-python-interview-questions": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/devops-interview-questions-important-python-questions/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/devops-interview-questions-what-do-you-know-about-proc-filesystem-in-linux/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline/": {
+    "status": "online"
+  },
+  "https://www.quora.com/What-is-trunk-based-development": {
+    "status": "online"
+  },
+  "https://www.couchbase.com/": {
+    "status": "online"
+  },
+  "https://100daysofkubernetes.io/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/monitoring-infrastructure-system-design/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/logging-infrastructure-system-design/": {
+    "status": "online"
+  },
+  "https://www.finops.org/": {
+    "status": "online"
+  },
+  "https://venturebeat.com/datadecisionmakers/cloud-costs-are-unmanageable-its-time-we-standardize-billing/": {
+    "status": "online"
+  },
+  "https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/kaniko-and-how-you-can-build-images-on-kubernetes-using-kaniko/": {
+    "status": "online"
+  },
+  "https://azure.microsoft.com/en-gb/updates/general-availability-azure-bastion-native-client-support/": {
+    "status": "online"
+  },
+  "https://hlokensgard.no/2023/12/05/get-started-with-powershell-7-2-in-azure-automation-account/": {
+    "status": "online"
+  },
+  "https://azure.microsoft.com/en-us/services/api-management": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-how-to-join-and-split-strings": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-workflow-process-explained": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-how-to-for_each-through-a-listobjects/": {
+    "status": "online"
+  },
+  "https://build5nines.com/should-terraform-lock-hcl-file-be-added-to-gitignore-or-committed-to-git-repo/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-conditional-if-variable-does-not-exist-try-function/": {
+    "status": "online"
+  },
+  "https://build5nines.com/analyzing-ibms-acquisition-of-hashicorp-a-game-changer-in-hybrid-cloud-management/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-modules-using-git-branch-as-source/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-ip-functions-for-managing-ip-addresses-cidr-blocks-and-subnets/": {
+    "status": "online"
+  },
+  "https://build5nines.com/output-link-to-azure-resources-from-terraform-project/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-split-main-tf-into-seperate-files/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-state-management-explained/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-remove-resource-from-state-file-tfstate/": {
+    "status": "online"
+  },
+  "https://build5nines.com/working-with-yaml-in-terraform-using-the-yamldecode-and-yamlencode-functions/": {
+    "status": "online"
+  },
+  "https://blog.cloudtrooper.net/2023/08/19/dry-terraform-code-for-private-link-and-dns/": {
+    "status": "online"
+  },
+  "https://build5nines.com/terraform-deploy-azure-function-app-with-consumption-plan/": {
+    "status": "online"
+  },
+  "https://build5nines.com/what-is-azure-private-link-and-how-to-deploy-with-terraform/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/kubernetes-what-to-learn-from-a-long-term-perspective/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/what-is-kubelet-and-what-it-does-basics-on-kubernetes/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/what-is-a-control-plane-what-do-people-mean-by-this-basics-on-kubernetes/": {
+    "status": "online"
+  },
+  "https://www.returngis.net/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/tag/basics-on-kubernetes": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/how-exactly-kube-proxy-works-basics-on-kubernetes/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/basics-on-kubernetes-what-exactly-is-a-replicaset/": {
+    "status": "online"
+  },
+  "https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/basics-on-kubernetes-what-exactly-is-a-deployment/": {
+    "status": "online"
+  },
+  "https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline/": {
+    "status": "online"
+  },
+  "https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/": {
+    "status": "online"
+  },
+  "https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation/": {
+    "status": "online"
+  },
+  "https://rancher.com/blog/2020/multi-cluster-vulnerability-scanning-alcide-rancher": {
+    "status": "online"
+  },
+  "https://rancher.com/blog/2020/rancher-2-5-delivers-computing-everwhere-strategy": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes/": {
+    "status": "online"
+  },
+  "http://magic-cookie.co.uk/iplist.html": {
+    "status": "online"
+  },
+  "https://www.biobanking.com/europes-leading-cancer-image-biobank-eucaim-launched-by-quibim-and-european-commission/": {
+    "status": "online"
+  },
+  "https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators/": {
+    "status": "online"
   }
 }

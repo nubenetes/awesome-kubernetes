@@ -3,850 +3,957 @@
 !!! info "Architectural Context"
     Comprehensive chronological reference library for Developer Ecosystem.
 
+## Java-and-java-performance-optimization
+  - **(N/A)** [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book](https://www.freecodecamp.org/news/object-oriented-programming-in-java/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟](https://blog.heaphero.io/2020/10/16/what-is-gc-log-thread-dump-and-heapdump/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developers.redhat.com: How to choose the best Java garbage collector==](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Write Unit Tests in Java](https://www.freecodecamp.org/news/java-unit-testing/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container](https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@sharprazor.app: Memory settings for Java process running in Kubernetes pod](https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==medium.com/codex: Running JVM Applications on Kubernetes: Beyond java -jar==](https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes](https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - Learn how to debug CPU utilization issues in a Java app using asynchronous programming techniques like CompletableFuture
+          - Discover how to identify and resolve CPU bottlenecks using JVM arguments and container resource allocation
+          - Another workaround for this issue was to set the “-XX: ActiveProcessorCount” JVM argument to the number of cores that are allocated to the java container. We found this recommendation in a comment on the openjdk issue tracker. The application team validated this and the central Load Tests were run with this workaround. Post the load tests, the application team upgraded the java version to 17 where these issues were already resolved.
+
+  - **(N/A)** [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [InspectIT](https://en.wikipedia.org/wiki/InspectIT) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [VisualVM](https://en.wikipedia.org/wiki/VisualVM) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OverOps](https://en.wikipedia.org/wiki/OverOps) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/generate-analyze-thread-dumps/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tier1app.com](https://tier1app.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fastthread.io](https://fastthread.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gceasy.io](https://gceasy.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [heaphero.io](https://heaphero.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Byteman](https://byteman.jboss.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Golang
+  - **(N/A)** [golang.org](https://golang.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/golang/go](https://github.com/golang/go) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [golang-design/history](https://github.com/golang-design/history) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Awesome Go 🌟](https://github.com/avelino/awesome-go) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [search.gocenter.io: JFrog Go Center](https://search.gocenter.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Deploying Your First Golang Webapp](https://dev.to/heroku/deploying-your-first-golang-webapp-11b3) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [go-ini/ini](https://github.com/go-ini/ini) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [rakyll/go-test-trace 🌟](https://github.com/rakyll/go-test-trace) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [luk4z7/go-concurrency-guide: Go Concurrency Guide 🌟](https://github.com/luk4z7/go-concurrency-guide) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Getting Started With Go (golang) | Michael Levan](https://dev.to/thenjdevopsguy/getting-started-with-go-golang-5eh8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==github.com/paliimx: Data Structures and Algorithms implementation in Go==](https://github.com/paliimx/Data-Structures-and-Algorithms) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devhints.io/go: Go cheatsheet](https://devhints.io/go) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Koa.js](https://koa) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [go-micro](https://github.com/asim/go-micro) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dapr.io](https://dapr.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [go-kratos/kratos](https://github.com/go-kratos/kratos) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gnet](https://github.com/panjf2000/gnet) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dsa0x/sicher](https://github.com/dsa0x/sicher) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ggicci/httpin: HTTP Input for Go](https://github.com/ggicci/httpin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [forbearing/k8s](https://github.com/forbearing/k8s) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cap](https://github.com/hashicorp/cap) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jcchavezs/porto](https://github.com/jcchavezs/porto) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mholt/json-to-go](https://github.com/mholt/json-to-go) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [curl-to-go](https://mholt.github.io/curl-to-go/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kkdai/youtube](https://github.com/kkdai/youtube) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==github.com/iawia002/lux== 🌟](https://github.com/iawia002/lux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/Email-Dashboard:](https://github.com/Email-Dashboard/Email-Dashboard) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==gobrew== 🌟](https://github.com/kevincobain2000/gobrew) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [create-go-app/cli](https://github.com/create-go-app/cli) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Delve: a debugger for the Go Programming Language](https://github.com/derekparker/delve) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve
+  - **(N/A)** [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [rehacktive/caffeine](https://github.com/rehacktive/caffeine) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ebosas/microservices](https://github.com/ebosas/microservices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Dockerize a GoLang HTTP server and deploy it on Kubernetes](https://dev.to/aksrao1998/dockerize-a-golang-http-server-and-deploy-it-on-kubernetes-592j) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [twitter.com/GolangRepos](https://twitter.com/GolangRepos) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Javascript
+  - **(N/A)** [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [v8.dev:](https://v8.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [useHooks - React Hooks Library](https://usehooks.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [canva.com](https://www.canva.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mockuper.net](https://mockuper.net/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cssnectar.com](https://cssnectar.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [bgjar.com](https://bgjar.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [npkill.js.org](https://npkill.js.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Koa.js](https://koa) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nodejs.org](https://nodejs.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/nodejs/node](https://github.com/nodejs/node) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers#what_base_images_to_start_with_) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Npm](https://www.npmjs.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
 ## Maven-gradle
-  - **(2024)** [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [maven.apache.org](https://maven.apache.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [apache/maven-mvnd](https://github.com/apache/maven-mvnd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [twitter.com/ASFMavenProject: The official twitter feed of the Apache Maven Project](https://twitter.com/ASFMavenProject) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [twitter.com/ASFMavenRelease: Maven Plugin Release](https://twitter.com/ASFMavenRelease) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: Apache Maven 2](https://dzone.com/asset/download/212) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: Getting Started with Maven Repository Management](https://dzone.com/asset/download/223) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Installing Maven With Your JDK](https://dzone.com/articles/installing-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [howtodoinjava.com/maven](https://howtodoinjava.com/maven/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository](https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [maarten.mulders.it: What's New in Maven 4](https://maarten.mulders.it/2020/11/whats-new-in-maven-4/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Maven Plugin Configuration - The (Unknown) Tiny Details](https://dev.to/khmarbaise/maven-plugin-configuration-the-unknown-tiny-details-1emm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder](https://ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 1](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [maven.apache.org](https://maven.apache.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [apache/maven-mvnd](https://github.com/apache/maven-mvnd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [twitter.com/ASFMavenProject: The official twitter feed of the Apache Maven Project](https://twitter.com/ASFMavenProject) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [twitter.com/ASFMavenRelease: Maven Plugin Release](https://twitter.com/ASFMavenRelease) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: Apache Maven 2](https://dzone.com/asset/download/212) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: Getting Started with Maven Repository Management](https://dzone.com/asset/download/223) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Installing Maven With Your JDK](https://dzone.com/articles/installing-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [howtodoinjava.com/maven](https://howtodoinjava.com/maven/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository](https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [maarten.mulders.it: What's New in Maven 4](https://maarten.mulders.it/2020/11/whats-new-in-maven-4/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Maven Plugin Configuration - The (Unknown) Tiny Details](https://dev.to/khmarbaise/maven-plugin-configuration-the-unknown-tiny-details-1emm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder](https://ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 1](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 2](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-2/)
-  - **(2024)** [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [rieckpil.de: Maven Setup For Testing Java Applications](https://rieckpil.de/maven-setup-for-testing-java-applications/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: Remove Duplicate Dependencies with Maven](https://www.baeldung.com/maven-duplicate-dependencies) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [maven.apache.org: Introduction to the Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Handwritten Maven archetype project scaffolding](http://www.programmersought.com/article/1858176023/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Integration Tests with Maven](https://dzone.com/articles/integration-tests-with-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Apache Maven Dependency Analyzer](https://maven.apache.org/shared/maven-dependency-analyzer/index.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Meet the Docker Maven Plugin!](https://dzone.com/articles/meet-the-docker-maven-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [code.visualstudio.com: Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com: Instalación de Java y Visual Studio Code en plataformas Windows](https://medium.com/habasconchocos/instalaci%C3%B3n-de-java-y-visual-studio-code-en-plataformas-windows-1fa47a69497f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jetbrains.com/help/idea/maven-support.html](https://www.jetbrains.com/help/idea/maven-support.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Apache Maven Changelog Plugin](https://maven.apache.org/plugins/maven-changelog-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Apache Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Apache Maven Javadoc Plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Maven Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub: Eclipse JKube](https://github.com/eclipse/jkube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [YouTube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gradle.org](https://gradle.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.gradle.org: Getting Started](https://docs.gradle.org/current/userguide/getting_started.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: Kotlin DSL for Gradle](https://www.baeldung.com/kotlin/gradle-dsl) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: Convert a Maven Build to Gradle](https://www.baeldung.com/maven-convert-to-gradle) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Gradle Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SdkMan](https://sdkman.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [rieckpil.de: Maven Setup For Testing Java Applications](https://rieckpil.de/maven-setup-for-testing-java-applications/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [baeldung.com: Remove Duplicate Dependencies with Maven](https://www.baeldung.com/maven-duplicate-dependencies) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [maven.apache.org: Introduction to the Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Handwritten Maven archetype project scaffolding](http://www.programmersought.com/article/1858176023/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Integration Tests with Maven](https://dzone.com/articles/integration-tests-with-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Apache Maven Dependency Analyzer](https://maven.apache.org/shared/maven-dependency-analyzer/index.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Meet the Docker Maven Plugin!](https://dzone.com/articles/meet-the-docker-maven-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [code.visualstudio.com: Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com: Instalación de Java y Visual Studio Code en plataformas Windows](https://medium.com/habasconchocos/instalaci%C3%B3n-de-java-y-visual-studio-code-en-plataformas-windows-1fa47a69497f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jetbrains.com/help/idea/maven-support.html](https://www.jetbrains.com/help/idea/maven-support.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Apache Maven Changelog Plugin](https://maven.apache.org/plugins/maven-changelog-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Apache Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Apache Maven Javadoc Plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub: Eclipse JKube](https://github.com/eclipse/jkube) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [YouTube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gradle.org](https://gradle.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.gradle.org: Getting Started](https://docs.gradle.org/current/userguide/getting_started.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [baeldung.com: Kotlin DSL for Gradle](https://www.baeldung.com/kotlin/gradle-dsl) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [baeldung.com: Convert a Maven Build to Gradle](https://www.baeldung.com/maven-convert-to-gradle) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SdkMan](https://sdkman.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
 
       - [Multiple Java versions in a single Jenkins Pipeline using Docker and SDKMAN🌟](https://www.youtube.com/watch?v=j1lH3vOhucw) In this video, I show you how you can use Jenkins Declarative Pipeline to create a build pipeline that compiles the Maven Java project using three different Java versions (8, 11, and 15.) You will learn how to use a matrix section of the Jenkins Pipeline to define parallel stages, as well as how to create a Docker image that provides both Java and Maven using the powerful SDKMAN command-line tool. After watching this video you should feel comfortable with setting up multiple parallel stages to build your Java project using different versions of the compiler. And what is most important - it does not require creating Dockerfiles for each Java version. I will show you how to build the pipeline using just a single Dockerfile that does the job. 
           - [Jenkins Pipeline Maven build demo](https://github.com/wololock/jenkine-pipeline-maven-demo/tree/sdkman)
 
-  - **(2024)** [jitpack.io 🌟](https://jitpack.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JBang](https://www.jbang.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [jitpack.io 🌟](https://jitpack.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JBang](https://www.jbang.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Java_frameworks
-  - **(2024)** [reddit.com/r/java](https://www.reddit.com/r/java) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marcobehler.com: Java Versions and Features 🌟](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [advancedweb.hu: A categorized list of all Java and JVM features since JDK 8 to 14](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-14/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JDK 15: The new features in Java 15](https://www.infoworld.com/article/3534133/jdk-15-the-new-features-in-java-15.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Welcomes the OpenJDK Project!](https://github.blog/2020-09-30-github-welcomes-the-openjdk-project/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [advancedweb.hu: A categorized list of all Java and JVM features since JDK 8 to 16](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-16/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javaconceptoftheday.com: Java 9 Interface Private Methods](https://javaconceptoftheday.com/java-9-interface-private-methods/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javatechonline.com: Making Java easy to learn - Microservices In Java 🌟](https://javatechonline.com/microservices-in-java/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [java-success.com: 01: Q07 – Q12 Java Micro & Web services Interview Q&As](https://www.java-success.com/01b-%e2%99%a6-40-java-web-services-basics-interview-qas-q07-q12/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-design-principles/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javatechonline.com: Making Java easy to learn - Spring Boot Annotations With Examples](https://javatechonline.com/spring-boot-annotations-with-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Java 17, the Next Long-Term Support Release, is Now Available](https://www.infoq.com/news/2021/09/java17-released/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tschatzl.github.io: JDK 17 G1/Parallel GC changes](https://tschatzl.github.io/2021/09/16/jdk17-g1-parallel-gc-changes.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Modernizing Enterprise Java: A cloud native guide for developers](https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/javarevisited: Top 5 Frameworks Java developers can learn for Microservices Development in 2022](https://medium.com/javarevisited/top-5-frameworks-java-developers-can-learn-for-microservices-development-in-2022-848da66d6651) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [java67.com: How to Create and Start Multiple Threads in Java? - Example Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==geeksforgeeks.org: 5 Best Java Frameworks For Microservices==](https://www.geeksforgeeks.org/5-best-java-frameworks-for-microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@aritra.chatterjee_: Hexagonal architecture in java](https://medium.com/@aritra.chatterjee_/hexagonal-architecture-in-java-7ac8f4bea753) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/javarevisited: Do you know about the different microservices frameworks for Java? 🌟](https://medium.com/javarevisited/do-you-know-about-the-different-microservices-frameworks-for-java-90b61f8cdbd7) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==piotrminkowski.com: Best Practices for Java Apps on Kubernetes== 🌟](https://piotrminkowski.com/2023/02/13/best-practices-for-java-apps-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Oracle Java](https://www.oracle.com/technetwork/java/javase/overview/index.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
-  - **(2024)** [Oracle OpenJDK](https://jdk.java.net/11/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IBM JDK](https://developer.ibm.com/javasdk/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AdoptOpenJDk](https://adoptopenjdk.net/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.microsoft.com: Microsoft OpenJDK](https://docs.microsoft.com/en-us/java/openjdk/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==piotrminkowski.com: Which JDK to Choose on Kubernetes== 🌟](https://piotrminkowski.com/2023/02/17/which-jdk-to-choose-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Amazon Corretto](https://aws.amazon.com/corretto/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [__AdoptOpenJDK 11__ Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tecmint.com: How to Install Java 17 on RHEL-based Linux Distributions](https://www.tecmint.com/install-java-on-centos-rhel-fedora/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.java.net/jeps/413) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Virtual Threads: New Foundations for High-Scale Java Applications](https://www.infoq.com/articles/java-virtual-threads/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Best Java Frameworks Solutions](https://www.itcentralstation.com/categories/java-frameworks) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring](https://spring.io/projects/spring-boot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [MicroProfile](https://microprofile.io)
-  - **(2024)** [dev.to: 5 Best Java Frameworks to Learn in 2022 for Microservices and Cloud Native Development](https://dev.to/javinpaul/5-best-java-frameworks-to-learn-in-2022-for-microservices-and-cloud-native-development-4732) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://developers.redhat.com/articles/2021/06/25/making-java-programs-cloud-ready-part-1-incremental-approach-using-jakarta-ee#) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Making Java programs cloud-ready, Part 2: Upgrade the legacy Java application to Jakarta EE](https://developers.redhat.com/articles/2021/06/28/making-java-programs-cloud-ready-part-2-upgrade-legacy-java-application-jakarta) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Eclipse MicroProfile Project](https://projects.eclipse.org/projects/technology.microprofile) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [MicroProfile.io](https://microprofile.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Virtual Panel: The MicroProfile Influence on Microservices Frameworks](https://www.infoq.com/articles/microprofile-microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TomEE from Tomitribe](http://tomee.apache.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Payara](https://www.payara.fish/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [RedHat’s WildFly Swarm](http://wildfly-swarm.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [KumuluzEE](https://ee.kumuluz.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      ## Hibernate
-  - **(2024)** [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==stackoverflow.com: What are the differences between the different saving methods in Hibernate?==](https://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate/54907032?stw=2#54907032) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring](https://spring.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Framework Architecture 🌟](https://www.javacodegeeks.com/2019/02/spring-framework-architecture.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javatutorial.net: Introduction to Spring Web Framework](https://javatutorial.net/introduction-to-spring-web-framework) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com: Top 10 Courses to Learn Microservices in Java and Spring Framework](https://medium.com/javarevisited/top-5-courses-to-learn-microservices-in-java-and-spring-framework-e9fed1ba804d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: How to Create Microservices Using Spring 🌟](https://dzone.com/articles/how-to-create-microservices-using-spring) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [spring.io: A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [java67.com: 10 Spring Framework Annotations Java Developer should learn - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: Role based Access control using Spring Security and MVC, Mapping LDAP Groups to Authorities for Authorization](https://javarevisited.blogspot.com/2013/07/role-based-access-control-using-spring-security-ldap-authorities-mapping-mvc.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==odedia.org: Production Considerations for Spring on Kubernetes== 🌟🌟🌟](https://odedia.org/production-considerations-for-spring-on-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SpringBoot](https://spring.io/projects/spring-boot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: All About Spring Boot (Tutorials and Articles)](https://dzone.com/articles/spring-boot-framework-tutorials) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://jaxenter.com/cicd-microservices-docker-162408.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://jaxenter.com/kubernetes-microservices-162690.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Deploying Spring Boot App to JBoss Wildfly](https://dzone.com/articles/deploying-spring-boot-app-to-jboss-wildfly) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Boot: ¿war o jar? Ambos](https://www.adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javatutorial.net: Spring vs. Java EE](https://javatutorial.net/spring-vs-java-ee) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [__Spring Boot Istio library__: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Spring Boot Autoscaling on kubernetes 🌟](https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [spring.io: What's new in Spring Boot 2.4 🌟](https://spring.io/blog/2021/01/17/what-s-new-in-spring-boot-2-4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Changes to Application properties/yaml](https://youtu.be/lgyO9C9zdrg?t=1489s)
-  - **(2024)** [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-and-spring-boot-multiline-log-support-for-fluentd-efk-stack/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Spring Boot on Quarkus: Magic or madness?](https://developers.redhat.com/blog/2021/02/09/spring-boot-on-quarkus-magic-or-madness/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Spring Boot Tips, Tricks and Techniques](https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==javatechonline.com: How To Work With Apache Kafka In Spring Boot?==](https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==vladmihalcea.com: The best way to log SQL statements with Spring Boot==](https://vladmihalcea.com/log-sql-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==vladmihalcea.com: Spring Boot Application Properties== 🌟](https://vladmihalcea.com/spring-boot-application-properties/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/shoutloudz: Microservice: Developing an Authentication Service using Spring Boot](https://medium.com/shoutloudz/microservice-developing-an-authentication-service-using-spring-boot-d421b8802712) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [java67.com: How to set the logging level with application.properties in Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium.com/@hubian: 16 Best Practices in Spring Boot Production== 🌟](https://medium.com/@hubian/16-best-practices-in-spring-boot-production-62c065a6145c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==javaguides.net: Event-Driven Microservices using Spring Boot and Kafka==](https://www.javaguides.net/2022/07/event-driven-microservices-using-spring-boot-and-apache-kafka.html?spref=tw) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==piotrminkowski.com: Microservices with Spring Boot 3 and Spring Cloud== 🌟](https://piotrminkowski.com/2023/03/13/microservices-with-spring-boot-3-and-spring-cloud/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==javaguides.net: Spring Boot 3 REST API Documentation using SpringDoc OpenAPI==](https://www.javaguides.net/2023/03/spring-boot-3-rest-api-documentation.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javaguides.net: Spring Boot Microservices - Spring Cloud API Gateway](https://www.javaguides.net/2022/10/spring-boot-microservices-spring-cloud-api-gateway.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Boot Complete Guide](https://helpercodes.com/spring-boot-complete-tutorial/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnk8s.io/spring-boot-kubernetes-guide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Creating Docker Images With Spring Boot](https://www.youtube.com/watch?v=1w1Jv9qssqg) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: The Simple Guide To Dockerizing Spring Boot](https://dev.to/jarjanazy/the-simple-guide-to-dockerizing-spring-boot-og4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4 Is EOL](https://www.infoq.com/news/2021/12/spring-boot-2-6/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dev.to/francescoxx: Java CRUD Rest API using Spring Boot, Hibernate, Postgres, Docker and Docker Compose==](https://dev.to/francescoxx/java-crud-rest-api-using-spring-boot-hibernate-postgres-docker-and-docker-compose-5cln) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [odo](https://odo.dev) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dekorate](https://dekorate.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JKube](https://eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Cloud](https://spring.io/projects/spring-cloud) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Spring Cloud Config Server on Kubernetes (Part 1)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Spring Microservices Security Best Practices 🌟](https://piotrminkowski.com/2021/05/26/spring-microservices-security-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==baeldung.com: Using Spring Cloud Config Without Git==](https://www.baeldung.com/spring-cloud-config-without-git) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloud.spring.io: Spring Cloud Vault 🌟](https://cloud.spring.io/spring-cloud-vault/reference/html/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2020/05/04/spring-vault) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [quarkus.io](https://quarkus.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quarkus Images](https://github.com/quarkusio/quarkus-images) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [quarkus.io: Quarkus for Spring Developers](https://quarkus.io/blog/quarkus-for-spring-developers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: Red Hat drives future of Java with cloud-native, container-first Quarkus](https://www.redhat.com/en/blog/red-hat-drives-future-java-cloud-native-container-first-quarkus) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Quarkus: A quick-start guide to the Kubernetes-native Java stack](https://developers.redhat.com/articles/quarkus-quick-start-guide-kubernetes-native-java-stack/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [quarkus.io: Quarkus support in IDE's](https://quarkus.io/blog/march-of-ides/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: quarkus refcard](https://dzone.com/refcardz/quarkus-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Autowire MicroProfile into Spring with Quarkus](https://developers.redhat.com/blog/2019/10/02/autowire-microprofile-into-spring-with-quarkus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dmcommunity.org: Who will win? Spring Boot or Quarkus](https://dmcommunity.org/2020/01/12/who-will-win-spring-boot-or-quarkus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: How Quarkus brings imperative and reactive programming together](https://developers.redhat.com/blog/2019/11/18/how-quarkus-brings-imperative-and-reactive-programming-together/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Migrating a Spring Boot microservices application to Quarkus](https://developers.redhat.com/blog/2020/04/10/migrating-a-spring-boot-microservices-application-to-quarkus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quarkus, a Kubernetes-native Java runtime, now fully supported by Red Hat](https://developers.redhat.com/blog/2020/05/28/quarkus-a-kubernetes-native-java-runtime-now-fully-supported-by-red-hat/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [The road to Quarkus GA: Completing the first supported Kubernetes-native Java stack](https://developers.redhat.com/blog/2020/06/04/the-road-to-quarkus-ga-completing-the-first-supported-kubernetes-native-java-stack/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://containerjournal.com/topics/container-ecosystems/red-hat-adds-java-runtime-for-kubernetes-to-subscription/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Quarkus and Jakarta EE: Together, or not?](https://developers.redhat.com/blog/2020/09/11/quarkus-and-jakarta-ee-together-or-not) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: CyberJUG-HH:Why is everybody talking about Quarkus?](https://www.youtube.com/watch?v=nXXPOS8gjtA) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Build an API using Quarkus from the ground up 🌟](https://developers.redhat.com/blog/2021/05/11/building-an-api-using-quarkus-from-the-ground-up/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: RESTEasy Reactive and more in Quarkus 2.0](https://developers.redhat.com/articles/2021/07/01/resteasy-reactive-and-more-quarkus-20) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: 3 reasons Quarkus 2.0 improves developer productivity on Linux 🌟](https://opensource.com/article/21/7/developer-productivity-linux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Deploy Quarkus everywhere with Red Hat Enterprise Linux (RHEL)](https://developers.redhat.com/blog/2021/04/07/deploy-quarkus-everywhere-with-red-hat-enterprise-linux-rhel) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Quarkus 2.0 Delivers Continuous Testing, CLI and Supports Minimal JDK 11](https://www.infoq.com/news/2021/08/quarkus-2-0-final-release/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quarkus - Dev UI 🌟](https://quarkus.io/guides/dev-ui) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: A Java developer's guide to Quarkus](https://dzone.com/articles/a-java-developers-guide-to-quarkus) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone refcard: Getting Started With Quarkus Serverless Functions](https://dzone.com/refcardz/getting-started-with-quarkus-serverless-functions) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==javaadvent.com: You need more than containers. A short history of the mess we're in==](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: Quarkus for Spring developers: Kubernetes-native design patterns==](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Kubernetes Native Java with Quarkus](https://www.infoq.com/articles/native-java-quarkus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [auth0.com: Java Microservices with Spring Boot and Spring Cloud](https://auth0.com/blog/java-spring-boot-microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kie.org](https://kie.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kogito.kie.org](https://kogito.kie.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Red Hat Thorntail](https://thorntail.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/cloud/blog/migrate-java-microservices-from-spring-to-microprofile-p2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Microservices: Quarkus vs. Spring Boot](https://dzone.com/articles/microservices-quarkus-vs-spring-boot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JPA streamer 🌟](https://jpastreamer.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [logbook](https://github.com/zalando/logbook) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium.com/javarevisited: Logging in Java — Log4j vs Logback vs SLF4J== 🌟](https://medium.com/javarevisited/logging-in-java-log4j-vs-logback-vs-slf4j-88c533088d2a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GoodforGod/java-logger-benchmark](https://github.com/GoodforGod/java-logger-benchmark) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrunit](https://github.com/moditect/jfrunit) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://www.adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Helidon.io](https://helidon.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Linux-dev-env
-  - **(2024)** [docs.microsoft.com: WSL - Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Take your Linux development experience in Windows to the next level with WSL and Visual Studio Code Remote](https://devblogs.microsoft.com/commandline/take-your-linux-development-experience-in-windows-to-the-next-level-with-wsl-and-visual-studio-code-remote/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Ubuntu on WSL 2 Is Generally Available 🌟](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kubernetes.io - WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-a-week-on-windows-with-wsl2/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia para el sector TI](https://pandorafms.com/blog/es/wsl2/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Install Docker on Windows (WSL) without Docker Desktop 🌟](https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techrepublic.com: Windows Subsystem for Linux 2: The GUI features developers have been asking for](https://www.techrepublic.com/article/windows-subsystem-for-linux-2-the-gui-features-developers-have-been-asking-for/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [bleepingcomputer.com: Windows 11 can now install WSL from the Microsoft Store 🌟](https://www.bleepingcomputer.com/news/microsoft/windows-11-can-now-install-wsl-from-the-microsoft-store/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [klaushofrichter.medium.com: Using Windows Subsystem for Linux for Kubernetes](https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Microsoft launches Windows Terminal 1.0, unveils GPU support and Linux GUI apps in WSL](https://venturebeat.com/2020/05/19/microsoft-windows-terminal-wsl-gpu-support-linux-gui-apps/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Microsoft debuts Windows Package Manager for your dev environment](https://venturebeat.com/2020/05/19/microsoft-windows-package-manager-powertoys/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [asdf version manager (asdf-vm)](https://asdf-vm.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cmder 🌟](https://cmder.net/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Dotnet
-  - **(2024)** [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps](https://techcommunity.microsoft.com/t5/apps-on-azure/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static/ba-p/2933428) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: .NET 6 now available for RHEL and OpenShift](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [telerik.com: Your First Microservice in .NET 6](https://www.telerik.com/blogs/your-first-microservice-dotnet-6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devblogs.microsoft.com: Announcing Rate Limiting for .NET](https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [enlear.academy: Repository Pattern and Unit of Work with ASP.NET Core Web API](https://enlear.academy/repository-pattern-and-unit-of-work-with-asp-net-core-web-api-6802e1aa4f78) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022.aspx) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/nuget/introducing-compatible-frameworks-on-nuget-org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [App-vNext/Polly](https://github.com/App-vNext/Polly) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Microservices Resilience and Fault Tolerance with applying Retry and Circuit-Breaker patterns using Polly](https://medium.com/aspnetrun/microservices-resilience-and-fault-tolerance-with-applying-retry-and-circuit-breaker-patterns-c32e518db990) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [procodeguide.com: Build Resilient Microservices (Web API) using Polly in ASP.NET Core](https://procodeguide.com/programming/polly-in-aspnet-core/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Paradigm framework](https://www.paradigm.net.co) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Oakton](https://jasperfx.github.io/oakton/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Lamar](https://jasperfx.github.io/lamar/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jeremydmiller.com: Self Diagnosing Deployments with Oakton and Lamar](https://jeremydmiller.com/2021/10/12/self-diagnosing-deployments-with-oakton-and-lamar/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Lowcode-nocode
+  - **(N/A)** [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sdtimes.com: Low code cuts down on dev time, increases testing headaches](https://sdtimes.com/lowcode/low-code-cuts-down-on-dev-time-increases-testing-headaches/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Use Low Code to Reduce Friction for Cloud Operations Teams](https://thenewstack.io/use-low-code-to-reduce-friction-for-cloud-operations-teams/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Low Code for Pro Coders](https://thenewstack.io/low-code-for-pro-coders/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [acloudguru.com: AWS adds to the no-code pile: Is it the end of the engineer?](https://acloudguru.com/blog/engineering/aws-adds-to-the-no-code-pile-is-it-the-end-of-the-engineer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Postman
-  - **(2024)** [getpostman.com](https://www.getpostman.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.getpostman.com](https://blog.getpostman.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [getpostman.com](https://www.getpostman.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.getpostman.com](https://blog.getpostman.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [medium: API Testing with Postman](https://medium.com/@michaelkm03/rest-api-test-automation-with-postman-jenkins-1-of-3-860edf3c2a45)
-  - **(2024)** [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [medium: API Testing with Postman — Build a Dynamic Test Suite](https://medium.com/@michaelkm03/api-testing-with-postman-build-a-dynamic-test-suite-e874f4d78e69)
-  - **(2024)** [medium: Kubernetes Tutorial: Your Complete Guide to Deploying an App on AWS with Postman 🌟](https://medium.com/better-practices/kubernetes-tutorial-b6f302a67426) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [medium: Kubernetes Tutorial: Your Complete Guide to Deploying an App on AWS with Postman 🌟](https://medium.com/better-practices/kubernetes-tutorial-b6f302a67426) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 2](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-2)
           - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 3](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-3)
 
-  - **(2024)** [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==blog.postman.com: Introducing the Secret Variable Type in Postman==](https://blog.postman.com/introducing-secret-variable-type-in-postman/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Newman](https://github.com/postmanlabs/newman) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Postman Pynt== 🌟](https://www.postman.com/pynt-io/workspace/pynt/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Drools](https://www.drools.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [KIE Server](https://registry.hub.docker.com/r/jboss/kie-server/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techwebspace.com: Get Started with the REST Assured Framework: An Example-based Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==blog.postman.com: Introducing the Secret Variable Type in Postman==](https://blog.postman.com/introducing-secret-variable-type-in-postman/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Newman](https://github.com/postmanlabs/newman) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==Postman Pynt== 🌟](https://www.postman.com/pynt-io/workspace/pynt/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Drools](https://www.drools.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [KIE Server](https://registry.hub.docker.com/r/jboss/kie-server/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techwebspace.com: Get Started with the REST Assured Framework: An Example-based Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
 
-## Embedded-servlet-containers
-  - **(2024)** [Apache Tomcat migration tool for Jakarta EE](https://github.com/apache/tomcat-jakartaee-migration) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Comparing Embedded Servlet Containers in Spring Boot](https://www.baeldung.com/spring-boot-servlet-containers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tomcat vs. Jetty vs. Undertow: Comparison of Spring Boot Embedded Servlet Containers](https://examples.javacodegeeks.com/enterprise-java/spring/tomcat-vs-jetty-vs-undertow-comparison-of-spring-boot-embedded-servlet-containers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Undertow](http://undertow.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Python
+  - **(N/A)** [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [reddit: python cheat sheet](https://www.reddit.com/r/learnpython/comments/3r2hsq/python_cheat_sheet/)
+  - **(N/A)** [Full Stack Python is an open book that explains each Python web application stack layer and provides the best web resources for those topics](http://www.fullstackpython.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Full Stack Python: Best Python Resources](http://www.fullstackpython.com/best-python-resources.html)
+  - **(N/A)** [realpython.com](http://realpython.com) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [LearnPython.org interactive Python tutorial](http://www.learnpython.org) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [The docker-py repository: an API client for docker written in Python](http://docker-py.readthedocs.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Awesome Python. A curated list of awesome Python frameworks, libraries and software](https://github.com/vinta/awesome-python/) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [Awesome Django. A curated list of awesome Django apps, projects and resources](https://gitlab.com/rosarior/awesome-django) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [pyvideo.org](http://pyvideo.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Talk Python To Me Podcast](http://talkpython.fm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Transcript for Episode #39: Getting your first dev job as a Python developer (part 1)](http://talkpython.fm/episodes/transcript/39/getting-your-first-dev-job-as-a-python-developer-part-1)
+  - **(N/A)** [Microsoft: Python Engineering](https://blogs.msdn.microsoft.com/pythonengineering/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.pythonlibrary.org 🌟](http://www.blog.pythonlibrary.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nixCraft: Python Execute Unix/Linux Command Examples 🌟](http://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fedoralovespython.org 🌟](https://fedoralovespython.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [futurecoder.io](https://futurecoder.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit: Why Python](https://www.reddit.com/r/Python/comments/3ylxmk/why_python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Setting up Python on OSX: UPDATED](http://staticnat.com/setting-up-python-on-osx/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python 3.4 Programming Tutorials - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
 
-## Angular
-  - **(2024)** [angular.io](https://angular.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [angular.io: Building and serving Angular apps](https://angular.io/guide/build) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javascript.plainenglish.io: Angular is Costing Companies Billions](https://javascript.plainenglish.io/enough-why-its-time-to-rip-out-angular-7d831802c8a2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+      - [A beginner's guide to web development with Python 2.7 / Django 1.7](http://www.tangowithdjango.com/)
+          - [The Bottom-Line Single Main Difference Between Python 2 and 3](http://migrateup.com/main-difference-python-3/)
 
-## Web3
-  - **(2024)** [thenewstack.io: Web3 Architecture and How It Compares to Traditional Web Apps](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.suhailkakar.com: Web 3.0 Terms and Their Definitions in Plain English](https://blog.suhailkakar.com/web-30-terms-and-their-definitions-in-plain-english) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [elconfidencial.com: El futuro de internet ya está aquí y se llama Web3, pero casi nadie sabe de qué se trata](https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Don't Make Us Say We Told You So: virtualenv for New Pythonistas](http://pyvideo.org/video/3460/dont-make-us-say-we-told-you-so-virtualenv-for) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [commandlinefu.com: pip install into current directory without virtualenv](http://www.commandlinefu.com/commands/view/17656/pip-install-into-current-directory-without-virtualenv) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Talk Python To Me Podcast. Episode #36: Python IDEs with the PyCharm team](http://talkpython.fm/episodes/show/36/python-ides-with-the-pycharm-team) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [My top 5 ‘new’ Python modules of 2015](http://blog.rtwilson.com/my-top-5-new-python-modules-of-2015/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit.com: Modules every python developer should know](https://www.reddit.com/r/Python/comments/3yg2u4/modules_every_python_developer_should_know/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit.com: My thoughts about moving from Python 2.7 to Python 3.x](https://www.reddit.com/r/Python/comments/3yjlim/my_thoughts_about_moving_from_python_27_to_python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Why Python 3 exists](http://www.snarky.ca/why-python-3-exists) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stackoverflow: Create dictionary from splitted strings from list of strings](http://stackoverflow.com/questions/34319156/create-dictionary-from-splitted-strings-from-list-of-strings) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Yagmail: Python e-mail library](https://github.com/kootenpv/yagmail) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How To Deadlock Your Python With getaddrinfo()](https://emptysqua.re/blog/getaddrinfo-deadlock/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [New String Formatting in Python 3.6](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [en.wikibooks.org: Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tqdm: Instantly make your python loops show a progress meter - just wrap any iterator with "tqdm(iterator)", and you're done!](https://github.com/noamraph/tqdm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [If you don't like exceptions, you don't like Python](http://stupidpythonideas.blogspot.com.es/2015/05/if-you-dont-like-exceptions-you-dont.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Stop writing code that will break on Python 4!](http://astrofrog.github.io/blog/2016/01/12/stop-writing-python-4-incompatible-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: Python3 in one pic](https://github.com/coodict/python3-in-one-pic) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit.com: Functions vs. Classes](https://www.reddit.com/r/learnpython/comments/40rieo/functions_vs_classes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit.com: Multiprocessing vs Threading?](https://www.reddit.com/r/learnpython/comments/418z8b/multiprocessing_vs_threading/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Python Threads and the Global Interpreter Lock [ARCHIVED]]( http://web.archive.org/web/20220504020411/http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock)
+  - **(N/A)** [devbattles.com: Python list. Functions and Methods lists](http://www.devbattles.com/en/sand/post-1754-Python_list_Functions_and_Methods_lists) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devbattles.com: Python: sorting lists by .sort () with - in simple words](http://www.devbattles.com/en/sand/post-1752-Python_sorting_lists_by_sort__with__in_simple_words) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Create a GUI Application Using Qt and Python in Minutes: Example Web Browser](http://www.digitalpeer.com/blog/create-a-gui-application-using-qt-and-python-in-minutes-example-web-browser) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python FAQ: Why should I use Python 3? 🌟](https://eev.ee/blog/2016/07/31/python-faq-why-should-i-use-python-3/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stackoverflow: Problems installing python3 on RHEL 🌟](http://stackoverflow.com/questions/8087184/problems-installing-python3-on-rhel) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [PEP 8 Cheatsheet 🌟](https://es.scribd.com/document/207247675/PEP-8-Cheatsheet-2009) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Lists vs. Tuples](http://nedbatchelder.com/blog/201608/lists_vs_tuples.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [linuxconfig.org: python tuples 🌟](https://linuxconfig.org/python-tuples) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [digitalocean.com: How To Use the Python Map Function 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-map-function) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [thenextweb.com: 6 practical tricks every Python developer should have](https://thenextweb.com/readme/2020/09/23/6-practical-tricks-every-python-developer-should-have/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [digitalocean.com: How To Code in Python 3 🌟](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-python-3) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [tryolabs.com: Top 10 Python libraries of 2020](https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.logrocket.com: Django REST framework alternatives](https://blog.logrocket.com/django-rest-framework-alternatives/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: Unexpected Size of Python Objects in Memory](https://towardsdatascience.com/the-strange-size-of-python-objects-in-memory-ce87bdfbb97f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aigents.co: Data Structures and Python 🌟](https://aigents.co/blog/coding-tutorial/data-structures-and-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [doppler.com: Using Environment Variables in Python for App Configuration 🌟](https://doppler.com/blog/environment-variables-in-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dashbird.io: How I Manage Credentials in Python Using AWS Secrets Manager](https://dashbird.io/blog/aws-secrets-manager-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: The Python Handbook 🌟](https://www.freecodecamp.org/news/the-python-handbook/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: 7 Must-Know Data Wrangling Operations with Python Pandas](https://towardsdatascience.com/7-must-know-data-wrangling-operations-with-python-pandas-849438a90d15) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: All The Important Features and Changes in Python 3.10](https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Python Map Function – How to Map a List in Python 3.0, With Example Code](https://www.freecodecamp.org/news/python-map-function-how-to-map-a-list-in-python-3-0-with-example-code/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [betterprogramming.pub: 3 Seemingly Simple Python Features That Confuse Beginners](https://betterprogramming.pub/3-seemingly-simple-python-features-that-confuse-beginners-313575312dcf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [analyticsvidhya.com: Top Online Platforms to Learn Python](https://www.analyticsvidhya.com/blog/2021/04/top-online-platforms-to-learn-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: There is more to ‘pandas.read_csv()’ than meets the eye](https://towardsdatascience.com/there-is-more-to-pandas-read-csv-than-meets-the-eye-8654cb2b3a03) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.adnansiddiqi.me: Getting started with Elasticsearch 7 in Python 🌟](http://blog.adnansiddiqi.me/getting-started-with-elasticsearch-7-in-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pub.towardsai.net: OPs Concept in Python](https://pub.towardsai.net/oops-concept-in-python-b5f5833d57db) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: micropipenv: Installing Python dependencies in containerized applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [theglitchblog.com: Logging in Python Using Best Practices](https://theglitchblog.com/2021/06/17/logging-in-python-using-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jhhemal.medium.com: Some Tips and Tricks for Writing Better Code in Python](https://jhhemal.medium.com/some-tips-and-tricks-for-writing-better-code-in-python-f65e4b6814fd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jhhemal.medium.com: Some Essential Built-in Tools for Working with Lists](https://jhhemal.medium.com/some-essential-built-in-tools-for-working-with-lists-81c4f9d5f25e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dineshkumarkb.com: Reverse a linked list without additional datastructures using python](https://dineshkumarkb.com/tech/reverse-a-linked-list-without-additional-datastructures-using-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoworld.com: How to use the Python for loop](https://www.infoworld.com/article/3623689/how-to-use-the-python-for-loop.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [stackoverflow.blog: Getting started with… Python 🌟](https://stackoverflow.blog/2021/07/14/getting-started-with-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [oxylabs.io: Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [returngis.net: Gestionar recursos de Kubernetes con Python](https://www.returngis.net/2021/08/gestionar-recursos-de-kubernetes-con-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Parse command-line arguments with argparse in Python](https://opensource.com/article/21/8/python-argparse) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tecadmin.net: How To Read, Write & Parse CSV in Python](https://tecadmin.net/read-write-csv-in-python) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples](https://www.freecodecamp.org/news/python-list-methods-append-vs-extend) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [writersbyte.com: 4 key Python Data Structures every beginner must know](https://writersbyte.com/4-key-python-data-structures-e-very-beginner-must-know) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geeksforgeeks.org: Top 10 Advance Python Concepts That You Must Know](https://www.geeksforgeeks.org/top-10-advance-python-concepts-that-you-must-know/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Dictionary Comprehension in Python – Explained with Examples 🌟](https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Learn Python: Tutorials and updates from Red Hat experts](https://developers.redhat.com/topics/python) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [python.plainenglish.io: Special Methods Will Change How You Write Classes in Python](https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: How Not to Use Python Lists](https://towardsdatascience.com/how-not-to-use-python-lists-d06cbe8e593) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sureshdsk.dev: Check diff between two files in Python](https://sureshdsk.dev/check-diff-between-two-files-in-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Python String split() and join() Methods – Explained with Examples](https://www.freecodecamp.org/news/python-string-split-and-join-methods-explained-with-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pythonsimplified.com: How to schedule Python scripts using schedule library](https://pythonsimplified.com/how-to-schedule-python-scripts-using-schedule-library/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aigents.co: Pro Python Tips for Data Analysts](https://aigents.co/blog/coding-tutorial/pro-python-tips-for-data-analysts) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com: Learn about Exceptions in Python](https://medium.com/@andreas.soularidis/learn-about-exceptions-in-python-fef309f66a78) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [makeuseof.com: 11 Useful Python One-Liners You Must Know](https://www.makeuseof.com/useful-python-one-liners-you-must-know/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: Packaging applications to install on other machines with Python](https://www.redhat.com/sysadmin/packaging-applications-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: Writing and unit testing a Python application to query the RPM database](https://www.redhat.com/sysadmin/query-rpm-database-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: More Python for Non-Programmers](https://thenewstack.io/more-python-for-non-programmers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==python.plainenglish.io: How to Perform Read and Write Operations on JSON Files in Python==](https://python.plainenglish.io/how-to-perform-read-and-write-operations-on-json-files-in-python-a5bac724320d) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [developers.redhat.com: Generating pseudorandom numbers in Python](https://developers.redhat.com/articles/2021/11/04/generating-pseudorandom-numbers-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Best Practices For Writing Clean Pythonic Code](https://dev.to/dollardhingra/python-code-best-practices-4k96) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [searchenginejournal.com: An Introduction To Python & Machine Learning For Technical SEO](https://www.searchenginejournal.com/python-machine-learning-technical-seo/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [digitalocean.com: How To Create a Twitterbot with Python 3 and the Tweepy Library](https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [blog.alluxi.com: 8 habilidades que necesitas para ser un gran programador Python](https://blog.alluxi.com/8-habilidades-que-necesitas-para-ser-un-gran-programador-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javarevisited.blogspot.com: Java vs Python - Which Programming Language beginners should learn in 2022?](https://javarevisited.blogspot.com/2018/06/java-vs-python-which-programming-language-to-learn-first.html#axzz7HHxvcHIY) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Python Dictionary – How to Perform CRUD Operations on dicts in Python](https://www.freecodecamp.org/news/everything-you-need-to-know-about-python-dictionaries/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==freecodecamp.org: Python Requests – How to Interact with Web Services using Python==](https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [thenewstack.io: Guido van Rossum’s Ambitious Plans for Improving Python Performance](https://thenewstack.io/guido-van-rossums-ambitious-plans-for-improving-python-performance/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: python dictionary methods explanation and visualization](https://dev.to/mahmoudessam/python-dictionary-methods-explanation-and-visualization-1l64) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises 🌟](https://codesolid.com/python-lists) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==realpython.com: Building Lists With Python's .append()==](https://realpython.com/courses/building-lists-with-python-append/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Python List .remove() - How to Remove an Item from a List in Python](https://www.freecodecamp.org/news/python-list-remove-how-to-remove-an-item-from-a-list-in-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [blog.devgenius.io: Introduction to python dictionaries](https://blog.devgenius.io/introduction-to-python-dictionaries-89045c9bf315) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: Fully Explained Array Data Structure in Python](https://levelup.gitconnected.com/fully-explained-array-data-structure-in-python-67dd9a12b695) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Else-If in Python – Python If Statement Example Syntax](https://www.freecodecamp.org/news/else-if-in-python-python-if-statement-example-syntax/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: Work with SQL in Python Using SQLAlchemy and Pandas](https://towardsdatascience.com/work-with-sql-in-python-using-sqlalchemy-and-pandas-cd7693def708) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Create a List in Python – Lists in Python Syntax](https://www.freecodecamp.org/news/create-a-list-in-python-lists-in-python-syntax/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to SSH into a Docker Container – Secure Shell vs Docker Attach](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: How to Use *args and **kwargs in Python](https://www.freecodecamp.org/news/args-and-kwargs-in-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [superfastpython.com: How to Identify a Deadlock in Python](https://superfastpython.com/thread-deadlock-in-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==towardsdatascience.com: You Don’t Need Sample Data, You Need Python Faker==](https://towardsdatascience.com/you-dont-need-sample-data-you-need-python-faker-fa87c2a119a9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Python for Beginners: When and How to Use Tuples](https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [pub.towardsai.net: Python: Zero to Hero with Examples](https://pub.towardsai.net/python-zero-to-hero-with-examples-c7a5dedb968b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Getting Started With Pyvcloud — A Python Library](https://betterprogramming.pub/getting-started-with-pyvcloud-a-python-library-2e77092ed3ea) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Set Up a Virtual Environment in Python – And Why It's Useful](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==freecodecamp.org: Python Attributes – Class and Instance Attribute Examples==](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: This Is Why You Should Use Tortoise-ORM in Your Python Projects](https://betterprogramming.pub/this-is-why-you-should-use-tortoise-orm-in-your-python-projects-a3897dc5309e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docker.com: How to Train and Deploy a Linear Regression Model Using PyTorch – Part 1 (Machine Learning)](https://www.docker.com/blog/how-to-train-and-deploy-a-linear-regression-model-using-pytorch-part-1/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [betterprogramming.pub: Learning Python With Program Templates: The Input One, Process One Template](https://betterprogramming.pub/learning-python-with-program-templates-the-input-one-process-one-template-d7ed5156d3fc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Automate Filling Templates With Python 🌟](https://betterprogramming.pub/automate-filling-templates-with-python-1ff6c6fd595e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pub.towardsai.net: Why Map(), Filter() And Reduce() Functions are so Famous?](https://pub.towardsai.net/why-map-filter-and-reduce-functions-are-so-famous-4c8e42fd0755) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [amitprius.medium.com: Python Dictionary: Zero to Hero with Examples](https://amitprius.medium.com/python-dictionary-zero-to-hero-with-examples-a7497a672dd4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [python.plainenglish.io: It’s Time to Say Goodbye to These Obsolete Python Libraries 🌟](https://python.plainenglish.io/its-time-to-say-goodbye-to-these-obsolete-python-libraries-7c02aa77d84a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [guru99.com: Mutable & Immutable Objects in Python {EXAMPLES} 🌟](https://www.guru99.com/mutable-and-immutable-in-python.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [notia.ai: Building an authenticated Python CLI](https://www.notia.ai/articles/building-an-authenticated-python-cli) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [superfastpython.com: How to Choose the Right Python Concurrency API](https://superfastpython.com/python-concurrency-choose-api/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [realpython.com/pdf-python](https://realpython.com/pdf-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: How to change an image with Python](https://dev.to/deotyma/how-to-change-an-image-with-python-518d) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [towardsdatascience.com: Iterables vs Iterators in Python](https://towardsdatascience.com/python-iterables-vs-iterators-688907fd755f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: How to Implement a Linked List in Python](https://towardsdatascience.com/python-linked-lists-c3622205da81) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==realpython.com/learning-paths: Python Learning Paths== 🌟🌟🌟](https://realpython.com/learning-paths/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [superfastpython.com: Threading vs Multiprocessing in Python](https://superfastpython.com/threading-vs-multiprocessing-in-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Python List Comprehensions Are More Powerful Than You Might Think](https://betterprogramming.pub/python-list-comprehensions-are-more-powerful-than-you-might-think-3363a90e5bb0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@yonatanzunger: Advanced Python: Achieving High Performance with Code Generation 🌟🌟](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mishrapartha.blogspot.com: A Beginner’s Guide to Python for Data Science - Part 5 Adding Comments in Python](https://mishrapartha.blogspot.com/2022/11/a-beginners-guide-to-python-for-data_19.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [morioh.com: How to create Google Map in Python using Gmaps](https://morioh.com/p/a9bdee14b0d2) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [pydantic/pydantic](https://github.com/pydantic/pydantic) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [PyWhatKit](https://github.com/Ankit404butfound/PyWhatKit) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@connect.hashblock: Learn how you can create a chatbot in Python](https://medium.com/@connect.hashblock/learn-how-you-can-create-a-chatbot-in-python-da136467309b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Learn Data Structures and Algorithms – Introduction and Learning Resources](https://www.freecodecamp.org/news/learn-data-structures-and-algorithms/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [adicode.ml: Take your web development to next level with these python libraries](https://adicode.ml/python-libraries-for-webdevelopment) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Use PyScript – A Python Frontend Framework 🌟](https://www.freecodecamp.org/news/pyscript-python-front-end-framework/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [realpython.com: How to Get a List of All Files in a Directory With Python](https://realpython.com/get-all-files-in-directory-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: Python For Loop - For i in Range Example](https://www.freecodecamp.org/news/python-for-loop-for-i-in-range-example/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.blog: Why Python keeps growing, explained](https://github.blog/2023-03-02-why-python-keeps-growing-explained/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Evaluate Expressions Dynamically With Python eval() (Overview)](https://realpython.com/lessons/python-eval-overview/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Splitting, Concatenating, and Joining Strings in Python Quiz](https://realpython.com/quizzes/python-split-strings/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@terminalsandcoffee: Mastering Python: How to Generate a List of Dictionaries for Files in Your Working Directory with One Script](https://medium.com/@terminalsandcoffee/mastering-python-how-to-generate-a-list-of-dictionaries-for-files-in-your-working-directory-with-7cab8b485e69) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [realpython.com: How to Write Pythonic Loops](https://realpython.com/courses/how-to-write-pythonic-loops/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: Learn Algorithms and Data Structures in Python 🌟🌟](https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Python Machine Learning Tutorials 🌟🌟](https://realpython.com/tutorials/machine-learning/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [devopscube.com: Python For DevOps: Guide for DevOps Engineers](https://devopscube.com/python-for-devops/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==realpython.com: An Intro to Threading in Python==](https://realpython.com/intro-to-python-threading/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==realpython.com: Functional Programming in Python==](https://realpython.com/courses/functional-programming-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [rogerperkin.co.uk: pyATS Tutorial for Beginners](https://www.rogerperkin.co.uk/network-automation/pyats/pyats-genie-tutorial/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [genbeta.com: Ocho canales de YouTube para aprender Python desde cero hasta nivel experto](https://www.genbeta.com/a-fondo/ocho-canales-youtube-para-aprender-python-cero-nivel-experto) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devops.dev: Generating A List of Dictionaries With Python](https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [martinheinz.dev: Boost Your Python Application Performance using Continuous Profiling](https://martinheinz.dev/blog/89) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: Memoizing DataFrame Functions](https://towardsdatascience.com/memoizing-dataframe-functions-7a27dff532f7) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [anaconda.com: Why Data Scientists Should Be Excited About Python in Excel](https://www.anaconda.com/blog/why-data-scientists-should-be-excited-about-python-in-excel) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [testdriven.io: Clean Code in Python](https://testdriven.io/blog/clean-code-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [python.plainenglish.io: REST: A Quick Guide to Building Scalable and Flexible Systems Using HTTP](https://python.plainenglish.io/rest-a-quick-guide-to-building-scalable-and-flexible-systems-using-http-62154841eefd) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [hub.tinztwins.de: 7 Hidden Python Tips for 2024](https://hub.tinztwins.de/7-hidden-python-tips-for-2024) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/bitgrit-data-science-publication: latexify: Writing LaTeX with Python](https://medium.com/bitgrit-data-science-publication/latexify-writing-latex-with-python-6c0fa4b2e9d5) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pypi.org/project/latexify-py](https://pypi.org/project/latexify-py/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Build an Online Banking System – Python Object-Oriented Programming Tutorial](https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [github.com/reactive-python/reactpy](https://github.com/reactive-python/reactpy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Project Thoth](https://thoth-station.ninja/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Think Python](https://www.google.com/share.google?q=rRH2WBGGgW1LON3N1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gettopical.com: Get Django Latest News](http://gettopical.com/djangoframework) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Fun With Django's New Postgres Features](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Deploying a Django App to AWS Elastic Beanstalk](https://realpython.com/blog/python/deploying-a-django-app-to-aws-elastic-beanstalk/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [TaskBuster Django Tutorial, made with Django 1.8 and Python 3](http://www.marinamele.com/taskbuster-django-tutorial) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Installing and Configuring Django Web Framework with Virtual Environments in CentOS/Debian](http://www.tecmint.com/install-and-configure-django-web-framework-in-centos-debian-ubuntu/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Development and Deployment of Cookiecutter-Django via Docker](https://realpython.com/blog/python/development-and-deployment-of-cookiecutter-django-via-docker/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com: Django app + RESTful API for automatic billing](https://github.com/presslabs/silver/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CodingEntrepreneurs youtube channel](https://www.youtube.com/user/CodingEntrepreneurs) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Interested in Learn Django 1.9? Check out my free series on YouTube](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQFqfCur9CJ4QnKQTVXUsRy)
+  - **(N/A)** [Getting Started with Django REST Framework (DRF) and AngularJS (Part 1)](http://engineroom.trackmaven.com/blog/getting-started-drf-angularjs-part-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Xamarin
-  - **(2024)** [Wikipedia: Xamarin](https://en.wikipedia.org/wiki/Xamarin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dotnet.microsoft.com: Xamarin](https://dotnet.microsoft.com/apps/xamarin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/learn/xamarin/what-is-xamarin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+      - [Getting Started with Django REST Framework (DRF) and AngularJS (Part 2)](http://engineroom.trackmaven.com/blog/getting-started-drf-angularjs-part-2/)
+          - [Part 2 Supplementary Code](https://github.com/TrackMaven/getting-started-with-drf-angular/tree/part-2)
 
-## Lowcode-nocode
-  - **(2024)** [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sdtimes.com: Low code cuts down on dev time, increases testing headaches](https://sdtimes.com/lowcode/low-code-cuts-down-on-dev-time-increases-testing-headaches/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Use Low Code to Reduce Friction for Cloud Operations Teams](https://thenewstack.io/use-low-code-to-reduce-friction-for-cloud-operations-teams/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Low Code for Pro Coders](https://thenewstack.io/low-code-for-pro-coders/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [acloudguru.com: AWS adds to the no-code pile: Is it the end of the engineer?](https://acloudguru.com/blog/engineering/aws-adds-to-the-no-code-pile-is-it-the-end-of-the-engineer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [webcodegeeks.com: Python Django Tutorial](http://www.webcodegeeks.com/python/python-django-tutorial/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [digitalocean.com: Building a REST API With Django REST Framework](https://www.digitalocean.com/community/tech_talks/building-a-rest-api-with-django-rest-framework) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Building a REST API with Django REST Framework 🌟](https://dev.to/faruqt/how-to-connect-django-to-reactjs-part-2-2oje) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==betterprogramming.pub: Dockerize Your Django Apps==](https://betterprogramming.pub/dockerize-your-django-apps-428189407c69) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Flask Documentation 🌟](https://flask.palletsprojects.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [The Flask Mega-Tutorial: Now with Python 3 Support](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/blog/python/introduction-to-flask-part-1-setting-up-a-static-site/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Dockerize a Flask Application](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [rajansahu713.medium.com: Hands-On Guide to Restful API using Flask Python](https://rajansahu713.medium.com/hands-on-guide-to-restful-api-using-flask-python-16270f866ffe) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [FastAPI 🌟](https://fastapi.tiangolo.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.adnansiddiqi.me: Create your first REST API in FastAPI 🌟](http://blog.adnansiddiqi.me/create-your-first-rest-api-in-fastapi/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: FastAPI Course – Code APIs Quickly](https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wheel replaces Python's eggs](https://wheel.readthedocs.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Speed up pip install](http://blog.ionelmc.ro/2015/01/02/speedup-pip-install/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python Feature Flag Resources/Solutions](http://featureflags.io/python-feature-flags/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit: Ship Better Python Using Feature Flags](https://www.reddit.com/r/Python/comments/3zl3g4/ship_better_python_using_feature_flags/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit: Real examples of unit testing](https://www.reddit.com/r/learnpython/comments/3zl0p6/real_examples_of_unit_testing/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Profiling Python using cProfile: a concrete case](https://julien.danjou.info/blog/2015/guide-to-python-profiling-cprofile-concrete-case-carbonara) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nylas.com: Profiling Python in Production](https://nylas.com/blog/performance) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gabbi - Declarative HTTP testing library pypi](http://pypi.python.org/pypi/gabbi/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [coursereport.com: A Beginner’s Guide to Python for Cybersecurity](https://www.coursereport.com/blog/python-for-cyber-security-with-flatiron-school) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==huyenchip.com: Why data scientists shouldn’t need to know Kubernetes==](https://huyenchip.com/2021/09/13/data-science-infrastructure.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==realpython.com: Machine Learning With Python== 🌟🌟🌟](https://realpython.com/learning-paths/machine-learning-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [pbpython.com: Practical Business Python](http://pbpython.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Javascript
-  - **(2024)** [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [v8.dev:](https://v8.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [useHooks - React Hooks Library](https://usehooks.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [canva.com](https://www.canva.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mockuper.net](https://mockuper.net/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cssnectar.com](https://cssnectar.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [bgjar.com](https://bgjar.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [npkill.js.org](https://npkill.js.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Koa.js](https://koa) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nodejs.org](https://nodejs.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/nodejs/node](https://github.com/nodejs/node) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers#what_base_images_to_start_with_) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Npm](https://www.npmjs.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+      - [pbpython.com: Pandas Pivot Table Explained](http://pbpython.com/pandas-pivot-table-explained.html)
+          - [pbpython.com: Collecting Data with Google Forms and Pandas](http://pbpython.com/pandas-google-forms-part1.html)
 
-## Java_app_servers
-  - **(2024)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Payara](https://www.payara.fish/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Payara](https://hub.docker.com/r/payara/server-full/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Payara Micro](https://hub.docker.com/r/payara/micro/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Red Hat JBoss Enterprise Application Platform (JBoss EAP)](https://developers.redhat.com/products/eap/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WildFly](https://wildfly.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TomEE from Tomitribe](http://tomee.apache.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [KumuluzEE](https://ee.kumuluz.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Reshaping in Pandas – Pivot, Pivot-Table, Stack and Unstack explained with Pictures](https://nikolaygrozev.wordpress.com/2015/07/01/reshaping-in-pandas-pivot-pivot-table-stack-and-unstack-explained-with-pictures/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pandas.pydata.org: Reshaping by pivoting DataFrame objects](http://pandas.pydata.org/pandas-docs/stable/reshaping.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [analyticsvidhya.com: A Complete Tutorial to Learn Data Science with Python from Scratch](http://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [analyticsvidhya.com: Tutorial – Python List Comprehension With Examples](http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [analyticsvidhya.com: Cheat Sheet for Exploratory Data Analysis in Python 🌟](https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==pandastutor.com== 🌟](https://pandastutor.com) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==betterprogramming.pub: How to Use Pandas to Consume Data and Perform Data Analysis==](https://betterprogramming.pub/how-to-use-pandas-to-consume-data-and-perform-data-analysis-76e000ad5480) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [iaviral.medium.com: Most used functions in Pandas](https://iaviral.medium.com/most-used-functions-in-pandas-7c12ae238185) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Pandas Illustrated: The Definitive Visual Guide to Pandas](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==github.com/gventuri/pandas-ai==](https://github.com/gventuri/pandas-ai) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [orchest.io](https://www.orchest.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python 3 standard library Module of the Week, Doug Hellmann](https://pymotw.com) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python 2 standard library Module of the Week, Doug Hellmann](https://pymotw.com/2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dead simple {for devs} python crawler (script) for extracting structured data from any website into CSV](http://blog.webhose.io/2015/08/16/dead-simple-for-devs-python-crawler-script-for-extracting-structured-data-from-any-almost-website-into-csv/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python Multi-Process Execution Pool](https://github.com/XI-lab/PyExPool) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Ansible and AWS: cloud IT automation management](http://cloudacademy.com/blog/ansible-aws/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Boto](https://github.com/boto/boto) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Migrating to Boto3](https://aws.amazon.com/es/blogs/developer/migrating-to-boto3/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](http://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.python.org/pypi/ec2-ssh-yplan/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dashbird.io: Explaining boto3: how to use any AWS service with python](https://dashbird.io/blog/boto3-aws-python/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dashbird.io: 8 Must-Know Tricks to Use S3 More Effectively in Python](https://dashbird.io/blog/aws-s3-python-tricks/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hands-on.cloud: Quick Intro To Python 3 for AWS Automation Engineers 🌟](https://hands-on.cloud/quick-introduction-to-python-for-aws-automation-engineers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@d.deloatch: How to Stop all Instances Using AWS SDK for Python (Boto3)](https://medium.com/@d.deloatch/how-to-stop-all-instances-using-aws-sdk-for-python-boto3-2e02af03177) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [PyInstaller is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, FreeBSD, Solaris and AIX](http://www.pyinstaller.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [PyInstaller official GIT repository](https://github.com/pyinstaller/pyinstaller/)
+  - **(N/A)** [DictMySQL: A MySQL class for more convenient database manipulation with Python dictionary](https://github.com/ligyxy/DictMySQL) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows](http://sourceforge.net/projects/winpython/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kite 🌟](https://www.kite.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Build Interactive CLI Tools in Python](https://medium.com/codestory/build-interactive-cli-tools-in-python-47303c50d75) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pydeps 🌟](https://github.com/thebjorn/pydeps) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [joke2k/faker 🌟](https://github.com/joke2k/faker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==google/python-fire== 🌟](https://github.com/google/python-fire) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/microsoft/pyright](https://github.com/microsoft/pyright) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/kodemore/chili](https://github.com/kodemore/chili) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==Ruff==](https://github.com/astral-sh/ruff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Scrapy](http://scrapy.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [First web scraper](https://first-web-scraper.readthedocs.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [TWINT - Twitter Intelligence Tool](https://github.com/twintproject/twint) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Click 🌟](https://click.palletsprojects.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [PyGithub 🌟](https://github.com/PyGithub/PyGithub) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [python.plainenglish.io: 12 Python Snippets That Will Boost Your Productivity](https://python.plainenglish.io/python-snippets-7e8dcbeae26e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Devel-sites
-  - **(2024)** [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/7-most-in-demand-and-high-paying-programming-jobs/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [trio.dev: Angular vs React: Is Angular Dead?](https://www.trio.dev/react/resources/angular-vs-react) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [refactoring.guru: Design Patterns Java](https://refactoring.guru/design-patterns/java)
-          - [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
-          - [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
-          - etc
-
-  - **(2024)** [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs. Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [FreeLens](https://github.com/freelensapp/freelens) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==firebase.google.com==](https://firebase.google.com) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==supabase.com==](https://supabase.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==softwarecollections.org==](https://www.softwarecollections.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: ==Red Hat Software Collections==](https://developers.redhat.com/products/softwarecollections/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: ==Red Hat Developer Toolset==](https://developers.redhat.com/products/developertoolset/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==ddev.com==](https://ddev.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==opensource.com: 16 reasons DDEV will be your new favorite web development environment==](https://opensource.com/article/22/12/ddev) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [oclif.io 🌟](https://oclif.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@jdxcode: 12 Factor CLI Apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Copilot](https://copilot.github.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/2024/03/devin-inteligencia-artificial-programa-software) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## React
-  - **(2024)** [useHooks - React Hooks Library](https://usehooks.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [web.dev/explore/react](https://web.dev/explore/react) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Get Started With React – A Beginner's Guide](https://www.freecodecamp.org/news/get-started-with-react-for-beginners/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Java_frameworks
+  - **(N/A)** [reddit.com/r/java](https://www.reddit.com/r/java) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marcobehler.com: Java Versions and Features 🌟](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [advancedweb.hu: A categorized list of all Java and JVM features since JDK 8 to 14](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-14/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JDK 15: The new features in Java 15](https://www.infoworld.com/article/3534133/jdk-15-the-new-features-in-java-15.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Welcomes the OpenJDK Project!](https://github.blog/2020-09-30-github-welcomes-the-openjdk-project/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [advancedweb.hu: A categorized list of all Java and JVM features since JDK 8 to 16](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-16/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javaconceptoftheday.com: Java 9 Interface Private Methods](https://javaconceptoftheday.com/java-9-interface-private-methods/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javatechonline.com: Making Java easy to learn - Microservices In Java 🌟](https://javatechonline.com/microservices-in-java/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [java-success.com: 01: Q07 – Q12 Java Micro & Web services Interview Q&As](https://www.java-success.com/01b-%e2%99%a6-40-java-web-services-basics-interview-qas-q07-q12/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-design-principles/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javatechonline.com: Making Java easy to learn - Spring Boot Annotations With Examples](https://javatechonline.com/spring-boot-annotations-with-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: Java 17, the Next Long-Term Support Release, is Now Available](https://www.infoq.com/news/2021/09/java17-released/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tschatzl.github.io: JDK 17 G1/Parallel GC changes](https://tschatzl.github.io/2021/09/16/jdk17-g1-parallel-gc-changes.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Modernizing Enterprise Java: A cloud native guide for developers](https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [medium.com/javarevisited: Top 5 Frameworks Java developers can learn for Microservices Development in 2022](https://medium.com/javarevisited/top-5-frameworks-java-developers-can-learn-for-microservices-development-in-2022-848da66d6651) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [java67.com: How to Create and Start Multiple Threads in Java? - Example Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==geeksforgeeks.org: 5 Best Java Frameworks For Microservices==](https://www.geeksforgeeks.org/5-best-java-frameworks-for-microservices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@aritra.chatterjee_: Hexagonal architecture in java](https://medium.com/@aritra.chatterjee_/hexagonal-architecture-in-java-7ac8f4bea753) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/javarevisited: Do you know about the different microservices frameworks for Java? 🌟](https://medium.com/javarevisited/do-you-know-about-the-different-microservices-frameworks-for-java-90b61f8cdbd7) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==piotrminkowski.com: Best Practices for Java Apps on Kubernetes== 🌟](https://piotrminkowski.com/2023/02/13/best-practices-for-java-apps-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Oracle Java](https://www.oracle.com/technetwork/java/javase/overview/index.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
+  - **(N/A)** [Oracle OpenJDK](https://jdk.java.net/11/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [IBM JDK](https://developer.ibm.com/javasdk/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AdoptOpenJDk](https://adoptopenjdk.net/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.microsoft.com: Microsoft OpenJDK](https://docs.microsoft.com/en-us/java/openjdk/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==piotrminkowski.com: Which JDK to Choose on Kubernetes== 🌟](https://piotrminkowski.com/2023/02/17/which-jdk-to-choose-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Amazon Corretto](https://aws.amazon.com/corretto/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [__AdoptOpenJDK 11__ Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tecmint.com: How to Install Java 17 on RHEL-based Linux Distributions](https://www.tecmint.com/install-java-on-centos-rhel-fedora/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.java.net/jeps/413) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: Virtual Threads: New Foundations for High-Scale Java Applications](https://www.infoq.com/articles/java-virtual-threads/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Best Java Frameworks Solutions](https://www.itcentralstation.com/categories/java-frameworks) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring](https://spring.io/projects/spring-boot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [MicroProfile](https://microprofile.io)
+  - **(N/A)** [dev.to: 5 Best Java Frameworks to Learn in 2022 for Microservices and Cloud Native Development](https://dev.to/javinpaul/5-best-java-frameworks-to-learn-in-2022-for-microservices-and-cloud-native-development-4732) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://developers.redhat.com/articles/2021/06/25/making-java-programs-cloud-ready-part-1-incremental-approach-using-jakarta-ee#) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Making Java programs cloud-ready, Part 2: Upgrade the legacy Java application to Jakarta EE](https://developers.redhat.com/articles/2021/06/28/making-java-programs-cloud-ready-part-2-upgrade-legacy-java-application-jakarta) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Eclipse MicroProfile Project](https://projects.eclipse.org/projects/technology.microprofile) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [MicroProfile.io](https://microprofile.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: Virtual Panel: The MicroProfile Influence on Microservices Frameworks](https://www.infoq.com/articles/microprofile-microservices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [TomEE from Tomitribe](http://tomee.apache.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Payara](https://www.payara.fish/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [RedHat’s WildFly Swarm](http://wildfly-swarm.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [KumuluzEE](https://ee.kumuluz.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      ## Hibernate
+  - **(N/A)** [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==stackoverflow.com: What are the differences between the different saving methods in Hibernate?==](https://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate/54907032?stw=2#54907032) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring](https://spring.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Framework Architecture 🌟](https://www.javacodegeeks.com/2019/02/spring-framework-architecture.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [javatutorial.net: Introduction to Spring Web Framework](https://javatutorial.net/introduction-to-spring-web-framework) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com: Top 10 Courses to Learn Microservices in Java and Spring Framework](https://medium.com/javarevisited/top-5-courses-to-learn-microservices-in-java-and-spring-framework-e9fed1ba804d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: How to Create Microservices Using Spring 🌟](https://dzone.com/articles/how-to-create-microservices-using-spring) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [spring.io: A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [java67.com: 10 Spring Framework Annotations Java Developer should learn - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [javarevisited.blogspot.com: Role based Access control using Spring Security and MVC, Mapping LDAP Groups to Authorities for Authorization](https://javarevisited.blogspot.com/2013/07/role-based-access-control-using-spring-security-ldap-authorities-mapping-mvc.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==odedia.org: Production Considerations for Spring on Kubernetes== 🌟🌟🌟](https://odedia.org/production-considerations-for-spring-on-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SpringBoot](https://spring.io/projects/spring-boot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: All About Spring Boot (Tutorials and Articles)](https://dzone.com/articles/spring-boot-framework-tutorials) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://jaxenter.com/cicd-microservices-docker-162408.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://jaxenter.com/kubernetes-microservices-162690.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Deploying Spring Boot App to JBoss Wildfly](https://dzone.com/articles/deploying-spring-boot-app-to-jboss-wildfly) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Boot: ¿war o jar? Ambos](https://www.adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javatutorial.net: Spring vs. Java EE](https://javatutorial.net/spring-vs-java-ee) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [__Spring Boot Istio library__: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Spring Boot Autoscaling on kubernetes 🌟](https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [spring.io: What's new in Spring Boot 2.4 🌟](https://spring.io/blog/2021/01/17/what-s-new-in-spring-boot-2-4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Changes to Application properties/yaml](https://youtu.be/lgyO9C9zdrg?t=1489s)
+  - **(N/A)** [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-and-spring-boot-multiline-log-support-for-fluentd-efk-stack/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Spring Boot on Quarkus: Magic or madness?](https://developers.redhat.com/blog/2021/02/09/spring-boot-on-quarkus-magic-or-madness/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Spring Boot Tips, Tricks and Techniques](https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==javatechonline.com: How To Work With Apache Kafka In Spring Boot?==](https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==vladmihalcea.com: The best way to log SQL statements with Spring Boot==](https://vladmihalcea.com/log-sql-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==vladmihalcea.com: Spring Boot Application Properties== 🌟](https://vladmihalcea.com/spring-boot-application-properties/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/shoutloudz: Microservice: Developing an Authentication Service using Spring Boot](https://medium.com/shoutloudz/microservice-developing-an-authentication-service-using-spring-boot-d421b8802712) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [java67.com: How to set the logging level with application.properties in Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==medium.com/@hubian: 16 Best Practices in Spring Boot Production== 🌟](https://medium.com/@hubian/16-best-practices-in-spring-boot-production-62c065a6145c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==javaguides.net: Event-Driven Microservices using Spring Boot and Kafka==](https://www.javaguides.net/2022/07/event-driven-microservices-using-spring-boot-and-apache-kafka.html?spref=tw) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==piotrminkowski.com: Microservices with Spring Boot 3 and Spring Cloud== 🌟](https://piotrminkowski.com/2023/03/13/microservices-with-spring-boot-3-and-spring-cloud/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==javaguides.net: Spring Boot 3 REST API Documentation using SpringDoc OpenAPI==](https://www.javaguides.net/2023/03/spring-boot-3-rest-api-documentation.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [javaguides.net: Spring Boot Microservices - Spring Cloud API Gateway](https://www.javaguides.net/2022/10/spring-boot-microservices-spring-cloud-api-gateway.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Spring Boot Complete Guide](https://helpercodes.com/spring-boot-complete-tutorial/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnk8s.io/spring-boot-kubernetes-guide) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Creating Docker Images With Spring Boot](https://www.youtube.com/watch?v=1w1Jv9qssqg) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: The Simple Guide To Dockerizing Spring Boot](https://dev.to/jarjanazy/the-simple-guide-to-dockerizing-spring-boot-og4) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [infoq.com: Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4 Is EOL](https://www.infoq.com/news/2021/12/spring-boot-2-6/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dev.to/francescoxx: Java CRUD Rest API using Spring Boot, Hibernate, Postgres, Docker and Docker Compose==](https://dev.to/francescoxx/java-crud-rest-api-using-spring-boot-hibernate-postgres-docker-and-docker-compose-5cln) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [odo](https://odo.dev) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dekorate](https://dekorate.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JKube](https://eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Cloud](https://spring.io/projects/spring-cloud) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Spring Cloud Config Server on Kubernetes (Part 1)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Spring Microservices Security Best Practices 🌟](https://piotrminkowski.com/2021/05/26/spring-microservices-security-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==baeldung.com: Using Spring Cloud Config Without Git==](https://www.baeldung.com/spring-cloud-config-without-git) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloud.spring.io: Spring Cloud Vault 🌟](https://cloud.spring.io/spring-cloud-vault/reference/html/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2020/05/04/spring-vault) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [quarkus.io](https://quarkus.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quarkus Images](https://github.com/quarkusio/quarkus-images) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [quarkus.io: Quarkus for Spring Developers](https://quarkus.io/blog/quarkus-for-spring-developers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: Red Hat drives future of Java with cloud-native, container-first Quarkus](https://www.redhat.com/en/blog/red-hat-drives-future-java-cloud-native-container-first-quarkus) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Quarkus: A quick-start guide to the Kubernetes-native Java stack](https://developers.redhat.com/articles/quarkus-quick-start-guide-kubernetes-native-java-stack/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [quarkus.io: Quarkus support in IDE's](https://quarkus.io/blog/march-of-ides/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: quarkus refcard](https://dzone.com/refcardz/quarkus-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Autowire MicroProfile into Spring with Quarkus](https://developers.redhat.com/blog/2019/10/02/autowire-microprofile-into-spring-with-quarkus/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dmcommunity.org: Who will win? Spring Boot or Quarkus](https://dmcommunity.org/2020/01/12/who-will-win-spring-boot-or-quarkus/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: How Quarkus brings imperative and reactive programming together](https://developers.redhat.com/blog/2019/11/18/how-quarkus-brings-imperative-and-reactive-programming-together/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Migrating a Spring Boot microservices application to Quarkus](https://developers.redhat.com/blog/2020/04/10/migrating-a-spring-boot-microservices-application-to-quarkus/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quarkus, a Kubernetes-native Java runtime, now fully supported by Red Hat](https://developers.redhat.com/blog/2020/05/28/quarkus-a-kubernetes-native-java-runtime-now-fully-supported-by-red-hat/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [The road to Quarkus GA: Completing the first supported Kubernetes-native Java stack](https://developers.redhat.com/blog/2020/06/04/the-road-to-quarkus-ga-completing-the-first-supported-kubernetes-native-java-stack/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://containerjournal.com/topics/container-ecosystems/red-hat-adds-java-runtime-for-kubernetes-to-subscription/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Quarkus and Jakarta EE: Together, or not?](https://developers.redhat.com/blog/2020/09/11/quarkus-and-jakarta-ee-together-or-not) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: CyberJUG-HH:Why is everybody talking about Quarkus?](https://www.youtube.com/watch?v=nXXPOS8gjtA) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Build an API using Quarkus from the ground up 🌟](https://developers.redhat.com/blog/2021/05/11/building-an-api-using-quarkus-from-the-ground-up/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: RESTEasy Reactive and more in Quarkus 2.0](https://developers.redhat.com/articles/2021/07/01/resteasy-reactive-and-more-quarkus-20) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: 3 reasons Quarkus 2.0 improves developer productivity on Linux 🌟](https://opensource.com/article/21/7/developer-productivity-linux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Deploy Quarkus everywhere with Red Hat Enterprise Linux (RHEL)](https://developers.redhat.com/blog/2021/04/07/deploy-quarkus-everywhere-with-red-hat-enterprise-linux-rhel) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: Quarkus 2.0 Delivers Continuous Testing, CLI and Supports Minimal JDK 11](https://www.infoq.com/news/2021/08/quarkus-2-0-final-release/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quarkus - Dev UI 🌟](https://quarkus.io/guides/dev-ui) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: A Java developer's guide to Quarkus](https://dzone.com/articles/a-java-developers-guide-to-quarkus) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone refcard: Getting Started With Quarkus Serverless Functions](https://dzone.com/refcardz/getting-started-with-quarkus-serverless-functions) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==javaadvent.com: You need more than containers. A short history of the mess we're in==](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developers.redhat.com: Quarkus for Spring developers: Kubernetes-native design patterns==](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: Kubernetes Native Java with Quarkus](https://www.infoq.com/articles/native-java-quarkus/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [auth0.com: Java Microservices with Spring Boot and Spring Cloud](https://auth0.com/blog/java-spring-boot-microservices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kie.org](https://kie.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kogito.kie.org](https://kogito.kie.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Red Hat Thorntail](https://thorntail.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/cloud/blog/migrate-java-microservices-from-spring-to-microprofile-p2) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dzone: Microservices: Quarkus vs. Spring Boot](https://dzone.com/articles/microservices-quarkus-vs-spring-boot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JPA streamer 🌟](https://jpastreamer.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [logbook](https://github.com/zalando/logbook) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==medium.com/javarevisited: Logging in Java — Log4j vs Logback vs SLF4J== 🌟](https://medium.com/javarevisited/logging-in-java-log4j-vs-logback-vs-slf4j-88c533088d2a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GoodforGod/java-logger-benchmark](https://github.com/GoodforGod/java-logger-benchmark) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrunit](https://github.com/moditect/jfrunit) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://www.adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Helidon.io](https://helidon.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Dom
-  - **(2024)** [Getting Started with the DOM](https://edidiongasikpo.com/getting-started-with-the-dom-ck9u4u82503or6es16p2rx7c1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: Understanding the DOM — Document Object Model eBook](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Getting Started with the DOM](https://edidiongasikpo.com/getting-started-with-the-dom-ck9u4u82503or6es16p2rx7c1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [digitalocean.com: Understanding the DOM — Document Object Model eBook](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
 
-## Swagger-code-generator-for-rest-apis
-  - **(2024)** [https://swagger.io/](https://swagger.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [https://github.com/swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jonnylangefeld.com: Kubernetes: How to View Swagger UI](https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin](https://www.baeldung.com/kotlin/swagger-spring-rest-api) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Embedded-servlet-containers
+  - **(N/A)** [Apache Tomcat migration tool for Jakarta EE](https://github.com/apache/tomcat-jakartaee-migration) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Comparing Embedded Servlet Containers in Spring Boot](https://www.baeldung.com/spring-boot-servlet-containers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tomcat vs. Jetty vs. Undertow: Comparison of Spring Boot Embedded Servlet Containers](https://examples.javacodegeeks.com/enterprise-java/spring/tomcat-vs-jetty-vs-undertow-comparison-of-spring-boot-embedded-servlet-containers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Undertow](http://undertow.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Visual-studio
-  - **(2024)** [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kite: Code Faster with AI Autocomplete](https://kite.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-visual-studio-code.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-snippets-5041) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: Remote container development with VS Code and Podman== 🌟](https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==visualstudio.microsoft.com/services/live-share: Visual Studio Live Share== 🌟](https://visualstudio.microsoft.com/services/live-share/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gijsreijn.medium.com: Optimizing Your DSC V3 Authoring Experience in VSCode](https://gijsreijn.medium.com/optimizing-your-dsc-v3-authoring-experience-in-vscode-bd8e90c52312) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [VSCode Updates](https://code.visualstudio.com/updates) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_46#_flexible-layout) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [code.visualstudio.com: keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [code.visualstudio.com: keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [support.apple.com: Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
-          - [9to5mac.com: How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
-          - [addictivetips.com: How to remap a Windows keyboard for a Mac](https://www.addictivetips.com/mac-os/remap-a-windows-keyboard-for-a-mac/)
-
-  - **(2024)** [code.visualstudio.com: keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com](https://marketplace.visualstudio.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Microsoft 🌟](https://marketplace.visualstudio.com/publishers/Microsoft) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AmazonWebServices](https://marketplace.visualstudio.com/publishers/AmazonWebServices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Google Cloud](https://marketplace.visualstudio.com/publishers/GoogleCloudTools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Oracle](https://marketplace.visualstudio.com/publishers/Oracle) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLens 🌟](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLens interactive rebase](https://github.com/eamodio/vscode-gitlens#interactive-rebase-editor-) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [A collapsible section containing markdown](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
-  - **(2024)** [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Prettier:](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Live Share:](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [EditorConfig:](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ESLint:](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Indent-Rainbow:](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python Visual Studio Code](https://github.com/microsoft/vscode-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
-          - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
-          - [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release/)
-
-  - **(2024)** [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [c-sharpcorner.com: The Best VS Code Extensions For Remote Working](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: VS Code Extensions to Increase Developer Productivity](https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: My Top 5 Visual Studio Code extensions for Azure Developers](https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==hashicorp.com: Terraform extension for VS Code speeds up loading of large workspaces==](https://www.hashicorp.com/blog/terraform-extension-for-vs-code-speeds-up-loading-of-large-workspaces) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Todo+](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Pull Requests and Issues 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
-  - **(2024)** [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/2020/11/30/vscode-extension-development-with-gitlab/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dsteenman.cloudformation-yaml-snippets) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [prisma.io: Improving the Prisma Visual Studio Code Extension with WebAssembly 🌟](https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==IAM Legend==](https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to/gitlive: GitLive now works with any Git repository in VS Code!](https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: Azure App Service for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: GitOps Tools for Flux 🌟](https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: Kubernetes Reference Highlighter 🌟](https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Increase Your VS Code Productivity](https://www.freecodecamp.org/news/increase-your-vs-code-productivity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: Ruff extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==marketplace.visualstudio.com: Kubernetes YAML Formatter== 🌟](https://marketplace.visualstudio.com/items?itemName=kennylong.kubernetes-yaml-formatter) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/unleashing-github-copilot-for-infrastructure-as-code/ba-p/4124031) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.logrocket.com: Top 10 VS Code extensions for 2021](https://blog.logrocket.com/top-10-vs-code-extensions-2021/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: VS Code extensions to increase your Productivity](https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Top 5 Best Git Extensions For VS Code (You must have)](https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Monokai Pro Theme](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Codey Midnight Theme](https://marketplace.visualstudio.com/items?itemName=salesforce.codey-midnight) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [1984 Theme](https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dracula Pro Theme 🌟](https://draculatheme.com/pro) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Discord Presence Theme](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Theme 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubernetes (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubernetes Kind (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Docker (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Announcing the Terraform Visual Studio Code Extension v2.0.0](https://www.hashicorp.com/blog/announcing-the-terraform-visual-studio-code-extension-v2-0-0/)
-  - **(2024)** [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Introducing MongoDB for VS Code](https://www.mongodb.com/blog/post/introducing-mongodb-for-vs-code)
-  - **(2024)** [Azure DevOps 🌟](https://marketplace.visualstudio.com/azuredevops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gitflow by vector-of-bool](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitFlow 4 Code](https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JirAux (Jira integration)](https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins JCasC-Plugin](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Pipeline Linter Connector](https://marketplace.visualstudio.com/items?itemName=janjoerke.jenkins-pipeline-linter-connector) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [secanis.ch: Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=secanis.jenkinsfile-support) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ivory-lab: JenkinsFile Support](https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Alessandro Fragnani: Jenkins Status](https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.golang.org: Gopls on by default in the VS Code Go extension](https://blog.golang.org/gopls-vscode-go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [visualstudiomagazine.com: Bridge to Kubernetes Simplifies Microservice Development in Visual Studio/VS Code](https://visualstudiomagazine.com/articles/2020/10/07/bridge-kubernetes.aspx) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cloud Code 🌟](https://cloud.google.com/code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Repl.it](https://repl.it/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Gitpod Open Sources a ‘Holistic IDE’==](https://thenewstack.io/gitpod-open-sources-a-holistic-ide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [thenewstack.io: Gitpod Brings Automated Environments to JetBrains IDEs](https://thenewstack.io/gitpod-brings-automated-environments-to-jetbrains-ides/)
-  - **(2024)** [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.openshift.com/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Fleet==](https://www.jetbrains.com/fleet/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: My Top 7 Most Underrated IntelliJ IDEA Features](https://betterprogramming.pub/my-top-7-most-underrated-intellij-idea-features-572b0b706bd6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.dev](https://github.dev) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==gitpod.io== 🌟🌟](https://www.gitpod.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gitpod.io: VS Code in the browser for everyone](https://www.gitpod.io/blog/openvscode-server-launch) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser/)
-  - **(2024)** [github1s.com 🌟](https://github1s.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vscode.dev 🌟](https://vscode.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [code.visualstudio.com: vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev?WT.mc_id=devcloud-46480-cxa)
-          - [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro)
-          - [css-tricks.com: The Many Faces of VS Code in the Browser](https://css-tricks.com/the-many-faces-of-vs-code-in-the-browser/)
-
-  - **(2024)** [==Visual Studio Code - Shorts==](https://www.youtube.com/@code/shorts) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [VSCode Profiles](https://www.youtube.com/shorts/WzlpGnbNPH4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pin VS Code Tabs](https://www.youtube.com/shorts/6NFR5MsHM_4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Markdown Header Magic](https://www.youtube.com/shorts/G5580-DxQuw) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Changing Font in VS Code the RIGHT WAY!](https://www.youtube.com/shorts/Q2RrAdWmn_M) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ErrorLens! Catch Errors on the Fly!](https://www.youtube.com/shorts/uzC1PP73d9I) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Try Maven (and Java) in VS Code!](https://www.youtube.com/shorts/t322UnzV9vM) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Extension of the Week: Prettier](https://www.youtube.com/shorts/dDtueNAFELo) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Copilot Unit Tessts Like a Boss](https://www.youtube.com/shorts/AGFvs2pT1VQ) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [STOP Creating New Files This! But Do THIS in VS Code!!!](https://www.youtube.com/shorts/VqOVb76IyI4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Take your extensions with you](https://www.youtube.com/shorts/HyhSDvaaRwM) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Java, Gradle, and VS Code](https://www.youtube.com/shorts/0xq_ZYfl6Vk) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [VS Code February 2023 Release Highlights (v1.76)](https://www.youtube.com/shorts/hdmaP4ibJ4I) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Extension of the week: Thunder Client](https://www.youtube.com/shorts/X3wgBid4gO8) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Extensión de Visual Studio Code que genera tests y mejora tu código](https://youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Create diagrams in vscode](https://www.youtube.com/shorts/0N-NFIfy5lI) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Copilot writing Markdown](https://www.youtube.com/shorts/70voiUcMk_I) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Change your Java versions in VS Code!](https://www.youtube.com/shorts/p-H7Q9PtSc8) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [April 2023 Release Highlights - Profile Templates](https://www.youtube.com/shorts/ToGRhGvo62k) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How VS Code Makes Branches](https://www.youtube.com/shorts/-hvEdSI8ziE) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Write slides in VS Code](https://www.youtube.com/shorts/cLokEWqTuds) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Create guided walkthroughs of your code](https://www.youtube.com/shorts/KQB8FRoJaH4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Minimap Makeover](https://www.youtube.com/shorts/t5vXCNIBVYw) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Navigate your code's history](https://www.youtube.com/shorts/6IwjxcDbVW0) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Vertical rulers](https://www.youtube.com/shorts/cTE0ec3IurE) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Time Travel!](https://www.youtube.com/shorts/0h1xNFsEZBU) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [New VS Code Release Highlights v1.86](https://youtube.com/shorts/bVlIo4H0IDU) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [File Icon Theme](https://youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Learn with Copilot](https://youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Visualize your git repo in vscode with Git Graph extensions](https://youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Screencast mode](https://www.youtube.com/shorts/KZHI5RMmFk0) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Linux-dev-env
+  - **(N/A)** [docs.microsoft.com: WSL - Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Take your Linux development experience in Windows to the next level with WSL and Visual Studio Code Remote](https://devblogs.microsoft.com/commandline/take-your-linux-development-experience-in-windows-to-the-next-level-with-wsl-and-visual-studio-code-remote/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Ubuntu on WSL 2 Is Generally Available 🌟](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kubernetes.io - WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-a-week-on-windows-with-wsl2/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia para el sector TI](https://pandorafms.com/blog/es/wsl2/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Install Docker on Windows (WSL) without Docker Desktop 🌟](https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techrepublic.com: Windows Subsystem for Linux 2: The GUI features developers have been asking for](https://www.techrepublic.com/article/windows-subsystem-for-linux-2-the-gui-features-developers-have-been-asking-for/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [bleepingcomputer.com: Windows 11 can now install WSL from the Microsoft Store 🌟](https://www.bleepingcomputer.com/news/microsoft/windows-11-can-now-install-wsl-from-the-microsoft-store/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [klaushofrichter.medium.com: Using Windows Subsystem for Linux for Kubernetes](https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Microsoft launches Windows Terminal 1.0, unveils GPU support and Linux GUI apps in WSL](https://venturebeat.com/2020/05/19/microsoft-windows-terminal-wsl-gpu-support-linux-gui-apps/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Microsoft debuts Windows Package Manager for your dev environment](https://venturebeat.com/2020/05/19/microsoft-windows-package-manager-powertoys/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [asdf version manager (asdf-vm)](https://asdf-vm.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cmder 🌟](https://cmder.net/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Api
-  - **(2024)** [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [postman.com: What is an API?](https://www.postman.com/what-is-an-api) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free== 🌟](https://github.com/public-apis/public-apis) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Devdocs.io API Documentation== 🌟](https://devdocs.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟](https://www.redhat.com/architect/apis-soap-rest-graphql-grpc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [amazicworld.com: Why APIs can’t be missed when it comes to DevOps](https://amazicworld.com/why-apis-cant-be-missed-when-it-comes-to-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: API Gateway Part 1](https://medium.com/easyread/api-gateway-part-1-7901ba703f9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: API Gateway Part 2](https://medium.com/easyread/api-gateway-part-2-7264ee5be187) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [snipcart.com: API vs. Microservices: A Beginners Guide to Understand Them 🌟](https://snipcart.com/blog/api-vs-microservices-architecture) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Local CRUD API Express App with Docker in 5 min](https://www.youtube.com/watch?v=UxZiDZsQoZI&ab_channel=TinyStacks) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: API Throttling Strategies When Clients Exceed Their Limit](https://dzone.com/articles/api-throttling-strategies) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [abdulrwahab.medium.com: API Architecture — Design Best Practices for REST APIs](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.bitsrc.io: API vs Microservices — Are you using 2 terms for the same concept?](https://blog.bitsrc.io/api-vs-microservices-are-you-using-2-terms-for-the-same-concept-b51f13f5974e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [troyhunt.com: Your API versioning is wrong, which is why I decided to do it 3 different wrong ways](https://www.troyhunt.com/your-api-versioning-is-wrong-which-is/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: A Standardized, Specification-Driven API Lifecycle](https://www.infoq.com/articles/Standardized-Specification-Driven-API-Lifecycle/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: What’s Wrong With Your CRUD APIs— Besides Everything?](https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dzone: Exploring the API-First Design Pattern==](https://dzone.com/articles/exploring-the-api-first-design-pattern) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [genbeta.com: Hace 20 años, este correo de Jeff Bezos en Amazon cambió para siempre la forma en que programamos apps](https://www.genbeta.com/desarrollo/hace-20-anos-este-correo-jeff-bezos-amazon-cambio-para-siempre-forma-que-programamos-apps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@ezinneanne: Best API documentation tools you need](https://medium.com/@ezinneanne/best-api-documentation-tools-you-need-cf3ef2c47e89) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==freecodecamp.org: Public APIs Developers Can Use in Their Projects==](https://www.freecodecamp.org/news/public-apis-for-developers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs. SOAP==](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [postman.com: API versioning](https://www.postman.com/api-platform/api-versioning/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [foojay.io: The Evolution of APIs: From RESTful to Event-Driven](https://foojay.io/today/the-evolution-of-apis-from-restful-to-event-driven/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?](https://blog.hubspot.com/website/api-gateway-vs-load-balancer#:~:text=An%20API%20gateway%20vs.,network%20traffic%20across%20multiple%20servers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [writersbyte.com: Introduction to APIs with Python FastAPI](https://writersbyte.com/introduction-to-apis-with-python-fastapi/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==blog.devgenius.io: REST APIs with Python== 🌟](https://blog.devgenius.io/rest-apis-with-python-f330c7ffc6ab) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [postman.com: 2019 Postman State of the API Report 🌟](https://www.postman.com/resources/infographics/api-survey-2019/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.postman.com: You Can Now Capture Responses Using the Postman Proxy](https://blog.postman.com/capture-responses-using-the-postman-proxy/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/ebooks/the-state-of-api-2019-report/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vishnuch.tech: Interprocess Communication in Microservices 🌟](https://vishnuch.tech/interprocess-communication-in-microservices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wikipedia: SOAP](https://en.wikipedia.org/wiki/SOAP) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/basics-of-soap-simple-object-access-protocol/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wikipedia: REST](https://en.wikipedia.org/wiki/Representational_state_transfer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: REST API (Introduction)](https://www.geeksforgeeks.org/rest-api-introduction/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mulesoft.com: What is a RESTful API?](https://www.mulesoft.com/resources/api/restful-api) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: Foundations of **RESTful Architecture** 🌟](https://dzone.com/refcardz/rest-foundations-restful) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Make your own API under 30 lines of code 🌟](https://dev.to/shreyazz/make-your-own-api-under-30-lines-of-code-4doh) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: REST API Versioning Strategies](https://dzone.com/articles/rest-api-versioning-strategies-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: What is REST? Rest API Definition for Beginners](https://www.freecodecamp.org/news/what-is-rest-rest-api-definition-for-beginners/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==javarevisited.blogspot.com: How to send POST Request with JSON Payload using Curl Command in Linux to Test RESTful Web Services?==](https://javarevisited.blogspot.com/2022/08/how-to-post-json-data-with-curl-command.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@shubhadeepchat: Best Practices for good REST API Design](https://medium.com/@shubhadeepchat/best-practices-for-good-rest-api-design-b5fae9a62c86) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.bytebytego.com: EP94: REST API Cheatsheet](https://blog.bytebytego.com/p/ep94-rest-api-cheatsheet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==freecodecamp.org: The REST API Handbook – How to Build, Test, Consume, and Document REST APIs==](https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenAPI](https://www.openapis.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenAPI](https://www.openapis.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Wikipedia: OpenAPI Specification 🌟](https://en.wikipedia.org/wiki/OpenAPI_Specification) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenAPI FAQ. What is OpenAPI Specification (OAS)? OpenAPI Specification](https://www.openapis.org/faq) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wikipedia: RPC Remote Procedure Call](https://en.wikipedia.org/wiki/Remote_procedure_call) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [open-rpc.org lightweight RPC framework 🌟](https://open-rpc.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gRPC](https://grpc.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wikipedia: gRPC](https://en.wikipedia.org/wiki/GRPC) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/2015/02/introducing-grpc-new-open-source-http2.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nordicapis.com: Using gRPC to Connect a Microservices Ecosystem](https://nordicapis.com/using-grpc-to-connect-a-microservices-ecosystem/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cncf.io: Think gRPC, when you are architecting modern microservices!](https://www.cncf.io/blog/2021/07/19/think-grpc-when-you-are-architecting-modern-microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: A minimalist guide to gRPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium.com/javarevisited: Microservices communication using gRPC Protocol==](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WebSocket](https://en.wikipedia.org/wiki/WebSocket) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [The State of Real-Time Web in 2016](https://banksco.de/p/state-of-realtime-web-2016.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SPDY and WebSocket Support at Akamai](https://blogs.akamai.com/2012/07/spdy-and-websocket-support-at-akamai.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and Performance==](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==grafana.com: How to use WebSockets to visualize real-time IoT data in Grafana==](https://grafana.com/blog/2022/04/05/how-to-use-websockets-to-visualize-real-time-iot-data-in-grafana/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Socket.io](https://socket.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Differences between WebSockets and Socket.IO](https://itnext.io/differences-between-websockets-and-socket-io-a9e5fa29d3dc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AsyncAPI](https://www.asyncapi.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [microcks.io: Simulating CloudEvents with AsyncAPI and Microcks](https://microcks.io/blog/simulating-cloudevents-with-asyncapi/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [postman.com: What is an API?](https://www.postman.com/what-is-an-api) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==github.com/public-apis/public-apis: Try Public APIs for free== 🌟](https://github.com/public-apis/public-apis) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==Devdocs.io API Documentation== 🌟](https://devdocs.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟](https://www.redhat.com/architect/apis-soap-rest-graphql-grpc) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [amazicworld.com: Why APIs can’t be missed when it comes to DevOps](https://amazicworld.com/why-apis-cant-be-missed-when-it-comes-to-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: API Gateway Part 1](https://medium.com/easyread/api-gateway-part-1-7901ba703f9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: API Gateway Part 2](https://medium.com/easyread/api-gateway-part-2-7264ee5be187) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [snipcart.com: API vs. Microservices: A Beginners Guide to Understand Them 🌟](https://snipcart.com/blog/api-vs-microservices-architecture) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [youtube: Local CRUD API Express App with Docker in 5 min](https://www.youtube.com/watch?v=UxZiDZsQoZI&ab_channel=TinyStacks) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: API Throttling Strategies When Clients Exceed Their Limit](https://dzone.com/articles/api-throttling-strategies) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [abdulrwahab.medium.com: API Architecture — Design Best Practices for REST APIs](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [blog.bitsrc.io: API vs Microservices — Are you using 2 terms for the same concept?](https://blog.bitsrc.io/api-vs-microservices-are-you-using-2-terms-for-the-same-concept-b51f13f5974e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [troyhunt.com: Your API versioning is wrong, which is why I decided to do it 3 different wrong ways](https://www.troyhunt.com/your-api-versioning-is-wrong-which-is/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: A Standardized, Specification-Driven API Lifecycle](https://www.infoq.com/articles/Standardized-Specification-Driven-API-Lifecycle/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: What’s Wrong With Your CRUD APIs— Besides Everything?](https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dzone: Exploring the API-First Design Pattern==](https://dzone.com/articles/exploring-the-api-first-design-pattern) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [genbeta.com: Hace 20 años, este correo de Jeff Bezos en Amazon cambió para siempre la forma en que programamos apps](https://www.genbeta.com/desarrollo/hace-20-anos-este-correo-jeff-bezos-amazon-cambio-para-siempre-forma-que-programamos-apps) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@ezinneanne: Best API documentation tools you need](https://medium.com/@ezinneanne/best-api-documentation-tools-you-need-cf3ef2c47e89) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==freecodecamp.org: Public APIs Developers Can Use in Their Projects==](https://www.freecodecamp.org/news/public-apis-for-developers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs. SOAP==](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [postman.com: API versioning](https://www.postman.com/api-platform/api-versioning/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [foojay.io: The Evolution of APIs: From RESTful to Event-Driven](https://foojay.io/today/the-evolution-of-apis-from-restful-to-event-driven/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?](https://blog.hubspot.com/website/api-gateway-vs-load-balancer#:~:text=An%20API%20gateway%20vs.,network%20traffic%20across%20multiple%20servers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [writersbyte.com: Introduction to APIs with Python FastAPI](https://writersbyte.com/introduction-to-apis-with-python-fastapi/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==blog.devgenius.io: REST APIs with Python== 🌟](https://blog.devgenius.io/rest-apis-with-python-f330c7ffc6ab) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [postman.com: 2019 Postman State of the API Report 🌟](https://www.postman.com/resources/infographics/api-survey-2019/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.postman.com: You Can Now Capture Responses Using the Postman Proxy](https://blog.postman.com/capture-responses-using-the-postman-proxy/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/ebooks/the-state-of-api-2019-report/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vishnuch.tech: Interprocess Communication in Microservices 🌟](https://vishnuch.tech/interprocess-communication-in-microservices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wikipedia: SOAP](https://en.wikipedia.org/wiki/SOAP) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/basics-of-soap-simple-object-access-protocol/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wikipedia: REST](https://en.wikipedia.org/wiki/Representational_state_transfer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geeksforgeeks.org: REST API (Introduction)](https://www.geeksforgeeks.org/rest-api-introduction/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geeksforgeeks.org: REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mulesoft.com: What is a RESTful API?](https://www.mulesoft.com/resources/api/restful-api) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: Foundations of **RESTful Architecture** 🌟](https://dzone.com/refcardz/rest-foundations-restful) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dev.to: Make your own API under 30 lines of code 🌟](https://dev.to/shreyazz/make-your-own-api-under-30-lines-of-code-4doh) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: REST API Versioning Strategies](https://dzone.com/articles/rest-api-versioning-strategies-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: What is REST? Rest API Definition for Beginners](https://www.freecodecamp.org/news/what-is-rest-rest-api-definition-for-beginners/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==javarevisited.blogspot.com: How to send POST Request with JSON Payload using Curl Command in Linux to Test RESTful Web Services?==](https://javarevisited.blogspot.com/2022/08/how-to-post-json-data-with-curl-command.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium.com/@shubhadeepchat: Best Practices for good REST API Design](https://medium.com/@shubhadeepchat/best-practices-for-good-rest-api-design-b5fae9a62c86) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.bytebytego.com: EP94: REST API Cheatsheet](https://blog.bytebytego.com/p/ep94-rest-api-cheatsheet) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==freecodecamp.org: The REST API Handbook – How to Build, Test, Consume, and Document REST APIs==](https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [OpenAPI](https://www.openapis.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenAPI](https://www.openapis.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Wikipedia: OpenAPI Specification 🌟](https://en.wikipedia.org/wiki/OpenAPI_Specification) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenAPI FAQ. What is OpenAPI Specification (OAS)? OpenAPI Specification](https://www.openapis.org/faq) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wikipedia: RPC Remote Procedure Call](https://en.wikipedia.org/wiki/Remote_procedure_call) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [open-rpc.org lightweight RPC framework 🌟](https://open-rpc.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gRPC](https://grpc.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wikipedia: gRPC](https://en.wikipedia.org/wiki/GRPC) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/2015/02/introducing-grpc-new-open-source-http2.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nordicapis.com: Using gRPC to Connect a Microservices Ecosystem](https://nordicapis.com/using-grpc-to-connect-a-microservices-ecosystem/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cncf.io: Think gRPC, when you are architecting modern microservices!](https://www.cncf.io/blog/2021/07/19/think-grpc-when-you-are-architecting-modern-microservices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: A minimalist guide to gRPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==medium.com/javarevisited: Microservices communication using gRPC Protocol==](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WebSocket](https://en.wikipedia.org/wiki/WebSocket) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [The State of Real-Time Web in 2016](https://banksco.de/p/state-of-realtime-web-2016.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SPDY and WebSocket Support at Akamai](https://blogs.akamai.com/2012/07/spdy-and-websocket-support-at-akamai.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and Performance==](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==grafana.com: How to use WebSockets to visualize real-time IoT data in Grafana==](https://grafana.com/blog/2022/04/05/how-to-use-websockets-to-visualize-real-time-iot-data-in-grafana/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Socket.io](https://socket.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Differences between WebSockets and Socket.IO](https://itnext.io/differences-between-websockets-and-socket-io-a9e5fa29d3dc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AsyncAPI](https://www.asyncapi.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [microcks.io: Simulating CloudEvents with AsyncAPI and Microcks](https://microcks.io/blog/simulating-cloudevents-with-asyncapi/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - The rise of Event Driven Architecture (EDA) is a necessary evolution step towards cloud-native applications. Events are the ultimate weapon to decouple your microservices within your architecture. They are bringing great benefits like space and time decoupling, better resiliency and elasticity.
           - But events come also with challenges! One of the first you are facing when starting up as a development team - aside the technology choice - is how to describe these events structure? Another challenge that comes very quickly after being: How can we efficiently work as a team without having to wait for someone else’s events?
@@ -854,569 +961,460 @@
           - AsyncAPI is an industry standard for defining asynchronous APIs. Our long-term goal is to make working with EDAs as easy as it is to work with REST APIs.
           - Microcks is an Open source Kubernetes-native tool for mocking/simulating and testing APIs. One purpose of Microcks is to turn your API contract (OpenAPI, AsyncAPI, Postman Collection) into live mocks in seconds. It means that once it has imported your AsyncAPI contract, Microcks start producing mock events on a message broker at a defined frequency. Using Microcks you can then simulate CloudEvents in seconds, without writing a single line of code. Microcks will allow the team relying on input events to start working without waiting for the team coding the event publication.
 
-  - **(2024)** [asyncapi.com: AsyncAPI and CloudEvents](https://www.asyncapi.com/blog/asyncapi-cloud-events) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.bitsrc.io: Not All Microservices Need to Be REST — 3 Alternatives to the Classic](https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: Truth About { SOAP vs REST vs GRPC vs GraphQL } Checklist](https://levelup.gitconnected.com/truth-about-soap-vs-rest-vs-grpc-vs-graphql-checklist-f50bcb475adf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: REST, RPC, GraphQL… What to choose?](https://medium.com/geekculture/rest-rpc-graphql-what-to-choose-c57c78c0593d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.logrocket.com: GraphQL vs. gRPC vs. REST: Choosing the right API](https://blog.logrocket.com/graphql-vs-grpc-vs-rest-choosing-right-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/dlt-labs-publication: gRPC vs. REST — Performance Test using JMeter](https://medium.com/dlt-labs-publication/grpc-vs-rest-performance-test-using-jmeter-f17e5ba1c23b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Comparing RESTful APIs and SOAP APIs Using MuleSoft as an Example](https://dzone.com/articles/comparing-restful-apis-and-soap-apis) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en/content/webservices-soap-and-rest-a-simple-introduction) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [asyncapi.com: AsyncAPI and CloudEvents](https://www.asyncapi.com/blog/asyncapi-cloud-events) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.bitsrc.io: Not All Microservices Need to Be REST — 3 Alternatives to the Classic](https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: Truth About { SOAP vs REST vs GRPC vs GraphQL } Checklist](https://levelup.gitconnected.com/truth-about-soap-vs-rest-vs-grpc-vs-graphql-checklist-f50bcb475adf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: REST, RPC, GraphQL… What to choose?](https://medium.com/geekculture/rest-rpc-graphql-what-to-choose-c57c78c0593d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.logrocket.com: GraphQL vs. gRPC vs. REST: Choosing the right API](https://blog.logrocket.com/graphql-vs-grpc-vs-rest-choosing-right-api/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/dlt-labs-publication: gRPC vs. REST — Performance Test using JMeter](https://medium.com/dlt-labs-publication/grpc-vs-rest-performance-test-using-jmeter-f17e5ba1c23b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [dzone: Comparing RESTful APIs and SOAP APIs Using MuleSoft as an Example](https://dzone.com/articles/comparing-restful-apis-and-soap-apis) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en/content/webservices-soap-and-rest-a-simple-introduction) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - SOAP is a communications protocol while REST is a set of architectural principles for data transmission.
           - REST was designed to be a more straightforward and easy to implement alternative to heavyweight SOAP for web service access. SOAP functions well in distributed environments where REST assumes a direct point to point communication. Also, SOAP allows for services to describe themselves to clients and in some languages allows for automation. On the other hand, REST is fast as less processing is required, uses less bandwidth and is closer to technologies used in web design.
           - The choice on which to use is totally dependent on what the requirement. For example, SOAP is a better choice for applications that have complex API so as to describe the services and methods, where formal contracts are agreed for the exchange format, where a guaranteed level of security is required etc. REST will be preferred when limiting bandwidth and resources, when operations are can be stateless and the information can be cached.
 
-  - **(2024)** [baeldung.com: REST vs SOAP](https://www.baeldung.com/cs/rest-vs-soap) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [REST vs. gRPC: Battle of the APIs](https://code.tutsplus.com/tutorials/rest-vs-grpc-battle-of-the-apis--cms-30711) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Comparing OpenAPI With gRPC 🌟](https://dzone.com/articles/comparing-openapi-with-grpc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [imaginarycloud.com: gRPC vs REST: Comparing APIs Architectural Styles](https://www.imaginarycloud.com/blog/grpc-vs-rest/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [danhacks.com: REST vs. GraphQL vs. gRPC](https://www.danhacks.com/software/grpc-rest-graphql.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [APIDog](https://apidog.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenAPI Generator 🌟](https://openapi-generator.tech/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: 10 API Testing Tips for Beginners (SOAP and REST)](https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.testproject.io: Top 10 API Testing Tools to Watch in 2020 🌟](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mockoon 🌟](https://mockoon.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mockapy](https://pythonium.net/mockapy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [microcks.io 🌟](https://microcks.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tricentis.com: Getting started with automated continuous performance testing](https://www.tricentis.com/blog/automated-continuous-performance-testing) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: 3 ways to test your API with Python](https://opensource.com/article/21/9/unit-test-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GraphQL](https://graphql.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Hasura Launches Beta of GraphQL-Based Remote Joins Tool](https://devops.com/hansura-launches-beta-of-graphql-based-remote-joins-tool/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Why Backend Developers Should Fall in Love with GraphQL too](https://thenewstack.io/why-backend-developers-should-fall-in-love-with-graphql-too/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.dream11engineering.com: Lessons learned from running GraphQL at scale](https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [world.hey.com: Another REST vs GraphQL comparison](https://world.hey.com/sammy.henningsson/another-rest-vs-graphql-comparison-8e8357bb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.datadriveninvestor.com: Everything You Wanted to Know About GraphQL (But Were Afraid to Ask)](https://medium.datadriveninvestor.com/everything-you-wanted-to-know-about-graphql-but-were-afraid-to-ask-ad66980116cb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Building GraphQL Server Using Schema-first Approach in Python](https://betterprogramming.pub/building-graphql-server-using-schema-first-approach-in-python-68aeee38bcc3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Hasura 🌟](https://hasura.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: 4 Awesome Browser APIs You Might Not Be Using Yet](https://betterprogramming.pub/4-awesome-browser-apis-you-might-not-be-using-yet-726d3e3237d2) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [portswigger.net: Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/daily-swig/introducing-vapi-an-open-source-lab-environment-to-learn-about-api-security) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium.com/@sajjadfazlani: How to protect your APIs and Microservices?== 🌟](https://medium.com/@sajjadfazlani/how-to-protect-your-apis-and-microservices-f22b99ce2322) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Public APIs Directory](https://publicapis.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [free-web-services.com](http://free-web-services.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SwaggerHub: Free Web Service](https://swagger.io/tools/swaggerhub/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [programmableweb.com](https://www.programmableweb.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [any-api.com](https://any-api.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Rapid API](https://rapidapi.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Open Banking](https://en.wikipedia.org/wiki/Open_banking) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cerebras AI](https://www.cerebras.ai/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Step-By-Step Spring Boot RESTful Web Service Complete Example](https://dzone.com/articles/spring-boot-restful-web-service-complete-example) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Rapid API Creation with AWS Amplify](https://dev.to/fllstck/rapid-api-creation-with-aws-amplify-3c8i) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [portal.dev](https://portal.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IBM creates an open source tool to simplify API documentation](https://www.techrepublic.com/article/ibm-creates-an-open-source-tool-to-simplify-api-documentation/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Mux: The API to Video](https://mux.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [baeldung.com: REST vs SOAP](https://www.baeldung.com/cs/rest-vs-soap) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [REST vs. gRPC: Battle of the APIs](https://code.tutsplus.com/tutorials/rest-vs-grpc-battle-of-the-apis--cms-30711) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Comparing OpenAPI With gRPC 🌟](https://dzone.com/articles/comparing-openapi-with-grpc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [imaginarycloud.com: gRPC vs REST: Comparing APIs Architectural Styles](https://www.imaginarycloud.com/blog/grpc-vs-rest/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [danhacks.com: REST vs. GraphQL vs. gRPC](https://www.danhacks.com/software/grpc-rest-graphql.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [APIDog](https://apidog.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenAPI Generator 🌟](https://openapi-generator.tech/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: 10 API Testing Tips for Beginners (SOAP and REST)](https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.testproject.io: Top 10 API Testing Tools to Watch in 2020 🌟](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mockoon 🌟](https://mockoon.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mockapy](https://pythonium.net/mockapy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [microcks.io 🌟](https://microcks.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tricentis.com: Getting started with automated continuous performance testing](https://www.tricentis.com/blog/automated-continuous-performance-testing) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: 3 ways to test your API with Python](https://opensource.com/article/21/9/unit-test-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GraphQL](https://graphql.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Hasura Launches Beta of GraphQL-Based Remote Joins Tool](https://devops.com/hansura-launches-beta-of-graphql-based-remote-joins-tool/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Why Backend Developers Should Fall in Love with GraphQL too](https://thenewstack.io/why-backend-developers-should-fall-in-love-with-graphql-too/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.dream11engineering.com: Lessons learned from running GraphQL at scale](https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [world.hey.com: Another REST vs GraphQL comparison](https://world.hey.com/sammy.henningsson/another-rest-vs-graphql-comparison-8e8357bb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.datadriveninvestor.com: Everything You Wanted to Know About GraphQL (But Were Afraid to Ask)](https://medium.datadriveninvestor.com/everything-you-wanted-to-know-about-graphql-but-were-afraid-to-ask-ad66980116cb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Building GraphQL Server Using Schema-first Approach in Python](https://betterprogramming.pub/building-graphql-server-using-schema-first-approach-in-python-68aeee38bcc3) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Hasura 🌟](https://hasura.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: 4 Awesome Browser APIs You Might Not Be Using Yet](https://betterprogramming.pub/4-awesome-browser-apis-you-might-not-be-using-yet-726d3e3237d2) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [portswigger.net: Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/daily-swig/introducing-vapi-an-open-source-lab-environment-to-learn-about-api-security) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==medium.com/@sajjadfazlani: How to protect your APIs and Microservices?== 🌟](https://medium.com/@sajjadfazlani/how-to-protect-your-apis-and-microservices-f22b99ce2322) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Public APIs Directory](https://publicapis.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [free-web-services.com](http://free-web-services.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SwaggerHub: Free Web Service](https://swagger.io/tools/swaggerhub/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [programmableweb.com](https://www.programmableweb.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [any-api.com](https://any-api.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Rapid API](https://rapidapi.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Open Banking](https://en.wikipedia.org/wiki/Open_banking) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cerebras AI](https://www.cerebras.ai/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Dzone: Step-By-Step Spring Boot RESTful Web Service Complete Example](https://dzone.com/articles/spring-boot-restful-web-service-complete-example) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Rapid API Creation with AWS Amplify](https://dev.to/fllstck/rapid-api-creation-with-aws-amplify-3c8i) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [portal.dev](https://portal.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [IBM creates an open source tool to simplify API documentation](https://www.techrepublic.com/article/ibm-creates-an-open-source-tool-to-simplify-api-documentation/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Mux: The API to Video](https://mux.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat/)
-  - **(2024)** [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Angular
+  - **(N/A)** [angular.io](https://angular.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [angular.io: Building and serving Angular apps](https://angular.io/guide/build) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javascript.plainenglish.io: Angular is Costing Companies Billions](https://javascript.plainenglish.io/enough-why-its-time-to-rip-out-angular-7d831802c8a2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Chromedevtools
-  - **(2024)** [devtools.chrome.com](https://devtools.chrome.com) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Port of Firefox's JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/efknglbfhoddmmfabeihlemgekhhnabb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [twitter.com/ChromeDevTools](https://twitter.com/ChromeDevTools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.bitsrc.io: Google Chrome Hidden Features Every Developer Should Know](https://blog.bitsrc.io/google-chrome-experimental-features-for-developers-a9a7cc9d1b30) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Firefox DevTools](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jsontoolbox.com](https://jsontoolbox.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [devtools.chrome.com](https://devtools.chrome.com) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Port of Firefox's JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/efknglbfhoddmmfabeihlemgekhhnabb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [twitter.com/ChromeDevTools](https://twitter.com/ChromeDevTools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [digitalocean.com: How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dev.to: My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.bitsrc.io: Google Chrome Hidden Features Every Developer Should Know](https://blog.bitsrc.io/google-chrome-experimental-features-for-developers-a9a7cc9d1b30) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Firefox DevTools](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jsontoolbox.com](https://jsontoolbox.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Golang
-  - **(2024)** [golang.org](https://golang.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/golang/go](https://github.com/golang/go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [golang-design/history](https://github.com/golang-design/history) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Awesome Go 🌟](https://github.com/avelino/awesome-go) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [search.gocenter.io: JFrog Go Center](https://search.gocenter.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Deploying Your First Golang Webapp](https://dev.to/heroku/deploying-your-first-golang-webapp-11b3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [go-ini/ini](https://github.com/go-ini/ini) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [rakyll/go-test-trace 🌟](https://github.com/rakyll/go-test-trace) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [luk4z7/go-concurrency-guide: Go Concurrency Guide 🌟](https://github.com/luk4z7/go-concurrency-guide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Getting Started With Go (golang) | Michael Levan](https://dev.to/thenjdevopsguy/getting-started-with-go-golang-5eh8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/paliimx: Data Structures and Algorithms implementation in Go==](https://github.com/paliimx/Data-Structures-and-Algorithms) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devhints.io/go: Go cheatsheet](https://devhints.io/go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Koa.js](https://koa) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [go-micro](https://github.com/asim/go-micro) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dapr.io](https://dapr.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [go-kratos/kratos](https://github.com/go-kratos/kratos) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gnet](https://github.com/panjf2000/gnet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dsa0x/sicher](https://github.com/dsa0x/sicher) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ggicci/httpin: HTTP Input for Go](https://github.com/ggicci/httpin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [forbearing/k8s](https://github.com/forbearing/k8s) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cap](https://github.com/hashicorp/cap) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jcchavezs/porto](https://github.com/jcchavezs/porto) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mholt/json-to-go](https://github.com/mholt/json-to-go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [curl-to-go](https://mholt.github.io/curl-to-go/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kkdai/youtube](https://github.com/kkdai/youtube) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/iawia002/lux== 🌟](https://github.com/iawia002/lux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/Email-Dashboard:](https://github.com/Email-Dashboard/Email-Dashboard) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==gobrew== 🌟](https://github.com/kevincobain2000/gobrew) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [create-go-app/cli](https://github.com/create-go-app/cli) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Delve: a debugger for the Go Programming Language](https://github.com/derekparker/delve) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve
-  - **(2024)** [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [rehacktive/caffeine](https://github.com/rehacktive/caffeine) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ebosas/microservices](https://github.com/ebosas/microservices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Dockerize a GoLang HTTP server and deploy it on Kubernetes](https://dev.to/aksrao1998/dockerize-a-golang-http-server-and-deploy-it-on-kubernetes-592j) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [twitter.com/GolangRepos](https://twitter.com/GolangRepos) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Xamarin
+  - **(N/A)** [Wikipedia: Xamarin](https://en.wikipedia.org/wiki/Xamarin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dotnet.microsoft.com: Xamarin](https://dotnet.microsoft.com/apps/xamarin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/learn/xamarin/what-is-xamarin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Java-and-java-performance-optimization
-  - **(2024)** [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Learn the Basics of Java Programming](https://www.freecodecamp.org/news/learn-the-basics-of-java-programming/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book](https://www.freecodecamp.org/news/object-oriented-programming-in-java/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟](https://blog.heaphero.io/2020/10/16/what-is-gc-log-thread-dump-and-heapdump/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: How to choose the best Java garbage collector==](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Write Unit Tests in Java](https://www.freecodecamp.org/news/java-unit-testing/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container](https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@sharprazor.app: Memory settings for Java process running in Kubernetes pod](https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium.com/codex: Running JVM Applications on Kubernetes: Beyond java -jar==](https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes](https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Devel-sites
+  - **(N/A)** [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/7-most-in-demand-and-high-paying-programming-jobs/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [trio.dev: Angular vs React: Is Angular Dead?](https://www.trio.dev/react/resources/angular-vs-react) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      - Learn how to debug CPU utilization issues in a Java app using asynchronous programming techniques like CompletableFuture
-          - Discover how to identify and resolve CPU bottlenecks using JVM arguments and container resource allocation
-          - Another workaround for this issue was to set the “-XX: ActiveProcessorCount” JVM argument to the number of cores that are allocated to the java container. We found this recommendation in a comment on the openjdk issue tracker. The application team validated this and the central Load Tests were run with this workaround. Post the load tests, the application team upgraded the java version to 17 where these issues were already resolved.
+      - [refactoring.guru: Design Patterns Java](https://refactoring.guru/design-patterns/java)
+          - [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
+          - [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
+          - etc
 
-  - **(2024)** [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [InspectIT](https://en.wikipedia.org/wiki/InspectIT) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [VisualVM](https://en.wikipedia.org/wiki/VisualVM) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OverOps](https://en.wikipedia.org/wiki/OverOps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/generate-analyze-thread-dumps/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tier1app.com](https://tier1app.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fastthread.io](https://fastthread.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gceasy.io](https://gceasy.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [heaphero.io](https://heaphero.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Byteman](https://byteman.jboss.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vladmihalcea.com: How to tunnel localhost to the public Internet](https://vladmihalcea.com/tunnel-localhost-public-internet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Java Flight Recorder on Kubernetes](https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs. Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [FreeLens](https://github.com/freelensapp/freelens) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==firebase.google.com==](https://firebase.google.com) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==supabase.com==](https://supabase.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==softwarecollections.org==](https://www.softwarecollections.org) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: ==Red Hat Software Collections==](https://developers.redhat.com/products/softwarecollections/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: ==Red Hat Developer Toolset==](https://developers.redhat.com/products/developertoolset/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==ddev.com==](https://ddev.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==opensource.com: 16 reasons DDEV will be your new favorite web development environment==](https://opensource.com/article/22/12/ddev) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [oclif.io 🌟](https://oclif.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@jdxcode: 12 Factor CLI Apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Copilot](https://copilot.github.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/2024/03/devin-inteligencia-artificial-programa-software) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Python
-  - **(2024)** [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [reddit: python cheat sheet](https://www.reddit.com/r/learnpython/comments/3r2hsq/python_cheat_sheet/)
-  - **(2024)** [Full Stack Python is an open book that explains each Python web application stack layer and provides the best web resources for those topics](http://www.fullstackpython.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Full Stack Python: Best Python Resources](http://www.fullstackpython.com/best-python-resources.html)
-  - **(2024)** [realpython.com](http://realpython.com) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [LearnPython.org interactive Python tutorial](http://www.learnpython.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [The docker-py repository: an API client for docker written in Python](http://docker-py.readthedocs.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Awesome Python. A curated list of awesome Python frameworks, libraries and software](https://github.com/vinta/awesome-python/) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [Awesome Django. A curated list of awesome Django apps, projects and resources](https://gitlab.com/rosarior/awesome-django) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [pyvideo.org](http://pyvideo.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Talk Python To Me Podcast](http://talkpython.fm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Transcript for Episode #39: Getting your first dev job as a Python developer (part 1)](http://talkpython.fm/episodes/transcript/39/getting-your-first-dev-job-as-a-python-developer-part-1)
-  - **(2024)** [Microsoft: Python Engineering](https://blogs.msdn.microsoft.com/pythonengineering/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.pythonlibrary.org 🌟](http://www.blog.pythonlibrary.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nixCraft: Python Execute Unix/Linux Command Examples 🌟](http://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fedoralovespython.org 🌟](https://fedoralovespython.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [futurecoder.io](https://futurecoder.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit: Why Python](https://www.reddit.com/r/Python/comments/3ylxmk/why_python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Setting up Python on OSX: UPDATED](http://staticnat.com/setting-up-python-on-osx/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python 3.4 Programming Tutorials - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Dotnet
+  - **(N/A)** [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps](https://techcommunity.microsoft.com/t5/apps-on-azure/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static/ba-p/2933428) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: .NET 6 now available for RHEL and OpenShift](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [telerik.com: Your First Microservice in .NET 6](https://www.telerik.com/blogs/your-first-microservice-dotnet-6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devblogs.microsoft.com: Announcing Rate Limiting for .NET](https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [enlear.academy: Repository Pattern and Unit of Work with ASP.NET Core Web API](https://enlear.academy/repository-pattern-and-unit-of-work-with-asp-net-core-web-api-6802e1aa4f78) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022.aspx) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/nuget/introducing-compatible-frameworks-on-nuget-org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [App-vNext/Polly](https://github.com/App-vNext/Polly) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Microservices Resilience and Fault Tolerance with applying Retry and Circuit-Breaker patterns using Polly](https://medium.com/aspnetrun/microservices-resilience-and-fault-tolerance-with-applying-retry-and-circuit-breaker-patterns-c32e518db990) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [procodeguide.com: Build Resilient Microservices (Web API) using Polly in ASP.NET Core](https://procodeguide.com/programming/polly-in-aspnet-core/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Paradigm framework](https://www.paradigm.net.co) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Oakton](https://jasperfx.github.io/oakton/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Lamar](https://jasperfx.github.io/lamar/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jeremydmiller.com: Self Diagnosing Deployments with Oakton and Lamar](https://jeremydmiller.com/2021/10/12/self-diagnosing-deployments-with-oakton-and-lamar/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      - [A beginner's guide to web development with Python 2.7 / Django 1.7](http://www.tangowithdjango.com/)
-          - [The Bottom-Line Single Main Difference Between Python 2 and 3](http://migrateup.com/main-difference-python-3/)
+## Visual-studio
+  - **(N/A)** [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kite: Code Faster with AI Autocomplete](https://kite.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-visual-studio-code.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-snippets-5041) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developers.redhat.com: Remote container development with VS Code and Podman== 🌟](https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==visualstudio.microsoft.com/services/live-share: Visual Studio Live Share== 🌟](https://visualstudio.microsoft.com/services/live-share/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [gijsreijn.medium.com: Optimizing Your DSC V3 Authoring Experience in VSCode](https://gijsreijn.medium.com/optimizing-your-dsc-v3-authoring-experience-in-vscode-bd8e90c52312) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [VSCode Updates](https://code.visualstudio.com/updates) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_46#_flexible-layout) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [code.visualstudio.com: keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [code.visualstudio.com: keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-  - **(2024)** [Don't Make Us Say We Told You So: virtualenv for New Pythonistas](http://pyvideo.org/video/3460/dont-make-us-say-we-told-you-so-virtualenv-for) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [commandlinefu.com: pip install into current directory without virtualenv](http://www.commandlinefu.com/commands/view/17656/pip-install-into-current-directory-without-virtualenv) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Talk Python To Me Podcast. Episode #36: Python IDEs with the PyCharm team](http://talkpython.fm/episodes/show/36/python-ides-with-the-pycharm-team) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [My top 5 ‘new’ Python modules of 2015](http://blog.rtwilson.com/my-top-5-new-python-modules-of-2015/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit.com: Modules every python developer should know](https://www.reddit.com/r/Python/comments/3yg2u4/modules_every_python_developer_should_know/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit.com: My thoughts about moving from Python 2.7 to Python 3.x](https://www.reddit.com/r/Python/comments/3yjlim/my_thoughts_about_moving_from_python_27_to_python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Why Python 3 exists](http://www.snarky.ca/why-python-3-exists) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow: Create dictionary from splitted strings from list of strings](http://stackoverflow.com/questions/34319156/create-dictionary-from-splitted-strings-from-list-of-strings) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Yagmail: Python e-mail library](https://github.com/kootenpv/yagmail) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How To Deadlock Your Python With getaddrinfo()](https://emptysqua.re/blog/getaddrinfo-deadlock/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [New String Formatting in Python 3.6](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [en.wikibooks.org: Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tqdm: Instantly make your python loops show a progress meter - just wrap any iterator with "tqdm(iterator)", and you're done!](https://github.com/noamraph/tqdm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [If you don't like exceptions, you don't like Python](http://stupidpythonideas.blogspot.com.es/2015/05/if-you-dont-like-exceptions-you-dont.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Stop writing code that will break on Python 4!](http://astrofrog.github.io/blog/2016/01/12/stop-writing-python-4-incompatible-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: Python3 in one pic](https://github.com/coodict/python3-in-one-pic) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit.com: Functions vs. Classes](https://www.reddit.com/r/learnpython/comments/40rieo/functions_vs_classes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit.com: Multiprocessing vs Threading?](https://www.reddit.com/r/learnpython/comments/418z8b/multiprocessing_vs_threading/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Python Threads and the Global Interpreter Lock [ARCHIVED]]( http://web.archive.org/web/20220504020411/http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock)
-  - **(2024)** [devbattles.com: Python list. Functions and Methods lists](http://www.devbattles.com/en/sand/post-1754-Python_list_Functions_and_Methods_lists) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devbattles.com: Python: sorting lists by .sort () with - in simple words](http://www.devbattles.com/en/sand/post-1752-Python_sorting_lists_by_sort__with__in_simple_words) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Create a GUI Application Using Qt and Python in Minutes: Example Web Browser](http://www.digitalpeer.com/blog/create-a-gui-application-using-qt-and-python-in-minutes-example-web-browser) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python FAQ: Why should I use Python 3? 🌟](https://eev.ee/blog/2016/07/31/python-faq-why-should-i-use-python-3/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow: Problems installing python3 on RHEL 🌟](http://stackoverflow.com/questions/8087184/problems-installing-python3-on-rhel) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PEP 8 Cheatsheet 🌟](https://es.scribd.com/document/207247675/PEP-8-Cheatsheet-2009) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Lists vs. Tuples](http://nedbatchelder.com/blog/201608/lists_vs_tuples.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [linuxconfig.org: python tuples 🌟](https://linuxconfig.org/python-tuples) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: How To Use the Python Map Function 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-map-function) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenextweb.com: 6 practical tricks every Python developer should have](https://thenextweb.com/readme/2020/09/23/6-practical-tricks-every-python-developer-should-have/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: How To Code in Python 3 🌟](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-python-3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tryolabs.com: Top 10 Python libraries of 2020](https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.logrocket.com: Django REST framework alternatives](https://blog.logrocket.com/django-rest-framework-alternatives/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Unexpected Size of Python Objects in Memory](https://towardsdatascience.com/the-strange-size-of-python-objects-in-memory-ce87bdfbb97f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aigents.co: Data Structures and Python 🌟](https://aigents.co/blog/coding-tutorial/data-structures-and-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [doppler.com: Using Environment Variables in Python for App Configuration 🌟](https://doppler.com/blog/environment-variables-in-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dashbird.io: How I Manage Credentials in Python Using AWS Secrets Manager](https://dashbird.io/blog/aws-secrets-manager-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: The Python Handbook 🌟](https://www.freecodecamp.org/news/the-python-handbook/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: 7 Must-Know Data Wrangling Operations with Python Pandas](https://towardsdatascience.com/7-must-know-data-wrangling-operations-with-python-pandas-849438a90d15) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: All The Important Features and Changes in Python 3.10](https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python Map Function – How to Map a List in Python 3.0, With Example Code](https://www.freecodecamp.org/news/python-map-function-how-to-map-a-list-in-python-3-0-with-example-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: 3 Seemingly Simple Python Features That Confuse Beginners](https://betterprogramming.pub/3-seemingly-simple-python-features-that-confuse-beginners-313575312dcf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsvidhya.com: Top Online Platforms to Learn Python](https://www.analyticsvidhya.com/blog/2021/04/top-online-platforms-to-learn-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: There is more to ‘pandas.read_csv()’ than meets the eye](https://towardsdatascience.com/there-is-more-to-pandas-read-csv-than-meets-the-eye-8654cb2b3a03) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.adnansiddiqi.me: Getting started with Elasticsearch 7 in Python 🌟](http://blog.adnansiddiqi.me/getting-started-with-elasticsearch-7-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pub.towardsai.net: OPs Concept in Python](https://pub.towardsai.net/oops-concept-in-python-b5f5833d57db) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: micropipenv: Installing Python dependencies in containerized applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [theglitchblog.com: Logging in Python Using Best Practices](https://theglitchblog.com/2021/06/17/logging-in-python-using-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jhhemal.medium.com: Some Tips and Tricks for Writing Better Code in Python](https://jhhemal.medium.com/some-tips-and-tricks-for-writing-better-code-in-python-f65e4b6814fd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jhhemal.medium.com: Some Essential Built-in Tools for Working with Lists](https://jhhemal.medium.com/some-essential-built-in-tools-for-working-with-lists-81c4f9d5f25e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dineshkumarkb.com: Reverse a linked list without additional datastructures using python](https://dineshkumarkb.com/tech/reverse-a-linked-list-without-additional-datastructures-using-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoworld.com: How to use the Python for loop](https://www.infoworld.com/article/3623689/how-to-use-the-python-for-loop.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow.blog: Getting started with… Python 🌟](https://stackoverflow.blog/2021/07/14/getting-started-with-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [oxylabs.io: Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [returngis.net: Gestionar recursos de Kubernetes con Python](https://www.returngis.net/2021/08/gestionar-recursos-de-kubernetes-con-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Parse command-line arguments with argparse in Python](https://opensource.com/article/21/8/python-argparse) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tecadmin.net: How To Read, Write & Parse CSV in Python](https://tecadmin.net/read-write-csv-in-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples](https://www.freecodecamp.org/news/python-list-methods-append-vs-extend) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [writersbyte.com: 4 key Python Data Structures every beginner must know](https://writersbyte.com/4-key-python-data-structures-e-very-beginner-must-know) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geeksforgeeks.org: Top 10 Advance Python Concepts That You Must Know](https://www.geeksforgeeks.org/top-10-advance-python-concepts-that-you-must-know/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Dictionary Comprehension in Python – Explained with Examples 🌟](https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Learn Python: Tutorials and updates from Red Hat experts](https://developers.redhat.com/topics/python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [python.plainenglish.io: Special Methods Will Change How You Write Classes in Python](https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: How Not to Use Python Lists](https://towardsdatascience.com/how-not-to-use-python-lists-d06cbe8e593) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sureshdsk.dev: Check diff between two files in Python](https://sureshdsk.dev/check-diff-between-two-files-in-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python String split() and join() Methods – Explained with Examples](https://www.freecodecamp.org/news/python-string-split-and-join-methods-explained-with-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pythonsimplified.com: How to schedule Python scripts using schedule library](https://pythonsimplified.com/how-to-schedule-python-scripts-using-schedule-library/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aigents.co: Pro Python Tips for Data Analysts](https://aigents.co/blog/coding-tutorial/pro-python-tips-for-data-analysts) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com: Learn about Exceptions in Python](https://medium.com/@andreas.soularidis/learn-about-exceptions-in-python-fef309f66a78) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [makeuseof.com: 11 Useful Python One-Liners You Must Know](https://www.makeuseof.com/useful-python-one-liners-you-must-know/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: Packaging applications to install on other machines with Python](https://www.redhat.com/sysadmin/packaging-applications-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: Writing and unit testing a Python application to query the RPM database](https://www.redhat.com/sysadmin/query-rpm-database-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: More Python for Non-Programmers](https://thenewstack.io/more-python-for-non-programmers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==python.plainenglish.io: How to Perform Read and Write Operations on JSON Files in Python==](https://python.plainenglish.io/how-to-perform-read-and-write-operations-on-json-files-in-python-a5bac724320d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Generating pseudorandom numbers in Python](https://developers.redhat.com/articles/2021/11/04/generating-pseudorandom-numbers-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Best Practices For Writing Clean Pythonic Code](https://dev.to/dollardhingra/python-code-best-practices-4k96) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [searchenginejournal.com: An Introduction To Python & Machine Learning For Technical SEO](https://www.searchenginejournal.com/python-machine-learning-technical-seo/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: How To Create a Twitterbot with Python 3 and the Tweepy Library](https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.alluxi.com: 8 habilidades que necesitas para ser un gran programador Python](https://blog.alluxi.com/8-habilidades-que-necesitas-para-ser-un-gran-programador-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javarevisited.blogspot.com: Java vs Python - Which Programming Language beginners should learn in 2022?](https://javarevisited.blogspot.com/2018/06/java-vs-python-which-programming-language-to-learn-first.html#axzz7HHxvcHIY) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python Dictionary – How to Perform CRUD Operations on dicts in Python](https://www.freecodecamp.org/news/everything-you-need-to-know-about-python-dictionaries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==freecodecamp.org: Python Requests – How to Interact with Web Services using Python==](https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Guido van Rossum’s Ambitious Plans for Improving Python Performance](https://thenewstack.io/guido-van-rossums-ambitious-plans-for-improving-python-performance/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: python dictionary methods explanation and visualization](https://dev.to/mahmoudessam/python-dictionary-methods-explanation-and-visualization-1l64) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises 🌟](https://codesolid.com/python-lists) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==realpython.com: Building Lists With Python's .append()==](https://realpython.com/courses/building-lists-with-python-append/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python List .remove() - How to Remove an Item from a List in Python](https://www.freecodecamp.org/news/python-list-remove-how-to-remove-an-item-from-a-list-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devgenius.io: Introduction to python dictionaries](https://blog.devgenius.io/introduction-to-python-dictionaries-89045c9bf315) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: Fully Explained Array Data Structure in Python](https://levelup.gitconnected.com/fully-explained-array-data-structure-in-python-67dd9a12b695) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Else-If in Python – Python If Statement Example Syntax](https://www.freecodecamp.org/news/else-if-in-python-python-if-statement-example-syntax/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Work with SQL in Python Using SQLAlchemy and Pandas](https://towardsdatascience.com/work-with-sql-in-python-using-sqlalchemy-and-pandas-cd7693def708) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Create a List in Python – Lists in Python Syntax](https://www.freecodecamp.org/news/create-a-list-in-python-lists-in-python-syntax/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to SSH into a Docker Container – Secure Shell vs Docker Attach](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Use *args and **kwargs in Python](https://www.freecodecamp.org/news/args-and-kwargs-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [superfastpython.com: How to Identify a Deadlock in Python](https://superfastpython.com/thread-deadlock-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==towardsdatascience.com: You Don’t Need Sample Data, You Need Python Faker==](https://towardsdatascience.com/you-dont-need-sample-data-you-need-python-faker-fa87c2a119a9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Python for Beginners: When and How to Use Tuples](https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pub.towardsai.net: Python: Zero to Hero with Examples](https://pub.towardsai.net/python-zero-to-hero-with-examples-c7a5dedb968b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Getting Started With Pyvcloud — A Python Library](https://betterprogramming.pub/getting-started-with-pyvcloud-a-python-library-2e77092ed3ea) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Set Up a Virtual Environment in Python – And Why It's Useful](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==freecodecamp.org: Python Attributes – Class and Instance Attribute Examples==](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: This Is Why You Should Use Tortoise-ORM in Your Python Projects](https://betterprogramming.pub/this-is-why-you-should-use-tortoise-orm-in-your-python-projects-a3897dc5309e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docker.com: How to Train and Deploy a Linear Regression Model Using PyTorch – Part 1 (Machine Learning)](https://www.docker.com/blog/how-to-train-and-deploy-a-linear-regression-model-using-pytorch-part-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Learning Python With Program Templates: The Input One, Process One Template](https://betterprogramming.pub/learning-python-with-program-templates-the-input-one-process-one-template-d7ed5156d3fc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Automate Filling Templates With Python 🌟](https://betterprogramming.pub/automate-filling-templates-with-python-1ff6c6fd595e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pub.towardsai.net: Why Map(), Filter() And Reduce() Functions are so Famous?](https://pub.towardsai.net/why-map-filter-and-reduce-functions-are-so-famous-4c8e42fd0755) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [amitprius.medium.com: Python Dictionary: Zero to Hero with Examples](https://amitprius.medium.com/python-dictionary-zero-to-hero-with-examples-a7497a672dd4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [python.plainenglish.io: It’s Time to Say Goodbye to These Obsolete Python Libraries 🌟](https://python.plainenglish.io/its-time-to-say-goodbye-to-these-obsolete-python-libraries-7c02aa77d84a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [guru99.com: Mutable & Immutable Objects in Python {EXAMPLES} 🌟](https://www.guru99.com/mutable-and-immutable-in-python.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [notia.ai: Building an authenticated Python CLI](https://www.notia.ai/articles/building-an-authenticated-python-cli) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [superfastpython.com: How to Choose the Right Python Concurrency API](https://superfastpython.com/python-concurrency-choose-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com/pdf-python](https://realpython.com/pdf-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: How to change an image with Python](https://dev.to/deotyma/how-to-change-an-image-with-python-518d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Iterables vs Iterators in Python](https://towardsdatascience.com/python-iterables-vs-iterators-688907fd755f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: How to Implement a Linked List in Python](https://towardsdatascience.com/python-linked-lists-c3622205da81) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==realpython.com/learning-paths: Python Learning Paths== 🌟🌟🌟](https://realpython.com/learning-paths/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [superfastpython.com: Threading vs Multiprocessing in Python](https://superfastpython.com/threading-vs-multiprocessing-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Python List Comprehensions Are More Powerful Than You Might Think](https://betterprogramming.pub/python-list-comprehensions-are-more-powerful-than-you-might-think-3363a90e5bb0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@yonatanzunger: Advanced Python: Achieving High Performance with Code Generation 🌟🌟](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mishrapartha.blogspot.com: A Beginner’s Guide to Python for Data Science - Part 5 Adding Comments in Python](https://mishrapartha.blogspot.com/2022/11/a-beginners-guide-to-python-for-data_19.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [morioh.com: How to create Google Map in Python using Gmaps](https://morioh.com/p/a9bdee14b0d2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pydantic/pydantic](https://github.com/pydantic/pydantic) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PyWhatKit](https://github.com/Ankit404butfound/PyWhatKit) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@connect.hashblock: Learn how you can create a chatbot in Python](https://medium.com/@connect.hashblock/learn-how-you-can-create-a-chatbot-in-python-da136467309b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Learn Data Structures and Algorithms – Introduction and Learning Resources](https://www.freecodecamp.org/news/learn-data-structures-and-algorithms/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [adicode.ml: Take your web development to next level with these python libraries](https://adicode.ml/python-libraries-for-webdevelopment) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Use PyScript – A Python Frontend Framework 🌟](https://www.freecodecamp.org/news/pyscript-python-front-end-framework/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: How to Get a List of All Files in a Directory With Python](https://realpython.com/get-all-files-in-directory-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Python For Loop - For i in Range Example](https://www.freecodecamp.org/news/python-for-loop-for-i-in-range-example/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.blog: Why Python keeps growing, explained](https://github.blog/2023-03-02-why-python-keeps-growing-explained/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Evaluate Expressions Dynamically With Python eval() (Overview)](https://realpython.com/lessons/python-eval-overview/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Splitting, Concatenating, and Joining Strings in Python Quiz](https://realpython.com/quizzes/python-split-strings/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@terminalsandcoffee: Mastering Python: How to Generate a List of Dictionaries for Files in Your Working Directory with One Script](https://medium.com/@terminalsandcoffee/mastering-python-how-to-generate-a-list-of-dictionaries-for-files-in-your-working-directory-with-7cab8b485e69) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: How to Write Pythonic Loops](https://realpython.com/courses/how-to-write-pythonic-loops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Learn Algorithms and Data Structures in Python 🌟🌟](https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Python Machine Learning Tutorials 🌟🌟](https://realpython.com/tutorials/machine-learning/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopscube.com: Python For DevOps: Guide for DevOps Engineers](https://devopscube.com/python-for-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==realpython.com: An Intro to Threading in Python==](https://realpython.com/intro-to-python-threading/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==realpython.com: Functional Programming in Python==](https://realpython.com/courses/functional-programming-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [rogerperkin.co.uk: pyATS Tutorial for Beginners](https://www.rogerperkin.co.uk/network-automation/pyats/pyats-genie-tutorial/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [genbeta.com: Ocho canales de YouTube para aprender Python desde cero hasta nivel experto](https://www.genbeta.com/a-fondo/ocho-canales-youtube-para-aprender-python-cero-nivel-experto) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devops.dev: Generating A List of Dictionaries With Python](https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [martinheinz.dev: Boost Your Python Application Performance using Continuous Profiling](https://martinheinz.dev/blog/89) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Memoizing DataFrame Functions](https://towardsdatascience.com/memoizing-dataframe-functions-7a27dff532f7) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [anaconda.com: Why Data Scientists Should Be Excited About Python in Excel](https://www.anaconda.com/blog/why-data-scientists-should-be-excited-about-python-in-excel) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [testdriven.io: Clean Code in Python](https://testdriven.io/blog/clean-code-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [python.plainenglish.io: REST: A Quick Guide to Building Scalable and Flexible Systems Using HTTP](https://python.plainenglish.io/rest-a-quick-guide-to-building-scalable-and-flexible-systems-using-http-62154841eefd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hub.tinztwins.de: 7 Hidden Python Tips for 2024](https://hub.tinztwins.de/7-hidden-python-tips-for-2024) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/bitgrit-data-science-publication: latexify: Writing LaTeX with Python](https://medium.com/bitgrit-data-science-publication/latexify-writing-latex-with-python-6c0fa4b2e9d5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pypi.org/project/latexify-py](https://pypi.org/project/latexify-py/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Build an Online Banking System – Python Object-Oriented Programming Tutorial](https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/reactive-python/reactpy](https://github.com/reactive-python/reactpy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Project Thoth](https://thoth-station.ninja/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Think Python](https://www.google.com/share.google?q=rRH2WBGGgW1LON3N1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gettopical.com: Get Django Latest News](http://gettopical.com/djangoframework) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Fun With Django's New Postgres Features](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Deploying a Django App to AWS Elastic Beanstalk](https://realpython.com/blog/python/deploying-a-django-app-to-aws-elastic-beanstalk/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TaskBuster Django Tutorial, made with Django 1.8 and Python 3](http://www.marinamele.com/taskbuster-django-tutorial) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Installing and Configuring Django Web Framework with Virtual Environments in CentOS/Debian](http://www.tecmint.com/install-and-configure-django-web-framework-in-centos-debian-ubuntu/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Development and Deployment of Cookiecutter-Django via Docker](https://realpython.com/blog/python/development-and-deployment-of-cookiecutter-django-via-docker/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com: Django app + RESTful API for automatic billing](https://github.com/presslabs/silver/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CodingEntrepreneurs youtube channel](https://www.youtube.com/user/CodingEntrepreneurs) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [Interested in Learn Django 1.9? Check out my free series on YouTube](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQFqfCur9CJ4QnKQTVXUsRy)
-  - **(2024)** [Getting Started with Django REST Framework (DRF) and AngularJS (Part 1)](http://engineroom.trackmaven.com/blog/getting-started-drf-angularjs-part-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+      - [support.apple.com: Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+          - [9to5mac.com: How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
+          - [addictivetips.com: How to remap a Windows keyboard for a Mac](https://www.addictivetips.com/mac-os/remap-a-windows-keyboard-for-a-mac/)
 
-      - [Getting Started with Django REST Framework (DRF) and AngularJS (Part 2)](http://engineroom.trackmaven.com/blog/getting-started-drf-angularjs-part-2/)
-          - [Part 2 Supplementary Code](https://github.com/TrackMaven/getting-started-with-drf-angular/tree/part-2)
+  - **(N/A)** [code.visualstudio.com: keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com](https://marketplace.visualstudio.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Microsoft 🌟](https://marketplace.visualstudio.com/publishers/Microsoft) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AmazonWebServices](https://marketplace.visualstudio.com/publishers/AmazonWebServices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Google Cloud](https://marketplace.visualstudio.com/publishers/GoogleCloudTools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Oracle](https://marketplace.visualstudio.com/publishers/Oracle) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLens 🌟](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLens interactive rebase](https://github.com/eamodio/vscode-gitlens#interactive-rebase-editor-) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [A collapsible section containing markdown](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
+  - **(N/A)** [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Prettier:](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Live Share:](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [EditorConfig:](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ESLint:](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Indent-Rainbow:](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python Visual Studio Code](https://github.com/microsoft/vscode-python) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-  - **(2024)** [webcodegeeks.com: Python Django Tutorial](http://www.webcodegeeks.com/python/python-django-tutorial/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: Building a REST API With Django REST Framework](https://www.digitalocean.com/community/tech_talks/building-a-rest-api-with-django-rest-framework) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Building a REST API with Django REST Framework 🌟](https://dev.to/faruqt/how-to-connect-django-to-reactjs-part-2-2oje) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==betterprogramming.pub: Dockerize Your Django Apps==](https://betterprogramming.pub/dockerize-your-django-apps-428189407c69) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Flask Documentation 🌟](https://flask.palletsprojects.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [The Flask Mega-Tutorial: Now with Python 3 Support](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/blog/python/introduction-to-flask-part-1-setting-up-a-static-site/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Dockerize a Flask Application](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [rajansahu713.medium.com: Hands-On Guide to Restful API using Flask Python](https://rajansahu713.medium.com/hands-on-guide-to-restful-api-using-flask-python-16270f866ffe) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [FastAPI 🌟](https://fastapi.tiangolo.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.adnansiddiqi.me: Create your first REST API in FastAPI 🌟](http://blog.adnansiddiqi.me/create-your-first-rest-api-in-fastapi/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: FastAPI Course – Code APIs Quickly](https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wheel replaces Python's eggs](https://wheel.readthedocs.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Speed up pip install](http://blog.ionelmc.ro/2015/01/02/speedup-pip-install/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python Feature Flag Resources/Solutions](http://featureflags.io/python-feature-flags/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit: Ship Better Python Using Feature Flags](https://www.reddit.com/r/Python/comments/3zl3g4/ship_better_python_using_feature_flags/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit: Real examples of unit testing](https://www.reddit.com/r/learnpython/comments/3zl0p6/real_examples_of_unit_testing/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Profiling Python using cProfile: a concrete case](https://julien.danjou.info/blog/2015/guide-to-python-profiling-cprofile-concrete-case-carbonara) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nylas.com: Profiling Python in Production](https://nylas.com/blog/performance) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gabbi - Declarative HTTP testing library pypi](http://pypi.python.org/pypi/gabbi/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [coursereport.com: A Beginner’s Guide to Python for Cybersecurity](https://www.coursereport.com/blog/python-for-cyber-security-with-flatiron-school) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==huyenchip.com: Why data scientists shouldn’t need to know Kubernetes==](https://huyenchip.com/2021/09/13/data-science-infrastructure.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==realpython.com: Machine Learning With Python== 🌟🌟🌟](https://realpython.com/learning-paths/machine-learning-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pbpython.com: Practical Business Python](http://pbpython.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+      - [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
+          - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
+          - [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release/)
 
-      - [pbpython.com: Pandas Pivot Table Explained](http://pbpython.com/pandas-pivot-table-explained.html)
-          - [pbpython.com: Collecting Data with Google Forms and Pandas](http://pbpython.com/pandas-google-forms-part1.html)
+  - **(N/A)** [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [c-sharpcorner.com: The Best VS Code Extensions For Remote Working](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: VS Code Extensions to Increase Developer Productivity](https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: My Top 5 Visual Studio Code extensions for Azure Developers](https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==hashicorp.com: Terraform extension for VS Code speeds up loading of large workspaces==](https://www.hashicorp.com/blog/terraform-extension-for-vs-code-speeds-up-loading-of-large-workspaces) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Todo+](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Pull Requests and Issues 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
+  - **(N/A)** [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/2020/11/30/vscode-extension-development-with-gitlab/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dsteenman.cloudformation-yaml-snippets) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [prisma.io: Improving the Prisma Visual Studio Code Extension with WebAssembly 🌟](https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==IAM Legend==](https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to/gitlive: GitLive now works with any Git repository in VS Code!](https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: Azure App Service for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: GitOps Tools for Flux 🌟](https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: Kubernetes Reference Highlighter 🌟](https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: Increase Your VS Code Productivity](https://www.freecodecamp.org/news/increase-your-vs-code-productivity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: Ruff extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==marketplace.visualstudio.com: Kubernetes YAML Formatter== 🌟](https://marketplace.visualstudio.com/items?itemName=kennylong.kubernetes-yaml-formatter) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/unleashing-github-copilot-for-infrastructure-as-code/ba-p/4124031) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.logrocket.com: Top 10 VS Code extensions for 2021](https://blog.logrocket.com/top-10-vs-code-extensions-2021/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: VS Code extensions to increase your Productivity](https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Top 5 Best Git Extensions For VS Code (You must have)](https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Monokai Pro Theme](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Codey Midnight Theme](https://marketplace.visualstudio.com/items?itemName=salesforce.codey-midnight) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [1984 Theme](https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dracula Pro Theme 🌟](https://draculatheme.com/pro) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Discord Presence Theme](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Theme 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubernetes (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubernetes Kind (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Docker (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Announcing the Terraform Visual Studio Code Extension v2.0.0](https://www.hashicorp.com/blog/announcing-the-terraform-visual-studio-code-extension-v2-0-0/)
+  - **(N/A)** [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [Introducing MongoDB for VS Code](https://www.mongodb.com/blog/post/introducing-mongodb-for-vs-code)
+  - **(N/A)** [Azure DevOps 🌟](https://marketplace.visualstudio.com/azuredevops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gitflow by vector-of-bool](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitFlow 4 Code](https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JirAux (Jira integration)](https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins JCasC-Plugin](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Pipeline Linter Connector](https://marketplace.visualstudio.com/items?itemName=janjoerke.jenkins-pipeline-linter-connector) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [secanis.ch: Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=secanis.jenkinsfile-support) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ivory-lab: JenkinsFile Support](https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Alessandro Fragnani: Jenkins Status](https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.golang.org: Gopls on by default in the VS Code Go extension](https://blog.golang.org/gopls-vscode-go) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [visualstudiomagazine.com: Bridge to Kubernetes Simplifies Microservice Development in Visual Studio/VS Code](https://visualstudiomagazine.com/articles/2020/10/07/bridge-kubernetes.aspx) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cloud Code 🌟](https://cloud.google.com/code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Repl.it](https://repl.it/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==Gitpod Open Sources a ‘Holistic IDE’==](https://thenewstack.io/gitpod-open-sources-a-holistic-ide/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [thenewstack.io: Gitpod Brings Automated Environments to JetBrains IDEs](https://thenewstack.io/gitpod-brings-automated-environments-to-jetbrains-ides/)
+  - **(N/A)** [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.openshift.com/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==Fleet==](https://www.jetbrains.com/fleet/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: My Top 7 Most Underrated IntelliJ IDEA Features](https://betterprogramming.pub/my-top-7-most-underrated-intellij-idea-features-572b0b706bd6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.dev](https://github.dev) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==gitpod.io== 🌟🌟](https://www.gitpod.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gitpod.io: VS Code in the browser for everyone](https://www.gitpod.io/blog/openvscode-server-launch) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser/)
+  - **(N/A)** [github1s.com 🌟](https://github1s.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vscode.dev 🌟](https://vscode.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-  - **(2024)** [Reshaping in Pandas – Pivot, Pivot-Table, Stack and Unstack explained with Pictures](https://nikolaygrozev.wordpress.com/2015/07/01/reshaping-in-pandas-pivot-pivot-table-stack-and-unstack-explained-with-pictures/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pandas.pydata.org: Reshaping by pivoting DataFrame objects](http://pandas.pydata.org/pandas-docs/stable/reshaping.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsvidhya.com: A Complete Tutorial to Learn Data Science with Python from Scratch](http://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsvidhya.com: Tutorial – Python List Comprehension With Examples](http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [analyticsvidhya.com: Cheat Sheet for Exploratory Data Analysis in Python 🌟](https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==pandastutor.com== 🌟](https://pandastutor.com) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==betterprogramming.pub: How to Use Pandas to Consume Data and Perform Data Analysis==](https://betterprogramming.pub/how-to-use-pandas-to-consume-data-and-perform-data-analysis-76e000ad5480) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [iaviral.medium.com: Most used functions in Pandas](https://iaviral.medium.com/most-used-functions-in-pandas-7c12ae238185) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Pandas Illustrated: The Definitive Visual Guide to Pandas](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/gventuri/pandas-ai==](https://github.com/gventuri/pandas-ai) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [orchest.io](https://www.orchest.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python 3 standard library Module of the Week, Doug Hellmann](https://pymotw.com) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python 2 standard library Module of the Week, Doug Hellmann](https://pymotw.com/2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dead simple {for devs} python crawler (script) for extracting structured data from any website into CSV](http://blog.webhose.io/2015/08/16/dead-simple-for-devs-python-crawler-script-for-extracting-structured-data-from-any-almost-website-into-csv/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Python Multi-Process Execution Pool](https://github.com/XI-lab/PyExPool) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Ansible and AWS: cloud IT automation management](http://cloudacademy.com/blog/ansible-aws/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Boto](https://github.com/boto/boto) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Migrating to Boto3](https://aws.amazon.com/es/blogs/developer/migrating-to-boto3/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](http://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.python.org/pypi/ec2-ssh-yplan/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dashbird.io: Explaining boto3: how to use any AWS service with python](https://dashbird.io/blog/boto3-aws-python/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dashbird.io: 8 Must-Know Tricks to Use S3 More Effectively in Python](https://dashbird.io/blog/aws-s3-python-tricks/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hands-on.cloud: Quick Intro To Python 3 for AWS Automation Engineers 🌟](https://hands-on.cloud/quick-introduction-to-python-for-aws-automation-engineers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@d.deloatch: How to Stop all Instances Using AWS SDK for Python (Boto3)](https://medium.com/@d.deloatch/how-to-stop-all-instances-using-aws-sdk-for-python-boto3-2e02af03177) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PyInstaller is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, FreeBSD, Solaris and AIX](http://www.pyinstaller.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [PyInstaller official GIT repository](https://github.com/pyinstaller/pyinstaller/)
-  - **(2024)** [DictMySQL: A MySQL class for more convenient database manipulation with Python dictionary](https://github.com/ligyxy/DictMySQL) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows](http://sourceforge.net/projects/winpython/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kite 🌟](https://www.kite.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Build Interactive CLI Tools in Python](https://medium.com/codestory/build-interactive-cli-tools-in-python-47303c50d75) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pydeps 🌟](https://github.com/thebjorn/pydeps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [joke2k/faker 🌟](https://github.com/joke2k/faker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==google/python-fire== 🌟](https://github.com/google/python-fire) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/microsoft/pyright](https://github.com/microsoft/pyright) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/kodemore/chili](https://github.com/kodemore/chili) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Ruff==](https://github.com/astral-sh/ruff) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Scrapy](http://scrapy.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [First web scraper](https://first-web-scraper.readthedocs.org) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TWINT - Twitter Intelligence Tool](https://github.com/twintproject/twint) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Click 🌟](https://click.palletsprojects.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PyGithub 🌟](https://github.com/PyGithub/PyGithub) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [python.plainenglish.io: 12 Python Snippets That Will Boost Your Productivity](https://python.plainenglish.io/python-snippets-7e8dcbeae26e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+      - [code.visualstudio.com: vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev?WT.mc_id=devcloud-46480-cxa)
+          - [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro)
+          - [css-tricks.com: The Many Faces of VS Code in the Browser](https://css-tricks.com/the-many-faces-of-vs-code-in-the-browser/)
+
+  - **(N/A)** [==Visual Studio Code - Shorts==](https://www.youtube.com/@code/shorts) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [VSCode Profiles](https://www.youtube.com/shorts/WzlpGnbNPH4) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pin VS Code Tabs](https://www.youtube.com/shorts/6NFR5MsHM_4) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Markdown Header Magic](https://www.youtube.com/shorts/G5580-DxQuw) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Changing Font in VS Code the RIGHT WAY!](https://www.youtube.com/shorts/Q2RrAdWmn_M) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ErrorLens! Catch Errors on the Fly!](https://www.youtube.com/shorts/uzC1PP73d9I) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Try Maven (and Java) in VS Code!](https://www.youtube.com/shorts/t322UnzV9vM) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Extension of the Week: Prettier](https://www.youtube.com/shorts/dDtueNAFELo) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Copilot Unit Tessts Like a Boss](https://www.youtube.com/shorts/AGFvs2pT1VQ) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [STOP Creating New Files This! But Do THIS in VS Code!!!](https://www.youtube.com/shorts/VqOVb76IyI4) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Take your extensions with you](https://www.youtube.com/shorts/HyhSDvaaRwM) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Java, Gradle, and VS Code](https://www.youtube.com/shorts/0xq_ZYfl6Vk) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [VS Code February 2023 Release Highlights (v1.76)](https://www.youtube.com/shorts/hdmaP4ibJ4I) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Extension of the week: Thunder Client](https://www.youtube.com/shorts/X3wgBid4gO8) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Extensión de Visual Studio Code que genera tests y mejora tu código](https://youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Create diagrams in vscode](https://www.youtube.com/shorts/0N-NFIfy5lI) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Copilot writing Markdown](https://www.youtube.com/shorts/70voiUcMk_I) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Change your Java versions in VS Code!](https://www.youtube.com/shorts/p-H7Q9PtSc8) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [April 2023 Release Highlights - Profile Templates](https://www.youtube.com/shorts/ToGRhGvo62k) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How VS Code Makes Branches](https://www.youtube.com/shorts/-hvEdSI8ziE) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Write slides in VS Code](https://www.youtube.com/shorts/cLokEWqTuds) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Create guided walkthroughs of your code](https://www.youtube.com/shorts/KQB8FRoJaH4) 🎥 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Minimap Makeover](https://www.youtube.com/shorts/t5vXCNIBVYw) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Navigate your code's history](https://www.youtube.com/shorts/6IwjxcDbVW0) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Vertical rulers](https://www.youtube.com/shorts/cTE0ec3IurE) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Time Travel!](https://www.youtube.com/shorts/0h1xNFsEZBU) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [New VS Code Release Highlights v1.86](https://youtube.com/shorts/bVlIo4H0IDU) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [File Icon Theme](https://youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Learn with Copilot](https://youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Visualize your git repo in vscode with Git Graph extensions](https://youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Screencast mode](https://www.youtube.com/shorts/KZHI5RMmFk0) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Swagger-code-generator-for-rest-apis
+  - **(N/A)** [https://swagger.io/](https://swagger.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [https://github.com/swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jonnylangefeld.com: Kubernetes: How to View Swagger UI](https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin](https://www.baeldung.com/kotlin/swagger-spring-rest-api) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## React
+  - **(N/A)** [useHooks - React Hooks Library](https://usehooks.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [web.dev/explore/react](https://web.dev/explore/react) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freecodecamp.org: How to Get Started With React – A Beginner's Guide](https://www.freecodecamp.org/news/get-started-with-react-for-beginners/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+
+## Web3
+  - **(N/A)** [thenewstack.io: Web3 Architecture and How It Compares to Traditional Web Apps](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [blog.suhailkakar.com: Web 3.0 Terms and Their Definitions in Plain English](https://blog.suhailkakar.com/web-30-terms-and-their-definitions-in-plain-english) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [elconfidencial.com: El futuro de internet ya está aquí y se llama Web3, pero casi nadie sabe de qué se trata](https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Java_app_servers
+  - **(N/A)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Payara](https://www.payara.fish/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Payara](https://hub.docker.com/r/payara/server-full/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Payara Micro](https://hub.docker.com/r/payara/micro/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Red Hat JBoss Enterprise Application Platform (JBoss EAP)](https://developers.redhat.com/products/eap/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WildFly](https://wildfly.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [TomEE from Tomitribe](http://tomee.apache.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [KumuluzEE](https://ee.kumuluz.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 

@@ -3,562 +3,198 @@
 !!! info "Architectural Context"
     Comprehensive chronological reference library for Engineering Pipeline.
 
-## Openshift-pipelines
-  - **(2024)** [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: An easier way to create custom Jenkins containers in OpenShift 4 🌟](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OCP 4.2 - Jenkins image](https://docs.openshift.com/container-platform/4.2/openshift_images/using_images/images-other-jenkins-agent.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [**uncontained.io**: External Jenkins Integration 🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Deploying jenkins on openshift - part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Improving jenkins performance on openshift - part 2](https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: OpenShift Actions: Deploy to Red Hat OpenShift directly from your GitHub repository](https://developers.redhat.com/blog/2020/02/13/openshift-actions-deploy-to-red-hat-openshift-directly-from-your-github-repository/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Deploying OpenShift Applications to Multiple Datacenters (with Jenkins)](https://www.openshift.com/blog/deploying-openshift-applications-multiple-datacenters) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Using **KubeFed** to deploy applications](https://blog.openshift.comusing-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ODO: OpenShift Command line for Developers 🌟](https://github.com/redhat-developer/odo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: odo Cheat Sheet](https://developers.redhat.com/cheat-sheets/odo-cheat-sheet/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Enterprise Kubernetes development with odo: The CLI tool for developers](https://developers.redhat.com/blog/2020/06/16/enterprise-kubernetes-development-with-odo-the-cli-tool-for-developers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Kubernetes integration and more in odo 2.0](https://developers.redhat.com/blog/2020/10/06/kubernetes-integration-and-more-in-odo-2-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Java Development on OpenShift with odo](https://piotrminkowski.com/2021/02/05/java-development-on-openshift-with-odo/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Developing your own custom devfiles for odo 2.0](https://developers.redhat.com/blog/2021/02/12/developing-your-own-custom-devfiles-for-odo-2-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 1](https://blog.isaack.io/articles/2016-08/Jenkins-CICD-Getting-Started-With-Groovy-Part-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 2](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Using OpenShift Pipelines to Automate Red Hat Advanced Cluster Security for Kubernetes](https://www.openshift.com/blog/using-openshift-pipelines-to-automate-red-hat-advanced-cluster-security-for-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Fabric8](https://fabric8.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin ) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub: Eclipse JKube](https://github.com/eclipse/jkube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.openshift.com/blog/building-declarative-pipelines-openshift-dsl-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.openshift.com/container-platform/3.11/dev_guide/dev_tutorials/openshift_pipeline.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenShift Container Pipelines Samples 🌟](https://github.com/redhat-cop/container-pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenShift Pipeline Library 🌟](https://github.com/redhat-cop/pipeline-library) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com - Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Simply Explained: OpenShift and Jenkins Pipelines](https://www.openshift.com/blog/jenkins-pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.openshift.com/blog/cloud-native-ci-cd-with-openshift-pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: OpenShift Pipelines Tutorial 🌟](https://github.com/openshift/pipelines-tutorial) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: OpenShift Pipelines Advanced Triggers Part 1 - Triggering Different Project Builds in the Same Repository](https://www.openshift.com/blog/openshift-pipelines-advanced-triggers-part-1-triggering-different-project-builds-in-the-same-repository) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Tekton and Tekton Pipelines==](https://nubenetes.com/tekton/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Gitops
-  - **(2024)** [==gitops.tech== 🌟](https://www.gitops.tech/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==OpenGitOps.dev== 🌟](https://opengitops.dev) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/topics/gitops== 🌟](https://github.com/topics/gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Guide to GitOps](https://www.weave.works/technologies/gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: What Is GitOps?](https://www.weave.works/blog/what-is-gitops-really) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [atlassian.com: Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: What is GitOps?](https://www.cloudbees.com/gitops/what-is-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Continuous GitOps, the way to do DevOps in Kubernetes](https://medium.com/@imarunrk/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: What Is GitOps and Why It Might Be The Next Big Thing for DevOps](https://thenewstack.io/what-is-gitops-and-why-it-might-be-the-next-big-thing-for-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.substack.com: All You Need To Know About GitOps](https://opensource.substack.com/p/all-you-need-to-know-about-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-the-bad-and-the-ugly) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: GitOps: Build infrastructure resilient applications 🌟](https://medium.com/@franoisdagostini/gitops-build-infrastructure-resilient-applications-95bbc939046d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes 🌟](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps 🌟](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sufle.io: Adopting GitOps for Enhanced Operations](https://www.sufle.io/blog/adopting-gitops-for-enhanced-operations) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: GitOps : The Next Big Thing for DevOps and Automation!](https://medium.com/searce/gitops-the-next-big-thing-for-devops-and-automation-2a9597e51559) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Understanding GitOps: The Latest Tools and Philosophies](https://thenewstack.io/understanding-gitops-the-latest-tools-and-philosophies/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [samiyaakhtar.medium.com: GitOps Observability — Visualizing the journey of a container](https://samiyaakhtar.medium.com/gitops-observability-visualizing-the-journey-of-a-container-5f6ef1f3c9d2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==clickittech.com: What is GitOps?== 🌟](https://www.clickittech.com/devops/what-is-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.container-solutions.com: 11 Reasons for Adopting GitOps](https://blog.container-solutions.com/why-adopt-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==opensource.com: GitOps vs. DevOps: What's the difference?== 🌟](https://opensource.com/article/21/3/gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [geekflare.com: An Introduction to GitOps](https://geekflare.com/gitops-introduction/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kumomind.medium.com: Should I consider the GitOps methodology?](https://kumomind.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [braindose.blog: 4 Key Characteristics for a Successful GitOps Implementation](https://braindose.blog/2020/03/18/4-key-characteristics-of-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gitops.tech: What is GitOps? 🌟](https://www.gitops.tech/#tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Misconfiguration Worries Grow](https://thenewstack.io/misconfiguration-worries-grow/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [codefresh.io: The pains of GitOps 1.0 🌟](https://codefresh.io/devops/pains-gitops-1-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Managing Kubernetes with GitOps in a multi-cluster, multi-cloud world](https://www.weave.works/blog/managing-kubernetes-with-gitops-in-a-multi-cluster-multi-cloud-world) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [viewnext.com: ¿Qué es GitOps?](https://www.viewnext.com/que-es-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Have Containers Will Travel: Why GitOps Is Essential for Multicloud 🌟](https://thenewstack.io/have-containers-will-travel-why-gitops-is-essential-for-multicloud/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Put Your Security Worries to Rest with GitOps Operational Control 🌟](https://www.weave.works/use-cases/security-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [about.gitlab.com: 3 Ways to approach GitOps 🌟](https://about.gitlab.com/blog/2021/04/27/gitops-done-3-ways/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Why should developers care about GitOps?](https://developers.redhat.com/blog/2021/05/13/why-should-developers-care-about-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Our Favorite Things from GitOps Con at KubeCon EU 🌟](https://www.openshift.com/blog/our-favorite-things-from-gitops-con-at-kubecon-eu) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [en.sokube.ch: GitOps and the Millefeuille dilemma 🌟](https://en.sokube.ch/post/gitops-and-the-millefeuille-dilemma-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [octopus.com: How to structure your Git repository for DevOps automation](https://octopus.com/blog/devops-automation-repo-design) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [testingclouds.wordpress.com: GitOps Demystified](https://testingclouds.wordpress.com/2021/06/02/gitops-demystified/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Ops Automation - GitOps in the Modern Enterprise](https://www.weave.works/blog/gitops-in-the-modern-enterprise) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: What is GitOps? 🌟](https://www.openshift.com/learn/topics/gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Security Will Be Instrumental for the Success of GitOps](https://thenewstack.io/security-will-be-instrumental-for-the-success-of-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: There’s More to GitOps Than Meets the Eye](https://www.weave.works/blog/theres-more-to-gitops-than-meets-the-eye) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [solo.io: GlooOps: Progressive delivery, the GitOps way](https://www.solo.io/blog/glooops-progressive-delivery-the-gitops-way) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://go.weave.works/2021_GitOps_Maturity_Model.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: A Look at GitOps for the Modern Enterprise 🌟](https://thenewstack.io/a-look-at-gitops-for-the-modern-enterprise/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [shipa.io: GitOps in the enterprise 🌟](https://www.shipa.io/innovation/gitops-in-the-enterprise/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [shipa.io: GitOps meets AppOps](https://www.shipa.io/innovation/gitops-meets-appops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://go.weave.works/automating-kubernetes-with-gitops-wp.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopslearners.com: What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [go.weave.works: The Practical Guide to GitOps (eBook)](https://go.weave.works/gitops-ebook.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [enterprisersproject.com: How to explain GitOps in plain English](https://enterprisersproject.com/article/2021/6/gitops-explained-plain-english) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: An illustrated guide to GitOps](https://www.redhat.com/architect/illustrated-guide-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [bunnyshell.com: GitOps vs. DevOps: What’s the Difference? 🌟](https://www.bunnyshell.com/blog/gitops-vs-devops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jimangel.io: Self-Updating GitOps](https://jimangel.io/post/auto-gitops-isitstillrunning.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stevesmith.tech: GitOps is a placebo](https://www.stevesmith.tech/blog/gitops-is-a-placebo/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: The History of GitOps 🌟](https://www.weave.works/blog/the-history-of-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: How to get the most out of GitOps right now](https://opensource.com/article/21/8/gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/architect/3-gitops-rules-architecture) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Hardening Git for GitOps (white paper)](https://go.weave.works/hardening-git-for-gitops.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [magalix.com: GitOps 101: What’s It All About?](https://www.magalix.com/blog/what-is-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [containerjournal.com: The 4 Levels of GitOps Maturity](https://containerjournal.com/features/the-4-levels-of-gitops-maturity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: How to Get the Most out of GitOps](https://thenewstack.io/how-to-get-the-most-out-of-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Case Study: National Australia Bank Decreases Operational Overhead with GitOps](https://www.weave.works/blog/case-study-national-australia-bank-decreases-operational-overhead-with-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: How GitOps Can Help Prevent Security Misconfigurations](https://betterprogramming.pub/how-gitops-can-help-prevent-security-misconfigurations-8b506dcd89e1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blogs.sap.com: Decentralized GitOps over multiple environments](https://blogs.sap.com/2021/05/06/decentralized-gitops-over-environments/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Application Deployment Is Faster with GitOps](https://thenewstack.io/application-deployment-is-faster-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [As an ops engineer not too familiar with Git, you just need to know 6 commands](https://twitter.com/janakiramm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Wait, Do We Need to Hold Up on GitOps?](https://thenewstack.io/wait-do-we-need-to-hold-up-on-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: How to use GitOps in your enterprise architecture strategy 🌟](https://www.redhat.com/architect/understanding-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==thenewstack.io: CNCF Working Group Sets Some Standards for ‘GitOps’==](https://thenewstack.io/cncf-working-group-sets-some-standards-for-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: GitOps and the Cheap Cloud Myth](https://thenewstack.io/repatriation-or-cloud-what-we-need-is-control/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==redhat.com: Comparing GitOps implementation patterns: Pros and cons==](https://www.redhat.com/architect/gitops-implementation-patterns) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developer.ibm.com: GitOps: Best practices for the real world==](https://developer.ibm.com/blogs/gitops-best-practices-for-the-real-world) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [chrisshort.net: GitOps: An implementation of DevOps (abstracts)](https://chrisshort.net/abstracts/gitops-implementation-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [==chrisshort.net: GitOps: An implementation of DevOps==](https://chrisshort.net/gitops-an-implementation-of-devops/) GitOps is a prescriptive way of implementing DevOps. You will not succeed in using GitOps if you haven't embraced some DevOps philosophies along the way.
-  - **(2024)** [thenewstack.io: Trusted Delivery: Policy-Based Compliance the GitOps Way](https://thenewstack.io/trusted-delivery-policy-based-compliance-the-gitops-way/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Getting Started with GitOps](https://thenewstack.io/getting-started-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium: Stop Using Branches for Deploying to Different GitOps Environments | ostis Kapelonis==](https://medium.com/containers-101/stop-using-branches-for-deploying-to-different-gitops-environments-7111d0632402) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments](https://codefresh.io/about-gitops/branches-gitops-environments)
-          - __The question of "How do I promote a release to the next environment?" is becoming increasingly popular among organizations that want to adopt GitOps. You should NOT use Git branches for modelling different environments.__
-
-  - **(2024)** [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==thenewstack.io: Can You GitOps Your APIs?==](https://thenewstack.io/can-you-gitops-your-apis/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://www.weave.works/blog/gitops-takes-devops-teams-to-higher-levels-of-maturity) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==linkedin.com pulse: WTH is GitOps? | Pavan Belagatti==](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@buraktahtacioglu: GitOps Fundamentals — CNCF Roadmap](https://medium.com/@buraktahtacioglu/gitops-fundamentals-cncf-roadmap-fa686dbced9d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [toolbox.com: Why Are Organizations Adopting GitOps for Continuous Deployment in 2022?](https://www.toolbox.com/tech/devops/articles/more-organizations-adopting-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea==](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: GitOps: The New Kid On The DevOps Block!](https://harness.io/blog/devops/gitops-new-kid-devops-block) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [linkedin pulse: GitOps vs. DevOps! | Pavan Belagatti](https://www.linkedin.com/pulse/gitops-vs-devops-pavan-belagatti/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==containerjournal.com: GitOps Workflows and Principles for Kubernetes==](https://containerjournal.com/features/gitops-workflows-and-principles-for-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://harness.io/blog/devops/6-gitops-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them== 🌟](https://codefresh.io/blog/how-to-model-your-gitops-environments-and-promote-releases-between-them/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==piotrminkowski.com: Continuous Development on Kubernetes with GitOps Approach== 🌟](https://piotrminkowski.com/2022/06/06/continuous-development-on-kubernetes-with-gitops-approach/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==harness.io: Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos== 🌟](https://harness.io/blog/gitops-repo-structure) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/codex: Points to Consider for Structuring Infrastructure as Code Repositories](https://medium.com/codex/points-to-consider-for-structuring-infrastructure-as-code-repositories-886ff58404b8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/jumia-tech: Immutable Infrastructure & GitOps 🌟](https://medium.com/jumia-tech/immutable-infrastructure-gitops-18d644f9c7cb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@alamdar.hussain0007: GitOps with Kubernetes](https://medium.com/@alamdar.hussain0007/gitops-with-kubernetes-f0912b644925) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: KubeCon: 14,000 More Engineers Have Their GitOps Basics Down](https://thenewstack.io/kubecon-14000-more-engineers-have-their-gitops-basics-down/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [containerjournal.com: GitOps Workflows Expanding Beyond Kubernetes Clusters](https://containerjournal.com/features/gitops-workflows-expanding-beyond-kubernetes-clusters/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: GitOps Cookbook: Kubernetes automation in practice==](https://developers.redhat.com/articles/2022/12/20/gitops-cookbook-kubernetes-automation-practice) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [containerjournal.com: Best of 2022: GitOps: The Missing Link for CI/CD for Kubernetes](https://containerjournal.com/features/gitops-the-missing-link-for-ci-cd-for-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==devops.com: Declarative Compliance With Policy-as-Code and GitOps== 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dzone: The Essentials of GitOps== 🌟](https://dzone.com/refcardz/the-essentials-of-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devops.dev: GitOps — Fundamentals Part 0](https://blog.devops.dev/gitops-fundamentals-part-0-a8e63f8f9ce8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==thenewstack.io: The Next Kubernetes Management Frontier: Automation. Automation Is No Longer a “Nice to Have”== 🌟🌟](https://thenewstack.io/the-next-kubernetes-management-frontier-automation/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [loft.sh: GitOps + Kubernetes Explained](https://loft.sh/blog/gitops-kubernetes-explained/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [msrishty.medium.com: Traditional CI-CD vs gitops 🌟](https://msrishty.medium.com/traditional-ci-cd-vs-gitops-e835728642fb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.developersteve.com: GitOps for Kubernetes Canary Deployments](https://blog.developersteve.com/gitops-for-kubernetes-canary-deployments-4aeab4043727) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: GitOps as an Evolution of Kubernetes](https://thenewstack.io/gitops-as-an-evolution-of-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.blog: Applying GitOps principles to your operations](https://github.blog/2023-06-02-applying-gitops-principles-to-your-operations/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 1](https://hackernoon.com/what-is-gitops-and-why-it-is-almost-useless-part-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 2](https://hackernoon.com/what-is-gitops-and-why-is-it-almost-useless-part-2) In this controversial article, the author argues that GitOps is a (mostly) unnecessary abstraction that introduces more complexity than it's worth. The article tackles several GitOps principles and gives practical code counterexamples.
-  - **(2024)** [==devoriales.com: Exploring GitOps: Software and Infrastructure Management Intro Video==](https://devoriales.com/video/897990746/intro-to-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/containers-101: Using GitOps for Databases](https://medium.com/containers-101/using-gitops-for-databases-f09a027184bb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@ahmed.fathy.elayaat: What is GitOps?](https://medium.com/@ahmed.fathy.elayaat/gitops-fc27ef5a7836) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitOps Working Group 🌟](https://github.com/gitops-working-group/gitops-working-group) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/open-gitops/project 🌟](https://github.com/open-gitops/project) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/cloudogu/gitops-patterns==](https://github.com/cloudogu/gitops-patterns) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/cloudogu/gitops-playground#example-applications](https://github.com/cloudogu/gitops-playground#example-applications) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments==](https://codefresh.io/about-gitops/branches-gitops-environments/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: Git best practices: Workflows for GitOps deployments | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - Separate your repositories
-          - Separate development in directories, not branches
-          - Trunk-based development
-          - Pay attention to policies and security
-
-  - **(2024)** [==developers.redhat.com: How to set up your GitOps directory structure | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/09/07/how-set-your-gitops-directory-structure) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopsera.com: How to Structure Directories in a GitOps Repository for the Best User-Friendliness and Flexibility](https://devopsera.com/2023/06/how-to-structure-directories-in-a-gitops-repository-for-the-best-user-friendliness-and-flexibility/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [EntraExporter](https://github.com/microsoft/entraexporter) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [FossFLOW](https://github.com/stan-smith/FossFLOW) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [slideshare: GitOps, Jenkins X & Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [searchitoperations.techtarget.com: GitOps pros grapple with Kubernetes configuration management. GitOps users seek ideal Kubernetes config tool 🌟](https://searchitoperations.techtarget.com/news/252492459/GitOps-pros-grapple-with-Kubernetes-configuration-management) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tanka](https://tanka.dev/tutorial/jsonnet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Announcing OpenShift GitOps](https://www.openshift.com/blog/announcing-openshift-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ibm.com: Enable GitOps](https://www.ibm.com/garage/method/practices/run/gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.openshift.com/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://www.weave.works/blog/wkp-team-workspaces-rbac) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://cloudogu.com/en/blog/gitops-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==vimeo.com: Weaveworks - Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps==](https://vimeo.com/516520492) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Helm](./the-container-stack.md#helm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==glasskube.dev== 🌟](https://glasskube.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Flagger](https://flagger.app/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [partlycloudy.blog: Release to Kubernetes like a Pro with Flagger](https://partlycloudy.blog/2020/07/08/release-to-k8s-like-a-pro-with-flagger/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitOps for Kubernetes with Jenkins](https://medium.com/stakater/gitops-for-kubernetes-with-jenkins-7db6304216e0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [github.com/stakater/Xposer](https://github.com/stakater/Xposer) (with fabric8 java client library for kubernetes)
-  - **(2024)** [GitOps with Jenkins and Kubernetes](https://medium.com/@abhishekbhardwaj510/gitops-with-jenkins-and-kubernetes-c20425244c73) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [github.com: Opstree-Go-WebApp](https://github.com/opstree/Opstree-Go-WebApp) A loaded GoLang app to do various DevOps POC's
-          - [opstree.github.io](https://opstree.github.io/)
-
-  - **(2024)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How to Create a GitOps Workflow with Terraform and Jenkins](https://www.hashicorp.com/resources/how-create-gitops-workflow-terraform-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Anthos Config Management](https://cloud.google.com/anthos/config-management) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [portworx.com: Automating Kubernetes Data Management with GitOps & AutoPilot](https://portworx.com/automating-kubernetes-data-management-with-gitops-autopilot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-applier](https://github.com/redhat-cop/openshift-applier) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [waypointproject.io](https://www.waypointproject.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hashicorp.com: Using Waypoint Runners To Enable GitOps Workflows](https://www.hashicorp.com/blog/using-waypoint-runners-to-enable-gitops-workflows) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Weave GitOps Enterprise](https://www.weave.works/product/gitops-enterprise/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - Weave GitOps Enterprise is a continuous operations product that makes it easy to deploy and manage Kubernetes clusters and applications in any environment. With a single management console that lets you operate clusters running anywhere, in the public cloud, on the edge or in any hybrid scenario. Strong multi-tenancy can accelerate app delivery by providing developers with self-serve isolated workload namespaces across environments.
-          - With Weave GitOps Enterprise, every change is recorded in Git – whether it's a change to application code or platform config and whoever was responsible. So you have a self-generating audit trail available at all times, and far fewer...
-
-  - **(2024)** [thenewstack.io: Weave GitOps Core Integrates Git with Kubernetes](https://thenewstack.io/weave-gitops-core-integrates-git-with-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Weave GitOps Trusted Delivery: A Road to Kubernetes Sanity?](https://thenewstack.io/weave-gitops-trusted-delivery-a-road-to-kubernetes-sanity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dailymotion-oss.github.io/octopilot: Octopilot](https://dailymotion-oss.github.io/octopilot/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubestack 🌟](https://www.kubestack.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: KubeStack: Towards Full-Stack GitOps](https://thenewstack.io/kubestack-towards-full-stack-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==medium.com/bumble-tech: GitOps for multi-cluster K8s environments== 🌟](https://medium.com/bumble-tech/gitops-for-multi-cluster-k8s-environments-d305431ba6d6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.openshift.com/blog/from-code-to-production-with-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: GitOps with Istio, Tekton and Argo CD — on OpenShift 4](https://medium.com/@joelkaplan1/gitops-with-istio-tekton-and-argo-cd-on-openshift-4-5e42d22994e3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Red Hat Delivers Full GitOps CI/CD Built on Tekton and Argo](https://thenewstack.io/red-hat-delivers-full-gitops-ci-cd-built-on-tekton-and-argo/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat.com: Red Hat Makes DevOps a Reality with OpenShift GitOps and OpenShift Pipelines 🌟](https://www.redhat.com/en/about/press-releases/red-hat-makes-devops-reality-openshift-gitops-and-openshift-pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes== 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Weave Kubernetes Platform](https://www.weave.works/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/features) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: Applying DevOps to API Development for APIOps](https://betterprogramming.pub/applying-devops-to-api-development-for-apiops-21e2e605333e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube.com: GitOps Guide to the Galaxy 🌟🌟🌟](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Flux
-  - **(2024)** [Flux](https://fluxcd.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.fluxcd.io](https://docs.fluxcd.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: Flux](https://github.com/fluxcd/flux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: Flux Version 2](https://github.com/fluxcd/flux2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [toolkit.fluxcd.io: GitOps Toolkit 🌟](https://toolkit.fluxcd.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://acloudguru.com/blog/engineering/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.sldk.de: Introduction to GitOps on Kubernetes with Flux v2 🌟](https://blog.sldk.de/2021/02/introduction-to-gitops-on-kubernetes-with-flux-v2/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-configurations) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloud-viadee.medium.com: GitOps for IT-Architects: Transparent and Secure Kubernetes deployments](https://cloud-viadee.medium.com/gitops-for-it-architects-6312e7822819) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [johnclarke73.medium.com: How GitOps works for us](https://johnclarke73.medium.com/our-continuous-delivery-journey-11d86dd68a49) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: GitOps at Home: Automate Code Deploys with Kubernetes and Flux](https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Integrating GitOps Deployments in Kubernetes Using Weave Flux](https://medium.com/contino-engineering/integrating-gitops-deployments-in-kubernetes-using-weave-flux-9a617ea17684) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [alexander.holbreich.org: (Typical) journey towards full GitOps with Flux](https://alexander.holbreich.org/gitops-journey) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo==](https://flux-subsystem-argo.github.io/website/tutorials/terraform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.ediri.io: Flux With Buckets: Is This Still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fluxcd.io: GitOps Without Leaving your IDE](https://fluxcd.io/blog/2022/09/gitops-without-leaving-your-ide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fluxcd.io: How to GitOps Your Terraform](https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==gist.github.com: GitOps for Helm Users== 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Flamingo: Expand Argo CD with Flux](https://www.weave.works/blog/flamingo-expand-argo-cd-with-flux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux](https://github.com/onedr0p/flux-cluster-template) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Registries
+  - **(N/A)** [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone Refcard: Binary Repository Management](https://dzone.com/refcardz/binary-repository-management) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.openshift.com/container-platform/4.8/registry/architecture-component-imageregistry.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quay.io](https://quay.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quay Community Edition operator](https://github.com/redhat-cop/quay-operator) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.openshift.com/products/quay) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/quay](https://github.com/quay) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sonatype.com/nexus-repository-oss](https://www.sonatype.com/nexus-repository-oss) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Nexus Repository Manager (NXRM) 3 🌟](https://help.sonatype.com/repomanager3) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Sonatype Nexus Community: Nexus Kubernetes OpenShift 🌟](https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [https://github.com/jetstack/cert-manager/](https://github.com/jetstack/cert-manager/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Docker Registry](https://help.sonatype.com/repomanager3/formats/docker-registry) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://blog.sonatype.com/using-nexus-3-as-your-repository-part-3-docker-images) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sonatype: how to delete docker images from Nexus Repository Manager](https://support.sonatype.com/hc/en-us/articles/360009696054-How-to-delete-docker-images-from-Nexus-Repository-Manager) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [guides.sonatype.com: secure docker registries](https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [support.sonatype.com: Using self signed certificates with Nexus Repository Manager and Docker Daemon](https://support.sonatype.com/hc/en-us/articles/217542177-Using-Self-Signed-Certificates-with-Nexus-Repository-Manager-and-Docker-Daemon) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [guides.sonatype.com: secure docker registries](https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/repomanager3/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Test an insecure registry 🌟](https://docs.docker.com/registry/insecure/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Nexus Platform Plugin for Jenkins](https://help.sonatype.com/integrations/nexus-and-continuous-integration/nexus-platform-plugin-for-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins: Publish Maven Artifacts to Nexus OSS Using Pipelines or Maven Jobs 🌟](https://dzone.com/articles/jenkins-publish-maven-artifacts-to-nexus-oss-using) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: uploading artifacts from jenkins to nexus](https://www.youtube.com/watch?v=7NmGSnqLd58) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/samrocketman/nexus3-config-as-code](https://github.com/samrocketman/nexus3-config-as-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.mimacom.com/automate-nexus](https://blog.mimacom.com/automate-nexus/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/cinhtau/sonatype-nexus-waffle](https://github.com/cinhtau/sonatype-nexus-waffle) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub: Nexus-CLI](https://github.com/mlabouardy/nexus-cli) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nexus3-cli.readthedocs.io](https://nexus3-cli.readthedocs.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Sonatype Nexus Community 🌟](https://github.com/sonatype-nexus-community) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JFrog Container Registry](https://jfrog.com/container-registry/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://www.jfrog.com/confluence/display/JFROG/Kubernetes+Helm+Chart+Repositories) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integration/kubernetes-docker-registry/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.openshift.com/blog/18333-2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Harbor](https://goharbor.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [goharbor.io: Deploy Harbor with the Quick Installation Script](https://goharbor.io/docs/2.0.0/install-config/quick-install-script/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [nicholasamorim/ansible-role-harbor](https://github.com/nicholasamorim/ansible-role-harbor) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [uber/kraken](https://github.com/uber/kraken) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Argo
-  - **(2024)** [argoproj.github.io: Argo Events - The Event-driven Workflow Automation Framework](https://argoproj.github.io/argo-events/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: GitOps with Argo-CD & Kubernetes](https://www.youtube.com/watch?v=QrLwFEXvxbo&ab_channel=HoussemDellai) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: OpenShift Authentication Integration with ArgoCD](https://www.openshift.com/blog/openshift-authentication-integration-with-argocd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Applied GitOps with ArgoCD](https://thenewstack.io/applied-gitops-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Why ArgoCD Is the Lifeline of GitOps](https://thenewstack.io/why-argo-cd-is-the-lifeline-of-gitops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Getting Started with ApplicationSets](https://www.openshift.com/blog/getting-started-with-applicationsets) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Argo CD: A Tool for Kubernetes DevOps](https://medium.com/geekculture/argo-cd-a-tool-for-kubernetes-devops-c46f2881edfe) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: ArgoCD: users, access, and RBAC](https://itnext.io/argocd-users-access-and-rbac-ddf9f8b51bad) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Automatically create multiple applications in Argo CD](https://opensource.com/article/21/7/automating-argo-cd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloud.redhat.com: How to Use ArgoCD Deployments with GitHub Tokens](https://cloud.redhat.com/blog/how-to-use-argocd-deployments-with-github-tokens) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.risingstack.com: Argo CD Kubernetes Tutorial](https://blog.risingstack.com/argo-cd-kubernetes-tutorial/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wecloudpro.com: Deploying Helm Charts with ArgoCD](https://www.wecloudpro.com/2021/11/28/Argocd-helm.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==thenewstack.io: GitOps on Kubernetes: Deciding Between Argo CD and Flux==](https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/gumgum-tech: Streamlining your Kubernetes adoption with Helmfile / ArgoCD and GitOps](https://medium.com/gumgum-tech/streamlining-your-kubernetes-adoption-with-helmfile-argocd-and-gitops-211937e21e29) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes Cluster](https://levelup.gitconnected.com/getting-started-with-argocd-on-your-kubernetes-cluster-552ca5d8cf41) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [digitalocean.com: How to Deploy to Kubernetes using Argo CD and GitOps](https://www.digitalocean.com/community/tutorials/how-to-deploy-to-kubernetes-using-argo-cd-and-gitops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aws.amazon.com: Cloud Native CI/CD with Tekton and ArgoCD on AWS](https://aws.amazon.com/blogs/containers/cloud-native-ci-cd-with-tekton-and-argocd-on-aws/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.argoproj.io: New sync and diff strategies in ArgoCD](https://blog.argoproj.io/new-sync-and-diff-strategies-in-argocd-44195d3f8b8c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [igboie.medium.com: Kubernetes CI/CD with GitHub, GitHub Actions and Argo CD](https://igboie.medium.com/kubernetes-ci-cd-with-github-github-actions-and-argo-cd-36b88b6bda64) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/containers-101: Using GitOps, Multiple Argo Instances, and Environments with Argo CD at Scale](https://medium.com/containers-101/using-gitops-multiple-argo-instances-and-environments-with-argo-cd-at-scale-e6b19c86be36) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.argoproj.io: Best Practices for Multi-tenancy in Argo CD](https://blog.argoproj.io/best-practices-for-multi-tenancy-in-argo-cd-273e25a047b0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@ScrumPokerPro: Cloud native architecture with Kubernetes and ArgoCD](https://medium.com/@ScrumPokerPro/cloud-native-architecture-with-kubernetes-and-argocd-ebecda7784b8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: Deploying Argo CD and Sealed Secrets with Helm](https://faun.pub/deploying-argo-cd-and-sealed-secrets-with-helm-8de12f53051b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [amralaayassen.medium.com: How to create ArgoCD Applications Automatically using ApplicationSet? “Automation of GitOps”](https://amralaayassen.medium.com/how-to-create-argocd-applications-automatically-using-applicationset-automation-of-the-gitops-59455eaf4f72) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.getambassador.io: GitOps in Kubernetes with ArgoCD](https://blog.getambassador.io/gitops-in-kubernetes-with-argocd-c6ea0e510741) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.akuity.io: Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD](https://blog.akuity.io/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argo-cd-7c5b4057ee49) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Towards a Modular DevOps Stack](https://dev.to/camptocamp-ops/towards-a-modular-devops-stack-257c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [datree.io: ArgoCD Best Practices](https://datree.io/resources/argocd-best-practices-you-should-know) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==devops.com: The Argo Project: Making GitOps Practical==](https://devops.com/the-argo-project-making-gitops-practical/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Manage Kubernetes Cluster with Terraform and Argo CD. Create Kakfa Cluster using GitOps 🌟](https://piotrminkowski.com/2022/06/28/manage-kubernetes-cluster-with-terraform-and-argo-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [prashant-48386.medium.com: Continuous Delivery for Kubernetes With Argo CD](https://prashant-48386.medium.com/continuous-delivery-for-kubernetes-with-argo-cd-9d5f3b69f1db) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@outlier.developer: Getting Started with ArgoCD for GitOps Kubernetes Deployments](https://medium.com/@outlier.developer/getting-started-with-argocd-for-gitops-kubernetes-deployments-fafc2ad2af0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Automating Kubernetes with ArgoCD](https://medium.com/@hmquan08011996/setup-microservices-on-kubernetes-automating-kubernetes-with-argocd-cb94622dac5b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [datree.io: ArgoCD Best Practices You Should Know](https://www.datree.io/resources/argocd-best-practices-you-should-know) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kamsjec.medium.com: ArgoCD Setup on Kubernetes/OpenShift Cluster](https://kamsjec.medium.com/argocd-setup-on-kubernetes-openshift-cluster-f7340344c017) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@versentfastforward: GitOps on Kubernetes with ArgoCD](https://medium.com/@versentfastforward/gitops-and-argocd-to-automate-kubernetes-deployments-640f3a086865) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@versentfastforward: One-click Bootstrap Deployment of ArgoCD](https://medium.com/@versentfastforward/one-click-bootstrap-deployment-of-argocd-e06f848aacc5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@versentfastforward: Structuring Your Repo for ArgoCD, Part 1](https://medium.com/@versentfastforward/structuring-your-repo-for-argocd-part-1-582817713b0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jamalshahverdiev.medium.com: ArgoCD ApplicationSet with Applications, Image Updater and Notification controller with SSO](https://jamalshahverdiev.medium.com/argocd-applicationset-with-applications-image-updater-and-notification-controller-with-sso-bba3182dad8a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kubebyexample.com: Argo CD Overview 🌟](https://kubebyexample.com/learning-paths/argo-cd/argo-cd-overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dev.to: Argo CD and Sealed Secrets is a perfect match==](https://dev.to/timtsoitt/argo-cd-and-sealed-secrets-is-a-perfect-match-1dbf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [figments.medium.com: ArgoCD: The first step towards GitOps](https://figments.medium.com/argocd-the-first-step-towards-gitops-899732fbc33e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@nsfabrice2009: How to install ArgoCD on k8s cluster](https://medium.com/@nsfabrice2009/how-to-install-argocd-on-k8s-cluster-ad9084c71f16) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [akuity.io: How many do you need? - Argo CD Architectures Explained](https://akuity.io/blog/argo-cd-architectures-explained/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Manage Multiple Kubernetes Clusters with ArgoCD 🌟](https://piotrminkowski.com/2022/12/09/manage-multiple-kubernetes-clusters-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/containers-101: How to Install and Upgrade Argo CD](https://medium.com/containers-101/how-to-install-and-upgrade-argo-cd-a64f4635f97b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/containers-101: Argo CD Best Practices](https://medium.com/containers-101/best-practices-for-argo-cd-8253bcd31897) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/crumbhole/argocd-lovely-plugin: argocd-lovely-plugin](https://github.com/crumbhole/argocd-lovely-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gokhan-karadas1992.medium.com: ArgoCD + Kubevela Integration](https://gokhan-karadas1992.medium.com/argocd-kubevela-integration-eb88dc0484e0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==blog.tanmaysarkar.tech: Beginners Guide to Argo CD==](https://blog.tanmaysarkar.tech/beginners-guide-to-argo-cd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/devops-techable: GitOps with ArgoCD running in Kubernetes for deployment processing](https://medium.com/devops-techable/gitops-with-argocd-running-in-kubernetes-for-deployment-processing-c5d21770ca97) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [seraf.dev: ArgoCD Tutorial — (with Terraform)](https://seraf.dev/argocd-tutorial-with-terraform-af77ddea2e6e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@eduard.mihai.lemnaru: Auto-update helm chart version using ArgoCD](https://medium.com/@eduard.mihai.lemnaru/auto-update-helm-chart-version-using-argocd-4936933a2bac) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [53jk1.medium.com: ArgoCD: The Continuous Delivery Solution for Kubernetes](https://53jk1.medium.com/argocd-the-continuous-delivery-solution-for-kubernetes-ae5b008e76d1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/myspotontheweb/gitops-workloads-demo](https://github.com/myspotontheweb/gitops-workloads-demo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@jon.mclean: ArgoCD: The GitOps Way](https://medium.com/@jon.mclean/argocd-the-gitops-way-90f7eb0d2606) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@devopsrockers: Blue-Green Deployment on EKS using Argocd with Kubecost, Istio, External DNS, Grafana-Prometheus and More: “Build, Deploy a Resilient and Observability-Driven Application”](https://medium.com/@devopsrockers/blue-green-deployment-on-eks-using-argocd-with-kubecost-istio-external-dns-grafana-prometheus-d5d5508f0748) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@samuelbagattin: Partial Helm values encryption using AWS KMS with ArgoCD](https://medium.com/@samuelbagattin/partial-helm-values-encryption-using-aws-kms-with-argocd-aca1c0d36323) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@jerome.decoster: Create temporary environment from Pull Request with ArgoCD ApplicationSet](https://medium.com/@jerome.decoster/create-temporary-environment-from-pull-request-with-argocd-applicationset-1cef9803223a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.com: Manage Kubernetes Operators with ArgoCD](https://piotrminkowski.com/2023/05/05/manage-kubernetes-operators-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@geoffrey.muselli: ArgoCD: Multi-cluster Helm charts management in mono-repo](https://medium.com/@geoffrey.muselli/argocd-multi-cluster-helm-charts-installation-in-mono-repo-0a406ff7c578) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/otomi-platform: Helmfile and ArgoCD are better together](https://medium.com/otomi-platform/helmfile-and-argocd-better-together-f8d4587263ff) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/globant: Using multiple sources for a Helm Chart deployment in ArgoCD](https://medium.com/globant/using-multiple-sources-for-a-helm-chart-deployment-in-argocd-cf3cd2d598fc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Enhance Kubernetes deployment efficiency with Argo CD and ApplicationSet](https://developers.redhat.com/articles/2024/06/06/enhance-kubernetes-deployment-efficiency-argo-cd-and-applicationset) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dev.to: Extending GitOps: Effortless continuous integration and deployment on Kubernetes==](https://dev.to/amplication/extending-gitops-effortless-continuous-integration-and-deployment-on-kubernetes-1oem) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to/devsatasurion: Deploying Applications with GitHub Actions and ArgoCD to EKS: Best Practices and Techniques](https://dev.to/devsatasurion/deploying-applications-with-github-actions-and-argocd-to-eks-best-practices-and-techniques-4epc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [threatpost.com: Argo CD Security Bug Opens Kubernetes Cloud Apps to Attackers](https://threatpost.com/argo-cd-security-bug-kubernetes-cloud-apps/178239/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thehackernews.com: New Argo CD Bug Could Let Hackers Steal Secret Info from Kubernetes Apps](https://thehackernews.com/2022/02/new-argo-cd-bug-could-let-hackers-steal.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [armosec.io: CVE 2022-24348 – Argo CD High Severity Vulnerability and its impact on Kubernetes](https://www.armosec.io/blog/cve-2022-24348-argo-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [securityaffairs.co: Argo CD flaw could allow stealing sensitive data from Kubernetes Apps](https://securityaffairs.co/wordpress/127708/hacking/kubernetes-argo-cd-flaw.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoworld.com: How to protect your Kubernetes infrastructure from the Argo CD vulnerability](https://www.infoworld.com/article/3650659/how-to-protect-your-kubernetes-infrastructure-from-the-argo-cd-vulnerability.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dnastacio.medium.com: Six critical blindspots while securing Argo CD](https://dnastacio.medium.com/gitops-argocd-security-cbb6fb6378bb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [argoproj-labs/argocd-autopilot: Argo-CD Autopilot](https://github.com/argoproj-labs/argocd-autopilot) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [argoproj-labs/applicationset: Argo CD ApplicationSet Controller](https://github.com/argoproj-labs/applicationset) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IBM/argocd-vault-plugin](https://github.com/IBM/argocd-vault-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==argoproj-labs/argocd-vault-plugin==](https://github.com/argoproj-labs/argocd-vault-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/crumbhole/argocd-vault-replacer](https://github.com/crumbhole/argocd-vault-replacer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [argoproj.github.io/argo-rollouts/](https://argoproj.github.io/argo-rollouts/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==argoproj.github.io: Argo Rollouts - Kubernetes Progressive Delivery Controller==](https://argoproj.github.io/argo-rollouts/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jijujacob27.medium.com: Sharded applications on Kubernetes using Helm, ArgoCD, and Argo-Rollouts](https://jijujacob27.medium.com/sharded-saas-applications-on-kubernetes-using-helm-argocd-and-argo-rollouts-a683c66f8646) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@ej.sta.ana: Easy Blue-Green Deployment on Openshift Container Platform using Argo Rollouts](https://medium.com/@ej.sta.ana/easy-blue-green-deployment-on-openshift-container-platform-using-argo-rollouts-4d514b3c5c0f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infracloud.io: Progressive Delivery with Argo Rollouts : Blue-Green Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-blue-green-deployment/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.argoproj.io: What’s new in Argo Workflows v3.3](https://blog.argoproj.io/whats-new-in-argo-workflows-v3-3-dd051d2f1c7) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: The three meanings of "template" in Argo Workflows](https://dev.to/crenshaw_dev/the-three-meanings-of-template-in-argo-workflows-2paf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/atlantbh: Implementing CI/CD pipeline using Argo Workflows and Argo Events 🌟](https://medium.com/atlantbh/implementing-ci-cd-pipeline-using-argo-workflows-and-argo-events-6417dd157566) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Jenkins-alternatives
-  - **(2024)** [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.lambdatest.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.lambdatest.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.thundra.io: The CI/CD War of 2021: A Look at the Most Popular Technologies](https://blog.thundra.io/the-ci/cd-war-of-2021-a-look-at-the-most-popular-technologies) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.lambdatest.com/blog/circleci-vs-gitlab/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools== 🌟](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Choosing a CI that grows at the same pace as a scale-up 🌟](https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - Tekton
-          - Argo
-          - GitHub Actions
-          - Jenkins X
-          - OpenShift Pipelines
-          - Circle CI
-          - GitLab
-
-  - **(2024)** [devops.com: Best of 2021 – 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.lambdatest.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Buildbot](https://t.co/qXtIPX5eF6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Agola](https://agola.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io](https://harness.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-      - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://harness.io/blog/autostopping-rules-kubernetes/) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
-          - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://harness.io/blog/cd-jenkins-pipelines-harness/)
-
-  - **(2024)** [Drone](https://drone.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
-  - **(2024)** [Buildbot](https://buildbot.net/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GoCD](https://www.gocd.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Codefresh](https://codefresh.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [skaffold](https://skaffold.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Google Cloud Build](https://cloud.google.com/cloud-build) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubeflow](https://www.kubeflow.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Circle CI](https://circleci.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: CI/CD: Automating our build and deploy process](https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Travis CI](https://travis-ci.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Concourse](https://concourse-ci.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Bamboo](https://www.atlassian.com/software/bamboo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: How To Setup CI/CD Pipeline With Bamboo For PHP Projects](https://www.lambdatest.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat-actions](https://github.com/redhat-actions) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runner) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
-  - **(2024)** [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Keptn](./engineering-pipeline.md#keptn) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure DevOps](https://azure.microsoft.com/services/devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [shuttleOps](https://www.shuttleops.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [HashiCorp Waypoint](https://www.waypointproject.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [onedev](https://github.com/theonedev/onedev) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Hands-on GitOps with OneDev and Kubernetes](https://robinshen.medium.com/hands-on-gitops-with-onedev-f05bd278f07c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [TeamCity](https://www.jetbrains.com/teamcity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jetbrains.com: Storing Project Settings in Version Control](https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.jetbrains.com: Configuration as Code, Part 1: Getting Started with Kotlin DSL](https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/OctopusDeploy/Octopus-TeamCity: JetBrains TeamCity plugin to trigger releases on build completion](https://github.com/OctopusDeploy/Octopus-TeamCity) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Octopus Deploy - deployment tool](https://octopus.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [octopus.com: Deployment process as code](https://octopus.com/docs/deployments/patterns/deployment-process-as-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JFrog Pipelines](https://jfrog.com/pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Semaphore](https://semaphoreci.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphoreci.com/blog/revving-up-continuous-integration-with-parallel-testing) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devtron-labs/devtron](https://github.com/devtron-labs/devtron) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [csweichel/werft](https://github.com/csweichel/werft) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins-x.io](https://jenkins-x.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopstoolkitseries.com](https://www.devopstoolkitseries.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-      - [youtube: Jenkins X: The Recipe For Continuous Delivery](https://www.youtube.com/watch?v=ihHr-iLfEGo)
-  - **(2024)** [Book: The DevOps 2.6 Toolkit: Jenkins X](https://leanpub.com/the-devops-2-6-toolkit) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Traces for your pipelines: Jenkins X v3 now comes with tracing support for your pipelines out of the box](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [spinnaker.io deployment tool](https://www.spinnaker.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Deploy Spinnaker CD Pipelines in Kubernetes](https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [speakerdeck.com: Introduction to Spinnaker Managed Pipeline Templates](https://speakerdeck.com/keisukeyamashita/introduction-to-spinnaker-managed-pipeline-templates) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [speakerdeck.com: Spinnaker Application management by Terraform Plugins](https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ArgoCD](https://nubenetes.com/argocd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tekton](https://nubenetes.com/tekton/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins-X + Tekton on OpenShift](https://github.com/openshift/tektoncd-pipeline-operator) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dagger.io==](https://dagger.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [argoproj.github.io: Argo Events - The Event-driven Workflow Automation Framework](https://argoproj.github.io/argo-events/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: GitOps with Argo-CD & Kubernetes](https://www.youtube.com/watch?v=QrLwFEXvxbo&ab_channel=HoussemDellai) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: OpenShift Authentication Integration with ArgoCD](https://www.openshift.com/blog/openshift-authentication-integration-with-argocd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Applied GitOps with ArgoCD](https://thenewstack.io/applied-gitops-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Why ArgoCD Is the Lifeline of GitOps](https://thenewstack.io/why-argo-cd-is-the-lifeline-of-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Getting Started with ApplicationSets](https://www.openshift.com/blog/getting-started-with-applicationsets) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Argo CD: A Tool for Kubernetes DevOps](https://medium.com/geekculture/argo-cd-a-tool-for-kubernetes-devops-c46f2881edfe) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: ArgoCD: users, access, and RBAC](https://itnext.io/argocd-users-access-and-rbac-ddf9f8b51bad) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Automatically create multiple applications in Argo CD](https://opensource.com/article/21/7/automating-argo-cd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloud.redhat.com: How to Use ArgoCD Deployments with GitHub Tokens](https://cloud.redhat.com/blog/how-to-use-argocd-deployments-with-github-tokens) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [blog.risingstack.com: Argo CD Kubernetes Tutorial](https://blog.risingstack.com/argo-cd-kubernetes-tutorial/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [wecloudpro.com: Deploying Helm Charts with ArgoCD](https://www.wecloudpro.com/2021/11/28/Argocd-helm.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==thenewstack.io: GitOps on Kubernetes: Deciding Between Argo CD and Flux==](https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/gumgum-tech: Streamlining your Kubernetes adoption with Helmfile / ArgoCD and GitOps](https://medium.com/gumgum-tech/streamlining-your-kubernetes-adoption-with-helmfile-argocd-and-gitops-211937e21e29) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes Cluster](https://levelup.gitconnected.com/getting-started-with-argocd-on-your-kubernetes-cluster-552ca5d8cf41) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [digitalocean.com: How to Deploy to Kubernetes using Argo CD and GitOps](https://www.digitalocean.com/community/tutorials/how-to-deploy-to-kubernetes-using-argo-cd-and-gitops) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [aws.amazon.com: Cloud Native CI/CD with Tekton and ArgoCD on AWS](https://aws.amazon.com/blogs/containers/cloud-native-ci-cd-with-tekton-and-argocd-on-aws/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.argoproj.io: New sync and diff strategies in ArgoCD](https://blog.argoproj.io/new-sync-and-diff-strategies-in-argocd-44195d3f8b8c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [igboie.medium.com: Kubernetes CI/CD with GitHub, GitHub Actions and Argo CD](https://igboie.medium.com/kubernetes-ci-cd-with-github-github-actions-and-argo-cd-36b88b6bda64) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/containers-101: Using GitOps, Multiple Argo Instances, and Environments with Argo CD at Scale](https://medium.com/containers-101/using-gitops-multiple-argo-instances-and-environments-with-argo-cd-at-scale-e6b19c86be36) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.argoproj.io: Best Practices for Multi-tenancy in Argo CD](https://blog.argoproj.io/best-practices-for-multi-tenancy-in-argo-cd-273e25a047b0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@ScrumPokerPro: Cloud native architecture with Kubernetes and ArgoCD](https://medium.com/@ScrumPokerPro/cloud-native-architecture-with-kubernetes-and-argocd-ebecda7784b8) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [faun.pub: Deploying Argo CD and Sealed Secrets with Helm](https://faun.pub/deploying-argo-cd-and-sealed-secrets-with-helm-8de12f53051b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [amralaayassen.medium.com: How to create ArgoCD Applications Automatically using ApplicationSet? “Automation of GitOps”](https://amralaayassen.medium.com/how-to-create-argocd-applications-automatically-using-applicationset-automation-of-the-gitops-59455eaf4f72) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [blog.getambassador.io: GitOps in Kubernetes with ArgoCD](https://blog.getambassador.io/gitops-in-kubernetes-with-argocd-c6ea0e510741) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.akuity.io: Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD](https://blog.akuity.io/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argo-cd-7c5b4057ee49) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Towards a Modular DevOps Stack](https://dev.to/camptocamp-ops/towards-a-modular-devops-stack-257c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [datree.io: ArgoCD Best Practices](https://datree.io/resources/argocd-best-practices-you-should-know) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==devops.com: The Argo Project: Making GitOps Practical==](https://devops.com/the-argo-project-making-gitops-practical/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Manage Kubernetes Cluster with Terraform and Argo CD. Create Kakfa Cluster using GitOps 🌟](https://piotrminkowski.com/2022/06/28/manage-kubernetes-cluster-with-terraform-and-argo-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [prashant-48386.medium.com: Continuous Delivery for Kubernetes With Argo CD](https://prashant-48386.medium.com/continuous-delivery-for-kubernetes-with-argo-cd-9d5f3b69f1db) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@outlier.developer: Getting Started with ArgoCD for GitOps Kubernetes Deployments](https://medium.com/@outlier.developer/getting-started-with-argocd-for-gitops-kubernetes-deployments-fafc2ad2af0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Automating Kubernetes with ArgoCD](https://medium.com/@hmquan08011996/setup-microservices-on-kubernetes-automating-kubernetes-with-argocd-cb94622dac5b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [datree.io: ArgoCD Best Practices You Should Know](https://www.datree.io/resources/argocd-best-practices-you-should-know) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kamsjec.medium.com: ArgoCD Setup on Kubernetes/OpenShift Cluster](https://kamsjec.medium.com/argocd-setup-on-kubernetes-openshift-cluster-f7340344c017) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@versentfastforward: GitOps on Kubernetes with ArgoCD](https://medium.com/@versentfastforward/gitops-and-argocd-to-automate-kubernetes-deployments-640f3a086865) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@versentfastforward: One-click Bootstrap Deployment of ArgoCD](https://medium.com/@versentfastforward/one-click-bootstrap-deployment-of-argocd-e06f848aacc5) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@versentfastforward: Structuring Your Repo for ArgoCD, Part 1](https://medium.com/@versentfastforward/structuring-your-repo-for-argocd-part-1-582817713b0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jamalshahverdiev.medium.com: ArgoCD ApplicationSet with Applications, Image Updater and Notification controller with SSO](https://jamalshahverdiev.medium.com/argocd-applicationset-with-applications-image-updater-and-notification-controller-with-sso-bba3182dad8a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kubebyexample.com: Argo CD Overview 🌟](https://kubebyexample.com/learning-paths/argo-cd/argo-cd-overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dev.to: Argo CD and Sealed Secrets is a perfect match==](https://dev.to/timtsoitt/argo-cd-and-sealed-secrets-is-a-perfect-match-1dbf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [figments.medium.com: ArgoCD: The first step towards GitOps](https://figments.medium.com/argocd-the-first-step-towards-gitops-899732fbc33e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@nsfabrice2009: How to install ArgoCD on k8s cluster](https://medium.com/@nsfabrice2009/how-to-install-argocd-on-k8s-cluster-ad9084c71f16) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [akuity.io: How many do you need? - Argo CD Architectures Explained](https://akuity.io/blog/argo-cd-architectures-explained/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [piotrminkowski.com: Manage Multiple Kubernetes Clusters with ArgoCD 🌟](https://piotrminkowski.com/2022/12/09/manage-multiple-kubernetes-clusters-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/containers-101: How to Install and Upgrade Argo CD](https://medium.com/containers-101/how-to-install-and-upgrade-argo-cd-a64f4635f97b) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium.com/containers-101: Argo CD Best Practices](https://medium.com/containers-101/best-practices-for-argo-cd-8253bcd31897) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/crumbhole/argocd-lovely-plugin: argocd-lovely-plugin](https://github.com/crumbhole/argocd-lovely-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gokhan-karadas1992.medium.com: ArgoCD + Kubevela Integration](https://gokhan-karadas1992.medium.com/argocd-kubevela-integration-eb88dc0484e0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==blog.tanmaysarkar.tech: Beginners Guide to Argo CD==](https://blog.tanmaysarkar.tech/beginners-guide-to-argo-cd) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [medium.com/devops-techable: GitOps with ArgoCD running in Kubernetes for deployment processing](https://medium.com/devops-techable/gitops-with-argocd-running-in-kubernetes-for-deployment-processing-c5d21770ca97) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [seraf.dev: ArgoCD Tutorial — (with Terraform)](https://seraf.dev/argocd-tutorial-with-terraform-af77ddea2e6e) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium.com/@eduard.mihai.lemnaru: Auto-update helm chart version using ArgoCD](https://medium.com/@eduard.mihai.lemnaru/auto-update-helm-chart-version-using-argocd-4936933a2bac) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [53jk1.medium.com: ArgoCD: The Continuous Delivery Solution for Kubernetes](https://53jk1.medium.com/argocd-the-continuous-delivery-solution-for-kubernetes-ae5b008e76d1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/myspotontheweb/gitops-workloads-demo](https://github.com/myspotontheweb/gitops-workloads-demo) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@jon.mclean: ArgoCD: The GitOps Way](https://medium.com/@jon.mclean/argocd-the-gitops-way-90f7eb0d2606) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@devopsrockers: Blue-Green Deployment on EKS using Argocd with Kubecost, Istio, External DNS, Grafana-Prometheus and More: “Build, Deploy a Resilient and Observability-Driven Application”](https://medium.com/@devopsrockers/blue-green-deployment-on-eks-using-argocd-with-kubecost-istio-external-dns-grafana-prometheus-d5d5508f0748) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@samuelbagattin: Partial Helm values encryption using AWS KMS with ArgoCD](https://medium.com/@samuelbagattin/partial-helm-values-encryption-using-aws-kms-with-argocd-aca1c0d36323) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@jerome.decoster: Create temporary environment from Pull Request with ArgoCD ApplicationSet](https://medium.com/@jerome.decoster/create-temporary-environment-from-pull-request-with-argocd-applicationset-1cef9803223a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Manage Kubernetes Operators with ArgoCD](https://piotrminkowski.com/2023/05/05/manage-kubernetes-operators-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@geoffrey.muselli: ArgoCD: Multi-cluster Helm charts management in mono-repo](https://medium.com/@geoffrey.muselli/argocd-multi-cluster-helm-charts-installation-in-mono-repo-0a406ff7c578) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/otomi-platform: Helmfile and ArgoCD are better together](https://medium.com/otomi-platform/helmfile-and-argocd-better-together-f8d4587263ff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/globant: Using multiple sources for a Helm Chart deployment in ArgoCD](https://medium.com/globant/using-multiple-sources-for-a-helm-chart-deployment-in-argocd-cf3cd2d598fc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Enhance Kubernetes deployment efficiency with Argo CD and ApplicationSet](https://developers.redhat.com/articles/2024/06/06/enhance-kubernetes-deployment-efficiency-argo-cd-and-applicationset) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dev.to: Extending GitOps: Effortless continuous integration and deployment on Kubernetes==](https://dev.to/amplication/extending-gitops-effortless-continuous-integration-and-deployment-on-kubernetes-1oem) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to/devsatasurion: Deploying Applications with GitHub Actions and ArgoCD to EKS: Best Practices and Techniques](https://dev.to/devsatasurion/deploying-applications-with-github-actions-and-argocd-to-eks-best-practices-and-techniques-4epc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [threatpost.com: Argo CD Security Bug Opens Kubernetes Cloud Apps to Attackers](https://threatpost.com/argo-cd-security-bug-kubernetes-cloud-apps/178239/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thehackernews.com: New Argo CD Bug Could Let Hackers Steal Secret Info from Kubernetes Apps](https://thehackernews.com/2022/02/new-argo-cd-bug-could-let-hackers-steal.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [armosec.io: CVE 2022-24348 – Argo CD High Severity Vulnerability and its impact on Kubernetes](https://www.armosec.io/blog/cve-2022-24348-argo-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [securityaffairs.co: Argo CD flaw could allow stealing sensitive data from Kubernetes Apps](https://securityaffairs.co/wordpress/127708/hacking/kubernetes-argo-cd-flaw.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoworld.com: How to protect your Kubernetes infrastructure from the Argo CD vulnerability](https://www.infoworld.com/article/3650659/how-to-protect-your-kubernetes-infrastructure-from-the-argo-cd-vulnerability.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dnastacio.medium.com: Six critical blindspots while securing Argo CD](https://dnastacio.medium.com/gitops-argocd-security-cbb6fb6378bb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [argoproj-labs/argocd-autopilot: Argo-CD Autopilot](https://github.com/argoproj-labs/argocd-autopilot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [argoproj-labs/applicationset: Argo CD ApplicationSet Controller](https://github.com/argoproj-labs/applicationset) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [IBM/argocd-vault-plugin](https://github.com/IBM/argocd-vault-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==argoproj-labs/argocd-vault-plugin==](https://github.com/argoproj-labs/argocd-vault-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/crumbhole/argocd-vault-replacer](https://github.com/crumbhole/argocd-vault-replacer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [argoproj.github.io/argo-rollouts/](https://argoproj.github.io/argo-rollouts/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==argoproj.github.io: Argo Rollouts - Kubernetes Progressive Delivery Controller==](https://argoproj.github.io/argo-rollouts/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jijujacob27.medium.com: Sharded applications on Kubernetes using Helm, ArgoCD, and Argo-Rollouts](https://jijujacob27.medium.com/sharded-saas-applications-on-kubernetes-using-helm-argocd-and-argo-rollouts-a683c66f8646) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@ej.sta.ana: Easy Blue-Green Deployment on Openshift Container Platform using Argo Rollouts](https://medium.com/@ej.sta.ana/easy-blue-green-deployment-on-openshift-container-platform-using-argo-rollouts-4d514b3c5c0f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infracloud.io: Progressive Delivery with Argo Rollouts : Blue-Green Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-blue-green-deployment/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.argoproj.io: What’s new in Argo Workflows v3.3](https://blog.argoproj.io/whats-new-in-argo-workflows-v3-3-dd051d2f1c7) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: The three meanings of "template" in Argo Workflows](https://dev.to/crenshaw_dev/the-three-meanings-of-template-in-argo-workflows-2paf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/atlantbh: Implementing CI/CD pipeline using Argo Workflows and Argo Events 🌟](https://medium.com/atlantbh/implementing-ci-cd-pipeline-using-argo-workflows-and-argo-events-6417dd157566) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Sonarqube
-  - **(2024)** [wikipedia: SonarQube](https://en.wikipedia.org/wiki/SonarQube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Sonarqube.org](https://www.sonarqube.org/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: SonarCloud integration with SpringBoot Maven](https://dzone.com/articles/sonarcloud-integration-with-springboot-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Running SonarQube on Kubernetes](https://medium.com/@akamenev/running-sonarqube-on-azure-kubernetes-92a1b9051120) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hub.helm.sh/charts/oteemo/sonarqube](https://hub.helm.sh/charts/oteemo/sonarqube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [wikipedia: SonarQube](https://en.wikipedia.org/wiki/SonarQube) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Sonarqube.org](https://www.sonarqube.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: SonarCloud integration with SpringBoot Maven](https://dzone.com/articles/sonarcloud-integration-with-springboot-maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Running SonarQube on Kubernetes](https://medium.com/@akamenev/running-sonarqube-on-azure-kubernetes-92a1b9051120) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hub.helm.sh/charts/oteemo/sonarqube](https://hub.helm.sh/charts/oteemo/sonarqube) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [github ref1](https://github.com/gudpick/pods)
           - [github ref2](https://github.com/gudpick/pods/tree/master/sonar-latest)
 
-  - **(2024)** [click-to-deploy/sonarqube](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SonarQube Scanner Overview](https://docs.sonarqube.org/latest/analysis/overview/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [click-to-deploy/sonarqube](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SonarQube Scanner Overview](https://docs.sonarqube.org/latest/analysis/overview/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [Gradle - SonarScanner for Gradle](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-gradle/)
           - [MSBuild - SonarScanner for MSBuild](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-msbuild/)
@@ -569,155 +205,368 @@
           - [anything else (CLI) - SonarScanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/)
 
 
+## Openshift-pipelines
+  - **(N/A)** [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [developers.redhat.com: An easier way to create custom Jenkins containers in OpenShift 4 🌟](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OCP 4.2 - Jenkins image](https://docs.openshift.com/container-platform/4.2/openshift_images/using_images/images-other-jenkins-agent.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [**uncontained.io**: External Jenkins Integration 🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Deploying jenkins on openshift - part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Improving jenkins performance on openshift - part 2](https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [developers.redhat.com: OpenShift Actions: Deploy to Red Hat OpenShift directly from your GitHub repository](https://developers.redhat.com/blog/2020/02/13/openshift-actions-deploy-to-red-hat-openshift-directly-from-your-github-repository/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Deploying OpenShift Applications to Multiple Datacenters (with Jenkins)](https://www.openshift.com/blog/deploying-openshift-applications-multiple-datacenters) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Using **KubeFed** to deploy applications](https://blog.openshift.comusing-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ODO: OpenShift Command line for Developers 🌟](https://github.com/redhat-developer/odo) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: odo Cheat Sheet](https://developers.redhat.com/cheat-sheets/odo-cheat-sheet/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Enterprise Kubernetes development with odo: The CLI tool for developers](https://developers.redhat.com/blog/2020/06/16/enterprise-kubernetes-development-with-odo-the-cli-tool-for-developers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Kubernetes integration and more in odo 2.0](https://developers.redhat.com/blog/2020/10/06/kubernetes-integration-and-more-in-odo-2-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.com: Java Development on OpenShift with odo](https://piotrminkowski.com/2021/02/05/java-development-on-openshift-with-odo/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Developing your own custom devfiles for odo 2.0](https://developers.redhat.com/blog/2021/02/12/developing-your-own-custom-devfiles-for-odo-2-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 1](https://blog.isaack.io/articles/2016-08/Jenkins-CICD-Getting-Started-With-Groovy-Part-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 2](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Using OpenShift Pipelines to Automate Red Hat Advanced Cluster Security for Kubernetes](https://www.openshift.com/blog/using-openshift-pipelines-to-automate-red-hat-advanced-cluster-security-for-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Fabric8](https://fabric8.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin ) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub: Eclipse JKube](https://github.com/eclipse/jkube) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.openshift.com/blog/building-declarative-pipelines-openshift-dsl-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.openshift.com/container-platform/3.11/dev_guide/dev_tutorials/openshift_pipeline.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenShift Container Pipelines Samples 🌟](https://github.com/redhat-cop/container-pipelines) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenShift Pipeline Library 🌟](https://github.com/redhat-cop/pipeline-library) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com - Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Simply Explained: OpenShift and Jenkins Pipelines](https://www.openshift.com/blog/jenkins-pipelines) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.openshift.com/blog/cloud-native-ci-cd-with-openshift-pipelines) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: OpenShift Pipelines Tutorial 🌟](https://github.com/openshift/pipelines-tutorial) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: OpenShift Pipelines Advanced Triggers Part 1 - Triggering Different Project Builds in the Same Repository](https://www.openshift.com/blog/openshift-pipelines-advanced-triggers-part-1-triggering-different-project-builds-in-the-same-repository) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Cicd-kubernetes-plugins
+  - **(N/A)** [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-sync](https://plugins.jenkins.io/openshift-sync) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-client](https://plugins.jenkins.io/openshift-client) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLab Kubernetes Agent](https://docs.gitlab.com/ee/user/clusters/agent/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLab Kubernetes Agent available on GitLab.com](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11-released/#gitlab-kubernetes-agent-available-on-gitlabcom) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Cicd
+  - **(N/A)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Wikipedia.org: Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Wikipedia.org: Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [martinfowler.com: Continuous Integration (original version)](https://martinfowler.com/articles/originalContinuousIntegration.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DZone: Continuous Integration: Servers and Tools](https://dzone.com/refcardz/continuous-integration-servers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopsonline.co.uk: ChatOps, DevOps, ScrumOps and 5 Other Ops religions](https://www.devopsonline.co.uk/chatops-devops-scrumops-and-5-other-ops-religions/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [dev.to: CI/CD Continuous Integration & Delivery Explained 🌟🌟](https://dev.to/semaphore/ci-cd-continuous-integration-delivery-explained-75l) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [tech.buzzfeed.com: Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: Continuous Delivery - Patterns and Anti-Patterns in the Software Lifecycle 🌟](https://dzone.com/refcardz/continuous-delivery-patterns) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infoworld.com: What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devops.com: How to Implement an Effective CI/CD Pipeline](https://devops.com/how-to-implement-an-effective-ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium: What is CI/CD Pipeline in DevOps? 🌟🌟](https://medium.com/faun/what-is-ci-cd-pipeline-in-devops-6fba17a76e73) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aws.amazon.com: Automating safe, hands-off deployments 🌟🌟](https://aws.amazon.com/es/builders-library/automating-safe-hands-off-deployments/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techuz.com: What is CI/CD? An Introduction to Continuous Integration, Continuous Deployment and CI/CD Pipeline](https://www.techuz.com/blog/what-is-ci-cd-an-introduction-to-continuous-integration-continuous-deployment-and-ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kodekloud.com: What is CI/CD Pipeline in DevOps](https://kodekloud.com/what-is-ci-cd-pipeline-in-devops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: How to build an efficient CI/CD pipeline 🌟🌟](https://medium.com/@sanjayaben/how-to-build-an-efficient-ci-cd-pipeline-b5738ad567c8) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CI/CD Best Practices 🌟](https://blog.bitsrc.io/ci-cd-best-practices-bca0ef665677) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: What is a CI/CD Platform and why should I care? 🌟](https://harness.io/2020/10/what-is-cicd-platform-why-should-i-care/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: 3 Ways to Use Automation in CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: 7 Tips for Creating A Successful CI/CD Pipeline 🌟](https://www.cloudbees.com/blog/tips-creating-successful-cicd-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javi-kata.medium.com: CI/CD the journey of a dummy team 🌟](https://javi-kata.medium.com/ci-cd-the-journey-of-a-dummy-team-f51a061684bc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tripwire.com: Everything You Need to Know About CI/CD and Security](https://www.tripwire.com/state-of-security/devops/everything-need-to-know-about-ci-cd-security/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: CI/CD Pipeline: Everything You Need to Know 🌟](https://harness.io/blog/continuous-delivery/ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stackoverflow.blog: Fulfilling the promise of CI/CD 🌟](https://stackoverflow.blog/2021/01/19/fulfilling-the-promise-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Top 5 CI/CD best practices for 2021 🌟](https://circleci.com/blog/top-5-ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: What is Continuous Integration? 🌟](https://harness.io/blog/continuous-integration/what-is-continuous-integration/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cd.foundation: 2021 Technology Trends and Predictions](https://cd.foundation/blog/2021/02/01/trends-that-will-define-ci-cd-in-2021/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opsmx.com: What is a CI/CD Pipeline ?](https://www.opsmx.com/blog/what-is-a-ci-cd-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [continuousdelivery.com: Patterns 🌟](https://continuousdelivery.com/implementing/patterns/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [testguild.com: Pipeline as Code with Mohamed Labouardy](https://testguild.com/podcast/automation/a345-mohamed/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: Understanding the Phases of the Software Development Life Cycle](https://harness.io/blog/devops/software-development-life-cycle/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: Key Components of a CI/CD Pipeline](https://www.cloudbees.com/blog/ci-cd-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.thundra.io: Why a CI/CD Pipeline Makes Good Business Sense](https://blog.thundra.io/why-a-ci/cd-pipeline-makes-good-business-sense) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: Cloud Native CI/CD: The Ultimate Checklist](https://jfrog.com/blog/cloud-native-ci-cd-the-ultimate-checklist/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: How to Accelerate Software Delivery with Hybrid Cloud CI/CD (e-commerce) 🌟](https://jfrog.com/blog/how-to-accelerate-software-delivery-with-hybrid-cloud-ci-cd/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [harness.io: Streamlining CI/CD and Optimizing AWS Cloud Spend](https://harness.io/blog/continuous-integration/streamlining-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sdtimes.com: The State of CI/CD](https://sdtimes.com/cicd/the-state-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [javacodegeeks.com: The Case Against CI/CD](https://www.javacodegeeks.com/2021/08/the-case-against-ci-cd.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Improve Dev Experience to Maximize the Business Value of CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [community.dataminer.services: CI/CD and the Agile Principles](https://community.dataminer.services/ci-cd-and-the-agile-principles/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Automated Build and Deploy Pipelines for Kubernetes](https://medium.com/codezero-reflections/automated-build-and-deploy-pipelines-for-kubernetes-d268542cca52) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Next Generation Kubernetes Deployments](https://medium.com/codezero-reflections/next-generation-kubernetes-deployments-12637eae9d68) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==levelup.gitconnected.com: Basics of CI/CD==](https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [techrepublic.com: CI/CD platforms: How to choose the right continuous integration and delivery system for your business](https://www.techrepublic.com/article/how-to-choose-the-right-cicd-platform/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==stackoverflow.blog: Fulfilling the promise of CI/CD==](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==speakerdeck.com: Deployment Scripting != Continuous Delivery==](https://speakerdeck.com/devopslx/cd-and-optimized-cloud-spend?slide=12) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: Top 10 CI/CD Pipeline Implementation Challenges And Solutions](https://www.lambdatest.com/blog/cicd-pipeline-challenges/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium.com/softwareimprovementgroup: CI/CD best practices: How to set up your pipeline](https://medium.com/softwareimprovementgroup/ci-cd-best-practices-how-to-set-up-your-pipeline-4643eea14bfa) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium.com/dynatrace-engineering: How to combine and automate infrastructure and application deployment in a microservice environment](https://medium.com/dynatrace-engineering/how-to-combine-and-automate-infrastructure-and-application-deployment-in-a-microservice-environment-a16b664bb8b5) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [thenewstack.io: 4 Best Practices to Drive Successful Adoption of CI/CD](https://thenewstack.io/four-best-practices-to-drive-successful-adoption-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://harness.io/blog/software-delivery-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@rifkikarimr: Continuous Integration and Continuous Deployment: Best Practices for DevOps 🌟](https://medium.com/@rifkikarimr/continuous-integration-and-continuous-deployment-best-practices-for-devops-b99eac071a5c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==guru99.com: CI/CD Pipeline: Learn with Example== 🌟🌟🌟](https://www.guru99.com/ci-cd-pipeline.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dzone.com: How To Build an Effective CI/CD Pipeline==](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==spacelift.io: Kubernetes CI/CD Pipelines – 7 Best Practices and Tools | James Walker== 🌟](https://spacelift.io/blog/kubernetes-ci-cd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Embracing Database Deployments in CI/CD Practices with Git](https://thenewstack.io/embracing-database-deployments-in-ci-cd-practices-with-git/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hart-michael.medium.com: Why You Need Continuous Deployment](https://hart-michael.medium.com/why-you-need-continuous-deployment-93d7b5936523) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dzone.com: An Overview of CI/CD Pipelines With Kubernetes==](https://dzone.com/articles/an-overview-of-cicd-pipelines-with-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==thenewstack.io: Kubernetes CI/CD Pipelines Explained==](https://thenewstack.io/kubernetes-ci-cd-pipelines-explained/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==betanews.com: Overcoming observability challenges in the CI/CD Pipeline==](https://betanews.com/2022/01/26/overcoming-observability-challenges/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [split.io: Progressive Delivery](https://www.split.io/glossary/progressive-delivery/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: Progressive Delivery: Everything You Need to Know](https://harness.io/blog/feature-flags/progressive-delivery/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works/blog/progressively-delivering-applications-across-cloud-and-on-premise) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - It really depends on the needs and budget. When releasing to development/staging environments, a recreate or ramped deployment is usually a good choice. When it comes to production, a ramped or blue/green deployment is usually a good fit, but proper testing of the new platform is necessary.
+          - Blue/green and shadow strategies have more impact on the budget as it requires double resource capacity. If the application lacks in tests or if there is little confidence about the impact/stability of the software, then a canary, a/b testing or shadow release can be used. If your business requires testing of a new feature amongst a specific pool of users that can be filtered depending on some parameters like geolocation, language, operating system or browser features, then you may want to use the a/b testing technique.
+          - Last but not least, a shadow release is complex and requires extra work to mock egress traffic which is mandatory when calling external dependencies with mutable actions (email, bank, etc.). However, this technique can be useful when migrating to a new database technology and use shadow traffic to monitor system performance under load.
+
+  - **(N/A)** [harness.io: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://harness.io/blog/continuous-verification/blue-green-canary-deployment-strategies/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Continuous Kubernetes blue-green deployments on Azure using Nginx, AppGateway or TrafficManager — part 2](https://medium.com/@denniszielke/continuous-kubernetes-blue-green-deployments-on-azure-using-nginx-appgateway-or-trafficmanager-4490bce29cb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphoreci.com/blog/continuous-blue-green-deployments-with-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cd.foundation: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://cd.foundation/blog/2021/03/24/intro-to-deployment-strategies-blue-green-canary-and-more) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopslearners.com: Blue-Green vs Canary Deployment](https://devopslearners.com/blue-green-vs-canary-deployment-76436d7f6bc1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A ](https://www.youtube.com/watch?v=aU-EtdEOdlM) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: Pipeline Patterns for CI/CD Pipelines 🌟](https://harness.io/blog/devops/deployment-pipeline-patterns/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: CI/CD with kubernetes 🌟](https://thenewstack.io/ebooks/kubernetes/ci-cd-with-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [mediatemple.net: Cloud-Native CI/CD Workflows in AWS: 3 Use Cases](https://mediatemple.net/blog/cloud-hosting/cicd-workflows-aws-3-use-cases/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [trek10.com: Enterprise CI/CD on AWS: a pragmatic approach](https://www.trek10.com/blog/pragmatic-enterprise-cicd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GigaOm's Radar for Enterprise CI/CD 🌟](https://jfrog.com/whitepaper/gigaom-radar-for-enterprise-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Terraform Enterprise 2.0](https://t.co/UmacHpStqI) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Buildbot](https://t.co/qXtIPX5eF6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [PMEase QuickBuild](https://www.pmease.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [FossFLOW](https://github.com/stan-smith/FossFLOW) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Programming with GitHub Copilot Agent Mode](https://t.co/FhNsA9iy4Q) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Gama: Terminal UI for GitHub Actions](https://github.com/termkit/gama) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [GitBook Webinar: GitBook for Public Docs](https://youtu.be/gnYU0jtQbug?si=dWSDPD4eXvF3dx5r) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
 ## Jenkins
-  - **(2024)** [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees](https://www.cloudbees.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins.io (new Jenkins 2.0 site) 🌟](https://jenkins.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/jenkinsci 🌟](https://github.com/jenkinsci) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [reddit.com/r/jenkinsci 🌟](https://www.reddit.com/r/jenkinsci) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: getting started with jenkins the ultimate guide](https://dzone.com/articles/getting-started-with-jenkins-the-ultimate-guide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [WebSocket support in now available for Jenkins CLI and agent networking!](https://jenkins.io/blog/2020/02/02/web-socket/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟](https://webhookrelay.com/blog/2017/11/23/github-jenkins-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: Jenkins on PaaS](https://dzone.com/refcardz/jenkins-paas) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io 2020-05-06: Slave to Agent renaming. Renaming of the official Docker images for Jenkins agents](https://www.jenkins.io/blog/2020/05/06/docker-agent-image-renaming/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Windows Docker Agent Images: General Availability 🌟](https://www.jenkins.io/blog/2020/05/11/docker-windows-agents/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins: Shifting Gears 🌟🌟](https://www.jenkins.io/blog/2018/08/31/shifting-gears/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aws.amazon.com/blogs: Why Jenkins still continuously serves developers 🌟](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [On Jenkins Terminology Updates](https://www.jenkins.io/blog/2020/06/18/terminology-update/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Deploy your App Using CI/CD Pipeline](https://medium.com/wind-of-change/creating-a-ci-cd-pipeline-6ff9aeb0848c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring on the Top of Kubernetes 🌟](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cross account ECR push with Jenkins](https://devopsformula.hashnode.dev/cross-account-ecr-push-with-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: Easily Automate Your CI/CD Pipeline With Jenkins, Helm, and Kubernetes 🌟](https://dzone.com/articles/easily-automate-your-cicd-pipeline-with-jenkins-he) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Building Pipeline and Launching Jenkins in Container](https://medium.com/@rishabh1799/building-pipeline-and-launching-jenkins-in-container-d4faf39de173) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.lambdatest.com/blog/jenkins-pipeline-tutorial/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: MSBuild With Jenkins | Jenkins For C# / .NET Applications](https://www.youtube.com/watch?v=uC7vajbnZS4) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betsol.com: DevOps Using Jenkins, Docker, and Kubernetes](https://www.betsol.com/blog/devops-using-jenkins-docker-and-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Setup Chained Jenkins Declarative Pipeline Projects with Triggers 🌟](https://medium.com/@rosaniline/setup-chained-jenkins-declarative-pipeline-projects-with-triggers-d3d04f1daf75) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [linkedin: Jenkins Server setup with dynamic worker nodes](https://www.linkedin.com/pulse/jenkins-server-setup-dynamic-worker-nodes-shishir-khandelwal/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: CI/CD with Dockers and Jenkins](https://medium.com/avmconsulting-blog/ci-cd-with-dockers-and-jenkins-70b6f801f9f7) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Docker image updates](https://www.jenkins.io/blog/2021/02/08/docker-base-os-upgrade/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.executeautomation.com: Running Jenkins Build Agent within Docker container – Part A](https://blog.executeautomation.com/running-jenkins-build-agent-within-docker-container-part-a/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: How To Set Up Continuous Integration With Git and Jenkins?](https://www.lambdatest.com/blog/how-to-setup-continuous-integration-with-git-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Jenkins: running workers in Kubernetes and Docker images build](https://itnext.io/jenkins-running-workers-in-kubernetes-and-docker-images-build-83299a10f3ca) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aws.amazon.com: How to cost optimize Jenkins jobs on Kubernetes with EC2 Spot Instances 🌟](https://aws.amazon.com/getting-started/hands-on/cost-optimize-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring on the Top of Kubernetes](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [amazon.com: Building a serverless Jenkins environment on AWS Fargate](https://aws.amazon.com/es/blogs/devops/building-a-serverless-jenkins-environment-on-aws-fargate/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: How to Create a GitLab Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?app=desktop&v=y4XGFluzPHY&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: Jenkins Tutorial 🌟](https://www.lambdatest.com/learning-hub/jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&t=657s&ab_channel=BribeByBytes) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: What is Pipeline as Code, and How Can You Leverage It?](https://harness.io/blog/devops/pipeline-as-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: How To Set Jenkins Pipeline Environment Variables? 🌟](https://www.lambdatest.com/blog/set-jenkins-pipeline-environment-variables-list/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [slideshare.net: Jeff Geerling - Jenkins or: How I learned to stop worrying and love automation 🌟](https://www.slideshare.net/geerlingguy/jenkins-or-how-i-learned-to-stop-worrying-and-love-automation) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube - CloudBeesTV: How to Run a Shell Script in Jenkins Pipeline 🌟](https://www.youtube.com/watch?v=mbeQWBNaNKQ&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Make Jenkins logs pretty](https://opensource.com/article/21/5/jenkins-logs) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Dynamic and reactive parameterization in Jenkins pipelines using HTML, Groovy, and Bash 🌟](https://medium.com/globant/dynamic-and-reactive-parameterization-in-jenkins-pipelines-using-html-groovy-and-bash-27b031fcd69b) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [automationreinvented.blogspot.com: How to schedule a job in Jenkins pipeline? How to run automation suite everyday with auto trigger scheduler?](https://automationreinvented.blogspot.com/2021/05/how-to-schedule-job-in-jenkins-pipeline.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [automationscript.com: How To Read Jenkins Build Log Console Output](https://automationscript.com/how-to-read-console-output-in-jenkins-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: So, Your Jenkins Is Slow. Here’s How to Fix It 🌟](https://www.cloudbees.com/blog/your-jenkins-slow-how-to-fix) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Jenkins World 2017: How to Use Jenkins Less 🌟](https://www.youtube.com/watch?v=Zeqc6--0eQw&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Build Docker Image using Jenkins Pipeline | Push Docker Image to Docker Hub using Jenkins 🌟](https://www.youtube.com/watch?v=ShTC1u7_jew&ab_channel=DevOpsHint) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Online Meetup: From local installation to scalable Jenkins on Kubernetes 🌟](https://www.youtube.com/watch?v=BsYYVkophsk) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Jenkins and Sonarqube Integration with Maven | SonarScanner for Maven and Integrate with Jenkins](https://www.youtube.com/watch?v=yEyVXUExSqs&ab_channel=DevOpsHint) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: LambdaTest - Jenkins Tutorial For Beginners | Part 7 | Adding A Jenkins Controller & Jenkins Agent Node On Azure](https://www.youtube.com/watch?v=-NUQhwmhTCw&ab_channel=LambdaTest) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Jenkins On Kubernetes Tutorial | How to setup Jenkins on kubernetes cluster | Thetips4you 🌟](https://www.youtube.com/watch?v=_r-C_FFDLmU&ab_channel=Thetips4you) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.google.com: Jenkins Artwork Social Media & Open Graph Images](https://docs.google.com/presentation/d/1Q1PgNnRTgzBpVRXPqQo3PudzCa2eoc6_1_NRjFRMLrU/edit#slide=id.g778409cba7_0_46) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [automationreinvented.blogspot.com: How to send email notification in Jenkins using Groovy Script?](https://automationreinvented.blogspot.com/2021/06/how-to-send-email-notification-in.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gist.github.com/twasink: Jenkins Image, using Docker-in-Docker 🌟](https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Run Jenkins Pipeline With AWS ECS Fargate & AWS EC2 Based ECS Cluster | Learn DevOps Tools Ep4](https://www.youtube.com/watch?v=K2CBHLwPL50&ab_channel=SandipDas) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube LambdaTest: Jenkins Tutorial For Beginners | Part 9 | Cross Browser Testing With LambdaTest Jenkins Plugin](https://www.youtube.com/watch?v=x5cyrE9ecis&ab_channel=LambdaTest) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Integrate BitBucket & Jenkins](https://medium.com/ampersand-academy/integrate-bitbucket-jenkins-c6e51103d0fe) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developer.okta.com: Update App Secrets with Jenkins CI and .NET Core](https://developer.okta.com/blog/2021/07/08/jenkins-ci-dotnet-update-secrets) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Creating a CI/CD deployment pipeline for JenkinsCI with AWS SAM Pipelines 🌟](https://www.youtube.com/watch?v=tJOlk-B66R4&ab_channel=ServerlessLand) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blogs.sap.com: SAP Cloud Integration automated testing using Jenkins and Pipeline as a Code approach](https://blogs.sap.com/2021/07/29/sap-cloud-integration-automated-testing-using-jenkins-and-pipeline-as-a-code-approach/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/jenkins-infra/jenkins.io/issues](https://github.com/jenkins-infra/jenkins.io/issues) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Jenkins Tutorial — Part 1 — Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [CloudBees](https://www.cloudbees.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins.io (new Jenkins 2.0 site) 🌟](https://jenkins.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/jenkinsci 🌟](https://github.com/jenkinsci) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [reddit.com/r/jenkinsci 🌟](https://www.reddit.com/r/jenkinsci) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: getting started with jenkins the ultimate guide](https://dzone.com/articles/getting-started-with-jenkins-the-ultimate-guide) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WebSocket support in now available for Jenkins CLI and agent networking!](https://jenkins.io/blog/2020/02/02/web-socket/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟](https://webhookrelay.com/blog/2017/11/23/github-jenkins-guide/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: Jenkins on PaaS](https://dzone.com/refcardz/jenkins-paas) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io 2020-05-06: Slave to Agent renaming. Renaming of the official Docker images for Jenkins agents](https://www.jenkins.io/blog/2020/05/06/docker-agent-image-renaming/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Windows Docker Agent Images: General Availability 🌟](https://www.jenkins.io/blog/2020/05/11/docker-windows-agents/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins: Shifting Gears 🌟🌟](https://www.jenkins.io/blog/2018/08/31/shifting-gears/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aws.amazon.com/blogs: Why Jenkins still continuously serves developers 🌟](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [On Jenkins Terminology Updates](https://www.jenkins.io/blog/2020/06/18/terminology-update/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Deploy your App Using CI/CD Pipeline](https://medium.com/wind-of-change/creating-a-ci-cd-pipeline-6ff9aeb0848c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring on the Top of Kubernetes 🌟](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cross account ECR push with Jenkins](https://devopsformula.hashnode.dev/cross-account-ecr-push-with-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: Easily Automate Your CI/CD Pipeline With Jenkins, Helm, and Kubernetes 🌟](https://dzone.com/articles/easily-automate-your-cicd-pipeline-with-jenkins-he) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Building Pipeline and Launching Jenkins in Container](https://medium.com/@rishabh1799/building-pipeline-and-launching-jenkins-in-container-d4faf39de173) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.lambdatest.com/blog/jenkins-pipeline-tutorial/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube: MSBuild With Jenkins | Jenkins For C# / .NET Applications](https://www.youtube.com/watch?v=uC7vajbnZS4) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betsol.com: DevOps Using Jenkins, Docker, and Kubernetes](https://www.betsol.com/blog/devops-using-jenkins-docker-and-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Setup Chained Jenkins Declarative Pipeline Projects with Triggers 🌟](https://medium.com/@rosaniline/setup-chained-jenkins-declarative-pipeline-projects-with-triggers-d3d04f1daf75) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [linkedin: Jenkins Server setup with dynamic worker nodes](https://www.linkedin.com/pulse/jenkins-server-setup-dynamic-worker-nodes-shishir-khandelwal/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: CI/CD with Dockers and Jenkins](https://medium.com/avmconsulting-blog/ci-cd-with-dockers-and-jenkins-70b6f801f9f7) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Docker image updates](https://www.jenkins.io/blog/2021/02/08/docker-base-os-upgrade/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.executeautomation.com: Running Jenkins Build Agent within Docker container – Part A](https://blog.executeautomation.com/running-jenkins-build-agent-within-docker-container-part-a/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: How To Set Up Continuous Integration With Git and Jenkins?](https://www.lambdatest.com/blog/how-to-setup-continuous-integration-with-git-jenkins/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [itnext.io: Jenkins: running workers in Kubernetes and Docker images build](https://itnext.io/jenkins-running-workers-in-kubernetes-and-docker-images-build-83299a10f3ca) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aws.amazon.com: How to cost optimize Jenkins jobs on Kubernetes with EC2 Spot Instances 🌟](https://aws.amazon.com/getting-started/hands-on/cost-optimize-jenkins/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring on the Top of Kubernetes](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [amazon.com: Building a serverless Jenkins environment on AWS Fargate](https://aws.amazon.com/es/blogs/devops/building-a-serverless-jenkins-environment-on-aws-fargate/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: How to Create a GitLab Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?app=desktop&v=y4XGFluzPHY&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [lambdatest.com: Jenkins Tutorial 🌟](https://www.lambdatest.com/learning-hub/jenkins) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&t=657s&ab_channel=BribeByBytes) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: What is Pipeline as Code, and How Can You Leverage It?](https://harness.io/blog/devops/pipeline-as-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: How To Set Jenkins Pipeline Environment Variables? 🌟](https://www.lambdatest.com/blog/set-jenkins-pipeline-environment-variables-list/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [slideshare.net: Jeff Geerling - Jenkins or: How I learned to stop worrying and love automation 🌟](https://www.slideshare.net/geerlingguy/jenkins-or-how-i-learned-to-stop-worrying-and-love-automation) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube - CloudBeesTV: How to Run a Shell Script in Jenkins Pipeline 🌟](https://www.youtube.com/watch?v=mbeQWBNaNKQ&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [opensource.com: Make Jenkins logs pretty](https://opensource.com/article/21/5/jenkins-logs) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Dynamic and reactive parameterization in Jenkins pipelines using HTML, Groovy, and Bash 🌟](https://medium.com/globant/dynamic-and-reactive-parameterization-in-jenkins-pipelines-using-html-groovy-and-bash-27b031fcd69b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [automationreinvented.blogspot.com: How to schedule a job in Jenkins pipeline? How to run automation suite everyday with auto trigger scheduler?](https://automationreinvented.blogspot.com/2021/05/how-to-schedule-job-in-jenkins-pipeline.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [automationscript.com: How To Read Jenkins Build Log Console Output](https://automationscript.com/how-to-read-console-output-in-jenkins-pipeline/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [cloudbees.com: So, Your Jenkins Is Slow. Here’s How to Fix It 🌟](https://www.cloudbees.com/blog/your-jenkins-slow-how-to-fix) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube: Jenkins World 2017: How to Use Jenkins Less 🌟](https://www.youtube.com/watch?v=Zeqc6--0eQw&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube: Build Docker Image using Jenkins Pipeline | Push Docker Image to Docker Hub using Jenkins 🌟](https://www.youtube.com/watch?v=ShTC1u7_jew&ab_channel=DevOpsHint) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Online Meetup: From local installation to scalable Jenkins on Kubernetes 🌟](https://www.youtube.com/watch?v=BsYYVkophsk) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Jenkins and Sonarqube Integration with Maven | SonarScanner for Maven and Integrate with Jenkins](https://www.youtube.com/watch?v=yEyVXUExSqs&ab_channel=DevOpsHint) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: LambdaTest - Jenkins Tutorial For Beginners | Part 7 | Adding A Jenkins Controller & Jenkins Agent Node On Azure](https://www.youtube.com/watch?v=-NUQhwmhTCw&ab_channel=LambdaTest) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube: Jenkins On Kubernetes Tutorial | How to setup Jenkins on kubernetes cluster | Thetips4you 🌟](https://www.youtube.com/watch?v=_r-C_FFDLmU&ab_channel=Thetips4you) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [docs.google.com: Jenkins Artwork Social Media & Open Graph Images](https://docs.google.com/presentation/d/1Q1PgNnRTgzBpVRXPqQo3PudzCa2eoc6_1_NRjFRMLrU/edit#slide=id.g778409cba7_0_46) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [automationreinvented.blogspot.com: How to send email notification in Jenkins using Groovy Script?](https://automationreinvented.blogspot.com/2021/06/how-to-send-email-notification-in.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [gist.github.com/twasink: Jenkins Image, using Docker-in-Docker 🌟](https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Run Jenkins Pipeline With AWS ECS Fargate & AWS EC2 Based ECS Cluster | Learn DevOps Tools Ep4](https://www.youtube.com/watch?v=K2CBHLwPL50&ab_channel=SandipDas) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube LambdaTest: Jenkins Tutorial For Beginners | Part 9 | Cross Browser Testing With LambdaTest Jenkins Plugin](https://www.youtube.com/watch?v=x5cyrE9ecis&ab_channel=LambdaTest) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium: Integrate BitBucket & Jenkins](https://medium.com/ampersand-academy/integrate-bitbucket-jenkins-c6e51103d0fe) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developer.okta.com: Update App Secrets with Jenkins CI and .NET Core](https://developer.okta.com/blog/2021/07/08/jenkins-ci-dotnet-update-secrets) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Creating a CI/CD deployment pipeline for JenkinsCI with AWS SAM Pipelines 🌟](https://www.youtube.com/watch?v=tJOlk-B66R4&ab_channel=ServerlessLand) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blogs.sap.com: SAP Cloud Integration automated testing using Jenkins and Pipeline as a Code approach](https://blogs.sap.com/2021/07/29/sap-cloud-integration-automated-testing-using-jenkins-and-pipeline-as-a-code-approach/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/jenkins-infra/jenkins.io/issues](https://github.com/jenkins-infra/jenkins.io/issues) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Jenkins Tutorial — Part 1 — Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
 
       - [itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07)
           - [itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad)
           - [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=563a447caa2b)
 
-  - **(2024)** [dev.to: Send notification to slack from the Jenkins CI Job and Jenkinsfile](https://dev.to/eavnitech/send-notification-to-slack-from-the-jenkins-ci-job-and-jenkinsfile-e-avni-tech-2lm5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: Setting up a CI/CD with Jenkins](https://dev.to/kennethatria/setting-up-a-ci-cd-with-jenkins-4hln) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fabiogomezdiaz.com: How to Run Packer Pipelines on Jenkins: Part 1 - Traditional Jenkins](https://fabiogomezdiaz.com/posts/how-to-run-packer-pipelines-on-jenkins-part1-traditional-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Docker images use Java 11 by default 🌟](https://www.jenkins.io/blog/2021/08/17/docker-images-use-jdk-11-by-default/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [community.jenkins.io: DSTY - jenkins-std-lib (Shared Library) - Interact with files/directories using Groovy!](https://community.jenkins.io/t/dsty-jenkins-std-lib-shared-library-interact-with-files-directories-using-groovy/398) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Connecting and authenticating to Jenkins with Teleport Application Access](https://github.com/gravitational/teleport/discussions/8330) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [automationreinvented.blogspot.com: How to create parameterized job in Jenkins? What is parameterized build in Jenkins?](https://automationreinvented.blogspot.com/2021/08/how-to-create-parameterized-job-in.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/3637829/continuous-integration-with-docker-and-jenkins.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==lambdatest.com: What Is Jenkins Used For?== 🌟](https://www.lambdatest.com/blog/what-is-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==developers.redhat.com: A developer's guide to CI/CD and GitOps with Jenkins Pipelines==](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==inder-devops.medium.com: CI/CD setup in just 5 mins with basic yaml configuration==](https://inder-devops.medium.com/ci-cd-setup-in-just-5-mins-with-basic-yaml-configuration-95b8e894a110) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Cloud Learn Hub - How to Integrate Jenkins with Ansible Tower?](https://www.youtube.com/watch?v=E3Xyu29LIwY&ab_channel=CLOUDLEARNHUB) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==youtube: Tech World with Nana - Jenkins Tutorial for Beginners==](https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==camunda.com: How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines==](https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==aws.amazon.com: Jenkins high availability and disaster recovery on AWS== 🌟](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [fosstechnix.com: How to Validate Jenkinsfile using Visual Studio Code](https://www.fosstechnix.com/validate-jenkinsfile-using-visual-studio-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freecodecamp.org: Learn Jenkins by Building a CI/CD Pipeline 🌟](https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/ni-tech-talk: Creating Customized Kubernetes Pod Templates using Groovy in Jenkins Pipeline 🌟](https://medium.com/ni-tech-talk/creating-customized-kubernetes-pod-templates-using-groovy-in-jenkins-pipeline-7007f023a585) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [palak-bhawsar.hashnode.dev: Automated CI/CD pipeline for Java Project](https://palak-bhawsar.hashnode.dev/automated-cicd-pipeline-for-java-project) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==faun.pub: Set up Jenkins on a Kubernetes Cluster==](https://faun.pub/set-up-jenkins-on-a-kubernetes-cluster-2b982c840ebe) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devops.dev: Blue-Green Deployment (CI/CD) Pipelines with Docker, GitHub, Jenkins and SonarQube](https://blog.devops.dev/blue-green-deployment-ci-cd-pipelines-with-docker-github-and-jenkins-6a262b2994c6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Accelerate Development with Jenkins Pipelines and Continuous Integration](https://itnext.io/accelerate-development-with-jenkins-pipelines-and-continuous-integration-9a6c7857ccd2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: Continuous Integration in AWS Using Jenkins Pipelines: Best Practices and Strategies](https://dzone.com/articles/continuous-integration-in-aws-using-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [praveendandu24.medium.com: Understanding the Differences Between Jenkins Scripted and Declarative Pipeline: A Comprehensive Guide with Real-World Examples](https://praveendandu24.medium.com/understanding-the-differences-between-jenkins-scripted-and-declarative-pipeline-a-comprehensive-960826e26c2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [prabirmahatha.hashnode.dev: Jenkins Declarative Pipeline with Docker](https://prabirmahatha.hashnode.dev/jenkins-declarative-pipeline-with-docker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.devops.dev: Deploying Helm Charts with Jenkins and Groovy: A Comprehensive Guide](https://blog.devops.dev/deploying-helm-charts-with-jenkins-and-groovy-a-comprehensive-guide-c2aa0f2bd424) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==github.com/jenkinsci/helm-charts==](https://github.com/jenkinsci/helm-charts) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aws.plainenglish.io: Deploying AWS Resources and a Jenkins Server with Terraform](https://aws.plainenglish.io/deploying-aws-resources-and-a-jenkins-server-with-terraform-297bad905459) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aws.plainenglish.io: Terraform: How To Deploy Jenkins CI/CD Pipelines Using Terraform](https://aws.plainenglish.io/terraform-how-to-deploy-jenkins-ci-cd-pipelines-using-terraform-9ffc086dcd56) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsistheway.io: Financial Transactions Simplified With Faster Build Cycles 🌟](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-fintech-excellence/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsistheway.io: Advanced Declarative Pipelines for Workflow and Decision Automation Platform 🌟](https://jenkinsistheway.io/user-story/to-build-ci-cd-that-fits-advanced-and-unique-use-cases/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsistheway.io: Jenkins is the way to DevSecOps. Cybersecurity CI/CD](https://jenkinsistheway.io/user-story/to-devsecops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Presentation: NADOG - Evolution of open source CI/CD tools - Oleg Nenashev 🌟](https://docs.google.com/presentation/d/17bQ30ycAUB-k4YZ4dC23cxNiNChvRRQO7_6FNGcS0j4/edit?usp=sharing) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [riptutorial.com: Learning Jenkins](https://riptutorial.com/ebook/jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Jenkins Pipeline with Plugins](https://www.cloudbees.com/resource/whitepaper/jenkins-pipeline-plugins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Installing Jenkins on Kubernetes 🌟](https://www.jenkins.io/doc/book/installing/kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ssbostan/jenkins-stack-kubernetes 🌟](https://github.com/ssbostan/jenkins-stack-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ssbostan/jenkins-tutorial 🌟](https://github.com/ssbostan/jenkins-tutorial) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [dev.to: Send notification to slack from the Jenkins CI Job and Jenkinsfile](https://dev.to/eavnitech/send-notification-to-slack-from-the-jenkins-ci-job-and-jenkinsfile-e-avni-tech-2lm5) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: Setting up a CI/CD with Jenkins](https://dev.to/kennethatria/setting-up-a-ci-cd-with-jenkins-4hln) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fabiogomezdiaz.com: How to Run Packer Pipelines on Jenkins: Part 1 - Traditional Jenkins](https://fabiogomezdiaz.com/posts/how-to-run-packer-pipelines-on-jenkins-part1-traditional-jenkins/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jenkins.io: Docker images use Java 11 by default 🌟](https://www.jenkins.io/blog/2021/08/17/docker-images-use-jdk-11-by-default/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [community.jenkins.io: DSTY - jenkins-std-lib (Shared Library) - Interact with files/directories using Groovy!](https://community.jenkins.io/t/dsty-jenkins-std-lib-shared-library-interact-with-files-directories-using-groovy/398) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Connecting and authenticating to Jenkins with Teleport Application Access](https://github.com/gravitational/teleport/discussions/8330) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [automationreinvented.blogspot.com: How to create parameterized job in Jenkins? What is parameterized build in Jenkins?](https://automationreinvented.blogspot.com/2021/08/how-to-create-parameterized-job-in.html) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/3637829/continuous-integration-with-docker-and-jenkins.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==lambdatest.com: What Is Jenkins Used For?== 🌟](https://www.lambdatest.com/blog/what-is-jenkins/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==developers.redhat.com: A developer's guide to CI/CD and GitOps with Jenkins Pipelines==](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==inder-devops.medium.com: CI/CD setup in just 5 mins with basic yaml configuration==](https://inder-devops.medium.com/ci-cd-setup-in-just-5-mins-with-basic-yaml-configuration-95b8e894a110) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Cloud Learn Hub - How to Integrate Jenkins with Ansible Tower?](https://www.youtube.com/watch?v=E3Xyu29LIwY&ab_channel=CLOUDLEARNHUB) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==youtube: Tech World with Nana - Jenkins Tutorial for Beginners==](https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==camunda.com: How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines==](https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==aws.amazon.com: Jenkins high availability and disaster recovery on AWS== 🌟](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fosstechnix.com: How to Validate Jenkinsfile using Visual Studio Code](https://www.fosstechnix.com/validate-jenkinsfile-using-visual-studio-code/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [freecodecamp.org: Learn Jenkins by Building a CI/CD Pipeline 🌟](https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/ni-tech-talk: Creating Customized Kubernetes Pod Templates using Groovy in Jenkins Pipeline 🌟](https://medium.com/ni-tech-talk/creating-customized-kubernetes-pod-templates-using-groovy-in-jenkins-pipeline-7007f023a585) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [palak-bhawsar.hashnode.dev: Automated CI/CD pipeline for Java Project](https://palak-bhawsar.hashnode.dev/automated-cicd-pipeline-for-java-project) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==faun.pub: Set up Jenkins on a Kubernetes Cluster==](https://faun.pub/set-up-jenkins-on-a-kubernetes-cluster-2b982c840ebe) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devops.dev: Blue-Green Deployment (CI/CD) Pipelines with Docker, GitHub, Jenkins and SonarQube](https://blog.devops.dev/blue-green-deployment-ci-cd-pipelines-with-docker-github-and-jenkins-6a262b2994c6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Accelerate Development with Jenkins Pipelines and Continuous Integration](https://itnext.io/accelerate-development-with-jenkins-pipelines-and-continuous-integration-9a6c7857ccd2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: Continuous Integration in AWS Using Jenkins Pipelines: Best Practices and Strategies](https://dzone.com/articles/continuous-integration-in-aws-using-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [praveendandu24.medium.com: Understanding the Differences Between Jenkins Scripted and Declarative Pipeline: A Comprehensive Guide with Real-World Examples](https://praveendandu24.medium.com/understanding-the-differences-between-jenkins-scripted-and-declarative-pipeline-a-comprehensive-960826e26c2) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [prabirmahatha.hashnode.dev: Jenkins Declarative Pipeline with Docker](https://prabirmahatha.hashnode.dev/jenkins-declarative-pipeline-with-docker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devops.dev: Deploying Helm Charts with Jenkins and Groovy: A Comprehensive Guide](https://blog.devops.dev/deploying-helm-charts-with-jenkins-and-groovy-a-comprehensive-guide-c2aa0f2bd424) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [==github.com/jenkinsci/helm-charts==](https://github.com/jenkinsci/helm-charts) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aws.plainenglish.io: Deploying AWS Resources and a Jenkins Server with Terraform](https://aws.plainenglish.io/deploying-aws-resources-and-a-jenkins-server-with-terraform-297bad905459) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [aws.plainenglish.io: Terraform: How To Deploy Jenkins CI/CD Pipelines Using Terraform](https://aws.plainenglish.io/terraform-how-to-deploy-jenkins-ci-cd-pipelines-using-terraform-9ffc086dcd56) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkinsistheway.io: Financial Transactions Simplified With Faster Build Cycles 🌟](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-fintech-excellence/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkinsistheway.io: Advanced Declarative Pipelines for Workflow and Decision Automation Platform 🌟](https://jenkinsistheway.io/user-story/to-build-ci-cd-that-fits-advanced-and-unique-use-cases/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkinsistheway.io: Jenkins is the way to DevSecOps. Cybersecurity CI/CD](https://jenkinsistheway.io/user-story/to-devsecops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Presentation: NADOG - Evolution of open source CI/CD tools - Oleg Nenashev 🌟](https://docs.google.com/presentation/d/17bQ30ycAUB-k4YZ4dC23cxNiNChvRRQO7_6FNGcS0j4/edit?usp=sharing) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [riptutorial.com: Learning Jenkins](https://riptutorial.com/ebook/jenkins) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [cloudbees.com: Jenkins Pipeline with Plugins](https://www.cloudbees.com/resource/whitepaper/jenkins-pipeline-plugins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Installing Jenkins on Kubernetes 🌟](https://www.jenkins.io/doc/book/installing/kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ssbostan/jenkins-stack-kubernetes 🌟](https://github.com/ssbostan/jenkins-stack-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ssbostan/jenkins-tutorial 🌟](https://github.com/ssbostan/jenkins-tutorial) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
       - [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c)
-  - **(2024)** [ssbostan/jenkins-stack-docker](https://github.com/ssbostan/jenkins-stack-docker) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Jenkins Operator becomes an official sub-project!](https://www.jenkins.io/blog/2021/04/15/jenkins-operator-sub-project/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Security Validator for Jenkins Operator for Kubernetes](https://www.jenkins.io/blog/2021/08/23/jenkins-operator-security-work-report/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cd.foundation: Going Cloud Native with Jenkins Kubernetes Operator](https://cd.foundation/blog/2021/09/02/going-cloud-native-with-jenkins-kubernetes-operator/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: Groovy, a Rapid-Development JVM Language](https://dzone.com/refcardz/groovy) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Read and write files with Groovy](https://opensource.com/article/21/4/groovy-io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: Groovy Goodness: Using The Call Operator](https://dzone.com/articles/groovy-goodness-using-the-call-operator) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Cheat Sheets](https://nubenetes.com/cheatsheets/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins SIG Platform 🌟](https://www.jenkins.io/sigs/platform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins SIG Cloud Native 🌟](https://www.jenkins.io/sigs/cloud-native/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==blog.techiescamp.com/jenkins-course== 🌟🌟🌟](https://blog.techiescamp.com/jenkins-course/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [ssbostan/jenkins-stack-docker](https://github.com/ssbostan/jenkins-stack-docker) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Jenkins Operator becomes an official sub-project!](https://www.jenkins.io/blog/2021/04/15/jenkins-operator-sub-project/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Security Validator for Jenkins Operator for Kubernetes](https://www.jenkins.io/blog/2021/08/23/jenkins-operator-security-work-report/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cd.foundation: Going Cloud Native with Jenkins Kubernetes Operator](https://cd.foundation/blog/2021/09/02/going-cloud-native-with-jenkins-kubernetes-operator/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: Groovy, a Rapid-Development JVM Language](https://dzone.com/refcardz/groovy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Read and write files with Groovy](https://opensource.com/article/21/4/groovy-io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Groovy Goodness: Using The Call Operator](https://dzone.com/articles/groovy-goodness-using-the-call-operator) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins SIG Platform 🌟](https://www.jenkins.io/sigs/platform/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins SIG Cloud Native 🌟](https://www.jenkins.io/sigs/cloud-native/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==blog.techiescamp.com/jenkins-course== 🌟🌟🌟](https://blog.techiescamp.com/jenkins-course/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [Lesson 5.1: Introduction to Jenkins Multibranch Pipeline](https://blog.techiescamp.com/docs/jenkins-multibranch-pipeline/)
-  - **(2024)** [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [wardviaene/jenkins-course 🌟](https://github.com/wardviaene/jenkins-course) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Job DSL](https://plugins.jenkins.io/job-dsl/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [wardviaene/jenkins-course 🌟](https://github.com/wardviaene/jenkins-course) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Job DSL](https://plugins.jenkins.io/job-dsl/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
           - [Jenkins Job DSL Plugin documentation 🌟](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
 
-  - **(2024)** [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
           - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps) is a style of programming in which the remainder of the program is passed explicitly as a parameter, as opposed to that being handled implicitly represented as call stack.
@@ -727,13 +576,13 @@
               - [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin/#path/pipelineJob-definition-cps-script)
           - [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
 
-  - **(2024)** [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
-  - **(2024)** [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Jenkins Jobs as Code with Groovy DSL (Job DSL plugin) 🌟](https://tech.gogoair.com/jenkins-jobs-as-code-with-groovy-dsl-c8143837593a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Jenkins Jobs as Code with Groovy DSL (Job DSL plugin) 🌟](https://tech.gogoair.com/jenkins-jobs-as-code-with-groovy-dsl-c8143837593a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [**Why Pipeline?**](https://www.jenkins.io/doc/book/pipeline/#why) Jenkins is, fundamentally, an automation engine which supports a number of automation patterns. Pipeline adds a powerful set of automation tools onto Jenkins, supporting use cases that span from simple continuous integration to comprehensive CD pipelines. By modeling a series of related tasks, users can take advantage of the many features of Pipeline:
               - **Code**: Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
@@ -742,564 +591,707 @@
               - **Versatile**: Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
               - **Extensible**: The Pipeline plugin supports custom extensions to its [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) and multiple options for integration with other plugins.
 
-  - **(2024)** [jenkins.io - doc/book/pipeline 🌟](https://jenkins.io/doc/book/pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io - **Jenkinsfile** 🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: **Continuous Delivery with Jenkins Pipeline** 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone refcard: declarative pipeline with jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible, Docker, Golang App) 🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: learn how to setup a cicd pipeline from scratch 🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com - building cicd pipelines with jenkins 🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopscube.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [jenkins.io - doc/book/pipeline 🌟](https://jenkins.io/doc/book/pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io - **Jenkinsfile** 🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone refcard: **Continuous Delivery with Jenkins Pipeline** 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DZone refcard: declarative pipeline with jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible, Docker, Golang App) 🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: learn how to setup a cicd pipeline from scratch 🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [opensource.com - building cicd pipelines with jenkins 🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopscube.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [github.com/LovesCloud/java-groovy-docker](https://github.com/LovesCloud/java-groovy-docker/)
-  - **(2024)** [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins users mailing list: Declarative pipelines vs scripted](http://jenkins-ci.361315.n4.nabble.com/Declarative-pipelines-vs-scripted-td4891792.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟🌟](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins users mailing list: Declarative pipelines vs scripted](http://jenkins-ci.361315.n4.nabble.com/Declarative-pipelines-vs-scripted-td4891792.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟🌟](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - **When writing a pipeline definition, use Declarative syntax.** First, a history lesson. Scripted syntax was released around December of 2014. In February 2017, Declarative syntax was introduced. Until Declarative was released, we had no choice but to use Scripted syntax. However, since that time, many new features, such as matrix, have only been made available for Declarative.
           - **Use shared libraries.** Do you remember the days of when you used inline JavaScript in your web pages? When you introduce a "script" tag into a Declarative pipeline, that's a warning sign that you are starting to head down the same path. When you decide that the "script" tag is the only way to go, instead of using the "script" tag, you should instead create a custom step in a shared library and use that step within your Declarative pipeline.
           - **Don't use shared libraries (the wrong way).** Wait, what? You just told me to use shared libraries and now you're telling me not to use shared libraries. What gives? Many people will treat shared libraries like a programming project. Here's the thing to keep in mind. Scripted and Declarative syntax are meant to only do CI tasks and not to be a general purpose programming language. Many Jenkins controller performance issues can be traced back to the misuse of scripted syntax and shared libraries written in a way where all the work is being done within the Jenkins controller itself instead of on the agents.
           - **Only use Scripted syntax when it doesn't make sense to use Declarative plus a shared library.**
 
-  - **(2024)** [mtijhof.wordpress.com: Jenkins: Running a declarative pipeline from your Shared Library 🌟](https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Starting with Declarative 1.2, released in late September, 2017, you can define Declarative Pipelines in your shared libraries as well 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Declarative Pipeline - Jenkins shared library 🌟](https://github.com/gfkse/jenkins-shared-library) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow.com: Can I have an entire declarative pipeline defined and parameterized in a shared library?](https://stackoverflow.com/questions/45889796/can-i-have-an-entire-declarative-pipeline-defined-and-parameterized-in-a-shared) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Share a standard Pipeline across multiple projects with Shared Libraries 🌟](https://www.jenkins.io/blog/2017/10/02/pipeline-templates-with-shared-libraries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Parallel stages with Declarative Pipeline 1.2 🌟](https://www.jenkins.io/blog/2017/09/25/declarative-1/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Building Declarative Pipelines with OpenShift DSL Plugin](https://www.openshift.com/blog/building-declarative-pipelines-openshift-dsl-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [A sustainable pattern with shared library 🌟](https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tomd.xyz: Jenkins shared library: tutorial with examples 🌟](https://tomd.xyz/jenkins-shared-library/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jjba.dev: Jenkins Shared Library with Unit tests](https://jjba.dev/posts/jenkins-shared-library/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: How To Use Shared Libraries In A Jenkins Pipeline? 🌟](https://www.lambdatest.com/blog/use-jenkins-shared-libraries-in-a-jenkins-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Configuration as Code Plugin](https://www.jenkins.io/projects/jcasc/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [mtijhof.wordpress.com: Jenkins: Running a declarative pipeline from your Shared Library 🌟](https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Starting with Declarative 1.2, released in late September, 2017, you can define Declarative Pipelines in your shared libraries as well 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Declarative Pipeline - Jenkins shared library 🌟](https://github.com/gfkse/jenkins-shared-library) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stackoverflow.com: Can I have an entire declarative pipeline defined and parameterized in a shared library?](https://stackoverflow.com/questions/45889796/can-i-have-an-entire-declarative-pipeline-defined-and-parameterized-in-a-shared) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Share a standard Pipeline across multiple projects with Shared Libraries 🌟](https://www.jenkins.io/blog/2017/10/02/pipeline-templates-with-shared-libraries/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Parallel stages with Declarative Pipeline 1.2 🌟](https://www.jenkins.io/blog/2017/09/25/declarative-1/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Building Declarative Pipelines with OpenShift DSL Plugin](https://www.openshift.com/blog/building-declarative-pipelines-openshift-dsl-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [A sustainable pattern with shared library 🌟](https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tomd.xyz: Jenkins shared library: tutorial with examples 🌟](https://tomd.xyz/jenkins-shared-library/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jjba.dev: Jenkins Shared Library with Unit tests](https://jjba.dev/posts/jenkins-shared-library/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: How To Use Shared Libraries In A Jenkins Pipeline? 🌟](https://www.lambdatest.com/blog/use-jenkins-shared-libraries-in-a-jenkins-pipeline/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Configuration as Code Plugin](https://www.jenkins.io/projects/jcasc/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [plugins.jenkins.io/configuration-as-code](https://plugins.jenkins.io/configuration-as-code/)
           - [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
 
-  - **(2024)** [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [https://github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
-  - **(2024)** [Dzone: Running Jenkins Server With Configuration-as-Code 🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Example of Configuration as Code of Jenkins (for Kubernetes) 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [iceburn.medium.com: Jenkins Configuration As Code](https://iceburn.medium.com/jenkins-configuration-as-code-afd9031a42c9) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins-job-builder.readthedocs.io 🌟](https://jenkins-job-builder.readthedocs.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.openstack.org: Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/index.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [faun.pub: Automate Jenkins Pipelines management with Jenkins Job Builder 🌟](https://faun.pub/automate-jenkins-pipelines-management-6e771b5890f) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [plugins.jenkins.io/templating-engine: Jenkins Template Engine JTE 🌟](https://plugins.jenkins.io/templating-engine/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Managing DevSecOps Pipelines at Scale with Jenkins Templating Engine](https://www.cloudbees.com/videos/jenkins-template-pipeline-devsecops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Dzone: Running Jenkins Server With Configuration-as-Code 🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Example of Configuration as Code of Jenkins (for Kubernetes) 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [iceburn.medium.com: Jenkins Configuration As Code](https://iceburn.medium.com/jenkins-configuration-as-code-afd9031a42c9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins-job-builder.readthedocs.io 🌟](https://jenkins-job-builder.readthedocs.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.openstack.org: Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/index.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [faun.pub: Automate Jenkins Pipelines management with Jenkins Job Builder 🌟](https://faun.pub/automate-jenkins-pipelines-management-6e771b5890f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [plugins.jenkins.io/templating-engine: Jenkins Template Engine JTE 🌟](https://plugins.jenkins.io/templating-engine/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: Managing DevSecOps Pipelines at Scale with Jenkins Templating Engine](https://www.cloudbees.com/videos/jenkins-template-pipeline-devsecops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - Are you currently helping build or maintain a Jenkins pipeline for more than one application or team? Are you tired of copying and pasting Jenkinsfiles and tweaking them to fit each team's specific needs? This session will feature a live demonstration of getting up and running with the Jenkins Templating Engine (JTE). Attendees will learn how to stop creating bespoke pipelines on a per-application basis and, instead, create tool-agnostic pipeline templates that multiple teams can inherit - regardless of tech stack.
           - For DevSecOps engineers, this means less copying and pasting and more time spent focusing on the fun parts of the job. For managers or executives worried about compliance and standardization, this approach will ensure security is embedded in every step of the software development lifecycle for every application development team they oversee.
           - Through JTE, businesses can find order in the chaos of managing DevSecOps pipelines at scale. Enable organizational governance, optimize pipeline code reuse and simplify pipeline management for the whole team.
 
-  - **(2024)** [github.com/jenkinsci/JenkinsPipelineUnit: Framework for unit testing Jenkins pipelines 🌟](https://github.com/jenkinsci/JenkinsPipelineUnit) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: kubernetes jenkins master slave scalability](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopscube.com: How to Setup Docker containers as Build Slaves for Jenkins](https://devopscube.com/docker-containers-as-build-slaves-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 2 (2020) 🌟](https://www.cloudbees.com/blog/application-performance-monitoring-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them 🌟](https://www.cloudbees.com/blog/most-common-issues-scaling-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ansible-role-jenkins](https://github.com/geerlingguy/ansible-role-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins-version](https://github.com/jenkins-infra/jenkins-version) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Plugin Manager CLI v1.1.0](https://github.com/jenkinsci/plugin-installation-manager-tool/releases/tag/plugin-management-parent-pom-1.1.0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pipeline Development Tools (Command-line Pipeline Linter)](https://www.jenkins.io/doc/book/pipeline/development/#linter) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsci/custom-war-packager 🌟](https://github.com/jenkinsci/custom-war-packager) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library 🌟](https://github.com/DontShaveTheYak/jenkins-std-lib) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [marketplace.visualstudio.com: Jenkins Extension Pack: DontShaveTheYak](https://marketplace.visualstudio.com/items?itemName=DontShaveTheYak.jenkins-extension-pack) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infracloud.io: Migrating Jenkins Freestyle Job to Multibranch Pipeline 🌟](https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: How to Create a Bitbucket Cloud Branch Source Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?v=LNfthmZuRDI&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Build CI/CD Multibranch Pipeline with Jenkins and Kubernetes 🌟](https://medium.com/@peiruwang/build-ci-cd-multibranch-pipeline-with-jenkins-and-kubernetes-637de560d55a) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: 15 must have Jenkins plugins to increase productivity](https://devops.com/15-must-jenkins-plugins-increase-productivity/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Deprecating non-Java plugins](https://www.jenkins.io/blog/2021/12/22/deprecated-ruby-runtime/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [github.com/jenkinsci/JenkinsPipelineUnit: Framework for unit testing Jenkins pipelines 🌟](https://github.com/jenkinsci/JenkinsPipelineUnit) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [devops.com: kubernetes jenkins master slave scalability](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopscube.com: How to Setup Docker containers as Build Slaves for Jenkins](https://devopscube.com/docker-containers-as-build-slaves-jenkins/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 2 (2020) 🌟](https://www.cloudbees.com/blog/application-performance-monitoring-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them 🌟](https://www.cloudbees.com/blog/most-common-issues-scaling-jenkins) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ansible-role-jenkins](https://github.com/geerlingguy/ansible-role-jenkins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins-version](https://github.com/jenkins-infra/jenkins-version) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Plugin Manager CLI v1.1.0](https://github.com/jenkinsci/plugin-installation-manager-tool/releases/tag/plugin-management-parent-pom-1.1.0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pipeline Development Tools (Command-line Pipeline Linter)](https://www.jenkins.io/doc/book/pipeline/development/#linter) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkinsci/custom-war-packager 🌟](https://github.com/jenkinsci/custom-war-packager) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library 🌟](https://github.com/DontShaveTheYak/jenkins-std-lib) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [marketplace.visualstudio.com: Jenkins Extension Pack: DontShaveTheYak](https://marketplace.visualstudio.com/items?itemName=DontShaveTheYak.jenkins-extension-pack) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [infracloud.io: Migrating Jenkins Freestyle Job to Multibranch Pipeline 🌟](https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: How to Create a Bitbucket Cloud Branch Source Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?v=LNfthmZuRDI&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Build CI/CD Multibranch Pipeline with Jenkins and Kubernetes 🌟](https://medium.com/@peiruwang/build-ci-cd-multibranch-pipeline-with-jenkins-and-kubernetes-637de560d55a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devops.com: 15 must have Jenkins plugins to increase productivity](https://devops.com/15-must-jenkins-plugins-increase-productivity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Deprecating non-Java plugins](https://www.jenkins.io/blog/2021/12/22/deprecated-ruby-runtime/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
           - [Jenkins Job DSL Plugin documentation](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
 
-  - **(2024)** [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Matrix 🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [syslog-logger](https://plugins.jenkins.io/syslog-logger) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-sync](https://plugins.jenkins.io/openshift-sync) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-client](https://plugins.jenkins.io/openshift-client) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-login](https://plugins.jenkins.io/openshift-login) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-deployer](https://plugins.jenkins.io/openshift-deployer) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kubernetes plugin](https://plugins.jenkins.io/kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubernetes Continuous Deploy 🌟](https://plugins.jenkins.io/kubernetes-cd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubernetes CLI 🌟](https://plugins.jenkins.io/kubernetes-cli/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Atlassian's new Bitbucket Server integration for Jenkins 🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Blue Ocean 🌟](https://plugins.jenkins.io/blueocean/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cloudbees Flow 🌟](https://plugins.jenkins.io/electricflow) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cloudbees Credentials 🌟](https://plugins.jenkins.io/cloudbees-credentials) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees Health Advisor 🌟](https://plugins.jenkins.io/cloudbees-jenkins-advisor) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees AWS Credentials 🌟](https://plugins.jenkins.io/aws-credentials) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Code Average API](https://plugins.jenkins.io/code-coverage-api) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Fortify](https://plugins.jenkins.io/fortify) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SonarQube Scanner 🌟](https://plugins.jenkins.io/sonar/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Matrix 🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [syslog-logger](https://plugins.jenkins.io/syslog-logger) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-sync](https://plugins.jenkins.io/openshift-sync) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-client](https://plugins.jenkins.io/openshift-client) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-login](https://plugins.jenkins.io/openshift-login) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-deployer](https://plugins.jenkins.io/openshift-deployer) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kubernetes plugin](https://plugins.jenkins.io/kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubernetes Continuous Deploy 🌟](https://plugins.jenkins.io/kubernetes-cd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubernetes CLI 🌟](https://plugins.jenkins.io/kubernetes-cli/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Atlassian's new Bitbucket Server integration for Jenkins 🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Blue Ocean 🌟](https://plugins.jenkins.io/blueocean/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cloudbees Flow 🌟](https://plugins.jenkins.io/electricflow) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cloudbees Credentials 🌟](https://plugins.jenkins.io/cloudbees-credentials) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CloudBees Health Advisor 🌟](https://plugins.jenkins.io/cloudbees-jenkins-advisor) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CloudBees AWS Credentials 🌟](https://plugins.jenkins.io/aws-credentials) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Code Average API](https://plugins.jenkins.io/code-coverage-api) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Fortify](https://plugins.jenkins.io/fortify) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SonarQube Scanner 🌟](https://plugins.jenkins.io/sonar/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [SonarScanner for Jenkins 🌟](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/) SonarQube plugin for Jenkins with declarative pipeline
-  - **(2024)** [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pipeline: SCM Step (workflow-scm-step)](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Amazon EC2 plugin](https://plugins.jenkins.io/ec2/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Copy Artifact](https://plugins.jenkins.io/copyartifact/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Credentials Binding](https://plugins.jenkins.io/credentials-binding/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CVS plugin](https://plugins.jenkins.io/cvs/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Deploy Dashboard by Namecheap](https://plugins.jenkins.io/deploy-dashboard/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pipeline: SCM Step (workflow-scm-step)](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Amazon EC2 plugin](https://plugins.jenkins.io/ec2/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Copy Artifact](https://plugins.jenkins.io/copyartifact/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Credentials Binding](https://plugins.jenkins.io/credentials-binding/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CVS plugin](https://plugins.jenkins.io/cvs/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Deploy Dashboard by Namecheap](https://plugins.jenkins.io/deploy-dashboard/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [namecheap.com: Visualize Your Deployment Status with Jenkins 🌟](https://www.namecheap.com/blog/visualize-your-deployment-status-with-jenkins/)
-  - **(2024)** [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [ebook: Hands-on Pipeline as YAML with Jenkins: A Beginner's Guide to Implement CI/CD Pipelines for Mobile, Hybrid, and Web Applications Using Jenkins (English Edition)](https://www.amazon.com/gp/product/B0976SB2YG)
-  - **(2024)** [Least Load](https://plugins.jenkins.io/leastload/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Configuration Slicing](https://plugins.jenkins.io/configurationslicing/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [git-plugin 🌟](https://github.com/jenkinsci/git-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Least Load](https://plugins.jenkins.io/leastload/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Configuration Slicing](https://plugins.jenkins.io/configurationslicing/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [git-plugin 🌟](https://github.com/jenkinsci/git-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [Git Plugin Performance Improvement 🌟](https://www.jenkins.io/blog/2020/07/09/git-performance-improvement-phase1/)
           - [Git Plugin Performance Improvement Phase-2 Progress 🌟](https://www.jenkins.io/blog/2020/07/29/git-performance-improvement-phase2/)
           - [Git Plugin Performance Improvement: Final Phase and Release 🌟](https://www.jenkins.io/blog/2020/08/29/git-performance-improvement-phase3/)
           - [Git plugin 4.8.0 for jenkinsci allows Pipeline and Freestyle users to perform authenticated git operations from sh, bat, and powershell](https://github.com/jenkinsci/git-plugin/releases/tag/git-4.8.0)
 
-  - **(2024)** [Parameter Separator](https://plugins.jenkins.io/parameter-separator/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Declarative Pipeline Migration Assistant API 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant-api/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [HashiCorp Vault 🌟](https://plugins.jenkins.io/hashicorp-vault-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Parameter Separator](https://plugins.jenkins.io/parameter-separator/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Declarative Pipeline Migration Assistant API 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant-api/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [HashiCorp Vault 🌟](https://plugins.jenkins.io/hashicorp-vault-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [medium.com/@nanditasahu031: How to Integrate HashiCorp Vault with Jenkins to secure your Secrets](https://medium.com/@nanditasahu031/how-to-integrate-hashicorp-vault-with-jenkins-to-secure-your-secrets-f13bb36e28e9)
-  - **(2024)** [Matrix Authorization Strategy 🌟](https://plugins.jenkins.io/matrix-auth/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AWS Secrets Manager Credentials Provider](https://plugins.jenkins.io/aws-secrets-manager-credentials-provider/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [QF-Test](https://plugins.jenkins.io/qftest/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Extensible Choice Parameter](https://plugins.jenkins.io/extensible-choice-parameter/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Allure 🌟](https://plugins.jenkins.io/allure-jenkins-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Amazon Web Services SDK](https://plugins.jenkins.io/aws-java-sdk/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Metrics](https://plugins.jenkins.io/metrics/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Git Forensics](https://plugins.jenkins.io/git-forensics/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Robot Framework](https://plugins.jenkins.io/robot/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Prometheus Metrics Plugin 🌟](https://github.com/jenkinsci/prometheus-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tekton-plugin: Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pipeline-maven: Pipeline Maven Integration 🌟](https://plugins.jenkins.io/pipeline-maven/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Warnings Next Generation 🌟](https://plugins.jenkins.io/warnings-ng/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [robot-plugin: Robot Framework Plugin](https://github.com/jenkinsci/robot-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Text Finder 🌟](https://plugins.jenkins.io/text-finder/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pull Request Monitoring 🌟](https://github.com/jenkinsci/pull-request-monitoring-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pipeline-graph-view 🌟](https://plugins.jenkins.io/pipeline-graph-view) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [pipeline-graph-view-plugin 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [URL Filter Plugin](https://github.com/jenkinsci/url-filter-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenTelemetry 🌟](https://plugins.jenkins.io/opentelemetry) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sysdig-secure: Sysdig Secure Container Image Scanner](https://plugins.jenkins.io/sysdig-secure) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [qualys-cs: Qualys Container Scanning Connector](https://plugins.jenkins.io/qualys-cs/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [REST List Parameter](https://plugins.jenkins.io/rest-list-parameter/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Script Security](https://plugins.jenkins.io/script-security/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure Artifact Manager](https://plugins.jenkins.io/azure-artifact-manager/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Custom Checkbox Parameter 🌟](https://plugins.jenkins.io/custom-checkbox-parameter/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Git Push](https://plugins.jenkins.io/git-push) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ec2-fleet-plugin](https://plugins.jenkins.io/ec2-fleet/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [vSphere cloud](https://plugins.jenkins.io/vsphere-cloud) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Nomad](https://plugins.jenkins.io/nomad) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure Key Vault](https://plugins.jenkins.io/azure-keyvault) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Pipeline Utility Steps 🌟🌟](https://plugins.jenkins.io/pipeline-utility-steps/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [InsightVM Container Image Scanner](https://plugins.jenkins.io/rapid7-insightvm-container-assessment/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Aqua Security Scanner](https://plugins.jenkins.io/aqua-security-scanner) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blueocean-rest: REST API for Blue Ocean](https://plugins.jenkins.io/blueocean-rest) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Blue Ocean Pipeline Editor](https://plugins.jenkins.io/blueocean-pipeline-editor/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [AWS Kinesis Consumer](https://plugins.jenkins.io/aws-kinesis-consumer/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cucumber reports](https://plugins.jenkins.io/cucumber-reports) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [NPM and Yarn Wrapper and Steps](https://plugins.jenkins.io/npm-yarn-wrapper-steps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Plugin Development: Dependency Management](https://www.jenkins.io/doc/developer/plugin-development/dependency-management/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Parent POM for Jenkins Plugins. Plugin POM 4.0](https://github.com/jenkinsci/plugin-pom) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [4.0 changelog](https://github.com/jenkinsci/plugin-pom/releases/tag/plugin-4.0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [In this presentation](https://www.meetup.com/Jenkins-online-meetup/events/270630108/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cd.foundation: Bringing Blue Ocean into the future of Jenkins](https://cd.foundation/blog/2021/09/02/bringing-blue-ocean-into-the-future-of-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [**Cloudbees Flow** 🌟](https://www.cloudbees.com/products/flow/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Performance plugin](https://github.com/jenkinsci/performance-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Splunk Plugins](https://plugins.jenkins.io/splunk-devops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Matrix Authorization Strategy 🌟](https://plugins.jenkins.io/matrix-auth/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AWS Secrets Manager Credentials Provider](https://plugins.jenkins.io/aws-secrets-manager-credentials-provider/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [QF-Test](https://plugins.jenkins.io/qftest/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Extensible Choice Parameter](https://plugins.jenkins.io/extensible-choice-parameter/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Allure 🌟](https://plugins.jenkins.io/allure-jenkins-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Amazon Web Services SDK](https://plugins.jenkins.io/aws-java-sdk/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Metrics](https://plugins.jenkins.io/metrics/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Git Forensics](https://plugins.jenkins.io/git-forensics/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Robot Framework](https://plugins.jenkins.io/robot/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Prometheus Metrics Plugin 🌟](https://github.com/jenkinsci/prometheus-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tekton-plugin: Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pipeline-maven: Pipeline Maven Integration 🌟](https://plugins.jenkins.io/pipeline-maven/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Warnings Next Generation 🌟](https://plugins.jenkins.io/warnings-ng/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [robot-plugin: Robot Framework Plugin](https://github.com/jenkinsci/robot-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Text Finder 🌟](https://plugins.jenkins.io/text-finder/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pull Request Monitoring 🌟](https://github.com/jenkinsci/pull-request-monitoring-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pipeline-graph-view 🌟](https://plugins.jenkins.io/pipeline-graph-view) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [pipeline-graph-view-plugin 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [URL Filter Plugin](https://github.com/jenkinsci/url-filter-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenTelemetry 🌟](https://plugins.jenkins.io/opentelemetry) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sysdig-secure: Sysdig Secure Container Image Scanner](https://plugins.jenkins.io/sysdig-secure) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [qualys-cs: Qualys Container Scanning Connector](https://plugins.jenkins.io/qualys-cs/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [REST List Parameter](https://plugins.jenkins.io/rest-list-parameter/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Script Security](https://plugins.jenkins.io/script-security/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure Artifact Manager](https://plugins.jenkins.io/azure-artifact-manager/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Custom Checkbox Parameter 🌟](https://plugins.jenkins.io/custom-checkbox-parameter/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Git Push](https://plugins.jenkins.io/git-push) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ec2-fleet-plugin](https://plugins.jenkins.io/ec2-fleet/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [vSphere cloud](https://plugins.jenkins.io/vsphere-cloud) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Nomad](https://plugins.jenkins.io/nomad) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure Key Vault](https://plugins.jenkins.io/azure-keyvault) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Pipeline Utility Steps 🌟🌟](https://plugins.jenkins.io/pipeline-utility-steps/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [InsightVM Container Image Scanner](https://plugins.jenkins.io/rapid7-insightvm-container-assessment/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Aqua Security Scanner](https://plugins.jenkins.io/aqua-security-scanner) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blueocean-rest: REST API for Blue Ocean](https://plugins.jenkins.io/blueocean-rest) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Blue Ocean Pipeline Editor](https://plugins.jenkins.io/blueocean-pipeline-editor/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AWS Kinesis Consumer](https://plugins.jenkins.io/aws-kinesis-consumer/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cucumber reports](https://plugins.jenkins.io/cucumber-reports) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [NPM and Yarn Wrapper and Steps](https://plugins.jenkins.io/npm-yarn-wrapper-steps) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Plugin Development: Dependency Management](https://www.jenkins.io/doc/developer/plugin-development/dependency-management/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Parent POM for Jenkins Plugins. Plugin POM 4.0](https://github.com/jenkinsci/plugin-pom) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [4.0 changelog](https://github.com/jenkinsci/plugin-pom/releases/tag/plugin-4.0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [In this presentation](https://www.meetup.com/Jenkins-online-meetup/events/270630108/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cd.foundation: Bringing Blue Ocean into the future of Jenkins](https://cd.foundation/blog/2021/09/02/bringing-blue-ocean-into-the-future-of-jenkins/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [**Cloudbees Flow** 🌟](https://www.cloudbees.com/products/flow/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Performance plugin](https://github.com/jenkinsci/performance-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Splunk Plugins](https://plugins.jenkins.io/splunk-devops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [Splunk App for Jenkins](https://splunkbase.splunk.com/app/3332/)
-  - **(2024)** [Logstash](https://plugins.jenkins.io/logstash) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Logstash](https://plugins.jenkins.io/logstash) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [Monitor CI nodes with Jenkins](http://www.ampelofilosofies.gr/software/2017/03/04/monitor-ci-nodes-with-jenkins#sthash.eLP0PanT.dpbs)
           - [youtube: How to create Build Monitor View](https://www.youtube.com/watch?v=WnQK6-puXSM)
           - [youtube: monitoring jenkins job with build monitor view](https://www.youtube.com/watch?v=y6RNLNvnYIw)
           - [tatiyants.com: jenkins build monitor](http://tatiyants.com/jenkins-build-monitor/)
 
-  - **(2024)** [Monitor Pro Plugin](https://wiki.jenkins.io/display/JENKINS/Monitor+Pro+Plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ALM Performance: Continuously Monitor Performance and Vitality of your Jenkins Deployment](https://www.almtoolbox.com/jenkins-monitoring.php) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Monitoring jenkins using instana](https://www.instana.com/blog/monitoring-jenkins-using-instana/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: prometheus and grafana dashboard](https://medium.com/@gangsta_black/grafana-cool-dashboard-for-monitoring-jenkins-with-prometheus-c7ba4f1c6297) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Monitoring Jenkins with Grafana and Prometheus](https://www.youtube.com/watch?v=EWFJem7GUAc) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Jenkins Prometheus Grafana Dashboard | Prometheus Jenkins Monitoring | Prometheus.yml | Thetips4you](https://www.youtube.com/watch?v=N8P9ZLMA2xY) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dynatrace.com: optimizing jenkins to ensure fast build times with dynatrace](https://www.dynatrace.com/news/blog/optimizing-jenkins-to-ensure-fast-build-times-with-dynatrace/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opsview.com: opspack](https://www.opsview.com/product/system-monitoring/application/jenkins-monitoring) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Chrome Extension](https://chrome.google.com/webstore/detail/monitor-me-jenkins/jhbokpimjgedmpcmfoghhiokhpihlkgc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins plugin to provide automatic status for multibranch jobs (Grafana)](https://plugins.jenkins.io/github-autostatus) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Monitor Pro Plugin](https://wiki.jenkins.io/display/JENKINS/Monitor+Pro+Plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ALM Performance: Continuously Monitor Performance and Vitality of your Jenkins Deployment](https://www.almtoolbox.com/jenkins-monitoring.php) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Monitoring jenkins using instana](https://www.instana.com/blog/monitoring-jenkins-using-instana/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: prometheus and grafana dashboard](https://medium.com/@gangsta_black/grafana-cool-dashboard-for-monitoring-jenkins-with-prometheus-c7ba4f1c6297) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Monitoring Jenkins with Grafana and Prometheus](https://www.youtube.com/watch?v=EWFJem7GUAc) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Jenkins Prometheus Grafana Dashboard | Prometheus Jenkins Monitoring | Prometheus.yml | Thetips4you](https://www.youtube.com/watch?v=N8P9ZLMA2xY) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dynatrace.com: optimizing jenkins to ensure fast build times with dynatrace](https://www.dynatrace.com/news/blog/optimizing-jenkins-to-ensure-fast-build-times-with-dynatrace/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opsview.com: opspack](https://www.opsview.com/product/system-monitoring/application/jenkins-monitoring) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Chrome Extension](https://chrome.google.com/webstore/detail/monitor-me-jenkins/jhbokpimjgedmpcmfoghhiokhpihlkgc) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins plugin to provide automatic status for multibranch jobs (Grafana)](https://plugins.jenkins.io/github-autostatus) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [github.com/jenkinsci/github-autostatus-plugin](https://github.com/jenkinsci/github-autostatus-plugin)
-  - **(2024)** [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins opentelemetry-plugin 🌟](https://github.com/jenkinsci/opentelemetry-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [influxdata.com: Monitoring Jenkins CI with InfluxDB](https://www.influxdata.com/influxdb-templates/jenkins-monitoring/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins.io: Jenkins Remoting Monitoring 🌟](https://www.jenkins.io/projects/gsoc/2021/projects/remoting-monitoring/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Remoting monitoring with OpenTelemetry Plugin 🌟](https://github.com/jenkinsci/remoting-opentelemetry-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins: Agents Monitoring End User Survey](https://docs.google.com/forms/d/e/1FAIpQLSdiuQN3sm2mQ2E86VTXVXu7bf_9C0hVdzhw2_Kvu3DFqL7EZA/viewform) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins opentelemetry-plugin 🌟](https://github.com/jenkinsci/opentelemetry-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [influxdata.com: Monitoring Jenkins CI with InfluxDB](https://www.influxdata.com/influxdb-templates/jenkins-monitoring/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins.io: Jenkins Remoting Monitoring 🌟](https://www.jenkins.io/projects/gsoc/2021/projects/remoting-monitoring/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Remoting monitoring with OpenTelemetry Plugin 🌟](https://github.com/jenkinsci/remoting-opentelemetry-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins: Agents Monitoring End User Survey](https://docs.google.com/forms/d/e/1FAIpQLSdiuQN3sm2mQ2E86VTXVXu7bf_9C0hVdzhw2_Kvu3DFqL7EZA/viewform) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [github PR: Enable to provide telemetry data to OpenTelemetry Collector](https://github.com/jenkinsci/remoting-opentelemetry-plugin/pull/40) Great step forward for the troubleshooting of JenkinsCI Agents  with the visualization of the "Jenkins Remoting Keep Alive" messages as distributed traces
-  - **(2024)** [influxdb-plugin](https://github.com/jenkinsci/influxdb-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube.com: CloudBeesTV - How to Monitor Jenkins With Grafana and Prometheus 🌟](https://www.youtube.com/watch?v=3H9eNIf9KZs&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==jenkins-infra/jenkins-usage-stats== 🌟](https://github.com/jenkins-infra/jenkins-usage-stats) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==stats.jenkins.io== 🌟](http://stats.jenkins.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [External Fingerprint Storage Phase-1 Updates](https://www.jenkins.io/blog/2020/06/27/external-fingerprint-storage/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Redis Fingerprint Storage Plugin](https://github.com/jenkinsci/redis-fingerprint-storage-plugin) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [influxdb-plugin](https://github.com/jenkinsci/influxdb-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube.com: CloudBeesTV - How to Monitor Jenkins With Grafana and Prometheus 🌟](https://www.youtube.com/watch?v=3H9eNIf9KZs&ab_channel=CloudBeesTV) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==jenkins-infra/jenkins-usage-stats== 🌟](https://github.com/jenkins-infra/jenkins-usage-stats) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==stats.jenkins.io== 🌟](http://stats.jenkins.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [External Fingerprint Storage Phase-1 Updates](https://www.jenkins.io/blog/2020/06/27/external-fingerprint-storage/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Redis Fingerprint Storage Plugin](https://github.com/jenkinsci/redis-fingerprint-storage-plugin) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [pushbuildtestdeploy.com: jenkins on kubernetes building docker images](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
           - [ref2](https://github.com/samrocketman/docker-jenkins-jervis/blob/master/README.md#working-with-docker-in-docker)
 
-  - **(2024)** [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [ref2](https://github.com/weaveworks/eksctl)
-  - **(2024)** [CloudBees Rollout 🌟](https://app.rollout.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [rollout.io: CloudBees Rollout Tutorial: Feature Flagging in your React Native App in 5 minutes](https://rollout.io/blog/rollout-tutorial-feature-flagging-in-your-react-native-app-in-5-minutes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How to Disable Code: The Developer's Production Kill Switch 🌟](https://www.cloudbees.com/blog/how-disable-code-developers-production-kill-switch) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CloudBees Accelerator](https://www.cloudbees.com/products/accelerator/overview) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [How to Speed Up Software Development with Build and Test Acceleration Tools](https://www.cloudbees.com/blog/how-speed-software-development-build-test-acceleration-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [CloudBees Rollout 🌟](https://app.rollout.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [rollout.io: CloudBees Rollout Tutorial: Feature Flagging in your React Native App in 5 minutes](https://rollout.io/blog/rollout-tutorial-feature-flagging-in-your-react-native-app-in-5-minutes/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [How to Disable Code: The Developer's Production Kill Switch 🌟](https://www.cloudbees.com/blog/how-disable-code-developers-production-kill-switch) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [CloudBees Accelerator](https://www.cloudbees.com/products/accelerator/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How to Speed Up Software Development with Build and Test Acceleration Tools](https://www.cloudbees.com/blog/how-speed-software-development-build-test-acceleration-tools) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
       - [samrocketman/jenkins-script-console-scripts 🌟](https://github.com/samrocketman/jenkins-script-console-scripts) A repository of one-off script console scripts for Jenkins.
-  - **(2024)** [Jervis](https://github.com/samrocketman/jervis/wiki) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jenkins-x.io](https://jenkins-x.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io/tagged/jenkins-x](https://itnext.io/tagged/jenkins-x) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Jenkins X — Managing Jenkins](https://itnext.io/jenkins-x-managing-jenkins-926f0e0f8bcf) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Youtube: Jenkins X: Continuous Delivery for Kubernetes with James Strachan](https://www.youtube.com/watch?v=BF3MhFjvBTU) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Jervis](https://github.com/samrocketman/jervis/wiki) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins-x.io](https://jenkins-x.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io/tagged/jenkins-x](https://itnext.io/tagged/jenkins-x) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Jenkins X — Managing Jenkins](https://itnext.io/jenkins-x-managing-jenkins-926f0e0f8bcf) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Youtube: Jenkins X: Continuous Delivery for Kubernetes with James Strachan](https://www.youtube.com/watch?v=BF3MhFjvBTU) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [Youtube: Kubernetes Package Management with Helm and CI/CD with Jenkins X - Webinar by Neependra Khare](https://www.youtube.com/watch?v=oZOZiL6XIfA&feature=emb_title)
           - [go.digitalocean.com/cicd-on-k8s](https://go.digitalocean.com/cicd-on-k8s)
 
-  - **(2024)** [blog.csanchez.org: Serverless Jenkins Pipelines with Google Cloud Run](https://blog.csanchez.org/2021/06/15/serverless-jenkins-pipelines-with-google-cloud-run/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [blog.csanchez.org: Serverless Jenkins Pipelines with Google Cloud Run](https://blog.csanchez.org/2021/06/15/serverless-jenkins-pipelines-with-google-cloud-run/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       1. Jobs execute in Cloud Run (fast, scalable, pay per use compute)
           2. Ships as a container (extensible)
           3. Posts cat pics (amazing)
 
-  - **(2024)** [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sap.github.io/jenkins-library](https://sap.github.io/jenkins-library/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [templates.cloudonaut.io: Jenkins 2.0: highly available master](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [templates.cloudonaut.io: Jenkins 2.0: highly available master and dynamic agents](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master-and-dynamic-agents) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sap.github.io/jenkins-library](https://sap.github.io/jenkins-library/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [templates.cloudonaut.io: Jenkins 2.0: highly available master](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [templates.cloudonaut.io: Jenkins 2.0: highly available master and dynamic agents](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master-and-dynamic-agents) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Stackstorm
-  - **(2024)** [StackStorm.com](https://stackstorm.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/StackStorm](https://github.com/StackStorm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [StackStorm.com](https://stackstorm.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/StackStorm](https://github.com/StackStorm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Cicd
-  - **(2024)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Wikipedia.org: Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Wikipedia.org: Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [martinfowler.com: Continuous Integration (original version)](https://martinfowler.com/articles/originalContinuousIntegration.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DZone: Continuous Integration: Servers and Tools](https://dzone.com/refcardz/continuous-integration-servers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopsonline.co.uk: ChatOps, DevOps, ScrumOps and 5 Other Ops religions](https://www.devopsonline.co.uk/chatops-devops-scrumops-and-5-other-ops-religions/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dev.to: CI/CD Continuous Integration & Delivery Explained 🌟🌟](https://dev.to/semaphore/ci-cd-continuous-integration-delivery-explained-75l) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tech.buzzfeed.com: Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone refcard: Continuous Delivery - Patterns and Anti-Patterns in the Software Lifecycle 🌟](https://dzone.com/refcardz/continuous-delivery-patterns) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [infoworld.com: What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: How to Implement an Effective CI/CD Pipeline](https://devops.com/how-to-implement-an-effective-ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: What is CI/CD Pipeline in DevOps? 🌟🌟](https://medium.com/faun/what-is-ci-cd-pipeline-in-devops-6fba17a76e73) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [aws.amazon.com: Automating safe, hands-off deployments 🌟🌟](https://aws.amazon.com/es/builders-library/automating-safe-hands-off-deployments/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techuz.com: What is CI/CD? An Introduction to Continuous Integration, Continuous Deployment and CI/CD Pipeline](https://www.techuz.com/blog/what-is-ci-cd-an-introduction-to-continuous-integration-continuous-deployment-and-ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [kodekloud.com: What is CI/CD Pipeline in DevOps](https://kodekloud.com/what-is-ci-cd-pipeline-in-devops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: How to build an efficient CI/CD pipeline 🌟🌟](https://medium.com/@sanjayaben/how-to-build-an-efficient-ci-cd-pipeline-b5738ad567c8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CI/CD Best Practices 🌟](https://blog.bitsrc.io/ci-cd-best-practices-bca0ef665677) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: What is a CI/CD Platform and why should I care? 🌟](https://harness.io/2020/10/what-is-cicd-platform-why-should-i-care/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: 3 Ways to Use Automation in CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: 7 Tips for Creating A Successful CI/CD Pipeline 🌟](https://www.cloudbees.com/blog/tips-creating-successful-cicd-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javi-kata.medium.com: CI/CD the journey of a dummy team 🌟](https://javi-kata.medium.com/ci-cd-the-journey-of-a-dummy-team-f51a061684bc) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tripwire.com: Everything You Need to Know About CI/CD and Security](https://www.tripwire.com/state-of-security/devops/everything-need-to-know-about-ci-cd-security/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: CI/CD Pipeline: Everything You Need to Know 🌟](https://harness.io/blog/continuous-delivery/ci-cd-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow.blog: Fulfilling the promise of CI/CD 🌟](https://stackoverflow.blog/2021/01/19/fulfilling-the-promise-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Top 5 CI/CD best practices for 2021 🌟](https://circleci.com/blog/top-5-ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: What is Continuous Integration? 🌟](https://harness.io/blog/continuous-integration/what-is-continuous-integration/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cd.foundation: 2021 Technology Trends and Predictions](https://cd.foundation/blog/2021/02/01/trends-that-will-define-ci-cd-in-2021/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opsmx.com: What is a CI/CD Pipeline ?](https://www.opsmx.com/blog/what-is-a-ci-cd-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [continuousdelivery.com: Patterns 🌟](https://continuousdelivery.com/implementing/patterns/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [testguild.com: Pipeline as Code with Mohamed Labouardy](https://testguild.com/podcast/automation/a345-mohamed/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Understanding the Phases of the Software Development Life Cycle](https://harness.io/blog/devops/software-development-life-cycle/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Key Components of a CI/CD Pipeline](https://www.cloudbees.com/blog/ci-cd-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.thundra.io: Why a CI/CD Pipeline Makes Good Business Sense](https://blog.thundra.io/why-a-ci/cd-pipeline-makes-good-business-sense) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: Cloud Native CI/CD: The Ultimate Checklist](https://jfrog.com/blog/cloud-native-ci-cd-the-ultimate-checklist/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: How to Accelerate Software Delivery with Hybrid Cloud CI/CD (e-commerce) 🌟](https://jfrog.com/blog/how-to-accelerate-software-delivery-with-hybrid-cloud-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Streamlining CI/CD and Optimizing AWS Cloud Spend](https://harness.io/blog/continuous-integration/streamlining-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sdtimes.com: The State of CI/CD](https://sdtimes.com/cicd/the-state-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [javacodegeeks.com: The Case Against CI/CD](https://www.javacodegeeks.com/2021/08/the-case-against-ci-cd.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Improve Dev Experience to Maximize the Business Value of CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [community.dataminer.services: CI/CD and the Agile Principles](https://community.dataminer.services/ci-cd-and-the-agile-principles/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Automated Build and Deploy Pipelines for Kubernetes](https://medium.com/codezero-reflections/automated-build-and-deploy-pipelines-for-kubernetes-d268542cca52) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Next Generation Kubernetes Deployments](https://medium.com/codezero-reflections/next-generation-kubernetes-deployments-12637eae9d68) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==levelup.gitconnected.com: Basics of CI/CD==](https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [techrepublic.com: CI/CD platforms: How to choose the right continuous integration and delivery system for your business](https://www.techrepublic.com/article/how-to-choose-the-right-cicd-platform/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==stackoverflow.blog: Fulfilling the promise of CI/CD==](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==speakerdeck.com: Deployment Scripting != Continuous Delivery==](https://speakerdeck.com/devopslx/cd-and-optimized-cloud-spend?slide=12) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambdatest.com: Top 10 CI/CD Pipeline Implementation Challenges And Solutions](https://www.lambdatest.com/blog/cicd-pipeline-challenges/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/softwareimprovementgroup: CI/CD best practices: How to set up your pipeline](https://medium.com/softwareimprovementgroup/ci-cd-best-practices-how-to-set-up-your-pipeline-4643eea14bfa) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/dynatrace-engineering: How to combine and automate infrastructure and application deployment in a microservice environment](https://medium.com/dynatrace-engineering/how-to-combine-and-automate-infrastructure-and-application-deployment-in-a-microservice-environment-a16b664bb8b5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: 4 Best Practices to Drive Successful Adoption of CI/CD](https://thenewstack.io/four-best-practices-to-drive-successful-adoption-of-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://harness.io/blog/software-delivery-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/@rifkikarimr: Continuous Integration and Continuous Deployment: Best Practices for DevOps 🌟](https://medium.com/@rifkikarimr/continuous-integration-and-continuous-deployment-best-practices-for-devops-b99eac071a5c) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==guru99.com: CI/CD Pipeline: Learn with Example== 🌟🌟🌟](https://www.guru99.com/ci-cd-pipeline.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dzone.com: How To Build an Effective CI/CD Pipeline==](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==spacelift.io: Kubernetes CI/CD Pipelines – 7 Best Practices and Tools | James Walker== 🌟](https://spacelift.io/blog/kubernetes-ci-cd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: Embracing Database Deployments in CI/CD Practices with Git](https://thenewstack.io/embracing-database-deployments-in-ci-cd-practices-with-git/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hart-michael.medium.com: Why You Need Continuous Deployment](https://hart-michael.medium.com/why-you-need-continuous-deployment-93d7b5936523) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==dzone.com: An Overview of CI/CD Pipelines With Kubernetes==](https://dzone.com/articles/an-overview-of-cicd-pipelines-with-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==thenewstack.io: Kubernetes CI/CD Pipelines Explained==](https://thenewstack.io/kubernetes-ci-cd-pipelines-explained/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==betanews.com: Overcoming observability challenges in the CI/CD Pipeline==](https://betanews.com/2022/01/26/overcoming-observability-challenges/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [split.io: Progressive Delivery](https://www.split.io/glossary/progressive-delivery/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Progressive Delivery: Everything You Need to Know](https://harness.io/blog/feature-flags/progressive-delivery/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works/blog/progressively-delivering-applications-across-cloud-and-on-premise) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+## Gitops
+  - **(N/A)** [==gitops.tech== 🌟](https://www.gitops.tech/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==OpenGitOps.dev== 🌟](https://opengitops.dev) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==github.com/topics/gitops== 🌟](https://github.com/topics/gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Guide to GitOps](https://www.weave.works/technologies/gitops/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [weave.works: What Is GitOps?](https://www.weave.works/blog/what-is-gitops-really) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [atlassian.com: Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: What is GitOps?](https://www.cloudbees.com/gitops/what-is-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Continuous GitOps, the way to do DevOps in Kubernetes](https://medium.com/@imarunrk/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: What Is GitOps and Why It Might Be The Next Big Thing for DevOps](https://thenewstack.io/what-is-gitops-and-why-it-might-be-the-next-big-thing-for-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.substack.com: All You Need To Know About GitOps](https://opensource.substack.com/p/all-you-need-to-know-about-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-the-bad-and-the-ugly) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: GitOps: Build infrastructure resilient applications 🌟](https://medium.com/@franoisdagostini/gitops-build-infrastructure-resilient-applications-95bbc939046d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes 🌟](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps 🌟](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sufle.io: Adopting GitOps for Enhanced Operations](https://www.sufle.io/blog/adopting-gitops-for-enhanced-operations) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: GitOps : The Next Big Thing for DevOps and Automation!](https://medium.com/searce/gitops-the-next-big-thing-for-devops-and-automation-2a9597e51559) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Understanding GitOps: The Latest Tools and Philosophies](https://thenewstack.io/understanding-gitops-the-latest-tools-and-philosophies/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [samiyaakhtar.medium.com: GitOps Observability — Visualizing the journey of a container](https://samiyaakhtar.medium.com/gitops-observability-visualizing-the-journey-of-a-container-5f6ef1f3c9d2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==clickittech.com: What is GitOps?== 🌟](https://www.clickittech.com/devops/what-is-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.container-solutions.com: 11 Reasons for Adopting GitOps](https://blog.container-solutions.com/why-adopt-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==opensource.com: GitOps vs. DevOps: What's the difference?== 🌟](https://opensource.com/article/21/3/gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [geekflare.com: An Introduction to GitOps](https://geekflare.com/gitops-introduction/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [kumomind.medium.com: Should I consider the GitOps methodology?](https://kumomind.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [braindose.blog: 4 Key Characteristics for a Successful GitOps Implementation](https://braindose.blog/2020/03/18/4-key-characteristics-of-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [gitops.tech: What is GitOps? 🌟](https://www.gitops.tech/#tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Misconfiguration Worries Grow](https://thenewstack.io/misconfiguration-worries-grow/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [codefresh.io: The pains of GitOps 1.0 🌟](https://codefresh.io/devops/pains-gitops-1-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Managing Kubernetes with GitOps in a multi-cluster, multi-cloud world](https://www.weave.works/blog/managing-kubernetes-with-gitops-in-a-multi-cluster-multi-cloud-world) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [viewnext.com: ¿Qué es GitOps?](https://www.viewnext.com/que-es-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Have Containers Will Travel: Why GitOps Is Essential for Multicloud 🌟](https://thenewstack.io/have-containers-will-travel-why-gitops-is-essential-for-multicloud/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Put Your Security Worries to Rest with GitOps Operational Control 🌟](https://www.weave.works/use-cases/security-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [about.gitlab.com: 3 Ways to approach GitOps 🌟](https://about.gitlab.com/blog/2021/04/27/gitops-done-3-ways/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [developers.redhat.com: Why should developers care about GitOps?](https://developers.redhat.com/blog/2021/05/13/why-should-developers-care-about-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Our Favorite Things from GitOps Con at KubeCon EU 🌟](https://www.openshift.com/blog/our-favorite-things-from-gitops-con-at-kubecon-eu) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how/) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [en.sokube.ch: GitOps and the Millefeuille dilemma 🌟](https://en.sokube.ch/post/gitops-and-the-millefeuille-dilemma-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [octopus.com: How to structure your Git repository for DevOps automation](https://octopus.com/blog/devops-automation-repo-design) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [testingclouds.wordpress.com: GitOps Demystified](https://testingclouds.wordpress.com/2021/06/02/gitops-demystified/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Ops Automation - GitOps in the Modern Enterprise](https://www.weave.works/blog/gitops-in-the-modern-enterprise) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: What is GitOps? 🌟](https://www.openshift.com/learn/topics/gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Security Will Be Instrumental for the Success of GitOps](https://thenewstack.io/security-will-be-instrumental-for-the-success-of-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: There’s More to GitOps Than Meets the Eye](https://www.weave.works/blog/theres-more-to-gitops-than-meets-the-eye) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [solo.io: GlooOps: Progressive delivery, the GitOps way](https://www.solo.io/blog/glooops-progressive-delivery-the-gitops-way) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://go.weave.works/2021_GitOps_Maturity_Model.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: A Look at GitOps for the Modern Enterprise 🌟](https://thenewstack.io/a-look-at-gitops-for-the-modern-enterprise/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [shipa.io: GitOps in the enterprise 🌟](https://www.shipa.io/innovation/gitops-in-the-enterprise/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [shipa.io: GitOps meets AppOps](https://www.shipa.io/innovation/gitops-meets-appops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://go.weave.works/automating-kubernetes-with-gitops-wp.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopslearners.com: What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [go.weave.works: The Practical Guide to GitOps (eBook)](https://go.weave.works/gitops-ebook.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [enterprisersproject.com: How to explain GitOps in plain English](https://enterprisersproject.com/article/2021/6/gitops-explained-plain-english) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [redhat.com: An illustrated guide to GitOps](https://www.redhat.com/architect/illustrated-guide-gitops) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [bunnyshell.com: GitOps vs. DevOps: What’s the Difference? 🌟](https://www.bunnyshell.com/blog/gitops-vs-devops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jimangel.io: Self-Updating GitOps](https://jimangel.io/post/auto-gitops-isitstillrunning.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [stevesmith.tech: GitOps is a placebo](https://www.stevesmith.tech/blog/gitops-is-a-placebo/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: The History of GitOps 🌟](https://www.weave.works/blog/the-history-of-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: How to get the most out of GitOps right now](https://opensource.com/article/21/8/gitops) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/architect/3-gitops-rules-architecture) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [weave.works: Hardening Git for GitOps (white paper)](https://go.weave.works/hardening-git-for-gitops.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [magalix.com: GitOps 101: What’s It All About?](https://www.magalix.com/blog/what-is-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [containerjournal.com: The 4 Levels of GitOps Maturity](https://containerjournal.com/features/the-4-levels-of-gitops-maturity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: How to Get the Most out of GitOps](https://thenewstack.io/how-to-get-the-most-out-of-gitops) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [weave.works: Case Study: National Australia Bank Decreases Operational Overhead with GitOps](https://www.weave.works/blog/case-study-national-australia-bank-decreases-operational-overhead-with-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: How GitOps Can Help Prevent Security Misconfigurations](https://betterprogramming.pub/how-gitops-can-help-prevent-security-misconfigurations-8b506dcd89e1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blogs.sap.com: Decentralized GitOps over multiple environments](https://blogs.sap.com/2021/05/06/decentralized-gitops-over-environments/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Application Deployment Is Faster with GitOps](https://thenewstack.io/application-deployment-is-faster-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [As an ops engineer not too familiar with Git, you just need to know 6 commands](https://twitter.com/janakiramm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Wait, Do We Need to Hold Up on GitOps?](https://thenewstack.io/wait-do-we-need-to-hold-up-on-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: How to use GitOps in your enterprise architecture strategy 🌟](https://www.redhat.com/architect/understanding-gitops) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==thenewstack.io: CNCF Working Group Sets Some Standards for ‘GitOps’==](https://thenewstack.io/cncf-working-group-sets-some-standards-for-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: GitOps and the Cheap Cloud Myth](https://thenewstack.io/repatriation-or-cloud-what-we-need-is-control/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==redhat.com: Comparing GitOps implementation patterns: Pros and cons==](https://www.redhat.com/architect/gitops-implementation-patterns) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developer.ibm.com: GitOps: Best practices for the real world==](https://developer.ibm.com/blogs/gitops-best-practices-for-the-real-world) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [chrisshort.net: GitOps: An implementation of DevOps (abstracts)](https://chrisshort.net/abstracts/gitops-implementation-devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [==chrisshort.net: GitOps: An implementation of DevOps==](https://chrisshort.net/gitops-an-implementation-of-devops/) GitOps is a prescriptive way of implementing DevOps. You will not succeed in using GitOps if you haven't embraced some DevOps philosophies along the way.
+  - **(N/A)** [thenewstack.io: Trusted Delivery: Policy-Based Compliance the GitOps Way](https://thenewstack.io/trusted-delivery-policy-based-compliance-the-gitops-way/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Getting Started with GitOps](https://thenewstack.io/getting-started-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==medium: Stop Using Branches for Deploying to Different GitOps Environments | ostis Kapelonis==](https://medium.com/containers-101/stop-using-branches-for-deploying-to-different-gitops-environments-7111d0632402) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-      - It really depends on the needs and budget. When releasing to development/staging environments, a recreate or ramped deployment is usually a good choice. When it comes to production, a ramped or blue/green deployment is usually a good fit, but proper testing of the new platform is necessary.
-          - Blue/green and shadow strategies have more impact on the budget as it requires double resource capacity. If the application lacks in tests or if there is little confidence about the impact/stability of the software, then a canary, a/b testing or shadow release can be used. If your business requires testing of a new feature amongst a specific pool of users that can be filtered depending on some parameters like geolocation, language, operating system or browser features, then you may want to use the a/b testing technique.
-          - Last but not least, a shadow release is complex and requires extra work to mock egress traffic which is mandatory when calling external dependencies with mutable actions (email, bank, etc.). However, this technique can be useful when migrating to a new database technology and use shadow traffic to monitor system performance under load.
+      - [codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments](https://codefresh.io/about-gitops/branches-gitops-environments)
+          - __The question of "How do I promote a release to the next environment?" is becoming increasingly popular among organizations that want to adopt GitOps. You should NOT use Git branches for modelling different environments.__
 
-  - **(2024)** [harness.io: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://harness.io/blog/continuous-verification/blue-green-canary-deployment-strategies/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Continuous Kubernetes blue-green deployments on Azure using Nginx, AppGateway or TrafficManager — part 2](https://medium.com/@denniszielke/continuous-kubernetes-blue-green-deployments-on-azure-using-nginx-appgateway-or-trafficmanager-4490bce29cb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphoreci.com/blog/continuous-blue-green-deployments-with-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cd.foundation: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://cd.foundation/blog/2021/03/24/intro-to-deployment-strategies-blue-green-canary-and-more) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [devopslearners.com: Blue-Green vs Canary Deployment](https://devopslearners.com/blue-green-vs-canary-deployment-76436d7f6bc1) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A ](https://www.youtube.com/watch?v=aU-EtdEOdlM) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Pipeline Patterns for CI/CD Pipelines 🌟](https://harness.io/blog/devops/deployment-pipeline-patterns/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: CI/CD with kubernetes 🌟](https://thenewstack.io/ebooks/kubernetes/ci-cd-with-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [harness.io: Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mediatemple.net: Cloud-Native CI/CD Workflows in AWS: 3 Use Cases](https://mediatemple.net/blog/cloud-hosting/cicd-workflows-aws-3-use-cases/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [trek10.com: Enterprise CI/CD on AWS: a pragmatic approach](https://www.trek10.com/blog/pragmatic-enterprise-cicd) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GigaOm's Radar for Enterprise CI/CD 🌟](https://jfrog.com/whitepaper/gigaom-radar-for-enterprise-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Terraform Enterprise 2.0](https://t.co/UmacHpStqI) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Buildbot](https://t.co/qXtIPX5eF6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [PMEase QuickBuild](https://www.pmease.com/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [FossFLOW](https://github.com/stan-smith/FossFLOW) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Programming with GitHub Copilot Agent Mode](https://t.co/FhNsA9iy4Q) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Gama: Terminal UI for GitHub Actions](https://github.com/termkit/gama) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
-  - **(2024)** [GitBook Webinar: GitBook for Public Docs](https://youtu.be/gnYU0jtQbug?si=dWSDPD4eXvF3dx5r) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==thenewstack.io: Can You GitOps Your APIs?==](https://thenewstack.io/can-you-gitops-your-apis/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://www.weave.works/blog/gitops-takes-devops-teams-to-higher-levels-of-maturity) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==linkedin.com pulse: WTH is GitOps? | Pavan Belagatti==](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@buraktahtacioglu: GitOps Fundamentals — CNCF Roadmap](https://medium.com/@buraktahtacioglu/gitops-fundamentals-cncf-roadmap-fa686dbced9d) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [toolbox.com: Why Are Organizations Adopting GitOps for Continuous Deployment in 2022?](https://www.toolbox.com/tech/devops/articles/more-organizations-adopting-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea==](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: GitOps: The New Kid On The DevOps Block!](https://harness.io/blog/devops/gitops-new-kid-devops-block) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [linkedin pulse: GitOps vs. DevOps! | Pavan Belagatti](https://www.linkedin.com/pulse/gitops-vs-devops-pavan-belagatti/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==containerjournal.com: GitOps Workflows and Principles for Kubernetes==](https://containerjournal.com/features/gitops-workflows-and-principles-for-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://harness.io/blog/devops/6-gitops-best-practices/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them== 🌟](https://codefresh.io/blog/how-to-model-your-gitops-environments-and-promote-releases-between-them/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [==piotrminkowski.com: Continuous Development on Kubernetes with GitOps Approach== 🌟](https://piotrminkowski.com/2022/06/06/continuous-development-on-kubernetes-with-gitops-approach/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==harness.io: Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos== 🌟](https://harness.io/blog/gitops-repo-structure) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/codex: Points to Consider for Structuring Infrastructure as Code Repositories](https://medium.com/codex/points-to-consider-for-structuring-infrastructure-as-code-repositories-886ff58404b8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/jumia-tech: Immutable Infrastructure & GitOps 🌟](https://medium.com/jumia-tech/immutable-infrastructure-gitops-18d644f9c7cb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@alamdar.hussain0007: GitOps with Kubernetes](https://medium.com/@alamdar.hussain0007/gitops-with-kubernetes-f0912b644925) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: KubeCon: 14,000 More Engineers Have Their GitOps Basics Down](https://thenewstack.io/kubecon-14000-more-engineers-have-their-gitops-basics-down/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [containerjournal.com: GitOps Workflows Expanding Beyond Kubernetes Clusters](https://containerjournal.com/features/gitops-workflows-expanding-beyond-kubernetes-clusters/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developers.redhat.com: GitOps Cookbook: Kubernetes automation in practice==](https://developers.redhat.com/articles/2022/12/20/gitops-cookbook-kubernetes-automation-practice) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [containerjournal.com: Best of 2022: GitOps: The Missing Link for CI/CD for Kubernetes](https://containerjournal.com/features/gitops-the-missing-link-for-ci-cd-for-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==devops.com: Declarative Compliance With Policy-as-Code and GitOps== 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dzone: The Essentials of GitOps== 🌟](https://dzone.com/refcardz/the-essentials-of-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.devops.dev: GitOps — Fundamentals Part 0](https://blog.devops.dev/gitops-fundamentals-part-0-a8e63f8f9ce8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==thenewstack.io: The Next Kubernetes Management Frontier: Automation. Automation Is No Longer a “Nice to Have”== 🌟🌟](https://thenewstack.io/the-next-kubernetes-management-frontier-automation/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [loft.sh: GitOps + Kubernetes Explained](https://loft.sh/blog/gitops-kubernetes-explained/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [msrishty.medium.com: Traditional CI-CD vs gitops 🌟](https://msrishty.medium.com/traditional-ci-cd-vs-gitops-e835728642fb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.developersteve.com: GitOps for Kubernetes Canary Deployments](https://blog.developersteve.com/gitops-for-kubernetes-canary-deployments-4aeab4043727) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: GitOps as an Evolution of Kubernetes](https://thenewstack.io/gitops-as-an-evolution-of-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.blog: Applying GitOps principles to your operations](https://github.blog/2023-06-02-applying-gitops-principles-to-your-operations/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 1](https://hackernoon.com/what-is-gitops-and-why-it-is-almost-useless-part-1) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 2](https://hackernoon.com/what-is-gitops-and-why-is-it-almost-useless-part-2) In this controversial article, the author argues that GitOps is a (mostly) unnecessary abstraction that introduces more complexity than it's worth. The article tackles several GitOps principles and gives practical code counterexamples.
+  - **(N/A)** [==devoriales.com: Exploring GitOps: Software and Infrastructure Management Intro Video==](https://devoriales.com/video/897990746/intro-to-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/containers-101: Using GitOps for Databases](https://medium.com/containers-101/using-gitops-for-databases-f09a027184bb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium.com/@ahmed.fathy.elayaat: What is GitOps?](https://medium.com/@ahmed.fathy.elayaat/gitops-fc27ef5a7836) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitOps Working Group 🌟](https://github.com/gitops-working-group/gitops-working-group) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/open-gitops/project 🌟](https://github.com/open-gitops/project) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==github.com/cloudogu/gitops-patterns==](https://github.com/cloudogu/gitops-patterns) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/cloudogu/gitops-playground#example-applications](https://github.com/cloudogu/gitops-playground#example-applications) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments==](https://codefresh.io/about-gitops/branches-gitops-environments/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==developers.redhat.com: Git best practices: Workflows for GitOps deployments | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - Separate your repositories
+          - Separate development in directories, not branches
+          - Trunk-based development
+          - Pay attention to policies and security
+
+  - **(N/A)** [==developers.redhat.com: How to set up your GitOps directory structure | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/09/07/how-set-your-gitops-directory-structure) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [devopsera.com: How to Structure Directories in a GitOps Repository for the Best User-Friendliness and Flexibility](https://devopsera.com/2023/06/how-to-structure-directories-in-a-gitops-repository-for-the-best-user-friendliness-and-flexibility/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [EntraExporter](https://github.com/microsoft/entraexporter) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [FossFLOW](https://github.com/stan-smith/FossFLOW) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [slideshare: GitOps, Jenkins X & Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [searchitoperations.techtarget.com: GitOps pros grapple with Kubernetes configuration management. GitOps users seek ideal Kubernetes config tool 🌟](https://searchitoperations.techtarget.com/news/252492459/GitOps-pros-grapple-with-Kubernetes-configuration-management) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tanka](https://tanka.dev/tutorial/jsonnet) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: Announcing OpenShift GitOps](https://www.openshift.com/blog/announcing-openshift-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ibm.com: Enable GitOps](https://www.ibm.com/garage/method/practices/run/gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.openshift.com/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://www.weave.works/blog/wkp-team-workspaces-rbac) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://cloudogu.com/en/blog/gitops-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==vimeo.com: Weaveworks - Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps==](https://vimeo.com/516520492) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==glasskube.dev== 🌟](https://glasskube.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Flagger](https://flagger.app/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [partlycloudy.blog: Release to Kubernetes like a Pro with Flagger](https://partlycloudy.blog/2020/07/08/release-to-k8s-like-a-pro-with-flagger/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitOps for Kubernetes with Jenkins](https://medium.com/stakater/gitops-for-kubernetes-with-jenkins-7db6304216e0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [github.com/stakater/Xposer](https://github.com/stakater/Xposer) (with fabric8 java client library for kubernetes)
+  - **(N/A)** [GitOps with Jenkins and Kubernetes](https://medium.com/@abhishekbhardwaj510/gitops-with-jenkins-and-kubernetes-c20425244c73) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - [github.com: Opstree-Go-WebApp](https://github.com/opstree/Opstree-Go-WebApp) A loaded GoLang app to do various DevOps POC's
+          - [opstree.github.io](https://opstree.github.io/)
+
+  - **(N/A)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How to Create a GitOps Workflow with Terraform and Jenkins](https://www.hashicorp.com/resources/how-create-gitops-workflow-terraform-jenkins/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Anthos Config Management](https://cloud.google.com/anthos/config-management) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [portworx.com: Automating Kubernetes Data Management with GitOps & AutoPilot](https://portworx.com/automating-kubernetes-data-management-with-gitops-autopilot) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift-applier](https://github.com/redhat-cop/openshift-applier) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [waypointproject.io](https://www.waypointproject.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hashicorp.com: Using Waypoint Runners To Enable GitOps Workflows](https://www.hashicorp.com/blog/using-waypoint-runners-to-enable-gitops-workflows) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Weave GitOps Enterprise](https://www.weave.works/product/gitops-enterprise/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - Weave GitOps Enterprise is a continuous operations product that makes it easy to deploy and manage Kubernetes clusters and applications in any environment. With a single management console that lets you operate clusters running anywhere, in the public cloud, on the edge or in any hybrid scenario. Strong multi-tenancy can accelerate app delivery by providing developers with self-serve isolated workload namespaces across environments.
+          - With Weave GitOps Enterprise, every change is recorded in Git – whether it's a change to application code or platform config and whoever was responsible. So you have a self-generating audit trail available at all times, and far fewer...
+
+  - **(N/A)** [thenewstack.io: Weave GitOps Core Integrates Git with Kubernetes](https://thenewstack.io/weave-gitops-core-integrates-git-with-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Weave GitOps Trusted Delivery: A Road to Kubernetes Sanity?](https://thenewstack.io/weave-gitops-trusted-delivery-a-road-to-kubernetes-sanity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dailymotion-oss.github.io/octopilot: Octopilot](https://dailymotion-oss.github.io/octopilot/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubestack 🌟](https://www.kubestack.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: KubeStack: Towards Full-Stack GitOps](https://thenewstack.io/kubestack-towards-full-stack-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==medium.com/bumble-tech: GitOps for multi-cluster K8s environments== 🌟](https://medium.com/bumble-tech/gitops-for-multi-cluster-k8s-environments-d305431ba6d6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.openshift.com/blog/from-code-to-production-with-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: GitOps with Istio, Tekton and Argo CD — on OpenShift 4](https://medium.com/@joelkaplan1/gitops-with-istio-tekton-and-argo-cd-on-openshift-4-5e42d22994e3) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: Red Hat Delivers Full GitOps CI/CD Built on Tekton and Argo](https://thenewstack.io/red-hat-delivers-full-gitops-ci-cd-built-on-tekton-and-argo/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat.com: Red Hat Makes DevOps a Reality with OpenShift GitOps and OpenShift Pipelines 🌟](https://www.redhat.com/en/about/press-releases/red-hat-makes-devops-reality-openshift-gitops-and-openshift-pipelines) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes== 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Weave Kubernetes Platform](https://www.weave.works/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/features) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [betterprogramming.pub: Applying DevOps to API Development for APIOps](https://betterprogramming.pub/applying-devops-to-api-development-for-apiops-21e2e605333e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube.com: GitOps Guide to the Galaxy 🌟🌟🌟](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd) 🎥 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
 
 ## Keptn
-  - **(2024)** [Keptn](https://www.keptn.sh) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quick Start](https://keptn.sh/docs/quickstart/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [Keptn](https://www.keptn.sh) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Quick Start](https://keptn.sh/docs/quickstart/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
       - [tutorials.keptn.sh: Azure DevOps Pipelines with Keptn Quality Gates](https://tutorials.keptn.sh/tutorials/keptn-azure-devops/index.html)
-  - **(2024)** [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blogwhat-is-keptn-how-it-works-and-how-to-get-started/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium: How we are redesigning our microservices deployment strategy](https://medium.com/dynatrace-engineering/how-we-are-redesigning-our-microservices-deployment-strategy-c567e310a42e) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins Online Meetup](https://www.meetup.com/Jenkins-online-meetup/events/270861119/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg&t=5s) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blogwhat-is-keptn-how-it-works-and-how-to-get-started/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: How we are redesigning our microservices deployment strategy](https://medium.com/dynatrace-engineering/how-we-are-redesigning-our-microservices-deployment-strategy-c567e310a42e) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins Online Meetup](https://www.meetup.com/Jenkins-online-meetup/events/270861119/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg&t=5s) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Flux
+  - **(N/A)** [Flux](https://fluxcd.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.fluxcd.io](https://docs.fluxcd.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: Flux](https://github.com/fluxcd/flux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: Flux Version 2](https://github.com/fluxcd/flux2) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [toolkit.fluxcd.io: GitOps Toolkit 🌟](https://toolkit.fluxcd.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span>
+  - **(N/A)** [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://acloudguru.com/blog/engineering/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.sldk.de: Introduction to GitOps on Kubernetes with Flux v2 🌟](https://blog.sldk.de/2021/02/introduction-to-gitops-on-kubernetes-with-flux-v2/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-configurations) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloud-viadee.medium.com: GitOps for IT-Architects: Transparent and Secure Kubernetes deployments](https://cloud-viadee.medium.com/gitops-for-it-architects-6312e7822819) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [johnclarke73.medium.com: How GitOps works for us](https://johnclarke73.medium.com/our-continuous-delivery-journey-11d86dd68a49) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: GitOps at Home: Automate Code Deploys with Kubernetes and Flux](https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Integrating GitOps Deployments in Kubernetes Using Weave Flux](https://medium.com/contino-engineering/integrating-gitops-deployments-in-kubernetes-using-weave-flux-9a617ea17684) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [alexander.holbreich.org: (Typical) journey towards full GitOps with Flux](https://alexander.holbreich.org/gitops-journey) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo==](https://flux-subsystem-argo.github.io/website/tutorials/terraform/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.ediri.io: Flux With Buckets: Is This Still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fluxcd.io: GitOps Without Leaving your IDE](https://fluxcd.io/blog/2022/09/gitops-without-leaving-your-ide/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [fluxcd.io: How to GitOps Your Terraform](https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==gist.github.com: GitOps for Helm Users== 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [weave.works: Flamingo: Expand Argo CD with Flux](https://www.weave.works/blog/flamingo-expand-argo-cd-with-flux) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux](https://github.com/onedr0p/flux-cluster-template) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+## Jenkins-alternatives
+  - **(N/A)** [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.lambdatest.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.lambdatest.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.thundra.io: The CI/CD War of 2021: A Look at the Most Popular Technologies](https://blog.thundra.io/the-ci/cd-war-of-2021-a-look-at-the-most-popular-technologies) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.lambdatest.com/blog/circleci-vs-gitlab/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools== 🌟](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Choosing a CI that grows at the same pace as a scale-up 🌟](https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - Tekton
+          - Argo
+          - GitHub Actions
+          - Jenkins X
+          - OpenShift Pipelines
+          - Circle CI
+          - GitLab
+
+  - **(N/A)** [devops.com: Best of 2021 – 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.lambdatest.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Buildbot](https://t.co/qXtIPX5eF6) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Agola](https://agola.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io](https://harness.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+
+      - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://harness.io/blog/autostopping-rules-kubernetes/) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
+          - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://harness.io/blog/cd-jenkins-pipelines-harness/)
+
+  - **(N/A)** [Drone](https://drone.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
+  - **(N/A)** [Buildbot](https://buildbot.net/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [GoCD](https://www.gocd.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Codefresh](https://codefresh.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [skaffold](https://skaffold.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Google Cloud Build](https://cloud.google.com/cloud-build) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Kubeflow](https://www.kubeflow.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Circle CI](https://circleci.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [dev.to: CI/CD: Automating our build and deploy process](https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Travis CI](https://travis-ci.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [Concourse](https://concourse-ci.org/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Bamboo](https://www.atlassian.com/software/bamboo) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambdatest.com: How To Setup CI/CD Pipeline With Bamboo For PHP Projects](https://www.lambdatest.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects/) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat-actions](https://github.com/redhat-actions) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runner) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
+  - **(N/A)** [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
+  - **(N/A)** [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Azure DevOps](https://azure.microsoft.com/services/devops/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [shuttleOps](https://www.shuttleops.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [HashiCorp Waypoint](https://www.waypointproject.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [onedev](https://github.com/theonedev/onedev) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Hands-on GitOps with OneDev and Kubernetes](https://robinshen.medium.com/hands-on-gitops-with-onedev-f05bd278f07c) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [TeamCity](https://www.jetbrains.com/teamcity/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jetbrains.com: Storing Project Settings in Version Control](https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.jetbrains.com: Configuration as Code, Part 1: Getting Started with Kotlin DSL](https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/OctopusDeploy/Octopus-TeamCity: JetBrains TeamCity plugin to trigger releases on build completion](https://github.com/OctopusDeploy/Octopus-TeamCity) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Octopus Deploy - deployment tool](https://octopus.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [octopus.com: Deployment process as code](https://octopus.com/docs/deployments/patterns/deployment-process-as-code) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [JFrog Pipelines](https://jfrog.com/pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog) 🎥 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Semaphore](https://semaphoreci.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphoreci.com/blog/revving-up-continuous-integration-with-parallel-testing) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devtron-labs/devtron](https://github.com/devtron-labs/devtron) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [csweichel/werft](https://github.com/csweichel/werft) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins-x.io](https://jenkins-x.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [devopstoolkitseries.com](https://www.devopstoolkitseries.com/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+      - [youtube: Jenkins X: The Recipe For Continuous Delivery](https://www.youtube.com/watch?v=ihHr-iLfEGo)
+  - **(N/A)** [Book: The DevOps 2.6 Toolkit: Jenkins X](https://leanpub.com/the-devops-2-6-toolkit) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Traces for your pipelines: Jenkins X v3 now comes with tracing support for your pipelines out of the box](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [spinnaker.io deployment tool](https://www.spinnaker.io/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Deploy Spinnaker CD Pipelines in Kubernetes](https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [speakerdeck.com: Introduction to Spinnaker Managed Pipeline Templates](https://speakerdeck.com/keisukeyamashita/introduction-to-spinnaker-managed-pipeline-templates) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [speakerdeck.com: Spinnaker Application management by Terraform Plugins](https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Jenkins-X + Tekton on OpenShift](https://github.com/openshift/tektoncd-pipeline-operator) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) 🌟 <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>
+  - **(N/A)** [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dagger.io==](https://dagger.io) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
 ## Tekton
-  - **(2024)** [==tekton.dev==](https://tekton.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/tektoncd](https://github.com/tektoncd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tekton community](https://github.com/tektoncd/community) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [tekline 🌟](https://github.com/joyrex2001/tekline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton — Laying The Foundation](https://itnext.iocloud-native-ci-cd-with-tekton-laying-the-foundation-a377a1b59ac0) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.harbur.io: The Seven Steps to build a Cloud Native CI/CD for GitHub repos using Tekton](https://blog.harbur.iothe-seven-steps-to-build-a-cloud-native-ci-cd-for-github-repos-using-tekton-31a445a3bde) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks](https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==opensource.com: Write your first CI/CD pipeline in Kubernetes with Tekton== 🌟](https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [opensource.com: Dynamic scheduling of Tekton workloads using Triggers](https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==piotrminkowski.com: Validate Kubernetes Deployment in CI/CD with Tekton and Datree==](https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sm43.medium.com: World of Tekton 😺 (Part 1)](https://sm43.medium.com/world-of-tekton-part-1-999738d63e25) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Tekton: Concepts of Pipelines (Part 2)](https://sm43.medium.com/tekton-concepts-of-pipelines-part-2-cd86ad40bd34) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [==tekton.dev==](https://tekton.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github.com/tektoncd](https://github.com/tektoncd/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tekton community](https://github.com/tektoncd/community) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [tekline 🌟](https://github.com/joyrex2001/tekline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw) 🎥 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton — Laying The Foundation](https://itnext.iocloud-native-ci-cd-with-tekton-laying-the-foundation-a377a1b59ac0) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [blog.harbur.io: The Seven Steps to build a Cloud Native CI/CD for GitHub repos using Tekton](https://blog.harbur.iothe-seven-steps-to-build-a-cloud-native-ci-cd-for-github-repos-using-tekton-31a445a3bde) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks](https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==opensource.com: Write your first CI/CD pipeline in Kubernetes with Tekton== 🌟](https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [opensource.com: Dynamic scheduling of Tekton workloads using Triggers](https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==piotrminkowski.com: Validate Kubernetes Deployment in CI/CD with Tekton and Datree==](https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [sm43.medium.com: World of Tekton 😺 (Part 1)](https://sm43.medium.com/world-of-tekton-part-1-999738d63e25) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [Tekton: Concepts of Pipelines (Part 2)](https://sm43.medium.com/tekton-concepts-of-pipelines-part-2-cd86ad40bd34) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
       - [sm43.medium.com: Tekton: Concepts of Triggers (Part 3)](https://sm43.medium.com/tekton-concepts-of-triggers-part-3-2ee17764addb)
           - [sm43.medium.com: Tekton: Building a Pipeline (Part 4)](https://sm43.medium.com/tekton-build-a-pipeline-part-4-baafd530b6fe)
           - [sm43.medium.com: Tekton: Triggering the Pipeline (Part 5)](https://sm43.medium.com/tekton-triggering-the-pipeline-part-5-dc38d73411fb)
 
-  - **(2024)** [==piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton==](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [==devops.com: Using LLMs to Automate Pipeline Conversions From Legacy to Tekton==](https://devops.com/using-llms-to-automate-pipeline-conversions-from-legacy-to-tekton) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Cicd-kubernetes-plugins
-  - **(2024)** [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-sync](https://plugins.jenkins.io/openshift-sync) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift-client](https://plugins.jenkins.io/openshift-client) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLab Kubernetes Agent](https://docs.gitlab.com/ee/user/clusters/agent/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitLab Kubernetes Agent available on GitLab.com](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11-released/#gitlab-kubernetes-agent-available-on-gitlabcom) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-
-## Registries
-  - **(2024)** [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone Refcard: Binary Repository Management](https://dzone.com/refcardz/binary-repository-management) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.openshift.com/container-platform/4.8/registry/architecture-component-imageregistry.html) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quay.io](https://quay.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quay Community Edition operator](https://github.com/redhat-cop/quay-operator) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.openshift.com/products/quay) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/quay](https://github.com/quay) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sonatype.com/nexus-repository-oss](https://www.sonatype.com/nexus-repository-oss) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Nexus Repository Manager (NXRM) 3 🌟](https://help.sonatype.com/repomanager3) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Sonatype Nexus Community: Nexus Kubernetes OpenShift 🌟](https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [https://github.com/jetstack/cert-manager/](https://github.com/jetstack/cert-manager/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Docker Registry](https://help.sonatype.com/repomanager3/formats/docker-registry) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://blog.sonatype.com/using-nexus-3-as-your-repository-part-3-docker-images) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [sonatype: how to delete docker images from Nexus Repository Manager](https://support.sonatype.com/hc/en-us/articles/360009696054-How-to-delete-docker-images-from-Nexus-Repository-Manager) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [guides.sonatype.com: secure docker registries](https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [support.sonatype.com: Using self signed certificates with Nexus Repository Manager and Docker Daemon](https://support.sonatype.com/hc/en-us/articles/217542177-Using-Self-Signed-Certificates-with-Nexus-Repository-Manager-and-Docker-Daemon) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [guides.sonatype.com: secure docker registries](https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/repomanager3/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Test an insecure registry 🌟](https://docs.docker.com/registry/insecure/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Nexus Platform Plugin for Jenkins](https://help.sonatype.com/integrations/nexus-and-continuous-integration/nexus-platform-plugin-for-jenkins) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Jenkins: Publish Maven Artifacts to Nexus OSS Using Pipelines or Maven Jobs 🌟](https://dzone.com/articles/jenkins-publish-maven-artifacts-to-nexus-oss-using) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [youtube: uploading artifacts from jenkins to nexus](https://www.youtube.com/watch?v=7NmGSnqLd58) 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/samrocketman/nexus3-config-as-code](https://github.com/samrocketman/nexus3-config-as-code) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [blog.mimacom.com/automate-nexus](https://blog.mimacom.com/automate-nexus/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [github.com/cinhtau/sonatype-nexus-waffle](https://github.com/cinhtau/sonatype-nexus-waffle) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [GitHub: Nexus-CLI](https://github.com/mlabouardy/nexus-cli) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nexus3-cli.readthedocs.io](https://nexus3-cli.readthedocs.io) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Sonatype Nexus Community 🌟](https://github.com/sonatype-nexus-community) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [JFrog Container Registry](https://jfrog.com/container-registry/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://www.jfrog.com/confluence/display/JFROG/Kubernetes+Helm+Chart+Repositories) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integration/kubernetes-docker-registry/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.openshift.com/blog/18333-2) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Harbor](https://goharbor.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [goharbor.io: Deploy Harbor with the Quick Installation Script](https://goharbor.io/docs/2.0.0/install-config/quick-install-script/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [nicholasamorim/ansible-role-harbor](https://github.com/nicholasamorim/ansible-role-harbor) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [uber/kraken](https://github.com/uber/kraken) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(N/A)** [==piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton==](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - **(N/A)** [==devops.com: Using LLMs to Automate Pipeline Conversions From Legacy to Tekton==](https://devops.com/using-llms-to-automate-pipeline-conversions-from-legacy-to-tekton) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
