@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/ansible.html">
       
+      
+        <link rel="prev" href="cloud-asset-inventory.html">
+      
+      
+        <link rel="next" href="helm.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Ansible - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#configuration-management-ansible" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Ansible
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -403,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +436,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +458,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +480,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +502,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +524,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -531,11 +542,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1843,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +1996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +2847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +2875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +2981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +3843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +3871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3890,8 +3903,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -3917,19 +3932,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" checked>
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
             
   
   
@@ -3947,7 +3965,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_15">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3962,10 +3980,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ansible
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="ansible.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -3981,6 +4026,468 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-management-with-ansible-devops-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration Management with Ansible DevOps Tool
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible AI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible UI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-custom-files-with-jinja2-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deploying custom files with Jinja2 templates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-an-ansible-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing an Ansible module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interacting-with-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interacting with REST API
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interacting with REST API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#writing-an-ansible-module-for-a-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing an Ansible module for a REST API
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-playbooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Playbooks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Collections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-hat-ansible-automation-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Ansible Automation Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Red Hat Ansible Automation Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automation-services-catalog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automation services catalog
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-hat-certified-ansible-content-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Certified Ansible Content Collections
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-cheat-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Cheat Sheets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-ansible-playbooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running Ansible Playbooks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Running Ansible Playbooks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-ansible-playbooks-from-jenkins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running Ansible Playbooks From Jenkins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tower-and-awx-installers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tower and AWX Installers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternatives-to-ansible-tower" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternatives to Ansible Tower
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-kubernetes-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Kubernetes Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-molecule-development-and-testing-of-ansible-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Molecule. Development and Testing of Ansible Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-galaxy-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Galaxy Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-ansible-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        More Ansible Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible scripts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-with-helm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible with Helm
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#awesome-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Awesome Ansible
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-and-public-cloud-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible and Public Cloud Guides
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-kubernetes-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansible Kubernetes Module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nginx-core-collection-for-ansibe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NGINX Core Collection for Ansibe
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynatrace-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynatrace with Ansible
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-server-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SQL Server with Ansible
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oci-oracle-cloud-infrastructure-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCI Oracle Cloud Infrastructure with Ansible
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oracle-database-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oracle Database with Ansible
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansistrano-deploying-applications-with-ansible-in-capistrano-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ansistrano. Deploying applications with Ansible in Capistrano style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anacron-and-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anacron and Ansible
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3993,7 +4500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4995,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +5086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +5197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +5225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +5253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +6027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +6055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +6083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +6111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +6208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +6236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +6264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +6292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6867,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6895,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +7021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +7049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +7077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +7180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +7208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +7236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7417,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +8025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +8052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +8085,513 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="configuration-management-ansible">Configuration Management. Ansible</h1>
+<ol>
+<li><a href="#configuration-management-with-ansible-devops-tool">Configuration Management with Ansible DevOps Tool</a></li>
+<li><a href="#ansible-ai">Ansible AI</a></li>
+<li><a href="#ansible-ui">Ansible UI</a></li>
+<li><a href="#deploying-custom-files-with-jinja2-templates">Deploying custom files with Jinja2 templates</a></li>
+<li><a href="#writing-an-ansible-module">Writing an Ansible module</a></li>
+<li><a href="#interacting-with-rest-api">Interacting with REST API</a><ol>
+<li><a href="#writing-an-ansible-module-for-a-rest-api">Writing an Ansible module for a REST API</a></li>
+</ol>
+</li>
+<li><a href="#ansible-videos">Ansible Videos</a></li>
+<li><a href="#ansible-playbooks">Ansible Playbooks</a></li>
+<li><a href="#ansible-collections">Ansible Collections</a></li>
+<li><a href="#red-hat-ansible-automation-platform">Red Hat Ansible Automation Platform</a><ol>
+<li><a href="#automation-services-catalog">Automation services catalog</a></li>
+<li><a href="#red-hat-certified-ansible-content-collections">Red Hat Certified Ansible Content Collections</a></li>
+</ol>
+</li>
+<li><a href="#ansible-cheat-sheets">Ansible Cheat Sheets</a></li>
+<li><a href="#running-ansible-playbooks">Running Ansible Playbooks</a><ol>
+<li><a href="#running-ansible-playbooks-from-jenkins">Running Ansible Playbooks From Jenkins</a></li>
+<li><a href="#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower">Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower</a><ol>
+<li><a href="#tower-and-awx-installers">Tower and AWX Installers</a></li>
+</ol>
+</li>
+<li><a href="#alternatives-to-ansible-tower">Alternatives to Ansible Tower</a></li>
+</ol>
+</li>
+<li><a href="#ansible-kubernetes-operators">Ansible Kubernetes Operators</a></li>
+<li><a href="#ansible-molecule-development-and-testing-of-ansible-roles">Ansible Molecule. Development and Testing of Ansible Roles</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#ansible-galaxy-roles">Ansible Galaxy Roles</a></li>
+<li><a href="#more-ansible-roles">More Ansible Roles</a></li>
+<li><a href="#ansible-scripts">Ansible scripts</a></li>
+<li><a href="#ansible-with-helm">Ansible with Helm</a></li>
+<li><a href="#awesome-ansible">Awesome Ansible</a></li>
+<li><a href="#ansible-and-public-cloud-guides">Ansible and Public Cloud Guides</a></li>
+<li><a href="#ansible-kubernetes-module">Ansible Kubernetes Module</a></li>
+<li><a href="#nginx-core-collection-for-ansibe">NGINX Core Collection for Ansibe</a></li>
+<li><a href="#dynatrace-with-ansible">Dynatrace with Ansible</a></li>
+<li><a href="#sql-server-with-ansible">SQL Server with Ansible</a></li>
+<li><a href="#oci-oracle-cloud-infrastructure-with-ansible">OCI Oracle Cloud Infrastructure with Ansible</a></li>
+<li><a href="#oracle-database-with-ansible">Oracle Database with Ansible</a></li>
+<li><a href="#ansistrano-deploying-applications-with-ansible-in-capistrano-style">Ansistrano. Deploying applications with Ansible in Capistrano style</a></li>
+<li><a href="#anacron-and-ansible">Anacron and Ansible</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="configuration-management-with-ansible-devops-tool">Configuration Management with Ansible DevOps Tool</h2>
+<ul>
+<li><a href="https://www.ansible.com/">ansible.com</a></li>
+<li><a href="https://docs.ansible.com/">docs.ansible.com</a></li>
+<li><a href="https://www.edureka.co/blog/what-is-ansible/">dureka.co: What Is Ansible?</a> Configuration Management And Automation With Ansible</li>
+<li><a href="http://web.archive.org/web/20230203201722/https://dzone.com/articles/part-1-getting-started-ansible">Dzone: Part 1: Getting Started with Ansible [ARCHIVED]</a></li>
+<li><a href="https://dzone.com/articles/part-2-deploying-applications">Dzone: Part 2: Deploying Applications</a></li>
+<li><a href="https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1">Dzone: 10 easy to use modules in ansible</a></li>
+<li><a href="https://dzone.com/articles/running-ansible-at-scale">Dzone: Running Ansible at Scale</a></li>
+<li><a href="https://www.udemy.com/ansible-essentials-simplicity-in-automation">Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/deploying-microservices-via-ansible-in-cloud-platform-a03d46b7bd68">Deployment of Microservices in Cloud With Ansible</a> This tutorial will help you understand how Ansible orchestrates Docker containers at least for a dev environment</li>
+<li><a href="https://opensource.com/article/20/9/install-packages-ansible">opensource.com: How to install software with Ansible</a> Automate software installations and updates across your devices with Ansible playbooks.</li>
+<li><a href="https://opensource.com/article/20/9/ansible-modules-kubernetes">opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟</a> Combine Ansible with Kubernetes for cloud automation. Plus, get our cheat sheet for using the Ansible k8s module.</li>
+<li><a href="https://opensource.com/article/19/2/quickstart-guide-ansible">opensource.com: A quickstart guide to Ansible 🌟</a> Download the Ansible Automation for SysAdmins guide.</li>
+<li><a href="https://opensource.com/article/20/9/ansible">opensource.com: 7 things you can do with Ansible right now</a> If Ansible&rsquo;s inclusion as a leader on the Forrester Wave report piqued your interest, here are some ways the automation solution can simplify your life.</li>
+<li><a href="https://opensource.com/article/20/10/calendar-ansible">opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟</a> Make sure your automation workflow&rsquo;s schedule doesn&rsquo;t conflict with something else by integrating a calendar app into Ansible.</li>
+<li><a href="https://opensource.com/article/20/10/first-day-ansible">opensource.com: My first day using Ansible</a> A sysadmin shares information and advice about putting Ansible into real-world use configuring computers on his network.</li>
+<li><a href="https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management/">siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟</a></li>
+<li><a href="https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes/">thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟</a></li>
+<li><a href="https://www.openshift.com/blog/ansible-and-openshift-connecting-for-success">openshift.com: Ansible and OpenShift: Connecting for Success 🌟</a></li>
+<li><a href="https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs/">zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟</a> And, on top of more plug-and-play Ansible programs, you can now run Ansible hand-in-glove with Red Hat OpenShift.</li>
+<li><a href="https://www.theregister.com/2020/10/14/redhat_ansible_kubernetes/">theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management</a></li>
+<li><a href="https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview">redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟</a></li>
+<li><a href="https://opensource.com/article/20/10/ansible-modules-linux">opensource.com: 10 Ansible modules for Linux system automation c</a> These handy modules save time and hassle by automating many of your daily tasks, and they&rsquo;re easy to implement with a few commands.</li>
+<li><a href="https://www.redhat.com/sysadmin/renewed-thrill-ansible">redhat.com: Renewing my thrill at work with Ansible</a></li>
+<li><a href="https://opensource.com/article/20/12/ansible-lab">opensource.com: Set up an Ansible lab in 20 minutes</a> Build an environment to support learning and experimenting with new software.</li>
+<li><a href="https://opensource.com/article/21/1/improve-ansible-play">opensource.com: 4 lines of code to improve your Ansible play</a></li>
+<li><a href="https://www.redhat.com/sysadmin/demystifying-ansible-sysadmins">redhat.com: Demystifying Ansible for Linux sysadmins 🌟</a> Taking the labor out of labor-intensive tasks is what Ansible is all about. Learn the basics here.<ul>
+<li><a href="https://www.redhat.com/sysadmin/ansible-quick-start">redhat.com: Quick start guide to Ansible for Linux sysadmins 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/1/ansible">opensource.com: 10 ways Ansible is for everyone 🌟</a> Expand your knowledge and skills with the top 10 Ansible articles plus five news summaries from 2020</li>
+<li><a href="https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values">ansible.com: Ansible Network Resource Modules: Deep Dive on Return Values</a></li>
+<li><a href="https://www.linkedin.com/pulse/ansible-what-marcel-koert/">linkedin.com: Ansible what is it and what not</a></li>
+<li><a href="https://www.redhat.com/sysadmin/automate-reboot-ansible">redhat.com: How to automate system reboots using the Ansible reboot module</a></li>
+<li><a href="https://developer.okta.com/blog/2021/02/05/okta-ansible">developer.okta.com: Tutorial: Ansible and Account Automation with Okta</a></li>
+<li><a href="https://www.redhat.com/sysadmin/how-start-ansible">redhat.com: Got automation? Here&rsquo;s a quick guide to get you up to speed on Ansible 🌟</a> This article gives you a quick, high-level guide on how to start with Ansible</li>
+<li><a href="https://opensource.com/article/21/2/ansible-origin-story">opensource.com: How Ansible got started and grew</a></li>
+<li><a href="https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package">ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟</a></li>
+<li><a href="https://www.toptechskills.com/ansible-tutorials-courses/">toptechskills.com: Ansible Tutorials &amp; Courses 🌟</a> Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.<ul>
+<li><a href="https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen/">toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/3/ansible-sysadmin">opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟</a> Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.</li>
+<li><a href="https://www.redhat.com/sysadmin/developing-ansible-role">redhat.com: 8 steps to developing an Ansible role in Linux 🌟</a> In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.</li>
+<li><a href="https://www.ansible.com/resources/whitepapers/ansible-in-depth">ansible.com: Ansible whitepaper</a> Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.</li>
+<li><a href="https://www.redhat.com/sysadmin/configure-gmail-using-ansible">redhat.com: How to use Ansible to send an email using Gmail</a></li>
+<li><a href="https://www.redhat.com/sysadmin/reverse-proxy-ansible">redhat.com: How to use Ansible to configure a reverse proxy 🌟</a> Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn&rsquo;t bring down the site.</li>
+<li><a href="https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1">Ansible 3.3.0 released</a></li>
+<li><a href="https://fedoramagazine.org/using-ansible-to-configure-podman-containers/">fedoramagazine.org: Using Ansible to configure Podman containers 🌟</a></li>
+<li><a href="https://acloudguru.com/blog/engineering/ansible-vs-puppet-which-is-right-for-you">acloudguru.com: Ansible vs Puppet: Which is right for you?</a></li>
+<li><a href="https://www.redhat.com/sysadmin/install-ansible-way">redhat.com: Add a repo and install a package the Ansible way</a> How to add package repositories and install packages on many hosts by using Ansible.</li>
+<li><a href="https://www.redhat.com/en/blog/introduction-rhel-system-roles">redhat.com: Introduction to RHEL System Roles 🌟</a> How to use Ansible Roles with RedHat Enterprise Linux</li>
+<li><a href="https://linuxtechlab.com/ansible-tutorial-simple-commands/">linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands</a></li>
+<li><a href="https://k21academy.com/ansible/ansible-for-beginners">k21academy.com: Ansible for Beginners | Overview | Architecture &amp; Use Cases 🌟</a><ul>
+<li><a href="https://k21academy.com/ansible/day2-live-session-review-and-q-a/">k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools">analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools</a></li>
+<li><a href="https://www.redhat.com/sysadmin/6-code-pushes-aap">redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟</a> Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-create-users-csv">redhat.com: 4 steps to create Linux users from a csv file with Ansible</a> Automate Linux user account creation in four simple steps with Ansible.</li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible/">cyberciti.biz: How to define multiple when conditions in Ansible</a></li>
+<li><a href="https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64">dev.to: DevOps 101 : Introduction to Ansible</a></li>
+<li><a href="https://www.redhat.com/sysadmin/python-venv-ansible">redhat.com: How to set up and use Python virtual environments for Ansible</a> Python&rsquo;s venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-ad-hoc-commands">redhat.com: Deep dive into Ansible ad hoc commands</a> Make life easier when dealing with Ansible automation by using ad hoc commands.</li>
+<li><a href="https://www.redhat.com/sysadmin/software-packages-ansible">redhat.com: How to install software packages with an Ansible playbook</a> Learn how to install new software packages on all your managed hosts with a single Ansible playbook.</li>
+<li><a href="https://getbetterdevops.io/build-docker-images-using-ansible-and-packer/">getbetterdevops.io: Build Docker Images Using Ansible and Packer</a> Build Image from Ansible code and persist them on local or in AWS ECR</li>
+<li><a href="https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible">developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-templates-configuration">redhat.com: How to create dynamic configuration files using Ansible templates</a> Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansiblefest-sysadmins">redhat.com: 16 AnsibleFest presentations for sysadmins</a> AnsibleFest offers a lot of information to help sysadmins automate better.</li>
+<li><a href="https://opensource.com/article/21/9/keep-folders-tidy-ansible">opensource.com: How I keep my file folders tidy with Ansible</a> I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible">developers.redhat.com: Four reasons developers should use Ansible</a></li>
+<li><a href="https://opensource.com/article/21/9/keep-folders-tidy-ansible">opensource.com: How I keep my file folders tidy with Ansible</a> I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.</li>
+<li><a href="https://vitux.com/how-to-speed-up-an-ansible-playbook/">vitux.com: How to speed-up an Ansible Playbook 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=mc20VwxYaGE&amp;t=3s&amp;ab_channel=CLOUDLEARNHUB">youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault</a></li>
+<li><a href="https://opensource.com/article/22/1/learn-ansible"><mark>opensource.com: 9 ways to learn Ansible this year</mark> 🌟</a> Ansible is an open source automation tool that can be used in a variety of ways. Here are a few examples of last year&rsquo;s most popular Ansible tutorials and stories.</li>
+<li><a href="https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent">cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible</a></li>
+<li><a href="https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands">cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands</a></li>
+<li><a href="https://www.redhat.com/sysadmin/faster-ansible-playbook-execution">redhat.com: 8 ways to speed up your Ansible playbooks</a> Here&rsquo;s how to optimize your Ansible playbooks to make them run faster.</li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list/">middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-dict/">middlewareinventory.com: Ansible Dictionary – How to create and add items to dict</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-aws_s3-example/">middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples | Devops Junction</a></li>
+<li><a href="https://www.techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series/">techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-dynamic-inventories"><mark>redhat.com: How to create dynamic inventory files in Ansible</mark></a> Learn how to use the host_list and Nmap plugins to build inventory files for your Ansible playbooks.<ul>
+<li><a href="https://www.redhat.com/sysadmin/ansible-dynamic-inventory-python"><mark>redhat.com: How to write a Python script to create dynamic Ansible inventories</mark></a> Write a script in Python that fetches hosts using Nmap to generate dynamic inventories.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-plugin-inventory-files"><mark>redhat.com: How to write an Ansible plugin to create inventory files</mark></a></li>
+</ul>
+</li>
+<li><a href="https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10/">dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home Lab Part 10 🌟</a> Ansible is an administrative tool that aims to make server management easier by using declarative and idempotent configuration files.</li>
+<li><a href="https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html">learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and Ansible Playbooks</a></li>
+<li><a href="https://blog.learncodeonline.in/everything-about-ansible-variables">blog.learncodeonline.in: Everything about Ansible Variables 🌟</a></li>
+<li><a href="https://blog.learncodeonline.in/managing-file-operations-with-ansible">blog.learncodeonline.in: Managing File Operations With Ansible 🌟</a></li>
+<li><a href="https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1">developers.redhat.com: How to install VMs and Ansible Automation Platform on Mac M1</a></li>
+<li><a href="https://devopscube.com/setup-ansible-aws-dynamic-inventory/">devopscube.com: How to Setup Ansible AWS Dynamic Inventory</a></li>
+<li><a href="https://www.ansible.com/blog/creating-custom-rules-for-ansible-lint">ansible.com: Creating Custom Rules for Ansible Lint</a> What&rsquo;s “linting?” Its objective is to promote proven behaviors, patterns, and practices while avoiding typical traps that can quickly result in errors or make code more difficult to maintain.</li>
+<li><a href="https://www.ansible.com/blog/top-10-ansible-blogs-2022">ansible.com: The Top 10 Ansible Blogs of 2022</a></li>
+<li><a href="https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops/">tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps</a></li>
+<li><a href="https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code/">tomsitcafe.com: Conditional statements – making decisions in Ansible code</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code/">tomsitcafe.com: How to implement and use handlers in Ansible code?</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code/">tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files/">tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files</a></li>
+<li><a href="https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible">ansible.com: Kubernetes Meets Event-Driven Ansible 🌟</a></li>
+<li><a href="https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible"><mark>sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible</mark> 🌟</a></li>
+<li><a href="https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project/">tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project</a></li>
+<li><a href="https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation/">tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI</a></li>
+<li><a href="https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes/">tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes</a></li>
+<li><a href="https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/">tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide</a></li>
+<li><a href="https://medium.com/@Techie1/networking-tasks-in-production-using-ansible-b09d0a6121f7">medium.com/@Techie1: Networking tasks in production using Ansible</a></li>
+<li><a href="https://medium.com/cloud-native-daily/getting-started-with-ansible-a-comprehensive-guide-for-devops-beginners-fd2fb3fd7a40">medium.com/cloud-native-daily: Getting Started with Ansible: A Comprehensive Guide for DevOps Beginners</a> Automate complex tasks, manage your Docker containers effortlessly, and even enhance collaboration using Ansible</li>
+<li><a href="https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible/">devopsinside.com: Is Kubernetes killing tools like Ansible?</a><ul>
+<li>Kubernetes is not a replacement for ansible: Despite their overlapping functionality, it is important to note that Kubernetes is not a replacement for ansible. Both tools have their own strengths and use cases, and they can be used together to achieve different goals.</li>
+<li>Kubernetes and ansible can be used together: Kubernetes and ansible can be used together to complement each other. For example, ansible can be used to automate the provisioning and configuration of Kubernetes clusters, while Kubernetes can be used to manage the deployment and scaling of applications within those clusters.</li>
+</ul>
+</li>
+<li><a href="https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone">community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!</a></li>
+<li><a href="https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker/">intellipaat.com: Ansible vs Kubernetes vs Docker</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-lists-dictionaries-yaml">redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟</a></li>
+<li><a href="https://github.com/naveensilver/Ansible">github.com/naveensilver/Ansible</a> My Ansible Notes (Beginner to Advanced) : Repository to learn Ansible from Zero. This repository covers the complete Ansible fundamentals along with examples required for a DevOps Engineer.</li>
+</ul>
+<h2 id="ansible-ai">Ansible AI</h2>
+<ul>
+<li><a href="https://ansible.ai"><mark>ansible.ai</mark></a></li>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible/ansible-lightspeed">redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant</a> Red Hat® Ansible® Lightspeed with IBM watsonx Code Assistant helps automation teams learn, create, and maintain Red Hat Ansible Automation Platform content more efficiently.</li>
+</ul>
+<h2 id="ansible-ui">Ansible UI</h2>
+<ul>
+<li><a href="https://www.semui.co/"><mark>Semaphore UI</mark> 🌟</a></li>
+<li><a href="https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore/">thenewstack.io: How to Put a GUI on Ansible, Using Semaphore</a> Ansible can be great for automating routine IT tasks, but some may feel stymied by the command line. Here&rsquo;s how to install the Semaphore graphical user interface.</li>
+</ul>
+<h2 id="deploying-custom-files-with-jinja2-templates">Deploying custom files with Jinja2 templates</h2>
+<ul>
+<li><a href="https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/">infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟</a> - <a href="https://www.youtube.com/watch?app=desktop&amp;v=jokfVGdhBow&amp;feature=youtu.be&amp;ab_channel=InfraXpertzz">video</a></li>
+<li><a href="https://github.com/pallets/jinja/">jinja 🌟</a> Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</li>
+</ul>
+<h2 id="writing-an-ansible-module">Writing an Ansible module</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html">docs.ansible.com: Developing Ansible modules</a></li>
+<li><a href="https://techforce1.nl/creating-your-first-ansible-module">techforce1.nl: Creating your first Ansible module</a></li>
+</ul>
+<h2 id="interacting-with-rest-api">Interacting with REST API</h2>
+<ul>
+<li><a href="https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api/">linuxctl.com: Ansible - Interacting with external REST API</a> Ansible has many powerful modules. One of which is called uri which is capable of sending any kind of HTTP request. Using this module, it is fairly simple to allow ansible to intelligently talk to a REST API. This will come in handy during for automation of the sensu monitoring docker infrastructure I am currently working on.</li>
+<li><a href="https://steampunk.si/blog/let-us-give-ansible-a-rest/">steampunk.si: Let us give Ansible a REST</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-web-endpoints">redhat.com: Using Ansible to interact with web endpoints</a> How about an Ansible use case that you can implement today?</li>
+<li><a href="https://opensource.com/article/21/9/ansible-rest-apis">opensource.com: Using Ansible with REST APIs</a> You may have queried APIs with a web browser or curl, but one of the overlooked capabilities of Ansible is how well it can leverage APIs as part of any playbook.</li>
+</ul>
+<h3 id="writing-an-ansible-module-for-a-rest-api">Writing an Ansible module for a REST API</h3>
+<ul>
+<li><a href="https://www.ansible.com/automating-business-applications-rest-api">ansible.com: Automating your business application&rsquo;s REST API with Ansible</a> You will learn how you can use Ansible to talk to your business application&rsquo;s REST API - and to develop your own Ansible modules doing just that.</li>
+<li><a href="https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/">liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API</a></li>
+</ul>
+<h2 id="ansible-videos">Ansible Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p">youtube playlist: Ansible Tutorial - by Thetips4you 🌟</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR">youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟</a><ul>
+<li><a href="https://www.youtube.com/watch?v=pJFZ5h9fT5o&amp;ab_channel=InfraXpertzz">youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk">youtube: Ansible for beginners - by XavkiEn</a> - <a href="https://gitlab.com/xavki/devopsland/-/tree/master/ansible">slides</a><ul>
+<li><a href="https://www.youtube.com/watch?v=NgRuap0MmZw&amp;ab_channel=XavkiEn">youtube: Exercises / Monitoring : How to install node exporter 🌟</a> In this tutorial, we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.</li>
+</ul>
+</li>
+</ul>
+<h2 id="ansible-playbooks">Ansible Playbooks</h2>
+<ul>
+<li>
+<p><a href="https://github.com/geerlingguy/ansible-for-devops">Ansible for DevOps Examples</a> 🌟 - A GitHub repository containing example Ansible playbooks and roles specifically tailored for DevOps practices. It covers various use cases, including infrastructure deployment, application configuration, and automation for common DevOps tools.</p>
+</li>
+<li>
+<p><a href="https://github.com/k3s-io/k3s-ansible">github.com/k3s-io/k3s-ansible 🌟</a> Build a Kubernetes cluster using Ansible with k3s.</p>
+</li>
+<li><a href="https://github.com/PyratLabs/ansible-role-k3s">github.com/PyratLabs/ansible-role-k3s 🌟</a> Ansible role for installing k3s as either a standalone server or HA cluster.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible">developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with Ansible</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-playbook-example/"><mark>middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction</mark></a></li>
+</ul>
+<h2 id="ansible-collections">Ansible Collections</h2>
+<ul>
+<li><a href="https://github.com/ansible-collections">Ansible Collections 🌟</a></li>
+<li><a href="https://github.com/ansible-collections/amazon.aws">Amazon AWS Collection 🌟</a></li>
+<li><a href="https://github.com/Radware/radware-ansible">Radware/radware-ansible: Radware Ansible Collection</a></li>
+<li><a href="https://www.ansible.com/blog/based-validated-network-content">ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection</a> Ansible validated content is use cases-focused automation packaged as Collections. They include plugins, roles and playbooks that can be used as an automation job through RedHat Ansible Automation Platform. Here&rsquo;s how to use the network.base Collection.</li>
+</ul>
+<h2 id="red-hat-ansible-automation-platform">Red Hat Ansible Automation Platform</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives">redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives</a> Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation</li>
+<li><a href="https://www.ansible.com/blog/now-available-red-hat-ansible-automation-platform-1.2">ansible.com: Red Hat Ansible Automation Platform 1.2</a></li>
+<li><a href="https://pypi.org/project/ansible-navigator/">pypi.org: ansible-navigator 🌟</a> A text-based user interface (TUI) for the Red Hat Ansible Automation Platform</li>
+<li><a href="https://www.ansible.com/blog/introducing-ansible-automation-platform-2">ansible.com: Introducing Ansible Automation Platform 2</a></li>
+<li><a href="https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2">redhat.com: From the datacenter to the edge: The open hybrid cloud vision for Red Hat Ansible Automation Platform 2</a></li>
+<li><a href="https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners">redhat.com: Redefining the possibilities of IT automation across your ecosystem with Red Hat partners</a></li>
+<li><a href="https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access">crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access</a> ‘Automation is foundational. Not an option. Not tactical,’ Massimo Ferrari, Red Hat’s management strategy director, tells CRN in an interview. “You need automation, otherwise you won‘t be able to do many other things, whether that be DevOps, whether that be digital transformation.”</li>
+<li><a href="https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions/">devops.com: Red Hat Extends Scope of Ansible Automation Ambitions</a> Red Hat announced the availability of a preview edition of Red Hat Ansible Automation Platform 2 that is intended to make it easier to automate IT processes at scale.</li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators">redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators</a> Industry’s leading IT automation platform now re-architected for deploying portable automation at massive scale across hybrid clouds and edge environments while shifting automation left into application development</li>
+<li><a href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-controller">ansible.com: What&rsquo;s new in Ansible Automation Platform 2: automation controller</a><ul>
+<li><a href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator">ansible.com: What&rsquo;s new in Ansible Automation Platform 2: automation content navigator</a></li>
+</ul>
+</li>
+<li><a href="https://venturebeat.com/2021/12/08/red-hat-brings-its-ansible-it-automation-engine-to-azure/">venturebeat.com: Red Hat brings Ansible IT automation engine to Azure</a></li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure">redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to <strong>Microsoft Azure</strong></a> Customers can more easily automate across hybrid clouds, IoT and edge deployments with Red Hat Ansible Automation Platform on Microsoft Azure</li>
+<li><a href="https://www.wraltechwire.com/2021/12/11/red-hat-expands-hybrid-cloud-efforts-in-ansible-deal-with-microsoft-azure/">wraltechwire.com: Red Hat expands hybrid cloud efforts in Ansible deal with Microsoft Azure</a></li>
+</ul>
+<h3 id="automation-services-catalog">Automation services catalog</h3>
+<ul>
+<li><a href="https://www.ansible.com/products/automation-services-catalog">ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform</a> Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business</li>
+</ul>
+<h3 id="red-hat-certified-ansible-content-collections">Red Hat Certified Ansible Content Collections</h3>
+<ul>
+<li><a href="https://access.redhat.com/articles/4993781">List of Red Hat Supported Maintained Ansible Collections 🌟</a></li>
+<li><a href="https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible">ansible.com: Automating Red Hat Satellite with Ansible</a><ul>
+<li><a href="https://galaxy.ansible.com/t_systems_mms/letsencrypt">galaxy.ansible.com: letsencrypt</a> This collection contains a role for issuing ssl certificates from Let&rsquo;s Encrypt via dns or http-challenge</li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/3/ansible-collections">opensource.com: 5 tips for choosing an Ansible collection that&rsquo;s right for you</a> Try these strategies to find and vet collections of Ansible plugins and modules before you install them.</li>
+<li><a href="https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection">ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?app=desktop&amp;v=AXnDrGgLaF0&amp;feature=share&amp;ab_channel=RobertdeBock">youtube: Ansible Collections 🌟</a></li>
+</ul>
+<h2 id="ansible-cheat-sheets">Ansible Cheat Sheets</h2>
+<ul>
+<li><a href="cheatsheets.html">Ansible Cheat Sheets</a></li>
+</ul>
+<h2 id="running-ansible-playbooks">Running Ansible Playbooks</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks.html">docs.ansible.com: Working With Playbooks</a></li>
+<li><a href="https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/">linuxtechi.com: How to Use Loops in Ansible Playbook</a></li>
+<li><a href="https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection">Ansible Let&rsquo;s Encrypt Collection</a></li>
+<li><a href="https://www.redhat.com/sysadmin/troubleshoot-ansible-playbooks">redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟</a> Here are six ways you can check for problems when running Ansible playbooks.</li>
+<li><a href="https://www.redhat.com/sysadmin/extra-variables-ansible-playbook">redhat.com: How to pass extra variables to an Ansible playbook</a> Learn how to pass variables to your Ansible playbooks makes them more portable and flexible.</li>
+</ul>
+<h3 id="running-ansible-playbooks-from-jenkins">Running Ansible Playbooks From Jenkins</h3>
+<ul>
+<li><a href="https://dzone.com/articles/running-ansible-playbooks-from-jenkins">Dzone: Running Ansible Playbooks From Jenkins</a></li>
+<li><a href="https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653">itnext.io: Ansible and Jenkins — automate your scritps 🌟</a></li>
+</ul>
+<h3 id="ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower">Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower</h3>
+<ul>
+<li><a href="https://www.ansible.com/products/tower">Ansible Tower</a></li>
+<li><a href="https://docs.ansible.com/ansible-tower/index.html">Ansible Tower Docs</a></li>
+<li><a href="https://github.com/ansible/awx">Ansible AWX</a></li>
+<li><a href="https://github.com/ansible/awx-operator">AWX Operator</a> An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.</li>
+<li><a href="https://www.ansible.com/blog/topic/ansible-tower">ansible.com/blog/topic/ansible-tower</a></li>
+<li><a href="https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana">Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana</a></li>
+<li><a href="https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/">linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes</a></li>
+<li><a href="https://steampunk.si/blog/managing-infrastructure-using-ansible-tower/">steampunk.si: Managing infrastructure using Ansible Tower</a></li>
+<li><a href="https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx/">maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX</a></li>
+<li><a href="https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html">techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8</a></li>
+<li><a href="https://medium.com/@claudio.domingos/ansible-awx-from-scratch-to-rest-api-part-4-of-8-4aa860d823f6">medium: Ansible AWX: from scratch to REST API (part 4 of 8)</a> Playbook to automate AWX REST API interactions</li>
+</ul>
+<h4 id="tower-and-awx-installers">Tower and AWX Installers</h4>
+<ul>
+<li><a href="https://galaxy.ansible.com/geerlingguy/awx">galaxy.ansible.com/geerlingguy/awx 🌟</a> Installs and configures AWX (Ansible Tower&rsquo;s open source version).</li>
+<li><a href="https://galaxy.ansible.com/awx/awx">AWX Ansible Collection: galaxy.ansible.com/awx/awx</a> This Ansible collection allows for easy interaction with an AWX server via Ansible playbooks.</li>
+<li><a href="https://app.vagrantup.com/ansible/boxes/tower">vagrant: ansible tower</a></li>
+<li><a href="https://app.vagrantup.com/krlex/boxes/centos-awx">vagrant: centos-awx</a></li>
+<li><a href="https://github.com/tom-256/ansible-awx-packer">github.com/tom-256/ansible-awx-packer</a> ansible awx golden image based amazon linux</li>
+<li><a href="https://github.com/scorputty/packer-centos-awx">github.com/scorputty/packer-centos-awx</a> Packer image build code for Ansible AWX (Tower) Vagrant box</li>
+<li><a href="https://github.com/jsmartin/ansible-tower-packer/">github.com/jsmartin/ansible-tower-packer</a></li>
+<li><a href="https://artifacthub.io/packages/search?ts_query_web=awx&amp;sort=relevance&amp;page=1">artifacthub.io: Helm Charts - AWX</a></li>
+<li><a href="https://aws.amazon.com/marketplace/search/results?searchTerms=tower">AWS Marketplace (AMIs): AWX/Tower</a></li>
+</ul>
+<h3 id="alternatives-to-ansible-tower">Alternatives to Ansible Tower</h3>
+<ul>
+<li><a href="https://www.jenkins.io/">Jenkins</a></li>
+<li><a href="https://www.theforeman.org/">Foreman</a><ul>
+<li><a href="https://galaxy.ansible.com/theforeman/foreman">Ansible Modules to manage Foreman and Katello installations</a></li>
+<li><a href="https://github.com/theforeman/foreman-ansible-modules">Foreman Ansible Modules (FAM)</a> Ansible modules for interacting with the Foreman API and various plugin APIs such as Katello.</li>
+<li><a href="https://community.theforeman.org/t/rfc-operations-ansible-collection/20971">RFC: Foreman Operations Ansible Collection</a></li>
+<li><a href="https://theforeman.org/2021/01/updating-foreman-inventory-with-system-facts.html">theforeman.org: Updating Foreman inventory with system facts</a></li>
+<li><a href="https://theforeman.org/2021/09/foreman-30-is-here.html">theforeman.org: Foreman 3.0 is here!</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="ansible-kubernetes-operators">Ansible Kubernetes Operators</h2>
+<ul>
+<li><a href="https://www.ansible.com/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes">ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes</a></li>
+</ul>
+<h2 id="ansible-molecule-development-and-testing-of-ansible-roles">Ansible Molecule. Development and Testing of Ansible Roles</h2>
+<ul>
+<li><a href="https://molecule.readthedocs.io/">Ansible Molecule</a> Molecule project is designed to aid in the development and testing of Ansible roles.</li>
+<li><a href="https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule">jeffgeerling.com: Testing your Ansible roles with Molecule</a></li>
+<li><a href="https://www.ansible.com/hubfs//AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf">PDF: Practical Ansible Testing with Molecule</a></li>
+<li><a href="https://opensource.com/article/18/12/testing-ansible-roles-molecule">opensource.com: Testing Ansible roles with Molecule</a> Learn how to automate your verifications using Python.</li>
+<li><a href="https://medium.com/@moep_moep/test-driven-development-with-ansible-using-molecule-3386cef987ac">medium.com: Test driven Development with Ansible using Molecule</a></li>
+<li><a href="https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule/">tomsitcafe.com: How to test Ansible code with Molecule</a></li>
+</ul>
+<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://www.ansiblefordevops.com/">ansiblefordevops.com</a></li>
+<li><a href="https://www.ansibleforkubernetes.com/">ansibleforkubernetes.com 🌟</a></li>
+<li><a href="https://www.redhat.com/en/engage/automated-enterprise-ebook-20171107">redhat.com: The Automated Enterprise</a> Transform your business with an automation platform that unifies your people and processes.</li>
+<li><a href="https://github.com/automateyournetwork/automate_your_network">github.com/automateyournetwork/automate_your_network: Automate Your Network - John Capobianco - July 1<sup>st</sup> 2023</a></li>
+</ul>
+<h2 id="ansible-galaxy-roles">Ansible Galaxy Roles</h2>
+<ul>
+<li><a href="https://galaxy.ansible.com/">galaxy.ansible.com</a></li>
+<li><a href="https://galaxy.ansible.com/geerlingguy">galaxy.ansible.com/geerlingguy</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-system-role">redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟</a> In this part one of two articles, learn to use rhel-system-roles with your Ansible deployment to better manage functionality such as network, firewall, SELinux, and more on your Red Hat Enterprise Linux servers.</li>
+<li><a href="https://github.com/geerlingguy/ansible-role-docker">Ansible Role: Docker 🌟</a> An Ansible Role that installs Docker on Linux. &ldquo;My Docker role now supports managing the Docker <code>daemon.json</code> file, after years of people asking&rdquo; (Jeff Geerling)</li>
+</ul>
+<h2 id="more-ansible-roles">More Ansible Roles</h2>
+<ul>
+<li><a href="https://github.com/Tronde/ansible-role-rhel-patchmanagement">Tronde/ansible-role-rhel-patchmanagement</a> Use Ansible and some custom scripts to deploy advisories and patches to RHEL servers.</li>
+</ul>
+<h2 id="ansible-scripts">Ansible scripts</h2>
+<ul>
+<li><a href="https://github.com/konstruktoid/ansible-hvault-inventory">konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp Vault SSH OTP and local password rotation</a> Using HashiCorp Vault as a dynamic Ansible inventory and authentication service</li>
+</ul>
+<h2 id="ansible-with-helm">Ansible with Helm</h2>
+<ul>
+<li><a href="https://medium.com/opstree-technology/ansible-helm-diff-plugin-63e1cda299a3">medium.com/opstree-technology: Understanding Ansible: Helm diff plugin 🌟</a> Here in this blog, we’ll discuss how we can leverage the validate &amp; dry-run option in Ansible with Ansible: Helm diff plugin.</li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_module.html">docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager</a></li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_plugin_module.html">docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins</a></li>
+</ul>
+<h2 id="awesome-ansible">Awesome Ansible</h2>
+<ul>
+<li><a href="https://github.com/jdauphant/awesome-ansible">https://github.com/jdauphant/awesome-ansible</a></li>
+<li><a href="https://github.com/awesome-devops/awesome-ansible">https://github.com/awesome-devops/awesome-ansible</a></li>
+</ul>
+<h2 id="ansible-and-public-cloud-guides">Ansible and Public Cloud Guides</h2>
+<ul>
+<li>
+<p><a href="https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/">The Beginner’s Guide to the Ansible Inventory</a> 🌟 - This guide explains the core concept of Ansible Inventory, detailing its role in organizing and defining automation targets. It covers both static and dynamic inventory types, their respective formats (INI and YAML), and how to configure dynamic inventories using plugins with sources like NetBox. The article also touches upon inventory filtering for precise host automation.</p>
+</li>
+<li>
+<p><a href="https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html">Public Cloud Guides 🌟</a></p>
+</li>
+<li><a href="https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure">Ansible to automate Microsoft Azure</a></li>
+<li><a href="https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e">medium: AWS Configuration with Web Server in EC2 Using Ansible</a></li>
+</ul>
+<h2 id="ansible-kubernetes-module">Ansible Kubernetes Module</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/k8s_module.html"><mark>docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects</mark></a></li>
+<li><a href="https://adamtheautomator.com/ansible-kubernetes/">adamtheautomator.com: How to Use the Ansible Kubernetes Module</a> The Ansible Kubernetes module allows you to access the full range of Kubernetes APIs and create objects such as deployments, services, and so on. Learn how to use it in this step-by-step tutorial.</li>
+</ul>
+<h2 id="nginx-core-collection-for-ansibe">NGINX Core Collection for Ansibe</h2>
+<ul>
+<li><a href="https://galaxy.ansible.com/nginxinc/nginx_core">galaxy.ansible.com/nginxinc/nginx_core</a></li>
+<li><a href="https://www.nginx.com/blog/announcing-nginx-core-collection-ansible/">nginx.com: Announcing the NGINX Core Collection for Ansible</a></li>
+</ul>
+<h2 id="dynatrace-with-ansible">Dynatrace with Ansible</h2>
+<ul>
+<li><a href="https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview/">dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)</a></li>
+</ul>
+<h2 id="sql-server-with-ansible">SQL Server with Ansible</h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/mssql-linux-easy">redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8</a></li>
+</ul>
+<h2 id="oci-oracle-cloud-infrastructure-with-ansible">OCI Oracle Cloud Infrastructure with Ansible</h2>
+<ul>
+<li><a href="https://oci-ansible-collection.readthedocs.io/">oci-ansible-collection.readthedocs.io</a></li>
+</ul>
+<h2 id="oracle-database-with-ansible">Oracle Database with Ansible</h2>
+<ul>
+<li><a href="https://github.com/oravirt/ansible-oracle">github.com/oravirt/ansible-oracle</a></li>
+<li><a href="https://github.com/oravirt/ansible-oracle-modules">github.com/oravirt/ansible-oracle-modules</a> Oracle modules for Ansible</li>
+<li><a href="https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle/">oravirt.wordpress.com: Getting started with ansible-oracle</a></li>
+<li><a href="https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2/">oravirt.wordpress.com: Changes in ansible-oracle v1.2</a></li>
+<li><a href="https://github.com/abessifi/ansible-sqlplus">github.com/abessifi/ansible-sqlplus</a> Ansible role to install sqlplus tool to connect to an Oracle database server</li>
+<li><a href="https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script">stackoverflow.com: Ansible playbook to execute Oracle script</a></li>
+<li><a href="https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook">stackoverflow.com: Running Oracle SQL scripts with Ansible playbook</a></li>
+</ul>
+<h2 id="ansistrano-deploying-applications-with-ansible-in-capistrano-style">Ansistrano. Deploying applications with Ansible in Capistrano style</h2>
+<ul>
+<li><a href="https://github.com/ansistrano">Ansistrano</a></li>
+<li><a href="https://capistranorb.com/">Capistrano</a> A remote server automation and deployment tool written in Ruby.</li>
+</ul>
+<h2 id="anacron-and-ansible">Anacron and Ansible</h2>
+<ul>
+<li><a href="https://opensource.com/article/21/9/ansible-anacron-automation">opensource.com: How I use Ansible and anacron for automation</a> With anacron, I can drop scripts and Ansible playbooks into place for all manner of trivial tasks.</li>
+<li><a href="https://opensource.com/article/21/2/linux-automation">opensource.com: Use anacron for a better crontab</a> Instead of manually performing repetitive tasks, let Linux do them for you.</li>
+</ul>
+<h2 id="tweets">Tweets</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to manage Windows hosts with Ansible!<br><br>A Short Thread 👇 <a href="https://t.co/NGRqym4c91">pic.twitter.com/NGRqym4c91</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1629453865308536832?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ansible vs Terraform<br><br>Explaining the differences and the better choice for you!<br><br>A Thread 👇 <a href="https://t.co/maKVIdHXki">pic.twitter.com/maKVIdHXki</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1672637966743896066?ref_src=twsrc%5Etfw">June 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</center>
+</details>
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1id6ERvfozo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lhFvMsy6VX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/goclfp6a2IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_TVNCTK808I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rx4Uh3jv1cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8795,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/yaml.html">
       
+      
+        <link rel="prev" href="liquibase.html">
+      
+      
+        <link rel="next" href="databases.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>YAML and JSON - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#yaml-and-json-templating-yaml-with-yaml-processors-static-checking-of-kubernetes-yaml-files" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              YAML and JSON
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -403,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +436,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +458,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +480,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +502,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +524,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -531,11 +542,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1843,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +1996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +2847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +2875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +2981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +3843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +3871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3890,8 +3903,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -3917,19 +3932,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" checked>
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
             
   
   
@@ -3947,7 +3965,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_15">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3965,7 +3983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4123,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4186,10 +4204,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YAML and JSON
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="yaml.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -4205,6 +4250,247 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-templating-yaml-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction. Templating YAML Files
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction. Templating YAML Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#k8s-yaml-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K8s YAML tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yaml-anchors-and-aliases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YAML anchors and aliases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yaml-processors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YAML Processors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yaml-validators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YAML Validators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-yaml-tools-how-to-create-kubernetes-yaml-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other YAML Tools. How to create Kubernetes YAML files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#helm-and-kustomize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Helm and Kustomize
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-templating-json-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSON. Templating JSON Files
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JSON. Templating JSON Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jsonpath-query-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSONPath query language
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json-in-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSON in Ansible
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json-formatting-with-jq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSON formatting with jq
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSON Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-json-schemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes JSON Schemas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternatives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#base64" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Base64
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -4284,7 +4570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4976,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +5004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +5032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +6015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +6043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +6071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6184,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6240,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +7015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7864,298 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="yaml-and-json-templating-yaml-with-yaml-processors-static-checking-of-kubernetes-yaml-files">YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files</h1>
+<ol>
+<li><a href="#introduction-templating-yaml-files">Introduction. Templating YAML Files</a><ol>
+<li><a href="#k8s-yaml-tips">K8s YAML tips</a></li>
+<li><a href="#yaml-anchors-and-aliases">YAML anchors and aliases</a></li>
+<li><a href="#yaml-processors">YAML Processors</a></li>
+<li><a href="#yaml-validators">YAML Validators</a></li>
+<li><a href="#other-yaml-tools-how-to-create-kubernetes-yaml-files">Other YAML Tools. How to create Kubernetes YAML files</a></li>
+<li><a href="#kubernetes-examples">Kubernetes examples</a></li>
+<li><a href="#helm-and-kustomize">Helm and Kustomize</a></li>
+</ol>
+</li>
+<li><a href="#json-templating-json-files">JSON. Templating JSON Files</a><ol>
+<li><a href="#jsonpath-query-language">JSONPath query language</a></li>
+<li><a href="#json-in-ansible">JSON in Ansible</a></li>
+<li><a href="#json-formatting-with-jq">JSON formatting with jq</a></li>
+<li><a href="#json-tools">JSON Tools</a></li>
+<li><a href="#kubernetes-json-schemas">Kubernetes JSON Schemas</a></li>
+</ol>
+</li>
+<li><a href="#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools">Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools</a></li>
+<li><a href="#alternatives">Alternatives</a></li>
+<li><a href="#base64">Base64</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction-templating-yaml-files">Introduction. Templating YAML Files</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/YAML">wikipedia: YAML</a></li>
+<li><a href="https://www.redhat.com/sysadmin/yaml-beginners">redhat.com: YAML for beginners</a> YAML is an easy, expressive, data-oriented language that distinguishes itself from document markup languages.</li>
+<li><a href="https://www.thoughtworks.com/radar/techniques/templating-in-yaml">thoughtworks.com: Templating in YAML</a> As infrastructures grow in complexity, so do the configuration files that define them. Tools such as <a href="https://aws.amazon.com/cloudformation/">AWS CloudFormation</a>, <a href="https://www.thoughtworks.com/radar/platforms/kubernetes">Kubernetes</a> and <a href="https://www.thoughtworks.com/radar/tools/helm">Helm</a> expect configuration files in JSON or YAML syntax, presumably in an attempt to make them easy to write and process. However, in most cases, teams quickly reach the point where they have some parts that are similar but not quite the same, for example, when the same service must be deployed in different regions with a slightly different setup. For such cases tools offer templating in YAML (or JSON), which has caused a huge amount of <a href="https://leebriggs.co.uk/blog/2019/02/07/why-are-we-templating-yaml.html">frustration with practitioners</a>. The problem is that the syntax of JSON and YAML requires all sorts of awkward compromises to graft templating features such as conditionals and loops into the files. <strong>We recommend using an API from a programming language instead or, when this is not an option, a templating system in a programming language, either a general-purpose language such as Python or something specialized such as <a href="https://jsonnet.org/">Jsonnet</a>.</strong></li>
+<li><a href="https://stevehorsfield.wordpress.com/2019/08/13/devops-tricks-templating-yaml-files/">Steve Horsfield: DevOps tricks - Templating YAML files</a> Basic text tools fall foul of YAML’s indentation sensitivity. On the other hand, <strong>YAML tools like <a href="https://get-ytt.io/">ytt</a> are pretty difficult to interpret.</strong> In my case, I opted for a small <a href="https://stedolan.github.io/jq/">jq</a> program executed via <a href="https://mikefarah.gitbook.io/yq/">yq</a>.</li>
+<li><a href="https://www.redhat.com/sysadmin/understanding-yaml-ansible">redhat.com: Understanding YAML for Ansible. Validating YAML files with YAMLlint 🌟</a> Ansible playbooks are written in YAML, YAML Ain&rsquo;t Markup Language. Understanding YAML syntax is a key to success with Ansible.</li>
+<li><a href="https://linuxhandbook.com/yaml-basics/">linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/11/25/how-to-configure-yaml-schema-to-make-editing-files-easier/">developers.redhat.com: How to configure YAML schema to make editing files easier</a></li>
+<li><a href="https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml/">kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟</a></li>
+<li><a href="https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8">betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes</a> Syntax, salient features, and advanced features.</li>
+<li><a href="https://abhisheksaini.hashnode.dev/yaml-for-representation">abhisheksaini.hashnode.dev: YAML For Data Representation?</a> YAML is a better option than JSON when comes to representation of Data</li>
+<li><a href="https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files/">boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟</a></li>
+<li><a href="https://opensource.com/article/21/9/yaml-cheat-sheet">opensource.com: Make YAML as easy as it looks</a> YAML looks simple so why is it so hard to write? Learn the two secrets to YAML success.</li>
+<li><a href="https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9">javascript.plainenglish.io: Everything You Need To Know About YAML Files</a> Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.</li>
+<li><a href="https://www.w3schools.io/file/yaml-vs-yml/">w3schools.io: YAML - yaml vs yml file</a></li>
+<li><a href="https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab"><mark>blog.devgenius.io: YAML with Python</mark></a> This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.</li>
+<li><a href="https://realpython.com/python-yaml/"><mark>realpython.com: YAML: The Missing Battery in Python</mark></a> Python lacks built-in support for the YAML data format, commonly used for configuration and serialization, despite clear similarities between the two languages. In this tutorial, you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on PyYAML.</li>
+<li><a href="https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c">betterprogramming.pub: 10 Things You Might Not Know About YAML</a> Harness the true power of YAML</li>
+<li><a href="https://spacelift.io/blog/yaml"><mark>spacelift.io/blog/yaml</mark></a> YAML Tutorial : A Complete Language Guide with Examples</li>
+<li><a href="https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell">ruudvanasseldonk.com: The yaml document from hell</a></li>
+<li><a href="https://itnext.io/python-yaml-and-kubernetes-the-art-of-mastering-configuration-cd60029b3f62">itnext.io: Python, YAML, and Kubernetes — The Art of Mastering Configuration</a> A practical guide to simplifying Kubernetes configuration management with Python and YAML</li>
+</ul>
+<h3 id="k8s-yaml-tips">K8s YAML tips</h3>
+<ul>
+<li><a href="https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81">itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟</a></li>
+</ul>
+<h3 id="yaml-anchors-and-aliases">YAML anchors and aliases</h3>
+<ul>
+<li><a href="https://yaml.org/spec/1.2/spec.html#id2765878">yaml.org: Anchors and Aliases</a></li>
+<li><a href="https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors/">support.atlassian.com: YAML anchors and aliases</a></li>
+<li><a href="https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd">medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files</a></li>
+<li><a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values">docs.ansible.com: YAML anchors and aliases: sharing variable values</a></li>
+</ul>
+<h3 id="yaml-processors">YAML Processors</h3>
+<ul>
+<li><a href="https://github.com/topics/yaml-processor">github.com/topics/yaml-processor</a></li>
+<li><a href="https://get-ytt.io/">ytt</a> is a templating tool that understands YAML structure allowing you to focus on your data instead of how to properly escape it.</li>
+<li>You should use tools such as <a href="https://mikefarah.gitbook.io/yq/">yq</a> and kustomize to template YAML resources instead of relying on tools that interpolate strings such as <a href="https://helm.sh/">Helm</a>.</li>
+<li><a href="https://mikefarah.gitbook.io/yq/">yq 🌟</a> is a lightweight and portable command-line YAML processor. The aim of the project is to be the <a href="https://github.com/stedolan/jq">jq</a> or sed of yaml files. <code>yq</code> allows to query the yaml tree and highlights it:<ul>
+<li><code>k get svc a -o yaml | yq r -</code></li>
+<li><a href="https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9">dev.to: yq : A command line tool that will help you handle your YAML resources better 🌟</a></li>
+<li><a href="https://towardsdatascience.com/yq-mastering-yaml-processing-in-command-line-e1ff5ebc0823">towardsdatascience.com: yq: Mastering YAML Processing in Command Line 🌟</a> Learn to parse and manipulate YAML files more efficiently using yq command-line utility and this simple cheat sheet</li>
+<li><a href="https://betterprogramming.pub/my-yq-cheatsheet-34f2b672ee58">betterprogramming.pub: My Cheatsheet for the “yq” Tool</a> Parsing Kubernetes YAML with yq. <code>yq</code> is a convenient tool for creating, updating and mangling Kubernetes YAML files. In this tutorial, you will learn how to use it as well as some practical tips and tricks.</li>
+</ul>
+</li>
+<li><a href="https://kapitan.dev/">Kapitan</a> Generic templated configuration management for Kubernetes, Terraform and other things.</li>
+<li><a href="https://github.com/azohra/yaml.sh">azohra/yaml.sh</a> A YAML parser completely in bash. <a href="https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec">Yaml.sh — YAML Sans Helm</a></li>
+<li><a href="https://github.com/andreazorzetto/yh">yh - YAML Highlighter</a> is YAML syntax highlighter that works nicely with kubectl output</li>
+<li><a href="https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba">Kubectl output options 🌟</a></li>
+</ul>
+<h3 id="yaml-validators">YAML Validators</h3>
+<ul>
+<li><a href="http://www.yamllint.com"><mark>yamllint.com: YAML Lint - The YAML Validator</mark></a></li>
+<li><a href="https://codebeautify.org/yaml-validator"><mark>codebeautify.org/yaml-validator</mark></a></li>
+<li><a href="https://jsonformatter.org/yaml-validator"><mark>jsonformatter.org/yaml-validator</mark></a></li>
+<li><a href="https://yamlvalidator.dev"><mark>yamlvalidator.dev: YAML Validator</mark></a>, <a href="https://chromewebstore.google.com/detail/yaml-validator/gjgbohnlhijomhfiflapnlnmcpckgigg">(chrome extension)</a> - Online YAML validator, formatter and viewer with built-in Kubernetes JSON Schema validation. The Chrome extension also adds YAML code folding on GitHub.</li>
+</ul>
+<h3 id="other-yaml-tools-how-to-create-kubernetes-yaml-files">Other YAML Tools. How to create Kubernetes YAML files</h3>
+<ul>
+<li><a href="https://onlineyamltools.com"><mark>onlineyamltools.com</mark> 🌟</a></li>
+<li><a href="https://github.com/avencera/yamine">avencera/yamine</a> A simple CLI for combining json and yaml files</li>
+<li><a href="https://k8syaml.com">k8syaml.com 🌟</a> Kubernetes YAML Generator - Powered by Octopus</li>
+<li><a href="https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45">itnext.io: How to create Kubernetes YAML files 🌟</a> - <a href="https://hackernoon.com/how-to-create-kubernetes-yaml-files">ref2 at hackernoon.com</a></li>
+<li><a href="https://www.datree.io">datree.io</a> Prevent Kubernetes Misconfigurations From Reaching Production<ul>
+<li><a href="https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398">dev.to: Automating quality checks for Kubernetes YAMLs</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/23andMe/Yamale">23andMe/Yamale</a> A schema and validator for YAML. Ensure that your schema definitions come from internal or trusted sources. Yamale does not protect against intentionally malicious schemas.</li>
+<li><a href="https://github.com/instrumenta/kubeval"><mark>instrumenta/kubeval</mark></a> Validate your Kubernetes configuration files, supports multiple Kubernetes versions. kubeval is a tool for validating a Kubernetes YAML or JSON configuration file. It does so using schemas generated from the Kubernetes OpenAPI specification, and therefore can validate schemas for multiple versions of Kubernetes.</li>
+<li><a href="https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f">medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO</a></li>
+<li><a href="https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k">linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k</a></li>
+<li><a href="https://dotnet-helpers.com/powershell/convert-yaml-to-json-or-json-to-yaml-using-powershell/">dotnet-helpers.com: How to Convert YAML to JSON / JSON to YAML using PowerShell</a></li>
+<li><a href="https://yamline.com/">yamline.com</a> Format, validate, compare, and convert YAML data</li>
+</ul>
+<h3 id="kubernetes-examples">Kubernetes examples</h3>
+<ul>
+<li><a href="https://k8s-examples.container-solutions.com/">Kubernetes examples 🌟</a> A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.</li>
+</ul>
+<h3 id="helm-and-kustomize">Helm and Kustomize</h3>
+<ul>
+<li><a href="https://www.dex.dev/dex-videos/templating-solutions">dex.dev: YAML Templating Solutions: Helm &amp; Kustomize</a> Writing config files by hand is like coding with Notepad instead of an IDE. Let&rsquo;s find a better way, and take an overview of the popular solutions Helm &amp; Kustomize.</li>
+<li><a href="https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455">medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts</a> - <a href="https://github.com/arttor/helmify">Helmify</a></li>
+</ul>
+<h2 id="json-templating-json-files">JSON. Templating JSON Files</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/JSON">wikipedia: JSON</a></li>
+<li><a href="https://www.json.org/json-en.html">json.org: Introducing JSON</a></li>
+<li><a href="https://jsonnet.org/">Jsonnet</a> A data templating language for app and tool developers</li>
+<li><a href="https://dave.cheney.net/high-performance-json.html">Building a high performance JSON parser</a></li>
+<li><a href="https://json-schema.org/understanding-json-schema/">json-schema.org: Understanding JSON Schema 🌟</a></li>
+<li><a href="https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja">dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs. JSONP</a> We ran a benchmark test in 2017 and again in 2021 to see how fast four of the most popular JSON libraries for Java parse different sizes of files.</li>
+<li><a href="https://github.com/buger/jsonparser">buger/jsonparser</a> One of the fastest alternative JSON parser for Go that does not require schema</li>
+<li><a href="https://dev.to/codereviewdoctor/the-json-trick-25-of-python-devs-dont-know-about-including-devs-at-microsoft-sentry-unicef-and-more-4h10">dev.to: The JSON trick 25% of Python devs don&rsquo;t know about</a> Reading and writing JSON files in Python.</li>
+<li><a href="https://dev.to/urstrulyvishwak/convert-nested-json-to-simple-json-in-javascript-4a34">dev.to: Convert nested JSON to simple JSON in Javascript</a></li>
+<li><a href="https://pythonspeed.com/articles/json-memory-streaming/">pythonspeed.com: Processing large JSON files in Python without running out of memory</a></li>
+<li><a href="https://thenewstack.io/why-and-how-you-should-manage-json-with-sql/">thenewstack.io: Why (and How) You Should Manage JSON with SQL</a></li>
+<li><a href="https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d">betterprogramming.pub: How to Make JSON and Python Talk to Each Other</a> Processing and creating JSON data in Python</li>
+<li><a href="https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532">betterprogramming.pub: Exploring JSON, JSON5, and Circular References</a> An in-depth guide on JavaScript Object Notation (JSON)</li>
+<li><a href="https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html">automationreinvented.blogspot.com: What is Json Schema and how to perform schema validation using Rest Assured?</a></li>
+</ul>
+<h3 id="jsonpath-query-language">JSONPath query language</h3>
+<ul>
+<li><a href="https://blog.mariano.cloud/do-you-even-jsonpath">blog.mariano.cloud: Do you even JSONPath?</a> JSONPath as in a JSON query language that enables you to interact with a JSON structured data set. In this article, you will learn how to use JSONPath expressions to parse and format responses from the Kubernetes API.</li>
+</ul>
+<h3 id="json-in-ansible">JSON in Ansible</h3>
+<ul>
+<li><a href="https://opensource.com/article/21/4/process-json-data-ansible">opensource.com: 5 ways to process JSON data in Ansible 🌟</a> Structured data is friendly for automation, and you can take full advantage of it with Ansible.</li>
+</ul>
+<h3 id="json-formatting-with-jq">JSON formatting with jq</h3>
+<ul>
+<li><a href="https://about.gitlab.com/blog/2021/04/21/devops-workflows-json-format-jq-ci-cd-lint/">about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation</a></li>
+<li><code>jq -C '.' data.json | less -R</code> Use jq to pretty print some JSON data with ANSI color coded syntax and use -R in less to process the color.</li>
+<li><a href="https://github.com/ilyash/show-struct">github.com/ilyash/show-struct</a> Shows possible jq paths in a JSON file</li>
+<li><a href="https://github.com/01mf02/jaq">github.com/01mf02/jaq</a> A jq clone focussed on correctness, speed, and simplicity</li>
+</ul>
+<h3 id="json-tools">JSON Tools</h3>
+<ul>
+<li><a href="https://jsoncrack.com"><mark>jsoncrack.com: JSON Crack 🌟🌟</mark></a> <strong>Seamlessly visualize your JSON data instantly into graphs</strong></li>
+<li><a href="https://github.com/tomnomnom/gron">github.com/tomnomnom/gron 🌟</a> Make JSON greppable!</li>
+<li><a href="https://github.com/ynqa/jnv">github.com/ynqa/jnv 🌟</a> Interactive JSON filter using jq</li>
+<li><a href="https://github.com/JFryy/qq">github.com/JFryy/qq</a> jq inspired (and gojq dependent) interoperable config format transcoder with interactive querying.</li>
+<li><a href="https://jsoning.com/">jsoning.com</a> A toolset including a formatter, comparer, JSONPath tester, patch generator, and data generator</li>
+</ul>
+<h3 id="kubernetes-json-schemas">Kubernetes JSON Schemas</h3>
+<ul>
+<li><a href="https://github.com/instrumenta/kubernetes-json-schema">github: Kubernetes JSON Schemas 🌟</a> Schemas for every version of every object in every version of Kubernetes</li>
+</ul>
+<h2 id="static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools">Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools</h2>
+<ul>
+<li>The ecosystem of static checking of Kubernetes YAML files can be grouped in the following categories:<ul>
+<li><strong>API validators</strong>: Tools in this category validate a given YAML manifest against the Kubernetes API server.</li>
+<li><strong>Built-in checkers</strong>: Tools in this category bundle opinionated checks for security, best practices, etc.</li>
+<li><strong>Custom validators</strong>: Tools in this category allow writing custom checks in several languages such as Rego and Javascript.</li>
+</ul>
+</li>
+<li><a href="https://learnk8s.io/validating-kubernetes-yaml">Validating Kubernetes YAML for best practice and policies 🌟</a> In this article, you will learn and compare six different tools:<ul>
+<li><a href="https://www.kubeval.com/">Kubeval</a></li>
+<li><a href="https://github.com/zegl/kube-score">Kube-score 🌟</a> <strong>Kubernetes object analysis with recommendations for improved reliability and security. kube-score is a opensource tool that performs static code analysis of Kubernetes object definitions. The output is a list of recommendations where one can improve to make application more secure and resilient.</strong></li>
+<li><a href="https://stelligent.github.io/config-lint">Config-lint</a></li>
+<li><a href="https://github.com/cloud66-oss/copper">Copper</a></li>
+<li><a href="https://www.conftest.dev/">Conftest</a></li>
+<li><a href="https://github.com/FairwindsOps/polaris">Polaris</a></li>
+</ul>
+</li>
+<li><a href="https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools/">kubevious.io: Top Kubernetes YAML Validation Tools</a></li>
+<li><a href="https://github.com/stackrox/kube-linter">KubeLinter</a> KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.<ul>
+<li><a href="https://thomasthornton.cloud/2022/04/13/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline/"><mark>thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline</mark></a></li>
+</ul>
+</li>
+<li><a href="https://medium.com/@jonathan_37674/how-to-validate-kubernetes-yaml-files-armo-e45dd006d633">medium.com/@jonathan_37674: How to validate Kubernetes YAML files? | ARMO</a> Explore defining Kubernetes applications using YAML configs and the various steps we can take to effectively validate these config definitions.</li>
+</ul>
+<h2 id="alternatives">Alternatives</h2>
+<ul>
+<li><a href="https://theketch.io">ketch</a> - <a href="https://www.civo.com/learn/deployments-without-yaml-using-ketch">civo.com: Deployments without YAML using Ketch</a><ul>
+<li><a href="https://learn.theketch.io/docs/getting-started">ketch: Getting Started</a></li>
+<li><a href="https://github.com/shipa-corp/ketch/">github.com/shipa-corp/ketch</a> Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.</li>
+</ul>
+</li>
+<li><a href="https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/">shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML</a></li>
+<li><a href="https://github.com/kris-nova/naml">naml: Not another markup language</a> Framework for replacing Kubernetes YAML with Go.</li>
+<li><a href="https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/">jvns.ca: A list of new(ish) command line tools</a><ul>
+<li><a href="https://stedolan.github.io/jq/">jq</a> (a great JSON-wrangling tool)</li>
+<li><a href="https://github.com/kellyjonbrazil/jc">jc</a> (convert various tools’ output into JSON)</li>
+<li><a href="https://github.com/jpmens/jo">jo</a> (create JSON objects)</li>
+<li><a href="https://github.com/mikefarah/yq">yq</a> (like jq, but for YAML). there’s also another yq</li>
+<li><a href="https://github.com/antonmedv/fx">fx</a> (interactive json tool)</li>
+<li><a href="https://github.com/PaulJuliusMartinez/jless">jless</a> (json pager)</li>
+<li><a href="https://github.com/BurntSushi/xsv">xsv</a> (a command line tool for csv files, from burntsushi)</li>
+<li><a href="https://www.visidata.org/">visidata</a> (“an interactive multitool for tabular data”)</li>
+<li><a href="https://github.com/johnkerl/miller">miller</a> (“like awk/sed/cut/join/sort for CSV/TSV/JSON/JSON lines”)</li>
+</ul>
+</li>
+<li><a href="https://github.com/kislyuk/yq">kislyuk/yq</a> Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents. Worth noting that there are two implementations of yq, the other one being <a href="https://github.com/kislyuk/yq">https://github.com/kislyuk/yq</a>. It&rsquo;s a simple&reg; wrapper around jq in Python, so it does support everything jq does, as opposed to the Go implementation, which reimplements jq but probably not fully.</li>
+</ul>
+<h2 id="base64">Base64</h2>
+<ul>
+<li><a href="https://www.base64encode.org/">base64encode.org</a> Base64 Decode and Encode</li>
+</ul>
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qmDzcu5uY1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iiADhChRriM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg?si=I-cySo1Uui5z-LUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</center>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿A quién se le ocurrió que sería buena idea el no tener comentarios en ficheros JSON?</p>&mdash; Coding Potions ⚗️ (@CodingPotions) <a href="https://twitter.com/CodingPotions/status/1489608445003280391?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you know all the YAML tricks and gotchas?<br><br>Are there any YAML tips for Kubernetes?<br><br>Read along! <a href="https://t.co/BXszAVR4sd">pic.twitter.com/BXszAVR4sd</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1620055199053406208?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8359,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

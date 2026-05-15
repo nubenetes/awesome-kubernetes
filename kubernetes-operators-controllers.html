@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-operators-controllers.html">
       
+      
+        <link rel="prev" href="kubernetes-autoscaling.html">
+      
+      
+        <link rel="next" href="kubernetes-based-devel.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Operators and Controllers - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kubernetes-operators-and-controllers" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Kubernetes Operators and Controllers
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -399,11 +410,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +438,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +460,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +482,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +504,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +526,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1746,8 +1759,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1795,19 +1810,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -1825,7 +1843,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1843,7 +1861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2120,10 +2138,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Operators and Controllers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2139,6 +2184,158 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opentelemetry-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenTelemetry Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-kubernetes-operator-using-kubebuilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Kubernetes operator using Kubebuilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operatorhubio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        operatorhub.io
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-hat-container-community-of-practice-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Container Community of Practice Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operator-capability-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operator Capability Levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-addons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Addons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#k8spin-operator-kubernetes-multi-tenant-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K8Spin Operator. Kubernetes multi-tenant operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#k8s-kpis-with-kuberhealthy-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K8s KPIs with Kuberhealthy Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-kubernetes-operators-and-controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing Kubernetes Operators and Controllers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2151,7 +2348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +3003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +3031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +3059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +3165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3417,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +4027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +4915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +4943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +5926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +5954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +5982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6123,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +6926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7775,403 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="kubernetes-operators-and-controllers">Kubernetes Operators and Controllers</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#opentelemetry-operator">OpenTelemetry Operator</a></li>
+<li><a href="#creating-kubernetes-operator-using-kubebuilder">Creating Kubernetes operator using Kubebuilder</a></li>
+<li><a href="#operatorhubio">operatorhub.io</a></li>
+<li><a href="#red-hat-container-community-of-practice-operators">Red Hat Container Community of Practice Operators</a></li>
+<li><a href="#operator-capability-levels">Operator Capability Levels</a></li>
+<li><a href="#cluster-addons">Cluster Addons</a></li>
+<li><a href="#k8spin-operator-kubernetes-multi-tenant-operator">K8Spin Operator. Kubernetes multi-tenant operator</a></li>
+<li><a href="#k8s-kpis-with-kuberhealthy-operator">K8s KPIs with Kuberhealthy Operator</a></li>
+<li><a href="#writing-kubernetes-operators-and-controllers">Writing Kubernetes Operators and Controllers</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue">Red Hat Build of Kueue</a> 🌟 - This documentation introduces Red Hat Build of Kueue, a Kubernetes-native batch job orchestrator. It explains how Kueue manages and schedules batch workloads by providing features like fair-sharing, preemption, and resource aggregation, making it suitable for AI and high-performance computing (HPC) workloads.</li>
+<li>
+<p><a href="https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/">How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn&rsquo;t Enough</a> 🌟 - This article explores the role of Kubernetes Operators in modern platform engineering, highlighting their advantages over traditional Infrastructure as Code (IaC) for managing complex applications and infrastructure within the Kubernetes control plane. It discusses how operators encapsulate expertise for tasks like backups, upgrades, and scaling, integrating seamlessly with tools like Argo and Flux for enhanced drift detection and reconciliation.</p>
+</li>
+<li>
+<p><a href="https://kruschecompany.com/kubernetes-operator/">kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?</a></p>
+</li>
+<li><a href="https://kruschecompany.com/kubernetes-prometheus-operator/">kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment</a></li>
+<li><a href="https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes/">hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator for Kubernetes</a></li>
+<li><a href="https://banzaicloud.com/blog/kafka-rolling-upgrade/">banzaicloud.com: Kafka rolling upgrade made easy with Supertubes</a></li>
+<li><a href="https://devops.com/day-2-for-the-operator-ecosystem/">devops.com: Day 2 for the Operator Ecosystem 🌟</a><ul>
+<li><a href="https://kudo.dev/">KUDO: The Kubernetes Universal Declarative Operator 🌟</a> KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.</li>
+</ul>
+</li>
+<li><a href="https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04">itnext.io: <strong>Operator Lifecycle Manager (OLM)</strong> 🌟</a></li>
+<li><a href="https://github.com/vmware/kube-fluentd-operator">kube-fluentd-operator 🌟</a> is a sane, no-brainer Kubernetes+Helm distribution of Fluentd with batteries included, config validation, no needs to restart, with sensible defaults and best practices built-in. You can use Kubernetes labels to filter/route logs!</li>
+<li><a href="https://github.com/shurshun/domain-harvester">Domain-harvester</a> is an operator that collects domains from all Ingress resources in a Kubernetes cluster and provides its expiry information</li>
+<li><a href="https://github.com/datastax/cass-operator">Cass Operator</a> The DataStax Kubernetes Operator for Apache Cassandra®</li>
+<li><a href="https://github.com/kotalco/kotal">Kotal operator</a> is cloud agnostic blockchain deployer that make it easy to deploy highly available, self-managing, self-healing blockchain infrastructure (networks, nodes, storage clusters &hellip;) on any cloud.</li>
+<li><a href="https://github.com/OT-CONTAINER-KIT/redis-operator">Speculator: Redis Operator</a> A Golang based redis operator that will make/oversee Redis standalone/cluster mode setup on top of the Kubernetes. It can create a redis cluster setup with best practices on Cloud as well as the Bare metal environment. Also, it provides an in-built monitoring capability using redis-exporter.</li>
+<li><a href="https://github.com/carlosedp/lbconfig-operator">github.com/carlosedp/lbconfig-operator: External Load Balancer Operator 🌟</a> a Kubernetes/openshift Operator to dynamically configure external load-balancers distributing the traffic to the cluster nodes. It&rsquo;s not 100% (will it ever be?) but already configures the F5 BigIP. The idea is to have multiple LB backends soon.</li>
+<li><a href="https://github.com/jace-ys/sentry-operator">Sentry Operator</a> A Kubernetes operator for automating the provisioning and management of Sentry resources via Kubernetes CRDs.</li>
+<li><a href="https://thenewstack.io/kubernetes-when-to-use-and-when-to-avoid-the-operator-pattern/">thenewstack.io: When to Use, and When to Avoid, the Operator Pattern 🌟</a></li>
+<li><a href="https://www.infoq.com/articles/kubernetes-operators-in-depth/">infoq.com: Kubernetes Operators in Depth</a></li>
+<li><a href="https://github.com/kloeckner-i/db-operator">DB Operator 🌟</a> is a Kubernetes Operator for the management of cloud databases, primarily Google Cloud SQL(GCSQL). It is designed to support the on demand creation of test environments in CI/CD pipelines.</li>
+<li><a href="https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101/">cncf.io: Kubernetes Operators 101</a></li>
+<li><a href="https://blog.container-solutions.com/kubernetes-operators-explained">container-solutions.com: Kubernetes Operators Explained</a></li>
+<li><a href="https://github.com/Efrat19/kubeload">kubeload - load testing</a> is a Kubernetes operator that lets you configure your load-test initial load, max load, interval and hatch-rate. You can use CRD to define all the parameters and repeat your load testing experiments.</li>
+<li><a href="https://www.contentful.com/blog/2020/10/20/open-source-kube-secret-syncer/">contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager</a><ul>
+<li><a href="https://github.com/contentful-labs/kube-secret-syncer">contentful-labs/kube-secret-syncer 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/alexellis/registry-creds">registry-creds</a> is a Kubernetes operator that can be used to propagate a single ImagePullSecret to all namespaces within your cluster. The primary reason for creating this operator is to make it easier to consume images from Docker Hub.</li>
+<li><a href="https://github.com/FairwindsOps/gemini">gemini</a> is a Kubernetes CRD and operator for managing VolumeSnapshots. This allows you to back up your PersistentVolumes on a regular schedule, retire old backups, and restore backups with minimal downtime.</li>
+<li><a href="https://kdo.dev/">Kdo: deployless development on Kubernetes 🌟</a> Kdo is a command line tool that enables developers to run, develop and test code changes in a realistic deployed setting without having to deal with the complexity of Kubernetes deployment and configuration.</li>
+<li><a href="https://github.com/rmb938/hostport-allocator">HostPort Operator</a> is a Kubernetes Operator to allocate host ports</li>
+<li><a href="https://iximiuz.com/en/posts/kubernetes-operator-pattern/">iximiuz.com: Exploring Kubernetes Operator Pattern 🌟</a></li>
+<li><a href="https://github.com/isaaguilar/terraform-operator">isaaguilar/terraform-operator: Terraform Operator</a> A Kubernetes CRD and Controller to handle Terraform operations by generating k8s jobs catered to perform Terraform workflows</li>
+<li><a href="https://github.com/didil/autobucket-operator">didil/autobucket-operator</a> The autobucket operator is a Kubernetes operator that automatically creates and manages Cloud Buckets (Object Storage) for k8s Deployments.</li>
+<li><a href="https://www.openshift.com/blog/is-your-operator-air-gap-friendly">openshift.com: Is your Operator Air-Gap Friendly?</a></li>
+<li><a href="https://github.com/Comcast/kuberhealthy">kuberhealthy 🌟</a> An operator for synthetic monitoring on Kubernetes. Write your own tests in your own container and Kuberhealthy will manage everything else. Automatically creates and sends metrics to Prometheus and InfluxDB. Included simple JSON status page. Supplements other solutions like Prometheus very nicely!</li>
+<li><a href="https://github.com/metal3-io/baremetal-operator">Bare Metal Operator</a> The Bare Metal Operator implements a Kubernetes API for managing bare metal hosts. It maintains an inventory of available hosts as Custom Resource Definitions.</li>
+<li><a href="https://github.com/borchero/meerkat">Meerkat</a> Meerkat is a Kubernetes Operator that facilitates the deployment of OpenVPN in a Kubernetes cluster. By leveraging Hashicorp Vault, Meerkat securely manages the underlying PKI.</li>
+<li><a href="https://github.com/OT-CONTAINER-KIT/logging-operator">Logging Operator</a> A golang based CRD operator to setup and manage logging stack (Elasticsearch, Fluentd, and Kibana) in the Kubernetes cluster. It helps to setup each component of the EFK stack separately.</li>
+<li><a href="https://github.com/tinyzimmer/gst-pipeline-operator">gst-pipeline-operator: A Kubernetes operator for running audio/video processing pipelines</a></li>
+<li><a href="https://github.com/brennerm/uptimerobot-operator">uptimerobot-operator</a> A Kubernetes operator that creates UptimeRobot monitors for your ingresses</li>
+<li><a href="https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1">medium.com: Getting Started With Kubernetes Operators (Helm Based) - Part 1</a><ul>
+<li><a href="https://medium.com/velotio-perspectives/getting-started-with-kubernetes-operators-ansible-based-part-2-472eb0d453b7">medium.com: Getting Started With Kubernetes Operators (Ansible Based) — Part 2</a></li>
+<li><a href="https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-golang-based-part-3">velotio.com: Getting Started With Kubernetes Operators (Golang Based) - Part 3</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/stakater/IngressMonitorController">IngressMonitorController (Deprecated)</a> A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices in UptimeRobot, StatusCake, Pingdom, etc.</li>
+<li><a href="https://github.com/FairwindsOps/rbac-manager"><mark>FairwindsOps/rbac-manager: RBAC Manager</mark> 🌟</a> A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. RBAC Manager is designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.</li>
+<li><a href="https://github.com/cloud-ark/kubeplus">KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟</a></li>
+<li><a href="https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels/">kubernetes.io: Writing a Controller for Pod Labels</a></li>
+<li><a href="https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea/">kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟</a></li>
+<li><a href="https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator/">thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator 🌟</a></li>
+<li><a href="https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf">cncf.io: CNCF Operator White Paper (PDF) 🌟</a> This white paper defines Operators in a wider context than Kubernetes. It describes their characteristics and components, gives an overview of common patterns currently in use and explains how they differ from Kubernetes controllers.</li>
+<li><a href="https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07">itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!</a> Access your Kubernetes Deployment over the Internet - <a href="https://github.com/abhirockzz/kubexpose-operator">abhirockzz/kubexpose-operator</a> Access your Kubernetes Deployment over the Internet</li>
+<li><a href="https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345">itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps</a></li>
+<li><a href="https://github.com/digitalis-io/vals-operator">digitalis-io/vals-operator</a> Kubernetes Operator to sync secrets between different secret backends and Kubernetes</li>
+<li><a href="https://github.com/banzaicloud/thanos-operator">banzaicloud/thanos-operator 🌟</a> Thanos Operator is a Kubernetes operator to manage Thanos stack deployment on Kubernetes.</li>
+<li><a href="https://github.com/cloud-bulldozer/benchmark-operator">cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks</a> The intent of this Operator is to deploy common workloads to establish a performance baseline of Kubernetes cluster on your provider.</li>
+<li><a href="https://github.com/pravega/pravega-operator">pravega/pravega-operator</a> Pravega Kubernetes Operator. Pravega is an open source distributed storage service implementing Streams. It offers Stream as the main primitive for the foundation of reliable storage systems: a high-performance, durable, elastic, and unlimited append-only byte stream with strict ordering and consistency. The Pravega Operator manages Pravega clusters deployed to Kubernetes and automates tasks related to operating a Pravega cluster.The operator itself is built with the Operator framework.</li>
+<li><a href="https://github.com/Quentin-M/etcd-cloud-operator">Quentin-M/etcd-cloud-operator</a> Deploying and managing production-grade etcd clusters on cloud providers: failure recovery, disaster recovery, backups and resizing.</li>
+<li><a href="https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator"><mark>spring.io: Get to Know a Kubernetes Operator!</mark></a></li>
+<li><a href="https://levelup.gitconnected.com/operators-extending-kubernetes-capabilities-184df001b7e"><mark>levelup.gitconnected.com: Operators : Extending Kubernetes Capabilities</mark></a> Operators are software extensions to Kubernetes that make use of custom resources to manage applications and their components. So what it means is that there are some applications whose deployment and management might require manual intervention and operators is the solution to automate it. <strong>Let’s say you need to deploy a database cluster for which each pod needs to be brought in sync after deployment, or say you need to perform a security scan whenever a new component is deployed, or maybe some configuration needs to be populated based on some event. Such a functionalities are not available in Kubernetes out of the box but can be implemented using operators.</strong></li>
+<li><a href="https://github.com/VictoriaMetrics/operator">VictoriaMetrics/operator</a> Kubernetes operator for Victoria Metrics</li>
+<li><a href="https://blog.px.dev/k8s-operator">blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)</a></li>
+<li><a href="https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html">practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators</a></li>
+<li><a href="https://github.com/reactive-tech/kubegres">reactive-tech/kubegres</a> Kubegres is a Kubernetes operator allowing to deploy one or many <strong>clusters of PostgreSql instances and manage databases replication, failover and backup.</strong></li>
+<li><a href="https://github.com/clastix/capsule"><mark>Capsule Operator</mark></a> is a Kubernetes multi-tenant Operator. It aggregates multiple namespaces in a Tenant. Within each tenant, users are free to create their namespaces and share all the assigned resources between the namespaces of the tenant.</li>
+<li><a href="https://github.com/redhat-cop/keepalived-operator"><mark>redhat-cop/keepalived-operator: Keepalived operator</mark></a> An operator to manage VIPs backed by keepalived. The objective of the keepalived operator is to allow for a way to create self-hosted load balancers in an automated way. From a user experience point of view the behavior is the same as of when creating LoadBalancer services with a cloud provider able to manage them.</li>
+<li><a href="https://medium.com/@samng1991216/building-kubernetes-operator-application-from-scratch-part-1-211b6b2467df">medium.com/@samng1991216: Building Kubernetes Operator Application from Scratch (Part 1)</a></li>
+<li><a href="https://github.com/redhat-cop/dynamic-rbac-operator">redhat-cop/dynamic-rbac-operator: Dynamic RBAC Operator</a> Flexible definitions of Kubernetes RBAC rules. Writing Kubernetes RBAC definitions by hand can be a pain. This operator allows you to define &ldquo;Dynamic&rdquo; RBAC rules that change based on the state of your cluster, so you can spend your time writing the RBAC patterns that you&rsquo;d like to deploy, rather than traditional, fully enumerated RBAC rules.</li>
+<li><a href="https://github.com/spotify/flink-on-k8s-operator">spotify/flink-on-k8s-operator: Kubernetes Operator for Apache Flink</a> Kubernetes operator for that acts as control plane to manage the complete deployment lifecycle of Apache Flink applications. This is an open source fork of GoogleCloudPlatform/flink-on-k8s-operator with several new features and bug fixes.</li>
+<li><a href="https://kube-green.dev">kube-green</a> An operator to reduce CO2 footprint of your clusters.<ul>
+<li>Sleep your pods: Suspend your pods when no-one&rsquo;s using them, scale down your cluster and save energy</li>
+<li>Reduce CO2 emissions: See how much you save in the Green Dashboard (coming soon)</li>
+</ul>
+</li>
+<li><a href="https://github.com/krestomatio/keydb-operator">krestomatio/keydb-operator</a> A KeyDB (Drop-In Alternative to Redis) Operator for Kubernetes</li>
+<li><a href="https://github.com/keel-hq/keel"><mark>Keel</mark> 🌟</a> <strong>Kubernetes Operator to automate Helm, DaemonSet, StatefulSet &amp; Deployment updates:</strong><ul>
+<li>You can use policies to define when to update an application</li>
+<li>Users can specify how many approvals do they need before a resource is updated.</li>
+<li><a href="https://keel.sh">https://keel.sh</a></li>
+</ul>
+</li>
+<li><a href="https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627">medium.com/@mjkool: Kubernetes Operator — Simplified!</a></li>
+<li><a href="https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332">medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained</a> A developer guideline to Kubernetes clients in go. As most development in the Kubernetes space is done in Go, available client libraries for interacting with the Kubernetes API have evolved over time to make controllers more scalable.</li>
+<li><a href="https://github.com/openshift/machine-api-operator">openshift/machine-api-operator</a> The Machine API Operator manages the lifecycle of specific purpose CRDs, controllers and RBAC objects that extend the Kubernetes API. This allows to convey desired state of machines in a cluster in a declarative fashion</li>
+<li><a href="https://github.com/rancher/system-upgrade-controller">rancher/system-upgrade-controller: System Upgrade Controller</a> This project aims to provide a general-purpose, Kubernetes-native upgrade controller (for nodes). It introduces a new CRD, the Plan, for defining any and all of your upgrade policies/requirements. A Plan is an outstanding intent to mutate nodes in your cluster.</li>
+<li><a href="https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792">alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration</a> There&rsquo;s a lot of hidden knowledge in core controllers and api conventions doc that is not followed by many controllers in the wild. One of these patterns is observedGeneration. In this article, you will learn what problems it can help solve.</li>
+<li><a href="https://github.com/ckotzbauer/vulnerability-operator">ckotzbauer/vulnerability-operator</a> Scans SBOMs for vulnerabilities. This operator scans all SBOMs from a git-repository for vulnerabilities using Grype. The result-list can be emitted as JSON-file served via an endpoint and/or as Prometheus metrics. There may be more targets in the future. The scans are done periodically.</li>
+<li><a href="https://github.com/Michaelpalacce/SimpleSecrets">Michaelpalacce/SimpleSecrets</a> K8S Secrets Manager Operator. SimpleSecrets is a secure operator that allows you to create secrets on demand. You can commit the SimpleSecrets, which are references to a database secret, and the operator will create Kubernetes Secrets automatically for you.</li>
+<li><a href="https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators/">learnsteps.com: Advance Kubernetes: What exactly are Kubernetes Operators?</a> Kubernetes has gained a lot of traction recently and is one of the standards followed across organizations when it comes to running and managing their containerized workloads. In this article, we are going to talk about Kubernetes operators.</li>
+<li><a href="https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30">betterprogramming.pub: Build a Kubernetes Operator in 10 Minutes 🌟</a></li>
+<li><a href="https://alain-airom.medium.com/kubernetes-operators-patterns-and-best-practices-b7fbaa4cbd1">alain-airom.medium.com: Kubernetes Operators Patterns and Best Practices 🌟</a> Using operators to manage the lifecycle of multi-cloud, Kubernetes-based applications.</li>
+<li><a href="https://github.com/OT-CONTAINER-KIT/mongodb-operator">OT-CONTAINER-KIT/mongodb-operator: MongoDB Operator</a> MongoDB Operator is an operator created in Golang to create, update, and manage MongoDB standalone, replicated, and arbiter replicated setup on Kubernetes and Openshift clusters.</li>
+<li><a href="https://github.com/prosimcorp/reforma">prosimcorp/reforma</a> Reforma is a Kubernetes operator to patch resources with information from other resources. It is intended to use with GitOps and lets you do things such as creating annotation on a Service Account from metadata stored in a ConfigMap.</li>
+<li><a href="https://github.com/weaveworks/tf-controller">weaveworks/tf-controller: Weave GitOps Terraform Controller</a> A GitOps Terraform controller for Kubernetes. Weave TF-controller is a controller for Flux to reconcile Terraform resources in the GitOps way.</li>
+<li><a href="https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb">awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK)</a> The AWS team released the ACK project, which allows users to create AWS services from within a Kubernetes cluster. In this tutorial, you will learn how to create an S3 bucket with a &ldquo;Bucket&rdquo; CRD.</li>
+<li><a href="https://github.com/vitobotta/velero-notifications">vitobotta/velero-notifications</a> Velero-notifications is a simple Kubernetes controller written in Ruby that sends email/Slack/webhook notifications when backups or restores are performed by Velero in a Kubernetes cluster.</li>
+<li><a href="https://github.com/NVIDIA/gpu-operator">NVIDIA/gpu-operator</a> NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes. The NVIDIA GPU is a Kubernetes operator that automates the management of all NVIDIA software components needed to provision GPUs. These components include drivers, the Kubernetes device plugin, the NVIDIA Container Runtime, etc.<ul>
+<li><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a> The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically:<ul>
+<li>Expose the number of GPUs on each node of your cluster</li>
+<li>Keep track of the health of your GPUs</li>
+<li>Run GPU enabled containers in your Kubernetes cluster</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://medium.com/@marom.itamar/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6">medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and Operators Explained</a></li>
+<li><a href="https://github.com/glebiller/dynamic-configuration-operator">glebiller/dynamic-configuration-operator: Dynamic Configuration Operator</a> Dynamic Configuration Operator is an operator that updates a deployment when a ConfigMap or Secret is updated. Useful for apps that:<ul>
+<li>Don&rsquo;t have a live-reload feature</li>
+<li>Use <code>subPath</code> while mounting a ConfigMap or Secret</li>
+<li>Use Projected Volumes</li>
+</ul>
+</li>
+<li><a href="https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b"><mark>faun.pub: A Definitive guide to Kubernetes Operator — The crawl!</mark></a></li>
+<li><a href="https://github.com/furiko-io/furiko">github.com/furiko-io/furiko</a> Cloud-native, enterprise-level cron job platform for Kubernetes. Furiko is a Kubernetes-native operator for managing, scheduling and executing scheduled and ad-hoc jobs and workflows. It aims to be a general-purpose job platform that supports various use cases, including cron jobs, batch processing, etc.</li>
+<li><a href="https://paul-the-kelly.medium.com/extending-the-kubernetes-api-using-operators-9ffc8364ae5c">paul-the-kelly.medium.com: Extending the Kubernetes API using Operators</a> This article is aimed at developers already familiar with Kubernetes, and who are interested in extending the capabilities of a Kubernetes cluster. The extensible Kubernetes API enables administrators to add new facilities to a cluster, simplifying the deployment and management of complex applications. This article will give you a starting point to explore building your own operators.</li>
+<li><a href="https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler">github.com/DevOps-Nirvana: Kubernetes Volume / Disk Autoscaler (via Prometheus)</a><ul>
+<li>This repository contains a Kubernetes controller that automatically increases the size of a Persistent Volume Claim in Kubernetes when it is nearing full. Initially engineered based on AWS EKS, this should support any Kubernetes cluster or cloud provider which supports dynamically hot-resizing storage volumes in Kubernetes.</li>
+<li>Keeping your volumes at a minimal size can help reduce cost, but having to manually scale them up can be painful and a waste of time for an DevOps / Systems Administrator. This is often used on storage volumes against things in Kubernetes such as Prometheus, MySQL, Redis, RabbitMQ, or any other stateful service.</li>
+</ul>
+</li>
+<li><a href="https://github.com/borchero/switchboard">borchero/switchboard: Switchboard</a> Kubernetes Operator for Automatically Issuing DNS Records and TLS Certificates for Traefik Ingress Routes.</li>
+<li><a href="https://github.com/scylladb/scylla-operator">scylladb/scylla-operator</a> Scylla Operator is a Kubernetes Operator for managing and automating tasks related to managing Scylla clusters</li>
+<li><a href="https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6"><mark>faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained</mark></a><ul>
+<li>This article will dive deep into one of Kubernetes’ core concepts — Controllers, Kubernetes API, CRDs, and Operators.</li>
+<li>This 4-part series covers:<ul>
+<li>Kubernetes controllers, Custom Resources, and operators</li>
+<li>Building Kubernetes operators</li>
+<li>Testing Kubebuilder operators</li>
+<li>Deploying Kubebuilder operators to Kubernetes</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/coderanger/migrations-operator">coderanger/migrations-operator: Migrations-Operator</a> A Kubernetes operator to manage database migrations or similar application setup tasks.</li>
+<li><a href="https://omerxx.com/k8s-controllers/">omerxx.com: 10 Things I wish I’d known before building a Kubernetes CRD controller</a> Controllers, operators, informers and other K8s mysteries. This article discusses a few of the gotchas of developing Kubernetes controllers:<ul>
+<li>CRDs don&rsquo;t create metadata by default</li>
+<li>Interacting with CRDs outside the controller&rsquo;s context is not straightforward</li>
+<li>&ldquo;The DefaultUnstructuredConverter&rdquo;</li>
+</ul>
+</li>
+<li><a href="https://github.com/mittwald/kubernetes-secret-generator">github.com/mittwald/kubernetes-secret-generator 🌟</a> Kubernetes controller for automatically generating and updating secrets. This repository contains a custom Kubernetes controller that can automatically create random secret values. This may be used for auto-generating random credentials for applications running on Kubernetes</li>
+<li><a href="https://github.com/ContainerSolutions/delayed-jobs-operator">github.com/ContainerSolutions/delayed-jobs-operator</a> The Delayed Job Operator lets delay the start of a Kubernetes job until after a UNIX timestamp</li>
+<li><a href="https://github.com/actions/actions-runner-controller">github.com/actions/actions-runner-controller 🌟</a> Actions Runner Controller (ARC) is a Kubernetes controller for GitHub Actions self-hosted runners. With ARC, you can:<ul>
+<li>Deploy self-hosted runners on Kubernetes clusters with a simple set of commands</li>
+<li>Auto scale runners based on demand</li>
+</ul>
+</li>
+<li><a href="https://medium.com/sda-se/kubernetes-operator-to-the-rescue-how-our-own-mongodb-operator-improved-our-deployments-6d5ba3324abc">medium.com/sda-se: Kubernetes Operator to the rescue. How our own MongoDB Operator improved our deployments</a> In this article you will learn about the challenges that the team at SDA SE faced when using a GitOps deployment and why they implemented their own Kubernetes Operator for MongoDB to speed up our deployments and reduce mistakes.</li>
+<li><a href="https://blog.frankel.ch/kubernetes-extensibility/"><mark>blog.frankel.ch: Introduction to Kubernetes extensibility</mark> 🌟</a> In this article, you&rsquo;ll learn several extension points in Kubernetes: the data model, admission controllers, and client-side.<ul>
+<li>At its most basic level, Kubernetes is just a platform able to run container images. It stores its configuration in a distributed storage engine, etcd. The most significant part of this configuration is dedicated to the desired state for objects. For example, you only update this state when you schedule a pod using the kubectl command line.</li>
+<li>Other components, called controllers, watch configuration changes and read the desired state. Then, they try to reconcile the desired state with the actual state. It’s nothing revolutionary: Puppet is based on the same control-loop approach, and AFAIK, Chef. Generally, a controller manages a single type of object, e.g., the DeploymentController manages deployments.</li>
+</ul>
+</li>
+<li><a href="https://superorbital.io/blog/testing-production-controllers/">superorbital.io: Testing Production Kubernetes Controllers</a> In this article, you will learn how to test Kubernetes controllers using a mix of unit tests, local integration tests, and more fully featured runtime integration tests.</li>
+<li><a href="https://github.com/lukaszraczylo/jobs-manager-operator">github.com/lukaszraczylo/jobs-manager-operator 🌟</a><ul>
+<li><a href="https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a">itnext.io: Simplify Advanced Workflows in Kubernetes with Jobs Manager Operator</a> A problem and idea led to the latest invention, which saved me hours of confusion and frustration and finally untangled the web of dependencies.</li>
+</ul>
+</li>
+<li><a href="https://github.com/ricoberger/vault-secrets-operator">github.com/ricoberger/vault-secrets-operator</a> Create Kubernetes secrets from Vault for a secure GitOps based workflow.</li>
+<li><a href="https://github.com/ElementTech/kube-reqsizer">github.com/ElementTech/kube-reqsizer</a> kube-reqsizer is a kubernetes controller that measures the usage of pods over time and optimizes their requests based on the average usage. The controller calculates the requirements based on all the samples taken in the same deployment controller.</li>
+<li><a href="https://kube-green.dev"><mark>kube-green.dev</mark></a> An operator to reduce CO2 footprint of your clusters. Suspend your pods when no-one&rsquo;s using them, scale down your cluster and save energy</li>
+<li><a href="https://betterprogramming.pub/how-to-use-server-side-apply-in-k8s-operators-5cbff023183c">betterprogramming.pub: How To Use Server-Side Apply in K8S Operators</a> Explore the benefits of SSA vs. CSA. Server-side apply (SSA) is an excellent mechanism to improve Kubernetes operators&rsquo; performance and is becoming the default way to apply resources in a cluster.</li>
+<li><a href="https://github.com/sieve-project/sieve">github.com/sieve-project/sieve</a> Automated Reliability Testing for Kubernetes Controllers/Operators. Sieve is a tool to help developers test their Kubernetes controllers by deterministically injecting faults and detecting dormant bugs at development time.</li>
+<li><a href="https://betterprogramming.pub/goldilocks-vs-krr-c986dfd7484d">betterprogramming.pub: Goldilocks vs. KRR</a> The resources recommendation showdown!. Goldilocks is a Kubernetes operator written in Go, and it watches over a few custom resources to give out its Updates or Recommendations.</li>
+<li><a href="https://medium.com/lonto-digital-services-integrator/why-we-developed-own-kubernetes-controller-to-copy-secrets-e46368ae6db9">medium.com/lonto-digital-services-integrator: Why We Developed Own Kubernetes Controller to Copy Secrets</a> In this article, you will learn the thought process, design decision and code that led to writing a custom controller to copy secrets from Hashicorp Vault to Kubernetes</li>
+<li><a href="https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets/">thenewstack.io: HashiCorp Vault Operator Manages Kubernetes Secrets</a> HashiCorp&rsquo;s new open source project, released alongside Vault 1.13 and now available in beta, makes it easier to use Vault with Kubernetes Secrets, automating tasks that were previously manual.</li>
+<li><a href="https://medium.com/@senjutide2000/designing-a-controller-for-custom-resources-from-scratch-for-absolute-beginners-9cb84b7f906f">medium.com/@senjutide2000: Designing a Controller for Custom Resources from scratch for absolute beginners</a> In this tutorial (and related repository and follow-up article), you will learn how to create your first Custom Resource Definition, Custom Resource and get a basic idea of the workflow of a controller</li>
+<li><a href="https://github.com/2-alchemists/krossboard-kubernetes-operator">github.com/2-alchemists/krossboard-kubernetes-operator</a> Kubernetes Operator to handle cross-site, cross-distribution &amp; multi-Kubernetes usage tracking, analytics and accounting (vanilla Kubernetes, OpenShift, EKS, AKS, GKE and other distros).<ul>
+<li>Krossboard is a multi-cluster and cross-distribution Kubernetes usage accounting and analytics software</li>
+<li>Each instance of Krossboard enables tracking the usage of a set of Kubernetes clusters listed in a kubeconfig secret</li>
+</ul>
+</li>
+<li><a href="https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8">medium.com/@mikakrief: Using Azure Service Operator v2</a> Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.</li>
+<li><a href="https://github.com/gianlucam76/k8s-cleaner">github.com/gianlucam76/k8s-cleaner 🌟</a> <strong>K8s cleaner is a controller that identifies, removes, or updates stale/orphaned or unhealthy resources to maintain a clean and efficient Kubernetes cluster</strong></li>
+<li><a href="https://dragondscv.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802">dragondscv.medium.com: Controller runtime — handle resource deletion with predicate</a></li>
+<li><a href="https://github.com/NCCloud/mayfly">github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟</a> An operator to manage ephemeral Kubernetes resources</li>
+<li><a href="https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5"><mark>itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should Know About</mark> 🌟</a> <strong>Simplify Infrastructure Management</strong></li>
+</ul>
+<h2 id="opentelemetry-operator">OpenTelemetry Operator</h2>
+<ul>
+<li>
+<p><a href="https://github.com/argoproj/argo-cd/pull/26601">feat(ui): Add AppSet to Application Resource Tree in Argo CD</a> - <em>(Related to argo topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/open-telemetry/opentelemetry-operator">github.com/open-telemetry/opentelemetry-operator</a></p>
+</li>
+<li><a href="https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf">medium.com/@magstherdev: OpenTelemetry Operator</a> This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.</li>
+</ul>
+<h2 id="creating-kubernetes-operator-using-kubebuilder">Creating Kubernetes operator using Kubebuilder</h2>
+<ul>
+<li><a href="https://github.com/kubernetes-sigs/kubebuilder">kubernetes-sigs/kubebuilder</a> Kubebuilder - SDK for building Kubernetes APIs using CRDs. Kubebuilder is a framework for building Kubernetes APIs using custom resource definitions (CRDs). Kubebuilder increases velocity and reduces the complexity managed by developers for rapidly building and publishing Kubernetes APIs in Go.<ul>
+<li><a href="https://book.kubebuilder.io">https://book.kubebuilder.io</a></li>
+</ul>
+</li>
+<li><a href="https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50">medium.com/@adnn.selimovic: Creating Kubernetes operator using <strong>Kubebuilder</strong></a></li>
+<li><a href="https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa">medium.com/geekculture: A New Pattern that Simplifies Operator Building</a> Build Kubernetes Operator with <strong>Kubebuilder</strong> and declarative pattern. kubebuilder-declarative-pattern provides a set of tools for building cluster operators with kubebuilder. Declarative operators provide a fast path to orchestrating deployments instead of reinventing the wheel i.e. &ldquo;how do I get/update this YAML?&rdquo;</li>
+<li>
+<p><a href="https://qdnqn.com/creating-kubernetes-operator-using-kubebuilder/">qdnqn.com: Creating Kubernetes operator using Kubebuilder</a></p>
+<ul>
+<li>
+<p>Kubernetes is the current de facto standard for the deployment and running of applications that are suitable for modern cloud platforms. A declarative way of defining infrastructure state using YAML allows a super easy definition of the scheme for the deployment of the application. Deploying stateless applications is not a big deal. On the other hand — deploying distributed stateful applications, configuring, and operating them is a challenging task.</p>
+</li>
+<li>
+<p>Kubernetes addressed this issue by allowing developers to extend it, using the Kubernetes operator. The operator reacts to the custom resource and reconciliate the state in the cluster with the state defined in the custom resource, by implementing logic embedded in the operator itself.</p>
+</li>
+<li>
+<p>When designing/writing an application, intended to run on the Kubernetes, one should take into account capabilities provided by Kubernetes and take that information when designing software architecture. It can speed up implementation, make an application more reliable and the code can focus more on business logic itself.</p>
+</li>
+<li>
+<p>There are multiple ways to create an operator. You could write one from scratch using Kubernetes  client-go. It’s a tedious task and the learning curve is steep. As an alternative, multiple tools provide boilerplate code and speed up the writing of operators. Popular ones are Operatorsdk and Kubebuilder. The focus of the article will be on creating an operator using Kubebuilder. Let’s create an operator which will create a pod running a simple HTTP API and bind some data to the HTTP API.</p>
+</li>
+<li><a href="https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb">dev.to/thenjdevopsguy: What Is A Kubernetes Operator?</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="operatorhubio">operatorhub.io</h2>
+<ul>
+<li><a href="https://operatorhub.io/">operatorhub.io</a> OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.</li>
+</ul>
+<h2 id="red-hat-container-community-of-practice-operators">Red Hat Container Community of Practice Operators</h2>
+<ul>
+<li><a href="https://cloud.redhat.com/blog/red-hat-container-community-of-practice-operators"><mark>cloud.redhat.com: Red Hat Container Community of Practice Operators</mark></a> In this post, you will find a summary of the operators maintained by Red Hat and how they can be used to facilitate the adoption of OpenShift.</li>
+</ul>
+<h2 id="operator-capability-levels">Operator Capability Levels</h2>
+<ul>
+<li><a href="https://operatorframework.io/operator-capabilities/">Operator Capability Levels</a> Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.</li>
+</ul>
+<h2 id="cluster-addons">Cluster Addons</h2>
+<ul>
+<li><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li><a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li><a href="https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/">Introduction to Azure Application Gateway for Containers (AGC)</a> - <em>(Related to azure topic)</em></li>
+<li>
+<p><a href="https://techcommunity.microsoft.com/blog/azureforisvandstartupstechnicalblog/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662">Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)</a> - <em>(Related to kubernetes-security topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/kubernetes-sigs/cluster-addons">Cluster Addons 🌟</a> With cluster addon operators, we are exploring a kubernetes-native way of managing addons using CRDs(Custom Resource Definitions) and controllers where the controllers encode how best to manage the addon. Installing and managing an addon could be as simple as creating a custom resource.</p>
+</li>
+</ul>
+<h2 id="k8spin-operator-kubernetes-multi-tenant-operator">K8Spin Operator. Kubernetes multi-tenant operator</h2>
+<ul>
+<li><a href="https://github.com/k8spin/k8spin-operator">K8Spin Operator 🌟</a> Kubernetes multi-tenant operator. Enables multi-tenant capabilities in your Kubernetes Cluster. <a href="https://github.com/k8spin/k8spin-operator/projects/1">We defined some small features to implement</a>. If you know python &amp; Kubernetes and want to contribute to this project, ping us!</li>
+<li><a href="https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes/">thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes</a></li>
+<li><a href="https://k8spin.cloud/oss-projects/">Discover K8Spin open source software</a></li>
+</ul>
+<h2 id="k8s-kpis-with-kuberhealthy-operator">K8s KPIs with Kuberhealthy Operator</h2>
+<ul>
+<li><a href="https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/">K8s KPIs with Kuberhealthy 🌟</a> transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic <a href="https://kpi.org/KPI-Basics">KPIs</a>.</li>
+</ul>
+<h2 id="writing-kubernetes-operators-and-controllers">Writing Kubernetes Operators and Controllers</h2>
+<ul>
+<li><a href="https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0">Kueue Release v0.14.0</a> - This is a release note for Kueue, an open-source Kubernetes project designed for workload management and scheduling. Version v0.14.0 includes changes such as the removal of deprecated annotations related to ProvisioningRequest, which is important for users upgrading from previous versions. It also highlights the necessity for ProvisioningRequest reconcilers to be updated to avoid issues.</li>
+<li><a href="https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation/">AI Meets Terraform: Prompt Strategies for Test Generation</a> - <em>(Related to ai topic)</em></li>
+<li><a href="https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/">10 Real-World Kubernetes Troubleshooting Scenarios and Solutions</a> - <em>(Related to kubernetes-troubleshooting topic)</em></li>
+<li>
+<p><a href="https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/">The Beginner’s Guide to the Ansible Inventory</a> - <em>(Related to ansible topic)</em></p>
+</li>
+<li>
+<p><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/">Kubernetes.io: Operator pattern</a></p>
+</li>
+<li><a href="https://opensource.com/article/20/3/kubernetes-operator-sdk">opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK</a></li>
+<li><a href="https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7">itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes</a></li>
+<li><a href="https://www.magalix.com/blog/creating-custom-kubernetes-operators">magalix.com: Creating Custom Kubernetes Operators</a></li>
+<li><a href="https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234">medium.com: Writing Your First Kubernetes Operator</a></li>
+<li><a href="https://www.bmc.com/blogs/kubernetes-operator/">bmc.com: What Is a Kubernetes Operator?</a></li>
+<li><a href="https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/">Writing a Kubernetes Operator in Java Cheat Sheet</a></li>
+<li><a href="https://linuxera.org/writing-operators-using-operator-framework/">linuxera.org: Writing Operators using the Operator Framework SDK</a></li>
+<li><a href="https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective">openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective</a></li>
+<li><a href="https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89">medium: From Zero to Kubernetes Operator</a> In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.</li>
+<li><a href="https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool">openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟</a> <strong>Go-based operators are by far the most popular. That is why Go is probably the first option to consider.</strong> The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don&rsquo;t need any complex <a href="https://operatorframework.io/operator-capabilities/">capability levels</a>. I&rsquo;d leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.</li>
+<li><a href="https://www.rookout.com/blog/lessons-learned-when-building-a-kubernetes-operator">rookout.com: Lessons Learned When Building A Kubernetes Operator</a></li>
+<li><a href="https://brennerm.github.io/posts/k8s-operators-with-python-part-1.html">brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs</a></li>
+<li><a href="https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html">vivilearns2code.github.io: Writing Controllers For Kubernetes Resources</a></li>
+<li><a href="https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf">cloudark.medium.com: Writing Kubernetes Custom Controllers</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang">developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟</a> Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.</li>
+<li><a href="https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55">medium: Kubernetes Dummy Operator in Java</a> - <a href="https://www.youtube.com/watch?v=C0E93Uc4h5k&amp;t=761s&amp;ab_channel=xgeeks">youtube: Creating a Kubernetes Operator in Java by Rudy De Busscher</a></li>
+<li><a href="https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2">betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang</a> Develop a simple Kubernetes operator from scratch. In this article, you will build a &ldquo;hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.</li>
+<li><a href="https://github.com/kubernetes/sample-controller"><mark>kubernetes/sample-controller</mark></a> Repository for sample controller. Complements sample-apiserver</li>
+<li><a href="https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9">betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks</a> Create a Kubernetes API, controller, validate webhooks, and test.</li>
+<li><a href="https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840">betterprogramming.pub: How To Write Tests for Your Kubernetes Operator</a></li>
+<li><a href="https://metalbear.co/blog/writing-a-kubernetes-operator/">metalbear.co: Writing a Kubernetes Operator</a></li>
+<li><a href="https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil">dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD</a></li>
+</ul>
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Generic automation tools like Helm are limited by the interfaces exposed to them, and often lack enough context to make the right state machine transitions.<br><br>Ideally, software evolves to expose better automation hooks, then custom tools, aka operators, can leverage them. <a href="https://t.co/v38aj4ukn4">https://t.co/v38aj4ukn4</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1435637052079427584?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ha3LjlD6g7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</center>
+</details>
+<ul>
+<li><a href="https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes/">Sharing a NVIDIA GPU Between Pods in Kubernetes</a> - <em>(Related to kubernetes-tools topic)</em></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8375,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

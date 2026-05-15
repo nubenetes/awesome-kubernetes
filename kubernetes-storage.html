@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-storage.html">
       
+      
+        <link rel="prev" href="kubernetes-security.html">
+      
+      
+        <link rel="next" href="kubernetes-backup-migrations.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Storage - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kubernetes-storage-cloud-native-storage" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Kubernetes Storage
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -399,11 +410,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +438,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +460,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +482,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +504,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +526,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1746,8 +1759,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1795,19 +1810,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -1825,7 +1843,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1843,7 +1861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2036,10 +2054,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Storage
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-storage.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2055,6 +2100,440 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-storage-api-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Storage API Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-storage-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Storage Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-volumes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Volumes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Volumes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-volumes-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Volumes Guide
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dok-community" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DoK Community
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#readwritemany-persistentvolumeclaims" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ReadWriteMany PersistentVolumeClaims
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ebooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ebooks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native-storage-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Native Storage Solutions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Native Storage Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#robin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Robin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reduxio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reduxio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#portworx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Portworx
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storageos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        StorageOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openebs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenEBS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lightos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LightOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#longhorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Longhorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-spectrum-storage-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IBM Spectrum Storage Suite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linbit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linbit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kadalu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kadalu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iomesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IOMesh
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MinIO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#netapp-data-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NetApp Data Store
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stork-storage-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stork Storage Operator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#curve-opencurve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Curve - OpenCurve
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simplyblock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        simplyblock
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openshift-container-storage-operator-ocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenShift Container Storage Operator (OCS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OpenShift Container Storage Operator (OCS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ocs-3-openshift-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCS 3 (OpenShift 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ocs-4-openshift-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCS 4 (OpenShift 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-csi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes CSI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubestr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubestr
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#volsync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VolSync
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discoblocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discoblocks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2067,7 +2546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +3005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +3096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +3201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +3229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +3257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +3285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +3313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +3341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +3447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +4040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +4068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +4096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +4197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +4225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +4253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +4281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +4309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +5058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +5169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +5197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +5225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +6027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +6055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +6083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +6180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +6208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +6236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +6264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6867,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +7021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +7049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +7152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +7180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +7208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +8024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +8057,400 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="kubernetes-storage-cloud-native-storage">Kubernetes Storage. Cloud Native Storage</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#kubernetes-storage-api-interface">Kubernetes Storage API Interface</a></li>
+<li><a href="#kubernetes-storage-classes">Kubernetes Storage Classes</a></li>
+<li><a href="#kubernetes-volumes">Kubernetes Volumes</a><ol>
+<li><a href="#kubernetes-volumes-guide">Kubernetes Volumes Guide</a></li>
+</ol>
+</li>
+<li><a href="#dok-community">DoK Community</a></li>
+<li><a href="#readwritemany-persistentvolumeclaims">ReadWriteMany PersistentVolumeClaims</a></li>
+<li><a href="#ebooks">Ebooks</a></li>
+<li><a href="#cloud-native-storage-solutions">Cloud Native Storage Solutions</a><ol>
+<li><a href="#rook">Rook</a></li>
+<li><a href="#robin">Robin</a></li>
+<li><a href="#reduxio">Reduxio</a></li>
+<li><a href="#portworx">Portworx</a></li>
+<li><a href="#storageos">StorageOS</a></li>
+<li><a href="#openebs">OpenEBS</a></li>
+<li><a href="#lightos">LightOS</a></li>
+<li><a href="#longhorn">Longhorn</a></li>
+<li><a href="#ibm-spectrum-storage-suite">IBM Spectrum Storage Suite</a></li>
+<li><a href="#linbit">Linbit</a></li>
+<li><a href="#kadalu">Kadalu</a></li>
+<li><a href="#iomesh">IOMesh</a></li>
+<li><a href="#minio">MinIO</a></li>
+<li><a href="#netapp-data-store">NetApp Data Store</a></li>
+<li><a href="#stork-storage-operator">Stork Storage Operator</a></li>
+<li><a href="#curve---opencurve">Curve - OpenCurve</a></li>
+<li><a href="#simplyblock">simplyblock</a></li>
+</ol>
+</li>
+<li><a href="#openshift-container-storage-operator-ocs">OpenShift Container Storage Operator (OCS)</a><ol>
+<li><a href="#ocs-3-openshift-3">OCS 3 (OpenShift 3)</a></li>
+<li><a href="#ocs-4-openshift-4">OCS 4 (OpenShift 4)</a></li>
+</ol>
+</li>
+<li><a href="#kubernetes-csi">Kubernetes CSI</a></li>
+<li><a href="#kubestr">Kubestr</a></li>
+<li><a href="#volsync">VolSync</a></li>
+<li><a href="#discoblocks">Discoblocks</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/">thenewstack.io: How Kubernetes provides networking and storage to applications</a></li>
+<li><a href="https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c">medium: Kubernetes Storage Explained 🌟</a> kubernetes/volumes/claims</li>
+<li><a href="https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes/">thenewstack.io: A Guide to Running Stateful Applications in Kubernetes</a></li>
+<li><a href="https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019/">forbes.com: 5 Cloud Native Storage Startups To Watch Out For In 2019</a></li>
+<li><a href="https://medium.com/weareservian/solution-architects-guide-to-kubernetes-persistant-storage-3c9660187e8f">medium: Solution architect’s guide to Kubernetes persistent storage</a></li>
+<li><a href="https://www.howtoforge.com/storage-in-kubernetes/">howtoforge.com: Storage in Kubernetes 🌟</a></li>
+<li><a href="https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas/">cncf.io: Container Attached Storage is Cloud Native Storage (CAS)</a></li>
+<li><a href="https://thenewstack.io/the-most-popular-cloud-native-storage-solutions/">thenewstack.io: The most popular cloud native solutions 🌟</a></li>
+<li><a href="https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4">medium: Kubernetes Storage Performance Comparison v2 (2020 Updated) 🌟</a></li>
+<li><a href="https://blocksandfiles.com/2020/12/22/the-storageless-storage-paradox/">blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges</a></li>
+<li><a href="https://rancher.com/blog/2020/what-is-cloud-native-storage">rancher.com: What is Cloud-Native Storage?</a></li>
+<li><a href="https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/">softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟</a></li>
+<li><a href="https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale/">thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale</a></li>
+<li><a href="https://blog.min.io/why-kubernetes-managed/">blog.min.io: Why Kubernetes Managed Object Storage Matters</a></li>
+<li><a href="https://gitlab.com/mrman/k8s-storage-provider-benchmarks">gitlab.com: Kubernetes storage provider benchmarks</a></li>
+<li><a href="https://www.ibm.com/cloud/blog/using-fio-to-tell-whether-your-storage-is-fast-enough-for-etcd">ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd</a></li>
+<li><a href="https://marketplace.redhat.com/en-us/blog/dont-treat-kubernetes-storage-as-an-afterthought">marketplace.redhat.com: Dont treat Kubernetes storage as an afterthought: Turn to persistent container storage for high performance and availability</a></li>
+<li><a href="https://thenewstack.io/beyond-block-and-file-cosi-enables-object-storage-in-kubernetes">thenewstack.io: Beyond Block and File: COSI Enables Object Storage in Kubernetes 🌟</a></li>
+<li><a href="https://thenewstack.io/when-is-decentralized-storage-the-right-choice/">thenewstack.io: When Is Decentralized Storage the Right Choice?</a></li>
+<li><a href="https://www.storj.io/blog/integrating-decentralized-cloud-storage-with-duplicati">storj.io: Integrating Decentralized Cloud Storage with Duplicati</a></li>
+<li><a href="https://thenewstack.io/whats-the-biggest-gap-in-kubernetes-storage-architecture/">thenewstack.io: The Biggest Gap in Kubernetes Storage Architecture?</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/provisioning-storage-in-kubernetes-e1dc5610318d">medium: Provisioning storage in Kubernetes</a></li>
+<li><a href="https://www.kylezsembery.com/persistent-storage-kubernetes/">kylezsembery.com: Persistent Storage in Kubernetes</a> In this post I’ll briefly explain how persistent storage works in Kubernetes.</li>
+<li><a href="https://blog.mayadata.io/container-attached-storage-cas-vs.-software-defined-storage-which-one-to-choose">blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined Storage - Which One to Choose?</a></li>
+<li><a href="https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage/">thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction">developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟</a></li>
+<li><a href="https://blog.mayadata.io/kubernetes-storage-basics-pv-pvc-and-storageclass">blog.mayadata.io: Kubernetes storage basics: PV, PVC and StorageClass 🌟</a></li>
+<li><a href="https://www.infoworld.com/article/3635148/kubernetes-object-storage-best-practices.html">infoworld.com: Kubernetes object storage best practices</a> Like Kubernetes itself, the underlying object storage should be distributed, decoupled, declarative, and immutable.</li>
+<li><a href="https://www.ondat.io/blog/stateful-apps-in-kubernetes-are-a-big-deal">ondat.io: Stateful Apps in Kubernetes are a big deal</a></li>
+<li><a href="https://techgenix.com/data-storage-management-for-kubernetes/">techgenix.com: Data Storage Management for Kubernetes - 5 movers and shakers</a></li>
+<li><a href="https://thenewstack.io/the-growth-of-state-in-kubernetes/"><mark>thenewstack.io: The Growth of State in Kubernetes</mark></a></li>
+<li><a href="https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc">itnext.io: Highly Available NFS cluster in Kubernetes, a cloud vendor independent storage solution</a></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-data-storage/">armosec.io: Data Storage in Kubernetes</a> Kubernetes in cooperation with cloud vendor infrastructure provides flexible mechanisms for data storage and management. It is up to the users to decide which mechanism best fits their application needs. However, the security side of the data storage falls completely under the user’s responsibility. Most of the default settings are wide open and require significant security expertise to protect your applications from data leakage.</li>
+<li><a href="https://www.infoq.com/articles/kubernetes-stateful-applications/"><mark>infoq.com: Best Practices for Running Stateful Applications on Kubernetes</mark></a></li>
+<li><a href="https://blog.flant.com/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor/">blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes</a> Are you looking for an easy-to-use, reliable block-type storage for your cluster?</li>
+<li><a href="https://medium.com/@amir.ilw/kubernetes-storage-migration-ac48f6f9f5a5">medium.com/@amir.ilw: Kubernetes Storage Migration 🌟</a> Storage migrations, storage path changes or even moving to a newer faster CSI can be overwhelming. In this article, you&rsquo;ll learn the required steps, how to avoid the pitfalls of immutable volumes and how to plan your next migration.</li>
+<li><a href="https://discoblocks.io">discoblocks.io 🌟</a> - <a href="https://github.com/ondat/discoblocks">ondat/discoblocks</a> <strong>Open Source declarative disk configuration system for Kubernetes.</strong> Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.</li>
+<li><a href="https://medium.com/geekculture/storage-kubernetes-92eb3d027282">medium.com/geekculture: Storage | Kubernetes</a> A Deep Dive into Kubernetes Storage</li>
+<li><a href="https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88">itnext.io: Temporary Storage for Kubernetes Pods</a> Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. In this article, you will compare emptyDir and the container&rsquo;s local storage.</li>
+<li><a href="http://web.archive.org/web/20250117155441/https://container-object-storage-interface.github.io//"><mark>container-object-storage-interface.github.io: Kubernetes COSI</mark> [ARCHIVED]</a> Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes. COSI is meant to be a departure from the CSI since the latter does not work well with object storage.</li>
+<li><a href="https://medium.com/nerd-for-tech/persistence-with-kubernetes-46f039d9a2ad">medium.com/nerd-for-tech: Persistence with Kubernetes</a></li>
+<li><a href="https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better/">cncf.io: Kubernetes storage is complex, but it’s getting better</a></li>
+<li><a href="https://yuminlee2.medium.com/kubernetes-storage-fe5363d88d42"><mark>yuminlee2.medium.com: Kubernetes: Storage</mark></a> <strong>In Kubernetes, pods are temporary and any data stored within them is lost when they’re deleted or restarted. To avoid this, use persistent storage options such as PVs(Persistent Volumes)and PVCs(Persistent Volume Claims). PVs are storage resources with an independent lifecycle, while PVCs are requests for storage. Use them for simplified storage management and scaling. Provisioning persistent volumes can be static or dynamic. StorageClass defines the provisioner, parameters, and reclaim policy for dynamically provisioned PVs.</strong></li>
+<li><a href="https://medium.com/kubernetes-deveops/kubernetes-deploying-application-with-persistent-storage-5068767e25f3">medium.com/kubernetes-deveops: Kubernetes — Deploying Application with Persistent Storage</a> Implementing Storage Controller for Auto-Provisioning</li>
+</ul>
+<h2 id="kubernetes-storage-api-interface">Kubernetes Storage API Interface</h2>
+<ul>
+<li><a href="https://danielmangum.com/posts/k8s-asa-the-storage-interface/">danielmangum.com: K8s ASA: The Storage Interface</a> The primary function of the Kubernetes API Server is to ingest data, store it, and then return it when requested. In this article, you will learn how the API Server stores data.</li>
+</ul>
+<h2 id="kubernetes-storage-classes">Kubernetes Storage Classes</h2>
+<ul>
+<li><a href="https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/"><mark>kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes</mark></a></li>
+</ul>
+<h2 id="kubernetes-volumes">Kubernetes Volumes</h2>
+<ul>
+<li><a href="https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99">itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples</a></li>
+<li><a href="https://thenewstack.io/persistent-volumes-separating-compute-and-storage/">thenewstack.io: Persistent Volumes: Separating Compute and Storage</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/">developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟</a></li>
+<li><a href="https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4">itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟</a></li>
+<li><a href="https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner">github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner 🌟</a> <strong>The local volume static provisioner manages PersistentVolume lifecycle for pre-allocated disks by detecting and creating PVs for each local disk on the host and cleaning up the disks when released. It does not support dynamic provisioning</strong></li>
+<li><a href="https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce">shuanglu1993.medium.com: What happens when volumeManager in the kubelet starts?</a> In this deep-dive, you will learn how the volumeManager sync loop is initialized and starts 3 async calls to maintain the objects &lsquo;desiredStateOfWorld&rsquo; and &lsquo;actualStateOfWorld&rsquo; and &lsquo;reconcile&rsquo; the volumes on the node to the desired state.</li>
+<li><a href="https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f/">linkedin.com/pulse: What are Kubernetes Persistent Volumes?</a></li>
+<li><a href="https://blog.newrelic.com/engineering/how-to-use-kubernetes-volumes/">blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes</a></li>
+<li><a href="https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393"><mark>medium.com/codex: Kubernetes Persistent Volume Explained</mark></a> Learn what a Persistent Volume is and how to create a persistent volume from a storage class. Then, learn how to create a persistent volume claim and how to attach the PVC to a Pod:<ul>
+<li>How to create a persistent volume from a storage class</li>
+<li>How to create a persistent volume claim</li>
+<li>How to attach the PVC to a Pod</li>
+</ul>
+</li>
+<li><a href="https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime">giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟</a></li>
+<li><a href="https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts">kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts</a> In this blog post, you will get a hands-on practice and learn how to provide persistent storage in the form of different volumes to the Pods.</li>
+<li><a href="https://blog.cloudnloud.com/kubernetes-volume">blog.cloudnloud.com: Kubernetes Volume</a></li>
+<li><a href="https://adamtheautomator.com/kubernetes-pvc/"><mark>adamtheautomator.com: Effortless Storage Management With Kubernetes PVC</mark> 🌟</a> In this tutorial, you&rsquo;ll learn about Kubernetes PVC and set up a persistent volume for a MySQL database. You&rsquo;ll also confirm that the data persists even after deleting and recreating the pods.</li>
+<li><a href="https://portworx.com/tutorial-kubernetes-persistent-volumes/">portworx.com: Kubernetes Persistent Volume Tutorial by Portworx</a><ul>
+<li>What is K8s PV?</li>
+<li>How do they differ from k8s volumes?</li>
+<li>Why would you use persistent volumes?</li>
+<li>How to get started using persistent volumes?</li>
+</ul>
+</li>
+<li><a href="https://github.com/openebs/zfs-localpv">openebs/zfs-localpv</a> CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using ZFS.</li>
+<li><a href="https://devineer.medium.com/get-to-grips-with-kubernetes-volumes-a-practical-tutorial-c41853c64f02">devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial</a></li>
+<li><a href="https://www.airplane.dev/blog/kubernetes-ephemeral-storage">airplane.dev: How to use Kubernetes ephemeral volumes &amp; storage 🌟</a> This tutorial will discuss how Kubernetes handles ephemeral storage and how these volumes are provisioned in operating clusters.</li>
+<li><a href="https://blog.devgenius.io/when-k8s-pods-are-stuck-mounting-large-volumes-2915e6656cb8">blog.devgenius.io: When K8s pods are stuck mounting large volumes</a></li>
+<li><a href="https://spacelift.io/blog/kubernetes-persistent-volumes">spacelift.io: Kubernetes Persistent Volumes – Tutorial and Examples</a></li>
+</ul>
+<h3 id="kubernetes-volumes-guide">Kubernetes Volumes Guide</h3>
+<ul>
+<li><a href="https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html">matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟</a> This is a guide that covers:<ul>
+<li>How to set up and use volumes in Kubernetes</li>
+<li>What are persistent volumes, and how to use them</li>
+<li>How to use an NFS volume</li>
+<li>Shared data and volumes between pods</li>
+</ul>
+</li>
+</ul>
+<h2 id="dok-community">DoK Community</h2>
+<ul>
+<li><a href="https://dok.community"><mark>DoK Community</mark> 🌟</a></li>
+<li>Kubernetes was originally designed to run stateless workloads. Today, it is increasingly used to run databases and other stateful workloads. Yet despite the success of these early adopters, there remain few known good practices for running data on Kubernetes.</li>
+<li>After discussions with thousands of companies and individuals running data workloads on Kubernetes we’ve come to see that there is a need for a sharing of patterns and concerns about how to build and operate data-centric applications on Kubernetes. As a result, the <strong>Data on Kubernetes Community (DoKC)</strong> was born.</li>
+<li><a href="https://dok.community/dokc-2021-report/"><mark>dok.community: Data on Kubernetes 2021</mark> 🌟</a> Insights from over 500 executives and technology leaders on how Kubernetes is being used for data and the factors driving further adoption</li>
+</ul>
+<h2 id="readwritemany-persistentvolumeclaims">ReadWriteMany PersistentVolumeClaims</h2>
+<ul>
+<li><a href="https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3">Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟</a> Kubernetes allows us to provision our PersistentVolumes dynamically using PersistentVolumeClaims. Pods treat these claims as volumes. The access mode of the PVC determines how many nodes can establish a connection to it. We can refer to the resource provider’s docs for their supported access modes.</li>
+<li><a href="https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative">Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative</a></li>
+</ul>
+<h2 id="ebooks">Ebooks</h2>
+<h2 id="cloud-native-storage-solutions">Cloud Native Storage Solutions</h2>
+<ul>
+<li>
+<p><a href="https://github.com/ceph/ceph">Ceph: A Distributed Object, Block, and File Storage Platform</a> 🌟 - This repository contains the source code for Ceph, a powerful and highly scalable distributed storage system. Ceph provides object, block, and file storage interfaces, making it suitable for a wide range of cloud-native and enterprise storage needs, including integration with Kubernetes.</p>
+</li>
+<li>
+<p><a href="https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29">itnext.io: State of Persistent Storage in K8s — A Benchmark</a></p>
+</li>
+</ul>
+<h3 id="rook">Rook</h3>
+<ul>
+<li><a href="https://rook.io/">Rook</a></li>
+<li><a href="https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e">itnext.io: Using Rook On A K3s Cluster</a></li>
+<li><a href="https://medium.com/@abdulfayis/storage-orchestration-for-kubernetes-c6370f943e23">medium.com/@abdulfayis: storage Orchestration for Kubernetes</a></li>
+</ul>
+<h3 id="robin">Robin</h3>
+<ul>
+<li><a href="https://robin.io/">Robin</a></li>
+</ul>
+<h3 id="reduxio">Reduxio</h3>
+<ul>
+<li><a href="https://www.reduxio.com/">Reduxio</a></li>
+</ul>
+<h3 id="portworx">Portworx</h3>
+<ul>
+<li><a href="https://portworx.com/">Portworx</a></li>
+</ul>
+<h3 id="storageos">StorageOS</h3>
+<h3 id="openebs">OpenEBS</h3>
+<ul>
+<li><a href="https://openebs.io/">OpenEBS</a> extends the benefits of software-defined storage to cloud native through the container attached approach.</li>
+<li><a href="https://mayadata.io/">MayaData</a> Founder of OpenEBS</li>
+<li><a href="https://goglides.io/running-openebs-in-kubernetes/371/">goglides.io: Running OpenEBS in Kubernetes</a></li>
+<li><a href="https://docs.openebs.io/docs/next/features.html">OpenEBS Features and Benefits</a> OpenEBS is cloudnative storage for stateful applications on K8s where &ldquo;cloud native&rdquo; means following a loosely coupled architecture. As such the normal benefits to cloud native, loosely coupled architectures apply.</li>
+<li><a href="https://github.com/openebs/dynamic-localpv-provisioner">openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent Volumes</a> Dynamic Local Volumes for Kubernetes Stateful workloads.</li>
+<li><a href="https://github.com/openebs/lvm-localpv">openebs/lvm-localpv</a> CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using LVM.</li>
+</ul>
+<h3 id="lightos">LightOS</h3>
+<ul>
+<li><a href="https://www.lightbitslabs.com/product/">LightOS</a></li>
+<li><a href="https://blocksandfiles.com/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/">blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support</a></li>
+</ul>
+<h3 id="longhorn">Longhorn</h3>
+<ul>
+<li><a href="https://longhorn.io/">Longhorn</a></li>
+<li><a href="https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf/">thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage Software to CNCF</a>. Gluster and Ceph were “designed to be run by some storage admin. In the Kubernetes world, a lot of these things tend to be deployed by DevOps teams, so (the storage layer) needs to be a lot more lightweight and a lot simpler.” — Rancher Labs CEO Sheng Liang.</li>
+<li><a href="https://rancher.com/blog/2020/longhorn-container-storage">Longhorn Simplifies Distributed Block Storage in Kubernetes</a></li>
+<li><a href="https://containerjournal.com/topics/container-management/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters/">containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters</a></li>
+<li><a href="https://aesher9o1.medium.com/autoscale-large-images-faster-using-longhorn-distributed-storage-618d0cf01ba2">aesher9o1.medium.com: Autoscale large images faster using Longhorn (distributed storage)</a></li>
+<li><a href="https://medium.com/@abdelrhmanahmed131/longhorn-distributed-block-storage-for-k8s-2ea11df400d1">medium.com/@abdelrhmanahmed131: Longhorn — Distributed Block Storage for K8s</a></li>
+</ul>
+<h3 id="ibm-spectrum-storage-suite">IBM Spectrum Storage Suite</h3>
+<ul>
+<li><a href="https://www.ibm.com/it-infrastructure/storage/spectrum">IBM Spectrum</a> IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.</li>
+<li><a href="http://www.redbooks.ibm.com/abstracts/redp5565.html">redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage &amp; IBM Spectrum Scale</a></li>
+<li><a href="https://searchstorage.techtarget.com/definition/IBM-Spectrum">searchstorage.techtarget.com: IBM Spectrum</a></li>
+</ul>
+<h3 id="linbit">Linbit</h3>
+<ul>
+<li><a href="https://linbit.com/kubernetes/">linbit.com: LINSTOR - kubernetes persistent container storage</a></li>
+</ul>
+<h3 id="kadalu">Kadalu</h3>
+<ul>
+<li><a href="https://github.com/kadalu/kadalu">Kadalu</a> A lightweight Persistent storage solution for Kubernetes / OpenShift using GlusterFS in background. <strong>Kadalu is a project to provide Persistent Storage in Kubernetes. The Kadalu operator deploys CSI pods, and gluster storage pods</strong></li>
+</ul>
+<h3 id="iomesh">IOMesh</h3>
+<ul>
+<li><a href="https://www.iomesh.com/">iomesh.com</a></li>
+<li><a href="https://blocksandfiles.com/2021/08/05/kubernetes-storage-chinese-vendor-smartxs-iomesh-beats-portworx-longhorn-and-openebs/">blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS</a></li>
+<li><a href="https://www.iomesh.com/blog/announcing_iomesh_preview">iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage to the Next Level</a></li>
+</ul>
+<h3 id="minio">MinIO</h3>
+<ul>
+<li><a href="https://min.io">min.io</a> Multi-Cloud Object Storage. MinIO offers high-performance, S3 compatible object storage. Native to Kubernetes, MinIO is the only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud and the
+edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.</li>
+<li><a href="https://blog.min.io/best-practices-for-kubernetes-object-storage/">blog.min.io: Best Practices for Kubernetes Object Storage</a></li>
+<li><a href="https://blog.min.io/single-vs-multi-tenant">blog.min.io: Cloud-Native Object Storage Architectures: Single-Tenant vs Multi-Tenant</a></li>
+</ul>
+<h3 id="netapp-data-store">NetApp Data Store</h3>
+<ul>
+<li><a href="https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html">docs.netapp.com: Intro to Astra Data Store preview</a></li>
+</ul>
+<h3 id="stork-storage-operator">Stork Storage Operator</h3>
+<ul>
+<li><a href="https://github.com/libopenstorage/stork">libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes</a> Stork - Storage Orchestration Runtime for Kubernetes</li>
+</ul>
+<h3 id="curve-opencurve">Curve - OpenCurve</h3>
+<ul>
+<li><a href="https://opencurve.io">Curve: opencurve.io</a> Curve is a high-performance, lightweight-operation, cloud-native open source distributed storage system for Kubernetes/OpenStack. Curve can also be used as a cloud storage middleware using S3-compatible object storage as a data storage engine.</li>
+</ul>
+<h3 id="simplyblock">simplyblock</h3>
+<ul>
+<li><a href="https://simplyblock.io">simplyblock: simplyblock.io</a> Simplyblock is a NVMe over TCP (NVMe/TCP) based disaggregated and cloud-native storage solution with high-performance and predictable low latency block storage for Kubernetes.</li>
+</ul>
+<h2 id="openshift-container-storage-operator-ocs">OpenShift Container Storage Operator (OCS)</h2>
+<ul>
+<li><a href="https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat">State of OpenShift Container Storage</a></li>
+</ul>
+<h3 id="ocs-3-openshift-3">OCS 3 (OpenShift 3)</h3>
+<ul>
+<li>OpenShift Container Storage based on <a href="https://www.gluster.org/">GlusterFS</a> technology.</li>
+<li>Not OpenShift 4 compliant: Migration tooling will be available to facilitate the move to OCS 4.x (OpenShift Gluster APP Mitration Tool).</li>
+</ul>
+<h3 id="ocs-4-openshift-4">OCS 4 (OpenShift 4)</h3>
+<ul>
+<li><strong>OCS Operator</strong> based on Rook.io with Operator LifeCycle Manager (OLM).</li>
+<li>Tech Stack:<ul>
+<li><a href="https://rook.io">Rook</a> (don&rsquo;t confuse this with non-redhat <a href="https://operatorhub.io/operator/rook-ceph">&ldquo;Rook Ceph&rdquo;</a> -&gt; <a href="https://www.redhat.com/en/blog/rook-ceph-storage-operator-now-operatorhubio">RH ref</a>).<ul>
+<li>Replaces <a href="https://github.com/heketi/heketi">Heketi</a>  (OpenShift 3)</li>
+<li>Uses <strong>Red Hat Ceph Storage</strong> and <strong>Noobaa</strong>.</li>
+</ul>
+</li>
+<li><a href="https://ceph.io">Red Hat Ceph Storage</a></li>
+<li><a href="https://www.noobaa.io">Noobaa</a>:<ul>
+<li>Red Hat Multi Cloud Gateway (AWS, Azure, GCP, etc)</li>
+<li>Asynchronous replication of data between my local ceph and my cloud provider</li>
+<li>Deduplication</li>
+<li>Compression</li>
+<li>Encryption</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Backups available in OpenShift 4.2+ (Snapshots + Restore of Volumes)</li>
+<li>OCS Dashboard in OCS Operator</li>
+</ul>
+<h2 id="kubernetes-csi">Kubernetes CSI</h2>
+<ul>
+<li><a href="https://kubernetes-csi.github.io">kubernetes-csi.github.io</a> Kubernetes-CSI is a community repository containing projects to enable CSI support in Kubernetes.</li>
+<li><a href="https://github.com/kubernetes-csi">github.com/kubernetes-csi</a> Kubernetes specific Container-Storage-Interface (CSI) components</li>
+<li><a href="https://github.com/kubernetes-csi/csi-driver-smb">SMB CSI Driver for Kubernetes</a> This driver allows Kubernetes to access SMB Server on both Linux and Windows nodes.</li>
+<li><a href="https://github.com/yandex-cloud/k8s-csi-s3">github.com/yandex-cloud: CSI for S3</a> This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.</li>
+<li><a href="https://sklar.rocks/how-container-storage-interface-works/">sklar.rocks: How the CSI (Container Storage Interface) Works</a></li>
+</ul>
+<h2 id="kubestr">Kubestr</h2>
+<ul>
+<li><a href="https://kubestr.io/">kubestr.io</a> Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.</li>
+<li><a href="https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr">blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with Kubestr</a></li>
+</ul>
+<h2 id="volsync">VolSync</h2>
+<ul>
+<li><a href="https://github.com/backube/volsync">VolSync 🌟</a> Asynchronous data replication for Kubernetes volumes. VolSync asynchronously replicates Kubernetes persistent volumes between clusters using either rsync or rclone. It also supports creating backups of persistent volumes via restic.</li>
+<li><a href="https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere/">next.redhat.com: Introducing VolSync: your data, anywhere</a> VolSync, a new storage-agnostic utility for exporting and importing objects from one Kubernetes namespace to another, even across clusters!</li>
+</ul>
+<h2 id="discoblocks">Discoblocks</h2>
+<ul>
+<li><a href="https://www.ondat.io/discoblocks">Discoblocks: ondat.io/discoblocks</a> - <a href="https://github.com/ondat/discoblocks">github.com/ondat/discoblocks</a> Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.</li>
+</ul>
+<h2 id="images">Images</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><a href="https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/"><img alt="gigaom radar report on storage" src="images/gigaom_radar_report_on_data_storage_for_k8s.png" /></a></p>
+</center>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">General rule of thumb: there is no such thing as persistent storage in Kubernetes.</p>&mdash; Richard North (@whichrich) <a href="https://twitter.com/whichrich/status/1479435059715321856?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</center>
+</details>
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0swOh5C3OVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8654,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

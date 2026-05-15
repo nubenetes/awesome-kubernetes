@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-monitoring.html">
       
+      
+        <link rel="prev" href="kubernetes-networking.html">
+      
+      
+        <link rel="next" href="kubernetes-security.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Monitoring and Logging - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kubernetes-monitoring-and-logging" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Kubernetes Monitoring and Logging
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -399,11 +410,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +438,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +460,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +482,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +504,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +526,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1746,8 +1759,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1795,19 +1810,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -1825,7 +1843,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1843,7 +1861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1980,10 +1998,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Monitoring and Logging
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-monitoring.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1999,6 +2044,147 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Logging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slos-in-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SLOs in Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eck-elastic-cloud-on-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ECK Elastic Cloud on Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#telegraf-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Telegraf Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitoring-certificates-expiration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring Certificates Expiration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubeshark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        kubeshark
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#k8spacket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        k8spacket
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubelog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubelog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-retina-ebpf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microsoft Retina eBPF
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2011,7 +2197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +3020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +3048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +3154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +4016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +4904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +4932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5054,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5138,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +5915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +5943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +5971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +6915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7764,273 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="kubernetes-monitoring-and-logging">Kubernetes Monitoring and Logging</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#kubernetes-logging">Kubernetes Logging</a></li>
+<li><a href="#slos-in-kubernetes">SLOs in Kubernetes</a></li>
+<li><a href="#eck-elastic-cloud-on-kubernetes">ECK Elastic Cloud on Kubernetes</a></li>
+<li><a href="#telegraf-operator">Telegraf Operator</a></li>
+<li><a href="#monitoring-certificates-expiration">Monitoring Certificates Expiration</a></li>
+<li><a href="#kubeshark">kubeshark</a></li>
+<li><a href="#k8spacket">k8spacket</a></li>
+<li><a href="#kubelog">Kubelog</a></li>
+<li><a href="#microsoft-retina-ebpf">Microsoft Retina eBPF</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://sre.google/sre-book/monitoring-distributed-systems/">Monitoring Distributed Systems - Google SRE Book</a> - <em>(Related to monitoring topic)</em></li>
+<li><a href="https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/">Prometheus and OpenTelemetry Compatibility Issues</a> - <em>(Related to monitoring topic)</em></li>
+<li>
+<p><a href="https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&amp;utm_medium=member_android&amp;utm_campaign=share_via">CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions</a> - <em>(Related to kubernetes-troubleshooting topic)</em></p>
+</li>
+<li>
+<p><a href="https://dzone.com/refcardz/monitoring-kubernetes">DZone: Kubernetes Monitoring Essentials</a></p>
+</li>
+<li><a href="https://github.com/prometheus-operator/kube-prometheus">kube-prometheus</a> Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.<ul>
+<li><a href="https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack">prometheus-community/kube-prometheus-stack 🌟🌟</a> <strong>kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.</strong></li>
+<li><a href="https://faun.pub/becoming-devops-observability-152b292c05b9">faun.pub: Becoming DevOps — Observability</a> Observability with Kube-Prometheus</li>
+<li><a href="https://levelup.gitconnected.com/installing-exploring-the-kube-prometheus-project-eef375d49f6b">levelup.gitconnected.com: Installing &amp; Exploring the Kube-Prometheus Project</a></li>
+</ul>
+</li>
+<li><a href="https://medium.com/@chrisedrego/kubernetes-monitoring-kube-state-metrics-df6546aea324">medium: Kubernetes Monitoring: Kube-State-Metrics</a></li>
+<li><a href="https://levelup.gitconnected.com/kubernetes-monitoring-101-core-pipeline-services-pipeline-a34cd4cc9627">Kubernetes Monitoring 101 — Core pipeline &amp; Services Pipeline</a></li>
+<li><a href="https://medium.com/@martin.schneppenheim/utilizing-and-monitoring-kubernetes-cluster-resources-more-effectively-using-this-tool-df4c68ec2053">medium: Utilizing and monitoring kubernetes cluster resources more effectively</a></li>
+<li><a href="https://sysdig.com/blog/kubernetes-monitoring-best-practices/">sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable</a></li>
+<li><a href="https://www.magalix.com/blog/best-practices-and-tools-for-monitoring-your-kubernetes-cluster">magalix.com: Best Practices And Tools For Monitoring Your Kubernetes Cluster</a></li>
+<li><a href="https://sysdig.com/blog/monitoring-kubernetes/">sysdig.com: Monitoring Kubernetes in Production</a></li>
+<li><a href="https://sysdig.com/blog/monitor-kubernetes-control-plane/">sysdig.com: How to monitor Kubernetes control plane</a></li>
+<li><a href="https://thenewstack.io/12-critical-kubernetes-health-conditions-you-need-to-monitor/">thenewstack.io: 12 Critical Kubernetes Health Conditions You Need to Monitor</a></li>
+<li><a href="https://www.circonus.com/2020/12/12-critical-kubernetes-health-conditions-you-need-to-monitor-and-why/">circonus.com: 12 Critical Kubernetes Health Conditions You Need to Monitor and Why</a></li>
+<li><a href="https://www.circonus.com/2020/09/guide-to-kubernetes-monitoring-part-1/">circonus.com: Guide to Kubernetes Monitoring: Part 1</a><ul>
+<li><a href="https://www.circonus.com/2021/01/guide-to-monitoring-kubernetes-part-2-which-metrics-and-health-conditions-you-should-be-monitoring/">circonus.com: Guide to Monitoring Kubernetes, Part 2: Which Metrics and Health Conditions You Should be Monitoring</a></li>
+</ul>
+</li>
+<li><a href="https://www.infracloud.io/blogs/monitoring-kubernetes-cert-manager-certificates/">infracloud.io: Monitoring Kubernetes cert-manager Certificates with BotKube</a> - <a href="https://www.botkube.io/">botkube.io</a></li>
+<li><a href="https://github.com/kubernetes/kube-state-metrics">kube-state-metrics 🌟</a> <strong>Add-on agent to generate and expose cluster-level metrics. kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects. (See examples in the Metrics section below.) It is not focused on the health of the individual Kubernetes components, but rather on the health of the various objects inside, such as deployments, nodes and pods.</strong></li>
+<li><a href="https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60">itnext.io: Monitoring Kubernetes Jobs</a></li>
+<li><a href="https://www.cncf.io/blog/2021/08/10/avoiding-kubernetes-cluster-outages-with-synthetic-monitoring/">cncf.io: Avoiding Kubernetes cluster outages with synthetic monitoring</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/replication-controller-replica-sets-in-kubernetes-820f3cec7170">medium: Replication Controller &amp; Replica sets in Kubernetes</a></li>
+<li><a href="https://www.kubermatic.com/blog/the-complete-guide-to-kubernetes-metrics/">kubermatic.com: The Complete Guide to Kubernetes Metrics</a></li>
+<li><a href="https://arabitnetwork.com/2021/03/13/k8s-enabling-auditing-logs-step-by-step/">arabitnetwork.com: K8S – Enabling Auditing Logs | Step-by-Step</a></li>
+<li><a href="https://www.youtube.com/watch?v=FVDHWPxK5nU&amp;ab_channel=CloudQuickPOCs">youtube.com: Cloud Quick POCs - Kubernetes monitoring metrics using Grafana Cloud on AWS EKS | Observability | Grafana</a></li>
+<li><a href="https://loft.sh/blog/kubernetes-cost-monitoring-with-prometheus-and-grafana/">loft.sh: Kubernetes Cost Monitoring with Prometheus &amp; Grafana</a></li>
+<li><a href="https://anaisurl.com/full-tutorial-monitoring/"><mark>anaisurl.com: Full Tutorial: Monitoring and Troubleshooting stack with Prometheus, Grafana, Loki and Komodor</mark> 🌟</a></li>
+<li><a href="https://medium.com/is-it-observable/how-to-collect-metrics-in-a-kubernetes-cluster-9ad4a69aafb0">medium.com/is-it-observable: How to collect metrics in a Kubernetes cluster</a></li>
+<li><a href="https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913">itnext.io: How to tackle Kubernetes observability challenges with Pixie</a></li>
+<li><a href="https://medium.com/@lucapompei91/kubernetes-observability-17a7875a38f6">medium.com/@lucapompei91: Kubernetes observability</a></li>
+<li><a href="https://dev.to/leroykayanda/kubernetes-monitoring-using-grafana-3dhc"><mark>dev.to: Monitoring Kubernetes cluster logs and metrics using Grafana, Prometheus and Loki</mark></a></li>
+<li><a href="https://hitesh-pattanayak.medium.com/observability-in-kubernetes-b53d6ea1b37d">hitesh-pattanayak.medium.com: Observability in Kubernetes</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/cpu-memory-usage-nodes-k8s">middlewareinventory.com: Get CPU and Memory Usage of NODES and PODS – Kubectl 🌟</a></li>
+<li><a href="https://betterstack.com/community/comparisons/kubernetes-monitoring-tools/">betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟</a></li>
+<li><a href="https://medium.com/@kylekhunter/kubernetes-monitoring-with-prometheus-a149c35694c4">medium.com/@kylekhunter: Kubernetes Monitoring with Prometheus</a></li>
+<li><a href="https://adamtheautomator.com/prometheus-kubernetes/">adamtheautomator.com: Utilizing Grafana &amp; Prometheus Kubernetes Cluster Monitoring 🌟</a> In this guide, you&rsquo;ll learn how to monitor your Kubernetes cluster, viewing internal state metrics with a Prometheus and Grafana dashboard.</li>
+<li><a href="https://grafana.com/blog/2022/07/13/introducing-kubernetes-monitoring-in-grafana-cloud/">grafana.com: Introducing Kubernetes Monitoring in Grafana Cloud</a> Kubernetes Monitoring is available to all Grafana Cloud users, including on free tier. Container orchestration to deploy at scale, iterate quickly, and manage a large number of apps and services.</li>
+<li><a href="https://medium.com/@clymeneallen/best-practices-monitoring-system-for-multi-k8s-cluster-environments-using-open-source-d85544052f37">medium.com/@clymeneallen: Best Practices, Monitoring System for Multi-K8s Cluster Environments Using Open Source</a></li>
+<li><a href="https://medium.com/@magstherdev/opentelemetry-on-kubernetes-c167f024b35f">medium.com/@magstherdev: OpenTelemetry on Kubernetes 🌟</a></li>
+<li><a href="https://betterprogramming.pub/6-metrics-to-watch-for-on-your-k8s-cluster-76d58f08397f"><mark>betterprogramming.pub: 6 Metrics To Watch for on Your K8s Cluster</mark> 🌟</a> The most critical Kubernetes metrics to monitor. In this article, you will cover the 6 most critical metrics based on Kubernetes&rsquo;s metadata that form a good baseline for monitoring your workloads and ensuring they&rsquo;re in a healthy state.</li>
+<li><a href="https://figments.medium.com/observable-kubernetes-cluster-using-grafana-loki-prometheus-a661a31d7ad8">figments.medium.com: Observable Kubernetes Cluster Using Grafana-Loki-Prometheus</a></li>
+<li><a href="https://medium.com/@isalapiyarisi/getting-started-on-kubernetes-observability-with-ebpf-88139eb13fb2">medium.com/@isalapiyarisi: Getting Started on Kubernetes observability with eBPF</a></li>
+<li><a href="https://middleware.io/blog/kubernetes-monitoring-tools/">8 Best Kubernetes monitoring tools; Paid &amp; open-source</a></li>
+<li><a href="https://dev.to/mikeyglitz/proactive-kubernetes-monitoring-with-alerting-58en">dev.to/mikeyglitz: Proactive Kubernetes Monitoring with Alerting</a> In this tutorial, you&rsquo;ll learn how to combine Prometheus, Alertmanager, Grafana and Linkerd to deliver timely alerts when a problem occurs in a Kubernetes cluster.</li>
+<li><a href="https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes/">isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?</a></li>
+<li><a href="https://grafana.com/blog/2022/10/20/how-to-manage-high-cardinality-metrics-in-prometheus-and-kubernetes/">grafana.com: How to manage high cardinality metrics in Prometheus and Kubernetes</a></li>
+<li><a href="https://medium.com/@HirenDhaduk1/top-kubernetes-observability-tools-and-their-usage-e4e8eef8aec3">medium.com/@HirenDhaduk1: Top Kubernetes Observability Tools and their Usage</a></li>
+<li><a href="https://milindasenaka96.medium.com/setup-prometheus-and-grafana-to-monitor-the-k8s-cluster-e1d35343d7a9">milindasenaka96.medium.com: Setup Prometheus and Grafana to Monitor the K8s Cluster</a></li>
+<li><a href="https://blog.fourninecloud.com/kubernetes-monitoring-how-to-monitor-using-prometheus-f2eff767f6bb">blog.fourninecloud.com: Kubernetes monitoring — How to monitor using prometheus?</a></li>
+<li><a href="https://rcarrata.com/observability/netobserv-1/">rcarrata.com: Network Observability Deep Dive in Kubernetes with NetObserv Operator</a> How can we analyze our Network Flows in our Kubernetes clusters? How can we enable Network Observability for Kubernetes in a simple, searchable and visual way? How can we leverage cool technologies such as eBPF or IPFIX to enable Network Observability for our K8s Network Traffic?</li>
+<li><a href="https://kemilad.medium.com/monitoring-stack-deployment-to-a-kubernetes-cluster-prometheus-grafana-alertmanager-loki-dcc7339d4f19">kemilad.medium.com: Monitoring-Stack Deployment To A Kubernetes Cluster — Prometheus | Grafana | AlertManager | Loki + Exporters | Dashboards and etc 🌟</a></li>
+<li><a href="https://newrelic.com/platform/kubernetes-pixie">newrelic.com: Pixie</a><ul>
+<li><a href="https://xgrid.medium.com/tackling-kubernetes-observability-challenges-with-pixie-a03cbad93148">xgrid.medium.com: Tackling Kubernetes Observability Challenges with Pixie</a></li>
+<li><a href="https://newrelic.com/blog/best-practices/what-is-ebpf">newrelic.com: What Is eBPF and Why Does It Matter for Observability?</a></li>
+</ul>
+</li>
+<li><a href="https://awstip.com/monitoring-your-eks-cluster-with-the-power-of-prometheus-and-grafana-through-helm-%EF%B8%8F-1e8dc1ad5620">awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm</a></li>
+<li><a href="https://grafana.com/blog/2023/01/31/a-beginners-guide-to-kubernetes-application-monitoring">grafana.com: A beginner&rsquo;s guide to Kubernetes application monitoring</a></li>
+<li><a href="https://medium.com/@poseidon.os/poseidon-a-kubernetes-cluster-visualization-cost-analysis-tool-d0fb55c2858c">medium.com/@poseidon.os: Poseidon: A Kubernetes Cluster Visualization &amp; Cost Analysis Tool</a></li>
+<li><a href="https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits/"><mark>aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU Limits</mark> 🌟</a> <strong>In this article, you&rsquo;ll discuss how CPU throttling can affect Kubernetes&rsquo; node performance, and how to avoid this by setting the right values for limits. The author also suggests using Prometheus as a tool to help set reasonable limits</strong></li>
+<li><a href="https://umeey.medium.com/four-golden-signals-of-monitoring-site-reliability-engineering-sre-metrics-64031dbe268">umeey.medium.com: Four Golden Signals Of Monitoring: Site Reliability Engineering (SRE) Metrics</a> Golden Signal Monitoring using FastAPI on k8s</li>
+<li><a href="https://grafana.com/blog/2023/03/03/how-to-optimize-resource-utilization-with-kubernetes-monitoring-for-grafana-cloud/">grafana.com: How to optimize resource utilization with Kubernetes Monitoring for Grafana Cloud 🌟</a> <strong>Overprovisioning or underprovisioning your Kubernetes resources can have significant consequences on both your budget and your app performance.</strong></li>
+<li><a href="https://medium.com/@lambdaEranga/monitor-kubernets-services-endpoints-with-prometheus-blackbox-exporter-a64e062c05d5">medium.com/@lambdaEranga: Monitor Kubernets Services/Endpoints with Prometheus Blackbox Exporter 🌟</a> In this article, you will discuss monitoring different endpoints/services in a Kubernetes cluster using Prometheus Blackbox Exporter</li>
+<li><a href="https://samiislam0306.medium.com/insightful-monitoring-of-kubernetes-clusters-with-traces-c7c3b33ed07e">samiislam0306.medium.com: Insightful Monitoring of Kubernetes Clusters with Traces</a> Gain valuable insights into the performance of your Kubernetes cluster with trace monitoring. A guide that helps you optimize your operations for maximum efficiency and productivity.</li>
+<li><a href="https://medium.com/@walissonscd/monitoring-kubernetes-cluster-resources-using-top-metrics-commands-a60408765321">medium.com/@walissonscd: Monitoring Kubernetes Cluster Resources: Using Top Metrics Commands</a></li>
+<li><a href="https://blog.devops.dev/prometheus-metrics-within-kubernetes-an-ariel-view-d1d3b7d75418"><mark>blog.devops.dev: Prometheus metrics within Kubernetes — an aerial view</mark> | Joseph Esrig</a></li>
+<li><a href="https://grafana.com/blog/2023/01/19/how-to-monitor-kubernetes-clusters-with-the-prometheus-operator/">grafana.com: How to monitor Kubernetes clusters with the Prometheus Operator</a> In this guide, you&rsquo;ll learn how to deploy and use the Prometheus Operator to configure and manage Prometheus instances in your Kubernetes cluster. You&rsquo;ll also discover how to deploy Grafana to help analyze and visualize the health of your clusters.</li>
+<li><a href="https://blog.palark.com/kubernetes-services-interaction-monitoring-with-netflow/">blog.palark.com: Service communication monitoring in Kubernetes with NetFlow</a></li>
+<li><a href="https://betterprogramming.pub/improve-cluster-monitoring-with-network-mapping-in-grafana-fa8bb479fd47">betterprogramming.pub: Improve Cluster Monitoring With Network Mapping in Grafana</a> A deep dive into obtaining network maps and correlating IP with cluster workloads to speed up debugging</li>
+<li><a href="https://betterprogramming.pub/kubernetes-observability-part-1-events-logs-integration-with-slack-openai-and-grafana-62068cf43ec">betterprogramming.pub: Kubernetes Observability Part 1: Events, Logs, and Integration With Slack, OpenAI, and Grafana</a> Build a Kubernetes custom controller to watch Kubernetes Events and forward them to Grafana Loki using Promtail</li>
+<li><a href="https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1">itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles</a></li>
+<li><a href="https://opentelemetry.io/blog/2023/k8s-runtime-observability/">opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability</a></li>
+<li><a href="https://medium.com/@onai.rotich/understand-container-metrics-and-why-they-matter-9e88434ca62a">medium.com/@onai.rotich: Understand container metrics and why they matter</a> In this 2-part article, you will explore the key metrics to scrape in your cluster</li>
+<li><a href="https://kkamalesh117.medium.com/setting-up-prometheus-and-grafana-integration-on-kubernetes-with-helm-dfc63823608c">kkamalesh117.medium.com: Setting up Prometheus and Grafana Integration on Kubernetes with Helm</a></li>
+<li><a href="https://medium.com/@MetricFire/monitoring-kubernetes-tutorial-using-grafana-and-prometheus-3239079b138f">medium.com/@MetricFire: Monitoring Kubernetes tutorial: Using Grafana and Prometheus</a></li>
+<li><a href="https://medium.com/globant/monitoring-a-multi-cluster-kubernetes-deployment-9e7a418a06b7">medium.com/globant: Monitoring a multi-cluster Kubernetes Deployment</a> Deploying a high resilience monitoring and observation platform for Kubernetes multi-cluster solutions</li>
+<li><a href="https://medium.com/@martin.hodges/adding-observability-to-a-kubernetes-cluster-using-prometheus-c2cba6c0fdaa">medium.com/@martin.hodges: Adding observability to a Kubernetes cluster using Prometheus</a> Monitoring your services is vital and should be considered as part of your underlying infrastructure for your services. You should put this in place ahead of creating and deploying your services. In this article I look at how to deploy Prometheus provide the observability you need to run your services.</li>
+<li><a href="https://addozhang.medium.com/non-intrusive-inject-opentelemetry-auto-instrumentation-in-kubernetes-a9dfd49fc714">addozhang.medium.com: Non-intrusive Inject OpenTelemetry Auto-Instrumentation in Kubernetes</a></li>
+<li><a href="https://medium.com/@abhisman.sarkar/kubernetes-monitoring-effective-cluster-tracking-with-prometheus-b0ed5b3efb32">medium.com/@abhisman.sarkar: Kubernetes Monitoring: Effective Cluster Tracking with Prometheus</a></li>
+<li><a href="https://aws.plainenglish.io/mastering-monitoring-the-complete-guide-to-using-prometheus-and-grafana-with-kubernetes-e53d8306123d"><mark>aws.plainenglish.io: Mastering Monitoring: The Complete Guide to Using Prometheus and Grafana with Kubernetes</mark></a></li>
+<li><a href="https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-grafana-%EF%B8%8F-b0e00b1ae039">medium.com/@muppedaanvesh: A Hands-On Guide to Kubernetes Monitoring Using Prometheus &amp; Grafana</a> Understanding Prometheus &amp; Grafana Setup in Kubernetes: A Comprehensive Guide</li>
+<li><a href="https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring/"><mark>signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial</mark> 🌟</a></li>
+</ul>
+<h2 id="kubernetes-logging">Kubernetes Logging</h2>
+<ul>
+<li><a href="https://devopscube.com/setup-prometheus-helm-chart/">Setup Prometheus Using Helm Chart on Kubernetes</a> - <em>(Related to prometheus topic)</em></li>
+<li><a href="https://koaperf-apeseqd2cehnhjgh.z03.azurefd.net/">KoaPerf: Kubernetes Performance Monitoring</a> - KoaPerf is a performance monitoring tool specifically designed for Kubernetes environments. It aims to provide insights into the performance characteristics of Kubernetes clusters and applications running within them.</li>
+<li>
+<p><a href="https://github.com/ynqa/bul">bul: Interactive TUI for Exploring Kubernetes Container Logs</a> - <em>(Related to kubernetes-tools topic)</em></p>
+</li>
+<li>
+<p><a href="https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/">cncf.io: Logging in Kubernetes: EFK vs PLG Stack</a></p>
+</li>
+<li><a href="https://medium.com/avmconsulting-blog/how-to-deploy-an-efk-stack-to-kubernetes-ebc1b539d063">medium: How to Deploy an EFK stack to Kubernetes</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes">digitalocean.com: How To Set Up an Elasticsearch, Fluentd and Kibana (EFK) Logging Stack on Kubernetes</a></li>
+<li><a href="https://portworx.com/how-to-backup-and-restore-elasticsearch-on-kubernetes/">portworx.com: How to backup and restore Elasticsearch on Kubernetes</a></li>
+<li><a href="https://www.papertrail.com/blog/quick-and-easy-way-to-implement-kubernetes-logging/">papertrail.com: Quick and Easy Way to Implement Kubernetes Logging</a> The SolarWinds® Papertrail™ team is excited to announce SolarWinds rKubeLog, an open-source project designed to streamline Kubernetes logging. rKubeLog allows you to forward logs to Papertrail from within a Kubernetes cluster without using a daemon or setting up application-level logging or a logging sidecar.</li>
+<li><a href="https://qlinh.com/infosec/2020/09/30/threat-detection-with-kubernetes-audit-logs.html">qlinh.com: Leveraging Kubernetes audit logs for threat detection</a> Kubernetes audit logs can provide great visibility into the operation and inner workings of your cluster. Learn how to leverage Kubernetes audit logs for threat detection</li>
+<li><a href="https://itnext.io/kubernetes-logging-in-production-545ea88d9a4a">itnext.io: Kubernetes Logging in Production</a></li>
+<li><a href="https://opensource.com/article/21/11/cluster-logging-kubernetes">opensource.com: What you need to know about cluster logging in Kubernetes 🌟</a> Explore how different container logging patterns in Kubernetes work.</li>
+<li><a href="https://devopscube.com/kubernetes-logging-tutorial"><mark>devopscube.com: Kubernetes Logging Tutorial For Beginners</mark> 🌟</a></li>
+<li><a href="https://medium.com/vmacwrites/kubernetes-audit-logs-who-created-or-deleted-a-namespace-7d55c20d2730">medium.com/vmacwrites: Kubernetes Audit Logs: Who created or deleted a namespace?</a> Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.</li>
+<li><a href="https://shivanshu1333.medium.com/structured-logging-in-kubernetes-58cf35e6d60d">shivanshu1333.medium.com: Structured logging in Kubernetes</a><ul>
+<li>Logs are an essential aspect of observability and a critical tool for debugging. But Kubernetes logs have traditionally been unstructured strings, making any automated parsing difficult and any downstream processing, analysis, or querying challenging to do reliably.</li>
+<li>In Kubernetes 1.19, we are adding support for structured logs, which natively support (key, value) pairs and object references. We have also updated many logging calls such that over 99% of logging volume in a typical deployment are now migrated to the structured format.</li>
+<li>To maintain backwards compatibility, structured logs will still be outputted as a string where the string contains representations of those “key”=”value” pairs. Starting in alpha in 1.19, logs can also be outputted in JSON format using the &ndash;logging-format=json flag.</li>
+</ul>
+</li>
+<li><a href="https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3">tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?</a> Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.</li>
+<li><a href="https://blog.devops.dev/importance-of-logging-in-kubernetes-and-intro-to-grafana-loki-f8dc6f736e6">blog.devops.dev: Importance of Logging In Kubernetes, Intro to Grafana Loki &amp; deploying with helm-charts</a></li>
+<li><a href="https://faun.pub/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-86076da0812f">faun.pub: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container</a> We are going to learn how to use the Sidecar Container pattern to install Logstash and FluentD on Kubernetes for log aggregation.</li>
+<li><a href="https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi">dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container</a></li>
+<li><a href="https://signoz.io/blog/kubernetes-audit-logs">signoz.io: Kubernetes Audit Logs - Best Practices And Configuration</a></li>
+<li><a href="https://blog.amhaish.com/observing-the-k8-cluster-using-elk-stack-7d4264fdb0e3">blog.amhaish.com: Observing the K8 cluster using ELK stack</a></li>
+<li><a href="https://github.com/kube-logging/logging-operator">kube-logging/logging-operator</a> The Logging operator automates the deployment and configuration of a Kubernetes logging pipeline. The operator deploys and configures a Fluent Bit daemonset on every node to collect container and application logs from the node file system.</li>
+<li><a href="https://akyriako.medium.com/kubernetes-logging-with-grafana-loki-promtail-in-under-10-minutes-d2847d526f9e">akyriako.medium.com: Kubernetes Logging with Grafana Loki &amp; Promtail in under 10 minutes 🌟</a> Consolidate all your Kubernetes logs in a intuitive Grafana dashboard.</li>
+<li><a href="https://yuminlee2.medium.com/kubernetes-container-and-pod-logging-82ec5c057cb2">yuminlee2.medium.com: Kubernetes: Container and Pod Logging</a></li>
+<li><a href="https://medium.com/kubernetes-tutorials/cluster-level-logging-in-kubernetes-with-fluentd-e59aa2b6093a">medium.com/kubernetes-tutorials: Cluster-level Logging in Kubernetes with Fluentd</a></li>
+<li><a href="https://shivanshu1333.medium.com/contextual-logging-in-kubernetes-41f4cc5fea69">shivanshu1333.medium.com: Contextual Logging in Kubernetes</a> The Structured Logging Working Group has added new capabilities to the logging infrastructure in Kubernetes. This post explains how developers can use those to make log output more useful.</li>
+</ul>
+<h2 id="slos-in-kubernetes">SLOs in Kubernetes</h2>
+<ul>
+<li><a href="https://thenewstack.io/service-level-objectives-in-kubernetes/"><mark>thenewstack.io: Service Level Objectives in Kubernetes</mark></a> an SLO is simply a metric, a goal for that metric, and a time period. For instance: “the success rate for service A must be at least 99.7% percent over the past 30 days.” The metric is known as the “service level indicator” (SLI) and the goal is the “objective.”</li>
+<li><a href="https://thenewstack.io/slos-in-kubernetes-1-year-later/">thenewstack.io: SLOs in Kubernetes, 1 Year Later</a></li>
+</ul>
+<h2 id="eck-elastic-cloud-on-kubernetes">ECK Elastic Cloud on Kubernetes</h2>
+<ul>
+<li><a href="https://www.elastic.co/es/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture">elastic.co: How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold architecture</a> Elastic Cloud on Kubernetes (ECK) is an easy way to get the Elastic Stack up and running on top of Kubernetes. That’s because ECK automates the deployment, provisioning, management, and setup of Elasticsearch, Kibana, Beats, and more.</li>
+</ul>
+<h2 id="telegraf-operator">Telegraf Operator</h2>
+<ul>
+<li><a href="https://www.influxdata.com/blog/expand-kubernetes-monitoring-telegraf-operator">influxdata.com: Expand Kubernetes Monitoring with Telegraf Operator</a></li>
+</ul>
+<h2 id="monitoring-certificates-expiration">Monitoring Certificates Expiration</h2>
+<ul>
+<li><a href="https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d">itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter</a></li>
+</ul>
+<h2 id="kubeshark">kubeshark</h2>
+<ul>
+<li>
+<p><a href="https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes/">Sharing a NVIDIA GPU Between Pods in Kubernetes</a> - <em>(Related to kubernetes-tools topic)</em></p>
+</li>
+<li>
+<p><a href="https://kubeshark.co"><mark>kubeshark.co</mark></a> The API Traffic Viewer for  kubernetes. Deep visibility and monitoring of all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster.</p>
+</li>
+<li><a href="https://github.com/kubeshark/kubeshark">kubeshark/kubeshark</a> The API traffic viewer for Kubernetes providing deep visibility into all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster. Think TCPDump and Wireshark re-invented for Kubernetes</li>
+<li><a href="https://medium.com/kernel-space/kubeshark-wireshark-for-kubernetes-4069a5f5aa3d">medium.com/kernel-space: KubeShark: Wireshark for Kubernetes</a></li>
+</ul>
+<h2 id="k8spacket">k8spacket</h2>
+<ul>
+<li><a href="https://medium.com/@bareckidarek/tcp-packets-traffic-visualization-for-kubernetes-by-k8spacket-and-grafana-bb87cb106f30">medium.com/@bareckidarek: TCP packets traffic visualization for kubernetes by k8spacket and Grafana</a></li>
+<li><a href="https://www.pakdailytimes.com/2022/12/tcp-packets-traffic-visualization-for.html">pakdailytimes.com: TCP packets traffic visualization for kubernetes by k8spacket and Grafana</a></li>
+</ul>
+<h2 id="kubelog">Kubelog</h2>
+<ul>
+<li><a href="https://kubelog.de">kubelog.de</a> kubelog is a graphical log viewer for Kubernetes, which works with your existing Kubernetes logging infrastructure. Kubelog is a log viewer for kubernetes. Tail multiple pods in one view and use searches to highlight and show results in context.</li>
+</ul>
+<h2 id="microsoft-retina-ebpf">Microsoft Retina eBPF</h2>
+<ul>
+<li><a href="https://github.com/microsoft/retina"><mark>github.com/microsoft/retina</mark></a> - <a href="https://retina.sh">retina.sh</a> <strong>eBPF distributed networking observability tool for Kubernetes</strong><ul>
+<li>Retina is a cloud-agnostic, open-source Kubernetes network observability platform that provides a centralized hub for monitoring application health, network health, and security. It provides actionable insights to cluster network administrators, cluster security administrators, and DevOps engineers navigating DevOps, SecOps, and compliance use cases.</li>
+<li>Retina collects customizable telemetry, which can be exported to multiple storage options (such as Prometheus, Azure Monitor, and other vendors) and visualized in a variety of ways (like Grafana, Azure Log Analytics, and other vendors).</li>
+</ul>
+</li>
+</ul>
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/5ofsNyHZwWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8234,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

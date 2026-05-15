@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/servicemesh.html">
       
+      
+        <link rel="prev" href="message-queue.html">
+      
+      
+        <link rel="next" href="istio.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Service Mesh - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#service-mesh" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Service Mesh
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -403,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +436,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +458,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +480,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +502,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +524,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +546,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +568,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +588,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -594,11 +605,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1843,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +1996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +2847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +2875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +2981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +3843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +3871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +3978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4399,8 +4412,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -4412,19 +4427,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18" checked>
         
           
-          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
             
   
   
@@ -4442,7 +4460,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_18">
             <span class="md-nav__icon md-icon"></span>
             
@@ -4457,10 +4475,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="servicemesh.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -4476,6 +4521,242 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-mesh-and-api-gateways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Mesh and API Gateways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-for-evaluating-service-meshes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools For Evaluating Service Meshes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-mesh-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Mesh Testing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consul-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consul Service Mesh
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consul Service Mesh">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consul-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consul Connect
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linkerd-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linkerd Service Mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maesh-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maesh Service Mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#traffic-director-googles-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traffic Director (Google&rsquo;s Service Mesh)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Traffic Director (Google’s Service Mesh)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-l7-internal-load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google L7 Internal Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#envoy-proxy-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envoy Proxy Service Mesh
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Envoy Proxy Service Mesh">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xds-protocol-envoys-discovery-service-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        xDS protocol (Envoy&rsquo;s Discovery Service Protocol)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#istio-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Istio Service Mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Service Mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kourier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kourier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-app-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS App Mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nginx-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NGINX Service mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Networking
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -4488,7 +4769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +4999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +5027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +6010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +6038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +6066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +7010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7135,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7708,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7859,282 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="service-mesh">Service Mesh</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#service-mesh-and-api-gateways">Service Mesh and API Gateways</a></li>
+<li><a href="#tools-for-evaluating-service-meshes">Tools For Evaluating Service Meshes</a></li>
+<li><a href="#service-mesh-testing">Service Mesh Testing</a></li>
+<li><a href="#consul-service-mesh">Consul Service Mesh</a><ol>
+<li><a href="#consul-connect">Consul Connect</a></li>
+</ol>
+</li>
+<li><a href="#linkerd-service-mesh">Linkerd Service Mesh</a></li>
+<li><a href="#maesh-service-mesh">Maesh Service Mesh</a></li>
+<li><a href="#traffic-director-google's-service-mesh">Traffic Director (Google&rsquo;s Service Mesh)</a><ol>
+<li><a href="#google-l7-internal-load-balancer">Google L7 Internal Load Balancer</a></li>
+</ol>
+</li>
+<li><a href="#envoy-proxy-service-mesh">Envoy Proxy Service Mesh</a><ol>
+<li><a href="#xds-protocol-envoy's-discovery-service-protocol">xDS protocol (Envoy&rsquo;s Discovery Service Protocol)</a></li>
+</ol>
+</li>
+<li><a href="#istio-service-mesh">Istio Service Mesh</a></li>
+<li><a href="#open-service-mesh">Open Service Mesh</a></li>
+<li><a href="#kourier">Kourier</a></li>
+<li><a href="#aws-app-mesh">AWS App Mesh</a></li>
+<li><a href="#nginx-service-mesh">NGINX Service mesh</a></li>
+<li><a href="#kubernetes-networking">Kubernetes Networking</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://www.infoq.com/articles/service-mesh-ultimate-guide/">infoq.com: Service Mesh Ultimate Guide:</a>  Managing Service-to-Service Communications in the Era of Microservices</li>
+<li><a href="https://learnk8s.io/kubernetes-long-lived-connections"><mark>Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes</mark></a></li>
+<li><a href="https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/">blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?</a></li>
+<li><a href="https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes/">thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control to Kubernetes</a></li>
+<li><a href="https://lucperkins.dev/blog/service-mesh-use-cases/">lucperkins.dev: Service mesh use cases</a></li>
+<li><a href="https://thenewstack.io/zero-trust-security-with-service-mesh/">thenewstack.io: Zero-Trust Security with Service Mesh</a></li>
+<li><a href="https://www.solo.io/blog/identity-federation-for-multi-cluster-kubernetes-and-service-mesh/">solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh</a></li>
+<li><a href="https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard/">cncf.io: Service Mesh Is Still Hard</a></li>
+<li><a href="https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f">medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟</a></li>
+<li><a href="https://www.openshift.com/blog/introducing-openshift-service-mesh-2.0">openshift.com: Introducing OpenShift Service Mesh 2.0 🌟</a></li>
+<li><a href="https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery">weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟</a></li>
+<li><a href="https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments">rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments</a> Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process. In this blog, we’ll provide an overview of the most common microservice communication requirements that the Service Mesh architecture pattern solves.</li>
+<li><a href="https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh/">thenewstack.io: Offloading Authentication and Authorization from Application Code to a Service Mesh</a></li>
+<li><a href="https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals/">thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals</a></li>
+<li><a href="https://thenewstack.io/mutual-tls-microservices-encryption-for-service-mesh/">thenewstack.io: Mutual TLS: Securing Microservices in Service Mesh</a></li>
+<li><a href="https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments">rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments. Get Hands-On with Rancher, Kong and Kong Mesh 🌟</a><ul>
+<li>Service Mesh is an emerging architecture pattern gaining traction today. Along with Kubernetes, Service Mesh can form a powerful platform which addresses the technical requirements that arise in a highly distributed environment typically found on a microservices cluster and/or service infrastructure. A Service Mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices.</li>
+<li>Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process.</li>
+<li>Kong provides an enterprise-class and comprehensive service connectivity platform that includes an API gateway, a Kubernetes ingress controller and a Service Mesh implementation. The platform allows customers to deploy on multiple environments such as on premises, hybrid, multi-­­­­­­region and multi-cloud.</li>
+</ul>
+</li>
+<li><a href="https://www.cloudops.com/blog/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/">cloudops.com: Comparing Service Meshes: Istio, Linkerd, Consul Connect, and Citrix ADC</a></li>
+<li><a href="https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/">platform9.com: Kubernetes Service Mesh: A Comparison of Istio, Linkerd and Consul</a></li>
+<li><a href="https://opensource.com/article/21/3/service-mesh">opensource.com: Why you should care about service mesh</a> Service mesh provides benefits for development and operations in microservices environments.</li>
+<li><a href="https://containerjournal.com/features/when-is-service-mesh-worth-it/"><mark>containerjournal.com: When Is Service Mesh Worth It?</mark></a></li>
+<li><a href="https://thenewstack.io/service-meshes-in-the-cloud-native-world/">thenewstack.io: Service Meshes in the Cloud Native World</a></li>
+<li><a href="https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability">koyeb.com: Service Mesh and Microservices: Improving Network Management and Observability</a></li>
+<li><a href="https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh/">thenewstack.io: Accelerate Kubernetes Adoption with a Service Mesh</a></li>
+<li><a href="https://www.toptal.com/kubernetes/service-mesh-comparison">toptal.com: A Kubernetes Service Mesh Comparison 🌟</a></li>
+<li><a href="https://www.nginx.com/blog/how-to-choose-a-service-mesh/">nginx.com: How to Choose a Service Mesh 🌟</a></li>
+<li><a href="https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options/">cncf.io: Networking with a service mesh: use cases, best practices, and comparison of top mesh options</a></li>
+<li><a href="https://layer5.io/service-mesh-landscape">layer5.io: The Service Mesh Landscape 🌟🌟</a> Comparison of Service Mesh Strengths</li>
+<li><a href="https://blog.polymatic.systems/service-mesh-wars-goodbye-istio-b047d9e533c7">blog.polymatic.systems: Service Mesh Wars, Goodbye Istio</a> After using Istio in production for almost 2 years, we’re saying goodbye to it. Learn why, as well as the current state of the Service Mesh Wars.</li>
+<li><a href="https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist/">thenewstack.io: Secure Your Service Mesh: A 13-Item Checklist</a></li>
+<li><a href="https://www.infoq.com/articles/cloud-native-architecture-adoption-part3/">infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh</a></li>
+<li><a href="https://www.infoq.com/articles/service-mesh-ultimate-guide-2e/">infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development</a></li>
+<li><a href="https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41"><mark>itnext.io: Stupid Simple Service Mesh — What, When, Why</mark> 🌟</a></li>
+<li><a href="https://thenewstack.io/the-hidden-costs-of-service-meshes/">thenewstack.io: The Hidden Costs of Service Meshes</a></li>
+<li><a href="https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes/">learnsteps.com: What is a service mesh? Is it born with Kubernetes?</a></li>
+<li><a href="https://medium.com/@adarsh.prabhu/microservices-and-the-world-with-a-service-mesh-ec9a709dd4b5"><mark>medium: Microservices and the World with a Service Mesh</mark> | Adarsh Prabhu</a> We will look at how the unruly world of distributed microservices can be tamed by using a Service Mesh. Service Meshes form the backbone of some of the very complex applications out there. They solve critical issues of the microservices architecture and provide better Traffic Management, Security and Observability. In most cases these features are enabled without requiring any code changes.</li>
+<li><a href="https://www.infoq.com/presentations/adopting-service-mesh">infoq.com: Deploying Service Mesh in Production</a></li>
+<li><a href="https://devops.com/how-are-api-management-and-service-mesh-different/"><mark>devops.com: How Are API Management and Service Mesh Different?</mark></a></li>
+<li><a href="https://devops.com/when-to-use-api-management-and-service-mesh-together/">devops.com: When to Use API Management and Service Mesh Together</a></li>
+<li><a href="https://www.infoq.com/presentations/adopting-service-mesh/">infoq.com: Deploying Service Mesh in Production</a></li>
+<li><a href="https://www.infoq.com/presentations/5-challenges-mesh/">infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟</a></li>
+<li><a href="https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630">medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd, Kuma and Consul</a></li>
+<li><a href="https://medium.com/@pauldotyu/service-mesh-considerations-117561f30295">medium.com/@pauldotyu: Service Mesh Considerations</a></li>
+<li><a href="https://medium.com/4th-coffee/a-comprehensive-tutorial-on-service-mesh-istio-envoy-access-log-and-log-filtering-8f3d939c081d">medium.com/4<sup>th</sup>-coffee: A Comprehensive Tutorial on Service Mesh, Istio, Envoy, Access Log, and Log Filtering</a></li>
+<li><a href="https://www.infoq.com/presentations/service-mesh-ebpf/">infoq.com: Sidecars, eBPF and the Future of Service Mesh</a></li>
+</ul>
+<h2 id="service-mesh-and-api-gateways">Service Mesh and API Gateways</h2>
+<ul>
+<li><a href="https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043">medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟</a></li>
+<li><a href="https://www.medianova.com/en-blog/service-mesh-vs-api-gateway/">medianova.com: Service Mesh vs. API Gateway</a></li>
+</ul>
+<h2 id="tools-for-evaluating-service-meshes">Tools For Evaluating Service Meshes</h2>
+<ul>
+<li>
+<p><a href="https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/">Prometheus and OpenTelemetry Compatibility Issues</a> - <em>(Related to monitoring topic)</em></p>
+</li>
+<li>
+<p><a href="https://meshery.io/">Meshery.io:</a> Open source tool for evaluating and contrasting service meshes</p>
+</li>
+</ul>
+<h2 id="service-mesh-testing">Service Mesh Testing</h2>
+<ul>
+<li><a href="https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298">itnext.io: Service Mesh Testing — Tools &amp; Frameworks (Open Source)</a> There are quite a few open-source toolsets to test and measure performance impact of service meshes. In this article you will compare: Fortio, Nighthawk, Wrk2, Httpbin, Meshery, Isotope, Hyperfoil, Service-mesh-benchmark, Locust &amp; more.</li>
+</ul>
+<h2 id="consul-service-mesh">Consul Service Mesh</h2>
+<ul>
+<li><a href="https://www.consul.io/">consul.io</a></li>
+<li><a href="https://medium.com/swlh/consul-in-kubernetes-pushing-to-production-223506bbe8db">medium: Consul in Kubernetes — Pushing to Production</a></li>
+<li><a href="https://medium.com/hashicorp-engineering/hashicorp-consul-multi-cloud-and-multi-platform-service-mesh-372a82264e8e">medium: HashiCorp Consul: Multi-Cloud and Multi-Platform Service Mesh</a></li>
+<li><a href="https://www.hashicorp.com/blog/get-started-with-consul-service-mesh-on-kubernetes/">hashicorp.com: Get Started with Consul Service Mesh on Kubernetes 🌟</a></li>
+<li><a href="https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes">HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes</a> Learn about the advanced features of HashiCorp&rsquo;s Consul service mesh that are valuable to both infrastructure operators and developers.</li>
+<li><a href="https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes">hashicorp.com: HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes 🌟</a></li>
+<li><a href="https://learn.hashicorp.com/tutorials/consul/kubernetes-consul-design-patterns">learn.hashicorp.com: Consul Service Mesh on Kubernetes Design Patterns</a></li>
+<li><a href="https://www.hashicorp.com/blog/disaster-recovery-for-hashicorp-consul-on-kubernetes">hashicorp.com: Disaster Recovery for HashiCorp Consul on Kubernetes 🌟</a> See the recovery steps to protect your data and secrets during an extended outage using Kubernetes and HashiCorp Consul.</li>
+<li><a href="https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-1-5ee778a7fcf4">medium: A Practical Guide to HashiCorp Consul — Part 1 🌟</a><ul>
+<li><a href="https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-2-3c0ebc0351e8">medium: A Practical Guide to HashiCorp Consul — Part 2 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://fabiolb.net/">Fabio Load Balancer 🌟</a> fabio is a fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul. Register your services in consul, provide a health check and fabio will start routing traffic to them. No configuration required. Deployment, upgrading and refactoring has never been easier.</li>
+<li><a href="https://www.hashicorp.com/blog/getting-started-with-hcp-consul-frequently-asked-questions">hashicorp.com: Getting Started with HCP Consul: Frequently Asked Questions</a></li>
+</ul>
+<h3 id="consul-connect">Consul Connect</h3>
+<ul>
+<li><a href="https://www.consul.io/docs/connect/index.html">consul Connect</a></li>
+</ul>
+<h2 id="linkerd-service-mesh">Linkerd Service Mesh</h2>
+<ul>
+<li><a href="https://linkerd.io/">Linkerd</a></li>
+<li><a href="https://linkerd.io/2020/06/09/announcing-linkerd-2.8/">Announcing Linkerd 2.8: simple, secure multi-cluster Kubernetes</a></li>
+<li><a href="https://www.cncf.io/blog/2021/02/25/kubernetes-network-policies-with-cilium-and-linkerd/">cncf.io: Kubernetes network policies with Cilium and Linkerd</a></li>
+<li><a href="https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd/">cncf.io: Protocol detection and opaque ports in Linkerd</a></li>
+<li><a href="https://thenewstack.io/linkerd-2-0-the-service-mesh-for-service-owners-platform-architects-sres/">thenewstack.io: Linkerd 2.0: The Service Mesh for Service Owners, Platform Architects, SREs</a></li>
+<li><a href="https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy/">cncf.io: Why Linkerd doesn’t use Envoy</a></li>
+<li><a href="https://linkerd.io/2.10/tasks/multicluster/index.html">linkerd.io: Multi-cluster communication</a> This guide will walk you through installing and configuring Linkerd so that two clusters can talk to services hosted on both.</li>
+<li><a href="https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html">linkerd.io: Benchmarking Linkerd and Istio</a></li>
+<li><a href="https://linkerd.io/2021/07/28/announcing-cncf-graduation/">linkerd.io: Announcing Linkerd&rsquo;s Graduation</a></li>
+<li><a href="https://containerjournal.com/features/linkerds-cncf-graduation-due-to-its-simplicity/">containerjournal.com: Linkerd’s CNCF Graduation Due to its Simplicity</a></li>
+<li><a href="https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9">itnext.io: A Practical Guide for Linkerd Authorization Policies</a></li>
+<li>&ldquo;Installed Linkerd in staging yesterday using Helm and Terraform. It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production.&rdquo;</li>
+<li><a href="https://linkerd.io/2021/11/29/linkerd-vs-istio-benchmarks-2021/index.html">linkerd.io: Benchmarking Linkerd and Istio: 2021 Redux</a></li>
+<li><a href="https://buoyant.io/2021/12/14/locking-down-network-traffic-between-kubernetes-namespaces">buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces</a></li>
+<li><a href="https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/">linkerd.io: Announcing automated multi-cluster failover for Kubernetes</a></li>
+<li><a href="https://thenewstack.io/is-linkerd-winning-the-service-mesh-race/">thenewstack.io: Is Linkerd Winning the Service Mesh Race?</a></li>
+<li><a href="https://medium.com/attest-product-and-technology/debugging-mislabelled-route-metrics-from-linkerd-dda47fdff04a">medium.com/attest-product-and-technology: Debugging mislabelled route metrics from Linkerd</a></li>
+<li><a href="https://buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12">buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging</a> In this webinar, you&rsquo;ll hear all about the Linkerd 2.12 release and what you need to know to upgrade. This massive release introduces route-based policy to Linkerd, allowing users to define and enforce authorization policies based on HTTP paths or gRPC methods in a fully zero-trust way. It also introduces support for iptables-nft and Apache-style access logging, authorizes all probes by default (even in default-deny clusters), and includes a host of other improvements and performance enhancements.</li>
+<li><a href="https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f">medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd</a> In this article, you&rsquo;ll learn the meaning of Mutual TLS, why it is needed in Kubernetes and also implement it with Emissary-ingress</li>
+<li><a href="https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a">dev.to: Linkerd and GitOps</a></li>
+<li><a href="https://buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh">buoyant.io: Multi-Cluster, Multi-Region Setup using Linkerd Service Mesh</a> This article teaches how to enhance Kubernetes with multi-cluster architecture for improved availability, fault tolerance, and performance with a Service Mesh such as Linkerd</li>
+</ul>
+<h2 id="maesh-service-mesh">Maesh Service Mesh</h2>
+<ul>
+<li><a href="https://containo.us/maesh/">Maesh</a></li>
+</ul>
+<h2 id="traffic-director-googles-service-mesh">Traffic Director (Google&rsquo;s Service Mesh)</h2>
+<ul>
+<li><a href="https://cloud.google.com/traffic-director">Traffic Director overview</a></li>
+<li><a href="https://medium.com/cloudzone/google-clouds-traffic-director-what-is-it-and-how-is-it-related-to-the-istio-service-mesh-c199acc64a6d">Google Cloud’s Traffic Director — What is it and how is it related to the Istio service-mesh?</a></li>
+<li><a href="https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads/"><strong>Google Traffic Director</strong> and the <strong>L7 Internal Load Balancer</strong> Intermingles <strong>Cloud Native</strong> and <strong>Legacy Workloads</strong></a></li>
+<li><a href="https://www.infoq.com/news/2019/04/google-traffic-director/">infoq.com: Introducing Traffic Director: Google&rsquo;s Service Mesh Control Plane</a></li>
+<li><a href="https://cloudblog.withgoogle.com/products/networking/traffic-director-supports-proxyless-grpc/amp/">Traffic Director and gRPC—proxyless services for your service mesh</a></li>
+</ul>
+<h3 id="google-l7-internal-load-balancer">Google L7 Internal Load Balancer</h3>
+<ul>
+<li><a href="https://cloud.google.com/load-balancing/docs/l7-internal/">L7 Internal HTTP(S) Load Balancing overview</a></li>
+</ul>
+<h2 id="envoy-proxy-service-mesh">Envoy Proxy Service Mesh</h2>
+<ul>
+<li><a href="https://www.envoyproxy.io/">Envoy</a></li>
+<li><a href="https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c">Examining Load Balancing Algorithms with Envoy</a></li>
+<li><a href="https://www.solo.io/blog/why-the-control-plane-matters/">solo.io: Why the control plane matters. Control planes are different than data planes. Separating the control plane from data plane 🌟</a></li>
+<li><a href="https://github.com/jrockway/ekglue">ekglue - Envoy/Kubernetes glue</a> Glue the Kubernetes API to Envoy&rsquo;s xDS APIs</li>
+<li><a href="https://amalaruja.medium.com/basic-http-routing-strategies-with-envoy-376be42559eb">amalaruja.medium.com: Basic HTTP Routing Strategies with Envoy</a></li>
+</ul>
+<h3 id="xds-protocol-envoys-discovery-service-protocol">xDS protocol (Envoy&rsquo;s Discovery Service Protocol)</h3>
+<ul>
+<li><a href="https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol">xDS REST and gRPC protocol</a></li>
+<li>&ldquo;The <a href="https://grpc.io/faq/">gRPC project</a> is adding support for the <strong>xDS protocol</strong>, think Envoy Proxy as a library, which will provide a subset of functionality without an external proxy. 🤯 The best part, xDS based control planes such as Istio, Traffic Director, and Consul Connect should just work.&rdquo; Kelsey Hightower</li>
+</ul>
+<h2 id="istio-service-mesh">Istio Service Mesh</h2>
+<ul>
+<li>
+<p><a href="https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/">Implementing Istio From Start To Finish</a> - <em>(Related to istio topic)</em></p>
+</li>
+<li>
+<p><a href="istio.html">Istio</a></p>
+</li>
+</ul>
+<h2 id="open-service-mesh">Open Service Mesh</h2>
+<ul>
+<li><a href="https://openservicemesh.io/">openservicemesh.io</a></li>
+</ul>
+<h2 id="kourier">Kourier</h2>
+<ul>
+<li><a href="https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress/">Kourier: A lightweight Knative Serving ingress</a></li>
+<li><a href="https://github.com/knative/net-kourier">https://github.com/knative/net-kourier</a> : Kourier is an Ingress for Knative Serving. Kourier is a lightweight alternative for the Istio ingress as its deployment consists only of an Envoy proxy and a control plane for it.</li>
+</ul>
+<h2 id="aws-app-mesh">AWS App Mesh</h2>
+<ul>
+<li><a href="https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6">AWS App Mesh with EKS and Canary deployment</a></li>
+</ul>
+<h2 id="nginx-service-mesh">NGINX Service mesh</h2>
+<h2 id="kubernetes-networking">Kubernetes Networking</h2>
+<ul>
+<li><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li><a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li><a href="https://traefik.io/blog/transition-from-ingress-nginx-to-traefik">Transitioning from ingress-nginx to Traefik in Kubernetes</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li>
+<p><a href="https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/">Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs</a> - <em>(Related to kubernetes-networking topic)</em></p>
+</li>
+<li>
+<p><a href="https://www.nginx.com/blog/introducing-nginx-service-mesh/">nginx.com: Introducing NGINX Service Mesh</a></p>
+</li>
+<li><a href="https://www.nginx.com/blog/mtls-architecture-nginx-service-mesh/">nginx.com: The mTLS Architecture in NGINX Service Mesh</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8338,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

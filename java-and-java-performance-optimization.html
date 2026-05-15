@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/java-and-java-performance-optimization.html">
       
+      
+        <link rel="prev" href="java_frameworks.html">
+      
+      
+        <link rel="next" href="jvm-parameters-matrix-table.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Java Memory Management & Java Performance Optimization - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#java-and-memory-management" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Java Memory Management & Java Performance Optimization
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -403,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +436,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +458,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +480,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +502,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +524,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +546,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +568,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +588,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +609,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +631,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +653,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +675,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -682,11 +693,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1843,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +1996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +2847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +2875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +2981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +3843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +3871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +3978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +4731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +4759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +4881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +4909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +4937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +4965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +4993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +5742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +5770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +5798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5817,8 +5830,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -5850,19 +5865,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" checked>
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="">
             
   
   
@@ -5880,7 +5898,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_22">
             <span class="md-nav__icon md-icon"></span>
             
@@ -5898,7 +5916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +5944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +5972,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6162,17 +6180,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_10" >
         
           
-          <label class="md-nav__link" for="__nav_22_10" id="__nav_22_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_22_10" id="__nav_22_10_label" tabindex="">
             
   
   
@@ -6208,7 +6229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6269,8 +6290,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -6285,18 +6308,21 @@
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_11" >
         
           
-          <label class="md-nav__link" for="__nav_22_11" id="__nav_22_11_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_22_11" id="__nav_22_11_label" tabindex="">
             
   
   
@@ -6314,7 +6340,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_11_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_11_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_22_11">
             <span class="md-nav__icon md-icon"></span>
             
@@ -6332,7 +6358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6357,10 +6383,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java Memory Management & Java Performance Optimization
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -6376,6 +6429,214 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java Performance Optimization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Java Performance Optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-on-kubernetes-java-memory-arguments-for-containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java on Kubernetes. Java Memory Arguments for Containers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmarking modern Java Virtual Machines and the next-generation garbage collectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevant-jvm-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevant JVM Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-jvm-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common JVM Errors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuning-jenkins-gc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tuning Jenkins GC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuning-java-containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tuning Java Containers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging-java-applications-on-openshift-and-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging java applications on OpenShift and Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-of-performance-analysis-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        List of Performance Analysis Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="List of Performance Analysis Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#threadumps-heapdumps-and-gc-analysis-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Threadumps, Heapdumps and GC Analysis Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garbage-collection-and-heap-offloading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garbage Collection and Heap Offloading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-tracing-tools-jdk-flight-recorder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java Tracing Tools. JDK Flight Recorder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cambios-importantes-en-la-gestion-de-memoria-de-java-8-de-oracle-2014" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slides
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -6388,7 +6649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6440,17 +6701,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_12" >
         
           
-          <label class="md-nav__link" for="__nav_22_12" id="__nav_22_12_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_22_12" id="__nav_22_12_label" tabindex="">
             
   
   
@@ -6486,7 +6750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +6993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7842,301 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="java-and-memory-management">Java and Memory Management</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#java-performance-optimization">Java Performance Optimization</a><ol>
+<li><a href="#java-on-kubernetes-java-memory-arguments-for-containers">Java on Kubernetes. Java Memory Arguments for Containers</a></li>
+<li><a href="#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors">Benchmarking modern Java Virtual Machines and the next-generation garbage collectors</a></li>
+<li><a href="#relevant-jvm-metrics">Relevant JVM Metrics</a></li>
+<li><a href="#common-jvm-errors">Common JVM Errors</a></li>
+<li><a href="#tuning-jenkins-gc">Tuning Jenkins GC</a></li>
+<li><a href="#tuning-java-containers">Tuning Java Containers</a></li>
+<li><a href="#debugging-java-applications-on-openshift-and-kubernetes">Debugging java applications on OpenShift and Kubernetes</a></li>
+</ol>
+</li>
+<li><a href="#list-of-performance-analysis-tools">List of Performance Analysis Tools</a><ol>
+<li><a href="#threadumps-heapdumps-and-gc-analysis-tools">Threadumps, Heapdumps and GC Analysis Tools</a></li>
+</ol>
+</li>
+<li><a href="#garbage-collection-and-heap-offloading">Garbage Collection and Heap Offloading</a></li>
+<li><a href="#java-tracing-tools-jdk-flight-recorder">Java Tracing Tools. JDK Flight Recorder</a></li>
+<li><a href="#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014">Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)</a></li>
+<li><a href="#slides">Slides</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html">javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022</a></li>
+<li><a href="https://www.freecodecamp.org/news/learn-the-basics-of-java-programming/">freecodecamp.org: Learn the Basics of Java Programming</a></li>
+<li><a href="https://www.freecodecamp.org/news/object-oriented-programming-in-java/">freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book</a></li>
+</ul>
+<h2 id="java-performance-optimization">Java Performance Optimization</h2>
+<ul>
+<li><a href="https://dzone.com/articles/performance-improvement-in-java-applications-orm-j">DZone: Performance Improvement in Java Applications: ORM/JPA 🌟</a></li>
+<li><a href="https://dzone.com/articles/jvm-architecture-explained">DZone: The JVM Architecture Explained 🌟</a> An overview of the different components of the JVM, along with a very useful diagram</li>
+<li><a href="https://dzone.com/articles/troubleshoot-sudden-cpu-spikes">DZone: How to Troubleshoot Sudden CPU Spikes</a> Your Java application has been running fine, but all of a sudden CPU consumption starts to go higher and higher&hellip; sound familiar?</li>
+<li><a href="https://dzone.com/refcardz/java-caching">DZone refcard: Java Caching</a></li>
+<li><a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟</a> How to use 7 JVM arguments to help increase your application&rsquo;s performance and avoid common memory pitfalls.</li>
+<li><a href="https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u/">developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟</a> Deploy JDK Flight Recorder with JDK Mission Control, a new monitoring and profiling tool that exposes a high level of information without adding a tax on the runtime system</li>
+<li><a href="https://blog.heaphero.io/">blog.heaphero.io: HeapHero - Java &amp; Android Heap Dump Analyzer</a></li>
+<li><a href="https://blog.heaphero.io/2020/10/16/what-is-gc-log-thread-dump-and-heapdump/">blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟</a> Java Virtual Machine (JVM) generates 3 critical #artifacts that are useful for optimizing the performance and troubleshooting production problems. Those artifacts &amp; their differences are explained in this PDF.</li>
+<li><a href="https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing">developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far">developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟</a></li>
+<li><a href="https://github.com/OpenHFT/Java-Thread-Affinity">OpenHFT/Java-Thread-Affinity</a> Bind a java thread to a given core. A library that lets you pin the threads of your Java application to specific CPU cores. Looks like an interesting part of the performance engineering toolbox, e.g. helping to reduce the number of cache misses.</li>
+<li><a href="https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps">dzone.com: Flight Recorder: Examining Java and Kotlin Apps</a> Learn how to use Java&rsquo;s Flight Recorder to profile Java and Kotlin apps and get a close look at JVM internals.</li>
+<li><a href="https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html"><mark>kstefanj.github.io: GC progress from JDK 8 to JDK 17</mark></a> JVM with &lt;5ms GC pauses (ZGC). JDK17 is a huge leap forward in benchmark after benchmark. Upgrade as fast as you can. Amazon’s Corretto builds are available for a huge number of platforms and distribution channels. The JRE disappeared with jdk9: use jlink to assemble exactly the JRE you need.</li>
+<li><a href="https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector"><mark>developers.redhat.com: How to choose the best Java garbage collector</mark></a></li>
+<li><a href="https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail">linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!</a> - <a href="https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html#axzz7e91Wjl6y">original article - javarevisited.blogspot.com</a></li>
+<li><a href="https://vladmihalcea.com/caching-best-practices/">vladmihalcea.com: Caching best practices</a></li>
+<li><a href="https://vladmihalcea.com/14-high-performance-java-persistence-tips/">vladmihalcea.com: 14 High-Performance Java Persistence Tips</a></li>
+<li><a href="https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023">speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea</a></li>
+<li><a href="https://www.freecodecamp.org/news/java-unit-testing/">freecodecamp.org: How to Write Unit Tests in Java</a></li>
+</ul>
+<h3 id="java-on-kubernetes-java-memory-arguments-for-containers">Java on Kubernetes. Java Memory Arguments for Containers</h3>
+<ul>
+<li><a href="https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298">medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟</a></li>
+<li><a href="https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58">tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟</a> Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.</li>
+<li><a href="https://dzone.com/articles/best-practices-java-memory-arguments-for-container">dzone: Best Practices: Java Memory Arguments for Containers 🌟</a> In this article, we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.</li>
+<li><a href="https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43">medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment</a> In this article, you&rsquo;ll discuss JVM warmup issues, high heap memory utilisation and how those affect Java apps deployed in Kubernetes. You&rsquo;ll then learn how to work around them.</li>
+<li><a href="https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6">danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟</a> Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. In this article, you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.</li>
+<li><a href="https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46">medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container</a></li>
+<li><a href="https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6">danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟</a> How to use the Kubernetes memory requests and limits in combination with JVM Heap and stay out of trouble.</li>
+<li><a href="https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64">medium.com/@sharprazor.app: Memory settings for Java process running in Kubernetes pod</a> Managing the memory usage of a Java process running in a Kubernetes pod is more challenging than one might expect. Even with proper JVM memory configurations, OOMKilled issues can still arise and you wonder why.<ul>
+<li>There is no way to guarantee the complete memory bundary of a Java process since the JVM respects only the heap size limit; not non-heap memory, which will depend on various factors. Start with a 75% ratio of heap to non-heap memory, and keep a close watch on how your memory behaves. If things get out of hand, you can tweak your pod’s memory limits or fiddle with the heap-to-non-heapratio to dodge the OOMKilled mishaps.</li>
+</ul>
+</li>
+<li><a href="https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34"><mark>medium.com/codex: Running JVM Applications on Kubernetes: Beyond java -jar</mark></a> <strong>Discover some important tips about running JVM applications in containerized environments orchestrated by Kubernetes.</strong> The article provides essential tips for optimizing JVM applications running on Kubernetes, focusing on ergonomics, memory sizing, CPU overbooking, and HPA configuration</li>
+<li><a href="https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf">lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes</a></li>
+<li><a href="https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff">blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟</a><ul>
+<li>Learn how to debug CPU utilization issues in a Java app using asynchronous programming techniques like CompletableFuture</li>
+<li>Discover how to identify and resolve CPU bottlenecks using JVM arguments and container resource allocation</li>
+<li>Another workaround for this issue was to set the “-XX: ActiveProcessorCount” JVM argument to the number of cores that are allocated to the java container. We found this recommendation in a comment on the openjdk issue tracker. The application team validated this and the central Load Tests were run with this workaround. Post the load tests, the application team upgraded the java version to 17 where these issues were already resolved.</li>
+</ul>
+</li>
+</ul>
+<h3 id="benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors">Benchmarking modern Java Virtual Machines and the next-generation garbage collectors</h3>
+<ul>
+<li><a href="https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1">jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟</a> The Java runtime has been evolving more rapidly in recent years and, after 15 years, we finally got a <strong>new default garbage collector: the G1</strong>. Two more GCs are on their way to production and are available as experimental features: <strong>Oracle&rsquo;s ZGC</strong> and <strong>OpenJDK&rsquo;s Shenandoah</strong>. We at Hazelcast thought it was time to put all these new options to the test and find which choices work well with workloads typical for our distributed stream processing engine, <a href="https://jet-start.sh/">Hazelcast Jet</a>.</li>
+</ul>
+<h3 id="relevant-jvm-metrics">Relevant JVM Metrics</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Details / Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">GC Throughput</td>
+<td style="text-align: left;"><strong>Repeated Full GC happens way before OutOfMemoryError</strong><br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">ref1</a><br/><a href="https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance">ref2</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">etc</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-jvm-errors">Common JVM Errors</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">JVM Error</th>
+<th style="text-align: left;">Details / Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">OutOfMemoryError</td>
+<td style="text-align: left;"><strong>Repeated Full GC happens way before OutOfMemoryError</strong> <br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">ref1</a><br/><a href="https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance">ref2</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">StackOverflowError</td>
+<td style="text-align: left;"><a href="https://blog.fastthread.io/2018/09/24/stackoverflowerror/">ref</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">etc</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="tuning-jenkins-gc">Tuning Jenkins GC</h3>
+<ul>
+<li><a href="https://jenkins.io/blog/2016/11/21/gc-tuning/">jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟</a></li>
+<li><a href="https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.">Running Jenkins on Java 11 🌟</a></li>
+</ul>
+<h3 id="tuning-java-containers">Tuning Java Containers</h3>
+<ul>
+<li><a href="https://blog.openshift.com/scaling-java-containers/">blog.openshift.com: Scaling Java Containers 🌟</a></li>
+<li><a href="https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/">blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift</a></li>
+<li><a href="https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail">dzone.com: Java Inside Docker: What You Must Know to Not FAIL</a> If you&rsquo;ve tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here&rsquo;s how to fix it.</li>
+<li><a href="https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d">itnext.io: How to cold start fast a java service on k8s (EKS)</a></li>
+<li><a href="https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/">blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟</a></li>
+</ul>
+<h3 id="debugging-java-applications-on-openshift-and-kubernetes">Debugging java applications on OpenShift and Kubernetes</h3>
+<ul>
+<li><a href="https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/">blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes</a></li>
+</ul>
+<h2 id="list-of-performance-analysis-tools">List of Performance Analysis Tools</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/List_of_performance_analysis_tools">en.wikipedia.org/wiki/List_of_performance_analysis_tools</a></li>
+<li><a href="https://en.wikipedia.org/wiki/InspectIT">InspectIT</a></li>
+<li><a href="https://en.wikipedia.org/wiki/VisualVM">VisualVM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OverOps">OverOps</a></li>
+<li>etc</li>
+</ul>
+<h3 id="threadumps-heapdumps-and-gc-analysis-tools">Threadumps, Heapdumps and GC Analysis Tools</h3>
+<ul>
+<li><a href="https://geekflare.com/generate-analyze-thread-dumps/">geekflare.com: What is Thread Dump and How to Analyze them? 🌟</a></li>
+<li><a href="https://www.baeldung.com/java-analyze-thread-dumps">baeldung.com: How to Analyze Java Thread Dumps 🌟</a></li>
+<li><a href="https://www.baeldung.com/java-thread-dump">baeldung.com: Capturing a Java Thread Dump</a></li>
+<li><a href="https://tier1app.com/">tier1app.com</a></li>
+<li><a href="https://fastthread.io/">fastthread.io</a></li>
+<li><a href="https://gceasy.io/">gceasy.io</a></li>
+<li><a href="https://heaphero.io/">heaphero.io</a></li>
+</ul>
+<h2 id="garbage-collection-and-heap-offloading">Garbage Collection and Heap Offloading</h2>
+<ul>
+<li><a href="http://ehcache.org/">Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.</a></li>
+<li><a href="https://github.com/serkan-ozal/jillegal">Jillegal OffHeap Module</a></li>
+<li><a href="http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html">Free eGuide: JVM Troubleshooting Guide</a></li>
+<li><a href="http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8/">Cambios importantes en la gestión de memoria de Java 8 de Oracle</a></li>
+<li><a href="http://www.infoq.com/articles/Java-PERMGEN-Removed">PermGen eliminado</a></li>
+<li><a href="http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html">On heap vs off heap memory usage</a></li>
+<li><a href="http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/">How Garbage Collection differs in the three big JVMs</a></li>
+<li><a href="https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag">DZone: Understanding the Java Memory Model and Garbage Collection 🌟</a> In this article we will try to understand the Java memory model and how garbage collection works. In this article I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.</li>
+<li><a href="https://dzone.com/articles/memory-leak-andjava-code">DZone: Memory Leaks and Java Code</a> When you aren&rsquo;t using objects, but they aren&rsquo;t touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.</li>
+<li><a href="https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html">javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)</a></li>
+</ul>
+<h2 id="java-tracing-tools-jdk-flight-recorder">Java Tracing Tools. JDK Flight Recorder</h2>
+<ul>
+<li><a href="https://byteman.jboss.org/">Byteman</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent/">developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java/">developers.redhat.com: Checkpointing Java from outside of Java</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data">developers.redhat.com: A faster way to access JDK Flight Recorder data</a></li>
+<li>Detect JPA and Hibernate performance issues with Hypersistence Optimizer:<ul>
+<li><a href="https://vladmihalcea.com/hypersistence-optimizer">https://vladmihalcea.com/hypersistence-optimizer</a></li>
+<li><a href="https://vladmihalcea.com/tunnel-localhost-public-internet">vladmihalcea.com: How to tunnel localhost to the public Internet</a></li>
+</ul>
+</li>
+<li><a href="https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes/">piotrminkowski.com: Java Flight Recorder on Kubernetes</a></li>
+</ul>
+<h2 id="cambios-importantes-en-la-gestion-de-memoria-de-java-8-de-oracle-2014">Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)</h2>
+<p>PermGen no pertenece al heap y los objetos no son promocionados a esta sección de memoria gestionada durante un GC. Como bien dices es un espacio contiguo al heap, pero también se limpia cada vez que la tenured/old generation procede a un GC. No es una generación separada del mismo modo que es la young generation, y no hay un mecanismo específico para un GC separado de PermGen. La tenured/old generation y la permanent generation proceden a un GC cuando una de las dos se llena.</p>
+<p>De todos modos no me queda claro si incorporaron PermGen dentro del heap en Java 7, aunque poco importa ya con los cambios en Java 8.</p>
+<p>Mejor empiezo por introducir qué implementación de JVM es Java 8 de Oracle. Existen numerosas implementaciones de JVM y cada una utiliza diferentes soluciones para la gestión de memoria.</p>
+<p>Dos de las soluciones más conocidas y populares de JVM han sido HotSpot de Sun (habitual en Tomcat) y JRockit de BEA (Weblogic). Ambas compañias fueron compradas por Oracle y Java 8 viene a ser la integración definitiva de ambas soluciones.</p>
+<p>Históricamente se consideraba que HotSpot es el JVM con mejor rendimiento de las dos, si bien JRockit es valorada como la más escalable.</p>
+<p>Originalmente en HotSpot no había generación permanente. Objetos y clases de JVM se almacenaban juntas. Las clases de ésta JVM eran estáticas y prácticamente no se utilizaban &lsquo;Class Loaders&rsquo; (Load y Unload/Collection de Clases). PermGen surgió como una mejora de rendimiento. Por defecto los datos en la generación permanente no se eliminan nunca (son datos de JVM y no de aplicación, pudiendo variar según la pólítica de garbage collection). Esto podía llenar la generación permanente generando un OutOfMemoryErrors si se producía un elevado número de classloading. En muchos casos un problema con una generación permanente implica reiniciar regularmente la JVM y la aplicación Java.</p>
+<p>Actualmente las clases de JVM son dinámicas y el espacio requerido para metadatos puede cambiar fácilmente.</p>
+<p>A diferencia de HotSpot VM, JRockit carece de generación permanente y en cambio almacena los metadatos &lsquo;off the heap&rsquo; en memoria nativa. Estos buffers de código son liberados constantemente cuando sus ClassLoaders no se utilizan. El problema de OutOfMemory en JRockit no es diferente a HotSpot, excepto por el hecho de ser memoria nativa en lugar de memoria heap. Hay dos diferencias significativas. Primero, en JRockit la limpieza de metadatos está habilitada siempre por defecto y segundo, no hay tamaño límite fijo para el espacio de metadatos. Uno de los principales problemas con HotSpot es su dificultad para seleccionar un tamaño adecuado para la generación permanente. ¿128MB, 256MB? Es muy difícil acertar para cada aplicación. JRockit es dinámico en la gestión de memoria reservada para metadatos y sin límites de tamaño (a excepción de la memoria del sistema). JRockit es también el único JVM con soporte de heaps no contiguos (uso de memoria por encima y por debajo del alojamiento del kernel y otras librerías), importante en el caso de Windows donde su kernel a menudo se ubica en mitad del espacio de direcciones.</p>
+<p>Java 8 (HotRockit?) incorpora todas las herramientas de monitorización de HotSpot (Java VisualVM, jstat, jmap) y JRockit (Java Mission Control, Java Flight Recorder). Muy interesante.</p>
+<p>Un inconveniente de Java 8 es la fragmentación de la memoria nativa para metadatos, pero probablemente incluya compactación en un futuro próximo.</p>
+<p>En el 2016 saldrá Java 9 con la funcionalidad de auto-tuning y soporte de tamaños Heap multi-gigas.</p>
+<p>En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en Java tiene un coste y las pausas/latencias causadas por los Full GC son proporcionales al tamaño del heap. Estas pausas son notables en tamaños de heap &gt; 1Gb, con un considerable impacto en aplicaciones de tiempo real donde un proceso que no responde rápido puede ser descartado del cluster. Aún así, los servidores actuales hacen uso de frameworks muy pesados y fácilmente requieren heaps &gt; 4Gb. Una solución a este problema es alojar fuera del heap los objetos poco utilizados mediante técnicas de serialización/deserialización (caché). El heap de memoria se mantiene pequeño y el Full GC se completa en milisegundos. Ejemplos:</p>
+<ol>
+<li>caché de sesión de usuarios, donde un fichero mapeado en memoria almacena gigabytes de sesiones de usuarios inactivos. Una vez que el usuario hace log-in, la aplicación dispone de todos sus datos sin ser necesaria una consulta a la BBDD.</li>
+<li>caché de resultados computacionales como queries, páginas html, etc (donde el coste computacional es mayor a la deserialización)</li>
+</ol>
+<h2 id="slides">Slides</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<div class="container">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/NpUYrnBQ59fyV6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/feuteston/jvm-internals-2015corkdevio" title="JVM Internals (2015)" target="_blank">JVM Internals (2015)</a> </strong> from <strong><a href="//www.slideshare.net/feuteston" target="_blank">Luiz Fernando Teston</a></strong> </div>
+</div>
+
+</center>
+</details>
+
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> on <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> <a href="https://t.co/MRP0RwJWaG">pic.twitter.com/MRP0RwJWaG</a></p>&mdash; Bruno Borges (@brunoborges) <a href="https://twitter.com/brunoborges/status/1449655747764056073?ref_src=twsrc%5Etfw">October 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Once, I spent 6 months of my adult life as a full time JVM tuner. I was hired to work on data processing pipelines but the job became being a JVM tuning machine.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1461509707479195650?ref_src=twsrc%5Etfw">November 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who knew that a <a href="https://twitter.com/java?ref_src=twsrc%5Etfw">@Java</a> developer as the best job in the UK according to ⁦<a href="https://twitter.com/Glassdoor?ref_src=twsrc%5Etfw">@Glassdoor</a>⁩. Feel lucky to be in the industry! <a href="https://t.co/IIQAmJA95l">pic.twitter.com/IIQAmJA95l</a></p>&mdash; George Adams (@gdams_) <a href="https://twitter.com/gdams_/status/1489296650199830529?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you don&#39;t set a Garbage Collector for your <a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> application, don&#39;t think the JVM will pick a good one for you either, no matter how many CPUs you give.<br><br>2 CPUs? 6 CPUs? It doesn&#39;t matter. If your container has less than 1792 MB and you don&#39;t set a GC, your app will use Serial <a href="https://t.co/06mr9TKkKn">pic.twitter.com/06mr9TKkKn</a></p>&mdash; Bruno Borges 🇧🇷🇺🇦🇨🇦 (@brunoborges) <a href="https://twitter.com/brunoborges/status/1499114848516329472?ref_src=twsrc%5Etfw">March 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8340,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

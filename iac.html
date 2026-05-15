@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/iac.html">
       
+      
+        <link rel="prev" href="grafana.html">
+      
+      
+        <link rel="next" href="terraform.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>IaC Infrastructure as Code - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#infrastructure-provisioning-infra-management-tools-iac-infrastructure-as-code" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              IaC Infrastructure as Code
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -403,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +436,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +458,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +480,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +502,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -509,11 +520,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1843,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +1996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +2847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +2875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +2981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3649,8 +3662,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -3670,19 +3685,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
         
           
-          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
             
   
   
@@ -3700,7 +3718,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3715,10 +3733,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IaC Infrastructure as Code
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="iac.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -3734,6 +3779,120 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-environment-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local Environment as Code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparing-the-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparing the Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infrastructure-as-code-using-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure as Code using Kubernetes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure as Code using Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#config-connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Config Connector
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3746,7 +3905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +3961,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +3989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4017,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +4877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +4905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5195,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +5888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +5916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +5944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +6888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +6985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7737,238 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="infrastructure-provisioning-infra-management-tools-iac-infrastructure-as-code">Infrastructure Provisioning. Infra Management Tools. IaC Infrastructure as Code</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#local-environment-as-code">Local Environment as Code</a></li>
+<li><a href="#comparing-the-tools">Comparing the Tools</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#infrastructure-as-code-using-kubernetes">Infrastructure as Code using Kubernetes</a><ol>
+<li><a href="#config-connector">Config Connector</a></li>
+</ol>
+</li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li>
+<p><a href="https://www.techworld-with-nana.com/post/platform-engineering-guide">Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms</a> - <em>(Related to devops topic)</em></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/">stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds</a> IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).</p>
+</li>
+<li><a href="https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial/">invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices</a></li>
+<li><a href="https://www.agileconnection.com/article/infrastructure-code-foundation-effective-devops">agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps</a></li>
+<li><a href="https://cloudify.co/blog/infrastructure-as-code-is-it-really-enough-for-devops/">cloudify.co: Infrastructure As Code – Is It REALLY Enough For DevOps? IAC DevOps Best Practices 🌟</a></li>
+<li><a href="https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code/">bridgecrew.io: 5 tips for securely adopting infrastructure as code</a></li>
+<li><a href="https://www.redhat.com/architect/pull-push-provisioning-cicd">redhat.com: Pull vs. push in automated VM provisioning: What you need to know</a> Understanding the different techniques for provisioning virtual machines in the CI/CD process is essential for enterprise architects planning deployment automation into their designs.</li>
+<li><a href="https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e">itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables</a></li>
+<li><a href="https://daffodilsw.medium.com/what-is-infrastructure-automation-in-devops-d9681870b07d">daffodilsw.medium.com: What is Infrastructure Automation in DevOps?</a></li>
+<li><a href="https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context/">thenewstack.io: IaC Cloud Misconfiguration Tools too Noisy without Context</a></li>
+<li><a href="https://www.freecodecamp.org/news/what-is-infrastructure-as-code/"><mark>freecodecamp.org: Infrastructure as Code - Full Course</mark> 🌟🌟</a></li>
+<li><a href="https://faun.pub/the-best-infrastructure-as-code-tools-for-2021-b37c323e89f0">faun.pub: The best Infrastructure as Code tools for 2021</a></li>
+<li><a href="https://alpacked.io/blog/infrastructure-as-code-for-devops/"><mark>alpacked.io: Infrastructure as Code in DevOps</mark> 🌟</a> Key driving force of efficient application delivery.</li>
+<li><a href="https://devops.com/updating-and-managing-infrastructure-as-code-iac/">devops.com: Updating and Managing Infrastructure-as-Code (IaC)</a></li>
+<li><a href="https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code/">thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code</a></li>
+<li><a href="https://thenewstack.io/infrastructure-as-code-increase-security-scale-development/">thenewstack.io: Infrastructure-as-Code: Increase Security, Scale Development</a></li>
+<li><a href="https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/"><mark>thenewstack.io: Struggling with IT Staff Leaving? Try Infrastructure as Code</mark> 🌟</a> With IaC, the organization retains critical knowledge of deployment and updates in code repositories, lessening the impact of any one expert leaving</li>
+<li><a href="https://devopscube.com/immutable-infrastructure/">devopscube.com: Immutable Infrastructure Explained For Beginners</a></li>
+<li><a href="https://medium.com/@bunnyshell/how-to-overcome-infrastructure-as-code-iac-challenges-f4947be7cde2">medium.com/@bunnyshell: How to Overcome Infrastructure as Code (IaC) Challenges</a></li>
+<li><a href="https://dzone.com/articles/a-beginners-guide-to-infrastructure-as-code">dzone.com/articles: A Beginner&rsquo;s Guide to Infrastructure as Code 🌟</a> In this article, take an in-depth look at how Infrastructure as Code (IaC) works, its benefits, and common challenges.</li>
+<li><a href="https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html">javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included</a></li>
+<li><a href="https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide/">thenewstack.io: Infrastructure as Code or Cloud Platforms — You Decide!</a></li>
+<li><a href="https://www.infoworld.com/article/3692296/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html">infoworld.com: 5 priorities that cut cloud costs and improve IT ops</a> With infrastructure as code, virtual desktop infrastructure, and a proactive approach to incident management, you can help keep cloud costs reasonable.</li>
+<li><a href="https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd">spacelift.io: Why Generic CI/CD Tools Will Not Deliver Successful IaC</a></li>
+<li><a href="https://matt-rickard.com/infrastructure-as-code-will-be-written-by-ai">matt-rickard.com: Infrastructure as Code Will be Written by AI</a></li>
+<li><a href="https://thenewstack.io/achieve-gitops-on-day-one-with-iac-automation/">thenewstack.io: Achieve GitOps on Day One with IaC Automation</a> GitOps helps redefine how we manage infrastructure and application deployments in environments where precision, automation and transparency are vital.</li>
+<li><a href="https://medium.com/@faisalkuzhan/day-43-90-infrastructure-as-code-iac-5a826258ee4b">medium.com/@faisalkuzhan: DAY_43/90 =&gt; Infrastructure as Code(IaC)</a></li>
+<li><a href="https://build5nines.com/benefits-of-convention-over-configuration-for-iac-deployment-projects/">build5nines.com: Benefits of Convention over Configuration for IaC Deployment Projects</a></li>
+<li><a href="https://levelup.gitconnected.com/short-using-iac-over-clickops-229e919b5373">levelup.gitconnected.com: Short: Using IaC over Clickops</a></li>
+</ul>
+<h2 id="local-environment-as-code">Local Environment as Code</h2>
+<ul>
+<li><a href="https://thenewstack.io/local-environment-as-code-is-it-possible-yet/">thenewstack.io: Local Environment-as-Code: Is It Possible Yet?</a></li>
+</ul>
+<h2 id="comparing-the-tools">Comparing the Tools</h2>
+<ul>
+<li><a href="https://www.clickittech.com/devops/infrastructure-as-code-tools/">clickittech.com: Infrastructure as Code Tools, what are the best IaC tools? 🌟</a></li>
+<li><a href="https://intellipaat.com/blog/terraform-vs-ansible-difference">intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟</a></li>
+<li><a href="https://www.clickittech.com/devops/terraform-vs-cloudformation/">clickittech.com: Terraform vs CloudFormation: The Final battle 🌟</a></li>
+<li><a href="https://k21academy.com/ansible/terraform-vs-ansible">k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟</a></li>
+<li><a href="https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better/">cncf.io: Cloudformation vs. Terraform: Which is better?</a></li>
+<li><a href="https://cloudify.co/blog/ansible-vs-terraform/">cloudify.co: Ansible Vs Terraform 🌟</a></li>
+<li><a href="https://techcommunity.microsoft.com/t5/itops-talk-blog/infrastructure-as-code-iac-comparing-the-tools/ba-p/3205045">techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools</a></li>
+<li><a href="https://spacelift.io/blog/ansible-vs-terraform">spacelift.io: Terraform vs. Ansible : Key Differences and Comparison of Tools</a></li>
+<li><a href="https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together">env0.com: Ansible vs Terraform: Choose One or Use Both?</a></li>
+<li><a href="https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison/">awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://github.com/pulumi/pulumi">Pulumi: Infrastructure as Code in Any Programming Language</a> 🌟 - Pulumi is an open-source Infrastructure as Code (IaC) tool that allows users to define and manage cloud infrastructure using familiar programming languages like Python, JavaScript, TypeScript, Go, C#, and Java. It enables developers to provision and manage resources across various cloud providers and services with the power of general-purpose programming languages, offering benefits like code reuse, testing, and better developer workflows.</li>
+<li><a href="https://t.co/C6uicr7ZPS">Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://t.co/EKsVgKA4xn">IBM IAM for AI Agents</a> - <em>(Related to ai-agents-mcp topic)</em></li>
+<li><a href="https://t.co/UmacHpStqI">Terraform Enterprise 2.0</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://t.co/y414rbxM7l">Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://t.co/5E4FLUyh98">Terraform for Standardizing AWS Deployments</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://github.com/antonbabenko/terraform-skill">Terraform &amp; OpenTofu Skill for AI Agents</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751">Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://cloudcanvas.co/">CloudCanvas - Diagramming for Cloud Infrastructure</a> - <em>(Related to cloud-arch-diagrams topic)</em></li>
+<li><a href="https://github.com/Azure/AZVerify">AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/">Azure Landing Zone IaC Accelerator Release Notes</a> 🌟 - Official release notes for the Azure Landing Zone Infrastructure as Code (IaC) Accelerator, detailing changes, particularly breaking changes that may require user action. It also links to release notes for individual components like PowerShell modules and Terraform/Bicep starter modules, and highlights new features such as a local management group for Azure Local/Sovereign workloads.</li>
+<li><a href="https://markaicode.com/terraform-ai-infrastructure-as-code/">Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://luisadanmunoz.github.io/posts/Automatizaci%C3%B3n-de-Microsoft-Entra-ID-con-Terraform-De-CSV-a-Usuarios-y-RBAC-en-Minutos/">Automating Microsoft Entra ID with Terraform: From CSV to Users and RBAC in Minutes</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition">Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga">Terraform Provider for Google Cloud 7.0 is now GA</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively">AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively</a> - <em>(Related to aws topic)</em></li>
+<li><a href="https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest">Terraform Azure Resource IPAM Module</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform/">Ephemeral Values in Terraform</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://t.co/F244mqpeaR">Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://t.co/mv3tyz1oRt">Announcing Public Preview of Terraform Export from the Azure Portal</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889">Announcing Public Preview of Terraform Export from the Azure Portal</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/">ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API</a> - <em>(Related to kubernetes topic)</em></li>
+<li><a href="https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514">Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure</a> 🌟 - This blog post introduces an updated experience for GitHub Copilot for Azure, simplifying the generation and updating of Infrastructure as Code (IaC) files using Bicep or Terraform. The new release allows users to directly update project details, hosting, services, configurations, and environment variables through a streamlined UI, improving workflow efficiency and reducing errors compared to previous methods relying solely on Copilot Chat.</li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending">Subscription Vending Implementation Guidance</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://github.com/milanm/DevOps-Roadmap">DevOps Roadmap for 2026</a> - <em>(Related to devops topic)</em></li>
+<li><a href="https://github.com/awesome-foss/awesome-sysadmin">Awesome Sysadmin</a> - <em>(Related to devops-tools topic)</em></li>
+<li><a href="https://github.com/antonbabenko/terraform-best-practices">Terraform Best Practices</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions/">Enhanced Local IDE Experience for AWS Step Functions</a> - <em>(Related to aws topic)</em></li>
+<li><a href="https://github.com/HewlettPackard/terraschema">TerraSchema: Generate JSON Schema from Terraform Configurations</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://github.com/techpivot/terraform-module-releaser">Terraform Module Releaser GitHub Action</a> - A GitHub Action designed to automate the versioning, release process, and documentation generation for Terraform modules, particularly useful in monorepo environments.</li>
+<li><a href="https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51">The Maester - Terraform Module</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://azure.github.io/Azure-Landing-Zones/accelerator/">Azure Landing Zone IaC Accelerator</a> 🌟 - The Azure Landing Zone IaC Accelerator provides opinionated modules for deploying and managing Azure landing zone architecture core platform capabilities using Bicep or Terraform. It supports Azure DevOps and GitHub for version control and bootstraps a continuous delivery environment, guiding users through planning, prerequisites, bootstrapping, and running the deployment.</li>
+<li><a href="https://azure.github.io/Azure-Landing-Zones/">Azure Landing Zone Technical Documentation</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027">Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)</a> - <em>(Related to terraform topic)</em></li>
+<li><a href="https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone/">Azure Landing Zone - Microsoft Cloud Adoption Framework</a> - <em>(Related to azure topic)</em></li>
+<li><a href="https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/">The Beginner’s Guide to the Ansible Inventory</a> - <em>(Related to ansible topic)</em></li>
+<li><a href="https://github.com/XtratusCloud/terraform-provider-azureipam">Terraform Provider for Azure IPAM</a> - <em>(Related to terraform topic)</em></li>
+<li>
+<p><a href="https://github.com/aws-samples/well-architected-iac-analyzer/">AWS Well-Architected IaC Analyzer</a> - <em>(Related to aws-architecture topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/Checkmarx/kics"><mark>Checkmarx/kics</mark></a> Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.</p>
+</li>
+<li><a href="https://github.com/gofireflyio/aiac"><mark>gofireflyio/aiac</mark> 🌟</a> <strong>Artificial Intelligence Infrastructure-as-Code Generator.</strong></li>
+<li><a href="https://github.com/gofireflyio/aiac"><mark>github.com/gofireflyio/aiac: AIaC</mark></a> Artificial Intelligence Infrastructure-as-Code Generator.</li>
+</ul>
+<h2 id="infrastructure-as-code-using-kubernetes">Infrastructure as Code using Kubernetes</h2>
+<ul>
+<li><a href="https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/">The Definitive Guide to Importing Your Cloud Resources into IaC</a> 🌟 - This guide provides a comprehensive approach to migrating existing cloud infrastructure, built manually via portals or CLI commands, into an Infrastructure as Code (IaC) format, specifically mentioning Terraform. It highlights the importance of IaC for auditability, security, access control, documentation, and disaster recovery, contrasting it with the limitations of &lsquo;clickOps&rsquo;.</li>
+<li><a href="https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/">How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn&rsquo;t Enough</a> - <em>(Related to kubernetes-operators-controllers topic)</em></li>
+<li><a href="https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/">The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece</a> 🌟 - This article discusses how the increasing pace of feature development in DevOps often strains infrastructure teams, creating a bottleneck. It argues that Infrastructure as Code (IaC) orchestration is crucial for scaling DevOps practices effectively and preventing team burnout, moving beyond just automation to true orchestration.</li>
+<li>
+<p><a href="https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options">Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options</a> - <em>(Related to azure topic)</em></p>
+</li>
+<li>
+<p><a href="https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6">medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure (IaC)</a> “Declaring the Kubes”</p>
+</li>
+</ul>
+<h3 id="config-connector">Config Connector</h3>
+<ul>
+<li><a href="https://cloud.google.com/config-connector/docs/overview"><mark>cloud.google.com/config-connector</mark></a> Config Connector is an open source Kubernetes addon that allows you to manage Google Cloud resources through Kubernetes.</li>
+<li><a href="https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517">medium.com/globant: Infrastructure as Code using Kubernetes</a><ul>
+<li>Config Connector (KCC) is a solution to maintain Cloud Resources as Infrastructure as Code. It is built as an Open Source initiative and runs on Kubernetes clusters. As such, it leverages YAML files to maintain and operate such resources.</li>
+<li>Config Connector has two versions: an Add-On for Google Kubernetes Engine (GKE) clusters and a manual installation for other Kubernetes distributions.</li>
+</ul>
+</li>
+</ul>
+<h2 id="videos">Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=--RRpw_6onA">youtube: Mitchell Hashimoto: The Inside Story of HashiCorp&rsquo;s IaC Journey | The IaC Podcast</a></li>
+</ul>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/POPP2WTJ8es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EIOuIwKS0P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/--RRpw_6onA?si=UNaIShD8z-_ZLCwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</center>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Jeez, people in my timeline arguing about the merits of CDK vs. Pulumi and I&#39;m just waiting for you all to get on my level. <a href="https://t.co/S3PU7FGuw2">pic.twitter.com/S3PU7FGuw2</a></p>&mdash; Corey Quinn (@QuinnyPig) <a href="https://twitter.com/QuinnyPig/status/1470810573298274307?ref_src=twsrc%5Etfw">December 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you use the AWS, GCP, or Azure web consoles beyond getting started with a new cloud provider? If so, why not an automation tool such as Terraform or Cloud Formation? <a href="https://t.co/5LIZSTcNpG">pic.twitter.com/5LIZSTcNpG</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1483820927402004484?ref_src=twsrc%5Etfw">January 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+<ul>
+<li><a href="https://medium.com/@nidhibansal26/iac-and-openshift-virtualization-handshake-c0a4ada79af5">IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP)</a> 🌟 - Explora la integración de Infraestructura como Código (IaC) con Terraform para gestionar Máquinas Virtuales (VMs) en OpenShift Virtualization, demostrando un &lsquo;handshake&rsquo; efectivo entre ambas tecnologías.</li>
+<li><a href="https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706">Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization</a> - <em>(Related to finops topic)</em></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8172,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-troubleshooting.html">
       
+      
+        <link rel="prev" href="managed-kubernetes-in-public-cloud.html">
+      
+      
+        <link rel="next" href="kubernetes-releases.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Troubleshooting - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kubernetes-troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Kubernetes Troubleshooting
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -399,11 +410,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +438,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +460,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +482,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +504,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +526,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1746,8 +1759,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1795,19 +1810,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -1825,7 +1843,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1843,7 +1861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2232,10 +2250,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2251,6 +2296,318 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-network-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Network Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exit-codes-in-containers-and-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exit Codes in Containers and Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagepullbackoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ImagePullBackOff
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crashloopbackoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CrashLoopBackOff
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failed-to-create-pod-sandbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failed to Create Pod Sandbox
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminated-with-exit-code-1-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminated with exit code 1 error
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pod-in-terminating-or-unknown-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pod in Terminating or Unknown Status
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oom-kills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OOM Kills
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pause-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pause Container
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preempted-pod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preempted Pod
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evited-pods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evited Pods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stuck-namespace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stuck Namespace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-pvc-data-without-the-pod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access PVC Data without the POD
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coredns-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CoreDNS issues
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-techniques-and-strategies-debugging-with-ephemeral-containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging Techniques and Strategies. Debugging with ephemeral containers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#komodor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Komodor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#palaemon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Palaemon
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cdebug-and-debug-ctr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        cdebug and debug-ctr
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubectl-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        kubectl-debug
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubeshark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubeshark
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slides
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2263,7 +2620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +3079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +3107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +3135,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +3163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +3191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +3219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +3325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +4075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +4103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +4131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +4159,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +4187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +5047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +5075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +5103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5961,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +6058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +6086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +6114,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +6142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +7030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +7058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +7086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7935,371 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="kubernetes-troubleshooting">Kubernetes Troubleshooting</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#kubernetes-events">Kubernetes Events</a></li>
+<li><a href="#kubernetes-network-troubleshooting">Kubernetes Network Troubleshooting</a></li>
+<li><a href="#exit-codes-in-containers-and-kubernetes">Exit Codes in Containers and Kubernetes</a></li>
+<li><a href="#imagepullbackoff">ImagePullBackOff</a></li>
+<li><a href="#crashloopbackoff">CrashLoopBackOff</a></li>
+<li><a href="#failed-to-create-pod-sandbox">Failed to Create Pod Sandbox</a></li>
+<li><a href="#terminated-with-exit-code-1-error">Terminated with exit code 1 error</a></li>
+<li><a href="#pod-in-terminating-or-unknown-status">Pod in Terminating or Unknown Status</a></li>
+<li><a href="#oom-kills">OOM Kills</a></li>
+<li><a href="#pause-container">Pause Container</a></li>
+<li><a href="#preempted-pod">Preempted Pod</a></li>
+<li><a href="#evited-pods">Evited Pods</a></li>
+<li><a href="#stuck-namespace">Stuck Namespace</a></li>
+<li><a href="#access-pvc-data-without-the-pod">Access PVC Data without the POD</a></li>
+<li><a href="#coredns-issues">CoreDNS issues</a></li>
+<li><a href="#debugging-techniques-and-strategies-debugging-with-ephemeral-containers">Debugging Techniques and Strategies. Debugging with ephemeral containers</a></li>
+<li><a href="#troubleshooting-tools">Troubleshooting Tools</a><ol>
+<li><a href="#komodor">Komodor</a></li>
+<li><a href="#palaemon">Palaemon</a></li>
+<li><a href="#cdebug-and-debug-ctr">cdebug and debug-ctr</a></li>
+<li><a href="#kubectl-debug">kubectl-debug</a></li>
+<li><a href="#kubeshark">Kubeshark</a></li>
+</ol>
+</li>
+<li><a href="#slides">Slides</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://learnk8s.io/troubleshooting-deployments"><mark>learnk8s.io: A visual guide on troubleshooting Kubernetes deployments</mark> 🌟</a></li>
+<li><a href="https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24">medium: 5 tips for troubleshooting apps on Kubernetes</a></li>
+<li><a href="https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html">managedkube.com: Troubleshooting a Kubernetes ingress</a></li>
+<li><a href="https://veducate.co.uk/kubernetes-pvc-terminating/">veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status “Terminating”</a></li>
+<li><a href="https://thenewstack.io/5-best-practices-to-back-up-kubernetes/">thenewstack.io: 5 Best Practices to Back up Kubernetes</a></li>
+<li><a href="https://tennexas.com/kubernetes-troubleshooting-examples/">tennexas.com: Kubernetes Troubleshooting Examples</a></li>
+<li><a href="https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24">levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes</a></li>
+<li><a href="https://medium.com/nerd-for-tech/common-kubernetes-errors-made-by-beginners-274b50e18a01">medium: Common Kubernetes Errors Made by Beginners [2021] 🌟</a></li>
+<li><a href="https://cloud.redhat.com/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2">cloud.redhat.com: Troubleshooting Sandboxed Containers Operator</a></li>
+<li><a href="https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes/">andydote.co.uk: The Problem with CPUs and Kubernetes</a></li>
+<li><a href="https://medium.com/@moshe.beladev.mb/better-debugging-environment-for-your-micro-services-9420a71b8a37">medium: Better Debugging Environment for your Micro-Services</a></li>
+<li><a href="https://thenewstack.io/6-kubernetes-best-practices-to-empower-devs-to-troubleshoot/">thenewstack.io: 6 Kubernetes Best Practices to Empower Devs to Troubleshoot</a></li>
+<li><a href="https://www.youtube.com/watch?v=93RlMqO4glM&amp;t=6s&amp;ab_channel=Kubevious">youtube: 3 Ways to Detect Evil &ldquo;Latest&rdquo; Image Tags in Kubernetes - Kubevious</a> The &ldquo;latest&rdquo; image tag is a disaster waiting to happen. In this video, you will learn how to detect usage of the latest images using 3 different methods.</li>
+<li><a href="https://thenewstack.io/living-with-kubernetes-debug-clusters-in-8-commands/">thenewstack.io: Living with Kubernetes: Debug Clusters in 8 Commands 🌟</a></li>
+<li><a href="http://web.archive.org/web/20220309105258/https://dzone.com/articles/the-three-pillars-of-kubernetes-troubleshooting">dzone.com: The Three Pillars of Kubernetes Troubleshooting 🌟 [ARCHIVED]</a> Diving into how the three pillars of understanding, managing and preventing for Kubernetes troubleshooting, and how it helps to conceive of what’s needed to be able to properly troubleshoot real-world Kubernetes stacks that are the hallmark of complex, distributed systems.</li>
+<li><a href="https://www.freecodecamp.org/news/how-to-simplify-kubernetes-troubleshooting/">freecodecamp.org: How to Simplify Kubernetes Troubleshooting</a></li>
+<li><a href="https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad"><mark>itnext.io: Distroless Container Debugging on K8s/OpenShift</mark></a><ul>
+<li>When people focusing more on the security of containers, distroless based images are frequently used to reduce the attack surface. In these images, the package manager, the non-dependent modules or libraries, even the shells are stripped off, only the app and its required dependencies are kept. For the statically linked executable, produced by golang for example, we can even use “scratch” as the base.</li>
+<li>The potential exploit of vulnerability is therefore greatly reduced. But, on the other hand, it is difficult to troubleshoot the application if even the shell is not available, leaving only the logs from the app.</li>
+<li>In this paper, we will explore different options to facilitate debugging by bringing back the shell.</li>
+</ul>
+</li>
+<li><a href="https://speakerdeck.com/mhausenblas/kubecologne-keynote-troubleshooting-kubernetes-apps"><mark>speakerdeck.com/mhausenblas (redhat): Troubleshooting Kubernetes apps</mark></a></li>
+<li><a href="https://medium.com/@andrewachraf/detect-crashes-in-your-cluster-using-kwatch-an-slack-84b979e93e03">medium.com/@andrewachraf: Detect crashes in your Kubernetes cluster using kwatch and Slack 🌟</a> Monitor all changes in your Kubernetes(K8s) cluster &amp; detects crashes in your running apps in real time</li>
+<li><a href="https://research.nccgroup.com/2021/11/10/detection-engineering-for-kubernetes-clusters/"><mark>research.nccgroup.com: Detection Engineering for Kubernetes clusters</mark></a> In this article you will learn how to detect anomalies in your cluster using Kubernetes Audit logs and Anomalies Detection Engineering.</li>
+<li><a href="https://pauldally.medium.com/debugging-networkpolicy-part-1-249921cdba37">pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 1)</a><ul>
+<li><a href="https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c">pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)</a></li>
+</ul>
+</li>
+<li><a href="https://medium.com/geekculture/common-pod-errors-in-kubernetes-to-watch-out-for-d808737f4ade">medium.com/geekculture: Common Pod Errors in Kubernetes to Watch Out For</a></li>
+<li><a href="https://faun.pub/debugging-networkpolicy-part-1-249921cdba37"><mark>faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1)</mark></a> For something as important as NetworkPolicy, debugging is surprisingly painful. In this article you will learn a few practical tips on how to debug your network policies<ul>
+<li><a href="https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c"><mark>pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)</mark></a></li>
+</ul>
+</li>
+<li><a href="https://tratnayake.dev/oncall-adventures-prometheus-filled-disk">tratnayake.dev: Oncall Adventures - When your Prometheus-Server mounted to GCE Persistent Disk on K8s is Full</a> In this article, you will follow Thilina&rsquo;s journey on debugging a failing Prometheus server on Kubernetes. The story starts with a wake-up call at 3.30 am 😅</li>
+<li><a href="https://sysdig.com/blog/kubernetes-pod-pending-problems/"><mark>sysdig.com: Understanding Kubernetes pod pending problems</mark></a></li>
+<li><a href="https://blog.alexellis.io/troubleshooting-on-kubernetes/"><mark>blog.alexellis.io: How to Troubleshoot Applications on Kubernetes</mark> 🌟</a> In this article, you will learn a practical framework to troubleshoot applications deployed on Kubernetes:<ul>
+<li>Is it there?</li>
+<li>Why isn&rsquo;t it working?</li>
+<li>It starts, but doesn&rsquo;t work</li>
+<li>There are too many pods!</li>
+<li>But can you <code>curl</code> it?</li>
+</ul>
+</li>
+<li><a href="https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513">blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob</a> Walkthrough tools &amp; configs &amp; knowledge used in Kubernetes cronjob/deployment debug. In this article, you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more.</li>
+<li><a href="https://saiteja313.medium.com/tracing-dns-issues-in-kubernetes-28b38f782103">saiteja313.medium.com: Tracing DNS issues in Kubernetes</a></li>
+<li><a href="https://medium.com/@jasonmfehr/kubernetes-informers-opening-the-mystery-box-4cd690a43a4">medium.com/@jasonmfehr: Kubernetes Informers: Opening the Mystery Box</a> In this article, you will learn how the team at Cloudera found a performance issue with Kubernetes informers and how they managed to rectify the issue</li>
+<li><a href="https://maxilect-company.medium.com/graceful-shutdown-in-a-cloud-environment-the-example-of-kubernetes-spring-boot-f922b41adaa0">maxilect-company.medium.com: Graceful shutdown in a cloud environment (the example of Kubernetes + Spring Boot) 🌟</a> In this article, you&rsquo;ll learn why it is crucial to think about graceful shutdown in Kubernetes and how you can approach this task. Many people think about starting an application in the cloud but rarely pay attention to how it ends. Once, we caught quite a few errors explicitly related to pods stopping. For example, we saw that Kubernetes occasionally kills our application before it releases resources, although it seems that this should not happen. It was impossible to reproduce the problem immediately, and we wondered what was happening under the hood?</li>
+<li><a href="https://martinheinz.dev/blog/85">martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API</a> Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let&rsquo;s take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.</li>
+<li><a href="https://madeeshafernando.medium.com/capturing-heap-dumps-of-stateless-kubernetes-pods-before-container-termination-and-export-to-aws-s3-9602378ee60b">madeeshafernando.medium.com: Capturing Heap Dumps of stateless Kubernetes pods before container termination and export to AWS S3</a></li>
+<li><a href="https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3">faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)</a> In this article, you will follow Stephen&rsquo;s journey to identifying the root cause for cluster nodes running out of space on the Aliyun cloud</li>
+<li><a href="https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters/">thenewstack.io: What David Flanagan Learned Fixing Kubernetes Clusters</a> David Flanagan has fixed 50+ Kubernetes clusters as part of his YouTube series, &lsquo;Klustered.&rsquo; He shared what he learned at Civo Navigate.</li>
+<li><a href="https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf"><mark>github.com/metaleapca: metaleap-k8s-troubleshooting.pdf</mark> 🌟🌟🌟</a></li>
+<li><a href="https://nicolasbarlatier.hashnode.dev/net-core-tip-2-how-to-troubleshoot-memory-leaks-within-a-net-console-application-running-in-a-linux-docker-container-in-kubernetes">nicolasbarlatier.hashnode.dev: .NET Core Tip 2: How to troubleshoot Memory Leaks within a .NET Console application running in a Linux Docker Container in Kubernetes</a> In this step-by-step guide, you will learn how to troubleshoot a memory leak in a .Net Core application running within a Kubernetes cluster.</li>
+<li><a href="https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513">blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob</a> Walkthrough tools &amp; configs &amp; knowledge used in Kubernetes cronjob/deployment debug. In this article, you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more</li>
+<li><a href="https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges"><mark>dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges</mark></a> Bugs are inevitable and typically occur as a result of an error or oversight. Learn five Kubernetes debugging challenges and how to tackle them.</li>
+<li><a href="https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba">levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟</a> <strong>The <code>/proc</code> directory is a special directory that holds all the details about our Linux system, such as — kernel, processes, and configuration parameters. In this article, you will learn how to explore the directory in a Kubernetes cluster</strong></li>
+<li><a href="https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html">learnitguide.net: How To Troubleshoot Kubernetes Pods</a></li>
+<li><a href="https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html">learnitguide.net: How to Check Memory Usage of a Pod in Kubernetes?</a></li>
+<li><a href="https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316">alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes</a> In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve</li>
+<li><a href="https://thenewstack.io/kubernetes-troubleshooting-primer/">thenewstack.io: Kubernetes Troubleshooting Primer</a> A quick methodology for overcoming common error messages with examples of commands to help — useful for both the administrator and developer alike.</li>
+<li><a href="https://www.devzero.io/blog/kubernetes-debugging-tips">devzero.io: Kubernetes Debugging Tips</a></li>
+<li><a href="https://vik-y.medium.com/an-easier-way-to-auto-remediate-memory-leaks-on-kubernetes-a922457674f4">vik-y.medium.com: An easier way to auto-remediate memory leaks on Kubernetes!</a></li>
+<li><a href="https://medium.com/@yusufkaratoprak/advanced-troubleshooting-techniques-in-kubernetes-pods-24ee0cebfa6f">medium.com/@yusufkaratoprak: Advanced Troubleshooting Techniques in Kubernetes Pods</a></li>
+</ul>
+<h2 id="kubernetes-events">Kubernetes Events</h2>
+<ul>
+<li>
+<p><a href="https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&amp;utm_medium=member_android&amp;utm_campaign=share_via">CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions</a> 🌟 - This article provides an in-depth explanation of how CPU limits in Kubernetes function, detailing the underlying mechanisms involving the Linux Kernel and cgroups v2. It addresses the common issue of pods being throttled even when idle, exploring the complex interactions between Kubernetes, container runtimes, and the host operating system to shed light on performance impacts.</p>
+</li>
+<li>
+<p><a href="https://banzaicloud.com/blog/k8s-cluster-logging/">Understanding Kubernetes cluster events</a></p>
+</li>
+<li><a href="https://www.groundcover.com/blog/k8s-container-events">groundcover.com: Failure Is an Option: How to Stay on Top of K8s Container Events</a> Gain a deep understanding of how Kubernetes tracks container and Pod status, how it reports error information and how you can collect all of the above in an efficient way</li>
+<li><a href="https://decisivedevops.com/kubernetes-events-news-feed-of-your-kubernetes-cluster-826e08892d7a/">decisivedevops.com: Kubernetes Events — News feed of your cluster</a> Understand Kubernetes Events and learn to use kubectl events to monitor and troubleshoot your cluster’s issues effectively.</li>
+</ul>
+<h2 id="kubernetes-network-troubleshooting">Kubernetes Network Troubleshooting</h2>
+<ul>
+<li><a href="https://hwchiu.medium.com/kubernetes-network-troubleshooting-approach-701de9463493"><mark>hwchiu.medium.com: Kubernetes Network Troubleshooting Approach</mark> 🌟</a></li>
+<li><a href="https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2">itnext.io: Tracing Pod2Pod Network Traffic in Kubernetes | Daniele Polencic</a></li>
+</ul>
+<h2 id="exit-codes-in-containers-and-kubernetes">Exit Codes in Containers and Kubernetes</h2>
+<ul>
+<li><a href="https://komodor.com/learn/exit-codes-in-containers-and-kubernetes-the-complete-guide/"><mark>komodor.com: Exit Codes In Containers &amp; Kubernetes – The Complete Guide</mark>  🌟</a> In this article, you will learn everything there is to know about exit codes used by container engines to indicate reasons for container termination.</li>
+</ul>
+<h2 id="imagepullbackoff">ImagePullBackOff</h2>
+<ul>
+<li>
+<p><a href="https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/">10 Real-World Kubernetes Troubleshooting Scenarios and Solutions</a> 🌟 - This article provides practical, hands-on solutions for common Kubernetes production issues. It details 10 real-world scenarios, including ImagePullBackOff due to private registry authentication failure, and offers exact kubectl commands and steps for diagnosis and resolution. It also touches upon cloud-managed Kubernetes solutions and IAM roles for registry authentication.</p>
+</li>
+<li>
+<p><a href="https://blog.ediri.io/kubernetes-imagepullbackoff">blog.ediri.io: Kubernetes: ImagePullBackOff!</a> How to keep your calm and fix this like a pro!</p>
+</li>
+</ul>
+<h2 id="crashloopbackoff">CrashLoopBackOff</h2>
+<ul>
+<li><a href="https://medium.com/tailwinds-navigator/kubernetes-tip-how-to-disambiguate-a-pod-crash-to-application-or-to-kubernetes-platform-f6c1395a8d09">medium.com: Kubernetes Tip: How To Disambiguate A Pod Crash To Application Or To Kubernetes Platform? (CrashLoopBackOff)</a></li>
+<li><a href="https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod/">devtron.ai: Troubleshoot: Pod Crashloopbackoff</a></li>
+<li><a href="https://erkanerol.github.io/post/restartable-pods/">erkanerol.github.io: I wish pods were fully restartable</a> Why are Pod not fully restartable in Kubernetes? Why is Kubernetes not restarting the Pod in <strong>CrashLoopBackOff</strong>?</li>
+<li><a href="https://pauldally.medium.com/why-leaving-pods-in-crashloopbackoff-can-have-a-bigger-impact-than-you-might-think-c0d3dbd067a">pauldally.medium.com: Why Leaving Pods in CrashLoopBackOff Can Have a Bigger Impact Than You Might Think</a></li>
+<li><a href="https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/">sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it 🌟</a> CrashLoopBackOff is a Kubernetes state representing a restart loop that is happening in a Pod: a container in the Pod is started but crashes and is then restarted over and over again. Learn what it is and how to fix it in this article</li>
+<li><a href="https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error">komodor.com: Kubernetes CrashLoopBackOff Error: What It Is and How to Fix It</a></li>
+</ul>
+<h2 id="failed-to-create-pod-sandbox">Failed to Create Pod Sandbox</h2>
+<h2 id="terminated-with-exit-code-1-error">Terminated with exit code 1 error</h2>
+<h2 id="pod-in-terminating-or-unknown-status">Pod in Terminating or Unknown Status</h2>
+<ul>
+<li><a href="https://tonylixu.medium.com/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8">tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status</a> K8s Troubleshooting handbook</li>
+<li><a href="https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8">blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status</a></li>
+</ul>
+<h2 id="oom-kills">OOM Kills</h2>
+<ul>
+<li>
+<p><a href="https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html/">OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks</a> 🌟 - This article explains the &lsquo;OOMKilled&rsquo; status in Kubernetes, detailing how the Linux kernel&rsquo;s Out-Of-Memory (OOM) Killer terminates pods when memory limits are exceeded. It covers common triggers such as incorrect resource limits, application memory leaks, traffic spikes, and resource competition among containers. The content also delves into the OOM Killer&rsquo;s scoring mechanism and provides insights into identifying and resolving these issues to prevent production environment disruptions.</p>
+</li>
+<li>
+<p><a href="https://medium.com/@reefland/tracking-down-invisible-oom-kills-in-kubernetes-192a3de33a60">medium.com/@reefland: Tracking Down “Invisible” OOM Kills in Kubernetes</a> An “Invisible” OOM Kill happens when a child process in a container is killed, not the init process. It is “invisible” to Kubernetes and not detected. What is OOM? well.. not a good thing.</p>
+</li>
+<li><a href="https://baykara.medium.com/a-gentle-inspection-of-oomkilled-in-kubernetes-4b4124cd23a8">baykara.medium.com: A Gentle Inspection of OOMKilled in Kubernetes</a> Quality of Service in Kubernetes</li>
+<li><a href="https://cloudyuga.guru/hands_on_lab/k8s-qos-oomkilled">cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?</a> This article discusses how to handle OOMKilled errors and how to configure Pod QoS to avoid them</li>
+<li><a href="https://sysdig.com/blog/troubleshoot-kubernetes-oom/">sysdig.com: Kubernetes OOM and CPU Throttling</a> Troubleshooting Memory and CPU problems. Do you know how memory and CPU usage can affect your cloud applications? In this article, you will discuss Out of Memory (OOM) and Throttling in Kubernetes.</li>
+<li><a href="https://medium.com/@bm54cloud/stressing-a-kubernetes-pod-to-induce-an-oomkilled-error-96f3be9c931d">medium.com/@bm54cloud: Stressing a Kubernetes Pod to Induce an OOMKilled Error</a> Learn about memory requests and limits, and what happens when those limits are exceeded</li>
+<li><a href="https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9">itnext.io: Kubernetes Silent Pod Killer</a> Tracking down invisible OOM Kills in Kubernetes<ul>
+<li>This article delves into the issue of &ldquo;Invisible OOM Kills&rdquo; in Kubernetes, where child processes getting OOM Killed go unnoticed.</li>
+<li>An “Invisible” OOM Kill occurs when a child process in a container ( any process which is not the main process, PID 1 ) gets OOM Killed. In that scenario, the OOM Kill that occurred is “invisible” to Kubernetes, and as users we wouldn’t be aware of it.</li>
+<li>The Solution: The entire scenario changes with Kubernetes version 1.28. Starting from that version, Kubernetes enables, by default, a cgroup v2 feature known as “cgroup grouping.”</li>
+</ul>
+</li>
+</ul>
+<h2 id="pause-container">Pause Container</h2>
+<ul>
+<li><a href="https://blog.devgenius.io/k8s-pause-container-f7abd1e9b488">blog.devgenius.io: K8s — pause container</a> Why we have pause container in K8s pod?</li>
+</ul>
+<h2 id="preempted-pod">Preempted Pod</h2>
+<ul>
+<li><a href="https://blog.kumomind.com/what-you-need-to-know-to-debug-a-preempted-pod-on-kubernetes">blog.kumomind.com: What You Need To Know To Debug A Preempted Pod On Kubernetes</a> The purpose of this post is to share some thoughts on the management of a Kubernetes platform in production. The idea is to focus on a major problem that many beginners encounter: the management of preempted pods.</li>
+</ul>
+<h2 id="evited-pods">Evited Pods</h2>
+<ul>
+<li><a href="https://sysdig.com/blog/kubernetes-pod-evicted/">sysdig.com: Understanding Kubernetes Evicted Pods</a> What does it mean that Kubernetes Pods are evicted? They are terminated, usually due to a lack of resources. But why does this happen?</li>
+</ul>
+<h2 id="stuck-namespace">Stuck Namespace</h2>
+<ul>
+<li><a href="https://blog.ediri.io/how-to-remove-a-stuck-namespace">blog.ediri.io: How to remove a stuck namespace</a> With the help of the Kubernetes API</li>
+<li><a href="https://medium.com/@it-craftsman/how-to-fix-kubernetes-namespaces-stuck-in-terminating-state-ea46c5fff045">medium.com/@it-craftsman: How to fix Kubernetes namespaces stuck in terminating state</a></li>
+</ul>
+<h2 id="access-pvc-data-without-the-pod">Access PVC Data without the POD</h2>
+<ul>
+<li><a href="https://medium.com/@reefland/access-pvc-data-without-the-pod-troubleshooting-kubernetes-b28bfdd7502">medium.com/@reefland: Access PVC Data without the POD; troubleshooting Kubernetes.</a> I recently had a situation where Prometheus was stuck in a crash loop and unable to start. The solution is to delete a file within the Persistent Volume Claim (PVC). Seemed simple enough, however with the pod in a crash loop the PVC was not mounted within the Prometheus container. How can I deleted the file?</li>
+</ul>
+<h2 id="coredns-issues">CoreDNS issues</h2>
+<ul>
+<li><a href="https://medium.com/geekculture/k8s-troubleshooting-how-to-debug-coredns-issues-724e8b973cfc">medium.com/geekculture: K8s Troubleshooting — How to Debug CoreDNS Issues</a></li>
+</ul>
+<h2 id="debugging-techniques-and-strategies-debugging-with-ephemeral-containers">Debugging Techniques and Strategies. Debugging with ephemeral containers</h2>
+<ul>
+<li><a href="https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis">The Hidden CPU Throttling Crisis in Kubernetes Clusters</a> 🌟 - This article explains how Kubernetes CPU throttling, governed by the Linux kernel&rsquo;s CFS scheduler with a 100ms time slice, can silently degrade application performance even when resource usage appears low. It highlights the disconnect between Kubernetes limits and typical monitoring timescales, leading to unexpected slowdowns and impacting user experience.</li>
+<li><a href="https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide/">Kubernetes Troubleshooting: A Step-by-Step Guide</a> 🌟 - A comprehensive, step-by-step guide to effectively troubleshoot issues within a Kubernetes environment. This resource likely covers common problems, diagnostic tools, and methodologies for resolving them.</li>
+<li><a href="https://github.com/dastergon/awesome-chaos-engineering">Awesome Chaos Engineering</a> - <em>(Related to chaos-engineering topic)</em></li>
+<li>
+<p><a href="https://autodotes.com/posts/s90PP9397WYTsAWaRapd">Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions</a> 🌟 - A comprehensive guide to common Kubernetes troubleshooting scenarios, offering practical advice and solutions for developers and operators facing issues with pods, deployments, services, and networking.</p>
+</li>
+<li>
+<p><a href="https://github.com/aylei/kubectl-debug">kubectl-debug</a></p>
+</li>
+<li><a href="https://loft.sh/blog/using-kubernetes-ephemeral-containers-for-troubleshooting/"><mark>loft.sh: Using Kubernetes Ephemeral Containers for Troubleshooting</mark></a></li>
+<li><a href="https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/">How to quarantine pods</a></li>
+<li><a href="https://github.com/nvucinic/kdbg">KDBG: Small Kubernetes debugging container</a> KDBG (Kubernetes Debuger) is a small docker container based on lastest Alpine Linux image, used for debugging Kubernetes clusters from inside a pod.</li>
+<li><a href="https://github.com/kinvolk/inspektor-gadget">inspektor-gadget</a> Collection of gadgets for debugging and introspecting Kubernetes applications using BPF<ul>
+<li><a href="https://kinvolk.io">kinvolk.io</a></li>
+</ul>
+</li>
+<li><a href="https://learnk8s.io/troubleshooting-deployments">learnk8s.io: A visual guide on troubleshooting Kubernetes deployments</a></li>
+<li><a href="https://github.com/similarweb/statusbay">StatusBay</a> is a tool that provides the missing visibility into the K8S deployment process. The main goal is to ease the experience of troubleshooting and debugging services in K8S and provide confidence while making changes.</li>
+<li><a href="https://medium.com/@moshe.beladev.mb/better-debugging-environment-for-your-micro-services-9420a71b8a37">medium: Better Debugging Environment for your Micro-Services</a></li>
+<li><a href="https://codefresh.io/kubernetes-tutorial/telepresence-2-local-development/">codefresh.io: Using Telepresence 2 for Kubernetes debugging and local development</a></li>
+<li><a href="https://towardsdatascience.com/the-easiest-way-to-debug-kubernetes-workloads-ff2ff5e3cc75">towardsdatascience.com: The Easiest Way to Debug Kubernetes Workloads</a> The fastest and easiest way to debug and troubleshoot any application running on Kubernetes</li>
+<li><a href="https://www.tetrate.io/blog/how-to-debug-microservices-in-kubernetes-with-proxy-sidecar-or-service-mesh">tetrate.io: How to debug microservices in Kubernetes with proxy, sidecar or service mesh?</a></li>
+<li><a href="https://www.rookout.com/blog/kubernetes-application-debugging">rookout.com: The Definitive Guide To Kubernetes Application Debugging</a></li>
+<li><a href="https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/">thorsten-hans.com: Debugging apps in Kubernetes with Bridge</a> Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro">marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro">marketplace.visualstudio.com: Bridge to Kubernetes (Visual Studio)</a> Bridge to Kubernetes for Visual Studio 2019</li>
+</ul>
+</li>
+<li><a href="https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads/"><mark>thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads</mark> 🌟</a> <strong>Kubernetes can&rsquo;t fix broken code. But if your container won&rsquo;t start or the app gets intermittent errors, here&rsquo;s how you can start debugging it. Most of the commands presented in the article will use kubectl or plugins which you can install via krew.</strong></li>
+<li><a href="https://opensource.googleblog.com/2022/01/Introducing%20Ephemeral%20Containers.html"><mark>opensource.googleblog.com: Introducing Ephemeral Containers</mark></a> <strong>Ephemeral containers are a new type of container that are part of the Kubernetes core API. An Ephemeral Container may be added to an existing Pod for administrative actions like debugging, it runs until it exits, and it won&rsquo;t be restarted. An ephemeral container runs within the Pod&rsquo;s existing resource allocation and shares common container namespaces.</strong></li>
+<li><a href="https://www.linkedin.com/pulse/kubernetes-ephemeral-containers-bibin-wilson/">linkedin.com: Kubernetes Ephemeral Containers | Bibin Wilson</a> Ephemeral Containers is one of the k8s beta features. The following command will add the debug-image container to the running frontend pod and take an exec session for debugging: <code>kubectl debug -it pods/frontend --image=debug-image</code></li>
+<li><a href="https://sumanthkumarc.medium.com/debugging-namespace-deletion-issue-in-kubernetes-f6f8b40a4368">sumanthkumarc.medium.com: Debugging namespace deletion issue in Kubernetes</a></li>
+<li><a href="https://medium.com/linux-shots/debug-kubernetes-pods-using-ephemeral-container-f01378243ff">medium.com/linux-shots: Debug Kubernetes Pods Using Ephemeral Container</a></li>
+<li><a href="https://medium.com/@blgreco72/debugging-kubernetes-services-locally-8cb14bf8745a">medium.com/@blgreco72: Debugging Kubernetes Services Locally 🌟</a> There are various approaches for debugging Microservices hosted within Kubernetes. The approach used here does not alter the Kubernetes cluster in anyway to support developing Microservices, running external to the cluster, within the developer’s IDE. This is accomplished by mapping ports on the developer’s workstation to services that are normally only accessible from containers running within the cluster.</li>
+<li><a href="https://zendesk.engineering/debugging-containerd-a20f28a2a8bf">zendesk.engineering: Debugging containerd</a></li>
+<li><a href="https://heka-ai.medium.com/introduction-to-debugging-locally-and-live-on-kubernetes-8c8ecd3acbaa"><mark>heka-ai.medium.com: Introduction to Debugging: locally and live on Kubernetes with VSCode</mark> 🌟</a> In this article, you&rsquo;ll learn how to debug your code in real-time on a Pod running on Kubernetes using VS Code</li>
+<li><a href="https://iximiuz.com/en/posts/kubernetes-ephemeral-containers/">iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟</a> Learn how to use Ephemeral Containers to debug Kubernetes workloads with and without the kubectl debug command</li>
+<li><a href="https://eminaktas.medium.com/debug-containerd-in-production-fe93ef4e3ce2">eminaktas.medium.com: Debug Containerd in Production</a> In this article, you will learn how you can debug containerd with VSCode in a remote production environment.</li>
+<li><a href="https://medium.com/@alex.ivenin/exploring-ephemeral-containers-in-kubernetes-bcceaf21101c">medium.com/@alex.ivenin: Exploring ephemeral containers in kubernetes 🌟</a> Ephemeral containers, a feature that was introduced in Kubernetes 1.16 as an alpha release, advanced to beta status in version 1.23, and has finally graduated to stable status in Kubernetes 1.25. This capability provides an easy and safe way to debug running containers in a pod, without requiring full access to the underlying node.</li>
+<li><a href="https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management">labs.iximiuz.com: How to work with container images using ctr</a> ctr is a command-line client shipped as part of the containerd project. If you have containerd running on a machine, chances are the ctr binary is also present there.</li>
+<li><a href="https://medium.com/@danielepolencic/isolating-kubernetes-pods-for-debugging-5fe41e630e9">medium.com/@danielepolencic: Isolating kubernetes pods for debugging</a> This article introduces a technique that helps you with debugging running Pods in production by changing labels, you can detach Pods from the Service (no traffic), and you troubleshoot them live</li>
+<li><a href="https://medium.com/adaltas/kubernetes-debugging-with-ephemeral-containers-e4be659d9ef6">medium.com/adaltas: Kubernetes: debugging with ephemeral containers</a> In this article, you will learn how to debug pods using kubectl debug and ephemeral containers</li>
+</ul>
+<h2 id="troubleshooting-tools">Troubleshooting Tools</h2>
+<ul>
+<li><a href="https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac/">The Definitive Guide to Importing Your Cloud Resources into IaC</a> - <em>(Related to iac topic)</em></li>
+<li><a href="https://support.tools/post/rke2-standalone-disaster-recovery/">RKE2 Standalone Disaster Recovery Guide</a> - <em>(Related to kubernetes-backup-migrations topic)</em></li>
+<li><a href="https://github.com/IvanJosipovic/KubeUI">KubeUI: A Desktop Kubernetes Client</a> - <em>(Related to kubernetes-tools topic)</em></li>
+<li>
+<p><a href="https://refine.dev/blog/kubectl-exec-command/">A Complete Guide to Kubectl exec</a> - <em>(Related to kubernetes-tools topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/replicatedhq/troubleshoot">github.com/replicatedhq/troubleshoot</a> Troubleshoot is a framework for collecting and analyzing diagnostic information about a Kubernetes cluster. The framework is customizable and allows third-party application developers to create troubleshoot specs that can be run by cluster operators.</p>
+</li>
+<li><a href="https://github.com/airwallex/k8s-pod-restart-info-collector">github.com/airwallex: k8s-pod-restart-info-collector</a> k8s-pod-restart-info-collector is a simple Kubernetes customer controller that watches for Pods changes and collects K8s Pod restart reasons, logs, and events to Slack channels when a Pod restarts</li>
+</ul>
+<h3 id="komodor">Komodor</h3>
+<ul>
+<li><a href="https://komodor.com"><mark>komodor.com</mark></a> Turn troubleshooting chaos into clarity. Komodor is an observability tool that gives you insight into what’s happening with your clusters and workloads. It integrates tools that we all use, like Datadog, Okta, LaunchDarkly, and PagerDuty.</li>
+<li><a href="https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide/"><mark>komodor.com: Kubernetes Troubleshooting: The Complete Guide</mark> 🌟</a></li>
+</ul>
+<h3 id="palaemon">Palaemon</h3>
+<ul>
+<li><a href="https://palaemon.io"><mark>palaemon.io</mark></a> Open-source developer tool for monitoring Kubernetes clusters and error analysis</li>
+<li><a href="https://medium.com/@ospalaemon/introducing-palaemon-the-savior-of-kubernetes-pods-85576c33287c">medium.com/@ospalaemon: Introducing Palaemon, the Savior of Kubernetes Pods!</a></li>
+</ul>
+<h3 id="cdebug-and-debug-ctr">cdebug and debug-ctr</h3>
+<ul>
+<li><a href="https://github.com/iximiuz/cdebug"><mark>iximiuz/cdebug</mark></a> a swiss army knife of container debugging. It&rsquo;s like &ldquo;docker exec&rdquo;, but it works even for containers without a shell (scratch, distroless, slim, etc). The &ldquo;cdebug exec&rdquo; command allows you to bring your own toolkit and start a shell inside of a running container.</li>
+<li><a href="https://github.com/felipecruz91/debug-ctr"><mark>felipecruz91/debug-ctr</mark></a> A commandline tool for interactive troubleshooting when a container has crashed or a container image doesn&rsquo;t include debugging utilities, such as distroless images. Heavily inspired by kubectl debug, but for containers instead of Pods.</li>
+</ul>
+<h3 id="kubectl-debug">kubectl-debug</h3>
+<ul>
+<li><a href="https://github.com/JamesTGrant/kubectl-debug">github.com/JamesTGrant/kubectl-debug</a> kubectl-debug is a tool that lets you debug a target container in a Kubernetes cluster by automatically creating a new, non-invasive, &lsquo;debug&rsquo; container in the same PID, network, user, and IPC namespace as the target container without any disruption</li>
+</ul>
+<h3 id="kubeshark">Kubeshark</h3>
+<ul>
+<li><a href="https://www.kubetools.io/kubernetes/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations/">kubetools.io: Kubeshark – API Traffic Analyzer for Kubernetes</a></li>
+</ul>
+<h2 id="slides">Slides</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e1c397b2aa67470e9204f82f938fec78?slide=1" title="KubeCologne keynote—Troubleshooting Kubernetes apps" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;" data-ratio="1.78343949044586"></iframe></p>
+</center>
+</details>
+<h2 id="images">Images</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><a href="https://learnk8s.io/troubleshooting-deployments"><img alt="learnk8s debug your pods" src="images/learnk8s_debug_your_pods.png" style="width:30%" /></a></p>
+</center>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">My top 8 commands and tools for debugging applications running on <a href="https://twitter.com/kubernetesio?ref_src=twsrc%5Etfw">@kubernetesio</a> 🧵👇</p>&mdash; Daniel Bryant (@danielbryantuk) <a href="https://twitter.com/danielbryantuk/status/1492893332850237444?ref_src=twsrc%5Etfw">February 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is your favourite Kubernetes troubleshooting command? Looking for some new ones 😉</p>&mdash; Saiyam Pathak (@SaiyamPathak) <a href="https://twitter.com/SaiyamPathak/status/1513572111721271298?ref_src=twsrc%5Etfw">April 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I made a tool&hellip; to debug containers 🧙‍♂️<br><br>It&#39;s like &quot;docker exec&quot;, but it works even for containers without a shell (scratch, distroless, slim, etc).<br><br>The &quot;cdebug exec&quot; command allows you to bring your own toolkit and start a shell inside of a running container.<br><br>A short demo 👇 <a href="https://t.co/82m4vzPYJr">pic.twitter.com/82m4vzPYJr</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1584244173347074049?ref_src=twsrc%5Etfw">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">There is a Kubernetes deployment which processes items from a queue. Most items are very small and completed immediately. Occasionally a whopping big item comes along and causes an OOMKill. Retries don&#39;t help for obvious reasons.<br><br>How would you solve it?</p>&mdash; Natan Yellin (@aantn) <a href="https://twitter.com/aantn/status/1597653772255346691?ref_src=twsrc%5Etfw">November 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">How does Pod to Pod communication work in Kubernetes?<br><br>How does the traffic reach the pod?<br><br>Let&#39;s dive into how low-level networking works in Kubernetes. <a href="https://t.co/K8bBT8YiOf">pic.twitter.com/K8bBT8YiOf</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1655540892365889538?ref_src=twsrc%5Etfw">May 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</center>
+</details>
+<ul>
+<li><a href="https://…">Debugging Kubernetes Systems: Practical Advice with Quality Telemetry</a> 🌟 - Adnan Rahic shares practical advice for debugging Kubernetes systems, highlighting the importance of quality telemetry.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8503,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

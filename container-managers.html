@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/container-managers.html">
       
+      
+        <link rel="prev" href="keptn.html">
+      
+      
+        <link rel="next" href="maven-gradle.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#container-runtimesmanagers-base-images-and-container-tools-podman-buildah-skopeo" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -403,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +436,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +458,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -465,11 +476,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +504,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +526,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1843,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +1996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2095,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -2123,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2649,8 +2662,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -2674,19 +2689,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
         
           
-          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
             
   
   
@@ -2704,7 +2722,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_12">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2722,7 +2740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +2824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +2852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +2880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2887,8 +2905,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -2921,18 +2941,21 @@
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_7" >
         
           
-          <label class="md-nav__link" for="__nav_12_7" id="__nav_12_7_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_12_7" id="__nav_12_7_label" tabindex="">
             
   
   
@@ -2950,7 +2973,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_12_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2968,7 +2991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3133,10 +3156,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="container-managers.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -3152,6 +3202,260 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oci-project-open-container-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCI Project. Open Container Initiative
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OCI Project. Open Container Initiative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#oci-runtimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCI Runtimes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OCI Runtimes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#runc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        runc
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        crun
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oci-monitors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCI Monitors
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#container-managers-container-runtimes-cri-runtimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Managers / Container Runtimes (CRI runtimes)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Container Managers / Container Runtimes (CRI runtimes)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cri-o" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRI-O
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podman-pod-manager-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Podman. Pod Manager tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Podman. Pod Manager tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#podman-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Podman Desktop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#containers-in-high-security-environments-with-podman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containers In High Security Environments with Podman
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#container-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Images
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Container Images">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#red-hat-universal-base-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Universal Base Image
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#container-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Container Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buildah" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buildah
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skopeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skopeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3164,7 +3468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3328,17 +3632,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_8" >
         
           
-          <label class="md-nav__link" for="__nav_12_8" id="__nav_12_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_12_8" id="__nav_12_8_label" tabindex="">
             
   
   
@@ -3374,7 +3681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3709,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3896,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3924,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +4025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +4053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +4081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +4109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +4137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +5025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +5053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +6008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +6036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +6064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +6092,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6980,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +7008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +7036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7885,284 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="container-runtimesmanagers-base-images-and-container-tools-podman-buildah-skopeo">Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah &amp; Skopeo</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#oci-project-open-container-initiative">OCI Project. Open Container Initiative</a><ol>
+<li><a href="#oci-runtimes">OCI Runtimes</a><ol>
+<li><a href="#runc">runc</a></li>
+<li><a href="#crun">crun</a></li>
+</ol>
+</li>
+<li><a href="#oci-monitors">OCI Monitors</a></li>
+</ol>
+</li>
+<li><a href="#container-managers--container-runtimes-cri-runtimes">Container Managers / Container Runtimes (CRI runtimes)</a><ol>
+<li><a href="#cri-o">CRI-O</a></li>
+<li><a href="#podman-pod-manager-tool">Podman. Pod Manager tool</a><ol>
+<li><a href="#podman-desktop">Podman Desktop</a></li>
+<li><a href="#containers-in-high-security-environments-with-podman">Containers In High Security Environments with Podman</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#container-images">Container Images</a><ol>
+<li><a href="#red-hat-universal-base-image">Red Hat Universal Base Image</a></li>
+</ol>
+</li>
+<li><a href="#container-tools">Container Tools</a><ol>
+<li><a href="#buildah">Buildah</a></li>
+<li><a href="#skopeo">Skopeo</a></li>
+</ol>
+</li>
+<li><a href="#images">Images</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/">A Practical Introduction to Container Terminology</a></li>
+<li><a href="https://www.inovex.de/blog/containers-docker-containerd-nabla-kata-firecracker/">inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟</a></li>
+<li><a href="https://blog.alexellis.io/building-containers-without-docker/">blog.alexellis.io: Building containers without Docker 🌟</a></li>
+<li><a href="https://thenewstack.io/container-best-practices-what-they-are-and-why-you-should-care/">thenewstack.io: Container Best Practices: What They Are and Why You Should Care</a></li>
+</ul>
+<h2 id="oci-project-open-container-initiative">OCI Project. Open Container Initiative</h2>
+<ul>
+<li><a href="https://www.opencontainers.org/">OCI: Open Container Initiative</a></li>
+<li><a href="https://www.scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers/">scrivano.org: the journey to speed up running OCI containers</a></li>
+</ul>
+<h3 id="oci-runtimes">OCI Runtimes</h3>
+<h4 id="runc">runc</h4>
+<ul>
+<li><a href="https://github.com/opencontainers/runc">runc</a> CLI tool for spawning and running containers according to the OCI specification</li>
+</ul>
+<h4 id="crun">crun</h4>
+<ul>
+<li><a href="https://github.com/containers/crun">crun</a> A fast and lightweight fully featured OCI runtime and C library for running containers</li>
+</ul>
+<h3 id="oci-monitors">OCI Monitors</h3>
+<ul>
+<li><a href="https://github.com/containers/conmon">Conmon</a> An OCI container runtime monitor.</li>
+</ul>
+<h2 id="container-managers-container-runtimes-cri-runtimes">Container Managers / Container Runtimes (CRI runtimes)</h2>
+<ul>
+<li><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a> 🌟 - The containerd GitHub repository hosts the source code and documentation for containerd, an open and reliable container runtime. It is a core component for running containers, often used by higher-level orchestrators like Kubernetes and Docker.</li>
+<li><a href="https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups">Controlling Process Resources with Linux Control Groups (cgroups)</a> - <em>(Related to kubernetes topic)</em></li>
+<li>
+<p><a href="https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/">What is Podman and How Does it Compare to Docker?</a> - An article from Build5Nines providing a detailed overview of Podman, an open-source container engine developed by Red Hat. It explains Podman&rsquo;s key features such as its daemonless architecture, rootless execution, native pod support, and Docker-compatible CLI, and contrasts it with Docker&rsquo;s daemon-based model. The article aims to help developers transition between the two container management tools.</p>
+</li>
+<li>
+<p><a href="https://kubernetes.io/docs/setup/production-environment/container-runtimes/">Kubernetes.io: Container runtimes</a></p>
+</li>
+<li><a href="https://www.docker.com/products/container-runtime">Docker</a></li>
+<li><a href="https://containerd.io/">containerd.io</a></li>
+<li><a href="https://github.com/kubernetes/frakti">Frakti</a></li>
+</ul>
+<h3 id="cri-o">CRI-O</h3>
+<ul>
+<li><a href="https://cri-o.io/">cri-o.io</a> Lightweight Container Runtime for Kubernetes</li>
+<li><a href="https://redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman">Why Red Hat is investing in CRI-O and Podman</a></li>
+</ul>
+<h3 id="podman-pod-manager-tool">Podman. Pod Manager tool</h3>
+<ul>
+<li><a href="https://podman.io/">Podman.io</a></li>
+<li><a href="https://github.com/containers/libpod">Libpod: Library and tool for running OCI-based containers in Pods</a><ul>
+<li>Libpod is a library used to create container pods. Home of Podman.</li>
+<li>Libpod provides a library for applications looking to use the Container Pod concept, popularized by Kubernetes. Libpod also contains the Pod Manager tool (Podman). Podman manages pods, containers, container images, and container volumes.</li>
+</ul>
+</li>
+<li><a href="https://developers.redhat.com/blog/2018/08/29/intro-to-podman/">Intro to Podman</a></li>
+<li><a href="https://www.redhat.com/en/blog/be-careful-when-pulling-images-short-name">redhat.com: Be careful when pulling images by short name</a></li>
+<li><a href="https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users/">developers.redhat.com: Podman and Buildah for Docker users 🌟</a></li>
+<li><a href="https://podman.io/blogs/2020/06/29/podman-v2-announce.html">podmain.io: Announcing Podman v2</a> Featuring a new REST API, Remote Clients, Auto-update, Systemd Integration Improvements and more!</li>
+<li><a href="https://www.youtube.com/watch?v=Za36qHbrf3g">youtube: Getting started with Podman</a></li>
+<li><a href="https://www.redhat.com/sysadmin/podman-clients-macos-windows">Podman remote clients for macOS and Windows</a> Podman manages your containers on a Linux host. Manage your containers from macOS or Windows by using the Podman remote client.</li>
+<li><a href="https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics/">developers.redhat.com: Rootless containers with Podman: The basics</a></li>
+<li><a href="https://www.tecmint.com/manage-containers-using-podman-in-rhel/">tecmint.com: How to Manage Containers Using Podman and Skopeo in RHEL 8</a></li>
+<li><a href="https://thenewstack.io/tutorial-host-a-local-podman-image-registry/">thenewstack.io: Tutorial: Host a Local Podman Image Registry 🌟</a></li>
+<li><a href="https://www.redhat.com/sysadmin/podman-docker-compose">redhat.com: Using Podman and Docker Compose</a> Podman 3.0 now supports Docker Compose to orchestrate containers.</li>
+<li><a href="https://www.redhat.com/sysadmin/compose-kubernetes-podman">redhat.com: From Docker Compose to Kubernetes with Podman</a> Use Podman 3.0 to convert Docker Compose YAML to a format Podman recognizes.</li>
+<li><a href="https://fedoramagazine.org/manage-containers-with-podman-compose/">fedoramagazine.org: Manage containers with Podman Compose</a></li>
+<li><a href="https://medium.com/javarevisited/podman-getting-started-e7fc06961994">medium: Podman: Getting Started</a></li>
+<li><a href="https://oldgitops.medium.com/setting-up-podman-on-wsl2-in-windows-10-be2991c2d443">oldgitops.medium.com: Setting up Podman on WSL2 in Windows 10 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?app=desktop&amp;v=OcHRWaC5tvY&amp;feature=youtu.be&amp;ab_channel=RedHat">youtube: Podman in Podman (Running a container within a container)</a></li>
+<li>&ldquo;Forget about Docker image updating hassle. Podman offers simple auto updating capabilities. It works with conjunction with systemd. Just add label &ldquo;io.containers.autoupdate=image&rdquo; and run podman auto-update in cron or with help of systemd.timer and be done with it&rdquo; <a href="https://twitter.com/puksiarz">puksiarz</a></li>
+<li><a href="https://wbhegedus.me/running-podman-on-wsl2">wbhegedus.me: Configuring Podman for WSL2 🌟</a></li>
+<li><a href="https://www.redhat.com/sysadmin/replace-docker-podman-macos">redhat.com: How to replace Docker with Podman on a Mac</a> Want to use Podman to work with containers? Here&rsquo;s what you need to know about Podman on a Mac.</li>
+<li><a href="https://www.redhat.com/sysadmin/new-podman-secrets-command">redhat.com: Exploring the new Podman secret command 🌟</a> Use the new podman secret command to secure sensitive data when working with containers.</li>
+<li><a href="https://developers.redhat.com/blog/2021/04/22/using-podman-compose-with-microcks-a-cloud-native-api-mocking-and-testing-tool">developers.redhat.com: Using Podman Compose with Microcks: A cloud-native API mocking and testing tool</a></li>
+<li><a href="https://www.redhat.com/sysadmin/automate-podman-ansible">redhat.com: How to automate Podman installation and deployment using Ansible 🌟</a> Learn how to easily install and deploy Podman using Ansible in your environment.</li>
+<li><a href="https://www.tutorialworks.com/podman-systemd/">tutorialworks.com: How to Start Containers Automatically, with Podman and Systemd</a></li>
+<li><a href="https://www.youtube.com/watch?v=15PFfjuxtvM&amp;ab_channel=mkdev">youtube: Podman 3 and Docker Compose - How Does the Dockerless Compose Work? 🌟</a></li>
+<li><a href="https://fedoramagazine.org/use-docker-compose-with-podman-to-orchestrate-containers-on-fedora/">fedoramagazine.org: Use Docker Compose with Podman to Orchestrate Containers on Fedora Linux</a></li>
+<li><a href="https://opensource.com/article/21/7/linux-podman">opensource.com: Run a Linux virtual machine in Podman</a> Use Podman Machine to create a basic Fedora CoreOS VM to use with containers and containerized workloads.</li>
+<li><a href="https://developers.redhat.com/blog/2020/11/19/transitioning-from-docker-to-podman">developers.redhat.com: Transitioning from Docker to Podman 🌟</a></li>
+<li><a href="https://pythonspeed.com/articles/podman-buildkit/">pythonspeed.com: Using Podman with BuildKit, the better Docker image builder 🌟</a></li>
+<li><a href="https://devopscube.com/podman-tutorial-beginners/">devopscube.com: Podman Tutorial For Beginners: Step by Step Guides 🌟</a></li>
+<li><a href="https://kubernetespodcast.com/episode/164-podman/">kubernetespodcast.com: Podman, with Daniel Walsh and Brent Baude</a></li>
+<li><a href="https://www.redhat.com/sysadmin/podman-auto-updates-rollbacks">redhat.com: How to use auto-updates and rollbacks in Podman</a><ul>
+<li>New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.</li>
+<li>Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image &amp; rollback, when update fails.</li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/10/podman-windows-wsl">opensource.com: Get podman up and running on Windows using Linux</a> Enable WSL 2 guests to run the podman, skopeo, or buildah commands from within Windows using the Linux distribution of your choice.</li>
+<li><a href="http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman/">crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?</a></li>
+<li><a href="https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311">medium.com: Exploring Docker alternative — Podman</a></li>
+<li><a href="https://darumatic.com/blog/podman_introduction">darumatic.com: Podman - Introduction 🌟</a></li>
+<li><a href="https://www.redhat.com/sysadmin/podman-play-kube-updates">redhat.com: Build Kubernetes pods with Podman play kube</a> Enhancements include building images and tearing down pods with play kube and support for Kubernetes-style init containers.</li>
+<li><a href="https://iongion.github.io/podman-desktop-companion/"><mark>iongion.github.io: Podman Desktop Companion</mark> 🌟</a> Cross-platform desktop integrated application with consistent UI</li>
+<li><a href="https://www.redhat.com/sysadmin/replace-docker-podman-mac-revisited">redhat.com: How to replace Docker with Podman on a Mac, revisited</a> Want to use Podman on macOS? There&rsquo;s a new way with podman machine. Here&rsquo;s what you need to know.</li>
+<li><a href="https://www.imaginarycloud.com/blog/podman-vs-docker/">imaginarycloud.com: Podman vs Docker: What are the differences?</a></li>
+<li><a href="https://opensource.com/article/22/1/run-containers-without-sudo-podman">opensource.com: Run containers on Linux without sudo in Podman</a> Configure your system for rootless containers.</li>
+<li><a href="https://www.redhat.com/sysadmin/create-containers-podman-quickly">redhat.com: Create fast, easy, and repeatable containers with Podman and shell scripts</a></li>
+<li><a href="https://www.redhat.com/sysadmin/container-information-podman">redhat.com: How to use Podman to get information about your containers</a> Use the podman ps command to get size, resource consumption, and other information about your containers.</li>
+<li><a href="https://www.redhat.com/sysadmin/podman-features-1">redhat.com: 5 Podman features to try now</a> Improve how you use containers with these new Podman features: &ndash;latest, &ndash;replace, &ndash;all, &ndash;ignore, and &ndash;tz.</li>
+<li>Here&rsquo;s how I stop all containers before: 🐳 <code>docker stop $(docker ps -aq)</code><ul>
+<li>Here&rsquo;s how I stop/remove all containers with podman: <code>podman stop -a; podman rm  -a</code></li>
+</ul>
+</li>
+<li><a href="https://medium.com/@raghavendraguttur/podman-containers-beginners-guide-830b931e66f4">medium.com/@raghavendraguttur: Podman Containers — Beginner’s Guide</a> In this article, you will learn about Podman — an open-source tool for managing containers, images, volumes, and pods (group of containers). You will also compare it to buildah and skopeo.</li>
+<li><a href="https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda">nilesh93.medium.com: Replacing Docker Desktop with Podman and Kind in MacOS</a></li>
+<li><a href="https://dev.to/cedricclyburn/containers-without-docker-podman-buildah-and-skopeo-1eal"><mark>dev.to: Containers without Docker (podman, buildah, and skopeo)</mark></a> In this article, you will learn how you can use Podman, Buildah, and Skopeo as replacements for the traditional Docker workflow, without the use of a daemon or root privileges</li>
+<li><a href="https://www.redhat.com/sysadmin/quadlet-podman">redhat.com/sysadmin/quadlet-podman</a> Make systemd better for Podman with Quadlet. Quadlet, a tool merged into Podman 4.4, hides the complexity of running containers under systemd to make it easier to maintain unit files written from scratch.</li>
+</ul>
+<h4 id="podman-desktop">Podman Desktop</h4>
+<ul>
+<li><a href="https://podman-desktop.io/"><mark>Podman Desktop</mark></a></li>
+<li><a href="https://developers.redhat.com/articles/2022/10/24/podman-expands-desktop">developers.redhat.com: Podman expands to the Desktop</a></li>
+</ul>
+<h4 id="containers-in-high-security-environments-with-podman">Containers In High Security Environments with Podman</h4>
+<ul>
+<li><a href="https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline">Build trusted pipelines/Guards with Podman containers</a> Container technology makes develoment easier/cheaper &amp; much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.</li>
+</ul>
+<h2 id="container-images">Container Images</h2>
+<ul>
+<li><a href="https://github.com/sherifabdlnaby/kubephp">sherifabdlnaby/kubephp</a> 🐳 Production Grade, Rootless, and Optimized PHP Container Image Template for Cloud-Native Deployments and Kubernetes.</li>
+<li><a href="https://iximiuz.com/en/posts/containers-making-images-better/">iximiuz.com: In Pursuit of Better Container Images: Alpine, Distroless, Apko, Chisel, DockerSlim, oh my!</a></li>
+</ul>
+<h3 id="red-hat-universal-base-image">Red Hat Universal Base Image</h3>
+<ul>
+<li><a href="https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image">Introducing the Red Hat Universal Base Image 🌟</a></li>
+<li><a href="https://developers.redhat.com/blog/2019/10/09/what-is-red-hat-universal-base-image/">What is Red Hat Universal Base Image?</a></li>
+<li><a href="https://developers.redhat.com/articles/ubi-faq/#resources">RH Universal Base Image FAQ</a></li>
+<li><a href="https://catalog.redhat.com/software/containers/explore">Red Hat Ecosystem Catalog</a></li>
+<li><a href="https://github.com/fatherlinux/ubi-micro">ubi-micro: RHEL tiny images to build containers 🌟</a></li>
+<li><a href="https://developers.redhat.com/blog/2021/04/13/how-to-pick-the-right-container-base-image/">developers.redhat.com: How to pick the right container base image</a></li>
+</ul>
+<h2 id="container-tools">Container Tools</h2>
+<ul>
+<li>
+<p><a href="https://github.com/ynqa/bul">bul: Interactive TUI for Exploring Kubernetes Container Logs</a> - <em>(Related to kubernetes-tools topic)</em></p>
+</li>
+<li>
+<p><a href="https://www.redhat.com/sysadmin/privileged-flag-container-engines">How to use the &ndash;privileged flag with container engines</a> Let&rsquo;s take a deep dive into what the &ndash;privileged flag does for container engines such as Podman, Docker, and Buildah.</p>
+</li>
+<li><a href="https://itnext.io/docker-kaniko-buildah-209abdde5f94">itnext.io: Docker, Kaniko, Buildah</a> Different ways to build container images</li>
+<li><a href="https://blog.kubesimplify.com/getting-started-with-ko-a-fast-container-image-builder-for-your-go-applications">blog.kubesimplify.com: Getting started with ko: A fast container image builder for your Go applications</a></li>
+</ul>
+<h3 id="buildah">Buildah</h3>
+<ul>
+<li><a href="https://buildah.io/">Buildah.io</a> A tool that facilitates building <a href="https://www.opencontainers.org/">Open Container Initiative (OCI)</a> container images<ul>
+<li><a href="https://github.com/containers/buildah">github.com/containers/buildah</a></li>
+</ul>
+</li>
+<li><a href="https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah/">developers.redhat.com: Getting started with Buildah</a></li>
+<li><a href="https://www.youtube.com/watch?app=desktop&amp;v=Fl0iLoAMdzc&amp;ab_channel=AndrewMalkov">youtube: How to live without Docker for developers - Part 1 | Migration from Docker to Buildah and Podman</a></li>
+</ul>
+<h3 id="skopeo">Skopeo</h3>
+<ul>
+<li><a href="https://github.com/containers/skopeo">Skopeo</a> is a command line utility that performs various operations on container images and image repositories.</li>
+<li><a href="https://www.openshift.com/blog/promoting-container-images-between-registries-with-skopeo">Promoting container images between registries with skopeo</a></li>
+</ul>
+<h2 id="images">Images</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center markdown="1">
+<p><a href="https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one"><img alt="OCP 4 Architecture" src="images/ocp4_arch.png" /></a></p>
+</center>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Running openvscode-server from <a href="https://twitter.com/hashtag/podman?src=hash&amp;ref_src=twsrc%5Etfw">#podman</a> with:<br><br>podman pull <a href="https://t.co/eXpnV9qXTt">https://t.co/eXpnV9qXTt</a><br>podman run -it --init -p 3000:3000 -v &quot;$(pwd):/home/workspace:cached&quot; gitpod/openvscode-server<br><br>Note; you might get a permission denied, is not aware of rootless use. Resolve with `chmod o+w -R` :-/</p>&mdash; Forever Young (@gbraad) (@gbraad) <a href="https://twitter.com/gbraad/status/1453259956120084486?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The RHEL/UBI 9 container images were released today! I&#39;m quite happy with the size reduction! We have UBI Micro down to 7MB compressed! <a href="https://t.co/PBU3cAApsp">pic.twitter.com/PBU3cAApsp</a></p>&mdash; Scott McCarty (@fatherlinux) <a href="https://twitter.com/fatherlinux/status/1455872808660217862?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some of the things I like about <a href="https://twitter.com/Podman_io?ref_src=twsrc%5Etfw">@Podman_io</a> is this ability to generate K8s pod YAMLs from podman pods.<br><br>(1): deploy a pod named webserver with an Nginx container.<br>(2): generate the K8s YAML for the podman pod<br>(3): You can direct the generated YAML to a file with redirection <a href="https://t.co/PTykINAS4A">pic.twitter.com/PTykINAS4A</a></p>&mdash; SAIM SAFDAR (@cloudnativeboy) <a href="https://twitter.com/cloudnativeboy/status/1488228418986536962?ref_src=twsrc%5Etfw">January 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8366,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

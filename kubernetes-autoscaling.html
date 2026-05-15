@@ -12,25 +12,31 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-autoscaling.html">
       
+      
+        <link rel="prev" href="kubernetes-backup-migrations.html">
+      
+      
+        <link rel="next" href="kubernetes-operators-controllers.html">
       
       
         
       
       
-      <link rel="icon" href="/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Autoscaling - Nubenetes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +91,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#autoscaling" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +108,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -122,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Kubernetes Autoscaling
             
           </span>
         </div>
@@ -253,7 +264,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -274,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/introduction.html" class="md-tabs__link">
+        <a href="introduction.html" class="md-tabs__link">
           
   
   
@@ -296,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/sre.html" class="md-tabs__link">
+        <a href="sre.html" class="md-tabs__link">
           
   
   
@@ -318,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devops.html" class="md-tabs__link">
+        <a href="devops.html" class="md-tabs__link">
           
   
   
@@ -340,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devsecops.html" class="md-tabs__link">
+        <a href="devsecops.html" class="md-tabs__link">
           
   
   
@@ -362,7 +373,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/noops.html" class="md-tabs__link">
+        <a href="noops.html" class="md-tabs__link">
           
   
   
@@ -382,7 +393,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docker.html" class="md-tabs__link">
+      <a href="docker.html" class="md-tabs__link">
         
   
   
@@ -399,11 +410,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/kubernetes.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kubernetes.html" class="md-tabs__link">
           
   
   
@@ -425,7 +438,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/openshift.html" class="md-tabs__link">
+        <a href="openshift.html" class="md-tabs__link">
           
   
   
@@ -447,7 +460,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/rancher.html" class="md-tabs__link">
+        <a href="rancher.html" class="md-tabs__link">
           
   
   
@@ -469,7 +482,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cicd.html" class="md-tabs__link">
+        <a href="cicd.html" class="md-tabs__link">
           
   
   
@@ -491,7 +504,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/monitoring.html" class="md-tabs__link">
+        <a href="monitoring.html" class="md-tabs__link">
           
   
   
@@ -513,7 +526,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/iac.html" class="md-tabs__link">
+        <a href="iac.html" class="md-tabs__link">
           
   
   
@@ -535,7 +548,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -557,7 +570,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/databases.html" class="md-tabs__link">
+        <a href="databases.html" class="md-tabs__link">
           
   
   
@@ -577,7 +590,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/message-queue.html" class="md-tabs__link">
+      <a href="message-queue.html" class="md-tabs__link">
         
   
   
@@ -598,7 +611,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/servicemesh.html" class="md-tabs__link">
+        <a href="servicemesh.html" class="md-tabs__link">
           
   
   
@@ -620,7 +633,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/demos.html" class="md-tabs__link">
+        <a href="demos.html" class="md-tabs__link">
           
   
   
@@ -642,7 +655,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/public-cloud-solutions.html" class="md-tabs__link">
+        <a href="public-cloud-solutions.html" class="md-tabs__link">
           
   
   
@@ -664,7 +677,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api.html" class="md-tabs__link">
+        <a href="api.html" class="md-tabs__link">
           
   
   
@@ -686,7 +699,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/devel-sites.html" class="md-tabs__link">
+        <a href="devel-sites.html" class="md-tabs__link">
           
   
   
@@ -708,7 +721,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/qa.html" class="md-tabs__link">
+        <a href="qa.html" class="md-tabs__link">
           
   
   
@@ -730,7 +743,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai.html" class="md-tabs__link">
+        <a href="ai.html" class="md-tabs__link">
           
   
   
@@ -752,7 +765,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/project-management-methodology.html" class="md-tabs__link">
+        <a href="project-management-methodology.html" class="md-tabs__link">
           
   
   
@@ -774,7 +787,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/other-awesome-lists.html" class="md-tabs__link">
+        <a href="other-awesome-lists.html" class="md-tabs__link">
           
   
   
@@ -796,7 +809,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/recruitment.html" class="md-tabs__link">
+        <a href="recruitment.html" class="md-tabs__link">
           
   
   
@@ -816,7 +829,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/customer.html" class="md-tabs__link">
+      <a href="customer.html" class="md-tabs__link">
         
   
   
@@ -835,7 +848,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.html" class="md-tabs__link">
+      <a href="about.html" class="md-tabs__link">
         
   
   
@@ -878,7 +891,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -940,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -1025,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction.html" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   
@@ -1053,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1150,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -1206,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1234,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -1331,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -1359,7 +1372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -1387,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -1415,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -1538,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -1566,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -1659,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -1722,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -1746,8 +1759,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1795,19 +1810,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -1825,7 +1843,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1843,7 +1861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -1983,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -2011,7 +2029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -2039,7 +2057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -2067,7 +2085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -2092,10 +2110,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/kubernetes-autoscaling.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Autoscaling
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-autoscaling.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2111,6 +2156,175 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-autoscaler-kubernetes-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Autoscaler Kubernetes Tool
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hpa-and-vpa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HPA and VPA
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="HPA and VPA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-scale-to-zero" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Scale to Zero
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-autoscaler-and-helm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Autoscaler and Helm
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keda-kubernetes-event-driven-autoscaling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KEDA Kubernetes Event Driven Autoscaling
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-autoscaler-and-dockerhub" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Autoscaler and DockerHub
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-autoscaler-in-gke-eks-aks-and-doks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Autoscaler in GKE, EKS, AKS and DOKS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-autoscaler-in-openshift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Autoscaler in OpenShift
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scaling-kubernetes-to-multiple-clusters-and-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scaling Kubernetes to multiple clusters and regions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-load-testing-and-high-load-tuning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Load Testing and High Load Tuning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2123,7 +2337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -2151,7 +2365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -2179,7 +2393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -2207,7 +2421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2235,7 +2449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -2263,7 +2477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -2291,7 +2505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-newsletters.html" class="md-nav__link">
+      <a href="kubernetes-newsletters.html" class="md-nav__link">
         
   
   
@@ -2319,7 +2533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -2347,7 +2561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -2375,7 +2589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -2617,7 +2831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -2778,7 +2992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -2806,7 +3020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2834,7 +3048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -2862,7 +3076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -2968,7 +3182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -2996,7 +3210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -3024,7 +3238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3052,7 +3266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3080,7 +3294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -3108,7 +3322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -3136,7 +3350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -3164,7 +3378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3192,7 +3406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -3220,7 +3434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -3248,7 +3462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -3276,7 +3490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -3374,7 +3588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -3402,7 +3616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3430,7 +3644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3458,7 +3672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -3561,7 +3775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -3589,7 +3803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -3617,7 +3831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -3718,7 +3932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -3746,7 +3960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -3774,7 +3988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -3802,7 +4016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -3830,7 +4044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -3858,7 +4072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -3965,7 +4179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -3993,7 +4207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -4021,7 +4235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4049,7 +4263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4077,7 +4291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4105,7 +4319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -4133,7 +4347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -4161,7 +4375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4189,7 +4403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -4375,7 +4589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -4460,7 +4674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4488,7 +4702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4579,7 +4793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -4690,7 +4904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4718,7 +4932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -4746,7 +4960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -4868,7 +5082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -4896,7 +5110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -4924,7 +5138,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -4952,7 +5166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -4980,7 +5194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -5008,7 +5222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -5036,7 +5250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -5064,7 +5278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -5092,7 +5306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -5120,7 +5334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -5148,7 +5362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -5176,7 +5390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -5204,7 +5418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -5232,7 +5446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -5260,7 +5474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -5288,7 +5502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -5316,7 +5530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -5344,7 +5558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -5372,7 +5586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -5400,7 +5614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -5436,7 +5650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -5464,7 +5678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -5492,7 +5706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -5520,7 +5734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -5548,7 +5762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -5576,7 +5790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -5604,7 +5818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -5701,7 +5915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -5729,7 +5943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -5757,7 +5971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -5785,7 +5999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5898,7 +6112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -5926,7 +6140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -5954,7 +6168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -5982,7 +6196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -6010,7 +6224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -6038,7 +6252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -6066,7 +6280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -6094,7 +6308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -6122,7 +6336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -6208,7 +6422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -6236,7 +6450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -6332,7 +6546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -6360,7 +6574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -6388,7 +6602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/jvm-parameters-matrix-table.html" class="md-nav__link">
+      <a href="jvm-parameters-matrix-table.html" class="md-nav__link">
         
   
   
@@ -6486,7 +6700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -6514,7 +6728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -6542,7 +6756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -6570,7 +6784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -6673,7 +6887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -6701,7 +6915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -6729,7 +6943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -6826,7 +7040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -6854,7 +7068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -6882,7 +7096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -6910,7 +7124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -7007,7 +7221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -7035,7 +7249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -7063,7 +7277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -7091,7 +7305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -7190,7 +7404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -7218,7 +7432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -7246,7 +7460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -7274,7 +7488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -7399,7 +7613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -7427,7 +7641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -7455,7 +7669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -7483,7 +7697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -7518,7 +7732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -7545,7 +7759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.html" class="md-nav__link">
+      <a href="about.html" class="md-nav__link">
         
   
   
@@ -7578,8 +7792,294 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="autoscaling">Autoscaling</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#cluster-autoscaler-kubernetes-tool">Cluster Autoscaler Kubernetes Tool</a></li>
+<li><a href="#hpa-and-vpa">HPA and VPA</a><ol>
+<li><a href="#kubernetes-scale-to-zero">Kubernetes Scale to Zero</a></li>
+</ol>
+</li>
+<li><a href="#cluster-autoscaler-and-helm">Cluster Autoscaler and Helm</a></li>
+<li><a href="#keda-kubernetes-event-driven-autoscaling">KEDA Kubernetes Event Driven Autoscaling</a></li>
+<li><a href="#cluster-autoscaler-and-dockerhub">Cluster Autoscaler and DockerHub</a></li>
+<li><a href="#cluster-autoscaler-in-gke-eks-aks-and-doks">Cluster Autoscaler in GKE, EKS, AKS and DOKS</a></li>
+<li><a href="#cluster-autoscaler-in-openshift">Cluster Autoscaler in OpenShift</a></li>
+<li><a href="#scaling-kubernetes-to-multiple-clusters-and-regions">Scaling Kubernetes to multiple clusters and regions</a></li>
+<li><a href="#kubernetes-load-testing-and-high-load-tuning">Kubernetes Load Testing and High Load Tuning</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://levelup.gitconnected.com/effects-of-docker-image-size-on-autoscaling-w-r-t-single-and-multi-node-kube-cluster-29c4f689cd99">levelup.gitconnected.com: Effects of Docker Image Size on AutoScaling w.r.t Single and Multi-Node Kube Cluster</a></li>
+<li><a href="https://www.infracloud.io/blogs/3-autoscaling-projects-optimising-kubernetes-costs/">infracloud.io: 3 Autoscaling Projects to Optimise Kubernetes Costs</a> Three autoscaling use cases:<ul>
+<li>Autoscaling Event-driven workloads</li>
+<li>Autoscaling real-time workloads</li>
+<li>Autoscaling Nodes/Infrastructure</li>
+</ul>
+</li>
+<li><a href="https://blog.scaleway.com/understanding-kubernetes-autoscaling/">blog.scaleway.com: Understanding Kubernetes Autoscaling</a></li>
+<li><a href="https://www.infracloud.io/blogs/kubernetes-autoscaling-custom-metrics/">infracloud.io: Kubernetes Autoscaling with Custom Metrics (updated) 🌟</a></li>
+<li><a href="https://sysdig.com/blog/kubernetes-autoscaler/">sysdig.com: Kubernetes pod autoscaler using custom metrics</a></li>
+<li><a href="https://learnk8s.io/kubernetes-autoscaling-strategies">learnk8s.io: Architecting Kubernetes clusters — choosing the best autoscaling strategy 🌟</a> How to configure multiple autoscalers in Kubernetes to minimise scaling time and found out that 4 factors affect scaling:<ol>
+<li>HPA reaction time.</li>
+<li>CA reaction time.</li>
+<li>Node provisioning time.</li>
+<li>Pod creation time.</li>
+</ol>
+</li>
+<li><a href="https://thenewstack.io/reduce-kubernetes-costs-using-autoscaling-mechanisms/">thenewstack.io: Reduce Kubernetes Costs Using Autoscaling Mechanisms</a></li>
+<li><a href="https://cast.ai/blog/guide-to-kubernetes-autoscaling-for-cloud-cost-optimization">cast.ai: Guide to Kubernetes autoscaling for cloud cost optimization 🌟</a></li>
+<li><a href="https://thenewstack.io/scaling-microservices-on-kubernetes">thenewstack.io: Scaling Microservices on Kubernetes 🌟</a><ul>
+<li>Horizontally scaling a monolith is much more difficult; and we simply can’t independently scale any of the “parts” of a monolith. This isn’t ideal, because it might only be a small part of the monolith that causes the performance problem. Yet, we would have to vertically scale the entire monolith to fix it. Vertically scaling a large monolith can be an expensive proposition.</li>
+<li>Instead, with microservices, we have numerous options for scaling. For instance, we can independently fine-tune the performance of small parts of our system to eliminate bottlenecks and achieve the right mix of performance outcomes.</li>
+</ul>
+</li>
+<li><a href="https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-kubernetes">cloud.ibm.com: Tutorial - Scalable webapp 🌟</a></li>
+<li><a href="https://github.com/medmouine/Kubernetes-autoscaling-poster/blob/main/k8s-auto-scaling-poster.pdf">medmouine/Kubernetes-autoscaling-poster: Kubernetes autoscaling poster [PDF] 🌟</a></li>
+<li><a href="https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132">medium.com/airbnb-engineering: Dynamic Kubernetes Cluster Scaling at Airbnb</a> In this post, you&rsquo;ll learn about how Airbnb dynamically size their clusters using the Kubernetes Cluster Autoscaler, and highlight the functionality they&rsquo;ve contributed to the sig-autoscaling community</li>
+<li><a href="https://chaitu-kopparthi.medium.com/scaling-kubernetes-workloads-using-custom-prometheus-metrics-1eb64b23919e">chaitu-kopparthi.medium.com: Scaling Kubernetes workloads using custom Prometheus metrics</a></li>
+<li><a href="https://medium.com/@niklas.uhrberg/auto-scaling-in-kubernetes-using-kafka-and-application-metrics-part-1-a509256b64ff">medium.com/@niklas.uhrberg: Auto scaling in Kubernetes using Kafka and application metrics — part 1</a> In this article, you will find a case study on auto scaling long-running jobs in Kubernetes using external metrics from Kafka and the application itself.</li>
+<li><a href="https://openai.com/blog/scaling-kubernetes-to-7500-nodes/">openai.com: Scaling Kubernetes to 7,500 Nodes</a></li>
+<li><a href="https://www.thinksys.com/devops/kubernetes-autoscaling/">thinksys.com: Understanding Kubernetes Autoscaling</a> Types of Kubernetes Autoscaling:<ul>
+<li>Horizontal Pod Autoscaler (HPA)</li>
+<li>Vertical Pod Autoscaler (VPA)</li>
+<li>Cluster Autoscaler</li>
+</ul>
+</li>
+<li><a href="https://medium.com/mindboard/what-is-autoscaling-in-kubernetes-109c7b5d321">medium.com/mindboard: What is Autoscaling in Kubernetes?</a> Autoscaling is useful feature in Kubernetes that helps you to automatically adjust the number &amp; resource consumption of pods in your deployment to meet the changing needs of your app.</li>
+<li><a href="https://www.clickittech.com/devops/kubernetes-autoscaling/">clickittech.com: Kubernetes Autoscaling: How to use the Kubernetes Autoscaler</a> In this tutorial, you&rsquo;ll install and test three different autoscaler on EKS:<ul>
+<li>Horizontal Pod Autoscaler</li>
+<li>Vertical Pod Autoscaler</li>
+<li>Cluster Autoscaler</li>
+</ul>
+</li>
+</ul>
+<h2 id="cluster-autoscaler-kubernetes-tool">Cluster Autoscaler Kubernetes Tool</h2>
+<ul>
+<li><a href="https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler">github.com/kubernetes: <strong>Kubernetes Cluster Autoscaler</strong></a></li>
+<li><a href="https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa">Kubernetes Autoscaling in Production: Best Practices for <strong>Cluster Autoscaler, HPA and VPA</strong></a> In this article we will take a deep dive into Kubernetes autoscaling tools including the cluster autoscaler, the horizontal pod autoscaler and the vertical pod autoscaler. We will also identify best practices that developers, DevOps and Kubernetes administrators should follow when configuring these tools.</li>
+<li><a href="https://levelup.gitconnected.com/kubernetes-autoscaling-101-cluster-autoscaler-horizontal-pod-autoscaler-and-vertical-pod-2a441d9ad231">gitconnected.com: Kubernetes Autoscaling 101: Cluster Autoscaler, Horizontal Pod Autoscaler, and Vertical Pod Autoscaler</a></li>
+<li><a href="https://www.packet.com/resources/guides/kubernetes-cluster-autoscaler-on-packet/">packet.com: Kubernetes Cluster Autoscaler</a></li>
+<li><a href="https://itnext.io/kubernetes-cluster-autoscaler-more-than-scaling-out-7b2d97f10b27">itnext.io: Kubernetes Cluster Autoscaler: More than scaling out</a></li>
+<li><a href="https://cloud.ibm.com/docs/containers?topic=containers-troubleshoot_cluster_autoscaler">cloud.ibm.com: Containers Troubleshoot Cluster Autoscaler</a></li>
+<li><a href="https://platform9.com/blog/kubernetes-autoscaling-options-horizontal-pod-autoscaler-vertical-pod-autoscaler-and-cluster-autoscaler/">platform9.com: Kubernetes Autoscaling Options: Horizontal Pod Autoscaler, Vertical Pod Autoscaler and Cluster Autoscaler</a></li>
+<li><a href="https://banzaicloud.com/blog/k8s-cluster-autoscaler/">banzaicloud.com: Autoscaling Kubernetes clusters</a></li>
+<li><a href="https://tech.deliveryhero.com/dynamically-overscaling-a-kubernetes-cluster-with-cluster-autoscaler-and-pod-priority/">tech.deliveryhero.com: Dynamically overscaling a Kubernetes cluster with cluster-autoscaler and Pod Priority</a></li>
+<li><a href="https://medium.com/better-programming/build-kubernetes-autoscaling-for-cluster-nodes-and-application-pods-bb7f2d716b07">medium: Build Kubernetes Autoscaling for Cluster Nodes and Application Pods 🌟</a></li>
+<li><a href="https://medium.com/faun/autoscaling-in-kubernetes-cluster-bc55b8393a19">Auto-Scaling Your Kubernetes Workloads (K8s) 🌟</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/cluster-autoscaler-type-in-kubernetes-part2-f2ae432eefbb">medium: Cluster Autoscaler in Kubernetes</a></li>
+<li><a href="https://itnext.io/kubernetes-resources-and-autoscaling-from-basics-to-greatness-7cae17fbf27b">itnext.io: Kubernetes Resources and Autoscaling — From Basics to Greatness 🌟</a></li>
+<li><a href="https://kubedex.com/autoscaling">kubedex.com: autoscaling 🌟</a></li>
+<li><a href="https://chrisedrego.medium.com/kubernetes-autoscaling-series-cluster-autoscaler-5d60c10c3dc1"><mark>chrisedrego.medium.com: Kubernetes AutoScaling Series: Cluster AutoScaler</mark> 🌟</a></li>
+<li><a href="https://symbiosis.host/blog/comparing-node-launch-times">symbiosis.host: Benchmarking Kubernetes node initialization</a> <strong>In this benchmark, you will compare cluster initialization time across 8 managed Kubernetes providers</strong><ul>
+<li>Kubernetes nodes are slow to initialize. OS&rsquo;s have to be booted, networks have to be configured, kubelets need to initialize, certificates need to be issued and approved, and so on&hellip;</li>
+<li>The unfortunate side effect is that cluster autoscaling is limited by the time it takes to add more nodes into the pool. If your environment sees a sudden spike in usage there might not be enough time to scale up to handle the additional load.</li>
+<li>This volatility in usage will impact the amount of additional capacity that is necessary for your cluster to function during high stress. For very bursty settings you will need to configure more headroom to account for the hightened variance.</li>
+<li>However, the faster nodes initialize the faster your cluster can react to these sudden spikes. So, not only can quick nodes reduce the risk of resource congestion, it also reduces the additional headroom you need to have on hand, leading to lower costs.</li>
+<li>In this benchmark we compared initialization time across 8 managed Kubernetes providers.</li>
+</ul>
+</li>
+<li><a href="https://the-gigi.github.io/gigi-zone/posts/2024/05/advanced-k8s-scheduling-and-autoscaling/">the-gigi.github.io: Advanced Kubernetes Scheduling and Autoscaling</a></li>
+</ul>
+<center>
+<p><a href="https://symbiosis.host/blog/comparing-node-launch-times"><img alt="benchmarking-k8s-node-initialization" src="images/benchmarking-k8s-node-initialization.png" /></a></p>
+</center>
+<h2 id="hpa-and-vpa">HPA and VPA</h2>
+<ul>
+<li><a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">HPA: Horizontal Pod Autoscaler</a></li>
+<li><a href="https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler">VPA: Vertical Pod Autoscaler</a></li>
+<li><a href="https://www.returngis.net/2020/07/escalado-vertical-de-tus-pods-en-kubernetes/">returngis.net: Escalado vertical de tus pods en Kubernetes con VerticalPodAutoscaler</a></li>
+<li><a href="https://medium.com/better-programming/build-kubernetes-autoscaling-for-cluster-nodes-and-application-pods-bb7f2d716b07">medium: Build Kubernetes Autoscaling for Cluster Nodes and Application Pods</a> Via the Cluster Autoscaler, Horizontal Pod Autoscaler, and Vertical Pod Autoscaler</li>
+<li><a href="https://itnext.io/horizontal-pod-autoscaling-with-custom-metric-from-different-namespace-f19f8446143b">itnext.io: Horizontal Pod Autoscaling with Custom Metric from Different Namespace</a></li>
+<li><a href="https://medium.com/google-cloud/kubernetes-autoscaling-with-istio-metrics-76442253a45a">Kubernetes autoscaling with Istio metrics 🌟</a> Scaling based on traffic is not something new to Kubernetes, an ingress controllers such as NGINX can expose Prometheus metrics for HPA. <strong>The difference in using Istio is that you can autoscale backend services as well, apps that are accessible only from inside the mesh.</strong></li>
+<li><a href="https://medium.com/expedia-group-tech/autoscaling-in-kubernetes-a-primer-on-autoscaling-7b8f0f95a928">medium: &#8531; Autoscaling in Kubernetes: A Primer on Autoscaling</a><ul>
+<li><a href="https://medium.com/expedia-group-tech/autoscaling-in-kubernetes-options-features-and-use-cases-c8a6ce145957">medium: &#8532; Autoscaling in Kubernetes: Options, Features, and Use Cases</a></li>
+<li><a href="https://medium.com/expedia-group-tech/autoscaling-in-kubernetes-why-doesnt-the-horizontal-pod-autoscaler-work-for-me-5f0094694054">medium: 3/3 Autoscaling in Kubernetes: Why doesn’t the Horizontal Pod Autoscaler work for me?</a></li>
+</ul>
+</li>
+<li><a href="https://around25.com/blog/horizontal-pod-autoscaler-in-kubernetes/">around25.com: Horizontal Pod Autoscaler in Kubernetes 🌟</a></li>
+<li><a href="https://www.superawesome.com/blog/how-we-scale-our-kid-safe-technology-using-auto-scaling-on-kubernetes/">superawesome.com: Scaling pods with HPA using custom metrics. How we scale our kid-safe technology using Kubernetes 🌟</a></li>
+<li><a href="https://www.velotio.com/engineering-blog/autoscaling-in-kubernetes-using-hpa-vpa">velotio.com: Autoscaling in Kubernetes using HPA and VPA</a></li>
+<li><a href="https://github.com/ninlil/kubectl-vpa">kubectl-vpa</a> Tool to manage VPAs (vertical-pod-autoscaler) resources in a kubernetes-cluster</li>
+<li><a href="https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81">itnext.io: K8s Vertical Pod Autoscaling 🌟</a></li>
+<li><a href="https://czakozoltan08.medium.com/stupid-simple-scalability-dc4a7fbe67d6">czakozoltan08.medium.com: Stupid Simple Scalability</a></li>
+<li><a href="https://sysdig.com/blog/kubernetes-hpa-prometheus/">sysdig.com: Trigger a Kubernetes HPA with Prometheus metrics</a> Using Keda to query #prometheus in order to automatically create a Kubernetes HPA</li>
+<li><a href="https://www.cloudnatively.com/kubernetes-hpa-explanation/">cloudnatively.com: Understanding Horizontal Pod Autoscaling</a></li>
+<li><a href="https://blog.px.dev/autoscaling-custom-k8s-metric/">blog.px.dev: Horizontal Pod Autoscaling with Custom Metrics in Kubernetes 🌟</a> In this post, you&rsquo;ll learn how to autoscale your Kubernetes deployment using custom application metrics (i.e. HTTP requests/second)</li>
+<li><a href="https://awstip.com/kubernetes-hpa-8b7cf54f115">awstip.com: Kubernetes HPA</a> HPA, the short form Horizontal pod autoscaling, is nothing but a piece of software that dynamically scales the pods based on thresholds like CPU, Memory, HTTP requests (custom metrics).</li>
+<li><a href="https://medium.com/@CloudifyOps/setting-up-a-horizontal-pod-autoscaler-for-kubernetes-cluster-a7d3cf3be7">medium.com/@CloudifyOps: Setting up a Horizontal Pod Autoscaler for Kubernetes cluster</a></li>
+<li><a href="https://betterprogramming.pub/advanced-features-of-kubernetes-horizontal-pod-autoscaler-536ebd7893ad">betterprogramming.pub: Advanced Features of Kubernetes’ Horizontal Pod Autoscaler</a> Kubernetes’ Horizontal Pod Autoscaler has features you probably don’t know about. Here’s how to use them to your advantage.</li>
+<li><a href="https://code.egym.de/horizontal-pod-autoscaler-in-kubernetes-part-1-simple-autoscaling-using-metrics-server-929e96cc2ab2">code.egym.de: Horizontal Pod Autoscaler in Kubernetes (Part 1) — Simple Autoscaling using Metrics Server</a> Learn how to use Metrics Server to horizontally scale native and JVM services in Kubernetes automatically based on resource metrics.</li>
+<li><a href="https://medium.com/@kewynakshlley/performance-evaluation-of-the-autoscaling-strategies-vertical-and-horizontal-using-kubernetes-42d9a1663e6b">medium.com/@kewynakshlley: Performance evaluation of the autoscaling strategies vertical and horizontal using Kubernetes</a> Scalable applications may adopt horizontal or vertical autoscaling to dynamically provision resources in the cloud. To help to choose the best strategy, this work aims to compare the performance of horizontal and vertical autoscaling in Kubernetes. Through measurement experiments using synthetic load to a web application, the horizontal was shown more efficient, reacting faster to the load variation and resulting in a lower impact on the application response time.</li>
+<li><a href="https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6">itnext.io: Stupid Simple Scalability</a></li>
+<li><a href="https://faun.pub/scaling-your-application-using-kubernetes-9ad0d6bcf0d6">faun.pub: Scaling Your Application Using Kubernetes - Harness | Pavan Belagatti</a></li>
+<li><a href="https://dnastacio.medium.com/kubernetes-resources-1a1fa1e72dcf">dnastacio.medium.com: Infinite scaling with containers and Kubernetes</a> The article starts with a recap of Kubernetes resource management and its core concepts of requests and limits. Then it discusses those static limits in the realm of pod autoscalers, such as HPA, VPA, and KPA.</li>
+<li><a href="https://medium.com/@badawekoo/scaling-in-kubernetes-what-why-and-how-d120e99be071">medium.com/@badawekoo: Scaling in Kubernetes _What, Why and How?</a></li>
+<li><a href="https://pauldally.medium.com/horizontalpodautoscaler-uses-request-not-limit-to-determine-when-to-scale-97643d808997">pauldally.medium.com: HorizontalPodAutoscaler uses request (not limit) to determine when to scale by percent</a> In this article, you will learn how the Horizontal Pod Autoscaler uses requests (and not limits) when computing the target utilization percentage to scale pods</li>
+<li><a href="https://dev.to/pavanbelagatti/scaling-your-application-with-kubernetes-5715">dev.to: Scaling Your Application With Kubernetes | Pavan Belagatti</a></li>
+<li><a href="https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler">github.com/jthomperoo: Predictive Horizontal Pod Autoscaler</a> Horizontal Pod Autoscaler built with predictive abilities using statistical models. Predictive Horizontal Pod Autoscalers (PHPAs) are Horizontal Pod Autoscalers (HPAs) with extra predictive capabilities baked in, allowing you to apply statistical models to the results of HPA calculations to make proactive scaling decisions.</li>
+<li><a href="https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet/"><mark>thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet</mark> 🌟</a> A concise but comprehensive guide to using and managing horizontal and vertical autoscaling in the Kubernetes environment.</li>
+<li><a href="https://waswani.medium.com/autoscaling-pods-in-kubernetes-37d05000c41">waswani.medium.com: Autoscaling Pods in Kubernetes</a> If you are hosting your workload in a cloud environment, and your traffic pattern is fluctuating in nature (think unpredictable), you need a mechanism to automatically scale out (and off-course scale in) your workload to ensure the service is able to perform as per defined Service Level Objective (SLO), without impacting the User Experience. This semantic is referred to as Autoscaling, to be very precise Horizontal Scaling.</li>
+<li><a href="https://mckornfield.medium.com/working-with-hpas-in-kubernetes-ced39263b596">mckornfield.medium.com: Working with HPAs in Kubernetes</a> How to make your Kubernetes workloads scale with a few simple steps</li>
+<li><a href="https://code.egym.de/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f">code.egym.de: Vertical Pod Autoscaler in Kubernetes</a> Learn how to use Vertical Pod Autoscaler (VPA) to vertically scale services in Kubernetes automatically based on resource metrics.</li>
+<li><a href="https://faun.pub/intelligently-estimating-your-kubernetes-resource-needs-c12a75ea3138">faun.pub: Intelligently estimating your Kubernetes resource needs!</a> In this tutorial, you will learn how to use the Vertical Pod Autoscaler and Goldilocks to guess the correct requests and limits for your Pods</li>
+<li><a href="https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9">itnext.io: Kubernetes: vertical Pods scaling with Vertical Pod Autoscaler</a></li>
+<li><a href="https://medium.com/@adityadhopade18/mastering-k8s-event-driven-autoscaling-cd1b9df78903">medium.com/@adityadhopade18: Mastering K8s Event Driven AutoScaling</a></li>
+</ul>
+<h3 id="kubernetes-scale-to-zero">Kubernetes Scale to Zero</h3>
+<ul>
+<li><a href="https://dzone.com/articles/scale-to-zero-with-kubernetes">dzone: Scale to Zero With Kubernetes with KEDA and/or Knative</a> This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.</li>
+<li><a href="https://dev.to/danielepolencic/request-based-autoscaling-in-kubernetes-scaling-to-zero-2i73"><mark>dev.to/danielepolencic: Request-based autoscaling in Kubernetes: scaling to zero</mark></a> - <a href="https://www.linode.com/blog/kubernetes/scaling-kubernetes-to-zero-and-back/">linode.com: Scaling Kubernetes to Zero (And Back)</a> <strong>In this article, you will learn how to monitor the HTTP requests to your apps in Kubernetes and define autoscaling rules to increase and decrease replicas for your workloads.</strong></li>
+</ul>
+<h2 id="cluster-autoscaler-and-helm">Cluster Autoscaler and Helm</h2>
+<ul>
+<li><a href="https://hub.helm.sh/charts/stable/cluster-autoscaler">hub.helm.sh: cluster-autoscaler</a> The cluster autoscaler scales worker nodes within an AWS autoscaling group (ASG) or Spotinst Elastigroup.</li>
+</ul>
+<h2 id="keda-kubernetes-event-driven-autoscaling">KEDA Kubernetes Event Driven Autoscaling</h2>
+<ul>
+<li><a href="https://keda.sh"><mark>keda.sh: Kubernetes Event-driven Autoscaling. Application autoscaling made simple.</mark></a> <strong>KEDA is a Kubernetes-based Event Driven Autoscaler. With KEDA, you can drive the scaling of any container in Kubernetes based on the number of events needing to be processed.</strong> <a href="https://github.com/kedacore/keda">https://github.com/kedacore/keda</a></li>
+<li><a href="https://medium.com/backstagewitharchitects/how-autoscaling-works-in-kubernetes-why-you-need-to-start-using-keda-b601b483d355">medium.com/backstagewitharchitects: How Autoscaling Works in Kubernetes? Why You Need To Start Using KEDA?</a></li>
+<li><a href="https://partlycloudy.blog/2020/05/29/horizontal-autoscaling-in-kubernetes-3-keda/">partlycloudy.blog: Horizontal Autoscaling in Kubernetes #3 – KEDA</a></li>
+<li><a href="https://thenewstack.io/microsoft-keda-2-0-scales-up-event-driven-programming-on-kubernetes/">thenewstack.io: CNCF KEDA 2.0 Scales up Event-Driven Programming on Kubernetes</a></li>
+<li><a href="https://blog.cloudacode.com/how-to-autoscale-kubernetes-pods-based-on-ingress-request-prometheus-keda-and-k6-84ae4250a9f3">blog.cloudacode.com: How to Autoscale Kubernetes pods based on ingress request — Prometheus, KEDA, and K6</a> In this article, you will learn how autoscale pods with KEDA, Prometheus and the metrics from the ingress-nginx. You will use k6 to generate the load and observe the pod count increase as more requests are handled by the ingress controller.</li>
+<li><a href="https://medium.com/@toonvandeuren/kubernetes-scaling-the-event-driven-approach-bdd58ded4e3f">medium.com/@toonvandeuren: Kubernetes Scaling: The Event Driven Approach - KEDA</a> In this article, you&rsquo;ll discuss two different approaches to automatic scaling of your apps within a Kubernetes cluster: the Horizontal Pod Autoscaler and the Kubernetes Event-Driven Autoscaler (KEDA) - <a href="https://www.youtube.com/watch?v=c5t1y9V8HWc">youtube: Application Autoscaling Made Easy With Kubernetes Event-Driven Autoscaling (KEDA)</a></li>
+<li><a href="https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda">Dzone: Autoscaling Your Kubernetes Microservice with KEDA</a> Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.</li>
+<li><a href="https://tomd.xyz/kubernetes-event-driven-keda/">tomd.xyz: Event-driven integration on Kubernetes with Camel &amp; KEDA 🌟</a> Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.</li>
+<li><a href="https://faun.pub/keda-ec9fc7c8dd81">faun.pub: Scaling an app in Kubernetes with KEDA (no Prometheus is needed)</a></li>
+<li><a href="https://itnext.io/event-driven-autoscaling-503b5cefaa49">itnext.io: Event Driven Autoscaling</a> KEDA expands the capabilities of Kubernetes by managing the integration with external sources allowing you to auto-scale your Kubernetes Deployments based on data from both internal and external metrics.</li>
+<li><a href="https://medium.com/@casperrubaek/why-keda-is-a-game-changer-for-scaling-in-kubernetes-4ebf34cb4b61">medium.com/@casperrubaek: Why KEDA is a game-changer for scaling in Kubernetes</a> KEDA makes it possible to easily scale based on any metric imaginable from almost any metric provider and is running at a massive scale in production in the cloud at some of the largest corporations in the world.</li>
+<li><a href="https://levelup.gitconnected.com/scale-your-apps-using-keda-in-kubernetes-a1f2142ecc20">levelup.gitconnected.com: Scale your Apps using KEDA in Kubernetes</a></li>
+<li><a href="https://blog.devops.dev/keda-autoscaling-kubernetes-apps-using-prometheus-da037fe572cf">blog.devops.dev: KEDA: Autoscaling Kubernetes apps using Prometheus</a></li>
+<li><a href="https://purushothamkdr453.medium.com/event-driven-autoscaling-in-kubernetes-using-keda-a0c16a383619">purushothamkdr453.medium.com: Event driven autoscaling in kubernetes using KEDA</a></li>
+<li><a href="https://medium.com/@rtaplamaci/horizontal-scaling-on-kubernetes-clusters-based-on-aws-cloudwatch-metrics-with-keda-7c9e0e3ba5f">medium.com/@rtaplamaci: Horizontal Scaling on Kubernetes Clusters Based on AWS CloudWatch Metrics with KEDA</a> In this article, you will learn how to use KEDA to horizontally scale the workloads running in a Kubernetes cluster based on the custom metrics exposed via AWS CloudWatch</li>
+<li><a href="https://medium.com/@hirushanonline/dynamic-scaling-with-kubernetes-event-driven-autoscaling-keda-caaa15096e1c">medium.com/@hirushanonline: Dynamic Scaling with Kubernetes Event-driven Autoscaling (KEDA)</a></li>
+<li><a href="https://www.kedify.io/blog-posts/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does">kedify.io: Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does</a></li>
+<li><a href="https://github.com/kedacore/keda/issues/2214">github.com/kedacore/keda/issues/2214</a> Scaler for Amazon managed service for Prometheus</li>
+<li><a href="https://opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda">opcito.com: A guide to mastering autoscaling in Kubernetes with KEDA</a></li>
+<li><a href="https://dev.to/vinod827/scale-your-apps-using-keda-in-kubernetes-4i3h">dev.to/vinod827: Scale your apps using KEDA in Kubernetes</a></li>
+</ul>
+<h2 id="cluster-autoscaler-and-dockerhub">Cluster Autoscaler and DockerHub</h2>
+<ul>
+<li><a href="https://hub.docker.com/r/bitnami/cluster-autoscaler/">bitnami/cluster-autoscaler</a></li>
+</ul>
+<h2 id="cluster-autoscaler-in-gke-eks-aks-and-doks">Cluster Autoscaler in GKE, EKS, AKS and DOKS</h2>
+<ul>
+<li><a href="https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html">Amazon Web Services: EKS Cluster Autoscaler</a><ul>
+<li><a href="https://eksworkshop.com/scaling/deploy_ca/">eksworkshop.com: Configure Cluster Autoscaler (CA)</a></li>
+</ul>
+</li>
+<li><a href="https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler">Azure: AKS Cluster Autoscaler</a></li>
+<li><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler">Google Cloud Platform: GKE Cluster Autoscaler</a></li>
+<li><a href="https://www.digitalocean.com/docs/kubernetes/how-to/autoscale/">DigitalOcean Kubernetes: DOKS Cluster Autoscaler</a></li>
+</ul>
+<h2 id="cluster-autoscaler-in-openshift">Cluster Autoscaler in OpenShift</h2>
+<ul>
+<li><a href="https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html">OpenShift 3.11: Configuring the cluster auto-scaler in AWS</a></li>
+<li><a href="https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html">OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster</a></li>
+</ul>
+<h2 id="scaling-kubernetes-to-multiple-clusters-and-regions">Scaling Kubernetes to multiple clusters and regions</h2>
+<ul>
+<li><a href="https://dev.to/danielepolencic/scaling-kubernetes-to-multiple-clusters-and-regionss-294b"><mark>dev.to/danielepolencic: Scaling Kubernetes to multiple clusters and regions</mark> 🌟</a></li>
+</ul>
+<h2 id="kubernetes-load-testing-and-high-load-tuning">Kubernetes Load Testing and High Load Tuning</h2>
+<ul>
+<li><a href="https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791">itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions</a></li>
+<li><a href="https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html">engineering.zalando.com: Building an End to End load test automation system on top of Kubernetes</a> Learn how we built an end-to-end load test automation system to make load tests a routine task.</li>
+<li><a href="https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape/">thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape</a> Sidecars don&rsquo;t just capture traffic. They can replay it as well. They can also transform any metadata, like timestamps, before it sends it to your application.</li>
+<li><a href="https://medium.com/teamsnap-engineering/load-testing-a-service-with-20-000-requests-per-second-with-locust-helm-and-kustomize-ea9bea02ae28">medium.com/teamsnap-engineering: Load Testing a Service with ~20,000 Requests per Second with Locust, Helm, and Kustomize</a></li>
+</ul>
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">☁️ Knowledge - Vertical vs Horizontal scaling 📈<br><br>Vertical scaling: Increase the power of machines. E.g. upgrade from 4 vCPU to 8 vCPU --&gt; Scaling Up ✅<br><br>Horizontal scaling: Add more machines. E.g. 3 web servers instead of 1 --&gt; Scaling Out ☑️</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1444186670677610500?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+
+<h2 id="videos">Videos</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3BnrXapY7zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -7783,12 +8283,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascript/extra.js"></script>
+        <script src="javascript/extra.js"></script>
       
     
   </body>

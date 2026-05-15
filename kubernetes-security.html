@@ -12,11 +12,13 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
-        <link rel="canonical" href="https://nubenetes.com/index.html">
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-security.html">
       
       
+        <link rel="prev" href="kubernetes-monitoring.html">
       
-        <link rel="next" href="introduction.html">
+      
+        <link rel="next" href="kubernetes-storage.html">
       
       
         
@@ -27,7 +29,7 @@
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Security - Nubenetes</title>
       
     
     
@@ -90,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nubenetes-awesome-kubernetes-cloud" class="md-skip">
+        <a href="#kubernetes-security" class="md-skip">
           Skip to content
         </a>
       
@@ -131,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Kubernetes Security
             
           </span>
         </div>
@@ -260,10 +262,8 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
+    <li class="md-tabs__item">
       <a href="index.html" class="md-tabs__link">
         
   
@@ -410,10 +410,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="kubernetes.html" class="md-tabs__link">
           
   
@@ -948,37 +950,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -994,412 +969,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#motivation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Motivation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Introduction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sre-site-reliability-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SRE Site Reliability Engineering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devops" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devsecops-and-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevSecOps and Security
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#noops-aka-serverless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NoOps aka Serverless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Docker
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#red-hat-openshift" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Red Hat OpenShift
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suse-rancher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SUSE Rancher
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#software-delivery-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Software Delivery Pipeline
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Software Delivery Pipeline">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#jenkins-cloudbees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Jenkins &amp; CloudBees
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openshift-pipelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenShift Pipelines
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#web-servers-reverse-proxies-java-runtimes-caching-solutions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#monitoring-and-performance-prometheus-grafana-apms-and-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Monitoring and Performance. Prometheus, Grafana, APMs and more
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#infrastructure-provisioning-infra-management-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Infrastructure Provisioning. Infra Management Tools
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration Management
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#databases-on-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Databases on Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#service-mesh" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Service Mesh
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#demos-and-boilerplates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Demos and Boilerplates
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apis-with-soap-rest-and-grpc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        APIs with SOAP, REST and gRPC
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-frameworks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Development &amp; Frameworks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Development &amp; Frameworks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#microsoft" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Microsoft
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#java" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dev-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dev Environment
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatestops-continuous-testing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        QA/TestOps - Continuous Testing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-management-methodology" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Project Management Methodology
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#more-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        More References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hiring-and-freelancing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hiring and Freelancing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#customer-success-stories" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Customer Success Stories
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2190,8 +1759,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -2239,19 +1810,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -2269,7 +1843,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2452,10 +2026,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="kubernetes-security.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Security
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-security.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2471,6 +2072,446 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iam-identity-and-access-management-in-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IAM Identity And Access Management in Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#securing-kubernetes-deployments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Securing Kubernetes Deployments
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#securing-a-kubernetes-cluster-using-tls-certificates-wildcard-certificates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Securing a Kubernetes cluster using TLS certificates. Wildcard certificates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-security-scanners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Security Scanners
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-checklist-kubernetes-owasp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Checklist Kubernetes OWASP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exposed-kubernetes-clusters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exposed Kubernetes Clusters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nsa-national-security-agent-kubernetes-hardening-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NSA National Security Agent Kubernetes Hardening Guidance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cis-benchmarks-and-cis-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIS Benchmarks and CIS Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-and-workload-identities-in-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User and Workload identities in Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Accounts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-secrets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Secrets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-cert-manager-encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let&rsquo;s Encrypt in Kubernetes Ingress via cert-manager
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-openid-connect-oidc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes OpenID Connect OIDC
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes OpenID Connect OIDC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#oauth2-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OAuth2 Proxy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rbac-and-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RBAC and Access Control
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RBAC and Access Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-and-ldap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes and LDAP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#admission-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Admission Control
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-security-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Security Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-authentication-and-authorization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Authentication and Authorization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Authentication and Authorization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-authentication-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Authentication Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x509-client-certificates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        X.509 client certificates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#static-http-bearer-tokens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static HTTP Bearer Tokens
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openid-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenID Connect
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementing-a-custom-kubernetes-authentication-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementing a custom Kubernetes authentication method
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pod-security-policies-sccs-security-context-constraints-in-openshift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pod Security Policies (SCCs - Security Context Constraints in OpenShift)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-profiles-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Profiles Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eks-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EKS Security
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-secrets-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Secrets Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CVE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CVE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#official-kubernetes-cve-feed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Official Kubernetes CVE Feed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-security_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        kubernetes-security
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -8026,475 +8067,642 @@
 
 
 
-<h1 id="nubenetes-awesome-kubernetes-cloud">Nubenetes: Awesome Kubernetes &amp; Cloud <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
-<div class="admonition tip">
-<p class="admonition-title">Nubenetes V2: Agentic Elite Edition is now live!</p>
-<p>Looking for a high-density, AI-curated experience? Explore our <a href="/v2/"><strong>V2 Elite Portal</strong></a> - Optimized for 2026 Architectural Standards.</p>
-</div>
-<p>A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration &amp; Delivery), and API-focused designs.</p>
-<p><a href="https://nubenetes.com">Nubenetes</a> is also available at <a href="https://awesome-kubernetes.readthedocs.io/">this other site</a>.</p>
-<p>&ldquo;I do not believe you can do today&rsquo;s job with yesterday&rsquo;s methods and be in business tomorrow&rdquo; (<a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson">Horatio Nelson Jackson</a>)</p>
-<center>
-<p><a href="https://www.cncf.io/certification/software-conformance/"><img alt="container_with_cars" src="images/container_with_cars.png" /></a> <br/></p>
-</center>
-<hr />
-<h2 id="motivation">Motivation</h2>
-<ul>
-<li><a href="https://microservices.io/">microservices.io</a></li>
-<li><a href="https://www.cncf.io/">cncf.io</a><ul>
-<li><a href="https://landscape.cncf.io/">landscape.cncf.io</a></li>
-<li><a href="https://www.cncf.io/certification/software-conformance/">Certified Kubernetes offerings</a></li>
-<li><a href="https://www.cncf.io/reports/">CNCF Reports</a><ul>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf">CNCF Survey Report 2019</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/11/CNCF_Survey_Report_2020.pdf">CNCF Survey Report 2020</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf">CNCF Survey Report 2021</a> - <a href="https://www.infoq.com/news/2022/01/ -cncf-state-of-cloud-native">CNCF Publishes State of Cloud Native Development Report</a> - <a href="https://www.cncf.io/announcements/2022/02/10/cncf-sees-record-kubernetes-and-container-adoption-in-2021-cloud-native-survey/">CNCF Sees Record Kubernetes and Container Adoption</a></li>
-</ul>
+<h1 id="kubernetes-security">Kubernetes Security</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#iam-identity-and-access-management-in-kubernetes">IAM Identity And Access Management in Kubernetes</a></li>
+<li><a href="#securing-kubernetes-deployments">Securing Kubernetes Deployments</a></li>
+<li><a href="#securing-a-kubernetes-cluster-using-tls-certificates-wildcard-certificates">Securing a Kubernetes cluster using TLS certificates. Wildcard certificates</a></li>
+<li><a href="#kubernetes-security-scanners">Kubernetes Security Scanners</a></li>
+<li><a href="#security-checklist-kubernetes-owasp">Security Checklist Kubernetes OWASP</a></li>
+<li><a href="#exposed-kubernetes-clusters">Exposed Kubernetes Clusters</a></li>
+<li><a href="#nsa-national-security-agent-kubernetes-hardening-guidance">NSA National Security Agent Kubernetes Hardening Guidance</a></li>
+<li><a href="#cis-benchmarks-and-cis-operator">CIS Benchmarks and CIS Operator</a></li>
+<li><a href="#user-and-workload-identities-in-kubernetes">User and Workload identities in Kubernetes</a></li>
+<li><a href="#service-accounts">Service Accounts</a></li>
+<li><a href="#kubernetes-secrets">Kubernetes Secrets</a></li>
+<li><a href="#kubernetes-cert-manager-encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager">Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let&rsquo;s Encrypt in Kubernetes Ingress via cert-manager</a></li>
+<li><a href="#kubernetes-openid-connect-oidc">Kubernetes OpenID Connect OIDC</a><ol>
+<li><a href="#oauth2-proxy">OAuth2 Proxy</a></li>
+<li><a href="#alternatives">Alternatives</a></li>
+</ol>
 </li>
-</ul>
+<li><a href="#rbac-and-access-control">RBAC and Access Control</a><ol>
+<li><a href="#tools">Tools</a></li>
+</ol>
 </li>
-<li><a href="https://puppet.com/resources/?refinementList%5Btype%5D%5B0%5D=Report&amp;page=1&amp;configure%5BhitsPerPage%5D=18">State of DevOps Reports</a><ul>
-<li><a href="https://puppet.com/resources/report/2020-state-of-devops-report">2020 State of DevOps Report</a></li>
-<li><a href="https://puppet.com/resources/report/2020-devops-salary-report">2020 DevOps Salary Report</a></li>
-<li><a href="https://puppet.com/resources/report/2021-state-of-devops-report">2021 State of DevOps Report: A decade of DevOps</a></li>
-<li><a href="https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021">2021 Gartner Report Top Trends Infra &amp; Operations</a></li>
-</ul>
+<li><a href="#kubernetes-and-ldap">Kubernetes and LDAP</a></li>
+<li><a href="#admission-control">Admission Control</a></li>
+<li><a href="#kubernetes-security-best-practices">Kubernetes Security Best Practices</a></li>
+<li><a href="#kubernetes-authentication-and-authorization">Kubernetes Authentication and Authorization</a><ol>
+<li><a href="#kubernetes-authentication-methods">Kubernetes Authentication Methods</a></li>
+<li><a href="#x509-client-certificates">X.509 client certificates</a></li>
+<li><a href="#static-http-bearer-tokens">Static HTTP Bearer Tokens</a></li>
+<li><a href="#openid-connect">OpenID Connect</a></li>
+<li><a href="#implementing-a-custom-kubernetes-authentication-method">Implementing a custom Kubernetes authentication method</a></li>
+</ol>
 </li>
-<li><a href="https://cri-o.io/">CRI-O Lightweight Container Runtime for Kubernetes</a></li>
-<li><a href="https://www.opencontainers.org/">Open Container Initiative</a></li>
-<li><a href="http://agilemethodology.org/">agilemethodology.org</a></li>
-<li><a href="http://agilemanifesto.org/">agilemanifesto.org</a></li>
-<li><a href="https://12factor.net/">12factor.net</a> - <a href="https://dzone.com/articles/are-you-12-factor-application-ready">Are You 12-Factor Application Ready?</a> - <a href="https://dzone.com/whitepapers/the-12-factor-app-infographic">12-factor app infographic</a> - <a href="https://www.redhat.com/architect/12-factor-app">An illustrated guide to 12 Factor Apps 🌟</a></li>
-<li><a href="https://openpracticelibrary.com/">openpracticelibrary.com</a> - <a href="https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts">Top 10 most visited pages</a></li>
-<li><a href="https://roadmap.sh/">roadmap.sh</a> - <a href="https://roadmap.sh/devops">DevOps Roadmap</a> - <a href="https://roadmap.sh/kubernetes">Kubernetes Roadmap</a><ul>
-<li><a href="https://roadmap.sh/ai">roadmap.sh/ai: Generate roadmaps with AI</a></li>
-<li><a href="https://roadmap.sh/terraform">roadmap.sh/terraform</a></li>
-</ul>
+<li><a href="#pod-security-policies-sccs---security-context-constraints-in-openshift">Pod Security Policies (SCCs - Security Context Constraints in OpenShift)</a></li>
+<li><a href="#security-profiles-operator">Security Profiles Operator</a></li>
+<li><a href="#eks-security">EKS Security</a></li>
+<li><a href="#external-secrets-operator">External Secrets Operator</a></li>
+<li><a href="#cve">CVE</a><ol>
+<li><a href="#official-kubernetes-cve-feed">Official Kubernetes CVE Feed</a></li>
+</ol>
 </li>
-<li><a href="https://apilandscape.apiscene.io/">API Landscape</a></li>
-<li><a href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a><ul>
-<li><a href="https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted">2021</a></li>
-<li><a href="https://survey.stackoverflow.co/2022/">2022 🌟</a> - <a href="https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3">betterprogramming.pub</a></li>
-</ul>
-</li>
-<li><a href="https://stackoverflow.com/collectives">Stack Overflow Collectives</a> Communities for your favorite technologies<ul>
-<li><a href="https://stackoverflow.com/collectives/go">Go Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/gitlab">GitLab Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/google-cloud">Google Cloud Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/aws">AWS Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/azure">Azure Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/ci-cd">CI/CD Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/wso2">WSO2 Collective</a></li>
-<li>etc</li>
-</ul>
-</li>
-<li><a href="https://opensource.guide/">Open Source Guides</a></li>
-<li><a href="https://www.opengroup.org/">The Open Group: Making Standards Work</a> - <a href="http://publications.opengroup.org/">publications.opengroup.org</a> - <a href="https://www.opengroup.org/togaf">The TOGAF® Standard, a standard of The Open Group</a></li>
-<li><a href="https://dzone.com/articles/how-your-application-architecture-evolved">How Your Application Architecture Has Evolved 🌟</a></li>
-<li><a href="https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/"><mark>Kubernetes magic is in enterprise standardization, not app portability</mark></a></li>
-<li><a href="https://containerjournal.com/features/the-rise-of-the-kubemaster/">A new role to emerge: Kubernetes Manager (KubeMaster) 🌟</a></li>
-<li><a href="https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/">An emerging Job: Kubernetes engineer 🌟</a></li>
-<li><a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report">Google DORA Report: State of DevOps 2021 🌟</a> How to accelerate DevOps - <a href="https://devops.com/google-dora-report-shows-modest-devops-gains/">summary 1</a> - <a href="https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need">summary 2</a></li>
-<li><a href="https://github.com/gayanvoice/top-github-users">Top GitHub Users By Country</a></li>
-<li><a href="https://www.redhat.com/en/blog/red-hat-automation-glossary">Red Hat automation glossary 🌟</a></li>
-<li><a href="https://www.redhat.com/sysadmin/automation-architects">The rise of the automation architect</a></li>
-<li><a href="https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/">Automation is the future of cloud cost optimization</a></li>
-<li><a href="https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx">The Rise of Modern Day Kubernetes Operations</a></li>
-<li><a href="https://www.infoq.com/articles/distributed-systems-kubernetes/">The Evolution of Distributed Systems on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/10-cloud-deficiencies-you-should-know/">10 Cloud Deficiencies You Should Know</a></li>
-<li><a href="https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team"><mark>How to Explain Kubernetes to a Business Team</mark></a></li>
-<li><a href="https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022"><mark>Pets vs. Cattle: The Future of Kubernetes in 2022</mark></a></li>
-<li><a href="https://dok.community">dok.community: DoKC Data on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/">A Kubernetes Documentary Shares Google’s Open Source Story</a></li>
-<li><a href="https://alpacked.io/blog/infrastructure-as-code-for-devops/"><mark>Infrastructure as Code in DevOps</mark></a></li>
-<li><a href="https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/">Kubernetes at Scale without GitOps Is a Bad Idea</a></li>
-<li><a href="https://dzone.com/trendreports">dzone.com/trendreports</a></li>
-<li><a href="https://kube.events">kube.events</a> A curated list of Kubernetes-related events such as meetups, conferences, training &amp; webinars that you will find interesting to attend</li>
-<li><a href="https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022">The future of Kubernetes – and why developers should look beyond Kubernetes in 2022</a></li>
-<li><a href="https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html">cloudtechtwitter.com: Introduction to Kubernetes 🌟</a></li>
-<li><a href="https://github.com/readme/guides/">GitHub Guides</a></li>
-<li><a href="https://learnk8s.io/news">learnk8s.io/news</a> How do you keep up with Kubernetes? If you are looking for curated Kubernetes news, we have you covered on:<ul>
-<li>Core Kubernetes</li>
-<li>Security</li>
-<li>Architecture &amp; development</li>
-<li>Job opportunities</li>
-<li>K3s</li>
-<li>Events</li>
-</ul>
-</li>
-<li><a href="https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/">thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟</a></li>
-<li><a href="https://dzone.com/trendreports/kubernetes-in-the-enterprise-1">dzone: Kubernetes in the Enterprise - Trend Report</a></li>
-<li><a href="https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/">Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟</a></li>
-<li><a href="https://learnk8s.io/learn-kubernetes-weekly">learnk8s.io/learn-kubernetes-weekly 🌟</a></li>
-<li><a href="https://www.infoworld.com/article/3679250/cloud-architects-are-afraid-of-automation.html">infoworld.com: Cloud architects are afraid of automation</a> Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What&rsquo;s so scary?</li>
-<li><a href="https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html">infoworld.com: The biggest obstacle to cloud is people</a> People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.</li>
-<li><a href="https://github.com/Droogans/unmaintainable-code">Droogans/How To Write Unmaintainable Code</a> Ensure a job for life ;-)</li>
-<li><a href="https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine">dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf">github.com/metaleapca: metaleap-devops-in-k8s.pdf</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf">github.com/metaleapca: metaleap-k8s-troubleshooting.pdf</a></li>
-<li><a href="https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/">devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟</a></li>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals">serverlessland.com: EDA VISUALS</a> Small bite sized visuals about event-driven architectures</li>
-<li><a href="https://dzone.com/refcardz/the-essentials-of-gitops">dzone: The Essentials of GitOps 🌟</a></li>
-<li><a href="https://dzone.com/articles/rest-vs-messaging-for-microservices">dzone.com: REST vs. Messaging for Microservices</a></li>
-<li><a href="https://thenewstack.io/the-next-kubernetes-management-frontier-automation/">The Next Kubernetes Management Frontier: Automation</a> Automation Is No Longer a “Nice to Have”</li>
-<li><a href="https://redis.com/blog/microservice-architecture-key-concepts/">redis.com: Microservice Architecture Key Concepts</a></li>
-<li><a href="https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/">thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟</a></li>
-<li><a href="https://dzone.com/articles/software-deployment-best-practices">Software Deployment Best Practices in 2023</a> Explore the best software development practices that are the proven catalysts for innovation and growth.</li>
-<li><a href="https://github.com/DevOps-Projects-Ideas/DevOps-Books"><mark>DevOps-Books</mark> 🌟</a></li>
-<li><a href="https://community.aws/kubernetes">community.aws/kubernetes</a> Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.</li>
-<li><a href="https://explore.skillbuilder.aws/learn">AWS Skill Builder</a></li>
-<li><a href="https://www.cloudcatalog.dev">cloudcatalog.dev</a> Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.</li>
-<li><a href="https://platformengineering.org">platformengineering.org</a> The global home for Platform Engineers</li>
-<li><a href="https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool">Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?</a></li>
-<li><a href="https://chaoslever.com/cl-20240118/">Redefining Virtualization in the VMware Acquisition Era</a></li>
-<li><a href="https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/">Do Kubernetes Certs Prepare You For Real-World Production?</a></li>
-<li><a href="https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c">Why I Don’t Consider Your Certifications During An Interview</a></li>
-<li><a href="https://dagger.io">dagger.io</a> CI/CD as Code that Runs Anywhere.</li>
-<li><a href="https://en.wikipedia.org/wiki/Bus_factor">Bus factor</a> The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase &ldquo;in case they get hit by a bus&rdquo;.</li>
-<li><a href="https://www.seal.io/">seal.io: Open Source Platform Engineering for Dev &amp; Ops</a></li>
-<li><a href="https://k8sgpt.ai/"><mark>k8sgpt.ai</mark></a> K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.</li>
-<li><a href="https://github.com/topics/gitops">github.com/topics/gitops</a></li>
-<li><a href="https://github.com/dolthub/dolt">Dolt: Git for Data</a></li>
-<li><a href="https://serverlesshorrors.com/">serverlesshorrors.com</a></li>
-<li><a href="https://glasskube.dev/">glasskube.dev package manager for k8s 🌟</a></li>
-<li><a href="https://github.com/infrahouse/infrahouse-toolkit">github.com/infrahouse/infrahouse-toolkit</a> A collection of tools for building infrastructure</li>
-<li><a href="https://github.com/taubyte/tau">github.com/taubyte/tau</a> Open Source Git-Native CDN PaaS</li>
-<li><a href="https://mattias.engineer/courses/"><mark>mattias.engineer/courses</mark> 🌟</a> HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD</li>
-<li><a href="https://paulbutler.org/2024/the-haters-guide-to-kubernetes/">The hater’s guide to Kubernetes</a></li>
-<li><a href="https://github.com/cyclops-ui/cyclops">github.com/cyclops-ui/cyclops</a> Developer Friendly Kubernetes</li>
-<li><a href="https://k8z.dev/">k8z.dev</a> A lightweight, modern mobile and desktop application for manage kubernetes</li>
-<li><a href="https://github.com/zegl/kube-score">Kube-score</a></li>
-<li><a href="https://testkube.io">testkube.io 🌟</a></li>
-<li><a href="https://github.com/curl/wcurl">wcurl</a> A simple wrapper around curl to easily download files</li>
-<li><a href="https://github.com/netbox-community/netbox">NetBox IPAM 🌟</a><ul>
-<li><a href="https://netboxlabs.com/">NetBox Labs</a> is the commercial steward of NetBox. We are on a mission to make it easier to build and manage complex networks.</li>
-<li><a href="https://docs.ansible.com/ansible/latest/collections/netbox/netbox/index.html">Netbox Ansible Modules</a></li>
-</ul>
-</li>
-<li><a href="https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd">youtube: GitOps Guide to the Galaxy</a></li>
-<li><a href="https://devopswithkubernetes.com/">devopswithkubernetes.com</a> Introductory course to Kubernetes with K3s and GKE</li>
-<li><a href="https://github.com/gardener/gardener">Gardener</a> Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service</li>
-<li><a href="https://collabnix.github.io/kubetools/">collabnix.github.io/kubetools 🌟</a> A Curated List of Kubernetes Tools</li>
-<li><a href="https://github.com/CastawayEGR/openshift-ai-examples">OpenShift AI Examples</a></li>
-<li><a href="https://youtube.com/playlist?list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe&amp;si=GBJtqv36O8bslj9z">Jenkins Tutorials by CloudBeesTV 🌟</a></li>
-<li><a href="https://kui.tools">kui.tools</a> Kui: CLI-driven Graphics for Kubernetes</li>
-</ul>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
 <h2 id="introduction">Introduction</h2>
 <ul>
-<li><a href="introduction.html">Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes</a></li>
-<li><a href="faq.html">Microservices FAQ &amp; Kubernetes Native</a></li>
-</ul>
-<h2 id="sre-site-reliability-engineering">SRE Site Reliability Engineering</h2>
-<ul>
-<li><a href="sre.html">Site Reliability Engineering (SRE)</a></li>
-<li><a href="networking.html">Networking</a></li>
-<li><a href="finops.html">FinOps - Cloud Financial Management</a></li>
-<li><a href="chaos-engineering.html">Chaos Engineering</a></li>
-</ul>
-<h2 id="devops">DevOps</h2>
-<ul>
-<li><a href="devops.html"><mark>DevOps</mark></a></li>
-<li><a href="gitops.html"><mark>GitOps</mark></a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="cheatsheets.html">Cheat Sheets 🌟</a></li>
-</ul>
-<h2 id="devsecops-and-security">DevSecOps and Security</h2>
-<ul>
-<li><a href="devsecops.html">DevSecOps and Security. Container Security</a></li>
-<li><a href="securityascode.html">Security Policy as Code</a></li>
-<li><a href="oauth.html">OAuth2</a></li>
-</ul>
-<h2 id="noops-aka-serverless">NoOps aka Serverless</h2>
-<ul>
-<li><a href="noops.html">NoOps</a></li>
-<li><a href="serverless.html">Serverless Architectures &amp; Frameworks. OpenFaaS, Knative &amp; Kubeless</a></li>
-</ul>
-<h2 id="docker">Docker</h2>
-<ul>
-<li><a href="docker.html">Docker</a></li>
-</ul>
-<h2 id="kubernetes">Kubernetes</h2>
-<ul>
-<li><a href="kubernetes.html"><mark>Kubernetes</mark></a><ul>
-<li><a href="kubernetes-tutorials.html"><mark>Kubernetes Tutorials</mark></a></li>
-<li><a href="kubernetes-tools.html">Kubernetes Plugins, Tools, Extensions and Projects 🌟</a></li>
-<li><a href="kubectl-commands.html">kubectl Commands</a></li>
-<li><a href="kubernetes-networking.html">Kubernetes Networking</a></li>
-<li><a href="kubernetes-monitoring.html">Kubernetes Monitoring and Logging</a></li>
-<li><a href="kubernetes-security.html">Kubernetes Security</a></li>
-<li><a href="kubernetes-storage.html">Kubernetes Storage</a></li>
-<li><a href="kubernetes-backup-migrations.html">Kubernetes Backup and Migrations</a></li>
-<li><a href="kubernetes-autoscaling.html">Kubernetes Autoscaling</a></li>
-<li><a href="kubernetes-operators-controllers.html">Kubernetes Operators and Controllers</a></li>
-<li><a href="kubernetes-based-devel.html">Kubernetes Based Development</a></li>
-<li><a href="kubernetes-on-premise.html">Kubernetes On Premise</a></li>
-<li><a href="managed-kubernetes-in-public-cloud.html"><mark>Managed kubernetes in public clouds</mark></a></li>
-<li><a href="kubernetes-troubleshooting.html">Kubernetes Troubleshooting</a></li>
-<li><a href="kubernetes-releases.html">Kubernetes Releases</a></li>
-<li><a href="kubernetes-newsletters.html">Kubernetes Newsletters</a></li>
+<li><a href="https://cilium.io/">cilium.io</a><ul>
+<li><a href="https://github.com/nirmata/kyverno/">github Kyverno - Kubernetes Native Policy Management</a></li>
+<li><a href="https://nirmata.com/2020/10/30/auto-labeling-kubernetes-resources-with-kyverno">nirmata.com: Auto-labeling Kubernetes resources with Kyverno</a></li>
 </ul>
 </li>
-<li><a href="matrix-table.html">Kubernetes Distributions &amp; Installers</a></li>
-<li><a href="kubernetes-bigdata.html">Kubernetes Big Data</a></li>
-<li><a href="kubernetes-alternatives.html">Kubernetes Alternatives</a></li>
-</ul>
-<h2 id="red-hat-openshift">Red Hat OpenShift</h2>
-<ul>
-<li><a href="openshift.html">OpenShift</a></li>
-<li><a href="ocp3.html">OCP 3</a></li>
-<li><a href="ocp4.html">OCP 4</a></li>
-</ul>
-<h2 id="suse-rancher">SUSE Rancher</h2>
-<ul>
-<li><a href="rancher.html">Rancher - Enterprise management for Kubernetes</a></li>
-</ul>
-<h2 id="software-delivery-pipeline">Software Delivery Pipeline</h2>
-<ul>
-<li><a href="cicd.html">CI/CD - Continuous Integration &amp; Continuous Delivery</a></li>
-<li><a href="git.html">Git &amp; Git Patterns. Trunk Devel, Git Flow &amp; Feature Flags. Merge BOTs 🌟</a></li>
-</ul>
-<h3 id="jenkins-cloudbees">Jenkins &amp; CloudBees</h3>
-<ul>
-<li><a href="jenkins.html">Jenkins &amp; CloudBees 😀</a></li>
-<li><a href="performance-testing-with-jenkins-and-jmeter.html">Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc</a></li>
-</ul>
-<h3 id="openshift-pipelines">OpenShift Pipelines</h3>
-<ul>
-<li><a href="openshift-pipelines.html">OpenShift Pipelines with Jenkins, Tekton and more&hellip;</a></li>
-</ul>
-<h3 id="devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools">DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools</h3>
-<ul>
-<li><a href="devops-tools.html">DevOps Tools</a></li>
-<li><a href="jenkins-alternatives.html">Jenkins Alternatives for Continuous Integration &amp; Deployment 🌟</a></li>
-<li><a href="argo.html">Argo - Declarative GitOps for Kubernetes 🌟</a></li>
-<li><a href="flux.html">Flux CD - The GitOps Operator for Kubernetes 🌟</a></li>
-<li><a href="tekton.html">Tekton - Cloud Native CI/CD</a></li>
-<li><a href="keptn.html">Keptn</a></li>
-<li><a href="container-managers.html">Container Runtimes/Managers &amp; Base Images. Podman, Buildah &amp; Skopeo</a></li>
-<li><a href="maven-gradle.html">Maven, Gradle &amp; SDKMAN</a></li>
-<li><a href="sonarqube.html">SonarQube</a></li>
-<li><a href="registries.html">Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more</a></li>
-<li><a href="linux.html">Linux &amp; SSH</a></li>
-<li><a href="mkdocs.html">MkDocs &amp; GitHub Pages</a></li>
-</ul>
-<h3 id="web-servers-reverse-proxies-java-runtimes-caching-solutions">Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions</h3>
-<ul>
-<li><a href="web-servers.html">Web Servers &amp; Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more</a></li>
-<li><a href="java_app_servers.html">Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more</a></li>
-<li><a href="embedded-servlet-containers.html">Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more</a></li>
-<li><a href="caching.html">Caching Solutions</a></li>
-</ul>
-<h2 id="monitoring-and-performance-prometheus-grafana-apms-and-more">Monitoring and Performance. Prometheus, Grafana, APMs and more</h2>
-<ul>
-<li><a href="monitoring.html">Monitoring and Performance</a></li>
-<li><a href="prometheus.html">Prometheus 🌟</a></li>
-<li><a href="grafana.html">Grafana</a></li>
-</ul>
-<h2 id="infrastructure-provisioning-infra-management-tools">Infrastructure Provisioning. Infra Management Tools</h2>
-<ul>
-<li><a href="iac.html">IaC Infrastructure as Code</a></li>
-<li><a href="terraform.html"><mark>Terraform &amp; Packer.Kubernetes Boilerplates</mark></a></li>
-<li><a href="pulumi.html">Pulumi</a></li>
-<li><a href="crossplane.html">Crossplane</a> A Kubernetes Control Plane to Roll Your Own PaaS</li>
-<li><a href="cloud-arch-diagrams.html">Cloud Architecture Diagram Tools</a></li>
-<li><a href="cloud-asset-inventory.html">Cloud Asset Inventory</a></li>
-</ul>
-<h2 id="configuration-management">Configuration Management</h2>
-<ul>
-<li><a href="ansible.html"><mark>Ansible</mark></a></li>
-<li><a href="helm.html">Helm Kubernetes Tool 🌟</a></li>
-<li><a href="kustomize.html">Kustomize - Template-Free Kubernetes Configuration Customization</a></li>
-<li><a href="stackstorm.html">StackStorm</a></li>
-<li><a href="chef.html">Chef</a></li>
-<li><a href="cicd-kubernetes-plugins.html">CI/CD Kubernetes Plugins</a></li>
-<li><a href="kubernetes-client-libraries.html">Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube &amp; Java Operator SDK</a></li>
-<li><a href="liquibase.html">Database Version Control. Liquibase, Flyway and PlanetScale</a></li>
-<li><a href="https://dzone.com/articles/gitops-with-openshift-applier">redhat-cop: Openshift Applier</a></li>
-<li><a href="yaml.html">YAML and JSON 🌟</a></li>
-</ul>
-<h2 id="databases-on-kubernetes">Databases on Kubernetes</h2>
-<ul>
-<li><a href="databases.html">Relational Databases and Database DevOps 🌟</a></li>
-<li><a href="crunchydata.html">Crunchy Data PostgreSQL Operator</a></li>
-<li><a href="nosql.html">NoSQL Databases</a></li>
-</ul>
-<h2 id="cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)</h2>
-<ul>
-<li><a href="message-queue.html">Data Pipeline 🌟</a></li>
-</ul>
-<h2 id="service-mesh">Service Mesh</h2>
-<ul>
-<li><a href="servicemesh.html">Service Mesh</a></li>
-<li><a href="istio.html">Istio</a></li>
-</ul>
-<h2 id="demos-and-boilerplates">Demos and Boilerplates</h2>
-<ul>
-<li><a href="demos.html"><mark>Demos, Boilerplates &amp; Screencasts</mark></a> OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more</li>
-</ul>
-<h2 id="cloud">Cloud</h2>
-<ul>
-<li><a href="public-cloud-solutions.html">Public Cloud Solutions</a></li>
-<li><a href="private-cloud-solutions.html">Private Cloud Solutions</a></li>
-<li><a href="edge-computing.html">Edge Computing</a></li>
-<li><a href="aws.html"><mark>AWS</mark></a><ul>
-<li><a href="https://repost.aws"><mark>repost.aws</mark></a></li>
-<li><a href="aws-miscellaneous.html">AWS Miscellaneous</a></li>
-<li><a href="aws-architecture.html"><mark>AWS Architecture and Best Practices</mark></a></li>
-<li><a href="aws-networking.html">AWS Networking</a></li>
-<li><a href="aws-databases.html">AWS Databases</a></li>
-<li><a href="aws-storage.html">AWS Storage</a></li>
-<li><a href="aws-security.html">AWS Security</a></li>
-<li><a href="aws-monitoring.html">AWS Monitoring</a></li>
-<li><a href="aws-iac.html">AWS IaC</a></li>
-<li><a href="aws-tools-scripts.html">AWS Tools Scripts</a></li>
-<li><a href="aws-messaging.html">AWS Messaging</a></li>
-<li><a href="aws-data.html">AWS Data</a></li>
-<li><a href="aws-devops.html">AWS DevOps</a></li>
-<li><a href="aws-serverless.html">AWS Serverless</a></li>
-<li><a href="aws-pricing.html">AWS Pricing</a></li>
-<li><a href="aws-containers.html">AWS Containers</a></li>
-<li><a href="aws-backup.html">AWS Backup and Migrations</a></li>
-<li><a href="aws-training.html">AWS Training and Certification</a></li>
-<li><a href="aws-newfeatures.html">AWS New Features</a></li>
-<li><a href="aws-spain.html">AWS Spain</a></li>
+<li><a href="https://dzone.com/articles/oauth-20-beginners-guide">Dzone - OAuth 2.0</a></li>
+<li><a href="https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire">Kubernetes Security Best Practices 🌟</a></li>
+<li><a href="https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster">jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster</a></li>
+<li><a href="https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/">Microsoft.com: Attack matrix for Kubernetes 🌟</a></li>
+<li><a href="https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444">codeburst.io: 7 Kubernetes Security Best Practices You Must Follow</a></li>
+<li><a href="https://thenewstack.io/laying-the-groundwork-for-kubernetes-security-across-workloads-pods-and-users/">thenewstack.io: Laying the Groundwork for Kubernetes Security, Across Workloads, Pods and Users</a></li>
+<li><a href="https://horovits.wordpress.com/2020/07/15/kubernetes-security-best-practices/">horovits.wordpress.com: Kubernetes Security Best Practices</a></li>
+<li><a href="https://containerjournal.com/topics/container-security/how-to-secure-your-kubernetes-cluster/">containerjournal.com: How to Secure Your Kubernetes Cluster 🌟</a></li>
+<li><a href="https://medium.com/better-programming/how-to-harden-your-kubernetes-cluster-for-production-7e47990efc2a">medium: How to Harden Your Kubernetes Cluster for Production 🌟</a></li>
+<li><a href="https://kubernetes.io/blog/2020/11/18/cloud-native-security-for-your-clusters/">kubernetes.io: Cloud native security for your clusters</a></li>
+<li><a href="https://tldrsec.com/guides/kubernetes/">tldrsec.com: Risk8s Business: Risk Analysis of Kubernetes Clusters 🌟</a> A zero-to-hero guide for assessing the security risk of your Kubernetes cluster and hardening it.</li>
+<li><a href="https://labs.bishopfox.com/tech-blog/bad-pods-kubernetes-pod-privilege-escalation">labs.bishopfox.com: Bad Pods: Kubernetes Pod Privilege Escalation 🌟</a> What are the risks associated with overly permissive pod creation in Kubernetes? The answer varies based on which of the host’s namespaces and security contexts are allowed. In this post, I will describe eight insecure pod configurations and the corresponding methods to perform privilege escalation. This article and the accompanying repository were created to help penetration testers and administrators better understand common misconfiguration scenarios.</li>
+<li><a href="https://sysdig.com/resources/ebooks/kubernetes-security-guide/">sysdig.com: Kubernetes Security Guide 🌟</a> Best practices, guidance and steps for implementing Kubernetes security.</li>
+<li><a href="https://resources.whitesourcesoftware.com/blog-whitesource/kubernetes-security">resources.whitesourcesoftware.com: Kubernetes Security Best Practices 🌟</a></li>
+<li><a href="https://sysdig.com/blog/kubernetes-audit-log-falco/">sysdig.com: Getting started with Kubernetes audit logs and Falco 🌟</a></li>
+<li><a href="https://thenewstack.io/best-practices-for-securely-setting-up-a-kubernetes-cluster/">thenewstack.io: Best Practices for Securely Setting up a Kubernetes Cluster</a></li>
+<li><a href="https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd/">thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟</a></li>
+<li><a href="https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide">github.com/stackrox: Certified Kubernetes Security Specialist Study Guide 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=OOHmg1J_8ck&amp;ab_channel=RedTeamVillage">youtube: Kubernetes Security: Attacking and Defending K8s Clusters - by Magno Logan</a></li>
+<li><a href="https://www.cncf.io/blog/2021/03/22/kubernetes-security/">cncf.io: Kubernetes Security 🌟</a></li>
+<li><a href="https://www.microsoft.com/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/">microsoft.com: Secure containerized environments with updated threat matrix for Kubernetes</a></li>
+<li><a href="https://kyverno.io/">kyverno.io 🌟</a> Kubernetes Native Policy Management. Kyverno 1.18 (released May 2026) introduced advanced supply chain security, simplified YAML-based policy management, and enhanced support for Gateway API.</li>
+<li><a href="https://github.com/cilium/tetragon">Tetragon (Cilium)</a> - eBPF-based Security Observability and Runtime Enforcement. Tetragon provides deep visibility into process execution, network activity, and file access, with the ability to enforce policies at the kernel level.<ul>
+<li><a href="https://kyverno.io/policies/"><mark>kyverno.io/policies</mark> 🌟</a> K8s policies available in the community repository</li>
 </ul>
 </li>
-<li><a href="azure.html"><mark>Microsoft Azure</mark></a></li>
-<li><a href="GoogleCloudPlatform.html"><mark>Google Cloud Platform</mark></a></li>
-<li><a href="ibm_cloud.html">IBM &amp; IBM Cloud</a></li>
-<li><a href="oraclecloud.html">Oracle Cloud</a></li>
-<li><a href="digitalocean.html">Digital Ocean</a></li>
-<li><a href="cloudflare.html">Cloudflare</a></li>
-<li><a href="scaleway.html">Scaleway</a></li>
-<li><a href="https://www.linode.com/">Linode</a></li>
-<li><a href="https://www.alibabacloud.com/">Alibaba</a></li>
-<li><a href="https://symbiosis.host/">Symbiosis</a></li>
-<li><a href="https://www.gaia-x.eu">Gaia-X.eu</a></li>
+<li><a href="https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-1?utm_sq=goa40uvlx1">cyberark.com: Attacking Kubernetes Clusters Through Your Network Plumbing: Part 1</a></li>
+<li><a href="https://redkubes.com/10-kubernetes-security-risks-best-practices/">redkubes.com: 10 Kubernetes Security Risks &amp; Best Practices</a></li>
+<li><a href="https://thenewstack.io/defend-the-core-kubernetes-security-at-every-layer/">thenewstack.io: Defend the Core: Kubernetes Security at Every Layer</a></li>
+<li><a href="https://github.com/developer-guy/falco-analyze-audit-log-from-k3s-cluster">Analyze Kubernetes Audit logs using Falco 🌟</a> Detect intrusions that happened in your Kubernetes cluster through audit logs using Falco</li>
+<li><a href="https://blog.kasten.io/ransomware-protection-kasten-k10-v4">blog.kasten.io: Kubernetes Ransomware Protection with Kasten K10 v4.0</a></li>
+<li><a href="https://www.helpnetsecurity.com/2021/05/04/security-kubernetes/">helpnetsecurity.com: Kubestriker: A security auditing tool for Kubernetes clusters 🌟</a> Kubestriker is an open-source, platform-agnostic tool for identifying security misconfigurations in Kubernetes clusters.</li>
+<li><a href="https://madhuakula.com/kubernetes-goat">Kubernetes Goat 🌟</a> is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.</li>
+<li><a href="https://itnext.io/how-to-kubernetes-cluster-network-security-f19bc99161f5">itnext.io: How-To: Kubernetes Cluster Network Security 🌟</a></li>
+<li><a href="https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb">gist.github.com: How to protect your ~/.kube/ configuration</a></li>
+<li><a href="https://levelup.gitconnected.com/enforce-audit-policy-in-kubernetes-k8s-34e504733300">levelup.gitconnected.com: Enforce Audit Policy in Kubernetes (k8s)</a></li>
+<li><a href="https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understand/">snyk.io: 10 Kubernetes Security Context settings you should understand</a></li>
+<li><a href="https://www.magalix.com/blog/top-8-kubernetes-security-best-practices">magalix.com: Top 8 Kubernetes Security Best Practices 🌟</a></li>
+<li><a href="https://www.redhat.com/en/blog/state-kubernetes-security">redhat.com: The State of Kubernetes Security</a></li>
+<li><a href="https://www.fairwinds.com/blog/top-5-kubernetes-security-mistakes">fairwinds.com: Discover the Top 5 Kubernetes Security Mistakes You&rsquo;re (Probably) Making</a></li>
+<li><a href="https://www.tigera.io/blog/kubernetes-security-policy-10-critical-best-practices/">tigera.io: Kubernetes security policy design: 10 critical best practices 🌟</a></li>
+<li><a href="https://empresas.blogthinkbig.com/descubierta-vulnerabilidad-kubernetes-permite-acceso-redes-restringidas-cve-2020-8562/">empresas.blogthinkbig.com: Descubierta una vulnerabilidad en Kubernetes que permite acceso a redes restringidas (CVE-2020-8562)</a></li>
+<li><a href="https://thenewstack.io/kubernetes-an-examination-of-major-attacks/">thenewstack.io: Kubernetes: An Examination of Major Attacks 🌟</a> Constant vigilance is required to ensure that cloud infrastructure is locked down and that DevSecOps teams have the right tools for the job.</li>
+<li><a href="https://cloud.redhat.com/blog/top-open-source-kubernetes-security-tools-of-2021">cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟</a></li>
+<li><a href="https://www.cncf.io/blog/2021/08/20/how-to-secure-your-kubernetes-control-plane-and-node-components/"><mark>cncf.io: How to secure your Kubernetes control plane and node components</mark></a></li>
+<li><a href="https://www.redhat.com/rhdc/managed-files/cl-state-kubernetes-security-report-ebook-f29117-202106-en.pdf">redhat.com: State of Kubernetes Security Report - Spring 2021 (PDF) 🌟</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/security/overview/">kubernetes.io: Overview of Cloud Native Security 🌟🌟</a> This overview defines a model for thinking about Kubernetes security in the context of Cloud Native security.</li>
+<li><a href="https://learn.hashicorp.com/tutorials/vault/kubernetes-external-vault">learn.hashicorp.com: Integrate a Kubernetes Cluster with an External Vault 🌟</a></li>
+<li><a href="http://www.talkingquickly.co.uk/kubernetes-sso-a-detailed-guide">talkingquickly.co.uk: Kubernetes Single Sign On - A detailed guide 🌟</a></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance">armosec.io: A Practical Guide to the Different Compliance Kubernetes Security Frameworks and How They Fit Together 🌟🌟</a></li>
+<li><a href="https://thenewstack.io/how-to-secure-kubernetes-the-os-of-the-cloud/">thenewstack.io: How to Secure Kubernetes, the OS of the Cloud</a></li>
+<li><a href="https://akhilsharma.work/the-4cs-of-kubernetes-security/">akhilsharma.work: The 4C&rsquo;s of Kubernetes Security</a></li>
+<li>Kubernetes security thing: Always be careful of what you are letting your users choose for usernames. If someone has a username of <strong>system:kube-controller-manager</strong> on an external Identity system, Kubernetes will quite happily give them the rights of the controller manager. The <strong>&ndash;oidc-username-prefix</strong> and <strong>&ndash;oidc-groups-prefix</strong> flags are userful for preventing this in OIDC integrations.</li>
+<li><a href="https://medium.com/@lessandro.ugulino/securing-the-kubernetes-cluster-c5ab43fe0dd0">medium: Securing the Kubernetes cluster | Lessandro Z. Ugulino</a></li>
+<li><a href="https://www.infoworld.com/article/3639829/the-race-to-secure-kubernetes-at-runtime.html"><mark>infoworld.com: The race to secure Kubernetes at run time</mark></a> A new wave of startups is looking to help developers secure their containerized applications after they go into production. Is this the future of application security?</li>
+<li><a href="https://goteleport.com/blog/kubernetes-api-access-security"><mark>goteleport.com: Kubernetes API Access Security Hardening</mark></a></li>
+<li><a href="https://www.infoworld.com/article/3644808/securing-the-kubernetes-software-supply-chain.html">infoworld.com: Securing the Kubernetes software supply chain with Microsoft&rsquo;s Ratify</a> Microsoft’s <strong>Ratify</strong> proposal adds a verification workflow to Kubernetes container deployment. The Ratify team has some demo code in their GitHub repository that shows how to use Ratify with Gatekeeper in Kubernetes. <a href="https://github.com/deislabs/ratify#quick-start">Ratify installs using a Helm chart</a>, bringing along some sample configuration templates.</li>
+<li><a href="https://amazicworld.com/top-5-security-threats-unique-to-a-kubernetes-and-cloud-native-stack/">amazicworld.com: Top 5 security threats unique to a Kubernetes and Cloud Native stack</a></li>
+<li><a href="http://web.archive.org/web/20230528171702/https://peoplactive.com/kubernetes-security-best-practices//"><mark>peoplactive.com: Kubernetes and Container Security Checklist to Build Secure Apps</mark> [ARCHIVED]</a></li>
+<li><a href="https://venturebeat.com/2021/12/27/kubernetes-security-will-have-a-breakout-year-in-2022/">venturebeat.com: Kubernetes security will have a breakout year in 2022</a></li>
+<li><a href="https://medium.com/@jonathan_37674/comparing-kubernetes-security-frameworks-and-guidance-f1c2821ea733"><mark>medium: Comparing Kubernetes Security Frameworks and Guidance</mark> 🌟</a> Comparing popular Kubernetes security and compliance frameworks, how they differ, when to use, common goals, and suggested tools.<ul>
+<li><a href="https://blog.gitguardian.com/hardening-your-k8s-pt-2/"><mark>blog.gitguardian.com: Hardening Your Kubernetes Cluster - Guidelines (Pt. 2)</mark> 🌟</a> In this second episode, we will go through the NSA/CISA security recommendations and explain every piece of the guidelines.</li>
 </ul>
-<h2 id="apis-with-soap-rest-and-grpc">APIs with SOAP, REST and gRPC</h2>
-<ul>
-<li><a href="api.html">APIs with SOAP, REST and gRPC 🌟</a></li>
-<li><a href="swagger-code-generator-for-rest-apis.html">Swagger code generator for REST APIs</a></li>
-<li><a href="postman.html">API Test Automation with Postman and REST Assured</a></li>
-<li><a href="developerportals.html">API Marketplaces. API Management with API Gateways &amp; Developer Portals 🌟</a></li>
+</li>
+<li><a href="https://blog.devgenius.io/how-is-security-managed-in-kubernetes-clusters-addefffd2b0">blog.devgenius.io: How is security managed in Kubernetes clusters?</a> Best practices for managing security in Kubernetes at various layers</li>
+<li><a href="https://blog.gitguardian.com/kubernetes-tutorial-part-1-pods/">blog.gitguardian.com: Kubernetes Hardening Tutorial Part 1: Pods</a> Get a deeper understanding of Kubernetes Pods security with this first tutorial. After reading this article, you will learn:<ul>
+<li>How not to run pods as root</li>
+<li>How to use immutable root fs (lock the root filesystem)</li>
+<li>How to do Docker image scan locally and with your CI pipelines</li>
+<li>How to use PSP</li>
+<li><a href="https://blog.gitguardian.com/kubernetes-tutorial-part-2-network/">blog.gitguardian.com: Kubernetes Hardening Tutorial Part 2: Network</a> How to achieve Control Plane security, true resource separation with network policies, and use Kubernetes Secrets more securely.</li>
 </ul>
-<h2 id="development-frameworks">Development &amp; Frameworks</h2>
-<ul>
-<li><a href="devel-sites.html">Websites for web developers</a></li>
-<li><a href="angular.html">Angular</a></li>
-<li><a href="dom.html">Document Object Model (DOM)</a></li>
-<li><a href="golang.html">Golang</a></li>
-<li><a href="javascript.html">JavaScript - node.js &amp; npm</a></li>
-<li><a href="python.html">Python - Django &amp; Flask</a></li>
-<li><a href="react.html">React</a></li>
-<li><a href="lowcode-nocode.html">Low Code and No Code</a></li>
-<li><a href="web3.html">Web3</a></li>
+</li>
+<li><a href="https://medium.com/@jonathan_37674/kubernetes-security-best-practices-definitive-guide-bcb546e9f529"><mark>medium.com/@jonathan_37674: Kubernetes Security Best Practices: Definitive Guide</mark></a></li>
+<li><a href="https://isovalent.com/blog/post/2021-11-container-escape">isovalent.com: Detecting a Container Escape with Cilium and eBPF</a> In this article you’ll learn how an attacker with access to a Kubernetes cluster can escape from a container and:<ul>
+<li>run a pod to gain root privileges</li>
+<li>escape to the host</li>
+<li>persist the attack with invisible pods and fileless executions</li>
 </ul>
-<h3 id="microsoft">Microsoft</h3>
-<ul>
-<li><a href="dotnet.html">Microsoft .NET</a></li>
-<li><a href="xamarin.html">Microsoft Xamarin</a></li>
+</li>
+<li><a href="https://mattermost.com/blog/the-top-7-open-source-tools-for-securing-your-kubernetes-cluster/">mattermost.com: The Top 7 Open Source Tools for Securing Your Kubernetes Cluster</a></li>
+<li><a href="https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html"><mark>infoworld.com: 10 steps to automating security in Kubernetes pipelines</mark></a> DevOps teams don’t need to sacrifice the speed of containerized development if they know what can be automated, why it’s important, and how to do it.</li>
+<li><a href="https://developers.redhat.com/articles/2021/12/16/secure-your-kubernetes-deployments-ebpf">developers.redhat.com: Secure your Kubernetes deployments with eBPF</a> Learn how to use eBPF and the Security Profiles Operator to automatically generate seccomp profiles, a Linux kernel security feature for Kubernetes<ul>
+<li>Etcd localhost port access due to SSRF vulnerability</li>
+<li>Etcd Credential Stealing</li>
+<li>Kube API server command execution</li>
 </ul>
-<h3 id="java">Java</h3>
-<ul>
-<li><a href="java_frameworks.html">Java &amp; Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more</a></li>
-<li><a href="java-and-java-performance-optimization.html">Java Memory Management &amp; Java Performance Optimization</a></li>
-<li><a href="jvm-parameters-matrix-table.html">Java Parameters Matrix Table</a></li>
+</li>
+<li><a href="https://faun.pub/from-dev-to-admin-an-easy-kubernetes-privilege-escalation-you-should-be-aware-of-the-attack-950e6cf76cac">faun.pub: From dev to admin: an easy Kubernetes privilege escalation you should be aware of — the attack</a> In this post, you will learn how easily a limited user (such as a developer) can escalate their privileges and become an admin of a cluster which has been set up using kubeadm.</li>
+<li><a href="https://xenitab.github.io/blog/2022/04/12/ephemeral-container-security/">xenitab.github.io: Kubernetes Ephemeral Container Security 🌟</a> Ephemeral containers are temp containers that can be attached after a Pod is created. But what happens when you use them on a hardened cluster? The answer is not so obvious as OPA, Kyverno, PSPs, etc. will do their best to (rightly) prevent execution.</li>
+<li><a href="https://www.armosec.io/blog/secure-kubernetes-deployment/"><mark>armosec.io: How to Secure Deployments in Kubernetes?</mark> 🌟</a> In Kubernetes, there are two aspects to security: cluster security and application security. In this post, you&rsquo;ll explore how to secure ‌Kubernetes deployments and applications in general.</li>
+<li><a href="https://medium.com/@dotdc/is-your-kubernetes-api-server-exposed-learn-how-to-check-and-fix-609ab9638fae"><mark>medium.com/@dotdc: Is your Kubernetes API Server exposed? Learn how to check and fix!</mark> 🌟</a></li>
+<li><a href="https://levelup.gitconnected.com/the-core-of-kubernetes-security-clusters-5d9a69f1dba4">levelup.gitconnected.com: The Core of Kubernetes Security: Clusters</a></li>
+<li><a href="https://sysdig.com/blog/exposed-prometheus-exploit-kubernetes-kubeconeu/">sysdig.com: How attackers use exposed Prometheus server to exploit Kubernetes clusters | Miguel Hernández</a> What happens if an attacker accesses your Prometheus server? How much information can they get for fingerprinting the cluster? In this article, you will learn how attackers use this information and how to secure your cluster.</li>
+<li><a href="https://cast.ai/blog/kubernetes-security-10-best-practices/"><mark>cast.ai: Kubernetes Security: 10 Best Practices from the Industry and Community</mark> 🌟</a></li>
+<li><a href="https://thenewstack.io/key-basic-principles-to-secure-kubernetes-future/">thenewstack.io: Basic Principles Key to Securing Kubernetes’ Future</a> Once these capabilities have been established, Ops teams can begin to look further afield and explore leveraging the value of their data through activities like testing and optimization.</li>
+<li><a href="https://medium.com/@codingkarma/kubernetes-goat-part-1-8718b1345a42">medium.com/@codingkarma: Kubernetes Goat Part-1</a> In this article, you will learn how to attack and defend a Kubernetes cluster by solving the challenges of Kubernetes goat — an intentionally vulnerable cluster environment to learn and practice Kubernetes security</li>
+<li><a href="https://medium.com/@badawekoo/limit-number-of-processes-running-in-a-kubernetes-pod-50ccf156ec18"><mark>medium.com/@badawekoo: Limit number of processes running in a Kubernetes pod</mark></a> When it comes to Kubernetes security, It is very important to harden the core components of the cluster which are pods, and limit the risks that can be originated from inside the pods. That’s why limiting number of processes that can run inside a pod will limit any vulnerabilities in your cluster.</li>
+<li><a href="https://www.copado.com/devops-hub/blog/applying-a-zero-trust-infrastructure-in-kubernetes">copado.com: Applying a Zero Trust Infrastructure in Kubernetes</a></li>
+<li><a href="https://dev.to/pavanbelagatti/kubernetes-security-best-practices-for-developers-2b92">dev.to/pavanbelagatti: Kubernetes Security Best Practices For Developers</a></li>
+<li><a href="https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe"><mark>itnext.io: Journey Of A Microservice Application In The Kubernetes World</mark> 🌟</a> Security considerations: security related tools. In this article, you will discuss some security considerations and see how you can ensure (at least to some extent) that the application&rsquo;s specifications follow some of the best security practices.</li>
+<li><a href="https://tutorialboy24.blogspot.com/2022/09/a-detailed-talk-about-k8s-cluster.html">tutorialboy24.blogspot.com: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 2) 🌟</a> In this 2-part series, you will address 12 common attack points in Kubernetes clusters and discuss various risks in cloud-native scenarios based on practical experience</li>
+<li><a href="https://medium.com/cloudyrion/kubernetes-end-to-end-chain-exploit-c2be32688fd0">medium.com/cloudyrion: Kubernetes end-to-end chain exploit</a> This article details the security flaws discovered in Kubernetes and GitOps tools due to improper configurations. It also demonstrates how an attacker could perform post-exploitation attacks, increasing their privileges and the attack surface.</li>
+<li><a href="https://itnext.io/performing-security-checks-for-deployed-kubernetes-manifests-fa9d442b7951"><mark>itnext.io: Performing Security Checks for Deployed Kubernetes Manifests</mark></a> An effective tool for checking security rule violations in Kubernetes deployments using <strong>Polaris</strong></li>
+<li><a href="https://securitycafe.ro/2023/02/27/a-complete-kubernetes-config-review-methodology/"><mark>securitycafe.ro: A COMPLETE KUBERNETES CONFIG REVIEW METHODOLOGY</mark></a></li>
+<li><a href="https://itnext.io/introduction-to-kubernetes-security-for-security-professionals-a61b424f7a2a"><mark>itnext.io: Introduction to Kubernetes Security for Security Professionals</mark></a> Presenting the architecture of Kubernetes and its associated security threats, for security professionals, including penetration testers and DevSecOps practitioners.</li>
+<li><a href="https://dev.to/mattiasfjellstrom/kubernetes-101-security-concepts-2f4f">dev.to/mattiasfjellstrom: Kubernetes-101: Security concepts</a> The article provides an overview of Kubernetes security concepts, focusing on NetworkPolicies, ServiceAccounts, and Security Contexts</li>
+<li><a href="https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificates/">blog.alexellis.io: What if your Pods need to trust self-signed certificates?</a> Self-signed certificates are common within enterprise companies. But how do you distribute them and enable their use in Kubernetes as a user and a vendor?</li>
+<li><a href="https://thenewstack.io/securing-kubernetes-in-a-cloud-native-world/">thenewstack.io: Securing Kubernetes in a Cloud Native World</a> As cloud native technologies continue to advance, staying informed and adaptable is key to maintaining a secure Kubernetes ecosystem.</li>
+<li><a href="https://collabnix.com/applying-devsecops-practices-to-kubernetes/">collabnix.com: Applying DevSecOps Practices to Kubernetes</a></li>
+<li><a href="https://dev.to/thenjdevopsguy/securing-kubernetes-pods-for-production-workloads-51oh"><mark>dev.to/thenjdevopsguy: Securing Kubernetes Pods For Production Workloads</mark></a></li>
+<li><a href="https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e">dev.to/thenjdevopsguy: The 4 C’s Of Kubernetes Security</a></li>
 </ul>
-<h3 id="dev-environment">Dev Environment</h3>
-<ul>
-<li><a href="visual-studio.html">Visual Studio Code 🌟</a></li>
-<li><a href="linux-dev-env.html">WSL: Linux Dev Environment on Windows</a></li>
-<li><a href="scaffolding.html">Scaffolding Tools</a></li>
-<li><a href="ChromeDevTools.html">Chrome &amp; Firefox DevTools. HTTP Protocols &amp; WebSockets</a></li>
-</ul>
-<h2 id="qatestops-continuous-testing">QA/TestOps - Continuous Testing</h2>
-<ul>
-<li><a href="qa.html">QA</a></li>
-<li><a href="testops.html">TestOps and Continuous Testing</a></li>
-<li><a href="test-automation-frameworks.html">Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more</a></li>
-</ul>
-<h2 id="ai">AI</h2>
-<ul>
-<li><a href="ai.html">AI</a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="chatgpt.html">ChatGPT</a></li>
-</ul>
-<h2 id="project-management-methodology">Project Management Methodology</h2>
-<ul>
-<li><a href="project-management-methodology.html">Project Management Methodology</a></li>
-<li><a href="project-management-tools.html">Project Management Tools</a></li>
-<li><a href="appointment-scheduling.html">Appointment Scheduling</a></li>
-<li><a href="workfromhome.html">Work From Home</a></li>
-</ul>
-<h2 id="more-references">More References</h2>
-<ul>
-<li><a href="other-awesome-lists.html">Other Awesome Lists 🌟</a></li>
-<li><a href="interview-questions.html">Interview Questions</a></li>
-<li><a href="newsfeeds.html">Forums and Communities</a></li>
-<li><a href="elearning.html">E-Learning</a></li>
-<li><a href="digital-money.html">Digital Money</a></li>
-</ul>
-<h2 id="hiring-and-freelancing">Hiring and Freelancing</h2>
-<ul>
-<li><a href="recruitment.html">Recruitment</a></li>
-<li><a href="hr.html">Human Resources</a></li>
-<li><a href="freelancing.html">Freelancing</a></li>
-<li><a href="remote-tech-jobs.html">Remote Tech Jobs</a></li>
-</ul>
-<h2 id="customer-success-stories">Customer Success Stories</h2>
-<ul>
-<li><a href="customer.html">Customer Success Stories</a></li>
-</ul>
-<hr />
 <center>
-<p><a href="https://www.youtube.com/c/DockerIo"><img alt="docker videos" src="images/docker_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/cloudnativefdn"><img alt="cncf videos" src="images/cncf_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/kubernetescommunity"><img alt="kubernetes logo" src="images/kubernetes_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/redhat"><img alt="redhat videos" src="images/redhat_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/OpenShift"><img alt="openshift videos" src="images/openshift_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Rancher"><img alt="rancher logo" src="images/rancher-logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/CloudBeesTV"><img alt="cloudbees videos" src="images/cloudbees_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/jenkinscicd"><img alt="jenkins videos" src="images/jenkins-logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg"><img alt="jenkins-x videos" src="images/jenkins_x_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg"><img alt="spinnaker videos" src="images/spinnaker_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/VMwareTanzu"><img alt="vmware tanzu logo" src="images/vmware_tanzu_logo.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/IBMTechnology"><img alt="ibm cloud videos" src="images/ibm_cloud_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/amazonwebservices"><img alt="aws videos" src="images/aws_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/user/googlecloudplatform/"><img alt="gcp videos" src="images/gcp_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/MicrosoftAzure"><img alt="azure videos" src="images/azure_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/OracleCloudInfrastructure"><img alt="oraclecloud videos" src="images/oracle_cloud_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Digitalocean"><img alt="digitalocean videos" src="images/digital_ocean_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/cloudflare"><img alt="cloudflare" src="images/cloudflare_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Scaleway-Cloud"><img alt="scaleway cloud" src="images/scaleway_cloud.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/OpenStackFoundation"><img alt="openstack" src="images/openstack_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/HashiCorp"><img alt="harhicorp videos" src="images/hashicorp_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/PulumiTV"><img alt="pulumi videos" src="images/pulumi_logo.jpg" style="width:7%" /></a> <br/>
-<a href="https://www.youtube.com/c/dzone/"><img alt="dzone videos" src="images/dzone_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/PrometheusIo"><img alt="prometheus videos" src="images/prometheus_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Grafana"><img alt="grafana videos" src="images/grafana_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Istio"><img alt="istio videos" src="images/istio_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Elastic"><img alt="elastic videos" src="images/elasticsearch_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/dynatrace"><img alt="dynatrace videos" src="images/dynatrace_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/appdynamics"><img alt="appdynamics videos" src="images/appdynamics_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/NewRelicInc"><img alt="newrelic videos" src="images/newrelic_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UC8uN3yhpeBeerGNwDiQbcgw"><img alt="tigera calico" src="images/tigera_calico_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/WeaveWorksInc"><img alt="weavecloud" src="images/weavecloud_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/LambdaTest"><img alt="lambdatest" src="images/lambdatest.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/Atlassian"><img alt="atlassian videos" src="images/atlassian_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Code"><img alt="vscode videos" src="images/vscode_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/GitHub"><img alt="github videos" src="images/github_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Gitlab"><img alt="gitlab video" src="images/gitlab_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Gitkraken"><img alt="gitkraken" src="images/gitkraken_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/RocketChatApp"><img alt="rocketchat videos" src="images/rocket_chat_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Slackhq"><img alt="slack videos" src="images/slack_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/MattermostHQ"><img alt="mattermost videos" src="images/mattermost_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/microsoft365"><img alt="microsoft365" src="images/microsoft_365_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/OpenProjectCommunity"><img alt="openproject" src="images/openproject_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Tetrate"><img alt="tetrate" src="images/tetrate_logo.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/RedHatDevelopers"><img alt="rh devel" src="images/rh_developer_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/user/SpringSourceDev"><img alt="spring logo" src="images/spring-logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Quarkusio"><img alt="quarkus logo" src="images/quarkus-logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Lightbend-TV"><img alt="lightbend videos" src="images/lightbend_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/postman"><img alt="postman videos" src="images/postman_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Smartbear"><img alt="swagger videos" src="images/smartbear_swagger_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/JFrogInc"><img alt="jfrog" src="images/jfrog_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Sonatypeinc"><img alt="sonatype" src="images/sonatype_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA"><img alt="sonarsource sonarqube" src="images/sonarsource_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/GoogleChromeDevelopers"><img alt="chrome developers videos" src="images/chromedevtools_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/MozillaDeveloper"><img alt="mozilla developer" src="images/mozilla_developer_logo.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/CrunchyDataPostgres"><img alt="crunchydata" src="images/crunchydata_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UC5qMsRjObu685rTBq0PJX8w"><img alt="liquibase video" src="images/liquibase_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/cockroachdb"><img alt="cockroachdb" src="images/cockroachdb_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/MongoDBofficial"><img alt="mongodb" src="images/mongodb_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Redisinc"><img alt="redis" src="images/redis_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Confluent"><img alt="confluent video" src="images/confluent_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCud7fErZAyMC6lHT_cWZNfA"><img alt="kubemq video" src="images/kubemq_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g"><img alt="openebs" src="images/openebs_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCm63IQg81KP9vXRWSHQpu1w"><img alt="storageos" src="images/storageos_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCt7N400Z8gB_3yKq1qrjP2w"><img alt="robin" src="images/robin_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Portworx"><img alt="portworx" src="images/portworx_logo.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/Cloudacademy"><img alt="cloud academy" src="images/cloud_academy_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AcloudGuru"><img alt="acloudguru" src="images/acloudguru_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Devopsdotcom"><img alt="devops_tv" src="images/devops_tv_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/XebiaLabs"><img alt="xebialabs" src="images/xebialabs_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Devopslibrary"><img alt="devops library" src="images/devops_library_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/codecademy"><img alt="codecademy" src="images/codecademy.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/user/coursera"><img alt="coursera" src="images/coursera_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Academind"><img alt="academind" src="images/academind_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/guru99comm"><img alt="guru99" src="images/guru99_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Intellipaat"><img alt="intellipaat" src="images/intellipaat_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ"><img alt="cloud quick POCs" src="images/cloudquickpocs.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/Thetips4you"><img alt="thetips4you" src="images/thethips4you.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg"><img alt="cloud learnhub" src="images/cloud_learn_hub.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/NTFAQGuy"><img alt="John Savill" src="images/John_Savill.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA"><img alt="microservice factory" src="images/microservice_factory.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AppsCodeInc"><img alt="kubedb appscode" src="images/kubedb_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/DevOpsToolkit"><img alt="devops toolkit" src="images/devops_toolkit.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AnsiblePilot"><img alt="ansible pilot" src="images/ansiblepilot.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/CodelyTV"><img alt="codelytv" src="images/codelytv_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/PeladoNerd"><img alt="pelado nerd" src="images/pelado_nerd.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/HolaMundoDev"><img alt="hola mundo" src="images/hola_mundo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/JavierGarz%C3%A1s/"><img alt="javier garzas" src="images/jgarzas.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/LondonIAC"><img alt="london IAC" src="images/londonIAC.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/TechWorldwithNana"><img alt="techworld nana" src="images/techworld_nana.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Honeypotio"><img alt="honeypot" src="images/honeypot.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AliSpittelDev"><img alt="Ali Spittel" src="images/aspittel.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/ThomasMaurerCloud"><img alt="thomas maurer" src="images/thomas_maurer.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/Freecodecamp"><img alt="freecodecamp" src="images/freecodecamp.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/TheNewStack"><img alt="thenewstack" src="images/thenewstack.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA"><img alt="argocd project" src="images/argoproj.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA"><img alt="fluxcd" src="images/fluxcd.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/ContainerDays"><img alt="container days" src="images/containerdays.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/priyankavergadia"><img alt="the cloud girl" src="images/thecloudgirl.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/c/ContinuousDeliveryFoundation"><img alt="ContinuousDeliveryFoundation" src="images/ContinuousDeliveryFoundation.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/TinaHuang1"><img alt="tina huang" src="images/tinahuang.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AzureDevOps"><img alt="azure devops" src="images/azure_devops_youtube.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw"><img alt="azure cloud native" src="images/azure_cloud_native.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AlibabaCloud"><img alt="alibaba cloud" src="images/alibaba_cloud.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/linode"><img alt="linode cloud" src="images/linode_cloud.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/channel/UCB5WMc2FfrxKzfd7XIODoMw"><img alt="gaia-x" src="images/gaia_x.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/MadeByGPS"><img alt="gps" src="images/gps.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/keptn"><img alt="keptn" src="images/keptn_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/AnaisUrlichs"><img alt="anais urlichs" src="images/anais_urlichs.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/c/TheDigitalLifeTech"><img alt="the digital life" src="images/the_digital_life.jpg" style="width:7%" /></a><br/>
-<a href="https://www.youtube.com/@azure-terraformer"><img alt="Azure Terraformer" src="images/azure-terraformer.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/@NedintheCloud"><img alt="Ned in the Cloud" src="images/nedinthecloud.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/@NetBoxLabs"><img alt="netbox" src="images/netboxlabs_logo.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/@techwithhelen"><img alt="Tech with Helen" src="images/techwithhelen.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/@ByteByteGo"><img alt="bytebytego" src="images/bytebytego.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/@DotCSV"><img alt="dotcsv" src="images/dotcsv.jpg" style="width:7%" /></a> <a href="https://www.youtube.com/@midulive"><img alt="midulive" src="images/midulive.jpg" style="width:7%" /></a></p>
+<p><a href="https://www.blackhat.com/"><img alt="kubernetes security mindmap" src="images/k8s_securitymindmap.jpg" /></a></p>
 </center>
+<h2 id="iam-identity-and-access-management-in-kubernetes">IAM Identity And Access Management in Kubernetes</h2>
+<ul>
+<li><a href="https://thenewstack.io/cloud-native-identity-and-access-management-in-kubernetes/">thenewstack.io: Cloud Native Identity and Access Management in Kubernetes</a></li>
+<li><a href="https://curity.io/resources/learn/oauth-overview/">curity.io: OAuth 2.0 Overview</a></li>
+<li><a href="https://curity.io/resources/learn/openid-connect-overview/">curity.io: OpenID Connect Overview</a></li>
+<li><a href="https://curity.io/resources/client-security/">curity.io: Client Security</a> Client security primarily covers web and mobile, to ensure best security in the browser and on devices</li>
+<li><a href="https://dev.to/gabrielbiasi/automatic-sso-in-kubernetes-workloads-using-a-sidecar-container-3752">dev.to/gabrielbiasi: Automatic SSO in Kubernetes workloads using a sidecar container</a> In this tutorial, you will learn how to use oauth2-proxy as a sidecar container to authorize requests to your Identity Provider of choice</li>
+</ul>
+<h2 id="securing-kubernetes-deployments">Securing Kubernetes Deployments</h2>
+<ul>
+<li><a href="https://dev.to/aws-builders/best-practices-for-securing-kubernetes-deployments-1jg6"><mark>dev.to/aws-builders: Best Practices for Securing Kubernetes Deployments</mark> 🌟</a> <strong>Although Kubernetes is a powerful container orchestration platform, its complexity and its adoption makes it a prime target for security attacks. We&rsquo;ll go over some of the best practices for securing the Kubernetes deployments and keeping applications and data safe in this article. This article is only about pods or deployments.</strong></li>
+</ul>
+<h2 id="securing-a-kubernetes-cluster-using-tls-certificates-wildcard-certificates">Securing a Kubernetes cluster using TLS certificates. Wildcard certificates</h2>
+<ul>
+<li><a href="https://thenewstack.io/jetstack-secure-promises-to-ease-kubernetes-tls-security/">thenewstack.io: Jetstack Secure Promises to Ease Kubernetes TLS Security</a></li>
+<li><a href="https://xgrid.medium.com/securing-a-kubernetes-cluster-using-tls-certificates-5e64a6bb26de"><mark>xgrid.medium.com: Securing a Kubernetes cluster using TLS certificates</mark> 🌟</a></li>
+<li><a href="https://ahmedy.hashnode.dev/creating-tls-certificates-for-k8s-components-with-openssl">ahmedy.hashnode.dev: Creating TLS Certificates for K8s components with OpenSSL</a> In this guide, you will discuss how to create key/certificate pairs using OpenSSL to facilitate secure communication between Kubernetes Cluster components</li>
+<li><a href="https://erkanzileli.medium.com/how-tls-certificates-work-422d95f1df5e"><mark>erkanzileli.medium.com: How TLS Certificates Work</mark></a></li>
+<li><a href="https://medium.com/@martin.hodges/using-a-wildcard-certificate-within-your-kubernetes-cluster-87c014e8dafe">medium.com/@martin.hodges: Using a wildcard certificate within your Kubernetes cluster</a></li>
+</ul>
+<h2 id="kubernetes-security-scanners">Kubernetes Security Scanners</h2>
+<ul>
+<li>
+<p><a href="https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/">GitHub Code Security Risk Assessment: Free Vulnerability Scanning</a> - <em>(Related to devsecops topic)</em></p>
+</li>
+<li>
+<p><a href="https://blog.cloudsecque.com/how-to-improve-the-security-of-your-applications-with-kubernetes-security-scanners-cda97fd2f574"><mark>blog.cloudsecque.com: How to Improve the Security of Your Applications with Kubernetes Security Scanners</mark></a> Kubernetes security scanners are tools that can be used to detect vulnerabilities and security issues in your applications. In this article you will find:</p>
+<ul>
+<li>Grype</li>
+<li>Trivy</li>
+<li>Kubesec</li>
+<li>Kube-bench</li>
+<li>Kubeaudit</li>
+</ul>
+</li>
+<li><a href="https://www.techmanyu.com/kubernetes-security-with-kube-bench-and-kube-hunter-6765bf44ebc6">techmanyu.com: Kubernetes Security with Kube-bench and Kube-hunter 🌟</a><ul>
+<li><a href="https://github.com/aquasecurity/kube-bench">kube-bench 🌟</a> Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark<ul>
+<li><a href="https://devopscube.com/kube-bench-guide/"><mark>devopscube.com/kube-bench-guide: Kube-Bench: Kubernetes CIS Benchmarking Tool</mark></a></li>
+</ul>
+</li>
+<li><a href="https://github.com/aquasecurity/kube-hunter">kube-hunter 🌟</a> Hunt for security weaknesses in Kubernetes clusters</li>
+<li><a href="https://k21academy.com/docker-kubernetes/kubernetes-security/kube-bench-cis/">k21academy.com: Secure and Harden Kubernetes, AKS and EKS Cluster with kube-bench, kube-hunter and CIS Benchmarks 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://aninditabasak.medium.com/a-lap-around-kubernetes-security-vulnerability-scanning-tools-checkov-kube-hunter-kube-bench-4ffda92c4cf1"><mark>aninditabasak.medium.com: A Lap around Kubernetes Security &amp; Vulnerability scanning Tools — checkov, kube-hunter, kube-bench &amp; Starboard</mark></a></li>
+<li><a href="https://blog.flant.com/kubernetes-security-with-kube-bench-and-kube-hunter/"><mark>blog.flant.com: Kubernetes cluster security assessment with kube-bench and kube-hunter</mark></a></li>
+<li><a href="https://raesene.github.io/blog/2022/07/03/lets-talk-about-kubernetes-on-the-internet/">raesene.github.io: Let&rsquo;s talk about Kubernetes on the Internet</a> In this article, you will learn how to scan and discover publicly accessible Kubernetes clusters and how you can protect against it</li>
+<li><a href="https://github.com/Shopify/kubeaudit"><mark>github.com/Shopify/kubeaudit</mark> 🌟🌟</a> kubeaudit helps you audit your Kubernetes clusters against common security controls. kubeaudit is a command line tool and a Go package to audit Kubernetes clusters for various different security concerns, such as:<ul>
+<li>Run as non-root</li>
+<li>Use a read-only root filesystem</li>
+<li>Drop scary capabilities, don&rsquo;t add new ones</li>
+<li>Don&rsquo;t run privileged</li>
+</ul>
+</li>
+<li><a href="https://towardsdev.com/12-scanners-to-find-security-vulnerabilities-and-misconfigurations-in-kubernetes-332a738d076d">towardsdev.com: 12 Scanners to Find Security Vulnerabilities and Misconfigurations in Kubernetes</a></li>
+</ul>
+<h2 id="security-checklist-kubernetes-owasp">Security Checklist Kubernetes OWASP</h2>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/security/security-checklist/"><mark>kubernetes.io: Security Checklist</mark> 🌟🌟</a></li>
+<li><a href="https://itnext.io/kubernetes-owasp-top-10-centralised-policy-enforcement-9adc53438e22">itnext.io: Kubernetes OWASP Top 10: Centralised Policy Enforcement</a> This article covers the techniques for centralised policy enforcement in a Kubernetes cluster:<ul>
+<li>CI/CD pipelines</li>
+<li>Security Admission controller</li>
+<li>OPA and Gatekeeper</li>
+<li>IDE linting and plug-ins</li>
+</ul>
+</li>
+<li><a href="https://faun.pub/gatekeeper-k8-hardening-backlog-956d1b6860b6">faun.pub: Gatekeeper | K8 hardening backlog</a> This article summarizes a list of recommendations for hardening Kubernetes clusters (both on-prem and cloud) with Admission and Mutation webhooks using the open-source tool Gatekeeper.</li>
+<li><a href="https://systemweakness.com/owasp-k8s-security-insecure-workload-configurations-c14c4028beb1">systemweakness.com: OWASP-K8S Security: Insecure Workload Configurations</a> In this series of blogs we will focus on OWASP Top 10 Kubernetes vulnerabilities, Discussing each in a separate blog.</li>
+<li><a href="https://owasp.org/www-project-kubernetes-top-ten/">owasp.org: OWASP Kubernetes Top Ten</a> OWASP Kubernetes Top Ten is aimed at helping security practitioners, system administrators, and developers prioritize risks around the Kubernetes ecosystem. This is a prioritized list of these risks backed by data.</li>
+<li><a href="https://www.darkreading.com/dr-tech/top-10-kubernetes-security-risks-every-devsecops-needs-to-know">darkreading.com: Top 10 Kubernetes Security Risks Every DevSecOps Pro Should Know</a> The mission to run any containerized application on any infrastructure makes security a challenge on Kubernetes.</li>
+<li><a href="https://sysdig.com/blog/top-owasp-kubernetes/"><mark>sysdig.com: OWASP Kubernetes Top 10</mark> 🌟</a> One of the biggest concerns when using Kubernetes is whether we are complying with the security posture and taking into account all possible threats.</li>
+<li><a href="https://itnext.io/kubernetes-owasp-top-10-secrets-management-c996faa87b47">itnext.io: Kubernetes OWASP Top 10: Secrets Management</a> In this article, you will discuss secrets management in Kubernetes:<ul>
+<li>Secrets objects</li>
+<li>Managing Kubernetes Secrets</li>
+<li>Manual Secret Creation</li>
+<li>Secrets in CI/CD pipelines</li>
+<li>Kubernetes Secrets Store Container Storage Interface</li>
+</ul>
+</li>
+</ul>
+<h2 id="exposed-kubernetes-clusters">Exposed Kubernetes Clusters</h2>
+<ul>
+<li><a href="https://blog.cyble.com/2022/06/27/exposed-kubernetes-clusters/">blog.cyble.com: Exposed Kubernetes Clusters</a> Organizations At Risk Of Data Breaches Via Misconfigured Kubernetes. Over 900k Kubernetes exposures were observed across the internet during a routine threat-hunting exercise. While this does not imply that all exposed instances are vulnerable to attacks, it still makes them a target.</li>
+</ul>
+<h2 id="nsa-national-security-agent-kubernetes-hardening-guidance">NSA National Security Agent Kubernetes Hardening Guidance</h2>
+<ul>
+<li><a href="https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF">Kubernetes Hardening Guidance 🌟🌟</a></li>
+<li><a href="https://thenewstack.io/the-nsa-can-help-you-secure-your-kubernetes-clusters/">thenewstack.io: The NSA Can Help Secure Your Kubernetes Clusters</a></li>
+<li><a href="https://therecord.media/nsa-cisa-publish-kubernetes-hardening-guide/">therecord.media: NSA, CISA publish Kubernetes hardening guide 🌟🌟</a><ul>
+<li>Scan containers and Pods for vulnerabilities or misconfigurations.</li>
+<li>Run containers and Pods with the least privileges possible.</li>
+<li>Use network separation to control the amount of damage a compromise can cause.</li>
+<li>Use firewalls to limit unneeded network connectivity and encryption to protect confidentiality.</li>
+<li>Use strong authentication and authorization to limit user and administrator access as well as to limit the attack surface.</li>
+<li>Use log auditing so that administrators can monitor activity and be alerted to potential malicious activity.</li>
+<li>Periodically review all Kubernetes settings and use vulnerability scans to help ensure risks are appropriately accounted for and security patches are applied.</li>
+</ul>
+</li>
+<li><a href="https://github.com/armosec/kubescape"><mark>Kubescape</mark> 🌟</a> <strong>kubescape is the first tool for testing if Kubernetes is deployed securely as defined inKubernetes Hardening Guidance by to NSA and CISA.</strong> Tests are configured with YAML files, making this tool easy to update as test specifications evolve.<ul>
+<li><a href="https://www.infoq.com/news/2021/09/kubescape/">infoq.com: Armo Releases Kubescape K8s Security Testing Tool: Q&amp;A with VP Jonathan Kaftzan</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoq.com/news/2021/09/kubernetes-hardening-guidance/">infoq.com</a> NSA and CISA Publish Kubernetes Hardening Guidance</li>
+<li><a href="https://thenewstack.io/nsa-on-how-to-harden-kubernetes/">thenewstack.io: NSA on How to Harden Kubernetes</a></li>
+<li><a href="https://blog.gitguardian.com/hardening-your-k8-pt-1/">blog.gitguardian.com: Hardening Your Kubernetes Cluster - Threat Model (Pt. 1) 🌟🌟</a> The NSA and CISA recently released a guide on Kubernetes hardening. We&rsquo;ll cover this guide in a three part series. First, let&rsquo;s explore the Threat Model and how it maps to K8s components.<ul>
+<li><a href="https://dev.to/gitguardian/kubernetes-hardening-tutorial-part-3-authn-authz-logging-auditing-3fec">blog.gitguardian.com: Kubernetes Hardening Tutorial Part 3: Authn, Authz, Logging &amp; Auditing</a> In this tutorial, you will learn the authentication, authorization, logging, and auditing of a Kubernetes cluster. Specifically, you will discuss some of the best practices in AWS EKS.</li>
+</ul>
+</li>
+<li><a href="https://www.armosec.io/blog/nsa-cisa-kubernetes-hardening-guide/">armosec.io: NSA &amp; CISA Kubernetes Hardening Guide – what is new with version 1.1</a> In March 2022, NSA &amp; CISA has issued a new version of the Kubernetes Hardening Guide – 1.1. Here are the most important points addressed in this new version.</li>
+</ul>
+<h2 id="cis-benchmarks-and-cis-operator">CIS Benchmarks and CIS Operator</h2>
+<ul>
+<li><a href="https://www.ibm.com/cloud/learn/cis-benchmarks">ibm.com: CIS Benchmarks</a> Developed by a global community of cybersecurity professionals, CIS Benchmarks are a collection of best practices for securely configuring IT systems, software, networks, and cloud infrastructure.</li>
+<li><a href="https://aymen-abdelwahed.medium.com/k8s-operators-cis-benchmarks-8d7915d5cb2d">aymen-abdelwahed.medium.com: K8s Operators — CIS Kubernetes Benchmarks</a> How can I run my workloads securely on top of Kubernetes? In this post, we&rsquo;ll be taking a look at the CIS-Benchmark, breaking the concept down to simple terms, and in the end, deploying the CIS-Operator using Helm charts and custom values<ul>
+<li><a href="https://github.com/rancher/cis-operator">rancher/cis-operator</a> This is an operator that can run on a given Kubernetes cluster and provide ability to run security scans as per the CIS benchmarks, on the cluster.</li>
+</ul>
+</li>
+</ul>
+<h2 id="user-and-workload-identities-in-kubernetes">User and Workload identities in Kubernetes</h2>
+<ul>
+<li>
+<p><a href="https://techcommunity.microsoft.com/blog/azureforisvandstartupstechnicalblog/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662">Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)</a> 🌟 - This article explores various methods for applications hosted on Azure Kubernetes Service (AKS) to securely retrieve secrets from Azure Key Vault. It details the use of Microsoft Entra Workload ID, which integrates with Kubernetes to federate with external identity providers, enabling pods to obtain Kubernetes identities via Service Account Token Volume Projection. This allows for the secure exchange of Kubernetes tokens for Microsoft Entra access tokens, facilitating secure access to Azure resources.</p>
+</li>
+<li>
+<p><a href="https://learnk8s.io/authentication-kubernetes"><mark>learnk8s.io/authentication-kubernetes: User and workload identities in Kubernetes</mark> 🌟🌟🌟</a></p>
+<ul>
+<li>The difference b/w externally managed and internal identities.</li>
+<li>How Kubernetes assigns identities for internal users with Service Accounts.</li>
+</ul>
+</li>
+</ul>
+<h2 id="service-accounts">Service Accounts</h2>
+<ul>
+<li>Service account is an important concept in terms of Kubernetes security. You can relate it to AWS instance roles and google cloud instance service account if you have a cloud background. By default, every pod gets assigned a default service account if you don&rsquo;t specify a custom service account. Service account allows pods to make calls to the API server to manage the cluster resources using ClusterRoles or resources scoped to a namespace using Roles. Also, you can use the Service account token from external applications to make API calls to the kubernetes API server.<ul>
+<li><a href="https://devopscube.com/kubernetes-api-access-service-account/">devopscube.com: How To Create Kubernetes Service Account For API Access</a></li>
+<li><a href="https://devopscube.com/create-kubernetes-role/">devopscube.com: How to Create kubernetes Role for Service Account</a></li>
+<li><a href="https://github.com/scriptcamp/kubernetes-serviceaccount-example">github.com/scriptcamp/kubernetes-serviceaccount-example</a> Example Kubernetes manifests to create service account mapped to Rolebinding.</li>
+</ul>
+</li>
+<li><a href="https://medium.com/the-programmer/working-with-service-account-in-kubernetes-df129cb4d1cc">medium: Working with Service Account In Kubernetes 🌟</a> How to configure a service account in Kubernetes and manage it?</li>
+<li><a href="https://github.com/dvob/k8s-s2s-auth">github.com/dvob/k8s-s2s-auth: Kubernetes Service Accounts 🌟</a> Service accounts are well known in Kubernetes to access the Kubernets API from within the cluster. This is often used for infrastructure components like operators and controllers. But we can also use service accounts to implement authentication in our own applications. This README tries to give an overview on how service accounts work and and shows a couple of variants how you can use them for authentication. Further this repository contains an example Go service which shows how to implement the authentication in an application.</li>
+<li><a href="https://sandeepbaldawa.medium.com/service-accounts-in-k8s-kubernetes-2779ee4fb331">sandeepbaldawa.medium.com: Service Accounts in K8s (Kubernetes)</a></li>
+<li><a href="https://mjarosie.github.io/dev/2021/09/15/iam-roles-for-kubernetes-service-accounts-deep-dive.html"><mark>mjarosie.github.io: IAM roles for Kubernetes service accounts - deep dive</mark></a></li>
+<li><a href="https://linkerd.io/2021/12/28/using-kubernetess-new-bound-service-account-tokens-for-secure-workload-identity/">linkerd.io: Using Kubernetes&rsquo;s new Bound Service Account Tokens for secure workload identity</a></li>
+<li><a href="https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483">medium.com/pareture: Kubernetes Bound Projected Service Account Token Volumes Might Surprise You</a> There is an important difference to understand and remember between default Service Account Projection and Bound Service Account Token Volumes.</li>
+<li><a href="https://medium.com/geekculture/k8s-serviceaccount-token-313d62aee119">medium.com/geekculture: K8s — ServiceAccount Token</a> K8s ServiceAccount token deep dive</li>
+<li><a href="https://motilayo.hashnode.dev/exploring-kubernetes-service-account-tokens-and-secure-workload-identity-federation">motilayo.hashnode.dev: Exploring Kubernetes Service Account Tokens and Secure Workload Identity Federation</a> Ever wonder how AWS IRSA, GCP workload identity or Azure AD workload identity work in Kubernetes? This article explores how OIDC works in a Kubernetes cluster to trust external workloads</li>
+<li><a href="https://overcast.blog/kubernetes-service-accounts-a-practical-guide-f99c1ed65483">overcast.blog: Kubernetes Service Accounts: A Practical Guide</a></li>
+</ul>
+<h2 id="kubernetes-secrets">Kubernetes Secrets</h2>
+<ul>
+<li><a href="https://www.cncf.io/blog/2021/04/22/revealing-the-secrets-of-kubernetes-secrets">cncf.io: Revealing the secrets of Kubernetes secrets 🌟</a> In this article you will learn how to protect Secrets in your Kubernetes cluster</li>
+<li><a href="https://www.padok.fr/en/blog/kubernetes-secrets">Hands on your first Kubernetes secrets 🌟</a></li>
+<li><a href="https://dev.to/stack-labs/store-your-kubernetes-secrets-in-git-thanks-to-kubeseal-hello-sealedsecret-2i6h">dev.to: Store your Kubernetes Secrets in Git thanks to Kubeseal. Hello SealedSecret! 🌟</a></li>
+<li><a href="https://blog.doit-intl.com/kubernetes-and-secrets-management-in-cloud-858533c20dca">blog.doit-intl.com: Kubernetes and Secrets Management in the Cloud</a></li>
+<li><a href="https://itnext.io/effective-secrets-with-vault-and-kubernetes-9af5f5c04d06">itnext.io: Effective Secrets with Vault and Kubernetes</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/">kubernetes.io: Encrypting Secret Data at Rest 🌟</a></li>
+<li><a href="https://twitter.com/originalavalamp">&ldquo;Kubernetes base64 encodes secrets because that makes arbitrary data play nice with JSON. It had nothing to do with the security model (or lack thereof). It did not occur to us at the time that people could mistake base64 for some form of encryption&rdquo;</a><ul>
+<li><a href="https://twitter.com/jwendlandt">&ldquo;I&rsquo;ve always wondered how folks expect a system would be able to protect data at rest like that. If the public key and private key are local on the machine - nothing is secure no matter what algorithm is used&rdquo;</a></li>
+<li><a href="https://twitter.com/codingsafari">&ldquo;The issue is not new or unique to k8s. There is a general confusion between encoding and encryption. Ask any web dev about base64, and there is a good chance they&rsquo;ll tell you it&rsquo;s encryption&rdquo;</a></li>
+<li><a href="https://twitter.com/tsh4k">&ldquo;The semantics are important. Easy to grant an RBAC policy like &ldquo;read only except secrets&rdquo;</a></li>
+<li><a href="https://twitter.com/SWengThomas">&ldquo;I just meant that base64 prevents you from logging a secret in plain text by accident… but many more layers are required to keep your secrets secret&rdquo;</a></li>
+<li>&ldquo;You need to configure how the key is managed and ideally opt into something like KMS plugin (which depends on how the cluster is hosted) to make it good&rdquo;</li>
+</ul>
+</li>
+<li><a href="https://enterprisersproject.com/article/2019/8/kubernetes-secrets-explained-plain-english">enterprisersproject.com: How to explain Kubernetes Secrets in plain English 🌟</a> What is a Kubernetes secret? How does this type of Kubernetes object increase security? How do you create a Kubernetes secret? What are some best practices? Experts break it down</li>
+<li><a href="http://millionvisit.blogspot.com/2021/07/kubernetes-for-developers-19-manage-app-credentials-using-Kubernetes-Secrets.html">millionvisit.blogspot.com: Kubernetes for Developers #19: Manage app credentials using Kubernetes Secrets 🌟</a></li>
+<li><a href="https://www.kubermatic.com/blog/keeping-the-state-of-apps-part-2-introduction-to-secrets/">kubermatic.com: Keeping the State of Apps Part 2: Introduction to Secrets</a></li>
+<li><a href="https://medium.com/codex/kubernetes-secrets-explained-f45baf8cefa7">medium: Kubernetes Secrets Explained</a></li>
+<li><a href="https://medium.com/@jerome_tarte/managing-your-sensitive-information-during-gitops-process-with-secret-sealed-27498c77e2b8">medium: Managing your sensitive information during GitOps process with Secret Sealed</a></li>
+<li><a href="https://enlear.academy/sealed-secrets-with-kubernetes-a3f4d13dbc17"><mark>enlear.academy: Sealed Secrets with Kubernetes</mark></a> Usage of the sealed secret to encrypt Kubernetes secrets.</li>
+<li><a href="https://medium.com/codex/sealed-secrets-for-kubernetes-722d643eb658">medium.com/codex: Sealed Secrets for Kubernetes</a> How to encrypt Kubernetes Secret component and store it on the Git. And decrypt it using Kubernetes controller.</li>
+<li><a href="https://www.macchaffee.com/blog/2022/k8s-secrets/"><mark>macchaffee.com: Plain Kubernetes Secrets are fine</mark> 🌟</a> It&rsquo;s no secret that Kubernetes Secrets are just base64-encoded strings stored in etcd alongside the rest of the cluster&rsquo;s state. But is it <strong>really</strong> an issue? Let&rsquo;s create a rudimentary threat model for Kubernetes Secrets and see what comes up.</li>
+<li><a href="https://www.youtube.com/watch?v=SyRZe5YVCVk">youtube: Manage Kubernetes Secrets With External Secrets Operator (ESO) 🌟</a></li>
+<li><a href="https://carlosalca.medium.com/how-to-manage-all-my-k8s-secrets-in-git-securely-with-bitnami-sealed-secrets-43580b8fa0c7">carlosalca.medium.com: How to manage all my K8s secrets in git securely with Bitnami Sealed Secrets</a></li>
+<li><a href="https://cloud.redhat.com/blog/a-guide-to-secrets-management-with-gitops-and-kubernetes"><mark>cloud.redhat.com: A Guide to Secrets Management with GitOps and Kubernetes</mark> 🌟</a> <strong>This article will discuss two architectural approaches to managing secrets with GitOps: encrypted secrets stored in Git and storing a reference to secrets in Git</strong></li>
+<li><a href="https://itnext.io/vault-cluster-with-auto-unseal-on-kubernetes-8e469f9cdcfd">itnext.io: Vault cluster with auto unseal on Kubernetes</a></li>
+<li><a href="https://pjame-fb.medium.com/kubernetes-secrets-from-secrets-manager-using-external-secrets-operators-4819562c3b02">pjame-fb.medium.com: Kubernetes Secrets from Secrets Manager using External Secrets Operators</a> In this article, you will learn how to store your credentials in the Secrets Manager and automatically retrieve them for creating Kubernetes Secrets using External Secrets.</li>
+<li><a href="https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7">mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated</a> In this article, you will compare the External Secrets Operator with Secret Storage CSI for using external secrets in a Kubernetes cluster. You will compare:<ul>
+<li>Architecture</li>
+<li>Authorization management</li>
+<li>Resource usage</li>
+<li>GitOps friendliness</li>
+</ul>
+</li>
+<li><a href="https://faun.pub/secrets-kubernetes-298ea8dd9911"><mark>faun.pub: Secrets | Kubernetes</mark></a> A deep dive into Kubernetes Secrets</li>
+<li><a href="https://medium.com/@knoldus/using-sealed-secrets-in-kubernetes-7f7518d4c984">medium.com/@knoldus: Using sealed secrets in Kubernetes</a><ul>
+<li><a href="https://medium.com/@knoldus/introduction-to-sealed-secrets-in-kubernetes-7857b361a845">medium.com/@knoldus: Introduction to sealed secrets in Kubernetes</a></li>
+</ul>
+</li>
+<li><a href="https://eminalemdar.medium.com/cloud-native-secret-management-with-external-secrets-operator-2912f41f9c49">eminalemdar.medium.com: Cloud Native Secret Management with External Secrets Operator</a></li>
+<li><a href="https://piotrminkowski.com/2022/12/14/sealed-secrets-on-kubernetes-with-argocd-and-terraform/">piotrminkowski.com: Sealed Secrets on Kubernetes with ArgoCD and Terraform</a> In this article, you will learn how to manage secrets securely on Kubernetes in the GitOps approach using Sealed Secrets, ArgoCD, and Terraform</li>
+<li><a href="https://medium.com/google-cloud/handle-kubernetes-secrets-the-gitops-way-part-1-7079bd8221f3">medium.com/google-cloud: Handle Kubernetes Secrets the GitOps Way — Part 1</a></li>
+<li><a href="https://dev.to/tutorialboy/a-detailed-talk-about-k8s-cluster-security-from-the-perspective-of-attackers-part-1-3mm5">dev.to: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 1)</a> This 2-part series summarizes the methods and experience of attacking Kubernetes components, external services of nodes, business pods, and container escaping, including lateral attacks, as well as attacks on the Kubernetes management platform</li>
+</ul>
+<h2 id="kubernetes-cert-manager-encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager">Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let&rsquo;s Encrypt in Kubernetes Ingress via cert-manager</h2>
+<ul>
+<li><a href="https://cert-manager.io/docs/"><mark>cert-manager.io</mark> 🌟</a> cert-manager adds certificates and certificate issuers as resource types in Kubernetes clusters, and simplifies the process of obtaining, renewing and using those certificates. It can issue certificates from a variety of supported sources, including Let&rsquo;s Encrypt, HashiCorp Vault, and Venafi as well as private PKI.</li>
+<li><a href="https://github.com/jetstack/cert-manager/">Kubernetes Certs</a></li>
+<li><a href="https://medium.com/flant-com/cert-manager-lets-encrypt-ssl-certs-for-kubernetes-7642e463bbce">Using SSL certificates from Let’s Encrypt in your Kubernetes Ingress via cert-manager 🌟</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/encrypting-the-certificate-for-kubernetes-lets-encrypt-805d2bf88b2a">medium: Encrypting the certificate for Kubernetes (Let’s Encrypt) 🌟</a></li>
+<li><a href="https://www.rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt/">rejupillai.com: Let’s Encrypt the Web (for free)</a></li>
+<li><a href="https://betterprogramming.pub/kubernetes-and-ssl-certificate-management-5f6a4b6f5ae9">betterprogramming.pub: Kubernetes and SSL Certificate Management 🌟</a> Manage SSL certificate orders in K8s with Helm and Let’s Encrypt.</li>
+<li><a href="https://getbetterdevops.io/k8s-ingress-with-letsencrypt/">getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager</a> Automate the provisioning of Let&rsquo;s Encrypt certificates for ingress resources</li>
+<li><a href="https://faun.pub/automate-certificate-management-in-kubernetes-using-cert-manager-d0745e5c7757">faun.pub: Automate Certificate Management In Kubernetes Using Cert-Manager</a></li>
+<li><a href="https://github.com/cert-manager/cert-manager"><mark>cert-manager/cert-manager</mark></a> Automatically provision and manage TLS certificates in Kubernetes</li>
+<li><a href="https://github.com/cert-manager/policy-approver">github.com/cert-manager: Policy Approver</a> Policy Approver is a cert-manager approver that is responsible for Approving or Denying CertificateRequests.</li>
+<li><a href="https://www.jetstack.io/blog/cert-manager-gateway-api-traefik-guide/">jetstack.io: Getting started using cert-manager with the sig-network Gateway API</a></li>
+<li><a href="https://medium.com/@knoldus/configure-ssl-certificate-with-cert-manager-on-kubernetes-e5ca8a804e16">medium.com/@knoldus: Configure SSL certificate with cert-manager on Kubernetes</a></li>
+<li><a href="https://blog.devgenius.io/automated-dns-tls-with-external-dns-letsencrypt-on-kubernetes-6f4f41827df9">blog.devgenius.io: Automated DNS/TLS with External DNS &amp; LetsEncrypt on Kubernetes</a> In this article, you&rsquo;ll learn how to create TLS certificates for your application with cert-manager and DNS entries with external DNS. Finally, you will expose your applications with an ingress resource to tie it all together.</li>
+<li><a href="https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8">itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime</a> When upgrading Cert-Manager, it&rsquo;s often required to update the CRDs. Unfortunately, it&rsquo;s not a straightforward process. In this article, you&rsquo;ll learn a few options that ensure a smooth Cert-Manager upgrade to avoid downtime of production deployment.</li>
+<li><a href="https://faun.pub/lets-encrypt-and-certmanager-aa88775730b8"><mark>faun.pub: Let’s encrypt and CertManager</mark></a> How to use CertManager and Let’s encrypt in Kubernetes</li>
+<li><a href="https://armin.su/ssl-certificates-from-lets-encrypt-for-kubernetes-private-ingress-via-terraform-c9f595ee65fa">armin.su: SSL certificates from Let’s Encrypt for Kubernetes Private Ingress via Terraform</a></li>
+<li><a href="https://dev.to/otomato_io/possible-paths-2hfc"><mark>dev.to: Kubernetes TLS, Demystified</mark> 🌟</a></li>
+</ul>
+<h2 id="kubernetes-openid-connect-oidc">Kubernetes OpenID Connect OIDC</h2>
+<ul>
+<li><a href="https://github.com/gini/dexter">gini/dexter</a> dexter is an OIDC (OpenId Connect) helper designed to create a hassle-free Kubernetes login experience powered by Google or Azure as Identity Provider. All you need is a properly configured Google or Azure client ID &amp; secret</li>
+<li><a href="https://betterprogramming.pub/kubernetes-authentication-sidecars-a-revelation-in-microservice-architecture-12c4608189ab">betterprogramming.pub: Kubernetes Authentication Sidecars: A Revelation in Microservice Architecture</a> A history of authentication and how to solve authentication in a reusable way using sidecar containers in Kubernetes</li>
+<li><a href="https://blog.devgenius.io/sso-authentication-for-applications-in-kubernetes-aedc3c189d89">blog.devgenius.io: SSO Authentication for Applications in Kubernetes</a> This post discusses using SSO authentication and authorization to secure apps in Kubernetes. The tutorial uses Dex and Traefik Forward Auth (or Oauth2-Proxy) to add additional security to ingresses or apps that do not support built-in OIDC</li>
+</ul>
+<h3 id="oauth2-proxy">OAuth2 Proxy</h3>
+<p><a href="https://oauth2-proxy.github.io/oauth2-proxy/">OAuth2 Proxy</a> is an open-source reverse proxy that provides authentication and authorization for web applications. It is designed to sit in front of your web application and authenticate users using OAuth2 providers such as Google, Microsoft, and Facebook. Once a user has been authenticated, OAuth2 Proxy adds an authorization header to each request, allowing the web application to verify that the request came from an authenticated user.</p>
+<p>OAuth2 Proxy is commonly used in Kubernetes environments to secure access to web applications deployed on a Kubernetes cluster. It integrates with Kubernetes API Server to provide automatic configuration and discovery of the OAuth2 provider&rsquo;s credentials. It also supports a variety of authentication mechanisms, including Google OAuth2, Microsoft Azure AD, GitHub OAuth2, and others.</p>
+<p>Some of the key features of OAuth2 Proxy include:</p>
+<p>Support for multiple OAuth2 providers
+Automatic configuration and discovery of OAuth2 provider credentials
+Support for a variety of authentication mechanisms, including JWT tokens, cookies, and HTTP basic authentication
+Fine-grained access control through the use of role-based access control (RBAC)
+Support for custom headers and footers to customize the user interface
+Overall, OAuth2 Proxy is a powerful tool for securing web applications using OAuth2 providers. It simplifies the authentication and authorization process and makes it easy to manage access to your applications in a Kubernetes environment.</p>
+<ul>
+<li><a href="https://geek-cookbook.funkypenguin.co.nz/recipes/kubernetes/oauth2-proxy/">geek-cookbook.funkypenguin.co.nz: Using OAuth2 proxy for Kubernetes Dashboard</a> In this tutorial, you will learn how to set up OAuth2 Proxy to pass authentication headers to Kubernetes Dashboard, which doesn&rsquo;t provide its authentication but instead relies on Kubernetes&rsquo; own RBAC auth</li>
+<li><a href="https://imanishchaudhary.medium.com/secure-kubernetes-dashboards-with-sso-authentication-using-okta-oauth2-proxy-9e52189e9749">imanishchaudhary.medium.com: Securing Kubernetes Dashboards: SSO Authentication and RBAC Implementation with Okta and OAuth2 Proxy</a></li>
+</ul>
+<h3 id="alternatives">Alternatives</h3>
+<p>There are several alternatives to OAuth2 Proxy in Kubernetes, depending on your specific use case and requirements. Some popular options include:</p>
+<p>Istio: Istio is a popular open-source service mesh that provides a variety of features, including secure authentication and authorization through its Istio Authentication feature. Istio allows you to define authentication policies for your services using a variety of authentication mechanisms, such as JWT, OAuth, and mTLS.</p>
+<p><a href="https://github.com/oneconcern/keycloak-gatekeeper">Keycloak</a>: Keycloak is an open-source identity and access management solution that provides a variety of features, including authentication, authorization, and user management. Keycloak can be deployed on Kubernetes using its Helm chart and can be used to secure your Kubernetes applications using a variety of authentication mechanisms, such as OAuth2, OpenID Connect, and SAML.</p>
+<p><a href="https://github.com/dexidp/dex">Dex</a>: Dex is an open-source identity provider that can be used to provide authentication and authorization for Kubernetes applications. Dex can be deployed on Kubernetes using its Helm chart and can be used to authenticate users using a variety of authentication mechanisms, such as LDAP, OAuth2, and OpenID Connect.</p>
+<p><a href="https://doc.traefik.io/traefik/">Traefik</a>: Traefik is a popular open-source reverse proxy and load balancer that provides a variety of features, including secure authentication and authorization. Traefik can be used to secure your Kubernetes applications using a variety of authentication mechanisms, such as OAuth2, JWT, and basic authentication.</p>
+<p><a href="https://github.com/ajmyyra/ambassador-auth-oidc">Ambassador</a>: Ambassador is a popular open-source API Gateway that provides a variety of features, including secure authentication and authorization. Ambassador can be used to secure your Kubernetes applications using a variety of authentication mechanisms, such as OAuth2, JWT, and basic authentication.</p>
+<p>Each of these alternatives provides different features and may be more suitable for different use cases. It&rsquo;s important to evaluate each option based on your specific needs and requirements.</p>
+<h2 id="rbac-and-access-control">RBAC and Access Control</h2>
+<ul>
+<li>Kubernetes does not have objects which represent normal user accounts. Normal users cannot be added to a cluster through an API call. So how do you create a user?</li>
+<li><a href="https://medium.com/trendyol-tech/configure-rbac-in-kubernetes-like-a-boss-665e2a8665dd">Configure RBAC in Kubernetes Like a Boss 🌟</a> Learn how to configure RBAC in kubernetes. In this post, you will configure RBAC both with kubectl and yaml definitions.</li>
+<li><a href="https://www.infracloud.io/blogs/role-based-access-kubernetes">infracloud.io: How to setup Role based access (RBAC) to Kubernetes Cluster 🌟</a></li>
+<li><a href="https://toolbox.kali-linuxtr.net/kubernetes-rbac-permission-manager.tool">Kubernetes RBAC Permission Manager 🌟</a></li>
+<li><a href="https://github.com/appvia/krane">Krane 🌟</a> is a Kubernetes RBAC static analysis tool. It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.</li>
+<li><a href="https://rbac.dev">rbac.dev 🌟🌟🌟</a> advocacy site for Kubernetes RBAC. A site dedicated to good practices and tooling around Kubernetes RBAC. Both pull requests and issues are welcome.<ul>
+<li>For recipes, tips and tricks around RBAC see <a href="https://recipes.rbac.dev/">recipes.rbac.dev 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/clvx/k8s-rbac-model">github.com/clvx/k8s-rbac-model: Kubernetes RBAC Model</a> This is a implementation of a RBAC model for a multi project multi tenant Kubernetes cluster.</li>
+<li><a href="https://loft.sh/blog/kubernetes-rbac-basics-and-advanced-patterns/">loft.sh: Kubernetes RBAC: Basics and Advanced Patterns</a></li>
+<li><a href="https://marcusnoble.co.uk/2022-01-20-restricting-cluster-admin-permissions/"><mark>marcusnoble.co.uk: Restricting cluster-admin Permissions</mark></a> <strong>Generally, operators of the cluster are assigned to the cluster-admin ClusterRole. This gives the user access and permission to do all operations on all resources in the cluster. But what if you need to block an action performed by cluster admins?</strong></li>
+<li><a href="https://medium.com/devops-mojo/kubernetes-role-based-access-control-rbac-overview-introduction-rbac-with-kubernetes-what-is-2004d13195df">medium.com/devops-mojo: Kubernetes — Role-Based Access Control (RBAC) Overview</a> RBAC with Kubernetes — Role, ClusterRole, RoleBinding, and ClusterRoleBinding.</li>
+<li><a href="https://loft-sh.medium.com/10-essentials-for-kubernetes-access-control-a67ae72977dd">loft-sh.medium.com: 10 Essentials for Kubernetes Access Control</a></li>
+<li><a href="https://sumanthkumarc.medium.com/kubernetes-rbac-update-default-clusterroles-without-editing-them-ef206254e0">sumanthkumarc.medium.com: Kubernetes RBAC — Update default ClusterRoles without editing them</a></li>
+<li><a href="https://faun.pub/assign-permissions-to-an-user-in-kubernetes-an-overview-of-rbac-based-authz-in-k8s-7d9e5e1099f1">faun.pub: Assign permissions to an user in Kubernetes. An overview of RBAC-based AuthZ in k8s 🌟</a></li>
+<li><a href="https://anaisurl.com/kubernetes-rbac/">anaisurl.com: RBAC Explained with Examples 🌟</a> Kubernetes RBAC tutorial with two examples, using ServiceAccounts and openssl to create separate contexts for users</li>
+<li><a href="https://medium.com/@badawekoo/using-rbac-in-kubernetes-for-authorization-complete-demo-part-1-83f0a1fb8f">medium.com/@badawekoo: Using RBAC in Kubernetes for authorization-Complete Demo-Part 1</a></li>
+<li><a href="https://thenewstack.io/securing-access-to-kubernetes-environments-with-zero-trust/">thenewstack.io: Securing Access to Kubernetes Environments with Zero Trust</a></li>
+<li><a href="https://learnk8s.io/rbac-kubernetes"><mark>learnk8s.io: Limiting access to Kubernetes resources with RBAC</mark> 🌟🌟🌟</a> What happens when you combine a Kubernetes RoleBinding to a ClusterRole? Are you even allowed? In this article, Yanan Zhao explores the K8s RBAC authorization model by rebuilding it from scratch.</li>
+<li><a href="https://medium.com/@15daniel10/yoyo-attack-on-a-k8s-cluster-102bc1d5ca3e"><mark>medium.com/@15daniel10: YOYO attack on a K8S cluster</mark></a> In addition to the performance degradation for the attacked service, the underlying idea behind the attack is to exploit the autoscaling mechanism in order to make the victim deploy excessive resources and pay for them while having as little cost footprint for the attacker as possible. In other words, the attacker harnesses the power of the cloud against the organization that uses it.</li>
+<li><a href="https://dev.to/danielepolencic/binding-aws-iam-roles-to-kubernetes-service-account-for-on-prem-clusters-1icc">dev.to: Binding AWS IAM roles to Kubernetes Service Account for on-prem clusters | Daniele Polencic 🌟</a> AWS IAM to Kubernetes service accounts integration, but for on-prem clusters (i.e. non EKS, just regular clusters). Process to grant permissions to Pods.<ul>
+<li><a href="https://medium.com/@danielepolencic/how-does-rbac-work-in-kubernetes-d50dd34771ca"><mark>medium.com/@danielepolencic: How does RBAC work in kubernetes</mark> 🌟</a> A short and visual thread on how Kubernetes RBAC works in Kubernetes</li>
+</ul>
+</li>
+<li><a href="https://dominik-tornow.medium.com/inside-kubernetes-rbac-9988b08a738a"><mark>dominik-tornow.medium.com: Inside Kubernetes RBAC</mark></a></li>
+<li><a href="https://medium.com/@jtdv01/kubernetes-authorization-and-role-based-access-controls-ca0b7acc17a4"><mark>medium.com/@jtdv01: Kubernetes Authorization and Role Based Access Controls</mark> 🌟</a></li>
+<li><a href="https://faun.pub/give-users-and-groups-access-to-kubernetes-cluster-using-rbac-b614b6c0b383"><mark>faun.pub: Give Users and Groups Access to Kubernetes Cluster Using RBAC</mark></a> Role-based access control (RBAC) is a way of granting users granular access to Kubernetes API resources. RBAC is a security design that limits access to Kubernetes resources based on the user&rsquo;s role.</li>
+<li><a href="https://medium.com/@danielepolencic/binding-aws-iam-roles-to-kubernetes-service-account-for-on-prem-clusters-b8bac41f269d">medium.com/@danielepolencic: AWS IAM Roles for service accounts for on-prem clusters</a> In this short tutorial, you will learn how to configure the IAM roles for Service Account for a bare-metal cluster using minikube as an example.</li>
+<li><a href="https://medium.com/andcloudio/creating-authentication-and-authorization-in-kubernetes-c6c5f0f1d2ad">medium.com/andcloudio: Setting up Authentication and RBAC Authorization in Kubernetes</a></li>
+<li><a href="https://dev.to/mstryoda/configure-rbac-in-kubernetes-like-a-boss-h67">dev.to: Configure RBAC in Kubernetes Like a Boss</a> You will configure RBAC both with kubectl and yaml definitions.</li>
+<li><a href="https://raesene.github.io/blog/2022/08/14/auditing-rbac-redux/">raesene.github.io: Auditing RBAC - Redux</a> The challenges of auditing Kubernetes authorization. Auditing Kubernetes authorization can be a bit of a tricky task. In this article, you will learn what techniques and tools you can use to identify, reassign and manage RBAC rules in your cluster.</li>
+<li><a href="https://goteleport.com/blog/kube-authn-methods/">goteleport.com: A Simple Overview of Authentication Methods for Kubernetes Clusters</a></li>
+<li><a href="https://medium.com/@mehmetodabashi/authentication-and-authorization-in-kubernetes-client-certificates-and-role-based-access-control-d4e98a3c1098">medium.com/@mehmetodabashi: Authentication and Authorization in Kubernetes: Client Certificates and Role Based Access Control (RBAC)</a> In this tutorial, you&rsquo;ll learn how to authenticate and authorize a user to access Kubernetes Clusters with client certificates</li>
+<li><a href="https://medium.com/@brunoolimpio/kubernetes-deepdive-parte-2-a65ffdce596d">medium.com/@brunoolimpio: Kubernetes DeepDive — Parte 2 - Kubernetes RBAC and more&hellip; | Bruno Olimpio</a></li>
+<li><a href="https://www.youtube.com/watch?v=iE9Qb8dHqWI"><mark>youtube: Kubernetes RBAC Explained</mark> | Anton Putra 🌟</a></li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li><a href="https://www.paralus.io">paralus.io 🌟</a> <strong>Zero trust Kubernetes with zero friction.</strong> - <a href="https://github.com/paralus/paralus">github.com/paralus/paralus</a> Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure. It comes with just-in-time service account creation and user-level credential management that integrates with your RBAC and SSO providers or Identity Providers (IdP) that support OIDC. Ships as a GUI, API, and CLI.</li>
+<li><a href="https://github.com/ondat/trousseau">github.com/ondat/trousseau</a> Trousseau uses the Kubernetes KMS provider framework to provide an envelope encryption scheme to encrypt secrets on the fly before they reach etcd. The project is modular and you can plug your own KMS tool (e.g. Vault).</li>
+</ul>
+<h2 id="kubernetes-and-ldap">Kubernetes and LDAP</h2>
+<ul>
+<li><a href="https://loft.sh/blog/kubernetes-and-ldap-enterprise-authentication-for-kubernetes">loft.sh: Kubernetes and LDAP: Enterprise Authentication for Kubernetes</a></li>
+</ul>
+<h2 id="admission-control">Admission Control</h2>
+<ul>
+<li><a href="https://blog.styra.com/blog/why-rbac-is-not-enough-for-kubernetes-api-security">blog.styra.com: Why RBAC is not enough for kubernetes security 🌟🌟</a></li>
+<li><a href="https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed">medium: Single Sign-On in Kubernetes 🌟</a></li>
+<li><a href="https://trstringer.com/kubernetes-validating-webhook/">trstringer.com: Create a Basic Kubernetes Validating Webhook</a></li>
+<li><a href="https://github.com/box/kube-exec-controller">box/kube-exec-controller</a> An admission controller service and kubectl plugin to handle container drift in K8s clusters</li>
+</ul>
+<h2 id="kubernetes-security-best-practices">Kubernetes Security Best Practices</h2>
+<ul>
+<li>
+<p><a href="https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256">Building a DDoS Response Plan with Azure DDoS Protection</a> - <em>(Related to azure topic)</em></p>
+</li>
+<li>
+<p><a href="https://www.stackrox.com/post/2020/05/kubernetes-security-101/">Kubernetes Security 101: Risks and 29 Best Practices 🌟</a> Security Best Practices Across Build, Deploy, and Runtime Phases.</p>
+</li>
+<li>Build Phase:<ol>
+<li>Use minimal base images</li>
+<li>Don’t add unnecessary components</li>
+<li>Use up-to-date images only</li>
+<li>Use an image scanner to identify known vulnerabilities</li>
+<li>Integrate security into your CI/CD pipeline</li>
+<li>Label non-fixable vulnerabilities</li>
+</ol>
+</li>
+<li>Deploy Phase:<ol>
+<li>Use namespaces to isolate sensitive workloads</li>
+<li>Use Kubernetes network policies to control traffic between pods and clusters</li>
+<li>Prevent overly permissive access to secrets</li>
+<li>Assess the privileges used by containers</li>
+<li>Assess image provenance, including registries</li>
+<li>Extend your image scanning to deploy phase</li>
+<li>Use labels and annotations appropriately</li>
+<li>Enable Kubernetes role-based access control (RBAC)</li>
+</ol>
+</li>
+<li>Runtime Phase:<ol>
+<li>Leverage contextual information in Kubernetes</li>
+<li>Extend vulnerability scanning to running deployments</li>
+<li>Use Kubernetes built-in controls when available to tighten security</li>
+<li>Monitor network traffic to limit unnecessary or insecure communication</li>
+<li>Leverage process whitelisting</li>
+<li>Compare and analyze different runtime activity in pods of the same deployments</li>
+<li>If breached, scale suspicious pods to zero</li>
+</ol>
+</li>
+<li><a href="https://thenewstack.io/6-kubernetes-security-best-practices/">thenewstack.io: 6 Kubernetes Security Best Practices 🌟</a></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-security-best-practices/"><mark>armosec.io: Kubernetes Security Best Practices: Definitive Guide</mark></a></li>
+<li><a href="https://semaphoreci.com/blog/kubernetes-deployments">semaphoreci.com: Secure Your Kubernetes Deployments</a> In this tutorial, we present three tools to validate and secure your Kubernetes deployments:<ul>
+<li>Kubeval</li>
+<li>Kubeconform</li>
+<li>Kubescore</li>
+</ul>
+</li>
+<li><a href="https://engineering.dynatrace.com/blog/kubernetes-security-part-1-role-based-access-control-rbac/">engineering.dynatrace.com: Kubernetes Security Best Practices -Part 1: Role Based Access Control (RBAC)</a></li>
+<li><a href="https://medium.com/dynatrace-engineering/kubernetes-security-best-practices-part-2-network-policies-405b36ed9d94">medium.com/dynatrace-engineering: Kubernetes Security Best Practices Part 2: Network Policies</a> In this blog post, you&rsquo;ll cover the following topics:<ul>
+<li>What a NetworkPolicy is, and why do you need it</li>
+<li>How NetworkPolicies are structured</li>
+<li>Best practices for defining NetworkPolicies</li>
+<li>An example of defining NetworkPolicies</li>
+</ul>
+</li>
+<li><a href="https://blog.frankel.ch/learning-auditing-kubernetes-manifests/">blog.frankel.ch: Learning by auditing Kubernetes manifests</a> In this article, you will learn about Kubernetes security and architecture by reviewing reports from Chekov — a tool designed to find misconfigurations before they’re deployed.</li>
+<li><a href="https://www.spectrocloud.com/blog/kubernetes-security-best-practices-5-easy-ways-to-cut-risk/">spectrocloud.com: Kubernetes security best practices: 5 easy ways to cut risk</a></li>
+<li><a href="https://medium.com/@cloud_tips/kubernetes-security-best-practices-ea1e3913c001">medium.com/@cloud_tips: Kubernetes Security Best Practices</a></li>
+</ul>
+<center>
+<p><a href="https://www.stackrox.com/post/2020/05/kubernetes-security-101/"><img alt="kubernetes security controls landscape" src="images/kubernetes-security-controls-landscape.jpg" /></a></p>
+</center>
+<h2 id="kubernetes-authentication-and-authorization">Kubernetes Authentication and Authorization</h2>
+<ul>
+<li><a href="https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350">From Zero to Hero with Identity and Access Control in Azure Kubernetes Service</a> 🌟 - A comprehensive guide for Kubernetes administrators transitioning to Azure Kubernetes Service (AKS), explaining the integration of Microsoft Entra ID (formerly Azure Active Directory) for centralized identity and access management. It covers the differences and complementary nature of Azure RBAC and Kubernetes RBAC, how to use Azure RBAC for Kubernetes authorization, assigning roles and permissions, the impact on local admin accounts, implementing managed and workload identities, and best practices for AKS authentication and authorization.</li>
+<li>
+<p><a href="https://learn.microsoft.com/en-us/entra/fundamentals/configure-security">Configure Microsoft Entra for Increased Security</a> - This article provides guidance on configuring Microsoft Entra for enhanced security, organized by themes aligned with the Secure Future Initiative (SFI). It focuses on implementing controls for traditional workforce tenants to reduce credential-related risks and build a foundation for secure resource management. The document highlights the use of automated assessments like the Zero Trust Assessment for efficient validation of security configurations.</p>
+</li>
+<li>
+<p><a href="https://kubernetes.io/docs/reference/access-authn-authz/authentication/">kubernetes.io: Authenticating</a></p>
+</li>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/">kubernetes.io: Access Clusters Using the Kubernetes API</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/">kubernetes.io: Accesing Clusters</a></li>
+<li><a href="https://www.magalix.com/blog/kubernetes-authentication">magalix.com: kubernetes authentication 🌟</a></li>
+<li><a href="https://www.magalix.com/blog/kubernetes-authorization">magalix.com: kubernetes authorization 🌟</a></li>
+<li><a href="https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/">kubernetes login</a></li>
+<li><a href="https://learnk8s.io/microservices-authentication-kubernetes">learnk8s.io: Authentication between microservices using Kubernetes identities 🌟</a></li>
+<li><a href="https://gravitational.com/blog/kubernetes-sso-saml/">gravitational.com: How to Set Up Kubernetes SSO with SAML</a></li>
+<li><a href="https://lisowski0925.medium.com/using-kubernetes-csrs-and-rbac-for-cluster-user-authentication-and-authorization-9df5498655cd">lisowski0925.medium.com: Using Kubernetes Certificate Signing Requests and RBAC for User Authentication and Authorization</a></li>
+</ul>
+<h3 id="kubernetes-authentication-methods">Kubernetes Authentication Methods</h3>
+<p>Kubernetes supports several authentication methods out-of-the-box, such as X.509 client certificates, static HTTP bearer tokens, and OpenID Connect.</p>
+<h3 id="x509-client-certificates">X.509 client certificates</h3>
+<ul>
+<li><a href="https://medium.com/@sureshpalemoni/kubernetes-authentication-and-authorization-with-x509-client-certificates-edbc3517c10">Kubernetes Authentication and Authorization with X509 client certificates</a></li>
+</ul>
+<h3 id="static-http-bearer-tokens">Static HTTP Bearer Tokens</h3>
+<ul>
+<li><a href="https://stackoverflow.com/questions/56214715/accessing-the-kubernetes-rest-end-points-using-bearer-token">stackoverflow: Accessing the Kubernetes REST end points using bearer token</a></li>
+</ul>
+<h3 id="openid-connect">OpenID Connect</h3>
+<ul>
+<li><a href="https://openid.net/">OpenID Connect</a></li>
+</ul>
+<h3 id="implementing-a-custom-kubernetes-authentication-method">Implementing a custom Kubernetes authentication method</h3>
+<ul>
+<li><a href="https://learnk8s.io/kubernetes-custom-authentication">Implementing a custom Kubernetes authentication method</a></li>
+</ul>
+<h2 id="pod-security-policies-sccs-security-context-constraints-in-openshift">Pod Security Policies (SCCs - Security Context Constraints in OpenShift)</h2>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/policy/pod-security-policy/">Pod Security Policy (SCC in OpenShift) 🌟</a></li>
+<li><a href="https://rancher.com/blog/2020/pod-security-policies-part-1">rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1</a><ul>
+<li><a href="https://rancher.com/blog/2020/pod-security-policies-part-2">rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2</a></li>
+</ul>
+</li>
+<li><a href="https://developer.squareup.com/blog/kubernetes-pod-security-policies/">developer.squareup.com: Kubernetes Pod Security Policies (PSP)</a> an example with exception management</li>
+<li><a href="https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0">itnext.io: Implementing a Secure-First Pod Security Policy Architecture</a></li>
+<li><a href="https://kind-brown-cfb734.netlify.app/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/">Neon Mirrors: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno</a></li>
+<li><a href="https://ibrahims.medium.com/security-context-kubernetes-9672ae2380f9">ibrahims.medium.com: Security Context — Kubernetes</a></li>
+</ul>
+<h2 id="security-profiles-operator">Security Profiles Operator</h2>
+<ul>
+<li>The Security Profiles Operator (SPO) is an out-of-tree Kubernetes enhancement to make the management of seccomp, SELinux and AppArmor profiles easier and more convenient.</li>
+<li><a href="https://github.com/kubernetes-sigs/security-profiles-operator">kubernetes-sigs/security-profiles-operator</a></li>
+<li><a href="https://kubernetes.io/blog/2021/12/17/security-profiles-operator/">kubernetes.io: What&rsquo;s new in Security Profiles Operator v0.4.0</a></li>
+</ul>
+<h2 id="eks-security">EKS Security</h2>
+<ul>
+<li><a href="https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html">Security Group Rules EKS</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI">EC2 ENI and IP Limit</a></li>
+<li><a href="https://docs.aws.amazon.com/eks/latest/userguide/calico.html">Calico in EKS</a></li>
+<li><a href="https://aws.github.io/aws-eks-best-practices/"><mark>Amazon EKS Best Practices Guide for Security</mark> 🌟</a></li>
+<li><a href="https://medium.com/dev-genius/securing-kubernetes-dashboard-on-eks-with-pomerium-e98c47610e2f">medium.com: Securing Kubernetes Dashboard on EKS with Pomerium</a></li>
+</ul>
+<h2 id="external-secrets-operator">External Secrets Operator</h2>
+<ul>
+<li><a href="https://external-secrets.io">external-secrets.io 🌟</a> External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, and many more. The operator reads information from external APIs and automatically injects the values into a Kubernetes Secret.</li>
+<li><a href="https://mahira-technology.medium.com/kubernetes-secrets-management-level-up-with-external-secrets-operator-ed7d32df2189">mahira-technology.medium.com: Kubernetes Secrets Management: Level Up with External Secrets Operator</a> Kubernetes has become a popular platform for deploying and managing containerized applications. As applications grow in complexity, managing secrets such as API keys, passwords, and certificates becomes increasingly important. While Kubernetes provides a built-in Secrets resource, it has limitations when it comes to managing secrets across multiple clusters or integrating with external secret management systems. This is where the External Secrets Operator (ESO) comes into play. ESO is an open-source Kubernetes operator that allows you to manage secrets from external secret management systems and synchronize them as Kubernetes Secrets.</li>
+<li><a href="https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373">faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key Vault Integration (with Workload Identity)</a></li>
+</ul>
+<h2 id="cve">CVE</h2>
+<ul>
+<li><a href="https://hackerone.com/reports/1249583">hackerone.com: Authenticated kubernetes principal with restricted permissions can retrieve ingress-nginx serviceaccount token and secrets across all namespaces</a></li>
+<li><a href="https://blog.lightspin.io/nginx-custom-snippets-cve-2021-25742">blog.lightspin.io: NGINX Custom Snippets CVE-2021-25742</a></li>
+</ul>
+<h3 id="official-kubernetes-cve-feed">Official Kubernetes CVE Feed</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/reference/issues-security/official-cve-feed/"><mark>kubernetes.io: Official CVE Feed</mark> 🌟</a></li>
+<li><a href="https://kubernetes.io/blog/2022/09/12/k8s-cve-feed-alpha/">kubernetes.io: Announcing the Auto-refreshing Official Kubernetes CVE Feed</a></li>
+</ul>
+<h2 id="videos">Videos</h2>
 <details class="note">
-<summary>Top Videos &amp; Clips - Click to expand!</summary>
+<summary>Click to expand!</summary>
 <center markdown="1">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/318elIq37PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rT4fJNbfe14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uQz0TpyJbE8?si=Ys-bXCWcoG-nDU1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=fJvBV63-mjQ6S-Ht&amp;list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/QgctrpTpJec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SyRZe5YVCVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/iE9Qb8dHqWI?si=ORjg86ZDWRu77lsW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 </center>
 </details>
-<!--
-[![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
--->
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center markdown="1">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes base64 encodes secrets because that makes arbitrary data play nice with JSON. It had nothing to do with the security model (or lack thereof). It did not occur to us at the time that people could mistake base64 for some form of encryption.</p>&mdash; Daniel Smith (@originalavalamp) <a href="https://twitter.com/originalavalamp/status/1411755706861064192?ref_src=twsrc%5Etfw">July 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/OAuth?src=hash&amp;ref_src=twsrc%5Etfw">#OAuth</a> has 4 Flows for retrieving an Access Token.<br><br>If you have worked with it, you know how difficult is it to remember what is what.<br><br>A Zine says a lot, seriously a lot. Check this out.<br>Idea credits <a href="https://twitter.com/b0rk?ref_src=twsrc%5Etfw">@b0rk</a> <a href="https://twitter.com/hashtag/IAM?src=hash&amp;ref_src=twsrc%5Etfw">#IAM</a> <a href="https://twitter.com/hashtag/security?src=hash&amp;ref_src=twsrc%5Etfw">#security</a> <a href="https://twitter.com/hashtag/infosec?src=hash&amp;ref_src=twsrc%5Etfw">#infosec</a> <a href="https://twitter.com/hashtag/webdev?src=hash&amp;ref_src=twsrc%5Etfw">#webdev</a> <a href="https://twitter.com/hashtag/web?src=hash&amp;ref_src=twsrc%5Etfw">#web</a> <a href="https://twitter.com/hashtag/webcomic?src=hash&amp;ref_src=twsrc%5Etfw">#webcomic</a> <a href="https://twitter.com/hashtag/webcomics?src=hash&amp;ref_src=twsrc%5Etfw">#webcomics</a> <br>RT if useful <a href="https://t.co/fbrls0V08K">pic.twitter.com/fbrls0V08K</a></p>&mdash; Rohit (@sec_r0) <a href="https://twitter.com/sec_r0/status/1347603985096724493?ref_src=twsrc%5Etfw">January 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes security best practices in short -<br><br>A Thread 👇 <a href="https://t.co/kehRjXuiEw">pic.twitter.com/kehRjXuiEw</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1446919546586087432?ref_src=twsrc%5Etfw">October 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes security thing: Always be careful of what you are letting your users choose for usernames. If somone has a username of system:kube-controller-manager on an external Identity system, Kubernetes will quite happily give them the rights of the controller manager :)</p>&mdash; Rory McCune (@raesene) <a href="https://twitter.com/raesene/status/1455154869925449736?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+
+<h2 id="kubernetes-security_1">kubernetes-security</h2>
+<ul>
+<li><a href="https://github.com/kubescape/kubescape">kubescape</a> - Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.</li>
+</ul>
 
 
 
