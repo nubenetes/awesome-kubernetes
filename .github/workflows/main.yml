@@ -31,10 +31,9 @@ jobs:
         run: mkdocs build -f v2-mkdocs.yml -d site/v2/
 
       - name: Deploy to GitHub Pages
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          CUSTOM_DOMAIN: nubenetes.com
-          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
-          EXTRA_PACKAGES: build-base
-          REQUIREMENTS: requirements.txt
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          cname: nubenetes.com
+
