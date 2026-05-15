@@ -1,0 +1,41 @@
+name: Nubenetes README Automated Sync
+
+on:
+  push:
+    branches:
+      - develop
+    paths-ignore:
+      - 'README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for commit stats
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Execute README Metric Updater
+        run: |
+          python src/readme_updater.py
+
+      - name: Commit and Push README Updates
+        run: |
+          git config --global user.name "Nubenetes Bot"
+          git config --global user.email "bot@nubenetes.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes in README.md to commit."
+          else
+            git commit -m "docs: automated README metric synchronization [skip ci]"
+            git push origin develop
+          fi

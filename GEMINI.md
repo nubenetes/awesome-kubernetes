@@ -20,6 +20,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 14. **Persistent V2 Caching**: The V2 Optimizer MUST use a persistent cache file (`data/v2_cache.json`) to store AI evaluations (year, quality, category). This is mandatory to minimize API costs and ensure execution speed across 15k+ links.
 15. **GitHub Metadata Enrichment**: For all `github.com` resources, the bot MUST attempt to fetch real-time metadata (stars, last commit) using the GitHub API. This data must be included in the V2 rendering to provide current context.
 16. **Resilient Link Health**: Every V2 generation cycle MUST perform asynchronous health checks. The bot MUST use identity rotation (User-Agents) and multiple attempts (3x) with backoff to minimize false negatives. Only definitive **404 Not Found** errors lead to removal; other failures (timeouts, 403s) result in the link being preserved but flagged as `[OFFLINE?]` to ensure maximum technical preservation. GitHub and 'Foundational' resources are exempt from removal based on health checks.
+17. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote branches already merged into `develop`. The branches `master`, `develop`, and `gh-pages` are strictly protected and MUST NEVER be deleted.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
@@ -40,6 +41,58 @@ This file contains the accumulated instructions and long-term vision for the aut
     *   `docs/index.md` (Main Table of Contents).
     *   The internal TOC of the modified page.
 *   **Orphan Curation**: Periodically audit the `docs/` folder to find unlinked files and integrate them into the navigation based on their topic.
+
+## 📊 Mermaid Diagram Best Practices
+
+To ensure robust rendering across GitHub, VSCode, and MkDocs, follow these standards when creating or modifying Mermaid diagrams:
+
+1.  **Node Label Quoting**: ALWAYS wrap node labels in double quotes (e.g., `A["Label Text"]`) if they contain spaces, special characters (parentheses, brackets, dots), or reserved words. This prevents parse errors in more restrictive environments.
+2.  **Explicit Direction**: Use `graph TD` (Top-Down) for deep hierarchies and `graph LR` (Left-to-Right) for flat process flows to optimize readability and prevent horizontal clipping.
+3.  **Label Length**: Keep labels concise (under 25 characters). If a longer description is needed, use a tooltip or sub-text.
+4.  **Syntax Validation**: Before committing, verify the syntax using a Mermaid previewer. Common pitfalls include:
+    *   Unescaped brackets `[` or `]` inside labels.
+    *   Missing semicolons or newlines between node definitions.
+    *   Recursive loops without proper termination.
+5.  **Integration with MkDocs**: Ensure `pymdownx.superfences` is configured in `mkdocs.yml` to support Mermaid blocks within Markdown.
+
+## 🛡️ Repository Policies & Branch Protection
+
+To maintain the integrity of the archive and ensure the AI agents operate correctly:
+
+1.  **Branch Hierarchy**:
+    *   `master`: Read-only for contributors/bots. Restricted to repository owner only.
+    *   `develop`: The only valid target for Pull Requests.
+2.  **Pull Request Policy**:
+    *   AI agents MUST always target `develop`.
+    *   Manual contributions (human PRs) targeting `master` must be automatically or manually redirected to `develop`.
+3.  **Owner-Only Merges**: Only the repository owner has the authority to merge `develop` into `master` after verifying the visual health dashboard and metrics.
+
+## 📝 README Synchronization & Maintenance Protocols
+
+The `README.md` is the primary entry point for Nubenetes and must accurately reflect the state of both the **V1 (Exhaustive)** and **V2 (Elite)** editions. AI agents and contributors MUST follow these protocols:
+
+### 1. Mandatory Updates on `develop` Branch
+Before any Pull Request is merged from `develop` to `master`, the `README.md` must be audited and updated to reflect the latest changes. This is critical for maintaining the "Source of Truth" status.
+
+### 2. Metric Recalculation
+Whenever a significant curation cycle (automatic or manual) is completed:
+*   **Link Counts:** Update the "Heart of Nubenetes" table with the current total link count and specialized page count.
+*   **Top Categories:** Recalculate the density of the top 10 categories.
+*   **Historical Growth:** Add/update the monthly surge rows in the "2026: The Agentic Monthly Surge" table.
+*   **Reference Estimates:** Use the established ratio (~4.13 links/commit) to estimate new reference growth if exact numbers aren't extracted by the bot.
+
+### 3. Visual & Diagram Sync
+*   **Mermaid Charts:** If new top-level categories are created or existing ones grow significantly, update the "Major Ecosystem Pillars" and "Specialized Sub-ecosystems" pie charts.
+*   **Architecture Flow:** If the Agentic Stack or the deployment lifecycle changes (e.g., new workflows, different dependencies), the corresponding Mermaid diagrams MUST be updated immediately.
+*   **Robustness:** Follow the "Mermaid Diagram Best Practices" (node quoting, explicit direction) as defined in this document.
+
+### 4. V1 vs V2 Alignment
+*   Ensure any changes to the `V2VisionEngine` or the elite selection criteria are reflected in the "Dual-Edition Architecture" section.
+*   Update the "Comparison Matrix" if the technical differences between V1 and V2 evolve.
+
+### 5. Automation vs Manual Intervention
+*   **Automated Updates:** The Agentic Bot should ideally include a step to refresh these metrics in its curation PRs.
+*   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
 
 ## 🚀 Block Evasion Strategies
 

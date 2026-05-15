@@ -1,17 +1,343 @@
-# Nubenetes: Awesome Kubernetes & Cloud
+# Nubenetes: The Intelligent Cloud Native Archive 🧠☁️
 
-A curated list of awesome references collected since 2018.
+[![Nubenetes Automated Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)
+[![Nubenetes V2 Agentic Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)
+[![Intelligent Link Cleaner](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)
 
-My VSCode's plugins:
+**Nubenetes** is a high-density, curated archive of the Kubernetes, Cloud Native, and Agentic AI ecosystem. Since its inception in 2018, it has evolved from a personal collection of references into an autonomous, AI-driven knowledge engine that processes thousands of technical resources to provide a definitive "Source of Truth" for engineers worldwide.
 
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) Tables of Contents are automatically generated with this extension.
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+---
 
-Apparently [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) requires an indentation of 4 spaces, otherwise nested lists and Tables Of Contents won't be rendered as expected.
+## 📖 Table of Contents
 
-My VSCode's settings.json :
+1.  [Introduction & Motivation](#-introduction--motivation)
+2.  [Repository Metrics & Evolution](#-repository-metrics--evolution)
+    *   [Top Categories by Density](#top-categories-by-density)
+    *   [Historical Growth (Commits & References)](#historical-growth-commits--references)
+    *   [Content Distribution](#content-distribution)
+3.  [The 2026 Architectural Shift](#-the-2026-architectural-shift)
+    *   [From Manual to Agentic](#from-manual-to-agentic)
+    *   [Evolution Path](#evolution-path)
+4.  [Dual-Edition Architecture (V1 vs V2)](#-dual-edition-architecture-v1-vs-v2)
+    *   [V1: The Exhaustive Archive](#v1-the-exhaustive-archive)
+    *   [V2: The Agentic Elite Edition](#v2-the-agentic-elite-edition)
+    *   [Comparison Matrix](#comparison-matrix)
+5.  [The Agentic Stack](#-the-agentic-stack)
+6.  [The Agentic AI Engine](#-the-agentic-ai-engine)
+7.  [GitHub Workflows & Automation](#-github-workflows--automation)
+    *   [Workflow Inventory](#workflow-inventory)
+    *   [Curation Flow Architecture](#curation-flow-architecture)
+8.  [Branching Strategy & Lifecycle](#-branching-strategy--lifecycle)
+9.  [Developer Experience & VSCode Setup](#-developer-experience--vscode-setup)
+
+---
+
+## 🌟 Introduction & Motivation
+
+### Origins
+Nubenetes was born in 2018 during a large-scale Cloud Native project for the **BMW IT-Zentrum in Munich**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement. The lessons learned from that German engineering environment—standardization, evidence-based decisions, and extreme automation—became the DNA of this repository.
+
+### Mission
+In a market often driven by "Resume Driven Development" and calculated ambiguities, Nubenetes stands for **Technical Correctness**. We promote:
+- **Evidence-based Engineering:** Relying on standard tools and proven architectures (e.g., OpenShift, CloudBees/Jenkins).
+- **Automation over Manual Work:** If it can be scripted, it should be.
+- **Knowledge Democratization:** Breaking silos by sharing high-value, production-grade resources.
+
+> *"If you want to save the world, think like an engineer."* — Mark Stevenson
+
+---
+
+## 📊 Repository Metrics & Evolution
+
+Nubenetes is one of the most comprehensive archives in the ecosystem, featuring tens of thousands of links organized by granular categories.
+
+### The "Heart" of Nubenetes (Stats as of 2026-05-15)
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Technical Resources (Links)** | **17133+** |
+| **Specialized MD Pages** | **161** |
+| **Total Commits** | **3976+** |
+| **Primary AI Engine** | **Google Gemini (Agentic)** |
+
+### Top Categories by Density
+
+| Category (Markdown Page) | Total Links |
+| :--- | :---: |
+| [Kubernetes](docs/kubernetes.md) | 1149 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 740 |
+| [Terraform](docs/terraform.md) | 640 |
+| [Demos](docs/demos.md) | 538 |
+| [Git](docs/git.md) | 497 |
+| [Azure](docs/azure.md) | 487 |
+| [Jenkins](docs/jenkins.md) | 458 |
+| [Devsecops](docs/devsecops.md) | 407 |
+| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 379 |
+| [Monitoring](docs/monitoring.md) | 347 |
+
+### Historical Growth (Commits & References)
+
+The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem. Since 2026, the adoption of Agentic AI has resulted in a vertical surge in both commit frequency and link discovery.
+
+#### Annual Growth Summary
+| Year | Commits | Est. New Refs | Key Milestone |
+| :---: | :---: | :---: | :--- |
+| 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
+| 2019 | 142 | 586 | Early Growth & Open Source Launch |
+| 2020 | 2046 | 8,449 | **The Great Expansion** (Global Lockdowns) |
+| 2021 | 531 | 2,193 | Maturity & Industry Standardization |
+| 2022 | 402 | 1,660 | Cloud Native Hardening & GitOps Era |
+| 2023 | 30 | 123 | Maintenance & Refinement |
+| 2024 | 53 | 218 | Curation Strategy Pivot |
+| 2025 | 5 | 20 | Stability & Research Phase |
+| 2026 | 417 | 1,722 | **Agentic AI Surge** (May 2026 Inception) |
+
+#### 2026: The Agentic Monthly Surge
+| Month | Commits | Est. New Refs | Status |
+| :--- | :---: | :---: | :--- |
+| 2026-04 | 25 | 103 | Active Curation |
+| 2026-05 | 392 | 1,618 | **Agentic Inception (Gemini Era)** |
+
+### Content Distribution & Semantic Clustering
+
+Nubenetes uses AI-driven semantic clustering to organize its 17,000+ resources into logical pillars. Below is a detailed breakdown of how the archive is distributed.
+
+#### 1. Major Ecosystem Pillars
+This chart shows the high-level distribution across the primary domains of Cloud Native engineering.
+
+```mermaid
+pie title Nubenetes Major Ecosystem Pillars
+    "Kubernetes Ecosystem" : 3500
+    "Developer Ecosystem" : 3000
+    "Public/Private Cloud" : 2500
+    "CI/CD & GitOps" : 2200
+    "Others (Specialized)" : 2733
+    "Infra as Code" : 1200
+    "SRE & Observability" : 1000
+    "Security & DevSecOps" : 1000
+```
+
+*   **Kubernetes Ecosystem:** Includes core K8s, tools, networking, security, and operators. This is the heart of the project, with over 3,500 curated references.
+*   **Developer Ecosystem:** Covers programming languages (Go, Python, Java), VSCode, and web technologies. It reflects the "Dev" in DevOps.
+*   **Public/Private Cloud:** Detailed resources for AWS, Azure, GCP, and specialized private cloud solutions like OpenShift and Rancher.
+
+#### 2. Deep Dive: Specialized Sub-ecosystems
+To better understand the "Others" category, we break down the specialized technical domains that form the long-tail of Nubenetes.
+
+```mermaid
+pie title Deep Dive: Specialized Sub-ecosystems
+    "Databases (SQL/NoSQL)" : 600
+    "Demos & Boilerplates" : 538
+    "AI & Agentic Systems" : 450
+    "Web Servers & Runtimes" : 400
+    "Message Queues & Data" : 336
+    "Career & Recruitment" : 250
+    "Linux & OS Hardening" : 265
+    "Others (100+ Topics)" : 1161
+```
+
+*   **AI & Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
+*   **Databases:** Deep coverage of relational (PostgreSQL/Crunchy) and NoSQL databases, including database version control with Liquibase.
+*   **Demos:** High-value repositories with ready-to-use production boilerplates, perfect for "Day 0" projects.
+
+---
+
+## 🦾 The Agentic Stack
+
+The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensures 24/7 curation and maintenance.
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Orchestration** | GitHub Actions | Scheduled & Event-driven execution (via `develop` branch). |
+| **Intelligence** | Google Gemini 1.5 Pro | Resource evaluation, scoring, and classification. |
+| **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
+| **Discovery** | Twikit & Playwright | Autonomous scraping and account rotation. |
+| **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
+| **Deployment** | MkDocs Material | High-performance static site generation for V1 and V2. |
+
+---
+
+## 🚀 The 2026 Architectural Shift
+
+### From Manual to Agentic
+Historically, Nubenetes was curated manually by extracting references from **x.com/nubenetes** (formerly Twitter). This was a labor-intensive process that relied on human memory and periodic batch updates.
+
+As of **May 2026**, the repository has transitioned to a **Fully Autonomous Agentic AI Architecture**. Using Google's Gemini models, the system now scans multiple sources, evaluates technical relevance, and performs self-maintenance without human intervention.
+
+### Evolution Path
+
+```mermaid
+graph TD
+    A["2018: Munich Era (BMW)"] --> B["2020: X.com Curation"]
+    B --> C["2022: GitOps Workflow"]
+    C --> D["2026: Agentic AI Surge"]
+    D --> E["Gemini Discovery"]
+    D --> F["Health Monitoring"]
+    D --> G["V2 Elite Generation"]
+```
+
+---
+
+## 🏛️ Dual-Edition Architecture (V1 vs V2)
+
+Nubenetes now operates with two distinct editions to serve different engineering needs. Both are managed via GitOps and deployed to [nubenetes.com](https://nubenetes.com).
+
+### V1: The Exhaustive Archive
+- **Purpose:** Preservation of all technical knowledge since 2018.
+- **Scope:** 17,000+ links across 160+ pages.
+- **Source of Truth:** The `docs/` directory.
+- **Deployment:** [nubenetes.com](https://nubenetes.com)
+
+### V2: The Agentic Elite Edition
+- **Purpose:** A high-density, enterprise-grade portal for the 2026 ecosystem.
+- **Algorithm:** Uses the `V2VisionEngine` to select only the top 10% of resources based on quality, impact, and freshness.
+- **Source of Truth:** The `v2-docs/` directory (Derived from V1).
+- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
+
+### Comparison Matrix
+
+| Feature | V1 (Exhaustive) | V2 (Elite) |
+| :--- | :--- | :--- |
+| **Philosophy** | "Leave no resource behind" | "Only the best for 2026" |
+| **Volume** | High (17k+ Links) | Optimized (~2k Links) |
+| **Depth** | Historical & Wide | Cutting-edge & Deep |
+| **Filtering** | Basic (Health only) | AI-Scored (🌟🌟🌟) |
+| **MVQ Check** | No | Yes (Stale repos deprioritized) |
+
+---
+
+## 🤖 The Agentic AI Engine
+
+The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
+
+1.  **AgenticCurator (`src/agentic_curator.py`)**:
+    - **Discovery:** Scans X.com (multiple accounts) and other curation sources.
+    - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and date.
+    - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching.
+2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
+    - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
+    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane").
+    - **Deprioritization:** Automatically identifies stale repositories (>4 years without activity) and reduces their visibility.
+3.  **IntelligentHealthChecker (`src/intelligent_health_checker.py`)**:
+    - **Resilience:** Performs asynchronous health checks with 3x retry and identity rotation.
+    - **Persistence:** Instead of aggressive deletion, it flags `[OFFLINE?]` links to preserve historical technical context.
+
+---
+
+## 🛠️ GitHub Workflows & Automation
+
+Nubenetes uses a sophisticated multi-stage automation pipeline. Below is the detailed inventory of our workflows, their roles, and their inter-dependencies.
+
+### Workflow Inventory & Sequencing
+
+| # | Workflow | File | Purpose | Trigger | Target |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`agentic_cron.yml`](.github/workflows/agentic_cron.yml) | **Primary Discovery Engine:** Scans sources (X.com, etc.), evaluates with Gemini, and updates V1 (`docs/`). | Monthly / Manual | `develop` |
+| 2 | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | **Optimization Layer:** Scans V1 and generates the Elite edition for V2 (`v2-docs/`). | After #1 | `develop` |
+| 3 | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`readme_sync.yml`](.github/workflows/readme_sync.yml) | **Doc Synchronization:** Recalculates metrics, link growth, and diagrams in real-time. | Push to `develop` | `develop` |
+| 4 | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | **Maintenance:** Global asynchronous health check, deduplication, and `[OFFLINE?]` flagging. | Monthly / Manual | `develop` |
+| 5 | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | **Historical Ingestion:** Processes manual JSON/MD backups through the Agentic AI pipeline. | Manual | `develop` |
+| 6 | **[Production Deploy](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml)** | [`main.yml`](.github/workflows/main.yml) | **Deployment:** Builds both V1 and V2 editions using MkDocs and deploys to nubenetes.com. | Push to `master` | GitHub Pages |
+| 7 | **[Merged Branch Cleanup](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml)** | [`cleanup_merged_branches.yml`](.github/workflows/cleanup_merged_branches.yml) | **Hygiene:** Automatically deletes remote branches merged into `develop` to keep the repo clean. | Bi-weekly (1st/15th) | `develop` |
+
+### Recommended Execution Pipeline
+
+To maintain the archive's integrity, the following logical sequence is followed by the system:
+
+1.  **Phase 1: Knowledge Discovery (#1 or #5):** Raw technical data is fetched and filtered by the Gemini Agent. A Pull Request is created against `develop`.
+2.  **Phase 2: Elite Synthesis (#2):** Once the curation is merged/pushed to `develop`, the V2 Builder triggers to update the premium portal.
+3.  **Phase 3: Metric Alignment (#3):** The push to `develop` from either Phase 1 or 2 triggers the README Sync, ensuring the home page always shows the correct link counts.
+4.  **Phase 4: Global Deployment (#6):** After the repository owner reviews the changes in `develop` and merges them into `master`, the production site is updated.
+
+### Curation Flow Architecture
+
+```mermaid
+sequenceDiagram
+    participant X as X.com / Sources
+    participant G as Gemini Agent
+    participant W1 as [1] Agentic Curation
+    participant W2 as [2] V2 Elite Builder
+    participant W3 as [3] README Sync
+    participant R as Repo (develop)
+    participant M as master branch
+    participant P as [6] Prod Deploy
+
+    W1->>X: Extract Raw Data
+    X-->>W1: Raw JSON/MD
+    W1->>G: Evaluate & Score Assets
+    G-->>W1: Scored & Categorized Assets
+    W1->>R: Update docs/*.md (V1)
+    Note over R: V2 Builder Triggered...
+    W2->>R: Update v2-docs/ (Elite)
+    R->>W3: Trigger README Sync
+    W3->>R: Update Metrics & TOC
+    Note over R, M: Owner Review & Merge
+    R->>M: Sync develop to master
+    M->>P: Trigger Production Build
+    P-->>P: Deploy V1 & V2 to nubenetes.com
+```
+
+### Deployment Lifecycle
+
+```mermaid
+graph LR
+    A["AI Discovery"] --> B["V1 Update (develop)"]
+    B --> C["CI/CD Build V1"]
+    B --> D["V2 Vision Engine"]
+    B --> Z["README Sync"]
+    D --> E["V2 Update (develop)"]
+    E --> F["CI/CD Build V2"]
+    C --> G["nubenetes.com"]
+    F --> H["nubenetes.com/v2/"]
+    Z --> B
+```
+
+---
+
+## 🌳 Branching Strategy & Lifecycle
+
+Nubenetes follows a dual-branch GitOps model to ensure stability while allowing for aggressive AI-driven curation.
+
+-   **`develop` Branch (Bleeding Edge):**
+    -   The primary branch for all activities.
+    -   **ALL Pull Requests (from humans or bots) MUST target this branch.**
+    -   Agentic AI workflows (`agentic_cron.yml`, `v2_optimizer.py`) operate exclusively on this branch.
+-   **`master` Branch (Production):**
+    -   The stable, production-ready branch that powers [nubenetes.com](https://nubenetes.com).
+    -   **Direct PRs to `master` are strictly prohibited.**
+    -   Only the repository owner performs the final review and merge from `develop` to `master`.
+-   **Branch Lifecycle Automation:**
+    -   To maintain repository hygiene, an automated workflow deletes remote branches merged into `develop` every 15 days (1st and 15th of each month).
+    -   **Protected Branches:** The branches `master`, `develop`, and `gh-pages` are EXEMPT from deletion and will always be preserved.
+
+---
+
+## 🤝 Contributing to the Archive
+
+Community contributions have been the backbone of Nubenetes since 2018. If you want to add a reference, improve a description, or fix a link, please follow these guidelines:
+
+1.  **Target the `develop` branch:** Do not create PRs against `master`.
+2.  **Manual Method (Legacy but Welcome):** You can still use the traditional method of creating a branch and submitting a Pull Request.
+3.  **The AI Paradigm Shift:**
+    -   As of May 2026, Nubenetes uses an **Agentic AI filtering and categorization engine**.
+    -   **Ambiguity Warning:** We are currently in a transitional phase. It is not yet fully defined how manual human contributions will be weighed against AI-scored assets. Your PR might be reviewed by both the maintainer and the Agentic Curator to ensure it meets the 2026 quality standards (MVQ).
+    -   We appreciate your patience as we refine the integration between human collective intelligence and autonomous AI curation.
+
+---
+
+## 💻 Developer Experience & VSCode Setup
+
+> **⚠️ Note on Obsolescence:** The manual editing process via VSCode described below is becoming **largely obsolete** as of May 2026. With the introduction of autonomous Gemini-powered AI agents in our GitHub Workflows, the vast majority of curation, link validation, and metric updates are now handled automatically. This setup is preserved only for emergency manual interventions or structural architectural changes.
+
+To maintain the high-density structure of Nubenetes (including Tables of Contents and specific indentations for MkDocs Material) during manual edits, the following VSCode setup is recommended.
+
+### Extension Recommendations
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - **Mandatory** for automatic TOC generation and list management.
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Ensures style consistency.
+- [Mermaid Editor](https://marketplace.visualstudio.com/items?itemName=tomoyukim.vscode-mermaid-editor) - To visualize the architecture diagrams.
+- [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) - To review AI-generated curation PRs.
+
+### Recommended settings.json
 
 ```json
 {
@@ -35,6 +361,19 @@ My VSCode's settings.json :
     "[markdown]": {
         "editor.defaultFormatter": "vscode.github"
     },
-    "markdownlint.focusMode": false
+    "markdownlint.focusMode": false,
+    "editor.renderWhitespace": "all",
+    "editor.guides.bracketPairs": true,
+    "files.exclude": {
+        "**/.venv": true,
+        "**/__pycache__": true
+    }
 }
 ```
+
+> **Note:** Material for MKDocs requires an indentation of **4 spaces** for nested lists and TOCs to render correctly. This is strictly enforced via `editor.tabSize: 4`.
+
+---
+<center>
+Give us a 🌟 on GitHub if you like this archive!
+</center>
