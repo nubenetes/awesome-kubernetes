@@ -119,8 +119,8 @@ class V2VisionEngine:
                         if url.endswith(".md"):
                             url = f"https://nubenetes.com/{url.replace('.md', '/')}"
                         elif url.startswith("images/"):
-                            # Use relative path from V2 to V1 images
-                            url = f"../docs/{url}"
+                            # Use relative path from V2 to V1 images (handled via symlink)
+                            url = f"{url}"
 
                     all_links.append({
                         "title": title, 
@@ -328,8 +328,8 @@ class V2VisionEngine:
         return v2_structure
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
-        # FIX: Ensure mosaic images point to V1 root via relative paths
-        mosaic_html = mosaic_html.replace('src="images/', 'src="../docs/images/').replace('](images/', '](../docs/images/')
+        # FIX: Ensure mosaic images point to V1 root via symlink
+        mosaic_html = mosaic_html.replace('src="images/', 'src="images/').replace('](images/', '](images/')
         
         master_selection = []
         for dim in data.values():
@@ -339,7 +339,7 @@ class V2VisionEngine:
 
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
-            "![Banner](../docs/images/kubernetes_logo.jpg)\n\n"
+            "![Banner](images/kubernetes_logo.jpg)\n\n"
             "!!! quote \"The Library of 2026\"\n"
             "    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing "
             "    chronological clarity and expert quality synthesis.\n\n"
