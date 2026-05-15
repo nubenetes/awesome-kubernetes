@@ -106,7 +106,6 @@
 
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
 - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
-- [itnove.com: La Guía Scrum 2020 en Español​](https://itnove.com/scrum-la-guia-scrum-2020-en-espanol/)
 - [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://rockcontent.com/es/blog/tipos-de-consultoria/) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
 - [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://www.entrepreneur.com/article/365880)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide

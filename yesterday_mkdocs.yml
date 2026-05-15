@@ -1,0 +1,319 @@
+site_name: Nubenetes
+site_url: https://nubenetes.com
+site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
+site_author: nubenetes@gmail.com
+docs_dir: docs/
+#repo_name: 'GitHub'
+repo_name: nubenetes/awesome-kubernetes
+repo_url: https://github.com/nubenetes/awesome-kubernetes
+edit_uri: ""
+theme:
+  name: material
+  prev_next_buttons_location: both
+  icon:
+    logo: logo
+    repo: fontawesome/brands/github
+  favicon: images/favicon-car.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - content.code.annotate
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+extra_css:
+  - static/extra.css
+extra_javascript:
+  - javascript/extra.js
+markdown_extensions:
+  - smarty
+  - sane_lists
+  - fenced_code
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.magiclink
+  - codehilite
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.snippets
+  - pymdownx.keys
+  - abbr
+  - def_list
+nav:
+  - Home: index.md
+  - Intro:
+    - Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
+    - Microservices FAQ & Kubernetes Native: faq.md
+  - SRE:
+    - SRE Site Reliability Engineering: sre.md
+    - Networking: networking.md
+    - FinOps. Cloud Financial Management: finops.md
+    - Chaos Engineering: chaos-engineering.md
+  - DevOps:
+    - DevOps: devops.md
+    - GitOps: gitops.md
+    - MLOps: mlops.md
+    - Cheat Sheets: cheatsheets.md
+  - DevSecOps:
+    - DevSecOps. Container Security: devsecops.md
+    - Security Policy as Code: securityascode.md
+    - OAuth2: oauth.md
+  - NoOps:
+    - NoOps: noops.md
+    - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+  - Docker: docker.md
+  - K8s:
+    - Kubernetes: kubernetes.md
+    - Kubernetes Tutorials: kubernetes-tutorials.md
+    - Kubernetes Plugins, Tools, Extensions and Projects: kubernetes-tools.md
+    - kubectl Commands: kubectl-commands.md
+    - Kubernetes Networking: kubernetes-networking.md
+    - Kubernetes Monitoring and Logging: kubernetes-monitoring.md
+    - Kubernetes Security: kubernetes-security.md
+    - Kubernetes Storage: kubernetes-storage.md
+    - Kubernetes Backup and Migrations: kubernetes-backup-migrations.md
+    - Kubernetes Autoscaling: kubernetes-autoscaling.md
+    - Kubernetes Operators and Controllers: kubernetes-operators-controllers.md
+    - Kubernetes Based Development: kubernetes-based-devel.md
+    - Kubernetes On Premise: kubernetes-on-premise.md
+    - Managed kubernetes in public clouds: managed-kubernetes-in-public-cloud.md
+    - Kubernetes Troubleshooting: kubernetes-troubleshooting.md
+    - Kubernetes Releases: kubernetes-releases.md
+    - Kubernetes Newsletters: kubernetes-newsletters.md
+    - Kubernetes Distributions & Installers: matrix-table.md
+    - Kubernetes Big Data: kubernetes-bigdata.md
+    - Kubernetes alternatives: kubernetes-alternatives.md
+  - OpenShift:
+    - OpenShift docs: openshift.md
+    - OCP 3: ocp3.md
+    - OCP 4: ocp4.md
+  - Rancher:
+    - Rancher - Enterprise management for Kubernetes: rancher.md
+  - CI/CD:
+    - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
+    - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md
+    - Jenkins & Cloudbees: jenkins.md
+    - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
+    - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
+    - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
+    - DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools:
+      - DevOps Tools: devops-tools.md
+      - Jenkins Alternatives for Continuous Integration & Deployment: jenkins-alternatives.md
+      - Argo - Declarative GitOps for Kubernetes: argo.md
+      - Flux CD - The GitOps Operator for Kubernetes: flux.md
+      - Tekton - Cloud Native CI/CD: tekton.md
+      - Keptn: keptn.md
+      - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
+      - Maven, Gradle & SDKMAN: maven-gradle.md
+      - SonarQube: sonarqube.md
+      - Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more: registries.md
+      - Linux & SSH: linux.md
+      - MkDocs & GitHub Pages: mkdocs.md
+    - Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions:
+      - Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more: web-servers.md
+      - Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more: java_app_servers.md
+      - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
+      - Caching Solutions: caching.md
+  - Montrg:
+    - Monitoring and Performance: monitoring.md
+    - Prometheus: prometheus.md
+    - Grafana: grafana.md
+  - Infra Prov:
+    - IaC Infrastructure as Code: iac.md
+    - Terraform & Packer.Kubernetes Boilerplates: terraform.md
+    - Pulumi: pulumi.md
+    - Crossplane: crossplane.md
+    - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
+    - Cloud Asset Inventory: cloud-asset-inventory.md
+  - Config Mgmt:
+    - Ansible: ansible.md
+    - Helm Kubernetes Tool: helm.md
+    - Kustomize - Template-Free Kubernetes Configuration Customization: kustomize.md
+    - StackStorm: stackstorm.md
+    - Chef: chef.md
+    - CI/CD Kubernetes Plugins: cicd-kubernetes-plugins.md
+    - Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK: kubernetes-client-libraries.md
+    - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
+    - YAML and JSON: yaml.md
+  - DB:
+    - Relational Databases and Database DevOps: databases.md
+    - Crunchy Data PostgreSQL Operator: crunchydata.md
+    - NoSQL Databases: nosql.md
+  - Data Pipeline: message-queue.md
+  - Service Mesh:
+    - Service Mesh: servicemesh.md
+    - Istio: istio.md
+  - Demos:
+    - Demos, Boilerplates & Screencasts: demos.md
+  - Cloud:
+    - Public Cloud Solutions: public-cloud-solutions.md
+    - Private Cloud Solutions: private-cloud-solutions.md
+    - Edge Computing: edge-computing.md
+    - AWS Cloud:
+      - AWS: aws.md
+      - AWS Miscellaneous: aws-miscellaneous.md
+      - AWS Architecture and Best Practices: aws-architecture.md
+      - AWS Networking: aws-networking.md
+      - AWS Databases: aws-databases.md
+      - AWS Storage: aws-storage.md
+      - AWS Security: aws-security.md
+      - AWS Monitoring: aws-monitoring.md
+      - AWS IaC: aws-iac.md
+      - AWS Tools Scripts: aws-tools-scripts.md
+      - AWS Messaging: aws-messaging.md
+      - AWS Data: aws-data.md
+      - AWS DevOps: aws-devops.md
+      - AWS Serverless: aws-serverless.md
+      - AWS Pricing: aws-pricing.md
+      - AWS Containers: aws-containers.md
+      - AWS Backup and Migrations: aws-backup.md
+      - AWS Training and Certification: aws-training.md
+      - AWS New Features: aws-newfeatures.md
+      - AWS Spain: aws-spain.md
+    - Microsoft Azure: azure.md
+    - Google Cloud Platform: GoogleCloudPlatform.md
+    - IBM & IBM Cloud: ibm_cloud.md
+    - Oracle Cloud: oraclecloud.md
+    - Digital Ocean: digitalocean.md
+    - Cloudflare: cloudflare.md
+    - Scaleway: scaleway.md
+  - APIs:
+    - APIs with SOAP, REST and gRPC: api.md
+    - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
+    - API Test Automation with Postman and REST Assured: postman.md
+    - API Marketplaces. API Management with API Gateways & Developer Portals : developerportals.md
+  - Dev:
+    - Websites for web developers: devel-sites.md
+    - Angular: angular.md
+    - Document Object Model (DOM): dom.md
+    - Golang: golang.md
+    - JavaScript - node.js & npm: javascript.md
+    - Python - Django & Flask: python.md
+    - React: react.md
+    - Low Code and No Code: lowcode-nocode.md
+    - Web 3: web3.md
+    - Microsoft:
+      - Microsoft .NET: dotnet.md
+      - Microsoft Xamarin: xamarin.md
+    - Java:
+      - Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more: java_frameworks.md
+      - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
+      - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
+    - Dev Environment:
+      - Visual Studio Code: visual-studio.md
+      - WSL - Linux Dev Environment on Windows: linux-dev-env.md
+      - Scaffolding Tools: scaffolding.md
+      - Chrome & Firefox DevTools. HTTP Protocols & WebSockets: ChromeDevTools.md
+  - QA:
+    - QA: qa.md
+    - TestOps and Continuous Testing: testops.md
+    - Test Automation Frameworks and BDD: test-automation-frameworks.md
+  - AI:
+    - AI: ai.md
+    - Model Context Protocol (MCP) & AI Agents: ai-agents-mcp.md
+    - MLOps: mlops.md
+    - ChatGPT: chatgpt.md
+  - Project Mgmt:
+    - Project Management Methodology: project-management-methodology.md
+    - Project Management Tools: project-management-tools.md
+    - Appointment Scheduling: appointment-scheduling.md
+    - Work From Home: workfromhome.md
+  - Refs+:
+    - Other Awesome Lists: other-awesome-lists.md
+    - Interview Questions: interview-questions.md
+    - Subreddits: newsfeeds.md
+    - E-Learning: elearning.md
+    - Digital Money: digital-money.md
+  - Hiring:
+    - Recruitment: recruitment.md
+    - Human Resources: hr.md
+    - Freelancing: freelancing.md
+    - Remote Tech Jobs: remote-tech-jobs.md
+  - Clients: customer.md
+  - About: about.md
+copyright: 2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target=_blank>feedback form</a>.
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nubenetes
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/nubenetes
+    - icon: fontawesome/brands/speaker-deck
+      link: https://speakerdeck.com/nubenetes/stars
+    - icon: fontawesome/brands/slideshare
+      link: https://www.slideshare.net/nubenetes/favorites
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/redhatspain
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/1937212/

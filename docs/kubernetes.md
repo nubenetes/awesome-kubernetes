@@ -786,7 +786,6 @@
   - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide/) - *(Related to azure topic)*
   - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) 🌟 - A practical tutorial demonstrating how to limit CPU and RAM consumption of processes using Linux Control Groups (cgroups). It covers manual manipulation of cgroupfs, as well as using higher-level tools like libcgroup and systemd. The techniques discussed are directly applicable to managing container and Pod resources in environments like Docker and Kubernetes.
   - [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) - *(Related to ai topic)*
-  - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) 🌟 - A technical explanation of control plane load balancing in Kubernetes, detailing its importance, common strategies, and considerations for high availability and performance.
   - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) - *(Related to azure topic)*
 
 - [medium: Kubernetes Resources 🌟](https://medium.com/@pratyush.mathur/kubernetes-resources-c09d172dbdc5)
@@ -1001,7 +1000,6 @@
     - Recreate
 - [medium.com/@chamakenjefi: Kubernetes deployments using a ConfigMap with a custom index.html page](https://medium.com/@chamakenjefi/kubernetes-deployments-using-a-configmap-with-a-custom-index-html-page-5b4de0a7aa1b)
 - [medium.com/@vrnvav97: Canary Deployment in Kubernetes](https://medium.com/@vrnvav97/canary-deployment-in-kubernetes-a18c81cb9b) Canary deployment is pattern used to rollout changes to apps in controlled & safe manner. It involves releasing new version of app to a subset of users/nodes, allowing new version to be tested in prod-like environment.
-- [lovethepenguin.com: Kubernetes: How to Create a deployment](https://lovethepenguin.com/kubernetes-how-to-create-a-deployment-820e07e47806)
 - [medium.com/@the.nick.miller: Custom Deployments with Kubernetes](https://medium.com/@the.nick.miller/multi-container-deployments-with-kubernetes-33c824d8d9a4)
 - [==amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes== 🌟](https://amolmote.hashnode.dev/replicaset-deployment-in-kubernetes#heading-what-is-deployment) In this article, you'll learn the basic concepts of the ReplicaSet and Deployment, how they are different and when you should use one or the other
 - [teplyheng.medium.com: Understand the difference between Deployments and ReplicaSet 🌟](https://teplyheng.medium.com/understand-the-difference-between-deployments-and-replicaset-7e1cfd4d8639)

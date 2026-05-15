@@ -10,6 +10,7 @@ from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORI
 from src.gitops_manager import RepositoryController
 from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
+from src.logger import log_event
 
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
@@ -29,9 +30,9 @@ class IntelligentLinkCleaner:
             "skipped_recent": 0,
             "by_file": {}, 
             "by_category": {}, 
-            "operation_types": {"removals": 0, "archived": 0, "consolidated": 0, "orphans": 0}
+            "operation_types": {"removals": 0, "consolidated": 0, "orphans": 0}
         }
-        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "archived_fallbacks": 0, "orphans_fixed": 0}
+        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "orphans_fixed": 0}
 
     def _load_memory(self) -> Dict:
         if os.path.exists(MEMORY_FILE):
@@ -44,19 +45,49 @@ class IntelligentLinkCleaner:
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
         with open(MEMORY_FILE, 'w') as f: json.dump(self.learning_data, f, indent=2)
 
-    async def _check_wayback(self, url: str) -> Optional[str]:
-        api_url = f"https://archive.org/wayback/available?url={url}"
+    async def _fetch_github_metadata(self, url: str) -> Dict:
+        match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
+        if not match: return {}
+        owner, repo = match.groups()
+        repo = repo.split("#")[0].split("?")[0].rstrip(".git")
+        
+        headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
+        api_url = f"https://api.github.com/repos/{owner}/{repo}"
+        
         try:
-            async with httpx.AsyncClient(timeout=10) as client:
-                resp = await client.get(api_url)
+            async with httpx.AsyncClient(timeout=10.0) as client:
+                resp = await client.get(api_url, headers=headers)
                 if resp.status_code == 200:
                     data = resp.json()
-                    if data.get("archived_snapshots", {}).get("closest"): return data["archived_snapshots"]["closest"]["url"]
+                    pushed_at = data.get("pushed_at", "")
+                    years_inactive = 0
+                    if pushed_at:
+                        last_date = datetime.fromisoformat(pushed_at.replace('Z', '+00:00'))
+                        years_inactive = (datetime.now(last_date.tzinfo) - last_date).days / 365
+                    
+                    return {
+                        "stars": data.get("stargazers_count", 0),
+                        "pushed_at": pushed_at,
+                        "years_inactive": years_inactive,
+                        "is_abandoned": years_inactive > 4
+                    }
         except: pass
-        return None
+        return {}
 
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         now = datetime.now().timestamp()
+
+        # 0. Policy Enforcement: No archive.org links allowed
+        if "archive.org" in url.lower():
+            return url, False, None, "Archive.org link (Forbidden by policy)"
+        
+        # 1. NOTE: V1 Exhaustiveness Mandate
+        # We fetch GitHub metadata for logging/metrics, but we DO NOT delete based on activity.
+        # Only definitively dead links are removed in V1.
+        if "github.com" in url:
+            gh_meta = await self._fetch_github_metadata(url)
+            # Metadata is stored in cache/logs but not used for deletion here.
+
         cache_entry = self.learning_data.get("link_cache", {}).get(url)
         if cache_entry and cache_entry.get("status") == "ALIVE":
             if now - cache_entry.get("last_checked", 0) < (21 * 24 * 3600):
@@ -68,9 +99,9 @@ class IntelligentLinkCleaner:
         strategies = [
             {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Desktop/Google"},
             {"type": "http", "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1", "ref": "https://t.co/", "desc": "Mobile/Twitter"},
-            {"type": "playwright", "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", "ref": "https://www.linkedin.com/", "desc": "PW Desktop/LinkedIn"},
-            {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0", "ref": "https://news.ycombinator.com/", "desc": "Firefox/Reddit"},
-            {"type": "playwright", "ua": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36", "ref": "https://www.google.com/", "desc": "PW Mobile/Google"}
+            {"type": "playwright", "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36", "ref": "https://www.linkedin.com/", "desc": "PW Desktop/LinkedIn"},
+            {"type": "http", "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Linux/Chrome"},
+            {"type": "playwright", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.reddit.com/", "desc": "PW Windows/Reddit"}
         ]
         
         # PRIORIZACIÓN INTELIGENTE: Si ya sabemos qué funciona para este dominio, empezar por ahí.
@@ -98,14 +129,21 @@ class IntelligentLinkCleaner:
                     return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
+                    fallback_result = None
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/"); repo_root = "/".join(parts[:5]) if len(parts) > 4 else None
                         if repo_root:
                             root_alive, _ = await self._check_url_logic(repo_root, strategies[0])
-                            if root_alive: return url, False, f"REPO_ROOT:{repo_root}", f"Consolidated (Original: {reason})"
+                            if root_alive: fallback_result = f"REPO_ROOT:{repo_root}"
+                    
+                    # Cache DEAD status for resumption
+                    if "link_cache" not in self.learning_data: self.learning_data["link_cache"] = {}
+                    self.learning_data["link_cache"][url] = {
+                        "status": "DEAD", "reason": reason, "fallback": fallback_result, "last_checked": now
+                    }
+                    
+                    if fallback_result: return url, False, fallback_result, f"Consolidated (Original: {reason})"
                     if attempt == max_retries - 1:
-                        archived = await self._check_wayback(url)
-                        if archived: return url, False, f"ARCHIVE:{archived}", f"Archived (Original: {reason})"
                         return url, False, None, reason
             except: pass
         return url, True, None, "Conservative Keep"
@@ -171,7 +209,7 @@ class IntelligentLinkCleaner:
         return True, "Conservative Keep"
 
     async def build_global_registry(self):
-        print("[*] Construyendo registro global...")
+        log_event("STARTING GLOBAL LINK DISCOVERY...", section_break=True)
         all_files = CORE_FILES + [f"docs/{cat}.md" for cat in NUBENETES_CATEGORIES]
         for file_path in all_files:
             try:
@@ -186,20 +224,33 @@ class IntelligentLinkCleaner:
                             self.link_registry[clean_url].append({"file": file_path, "line_index": i, "content": line, "title": title})
                             self.stats["total_links"] += 1
             except: pass
+        log_event(f"[*] Discovery: Registered {self.stats['total_links']} links from {len(all_files)} files.")
 
     async def validate_links_tiered(self):
-        print(f"[*] Validando {len(self.link_registry)} URLs...")
-        unique_urls = list(self.link_registry.keys()); random.shuffle(unique_urls)
-        for i in range(0, len(unique_urls), 40):
+        log_event(f"[*] Validating {len(self.link_registry)} unique URLs (Randomized Tiered Batching)...", section_break=True)
+        
+        # Recover DEAD links from cache to enable resumption
+        for url, cache in self.learning_data.get("link_cache", {}).items():
+            if cache.get("status") == "DEAD" and url in self.link_registry:
+                self.dead_links[url] = (cache.get("fallback"), cache.get("reason"))
+                log_event(f"    [M] Recovered from memory: {url} (DEAD)")
+
+        unique_urls = [u for u in self.link_registry.keys() if u not in self.dead_links]
+        random.shuffle(unique_urls)
+        total_unique = len(unique_urls)
+        for i in range(0, total_unique, 40):
             batch = unique_urls[i:i+40]
+            log_event(f"    [>] Processing batch {i//40 + 1}/{(total_unique-1)//40 + 1} ({min(i+40, total_unique)}/{total_unique})...")
             tasks = [self._check_url_with_retries(url) for url in batch]
             results = await asyncio.gather(*tasks)
             for url, is_alive, fallback, reason in results:
-                if not is_alive: self.dead_links[url] = (fallback if fallback else "DEAD", reason)
+                if not is_alive: 
+                    self.dead_links[url] = (fallback if fallback else "DEAD", reason)
+                    log_event(f"        [!] DEAD: {url} -> {reason} {'(Fallback: ' + fallback + ')' if fallback else ''}")
             self._save_memory()
 
     async def apply_changes(self):
-        print("[*] Aplicando cambios y generando métricas visuales...")
+        log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)
         file_updates = {}
         def track(file, op, url, reason, cat=None):
             if file not in self.detailed_stats["by_file"]: self.detailed_stats["by_file"][file] = {"removed": 0, "modified": 0, "created": 0}
@@ -216,12 +267,7 @@ class IntelligentLinkCleaner:
                 if file_path not in file_updates:
                     with open(file_path, 'r') as f: file_updates[file_path] = f.readlines()
                 line_idx = occ["line_index"]
-                if fallback and fallback.startswith("ARCHIVE:"):
-                    real_f = fallback.replace("ARCHIVE:", "")
-                    file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_f)
-                    if "[ARCHIVED]" not in file_updates[file_path][line_idx]: file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace("](", " [ARCHIVED]]( ")
-                    track(file_path, "modified", url, reason); self.detailed_stats["operation_types"]["archived"] += 1
-                elif fallback and fallback.startswith("REPO_ROOT:"):
+                if fallback and fallback.startswith("REPO_ROOT:"):
                     real_f = fallback.replace("REPO_ROOT:", "")
                     file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_f)
                     track(file_path, "modified", url, reason); self.detailed_stats["operation_types"]["consolidated"] += 1
@@ -230,14 +276,17 @@ class IntelligentLinkCleaner:
                         file_updates[file_path][line_idx] = None
                         track(file_path, "removed", url, reason); self.detailed_stats["operation_types"]["removals"] += 1
 
-        if self.curator.stats["orphans_linked"] > 0:
+        orphans_linked = getattr(self.curator, "stats", {}).get("orphans_linked", 0)
+        if orphans_linked > 0:
             track("Navigation", "created", "Orphan Audit", "Linked via Curator")
-            self.detailed_stats["operation_types"]["orphans"] = self.curator.stats["orphans_linked"]
+            self.detailed_stats["operation_types"]["orphans"] = orphans_linked
 
         final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
-        if self.curator.stats["orphans_linked"] > 0:
-            with open(self.curator.index_path, 'r') as f: final_payload[self.curator.index_path] = f.read()
-            with open(self.curator.mkdocs_path, 'r') as f: final_payload[self.curator.mkdocs_path] = f.read()
+        if orphans_linked > 0:
+            with open(getattr(self.curator, "index_path", "docs/index.md"), 'r') as f: 
+                final_payload[getattr(self.curator, "index_path", "docs/index.md")] = f.read()
+            with open(getattr(self.curator, "mkdocs_path", "mkdocs.yml"), 'r') as f: 
+                final_payload[getattr(self.curator, "mkdocs_path", "mkdocs.yml")] = f.read()
         if final_payload: self._create_pr(final_payload)
 
     def _create_pr(self, updates: Dict[str, str], report_content: str = None):
@@ -250,21 +299,19 @@ class IntelligentLinkCleaner:
                 self.git_controller.repository.update_file(path=path, message=f"fix(autonomous): engine update in {path}", content=content, sha=file_meta.sha, branch=branch_name)
             except: pass
         safe_report = report_content[:65000]
-        self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=safe_report, head=branch_name, base="master")
+        self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=safe_report, head=branch_name, base=self.git_controller.default_branch_name)
 
     def _build_report_body(self) -> str:
         report = "## 🧠 Nubenetes Autonomous Health & Curation Engine\n\n"
         report += "### 📊 Distribución de Operaciones\n"
         report += "```mermaid\npie title Operaciones de Mantenimiento\n"
         report += f"    \"Eliminados\" : {self.detailed_stats['operation_types']['removals']}\n"
-        report += f"    \"Archivados\" : {self.detailed_stats['operation_types']['archived']}\n"
         report += f"    \"Consolidados\" : {self.detailed_stats['operation_types']['consolidated']}\n"
         report += f"    \"Nuevos\" : {self.detailed_stats['operation_types']['orphans']}\n```\n\n"
         report += "### 📈 Resumen de Eficiencia\n"
         report += "| Métrica | Cantidad | Detalle |\n| :--- | :---: | :--- |\n"
         report += f"| ⏩ Omitidos (Cache) | **{self.detailed_stats['skipped_recent']}** | Verificados hace menos de 21 días |\n"
         report += f"| 💀 Eliminados | **{self.detailed_stats['operation_types']['removals']}** | 404 definitivos |\n"
-        report += f"| 🏛️ Archivados | **{self.detailed_stats['operation_types']['archived']}** | Vía Wayback Machine |\n"
         report += f"| 🎯 Consolidados | **{self.detailed_stats['operation_types']['consolidated']}** | Raíz de Repositorio Git |\n"
         report += f"| 🖇️ Nuevos | **{self.detailed_stats['operation_types']['orphans']}** | Páginas vinculadas |\n\n"
         report += "### 🧮 Matriz de Mantenimiento\n"
@@ -297,10 +344,17 @@ async def main():
         cleaner = IntelligentLinkCleaner()
         await cleaner.build_global_registry()
         await cleaner.validate_links_tiered()
-        await cleaner.curator.audit_navigation()
+        
+        log_event("STARTING NAVIGATION & REORGANIZATION AUDIT...", section_break=True)
         await cleaner.curator.suggest_reorganization()
+        
         await cleaner.apply_changes()
+        log_event("INTELLIGENT CLEANING COMPLETED SUCCESSFULLY.", section_break=True)
     except Exception as e:
-        import traceback; print(f"[CRITICAL ERROR]: {e}"); traceback.print_exc(); exit(1)
+        import traceback
+        error_msg = f"[CRITICAL ERROR]: {e}"
+        log_event(error_msg)
+        print(traceback.format_exc())
+        exit(1)
 
 if __name__ == "__main__": asyncio.run(main())

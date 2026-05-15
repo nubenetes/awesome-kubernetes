@@ -200,6 +200,8 @@ class AgenticCurator:
         self.git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
         self.docs_dir = "docs"
         self.mkdocs_path = "mkdocs.yml"
+        self.index_path = "docs/index.md"
+        self.stats = {"orphans_linked": 0}
 
     async def _rebuild_toc(self, content: str) -> str:
         """

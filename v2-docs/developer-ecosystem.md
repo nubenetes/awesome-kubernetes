@@ -1,7 +1,7 @@
 # Developer Ecosystem
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Developer Ecosystem.
+    Impact-driven reference library for Developer Ecosystem.
 
 ## Java-and-java-performance-optimization
   - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

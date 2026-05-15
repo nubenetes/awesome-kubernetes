@@ -55,25 +55,25 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **17133+** |
+| **Total Technical Resources (Links)** | **17110+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4023+** |
+| **Total Commits** | **4074+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 
 ### Top Categories by Density
 
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes](docs/kubernetes.md) | 1149 |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 740 |
-| [Terraform](docs/terraform.md) | 640 |
+| [Kubernetes](docs/kubernetes.md) | 1147 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 739 |
+| [Terraform](docs/terraform.md) | 639 |
 | [Demos](docs/demos.md) | 538 |
 | [Git](docs/git.md) | 497 |
-| [Azure](docs/azure.md) | 487 |
+| [Azure](docs/azure.md) | 484 |
 | [Jenkins](docs/jenkins.md) | 458 |
 | [Devsecops](docs/devsecops.md) | 407 |
 | [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 379 |
-| [Monitoring](docs/monitoring.md) | 347 |
+| [Monitoring](docs/monitoring.md) | 346 |
 
 ### Historical Growth (Commits & References)
 
@@ -90,13 +90,13 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 464 | 1,916 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 515 | 2,126 | **Agentic AI Surge** (May 2026 Inception) |
 
 #### 2026: The Agentic Monthly Surge
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 439 | 1,813 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 490 | 2,023 | **Agentic Inception (Gemini Era)** |
 
 ### Content Distribution & Semantic Clustering
 
@@ -198,10 +198,11 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 To maintain the high-density quality of V2 without redundant AI costs, the `V2VisionEngine` implements an incremental synchronization strategy:
 1. **Intelligent Caching**: It utilizes `data/v2_cache.json` to store previous AI evaluations. Only NEW links added to V1 are sent to Gemini for classification.
 2. **Dynamic "Upgrading"**: Even for cached links, the engine performs real-time local updates:
-   - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy.
+   - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy and MVQ compliance.
    - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
    - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
-3. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
+3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
+4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
 ### Comparison Matrix
 | Feature | V1 (Exhaustive) | V2 (Elite) |
@@ -209,8 +210,9 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 | **Philosophy** | "Leave no resource behind" | "Only the best for 2026" |
 | **Volume** | High (17k+ Links) | Optimized (~2k Links) |
 | **Depth** | Historical & Wide | Cutting-edge & Deep |
+| **Chronology** | **Unified Engine** (YYYY) | **Unified Engine** (YYYY) |
 | **Filtering** | Basic (Health only) | AI-Scored (🌟🌟🌟) |
-| **MVQ Check** | No | Yes (Stale repos deprioritized) |
+| **MVQ Check** | No (Exhaustive Preservation) | Yes (Stale repos deprioritized) |
 
 ---
 
@@ -220,15 +222,16 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 
 1.  **AgenticCurator (`src/agentic_curator.py`)**:
     - **Discovery:** Scans X.com (multiple accounts) and other curation sources.
-    - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and date.
-    - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching.
+    - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and **publication year**.
+    - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching and generates professional technical descriptions.
 2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
-    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane").
-    - **Deprioritization:** Automatically identifies stale repositories (>4 years without activity) and reduces their visibility.
+    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane") using **relevance-first sorting**.
+    - **MVQ Hardening:** Automatically identifies stale repositories (>4 years without activity) to exclude them from the Elite portal.
 3.  **IntelligentHealthChecker (`src/intelligent_health_checker.py`)**:
     - **Resilience:** Performs asynchronous health checks with 3x retry and identity rotation.
-    - **Persistence:** Instead of aggressive deletion, it flags `[OFFLINE?]` links to preserve historical technical context.
+    - **V1 Integrity:** Focuses strictly on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible and error-free.
+    - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
 
 ---
 

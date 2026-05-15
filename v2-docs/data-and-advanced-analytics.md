@@ -1,7 +1,7 @@
 # Data & Advanced Analytics
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Data & Advanced Analytics.
+    Impact-driven reference library for Data & Advanced Analytics.
 
 ## Yaml
   - [dev.to: yq : A command line tool that will help you handle your YAML resources better 🌟](https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

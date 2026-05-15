@@ -19,13 +19,23 @@ This file contains the accumulated instructions and long-term vision for the aut
 13. **Detailed Logging for V2**: When running the V2 Optimizer, agents MUST use unbuffered logging and detailed output messages. If the optimizer returns '0 links kept', the agent MUST investigate the logs to determine if it was due to AI selection or a parsing/API error.
 14. **Persistent V2 Caching**: The V2 Optimizer MUST use a persistent cache file (`data/v2_cache.json`) to store AI evaluations (year, quality, category). This is mandatory to minimize API costs and ensure execution speed across 15k+ links.
 15. **GitHub Metadata Enrichment**: For all `github.com` resources, the bot MUST attempt to fetch real-time metadata (stars, last commit) using the GitHub API. This data must be included in the V2 rendering to provide current context.
-16. **Resilient Link Health**: Every V2 generation cycle MUST perform asynchronous health checks. The bot MUST use identity rotation (User-Agents) and multiple attempts (3x) with backoff to minimize false negatives. Only definitive **404 Not Found** errors lead to removal; other failures (timeouts, 403s) result in the link being preserved but flagged as `[OFFLINE?]` to ensure maximum technical preservation. GitHub and 'Foundational' resources are exempt from removal based on health checks.
-17. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote branches already merged into `develop`. The branches `master`, `develop`, and `gh-pages` are strictly protected and MUST NEVER be deleted.
-18. **V1/V2 Asset Integrity & Rendering**: 
+16. **Resilient Link Health & Global Cleaning**: 
+    - **Health Checks**: Every V2 generation and global cleaning cycle MUST perform asynchronous health checks using identity rotation (User-Agents) and multiple attempts (3x). 
+    - **V1 Exhaustiveness**: The `IntelligentLinkChecker` operating on V1 MUST preserve all technically valid links regardless of their age. Deletion is strictly reserved for definitively invalid links (404s, dead redirects, etc.).
+    - **V2 Elite Selection (MVQ)**: The `V2VisionEngine` MUST continue to apply the **Minimum Viable Quality (MVQ)** logic. GitHub repositories inactive for >4 years with low impact (stars < 30) are deprioritized or excluded ONLY from the V2 Elite edition to ensure freshness.
+    - **Foundational Protection**: GitHub and 'Foundational' resources are exempt from automatic removal based on health, but may be flagged for review.
+    - **Consolidation**: If a deep link fails but the repository root is alive, the bot MUST consolidate the reference to the root.
+17. **Unified Curation Chronology**: All curation workflows (V1 and V2) MUST utilize the same chronological and descriptive engine. 
+    - **Extraction**: Every new link MUST attempt to extract a publication year (URL, metadata, or AI inference).
+    - **Formatting**: New links MUST follow the format `  - **(YYYY)** [Title](URL) 🌟 - Description`. If year is 'N/A', the prefix is omitted.
+    - **Elite Descriptions**: AI-generated descriptions MUST be professional, neutral, and focus on the technical value for a 2026 Cloud Architect.
+18. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote branches already merged into `develop`. The branches `master`, `develop`, and `gh-pages` are strictly protected and MUST NEVER be deleted.
+19. **V1/V2 Asset Integrity & Rendering**: 
     - **Source of Truth**: V1 (`docs/`) is the absolute source of truth for assets. V2 portal (`v2-docs/`) MUST NOT duplicate folders; it uses symlinks or relative paths.
     - **Rendering Fix (HTML in MD)**: All `<center>` tags MUST be defined as `<center markdown="1">` and followed by a mandatory blank line before and after the content. This ensures MkDocs processes the Markdown within the HTML block.
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
-19. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
+20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
+21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
@@ -109,7 +119,7 @@ The bot must rotate between profiles to avoid detection:
 
 ## 📈 Learning Diary (Improvement History)
 
-*   **May 2026**: Initial implementation of the autonomous engine with Playwright and Wayback Machine.
+*   **May 2026**: Initial implementation of the autonomous engine with Playwright and GitHub API.
 *   **May 2026**: Added Multidimensional Evasion system (5 attempts, profile rotation).
 *   **May 2026**: Creation of `AgenticCurator` for navigation audit and repository consolidation.
 *   **May 2026**: Generation of PRs with visual analytics (Mermaid) and Health Matrix.
@@ -128,3 +138,10 @@ The bot must rotate between profiles to avoid detection:
         - **Maturity Taxonomy**: Replaced generic labels with a professional 5-tier system (`[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`, `[EMERGING]`, `[LEGACY]`, `[GUIDE]`) explained in the V2 Index.
         - **Mandatory Descriptions**: Every resource in V2 MUST have a description. If the V1 source is missing one, the Optimizer uses Gemini to generate a professional 1-2 sentence summary and caches it.
         - **Manual Control**: The workflow supports a `force_reevaluate` flag for full architectural refreshes.
+*   **May 2026**: **V2 UI Hardening & Unified Curation Engine**:
+    - **Highlighting Fixed**: Enabled `pymdownx.mark` in V2 and implemented strategic highlighting (`==text==`) for top-tier/Standard resources.
+    - **Clean Chronology**: Refined V1 and V2 engines to hide `(N/A)` dates, providing a cleaner UI.
+    - **Impact-Driven Synthesis**: Shifted V2 mission from pure "chronological clarity" to "impact-driven synthesis", prioritizing Stars/Impact over dates while maintaining chronological data.
+    - **Relevance-First Sorting**: Updated V2 logic to prioritize Stars/Impact over dates within dimension categories.
+    - **Unified Metadata Engine**: Integrated V2's year extraction and professional description logic into the main V1 curation workflow (`src/agentic_curator.py`).
+    - **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.

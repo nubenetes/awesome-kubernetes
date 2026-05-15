@@ -108,7 +108,6 @@
 
 ## Learning Tools
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) 🌟 - A repository offering step-by-step guides to recreate various technologies from scratch, promoting deep understanding through practical implementation. It covers a wide range of domains including AI, databases, operating systems, and networking.
-  - [OCP4 Getting Started Showroom](https://rhpds.github.io/ocp4-getting-started-showroom/modules/main/index.html) - *(Related to ocp4 topic)*
   - [Quiz Grader](https://github.com/ned1313/quiz-grader) - *(Related to ai topic)*
   - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) - *(Related to devops topic)*
   - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/) - *(Related to container-managers topic)*

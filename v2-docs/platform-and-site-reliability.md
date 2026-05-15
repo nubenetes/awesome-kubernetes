@@ -1,7 +1,7 @@
 # Platform & Site Reliability
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for Platform & Site Reliability.
+    Impact-driven reference library for Platform & Site Reliability.
 
 ## Scaffolding
   - [Skaffold 🌟](https://skaffold.dev/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

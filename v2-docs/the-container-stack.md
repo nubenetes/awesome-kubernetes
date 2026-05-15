@@ -1,7 +1,7 @@
 # The Container Stack
 
 !!! info "Architectural Context"
-    Comprehensive chronological reference library for The Container Stack.
+    Impact-driven reference library for The Container Stack.
 
 ## Kubernetes-on-premise
   - [adamtheautomator.com/kubespray: Conquer Kubernetes Clusters with Ansible Kubespray](https://adamtheautomator.com/kubespray/) 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>

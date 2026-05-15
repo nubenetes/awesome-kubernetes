@@ -39,7 +39,6 @@ in your Bitbucket repositories
 ### GCP Kubernetes
 
 - [click-to-deploy/sonarqube](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube)
-- [Installing SonarQube on GCP using Kubernetes](https://www.solstice.com/fwd/sonarqube-gcp-kubernetes)
 
 ## SonarQube Scanners
 
