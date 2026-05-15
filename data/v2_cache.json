@@ -25888,5 +25888,20 @@
   },
   "https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators/": {
     "status": "online"
+  },
+  "https://www.gnu.org/software/parallel/": {
+    "status": "online"
+  },
+  "https://rancher.com/blog/2020/speed-development-automated-kubernetes-deployments": {
+    "status": "online"
+  },
+  "https://rancher.com/blog/2020/build-kubernetes-clusters-on-azure": {
+    "status": "online"
+  },
+  "https://rancher.com/blog/2020/k3s-high-availability": {
+    "status": "online"
+  },
+  "https://smoda.elpais.com/trabajo/apariencias-venderse-trabajo/": {
+    "status": "online"
   }
 }

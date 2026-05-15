@@ -294,7 +294,9 @@ async def master_orchestrator():
             if evaluation["status"] == "INCLUDED":
                 unique_new_assets.append({
                     "url": url, "title": evaluation["title"],
-                    "description": evaluation["description"], "category": evaluation.get("category", "kubernetes-tools"),
+                    "description": evaluation["description"], 
+                    "year": evaluation.get("year", "N/A"),
+                    "category": evaluation.get("category", "kubernetes-tools"),
                     "impact_score": evaluation["impact_score"],
                     "reasoning": evaluation.get("reasoning")
                 })

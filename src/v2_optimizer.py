@@ -361,7 +361,13 @@ class V2VisionEngine:
         for dim in v2_structure.keys():
             if not v2_structure[dim]["categories"]: continue
             for cat in v2_structure[dim]["categories"]:
-                v2_structure[dim]["categories"][cat].sort(key=lambda x: (x.get("year", "0"), -x.get("stars", 0)))
+                # Sort by: 1. Stars (DESC), 2. Year (DESC, N/A at the end)
+                v2_structure[dim]["categories"][cat].sort(
+                    key=lambda x: (
+                        -x.get("stars", 1),
+                        -(int(x["year"]) if x.get("year", "").isdigit() else 0)
+                    )
+                )
             
             prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
             try:
@@ -379,7 +385,15 @@ class V2VisionEngine:
         for dim in data.values():
             for cat_links in dim["categories"].values():
                 master_selection.extend([l for l in cat_links if l.get("stars", 1) == 3])
-        master_selection.sort(key=lambda x: (x.get("year", "0"), x["title"]), reverse=True)
+        
+        # Sort master selection by Year (DESC), then Title (ASC)
+        # (Relevance is already fixed at 3 stars for this list)
+        master_selection.sort(
+            key=lambda x: (
+                -(int(x["year"]) if x.get("year", "").isdigit() else 0),
+                x["title"]
+            )
+        )
 
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
@@ -402,7 +416,11 @@ class V2VisionEngine:
         )
         for l in master_selection[:100]:
             gh_info = f" `[⭐ {l['gh_stars']}]`" if "gh_stars" in l else ""
-            index_md += f"- **({l['year']})** [{l['title']}]({l['url']}){gh_info} 🌟🌟🌟\n"
+            year_prefix = f"**({l['year']})** " if l.get("year") and l["year"] != "N/A" else ""
+            title_clean = l['title'].replace("==", "")
+            # Master selection links are 3 stars, so we highlight
+            title_display = f"**=={title_clean}==**"
+            index_md += f"- {year_prefix}[{title_display}]({l['url']}){gh_info} 🌟🌟🌟\n"
         
         index_md += "\n??? note \"Elite Video Selection - Click to expand!\"\n"
         index_md += f"    <center markdown=\"1\">\n{videos_html}\n    </center>\n\n"
@@ -423,7 +441,8 @@ class V2VisionEngine:
             for cat, links in content["categories"].items():
                 md += f"## {cat}\n"
                 for l in links:
-                    year, stars = l.get("year", "N/A"), "🌟" * l.get("stars", 1)
+                    year, stars_val = l.get("year", "N/A"), l.get("stars", 1)
+                    stars = "🌟" * stars_val
                     tag = l.get("tag", "[ENTERPRISE-STABLE]")
                     
                     # Determine color mapping for new tags
@@ -433,11 +452,19 @@ class V2VisionEngine:
                     elif "STABLE" in tag: color = "info"
                     else: color = "primary"
                     
-                    title_display = f"**{l['title']}**" if l.get("stars", 1) >= 2 else l['title']
+                    title_clean = l['title'].replace("==", "")
+                    if stars_val == 3 or "STANDARD" in tag:
+                        title_display = f"**=={title_clean}==**"
+                    elif stars_val == 2:
+                        title_display = f"**{title_clean}**"
+                    else:
+                        title_display = title_clean
+                    
+                    year_prefix = f"**({year})** " if year and year != "N/A" else ""
                     
                     gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
                     icon = " 🎥" if l.get("is_video") else ""
-                    md += f"  - **({year})** [{title_display}]({l['url']}){icon}{gh_info} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                     if l['description']:
                         desc = l['description']
                         if "\n" in desc:
