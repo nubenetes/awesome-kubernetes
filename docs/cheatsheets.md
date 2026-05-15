@@ -375,8 +375,10 @@
 - [https://dev.to/aurelievache: Understanding Kubernetes: part 1 – Pods](https://dev.to/aurelievache/kubernetes-sketchnotes-pods-4ib0)
 - [garba.org: Kubernetes Pod Life Cycle Cheat Sheet](https://garba.org/posts/2018/k8s_pod_lc/)
 
-<center>
+<center markdown="1">
+
 [![pod cheat sheets](images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
+
 </center>
 
 ## Buildah Cheat Sheets
@@ -551,12 +553,14 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
+
 	![googling stuff](images/googling_stuff.jpg)
 
 	[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
 
     ![junit cheat sheet](images/junit_cheatsheet.jfif)
+
 	</center>
 
 ## Tweets

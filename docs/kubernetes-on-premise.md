@@ -97,7 +97,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## kube-aws Kubernetes on AWS
 
-
 ## Kubespray
 
 - [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
@@ -163,7 +162,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
 ## Project Neco
-
 
 ## Zarf. DevSecOps for Air Gap Systems
 

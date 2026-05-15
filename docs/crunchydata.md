@@ -122,8 +122,10 @@
         2. [Pgadmin4 install](https://access.crunchydata.com/documentation/crunchy-postgres-containers/latest/examples/administration/pgadmin4/) (easy)
     - Not certified by Red Hat
 
-<center>
+<center markdown="1">
+
 ![crunchdydata in operatorhub](images/crunchydata_operator_hub.png)
+
 </center>
 
 ### Crunchydata Postgres Operator 3.5
@@ -136,8 +138,10 @@
 - Preferred Failover Node Label
 - pgo-scheduler
 
-<center>
+<center markdown="1">
+
 ![crunchydata operator 3.5](images/crunchydata_operator_3_5.png)
+
 </center>
 
 ### Crunchydata Postgres Operator 4.0.1
@@ -149,8 +153,10 @@
 - **Ansible** Playbook Based Installation
 - **Operator Lifecycle Management (OLM):** The OLM project is a component of the Operator Framework, an open source toolkit to manage Operators, in an effective, automated, and scalable way. OLM concepts were included into Crunchy PostgreSQL Operator to assist in the deployment on Kubernetes using OLM integration.
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operator 4.0.1](images/crunchydata_operator_4_0_1.png)
+
 </center>
 
 ### Crunchydata Postgres Operator 4.0.1 Community Edition
@@ -239,8 +245,10 @@ role "view" removed: "system:serviceaccounts"
     - **The default SCC for most pods should be the restricted SCC.**
 - If required, a cluster administrator may **allow certain pods to run with different SCCs**. Pods should be run with the most restrictive SCC possible. **Pods inherit their SCC from the Service Account used to run the pod**. With the default project template, new projects get a **Service Account named default** that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
 
-<center>
+<center markdown="1">
+
 ![crunchdydata scc1](images/crunchydata_scc1.png) ![crunchdydata scc2](images/crunchydata_scc2.png)
+
 </center>
 
 ##### SCC Recommendations
@@ -258,15 +266,19 @@ oc describe pod <POD> | grep openshift.io\/scc
 openshift.io/scc: restricted             
 ```
 
-<center>
+<center markdown="1">
+
 ![crunchdydata scc3](images/crunchydata_scc3.png)
+
 </center>
 
 - **Problem:** Default SCC is “restricted” SCC -> Crunchydata Postgres Cluster PODs are not rolled out
     - ```oc get rs```: 
 
-    <center>
+    <center markdown="1">
+
     ![crunchdydata restricted scc](images/crunchydata_restricted_scc.png)
+
     </center>
 
     - ```oc describe rs mycluster5-lgyb-84b58f5dd9```: Warning **FailedCreate** 3m24s (x17 over 7m30s) **replicaset-controller Error creating: pods "mycluster5-lgyb-84b58f5dd9-" is forbidden: unable to validate against any security context constraint: [fsGroup: Invalid value: []int64{26}: 26 is not an allowed group]**
@@ -307,14 +319,18 @@ openshift.io/scc: restricted
 
 ##### Workflow1 without custom Service Account and without DeploymentConfig
 
-<center>
+<center markdown="1">
+
 ![crunchdydata scc workflow1](images/crunchydata_scc_workflow1.png)
+
 </center>
 
 ##### Workflow2 with custom Service Account and without DeploymentConfig
 
-<center>
+<center markdown="1">
+
 ![crunchdydata scc workflow2](images/crunchydata_scc_workflow2.png)
+
 </center>
 
 - Create a custom ServiceAccount and add a role to it within a Project:
@@ -348,8 +364,10 @@ users:
 
 ##### Workflow3 with custom service Account and DeploymentConfig
 
-<center>
+<center markdown="1">
+
 ![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
+
 </center>
 
 #### Environment setup. Port Forward and WSL
@@ -630,8 +648,10 @@ postgres=#
 - [crunchy-pgadmin4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/container-specifications/crunchy-pgadmin4/)
 - [pgAdmin 4](https://access.crunchydata.com/documentation/crunchy-postgres-containers/4.3.0/examples/administration/pgadmin4/)
 
-<center>
+<center markdown="1">
+
 ![crunchdydata pgadmin](images/crunchydata_pgadmin.png)
+
 </center>
 
 #### Debugging Crunchydata Postgres Operator 4.0.1 Community Edition
@@ -651,39 +671,46 @@ $ pgo version --debug
 - You can set the REST API URL as follows after a deployment if you are developing on your local host by executing the **setip** bash function.
 - “alog”, “olog”, “slog” and “setip” are defined in $HOME/.bashrc
 
-
 ### Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup
 
 - We will set this up manually:
     - StorageClass changed to “gp2” in YAML file (AWS)
     - ‘pgo’ tool compatibility issues
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)
 
 ![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
+
 </center>
 
 - NO PODs are deployed -> configuration needed:
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install3](images/crunchydata_operatorhub_install3.png)
 
 ![crunchdydata operatorhub install4](images/crunchydata_operatorhub_install4.png)
+
 </center>
 
 - Replica Sets: where PODs should be launched
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install5](images/crunchydata_operatorhub_install5.png)
+
 </center>
 
 - ReplicaSets (environment) and Deployment:
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install6](images/crunchydata_operatorhub_install6.png)
 
 ![crunchdydata operatorhub install7](images/crunchydata_operatorhub_install7.png)
+
 </center>
 
 - Error detected. Solution:
@@ -692,32 +719,40 @@ $ pgo version --debug
 oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ```
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install8](images/crunchydata_operatorhub_install8.png)
+
 </center>
 
 - We see now a new POD being created:
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install9](images/crunchydata_operatorhub_install9.png)
+
 </center>
 
 - New errors: “secrets” need to be setup:
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install10](images/crunchydata_operatorhub_install10.png)
 
 ![crunchdydata operatorhub install11](images/crunchydata_operatorhub_install11.png)
 
 ![crunchdydata operatorhub install12](images/crunchydata_operatorhub_install12.png)
+
 </center>
 
 - New errors: 3 “secrets” need to be setup manually -> POD is started successfully and we have psql access.
 
-<center>
+<center markdown="1">
+
 ![crunchdydata operatorhub install13](images/crunchydata_operatorhub_install13.png) ![crunchdydata operatorhub install14](images/crunchydata_operatorhub_install14.png)
 
 ![crunchdydata operatorhub install15](images/crunchydata_operatorhub_install15.png)
 
 ![crunchdydata operatorhub install16](images/crunchydata_operatorhub_install16.png)
+
 </center>

@@ -147,8 +147,10 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [==grafana.com: Get started with Prometheus with these three easy projects==](https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects/)
 - [fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟](https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04/)
 
-<center>
+<center markdown="1">
+
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
+
 </center>
 
 ## AlertManager
@@ -788,11 +790,13 @@ JMeter|Artemis Grafana|Artemis Dashboard
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h4Sl21AKiDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QoDqxm7ybLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mLPg49b33sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </center>
 </details>
 
@@ -801,7 +805,8 @@ JMeter|Artemis Grafana|Artemis Dashboard
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Over the last months we have added a lot of functionalities to <a href="https://twitter.com/PrometheusIO?ref_src=twsrc%5Etfw">@PrometheusIO</a> to help admins limit the risks of targets blowing up servers ⬇️</p>&mdash; Julien Pivotto (@roidelapluie) <a href="https://twitter.com/roidelapluie/status/1458698615082344451?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The why and how of the Prometheus Agent, an Efficient and Cloud-Native Way for Metric Forwarding, by <a href="https://twitter.com/bwplotka?ref_src=twsrc%5Etfw">@bwplotka</a><a href="https://t.co/rEc2krU2nd">https://t.co/rEc2krU2nd</a></p>&mdash; PrometheusMonitoring (@PrometheusIO) <a href="https://twitter.com/PrometheusIO/status/1460629280963153930?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -809,5 +814,6 @@ JMeter|Artemis Grafana|Artemis Dashboard
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prometheus Agent is a great alternative with better resource usage footprint especially for those who run Prometheus server to only scrape metrics to send samples via remote write. It will allow fleet wide optimizations. <a href="https://t.co/wGd0I9xyaH">https://t.co/wGd0I9xyaH</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1461061166734589954?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prometheus 101 (thread)<br><br>1⃣ Metrics<br><br>A metric is a feature (i.e., a characteristic) of a system that is being measured.<br><br>Typical examples:<br><br>- http_requests_total<br>- http_request_size_bytes<br>- system_memory_used_bytes<br>- node_network_receive_bytes_total <a href="https://t.co/lDZHezBmUH">pic.twitter.com/lDZHezBmUH</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1482363582100684801?ref_src=twsrc%5Etfw">January 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

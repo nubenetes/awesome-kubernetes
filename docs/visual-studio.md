@@ -351,7 +351,8 @@ A simple extension to make indentation more readable
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VqCgcpAypFQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ijz1mXQm7KU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -369,6 +370,7 @@ A simple extension to make indentation more readable
 <iframe width="469" height="834" src="https://www.youtube.com/embed/PGvV-r8IzoI" title="Remote Tunnels #vscode #programming #software #coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="469" height="834" src="https://www.youtube.com/embed/0WOx1aoHH1o" title="Favorite VS Code features of 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QS_bh-3qKdw?si=vWQbX5blfaYnWYKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 </center>
 </details>
 
@@ -377,7 +379,8 @@ A simple extension to make indentation more readable
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know, you can have project specific user settings in VS Code? <br><br>I certainly didn’t, but I needed to make some tweaks for a better live coding experience for workshop attendees.<br><br>Create a .vscode folder in your project then add settings.json in there. <br><br>Handy! <a href="https://t.co/X3PbgwSVWp">pic.twitter.com/X3PbgwSVWp</a></p>&mdash; Andy Bell (@piccalilli_) <a href="https://twitter.com/piccalilli_/status/1337063582790537224?ref_src=twsrc%5Etfw">December 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today&#39;s <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> extension: Github Repositories<br><br>Browse and edit code from <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@Github</a> without cloning. You can even review PRs!<br><br>It&#39;s kind of like <a href="https://t.co/dqc8Luetlw">https://t.co/dqc8Luetlw</a>, but for desktop VS Code<a href="https://twitter.com/hashtag/code2020?src=hash&amp;ref_src=twsrc%5Etfw">#code2020</a> <a href="https://t.co/ttVstg2HPO">pic.twitter.com/ttVstg2HPO</a></p>&mdash; Matt Bierner (@mattbierner) <a href="https://twitter.com/mattbierner/status/1438573398574215172?ref_src=twsrc%5Etfw">September 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -393,5 +396,6 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sometimes I do a bit of coding on my laptop where I don&#39;t have GitHub Copilot installed - and it becomes VERY clear how super productive that tool is making me.<br><br>Without comparison the best addition to VSCode I&#39;ve tried!</p>&mdash; Simon Høiberg (@SimonHoiberg) <a href="https://twitter.com/SimonHoiberg/status/1462031896477634567?ref_src=twsrc%5Etfw">November 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;I joined a company which brands itself as a tech-first company. I was super excited.<br><br>As I was setting up my laptop, I noticed I have no admin rights. Turned out I needed to request permission to install anything. And my request for Visual Studio Code was rejected.&quot;<br><br>🤯</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1510851664399548417?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

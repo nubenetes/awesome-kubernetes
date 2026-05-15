@@ -79,7 +79,6 @@
 - [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) Platform Engineering capabilities and stacks installed with one command.
 - You know what’s missing? An easy tool that just installs capibilities (ArgoCD, Datadog, KubeVirt, etc.) in an easy way. One command to do it all. A tool that easily gets whatever capabilities you want your kubernetes cluster to have deployed in production. Capipe, which stands for Capibility Platform Engineering, allows you to specify capabilities that you want to install within your Platform Engineering environment.
 
-
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga/) - *(Related to cicd topic)*
   - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) - *(Related to kubernetes-tools topic)*
   - [PMEase QuickBuild](https://www.pmease.com/) - *(Related to cicd topic)*

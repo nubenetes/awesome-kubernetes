@@ -63,7 +63,6 @@
 
 ## AWS Data Mesh and Batch Data Processing
 
-
 ## AWS NoSQL DynamoDB
 
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/)

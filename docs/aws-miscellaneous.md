@@ -73,7 +73,6 @@
 
 ## AWS Elastic Transcoder. Video streaming
 
-
 ## Amazon Alexa. Voice User Interface
 
 - [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour)

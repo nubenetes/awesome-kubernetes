@@ -245,7 +245,6 @@
 
 ## PHP vs Python
 
-
 ## APIs in Python
 
 - [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) Explore positional-only parameters and two other underutilized but still useful Python features.
@@ -362,7 +361,6 @@
 
 ### NumPy
 
-
 ### Orchest. Data Pipelines with Python and R code. No frameworks. No YAML
 
 - [orchest.io](https://www.orchest.io/) - [orchest/orchest](https://github.com/orchest/orchest) Build data pipelines, the easy way 🛠️. No frameworks. No YAML. Just write Python and R code in Notebooks.
@@ -435,8 +433,10 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View PEP-8 Cheatsheet (2009) on Scribd" href="https://www.scribd.com/document/207247675/PEP-8-Cheatsheet-2009#from_embed"  style="text-decoration: underline;" >PEP-8 Cheatsheet (2009)</a> by <a title="View Veeraj Shenoy's profile on Scribd" href="https://www.scribd.com/user/247744721/Veeraj-Shenoy#from_embed"  style="text-decoration: underline;" >Veeraj Shenoy</a> on Scribd</p><iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/207247675/content?start_page=1&view_mode=scroll&access_key=key-10eg916shk5wa33gdrtb&show_recommendations=true" data-auto-height="false" data-aspect-ratio="1.2941176470588236" scrolling="no" id="doc_1222" width="100%" height="600" frameborder="0"></iframe>
+
 </center>
 </details>
 
@@ -444,11 +444,13 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
+
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/s8XjEuplx_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/74NW-84BqbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/qbLc5a9jdXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/l7F8L-Uwdi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 	</center>
 
 ## Tweets
@@ -456,7 +458,8 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
+
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -473,5 +476,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master Python, watch these YouTube videos:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1586297242901684225?ref_src=twsrc%5Etfw">October 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is one of the most versatile programming languages used in almost any industry🔥<br><br>Add these incredible Python projects to your resume to land a high-paying job:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1608746701115760643?ref_src=twsrc%5Etfw">December 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

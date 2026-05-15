@@ -119,7 +119,6 @@ complete -F __start_kubectl k
 
 ## kubectl scale
 
-
 ## kubectl debug
 
 - [hackernoon.com: How to Work With the Kubectl Debug Command](https://hackernoon.com/how-to-work-with-the-kubectl-debug-command)
@@ -158,7 +157,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ## Export resources with kubectl and python
 
-
 ## Buildkit CLI for kubectl a drop in replacement for docker build
 
 - [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl/) With BuildKit CLI for kubectl a drop in replacement for docker build. In this post, you will learn how to build container images with BuildKit CLI for kubectl (a replacement for the `docker build` command)
@@ -183,14 +181,18 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/E2pP1MOfo3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>
 
 ## Tweets
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
+
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL: How to create Kubernetes manifests real quick 🤯<br><br>Use kubectl create --dry-run=client -o yaml<br><br>Example:<br><br>```<br>kubectl create deployment foo \<br> --image=nginx:1.21 \<br> --dry-run=client \<br> -o yaml<br>```</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1483180111579000834?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     </center>
