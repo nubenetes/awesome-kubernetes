@@ -123,28 +123,32 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             )
 
         prompt = (
-            "You act as a Senior Curation Engineer for 'nubenetes/awesome-kubernetes'.\n"
-            "Your mission is to catalog TECHNICAL content about Kubernetes and Cloud Native shared by the user.\n"
+            "You act as a Senior Technical Librarian for 'nubenetes/awesome-kubernetes' in 2026.\n"
+            "Your mission is to catalog high-density TECHNICAL content about Kubernetes and Cloud Native.\n"
             f"{strictness_directive}"
-            "GOLDEN RULE: If the link is in the feed, it's because the user considers it useful. DO NOT discard unless it is total noise.\n\n"
-            f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
-            "INSTRUCTIONS:\n"
-            "1. LANGUAGE: ALL outputs (title, desc, reasoning) MUST BE IN ENGLISH.\n"
-            "2. STYLE: Summaries MUST BE DESCRIPTIVE (neutral, objective, explaining what/why).\n"
-            "3. MVQ: If it's a GitHub repo inactive for >4 years, penalize the impact score.\n"
-            "4. INTERLINKING: Identify ONE primary_category and up to TWO related_categories (from the list above).\n"
+            "PHASE 1: SOPHISTICATED SYNTHESIS & DATING\n"
+            "- Extract precise PUBLICATION YEAR: Look for dates in the URL, X context, or text. Return 'N/A' if unknown.\n"
+            "- Identify ONE primary_category and up to TWO related_categories from the list.\n"
+            "PHASE 2: MANDATORY PROFESSIONAL DESCRIPTIONS\n"
+            "- Summaries MUST BE DESCRIPTIVE (neutral, objective, technical).\n"
+            "- Explain WHAT the resource is and WHY it matters for a Cloud Architect.\n"
+            "PHASE 3: QUALITY & MVQ\n"
+            "- Evaluate TECHNICAL IMPACT (1-100).\n"
             f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
+            f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
             f"URL: {asset['url']}\nX Context: {context}\nExtracted Web Content: {web_content[:2000]}\n\n"
-            "Evaluate TECHNICAL IMPACT (1-100):\n"
-            "- >80: Exceptional resource (🌟).\n"
-            "- >5: Accept.\n\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\"}"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"year\": \"YYYY\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\"}"
         )
 
         try:
             data = await call_gemini_with_retry(prompt)
             score = data.get("impact_score", 50)
+            year = data.get("year", "N/A")
             
+            # GitHub Overrides for Year
+            if "github.com" in asset['url'] and asset.get("gh_updated"):
+                year = asset["gh_updated"].split("-")[0]
+
             # Predictive Mapping
             primary_cat = get_best_category_match(data.get("primary_category"))
             related_cats = []
@@ -168,6 +172,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             else:
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
+                    "year": year,
                     "category": primary_cat, "related_categories": list(set(related_cats))[:2],
                     "impact_score": score, "is_exceptional": score > 80,
                     "reasoning": reasoning
@@ -254,7 +259,8 @@ class AgenticCurator:
         structure = "\n".join([l for l in lines if l.startswith("#")])
         
         stars = " 🌟" if asset['impact_score'] > 80 else ""
-        formatted_line = f"  - [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
+        year_prefix = f"**({asset.get('year')})** " if asset.get('year') and asset.get('year') != "N/A" else ""
+        formatted_line = f"  - {year_prefix}[{asset['title']}]({asset['url']}){stars} - {asset['description']}"
 
         prompt = (
             "You act as a Content Architect for Nubenetes.com.\n"
@@ -314,7 +320,8 @@ class AgenticCurator:
 
     def _manual_fallback_injection(self, content: str, asset: Dict) -> str:
         stars = " 🌟" if asset['impact_score'] > 80 else ""
-        line = f"  - [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
+        year_prefix = f"**({asset.get('year')})** " if asset.get('year') and asset.get('year') != "N/A" else ""
+        line = f"  - {year_prefix}[{asset['title']}]({asset['url']}){stars} - {asset['description']}"
         # If no sections, add a generic header
         if "##" not in content:
             return content + f"\n\n## Tools and Resources\n{line}"
