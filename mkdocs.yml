@@ -85,6 +85,7 @@ markdown_extensions:
   - abbr
   - def_list
 nav:
+  - "🚀 Try Nubenetes V2 (Elite)": https://nubenetes.com/v2/
   - Home: index.md
   - Intro:
     - Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
