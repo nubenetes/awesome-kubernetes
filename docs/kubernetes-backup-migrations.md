@@ -132,9 +132,7 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/1AC3zrxTauWgCT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i" title="Migrating Java JBoss EAP Applications to Kubernetes With S2I" target="_blank">Migrating Java JBoss EAP Applications to Kubernetes With S2I</a> </strong> from <strong><a href="//www.slideshare.net/KonveyorIO" target="_blank">Konveyor Community</a></strong> </div>
-
 </center>
 </details>
 
@@ -144,9 +142,7 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9hDdg_Beui4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01qcYSck1c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </center>
 </details>

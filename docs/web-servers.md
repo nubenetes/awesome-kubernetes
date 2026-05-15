@@ -75,9 +75,7 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </center>
 </details>
 
@@ -87,9 +85,7 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD<br><br>Nginx has a service mesh too. Is it any good?<br><br>Let&#39;s find out. <a href="https://t.co/890EIahXGq">pic.twitter.com/890EIahXGq</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1356935454206005249?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
 

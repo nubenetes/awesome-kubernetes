@@ -190,12 +190,10 @@
 ??? note "Click to expand!"
 
     <center>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qmDzcu5uY1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iiADhChRriM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg?si=I-cySo1Uui5z-LUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
     </center>
 
 ## Tweets
@@ -203,9 +201,7 @@
 ??? note "Click to expand!"
 
     <center>
-
     <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿A quién se le ocurrió que sería buena idea el no tener comentarios en ficheros JSON?</p>&mdash; Coding Potions ⚗️ (@CodingPotions) <a href="https://twitter.com/CodingPotions/status/1489608445003280391?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you know all the YAML tricks and gotchas?<br><br>Are there any YAML tips for Kubernetes?<br><br>Read along! <a href="https://t.co/BXszAVR4sd">pic.twitter.com/BXszAVR4sd</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1620055199053406208?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
     </center>

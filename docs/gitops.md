@@ -32,9 +32,7 @@
 12. [Videos](#videos)
 
 <center>
-
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/636487902&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/alessandro-donofrio-5" title="Alemix Donofrio" target="_blank" style="color: #cccccc; text-decoration: none;">Alemix Donofrio</a> · <a href="https://soundcloud.com/alessandro-donofrio-5/jimmy-sax-time" title="Jimmy Sax -  Time" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax -  Time</a></div>
-
 </center>
 
 ## Introduction
@@ -192,15 +190,11 @@
 - [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) Don’t underestimate the Role of Culture in Successful GitOps Implementation. This article argues that GitOps requires a mindset shift. **Challenges like security enforcement and platform upgrades demand cross-team collaboration, and overcoming GitOps cultural barriers requires fostering teamwork and delineating responsibilities.**
 
 <center>
-
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
-
 </center>
 
 <center>
-
 [![app ops](images/appops.png)](https://www.shipa.io/innovation/gitops-in-the-enterprise/)
-
 </center>
 
 ## GitOps Working Group
@@ -259,9 +253,7 @@
         - Improve utilization and capacity management through Kubernetes platforms on cloud and on-premise infrastructure
 
 <center>
-
 [![gitops pipeline](images/gitops-pipeline.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
-
 </center>
 
 ### Flux. The GitOps Operator for Kubernetes
@@ -385,11 +377,9 @@
 ??? note "Click to expand!"
 
 	<center>
-
 	[![traditional devops vs gitops](images/traditional_ops_vs_gitops.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
 
 	[![devops pipeline vs gitops pipeline](images/devops_pipeline_vs_gitops_pipeline.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
-
 	</center>
 
 ## Tweets
@@ -398,7 +388,6 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: What is GitOps?<br><br>Is this something that you should learn?<br><br>Let&#39;s dive into it. <a href="https://t.co/hsMUesvP23">pic.twitter.com/hsMUesvP23</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1288469479693803525?ref_src=twsrc%5Etfw">July 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you do a canary release on <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> with <a href="https://twitter.com/hashtag/Istio?src=hash&amp;ref_src=twsrc%5Etfw">#Istio</a> use Flagger (<a href="https://t.co/4s6NFwvaXz">https://t.co/4s6NFwvaXz</a>). It allows e.g.:<br>🔹 run acceptance and load tests<br>🔹 do an automatic rollback<br>🔹 make a progressive traffic shifting</p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1438802863015215108?ref_src=twsrc%5Etfw">September 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -406,7 +395,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If it takes me 5 minutes to rename a method and 1 hour to get a review and PR approval, that means wait to processing time ratio is 60/5=12, and flow efficiency is only 7.7%.<br><br>Do you really think that a system this inefficient is incentivizing refactoring and small steps?<br><br>1/4</p>&mdash; Dragan Stepanović (@d_stepanovic) <a href="https://twitter.com/d_stepanovic/status/1474493154984353793?ref_src=twsrc%5Etfw">December 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unpopular opinion: GitOps should use Control Loops, not outdated CI/CD pipelines.<br><br>Control Loops is a much more powerful pattern than CI/CD.<br><br>CI/CD is just a way to push a change forward. But what about a feedback loop? Who restores the drifted prod state back to the desired one?</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1488985921789829128?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
 
@@ -418,13 +406,11 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f5EpcWp0THw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IpvFd41R9Vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/516520492?h=44510fb350" width="640" height="320" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/516520492">Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps</a> from <a href="https://vimeo.com/user58523808">Weaveworks</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 </center>
 </details>
 

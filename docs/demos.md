@@ -611,9 +611,7 @@
 ??? note "Video: From Freestyle jobs to Pipeline, with JobDSL. Click to expand!"
 
     <center>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/uhD49XXiRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </center>
 
 ### Jenkins and GitHub
@@ -636,9 +634,7 @@
 ??? note "Video: Jenkins Pipeline with multiple Java versions. Click to expand!"
 
     <center>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/j1lH3vOhucw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </center>
 
 ### Jenkins Scripts

@@ -4,6 +4,7 @@ site_description: "Enterprise-grade curated portal for the 2026 Cloud Native eco
 site_author: "Inaki Fernandez"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
 docs_dir: v2-docs
+use_directory_urls: false
 
 repo_name: "nubenetes/awesome-kubernetes"
 repo_url: "https://github.com/nubenetes/awesome-kubernetes"

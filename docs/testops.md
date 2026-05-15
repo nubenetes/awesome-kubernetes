@@ -55,7 +55,6 @@
 ??? note "Click to expand!"
 
     <center>
-
     [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 
     [![testops flow](images/testops_flow.jpg)](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
@@ -63,5 +62,4 @@
     [![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
 
     ![debugging tactics](images/debugging_tactics.jpg)
-
     </center>

@@ -124,11 +124,9 @@
 ??? note "Click to expand!"
 
 	<center>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/POPP2WTJ8es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/EIOuIwKS0P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/--RRpw_6onA?si=UNaIShD8z-_ZLCwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 	</center>
 
 ## Tweets
@@ -137,11 +135,9 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Jeez, people in my timeline arguing about the merits of CDK vs. Pulumi and I&#39;m just waiting for you all to get on my level. <a href="https://t.co/S3PU7FGuw2">pic.twitter.com/S3PU7FGuw2</a></p>&mdash; Corey Quinn (@QuinnyPig) <a href="https://twitter.com/QuinnyPig/status/1470810573298274307?ref_src=twsrc%5Etfw">December 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you use the AWS, GCP, or Azure web consoles beyond getting started with a new cloud provider? If so, why not an automation tool such as Terraform or Cloud Formation? <a href="https://t.co/5LIZSTcNpG">pic.twitter.com/5LIZSTcNpG</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1483820927402004484?ref_src=twsrc%5Etfw">January 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
   - [IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP)](https://medium.com/@nidhibansal26/iac-and-openshift-virtualization-handshake-c0a4ada79af5) 🌟 - Explora la integración de Infraestructura como Código (IaC) con Terraform para gestionar Máquinas Virtuales (VMs) en OpenShift Virtualization, demostrando un 'handshake' efectivo entre ambas tecnologías.

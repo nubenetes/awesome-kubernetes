@@ -152,9 +152,7 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQ8H7XNbQ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </center>
 </details>
 
@@ -164,10 +162,8 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> from <strong><a href="//www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/rL59hI2J3e7j6T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy" title="OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy" target="_blank">OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy</a> </strong> from <strong><a href="//www.slideshare.net/mozillabros" target="_blank">Natale Vinto</a></strong> </div>
-
 </center>
 </details>

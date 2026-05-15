@@ -205,9 +205,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 ??? note "Click to expand!"
 
     <center>
-
     [![lens ide](images/header-lens.png)](https://k8slens.dev/)
-
     </center>
 
 
@@ -216,9 +214,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 ??? note "Click to expand!"
 
     <center>
-
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I made a thing: Web UI for Learning &amp; Exploring Kubernetes 🧙‍♂️<br><br>It&#39;s hell-interactive - (multi-)cluster updates shown in real-time.<br><br>Tailored for:<br>- Experiments<br>- Education<br>- Postman REST client but for K8s<br><br>Demo use case: learn what happens to Pods when Deployment is updated 🔽 <a href="https://t.co/0373JRh3P7">pic.twitter.com/0373JRh3P7</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1542236802207072256?ref_src=twsrc%5Etfw">June 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
     </center>
 
 ## Videos
@@ -227,12 +223,10 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FRpUJoDdI1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e1bavPwQmVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RjqDpF6_ZHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </center>
 </details>

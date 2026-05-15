@@ -16,9 +16,7 @@
 14. [Videos](#videos)
 
 <center>
-
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162899288&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/arielmezzapesa-1" title="Ariel Mezzapesa" target="_blank" style="color: #cccccc; text-decoration: none;">Ariel Mezzapesa</a> · <a href="https://soundcloud.com/arielmezzapesa-1/lily-was-here-candy-dulfer" title="Lily Was Here (Candy Dulfer)" target="_blank" style="color: #cccccc; text-decoration: none;">Lily Was Here (Candy Dulfer)</a></div>
-
 </center>
 
 ## Introduction
@@ -133,13 +131,10 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Question for software engineers: Would you leave your job because you didn&#39;t like the tech stack?</p>&mdash; David Fowler 🇧🇧 (@davidfowl) <a href="https://twitter.com/davidfowl/status/1384955137588875265?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interviewing is career speed dating</p>&mdash; R &#39;Nearest&#39; Nabors 💙 (@rachelnabors) <a href="https://twitter.com/rachelnabors/status/1408932321286397955?ref_src=twsrc%5Etfw">June 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Job interviews should be conversations, not interrogations.</p>&mdash; Adam Karpiak (@Adam_Karpiak) <a href="https://twitter.com/Adam_Karpiak/status/1412783523887452160?ref_src=twsrc%5Etfw">July 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -167,7 +162,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">People who are fluent on more than one cloud provider - how has this skillset affected your career? <br><br>Does it mostly just expand your job opportunities (ie, you can get hired by a GCP shop or an AWS shop), or do you find yourself working with multiple clouds at your current job?</p>&mdash; Forrest Brazeal (@forrestbrazeal) <a href="https://twitter.com/forrestbrazeal/status/1475841432254656513?ref_src=twsrc%5Etfw">December 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Anxiety sucks. Live coding interviews están definitivamente en el top 5 de las peores experiencias en mi carrera. 🤦‍♂️<br><br>Aún teniendo +30 apps en portfolio (algunas famosas) he fallado miserablemente en TODAS las FAANG (Mi última entrevista fue hace 4 años) ❌ <a href="https://t.co/S49wb5B3bo">https://t.co/S49wb5B3bo</a></p>&mdash; Christian Roman 👨‍💻🏝 (@devnull) <a href="https://twitter.com/devnull/status/1490814836174987277?ref_src=twsrc%5Etfw">February 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
 
@@ -177,7 +171,6 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working for a bad manager can torch your professional confidence and make you feel like you&#39;re incapable of succeeding at your job.<br><br>Here&#39;s a checklist to help you tell the difference between legitimate criticism you should act upon and illegitimate criticism you should ignore.</p>&mdash; Phoebe the Career Coach (@betterwphoebe) <a href="https://twitter.com/betterwphoebe/status/1424757039713112068?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Companies optimize for people who can pass the coding interview instead of optimizing for people who can do the job.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1436836735569199106?ref_src=twsrc%5Etfw">September 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -213,7 +206,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I was the one who had to deal with the fallout of things like these and let&#39;s day I hate Ninja/Rockstar devs like hell. Why do things by best practice when you can save 3kb by introducing three new tools in the deployment.... /s</p>&mdash; Nils Hitze (@kojote) <a href="https://twitter.com/kojote/status/1482960234268303361?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">From a CEO: <br><br>“Every time a competitor mentions return to office our recruiters reach out to their people. We’ve hired 15+ of their engineers in the last 2 months.”<br><br>So easy.</p>&mdash; Chris Herd (@chris_herd) <a href="https://twitter.com/chris_herd/status/1444764975445184512?ref_src=twsrc%5Etfw">October 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
 
@@ -223,7 +215,6 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Irish and German people offering things <a href="https://t.co/AoPgWJpK6L">pic.twitter.com/AoPgWJpK6L</a></p>&mdash; Killian Sundermann (@killersundymann) <a href="https://twitter.com/killersundymann/status/1446131283969589250?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In cutthroat cultures, people kiss up and kick down. They protect themselves by currying favor with people in power and exploiting those without it.<br><br>In supportive cultures, people speak up and support down. They protect people without power by raising problems to those with it.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1460680644200124419?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -277,7 +268,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn&#39;t use GitHub, use fake-it-til-you-make-it to generate two years of contributions. <a href="https://t.co/n8Ij8JtG83">https://t.co/n8Ij8JtG83</a> <a href="https://t.co/6GSt45dJQG">https://t.co/6GSt45dJQG</a> <a href="https://t.co/qLXlwz9yVa">pic.twitter.com/qLXlwz9yVa</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1688417566384152577?ref_src=twsrc%5Etfw">August 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is unfortunately how the game works. Most companies are not set up to retained high performing, ambitious talent, mainly because of how job ladders are structured, and the compensation models attached to them. <a href="https://t.co/4v1whKfmY1">https://t.co/4v1whKfmY1</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1755732994600718585?ref_src=twsrc%5Etfw">February 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every company can&#39;t afford to pay you what you&#39;re worth. It isn&#39;t personal. Just business. <a href="https://t.co/4JID6gZwgd">https://t.co/4JID6gZwgd</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1756404285196398844?ref_src=twsrc%5Etfw">February 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -290,7 +280,6 @@
 ??? note "Click to expand!"
 
 	<center>
-
 	![interviews getting harder](images/interviews_getting_harder.jfif)
 
 	[![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
@@ -308,7 +297,6 @@
 	![my company gave me](images/my_company_gave_me.jfif)
 
 	![la gestion de uno mismo](images/la_gestion_de_uno_mismo.jpg)
-
 	</center>
 
 ## Videos
@@ -316,11 +304,9 @@
 ??? note "Click to expand!"
 
 	<center>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/bx3--22D4E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/XRcYK94ipmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/GC2VylxygvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 	</center>

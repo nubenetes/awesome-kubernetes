@@ -3,7 +3,6 @@ site_url: https://nubenetes.com
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: nubenetes@gmail.com
 docs_dir: docs/
-use_directory_urls: false
 #repo_name: 'GitHub'
 repo_name: nubenetes/awesome-kubernetes
 repo_url: https://github.com/nubenetes/awesome-kubernetes
@@ -11,9 +10,9 @@ edit_uri: ""
 theme:
   name: material
   prev_next_buttons_location: both
-  logo: images/kubernetes_logo.jpg
   favicon: images/favicon-car.png
   icon:
+    logo: logo
     repo: fontawesome/brands/github
   palette:
     - scheme: default

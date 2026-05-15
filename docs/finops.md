@@ -128,11 +128,9 @@
 ??? note "Click to expand!"
 
 	<center>
-
 	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Q: What is FinOps Architect job in Cloud?<br>This has got very popular on Public cloud to manage companies - Cloud Financial Management. <br><br>Here&#39;s how you can be a Cloud FinOps Consultant<br>🧵1/?<br>1. Learn architecture well</p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1498705725874483205?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🏗 AWS Tip 💛<br><br>Avoid billing surprises 💸<br><br>• 𝗿𝗲𝘃𝗶𝗲𝘄 𝗰𝗼𝘀𝘁𝘀 (bi-)weekly<br>• get familiar with 𝗔𝗪𝗦 𝗖𝗼𝘀𝘁 𝗲𝘅𝗽𝗹𝗼𝗿𝗲𝗿<br>• set up 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗮𝗹𝗲𝗿𝘁𝘀<br>• understand your cost 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲: which services contribute significantly to your costs?</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1551934589945450501?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Kubernetes, are there hidden costs to running many cluster nodes?<br><br>Let me explain… (spoiler: yes) <a href="https://t.co/ErYdu8JR5E">pic.twitter.com/ErYdu8JR5E</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1584893971544915968?ref_src=twsrc%5Etfw">October 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
     </center>

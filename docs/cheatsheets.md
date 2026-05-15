@@ -376,9 +376,7 @@
 - [garba.org: Kubernetes Pod Life Cycle Cheat Sheet](https://garba.org/posts/2018/k8s_pod_lc/)
 
 <center>
-
 [![pod cheat sheets](images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
-
 </center>
 
 ## Buildah Cheat Sheets
@@ -554,13 +552,11 @@
 ??? note "Click to expand!"
 
 	<center>
-
 	![googling stuff](images/googling_stuff.jpg)
 
 	[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
 
     ![junit cheat sheet](images/junit_cheatsheet.jfif)
-
 	</center>
 
 ## Tweets

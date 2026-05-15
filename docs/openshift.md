@@ -106,9 +106,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 “Our job is to **make it easier and easier to use**, either from an ops point of view or a developer point of view—while acknowledging it is complex, because we're solving a complex problem.”|Chris Wright,Chief Technology Officer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
 
 <center>
-
 [![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users/)
-
 </center>
 <br/>
 
@@ -166,11 +164,9 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
 <center>
-
 [![Cloud-native development](images/cloud-native-development-ld.png)](https://dzone.com/articles/cloud-native-development-a-blueprint)
 
 [![Cloud-native development container runtimes](images/cloud-native-development-local-containers-runtimes-sd.png)](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
-
 </center>
 <br/>
 
@@ -204,9 +200,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 <center>
-
 [![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
-
 </center>
 <br/>
 
@@ -267,9 +261,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
     - **Conclusion:** A company’s security organization must be involved when deciding how to deploy OpenShift with regard to traditional network zones. Depending on their level of comfort with new technologies you may have different options. If physical network separation is the only acceptable choice, you will have to build a cluster per network zone. If logical network type of separations can be considered, then there are ways to stretch a single OpenShift deployment across multiple network zones. This post presented a few technical approaches.
 
 <center>
-
 [![Network Security Zones](images/Network_security_zones5.png)](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
-
 </center>
 <br/>
 
@@ -317,9 +309,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/) The **Cloud Pak for Applications** provides product offerings to support **modernizing existing applications and building new cloud native applications**. The applications run within a **Kubernetes cluster** provided with the **Red Hat OpenShift Container Platform**. The focus provided here is on running application workloads as containers. The Cloud Pak for Applications is a bundle of multiple offerings.  This diagram provides an overview of what offerings are included and what they would be used for:
 
 <center>
-
 [![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
-
 </center>
 
 ## OpenShift on AWS

@@ -15,9 +15,7 @@
 - [blog.bitsrc.io: Google Chrome Hidden Features Every Developer Should Know](https://blog.bitsrc.io/google-chrome-experimental-features-for-developers-a9a7cc9d1b30)
 
 <center>
-
 [![Jenkins Is The Way](images/chrome_devtools_replay_network_request.jpg)](https://twitter.com/addyosmani) 
-
 </center>
 
 ## Firefox DevTools
@@ -26,9 +24,7 @@
 - Tip: Firefox has a really nice JSON viewer built in. Transforms JSON files (and API responses) into an easy to browse & search tree.
 
 <center>
-
 [![firefox viewer built in](images/firefox_json_viewer_built_in.jpg)](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox)
-
 </center>
 
 ## Other Tools
@@ -41,7 +37,6 @@
   <summary>Click to expand!</summary>
 
 <center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WkLBrHW4NhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yGTtzcfHcdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,6 +48,5 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💡 Web Development tip<br><br>You can restart Chrome from the address bar by typing: chrome://restart <a href="https://t.co/0jbVoHwS1z">pic.twitter.com/0jbVoHwS1z</a></p>&mdash; Csaba Kissi ⚡ (@csaba_kissi) <a href="https://twitter.com/csaba_kissi/status/1457291401197199367?ref_src=twsrc%5Etfw">November 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Copy link to highlight is a new Chrome feature that allows you to create links to the exact part of a web page you want to share. <a href="https://t.co/IS0jijOjvP">https://t.co/IS0jijOjvP</a> <a href="https://t.co/L9q2abGQMd">pic.twitter.com/L9q2abGQMd</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1462147617199063043?ref_src=twsrc%5Etfw">November 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </center>
 </details>
