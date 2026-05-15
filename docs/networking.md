@@ -61,7 +61,9 @@
 - [http.cat 🌟](https://http.cat)
 
 <center>
-[![http status codes](images/http_status_codes.jpg){: style="width:50%"}](https://twitter.com/alexxubyte)
+
+[![http status codes](/images/http_status_codes.jpg){: style="width:50%"}](https://twitter.com/alexxubyte)
+
 </center>
 
 ### HTTP/2
@@ -127,7 +129,9 @@
 ??? note "Click to expand!"
 
 	<center>
-    ![how does https work](images/how_does_https_work.png)
+
+    ![how does https work](/images/how_does_https_work.png)
+
 	</center>
 
 ## Tweets
@@ -135,9 +139,11 @@
 ??? note "Click to expand!"
 
     <center>
+
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">List of HTTP Status Codes Cheat Sheet: <a href="https://t.co/1m8gci63Vs">pic.twitter.com/1m8gci63Vs</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1607231830662733826?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="nl" dir="ltr">IPv4 vs IPv6 <a href="https://t.co/mZnHL3E8Zu">pic.twitter.com/mZnHL3E8Zu</a></p>&mdash; LetsDefend (@LetsDefendIO) <a href="https://twitter.com/LetsDefendIO/status/1629141685383966722?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">/1 Which HTTP status codes are most common?<br><br>The response codes for HTTP are divided into five categories:<br><br>Informational (100-199)<br>Success (200-299)<br>Redirection (300-399)<br>Client Error (400-499)<br>Server Error (500-599) <a href="https://t.co/39I34KqQoU">pic.twitter.com/39I34KqQoU</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1638567471857958913?ref_src=twsrc%5Etfw">March 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     </center>

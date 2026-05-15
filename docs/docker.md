@@ -407,6 +407,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
   <summary>Click to expand!</summary>
 
 <center>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9_s3h_GVzZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3c-iBn73dDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p2PH_YPCsis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -415,6 +416,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n-JwAM6XF88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EnJ7qX9fkcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0mxhS7H6bxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 </center>
 </details>
 
@@ -424,6 +426,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Environment variables in Docker:<br><br>Environment variables are dynamic-named values that affect how our app will behave when running.<br><br>We can define them with Docker:<br>- at runtime<br>- in the Dockerfile<br>- in the Compose file (2 ways)<br><br>Let&#39;s see in detail in 1 minute:<br><br>1/5</p>&mdash; Francesco Ciulla (@FrancescoCiull4) <a href="https://twitter.com/FrancescoCiull4/status/1393448190729465856?ref_src=twsrc%5Etfw">May 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introduction to Docker🐳<a href="https://twitter.com/Docker?ref_src=twsrc%5Etfw">@Docker</a> is an open-source platform for deploying and managing containerized applications. It allows developers to easily package their applications into containers that can be deployed on every machine with a valid Docker installation.<br><br>Thread 🧵👇</p>&mdash; Gabriel Tanner (@GabrielTanner14) <a href="https://twitter.com/GabrielTanner14/status/1470411963884707844?ref_src=twsrc%5Etfw">December 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -443,5 +446,6 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who is still copying images between registries with: <br> docker pull &lt;src&gt;<br> docker tag &lt;src&gt; &lt;dst&gt;<br> docker push &lt;dst&gt;<br><br>Use:<br> crane cp &lt;src&gt; &lt;dst&gt;<br><br>Or even:<br> cosign cp &lt;src&gt; &lt;dst&gt;<br><br>It&#39;s faster, and supports multi-arch (and cosign copies signatures/sboms/attestations)</p>&mdash; Matt Moore ⛓🚀 (@mattomata) <a href="https://twitter.com/mattomata/status/1580369338879836160?ref_src=twsrc%5Etfw">October 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Docker and become a container expert<br>...but don&#39;t know how to even start? 🔽<br><br>Here is the learning order that helped me:<br><br>1. Containers: how Linux does them<br>2. Images: why they are needed<br>3. Managers: many containers, one host<br>4. Orchestrators: many hosts, one app <a href="https://t.co/HaXaGnSMkU">pic.twitter.com/HaXaGnSMkU</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1601166357826981888?ref_src=twsrc%5Etfw">December 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

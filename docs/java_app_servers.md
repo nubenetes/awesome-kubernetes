@@ -50,5 +50,7 @@
 ??? note "Click to expand!"
 
     <center>
+
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Someone tweeted about Java 17 &amp; 18 a few days ago. I just want you to know I am using Java 8 in my CS degree. I am not sure what that means tho😱🤣</p>&mdash; Anaïs Urlichs 🐢 (@urlichsanais) <a href="https://twitter.com/urlichsanais/status/1489714703874105355?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     </center>

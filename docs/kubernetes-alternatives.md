@@ -104,9 +104,11 @@
 ??? note "Click to expand!"
 
     <center>
-    [![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
 
-    [![when to choose kubernetes](images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
+    [![Kubernetes vs Docker Swarm](/images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
+
+    [![when to choose kubernetes](/images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
+
     </center>
 
 ## Videos
@@ -114,5 +116,7 @@
 ??? note "Click to expand!"
 
     <center>
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/9_s3h_GVzZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>

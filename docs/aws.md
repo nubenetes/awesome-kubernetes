@@ -214,13 +214,15 @@ You can filter by topic using the toolbar above.
 ??? note "Click to expand!"
 
 	<center>
-	![aws responsability model](images/s3_storage_classes.jfif)
 
-	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
+	![aws responsability model](/images/s3_storage_classes.jfif)
 
-	[![Most Popular Cloud Platforms with AWS removed for scale](images/most_popular_cloud_platforms.jfif)](https://twitter.com/okta)
+	[![aws responsability model](/images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
-	[![aws rds dashbird](images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds/)
+	[![Most Popular Cloud Platforms with AWS removed for scale](/images/most_popular_cloud_platforms.jfif)](https://twitter.com/okta)
+
+	[![aws rds dashbird](/images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds/)
+
 	</center>
 
 ## Videos
@@ -229,7 +231,9 @@ You can filter by topic using the toolbar above.
   <summary>Click to expand!</summary>
 
 <center>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AYAh6YDXuho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </center>
 </details>
 
@@ -239,6 +243,7 @@ You can filter by topic using the toolbar above.
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t know how to get started with AWS?<br><br>I can relate!<br>When I started, AWS already offered so much that I literally couldn&#39;t find an entry point.<br><br>If you still feel this way, let me give you a little guide.<br><br>🧵⏬</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1379096498592432128?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is BIG! You can now assign IPv4 and IPv6 prefixes to your ENIs. The net result is that EC2 instances will now support vastly larger number of IP addresses, and managing those addresses will become easier. 1/n<a href="https://t.co/3ilNrFtuAp">https://t.co/3ilNrFtuAp</a></p>&mdash; Joe Magerramov (@_joemag_) <a href="https://twitter.com/_joemag_/status/1418345704964063232?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -280,6 +285,7 @@ You can filter by topic using the toolbar above.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just stumbled upon my first cheat sheet for the Solutions Architect Associate 📚<br><br>It&#39;s more of a key-facts collection with a design that would need improvement 🌟<br><br>𝗗𝗶𝘀𝗰𝗹𝗮𝗶𝗺𝗲𝗿: was made for the 𝗦𝗔𝗔-𝗖𝟬𝟮 &amp; I think there&#39;s an upcoming exam update next month! <a href="https://t.co/m3dNE57cpZ">pic.twitter.com/m3dNE57cpZ</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1543915274637905920?ref_src=twsrc%5Etfw">July 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A list of small tools with a 𝗯𝗶𝗴 𝗶𝗺𝗽𝗮𝗰𝘁 𝗼𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝘁𝘆 when working with AWS 🛠 📈 ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1543982797320327169?ref_src=twsrc%5Etfw">July 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
 

@@ -41,7 +41,9 @@
 33. [Tweets](#tweets)
 
 <center>
+
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
+
 </center>
 
 ## Introduction to Digital Business Transformation
@@ -290,9 +292,10 @@
 
 <center>
 
-[![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
+[![OCP 4 Pland and Deploy](/images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
 
-[![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
+[![devops tools dzone](/images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
+
 </center>
 
 ## DORA metrics
@@ -480,47 +483,48 @@ Resolve your software incidents 10x faster
 
 	<center>
 
-	[![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
+	[![Devops containers strategy](/images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 
-	[![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
+	[![Dynamic kubernetes config](/images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 
-	[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+	[![DevOps culture](/images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
-	[![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
+	[![Programmer Move](/images/programmer-move.jpg)](https://www.tecmint.com/)
 
-	[![DevOps Gene Kim](images/term_devops.jpg)](https://itrevolution.com/faculty/gene-kim/)
+	[![DevOps Gene Kim](/images/term_devops.jpg)](https://itrevolution.com/faculty/gene-kim/)
 
-	[![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
+	[![DevOps to no ops](/images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
-	[![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
+	[![DevOps Ken Mugrage](/images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
 
-	[![DevOps wikipedia](images/devops_wikipedia.png)](https://en.wikipedia.org/wiki/DevOps)
+	[![DevOps wikipedia](/images/devops_wikipedia.png)](https://en.wikipedia.org/wiki/DevOps)
 
-	[![DevOps today](images/todays_devops.jpg)](https://www.appdynamics.com/)
+	[![DevOps today](/images/todays_devops.jpg)](https://www.appdynamics.com/)
 
-	[![DevOps dilbert](images/dilbert_devops.jpg)](https://dilbert.com/)
+	[![DevOps dilbert](/images/dilbert_devops.jpg)](https://dilbert.com/)
 
-	[![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
+	[![DevOps vs Agile](/images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
 
-	[![DevOps capgemini](images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+	[![DevOps capgemini](/images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
 
-	[![DevOps practices](images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+	[![DevOps practices](/images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
 
-	[![DevOps qbp](images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+	[![DevOps qbp](/images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
 
-	[![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
+	[![DevOps patterns](/images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
 
-	[![What-is-DevOps](images/What-is-DevOps.jpg)](https://dzone.com/articles/what-is-devops-2)
+	[![What-is-DevOps](/images/What-is-DevOps.jpg)](https://dzone.com/articles/what-is-devops-2)
 
-	[![automation](images/automation.png)](https://dzone.com/articles/automate-to-save-mental-energy-not-time-1)
+	[![automation](/images/automation.png)](https://dzone.com/articles/automate-to-save-mental-energy-not-time-1)
 
-	[![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
+	[![devops1](/images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
 
-	![8 devops trends](images/8_devops_trends.png)
+	![8 devops trends](/images/8_devops_trends.png)
 
-	[![devops lifecycle](images/devops_lifecycle.jfif)](https://twitter.com/tfortricks_ind)
+	[![devops lifecycle](/images/devops_lifecycle.jfif)](https://twitter.com/tfortricks_ind)
 
-	[![devops tools declarative imperative](images/devops_tools_declarative_imperative.jfif)](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
+	[![devops tools declarative imperative](/images/devops_tools_declarative_imperative.jfif)](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
+
 	</center>
 
 ## Slides
@@ -528,9 +532,11 @@ Resolve your software incidents 10x faster
 ??? note "Click to expand!"
 
 	<center>
+
 	<div class="container">
 	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 	</div>
+
 	</center>
 
 ## Videos
@@ -539,6 +545,7 @@ Resolve your software incidents 10x faster
   <summary>Click to expand!</summary>
 
 <center>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0yWAtQ6wYNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9pZ2xmsSDdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/js-rq7SvPpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -549,6 +556,7 @@ Resolve your software incidents 10x faster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cthla7KqU04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lTZJUVgQeO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 </center>
 </details>
 
@@ -558,6 +566,7 @@ Resolve your software incidents 10x faster
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It drives me nuts when people say &quot;DevOps&quot; when they really mean &quot;Ops.&quot; Ops didn&#39;t just disappear, folks.</p>&mdash; emily freeman (@editingemily) <a href="https://twitter.com/editingemily/status/1404840667558207489?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/HelmPack?ref_src=twsrc%5Etfw">@HelmPack</a> can hide some deep K8s knowledge.<a href="https://twitter.com/crossplane_io?ref_src=twsrc%5Etfw">@crossplane_io</a> does the same for infrastructure, best practices Postgres can be as simple as provide the version and the size. A game-changer for platforms</p>&mdash; Omer Kahani (@OmerKahani) <a href="https://twitter.com/OmerKahani/status/1427711077350006786?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -577,9 +586,12 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interview on Austrian TV 😊 Talked about how we started our YouTube channel, as a temporary side project, which turned into this amazing and fulfilling job of educating people in DevOps engineering 💙<br>.<br>Full interview on <a href="https://twitter.com/4Gamechanger?ref_src=twsrc%5Etfw">@4Gamechanger</a>: <a href="https://t.co/3jViGROFTP">https://t.co/3jViGROFTP</a>😊<a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/youtube?src=hash&amp;ref_src=twsrc%5Etfw">#youtube</a> <a href="https://t.co/FIb8DubPup">pic.twitter.com/FIb8DubPup</a></p>&mdash; TechWorld with Nana | DevOps 🚀 (@Njuchi_) <a href="https://twitter.com/Njuchi_/status/1505151354607656961?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master DevOps, watch these YouTube videos:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1590615976558485508?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Drone flight through the<a href="https://twitter.com/hashtag/GigaBerlinBrandenburg?src=hash&amp;ref_src=twsrc%5Etfw">#GigaBerlinBrandenburg</a> <a href="https://twitter.com/Tesla?ref_src=twsrc%5Etfw">@Tesla</a> <a href="https://t.co/7yCehZl5G3">pic.twitter.com/7yCehZl5G3</a></p>&mdash; Gigafactory Berlin-Brandenburg 🕊🇺🇦 (@Gf4Tesla) <a href="https://twitter.com/Gf4Tesla/status/1507447173436297217?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>

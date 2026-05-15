@@ -296,7 +296,9 @@ Cilium allows users to specify an egress NAT policy
 - [betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor 🌟](https://betterprogramming.pub/k8s-network-policy-made-simple-with-cilium-editor-a5b55781291c) An intuitive graphical tool to define complex network policies
 
 <center>
+
 <script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 </center>
 
 ### Kubernetes Network Policy Samples
@@ -353,7 +355,9 @@ Cilium allows users to specify an egress NAT policy
     - [CNI-Genie](https://github.com/cni-genie/CNI-Genie)
 
 <center>
-[![kubernetes sdn solutions](images/kubernetes_sdn_solutions.png)](https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/)
+
+[![kubernetes sdn solutions](/images/kubernetes_sdn_solutions.png)](https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/)
+
 </center>
 
 ### Project Calico
@@ -402,7 +406,9 @@ Cilium allows users to specify an egress NAT policy
 ??? note "Click to expand!"
 
     <center>
-    [![k8s service types img](images/k8s_service_types_matrix.png)](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)
+
+    [![k8s service types img](/images/k8s_service_types_matrix.png)](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)
+
     </center>
 
 ## Videos
@@ -410,10 +416,12 @@ Cilium allows users to specify an egress NAT policy
 ??? note "Click to expand!"
 
     <center>
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/T4Z7visMM4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5cNrTU6o3Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/80Ew_fsV4rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/VSn6DPKIhM8?si=pNaN7q9t3UKWaEhK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
     </center>
 
 ## Tweets
@@ -436,6 +444,7 @@ Cilium allows users to specify an egress NAT policy
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Networking in Kubernetes is arguably the most important piece.<br><br>Why?<br><br>Because there’s not much you can do in a Kubernetes cluster without proper networking.<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1607747382711664640?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you deal with peaks of traffic in Kubernetes?<br><br>You can use an autoscaler, but how should you configure and test it?<br><br>Let&#39;s dive into it. <a href="https://t.co/AxfEgqyEFW">pic.twitter.com/AxfEgqyEFW</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1647935320288284673?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
   - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) - *(Related to kubernetes topic)*
