@@ -1,4 +1,8 @@
 # Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+!!! tip "Nubenetes V2: Agentic Elite Edition is now live!"
+    Looking for a high-density, AI-curated experience? Explore our [**V2 Elite Portal**](/v2/) - Optimized for 2026 Architectural Standards.
+
 A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration & Delivery), and API-focused designs.
 
 [Nubenetes](https://nubenetes.com) is also available at [this other site](https://awesome-kubernetes.readthedocs.io/).
