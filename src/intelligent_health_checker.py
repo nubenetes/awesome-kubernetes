@@ -299,7 +299,7 @@ class IntelligentLinkCleaner:
                 self.git_controller.repository.update_file(path=path, message=f"fix(autonomous): engine update in {path}", content=content, sha=file_meta.sha, branch=branch_name)
             except: pass
         safe_report = report_content[:65000]
-        self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=safe_report, head=branch_name, base="master")
+        self.git_controller.repository.create_pull(title=f"🧹 Autonomous Engine Health Report: {datetime.now().strftime('%d %b %Y')}", body=safe_report, head=branch_name, base=self.git_controller.default_branch_name)
 
     def _build_report_body(self) -> str:
         report = "## 🧠 Nubenetes Autonomous Health & Curation Engine\n\n"
