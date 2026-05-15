@@ -51,29 +51,29 @@ In a market often driven by "Resume Driven Development" and calculated ambiguiti
 
 Nubenetes is one of the most comprehensive archives in the ecosystem, featuring tens of thousands of links organized by granular categories.
 
-### The "Heart" of Nubenetes (Stats as of May 2026)
+### The "Heart" of Nubenetes (Stats as of 2026-05-15)
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **17,133+** |
+| **Total Technical Resources (Links)** | **17133+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4,142+** |
+| **Total Commits** | **3967+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 
 ### Top Categories by Density
 
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes Deep Dive](docs/kubernetes.md) | 1,149 |
-| [Kubernetes Tools & Ecosystem](docs/kubernetes-tools.md) | 740 |
-| [Infrastructure as Code (Terraform)](docs/terraform.md) | 640 |
-| [Demos & Practical Guides](docs/demos.md) | 538 |
-| [Git & GitOps Strategy](docs/git.md) | 497 |
-| [Microsoft Azure Cloud](docs/azure.md) | 487 |
-| [Jenkins & CI/CD Pipelines](docs/jenkins.md) | 458 |
-| [DevSecOps & Security](docs/devsecops.md) | 407 |
-| [Managed Kubernetes (EKS/AKS/GKE)](docs/managed-kubernetes-in-public-cloud.md) | 379 |
-| [Observability & Monitoring](docs/monitoring.md) | 347 |
+| [Kubernetes](docs/kubernetes.md) | 1149 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 740 |
+| [Terraform](docs/terraform.md) | 640 |
+| [Demos](docs/demos.md) | 538 |
+| [Git](docs/git.md) | 497 |
+| [Azure](docs/azure.md) | 487 |
+| [Jenkins](docs/jenkins.md) | 458 |
+| [Devsecops](docs/devsecops.md) | 407 |
+| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 379 |
+| [Monitoring](docs/monitoring.md) | 347 |
 
 ### Historical Growth (Commits & References)
 
@@ -84,19 +84,19 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | :---: | :---: | :---: | :--- |
 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
 | 2019 | 142 | 586 | Early Growth & Open Source Launch |
-| 2020 | 2,046 | 8,450 | **The Great Expansion** (Global Lockdowns) |
+| 2020 | 2046 | 8,449 | **The Great Expansion** (Global Lockdowns) |
 | 2021 | 531 | 2,193 | Maturity & Industry Standardization |
 | 2022 | 402 | 1,660 | Cloud Native Hardening & GitOps Era |
-| 2023 | 30 | 124 | Maintenance & Refinement |
-| 2024 | 53 | 219 | Curation Strategy Pivot |
-| 2025 | 5 | 21 | Stability & Research Phase |
-| 2026 | 402+ | 1,660+ | **Agentic AI Surge** (May 2026 Inception) |
+| 2023 | 30 | 123 | Maintenance & Refinement |
+| 2024 | 53 | 218 | Curation Strategy Pivot |
+| 2025 | 5 | 20 | Stability & Research Phase |
+| 2026 | 408 | 1,685 | **Agentic AI Surge** (May 2026 Inception) |
 
 #### 2026: The Agentic Monthly Surge
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
-| 2026-04 | 25 | 103 | Pre-Agentic Preparation |
-| **2026-05** | **377+** | **1,557+** | **Agentic Inception (Gemini Era)** |
+| 2026-04 | 25 | 103 | Active Curation |
+| 2026-05 | 383 | 1,581 | **Agentic Inception (Gemini Era)** |
 
 ### Content Distribution & Semantic Clustering
 
