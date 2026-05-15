@@ -56,22 +56,52 @@ class IntelligentLinkCleaner:
         except: pass
         return None
 
+    async def _fetch_github_metadata(self, url: str) -> Dict:
+        match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
+        if not match: return {}
+        owner, repo = match.groups()
+        repo = repo.split("#")[0].split("?")[0].rstrip(".git")
+        
+        headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
+        api_url = f"https://api.github.com/repos/{owner}/{repo}"
+        
+        try:
+            async with httpx.AsyncClient(timeout=10.0) as client:
+                resp = await client.get(api_url, headers=headers)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    pushed_at = data.get("pushed_at", "")
+                    years_inactive = 0
+                    if pushed_at:
+                        last_date = datetime.fromisoformat(pushed_at.replace('Z', '+00:00'))
+                        years_inactive = (datetime.now(last_date.tzinfo) - last_date).days / 365
+                    
+                    return {
+                        "stars": data.get("stargazers_count", 0),
+                        "pushed_at": pushed_at,
+                        "years_inactive": years_inactive,
+                        "is_abandoned": years_inactive > 4
+                    }
+        except: pass
+        return {}
+
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         now = datetime.now().timestamp()
-        cache_entry = self.learning_data.get("link_cache", {}).get(url)
-        if cache_entry and cache_entry.get("status") == "ALIVE":
-            if now - cache_entry.get("last_checked", 0) < (21 * 24 * 3600):
-                self.detailed_stats["skipped_recent"] += 1
-                return url, True, None, "Cached (Recent)"
+        
+        # 1. MVQ Decision Logic for GitHub
+        if "github.com" in url:
+            gh_meta = await self._fetch_github_metadata(url)
+            if gh_meta.get("is_abandoned") and gh_meta.get("stars", 0) < 30:
+                return url, False, None, f"Abandoned Repo (Inactive {gh_meta['years_inactive']:.1f}y, {gh_meta['stars']}⭐)"
 
-        domain = url.split("//")[-1].split("/")[0]
-        domain_info = self.learning_data.get("domains", {}).get(domain, {})
+        cache_entry = self.learning_data.get("link_cache", {}).get(url)
+...
         strategies = [
             {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Desktop/Google"},
             {"type": "http", "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1", "ref": "https://t.co/", "desc": "Mobile/Twitter"},
-            {"type": "playwright", "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", "ref": "https://www.linkedin.com/", "desc": "PW Desktop/LinkedIn"},
-            {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0", "ref": "https://news.ycombinator.com/", "desc": "Firefox/Reddit"},
-            {"type": "playwright", "ua": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36", "ref": "https://www.google.com/", "desc": "PW Mobile/Google"}
+            {"type": "playwright", "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36", "ref": "https://www.linkedin.com/", "desc": "PW Desktop/LinkedIn"},
+            {"type": "http", "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Linux/Chrome"},
+            {"type": "playwright", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.reddit.com/", "desc": "PW Windows/Reddit"}
         ]
         
         # PRIORIZACIÓN INTELIGENTE: Si ya sabemos qué funciona para este dominio, empezar por ahí.
