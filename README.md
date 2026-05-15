@@ -198,10 +198,11 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 To maintain the high-density quality of V2 without redundant AI costs, the `V2VisionEngine` implements an incremental synchronization strategy:
 1. **Intelligent Caching**: It utilizes `data/v2_cache.json` to store previous AI evaluations. Only NEW links added to V1 are sent to Gemini for classification.
 2. **Dynamic "Upgrading"**: Even for cached links, the engine performs real-time local updates:
-   - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy.
+   - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy and MVQ compliance.
    - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
    - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
-3. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
+3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
+4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
 ### Comparison Matrix
 | Feature | V1 (Exhaustive) | V2 (Elite) |
@@ -209,8 +210,9 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 | **Philosophy** | "Leave no resource behind" | "Only the best for 2026" |
 | **Volume** | High (17k+ Links) | Optimized (~2k Links) |
 | **Depth** | Historical & Wide | Cutting-edge & Deep |
+| **Chronology** | **Unified Engine** (YYYY) | **Unified Engine** (YYYY) |
 | **Filtering** | Basic (Health only) | AI-Scored (🌟🌟🌟) |
-| **MVQ Check** | No | Yes (Stale repos deprioritized) |
+| **MVQ Check** | **Global Cleaning (MVQ)** | **Elite Discovery (MVQ)** |
 
 ---
 
@@ -220,15 +222,16 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 
 1.  **AgenticCurator (`src/agentic_curator.py`)**:
     - **Discovery:** Scans X.com (multiple accounts) and other curation sources.
-    - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and date.
-    - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching.
+    - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and **publication year**.
+    - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching and generates professional technical descriptions.
 2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
-    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane").
+    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane") using **relevance-first sorting**.
     - **Deprioritization:** Automatically identifies stale repositories (>4 years without activity) and reduces their visibility.
 3.  **IntelligentHealthChecker (`src/intelligent_health_checker.py`)**:
     - **Resilience:** Performs asynchronous health checks with 3x retry and identity rotation.
-    - **Persistence:** Instead of aggressive deletion, it flags `[OFFLINE?]` links to preserve historical technical context.
+    - **MVQ Cleaning:** Incorporates **Minimum Viable Quality** logic to automatically purge abandoned or low-value repositories.
+    - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
 
 ---
 
