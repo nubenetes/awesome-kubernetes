@@ -1,0 +1,1455 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
+      
+      
+        <meta name="author" content="Inaki Fernandez">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/v2/ansible/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Configuration Management. Ansible - Nubenetes V2 | The Architect's Cut</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configuration-management-ansible" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes V2 | The Architect's Cut
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configuration Management. Ansible
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://nubenetes.com/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🔙 Back to V1 (Exhaustive)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  The 2026 Vision
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../intelligent-control-plane.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Intelligent Control Plane
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../architectural-foundations.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Architectural Foundations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../platform-and-site-reliability.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Platform & Site Reliability
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../hardened-infrastructure.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hardened Infrastructure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cloud-providers-hyperscalers.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Cloud Providers (Hyperscalers)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../networking-and-service-mesh.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Networking & Service Mesh
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../the-container-stack.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Container Stack
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../data-and-advanced-analytics.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../engineering-pipeline.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Engineering Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../developer-ecosystem.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Developer Ecosystem
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../career-and-industry.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Career & Industry
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Nubenetes V2 | The Architect's Cut
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://nubenetes.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔙 Back to V1 (Exhaustive)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 2026 Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intelligent-control-plane.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intelligent Control Plane
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architectural-foundations.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectural Foundations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform-and-site-reliability.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardened-infrastructure.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardened Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-providers-hyperscalers.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Providers (Hyperscalers)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking-and-service-mesh.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-container-stack.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-and-advanced-analytics.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engineering-pipeline.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-ecosystem.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../career-and-industry.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/ansible.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/ansible.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="configuration-management-ansible">Configuration Management. Ansible<a class="headerlink" href="#configuration-management-ansible" title="Permanent link">&para;</a></h1>
+<ol>
+<li><a href="#configuration-management-with-ansible-devops-tool">Configuration Management with Ansible DevOps Tool</a></li>
+<li><a href="#ansible-ai">Ansible AI</a></li>
+<li><a href="#ansible-ui">Ansible UI</a></li>
+<li><a href="#deploying-custom-files-with-jinja2-templates">Deploying custom files with Jinja2 templates</a></li>
+<li><a href="#writing-an-ansible-module">Writing an Ansible module</a></li>
+<li><a href="#interacting-with-rest-api">Interacting with REST API</a><ol>
+<li><a href="#writing-an-ansible-module-for-a-rest-api">Writing an Ansible module for a REST API</a></li>
+</ol>
+</li>
+<li><a href="#ansible-videos">Ansible Videos</a></li>
+<li><a href="#ansible-playbooks">Ansible Playbooks</a></li>
+<li><a href="#ansible-collections">Ansible Collections</a></li>
+<li><a href="#red-hat-ansible-automation-platform">Red Hat Ansible Automation Platform</a><ol>
+<li><a href="#automation-services-catalog">Automation services catalog</a></li>
+<li><a href="#red-hat-certified-ansible-content-collections">Red Hat Certified Ansible Content Collections</a></li>
+</ol>
+</li>
+<li><a href="#ansible-cheat-sheets">Ansible Cheat Sheets</a></li>
+<li><a href="#running-ansible-playbooks">Running Ansible Playbooks</a><ol>
+<li><a href="#running-ansible-playbooks-from-jenkins">Running Ansible Playbooks From Jenkins</a></li>
+<li><a href="#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower">Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower</a><ol>
+<li><a href="#tower-and-awx-installers">Tower and AWX Installers</a></li>
+</ol>
+</li>
+<li><a href="#alternatives-to-ansible-tower">Alternatives to Ansible Tower</a></li>
+</ol>
+</li>
+<li><a href="#ansible-kubernetes-operators">Ansible Kubernetes Operators</a></li>
+<li><a href="#ansible-molecule-development-and-testing-of-ansible-roles">Ansible Molecule. Development and Testing of Ansible Roles</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#ansible-galaxy-roles">Ansible Galaxy Roles</a></li>
+<li><a href="#more-ansible-roles">More Ansible Roles</a></li>
+<li><a href="#ansible-scripts">Ansible scripts</a></li>
+<li><a href="#ansible-with-helm">Ansible with Helm</a></li>
+<li><a href="#awesome-ansible">Awesome Ansible</a></li>
+<li><a href="#ansible-and-public-cloud-guides">Ansible and Public Cloud Guides</a></li>
+<li><a href="#ansible-kubernetes-module">Ansible Kubernetes Module</a></li>
+<li><a href="#nginx-core-collection-for-ansibe">NGINX Core Collection for Ansibe</a></li>
+<li><a href="#dynatrace-with-ansible">Dynatrace with Ansible</a></li>
+<li><a href="#sql-server-with-ansible">SQL Server with Ansible</a></li>
+<li><a href="#oci-oracle-cloud-infrastructure-with-ansible">OCI Oracle Cloud Infrastructure with Ansible</a></li>
+<li><a href="#oracle-database-with-ansible">Oracle Database with Ansible</a></li>
+<li><a href="#ansistrano-deploying-applications-with-ansible-in-capistrano-style">Ansistrano. Deploying applications with Ansible in Capistrano style</a></li>
+<li><a href="#anacron-and-ansible">Anacron and Ansible</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="configuration-management-with-ansible-devops-tool">Configuration Management with Ansible DevOps Tool<a class="headerlink" href="#configuration-management-with-ansible-devops-tool" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.ansible.com/">ansible.com</a></li>
+<li><a href="https://docs.ansible.com/">docs.ansible.com</a></li>
+<li><a href="https://www.edureka.co/blog/what-is-ansible/">dureka.co: What Is Ansible?</a> Configuration Management And Automation With Ansible</li>
+<li><a href="http://web.archive.org/web/20230203201722/https://dzone.com/articles/part-1-getting-started-ansible">Dzone: Part 1: Getting Started with Ansible [ARCHIVED]</a></li>
+<li><a href="https://dzone.com/articles/part-2-deploying-applications">Dzone: Part 2: Deploying Applications</a></li>
+<li><a href="https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1">Dzone: 10 easy to use modules in ansible</a></li>
+<li><a href="https://dzone.com/articles/running-ansible-at-scale">Dzone: Running Ansible at Scale</a></li>
+<li><a href="https://www.udemy.com/ansible-essentials-simplicity-in-automation">Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/deploying-microservices-via-ansible-in-cloud-platform-a03d46b7bd68">Deployment of Microservices in Cloud With Ansible</a> This tutorial will help you understand how Ansible orchestrates Docker containers at least for a dev environment</li>
+<li><a href="https://opensource.com/article/20/9/install-packages-ansible">opensource.com: How to install software with Ansible</a> Automate software installations and updates across your devices with Ansible playbooks.</li>
+<li><a href="https://opensource.com/article/20/9/ansible-modules-kubernetes">opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟</a> Combine Ansible with Kubernetes for cloud automation. Plus, get our cheat sheet for using the Ansible k8s module.</li>
+<li><a href="https://opensource.com/article/19/2/quickstart-guide-ansible">opensource.com: A quickstart guide to Ansible 🌟</a> Download the Ansible Automation for SysAdmins guide.</li>
+<li><a href="https://opensource.com/article/20/9/ansible">opensource.com: 7 things you can do with Ansible right now</a> If Ansible's inclusion as a leader on the Forrester Wave report piqued your interest, here are some ways the automation solution can simplify your life.</li>
+<li><a href="https://opensource.com/article/20/10/calendar-ansible">opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟</a> Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.</li>
+<li><a href="https://opensource.com/article/20/10/first-day-ansible">opensource.com: My first day using Ansible</a> A sysadmin shares information and advice about putting Ansible into real-world use configuring computers on his network.</li>
+<li><a href="https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management/">siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟</a></li>
+<li><a href="https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes/">thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟</a></li>
+<li><a href="https://www.openshift.com/blog/ansible-and-openshift-connecting-for-success">openshift.com: Ansible and OpenShift: Connecting for Success 🌟</a></li>
+<li><a href="https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs/">zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟</a> And, on top of more plug-and-play Ansible programs, you can now run Ansible hand-in-glove with Red Hat OpenShift.</li>
+<li><a href="https://www.theregister.com/2020/10/14/redhat_ansible_kubernetes/">theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management</a></li>
+<li><a href="https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview">redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟</a></li>
+<li><a href="https://opensource.com/article/20/10/ansible-modules-linux">opensource.com: 10 Ansible modules for Linux system automation c</a> These handy modules save time and hassle by automating many of your daily tasks, and they're easy to implement with a few commands.</li>
+<li><a href="https://www.redhat.com/sysadmin/renewed-thrill-ansible">redhat.com: Renewing my thrill at work with Ansible</a></li>
+<li><a href="https://opensource.com/article/20/12/ansible-lab">opensource.com: Set up an Ansible lab in 20 minutes</a> Build an environment to support learning and experimenting with new software.</li>
+<li><a href="https://opensource.com/article/21/1/improve-ansible-play">opensource.com: 4 lines of code to improve your Ansible play</a></li>
+<li><a href="https://www.redhat.com/sysadmin/demystifying-ansible-sysadmins">redhat.com: Demystifying Ansible for Linux sysadmins 🌟</a> Taking the labor out of labor-intensive tasks is what Ansible is all about. Learn the basics here.<ul>
+<li><a href="https://www.redhat.com/sysadmin/ansible-quick-start">redhat.com: Quick start guide to Ansible for Linux sysadmins 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/1/ansible">opensource.com: 10 ways Ansible is for everyone 🌟</a> Expand your knowledge and skills with the top 10 Ansible articles plus five news summaries from 2020</li>
+<li><a href="https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values">ansible.com: Ansible Network Resource Modules: Deep Dive on Return Values</a></li>
+<li><a href="https://www.linkedin.com/pulse/ansible-what-marcel-koert/">linkedin.com: Ansible what is it and what not</a></li>
+<li><a href="https://www.redhat.com/sysadmin/automate-reboot-ansible">redhat.com: How to automate system reboots using the Ansible reboot module</a></li>
+<li><a href="https://developer.okta.com/blog/2021/02/05/okta-ansible">developer.okta.com: Tutorial: Ansible and Account Automation with Okta</a></li>
+<li><a href="https://www.redhat.com/sysadmin/how-start-ansible">redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟</a> This article gives you a quick, high-level guide on how to start with Ansible</li>
+<li><a href="https://opensource.com/article/21/2/ansible-origin-story">opensource.com: How Ansible got started and grew</a></li>
+<li><a href="https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package">ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟</a></li>
+<li><a href="https://www.toptechskills.com/ansible-tutorials-courses/">toptechskills.com: Ansible Tutorials &amp; Courses 🌟</a> Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.<ul>
+<li><a href="https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen/">toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/3/ansible-sysadmin">opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟</a> Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.</li>
+<li><a href="https://www.redhat.com/sysadmin/developing-ansible-role">redhat.com: 8 steps to developing an Ansible role in Linux 🌟</a> In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.</li>
+<li><a href="https://www.ansible.com/resources/whitepapers/ansible-in-depth">ansible.com: Ansible whitepaper</a> Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.</li>
+<li><a href="https://www.redhat.com/sysadmin/configure-gmail-using-ansible">redhat.com: How to use Ansible to send an email using Gmail</a></li>
+<li><a href="https://www.redhat.com/sysadmin/reverse-proxy-ansible">redhat.com: How to use Ansible to configure a reverse proxy 🌟</a> Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.</li>
+<li><a href="https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1">Ansible 3.3.0 released</a></li>
+<li><a href="https://fedoramagazine.org/using-ansible-to-configure-podman-containers/">fedoramagazine.org: Using Ansible to configure Podman containers 🌟</a></li>
+<li><a href="https://acloudguru.com/blog/engineering/ansible-vs-puppet-which-is-right-for-you">acloudguru.com: Ansible vs Puppet: Which is right for you?</a></li>
+<li><a href="https://www.redhat.com/sysadmin/install-ansible-way">redhat.com: Add a repo and install a package the Ansible way</a> How to add package repositories and install packages on many hosts by using Ansible.</li>
+<li><a href="https://www.redhat.com/en/blog/introduction-rhel-system-roles">redhat.com: Introduction to RHEL System Roles 🌟</a> How to use Ansible Roles with RedHat Enterprise Linux</li>
+<li><a href="https://linuxtechlab.com/ansible-tutorial-simple-commands/">linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands</a></li>
+<li><a href="https://k21academy.com/ansible/ansible-for-beginners">k21academy.com: Ansible for Beginners | Overview | Architecture &amp; Use Cases 🌟</a><ul>
+<li><a href="https://k21academy.com/ansible/day2-live-session-review-and-q-a/">k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools">analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools</a></li>
+<li><a href="https://www.redhat.com/sysadmin/6-code-pushes-aap">redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟</a> Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-create-users-csv">redhat.com: 4 steps to create Linux users from a csv file with Ansible</a> Automate Linux user account creation in four simple steps with Ansible.</li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible/">cyberciti.biz: How to define multiple when conditions in Ansible</a></li>
+<li><a href="https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64">dev.to: DevOps 101 : Introduction to Ansible</a></li>
+<li><a href="https://www.redhat.com/sysadmin/python-venv-ansible">redhat.com: How to set up and use Python virtual environments for Ansible</a> Python's venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-ad-hoc-commands">redhat.com: Deep dive into Ansible ad hoc commands</a> Make life easier when dealing with Ansible automation by using ad hoc commands.</li>
+<li><a href="https://www.redhat.com/sysadmin/software-packages-ansible">redhat.com: How to install software packages with an Ansible playbook</a> Learn how to install new software packages on all your managed hosts with a single Ansible playbook.</li>
+<li><a href="https://getbetterdevops.io/build-docker-images-using-ansible-and-packer/">getbetterdevops.io: Build Docker Images Using Ansible and Packer</a> Build Image from Ansible code and persist them on local or in AWS ECR</li>
+<li><a href="https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible">developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-templates-configuration">redhat.com: How to create dynamic configuration files using Ansible templates</a> Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansiblefest-sysadmins">redhat.com: 16 AnsibleFest presentations for sysadmins</a> AnsibleFest offers a lot of information to help sysadmins automate better.</li>
+<li><a href="https://opensource.com/article/21/9/keep-folders-tidy-ansible">opensource.com: How I keep my file folders tidy with Ansible</a> I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible">developers.redhat.com: Four reasons developers should use Ansible</a></li>
+<li><a href="https://opensource.com/article/21/9/keep-folders-tidy-ansible">opensource.com: How I keep my file folders tidy with Ansible</a> I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.</li>
+<li><a href="https://vitux.com/how-to-speed-up-an-ansible-playbook/">vitux.com: How to speed-up an Ansible Playbook 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=mc20VwxYaGE&amp;t=3s&amp;ab_channel=CLOUDLEARNHUB">youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault</a></li>
+<li><a href="https://opensource.com/article/22/1/learn-ansible">==opensource.com: 9 ways to learn Ansible this year== 🌟</a> Ansible is an open source automation tool that can be used in a variety of ways. Here are a few examples of last year's most popular Ansible tutorials and stories.</li>
+<li><a href="https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent">cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible</a></li>
+<li><a href="https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands">cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands</a></li>
+<li><a href="https://www.redhat.com/sysadmin/faster-ansible-playbook-execution">redhat.com: 8 ways to speed up your Ansible playbooks</a> Here's how to optimize your Ansible playbooks to make them run faster.</li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list/">middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-dict/">middlewareinventory.com: Ansible Dictionary – How to create and add items to dict</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-aws_s3-example/">middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples | Devops Junction</a></li>
+<li><a href="https://www.techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series/">techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-dynamic-inventories">==redhat.com: How to create dynamic inventory files in Ansible==</a> Learn how to use the host_list and Nmap plugins to build inventory files for your Ansible playbooks.<ul>
+<li><a href="https://www.redhat.com/sysadmin/ansible-dynamic-inventory-python">==redhat.com: How to write a Python script to create dynamic Ansible inventories==</a> Write a script in Python that fetches hosts using Nmap to generate dynamic inventories.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-plugin-inventory-files">==redhat.com: How to write an Ansible plugin to create inventory files==</a></li>
+</ul>
+</li>
+<li><a href="https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10/">dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home Lab Part 10 🌟</a> Ansible is an administrative tool that aims to make server management easier by using declarative and idempotent configuration files.</li>
+<li><a href="https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html">learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and Ansible Playbooks</a></li>
+<li><a href="https://blog.learncodeonline.in/everything-about-ansible-variables">blog.learncodeonline.in: Everything about Ansible Variables 🌟</a></li>
+<li><a href="https://blog.learncodeonline.in/managing-file-operations-with-ansible">blog.learncodeonline.in: Managing File Operations With Ansible 🌟</a></li>
+<li><a href="https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1">developers.redhat.com: How to install VMs and Ansible Automation Platform on Mac M1</a></li>
+<li><a href="https://devopscube.com/setup-ansible-aws-dynamic-inventory/">devopscube.com: How to Setup Ansible AWS Dynamic Inventory</a></li>
+<li><a href="https://www.ansible.com/blog/creating-custom-rules-for-ansible-lint">ansible.com: Creating Custom Rules for Ansible Lint</a> What's “linting?” Its objective is to promote proven behaviors, patterns, and practices while avoiding typical traps that can quickly result in errors or make code more difficult to maintain.</li>
+<li><a href="https://www.ansible.com/blog/top-10-ansible-blogs-2022">ansible.com: The Top 10 Ansible Blogs of 2022</a></li>
+<li><a href="https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops/">tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps</a></li>
+<li><a href="https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code/">tomsitcafe.com: Conditional statements – making decisions in Ansible code</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code/">tomsitcafe.com: How to implement and use handlers in Ansible code?</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code/">tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files/">tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files</a></li>
+<li><a href="https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible">ansible.com: Kubernetes Meets Event-Driven Ansible 🌟</a></li>
+<li><a href="https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible">==sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible== 🌟</a></li>
+<li><a href="https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project/">tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project</a></li>
+<li><a href="https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation/">tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI</a></li>
+<li><a href="https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes/">tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes</a></li>
+<li><a href="https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/">tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide</a></li>
+<li><a href="https://medium.com/@Techie1/networking-tasks-in-production-using-ansible-b09d0a6121f7">medium.com/@Techie1: Networking tasks in production using Ansible</a></li>
+<li><a href="https://medium.com/cloud-native-daily/getting-started-with-ansible-a-comprehensive-guide-for-devops-beginners-fd2fb3fd7a40">medium.com/cloud-native-daily: Getting Started with Ansible: A Comprehensive Guide for DevOps Beginners</a> Automate complex tasks, manage your Docker containers effortlessly, and even enhance collaboration using Ansible</li>
+<li><a href="https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible/">devopsinside.com: Is Kubernetes killing tools like Ansible?</a><ul>
+<li>Kubernetes is not a replacement for ansible: Despite their overlapping functionality, it is important to note that Kubernetes is not a replacement for ansible. Both tools have their own strengths and use cases, and they can be used together to achieve different goals.</li>
+<li>Kubernetes and ansible can be used together: Kubernetes and ansible can be used together to complement each other. For example, ansible can be used to automate the provisioning and configuration of Kubernetes clusters, while Kubernetes can be used to manage the deployment and scaling of applications within those clusters.</li>
+</ul>
+</li>
+<li><a href="https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone">community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!</a></li>
+<li><a href="https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker/">intellipaat.com: Ansible vs Kubernetes vs Docker</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-lists-dictionaries-yaml">redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟</a></li>
+<li><a href="https://github.com/naveensilver/Ansible">github.com/naveensilver/Ansible</a> My Ansible Notes (Beginner to Advanced) : Repository to learn Ansible from Zero. This repository covers the complete Ansible fundamentals along with examples required for a DevOps Engineer.</li>
+</ul>
+<h2 id="ansible-ai">Ansible AI<a class="headerlink" href="#ansible-ai" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://ansible.ai">==ansible.ai==</a></li>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible/ansible-lightspeed">redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant</a> Red Hat® Ansible® Lightspeed with IBM watsonx Code Assistant helps automation teams learn, create, and maintain Red Hat Ansible Automation Platform content more efficiently.</li>
+</ul>
+<h2 id="ansible-ui">Ansible UI<a class="headerlink" href="#ansible-ui" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.semui.co/">==Semaphore UI== 🌟</a></li>
+<li><a href="https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore/">thenewstack.io: How to Put a GUI on Ansible, Using Semaphore</a> Ansible can be great for automating routine IT tasks, but some may feel stymied by the command line. Here's how to install the Semaphore graphical user interface.</li>
+</ul>
+<h2 id="deploying-custom-files-with-jinja2-templates">Deploying custom files with Jinja2 templates<a class="headerlink" href="#deploying-custom-files-with-jinja2-templates" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/">infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟</a> - <a href="https://www.youtube.com/watch?app=desktop&amp;v=jokfVGdhBow&amp;feature=youtu.be&amp;ab_channel=InfraXpertzz">video</a></li>
+<li><a href="https://github.com/pallets/jinja/">jinja 🌟</a> Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</li>
+</ul>
+<h2 id="writing-an-ansible-module">Writing an Ansible module<a class="headerlink" href="#writing-an-ansible-module" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html">docs.ansible.com: Developing Ansible modules</a></li>
+<li><a href="https://techforce1.nl/creating-your-first-ansible-module">techforce1.nl: Creating your first Ansible module</a></li>
+</ul>
+<h2 id="interacting-with-rest-api">Interacting with REST API<a class="headerlink" href="#interacting-with-rest-api" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api/">linuxctl.com: Ansible - Interacting with external REST API</a> Ansible has many powerful modules. One of which is called uri which is capable of sending any kind of HTTP request. Using this module, it is fairly simple to allow ansible to intelligently talk to a REST API. This will come in handy during for automation of the sensu monitoring docker infrastructure I am currently working on.</li>
+<li><a href="https://steampunk.si/blog/let-us-give-ansible-a-rest/">steampunk.si: Let us give Ansible a REST</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-web-endpoints">redhat.com: Using Ansible to interact with web endpoints</a> How about an Ansible use case that you can implement today?</li>
+<li><a href="https://opensource.com/article/21/9/ansible-rest-apis">opensource.com: Using Ansible with REST APIs</a> You may have queried APIs with a web browser or curl, but one of the overlooked capabilities of Ansible is how well it can leverage APIs as part of any playbook.</li>
+</ul>
+<h3 id="writing-an-ansible-module-for-a-rest-api">Writing an Ansible module for a REST API<a class="headerlink" href="#writing-an-ansible-module-for-a-rest-api" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.ansible.com/automating-business-applications-rest-api">ansible.com: Automating your business application's REST API with Ansible</a> You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that.</li>
+<li><a href="https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/">liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API</a></li>
+</ul>
+<h2 id="ansible-videos">Ansible Videos<a class="headerlink" href="#ansible-videos" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p">youtube playlist: Ansible Tutorial - by Thetips4you 🌟</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR">youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟</a><ul>
+<li><a href="https://www.youtube.com/watch?v=pJFZ5h9fT5o&amp;ab_channel=InfraXpertzz">youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk">youtube: Ansible for beginners - by XavkiEn</a> - <a href="https://gitlab.com/xavki/devopsland/-/tree/master/ansible">slides</a><ul>
+<li><a href="https://www.youtube.com/watch?v=NgRuap0MmZw&amp;ab_channel=XavkiEn">youtube: Exercises / Monitoring : How to install node exporter 🌟</a> In this tutorial, we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.</li>
+</ul>
+</li>
+</ul>
+<h2 id="ansible-playbooks">Ansible Playbooks<a class="headerlink" href="#ansible-playbooks" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/geerlingguy/ansible-for-devops">Ansible for DevOps Examples</a> 🌟 - A GitHub repository containing example Ansible playbooks and roles specifically tailored for DevOps practices. It covers various use cases, including infrastructure deployment, application configuration, and automation for common DevOps tools.</p>
+</li>
+<li>
+<p><a href="https://github.com/k3s-io/k3s-ansible">github.com/k3s-io/k3s-ansible 🌟</a> Build a Kubernetes cluster using Ansible with k3s.</p>
+</li>
+<li><a href="https://github.com/PyratLabs/ansible-role-k3s">github.com/PyratLabs/ansible-role-k3s 🌟</a> Ansible role for installing k3s as either a standalone server or HA cluster.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible">developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with Ansible</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-playbook-example/">==middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction==</a></li>
+</ul>
+<h2 id="ansible-collections">Ansible Collections<a class="headerlink" href="#ansible-collections" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/ansible-collections">Ansible Collections 🌟</a></li>
+<li><a href="https://github.com/ansible-collections/amazon.aws">Amazon AWS Collection 🌟</a></li>
+<li><a href="https://github.com/Radware/radware-ansible">Radware/radware-ansible: Radware Ansible Collection</a></li>
+<li><a href="https://www.ansible.com/blog/based-validated-network-content">ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection</a> Ansible validated content is use cases-focused automation packaged as Collections. They include plugins, roles and playbooks that can be used as an automation job through RedHat Ansible Automation Platform. Here's how to use the network.base Collection.</li>
+</ul>
+<h2 id="red-hat-ansible-automation-platform">Red Hat Ansible Automation Platform<a class="headerlink" href="#red-hat-ansible-automation-platform" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives">redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives</a> Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation</li>
+<li><a href="https://www.ansible.com/blog/now-available-red-hat-ansible-automation-platform-1.2">ansible.com: Red Hat Ansible Automation Platform 1.2</a></li>
+<li><a href="https://pypi.org/project/ansible-navigator/">pypi.org: ansible-navigator 🌟</a> A text-based user interface (TUI) for the Red Hat Ansible Automation Platform</li>
+<li><a href="https://www.ansible.com/blog/introducing-ansible-automation-platform-2">ansible.com: Introducing Ansible Automation Platform 2</a></li>
+<li><a href="https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2">redhat.com: From the datacenter to the edge: The open hybrid cloud vision for Red Hat Ansible Automation Platform 2</a></li>
+<li><a href="https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners">redhat.com: Redefining the possibilities of IT automation across your ecosystem with Red Hat partners</a></li>
+<li><a href="https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access">crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access</a> ‘Automation is foundational. Not an option. Not tactical,’ Massimo Ferrari, Red Hat’s management strategy director, tells CRN in an interview. “You need automation, otherwise you won‘t be able to do many other things, whether that be DevOps, whether that be digital transformation.”</li>
+<li><a href="https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions/">devops.com: Red Hat Extends Scope of Ansible Automation Ambitions</a> Red Hat announced the availability of a preview edition of Red Hat Ansible Automation Platform 2 that is intended to make it easier to automate IT processes at scale.</li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators">redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators</a> Industry’s leading IT automation platform now re-architected for deploying portable automation at massive scale across hybrid clouds and edge environments while shifting automation left into application development</li>
+<li><a href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-controller">ansible.com: What's new in Ansible Automation Platform 2: automation controller</a><ul>
+<li><a href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator">ansible.com: What's new in Ansible Automation Platform 2: automation content navigator</a></li>
+</ul>
+</li>
+<li><a href="https://venturebeat.com/2021/12/08/red-hat-brings-its-ansible-it-automation-engine-to-azure/">venturebeat.com: Red Hat brings Ansible IT automation engine to Azure</a></li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure">redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to <strong>Microsoft Azure</strong></a> Customers can more easily automate across hybrid clouds, IoT and edge deployments with Red Hat Ansible Automation Platform on Microsoft Azure</li>
+<li><a href="https://www.wraltechwire.com/2021/12/11/red-hat-expands-hybrid-cloud-efforts-in-ansible-deal-with-microsoft-azure/">wraltechwire.com: Red Hat expands hybrid cloud efforts in Ansible deal with Microsoft Azure</a></li>
+</ul>
+<h3 id="automation-services-catalog">Automation services catalog<a class="headerlink" href="#automation-services-catalog" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.ansible.com/products/automation-services-catalog">ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform</a> Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business</li>
+</ul>
+<h3 id="red-hat-certified-ansible-content-collections">Red Hat Certified Ansible Content Collections<a class="headerlink" href="#red-hat-certified-ansible-content-collections" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://access.redhat.com/articles/4993781">List of Red Hat Supported Maintained Ansible Collections 🌟</a></li>
+<li><a href="https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible">ansible.com: Automating Red Hat Satellite with Ansible</a><ul>
+<li><a href="https://galaxy.ansible.com/t_systems_mms/letsencrypt">galaxy.ansible.com: letsencrypt</a> This collection contains a role for issuing ssl certificates from Let's Encrypt via dns or http-challenge</li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/3/ansible-collections">opensource.com: 5 tips for choosing an Ansible collection that's right for you</a> Try these strategies to find and vet collections of Ansible plugins and modules before you install them.</li>
+<li><a href="https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection">ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?app=desktop&amp;v=AXnDrGgLaF0&amp;feature=share&amp;ab_channel=RobertdeBock">youtube: Ansible Collections 🌟</a></li>
+</ul>
+<h2 id="ansible-cheat-sheets">Ansible Cheat Sheets<a class="headerlink" href="#ansible-cheat-sheets" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../cheatsheets/">Ansible Cheat Sheets</a></li>
+</ul>
+<h2 id="running-ansible-playbooks">Running Ansible Playbooks<a class="headerlink" href="#running-ansible-playbooks" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks.html">docs.ansible.com: Working With Playbooks</a></li>
+<li><a href="https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/">linuxtechi.com: How to Use Loops in Ansible Playbook</a></li>
+<li><a href="https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection">Ansible Let's Encrypt Collection</a></li>
+<li><a href="https://www.redhat.com/sysadmin/troubleshoot-ansible-playbooks">redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟</a> Here are six ways you can check for problems when running Ansible playbooks.</li>
+<li><a href="https://www.redhat.com/sysadmin/extra-variables-ansible-playbook">redhat.com: How to pass extra variables to an Ansible playbook</a> Learn how to pass variables to your Ansible playbooks makes them more portable and flexible.</li>
+</ul>
+<h3 id="running-ansible-playbooks-from-jenkins">Running Ansible Playbooks From Jenkins<a class="headerlink" href="#running-ansible-playbooks-from-jenkins" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://dzone.com/articles/running-ansible-playbooks-from-jenkins">Dzone: Running Ansible Playbooks From Jenkins</a></li>
+<li><a href="https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653">itnext.io: Ansible and Jenkins — automate your scritps 🌟</a></li>
+</ul>
+<h3 id="ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower">Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower<a class="headerlink" href="#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.ansible.com/products/tower">Ansible Tower</a></li>
+<li><a href="https://docs.ansible.com/ansible-tower/index.html">Ansible Tower Docs</a></li>
+<li><a href="https://github.com/ansible/awx">Ansible AWX</a></li>
+<li><a href="https://github.com/ansible/awx-operator">AWX Operator</a> An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.</li>
+<li><a href="https://www.ansible.com/blog/topic/ansible-tower">ansible.com/blog/topic/ansible-tower</a></li>
+<li><a href="https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana">Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana</a></li>
+<li><a href="https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/">linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes</a></li>
+<li><a href="https://steampunk.si/blog/managing-infrastructure-using-ansible-tower/">steampunk.si: Managing infrastructure using Ansible Tower</a></li>
+<li><a href="https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx/">maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX</a></li>
+<li><a href="https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html">techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8</a></li>
+<li><a href="https://medium.com/@claudio.domingos/ansible-awx-from-scratch-to-rest-api-part-4-of-8-4aa860d823f6">medium: Ansible AWX: from scratch to REST API (part 4 of 8)</a> Playbook to automate AWX REST API interactions</li>
+</ul>
+<h4 id="tower-and-awx-installers">Tower and AWX Installers<a class="headerlink" href="#tower-and-awx-installers" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://galaxy.ansible.com/geerlingguy/awx">galaxy.ansible.com/geerlingguy/awx 🌟</a> Installs and configures AWX (Ansible Tower's open source version).</li>
+<li><a href="https://galaxy.ansible.com/awx/awx">AWX Ansible Collection: galaxy.ansible.com/awx/awx</a> This Ansible collection allows for easy interaction with an AWX server via Ansible playbooks.</li>
+<li><a href="https://app.vagrantup.com/ansible/boxes/tower">vagrant: ansible tower</a></li>
+<li><a href="https://app.vagrantup.com/krlex/boxes/centos-awx">vagrant: centos-awx</a></li>
+<li><a href="https://github.com/tom-256/ansible-awx-packer">github.com/tom-256/ansible-awx-packer</a> ansible awx golden image based amazon linux</li>
+<li><a href="https://github.com/scorputty/packer-centos-awx">github.com/scorputty/packer-centos-awx</a> Packer image build code for Ansible AWX (Tower) Vagrant box</li>
+<li><a href="https://github.com/jsmartin/ansible-tower-packer/">github.com/jsmartin/ansible-tower-packer</a></li>
+<li><a href="https://artifacthub.io/packages/search?ts_query_web=awx&amp;sort=relevance&amp;page=1">artifacthub.io: Helm Charts - AWX</a></li>
+<li><a href="https://aws.amazon.com/marketplace/search/results?searchTerms=tower">AWS Marketplace (AMIs): AWX/Tower</a></li>
+</ul>
+<h3 id="alternatives-to-ansible-tower">Alternatives to Ansible Tower<a class="headerlink" href="#alternatives-to-ansible-tower" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.jenkins.io/">Jenkins</a></li>
+<li><a href="https://www.theforeman.org/">Foreman</a><ul>
+<li><a href="https://galaxy.ansible.com/theforeman/foreman">Ansible Modules to manage Foreman and Katello installations</a></li>
+<li><a href="https://github.com/theforeman/foreman-ansible-modules">Foreman Ansible Modules (FAM)</a> Ansible modules for interacting with the Foreman API and various plugin APIs such as Katello.</li>
+<li><a href="https://community.theforeman.org/t/rfc-operations-ansible-collection/20971">RFC: Foreman Operations Ansible Collection</a></li>
+<li><a href="https://theforeman.org/2021/01/updating-foreman-inventory-with-system-facts.html">theforeman.org: Updating Foreman inventory with system facts</a></li>
+<li><a href="https://theforeman.org/2021/09/foreman-30-is-here.html">theforeman.org: Foreman 3.0 is here!</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="ansible-kubernetes-operators">Ansible Kubernetes Operators<a class="headerlink" href="#ansible-kubernetes-operators" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.ansible.com/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes">ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes</a></li>
+</ul>
+<h2 id="ansible-molecule-development-and-testing-of-ansible-roles">Ansible Molecule. Development and Testing of Ansible Roles<a class="headerlink" href="#ansible-molecule-development-and-testing-of-ansible-roles" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://molecule.readthedocs.io/">Ansible Molecule</a> Molecule project is designed to aid in the development and testing of Ansible roles.</li>
+<li><a href="https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule">jeffgeerling.com: Testing your Ansible roles with Molecule</a></li>
+<li><a href="https://www.ansible.com/hubfs//AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf">PDF: Practical Ansible Testing with Molecule</a></li>
+<li><a href="https://opensource.com/article/18/12/testing-ansible-roles-molecule">opensource.com: Testing Ansible roles with Molecule</a> Learn how to automate your verifications using Python.</li>
+<li><a href="https://medium.com/@moep_moep/test-driven-development-with-ansible-using-molecule-3386cef987ac">medium.com: Test driven Development with Ansible using Molecule</a></li>
+<li><a href="https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule/">tomsitcafe.com: How to test Ansible code with Molecule</a></li>
+</ul>
+<h2 id="books">Books<a class="headerlink" href="#books" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.ansiblefordevops.com/">ansiblefordevops.com</a></li>
+<li><a href="https://www.ansibleforkubernetes.com/">ansibleforkubernetes.com 🌟</a></li>
+<li><a href="https://www.redhat.com/en/engage/automated-enterprise-ebook-20171107">redhat.com: The Automated Enterprise</a> Transform your business with an automation platform that unifies your people and processes.</li>
+<li><a href="https://github.com/automateyournetwork/automate_your_network">github.com/automateyournetwork/automate_your_network: Automate Your Network - John Capobianco - July 1st 2023</a></li>
+</ul>
+<h2 id="ansible-galaxy-roles">Ansible Galaxy Roles<a class="headerlink" href="#ansible-galaxy-roles" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://galaxy.ansible.com/">galaxy.ansible.com</a></li>
+<li><a href="https://galaxy.ansible.com/geerlingguy">galaxy.ansible.com/geerlingguy</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-system-role">redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟</a> In this part one of two articles, learn to use rhel-system-roles with your Ansible deployment to better manage functionality such as network, firewall, SELinux, and more on your Red Hat Enterprise Linux servers.</li>
+<li><a href="https://github.com/geerlingguy/ansible-role-docker">Ansible Role: Docker 🌟</a> An Ansible Role that installs Docker on Linux. "My Docker role now supports managing the Docker <code>daemon.json</code> file, after years of people asking" (Jeff Geerling)</li>
+</ul>
+<h2 id="more-ansible-roles">More Ansible Roles<a class="headerlink" href="#more-ansible-roles" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/Tronde/ansible-role-rhel-patchmanagement">Tronde/ansible-role-rhel-patchmanagement</a> Use Ansible and some custom scripts to deploy advisories and patches to RHEL servers.</li>
+</ul>
+<h2 id="ansible-scripts">Ansible scripts<a class="headerlink" href="#ansible-scripts" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/konstruktoid/ansible-hvault-inventory">konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp Vault SSH OTP and local password rotation</a> Using HashiCorp Vault as a dynamic Ansible inventory and authentication service</li>
+</ul>
+<h2 id="ansible-with-helm">Ansible with Helm<a class="headerlink" href="#ansible-with-helm" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://medium.com/opstree-technology/ansible-helm-diff-plugin-63e1cda299a3">medium.com/opstree-technology: Understanding Ansible: Helm diff plugin 🌟</a> Here in this blog, we’ll discuss how we can leverage the validate &amp; dry-run option in Ansible with Ansible: Helm diff plugin.</li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_module.html">docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager</a></li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_plugin_module.html">docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins</a></li>
+</ul>
+<h2 id="awesome-ansible">Awesome Ansible<a class="headerlink" href="#awesome-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/jdauphant/awesome-ansible">https://github.com/jdauphant/awesome-ansible</a></li>
+<li><a href="https://github.com/awesome-devops/awesome-ansible">https://github.com/awesome-devops/awesome-ansible</a></li>
+</ul>
+<h2 id="ansible-and-public-cloud-guides">Ansible and Public Cloud Guides<a class="headerlink" href="#ansible-and-public-cloud-guides" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/">The Beginner’s Guide to the Ansible Inventory</a> 🌟 - This guide explains the core concept of Ansible Inventory, detailing its role in organizing and defining automation targets. It covers both static and dynamic inventory types, their respective formats (INI and YAML), and how to configure dynamic inventories using plugins with sources like NetBox. The article also touches upon inventory filtering for precise host automation.</p>
+</li>
+<li>
+<p><a href="https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html">Public Cloud Guides 🌟</a></p>
+</li>
+<li><a href="https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure">Ansible to automate Microsoft Azure</a></li>
+<li><a href="https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e">medium: AWS Configuration with Web Server in EC2 Using Ansible</a></li>
+</ul>
+<h2 id="ansible-kubernetes-module">Ansible Kubernetes Module<a class="headerlink" href="#ansible-kubernetes-module" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/k8s_module.html">==docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects==</a></li>
+<li><a href="https://adamtheautomator.com/ansible-kubernetes/">adamtheautomator.com: How to Use the Ansible Kubernetes Module</a> The Ansible Kubernetes module allows you to access the full range of Kubernetes APIs and create objects such as deployments, services, and so on. Learn how to use it in this step-by-step tutorial.</li>
+</ul>
+<h2 id="nginx-core-collection-for-ansibe">NGINX Core Collection for Ansibe<a class="headerlink" href="#nginx-core-collection-for-ansibe" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://galaxy.ansible.com/nginxinc/nginx_core">galaxy.ansible.com/nginxinc/nginx_core</a></li>
+<li><a href="https://www.nginx.com/blog/announcing-nginx-core-collection-ansible/">nginx.com: Announcing the NGINX Core Collection for Ansible</a></li>
+</ul>
+<h2 id="dynatrace-with-ansible">Dynatrace with Ansible<a class="headerlink" href="#dynatrace-with-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview/">dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)</a></li>
+</ul>
+<h2 id="sql-server-with-ansible">SQL Server with Ansible<a class="headerlink" href="#sql-server-with-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/mssql-linux-easy">redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8</a></li>
+</ul>
+<h2 id="oci-oracle-cloud-infrastructure-with-ansible">OCI Oracle Cloud Infrastructure with Ansible<a class="headerlink" href="#oci-oracle-cloud-infrastructure-with-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://oci-ansible-collection.readthedocs.io/">oci-ansible-collection.readthedocs.io</a></li>
+</ul>
+<h2 id="oracle-database-with-ansible">Oracle Database with Ansible<a class="headerlink" href="#oracle-database-with-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/oravirt/ansible-oracle">github.com/oravirt/ansible-oracle</a></li>
+<li><a href="https://github.com/oravirt/ansible-oracle-modules">github.com/oravirt/ansible-oracle-modules</a> Oracle modules for Ansible</li>
+<li><a href="https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle/">oravirt.wordpress.com: Getting started with ansible-oracle</a></li>
+<li><a href="https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2/">oravirt.wordpress.com: Changes in ansible-oracle v1.2</a></li>
+<li><a href="https://github.com/abessifi/ansible-sqlplus">github.com/abessifi/ansible-sqlplus</a> Ansible role to install sqlplus tool to connect to an Oracle database server</li>
+<li><a href="https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script">stackoverflow.com: Ansible playbook to execute Oracle script</a></li>
+<li><a href="https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook">stackoverflow.com: Running Oracle SQL scripts with Ansible playbook</a></li>
+</ul>
+<h2 id="ansistrano-deploying-applications-with-ansible-in-capistrano-style">Ansistrano. Deploying applications with Ansible in Capistrano style<a class="headerlink" href="#ansistrano-deploying-applications-with-ansible-in-capistrano-style" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/ansistrano">Ansistrano</a></li>
+<li><a href="https://capistranorb.com/">Capistrano</a> A remote server automation and deployment tool written in Ruby.</li>
+</ul>
+<h2 id="anacron-and-ansible">Anacron and Ansible<a class="headerlink" href="#anacron-and-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://opensource.com/article/21/9/ansible-anacron-automation">opensource.com: How I use Ansible and anacron for automation</a> With anacron, I can drop scripts and Ansible playbooks into place for all manner of trivial tasks.</li>
+<li><a href="https://opensource.com/article/21/2/linux-automation">opensource.com: Use anacron for a better crontab</a> Instead of manually performing repetitive tasks, let Linux do them for you.</li>
+</ul>
+<h2 id="tweets">Tweets<a class="headerlink" href="#tweets" title="Permanent link">&para;</a></h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to manage Windows hosts with Ansible!<br><br>A Short Thread 👇 <a href="https://t.co/NGRqym4c91">pic.twitter.com/NGRqym4c91</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1629453865308536832?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ansible vs Terraform<br><br>Explaining the differences and the better choice for you!<br><br>A Thread 👇 <a href="https://t.co/maKVIdHXki">pic.twitter.com/maKVIdHXki</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1672637966743896066?ref_src=twsrc%5Etfw">June 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></p>
+</details>
+<h2 id="videos">Videos<a class="headerlink" href="#videos" title="Permanent link">&para;</a></h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1id6ERvfozo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lhFvMsy6VX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/goclfp6a2IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_TVNCTK808I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rx4Uh3jv1cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center></p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

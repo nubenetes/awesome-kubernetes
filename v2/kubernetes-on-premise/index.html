@@ -1,0 +1,1297 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
+      
+      
+        <meta name="author" content="Inaki Fernandez">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/v2/kubernetes-on-premise/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>On-Premise Production Kubernetes Cluster Installers - Nubenetes V2 | The Architect's Cut</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#on-premise-production-kubernetes-cluster-installers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes V2 | The Architect's Cut
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              On-Premise Production Kubernetes Cluster Installers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://nubenetes.com/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🔙 Back to V1 (Exhaustive)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  The 2026 Vision
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../intelligent-control-plane.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Intelligent Control Plane
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../architectural-foundations.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Architectural Foundations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../platform-and-site-reliability.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Platform & Site Reliability
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../hardened-infrastructure.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hardened Infrastructure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cloud-providers-hyperscalers.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Cloud Providers (Hyperscalers)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../networking-and-service-mesh.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Networking & Service Mesh
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../the-container-stack.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Container Stack
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../data-and-advanced-analytics.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../engineering-pipeline.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Engineering Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../developer-ecosystem.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Developer Ecosystem
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../career-and-industry.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Career & Industry
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Nubenetes V2 | The Architect's Cut
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://nubenetes.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔙 Back to V1 (Exhaustive)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 2026 Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intelligent-control-plane.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intelligent Control Plane
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architectural-foundations.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectural Foundations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform-and-site-reliability.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardened-infrastructure.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardened Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-providers-hyperscalers.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Providers (Hyperscalers)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking-and-service-mesh.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-container-stack.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-and-advanced-analytics.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engineering-pipeline.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-ecosystem.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../career-and-industry.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/kubernetes-on-premise.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/kubernetes-on-premise.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="on-premise-production-kubernetes-cluster-installers">On-Premise Production Kubernetes Cluster Installers<a class="headerlink" href="#on-premise-production-kubernetes-cluster-installers" title="Permanent link">&para;</a></h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#comparative-analysis-of-kubernetes-deployment-tools">Comparative Analysis of Kubernetes Deployment Tools</a></li>
+<li><a href="#deploying-kubernetes-cluster-with-kops">Deploying Kubernetes Cluster with Kops</a></li>
+<li><a href="#deploying-kubernetes-cluster-with-kubeadm">Deploying Kubernetes Cluster with Kubeadm</a></li>
+<li><a href="#deploying-kubernetes-cluster-with-ansible">Deploying Kubernetes Cluster with Ansible</a></li>
+<li><a href="#kube-aws-kubernetes-on-aws">kube-aws Kubernetes on AWS</a></li>
+<li><a href="#kubespray">Kubespray</a></li>
+<li><a href="#conjure-up">Conjure up</a></li>
+<li><a href="#wksctl">WKSctl</a></li>
+<li><a href="#terraform-kubernetes-the-hard-way">Terraform (kubernetes the hard way)</a></li>
+<li><a href="#caravan">Caravan</a></li>
+<li><a href="#clusterapi">ClusterAPI</a></li>
+<li><a href="#microk8s">Microk8s</a></li>
+<li><a href="#k8s-tew">k8s-tew</a></li>
+<li><a href="#project-neco">Project Neco</a></li>
+<li><a href="#zarf-devsecops-for-air-gap-systems">Zarf. DevSecOps for Air Gap Systems</a></li>
+<li><a href="#kubernetes-operating-systems">Kubernetes Operating Systems</a></li>
+<li><a href="#kubernetes-distributions">Kubernetes Distributions</a><ol>
+<li><a href="#red-hat-openshift">Red Hat OpenShift</a></li>
+<li><a href="#rancher">Rancher</a></li>
+<li><a href="#weave-kubernetes-platform">Weave Kubernetes Platform</a></li>
+<li><a href="#ubuntu-charmed-kubernetes">Ubuntu Charmed Kubernetes</a></li>
+<li><a href="#vmware-kubernetes-tanzu-and-project-pacific">VMware Kubernetes Tanzu and Project Pacific</a><ol>
+<li><a href="#kubeacademy-pro-free-training">KubeAcademy Pro (free training)</a></li>
+</ol>
+</li>
+<li><a href="#kontena-pharos">Kontena Pharos</a></li>
+<li><a href="#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm">Mirantis Docker Enterprise with Kubernetes and Docker Swarm</a></li>
+<li><a href="#mirantis-k0s">Mirantis k0s</a></li>
+<li><a href="#k0s">K0s</a></li>
+<li><a href="#k8e">K8e</a></li>
+<li><a href="#typhoon">Typhoon</a></li>
+<li><a href="#kurl">kurl</a></li>
+</ol>
+</li>
+</ol>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://containerjournal.com/features/deploying-kubernetes-on-bare-metal/">containerjournal.com: Deploying Kubernetes on Bare Metal</a></li>
+<li><a href="https://thenewstack.io/kubernetes-on-bare-metal-vs-vms-its-not-just-performance/">thenewstack.io: Kubernetes on Bare Metal vs. VMs: It’s Not Just Performance</a></li>
+<li><a href="https://containerjournal.com/features/when-kubernetes-as-a-service-doesnt-cut-it/">containerjournal.com: When Kubernetes-as-a-Service Doesn’t Cut It</a></li>
+</ul>
+<h2 id="comparative-analysis-of-kubernetes-deployment-tools">Comparative Analysis of Kubernetes Deployment Tools<a class="headerlink" href="#comparative-analysis-of-kubernetes-deployment-tools" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/">A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up</a></li>
+<li><a href="http://wecloudpro.com/2020/01/13/kube-autp-aws.html">wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes</a></li>
+</ul>
+<h2 id="deploying-kubernetes-cluster-with-kops">Deploying Kubernetes Cluster with Kops<a class="headerlink" href="#deploying-kubernetes-cluster-with-kops" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/kubernetes/kops">GitHub: Kubernetes Cluster with Kops</a></li>
+<li>Minikube and docker client are great for local setups, but not for real clusters. <strong>Kops</strong> and <strong>kubeadm</strong> are tools to spin up a production cluster. You don't need both tools, just one of them.</li>
+<li>On AWS, the best tool is <strong>kops</strong>. Since <a href="https://aws.amazon.com/eks">AWS EKS (hosted kubernetes)</a> is currently available, this is the preferred option <strong>(you don't need to maintain the masters)</strong>.</li>
+<li>For other installs, or if you can't get kops to work, you can use <strong>kubeadm</strong>.</li>
+<li>Setup <strong>kops</strong> in your windows with <strong>virtualbox.org</strong> and <strong>vagrantup.com</strong> . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer:</li>
+<li><a href="https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates/">blog.ivnilv.com: Rotating Kops Etcd Certificates</a></li>
+<li><a href="https://blog.kubecost.com/blog/kubernetes-kops/">blog.kubecost.com: Kubernetes kOps: Step-By-Step Example &amp; Alternatives</a></li>
+</ul>
+<div class="highlight"><pre><span></span><code>C:\ubuntu&gt; vagrant init ubuntu/xenial64
+C:\ubuntu&gt; vagrant up
+C:\ubuntu&gt; vagrant ssh-config
+C:\ubuntu&gt; vagrant ssh
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>curl<span class="w"> </span>-LO<span class="w"> </span>https://github.com/kubernetes/kops/releases/download/<span class="k">$(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/kubernetes/kops/releases/latest<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>tag_name<span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="w"> </span><span class="s1">&#39;&quot;&#39;</span><span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="k">)</span>/kops-linux-amd64
+$<span class="w"> </span>chmod<span class="w"> </span>+x<span class="w"> </span>kops-linux-amd64
+$<span class="w"> </span>sudo<span class="w"> </span>mv<span class="w"> </span>kops-linux-amd64<span class="w"> </span>/usr/local/bin/kops
+</code></pre></div>
+<ul>
+<li><a href="https://imsundeep8.medium.com/deploy-production-grade-kubernetes-cluster-using-kops-on-amazon-cloud-aws-abc79f46aa32">imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using kOps on Amazon Cloud (AWS)</a></li>
+</ul>
+<h2 id="deploying-kubernetes-cluster-with-kubeadm">Deploying Kubernetes Cluster with Kubeadm<a class="headerlink" href="#deploying-kubernetes-cluster-with-kubeadm" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/kubernetes/kubeadm">Kubernetes Cluster with <strong>Kubeadm</strong></a> It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.</li>
+<li><a href="https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b">medium.com: <strong>Demystifying High Availability in Kubernetes Using Kubeadm</strong></a></li>
+<li><a href="https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04/">Setting Up a Kubernetes Cluster on Ubuntu 18.04</a></li>
+<li><a href="https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1">itnext.io: Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap</a> In this article, you’ll see how to make use of kubeadm bootstrap to set up and join 3 master instances as members of our cluster.</li>
+<li><a href="https://www.padok.fr/en/blog/kubeadm-kubernetes-cluster">Set up a Bare Metal Kubernetes cluster with</a></li>
+<li><a href="https://blog.tobias-huebner.org/low-budget-kubernetes-self-hosted-series/">blog.tobias-huebner.org: Low-budget self-hosted Kubernetes 🌟</a></li>
+<li><a href="https://www.mirantis.com/blog/how-install-kubernetes-kubeadm">mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty guide</a></li>
+<li><a href="https://kosyfrances.com/kubernetes-cluster/">kosyfrances.com: Using kubeadm to create a Kubernetes 1.20 cluster on VirtualBox with Ubuntu</a></li>
+<li><a href="https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04/">blog.radwell.codes: Provisioning Single-node Kubernetes Cluster using kubeadm on Ubuntu 20.04</a></li>
+<li><a href="https://medium.com/@ZiXianZeroX/setting-up-an-on-premise-kubernetes-cluster-from-scratch-8e3a6b415387">medium.com/@ZiXianZeroX: Setting Up an On-premise Kubernetes Cluster from Scratch</a></li>
+<li><a href="https://thenewstack.io/how-to-deploy-kubernetes-with-kubeadm-and-containerd/">thenewstack.io: How to Deploy Kubernetes with Kubeadm and containerd</a></li>
+<li><a href="https://faun.pub/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b">faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm. 1/3</a> In this article, you'll create a HA Kubernetes cluster with multi masters topology, with an external Etcd cluster as a base layer and a MetalLB load balancer. On all worker nodes, you'll deploy a GlusterFS for storage.</li>
+<li><a href="https://blog.learncodeonline.in/kubernetes-cluster-deployment-on-centos-linux">blog.learncodeonline.in: Kubernetes Cluster Deployment on CentOS Linux</a></li>
+<li><a href="https://github.com/kubernetes/kubeadm/blob/main/docs/ha-considerations.md">github.com/kubernetes/kubeadm: High Availability Considerations</a></li>
+<li><a href="https://medium.com/@brunosquassoni/creating-a-kubernetes-cluster-step-by-step-bd9ae3c85275">medium.com/@brunosquassoni: Creating a Kubernetes Cluster [STEP BY STEP]</a></li>
+<li><a href="https://medium.com/@benjaminacar.private/a-comprehensive-guide-to-setup-a-new-k8s-cluster-4b88e6f021bc">medium.com/@benjaminacar.private: A Comprehensive Guide to Setup a New K8s Cluster</a></li>
+</ul>
+<h2 id="deploying-kubernetes-cluster-with-ansible">Deploying Kubernetes Cluster with Ansible<a class="headerlink" href="#deploying-kubernetes-cluster-with-ansible" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/geerlingguy/ansible-role-kubernetes">Ansible Role - Kubernetes (Jeff Geerling)</a></li>
+<li><a href="https://github.com/electrocucaracha/krd">krd</a> offers a reference for deploying a Kubernetes cluster. Its ansible playbooks allow to provision a deployment on Bare-metal or Virtual Machines</li>
+<li><a href="https://github.com/kubeinit/kubeinit">Kubeinit 🌟</a> KubeInit provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions. KubeInit's mission is to have a fully automated way to deploy in a single command a curated list of prescribed architectures.<ul>
+<li><a href="https://www.youtube.com/watch?v=9_6H7Ahsdm4&amp;ab_channel=OpenShift">youtube: OpenShift Commons En Vivo - KubeInit con Maria Bracho, Scott McCarty, and Carlos Camacho (Red Hat, Spanish) 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://www.itwonderlab.com/en/ansible-kubernetes-vagrant-tutorial/">itwonderlab.com: Kubernetes Cluster using Vagrant and Ansible with Containerd (in 3 minutes) 🌟</a></li>
+</ul>
+<h2 id="kube-aws-kubernetes-on-aws">kube-aws Kubernetes on AWS<a class="headerlink" href="#kube-aws-kubernetes-on-aws" title="Permanent link">&para;</a></h2>
+<h2 id="kubespray">Kubespray<a class="headerlink" href="#kubespray" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/kubernetes-sigs/kubespray"><strong>Kubespray</strong></a></li>
+<li><a href="https://www.redhat.com/sysadmin/kubespray-deploy-kubernetes">redhat.com: An introduction to Kubespray</a> By combining Ansible and Kubernetes, Kubespray can deploy Kubernetes clusters on multiple machines.</li>
+<li><a href="https://adamtheautomator.com/kubespray/">adamtheautomator.com/kubespray: Conquer Kubernetes Clusters with Ansible Kubespray</a><ul>
+<li>Manually deploying Kubernetes can be challenging for administrators, especially on bare-metal infrastructure deployment. Luckily, there is an automation tool for deploying production-ready Kubernetes called Kubespray.</li>
+<li>Kubespray is an Ansible Playbook for deploying Kubernetes Cluster and provides a High Availability cluster, composable attributes, components, and supports multiple Linux distributions. Kubespray also supports cloud services like AWS, GCE, and Azure.</li>
+</ul>
+</li>
+<li><a href="https://github.com/bluxmit/alnoda-workspaces">github.com/bluxmit: Kubespray Workspace</a> Containerized development, execution and admin environment for Kubernetes, Ansible and Terraform.</li>
+</ul>
+<h2 id="conjure-up">Conjure up<a class="headerlink" href="#conjure-up" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://conjure-up.io/"><strong>Conjure up</strong></a></li>
+</ul>
+<h2 id="wksctl">WKSctl<a class="headerlink" href="#wksctl" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/weaveworks/wksctl"><strong>Weave Kubernetes System Control - wksctl</strong></a> Open Source Weaveworks Kubernetes System</li>
+<li><a href="https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops">WKSctl - A New OSS Kubernetes Manager using GitOps</a></li>
+<li><a href="https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/">WKSctl: a Tool for Kubernetes Cluster Management Using GitOps</a></li>
+</ul>
+<h2 id="terraform-kubernetes-the-hard-way">Terraform (kubernetes the hard way)<a class="headerlink" href="#terraform-kubernetes-the-hard-way" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way"><strong>Kelsey Hightower: kubernetes the hard way</strong></a></li>
+<li><a href="https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/">napo.io: Kubernetes The (real) Hard Way on AWS</a></li>
+<li><a href="https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/">napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)</a></li>
+<li><a href="https://medium.com/nordcloud-engineering/upgrading-kubernetes-the-hard-way-ac533cfb4ff2">medium: Upgrading Kubernetes The Hard Way</a></li>
+<li><a href="https://medium.com/@brightzheng100/kubernetes-the-hard-way-on-docker-f512bae734af">medium: Kubernetes the hard way on Docker</a></li>
+<li><a href="https://github.com/PhilippeChepy/exoscale-kubernetes-crio">Autoscalable Kubernetes cluster at Exoscale, using Packer and Terraform</a></li>
+<li><a href="https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure">Kubernetes the Hard Way: Azure Edition</a> teaches you how to deploy Kubernetes from scratch on Azure based on the legendary Kubernetes the Hard Way.</li>
+<li><a href="https://github.com/prabhatsharma/kubernetes-the-hard-way-aws">Kubernetes The Hard Way: AWS Edition</a> AWS version of Kelsey's kubernetes-the-hard-way</li>
+<li><a href="https://medium.com/@norlin.t/kubernetes-the-hard-illumos-way-c4b45a080bac">medium.com/@norlin.t: Kubernetes the hard (illumos) way</a></li>
+<li><a href="https://medium.com/@norlin.t/kubernetes-the-hard-illumos-way-last-part-c68ca71bc2ce">medium.com/@norlin.t: Kubernetes the hard (illumos) way, last part</a></li>
+</ul>
+<h2 id="caravan">Caravan<a class="headerlink" href="#caravan" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/">linecorp.com: Building Large Kubernetes Clusters with <strong>Caravan</strong></a></li>
+</ul>
+<h2 id="clusterapi">ClusterAPI<a class="headerlink" href="#clusterapi" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://cluster-api.sigs.k8s.io/">==ClusterAPI==</a> Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.</li>
+<li><a href="https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89">itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)</a></li>
+<li><a href="https://medium.com/swlh/clusterops-1-line-commit-to-upgrade-your-kubernetes-clusters-de3548124d04">medium: ClusterOps: 1-Line Commit to Upgrade Your Kubernetes Clusters 🌟</a></li>
+<li><a href="https://www.cncf.io/webinars/deploying-kubernetes-to-bare-metal-using-cluster-api/">cncf.io webinar: Deploying Kubernetes to bare metal using cluster API</a></li>
+<li><a href="https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89">itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)</a></li>
+<li><a href="https://github.com/kgamanji/cluster-api-helm-chart">github.com: Cluster API Helm Chart</a> - <a href="https://www.youtube.com/watch?v=QbSw8dPhHGM&amp;ab_channel=KatieGamanji">youtube: Cluster API &amp; FluxCD - the power of GitOps</a> A Helm chart to install Cluster API manifests</li>
+<li><a href="https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api">weave.works: Manage Thousands of Clusters with GitOps and the Cluster API</a></li>
+<li><a href="https://thenewstack.io/cluster-api-offers-a-way-to-manage-multiple-kubernetes-deployments/">thenewstack.io: Cluster API Offers a Way to Manage Multiple Kubernetes Deployments</a></li>
+<li><a href="https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api/">thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API</a></li>
+<li><a href="https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0/">cncf.io: Kubernetes Cluster API reaches production readiness with version 1.0</a></li>
+<li><a href="https://github.com/weaveworks/cluster-api-provider-existinginfra">weaveworks/cluster-api-provider-existinginfra</a> Manage existing infrastructure with Cluster API using this provider. A Cluster API v1alpha3 Infrastructure Provider for already-provisioned hosts running Linux. This controller is split out from and used by weaveworks/wksctl.</li>
+<li><a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/">==piotrminkowski.com: Create and Manage Kubernetes Clusters with Cluster API and ArgoCD==</a></li>
+</ul>
+<h2 id="microk8s">Microk8s<a class="headerlink" href="#microk8s" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://microk8s.io/"><strong>Microk8s</strong></a></li>
+<li><a href="https://github.com/didier-durand/microk8s-kata-containers">Kata Containers on MicroK8s</a> This repository encompasses a fully scripted Github workflow to test the transparent use of the runtime for Kata Containers (Katas) on MicroK8s</li>
+<li><a href="https://github.com/didier-durand/microk8s-kube-bench">MicroK8s &amp; Kubernetes security benchmark from CIS</a></li>
+<li><a href="https://www.cloudsavvyit.com/13024/how-to-run-your-own-kubernetes-cluster-with-microk8s">cloudsavvyit.com: How to run your own kubernetes cluster with Microk8s</a></li>
+<li><a href="https://thenewstack.io/deploy-microk8s-and-the-kubernetes-dashboard-for-k8s-development/">thenewstack.io: Deploy Microk8s and the Kubernetes Dashboard for K8s Development</a></li>
+<li><a href="https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s/">thenewstack.io: Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s</a></li>
+</ul>
+<h2 id="k8s-tew">k8s-tew<a class="headerlink" href="#k8s-tew" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/darxkies/k8s-tew"><strong>k8s-tew</strong></a> Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">Kelsey Hightower’s Kubernetes The Hard Way</a>, on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.</li>
+</ul>
+<h2 id="project-neco">Project Neco<a class="headerlink" href="#project-neco" title="Permanent link">&para;</a></h2>
+<h2 id="zarf-devsecops-for-air-gap-systems">Zarf. DevSecOps for Air Gap Systems<a class="headerlink" href="#zarf-devsecops-for-air-gap-systems" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/defenseunicorns/zarf">defenseunicorns/zarf</a> DevSecOps for Air Gap &amp; Limited-Connection Systems. Zarf massively simplifies the setup &amp; administration of kubernetes clusters, cyber systems &amp; workloads that support DevSecOps "across the air gap".</li>
+</ul>
+<h2 id="kubernetes-operating-systems">Kubernetes Operating Systems<a class="headerlink" href="#kubernetes-operating-systems" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://kubedex.com/kubernetes-operating-systems/">kubedex.com: Kubernetes Operating Systems 🌟</a></li>
+</ul>
+<h2 id="kubernetes-distributions">Kubernetes Distributions<a class="headerlink" href="#kubernetes-distributions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://acloudguru.com/blog/engineering/which-kubernetes-distribution-is-right-for-you">acloudguru.com: Which Kubernetes distribution is right for you?</a></li>
+<li><a href="https://www.infoworld.com/article/3265059/6-kubernetes-distributions-leading-the-container-revolution.html">infoworld.com: 6 Kubernetes distributions leading the container revolution</a><ul>
+<li>OpenShift</li>
+<li>VMware Tanzu Grid</li>
+<li>Rancher Kubernetes Engine</li>
+<li>Mirantis Kubernetes Engine</li>
+<li>Docker</li>
+<li>Canonical Kubernetes</li>
+</ul>
+</li>
+<li><a href="https://www.baeldung.com/ops/kubernetes-lightweight-distributions">baeldung.com: Lightweight Kubernetes Distributions</a><ul>
+<li>MiniKube</li>
+<li>MicroK8S</li>
+<li>Kind</li>
+<li>K3s</li>
+<li>K3d</li>
+</ul>
+</li>
+</ul>
+<h3 id="red-hat-openshift">Red Hat OpenShift<a class="headerlink" href="#red-hat-openshift" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="../openshift/">Openshift Container Platform</a></li>
+<li><a href="https://www.okd.io/">OKD</a> The Community Distribution of Kubernetes that powers Red Hat OpenShift</li>
+<li><a href="https://www.itprotoday.com/containers/whos-winning-container-software-market">itprotoday.com: Who's Winning in the Container Software Market 🌟</a> Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?</li>
+</ul>
+<h3 id="rancher">Rancher<a class="headerlink" href="#rancher" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="../rancher/">Rancher: Enterprise management for Kubernetes</a></li>
+</ul>
+<h3 id="weave-kubernetes-platform">Weave Kubernetes Platform<a class="headerlink" href="#weave-kubernetes-platform" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.weave.works/">weave.works: Weave Kubernetes Platform</a> Automate Enterprise Kubernetes the GitOps way</li>
+<li><a href="https://github.com/weaveworks/weave">github: Weave Net - Weaving Containers into Applications</a></li>
+</ul>
+<h3 id="ubuntu-charmed-kubernetes">Ubuntu Charmed Kubernetes<a class="headerlink" href="#ubuntu-charmed-kubernetes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://ubuntu.com/kubernetes/features">Charmed Kubernetes</a></li>
+<li><a href="https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes">Kubernetes GitOps with Azure Arc and Charmed Kubernetes</a></li>
+</ul>
+<h3 id="vmware-kubernetes-tanzu-and-project-pacific">VMware Kubernetes Tanzu and Project Pacific<a class="headerlink" href="#vmware-kubernetes-tanzu-and-project-pacific" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html">blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)</a></li>
+<li><a href="https://www.vmware.com/products/vsphere.html"><strong>VMware vSphere 7 with Kubernetes</strong> - Project Pacific</a></li>
+<li><a href="https://cloud.vmware.com/tanzu"><strong>VMware Kubernetes Tanzu</strong></a></li>
+<li><a href="https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action/">cormachogan.com: A first look at vSphere with Kubernetes in action</a></li>
+<li><a href="https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes/">cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes</a></li>
+<li><a href="https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html/">blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!</a></li>
+<li><a href="https://tanzu.vmware.com/content/blog/vmware-tanzu-sql-mysql-at-scale-kubernetes">tanzu.vmware.com: VMware Tanzu SQL: MySQL at Scale Made Easy for Kubernetes</a></li>
+<li><a href="https://labs.hol.vmware.com/">VMware hands-on Labs 🌟</a></li>
+<li><a href="https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html">wecloudpro.com: VMware Tanzu Community Edition 🌟</a></li>
+<li><a href="https://github.com/vmware-tanzu/octant">vmware-tanzu/octant</a> Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.</li>
+<li><a href="https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption/">zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption</a> The platform, introduced in 2019, is designed to help customers quickly build and deploy software on any public cloud or on-premises Kubernetes cluster.</li>
+<li><a href="https://dev.to/saintdle/deploying-nvidia-gpu-enabled-tanzu-kubernetes-clusters-40ma">dev.to/saintdle: Deploying Nvidia GPU enabled Tanzu Kubernetes Clusters</a></li>
+</ul>
+<h4 id="kubeacademy-pro-free-training">KubeAcademy Pro (free training)<a class="headerlink" href="#kubeacademy-pro-free-training" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://tanzu.vmware.com/content/blog/introducing-kubeacademy-pro-in-depth-kubernetes-training-totally-free">tanzu.vmware.com: Introducing KubeAcademy Pro: In-Depth Kubernetes Training, Totally Free</a></li>
+<li><a href="https://kube.academy/pro">kube.academy/pro 🌟</a></li>
+</ul>
+<h3 id="kontena-pharos">Kontena Pharos<a class="headerlink" href="#kontena-pharos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://k8spharos.dev/">Pharos 🌟</a> Kubernetes Distribution</li>
+<li><a href="https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos/">Stateful Kubernetes-In-a-Box with Kontena Pharos</a></li>
+</ul>
+<h3 id="mirantis-docker-enterprise-with-kubernetes-and-docker-swarm">Mirantis Docker Enterprise with Kubernetes and Docker Swarm<a class="headerlink" href="#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.mirantis.com/software/docker/docker-enterprise/">Mirantis Docker Enterprise 3.1+ with Kubernetes</a></li>
+<li>Docker Enterprise 3.1 announced. Features:<ul>
+<li>Istio is now built into Docker Enterprise 3.1!</li>
+<li>Comes with Kubernetes 1.17. Kubernetes on Windows capability.</li>
+<li>Enable Istio Ingress for a Kubernetes cluster with the click of a button</li>
+<li>Intelligent defaults to get started quickly</li>
+<li>Virtual services supported out of the box</li>
+<li>Inbuilt support for GPU Orchestration</li>
+<li>Launchpad CLI for Docker Enterprise deployment &amp; upgrades</li>
+</ul>
+</li>
+</ul>
+<h3 id="mirantis-k0s">Mirantis k0s<a class="headerlink" href="#mirantis-k0s" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://k0sproject.io/">k0s</a></li>
+<li><a href="https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution/">infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution</a></li>
+<li><a href="https://medium.com/k0sproject/k0s-supports-kubernetes-1-22-a498e41bf5af">medium: K0s Supports Kubernetes 1.22</a></li>
+</ul>
+<h3 id="k0s">K0s<a class="headerlink" href="#k0s" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/k0sproject/k0s">K0s - Zero Friction Kubernetes</a> k0s is an all-inclusive Kubernetes distribution with all the required bells and whistles preconfigured to make building a Kubernetes clusters a matter of just copying an executable to every host and running it.</li>
+<li><a href="https://medium.com/k0sproject/k0s-ready-for-production-20255c4b0791">medium: k0s Ready for Production</a></li>
+<li><a href="https://medium.com/k0sproject/k0s-optimizes-start-time-adds-cluster-level-backup-restore-and-more-8ffef894a1ae">medium: k0s Optimizes Start Time, Adds Cluster Level Backup/Restore and More</a></li>
+</ul>
+<h3 id="k8e">K8e<a class="headerlink" href="#k8e" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/xiaods/k8e">xiaods/k8e</a> K8e 🚀 (said 'kuber easy') - Simple Kubernetes Distribution. Builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices.</li>
+</ul>
+<h3 id="typhoon">Typhoon<a class="headerlink" href="#typhoon" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/poseidon/typhoon">poseidon/typhoon</a> *<em>Typhoon is a minimal and free Kubernetes distribution with Terraform.</em>- <a href="https://typhoon.psdn.io/">typhoon.psdn.io</a></li>
+</ul>
+<h3 id="kurl">kurl<a class="headerlink" href="#kurl" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://kurl.sh/">kurl.sh</a> kURL is a Kubernetes installer for air-gapped and online clusters. kURL relies on kubeadm but automates tasks such as installing the container runtime, configuring pod networking, etc., so any user can deploy a Kubernetes cluster with a single script.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

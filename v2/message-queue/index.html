@@ -1,0 +1,1663 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
+      
+      
+        <meta name="author" content="Inaki Fernandez">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/v2/message-queue/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub - Nubenetes V2 | The Architect's Cut</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline-open-data-hub" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes V2 | The Architect's Cut
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline). Open Data Hub
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://nubenetes.com/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🔙 Back to V1 (Exhaustive)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  The 2026 Vision
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../intelligent-control-plane.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Intelligent Control Plane
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../architectural-foundations.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Architectural Foundations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../platform-and-site-reliability.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Platform & Site Reliability
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../hardened-infrastructure.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hardened Infrastructure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cloud-providers-hyperscalers.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Cloud Providers (Hyperscalers)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../networking-and-service-mesh.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Networking & Service Mesh
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../the-container-stack.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Container Stack
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../data-and-advanced-analytics.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../engineering-pipeline.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Engineering Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../developer-ecosystem.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Developer Ecosystem
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../career-and-industry.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Career & Industry
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Nubenetes V2 | The Architect's Cut
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://nubenetes.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔙 Back to V1 (Exhaustive)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 2026 Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intelligent-control-plane.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intelligent Control Plane
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architectural-foundations.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectural Foundations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform-and-site-reliability.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardened-infrastructure.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardened Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-providers-hyperscalers.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Providers (Hyperscalers)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking-and-service-mesh.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-container-stack.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-and-advanced-analytics.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engineering-pipeline.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-ecosystem.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../career-and-industry.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/message-queue.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/message-queue.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline-open-data-hub">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline). Open Data Hub<a class="headerlink" href="#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline-open-data-hub" title="Permanent link">&para;</a></h1>
+<ol>
+<li><a href="#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming">Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming</a></li>
+<li><a href="#rpc-vs-messaging">RPC vs Messaging</a></li>
+<li><a href="#tibco-business-works-bwce">Tibco Business Works BWCE</a></li>
+<li><a href="#message-brokers">Message Brokers</a><ol>
+<li><a href="#activemq-message-broker">ActiveMQ message broker</a></li>
+<li><a href="#rabbitmq-message-broker">RabbitMQ message broker</a></li>
+<li><a href="#redis-message-broker">Redis message broker</a></li>
+<li><a href="#apache-camel-message-broker">Apache Camel message broker</a><ol>
+<li><a href="#apache-camel-k">Apache Camel K</a></li>
+</ol>
+</li>
+<li><a href="#kubemq-message-broker">KubeMQ message broker</a></li>
+<li><a href="#google-cloud-platform-pubsub">Google Cloud Platform Pub/Sub</a></li>
+<li><a href="#jms-message-queue-vs-apache-kafka">JMS Message Queue vs. Apache Kafka</a></li>
+</ol>
+</li>
+<li><a href="#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions">Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions</a><ol>
+<li><a href="#red-hat-fuse-and-red-hat-fuse-online">Red Hat Fuse and Red Hat Fuse Online</a></li>
+<li><a href="#syndesis-open-source-integration-platform">Syndesis open source integration platform</a></li>
+</ol>
+</li>
+<li><a href="#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern">Debezium open source distributed platform for Change Data Capture (CDC) software design pattern</a></li>
+<li><a href="#red-hat-integration-service-registry-and-apicurio">Red Hat Integration service registry and Apicurio</a></li>
+<li><a href="#data-mesh">Data Mesh</a></li>
+<li><a href="#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline">Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)</a><ol>
+<li><a href="#apache-kafka">Apache Kafka</a><ol>
+<li><a href="#kafka-tools">Kafka Tools</a></li>
+<li><a href="#strimzi-kubernetes-operator-for-apache-kafka">Strimzi kubernetes operator for apache kafka</a></li>
+<li><a href="#apache-kafka-desktop-clients">Apache Kafka Desktop Clients</a></li>
+</ol>
+</li>
+<li><a href="#aws-kinesis">AWS Kinesis</a></li>
+<li><a href="#mqtt">MQTT</a></li>
+<li><a href="#banzai-cloud-supertubes-cloud-native-kafka-implementation">Banzai Cloud Supertubes (Cloud Native Kafka implementation)</a></li>
+<li><a href="#confluent-cloud-apache-kafka-re-engineered-for-the-cloud">Confluent Cloud (Apache Kafka Re-engineered for the Cloud)</a></li>
+<li><a href="#redpanda-kafka-alternative-a-modern-streaming-platform-for-mission-critical-workloads">Redpanda (kafka alternative). A modern streaming platform for mission critical workloads</a><ol>
+<li><a href="#ksqldb">KsqlDB</a></li>
+</ol>
+</li>
+<li><a href="#apache-pulsar">Apache Pulsar</a></li>
+<li><a href="#apache-flink">Apache Flink</a></li>
+<li><a href="#hazelcast-jet">Hazelcast JET</a></li>
+<li><a href="#postgress-as-message-queue">Postgress as message queue</a></li>
+</ol>
+</li>
+<li><a href="#workflow-engines">Workflow Engines</a><ol>
+<li><a href="#zeebe">Zeebe</a></li>
+<li><a href="#apache-airflow">Apache Airflow</a></li>
+<li><a href="#couler">Couler</a></li>
+</ol>
+</li>
+<li><a href="#red-hat-amq-activemq-artemis-broker-and-apache-kafka">Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)</a><ol>
+<li><a href="#red-hat-amq-broker-activemq-artemis">Red Hat AMQ Broker (ActiveMQ Artemis)</a></li>
+<li><a href="#red-hat-amq-streams">Red Hat AMQ Streams</a></li>
+<li><a href="#slides-of-red-hat-amq-streams">Slides of Red Hat AMQ Streams</a></li>
+</ol>
+</li>
+<li><a href="#open-data-hub-ai-as-a-service-aiaas-platform">Open Data Hub AI-as-a-Service (AIaaS) platform</a></li>
+<li><a href="#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data">Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data</a><ol>
+<li><a href="#ipaas-vendors">IpaaS Vendors</a></li>
+</ol>
+</li>
+<li><a href="#ebooks">eBooks</a></li>
+<li><a href="#related">Related</a></li>
+<li><a href="#questions-and-answers">Questions and Answers</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming">Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming<a class="headerlink" href="#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Message_broker">Wikipedia: Message Broker</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Event-driven_messaging">Wikipedia: Event-driven messaging</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Streaming_data">Wikipedia: Streaming Data</a></li>
+<li><a href="https://www.nginx.com/blog/event-driven-data-management-microservices/">nginx.com: Event-Driven Data Management for Microservices 🌟</a></li>
+<li><a href="https://dzone.com/articles/event-driven-architecture-as-a-strategy">dzone: Event-Driven Architecture as a Strategy</a> Event-driven architecture provides five key benefits to modern application architecture: scalability, resilience, agility, data sharing, and cloud enabling.</li>
+<li><a href="https://www.infoq.com/articles/event-driven-finding-seams/">infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Enterprise_service_bus">wikipedia: Enterprise service bus</a></li>
+<li><a href="https://thenewstack.io/the-rise-of-the-event-streaming-database/">thenewstack.io: The Rise of the Event Streaming Database 🌟</a></li>
+<li><a href="https://www.cncf.io/blog/2020/11/03/the-need-for-kubernetes-native-messaging-platform-in-hybrid-cloud-environment/">cncf.io: The need for Kubernetes Native Messaging Platform in Hybrid Cloud Environment</a></li>
+<li><a href="https://wiprodigital.com/2020/11/10/a-guide-to-enterprise-event-driven-architecture/">wiprodigital.com: A Guide to Enterprise Event-Driven Architecture</a></li>
+<li><a href="https://medium.com/microservicegeeks/introduction-to-event-driven-architecture-e94ef442d824">medium: Introduction to Event-Driven Architecture 🌟</a> The essential concepts that every developer should know</li>
+<li><a href="https://www.ibm.com/cloud/architecture/architecture/practices/event-driven-cloud-native-apps-architecture">ibm.com: Event-driven cloud-native applications (microservices)</a> The event backbone is being part of the microservices mesh, providing the publish-and-subscribe communication between microservices and enabling the support of loosely coupled event-driven microservices.</li>
+<li><a href="https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems/">stackoverflow.blog: How event-driven architecture solves modern web app problems 🌟</a> In this article, we’ll discuss some of the problems driving innovation in modern web development. Then we’ll dive into the basics of event-driven architecture (EDA), which tries to address these problems by thinking about back-end architecture in a novel way.</li>
+<li><a href="https://sebalopezz.medium.com/monolith-to-microservices-event-driven-architecture-ff4284bf4ecf">sebalopezz.medium.com: Monolith to Microservices + Event-Driven Architecture 🌟</a></li>
+<li><a href="https://www.confluent.io/resources/event-driven-microservices/">confluent.io: Event-Driven Microservices Architecture (white paper) 🌟</a> Microservices are an architectural pattern that structures an application as a collection of small, loosely coupled services that operate together to achieve a common goal. Because they work independently, they can be added, removed, or upgraded without interfering with other applications. While there are numerous benefits to microservices architecture, like easier deployment and testing, improved productivity, flexibility, and scalability, they also pose a few disadvantages, as independently run microservices require a seamless method of communication to operate as one larger application. Event-driven microservices allow for real-time microservices communication, enabling data to be consumed in the form of events before they’re even requested. In this white paper, we’ll cover how event-driven microservices work, presenting a sample currency exchange platform to illustrate the design and architecture of an application composed of event-driven microservices using Apache Kafka® and Confluent Platform. We also discuss other aspects of microservices architectures, such as team structure, continuous delivery, deployment, and testing. Lastly, we discuss how Apache Kafka and Confluent Platform enable and extend core principles of microservices, including decoupling, separation of concerns, agility, and real-time streaming of event data.</li>
+<li><a href="https://www.redhat.com/architect/event-driven-architecture-essentials">redhat.com: Event-driven architecture: Understanding the essential benefits 🌟</a> Event-driven architectures bring significant benefits when managing many endpoints, but it also has its complexities to be aware of.</li>
+<li><a href="https://medium.com/hookdeck/introduction-to-message-queues-20d00373cc1f">medium: Introduction to Message Queues 🌟</a></li>
+<li><a href="https://headspring.com/2019/07/09/kafka-or-rabbitmq-messaging/">headspring.com: Is Kafka or RabbitMQ the right messaging tool for you?</a></li>
+<li><a href="https://www.baeldung.com/pub-sub-vs-message-queues">baeldung.com: Pub-Sub vs. Message Queues 🌟</a></li>
+<li><a href="https://engineering.atspotify.com/2016/02/25/spotifys-event-delivery-the-road-to-the-cloud-part-i/">engineering.atspotify.com: Spotify’s Event Delivery – The Road to the Cloud (Part I)</a></li>
+<li><a href="https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2">==medium: Monolithic to Microservices Architecture with Patterns &amp; Best Practices== 🌟</a></li>
+<li><a href="https://www.infoq.com/articles/microservices-inside-out/">infoq.com: Turning Microservices Inside-Out</a></li>
+<li><a href="https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5">towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟</a> Scalable and efficient data pipelines are as important for the success of analytics, data science, and machine learning as reliable supply lines are for winning a war.</li>
+<li><a href="https://dzone.com/articles/restful-applications-in-an-event-driven-architecture">dzone: RESTful Applications in An Event-Driven Architecture</a> Hybrid architecture with both RESTful and event-driven services.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared">developers.redhat.com: Distributed transaction patterns for microservices compared</a></li>
+<li><a href="https://thenewstack.io/the-rise-of-event-driven-architecture/">thenewstack.io: The Rise of Event-Driven Architecture</a></li>
+<li><a href="https://jinwookim928.medium.com/intro-to-event-driven-architecture-79914e5969d7">jinwookim928.medium.com: Why Not Event Driven Architecture?</a></li>
+<li>
+<p><a href="https://thenewstack.io/streaming-data-and-the-modern-real-time-data-stack/">thenewstack.io: Streaming Data and the Modern Real-Time Data Stack</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"><strong>Modern Data Stack</strong></th>
+<th style="text-align: left;"><strong>Modern Real-Time Data Stack</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Language</td>
+<td style="text-align: left;">SQL</td>
+<td style="text-align: left;">SQL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Deployment</td>
+<td style="text-align: left;">Cloud-native</td>
+<td style="text-align: left;">Cloud-native</td>
+</tr>
+<tr>
+<td style="text-align: left;">Data Ops</td>
+<td style="text-align: left;">Complex batch transformations every 15 minutes, hourly or daily</td>
+<td style="text-align: left;">Simple incremental transformations every second</td>
+</tr>
+<tr>
+<td style="text-align: left;">Insights</td>
+<td style="text-align: left;">Monthly, Weekly or Daily</td>
+<td style="text-align: left;">Instantly</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cost</td>
+<td style="text-align: left;">Affordable at massive scale</td>
+<td style="text-align: left;">Affordable at massive scale and speed</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><a href="https://blog.direktiv.io/event-driven-orchestration-with-knative-part-1-fbdcc0e2ea03">blog.direktiv.io: Event driven orchestration with Knative (part 1)</a></p>
+</li>
+<li><a href="https://blog.direktiv.io/redefining-event-driven-orchestration-for-automation-applications-ec07d79f21c0">blog.direktiv.io: Redefining event-driven orchestration for automation &amp; applications</a></li>
+<li><a href="https://pub.towardsai.net/software-engineering-baa4e7a8015c">pub.towardsai.net: Deep Dive into Event-Driven architecture | Gul Ershad</a></li>
+<li><a href="https://www.developer.com/design/event-driven-microservices/">developer.com: An Introduction to Event Driven Microservices</a></li>
+<li><a href="https://dzone.com/articles/microservices-and-the-event-aggregator-pattern">dzone.com: What Are Microservices and The Event Aggregator Pattern? 🌟</a> Learn about the Event Aggregator pattern for organizing event communication in a microservices architecture with an example.</li>
+<li><a href="https://www.ibm.com/cloud/architecture/architecture/practices/event-driven-cloud-native-apps-architecture/">ibm.com: Event-driven cloud-native applications (microservices)</a> The event backbone is being part of the microservices mesh, providing the publish-and-subscribe communication between microservices and enabling the support of loosely coupled event-driven microservices.</li>
+<li><a href="https://irfanyusanif.medium.com/how-to-communicate-between-microservices-7956ed68a99a">irfanyusanif.medium.com: Best practices to communicate between microservices</a></li>
+<li><a href="https://swapnil-chougule.medium.com/rapid-feature-engineering-through-sql-a92b0926683d">swapnil-chougule.medium.com: Rapid Feature Engineering through SQL</a></li>
+<li><a href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-">==blog.twitter.com: Processing billions of events in real time at Twitter==</a></li>
+<li><a href="https://codeopinion.com/event-sourcing-vs-event-driven-architecture/">codeopinion.com: Event Sourcing vs Event Driven Architecture</a></li>
+<li><a href="https://thenewstack.io/the-path-to-getting-the-full-data-stack-on-kubernetes/">thenewstack.io: The Path to Getting the Full Data Stack on Kubernetes</a></li>
+<li><a href="https://medium.com/tinyclues-vision/4-design-principles-for-robust-data-pipelines-5bbd40de4a43">medium.com/tinyclues-vision: 4 Design Principles for Robust Data Pipelines</a> Design Principles for traditional Software Engineering quickly fail when working with large and diverse sets of data — a new way of thinking about this difference.</li>
+<li><a href="https://medium.com/fiverr-engineering/how-to-share-data-between-microservices-on-high-scale-ab2bc663898d">medium.com/fiverr-engineering: How to Share Data Between Microservices on High Scale</a> Several approaches suitable for a scalable system considering tradeoffs between availability and consistency</li>
+<li><a href="https://medium.com/codex/microservices-communication-queues-topics-and-streams-597664d4b786">medium.com/codex: Microservices Communication — Queues Topics and Streams</a> In this article, I will speak about types of messages broker that are famous in microservices communication.</li>
+<li><a href="https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4">blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟</a> 6 Reasons where you need to use Event Sourcing in Micro-services</li>
+<li><a href="https://emirayhan.medium.com/what-is-the-difference-message-queue-and-message-bus-7f2e2867eff6">==emirayhan.medium.com: What is the difference Message Queue and Message Bus?== 🌟</a></li>
+<li><a href="https://verraes.net/2019/05/ddd-msg-arch/">verraes.net: DDD and Messaging Architectures 🌟</a> <strong>An overview of my different series on patterns in distributed systems. A good collection of Messaging Patterns</strong></li>
+<li><a href="https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb">medium.com/event-driven-utopia: Comparing Stateful Stream Processing and Streaming Databases</a> How do these two technologies work? how do they differ, and when is the right time to use them?</li>
+<li><a href="https://thenewstack.io/how-to-get-started-with-data-streaming/">thenewstack.io: How to Get Started with Data Streaming</a> With Kafka and associated tools, developers can create stream-processing pipelines that transform data for real-time applications.</li>
+<li><a href="https://www.linkedin.com/pulse/how-move-from-wait-batch-processing-culture-get-now-tomsen-bukovec/">linkedin.com: How to Move From a “Wait for it...” Batch-Processing Culture to a “Get It Now” Real-Time Data Culture</a></li>
+<li><a href="https://dzone.com/articles/messaging-for-multicloud-resilience">dzone: Resilient MultiCloud Messaging</a> Messaging becomes an important technical option when operating solutions span clouds, hybrid deployments, and even inter-application and inter-process communication.</li>
+<li><a href="https://juhache.substack.com/p/from-data-engineer-to-yaml-engineer-ed2">juhache.substack.com: From Data Engineer to YAML Engineer</a></li>
+</ul>
+<h2 id="rpc-vs-messaging">RPC vs Messaging<a class="headerlink" href="#rpc-vs-messaging" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://particular.net/blog/rpc-vs-messaging-which-is-faster">particular.net: RPC vs. Messaging – which is faster?</a></li>
+</ul>
+<h2 id="tibco-business-works-bwce">Tibco Business Works BWCE<a class="headerlink" href="#tibco-business-works-bwce" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://medium.com/dev-jam/tibco-bw-vs-apache-camel-9552a5f4e6be">medium.com/dev-jam: TIBCO Business Works vs. Apache Camel — A short Comparison 🌟</a><ul>
+<li>ESB stands for Enterprise Service Bus. It is an architecture pattern that enables disparate applications to connect seamlessly with each other. Under the hood, ESB uses an integration tool, more commonly known as middleware. Integration or Middleware tools have capabilities such as data transformation (such as XML to JSON), protocol transformation (like FTP to HTTP), content-based message routing and service orchestration. Many vendors converted this concept into an ESB product with standard connectors</li>
+<li>In this blog, I will compare two such integration tools, one which I have worked extensively i.e TIBCO BW and the de facto open source integration framework Apache Camel. I choose open source as it has a bright future and becoming very popular among many enterprises. I did not choose Mule ESB because it is not completely open-source as its most vital components come under a licensed enterprise version.</li>
+</ul>
+</li>
+</ul>
+<h2 id="message-brokers">Message Brokers<a class="headerlink" href="#message-brokers" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://activemq.apache.org/">Apache ActiveMQ</a></li>
+<li><a href="https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk">Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ</a></li>
+<li><a href="https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs">Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/07/31/choosing-the-right-asynchronous-messaging-infrastructure-for-the-job/">developers.redhat.com: Choosing the right asynchronous-messaging infrastructure for the job</a></li>
+<li><a href="https://www.kai-waehner.de/blog/2022/01/28/when-to-use-apache-camel-vs-apache-kafka-for-etl-application-integration-event-streaming/">==kai-waehner.de: When to use Apache Camel vs. Apache Kafka?== 🌟</a> Should I use Apache Camel or Apache Kafka for my next integration project? The question is very valid and comes up regularly. This blog post explores both open-source frameworks and explains the difference between application integration and event streaming. The comparison discusses when to use Kafka or Camel, when to combine them, when not to use them at all. A decision tree shows how you can quickly qualify out one for the other.</li>
+</ul>
+<h3 id="activemq-message-broker">ActiveMQ message broker<a class="headerlink" href="#activemq-message-broker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://activemq.apache.org/components/classic/">ActiveMQ 5.x "classic"</a></li>
+<li><a href="https://activemq.apache.org/components/artemis/">ActiveMQ Artemis</a> Apache ActiveMQ is a subproject of Apache ActiveMQ. It has been donated to the Apache Software Foundation in 2015. There were lots of changes in project names in the past. The Artemis project first started as JBoss Messaging and got renamed to HornetQ in August 2009.</li>
+<li><a href="https://github.com/apache/activemq-artemis">Apache Artemis JMeter</a> Running the ActiveMQ Artemis JMeter Performance Testing Examples.</li>
+<li><a href="https://developers.redhat.com/articles/2021/06/30/implementing-apache-activemq-style-broker-meshes-apache-artemis">developers.redhat.com: Implementing Apache ActiveMQ-style broker meshes with Apache Artemis</a></li>
+</ul>
+<h3 id="rabbitmq-message-broker">RabbitMQ message broker<a class="headerlink" href="#rabbitmq-message-broker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6">K8s prevent queue worker Pod from being killed during deployment</a> How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?</li>
+<li><a href="https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793">medium.com: <strong>RabbitMQ vs. Kafka</strong></a> An architect’s dilemma</li>
+<li><a href="https://blog.rabbitmq.com/posts/2021/07/rabbitmq-streams-first-application/">blog.rabbitmq.com: First Application With RabbitMQ Streams</a></li>
+<li><a href="https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs/">geshan.com.np: How to use RabbitMQ and Node.js with Docker and Docker-compose</a></li>
+<li><a href="https://salaboy.com/2022/01/29/event-driven-applications-with-cloudevents-on-kubernetes/">salaboy.com: Event-Driven applications with CloudEvents on Kubernetes</a></li>
+<li><a href="https://medium.com/@paolo.gazzola/deploy-a-rabbitmq-cluster-in-an-on-premise-kubernetes-multi-node-cluster-enviroment-5dd71d84dafc">medium.com/@paolo.gazzola: How to deploy a high available and fault tolerant RabbitMQ service in an on-premise Kubernetes multi-node cluster environment</a></li>
+</ul>
+<h3 id="redis-message-broker">Redis message broker<a class="headerlink" href="#redis-message-broker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://redis.io/">Redis</a></li>
+<li><a href="https://redis.io/topics/pubsub">Redis Pub/sub</a></li>
+<li><a href="https://betterprogramming.pub/the-perfect-message-queue-solution-based-on-the-redis-stream-type-ccf273554178">betterprogramming.pub: The Perfect Message Queue Solution Based on the Redis Stream Type</a></li>
+</ul>
+<h3 id="apache-camel-message-broker">Apache Camel message broker<a class="headerlink" href="#apache-camel-message-broker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://camel.apache.org/">Apache Camel</a> Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data. In version 3 we use &lt;5MB memory, including the JVM. Also reflection free, low GC, super modular, native compilation friendly.</li>
+<li><a href="https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka">Quora.com: What's the difference between Apache Camel and Kafka?</a></li>
+<li><a href="https://dzone.com/articles/building-a-hybrid-multi-cloud-event-mesh-demo-with">dzone: Hybrid multi-cloud event mesh architectural design</a> Building the event mesh with Camel</li>
+<li><a href="https://developers.redhat.com/articles/2021/05/17/integrating-systems-apache-camel-and-quarkus-red-hat-openshift">developers.redhat.com: Integrating systems with Apache Camel and Quarkus on Red Hat OpenShift</a></li>
+</ul>
+<h4 id="apache-camel-k">Apache Camel K<a class="headerlink" href="#apache-camel-k" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://camel.apache.org/camel-k/latest/">Apache Camel K</a> is a lightweight cloud-integration platform that runs natively on Kubernetes. Based on the famous Apache Camel, Camel K is designed and optimized for serverless and microservices architectures.</li>
+<li><a href="https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k/">developers.redhat.com: Six reasons to love Camel K</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/05/19/extending-kafka-connectivity-with-apache-camel-kafka-connectors/">developers.redhat.com: Extending Kafka connectivity with Apache Camel Kafka connectors</a></li>
+<li><a href="https://developers.redhat.com/blog/2021/04/02/design-event-driven-integrations-with-kamelets-and-camel-k">developers.redhat.com: Design event-driven integrations with Kamelets and Camel K</a></li>
+<li><a href="https://thenewstack.io/camel-k-brings-apache-camel-to-kubernetes-for-event-driven-architectures/">thenewstack.io: Camel K Brings Apache Camel to Kubernetes for Event-Driven Architectures</a></li>
+<li><a href="https://github.com/osa-ora/camel-k-samples">github.com/osa-ora/camel-k-samples</a></li>
+</ul>
+<h3 id="kubemq-message-broker">KubeMQ message broker<a class="headerlink" href="#kubemq-message-broker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://kubemq.io/">KubeMQ.io: Kubernetes Native Message Queue Broker</a></li>
+<li><a href="https://devops.com/implementing-message-queue-in-kubernetes/">devops.com: Best of 2019: Implementing Message Queue in Kubernetes</a></li>
+<li><a href="https://kubemq.io/kafka-vs-kubemq/">kubemq.io: Kafka VS KubeMQ 🌟</a></li>
+<li><a href="https://github.com/kubemq-io/kubemq-community">github.com/kubemq-io/kubemq-community 🌟</a> KubeMQ community version is now available as an open-source project!</li>
+<li><a href="https://dzone.com/articles/seamless-migration-from-kafka-to-kubemq">dzone: KubeMQ: A Modern Alternative to Kafka</a> This article introduces a modern, Kubernetes-native message queue called KubeMQ, to show how organizations trying to implement Kafka on Kubernetes can benefit from it.</li>
+</ul>
+<h3 id="google-cloud-platform-pubsub">Google Cloud Platform Pub/Sub<a class="headerlink" href="#google-cloud-platform-pubsub" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://cloud.google.com/pubsub/docs/overview">Google Cloud Platform Pub/Sub</a></li>
+</ul>
+<h3 id="jms-message-queue-vs-apache-kafka">JMS Message Queue vs. Apache Kafka<a class="headerlink" href="#jms-message-queue-vs-apache-kafka" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/">==kai-waehner.de: Comparison: JMS Message Queue vs. Apache Kafka==</a></li>
+</ul>
+<h2 id="cloud-based-integration-integration-platform-as-a-service-ipaas-solutions">Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions<a class="headerlink" href="#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cloud-based_integration">Wikipedia: Cloud Based Integration (iPaaS)</a></li>
+<li>Integration Platform as a Service (iPaaS) is a suite of cloud services enabling development, execution and governance of integration flows connecting any combination of on premises and cloud-based processes, services, applications and data within individual or across multiple organizations.</li>
+<li>Integration platform as a service (iPaaS) is a set of automated tools for connecting software applications that are deployed in different environments. iPaaS is often used by large business-to-business (B2B) enterprises that need to integrate on-premises applications and data with cloud applications and data.</li>
+<li><a href="https://blog.axway.com/hybrid-integration/whats-ipaas">blog.axway.com: What is iPaaS?</a></li>
+<li><a href="https://www.ibm.com/cloud/learn/ipaas">ibm.com: iPaaS (Integration-Platform-as-a-Service)</a>: iPaaS is a cloud-based solution that simplifies application integration across on-premises and cloud environments, to help you accelerate innovation and lower your integration and operations costs.</li>
+</ul>
+<h3 id="red-hat-fuse-and-red-hat-fuse-online">Red Hat Fuse and Red Hat Fuse Online<a class="headerlink" href="#red-hat-fuse-and-red-hat-fuse-online" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/jboss-middleware/fuse"><strong>Red Hat Fuse</strong></a></li>
+</ul>
+<h3 id="syndesis-open-source-integration-platform">Syndesis open source integration platform<a class="headerlink" href="#syndesis-open-source-integration-platform" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://syndesis.io/"><strong>Syndesis</strong> open source integration platform</a> (OpenSource Project for <strong>Red Hat Fuse Online</strong>)</li>
+<li><a href="https://developers.redhat.com/blog/2020/03/25/low-code-microservices-orchestration-with-syndesis/">developers.redhat.com: Low-code microservices orchestration with Syndesis</a></li>
+</ul>
+<h2 id="debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern">Debezium open source distributed platform for Change Data Capture (CDC) software design pattern<a class="headerlink" href="#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Change Data Capture</strong>, or <strong>CDC</strong>, is a well-established <strong>software design pattern</strong> for a system that monitors and captures the changes in data so that other software can respond to those changes. CDC captures row-level changes to database tables and passes corresponding change events to a data streaming bus. Applications can read these change event streams and access these change events in the order in which they occurred.</li>
+<li><a href="https://debezium.io/"><strong>Debezium</strong>:</a> Stream changes from your database</li>
+<li><a href="https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium/">developers.redhat.com: Decoupling microservices with Apache Camel and Debezium</a></li>
+<li><a href="https://medium.com/trendyol-tech/transaction-log-tailing-with-debezium-part-1-aeb968d72220">A good explanation of how to avoid distributed transactions using outbox pattern: Transaction Log Tailing With Debezium</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/04/14/capture-database-changes-with-debezium-apache-kafka-connectors/">developers.redhat.com: Capture database changes with Debezium Apache Kafka connectors</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/05/15/change-data-capture-for-microservices-without-writing-any-code/">developers.redhat.com: Change data capture for microservices without writing any code</a></li>
+<li><a href="https://debezium.io/blog/2020/02/25/lessons-learned-running-debezium-with-postgresql-on-rds/">debezium.io: Lessons Learned from Running Debezium with PostgreSQL on Amazon RDS</a></li>
+<li><a href="https://info.crunchydata.com/blog/postgresql-change-data-capture-with-debezium">info.crunchydata.com: PostgreSQL Change Data Capture With Debezium</a></li>
+<li><a href="https://medium.com/comsystoreply/stream-your-database-into-kafka-with-debezium-a94b2f649664">medium.com: Stream Your Database into Kafka with Debezium</a> An Introduction and Experience Report. Insightful post by David Hettler of
+comsysto about their usage of Debezium, touching on many details like outbox pattern, Avro schemas, Postgres on RDS etc.</li>
+<li><a href="https://noti.st/morsapaes/liQzgs/change-data-capture-with-flink-sql-and-debezium">noti.st: Change Data Capture with Flink SQL and Debezium 🌟</a></li>
+<li><a href="https://vladmihalcea.com/a-beginners-guide-to-cdc-change-data-capture/">vladmihalcea.com: A beginner’s guide to CDC (Change Data Capture)</a></li>
+<li><a href="https://shopify.engineering/capturing-every-change-shopify-sharded-monolith">shopify.engineering: Capturing Every Change From Shopify’s Sharded Monolith</a></li>
+<li><a href="https://developers.redhat.com/blog/2021/03/25/db2-and-oracle-connectors-coming-to-debezium-1-4-ga">developers.redhat.com: Db2 and Oracle connectors coming to Debezium 1.4 GA</a></li>
+<li><a href="https://medium.com/geekculture/change-data-capture-using-debezium-ec48631d643a">medium: Change Data Capture — Using Debezium</a></li>
+<li><a href="https://daily.dev/blog/building-a-fault-tolerant-event-driven-architecture-with-google-cloud-pulumi-and-debezium">daily.dev: Building a fault-tolerant event-driven architecture with Google Cloud, Pulumi and Debezium</a></li>
+<li><a href="https://pradeepdaniel.medium.com/real-time-change-data-replication-to-snowflake-using-kafka-and-debezium-d6ebb0d4eb29">pradeepdaniel.medium.com: Creating an ETL data pipeline to sync data to Snowflake using Kafka and Debezium</a> Setting up a real-time data pipeline from scratch to sync data from transactional databases to Snowflake cloud warehouse.</li>
+<li><a href="https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8">medium: A Visual Introduction to Debezium 🌟</a> A story-based introduction to understanding what Debezium is, how it is made of, and how it works in a real-world scenario</li>
+<li><a href="https://debezium.io/blog/2021/10/20/using-debezium-create-data-lake-with-apache-iceberg/">debezium.io: Using Debezium to Create a Data Lake with Apache Iceberg</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/12/06/improve-your-kafka-connect-builds-debezium#build_a_debezium_kafka_connect_image_with_a_custom_resource">developers.redhat.com: Improve your Kafka Connect builds of Debezium.</a> A Kubernetes native way of building Kafka Connect images in Debezium 1.6</li>
+</ul>
+<h2 id="red-hat-integration-service-registry-and-apicurio">Red Hat Integration service registry and Apicurio<a class="headerlink" href="#red-hat-integration-service-registry-and-apicurio" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/">Red Hat Integration service registry</a></li>
+<li><a href="https://github.com/apicurio/apicurio-registry"><strong>Apicurio</strong> Registry</a> An API/Schema registry - stores APIs and Schemas.</li>
+<li><a href="https://developers.redhat.com/blog/2020/06/12/event-streaming-and-data-federation-a-citizen-integrators-story/">Event streaming and data federation: A citizen integrator’s story</a></li>
+<li><a href="https://www.redhat.com/architect/schema-registry">redhat.com: Using a schema registry to ensure data consistency between microservices</a> Make interservice communication easier by using a schema registry.</li>
+</ul>
+<h2 id="data-mesh">Data Mesh<a class="headerlink" href="#data-mesh" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://martinfowler.com/articles/data-mesh-principles.html">martinfowler.com: Data Mesh Principles and Logical Architecture</a></li>
+<li><a href="https://www.infoq.com/news/2020/12/data-mesh-architecture/">infoq.com: Data Mesh Principles and Logical Architecture Defined</a></li>
+<li><a href="https://martinfowler.com/articles/data-monolith-to-mesh.html">martinfowler.com: How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh</a></li>
+<li><a href="https://towardsdatascience.com/data-domains-and-data-products-64cc9d28283e">towardsdatascience.com: Data Domains and Data Products</a> Practical guidance from the field</li>
+<li><a href="https://mrpaulandrew.com/2021/12/22/building-a-data-mesh-architecture-in-azure-part-2/">mrpaulandrew.com: BUILDING A DATA MESH ARCHITECTURE IN AZURE – PART 2</a></li>
+</ul>
+<h2 id="data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline">Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)<a class="headerlink" href="#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/manuzhang/awesome-streaming">Awesome Streaming</a> A curated list of awesome <a href="https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/">streaming (stream processing)</a> frameworks, applications, readings and other resources.</li>
+<li><a href="https://cloudblog.withgoogle.com/products/data-analytics/create-templates-from-any-dataflow-pipeline/amp/">cloudblog.withgoogle.com: Turn any Dataflow pipeline into a reusable template</a></li>
+<li><a href="https://thenewstack.io/part-1-the-evolution-of-data-pipeline-architecture/">thenewstack.io: Part 1: The Evolution of Data Pipeline Architecture</a></li>
+<li><a href="https://www.satishchandragupta.com/tech/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud.html">satishchandragupta.com: Scalable Efficient Big Data Pipeline Architecture</a></li>
+<li><a href="https://www.openshift.com/blog/how-to-orchestrate-data-pipelines-with-applications-deployed-on-openshift">openshift.com: How to Orchestrate Data Pipelines with Applications Deployed on OpenShift</a></li>
+</ul>
+<h3 id="apache-kafka">Apache Kafka<a class="headerlink" href="#apache-kafka" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://kafka.apache.org/">Apache Kafka</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/">developers.redhat.com: Using secrets in Kafka Connect configuration</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/04/14/capture-database-changes-with-debezium-apache-kafka-connectors/">developers.redhat.com: Capture database changes with Debezium Apache Kafka connectors</a></li>
+<li><a href="https://github.com/monksy/awesome-kafka/blob/master/tools.md">Awesome Kafka</a></li>
+<li><a href="https://www.morling.dev/blog/single-message-transforms-swiss-army-knife-of-kafka-connect/">Single Message Transformations - The Swiss Army Knife of Kafka Connect</a></li>
+<li><a href="https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776">medium: Logs &amp; Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake</a> Replacing Apache Airflow with Debezium.</li>
+<li><a href="https://medium.com/swlh/apache-kafka-startup-guide-system-design-architectures-notification-system-web-activity-tracker-6dcaf0cf8a7">medium: Apache Kafka Startup Guide: System Design Architectures: Notification System, Web Activity Tracker, ELT Pipeline, Storage System 🌟</a></li>
+<li><a href="https://medium.com/swlh/getting-started-with-kafka-on-openshift-c44c0fdec384">medium: Getting Started With Kafka on OpenShift</a></li>
+<li><a href="https://containerjournal.com/topics/container-management/red-hat-platform-brings-kafka-closer-to-kubernetes/">containerjournal.com: Red Hat Platform Brings Kafka Closer to Kubernetes</a></li>
+<li><a href="http://web.archive.org/web/20241113105415/https://www.lightbend.com/blog/monitor-kafka-consumer-group-latency-with-kafka-lag-exporter">lightbend.com: Monitor Kafka Consumer Group Latency with Kafka Lag Exporter [ARCHIVED]</a></li>
+<li><a href="https://github.com/tchiotludo/akhq">AKHQ (previously known as KafkaHQ) 🌟</a> Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry, connect and more...</li>
+<li><a href="https://banzaicloud.com/blog/kafka-schemareg/">banzaicloud.com: Kafka Schema Registry on Kubernetes the declarative way</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/07/02/build-a-simple-cloud-native-change-data-capture-pipeline/">Build a simple cloud-native change data capture pipeline</a></li>
+<li><a href="https://banzaicloud.com/blog/supertubes-focal/">banzaicloud.com: Bulletproof Kafka, and the tale of an Amazon outage</a>=</li>
+<li><a href="https://www.confluent.fr/blog/modernize-apps-and-infrastructure-with-anthos-confluent-kafka/">confluent.fr: Infrastructure Modernization with Google Anthos and Apache Kafka</a></li>
+<li><a href="https://www.confluent.io/blog/kafka-devops-with-confluent-kubernetes-and-gitops/">confluent.io: Apache Kafka DevOps with Kubernetes and GitOps</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/09/28/build-a-data-streaming-pipeline-using-kafka-streams-and-quarkus/">Build a data streaming pipeline using Kafka Streams and Quarkus</a></li>
+<li><a href="https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067">levelup.gitconnected.com: Kafka for Engineers 🌟</a> Here are things about Kafka that you need to understand as a software engineer.</li>
+<li><a href="https://www.confluent.io/blog/build-deploy-scalable-machine-learning-production-apache-kafka/">confluent.io: How to Build and Deploy Scalable Machine Learning in Production with Apache Kafka</a></li>
+<li><a href="https://banzaicloud.com/blog/kafka-on-etcd/">banzaicloud.com: Kafka on Kubernetes - using etcd 🌟</a></li>
+<li><a href="https://softwareengineeringdaily.com/2020/12/16/kafka-applications-with-tim-berglund-repeat/">softwareengineeringdaily.com: Kafka Applications with Tim Berglund (podcast) 🌟</a></li>
+<li><a href="https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776">medium: Logs &amp; Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake</a></li>
+<li><a href="https://www.infoq.com/articles/database-audit-system-kafka/">infoq.com: Building a SQL Database Audit System using Kafka, MongoDB and Maxwell's Daemon</a></li>
+<li><a href="https://www.tecmint.com/install-apache-kafka-in-centos-rhel/">tecmint: How to Install Apache Kafka in CentOS/RHEL 7</a></li>
+<li><a href="https://medium.com/@andy.bryant/processing-guarantees-in-kafka-12dd2e30be0e">medium: Processing guarantees in Kafka</a> "Duplicates and lost messages are due not only to features of the messaging systems, but in the design of producer and consumer applications as well." One of the best posts on processing guarantees in kafka.</li>
+<li><a href="https://davidxiang.com/2021/01/10/kafka-as-a-database/">davidxiang.com: Kafka As A Database? Yes Or No</a></li>
+<li><a href="https://medium.com/pinterest-engineering/how-pinterest-runs-kafka-at-scale-ff9c6f735be">medium: How Pinterest runs Kafka at scale</a></li>
+<li><a href="https://medium.com/google-cloud/google-pub-sub-lite-for-kafka-users-dec8a7cfc5e5">medium: Google Pub/Sub Lite for Kafka Users</a></li>
+<li><a href="https://medium.com/wix-engineering/4-microservices-caching-patterns-at-wix-b4dfee1ae22f">medium: 4 Microservices Caching Patterns at Wix</a></li>
+<li><a href="https://www.confluent.io/blog/apache-kafka-intro-how-kafka-works/">Confluent.io: Intro to Apache Kafka: How Kafka Works 🌟</a></li>
+<li><a href="https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067">levelup.gitconnected.com: Kafka for Engineers</a></li>
+<li><a href="https://medium.com/digitalfrontiers/microservices-in-rust-with-kafka-2b671295b24e">medium: Microservices in Rust with Kafka</a></li>
+<li><a href="https://medium.com/swlh/apache-kafka-in-a-nutshell-5782b01d9ffb">medium: Apache Kafka in a Nutshell 🌟</a> Architecture, Use Cases, and a Getting Started guide — rolled into one</li>
+<li><a href="https://www.confluent.io/blog/simplify-multiple-kafka-cluster-management-monitoring-using-confluent">confluent.io: Simplifying Apache Kafka Multi-Cluster Management Using Control Center and Cluster Registry</a></li>
+<li><a href="https://www.kai-waehner.de/blog/2021/03/10/apache-kafka-app-modernization-legacy-hybrid-cloud-native-architecture">kai-waehner.de: App Modernization and Hybrid Cloud Architectures with Apache Kafka</a></li>
+<li><a href="https://www.kai-waehner.de/blog/2021/03/15/apache-kafka-mqtt-sparkplug-iot-blog-series-part-1-of-5-overview-comparison/">kai-waehner.de: Apache Kafka and MQTT (Part 1 of 5) – Overview and Comparison</a></li>
+<li><a href="https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352">medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens</a></li>
+<li><a href="https://kafka-tutorials.confluent.io/">kafka-tutorials.confluent.io 🌟</a><ul>
+<li><a href="https://kafka-tutorials.confluent.io/join-a-stream-to-a-table/kstreams.html">kafka-tutorials.confluent.io: How to join a stream and a lookup table 🌟</a> If I have events in a Kafka topic and a table of reference data (aka a lookup table), how can I join each event in the stream to a piece of data in the table based on a common key?</li>
+</ul>
+</li>
+<li><a href="https://www.confluent.io/blog/devops-for-apache-kafka-with-kubernetes-and-gitops">confluent.io: DevOps for Apache Kafka with Kubernetes and GitOps 🌟</a></li>
+<li><a href="https://dzone.com/articles/microservices-event-driven-architecture-and-kafka">dzone.com: Microservices, Event-Driven Architecture and Kafka 🌟</a></li>
+<li><a href="https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8">medium: Understanding Kafka Topic Partitions</a> Everything in Kafka is modeled around partitions. They rule Kafka’s storage, scalability, replication, and message movement.</li>
+<li><a href="https://kafka-tutorials.confluent.io/how-to-count-messages-on-a-kafka-topic/ksql.html">kafka-tutorials.confluent.io: How to count messages in a Kafka topic</a></li>
+<li><a href="https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/">confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper 🌟</a></li>
+<li><a href="https://piotrminkowski.com/2021/03/31/knative-eventing-with-kafka-and-quarkus/">piotrminkowski.com: Knative Eventing with Kafka and Quarkus</a></li>
+<li><a href="https://blog.cloudera.com/scalability-of-kafka-messaging-using-consumer-groups/">blog.cloudera.com: Scalability of Kafka Messaging using Consumer Groups</a></li>
+<li><a href="https://thenewstack.io/beyond-the-quickstart-running-apache-kafka-as-a-service-on-kubernetes/">thenewstack.io: Beyond the Quickstart: Running Apache Kafka as a Service on Kubernetes</a></li>
+<li><a href="https://www.confluent.io/blog/kafka-2-8-0-features-and-improvements-with-early-access-to-kip-500/">confluent.io: What’s New in Apache Kafka 2.8</a></li>
+<li><a href="https://devclass.com/2021/04/20/apache-kafka-2-8-0-previews-life-without-zookeeper/">devclass.com: Apache Kafka 2.8.0 previews life without ZooKeeper</a></li>
+<li><a href="https://www.instaclustr.com/apache-kafka-architecture/">instaclustr.com: Apache Kafka Architecture: A Complete Guide 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=9wu-j9gIlBY&amp;list=PLa7VYi0yPIH1MB2n2w8pMZguffCDu2L4Y&amp;index=8&amp;ab_channel=Confluent">youtube playlist: Kafka Connect Tutorials | Kafka Connect 101: REST API 🌟</a> KafkaConnect uses a REST API to expose its management capabilities. tlberglund demonstrates many of the key functions available using the REST API, including creating connectors, viewing their status, and accessing troubleshooting information.</li>
+<li><a href="https://developers.redhat.com/blog/2021/05/04/event-driven-apis-and-schema-governance-for-apache-kafka-get-ready-for-kafka-summit-europe-2021/">developers.redhat.com: Event-driven APIs and schema governance for Apache Kafka: Get ready for Kafka Summit Europe 2021</a></li>
+<li><a href="https://developers.redhat.com/blog/2021/05/05/building-resilient-event-driven-architectures-with-apache-kafka/">developers.redhat.com: Building resilient event-driven architectures with Apache Kafka</a></li>
+<li><a href="https://tech.ebayinc.com/engineering/resiliency-and-disaster-recovery-with-kafka/">tech.ebayinc.com: Resiliency and Disaster Recovery with Kafka</a></li>
+<li><a href="https://newrelic.com/blog/best-practices/effective-strategies-kafka-topic-partitioning">newrelic.com: Effective Strategies for Kafka Topic Partitioning 🌟</a></li>
+<li><a href="https://www.gentlydownthe.stream/">gentlydownthe.stream</a> A children’s book about Apache Kafka.</li>
+<li><a href="https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/">confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper</a></li>
+<li><a href="https://phoenixnap.com/kb/kafka-on-kubernetes">phoenixnap.com: How to Set Up and Run Kafka on Kubernetes 🌟</a></li>
+<li><a href="https://piotrminkowski.com/2021/06/14/knative-eventing-with-quarkus-kafka-and-camel/">piotrminkowski.com: Knative Eventing with Quarkus, Kafka and Camel</a></li>
+<li><a href="https://itnext.io/configuring-kafka-sources-and-sinks-in-kubernetes-271e3757b208">itnext.io: Configuring Kafka Sources and Sinks declaratively in Kubernetes using Knative</a> This solves the complexity in work flow of compiling JARs and uploading them to a Kafka connect cluster. Using Knative it can be possible to leverage the Kubernetes cluster and define Kafka sources and sinks with Kubernetes objects.</li>
+<li><a href="https://strimzi.io/blog/2021/07/05/upgrade-improvements/">strimzi.io: Kafka upgrade improvements</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/07/07/getting-started-red-hat-openshift-streams-apache-kafka">developers.redhat.com: Getting started with Red Hat OpenShift Streams for Apache Kafka</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/07/07/managing-api-life-cycle-event-driven-architecture-practical-approach">developers.redhat.com: Managing the API life cycle in an event-driven architecture: A practical approach 🌟</a></li>
+<li><a href="https://www.baeldung.com/ops/kafka-list-active-brokers-in-cluster">baeldung.com: List Active Brokers in a Kafka Cluster Using Shell Commands 🌟</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/07/16/how-secure-apache-kafka-schemas-red-hat-integration-service-registry-20">developers.redhat.com: How to secure Apache Kafka schemas with Red Hat Integration Service Registry 2.0</a></li>
+<li><a href="https://grafana.com/blog/2021/07/26/get-comprehensive-monitoring-for-your-apache-kafka-ecosystem-instances-quickly-with-grafana-cloud/">grafana.com: Get comprehensive monitoring for your Apache Kafka ecosystem instances quickly with Grafana Cloud</a></li>
+<li><a href="https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s">dzone: Next-Gen Data Pipes With Spark, Kafka and k8s 🌟</a> This article examines the architecture patterns and provides some sample code for the readers to implement in their own environment.</li>
+<li><a href="https://www.confluent.io/blog/designing-an-elastic-apache-kafka-for-the-cloud/">confluent.io: Making Apache Kafka Serverless: Lessons From Confluent Cloud</a></li>
+<li><a href="https://developer.confluent.io/">developer.confluent.io 🌟🌟</a> over ten hours of FREE video courses with hands-on exercises, 50+ event streaming patterns, deep-dive articles on Kafka's internals, and a ton more.</li>
+<li><a href="https://itnext.io/sending-messages-to-kafka-cfb5a246f5eb">itnext.io: Sending Messages to Kafka in Kubernetes</a></li>
+<li><a href="https://cloudhut.dev/blog/2021-06-24-running-kafka-on-kubernetes/">cloudhut.dev: Running Apache Kafka on Kubernetes successfully</a> A comparison for different installation methods for running Kafka in Kubernetes</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/01/outbox-pattern-apache-kafka-and-debezium">developers.redhat.com: The outbox pattern with Apache Kafka and Debezium 🌟</a></li>
+<li><a href="https://towardsdatascience.com/overview-of-ui-tools-for-monitoring-and-management-of-apache-kafka-clusters-8c383f897e80">towardsdatascience.com: Overview of UI Tools for Monitoring and Management of Apache Kafka Clusters</a></li>
+<li><a href="https://analyticsindiamag.com/how-uber-is-leveraging-apache-kafka-for-more-than-300-micro-services/">analyticsindiamag.com: How Uber is Leveraging Apache Kafka For More Than 300 Micro Services</a></li>
+<li><a href="https://itnext.io/securely-decoupling-applications-on-amazon-eks-using-kafka-with-sasl-scram-48c340e1ffe9">itnext.io: Securely Decoupling Kubernetes-based Applications on Amazon EKS using Kafka with SASL/SCRAM</a> Securely decoupling Go-based microservices on Amazon EKS using Amazon MSK with IRSA, SASL/SCRAM, and data encryption</li>
+<li><a href="https://medium.com/transferwise-engineering/running-kafka-in-kubernetes-part-1-why-we-migrated-our-kafka-clusters-to-kubernetes-722101a2e751">medium: Running Kafka in Kubernetes, Part 1: Why we migrated our Kafka clusters to Kubernetes</a> At Wise, we chose to migrate our Apache Kafka clusters, previously running on Amazon Web Services (AWS) EC2 instances, into a multi-cluster Kubernetes setup. This article is the first part of a two-part series aiming to outline the motivations behind this choice and the challenges we faced.</li>
+<li><a href="https://betterprogramming.pub/how-to-handle-duplicate-messages-and-message-ordering-in-kafka-82e2fef82025">betterprogramming.pub: How to Handle Duplicate Messages and Message Ordering in Kafka</a> Dealing with the challenges faced when using Apache Kafka</li>
+<li><a href="https://medium.com/bakdata/optimizing-kafka-streams-apps-on-kubernetes-by-splitting-topologies-ac6b4c90516e">medium: Optimizing Kafka Streams Apps on Kubernetes by Splitting Topologies</a></li>
+<li><a href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-">blog.twitter.com: Processing billions of events in real time at Twitter</a></li>
+<li><a href="https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b">inder-devops.medium.com: Kafka- Best practices &amp; Lessons Learned | By Inder</a></li>
+<li><a href="https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/">datadoghq.com: Monitoring Kafka performance metrics</a></li>
+<li><a href="https://blog.workwell.io/how-to-manage-your-kafka-consumers-from-the-producer-9933b88085dd">blog.workwell.io: How to manage your Kafka consumers from the producer</a></li>
+<li><a href="https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components/">slack.engineering: Building Self-driving Kafka clusters using open source components</a></li>
+<li><a href="https://adam-kotwasinski.medium.com/kafka-mesh-filter-in-envoy-a70b3aefcdef">adam-kotwasinski.medium.com: Kafka mesh filter in Envoy</a></li>
+<li><a href="https://www.conduktor.io/kafka/what-is-apache-kafka">==conduktor.io: What is Apache Kafka?==</a> Learn about Apache Kafka and its ecosystem in 20 minutes.</li>
+<li><a href="https://medium.com/airwallex-engineering/kafka-streams-iterative-development-and-blue-green-deployment-fae88b26e75e">medium.com/airwallex-engineering: Kafka Streams: Iterative Development and Blue-Green Deployment</a> Blue-Green Deployment for Kafka Stream Applications.</li>
+<li><a href="https://www.redhat.com/architect/apache-kafka-EDA-performance">==redhat.com: How we use Apache Kafka to improve event-driven architecture performance==</a> <strong>When designing your event-driven architecture, consider these ways to configure Kafka to improve performance.</strong></li>
+<li><a href="https://dev.to/thegroo/running-kafka-on-kubernetes-for-local-development-2a54">dev.to: Running Kafka on kubernetes for local development</a></li>
+<li><a href="https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b">medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache Kafka</a> An overview of how to build a fault-tolerant event delivery system by using non-blocking retries of Apache Kafka® in Udemy Payments Team</li>
+<li><a href="https://www.conduktor.io/kafka">==conduktor.io/kafka: Learn Apache Kafka like never before==</a> Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.</li>
+<li><a href="https://developers.redhat.com/articles/2022/03/10/which-better-single-kafka-cluster-rule-them-all-or-many#">developers.redhat.com: Which is better: A single Kafka cluster to rule them all, or many?</a></li>
+<li><a href="https://medium.com/dna-technology/why-we-dropped-event-sourcing-with-kafka-streams-when-given-a-second-chance-b904a80bc4be">medium.com/dna-technology: Why we dropped event sourcing with Kafka Streams when given a second chance</a></li>
+<li><a href="https://www.kai-waehner.de/blog/2022/01/04/when-not-to-use-apache-kafka/">==kai-waehner.de: When NOT to use Apache Kafka?==</a></li>
+<li><a href="https://betterprogramming.pub/everything-you-need-to-know-about-kafka-a83e2456d14c">betterprogramming.pub: Everything You Need To Know About Kafka 🌟</a> A simple guide for beginners</li>
+<li><a href="https://learnk8s.io/kafka-ha-kubernetes">==learnk8s.io/kafka-ha-kubernetes: Designing and testing a highly available Kafka cluster on Kubernetes== 🌟</a> <strong>Learn how to design a Kafka cluster to achieve high availability using standard kubernetes resources and test how it tolerates maintenance and total node failures</strong></li>
+<li><a href="https://blog.developer.adobe.com/exploring-kafka-producers-internals-37411b647d0f">blog.developer.adobe.com: Exploring Kafka Producer’s Internals 🌟</a> This is the first part of a series where we explore Kafka client's internals. This post focuses on the Kafka Producer.</li>
+<li><a href="https://medium.com/altitudehq/kafka-retries-and-maintain-order-of-retry-events-313482044351">medium.com/altitudehq: Kafka retries and maintaining the order of retry events 🌟</a></li>
+<li><a href="https://medium.com/cloudnesil/kafka-streams-state-store-at-scale-390d9717b42a">medium.com/cloudnesil: Kafka Streams State Store at Scale</a> Managing Interactive Queries on multiple application instances Alternative solutions and their comparisons.</li>
+<li><a href="https://towardsdev.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5">towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster</a> In this article, you will learn how to benchmark Apache Kafka instances running on Kubernetes against parallel loads.</li>
+<li><a href="https://medium.com/@hardiktaneja_99752/lessons-after-running-kafka-in-production-626974ffd700">==medium.com/@hardiktaneja_99752: Lessons after running Kafka in production== 🌟</a> TLDR: Have atleast as many paritions (P) as max number of consumers(C), but number of partitions should always be multiple of number of consumers. P = n * C, n =1,2,3…</li>
+<li><a href="https://betterprogramming.pub/monitoring-kafkaapplications-implementing-healthchecks-and-tracking-lag-3976cc6f00d5">==betterprogramming.pub: Monitoring Kafka Applications — Implementing Healthchecks and Tracking Lag==</a> For KafkaConsumer, Streams, Spring-Kafka, Kafka-Connect</li>
+<li><a href="https://thenewstack.io/linkedin-layered-architecture-minimizes-kafka-scaling-issues/">thenewstack.io: LinkedIn Layered Architecture Minimizes Kafka Scaling Issues</a> With Kafka, too many data producers can cause issues, as can having too many data consumers. Here's how LinkedIn separated the resources to alleviate exhaustion.</li>
+<li><a href="https://developers.redhat.com/articles/2022/09/27/end-end-field-level-encryption-apache-kafka-connect">developers.redhat.com: End-to-end field-level encryption for Apache Kafka Connect</a></li>
+<li><a href="https://blog.datumo.io/setting-up-kafka-on-kubernetes-an-easy-way-26ae150b9ca8">blog.datumo.io: Setting up Kafka on Kubernetes - an easy way</a> In this article, you will learn how to create a basic deployment for Kafka (with Zookeeper) on Kubernetes</li>
+<li><a href="https://www.linkedin.com/pulse/kaka-cluster-setup-kubernetes-avinash-kumar-chandran/">==linkedin.com: Kafka Cluster Setup on Kubernetes==</a></li>
+<li><a href="https://medium.com/wix-engineering/troubleshooting-kafka-for-2000-microservices-at-wix-986ee382fd1e">medium.com/wix-engineering: Troubleshooting Kafka for 2000 Microservices at Wix</a> Debugging microservices’ event driven communication is not trivial, especially when it’s based on event streaming platforms like Apache Kafka. While scale grows more easily and the distributed system becomes more decoupled and resilient, the operational aspects become much harder.</li>
+<li><a href="https://engineering.grab.com/zero-trust-with-kafka">engineering.grab.com: Zero trust with Kafka</a></li>
+<li><a href="https://www.freecodecamp.org/news/apache-kafka-handbook/">freecodecamp.org: The Apache Kafka Handbook – How to Get Started Using Kafka 🌟</a> Apache Kafka is an open source event streaming tool that transports tons of data w/ low latency. This link covers its core concepts, how to use its CLI, &amp; how to install + build a project with it.</li>
+<li><a href="https://medium.com/@rramiz.rraza/kafka-metrics-integration-with-prometheus-and-grafana-14fe318fbb8b">medium.com/@rramiz.rraza: Kafka metrics monitoring with Prometheus and Grafana 🌟</a></li>
+<li><a href="https://rogulski.it/blog/kafka-consumer-knative-fastapi/">rogulski.it: Consume Kafka events with Knative service and FastAPI on kubernetes 🌟</a> In this article, you will learn how to build a fully scalable, event-driven and easy-to-maintain system using Python (FastAPI), Kafka, and Knative</li>
+<li><a href="https://piotrminkowski.com/2023/04/30/concurrency-with-kafka-and-spring-boot/">piotrminkowski.com: Concurrency with Kafka and Spring Boot</a></li>
+<li><a href="https://thenewstack.io/kafka-on-kubernetes-should-you-adopt-a-managed-solution/">==thenewstack.io: Kafka on Kubernetes: Should You Adopt a Managed Solution?==</a> A look at the various factors to consider when deciding whether to deploy Kafka yourself or to purchase a managed solution</li>
+<li><a href="https://thelinuxnotes.com/index.php/how-to-deploy-kafka-in-kubernetes-with-helm-chart-kafdrop-commander/">thelinuxnotes.com: How to deploy Kafka in Kubernetes with Helm chart + kafdrop</a></li>
+</ul>
+<h4 id="kafka-tools">Kafka Tools<a class="headerlink" href="#kafka-tools" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/obsidiandynamics/kafdrop">Kafdrop – Kafka Web UI 🌟</a></li>
+<li><a href="https://github.com/redpanda-data/kowl">redpanda-data/kowl</a> Kowl is a Web UI for Apache Kafka that allows exploring messages, consumers, configurations and more with a focus on a good UI &amp; UX.</li>
+<li><a href="https://github.com/corunet/kloadgen">KLoadGen - Kafka + (Avro/Json Schema) Load Generator 🌟</a> KLoadGen is kafka load generator plugin for jmeter designed to work with AVRO and JSON schema. It allows sending kafka messages with a structure defined as an AVRO Schema or a Json Schema. It connects to the Scheme Registry Server, retrieve the subject to send and generate a random message every time.</li>
+<li><a href="https://dev.to/de_maric/learn-how-to-use-kafkacat-the-most-versatile-kafka-cli-client-1kb4">dev.to: Learn how to use Kafkacat – the most versatile Kafka CLI client 🌟</a></li>
+<li><a href="https://github.com/lensesio/fast-data-dev">github.com/lensesio/fast-data-dev (Lenses Box)</a> Kafka Docker for development. Kafka, Zookeeper, Schema Registry, Kafka-Connect, Landoop Tools, 20+ connectors. A apachekafka docker image that actually works without zookeeper. If you don't want do deal with docker-compose this one is for you.</li>
+<li><a href="https://dzone.com/articles/visualize-your-apache-kafka-streams-using-the-quar">dzone: Visualize your Apache Kafka Streams using the Quarkus Dev UI</a> Visualize your Apache Kafka Streams using the Quarkus Dev UI</li>
+<li><a href="https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352">medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens</a></li>
+<li><a href="https://github.com/sauljabin/kaskade">==github.com/sauljabin/kaskade==</a> <strong>kaskade is a text user interface for kafka, which allows you to interact and consume topics from your terminal in style!</strong></li>
+</ul>
+<h4 id="strimzi-kubernetes-operator-for-apache-kafka">Strimzi kubernetes operator for apache kafka<a class="headerlink" href="#strimzi-kubernetes-operator-for-apache-kafka" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://strimzi.io/">strimzi.io</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/">developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/08/14/introduction-to-strimzi-apache-kafka-on-kubernetes-kubecon-europe-2020/">developers.redhat.com: Introduction to Strimzi: Apache Kafka on Kubernetes (KubeCon Europe 2020) 🌟</a></li>
+<li><a href="https://strimzi.io/blog/2020/10/15/producer-tuning/">strimzi.io: Optimizing Kafka producers</a></li>
+<li><a href="https://strimzi.io/blog/2021/01/07/consumer-tuning/">strimzi.io: Optimizing Kafka consumers 🌟</a></li>
+<li><a href="https://strimzi.io/blog/2020/10/15/producer-tuning/">strimzi.io: Optimizing Kafka producers 🌟</a></li>
+<li><a href="https://pepy.tech/project/strimzi-kafka-cli">pepy.tech/project/strimzi-kafka-cli 🌟</a> - <a href="https://pypi.org/project/strimzi-kafka-cli/">pypi.org/project/strimzi-kafka-cli</a></li>
+<li><a href="https://github.com/strimzi/kafka-kubernetes-config-provider">strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider for Apache Kafka</a> Apache Kafka supports pluggable configuration providers which can load configuration data from external sources. The configuration providers in this repo can be used to load data from Kubernetes Secrets and Config Maps. It can be used in all Kafka components and does not depend on the other Strimzi components. So you could, for example, use it with your producer or consumer applications even if you don't use the Strimzi operators to provide your Kafka cluster. One of the example use-cases is to load certificates or JAAS configuration from Kubernetes Secrets.</li>
+<li><a href="https://strimzi.io/blog/2021/07/22/using-kubernetes-config-provider-to-load-data-from-secrets-and-config-maps/">strimzi.io: Using Kubernetes Configuration Provider to load data from Secrets and Config Maps</a></li>
+<li><a href="https://strimzi.io/blog/2021/08/18/using-http-bridge-as-a-kubernetes-sidecar/">strimzi.io: Using HTTP Bridge as a Kubernetes sidecar</a></li>
+<li><a href="https://strimzi.io/blog/2020/08/05/using-open-policy-agent-with-strimzi-and-apache-kafka/">strimzi.io: Using Open Policy Agent with Strimzi and Apache Kafka</a></li>
+<li><a href="https://github.com/strimzi/strimzi-canary">strimzi/strimzi-canary</a> This repository contains the Strimzi canary tool implementation. It acts as an indicator of whether Kafka clusters are operating correctly. This is achieved by creating a canary topic and periodically producing and consuming events on the topic and getting metrics out of these exchanges.</li>
+<li><a href="https://medium.com/hacking-talent/mastering-apache-kafka-on-kubernetes-strimzi-k8s-operator-2c1d21d7b89a">medium: Mastering Apache Kafka on Kubernetes — Strimzi K8s operator</a></li>
+<li><a href="https://medium.com/@ahmed.farhan/kafka-setup-in-kubernetes-using-strimzi-k8s-operator-part-2-1f67dbe5f14d">medium.com/@ahmed.farhan: Kafka Setup in Kubernetes Using Strimzi K8s operator — Part 2</a></li>
+<li><a href="https://medium.com/adaltas/operating-kafka-in-kubernetes-with-strimzi-84a281c6d964">medium.com/adaltas: Operating Kafka in Kubernetes with Strimzi</a></li>
+</ul>
+<center>
+[![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
+</center>
+
+<h4 id="apache-kafka-desktop-clients">Apache Kafka Desktop Clients<a class="headerlink" href="#apache-kafka-desktop-clients" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://www.conduktor.io/">conduktor.io 🌟</a> Apache Kafka Desktop Client. We created Conduktor, the all-in-one friendly interface to work with the Kafka ecosystem. Develop and manage Apache Kafka with confidence.</li>
+</ul>
+<h3 id="aws-kinesis">AWS Kinesis<a class="headerlink" href="#aws-kinesis" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://docs.aws.amazon.com/kinesis/index.html">AWS Kinesis</a></li>
+<li><a href="https://www.softkraft.co/aws-kinesis-vs-kafka-comparison/">softkraft.co: WS Kinesis vs Kafka comparison: Which is right for you? 🌟</a></li>
+</ul>
+<h3 id="mqtt">MQTT<a class="headerlink" href="#mqtt" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://mqtt.org/">mqtt.org</a> MQTT: The Standard for IoT Messaging</li>
+<li><a href="https://developers.redhat.com/blog/2021/04/16/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-1/">developers.redhat.com: Deploying the Mosquitto MQTT message broker on Red Hat OpenShift, Part 1</a><ul>
+<li><a href="https://developers.redhat.com/blog/2021/04/26/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-2">developers.redhat.com: Deploying the Mosquitto MQTT message broker on Red Hat OpenShift, Part 2</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="banzai-cloud-supertubes-cloud-native-kafka-implementation">Banzai Cloud Supertubes (Cloud Native Kafka implementation)<a class="headerlink" href="#banzai-cloud-supertubes-cloud-native-kafka-implementation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://banzaicloud.com/">Banzai Cloud</a></li>
+<li><a href="https://github.com/banzaicloud/kafka-operator">Banzai Kafka Operator</a></li>
+<li><a href="https://banzaicloud.com/blog/kafka-on-istio-benefits/">The benefits of integrating Apache Kafka with Istio</a></li>
+</ul>
+<h3 id="confluent-cloud-apache-kafka-re-engineered-for-the-cloud">Confluent Cloud (Apache Kafka Re-engineered for the Cloud)<a class="headerlink" href="#confluent-cloud-apache-kafka-re-engineered-for-the-cloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.confluent.io/">confluent.io</a> The Complete Event Streaming Platform for Apache Kafka.</li>
+<li>Focus on building apps and not managing clusters with a scalable, resilient and secure event streaming platform. Event streaming with Kafka made simple on AWS, Azure and GCP clouds.</li>
+<li><a href="https://www.mongodb.com/blog/post/daa-s-with-mongo-db-and-confluent">mongodb.com: DaaS with MongoDB and Confluent</a></li>
+<li><a href="https://www.confluent.io/blog/confluent-microsoft-announce-strategic-alliance/">confluent.io: Confluent and Microsoft Announce Strategic Alliance</a></li>
+<li><a href="https://www.confluent.io/blog/monitor-kafka-clusters-with-prometheus-grafana-and-confluent">confluent.io: Monitoring Your Event Streams: Integrating Confluent with Prometheus and Grafana</a></li>
+</ul>
+<h3 id="redpanda-kafka-alternative-a-modern-streaming-platform-for-mission-critical-workloads">Redpanda (kafka alternative). A modern streaming platform for mission critical workloads<a class="headerlink" href="#redpanda-kafka-alternative-a-modern-streaming-platform-for-mission-critical-workloads" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://vectorized.io/">Redpanda 🌟</a> is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.</li>
+<li><a href="https://vectorized.io/blog/open-source/">Redpanda is now Free &amp; Source Available</a></li>
+<li><a href="https://softwareengineeringdaily.com/2021/01/22/redpanda-kafka-alternative-with-alexander-gallego/">softwareengineeringdaily.com: Redpanda: Kafka Alternative with Alexander Gallego 🌟</a></li>
+</ul>
+<h4 id="ksqldb">KsqlDB<a class="headerlink" href="#ksqldb" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://ksqldb.io/">ksqlDB</a> The event streaming database purpose-built for stream processing applications.</li>
+<li><a href="https://www.confluent.io/blog/kafka-streams-vs-ksqldb-compared/">Kafka Streams and ksqlDB Compared – How to Choose</a></li>
+</ul>
+<h3 id="apache-pulsar">Apache Pulsar<a class="headerlink" href="#apache-pulsar" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://pulsar.apache.org/">Apache Pulsar</a> is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation</li>
+<li><a href="https://www.kai-waehner.de/blog/2020/06/09/apache-kafka-versus-apache-pulsar-event-streaming-comparison-features-myths-explored/">Pulsar vs Kafka – Comparison and Myths Explored</a></li>
+</ul>
+<h3 id="apache-flink">Apache Flink<a class="headerlink" href="#apache-flink" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://flink.apache.org/">Apache Flink</a> Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.</li>
+<li><a href="https://flink.apache.org/2021/02/10/native-k8s-with-ha.html">flink.apache.org: How to natively deploy Flink on Kubernetes with High-Availability (HA)</a></li>
+</ul>
+<h3 id="hazelcast-jet">Hazelcast JET<a class="headerlink" href="#hazelcast-jet" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://jet-start.sh/">Hazelcast JET</a> Open-Source Distributed Stream Processing</li>
+<li><a href="https://devops.com/hazelcast-simplifies-streaming-for-extremely-fast-event-processing-in-iot-edge-and-cloud-environments/">devops.com: Hazelcast Simplifies Streaming for Extremely Fast Event Processing in IoT, Edge and Cloud Environments</a></li>
+</ul>
+<h3 id="postgress-as-message-queue">Postgress as message queue<a class="headerlink" href="#postgress-as-message-queue" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://dagster.io/blog/skip-kafka-use-postgres-message-queue">dagster.io: Postgres: a better message queue than Kafka?</a></li>
+</ul>
+<h2 id="workflow-engines">Workflow Engines<a class="headerlink" href="#workflow-engines" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Workflow_engine">wikipedia: Workflow Engine</a></li>
+</ul>
+<h3 id="zeebe">Zeebe<a class="headerlink" href="#zeebe" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://zeebe.io/">Zeebe workflow engine</a></li>
+<li><a href="https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows">infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟</a></li>
+<li><a href="https://www.softobiz.com/orchestration-made-easy-with-zeebe-and-kafka/">Orchestration Made Easy with Zeebe and Kafka</a></li>
+</ul>
+<h3 id="apache-airflow">Apache Airflow<a class="headerlink" href="#apache-airflow" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://dzone.com/articles/apache-airflow-architecture-on-openshift">dzone: Apache Airflow Architecture on OpenShift</a></li>
+<li><a href="https://www.redhat.com/en/blog/monitoring-apache-airflow-using-prometheus">redhat.com: Monitoring Apache Airflow using Prometheus</a></li>
+<li><a href="https://towardsdatascience.com/apache-airflow-for-containerized-data-pipelines-4d7a3c385bd">towardsdatascience.com: Apache Airflow for containerized data-pipelines</a> Are you having problems running tasks with a different version of Python on Airflow? In this article, I explain how to solve this issue.</li>
+<li><a href="https://airflow.apache.org/docs/helm-chart/">Apache Airflow official helm chart 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=GDOw8ByzMyY&amp;ab_channel=MarcLamberti">youtube: Airflow Helm Chart : Quick Start For Beginners in 10mins</a></li>
+<li><a href="https://dev.to/arunkc/get-started-with-apache-airflow-1218">dev.to: Get started with Apache Airflow</a></li>
+<li><a href="https://betterprogramming.pub/running-airflow-using-kubernetes-executor-and-kubernetes-pod-operator-with-istio-d5aa7af16ef5">betterprogramming.pub: Running Airflow Using Kubernetes Executor and Kubernetes Pod Operator with Istio</a> There are many obstacles when you deploy Airflow with the Kubernetes executor, Pod Operator and Istio since the Istio proxy sidecar makes the worker pod hang and run forever. In this article, you will learn how to overcome that.</li>
+<li><a href="https://towardsdatascience.com/apache-airflow-architecture-496b9cb28288">towardsdatascience.com: Apache Airflow Architecture 🌟</a> A deep dive into Apache Airflow architecture and how it orchestrates workflows</li>
+<li><a href="https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/operators.html">==airflow.apache.org: KubernetesPodOperator== 🌟🌟🌟</a><ul>
+<li>The KubernetesPodOperator allows you to create and run Pods on a Kubernetes cluster.</li>
+<li>The KubernetesPodOperator uses the Kubernetes API to launch a pod in a Kubernetes cluster. By supplying an image URL and a command with optional arguments, the operator uses the Kube Python Client to generate a Kubernetes API request that dynamically launches those individual pods.</li>
+<li>The KubernetesPodOperator enables task-level resource configuration and is optimal for custom Python dependencies that are not available through the public PyPI repository. It also allows users to supply a template YAML file using the pod_template_file parameter. Ultimately, it allows Airflow to act a job orchestrator - no matter the language those jobs are written in.</li>
+</ul>
+</li>
+<li><a href="https://dataengineeringcentral.substack.com/p/why-is-everyone-trying-to-kill-airflow?sd=pf">dataengineeringcentral.substack.com: Why is everyone trying to kill Airflow? 🌟</a> Apache Airflow has been the ruler of Data Engineering orchestration for years, is the end in sight?</li>
+<li><a href="https://airflow.apache.org/docs/apache-airflow/stable/howto/add-owner-links.html">airflow.apache.org: Add Owner Links to DAG</a> You can set the owner_links argument on your DAG object, which will make the owner a clickable link in the main DAGs view page instead of a search filter.</li>
+<li><a href="https://docs.astronomer.io/learn/dynamically-generating-dags">docs.astronomer.io: Dynamically generating DAGs in Airflow</a> How to load DAGs from YAML files in Airflow dynamically?</li>
+<li><a href="https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81">blog.devgenius.io: Send information from Databricks to Airflow</a></li>
+<li><a href="https://medium.com/apache-airflow/passing-data-between-tasks-with-the-kubernetespodoperator-in-apache-airflow-7ae9e3e6675c">==medium.com/apache-airflow: Passing Data Between Tasks with the KubernetesPodOperator in Apache Airflow== 🌟</a> TL;DR: Use the @task.kubernetes decorator!</li>
+<li><a href="https://medium.com/@piyush_74867/apache-airflow-on-kubernetes-at-scale-a-peak-under-the-hood-1eebb9b4769b">medium.com/@piyush_74867: Apache Airflow on Kubernetes at scale — a peak under the hood</a></li>
+<li><a href="https://medium.com/@alfahreiza/building-an-elt-pipeline-from-csv-to-bigquery-using-dbt-f6e3f30bfc9c">medium.com/@alfahreiza: Building an ELT Pipeline: From CSV to BigQuery using dbt</a></li>
+<li><a href="https://medium.com/apache-airflow/what-we-learned-after-running-airflow-on-kubernetes-for-2-years-0537b157acfd">medium.com/apache-airflow: What we learned after running Airflow on Kubernetes for 2 years</a> In this case study, you will learn how the team at Teya scaled Airflow on Kubernetes to 5000 daily tasks</li>
+</ul>
+<h3 id="couler">Couler<a class="headerlink" href="#couler" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/couler-proj/couler">Couler</a> Couler aims to provide a unified interface for constructing and managing workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.</li>
+</ul>
+<h2 id="red-hat-amq-activemq-artemis-broker-and-apache-kafka">Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)<a class="headerlink" href="#red-hat-amq-activemq-artemis-broker-and-apache-kafka" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://developers.redhat.com/products/amq/overview"><strong>Red Hat AMQ overview</strong></a></li>
+<li><a href="https://www.redhat.com/en/technologies/jboss-middleware/amq">Red Hat AMQ</a> = AMQ Broker (Apache ActiveMQ Artemis) + AMQ Streams (Apache Kafka)</li>
+</ul>
+<h3 id="red-hat-amq-broker-activemq-artemis">Red Hat AMQ Broker (ActiveMQ Artemis)<a class="headerlink" href="#red-hat-amq-broker-activemq-artemis" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://activemq.apache.org/components/artemis/">Apache ActiveMQ Artemis broker</a></li>
+<li><a href="https://developers.redhat.com/blog/2017/10/05/jdbc-master-slave-persistence-setup-activemq-using-postgresql-database">developers.redhat.com: JDBC Master-Slave Persistence setup with Activemq using Postgresql database</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/08/26/connecting-external-clients-to-red-hat-amq-broker-on-red-hat-openshift">developers.redhat.com: Connecting external clients to Red Hat AMQ Broker on Red Hat OpenShift</a></li>
+</ul>
+<h3 id="red-hat-amq-streams">Red Hat AMQ Streams<a class="headerlink" href="#red-hat-amq-streams" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1/">Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update/">Set up <strong>Red Hat AMQ Streams</strong> custom certificates on OpenShift</a></li>
+<li><a href="https://speakerdeck.com/mabulgu/apache-kafka-with-red-hat-amq-streams">speakerdeck.com: Apache Kafka with Red Hat AMQ Streams 🌟</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/#more-720187">HTTP-based Kafka messaging with Red Hat AMQ Streams</a></li>
+<li><a href="https://blog.jromanmartin.io/2020/09/25/how-upgrade-strimzi-operator.html">blog.jromanmartin.io: How to upgrade Strimzi Operator using the CLI</a></li>
+</ul>
+<center>
+[![AMQ in a nutshell](images/AMQ.png)](https://developers.redhat.com/products/amq/overview)
+</center>
+
+<center>
+
+Product|Also Known As|Components|URL
+:------|:----|:--------|:----
+Red Hat AMQ 6|JBoss AMQ 6|Apache ActiveMQ|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
+Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|AMQ Broker + AMQ Streams|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
+Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|JBoss AMQ 7 (Broker) + Apache Kafka|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
+Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemis + Apache Kafka|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
+
+</center>
+
+<h3 id="slides-of-red-hat-amq-streams">Slides of Red Hat AMQ Streams<a class="headerlink" href="#slides-of-red-hat-amq-streams" title="Permanent link">&para;</a></h3>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<script async class="speakerdeck-embed" data-id="54c1ce6ee6e44d68a0c311c31ddc8225" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center></p>
+</details>
+<h2 id="open-data-hub-ai-as-a-service-aiaas-platform">Open Data Hub AI-as-a-Service (AIaaS) platform<a class="headerlink" href="#open-data-hub-ai-as-a-service-aiaas-platform" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://opendatahub.io/">Open Data Hub</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/05/07/open-data-hub-0-6-brings-component-updates-and-kubeflow-architecture/">Open Data Hub 0.6 brings component updates and Kubeflow architecture</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/06/22/a-development-roadmap-for-open-data-hub/">A development roadmap for Open Data Hub</a></li>
+</ul>
+<h2 id="integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data">Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data<a class="headerlink" href="#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://quandarycg.com/everything-you-need-to-know-about-integrations/">quandarycg.com: Everything You Need To Know About System Integration (And IPaaS) 🌟</a></li>
+<li><a href="https://blog.hubspot.com/marketing/ipaas-vendors">blog.hubspot.com: The 22 Best iPaaS Vendors for Any Budget</a></li>
+</ul>
+<h3 id="ipaas-vendors">IpaaS Vendors<a class="headerlink" href="#ipaas-vendors" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://rudderstack.com/">rudderstack.com iPaaS</a> - <a href="https://opensource.com/article/21/4/event-streaming-rudderstack">opensource.com: Stream event data with rudderstack</a></li>
+<li><a href="https://www.mulesoft.com/">Mulesoft</a></li>
+<li>etc</li>
+</ul>
+<h2 id="ebooks">eBooks<a class="headerlink" href="#ebooks" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="http://streamingsystems.net/">O'Really: Streaming data</a></li>
+</ul>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://learnk8s.io/kubernetes-long-lived-connections">==Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes== 🌟</a> Kubernetes doesn't load balance long-lived connections, some Pods might receive more requests than others, In case you are using HTTP/2, gRPC, RSockets, AMQP. Any work around?</li>
+</ul>
+<h2 id="questions-and-answers">Questions and Answers<a class="headerlink" href="#questions-and-answers" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json">adambien.blog - 75th <strong>airhacks.tv</strong> Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack</a> "Kafka vs. JAX-RS / RPC, thoughts about APIs, JSON-B vs. GSON, Path.of over Paths.get, Java Records, MicroProfile JWT, beginners vs. expert content, best Java fullstack, code coverage, NetBeans in 2020, Visual Studio Setup for Java, screencast configuration, ReactJS / Angular over JSF?, JSON-P vs. JSON-B, security code scanning"</li>
+</ul>
+<h2 id="videos">Videos<a class="headerlink" href="#videos" title="Permanent link">&para;</a></h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LieT75Zb_OY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>
+
+<h2 id="tweets">Tweets<a class="headerlink" href="#tweets" title="Permanent link">&para;</a></h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pub-Sub ≠ Partitioning ≠ Multiplexing <a href="https://t.co/0ZVaH9Mxvr">pic.twitter.com/0ZVaH9Mxvr</a></p>&mdash; Clemens Vasters 🇪🇺☁📨 (@clemensv) <a href="https://twitter.com/clemensv/status/1288152399211909120?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are excited to announce that KubeMQ community version is now available as an open-source project!<br><br>The community version supports all messaging patterns, connectors, bridges, and run in production. Give us a star on Github if you like our project!<a href="https://t.co/0ufRQ5bhCE">https://t.co/0ufRQ5bhCE</a></p>&mdash; KubeMQ (@KubeMq) <a href="https://twitter.com/KubeMq/status/1436284885132529707?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do we design a system using the 𝐞𝐯𝐞𝐧𝐭 𝐬𝐨𝐮𝐫𝐜𝐢𝐧𝐠 paradigm? How is it different from normal system design? What are the benefits? We will talk about it in this post. <a href="https://t.co/PhKNDDCmMv">pic.twitter.com/PhKNDDCmMv</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1539999422485913600?ref_src=twsrc%5Etfw">June 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Push notifications are a very popular feature for many applications. <br><br>This is how to design a scalable push notification service: ↓ {1/13} <a href="https://t.co/BWsaCKSrnr">pic.twitter.com/BWsaCKSrnr</a></p>&mdash; Fernando 🇮🇹🇨🇭 (@Franc0Fernand0) <a href="https://twitter.com/Franc0Fernand0/status/1576212315703222272?ref_src=twsrc%5Etfw">October 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Redis is commonly known as a key-value server, but actually is also a messaging server.<br><br>This is how Redis Pub/Sub works and when it&#39;s a good choice: {1/10} ↓ <a href="https://t.co/Mj9o7HQCOi">pic.twitter.com/Mj9o7HQCOi</a></p>&mdash; Fernando 🇮🇹🇨🇭 (@Franc0Fernand0) <a href="https://twitter.com/Franc0Fernand0/status/1586359194495905794?ref_src=twsrc%5Etfw">October 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
