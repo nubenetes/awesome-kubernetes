@@ -276,14 +276,17 @@ class IntelligentLinkCleaner:
                         file_updates[file_path][line_idx] = None
                         track(file_path, "removed", url, reason); self.detailed_stats["operation_types"]["removals"] += 1
 
-        if self.curator.stats["orphans_linked"] > 0:
+        orphans_linked = getattr(self.curator, "stats", {}).get("orphans_linked", 0)
+        if orphans_linked > 0:
             track("Navigation", "created", "Orphan Audit", "Linked via Curator")
-            self.detailed_stats["operation_types"]["orphans"] = self.curator.stats["orphans_linked"]
+            self.detailed_stats["operation_types"]["orphans"] = orphans_linked
 
         final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
-        if self.curator.stats["orphans_linked"] > 0:
-            with open(self.curator.index_path, 'r') as f: final_payload[self.curator.index_path] = f.read()
-            with open(self.curator.mkdocs_path, 'r') as f: final_payload[self.curator.mkdocs_path] = f.read()
+        if orphans_linked > 0:
+            with open(getattr(self.curator, "index_path", "docs/index.md"), 'r') as f: 
+                final_payload[getattr(self.curator, "index_path", "docs/index.md")] = f.read()
+            with open(getattr(self.curator, "mkdocs_path", "mkdocs.yml"), 'r') as f: 
+                final_payload[getattr(self.curator, "mkdocs_path", "mkdocs.yml")] = f.read()
         if final_payload: self._create_pr(final_payload)
 
     def _create_pr(self, updates: Dict[str, str], report_content: str = None):
