@@ -1,0 +1,1899 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
+      
+      
+        <meta name="author" content="Inaki Fernandez">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/v2/networking-and-service-mesh.html">
+      
+      
+        <link rel="prev" href="cloud-providers-hyperscalers.html">
+      
+      
+        <link rel="next" href="the-container-stack.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Networking & Service Mesh - Nubenetes V2 | The Architect's Cut</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
+      <link rel="stylesheet" href="static/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#networking-service-mesh" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes V2 | The Architect's Cut
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Networking & Service Mesh
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://nubenetes.com/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🔙 Back to V1 (Exhaustive)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The 2026 Vision
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="intelligent-control-plane.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Intelligent Control Plane
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="architectural-foundations.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Architectural Foundations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="platform-and-site-reliability.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Platform & Site Reliability
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="hardened-infrastructure.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hardened Infrastructure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="cloud-providers-hyperscalers.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Cloud Providers (Hyperscalers)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="networking-and-service-mesh.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Networking & Service Mesh
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="the-container-stack.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Container Stack
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="data-and-advanced-analytics.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="engineering-pipeline.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Engineering Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="developer-ecosystem.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Developer Ecosystem
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="career-and-industry.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Career & Industry
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Nubenetes V2 | The Architect's Cut
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://nubenetes.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔙 Back to V1 (Exhaustive)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 2026 Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="intelligent-control-plane.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intelligent Control Plane
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="architectural-foundations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectural Foundations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="platform-and-site-reliability.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hardened-infrastructure.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardened Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cloud-providers-hyperscalers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Providers (Hyperscalers)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="networking-and-service-mesh.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#istio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Istio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicemesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Servicemesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloudflare" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloudflare
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caching
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web-servers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Networking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes-networking
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="the-container-stack.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data-and-advanced-analytics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="engineering-pipeline.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="developer-ecosystem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="career-and-industry.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/networking-and-service-mesh.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/networking-and-service-mesh.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="networking-service-mesh">Networking &amp; Service Mesh<a class="headerlink" href="#networking-service-mesh" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Comprehensive chronological reference library for Networking &amp; Service Mesh.</p>
+</div>
+<h2 id="istio">Istio<a class="headerlink" href="#istio" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://istio.io/">Istio.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/istio/istio">github.com: Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://developers.redhat.com/topics/service-mesh/">Red Hat Developer: Istio Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://karlstoney.com/2019/05/31/istio-503s-ucs-and-tcp-fun-times/">karlstoney.com: Istio 503's with UC's and TCP Fun Times</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/solo-io">medium.com/solo-io blog</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce">medium.com/solo-io: Istio the Easy Way (Again!)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices/">blog.christianposta.com: Istio as an Example of When Not to Do Microservices</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://istiobyexample.dev/">istiobyexample.dev 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://istiobyexample.dev/fault-injection/">istiobyexample.dev: Fault Injection</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://medium.com/swlh/getting-started-with-istio-524628c025">medium.com: Getting started with Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/">blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation">magalix.com: Getting Started With Istio: Overview And Installation</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://istio.io/blog/2020/tradewinds-2020/#fewer-moving-parts">The Istio project just consolidated its control plane services: Pilot, Citadel, Galley, and the sidecar injector, into a single binary, <strong>Istiod</strong></a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.magalix.com/blog/working-with-istio-track-your-services-with-kiali">magalix.com: Working with Istio: Track your services with Kiali</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://banzaicloud.com/blog/istio-mixerless-telemetry/">banzaicloud.com: Istio telemetry V2 (Mixerless) deep dive</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/better-programming/how-to-manage-microservices-on-kubernetes-with-istio-c25e97a60a59">medium.com: How to Manage Microservices on Kubernetes With Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/askmeegs/learn-istio">github.com/askmeegs/learn-istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://banzaicloud.com/blog/istio-1.6/">banzaicloud.com: What's new in Istio 1.6, a quick walkthrough</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://zwischenzugs.com/2020/05/05/riding-the-tiger-lessons-learned-implementing-istio/">Riding the Tiger: Lessons Learned Implementing Istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://dev.to/aurelievache/understanding-istio-part-1-istio-components-4ik5">dev.to/aurelievache: Understanding Istio: part 1 – Istio Components</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li><a href="https://dev.to/aurelievache/understanding-istio-part-9-destinationrule-1g7e">dev.to/aurelievache: Understanding Istio: part 9 – DestinationRule</a><ul>
+<li><a href="https://dev.to/aurelievache/understanding-istio-part-16-observability-metrics-2m8p">dev.to/aurelievache: Understanding Istio: part 16 – Observability / Metrics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://banzaicloud.com/blog/istio-external-demo/">banzaicloud.com: Controlling egress traffic with Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://banzaicloud.com/blog/backyards-api-gateway">banzaicloud.com: Istio ingress controller as an API gateway</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.openshift.com/blog/monitoring-services-like-an-sre-in-openshift-servicemesh-part-2-collecting-standard-metrics-3">openshift.com: Monitoring Services like an SRE in OpenShift ServiceMesh Part 2: Collecting Standard Metrics 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://istio.io/latest/docs/examples/microservices-istio/">istio.io: Learn Microservices using Kubernetes and Istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/when-you-need-or-dont-need-service-mesh/">thenewstack.io - Service Mesh: The Gateway to Cloud Migration</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/kubernetes-microservices-istio%E2%80%8A-%E2%80%8Aa-great-fit/">thenewstack.io: Kubernetes, Microservices, and Istio  — A Great Fit!</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/swlh/observability-with-istio-kiali-and-grafana-in-kubernetes-and-spring-boot-743af225c24f">medium: Observability With Istio, Kiali, and Grafana in Kubernetes and Spring Boot 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/tutorial-rate-limiting-of-service-requests-in-istio-service-mesh">solo.io: Learn how to rate limit requests in Istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/identity-federation-for-multi-cluster-kubernetes-and-service-mesh/">solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://sysdig.com/blog/monitor-istio/">sysdig.com: How to monitor Istio, the Kubernetes service mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tetrate.io/blog/vm-to-container-communications-101/">tetrate.io: VM to container communications 101</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/redhat-scholars/istio-tutorial">redhat-scholars: istio-tutorial 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/swlh/introduction-to-istio-traffic-management-6b62c86f8cb4">medium: Introduction to Istio Traffic Management. Traffic Routing with Istio by Example 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.jetstack.io/blog/istio-oidc/">blog.jetstack.io: Istio OIDC Authentication</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/kialiproject/increasing-observability-on-istio-the-new-kiali-health-configuration-3c91852c1bfe">medium.com: Increasing observability on Istio: The new Kiali health configuration</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/the-evolution-of-vm-support-in-istio-1-8-with-video/">solo.io: The evolution of VM support in Istio 1.8 (with video)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.jetstack.io/blog/cert-manager-istio-integration/">jetstack.io: Securing Istio workloads with mTLS using cert-manager</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes">thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/avmconsulting-blog/managing-microservices-with-istio-service-mesh-in-kubernetes-36e1fda81757">medium: Managing Microservices With Istio Service Mesh in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/solo-io-istio-is-winning-the-service-mesh-war/">thenewstack.io: Solo.io: Istio Is Winning the Service Mesh War</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tetrate.io/blog/why-do-you-need-istio-when-you-already-have-kubernetes/">tetrate.io: Why do you need Istio when you already have Kubernetes?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learncloudnative.com/blog/2020-11-23-multiple-vs-gateway">learncloudnative.com: Attach multiple VirtualServices to Istio Gateway</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/what-is-istio-and-why-does-kubernetes-need-it/">thenewstack.io: What Is Istio and Why Does Kubernetes Need it? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.youtube.com/watch?v=16fgzklcF7Y&amp;ab_channel=TechWorldwithNana">youtube: Istio &amp; Service Mesh - simply explained in 15 mins 🌟</a> 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dev.to/stefanprodan/a-gitops-recipe-for-progressive-delivery-2pa3">dev.to: A GitOps recipe for Progressive Delivery with Istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://samos-it.com/posts/securing-redis-istio-tls-origniation-termination.html">samos-it.com: Securing Redis with Istio TLS origination</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/istio-multi-cluster-on-red-hat-openshift-with-gloo-mesh/">solo.io: Istio multi-cluster on Red Hat OpenShift with Gloo Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.giffgaff.io/tech/using-istio-with-nginx-ingress">giffgaff.io: Using Istio with Nginx ingress</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/ode-to-istio/">solo.io: Ode to Istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/istio-1-10-improves-scalability-and-revision-control/">thenewstack.io: Istio 1.10 Improves Scalability and Revision Control</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://istio.io/latest/blog/2021/external-locality-failover/">istio.io: Configuring failover for external services</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/google-cloud/automated-canary-deployments-with-flagger-and-istio-ac747827f9d1">medium: Automated canary deployments with Flagger and Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/multicluster-management-with-kubernetes-and-istio/">thenewstack.io: Multicluster Management with Kubernetes and Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind">piotrminkowski.com: Multicluster Traffic Mirroring with Istio and Kind</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/securing-istio-workloads-with-auth0/">thenewstack.io: Securing Istio Workloads with Auth0</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tetrate.io/blog/multicluster-management-with-kubernetes-and-istio/">tetrate.io: Multicluster Management with Kubernetes and Istio 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes/">thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/upgrading-istio-without-downtime/">solo.io: Upgrading Istio without Downtime</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tetrate.io/blog/istio-servicemesh-api-gateway/">tetrate.io: Using Istio Service Mesh as API Gateway 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/configuration-as-data-gitops-and-controllers-its-not-simple-for-multi-cluster/">solo.io: Configuration as Data, GitOps, and Controllers: it’s not simple for multi-cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/istios-networking-in-depth">solo.io: Istio’s networking: An in-depth look at traffic and architecture 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/navigating-istio-config-toolkit/">solo.io: Navigating <strong>Istio Config</strong>: a look into Istio’s toolkit</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://inder-devops.medium.com/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38">==inder-devops.medium.com: On-premise to cloud migration mock drills using Istio== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.baeldung.com/ops/istio-service-mesh">baeldung.com: Service Mesh Architecture with Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://chrishaessig.medium.com/multi-cluster-setup-with-istio-c1c6437f4e8c">chrishaessig.medium.com: Multi cluster setup with istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@sumudu_liyan/how-to-install-istio-on-kubernetes-cluster-e831c12381b">medium.com/@sumudu_liyan: How To Install Istio On Kubernetes Cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://engineering.mercari.com/en/blog/entry/20220218-dynamic-service-routing-using-istio/">engineering.mercari.com: Dynamic Service Routing using Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@nanditasahu031/istio-service-mesh-a11654f90ed9">medium.com/@nanditasahu031: Istio Service Mesh 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://istio.io/latest/blog/2022/merbridge/">istio.io: Merbridge - Accelerate your mesh with eBPF</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.freecodecamp.org/news/learn-istio-manage-microservices">==freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio/">useanvil.com: Load balancing gRPC in Kubernetes with Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://jimmysong.io/en/blog/sidecar-injection-iptables-and-traffic-routing/">jimmysong.io: Understanding the Sidecar Injection, Traffic Intercepting &amp; Routing Process in Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=816ffb457b0d">blog.getambassador.io: Kubernetes Canary Testing and Release with Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/globant/istio-jwt-authentication-authorization-at-the-edge-b35b612acd97">medium.com/globant: Istio JWT Authentication &amp; Authorization at the edge</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/codex/egress-traffic-control-for-nginx-ingress-controller-with-istio-proxy-sidecar-ef8f19902b43">medium.com/codex: Egress Traffic Control for Nginx Ingress Controller with Istio Proxy Sidecar</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/marionete/how-to-expose-kubernetes-services-to-external-traffic-using-istio-gateway-1a1e6ebd8805">medium.com/marionete: How to expose Kubernetes services to external traffic using Istio Gateway</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://natarajsundar.medium.com/istio-service-mesh-a-start-to-finish-tutorial-with-side-car-architecture-and-an-analysis-d70a255ea41d">natarajsundar.medium.com: Istio service mesh, a start to finish tutorial with Side Car architecture and an analysis + comparison of the Ambient mesh architecture</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://alexandrev.medium.com/how-to-enable-sticky-session-on-your-kubernetes-workloads-using-istio-e789014a6acd">alexandrev.medium.com: How To Enable Sticky Session on Your Kubernetes Workloads using Istio? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@wessel__/istio-with-authentik-securing-your-cluster-and-providing-authentication-and-authorization-b5e48b331920">medium.com/@wessel__: Istio with Authentik: securing your cluster and providing authentication and authorization</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@hammadsaif061/simplifying-microservices-management-with-kubernetes-and-service-mesh-de458ce566f1">medium.com/@hammadsaif061: Simplifying Microservices Management with Kubernetes and Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200">==itnext.io: Taffic Shaping - Kubernetes &amp; Istio== | Daniele Polencic</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@lupass93/zero-trust-architecture-on-kubernetes-with-istio-service-mesh-eade6c5a3c53">medium.com/@lupass93: Zero Trust Architecture on Kubernetes with Istio Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/hamburger-berater-team/varnish-sharding-with-istio-in-kubernetes-402f313919aa">medium.com/hamburger-berater-team: Varnish Sharding with Istio in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@marc.guerrini/diy-istio-validate-jwt-1ffbd488b1f3">medium.com/@marc.guerrini: DIY — Istio — validate JWT</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@senthilrch/api-access-control-using-istio-ingress-gateway-44be659a087e">medium: API Access Control using Istio Ingress Gateway</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/codex/api-authentication-using-istio-ingress-gateway-oauth2-proxy-and-keycloak-a980c996c259">medium: API Authentication using Istio Ingress Gateway, OAuth2-Proxy and Keycloak</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://maistra.io">Maistra.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/maistra/istio">github.com: Maistra Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/istio-ecosystem/admiral">istio-ecosystem/admiral</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://istio.io/latest/blog/2022/introducing-ambient-mesh/">istio.io: Introducing Ambient Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.kiali.io/">kiali.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kiali/kiali">github.com: kiali</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/kialiproject">medium.com: kiali project</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/find-issues-in-your-istio-mesh-with-kiali-89d37d5e1fb1">itnext.io: Find issues in your Istio mesh with Kiali</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.jaegertracing.io/">jaegertracing.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub">hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://hackernoon.com/how-to-use-opentelemetry-and-jaeger-to-implement-distributed-tracing-and-apm-jcx34fi">hackernoon.com: How To Use OpenTelemetry And Jaeger To Implement Distributed Tracing And APM</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4">faun.pub: A beginner’s guide to Jaeger</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infracloud.io/blogs/linking-traces-continuous-profiling-pyroscope/">infracloud.io: Linking Traces with Continuous Profiling using Pyroscope</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.envoyproxy.io/">envoyproxy.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.getenvoy.io/">getenvoy.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes">Controlling outbound traffic from Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/kialiproject/troubleshooting-envoy-with-kiali-7f78a57b16ad">medium: Troubleshooting Envoy with Kiali</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/envoyproxy/gateway">Envoy Gateway</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.elastic.co/products/kibana">kibana</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://aws.amazon.com/app-mesh/">aws.amazon.com/app-mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html">allthingsdistributed.com: Redefining application communications with AWS App Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://azure-samples.github.io/aks-labs/docs/intro/">AKS Labs - Introduction</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0">itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/">Application Gateway for Containers: Istio Integration</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/">Implementing Istio From Start To Finish</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/istio/tools/blob/master/perf/README.md">Istio Performance/Stability Testing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+<h2 id="servicemesh">Servicemesh<a class="headerlink" href="#servicemesh" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/articles/service-mesh-ultimate-guide/">infoq.com: Service Mesh Ultimate Guide:</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learnk8s.io/kubernetes-long-lived-connections">==Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/">blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes/">thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control to Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://lucperkins.dev/blog/service-mesh-use-cases/">lucperkins.dev: Service mesh use cases</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/zero-trust-security-with-service-mesh/">thenewstack.io: Zero-Trust Security with Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/identity-federation-for-multi-cluster-kubernetes-and-service-mesh/">solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard/">cncf.io: Service Mesh Is Still Hard</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f">medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.openshift.com/blog/introducing-openshift-service-mesh-2.0">openshift.com: Introducing OpenShift Service Mesh 2.0 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery">weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments">rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh/">thenewstack.io: Offloading Authentication and Authorization from Application Code to a Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals/">thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/mutual-tls-microservices-encryption-for-service-mesh/">thenewstack.io: Mutual TLS: Securing Microservices in Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments">rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments. Get Hands-On with Rancher, Kong and Kong Mesh 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li>Service Mesh is an emerging architecture pattern gaining traction today. Along with Kubernetes, Service Mesh can form a powerful platform which addresses the technical requirements that arise in a highly distributed environment typically found on a microservices cluster and/or service infrastructure. A Service Mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices.<ul>
+<li>Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process.</li>
+<li>Kong provides an enterprise-class and comprehensive service connectivity platform that includes an API gateway, a Kubernetes ingress controller and a Service Mesh implementation. The platform allows customers to deploy on multiple environments such as on premises, hybrid, multi-­­­­­­region and multi-cloud.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://www.cloudops.com/blog/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/">cloudops.com: Comparing Service Meshes: Istio, Linkerd, Consul Connect, and Citrix ADC</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/">platform9.com: Kubernetes Service Mesh: A Comparison of Istio, Linkerd and Consul</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/21/3/service-mesh">opensource.com: Why you should care about service mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://containerjournal.com/features/when-is-service-mesh-worth-it/">==containerjournal.com: When Is Service Mesh Worth It?==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/service-meshes-in-the-cloud-native-world/">thenewstack.io: Service Meshes in the Cloud Native World</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability">koyeb.com: Service Mesh and Microservices: Improving Network Management and Observability</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh/">thenewstack.io: Accelerate Kubernetes Adoption with a Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.toptal.com/kubernetes/service-mesh-comparison">toptal.com: A Kubernetes Service Mesh Comparison 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/how-to-choose-a-service-mesh/">nginx.com: How to Choose a Service Mesh 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options/">cncf.io: Networking with a service mesh: use cases, best practices, and comparison of top mesh options</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://layer5.io/service-mesh-landscape">layer5.io: The Service Mesh Landscape 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.polymatic.systems/service-mesh-wars-goodbye-istio-b047d9e533c7">blog.polymatic.systems: Service Mesh Wars, Goodbye Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist/">thenewstack.io: Secure Your Service Mesh: A 13-Item Checklist</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/articles/cloud-native-architecture-adoption-part3/">infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/articles/service-mesh-ultimate-guide-2e/">infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41">==itnext.io: Stupid Simple Service Mesh — What, When, Why== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/the-hidden-costs-of-service-meshes/">thenewstack.io: The Hidden Costs of Service Meshes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes/">learnsteps.com: What is a service mesh? Is it born with Kubernetes?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@adarsh.prabhu/microservices-and-the-world-with-a-service-mesh-ec9a709dd4b5">==medium: Microservices and the World with a Service Mesh== | Adarsh Prabhu</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/presentations/adopting-service-mesh">infoq.com: Deploying Service Mesh in Production</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devops.com/how-are-api-management-and-service-mesh-different/">==devops.com: How Are API Management and Service Mesh Different?==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devops.com/when-to-use-api-management-and-service-mesh-together/">devops.com: When to Use API Management and Service Mesh Together</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/presentations/adopting-service-mesh/">infoq.com: Deploying Service Mesh in Production</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/presentations/5-challenges-mesh/">infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630">medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd, Kuma and Consul</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@pauldotyu/service-mesh-considerations-117561f30295">medium.com/@pauldotyu: Service Mesh Considerations</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/4th-coffee/a-comprehensive-tutorial-on-service-mesh-istio-envoy-access-log-and-log-filtering-8f3d939c081d">medium.com/4th-coffee: A Comprehensive Tutorial on Service Mesh, Istio, Envoy, Access Log, and Log Filtering</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/presentations/service-mesh-ebpf/">infoq.com: Sidecars, eBPF and the Future of Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043">medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.medianova.com/en-blog/service-mesh-vs-api-gateway/">medianova.com: Service Mesh vs. API Gateway</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along/">Prometheus and OpenTelemetry Compatibility Issues</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://meshery.io/">Meshery.io:</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298">itnext.io: Service Mesh Testing — Tools &amp; Frameworks (Open Source)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.consul.io/">consul.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/swlh/consul-in-kubernetes-pushing-to-production-223506bbe8db">medium: Consul in Kubernetes — Pushing to Production</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/hashicorp-engineering/hashicorp-consul-multi-cloud-and-multi-platform-service-mesh-372a82264e8e">medium: HashiCorp Consul: Multi-Cloud and Multi-Platform Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.hashicorp.com/blog/get-started-with-consul-service-mesh-on-kubernetes/">hashicorp.com: Get Started with Consul Service Mesh on Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes">HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes">hashicorp.com: HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learn.hashicorp.com/tutorials/consul/kubernetes-consul-design-patterns">learn.hashicorp.com: Consul Service Mesh on Kubernetes Design Patterns</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.hashicorp.com/blog/disaster-recovery-for-hashicorp-consul-on-kubernetes">hashicorp.com: Disaster Recovery for HashiCorp Consul on Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-1-5ee778a7fcf4">medium: A Practical Guide to HashiCorp Consul — Part 1 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-2-3c0ebc0351e8">medium: A Practical Guide to HashiCorp Consul — Part 2 🌟</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://fabiolb.net/">Fabio Load Balancer 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.hashicorp.com/blog/getting-started-with-hcp-consul-frequently-asked-questions">hashicorp.com: Getting Started with HCP Consul: Frequently Asked Questions</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.consul.io/docs/connect/index.html">consul Connect</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/">Linkerd</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/2020/06/09/announcing-linkerd-2.8/">Announcing Linkerd 2.8: simple, secure multi-cluster Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cncf.io/blog/2021/02/25/kubernetes-network-policies-with-cilium-and-linkerd/">cncf.io: Kubernetes network policies with Cilium and Linkerd</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd/">cncf.io: Protocol detection and opaque ports in Linkerd</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/linkerd-2-0-the-service-mesh-for-service-owners-platform-architects-sres/">thenewstack.io: Linkerd 2.0: The Service Mesh for Service Owners, Platform Architects, SREs</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy/">cncf.io: Why Linkerd doesn’t use Envoy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/2.10/tasks/multicluster/index.html">linkerd.io: Multi-cluster communication</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html">linkerd.io: Benchmarking Linkerd and Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/2021/07/28/announcing-cncf-graduation/">linkerd.io: Announcing Linkerd's Graduation</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://containerjournal.com/features/linkerds-cncf-graduation-due-to-its-simplicity/">containerjournal.com: Linkerd’s CNCF Graduation Due to its Simplicity</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9">itnext.io: A Practical Guide for Linkerd Authorization Policies</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/2021/11/29/linkerd-vs-istio-benchmarks-2021/index.html">linkerd.io: Benchmarking Linkerd and Istio: 2021 Redux</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://buoyant.io/2021/12/14/locking-down-network-traffic-between-kubernetes-namespaces">buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/">linkerd.io: Announcing automated multi-cluster failover for Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/is-linkerd-winning-the-service-mesh-race/">thenewstack.io: Is Linkerd Winning the Service Mesh Race?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/attest-product-and-technology/debugging-mislabelled-route-metrics-from-linkerd-dda47fdff04a">medium.com/attest-product-and-technology: Debugging mislabelled route metrics from Linkerd</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12">buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f">medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a">dev.to: Linkerd and GitOps</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh">buoyant.io: Multi-Cluster, Multi-Region Setup using Linkerd Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://containo.us/maesh/">Maesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cloud.google.com/traffic-director">Traffic Director overview</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/cloudzone/google-clouds-traffic-director-what-is-it-and-how-is-it-related-to-the-istio-service-mesh-c199acc64a6d">Google Cloud’s Traffic Director — What is it and how is it related to the Istio service-mesh?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads/"><strong>Google Traffic Director</strong> and the <strong>L7 Internal Load Balancer</strong> Intermingles <strong>Cloud Native</strong> and <strong>Legacy Workloads</strong></a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/news/2019/04/google-traffic-director/">infoq.com: Introducing Traffic Director: Google's Service Mesh Control Plane</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cloudblog.withgoogle.com/products/networking/traffic-director-supports-proxyless-grpc/amp/">Traffic Director and gRPC—proxyless services for your service mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cloud.google.com/load-balancing/docs/l7-internal/">L7 Internal HTTP(S) Load Balancing overview</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.envoyproxy.io/">Envoy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c">Examining Load Balancing Algorithms with Envoy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/why-the-control-plane-matters/">solo.io: Why the control plane matters. Control planes are different than data planes. Separating the control plane from data plane 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/jrockway/ekglue">ekglue - Envoy/Kubernetes glue</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://amalaruja.medium.com/basic-http-routing-strategies-with-envoy-376be42559eb">amalaruja.medium.com: Basic HTTP Routing Strategies with Envoy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol">xDS REST and gRPC protocol</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/">Implementing Istio From Start To Finish</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://nubenetes.com/istio/">Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://openservicemesh.io/">openservicemesh.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress/">Kourier: A lightweight Knative Serving ingress</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6">AWS App Mesh with EKS and Canary deployment</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://traefik.io/blog/transition-from-ingress-nginx-to-traefik">Transitioning from ingress-nginx to Traefik in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/">Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/introducing-nginx-service-mesh/">nginx.com: Introducing NGINX Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/mtls-architecture-nginx-service-mesh/">nginx.com: The mTLS Architecture in NGINX Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+<h2 id="cloudflare">Cloudflare<a class="headerlink" href="#cloudflare" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://www.freecodecamp.org/news/how-to-set-up-custom-email/">How to Set Up a Custom Email with Cloudflare and Mailgun</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cloudflare.com/">cloudflare.com</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://workers.cloudflare.com/">Cloudflare workers (Serverless)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://venturebeat.com/2020/12/22/cloudflare-acquires-linc-to-automate-web-app-deployment/">venturebeat.com: Cloudflare acquires Linc to automate web app deployment</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudflare.com/network-performance-update-full-stack-week/">blog.cloudflare.com: Network Performance Update: Full Stack Week</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudflare.com/guest-blog-zero-trust-access-kubernetes/">blog.cloudflare.com: Guest Blog: k8s tunnels with Kudelski Security</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudflare.com/zero-trust-private-networking-rules/">blog.cloudflare.com: Zero Trust Private Networking Rules</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+<h2 id="caching">Caching<a class="headerlink" href="#caching" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/Web_cache">Wikipedia: Web cache</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/Dynamic_site_acceleration">Wikipedia: Dynamic site acceleration</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442">Slideshare: Caching</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/">nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems</a> 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo">Dzone: An Introduction to Caching: How and Why We Do It 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300">medium: Caching — System Design Concept 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b">medium: Microservices Distributed Caching</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f">kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to Caching in the Cloud | Anuj Kothiyal</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/rtkal/distributed-cache-design-348cbe334df1">medium.com/rtkal: Distributed Cache Design</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science/">surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/refcardz/java-caching">DZone refcard: Java Caching</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/refcardz/getting-started-infinispan">Dzone: Getting Started with Infinispan</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://developers.redhat.com/products/datagrid/overview">Red Hat Data Grid Overview</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.redhat.com/en/technologies/jboss-middleware/data-grid">Red Hat Data Grid</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore/">Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more/">developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/Content_delivery_network">Wikipedia: CDN Content Delivery Network</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs">Traditional commercial CDNs 🌟</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work/">How content delivery networks (CDNs) work</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.imperva.com/learn/performance/cdn-caching/">imperva.com: CDN Caching</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nczonline.net/blog/2011/11/29/how-content-delivery-networks-cdns-work/">nczonline: How content delivery networks (CDNs) work - Nov 2011</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.haproxy.org">HAProxy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/haproxytech/haproxy-web-performance-55536394">slideshare: Haproxy web performance</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270">slideshare: Load Balancing MySQL with HAProxy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/haproxytech/haproxy-best-practice">slideshare: Haproxy best practice</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143">slideshare: How To Set Up SQL Load Balancing with HAProxy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/Severalnines/haproxy-mysql-slides">slideshare: Performance Tuning of HAProxy for Database Load Balancing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.haproxy.com/blog/the-haproxy-enterprise-waf/">haproxy.com: The HAProxy Enterprise WAF 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.varnish-cache.org/">Varnish Cache</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.varnish-software.com">varnish-software.com</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://info.varnish-software.com/the-varnish-book">The Varnish Book</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://fedoramagazine.org/varnish-site-faster-stable/">fedoramagazine.org: Varnish: Your site faster and more stable</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://developerblog.redhat.com/tag/varnish/">Red Hat Developer Blog. Tag: Varnish</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://rhelblog.redhat.com/tag/varnish/">Red Hat Enterprise Linux Blog. Tag: Varnish</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.varnish-cache.org/installation/redhat">varnish-cache.org: Installation on RedHat</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://hitch-tls.org/">Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/piotrpasich/varnish-47199139">slideshare: Varnish - Tips &amp; Tricks - 4Developers 2015</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04">digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/IBM/varnish-operator">github.com/IBM/varnish-operator</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/mittwald/kube-httpcache">github.com/mittwald/kube-httpcache</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://memcached.org">memcached.org</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/oemebamo/introduction-to-memcached">Slideshare: Introduction to memcached</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://redis.io">redis.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/dvirsky/introduction-to-redis">Slideshare: Introduction to Redis</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db">medium: Scaling Millions of Geospatial Queries per minute using Redis</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://architecturenotes.co/redis/">==architecturenotes.co: Redis Explained== 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce">faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/lightricks-tech-blog/step-by-step-guide-how-to-create-a-dynamic-service-endpoint-via-k8s-api-1024309cb226">medium.com/lightricks-tech-blog: Step by Step Guide: How to create a Dynamic Service Endpoint via K8S API</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.youtube.com/watch?v=OssIuHbgzJY">Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden</a> 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-/">Nginx: a caching, thumbnailing, reverse proxying image server? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html">highscalability.com: Building nginx and Tarantool based services 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/taubyte/tau">github.com/taubyte/tau: Tau</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+<h2 id="web-servers">Web-servers<a class="headerlink" href="#web-servers" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/21/4/load-balancing">opensource.com: A beginner's guide to load balancing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://httpd.apache.org/">Apache</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/refcardz/essential-apache-http-server">Dzone Refcard: Essential Apache HTTP Server</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cyberciti.biz/faq/how-to-secure-apache-with-lets-encrypt-certificates-on-rhel-8/">nixCraft: How to secure Apache with Let’s Encrypt Certificates on RHEL 8</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html">Apache Reverse Proxy Guide</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/redhatspain/apache-reverse-proxy-jenkins">Apache Reverse Proxy for Jenkins</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/">Nginx</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804">Dzone: Nginx Reverse Proxy Ubuntu 18.04</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.digitalocean.com/community/tools/nginx">NGINXConfig 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/">How To Use the Official NGINX Docker Image</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1">medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.freecodecamp.org/news/the-nginx-handbook/">==freecodecamp.org: The NGINX Handbook== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/resources/library/complete-nginx-cookbook/">==nginx.com: The Complete NGINX Cookbook== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://unit.nginx.org">unit.nginx.org</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground/">jvns.ca: New tool: an nginx playground</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://nginx-playground.wizardzines.com/">nginx-playground.wizardzines.com 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/HAProxy">Wikipedia: HAProxy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.haproxy.org/">haproxy.org</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan">dzone.com: How to Configure HAProxy as a Proxy and Load Balancer</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tecmint.com/install-haproxy-load-balancer-in-linux/">tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8/">Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/">nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems</a> 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/swlh/high-priority-request-queue-with-haproxy-9efd639a8992">High priority request queue with HAProxy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://traefik.io/">Traefik</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/20/3/kubernetes-traefik">opensource.com: Directing Kubernetes traffic with Traefik</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.tomarrell.com/post/traefik_v2_on_kubernetes">blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh/">thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/beyn-technology/is-nginx-dead-is-traefik-v3-20-faster-than-traefik-v2-f28ffb7eed3e">medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than Traefik v2?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/20/4/http-kubernetes-skipper">opensource.com: Try this Kubernetes HTTP router and reverse proxy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://koa">Koa.js</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+<h2 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://networkwalks.com/tcp-ip-model/">networkwalks.com: TCP/IP Model</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/javarevisited/best-https-ssl-and-tls-courses-for-beginners-4437661250b3">medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners in 2022</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.coderco.io/p/tcp-fundamentals-for-software-and">blog.coderco.io: TCP Fundamentals for Software &amp; DevOps Engineers: Building a Strong Foundation in Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cidr.xyz">==cidr.xyz== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://magic-cookie.co.uk/iplist.html">magic-cookie.co.uk/iplist.html</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74">gist.github.com: chadmcrowell/cidr.sh 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/16/12/cidr-network-notation-configuration-linux">==opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://pbxbook.com/other/cidrcheat.html">pbxbook.com: CIDR Cheat Sheet</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.aelius.com/njh/subnet_sheet.html">aelius.com: subnet sheet</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet/">networkproguide.com: CIDR Subnet Mask Cheat Sheet</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul">dzone: What Is CIDR (Classless Inter-Domain Routing)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr/">cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With Network Settings</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html">cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/">tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://awesomeopensource.com/projects/cidr">awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟</a> 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span></li>
+<li><strong>(2024)</strong> <a href="https://matt-rickard.com/how-to-calculate-a-cidr">matt-rickard.com: How to Calculate a CIDR</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator/">build5nines.com: IPv4 Address CIDR Range Reference and Calculator</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/netbox-community/netbox">==github.com/netbox-community/netbox== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://netboxlabs.com/blog/netbox-ipam/">netboxlabs.com: An In-Depth Guide to NetBox for IPAM</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7">youtube: NetBox Zero To Hero</a> 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://docs.ansible.com/ansible/latest/collections/netbox/netbox/index.html">docs.ansible.com: Netbox Ansible Modules 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://wizardzines.com/comics/request-headers/">wizardzines.com: Request Headers</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://wizardzines.com/comics/response-headers/">wizardzines.com: Response Headers</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">wikipedia: List of HTTP status codes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo">slideshare: Http Status Code Errors in SEO</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://http.cat">http.cat 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/HTTP/2">Wikipedia: HTTP/2</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://www.youtube.com/watch?v=WkLBrHW4NhQ">SPDY &amp; HTTP 2 with Akamai CTO Guy Podjarny</a> 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li><a href="http://http2-explained.haxx.se/">cURL mantainer: http2 explained 🌟</a><ul>
+<li><a href="http://daniel.haxx.se/blog/2015/12/14/curl-and-http2-by-default/">cURL mantainer: curl and HTTP/2 by default</a></li>
+<li><a href="http://daniel.haxx.se/blog/2015/12/20/a-2015-retrospective/">cURL mantainer: A 2015 retrosprective</a></li>
+<li><a href="https://http2.github.io">http2.github.io HTTP/2 🌟</a></li>
+<li><a href="https://http2.github.io/faq/">http2.github.io HTTP/2 Frequently Asked Questions 🌟</a></li>
+<li><a href="https://pinboard.in/u:rmurphey/t:http2/">HTTP/2 resources</a></li>
+<li><a href="https://blog.httpwatch.com/2015/01/16/a-simple-performance-comparison-of-https-spdy-and-http2/comment-page-1/">A Simple Performance Comparison of HTTPS, SPDY and HTTP/2 🌟</a></li>
+<li><a href="https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/">blog.cloudflare.com - Tools for debugging, testing and using HTTP/2</a></li>
+<li><a href="https://blog.cloudflare.com/http-2-for-web-developers/">blog.cloudflare.com - HTTP/2 For Web Developers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html">HTTP/2 With JBoss EAP 7 - Tech Preview</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://www.simple-talk.com/dotnet/asp.net/script-loading-between-http1.1-and-http2/">simple-talk.com: Script Loading between HTTP/1.1 and HTTP/2</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="http://www.tecmint.com/apache-performance-tuning/">5 Tips to Boost the Performance of Your Apache Web Server</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/HTTP/3">Wikipedia: HTTP/3</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://http3-explained.haxx.se/">==http3-explained.haxx.se: HTTP/3 explained== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/">alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.fastly.com/blog/improve-http-structured-headers">Improving HTTP with structured header fields 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://pypi.org/project/http-sfv/">http-sfv: HTTP Structured Field Values in Python</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link/">Private Link Reality Bites: Service Endpoints vs Private Link</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper/">Which Azure Network is Cheaper?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://mattias.engineer/blog/2025/azure-ipam-with-terraform/">Manage Azure IPAM with Terraform</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://t.co/F244mqpeaR">Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841">Introducing Subnet Peering in Azure</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups/">Reduce Latency with Azure Proximity Placement Groups</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256">Building a DDoS Response Plan with Azure DDoS Protection</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://t.co/PPlhHZx5Bh">Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b">Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table">Azure Products by Region Table</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke">Hub-Spoke Network Topology in Azure - Azure Architecture Center</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts">Azure Network Security Perimeter Concepts</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538">A Guide to Azure Data Transfer Pricing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://iximiuz.com/en/posts/container-networking-is-simple/">iximiuz.com: Container Networking Is Simple! 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li>How to virtualize network resources to make containers think each of them has a dedicated network stack?<ul>
+<li>How to reach the outside world (e.g. the Internet) from inside the container?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/">NFTables mode for kube-proxy in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://harshityadav95.medium.com/load-balancing-layer-4-vs-layer-7-f37a839afd9c">harshityadav95.medium.com: Load Balancing Layer 4 vs Layer 7</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/recursive-iterative-queries-in-dns/index.html">==media.pearsoncmg.com: Recursive/Iterative Queries in DNS==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+<h2 id="kubernetes-networking">Kubernetes-networking<a class="headerlink" href="#kubernetes-networking" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(2024)</strong> <a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.ovh.com/blog/getting-external-traffic-into-kubernetes-clusterip-nodeport-loadbalancer-and-ingress/">ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learnk8s.io/kubernetes-long-lived-connections">==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes== 🌟🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified/">stackrox.com: Kubernetes Networking Demystified: A Brief Guide</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@sindhujacynixit/fighting-service-latency-in-microservices-with-kubernetes-f5a584f5af36">medium.com: Fighting Service Latency in Microservices With Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0">medium.com: Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/">blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses/">dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.youtube.com/watch?v=VicH6KojwCI">youtube: Kubernetes Ingress Explained Completely For Beginners</a> 🎥 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.weave.works/blog/introduction-to-kubernetes-pod-networking--part-1">AWS and Kubernetes Networking Options and Trade-Offs (part 1)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.weave.works/blog/aws-networking-overview---part-2">AWS and Kubernetes Networking Options and Trade-Offs (part 2)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/faun/service-types-in-kubernetes-24a1587677d6">medium: Service Types in Kubernetes? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://containo.us/blog/kubernetes-ingress-service-api-demystified/">containo.us: Kubernetes Ingress &amp; Service API Demystified</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard">speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://eevans.co/blog/deconstructing-kubernetes-networking/">eevans.co: Deconstructing Kubernetes Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9">externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/">ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/20/8/ingress-controllers-kubernetes">opensource.com: Why I use Ingress Controllers to expose Kubernetes services</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification/">blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@jmrobles/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b">medium: How to setup Hetzner load balancer on a Kubernetes cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://zhimin-wen.medium.com/sticky-sessions-in-kubernetes-56eb0e8f257d">zhimin-wen.medium.com: Sticky Sessions in Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.infoq.com/news/2020/09/kubernetes-ingress-ga/">infoq.com: Kubernetes Ingress Is Now Generally Available</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238">Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.alexellis.io/get-private-kubectl-access-anywhere/">blog.alexellis.io: Get kubectl access to your private cluster from anywhere</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://jmrobles.medium.com/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b">jmrobles.medium.com: How to setup Hetzner load balancer on a Kubernetes cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices/">kubernetes.io: Scaling Kubernetes Networking With EndpointSlices</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/better-programming/creating-a-custom-annotation-for-the-kubernetes-ingress-nginx-controller-444e9d486192">medium: Create a Custom Annotation for the Kubernetes ingress-nginx Controller</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5/">haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devclass.com/2021/01/26/haproxy-ingress-controller-1_5/">devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster/">thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.suse.com/c/nginx-guest-blog-kubernetes-ingress-controller">suse.com: NGINX Guest Blog: NGINX Kubernetes Ingress Controller 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudflare.com/moving-k8s-communication-to-grpc/">blog.cloudflare.com: Moving k8s communication to gRPC</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/AbsaOSS/k8gb">K8GB - Kubernetes Global Balancer</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/">altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kakao/network-node-manager">Network Node Manager</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://getenroute.io/docs/ingress-filter-legos-secure-microservices-apis-using-helm-envoy/">getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.ithands-on.com/2021/04/kubernetes-101-external-services.html">ithands-on.com: Kubernetes 101 : External services - ExternalName, DNS and Endpoints</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.ibm.com/cloud/blog/multizone-kubernetes-and-vpc-load-balancer-setup">ibm.com: Multizone Kubernetes and VPC Load Balancer Setup</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html">opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://nbailey.ca/post/k8s-networking/">nbailey.ca: Domesticated Kubernetes Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/">sookocheff.com: A Guide to the Kubernetes Networking Model 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://build.thebeat.co/a-curious-case-of-aws-nlb-timeouts-in-kubernetes-522bd88a3399">build.thebeat.co: A curious case of AWS NLB timeouts in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ingressbuilder.jetstack.io">ingressbuilder.jetstack.io 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/generating-kubernetes-network-policies-by-sniffing-network-traffic-6d5135fe77db">itnext.io: Generating Kubernetes Network Policies Automatically By Sniffing Network Traffic 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@maninder.bindra/using-nginx-ingress-controller-to-restrict-access-by-ip-ip-whitelisting-for-a-service-deployed-to-bd5c86dc66d6">medium: Using nginx-ingress controller to restrict access by IP (ip whitelisting) for a service deployed to a Kubernetes (AKS) cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.openshift.com/blog/grpc-or-http/2-ingress-connectivity-in-openshift">openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://inlets.dev/blog/2021/07/08/short-lived-clusters.html">inlets.dev: Fixing Ingress for short-lived local Kubernetes clusters</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/how-to-simplify-kubernetes-ingress-egress-traffic-management/">nginx.com: How to Simplify Kubernetes Ingress and Egress Traffic Management</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html">blog.teamhephy.info: Running Workflow Without Any LoadBalancer</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/">blog.alexellis.io: Get a public LoadBalancer for your private Kubernetes cluster 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://searchitoperations.techtarget.com/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer">searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes">monzo.com: Controlling outbound traffic from Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/codex/access-application-externally-in-kubernetes-cluster-using-load-balancer-service-d1b7858d51">medium: Access Application Externally In Kubernetes Cluster using Load Balancer Service</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/why-and-how-of-kubernetes-ingress-and-networking-6cb308ca03d2">itnext.io: Why and How of Kubernetes Ingress (and Networking) 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://techdozo.dev/grpc-load-balancing-on-kubernetes-using-headless-service/">techdozo.dev: gRPC load balancing on Kubernetes (using Headless Service)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/zerolb-a-new-decentralized-pattern-for-load-balancing/">thenewstack.io: ZeroLB, a New Decentralized Pattern for Load Balancing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable/">ungleich.ch: Making kubernetes kube-dns publicly reachable</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ungleich.ch/u/blog/kubernetes-without-ingress/">ungleich.ch: Building Ingress-less Kubernetes Clusters</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/ingress-controllers-the-more-the-merrier/">thenewstack.io: Ingress Controllers: The More the Merrier</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://levelup.gitconnected.com/setting-up-application-load-balancer-ingress-for-the-pods-running-in-aws-eks-fargate-519e20e97497">levelup.gitconnected.com: Setting up Application Load Balancer (Ingress) for the Pods running in AWS EKS Fargate</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devopscube.com/kubernetes-ingress-tutorial/">devopscube.com: Kubernetes Ingress Tutorial For Beginners 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ystatit.medium.com/how-to-change-kubernetes-kube-apiserver-ip-address-402d6ddb8aa2">ystatit.medium.com: How to Change Kubernetes Kube-apiserver IP Address</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes">monzo.com: Controlling outbound traffic from Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/reducing-kubernetes-costs-70-percent-in-cloud-nginx-opsani-prometheus/">nginx.com: Reducing Kubernetes Costs by 70% in the Cloud with NGINX, Opsani, and Prometheus</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.ithands-on.com/2021/09/kubernetes-101-changing-service-type.html">ithands-on.com: Kubernetes 101 : Changing a service type</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cloud.redhat.com/blog/global-load-balancer-approaches">cloud.redhat.com: Global Load Balancer Approaches 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://loft.sh/blog/kubernetes-nginx-ingress-10-useful-configuration-options">==loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://technos.medium.com/kubernetes-services-for-absolute-beginners-nodeport-139b7060fe3">==technos.medium.com: Kubernetes Services for Absolute Beginners — NodePort== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://fransemalila.medium.com/kubernetes-networking-cea2e1b7d2b3">fransemalila.medium.com: Kubernetes Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes/">==thenewstack.io: Ingress Controllers: The Swiss Army Knife of Kubernetes==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/kubernetes-networking-101">==nginx.com: Kubernetes Networking 101==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/the-programmer/working-with-clusterip-service-type-in-kubernetes-45f2c01a89c8">medium.com/the-programmer: Working With ClusterIP Service Type In Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://olamiko.medium.com/technical-series-kubernetes-networking-5a5dc3823163">olamiko.medium.com: Technical Series: Kubernetes Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learnk8s.io/kubernetes-network-packets">==learnk8s.io: Tracing the path of network traffic in Kubernetes== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devopslearners.com/kubernetes-ingress-tutorial-for-beginners-26c2f7727bc">==devopslearners.com: Kubernetes Ingress Tutorial For Beginners==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devopscube.com/configure-ingress-tls-kubernetes/">devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.armosec.io/blog/kubernetes-ingress-beginners-guide/">armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c">==itnext.io: Kubernetes Service Type LB for On Prem Deployments==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8">==medium.com/techbeatly: Kubernetes Networking Fundamentals==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://rajivsharma-2205.medium.com/demystify-how-traffic-reaches-directly-to-pod-on-using-alb-ingress-kubernetes-io-target-type-ip-f2d1be346b46">rajivsharma-2205.medium.com: Demystify how traffic reaches directly to pod on using alb.ingress.kubernetes.io/target-type: ip</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/linux-shots/kubernetes-ingress-as-reverse-proxy-to-application-running-outside-cluster-206b6003f9cb">medium.com/linux-shots: Kubernetes ingress as reverse proxy to Application running outside cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@zhaoyi0113/kubernetes-how-does-service-network-work-in-the-cluster-d235b69ff536">medium.com/@zhaoyi0113: Kubernetes — How does service network work in the cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@pavanbelagatti/kubernetes-service-types-explained-2709cde3bc0c">==medium.com/@pavanbelagatti: Kubernetes Service Types Explained== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tkng.io/">==tkng.io: The Kubernetes Networking Guide== 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tkng.io/arch/">==tkng.io/arch: THE KUBERNETES NETWORK MODEL== 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/stakater/efficiently-expose-services-on-kubernetes-494a80f88aad">medium.com/stakater: Efficiently Expose Services on Kubernetes (part 1) 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://medium.com/stakater/efficiently-expose-services-on-kubernetes-part-2-c302f135f719">medium.com/stakater: Efficiently Expose Services on Kubernetes (part 2)</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers/">==platform9.com: Ultimate Guide to Kubernetes Ingress Controllers== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://faun.pub/kubernetes-service-types-tutorial-39223391316c">faun.pub: Kubernetes Service Types Tutorial | Pavan Belagatti 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/slalom-build/managing-ingress-traffic-on-kubernetes-platforms-ebd537cdfb46">medium.com/slalom-build: Managing Ingress Traffic on Kubernetes Platforms 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://craig-godden-payne.medium.com/how-does-ingress-work-in-kubernetes-f3b121d0351f">craig-godden-payne.medium.com: How does ingress work in Kubernetes?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes/">dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress/">==home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress== 🌟🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://sanjimoh.medium.com/demystifying-kubernetes-networking-episode-1-ca5605a97f87">sanjimoh.medium.com: Demystifying Kubernetes Networking — Episode 1</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dev.to/imjoseangel/tune-up-your-kubernetes-application-performance-with-a-small-dns-configuration-1o46">==dev.to: Tune up your Kubernetes Application Performance with a small DNS Configuration==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@mehmetodabashi/kubernetes-networking-and-service-object-understanding-clusterip-and-nodeport-with-hands-on-study-90cfeaf66e8c">medium.com/@mehmetodabashi: Kubernetes networking and service object: Understanding ClusterIp and nodePort with hands on study</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@jasonmfehr/inspecting-kubernetes-client-to-api-server-network-traffic-cd6d1802bb43">medium.com/@jasonmfehr: Inspecting Kubernetes Client to API Server Network Traffic</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/geekculture/k8s-network-cni-introduction-b035d42ad68f">medium.com/geekculture: K8s Network — CNI Introduction</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/patilswapnilv/getting-started-with-kubernetes-networking-7e10623fc78f">==medium.com/patilswapnilv: Getting Started with Kubernetes Networking== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://faun.pub/kubernetes-ingress-with-nginx-3c77e703e91a">==faun.pub: Kubernetes Ingress with Nginx==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/codex/access-application-externally-in-kubernetes-cluster-using-load-balancer-service-d1b7858d51">medium.com/codex: Access Application Externally In Kubernetes Cluster using Load Balancer Service</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/inspecting-and-understanding-service-network-dfd8c16ff2c5">itnext.io: Inspecting and Understanding k8s Service Network 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ovidiuborlean.medium.com/networking-latency-measurement-in-kubernetes-with-sockperf-plugin-68283a0ed989">ovidiuborlean.medium.com: Networking latency measurement in Kubernetes with Sockperf plugin</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/kubernetes-network-deep-dive-7492341e0ab5">itnext.io: Kubernetes networking deep dive: Did you make the right choice?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@muhidabid.cs/why-does-kubernetes-need-ingress-73d969fb6ffe">medium.com/@muhidabid.cs: Why does Kubernetes need Ingress?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.devgenius.io/k8s-ipvs-mode-introduction-6457a02cd91a">blog.devgenius.io: K8s — ipvs Mode Introduction</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.edureka.co/blog/kubernetes-networking/">==edureka.co: Kubernetes Networking – A Comprehensive Guide To The Networking Concepts In Kubernetes==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://whyk8s.substack.com/p/why-not-dns">whyk8s.substack.com: Why not DNS?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/geekculture/kubernetes-gateway-api-the-intro-you-need-to-read-80965f7acd82">medium.com/geekculture: Kubernetes Gateway API: The Intro You Need To Read</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ksingh7.medium.com/kubernetes-endpoint-object-your-bridge-to-external-services-3fc48263b776">==ksingh7.medium.com: Kubernetes Endpoint Object: Your Bridge to External Services== 🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@ahmet16ck/what-is-load-balancer-and-how-does-it-work-in-kubernetes-5ab5f0537069">medium.com/@ahmet16ck: What Is Load Balancer and How Does It Work In Kubernetes ? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas">api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/illuminations-mirror/basic-networking-and-communication-between-pods-in-kubernetes-2e1627b03a87">medium.com/illuminations-mirror: Basic | Networking and Communication Between Pods in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.devops.dev/networking-in-kubernetes-55dcf794b9cd">blog.devops.dev: Networking in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@mustafaaltunok/how-ingress-service-deployment-and-pod-link-to-eachother-d3a6ae2c0e06">medium.com/@mustafaaltunok: How Ingress, Service, Deployment and Pod Link to each other</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html">inlets.dev: How to Get Ingress for Private Kubernetes Clusters</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.devops.dev/demystifying-kubernetes-understanding-ingress-configuration-and-best-practices-fb34e33e5f5f">blog.devops.dev: Demystifying Kubernetes:Understanding Ingress, Configuration, and Best Practices</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dev.to/narasimha1997/communication-between-microservices-in-a-kubernetes-cluster-1n41">==dev.to/narasimha1997: Communication between Microservices in a Kubernetes cluster== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/google-cloud/kubernetes-ingress-vs-gateway-api-647ee233693d">==medium.com/google-cloud: Kubernetes Ingress Vs Gateway API== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/nerd-for-tech/kubernetes-deploying-nginx-with-a-configmap-e8a2fe59bcb1">medium.com/nerd-for-tech: Kubernetes: Deploying NGINX with a ConfigMap | Chanel Jemmott</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-1-service-abe1c5b03fc">medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part I. Service | Brandon Kang</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-2-ingress-18f44a712690">medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part II. Ingress | Brandon Kang</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://shahneil.medium.com/what-are-kubernetes-endpoints-and-how-to-use-them-a5a5da56f4d4">==shahneil.medium.com: What Are Kubernetes Endpoints?==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://fr4nk.xyz/understanding-ingress-in-kubernetes-a-comprehensive-guide-b23b5cf37f8d">==fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud/">thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.palark.com/comparing-ingress-controllers-for-kubernetes/">blog.palark.com: Comparing Ingress controllers for Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://community.ops.io/danielepolencic/learning-how-an-ingress-controller-works-by-building-one-in-bash-3fni">==community.ops.io: Kubernetes Ingress Controller. How does it work?===</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@rasikzilte711/kubernetes-networking-a-guide-to-services-ingress-network-policies-dns-and-cni-plugins-fc1ad7d22ab4">medium.com/@rasikzilte711: Kubernetes Networking — A Guide to Services, Ingress, Network Policies, DNS, and CNI Plugins</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer/">sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/codex/capture-tcpdump-with-ksniff-and-wireshark-from-kubernetes-c212b93ff9f9">medium.com/codex: Capture tcpdump with ksniff and wireshark from Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html">cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html">matthewpalmer.net: Kubernetes Networking Guide for Beginners</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572">itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://adil.medium.com/network-traffic-shaping-in-kubernetes-topology-aware-routing-e4ea4a03dd20">adil.medium.com: Network Traffic Shaping in Kubernetes: Topology Aware Routing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li>One challenge in cloud-distributed systems is keeping network traffic within the same availability zone<ul>
+<li>Kubernetes introduced Topology Aware Routing to address this issue</li>
+<li>This ensures requests between apps remain in the same zone</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://otterize.com/blog/mastering-kubernetes-networking-otterize-s-journey-in-cloud-native-packet-management">otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/">Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/">Introduction to Azure Application Gateway for Containers (AGC)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://learnkube.com/kubernetes-services-and-load-balancing">Kubernetes Services and Load Balancing Explained</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide/">blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kuderko.medium.com/fixing-bad-cpu-usage-distribution-in-kubernetes-e1e43ed87cd6">kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@bubu.tripathy/headless-k8s-service-924c689607a7">medium.com: Headless Kubernetes Service</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.goglides.dev/bkpandey/headless-services-in-kubernetes-what-why-and-how-39fl">goglides.dev: Headless services in Kubernetes Vs Regular Service: What, Why, and How?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://opensource.com/article/21/10/kubernetes-networkpolicy">opensource.com: What you need to know about Kubernetes NetworkPolicy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce">itnext.io: CKAD Scenarios about Ingress and NetworkPolicy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://editor.cilium.io">==editor.cilium.io== 🌟🌟🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://whyk8s.substack.com/p/why-networkpolicies">whyk8s.substack.com: Why NetworkPolicies?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://yuminlee2.medium.com/kubernetes-network-policies-a93c2f588e31">yuminlee2.medium.com: Kubernetes Network Policies</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://bagas-awibowo.medium.com/helm-templating-network-policy-using-helm-783b2f7e401a">==bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://traefik.io/blog/transition-from-ingress-nginx-to-traefik">Transitioning from ingress-nginx to Traefik in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html">blog.teamhephy.info: Learn how to use the Nginx Ingress controller to serve traffic over SSH with TCP load balancing</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/guide-to-choosing-ingress-controller-part-4-nginx-ingress-controller-options/">nginx.com: A Guide to Choosing an Ingress Controller, Part 4: NGINX Ingress Controller Options</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v1.0.0">NGINX Ingress Controller - v1.0.0</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://amy-ma.medium.com/ingress-configuration-d9f13c5bcf1a">amy-ma.medium.com: Nginx Ingress Configuration</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://devopscube.com/setup-ingress-kubernetes-nginx-controller/">devopscube.com: How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@jonathan_37674/how-to-secure-kubernetes-ingress-by-armo-cb86086ec540">medium.com/@jonathan_37674: How to secure Kubernetes ingress? | By ARMO</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nginx.com/blog/automating-multi-cluster-dns-with-nginx-ingress-controller">nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://engineering.backmarket.com/how-we-improved-third-party-availability-and-latency-with-nginx-in-kubernetes-bb3fc7224ae4">==engineering.backmarket.com: How we improved third-party availability and latency with Nginx in Kubernetes== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://towardsdev.com/kubernetes-deploying-nginx-servers-with-configmaps-shared-services-with-minikube-618aee9a8ff6">towardsdev.com: Kubernetes: Deploying Nginx Servers with ConfigMaps &amp; Shared Services with Minikube</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://faun.pub/how-to-monitor-and-alert-on-nginx-ingress-in-kubernetes-6d7d172f0399">faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://sumanprasad.hashnode.dev/a-beginners-guide-to-ingress-and-ingress-controllers-in-kubernetes">sumanprasad.hashnode.dev: A Beginner's Guide to Ingress and Ingress Controllers in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://akyriako.medium.com/configure-path-based-routing-with-nginx-ingress-controller-64a63cd4d6bd">akyriako.medium.com: Configure path-based routing with Nginx Ingress Controller</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://mattias.engineer/k8s/ingress/">==mattias.engineer: Kubernetes-101: Ingress== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://trstringer.com/kubernetes-ingress-with-contour/">trstringer.com: Kubernetes Ingress with Contour</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://gateway-api.sigs.k8s.io/">==gateway-api.sigs.k8s.io== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kubernetes.io/blog/2021/04/22/evolving-kubernetes-networking-with-the-gateway-api/">kubernetes.io: Evolving Kubernetes networking with the Gateway API</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/unifying-kubernetes-service-networking-again-with-the-gateway-api/">thenewstack.io: Unifying Kubernetes Service Networking (Again) with the Gateway API 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.flomesh.io/kubernetes-gateway-api-evolution-of-service-networking-aa76ec4efa7e">blog.flomesh.io: Kubernetes Gateway API — Evolution of Service Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.armosec.io/blog/kubernetes-gateway-api/">==armosec.io: The New Kubernetes Gateway API and Its Use Cases==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/google-cloud/security-with-kubernetes-gateway-api-dcbb934ed2a4">medium.com/google-cloud: Security with Kubernetes Gateway API 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://navendu.me/posts/gateway-vs-ingress-api/">navendu.me: Comparing Kubernetes Gateway and Ingress APIs</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/">NFTables mode for kube-proxy in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods">dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://arthurchiao.art/blog/cracking-k8s-node-proxy/">arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841">Introducing Subnet Peering in Azure</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link/">Private Link Reality Bites: Service Endpoints vs Private Link</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters/">developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/multi-cluster-kubernetes-networking-with-netmaker-bfa4e22eb2fb">itnext.io: Multi-Cluster Kubernetes Networking with Netmaker</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://github.com/gravitl/netmaker">NetMaker</a> Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.</li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://www.howtoforge.com/kubernetes_network_policy/">howtoforge.com: Network Policy in Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/avmconsulting-blog/exploring-network-policies-in-kubernetes-c8a3d8ed00cb">medium: How to Provision Network Policies in Kubernetes | AWS 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.learncloudnative.com/blog/2020-10-07-network-policies">learncloudnative.com: Kubernetes Network Policy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.bionconsulting.com/blog/kubernetes-network-policies">bionconsulting.com: Kubernetes Network Policies</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://www.bionconsulting.com/blog/kubernetes-network-policies-part-2">bionconsulting.com: Kubernetes Network Policies - Part 2</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/the-kubernetes-network-security-effect/">thenewstack.io: The Kubernetes Network Security Effect 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://faun.pub/control-traffic-flow-to-and-from-kubernetes-pods-with-network-policies-bc384c2d1f8c">faun.pub: Control traffic flow to and from Kubernetes pods with Network Policies</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.openshift.com/blog/network-policies-controlling-cross-project-communication-on-openshift">openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://loft-sh.medium.com/kubernetes-network-policies-a-practitioners-guide-c9bb4cdd0dbc">loft-sh.medium.com: Kubernetes Network Policies: A Practitioner’s Guide 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://loft.sh/blog/kubernetes-network-policies-a-practitioners-guide">loft.sh: Kubernetes Network Policies: A Practitioner's Guide 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/codex/kubernetes-network-polices-are-they-really-useful-c3a153c49316">medium: Kubernetes Network Policies: Are They Really Useful? 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://loft.sh/blog/kubernetes-network-policies-for-isolating-namespaces">loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://arthurchiao.art/blog/cracking-k8s-network-policy/">arthurchiao.art: Cracking Kubernetes Network Policy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://engineering.mercari.com/en/blog/entry/20220214-managing-network-policies/">engineering.mercari.com: Managing Network Policies for namespaces isolation on a multi-tenant Kubernetes cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.devgenius.io/kubernetes-namespace-wide-network-policy-1126fafdf221">blog.devgenius.io: Simplify Kubernetes Network Policy Generation</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.slycreator.com/network-policies-understanding-kubernetes-network-policies">blog.slycreator.com: Network Policies: Understanding Kubernetes Network Policies</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cilium.io/">cilium.io 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cilium.io/blog/2021/02/10/network-policy-editor">cilium.io: NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://editor.cilium.io/">editor.cilium.io 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://buoyant.io/2020/12/23/kubernetes-network-policies-with-cilium-and-linkerd">buoyant.io: Kubernetes network policies with Cilium and Linkerd</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/installing-cilium-on-kubernetes-in-a-fast-and-efficient-way-dbcb79ce9699">itnext.io: Installing Cilium on Kubernetes in a fast and efficient way</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://cilium.io/blog/2021/05/11/cni-benchmark">cilium.io: CNI Benchmark: Understanding Cilium Network Performance</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://www.cockroachlabs.com/blog/cockroachdb-kubernetes-cilium/">cockroachlabs.com: How to use Cluster Mesh for Multi-Region Kubernetes Pod Communication</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li>Thanks to services provided by AWS, GCP, and Azure it’s become relatively easy to develop applications that span multiple regions. This is great because slow apps kill businesses. There is one common problem with these applications: they are not supported by multi-region database architecture.<ul>
+<li>CockroachDB is built to solve that problem and we’re doing it in production for many applications today. But that’s not what this blog is about. In this blog, I will provide a solution for the problem of getting Kubernetes pods to talk to each other in multi-region deployments.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://cilium.io/blog/2021/05/20/cilium-110">cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@charled.breteche/kubernetes-security-control-pod-to-pod-communications-with-cilium-network-policies-d7275b2ed378">medium.com/@charled.breteche: Kubernetes Security — Control pod to pod communications with Cilium network policies</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.solo.io/blog/exploring-cilium-layer-7-capabilities-compared-to-istio/">solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://betterprogramming.pub/k8s-network-policy-made-simple-with-cilium-editor-a5b55781291c">betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/ahmetb/kubernetes-network-policy-recipes">==ahmetb/kubernetes-network-policy-recipes== 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/">Supporting the Evolving Ingress Specification in Kubernetes 1.18</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/faun/ingress-service-types-in-kubernetes-3e9b68b78307">medium: Ingress service types in Kubernetes 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485">==itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)==</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/stakater/Xposer">Xposer 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/IP_address_management">IP Address Management (IPAM)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li>
+<p><strong>(2024)</strong> <a href="https://www.fusionlayer.com/products/ip-address-management-software-defined-ipam-infinity">fusionlayer.com: Software-Defined IP Address Management (IPAM)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li>Cloud computing and service automation are changing the way in which applications and data are being delivered and consumed. The existing 30-year-old networking model is failing to keep up with the automated service architectures and the Internet of Things (IoT) based on end-to-end automation.<ul>
+<li><strong>To facilitate the migration to cloud-era computing, service providers and data centers must add networking into the automated service workflows.</strong> This requires agility and elasticity that traditional networking products are not designed to provide. As IT environments of tomorrow involve a plethora of orchestrators and controllers spinning up services and applications inside shared networks, they all must be managed and provisioned by a unified solution authoritative for all network-related information.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/">Kubernetes.io: Network Plugins</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers/">rancher.com: Container Network Interface (CNI) Providers</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/containernetworking">github.com/containernetworking 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://github.com/containernetworking/cni">CNI</a></li>
+</ul>
+</li>
+<li><strong>(2024)</strong> <a href="https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking">dzone: How to Understand and Set Up Kubernetes Networking 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@vikram.fugro/container-networking-interface-aka-cni-bdfe23f865cf">medium: Container Networking Interface aka CNI</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-august-2020-6e1b757b9e49">itnext.io: Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network (Updated: August 2020)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Kubernetes Networking</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/coreos/flannel">Flannel</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span><ul>
+<li><a href="https://www.weave.works/docs/net/latest/overview/">Weave-net</a></li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud">AWS-VPC</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li><a href="https://www.kube-router.io/">kube-router</a><ul>
+<li><a href="https://www.projectcalico.org/">Calico</a></li>
+<li><a href="https://github.com/vmware-tanzu/antrea">VMware-tanzu Antrea</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://en.wikipedia.org/wiki/IP_address_management">IPAM</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://github.com/nokia/danm">Damn</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+<ul>
+<li><a href="https://github.com/openshift/multus-cni">Multus</a><ul>
+<li><a href="https://github.com/cni-genie/CNI-Genie">CNI-Genie</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(2024)</strong> <a href="https://www.tigera.io/">tigera.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></p>
+</li>
+<li><strong>(2024)</strong> <a href="https://www.projectcalico.org/">Project Calico 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69">medium: Calico for Kubernetes networking: the basics &amp; examples</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/">thenewstack.io: Tigera's Calico Aims to Ease Connectivity Pain with Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.projectcalico.org/advertising-kubernetes-service-ips-with-calico-and-bgp/">projectcalico.org: Advertising Kubernetes Service IPs with Calico and BGP</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://mhmxs.blogspot.com/2020/12/autoscaling-calico-route-reflector.html">mhmxs.blogspot.com: Autoscaling Calico Route Reflector topology in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.tigera.io/blog/enforcing-network-security-policies-with-gitops-part-1">tigera.io: Enforcing Network Security Policies with GitOps – Part 1 (Calico + ArgoCD)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.devgenius.io/k8s-networking-calico-part1-7f74395b6fe2">blog.devgenius.io: K8s Networking — Calico (Part1)</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/@arbnair97/introduction-to-kubernetes-network-policy-and-calico-based-network-policy-675a7fa6b5dc">medium.com/@arbnair97: Introduction to Kubernetes Network Policy and Calico Based Network Policy</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://medium.com/faun/how-to-autoscale-the-dns-service-in-a-kubernetes-cluster-cbb46ae89678">medium: How to Autoscale the DNS Service in a Kubernetes Cluster</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://thenewstack.io/supercharge-coredns-with-cluster-addons/">thenewstack.io: Supercharge CoreDNS with Cluster Addons 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://sysdig.com/blog/how-to-monitor-coredns/">sysdig.com: How to monitor coreDNS 🌟</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable/">ungleich.ch: Making kubernetes kube-dns/CoreDNS publicly reachable</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://iamitcohen.medium.com/dns-in-kubernetes-how-does-it-work-7c4690fd813e">iamitcohen.medium.com: DNS in Kubernetes, how does it work?</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes/">nslookup.io: The life of a DNS query in Kubernetes</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://levelup.gitconnected.com/kubernetes-with-coredns-e40772c5e6ee">levelup.gitconnected.com: Kubernetes with CoreDNS</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://github.com/kubernetes/enhancements">NodeLocal DNSCache</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://povilasv.me/kubernetes-node-local-dns-cache/">Kubernetes Node Local DNS Cache</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://www.k8gb.io">k8gb.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://blog.abaganon.com/going-global-with-kubernetes-490cf51e2bf8">blog.abaganon.com: Why you probably won’t use K8gb.io</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+<li><strong>(2024)</strong> <a href="https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8">dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks</a> 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
