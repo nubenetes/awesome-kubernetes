@@ -115,40 +115,82 @@ class V2VisionEngine:
 
     async def _verify_link_health(self, links: List[Dict]) -> List[Dict]:
         online_links = []
-        BATCH_SIZE = 100
-        async with httpx.AsyncClient(timeout=10.0, follow_redirects=True) as client:
+        BATCH_SIZE = 50  # Smaller batches for stability
+        
+        # User-Agent rotation to mimic real browsers
+        user_agents = [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0"
+        ]
+
+        async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, verify=False) as client:
             for i in range(0, len(links), BATCH_SIZE):
                 batch = links[i:i+BATCH_SIZE]
-                tasks = [self._check_single_link(client, l) for l in batch]
+                tasks = []
+                for l in batch:
+                    ua = user_agents[i % len(user_agents)]
+                    tasks.append(self._check_single_link_resilient(client, l, ua))
+                
                 results = await asyncio.gather(*tasks)
                 online_links.extend([r for r in results if r is not None])
+                
                 if i % 500 == 0:
-                    log_event(f"    [Health] Verified {i}/{len(links)} links...")
+                    log_event(f"    [Resilient Health] Verified {i}/{len(links)} links...")
+                
+                # Brief pause to avoid triggering Rate Limits
+                await asyncio.sleep(0.1)
+                
         return online_links
 
-    async def _check_single_link(self, client, link: Dict) -> Dict:
+    async def _check_single_link_resilient(self, client, link: Dict, ua: str, attempts: int = 3) -> Dict:
         url = link["url"]
-        # Skip health check if cached as healthy recently (simple heuristic)
-        if url in self.cache and self.cache[url].get("status") == "online":
+        
+        # 1. Immediate Pass for Trusted / Logic-Enriched Domains
+        if "github.com" in url or "awesome" in link["title"].lower():
+            link["health_status"] = "trusted"
             return link
 
-        try:
-            resp = await client.head(url)
-            if resp.status_code < 400:
-                self.cache.setdefault(url, {})["status"] = "online"
-                return link
-            # Fallback to GET for some servers that block HEAD
-            resp = await client.get(url)
-            if resp.status_code < 400:
-                self.cache.setdefault(url, {})["status"] = "online"
-                return link
-        except: pass
-        
-        # If it was foundational, keep even if down (maybe temporary)
-        if "awesome" in link["title"].lower():
+        # 2. Cached Health
+        if url in self.cache and self.cache[url].get("status") == "online":
+            link["health_status"] = "cached"
             return link
+
+        # 3. Multi-Attempt Verification with Identity Rotation
+        headers = {
+            "User-Agent": ua,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+            "Referer": "https://www.google.com/"
+        }
+
+        for attempt in range(attempts):
+            try:
+                # Use GET instead of HEAD as many sites block HEAD or return 405
+                resp = await client.get(url, headers=headers, timeout=10.0)
+                if resp.status_code < 400:
+                    self.cache.setdefault(url, {})["status"] = "online"
+                    link["health_status"] = "online"
+                    return link
+                
+                # If 404, it's a definitive fail
+                if resp.status_code == 404:
+                    log_event(f"    [Health] Definitive 404: {url}")
+                    return None
+                    
+            except Exception as e:
+                if attempt == attempts - 1:
+                    # Final attempt failed - Soft Flagging instead of removal
+                    # If it's not a 404, we keep it but with a warning
+                    link["health_status"] = "uncertain"
+                    link["warning"] = "offline"
+                    return link
             
-        return None
+            # Backoff before retry
+            await asyncio.sleep(0.5 * (attempt + 1))
+            
+        return link
 
     async def _evaluate_and_score_resources(self, links: List[Dict]) -> List[Dict]:
         refined = []

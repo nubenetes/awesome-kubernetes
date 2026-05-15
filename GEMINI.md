@@ -19,7 +19,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 13. **Detailed Logging for V2**: When running the V2 Optimizer, agents MUST use unbuffered logging and detailed output messages. If the optimizer returns '0 links kept', the agent MUST investigate the logs to determine if it was due to AI selection or a parsing/API error.
 14. **Persistent V2 Caching**: The V2 Optimizer MUST use a persistent cache file (`data/v2_cache.json`) to store AI evaluations (year, quality, category). This is mandatory to minimize API costs and ensure execution speed across 15k+ links.
 15. **GitHub Metadata Enrichment**: For all `github.com` resources, the bot MUST attempt to fetch real-time metadata (stars, last commit) using the GitHub API. This data must be included in the V2 rendering to provide current context.
-16. **Asynchronous Link Health**: Every V2 generation cycle MUST perform asynchronous health checks (HTTP HEAD) on all links. Broken links (404) should be excluded or flagged as offline to maintain the library's technical integrity.
+16. **Resilient Link Health**: Every V2 generation cycle MUST perform asynchronous health checks. The bot MUST use identity rotation (User-Agents) and multiple attempts (3x) with backoff to minimize false negatives. Only definitive **404 Not Found** errors lead to removal; other failures (timeouts, 403s) result in the link being preserved but flagged as `[OFFLINE?]` to ensure maximum technical preservation. GitHub and 'Foundational' resources are exempt from removal based on health checks.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
