@@ -138,18 +138,69 @@ async def master_orchestrator():
         log_event("[!] No new links found to process.")
         return
 
-    # 4. Expansion and Initial Deduplication
-    log_event(f"[*] Expanding and deduplicating {len(all_raw_assets)} raw links...")
-    semaphore = asyncio.Semaphore(20)
+    # 4. Expansion, Resilient Health Check and Initial Deduplication
+    log_event(f"[*] Expanding, verifying and deduplicating {len(all_raw_assets)} raw links...")
+    semaphore = asyncio.Semaphore(15)
+    
+    # User-Agent rotation for resilient discovery
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ]
 
-    async def process_asset(asset):
+    async def process_asset(asset, idx):
         async with semaphore:
+            # 1. Expand URL
             expanded_url = await resolve_url(asset["url"])
             asset["url"] = expanded_url
+            
+            # 2. Resilient Health Check (Identity Rotation)
+            ua = user_agents[idx % len(user_agents)]
+            headers = {"User-Agent": ua, "Referer": "https://www.google.com/"}
+            
+            # Trust high-value domains immediately
+            if any(trusted in expanded_url.lower() for trusted in ["github.com", "gitlab.com", "microsoft.com", "google.com"]):
+                asset["health"] = "trusted"
+            else:
+                try:
+                    async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12, verify=False) as client:
+                        resp = await client.get(expanded_url)
+                        if resp.status_code == 404:
+                            asset["health"] = "dead" # Definitively dead
+                        else:
+                            asset["health"] = "online"
+                except:
+                    asset["health"] = "uncertain" # Preserving if not 404
+            
+            # 3. GitHub Metadata Enrichment
+            if "github.com" in expanded_url:
+                match = re.search(r'github\.com/([^/]+)/([^/]+)', expanded_url)
+                if match:
+                    owner, repo = match.groups()
+                    repo = repo.split("#")[0].split("?")[0]
+                    gh_api = f"https://api.github.com/repos/{owner}/{repo}"
+                    gh_headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
+                    try:
+                        async with httpx.AsyncClient(timeout=5.0) as client:
+                            gh_resp = await client.get(gh_api, headers=gh_headers)
+                            if gh_resp.status_code == 200:
+                                gh_data = gh_resp.json()
+                                asset["gh_stars"] = gh_data.get("stargazers_count")
+                                asset["gh_updated"] = gh_data.get("updated_at", "").split("T")[0]
+                    except: pass
+            
             return asset
 
-    all_raw_assets = await asyncio.gather(*[process_asset(a) for a in all_raw_assets])
+    all_raw_assets = await asyncio.gather(*[process_asset(a, i) for i, a in enumerate(all_raw_assets)])
     
+    # Filter out definitively dead links
+    initial_count = len(all_raw_assets)
+    all_raw_assets = [a for a in all_raw_assets if a.get("health") != "dead"]
+    dead_count = initial_count - len(all_raw_assets)
+    if dead_count > 0:
+        log_event(f"[*] Health Filter: Removed {dead_count} definitively dead (404) links.")
+
     unique_assets_map = {}
     for asset in all_raw_assets:
         clean_url = asset["url"].split('#')[0].rstrip('/').lower()
