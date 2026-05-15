@@ -14,7 +14,7 @@
 - [dev.to: My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg)
 - [blog.bitsrc.io: Google Chrome Hidden Features Every Developer Should Know](https://blog.bitsrc.io/google-chrome-experimental-features-for-developers-a9a7cc9d1b30)
 
-<center>
+<center markdown="1">
 
 [![Jenkins Is The Way](images/chrome_devtools_replay_network_request.jpg)](https://twitter.com/addyosmani) 
 
@@ -25,7 +25,7 @@
 - [Firefox DevTools](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox)
 - Tip: Firefox has a really nice JSON viewer built in. Transforms JSON files (and API responses) into an easy to browse & search tree.
 
-<center>
+<center markdown="1">
 
 [![firefox viewer built in](images/firefox_json_viewer_built_in.jpg)](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox)
 
@@ -40,7 +40,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WkLBrHW4NhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

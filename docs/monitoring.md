@@ -170,7 +170,7 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 - [developers.redhat.com: Monitoring .NET Core applications on Kubernetes](https://developers.redhat.com/blog/2020/08/05/monitoring-net-core-applications-on-kubernetes/)
 - [Systems Monitoring with Prometheus and Grafana](https://flightaware.engineering/systems-monitoring-with-prometheus-grafana/)
 
-<center>
+<center markdown="1">
 
 [![openshift3 Monitoring](images/ocp_monitoring.png)](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
 
@@ -439,7 +439,7 @@ done
 - [thenewstack.io: How OpenTelemetry Works with Kubernetes](https://thenewstack.io/how-opentelemetry-works-with-kubernetes/)
 - [medium.com/@bijit211987: Grafana with OpenTelemetry, Vendor-neutral and open-source approach](https://medium.com/@bijit211987/grafana-with-opentelemetry-vendor-neutral-and-open-source-approach-ab4bc08f67e9)
 
-<center>
+<center markdown="1">
 
 [![Jaeger UI](images/jaeger_ui.png)](https://www.jaegertracing.io/)
 
@@ -452,7 +452,7 @@ done
 - [medium: Jaeger VS OpenTracing VS OpenTelemetry](https://medium.com/jaegertracing/jaeger-and-opentelemetry-1846f701d9f2)
 - [medium: Using Jaeger and OpenTelemetry SDKs in a mixed environment with W3C Trace-Context](https://medium.com/jaegertracing/jaeger-clients-and-w3c-trace-context-c2ce1b9dc390)
 
-<center>
+<center markdown="1">
 
 ![Jaeger Vs OpenTelemetry](images/jaeger_vs_opentelemetry.png)
 
@@ -508,7 +508,7 @@ done
 - [Jenkins pipeline shared library for the project Elastic APM 🌟](https://github.com/elastic/apm-pipeline-library)
 - [bqstack.com: Monitoring Application using Elastic APM](https://bqstack.com/b/detail/109)
 
-<center>
+<center markdown="1">
 
 ![Elastic APM](images/elasticapm.png)
 
@@ -624,7 +624,7 @@ Resolve your software incidents 10x faster
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/J1S3NyN9ZeLjh9" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MartinEtmajer/challenges-in-a-microservices-age-monitoring-logging-and-tracing-on-red-hat-openshift" title="Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift" target="_blank">Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift</a> </strong> from <strong><a href="//www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/lr07J585Y86D7i" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MartinEtmajer/monitoring-microservices-at-scale-on-openshift-67500621" title="Monitoring Microservices at Scale on OpenShift (OpenShift Commons Briefing #52)" target="_blank">Monitoring Microservices at Scale on OpenShift (OpenShift Commons Briefing #52)</a> </strong> from <strong><a href="//www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
@@ -638,7 +638,7 @@ Resolve your software incidents 10x faster
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The ecosystem of CI / CD tools that integrates in <a href="https://twitter.com/hashtag/OpenTelemetry?src=hash&amp;ref_src=twsrc%5Etfw">#OpenTelemetry</a> traces is growing rapidly with already <a href="https://twitter.com/hashtag/Jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#Jenkins</a>, <a href="https://twitter.com/hashtag/Maven?src=hash&amp;ref_src=twsrc%5Etfw">#Maven</a>, <a href="https://twitter.com/hashtag/Ansible?src=hash&amp;ref_src=twsrc%5Etfw">#Ansible</a>, and the generic otel-cli<a href="https://t.co/GeKUMd5zl4">https://t.co/GeKUMd5zl4</a><a href="https://t.co/KrMIGZ3vkp">https://t.co/KrMIGZ3vkp</a><a href="https://t.co/UiJ0Dk78Pd">https://t.co/UiJ0Dk78Pd</a><a href="https://t.co/UdwnxXOUa4">https://t.co/UdwnxXOUa4</a> <a href="https://t.co/MsYViY6jwf">pic.twitter.com/MsYViY6jwf</a></p>&mdash; Cyrille Le Clerc (@cyrilleleclerc) <a href="https://twitter.com/cyrilleleclerc/status/1430070961366257693?ref_src=twsrc%5Etfw">August 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

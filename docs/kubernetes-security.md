@@ -144,7 +144,7 @@
 - [==dev.to/thenjdevopsguy: Securing Kubernetes Pods For Production Workloads==](https://dev.to/thenjdevopsguy/securing-kubernetes-pods-for-production-workloads-51oh)
 - [dev.to/thenjdevopsguy: The 4 C’s Of Kubernetes Security](https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e)
 
-<center>
+<center markdown="1">
 
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
 
@@ -462,7 +462,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [spectrocloud.com: Kubernetes security best practices: 5 easy ways to cut risk](https://www.spectrocloud.com/blog/kubernetes-security-best-practices-5-easy-ways-to-cut-risk/)
 - [medium.com/@cloud_tips: Kubernetes Security Best Practices](https://medium.com/@cloud_tips/kubernetes-security-best-practices-ea1e3913c001)
 
-<center>
+<center markdown="1">
 
 [![kubernetes security controls landscape](images/kubernetes-security-controls-landscape.jpg)](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
 
@@ -546,7 +546,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QgctrpTpJec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -561,7 +561,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes base64 encodes secrets because that makes arbitrary data play nice with JSON. It had nothing to do with the security model (or lack thereof). It did not occur to us at the time that people could mistake base64 for some form of encryption.</p>&mdash; Daniel Smith (@originalavalamp) <a href="https://twitter.com/originalavalamp/status/1411755706861064192?ref_src=twsrc%5Etfw">July 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

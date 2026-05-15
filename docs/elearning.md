@@ -65,7 +65,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A cloud certificate is no job guarantee but comes with very cool perks:<br><br>- more job opportunities <br>- potential salary increase <br>- stand out from others<br>- prove knowledge<br>- demonstrate expertise<br>- stay relevant<br>- invest in yourself<br><br>And it’s actually fun to get certified! ⭐</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1630090874376843264?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

@@ -60,7 +60,7 @@
 - [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)
 - [http.cat 🌟](https://http.cat)
 
-<center>
+<center markdown="1">
 
 [![http status codes](images/http_status_codes.jpg){: style="width:50%"}](https://twitter.com/alexxubyte)
 
@@ -128,7 +128,7 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
     ![how does https work](images/how_does_https_work.png)
 
@@ -138,7 +138,7 @@
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">List of HTTP Status Codes Cheat Sheet: <a href="https://t.co/1m8gci63Vs">pic.twitter.com/1m8gci63Vs</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1607231830662733826?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

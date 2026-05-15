@@ -243,7 +243,7 @@ Kubernetes packages
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykwb1d0DXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9cwjtN3gkD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -257,7 +257,7 @@ Kubernetes packages
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is Three-way Strategic Merge Update in <a href="https://twitter.com/hashtag/Helm?src=hash&amp;ref_src=twsrc%5Etfw">#Helm</a>?<br><br>A 3-way merge reconciles a modified configuration with an original configuration while preserving any changes or deletions made to the original configuration in the interim.<br>more... 👇<a href="https://twitter.com/learnk8s?ref_src=twsrc%5Etfw">@learnk8s</a> <a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/cncf?src=hash&amp;ref_src=twsrc%5Etfw">#cncf</a> <a href="https://twitter.com/hashtag/k8s?src=hash&amp;ref_src=twsrc%5Etfw">#k8s</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://t.co/HlmPeHG8On">pic.twitter.com/HlmPeHG8On</a></p>&mdash; Rahul Rai🌥️ (@rahulrai_in) <a href="https://twitter.com/rahulrai_in/status/1397768176297865221?ref_src=twsrc%5Etfw">May 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

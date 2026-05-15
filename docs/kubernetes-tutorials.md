@@ -128,7 +128,7 @@
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -142,7 +142,7 @@
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A Kubernetes cluster is made of control plane nodes and worker nodes. And the nodes are made up of a number of components with specific functionalities 🌊<br><br>Thread 🧵👇🏻<a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/docker?src=hash&amp;ref_src=twsrc%5Etfw">#docker</a> <a href="https://t.co/hN9LptCU71">pic.twitter.com/hN9LptCU71</a></p>&mdash; SigNoz (@SignozHQ) <a href="https://twitter.com/SignozHQ/status/1498296938814480387?ref_src=twsrc%5Etfw">February 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

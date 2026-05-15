@@ -120,7 +120,7 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
 	[![best practices temp solution](images/devel_temp_solution.png)](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
 
@@ -131,7 +131,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">10 Best Github repositories for all web developers:<br><br>🧵👇🏻</p>&mdash; Sunil Kumar (@sunilc_) <a href="https://twitter.com/sunilc_/status/1401902233478828038?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

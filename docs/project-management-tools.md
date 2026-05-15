@@ -55,7 +55,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The daily standup is NOT a status meeting!<br><br>It is a planning meeting and our most important task is to talk about impediments.<br><br>It should never be used to report to anyone. It is for the team, by the team, and not for the managers.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1371842534801039361?ref_src=twsrc%5Etfw">March 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

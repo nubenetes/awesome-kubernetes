@@ -1149,7 +1149,7 @@ elastic quotas - Effortless optimization at its finest!
 
 - [github.com/Azure/eraser 🌟](https://github.com/Azure/eraser) 🧹 Cleaning up images from Kubernetes nodes. **Eraser is a tool that helps Kubernetes admins remove a list of non-running images from all Kubernetes nodes in a cluster**
 
-<center>
+<center markdown="1">
 
 [![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
 
@@ -1258,7 +1258,7 @@ elastic quotas - Effortless optimization at its finest!
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the biggest problems in IT is that we keep reinventing the wheel.<br><br>We are running the same circles, producing similar technologies to solve the same problems.<br><br>Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1388448114047164416?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -1277,7 +1277,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CB79eTFbR0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

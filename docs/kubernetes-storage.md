@@ -288,7 +288,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     [![gigaom radar report on storage](images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
 
@@ -298,7 +298,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">General rule of thumb: there is no such thing as persistent storage in Kubernetes.</p>&mdash; Richard North (@whichrich) <a href="https://twitter.com/whichrich/status/1479435059715321856?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -308,7 +308,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/0swOh5C3OVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

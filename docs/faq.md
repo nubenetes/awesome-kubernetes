@@ -62,7 +62,7 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
 	[![history of microservices](images/history_of_microservices.png)](https://bit.ly/kubeappserver)
 

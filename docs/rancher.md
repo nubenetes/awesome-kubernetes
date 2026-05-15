@@ -48,7 +48,7 @@
     - Rancher, on the other hand, is a platform designed to manage multiple Kubernetes clusters. It eases Kubernetes cluster management in large environments in several ways. For example, Rancher simplifies operations such as cluster provisioning, centralized security management, and monitoring workloads using popular tools such as Prometheus. Additionally, Rancher has an extensive application catalog of Helm charts for various applications such as Kubecost, Prometheus, Grafana, and MySQL.
 - [suse.com: My First Impressions with SUSE Rancher Kubernetes Projects](https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects/)
 
-<center>
+<center markdown="1">
 
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
 

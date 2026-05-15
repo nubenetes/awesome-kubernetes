@@ -103,7 +103,7 @@
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     [![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
 
@@ -115,7 +115,7 @@
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/9_s3h_GVzZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

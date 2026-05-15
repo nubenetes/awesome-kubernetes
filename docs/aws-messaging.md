@@ -30,7 +30,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A handy Decision Tree for choosing the right messaging service on AWS.<br><br>As per my calculations, following it gives you a 90% chance of making the right choice.<br><br>Read more in the thread 🧵👇 <a href="https://t.co/s7Q5uoENop">pic.twitter.com/s7Q5uoENop</a></p>&mdash; Maciej Radzikowski (@radzikowski_m) <a href="https://twitter.com/radzikowski_m/status/1513941279175942155?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

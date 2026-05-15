@@ -236,7 +236,7 @@
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
 	[![MLOps Workflow Scheduler Poll](images/mlops_workflow_scheduler_poll.png)](https://www.linkedin.com/feed/update/urn:li:activity:6923979009311559680)
 
@@ -247,7 +247,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To my JVM friends looking to explore Machine Learning techniques - you don’t necessarily have to learn Python to do that. There are libraries you can use from the comfort of your JVM environment. 🧵👇</p>&mdash; Maria Khalusova (@mariaKhalusova) <a href="https://twitter.com/mariaKhalusova/status/1331982686819389440?ref_src=twsrc%5Etfw">November 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

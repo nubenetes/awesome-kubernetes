@@ -169,7 +169,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you secure your <a href="https://twitter.com/awscloud?ref_src=twsrc%5Etfw">@awscloud</a> access?<br><br>11 secrets hackers don&#39;t want you to know 📈. <br><br>Number 7 will blow your mind 🤯<br><br>A thread 🔽🔽🔽<a href="https://twitter.com/hashtag/AWSCommunity?src=hash&amp;ref_src=twsrc%5Etfw">#AWSCommunity</a></p>&mdash; Andrea Cavagna (@a_cava94) <a href="https://twitter.com/a_cava94/status/1567168785437659137?ref_src=twsrc%5Etfw">September 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

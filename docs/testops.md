@@ -54,7 +54,7 @@
 
 ??? note "Click to expand!"
 
-    <center>
+    <center markdown="1">
 
     [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 

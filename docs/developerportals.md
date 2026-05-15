@@ -239,7 +239,7 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is clean code?<br><br>Clean code is the code if:<br>- it is easily readable<br>- it is easily extendable and maintainable<br>- it is as simple as possible<br>- it is cheap and risk-free to change<br>- it reveals our intent<br>- it has corresponding clean tests <br><br>What else would you add?</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1353311679845703685?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

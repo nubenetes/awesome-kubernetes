@@ -1,6 +1,6 @@
 # About Nubenetes
 
-<center>
+<center markdown="1">
 
 ==*"Open Source is most successful when is played as a positive sum game" (Sarah Novotny)*==
 
@@ -89,7 +89,7 @@ Tips: ask the hiring manager what experience they have with Cloud Automation, Cl
 
 ??? The absolutely difficult thing is reaching volume production without going bankrupt "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -99,7 +99,7 @@ Tips: ask the hiring manager what experience they have with Cloud Automation, Cl
 
 ??? Think like an engineer and not like a politician "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XzpJvvsNj0E?clip=Ugkx5e13a72WjgowgmAtFieyNFuiKarXWXDp&amp;clipt=EJ-RHRja1iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/7ruXlR08JZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -108,7 +108,7 @@ Tips: ask the hiring manager what experience they have with Cloud Automation, Cl
 
 Let's improve both the private & public IT sector and the opportunities in large, medium and small companies, and give us a star on GitHub if you like this blog!!
 
-<center>
+<center markdown="1">
 
 <iframe width="200" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/17422127&color=%230a1ef1&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/thespaceman78" title="thespaceman78" target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="https://soundcloud.com/thespaceman78/the-seatbelts-tank-ost-cowboy" title="The Seatbelts - Tank!" target="_blank" style="color: #cccccc; text-decoration: none;">The Seatbelts - Tank!</a></div>
 
@@ -119,7 +119,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 
 ??? note "Click to expand!"
 
-	<center>
+	<center markdown="1">
 
 	"In the U.S. in 2016, 3.9 million jobs are associated with cloud computing, with 384,478 of them in IT. The median salary for IT professionals with cloud computing experience was $90,950. (Forbes)"
 
@@ -138,7 +138,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 <details>
   <summary>Stats 1. Click to expand!</summary>
 
-<center>
+<center markdown="1">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a3bnNi2R8Vo" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/45Dt1Hdm39U" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -150,7 +150,7 @@ Let's improve both the private & public IT sector and the opportunities in large
   <details>
     <summary>Stats 2. Click to expand!</summary>
 
-  <center>
+  <center markdown="1">
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/CxUDjQ0uUhI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cRuTgJHYAtI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -163,7 +163,7 @@ Let's improve both the private & public IT sector and the opportunities in large
   <details>
     <summary>Stats 3. Inflation and Unemployment. Click to expand!</summary>
 
-  <center>
+  <center markdown="1">
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MrmVCMhE6BE" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/-Q7Ga4D6ty8" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -175,7 +175,7 @@ Let's improve both the private & public IT sector and the opportunities in large
   <details>
     <summary>Stats 4. Government Debt and Income Tax Rate. Click to expand!</summary>
 
-  <center>
+  <center markdown="1">
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/AhvMuxcvlt0" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/5kG7LscIyBE" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -189,7 +189,7 @@ Let's improve both the private & public IT sector and the opportunities in large
   <details>
     <summary>Stats 5. Corruption, Favours, Influence Peddling, Unfair Competition, No Meritocracy. Click to expand!</summary>
 
-  <center>
+  <center markdown="1">
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/lpz2twlK4JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/v_zxzysqaKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -200,7 +200,7 @@ Let's improve both the private & public IT sector and the opportunities in large
   <details>
     <summary>Stats 6. IT, Languages and Olympics. Click to expand!</summary>
 
-  <center>
+  <center markdown="1">
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/2Uj1A9AguFs" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Og847HVwRSI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -212,7 +212,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 </details>
 
 ---
-<center>
+<center markdown="1">
 
 [![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
 
