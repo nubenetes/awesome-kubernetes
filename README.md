@@ -55,25 +55,25 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **17133+** |
+| **Total Technical Resources (Links)** | **17110+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4053+** |
+| **Total Commits** | **4074+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 
 ### Top Categories by Density
 
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes](docs/kubernetes.md) | 1149 |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 740 |
-| [Terraform](docs/terraform.md) | 640 |
+| [Kubernetes](docs/kubernetes.md) | 1147 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 739 |
+| [Terraform](docs/terraform.md) | 639 |
 | [Demos](docs/demos.md) | 538 |
 | [Git](docs/git.md) | 497 |
-| [Azure](docs/azure.md) | 487 |
+| [Azure](docs/azure.md) | 484 |
 | [Jenkins](docs/jenkins.md) | 458 |
 | [Devsecops](docs/devsecops.md) | 407 |
 | [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 379 |
-| [Monitoring](docs/monitoring.md) | 347 |
+| [Monitoring](docs/monitoring.md) | 346 |
 
 ### Historical Growth (Commits & References)
 
@@ -90,13 +90,13 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 494 | 2,040 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 515 | 2,126 | **Agentic AI Surge** (May 2026 Inception) |
 
 #### 2026: The Agentic Monthly Surge
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 469 | 1,936 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 490 | 2,023 | **Agentic Inception (Gemini Era)** |
 
 ### Content Distribution & Semantic Clustering
 
