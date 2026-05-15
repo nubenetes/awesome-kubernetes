@@ -99,7 +99,6 @@
 
 ## Kubernetes Logging
   - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart/) - *(Related to prometheus topic)*
-  - [KoaPerf: Kubernetes Performance Monitoring](https://koaperf-apeseqd2cehnhjgh.z03.azurefd.net/) - KoaPerf is a performance monitoring tool specifically designed for Kubernetes environments. It aims to provide insights into the performance characteristics of Kubernetes clusters and applications running within them.
   - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) - *(Related to kubernetes-tools topic)*
 
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)
