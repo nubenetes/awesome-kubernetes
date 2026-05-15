@@ -111,17 +111,38 @@ class IntelligentLinkCleaner:
         return url, True, None, "Conservative Keep"
 
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
-        headers = {"User-Agent": strategy["ua"], "Referer": strategy["ref"], "Accept-Language": "en-US,en;q=0.9"}
+        # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
+        headers = {
+            "User-Agent": strategy["ua"], 
+            "Referer": strategy["ref"], 
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+            "Connection": "keep-alive"
+        }
+        
+        # Immediate pass for high-trust domains to avoid over-cleaning
+        if any(trusted in url.lower() for trusted in ["github.com", "gitlab.com", "microsoft.com", "google.com", "aws.amazon.com"]):
+            return True, "Trusted Domain"
+
         paywall_indicators = ["sign in", "create free account", "member-only story", "página de suscripción", "inicia sesión"]
+        
         if strategy["type"] == "http":
             try:
-                async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12) as client:
+                # Use GET as primary (HEAD is often blocked)
+                async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=15, verify=False) as client:
                     resp = await client.get(url)
-                    if resp.status_code in [404, 410]: return False, "404"
                     if resp.status_code < 400: return True, "HTTP OK"
-                    if resp.status_code in [403, 429, 401]: return False, f"Blocked ({resp.status_code})"
-            except: return False, "http_error"
+                    
+                    # Definitive Failures
+                    if resp.status_code in [404, 410]: return False, "404"
+                    
+                    # Soft Failures (Keep but flag)
+                    if resp.status_code in [403, 429, 401, 500, 502, 503]: 
+                        return True, f"Soft Block/Error ({resp.status_code})"
+            except Exception as e:
+                return True, f"Connection Timeout/Error (Preserving)"
         else:
+            # Playwright Logic for JS-Heavy/Protected Sites
             try:
                 from playwright.async_api import async_playwright
                 async with async_playwright() as p:
@@ -129,18 +150,25 @@ class IntelligentLinkCleaner:
                     context = await browser.new_context(user_agent=strategy["ua"], extra_http_headers={"Referer": strategy["ref"]})
                     page = await context.new_page()
                     try:
-                        response = await page.goto(url, wait_until="domcontentloaded", timeout=25000)
-                        if not response: return True, "timeout"
+                        response = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                        if not response: return True, "JS Timeout (Preserving)"
                         if response.status in [404, 410]: return False, "404"
-                        content = (await page.content()).lower(); title = (await page.title()).lower()
-                        if any(kw in content for kw in paywall_indicators): return True, "Paywall Detected"
+                        
+                        content = (await page.content()).lower()
+                        title = (await page.title()).lower()
+                        
+                        if any(kw in content for kw in paywall_indicators): return True, "Paywall (Preserving)"
+                        
                         soft_404_keywords = ["page not found", "404 not found", "artículo no encontrado", "página no encontrada"]
-                        if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): return False, "soft_404"
-                        final_url = page.url.rstrip('/'); original_base = "/".join(url.split("/")[:3])
-                        if len(url) > len(original_base) + 10 and final_url == original_base: return False, "redirect_to_home"
+                        if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): 
+                            return False, "soft_404"
+                            
                         return True, "Render OK"
                     finally: await browser.close()
-            except: return True, "engine_error"
+            except: 
+                return True, "Browser Engine Error (Preserving)"
+        
+        return True, "Conservative Keep"
 
     async def build_global_registry(self):
         print("[*] Construyendo registro global...")
