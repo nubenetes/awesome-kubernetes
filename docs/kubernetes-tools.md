@@ -1041,7 +1041,6 @@ elastic quotas - Effortless optimization at its finest!
 
 ## kubernetes-operators-controllers
   - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) - *(Related to kubernetes-operators-controllers topic)*
-  - [AKS Bitnami Open Source Deployments](http://blog.aks.azure.com/2025/04/03/aks-bitnami-open-source-deployments) - *(Related to azure topic)*
 
 - [Azure/aad-pod-identity)](https://github.com/Azure/aad-pod-identity) Assign Azure Active Directory Identities to Kubernetes applications.
 
