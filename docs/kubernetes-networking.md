@@ -306,7 +306,6 @@ Cilium allows users to specify an egress NAT policy
 - [==ahmetb/kubernetes-network-policy-recipes== 🌟](https://github.com/ahmetb/kubernetes-network-policy-recipes) Example recipes for Kubernetes Network Policies that you can just copy paste. This repository contains various use cases of Kubernetes Network Policies and sample YAML files to leverage in your setup. If you ever wondered how to drop/restrict traffic to applications running on Kubernetes, this is for you
 
 ## Kubernetes Ingress Specification
-  - [Azure Front Door Integration with AKS Ingress for TLS and App Routing](http://blog.aks.azure.com/2025/03/14/afd-aks-ingress-tls-approuting) 🌟 - This blog post details how to integrate Azure Front Door (AFD) with Azure Kubernetes Service (AKS) Ingress controller to handle TLS termination and application routing. It provides a technical walkthrough for setting up a more robust and scalable ingress solution for Kubernetes applications hosted on AKS.
 
 - [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/)
 - [medium: Ingress service types in Kubernetes 🌟](https://medium.com/faun/ingress-service-types-in-kubernetes-3e9b68b78307)
@@ -447,4 +446,3 @@ Cilium allows users to specify an egress NAT policy
 
 </center>
 </details>
-  - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) - *(Related to kubernetes topic)*
