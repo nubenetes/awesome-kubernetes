@@ -356,7 +356,7 @@ Cilium allows users to specify an egress NAT policy
 
 <center>
 
-[![kubernetes sdn solutions](/images/kubernetes_sdn_solutions.png)](https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/)
+[![kubernetes sdn solutions](images/kubernetes_sdn_solutions.png)](https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/)
 
 </center>
 
@@ -407,7 +407,7 @@ Cilium allows users to specify an egress NAT policy
 
     <center>
 
-    [![k8s service types img](/images/k8s_service_types_matrix.png)](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)
+    [![k8s service types img](images/k8s_service_types_matrix.png)](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)
 
     </center>
 

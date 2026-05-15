@@ -165,7 +165,7 @@
 
 	<center>
 
-	[![OCP 4 Architecture](/images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
+	[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 
 	</center>
 

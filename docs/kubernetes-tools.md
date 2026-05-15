@@ -1151,7 +1151,7 @@ elastic quotas - Effortless optimization at its finest!
 
 <center>
 
-[![komodor workflow](/images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
+[![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
 
 </center>
 

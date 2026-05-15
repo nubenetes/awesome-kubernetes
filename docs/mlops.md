@@ -238,7 +238,7 @@
 
 	<center>
 
-	[![MLOps Workflow Scheduler Poll](/images/mlops_workflow_scheduler_poll.png)](https://www.linkedin.com/feed/update/urn:li:activity:6923979009311559680)
+	[![MLOps Workflow Scheduler Poll](images/mlops_workflow_scheduler_poll.png)](https://www.linkedin.com/feed/update/urn:li:activity:6923979009311559680)
 
 	</center>
 

@@ -1358,7 +1358,7 @@
 
 <center>
 
-[![k8s experts be like](/images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
+[![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
 
 </center>
 
@@ -1609,7 +1609,7 @@ will dive into the details of how they work
 - [linkedin.com/pulse: Avoid These Kubernetes Anti-Patterns | Pavan Belagatti](https://www.linkedin.com/pulse/avoid-kubernetes-anti-patterns-pavan-belagatti/)
 - [medium.com/@ehsan-khodadadi: Patterns and anti-patterns for a reliable Kubernetes infra deployment](https://medium.com/@ehsan-khodadadi/patterns-and-anti-patterns-for-a-reliable-kubernetes-infra-deployment-5724f6749b7a)
 
-[![Top 10 Kubernetes patterns](/images/top_10_kubernetes_patterns.png)](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
+[![Top 10 Kubernetes patterns](images/top_10_kubernetes_patterns.png)](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
 
 ## Kubernetes Scheduling and Scheduling Profiles
 
@@ -1667,7 +1667,7 @@ will dive into the details of how they work
 
 <center>
 
-[![Serverless](/images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/)
+[![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/)
 
 </center>
 
@@ -1785,7 +1785,7 @@ will dive into the details of how they work
 
 <center>
 
-[![Kubernetes: Up and Running](/images/kubernetes_up_running_kelsey_hightower.gif)](http://shop.oreilly.com/product/0636920223788.do)
+[![Kubernetes: Up and Running](images/kubernetes_up_running_kelsey_hightower.gif)](http://shop.oreilly.com/product/0636920223788.do)
 
 </center>
 
@@ -1825,29 +1825,29 @@ will dive into the details of how they work
 
     <center>
 
-    [![Kubernetes architecture](/images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
+    [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
-    [![10 most common mistakes](/images/10_common_kubernetes_mistakes.jpg){: style="width:60%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
+    [![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="width:60%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
 
-    [![5 Open-source projects that make #Kubernetes even better](/images/five-oss-projects-kubernetes.jpg){: style="width:80%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
+    [![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:80%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
 
-    [![kubernetes arch multicloud hybrid](/images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud/)
+    [![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud/)
 
-    [![Kubernetes components](/images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
+    [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
-    [![Container flowchart](/images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
+    [![Container flowchart](images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
 
-    [![dockerswarm vs kubernetes](/images/dockerswarm_vs_kubernetes.png)](https://www.imaginarycloud.com/blog/docker-vs-kubernetes/)
+    [![dockerswarm vs kubernetes](images/dockerswarm_vs_kubernetes.png)](https://www.imaginarycloud.com/blog/docker-vs-kubernetes/)
 
-    ![simple k8s cluster meme](/images/simple_k8s_cluster_meme.jfif)
+    ![simple k8s cluster meme](images/simple_k8s_cluster_meme.jfif)
 
-    [![Kubernetes not endgame](/images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
+    [![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
 
-    ![k8s namespaces](/images/k8s_namespaces.jfif)
+    ![k8s namespaces](images/k8s_namespaces.jfif)
 
-    [![K8s arch mindmap](/images/k8s_arch_mindmap.png)](https://medium.com/@raymon_dut/whats-the-relationship-between-pod-deployment-replicaset-and-service-in-kubernetes-57bf3be22abb)
+    [![K8s arch mindmap](images/k8s_arch_mindmap.png)](https://medium.com/@raymon_dut/whats-the-relationship-between-pod-deployment-replicaset-and-service-in-kubernetes-57bf3be22abb)
 
-    [![k8s stack pionative](/images/k8s_stack_pionative.webp)](https://www.pionative.com/post/6-important-things-you-need-to-run-kubernetes-in-production)
+    [![k8s stack pionative](images/k8s_stack_pionative.webp)](https://www.pionative.com/post/6-important-things-you-need-to-run-kubernetes-in-production)
 
     </center>
 

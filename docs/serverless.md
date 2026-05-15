@@ -172,7 +172,7 @@
 
 	<center>
 
-	[![Serverless](/images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/)
+	[![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/)
 
 	</center>
 

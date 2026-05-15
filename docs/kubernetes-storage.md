@@ -290,7 +290,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
     <center>
 
-    [![gigaom radar report on storage](/images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
+    [![gigaom radar report on storage](images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
 
     </center>
 

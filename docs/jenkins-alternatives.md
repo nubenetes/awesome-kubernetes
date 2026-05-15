@@ -234,7 +234,7 @@
 
     <center>
 
-    [![gitlab](/images/gitlab.jpg)](https://gitlab.com/)
+    [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
 
     </center>
 

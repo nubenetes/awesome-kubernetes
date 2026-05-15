@@ -147,7 +147,7 @@
 
 <center>
 
-[![Statefull and Stateless Aplications](/images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
+[![Statefull and Stateless Aplications](images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
 
 </center>
 

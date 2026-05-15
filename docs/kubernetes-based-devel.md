@@ -206,7 +206,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
     <center>
 
-    [![lens ide](/images/header-lens.png)](https://k8slens.dev/)
+    [![lens ide](images/header-lens.png)](https://k8slens.dev/)
 
     </center>
 

@@ -377,7 +377,7 @@
 
 <center>
 
-[![pod cheat sheets](/images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
+[![pod cheat sheets](images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
 
 </center>
 
@@ -555,11 +555,11 @@
 
 	<center>
 
-	![googling stuff](/images/googling_stuff.jpg)
+	![googling stuff](images/googling_stuff.jpg)
 
-	[![url cheatsheet](/images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
+	[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
 
-    ![junit cheat sheet](/images/junit_cheatsheet.jfif)
+    ![junit cheat sheet](images/junit_cheatsheet.jfif)
 
 	</center>
 

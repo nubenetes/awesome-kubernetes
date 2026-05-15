@@ -105,9 +105,9 @@
 
     <center>
 
-    [![Kubernetes vs Docker Swarm](/images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
+    [![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
 
-    [![when to choose kubernetes](/images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
+    [![when to choose kubernetes](images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
 
     </center>
 

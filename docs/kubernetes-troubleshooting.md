@@ -250,7 +250,7 @@
 
     <center>
 
-    [![learnk8s debug your pods](/images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
+    [![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
 
     </center>
 
