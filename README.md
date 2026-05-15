@@ -279,11 +279,29 @@ graph LR
 
 ## 🌳 Branching Strategy & Lifecycle
 
--   **Pre-2026 Era (Trunk-based):** For years, Nubenetes followed a "git-trunk" model where all changes were made directly to the `master` branch.
--   **Post-May 2026 (Modern Lifecycle):**
-    -   **`develop` Branch:** The primary branch for AI agents. All curation PRs and link updates target `develop`.
-    -   **`master` Branch:** The production-ready branch. Used for stable releases and deployments.
-    -   **Automated Sync:** Workflows are configured to always checkout `develop` to ensure the AI operates on the latest "bleeding edge" content.
+Nubenetes follows a dual-branch GitOps model to ensure stability while allowing for aggressive AI-driven curation.
+
+-   **`develop` Branch (Bleeding Edge):**
+    -   The primary branch for all activities.
+    -   **ALL Pull Requests (from humans or bots) MUST target this branch.**
+    -   Agentic AI workflows (`agentic_cron.yml`, `v2_optimizer.py`) operate exclusively on this branch.
+-   **`master` Branch (Production):**
+    -   The stable, production-ready branch that powers [nubenetes.com](https://nubenetes.com).
+    -   **Direct PRs to `master` are strictly prohibited.**
+    -   Only the repository owner performs the final review and merge from `develop` to `master`.
+
+---
+
+## 🤝 Contributing to the Archive
+
+Community contributions have been the backbone of Nubenetes since 2018. If you want to add a reference, improve a description, or fix a link, please follow these guidelines:
+
+1.  **Target the `develop` branch:** Do not create PRs against `master`.
+2.  **Manual Method (Legacy but Welcome):** You can still use the traditional method of creating a branch and submitting a Pull Request.
+3.  **The AI Paradigm Shift:**
+    -   As of May 2026, Nubenetes uses an **Agentic AI filtering and categorization engine**.
+    -   **Ambiguity Warning:** We are currently in a transitional phase. It is not yet fully defined how manual human contributions will be weighed against AI-scored assets. Your PR might be reviewed by both the maintainer and the Agentic Curator to ensure it meets the 2026 quality standards (MVQ).
+    -   We appreciate your patience as we refine the integration between human collective intelligence and autonomous AI curation.
 
 ---
 

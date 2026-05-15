@@ -54,6 +54,18 @@ To ensure robust rendering across GitHub, VSCode, and MkDocs, follow these stand
     *   Recursive loops without proper termination.
 5.  **Integration with MkDocs**: Ensure `pymdownx.superfences` is configured in `mkdocs.yml` to support Mermaid blocks within Markdown.
 
+## 🛡️ Repository Policies & Branch Protection
+
+To maintain the integrity of the archive and ensure the AI agents operate correctly:
+
+1.  **Branch Hierarchy**:
+    *   `master`: Read-only for contributors/bots. Restricted to repository owner only.
+    *   `develop`: The only valid target for Pull Requests.
+2.  **Pull Request Policy**:
+    *   AI agents MUST always target `develop`.
+    *   Manual contributions (human PRs) targeting `master` must be automatically or manually redirected to `develop`.
+3.  **Owner-Only Merges**: Only the repository owner has the authority to merge `develop` into `master` after verifying the visual health dashboard and metrics.
+
 ## 📝 README Synchronization & Maintenance Protocols
 
 The `README.md` is the primary entry point for Nubenetes and must accurately reflect the state of both the **V1 (Exhaustive)** and **V2 (Elite)** editions. AI agents and contributors MUST follow these protocols:
