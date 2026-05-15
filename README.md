@@ -57,7 +57,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **17133+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4002+** |
+| **Total Commits** | **4014+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 
 ### Top Categories by Density
@@ -90,13 +90,13 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 443 | 1,829 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 455 | 1,879 | **Agentic AI Surge** (May 2026 Inception) |
 
 #### 2026: The Agentic Monthly Surge
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 418 | 1,726 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 430 | 1,775 | **Agentic Inception (Gemini Era)** |
 
 ### Content Distribution & Semantic Clustering
 
@@ -180,7 +180,7 @@ graph TD
 
 ## 🏛️ Dual-Edition Architecture (V1 vs V2)
 
-Nubenetes now operates with two distinct editions to serve different engineering needs. Both are managed via GitOps and deployed to [nubenetes.com](https://nubenetes.com).
+Nubenetes operates with two distinct editions to serve different engineering needs. Both are managed via GitOps and deployed to [nubenetes.com](https://nubenetes.com).
 
 ### V1: The Exhaustive Archive
 - **Purpose:** Preservation of all technical knowledge since 2018.
@@ -190,12 +190,20 @@ Nubenetes now operates with two distinct editions to serve different engineering
 
 ### V2: The Agentic Elite Edition
 - **Purpose:** A high-density, enterprise-grade portal for the 2026 ecosystem.
-- **Algorithm:** Uses the `V2VisionEngine` to select only the top 10% of resources based on quality, impact, and freshness.
+- **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
 
-### Comparison Matrix
+### The Incremental Elite Engine
+To maintain the high-density quality of V2 without redundant AI costs, the `V2VisionEngine` implements an incremental synchronization strategy:
+1. **Intelligent Caching**: It utilizes `data/v2_cache.json` to store previous AI evaluations. Only NEW links added to V1 are sent to Gemini for classification.
+2. **Dynamic "Upgrading"**: Even for cached links, the engine performs real-time local updates:
+   - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy.
+   - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
+   - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
+3. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
+### Comparison Matrix
 | Feature | V1 (Exhaustive) | V2 (Elite) |
 | :--- | :--- | :--- |
 | **Philosophy** | "Leave no resource behind" | "Only the best for 2026" |
@@ -233,7 +241,7 @@ Nubenetes uses a sophisticated multi-stage automation pipeline. Below is the det
 | # | Workflow | File | Purpose | Trigger | Target |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1 | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`agentic_cron.yml`](.github/workflows/agentic_cron.yml) | **Primary Discovery Engine:** Scans sources (X.com, etc.), evaluates with Gemini, and updates V1 (`docs/`). | Monthly / Manual | `develop` |
-| 2 | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | **Optimization Layer:** Scans V1 and generates the Elite edition for V2 (`v2-docs/`). | After #1 | `develop` |
+| 2 | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | **Optimization Layer:** Scans V1 and generates the Elite edition for V2 (`v2-docs/`). Supports **incremental sync** (uses cache) and **manual re-evaluation** via `force_reevaluate` input. | Automated: `push` to `docs/**` / After #1. Manual: `workflow_dispatch`. | `develop` |
 | 3 | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`readme_sync.yml`](.github/workflows/readme_sync.yml) | **Doc Synchronization:** Recalculates metrics, link growth, and diagrams in real-time. | Push to `develop` | `develop` |
 | 4 | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | **Maintenance:** Global asynchronous health check, deduplication, and `[OFFLINE?]` flagging. | Monthly / Manual | `develop` |
 | 5 | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | **Historical Ingestion:** Processes manual JSON/MD backups through the Agentic AI pipeline. | Manual | `develop` |

@@ -2,7 +2,17 @@ name: Nubenetes V2 Agentic Builder
 
 on:
   workflow_dispatch:
-  # Automatically run after a successful curation run to sync V2
+    inputs:
+      force_reevaluate:
+        description: 'Force AI re-evaluation (ignores cache for tags/years)'
+        type: boolean
+        default: false
+  # Automatic detection: Sync V2 whenever V1 archive is updated (manual or automated)
+  push:
+    branches: [ develop ]
+    paths:
+      - 'docs/**'
+  # Support automated sync after curation run
   workflow_run:
     workflows: ["Nubenetes Automated Agentic Curation"]
     types:
@@ -37,6 +47,7 @@ jobs:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_EVAL: ${{ github.event.inputs.force_reevaluate }}
           PYTHONPATH: .
         run: |
           python -u src/v2_optimizer.py

@@ -34,16 +34,16 @@ class V2VisionEngine:
         self.library_criteria = (
             "You are a Technical Librarian in 2026. Your mission is to build a high-density, professional reference library.\n"
             "PHASE 1: TECHNICAL PRESERVATION (HIGH INCLUSIVITY)\n"
-            "- KEEP >90% of technical resources. Only discard 404s, obvious spam, or non-technical content.\n"
-            "- 'Awesome' repositories, official documentation, and deep technical guides are mandatory.\n"
-            "- YouTube videos are HIGH-VALUE resources; keep them as technical references.\n\n"
-            "PHASE 2: TEMPORAL & QUALITY SYNTHESIS\n"
-            "- Identify/estimate PUBLICATION YEAR.\n"
-            "- Assign QUALITY level (1-3 stars):\n"
-            "  * 3 stars (🌟🌟🌟): Masterpieces, foundational standards, definitive 'Awesome' lists.\n"
-            "  * 2 stars (🌟🌟): Production-grade tools, deep tutorials, highly recommended videos.\n"
-            "  * 1 star (🌟): Solid technical references.\n"
-            "- Identify if a resource is a 'YouTube Video/Playlist' for special rendering.\n"
+            "- KEEP >90% of technical resources.\n"
+            "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
+            "- Extract precise PUBLICATION YEAR: Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
+            "- Assign QUALITY level (1-3 stars).\n"
+            "- Assign a MATURITY TAG based on content type/status.\n"
+            "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
+            "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
+            "- If 'Current Desc' is empty, too short, or non-descriptive, generate a professional 1-2 sentence summary.\n"
+            "- To generate the summary: Analyze the URL and title. If you recognize the technical resource, describe its core value proposition for a Cloud Architect in 2026.\n"
+            "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
         self.cache = self._load_cache()
 
@@ -93,7 +93,7 @@ class V2VisionEngine:
                 idx_content = f.read()
                 # Find the BIG mosaic (the one with many images)
                 # Support both old <center> and new <div style="text-align: center;" markdown="1">
-                mosaics = re.findall(r'<(?:div style="text-align: center;" markdown="1"|center)>\s*(.*?)\s*</(?:div|center)>', idx_content, re.DOTALL)
+                mosaics = re.findall(r'<(?:div style="text-align: center;" markdown="1"|center markdown="1"|center)>\s*(.*?)\s*</(?:div|center)>', idx_content, re.DOTALL)
                 if mosaics:
                     # Filter for the one containing many image links
                     for m in mosaics:
@@ -212,20 +212,35 @@ class V2VisionEngine:
     async def _evaluate_and_score_resources(self, links: List[Dict]) -> List[Dict]:
         refined = []
         to_evaluate = []
+        force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
         
-        # Pull from cache first
+        # We want to re-evaluate the tags and years, so we will bypass cache for tagging logic,
+        # but use cache for AI stars if available to save cost.
         for l in links:
             url = l["url"]
-            if url in self.cache and "year" in self.cache[url]:
-                item = l.copy()
+            # To allow the new logic to apply to cached items, we re-process GitHub links 
+            # and re-apply the tag logic even if it's in the cache.
+            item = l.copy()
+            if not force_eval and url in self.cache and "stars" in self.cache[url]:
                 item.update(self.cache[url])
-                # Refresh GitHub metadata if it's a GH link
-                if "github.com" in url:
-                    gh_meta = await self._fetch_github_metadata(url)
-                    item.update(gh_meta)
-                refined.append(item)
-            else:
-                to_evaluate.append(l)
+                # If cache has a generated description and item is missing one, use it
+                if "ai_summary" in self.cache[url] and not item["description"]:
+                    item["description"] = self.cache[url]["ai_summary"]
+            
+            # Re-evaluate if description is still missing even after cache check
+            if not item.get("description"):
+                to_evaluate.append(item)
+                continue
+            
+            # Re-apply GitHub metadata and mature tagging for cached items
+            if "github.com" in url:
+                gh_meta = await self._fetch_github_metadata(url)
+                item.update(gh_meta)
+                if "gh_updated" in gh_meta and gh_meta["gh_updated"]:
+                    item["year"] = gh_meta["gh_updated"].split("-")[0]
+            
+            item["tag"] = self._calculate_tag(item)
+            refined.append(item)
 
         if not to_evaluate: return refined
 
@@ -233,12 +248,12 @@ class V2VisionEngine:
         for i in range(0, len(to_evaluate), BATCH_SIZE):
             batch = to_evaluate[i:i+BATCH_SIZE]
             batch_num = i//BATCH_SIZE + 1
-            log_event(f"  [>] Processing Batch {batch_num} with AI...")
+            log_event(f"  [>] Processing Batch {batch_num} with AI (Mandatory Descriptions)...")
             
             prompt = (
                 f"{self.library_criteria}\n"
-                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": int, \"is_video\": bool}, ...]}\n\n"
-                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)])
+                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": int, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\"}, ...]}\n\n"
+                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Current Desc: {l['description'][:50]}" for idx, l in enumerate(batch)])
             )
             
             try:
@@ -251,34 +266,63 @@ class V2VisionEngine:
                         if idx < len(batch):
                             item = batch[idx].copy()
                             eval_data = {
-                                "year": str(res.get("year", "2024")),
+                                "year": str(res.get("year", "N/A")),
                                 "stars": min(max(int(res.get("stars", 1)), 1), 3),
-                                "is_video": res.get("is_video", False)
+                                "is_video": res.get("is_video", False),
+                                "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
+                                "ai_summary": res.get("summary", "")
                             }
                             item.update(eval_data)
+                            if not item["description"] and item["ai_summary"]:
+                                item["description"] = item["ai_summary"]
                             
+                            # GitHub overrides
                             if "github.com" in item["url"]:
                                 gh_meta = await self._fetch_github_metadata(item["url"])
                                 item.update(gh_meta)
-                                eval_data.update(gh_meta)
+                                if "gh_updated" in gh_meta and gh_meta["gh_updated"]:
+                                    item["year"] = gh_meta["gh_updated"].split("-")[0]
+                                    eval_data["year"] = item["year"]
+
+                            item["tag"] = self._calculate_tag(item)
+                            eval_data["tag"] = item["tag"]
 
                             # Save to cache
                             self.cache[item["url"]] = eval_data
-                            
-                            if item["year"].isdigit() and int(item["year"]) >= 2025: item["tag"] = "[CUTTING-EDGE]"
-                            elif "awesome" in item["title"].lower(): item["tag"] = "[FOUNDATIONAL]"
-                            else: item["tag"] = "[PRODUCTION-READY]"
-                            
                             refined.append(item)
                     except: continue
             except:
                 for l in batch:
                     item = l.copy()
-                    item["year"], item["stars"], item["is_video"] = "2024", 1, "youtube" in l["url"]
-                    item["tag"] = "[FOUNDATIONAL]" if "awesome" in l["title"].lower() else "[PRODUCTION-READY]"
+                    item["year"], item["stars"], item["is_video"] = "N/A", 1, "youtube" in l["url"]
+                    item["tag"] = self._calculate_tag(item)
                     refined.append(item)
             await asyncio.sleep(0.3)
         return refined
+
+    def _calculate_tag(self, item: Dict) -> str:
+        # Dynamic Tagging Strategy based on Maturity and Real Data
+        if "github.com" in item["url"] and "gh_stars" in item:
+            stars = item["gh_stars"]
+            year = int(item.get("year")) if item.get("year", "").isdigit() else 2024
+            if stars > 10000: return "[DE FACTO STANDARD]"
+            if stars > 500 and year >= 2024: return "[ENTERPRISE-STABLE]"
+            if year >= 2025: return "[EMERGING / INNOVATION]"
+            if year <= 2022: return "[LEGACY / MAINTENANCE]"
+            return "[TOOLING]"
+        
+        # Fallback to AI's tag or defaults for articles
+        tag = item.get("tag", "").upper()
+        valid_tags = ["[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING / INNOVATION]", "[LEGACY / MAINTENANCE]", "[ARCHITECTURE-GUIDE]", "[TOOLING]", "[CASE-STUDY]", "[CHEATSHEET]"]
+        if tag in valid_tags:
+            return tag
+        
+        # Basic inference for articles
+        title = item.get("title", "").lower()
+        if "awesome" in title: return "[FOUNDATIONAL]"
+        if "guide" in title or "architecture" in title: return "[ARCHITECTURE-GUIDE]"
+        if "how to" in title or "tutorial" in title: return "[CASE-STUDY]"
+        return "[ENTERPRISE-STABLE]"
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
@@ -335,7 +379,7 @@ class V2VisionEngine:
         for dim in data.values():
             for cat_links in dim["categories"].values():
                 master_selection.extend([l for l in cat_links if l.get("stars", 1) == 3])
-        master_selection.sort(key=lambda x: (x.get("year", "0"), x["title"]))
+        master_selection.sort(key=lambda x: (x.get("year", "0"), x["title"]), reverse=True)
 
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
@@ -343,7 +387,16 @@ class V2VisionEngine:
             "!!! quote \"The Library of 2026\"\n"
             "    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing "
             "    chronological clarity and expert quality synthesis.\n\n"
-            f"<center>\n{mosaic_html}\n</center>\n\n"
+            f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
+            
+            "## 🛡️ V2 Taxonomy & Maturity Tags\n"
+            "To maximize technical clarity, V2 resources are classified by maturity rather than subjective quality:\n\n"
+            "- <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>: Foundational industry tools with massive adoption (>10k GitHub stars).\n"
+            "- <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>: Production-ready tools actively maintained.\n"
+            "- <span class='md-tag md-tag--warning'>[EMERGING / INNOVATION]</span>: High-growth technologies released or heavily updated recently (≥2025).\n"
+            "- <span class='md-tag md-tag--critical'>[LEGACY / MAINTENANCE]</span>: Proven solutions with no major updates since 2022. Use with caution.\n"
+            "- <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span> / <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>: High-value reading material and use cases.\n\n"
+            
             "## 🌟 Master Selection (Top-Tier Gems)\n"
             "A global selection of the most impactful resources across all dimensions.\n\n"
         )
@@ -352,7 +405,7 @@ class V2VisionEngine:
             index_md += f"- **({l['year']})** [{l['title']}]({l['url']}){gh_info} 🌟🌟🌟\n"
         
         index_md += "\n??? note \"Elite Video Selection - Click to expand!\"\n"
-        index_md += f"    <center>\n{videos_html}\n    </center>\n\n"
+        index_md += f"    <center markdown=\"1\">\n{videos_html}\n    </center>\n\n"
         
         index_md += "## Strategic Dimensions\n"
         for dim, content in data.items():
@@ -371,8 +424,15 @@ class V2VisionEngine:
                 md += f"## {cat}\n"
                 for l in links:
                     year, stars = l.get("year", "N/A"), "🌟" * l.get("stars", 1)
-                    tag = l.get("tag", "[PRODUCTION-READY]")
-                    color = "success" if "FOUNDATIONAL" in tag else "info" if "PRODUCTION" in tag else "warning"
+                    tag = l.get("tag", "[ENTERPRISE-STABLE]")
+                    
+                    # Determine color mapping for new tags
+                    if "STANDARD" in tag or "FOUNDATIONAL" in tag: color = "success"
+                    elif "EMERGING" in tag: color = "warning"
+                    elif "LEGACY" in tag: color = "critical"
+                    elif "STABLE" in tag: color = "info"
+                    else: color = "primary"
+                    
                     title_display = f"**{l['title']}**" if l.get("stars", 1) >= 2 else l['title']
                     
                     gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
