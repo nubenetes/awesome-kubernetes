@@ -289,7 +289,9 @@ graph LR
 
 ## 💻 Developer Experience & VSCode Setup
 
-To maintain the high-density structure of Nubenetes (including Tables of Contents and specific indentations for MkDocs Material), the following VSCode setup is recommended.
+> **⚠️ Note on Obsolescence:** The manual editing process via VSCode described below is becoming **largely obsolete** as of May 2026. With the introduction of autonomous Gemini-powered AI agents in our GitHub Workflows, the vast majority of curation, link validation, and metric updates are now handled automatically. This setup is preserved only for emergency manual interventions or structural architectural changes.
+
+To maintain the high-density structure of Nubenetes (including Tables of Contents and specific indentations for MkDocs Material) during manual edits, the following VSCode setup is recommended.
 
 ### Extension Recommendations
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - **Mandatory** for automatic TOC generation and list management.
