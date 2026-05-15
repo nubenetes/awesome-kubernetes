@@ -6,7 +6,7 @@
     A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing     chronological clarity and expert quality synthesis.
 
 <center>
-[![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
+[![container_with_cars] (https://nubenetes.com/images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
 </center>
 
 ## 🌟 Master Selection (Top-Tier Gems)

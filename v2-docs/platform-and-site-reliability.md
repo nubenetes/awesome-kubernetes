@@ -217,7 +217,7 @@
   - **(2024)** [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [IaC Infrastructure as Code](iac.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [IaC Infrastructure as Code](https://nubenetes.com/iac/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [The Ultimate DevOps Tool Chest 🌟](https://xebialabs.com/the-ultimate-devops-tool-chest/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
       - [The Ultimate List of Open Source DevOps Tools](https://xebialabs.com/the-ultimate-devops-tool-chest/open-source/)
@@ -227,7 +227,7 @@
   - **(2024)** [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) 🌟 <span class='md-tag md-tag--success'>[FOUNDATIONAL]</span>
   - **(2024)** [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [DevOps Tools](devops-tools.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [DevOps Tools](https://nubenetes.com/devops-tools/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -242,7 +242,7 @@
       - [github: Google Cloud Code samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
   - **(2024)** [Google Cloud Build](https://cloud.google.com/cloud-build) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [NoOps](noops.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [NoOps](https://nubenetes.com/noops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [devops.com: The Rise of NetDevOps and CI/CD Pipeline Solutions](https://devops.com/the-rise-of-netdevops-and-ci-cd-pipeline-solutions/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [blog.postman.com: What Is PlatformOps?](https://blog.postman.com/what-is-platformops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -366,7 +366,7 @@
   - **(2024)** [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [jhipster](https://www.jhipster.tech/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Maven](maven-gradle.md) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Maven](https://nubenetes.com/maven-gradle/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://app.getambassador.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Skaffold 🌟](https://skaffold.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
 
