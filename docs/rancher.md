@@ -50,7 +50,7 @@
 
 <center>
 
-[![rancher architecture](/images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+[![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
 
 </center>
 </br>

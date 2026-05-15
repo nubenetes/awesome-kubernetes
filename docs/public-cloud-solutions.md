@@ -110,7 +110,7 @@
 
     <center>
 
-    ![cloud_advantages](/images/cloud_advantages.png)
+    ![cloud_advantages](images/cloud_advantages.png)
 
     </center>
 

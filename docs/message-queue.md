@@ -394,7 +394,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 <center>
 
-[![airflow vs kafka debezium](/images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
+[![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
 
 </center>
 
@@ -516,7 +516,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 <center>
 
-[![AMQ in a nutshell](/images/AMQ.png)](https://developers.redhat.com/products/amq/overview)
+[![AMQ in a nutshell](images/AMQ.png)](https://developers.redhat.com/products/amq/overview)
 
 </center>
 

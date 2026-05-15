@@ -182,9 +182,9 @@
 
 	<center>
 
-	[![gcp persistent disk](/images/gcp_disks.jfif)](https://twitter.com/pvergadia)
+	[![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
 
-    [![google cloud devops flow](/images/google_cloud_devops_flow.jfif)](https://cloud.google.com/deploy/docs/deploy-app-run)
+    [![google cloud devops flow](images/google_cloud_devops_flow.jfif)](https://cloud.google.com/deploy/docs/deploy-app-run)
 
 	</center>
 

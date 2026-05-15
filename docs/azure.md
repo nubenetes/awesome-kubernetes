@@ -92,7 +92,7 @@
 
 <center>
 
-[![Azure Terraformer](/images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer)
+[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer)
 
 </center>
 
@@ -891,7 +891,7 @@
 
     <center>
 
-    [![pizza model](/images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)
+    [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)
 
     </center>
 

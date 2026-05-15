@@ -200,7 +200,7 @@
 
 <center>
 
-[![OCP 4 Architecture](/images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
+[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 
 </center>
 
@@ -222,7 +222,7 @@
 
 <center>
 
-[![OCP 4 Pland and Deploy](/images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
+[![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 
 </center>
 
@@ -243,7 +243,7 @@
 
 <center>
 
-![tenant](/images/tenant.png)
+![tenant](images/tenant.png)
 
 </center>
 <br/>
@@ -262,7 +262,7 @@
 
 <center>
 
-![ocp update1](/images/ocp_update1.png) ![ocp update2](/images/ocp_update2.png) ![ocp update3](/images/ocp_update3.png)
+![ocp update1](images/ocp_update1.png) ![ocp update2](images/ocp_update2.png) ![ocp update3](images/ocp_update3.png)
 
 </center>
 <br/>
@@ -319,9 +319,9 @@
 
 <center>
 
-![OCP IPI](/images/ocp-ipi.png)
+![OCP IPI](images/ocp-ipi.png)
 
-![OCP IPI UPI](/images/ocp_ipi_upi.png)
+![OCP IPI UPI](images/ocp_ipi_upi.png)
 
 </center>
 <br/>
@@ -334,9 +334,9 @@
 
 <center>
 
-![OCP IPI2](/images/ocp_ipi2.png)
+![OCP IPI2](images/ocp_ipi2.png)
 
-![OCP UPI](/images/ocp_upi.png)
+![OCP UPI](images/ocp_upi.png)
 
 </center>
 <br/>
@@ -349,7 +349,7 @@
 
 <center>
 
-![OCP Autoscaler1](/images/ocp4_autoscaler1.png) ![OCP Autoscaler2](/images/ocp4_autoscaler2.png)
+![OCP Autoscaler1](images/ocp4_autoscaler1.png) ![OCP Autoscaler2](images/ocp4_autoscaler2.png)
 
 </center>
 <br/>
@@ -381,7 +381,7 @@ etcd 14h myoperator 14h
 
 <center>
 
-![OCP Operators](/images/ocp_operators.png)
+![OCP Operators](images/ocp_operators.png)
 
 </center>
 <br/>
@@ -397,7 +397,7 @@ etcd 14h myoperator 14h
 
 <center>
 
-![Operator Subscriptions](/images/operator_subscriptions.png)
+![Operator Subscriptions](images/operator_subscriptions.png)
 
 </center>
 <br/>
@@ -420,7 +420,7 @@ etcd 14h myoperator 14h
 
 <center>
 
-![OCP Certified Operators](/images/ocp_certified_operators.png)
+![OCP Certified Operators](images/ocp_certified_operators.png)
 
 </center>
 <br/>
@@ -455,7 +455,7 @@ etcd 14h myoperator 14h
 
 <center>
 
-![OCS Dashboard](/images/ocs_dashboard.png)
+![OCS Dashboard](images/ocs_dashboard.png)
 
 </center>
 <br/>
@@ -504,9 +504,9 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 
 <center>
 
-![OCS Servicemesh 1](/images/ocp_servicemesh1.png) ![OCS Servicemesh 2](/images/ocp_servicemesh2.png) ![OCS Servicemesh 3](/images/ocp_servicemesh3.png)
+![OCS Servicemesh 1](images/ocp_servicemesh1.png) ![OCS Servicemesh 2](images/ocp_servicemesh2.png) ![OCS Servicemesh 3](images/ocp_servicemesh3.png)
 
-![OCS Servicemesh 4](/images/ocp_servicemesh4.png)
+![OCS Servicemesh 4](images/ocp_servicemesh4.png)
 
 </center>
 <br/>
@@ -580,7 +580,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 
 <center>
 
-![Buildah](/images/Buildah.png)
+![Buildah](images/Buildah.png)
 
 </center>
 <br/>
@@ -654,7 +654,7 @@ oc login
 
 <center>
 
-[![ocp4 cni arch](/images/ocp4_cni_arch.png)](https://www.openshift.com/blog/demystifying-multus)
+[![ocp4 cni arch](images/ocp4_cni_arch.png)](https://www.openshift.com/blog/demystifying-multus)
 
 </center>
 
@@ -701,7 +701,7 @@ oc login
 
 <center>
 
-[![openshift4 architecture](/images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
+[![openshift4 architecture](images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
 </center>
 

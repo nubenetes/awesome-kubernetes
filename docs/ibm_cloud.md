@@ -14,7 +14,7 @@
 
 <center>
 
-[![ibm cloud videos](/images/ibm_cloud_logo.jpg)](https://www.youtube.com/c/IBMTechnology)
+[![ibm cloud videos](images/ibm_cloud_logo.jpg)](https://www.youtube.com/c/IBMTechnology)
 
 </center>
 
@@ -73,7 +73,7 @@
 
 <center>
 
-[![cp4a_overview](/images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
+[![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
 
 </center>
 

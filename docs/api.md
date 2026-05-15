@@ -344,15 +344,15 @@
 
 	<center>
 
-	[![top 10 api testing tools](/images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
+	[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
 
-	[![20 API Business Models](/images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models/)
+	[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models/)
 
-	![gRPC vs REST vs GraphQL comparison](/images/grpc_vs_rest_vs_graphql.png)
+	![gRPC vs REST vs GraphQL comparison](images/grpc_vs_rest_vs_graphql.png)
 
-	![REST API Design](/images/REST_API_Design.jfif)
+	![REST API Design](images/REST_API_Design.jfif)
 
-    [![REST vs GrapQL](/images/rest_vs_graphql.jfif)](https://t.co/AF9GfbgBWZ)
+    [![REST vs GrapQL](images/rest_vs_graphql.jfif)](https://t.co/AF9GfbgBWZ)
 
 	</center>
 

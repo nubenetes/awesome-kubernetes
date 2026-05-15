@@ -224,25 +224,25 @@
 
 	<center>
 
-	[![mvp](/images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
+	[![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 
-	[![mvp2](/images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
+	[![mvp2](images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
 
-	[![mvp3](/images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
+	[![mvp3](images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
 
-	[![agile](/images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-	[![waterfall-agile](/images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-	[![scrum-one-min](/images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-	![scrum vs kanban](/images/scrum_vs_kanban.jfif)
+	![scrum vs kanban](images/scrum_vs_kanban.jfif)
 
-	[![burnout](/images/burnout.jfif)](https://puppet.com/resources/report/2015-state-devops-report)
+	[![burnout](images/burnout.jfif)](https://puppet.com/resources/report/2015-state-devops-report)
 
-	[![promotion driven development](/images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
-	![culturas toxicas](/images/culturas_toxicas_lavanguardia.jfif)
+	![culturas toxicas](images/culturas_toxicas_lavanguardia.jfif)
 
 	</center>
 

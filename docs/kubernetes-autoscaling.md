@@ -77,7 +77,7 @@
 
 <center>
 
-[![benchmarking-k8s-node-initialization](/images/benchmarking-k8s-node-initialization.png)](https://symbiosis.host/blog/comparing-node-launch-times)
+[![benchmarking-k8s-node-initialization](images/benchmarking-k8s-node-initialization.png)](https://symbiosis.host/blog/comparing-node-launch-times)
 
 </center>
 

@@ -132,8 +132,8 @@ the #1 test automation community.
 
     <center>
 
-    ![tests in prod](/images/testinprodmeme.jfif)
-    ![10 must haves test automation](/images/10-must-haves-test-automation.jfif)
+    ![tests in prod](images/testinprodmeme.jfif)
+    ![10 must haves test automation](images/10-must-haves-test-automation.jfif)
 
     </center>
 

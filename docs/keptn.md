@@ -42,9 +42,9 @@
 
 	<center>
 
-	[![keptn](/images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-	[![keptn](/images/keptn-jenkins-sli-slo-2.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-	[![keptn](/images/keptn-jenkins-sli-slo-3.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+	[![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+	[![keptn](images/keptn-jenkins-sli-slo-2.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+	[![keptn](images/keptn-jenkins-sli-slo-3.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
 
 	</center>
 

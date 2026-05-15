@@ -193,13 +193,13 @@
 
 <center>
 
-[![gitops in a nutshell](/images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
+[![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
 
 </center>
 
 <center>
 
-[![app ops](/images/appops.png)](https://www.shipa.io/innovation/gitops-in-the-enterprise/)
+[![app ops](images/appops.png)](https://www.shipa.io/innovation/gitops-in-the-enterprise/)
 
 </center>
 
@@ -260,7 +260,7 @@
 
 <center>
 
-[![gitops pipeline](/images/gitops-pipeline.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
+[![gitops pipeline](images/gitops-pipeline.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
 
 </center>
 
@@ -386,9 +386,9 @@
 
 	<center>
 
-	[![traditional devops vs gitops](/images/traditional_ops_vs_gitops.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
+	[![traditional devops vs gitops](images/traditional_ops_vs_gitops.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
 
-	[![devops pipeline vs gitops pipeline](/images/devops_pipeline_vs_gitops_pipeline.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
+	[![devops pipeline vs gitops pipeline](images/devops_pipeline_vs_gitops_pipeline.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
 
 	</center>
 

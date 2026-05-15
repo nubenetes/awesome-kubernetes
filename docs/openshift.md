@@ -107,7 +107,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 <center>
 
-[![rh openshift solutions 2020](/images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users/)
+[![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users/)
 
 </center>
 <br/>
@@ -167,9 +167,9 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 <center>
 
-[![Cloud-native development](/images/cloud-native-development-ld.png)](https://dzone.com/articles/cloud-native-development-a-blueprint)
+[![Cloud-native development](images/cloud-native-development-ld.png)](https://dzone.com/articles/cloud-native-development-a-blueprint)
 
-[![Cloud-native development container runtimes](/images/cloud-native-development-local-containers-runtimes-sd.png)](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
+[![Cloud-native development container runtimes](images/cloud-native-development-local-containers-runtimes-sd.png)](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
 
 </center>
 <br/>
@@ -205,7 +205,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 <center>
 
-[![openshift 4 to vsphere 7](/images/OpenShift4-to-vSphere7.png)](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
+[![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 </center>
 <br/>
@@ -268,7 +268,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 <center>
 
-[![Network Security Zones](/images/Network_security_zones5.png)](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
+[![Network Security Zones](images/Network_security_zones5.png)](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
 
 </center>
 <br/>
@@ -318,7 +318,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 <center>
 
-[![cp4a_overview](/images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
+[![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
 
 </center>
 

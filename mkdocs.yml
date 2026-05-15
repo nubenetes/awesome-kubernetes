@@ -11,9 +11,9 @@ theme:
   name: material
   prev_next_buttons_location: both
   icon:
+    logo: logo
     repo: fontawesome/brands/github
-  logo: /images/kubernetes_logo.jpg
-  favicon: /images/favicon-car.png
+  favicon: images/favicon-car.png
   palette:
     - scheme: default
       primary: indigo
@@ -44,9 +44,9 @@ theme:
     - search.share
     - search.suggest
 extra_css:
-  - /static/extra.css
+  - static/extra.css
 extra_javascript:
-  - /javascript/extra.js
+  - javascript/extra.js
 markdown_extensions:
   - smarty
   - sane_lists

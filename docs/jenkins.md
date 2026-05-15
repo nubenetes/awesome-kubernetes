@@ -180,9 +180,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 <center>
 
-[![Jenkins Is The Way](/images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
+[![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
 
-[![Jenkins growth](/images/jenkins_growth.png)](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/)
+[![Jenkins growth](images/jenkins_growth.png)](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/)
 
 </center>
 
@@ -328,7 +328,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 <center>
 
-[![real world pipeline flow](/images/realworld-pipeline-flow.png)](https://www.jenkins.io/solutions/pipeline/)
+[![real world pipeline flow](images/realworld-pipeline-flow.png)](https://www.jenkins.io/solutions/pipeline/)
 
 </center>
 
@@ -737,13 +737,13 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 <center>
 
-[![jenkins and openshift](/images/jenkins-ose.png)](https://www.cloudbees.com/)
+[![jenkins and openshift](images/jenkins-ose.png)](https://www.cloudbees.com/)
 
 </center>
 
 <center>
 
-[![jenkins hub CD](/images/jenkins-hub.png)](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
+[![jenkins hub CD](images/jenkins-hub.png)](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 
 </center>
 

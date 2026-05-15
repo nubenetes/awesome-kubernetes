@@ -124,7 +124,7 @@
 
 <center>
 
-![crunchdydata in operatorhub](/images/crunchydata_operator_hub.png)
+![crunchdydata in operatorhub](images/crunchydata_operator_hub.png)
 
 </center>
 
@@ -140,7 +140,7 @@
 
 <center>
 
-![crunchydata operator 3.5](/images/crunchydata_operator_3_5.png)
+![crunchydata operator 3.5](images/crunchydata_operator_3_5.png)
 
 </center>
 
@@ -155,7 +155,7 @@
 
 <center>
 
-![crunchdydata operator 4.0.1](/images/crunchydata_operator_4_0_1.png)
+![crunchdydata operator 4.0.1](images/crunchydata_operator_4_0_1.png)
 
 </center>
 
@@ -247,7 +247,7 @@ role "view" removed: "system:serviceaccounts"
 
 <center>
 
-![crunchdydata scc1](/images/crunchydata_scc1.png) ![crunchdydata scc2](/images/crunchydata_scc2.png)
+![crunchdydata scc1](images/crunchydata_scc1.png) ![crunchdydata scc2](images/crunchydata_scc2.png)
 
 </center>
 
@@ -268,7 +268,7 @@ openshift.io/scc: restricted
 
 <center>
 
-![crunchdydata scc3](/images/crunchydata_scc3.png)
+![crunchdydata scc3](images/crunchydata_scc3.png)
 
 </center>
 
@@ -277,7 +277,7 @@ openshift.io/scc: restricted
 
     <center>
 
-    ![crunchdydata restricted scc](/images/crunchydata_restricted_scc.png)
+    ![crunchdydata restricted scc](images/crunchydata_restricted_scc.png)
 
     </center>
 
@@ -321,7 +321,7 @@ openshift.io/scc: restricted
 
 <center>
 
-![crunchdydata scc workflow1](/images/crunchydata_scc_workflow1.png)
+![crunchdydata scc workflow1](images/crunchydata_scc_workflow1.png)
 
 </center>
 
@@ -329,7 +329,7 @@ openshift.io/scc: restricted
 
 <center>
 
-![crunchdydata scc workflow2](/images/crunchydata_scc_workflow2.png)
+![crunchdydata scc workflow2](images/crunchydata_scc_workflow2.png)
 
 </center>
 
@@ -366,7 +366,7 @@ users:
 
 <center>
 
-![crunchdydata scc workflow3](/images/crunchydata_scc_workflow3.png)
+![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
 
 </center>
 
@@ -650,7 +650,7 @@ postgres=#
 
 <center>
 
-![crunchdydata pgadmin](/images/crunchydata_pgadmin.png)
+![crunchdydata pgadmin](images/crunchydata_pgadmin.png)
 
 </center>
 
@@ -680,9 +680,9 @@ $ pgo version --debug
 
 <center>
 
-![crunchdydata operatorhub install2](/images/crunchydata_operatorhub_install1.png)
+![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)
 
-![crunchdydata operatorhub install2](/images/crunchydata_operatorhub_install2.png)
+![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
 
 </center>
 
@@ -690,9 +690,9 @@ $ pgo version --debug
 
 <center>
 
-![crunchdydata operatorhub install3](/images/crunchydata_operatorhub_install3.png)
+![crunchdydata operatorhub install3](images/crunchydata_operatorhub_install3.png)
 
-![crunchdydata operatorhub install4](/images/crunchydata_operatorhub_install4.png)
+![crunchdydata operatorhub install4](images/crunchydata_operatorhub_install4.png)
 
 </center>
 
@@ -700,7 +700,7 @@ $ pgo version --debug
 
 <center>
 
-![crunchdydata operatorhub install5](/images/crunchydata_operatorhub_install5.png)
+![crunchdydata operatorhub install5](images/crunchydata_operatorhub_install5.png)
 
 </center>
 
@@ -708,9 +708,9 @@ $ pgo version --debug
 
 <center>
 
-![crunchdydata operatorhub install6](/images/crunchydata_operatorhub_install6.png)
+![crunchdydata operatorhub install6](images/crunchydata_operatorhub_install6.png)
 
-![crunchdydata operatorhub install7](/images/crunchydata_operatorhub_install7.png)
+![crunchdydata operatorhub install7](images/crunchydata_operatorhub_install7.png)
 
 </center>
 
@@ -722,7 +722,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <center>
 
-![crunchdydata operatorhub install8](/images/crunchydata_operatorhub_install8.png)
+![crunchdydata operatorhub install8](images/crunchydata_operatorhub_install8.png)
 
 </center>
 
@@ -730,7 +730,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <center>
 
-![crunchdydata operatorhub install9](/images/crunchydata_operatorhub_install9.png)
+![crunchdydata operatorhub install9](images/crunchydata_operatorhub_install9.png)
 
 </center>
 
@@ -738,11 +738,11 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <center>
 
-![crunchdydata operatorhub install10](/images/crunchydata_operatorhub_install10.png)
+![crunchdydata operatorhub install10](images/crunchydata_operatorhub_install10.png)
 
-![crunchdydata operatorhub install11](/images/crunchydata_operatorhub_install11.png)
+![crunchdydata operatorhub install11](images/crunchydata_operatorhub_install11.png)
 
-![crunchdydata operatorhub install12](/images/crunchydata_operatorhub_install12.png)
+![crunchdydata operatorhub install12](images/crunchydata_operatorhub_install12.png)
 
 </center>
 
@@ -750,10 +750,10 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <center>
 
-![crunchdydata operatorhub install13](/images/crunchydata_operatorhub_install13.png) ![crunchdydata operatorhub install14](/images/crunchydata_operatorhub_install14.png)
+![crunchdydata operatorhub install13](images/crunchydata_operatorhub_install13.png) ![crunchdydata operatorhub install14](images/crunchydata_operatorhub_install14.png)
 
-![crunchdydata operatorhub install15](/images/crunchydata_operatorhub_install15.png)
+![crunchdydata operatorhub install15](images/crunchydata_operatorhub_install15.png)
 
-![crunchdydata operatorhub install16](/images/crunchydata_operatorhub_install16.png)
+![crunchdydata operatorhub install16](images/crunchydata_operatorhub_install16.png)
 
 </center>

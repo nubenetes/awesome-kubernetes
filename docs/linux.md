@@ -423,7 +423,7 @@
 
 	<center>
 
-	[![the art of command line](/images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
+	[![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
 
 	</center>
 

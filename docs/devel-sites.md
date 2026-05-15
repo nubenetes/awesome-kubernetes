@@ -122,7 +122,7 @@
 
 	<center>
 
-	[![best practices temp solution](/images/devel_temp_solution.png)](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
+	[![best practices temp solution](images/devel_temp_solution.png)](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
 
 	</center>
 

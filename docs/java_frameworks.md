@@ -292,7 +292,7 @@ optimizing Enterprise Java for the microservices architecture.
 
 <center>
 
-[![microservice arch](/images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
+[![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 
 </center>
 
@@ -404,7 +404,7 @@ optimizing Enterprise Java for the microservices architecture.
 
     <center>
 
-    ![spring annotations cheat sheet](/images/spring_annotations_cheat_sheet.jfif)
+    ![spring annotations cheat sheet](images/spring_annotations_cheat_sheet.jfif)
 
     </center>
 

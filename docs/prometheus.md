@@ -149,7 +149,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 
 <center>
 
-[![prometheus architecture](/images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
+[![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
 </center>
 
@@ -770,7 +770,7 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 
 JMeter|Artemis Grafana|Artemis Dashboard
 :-------:|:---------:|:-------:
-![jmeter artemis](/images/jmeter_artemis.png)|![artemis grafana](/images/artemis_grafana.png)|![artemis dashboard monitoring](/images/artemis_dashboard_mon.png)
+![jmeter artemis](images/jmeter_artemis.png)|![artemis grafana](images/artemis_grafana.png)|![artemis dashboard monitoring](images/artemis_dashboard_mon.png)
 
 ## Prometheus and Azure
 

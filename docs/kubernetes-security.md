@@ -146,7 +146,7 @@
 
 <center>
 
-[![kubernetes security mindmap](/images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
+[![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
 
 </center>
 
@@ -464,7 +464,7 @@ Each of these alternatives provides different features and may be more suitable 
 
 <center>
 
-[![kubernetes security controls landscape](/images/kubernetes-security-controls-landscape.jpg)](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
+[![kubernetes security controls landscape](images/kubernetes-security-controls-landscape.jpg)](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
 
 </center>
 

@@ -30,7 +30,7 @@
 
 <center>
 
-[![CD Artifact Management](/images/cd-artifact-management.jpg)](https://www.thoughtworks.com/insights/continuous-delivery)
+[![CD Artifact Management](images/cd-artifact-management.jpg)](https://www.thoughtworks.com/insights/continuous-delivery)
 
 </center>
 
@@ -163,7 +163,7 @@
 
 <center>
 
-[![deployment strategies](/images/K8s_deployment_strategies.png)](https://blog.container-solutions.com/deployment-strategies)
+[![deployment strategies](images/K8s_deployment_strategies.png)](https://blog.container-solutions.com/deployment-strategies)
 
 </center>
 
@@ -201,7 +201,7 @@
 
 <center>
 
-[![gigaom cicd radar](/images/gigaom_cicd_radar.jpg)](https://jfrog.com/whitepaper/gigaom-radar-for-enterprise-ci-cd/)
+[![gigaom cicd radar](images/gigaom_cicd_radar.jpg)](https://jfrog.com/whitepaper/gigaom-radar-for-enterprise-ci-cd/)
 
 </center>
 
@@ -245,11 +245,11 @@
 
     <center>
 
-    ![cicd cheatsheet](/images/cicd-cheatsheet.jfif)
+    ![cicd cheatsheet](images/cicd-cheatsheet.jfif)
 
-    ![blue green deployment strategy](/images/blue-green-deployment.jfif)
+    ![blue green deployment strategy](images/blue-green-deployment.jfif)
 
-    [![cicd a basic release process](/images/cicd-a-basic-release-process.jpg)](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline)
+    [![cicd a basic release process](images/cicd-a-basic-release-process.jpg)](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline)
 
     </center>
 

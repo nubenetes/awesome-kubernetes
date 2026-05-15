@@ -215,13 +215,13 @@ You can filter by topic using the toolbar above.
 
 	<center>
 
-	![aws responsability model](/images/s3_storage_classes.jfif)
+	![aws responsability model](images/s3_storage_classes.jfif)
 
-	[![aws responsability model](/images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
+	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
-	[![Most Popular Cloud Platforms with AWS removed for scale](/images/most_popular_cloud_platforms.jfif)](https://twitter.com/okta)
+	[![Most Popular Cloud Platforms with AWS removed for scale](images/most_popular_cloud_platforms.jfif)](https://twitter.com/okta)
 
-	[![aws rds dashbird](/images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds/)
+	[![aws rds dashbird](images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds/)
 
 	</center>
 

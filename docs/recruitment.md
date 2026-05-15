@@ -291,23 +291,23 @@
 
 	<center>
 
-	![interviews getting harder](/images/interviews_getting_harder.jfif)
+	![interviews getting harder](images/interviews_getting_harder.jfif)
 
-	[![excelente_propuesta_de_trabajo_meme](/images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
+	[![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
 
-	![new job every 3 years](/images/new_job_every_3_years.jfif)
+	![new job every 3 years](images/new_job_every_3_years.jfif)
 
-	![meme job hunting 2 assessments](/images/meme_new_job.jfif)
+	![meme job hunting 2 assessments](images/meme_new_job.jfif)
 
-	![you get a new tech job](/images/you_get_a_tech_job.jfif)
+	![you get a new tech job](images/you_get_a_tech_job.jfif)
 
-	![work chronicles cultural fit](/images/workchronicles_cultural_fit.jfif)
+	![work chronicles cultural fit](images/workchronicles_cultural_fit.jfif)
 
-	![you get a tech job](/images/you_get_a_tech_job.jfif)
+	![you get a tech job](images/you_get_a_tech_job.jfif)
 
-	![my company gave me](/images/my_company_gave_me.jfif)
+	![my company gave me](images/my_company_gave_me.jfif)
 
-	![la gestion de uno mismo](/images/la_gestion_de_uno_mismo.jpg)
+	![la gestion de uno mismo](images/la_gestion_de_uno_mismo.jpg)
 
 	</center>
 

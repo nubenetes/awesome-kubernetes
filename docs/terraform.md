@@ -1151,7 +1151,7 @@
 
 	<center>
 
-	[![developer responsibility vs opta iac responsibility](/images/opta_iac_responsibility_vs_developer_.png)](https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails/)
+	[![developer responsibility vs opta iac responsibility](images/opta_iac_responsibility_vs_developer_.png)](https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails/)
 
 	</center>
 

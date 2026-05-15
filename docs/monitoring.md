@@ -172,7 +172,7 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 
 <center>
 
-[![openshift3 Monitoring](/images/ocp_monitoring.png)](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
+[![openshift3 Monitoring](images/ocp_monitoring.png)](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
 
 </center>
 
@@ -441,9 +441,9 @@ done
 
 <center>
 
-[![Jaeger UI](/images/jaeger_ui.png)](https://www.jaegertracing.io/)
+[![Jaeger UI](images/jaeger_ui.png)](https://www.jaegertracing.io/)
 
-[![Zipking UI](/images/zipkin_ui.png)](https://zipkin.io/)
+[![Zipking UI](images/zipkin_ui.png)](https://zipkin.io/)
 
 </center>
 
@@ -454,7 +454,7 @@ done
 
 <center>
 
-![Jaeger Vs OpenTelemetry](/images/jaeger_vs_opentelemetry.png)
+![Jaeger Vs OpenTelemetry](images/jaeger_vs_opentelemetry.png)
 
 </center>
 
@@ -510,7 +510,7 @@ done
 
 <center>
 
-![Elastic APM](/images/elasticapm.png)
+![Elastic APM](images/elasticapm.png)
 
 </center>
 

@@ -16,7 +16,7 @@
 
 <center>
 
-[![Jenkins Is The Way](/images/chrome_devtools_replay_network_request.jpg)](https://twitter.com/addyosmani) 
+[![Jenkins Is The Way](images/chrome_devtools_replay_network_request.jpg)](https://twitter.com/addyosmani) 
 
 </center>
 
@@ -27,7 +27,7 @@
 
 <center>
 
-[![firefox viewer built in](/images/firefox_json_viewer_built_in.jpg)](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox)
+[![firefox viewer built in](images/firefox_json_viewer_built_in.jpg)](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox)
 
 </center>
 

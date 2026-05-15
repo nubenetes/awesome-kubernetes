@@ -62,7 +62,7 @@
 
 <center>
 
-[![http status codes](/images/http_status_codes.jpg){: style="width:50%"}](https://twitter.com/alexxubyte)
+[![http status codes](images/http_status_codes.jpg){: style="width:50%"}](https://twitter.com/alexxubyte)
 
 </center>
 
@@ -130,7 +130,7 @@
 
 	<center>
 
-    ![how does https work](/images/how_does_https_work.png)
+    ![how does https work](images/how_does_https_work.png)
 
 	</center>
 
