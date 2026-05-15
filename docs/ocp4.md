@@ -74,7 +74,6 @@
 35. [Videos](#videos)
 
 ## OpenShift Container Platform 4 (OCP 4)
-  - [OCP4 Getting Started Showroom](https://rhpds.github.io/ocp4-getting-started-showroom/modules/main/index.html) 🌟 - A comprehensive guide and showroom for getting started with OpenShift Container Platform 4 (OCP4), covering various modules and functionalities.
 
 - [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
 - [nextplatform.com: red hat flexes CoreOS muscle in openshift kubernetes platform](https://www.nextplatform.com/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/)
