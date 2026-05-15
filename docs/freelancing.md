@@ -10,7 +10,9 @@
 6. [Tweets](#tweets)
 
 <center>
+
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/873312214&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/yardensaxophone" title="Yarden Saxophone" target="_blank" style="color: #cccccc; text-decoration: none;">Yarden Saxophone</a> · <a href="https://soundcloud.com/yardensaxophone/esperanza-yarden-saxophone" title="Esperanza - Yarden Saxophone" target="_blank" style="color: #cccccc; text-decoration: none;">Esperanza - Yarden Saxophone</a></div>
+
 </center>
 
 ## Introduction
@@ -92,7 +94,9 @@
 ??? note "Click to expand!"
 
 	<center>
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/81VnO4puNkg?si=hlZozE8-fociyet4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 	</center>
 
 ## Tweets
@@ -101,10 +105,12 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">- Getting clients is easier when you show proof of work<br>- Negotiation is easier when you have other projects<br>- Pricing is easier when you don&#39;t need the money<br><br>Freelancing is easier when you make marketing part of your job.</p>&mdash; Tom Hirst (@tom_hirst) <a href="https://twitter.com/tom_hirst/status/1351136592514187276?ref_src=twsrc%5Etfw">January 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Cada trimestre debes pagar a Hacienda la diferencia entre el IVA repercutido en tus facturas de ventas y el IVA soportado en tus facturas de gastos. Pero ¿cómo se llama el famoso modelo que debes presentar? ¡Comenta!<a href="https://twitter.com/hashtag/billin?src=hash&amp;ref_src=twsrc%5Etfw">#billin</a> <a href="https://twitter.com/hashtag/billinopciones?src=hash&amp;ref_src=twsrc%5Etfw">#billinopciones</a> <a href="https://twitter.com/hashtag/quiz?src=hash&amp;ref_src=twsrc%5Etfw">#quiz</a> <a href="https://twitter.com/hashtag/facturacion?src=hash&amp;ref_src=twsrc%5Etfw">#facturacion</a> <a href="https://twitter.com/hashtag/facturaciononline?src=hash&amp;ref_src=twsrc%5Etfw">#facturaciononline</a> <a href="https://t.co/ep1snCug0v">pic.twitter.com/ep1snCug0v</a></p>&mdash; Billin España (@Billin_ES) <a href="https://twitter.com/Billin_ES/status/1428052825787887616?ref_src=twsrc%5Etfw">August 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finding your first freelance client is hard.<br><br>Making your first dollar through freelancing is hard.<br><br>But it&#39;s not as hard as you think. <br><br>Here are certain strategies that worked for me over the years to make money through freelancing:<br><br>🧵👇🏻</p>&mdash; Sunil Kumar (@sunilc_) <a href="https://twitter.com/sunilc_/status/1438825433231859714?ref_src=twsrc%5Etfw">September 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

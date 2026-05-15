@@ -49,7 +49,9 @@
 - [suse.com: My First Impressions with SUSE Rancher Kubernetes Projects](https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects/)
 
 <center>
-[![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+
+[![rancher architecture](/images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+
 </center>
 </br>
 

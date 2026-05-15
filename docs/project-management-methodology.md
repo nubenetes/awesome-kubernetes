@@ -21,7 +21,9 @@
 12. [Tweets 2. Cultures](#tweets-2-cultures)
 
 <center>
+
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604265532&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tlotfy99" title="Abou Seif 🧿" target="_blank" style="color: #cccccc; text-decoration: none;">Abou Seif 🧿</a> · <a href="https://soundcloud.com/tlotfy99/no-man-no-cry-jimmy-sax" title="no man no cry - jimmy sax" target="_blank" style="color: #cccccc; text-decoration: none;">no man no cry - jimmy sax</a></div>
+
 </center>
 
 ## Project Management Methodology
@@ -222,25 +224,26 @@
 
 	<center>
 
-	[![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
+	[![mvp](/images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 
-	[![mvp2](images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
+	[![mvp2](/images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
 
-	[![mvp3](images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
+	[![mvp3](/images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
 
-	[![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![agile](/images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-	[![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![waterfall-agile](/images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-	[![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![scrum-one-min](/images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-	![scrum vs kanban](images/scrum_vs_kanban.jfif)
+	![scrum vs kanban](/images/scrum_vs_kanban.jfif)
 
-	[![burnout](images/burnout.jfif)](https://puppet.com/resources/report/2015-state-devops-report)
+	[![burnout](/images/burnout.jfif)](https://puppet.com/resources/report/2015-state-devops-report)
 
-	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+	[![promotion driven development](/images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
-	![culturas toxicas](images/culturas_toxicas_lavanguardia.jfif)
+	![culturas toxicas](/images/culturas_toxicas_lavanguardia.jfif)
+
 	</center>
 
 ## Videos
@@ -249,21 +252,25 @@
 ??? note "Click to expand!"
 
 	<center>
+
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/kJdXjtSnZTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/0fx7yy9-L7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/B0hPpGsslgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/YyXRYgjQXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/fvzUis-t2QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 	</center>
 
 ## Spanish Videos
 ??? note "Click to expand!"
 
 	<center>
+
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/ipEwm-fg0rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/TQOzU53xmQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/YKGtNie8HmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/-p-znNbtNXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 	</center>
 
 ## Tweets
@@ -271,6 +278,7 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">6 questions I try to answer before starting any new project:<br><br>1. What problem am I solving?<br>2. What constraints do I have?<br>3. Who are the main stakeholders?<br>4. What are the risks?<br>5. How do I measure progress?<br>6. What does success look like?<br><br>Don&#39;t sail without a compass.</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1393868830859010049?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We really need to normalize the conversation around big tech and promotion processes that lead to unnecessary complexity and waste. <a href="https://t.co/pAfErKPKBH">https://t.co/pAfErKPKBH</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1442298856406863876?ref_src=twsrc%5Etfw">September 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -286,6 +294,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are ways you stay hands on, as an engineering manager? Especially if you don’t code day to day (at work).</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1619797019547271168?ref_src=twsrc%5Etfw">January 29, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Amazon expects a lot out of their engineer managers.<br><br>They expect them to run projects, mentor employees, design systems, architect platforms, manage operations, communicate with customers, and evolve products.<br><br>But they don&#39;t expect them to code.<br><br>🧵</p>&mdash; Dave Anderson (@scarletinked) <a href="https://twitter.com/scarletinked/status/1646899226960429057?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
 
@@ -294,6 +303,7 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Irish and German people offering things <a href="https://t.co/AoPgWJpK6L">pic.twitter.com/AoPgWJpK6L</a></p>&mdash; Killian Sundermann (@killersundymann) <a href="https://twitter.com/killersundymann/status/1446131283969589250?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In cutthroat cultures, people kiss up and kick down. They protect themselves by currying favor with people in power and exploiting those without it.<br><br>In supportive cultures, people speak up and support down. They protect people without power by raising problems to those with it.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1460680644200124419?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -325,5 +335,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I wished management had a good understanding how costly it is to build something wrong in comparison to not building anything.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1550227569550577664?ref_src=twsrc%5Etfw">July 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A lot of senior engineers are going to find themselves coerced into becoming team leads with management responsibilities, just to provide relief for managers with too many direct reports.<br><br>My suggestion is to be open to trying it. But confirm with your manager that you can go… <a href="https://t.co/Iayep0lHxj">https://t.co/Iayep0lHxj</a></p>&mdash; Karthik Hariharan (@hkarthik) <a href="https://twitter.com/hkarthik/status/1756363374651400575?ref_src=twsrc%5Etfw">February 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

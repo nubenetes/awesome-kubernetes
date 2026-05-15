@@ -252,7 +252,9 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Generic automation tools like Helm are limited by the interfaces exposed to them, and often lack enough context to make the right state machine transitions.<br><br>Ideally, software evolves to expose better automation hooks, then custom tools, aka operators, can leverage them. <a href="https://t.co/v38aj4ukn4">https://t.co/v38aj4ukn4</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1435637052079427584?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
 
@@ -261,6 +263,8 @@
 ??? note "Click to expand!"
 
     <center>
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ha3LjlD6g7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>
   - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes/) - *(Related to kubernetes-tools topic)*

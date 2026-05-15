@@ -111,11 +111,13 @@
 ??? note "Click to expand!"
 
 	<center>
-    [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
 
-    [![devops vs sre](images/devops_vs_sre.jpg)](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
+    [![cn do sre](/images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
 
-    [![agile devops sre](images/agile_devops_sre.jpeg)](https://medium.com/@ta.abhisingh/agile-vs-devops-vs-sre-its-not-or-it-s-and-aa312904e577)
+    [![devops vs sre](/images/devops_vs_sre.jpg)](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
+
+    [![agile devops sre](/images/agile_devops_sre.jpeg)](https://medium.com/@ta.abhisingh/agile-vs-devops-vs-sre-its-not-or-it-s-and-aa312904e577)
+
 	</center>
 
 ## Videos
@@ -124,9 +126,11 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OnK4IKgLl24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tgRPlAQpHYk" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jgW4r9FxItI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </center>
 </details>
 
@@ -135,10 +139,12 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is it hard to find SREs? Dell: Developers do a good job as SREs because they know what exactly is happening. At the same time, we are also thinking about how we can have a developer rotation model too; essentially a rotation policy which is a learning process for us.</p>&mdash; The New Stack (@thenewstack) <a href="https://twitter.com/thenewstack/status/1390691219831934981?ref_src=twsrc%5Etfw">May 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Platform Engineering&quot; is rapidly becoming the new DevOps or SRE. Almost every day we hear about another org building an internal developer platform or control plane.<br><br>Want to know what platform engineering is, where the trends are going, and why you should care? <br><br>Read on 🧵👇</p>&mdash; Daniel Bryant (@danielbryantuk) <a href="https://twitter.com/danielbryantuk/status/1494614250567966732?ref_src=twsrc%5Etfw">February 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re delighted to introduce Prodcast, Google SRE&#39;s podcast about Site Reliability Engineering and production software. In Season 1, we discuss concepts from the <a href="https://twitter.com/hashtag/SRE?src=hash&amp;ref_src=twsrc%5Etfw">#SRE</a> Book with experts at Google.<a href="https://twitter.com/hashtag/SREBook?src=hash&amp;ref_src=twsrc%5Etfw">#SREBook</a> <a href="https://twitter.com/hashtag/reliability?src=hash&amp;ref_src=twsrc%5Etfw">#reliability</a> <a href="https://t.co/sOytXhXFyz">https://t.co/sOytXhXFyz</a></p>&mdash; Google Site Reliability Engineering (@googlesre) <a href="https://twitter.com/googlesre/status/1514506379117092867?ref_src=twsrc%5Etfw">April 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

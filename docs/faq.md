@@ -63,11 +63,13 @@
 ??? note "Click to expand!"
 
 	<center>
-	[![history of microservices](images/history_of_microservices.png)](https://bit.ly/kubeappserver)
 
-	[![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
+	[![history of microservices](/images/history_of_microservices.png)](https://bit.ly/kubeappserver)
 
-	[![Full Stack developer](images/Full_Stack_cybercoders.png)](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer/)
+	[![microservice arch](/images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 
-	[![from_monolith_to_containers](images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
+	[![Full Stack developer](/images/Full_Stack_cybercoders.png)](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer/)
+
+	[![from_monolith_to_containers](/images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
+
 	</center>

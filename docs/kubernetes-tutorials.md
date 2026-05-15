@@ -129,11 +129,13 @@
 ??? note "Click to expand!"
 
     <center>
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/X48VuDVv0do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/s_o8dwzRlu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </center>
 
 ## Tweets
@@ -141,6 +143,7 @@
 ??? note "Click to expand!"
 
     <center>
+
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A Kubernetes cluster is made of control plane nodes and worker nodes. And the nodes are made up of a number of components with specific functionalities 🌊<br><br>Thread 🧵👇🏻<a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/docker?src=hash&amp;ref_src=twsrc%5Etfw">#docker</a> <a href="https://t.co/hN9LptCU71">pic.twitter.com/hN9LptCU71</a></p>&mdash; SigNoz (@SignozHQ) <a href="https://twitter.com/SignozHQ/status/1498296938814480387?ref_src=twsrc%5Etfw">February 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Free Kubernetes courses for Beginners<br>1. Just enough kubernetes - <a href="https://t.co/9lSIfEKqSf">https://t.co/9lSIfEKqSf</a><br>2. Learn Kubernetes deployment - <a href="https://t.co/VmfaJWoGad">https://t.co/VmfaJWoGad</a><br>3. Introduction to Kubernetes - <a href="https://t.co/tw4z7J5n21">https://t.co/tw4z7J5n21</a><br>4. Containers 101 - <a href="https://t.co/r2YJNxpLWH">https://t.co/r2YJNxpLWH</a><br>more - <a href="https://t.co/9BKvlIxif8">https://t.co/9BKvlIxif8</a> <a href="https://t.co/zzlvrxYgL6">pic.twitter.com/zzlvrxYgL6</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1548537534493339648?ref_src=twsrc%5Etfw">July 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -148,5 +151,6 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Containers vs Pods 🧵<br><br>A &quot;container&quot; is an isolated and restricted execution environment, typically optimized to run just one service.<br><br>Being fully isolated from neighbors may feel good, but only at first. What if you need a few _supporting_ services around?<br><br>Pods to the rescue! <a href="https://t.co/QEVdvqB01h">pic.twitter.com/QEVdvqB01h</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1551964110295912448?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What problem is Kubernetes trying to solve?<br><br>Is it simply container orchestration?<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1557304846730002435?ref_src=twsrc%5Etfw">August 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     </center>
   - [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8) 🌟 - Una playlist de YouTube que ofrece una guía definitiva y completa sobre Kubernetes para principiantes absolutos, cubriendo conceptos fundamentales y prácticos.

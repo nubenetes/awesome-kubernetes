@@ -176,9 +176,11 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
   <summary>Click to expand!</summary>
 
 <center>
+
 <div class="container">
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/NpUYrnBQ59fyV6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/feuteston/jvm-internals-2015corkdevio" title="JVM Internals (2015)" target="_blank">JVM Internals (2015)</a> </strong> from <strong><a href="//www.slideshare.net/feuteston" target="_blank">Luiz Fernando Teston</a></strong> </div>
 </div>
+
 </center>
 </details>
 
@@ -188,6 +190,7 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> on <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> <a href="https://t.co/MRP0RwJWaG">pic.twitter.com/MRP0RwJWaG</a></p>&mdash; Bruno Borges (@brunoborges) <a href="https://twitter.com/brunoborges/status/1449655747764056073?ref_src=twsrc%5Etfw">October 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Once, I spent 6 months of my adult life as a full time JVM tuner. I was hired to work on data processing pipelines but the job became being a JVM tuning machine.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1461509707479195650?ref_src=twsrc%5Etfw">November 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -195,5 +198,6 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who knew that a <a href="https://twitter.com/java?ref_src=twsrc%5Etfw">@Java</a> developer as the best job in the UK according to ⁦<a href="https://twitter.com/Glassdoor?ref_src=twsrc%5Etfw">@Glassdoor</a>⁩. Feel lucky to be in the industry! <a href="https://t.co/IIQAmJA95l">pic.twitter.com/IIQAmJA95l</a></p>&mdash; George Adams (@gdams_) <a href="https://twitter.com/gdams_/status/1489296650199830529?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you don&#39;t set a Garbage Collector for your <a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> application, don&#39;t think the JVM will pick a good one for you either, no matter how many CPUs you give.<br><br>2 CPUs? 6 CPUs? It doesn&#39;t matter. If your container has less than 1792 MB and you don&#39;t set a GC, your app will use Serial <a href="https://t.co/06mr9TKkKn">pic.twitter.com/06mr9TKkKn</a></p>&mdash; Bruno Borges 🇧🇷🇺🇦🇨🇦 (@brunoborges) <a href="https://twitter.com/brunoborges/status/1499114848516329472?ref_src=twsrc%5Etfw">March 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>

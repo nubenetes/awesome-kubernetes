@@ -31,7 +31,9 @@
   <summary>Click to expand!</summary>
 
 <center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A handy Decision Tree for choosing the right messaging service on AWS.<br><br>As per my calculations, following it gives you a 90% chance of making the right choice.<br><br>Read more in the thread 🧵👇 <a href="https://t.co/s7Q5uoENop">pic.twitter.com/s7Q5uoENop</a></p>&mdash; Maciej Radzikowski (@radzikowski_m) <a href="https://twitter.com/radzikowski_m/status/1513941279175942155?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">AWS SNS: a fully-managed messaging service 📨<br><br>A collection of the fundamentals to get you started 📚 <a href="https://t.co/6betCtkscC">pic.twitter.com/6betCtkscC</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1537465068488740864?ref_src=twsrc%5Etfw">June 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
