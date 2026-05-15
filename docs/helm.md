@@ -217,7 +217,6 @@ Kubernetes packages
 
 ## Helm Tools
   - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) - Nelm is a Kubernetes deployment tool designed as a modern alternative to Helm. It aims to address long-standing issues in Helm and introduce new features, managing Helm Charts and facilitating their deployment to Kubernetes.
-  - [AKS Bitnami Open Source Deployments](http://blog.aks.azure.com/2025/04/03/aks-bitnami-open-source-deployments) - *(Related to azure topic)*
 
 - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
 - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
