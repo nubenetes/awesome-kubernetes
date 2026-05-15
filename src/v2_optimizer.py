@@ -208,6 +208,7 @@ class V2VisionEngine:
     async def _evaluate_and_score_resources(self, links: List[Dict]) -> List[Dict]:
         refined = []
         to_evaluate = []
+        force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
         
         # We want to re-evaluate the tags and years, so we will bypass cache for tagging logic,
         # but use cache for AI stars if available to save cost.
@@ -216,7 +217,7 @@ class V2VisionEngine:
             # To allow the new logic to apply to cached items, we re-process GitHub links 
             # and re-apply the tag logic even if it's in the cache.
             item = l.copy()
-            if url in self.cache and "stars" in self.cache[url]:
+            if not force_eval and url in self.cache and "stars" in self.cache[url]:
                 item.update(self.cache[url])
             else:
                 to_evaluate.append(item)
