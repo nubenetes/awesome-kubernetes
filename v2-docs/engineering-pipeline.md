@@ -218,7 +218,7 @@
   - **(2024)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Helm](https://nubenetes.com/helm/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Helm](./the-container-stack.md#helm) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [==glasskube.dev== 🌟](https://glasskube.dev/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Flagger](https://flagger.app/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
@@ -484,7 +484,7 @@
   - **(2024)** [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
-  - **(2024)** [Keptn](https://nubenetes.com/keptn/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
+  - **(2024)** [Keptn](./engineering-pipeline.md#keptn) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [Azure DevOps](https://azure.microsoft.com/services/devops/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
   - **(2024)** [shuttleOps](https://www.shuttleops.io/) 🌟 <span class='md-tag md-tag--info'>[PRODUCTION-READY]</span>
