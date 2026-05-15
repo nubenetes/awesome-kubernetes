@@ -361,7 +361,13 @@ class V2VisionEngine:
         for dim in v2_structure.keys():
             if not v2_structure[dim]["categories"]: continue
             for cat in v2_structure[dim]["categories"]:
-                v2_structure[dim]["categories"][cat].sort(key=lambda x: (x.get("year", "0"), -x.get("stars", 0)))
+                # Sort by: 1. Stars (DESC), 2. Year (DESC, N/A at the end)
+                v2_structure[dim]["categories"][cat].sort(
+                    key=lambda x: (
+                        -x.get("stars", 1),
+                        -(int(x["year"]) if x.get("year", "").isdigit() else 0)
+                    )
+                )
             
             prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
             try:
@@ -379,7 +385,15 @@ class V2VisionEngine:
         for dim in data.values():
             for cat_links in dim["categories"].values():
                 master_selection.extend([l for l in cat_links if l.get("stars", 1) == 3])
-        master_selection.sort(key=lambda x: (x.get("year", "0"), x["title"]), reverse=True)
+        
+        # Sort master selection by Year (DESC), then Title (ASC)
+        # (Relevance is already fixed at 3 stars for this list)
+        master_selection.sort(
+            key=lambda x: (
+                -(int(x["year"]) if x.get("year", "").isdigit() else 0),
+                x["title"]
+            )
+        )
 
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
