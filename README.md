@@ -212,7 +212,7 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 | **Depth** | Historical & Wide | Cutting-edge & Deep |
 | **Chronology** | **Unified Engine** (YYYY) | **Unified Engine** (YYYY) |
 | **Filtering** | Basic (Health only) | AI-Scored (🌟🌟🌟) |
-| **MVQ Check** | **Global Cleaning (MVQ)** | **Elite Discovery (MVQ)** |
+| **MVQ Check** | No (Exhaustive Preservation) | Yes (Stale repos deprioritized) |
 
 ---
 
@@ -227,10 +227,10 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
     - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane") using **relevance-first sorting**.
-    - **Deprioritization:** Automatically identifies stale repositories (>4 years without activity) and reduces their visibility.
+    - **MVQ Hardening:** Automatically identifies stale repositories (>4 years without activity) to exclude them from the Elite portal.
 3.  **IntelligentHealthChecker (`src/intelligent_health_checker.py`)**:
     - **Resilience:** Performs asynchronous health checks with 3x retry and identity rotation.
-    - **MVQ Cleaning:** Incorporates **Minimum Viable Quality** logic to automatically purge abandoned or low-value repositories.
+    - **V1 Integrity:** Focuses strictly on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible and error-free.
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
 
 ---

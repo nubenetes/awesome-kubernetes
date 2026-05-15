@@ -88,11 +88,12 @@ class IntelligentLinkCleaner:
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         now = datetime.now().timestamp()
         
-        # 1. MVQ Decision Logic for GitHub
+        # NOTE: V1 Exhaustiveness Mandate
+        # We fetch GitHub metadata for logging/metrics, but we DO NOT delete based on activity.
+        # Only definitively dead links are removed in V1.
         if "github.com" in url:
             gh_meta = await self._fetch_github_metadata(url)
-            if gh_meta.get("is_abandoned") and gh_meta.get("stars", 0) < 30:
-                return url, False, None, f"Abandoned Repo (Inactive {gh_meta['years_inactive']:.1f}y, {gh_meta['stars']}⭐)"
+            # Metadata is stored in cache/logs but not used for deletion here.
 
         cache_entry = self.learning_data.get("link_cache", {}).get(url)
         if cache_entry and cache_entry.get("status") == "ALIVE":

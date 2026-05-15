@@ -19,9 +19,10 @@ This file contains the accumulated instructions and long-term vision for the aut
 13. **Detailed Logging for V2**: When running the V2 Optimizer, agents MUST use unbuffered logging and detailed output messages. If the optimizer returns '0 links kept', the agent MUST investigate the logs to determine if it was due to AI selection or a parsing/API error.
 14. **Persistent V2 Caching**: The V2 Optimizer MUST use a persistent cache file (`data/v2_cache.json`) to store AI evaluations (year, quality, category). This is mandatory to minimize API costs and ensure execution speed across 15k+ links.
 15. **GitHub Metadata Enrichment**: For all `github.com` resources, the bot MUST attempt to fetch real-time metadata (stars, last commit) using the GitHub API. This data must be included in the V2 rendering to provide current context.
-16. **Resilient Link Health & MVQ Cleaning**: 
+16. **Resilient Link Health & Global Cleaning**: 
     - **Health Checks**: Every V2 generation and global cleaning cycle MUST perform asynchronous health checks using identity rotation (User-Agents) and multiple attempts (3x). 
-    - **MVQ Cleaning**: The `IntelligentLinkChecker` MUST apply the V2 **Minimum Viable Quality (MVQ)** logic. GitHub repositories inactive for >4 years with low impact (stars < 30) MUST be purged to maintain archive freshness.
+    - **V1 Exhaustiveness**: The `IntelligentLinkChecker` operating on V1 MUST preserve all technically valid links regardless of their age. Deletion is strictly reserved for definitively invalid links (404s, dead redirects, etc.).
+    - **V2 Elite Selection (MVQ)**: The `V2VisionEngine` MUST continue to apply the **Minimum Viable Quality (MVQ)** logic. GitHub repositories inactive for >4 years with low impact (stars < 30) are deprioritized or excluded ONLY from the V2 Elite edition to ensure freshness.
     - **Foundational Protection**: GitHub and 'Foundational' resources are exempt from automatic removal based on health, but may be flagged for review.
     - **Consolidation**: If a deep link fails but the repository root is alive, the bot MUST consolidate the reference to the root.
 17. **Unified Curation Chronology**: All curation workflows (V1 and V2) MUST utilize the same chronological and descriptive engine. 
