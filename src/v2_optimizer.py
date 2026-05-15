@@ -91,8 +91,16 @@ class V2VisionEngine:
         if os.path.exists("docs/index.md"):
             with open("docs/index.md", "r") as f:
                 idx_content = f.read()
-                mosaic_match = re.search(r'<center>\s*(\[!\[.*?)\s*</center>', idx_content, re.DOTALL)
-                if mosaic_match: mosaic_html = mosaic_match.group(1)
+                # Find the BIG mosaic (the one with many images)
+                # Support both old <center> and new <div style="text-align: center;" markdown="1">
+                mosaics = re.findall(r'<(?:div style="text-align: center;" markdown="1"|center)>\s*(.*?)\s*</(?:div|center)>', idx_content, re.DOTALL)
+                if mosaics:
+                    # Filter for the one containing many image links
+                    for m in mosaics:
+                        if m.count("[![") > 5:
+                            mosaic_html = m
+                            break
+
                 videos_match = re.search(r'\?\?\? note "Top Videos & Clips.*?\n(.*?\n)\s*</center>', idx_content, re.DOTALL)
                 if videos_match: videos_html = videos_match.group(1)
 
@@ -111,7 +119,8 @@ class V2VisionEngine:
                         if url.endswith(".md"):
                             url = f"https://nubenetes.com/{url.replace('.md', '/')}"
                         elif url.startswith("images/"):
-                            url = f"https://nubenetes.com/{url}"
+                            # Use relative path from V2 to V1 images
+                            url = f"../docs/{url}"
 
                     all_links.append({
                         "title": title, 
@@ -319,8 +328,8 @@ class V2VisionEngine:
         return v2_structure
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
-        # FIX: Ensure mosaic images point to V1 root
-        mosaic_html = mosaic_html.replace('src="images/', 'src="https://nubenetes.com/images/').replace('](images/', '](https://nubenetes.com/images/')
+        # FIX: Ensure mosaic images point to V1 root via relative paths
+        mosaic_html = mosaic_html.replace('src="images/', 'src="../docs/images/').replace('](images/', '](../docs/images/')
         
         master_selection = []
         for dim in data.values():
@@ -330,7 +339,7 @@ class V2VisionEngine:
 
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
-            "![Banner](https://raw.githubusercontent.com/nubenetes/awesome-kubernetes/master/docs/images/logo.png)\n\n"
+            "![Banner](../docs/images/kubernetes_logo.jpg)\n\n"
             "!!! quote \"The Library of 2026\"\n"
             "    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing "
             "    chronological clarity and expert quality synthesis.\n\n"

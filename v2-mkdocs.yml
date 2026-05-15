@@ -3,6 +3,7 @@ site_url: "https://nubenetes.com/v2/"
 site_description: "Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources."
 site_author: "Inaki Fernandez"
 copyright: "Copyright &copy; 2026 Nubenetes Agentic Intelligence"
+docs_dir: v2-docs
 
 repo_name: "nubenetes/awesome-kubernetes"
 repo_url: "https://github.com/nubenetes/awesome-kubernetes"
@@ -11,7 +12,7 @@ edit_uri: "edit/master/v2-docs/"
 theme:
   name: material
   language: en
-  favicon: images/favicon-car.png
+  favicon: ../docs/images/favicon-car.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -56,7 +57,7 @@ extra:
 
 extra_css:
   - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
-  - static/extra.css
+  - ../docs/static/extra.css
 
 markdown_extensions:
   - admonition
