@@ -226,17 +226,27 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 
 ## 🛠️ GitHub Workflows & Automation
 
-Nubenetes uses a complex network of GitHub Actions to maintain the archive.
+Nubenetes uses a sophisticated multi-stage automation pipeline. Below is the detailed inventory of our workflows, their roles, and their inter-dependencies.
 
-### Workflow Inventory
+### Workflow Inventory & Sequencing
 
-| Workflow | File | Purpose | Trigger | Dependencies |
-| :--- | :--- | :--- | :--- | :--- |
-| **Agentic Curation** | [`agentic_cron.yml`](.github/workflows/agentic_cron.yml) | Main engine: Discovery, Evaluation, and PR creation. | Monthly / Manual | None |
-| **V2 Elite Builder** | [`agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | Generates the high-density Elite edition in `v2-docs/`. | After Curation | Agentic Curation |
-| **Link Health** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | Global link health check & deduplication. | Monthly / Manual | None |
-| **Backup Curation** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | Processes historical backups (JSON/MD) into the repo. | Manual | None |
-| **README Sync** | [`readme_sync.yml`](.github/workflows/readme_sync.yml) | Autonomous synchronization of metrics and diagrams. | Push to `develop` | None |
+| # | Workflow | File | Purpose | Trigger | Target |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | **[Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_cron.yml)** | [`agentic_cron.yml`](.github/workflows/agentic_cron.yml) | **Primary Discovery Engine:** Scans sources (X.com, etc.), evaluates with Gemini, and updates V1 (`docs/`). | Monthly / Manual | `develop` |
+| 2 | **[V2 Elite Builder](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_builder.yml)** | [`agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | **Optimization Layer:** Scans V1 and generates the Elite edition for V2 (`v2-docs/`). | After #1 | `develop` |
+| 3 | **[README Sync](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml)** | [`readme_sync.yml`](.github/workflows/readme_sync.yml) | **Doc Synchronization:** Recalculates metrics, link growth, and diagrams in real-time. | Push to `develop` | `develop` |
+| 4 | **[Link Health Check](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/intelligent_link_cleaner.yml)** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | **Maintenance:** Global asynchronous health check, deduplication, and `[OFFLINE?]` flagging. | Monthly / Manual | `develop` |
+| 5 | **[Backup Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_backup.yml)** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | **Historical Ingestion:** Processes manual JSON/MD backups through the Agentic AI pipeline. | Manual | `develop` |
+| 6 | **[Production Deploy](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/main.yml)** | [`main.yml`](.github/workflows/main.yml) | **Deployment:** Builds both V1 and V2 editions using MkDocs and deploys to nubenetes.com. | Push to `master` | GitHub Pages |
+
+### Recommended Execution Pipeline
+
+To maintain the archive's integrity, the following logical sequence is followed by the system:
+
+1.  **Phase 1: Knowledge Discovery (#1 or #5):** Raw technical data is fetched and filtered by the Gemini Agent. A Pull Request is created against `develop`.
+2.  **Phase 2: Elite Synthesis (#2):** Once the curation is merged/pushed to `develop`, the V2 Builder triggers to update the premium portal.
+3.  **Phase 3: Metric Alignment (#3):** The push to `develop` from either Phase 1 or 2 triggers the README Sync, ensuring the home page always shows the correct link counts.
+4.  **Phase 4: Global Deployment (#6):** After the repository owner reviews the changes in `develop` and merges them into `master`, the production site is updated.
 
 ### Curation Flow Architecture
 
@@ -244,20 +254,26 @@ Nubenetes uses a complex network of GitHub Actions to maintain the archive.
 sequenceDiagram
     participant X as X.com / Sources
     participant G as Gemini Agent
-    participant W as GitHub Workflow
+    participant W1 as [1] Agentic Curation
+    participant W2 as [2] V2 Elite Builder
+    participant W3 as [3] README Sync
     participant R as Repo (develop)
-    participant S as README Sync
+    participant M as master branch
+    participant P as [6] Prod Deploy
 
-    W->>X: Extract Raw Data
-    X-->>W: Raw JSON/MD
-    W->>G: Evaluate & Score Assets
-    G-->>W: Scored & Categorized Assets
-    W->>W: Inject into docs/*.md
-    W->>R: Create Pull Request
+    W1->>X: Extract Raw Data
+    X-->>W1: Raw JSON/MD
+    W1->>G: Evaluate & Score Assets
+    G-->>W1: Scored & Categorized Assets
+    W1->>R: Update docs/*.md (V1)
     Note over R: V2 Builder Triggered...
-    W->>R: Update V2 Elite Edition
-    R->>S: Trigger README Sync
-    S->>R: Update Metrics & TOC
+    W2->>R: Update v2-docs/ (Elite)
+    R->>W3: Trigger README Sync
+    W3->>R: Update Metrics & TOC
+    Note over R, M: Owner Review & Merge
+    R->>M: Sync develop to master
+    M->>P: Trigger Production Build
+    P-->>P: Deploy V1 & V2 to nubenetes.com
 ```
 
 ### Deployment Lifecycle
