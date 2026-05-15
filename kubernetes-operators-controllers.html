@@ -12,11 +12,13 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
-        <link rel="canonical" href="https://nubenetes.com/index.html">
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-operators-controllers.html">
       
       
+        <link rel="prev" href="kubernetes-autoscaling.html">
       
-        <link rel="next" href="introduction.html">
+      
+        <link rel="next" href="kubernetes-based-devel.html">
       
       
         
@@ -27,7 +29,7 @@
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Operators and Controllers - Nubenetes</title>
       
     
     
@@ -90,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nubenetes-awesome-kubernetes-cloud" class="md-skip">
+        <a href="#kubernetes-operators-and-controllers" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Kubernetes Operators and Controllers
             
           </span>
         </div>
@@ -254,10 +256,8 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
+    <li class="md-tabs__item">
       <a href="index.html" class="md-tabs__link">
         
   
@@ -404,10 +404,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="kubernetes.html" class="md-tabs__link">
           
   
@@ -936,37 +938,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -982,412 +957,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#motivation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Motivation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Introduction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sre-site-reliability-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SRE Site Reliability Engineering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devops" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devsecops-and-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevSecOps and Security
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#noops-aka-serverless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NoOps aka Serverless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Docker
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#red-hat-openshift" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Red Hat OpenShift
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suse-rancher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SUSE Rancher
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#software-delivery-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Software Delivery Pipeline
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Software Delivery Pipeline">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#jenkins-cloudbees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Jenkins &amp; CloudBees
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openshift-pipelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenShift Pipelines
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#web-servers-reverse-proxies-java-runtimes-caching-solutions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#monitoring-and-performance-prometheus-grafana-apms-and-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Monitoring and Performance. Prometheus, Grafana, APMs and more
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#infrastructure-provisioning-infra-management-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Infrastructure Provisioning. Infra Management Tools
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration Management
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#databases-on-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Databases on Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#service-mesh" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Service Mesh
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#demos-and-boilerplates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Demos and Boilerplates
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apis-with-soap-rest-and-grpc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        APIs with SOAP, REST and gRPC
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-frameworks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Development &amp; Frameworks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Development &amp; Frameworks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#microsoft" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Microsoft
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#java" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dev-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dev Environment
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatestops-continuous-testing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        QA/TestOps - Continuous Testing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-management-methodology" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Project Management Methodology
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#more-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        More References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hiring-and-freelancing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hiring and Freelancing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#customer-success-stories" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Customer Success Stories
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2178,8 +1747,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -2227,19 +1798,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -2257,7 +1831,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2552,10 +2126,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Operators and Controllers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2571,6 +2172,158 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opentelemetry-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenTelemetry Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-kubernetes-operator-using-kubebuilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Kubernetes operator using Kubebuilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operatorhubio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        operatorhub.io
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-hat-container-community-of-practice-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Container Community of Practice Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operator-capability-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operator Capability Levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-addons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Addons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#k8spin-operator-kubernetes-multi-tenant-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K8Spin Operator. Kubernetes multi-tenant operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#k8s-kpis-with-kuberhealthy-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K8s KPIs with Kuberhealthy Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-kubernetes-operators-and-controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing Kubernetes Operators and Controllers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -8014,480 +7767,334 @@
 
 
 
-<h1 id="nubenetes-awesome-kubernetes-cloud">Nubenetes: Awesome Kubernetes &amp; Cloud <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
-<div class="admonition tip">
-<p class="admonition-title">Nubenetes V2: Agentic Elite Edition is now live!</p>
-<p>Looking for a high-density, AI-curated experience? Explore our <a href="/v2/"><strong>V2 Elite Portal</strong></a> - Optimized for 2026 Architectural Standards.</p>
-</div>
-<p>A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration &amp; Delivery), and API-focused designs.</p>
-<p><a href="https://nubenetes.com">Nubenetes</a> is also available at <a href="https://awesome-kubernetes.readthedocs.io/">this other site</a>.</p>
-<p>&ldquo;I do not believe you can do today&rsquo;s job with yesterday&rsquo;s methods and be in business tomorrow&rdquo; (<a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson">Horatio Nelson Jackson</a>)</p>
-<center>
-
-[![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
-
-</center>
-<hr />
-<h2 id="motivation">Motivation</h2>
-<ul>
-<li><a href="https://microservices.io/">microservices.io</a></li>
-<li><a href="https://www.cncf.io/">cncf.io</a><ul>
-<li><a href="https://landscape.cncf.io/">landscape.cncf.io</a></li>
-<li><a href="https://www.cncf.io/certification/software-conformance/">Certified Kubernetes offerings</a></li>
-<li><a href="https://www.cncf.io/reports/">CNCF Reports</a><ul>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf">CNCF Survey Report 2019</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/11/CNCF_Survey_Report_2020.pdf">CNCF Survey Report 2020</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf">CNCF Survey Report 2021</a> - <a href="https://www.infoq.com/news/2022/01/ -cncf-state-of-cloud-native">CNCF Publishes State of Cloud Native Development Report</a> - <a href="https://www.cncf.io/announcements/2022/02/10/cncf-sees-record-kubernetes-and-container-adoption-in-2021-cloud-native-survey/">CNCF Sees Record Kubernetes and Container Adoption</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://puppet.com/resources/?refinementList%5Btype%5D%5B0%5D=Report&amp;page=1&amp;configure%5BhitsPerPage%5D=18">State of DevOps Reports</a><ul>
-<li><a href="https://puppet.com/resources/report/2020-state-of-devops-report">2020 State of DevOps Report</a></li>
-<li><a href="https://puppet.com/resources/report/2020-devops-salary-report">2020 DevOps Salary Report</a></li>
-<li><a href="https://puppet.com/resources/report/2021-state-of-devops-report">2021 State of DevOps Report: A decade of DevOps</a></li>
-<li><a href="https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021">2021 Gartner Report Top Trends Infra &amp; Operations</a></li>
-</ul>
-</li>
-<li><a href="https://cri-o.io/">CRI-O Lightweight Container Runtime for Kubernetes</a></li>
-<li><a href="https://www.opencontainers.org/">Open Container Initiative</a></li>
-<li><a href="http://agilemethodology.org/">agilemethodology.org</a></li>
-<li><a href="http://agilemanifesto.org/">agilemanifesto.org</a></li>
-<li><a href="https://12factor.net/">12factor.net</a> - <a href="https://dzone.com/articles/are-you-12-factor-application-ready">Are You 12-Factor Application Ready?</a> - <a href="https://dzone.com/whitepapers/the-12-factor-app-infographic">12-factor app infographic</a> - <a href="https://www.redhat.com/architect/12-factor-app">An illustrated guide to 12 Factor Apps 🌟</a></li>
-<li><a href="https://openpracticelibrary.com/">openpracticelibrary.com</a> - <a href="https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts">Top 10 most visited pages</a></li>
-<li><a href="https://roadmap.sh/">roadmap.sh</a> - <a href="https://roadmap.sh/devops">DevOps Roadmap</a> - <a href="https://roadmap.sh/kubernetes">Kubernetes Roadmap</a><ul>
-<li><a href="https://roadmap.sh/ai">roadmap.sh/ai: Generate roadmaps with AI</a></li>
-<li><a href="https://roadmap.sh/terraform">roadmap.sh/terraform</a></li>
-</ul>
-</li>
-<li><a href="https://apilandscape.apiscene.io/">API Landscape</a></li>
-<li><a href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a><ul>
-<li><a href="https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted">2021</a></li>
-<li><a href="https://survey.stackoverflow.co/2022/">2022 🌟</a> - <a href="https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3">betterprogramming.pub</a></li>
-</ul>
-</li>
-<li><a href="https://stackoverflow.com/collectives">Stack Overflow Collectives</a> Communities for your favorite technologies<ul>
-<li><a href="https://stackoverflow.com/collectives/go">Go Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/gitlab">GitLab Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/google-cloud">Google Cloud Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/aws">AWS Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/azure">Azure Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/ci-cd">CI/CD Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/wso2">WSO2 Collective</a></li>
-<li>etc</li>
-</ul>
-</li>
-<li><a href="https://opensource.guide/">Open Source Guides</a></li>
-<li><a href="https://www.opengroup.org/">The Open Group: Making Standards Work</a> - <a href="http://publications.opengroup.org/">publications.opengroup.org</a> - <a href="https://www.opengroup.org/togaf">The TOGAF® Standard, a standard of The Open Group</a></li>
-<li><a href="https://dzone.com/articles/how-your-application-architecture-evolved">How Your Application Architecture Has Evolved 🌟</a></li>
-<li><a href="https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/"><mark>Kubernetes magic is in enterprise standardization, not app portability</mark></a></li>
-<li><a href="https://containerjournal.com/features/the-rise-of-the-kubemaster/">A new role to emerge: Kubernetes Manager (KubeMaster) 🌟</a></li>
-<li><a href="https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/">An emerging Job: Kubernetes engineer 🌟</a></li>
-<li><a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report">Google DORA Report: State of DevOps 2021 🌟</a> How to accelerate DevOps - <a href="https://devops.com/google-dora-report-shows-modest-devops-gains/">summary 1</a> - <a href="https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need">summary 2</a></li>
-<li><a href="https://github.com/gayanvoice/top-github-users">Top GitHub Users By Country</a></li>
-<li><a href="https://www.redhat.com/en/blog/red-hat-automation-glossary">Red Hat automation glossary 🌟</a></li>
-<li><a href="https://www.redhat.com/sysadmin/automation-architects">The rise of the automation architect</a></li>
-<li><a href="https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/">Automation is the future of cloud cost optimization</a></li>
-<li><a href="https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx">The Rise of Modern Day Kubernetes Operations</a></li>
-<li><a href="https://www.infoq.com/articles/distributed-systems-kubernetes/">The Evolution of Distributed Systems on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/10-cloud-deficiencies-you-should-know/">10 Cloud Deficiencies You Should Know</a></li>
-<li><a href="https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team"><mark>How to Explain Kubernetes to a Business Team</mark></a></li>
-<li><a href="https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022"><mark>Pets vs. Cattle: The Future of Kubernetes in 2022</mark></a></li>
-<li><a href="https://dok.community">dok.community: DoKC Data on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/">A Kubernetes Documentary Shares Google’s Open Source Story</a></li>
-<li><a href="https://alpacked.io/blog/infrastructure-as-code-for-devops/"><mark>Infrastructure as Code in DevOps</mark></a></li>
-<li><a href="https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/">Kubernetes at Scale without GitOps Is a Bad Idea</a></li>
-<li><a href="https://dzone.com/trendreports">dzone.com/trendreports</a></li>
-<li><a href="https://kube.events">kube.events</a> A curated list of Kubernetes-related events such as meetups, conferences, training &amp; webinars that you will find interesting to attend</li>
-<li><a href="https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022">The future of Kubernetes – and why developers should look beyond Kubernetes in 2022</a></li>
-<li><a href="https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html">cloudtechtwitter.com: Introduction to Kubernetes 🌟</a></li>
-<li><a href="https://github.com/readme/guides/">GitHub Guides</a></li>
-<li><a href="https://learnk8s.io/news">learnk8s.io/news</a> How do you keep up with Kubernetes? If you are looking for curated Kubernetes news, we have you covered on:<ul>
-<li>Core Kubernetes</li>
-<li>Security</li>
-<li>Architecture &amp; development</li>
-<li>Job opportunities</li>
-<li>K3s</li>
-<li>Events</li>
-</ul>
-</li>
-<li><a href="https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/">thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟</a></li>
-<li><a href="https://dzone.com/trendreports/kubernetes-in-the-enterprise-1">dzone: Kubernetes in the Enterprise - Trend Report</a></li>
-<li><a href="https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/">Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟</a></li>
-<li><a href="https://learnk8s.io/learn-kubernetes-weekly">learnk8s.io/learn-kubernetes-weekly 🌟</a></li>
-<li><a href="https://www.infoworld.com/article/3679250/cloud-architects-are-afraid-of-automation.html">infoworld.com: Cloud architects are afraid of automation</a> Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What&rsquo;s so scary?</li>
-<li><a href="https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html">infoworld.com: The biggest obstacle to cloud is people</a> People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.</li>
-<li><a href="https://github.com/Droogans/unmaintainable-code">Droogans/How To Write Unmaintainable Code</a> Ensure a job for life ;-)</li>
-<li><a href="https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine">dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf">github.com/metaleapca: metaleap-devops-in-k8s.pdf</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf">github.com/metaleapca: metaleap-k8s-troubleshooting.pdf</a></li>
-<li><a href="https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/">devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟</a></li>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals">serverlessland.com: EDA VISUALS</a> Small bite sized visuals about event-driven architectures</li>
-<li><a href="https://dzone.com/refcardz/the-essentials-of-gitops">dzone: The Essentials of GitOps 🌟</a></li>
-<li><a href="https://dzone.com/articles/rest-vs-messaging-for-microservices">dzone.com: REST vs. Messaging for Microservices</a></li>
-<li><a href="https://thenewstack.io/the-next-kubernetes-management-frontier-automation/">The Next Kubernetes Management Frontier: Automation</a> Automation Is No Longer a “Nice to Have”</li>
-<li><a href="https://redis.com/blog/microservice-architecture-key-concepts/">redis.com: Microservice Architecture Key Concepts</a></li>
-<li><a href="https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/">thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟</a></li>
-<li><a href="https://dzone.com/articles/software-deployment-best-practices">Software Deployment Best Practices in 2023</a> Explore the best software development practices that are the proven catalysts for innovation and growth.</li>
-<li><a href="https://github.com/DevOps-Projects-Ideas/DevOps-Books"><mark>DevOps-Books</mark> 🌟</a></li>
-<li><a href="https://community.aws/kubernetes">community.aws/kubernetes</a> Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.</li>
-<li><a href="https://explore.skillbuilder.aws/learn">AWS Skill Builder</a></li>
-<li><a href="https://www.cloudcatalog.dev">cloudcatalog.dev</a> Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.</li>
-<li><a href="https://platformengineering.org">platformengineering.org</a> The global home for Platform Engineers</li>
-<li><a href="https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool">Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?</a></li>
-<li><a href="https://chaoslever.com/cl-20240118/">Redefining Virtualization in the VMware Acquisition Era</a></li>
-<li><a href="https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/">Do Kubernetes Certs Prepare You For Real-World Production?</a></li>
-<li><a href="https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c">Why I Don’t Consider Your Certifications During An Interview</a></li>
-<li><a href="https://dagger.io">dagger.io</a> CI/CD as Code that Runs Anywhere.</li>
-<li><a href="https://en.wikipedia.org/wiki/Bus_factor">Bus factor</a> The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase &ldquo;in case they get hit by a bus&rdquo;.</li>
-<li><a href="https://www.seal.io/">seal.io: Open Source Platform Engineering for Dev &amp; Ops</a></li>
-<li><a href="https://k8sgpt.ai/"><mark>k8sgpt.ai</mark></a> K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.</li>
-<li><a href="https://github.com/topics/gitops">github.com/topics/gitops</a></li>
-<li><a href="https://github.com/dolthub/dolt">Dolt: Git for Data</a></li>
-<li><a href="https://serverlesshorrors.com/">serverlesshorrors.com</a></li>
-<li><a href="https://glasskube.dev/">glasskube.dev package manager for k8s 🌟</a></li>
-<li><a href="https://github.com/infrahouse/infrahouse-toolkit">github.com/infrahouse/infrahouse-toolkit</a> A collection of tools for building infrastructure</li>
-<li><a href="https://github.com/taubyte/tau">github.com/taubyte/tau</a> Open Source Git-Native CDN PaaS</li>
-<li><a href="https://mattias.engineer/courses/"><mark>mattias.engineer/courses</mark> 🌟</a> HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD</li>
-<li><a href="https://paulbutler.org/2024/the-haters-guide-to-kubernetes/">The hater’s guide to Kubernetes</a></li>
-<li><a href="https://github.com/cyclops-ui/cyclops">github.com/cyclops-ui/cyclops</a> Developer Friendly Kubernetes</li>
-<li><a href="https://k8z.dev/">k8z.dev</a> A lightweight, modern mobile and desktop application for manage kubernetes</li>
-<li><a href="https://github.com/zegl/kube-score">Kube-score</a></li>
-<li><a href="https://testkube.io">testkube.io 🌟</a></li>
-<li><a href="https://github.com/curl/wcurl">wcurl</a> A simple wrapper around curl to easily download files</li>
-<li><a href="https://github.com/netbox-community/netbox">NetBox IPAM 🌟</a><ul>
-<li><a href="https://netboxlabs.com/">NetBox Labs</a> is the commercial steward of NetBox. We are on a mission to make it easier to build and manage complex networks.</li>
-<li><a href="https://docs.ansible.com/ansible/latest/collections/netbox/netbox/index.html">Netbox Ansible Modules</a></li>
-</ul>
-</li>
-<li><a href="https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd">youtube: GitOps Guide to the Galaxy</a></li>
-<li><a href="https://devopswithkubernetes.com/">devopswithkubernetes.com</a> Introductory course to Kubernetes with K3s and GKE</li>
-<li><a href="https://github.com/gardener/gardener">Gardener</a> Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service</li>
-<li><a href="https://collabnix.github.io/kubetools/">collabnix.github.io/kubetools 🌟</a> A Curated List of Kubernetes Tools</li>
-<li><a href="https://github.com/CastawayEGR/openshift-ai-examples">OpenShift AI Examples</a></li>
-<li><a href="https://youtube.com/playlist?list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe&amp;si=GBJtqv36O8bslj9z">Jenkins Tutorials by CloudBeesTV 🌟</a></li>
-<li><a href="https://kui.tools">kui.tools</a> Kui: CLI-driven Graphics for Kubernetes</li>
-</ul>
+<h1 id="kubernetes-operators-and-controllers">Kubernetes Operators and Controllers</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#opentelemetry-operator">OpenTelemetry Operator</a></li>
+<li><a href="#creating-kubernetes-operator-using-kubebuilder">Creating Kubernetes operator using Kubebuilder</a></li>
+<li><a href="#operatorhubio">operatorhub.io</a></li>
+<li><a href="#red-hat-container-community-of-practice-operators">Red Hat Container Community of Practice Operators</a></li>
+<li><a href="#operator-capability-levels">Operator Capability Levels</a></li>
+<li><a href="#cluster-addons">Cluster Addons</a></li>
+<li><a href="#k8spin-operator-kubernetes-multi-tenant-operator">K8Spin Operator. Kubernetes multi-tenant operator</a></li>
+<li><a href="#k8s-kpis-with-kuberhealthy-operator">K8s KPIs with Kuberhealthy Operator</a></li>
+<li><a href="#writing-kubernetes-operators-and-controllers">Writing Kubernetes Operators and Controllers</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
 <h2 id="introduction">Introduction</h2>
 <ul>
-<li><a href="introduction.html">Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes</a></li>
-<li><a href="faq.html">Microservices FAQ &amp; Kubernetes Native</a></li>
-</ul>
-<h2 id="sre-site-reliability-engineering">SRE Site Reliability Engineering</h2>
-<ul>
-<li><a href="sre.html">Site Reliability Engineering (SRE)</a></li>
-<li><a href="networking.html">Networking</a></li>
-<li><a href="finops.html">FinOps - Cloud Financial Management</a></li>
-<li><a href="chaos-engineering.html">Chaos Engineering</a></li>
-</ul>
-<h2 id="devops">DevOps</h2>
-<ul>
-<li><a href="devops.html"><mark>DevOps</mark></a></li>
-<li><a href="gitops.html"><mark>GitOps</mark></a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="cheatsheets.html">Cheat Sheets 🌟</a></li>
-</ul>
-<h2 id="devsecops-and-security">DevSecOps and Security</h2>
-<ul>
-<li><a href="devsecops.html">DevSecOps and Security. Container Security</a></li>
-<li><a href="securityascode.html">Security Policy as Code</a></li>
-<li><a href="oauth.html">OAuth2</a></li>
-</ul>
-<h2 id="noops-aka-serverless">NoOps aka Serverless</h2>
-<ul>
-<li><a href="noops.html">NoOps</a></li>
-<li><a href="serverless.html">Serverless Architectures &amp; Frameworks. OpenFaaS, Knative &amp; Kubeless</a></li>
-</ul>
-<h2 id="docker">Docker</h2>
-<ul>
-<li><a href="docker.html">Docker</a></li>
-</ul>
-<h2 id="kubernetes">Kubernetes</h2>
-<ul>
-<li><a href="kubernetes.html"><mark>Kubernetes</mark></a><ul>
-<li><a href="kubernetes-tutorials.html"><mark>Kubernetes Tutorials</mark></a></li>
-<li><a href="kubernetes-tools.html">Kubernetes Plugins, Tools, Extensions and Projects 🌟</a></li>
-<li><a href="kubectl-commands.html">kubectl Commands</a></li>
-<li><a href="kubernetes-networking.html">Kubernetes Networking</a></li>
-<li><a href="kubernetes-monitoring.html">Kubernetes Monitoring and Logging</a></li>
-<li><a href="kubernetes-security.html">Kubernetes Security</a></li>
-<li><a href="kubernetes-storage.html">Kubernetes Storage</a></li>
-<li><a href="kubernetes-backup-migrations.html">Kubernetes Backup and Migrations</a></li>
-<li><a href="kubernetes-autoscaling.html">Kubernetes Autoscaling</a></li>
-<li><a href="kubernetes-operators-controllers.html">Kubernetes Operators and Controllers</a></li>
-<li><a href="kubernetes-based-devel.html">Kubernetes Based Development</a></li>
-<li><a href="kubernetes-on-premise.html">Kubernetes On Premise</a></li>
-<li><a href="managed-kubernetes-in-public-cloud.html"><mark>Managed kubernetes in public clouds</mark></a></li>
-<li><a href="kubernetes-troubleshooting.html">Kubernetes Troubleshooting</a></li>
-<li><a href="kubernetes-releases.html">Kubernetes Releases</a></li>
-<li><a href="kubernetes-newsletters.html">Kubernetes Newsletters</a></li>
+<li><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue">Red Hat Build of Kueue</a> 🌟 - This documentation introduces Red Hat Build of Kueue, a Kubernetes-native batch job orchestrator. It explains how Kueue manages and schedules batch workloads by providing features like fair-sharing, preemption, and resource aggregation, making it suitable for AI and high-performance computing (HPC) workloads.</li>
+<li>
+<p><a href="https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough/">How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn&rsquo;t Enough</a> 🌟 - This article explores the role of Kubernetes Operators in modern platform engineering, highlighting their advantages over traditional Infrastructure as Code (IaC) for managing complex applications and infrastructure within the Kubernetes control plane. It discusses how operators encapsulate expertise for tasks like backups, upgrades, and scaling, integrating seamlessly with tools like Argo and Flux for enhanced drift detection and reconciliation.</p>
+</li>
+<li>
+<p><a href="https://kruschecompany.com/kubernetes-operator/">kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?</a></p>
+</li>
+<li><a href="https://kruschecompany.com/kubernetes-prometheus-operator/">kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment</a></li>
+<li><a href="https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes/">hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator for Kubernetes</a></li>
+<li><a href="https://banzaicloud.com/blog/kafka-rolling-upgrade/">banzaicloud.com: Kafka rolling upgrade made easy with Supertubes</a></li>
+<li><a href="https://devops.com/day-2-for-the-operator-ecosystem/">devops.com: Day 2 for the Operator Ecosystem 🌟</a><ul>
+<li><a href="https://kudo.dev/">KUDO: The Kubernetes Universal Declarative Operator 🌟</a> KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.</li>
 </ul>
 </li>
-<li><a href="matrix-table.html">Kubernetes Distributions &amp; Installers</a></li>
-<li><a href="kubernetes-bigdata.html">Kubernetes Big Data</a></li>
-<li><a href="kubernetes-alternatives.html">Kubernetes Alternatives</a></li>
-</ul>
-<h2 id="red-hat-openshift">Red Hat OpenShift</h2>
-<ul>
-<li><a href="openshift.html">OpenShift</a></li>
-<li><a href="ocp3.html">OCP 3</a></li>
-<li><a href="ocp4.html">OCP 4</a></li>
-</ul>
-<h2 id="suse-rancher">SUSE Rancher</h2>
-<ul>
-<li><a href="rancher.html">Rancher - Enterprise management for Kubernetes</a></li>
-</ul>
-<h2 id="software-delivery-pipeline">Software Delivery Pipeline</h2>
-<ul>
-<li><a href="cicd.html">CI/CD - Continuous Integration &amp; Continuous Delivery</a></li>
-<li><a href="git.html">Git &amp; Git Patterns. Trunk Devel, Git Flow &amp; Feature Flags. Merge BOTs 🌟</a></li>
-</ul>
-<h3 id="jenkins-cloudbees">Jenkins &amp; CloudBees</h3>
-<ul>
-<li><a href="jenkins.html">Jenkins &amp; CloudBees 😀</a></li>
-<li><a href="performance-testing-with-jenkins-and-jmeter.html">Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc</a></li>
-</ul>
-<h3 id="openshift-pipelines">OpenShift Pipelines</h3>
-<ul>
-<li><a href="openshift-pipelines.html">OpenShift Pipelines with Jenkins, Tekton and more&hellip;</a></li>
-</ul>
-<h3 id="devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools">DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools</h3>
-<ul>
-<li><a href="devops-tools.html">DevOps Tools</a></li>
-<li><a href="jenkins-alternatives.html">Jenkins Alternatives for Continuous Integration &amp; Deployment 🌟</a></li>
-<li><a href="argo.html">Argo - Declarative GitOps for Kubernetes 🌟</a></li>
-<li><a href="flux.html">Flux CD - The GitOps Operator for Kubernetes 🌟</a></li>
-<li><a href="tekton.html">Tekton - Cloud Native CI/CD</a></li>
-<li><a href="keptn.html">Keptn</a></li>
-<li><a href="container-managers.html">Container Runtimes/Managers &amp; Base Images. Podman, Buildah &amp; Skopeo</a></li>
-<li><a href="maven-gradle.html">Maven, Gradle &amp; SDKMAN</a></li>
-<li><a href="sonarqube.html">SonarQube</a></li>
-<li><a href="registries.html">Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more</a></li>
-<li><a href="linux.html">Linux &amp; SSH</a></li>
-<li><a href="mkdocs.html">MkDocs &amp; GitHub Pages</a></li>
-</ul>
-<h3 id="web-servers-reverse-proxies-java-runtimes-caching-solutions">Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions</h3>
-<ul>
-<li><a href="web-servers.html">Web Servers &amp; Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more</a></li>
-<li><a href="java_app_servers.html">Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more</a></li>
-<li><a href="embedded-servlet-containers.html">Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more</a></li>
-<li><a href="caching.html">Caching Solutions</a></li>
-</ul>
-<h2 id="monitoring-and-performance-prometheus-grafana-apms-and-more">Monitoring and Performance. Prometheus, Grafana, APMs and more</h2>
-<ul>
-<li><a href="monitoring.html">Monitoring and Performance</a></li>
-<li><a href="prometheus.html">Prometheus 🌟</a></li>
-<li><a href="grafana.html">Grafana</a></li>
-</ul>
-<h2 id="infrastructure-provisioning-infra-management-tools">Infrastructure Provisioning. Infra Management Tools</h2>
-<ul>
-<li><a href="iac.html">IaC Infrastructure as Code</a></li>
-<li><a href="terraform.html"><mark>Terraform &amp; Packer.Kubernetes Boilerplates</mark></a></li>
-<li><a href="pulumi.html">Pulumi</a></li>
-<li><a href="crossplane.html">Crossplane</a> A Kubernetes Control Plane to Roll Your Own PaaS</li>
-<li><a href="cloud-arch-diagrams.html">Cloud Architecture Diagram Tools</a></li>
-<li><a href="cloud-asset-inventory.html">Cloud Asset Inventory</a></li>
-</ul>
-<h2 id="configuration-management">Configuration Management</h2>
-<ul>
-<li><a href="ansible.html"><mark>Ansible</mark></a></li>
-<li><a href="helm.html">Helm Kubernetes Tool 🌟</a></li>
-<li><a href="kustomize.html">Kustomize - Template-Free Kubernetes Configuration Customization</a></li>
-<li><a href="stackstorm.html">StackStorm</a></li>
-<li><a href="chef.html">Chef</a></li>
-<li><a href="cicd-kubernetes-plugins.html">CI/CD Kubernetes Plugins</a></li>
-<li><a href="kubernetes-client-libraries.html">Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube &amp; Java Operator SDK</a></li>
-<li><a href="liquibase.html">Database Version Control. Liquibase, Flyway and PlanetScale</a></li>
-<li><a href="https://dzone.com/articles/gitops-with-openshift-applier">redhat-cop: Openshift Applier</a></li>
-<li><a href="yaml.html">YAML and JSON 🌟</a></li>
-</ul>
-<h2 id="databases-on-kubernetes">Databases on Kubernetes</h2>
-<ul>
-<li><a href="databases.html">Relational Databases and Database DevOps 🌟</a></li>
-<li><a href="crunchydata.html">Crunchy Data PostgreSQL Operator</a></li>
-<li><a href="nosql.html">NoSQL Databases</a></li>
-</ul>
-<h2 id="cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)</h2>
-<ul>
-<li><a href="message-queue.html">Data Pipeline 🌟</a></li>
-</ul>
-<h2 id="service-mesh">Service Mesh</h2>
-<ul>
-<li><a href="servicemesh.html">Service Mesh</a></li>
-<li><a href="istio.html">Istio</a></li>
-</ul>
-<h2 id="demos-and-boilerplates">Demos and Boilerplates</h2>
-<ul>
-<li><a href="demos.html"><mark>Demos, Boilerplates &amp; Screencasts</mark></a> OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more</li>
-</ul>
-<h2 id="cloud">Cloud</h2>
-<ul>
-<li><a href="public-cloud-solutions.html">Public Cloud Solutions</a></li>
-<li><a href="private-cloud-solutions.html">Private Cloud Solutions</a></li>
-<li><a href="edge-computing.html">Edge Computing</a></li>
-<li><a href="aws.html"><mark>AWS</mark></a><ul>
-<li><a href="https://repost.aws"><mark>repost.aws</mark></a></li>
-<li><a href="aws-miscellaneous.html">AWS Miscellaneous</a></li>
-<li><a href="aws-architecture.html"><mark>AWS Architecture and Best Practices</mark></a></li>
-<li><a href="aws-networking.html">AWS Networking</a></li>
-<li><a href="aws-databases.html">AWS Databases</a></li>
-<li><a href="aws-storage.html">AWS Storage</a></li>
-<li><a href="aws-security.html">AWS Security</a></li>
-<li><a href="aws-monitoring.html">AWS Monitoring</a></li>
-<li><a href="aws-iac.html">AWS IaC</a></li>
-<li><a href="aws-tools-scripts.html">AWS Tools Scripts</a></li>
-<li><a href="aws-messaging.html">AWS Messaging</a></li>
-<li><a href="aws-data.html">AWS Data</a></li>
-<li><a href="aws-devops.html">AWS DevOps</a></li>
-<li><a href="aws-serverless.html">AWS Serverless</a></li>
-<li><a href="aws-pricing.html">AWS Pricing</a></li>
-<li><a href="aws-containers.html">AWS Containers</a></li>
-<li><a href="aws-backup.html">AWS Backup and Migrations</a></li>
-<li><a href="aws-training.html">AWS Training and Certification</a></li>
-<li><a href="aws-newfeatures.html">AWS New Features</a></li>
-<li><a href="aws-spain.html">AWS Spain</a></li>
+<li><a href="https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04">itnext.io: <strong>Operator Lifecycle Manager (OLM)</strong> 🌟</a></li>
+<li><a href="https://github.com/vmware/kube-fluentd-operator">kube-fluentd-operator 🌟</a> is a sane, no-brainer Kubernetes+Helm distribution of Fluentd with batteries included, config validation, no needs to restart, with sensible defaults and best practices built-in. You can use Kubernetes labels to filter/route logs!</li>
+<li><a href="https://github.com/shurshun/domain-harvester">Domain-harvester</a> is an operator that collects domains from all Ingress resources in a Kubernetes cluster and provides its expiry information</li>
+<li><a href="https://github.com/datastax/cass-operator">Cass Operator</a> The DataStax Kubernetes Operator for Apache Cassandra®</li>
+<li><a href="https://github.com/kotalco/kotal">Kotal operator</a> is cloud agnostic blockchain deployer that make it easy to deploy highly available, self-managing, self-healing blockchain infrastructure (networks, nodes, storage clusters &hellip;) on any cloud.</li>
+<li><a href="https://github.com/OT-CONTAINER-KIT/redis-operator">Speculator: Redis Operator</a> A Golang based redis operator that will make/oversee Redis standalone/cluster mode setup on top of the Kubernetes. It can create a redis cluster setup with best practices on Cloud as well as the Bare metal environment. Also, it provides an in-built monitoring capability using redis-exporter.</li>
+<li><a href="https://github.com/carlosedp/lbconfig-operator">github.com/carlosedp/lbconfig-operator: External Load Balancer Operator 🌟</a> a Kubernetes/openshift Operator to dynamically configure external load-balancers distributing the traffic to the cluster nodes. It&rsquo;s not 100% (will it ever be?) but already configures the F5 BigIP. The idea is to have multiple LB backends soon.</li>
+<li><a href="https://github.com/jace-ys/sentry-operator">Sentry Operator</a> A Kubernetes operator for automating the provisioning and management of Sentry resources via Kubernetes CRDs.</li>
+<li><a href="https://thenewstack.io/kubernetes-when-to-use-and-when-to-avoid-the-operator-pattern/">thenewstack.io: When to Use, and When to Avoid, the Operator Pattern 🌟</a></li>
+<li><a href="https://www.infoq.com/articles/kubernetes-operators-in-depth/">infoq.com: Kubernetes Operators in Depth</a></li>
+<li><a href="https://github.com/kloeckner-i/db-operator">DB Operator 🌟</a> is a Kubernetes Operator for the management of cloud databases, primarily Google Cloud SQL(GCSQL). It is designed to support the on demand creation of test environments in CI/CD pipelines.</li>
+<li><a href="https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101/">cncf.io: Kubernetes Operators 101</a></li>
+<li><a href="https://blog.container-solutions.com/kubernetes-operators-explained">container-solutions.com: Kubernetes Operators Explained</a></li>
+<li><a href="https://github.com/Efrat19/kubeload">kubeload - load testing</a> is a Kubernetes operator that lets you configure your load-test initial load, max load, interval and hatch-rate. You can use CRD to define all the parameters and repeat your load testing experiments.</li>
+<li><a href="https://www.contentful.com/blog/2020/10/20/open-source-kube-secret-syncer/">contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager</a><ul>
+<li><a href="https://github.com/contentful-labs/kube-secret-syncer">contentful-labs/kube-secret-syncer 🌟</a></li>
 </ul>
 </li>
-<li><a href="azure.html"><mark>Microsoft Azure</mark></a></li>
-<li><a href="GoogleCloudPlatform.html"><mark>Google Cloud Platform</mark></a></li>
-<li><a href="ibm_cloud.html">IBM &amp; IBM Cloud</a></li>
-<li><a href="oraclecloud.html">Oracle Cloud</a></li>
-<li><a href="digitalocean.html">Digital Ocean</a></li>
-<li><a href="cloudflare.html">Cloudflare</a></li>
-<li><a href="scaleway.html">Scaleway</a></li>
-<li><a href="https://www.linode.com/">Linode</a></li>
-<li><a href="https://www.alibabacloud.com/">Alibaba</a></li>
-<li><a href="https://symbiosis.host/">Symbiosis</a></li>
-<li><a href="https://www.gaia-x.eu">Gaia-X.eu</a></li>
+<li><a href="https://github.com/alexellis/registry-creds">registry-creds</a> is a Kubernetes operator that can be used to propagate a single ImagePullSecret to all namespaces within your cluster. The primary reason for creating this operator is to make it easier to consume images from Docker Hub.</li>
+<li><a href="https://github.com/FairwindsOps/gemini">gemini</a> is a Kubernetes CRD and operator for managing VolumeSnapshots. This allows you to back up your PersistentVolumes on a regular schedule, retire old backups, and restore backups with minimal downtime.</li>
+<li><a href="https://kdo.dev/">Kdo: deployless development on Kubernetes 🌟</a> Kdo is a command line tool that enables developers to run, develop and test code changes in a realistic deployed setting without having to deal with the complexity of Kubernetes deployment and configuration.</li>
+<li><a href="https://github.com/rmb938/hostport-allocator">HostPort Operator</a> is a Kubernetes Operator to allocate host ports</li>
+<li><a href="https://iximiuz.com/en/posts/kubernetes-operator-pattern/">iximiuz.com: Exploring Kubernetes Operator Pattern 🌟</a></li>
+<li><a href="https://github.com/isaaguilar/terraform-operator">isaaguilar/terraform-operator: Terraform Operator</a> A Kubernetes CRD and Controller to handle Terraform operations by generating k8s jobs catered to perform Terraform workflows</li>
+<li><a href="https://github.com/didil/autobucket-operator">didil/autobucket-operator</a> The autobucket operator is a Kubernetes operator that automatically creates and manages Cloud Buckets (Object Storage) for k8s Deployments.</li>
+<li><a href="https://www.openshift.com/blog/is-your-operator-air-gap-friendly">openshift.com: Is your Operator Air-Gap Friendly?</a></li>
+<li><a href="https://github.com/Comcast/kuberhealthy">kuberhealthy 🌟</a> An operator for synthetic monitoring on Kubernetes. Write your own tests in your own container and Kuberhealthy will manage everything else. Automatically creates and sends metrics to Prometheus and InfluxDB. Included simple JSON status page. Supplements other solutions like Prometheus very nicely!</li>
+<li><a href="https://github.com/metal3-io/baremetal-operator">Bare Metal Operator</a> The Bare Metal Operator implements a Kubernetes API for managing bare metal hosts. It maintains an inventory of available hosts as Custom Resource Definitions.</li>
+<li><a href="https://github.com/borchero/meerkat">Meerkat</a> Meerkat is a Kubernetes Operator that facilitates the deployment of OpenVPN in a Kubernetes cluster. By leveraging Hashicorp Vault, Meerkat securely manages the underlying PKI.</li>
+<li><a href="https://github.com/OT-CONTAINER-KIT/logging-operator">Logging Operator</a> A golang based CRD operator to setup and manage logging stack (Elasticsearch, Fluentd, and Kibana) in the Kubernetes cluster. It helps to setup each component of the EFK stack separately.</li>
+<li><a href="https://github.com/tinyzimmer/gst-pipeline-operator">gst-pipeline-operator: A Kubernetes operator for running audio/video processing pipelines</a></li>
+<li><a href="https://github.com/brennerm/uptimerobot-operator">uptimerobot-operator</a> A Kubernetes operator that creates UptimeRobot monitors for your ingresses</li>
+<li><a href="https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1">medium.com: Getting Started With Kubernetes Operators (Helm Based) - Part 1</a><ul>
+<li><a href="https://medium.com/velotio-perspectives/getting-started-with-kubernetes-operators-ansible-based-part-2-472eb0d453b7">medium.com: Getting Started With Kubernetes Operators (Ansible Based) — Part 2</a></li>
+<li><a href="https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-golang-based-part-3">velotio.com: Getting Started With Kubernetes Operators (Golang Based) - Part 3</a></li>
 </ul>
-<h2 id="apis-with-soap-rest-and-grpc">APIs with SOAP, REST and gRPC</h2>
+</li>
+<li><a href="https://github.com/stakater/IngressMonitorController">IngressMonitorController (Deprecated)</a> A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices in UptimeRobot, StatusCake, Pingdom, etc.</li>
+<li><a href="https://github.com/FairwindsOps/rbac-manager"><mark>FairwindsOps/rbac-manager: RBAC Manager</mark> 🌟</a> A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. RBAC Manager is designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.</li>
+<li><a href="https://github.com/cloud-ark/kubeplus">KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟</a></li>
+<li><a href="https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels/">kubernetes.io: Writing a Controller for Pod Labels</a></li>
+<li><a href="https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea/">kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟</a></li>
+<li><a href="https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator/">thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator 🌟</a></li>
+<li><a href="https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf">cncf.io: CNCF Operator White Paper (PDF) 🌟</a> This white paper defines Operators in a wider context than Kubernetes. It describes their characteristics and components, gives an overview of common patterns currently in use and explains how they differ from Kubernetes controllers.</li>
+<li><a href="https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07">itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!</a> Access your Kubernetes Deployment over the Internet - <a href="https://github.com/abhirockzz/kubexpose-operator">abhirockzz/kubexpose-operator</a> Access your Kubernetes Deployment over the Internet</li>
+<li><a href="https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345">itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps</a></li>
+<li><a href="https://github.com/digitalis-io/vals-operator">digitalis-io/vals-operator</a> Kubernetes Operator to sync secrets between different secret backends and Kubernetes</li>
+<li><a href="https://github.com/banzaicloud/thanos-operator">banzaicloud/thanos-operator 🌟</a> Thanos Operator is a Kubernetes operator to manage Thanos stack deployment on Kubernetes.</li>
+<li><a href="https://github.com/cloud-bulldozer/benchmark-operator">cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks</a> The intent of this Operator is to deploy common workloads to establish a performance baseline of Kubernetes cluster on your provider.</li>
+<li><a href="https://github.com/pravega/pravega-operator">pravega/pravega-operator</a> Pravega Kubernetes Operator. Pravega is an open source distributed storage service implementing Streams. It offers Stream as the main primitive for the foundation of reliable storage systems: a high-performance, durable, elastic, and unlimited append-only byte stream with strict ordering and consistency. The Pravega Operator manages Pravega clusters deployed to Kubernetes and automates tasks related to operating a Pravega cluster.The operator itself is built with the Operator framework.</li>
+<li><a href="https://github.com/Quentin-M/etcd-cloud-operator">Quentin-M/etcd-cloud-operator</a> Deploying and managing production-grade etcd clusters on cloud providers: failure recovery, disaster recovery, backups and resizing.</li>
+<li><a href="https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator"><mark>spring.io: Get to Know a Kubernetes Operator!</mark></a></li>
+<li><a href="https://levelup.gitconnected.com/operators-extending-kubernetes-capabilities-184df001b7e"><mark>levelup.gitconnected.com: Operators : Extending Kubernetes Capabilities</mark></a> Operators are software extensions to Kubernetes that make use of custom resources to manage applications and their components. So what it means is that there are some applications whose deployment and management might require manual intervention and operators is the solution to automate it. <strong>Let’s say you need to deploy a database cluster for which each pod needs to be brought in sync after deployment, or say you need to perform a security scan whenever a new component is deployed, or maybe some configuration needs to be populated based on some event. Such a functionalities are not available in Kubernetes out of the box but can be implemented using operators.</strong></li>
+<li><a href="https://github.com/VictoriaMetrics/operator">VictoriaMetrics/operator</a> Kubernetes operator for Victoria Metrics</li>
+<li><a href="https://blog.px.dev/k8s-operator">blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)</a></li>
+<li><a href="https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html">practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators</a></li>
+<li><a href="https://github.com/reactive-tech/kubegres">reactive-tech/kubegres</a> Kubegres is a Kubernetes operator allowing to deploy one or many <strong>clusters of PostgreSql instances and manage databases replication, failover and backup.</strong></li>
+<li><a href="https://github.com/clastix/capsule"><mark>Capsule Operator</mark></a> is a Kubernetes multi-tenant Operator. It aggregates multiple namespaces in a Tenant. Within each tenant, users are free to create their namespaces and share all the assigned resources between the namespaces of the tenant.</li>
+<li><a href="https://github.com/redhat-cop/keepalived-operator"><mark>redhat-cop/keepalived-operator: Keepalived operator</mark></a> An operator to manage VIPs backed by keepalived. The objective of the keepalived operator is to allow for a way to create self-hosted load balancers in an automated way. From a user experience point of view the behavior is the same as of when creating LoadBalancer services with a cloud provider able to manage them.</li>
+<li><a href="https://medium.com/@samng1991216/building-kubernetes-operator-application-from-scratch-part-1-211b6b2467df">medium.com/@samng1991216: Building Kubernetes Operator Application from Scratch (Part 1)</a></li>
+<li><a href="https://github.com/redhat-cop/dynamic-rbac-operator">redhat-cop/dynamic-rbac-operator: Dynamic RBAC Operator</a> Flexible definitions of Kubernetes RBAC rules. Writing Kubernetes RBAC definitions by hand can be a pain. This operator allows you to define &ldquo;Dynamic&rdquo; RBAC rules that change based on the state of your cluster, so you can spend your time writing the RBAC patterns that you&rsquo;d like to deploy, rather than traditional, fully enumerated RBAC rules.</li>
+<li><a href="https://github.com/spotify/flink-on-k8s-operator">spotify/flink-on-k8s-operator: Kubernetes Operator for Apache Flink</a> Kubernetes operator for that acts as control plane to manage the complete deployment lifecycle of Apache Flink applications. This is an open source fork of GoogleCloudPlatform/flink-on-k8s-operator with several new features and bug fixes.</li>
+<li><a href="https://kube-green.dev">kube-green</a> An operator to reduce CO2 footprint of your clusters.<ul>
+<li>Sleep your pods: Suspend your pods when no-one&rsquo;s using them, scale down your cluster and save energy</li>
+<li>Reduce CO2 emissions: See how much you save in the Green Dashboard (coming soon)</li>
+</ul>
+</li>
+<li><a href="https://github.com/krestomatio/keydb-operator">krestomatio/keydb-operator</a> A KeyDB (Drop-In Alternative to Redis) Operator for Kubernetes</li>
+<li><a href="https://github.com/keel-hq/keel"><mark>Keel</mark> 🌟</a> <strong>Kubernetes Operator to automate Helm, DaemonSet, StatefulSet &amp; Deployment updates:</strong><ul>
+<li>You can use policies to define when to update an application</li>
+<li>Users can specify how many approvals do they need before a resource is updated.</li>
+<li><a href="https://keel.sh">https://keel.sh</a></li>
+</ul>
+</li>
+<li><a href="https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627">medium.com/@mjkool: Kubernetes Operator — Simplified!</a></li>
+<li><a href="https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332">medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained</a> A developer guideline to Kubernetes clients in go. As most development in the Kubernetes space is done in Go, available client libraries for interacting with the Kubernetes API have evolved over time to make controllers more scalable.</li>
+<li><a href="https://github.com/openshift/machine-api-operator">openshift/machine-api-operator</a> The Machine API Operator manages the lifecycle of specific purpose CRDs, controllers and RBAC objects that extend the Kubernetes API. This allows to convey desired state of machines in a cluster in a declarative fashion</li>
+<li><a href="https://github.com/rancher/system-upgrade-controller">rancher/system-upgrade-controller: System Upgrade Controller</a> This project aims to provide a general-purpose, Kubernetes-native upgrade controller (for nodes). It introduces a new CRD, the Plan, for defining any and all of your upgrade policies/requirements. A Plan is an outstanding intent to mutate nodes in your cluster.</li>
+<li><a href="https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792">alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration</a> There&rsquo;s a lot of hidden knowledge in core controllers and api conventions doc that is not followed by many controllers in the wild. One of these patterns is observedGeneration. In this article, you will learn what problems it can help solve.</li>
+<li><a href="https://github.com/ckotzbauer/vulnerability-operator">ckotzbauer/vulnerability-operator</a> Scans SBOMs for vulnerabilities. This operator scans all SBOMs from a git-repository for vulnerabilities using Grype. The result-list can be emitted as JSON-file served via an endpoint and/or as Prometheus metrics. There may be more targets in the future. The scans are done periodically.</li>
+<li><a href="https://github.com/Michaelpalacce/SimpleSecrets">Michaelpalacce/SimpleSecrets</a> K8S Secrets Manager Operator. SimpleSecrets is a secure operator that allows you to create secrets on demand. You can commit the SimpleSecrets, which are references to a database secret, and the operator will create Kubernetes Secrets automatically for you.</li>
+<li><a href="https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators/">learnsteps.com: Advance Kubernetes: What exactly are Kubernetes Operators?</a> Kubernetes has gained a lot of traction recently and is one of the standards followed across organizations when it comes to running and managing their containerized workloads. In this article, we are going to talk about Kubernetes operators.</li>
+<li><a href="https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30">betterprogramming.pub: Build a Kubernetes Operator in 10 Minutes 🌟</a></li>
+<li><a href="https://alain-airom.medium.com/kubernetes-operators-patterns-and-best-practices-b7fbaa4cbd1">alain-airom.medium.com: Kubernetes Operators Patterns and Best Practices 🌟</a> Using operators to manage the lifecycle of multi-cloud, Kubernetes-based applications.</li>
+<li><a href="https://github.com/OT-CONTAINER-KIT/mongodb-operator">OT-CONTAINER-KIT/mongodb-operator: MongoDB Operator</a> MongoDB Operator is an operator created in Golang to create, update, and manage MongoDB standalone, replicated, and arbiter replicated setup on Kubernetes and Openshift clusters.</li>
+<li><a href="https://github.com/prosimcorp/reforma">prosimcorp/reforma</a> Reforma is a Kubernetes operator to patch resources with information from other resources. It is intended to use with GitOps and lets you do things such as creating annotation on a Service Account from metadata stored in a ConfigMap.</li>
+<li><a href="https://github.com/weaveworks/tf-controller">weaveworks/tf-controller: Weave GitOps Terraform Controller</a> A GitOps Terraform controller for Kubernetes. Weave TF-controller is a controller for Flux to reconcile Terraform resources in the GitOps way.</li>
+<li><a href="https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb">awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK)</a> The AWS team released the ACK project, which allows users to create AWS services from within a Kubernetes cluster. In this tutorial, you will learn how to create an S3 bucket with a &ldquo;Bucket&rdquo; CRD.</li>
+<li><a href="https://github.com/vitobotta/velero-notifications">vitobotta/velero-notifications</a> Velero-notifications is a simple Kubernetes controller written in Ruby that sends email/Slack/webhook notifications when backups or restores are performed by Velero in a Kubernetes cluster.</li>
+<li><a href="https://github.com/NVIDIA/gpu-operator">NVIDIA/gpu-operator</a> NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes. The NVIDIA GPU is a Kubernetes operator that automates the management of all NVIDIA software components needed to provision GPUs. These components include drivers, the Kubernetes device plugin, the NVIDIA Container Runtime, etc.<ul>
+<li><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a> The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically:<ul>
+<li>Expose the number of GPUs on each node of your cluster</li>
+<li>Keep track of the health of your GPUs</li>
+<li>Run GPU enabled containers in your Kubernetes cluster</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://medium.com/@marom.itamar/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6">medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and Operators Explained</a></li>
+<li><a href="https://github.com/glebiller/dynamic-configuration-operator">glebiller/dynamic-configuration-operator: Dynamic Configuration Operator</a> Dynamic Configuration Operator is an operator that updates a deployment when a ConfigMap or Secret is updated. Useful for apps that:<ul>
+<li>Don&rsquo;t have a live-reload feature</li>
+<li>Use <code>subPath</code> while mounting a ConfigMap or Secret</li>
+<li>Use Projected Volumes</li>
+</ul>
+</li>
+<li><a href="https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b"><mark>faun.pub: A Definitive guide to Kubernetes Operator — The crawl!</mark></a></li>
+<li><a href="https://github.com/furiko-io/furiko">github.com/furiko-io/furiko</a> Cloud-native, enterprise-level cron job platform for Kubernetes. Furiko is a Kubernetes-native operator for managing, scheduling and executing scheduled and ad-hoc jobs and workflows. It aims to be a general-purpose job platform that supports various use cases, including cron jobs, batch processing, etc.</li>
+<li><a href="https://paul-the-kelly.medium.com/extending-the-kubernetes-api-using-operators-9ffc8364ae5c">paul-the-kelly.medium.com: Extending the Kubernetes API using Operators</a> This article is aimed at developers already familiar with Kubernetes, and who are interested in extending the capabilities of a Kubernetes cluster. The extensible Kubernetes API enables administrators to add new facilities to a cluster, simplifying the deployment and management of complex applications. This article will give you a starting point to explore building your own operators.</li>
+<li><a href="https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler">github.com/DevOps-Nirvana: Kubernetes Volume / Disk Autoscaler (via Prometheus)</a><ul>
+<li>This repository contains a Kubernetes controller that automatically increases the size of a Persistent Volume Claim in Kubernetes when it is nearing full. Initially engineered based on AWS EKS, this should support any Kubernetes cluster or cloud provider which supports dynamically hot-resizing storage volumes in Kubernetes.</li>
+<li>Keeping your volumes at a minimal size can help reduce cost, but having to manually scale them up can be painful and a waste of time for an DevOps / Systems Administrator. This is often used on storage volumes against things in Kubernetes such as Prometheus, MySQL, Redis, RabbitMQ, or any other stateful service.</li>
+</ul>
+</li>
+<li><a href="https://github.com/borchero/switchboard">borchero/switchboard: Switchboard</a> Kubernetes Operator for Automatically Issuing DNS Records and TLS Certificates for Traefik Ingress Routes.</li>
+<li><a href="https://github.com/scylladb/scylla-operator">scylladb/scylla-operator</a> Scylla Operator is a Kubernetes Operator for managing and automating tasks related to managing Scylla clusters</li>
+<li><a href="https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6"><mark>faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained</mark></a><ul>
+<li>This article will dive deep into one of Kubernetes’ core concepts — Controllers, Kubernetes API, CRDs, and Operators.</li>
+<li>This 4-part series covers:<ul>
+<li>Kubernetes controllers, Custom Resources, and operators</li>
+<li>Building Kubernetes operators</li>
+<li>Testing Kubebuilder operators</li>
+<li>Deploying Kubebuilder operators to Kubernetes</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/coderanger/migrations-operator">coderanger/migrations-operator: Migrations-Operator</a> A Kubernetes operator to manage database migrations or similar application setup tasks.</li>
+<li><a href="https://omerxx.com/k8s-controllers/">omerxx.com: 10 Things I wish I’d known before building a Kubernetes CRD controller</a> Controllers, operators, informers and other K8s mysteries. This article discusses a few of the gotchas of developing Kubernetes controllers:<ul>
+<li>CRDs don&rsquo;t create metadata by default</li>
+<li>Interacting with CRDs outside the controller&rsquo;s context is not straightforward</li>
+<li>&ldquo;The DefaultUnstructuredConverter&rdquo;</li>
+</ul>
+</li>
+<li><a href="https://github.com/mittwald/kubernetes-secret-generator">github.com/mittwald/kubernetes-secret-generator 🌟</a> Kubernetes controller for automatically generating and updating secrets. This repository contains a custom Kubernetes controller that can automatically create random secret values. This may be used for auto-generating random credentials for applications running on Kubernetes</li>
+<li><a href="https://github.com/ContainerSolutions/delayed-jobs-operator">github.com/ContainerSolutions/delayed-jobs-operator</a> The Delayed Job Operator lets delay the start of a Kubernetes job until after a UNIX timestamp</li>
+<li><a href="https://github.com/actions/actions-runner-controller">github.com/actions/actions-runner-controller 🌟</a> Actions Runner Controller (ARC) is a Kubernetes controller for GitHub Actions self-hosted runners. With ARC, you can:<ul>
+<li>Deploy self-hosted runners on Kubernetes clusters with a simple set of commands</li>
+<li>Auto scale runners based on demand</li>
+</ul>
+</li>
+<li><a href="https://medium.com/sda-se/kubernetes-operator-to-the-rescue-how-our-own-mongodb-operator-improved-our-deployments-6d5ba3324abc">medium.com/sda-se: Kubernetes Operator to the rescue. How our own MongoDB Operator improved our deployments</a> In this article you will learn about the challenges that the team at SDA SE faced when using a GitOps deployment and why they implemented their own Kubernetes Operator for MongoDB to speed up our deployments and reduce mistakes.</li>
+<li><a href="https://blog.frankel.ch/kubernetes-extensibility/"><mark>blog.frankel.ch: Introduction to Kubernetes extensibility</mark> 🌟</a> In this article, you&rsquo;ll learn several extension points in Kubernetes: the data model, admission controllers, and client-side.<ul>
+<li>At its most basic level, Kubernetes is just a platform able to run container images. It stores its configuration in a distributed storage engine, etcd. The most significant part of this configuration is dedicated to the desired state for objects. For example, you only update this state when you schedule a pod using the kubectl command line.</li>
+<li>Other components, called controllers, watch configuration changes and read the desired state. Then, they try to reconcile the desired state with the actual state. It’s nothing revolutionary: Puppet is based on the same control-loop approach, and AFAIK, Chef. Generally, a controller manages a single type of object, e.g., the DeploymentController manages deployments.</li>
+</ul>
+</li>
+<li><a href="https://superorbital.io/blog/testing-production-controllers/">superorbital.io: Testing Production Kubernetes Controllers</a> In this article, you will learn how to test Kubernetes controllers using a mix of unit tests, local integration tests, and more fully featured runtime integration tests.</li>
+<li><a href="https://github.com/lukaszraczylo/jobs-manager-operator">github.com/lukaszraczylo/jobs-manager-operator 🌟</a><ul>
+<li><a href="https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a">itnext.io: Simplify Advanced Workflows in Kubernetes with Jobs Manager Operator</a> A problem and idea led to the latest invention, which saved me hours of confusion and frustration and finally untangled the web of dependencies.</li>
+</ul>
+</li>
+<li><a href="https://github.com/ricoberger/vault-secrets-operator">github.com/ricoberger/vault-secrets-operator</a> Create Kubernetes secrets from Vault for a secure GitOps based workflow.</li>
+<li><a href="https://github.com/ElementTech/kube-reqsizer">github.com/ElementTech/kube-reqsizer</a> kube-reqsizer is a kubernetes controller that measures the usage of pods over time and optimizes their requests based on the average usage. The controller calculates the requirements based on all the samples taken in the same deployment controller.</li>
+<li><a href="https://kube-green.dev"><mark>kube-green.dev</mark></a> An operator to reduce CO2 footprint of your clusters. Suspend your pods when no-one&rsquo;s using them, scale down your cluster and save energy</li>
+<li><a href="https://betterprogramming.pub/how-to-use-server-side-apply-in-k8s-operators-5cbff023183c">betterprogramming.pub: How To Use Server-Side Apply in K8S Operators</a> Explore the benefits of SSA vs. CSA. Server-side apply (SSA) is an excellent mechanism to improve Kubernetes operators&rsquo; performance and is becoming the default way to apply resources in a cluster.</li>
+<li><a href="https://github.com/sieve-project/sieve">github.com/sieve-project/sieve</a> Automated Reliability Testing for Kubernetes Controllers/Operators. Sieve is a tool to help developers test their Kubernetes controllers by deterministically injecting faults and detecting dormant bugs at development time.</li>
+<li><a href="https://betterprogramming.pub/goldilocks-vs-krr-c986dfd7484d">betterprogramming.pub: Goldilocks vs. KRR</a> The resources recommendation showdown!. Goldilocks is a Kubernetes operator written in Go, and it watches over a few custom resources to give out its Updates or Recommendations.</li>
+<li><a href="https://medium.com/lonto-digital-services-integrator/why-we-developed-own-kubernetes-controller-to-copy-secrets-e46368ae6db9">medium.com/lonto-digital-services-integrator: Why We Developed Own Kubernetes Controller to Copy Secrets</a> In this article, you will learn the thought process, design decision and code that led to writing a custom controller to copy secrets from Hashicorp Vault to Kubernetes</li>
+<li><a href="https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets/">thenewstack.io: HashiCorp Vault Operator Manages Kubernetes Secrets</a> HashiCorp&rsquo;s new open source project, released alongside Vault 1.13 and now available in beta, makes it easier to use Vault with Kubernetes Secrets, automating tasks that were previously manual.</li>
+<li><a href="https://medium.com/@senjutide2000/designing-a-controller-for-custom-resources-from-scratch-for-absolute-beginners-9cb84b7f906f">medium.com/@senjutide2000: Designing a Controller for Custom Resources from scratch for absolute beginners</a> In this tutorial (and related repository and follow-up article), you will learn how to create your first Custom Resource Definition, Custom Resource and get a basic idea of the workflow of a controller</li>
+<li><a href="https://github.com/2-alchemists/krossboard-kubernetes-operator">github.com/2-alchemists/krossboard-kubernetes-operator</a> Kubernetes Operator to handle cross-site, cross-distribution &amp; multi-Kubernetes usage tracking, analytics and accounting (vanilla Kubernetes, OpenShift, EKS, AKS, GKE and other distros).<ul>
+<li>Krossboard is a multi-cluster and cross-distribution Kubernetes usage accounting and analytics software</li>
+<li>Each instance of Krossboard enables tracking the usage of a set of Kubernetes clusters listed in a kubeconfig secret</li>
+</ul>
+</li>
+<li><a href="https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8">medium.com/@mikakrief: Using Azure Service Operator v2</a> Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.</li>
+<li><a href="https://github.com/gianlucam76/k8s-cleaner">github.com/gianlucam76/k8s-cleaner 🌟</a> <strong>K8s cleaner is a controller that identifies, removes, or updates stale/orphaned or unhealthy resources to maintain a clean and efficient Kubernetes cluster</strong></li>
+<li><a href="https://dragondscv.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802">dragondscv.medium.com: Controller runtime — handle resource deletion with predicate</a></li>
+<li><a href="https://github.com/NCCloud/mayfly">github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟</a> An operator to manage ephemeral Kubernetes resources</li>
+<li><a href="https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5"><mark>itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should Know About</mark> 🌟</a> <strong>Simplify Infrastructure Management</strong></li>
+</ul>
+<h2 id="opentelemetry-operator">OpenTelemetry Operator</h2>
 <ul>
-<li><a href="api.html">APIs with SOAP, REST and gRPC 🌟</a></li>
-<li><a href="swagger-code-generator-for-rest-apis.html">Swagger code generator for REST APIs</a></li>
-<li><a href="postman.html">API Test Automation with Postman and REST Assured</a></li>
-<li><a href="developerportals.html">API Marketplaces. API Management with API Gateways &amp; Developer Portals 🌟</a></li>
+<li>
+<p><a href="https://github.com/argoproj/argo-cd/pull/26601">feat(ui): Add AppSet to Application Resource Tree in Argo CD</a> - <em>(Related to argo topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/open-telemetry/opentelemetry-operator">github.com/open-telemetry/opentelemetry-operator</a></p>
+</li>
+<li><a href="https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf">medium.com/@magstherdev: OpenTelemetry Operator</a> This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.</li>
 </ul>
-<h2 id="development-frameworks">Development &amp; Frameworks</h2>
+<h2 id="creating-kubernetes-operator-using-kubebuilder">Creating Kubernetes operator using Kubebuilder</h2>
 <ul>
-<li><a href="devel-sites.html">Websites for web developers</a></li>
-<li><a href="angular.html">Angular</a></li>
-<li><a href="dom.html">Document Object Model (DOM)</a></li>
-<li><a href="golang.html">Golang</a></li>
-<li><a href="javascript.html">JavaScript - node.js &amp; npm</a></li>
-<li><a href="python.html">Python - Django &amp; Flask</a></li>
-<li><a href="react.html">React</a></li>
-<li><a href="lowcode-nocode.html">Low Code and No Code</a></li>
-<li><a href="web3.html">Web3</a></li>
+<li><a href="https://github.com/kubernetes-sigs/kubebuilder">kubernetes-sigs/kubebuilder</a> Kubebuilder - SDK for building Kubernetes APIs using CRDs. Kubebuilder is a framework for building Kubernetes APIs using custom resource definitions (CRDs). Kubebuilder increases velocity and reduces the complexity managed by developers for rapidly building and publishing Kubernetes APIs in Go.<ul>
+<li><a href="https://book.kubebuilder.io">https://book.kubebuilder.io</a></li>
 </ul>
-<h3 id="microsoft">Microsoft</h3>
+</li>
+<li><a href="https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50">medium.com/@adnn.selimovic: Creating Kubernetes operator using <strong>Kubebuilder</strong></a></li>
+<li><a href="https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa">medium.com/geekculture: A New Pattern that Simplifies Operator Building</a> Build Kubernetes Operator with <strong>Kubebuilder</strong> and declarative pattern. kubebuilder-declarative-pattern provides a set of tools for building cluster operators with kubebuilder. Declarative operators provide a fast path to orchestrating deployments instead of reinventing the wheel i.e. &ldquo;how do I get/update this YAML?&rdquo;</li>
+<li>
+<p><a href="https://qdnqn.com/creating-kubernetes-operator-using-kubebuilder/">qdnqn.com: Creating Kubernetes operator using Kubebuilder</a></p>
 <ul>
-<li><a href="dotnet.html">Microsoft .NET</a></li>
-<li><a href="xamarin.html">Microsoft Xamarin</a></li>
+<li>
+<p>Kubernetes is the current de facto standard for the deployment and running of applications that are suitable for modern cloud platforms. A declarative way of defining infrastructure state using YAML allows a super easy definition of the scheme for the deployment of the application. Deploying stateless applications is not a big deal. On the other hand — deploying distributed stateful applications, configuring, and operating them is a challenging task.</p>
+</li>
+<li>
+<p>Kubernetes addressed this issue by allowing developers to extend it, using the Kubernetes operator. The operator reacts to the custom resource and reconciliate the state in the cluster with the state defined in the custom resource, by implementing logic embedded in the operator itself.</p>
+</li>
+<li>
+<p>When designing/writing an application, intended to run on the Kubernetes, one should take into account capabilities provided by Kubernetes and take that information when designing software architecture. It can speed up implementation, make an application more reliable and the code can focus more on business logic itself.</p>
+</li>
+<li>
+<p>There are multiple ways to create an operator. You could write one from scratch using Kubernetes  client-go. It’s a tedious task and the learning curve is steep. As an alternative, multiple tools provide boilerplate code and speed up the writing of operators. Popular ones are Operatorsdk and Kubebuilder. The focus of the article will be on creating an operator using Kubebuilder. Let’s create an operator which will create a pod running a simple HTTP API and bind some data to the HTTP API.</p>
+</li>
+<li><a href="https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb">dev.to/thenjdevopsguy: What Is A Kubernetes Operator?</a></li>
 </ul>
-<h3 id="java">Java</h3>
+</li>
+</ul>
+<h2 id="operatorhubio">operatorhub.io</h2>
 <ul>
-<li><a href="java_frameworks.html">Java &amp; Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more</a></li>
-<li><a href="java-and-java-performance-optimization.html">Java Memory Management &amp; Java Performance Optimization</a></li>
-<li><a href="jvm-parameters-matrix-table.html">Java Parameters Matrix Table</a></li>
+<li><a href="https://operatorhub.io/">operatorhub.io</a> OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.</li>
 </ul>
-<h3 id="dev-environment">Dev Environment</h3>
+<h2 id="red-hat-container-community-of-practice-operators">Red Hat Container Community of Practice Operators</h2>
 <ul>
-<li><a href="visual-studio.html">Visual Studio Code 🌟</a></li>
-<li><a href="linux-dev-env.html">WSL: Linux Dev Environment on Windows</a></li>
-<li><a href="scaffolding.html">Scaffolding Tools</a></li>
-<li><a href="ChromeDevTools.html">Chrome &amp; Firefox DevTools. HTTP Protocols &amp; WebSockets</a></li>
+<li><a href="https://cloud.redhat.com/blog/red-hat-container-community-of-practice-operators"><mark>cloud.redhat.com: Red Hat Container Community of Practice Operators</mark></a> In this post, you will find a summary of the operators maintained by Red Hat and how they can be used to facilitate the adoption of OpenShift.</li>
 </ul>
-<h2 id="qatestops-continuous-testing">QA/TestOps - Continuous Testing</h2>
+<h2 id="operator-capability-levels">Operator Capability Levels</h2>
 <ul>
-<li><a href="qa.html">QA</a></li>
-<li><a href="testops.html">TestOps and Continuous Testing</a></li>
-<li><a href="test-automation-frameworks.html">Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more</a></li>
+<li><a href="https://operatorframework.io/operator-capabilities/">Operator Capability Levels</a> Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.</li>
 </ul>
-<h2 id="ai">AI</h2>
+<h2 id="cluster-addons">Cluster Addons</h2>
 <ul>
-<li><a href="ai.html">AI</a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="chatgpt.html">ChatGPT</a></li>
+<li><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li><a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a> - <em>(Related to kubernetes-networking topic)</em></li>
+<li><a href="https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/">Introduction to Azure Application Gateway for Containers (AGC)</a> - <em>(Related to azure topic)</em></li>
+<li>
+<p><a href="https://techcommunity.microsoft.com/blog/azureforisvandstartupstechnicalblog/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662">Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)</a> - <em>(Related to kubernetes-security topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/kubernetes-sigs/cluster-addons">Cluster Addons 🌟</a> With cluster addon operators, we are exploring a kubernetes-native way of managing addons using CRDs(Custom Resource Definitions) and controllers where the controllers encode how best to manage the addon. Installing and managing an addon could be as simple as creating a custom resource.</p>
+</li>
 </ul>
-<h2 id="project-management-methodology">Project Management Methodology</h2>
+<h2 id="k8spin-operator-kubernetes-multi-tenant-operator">K8Spin Operator. Kubernetes multi-tenant operator</h2>
 <ul>
-<li><a href="project-management-methodology.html">Project Management Methodology</a></li>
-<li><a href="project-management-tools.html">Project Management Tools</a></li>
-<li><a href="appointment-scheduling.html">Appointment Scheduling</a></li>
-<li><a href="workfromhome.html">Work From Home</a></li>
+<li><a href="https://github.com/k8spin/k8spin-operator">K8Spin Operator 🌟</a> Kubernetes multi-tenant operator. Enables multi-tenant capabilities in your Kubernetes Cluster. <a href="https://github.com/k8spin/k8spin-operator/projects/1">We defined some small features to implement</a>. If you know python &amp; Kubernetes and want to contribute to this project, ping us!</li>
+<li><a href="https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes/">thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes</a></li>
+<li><a href="https://k8spin.cloud/oss-projects/">Discover K8Spin open source software</a></li>
 </ul>
-<h2 id="more-references">More References</h2>
+<h2 id="k8s-kpis-with-kuberhealthy-operator">K8s KPIs with Kuberhealthy Operator</h2>
 <ul>
-<li><a href="other-awesome-lists.html">Other Awesome Lists 🌟</a></li>
-<li><a href="interview-questions.html">Interview Questions</a></li>
-<li><a href="newsfeeds.html">Forums and Communities</a></li>
-<li><a href="elearning.html">E-Learning</a></li>
-<li><a href="digital-money.html">Digital Money</a></li>
+<li><a href="https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/">K8s KPIs with Kuberhealthy 🌟</a> transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic <a href="https://kpi.org/KPI-Basics">KPIs</a>.</li>
 </ul>
-<h2 id="hiring-and-freelancing">Hiring and Freelancing</h2>
+<h2 id="writing-kubernetes-operators-and-controllers">Writing Kubernetes Operators and Controllers</h2>
 <ul>
-<li><a href="recruitment.html">Recruitment</a></li>
-<li><a href="hr.html">Human Resources</a></li>
-<li><a href="freelancing.html">Freelancing</a></li>
-<li><a href="remote-tech-jobs.html">Remote Tech Jobs</a></li>
+<li><a href="https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0">Kueue Release v0.14.0</a> - This is a release note for Kueue, an open-source Kubernetes project designed for workload management and scheduling. Version v0.14.0 includes changes such as the removal of deprecated annotations related to ProvisioningRequest, which is important for users upgrading from previous versions. It also highlights the necessity for ProvisioningRequest reconcilers to be updated to avoid issues.</li>
+<li><a href="https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation/">AI Meets Terraform: Prompt Strategies for Test Generation</a> - <em>(Related to ai topic)</em></li>
+<li><a href="https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/">10 Real-World Kubernetes Troubleshooting Scenarios and Solutions</a> - <em>(Related to kubernetes-troubleshooting topic)</em></li>
+<li>
+<p><a href="https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/">The Beginner’s Guide to the Ansible Inventory</a> - <em>(Related to ansible topic)</em></p>
+</li>
+<li>
+<p><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/">Kubernetes.io: Operator pattern</a></p>
+</li>
+<li><a href="https://opensource.com/article/20/3/kubernetes-operator-sdk">opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK</a></li>
+<li><a href="https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7">itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes</a></li>
+<li><a href="https://www.magalix.com/blog/creating-custom-kubernetes-operators">magalix.com: Creating Custom Kubernetes Operators</a></li>
+<li><a href="https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234">medium.com: Writing Your First Kubernetes Operator</a></li>
+<li><a href="https://www.bmc.com/blogs/kubernetes-operator/">bmc.com: What Is a Kubernetes Operator?</a></li>
+<li><a href="https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/">Writing a Kubernetes Operator in Java Cheat Sheet</a></li>
+<li><a href="https://linuxera.org/writing-operators-using-operator-framework/">linuxera.org: Writing Operators using the Operator Framework SDK</a></li>
+<li><a href="https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective">openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective</a></li>
+<li><a href="https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89">medium: From Zero to Kubernetes Operator</a> In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.</li>
+<li><a href="https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool">openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟</a> <strong>Go-based operators are by far the most popular. That is why Go is probably the first option to consider.</strong> The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don&rsquo;t need any complex <a href="https://operatorframework.io/operator-capabilities/">capability levels</a>. I&rsquo;d leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.</li>
+<li><a href="https://www.rookout.com/blog/lessons-learned-when-building-a-kubernetes-operator">rookout.com: Lessons Learned When Building A Kubernetes Operator</a></li>
+<li><a href="https://brennerm.github.io/posts/k8s-operators-with-python-part-1.html">brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs</a></li>
+<li><a href="https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html">vivilearns2code.github.io: Writing Controllers For Kubernetes Resources</a></li>
+<li><a href="https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf">cloudark.medium.com: Writing Kubernetes Custom Controllers</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang">developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟</a> Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.</li>
+<li><a href="https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55">medium: Kubernetes Dummy Operator in Java</a> - <a href="https://www.youtube.com/watch?v=C0E93Uc4h5k&amp;t=761s&amp;ab_channel=xgeeks">youtube: Creating a Kubernetes Operator in Java by Rudy De Busscher</a></li>
+<li><a href="https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2">betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang</a> Develop a simple Kubernetes operator from scratch. In this article, you will build a &ldquo;hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.</li>
+<li><a href="https://github.com/kubernetes/sample-controller"><mark>kubernetes/sample-controller</mark></a> Repository for sample controller. Complements sample-apiserver</li>
+<li><a href="https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9">betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks</a> Create a Kubernetes API, controller, validate webhooks, and test.</li>
+<li><a href="https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840">betterprogramming.pub: How To Write Tests for Your Kubernetes Operator</a></li>
+<li><a href="https://metalbear.co/blog/writing-a-kubernetes-operator/">metalbear.co: Writing a Kubernetes Operator</a></li>
+<li><a href="https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil">dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD</a></li>
 </ul>
-<h2 id="customer-success-stories">Customer Success Stories</h2>
-<ul>
-<li><a href="customer.html">Customer Success Stories</a></li>
-</ul>
-<hr />
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 
-[![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
-[![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform/) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/>
-[![dzone videos](images/dzone_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dzone/) [![prometheus videos](images/prometheus_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PrometheusIo) [![grafana videos](images/grafana_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Grafana) [![istio videos](images/istio_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Istio) [![elastic videos](images/elasticsearch_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Elastic) [![dynatrace videos](images/dynatrace_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dynatrace) [![appdynamics videos](images/appdynamics_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/appdynamics) [![newrelic videos](images/newrelic_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/NewRelicInc) [![tigera calico](images/tigera_calico_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC8uN3yhpeBeerGNwDiQbcgw) [![weavecloud](images/weavecloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/WeaveWorksInc) [![lambdatest](images/lambdatest.jpg){: style="width:7%"}](https://www.youtube.com/c/LambdaTest)<br/>
-[![atlassian videos](images/atlassian_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Atlassian) [![vscode videos](images/vscode_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Code) [![github videos](images/github_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GitHub) [![gitlab video](images/gitlab_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitlab) [![gitkraken](images/gitkraken_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitkraken) [![rocketchat videos](images/rocket_chat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RocketChatApp) [![slack videos](images/slack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Slackhq) [![mattermost videos](images/mattermost_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MattermostHQ) [![microsoft365](images/microsoft_365_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/microsoft365) [![openproject](images/openproject_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenProjectCommunity) [![tetrate](images/tetrate_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Tetrate)<br/>
-[![rh devel](images/rh_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RedHatDevelopers) [![spring logo](images/spring-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Quarkusio) [![lightbend videos](images/lightbend_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Lightbend-TV) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/postman) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Smartbear) [![jfrog](images/jfrog_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/JFrogInc) [![sonatype](images/sonatype_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Sonatypeinc) [![sonarsource sonarqube](images/sonarsource_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GoogleChromeDevelopers) [![mozilla developer](images/mozilla_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MozillaDeveloper)<br/>
-[![crunchydata](images/crunchydata_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CrunchyDataPostgres) [![liquibase video](images/liquibase_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC5qMsRjObu685rTBq0PJX8w) [![cockroachdb](images/cockroachdb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cockroachdb) [![mongodb](images/mongodb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MongoDBofficial) [![redis](images/redis_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Redisinc) [![confluent video](images/confluent_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Confluent) [![kubemq video](images/kubemq_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCud7fErZAyMC6lHT_cWZNfA) [![openebs](images/openebs_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g) [![storageos](images/storageos_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCm63IQg81KP9vXRWSHQpu1w) [![robin](images/robin_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCt7N400Z8gB_3yKq1qrjP2w) [![portworx](images/portworx_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Portworx)<br/>
-[![cloud academy](images/cloud_academy_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Cloudacademy) [![acloudguru](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AcloudGuru) [![devops_tv](images/devops_tv_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/XebiaLabs) [![devops library](images/devops_library_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopslibrary) [![codecademy](images/codecademy.jpg){: style="width:7%"}](https://www.youtube.com/c/codecademy) [![coursera](images/coursera_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Academind) [![guru99](images/guru99_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/guru99comm) [![intellipaat](images/intellipaat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Intellipaat) [![cloud quick POCs](images/cloudquickpocs.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)<br/>
-[![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)<br/>
-[![london IAC](images/londonIAC.jpg){: style="width:7%"}](https://www.youtube.com/c/LondonIAC) [![techworld nana](images/techworld_nana.jpg){: style="width:7%"}](https://www.youtube.com/c/TechWorldwithNana) [![honeypot](images/honeypot.jpg){: style="width:7%"}](https://www.youtube.com/c/Honeypotio) [![Ali Spittel](images/aspittel.jpg){: style="width:7%"}](https://www.youtube.com/c/AliSpittelDev) [![thomas maurer](images/thomas_maurer.jpg){: style="width:7%"}](https://www.youtube.com/c/ThomasMaurerCloud) [![freecodecamp](images/freecodecamp.jpg){: style="width:7%"}](https://www.youtube.com/c/Freecodecamp) [![thenewstack](images/thenewstack.jpg){: style="width:7%"}](https://www.youtube.com/c/TheNewStack) [![argocd project](images/argoproj.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA) [![fluxcd](images/fluxcd.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA) [![container days](images/containerdays.jpg){: style="width:7%"}](https://www.youtube.com/c/ContainerDays) [![the cloud girl](images/thecloudgirl.jpg){: style="width:7%"}](https://www.youtube.com/c/priyankavergadia)<br/>
-[![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![tina huang](images/tinahuang.jpg){: style="width:7%"}](https://www.youtube.com/c/TinaHuang1) [![azure devops](images/azure_devops_youtube.jpg){: style="width:7%"}](https://www.youtube.com/c/AzureDevOps) [![azure cloud native](images/azure_cloud_native.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw) [![alibaba cloud](images/alibaba_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/AlibabaCloud) [![linode cloud](images/linode_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/linode) [![gaia-x](images/gaia_x.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCB5WMc2FfrxKzfd7XIODoMw) [![gps](images/gps.jpg){: style="width:7%"}](https://www.youtube.com/c/MadeByGPS) [![keptn](images/keptn_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/keptn) [![anais urlichs](images/anais_urlichs.jpg){: style="width:7%"}](https://www.youtube.com/c/AnaisUrlichs) [![the digital life](images/the_digital_life.jpg){: style="width:7%"}](https://www.youtube.com/c/TheDigitalLifeTech)<br/>
-[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![netbox](images/netboxlabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/@NetBoxLabs) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:7%"}](https://www.youtube.com/@ByteByteGo) [![dotcsv](images/dotcsv.jpg){: style="width:7%"}](https://www.youtube.com/@DotCSV) [![midulive](images/midulive.jpg){: style="width:7%"}](https://www.youtube.com/@midulive)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Generic automation tools like Helm are limited by the interfaces exposed to them, and often lack enough context to make the right state machine transitions.<br><br>Ideally, software evolves to expose better automation hooks, then custom tools, aka operators, can leverage them. <a href="https://t.co/v38aj4ukn4">https://t.co/v38aj4ukn4</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1435637052079427584?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-</center>
-
-<details class="note">
-<summary>Top Videos &amp; Clips - Click to expand!</summary>
-<center>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/318elIq37PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rT4fJNbfe14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uQz0TpyJbE8?si=Ys-bXCWcoG-nDU1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=fJvBV63-mjQ6S-Ht&amp;list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 </center>
 </details>
-<!--
-[![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
--->
+
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ha3LjlD6g7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</center>
+</details>
+<ul>
+<li><a href="https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes/">Sharing a NVIDIA GPU Between Pods in Kubernetes</a> - <em>(Related to kubernetes-tools topic)</em></li>
+</ul>
 
 
 

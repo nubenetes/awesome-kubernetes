@@ -12,11 +12,13 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
-        <link rel="canonical" href="https://nubenetes.com/index.html">
+        <link rel="canonical" href="https://nubenetes.com/kubernetes-networking.html">
       
       
+        <link rel="prev" href="kubectl-commands.html">
       
-        <link rel="next" href="introduction.html">
+      
+        <link rel="next" href="kubernetes-monitoring.html">
       
       
         
@@ -27,7 +29,7 @@
     
     
       
-        <title>Nubenetes</title>
+        <title>Kubernetes Networking - Nubenetes</title>
       
     
     
@@ -90,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nubenetes-awesome-kubernetes-cloud" class="md-skip">
+        <a href="#kubernetes-networking" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Kubernetes Networking
             
           </span>
         </div>
@@ -254,10 +256,8 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
+    <li class="md-tabs__item">
       <a href="index.html" class="md-tabs__link">
         
   
@@ -404,10 +404,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="kubernetes.html" class="md-tabs__link">
           
   
@@ -936,37 +938,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -982,412 +957,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#motivation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Motivation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Introduction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sre-site-reliability-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SRE Site Reliability Engineering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devops" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devsecops-and-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevSecOps and Security
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#noops-aka-serverless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NoOps aka Serverless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Docker
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#red-hat-openshift" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Red Hat OpenShift
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suse-rancher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SUSE Rancher
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#software-delivery-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Software Delivery Pipeline
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Software Delivery Pipeline">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#jenkins-cloudbees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Jenkins &amp; CloudBees
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openshift-pipelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenShift Pipelines
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#web-servers-reverse-proxies-java-runtimes-caching-solutions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#monitoring-and-performance-prometheus-grafana-apms-and-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Monitoring and Performance. Prometheus, Grafana, APMs and more
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#infrastructure-provisioning-infra-management-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Infrastructure Provisioning. Infra Management Tools
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration Management
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#databases-on-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Databases on Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#service-mesh" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Service Mesh
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#demos-and-boilerplates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Demos and Boilerplates
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apis-with-soap-rest-and-grpc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        APIs with SOAP, REST and gRPC
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-frameworks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Development &amp; Frameworks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Development &amp; Frameworks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#microsoft" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Microsoft
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#java" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dev-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dev Environment
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatestops-continuous-testing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        QA/TestOps - Continuous Testing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-management-methodology" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Project Management Methodology
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#more-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        More References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hiring-and-freelancing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hiring and Freelancing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#customer-success-stories" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Customer Success Stories
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2178,8 +1747,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -2227,19 +1798,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -2257,7 +1831,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2384,10 +1958,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="kubernetes-networking.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Networking
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-networking.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2403,6 +2004,346 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes DNS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-services-and-load-balancing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Services and Load Balancing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tcp-keep-alive-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TCP Keep Alive Requests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#headless-kubernetes-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Headless Kubernetes Service
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networkpolicy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NetworkPolicy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nginx-ingress-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nginx Ingress Controller
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contour-ingress-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contour Ingress Controller
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-gateway-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Gateway API
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kube-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kube-proxy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multicloud-communication-for-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multicloud communication for Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-cluster-kubernetes-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Cluster Kubernetes Networking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-network-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Network Policy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Network Policy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cilium" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cilium
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-network-policy-samples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Network Policy Samples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-ingress-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Ingress Specification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xposer-kubernetes-controller-to-manage-ingresses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Xposer Kubernetes Controller To Manage Ingresses
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-defined-ip-address-management-ipam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software-Defined IP Address Management (IPAM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cni-container-networking-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CNI Container Networking Interface
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CNI Container Networking Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list-of-existing-cni-plugins-ipam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        List of existing CNI Plugins (IPAM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-calico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Calico
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-service-with-coredns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Service with CoreDNS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-node-local-dns-cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Node Local DNS Cache
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#k8gb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        k8gb
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpc-lattice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPC Lattice
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -8014,480 +7955,516 @@
 
 
 
-<h1 id="nubenetes-awesome-kubernetes-cloud">Nubenetes: Awesome Kubernetes &amp; Cloud <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
-<div class="admonition tip">
-<p class="admonition-title">Nubenetes V2: Agentic Elite Edition is now live!</p>
-<p>Looking for a high-density, AI-curated experience? Explore our <a href="/v2/"><strong>V2 Elite Portal</strong></a> - Optimized for 2026 Architectural Standards.</p>
-</div>
-<p>A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration &amp; Delivery), and API-focused designs.</p>
-<p><a href="https://nubenetes.com">Nubenetes</a> is also available at <a href="https://awesome-kubernetes.readthedocs.io/">this other site</a>.</p>
-<p>&ldquo;I do not believe you can do today&rsquo;s job with yesterday&rsquo;s methods and be in business tomorrow&rdquo; (<a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson">Horatio Nelson Jackson</a>)</p>
-<center>
-
-[![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
-
-</center>
-<hr />
-<h2 id="motivation">Motivation</h2>
-<ul>
-<li><a href="https://microservices.io/">microservices.io</a></li>
-<li><a href="https://www.cncf.io/">cncf.io</a><ul>
-<li><a href="https://landscape.cncf.io/">landscape.cncf.io</a></li>
-<li><a href="https://www.cncf.io/certification/software-conformance/">Certified Kubernetes offerings</a></li>
-<li><a href="https://www.cncf.io/reports/">CNCF Reports</a><ul>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf">CNCF Survey Report 2019</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/11/CNCF_Survey_Report_2020.pdf">CNCF Survey Report 2020</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf">CNCF Survey Report 2021</a> - <a href="https://www.infoq.com/news/2022/01/ -cncf-state-of-cloud-native">CNCF Publishes State of Cloud Native Development Report</a> - <a href="https://www.cncf.io/announcements/2022/02/10/cncf-sees-record-kubernetes-and-container-adoption-in-2021-cloud-native-survey/">CNCF Sees Record Kubernetes and Container Adoption</a></li>
-</ul>
+<h1 id="kubernetes-networking">Kubernetes Networking</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#kubernetes-dns">Kubernetes DNS</a></li>
+<li><a href="#kubernetes-services-and-load-balancing">Kubernetes Services and Load Balancing</a></li>
+<li><a href="#tcp-keep-alive-requests">TCP Keep Alive Requests</a></li>
+<li><a href="#headless-kubernetes-service">Headless Kubernetes Service</a></li>
+<li><a href="#networkpolicy">NetworkPolicy</a></li>
+<li><a href="#nginx-ingress-controller">Nginx Ingress Controller</a></li>
+<li><a href="#contour-ingress-controller">Contour Ingress Controller</a></li>
+<li><a href="#kubernetes-gateway-api">Kubernetes Gateway API</a></li>
+<li><a href="#kube-proxy">Kube-proxy</a></li>
+<li><a href="#multicloud-communication-for-kubernetes">Multicloud communication for Kubernetes</a></li>
+<li><a href="#multi-cluster-kubernetes-networking">Multi-Cluster Kubernetes Networking</a></li>
+<li><a href="#kubernetes-network-policy">Kubernetes Network Policy</a><ol>
+<li><a href="#cilium">Cilium</a></li>
+<li><a href="#kubernetes-network-policy-samples">Kubernetes Network Policy Samples</a></li>
+</ol>
 </li>
-</ul>
+<li><a href="#kubernetes-ingress-specification">Kubernetes Ingress Specification</a></li>
+<li><a href="#xposer-kubernetes-controller-to-manage-ingresses">Xposer Kubernetes Controller To Manage Ingresses</a></li>
+<li><a href="#software-defined-ip-address-management-ipam">Software-Defined IP Address Management (IPAM)</a></li>
+<li><a href="#cni-container-networking-interface">CNI Container Networking Interface</a><ol>
+<li><a href="#list-of-existing-cni-plugins-ipam">List of existing CNI Plugins (IPAM)</a></li>
+<li><a href="#project-calico">Project Calico</a></li>
+</ol>
 </li>
-<li><a href="https://puppet.com/resources/?refinementList%5Btype%5D%5B0%5D=Report&amp;page=1&amp;configure%5BhitsPerPage%5D=18">State of DevOps Reports</a><ul>
-<li><a href="https://puppet.com/resources/report/2020-state-of-devops-report">2020 State of DevOps Report</a></li>
-<li><a href="https://puppet.com/resources/report/2020-devops-salary-report">2020 DevOps Salary Report</a></li>
-<li><a href="https://puppet.com/resources/report/2021-state-of-devops-report">2021 State of DevOps Report: A decade of DevOps</a></li>
-<li><a href="https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021">2021 Gartner Report Top Trends Infra &amp; Operations</a></li>
-</ul>
-</li>
-<li><a href="https://cri-o.io/">CRI-O Lightweight Container Runtime for Kubernetes</a></li>
-<li><a href="https://www.opencontainers.org/">Open Container Initiative</a></li>
-<li><a href="http://agilemethodology.org/">agilemethodology.org</a></li>
-<li><a href="http://agilemanifesto.org/">agilemanifesto.org</a></li>
-<li><a href="https://12factor.net/">12factor.net</a> - <a href="https://dzone.com/articles/are-you-12-factor-application-ready">Are You 12-Factor Application Ready?</a> - <a href="https://dzone.com/whitepapers/the-12-factor-app-infographic">12-factor app infographic</a> - <a href="https://www.redhat.com/architect/12-factor-app">An illustrated guide to 12 Factor Apps 🌟</a></li>
-<li><a href="https://openpracticelibrary.com/">openpracticelibrary.com</a> - <a href="https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts">Top 10 most visited pages</a></li>
-<li><a href="https://roadmap.sh/">roadmap.sh</a> - <a href="https://roadmap.sh/devops">DevOps Roadmap</a> - <a href="https://roadmap.sh/kubernetes">Kubernetes Roadmap</a><ul>
-<li><a href="https://roadmap.sh/ai">roadmap.sh/ai: Generate roadmaps with AI</a></li>
-<li><a href="https://roadmap.sh/terraform">roadmap.sh/terraform</a></li>
-</ul>
-</li>
-<li><a href="https://apilandscape.apiscene.io/">API Landscape</a></li>
-<li><a href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a><ul>
-<li><a href="https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted">2021</a></li>
-<li><a href="https://survey.stackoverflow.co/2022/">2022 🌟</a> - <a href="https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3">betterprogramming.pub</a></li>
-</ul>
-</li>
-<li><a href="https://stackoverflow.com/collectives">Stack Overflow Collectives</a> Communities for your favorite technologies<ul>
-<li><a href="https://stackoverflow.com/collectives/go">Go Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/gitlab">GitLab Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/google-cloud">Google Cloud Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/aws">AWS Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/azure">Azure Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/ci-cd">CI/CD Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/wso2">WSO2 Collective</a></li>
-<li>etc</li>
-</ul>
-</li>
-<li><a href="https://opensource.guide/">Open Source Guides</a></li>
-<li><a href="https://www.opengroup.org/">The Open Group: Making Standards Work</a> - <a href="http://publications.opengroup.org/">publications.opengroup.org</a> - <a href="https://www.opengroup.org/togaf">The TOGAF® Standard, a standard of The Open Group</a></li>
-<li><a href="https://dzone.com/articles/how-your-application-architecture-evolved">How Your Application Architecture Has Evolved 🌟</a></li>
-<li><a href="https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/"><mark>Kubernetes magic is in enterprise standardization, not app portability</mark></a></li>
-<li><a href="https://containerjournal.com/features/the-rise-of-the-kubemaster/">A new role to emerge: Kubernetes Manager (KubeMaster) 🌟</a></li>
-<li><a href="https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/">An emerging Job: Kubernetes engineer 🌟</a></li>
-<li><a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report">Google DORA Report: State of DevOps 2021 🌟</a> How to accelerate DevOps - <a href="https://devops.com/google-dora-report-shows-modest-devops-gains/">summary 1</a> - <a href="https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need">summary 2</a></li>
-<li><a href="https://github.com/gayanvoice/top-github-users">Top GitHub Users By Country</a></li>
-<li><a href="https://www.redhat.com/en/blog/red-hat-automation-glossary">Red Hat automation glossary 🌟</a></li>
-<li><a href="https://www.redhat.com/sysadmin/automation-architects">The rise of the automation architect</a></li>
-<li><a href="https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/">Automation is the future of cloud cost optimization</a></li>
-<li><a href="https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx">The Rise of Modern Day Kubernetes Operations</a></li>
-<li><a href="https://www.infoq.com/articles/distributed-systems-kubernetes/">The Evolution of Distributed Systems on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/10-cloud-deficiencies-you-should-know/">10 Cloud Deficiencies You Should Know</a></li>
-<li><a href="https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team"><mark>How to Explain Kubernetes to a Business Team</mark></a></li>
-<li><a href="https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022"><mark>Pets vs. Cattle: The Future of Kubernetes in 2022</mark></a></li>
-<li><a href="https://dok.community">dok.community: DoKC Data on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/">A Kubernetes Documentary Shares Google’s Open Source Story</a></li>
-<li><a href="https://alpacked.io/blog/infrastructure-as-code-for-devops/"><mark>Infrastructure as Code in DevOps</mark></a></li>
-<li><a href="https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/">Kubernetes at Scale without GitOps Is a Bad Idea</a></li>
-<li><a href="https://dzone.com/trendreports">dzone.com/trendreports</a></li>
-<li><a href="https://kube.events">kube.events</a> A curated list of Kubernetes-related events such as meetups, conferences, training &amp; webinars that you will find interesting to attend</li>
-<li><a href="https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022">The future of Kubernetes – and why developers should look beyond Kubernetes in 2022</a></li>
-<li><a href="https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html">cloudtechtwitter.com: Introduction to Kubernetes 🌟</a></li>
-<li><a href="https://github.com/readme/guides/">GitHub Guides</a></li>
-<li><a href="https://learnk8s.io/news">learnk8s.io/news</a> How do you keep up with Kubernetes? If you are looking for curated Kubernetes news, we have you covered on:<ul>
-<li>Core Kubernetes</li>
-<li>Security</li>
-<li>Architecture &amp; development</li>
-<li>Job opportunities</li>
-<li>K3s</li>
-<li>Events</li>
-</ul>
-</li>
-<li><a href="https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/">thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟</a></li>
-<li><a href="https://dzone.com/trendreports/kubernetes-in-the-enterprise-1">dzone: Kubernetes in the Enterprise - Trend Report</a></li>
-<li><a href="https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/">Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟</a></li>
-<li><a href="https://learnk8s.io/learn-kubernetes-weekly">learnk8s.io/learn-kubernetes-weekly 🌟</a></li>
-<li><a href="https://www.infoworld.com/article/3679250/cloud-architects-are-afraid-of-automation.html">infoworld.com: Cloud architects are afraid of automation</a> Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What&rsquo;s so scary?</li>
-<li><a href="https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html">infoworld.com: The biggest obstacle to cloud is people</a> People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.</li>
-<li><a href="https://github.com/Droogans/unmaintainable-code">Droogans/How To Write Unmaintainable Code</a> Ensure a job for life ;-)</li>
-<li><a href="https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine">dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf">github.com/metaleapca: metaleap-devops-in-k8s.pdf</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf">github.com/metaleapca: metaleap-k8s-troubleshooting.pdf</a></li>
-<li><a href="https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/">devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟</a></li>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals">serverlessland.com: EDA VISUALS</a> Small bite sized visuals about event-driven architectures</li>
-<li><a href="https://dzone.com/refcardz/the-essentials-of-gitops">dzone: The Essentials of GitOps 🌟</a></li>
-<li><a href="https://dzone.com/articles/rest-vs-messaging-for-microservices">dzone.com: REST vs. Messaging for Microservices</a></li>
-<li><a href="https://thenewstack.io/the-next-kubernetes-management-frontier-automation/">The Next Kubernetes Management Frontier: Automation</a> Automation Is No Longer a “Nice to Have”</li>
-<li><a href="https://redis.com/blog/microservice-architecture-key-concepts/">redis.com: Microservice Architecture Key Concepts</a></li>
-<li><a href="https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/">thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟</a></li>
-<li><a href="https://dzone.com/articles/software-deployment-best-practices">Software Deployment Best Practices in 2023</a> Explore the best software development practices that are the proven catalysts for innovation and growth.</li>
-<li><a href="https://github.com/DevOps-Projects-Ideas/DevOps-Books"><mark>DevOps-Books</mark> 🌟</a></li>
-<li><a href="https://community.aws/kubernetes">community.aws/kubernetes</a> Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.</li>
-<li><a href="https://explore.skillbuilder.aws/learn">AWS Skill Builder</a></li>
-<li><a href="https://www.cloudcatalog.dev">cloudcatalog.dev</a> Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.</li>
-<li><a href="https://platformengineering.org">platformengineering.org</a> The global home for Platform Engineers</li>
-<li><a href="https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool">Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?</a></li>
-<li><a href="https://chaoslever.com/cl-20240118/">Redefining Virtualization in the VMware Acquisition Era</a></li>
-<li><a href="https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/">Do Kubernetes Certs Prepare You For Real-World Production?</a></li>
-<li><a href="https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c">Why I Don’t Consider Your Certifications During An Interview</a></li>
-<li><a href="https://dagger.io">dagger.io</a> CI/CD as Code that Runs Anywhere.</li>
-<li><a href="https://en.wikipedia.org/wiki/Bus_factor">Bus factor</a> The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase &ldquo;in case they get hit by a bus&rdquo;.</li>
-<li><a href="https://www.seal.io/">seal.io: Open Source Platform Engineering for Dev &amp; Ops</a></li>
-<li><a href="https://k8sgpt.ai/"><mark>k8sgpt.ai</mark></a> K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.</li>
-<li><a href="https://github.com/topics/gitops">github.com/topics/gitops</a></li>
-<li><a href="https://github.com/dolthub/dolt">Dolt: Git for Data</a></li>
-<li><a href="https://serverlesshorrors.com/">serverlesshorrors.com</a></li>
-<li><a href="https://glasskube.dev/">glasskube.dev package manager for k8s 🌟</a></li>
-<li><a href="https://github.com/infrahouse/infrahouse-toolkit">github.com/infrahouse/infrahouse-toolkit</a> A collection of tools for building infrastructure</li>
-<li><a href="https://github.com/taubyte/tau">github.com/taubyte/tau</a> Open Source Git-Native CDN PaaS</li>
-<li><a href="https://mattias.engineer/courses/"><mark>mattias.engineer/courses</mark> 🌟</a> HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD</li>
-<li><a href="https://paulbutler.org/2024/the-haters-guide-to-kubernetes/">The hater’s guide to Kubernetes</a></li>
-<li><a href="https://github.com/cyclops-ui/cyclops">github.com/cyclops-ui/cyclops</a> Developer Friendly Kubernetes</li>
-<li><a href="https://k8z.dev/">k8z.dev</a> A lightweight, modern mobile and desktop application for manage kubernetes</li>
-<li><a href="https://github.com/zegl/kube-score">Kube-score</a></li>
-<li><a href="https://testkube.io">testkube.io 🌟</a></li>
-<li><a href="https://github.com/curl/wcurl">wcurl</a> A simple wrapper around curl to easily download files</li>
-<li><a href="https://github.com/netbox-community/netbox">NetBox IPAM 🌟</a><ul>
-<li><a href="https://netboxlabs.com/">NetBox Labs</a> is the commercial steward of NetBox. We are on a mission to make it easier to build and manage complex networks.</li>
-<li><a href="https://docs.ansible.com/ansible/latest/collections/netbox/netbox/index.html">Netbox Ansible Modules</a></li>
-</ul>
-</li>
-<li><a href="https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd">youtube: GitOps Guide to the Galaxy</a></li>
-<li><a href="https://devopswithkubernetes.com/">devopswithkubernetes.com</a> Introductory course to Kubernetes with K3s and GKE</li>
-<li><a href="https://github.com/gardener/gardener">Gardener</a> Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service</li>
-<li><a href="https://collabnix.github.io/kubetools/">collabnix.github.io/kubetools 🌟</a> A Curated List of Kubernetes Tools</li>
-<li><a href="https://github.com/CastawayEGR/openshift-ai-examples">OpenShift AI Examples</a></li>
-<li><a href="https://youtube.com/playlist?list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe&amp;si=GBJtqv36O8bslj9z">Jenkins Tutorials by CloudBeesTV 🌟</a></li>
-<li><a href="https://kui.tools">kui.tools</a> Kui: CLI-driven Graphics for Kubernetes</li>
-</ul>
+<li><a href="#dns-service-with-coredns">DNS Service with CoreDNS</a></li>
+<li><a href="#kubernetes-node-local-dns-cache">Kubernetes Node Local DNS Cache</a></li>
+<li><a href="#k8gb">k8gb</a></li>
+<li><a href="#vpc-lattice">VPC Lattice</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
 <h2 id="introduction">Introduction</h2>
 <ul>
-<li><a href="introduction.html">Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes</a></li>
-<li><a href="faq.html">Microservices FAQ &amp; Kubernetes Native</a></li>
-</ul>
-<h2 id="sre-site-reliability-engineering">SRE Site Reliability Engineering</h2>
-<ul>
-<li><a href="sre.html">Site Reliability Engineering (SRE)</a></li>
-<li><a href="networking.html">Networking</a></li>
-<li><a href="finops.html">FinOps - Cloud Financial Management</a></li>
-<li><a href="chaos-engineering.html">Chaos Engineering</a></li>
-</ul>
-<h2 id="devops">DevOps</h2>
-<ul>
-<li><a href="devops.html"><mark>DevOps</mark></a></li>
-<li><a href="gitops.html"><mark>GitOps</mark></a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="cheatsheets.html">Cheat Sheets 🌟</a></li>
-</ul>
-<h2 id="devsecops-and-security">DevSecOps and Security</h2>
-<ul>
-<li><a href="devsecops.html">DevSecOps and Security. Container Security</a></li>
-<li><a href="securityascode.html">Security Policy as Code</a></li>
-<li><a href="oauth.html">OAuth2</a></li>
-</ul>
-<h2 id="noops-aka-serverless">NoOps aka Serverless</h2>
-<ul>
-<li><a href="noops.html">NoOps</a></li>
-<li><a href="serverless.html">Serverless Architectures &amp; Frameworks. OpenFaaS, Knative &amp; Kubeless</a></li>
-</ul>
-<h2 id="docker">Docker</h2>
-<ul>
-<li><a href="docker.html">Docker</a></li>
-</ul>
-<h2 id="kubernetes">Kubernetes</h2>
-<ul>
-<li><a href="kubernetes.html"><mark>Kubernetes</mark></a><ul>
-<li><a href="kubernetes-tutorials.html"><mark>Kubernetes Tutorials</mark></a></li>
-<li><a href="kubernetes-tools.html">Kubernetes Plugins, Tools, Extensions and Projects 🌟</a></li>
-<li><a href="kubectl-commands.html">kubectl Commands</a></li>
-<li><a href="kubernetes-networking.html">Kubernetes Networking</a></li>
-<li><a href="kubernetes-monitoring.html">Kubernetes Monitoring and Logging</a></li>
-<li><a href="kubernetes-security.html">Kubernetes Security</a></li>
-<li><a href="kubernetes-storage.html">Kubernetes Storage</a></li>
-<li><a href="kubernetes-backup-migrations.html">Kubernetes Backup and Migrations</a></li>
-<li><a href="kubernetes-autoscaling.html">Kubernetes Autoscaling</a></li>
-<li><a href="kubernetes-operators-controllers.html">Kubernetes Operators and Controllers</a></li>
-<li><a href="kubernetes-based-devel.html">Kubernetes Based Development</a></li>
-<li><a href="kubernetes-on-premise.html">Kubernetes On Premise</a></li>
-<li><a href="managed-kubernetes-in-public-cloud.html"><mark>Managed kubernetes in public clouds</mark></a></li>
-<li><a href="kubernetes-troubleshooting.html">Kubernetes Troubleshooting</a></li>
-<li><a href="kubernetes-releases.html">Kubernetes Releases</a></li>
-<li><a href="kubernetes-newsletters.html">Kubernetes Newsletters</a></li>
-</ul>
-</li>
-<li><a href="matrix-table.html">Kubernetes Distributions &amp; Installers</a></li>
-<li><a href="kubernetes-bigdata.html">Kubernetes Big Data</a></li>
-<li><a href="kubernetes-alternatives.html">Kubernetes Alternatives</a></li>
-</ul>
-<h2 id="red-hat-openshift">Red Hat OpenShift</h2>
-<ul>
-<li><a href="openshift.html">OpenShift</a></li>
-<li><a href="ocp3.html">OCP 3</a></li>
-<li><a href="ocp4.html">OCP 4</a></li>
-</ul>
-<h2 id="suse-rancher">SUSE Rancher</h2>
-<ul>
-<li><a href="rancher.html">Rancher - Enterprise management for Kubernetes</a></li>
-</ul>
-<h2 id="software-delivery-pipeline">Software Delivery Pipeline</h2>
-<ul>
-<li><a href="cicd.html">CI/CD - Continuous Integration &amp; Continuous Delivery</a></li>
-<li><a href="git.html">Git &amp; Git Patterns. Trunk Devel, Git Flow &amp; Feature Flags. Merge BOTs 🌟</a></li>
-</ul>
-<h3 id="jenkins-cloudbees">Jenkins &amp; CloudBees</h3>
-<ul>
-<li><a href="jenkins.html">Jenkins &amp; CloudBees 😀</a></li>
-<li><a href="performance-testing-with-jenkins-and-jmeter.html">Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc</a></li>
-</ul>
-<h3 id="openshift-pipelines">OpenShift Pipelines</h3>
-<ul>
-<li><a href="openshift-pipelines.html">OpenShift Pipelines with Jenkins, Tekton and more&hellip;</a></li>
-</ul>
-<h3 id="devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools">DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools</h3>
-<ul>
-<li><a href="devops-tools.html">DevOps Tools</a></li>
-<li><a href="jenkins-alternatives.html">Jenkins Alternatives for Continuous Integration &amp; Deployment 🌟</a></li>
-<li><a href="argo.html">Argo - Declarative GitOps for Kubernetes 🌟</a></li>
-<li><a href="flux.html">Flux CD - The GitOps Operator for Kubernetes 🌟</a></li>
-<li><a href="tekton.html">Tekton - Cloud Native CI/CD</a></li>
-<li><a href="keptn.html">Keptn</a></li>
-<li><a href="container-managers.html">Container Runtimes/Managers &amp; Base Images. Podman, Buildah &amp; Skopeo</a></li>
-<li><a href="maven-gradle.html">Maven, Gradle &amp; SDKMAN</a></li>
-<li><a href="sonarqube.html">SonarQube</a></li>
-<li><a href="registries.html">Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more</a></li>
-<li><a href="linux.html">Linux &amp; SSH</a></li>
-<li><a href="mkdocs.html">MkDocs &amp; GitHub Pages</a></li>
-</ul>
-<h3 id="web-servers-reverse-proxies-java-runtimes-caching-solutions">Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions</h3>
-<ul>
-<li><a href="web-servers.html">Web Servers &amp; Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more</a></li>
-<li><a href="java_app_servers.html">Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more</a></li>
-<li><a href="embedded-servlet-containers.html">Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more</a></li>
-<li><a href="caching.html">Caching Solutions</a></li>
-</ul>
-<h2 id="monitoring-and-performance-prometheus-grafana-apms-and-more">Monitoring and Performance. Prometheus, Grafana, APMs and more</h2>
-<ul>
-<li><a href="monitoring.html">Monitoring and Performance</a></li>
-<li><a href="prometheus.html">Prometheus 🌟</a></li>
-<li><a href="grafana.html">Grafana</a></li>
-</ul>
-<h2 id="infrastructure-provisioning-infra-management-tools">Infrastructure Provisioning. Infra Management Tools</h2>
-<ul>
-<li><a href="iac.html">IaC Infrastructure as Code</a></li>
-<li><a href="terraform.html"><mark>Terraform &amp; Packer.Kubernetes Boilerplates</mark></a></li>
-<li><a href="pulumi.html">Pulumi</a></li>
-<li><a href="crossplane.html">Crossplane</a> A Kubernetes Control Plane to Roll Your Own PaaS</li>
-<li><a href="cloud-arch-diagrams.html">Cloud Architecture Diagram Tools</a></li>
-<li><a href="cloud-asset-inventory.html">Cloud Asset Inventory</a></li>
-</ul>
-<h2 id="configuration-management">Configuration Management</h2>
-<ul>
-<li><a href="ansible.html"><mark>Ansible</mark></a></li>
-<li><a href="helm.html">Helm Kubernetes Tool 🌟</a></li>
-<li><a href="kustomize.html">Kustomize - Template-Free Kubernetes Configuration Customization</a></li>
-<li><a href="stackstorm.html">StackStorm</a></li>
-<li><a href="chef.html">Chef</a></li>
-<li><a href="cicd-kubernetes-plugins.html">CI/CD Kubernetes Plugins</a></li>
-<li><a href="kubernetes-client-libraries.html">Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube &amp; Java Operator SDK</a></li>
-<li><a href="liquibase.html">Database Version Control. Liquibase, Flyway and PlanetScale</a></li>
-<li><a href="https://dzone.com/articles/gitops-with-openshift-applier">redhat-cop: Openshift Applier</a></li>
-<li><a href="yaml.html">YAML and JSON 🌟</a></li>
-</ul>
-<h2 id="databases-on-kubernetes">Databases on Kubernetes</h2>
-<ul>
-<li><a href="databases.html">Relational Databases and Database DevOps 🌟</a></li>
-<li><a href="crunchydata.html">Crunchy Data PostgreSQL Operator</a></li>
-<li><a href="nosql.html">NoSQL Databases</a></li>
-</ul>
-<h2 id="cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)</h2>
-<ul>
-<li><a href="message-queue.html">Data Pipeline 🌟</a></li>
-</ul>
-<h2 id="service-mesh">Service Mesh</h2>
-<ul>
-<li><a href="servicemesh.html">Service Mesh</a></li>
-<li><a href="istio.html">Istio</a></li>
-</ul>
-<h2 id="demos-and-boilerplates">Demos and Boilerplates</h2>
-<ul>
-<li><a href="demos.html"><mark>Demos, Boilerplates &amp; Screencasts</mark></a> OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more</li>
-</ul>
-<h2 id="cloud">Cloud</h2>
-<ul>
-<li><a href="public-cloud-solutions.html">Public Cloud Solutions</a></li>
-<li><a href="private-cloud-solutions.html">Private Cloud Solutions</a></li>
-<li><a href="edge-computing.html">Edge Computing</a></li>
-<li><a href="aws.html"><mark>AWS</mark></a><ul>
-<li><a href="https://repost.aws"><mark>repost.aws</mark></a></li>
-<li><a href="aws-miscellaneous.html">AWS Miscellaneous</a></li>
-<li><a href="aws-architecture.html"><mark>AWS Architecture and Best Practices</mark></a></li>
-<li><a href="aws-networking.html">AWS Networking</a></li>
-<li><a href="aws-databases.html">AWS Databases</a></li>
-<li><a href="aws-storage.html">AWS Storage</a></li>
-<li><a href="aws-security.html">AWS Security</a></li>
-<li><a href="aws-monitoring.html">AWS Monitoring</a></li>
-<li><a href="aws-iac.html">AWS IaC</a></li>
-<li><a href="aws-tools-scripts.html">AWS Tools Scripts</a></li>
-<li><a href="aws-messaging.html">AWS Messaging</a></li>
-<li><a href="aws-data.html">AWS Data</a></li>
-<li><a href="aws-devops.html">AWS DevOps</a></li>
-<li><a href="aws-serverless.html">AWS Serverless</a></li>
-<li><a href="aws-pricing.html">AWS Pricing</a></li>
-<li><a href="aws-containers.html">AWS Containers</a></li>
-<li><a href="aws-backup.html">AWS Backup and Migrations</a></li>
-<li><a href="aws-training.html">AWS Training and Certification</a></li>
-<li><a href="aws-newfeatures.html">AWS New Features</a></li>
-<li><a href="aws-spain.html">AWS Spain</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model</a></li>
+<li><a href="https://www.ovh.com/blog/getting-external-traffic-into-kubernetes-clusterip-nodeport-loadbalancer-and-ingress/">ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress</a></li>
+<li><a href="https://learnk8s.io/kubernetes-long-lived-connections"><mark>learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes</mark> 🌟🌟🌟</a> <strong>Kubernetes doesn&rsquo;t load balance long-lived connections, and some Pods might receive more requests than others. If you&rsquo;re using HTTP/2, gRPC, etc. or any other long-lived connection, you might want to consider client-side load balancing</strong></li>
+<li><a href="https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified/">stackrox.com: Kubernetes Networking Demystified: A Brief Guide</a></li>
+<li><a href="https://medium.com/@sindhujacynixit/fighting-service-latency-in-microservices-with-kubernetes-f5a584f5af36">medium.com: Fighting Service Latency in Microservices With Kubernetes</a></li>
+<li><a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0">medium.com: Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? 🌟</a></li>
+<li><a href="https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/">blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster</a></li>
+<li><a href="https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses/">dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!</a></li>
+<li><a href="https://www.youtube.com/watch?v=VicH6KojwCI">youtube: Kubernetes Ingress Explained Completely For Beginners</a></li>
+<li><a href="https://www.weave.works/blog/introduction-to-kubernetes-pod-networking--part-1">AWS and Kubernetes Networking Options and Trade-Offs (part 1)</a></li>
+<li><a href="https://www.weave.works/blog/aws-networking-overview---part-2">AWS and Kubernetes Networking Options and Trade-Offs (part 2)</a></li>
+<li><a href="https://medium.com/faun/service-types-in-kubernetes-24a1587677d6">medium: Service Types in Kubernetes? 🌟</a> A Service enables network access to a set of Pods in Kubernetes.</li>
+<li><a href="https://containo.us/blog/kubernetes-ingress-service-api-demystified/">containo.us: Kubernetes Ingress &amp; Service API Demystified</a></li>
+<li><a href="https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard">speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟</a></li>
+<li><a href="https://eevans.co/blog/deconstructing-kubernetes-networking/">eevans.co: Deconstructing Kubernetes Networking</a></li>
+<li><a href="https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9">externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes</a> externalTrafficPolicy=local is an annotation on the Kubernetes service resource that can be set to preserve the client source IP. When it is set, the actual IP address of a client is propagated to the K8s service instead of the IP address of the node.</li>
+<li><a href="https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/">ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟</a></li>
+<li><a href="https://opensource.com/article/20/8/ingress-controllers-kubernetes">opensource.com: Why I use Ingress Controllers to expose Kubernetes services</a> Kubernetes ingress controllers will make or break your cloud architecture.</li>
+<li><a href="https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification/">blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof</a></li>
+<li><a href="https://medium.com/@jmrobles/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b">medium: How to setup Hetzner load balancer on a Kubernetes cluster</a></li>
+<li><a href="https://zhimin-wen.medium.com/sticky-sessions-in-kubernetes-56eb0e8f257d">zhimin-wen.medium.com: Sticky Sessions in Kubernetes 🌟</a></li>
+<li><a href="https://www.infoq.com/news/2020/09/kubernetes-ingress-ga/">infoq.com: Kubernetes Ingress Is Now Generally Available</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238">Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟</a> How do you choose the <em>right</em> Kubernetes Ingress controller when: Not all Ingress controllers support UDP, Only Kong has a free LDAP integration, Nginx Ingress and HAProxy are the only two ingress without CRDs.</li>
+<li><a href="https://blog.alexellis.io/get-private-kubectl-access-anywhere/">blog.alexellis.io: Get kubectl access to your private cluster from anywhere</a></li>
+<li><a href="https://jmrobles.medium.com/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b">jmrobles.medium.com: How to setup Hetzner load balancer on a Kubernetes cluster</a></li>
+<li><a href="https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices/">kubernetes.io: Scaling Kubernetes Networking With EndpointSlices</a> EndpointSlices are a new Kubernetes API that provides a scalable and extensible alternative to the Endpoints API.</li>
+<li><a href="https://medium.com/better-programming/creating-a-custom-annotation-for-the-kubernetes-ingress-nginx-controller-444e9d486192">medium: Create a Custom Annotation for the Kubernetes ingress-nginx Controller</a></li>
+<li><a href="https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5/">haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟</a></li>
+<li><a href="https://devclass.com/2021/01/26/haproxy-ingress-controller-1_5/">devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power</a></li>
+<li><a href="https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster/">thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster</a></li>
+<li><a href="https://www.suse.com/c/nginx-guest-blog-kubernetes-ingress-controller">suse.com: NGINX Guest Blog: NGINX Kubernetes Ingress Controller 🌟</a></li>
+<li><a href="https://blog.cloudflare.com/moving-k8s-communication-to-grpc/">blog.cloudflare.com: Moving k8s communication to gRPC</a></li>
+<li><a href="https://github.com/AbsaOSS/k8gb">K8GB - Kubernetes Global Balancer</a> - <a href="https://www.openshift.com/blog/openshift-commons-briefing-k8gb-kubernetes-global-balancer-with-yuri-tsarev-absa-and-paul-morie-red-hat">openshift.com: K8GB - Kubernetes Global Balancer </a></li>
+<li><a href="https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/">altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash</a></li>
+<li><a href="https://github.com/kakao/network-node-manager">Network Node Manager</a> network-node-manager is a kubernetes controller that controls the network configuration of a node to resolve network issues of kubernetes. By simply deploying and configuring network-node-manager, you can solve kubernetes network issues that cannot be resolved by kubernetes or resolved by the higher kubernetes Version. Below is a list of kubernetes&rsquo;s issues to be resolved by network-node-manager. network-node-manager is based on kubebuilder v2.3.1.</li>
+<li><a href="https://getenroute.io/docs/ingress-filter-legos-secure-microservices-apis-using-helm-envoy/">getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟</a></li>
+<li><a href="https://www.ithands-on.com/2021/04/kubernetes-101-external-services.html">ithands-on.com: Kubernetes 101 : External services - ExternalName, DNS and Endpoints</a></li>
+<li><a href="https://www.ibm.com/cloud/blog/multizone-kubernetes-and-vpc-load-balancer-setup">ibm.com: Multizone Kubernetes and VPC Load Balancer Setup</a> Securely expose your Kubernetes app by setting up a Load Balancer for VPC in a different zone.</li>
+<li><a href="https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html">opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing</a></li>
+<li><a href="https://nbailey.ca/post/k8s-networking/">nbailey.ca: Domesticated Kubernetes Networking</a></li>
+<li><a href="https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/">sookocheff.com: A Guide to the Kubernetes Networking Model 🌟</a></li>
+<li><a href="https://build.thebeat.co/a-curious-case-of-aws-nlb-timeouts-in-kubernetes-522bd88a3399">build.thebeat.co: A curious case of AWS NLB timeouts in Kubernetes</a> A debugging adventure that allowed us to solve the tail latencies our Kubernetes applications were experiencing when talking with our AWS NLB.</li>
+<li><a href="https://ingressbuilder.jetstack.io">ingressbuilder.jetstack.io 🌟🌟</a> Ingress Builder allows users to select any annotation from the list of available controllers, to add to the ingress manifest.</li>
+<li><a href="https://itnext.io/generating-kubernetes-network-policies-by-sniffing-network-traffic-6d5135fe77db">itnext.io: Generating Kubernetes Network Policies Automatically By Sniffing Network Traffic 🌟</a> This blog post is about an experiment to automate creation of Kubernetes Network Policies based on actual network traffic captured from applications running on a Kubernetes cluster - <a href="https://github.com/mcelep/blog/tree/master/automated-networkpolicy-generation">code</a></li>
+<li><a href="https://medium.com/@maninder.bindra/using-nginx-ingress-controller-to-restrict-access-by-ip-ip-whitelisting-for-a-service-deployed-to-bd5c86dc66d6">medium: Using nginx-ingress controller to restrict access by IP (ip whitelisting) for a service deployed to a Kubernetes (AKS) cluster</a></li>
+<li><a href="https://www.openshift.com/blog/grpc-or-http/2-ingress-connectivity-in-openshift">openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟</a></li>
+<li><a href="https://inlets.dev/blog/2021/07/08/short-lived-clusters.html">inlets.dev: Fixing Ingress for short-lived local Kubernetes clusters</a></li>
+<li><a href="https://www.nginx.com/blog/how-to-simplify-kubernetes-ingress-egress-traffic-management/">nginx.com: How to Simplify Kubernetes Ingress and Egress Traffic Management</a></li>
+<li><a href="https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html">blog.teamhephy.info: Running Workflow Without Any LoadBalancer</a></li>
+<li><a href="https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/">blog.alexellis.io: Get a public LoadBalancer for your private Kubernetes cluster 🌟</a></li>
+<li><a href="https://searchitoperations.techtarget.com/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer">searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer</a> To manage Kubernetes cluster traffic, admins have a few choices. Compare Kubernetes Ingress vs. load balancers, as well as the NodePort and ClusterIP service types.</li>
+<li><a href="https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes">monzo.com: Controlling outbound traffic from Kubernetes</a></li>
+<li><a href="https://medium.com/codex/access-application-externally-in-kubernetes-cluster-using-load-balancer-service-d1b7858d51">medium: Access Application Externally In Kubernetes Cluster using Load Balancer Service</a> Learn how to create a Pod and how to create a Load Balancer service using Kubernetes cluster. And access the application from outside.</li>
+<li><a href="https://itnext.io/why-and-how-of-kubernetes-ingress-and-networking-6cb308ca03d2">itnext.io: Why and How of Kubernetes Ingress (and Networking) 🌟</a></li>
+<li><a href="https://techdozo.dev/grpc-load-balancing-on-kubernetes-using-headless-service/">techdozo.dev: gRPC load balancing on Kubernetes (using Headless Service)</a></li>
+<li><a href="https://thenewstack.io/zerolb-a-new-decentralized-pattern-for-load-balancing/">thenewstack.io: ZeroLB, a New Decentralized Pattern for Load Balancing</a></li>
+<li><a href="https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable/">ungleich.ch: Making kubernetes kube-dns publicly reachable</a></li>
+<li><a href="https://ungleich.ch/u/blog/kubernetes-without-ingress/">ungleich.ch: Building Ingress-less Kubernetes Clusters</a> Building Ingress-less Kubernetes Clusters with IPv6</li>
+<li><a href="https://thenewstack.io/ingress-controllers-the-more-the-merrier/">thenewstack.io: Ingress Controllers: The More the Merrier</a></li>
+<li><a href="https://levelup.gitconnected.com/setting-up-application-load-balancer-ingress-for-the-pods-running-in-aws-eks-fargate-519e20e97497">levelup.gitconnected.com: Setting up Application Load Balancer (Ingress) for the Pods running in AWS EKS Fargate</a></li>
+<li><a href="https://devopscube.com/kubernetes-ingress-tutorial/">devopscube.com: Kubernetes Ingress Tutorial For Beginners 🌟</a> In this Kubernetes ingress tutorial, you will learn the basic concepts of ingress, the native ingress resource object, and the concepts involved in ingress controllers</li>
+<li><a href="https://ystatit.medium.com/how-to-change-kubernetes-kube-apiserver-ip-address-402d6ddb8aa2">ystatit.medium.com: How to Change Kubernetes Kube-apiserver IP Address</a></li>
+<li><a href="https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes">monzo.com: Controlling outbound traffic from Kubernetes</a></li>
+<li><a href="https://www.nginx.com/blog/reducing-kubernetes-costs-70-percent-in-cloud-nginx-opsani-prometheus/">nginx.com: Reducing Kubernetes Costs by 70% in the Cloud with NGINX, Opsani, and Prometheus</a></li>
+<li><a href="https://www.ithands-on.com/2021/09/kubernetes-101-changing-service-type.html">ithands-on.com: Kubernetes 101 : Changing a service type</a> If we realize that our service, a ClusterIP doesn&rsquo;t suit our needs anymore, we could change its type to a  nodePort service for example.</li>
+<li><a href="https://cloud.redhat.com/blog/global-load-balancer-approaches">cloud.redhat.com: Global Load Balancer Approaches 🌟</a></li>
+<li><a href="https://loft.sh/blog/kubernetes-nginx-ingress-10-useful-configuration-options"><mark>loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options</mark> 🌟</a> Kubernetes Ingress is the object that provides routing rules into your cluster. To best serve traffic to your app, you need to correctly configure it. This is an incredible article from loft.sh with 10 useful options for configuring NginX Ingress</li>
+<li><a href="https://technos.medium.com/kubernetes-services-for-absolute-beginners-nodeport-139b7060fe3"><mark>technos.medium.com: Kubernetes Services for Absolute Beginners — NodePort</mark> 🌟</a></li>
+<li><a href="https://fransemalila.medium.com/kubernetes-networking-cea2e1b7d2b3">fransemalila.medium.com: Kubernetes Networking</a> To access the application over the network, K8s services must be used to expose the pods to external traffic and load balancing the traffic across multiple pods.<ul>
+<li>Cluster IP</li>
+<li>Target Ports</li>
+<li>Node Port</li>
+<li>External IPs</li>
+<li>Load Balancer</li>
 </ul>
 </li>
-<li><a href="azure.html"><mark>Microsoft Azure</mark></a></li>
-<li><a href="GoogleCloudPlatform.html"><mark>Google Cloud Platform</mark></a></li>
-<li><a href="ibm_cloud.html">IBM &amp; IBM Cloud</a></li>
-<li><a href="oraclecloud.html">Oracle Cloud</a></li>
-<li><a href="digitalocean.html">Digital Ocean</a></li>
-<li><a href="cloudflare.html">Cloudflare</a></li>
-<li><a href="scaleway.html">Scaleway</a></li>
-<li><a href="https://www.linode.com/">Linode</a></li>
-<li><a href="https://www.alibabacloud.com/">Alibaba</a></li>
-<li><a href="https://symbiosis.host/">Symbiosis</a></li>
-<li><a href="https://www.gaia-x.eu">Gaia-X.eu</a></li>
+<li><a href="https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes/"><mark>thenewstack.io: Ingress Controllers: The Swiss Army Knife of Kubernetes</mark></a></li>
+<li><a href="https://www.nginx.com/blog/kubernetes-networking-101"><mark>nginx.com: Kubernetes Networking 101</mark></a></li>
+<li><a href="https://medium.com/the-programmer/working-with-clusterip-service-type-in-kubernetes-45f2c01a89c8">medium.com/the-programmer: Working With ClusterIP Service Type In Kubernetes</a> Working with services in Kubernetes Using ClusterIP</li>
+<li><a href="https://olamiko.medium.com/technical-series-kubernetes-networking-5a5dc3823163">olamiko.medium.com: Technical Series: Kubernetes Networking</a></li>
+<li><a href="https://learnk8s.io/kubernetes-network-packets"><mark>learnk8s.io: Tracing the path of network traffic in Kubernetes</mark> 🌟</a></li>
+<li><a href="https://devopslearners.com/kubernetes-ingress-tutorial-for-beginners-26c2f7727bc"><mark>devopslearners.com: Kubernetes Ingress Tutorial For Beginners</mark></a> - <a href="https://devopscube.com/kubernetes-ingress-tutorial">https://devopscube.com/kubernetes-ingress-tutorial</a></li>
+<li><a href="https://devopscube.com/configure-ingress-tls-kubernetes/">devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes</a></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-ingress-beginners-guide/">armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg</a></li>
+<li><a href="https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c"><mark>itnext.io: Kubernetes Service Type LB for On Prem Deployments</mark></a></li>
+<li><a href="https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8"><mark>medium.com/techbeatly: Kubernetes Networking Fundamentals</mark></a></li>
+<li><a href="https://rajivsharma-2205.medium.com/demystify-how-traffic-reaches-directly-to-pod-on-using-alb-ingress-kubernetes-io-target-type-ip-f2d1be346b46">rajivsharma-2205.medium.com: Demystify how traffic reaches directly to pod on using alb.ingress.kubernetes.io/target-type: ip</a></li>
+<li><a href="https://medium.com/linux-shots/kubernetes-ingress-as-reverse-proxy-to-application-running-outside-cluster-206b6003f9cb">medium.com/linux-shots: Kubernetes ingress as reverse proxy to Application running outside cluster</a> This article demonstrates how to serve an application running outside Kubernetes as if it were part of the cluster by configuring the Ingress controller and using the ExternalName Service.</li>
+<li><a href="https://medium.com/@zhaoyi0113/kubernetes-how-does-service-network-work-in-the-cluster-d235b69ff536">medium.com/@zhaoyi0113: Kubernetes — How does service network work in the cluster</a></li>
+<li><a href="https://medium.com/@pavanbelagatti/kubernetes-service-types-explained-2709cde3bc0c"><mark>medium.com/@pavanbelagatti: Kubernetes Service Types Explained</mark> 🌟</a></li>
+<li><a href="https://www.tkng.io/"><mark>tkng.io: The Kubernetes Networking Guide</mark> 🌟🌟</a> The purpose of The Kubernetes networking guide is to provide an overview of various Kubernetes networking components with a specific focus on exactly how they implement the required functionality<ul>
+<li><a href="https://www.tkng.io/arch/"><mark>tkng.io/arch: THE KUBERNETES NETWORK MODEL</mark> 🌟🌟</a></li>
 </ul>
-<h2 id="apis-with-soap-rest-and-grpc">APIs with SOAP, REST and gRPC</h2>
+</li>
+<li><a href="https://medium.com/stakater/efficiently-expose-services-on-kubernetes-494a80f88aad">medium.com/stakater: Efficiently Expose Services on Kubernetes (part 1) 🌟</a><ul>
+<li><a href="https://medium.com/stakater/efficiently-expose-services-on-kubernetes-part-2-c302f135f719">medium.com/stakater: Efficiently Expose Services on Kubernetes (part 2)</a></li>
+</ul>
+</li>
+<li><a href="https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers/"><mark>platform9.com: Ultimate Guide to Kubernetes Ingress Controllers</mark> 🌟</a></li>
+<li><a href="https://faun.pub/kubernetes-service-types-tutorial-39223391316c">faun.pub: Kubernetes Service Types Tutorial | Pavan Belagatti 🌟</a> Configure ClusterIP, NodePort, LoadBalancer and Ingress</li>
+<li><a href="https://medium.com/slalom-build/managing-ingress-traffic-on-kubernetes-platforms-ebd537cdfb46">medium.com/slalom-build: Managing Ingress Traffic on Kubernetes Platforms 🌟</a> <strong>Why you need an Ingress and how to pick the right one</strong></li>
+<li><a href="https://craig-godden-payne.medium.com/how-does-ingress-work-in-kubernetes-f3b121d0351f">craig-godden-payne.medium.com: How does ingress work in Kubernetes?</a> And how to set up ingress in minikube</li>
+<li><a href="https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes/">dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes</a> In this article, you will learn how Calico sets up pod routes between Kubernetes nodes. In this post, you won&rsquo;t use containers or pods. You&rsquo;ll learn by creating network namespaces and virtual ethernet devices manually.</li>
+<li><a href="https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress/"><mark>home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress</mark> 🌟🌟🌟</a></li>
+<li><a href="https://sanjimoh.medium.com/demystifying-kubernetes-networking-episode-1-ca5605a97f87">sanjimoh.medium.com: Demystifying Kubernetes Networking — Episode 1</a> In this series of articles you will learn about Kubernetes networking:<ul>
+<li>Linux namespaces and Networking namespace</li>
+<li>Intra pod networking &amp; pause container</li>
+<li>Kubernetes networking model</li>
+</ul>
+</li>
+<li><a href="https://dev.to/imjoseangel/tune-up-your-kubernetes-application-performance-with-a-small-dns-configuration-1o46"><mark>dev.to: Tune up your Kubernetes Application Performance with a small DNS Configuration</mark></a></li>
+<li><a href="https://medium.com/@mehmetodabashi/kubernetes-networking-and-service-object-understanding-clusterip-and-nodeport-with-hands-on-study-90cfeaf66e8c">medium.com/@mehmetodabashi: Kubernetes networking and service object: Understanding ClusterIp and nodePort with hands on study</a></li>
+<li><a href="https://medium.com/@jasonmfehr/inspecting-kubernetes-client-to-api-server-network-traffic-cd6d1802bb43">medium.com/@jasonmfehr: Inspecting Kubernetes Client to API Server Network Traffic</a></li>
+<li><a href="https://medium.com/geekculture/k8s-network-cni-introduction-b035d42ad68f">medium.com/geekculture: K8s Network — CNI Introduction</a> Introduction to K8s container network interface</li>
+<li><a href="https://medium.com/patilswapnilv/getting-started-with-kubernetes-networking-7e10623fc78f"><mark>medium.com/patilswapnilv: Getting Started with Kubernetes Networking</mark> 🌟</a> <strong>In this article, you will examine Kubernetes networking with the help of 10 detailed diagrams</strong></li>
+<li><a href="https://faun.pub/kubernetes-ingress-with-nginx-3c77e703e91a"><mark>faun.pub: Kubernetes Ingress with Nginx</mark></a> How to install and secure Nginx Ingress</li>
+<li><a href="https://medium.com/codex/access-application-externally-in-kubernetes-cluster-using-load-balancer-service-d1b7858d51">medium.com/codex: Access Application Externally In Kubernetes Cluster using Load Balancer Service</a> Learn how to create a Pod and how to create a Load Balancer service using Kubernetes cluster. And access the application from outside.</li>
+<li><a href="https://itnext.io/inspecting-and-understanding-service-network-dfd8c16ff2c5">itnext.io: Inspecting and Understanding k8s Service Network 🌟</a></li>
+<li><a href="https://ovidiuborlean.medium.com/networking-latency-measurement-in-kubernetes-with-sockperf-plugin-68283a0ed989">ovidiuborlean.medium.com: Networking latency measurement in Kubernetes with Sockperf plugin</a></li>
+<li><a href="https://itnext.io/kubernetes-network-deep-dive-7492341e0ab5">itnext.io: Kubernetes networking deep dive: Did you make the right choice?</a> Kubernetes networking design can be intimidating, especially when you are the one to make decisions for cluster-level network choices. In this session, we will discuss how these choices will affect cluster routing and load balancing, focusing on KubeProxy modes(iptables vs IPVS) and network solutions.</li>
+<li><a href="https://medium.com/@muhidabid.cs/why-does-kubernetes-need-ingress-73d969fb6ffe">medium.com/@muhidabid.cs: Why does Kubernetes need Ingress?</a> - <a href="https://muhidabid.hashnode.dev/why-does-kubernetes-need-ingress">muhidabid.hashnode.dev: Why does Kubernetes need Ingress?</a></li>
+<li><a href="https://blog.devgenius.io/k8s-ipvs-mode-introduction-6457a02cd91a">blog.devgenius.io: K8s — ipvs Mode Introduction</a></li>
+<li><a href="https://www.edureka.co/blog/kubernetes-networking/"><mark>edureka.co: Kubernetes Networking – A Comprehensive Guide To The Networking Concepts In Kubernetes</mark></a></li>
+<li><a href="https://whyk8s.substack.com/p/why-not-dns">whyk8s.substack.com: Why not DNS?</a> Why is KubeProxy necessary? Couldn&rsquo;t simple DNS records do the job? You do a DNS lookup on my-service in Kubernetes. You do NOT get back IPs for pods that provide that Service. Have you ever wondered why?</li>
+<li><a href="https://medium.com/geekculture/kubernetes-gateway-api-the-intro-you-need-to-read-80965f7acd82">medium.com/geekculture: Kubernetes Gateway API: The Intro You Need To Read</a> In this article, you&rsquo;ll learn how to deploy k3s to a Raspberry Pi cluster with ClusterHat and ClusterCTRL</li>
+<li><a href="https://ksingh7.medium.com/kubernetes-endpoint-object-your-bridge-to-external-services-3fc48263b776"><mark>ksingh7.medium.com: Kubernetes Endpoint Object: Your Bridge to External Services</mark> 🌟🌟</a> Chances are that you might want to access services external to the cluster, such as a database. In this article, you will learn how to create an endpoint manually to make an external database available to the Pods in the cluster.</li>
+<li><a href="https://medium.com/@ahmet16ck/what-is-load-balancer-and-how-does-it-work-in-kubernetes-5ab5f0537069">medium.com/@ahmet16ck: What Is Load Balancer and How Does It Work In Kubernetes ? 🌟</a></li>
+<li><a href="https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas">api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?</a> In this article, you&rsquo;ll explore the challenges of deploying large numbers of Pods in your Kubernetes cluster. You&rsquo;ll also compare Endpoints and EndpointSlice and discuss how to enable EndpointSlice when installing APISIX Ingress.</li>
+<li><a href="https://medium.com/illuminations-mirror/basic-networking-and-communication-between-pods-in-kubernetes-2e1627b03a87">medium.com/illuminations-mirror: Basic | Networking and Communication Between Pods in Kubernetes</a></li>
+<li><a href="https://blog.devops.dev/networking-in-kubernetes-55dcf794b9cd">blog.devops.dev: Networking in Kubernetes</a> In this blog post, we’re going to delve into the world of Kubernetes networking and explore the many components that make it such a powerful and reliable platform for modern containerized applications. lets discover the essential networking components that make Kubernetes the go-to choice for cloud-native deployments!</li>
+<li><a href="https://medium.com/@mustafaaltunok/how-ingress-service-deployment-and-pod-link-to-eachother-d3a6ae2c0e06">medium.com/@mustafaaltunok: How Ingress, Service, Deployment and Pod Link to each other</a> In Kubernetes domain, deployment of an app consists of mainly three components. From outer to inner.</li>
+<li><a href="https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html">inlets.dev: How to Get Ingress for Private Kubernetes Clusters</a> By design, local Kubernetes clusters are inaccessible from the internet. So how can we fix that if we want to use Ingress? What are the options for getting a public IP or LoadBalancer for local Kubernetes clusters? I cover use-cases and compare port-forwarding, Ngrok, Wireguard and inletsdev</li>
+<li><a href="https://blog.devops.dev/demystifying-kubernetes-understanding-ingress-configuration-and-best-practices-fb34e33e5f5f">blog.devops.dev: Demystifying Kubernetes:Understanding Ingress, Configuration, and Best Practices</a> A comprehensive overview of Kubernetes, the basics of ingress and how to configure it to expose services within K8s cluster.</li>
+<li><a href="https://dev.to/narasimha1997/communication-between-microservices-in-a-kubernetes-cluster-1n41"><mark>dev.to/narasimha1997: Communication between Microservices in a Kubernetes cluster</mark> 🌟</a> <strong>This article discusses the various ways in which microservices in Kubernetes can communicate with each other. It provides an example of two pods, one acting as an HTTP web server and the other as a curl client that makes a request to the web server.</strong></li>
+<li><a href="https://medium.com/google-cloud/kubernetes-ingress-vs-gateway-api-647ee233693d"><mark>medium.com/google-cloud: Kubernetes Ingress Vs Gateway API</mark> 🌟</a> Understanding the Differences between Kubernetes Ingress and Gateway API for Effective Traffic Management</li>
+<li><a href="https://medium.com/nerd-for-tech/kubernetes-deploying-nginx-with-a-configmap-e8a2fe59bcb1">medium.com/nerd-for-tech: Kubernetes: Deploying NGINX with a ConfigMap | Chanel Jemmott</a></li>
+<li><a href="https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-1-service-abe1c5b03fc">medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part I. Service | Brandon Kang</a><ul>
+<li><a href="https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-2-ingress-18f44a712690">medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part II. Ingress | Brandon Kang</a></li>
+</ul>
+</li>
+<li><a href="https://shahneil.medium.com/what-are-kubernetes-endpoints-and-how-to-use-them-a5a5da56f4d4"><mark>shahneil.medium.com: What Are Kubernetes Endpoints?</mark></a></li>
+<li><a href="https://fr4nk.xyz/understanding-ingress-in-kubernetes-a-comprehensive-guide-b23b5cf37f8d"><mark>fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide</mark></a> <strong>Kubernetes Ingress plays a crucial role in managing external access to services within a cluster.</strong></li>
+<li><a href="https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud/">thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud</a> Otterize offers intent-based access control and secure connectivity management within clusters and across the cloud.</li>
+<li><a href="https://blog.palark.com/comparing-ingress-controllers-for-kubernetes/">blog.palark.com: Comparing Ingress controllers for Kubernetes</a></li>
+<li><a href="https://community.ops.io/danielepolencic/learning-how-an-ingress-controller-works-by-building-one-in-bash-3fni"><mark>community.ops.io: Kubernetes Ingress Controller. How does it work?=</mark></a> Learning how an ingress controller works by building one in bash.</li>
+<li><a href="https://medium.com/@rasikzilte711/kubernetes-networking-a-guide-to-services-ingress-network-policies-dns-and-cni-plugins-fc1ad7d22ab4">medium.com/@rasikzilte711: Kubernetes Networking — A Guide to Services, Ingress, Network Policies, DNS, and CNI Plugins</a></li>
+<li><a href="https://sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer/">sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer</a> Your Kubernetes Pods have internal IPs, but can since Pods are created and destroyed, can you rely on those? Discover services and their types: ClusterIP, NodePort and LoadBalancer</li>
+<li><a href="https://medium.com/codex/capture-tcpdump-with-ksniff-and-wireshark-from-kubernetes-c212b93ff9f9">medium.com/codex: Capture tcpdump with ksniff and wireshark from Kubernetes</a> In Kubernetes, there are many ways to deploy and run apps, such as pods, services, and more. Tcpdump can be used to capture network traffic between these components, helping to identify network issues and diagnose problems.</li>
+<li><a href="https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html">cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences</a></li>
+<li><a href="https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html">matthewpalmer.net: Kubernetes Networking Guide for Beginners</a></li>
+<li><a href="https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572">itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond</a></li>
+<li><a href="https://adil.medium.com/network-traffic-shaping-in-kubernetes-topology-aware-routing-e4ea4a03dd20">adil.medium.com: Network Traffic Shaping in Kubernetes: Topology Aware Routing</a><ul>
+<li>One challenge in cloud-distributed systems is keeping network traffic within the same availability zone</li>
+<li>Kubernetes introduced Topology Aware Routing to address this issue</li>
+<li>This ensures requests between apps remain in the same zone</li>
+</ul>
+</li>
+<li><a href="https://otterize.com/blog/mastering-kubernetes-networking-otterize-s-journey-in-cloud-native-packet-management">otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management</a> Master Kubernetes networking with a comprehensive packet walk, and learn how Otterize helps build adaptive Network Policies.</li>
+</ul>
+<h2 id="kubernetes-dns">Kubernetes DNS</h2>
+<h2 id="kubernetes-services-and-load-balancing">Kubernetes Services and Load Balancing</h2>
 <ul>
-<li><a href="api.html">APIs with SOAP, REST and gRPC 🌟</a></li>
-<li><a href="swagger-code-generator-for-rest-apis.html">Swagger code generator for REST APIs</a></li>
-<li><a href="postman.html">API Test Automation with Postman and REST Assured</a></li>
-<li><a href="developerportals.html">API Marketplaces. API Management with API Gateways &amp; Developer Portals 🌟</a></li>
+<li><a href="https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/">Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs</a> 🌟 - This post delves into the integration of Azure Application Gateway for Containers (AGC) with Azure Kubernetes Service (AKS) when using the overlay network option. It explores how AGC interacts with pods using non-routable IP addresses and examines the feasibility of using VNet Flow Logs to monitor traffic between AGC and AKS.</li>
+<li><a href="https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/">Introduction to Azure Application Gateway for Containers (AGC)</a> - <em>(Related to azure topic)</em></li>
+<li>
+<p><a href="https://learnkube.com/kubernetes-services-and-load-balancing">Kubernetes Services and Load Balancing Explained</a> 🌟 - An in-depth exploration of Kubernetes networking, focusing on Services, kube-proxy, and load balancing mechanisms. The article details how pods communicate within a cluster, the role of Services in directing traffic, and managing external access. It covers ClusterIP, NodePort, and LoadBalancer service types, their implementation via iptables, and advanced topics like preserving source IPs, handling terminating endpoints, and integrating with cloud load balancers. The content is illustrated with a practical example of deploying a two-tier application.</p>
+</li>
+<li>
+<p><a href="https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide/">blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide</a> Kubernetes DNS service allows you to contact services with consistent DNS names instead of IP addresses.</p>
+</li>
 </ul>
-<h2 id="development-frameworks">Development &amp; Frameworks</h2>
+<h2 id="tcp-keep-alive-requests">TCP Keep Alive Requests</h2>
 <ul>
-<li><a href="devel-sites.html">Websites for web developers</a></li>
-<li><a href="angular.html">Angular</a></li>
-<li><a href="dom.html">Document Object Model (DOM)</a></li>
-<li><a href="golang.html">Golang</a></li>
-<li><a href="javascript.html">JavaScript - node.js &amp; npm</a></li>
-<li><a href="python.html">Python - Django &amp; Flask</a></li>
-<li><a href="react.html">React</a></li>
-<li><a href="lowcode-nocode.html">Low Code and No Code</a></li>
-<li><a href="web3.html">Web3</a></li>
+<li><a href="https://kuderko.medium.com/fixing-bad-cpu-usage-distribution-in-kubernetes-e1e43ed87cd6">kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟</a> In this article, you will learn how TCP keep-alive requests could hurt horizontal scaling for your pods. You will also discuss the workarounds you can apply to your apps or web servers.</li>
 </ul>
-<h3 id="microsoft">Microsoft</h3>
+<h2 id="headless-kubernetes-service">Headless Kubernetes Service</h2>
 <ul>
-<li><a href="dotnet.html">Microsoft .NET</a></li>
-<li><a href="xamarin.html">Microsoft Xamarin</a></li>
+<li><a href="https://medium.com/@bubu.tripathy/headless-k8s-service-924c689607a7">medium.com: Headless Kubernetes Service</a> A headless service in Kubernetes can be a useful tool for creating distributed applications. It allows you to directly access the individual pods in a service. This is useful in scenarios where you need to perform complex load-balancing. A headless service does not have a cluster IP assigned to it. Instead of providing a single virtual IP address for the service, a headless service creates a DNS record for each pod associated with the service. These DNS records can then be used to directly address each pod. Here’s a high-level overview of how a headless service works:<ul>
+<li>A headless service is created in Kubernetes</li>
+<li>Pods are associated with the service through labels</li>
+<li>DNS records are created for each pod associated with the service</li>
+<li>Clients can use the DNS records to directly access each pod</li>
 </ul>
-<h3 id="java">Java</h3>
+</li>
+<li><a href="https://www.goglides.dev/bkpandey/headless-services-in-kubernetes-what-why-and-how-39fl">goglides.dev: Headless services in Kubernetes Vs Regular Service: What, Why, and How?</a></li>
+</ul>
+<h2 id="networkpolicy">NetworkPolicy</h2>
 <ul>
-<li><a href="java_frameworks.html">Java &amp; Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more</a></li>
-<li><a href="java-and-java-performance-optimization.html">Java Memory Management &amp; Java Performance Optimization</a></li>
-<li><a href="jvm-parameters-matrix-table.html">Java Parameters Matrix Table</a></li>
+<li><a href="https://opensource.com/article/21/10/kubernetes-networkpolicy">opensource.com: What you need to know about Kubernetes NetworkPolicy</a> Understanding Kubernetes NetworkPolicy is one of the fundamental requirements to learn before deploying an application to Kubernetes.</li>
+<li><a href="https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce">itnext.io: CKAD Scenarios about Ingress and NetworkPolicy</a> In-Browser CKAD Scenarios about Ingress and NetworkPolicies.<ul>
+<li><a href="https://editor.cilium.io"><mark>editor.cilium.io</mark> 🌟🌟🌟</a> <strong>For learning, you can use the amazing NetworkPolicy Editor at cilium.</strong></li>
 </ul>
-<h3 id="dev-environment">Dev Environment</h3>
+</li>
+<li><a href="https://whyk8s.substack.com/p/why-networkpolicies">whyk8s.substack.com: Why NetworkPolicies?</a> Is Kubernetes networking insecure by default? Why was it built that way?</li>
+<li><a href="https://yuminlee2.medium.com/kubernetes-network-policies-a93c2f588e31">yuminlee2.medium.com: Kubernetes Network Policies</a></li>
+<li><a href="https://bagas-awibowo.medium.com/helm-templating-network-policy-using-helm-783b2f7e401a"><mark>bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm</mark></a></li>
+</ul>
+<h2 id="nginx-ingress-controller">Nginx Ingress Controller</h2>
 <ul>
-<li><a href="visual-studio.html">Visual Studio Code 🌟</a></li>
-<li><a href="linux-dev-env.html">WSL: Linux Dev Environment on Windows</a></li>
-<li><a href="scaffolding.html">Scaffolding Tools</a></li>
-<li><a href="ChromeDevTools.html">Chrome &amp; Firefox DevTools. HTTP Protocols &amp; WebSockets</a></li>
+<li><a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a> - InGate was an Ingress and Gateway API controller for Kubernetes, developed by the kubernetes-sigs organization. It aimed to provide advanced traffic management capabilities for Kubernetes clusters. The project has been archived and is recommended for migration to the Gateway API.</li>
+<li>
+<p><a href="https://traefik.io/blog/transition-from-ingress-nginx-to-traefik">Transitioning from ingress-nginx to Traefik in Kubernetes</a> 🌟 - This article discusses the challenges and strategies for migrating Kubernetes ingress traffic from ingress-nginx to Traefik, especially in light of ingress-nginx entering maintenance mode. It highlights Traefik&rsquo;s modern approach and features as a viable alternative for managing cloud-native API gateways.</p>
+</li>
+<li>
+<p><a href="https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html">blog.teamhephy.info: Learn how to use the Nginx Ingress controller to serve traffic over SSH with TCP load balancing</a></p>
+</li>
+<li><a href="https://www.nginx.com/blog/guide-to-choosing-ingress-controller-part-4-nginx-ingress-controller-options/">nginx.com: A Guide to Choosing an Ingress Controller, Part 4: NGINX Ingress Controller Options</a></li>
+<li><a href="https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v1.0.0">NGINX Ingress Controller - v1.0.0</a> NGINX Ingress Controller v1.0.0 released today! The biggest change is the support to stable/v1 ingress object, and dropping support to v1beta1.</li>
+<li><a href="https://amy-ma.medium.com/ingress-configuration-d9f13c5bcf1a">amy-ma.medium.com: Nginx Ingress Configuration</a> Configure NGINX basic routing with TLS on HPCC. This tutorial provides steps on how to set up basic routing for ECLWatch with the NGINX Ingress controller and configure certificates using Cert-Manager.</li>
+<li><a href="https://devopscube.com/setup-ingress-kubernetes-nginx-controller/">devopscube.com: How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide 🌟</a></li>
+<li><a href="https://medium.com/@jonathan_37674/how-to-secure-kubernetes-ingress-by-armo-cb86086ec540">medium.com/@jonathan_37674: How to secure Kubernetes ingress? | By ARMO</a></li>
+<li><a href="https://www.nginx.com/blog/automating-multi-cluster-dns-with-nginx-ingress-controller">nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller</a></li>
+<li><a href="https://engineering.backmarket.com/how-we-improved-third-party-availability-and-latency-with-nginx-in-kubernetes-bb3fc7224ae4"><mark>engineering.backmarket.com: How we improved third-party availability and latency with Nginx in Kubernetes</mark> 🌟</a> Introducing a gateway to cache your third-party API can significantly improve its performance and stability. In this case study, you will discover how the team at Back Market configured NGINX in Kubernetes to improve third-party API availability and latency.</li>
+<li><a href="https://towardsdev.com/kubernetes-deploying-nginx-servers-with-configmaps-shared-services-with-minikube-618aee9a8ff6">towardsdev.com: Kubernetes: Deploying Nginx Servers with ConfigMaps &amp; Shared Services with Minikube</a></li>
+<li><a href="https://faun.pub/how-to-monitor-and-alert-on-nginx-ingress-in-kubernetes-6d7d172f0399">faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes</a></li>
+<li><a href="https://sumanprasad.hashnode.dev/a-beginners-guide-to-ingress-and-ingress-controllers-in-kubernetes">sumanprasad.hashnode.dev: A Beginner&rsquo;s Guide to Ingress and Ingress Controllers in Kubernetes</a></li>
+<li><a href="https://akyriako.medium.com/configure-path-based-routing-with-nginx-ingress-controller-64a63cd4d6bd">akyriako.medium.com: Configure path-based routing with Nginx Ingress Controller</a></li>
+<li><a href="https://mattias.engineer/k8s/ingress/"><mark>mattias.engineer: Kubernetes-101: Ingress</mark> 🌟</a> The article provides an in-depth guide on the Ingress resource. It explains that Ingress offers more functionalities than a Service, enabling multiple routing rules for different Services. It also touches upon HTTPS traffic with TLS certificates.</li>
 </ul>
-<h2 id="qatestops-continuous-testing">QA/TestOps - Continuous Testing</h2>
+<h2 id="contour-ingress-controller">Contour Ingress Controller</h2>
 <ul>
-<li><a href="qa.html">QA</a></li>
-<li><a href="testops.html">TestOps and Continuous Testing</a></li>
-<li><a href="test-automation-frameworks.html">Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more</a></li>
+<li><a href="https://trstringer.com/kubernetes-ingress-with-contour/">trstringer.com: Kubernetes Ingress with Contour</a></li>
 </ul>
-<h2 id="ai">AI</h2>
+<h2 id="kubernetes-gateway-api">Kubernetes Gateway API</h2>
 <ul>
-<li><a href="ai.html">AI</a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="chatgpt.html">ChatGPT</a></li>
+<li>
+<p><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a> 🌟 - The Kubernetes Gateway API is a collection of APIs that model service networking in Kubernetes. It aims to provide a more expressive, role-oriented, and extensible successor to the Kubernetes Ingress API, enabling advanced traffic management, routing, and load balancing capabilities.</p>
+</li>
+<li>
+<p><a href="https://gateway-api.sigs.k8s.io/"><mark>gateway-api.sigs.k8s.io</mark> 🌟</a> Gateway API is an open source project managed by the SIG-NETWORK community. It&rsquo;s is a collection of resources that model service networking in Kubernetes. These resources - GatewayClass,Gateway, HTTPRoute, TCPRoute, Service, etc - aim to evolve Kubernetes service networking through expressive, extensible, and role-oriented interfaces that are implemented by many vendors and have broad industry support.</p>
+</li>
+<li><a href="https://kubernetes.io/blog/2021/04/22/evolving-kubernetes-networking-with-the-gateway-api/">kubernetes.io: Evolving Kubernetes networking with the Gateway API</a></li>
+<li><a href="https://thenewstack.io/unifying-kubernetes-service-networking-again-with-the-gateway-api/">thenewstack.io: Unifying Kubernetes Service Networking (Again) with the Gateway API 🌟</a> The <a href="https://gateway-api.sigs.k8s.io/">Gateway API</a>, formerly known as the Services API and before that Ingress V2, was first discussed in detail — and in-person — at Kubecon 2019 in San Diego. There were already many well-known and <a href="https://dave.cheney.net/paste/ingress-is-dead-long-live-ingressroute.pdf">well-documented</a> limitations of Ingress and Kubernetes networking APIs. The <a href="https://www.youtube.com/watch?v=GiFQNevrxYA">Gateway API</a> was intended as a redo of these APIs, built on the lessons from Services, Ingress and the service mesh community.</li>
+<li><a href="https://blog.flomesh.io/kubernetes-gateway-api-evolution-of-service-networking-aa76ec4efa7e">blog.flomesh.io: Kubernetes Gateway API — Evolution of Service Networking</a></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-gateway-api/"><mark>armosec.io: The New Kubernetes Gateway API and Its Use Cases</mark></a></li>
+<li><a href="https://medium.com/google-cloud/security-with-kubernetes-gateway-api-dcbb934ed2a4">medium.com/google-cloud: Security with Kubernetes Gateway API 🌟</a></li>
+<li><a href="https://navendu.me/posts/gateway-vs-ingress-api/">navendu.me: Comparing Kubernetes Gateway and Ingress APIs</a> In this article, you will explore the new Kubernetes Gateway API and compare it with the existing Kubernetes Ingress API for handling external traffic</li>
 </ul>
-<h2 id="project-management-methodology">Project Management Methodology</h2>
+<h2 id="kube-proxy">Kube-proxy</h2>
 <ul>
-<li><a href="project-management-methodology.html">Project Management Methodology</a></li>
-<li><a href="project-management-tools.html">Project Management Tools</a></li>
-<li><a href="appointment-scheduling.html">Appointment Scheduling</a></li>
-<li><a href="workfromhome.html">Work From Home</a></li>
+<li>
+<p><a href="https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/">NFTables mode for kube-proxy in Kubernetes</a> 🌟 - This article introduces the new nftables mode for kube-proxy, an alpha feature in Kubernetes 1.29 that is currently in beta and expected to reach General Availability (GA) in version 1.33. The new mode addresses long-standing performance issues associated with the iptables mode, particularly for large Kubernetes clusters with numerous Services. It leverages the capabilities of nftables to improve data plane latency by providing a more scalable and efficient way to handle Service proxying compared to the traditional iptables approach. The article encourages users with recent kernels to try out this new mode.</p>
+</li>
+<li>
+<p><a href="https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods">dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods</a> In this article you will learn how Kubernetes&rsquo;s kube-proxy uses iptables to direct traffic to pods randomly. You&rsquo;ll focus on the ClusterIP type of Kubernetes services.</p>
+</li>
+<li><a href="https://arthurchiao.art/blog/cracking-k8s-node-proxy/">arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)</a> This post analyzes the Kubernetes node proxy model, and provides 5 demo implementations (within couples of lines of code) of the model, each based on different tech-stacks (userspace/iptables/ipvs/tc-ebpf/sock-ebpf).</li>
 </ul>
-<h2 id="more-references">More References</h2>
+<h2 id="multicloud-communication-for-kubernetes">Multicloud communication for Kubernetes</h2>
 <ul>
-<li><a href="other-awesome-lists.html">Other Awesome Lists 🌟</a></li>
-<li><a href="interview-questions.html">Interview Questions</a></li>
-<li><a href="newsfeeds.html">Forums and Communities</a></li>
-<li><a href="elearning.html">E-Learning</a></li>
-<li><a href="digital-money.html">Digital Money</a></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841">Introducing Subnet Peering in Azure</a> - <em>(Related to azure topic)</em></li>
+<li>
+<p><a href="https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link/">Private Link Reality Bites: Service Endpoints vs Private Link</a> - This blog post explores the differences and commonalities between Azure VNet Service Endpoints and Azure Private Link, addressing common confusion among organizations, especially those who adopted service endpoints before Private Link&rsquo;s release. It provides context by tracing the evolution from public IP access to the introduction of service endpoints and then Private Link for Azure services.</p>
+</li>
+<li>
+<p><a href="https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters/">developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters 🌟</a> - <a href="https://skupper.io/">skupper.io</a> Multicloud communication for Kubernetes. Skupper is a layer 7 service interconnect. It enables secure communication across Kubernetes clusters with no VPNs or special firewall rules. With Skupper, your application can span multiple cloud providers, data centers, and regions.</p>
+</li>
 </ul>
-<h2 id="hiring-and-freelancing">Hiring and Freelancing</h2>
+<h2 id="multi-cluster-kubernetes-networking">Multi-Cluster Kubernetes Networking</h2>
 <ul>
-<li><a href="recruitment.html">Recruitment</a></li>
-<li><a href="hr.html">Human Resources</a></li>
-<li><a href="freelancing.html">Freelancing</a></li>
-<li><a href="remote-tech-jobs.html">Remote Tech Jobs</a></li>
+<li><a href="https://itnext.io/multi-cluster-kubernetes-networking-with-netmaker-bfa4e22eb2fb">itnext.io: Multi-Cluster Kubernetes Networking with Netmaker</a><ul>
+<li><a href="https://github.com/gravitl/netmaker">NetMaker</a> Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.</li>
 </ul>
-<h2 id="customer-success-stories">Customer Success Stories</h2>
+</li>
+</ul>
+<h2 id="kubernetes-network-policy">Kubernetes Network Policy</h2>
 <ul>
-<li><a href="customer.html">Customer Success Stories</a></li>
+<li><a href="https://www.howtoforge.com/kubernetes_network_policy/">howtoforge.com: Network Policy in Kubernetes 🌟</a> By default, pods accept traffic from any source. A network policy helps to specify how a group of pods can communicate with each other and other network endpoints.</li>
+<li><a href="https://medium.com/avmconsulting-blog/exploring-network-policies-in-kubernetes-c8a3d8ed00cb">medium: How to Provision Network Policies in Kubernetes | AWS 🌟</a></li>
+<li><a href="https://www.learncloudnative.com/blog/2020-10-07-network-policies">learncloudnative.com: Kubernetes Network Policy</a></li>
+<li><a href="https://www.bionconsulting.com/blog/kubernetes-network-policies">bionconsulting.com: Kubernetes Network Policies</a><ul>
+<li><a href="https://www.bionconsulting.com/blog/kubernetes-network-policies-part-2">bionconsulting.com: Kubernetes Network Policies - Part 2</a></li>
 </ul>
-<hr />
+</li>
+<li><a href="https://thenewstack.io/the-kubernetes-network-security-effect/">thenewstack.io: The Kubernetes Network Security Effect 🌟</a> Kubernetes has a built-in object for managing network security: NetworkPolicy. While it allows the user to define the relationship between pods with ingress and egress policies, it is basic and requires very precise IP mapping of a solution — which changes constantly, so most users I’ve talked to are not using it.</li>
+<li><a href="https://faun.pub/control-traffic-flow-to-and-from-kubernetes-pods-with-network-policies-bc384c2d1f8c">faun.pub: Control traffic flow to and from Kubernetes pods with Network Policies</a></li>
+<li><a href="https://www.openshift.com/blog/network-policies-controlling-cross-project-communication-on-openshift">openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift</a></li>
+<li><a href="https://loft-sh.medium.com/kubernetes-network-policies-a-practitioners-guide-c9bb4cdd0dbc">loft-sh.medium.com: Kubernetes Network Policies: A Practitioner’s Guide 🌟</a></li>
+<li><a href="https://loft.sh/blog/kubernetes-network-policies-a-practitioners-guide">loft.sh: Kubernetes Network Policies: A Practitioner&rsquo;s Guide 🌟</a></li>
+<li><a href="https://medium.com/codex/kubernetes-network-polices-are-they-really-useful-c3a153c49316">medium: Kubernetes Network Policies: Are They Really Useful? 🌟</a></li>
+<li><a href="https://loft.sh/blog/kubernetes-network-policies-for-isolating-namespaces">loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟</a></li>
+<li><a href="https://arthurchiao.art/blog/cracking-k8s-network-policy/">arthurchiao.art: Cracking Kubernetes Network Policy</a> This post digs into the Kubernetes NetworkPolicy model, then designs a policy enforcer based on the technical requirements and further implements it with less than 100 lines of eBPF code. Hope that after reading through this post, readers will get a deeper understanding on how network policies are enforced in the underlying.</li>
+<li><a href="https://engineering.mercari.com/en/blog/entry/20220214-managing-network-policies/">engineering.mercari.com: Managing Network Policies for namespaces isolation on a multi-tenant Kubernetes cluster</a> This post outlines how to implement an abstraction over network policies in a multi-tenant Kubernetes cluster instead of directly exposing raw YAML-based manifests for better usability and verifiability</li>
+<li><a href="https://blog.devgenius.io/kubernetes-namespace-wide-network-policy-1126fafdf221">blog.devgenius.io: Simplify Kubernetes Network Policy Generation</a></li>
+<li><a href="https://blog.slycreator.com/network-policies-understanding-kubernetes-network-policies">blog.slycreator.com: Network Policies: Understanding Kubernetes Network Policies</a> This article explores the fundamental concepts, syntax, semantics, and implementation considerations associated with Network Policies. It also delves into best practices and real-world examples to illustrate their practical application and benefits.</li>
+</ul>
+<h3 id="cilium">Cilium</h3>
+<ul>
+<li><a href="https://cilium.io/">cilium.io 🌟</a> eBPF-based Networking, Observability, and Security</li>
+<li><a href="https://cilium.io/blog/2021/02/10/network-policy-editor">cilium.io: NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies 🌟</a></li>
+<li><a href="https://editor.cilium.io/">editor.cilium.io 🌟</a> Learn how to create Network Policies for Kubernetes using an interactive playground</li>
+<li><a href="https://buoyant.io/2020/12/23/kubernetes-network-policies-with-cilium-and-linkerd">buoyant.io: Kubernetes network policies with Cilium and Linkerd</a></li>
+<li><a href="https://itnext.io/installing-cilium-on-kubernetes-in-a-fast-and-efficient-way-dbcb79ce9699">itnext.io: Installing Cilium on Kubernetes in a fast and efficient way</a></li>
+<li><a href="https://cilium.io/blog/2021/05/11/cni-benchmark">cilium.io: CNI Benchmark: Understanding Cilium Network Performance</a></li>
+<li><a href="https://www.cockroachlabs.com/blog/cockroachdb-kubernetes-cilium/">cockroachlabs.com: How to use Cluster Mesh for Multi-Region Kubernetes Pod Communication</a><ul>
+<li>Thanks to services provided by AWS, GCP, and Azure it’s become relatively easy to develop applications that span multiple regions. This is great because slow apps kill businesses. There is one common problem with these applications: they are not supported by multi-region database architecture.</li>
+<li>CockroachDB is built to solve that problem and we’re doing it in production for many applications today. But that’s not what this blog is about. In this blog, I will provide a solution for the problem of getting Kubernetes pods to talk to each other in multi-region deployments.</li>
+</ul>
+</li>
+<li><a href="https://cilium.io/blog/2021/05/20/cilium-110">cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more</a> Traditional workloads have a fixed and unique IP that can be recognized by a firewall. Traffic coming from a containerized application will come from many different IPs. How can you fix that?
+Cilium allows users to specify an egress NAT policy</li>
+<li><a href="https://medium.com/@charled.breteche/kubernetes-security-control-pod-to-pod-communications-with-cilium-network-policies-d7275b2ed378">medium.com/@charled.breteche: Kubernetes Security — Control pod to pod communications with Cilium network policies</a> In this article, you&rsquo;ll explore Cilium network policies and how you can use them to control pod to pod communications on a 3 nodes and 3 masters cluster. You will also use Hubble to visualise the effect of the network policies in your cluster.</li>
+<li><a href="https://www.solo.io/blog/exploring-cilium-layer-7-capabilities-compared-to-istio/">solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio</a></li>
+<li><a href="https://betterprogramming.pub/k8s-network-policy-made-simple-with-cilium-editor-a5b55781291c">betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor 🌟</a> An intuitive graphical tool to define complex network policies</li>
+</ul>
 <center>
 
-[![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
-[![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform/) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/>
-[![dzone videos](images/dzone_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dzone/) [![prometheus videos](images/prometheus_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PrometheusIo) [![grafana videos](images/grafana_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Grafana) [![istio videos](images/istio_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Istio) [![elastic videos](images/elasticsearch_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Elastic) [![dynatrace videos](images/dynatrace_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dynatrace) [![appdynamics videos](images/appdynamics_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/appdynamics) [![newrelic videos](images/newrelic_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/NewRelicInc) [![tigera calico](images/tigera_calico_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC8uN3yhpeBeerGNwDiQbcgw) [![weavecloud](images/weavecloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/WeaveWorksInc) [![lambdatest](images/lambdatest.jpg){: style="width:7%"}](https://www.youtube.com/c/LambdaTest)<br/>
-[![atlassian videos](images/atlassian_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Atlassian) [![vscode videos](images/vscode_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Code) [![github videos](images/github_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GitHub) [![gitlab video](images/gitlab_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitlab) [![gitkraken](images/gitkraken_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitkraken) [![rocketchat videos](images/rocket_chat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RocketChatApp) [![slack videos](images/slack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Slackhq) [![mattermost videos](images/mattermost_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MattermostHQ) [![microsoft365](images/microsoft_365_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/microsoft365) [![openproject](images/openproject_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenProjectCommunity) [![tetrate](images/tetrate_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Tetrate)<br/>
-[![rh devel](images/rh_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RedHatDevelopers) [![spring logo](images/spring-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Quarkusio) [![lightbend videos](images/lightbend_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Lightbend-TV) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/postman) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Smartbear) [![jfrog](images/jfrog_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/JFrogInc) [![sonatype](images/sonatype_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Sonatypeinc) [![sonarsource sonarqube](images/sonarsource_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GoogleChromeDevelopers) [![mozilla developer](images/mozilla_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MozillaDeveloper)<br/>
-[![crunchydata](images/crunchydata_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CrunchyDataPostgres) [![liquibase video](images/liquibase_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC5qMsRjObu685rTBq0PJX8w) [![cockroachdb](images/cockroachdb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cockroachdb) [![mongodb](images/mongodb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MongoDBofficial) [![redis](images/redis_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Redisinc) [![confluent video](images/confluent_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Confluent) [![kubemq video](images/kubemq_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCud7fErZAyMC6lHT_cWZNfA) [![openebs](images/openebs_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g) [![storageos](images/storageos_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCm63IQg81KP9vXRWSHQpu1w) [![robin](images/robin_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCt7N400Z8gB_3yKq1qrjP2w) [![portworx](images/portworx_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Portworx)<br/>
-[![cloud academy](images/cloud_academy_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Cloudacademy) [![acloudguru](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AcloudGuru) [![devops_tv](images/devops_tv_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/XebiaLabs) [![devops library](images/devops_library_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopslibrary) [![codecademy](images/codecademy.jpg){: style="width:7%"}](https://www.youtube.com/c/codecademy) [![coursera](images/coursera_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Academind) [![guru99](images/guru99_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/guru99comm) [![intellipaat](images/intellipaat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Intellipaat) [![cloud quick POCs](images/cloudquickpocs.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)<br/>
-[![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)<br/>
-[![london IAC](images/londonIAC.jpg){: style="width:7%"}](https://www.youtube.com/c/LondonIAC) [![techworld nana](images/techworld_nana.jpg){: style="width:7%"}](https://www.youtube.com/c/TechWorldwithNana) [![honeypot](images/honeypot.jpg){: style="width:7%"}](https://www.youtube.com/c/Honeypotio) [![Ali Spittel](images/aspittel.jpg){: style="width:7%"}](https://www.youtube.com/c/AliSpittelDev) [![thomas maurer](images/thomas_maurer.jpg){: style="width:7%"}](https://www.youtube.com/c/ThomasMaurerCloud) [![freecodecamp](images/freecodecamp.jpg){: style="width:7%"}](https://www.youtube.com/c/Freecodecamp) [![thenewstack](images/thenewstack.jpg){: style="width:7%"}](https://www.youtube.com/c/TheNewStack) [![argocd project](images/argoproj.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA) [![fluxcd](images/fluxcd.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA) [![container days](images/containerdays.jpg){: style="width:7%"}](https://www.youtube.com/c/ContainerDays) [![the cloud girl](images/thecloudgirl.jpg){: style="width:7%"}](https://www.youtube.com/c/priyankavergadia)<br/>
-[![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![tina huang](images/tinahuang.jpg){: style="width:7%"}](https://www.youtube.com/c/TinaHuang1) [![azure devops](images/azure_devops_youtube.jpg){: style="width:7%"}](https://www.youtube.com/c/AzureDevOps) [![azure cloud native](images/azure_cloud_native.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw) [![alibaba cloud](images/alibaba_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/AlibabaCloud) [![linode cloud](images/linode_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/linode) [![gaia-x](images/gaia_x.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCB5WMc2FfrxKzfd7XIODoMw) [![gps](images/gps.jpg){: style="width:7%"}](https://www.youtube.com/c/MadeByGPS) [![keptn](images/keptn_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/keptn) [![anais urlichs](images/anais_urlichs.jpg){: style="width:7%"}](https://www.youtube.com/c/AnaisUrlichs) [![the digital life](images/the_digital_life.jpg){: style="width:7%"}](https://www.youtube.com/c/TheDigitalLifeTech)<br/>
-[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![netbox](images/netboxlabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/@NetBoxLabs) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:7%"}](https://www.youtube.com/@ByteByteGo) [![dotcsv](images/dotcsv.jpg){: style="width:7%"}](https://www.youtube.com/@DotCSV) [![midulive](images/midulive.jpg){: style="width:7%"}](https://www.youtube.com/@midulive)
+<script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 </center>
 
-<details class="note">
-<summary>Top Videos &amp; Clips - Click to expand!</summary>
+<h3 id="kubernetes-network-policy-samples">Kubernetes Network Policy Samples</h3>
+<ul>
+<li><a href="https://github.com/ahmetb/kubernetes-network-policy-recipes"><mark>ahmetb/kubernetes-network-policy-recipes</mark> 🌟</a> Example recipes for Kubernetes Network Policies that you can just copy paste. This repository contains various use cases of Kubernetes Network Policies and sample YAML files to leverage in your setup. If you ever wondered how to drop/restrict traffic to applications running on Kubernetes, this is for you</li>
+</ul>
+<h2 id="kubernetes-ingress-specification">Kubernetes Ingress Specification</h2>
+<ul>
+<li>
+<p><a href="http://blog.aks.azure.com/2025/03/14/afd-aks-ingress-tls-approuting">Azure Front Door Integration with AKS Ingress for TLS and App Routing</a> 🌟 - This blog post details how to integrate Azure Front Door (AFD) with Azure Kubernetes Service (AKS) Ingress controller to handle TLS termination and application routing. It provides a technical walkthrough for setting up a more robust and scalable ingress solution for Kubernetes applications hosted on AKS.</p>
+</li>
+<li>
+<p><a href="https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/">Supporting the Evolving Ingress Specification in Kubernetes 1.18</a></p>
+</li>
+<li><a href="https://medium.com/faun/ingress-service-types-in-kubernetes-3e9b68b78307">medium: Ingress service types in Kubernetes 🌟</a></li>
+<li><a href="https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485"><mark>itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)</mark></a></li>
+</ul>
+<h2 id="xposer-kubernetes-controller-to-manage-ingresses">Xposer Kubernetes Controller To Manage Ingresses</h2>
+<ul>
+<li><a href="https://github.com/stakater/Xposer">Xposer 🌟</a> A Kubernetes controller to manage (create/update/delete) Kubernetes Ingresses based on the Service<ul>
+<li>Problem: We would like to watch for services running in our cluster; and create Ingresses and generate TLS certificates automatically (optional)</li>
+<li>Solution: Xposer can watch for all the services running in our cluster; Creates, Updates, Deletes Ingresses and uses certmanager to generate TLS certificates automatically based on some annotations.</li>
+</ul>
+</li>
+</ul>
+<h2 id="software-defined-ip-address-management-ipam">Software-Defined IP Address Management (IPAM)</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IP_address_management">IP Address Management (IPAM)</a></li>
+<li><a href="https://www.fusionlayer.com/products/ip-address-management-software-defined-ipam-infinity">fusionlayer.com: Software-Defined IP Address Management (IPAM)</a><ul>
+<li>Cloud computing and service automation are changing the way in which applications and data are being delivered and consumed. The existing 30-year-old networking model is failing to keep up with the automated service architectures and the Internet of Things (IoT) based on end-to-end automation.</li>
+<li><strong>To facilitate the migration to cloud-era computing, service providers and data centers must add networking into the automated service workflows.</strong> This requires agility and elasticity that traditional networking products are not designed to provide. As IT environments of tomorrow involve a plethora of orchestrators and controllers spinning up services and applications inside shared networks, they all must be managed and provisioned by a unified solution authoritative for all network-related information.</li>
+</ul>
+</li>
+</ul>
+<h2 id="cni-container-networking-interface">CNI Container Networking Interface</h2>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/">Kubernetes.io: Network Plugins</a></li>
+<li><a href="https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers/">rancher.com: Container Network Interface (CNI) Providers</a></li>
+<li><a href="https://github.com/containernetworking">github.com/containernetworking 🌟</a><ul>
+<li><a href="https://github.com/containernetworking/cni">CNI</a></li>
+</ul>
+</li>
+<li><a href="https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking">dzone: How to Understand and Set Up Kubernetes Networking 🌟</a> Take a look at this tutorial that goes through and explains the inner workings of Kubernetes networking, including working with multiple networks.</li>
+<li><a href="https://medium.com/@vikram.fugro/container-networking-interface-aka-cni-bdfe23f865cf">medium: Container Networking Interface aka CNI</a></li>
+<li><a href="https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-august-2020-6e1b757b9e49">itnext.io: Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network (Updated: August 2020)</a></li>
+</ul>
+<h3 id="list-of-existing-cni-plugins-ipam">List of existing CNI Plugins (IPAM)</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Kubernetes Networking</a></li>
+<li>Overlay Network plugins:<ul>
+<li><a href="https://github.com/coreos/flannel">Flannel</a></li>
+<li><a href="https://www.weave.works/docs/net/latest/overview/">Weave-net</a></li>
+</ul>
+</li>
+<li>Routed Network Plugins:<ul>
+<li><a href="https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud">AWS-VPC</a></li>
+<li><a href="https://www.kube-router.io/">kube-router</a></li>
+<li><a href="https://www.projectcalico.org/">Calico</a></li>
+<li><a href="https://github.com/vmware-tanzu/antrea">VMware-tanzu Antrea</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/IP_address_management">IPAM</a> modules:<ul>
+<li>dhcp</li>
+<li>host-local</li>
+</ul>
+</li>
+<li>Multi CNI plugins:<ul>
+<li><a href="https://github.com/nokia/danm">Damn</a></li>
+<li><a href="https://github.com/openshift/multus-cni">Multus</a></li>
+<li><a href="https://github.com/cni-genie/CNI-Genie">CNI-Genie</a></li>
+</ul>
+</li>
+</ul>
 <center>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/318elIq37PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rT4fJNbfe14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uQz0TpyJbE8?si=Ys-bXCWcoG-nDU1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=fJvBV63-mjQ6S-Ht&amp;list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+[![kubernetes sdn solutions](images/kubernetes_sdn_solutions.png)](https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/)
+
+</center>
+
+<h3 id="project-calico">Project Calico</h3>
+<ul>
+<li><a href="https://www.tigera.io/">tigera.io</a></li>
+<li><a href="https://www.projectcalico.org/">Project Calico 🌟</a> Secure networking for the cloud native era</li>
+<li><a href="https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69">medium: Calico for Kubernetes networking: the basics &amp; examples</a></li>
+<li><a href="https://thenewstack.io/tigera-aims-ease-connectivity-pain-kubernetes/">thenewstack.io: Tigera&rsquo;s Calico Aims to Ease Connectivity Pain with Kubernetes</a></li>
+<li><a href="https://www.projectcalico.org/advertising-kubernetes-service-ips-with-calico-and-bgp/">projectcalico.org: Advertising Kubernetes Service IPs with Calico and BGP</a></li>
+<li><a href="https://mhmxs.blogspot.com/2020/12/autoscaling-calico-route-reflector.html">mhmxs.blogspot.com: Autoscaling Calico Route Reflector topology in Kubernetes</a></li>
+<li><a href="https://www.tigera.io/blog/enforcing-network-security-policies-with-gitops-part-1">tigera.io: Enforcing Network Security Policies with GitOps – Part 1 (Calico + ArgoCD)</a> Network policy is a key element of Kubernetes security. Network policy is expressed as a YAML configuration and works very well with GitOps. By adopting GitOps, security teams benefit in the following ways:<ul>
+<li>Take your policies with you. Kubernetes cluster creation from code is fairly common. It is much easier and less error-prone to push your Git-based policies to a new cluster.</li>
+<li>You can monitor policy changes using information from pull requests. This will also be easy to integrate with your existing systems, instead of writing integrations from scratch. If something goes wrong, you can simply roll back to an earlier commit.</li>
+<li>You can lock down who can deploy security policies. If you lock it down to only a single Git user, that will be easy to control. Everybody else can push their policy changes into Git via pull request.</li>
+<li>Your GitOps tool can ensure that it will override any accidental or malicious change at runtime. This solves a major compliance concern. Git becomes the source of truth for your security policies.</li>
+<li>It would be much easier to manage if no user could create a security policy from kubectl. Then you can enable de-centralized security by creating specific users for different services, and giving them rights to deploy only specific policies. Developers and DevOps teams are very comfortable with the notion of a Git pipeline.</li>
+</ul>
+</li>
+<li><a href="https://blog.devgenius.io/k8s-networking-calico-part1-7f74395b6fe2">blog.devgenius.io: K8s Networking — Calico (Part1)</a> Introduction to Calico.</li>
+<li><a href="https://medium.com/@arbnair97/introduction-to-kubernetes-network-policy-and-calico-based-network-policy-675a7fa6b5dc">medium.com/@arbnair97: Introduction to Kubernetes Network Policy and Calico Based Network Policy</a> Kubernetes Network Policies are designed to control the network&rsquo;s traffic flow in and out of the cluster. This article will teach you how to use Network Policies with the Calico CNI.</li>
+</ul>
+<h2 id="dns-service-with-coredns">DNS Service with CoreDNS</h2>
+<ul>
+<li><a href="https://medium.com/faun/how-to-autoscale-the-dns-service-in-a-kubernetes-cluster-cbb46ae89678">medium: How to Autoscale the DNS Service in a Kubernetes Cluster</a></li>
+<li><a href="https://thenewstack.io/supercharge-coredns-with-cluster-addons/">thenewstack.io: Supercharge CoreDNS with Cluster Addons 🌟</a></li>
+<li><a href="https://sysdig.com/blog/how-to-monitor-coredns/">sysdig.com: How to monitor coreDNS 🌟</a> The most common problems and outages in a Kubernetes cluster come from coreDNS, so learning how to monitor coreDNS is crucial.</li>
+<li><a href="https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable/">ungleich.ch: Making kubernetes kube-dns/CoreDNS publicly reachable</a></li>
+<li><a href="https://iamitcohen.medium.com/dns-in-kubernetes-how-does-it-work-7c4690fd813e">iamitcohen.medium.com: DNS in Kubernetes, how does it work?</a></li>
+<li><a href="https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes/">nslookup.io: The life of a DNS query in Kubernetes</a> In Kubernetes, DNS queries follow a specific path to resolve the IP address of a hostname. In this blog post, you will learn the life of a DNS query in Kubernetes step-by-step.</li>
+<li><a href="https://levelup.gitconnected.com/kubernetes-with-coredns-e40772c5e6ee">levelup.gitconnected.com: Kubernetes with CoreDNS</a></li>
+</ul>
+<h2 id="kubernetes-node-local-dns-cache">Kubernetes Node Local DNS Cache</h2>
+<ul>
+<li><a href="https://github.com/kubernetes/enhancements">NodeLocal DNSCache</a></li>
+<li><a href="https://povilasv.me/kubernetes-node-local-dns-cache/">Kubernetes Node Local DNS Cache</a></li>
+</ul>
+<h2 id="k8gb">k8gb</h2>
+<ul>
+<li><a href="https://www.k8gb.io">k8gb.io</a> A cloud native Kubernetes Global Balancer</li>
+<li><a href="https://blog.abaganon.com/going-global-with-kubernetes-490cf51e2bf8">blog.abaganon.com: Why you probably won’t use K8gb.io</a> This article covers the 2 kinds of Global Server Load Balancers and goes into some hands-on specifics of K8gb — the first open-source DNS-based Global Server Load balancer for Kubernetes.</li>
+</ul>
+<h2 id="vpc-lattice">VPC Lattice</h2>
+<ul>
+<li><a href="https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8">dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks</a> An exciting new service that simplifies the networking layer for developers and cloud administrators.</li>
+</ul>
+<h2 id="images">Images</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center>
+<p><a href="https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress"><img alt="k8s service types img" src="images/k8s_service_types_matrix.png" /></a></p>
 </center>
 </details>
-<!--
-[![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
--->
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<center>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/T4Z7visMM4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5cNrTU6o3Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/80Ew_fsV4rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VSn6DPKIhM8?si=pNaN7q9t3UKWaEhK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+</center>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes is an example of what happens when you have an indefinitely complex network stack and no troubleshooting tools in place.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1458317772941713408?ref_src=twsrc%5Etfw">November 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s see how many folks here haven&#39;t seen this thread on Kubernetes Networking.<br><br>Once again, the thread doesn&#39;t try to explain the subject matter in great detail but offers a particular learning order instead.<br><br>As usual, based on my personal experience 🔽 <a href="https://t.co/pxCWJUxj5j">pic.twitter.com/pxCWJUxj5j</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1464922049604997121?ref_src=twsrc%5Etfw">November 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵 How does Pod to Pod communication work in Kubernetes?<br><br>How does the traffic reach the right Pod?<br><br>Let&#39;s see 👇 <a href="https://t.co/gF2eVWYL4Q">pic.twitter.com/gF2eVWYL4Q</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1488119972463218690?ref_src=twsrc%5Etfw">January 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When your apps receive a ton of traffic, how do you scale your Ingress Controller in Kubernetes?<br><br>Here is what I do 👇 <a href="https://t.co/T6aYurE7Lj">pic.twitter.com/T6aYurE7Lj</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1498999951661010945?ref_src=twsrc%5Etfw">March 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Should you use a single Kubernetes Ingress controller or multiple?<br><br>On Monday 8PT/5CET Andrea will make a convincing case on why multiple controllers are good for<br><br>✅ security<br>✅ segregating team &amp; resources<br>✅ isolation<br><br>Register here (it&#39;s free) <a href="https://t.co/62oKodt7tQ">https://t.co/62oKodt7tQ</a> <a href="https://t.co/DWNy0iTYq6">pic.twitter.com/DWNy0iTYq6</a></p>&mdash; Learnk8s (@learnk8s) <a href="https://twitter.com/learnk8s/status/1502986561901965319?ref_src=twsrc%5Etfw">March 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Networking in Kubernetes is arguably the most important piece.<br><br>Why?<br><br>Because there’s not much you can do in a Kubernetes cluster without proper networking.<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1607747382711664640?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you deal with peaks of traffic in Kubernetes?<br><br>You can use an autoscaler, but how should you configure and test it?<br><br>Let&#39;s dive into it. <a href="https://t.co/AxfEgqyEFW">pic.twitter.com/AxfEgqyEFW</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1647935320288284673?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
+<ul>
+<li><a href="https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0">Control Plane Load Balancing Explained</a> - <em>(Related to kubernetes topic)</em></li>
+</ul>
 
 
 

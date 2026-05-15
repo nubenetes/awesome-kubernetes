@@ -12,11 +12,13 @@
         <meta name="author" content="nubenetes@gmail.com">
       
       
-        <link rel="canonical" href="https://nubenetes.com/index.html">
+        <link rel="canonical" href="https://nubenetes.com/databases.html">
       
       
+        <link rel="prev" href="yaml.html">
       
-        <link rel="next" href="introduction.html">
+      
+        <link rel="next" href="crunchydata.html">
       
       
         
@@ -27,7 +29,7 @@
     
     
       
-        <title>Nubenetes</title>
+        <title>Relational Databases and Database DevOps - Nubenetes</title>
       
     
     
@@ -90,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nubenetes-awesome-kubernetes-cloud" class="md-skip">
+        <a href="#databases-on-kubernetes-database-devops" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Relational Databases and Database DevOps
             
           </span>
         </div>
@@ -254,10 +256,8 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
+    <li class="md-tabs__item">
       <a href="index.html" class="md-tabs__link">
         
   
@@ -558,10 +558,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="databases.html" class="md-tabs__link">
           
   
@@ -936,37 +938,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -982,412 +957,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#motivation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Motivation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Introduction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sre-site-reliability-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SRE Site Reliability Engineering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devops" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#devsecops-and-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevSecOps and Security
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#noops-aka-serverless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NoOps aka Serverless
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Docker
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#red-hat-openshift" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Red Hat OpenShift
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suse-rancher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SUSE Rancher
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#software-delivery-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Software Delivery Pipeline
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Software Delivery Pipeline">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#jenkins-cloudbees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Jenkins &amp; CloudBees
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openshift-pipelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenShift Pipelines
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#web-servers-reverse-proxies-java-runtimes-caching-solutions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#monitoring-and-performance-prometheus-grafana-apms-and-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Monitoring and Performance. Prometheus, Grafana, APMs and more
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#infrastructure-provisioning-infra-management-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Infrastructure Provisioning. Infra Management Tools
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration Management
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#databases-on-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Databases on Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#service-mesh" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Service Mesh
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#demos-and-boilerplates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Demos and Boilerplates
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apis-with-soap-rest-and-grpc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        APIs with SOAP, REST and gRPC
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-frameworks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Development &amp; Frameworks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Development &amp; Frameworks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#microsoft" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Microsoft
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#java" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dev-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dev Environment
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatestops-continuous-testing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        QA/TestOps - Continuous Testing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-management-methodology" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Project Management Methodology
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#more-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        More References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hiring-and-freelancing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hiring and Freelancing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#customer-success-stories" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Customer Success Stories
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4653,8 +4222,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -4668,19 +4239,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
         
           
-          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
             
   
   
@@ -4698,7 +4272,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_16">
             <span class="md-nav__icon md-icon"></span>
             
@@ -4713,10 +4287,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="databases.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relational Databases and Database DevOps
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="databases.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -4732,6 +4333,516 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-choose-the-right-database-for-your-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to choose the right database for your service
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SQL
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SQL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alternatives-to-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternatives to SQL
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stored-procedures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stored Procedures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stateful-and-stateless-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stateful and Stateless Applications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#serverless-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless Databases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DataOps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-continuous-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Continuous Integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databases-on-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Databases on Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database DevOps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Mesh
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubedb-cloud-native-postgress-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KubeDB Cloud Native Postgress Database
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cockroach-cloud-native-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cockroach Cloud Native Database
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operator-lifecycle-manager-olm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operator Lifecycle Manager (OLM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spilo-postgresql-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spilo PostgreSQL Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zalando-postgresql-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zalando PostgreSQL Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crunchy-data-postgresql-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crunchy Data PostgreSQL Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oracle-12c-on-openshift-container-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oracle 12c on OpenShift Container Platform
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oracle-database-operator-for-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oracle Database Operator for Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SQL Server
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MySQL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mariadb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MariaDB
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PostgreSQL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#percona-mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Percona MySQL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#percona-postgresql-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Percona PostgreSQL Operator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Redis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rockset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rockset
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pysondb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PysonDB
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clickhouse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clickhouse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apache-ignite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apache Ignite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apache-druid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apache Druid
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dolt-is-git-for-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dolt is Git for Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#victoriametrics-and-victorialogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VictoriaMetrics and VictoriaLogs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-series-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time-Series Database
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analytics-and-visualization-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Analytics and Visualization Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-lakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Lakes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graph-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Graph Databases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tweets
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -8014,480 +8125,431 @@
 
 
 
-<h1 id="nubenetes-awesome-kubernetes-cloud">Nubenetes: Awesome Kubernetes &amp; Cloud <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
-<div class="admonition tip">
-<p class="admonition-title">Nubenetes V2: Agentic Elite Edition is now live!</p>
-<p>Looking for a high-density, AI-curated experience? Explore our <a href="/v2/"><strong>V2 Elite Portal</strong></a> - Optimized for 2026 Architectural Standards.</p>
-</div>
-<p>A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration &amp; Delivery), and API-focused designs.</p>
-<p><a href="https://nubenetes.com">Nubenetes</a> is also available at <a href="https://awesome-kubernetes.readthedocs.io/">this other site</a>.</p>
-<p>&ldquo;I do not believe you can do today&rsquo;s job with yesterday&rsquo;s methods and be in business tomorrow&rdquo; (<a href="https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson">Horatio Nelson Jackson</a>)</p>
-<center>
-
-[![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
-
-</center>
-<hr />
-<h2 id="motivation">Motivation</h2>
-<ul>
-<li><a href="https://microservices.io/">microservices.io</a></li>
-<li><a href="https://www.cncf.io/">cncf.io</a><ul>
-<li><a href="https://landscape.cncf.io/">landscape.cncf.io</a></li>
-<li><a href="https://www.cncf.io/certification/software-conformance/">Certified Kubernetes offerings</a></li>
-<li><a href="https://www.cncf.io/reports/">CNCF Reports</a><ul>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf">CNCF Survey Report 2019</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2020/11/CNCF_Survey_Report_2020.pdf">CNCF Survey Report 2020</a></li>
-<li><a href="https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf">CNCF Survey Report 2021</a> - <a href="https://www.infoq.com/news/2022/01/ -cncf-state-of-cloud-native">CNCF Publishes State of Cloud Native Development Report</a> - <a href="https://www.cncf.io/announcements/2022/02/10/cncf-sees-record-kubernetes-and-container-adoption-in-2021-cloud-native-survey/">CNCF Sees Record Kubernetes and Container Adoption</a></li>
-</ul>
+<h1 id="databases-on-kubernetes-database-devops">Databases on Kubernetes. Database DevOps</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#how-to-choose-the-right-database-for-your-service">How to choose the right database for your service</a></li>
+<li><a href="#database-load-balancer">Database Load Balancer</a></li>
+<li><a href="#sql">SQL</a><ol>
+<li><a href="#alternatives-to-sql">Alternatives to SQL</a></li>
+</ol>
 </li>
-</ul>
-</li>
-<li><a href="https://puppet.com/resources/?refinementList%5Btype%5D%5B0%5D=Report&amp;page=1&amp;configure%5BhitsPerPage%5D=18">State of DevOps Reports</a><ul>
-<li><a href="https://puppet.com/resources/report/2020-state-of-devops-report">2020 State of DevOps Report</a></li>
-<li><a href="https://puppet.com/resources/report/2020-devops-salary-report">2020 DevOps Salary Report</a></li>
-<li><a href="https://puppet.com/resources/report/2021-state-of-devops-report">2021 State of DevOps Report: A decade of DevOps</a></li>
-<li><a href="https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021">2021 Gartner Report Top Trends Infra &amp; Operations</a></li>
-</ul>
-</li>
-<li><a href="https://cri-o.io/">CRI-O Lightweight Container Runtime for Kubernetes</a></li>
-<li><a href="https://www.opencontainers.org/">Open Container Initiative</a></li>
-<li><a href="http://agilemethodology.org/">agilemethodology.org</a></li>
-<li><a href="http://agilemanifesto.org/">agilemanifesto.org</a></li>
-<li><a href="https://12factor.net/">12factor.net</a> - <a href="https://dzone.com/articles/are-you-12-factor-application-ready">Are You 12-Factor Application Ready?</a> - <a href="https://dzone.com/whitepapers/the-12-factor-app-infographic">12-factor app infographic</a> - <a href="https://www.redhat.com/architect/12-factor-app">An illustrated guide to 12 Factor Apps 🌟</a></li>
-<li><a href="https://openpracticelibrary.com/">openpracticelibrary.com</a> - <a href="https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts">Top 10 most visited pages</a></li>
-<li><a href="https://roadmap.sh/">roadmap.sh</a> - <a href="https://roadmap.sh/devops">DevOps Roadmap</a> - <a href="https://roadmap.sh/kubernetes">Kubernetes Roadmap</a><ul>
-<li><a href="https://roadmap.sh/ai">roadmap.sh/ai: Generate roadmaps with AI</a></li>
-<li><a href="https://roadmap.sh/terraform">roadmap.sh/terraform</a></li>
-</ul>
-</li>
-<li><a href="https://apilandscape.apiscene.io/">API Landscape</a></li>
-<li><a href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a><ul>
-<li><a href="https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted">2021</a></li>
-<li><a href="https://survey.stackoverflow.co/2022/">2022 🌟</a> - <a href="https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3">betterprogramming.pub</a></li>
-</ul>
-</li>
-<li><a href="https://stackoverflow.com/collectives">Stack Overflow Collectives</a> Communities for your favorite technologies<ul>
-<li><a href="https://stackoverflow.com/collectives/go">Go Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/gitlab">GitLab Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/google-cloud">Google Cloud Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/aws">AWS Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/azure">Azure Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/ci-cd">CI/CD Collective</a></li>
-<li><a href="https://stackoverflow.com/collectives/wso2">WSO2 Collective</a></li>
-<li>etc</li>
-</ul>
-</li>
-<li><a href="https://opensource.guide/">Open Source Guides</a></li>
-<li><a href="https://www.opengroup.org/">The Open Group: Making Standards Work</a> - <a href="http://publications.opengroup.org/">publications.opengroup.org</a> - <a href="https://www.opengroup.org/togaf">The TOGAF® Standard, a standard of The Open Group</a></li>
-<li><a href="https://dzone.com/articles/how-your-application-architecture-evolved">How Your Application Architecture Has Evolved 🌟</a></li>
-<li><a href="https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/"><mark>Kubernetes magic is in enterprise standardization, not app portability</mark></a></li>
-<li><a href="https://containerjournal.com/features/the-rise-of-the-kubemaster/">A new role to emerge: Kubernetes Manager (KubeMaster) 🌟</a></li>
-<li><a href="https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/">An emerging Job: Kubernetes engineer 🌟</a></li>
-<li><a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report">Google DORA Report: State of DevOps 2021 🌟</a> How to accelerate DevOps - <a href="https://devops.com/google-dora-report-shows-modest-devops-gains/">summary 1</a> - <a href="https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need">summary 2</a></li>
-<li><a href="https://github.com/gayanvoice/top-github-users">Top GitHub Users By Country</a></li>
-<li><a href="https://www.redhat.com/en/blog/red-hat-automation-glossary">Red Hat automation glossary 🌟</a></li>
-<li><a href="https://www.redhat.com/sysadmin/automation-architects">The rise of the automation architect</a></li>
-<li><a href="https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/">Automation is the future of cloud cost optimization</a></li>
-<li><a href="https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx">The Rise of Modern Day Kubernetes Operations</a></li>
-<li><a href="https://www.infoq.com/articles/distributed-systems-kubernetes/">The Evolution of Distributed Systems on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/10-cloud-deficiencies-you-should-know/">10 Cloud Deficiencies You Should Know</a></li>
-<li><a href="https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team"><mark>How to Explain Kubernetes to a Business Team</mark></a></li>
-<li><a href="https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022"><mark>Pets vs. Cattle: The Future of Kubernetes in 2022</mark></a></li>
-<li><a href="https://dok.community">dok.community: DoKC Data on Kubernetes</a></li>
-<li><a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/">A Kubernetes Documentary Shares Google’s Open Source Story</a></li>
-<li><a href="https://alpacked.io/blog/infrastructure-as-code-for-devops/"><mark>Infrastructure as Code in DevOps</mark></a></li>
-<li><a href="https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/">Kubernetes at Scale without GitOps Is a Bad Idea</a></li>
-<li><a href="https://dzone.com/trendreports">dzone.com/trendreports</a></li>
-<li><a href="https://kube.events">kube.events</a> A curated list of Kubernetes-related events such as meetups, conferences, training &amp; webinars that you will find interesting to attend</li>
-<li><a href="https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022">The future of Kubernetes – and why developers should look beyond Kubernetes in 2022</a></li>
-<li><a href="https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html">cloudtechtwitter.com: Introduction to Kubernetes 🌟</a></li>
-<li><a href="https://github.com/readme/guides/">GitHub Guides</a></li>
-<li><a href="https://learnk8s.io/news">learnk8s.io/news</a> How do you keep up with Kubernetes? If you are looking for curated Kubernetes news, we have you covered on:<ul>
-<li>Core Kubernetes</li>
-<li>Security</li>
-<li>Architecture &amp; development</li>
-<li>Job opportunities</li>
-<li>K3s</li>
-<li>Events</li>
-</ul>
-</li>
-<li><a href="https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/">thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟</a></li>
-<li><a href="https://dzone.com/trendreports/kubernetes-in-the-enterprise-1">dzone: Kubernetes in the Enterprise - Trend Report</a></li>
-<li><a href="https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/">Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟</a></li>
-<li><a href="https://learnk8s.io/learn-kubernetes-weekly">learnk8s.io/learn-kubernetes-weekly 🌟</a></li>
-<li><a href="https://www.infoworld.com/article/3679250/cloud-architects-are-afraid-of-automation.html">infoworld.com: Cloud architects are afraid of automation</a> Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What&rsquo;s so scary?</li>
-<li><a href="https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html">infoworld.com: The biggest obstacle to cloud is people</a> People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.</li>
-<li><a href="https://github.com/Droogans/unmaintainable-code">Droogans/How To Write Unmaintainable Code</a> Ensure a job for life ;-)</li>
-<li><a href="https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine">dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf">github.com/metaleapca: metaleap-devops-in-k8s.pdf</a></li>
-<li><a href="https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf">github.com/metaleapca: metaleap-k8s-troubleshooting.pdf</a></li>
-<li><a href="https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/">devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟</a></li>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals">serverlessland.com: EDA VISUALS</a> Small bite sized visuals about event-driven architectures</li>
-<li><a href="https://dzone.com/refcardz/the-essentials-of-gitops">dzone: The Essentials of GitOps 🌟</a></li>
-<li><a href="https://dzone.com/articles/rest-vs-messaging-for-microservices">dzone.com: REST vs. Messaging for Microservices</a></li>
-<li><a href="https://thenewstack.io/the-next-kubernetes-management-frontier-automation/">The Next Kubernetes Management Frontier: Automation</a> Automation Is No Longer a “Nice to Have”</li>
-<li><a href="https://redis.com/blog/microservice-architecture-key-concepts/">redis.com: Microservice Architecture Key Concepts</a></li>
-<li><a href="https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/">thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟</a></li>
-<li><a href="https://dzone.com/articles/software-deployment-best-practices">Software Deployment Best Practices in 2023</a> Explore the best software development practices that are the proven catalysts for innovation and growth.</li>
-<li><a href="https://github.com/DevOps-Projects-Ideas/DevOps-Books"><mark>DevOps-Books</mark> 🌟</a></li>
-<li><a href="https://community.aws/kubernetes">community.aws/kubernetes</a> Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.</li>
-<li><a href="https://explore.skillbuilder.aws/learn">AWS Skill Builder</a></li>
-<li><a href="https://www.cloudcatalog.dev">cloudcatalog.dev</a> Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.</li>
-<li><a href="https://platformengineering.org">platformengineering.org</a> The global home for Platform Engineers</li>
-<li><a href="https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool">Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?</a></li>
-<li><a href="https://chaoslever.com/cl-20240118/">Redefining Virtualization in the VMware Acquisition Era</a></li>
-<li><a href="https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/">Do Kubernetes Certs Prepare You For Real-World Production?</a></li>
-<li><a href="https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c">Why I Don’t Consider Your Certifications During An Interview</a></li>
-<li><a href="https://dagger.io">dagger.io</a> CI/CD as Code that Runs Anywhere.</li>
-<li><a href="https://en.wikipedia.org/wiki/Bus_factor">Bus factor</a> The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase &ldquo;in case they get hit by a bus&rdquo;.</li>
-<li><a href="https://www.seal.io/">seal.io: Open Source Platform Engineering for Dev &amp; Ops</a></li>
-<li><a href="https://k8sgpt.ai/"><mark>k8sgpt.ai</mark></a> K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.</li>
-<li><a href="https://github.com/topics/gitops">github.com/topics/gitops</a></li>
-<li><a href="https://github.com/dolthub/dolt">Dolt: Git for Data</a></li>
-<li><a href="https://serverlesshorrors.com/">serverlesshorrors.com</a></li>
-<li><a href="https://glasskube.dev/">glasskube.dev package manager for k8s 🌟</a></li>
-<li><a href="https://github.com/infrahouse/infrahouse-toolkit">github.com/infrahouse/infrahouse-toolkit</a> A collection of tools for building infrastructure</li>
-<li><a href="https://github.com/taubyte/tau">github.com/taubyte/tau</a> Open Source Git-Native CDN PaaS</li>
-<li><a href="https://mattias.engineer/courses/"><mark>mattias.engineer/courses</mark> 🌟</a> HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD</li>
-<li><a href="https://paulbutler.org/2024/the-haters-guide-to-kubernetes/">The hater’s guide to Kubernetes</a></li>
-<li><a href="https://github.com/cyclops-ui/cyclops">github.com/cyclops-ui/cyclops</a> Developer Friendly Kubernetes</li>
-<li><a href="https://k8z.dev/">k8z.dev</a> A lightweight, modern mobile and desktop application for manage kubernetes</li>
-<li><a href="https://github.com/zegl/kube-score">Kube-score</a></li>
-<li><a href="https://testkube.io">testkube.io 🌟</a></li>
-<li><a href="https://github.com/curl/wcurl">wcurl</a> A simple wrapper around curl to easily download files</li>
-<li><a href="https://github.com/netbox-community/netbox">NetBox IPAM 🌟</a><ul>
-<li><a href="https://netboxlabs.com/">NetBox Labs</a> is the commercial steward of NetBox. We are on a mission to make it easier to build and manage complex networks.</li>
-<li><a href="https://docs.ansible.com/ansible/latest/collections/netbox/netbox/index.html">Netbox Ansible Modules</a></li>
-</ul>
-</li>
-<li><a href="https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd">youtube: GitOps Guide to the Galaxy</a></li>
-<li><a href="https://devopswithkubernetes.com/">devopswithkubernetes.com</a> Introductory course to Kubernetes with K3s and GKE</li>
-<li><a href="https://github.com/gardener/gardener">Gardener</a> Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service</li>
-<li><a href="https://collabnix.github.io/kubetools/">collabnix.github.io/kubetools 🌟</a> A Curated List of Kubernetes Tools</li>
-<li><a href="https://github.com/CastawayEGR/openshift-ai-examples">OpenShift AI Examples</a></li>
-<li><a href="https://youtube.com/playlist?list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe&amp;si=GBJtqv36O8bslj9z">Jenkins Tutorials by CloudBeesTV 🌟</a></li>
-<li><a href="https://kui.tools">kui.tools</a> Kui: CLI-driven Graphics for Kubernetes</li>
-</ul>
+<li><a href="#stored-procedures">Stored Procedures</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#stateful-and-stateless-applications">Stateful and Stateless Applications</a></li>
+<li><a href="#serverless-databases">Serverless Databases</a></li>
+<li><a href="#dataops">DataOps</a></li>
+<li><a href="#database-continuous-integration">Database Continuous Integration</a></li>
+<li><a href="#databases-on-kubernetes">Databases on Kubernetes</a></li>
+<li><a href="#database-devops">Database DevOps</a></li>
+<li><a href="#database-mesh">Database Mesh</a></li>
+<li><a href="#kubedb-cloud-native-postgress-database">KubeDB Cloud Native Postgress Database</a></li>
+<li><a href="#cockroach-cloud-native-database">Cockroach Cloud Native Database</a></li>
+<li><a href="#operator-lifecycle-manager-olm">Operator Lifecycle Manager (OLM)</a></li>
+<li><a href="#spilo-postgresql-operator">Spilo PostgreSQL Operator</a></li>
+<li><a href="#zalando-postgresql-operator">Zalando PostgreSQL Operator</a></li>
+<li><a href="#crunchy-data-postgresql-operator">Crunchy Data PostgreSQL Operator</a></li>
+<li><a href="#oracle-12c-on-openshift-container-platform">Oracle 12c on OpenShift Container Platform</a></li>
+<li><a href="#oracle-database-operator-for-kubernetes">Oracle Database Operator for Kubernetes</a></li>
+<li><a href="#sql-server">SQL Server</a></li>
+<li><a href="#mysql">MySQL</a></li>
+<li><a href="#mariadb">MariaDB</a></li>
+<li><a href="#postgresql">PostgreSQL</a></li>
+<li><a href="#percona-mysql">Percona MySQL</a></li>
+<li><a href="#percona-postgresql-operator">Percona PostgreSQL Operator</a></li>
+<li><a href="#redis">Redis</a></li>
+<li><a href="#rockset">Rockset</a></li>
+<li><a href="#pysondb">PysonDB</a></li>
+<li><a href="#clickhouse">Clickhouse</a></li>
+<li><a href="#apache-ignite">Apache Ignite</a></li>
+<li><a href="#apache-druid">Apache Druid</a></li>
+<li><a href="#dolt-is-git-for-data">Dolt is Git for Data</a></li>
+<li><a href="#victoriametrics-and-victorialogs">VictoriaMetrics and VictoriaLogs</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#time-series-database">Time-Series Database</a></li>
+<li><a href="#data-analytics-and-visualization-tools">Data Analytics and Visualization Tools</a></li>
+<li><a href="#data-lakes">Data Lakes</a></li>
+<li><a href="#graph-databases">Graph Databases</a></li>
+<li><a href="#excel">Excel</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
 <h2 id="introduction">Introduction</h2>
 <ul>
-<li><a href="introduction.html">Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes</a></li>
-<li><a href="faq.html">Microservices FAQ &amp; Kubernetes Native</a></li>
+<li><a href="https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture/">thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟</a></li>
+<li><a href="https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices/">sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices 🌟</a></li>
+<li><a href="https://thenewstack.io/just-how-challenging-is-state-in-kubernetes/">thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟</a></li>
+<li><a href="https://www.theregister.com/2020/12/02/gartner_cloud_dbms/">theregister.com: 75% of databases to be cloud-hosted by 2022, says Gartner while dishing on the weak points of each provider</a></li>
+<li><a href="https://thenewstack.io/what-is-data-management-in-the-kubernetes-age/">thenewstack.io: What Is Data Management in the Kubernetes Age?</a></li>
+<li><a href="https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic/"><mark>thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic</mark></a></li>
+<li><a href="https://hackernoon.com/database-vs-data-warehouse-vs-data-lake-a-simple-explanation-hz2k33rm">hackernoon.com: Database Vs Data Warehouse Vs Data Lake: A Simple Explanation</a></li>
+<li><a href="https://www.percona.com/blog/2021/02/08/dbaas-on-kubernetes-under-the-hood/">percona.com: DBaaS on Kubernetes: Under the Hood 🌟</a></li>
+<li><a href="https://blog.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database">blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟</a></li>
+<li><a href="https://thenewstack.io/databases-finally-get-containerized/">thenewstack.io: Databases — Finally — Get Containerized</a></li>
+<li><a href="https://www.percona.com/blog/2021/06/23/autoscaling-databases-in-kubernetes-for-mongodb-mysql-and-postgresql/">percona.com: Autoscaling Databases in Kubernetes for MongoDB, MySQL, and PostgreSQL</a></li>
+<li><a href="https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d">levelup.gitconnected.com: How to design a system to scale to your first 100 million users</a> Think Big, Do Small, Learn Fast</li>
+<li><a href="https://www.magalix.com/blog/kubernetes-and-database">magalix.com: Kubernetes And Databases 🌟</a></li>
+<li><a href="https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106">towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types 🌟🌟</a> When to use SQL vs. NoSQL database? Deep dive, differences, decision tree, and cloud cheatsheet to choose the best database for your data type and use case.</li>
+<li><a href="https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations/">andrewlock.net: Running database migrations when deploying to Kubernetes 🌟</a> Deploying ASP.NET Core applications to Kubernetes - Part 7. Learn how to run database migrations with init containers and Jobs in Kubernetes.</li>
+<li><a href="http://web.archive.org/web/20210806055040/https://redislabs.com/blog/dbless-architecture-and-why-its-the-future//">redislabs.com: What is a “Databaseless” (DBLess) Architecture, and Why It’s the Future 🌟 [ARCHIVED]</a> DBLess architecture provides a new approach to data pipeline and backend architecture. Just like the terms serverless, stateless, and NoSQL, it attempts to provide more options for architects to think about.</li>
+<li><a href="https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures/">red-gate.com: Designing Highly Scalable Database Architectures</a></li>
+<li><a href="https://medium.com/dataseries/not-using-nosql-is-good-i-stuck-to-sql-4504a67972f0">medium: Not using trendy technologies is the best thing for your Startup!</a> I refused to use MongoDB and I convinced my company to use a SQL relational database system.</li>
+<li><a href="https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth/">thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth</a></li>
+<li><a href="https://cloud.redhat.com/blog/openshift-commons-briefing-database-disaster-recovery-made-easy-with-annette-clewett-red-hat-and-andrew-lecuyer-crunchy-data">cloud.redhat.com: OpenShift Commons Briefing: Database Disaster Recovery Made Easy with Annette Clewett (Red Hat) and Andrew L&rsquo;Ecuyer (Crunchy Data)</a></li>
+<li><a href="https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic">thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic</a></li>
+<li><a href="https://hackernoon.com/practical-transaction-handling-in-microservice-architecture-5x1631ke">hackernoon.com: Practical Transaction Handling in Microservice Architecture</a></li>
+<li><a href="https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization/">thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization</a></li>
+<li><a href="https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management/">thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management</a></li>
+<li><a href="https://dok.community/dokc-2021-report/">dok.community: Data on Kubernetes 2021 Report</a> Standardization, consistency and the ability for developers to self-manage - are among the top 3 important factors in the organization&rsquo;s decision to run stateful workloads on Kubernetes.</li>
+<li><a href="https://cloud.redhat.com/blog/simplifying-database-cloud-service-access">cloud.redhat.com: Simplifying Database Cloud Service Access</a></li>
+<li><a href="https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases/">venturebeat.com: The rise of Kubernetes and its impact on enterprise databases</a></li>
+<li><a href="https://vladmihalcea.com/single-primary-database-replication/">vladmihalcea.com: Single-Primary Database Replication</a></li>
+<li><a href="https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank">treblle.com: How does Treblle scale on AWS without breaking the bank?</a> A completely scalable intake solution that didn&rsquo;t require a database because all the data was stored on S3.</li>
+<li><a href="https://intellipaat.com/blog/dbms-vs-rdbms-difference/">intellipaat.com: Difference between DBMS and RDBMS</a> DBMS and RDBMS sound very similar, but can be confusing to those who are completely new to the database domain. Both of them are based on the technology of storing data. However, we will dive into this DBMS vs RDBMS blog to learn the difference between them.</li>
+<li><a href="https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639"><mark>betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase, and PostgreSQL</mark></a> A step-by-step guide on how to implement multi-tenancy.</li>
+<li><a href="https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution/"><mark>thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution</mark></a></li>
+<li><a href="https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases/">thenewstack.io: How Radical API Design Changed the Way We Access Databases</a></li>
+<li><a href="https://architecturenotes.co/things-you-should-know-about-databases/"><mark>architecturenotes.co: Things You Should Know About Databases</mark></a> This is the first post in a series called Things You Should Know. Think of it as a primer to level set from base principles on various topics. Today we are discussing databases!</li>
+<li><a href="https://vladmihalcea.com/database-multitenancy/">vladmihalcea.com: A beginner’s guide to database multitenancy</a></li>
+<li><a href="https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959">itnext.io: How to Run Databases in Kubernetes</a> 90% of the customers believe it is ready for stateful workloads, and a large majority (70%) are running them in production with databases topping the list. Companies report significant benefits to standardization, consistency, and management as key drivers.</li>
+<li><a href="https://thenewstack.io/more-database-analytics-workloads-ran-on-kubernetes-in-2022/">thenewstack.io: More Database, Analytics Workloads Ran on Kubernetes in 2022</a> More than three in four participants in the new Data on Kubernetes survey now acknowledge the use of databases on Kubernetes, up from 50% in 2021.</li>
+<li><a href="https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2">medium.com/@bijit211987: Kubernetes ready for stateful workloads and to Revolutionize Enterprise Database Management</a></li>
+<li><a href="https://medium.com/javarevisited/top-performance-issues-every-developer-architect-must-know-part-1-fc1ad6e1644b"><mark>medium.com/javarevisited: Top Performance issues every developer/architect must know — part 1-Database</mark></a></li>
+<li><a href="https://www.infoq.com/articles/kubernetes-databases-apache-sharding-sphere/">infoq.com: Create Your Distributed Database on Kubernetes with Existing Monolithic Databases</a></li>
+<li><a href="https://dineshchandgr.medium.com/why-do-we-need-a-database-connection-pool-every-programmer-must-know-9f90e7c8e5af"><mark>dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every programmer must know</mark></a> In this article, we looked at what is Database connection and its life cycle. Then we saw the drawbacks of creating connections on the fly and then saw the need to use a Database Connection Pool. We also looked at the design patterns on where to place the connection pool. We have then looked at the performance issues that can arise from the Database connection pool and concluded the article by looking at the common connection pool frameworks used in Java.</li>
+<li><a href="https://medium.com/fintechexplained/what-is-database-sharding-582b36282f97"><mark>medium.com/fintechexplained: What Is Database Sharding?</mark></a> Learn How Splitting Database Across Multiple Machines Improves Performance By Processing Requests In Parallel For High Volume Applications</li>
+<li><a href="https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment"><mark>blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment</mark> 🌟</a> In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates.</li>
+<li><a href="https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment">blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment</a> In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates</li>
+<li><a href="https://thenewstack.io/distributed-database-architecture-what-is-it/">thenewstack.io: Distributed Database Architecture: What Is It?</a></li>
+<li><a href="https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644">medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why it won’t work for you if you’re implementing a big data solution)</a></li>
+<li><a href="https://medium.com/@fengruohang/database-in-kubernetes-is-that-a-good-idea-daf5775b5c1f">medium.com/@fengruohang: Database in Kubernetes: Is that a good idea?</a> Perhaps one day, when the reliability and performance of distributed network storage surpass local storage and mainstream databases have some native support for storage-computation separation, things might change again — K8S might become suitable for databases. But for now, I believe putting serious production OLTP databases into K8S is immature and inappropriate. I hope readers will make wise choices on this matter.</li>
 </ul>
-<h2 id="sre-site-reliability-engineering">SRE Site Reliability Engineering</h2>
+<h2 id="how-to-choose-the-right-database-for-your-service">How to choose the right database for your service</h2>
 <ul>
-<li><a href="sre.html">Site Reliability Engineering (SRE)</a></li>
-<li><a href="networking.html">Networking</a></li>
-<li><a href="finops.html">FinOps - Cloud Financial Management</a></li>
-<li><a href="chaos-engineering.html">Chaos Engineering</a></li>
+<li><a href="https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632">medium.com: How to choose the right database for your service 🌟</a></li>
 </ul>
-<h2 id="devops">DevOps</h2>
+<h2 id="database-load-balancer">Database Load Balancer</h2>
 <ul>
-<li><a href="devops.html"><mark>DevOps</mark></a></li>
-<li><a href="gitops.html"><mark>GitOps</mark></a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="cheatsheets.html">Cheat Sheets 🌟</a></li>
+<li><a href="https://severalnines.com/database-blog/how-does-database-load-balancer-work">severalnines.com: How Does a Database Load Balancer Work?</a></li>
 </ul>
-<h2 id="devsecops-and-security">DevSecOps and Security</h2>
+<h2 id="sql">SQL</h2>
 <ul>
-<li><a href="devsecops.html">DevSecOps and Security. Container Security</a></li>
-<li><a href="securityascode.html">Security Policy as Code</a></li>
-<li><a href="oauth.html">OAuth2</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql">digitalocean.com: How To Use WHERE Clauses in SQL</a></li>
+<li><a href="https://intellipaat.com/blog/sql-vs-mysql-difference/">intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL</a></li>
+<li><a href="https://vettabase.com/blog/how-slow-is-select/">vettabase.com: How slow is SELECT * ?</a></li>
+<li><a href="https://towardsdatascience.com/how-to-use-sql-cross-joins-5653fe7d353">towardsdatascience.com: How to Use SQL Cross Joins</a> The SQL join you never knew existed</li>
+<li><a href="https://vladmihalcea.com/sql-exists/">vladmihalcea.com: SQL EXISTS and NOT EXISTS</a></li>
+<li><a href="https://vladmihalcea.com/default-database-key-indexing/">vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing</a></li>
+<li><a href="https://blog.jooq.org">blog.jooq.org</a> JAVA, SQL AND JOOQ. Best Practices and Lessons Learned from Writing Awesome Java and SQL Code. Get some hands-on insight on what&rsquo;s behind developing jOOQ.</li>
+<li><a href="https://vladmihalcea.com/sql-left-join/">vladmihalcea.com: SQL LEFT JOIN – A Beginner’s Guide</a></li>
+<li><a href="https://vladmihalcea.com/sql-join-using/">vladmihalcea.com: SQL JOIN USING – A Beginner’s Guide</a></li>
+<li><a href="https://www.gcreddy.com/2021/05/sql-step-by-step-videos.html">gcreddy.com: SQL Step by Step Videos</a></li>
+<li><a href="https://www.freecodecamp.org/news/sql-joins-tutorial/">freecodecamp.org: SQL Joins Tutorial: Cross Join, Full Outer Join, Inner Join, Left Join, and Right Join</a></li>
+<li><a href="https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/">freecodecamp.org: SQL Join Types – Inner Join VS Outer Join Example</a></li>
+<li><a href="https://www.freecodecamp.org/news/the-sql-inner-join-command-example-syntax/">freecodecamp.org: The SQL Inner Join Command: Example Syntax</a></li>
+<li><a href="https://www.freecodecamp.org/news/sql-inner-join-how-to-join-3-tables-in-sql-and-mysql/">freecodecamp.org: SQL Inner Join – How to Join 3 Tables in SQL and MySQL</a></li>
+<li><a href="https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/">geeksforgeeks.org: Best Practices for SQL Query Optimization</a></li>
+<li><a href="https://towardsdatascience.com/you-should-use-this-to-visualize-sql-joins-instead-of-venn-diagrams-ede15f9583fc">towardsdatascience.com: You Should Use This to Visualize SQL Joins Instead of Venn Diagrams</a></li>
+<li><a href="https://vladmihalcea.com/mysql-json-table/">vladmihalcea.com: MySQL JSON_TABLE – Map a JSON object to a relational database table</a></li>
 </ul>
-<h2 id="noops-aka-serverless">NoOps aka Serverless</h2>
+<h3 id="alternatives-to-sql">Alternatives to SQL</h3>
 <ul>
-<li><a href="noops.html">NoOps</a></li>
-<li><a href="serverless.html">Serverless Architectures &amp; Frameworks. OpenFaaS, Knative &amp; Kubeless</a></li>
+<li><a href="https://www.infoworld.com/article/3654909/beyond-sql-8-new-languages-for-data-querying.html">infoworld.com: Beyond SQL: 8 new languages for data querying</a> SQL has dominated data querying for decades. Newer query languages offer more elegance, simplicity, and flexibility for modern use cases.</li>
 </ul>
-<h2 id="docker">Docker</h2>
+<h2 id="stored-procedures">Stored Procedures</h2>
 <ul>
-<li><a href="docker.html">Docker</a></li>
+<li><a href="https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/">blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?</a></li>
+<li><a href="https://stackoverflow.com/questions/1761601/is-the-usage-of-stored-procedures-a-bad-practice">stackoverflow.com: Is the usage of stored procedures a bad practice?</a></li>
+<li><a href="https://softwareengineering.stackexchange.com/questions/436567/what-is-the-best-practice-about-microservice-architecture-for-consuming-many-sto">softwareengineering.stackexchange.com: What is the best practice about microservice architecture for consuming many stored procedures in the same database?</a></li>
 </ul>
-<h2 id="kubernetes">Kubernetes</h2>
+<h2 id="performance">Performance</h2>
 <ul>
-<li><a href="kubernetes.html"><mark>Kubernetes</mark></a><ul>
-<li><a href="kubernetes-tutorials.html"><mark>Kubernetes Tutorials</mark></a></li>
-<li><a href="kubernetes-tools.html">Kubernetes Plugins, Tools, Extensions and Projects 🌟</a></li>
-<li><a href="kubectl-commands.html">kubectl Commands</a></li>
-<li><a href="kubernetes-networking.html">Kubernetes Networking</a></li>
-<li><a href="kubernetes-monitoring.html">Kubernetes Monitoring and Logging</a></li>
-<li><a href="kubernetes-security.html">Kubernetes Security</a></li>
-<li><a href="kubernetes-storage.html">Kubernetes Storage</a></li>
-<li><a href="kubernetes-backup-migrations.html">Kubernetes Backup and Migrations</a></li>
-<li><a href="kubernetes-autoscaling.html">Kubernetes Autoscaling</a></li>
-<li><a href="kubernetes-operators-controllers.html">Kubernetes Operators and Controllers</a></li>
-<li><a href="kubernetes-based-devel.html">Kubernetes Based Development</a></li>
-<li><a href="kubernetes-on-premise.html">Kubernetes On Premise</a></li>
-<li><a href="managed-kubernetes-in-public-cloud.html"><mark>Managed kubernetes in public clouds</mark></a></li>
-<li><a href="kubernetes-troubleshooting.html">Kubernetes Troubleshooting</a></li>
-<li><a href="kubernetes-releases.html">Kubernetes Releases</a></li>
-<li><a href="kubernetes-newsletters.html">Kubernetes Newsletters</a></li>
+<li><a href="https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739">betterprogramming.pub: 8 Techniques To Speed up Your Database</a> “If everything seems under control, you’re not going fast enough”</li>
 </ul>
-</li>
-<li><a href="matrix-table.html">Kubernetes Distributions &amp; Installers</a></li>
-<li><a href="kubernetes-bigdata.html">Kubernetes Big Data</a></li>
-<li><a href="kubernetes-alternatives.html">Kubernetes Alternatives</a></li>
-</ul>
-<h2 id="red-hat-openshift">Red Hat OpenShift</h2>
+<h2 id="stateful-and-stateless-applications">Stateful and Stateless Applications</h2>
 <ul>
-<li><a href="openshift.html">OpenShift</a></li>
-<li><a href="ocp3.html">OCP 3</a></li>
-<li><a href="ocp4.html">OCP 4</a></li>
+<li><a href="https://www.xenonstack.com/insights/stateful-and-stateless-applications/">xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages</a></li>
+<li><a href="https://threadreaderapp.com/thread/963413508300812295.html">threadreaderapp.com:  Kelsey Hightower: &ldquo;Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes&rdquo; 🌟</a></li>
+<li><a href="https://thenewstack.io/data-on-kubernetes-the-next-frontier/">thenewstack.io: Data on Kubernetes: The Next Frontier</a> “The interesting opportunity I see in the Kubernetes ecosystem,” Evenson continued, “is that, with the advent of custom resources and Kubernetes, you can build bespoke APIs for your application really easily. We’re in the world of operator explosion. In essence, it makes Kubernetes applications aware.”</li>
+<li><a href="https://www.openshift.com/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift">openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟</a></li>
+<li><a href="https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce">sixfold.medium.com: Reducing database queries to a minimum with DataLoaders</a></li>
 </ul>
-<h2 id="suse-rancher">SUSE Rancher</h2>
+<center>
+
+[![Statefull and Stateless Aplications](images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
+
+</center>
+
+<h2 id="serverless-databases">Serverless Databases</h2>
 <ul>
-<li><a href="rancher.html">Rancher - Enterprise management for Kubernetes</a></li>
+<li><a href="https://thenewstack.io/how-to-ensure-your-serverless-database-stays-serverless/">thenewstack.io: How to Ensure Your Serverless Database Stays Serverless</a></li>
 </ul>
-<h2 id="software-delivery-pipeline">Software Delivery Pipeline</h2>
+<h2 id="dataops">DataOps</h2>
 <ul>
-<li><a href="cicd.html">CI/CD - Continuous Integration &amp; Continuous Delivery</a></li>
-<li><a href="git.html">Git &amp; Git Patterns. Trunk Devel, Git Flow &amp; Feature Flags. Merge BOTs 🌟</a></li>
+<li><a href="https://thenewstack.io/the-benefits-and-drawbacks-of-dataops-in-practice/">thenewstack.io: The Benefits and Drawbacks of DataOps in Practice</a></li>
 </ul>
-<h3 id="jenkins-cloudbees">Jenkins &amp; CloudBees</h3>
+<h2 id="database-continuous-integration">Database Continuous Integration</h2>
 <ul>
-<li><a href="jenkins.html">Jenkins &amp; CloudBees 😀</a></li>
-<li><a href="performance-testing-with-jenkins-and-jmeter.html">Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc</a></li>
-</ul>
-<h3 id="openshift-pipelines">OpenShift Pipelines</h3>
-<ul>
-<li><a href="openshift-pipelines.html">OpenShift Pipelines with Jenkins, Tekton and more&hellip;</a></li>
-</ul>
-<h3 id="devops-tools-aka-toolchain-jenkins-alternatives-cloud-native-cicd-tools">DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools</h3>
-<ul>
-<li><a href="devops-tools.html">DevOps Tools</a></li>
-<li><a href="jenkins-alternatives.html">Jenkins Alternatives for Continuous Integration &amp; Deployment 🌟</a></li>
-<li><a href="argo.html">Argo - Declarative GitOps for Kubernetes 🌟</a></li>
-<li><a href="flux.html">Flux CD - The GitOps Operator for Kubernetes 🌟</a></li>
-<li><a href="tekton.html">Tekton - Cloud Native CI/CD</a></li>
-<li><a href="keptn.html">Keptn</a></li>
-<li><a href="container-managers.html">Container Runtimes/Managers &amp; Base Images. Podman, Buildah &amp; Skopeo</a></li>
-<li><a href="maven-gradle.html">Maven, Gradle &amp; SDKMAN</a></li>
-<li><a href="sonarqube.html">SonarQube</a></li>
-<li><a href="registries.html">Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more</a></li>
-<li><a href="linux.html">Linux &amp; SSH</a></li>
-<li><a href="mkdocs.html">MkDocs &amp; GitHub Pages</a></li>
-</ul>
-<h3 id="web-servers-reverse-proxies-java-runtimes-caching-solutions">Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions</h3>
-<ul>
-<li><a href="web-servers.html">Web Servers &amp; Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more</a></li>
-<li><a href="java_app_servers.html">Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more</a></li>
-<li><a href="embedded-servlet-containers.html">Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more</a></li>
-<li><a href="caching.html">Caching Solutions</a></li>
-</ul>
-<h2 id="monitoring-and-performance-prometheus-grafana-apms-and-more">Monitoring and Performance. Prometheus, Grafana, APMs and more</h2>
-<ul>
-<li><a href="monitoring.html">Monitoring and Performance</a></li>
-<li><a href="prometheus.html">Prometheus 🌟</a></li>
-<li><a href="grafana.html">Grafana</a></li>
-</ul>
-<h2 id="infrastructure-provisioning-infra-management-tools">Infrastructure Provisioning. Infra Management Tools</h2>
-<ul>
-<li><a href="iac.html">IaC Infrastructure as Code</a></li>
-<li><a href="terraform.html"><mark>Terraform &amp; Packer.Kubernetes Boilerplates</mark></a></li>
-<li><a href="pulumi.html">Pulumi</a></li>
-<li><a href="crossplane.html">Crossplane</a> A Kubernetes Control Plane to Roll Your Own PaaS</li>
-<li><a href="cloud-arch-diagrams.html">Cloud Architecture Diagram Tools</a></li>
-<li><a href="cloud-asset-inventory.html">Cloud Asset Inventory</a></li>
-</ul>
-<h2 id="configuration-management">Configuration Management</h2>
-<ul>
-<li><a href="ansible.html"><mark>Ansible</mark></a></li>
-<li><a href="helm.html">Helm Kubernetes Tool 🌟</a></li>
-<li><a href="kustomize.html">Kustomize - Template-Free Kubernetes Configuration Customization</a></li>
-<li><a href="stackstorm.html">StackStorm</a></li>
-<li><a href="chef.html">Chef</a></li>
-<li><a href="cicd-kubernetes-plugins.html">CI/CD Kubernetes Plugins</a></li>
-<li><a href="kubernetes-client-libraries.html">Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube &amp; Java Operator SDK</a></li>
-<li><a href="liquibase.html">Database Version Control. Liquibase, Flyway and PlanetScale</a></li>
-<li><a href="https://dzone.com/articles/gitops-with-openshift-applier">redhat-cop: Openshift Applier</a></li>
-<li><a href="yaml.html">YAML and JSON 🌟</a></li>
+<li><a href="https://www.cloudbees.com/blog/database-continuous-integration">cloudbees.com: Introductory Handbook for Database Continuous Integration</a></li>
 </ul>
 <h2 id="databases-on-kubernetes">Databases on Kubernetes</h2>
 <ul>
-<li><a href="databases.html">Relational Databases and Database DevOps 🌟</a></li>
+<li><a href="https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider">cloud.google.com: To run or not to run a database on Kubernetes - What to consider</a></li>
+<li><a href="https://www.reddit.com/r/kubernetes/comments/9d8on5/whats_the_best_proper_way_of_running_a_database/">reddit.com: What&rsquo;s the best, proper way of running a database cluster on top of Kubernetes?</a></li>
+<li><a href="https://learnk8s.io/cloud-resources-kubernetes">learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes</a></li>
+<li><a href="https://www.cloudsavvyit.com/5414/should-you-run-a-database-in-docker/">cloudsavvyit.com: Should You Run a Database in Docker?</a></li>
+</ul>
+<h2 id="database-devops">Database DevOps</h2>
+<ul>
+<li><a href="https://www.informationweek.com/devops/can-enterprises-benefit-from-adopting-database-devops/a/d-id/1337238">informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?</a></li>
+<li><a href="https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89">medium: DevOps and Databases — The forgotten automation</a></li>
+</ul>
+<h2 id="database-mesh">Database Mesh</h2>
+<ul>
+<li><a href="https://medium.com/@database-mesh/database-mesh-2-0-database-governance-in-a-cloud-native-environment-3e41f0f2722c">medium.com/@database-mesh: Database Mesh 2.0: Database Governance in a Cloud Native Environment</a> This article reviews the background of Database Mesh, reexamines the value of Database Mesh 1.0, and introduces the new concepts, ideas, and features of Database Mesh 2.0. It also attempts to explore the future of Database Mesh</li>
+</ul>
+<h2 id="kubedb-cloud-native-postgress-database">KubeDB Cloud Native Postgress Database</h2>
+<ul>
+<li><a href="https://kubedb.com/">kubedb.com</a> Run production-grade databases easily on Kubernetes</li>
+</ul>
+<h2 id="cockroach-cloud-native-database">Cockroach Cloud Native Database</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cockroach_Labs">Wikipedia: CockroachDB</a> is a project that is designed to store copies of data in multiple locations in order to deliver speedy access. It is described as a scalable, consistently-replicated, transactional datastore.</li>
+<li><a href="https://www.cockroachlabs.com/docs/stable/orchestration.html"><mark>Cockroach</mark></a></li>
+<li><a href="https://www.cockroachlabs.com/blog/automate-database-ops-with-terraform/">cockroachlabs.com: Automated database operations with Terraform</a></li>
+<li><a href="https://blog.cloudneutral.se/running-cockroachdb-tpc-c-benchmark-on-gke">blog.cloudneutral.se: Running CockroachDB TPC-C benchmark on GKE</a> This article demonstrates how to run a TPC-C 2.5K benchmark on a self-hosted, 3-node, single-region CockroachDB cluster on Google Kubernetes Engine (GKE)</li>
+</ul>
+<h2 id="operator-lifecycle-manager-olm">Operator Lifecycle Manager (OLM)</h2>
+<ul>
+<li><a href="https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04">itnext.io: Operator Lifecycle Manager</a></li>
+</ul>
+<h2 id="spilo-postgresql-operator">Spilo PostgreSQL Operator</h2>
+<ul>
+<li><a href="https://github.com/zalando/spilo">Spilo: HA PostgreSQL Clusters with Docker</a> Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA.</li>
+<li><a href="https://github.com/zalando/patroni">Patroni</a></li>
+<li><a href="https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes/">How I&rsquo;ve Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)</a></li>
+</ul>
+<h2 id="zalando-postgresql-operator">Zalando PostgreSQL Operator</h2>
+<ul>
+<li><a href="https://github.com/zalando/postgres-operator">Zalando Postgres Operator</a> Postgres operator creates and manages PostgreSQL clusters running in Kubernetes</li>
+</ul>
+<h2 id="crunchy-data-postgresql-operator">Crunchy Data PostgreSQL Operator</h2>
+<ul>
 <li><a href="crunchydata.html">Crunchy Data PostgreSQL Operator</a></li>
-<li><a href="nosql.html">NoSQL Databases</a></li>
 </ul>
-<h2 id="cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)</h2>
+<h2 id="oracle-12c-on-openshift-container-platform">Oracle 12c on OpenShift Container Platform</h2>
 <ul>
-<li><a href="message-queue.html">Data Pipeline 🌟</a></li>
+<li><a href="https://medium.com/@pittar/running-oracle-12c-on-openshift-container-platform-ca471a9f7057">medium: Running Oracle 12c on OpenShift Container Platform</a> Oracle is now offering an Oracle 12c image on Docker Hub for dev/test purposes (license still required for Prod).</li>
 </ul>
-<h2 id="service-mesh">Service Mesh</h2>
+<h2 id="oracle-database-operator-for-kubernetes">Oracle Database Operator for Kubernetes</h2>
 <ul>
-<li><a href="servicemesh.html">Service Mesh</a></li>
-<li><a href="istio.html">Istio</a></li>
+<li><a href="https://github.com/oracle/oracle-database-operator">https://github.com/oracle/oracle-database-operator</a></li>
 </ul>
-<h2 id="demos-and-boilerplates">Demos and Boilerplates</h2>
+<h2 id="sql-server">SQL Server</h2>
 <ul>
-<li><a href="demos.html"><mark>Demos, Boilerplates &amp; Screencasts</mark></a> OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more</li>
+<li>
+<p><a href="https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell/">Automate SQL Server Backups with PowerShell</a> - <em>(Related to kubernetes-backup-migrations topic)</em></p>
+</li>
+<li>
+<p><a href="https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/">Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift</a></p>
+</li>
+<li><a href="https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/">devblogs.microsoft.com: DevOps for Azure SQL 🌟</a></li>
+<li><a href="https://khalidabuhakmeh.com/running-sql-server-queries-in-docker">khalidabuhakmeh.com: Running SQL Server Queries In Docker</a></li>
 </ul>
-<h2 id="cloud">Cloud</h2>
+<h2 id="mysql">MySQL</h2>
 <ul>
-<li><a href="public-cloud-solutions.html">Public Cloud Solutions</a></li>
-<li><a href="private-cloud-solutions.html">Private Cloud Solutions</a></li>
-<li><a href="edge-computing.html">Edge Computing</a></li>
-<li><a href="aws.html"><mark>AWS</mark></a><ul>
-<li><a href="https://repost.aws"><mark>repost.aws</mark></a></li>
-<li><a href="aws-miscellaneous.html">AWS Miscellaneous</a></li>
-<li><a href="aws-architecture.html"><mark>AWS Architecture and Best Practices</mark></a></li>
-<li><a href="aws-networking.html">AWS Networking</a></li>
-<li><a href="aws-databases.html">AWS Databases</a></li>
-<li><a href="aws-storage.html">AWS Storage</a></li>
-<li><a href="aws-security.html">AWS Security</a></li>
-<li><a href="aws-monitoring.html">AWS Monitoring</a></li>
-<li><a href="aws-iac.html">AWS IaC</a></li>
-<li><a href="aws-tools-scripts.html">AWS Tools Scripts</a></li>
-<li><a href="aws-messaging.html">AWS Messaging</a></li>
-<li><a href="aws-data.html">AWS Data</a></li>
-<li><a href="aws-devops.html">AWS DevOps</a></li>
-<li><a href="aws-serverless.html">AWS Serverless</a></li>
-<li><a href="aws-pricing.html">AWS Pricing</a></li>
-<li><a href="aws-containers.html">AWS Containers</a></li>
-<li><a href="aws-backup.html">AWS Backup and Migrations</a></li>
-<li><a href="aws-training.html">AWS Training and Certification</a></li>
-<li><a href="aws-newfeatures.html">AWS New Features</a></li>
-<li><a href="aws-spain.html">AWS Spain</a></li>
+<li><a href="https://twindb.com/verify-mysql-backups-with-twindb-backup-tool/">twindb.com: Verify MySQL Backups With TwinDB Backup Tool</a></li>
+<li><a href="https://blog.eduguru.in/mysql-2/mysql-create-index-on-table">blog.eduguru.in: mysql create index on table</a></li>
+<li><a href="https://www.percona.com/blog/2020/06/30/mysql-101-parameters-to-tune-for-mysql-performance/">percona.com: MySQL 101: Parameters to Tune for MySQL Performance</a></li>
+<li><a href="https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4">pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER) in MySQL</a> Database schema relationships of tables</li>
+<li><a href="https://dbasecenter.com/blog/the-top-5-mysql-performance-variables/">dbasecenter.com: The top 5 MySQL performance variables</a></li>
+<li><a href="https://opensource.com/article/21/5/mysql-query-tuning">opensource.com</a> Tune your MySQL queries like a pro. Optimizing your queries isn&rsquo;t a dark art; it&rsquo;s just simple engineering.</li>
+<li><a href="https://www.percona.com/blog/2021/06/23/mysql-on-kubernetes-with-gitops/">percona.com: MySQL on Kubernetes with GitOps 🌟</a></li>
+<li><a href="https://cybozu-go.github.io/moco/">Moco</a> MOCO is a Kubernetes operator for MySQL created and maintained by Cybozu.</li>
+<li><a href="https://www.cloudsavvyit.com/13842/how-to-run-phpmyadmin-in-a-docker-container/">cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container</a></li>
+<li><a href="http://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified">tusacentral.com: MySQL on Kubernetes demystified</a></li>
+<li><a href="https://dzone.com/articles/postgresql-versus-mysql-performance">dzone: PostgreSQL vs MySQL Performance</a></li>
+<li><a href="https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker/">thenewstack.io: Deploy MySQL and phpMyAdmin with Docker</a></li>
+</ul>
+<h2 id="mariadb">MariaDB</h2>
+<ul>
+<li><a href="https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java/">thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java</a></li>
+</ul>
+<h2 id="postgresql">PostgreSQL</h2>
+<ul>
+<li><a href="https://momjian.us/main/writings/pgsql/administration.pdf">momjian.us: Mastering PostgreSQL Administration [pdf]</a></li>
+<li><a href="https://vladmihalcea.com/9-postgresql-high-performance-performance-tips/">9 High-Performance Tips when using PostgreSQL with JPA and Hibernate</a></li>
+<li><a href="https://www.migops.com/blog/2021/04/09/pgbackrest-the-best-postgres-backup-tool-with-a-very-active-community/">migops.com: pgBackRest – The Best Postgres Backup Tool with a very active community</a></li>
+<li><a href="https://towardsdatascience.com/practical-introduction-to-postgresql-5f73d3d394e">towardsdatascience.com: Practical Introduction to PostgreSQL</a></li>
+<li><a href="https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/">percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s</a></li>
+<li><a href="https://blog.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes">blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes</a></li>
+<li><a href="https://blog.flant.com/comparing-kubernetes-operators-for-postgresql/">blog.flant.com: Comparing Kubernetes operators for PostgreSQL</a></li>
+<li><a href="https://blog.crunchydata.com/blog/generating-json-directly-from-postgres">blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres</a></li>
+<li><a href="https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/">percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL</a></li>
+<li><a href="https://postgresapp.com/">Postgres.app</a> The easiest way to get started with PostgreSQL on the Mac</li>
+<li><a href="https://devopscube.com/deploy-postgresql-statefulset/">devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability</a></li>
+<li><a href="https://blog.crunchydata.com/blog/d-meta">blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands</a></li>
+<li><strong>Why Postgres?</strong><ul>
+<li>Its fully open source, so control over destiny</li>
+<li>Features are comparable to Oracle, so minimizes mental friction of the move</li>
 </ul>
 </li>
-<li><a href="azure.html"><mark>Microsoft Azure</mark></a></li>
-<li><a href="GoogleCloudPlatform.html"><mark>Google Cloud Platform</mark></a></li>
-<li><a href="ibm_cloud.html">IBM &amp; IBM Cloud</a></li>
-<li><a href="oraclecloud.html">Oracle Cloud</a></li>
-<li><a href="digitalocean.html">Digital Ocean</a></li>
-<li><a href="cloudflare.html">Cloudflare</a></li>
-<li><a href="scaleway.html">Scaleway</a></li>
-<li><a href="https://www.linode.com/">Linode</a></li>
-<li><a href="https://www.alibabacloud.com/">Alibaba</a></li>
-<li><a href="https://symbiosis.host/">Symbiosis</a></li>
-<li><a href="https://www.gaia-x.eu">Gaia-X.eu</a></li>
+<li><a href="https://blog.crunchydata.com/blog/message-queuing-using-native-postgresql">blog.crunchydata.com: Devious SQL: Message Queuing Using Native PostgreSQL</a></li>
+<li><a href="https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql/">percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?</a></li>
+<li><a href="https://www.percona.com/blog/postgresql-14-database-monitoring-and-logging-enhancements/">percona.com: PostgreSQL 14 Database Monitoring and Logging Enhancements</a></li>
+<li><a href="https://www.theregister.com/2021/12/06/mysql_a_pretty_poor_database/">theregister.com: MySQL a &lsquo;pretty poor database&rsquo; says departing Oracle engineer</a> PostgreSQL a better option for open source RDBMS, he claims</li>
+<li><a href="https://wanago.io/2021/12/06/views-postgresql-typeorm/">wanago.io: Creating views with PostgreSQL</a></li>
+<li><a href="https://github.com/percona/pg_stat_monitor"><mark>percona/pg_stat_monitor</mark></a> PostgreSQL Statistics Collector</li>
+<li><a href="https://blog.crunchydata.com/blog/a-postgres-primer-for-oracle-dbas"><mark>blog.crunchydata.com: A Postgres Primer for Oracle DBAs</mark></a></li>
+<li><a href="https://blog.crunchydata.com/blog/postgres-indexes-for-newbies"><mark>blog.crunchydata.com: Postgres Indexes for Newbies</mark></a></li>
+<li><a href="https://dev.to/yugabyte/rest-data-service-on-yugabytedb-postgresql-5f2h">dev.to: REST Data Service on YugabyteDB / PostgreSQL</a></li>
+<li><a href="https://github.com/orgrim/pg_back"><mark>orgrim/pg_back: Simple backup tool for PostgreSQL</mark></a> pg_back dumps databases from PostgreSQL</li>
+<li><a href="https://sqlrevisited.blogspot.com/2022/03/mysql-vs-postgresql-pros-and-cons.html">sqlrevisited.blogspot.com: MySQL vs PostgreSQL? Pros and Cons</a></li>
+<li><a href="https://adamtheautomator.com/postgres-to-kubernetes/"><mark>adamtheautomator.com: How to Deploy Postgres to Kubernetes</mark> 🌟</a> In this step-by-step tutorial, you will learn how to securely deploy Postgres to Kubernetes using two methods:<ul>
+<li>Helm charts</li>
+<li>YAML configurations</li>
 </ul>
-<h2 id="apis-with-soap-rest-and-grpc">APIs with SOAP, REST and gRPC</h2>
+</li>
+<li><a href="https://purnapoudel.blogspot.com/2018/09/how-to-configure-postgresql-with-ssl-tls-on-kubernetes.html">purnapoudel.blogspot.com: How to Configure PostgreSQL with SSL/TLS support on Kubernetes</a> This tutorial describes detailed steps to deploy PostgreSQL on Kubernetes with SSL/TLS support using PersistentVolume, configMap, and secrets along with possible issues, troubleshooting steps and work-around.</li>
+</ul>
+<h2 id="percona-mysql">Percona MySQL</h2>
 <ul>
-<li><a href="api.html">APIs with SOAP, REST and gRPC 🌟</a></li>
-<li><a href="swagger-code-generator-for-rest-apis.html">Swagger code generator for REST APIs</a></li>
-<li><a href="postman.html">API Test Automation with Postman and REST Assured</a></li>
-<li><a href="developerportals.html">API Marketplaces. API Management with API Gateways &amp; Developer Portals 🌟</a></li>
+<li><a href="https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html">Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster</a></li>
+<li><a href="https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c">medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0</a></li>
+<li><a href="https://www.percona.com/blog/2020/06/26/mysql-101-how-to-find-and-tune-a-slow-sql-query/">percona.com: MySQL 101: How to Find and Tune a Slow SQL Query</a></li>
+<li><a href="https://www.percona.com/blog/2021/03/22/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github/">percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github</a></li>
+<li><a href="https://www.percona.com/blog/migration-of-a-mysql-database-to-a-kubernetes-cluster-using-asynchronous-replication/">percona.com: Migration of a MySQL Database to a Kubernetes Cluster Using Asynchronous Replication</a></li>
 </ul>
-<h2 id="development-frameworks">Development &amp; Frameworks</h2>
+<h2 id="percona-postgresql-operator">Percona PostgreSQL Operator</h2>
 <ul>
-<li><a href="devel-sites.html">Websites for web developers</a></li>
-<li><a href="angular.html">Angular</a></li>
-<li><a href="dom.html">Document Object Model (DOM)</a></li>
-<li><a href="golang.html">Golang</a></li>
-<li><a href="javascript.html">JavaScript - node.js &amp; npm</a></li>
-<li><a href="python.html">Python - Django &amp; Flask</a></li>
-<li><a href="react.html">React</a></li>
-<li><a href="lowcode-nocode.html">Low Code and No Code</a></li>
-<li><a href="web3.html">Web3</a></li>
+<li><a href="https://www.percona.com/blog/migrating-postgresql-to-kubernetes">percona.com: Migrating PostgreSQL to Kubernetes</a></li>
 </ul>
-<h3 id="microsoft">Microsoft</h3>
+<h2 id="redis">Redis</h2>
 <ul>
-<li><a href="dotnet.html">Microsoft .NET</a></li>
-<li><a href="xamarin.html">Microsoft Xamarin</a></li>
+<li><a href="https://github.com/RedisLabs/redis-enterprise-k8s-docs">RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes</a> This page describes how to deploy Redis Enterprise on Kubernetes using the Redis Enterprise Operator.</li>
+<li><a href="https://tech.trell.co/redis-cluster-creation-automation-5e71eedf0e56">tech.trell.co: Redis Cluster Creation Automation</a></li>
+<li><a href="https://blog.devgenius.io/how-to-use-redis-pub-sub-in-your-python-application-b6d5e11fc8de">blog.devgenius.io: How to use Redis Pub/Sub in your Python Application 🌟</a></li>
 </ul>
-<h3 id="java">Java</h3>
+<h2 id="rockset">Rockset</h2>
 <ul>
-<li><a href="java_frameworks.html">Java &amp; Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more</a></li>
-<li><a href="java-and-java-performance-optimization.html">Java Memory Management &amp; Java Performance Optimization</a></li>
-<li><a href="jvm-parameters-matrix-table.html">Java Parameters Matrix Table</a></li>
+<li><a href="https://rockset.com/blog/sequoia-capital-elasticsearch-to-rockset/">rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset</a></li>
 </ul>
-<h3 id="dev-environment">Dev Environment</h3>
+<h2 id="pysondb">PysonDB</h2>
 <ul>
-<li><a href="visual-studio.html">Visual Studio Code 🌟</a></li>
-<li><a href="linux-dev-env.html">WSL: Linux Dev Environment on Windows</a></li>
-<li><a href="scaffolding.html">Scaffolding Tools</a></li>
-<li><a href="ChromeDevTools.html">Chrome &amp; Firefox DevTools. HTTP Protocols &amp; WebSockets</a></li>
+<li><a href="https://pysondb.github.io/pysonDB/">https://pysondb.github.io/pysonDB/</a></li>
+<li><a href="https://www.freecodecamp.org/news/how-to-get-started-with-pysondb/">freecodecamp.org: How to Get Started with PysonDB</a> PysonDB is yet another document-oriented database written in pure Python. Developed by Fredy Somy, it is simple, lightweight, and efficient.</li>
 </ul>
-<h2 id="qatestops-continuous-testing">QA/TestOps - Continuous Testing</h2>
+<h2 id="clickhouse">Clickhouse</h2>
 <ul>
-<li><a href="qa.html">QA</a></li>
-<li><a href="testops.html">TestOps and Continuous Testing</a></li>
-<li><a href="test-automation-frameworks.html">Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more</a></li>
+<li><a href="https://clickhouse.com">clickhouse.com</a> ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).</li>
+<li><a href="https://github.com/Altinity/clickhouse-operator">Altinity/clickhouse-operator</a> The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes</li>
+<li><a href="https://github.com/radondb/radondb-clickhouse-kubernetes">radondb/radondb-clickhouse-kubernetes</a> Open Source，High Availability Cluster，based on ClickHouse</li>
+<li><a href="https://tech.marksblogg.com/clickhouse-prometheus-grafana.html">tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus &amp; Grafana</a></li>
 </ul>
-<h2 id="ai">AI</h2>
+<h2 id="apache-ignite">Apache Ignite</h2>
 <ul>
-<li><a href="ai.html">AI</a></li>
-<li><a href="mlops.html">MLOps</a></li>
-<li><a href="chatgpt.html">ChatGPT</a></li>
+<li><a href="https://ignite.apache.org/">Apache Ignite</a> Distributed Database For High-Performance Computing With In-Memory Speed</li>
+<li><a href="https://dzone.com/articles/stateful-microservices-with-apache-ignite">dzone: Stateful Microservices With Apache Ignite</a> This article explains how to implement stateful microservices architecture for Spring Boot applications with distributed database Apache Ignite.</li>
 </ul>
-<h2 id="project-management-methodology">Project Management Methodology</h2>
+<h2 id="apache-druid">Apache Druid</h2>
 <ul>
-<li><a href="project-management-methodology.html">Project Management Methodology</a></li>
-<li><a href="project-management-tools.html">Project Management Tools</a></li>
-<li><a href="appointment-scheduling.html">Appointment Scheduling</a></li>
-<li><a href="workfromhome.html">Work From Home</a></li>
+<li><a href="https://druid.apache.org/">Apache Druid</a> Druid is a high performance, real-time analytics database that delivers sub-second queries on streaming and batch data at scale and under load.</li>
+<li><a href="https://dev.to/setevoy/apache-druid-overview-running-in-kubernetes-and-monitoring-with-prometheus-g5j"><mark>dev.to: Apache Druid: overview, running in Kubernetes and monitoring with Prometheus</mark></a> In this detailed tutorial, you will learn how to install, run and monitor Apache Druid on Kubernetes — a columnar database designed to work with large amounts of data</li>
 </ul>
-<h2 id="more-references">More References</h2>
+<h2 id="dolt-is-git-for-data">Dolt is Git for Data</h2>
 <ul>
-<li><a href="other-awesome-lists.html">Other Awesome Lists 🌟</a></li>
-<li><a href="interview-questions.html">Interview Questions</a></li>
-<li><a href="newsfeeds.html">Forums and Communities</a></li>
-<li><a href="elearning.html">E-Learning</a></li>
-<li><a href="digital-money.html">Digital Money</a></li>
+<li><a href="https://github.com/dolthub/dolt"><mark>github.com/dolthub/dolt</mark></a> Git for Data</li>
 </ul>
-<h2 id="hiring-and-freelancing">Hiring and Freelancing</h2>
+<h2 id="victoriametrics-and-victorialogs">VictoriaMetrics and VictoriaLogs</h2>
 <ul>
-<li><a href="recruitment.html">Recruitment</a></li>
-<li><a href="hr.html">Human Resources</a></li>
-<li><a href="freelancing.html">Freelancing</a></li>
-<li><a href="remote-tech-jobs.html">Remote Tech Jobs</a></li>
+<li><a href="https://victoriametrics.com">victoriametrics.com</a></li>
+<li><a href="https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/">victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics &amp; VictoriaLogs Updates</a> VictoriaLogs is an open source database for logs that uses up to 30x less RAM and up to 15x disk space than Elasticsearch has just relased several new features to celebrate their one year anniversary</li>
 </ul>
-<h2 id="customer-success-stories">Customer Success Stories</h2>
+<h2 id="tools">Tools</h2>
 <ul>
-<li><a href="customer.html">Customer Success Stories</a></li>
+<li><a href="https://github.com/TabularisDB/tabularis/blob/main/README.es.md">Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration</a> - <em>(Related to kubernetes-tools topic)</em></li>
+<li>
+<p><a href="https://github.com/frectonz/sql-studio">SQL Studio: A Unified SQL Database Explorer</a> - <em>(Related to kubernetes-tools topic)</em></p>
+</li>
+<li>
+<p><a href="https://github.com/mbucc/shmig">SHMIG</a> A database migration tool written in BASH consisting of just one file - shmig.</p>
+</li>
+<li><a href="https://github.com/DATA-DOG/go-sqlmock">DATA-DOG/go-sqlmock</a> Sql mock driver for golang to test database interactions</li>
+<li><a href="https://github.com/datafold/data-diff/">datafold/data-diff</a> Efficiently diff rows across two different databases.</li>
+<li><a href="https://medium.com/@nomulex/how-to-create-an-ssh-tunnel-to-a-remote-database-in-kubernetes-8e702e927328">medium.com/@nomulex: How to create an ssh tunnel to a remote database in Kubernetes 🌟</a></li>
 </ul>
-<hr />
-<center>
-
-[![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
-[![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform/) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/>
-[![dzone videos](images/dzone_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dzone/) [![prometheus videos](images/prometheus_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PrometheusIo) [![grafana videos](images/grafana_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Grafana) [![istio videos](images/istio_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Istio) [![elastic videos](images/elasticsearch_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Elastic) [![dynatrace videos](images/dynatrace_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dynatrace) [![appdynamics videos](images/appdynamics_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/appdynamics) [![newrelic videos](images/newrelic_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/NewRelicInc) [![tigera calico](images/tigera_calico_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC8uN3yhpeBeerGNwDiQbcgw) [![weavecloud](images/weavecloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/WeaveWorksInc) [![lambdatest](images/lambdatest.jpg){: style="width:7%"}](https://www.youtube.com/c/LambdaTest)<br/>
-[![atlassian videos](images/atlassian_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Atlassian) [![vscode videos](images/vscode_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Code) [![github videos](images/github_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GitHub) [![gitlab video](images/gitlab_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitlab) [![gitkraken](images/gitkraken_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitkraken) [![rocketchat videos](images/rocket_chat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RocketChatApp) [![slack videos](images/slack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Slackhq) [![mattermost videos](images/mattermost_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MattermostHQ) [![microsoft365](images/microsoft_365_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/microsoft365) [![openproject](images/openproject_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenProjectCommunity) [![tetrate](images/tetrate_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Tetrate)<br/>
-[![rh devel](images/rh_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RedHatDevelopers) [![spring logo](images/spring-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Quarkusio) [![lightbend videos](images/lightbend_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Lightbend-TV) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/postman) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Smartbear) [![jfrog](images/jfrog_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/JFrogInc) [![sonatype](images/sonatype_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Sonatypeinc) [![sonarsource sonarqube](images/sonarsource_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GoogleChromeDevelopers) [![mozilla developer](images/mozilla_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MozillaDeveloper)<br/>
-[![crunchydata](images/crunchydata_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CrunchyDataPostgres) [![liquibase video](images/liquibase_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC5qMsRjObu685rTBq0PJX8w) [![cockroachdb](images/cockroachdb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cockroachdb) [![mongodb](images/mongodb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MongoDBofficial) [![redis](images/redis_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Redisinc) [![confluent video](images/confluent_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Confluent) [![kubemq video](images/kubemq_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCud7fErZAyMC6lHT_cWZNfA) [![openebs](images/openebs_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g) [![storageos](images/storageos_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCm63IQg81KP9vXRWSHQpu1w) [![robin](images/robin_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCt7N400Z8gB_3yKq1qrjP2w) [![portworx](images/portworx_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Portworx)<br/>
-[![cloud academy](images/cloud_academy_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Cloudacademy) [![acloudguru](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AcloudGuru) [![devops_tv](images/devops_tv_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/XebiaLabs) [![devops library](images/devops_library_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopslibrary) [![codecademy](images/codecademy.jpg){: style="width:7%"}](https://www.youtube.com/c/codecademy) [![coursera](images/coursera_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Academind) [![guru99](images/guru99_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/guru99comm) [![intellipaat](images/intellipaat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Intellipaat) [![cloud quick POCs](images/cloudquickpocs.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)<br/>
-[![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)<br/>
-[![london IAC](images/londonIAC.jpg){: style="width:7%"}](https://www.youtube.com/c/LondonIAC) [![techworld nana](images/techworld_nana.jpg){: style="width:7%"}](https://www.youtube.com/c/TechWorldwithNana) [![honeypot](images/honeypot.jpg){: style="width:7%"}](https://www.youtube.com/c/Honeypotio) [![Ali Spittel](images/aspittel.jpg){: style="width:7%"}](https://www.youtube.com/c/AliSpittelDev) [![thomas maurer](images/thomas_maurer.jpg){: style="width:7%"}](https://www.youtube.com/c/ThomasMaurerCloud) [![freecodecamp](images/freecodecamp.jpg){: style="width:7%"}](https://www.youtube.com/c/Freecodecamp) [![thenewstack](images/thenewstack.jpg){: style="width:7%"}](https://www.youtube.com/c/TheNewStack) [![argocd project](images/argoproj.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA) [![fluxcd](images/fluxcd.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA) [![container days](images/containerdays.jpg){: style="width:7%"}](https://www.youtube.com/c/ContainerDays) [![the cloud girl](images/thecloudgirl.jpg){: style="width:7%"}](https://www.youtube.com/c/priyankavergadia)<br/>
-[![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![tina huang](images/tinahuang.jpg){: style="width:7%"}](https://www.youtube.com/c/TinaHuang1) [![azure devops](images/azure_devops_youtube.jpg){: style="width:7%"}](https://www.youtube.com/c/AzureDevOps) [![azure cloud native](images/azure_cloud_native.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw) [![alibaba cloud](images/alibaba_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/AlibabaCloud) [![linode cloud](images/linode_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/linode) [![gaia-x](images/gaia_x.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCB5WMc2FfrxKzfd7XIODoMw) [![gps](images/gps.jpg){: style="width:7%"}](https://www.youtube.com/c/MadeByGPS) [![keptn](images/keptn_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/keptn) [![anais urlichs](images/anais_urlichs.jpg){: style="width:7%"}](https://www.youtube.com/c/AnaisUrlichs) [![the digital life](images/the_digital_life.jpg){: style="width:7%"}](https://www.youtube.com/c/TheDigitalLifeTech)<br/>
-[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![netbox](images/netboxlabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/@NetBoxLabs) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:7%"}](https://www.youtube.com/@ByteByteGo) [![dotcsv](images/dotcsv.jpg){: style="width:7%"}](https://www.youtube.com/@DotCSV) [![midulive](images/midulive.jpg){: style="width:7%"}](https://www.youtube.com/@midulive)
-
-</center>
-
+<h2 id="time-series-database">Time-Series Database</h2>
+<ul>
+<li><a href="https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database/">thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database</a></li>
+</ul>
+<h2 id="data-analytics-and-visualization-tools">Data Analytics and Visualization Tools</h2>
+<ul>
+<li><a href="https://opensource.com/article/21/4/visualize-data-eda">opensource.com: Make your data boss-friendly with EDA - Enterprise Data Analytics</a> - <a href="https://eda.jortilles.com/en/jortilles-english/">EDA</a></li>
+<li><a href="https://thenewstack.io/kubernetes-run-analytics-at-the-edge-postgres-kafka-debezium/">thenewstack.io: Kubernetes-Run Analytics at the Edge: Postgres, Kafka, Debezium</a></li>
+</ul>
+<h2 id="data-lakes">Data Lakes</h2>
+<ul>
+<li><a href="https://www.unifieddatascience.com/data-lake-design-patterns-on-azure-microsoft-cloud">unifieddatascience.com: Data lake design patterns on Azure (Microsoft) cloud</a></li>
+<li><a href="https://www.unifieddatascience.com/data-lake-design-patterns-on-aws-amazon-cloud">unifieddatascience.com: Data lake design patterns on AWS (Amazon) cloud</a></li>
+<li><a href="https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud">unifieddatascience.com: Data lake design patterns on google (GCP) cloud</a></li>
+</ul>
+<h2 id="graph-databases">Graph Databases</h2>
+<ul>
+<li><a href="https://github.com/BBVA/sqerzo">SQErzo: Tiny ORM for Graph databases</a> Tiny ORM for graph databases: Neo4j, RedisGraph, AWS Neptune or Gremlin</li>
+<li><a href="https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f">towardsdatascience.com: At Its Core: How Is a Graph Database Different from a Relational One?</a> It’s easy to come up with some answers by simply Googling the topic, however, as I found, most answers list benefits mostly superficially</li>
+</ul>
+<h2 id="excel">Excel</h2>
+<ul>
+<li><a href="https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche">xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche</a> James Vowles, nuevo jefe de Williams, encontró uno de los motivos por los que el histórico equipo de la Fórmula 1 estaba tan atrasado</li>
+</ul>
+<h2 id="videos">Videos</h2>
 <details class="note">
-<summary>Top Videos &amp; Clips - Click to expand!</summary>
+<summary>Click to expand!</summary>
 <center>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/318elIq37PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rT4fJNbfe14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8g4qLzkpjeE?si=xcfl3ugsMGZ8Kthg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nrhxNNH5lt0?si=U5h1mbkbF6ZEOvlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uQz0TpyJbE8?si=Ys-bXCWcoG-nDU1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MRIv2IwFTPg?si=F07g869i6yIfqRdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=fJvBV63-mjQ6S-Ht&amp;list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/OqCK95AS-YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SxsMgHFNvWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W_Knpfhv0Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OJySfiMKXLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </center>
 </details>
-<!--
-[![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
--->
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/963413508300812295?ref_src=twsrc%5Etfw">February 13, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+
+<center>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Postgres is what happens when tech gets so good, for so long, it becomes boring. Dope since the 80s. <a href="https://t.co/zeoagBfMvW">https://t.co/zeoagBfMvW</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1343617588262096896?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stack Overflow&#39;s SQL Server is at 4% CPU with 500M queries/day <a href="https://t.co/wX9Od749ik">https://t.co/wX9Od749ik</a> <a href="https://t.co/1BAuEV9VgT">https://t.co/1BAuEV9VgT</a></p>&mdash; Lukas Eder (@lukaseder) <a href="https://twitter.com/lukaseder/status/1428025568461737996?ref_src=twsrc%5Etfw">August 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">PostgreSQL for relational.<br>PromQL for monitoring.<br><br>Two big alignments across the industry.</p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1448084198418522113?ref_src=twsrc%5Etfw">October 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m super curious, how many people have successfully migrated their databases from Oracle to Postgres in production? I&#39;m talking 100% migration with Oracle being turned off at the end.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1455212853678338048?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes can only meet stateful services half way. We need direct changes in databases, message brokers, and other stateful systems if we want to see a future where Kubernetes becomes the preferred destination to run them. The <a href="https://twitter.com/VectorizedIO?ref_src=twsrc%5Etfw">@vectorizedio</a> team is doing their part. <a href="https://t.co/w94Q56nnXM">https://t.co/w94Q56nnXM</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1457828928022745090?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sometimes we work for a database and need to connect to another (<a href="https://twitter.com/hashtag/migration?src=hash&amp;ref_src=twsrc%5Etfw">#migration</a> ;) so I explained to a colleague the difference between Oracle SERVICE_NAME and SID. Pasting it here in case it helps 🧵</p>&mdash; Franck Pachot 🚀 (@FranckPachot) <a href="https://twitter.com/FranckPachot/status/1488796764014587909?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes Database Operator is useful for building scalable database servers as a database cluster. But migrating existing databases to k8s requires a lot of manual work due to having to create new artifacts.<br><br>At our next meetup, we&#39;ll demo an open-source tool to solve this. <a href="https://t.co/o55vnyITV2">pic.twitter.com/o55vnyITV2</a></p>&mdash; konveyor.io (@Konveyor_io) <a href="https://twitter.com/Konveyor_io/status/1489597744213897218?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Surprising number of devs today don&#39;t seem to know how to write their own database schemas. Is SQL really that out of fashion?</p>&mdash; Joyce Park (@troutgirl) <a href="https://twitter.com/troutgirl/status/1510050777015889923?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It is often surprising how little is known about how databases operate at a surface level, considering they store almost all of the states in our applications. Things You Should Know About Databases. <a href="https://t.co/SAX5wHaS3m">pic.twitter.com/SAX5wHaS3m</a></p>&mdash; Architecture Notes (@arcnotes) <a href="https://twitter.com/arcnotes/status/1585651294487728128?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Partitioning is the process of storing a large database across multiple machines.<br><br>Here are the popular partitioning architectures with their benefits and costs: {1/8} ↓ <a href="https://t.co/85JdhcISJq">pic.twitter.com/85JdhcISJq</a></p>&mdash; Fernando 🇮🇹🇨🇭 (@Franc0Fernand0) <a href="https://twitter.com/Franc0Fernand0/status/1604131437430689796?ref_src=twsrc%5Etfw">December 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is the 𝗦𝗤𝗟 𝗤𝘂𝗲𝗿𝘆 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻?<br><br>There are many steps involved in optimising your SQL Queries. It is helpful to understand the order of SQL Query Execution as we might have constructed a different picture mentally.<br><br>The actual order is as… <a href="https://t.co/ApvRbkH652">pic.twitter.com/ApvRbkH652</a></p>&mdash; Aurimas Griciūnas (@Aurimas_Gr) <a href="https://twitter.com/Aurimas_Gr/status/1655891665398255618?ref_src=twsrc%5Etfw">May 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">State of Database 2023 <a href="https://t.co/uXd2sM7dq9">https://t.co/uXd2sM7dq9</a> <a href="https://t.co/sGBmXqT3CA">pic.twitter.com/sGBmXqT3CA</a></p>&mdash; Architecture Notes (@arcnotes) <a href="https://twitter.com/arcnotes/status/1688248500398473217?ref_src=twsrc%5Etfw">August 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+</details>
 
 
 
