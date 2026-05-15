@@ -21,7 +21,10 @@ This file contains the accumulated instructions and long-term vision for the aut
 15. **GitHub Metadata Enrichment**: For all `github.com` resources, the bot MUST attempt to fetch real-time metadata (stars, last commit) using the GitHub API. This data must be included in the V2 rendering to provide current context.
 16. **Resilient Link Health**: Every V2 generation cycle MUST perform asynchronous health checks. The bot MUST use identity rotation (User-Agents) and multiple attempts (3x) with backoff to minimize false negatives. Only definitive **404 Not Found** errors lead to removal; other failures (timeouts, 403s) result in the link being preserved but flagged as `[OFFLINE?]` to ensure maximum technical preservation. GitHub and 'Foundational' resources are exempt from removal based on health checks.
 17. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote branches already merged into `develop`. The branches `master`, `develop`, and `gh-pages` are strictly protected and MUST NEVER be deleted.
-18. **V1/V2 Asset Integrity & Sharing**: V1 (`docs/`) is the absolute source of truth for assets. The V2 portal (`v2-docs/`) MUST NOT contain duplicate `images/` or `static/` folders. All V2 assets (banners, icons, favicons, CSS) MUST use relative paths pointing to the V1 directory (e.g., `../docs/images/`).
+18. **V1/V2 Asset Integrity & Rendering**: 
+    - **Source of Truth**: V1 (`docs/`) is the absolute source of truth for assets. V2 portal (`v2-docs/`) MUST NOT duplicate folders; it uses symlinks or relative paths.
+    - **Rendering Fix (HTML in MD)**: All `<center>` tags MUST be defined as `<center markdown="1">` and followed by a mandatory blank line before and after the content. This ensures MkDocs processes the Markdown within the HTML block.
+    - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 19. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 
 ## 🛠️ Structural Evolution & Navigation
@@ -117,4 +120,5 @@ The bot must rotate between profiles to avoid detection:
     - **V1 Integrity Restored**: Recovered all V1 files in `docs/` to ensure original descriptive content and images are preserved.
     - **V2 Navigation Fixed**: Converted V2 top bar to a flat structure for better UX and link stability.
     - **Relative Asset Routing**: Updated all V2 image and configuration paths to point relatively to `../docs/` to avoid asset duplication.
+    - **Rendering & Path Resolution**: Implemented `<center markdown="1">` and `use_directory_urls: false` across V1 and V2 to resolve persistent image path breakage and ensure proper Markdown rendering within HTML tags.
     - **Optimizer Alignment**: Hardened `src/v2_optimizer.py` to enforce these architectural rules (flat navigation, relative paths, and resilient V1 content extraction).
