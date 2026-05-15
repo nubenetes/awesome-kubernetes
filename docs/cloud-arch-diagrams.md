@@ -40,7 +40,6 @@
 
 ## K8s Diagrams
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - This blog post discusses the benefits of using Draw.io MCP (Model Context Protocol) to generate diagrams from structured input like text, CSV, or Mermaid. It highlights how this approach integrates diagrams with code and infrastructure, turning them into living assets that evolve with the system, especially relevant for cloud, platform, and AI-assisted engineering workflows.
-  - [Control Plane Load Balancing Explained](https://t0.mirantis.com/control-plane-load-balancing-explained-ad3816837cc0) - *(Related to kubernetes topic)*
 
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
