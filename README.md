@@ -22,12 +22,13 @@
     *   [V1: The Exhaustive Archive](#v1-the-exhaustive-archive)
     *   [V2: The Agentic Elite Edition](#v2-the-agentic-elite-edition)
     *   [Comparison Matrix](#comparison-matrix)
-5.  [The Agentic AI Engine](#-the-agentic-ai-engine)
-6.  [GitHub Workflows & Automation](#-github-workflows--automation)
+5.  [The Agentic Stack](#-the-agentic-stack)
+6.  [The Agentic AI Engine](#-the-agentic-ai-engine)
+7.  [GitHub Workflows & Automation](#-github-workflows--automation)
     *   [Workflow Inventory](#workflow-inventory)
     *   [Curation Flow Architecture](#curation-flow-architecture)
-7.  [Branching Strategy & Lifecycle](#-branching-strategy--lifecycle)
-8.  [Developer Experience & VSCode Setup](#-developer-experience--vscode-setup)
+8.  [Branching Strategy & Lifecycle](#-branching-strategy--lifecycle)
+9.  [Developer Experience & VSCode Setup](#-developer-experience--vscode-setup)
 
 ---
 
@@ -97,18 +98,62 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2026-04 | 25 | 103 | Pre-Agentic Preparation |
 | **2026-05** | **377+** | **1,557+** | **Agentic Inception (Gemini Era)** |
 
-### Content Distribution
+### Content Distribution & Semantic Clustering
+
+Nubenetes uses AI-driven semantic clustering to organize its 17,000+ resources into logical pillars. Below is a detailed breakdown of how the archive is distributed.
+
+#### 1. Major Ecosystem Pillars
+This chart shows the high-level distribution across the primary domains of Cloud Native engineering.
 
 ```mermaid
-pie title Nubenetes Content Distribution (Top Categories)
-    "Kubernetes Core" : 1149
-    "Tools & Ecosystem" : 740
-    "IaC & Terraform" : 640
-    "Cloud Providers" : 1253
-    "CI/CD & DevOps" : 1227
-    "Security & SRE" : 754
-    "Others (150+ Pages)" : 12370
+pie title Nubenetes Major Ecosystem Pillars
+    "Kubernetes Ecosystem" : 3500
+    "Developer Ecosystem" : 3000
+    "Public/Private Cloud" : 2500
+    "CI/CD & GitOps" : 2200
+    "Others (Specialized)" : 2733
+    "Infra as Code" : 1200
+    "SRE & Observability" : 1000
+    "Security & DevSecOps" : 1000
 ```
+
+*   **Kubernetes Ecosystem:** Includes core K8s, tools, networking, security, and operators. This is the heart of the project, with over 3,500 curated references.
+*   **Developer Ecosystem:** Covers programming languages (Go, Python, Java), VSCode, and web technologies. It reflects the "Dev" in DevOps.
+*   **Public/Private Cloud:** Detailed resources for AWS, Azure, GCP, and specialized private cloud solutions like OpenShift and Rancher.
+
+#### 2. Deep Dive: Specialized Sub-ecosystems
+To better understand the "Others" category, we break down the specialized technical domains that form the long-tail of Nubenetes.
+
+```mermaid
+pie title Deep Dive: Specialized Sub-ecosystems
+    "Databases (SQL/NoSQL)" : 600
+    "Demos & Boilerplates" : 538
+    "AI & Agentic Systems" : 450
+    "Web Servers & Runtimes" : 400
+    "Message Queues & Data" : 336
+    "Career & Recruitment" : 250
+    "Linux & OS Hardening" : 265
+    "Others (100+ Topics)" : 1161
+```
+
+*   **AI & Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
+*   **Databases:** Deep coverage of relational (PostgreSQL/Crunchy) and NoSQL databases, including database version control with Liquibase.
+*   **Demos:** High-value repositories with ready-to-use production boilerplates, perfect for "Day 0" projects.
+
+---
+
+## 🦾 The Agentic Stack
+
+The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensures 24/7 curation and maintenance.
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Orchestration** | GitHub Actions | Scheduled & Event-driven execution (via `develop` branch). |
+| **Intelligence** | Google Gemini 1.5 Pro | Resource evaluation, scoring, and classification. |
+| **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
+| **Discovery** | Twikit & Playwright | Autonomous scraping and account rotation. |
+| **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
+| **Deployment** | MkDocs Material | High-performance static site generation for V1 and V2. |
 
 ---
 
