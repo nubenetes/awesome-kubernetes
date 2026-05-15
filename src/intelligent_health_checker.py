@@ -76,8 +76,12 @@ class IntelligentLinkCleaner:
 
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         now = datetime.now().timestamp()
+
+        # 0. Policy Enforcement: No archive.org links allowed
+        if "archive.org" in url.lower():
+            return url, False, None, "Archive.org link (Forbidden by policy)"
         
-        # NOTE: V1 Exhaustiveness Mandate
+        # 1. NOTE: V1 Exhaustiveness Mandate
         # We fetch GitHub metadata for logging/metrics, but we DO NOT delete based on activity.
         # Only definitively dead links are removed in V1.
         if "github.com" in url:
