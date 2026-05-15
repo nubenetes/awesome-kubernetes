@@ -236,6 +236,29 @@ Nubenetes uses a complex network of GitHub Actions to maintain the archive.
 | **V2 Elite Builder** | [`agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml) | Generates the high-density Elite edition in `v2-docs/`. | After Curation | Agentic Curation |
 | **Link Health** | [`intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml) | Global link health check & deduplication. | Monthly / Manual | None |
 | **Backup Curation** | [`agentic_backup.yml`](.github/workflows/agentic_backup.yml) | Processes historical backups (JSON/MD) into the repo. | Manual | None |
+| **README Sync** | [`readme_sync.yml`](.github/workflows/readme_sync.yml) | Autonomous synchronization of metrics and diagrams. | Push to `develop` | None |
+
+### Curation Flow Architecture
+
+```mermaid
+sequenceDiagram
+    participant X as X.com / Sources
+    participant G as Gemini Agent
+    participant W as GitHub Workflow
+    participant R as Repo (develop)
+    participant S as README Sync
+
+    W->>X: Extract Raw Data
+    X-->>W: Raw JSON/MD
+    W->>G: Evaluate & Score Assets
+    G-->>W: Scored & Categorized Assets
+    W->>W: Inject into docs/*.md
+    W->>R: Create Pull Request
+    Note over R: V2 Builder Triggered...
+    W->>R: Update V2 Elite Edition
+    R->>S: Trigger README Sync
+    S->>R: Update Metrics & TOC
+```
 
 ### Deployment Lifecycle
 
@@ -244,10 +267,12 @@ graph LR
     A["AI Discovery"] --> B["V1 Update (develop)"]
     B --> C["CI/CD Build V1"]
     B --> D["V2 Vision Engine"]
+    B --> Z["README Sync"]
     D --> E["V2 Update (develop)"]
     E --> F["CI/CD Build V2"]
     C --> G["nubenetes.com"]
     F --> H["nubenetes.com/v2/"]
+    Z --> B
 ```
 
 ---
