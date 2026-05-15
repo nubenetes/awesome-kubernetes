@@ -520,7 +520,6 @@
 - [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90) The move from a distributed microservices architecture to a monolith application helped achieve higher scale, resilience, and reduce costs.
 
 ## Openshift VS Kubernetes
-  - [OCP4 Getting Started Showroom](https://rhpds.github.io/ocp4-getting-started-showroom/modules/main/index.html) - *(Related to ocp4 topic)*
 
 - [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
 - [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)
