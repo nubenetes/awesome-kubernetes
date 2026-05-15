@@ -54,6 +54,41 @@ To ensure robust rendering across GitHub, VSCode, and MkDocs, follow these stand
     *   Recursive loops without proper termination.
 5.  **Integration with MkDocs**: Ensure `pymdownx.superfences` is configured in `mkdocs.yml` to support Mermaid blocks within Markdown.
 
+## 📝 README Synchronization & Maintenance Protocols
+
+The `README.md` is the primary entry point for Nubenetes and must accurately reflect the state of both the **V1 (Exhaustive)** and **V2 (Elite)** editions. AI agents and contributors MUST follow these protocols:
+
+### 1. Mandatory Updates on `develop` Branch
+Before any Pull Request is merged from `develop` to `master`, the `README.md` must be audited and updated to reflect the latest changes. This is critical for maintaining the "Source of Truth" status.
+
+### 2. Metric Recalculation
+Whenever a significant curation cycle (automatic or manual) is completed:
+*   **Link Counts:** Update the "Heart of Nubenetes" table with the current total link count and specialized page count.
+*   **Top Categories:** Recalculate the density of the top 10 categories.
+*   **Historical Growth:** Add/update the monthly surge rows in the "2026: The Agentic Monthly Surge" table.
+*   **Reference Estimates:** Use the established ratio (~4.13 links/commit) to estimate new reference growth if exact numbers aren't extracted by the bot.
+
+### 3. Visual & Diagram Sync
+*   **Mermaid Charts:** If new top-level categories are created or existing ones grow significantly, update the "Major Ecosystem Pillars" and "Specialized Sub-ecosystems" pie charts.
+*   **Architecture Flow:** If the Agentic Stack or the deployment lifecycle changes (e.g., new workflows, different dependencies), the corresponding Mermaid diagrams MUST be updated immediately.
+*   **Robustness:** Follow the "Mermaid Diagram Best Practices" (node quoting, explicit direction) as defined in this document.
+
+### 4. V1 vs V2 Alignment
+*   Ensure any changes to the `V2VisionEngine` or the elite selection criteria are reflected in the "Dual-Edition Architecture" section.
+*   Update the "Comparison Matrix" if the technical differences between V1 and V2 evolve.
+
+### 5. Automation vs Manual Intervention
+*   **Automated Updates:** The Agentic Bot should ideally include a step to refresh these metrics in its curation PRs.
+*   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
+
+## 🚀 Block Evasion Strategies
+
+The bot must rotate between profiles to avoid detection:
+1.  **Desktop/Google**: Standard desktop request.
+2.  **Mobile/Twitter**: Mobile request with Twitter Referer (high success rate).
+3.  **Playwright/LinkedIn**: Real navigation with JS enabled.
+4.  **Firefox/Reddit**: Alternative desktop profile.
+
 ## 📈 Learning Diary (Improvement History)
 
 *   **May 2026**: Initial implementation of the autonomous engine with Playwright and Wayback Machine.
