@@ -129,11 +129,20 @@ class IntelligentLinkCleaner:
                     return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
+                    fallback_result = None
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/"); repo_root = "/".join(parts[:5]) if len(parts) > 4 else None
                         if repo_root:
                             root_alive, _ = await self._check_url_logic(repo_root, strategies[0])
-                            if root_alive: return url, False, f"REPO_ROOT:{repo_root}", f"Consolidated (Original: {reason})"
+                            if root_alive: fallback_result = f"REPO_ROOT:{repo_root}"
+                    
+                    # Cache DEAD status for resumption
+                    if "link_cache" not in self.learning_data: self.learning_data["link_cache"] = {}
+                    self.learning_data["link_cache"][url] = {
+                        "status": "DEAD", "reason": reason, "fallback": fallback_result, "last_checked": now
+                    }
+                    
+                    if fallback_result: return url, False, fallback_result, f"Consolidated (Original: {reason})"
                     if attempt == max_retries - 1:
                         return url, False, None, reason
             except: pass
@@ -219,7 +228,15 @@ class IntelligentLinkCleaner:
 
     async def validate_links_tiered(self):
         log_event(f"[*] Validating {len(self.link_registry)} unique URLs (Randomized Tiered Batching)...", section_break=True)
-        unique_urls = list(self.link_registry.keys()); random.shuffle(unique_urls)
+        
+        # Recover DEAD links from cache to enable resumption
+        for url, cache in self.learning_data.get("link_cache", {}).items():
+            if cache.get("status") == "DEAD" and url in self.link_registry:
+                self.dead_links[url] = (cache.get("fallback"), cache.get("reason"))
+                log_event(f"    [M] Recovered from memory: {url} (DEAD)")
+
+        unique_urls = [u for u in self.link_registry.keys() if u not in self.dead_links]
+        random.shuffle(unique_urls)
         total_unique = len(unique_urls)
         for i in range(0, total_unique, 40):
             batch = unique_urls[i:i+40]
