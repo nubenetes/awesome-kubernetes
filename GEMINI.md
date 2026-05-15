@@ -119,7 +119,7 @@ The bot must rotate between profiles to avoid detection:
 
 ## 📈 Learning Diary (Improvement History)
 
-*   **May 2026**: Initial implementation of the autonomous engine with Playwright and Wayback Machine.
+*   **May 2026**: Initial implementation of the autonomous engine with Playwright and GitHub API.
 *   **May 2026**: Added Multidimensional Evasion system (5 attempts, profile rotation).
 *   **May 2026**: Creation of `AgenticCurator` for navigation audit and repository consolidation.
 *   **May 2026**: Generation of PRs with visual analytics (Mermaid) and Health Matrix.

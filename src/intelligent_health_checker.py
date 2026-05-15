@@ -30,9 +30,9 @@ class IntelligentLinkCleaner:
             "skipped_recent": 0,
             "by_file": {}, 
             "by_category": {}, 
-            "operation_types": {"removals": 0, "archived": 0, "consolidated": 0, "orphans": 0}
+            "operation_types": {"removals": 0, "consolidated": 0, "orphans": 0}
         }
-        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "archived_fallbacks": 0, "orphans_fixed": 0}
+        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "orphans_fixed": 0}
 
     def _load_memory(self) -> Dict:
         if os.path.exists(MEMORY_FILE):
@@ -44,17 +44,6 @@ class IntelligentLinkCleaner:
     def _save_memory(self):
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
         with open(MEMORY_FILE, 'w') as f: json.dump(self.learning_data, f, indent=2)
-
-    async def _check_wayback(self, url: str) -> Optional[str]:
-        api_url = f"https://archive.org/wayback/available?url={url}"
-        try:
-            async with httpx.AsyncClient(timeout=10) as client:
-                resp = await client.get(api_url)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    if data.get("archived_snapshots", {}).get("closest"): return data["archived_snapshots"]["closest"]["url"]
-        except: pass
-        return None
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
@@ -142,8 +131,6 @@ class IntelligentLinkCleaner:
                             root_alive, _ = await self._check_url_logic(repo_root, strategies[0])
                             if root_alive: return url, False, f"REPO_ROOT:{repo_root}", f"Consolidated (Original: {reason})"
                     if attempt == max_retries - 1:
-                        archived = await self._check_wayback(url)
-                        if archived: return url, False, f"ARCHIVE:{archived}", f"Archived (Original: {reason})"
                         return url, False, None, reason
             except: pass
         return url, True, None, "Conservative Keep"
@@ -259,12 +246,7 @@ class IntelligentLinkCleaner:
                 if file_path not in file_updates:
                     with open(file_path, 'r') as f: file_updates[file_path] = f.readlines()
                 line_idx = occ["line_index"]
-                if fallback and fallback.startswith("ARCHIVE:"):
-                    real_f = fallback.replace("ARCHIVE:", "")
-                    file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_f)
-                    if "[ARCHIVED]" not in file_updates[file_path][line_idx]: file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace("](", " [ARCHIVED]]( ")
-                    track(file_path, "modified", url, reason); self.detailed_stats["operation_types"]["archived"] += 1
-                elif fallback and fallback.startswith("REPO_ROOT:"):
+                if fallback and fallback.startswith("REPO_ROOT:"):
                     real_f = fallback.replace("REPO_ROOT:", "")
                     file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_f)
                     track(file_path, "modified", url, reason); self.detailed_stats["operation_types"]["consolidated"] += 1
@@ -300,14 +282,12 @@ class IntelligentLinkCleaner:
         report += "### 📊 Distribución de Operaciones\n"
         report += "```mermaid\npie title Operaciones de Mantenimiento\n"
         report += f"    \"Eliminados\" : {self.detailed_stats['operation_types']['removals']}\n"
-        report += f"    \"Archivados\" : {self.detailed_stats['operation_types']['archived']}\n"
         report += f"    \"Consolidados\" : {self.detailed_stats['operation_types']['consolidated']}\n"
         report += f"    \"Nuevos\" : {self.detailed_stats['operation_types']['orphans']}\n```\n\n"
         report += "### 📈 Resumen de Eficiencia\n"
         report += "| Métrica | Cantidad | Detalle |\n| :--- | :---: | :--- |\n"
         report += f"| ⏩ Omitidos (Cache) | **{self.detailed_stats['skipped_recent']}** | Verificados hace menos de 21 días |\n"
         report += f"| 💀 Eliminados | **{self.detailed_stats['operation_types']['removals']}** | 404 definitivos |\n"
-        report += f"| 🏛️ Archivados | **{self.detailed_stats['operation_types']['archived']}** | Vía Wayback Machine |\n"
         report += f"| 🎯 Consolidados | **{self.detailed_stats['operation_types']['consolidated']}** | Raíz de Repositorio Git |\n"
         report += f"| 🖇️ Nuevos | **{self.detailed_stats['operation_types']['orphans']}** | Páginas vinculadas |\n\n"
         report += "### 🧮 Matriz de Mantenimiento\n"
