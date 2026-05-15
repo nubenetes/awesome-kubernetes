@@ -95,7 +95,13 @@ class IntelligentLinkCleaner:
                 return url, False, None, f"Abandoned Repo (Inactive {gh_meta['years_inactive']:.1f}y, {gh_meta['stars']}⭐)"
 
         cache_entry = self.learning_data.get("link_cache", {}).get(url)
-...
+        if cache_entry and cache_entry.get("status") == "ALIVE":
+            if now - cache_entry.get("last_checked", 0) < (21 * 24 * 3600):
+                self.detailed_stats["skipped_recent"] += 1
+                return url, True, None, "Cached (Recent)"
+
+        domain = url.split("//")[-1].split("/")[0]
+        domain_info = self.learning_data.get("domains", {}).get(domain, {})
         strategies = [
             {"type": "http", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "ref": "https://www.google.com/", "desc": "Desktop/Google"},
             {"type": "http", "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1", "ref": "https://t.co/", "desc": "Mobile/Twitter"},
