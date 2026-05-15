@@ -57,7 +57,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **17133+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **3994+** |
+| **Total Commits** | **3996+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 
 ### Top Categories by Density
@@ -90,13 +90,13 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 435 | 1,796 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 437 | 1,804 | **Agentic AI Surge** (May 2026 Inception) |
 
 #### 2026: The Agentic Monthly Surge
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 410 | 1,693 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 412 | 1,701 | **Agentic Inception (Gemini Era)** |
 
 ### Content Distribution & Semantic Clustering
 
