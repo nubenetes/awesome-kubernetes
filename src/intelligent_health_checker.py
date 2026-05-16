@@ -191,16 +191,17 @@ class IntelligentLinkCleaner:
             except: pass
         return url, True, None, "Conservative Keep"
 
-        async def _enrich_description_if_needed(self, url: str):
+                async def _enrich_description_if_needed(self, url: str):
         """
         Policy Update: We NO LONGER enrich existing V1 descriptions in the repo 
         to respect manual curation. However, we ensure the INVENTORY has a 
         description for the V2 Elite portal.
         """
-        if url not in self.inventory: self.inventory[normalize_url(url)] = {}
+        norm_url = normalize_url(url)
+        if norm_url not in self.inventory: self.inventory[norm_url] = {}
         
         # If inventory already has a description, we are done
-        if self.inventory[normalize_url(url)].get("ai_summary"): return
+        if self.inventory[norm_url].get("ai_summary"): return
 
         log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
         try:
@@ -209,23 +210,20 @@ class IntelligentLinkCleaner:
             web_content = await _deep_fetch_content(url)
             if not web_content: return
             
-                                prompt = (
-                        f"Analyze this resource: {url}
-"
-                        f"Technical Content Snippet: {web_content[:1500]}
-"
-                        "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).
-"
-                        "Format: JSON: {\"desc\": \"...\", \"pub_date\": \"...\"}"
-                    )
-                    ai_data = await call_gemini_with_retry(prompt)
-                    if ai_data:
-                        self.inventory[normalize_url(url)]["ai_summary"] = ai_data.get("desc", "").strip()
-                        self.inventory[normalize_url(url)]["pub_date"] = ai_data.get("pub_date", "N/A")
-                        self.stats["enriched_descriptions"] += 1
+            prompt = (
+                f"Analyze this resource: {url}\n"
+                f"Technical Content Snippet: {web_content[:1500]}\n"
+                "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).\n"
+                "Format: JSON: {\"desc\": \"...\", \"pub_date\": \"...\"}"
+            )
+            ai_data = await call_gemini_with_retry(prompt)
+            if ai_data:
+                self.inventory[norm_url]["ai_summary"] = ai_data.get("desc", "").strip()
+                self.inventory[norm_url]["pub_date"] = ai_data.get("pub_date", "N/A")
                 self.stats["enriched_descriptions"] += 1
-                log_event(f"    [OK] Cached for V2: {desc[:50]}...")
-        except: pass
+                log_event(f"    [OK] Cached for V2: {ai_data.get("desc", "")[:50]}...")
+        except Exception as e:
+            log_event(f"    [!] Enrichment error: {e}")
 
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
         # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
