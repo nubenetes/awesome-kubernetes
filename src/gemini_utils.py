@@ -206,13 +206,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                         elif response.status_code == 429:
                             consecutive_429s += 1
                             # Exponential Backoff with Jitter
-                            # Wait increases with consecutive 429s
-                            wait = base_wait_time * (1.5 ** (consecutive_429s - 1)) + random.uniform(0.5, 1.5)
-                            log_event(f"  [!] API 429 on Key {current_idx+1}. Backing off {wait:.1f}s before rotation...")
+                            wait = base_wait_time * (1.8 ** (consecutive_429s - 1)) + random.uniform(1.0, 2.0)
+                            
+                            if total_keys > 1:
+                                log_event(f"  [!] API 429 on Key {current_idx+1}. Backing off {wait:.1f}s before rotation...")
+                            else:
+                                log_event(f"  [!] API 429 on Key 1. Backing off {wait:.1f}s before retry (Single-Key Mode)...")
+                                
                             await asyncio.sleep(wait)
-                            # Update global index to rotate
                             CURRENT_KEY_INDEX = (current_idx + 1) % total_keys
-                            break # Try next key
+                            break # Try next key (or same key if total=1)
                             
                         elif response.status_code == 404:
                             diagnostics.add_attempt(model, 404, "Not Found")

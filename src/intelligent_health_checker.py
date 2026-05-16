@@ -317,9 +317,11 @@ class IntelligentLinkCleaner:
         unique_urls = [u for u in self.link_registry.keys() if u not in self.dead_links]
         random.shuffle(unique_urls)
         total_unique = len(unique_urls)
+        
+        # 1. Verification Phase (HTTP Health)
         for i in range(0, total_unique, 40):
             batch = unique_urls[i:i+40]
-            log_event(f"    [>] Processing batch {i//40 + 1}/{(total_unique-1)//40 + 1} ({min(i+40, total_unique)}/{total_unique})...")
+            log_event(f"    [>] Verifying batch {i//40 + 1}/{(total_unique-1)//40 + 1} ({min(i+40, total_unique)}/{total_unique})...")
             tasks = [self._check_url_with_retries(url) for url in batch]
             results = await asyncio.gather(*tasks)
             for url, is_alive, fallback, reason in results:
@@ -327,6 +329,69 @@ class IntelligentLinkCleaner:
                     self.dead_links[url] = (fallback if fallback else "DEAD", reason)
                     log_event(f"        [!] DEAD: {url} -> {reason} {'(Fallback: ' + fallback + ')' if fallback else ''}")
             self._save_memory(); self._save_inventory(); self._save_structure_map()
+
+        # 2. Enrichment Phase (Smart Batching for AI)
+        log_event("[*] Starting Smart AI Enrichment (V2 Descriptions)...", section_break=True)
+        to_enrich = []
+        for url in unique_urls:
+            if url in self.dead_links: continue
+            norm_url = normalize_url(url)
+            if norm_url not in self.inventory: self.inventory[norm_url] = {}
+            if not self.inventory[norm_url].get("ai_summary"):
+                to_enrich.append(url)
+        
+        if to_enrich:
+            log_event(f"[*] Found {len(to_enrich)} links requiring new V2 summaries.")
+            # BATCH SIZE 10: 10 descriptions in ONE API call
+            AI_BATCH_SIZE = 10
+            for i in range(0, len(to_enrich), AI_BATCH_SIZE):
+                batch = to_enrich[i:i+AI_BATCH_SIZE]
+                log_event(f"    [>] Smart Batch {i//AI_BATCH_SIZE + 1}/{(len(to_enrich)-1)//AI_BATCH_SIZE + 1} ({len(batch)} links)...")
+                await self._enrich_description_batch(batch)
+                self._save_inventory()
+        else:
+            log_event("[*] No new links requiring AI enrichment. Performance peak reached.")
+
+    async def _enrich_description_batch(self, urls: List[str]):
+        """
+        Uses SMART BATCHING to generate multiple descriptions in a single Gemini call.
+        Reduces API traffic by 90% and mitigates 429 errors.
+        """
+        from src.agentic_curator import _deep_fetch_content
+        from src.gemini_utils import call_gemini_with_retry
+
+        # 1. Fetch content for all links in parallel
+        content_tasks = [_deep_fetch_content(url) for url in urls]
+        contents = await asyncio.gather(*content_tasks)
+        
+        valid_data = []
+        for url, text in zip(urls, contents):
+            if text:
+                valid_data.append({"url": url, "content": text[:1200]})
+        
+        if not valid_data: return
+
+        async with self.ai_semaphore:
+            prompt = (
+                "Analyze these resources and provide a 1-sentence English description and the publication year for each.\n"
+                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\"}, ...]\n\n"
+                "RESOURCES:\n" + "\n".join([f"- {d['url']}: {d['content']}" for d in valid_data])
+            )
+            
+            try:
+                results = await call_gemini_with_retry(prompt)
+                if isinstance(results, list):
+                    for res in results:
+                        url = res.get("url")
+                        if not url: continue
+                        norm_url = normalize_url(url)
+                        if norm_url in self.inventory:
+                            self.inventory[norm_url]["ai_summary"] = res.get("desc", "").strip()
+                            self.inventory[norm_url]["pub_date"] = str(res.get("year", "N/A"))
+                            self.stats["enriched_descriptions"] += 1
+                            log_event(f"    [OK] Enriched: {url}")
+            except Exception as e:
+                log_event(f"    [!] Batch enrichment error: {e}")
 
     async def apply_changes(self):
         log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)
