@@ -12,7 +12,7 @@ from src.logger import log_event
 
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
-V2_CACHE_PATH = "data/v2_cache.json"
+INVENTORY_PATH = "data/inventory.yaml"
 
 class V2VisionEngine:
     def __init__(self):
@@ -50,18 +50,20 @@ class V2VisionEngine:
             "- If 'Current Desc' is empty, too short, or non-descriptive, generate a professional 1-2 sentence summary.\n"
             "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
-        self.cache = self._load_cache()
+        self.inventory = self._load_inventory()
 
-    def _load_cache(self) -> Dict:
-        if os.path.exists(V2_CACHE_PATH):
+    def _load_inventory(self) -> Dict:
+        if os.path.exists(INVENTORY_PATH):
             try:
-                with open(V2_CACHE_PATH, "r") as f: return json.load(f)
+                with open(INVENTORY_PATH, "r") as f:
+                    return yaml.safe_load(f) or {}
             except: return {}
         return {}
 
-    def _save_cache(self):
-        os.makedirs(os.path.dirname(V2_CACHE_PATH), exist_ok=True)
-        with open(V2_CACHE_PATH, "w") as f: json.dump(self.cache, f, indent=2)
+    def _save_inventory(self):
+        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
+        with open(INVENTORY_PATH, "w") as f:
+            yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY CHRONOLOGICAL LIBRARY GENERATION", section_break=True)
@@ -85,7 +87,7 @@ class V2VisionEngine:
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         await self._sync_enterprise_navigation(v2_data)
         
-        self._save_cache()
+        self._save_inventory()
         log_event("V2 LIBRARY GENERATION COMPLETED.", section_break=True)
 
     async def _gather_all_v1_content(self) -> (List[Dict], str, str):
@@ -175,7 +177,7 @@ class V2VisionEngine:
             return link
 
         # 2. Cached Health
-        if url in self.cache and self.cache[url].get("status") == "online":
+        if url in self.inventory and self.inventory[url].get("status") == "online":
             link["health_status"] = "cached"
             return link
 
@@ -192,7 +194,7 @@ class V2VisionEngine:
                 # Use GET instead of HEAD as many sites block HEAD or return 405
                 resp = await client.get(url, headers=headers, timeout=10.0)
                 if resp.status_code < 400:
-                    self.cache.setdefault(url, {})["status"] = "online"
+                    self.inventory.setdefault(url, {})["status"] = "online"
                     link["health_status"] = "online"
                     return link
                 
@@ -226,11 +228,11 @@ class V2VisionEngine:
             # To allow the new logic to apply to cached items, we re-process GitHub links 
             # and re-apply the tag logic even if it's in the cache.
             item = l.copy()
-            if not force_eval and url in self.cache and "stars" in self.cache[url]:
-                item.update(self.cache[url])
+            if not force_eval and url in self.inventory and "stars" in self.inventory[url]:
+                item.update(self.inventory[url])
                 # If cache has a generated description and item is missing one, use it
-                if "ai_summary" in self.cache[url] and not item["description"]:
-                    item["description"] = self.cache[url]["ai_summary"]
+                if "ai_summary" in self.inventory[url] and not item["description"]:
+                    item["description"] = self.inventory[url]["ai_summary"]
             
             # Re-evaluate if description is still missing even after cache check
             if not item.get("description"):
@@ -293,7 +295,7 @@ class V2VisionEngine:
                             eval_data["tag"] = item["tag"]
 
                             # Save to cache
-                            self.cache[item["url"]] = eval_data
+                            self.inventory[item["url"]] = eval_data
                             refined.append(item)
                     except: continue
             except:

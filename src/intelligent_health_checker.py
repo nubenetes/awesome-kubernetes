@@ -15,6 +15,7 @@ from src.logger import log_event
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
 MEMORY_FILE = "src/memory/health_learning.json"
+INVENTORY_PATH = "data/inventory.yaml"
 
 class IntelligentLinkCleaner:
     def __init__(self):
@@ -25,6 +26,7 @@ class IntelligentLinkCleaner:
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
         self.description_updates: Dict[str, str] = {}
         self.learning_data = self._load_memory()
+        self.inventory = self._load_inventory()
         self.action_log: List[Dict] = [] 
         self.detailed_stats = {
             "total_scanned": 0,
@@ -44,7 +46,22 @@ class IntelligentLinkCleaner:
 
     def _save_memory(self):
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
-        with open(MEMORY_FILE, 'w') as f: json.dump(self.learning_data, f, indent=2)
+        with open(MEMORY_FILE, "w") as f: json.dump(self.learning_data, f, indent=2)
+
+    def _load_inventory(self) -> dict:
+        if os.path.exists(INVENTORY_PATH):
+            try:
+                with open(INVENTORY_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_inventory(self):
+        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
+        with open(INVENTORY_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
@@ -152,33 +169,37 @@ class IntelligentLinkCleaner:
             except: pass
         return url, True, None, "Conservative Keep"
 
-    async def _enrich_description_if_needed(self, url: str):
-        """Detects if a link in V1 lacks a description and generates one using AI."""
-        occurrences = self.link_registry.get(url, [])
-        for occ in occurrences:
-            line = occ["content"].strip()
-            # Regex to find if there is a description after the markdown link
-            # Matches: - [Title](URL) 🌟 - Actual Description
-            # If it only has the link or stars but no " - Content", it needs enrichment
-            has_desc = re.search(r'\]\([^\)]+\)(?:\s*🌟+)?\s*-\s*.+', line)
+        async def _enrich_description_if_needed(self, url: str):
+        """
+        Policy Update: We NO LONGER enrich existing V1 descriptions in the repo 
+        to respect manual curation. However, we ensure the INVENTORY has a 
+        description for the V2 Elite portal.
+        """
+        if url not in self.inventory: self.inventory[url] = {}
+        
+        # If inventory already has a description, we are done
+        if self.inventory[url].get("ai_summary"): return
+
+        log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
+        try:
+            from src.agentic_curator import _deep_fetch_content
+            from src.gemini_utils import call_gemini_with_retry
+            web_content = await _deep_fetch_content(url)
+            if not web_content: return
             
-            if not has_desc and "docs/" in occ["file"]:
-                log_event(f"    [✨] ENRICHING: Description missing for {url}")
-                try:
-                    from src.agentic_curator import _deep_fetch_content
-                    web_content = await _deep_fetch_content(url)
-                    if not web_content: continue
-                    
-                    prompt = (
-                        f"Write a professional 1-sentence English description for this resource: {url}\n"
-                        f"Technical Content Snippet: {web_content[:1500]}\n"
-                        "Format: Just the description text. Neutral, objective, technical. Language: English only."
-                    )
-                    desc = await call_gemini_with_retry(prompt, response_format="text")
-                    if desc and len(desc) > 10:
-                        self.description_updates[url] = desc.strip()
-                        log_event(f"    [OK] Generated: {desc[:50]}...")
-                except: pass
+            prompt = (
+                f"Write a professional 1-sentence English description for this resource: {url}
+"
+                f"Technical Content Snippet: {web_content[:1500]}
+"
+                "Format: Just the description text. Neutral, objective, technical. Language: English only."
+            )
+            desc = await call_gemini_with_retry(prompt, response_format="text")
+            if desc and len(desc) > 10:
+                self.inventory[url]["ai_summary"] = desc.strip()
+                self.stats["enriched_descriptions"] += 1
+                log_event(f"    [OK] Cached for V2: {desc[:50]}...")
+        except: pass
 
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
         # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
@@ -279,7 +300,7 @@ class IntelligentLinkCleaner:
                 if not is_alive: 
                     self.dead_links[url] = (fallback if fallback else "DEAD", reason)
                     log_event(f"        [!] DEAD: {url} -> {reason} {'(Fallback: ' + fallback + ')' if fallback else ''}")
-            self._save_memory()
+            self._save_memory(); self._save_inventory()
 
     async def apply_changes(self):
         log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)
@@ -308,20 +329,7 @@ class IntelligentLinkCleaner:
                         file_updates[file_path][line_idx] = None
                         track(file_path, "removed", url, reason); self.detailed_stats["operation_types"]["removals"] += 1
 
-        # 2. APPLY DESCRIPTION ENRICHMENT
-        for url, desc in self.description_updates.items():
-            occurrences = self.link_registry.get(url, [])
-            for occ in occurrences:
-                file_path = occ["file"]
-                if file_path not in file_updates:
-                    with open(file_path, 'r') as f: file_updates[file_path] = f.readlines()
-                line_idx = occ["line_index"]
-                original_line = file_updates[file_path][line_idx]
-                if " - " not in original_line:
-                    file_updates[file_path][line_idx] = original_line.rstrip() + f" - {desc}\n"
-                    track(file_path, "modified", url, "Enriched Description")
-                    self.detailed_stats["operation_types"]["enriched"] += 1
-                    self.stats["enriched_descriptions"] += 1
+        # 2. APPLY DESCRIPTION ENRICHMENT (Disabled for V1 repo files per policy)
 
         orphans_linked = getattr(self.curator, "stats", {}).get("orphans_linked", 0)
         if orphans_linked > 0:

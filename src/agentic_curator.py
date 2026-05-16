@@ -95,88 +95,25 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         domain = asset['url'].split("//")[-1].split("/")[0]
         if domain in domain_blacklist:
             log_event(f"  [-] REJECTED: Blacklisted domain ({domain})")
-            evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Blacklisted domain"}
-            continue
-
-        # MVQ: Check GitHub activity
-        mvq_penalty = False
-        if "github.com" in asset['url']:
-            log_event(f"  [*] Checking GitHub activity...")
-            last_activity = await _get_github_activity(asset['url'])
-            if last_activity:
-                years_inactive = (datetime.now(last_activity.tzinfo) - last_activity).days / 365
-                if years_inactive > 4:
-                    log_event(f"  [⚠️] MVQ Warning: Inactive for {years_inactive:.1f} years.")
-                    mvq_penalty = True
-
-        log_event(f"  [*] Fetching web content...")
-        web_content = await _deep_fetch_content(asset['url'])
-        
-        log_event(f"  [*] Calling Gemini for evaluation...")
-        
-        strictness_directive = ""
-        if not is_primary:
-            strictness_directive = (
-                "STRICTNESS: This source is EXTERNAL (not the primary account).\n"
-                "BE EXTREMELY SELECTIVE. Only accept links that are TOP-TIER, INNOVATIVE, or HIGHLY RELEVANT for Kubernetes/Cloud Native ecosystem.\n"
-                "Reject generic news, common tutorials, or low-value tools.\n"
-            )
-
-        prompt = (
-            "You act as a Senior Technical Librarian for 'nubenetes/awesome-kubernetes' in 2026.\n"
-            "Your mission is to catalog high-density TECHNICAL content about Kubernetes and Cloud Native.\n"
-            f"{strictness_directive}"
-            "PHASE 1: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION YEAR: Look for dates in the URL, X context, or text. Return 'N/A' if unknown.\n"
-            "- Identify ONE primary_category and up to TWO related_categories from the list.\n"
-            "PHASE 2: MANDATORY PROFESSIONAL DESCRIPTIONS\n"
-            "- Summaries MUST BE DESCRIPTIVE (neutral, objective, technical).\n"
-            "- Explain WHAT the resource is and WHY it matters for a Cloud Architect.\n"
-            "PHASE 3: QUALITY & MVQ\n"
-            "- Evaluate TECHNICAL IMPACT (1-100).\n"
-            f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
-            f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n\n"
-            f"URL: {asset['url']}\nX Context: {context}\nExtracted Web Content: {web_content[:2000]}\n\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"year\": \"YYYY\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"reasoning\": \"Brief explanation (English)\"}"
-        )
-
-        try:
-            data = await call_gemini_with_retry(prompt)
-            score = data.get("impact_score", 50)
-            year = data.get("year", "N/A")
-            
-            # GitHub Overrides for Year
-            if "github.com" in asset['url'] and asset.get("gh_updated"):
-                year = asset["gh_updated"].split("-")[0]
-
-            # Predictive Mapping
-            primary_cat = get_best_category_match(data.get("primary_category"))
-            related_cats = []
-            for rc in data.get("related_categories", []):
-                matched = get_best_category_match(rc)
-                if matched and matched != primary_cat:
-                    related_cats.append(matched)
-
-            reasoning = data.get("reasoning", "No reason specified")
-            
-            # Apply Differentiated Thresholds
-            min_score = 5 if is_primary else 80 # Much stricter for external sources
-            
-            if score < min_score:
-                reason = "Low technical impact" if is_primary else f"Insufficient impact for external source (Score: {score}/80 required)"
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": reason}
-                log_event(f"  [-] REJECTED: {reason}")
-            elif not primary_cat:
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "No valid technical category found"}
-                log_event(f"  [-] REJECTED: No valid category found")
-            else:
-                evaluations[asset["url"]] = {
+                            evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
                     "year": year,
                     "category": primary_cat, "related_categories": list(set(related_cats))[:2],
                     "impact_score": score, "is_exceptional": score > 80,
                     "reasoning": reasoning
                 }
+                # Sync new link to unified inventory
+                try:
+                    self.inventory[asset["url"]] = {
+                        "title": data["title"],
+                        "description": data["desc"], 
+                        "ai_summary": data["desc"],
+                        "year": year,
+                        "stars": min(max(score // 20, 0), 5),
+                        "last_checked": datetime.now().timestamp()
+                    }
+                    self._save_inventory()
+                except: pass
                 log_event(f"  [+] ACCEPTED: \"{data['title']}\" (Score: {score})")
                 log_event(f"      Primary: {primary_cat} | Related: {', '.join(related_cats)}")
 
@@ -195,6 +132,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     return evaluations
 
 
+INVENTORY_PATH = "data/inventory.yaml"
+
 class AgenticCurator:
     def __init__(self):
         self.git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
@@ -202,6 +141,23 @@ class AgenticCurator:
         self.mkdocs_path = "mkdocs.yml"
         self.index_path = "docs/index.md"
         self.stats = {"orphans_linked": 0}
+        self.inventory = self._load_inventory()
+
+    def _load_inventory(self) -> dict:
+        if os.path.exists(INVENTORY_PATH):
+            try:
+                with open(INVENTORY_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_inventory(self):
+        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
+        with open(INVENTORY_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+        self.inventory = self._load_inventory()
 
     async def _rebuild_toc(self, content: str) -> str:
         """
