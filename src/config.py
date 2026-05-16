@@ -24,14 +24,8 @@ if GEMINI_API_KEY and not os.getenv("GOOGLE_API_KEY"):
 
 GH_TOKEN = os.getenv("GH_TOKEN")
 
-# Gemini Configuration (May 2026)
-GEMINI_API_VERSION = "v1"
-GEMINI_MODELS = [
-    "gemini-3.1-flash",
-    "gemini-3.1-pro",
-    "gemini-2.5-pro",
-    "gemini-2.5-flash"
-]
+# Gemini Configuration (Dynamic Discovery Enabled)
+GEMINI_API_VERSION = "v1beta"
 
 TARGET_REPO = "nubenetes/awesome-kubernetes"
 
