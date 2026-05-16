@@ -22,11 +22,13 @@
 ## 🛡️ V2 Taxonomy & Elite Quality Tiers
 To provide maximum signal for Cloud Architects, V2 resources are classified by both maturity and technical impact:
 
-### Impact Tiers (Stars)
+### Impact Tiers (Stars & Highlights)
 - **(No stars)**: High-quality technical resource (Baseline for V2 Elite).
-- **🌟**: Exceptional guide, tool, or deep dive with notable technical depth.
-- **🌟🌟**: Enterprise-grade resource with high industry relevance and impact.
-- **🌟🌟🌟**: Elite Gem. Must-read foundations or industry-defining standards.
+- **🌟**: Notable technical depth or useful tool.
+- **🌟🌟** (**Negrita**): Exceptional enterprise-grade resource.
+- **🌟🌟🌟** (==Resaltado==): Elite Gem. Highly recommended reference.
+- **🌟🌟🌟🌟** (==Resaltado==): Industry Essential / Masterclass content.
+- **🌟🌟🌟🌟🌟** (==Resaltado==): Legendary Standard (Official Docs, CNCF Foundations).
 
 ### Maturity Tags
 

@@ -37,11 +37,13 @@ class V2VisionEngine:
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
             "- Extract precise PUBLICATION YEAR: Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
-            "- Assign QUALITY level (0-3 stars):\n"
+            "- Assign QUALITY level (0-5 stars):\n"
             "  * 0 stars: Good technical resource (Baseline).\n"
             "  * 1 star (🌟): High-quality technical guide or tool.\n"
             "  * 2 stars (🌟🌟): Exceptional, enterprise-grade resource.\n"
-            "  * 3 stars (🌟🌟🌟): Elite Gem (Must-read or Industry Standard).\n"
+            "  * 3 stars (🌟🌟🌟): Elite Gem. Recommended for all architects.
+            "  * 4 stars (🌟🌟🌟🌟): Masterclass content or Essential Industry Tool.\n"
+            "  * 5 stars (🌟🌟🌟🌟🌟): Legendary Resource (e.g., K8s Official Docs, Foundations like Prometheus/Envoy)."\n"
             "- Assign a MATURITY TAG based on content type/status.\n"
             "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
             "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
@@ -270,7 +272,7 @@ class V2VisionEngine:
                             item = batch[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")),
-                                "stars": min(max(int(res.get("stars", 0)), 0), 3),
+                                "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "is_video": res.get("is_video", False),
                                 "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
                                 "ai_summary": res.get("summary", "")
@@ -387,12 +389,12 @@ class V2VisionEngine:
         master_selection = []
         for dim in data.values():
             for cat_links in dim["categories"].values():
-                master_selection.extend([l for l in cat_links if l.get("stars", 1) == 3])
+                master_selection.extend([l for l in cat_links if l.get("stars", 0) >= 3])
         
-        # Sort master selection by Year (DESC), then Title (ASC)
-        # (Relevance is already fixed at 3 stars for this list)
+        # Sort master selection by Stars (DESC), then Year (DESC), then Title (ASC)
         master_selection.sort(
             key=lambda x: (
+                -x.get("stars", 0),
                 -(int(x["year"]) if x.get("year", "").isdigit() else 0),
                 x["title"]
             )
@@ -421,9 +423,11 @@ class V2VisionEngine:
             gh_info = f" `[⭐ {l['gh_stars']}]`" if "gh_stars" in l else ""
             year_prefix = f"**({l['year']})** " if l.get("year") and l["year"] != "N/A" else ""
             title_clean = l['title'].replace("==", "")
-            # Master selection links are 3 stars, so we highlight
+            # Master selection links are 3-5 stars, so we highlight
             title_display = f"**=={title_clean}==**"
-            index_md += f"- {year_prefix}[{title_display}]({l['url']}){gh_info} 🌟🌟🌟\n"
+            stars_val = l.get("stars", 3)
+            stars_str = "🌟" * stars_val
+            index_md += f"- {year_prefix}[{title_display}]({l['url']}){gh_info} {stars_str}\n"
         
         index_md += "\n??? note \"Elite Video Selection - Click to expand!\"\n"
         index_md += f"    <center markdown=\"1\">\n{videos_html}\n    </center>\n\n"
@@ -456,7 +460,7 @@ class V2VisionEngine:
                     else: color = "primary"
                     
                     title_clean = l['title'].replace("==", "")
-                    if stars_val == 3 or "STANDARD" in tag:
+                    if stars_val >= 3 or "STANDARD" in tag:
                         title_display = f"**=={title_clean}==**"
                     elif stars_val == 2:
                         title_display = f"**{title_clean}**"
