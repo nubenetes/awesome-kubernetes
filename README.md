@@ -427,7 +427,7 @@ graph TD
 - **Linguistic Diversity and Global Access**: AI agents automatically detect the source language. **V1 Archive** preserves descriptions in the resource's native language (e.g., Spanish) to respect original context, while the **V2 Portal** provides professional English summaries and explicit language tagging (e.g., `[SPANISH CONTENT]`) for global accessibility.
 - **Universal English Curation**: All high-level reasoning and synthesis are curated into professional technical English, maintaining Nubenetes as a truly global resource.
 - **Semantic Conflict Resolution**: AI identifies multiple URLs pointing to the same technical project (e.g., repository vs. landing page) and automatically consolidates them into a single canonical reference.
-- **Critical Asset Monitoring**: While the exhaustive health check runs every **3 months**, high-priority assets ([DE FACTO STANDARD]) are monitored daily to ensure zero downtime for essential industry tools.
+- **Critical Asset Monitoring**: While the exhaustive health check runs every **3 months**, high-priority assets ([DE FACTO STANDARD]) undergo a specialized pulse check every **3 months (offset by 45 days)** to ensure essential industry tools remain online with maximum reliability.
 - **Canonical Deduplication**: Automatically merges duplicate resources (stripping UTM/trackers), ensuring a clean and precise inventory.
 - **The Agentic Pulse**: A dynamic trending section on the V2 home page that highlights the freshest high-impact resources.
 - **Zero Redundancy**: Links already analyzed by Gemini are never re-evaluated unless forced.

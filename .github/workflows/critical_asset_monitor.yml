@@ -2,7 +2,7 @@ name: Nubenetes Critical Asset Monitor
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Daily at 08:00 UTC
+    - cron: '0 0 15 2,5,8,11 *' # Mid-Quarter pulse: Feb, May, Aug, Nov 15th
   workflow_dispatch:
 
 permissions:
