@@ -23,6 +23,7 @@ class IntelligentLinkCleaner:
         self.curator = AgenticCurator()
         self.link_registry: Dict[str, List[Dict]] = {}
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
+        self.description_updates: Dict[str, str] = {}
         self.learning_data = self._load_memory()
         self.action_log: List[Dict] = [] 
         self.detailed_stats = {
@@ -30,9 +31,9 @@ class IntelligentLinkCleaner:
             "skipped_recent": 0,
             "by_file": {}, 
             "by_category": {}, 
-            "operation_types": {"removals": 0, "consolidated": 0, "orphans": 0}
+            "operation_types": {"removals": 0, "consolidated": 0, "orphans": 0, "enriched": 0}
         }
-        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "orphans_fixed": 0}
+        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "orphans_fixed": 0, "enriched_descriptions": 0}
 
     def _load_memory(self) -> Dict:
         if os.path.exists(MEMORY_FILE):
@@ -124,6 +125,9 @@ class IntelligentLinkCleaner:
                     original_idx = attempt if best_strat_idx is None else (best_strat_idx if attempt == 0 else (attempt if attempt < best_strat_idx else attempt))
                     self.learning_data["domains"][domain]["best_strategy_idx"] = original_idx
                     
+                    # Enrichment: If link is ALIVE but lacks description in V1, generate one
+                    await self._enrich_description_if_needed(url)
+                    
                     if "link_cache" not in self.learning_data: self.learning_data["link_cache"] = {}
                     self.learning_data["link_cache"][url] = {"status": "ALIVE", "last_checked": now}
                     return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
@@ -147,6 +151,34 @@ class IntelligentLinkCleaner:
                         return url, False, None, reason
             except: pass
         return url, True, None, "Conservative Keep"
+
+    async def _enrich_description_if_needed(self, url: str):
+        """Detects if a link in V1 lacks a description and generates one using AI."""
+        occurrences = self.link_registry.get(url, [])
+        for occ in occurrences:
+            line = occ["content"].strip()
+            # Regex to find if there is a description after the markdown link
+            # Matches: - [Title](URL) 🌟 - Actual Description
+            # If it only has the link or stars but no " - Content", it needs enrichment
+            has_desc = re.search(r'\]\([^\)]+\)(?:\s*🌟+)?\s*-\s*.+', line)
+            
+            if not has_desc and "docs/" in occ["file"]:
+                log_event(f"    [✨] ENRICHING: Description missing for {url}")
+                try:
+                    from src.agentic_curator import _deep_fetch_content
+                    web_content = await _deep_fetch_content(url)
+                    if not web_content: continue
+                    
+                    prompt = (
+                        f"Write a professional 1-sentence English description for this resource: {url}\n"
+                        f"Technical Content Snippet: {web_content[:1500]}\n"
+                        "Format: Just the description text. Neutral, objective, technical. Language: English only."
+                    )
+                    desc = await call_gemini_with_retry(prompt, response_format="text")
+                    if desc and len(desc) > 10:
+                        self.description_updates[url] = desc.strip()
+                        log_event(f"    [OK] Generated: {desc[:50]}...")
+                except: pass
 
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
         # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
@@ -275,6 +307,21 @@ class IntelligentLinkCleaner:
                     if file_path not in CORE_FILES:
                         file_updates[file_path][line_idx] = None
                         track(file_path, "removed", url, reason); self.detailed_stats["operation_types"]["removals"] += 1
+
+        # 2. APPLY DESCRIPTION ENRICHMENT
+        for url, desc in self.description_updates.items():
+            occurrences = self.link_registry.get(url, [])
+            for occ in occurrences:
+                file_path = occ["file"]
+                if file_path not in file_updates:
+                    with open(file_path, 'r') as f: file_updates[file_path] = f.readlines()
+                line_idx = occ["line_index"]
+                original_line = file_updates[file_path][line_idx]
+                if " - " not in original_line:
+                    file_updates[file_path][line_idx] = original_line.rstrip() + f" - {desc}\n"
+                    track(file_path, "modified", url, "Enriched Description")
+                    self.detailed_stats["operation_types"]["enriched"] += 1
+                    self.stats["enriched_descriptions"] += 1
 
         orphans_linked = getattr(self.curator, "stats", {}).get("orphans_linked", 0)
         if orphans_linked > 0:
