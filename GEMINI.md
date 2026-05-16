@@ -169,7 +169,9 @@ The bot must rotate between profiles to avoid detection:
     - **Impact-Driven Synthesis**: Shifted V2 mission from pure "chronological clarity" to "impact-driven synthesis", prioritizing Stars/Impact over dates while maintaining chronological data.
     - **Relevance-First Sorting**: Updated V2 logic to prioritize Stars/Impact over dates within dimension categories.
     - **Unified Metadata Engine**: Integrated V2's year extraction and professional description logic into the main V1 curation workflow (`src/agentic_curator.py`).
-    *   **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
+    - **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
+    - **Smart Batching (Performance Fix)**: AI enrichment MUST exclusively use batch processing (e.g., 10 links per prompt). Individual AI calls within large loops are strictly forbidden to prevent 429 rate limit deadlocks and workflow hangs.
+    - **Maturity Audit Transparency**: All curation workflows MUST maintain the **Maturity Audit Log** (`v2-docs/audit-log.md`) to document technical promotions, reclassifications, and AI-driven curation decisions.
     *   **AI Observability & Transparency (May 2026)**:
         - **Session Tracking**: Every AI call MUST be tracked via `SESSION_TRACKER` to record model usage and key health.
         - **Infrastructure Reporting**: All curation PRs MUST include the `Intelligence Report` to provide transparency on models used (Pro vs Flash) and API key identities (Identity A/B).

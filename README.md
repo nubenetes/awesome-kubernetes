@@ -82,15 +82,18 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 
 ### 2.1. The "Heart" of Nubenetes (Stats as of 2026-05-16)
 
+<!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **17109+** |
 | **Specialized MD Pages** | **161** |
 | **Total Commits** | **4143+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
+<!-- HEART_STATS_END -->
 
 ### 2.2. Top Categories by Density
 
+<!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
 | [Kubernetes](docs/kubernetes.md) | 1147 |
@@ -103,12 +106,14 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | [Devsecops](docs/devsecops.md) | 407 |
 | [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 379 |
 | [Monitoring](docs/monitoring.md) | 346 |
+<!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
 
 The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem. Since 2026, the adoption of Agentic AI has resulted in a vertical surge in both commit frequency and link discovery.
 
 #### Annual Growth Summary
+<!-- ANNUAL_GROWTH_START -->
 | Year | Commits | Est. New Refs | Key Milestone |
 | :---: | :---: | :---: | :--- |
 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
@@ -120,12 +125,15 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
 | 2026 | 584 | 2,411 | **Agentic AI Surge** (May 2026 Inception) |
+<!-- ANNUAL_GROWTH_END -->
 
 #### 2026: The Agentic Monthly Surge
+<!-- MONTHLY_SURGE_START -->
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 559 | 2,308 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 557 | 2,300 | **Agentic Inception (Gemini Era)** |
+<!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
 
@@ -280,6 +288,7 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
 - **Auto-Redirect Fix (Canonical Updates)**: During health checks, if a permanent redirection (301/302) is detected, the engine automatically updates the Markdown files with the final **Canonical URL**. This reduces latency and prevents future link rot.
 - **Database Garbage Collection (GC)**: A bi-monthly pruning process identifies orphaned metadata in `data/inventory.yaml` for links that have been removed from the repository, keeping the database lean and professional.
+- **Maturity Audit Log**: Every evaluation cycle tracks promotions and reclassifications in a public **Audit Log** (`v2-docs/audit-log.md`). This provides transparency on why resources are moved between tiers (e.g., from Emerging to De Facto Standard).
 - **Exhaustive Initialization (Cold-Start)**: The system supports a `FORCE_FULL_CHECK` mechanism. When activated (via the **Force full re-validation** button in GitHub Actions), the engine bypasses all local caches and re-verifies the entire 17,000+ link archive. This is used to build the initial database from scratch or perform massive architectural refreshes.
 
 ### 6.4. Multi-Format Synchronization Logic
@@ -294,7 +303,7 @@ To eliminate configuration overhead and ensure Nubenetes always utilizes the fro
 2.  **Autonomous Scoring and Ranking**: Models are automatically ranked using a **dynamic regex-based algorithm** that extracts version numbers (e.g., 2.0, 3.1, 4.0). Higher versions are prioritized, ensuring zero-config auto-adoption of future frontier models. Tier bonuses are applied (Ultra > Pro > Flash) to prioritize reasoning depth.
 3.  **Adaptive Rate Limiting (Exponential Backoff)**: When encountering `429 Too Many Requests` errors, the engine implements an **Exponential Backoff with Jitter** strategy. Instead of immediate rotation, it applies a mandatory wait time that increases with consecutive failures, preventing infinite loops and respecting Google's quota resets.
 4.  **Concurrency Guard (Semaphore)**: To prevent saturating API quotas during high-volume operations (like V2 inventory enrichment), the system utilizes an **Asyncio Semaphore**. This restricts the number of concurrent AI calls (e.g., max 5), ensuring a steady, reliable flow that stays within RPM (Requests Per Minute) limits.
-5.  **Smart AI Batching (90% Traffic Reduction)**: Instead of processing one link per call, the system groups up to **10 resources into a single AI prompt**. This strategic packaging reduces total API calls by 90%, drastically lowering the risk of `429` errors while optimizing token density for Identity A.
+5.  **Smart AI Batching (High-Speed Processing)**: Instead of processing one link per call, the system groups up to **10 resources into a single AI prompt**. This strategic packaging reduces total API calls by 90%, eliminating `429` rate limit deadlocks and ensuring high-velocity throughput even for cold-starts.
 6.  **Pre-Flight Local Caching**: The engine performs an autonomous look-up in `data/inventory.yaml` before any AI operation. If a resource is already indexed and described, it is skipped in the enrichment phase. This makes the marginal cost of repository maintenance near-zero.
 
 ### 6.6. AI Intelligence and Observability (Transparency)
