@@ -157,4 +157,9 @@ The bot must rotate between profiles to avoid detection:
     - **Impact-Driven Synthesis**: Shifted V2 mission from pure "chronological clarity" to "impact-driven synthesis", prioritizing Stars/Impact over dates while maintaining chronological data.
     - **Relevance-First Sorting**: Updated V2 logic to prioritize Stars/Impact over dates within dimension categories.
     - **Unified Metadata Engine**: Integrated V2's year extraction and professional description logic into the main V1 curation workflow (`src/agentic_curator.py`).
-    - **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
+    *   **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
+    *   **AI Observability & Transparency (May 2026)**:
+        - **Session Tracking**: Every AI call MUST be tracked via `SESSION_TRACKER` to record model usage and key health.
+        - **Infrastructure Reporting**: All curation PRs MUST include the `Intelligence Report` to provide transparency on models used (Pro vs Flash) and API key identities (Identity A/B).
+        - **Dynamic Discovery**: Agents MUST utilize the dynamic discovery engine to automatically adopt the newest Gemini models and rotate keys upon reaching quotas.
+

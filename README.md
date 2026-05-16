@@ -224,11 +224,16 @@ Nubenetes employs a strategic "Double-Format" protocol to ensure system reliabil
 To eliminate configuration overhead and ensure Nubenetes always utilizes the frontier of AI technology, the system features a **Zero-Config Dynamic Model Discovery Engine**:
 
 1.  **Live Capability Discovery**: At the start of each workflow run, the bot programmatically queries the Google Model Service API to list all models actually available to the provided API keys.
-2.  **Autonomous Scoring & Ranking**: Models are automatically ranked using a sophisticated 2026-standard weighted algorithm:
-    *   **Generation Tier**: 3.1 > 3.0 > 2.5 > 1.5.
-    *   **Capability Level**: `Pro` models (High Reasoning) are prioritized over `Flash` (High Speed).
-    *   **Production Readiness**: Stable releases are prioritized over experimental or preview versions.
+2.  **Autonomous Scoring & Ranking**: Models are automatically ranked using a **dynamic regex-based algorithm** that extracts version numbers (e.g., 2.0, 3.1, 4.0). Higher versions are prioritized, ensuring zero-config auto-adoption of future frontier models.
 3.  **Resilient Failover Protocol**: If a model returns a `404` (Unsupported) or `429` (Rate Limit), the engine immediately rotates to the next best model or switches API keys without interrupting the curation process.
+
+### AI Intelligence & Observability (Transparency)
+As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations. Every curation cycle is tracked to ensure maintainers understand the cost, quality, and infrastructure behind the agentic decisions:
+
+- **Gemini Session Tracker**: Monitors every API call, recording the model used and the success rate.
+- **Performance-First Key Management**: Prioritizes **Identity A (Pay-as-you-go)** for maximum speed, quality, and API consistency. **Identity B (Subscription)** serves as a robust secondary fallback to ensure 100% curation completion even if primary quotas are exceeded.
+- **PR Intelligence Reports**: Every AI-generated Pull Request includes a detailed breakdown of the model hierarchy logic, showing which Google identities were utilized.
+- **Visual AI Dashboard**: The `report.html` artifacts include real-time metrics on AI performance and quota management (429/404 tracking).
 
 ```mermaid
 graph LR
@@ -238,7 +243,8 @@ graph LR
     D -->|404 / 429| E[Auto-Failover]
     E -->|Next Best Model| D
     E -->|Key Rotation| D
-    D -->|Success| F[Inventory Sync]
+    D -->|Success| F[Intelligence Report]
+    F --> G[Inventory Sync]
 ```
 
 ### Agentic Data Flow
