@@ -27,6 +27,7 @@
     *   [5.1. V1: The Exhaustive Archive](#51-v1-the-exhaustive-archive)
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
     *   [5.3. The Incremental Elite Engine](#53-the-incremental-elite-engine)
+    *   [5.4. Multi-Language Support Policy](#54-multi-language-support-policy)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
     *   [6.2. The 'Database-First' Reasoning Protocol](#62-the-database-first-reasoning-protocol)
@@ -240,6 +241,12 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
    - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
+
+### 5.4. Multi-Language Support Policy
+To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy:
+- **Native Preservation (V1 Archive)**: Resources in non-English languages (e.g., Spanish, French) preserve their descriptions in the **original native language** within the V1 archive. This ensures local technical nuances and the author's original intent are respected.
+- **English Synthesis (V2 Portal)**: The Elite V2 Portal provides **Professional English Summaries** for all resources, regardless of their source language. This allows global architects to discover high-value content from any region.
+- **Linguistic Transparency**: All non-English resources in the V2 portal are explicitly tagged (e.g., `[SPANISH CONTENT]`) at the end of the entry, providing immediate context before navigation.
 
 ---
 
