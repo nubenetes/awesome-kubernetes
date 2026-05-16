@@ -31,7 +31,7 @@
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
     *   [6.2. The 'Database-First' Reasoning Protocol](#62-the-database-first-reasoning-protocol)
-    *   [6.3. Exhaustive Initialization (Cold-Start)](#63-exhaustive-initialization-cold-start)
+    *   [6.3. Database Lifecycle and Hygiene](#63-database-lifecycle-and-hygiene)
     *   [6.4. Multi-Format Synchronization Logic](#64-multi-format-synchronization-logic)
     *   [6.5. Dynamic AI Discovery and Optimization](#65-dynamic-ai-discovery-and-optimization)
     *   [6.6. AI Intelligence and Observability (Transparency)](#66-ai-intelligence-and-observability-transparency)
@@ -136,14 +136,14 @@ This chart shows the high-level distribution across the primary domains of Cloud
 
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Kubernetes Ecosystem" : 3500
-    "Developer Ecosystem" : 3000
-    "Public/Private Cloud" : 2500
-    "CI/CD & GitOps" : 2200
-    "Others (Specialized)" : 2733
-    "Infra as Code" : 1200
-    "SRE & Observability" : 1000
-    "Security & DevSecOps" : 1000
+    "Kubernetes Ecosystem" : 3034
+    "Developer Ecosystem" : 1121
+    "Public/Private Cloud" : 1298
+    "CI/CD and GitOps" : 1094
+    "Infra as Code" : 997
+    "SRE and Observability" : 781
+    "Security and DevSecOps" : 505
+    "Others (Specialized)" : 8023
 ```
 
 *   **Kubernetes Ecosystem:** Includes core K8s, tools, networking, security, and operators. This is the heart of the project, with over 3,500 curated references.
@@ -155,14 +155,14 @@ To better understand the "Others" category, we break down the specialized techni
 
 ```mermaid
 pie title Deep Dive: Specialized Sub-ecosystems
-    "Databases (SQL/NoSQL)" : 600
-    "Demos & Boilerplates" : 538
-    "AI & Agentic Systems" : 450
-    "Web Servers & Runtimes" : 400
-    "Message Queues & Data" : 336
-    "Career & Recruitment" : 250
-    "Linux & OS Hardening" : 265
-    "Others (100+ Topics)" : 1161
+    "Databases (SQL/NoSQL)" : 339
+    "AI and Agentic Systems" : 143
+    "Demos and Boilerplates" : 538
+    "Web Servers and Runtimes" : 99
+    "Message Queues and Data" : 336
+    "Career and Recruitment" : 142
+    "Linux and OS Hardening" : 265
+    "Others (100+ Topics)" : 14991
 ```
 
 *   **AI and Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
@@ -234,7 +234,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 
 ### 5.3. The Incremental Elite Engine
 To maintain the high-density quality of V2 without redundant AI costs, the `V2VisionEngine` implements an incremental synchronization strategy:
-1. **Intelligent Caching**: It utilizes `data/v2_cache.json` to store previous AI evaluations. Only NEW links added to V1 are sent to Gemini for classification.
+1. **Intelligent Caching**: It utilizes the centralized YAML inventory to store previous AI evaluations. Only NEW links added to V1 are sent to Gemini for classification.
 2. **Dynamic "Upgrading"**: Even for cached links, the engine performs real-time local updates:
    - **GitHub Metadata**: Fetches live star counts and last-commit dates via the GitHub API to ensure chronological accuracy and MVQ compliance.
    - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
@@ -609,9 +609,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Site Config (V2):** [`v2-mkdocs.yml`](v2-mkdocs.yml) - MkDocs configuration for the Agentic Elite portal.
 
 ### 13.2. Centralized Metadata Databases
-- **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions).
+- **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions, and audit history).
 - **Structure Map:** [`data/structure_map.yaml`](data/structure_map.yaml) - Tracks link presence and formatting across all Markdown pages.
-- **V2 Elite Cache:** [`data/v2_cache.json`](data/v2_cache.json) - Cached AI evaluations for the premium edition.
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)

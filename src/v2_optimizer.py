@@ -61,6 +61,7 @@ class V2VisionEngine:
         )
         self.inventory = self._load_inventory()
         self.structure_map = self._load_structure_map()
+        self.maturity_audit = []
 
     def _load_inventory(self) -> Dict:
         if os.path.exists(INVENTORY_PATH):
@@ -256,6 +257,9 @@ class V2VisionEngine:
                 if "ai_summary" in self.inventory[normalize_url(url)] and not item["description"]:
                     item["description"] = self.inventory[normalize_url(url)]["ai_summary"]
             
+            # --- TRACK MATURITY CHANGES ---
+            old_tag = self.inventory.get(normalize_url(url), {}).get("tag")
+
             # Re-evaluate if description is still missing even after cache check
             if not item.get("description"):
                 to_evaluate.append(item)
@@ -269,6 +273,14 @@ class V2VisionEngine:
                     item["year"] = gh_meta["gh_updated"].split("-")[0]
             
             item["tag"] = self._calculate_tag(item)
+            
+            # Audit Check
+            if old_tag and old_tag != item["tag"]:
+                self.maturity_audit.append({
+                    "url": url, "title": item["title"], "type": "Promotion" if "STANDARD" in item["tag"] or "STABLE" in item["tag"] else "Reclassification",
+                    "old": old_tag, "new": item["tag"]
+                })
+
             refined.append(item)
 
         if not to_evaluate: return refined
@@ -295,6 +307,9 @@ class V2VisionEngine:
                         idx = int(res["idx"])
                         if idx < len(batch):
                             item = batch[idx].copy()
+                            norm_url = normalize_url(item["url"])
+                            old_tag = self.inventory.get(norm_url, {}).get("tag")
+
                             eval_data = {
                                 "year": str(res.get("year", "N/A")),
                                 "stars": min(max(int(res.get("stars", 0)), 0), 5),
@@ -315,14 +330,27 @@ class V2VisionEngine:
                                 item.update(gh_meta)
                                 if "gh_updated" in gh_meta and gh_meta["gh_updated"]:
                                     item["year"] = gh_meta["gh_updated"].split("-")[0]
-                                    eval_data["year"] = item["year"]
 
                             item["tag"] = self._calculate_tag(item)
-                            eval_data["tag"] = item["tag"]
+                            
+                            # Audit Check for AI re-evaluation
+                            if old_tag and old_tag != item["tag"]:
+                                self.maturity_audit.append({
+                                    "url": item["url"], "title": item["title"], "type": "AI Reclassification",
+                                    "old": old_tag, "new": item["tag"]
+                                })
 
-                            # Save to cache
-                            self.inventory[item["url"]] = eval_data
                             refined.append(item)
+                            
+                            # Update inventory correctly
+                            self.inventory[norm_url] = {
+                                "title": item["title"], "year": item["year"], "stars": item["stars"],
+                                "is_video": item["is_video"], "ai_summary": item["ai_summary"],
+                                "language": item["language"], "resource_type": item["resource_type"],
+                                "complexity": item["complexity"], "tag": item["tag"], "status": "online"
+                            }
+                            if "gh_stars" in item: self.inventory[norm_url]["gh_stars"] = item["gh_stars"]
+                            if "gh_updated" in item: self.inventory[norm_url]["gh_updated"] = item["gh_updated"]
                     except: continue
             except:
                 for l in batch:
@@ -506,6 +534,15 @@ class V2VisionEngine:
             slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "").replace(" ", "-")
             index_md += f"- **[{dim}](./{slug}.md)**: {content['summary']}\n"
         
+        # Add Maturity Audit Log entry if changes exist
+        if self.maturity_audit:
+            index_md += f"\n---\n### 📈 [Latest Maturity Promotions and Reclassifications](./audit-log.md)\n"
+            audit_md = "# Maturity Audit Log\n\nTransparency on AI curation decisions and project evolution.\n\n"
+            audit_md += "| Project | Event | Previous Status | New Status |\n| :--- | :--- | :--- | :--- |\n"
+            for change in self.maturity_audit[:50]: # Show last 50
+                audit_md += f"| [{change['title']}]({change['url']}) | **{change['type']}** | `{change['old']}` | `{change['new']}` |\n"
+            with open(os.path.join(V2_DIR, "audit-log.md"), "w") as f: f.write(audit_md)
+
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
         for dim, content in data.items():
@@ -580,6 +617,10 @@ class V2VisionEngine:
                 if not data[dim]["categories"]: continue
                 slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "").replace(" ", "-")
                 nav_items.append(f"  - \"{dim}\": {slug}.md")
+            
+            if self.maturity_audit:
+                nav_items.append("  - \"📈 Maturity Audit Log\": audit-log.md")
+                
             new_nav = "\n".join(nav_items)
             updated_content = re.sub(r'nav:.*', new_nav, content, flags=re.DOTALL)
             with open("v2-mkdocs.yml", "w") as f: f.write(updated_content)
