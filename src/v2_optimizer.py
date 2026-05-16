@@ -47,9 +47,9 @@ class V2VisionEngine:
             "  * 0 stars: Good technical resource (Baseline).\n"
             "  * 1 star (🌟): High-quality technical guide or tool.\n"
             "  * 2 stars (🌟🌟): Exceptional, enterprise-grade resource.\n"
-            "  * 3 stars (🌟🌟🌟): Elite Gem. Recommended for all architects.
+            "  * 3 stars (🌟🌟🌟): Elite Gem. Recommended for all architects.\n"
             "  * 4 stars (🌟🌟🌟🌟): Masterclass content or Essential Industry Tool.\n"
-            "  * 5 stars (🌟🌟🌟🌟🌟): Legendary Resource (e.g., K8s Official Docs, Foundations like Prometheus/Envoy)."\n"
+            "  * 5 stars (🌟🌟🌟🌟🌟): Legendary Resource (e.g., K8s Official Docs, Foundations like Prometheus/Envoy).\n"
             "- Assign a MATURITY TAG based on content type/status.\n"
             "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
             "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
@@ -193,10 +193,7 @@ class V2VisionEngine:
     async def _check_single_link_resilient(self, client, link: Dict, ua: str, attempts: int = 3) -> Dict:
         url = link["url"]
         
-        # 1. Immediate Pass for Trusted / Logic-Enriched Domains
-        if "github.com" in url or "awesome" in link["title"].lower():
-            link["health_status"] = "trusted"
-            return link
+        # NOTE: All domains must be checked for validity.
 
         # 2. Cached Health
         if url in self.inventory and self.inventory[normalize_url(url)].get("status") == "online":
@@ -329,11 +326,12 @@ class V2VisionEngine:
             await asyncio.sleep(0.3)
         return refined
 
-        def _calculate_tag(self, item: Dict) -> str:
+    def _calculate_tag(self, item: Dict) -> str:
         # Dynamic Evolutionary Tagging (Automatic Project Growth Detection)
         url = item.get("url", "").lower()
         stars = item.get("gh_stars", 0)
-        year = int(item.get("year")) if item.get("year", "").isdigit() else 2024
+        year_str = str(item.get("year", "2024"))
+        year = int(year_str) if year_str.isdigit() else 2024
 
         if "github.com" in url or "gitlab.com" in url:
             if stars > 15000: return "[DE FACTO STANDARD]"
@@ -348,23 +346,14 @@ class V2VisionEngine:
         if "guide" in title or "architecture" in title: return "[ARCHITECTURE-GUIDE]"
         if "deep dive" in title or "internals" in title: return "[TECHNICAL-DEEP-DIVE]"
         if "how to" in title or "tutorial" in title: return "[CASE-STUDY]"
-        return "[EXPERT-ARTICLE]" 
-            if year >= 2025: return "[EMERGING / INNOVATION]"
-            if year <= 2022: return "[LEGACY / MAINTENANCE]"
-            return "[TOOLING]"
         
-        # Fallback to AI's tag or defaults for articles
+        # Fallback to AI's tag or defaults
         tag = item.get("tag", "").upper()
         valid_tags = ["[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING / INNOVATION]", "[LEGACY / MAINTENANCE]", "[ARCHITECTURE-GUIDE]", "[TOOLING]", "[CASE-STUDY]", "[CHEATSHEET]"]
         if tag in valid_tags:
             return tag
-        
-        # Basic inference for articles
-        title = item.get("title", "").lower()
-        if "awesome" in title: return "[FOUNDATIONAL]"
-        if "guide" in title or "architecture" in title: return "[ARCHITECTURE-GUIDE]"
-        if "how to" in title or "tutorial" in title: return "[CASE-STUDY]"
-        return "[ENTERPRISE-STABLE]"
+            
+        return "[EXPERT-ARTICLE]"
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)

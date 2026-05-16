@@ -117,23 +117,19 @@ class IntelligentLinkCleaner:
 
     async def _check_url_with_retries(self, url: str, max_retries=5) -> Tuple[str, bool, Optional[str], str]:
         now = datetime.now().timestamp()
+        force_full = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
 
         # 0. Policy Enforcement: No archive.org links allowed
         if "archive.org" in url.lower():
             return url, False, None, "Archive.org link (Forbidden by policy)"
         
-        # 1. NOTE: V1 Exhaustiveness Mandate
-        # We fetch GitHub metadata for logging/metrics, but we DO NOT delete based on activity.
-        # Only definitively dead links are removed in V1.
-        if "github.com" in url:
-            gh_meta = await self._fetch_github_metadata(url)
-            # Metadata is stored in cache/logs but not used for deletion here.
-
-        cache_entry = self.learning_data.get("link_cache", {}).get(url)
-        if cache_entry and cache_entry.get("status") == "ALIVE":
-            if now - cache_entry.get("last_checked", 0) < (21 * 24 * 3600):
-                self.detailed_stats["skipped_recent"] += 1
-                return url, True, None, "Cached (Recent)"
+        # 1. Skip cache if FORCE_FULL_CHECK is active
+        if not force_full:
+            cache_entry = self.learning_data.get("link_cache", {}).get(url)
+            if cache_entry and cache_entry.get("status") == "ALIVE":
+                if now - cache_entry.get("last_checked", 0) < (21 * 24 * 3600):
+                    self.detailed_stats["skipped_recent"] += 1
+                    return url, True, None, "Cached (Recent)"
 
         domain = url.split("//")[-1].split("/")[0]
         domain_info = self.learning_data.get("domains", {}).get(domain, {})
@@ -200,13 +196,32 @@ class IntelligentLinkCleaner:
         """
         norm_url = normalize_url(url)
         if norm_url not in self.inventory: self.inventory[norm_url] = {}
-
-        # If inventory already has a description, we are done
-        if self.inventory[norm_url].get("ai_summary"): return
+        
+        force_full = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
+        
+        # If inventory already has a description, we are done UNLESS forcing full
+        if self.inventory[norm_url].get("ai_summary") and not force_full:
+            # Still fetch GH metadata if missing
+            if "github.com" in url and ("stars" not in self.inventory[norm_url] or force_full):
+                gh_meta = await self._fetch_github_metadata(url)
+                if gh_meta:
+                    self.inventory[norm_url]["stars"] = min(5, gh_meta.get("stars", 0) // 100) # Simple rating
+                    self.inventory[norm_url]["gh_stars"] = gh_meta.get("stars", 0)
+                    self.inventory[norm_url]["last_commit"] = gh_meta.get("pushed_at", "")
+            return
 
         async with self.ai_semaphore:
             log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
             try:
+                # 1. Fetch GitHub metadata if applicable
+                if "github.com" in url:
+                    gh_meta = await self._fetch_github_metadata(url)
+                    if gh_meta:
+                        self.inventory[norm_url]["stars"] = min(5, gh_meta.get("stars", 0) // 100)
+                        self.inventory[norm_url]["gh_stars"] = gh_meta.get("stars", 0)
+                        self.inventory[norm_url]["last_commit"] = gh_meta.get("pushed_at", "")
+
+                # 2. AI Content Analysis
                 from src.agentic_curator import _deep_fetch_content
                 from src.gemini_utils import call_gemini_with_retry
                 web_content = await _deep_fetch_content(url)
@@ -222,7 +237,7 @@ class IntelligentLinkCleaner:
                 if ai_data:
                     res_desc = ai_data.get("desc", "").strip()
                     self.inventory[norm_url]["ai_summary"] = res_desc
-                    self.inventory[norm_url]["pub_date"] = ai_data.get("pub_date", "N/A")
+                    self.inventory[norm_url]["pub_date"] = str(ai_data.get("pub_date", "N/A"))
                     self.stats["enriched_descriptions"] += 1
                     log_event(f"    [OK] Cached for V2: {res_desc[:50]}...")
             except Exception as e:
@@ -237,9 +252,7 @@ class IntelligentLinkCleaner:
             "Connection": "keep-alive"
         }
         
-        # Immediate pass for high-trust domains to avoid over-cleaning
-        if any(trusted in url.lower() for trusted in ["github.com", "gitlab.com", "microsoft.com", "google.com", "aws.amazon.com"]):
-            return True, "Trusted Domain"
+        # NOTE: Trusted domains must also be checked to ensure the link isn't a 404.
 
         paywall_indicators = ["sign in", "create free account", "member-only story", "página de suscripción", "inicia sesión"]
         
@@ -333,11 +346,13 @@ class IntelligentLinkCleaner:
         # 2. Enrichment Phase (Smart Batching for AI)
         log_event("[*] Starting Smart AI Enrichment (V2 Descriptions)...", section_break=True)
         to_enrich = []
+        force_full = os.getenv("FORCE_FULL_CHECK", "false").lower() == "true"
+        
         for url in unique_urls:
             if url in self.dead_links: continue
             norm_url = normalize_url(url)
             if norm_url not in self.inventory: self.inventory[norm_url] = {}
-            if not self.inventory[norm_url].get("ai_summary"):
+            if not self.inventory[norm_url].get("ai_summary") or force_full:
                 to_enrich.append(url)
         
         if to_enrich:
@@ -427,12 +442,23 @@ class IntelligentLinkCleaner:
             track("Navigation", "created", "Orphan Audit", "Linked via Curator")
             self.detailed_stats["operation_types"]["orphans"] = orphans_linked
 
+        # 3. Ensure BBDD YAML Persistence: Include database files in the PR payload
+        self._save_inventory()
+        self._save_structure_map()
+        
         final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
+        
+        # Load fresh YAML content for the PR
+        import yaml
+        with open(INVENTORY_PATH, "r") as f: final_payload[INVENTORY_PATH] = f.read()
+        with open(STRUCTURE_MAP_PATH, "r") as f: final_payload[STRUCTURE_MAP_PATH] = f.read()
+
         if orphans_linked > 0:
             with open(getattr(self.curator, "index_path", "docs/index.md"), 'r') as f: 
                 final_payload[getattr(self.curator, "index_path", "docs/index.md")] = f.read()
             with open(getattr(self.curator, "mkdocs_path", "mkdocs.yml"), 'r') as f: 
                 final_payload[getattr(self.curator, "mkdocs_path", "mkdocs.yml")] = f.read()
+        
         if final_payload: self._create_pr(final_payload)
 
     def _create_pr(self, updates: Dict[str, str], report_content: str = None):

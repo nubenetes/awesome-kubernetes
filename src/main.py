@@ -163,21 +163,18 @@ async def master_orchestrator():
             # 2. Resilient Health Check (Identity Rotation)
             ua = user_agents[idx % len(user_agents)]
             headers = {"User-Agent": ua, "Referer": "https://www.google.com/"}
-            
-            # Trust high-value domains immediately
-            if any(trusted in expanded_url.lower() for trusted in ["github.com", "gitlab.com", "microsoft.com", "google.com"]):
-                asset["health"] = "trusted"
-            else:
-                try:
-                    async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12, verify=False) as client:
-                        resp = await client.get(expanded_url)
-                        if resp.status_code == 404:
-                            asset["health"] = "dead" # Definitively dead
-                        else:
-                            asset["health"] = "online"
-                except:
-                    asset["health"] = "uncertain" # Preserving if not 404
-            
+
+            # NOTE: All domains must be checked to ensure the link isn't a 404.
+            try:
+                async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12, verify=False) as client:
+                    resp = await client.get(expanded_url)
+                    if resp.status_code == 404:
+                        asset["health"] = "dead" # Definitively dead
+                    else:
+                        asset["health"] = "online"
+            except:
+                asset["health"] = "timeout" # Assume alive but unreachable for now
+
             # 3. GitHub Metadata Enrichment
             if "github.com" in expanded_url:
                 match = re.search(r'github\.com/([^/]+)/([^/]+)', expanded_url)
@@ -357,6 +354,13 @@ async def master_orchestrator():
             "x_audit": x_audit_trail
         }
         try:
+            # --- BBDD Persistence: Include YAML database files in the PR ---
+            from src.config import INVENTORY_PATH, STRUCTURE_MAP_PATH
+            if os.path.exists(INVENTORY_PATH):
+                with open(INVENTORY_PATH, 'r') as f: modified_files_content[INVENTORY_PATH] = f.read()
+            if os.path.exists(STRUCTURE_MAP_PATH):
+                with open(STRUCTURE_MAP_PATH, 'r') as f: modified_files_content[STRUCTURE_MAP_PATH] = f.read()
+
             pr_url = git_controller.apply_multi_file_changes(modified_files_content, metrics)
             if pr_url:
                 print(f"PULL_REQUEST_URL: {pr_url}")
