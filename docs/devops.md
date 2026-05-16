@@ -196,7 +196,6 @@
 - [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
 - [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps/)
 - [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration/)
-- [devopscurry.com: Key DevOps Principles to focus in 2021](https://devopscurry.com/key-devops-principles-to-focus-in-2021/)
 - [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
 - [medium: How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8) Your guide to getting started in a career in DevOps.
 - [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://cloudacademy.com/blog/devops-why-is-it-important-to-decouple-deployment-from-release/)
