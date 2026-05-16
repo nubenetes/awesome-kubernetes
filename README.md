@@ -249,9 +249,11 @@ To embrace the diverse global Cloud Native community while maintaining internati
     *   `description`: The original native summary (e.g., Spanish) for the **V1 Archive**.
     *   `ai_summary`: A professional English synthesis for the **V2 Portal**.
     *   `language`: The identified source language (e.g., 'Spanish', 'French').
+    *   `resource_type`: Classification (e.g., 'Blog', 'Repository', 'Case Study').
+    *   `complexity`: Target audience level (e.g., 'Beginner', 'Architect').
 - **Separation of Concerns (Data vs. UI)**:
     *   **The Database (Source of Truth)**: Holds raw data, enabling future features like language-based filtering or statistics without re-processing links.
-    *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the `language` metadata into visual UI tags (e.g., `[SPANISH CONTENT]`) and localized badges during the site build process.
+    *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the `language`, `complexity`, and `type` metadata into visual UI tags (e.g., `[SPANISH CONTENT]`, `[ARCHITECT LEVEL]`) during the site build process.
 - **Global Discoverability**: This architecture ensures that high-value local content (blogs, tutorials, community videos) remains accessible in its original context (V1) while being indexed and readable by a global audience (V2).
 
 ---

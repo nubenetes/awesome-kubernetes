@@ -290,7 +290,9 @@ async def master_orchestrator():
                 "post_date": asset.get("timestamp"),
                 "source": asset.get("source_type", "Social"),
                 "impact_score": evaluation.get("impact_score", 0),
-                "title": evaluation.get("title", "N/A")
+                "title": evaluation.get("title", "N/A"),
+                "language": evaluation.get("language", "English"),
+                "type": evaluation.get("resource_type", "Reference")
             })
 
             if evaluation["status"] == "INCLUDED":

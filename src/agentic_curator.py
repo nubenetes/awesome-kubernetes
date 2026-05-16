@@ -116,7 +116,9 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "impact_score": cached.get("stars", 1) * 20, 
                     "is_exceptional": cached.get("stars", 0) >= 4,
                     "language": cached.get("language", "English"),
-                    "en_summary": cached.get("ai_summary", cached["description"])
+                    "en_summary": cached.get("ai_summary", cached["description"]),
+                    "resource_type": cached.get("resource_type", "Reference"),
+                    "complexity": cached.get("complexity", "Intermediate")
                 }
                 continue
 
@@ -145,12 +147,14 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- TITLE: Use the resource's primary technical title (usually English for repos, native for videos/articles).\n"
             "- DESC (V1 Archive): Provide a professional descriptive summary in the RESOURCE'S NATIVE LANGUAGE.\n"
             "- EN_SUMMARY (V2 Portal): Provide a professional 1-2 sentence summary in high-quality ENGLISH.\n"
-            "PHASE 3: QUALITY & MVQ\n"
+            "PHASE 3: QUALITY, TYPE & COMPLEXITY\n"
+            "- Identify RESOURCE_TYPE: (Blog, Repository, Video, Tool, Documentation, Guide, Case Study).\n"
+            "- Assign COMPLEXITY: (Beginner, Intermediate, Advanced, Architect).\n"
             "- Evaluate TECHNICAL IMPACT (1-100).\n"
             f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
             f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n"
             f"URL: {asset['url']}\nExtracted Web Content: {web_content[:2000]}\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"reasoning\": \"...\"}"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"reasoning\": \"...\"}"
         )
 
         try:
@@ -173,12 +177,16 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "year": year, "category": primary_cat, "related_categories": related_cats[:2],
                     "impact_score": score, "is_exceptional": score > 80,
                     "language": data.get("language", "English"),
-                    "en_summary": data.get("en_summary", data["desc"])
+                    "en_summary": data.get("en_summary", data["desc"]),
+                    "resource_type": data.get("resource_type", "Reference"),
+                    "complexity": data.get("complexity", "Intermediate")
                 }
                 curator.inventory[norm_url] = {
                     "title": data["title"], "description": data["desc"], 
                     "ai_summary": data.get("en_summary", data["desc"]),
                     "language": data.get("language", "English"),
+                    "resource_type": data.get("resource_type", "Reference"),
+                    "complexity": data.get("complexity", "Intermediate"),
                     "year": year, "pub_date": data.get("pub_date", "N/A"), "post_date": asset.get("timestamp", "N/A"),
                     "repo_created_at": gh_meta.get("gh_created", "N/A"), "repo_pushed_at": gh_meta.get("gh_pushed", "N/A"),
                     "stars": min(max(score // 20, 0), 5), "last_checked": datetime.now().timestamp(),

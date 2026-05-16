@@ -439,9 +439,13 @@ class IntelligentLinkCleaner:
 
         async with self.ai_semaphore:
             prompt = (
-                "You act as a Technical Librarian. Analyze these resources and provide a 1-sentence English description and the publication year for each.\n"
-                "UNIVERSAL ENGLISH CURATION: The 'desc' field MUST be in professional ENGLISH. If the source content is in another language (e.g., Spanish), TRANSLATE it.\n"
-                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\"}, ...]\n\n"
+                "You act as a Technical Librarian. Analyze these resources and provide high-density metadata for each.\n"
+                "1. DESC: A 1-sentence English description (Translate if source is non-English).\n"
+                "2. YEAR: Publication year (YYYY).\n"
+                "3. LANGUAGE: Source language (e.g., 'English', 'Spanish').\n"
+                "4. TYPE: (Blog, Repository, Video, Tool, Guide, Case Study).\n"
+                "5. LEVEL: (Beginner, Intermediate, Advanced, Architect).\n"
+                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\"}, ...]\n\n"
                 "RESOURCES:\n" + "\n".join([f"- {d['url']}: {d['content']}" for d in valid_data])
             )
             
@@ -453,9 +457,13 @@ class IntelligentLinkCleaner:
                         if not url: continue
                         norm_url = normalize_url(url)
                         if norm_url in self.inventory:
-                            self.inventory[norm_url]["ai_summary"] = res.get("desc", "").strip()
-                            self.inventory[norm_url]["pub_date"] = str(res.get("year", "N/A"))
-                            self.inventory[norm_url]["language"] = res.get("language", "English")
+                            self.inventory[norm_url].update({
+                                "ai_summary": res.get("desc", "").strip(),
+                                "pub_date": str(res.get("year", "N/A")),
+                                "language": res.get("language", "English"),
+                                "resource_type": res.get("type", "Reference"),
+                                "complexity": res.get("level", "Intermediate")
+                            })
                             self.stats["enriched_descriptions"] += 1
                             log_event(f"    [OK] Enriched: {url} ({res.get('language', 'English')})")
             except Exception as e:

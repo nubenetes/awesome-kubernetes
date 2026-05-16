@@ -44,6 +44,8 @@ class V2VisionEngine:
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
             "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY): Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
             "- Detect source content LANGUAGE (e.g., 'English', 'Spanish', 'French').\n"
+            "- Identify RESOURCE_TYPE: (Blog, Repository, Video, Tool, Documentation, Guide, Case Study).\n"
+            "- Assign COMPLEXITY: (Beginner, Intermediate, Advanced, Architect).\n"
             "- Assign QUALITY level (0-5 stars):\n"
             "  * 0 stars: Good technical resource (Baseline).\n"
             "  * 1 star (🌟): High-quality technical guide or tool.\n"
@@ -280,7 +282,7 @@ class V2VisionEngine:
             prompt = (
                 f"{self.library_criteria}\n"
                 "UNIVERSAL ENGLISH CURATION: ALL output 'summary' fields MUST be in ENGLISH. If source is non-English (e.g. Spanish), TRANSLATE to professional English.\n"
-                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\", \"language\": \"...\"}, ...]}\n\n"
+                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\"}, ...]}\n\n"
                 "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Current Desc: {l['description'][:50]}" for idx, l in enumerate(batch)])
             )
             
@@ -296,10 +298,12 @@ class V2VisionEngine:
                             eval_data = {
                                 "year": str(res.get("year", "N/A")),
                                 "stars": min(max(int(res.get("stars", 0)), 0), 5),
-                                "is_video": res.get("is_video", False),
+                                "is_video": res.get("is_video", False) or "video" in str(res.get("type", "")).lower(),
                                 "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
                                 "ai_summary": res.get("summary", ""),
-                                "language": res.get("language", "English")
+                                "language": res.get("language", "English"),
+                                "resource_type": res.get("type", "Reference"),
+                                "complexity": res.get("level", "Intermediate")
                             }
                             item.update(eval_data)
                             if not item["description"] and item["ai_summary"]:
@@ -527,8 +531,20 @@ class V2VisionEngine:
                     lang_tag = ""
                     if lang.lower() != "english":
                         lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
+                    
+                    # Complexity Tagging
+                    level = l.get("complexity", "Intermediate")
+                    level_tag = ""
+                    if level.lower() in ["architect", "advanced"]:
+                        level_tag = f" <span class='md-tag md-tag--critical'>[{level.upper()} LEVEL]</span>"
+                    
+                    # Resource Type Tagging
+                    res_type = l.get("resource_type", "Reference")
+                    type_tag = ""
+                    if res_type.lower() in ["case study", "guide", "documentation"]:
+                        type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
 
-                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                     if l['description']:
                         desc = l['description']
                         if "\n" in desc:
