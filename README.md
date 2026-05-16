@@ -220,22 +220,25 @@ Nubenetes employs a strategic "Double-Format" protocol to ensure system reliabil
 - **JSON for AI Communication**: When agents talk to Google Gemini, they utilize **JSON** as the messaging protocol. This ensures rigid data structures and prevents AI formatting errors (like indentation slips) from breaking the processing scripts.
 - **YAML for Repository Storage**: Once the data is validated, it is serialized into **YAML** for the local database. This provides a clean, human-readable format that is easy to audit via Git diffs and respects the repository's aesthetic standards.
 
-### Dynamic AI Discovery & Intelligence
-To minimize API latencies and optimize quality, the system features a **Dynamic Model Discovery Engine**:
-1.  **Capability-First Discovery**: At the start of each run, the bot queries the Google Model Service to list all available models for the current API keys.
-2.  **Autonomous Scoring**: Models are ranked using a weighted algorithm:
-    *   **Generation Score**: 3.x > 2.x > 1.x series.
-    *   **Capability Tier**: `Pro` models (Intelligence) are prioritized over `Flash` models (Speed).
-    *   **Stability Factor**: Stable releases are prioritized over experimental/preview versions.
-3.  **Intelligent Rotation**: If a model returns a 404 (Unsupported) or 429 (Rate Limit), the system automatically falls back to the next best model in the ranked list or rotates the API key.
+### Dynamic AI Discovery & Optimization
+To eliminate configuration overhead and ensure Nubenetes always utilizes the frontier of AI technology, the system features a **Zero-Config Dynamic Model Discovery Engine**:
+
+1.  **Live Capability Discovery**: At the start of each workflow run, the bot programmatically queries the Google Model Service API to list all models actually available to the provided API keys.
+2.  **Autonomous Scoring & Ranking**: Models are automatically ranked using a sophisticated 2026-standard weighted algorithm:
+    *   **Generation Tier**: 3.1 > 3.0 > 2.5 > 1.5.
+    *   **Capability Level**: `Pro` models (High Reasoning) are prioritized over `Flash` (High Speed).
+    *   **Production Readiness**: Stable releases are prioritized over experimental or preview versions.
+3.  **Resilient Failover Protocol**: If a model returns a `404` (Unsupported) or `429` (Rate Limit), the engine immediately rotates to the next best model or switches API keys without interrupting the curation process.
 
 ```mermaid
 graph LR
-    Start[Workflow Start] --> List[Models.list API]
-    List --> Score{Scoring Algorithm}
-    Score -->|Ranked List| Run[Process Tasks]
-    Run -->|429/404| Fallback[Next Model / Key]
-    Fallback --> Run
+    A[Workflow Initiation] --> B[API Model Discovery]
+    B --> C{Scoring Engine}
+    C -->|Ranked Queue| D[Task Processing]
+    D -->|404 / 429| E[Auto-Failover]
+    E -->|Next Best Model| D
+    E -->|Key Rotation| D
+    D -->|Success| F[Inventory Sync]
 ```
 
 ### Agentic Data Flow

@@ -45,6 +45,10 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (`#`).
     - **Protocol Uniformity**: Standardize on `https://` whenever possible.
     - **Merge Logic**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
+24. **Dynamic AI Model Discovery**: To remain at the cutting edge and ensure system stability, all agents MUST use the dynamic model discovery engine.
+    - **Live Discovery**: Query the `models.list` API at runtime to identify actually available models for each key.
+    - **Scoring & Ranking**: Prioritize models using the established 2026 hierarchy (Generation 3.x > 2.x > 1.x; Pro > Flash).
+    - **Resilient Fallback**: Automatically transition between models and API keys upon encountering 404 (Unsupported) or 429 (Rate Limit) errors.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
