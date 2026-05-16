@@ -36,6 +36,19 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
+22. **Unified Metadata Database (Local Storage)**: All link metadata MUST be managed via the local YAML database in `data/`.
+    - **`inventory.yaml`**: The primary source of truth for years, stars (0-5), and descriptions.
+    - **`structure_map.yaml`**: Tracks link locations and visual formatting (bold/highlight) across V1 and V2.
+    - **Persistence**: Every agent MUST load these files at startup and save any modifications immediately to ensure state continuity across workflows.
+    - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions in the V1 archive files. Enrichment is strictly for `inventory.yaml` and the V2 portal.
+23. **Canonical URL Normalization**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
+    - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (`#`).
+    - **Protocol Uniformity**: Standardize on `https://` whenever possible.
+    - **Merge Logic**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
+24. **Dynamic AI Model Discovery**: To remain at the cutting edge and ensure system stability, all agents MUST use the dynamic model discovery engine.
+    - **Live Discovery**: Query the `models.list` API at runtime to identify actually available models for each key.
+    - **Scoring & Ranking**: Prioritize models using the established 2026 hierarchy (Generation 3.x > 2.x > 1.x; Pro > Flash).
+    - **Resilient Fallback**: Automatically transition between models and API keys upon encountering 404 (Unsupported) or 429 (Rate Limit) errors.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
@@ -108,6 +121,9 @@ Whenever a significant curation cycle (automatic or manual) is completed:
 ### 5. Automation vs Manual Intervention
 *   **Automated Updates:** The Agentic Bot should ideally include a step to refresh these metrics in its curation PRs.
 *   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
+*   **Algorithm-README Sync**: Whenever the AI curation logic, model tiering, or the extraction algorithm is modified (e.g., `src/gemini_utils.py` or `src/v2_optimizer.py`), the `README.md` MUST be updated to reflect these technical changes in the "Agentic Stack" and "Architectural Shift" sections.
+*   **Hierarchical README Maintenance**: Whenever `README.md` is modified, the Table of Contents (TOC) MUST be updated to reflect all changes in sections (H2) and subsections (H3). All titles in the document MUST include hierarchical numbering (e.g., "1. Section", "1.1. Subsection") perfectly synchronized with the TOC.
+*   **Robust Title Standards**: Emojis and ampersands (&) MUST NOT be used in any section (H2) or subsection (H3) titles within `README.md` or the Table of Contents. Ampersands should be replaced with "and". This ensures maximum compatibility with Markdown anchor generation and prevents broken navigation links.
 
 ## 🚀 Block Evasion Strategies
 
@@ -144,4 +160,9 @@ The bot must rotate between profiles to avoid detection:
     - **Impact-Driven Synthesis**: Shifted V2 mission from pure "chronological clarity" to "impact-driven synthesis", prioritizing Stars/Impact over dates while maintaining chronological data.
     - **Relevance-First Sorting**: Updated V2 logic to prioritize Stars/Impact over dates within dimension categories.
     - **Unified Metadata Engine**: Integrated V2's year extraction and professional description logic into the main V1 curation workflow (`src/agentic_curator.py`).
-    - **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
+    *   **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
+    *   **AI Observability & Transparency (May 2026)**:
+        - **Session Tracking**: Every AI call MUST be tracked via `SESSION_TRACKER` to record model usage and key health.
+        - **Infrastructure Reporting**: All curation PRs MUST include the `Intelligence Report` to provide transparency on models used (Pro vs Flash) and API key identities (Identity A/B).
+        - **Dynamic Discovery**: Agents MUST utilize the dynamic discovery engine to automatically adopt the newest Gemini models and rotate keys upon reaching quotas.
+

@@ -10,13 +10,22 @@ TWITTER_USERNAME = os.getenv("TWITTER_USERNAME")
 TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
 TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
-# Gemini API Keys Rotation
-GEMINI_API_KEYS = [
-    os.getenv("GEMINI_API_KEY_1"),
-    os.getenv("GEMINI_API_KEY"),   # Fallback para compatibilidad
-    os.getenv("GEMINI_API_KEY_2")
+# Gemini API Keys Configuration (May 2026)
+# Identity A: Pay-as-you-go Subscription (Primary Cloud) - High Performance
+# Identity B: Gemini Pro Subscription (Family Shared) - Manual Opt-in Fallback
+GEMINI_KEYS_METADATA = [
+    {"key": os.getenv("GEMINI_API_KEY_1"), "type": "PAY-AS-YOU-GO", "label": "Identity A (Primary Cloud)"}
 ]
-GEMINI_API_KEYS = [k for k in GEMINI_API_KEYS if k] # Filtrar nulos
+
+# Only include Identity B if explicitly enabled via environment
+if os.getenv("ACTIVATE_BACKUP_KEY", "false").lower() == "true":
+    GEMINI_KEYS_METADATA.append(
+        {"key": os.getenv("GEMINI_API_KEY_2"), "type": "SUBSCRIPTION", "label": "Identity B (Family Shared)"}
+    )
+
+# Filter valid keys and keep metadata
+GEMINI_API_KEYS_DATA = [k for k in GEMINI_KEYS_METADATA if k["key"]]
+GEMINI_API_KEYS = [k["key"] for k in GEMINI_API_KEYS_DATA]
 
 GEMINI_API_KEY = GEMINI_API_KEYS[0] if GEMINI_API_KEYS else None
 if GEMINI_API_KEY and not os.getenv("GOOGLE_API_KEY"):
@@ -24,14 +33,8 @@ if GEMINI_API_KEY and not os.getenv("GOOGLE_API_KEY"):
 
 GH_TOKEN = os.getenv("GH_TOKEN")
 
-# Gemini Configuration (May 2026)
-GEMINI_API_VERSION = "v1"
-GEMINI_MODELS = [
-    "gemini-3.1-flash",
-    "gemini-3.1-pro",
-    "gemini-2.5-pro",
-    "gemini-2.5-flash"
-]
+# Gemini Configuration (Dynamic Discovery Enabled)
+GEMINI_API_VERSION = "v1beta"
 
 TARGET_REPO = "nubenetes/awesome-kubernetes"
 

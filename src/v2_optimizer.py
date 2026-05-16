@@ -10,9 +10,15 @@ from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ
 from src.gemini_utils import call_gemini_with_retry
 from src.logger import log_event
 
+def normalize_url(url: str) -> str:
+    url = url.split("#")[0].split("?")[0].rstrip("/")
+    if url.startswith("http://"): url = "https://" + url[7:]
+    return url.lower()
+
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
-V2_CACHE_PATH = "data/v2_cache.json"
+INVENTORY_PATH = "data/inventory.yaml"
+STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class V2VisionEngine:
     def __init__(self):
@@ -36,27 +42,50 @@ class V2VisionEngine:
             "PHASE 1: TECHNICAL PRESERVATION (HIGH INCLUSIVITY)\n"
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION YEAR: Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
-            "- Assign QUALITY level (1-3 stars).\n"
+            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY): Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
+            "- Assign QUALITY level (0-5 stars):\n"
+            "  * 0 stars: Good technical resource (Baseline).\n"
+            "  * 1 star (🌟): High-quality technical guide or tool.\n"
+            "  * 2 stars (🌟🌟): Exceptional, enterprise-grade resource.\n"
+            "  * 3 stars (🌟🌟🌟): Elite Gem. Recommended for all architects.
+            "  * 4 stars (🌟🌟🌟🌟): Masterclass content or Essential Industry Tool.\n"
+            "  * 5 stars (🌟🌟🌟🌟🌟): Legendary Resource (e.g., K8s Official Docs, Foundations like Prometheus/Envoy)."\n"
             "- Assign a MATURITY TAG based on content type/status.\n"
             "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
             "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
             "- If 'Current Desc' is empty, too short, or non-descriptive, generate a professional 1-2 sentence summary.\n"
-            "- To generate the summary: Analyze the URL and title. If you recognize the technical resource, describe its core value proposition for a Cloud Architect in 2026.\n"
             "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
-        self.cache = self._load_cache()
+        self.inventory = self._load_inventory()
+        self.structure_map = self._load_structure_map()
 
-    def _load_cache(self) -> Dict:
-        if os.path.exists(V2_CACHE_PATH):
+    def _load_inventory(self) -> Dict:
+        if os.path.exists(INVENTORY_PATH):
             try:
-                with open(V2_CACHE_PATH, "r") as f: return json.load(f)
+                with open(INVENTORY_PATH, "r") as f:
+                    return yaml.safe_load(f) or {}
             except: return {}
         return {}
 
-    def _save_cache(self):
-        os.makedirs(os.path.dirname(V2_CACHE_PATH), exist_ok=True)
-        with open(V2_CACHE_PATH, "w") as f: json.dump(self.cache, f, indent=2)
+    def _save_inventory(self):
+        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
+        with open(INVENTORY_PATH, "w") as f:
+            yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+
+    def _load_structure_map(self) -> dict:
+        if os.path.exists(STRUCTURE_MAP_PATH):
+            try:
+                with open(STRUCTURE_MAP_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_structure_map(self):
+        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
+        with open(STRUCTURE_MAP_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY CHRONOLOGICAL LIBRARY GENERATION", section_break=True)
@@ -80,7 +109,7 @@ class V2VisionEngine:
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         await self._sync_enterprise_navigation(v2_data)
         
-        self._save_cache()
+        self._save_inventory(); self._save_structure_map()
         log_event("V2 LIBRARY GENERATION COMPLETED.", section_break=True)
 
     async def _gather_all_v1_content(self) -> (List[Dict], str, str):
@@ -170,7 +199,7 @@ class V2VisionEngine:
             return link
 
         # 2. Cached Health
-        if url in self.cache and self.cache[url].get("status") == "online":
+        if url in self.inventory and self.inventory[normalize_url(url)].get("status") == "online":
             link["health_status"] = "cached"
             return link
 
@@ -187,7 +216,7 @@ class V2VisionEngine:
                 # Use GET instead of HEAD as many sites block HEAD or return 405
                 resp = await client.get(url, headers=headers, timeout=10.0)
                 if resp.status_code < 400:
-                    self.cache.setdefault(url, {})["status"] = "online"
+                    self.inventory.setdefault(url, {})["status"] = "online"
                     link["health_status"] = "online"
                     return link
                 
@@ -221,11 +250,11 @@ class V2VisionEngine:
             # To allow the new logic to apply to cached items, we re-process GitHub links 
             # and re-apply the tag logic even if it's in the cache.
             item = l.copy()
-            if not force_eval and url in self.cache and "stars" in self.cache[url]:
-                item.update(self.cache[url])
+            if not force_eval and url in self.inventory and "stars" in self.inventory[normalize_url(url)]:
+                item.update(self.inventory[normalize_url(url)])
                 # If cache has a generated description and item is missing one, use it
-                if "ai_summary" in self.cache[url] and not item["description"]:
-                    item["description"] = self.cache[url]["ai_summary"]
+                if "ai_summary" in self.inventory[normalize_url(url)] and not item["description"]:
+                    item["description"] = self.inventory[normalize_url(url)]["ai_summary"]
             
             # Re-evaluate if description is still missing even after cache check
             if not item.get("description"):
@@ -257,7 +286,7 @@ class V2VisionEngine:
             )
             
             try:
-                data = await call_gemini_with_retry(prompt)
+                data = await call_gemini_with_retry(prompt, prefer_flash=True)
                 results = data.get("results", [])
                 
                 for res in results:
@@ -267,7 +296,7 @@ class V2VisionEngine:
                             item = batch[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")),
-                                "stars": min(max(int(res.get("stars", 1)), 1), 3),
+                                "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "is_video": res.get("is_video", False),
                                 "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
                                 "ai_summary": res.get("summary", "")
@@ -288,25 +317,38 @@ class V2VisionEngine:
                             eval_data["tag"] = item["tag"]
 
                             # Save to cache
-                            self.cache[item["url"]] = eval_data
+                            self.inventory[item["url"]] = eval_data
                             refined.append(item)
                     except: continue
             except:
                 for l in batch:
                     item = l.copy()
-                    item["year"], item["stars"], item["is_video"] = "N/A", 1, "youtube" in l["url"]
+                    item["year"], item["stars"], item["is_video"] = "N/A", 0, "youtube" in l["url"]
                     item["tag"] = self._calculate_tag(item)
                     refined.append(item)
             await asyncio.sleep(0.3)
         return refined
 
-    def _calculate_tag(self, item: Dict) -> str:
-        # Dynamic Tagging Strategy based on Maturity and Real Data
-        if "github.com" in item["url"] and "gh_stars" in item:
-            stars = item["gh_stars"]
-            year = int(item.get("year")) if item.get("year", "").isdigit() else 2024
-            if stars > 10000: return "[DE FACTO STANDARD]"
-            if stars > 500 and year >= 2024: return "[ENTERPRISE-STABLE]"
+        def _calculate_tag(self, item: Dict) -> str:
+        # Dynamic Evolutionary Tagging (Automatic Project Growth Detection)
+        url = item.get("url", "").lower()
+        stars = item.get("gh_stars", 0)
+        year = int(item.get("year")) if item.get("year", "").isdigit() else 2024
+
+        if "github.com" in url or "gitlab.com" in url:
+            if stars > 15000: return "[DE FACTO STANDARD]"
+            if stars > 3000: return "[ENTERPRISE-STABLE]"
+            if stars > 500 and year >= 2025: return "[HIGH-GROWTH / EMERGING]"
+            if year <= 2021 and stars < 100: return "[LEGACY / MAINTENANCE]"
+            return "[COMMUNITY-TOOL]"
+        
+        # Article/Guide Logic
+        title = item.get("title", "").lower()
+        if "awesome" in title: return "[FOUNDATIONAL]"
+        if "guide" in title or "architecture" in title: return "[ARCHITECTURE-GUIDE]"
+        if "deep dive" in title or "internals" in title: return "[TECHNICAL-DEEP-DIVE]"
+        if "how to" in title or "tutorial" in title: return "[CASE-STUDY]"
+        return "[EXPERT-ARTICLE]" 
             if year >= 2025: return "[EMERGING / INNOVATION]"
             if year <= 2022: return "[LEGACY / MAINTENANCE]"
             return "[TOOLING]"
@@ -340,7 +382,7 @@ class V2VisionEngine:
                     data = resp.json()
                     return {
                         "gh_stars": data.get("stargazers_count", 0),
-                        "gh_updated": data.get("updated_at", "").split("T")[0]
+                        "gh_pushed": data.get("pushed_at", "").split("T")[0], "gh_created": data.get("created_at", "").split("T")[0]
                     }
         except: pass
         return {}
@@ -371,7 +413,7 @@ class V2VisionEngine:
             
             prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
             try:
-                v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text")
+                v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
             except:
                 v2_structure[dim]["summary"] = f"Impact-driven reference library for {dim}."
                 
@@ -384,16 +426,37 @@ class V2VisionEngine:
         master_selection = []
         for dim in data.values():
             for cat_links in dim["categories"].values():
-                master_selection.extend([l for l in cat_links if l.get("stars", 1) == 3])
+                master_selection.extend([l for l in cat_links if l.get("stars", 0) >= 3])
         
-        # Sort master selection by Year (DESC), then Title (ASC)
-        # (Relevance is already fixed at 3 stars for this list)
+        # Sort master selection by Stars (DESC), then Year (DESC), then Title (ASC)
         master_selection.sort(
             key=lambda x: (
+                -x.get("stars", 0),
                 -(int(x["year"]) if x.get("year", "").isdigit() else 0),
                 x["title"]
             )
         )
+
+        # --- THE AGENTIC PULSE (Trending) ---
+        trending_pool = []
+        for url, meta in self.inventory.items():
+            if meta.get("stars", 0) >= 3:
+                trending_pool.append(meta.copy())
+                trending_pool[-1]["url"] = url
+
+        # Sort by: 1. Pub/Post Date (DESC), 2. Stars (DESC)
+        trending_pool.sort(key=lambda x: (
+            x.get("pub_date", "0000") if x.get("pub_date") != "N/A" else x.get("post_date", "0000"),
+            -x.get("stars", 0)
+        ), reverse=True)
+
+        pulse_md = "## ⚡ The Agentic Pulse: Trending Excellence\n"
+        pulse_md += "Directly from the latest 2026 curation surges. High-impact technical depth recently added.\n\n"
+        for l in trending_pool[:5]:
+            stars = "🌟" * l.get("stars", 3)
+            date = l.get("pub_date") if l.get("pub_date") != "N/A" else l.get("post_date")
+            date_prefix = f"**({date[:10]})** " if date and date != "N/A" else ""
+            pulse_md += f"- {date_prefix}[**=={l['title']}==**]({l['url']}) {stars}\n"
 
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
@@ -402,8 +465,8 @@ class V2VisionEngine:
             "    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing "
             "    impact-driven synthesis and expert quality classification.\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
-            
-            "## 🛡️ V2 Taxonomy & Maturity Tags\n"
+            f"{pulse_md}\n"
+            "## 🛡️ V2 Taxonomy & Elite Quality Tiers\n"
             "To maximize technical clarity, V2 resources are classified by maturity rather than subjective quality:\n\n"
             "- <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>: Foundational industry tools with massive adoption (>10k GitHub stars).\n"
             "- <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>: Production-ready tools actively maintained.\n"
@@ -418,9 +481,11 @@ class V2VisionEngine:
             gh_info = f" `[⭐ {l['gh_stars']}]`" if "gh_stars" in l else ""
             year_prefix = f"**({l['year']})** " if l.get("year") and l["year"] != "N/A" else ""
             title_clean = l['title'].replace("==", "")
-            # Master selection links are 3 stars, so we highlight
+            # Master selection links are 3-5 stars, so we highlight
             title_display = f"**=={title_clean}==**"
-            index_md += f"- {year_prefix}[{title_display}]({l['url']}){gh_info} 🌟🌟🌟\n"
+            stars_val = l.get("stars", 3)
+            stars_str = "🌟" * stars_val
+            index_md += f"- {year_prefix}[{title_display}]({l['url']}){gh_info} {stars_str}\n"
         
         index_md += "\n??? note \"Elite Video Selection - Click to expand!\"\n"
         index_md += f"    <center markdown=\"1\">\n{videos_html}\n    </center>\n\n"
@@ -441,8 +506,8 @@ class V2VisionEngine:
             for cat, links in content["categories"].items():
                 md += f"## {cat}\n"
                 for l in links:
-                    year, stars_val = l.get("year", "N/A"), l.get("stars", 1)
-                    stars = "🌟" * stars_val
+                    year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
+                    stars = ("🌟" * stars_val) if stars_val > 0 else ""
                     tag = l.get("tag", "[ENTERPRISE-STABLE]")
                     
                     # Determine color mapping for new tags
@@ -453,7 +518,7 @@ class V2VisionEngine:
                     else: color = "primary"
                     
                     title_clean = l['title'].replace("==", "")
-                    if stars_val == 3 or "STANDARD" in tag:
+                    if stars_val >= 3 or "STANDARD" in tag:
                         title_display = f"**=={title_clean}==**"
                     elif stars_val == 2:
                         title_display = f"**{title_clean}**"

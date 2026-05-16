@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime
+from src.gemini_utils import SESSION_TRACKER
 
 REPORT_PATH = "report.html"
 
@@ -63,6 +64,25 @@ def generate_visual_report(metrics: list) -> str:
             <div class="charts-container">
                 <div class="chart-box"><canvas id="decisionChart"></canvas></div>
                 <div class="chart-box"><canvas id="sourceChart"></canvas></div>
+            </div>
+
+            <h2>🧠 AI Intelligence & Infrastructure</h2>
+            <div style="background: #2c3e50; color: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+                <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 250px;">
+                        <h4>🤖 Model Usage</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            {''.join([f"<li><code>{m}</code>: <b>{c}</b> calls</li>" for m, c in SESSION_TRACKER.model_usage.items()]) or "<li>No AI calls recorded</li>"}
+                        </ul>
+                    </div>
+                    <div style="flex: 2; min-width: 300px;">
+                        <h4>🔑 API Key Health</h4>
+                        <table style="width: 100%; color: white; border: none;">
+                            <tr><th>Key</th><th>Type</th><th>Usage</th><th>Failures</th></tr>
+                            {''.join([f"<tr><td>{idx+1}</td><td>{s['type']}</td><td>{s['calls']}</td><td>{s['429s']}/{s['404s']}</td></tr>" for idx, s in SESSION_TRACKER.key_stats.items()])}
+                        </table>
+                    </div>
+                </div>
             </div>
 
             <h2>📋 Detailed Curation Matrix</h2>

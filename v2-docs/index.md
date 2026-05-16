@@ -19,8 +19,18 @@
 [![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![netbox](images/netboxlabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/@NetBoxLabs) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:7%"}](https://www.youtube.com/@ByteByteGo) [![dotcsv](images/dotcsv.jpg){: style="width:7%"}](https://www.youtube.com/@DotCSV) [![midulive](images/midulive.jpg){: style="width:7%"}](https://www.youtube.com/@midulive)
 </center>
 
-## 🛡️ V2 Taxonomy & Maturity Tags
-To maximize technical clarity, V2 resources are classified by maturity rather than subjective quality:
+## 🛡️ V2 Taxonomy & Elite Quality Tiers
+To provide maximum signal for Cloud Architects, V2 resources are classified by both maturity and technical impact:
+
+### Impact Tiers (Stars & Highlights)
+- **(No stars)**: High-quality technical resource (Baseline for V2 Elite).
+- **🌟**: Notable technical depth or useful tool.
+- **🌟🌟** (**Negrita**): Exceptional enterprise-grade resource.
+- **🌟🌟🌟** (==Resaltado==): Elite Gem. Highly recommended reference.
+- **🌟🌟🌟🌟** (==Resaltado==): Industry Essential / Masterclass content.
+- **🌟🌟🌟🌟🌟** (==Resaltado==): Legendary Standard (Official Docs, CNCF Foundations).
+
+### Maturity Tags
 
 - <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>: Foundational industry tools with massive adoption (>10k GitHub stars).
 - <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>: Production-ready tools actively maintained.

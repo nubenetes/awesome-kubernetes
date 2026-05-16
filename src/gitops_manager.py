@@ -3,6 +3,8 @@ import base64
 from github import Github
 from datetime import datetime
 
+from src.gemini_utils import SESSION_TRACKER
+
 class RepositoryController:
     def __init__(self, access_token: str, repository_identifier: str):
         self.github_client = Github(access_token)
@@ -153,10 +155,14 @@ class RepositoryController:
         x_log = "### ⚡ Ingestion Audit Trail (X.com)\n"
         for entry in metrics.get('x_audit', []): x_log += f"- {entry}\n"
 
+        # 5. AI Intelligence & Observability Report
+        ai_intelligence = SESSION_TRACKER.get_intelligence_report()
+
         pr_narrative = (
             f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
             f"This report details the processing of **{metrics.get('total_extracted', 0)}** detected links.\n\n"
             f"{extraction_audit}\n"
+            f"{ai_intelligence}\n"
             f"{mermaid_pie}\n"
             f"{mermaid_origin}\n"
             f"{x_log}\n"

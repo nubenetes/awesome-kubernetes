@@ -12,27 +12,38 @@ from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
 from src.logger import log_event
 
+def normalize_url(url: str) -> str:
+    url = url.split("#")[0].split("?")[0].rstrip("/")
+    if url.startswith("http://"): url = "https://" + url[7:]
+    return url.lower()
+
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
 MEMORY_FILE = "src/memory/health_learning.json"
+INVENTORY_PATH = "data/inventory.yaml"
+STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class IntelligentLinkCleaner:
     def __init__(self):
         self.git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
         self.sanitizer = MarkdownSanitizer()
         self.curator = AgenticCurator()
+        self.ai_semaphore = asyncio.Semaphore(5) # Limit concurrent AI calls
         self.link_registry: Dict[str, List[Dict]] = {}
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
+        self.description_updates: Dict[str, str] = {}
         self.learning_data = self._load_memory()
+        self.inventory = self._load_inventory()
+        self.structure_map = self._load_structure_map()
         self.action_log: List[Dict] = [] 
         self.detailed_stats = {
             "total_scanned": 0,
             "skipped_recent": 0,
             "by_file": {}, 
             "by_category": {}, 
-            "operation_types": {"removals": 0, "consolidated": 0, "orphans": 0}
+            "operation_types": {"removals": 0, "consolidated": 0, "orphans": 0, "enriched": 0}
         }
-        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "orphans_fixed": 0}
+        self.stats = {"total_links": 0, "dead_links_removed": 0, "duplicates_pruned": 0, "ai_decisions": 0, "orphans_fixed": 0, "enriched_descriptions": 0}
 
     def _load_memory(self) -> Dict:
         if os.path.exists(MEMORY_FILE):
@@ -43,7 +54,37 @@ class IntelligentLinkCleaner:
 
     def _save_memory(self):
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
-        with open(MEMORY_FILE, 'w') as f: json.dump(self.learning_data, f, indent=2)
+        with open(MEMORY_FILE, "w") as f: json.dump(self.learning_data, f, indent=2)
+
+    def _load_inventory(self) -> dict:
+        if os.path.exists(INVENTORY_PATH):
+            try:
+                with open(INVENTORY_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_inventory(self):
+        os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
+        with open(INVENTORY_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+
+    def _load_structure_map(self) -> dict:
+        if os.path.exists(STRUCTURE_MAP_PATH):
+            try:
+                with open(STRUCTURE_MAP_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_structure_map(self):
+        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
+        with open(STRUCTURE_MAP_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
@@ -67,7 +108,7 @@ class IntelligentLinkCleaner:
                     
                     return {
                         "stars": data.get("stargazers_count", 0),
-                        "pushed_at": pushed_at,
+                        "pushed_at": pushed_at, "created_at": data.get("created_at", ""),
                         "years_inactive": years_inactive,
                         "is_abandoned": years_inactive > 4
                     }
@@ -124,6 +165,9 @@ class IntelligentLinkCleaner:
                     original_idx = attempt if best_strat_idx is None else (best_strat_idx if attempt == 0 else (attempt if attempt < best_strat_idx else attempt))
                     self.learning_data["domains"][domain]["best_strategy_idx"] = original_idx
                     
+                    # Enrichment: If link is ALIVE but lacks description in V1, generate one
+                    await self._enrich_description_if_needed(url)
+                    
                     if "link_cache" not in self.learning_data: self.learning_data["link_cache"] = {}
                     self.learning_data["link_cache"][url] = {"status": "ALIVE", "last_checked": now}
                     return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
@@ -148,6 +192,41 @@ class IntelligentLinkCleaner:
             except: pass
         return url, True, None, "Conservative Keep"
 
+    async def _enrich_description_if_needed(self, url: str):
+        """
+        Policy Update: We NO LONGER enrich existing V1 descriptions in the repo
+        to respect manual curation. However, we ensure the INVENTORY has a
+        description for the V2 Elite portal.
+        """
+        norm_url = normalize_url(url)
+        if norm_url not in self.inventory: self.inventory[norm_url] = {}
+
+        # If inventory already has a description, we are done
+        if self.inventory[norm_url].get("ai_summary"): return
+
+        async with self.ai_semaphore:
+            log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
+            try:
+                from src.agentic_curator import _deep_fetch_content
+                from src.gemini_utils import call_gemini_with_retry
+                web_content = await _deep_fetch_content(url)
+                if not web_content: return
+
+                prompt = (
+                    f"Analyze this resource: {url}\n"
+                    f"Technical Content Snippet: {web_content[:1500]}\n"
+                    "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).\n"
+                    'Format: JSON: {"desc": "...", "pub_date": "..."}'
+                )
+                ai_data = await call_gemini_with_retry(prompt, prefer_flash=True)
+                if ai_data:
+                    res_desc = ai_data.get("desc", "").strip()
+                    self.inventory[norm_url]["ai_summary"] = res_desc
+                    self.inventory[norm_url]["pub_date"] = ai_data.get("pub_date", "N/A")
+                    self.stats["enriched_descriptions"] += 1
+                    log_event(f"    [OK] Cached for V2: {res_desc[:50]}...")
+            except Exception as e:
+                log_event(f"    [!] Enrichment error: {e}")
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
         # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
         headers = {
@@ -238,16 +317,81 @@ class IntelligentLinkCleaner:
         unique_urls = [u for u in self.link_registry.keys() if u not in self.dead_links]
         random.shuffle(unique_urls)
         total_unique = len(unique_urls)
+        
+        # 1. Verification Phase (HTTP Health)
         for i in range(0, total_unique, 40):
             batch = unique_urls[i:i+40]
-            log_event(f"    [>] Processing batch {i//40 + 1}/{(total_unique-1)//40 + 1} ({min(i+40, total_unique)}/{total_unique})...")
+            log_event(f"    [>] Verifying batch {i//40 + 1}/{(total_unique-1)//40 + 1} ({min(i+40, total_unique)}/{total_unique})...")
             tasks = [self._check_url_with_retries(url) for url in batch]
             results = await asyncio.gather(*tasks)
             for url, is_alive, fallback, reason in results:
                 if not is_alive: 
                     self.dead_links[url] = (fallback if fallback else "DEAD", reason)
                     log_event(f"        [!] DEAD: {url} -> {reason} {'(Fallback: ' + fallback + ')' if fallback else ''}")
-            self._save_memory()
+            self._save_memory(); self._save_inventory(); self._save_structure_map()
+
+        # 2. Enrichment Phase (Smart Batching for AI)
+        log_event("[*] Starting Smart AI Enrichment (V2 Descriptions)...", section_break=True)
+        to_enrich = []
+        for url in unique_urls:
+            if url in self.dead_links: continue
+            norm_url = normalize_url(url)
+            if norm_url not in self.inventory: self.inventory[norm_url] = {}
+            if not self.inventory[norm_url].get("ai_summary"):
+                to_enrich.append(url)
+        
+        if to_enrich:
+            log_event(f"[*] Found {len(to_enrich)} links requiring new V2 summaries.")
+            # BATCH SIZE 10: 10 descriptions in ONE API call
+            AI_BATCH_SIZE = 10
+            for i in range(0, len(to_enrich), AI_BATCH_SIZE):
+                batch = to_enrich[i:i+AI_BATCH_SIZE]
+                log_event(f"    [>] Smart Batch {i//AI_BATCH_SIZE + 1}/{(len(to_enrich)-1)//AI_BATCH_SIZE + 1} ({len(batch)} links)...")
+                await self._enrich_description_batch(batch)
+                self._save_inventory()
+        else:
+            log_event("[*] No new links requiring AI enrichment. Performance peak reached.")
+
+    async def _enrich_description_batch(self, urls: List[str]):
+        """
+        Uses SMART BATCHING to generate multiple descriptions in a single Gemini call.
+        Reduces API traffic by 90% and mitigates 429 errors.
+        """
+        from src.agentic_curator import _deep_fetch_content
+        from src.gemini_utils import call_gemini_with_retry
+
+        # 1. Fetch content for all links in parallel
+        content_tasks = [_deep_fetch_content(url) for url in urls]
+        contents = await asyncio.gather(*content_tasks)
+        
+        valid_data = []
+        for url, text in zip(urls, contents):
+            if text:
+                valid_data.append({"url": url, "content": text[:1200]})
+        
+        if not valid_data: return
+
+        async with self.ai_semaphore:
+            prompt = (
+                "Analyze these resources and provide a 1-sentence English description and the publication year for each.\n"
+                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\"}, ...]\n\n"
+                "RESOURCES:\n" + "\n".join([f"- {d['url']}: {d['content']}" for d in valid_data])
+            )
+            
+            try:
+                results = await call_gemini_with_retry(prompt, prefer_flash=True)
+                if isinstance(results, list):
+                    for res in results:
+                        url = res.get("url")
+                        if not url: continue
+                        norm_url = normalize_url(url)
+                        if norm_url in self.inventory:
+                            self.inventory[norm_url]["ai_summary"] = res.get("desc", "").strip()
+                            self.inventory[norm_url]["pub_date"] = str(res.get("year", "N/A"))
+                            self.stats["enriched_descriptions"] += 1
+                            log_event(f"    [OK] Enriched: {url}")
+            except Exception as e:
+                log_event(f"    [!] Batch enrichment error: {e}")
 
     async def apply_changes(self):
         log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)
@@ -275,6 +419,8 @@ class IntelligentLinkCleaner:
                     if file_path not in CORE_FILES:
                         file_updates[file_path][line_idx] = None
                         track(file_path, "removed", url, reason); self.detailed_stats["operation_types"]["removals"] += 1
+
+        # 2. APPLY DESCRIPTION ENRICHMENT (Disabled for V1 repo files per policy)
 
         orphans_linked = getattr(self.curator, "stats", {}).get("orphans_linked", 0)
         if orphans_linked > 0:
