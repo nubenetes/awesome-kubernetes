@@ -286,7 +286,7 @@ class V2VisionEngine:
             )
             
             try:
-                data = await call_gemini_with_retry(prompt)
+                data = await call_gemini_with_retry(prompt, prefer_flash=True)
                 results = data.get("results", [])
                 
                 for res in results:
@@ -413,7 +413,7 @@ class V2VisionEngine:
             
             prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
             try:
-                v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text")
+                v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
             except:
                 v2_structure[dim]["summary"] = f"Impact-driven reference library for {dim}."
                 

@@ -149,7 +149,8 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
 | **Orchestration** | GitHub Actions | Scheduled & Event-driven execution (via `develop` branch). |
-| **Intelligence** | Google Gemini 1.5 Pro | Resource evaluation, scoring, and classification. |
+| **Intelligence** | Google Gemini (Multi-model) | Resource evaluation, scoring, and classification. |
+| **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) & Global rate limiting. |
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
 | **Discovery** | Twikit & Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
@@ -175,6 +176,12 @@ graph TD
     D --> F["Health Monitoring"]
     D --> G["V2 Elite Generation"]
 ```
+
+### 🧠 Adaptive AI Tiering & Rate Limiting
+To ensure maximum throughput and resilience, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
+- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for deep architectural reasoning and categorization) and **Gemini Flash/Lite** (for high-speed batch enrichment and summarization).
+- **Global Rate Limiting**: Implements an intelligent cooldown mechanism (3-30s) that monitors API quotas in real-time. If a specific model hits a 429 limit, the engine automatically "tiers down" to a more available model or rotates API keys.
+- **Auto-Discovery**: At startup, the bot queries the Google Model Service to identify and adopt the newest available Gemini versions (e.g., 2.0, 3.1) without manual configuration.
 
 ---
 

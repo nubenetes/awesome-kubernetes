@@ -121,6 +121,7 @@ Whenever a significant curation cycle (automatic or manual) is completed:
 ### 5. Automation vs Manual Intervention
 *   **Automated Updates:** The Agentic Bot should ideally include a step to refresh these metrics in its curation PRs.
 *   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
+*   **Algorithm-README Sync**: Whenever the AI curation logic, model tiering, or the extraction algorithm is modified (e.g., `src/gemini_utils.py` or `src/v2_optimizer.py`), the `README.md` MUST be updated to reflect these technical changes in the "Agentic Stack" and "Architectural Shift" sections.
 
 ## 🚀 Block Evasion Strategies
 

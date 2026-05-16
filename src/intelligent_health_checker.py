@@ -218,7 +218,7 @@ class IntelligentLinkCleaner:
                     "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).\n"
                     'Format: JSON: {"desc": "...", "pub_date": "..."}'
                 )
-                ai_data = await call_gemini_with_retry(prompt)
+                ai_data = await call_gemini_with_retry(prompt, prefer_flash=True)
                 if ai_data:
                     res_desc = ai_data.get("desc", "").strip()
                     self.inventory[norm_url]["ai_summary"] = res_desc
@@ -379,7 +379,7 @@ class IntelligentLinkCleaner:
             )
             
             try:
-                results = await call_gemini_with_retry(prompt)
+                results = await call_gemini_with_retry(prompt, prefer_flash=True)
                 if isinstance(results, list):
                     for res in results:
                         url = res.get("url")

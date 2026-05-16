@@ -4,14 +4,17 @@ import random
 import json
 import re
 import os
+import time
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 from src.config import GEMINI_API_KEYS, GEMINI_API_VERSION, GEMINI_API_KEYS_DATA
 from src.logger import log_event
 
-# Global para mantener el índice de la API Key actual y los modelos descubiertos
+# Global state for rate limiting and discovery
 CURRENT_KEY_INDEX = 0
 DISCOVERED_MODELS = []
+GLOBAL_COOLDOWN_UNTIL = 0
+THROTTLED_MODELS = {} # {model_name: timestamp}
 
 class GeminiSessionTracker:
     def __init__(self):
@@ -19,12 +22,15 @@ class GeminiSessionTracker:
         self.key_stats = {i: {"calls": 0, "429s": 0, "404s": 0, "type": GEMINI_API_KEYS_DATA[i]["type"], "label": GEMINI_API_KEYS_DATA[i]["label"]} for i in range(len(GEMINI_API_KEYS))}
         self.discovery_log = []
         self.start_time = datetime.now()
+        self.total_throttles = 0
 
     def track_call(self, key_idx: int, model: str, status: int):
         if status == 200:
             self.model_usage[model] = self.model_usage.get(model, 0) + 1
         self.key_stats[key_idx]["calls"] += 1
-        if status == 429: self.key_stats[key_idx]["429s"] += 1
+        if status == 429: 
+            self.key_stats[key_idx]["429s"] += 1
+            self.total_throttles += 1
         if status == 404: self.key_stats[key_idx]["404s"] += 1
 
     def get_intelligence_report(self) -> str:
@@ -33,7 +39,6 @@ class GeminiSessionTracker:
         report += f"Execution started with discovery of top models based on May 2026 hierarchy.\n\n"
         
         report += "| Model Used | Successful Calls | Hierarchy Logic |\n| :--- | :---: | :--- |\n"
-        # Sort model usage items for consistent reporting
         usage_items = sorted(self.model_usage.items(), key=lambda x: x[1], reverse=True)
         for model, count in usage_items:
             logic = "Elite/Pro (Complex Reasoning)" if "pro" in model else "Flash/Lite (High Speed)"
@@ -46,17 +51,16 @@ class GeminiSessionTracker:
             usage_bar = "█" * min(stats["calls"] // 5, 10) or "░"
             report += f"| Key {idx+1} | `{stats['type']}` | {stats['label']} | {usage_bar} ({stats['calls']}) | {stats['429s']} / {stats['404s']} |\n"
         
-        # Access DISCOVERED_MODELS globally
-        report += f"\n*Status: {len(DISCOVERED_MODELS)} models verified in auto-discovery phase. System auto-adopted newest versions found.*"
+        status_msg = f"{len(DISCOVERED_MODELS)} models verified."
+        if self.total_throttles > 0:
+            status_msg += f" **Adaptive Tiering active ({self.total_throttles} throttles managed).**"
+        
+        report += f"\n*Status: {status_msg} System auto-adopted newest versions found.*"
         return report
 
 SESSION_TRACKER = GeminiSessionTracker()
 
 async def discover_optimal_models():
-    """
-    Queries the Google Model Service to find available models for the current keys.
-    Ranks them by capability (Pro > Flash) and version (3.1 > 2.5 > 1.5).
-    """
     global DISCOVERED_MODELS
     if DISCOVERED_MODELS: return DISCOVERED_MODELS
     
@@ -84,31 +88,19 @@ async def discover_optimal_models():
         return DISCOVERED_MODELS
 
     def score_model(name: str) -> float:
-        """
-        Calculates a score for a model to prioritize the most capable and recent ones.
-        Dynamic version detection ensures auto-adoption of future models (e.g. 2.0, 3.1, 4.0).
-        """
         score = 0.0
-        
-        # 1. Dynamic Version Score (e.g., gemini-1.5-pro -> 1.5)
-        # Prioritizes higher numbers (3.1 > 1.5)
         version_match = re.search(r'(\d+\.\d+)', name)
         if version_match:
             try:
                 version = float(version_match.group(1))
-                score += version * 50  # 3.1 -> 155, 1.5 -> 75
+                score += version * 50
             except: pass
-        
-        # 2. Tier Score (Capability)
-        if "-ultra" in name: score += 100 # Future-proofing for high-end models
+        if "-ultra" in name: score += 100
         elif "-pro" in name: score += 50
         elif "-flash" in name: score += 25
         elif "-lite" in name: score += 10
-        
-        # 3. Freshness & Stability
         if "-latest" in name: score += 5
         if "experimental" in name or "exp" in name: score -= 15
-        
         return score
 
     DISCOVERED_MODELS = sorted(all_supported, key=score_model, reverse=True)
@@ -156,38 +148,48 @@ def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
         return u[:-1] if u.endswith('?') else u
     return clean(url_a) == clean(url_b)
 
-async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
-    global CURRENT_KEY_INDEX
+async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False):
+    global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
-    models = await discover_optimal_models()
+    models_pool = await discover_optimal_models()
+    
+    # 1. Smart Re-ordering: If prefer_flash is True, put flash models first
+    if prefer_flash:
+        models = sorted(models_pool, key=lambda m: 0 if "flash" in m or "lite" in m else 1)
+    else:
+        models = models_pool
+
     diagnostics = GeminiDiagnostics()
-    
     total_keys = len(GEMINI_API_KEYS)
-    base_wait_time = 2.0  # Base wait time for backoff
-    
-    # Track how many consecutive 429s we've seen across all keys in this call
+    base_wait_time = 2.5
     consecutive_429s = 0
     
     for attempt_round in range(max_retries + 1):
+        # Global Cooldown Check
+        now = time.time()
+        if now < GLOBAL_COOLDOWN_UNTIL:
+            await asyncio.sleep(GLOBAL_COOLDOWN_UNTIL - now)
+
         for key_offset in range(total_keys):
-            # Calculate current key index with rotation
             current_idx = (CURRENT_KEY_INDEX + key_offset) % total_keys
             api_key = GEMINI_API_KEYS[current_idx]
             
             async with httpx.AsyncClient() as client:
                 for model in models:
+                    # Skip throttled models for this specific execution
+                    if THROTTLED_MODELS.get(model, 0) > time.time():
+                        continue
+
                     full_model_name = f"models/{model}"
                     api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                     
                     try:
                         payload = {"contents": [{"parts": [{"text": prompt}]}]}
                         response = await client.post(api_url, json=payload, timeout=45)
-                        
                         SESSION_TRACKER.track_call(current_idx, model, response.status_code)
                         
                         if response.status_code == 200:
-                            # Success! Reset global rotation index to this successful key
                             CURRENT_KEY_INDEX = current_idx
                             resp_json = response.json()
                             if 'candidates' in resp_json and resp_json['candidates']:
@@ -197,47 +199,46 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                     if match:
                                         data = json.loads(match.group(0))
                                         return data[0] if isinstance(data, list) and len(data) > 0 else data
-                                    diagnostics.add_attempt(model, 200, "JSON not found", text_resp)
-                                    break # Try next model
+                                    diagnostics.add_attempt(model, 200, "JSON not found")
+                                    break 
                                 return text_resp
                             diagnostics.add_attempt(model, 200, "No candidates")
-                            break # Try next model
+                            break 
                             
                         elif response.status_code == 429:
                             consecutive_429s += 1
-                            # Exponential Backoff with Jitter
-                            wait = base_wait_time * (1.8 ** (consecutive_429s - 1)) + random.uniform(1.0, 2.0)
+                            # 2. ADAPTIVE TIERING: Mark this specific model as throttled
+                            throttle_duration = 30 if "pro" in model else 15
+                            THROTTLED_MODELS[model] = time.time() + throttle_duration
                             
-                            if total_keys > 1:
-                                log_event(f"  [!] API 429 on Key {current_idx+1}. Backing off {wait:.1f}s before rotation...")
-                            else:
-                                log_event(f"  [!] API 429 on Key 1. Backing off {wait:.1f}s before retry (Single-Key Mode)...")
-                                
+                            # 3. GLOBAL THROTTLING: Slow down entire engine
+                            GLOBAL_COOLDOWN_UNTIL = time.time() + 3.0 
+                            
+                            wait = base_wait_time * (1.8 ** (consecutive_429s - 1)) + random.uniform(1.0, 2.0)
+                            log_event(f"  [!] API 429 on `{model}` (Key {current_idx+1}). Tiering down & backing off {wait:.1f}s...")
                             await asyncio.sleep(wait)
-                            CURRENT_KEY_INDEX = (current_idx + 1) % total_keys
-                            break # Try next key (or same key if total=1)
+                            
+                            # Continue to next model in current key (likely Flash)
+                            continue 
                             
                         elif response.status_code == 404:
                             diagnostics.add_attempt(model, 404, "Not Found")
-                            break # Try next model
-                            
+                            break 
                         elif response.status_code in [500, 503, 504]:
-                            # Server error, try next model or retry round
                             diagnostics.add_attempt(model, response.status_code, "Server Error")
                             continue 
                         else:
                             diagnostics.add_attempt(model, response.status_code, "API Error", response.text)
-                            break # Try next model
+                            break 
                             
                     except Exception as e:
                         SESSION_TRACKER.track_call(current_idx, model, 0)
                         diagnostics.add_attempt(model, 0, str(e))
-                        break # Try next model
+                        break 
         
-        # If we reach here, one full round of all keys/models failed
         if attempt_round < max_retries:
             wait_round = base_wait_time * (2 ** attempt_round)
-            log_event(f"  [!] Exhausted all keys in round {attempt_round+1}. Cooling down {wait_round}s...")
+            log_event(f"  [!] Exhausted tier options in round {attempt_round+1}. Cooling down {wait_round}s...")
             await asyncio.sleep(wait_round)
 
-    raise Exception(f"Critical Gemini failure after exhaustive rotation.\n{diagnostics.get_report()}")
+    raise Exception(f"Critical Gemini failure after adaptive tiering.\n{diagnostics.get_report()}")

@@ -267,7 +267,7 @@ class AgenticCurator:
                 log_event(f"  [!] REORGANIZING: {file}")
                 prompt = f"Reorganize '{file}' into logical sections (##). English headers only. Content:\n{content[:4000]}"
                 try:
-                    reorganized = await call_gemini_with_retry(prompt, response_format="text")
+                    reorganized = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
                     if len(reorganized) > len(content) * 0.7:
                         final = await self._rebuild_toc(reorganized)
                         with open(path, "w") as f: f.write(final)

@@ -44,7 +44,7 @@ async def discover_trending_assets() -> list[dict]:
     )
     
     try:
-        results = await call_gemini_with_retry(prompt)
+        results = await call_gemini_with_retry(prompt, prefer_flash=True)
         if isinstance(results, list):
             return [res for res in results if res.get("category") in NUBENETES_CATEGORIES]
     except Exception as e:
