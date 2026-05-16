@@ -215,6 +215,11 @@ Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consisten
     *   Tracks which `.md` pages contain the link in V1 and V2.
     *   Stores visual state: `is_bold`, `is_highlighted` (`==`).
 
+### Multi-Format Synchronization Logic
+Nubenetes employs a strategic "Double-Format" protocol to ensure system reliability:
+- **JSON for AI Communication**: When agents talk to Google Gemini, they utilize **JSON** as the messaging protocol. This ensures rigid data structures and prevents AI formatting errors (like indentation slips) from breaking the processing scripts.
+- **YAML for Repository Storage**: Once the data is validated, it is serialized into **YAML** for the local database. This provides a clean, human-readable format that is easy to audit via Git diffs and respects the repository's aesthetic standards.
+
 ### Agentic Data Flow
 ```mermaid
 graph TD
