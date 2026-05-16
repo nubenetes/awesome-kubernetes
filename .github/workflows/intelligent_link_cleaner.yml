@@ -2,7 +2,7 @@ name: Nubenetes Intelligent Link Cleaner & Dedup
 
 on:
   schedule:
-    - cron: '0 0 1 * *' 
+    - cron: '0 0 1 */3 *' # Quarterly: 1st of Jan, Apr, Jul, Oct
   workflow_dispatch:
     inputs:
       force_full_check:

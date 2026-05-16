@@ -80,6 +80,7 @@ async def master_orchestrator():
 
     # 2. Load Multi-source Accounts with Topic Filtering
     accounts_to_scan = []
+    feeds_to_scan = []
     sources_file = "data/curation_sources.yaml"
     
     # Topic Inclusion Flags (from Env)
@@ -106,9 +107,14 @@ async def master_orchestrator():
                         for acc in topic_data.get("accounts", []):
                             if acc.lower() not in exclude_list:
                                 all_accounts.add(acc)
+                        for feed in topic_data.get("feeds", []):
+                            feeds_to_scan.append(feed)
+
                 if all_accounts:
                     accounts_to_scan = list(all_accounts)
                     log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts from enabled topics.")
+                if feeds_to_scan:
+                    log_event(f"[*] RSS Feeds loaded: {len(feeds_to_scan)} technical blogs.")
         except Exception as e:
             log_event(f"[!] Error loading sources: {e}")
     
@@ -119,16 +125,27 @@ async def master_orchestrator():
     # 3. Multi-source Ingestion
     backup_file = os.getenv("BACKUP_FILE")
     x_audit_trail = []
+    raw_social = []
+
     if backup_file and os.path.exists(backup_file):
         from src.ingestion_backup import BackupDataExtractor
         extractor = BackupDataExtractor(backup_file)
         raw_social = await extractor.fetch_links()
         x_audit_trail = extractor.audit_trail
     else:
+        # A. X.com Extraction
         strategy = os.getenv("EXTRACTION_STRATEGY", "search")
         twitter_client = SocialDataExtractor()
         raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy, accounts=accounts_to_scan)
         x_audit_trail = twitter_client.audit_trail
+
+        # B. RSS Extraction
+        if feeds_to_scan:
+            from src.ingestion_rss import RSSDataExtractor
+            rss_client = RSSDataExtractor()
+            raw_rss = await rss_client.fetch_links_since(since_date, feeds_to_scan)
+            raw_social.extend(raw_rss)
+            x_audit_trail.extend(rss_client.audit_trail)
     
     trending = []
     if not is_historical and not backup_file:

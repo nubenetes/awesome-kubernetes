@@ -412,8 +412,58 @@ class IntelligentLinkCleaner:
             except Exception as e:
                 log_event(f"    [!] Batch enrichment error: {e}")
 
+    async def run_semantic_deduplication(self):
+        """
+        SEMANTIC DEDUPLICATION ENGINE: Identifies multiple URLs pointing to the same technical project
+        (e.g., project.github.io vs github.com/user/project) and consolidates them.
+        """
+        log_event("RUNNING SEMANTIC DEDUPLICATION (AI CONFLICT RESOLUTION)...", section_break=True)
+        
+        # 1. Identify potential conflicts via GitHub Metadata
+        gh_projects = {} # {repo_path: [urls]}
+        for url, meta in self.inventory.items():
+            if "github.com" in url:
+                match = re.search(r'github\.com/([^/]+/[^/]+)', url)
+                if match:
+                    repo = match.group(1).lower().replace(".git", "")
+                    if repo not in gh_projects: gh_projects[repo] = []
+                    gh_projects[repo].append(url)
+            
+            # Cross-reference with GitHub Pages
+            if ".github.io" in url:
+                match = re.search(r'https?://([^.]+)\.github\.io/([^/]+)', url)
+                if match:
+                    user, project = match.groups()
+                    repo = f"{user}/{project}".lower()
+                    if repo not in gh_projects: gh_projects[repo] = []
+                    gh_projects[repo].append(url)
+
+        # 2. Consolidate conflicts
+        consolidations = 0
+        for repo, urls in gh_projects.items():
+            if len(set(urls)) > 1:
+                # We have a conflict. Prefer the GitHub Repository URL as Canonical
+                repo_url = f"https://github.com/{repo}"
+                others = [u for u in set(urls) if normalize_url(u) != normalize_url(repo_url)]
+                
+                for duplicate in others:
+                    if duplicate in self.link_registry:
+                        # Mark for consolidation
+                        self.dead_links[duplicate] = (f"CANONICAL:{repo_url}", f"Semantic duplicate of {repo}")
+                        consolidations += 1
+                        log_event(f"    [♻️] Semantic Merge: {duplicate} -> {repo_url}")
+
+        if consolidations > 0:
+            log_event(f"    [OK] Identified {consolidations} semantic conflicts for consolidation.")
+        else:
+            log_event("    [OK] No semantic duplicates found.")
+
     async def apply_changes(self):
         log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)
+        
+        # Run Semantic Dedup before applying
+        await self.run_semantic_deduplication()
+        
         file_updates = {}
         def track(file, op, url, reason, cat=None):
             if file not in self.detailed_stats["by_file"]: self.detailed_stats["by_file"][file] = {"removed": 0, "modified": 0, "created": 0}

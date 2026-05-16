@@ -47,9 +47,17 @@ sources:
       - "ApacheSpark"
       - "snowflakedb"
 
-  - topic: "Infrastructure as Code & GitOps"
+  - topic: \"Infrastructure as Code & GitOps\"
     accounts:
-      - "HashiCorp"
-      - "PulumiCorp"
-      - "ArgoProj"
-      - "fluxcd"
+      - \"HashiCorp\"
+      - \"PulumiCorp\"
+      - \"ArgoProj\"
+      - \"fluxcd\"
+    feeds:
+      - \"https://netflixtechblog.com/feed\"
+      - \"https://engineering.atlassian.com/feed\"
+      - \"https://blog.cloudflare.com/rss/\"
+      - \"https://medium.com/feed/uber-engineering\"
+      - \"https://engineering.fb.com/feed/\"
+      - \"https://aws.amazon.com/blogs/aws/feed/\"
+      - \"https://cloud.google.com/blog/rss/\"
