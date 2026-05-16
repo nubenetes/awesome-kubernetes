@@ -159,20 +159,36 @@ def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3):
     global CURRENT_KEY_INDEX
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
+    
     models = await discover_optimal_models()
     diagnostics = GeminiDiagnostics()
-    for key_attempt in range(len(GEMINI_API_KEYS)):
-        api_key = GEMINI_API_KEYS[CURRENT_KEY_INDEX]
-        async with httpx.AsyncClient() as client:
-            for model in models:
-                full_model_name = f"models/{model}"
-                api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
-                for attempt in range(max_retries):
+    
+    total_keys = len(GEMINI_API_KEYS)
+    base_wait_time = 2.0  # Base wait time for backoff
+    
+    # Track how many consecutive 429s we've seen across all keys in this call
+    consecutive_429s = 0
+    
+    for attempt_round in range(max_retries + 1):
+        for key_offset in range(total_keys):
+            # Calculate current key index with rotation
+            current_idx = (CURRENT_KEY_INDEX + key_offset) % total_keys
+            api_key = GEMINI_API_KEYS[current_idx]
+            
+            async with httpx.AsyncClient() as client:
+                for model in models:
+                    full_model_name = f"models/{model}"
+                    api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
+                    
                     try:
                         payload = {"contents": [{"parts": [{"text": prompt}]}]}
                         response = await client.post(api_url, json=payload, timeout=45)
-                        SESSION_TRACKER.track_call(CURRENT_KEY_INDEX, model, response.status_code)
+                        
+                        SESSION_TRACKER.track_call(current_idx, model, response.status_code)
+                        
                         if response.status_code == 200:
+                            # Success! Reset global rotation index to this successful key
+                            CURRENT_KEY_INDEX = current_idx
                             resp_json = response.json()
                             if 'candidates' in resp_json and resp_json['candidates']:
                                 text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']
@@ -182,26 +198,43 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                         data = json.loads(match.group(0))
                                         return data[0] if isinstance(data, list) and len(data) > 0 else data
                                     diagnostics.add_attempt(model, 200, "JSON not found", text_resp)
-                                    break
+                                    break # Try next model
                                 return text_resp
                             diagnostics.add_attempt(model, 200, "No candidates")
-                            break
+                            break # Try next model
+                            
                         elif response.status_code == 429:
-                            log_event(f"  [!] API 429 on Key {CURRENT_KEY_INDEX+1}. Rotating...")
-                            CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
-                            return await call_gemini_with_retry(prompt, response_format, max_retries)
+                            consecutive_429s += 1
+                            # Exponential Backoff with Jitter
+                            # Wait increases with consecutive 429s
+                            wait = base_wait_time * (1.5 ** (consecutive_429s - 1)) + random.uniform(0.5, 1.5)
+                            log_event(f"  [!] API 429 on Key {current_idx+1}. Backing off {wait:.1f}s before rotation...")
+                            await asyncio.sleep(wait)
+                            # Update global index to rotate
+                            CURRENT_KEY_INDEX = (current_idx + 1) % total_keys
+                            break # Try next key
+                            
                         elif response.status_code == 404:
                             diagnostics.add_attempt(model, 404, "Not Found")
-                            break
+                            break # Try next model
+                            
                         elif response.status_code in [500, 503, 504]:
-                            await asyncio.sleep(2 * (attempt + 1))
-                            continue
+                            # Server error, try next model or retry round
+                            diagnostics.add_attempt(model, response.status_code, "Server Error")
+                            continue 
                         else:
                             diagnostics.add_attempt(model, response.status_code, "API Error", response.text)
-                            break
+                            break # Try next model
+                            
                     except Exception as e:
-                        SESSION_TRACKER.track_call(CURRENT_KEY_INDEX, model, 0)
+                        SESSION_TRACKER.track_call(current_idx, model, 0)
                         diagnostics.add_attempt(model, 0, str(e))
-                        break
-            CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
-    raise Exception(f"Critical Gemini failure after key rotation.\n{diagnostics.get_report()}")
+                        break # Try next model
+        
+        # If we reach here, one full round of all keys/models failed
+        if attempt_round < max_retries:
+            wait_round = base_wait_time * (2 ** attempt_round)
+            log_event(f"  [!] Exhausted all keys in round {attempt_round+1}. Cooling down {wait_round}s...")
+            await asyncio.sleep(wait_round)
+
+    raise Exception(f"Critical Gemini failure after exhaustive rotation.\n{diagnostics.get_report()}")

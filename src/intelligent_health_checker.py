@@ -28,6 +28,7 @@ class IntelligentLinkCleaner:
         self.git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
         self.sanitizer = MarkdownSanitizer()
         self.curator = AgenticCurator()
+        self.ai_semaphore = asyncio.Semaphore(5) # Limit concurrent AI calls
         self.link_registry: Dict[str, List[Dict]] = {}
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
         self.description_updates: Dict[str, str] = {}
@@ -193,39 +194,39 @@ class IntelligentLinkCleaner:
 
     async def _enrich_description_if_needed(self, url: str):
         """
-        Policy Update: We NO LONGER enrich existing V1 descriptions in the repo 
-        to respect manual curation. However, we ensure the INVENTORY has a 
+        Policy Update: We NO LONGER enrich existing V1 descriptions in the repo
+        to respect manual curation. However, we ensure the INVENTORY has a
         description for the V2 Elite portal.
         """
         norm_url = normalize_url(url)
         if norm_url not in self.inventory: self.inventory[norm_url] = {}
-        
+
         # If inventory already has a description, we are done
         if self.inventory[norm_url].get("ai_summary"): return
 
-        log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
-        try:
-            from src.agentic_curator import _deep_fetch_content
-            from src.gemini_utils import call_gemini_with_retry
-            web_content = await _deep_fetch_content(url)
-            if not web_content: return
-            
-            prompt = (
-                f"Analyze this resource: {url}\n"
-                f"Technical Content Snippet: {web_content[:1500]}\n"
-                "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).\n"
-                'Format: JSON: {"desc": "...", "pub_date": "..."}'
-            )
-            ai_data = await call_gemini_with_retry(prompt)
-            if ai_data:
-                res_desc = ai_data.get("desc", "").strip()
-                self.inventory[norm_url]["ai_summary"] = res_desc
-                self.inventory[norm_url]["pub_date"] = ai_data.get("pub_date", "N/A")
-                self.stats["enriched_descriptions"] += 1
-                log_event(f"    [OK] Cached for V2: {res_desc[:50]}...")
-        except Exception as e:
-            log_event(f"    [!] Enrichment error: {e}")
+        async with self.ai_semaphore:
+            log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
+            try:
+                from src.agentic_curator import _deep_fetch_content
+                from src.gemini_utils import call_gemini_with_retry
+                web_content = await _deep_fetch_content(url)
+                if not web_content: return
 
+                prompt = (
+                    f"Analyze this resource: {url}\n"
+                    f"Technical Content Snippet: {web_content[:1500]}\n"
+                    "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).\n"
+                    'Format: JSON: {"desc": "...", "pub_date": "..."}'
+                )
+                ai_data = await call_gemini_with_retry(prompt)
+                if ai_data:
+                    res_desc = ai_data.get("desc", "").strip()
+                    self.inventory[norm_url]["ai_summary"] = res_desc
+                    self.inventory[norm_url]["pub_date"] = ai_data.get("pub_date", "N/A")
+                    self.stats["enriched_descriptions"] += 1
+                    log_event(f"    [OK] Cached for V2: {res_desc[:50]}...")
+            except Exception as e:
+                log_event(f"    [!] Enrichment error: {e}")
     async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
         # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
         headers = {
