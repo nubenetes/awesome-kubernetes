@@ -51,6 +51,11 @@
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
     *   [12.1. Extension Recommendations](#121-extension-recommendations)
     *   [12.2. Recommended settings.json](#122-recommended-settingsjson)
+13. [13. Repository Inventory and Configuration](#13-repository-inventory-and-configuration)
+    *   [13.1. Core Configuration](#131-core-configuration)
+    *   [13.2. Centralized Metadata Databases](#132-centralized-metadata-databases)
+    *   [13.3. Autonomous Workflows](#133-autonomous-workflows)
+    *   [13.4. Agentic AI Source Code](#134-agentic-ai-source-code)
 
 ---
 
@@ -391,9 +396,15 @@ graph TD
 The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
 
 1.  **AgenticCurator (`src/agentic_curator.py`)**:
-    - **Discovery:** Scans X.com (multiple accounts) and other curation sources.
+    - **Discovery:** Scans multiple high-trust X.com accounts (defined in [`data/curation_sources.yaml`](data/curation_sources.yaml)) and other curation sources.
     - **Evaluation:** Uses Gemini to score resources based on technical significance, impact, and **publication year**.
     - **Classification:** Automatically maps new resources to the correct `.md` page using semantic matching and generates professional technical descriptions.
+    - **Primary Curation Sources (X.com):**
+        *   **K8s & Cloud Native:** `@nubenetes`, `@kubernetesio`, `@cncf`, `@kelseyhightower`, `@memenetes`.
+        *   **Hyperscalers:** `@awscloud`, `@Azure`, `@GoogleCloud`, `@0GiS0`, `@NTFAQGuy`, `@cantrillio`, `@pvergadia`, `@QuinnyPig`.
+        *   **AI & Agents:** `@OpenAI`, `@AnthropicAI`, `@GoogleDeepMind`, `@GoogleAI`, `@LoganK`, `@NotebookLM`, `@LangChainAI`, `@llama_index`.
+        *   **Productivity:** `@GitHub`, `@Microsoft`, `@Cursor_AI`, `@midudev`, `@natfriedman`, `@karpathy`.
+        *   **Data & Infra:** `@Databricks`, `@ApacheSpark`, `@snowflakedb`, `@HashiCorp`, `@PulumiCorp`, `@ArgoProj`, `@fluxcd`.
 2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
     - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane") using **relevance-first sorting**.
@@ -551,6 +562,41 @@ Community contributions have been the backbone of Nubenetes since 2018. If you w
 ```
 
 > **Note:** Material for MKDocs requires an indentation of **4 spaces** for nested lists and TOCs to render correctly. This is strictly enforced via `editor.tabSize: 4`.
+
+---
+
+## 13. Repository Inventory and Configuration
+
+To maintain transparency and ease of navigation, all key configuration, database, and workflow files are inventoried below.
+
+### 13.1. Core Configuration
+- **Curation Sources:** [`data/curation_sources.yaml`](data/curation_sources.yaml) - Defines monitored X.com accounts and technical topics.
+- **Site Config (V1):** [`mkdocs.yml`](mkdocs.yml) - Primary MkDocs configuration for the exhaustive archive.
+- **Site Config (V2):** [`v2-mkdocs.yml`](v2-mkdocs.yml) - MkDocs configuration for the Agentic Elite portal.
+
+### 13.2. Centralized Metadata Databases
+- **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions).
+- **Structure Map:** [`data/structure_map.yaml`](data/structure_map.yaml) - Tracks link presence and formatting across all Markdown pages.
+- **V2 Elite Cache:** [`data/v2_cache.json`](data/v2_cache.json) - Cached AI evaluations for the premium edition.
+
+### 13.3. Autonomous Workflows
+- **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
+- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml)
+- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml)
+- **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
+- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml)
+
+### 13.4. Agentic AI Source Code
+- **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
+- **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
+- **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
+- **Health Check Logic:** [`src/intelligent_health_checker.py`](src/intelligent_health_checker.py) - Link rot prevention and canonical updates.
+- **Twikit Ingestion:** [`src/ingestion_twikit.py`](src/ingestion_twikit.py) - X.com scraping and account rotation logic.
+- **Backup Ingestion:** [`src/ingestion_backup.py`](src/ingestion_backup.py) - Manual and historical JSON data processing.
+- **Discovery Engine:** [`src/autonomous_discovery.py`](src/autonomous_discovery.py) - Multi-source technical news extraction.
+- **Gemini Utils:** [`src/gemini_utils.py`](src/gemini_utils.py) - AI model discovery, rate limiting, and session tracking.
+- **Markdown Logic:** [`src/markdown_ast.py`](src/markdown_ast.py) - Sophisticated parsing of repository content.
+- **Observability:** [`src/logger.py`](src/logger.py) | [`src/report_generator.py`](src/report_generator.py) - Execution transparency and visual reporting.
 
 ---
 <center>

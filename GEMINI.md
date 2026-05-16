@@ -126,6 +126,8 @@ Whenever a significant curation cycle (automatic or manual) is completed:
 *   **Algorithm-README Sync**: Whenever the AI curation logic, model tiering, or the extraction algorithm is modified (e.g., `src/gemini_utils.py` or `src/v2_optimizer.py`), the `README.md` MUST be updated to reflect these technical changes in the "Agentic Stack" and "Architectural Shift" sections.
 *   **Hierarchical README Maintenance**: Whenever `README.md` is modified, the Table of Contents (TOC) MUST be updated to reflect all changes in sections (H2) and subsections (H3). All titles in the document MUST include hierarchical numbering (e.g., "1. Section", "1.1. Subsection") perfectly synchronized with the TOC.
 *   **Robust Title Standards**: Emojis and ampersands (&) MUST NOT be used in any section (H2) or subsection (H3) titles within `README.md` or the Table of Contents. Ampersands should be replaced with "and". This ensures maximum compatibility with Markdown anchor generation and prevents broken navigation links.
+*   **Asset Inventory and Configuration**: The `README.md` MUST maintain a "Repository Inventory and Configuration" section (Section 13) that provides an exhaustive list of all key configuration files, centralized metadata databases, autonomous workflows, and core source code files. Each item MUST be linked using a relative Markdown path (e.g., `[file.yaml](data/file.yaml)`) to facilitate direct navigation.
+*   **Source Transparency**: Specific curation sources (e.g., X.com accounts) MUST be documented in the "Agentic AI Engine" section of the `README.md`. Any addition or removal of primary sources in `data/curation_sources.yaml` requires a corresponding update to the documentation.
 
 ## 🚀 Block Evasion Strategies
 
