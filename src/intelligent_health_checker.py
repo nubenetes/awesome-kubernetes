@@ -13,8 +13,8 @@ from src.agentic_curator import AgenticCurator
 from src.logger import log_event
 
 def normalize_url(url: str) -> str:
-    url = url.split(\"#\")[0].split(\"?\")[0].rstrip(\"/\")
-    if url.startswith(\"http://\"): url = \"https://\" + url[7:]
+    url = url.split("#")[0].split("?")[0].rstrip("/")
+    if url.startswith("http://"): url = "https://" + url[7:]
     return url.lower()
 
 # Configuración de Excepciones

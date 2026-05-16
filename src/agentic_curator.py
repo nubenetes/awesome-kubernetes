@@ -12,8 +12,8 @@ from src.gitops_manager import RepositoryController
 from src.gemini_utils import call_gemini_with_retry
 
 def normalize_url(url: str) -> str:
-    url = url.split(\"#\")[0].split(\"?\")[0].rstrip(\"/\")
-    if url.startswith(\"http://\"): url = \"https://\" + url[7:]
+    url = url.split("#")[0].split("?")[0].rstrip("/")
+    if url.startswith("http://"): url = "https://" + url[7:]
     return url.lower()
 
 # Silenciar advertencias de XML/HTML

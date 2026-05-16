@@ -16,8 +16,8 @@ from src.gemini_utils import call_gemini_with_retry, resolve_url
 from src.state_manager import get_last_date, save_state
 
 def normalize_url(url: str) -> str:
-    url = url.split(\"#\")[0].split(\"?\")[0].rstrip(\"/\")
-    if url.startswith(\"http://\"): url = \"https://\" + url[7:]
+    url = url.split("#")[0].split("?")[0].rstrip("/")
+    if url.startswith("http://"): url = "https://" + url[7:]
     return url.lower()
 
 async def master_orchestrator():
