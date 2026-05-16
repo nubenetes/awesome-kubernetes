@@ -243,10 +243,16 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
 ### 5.4. Multi-Language Support Policy
-To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy:
-- **Native Preservation (V1 Archive)**: Resources in non-English languages (e.g., Spanish, French) preserve their descriptions in the **original native language** within the V1 archive. This ensures local technical nuances and the author's original intent are respected.
-- **English Synthesis (V2 Portal)**: The Elite V2 Portal provides **Professional English Summaries** for all resources, regardless of their source language. This allows global architects to discover high-value content from any region.
-- **Linguistic Transparency**: All non-English resources in the V2 portal are explicitly tagged (e.g., `[SPANISH CONTENT]`) at the end of the entry, providing immediate context before navigation.
+To embrace the diverse global Cloud Native community while maintaining international discoverability, Nubenetes implements a dual-layer linguistic strategy powered by a **Data-First Architecture**:
+
+- **Linguistic Data Persistence**: Language detection is treated as a core metadata attribute. The centralized database ([`data/inventory.yaml`](data/inventory.yaml)) stores resources using specific fields:
+    *   `description`: The original native summary (e.g., Spanish) for the **V1 Archive**.
+    *   `ai_summary`: A professional English synthesis for the **V2 Portal**.
+    *   `language`: The identified source language (e.g., 'Spanish', 'French').
+- **Separation of Concerns (Data vs. UI)**:
+    *   **The Database (Source of Truth)**: Holds raw data, enabling future features like language-based filtering or statistics without re-processing links.
+    *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the `language` metadata into visual UI tags (e.g., `[SPANISH CONTENT]`) and localized badges during the site build process.
+- **Global Discoverability**: This architecture ensures that high-value local content (blogs, tutorials, community videos) remains accessible in its original context (V1) while being indexed and readable by a global audience (V2).
 
 ---
 
