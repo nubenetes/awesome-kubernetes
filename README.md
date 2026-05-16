@@ -252,10 +252,14 @@ Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consisten
 To maximize economic efficiency, all AI agents follow a **Database-First** approach:
 1.  **Local Lookup**: Before initiating any Gemini call, the agent checks if the URL is already indexed in `data/inventory.yaml`.
 2.  **Insight Reuse**: If the resource exists with valid metadata, the agent **reuses existing insights** (descriptions, scores, categories), reducing API traffic to zero for that resource.
-3.  **Mandatory Persistence**: Modified YAML files are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
+3.  **Memory Efficiency Tracking**: The system tracks **Cache Hit Ratios** and **Estimated Token Savings** in every Intelligence Report, providing real-time ROI visibility for the centralized database.
+4.  **Mandatory Persistence**: Modified YAML files are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
 
-### 6.3. Exhaustive Initialization (Cold-Start)
-The system supports a `FORCE_FULL_CHECK` mechanism. When activated (via the **Force full re-validation** button in GitHub Actions), the engine bypasses all local caches and re-verifies the entire 17,000+ link archive. This is used to build the initial database from scratch or perform massive architectural refreshes.
+### 6.3. Database Lifecycle and Hygiene
+To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
+- **Auto-Redirect Fix (Canonical Updates)**: During health checks, if a permanent redirection (301/302) is detected, the engine automatically updates the Markdown files with the final **Canonical URL**. This reduces latency and prevents future link rot.
+- **Database Garbage Collection (GC)**: A bi-monthly pruning process identifies orphaned metadata in `data/inventory.yaml` for links that have been removed from the repository, keeping the database lean and professional.
+- **Exhaustive Initialization (Cold-Start)**: The system supports a `FORCE_FULL_CHECK` mechanism. When activated (via the **Force full re-validation** button in GitHub Actions), the engine bypasses all local caches and re-verifies the entire 17,000+ link archive. This is used to build the initial database from scratch or perform massive architectural refreshes.
 
 ### 6.4. Multi-Format Synchronization Logic
 Nubenetes employs a strategic "Double-Format" protocol to ensure system reliability:

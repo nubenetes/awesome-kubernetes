@@ -105,6 +105,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             # If it has the core fields, reuse them
             if cached.get("title") and cached.get("description") and cached.get("year"):
                 log_event(f"  [⚡] REUSING CACHED INSIGHTS: {cached['title']}")
+                
+                from src.gemini_utils import SESSION_TRACKER
+                SESSION_TRACKER.track_cache_hit(est_tokens=2200) # Full curation token estimate
+
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": cached["title"], "description": cached["description"],
                     "year": cached["year"], "category": cached.get("category", "kubernetes-tools"),

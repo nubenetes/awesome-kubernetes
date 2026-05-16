@@ -152,7 +152,7 @@ class IntelligentLinkCleaner:
             strategy = strategies[attempt]
             try:
                 if attempt > 0: await asyncio.sleep((2 ** attempt) + random.random())
-                is_alive, reason = await self._check_url_logic(url, strategy)
+                is_alive, reason, canonical = await self._check_url_logic(url, strategy)
                 if is_alive:
                     if "domains" not in self.learning_data: self.learning_data["domains"] = {}
                     if domain not in self.learning_data["domains"]: self.learning_data["domains"][domain] = {}
@@ -166,6 +166,11 @@ class IntelligentLinkCleaner:
                     
                     if "link_cache" not in self.learning_data: self.learning_data["link_cache"] = {}
                     self.learning_data["link_cache"][url] = {"status": "ALIVE", "last_checked": now}
+                    
+                    # Check for Canonical Update (Permanent Redirection)
+                    if canonical and normalize_url(canonical) != normalize_url(url):
+                        return url, True, f"CANONICAL:{canonical}", f"Verified (Canonical available)"
+
                     return url, True, None, f"Alive ({strategy['desc']}) - {reason}"
 
                 if reason in ["404", "soft_404", "redirect_to_home"]:
@@ -173,7 +178,7 @@ class IntelligentLinkCleaner:
                     if any(git_host in url for git_host in ["github.com", "gitlab.com", "bitbucket.org"]):
                         parts = url.split("/"); repo_root = "/".join(parts[:5]) if len(parts) > 4 else None
                         if repo_root:
-                            root_alive, _ = await self._check_url_logic(repo_root, strategies[0])
+                            root_alive, _, _ = await self._check_url_logic(repo_root, strategies[0])
                             if root_alive: fallback_result = f"REPO_ROOT:{repo_root}"
                     
                     # Cache DEAD status for resumption
@@ -242,7 +247,7 @@ class IntelligentLinkCleaner:
                     log_event(f"    [OK] Cached for V2: {res_desc[:50]}...")
             except Exception as e:
                 log_event(f"    [!] Enrichment error: {e}")
-    async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str]:
+    async def _check_url_logic(self, url: str, strategy: Dict) -> Tuple[bool, str, Optional[str]]:
         # RESILIENT LOGIC: Mimic user behavior and handle blocks gracefully
         headers = {
             "User-Agent": strategy["ua"], 
@@ -261,16 +266,23 @@ class IntelligentLinkCleaner:
                 # Use GET as primary (HEAD is often blocked)
                 async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=15, verify=False) as client:
                     resp = await client.get(url)
-                    if resp.status_code < 400: return True, "HTTP OK"
+                    
+                    canonical_url = None
+                    if str(resp.url).rstrip('/') != url.rstrip('/'):
+                        # Detected redirection
+                        canonical_url = str(resp.url)
+
+                    if resp.status_code < 400: 
+                        return True, "HTTP OK", canonical_url
                     
                     # Definitive Failures
-                    if resp.status_code in [404, 410]: return False, "404"
+                    if resp.status_code in [404, 410]: return False, "404", None
                     
                     # Soft Failures (Keep but flag)
                     if resp.status_code in [403, 429, 401, 500, 502, 503]: 
-                        return True, f"Soft Block/Error ({resp.status_code})"
+                        return True, f"Soft Block/Error ({resp.status_code})", None
             except Exception as e:
-                return True, f"Connection Timeout/Error (Preserving)"
+                return True, f"Connection Timeout/Error (Preserving)", None
         else:
             # Playwright Logic for JS-Heavy/Protected Sites
             try:
@@ -281,24 +293,29 @@ class IntelligentLinkCleaner:
                     page = await context.new_page()
                     try:
                         response = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-                        if not response: return True, "JS Timeout (Preserving)"
-                        if response.status in [404, 410]: return False, "404"
+                        if not response: return True, "JS Timeout (Preserving)", None
+                        
+                        canonical_url = None
+                        if page.url.rstrip('/') != url.rstrip('/'):
+                            canonical_url = page.url
+
+                        if response.status in [404, 410]: return False, "404", None
                         
                         content = (await page.content()).lower()
                         title = (await page.title()).lower()
                         
-                        if any(kw in content for kw in paywall_indicators): return True, "Paywall (Preserving)"
+                        if any(kw in content for kw in paywall_indicators): return True, "Paywall (Preserving)", None
                         
                         soft_404_keywords = ["page not found", "404 not found", "artículo no encontrado", "página no encontrada"]
                         if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): 
-                            return False, "soft_404"
+                            return False, "soft_404", None
                             
-                        return True, "Render OK"
+                        return True, "Render OK", canonical_url
                     finally: await browser.close()
             except: 
-                return True, "Browser Engine Error (Preserving)"
+                return True, "Browser Engine Error (Preserving)", None
         
-        return True, "Conservative Keep"
+        return True, "Conservative Keep", None
 
     async def build_global_registry(self):
         log_event("STARTING GLOBAL LINK DISCOVERY...", section_break=True)
@@ -366,6 +383,40 @@ class IntelligentLinkCleaner:
                 self._save_inventory()
         else:
             log_event("[*] No new links requiring AI enrichment. Performance peak reached.")
+            # Track Cache Hits for existing inventory during health pass
+            from src.gemini_utils import SESSION_TRACKER
+            for url in unique_urls:
+                norm_url = normalize_url(url)
+                if self.inventory.get(norm_url, {}).get("ai_summary"):
+                    SESSION_TRACKER.track_cache_hit(est_tokens=800) # Enrichment only estimate
+
+    async def prune_orphaned_metadata(self):
+        """
+        DATABASE GARBAGE COLLECTOR: Removes metadata for links no longer present in any .md file.
+        Ensures inventory.yaml and structure_map.yaml remain lean and professional.
+        """
+        log_event("RUNNING DATABASE GARBAGE COLLECTION...", section_break=True)
+        initial_inv = len(self.inventory)
+        initial_struct = len(self.structure_map)
+        
+        # Identify valid links from registry (those actually found in docs/)
+        valid_urls = {normalize_url(u) for u in self.link_registry.keys()}
+        
+        # Prune Inventory
+        self.inventory = {u: m for u, m in self.inventory.items() if u in valid_urls}
+        # Prune Structure Map
+        self.structure_map = {u: m for u, m in self.structure_map.items() if u in valid_urls}
+        
+        pruned_inv = initial_inv - len(self.inventory)
+        pruned_struct = initial_struct - len(self.structure_map)
+        
+        if pruned_inv > 0 or pruned_struct > 0:
+            log_event(f"    [OK] Pruned {pruned_inv} orphaned inventory entries.")
+            log_event(f"    [OK] Pruned {pruned_struct} orphaned structure mappings.")
+            self._save_inventory()
+            self._save_structure_map()
+        else:
+            log_event("    [OK] Database is already lean. No orphans found.")
 
     async def _enrich_description_batch(self, urls: List[str]):
         """
@@ -426,7 +477,15 @@ class IntelligentLinkCleaner:
                 if file_path not in file_updates:
                     with open(file_path, 'r') as f: file_updates[file_path] = f.readlines()
                 line_idx = occ["line_index"]
-                if fallback and fallback.startswith("REPO_ROOT:"):
+                
+                if fallback and fallback.startswith("CANONICAL:"):
+                    # AUTO-REDIRECT FIX: Update the URL to its final canonical version
+                    new_url = fallback.replace("CANONICAL:", "")
+                    file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, new_url)
+                    track(file_path, "modified", url, f"Canonical update: {new_url}")
+                    self.detailed_stats["operation_types"]["consolidated"] += 1
+
+                elif fallback and fallback.startswith("REPO_ROOT:"):
                     real_f = fallback.replace("REPO_ROOT:", "")
                     file_updates[file_path][line_idx] = file_updates[file_path][line_idx].replace(url, real_f)
                     track(file_path, "modified", url, reason); self.detailed_stats["operation_types"]["consolidated"] += 1
@@ -443,6 +502,7 @@ class IntelligentLinkCleaner:
             self.detailed_stats["operation_types"]["orphans"] = orphans_linked
 
         # 3. Ensure BBDD YAML Persistence: Include database files in the PR payload
+        await self.prune_orphaned_metadata() # GC first
         self._save_inventory()
         self._save_structure_map()
         

@@ -26,6 +26,12 @@ class GeminiSessionTracker:
         self.total_throttles = 0
         self.total_tokens_prompt = 0
         self.total_tokens_completion = 0
+        self.cache_hits = 0
+        self.est_tokens_saved = 0
+
+    def track_cache_hit(self, est_tokens: int = 1500):
+        self.cache_hits += 1
+        self.est_tokens_saved += est_tokens
 
     def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None):
         if status == 200:
@@ -58,10 +64,15 @@ class GeminiSessionTracker:
             usage_bar = "█" * min(stats["calls"] // 5, 10) or "░"
             report += f"| Key {idx+1} | `{stats['type']}` | {stats['label']} | {usage_bar} ({stats['calls']}) | {stats['429s']} / {stats['404s']} |\n"
         
-        report += f"\n#### 📊 Consumption Metrics (2026 Units)\n"
+        report += f"\n#### 📊 Consumption and Efficiency Metrics (2026 Units)\n"
         report += f"- **Total Prompt Tokens**: {self.total_tokens_prompt:,}\n"
         report += f"- **Total Completion Tokens**: {self.total_tokens_completion:,}\n"
-        report += f"- **Efficiency Ratio**: {((self.total_tokens_completion / self.total_tokens_prompt * 100) if self.total_tokens_prompt > 0 else 0):.1f}% (Completion/Prompt)\n"
+        
+        # Cache-First Metrics
+        hit_ratio = (self.cache_hits / (self.cache_hits + sum(self.model_usage.values())) * 100) if (self.cache_hits + sum(self.model_usage.values())) > 0 else 0
+        report += f"- **Database-First Cache Hits**: **{self.cache_hits}** ({hit_ratio:.1f}% hit ratio)\n"
+        report += f"- **Estimated Tokens Saved**: ~{self.est_tokens_saved:,} (Zero-API cost)\n"
+        report += f"- **Execution Efficiency**: {((self.total_tokens_completion / self.total_tokens_prompt * 100) if self.total_tokens_prompt > 0 else 0):.1f}% (Completion/Prompt)\n"
 
         status_msg = f"{len(DISCOVERED_MODELS)} models verified."
         if self.total_throttles > 0:
