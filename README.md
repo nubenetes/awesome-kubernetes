@@ -223,17 +223,19 @@ Nubenetes employs a strategic "Double-Format" protocol to ensure system reliabil
 ### Dynamic AI Discovery & Optimization
 To eliminate configuration overhead and ensure Nubenetes always utilizes the frontier of AI technology, the system features a **Zero-Config Dynamic Model Discovery Engine**:
 
-1.  **Live Capability Discovery**: At the start of each workflow run, the bot programmatically queries the Google Model Service API to list all models actually available to the provided API keys.
-2.  **Autonomous Scoring & Ranking**: Models are automatically ranked using a **dynamic regex-based algorithm** that extracts version numbers (e.g., 2.0, 3.1, 4.0). Higher versions are prioritized, ensuring zero-config auto-adoption of future frontier models.
-3.  **Resilient Failover Protocol**: If a model returns a `404` (Unsupported) or `429` (Rate Limit), the engine immediately rotates to the next best model or switches API keys without interrupting the curation process.
+1.  **Live Capability Discovery**: At the start of each workflow run, the bot programmatically queries the Google Model Service API to list all models actually available to the provided API keys. This prevents `404 Not Found` errors caused by trying to use deprecated or restricted models.
+2.  **Autonomous Scoring & Ranking**: Models are automatically ranked using a **dynamic regex-based algorithm** that extracts version numbers (e.g., 2.0, 3.1, 4.0). Higher versions are prioritized, ensuring zero-config auto-adoption of future frontier models. Tier bonuses are applied (Ultra > Pro > Flash) to prioritize reasoning depth.
+3.  **Adaptive Rate Limiting (Exponential Backoff)**: When encountering `429 Too Many Requests` errors, the engine implements an **Exponential Backoff with Jitter** strategy. Instead of immediate rotation, it applies a mandatory wait time that increases with consecutive failures, preventing infinite loops and respecting Google's quota resets.
+4.  **Concurrency Guard (Semaphore)**: To prevent saturating API quotas during high-volume operations (like V2 inventory enrichment), the system utilizes an **Asyncio Semaphore**. This restricts the number of concurrent AI calls (e.g., max 5), ensuring a steady, reliable flow that stays within RPM (Requests Per Minute) limits.
 
 ### AI Intelligence & Observability (Transparency)
 As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations. Every curation cycle is tracked to ensure maintainers understand the cost, quality, and infrastructure behind the agentic decisions:
 
-- **Gemini Session Tracker**: Monitors every API call, recording the model used and the success rate.
-- **Performance-First Key Management**: Prioritizes **Identity A (Pay-as-you-go)** for maximum speed, quality, and API consistency. This is the **recommended configuration** for daily curation. 
-- **Optional Identity B Fallback**: **Identity B (Subscription)** is excluded by default to maintain peak performance. It can be manually enabled via the `activate_backup_key` workflow toggle for large-scale historical processing or when primary quotas are hit.
-- **PR Intelligence Reports**: Every AI-generated Pull Request includes a detailed breakdown of the model hierarchy logic, showing which Google identities were utilized.
+- **Gemini Session Tracker**: Monitors every API call, recording the model used, the identity utilized, and the success rate.
+- **Performance-First Key Infrastructure**: 
+    - **Identity A (Default/Primary)**: A high-performance identity combining a **Gemini Pro Subscription** with a **Pay-as-you-go API key** from Google AI Studio. This provides the lowest latency and highest reasoning consistency.
+    - **Identity B (Manual Opt-in Fallback)**: A secondary identity based on a **Family Shared Subscription**. It is excluded by default to maintain peak performance but can be manually enabled via the `activate_backup_key` workflow toggle for extreme throughput needs or primary quota exhaustion.
+- **PR Intelligence Reports**: Every AI-generated Pull Request includes a detailed breakdown of the model hierarchy logic, showing which Google identities were utilized and the distribution of successful vs. failed calls.
 - **Visual AI Dashboard**: The `report.html` artifacts include real-time metrics on AI performance and quota management (429/404 tracking).
 
 ```mermaid
@@ -241,11 +243,12 @@ graph LR
     A[Workflow Initiation] --> B[API Model Discovery]
     B --> C{Scoring Engine}
     C -->|Ranked Queue| D[Task Processing]
-    D -->|404 / 429| E[Auto-Failover]
-    E -->|Next Best Model| D
-    E -->|Key Rotation| D
-    D -->|Success| F[Intelligence Report]
-    F --> G[Inventory Sync]
+    D -->|429 Error| E[Exponential Backoff]
+    E -->|Wait & Retry| D
+    D -->|Persistent Fail| F[Identity Rotation]
+    F --> D
+    D -->|Success| G[Intelligence Report]
+    G --> H[Inventory Sync]
 ```
 
 ### Agentic Data Flow
