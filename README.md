@@ -180,8 +180,10 @@ graph TD
 ### 🧠 Adaptive AI Tiering & Rate Limiting
 To ensure maximum throughput and resilience, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
 - **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for deep architectural reasoning and categorization) and **Gemini Flash/Lite** (for high-speed batch enrichment and summarization).
-- **Global Rate Limiting**: Implements an intelligent cooldown mechanism (3-30s) that monitors API quotas in real-time. If a specific model hits a 429 limit, the engine automatically "tiers down" to a more available model or rotates API keys.
+- **Global Concurrency & Rate Limiting**: Implements a global semaphore (max 5 simultaneous calls) and an intelligent cooldown mechanism (3-30s) that monitors API quotas in real-time. If a specific model hits a 429 limit, the engine automatically "tiers down" to a more available model or rotates API keys.
 - **Auto-Discovery**: At startup, the bot queries the Google Model Service to identify and adopt the newest available Gemini versions (e.g., 2.0, 3.1) without manual configuration.
+- **Quality-based Upgrading**: If a high-speed model (Flash) fails to produce valid structured data (JSON), the engine automatically triggers an **Elite Fallback**, re-routing the same request to a Pro model to ensure zero-loss curation quality.
+- **Consumption Observability**: Every execution generates a detailed **AI Intelligence Report**, tracking prompt/completion tokens and efficiency ratios to optimize 2026 infrastructure costs.
 
 ---
 

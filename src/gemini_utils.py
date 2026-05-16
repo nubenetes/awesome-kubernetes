@@ -15,6 +15,7 @@ CURRENT_KEY_INDEX = 0
 DISCOVERED_MODELS = []
 GLOBAL_COOLDOWN_UNTIL = 0
 THROTTLED_MODELS = {} # {model_name: timestamp}
+GLOBAL_AI_SEMAPHORE = asyncio.Semaphore(5) # Max 5 concurrent calls globally
 
 class GeminiSessionTracker:
     def __init__(self):
@@ -23,10 +24,16 @@ class GeminiSessionTracker:
         self.discovery_log = []
         self.start_time = datetime.now()
         self.total_throttles = 0
+        self.total_tokens_prompt = 0
+        self.total_tokens_completion = 0
 
-    def track_call(self, key_idx: int, model: str, status: int):
+    def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None):
         if status == 200:
             self.model_usage[model] = self.model_usage.get(model, 0) + 1
+            if usage:
+                self.total_tokens_prompt += usage.get("promptTokenCount", 0)
+                self.total_tokens_completion += usage.get("candidatesTokenCount", 0)
+        
         self.key_stats[key_idx]["calls"] += 1
         if status == 429: 
             self.key_stats[key_idx]["429s"] += 1
@@ -51,6 +58,11 @@ class GeminiSessionTracker:
             usage_bar = "█" * min(stats["calls"] // 5, 10) or "░"
             report += f"| Key {idx+1} | `{stats['type']}` | {stats['label']} | {usage_bar} ({stats['calls']}) | {stats['429s']} / {stats['404s']} |\n"
         
+        report += f"\n#### 📊 Consumption Metrics (2026 Units)\n"
+        report += f"- **Total Prompt Tokens**: {self.total_tokens_prompt:,}\n"
+        report += f"- **Total Completion Tokens**: {self.total_tokens_completion:,}\n"
+        report += f"- **Efficiency Ratio**: {((self.total_tokens_completion / self.total_tokens_prompt * 100) if self.total_tokens_prompt > 0 else 0):.1f}% (Completion/Prompt)\n"
+
         status_msg = f"{len(DISCOVERED_MODELS)} models verified."
         if self.total_throttles > 0:
             status_msg += f" **Adaptive Tiering active ({self.total_throttles} throttles managed).**"
@@ -165,76 +177,90 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     base_wait_time = 2.5
     consecutive_429s = 0
     
-    for attempt_round in range(max_retries + 1):
-        # Global Cooldown Check
-        now = time.time()
-        if now < GLOBAL_COOLDOWN_UNTIL:
-            await asyncio.sleep(GLOBAL_COOLDOWN_UNTIL - now)
+    async with GLOBAL_AI_SEMAPHORE:
+        for attempt_round in range(max_retries + 1):
+            # Global Cooldown Check
+            now = time.time()
+            if now < GLOBAL_COOLDOWN_UNTIL:
+                await asyncio.sleep(GLOBAL_COOLDOWN_UNTIL - now)
 
-        for key_offset in range(total_keys):
-            current_idx = (CURRENT_KEY_INDEX + key_offset) % total_keys
-            api_key = GEMINI_API_KEYS[current_idx]
-            
-            async with httpx.AsyncClient() as client:
-                for model in models:
-                    # Skip throttled models for this specific execution
-                    if THROTTLED_MODELS.get(model, 0) > time.time():
-                        continue
+            for key_offset in range(total_keys):
+                current_idx = (CURRENT_KEY_INDEX + key_offset) % total_keys
+                api_key = GEMINI_API_KEYS[current_idx]
+                
+                async with httpx.AsyncClient() as client:
+                    for model in models:
+                        # Skip throttled models for this specific execution
+                        if THROTTLED_MODELS.get(model, 0) > time.time():
+                            continue
 
-                    full_model_name = f"models/{model}"
-                    api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
-                    
-                    try:
-                        payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                        response = await client.post(api_url, json=payload, timeout=45)
-                        SESSION_TRACKER.track_call(current_idx, model, response.status_code)
+                        full_model_name = f"models/{model}"
+                        api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                         
-                        if response.status_code == 200:
-                            CURRENT_KEY_INDEX = current_idx
-                            resp_json = response.json()
-                            if 'candidates' in resp_json and resp_json['candidates']:
-                                text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']
-                                if response_format == "json":
-                                    match = re.search(r'\{.*\}|\[.*\]', text_resp, re.DOTALL)
-                                    if match:
-                                        data = json.loads(match.group(0))
-                                        return data[0] if isinstance(data, list) and len(data) > 0 else data
-                                    diagnostics.add_attempt(model, 200, "JSON not found")
-                                    break 
-                                return text_resp
-                            diagnostics.add_attempt(model, 200, "No candidates")
+                        try:
+                            payload = {"contents": [{"parts": [{"text": prompt}]}]}
+                            response = await client.post(api_url, json=payload, timeout=45)
+                            
+                            resp_json = {}
+                            try: resp_json = response.json()
+                            except: pass
+                            
+                            usage = resp_json.get("usageMetadata", {})
+                            SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage)
+                            
+                            if response.status_code == 200:
+                                CURRENT_KEY_INDEX = current_idx
+                                if 'candidates' in resp_json and resp_json['candidates']:
+                                    text_resp = resp_json['candidates'][0]['content']['parts'][0]['text']
+                                    if response_format == "json":
+                                        match = re.search(r'\{.*\}|\[.*\]', text_resp, re.DOTALL)
+                                        if match:
+                                            try:
+                                                data = json.loads(match.group(0))
+                                                return data[0] if isinstance(data, list) and len(data) > 0 else data
+                                            except: pass
+                                        
+                                        # QUALITY UPGRADE: If flash failed parsing, don't give up on the key, try a Pro model
+                                        if ("flash" in model or "lite" in model) and any("pro" in m for m in models):
+                                            diagnostics.add_attempt(model, 200, "Flash JSON error - Upgrading to Pro...")
+                                            continue 
+                                            
+                                        diagnostics.add_attempt(model, 200, "JSON not found")
+                                        break 
+                                    return text_resp
+                                diagnostics.add_attempt(model, 200, "No candidates")
+                                break 
+                                
+                            elif response.status_code == 429:
+                                consecutive_429s += 1
+                                # 2. ADAPTIVE TIERING: Mark this specific model as throttled
+                                throttle_duration = 30 if "pro" in model else 15
+                                THROTTLED_MODELS[model] = time.time() + throttle_duration
+                                
+                                # 3. GLOBAL THROTTLING: Slow down entire engine
+                                GLOBAL_COOLDOWN_UNTIL = time.time() + 3.0 
+                                
+                                wait = base_wait_time * (1.8 ** (consecutive_429s - 1)) + random.uniform(1.0, 2.0)
+                                log_event(f"  [!] API 429 on `{model}` (Key {current_idx+1}). Tiering down & backing off {wait:.1f}s...")
+                                await asyncio.sleep(wait)
+                                
+                                # Continue to next model in current key (likely Flash)
+                                continue 
+                                
+                            elif response.status_code == 404:
+                                diagnostics.add_attempt(model, 404, "Not Found")
+                                break 
+                            elif response.status_code in [500, 503, 504]:
+                                diagnostics.add_attempt(model, response.status_code, "Server Error")
+                                continue 
+                            else:
+                                diagnostics.add_attempt(model, response.status_code, "API Error", response.text)
+                                break 
+                                
+                        except Exception as e:
+                            SESSION_TRACKER.track_call(current_idx, model, 0, {})
+                            diagnostics.add_attempt(model, 0, str(e))
                             break 
-                            
-                        elif response.status_code == 429:
-                            consecutive_429s += 1
-                            # 2. ADAPTIVE TIERING: Mark this specific model as throttled
-                            throttle_duration = 30 if "pro" in model else 15
-                            THROTTLED_MODELS[model] = time.time() + throttle_duration
-                            
-                            # 3. GLOBAL THROTTLING: Slow down entire engine
-                            GLOBAL_COOLDOWN_UNTIL = time.time() + 3.0 
-                            
-                            wait = base_wait_time * (1.8 ** (consecutive_429s - 1)) + random.uniform(1.0, 2.0)
-                            log_event(f"  [!] API 429 on `{model}` (Key {current_idx+1}). Tiering down & backing off {wait:.1f}s...")
-                            await asyncio.sleep(wait)
-                            
-                            # Continue to next model in current key (likely Flash)
-                            continue 
-                            
-                        elif response.status_code == 404:
-                            diagnostics.add_attempt(model, 404, "Not Found")
-                            break 
-                        elif response.status_code in [500, 503, 504]:
-                            diagnostics.add_attempt(model, response.status_code, "Server Error")
-                            continue 
-                        else:
-                            diagnostics.add_attempt(model, response.status_code, "API Error", response.text)
-                            break 
-                            
-                    except Exception as e:
-                        SESSION_TRACKER.track_call(current_idx, model, 0)
-                        diagnostics.add_attempt(model, 0, str(e))
-                        break 
         
         if attempt_round < max_retries:
             wait_round = base_wait_time * (2 ** attempt_round)
