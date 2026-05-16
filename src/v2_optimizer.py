@@ -13,6 +13,7 @@ from src.logger import log_event
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 INVENTORY_PATH = "data/inventory.yaml"
+STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class V2VisionEngine:
     def __init__(self):
@@ -51,6 +52,7 @@ class V2VisionEngine:
             "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
         self.inventory = self._load_inventory()
+        self.structure_map = self._load_structure_map()
 
     def _load_inventory(self) -> Dict:
         if os.path.exists(INVENTORY_PATH):
@@ -64,6 +66,21 @@ class V2VisionEngine:
         os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
         with open(INVENTORY_PATH, "w") as f:
             yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+
+    def _load_structure_map(self) -> dict:
+        if os.path.exists(STRUCTURE_MAP_PATH):
+            try:
+                with open(STRUCTURE_MAP_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_structure_map(self):
+        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
+        with open(STRUCTURE_MAP_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY CHRONOLOGICAL LIBRARY GENERATION", section_break=True)
@@ -87,7 +104,7 @@ class V2VisionEngine:
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         await self._sync_enterprise_navigation(v2_data)
         
-        self._save_inventory()
+        self._save_inventory(); self._save_structure_map()
         log_event("V2 LIBRARY GENERATION COMPLETED.", section_break=True)
 
     async def _gather_all_v1_content(self) -> (List[Dict], str, str):

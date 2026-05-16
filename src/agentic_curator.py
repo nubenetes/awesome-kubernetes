@@ -112,7 +112,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         "stars": min(max(score // 20, 0), 5),
                         "last_checked": datetime.now().timestamp()
                     }
-                    self._save_inventory()
+                    self._save_inventory(); self._save_structure_map()
                 except: pass
                 log_event(f"  [+] ACCEPTED: \"{data['title']}\" (Score: {score})")
                 log_event(f"      Primary: {primary_cat} | Related: {', '.join(related_cats)}")
@@ -133,6 +133,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
 
 
 INVENTORY_PATH = "data/inventory.yaml"
+STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class AgenticCurator:
     def __init__(self):
@@ -142,6 +143,7 @@ class AgenticCurator:
         self.index_path = "docs/index.md"
         self.stats = {"orphans_linked": 0}
         self.inventory = self._load_inventory()
+        self.structure_map = self._load_structure_map()
 
     def _load_inventory(self) -> dict:
         if os.path.exists(INVENTORY_PATH):
@@ -157,7 +159,23 @@ class AgenticCurator:
         with open(INVENTORY_PATH, "w") as f:
             import yaml
             yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+
+    def _load_structure_map(self) -> dict:
+        if os.path.exists(STRUCTURE_MAP_PATH):
+            try:
+                with open(STRUCTURE_MAP_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_structure_map(self):
+        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
+        with open(STRUCTURE_MAP_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
         self.inventory = self._load_inventory()
+        self.structure_map = self._load_structure_map()
 
     async def _rebuild_toc(self, content: str) -> str:
         """

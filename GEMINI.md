@@ -36,6 +36,11 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
+22. **Unified Metadata Database (Local Storage)**: All link metadata MUST be managed via the local YAML database in `data/`.
+    - **`inventory.yaml`**: The primary source of truth for years, stars (0-5), and descriptions.
+    - **`structure_map.yaml`**: Tracks link locations and visual formatting (bold/highlight) across V1 and V2.
+    - **Persistence**: Every agent MUST load these files at startup and save any modifications immediately to ensure state continuity across workflows.
+    - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions in the V1 archive files. Enrichment is strictly for `inventory.yaml` and the V2 portal.
 
 ## 🛠️ Structural Evolution & Navigation
 ...

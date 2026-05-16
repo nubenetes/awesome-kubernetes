@@ -16,6 +16,7 @@ from src.logger import log_event
 CORE_FILES = ["docs/index.md", "README.md"]
 MEMORY_FILE = "src/memory/health_learning.json"
 INVENTORY_PATH = "data/inventory.yaml"
+STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class IntelligentLinkCleaner:
     def __init__(self):
@@ -27,6 +28,7 @@ class IntelligentLinkCleaner:
         self.description_updates: Dict[str, str] = {}
         self.learning_data = self._load_memory()
         self.inventory = self._load_inventory()
+        self.structure_map = self._load_structure_map()
         self.action_log: List[Dict] = [] 
         self.detailed_stats = {
             "total_scanned": 0,
@@ -62,6 +64,21 @@ class IntelligentLinkCleaner:
         with open(INVENTORY_PATH, "w") as f:
             import yaml
             yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
+
+    def _load_structure_map(self) -> dict:
+        if os.path.exists(STRUCTURE_MAP_PATH):
+            try:
+                with open(STRUCTURE_MAP_PATH, "r") as f:
+                    import yaml
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _save_structure_map(self):
+        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
+        with open(STRUCTURE_MAP_PATH, "w") as f:
+            import yaml
+            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
@@ -300,7 +317,7 @@ class IntelligentLinkCleaner:
                 if not is_alive: 
                     self.dead_links[url] = (fallback if fallback else "DEAD", reason)
                     log_event(f"        [!] DEAD: {url} -> {reason} {'(Fallback: ' + fallback + ')' if fallback else ''}")
-            self._save_memory(); self._save_inventory()
+            self._save_memory(); self._save_inventory(); self._save_structure_map()
 
     async def apply_changes(self):
         log_event("APPLYING INTELLIGENT CLEANING & PR GENERATION...", section_break=True)

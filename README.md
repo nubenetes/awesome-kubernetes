@@ -204,15 +204,38 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
 4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
 
-### Comparison Matrix
-| Feature | V1 (Exhaustive) | V2 (Elite) |
-| :--- | :--- | :--- |
-| **Philosophy** | "Leave no resource behind" | "Only the best for 2026" |
-| **Volume** | High (17k+ Links) | Optimized (~2k Links) |
-| **Depth** | Historical & Wide | Cutting-edge & Deep |
-| **Chronology** | **Unified Engine** (YYYY) | **Unified Engine** (YYYY) |
-| **Filtering** | Basic (Health only) | AI-Scored (🌟🌟🌟) |
-| **MVQ Check** | No (Exhaustive Preservation) | Yes (Stale repos deprioritized) |
+## 📊 The Unified Agentic Database (Knowledge Graph)
+
+Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consistency across V1 and V2 while optimizing AI performance. All links are indexed in a local YAML database that serves as the "Memory" for our autonomous agents.
+
+### Database Components
+1.  **Central Inventory (`data/inventory.yaml`)**: Stores global technical metadata.
+    *   `title`, `year`, `stars` (0-5), `description` (V1), and `ai_summary` (V2 Elite).
+2.  **Structure Map (`data/structure_map.yaml`)**: Tracks the physical presence and formatting of links.
+    *   Tracks which `.md` pages contain the link in V1 and V2.
+    *   Stores visual state: `is_bold`, `is_highlighted` (`==`).
+
+### Agentic Data Flow
+```mermaid
+graph TD
+    AC[Agentic Curator] -->|New Resource| DB[(Unified DB)]
+    LC[Link Cleaner] -->|Health & Metadata| DB
+    V2[V2 Vision Engine] -->|Elite Selection| DB
+    
+    DB -->|Metadata Sync| V1[V1 Archive: docs/]
+    DB -->|Advanced UI| V2P[V2 Portal: v2-docs/]
+    
+    subgraph Local Storage
+        DB1[inventory.yaml]
+        DB2[structure_map.yaml]
+    end
+```
+
+### Strategic Benefits
+- **Zero Redundancy**: Links already analyzed by Gemini are never re-evaluated unless forced.
+- **Visual Consistency**: Highlighting (`==`) and Bold formatting are managed via the database to ensure high-signal discovery.
+- **Cross-Edition Sync**: A metadata update in the YAML instantly propagates to both V1 and V2 during the next build cycle.
+- **Manual Priority**: Existing V1 descriptions are protected; AI only intervenes for new additions or V2-specific enrichment.
 
 ---
 
