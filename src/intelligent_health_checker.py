@@ -439,8 +439,9 @@ class IntelligentLinkCleaner:
 
         async with self.ai_semaphore:
             prompt = (
-                "Analyze these resources and provide a 1-sentence English description and the publication year for each.\n"
-                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\"}, ...]\n\n"
+                "You act as a Technical Librarian. Analyze these resources and provide a 1-sentence English description and the publication year for each.\n"
+                "UNIVERSAL ENGLISH CURATION: The 'desc' field MUST be in professional ENGLISH. If the source content is in another language (e.g., Spanish), TRANSLATE it.\n"
+                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\"}, ...]\n\n"
                 "RESOURCES:\n" + "\n".join([f"- {d['url']}: {d['content']}" for d in valid_data])
             )
             
@@ -454,8 +455,9 @@ class IntelligentLinkCleaner:
                         if norm_url in self.inventory:
                             self.inventory[norm_url]["ai_summary"] = res.get("desc", "").strip()
                             self.inventory[norm_url]["pub_date"] = str(res.get("year", "N/A"))
+                            self.inventory[norm_url]["language"] = res.get("language", "English")
                             self.stats["enriched_descriptions"] += 1
-                            log_event(f"    [OK] Enriched: {url}")
+                            log_event(f"    [OK] Enriched: {url} ({res.get('language', 'English')})")
             except Exception as e:
                 log_event(f"    [!] Batch enrichment error: {e}")
 

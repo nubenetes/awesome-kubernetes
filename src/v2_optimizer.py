@@ -43,6 +43,7 @@ class V2VisionEngine:
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
             "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY): Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
+            "- Detect source content LANGUAGE (e.g., 'English', 'Spanish', 'French').\n"
             "- Assign QUALITY level (0-5 stars):\n"
             "  * 0 stars: Good technical resource (Baseline).\n"
             "  * 1 star (🌟): High-quality technical guide or tool.\n"
@@ -278,7 +279,8 @@ class V2VisionEngine:
             
             prompt = (
                 f"{self.library_criteria}\n"
-                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": int, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\"}, ...]}\n\n"
+                "UNIVERSAL ENGLISH CURATION: ALL output 'summary' fields MUST be in ENGLISH. If source is non-English (e.g. Spanish), TRANSLATE to professional English.\n"
+                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\", \"language\": \"...\"}, ...]}\n\n"
                 "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Current Desc: {l['description'][:50]}" for idx, l in enumerate(batch)])
             )
             
@@ -296,7 +298,8 @@ class V2VisionEngine:
                                 "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "is_video": res.get("is_video", False),
                                 "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
-                                "ai_summary": res.get("summary", "")
+                                "ai_summary": res.get("summary", ""),
+                                "language": res.get("language", "English")
                             }
                             item.update(eval_data)
                             if not item["description"] and item["ai_summary"]:
@@ -518,7 +521,14 @@ class V2VisionEngine:
                     
                     gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
                     icon = " 🎥" if l.get("is_video") else ""
-                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                    
+                    # Language Tagging
+                    lang = l.get("language", "English")
+                    lang_tag = ""
+                    if lang.lower() != "english":
+                        lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
+
+                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                     if l['description']:
                         desc = l['description']
                         if "\n" in desc:

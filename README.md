@@ -400,6 +400,8 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
+- **Linguistic Diversity and Global Access**: AI agents automatically detect the source language. **V1 Archive** preserves descriptions in the resource's native language (e.g., Spanish) to respect original context, while the **V2 Portal** provides professional English summaries and explicit language tagging (e.g., `[SPANISH CONTENT]`) for global accessibility.
+- **Universal English Curation**: All high-level reasoning and synthesis are curated into professional technical English, maintaining Nubenetes as a truly global resource.
 - **Canonical Deduplication**: Automatically merges duplicate resources (stripping UTM/trackers), ensuring a clean and precise inventory.
 - **The Agentic Pulse**: A dynamic trending section on the V2 home page that highlights the freshest high-impact resources.
 - **Zero Redundancy**: Links already analyzed by Gemini are never re-evaluated unless forced.
