@@ -48,11 +48,18 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches (e.g., 21-day health cache) and force a full re-validation and re-enrichment of the entire 17k+ link archive.
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.
     - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions in the V1 archive files. Enrichment is strictly for `inventory.yaml` and the V2 portal.
-23. **Canonical URL Normalization**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
+23. **Canonical URL Normalization & Semantic Deduplication**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
     - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (`#`).
     - **Protocol Uniformity**: Standardize on `https://` whenever possible.
-    - **Merge Logic**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
-24. **Dynamic AI Model Discovery**: To remain at the cutting edge and ensure system stability, all agents MUST use the dynamic model discovery engine.
+    - **Semantic Merge Logic**: If multiple URLs point to the same technical project (e.g., `user.github.io` vs `github.com/user/repo`), the agent MUST consolidate them into a single canonical reference, prioritizing the primary repository root.
+    - **Metadata Merge**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
+24. **Multi-Source Knowledge Discovery**: The discovery engine MUST be extensible beyond social media. 
+    - **Engineering Blogs**: High-depth technical content from engineering blogs (via RSS/Atom) MUST be prioritized for high-impact dimensions.
+    - **Source Diversity**: Monitor X.com, GitHub Trending, and RSS Feeds to maintain a balanced flow of technical news and architectural deep-dives.
+25. **Tiered Health Monitoring Strategy**: To balance resource efficiency with high reliability:
+    - **Daily Critical Audit**: High-priority assets (`[DE FACTO STANDARD]` and `[ENTERPRISE-STABLE]`) MUST be verified daily to ensure zero downtime for core ecosystem tools.
+    - **Quarterly Exhaustive Scan**: The complete 17,000+ link archive MUST undergo a full health audit every 3 months. This cycle manages massive cleanup, orphaned metadata pruning, and canonical updates.
+26. **Dynamic AI Model Discovery**: To remain at the cutting edge and ensure system stability, all agents MUST use the dynamic model discovery engine.
     - **Live Discovery**: Query the `models.list` API at runtime to identify actually available models for each key.
     - **Scoring & Ranking**: Prioritize models using the established 2026 hierarchy (Generation 3.x > 2.x > 1.x; Pro > Flash).
     - **Resilient Fallback**: Automatically transition between models and API keys upon encountering 404 (Unsupported) or 429 (Rate Limit) errors.
