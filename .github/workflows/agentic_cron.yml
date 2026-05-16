@@ -64,6 +64,10 @@ on:
         description: 'Upper limit date (chunk)'
         required: false
         default: ''
+      activate_backup_key:
+        description: 'Activate Identity B (Subscription) as backup/rotation'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -102,6 +106,7 @@ jobs:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTIVATE_BACKUP_KEY: ${{ github.event.inputs.activate_backup_key || 'false' }}
           EXTRACTION_STRATEGY: ${{ github.event.inputs.extraction_strategy || 'search' }}
           HISTORICAL_MODE: ${{ github.event.inputs.historical_mode || 'false' }}
           HISTORICAL_CHUNKED: ${{ github.event.inputs.historical_chunked || 'false' }}

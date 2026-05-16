@@ -12,11 +12,17 @@ TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
 # Gemini API Keys Configuration (May 2026)
 # Identity A: Pay-as-you-go Subscription (Primary Cloud) - High Performance
-# Identity B: Gemini Pro Subscription (Family Shared) - Robust Fallback
+# Identity B: Gemini Pro Subscription (Family Shared) - Manual Opt-in Fallback
 GEMINI_KEYS_METADATA = [
-    {"key": os.getenv("GEMINI_API_KEY_1"), "type": "PAY-AS-YOU-GO", "label": "Identity A (Primary Cloud)"},
-    {"key": os.getenv("GEMINI_API_KEY_2"), "type": "SUBSCRIPTION", "label": "Identity B (Family Shared)"}
+    {"key": os.getenv("GEMINI_API_KEY_1"), "type": "PAY-AS-YOU-GO", "label": "Identity A (Primary Cloud)"}
 ]
+
+# Only include Identity B if explicitly enabled via environment
+if os.getenv("ACTIVATE_BACKUP_KEY", "false").lower() == "true":
+    GEMINI_KEYS_METADATA.append(
+        {"key": os.getenv("GEMINI_API_KEY_2"), "type": "SUBSCRIPTION", "label": "Identity B (Family Shared)"}
+    )
+
 # Filter valid keys and keep metadata
 GEMINI_API_KEYS_DATA = [k for k in GEMINI_KEYS_METADATA if k["key"]]
 GEMINI_API_KEYS = [k["key"] for k in GEMINI_API_KEYS_DATA]

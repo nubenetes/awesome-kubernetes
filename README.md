@@ -231,7 +231,8 @@ To eliminate configuration overhead and ensure Nubenetes always utilizes the fro
 As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations. Every curation cycle is tracked to ensure maintainers understand the cost, quality, and infrastructure behind the agentic decisions:
 
 - **Gemini Session Tracker**: Monitors every API call, recording the model used and the success rate.
-- **Performance-First Key Management**: Prioritizes **Identity A (Pay-as-you-go)** for maximum speed, quality, and API consistency. **Identity B (Subscription)** serves as a robust secondary fallback to ensure 100% curation completion even if primary quotas are exceeded.
+- **Performance-First Key Management**: Prioritizes **Identity A (Pay-as-you-go)** for maximum speed, quality, and API consistency. This is the **recommended configuration** for daily curation. 
+- **Optional Identity B Fallback**: **Identity B (Subscription)** is excluded by default to maintain peak performance. It can be manually enabled via the `activate_backup_key` workflow toggle for large-scale historical processing or when primary quotas are hit.
 - **PR Intelligence Reports**: Every AI-generated Pull Request includes a detailed breakdown of the model hierarchy logic, showing which Google identities were utilized.
 - **Visual AI Dashboard**: The `report.html` artifacts include real-time metrics on AI performance and quota management (429/404 tracking).
 

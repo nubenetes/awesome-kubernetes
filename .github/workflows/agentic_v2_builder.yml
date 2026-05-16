@@ -7,6 +7,10 @@ on:
         description: 'Force AI re-evaluation (ignores cache for tags/years)'
         type: boolean
         default: false
+      activate_backup_key:
+        description: 'Activate Identity B (Subscription) as backup/rotation'
+        type: boolean
+        default: false
   # Automatic detection: Sync V2 whenever V1 archive is updated (manual or automated)
   push:
     branches: [ develop ]
@@ -47,6 +51,7 @@ jobs:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTIVATE_BACKUP_KEY: ${{ github.event.inputs.activate_backup_key || 'false' }}
           FORCE_EVAL: ${{ github.event.inputs.force_reevaluate }}
           PYTHONPATH: .
         run: |
