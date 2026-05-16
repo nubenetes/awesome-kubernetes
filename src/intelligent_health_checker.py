@@ -210,16 +210,19 @@ class IntelligentLinkCleaner:
             web_content = await _deep_fetch_content(url)
             if not web_content: return
             
-            prompt = f"""Analyze this resource: {url}
-Technical Content Snippet: {web_content[:1500]}
-Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).
-Format: JSON: {\"desc\": \"...\", \"pub_date\": \"...\"}"""
+            prompt = (
+                f"Analyze this resource: {url}\n"
+                f"Technical Content Snippet: {web_content[:1500]}\n"
+                "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).\n"
+                'Format: JSON: {"desc": "...", "pub_date": "..."}'
+            )
             ai_data = await call_gemini_with_retry(prompt)
             if ai_data:
-                self.inventory[norm_url]["ai_summary"] = ai_data.get("desc", "").strip()
+                res_desc = ai_data.get("desc", "").strip()
+                self.inventory[norm_url]["ai_summary"] = res_desc
                 self.inventory[norm_url]["pub_date"] = ai_data.get("pub_date", "N/A")
                 self.stats["enriched_descriptions"] += 1
-                log_event(f"    [OK] Cached for V2: {ai_data.get("desc", "")[:50]}...")
+                log_event(f"    [OK] Cached for V2: {res_desc[:50]}...")
         except Exception as e:
             log_event(f"    [!] Enrichment error: {e}")
 
