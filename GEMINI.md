@@ -123,6 +123,7 @@ Whenever a significant curation cycle (automatic or manual) is completed:
 *   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
 *   **Algorithm-README Sync**: Whenever the AI curation logic, model tiering, or the extraction algorithm is modified (e.g., `src/gemini_utils.py` or `src/v2_optimizer.py`), the `README.md` MUST be updated to reflect these technical changes in the "Agentic Stack" and "Architectural Shift" sections.
 *   **Hierarchical README Maintenance**: Whenever `README.md` is modified, the Table of Contents (TOC) MUST be updated to reflect all changes in sections (H2) and subsections (H3). All titles in the document MUST include hierarchical numbering (e.g., "1. Section", "1.1. Subsection") perfectly synchronized with the TOC.
+*   **Robust Title Standards**: Emojis and ampersands (&) MUST NOT be used in any section (H2) or subsection (H3) titles within `README.md` or the Table of Contents. Ampersands should be replaced with "and". This ensures maximum compatibility with Markdown anchor generation and prevents broken navigation links.
 
 ## 🚀 Block Evasion Strategies
 

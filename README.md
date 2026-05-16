@@ -8,51 +8,51 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
-1.  [1. 🌟 Introduction & Motivation](#1--introduction--motivation)
+1.  [1. Introduction and Motivation](#1-introduction-and-motivation)
     *   [1.1. Origins](#11-origins)
     *   [1.2. Mission](#12-mission)
-2.  [2. 📊 Repository Metrics & Evolution](#2--repository-metrics--evolution)
+2.  [2. Repository Metrics and Evolution](#2-repository-metrics-and-evolution)
     *   [2.1. The "Heart" of Nubenetes](#21-the-heart-of-nubenetes)
     *   [2.2. Top Categories by Density](#22-top-categories-by-density)
-    *   [2.3. Historical Growth (Commits & References)](#23-historical-growth-commits--references)
-    *   [2.4. Content Distribution & Semantic Clustering](#24-content-distribution--semantic-clustering)
-3.  [3. 🦾 The Agentic Stack](#3--the-agentic-stack)
-4.  [4. 🚀 The 2026 Architectural Shift](#4--the-2026-architectural-shift)
+    *   [2.3. Historical Growth (Commits and References)](#23-historical-growth-commits-and-references)
+    *   [2.4. Content Distribution and Semantic Clustering](#24-content-distribution-and-semantic-clustering)
+3.  [3. The Agentic Stack](#3-the-agentic-stack)
+4.  [4. The 2026 Architectural Shift](#4-the-2026-architectural-shift)
     *   [4.1. From Manual to Agentic](#41-from-manual-to-agentic)
     *   [4.2. Evolution Path](#42-evolution-path)
-    *   [4.3. 🧠 Adaptive AI Tiering & Rate Limiting](#43--adaptive-ai-tiering--rate-limiting)
-5.  [5. 🏛️ Dual-Edition Architecture (V1 vs V2)](#5--dual-edition-architecture-v1-vs-v2)
+    *   [4.3. Adaptive AI Tiering and Rate Limiting](#43-adaptive-ai-tiering-and-rate-limiting)
+5.  [5. Dual-Edition Architecture (V1 vs V2)](#5-dual-edition-architecture-v1-vs-v2)
     *   [5.1. V1: The Exhaustive Archive](#51-v1-the-exhaustive-archive)
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
     *   [5.3. The Incremental Elite Engine](#53-the-incremental-elite-engine)
-6.  [6. 📊 The Unified Agentic Database (Knowledge Graph)](#6--the-unified-agentic-database-knowledge-graph)
+6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
     *   [6.2. Multi-Format Synchronization Logic](#62-multi-format-synchronization-logic)
-    *   [6.3. Dynamic AI Discovery & Optimization](#63-dynamic-ai-discovery--optimization)
-    *   [6.4. AI Intelligence & Observability (Transparency)](#64-ai-intelligence--observability-transparency)
-7.  [7. 💎 AI Economic Architecture & Cost Analysis](#7--ai-economic-architecture--cost-analysis)
-    *   [7.1. 📊 Comprehensive Economic Projections (2026 Inception)](#71--comprehensive-economic-projections-2026-inception)
-    *   [7.2. 📉 Efficiency & Performance Metrics](#72--efficiency--performance-metrics)
-    *   [7.3. 🧠 Economic Sustainability Principles](#73--economic-sustainability-principles)
+    *   [6.3. Dynamic AI Discovery and Optimization](#63-dynamic-ai-discovery-and-optimization)
+    *   [6.4. AI Intelligence and Observability (Transparency)](#64-ai-intelligence-and-observability-transparency)
+7.  [7. AI Economic Architecture and Cost Analysis](#7-ai-economic-architecture-and-cost-analysis)
+    *   [7.1. Comprehensive Economic Projections (2026 Inception)](#71-comprehensive-economic-projections-2026-inception)
+    *   [7.2. Efficiency and Performance Metrics](#72-efficiency-and-performance-metrics)
+    *   [7.3. Economic Sustainability Principles](#73-economic-sustainability-principles)
     *   [7.4. Agentic Data Flow](#74-agentic-data-flow)
     *   [7.5. Strategic Benefits](#75-strategic-benefits)
-8.  [8. 🤖 The Agentic AI Engine](#8--the-agentic-ai-engine)
-9.  [9. 🛠️ GitHub Workflows & Automation](#9--github-workflows--automation)
-    *   [9.1. Workflow Inventory & Sequencing](#91-workflow-inventory--sequencing)
+8.  [8. The Agentic AI Engine](#8-the-agentic-ai-engine)
+9.  [9. GitHub Workflows and Automation](#9-github-workflows-and-automation)
+    *   [9.1. Workflow Inventory and Sequencing](#91-workflow-inventory-and-sequencing)
     *   [9.2. Recommended Execution Pipeline](#92-recommended-execution-pipeline)
     *   [9.3. Curation Flow Architecture](#93-curation-flow-architecture)
     *   [9.4. Deployment Lifecycle](#94-deployment-lifecycle)
-10. [10. 🌳 Branching Strategy & Lifecycle](#10--branching-strategy--lifecycle)
-11. [11. 🤝 Contributing to the Archive](#11--contributing-to-the-archive)
-12. [12. 💻 Developer Experience & VSCode Setup](#12--developer-experience--vscode-setup)
+10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
+11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
+12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
     *   [12.1. Extension Recommendations](#121-extension-recommendations)
     *   [12.2. Recommended settings.json](#122-recommended-settingsjson)
 
 ---
 
-## 1. 🌟 Introduction & Motivation
+## 1. Introduction and Motivation
 
 ### 1.1. Origins
 Nubenetes was born in 2018 during a large-scale Cloud Native project for the **BMW IT-Zentrum in Munich**. The project involved building a **self-service developer platform** (BMW ConnectedDrive) with high standards of automation, GitOps patterns, and continuous improvement. The lessons learned from that German engineering environment—standardization, evidence-based decisions, and extreme automation—became the DNA of this repository.
@@ -67,7 +67,7 @@ In a market often driven by "Resume Driven Development" and calculated ambiguiti
 
 ---
 
-## 2. 📊 Repository Metrics & Evolution
+## 2. Repository Metrics and Evolution
 
 Nubenetes is one of the most comprehensive archives in the ecosystem, featuring tens of thousands of links organized by granular categories.
 
@@ -95,7 +95,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 379 |
 | [Monitoring](docs/monitoring.md) | 346 |
 
-### 2.3. Historical Growth (Commits & References)
+### 2.3. Historical Growth (Commits and References)
 
 The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem. Since 2026, the adoption of Agentic AI has resulted in a vertical surge in both commit frequency and link discovery.
 
@@ -118,7 +118,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 537 | 2,217 | **Agentic Inception (Gemini Era)** |
 
-### 2.4. Content Distribution & Semantic Clustering
+### 2.4. Content Distribution and Semantic Clustering
 
 Nubenetes uses AI-driven semantic clustering to organize its 17,000+ resources into logical pillars. Below is a detailed breakdown of how the archive is distributed.
 
@@ -156,29 +156,29 @@ pie title Deep Dive: Specialized Sub-ecosystems
     "Others (100+ Topics)" : 1161
 ```
 
-*   **AI & Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
+*   **AI and Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
 *   **Databases:** Deep coverage of relational (PostgreSQL/Crunchy) and NoSQL databases, including database version control with Liquibase.
 *   **Demos:** High-value repositories with ready-to-use production boilerplates, perfect for "Day 0" projects.
 
 ---
 
-## 3. 🦾 The Agentic Stack
+## 3. The Agentic Stack
 
 The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensures 24/7 curation and maintenance.
 
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
-| **Orchestration** | GitHub Actions | Scheduled & Event-driven execution (via `develop` branch). |
+| **Orchestration** | GitHub Actions | Scheduled and Event-driven execution (via `develop` branch). |
 | **Intelligence** | Google Gemini (Multi-model) | Resource evaluation, scoring, and classification. |
-| **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) & Global rate limiting. |
+| **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) and Global rate limiting. |
 | **Automation** | Python 3.11 | Core logic for parsing, gitops, and reporting. |
-| **Discovery** | Twikit & Playwright | Autonomous scraping and account rotation. |
+| **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
 | **Deployment** | MkDocs Material | High-performance static site generation for V1 and V2. |
 
 ---
 
-## 4. 🚀 The 2026 Architectural Shift
+## 4. The 2026 Architectural Shift
 
 ### 4.1. From Manual to Agentic
 Historically, Nubenetes was curated manually by extracting references from **x.com/nubenetes** (formerly Twitter). This was a labor-intensive process that relied on human memory and periodic batch updates.
@@ -197,17 +197,17 @@ graph TD
     D --> G["V2 Elite Generation"]
 ```
 
-### 4.3. 🧠 Adaptive AI Tiering & Rate Limiting
+### 4.3. Adaptive AI Tiering and Rate Limiting
 To ensure maximum throughput and resilience, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
 - **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for deep architectural reasoning and categorization) and **Gemini Flash/Lite** (for high-speed batch enrichment and summarization).
-- **Global Concurrency & Rate Limiting**: Implements a global semaphore (max 5 simultaneous calls) and an intelligent cooldown mechanism (3-30s) that monitors API quotas in real-time. If a specific model hits a 429 limit, the engine automatically "tiers down" to a more available model or rotates API keys.
+- **Global Concurrency and Rate Limiting**: Implements a global semaphore (max 5 simultaneous calls) and an intelligent cooldown mechanism (3-30s) that monitors API quotas in real-time. If a specific model hits a 429 limit, the engine automatically "tiers down" to a more available model or rotates API keys.
 - **Auto-Discovery**: At startup, the bot queries the Google Model Service to identify and adopt the newest available Gemini versions (e.g., 2.0, 3.1) without manual configuration.
 - **Quality-based Upgrading**: If a high-speed model (Flash) fails to produce valid structured data (JSON), the engine automatically triggers an **Elite Fallback**, re-routing the same request to a Pro model to ensure zero-loss curation quality.
 - **Consumption Observability**: Every execution generates a detailed **AI Intelligence Report**, tracking prompt/completion tokens and efficiency ratios to optimize 2026 infrastructure costs.
 
 ---
 
-## 5. 🏛️ Dual-Edition Architecture (V1 vs V2)
+## 5. Dual-Edition Architecture (V1 vs V2)
 
 Nubenetes operates with two distinct editions to serve different engineering needs. Both are managed via GitOps and deployed to [nubenetes.com](https://nubenetes.com).
 
@@ -235,7 +235,7 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 
 ---
 
-## 6. 📊 The Unified Agentic Database (Knowledge Graph)
+## 6. The Unified Agentic Database (Knowledge Graph)
 
 Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consistency across V1 and V2 while optimizing AI performance. All links are indexed in a local YAML database that serves as the "Memory" for our autonomous agents.
 
@@ -251,17 +251,17 @@ Nubenetes employs a strategic "Double-Format" protocol to ensure system reliabil
 - **JSON for AI Communication**: When agents talk to Google Gemini, they utilize **JSON** as the messaging protocol. This ensures rigid data structures and prevents AI formatting errors (like indentation slips) from breaking the processing scripts.
 - **YAML for Repository Storage**: Once the data is validated, it is serialized into **YAML** for the local database. This provides a clean, human-readable format that is easy to audit via Git diffs and respects the repository's aesthetic standards.
 
-### 6.3. Dynamic AI Discovery & Optimization
+### 6.3. Dynamic AI Discovery and Optimization
 To eliminate configuration overhead and ensure Nubenetes always utilizes the frontier of AI technology, the system features a **Zero-Config Dynamic Model Discovery Engine**:
 
 1.  **Live Capability Discovery**: At the start of each workflow run, the bot programmatically queries the Google Model Service API to list all models actually available to the provided API keys. This prevents `404 Not Found` errors caused by trying to use deprecated or restricted models.
-2.  **Autonomous Scoring & Ranking**: Models are automatically ranked using a **dynamic regex-based algorithm** that extracts version numbers (e.g., 2.0, 3.1, 4.0). Higher versions are prioritized, ensuring zero-config auto-adoption of future frontier models. Tier bonuses are applied (Ultra > Pro > Flash) to prioritize reasoning depth.
+2.  **Autonomous Scoring and Ranking**: Models are automatically ranked using a **dynamic regex-based algorithm** that extracts version numbers (e.g., 2.0, 3.1, 4.0). Higher versions are prioritized, ensuring zero-config auto-adoption of future frontier models. Tier bonuses are applied (Ultra > Pro > Flash) to prioritize reasoning depth.
 3.  **Adaptive Rate Limiting (Exponential Backoff)**: When encountering `429 Too Many Requests` errors, the engine implements an **Exponential Backoff with Jitter** strategy. Instead of immediate rotation, it applies a mandatory wait time that increases with consecutive failures, preventing infinite loops and respecting Google's quota resets.
 4.  **Concurrency Guard (Semaphore)**: To prevent saturating API quotas during high-volume operations (like V2 inventory enrichment), the system utilizes an **Asyncio Semaphore**. This restricts the number of concurrent AI calls (e.g., max 5), ensuring a steady, reliable flow that stays within RPM (Requests Per Minute) limits.
 5.  **Smart AI Batching (90% Traffic Reduction)**: Instead of processing one link per call, the system groups up to **10 resources into a single AI prompt**. This strategic packaging reduces total API calls by 90%, drastically lowering the risk of `429` errors while optimizing token density for Identity A.
 6.  **Pre-Flight Local Caching**: The engine performs an autonomous look-up in `data/inventory.yaml` before any AI operation. If a resource is already indexed and described, it is skipped in the enrichment phase. This makes the marginal cost of repository maintenance near-zero.
 
-### 6.4. AI Intelligence & Observability (Transparency)
+### 6.4. AI Intelligence and Observability (Transparency)
 As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations. Every curation cycle is tracked to ensure maintainers understand the cost, quality, and infrastructure behind the agentic decisions:
 
 - **Gemini Session Tracker**: Monitors every API call, recording the model used, the identity utilized, and the success rate.
@@ -286,11 +286,11 @@ graph LR
 
 ---
 
-## 7. 💎 AI Economic Architecture & Cost Analysis
+## 7. AI Economic Architecture and Cost Analysis
 
 Nubenetes utilizes a **Performance-First / Cost-Optimized** hybrid model. By prioritizing high-efficiency models (Flash) for bulk processing and elite models (Pro) for complex reasoning, the repository maintains an extremely low financial footprint while delivering enterprise-grade curation.
 
-### 7.1. 📊 Comprehensive Economic Projections (2026 Inception)
+### 7.1. Comprehensive Economic Projections (2026 Inception)
 These estimates are based on the current volume of **17,110+ links** in V1 and the high-density **V2 Elite subset**.
 
 #### 1. Cold-Start / Disaster Recovery (Full Re-curation)
@@ -321,7 +321,7 @@ Projected monthly budget for 24/7 autonomous maintenance.
 | **Aggressive Surge** | 60 | 3,500 | **$12.30** | ~450 hrs saved |
 | **Maintenance** | 10 | 100 | **$0.55** | ~20 hrs saved |
 
-### 7.2. 📉 Efficiency & Performance Metrics
+### 7.2. Efficiency and Performance Metrics
 Nubenetes achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.
 
 ```mermaid
@@ -338,7 +338,7 @@ pie title Processing Strategy (By Link Volume)
     "New AI Inference (Identity A)" : 10
 ```
 
-### 7.3. 🧠 Economic Sustainability Principles
+### 7.3. Economic Sustainability Principles
 1.  **Identity Rotation (Identity A/B)**: The project rotates between Pay-as-you-go keys and Subscription-based quotas (Identity A) to maximize "Free Tier" utilization before incurring direct costs.
 2.  **The Cache Dividend**: Every link curated is stored in `data/inventory.yaml`. As the database matures, the *marginal cost of maintaining the archive* drops asymptotically toward $0 per link.
 3.  **TPM/RPM Optimization**: By using a **Global Semaphore (max 5 concurrent calls)**, we prevent hitting rate limits that would trigger expensive retry loops or backoff delays, maintaining a "high-velocity, low-cost" data pipeline.
@@ -371,7 +371,7 @@ graph TD
 
 ---
 
-## 8. 🤖 The Agentic AI Engine
+## 8. The Agentic AI Engine
 
 The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
 
@@ -390,11 +390,11 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
 
 ---
 
-## 9. 🛠️ GitHub Workflows & Automation
+## 9. GitHub Workflows and Automation
 
 Nubenetes uses a sophisticated multi-stage automation pipeline. Below is the detailed inventory of our workflows, their roles, and their inter-dependencies.
 
-### 9.1. Workflow Inventory & Sequencing
+### 9.1. Workflow Inventory and Sequencing
 
 | # | Workflow | File | Purpose | Trigger | Target |
 | :---: | :--- | :--- | :--- | :--- | :--- |
@@ -460,7 +460,7 @@ graph LR
 
 ---
 
-## 10. 🌳 Branching Strategy & Lifecycle
+## 10. Branching Strategy and Lifecycle
 
 Nubenetes follows a dual-branch GitOps model to ensure stability while allowing for aggressive AI-driven curation.
 
@@ -478,7 +478,7 @@ Nubenetes follows a dual-branch GitOps model to ensure stability while allowing 
 
 ---
 
-## 11. 🤝 Contributing to the Archive
+## 11. Contributing to the Archive
 
 Community contributions have been the backbone of Nubenetes since 2018. If you want to add a reference, improve a description, or fix a link, please follow these guidelines:
 
@@ -491,7 +491,7 @@ Community contributions have been the backbone of Nubenetes since 2018. If you w
 
 ---
 
-## 12. 💻 Developer Experience & VSCode Setup
+## 12. Developer Experience and VSCode Setup
 
 > **⚠️ Note on Obsolescence:** The manual editing process via VSCode described below is becoming **largely obsolete** as of May 2026. With the introduction of autonomous Gemini-powered AI agents in our GitHub Workflows, the vast majority of curation, link validation, and metric updates are now handled automatically. This setup is preserved only for emergency manual interventions or structural architectural changes.
 
