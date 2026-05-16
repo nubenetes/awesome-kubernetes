@@ -29,9 +29,11 @@
     *   [5.3. The Incremental Elite Engine](#53-the-incremental-elite-engine)
 6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
-    *   [6.2. Multi-Format Synchronization Logic](#62-multi-format-synchronization-logic)
-    *   [6.3. Dynamic AI Discovery and Optimization](#63-dynamic-ai-discovery-and-optimization)
-    *   [6.4. AI Intelligence and Observability (Transparency)](#64-ai-intelligence-and-observability-transparency)
+    *   [6.2. The 'Database-First' Reasoning Protocol](#62-the-database-first-reasoning-protocol)
+    *   [6.3. Exhaustive Initialization (Cold-Start)](#63-exhaustive-initialization-cold-start)
+    *   [6.4. Multi-Format Synchronization Logic](#64-multi-format-synchronization-logic)
+    *   [6.5. Dynamic AI Discovery and Optimization](#65-dynamic-ai-discovery-and-optimization)
+    *   [6.6. AI Intelligence and Observability (Transparency)](#66-ai-intelligence-and-observability-transparency)
 7.  [7. AI Economic Architecture and Cost Analysis](#7-ai-economic-architecture-and-cost-analysis)
     *   [7.1. Comprehensive Economic Projections (2026 Inception)](#71-comprehensive-economic-projections-2026-inception)
     *   [7.2. Efficiency and Performance Metrics](#72-efficiency-and-performance-metrics)
@@ -237,21 +239,30 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
 
 ## 6. The Unified Agentic Database (Knowledge Graph)
 
-Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consistency across V1 and V2 while optimizing AI performance. All links are indexed in a local YAML database that serves as the "Memory" for our autonomous agents.
+Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consistency across V1 and V2 while optimizing AI performance. All links are indexed in a local YAML database that serves as the **Persistent Memory** for our autonomous agents.
 
 ### 6.1. Database Components
 1.  **Central Inventory (`data/inventory.yaml`)**: Stores global technical metadata.
-    *   `title`, `year`, `stars` (0-5), `description` (V1), and `ai_summary` (V2 Elite).
+    *   `title`, `year`, `stars` (0-5), `description` (V1), `ai_summary` (V2 Elite), `category`, and `related_categories`.
 2.  **Structure Map (`data/structure_map.yaml`)**: Tracks the physical presence and formatting of links.
     *   Tracks which `.md` pages contain the link in V1 and V2.
     *   Stores visual state: `is_bold`, `is_highlighted` (`==`).
 
-### 6.2. Multi-Format Synchronization Logic
+### 6.2. The 'Database-First' Reasoning Protocol
+To maximize economic efficiency, all AI agents follow a **Database-First** approach:
+1.  **Local Lookup**: Before initiating any Gemini call, the agent checks if the URL is already indexed in `data/inventory.yaml`.
+2.  **Insight Reuse**: If the resource exists with valid metadata, the agent **reuses existing insights** (descriptions, scores, categories), reducing API traffic to zero for that resource.
+3.  **Mandatory Persistence**: Modified YAML files are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
+
+### 6.3. Exhaustive Initialization (Cold-Start)
+The system supports a `FORCE_FULL_CHECK` mechanism. When activated (via the **Force full re-validation** button in GitHub Actions), the engine bypasses all local caches and re-verifies the entire 17,000+ link archive. This is used to build the initial database from scratch or perform massive architectural refreshes.
+
+### 6.4. Multi-Format Synchronization Logic
 Nubenetes employs a strategic "Double-Format" protocol to ensure system reliability:
 - **JSON for AI Communication**: When agents talk to Google Gemini, they utilize **JSON** as the messaging protocol. This ensures rigid data structures and prevents AI formatting errors (like indentation slips) from breaking the processing scripts.
 - **YAML for Repository Storage**: Once the data is validated, it is serialized into **YAML** for the local database. This provides a clean, human-readable format that is easy to audit via Git diffs and respects the repository's aesthetic standards.
 
-### 6.3. Dynamic AI Discovery and Optimization
+### 6.5. Dynamic AI Discovery and Optimization
 To eliminate configuration overhead and ensure Nubenetes always utilizes the frontier of AI technology, the system features a **Zero-Config Dynamic Model Discovery Engine**:
 
 1.  **Live Capability Discovery**: At the start of each workflow run, the bot programmatically queries the Google Model Service API to list all models actually available to the provided API keys. This prevents `404 Not Found` errors caused by trying to use deprecated or restricted models.
@@ -261,7 +272,7 @@ To eliminate configuration overhead and ensure Nubenetes always utilizes the fro
 5.  **Smart AI Batching (90% Traffic Reduction)**: Instead of processing one link per call, the system groups up to **10 resources into a single AI prompt**. This strategic packaging reduces total API calls by 90%, drastically lowering the risk of `429` errors while optimizing token density for Identity A.
 6.  **Pre-Flight Local Caching**: The engine performs an autonomous look-up in `data/inventory.yaml` before any AI operation. If a resource is already indexed and described, it is skipped in the enrichment phase. This makes the marginal cost of repository maintenance near-zero.
 
-### 6.4. AI Intelligence and Observability (Transparency)
+### 6.6. AI Intelligence and Observability (Transparency)
 As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI operations. Every curation cycle is tracked to ensure maintainers understand the cost, quality, and infrastructure behind the agentic decisions:
 
 - **Gemini Session Tracker**: Monitors every API call, recording the model used, the identity utilized, and the success rate.

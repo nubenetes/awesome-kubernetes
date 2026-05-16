@@ -99,6 +99,21 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Blacklisted domain"}
             continue
 
+        # --- DATABASE-FIRST: Check if already analyzed ---
+        if norm_url in curator.inventory:
+            cached = curator.inventory[norm_url]
+            # If it has the core fields, reuse them
+            if cached.get("title") and cached.get("description") and cached.get("year"):
+                log_event(f"  [⚡] REUSING CACHED INSIGHTS: {cached['title']}")
+                evaluations[asset["url"]] = {
+                    "status": "INCLUDED", "title": cached["title"], "description": cached["description"],
+                    "year": cached["year"], "category": cached.get("category", "kubernetes-tools"),
+                    "related_categories": cached.get("related_categories", []),
+                    "impact_score": cached.get("stars", 1) * 20, 
+                    "is_exceptional": cached.get("stars", 0) >= 4
+                }
+                continue
+
         gh_meta = {}
         mvq_penalty = False
         if "github.com" in asset["url"]:
@@ -153,7 +168,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "title": data["title"], "description": data["desc"], "ai_summary": data["desc"],
                     "year": year, "pub_date": data.get("pub_date", "N/A"), "post_date": asset.get("timestamp", "N/A"),
                     "repo_created_at": gh_meta.get("gh_created", "N/A"), "repo_pushed_at": gh_meta.get("gh_pushed", "N/A"),
-                    "stars": min(max(score // 20, 0), 5), "last_checked": datetime.now().timestamp()
+                    "stars": min(max(score // 20, 0), 5), "last_checked": datetime.now().timestamp(),
+                    "category": primary_cat, "related_categories": related_cats[:2]
                 }
                 curator._save_inventory()
                 log_event(f"  [+] ACCEPTED: {data['title']}")
