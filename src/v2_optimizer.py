@@ -37,12 +37,15 @@ class V2VisionEngine:
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
             "- Extract precise PUBLICATION YEAR: Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
-            "- Assign QUALITY level (1-3 stars).\n"
+            "- Assign QUALITY level (0-3 stars):\n"
+            "  * 0 stars: Good technical resource (Baseline).\n"
+            "  * 1 star (🌟): High-quality technical guide or tool.\n"
+            "  * 2 stars (🌟🌟): Exceptional, enterprise-grade resource.\n"
+            "  * 3 stars (🌟🌟🌟): Elite Gem (Must-read or Industry Standard).\n"
             "- Assign a MATURITY TAG based on content type/status.\n"
             "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
             "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
             "- If 'Current Desc' is empty, too short, or non-descriptive, generate a professional 1-2 sentence summary.\n"
-            "- To generate the summary: Analyze the URL and title. If you recognize the technical resource, describe its core value proposition for a Cloud Architect in 2026.\n"
             "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
         self.cache = self._load_cache()
@@ -267,7 +270,7 @@ class V2VisionEngine:
                             item = batch[idx].copy()
                             eval_data = {
                                 "year": str(res.get("year", "N/A")),
-                                "stars": min(max(int(res.get("stars", 1)), 1), 3),
+                                "stars": min(max(int(res.get("stars", 0)), 0), 3),
                                 "is_video": res.get("is_video", False),
                                 "tag": res.get("tag", "[ENTERPRISE-STABLE]"),
                                 "ai_summary": res.get("summary", "")
@@ -294,7 +297,7 @@ class V2VisionEngine:
             except:
                 for l in batch:
                     item = l.copy()
-                    item["year"], item["stars"], item["is_video"] = "N/A", 1, "youtube" in l["url"]
+                    item["year"], item["stars"], item["is_video"] = "N/A", 0, "youtube" in l["url"]
                     item["tag"] = self._calculate_tag(item)
                     refined.append(item)
             await asyncio.sleep(0.3)
@@ -441,8 +444,8 @@ class V2VisionEngine:
             for cat, links in content["categories"].items():
                 md += f"## {cat}\n"
                 for l in links:
-                    year, stars_val = l.get("year", "N/A"), l.get("stars", 1)
-                    stars = "🌟" * stars_val
+                    year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
+                    stars = ("🌟" * stars_val) if stars_val > 0 else ""
                     tag = l.get("tag", "[ENTERPRISE-STABLE]")
                     
                     # Determine color mapping for new tags
