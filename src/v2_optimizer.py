@@ -10,6 +10,11 @@ from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ
 from src.gemini_utils import call_gemini_with_retry
 from src.logger import log_event
 
+def normalize_url(url: str) -> str:
+    url = url.split(\"#\")[0].split(\"?\")[0].rstrip(\"/\")
+    if url.startswith(\"http://\"): url = \"https://\" + url[7:]
+    return url.lower()
+
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 INVENTORY_PATH = "data/inventory.yaml"
@@ -194,7 +199,7 @@ class V2VisionEngine:
             return link
 
         # 2. Cached Health
-        if url in self.inventory and self.inventory[url].get("status") == "online":
+        if url in self.inventory and self.inventory[normalize_url(url)].get("status") == "online":
             link["health_status"] = "cached"
             return link
 
@@ -245,11 +250,11 @@ class V2VisionEngine:
             # To allow the new logic to apply to cached items, we re-process GitHub links 
             # and re-apply the tag logic even if it's in the cache.
             item = l.copy()
-            if not force_eval and url in self.inventory and "stars" in self.inventory[url]:
-                item.update(self.inventory[url])
+            if not force_eval and url in self.inventory and "stars" in self.inventory[normalize_url(url)]:
+                item.update(self.inventory[normalize_url(url)])
                 # If cache has a generated description and item is missing one, use it
-                if "ai_summary" in self.inventory[url] and not item["description"]:
-                    item["description"] = self.inventory[url]["ai_summary"]
+                if "ai_summary" in self.inventory[normalize_url(url)] and not item["description"]:
+                    item["description"] = self.inventory[normalize_url(url)]["ai_summary"]
             
             # Re-evaluate if description is still missing even after cache check
             if not item.get("description"):
@@ -324,13 +329,26 @@ class V2VisionEngine:
             await asyncio.sleep(0.3)
         return refined
 
-    def _calculate_tag(self, item: Dict) -> str:
-        # Dynamic Tagging Strategy based on Maturity and Real Data
-        if "github.com" in item["url"] and "gh_stars" in item:
-            stars = item["gh_stars"]
-            year = int(item.get("year")) if item.get("year", "").isdigit() else 2024
-            if stars > 10000: return "[DE FACTO STANDARD]"
-            if stars > 500 and year >= 2024: return "[ENTERPRISE-STABLE]"
+        def _calculate_tag(self, item: Dict) -> str:
+        # Dynamic Evolutionary Tagging (Automatic Project Growth Detection)
+        url = item.get("url", "").lower()
+        stars = item.get("gh_stars", 0)
+        year = int(item.get("year")) if item.get("year", "").isdigit() else 2024
+
+        if "github.com" in url or "gitlab.com" in url:
+            if stars > 15000: return "[DE FACTO STANDARD]"
+            if stars > 3000: return "[ENTERPRISE-STABLE]"
+            if stars > 500 and year >= 2025: return "[HIGH-GROWTH / EMERGING]"
+            if year <= 2021 and stars < 100: return "[LEGACY / MAINTENANCE]"
+            return "[COMMUNITY-TOOL]"
+        
+        # Article/Guide Logic
+        title = item.get("title", "").lower()
+        if "awesome" in title: return "[FOUNDATIONAL]"
+        if "guide" in title or "architecture" in title: return "[ARCHITECTURE-GUIDE]"
+        if "deep dive" in title or "internals" in title: return "[TECHNICAL-DEEP-DIVE]"
+        if "how to" in title or "tutorial" in title: return "[CASE-STUDY]"
+        return "[EXPERT-ARTICLE]" 
             if year >= 2025: return "[EMERGING / INNOVATION]"
             if year <= 2022: return "[LEGACY / MAINTENANCE]"
             return "[TOOLING]"
@@ -419,6 +437,27 @@ class V2VisionEngine:
             )
         )
 
+        # --- THE AGENTIC PULSE (Trending) ---
+        trending_pool = []
+        for url, meta in self.inventory.items():
+            if meta.get("stars", 0) >= 3:
+                trending_pool.append(meta.copy())
+                trending_pool[-1]["url"] = url
+
+        # Sort by: 1. Pub/Post Date (DESC), 2. Stars (DESC)
+        trending_pool.sort(key=lambda x: (
+            x.get("pub_date", "0000") if x.get("pub_date") != "N/A" else x.get("post_date", "0000"),
+            -x.get("stars", 0)
+        ), reverse=True)
+
+        pulse_md = "## ⚡ The Agentic Pulse: Trending Excellence\n"
+        pulse_md += "Directly from the latest 2026 curation surges. High-impact technical depth recently added.\n\n"
+        for l in trending_pool[:5]:
+            stars = "🌟" * l.get("stars", 3)
+            date = l.get("pub_date") if l.get("pub_date") != "N/A" else l.get("post_date")
+            date_prefix = f"**({date[:10]})** " if date and date != "N/A" else ""
+            pulse_md += f"- {date_prefix}[**=={l['title']}==**]({l['url']}) {stars}\n"
+
         index_md = (
             "# Nubenetes V2 | The High-Density Library (2026)\n\n"
             "![Banner](images/kubernetes_logo.jpg)\n\n"
@@ -426,8 +465,8 @@ class V2VisionEngine:
             "    A meticulously curated reference of over 15,000 resources. This V2 portal preserves technical depth while providing "
             "    impact-driven synthesis and expert quality classification.\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
-            
-            "## 🛡️ V2 Taxonomy & Maturity Tags\n"
+            f"{pulse_md}\n"
+            "## 🛡️ V2 Taxonomy & Elite Quality Tiers\n"
             "To maximize technical clarity, V2 resources are classified by maturity rather than subjective quality:\n\n"
             "- <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>: Foundational industry tools with massive adoption (>10k GitHub stars).\n"
             "- <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>: Production-ready tools actively maintained.\n"

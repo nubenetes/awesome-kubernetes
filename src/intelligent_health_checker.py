@@ -12,6 +12,11 @@ from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
 from src.logger import log_event
 
+def normalize_url(url: str) -> str:
+    url = url.split(\"#\")[0].split(\"?\")[0].rstrip(\"/\")
+    if url.startswith(\"http://\"): url = \"https://\" + url[7:]
+    return url.lower()
+
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
 MEMORY_FILE = "src/memory/health_learning.json"
@@ -192,10 +197,10 @@ class IntelligentLinkCleaner:
         to respect manual curation. However, we ensure the INVENTORY has a 
         description for the V2 Elite portal.
         """
-        if url not in self.inventory: self.inventory[url] = {}
+        if url not in self.inventory: self.inventory[normalize_url(url)] = {}
         
         # If inventory already has a description, we are done
-        if self.inventory[url].get("ai_summary"): return
+        if self.inventory[normalize_url(url)].get("ai_summary"): return
 
         log_event(f"    [✨] INVENTORY: Generating summary for {url} (V2 Only)")
         try:
@@ -215,8 +220,8 @@ class IntelligentLinkCleaner:
                     )
                     ai_data = await call_gemini_with_retry(prompt)
                     if ai_data:
-                        self.inventory[url]["ai_summary"] = ai_data.get("desc", "").strip()
-                        self.inventory[url]["pub_date"] = ai_data.get("pub_date", "N/A")
+                        self.inventory[normalize_url(url)]["ai_summary"] = ai_data.get("desc", "").strip()
+                        self.inventory[normalize_url(url)]["pub_date"] = ai_data.get("pub_date", "N/A")
                         self.stats["enriched_descriptions"] += 1
                 self.stats["enriched_descriptions"] += 1
                 log_event(f"    [OK] Cached for V2: {desc[:50]}...")

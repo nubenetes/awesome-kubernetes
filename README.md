@@ -218,12 +218,12 @@ Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consisten
 ### Agentic Data Flow
 ```mermaid
 graph TD
-    AC[Agentic Curator] -->|New Resource| DB[(Unified DB)]
-    LC[Link Cleaner] -->|Health & Metadata| DB
-    V2[V2 Vision Engine] -->|Elite Selection| DB
+    AC[Agentic Curator] -->|Canonical Normalization| DB[(Unified DB)]
+    LC[Link Cleaner] -->|Health & Metadata Enrichment| DB
+    V2[V2 Vision Engine] -->|Elite Selection & Maturity Evolution| DB
     
     DB -->|Metadata Sync| V1[V1 Archive: docs/]
-    DB -->|Advanced UI| V2P[V2 Portal: v2-docs/]
+    DB -->|Trending: The Agentic Pulse| V2P[V2 Portal: v2-docs/]
     
     subgraph Local Storage
         DB1[inventory.yaml]
@@ -232,10 +232,11 @@ graph TD
 ```
 
 ### Strategic Benefits
+- **Canonical Deduplication**: Automatically merges duplicate resources (stripping UTM/trackers), ensuring a clean and precise inventory.
+- **The Agentic Pulse**: A dynamic trending section on the V2 home page that highlights the freshest high-impact resources.
 - **Zero Redundancy**: Links already analyzed by Gemini are never re-evaluated unless forced.
-- **Visual Consistency**: Highlighting (`==`) and Bold formatting are managed via the database to ensure high-signal discovery.
-- **Cross-Edition Sync**: A metadata update in the YAML instantly propagates to both V1 and V2 during the next build cycle.
-- **Manual Priority**: Existing V1 descriptions are protected; AI only intervenes for new additions or V2-specific enrichment.
+- **Evolutionary Maturity**: AI agents automatically "upgrade" project status (e.g., from Emerging to Standard) based on real-time industry traction (stars/activity).
+- **Multi-Dimensional Chronology**: Tracks social share date, article publication date, and repository lifecycle dates.
 
 ---
 

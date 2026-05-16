@@ -41,6 +41,10 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **`structure_map.yaml`**: Tracks link locations and visual formatting (bold/highlight) across V1 and V2.
     - **Persistence**: Every agent MUST load these files at startup and save any modifications immediately to ensure state continuity across workflows.
     - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions in the V1 archive files. Enrichment is strictly for `inventory.yaml` and the V2 portal.
+23. **Canonical URL Normalization**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
+    - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (`#`).
+    - **Protocol Uniformity**: Standardize on `https://` whenever possible.
+    - **Merge Logic**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
 
 ## 🛠️ Structural Evolution & Navigation
 ...
