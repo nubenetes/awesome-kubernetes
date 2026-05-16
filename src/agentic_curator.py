@@ -31,88 +31,20 @@ async def _deep_fetch_content(url: str) -> str:
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Language': 'en-US,en;q=0.5',
     }
-    try:
-        # Stricter timeouts for Pay-as-you-go stability
-        timeout = httpx.Timeout(10.0, connect=5.0)
-        async with httpx.AsyncClient(timeout=timeout) as client:
-            resp = await client.get(url, headers=headers, follow_redirects=True)
-            if resp.status_code == 200:
-                from bs4 import BeautifulSoup
-                soup = BeautifulSoup(resp.text, 'html.parser')
-                for s in soup(['script', 'style', 'nav', 'footer', 'aside']):
-                    s.decompose()
-                return soup.get_text(separator=' ', strip=True)[:4000]
-    except: return ""
-    return ""
-
-from src.logger import log_event
-
-async def _get_github_activity(url: str) -> Optional[datetime]:
-    """Obtiene la fecha del último commit de un repo de GitHub usando la API (si hay token)."""
-    if "github.com" not in url or not GH_TOKEN: return None
-    try:
-        # Extraer user/repo
-        match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
-        if match:
-            owner, repo = match.groups()
-            repo = repo.split('#')[0].split('?')[0].rstrip('.git')
-            api_url = f"https://api.github.com/repos/{owner}/{repo}"
-            headers = {"Authorization": f"token {GH_TOKEN}"}
-            async with httpx.AsyncClient() as client:
-                resp = await client.get(api_url, headers=headers, timeout=5)
-                if resp.status_code == 200:
-                    pushed_at = resp.json().get("pushed_at")
-                    if pushed_at:
-                        return datetime.fromisoformat(pushed_at.replace('Z', '+00:00'))
-    except: pass
-    return None
-
-async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
-    evaluations = {}
-    if not GEMINI_API_KEYS:
-        log_event("[!] CRITICAL ERROR: GEMINI_API_KEYS not found in environment.")
-        return {a["url"]: {"status": "FILTERED", "reason": "Config: Missing API KEY"} for a in raw_assets}
-
-    memory_file = "src/memory/health_learning.json"
-    domain_blacklist = set()
-    if os.path.exists(memory_file):
-        try:
-            with open(memory_file, 'r') as f:
-                memory_data = json.load(f)
-                domain_blacklist = set(memory_data.get("blacklisted_domains", []))
-        except: pass
-
-    for i, asset in enumerate(raw_assets):
-        post_date = asset.get('timestamp', 'Unknown date')
-        context = asset.get('context', asset.get('description', 'No additional context'))
-        source = asset.get('source_type', 'Social')
-        is_primary = "nubenetes" in source.lower()
-        
-        log_event(f"--- EVALUATING {i+1}/{len(raw_assets)} ---", section_break=False)
-        log_event(f"  - URL: {asset['url']}")
-        log_event(f"  - Source: {source} {'(Primary)' if is_primary else '(External)'}")
-
-        domain = asset['url'].split("//")[-1].split("/")[0]
-        if domain in domain_blacklist:
-            log_event(f"  [-] REJECTED: Blacklisted domain ({domain})")
-                            evaluations[asset["url"]] = {
-                    "status": "INCLUDED", "title": data["title"], "description": data["desc"],
-                    "year": year,
-                    "category": primary_cat, "related_categories": list(set(related_cats))[:2],
-                    "impact_score": score, "is_exceptional": score > 80,
-                    "reasoning": reasoning
-                }
-                # Sync new link to unified inventory
-                try:
+                    try:
                     self.inventory[asset["url"]] = {
                         "title": data["title"],
                         "description": data["desc"], 
                         "ai_summary": data["desc"],
                         "year": year,
                         "stars": min(max(score // 20, 0), 5),
+                        "post_date": asset.get("post_date", "N/A"),
+                        "pub_date": data.get("pub_date", "N/A"),
+                        "repo_created_at": asset.get("gh_created", "N/A"),
+                        "repo_pushed_at": asset.get("gh_pushed", "N/A"),
                         "last_checked": datetime.now().timestamp()
                     }
-                    self._save_inventory(); self._save_structure_map()
+                    self._save_inventory()
                 except: pass
                 log_event(f"  [+] ACCEPTED: \"{data['title']}\" (Score: {score})")
                 log_event(f"      Primary: {primary_cat} | Related: {', '.join(related_cats)}")

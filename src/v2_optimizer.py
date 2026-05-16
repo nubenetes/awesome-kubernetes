@@ -37,7 +37,7 @@ class V2VisionEngine:
             "PHASE 1: TECHNICAL PRESERVATION (HIGH INCLUSIVITY)\n"
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION YEAR: Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
+            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY): Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
             "- Assign QUALITY level (0-5 stars):\n"
             "  * 0 stars: Good technical resource (Baseline).\n"
             "  * 1 star (🌟): High-quality technical guide or tool.\n"
@@ -364,7 +364,7 @@ class V2VisionEngine:
                     data = resp.json()
                     return {
                         "gh_stars": data.get("stargazers_count", 0),
-                        "gh_updated": data.get("updated_at", "").split("T")[0]
+                        "gh_pushed": data.get("pushed_at", "").split("T")[0], "gh_created": data.get("created_at", "").split("T")[0]
                     }
         except: pass
         return {}

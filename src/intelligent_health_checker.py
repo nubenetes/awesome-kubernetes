@@ -102,7 +102,7 @@ class IntelligentLinkCleaner:
                     
                     return {
                         "stars": data.get("stargazers_count", 0),
-                        "pushed_at": pushed_at,
+                        "pushed_at": pushed_at, "created_at": data.get("created_at", ""),
                         "years_inactive": years_inactive,
                         "is_abandoned": years_inactive > 4
                     }
@@ -204,16 +204,20 @@ class IntelligentLinkCleaner:
             web_content = await _deep_fetch_content(url)
             if not web_content: return
             
-            prompt = (
-                f"Write a professional 1-sentence English description for this resource: {url}
+                                prompt = (
+                        f"Analyze this resource: {url}
 "
-                f"Technical Content Snippet: {web_content[:1500]}
+                        f"Technical Content Snippet: {web_content[:1500]}
 "
-                "Format: Just the description text. Neutral, objective, technical. Language: English only."
-            )
-            desc = await call_gemini_with_retry(prompt, response_format="text")
-            if desc and len(desc) > 10:
-                self.inventory[url]["ai_summary"] = desc.strip()
+                        "Provide: 1) A professional 1-sentence English description. 2) The precise original PUBLICATION DATE (YYYY-MM-DD or YYYY if possible).
+"
+                        "Format: JSON: {\"desc\": \"...\", \"pub_date\": \"...\"}"
+                    )
+                    ai_data = await call_gemini_with_retry(prompt)
+                    if ai_data:
+                        self.inventory[url]["ai_summary"] = ai_data.get("desc", "").strip()
+                        self.inventory[url]["pub_date"] = ai_data.get("pub_date", "N/A")
+                        self.stats["enriched_descriptions"] += 1
                 self.stats["enriched_descriptions"] += 1
                 log_event(f"    [OK] Cached for V2: {desc[:50]}...")
         except: pass
