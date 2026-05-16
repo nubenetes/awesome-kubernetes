@@ -462,13 +462,27 @@ class V2VisionEngine:
             "    impact-driven synthesis and expert quality classification.\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
             f"{pulse_md}\n"
-            "## 🛡️ V2 Taxonomy & Elite Quality Tiers\n"
-            "To maximize technical clarity, V2 resources are classified by maturity rather than subjective quality:\n\n"
+            "## 🛡️ V2 Taxonomy and Multi-Dimensional Tags\n"
+            "To maximize technical clarity, V2 resources are categorized across four critical dimensions:\n\n"
+            
+            "### 1. Maturity Tiers (Strategic Status)\n"
             "- <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>: Foundational industry tools with massive adoption (>10k GitHub stars).\n"
             "- <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>: Production-ready tools actively maintained.\n"
             "- <span class='md-tag md-tag--warning'>[EMERGING / INNOVATION]</span>: High-growth technologies released or heavily updated recently (≥2025).\n"
-            "- <span class='md-tag md-tag--critical'>[LEGACY / MAINTENANCE]</span>: Proven solutions with no major updates since 2022. Use with caution.\n"
-            "- <span class='md-tag md-tag--primary'>[ARCHITECTURE-GUIDE]</span> / <span class='md-tag md-tag--primary'>[CASE-STUDY]</span>: High-value reading material and use cases.\n\n"
+            "- <span class='md-tag md-tag--critical'>[LEGACY / MAINTENANCE]</span>: Proven solutions with no major updates since 2022. Use with caution.\n\n"
+
+            "### 2. Audience Complexity (Target Level)\n"
+            "- <span class='md-tag md-tag--critical'>[ARCHITECT LEVEL]</span>: High-level reasoning, system design, and long-term trade-offs.\n"
+            "- <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>: Deep technical internals and complex implementations.\n"
+            "- `(Default)`: Intermediate/General technical content for practitioners.\n\n"
+
+            "### 3. Linguistic Diversity (Global Access)\n"
+            "- <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>: High-value resources in Spanish (Blogs, Videos, Guides).\n"
+            "- `(Default)`: Professional technical English.\n\n"
+
+            "### 4. Specialized Resource Types\n"
+            "- <span class='md-tag md-tag--primary'>[CASE STUDY]</span>: Real-world implementation stories and post-mortems.\n"
+            "- <span class='md-tag md-tag--primary'>[GUIDE]</span> / <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>: Official or high-authority technical instructions.\n\n"
             
             "## 🌟 Master Selection (Top-Tier Gems)\n"
             "A global selection of the most impactful resources across all dimensions.\n\n"
