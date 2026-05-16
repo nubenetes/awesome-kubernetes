@@ -268,47 +268,59 @@ graph LR
 
 Nubenetes utilizes a **Performance-First / Cost-Optimized** hybrid model. By prioritizing high-efficiency models (Flash) for bulk processing and elite models (Pro) for complex reasoning, the repository maintains an extremely low financial footprint while delivering enterprise-grade curation.
 
-### 💰 Unit Cost Metrics (Per 1,000 Curated Links)
-The following table breaks down the estimated costs for a standard curation batch (Expansion, Enrichment, and Classification) using Identity A.
+### 📊 Comprehensive Economic Projections (2026 Inception)
+These estimates are based on the current volume of **17,110+ links** in V1 and the high-density **V2 Elite subset**.
 
-| Dimension | Gemini 1.5 Flash (Bulk) | Gemini 1.5 Pro (Elite) | Combined Hybrid (Avg) |
-| :--- | :--- | :--- | :--- |
-| **Token Consumption (Est.)** | 1.2M Input / 0.2M Output | 1.2M Input / 0.2M Output | 1.2M Input / 0.2M Output |
-| **USD Cost ($)** | $0.15 | $7.50 | **$0.85** |
-| **EUR Cost (€)** | €0.14 | €6.90 | **€0.78** |
-| **Performance Tier** | High Speed / Baseline | Ultra Logic / Complex | Nubenetes Default |
+#### 1. Cold-Start / Disaster Recovery (Full Re-curation)
+In the event of a full architectural refresh or cache loss, the system must process all 17,000+ references from scratch.
 
-### 📅 Monthly Curation Projection (2026 Surge Rate)
-Based on the current monthly surge of **~2,200 links**, the operating costs are structured as follows:
+| Scenario | Tier | Avg. Tokens/Link | Total Tokens (17k) | Est. Cost (USD) | Est. Cost (EUR) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Max Quality** | 100% Gemini Pro | 2.2k | 37.6M | **$131.70** | **€121.16** |
+| **Optimized** | **Hybrid (Pro/Flash)** | 2.2k | 37.6M | **$18.50** | **€17.02** |
+| **Economy** | 100% Gemini Flash | 2.2k | 37.6M | **$2.82** | **€2.60** |
 
-| Activity Type | Volume (Links) | Tier | Monthly USD ($) | Monthly EUR (€) |
-| :--- | :---: | :--- | :---: | :---: |
-| **Daily Curation** | 1,800 | Hybrid | $1.53 | €1.41 |
-| **V2 Enrichment** | 400 | Pro Elite | $3.00 | €2.76 |
-| **Health Checks** | 17,000+ | Local Logic | $0.00 | €0.00 |
-| **TOTAL ESTIMATED** | **2,200** | **Identity A** | **$4.53** | **€4.17** |
+#### 2. Standard Pipeline Execution (Incremental)
+Cost per automated workflow run on the `develop` branch.
 
-### 📉 Cost Distribution & Savings Logic
-Nubenetes achieves **>90% cost reduction** compared to full-Pro architectures by utilizing a multi-tier caching and fallback strategy.
+| Execution Type | Frequency | New Links | Model Tier | Cost per Run (USD) |
+| :--- | :--- | :---: | :--- | :---: |
+| **Daily Curation** | 1/day | 25-50 | Flash + Pro | **$0.08** |
+| **Weekly Discovery** | 1/week | 100-200 | Pro Elite | **$0.45** |
+| **Monthly Health Pass** | 2/month | 17,110 | Local Cache | **$0.00** |
+| **V2 Elite Sync** | On demand | 0-100 | Flash (Upgraded) | **$0.02** |
+
+#### 3. Monthly Operational Footprint (OPEX)
+Projected monthly budget for 24/7 autonomous maintenance.
+
+| Monthly Load | Est. Pipelines | Total New Links | Est. Monthly Cost | ROI (Manual vs AI) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Standard** | 35 | 1,200 | **$4.85** | ~160 hrs saved |
+| **Aggressive Surge** | 60 | 3,500 | **$12.30** | ~450 hrs saved |
+| **Maintenance** | 10 | 100 | **$0.55** | ~20 hrs saved |
+
+### 📉 Efficiency & Performance Metrics
+Nubenetes achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.
 
 ```mermaid
-pie title AI Curation Cost Distribution (Identity A)
-    "Pro Reasoning (Complex Classification)" : 65
-    "Flash Processing (Bulk Ingestion)" : 20
-    "Subscription Deductibles (Free Quota)" : 15
+pie title AI Curation Cost Distribution (Standard Monthly)
+    "Elite Reasoning (Pro Tier)" : 75
+    "Bulk Enrichment (Flash Tier)" : 15
+    "Infrastructure Overhead" : 10
 ```
 
 ```mermaid
-pie title Operational Efficiency (Processed Volume vs Cost)
-    "Local Heuristics (Zero Cost)" : 70
-    "AI Caching (Zero Cost)" : 20
-    "Paid Inference (Identity A)" : 10
+pie title Processing Strategy (By Link Volume)
+    "Local Metadata (Zero Cost)" : 65
+    "Cached AI Insights (Zero Cost)" : 25
+    "New AI Inference (Identity A)" : 10
 ```
 
 ### 🧠 Economic Sustainability Principles
-1.  **Subscription Leverage**: The project utilizes the **Gemini Pro Subscription ($20/mo)** which provides significant free-tier quotas. The **Pay-as-you-go** charges only apply after these "High-Priority" quotas are exhausted.
-2.  **The Cache Dividend**: Every link curated is stored in `data/v2_cache.json`. This means that as the repository grows, the *marginal cost of re-generating the site* drops to near-zero.
-3.  **Local Intelligence**: Before calling an AI model, the system uses regex and local heuristic filters (Health Checker) to eliminate "dead air" traffic, ensuring that we only pay for high-value reasoning.
+1.  **Identity Rotation (Identity A/B)**: The project rotates between Pay-as-you-go keys and Subscription-based quotas (Identity A) to maximize "Free Tier" utilization before incurring direct costs.
+2.  **The Cache Dividend**: Every link curated is stored in `data/inventory.yaml`. As the database matures, the *marginal cost of maintaining the archive* drops asymptotically toward $0 per link.
+3.  **TPM/RPM Optimization**: By using a **Global Semaphore (max 5 concurrent calls)**, we prevent hitting rate limits that would trigger expensive retry loops or backoff delays, maintaining a "high-velocity, low-cost" data pipeline.
+4.  **Quality-based Upgrading**: We only pay for Pro reasoning when Flash fails a quality check (JSON validation). This ensure we don't overpay for "simple" metadata extraction while never compromising the integrity of the archive.
 
 ---
 
