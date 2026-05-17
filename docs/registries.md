@@ -87,7 +87,7 @@
 #### Add Insecure Registry to Docker
 
 - [Test an insecure registry 🌟](https://docs.docker.com/registry/insecure/)
-- [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry)
+- [Configure Docker Service To Use Insecure Registry](https://github.com/juniper/contrail-docker)
 - [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159)
 
 ### Jenkins Integration with Nexus
