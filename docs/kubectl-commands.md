@@ -138,7 +138,7 @@ kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
 kubectl get configmap --namespace=<source> <configmap> --export -o yaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest> -f -
 ```
 
-- [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes/pull/73787). Instead following command can be used:
+- [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes). Instead following command can be used:
 
 ```bash
 kubectl get configmap <configmap-name> --namespace=<source-namespace> -o yaml | sed ‘s/namespace: <from-namespace>/namespace: <to-namespace>/’ | kubectl create -f
