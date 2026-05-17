@@ -380,12 +380,14 @@ class IntelligentLinkCleaner:
 
         # 1. Fetch content for all links in parallel
         content_tasks = [_deep_fetch_content(url) for url in urls]
-        contents = await asyncio.gather(*content_tasks)
+        results_fetch = await asyncio.gather(*content_tasks)
         
         valid_data = []
-        for url, text in zip(urls, contents):
+        rich_metas = {} # {url: meta}
+        for url, (text, rich_meta) in zip(urls, results_fetch):
             if text:
                 valid_data.append({"url": url, "content": text[:1200]})
+                rich_metas[url] = rich_meta
         
         if not valid_data: return
 
@@ -397,24 +399,30 @@ class IntelligentLinkCleaner:
                 "3. LANGUAGE: Source language (e.g., 'English', 'Spanish').\n"
                 "4. TYPE: (Blog, Repository, Video, Tool, Guide, Case Study).\n"
                 "5. LEVEL: (Beginner, Intermediate, Advanced, Architect).\n"
-                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\"}, ...]\n\n"
+                "6. AUTHOR: Technical creator name if identifiable.\n"
+                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"author\": \"...\"}, ...]\n\n"
                 "RESOURCES:\n" + "\n".join([f"- {d['url']}: {d['content']}" for d in valid_data])
             )
             
             try:
-                results = await call_gemini_with_retry(prompt, prefer_flash=True)
-                if isinstance(results, list):
-                    for res in results:
+                ai_results = await call_gemini_with_retry(prompt, prefer_flash=True)
+                if isinstance(ai_results, list):
+                    for res in ai_results:
                         url = res.get("url")
                         if not url: continue
                         norm_url = normalize_url(url)
                         if norm_url in self.inventory:
+                            # Merge Rich Meta (from fetch) with AI Meta
+                            meta = rich_metas.get(url, {})
                             self.inventory[norm_url].update({
                                 "ai_summary": res.get("desc", "").strip(),
                                 "pub_date": str(res.get("year", "N/A")),
                                 "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"),
-                                "complexity": res.get("level", "Intermediate")
+                                "complexity": res.get("level", "Intermediate"),
+                                "author": res.get("author") or meta.get("author", ""),
+                                "duration": meta.get("duration", ""),
+                                "reading_time": meta.get("reading_time", "")
                             })
                             self.stats["enriched_descriptions"] += 1
                             log_event(f"    [OK] Enriched: {url} ({res.get('language', 'English')})")
