@@ -175,7 +175,7 @@
 
 ## CI/CD with Kubernetes
   - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254) - *(Related to azure topic)*
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) - *(Related to iac topic)*
+  - [Azure Landing Zone IaC Accelerator](https://github.com/azure/azure-landing-zones/) - *(Related to iac topic)*
 
 - [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
 - [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai/)
@@ -207,13 +207,12 @@
 
 ## Tools
   - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI) - *(Related to terraform topic)*
-  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) - *(Related to argo topic)*
+  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd) - *(Related to argo topic)*
   - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - *(Related to ai topic)*
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) - *(Related to terraform topic)*
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using/) - *(Related to cloud-arch-diagrams topic)*
   - [Buildbot](https://t.co/qXtIPX5eF6) - Buildbot is an open-source Python-based framework for automating software build, test, and release processes. It facilitates continuous integration and continuous delivery pipelines.
   - [PMEase QuickBuild](https://www.pmease.com/) - QuickBuild is a flexible continuous integration and continuous deployment (CI/CD) server designed for DevOps teams. It offers features like build promotion, integration with LDAP, and support for various build customization options. Version 16.0 includes updates for Java LTS, improved build subscriptions, artifact reservation, and API enhancements.
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - A CI/CD pipeline for GitHub projects using GitHub Actions, Argo CD for GitOps, and FluxCD.
   - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh/) - *(Related to kubernetes-tools topic)*
   - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - *(Related to azure topic)*
   - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview/) - *(Related to ai topic)*
