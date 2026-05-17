@@ -30,10 +30,10 @@
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
 - [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/)
 - [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
-- [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/7-most-in-demand-and-high-paying-programming-jobs/)
+- [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/blogs/7-most-in-demand-and-high-paying-programming-jobs//)
 - [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/)
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
-- [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
+- [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
 - [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
 - https://suckless.org/philosophy software that sucks less
 - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
@@ -44,7 +44,7 @@
 - [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) Full stack developers are in high demand in today's job market. But what does "full stack" actually mean, and what skills do you need to have? In this detailed guide, Dionysia explains what a full stack dev is, and what you should learn to become one.
 - [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)
 - [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff)
-- [trio.dev: Angular vs React: Is Angular Dead?](https://www.trio.dev/react/resources/angular-vs-react)
+- [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react/)
 - [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook/)
 
 ## Design Patterns
@@ -61,7 +61,7 @@
 
 ## Documentation Driven Development (DDD)
 
-- [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem)
+- [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)
 
 ## Developer Tools
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) - *(Related to kubernetes-tutorials topic)*
@@ -82,7 +82,7 @@
 
 ### Ballerina
 
-- [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api/)
+- [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api//)
 
 ### Red Hat Software Collections and Red Hat Developer Toolset
 
@@ -108,10 +108,10 @@
 
 ## AI Programming
 
-- [GitHub Copilot](https://copilot.github.com/)
-- [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
-- [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/2024/03/devin-inteligencia-artificial-programa-software)
+- [GitHub Copilot](https://github.com/copilot//)
+- [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler//)
+- [Amazon CodeWhisperer](https://aws.amazon.com/q/developer//) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
+- [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/tecnologia/devin-inteligencia-artificial-programa-software/)
 
 ## No code tools
 
