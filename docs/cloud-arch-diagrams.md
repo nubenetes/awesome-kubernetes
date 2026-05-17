@@ -49,14 +49,14 @@
 - [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now/)
 - [Google Cloud Architecture Icons](https://cloud.google.com/icons)
 - [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) A collection of cloud security icons ☁️🔒
-- [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/master/icons) These icons are a way to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandability
+- [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community) These icons are a way to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandability
 
 ## AWS
   - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot](https://github.com/Azure/AZVerify) - *(Related to azure topic)*
   - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-app-service) - *(Related to azure topic)*
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) - *(Related to azure topic)*
   - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) - *(Related to azure topic)*
-  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones/) - *(Related to azure topic)*
+  - [Azure Landing Zone Technical Documentation](https://github.com/azure/azure-landing-zones/) - *(Related to azure topic)*
   - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone/) - *(Related to azure topic)*
   - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) - *(Related to azure topic)*
 
