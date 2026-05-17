@@ -88,14 +88,14 @@ In a market often driven by "Resume Driven Development" and calculated ambiguiti
 
 Nubenetes is one of the most comprehensive archives in the ecosystem, featuring tens of thousands of links organized by granular categories.
 
-### 2.1. The "Heart" of Nubenetes (Stats as of 2026-05-16)
+### 2.1. The "Heart" of Nubenetes (Stats as of 2026-05-17)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **17109+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4143+** |
+| **Total Commits** | **4190+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -132,7 +132,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 584 | 2,411 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 631 | 2,606 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 #### 2026: The Agentic Monthly Surge
@@ -140,7 +140,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 557 | 2,300 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 606 | 2,502 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -153,14 +153,14 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Kubernetes Ecosystem" : 3500
-    "Developer Ecosystem" : 3000
-    "Public/Private Cloud" : 2500
-    "CI/CD and GitOps" : 2200
-    "Others (Specialized)" : 2733
-    "Infra as Code" : 1200
-    "SRE and Observability" : 1000
-    "Security and DevSecOps" : 1000
+    "Kubernetes Ecosystem" : 3034
+    "Developer Ecosystem" : 1121
+    "Public/Private Cloud" : 1298
+    "CI/CD and GitOps" : 1094
+    "Infra as Code" : 997
+    "SRE and Observability" : 781
+    "Security and DevSecOps" : 505
+    "Others (Specialized)" : 8023
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -174,14 +174,14 @@ To better understand the "Others" category, we break down the specialized techni
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Deep Dive: Specialized Sub-ecosystems
-    "Databases (SQL/NoSQL)" : 600
+    "Databases (SQL/NoSQL)" : 339
+    "AI and Agentic Systems" : 143
     "Demos and Boilerplates" : 538
-    "AI and Agentic Systems" : 450
-    "Web Servers and Runtimes" : 400
+    "Web Servers and Runtimes" : 99
     "Message Queues and Data" : 336
-    "Career and Recruitment" : 250
+    "Career and Recruitment" : 142
     "Linux and OS Hardening" : 265
-    "Others (100+ Topics)" : 1161
+    "Others (100+ Topics)" : 14991
 ```
 <!-- SUB_ECO_CHART_END -->
 
