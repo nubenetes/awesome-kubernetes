@@ -4,97 +4,100 @@ import subprocess
 import yaml
 from datetime import datetime
 
-# Grouping definitions for Major Pillars
-PILLARS = {
-    "Kubernetes Ecosystem": ["kubernetes", "kubernetes-tools", "kubernetes-security", "kubernetes-networking", "kubernetes-monitoring", "kubernetes-storage", "kubernetes-operators-controllers", "kubernetes-autoscaling", "kubectl-commands"],
-    "Developer Ecosystem": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "react", "angular", "dotnet", "api", "linux-dev-env"],
-    "Public/Private Cloud": ["aws", "azure", "GoogleCloudPlatform", "openshift", "rancher", "digitalocean", "managed-kubernetes-in-public-cloud"],
-    "CI/CD and GitOps": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives"],
-    "Infra as Code": ["iac", "terraform", "pulumi", "crossplane", "ansible"],
-    "SRE and Observability": ["sre", "monitoring", "grafana", "prometheus", "chaos-engineering"],
-    "Security and DevSecOps": ["securityascode", "devsecops", "oauth"]
-}
+# Unified Path Config
+INVENTORY_PATH = "data/inventory.yaml"
+V1_DIR = "docs"
+V2_DIR = "v2-docs"
 
 def run_command(cmd):
     try:
         return subprocess.check_output(cmd, shell=True).decode('utf-8').strip()
     except: return "0"
 
+def clean_text(text: str) -> str:
+    """Strips emojis and ampersands for README compatibility."""
+    if not text: return ""
+    text = text.replace("&", "and")
+    text = re.sub(r'[\U00010000-\U0010ffff]', '', text) # Strip emojis
+    return text.strip()
+
 def get_stats():
-    # 1. Total Links
-    total_links = run_command("grep -oP '\\[.*?\\]\\(http.*?\\)' docs/*.md | wc -l")
-    
-    # 2. MD Pages
-    md_pages = run_command("ls docs/*.md | wc -l")
-    
-    # 3. Total Commits
+    # 1. Load Inventory (The Source of Truth)
+    inventory = {}
+    if os.path.exists(INVENTORY_PATH):
+        try:
+            with open(INVENTORY_PATH, "r") as f:
+                inventory = yaml.safe_load(f) or {}
+        except: pass
+
+    # 2. Basic Metrics
+    total_links = len([u for u in inventory.keys() if not u.startswith("INTRO:")])
+    md_pages = len([f for f in os.listdir(V1_DIR) if f.endswith(".md")])
     total_commits = run_command("git rev-list --count HEAD")
     
-    # 4. Density Map (All categories)
+    # 3. Density Map (Links per category)
     category_counts = {}
-    files = [f for f in os.listdir("docs") if f.endswith(".md") and f != "index.md"]
-    for f in files:
-        count = int(run_command(f"grep -oP '\\[.*?\\]\\(http.*?\\)' docs/{f} | wc -l"))
-        name = f.replace(".md", "")
-        category_counts[name] = count
+    for url, meta in inventory.items():
+        if url.startswith("INTRO:"): continue
+        cat = meta.get("category", "uncategorized")
+        category_counts[cat] = category_counts.get(cat, 0) + 1
 
-    # Sort for Top 10 Table
+    # Top 10 Table
     top_10 = sorted(category_counts.items(), key=lambda x: x[1], reverse=True)[:10]
     top_categories_rows = []
     for name, count in top_10:
-        display_name = name.replace('-', ' ').title()
+        display_name = clean_text(name.replace('-', ' ').title())
         top_categories_rows.append(f"| [{display_name}](docs/{name}.md) | {count} |")
 
-    # 5. Major Pillars Chart
-    pillar_totals = {k: 0 for k in PILLARS.keys()}
-    pillar_totals["Others (Specialized)"] = 0
-    assigned_cats = []
-    for p_name, cats in PILLARS.items():
-        for c in cats:
-            pillar_totals[p_name] += category_counts.get(c, 0)
-            assigned_cats.append(c)
+    # 4. Strategic Dimension Mapping (Sync with V2 Optimizer)
+    DIMENSIONS = {
+        "AI and Artificial Intelligence": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+        "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
+        "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
+        "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],
+        "Cloud Providers": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "scaleway", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "private-cloud-solutions", "edge-computing"],
+        "Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp3", "ocp4", "noops"],
+        "Data & Analytics": ["databases", "nosql", "newsql", "message-queue", "crunchydata", "yaml", "bigdata"],
+        "Engineering Pipeline": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives", "openshift-pipelines", "sonarqube", "registries", "keptn", "stackstorm", "cicd-kubernetes-plugins"]
+    }
+
+    pillar_totals = {k: 0 for k in DIMENSIONS.keys()}
+    pillar_totals["Specialized Topics"] = 0
+    assigned_cats = [c for sublist in DIMENSIONS.values() for c in sublist]
     
     for c, count in category_counts.items():
-        if c not in assigned_cats:
-            pillar_totals["Others (Specialized)"] += count
+        found = False
+        for p_name, cats in DIMENSIONS.items():
+            if c in cats:
+                pillar_totals[p_name] += count
+                found = True; break
+        if not found:
+            pillar_totals["Specialized Topics"] += count
 
     pillar_chart = "pie title Nubenetes Major Ecosystem Pillars\n"
-    for p, val in pillar_totals.items():
+    for p, val in sorted(pillar_totals.items(), key=lambda x: x[1], reverse=True):
         if val > 0: pillar_chart += f"    \"{p}\" : {val}\n"
 
-    # 6. Specialized Sub-ecosystems Chart
-    sub_ecosystems = {
-        "Databases (SQL/NoSQL)": ["databases", "nosql", "newsql", "crunchydata", "liquibase"],
-        "AI and Agentic Systems": ["ai", "ai-agents-mcp", "chatgpt"],
-        "Demos and Boilerplates": ["demos"],
-        "Web Servers and Runtimes": ["web-servers", "caching", "java_app_servers"],
-        "Message Queues and Data": ["message-queue", "bigdata"],
-        "Career and Recruitment": ["recruitment", "hr", "freelancing", "remote-tech-jobs"],
-        "Linux and OS Hardening": ["linux"]
-    }
-    sub_totals = {k: 0 for k in sub_ecosystems.keys()}
-    sub_assigned = []
-    for s_name, cats in sub_ecosystems.items():
-        for c in cats:
-            sub_totals[s_name] += category_counts.get(c, 0)
-            sub_assigned.append(c)
+    # 5. Language Diversity (Mandate 10)
+    lang_counts = {}
+    for url, meta in inventory.items():
+        if url.startswith("INTRO:"): continue
+        lang = meta.get("language", "English")
+        lang_counts[lang] = lang_counts.get(lang, 0) + 1
     
-    # Calculate "Others" for sub-chart (relative to assigned cats)
-    sub_totals["Others (100+ Topics)"] = sum(category_counts.values()) - sum(sub_totals.values())
+    lang_chart = "pie title Linguistic Diversity (Global Access)\n"
+    for lang, val in sorted(lang_counts.items(), key=lambda x: x[1], reverse=True)[:6]:
+        lang_chart += f"    \"{lang}\" : {val}\n"
 
-    sub_chart = "pie title Deep Dive: Specialized Sub-ecosystems\n"
-    for s, val in sub_totals.items():
-        if val > 0: sub_chart += f"    \"{s}\" : {val}\n"
-
-    # 7. Annual Growth
+    # 6. Annual Growth
     annual_raw = run_command("git log --format='%ad' --date=format:'%Y' | sort | uniq -c")
     annual_rows = []
     milestones = {
         "2018": "**Munich Era (BMW IT-Zentrum)**",
         "2019": "Early Growth & Open Source Launch",
-        "2020": "**The Great Expansion** (Global Lockdowns)",
-        "2021": "Maturity & Industry Standardization",
-        "2022": "Cloud Native Hardening & GitOps Era",
+        "2020": "**The Great Expansion**",
+        "2021": "Maturity & Standardization",
+        "2022": "Cloud Native Hardening",
         "2023": "Maintenance & Refinement",
         "2024": "Curation Strategy Pivot",
         "2025": "Stability & Research Phase",
@@ -109,7 +112,7 @@ def get_stats():
                 milestone = milestones.get(year, "Continuing Evolution")
                 annual_rows.append(f"| {year} | {count} | {est_refs:,} | {milestone} |")
 
-    # 8. Monthly Surge (2026)
+    # 7. Monthly Surge (2026)
     monthly_raw = run_command("git log --format='%ad' --date=format:'%Y-%m' | grep '2026' | sort | uniq -c")
     monthly_rows = []
     for line in monthly_raw.split('\n'):
@@ -127,7 +130,7 @@ def get_stats():
         "total_commits": total_commits,
         "top_categories": "\n".join(top_categories_rows),
         "pillar_chart": pillar_chart,
-        "sub_chart": sub_chart,
+        "lang_chart": lang_chart,
         "annual_rows": "\n".join(annual_rows),
         "monthly_rows": "\n".join(monthly_rows),
         "last_update": datetime.now().strftime("%Y-%m-%d")
@@ -175,10 +178,10 @@ def update_readme(stats):
         flags=re.DOTALL
     )
 
-    # Update Sub Ecosystem Chart
+    # Replace specialized sub-chart with Language Chart (More useful for 2026)
     content = re.sub(
-        r"```mermaid\npie title Deep Dive: Specialized Sub-ecosystems\n.*?```",
-        f"```mermaid\n{stats['sub_chart']}```",
+        r"#### 2. Deep Dive: Specialized Sub-ecosystems\nTo better.*?\n\n```mermaid\npie title Deep Dive: Specialized Sub-ecosystems\n.*?```",
+        f"#### 2. Global Linguistic Diversity\nReflecting Nubenetes' mission of global access while maintaining technical English as the primary interface.\n\n```mermaid\n{stats['lang_chart']}```",
         content,
         flags=re.DOTALL
     )
@@ -205,4 +208,4 @@ def update_readme(stats):
 if __name__ == "__main__":
     stats = get_stats()
     update_readme(stats)
-    print(f"README.md updated successfully with latest metrics (Links: {stats['total_links']}).")
+    print(f"README.md updated successfully with database-driven metrics.")
