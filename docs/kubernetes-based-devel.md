@@ -23,7 +23,7 @@
 ## Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s
 
 - [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
-    - [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html)
+    - [murchie85.github.io: Installling minikube](https://github.com/murchie85/kubernetes.html)
     - [itnext.io: How to experiment locally on Kubernetes with minikube and your local Dockerfiles](https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your-local-dockerfiles-48833fcd90c9)
     - [nfrankel.medium.com: Goodbye minikube](https://nfrankel.medium.com/goodbye-minikube-340070edc5af) I’ve been using minikube as my local cluster since I started to learn Kubernetes. But I’ve decided to let it go in favor of kind. Here’s the story.
     - [linux.com: Getting Started With Kubernetes Is Easy With Minikube](https://www.linux.com/audience/devops/getting-started-kubernetes-easy-minikube/)
@@ -167,7 +167,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### K8Studio
 
-- [kubeshop.github.io/monokle](https://kubeshop.github.io/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
+- [kubeshop.github.io/monokle](https://github.com/kubeshop/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
 - [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide/) K8studio vs Lens and K9s, probably the best tool to manage kubernetes
 
 ### Lens and OpenLens Kubernetes IDE
