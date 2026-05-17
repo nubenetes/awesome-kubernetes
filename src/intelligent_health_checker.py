@@ -86,12 +86,27 @@ class IntelligentLinkCleaner:
         nu = normalize_url(url); entry = self.inventory.get(nu, {})
         alive, reason, final = await self._check_url_logic(url)
         
-        # Update Health Score
+        # 1. Update Health Score
         score = entry.get("health_score", 100)
         score = (score * 0.8) + (100 if alive else 0) * 0.2
         entry["health_score"] = round(score, 1)
         entry["last_checked"] = datetime.now().timestamp()
         
+        # 2. Semantic Drift Detection (SHA256)
+        if alive:
+            from src.agentic_curator import _deep_fetch_content
+            import hashlib
+            text, _ = await _deep_fetch_content(url)
+            new_hash = hashlib.sha256(text.encode()).hexdigest() if text else "N/A"
+            old_hash = entry.get("content_hash", "N/A")
+            
+            if old_hash != "N/A" and new_hash != old_hash:
+                log_event(f"  [!] DRIFT DETECTED: {url} (Content changed). Marking for re-evaluation.")
+                entry["needs_ai_refresh"] = True
+                entry["content_hash"] = new_hash
+            elif old_hash == "N/A":
+                entry["content_hash"] = new_hash
+
         if not alive and score < 20: 
             entry["status"] = "dead"; self.dead_links[url] = (None, reason)
         elif final and alive:

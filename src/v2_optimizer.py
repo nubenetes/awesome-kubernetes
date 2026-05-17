@@ -165,18 +165,32 @@ class V2VisionEngine:
             item = l.copy()
             norm_url = normalize_url(l["url"])
             
-            # Identify Project Signature
+            # Identify Project Signature (Semantic Dedup)
             project_id = norm_url
             if "github.com" in norm_url:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                 if match: project_id = match.group(1).lower()
-
+            
+            # --- MANDATE 23: AUTHORITATIVE ROOT ---
+            # If it's a domain root (prometheus.io) vs a repo (github.com/p/p)
+            # The AI will decide later, but we pre-group here.
+            
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
                 item.update(cached)
                 if cached.get("hierarchy"):
-                    if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
+                    # Mandate 23: Authoritative Merge
+                    if project_id not in project_registry:
                         project_registry[project_id] = item
+                    else:
+                        # Prefer root domains or higher stars
+                        existing = project_registry[project_id]
+                        is_current_root = "github.com" not in norm_url
+                        if is_current_root or item.get("stars", 0) > existing.get("stars", 0):
+                            item.setdefault("aliases", []).append(existing["url"])
+                            project_registry[project_id] = item
+                        else:
+                            existing.setdefault("aliases", []).append(url)
                     continue
             to_evaluate.append(item)
 
