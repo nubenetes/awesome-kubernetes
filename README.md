@@ -659,28 +659,62 @@ Specifically optimized for core maintainers (e.g., **Chromebook Plus**):
 
 ## 13. Repository Inventory and Configuration
 
+To maintain transparency and ease of navigation, all key configuration, database, and workflow files are inventoried below.
+
 ### 13.1. Core Configuration
-- [Link Rules](data/link_rules.yaml), [Curation Sources](data/curation_sources.yaml), [Special Assets](data/special_assets.yaml).
-- Site Config: [V1 (mkdocs.yml)](mkdocs.yml), [V2 (v2-mkdocs.yml)](v2-mkdocs.yml).
+- **Link Rules:** [`data/link_rules.yaml`](data/link_rules.yaml) - Defines strictness for URL transformations and deep-link preservation.
+- **Curation Sources:** [`data/curation_sources.yaml`](data/curation_sources.yaml) - Defines monitored X.com accounts and technical topics.
+- **Site Config (V1):** [`mkdocs.yml`](mkdocs.yml) - Primary MkDocs configuration for the exhaustive archive.
+- **Site Config (V2):** [`v2-mkdocs.yml`](v2-mkdocs.yml) - MkDocs configuration for the Agentic Elite portal.
 
 ### 13.2. Centralized Metadata Databases
-- [Global Inventory (data/inventory.yaml)](data/inventory.yaml): The "System Memory".
+- **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions, and audit history).
 
 ### 13.3. Autonomous Workflows
-- [Discovery](.github/workflows/agentic_cron.yml), [V2 Builder](.github/workflows/agentic_v2_builder.yml), [Health](.github/workflows/intelligent_link_cleaner.yml), [README Sync](.github/workflows/readme_sync.yml), [Deploy](.github/workflows/main.yml).
+- **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
+- **V2 Elite Builder:** [`.github/workflows/agentic_v2_builder.yml`](.github/workflows/agentic_v2_builder.yml)
+- **Health & Maintenance:** [`.github/workflows/intelligent_link_cleaner.yml`](.github/workflows/intelligent_link_cleaner.yml)
+- **README Metrics Sync:** [`.github/workflows/readme_sync.yml`](.github/workflows/readme_sync.yml)
+- **Deployment Pipeline:** [`.github/workflows/main.yml`](.github/workflows/main.yml)
 
 ### 13.4. Agentic AI Source Code
-- [Curator](src/agentic_curator.py), [Optimizer](src/v2_optimizer.py), [Health Checker](src/intelligent_health_checker.py), [Orchestrator](src/main.py).
+- **Orchestration Core:** [`src/main.py`](src/main.py) - Master coordinator for discovery and evaluation.
+- **Curator Logic:** [`src/agentic_curator.py`](src/agentic_curator.py) - Primary classification and description engine.
+- **V2 Vision Engine:** [`src/v2_optimizer.py`](src/v2_optimizer.py) - Elite portal generation and maturity scoring.
+- **Health Check Logic:** [`src/intelligent_health_checker.py`](src/intelligent_health_checker.py) - Link rot prevention and canonical updates.
+- **Twikit Ingestion:** [`src/ingestion_twikit.py`](src/ingestion_twikit.py) - X.com scraping and account rotation logic.
+- **Backup Ingestion:** [`src/ingestion_backup.py`](src/ingestion_backup.py) - Manual and historical JSON data processing.
+- **Discovery Engine:** [`src/autonomous_discovery.py`](src/autonomous_discovery.py) - Multi-source technical news extraction.
+- **Gemini Utils:** [`src/gemini_utils.py`](src/gemini_utils.py) - AI model discovery, rate limiting, and session tracking.
+- **Markdown Logic:** [`src/markdown_ast.py`](src/markdown_ast.py) - Sophisticated parsing of repository content.
+- **Observability:** [`src/logger.py`](src/logger.py) | [`src/report_generator.py`](src/report_generator.py) - Execution transparency and visual reporting.
 
 ---
 
 ## 14. Special Assets and Learning Paths
 
-### 14.1. Special Assets Management
-Certain files (Introduction, YAML, Awesome repos) are designated as **Special Assets** ([`data/special_assets.yaml`](data/special_assets.yaml)) due to their foundational importance. AI agents use recursive nested hierarchies (up to 10 levels) to organize them following an O'Reilly-style structure.
+Nubenetes prioritizes high-value technical documents through a specialized preservation and educational architecture.
 
-### 14.2. O.Reilly-style Knowledge Architecture
-The V2 Portal is a technical reference guide with **Architectural Hubs** (Mermaid maps), **Gold Nugget Highlights** (Impact ≥ 4), and a **Microservices Guide** extracted for focus.
+### 14.1. Special Assets Management
+Certain files (Introduction, YAML, Awesome repos) are designated as **Special Assets** (defined in [`data/special_assets.yaml`](data/special_assets.yaml)) due to their foundational importance. These include:
+- **Introduction and Fundamentals**: High-impact fundamental selection for V2, with 100% preservation in V1.
+- **Microservices Ecosystem**: A dedicated V2 document (`microservices.md`) extracted from the introduction to maintain architectural focus.
+- **YAML and JSON Ecosystem**: Exhaustive technical references for configuration languages.
+- **Awesome Repositories**: Preserved curation lists that act as gateways to specialized sub-ecosystems.
+
+**Rules of Engagement:**
+1. **High-Precision Grouping**: AI agents use **recursive nested hierarchies** (up to 10 levels) to organize these files without losing any technically valid reference, following a **Professional Technical Book** (O'Reilly style) structure.
+2. **Elite Curation**: For the V2 Portal, `introduction.md` undergoes a specialized "Elite selection" (Impact ≥ 4) to ensure a high-density entry point for global users.
+
+### 14.2. O'Reilly-style Knowledge Architecture
+The V2 Portal is structured as a sophisticated technical reference guide, moving beyond simple lists to an integrated technical hub.
+- **Architectural Hubs**: Critical entry points like `introduction.md` feature **Mermaid ecosystem maps** and executive vision prefaces.
+- **Gold Nugget Highlights**: Legendary foundational masterclasses (Impact ≥ 4) are featured in distinct visual callout blocks for immediate identification.
+- **Gateway Hub Navigation**: Strategic dimensions are semantically interconnected, with a dedicated **Microservices Guide** extracted for high-density focus.
+- **Structured Assimilation**: Information is grouped into technical Areas, Topics, and Subtopics, facilitating learning from foundational theory to advanced engineering internals.
+- **Contextual Hierarchy**: Every page features an automated, clickable Table of Contents (TOC) with nested anchors for precise technical navigation.
 
 ### 14.3. TOC and Structural Exceptions
-Exemptions for configuration files or technical tables are managed via `toc_exempt_files` in [`data/link_rules.yaml`](data/link_rules.yaml).
+Certain files are exempt from the mandatory Table of Contents (TOC) and deep-hierarchy requirements. These include configuration-heavy files (e.g., `mkdocs.md`) and large technical tables (e.g., `matrix-table.md`) where a navigational index is unnecessary or distracting.
+- **Automatic Skip**: The Agentic Curator and V2 Builder automatically bypass these files during structural reorganization cycles.
+- **Exception Registry**: Exemptions are managed via the `toc_exempt_files` list in [`data/link_rules.yaml`](data/link_rules.yaml).
