@@ -147,21 +147,28 @@ class IntelligentLinkCleaner:
         """
         Uses Gemini to identify the new home of a technical resource.
         Universal application for all links (Mandate 31).
+        Supports cross-domain migrations (e.g. Corporate Blog -> Personal Blog).
         """
         if not title: return None
         prompt = (
             f"You act as a Technical Librarian. The resource '{title}' was at '{old_url}'.\n"
-            "The site has migrated or restructured. Identify the NEW specific URL for this technical content.\n"
-            "Search for the direct equivalent, not a home page.\n"
+            "The site has migrated, restructured, or the content has moved to a new domain (e.g. from a corporate blog to a personal one).\n"
+            "Identify the NEW specific URL for this technical content. It must lead to the same article or its direct technical equivalent.\n"
             "Return ONLY the raw URL. If not found, return 'NONE'."
         )
         try:
             async with self.ai_semaphore:
+                # Use Pro for high-fidelity web knowledge
                 new_url = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=False)
-                if new_url and new_url.startswith("http") and normalize_url(new_url) != normalize_url(old_url):
-                    async with httpx.AsyncClient(timeout=10, follow_redirects=True) as client:
-                        resp = await client.get(new_url)
-                        if resp.status_code < 400: return new_url
+                if new_url and new_url.startswith("http") and "NONE" not in new_url.upper():
+                    # Strip quotes or extra text if AI failed to follow "ONLY URL"
+                    new_url = re.search(r'(https?://[^\s\"\'\>]+)', new_url)
+                    if new_url:
+                        new_url = new_url.group(1)
+                        if normalize_url(new_url) != normalize_url(old_url):
+                            async with httpx.AsyncClient(timeout=10, follow_redirects=True, verify=False) as client:
+                                resp = await client.get(new_url)
+                                if resp.status_code < 400: return new_url
         except: pass
         return None
 

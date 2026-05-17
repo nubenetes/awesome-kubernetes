@@ -73,9 +73,10 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Mid-Quarter Critical Pulse**: High-priority assets (`[DE FACTO STANDARD]` and `[ENTERPRISE-STABLE]`) are verified every 3 months, offset from the full scan.
     - **Quarterly Exhaustive Scan**: The complete 17,000+ link archive undergoes a full health audit every 3 months (Jan, Apr, Jul, Oct).
     - **Margin for Review**: Workflows are orchestrated to ensure at least 45 days between a full scan and a critical pulse, allowing ample time for manual review and safety checks.
-26. **Dynamic AI Model Discovery**: To remain at the cutting edge and ensure system stability, all agents MUST use the dynamic model discovery engine.
+26. **Dynamic AI Model Discovery & Resilient Back-off**: To remain at the cutting edge and ensure system stability:
     - **Live Discovery**: Query the `models.list` API at runtime to identify actually available models for each key.
     - **Scoring & Ranking**: Prioritize models using the established 2026 hierarchy (Generation 3.x > 2.x > 1.x; Pro > Flash).
+    - **Tier-Down & Back-off Strategy**: When executing high-precision tasks (like the Rescue Protocol), agents MUST implement an automatic "tier-down" logic (e.g., backing off from Pro models upon 429 errors) to ensure workflow continuity without data loss.
     - **Resilient Fallback**: Automatically transition between models and API keys upon encountering 404 (Unsupported) or 429 (Rate Limit) errors.
 
 27. **Special Assets Management (V1 & V2)**: High-value files defined in [`data/special_assets.yaml`](data/special_assets.yaml) require specialized handling:
