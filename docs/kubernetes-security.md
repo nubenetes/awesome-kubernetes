@@ -42,7 +42,7 @@
     - [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
     - [nirmata.com: Auto-labeling Kubernetes resources with Kyverno](https://nirmata.com/2020/10/30/auto-labeling-kubernetes-resources-with-kyverno)
 - [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
-- [Kubernetes Security Best Practices 🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
+- [Kubernetes Security Best Practices 🌟](https://github.com/freach/kubernetes-security-best-practice#firewall-ports-fire)
 - [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
 - [Microsoft.com: Attack matrix for Kubernetes 🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
 - [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
@@ -73,7 +73,7 @@
 - [helpnetsecurity.com: Kubestriker: A security auditing tool for Kubernetes clusters 🌟](https://www.helpnetsecurity.com/2021/05/04/security-kubernetes/) Kubestriker is an open-source, platform-agnostic tool for identifying security misconfigurations in Kubernetes clusters.
 - [Kubernetes Goat 🌟](https://madhuakula.com/kubernetes-goat) is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
 - [itnext.io: How-To: Kubernetes Cluster Network Security 🌟](https://itnext.io/how-to-kubernetes-cluster-network-security-f19bc99161f5)
-- [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb)
+- [gist.github.com: How to protect your ~/.kube/ configuration](https://github.com/patrlind/e651d3cbc3bf68e4bd9fcc9568cbd3fb)
 - [levelup.gitconnected.com: Enforce Audit Policy in Kubernetes (k8s)](https://levelup.gitconnected.com/enforce-audit-policy-in-kubernetes-k8s-34e504733300)
 - [snyk.io: 10 Kubernetes Security Context settings you should understand](https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understand/)
 - [magalix.com: Top 8 Kubernetes Security Best Practices 🌟](https://www.magalix.com/blog/top-8-kubernetes-security-best-practices)
@@ -186,7 +186,7 @@
     - [k21academy.com: Secure and Harden Kubernetes, AKS and EKS Cluster with kube-bench, kube-hunter and CIS Benchmarks 🌟](https://k21academy.com/docker-kubernetes/kubernetes-security/kube-bench-cis/)
 - [==aninditabasak.medium.com: A Lap around Kubernetes Security & Vulnerability scanning Tools — checkov, kube-hunter, kube-bench & Starboard==](https://aninditabasak.medium.com/a-lap-around-kubernetes-security-vulnerability-scanning-tools-checkov-kube-hunter-kube-bench-4ffda92c4cf1)
 - [==blog.flant.com: Kubernetes cluster security assessment with kube-bench and kube-hunter==](https://blog.flant.com/kubernetes-security-with-kube-bench-and-kube-hunter/)
-- [raesene.github.io: Let's talk about Kubernetes on the Internet](https://raesene.github.io/blog/2022/07/03/lets-talk-about-kubernetes-on-the-internet/) In this article, you will learn how to scan and discover publicly accessible Kubernetes clusters and how you can protect against it
+- [raesene.github.io: Let's talk about Kubernetes on the Internet](https://github.com/raesene/blog/) In this article, you will learn how to scan and discover publicly accessible Kubernetes clusters and how you can protect against it
 - [==github.com/Shopify/kubeaudit== 🌟🌟](https://github.com/Shopify/kubeaudit) kubeaudit helps you audit your Kubernetes clusters against common security controls. kubeaudit is a command line tool and a Go package to audit Kubernetes clusters for various different security concerns, such as:
     - Run as non-root
     - Use a read-only root filesystem
@@ -335,7 +335,7 @@
 
 ### OAuth2 Proxy
 
-[OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) is an open-source reverse proxy that provides authentication and authorization for web applications. It is designed to sit in front of your web application and authenticate users using OAuth2 providers such as Google, Microsoft, and Facebook. Once a user has been authenticated, OAuth2 Proxy adds an authorization header to each request, allowing the web application to verify that the request came from an authenticated user.
+[OAuth2 Proxy](https://github.com/oauth2-proxy/oauth2-proxy/) is an open-source reverse proxy that provides authentication and authorization for web applications. It is designed to sit in front of your web application and authenticate users using OAuth2 providers such as Google, Microsoft, and Facebook. Once a user has been authenticated, OAuth2 Proxy adds an authorization header to each request, allowing the web application to verify that the request came from an authenticated user.
 
 OAuth2 Proxy is commonly used in Kubernetes environments to secure access to web applications deployed on a Kubernetes cluster. It integrates with Kubernetes API Server to provide automatic configuration and discovery of the OAuth2 provider's credentials. It also supports a variety of authentication mechanisms, including Google OAuth2, Microsoft Azure AD, GitHub OAuth2, and others.
 
@@ -396,7 +396,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [medium.com/@danielepolencic: AWS IAM Roles for service accounts for on-prem clusters](https://medium.com/@danielepolencic/binding-aws-iam-roles-to-kubernetes-service-account-for-on-prem-clusters-b8bac41f269d) In this short tutorial, you will learn how to configure the IAM roles for Service Account for a bare-metal cluster using minikube as an example.
 - [medium.com/andcloudio: Setting up Authentication and RBAC Authorization in Kubernetes](https://medium.com/andcloudio/creating-authentication-and-authorization-in-kubernetes-c6c5f0f1d2ad)
 - [dev.to: Configure RBAC in Kubernetes Like a Boss](https://dev.to/mstryoda/configure-rbac-in-kubernetes-like-a-boss-h67) You will configure RBAC both with kubectl and yaml definitions.
-- [raesene.github.io: Auditing RBAC - Redux](https://raesene.github.io/blog/2022/08/14/auditing-rbac-redux/) The challenges of auditing Kubernetes authorization. Auditing Kubernetes authorization can be a bit of a tricky task. In this article, you will learn what techniques and tools you can use to identify, reassign and manage RBAC rules in your cluster.
+- [raesene.github.io: Auditing RBAC - Redux](https://github.com/raesene/blog/) The challenges of auditing Kubernetes authorization. Auditing Kubernetes authorization can be a bit of a tricky task. In this article, you will learn what techniques and tools you can use to identify, reassign and manage RBAC rules in your cluster.
 - [goteleport.com: A Simple Overview of Authentication Methods for Kubernetes Clusters](https://goteleport.com/blog/kube-authn-methods/)
 - [medium.com/@mehmetodabashi: Authentication and Authorization in Kubernetes: Client Certificates and Role Based Access Control (RBAC)](https://medium.com/@mehmetodabashi/authentication-and-authorization-in-kubernetes-client-certificates-and-role-based-access-control-d4e98a3c1098) In this tutorial, you'll learn how to authenticate and authorize a user to access Kubernetes Clusters with client certificates
 - [medium.com/@brunoolimpio: Kubernetes DeepDive — Parte 2 - Kubernetes RBAC and more... | Bruno Olimpio](https://medium.com/@brunoolimpio/kubernetes-deepdive-parte-2-a65ffdce596d)
@@ -523,7 +523,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 - [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
 - [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
 - [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
-- [==Amazon EKS Best Practices Guide for Security== 🌟](https://aws.github.io/aws-eks-best-practices/)
+- [==Amazon EKS Best Practices Guide for Security== 🌟](https://github.com/aws/aws-eks-best-practices/)
 - [medium.com: Securing Kubernetes Dashboard on EKS with Pomerium](https://medium.com/dev-genius/securing-kubernetes-dashboard-on-eks-with-pomerium-e98c47610e2f)
 
 ## External Secrets Operator
