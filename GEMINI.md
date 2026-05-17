@@ -157,16 +157,17 @@ The `README.md` is the primary entry point for Nubenetes and must accurately ref
 ### 1. Mandatory Updates on `develop` Branch
 Before any Pull Request is merged from `develop` to `master`, the `README.md` must be audited and updated to reflect the latest changes. This is critical for maintaining the "Source of Truth" status.
 
-### 2. Metric Recalculation
-Whenever a significant curation cycle (automatic or manual) is completed:
+### 2. Metric Recalculation (Database-First)
+Whenever a significant curation cycle (automatic or manual) is completed, the README MUST be updated using the **Unified Metadata Database** (`inventory.yaml`) as the sole source of truth:
+*   **Database-Driven Exactness**: Link counts and density tables MUST NOT be derived from `grep` or file-system scans. They must reflect the actual entries in the inventory.
 *   **Link Counts:** Update the "Heart of Nubenetes" table with the current total link count and specialized page count.
-*   **Top Categories:** Recalculate the density of the top 10 categories.
+*   **Top Categories:** Recalculate the density of the top 10 categories based on metadata.
 *   **Historical Growth:** Add/update the monthly surge rows in the "2026: The Agentic Monthly Surge" table.
-*   **Reference Estimates:** Use the established ratio (~4.13 links/commit) to estimate new reference growth if exact numbers aren't extracted by the bot.
 
 ### 3. Visual & Diagram Sync
-*   **Mermaid Charts:** If new top-level categories are created or existing ones grow significantly, update the "Major Ecosystem Pillars" and "Specialized Sub-ecosystems" pie charts.
-*   **Architecture Flow:** If the Agentic Stack or the deployment lifecycle changes (e.g., new workflows, different dependencies), the corresponding Mermaid diagrams MUST be updated immediately.
+*   **Mermaid Charts:** Update the "Major Ecosystem Pillars" pie chart to align with the **Strategic Dimensions** defined in the V2 portal.
+*   **Linguistic Diversity**: Maintain a dedicated chart visualizing the project's commitment to **Global Access** (Mandate 10).
+*   **Architecture Flow:** If the Agentic Stack or the deployment lifecycle changes, the corresponding Mermaid diagrams MUST be updated immediately.
 *   **Robustness:** Follow the "Mermaid Diagram Best Practices" (node quoting, explicit direction) as defined in this document.
 
 ### 4. V1 vs V2 Alignment
