@@ -29,7 +29,7 @@ class IntelligentLinkCleaner:
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
         self.learning_data = self._load_memory()
         self.inventory = self._load_inventory()
-        self.action_log: List[Dict] = [] 
+        self.full_report_metrics = [] # Track what happened to every link
         self.detailed_stats = {"total_scanned": 0, "skipped_recent": 0, "by_file": {}, "operation_types": {"removals": 0, "consolidated": 0, "healed": 0, "enriched": 0}}
         self.stats = {"total_links": 0, "dead_links_removed": 0, "orphans_fixed": 0, "enriched_descriptions": 0}
 
@@ -63,18 +63,15 @@ class IntelligentLinkCleaner:
                     content = open(path, "r").read()
                     lines = content.splitlines()
                     for idx, line in enumerate(lines):
-                        # Enhanced Regex to capture surrounding formatting
                         matches = re.finditer(r'(\*\*|==)?\s*\[(.*?)\]\((https?://.*?)\)\s*(\*\*|==)?\s*(.*)', line)
                         for m in matches:
                             fmt_pre, title, url, fmt_post, desc = m.groups()
                             nu = normalize_url(url)
-                            
-                            # Identify Importance Markers (Mandate 31 Expansion)
                             is_important = False
-                            if fmt_pre or fmt_post: is_important = True # Bold or Highlighted
-                            if "🌟" in title or "🌟" in desc: is_important = True # Stars
-                            if len(desc.strip()) > 100: is_important = True # Deep description
-                            if path in CORE_FILES: is_important = True # Foundational files
+                            if fmt_pre or fmt_post: is_important = True
+                            if "🌟" in title or "🌟" in (desc or ""): is_important = True
+                            if desc and len(desc.strip()) > 100: is_important = True
+                            if path in CORE_FILES: is_important = True
                             
                             self.link_registry.setdefault(nu, []).append({
                                 "file": path, "line_index": idx, "url": url, 
@@ -84,7 +81,6 @@ class IntelligentLinkCleaner:
         unique_urls = list(self.link_registry.keys())
         random.shuffle(unique_urls)
         
-        # 1.5. Identify prioritized links for validation
         to_check = []
         for u in unique_urls:
             nu = normalize_url(u); entry = self.inventory.get(nu, {})
@@ -155,27 +151,36 @@ class IntelligentLinkCleaner:
             score = entry.get("health_score", 100)
             score = (score * 0.8) + (100 if alive else 0) * 0.2
             entry["health_score"] = round(score, 1); entry["last_checked"] = datetime.now().timestamp()
-
-            # Identify high-value status
+            
             is_important = any(occ.get("is_important") for occ in self.link_registry.get(nu, []))
             if entry.get("stars", 0) >= 3: is_important = True
 
+            status = "INCLUDED" if alive else "FILTERED"
+            final_reason = reason
+            
             if not alive or reason == "generic_redirect_loss":
                 if is_important:
                     entry["status"] = "review_required"
                     entry["review_metadata"] = {
-                        "original_url": url,
-                        "proposed_url": final if final else "NONE",
-                        "reason": f"High-Value Preservation: {reason}",
-                        "timestamp": datetime.now().isoformat()
+                        "original_url": url, "proposed_url": final if final else "NONE",
+                        "reason": f"High-Value Preservation: {reason}", "timestamp": datetime.now().isoformat()
                     }
-                    log_event(f"  [⚠️] REVIEW STORED: {url} in inventory. Metadata preserved.")
+                    log_event(f"  [⚠️] REVIEW STORED: {url}")
+                    status = "INCLUDED" # Kept in V1
+                    final_reason = f"Preserved for Review ({reason})"
                 elif score < 20: 
                     entry["status"] = "dead"; self.dead_links[url] = (None, reason)
+                    status = "FILTERED"; final_reason = f"Dead: {reason}"
             elif final and alive:
-                # If it's rescued or a valid redirect, we update
                 self.dead_links[url] = (f"CANONICAL:{final}", "Redirect/Resurrection")
-
+                final_reason = "Updated (Redirect/Rescued)"
+            
+            self.full_report_metrics.append({
+                "url": url, "status": status, "reason": final_reason,
+                "category": entry.get("category", "N/A"), "post_date": entry.get("pub_date"),
+                "source": "Health Checker", "impact_score": entry.get("stars", 0) * 20,
+                "language": entry.get("language", "EN"), "type": entry.get("resource_type", "Ref")
+            })
             self.inventory[nu] = entry
 
         await self.apply_changes()
@@ -228,7 +233,14 @@ class IntelligentLinkCleaner:
 
         from src.safety_guard import SafetyGuard
         report = SafetyGuard().generate_audit_report()
-        if final_payload: self.git_controller.apply_multi_file_changes(final_payload, {"total_extracted": len(self.link_registry)}, safety_report=report)
+        
+        metrics = {
+            "total_extracted": len(self.link_registry),
+            "full_report": self.full_report_metrics,
+            "end_date": datetime.now().isoformat()
+        }
+        
+        if final_payload: self.git_controller.apply_multi_file_changes(final_payload, metrics, safety_report=report)
 
     async def prune_orphaned_metadata(self):
         valid_map = {}
