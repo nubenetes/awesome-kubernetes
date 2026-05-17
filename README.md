@@ -93,9 +93,9 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15590+** |
+| **Total Technical Resources (Links)** | **15441+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4197+** |
+| **Total Commits** | **4355+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -104,7 +104,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Uncategorized](docs/uncategorized.md) | 15590 |
+| [Uncategorized](docs/uncategorized.md) | 15441 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -123,7 +123,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 638 | 2,634 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 796 | 3,287 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 #### 2026: The Agentic Monthly Surge
@@ -131,7 +131,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 613 | 2,531 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 771 | 3,184 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -144,14 +144,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Kubernetes Ecosystem" : 3500
-    "Developer Ecosystem" : 3000
-    "Public/Private Cloud" : 2500
-    "CI/CD and GitOps" : 2200
-    "Others (Specialized)" : 2733
-    "Infra as Code" : 1200
-    "SRE and Observability" : 1000
-    "Security and DevSecOps" : 1000
+    "Specialized Topics" : 15441
 ```
 <!-- PILLAR_CHART_END -->
 
