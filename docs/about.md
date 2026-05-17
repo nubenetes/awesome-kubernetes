@@ -214,6 +214,6 @@ Let's improve both the private & public IT sector and the opportunities in large
 ---
 <center markdown="1">
 
-[![automated_ansible](images/automated_ansible.jpg)](https://www.redhat.com/en/blog/channel/open-source-communities?intcmp=7015Y000003t7aWQAQ)
+[![automated_ansible](images/automated_ansible.jpg)](https://probably.co.uk/posts/migrating-the-runbook-a-journey-from-legacy-to-devops/)
 
 </center>
