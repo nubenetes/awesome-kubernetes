@@ -32,7 +32,7 @@ class V2VisionEngine:
             "Data & Advanced Analytics": ["databases", "nosql", "newsql", "message-queue", "crunchydata", "yaml", "bigdata"],
             "Engineering Pipeline": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives", "openshift-pipelines", "sonarqube", "registries", "keptn", "stackstorm", "cicd-kubernetes-plugins"],
             "Developer Ecosystem": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "java_app_servers", "java-and-java-performance-optimization", "dotnet", "angular", "react", "web3", "api", "swagger-code-generator-for-rest-apis", "postman", "lowcode-nocode", "devel-sites", "dom", "linux-dev-env", "ChromeDevTools", "xamarin", "jvm-parameters-matrix-table", "maven-gradle", "embedded-servlet-containers"],
-            "Career & Industry": ["recruitment", "hr", "freelancing", "remote-tech-jobs", "workfromhome", "interview-questions", "elearning", "digital-money", "appointment-scheduling", "newsfeeds"]
+            "Career & Industry": ["recruitment", "hr", "finops", "freelancing", "remote-tech-jobs", "workfromhome", "interview-questions", "elearning", "digital-money", "appointment-scheduling", "newsfeeds"]
         }
         
         self.library_criteria = (
@@ -54,16 +54,14 @@ class V2VisionEngine:
     def _load_special_assets(self) -> Dict:
         path = "data/special_assets.yaml"
         if os.path.exists(path):
-            try:
-                with open(path, "r") as f: return yaml.safe_load(f) or {}
+            try: return yaml.safe_load(open(path, "r")) or {}
             except: return {}
         return {}
 
     def _load_link_rules(self) -> Dict:
         path = "data/link_rules.yaml"
         if os.path.exists(path):
-            try:
-                with open(path, "r") as f: return yaml.safe_load(f) or {}
+            try: return yaml.safe_load(open(path, "r")) or {}
             except: return {}
         return {}
 
@@ -79,13 +77,10 @@ class V2VisionEngine:
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
-        # 0. Mandate Sync & Workspace Cleanup
+        # 0. Mandate Sync
         try:
             from src.mandate_ingestor import MandateIngestor
             MandateIngestor().save_system_instructions()
-            if os.path.exists(V2_DIR):
-                for f in os.listdir(V2_DIR):
-                    if f.endswith(".md"): os.remove(os.path.join(V2_DIR, f))
         except: pass
 
         all_v1_links, mosaic_html, videos_html = await self._gather_all_v1_content()
@@ -93,19 +88,34 @@ class V2VisionEngine:
 
         log_event("[*] Phase 1: Health Check...")
         health_inventory = await self._verify_link_health(all_v1_links)
-        log_event(f"[*] Health Check Complete. {len(health_inventory)} online.")
-
+        
         log_event("[*] Phase 2: Evaluation & Deep Indexing (Semantic Dedup)...")
         library_inventory = await self._evaluate_and_score_resources(health_inventory)
-        log_event(f"[*] Inventory Refined: {len(library_inventory)} items kept after semantic consolidation.")
 
         log_event("[*] Phase 3: Recursive Hierarchy Construction...")
         v2_data = await self._rebuild_structure(library_inventory)
         
         log_event("[*] Phase 4: Generating Premium Portal Hubs...")
         os.makedirs(V2_DIR, exist_ok=True)
+        
+        # --- SURGICAL GARBAGE COLLECTION ---
+        # Track every file we generate
+        generated_files = {"index.md", "audit-log.md"}
+        for dim in v2_data.keys():
+            if v2_data[dim]["categories"]:
+                slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
+                generated_files.add(f"{slug}.md")
+
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         await self._sync_enterprise_navigation(v2_data)
+        
+        # Delete only orphaned files
+        log_event("[*] Phase 5: Pruning Orphaned V2 Assets...")
+        for f in os.listdir(V2_DIR):
+            if f.endswith(".md") and f not in generated_files:
+                log_event(f"  [DEL] Pruning obsolete V2 page: {f}")
+                os.remove(os.path.join(V2_DIR, f))
+
         self._save_inventory()
         
         # --- FINAL SAFETY AUDIT ---
@@ -177,12 +187,8 @@ class V2VisionEngine:
             item = l.copy()
             norm_url = normalize_url(l["url"])
             orig_file = l.get("original_file", "unknown.md")
-            
-            # Mandate 27: VIP Status Inheritance
             is_special = orig_file in special_files
             item["is_special"] = is_special
-
-            # Project Identification
             project_id = norm_url
             if "github.com" in norm_url:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
@@ -192,15 +198,13 @@ class V2VisionEngine:
                 cached = self.inventory[norm_url]
                 item.update(cached)
                 if is_special: item["is_special"] = True
-                
                 if cached.get("hierarchy"):
                     if project_id not in project_registry:
                         project_registry[project_id] = item
                     else:
                         existing = project_registry[project_id]
                         if item.get("is_special"): existing["is_special"] = True
-                        is_current_root = "github.com" not in norm_url
-                        if is_current_root or item.get("stars", 0) > existing.get("stars", 0):
+                        if "github.com" not in norm_url or item.get("stars", 0) > existing.get("stars", 0):
                             item.setdefault("aliases", []).append(existing["url"])
                             if existing.get("is_special"): item["is_special"] = True
                             project_registry[project_id] = item
@@ -225,7 +229,6 @@ class V2VisionEngine:
                             if "github.com" in norm_url:
                                 m = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                                 if m: p_id = m.group(1).lower()
-
                             eval_data = {
                                 "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
                                 "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
@@ -262,13 +265,9 @@ class V2VisionEngine:
             dim = file_to_dim.get(orig_file, "Architectural Foundations")
             cat_name = orig_file.replace(".md", "").replace("-", " ").title()
             if item.get("is_microservice"): cat_name = "Microservices"; dim = "Architectural Foundations" if orig_file == "introduction.md" else dim
-
-            # Mandate 27: VIP PROTECTION
             is_special = item.get("is_special", False) or orig_file in special_rules
-
             if orig_file == "introduction.md" and item.get("stars", 0) < 4 and not item.get("is_microservice"): continue
             if not is_special and item.get("stars", 0) < 3 and not item.get("is_microservice"): continue
-
             if cat_name not in v2_structure[dim]["categories"]: v2_structure[dim]["categories"][cat_name] = {"__links__": []}
             hierarchy = item.get("hierarchy", [])
             if hierarchy and (hierarchy[0] == dim or hierarchy[0] == cat_name): hierarchy = hierarchy[1:]
@@ -338,8 +337,8 @@ class V2VisionEngine:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
                         md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
-                        year_prefix = f"**({l.get('year', 'N/A')})** "
-                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+                        date = f"**({l.get('year', 'N/A')})** "
+                        tags = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
                         icon = " 🎥" if l.get("is_video") else ""
                         lang = l.get("language", "English")
                         lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
