@@ -124,7 +124,7 @@
 - [arun-sisodiya.medium.com: Kyverno — A Kubernetes native policy manager (Policy as Code)](https://arun-sisodiya.medium.com/kyverno-a-policy-manager-for-kubernetes-286f6e082062)
 - [dev.to: Default Kyverno Policies for OpenEBS](https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf)
 - [cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟](https://cloud.redhat.com/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno)
-- [A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742](https://github.com/kubernetes/ingress-nginx/issues/7837)
+- [A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742](https://github.com/kubernetes/ingress-nginx)
 - [==kyverno.io: Restrict Image Registries==](https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries/) kyverno
  has a solid set of kubernetes policies and excellent documentation out of the box!
 - [dev.to: Using Kyverno Policies for Kubernetes Governance](https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17)
