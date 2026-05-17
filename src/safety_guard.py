@@ -113,6 +113,14 @@ class SafetyGuard:
                 if new_count < 10:
                     self.warnings.append(f"🧬 **Schema Incomplete**: `{url}` missing {missing}")
 
+    def has_valid_toc(self, content: str) -> bool:
+        """Checks if content has an explicit header or an implicit list-based TOC."""
+        if "## Table of Contents" in content: return True
+        # Check for V1 style: Numbered list of links at the top (after H1)
+        toc_pattern = r'^\d+\.\s+\[.*?\]\(#.*?\)'
+        matches = re.findall(toc_pattern, content, re.MULTILINE)
+        return len(matches) >= 3
+
     def validate_v2_architecture(self):
         """Mandato 28: Estructura O'Reilly y V2 Flat Navigation."""
         if not os.path.exists(V2_DIR): return
@@ -121,7 +129,7 @@ class SafetyGuard:
             if file.endswith(".md") and file != "index.md":
                 if file in exempt_files: continue
                 content = open(os.path.join(V2_DIR, file), "r").read()
-                if "## Table of Contents" not in content:
+                if not self.has_valid_toc(content):
                     self.errors.append(f"📚 **V2 TOC Missing**: `{file}`")
                 if "### " not in content:
                     self.errors.append(f"📚 **V2 Too Flat**: `{file}` (Missing H3 subtopics)")
@@ -147,7 +155,7 @@ class SafetyGuard:
                 if file.endswith(".md"):
                     if file in exempt_files: continue
                     content = open(os.path.join(root, file), "r").read()
-                    if "## Table of Contents" not in content and len(re.findall(r'^## ', content, re.M)) > 2:
+                    if not self.has_valid_toc(content) and len(re.findall(r'^## ', content, re.M)) > 2:
                         self.warnings.append(f"📍 **V1 TOC Missing**: `{file}` has many sections but no TOC")
                     anchors = re.findall(r'\(#([^\)]+)\)', content)
                     for a in anchors:

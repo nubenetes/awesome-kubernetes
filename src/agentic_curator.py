@@ -237,7 +237,10 @@ class AgenticCurator:
             headers = re.findall(r"^##+ ", content, re.MULTILINE)
             
             # --- FEATURE: Automatic TOC Injection for V1 ---
-            if len(headers) >= 3 and "Table of Contents" not in content:
+            # Check for existing TOC (explicit header or numbered list)
+            has_toc = "Table of Contents" in content or len(re.findall(r'^\d+\.\s+\[.*?\]\(#.*?\)', content, re.MULTILINE)) >= 3
+            
+            if len(headers) >= 3 and not has_toc:
                 log_event(f"  [+] INJECTING TOC: {file}")
                 content = await self._rebuild_toc(content)
                 with open(path, "w") as f: f.write(content)
