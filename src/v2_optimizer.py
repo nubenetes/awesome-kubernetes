@@ -7,7 +7,7 @@ import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
-from src.gemini_utils import call_gemini_with_retry, normalize_url
+from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
 from src.logger import log_event
 
 V1_DIR = "docs"
@@ -312,24 +312,26 @@ class V2VisionEngine:
             slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
             index_md += f"- **[{dim}](./{slug}.md)**: {content['summary']}\n"
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
+# Helper functions for recursive rendering
+def gen_toc(node, depth, base_slug):
+    toc = ""
+    for name, subnode in sorted(node.items()):
+        if name == "__links__": continue
+        clean_name = clean_toc_text(name)
+        slug = f"{base_slug}-{clean_name.lower().replace(' ', '-')}"
+        toc += f"{' ' * (depth * 4)}- [{clean_name}](#{slug})\n" + gen_toc(subnode, depth + 1, slug)
+    return toc
 
-        def gen_toc(node, depth, base_slug):
-            toc = ""
-            for name, subnode in sorted(node.items()):
-                if name == "__links__": continue
-                slug = f"{base_slug}-{name.lower().replace(' ', '-')}"
-                toc += f"{' ' * (depth * 4)}- [{name}](#{slug})\n" + gen_toc(subnode, depth + 1, slug)
-            return toc
-
-        async def render_node(node, depth, base_slug, is_intro=False):
-            md = ""
-            for name, subnode in sorted(node.items()):
-                if name == "__links__": continue
-                slug = f"{base_slug}-{name.lower().replace(' ', '-')}"
-                md += f"{'#' * min(6, depth + 2)} {name}\n\n"
-                if depth == 1 and "__links__" in subnode: md += await self._generate_comparison_table(subnode["__links__"])
-                md += await render_node(subnode, depth + 1, slug, is_intro)
-            if "__links__" in node:
+async def render_node(node, depth, base_slug, is_intro=False):
+    md = ""
+    for name, subnode in sorted(node.items()):
+        if name == "__links__": continue
+        clean_name = clean_toc_text(name)
+        slug = f"{base_slug}-{clean_name.lower().replace(' ', '-')}"
+        md += f"{'#' * min(6, depth + 2)} {clean_name}\n\n"
+        if depth == 1 and "__links__" in subnode: md += await self._generate_comparison_table(subnode["__links__"])
+        md += await render_node(subnode, depth + 1, slug, is_intro)
+    if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
                     title = l['title'].replace("==", "")

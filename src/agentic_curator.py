@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import List, Dict, Optional, Tuple
 from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ
 from src.gitops_manager import RepositoryController
-from src.gemini_utils import call_gemini_with_retry, normalize_url
+from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
 from src.logger import log_event
 
 def get_best_category_match(suggested: str) -> Optional[str]:
@@ -166,7 +166,8 @@ class AgenticCurator:
         headers = []
         for line in lines:
             if line.startswith("## ") or line.startswith("### "):
-                title = line.strip("#").strip()
+                raw_title = line.strip("#").strip()
+                title = clean_toc_text(raw_title)
                 anchor = title.lower().replace(" ", "-").replace(".", "").replace("/", "").replace("(", "").replace(")", "").replace(",", "")
                 headers.append({"title": title, "anchor": anchor, "level": 2 if line.startswith("## ") else 3})
         if not headers: return content

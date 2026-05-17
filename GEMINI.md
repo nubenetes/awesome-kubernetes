@@ -90,6 +90,11 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 29. **TOC & Structural Exceptions**: Certain files (configuration-heavy or technical tables like `mkdocs.md` or `matrix-table.md`) are exempt from TOC and deep-hierarchy requirements. These exceptions MUST be respected by all agents to avoid unnecessary structural clutter in non-navigational files as defined in [`data/link_rules.yaml`](data/link_rules.yaml).
 
+30. **Universal Title and TOC Standards**: To ensure robust cross-platform rendering and prevent broken internal links:
+    - **No Emojis or Special Characters**: Section titles (H2-H6) and Table of Contents (TOC) entries MUST NOT contain emojis or special symbols.
+    - **No Ampersands**: The ampersand character (`&`) MUST be replaced with "and" in all titles and TOCs.
+    - **Lowercase Anchors**: All Markdown anchors MUST use strictly lowercase slugs without special characters.
+
 ## 🛠️ Structural Evolution & Navigation
 ...
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
@@ -163,7 +168,7 @@ Whenever a significant curation cycle (automatic or manual) is completed:
 *   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
 *   **Algorithm-README Sync**: Whenever the AI curation logic, model tiering, or the extraction algorithm is modified (e.g., `src/gemini_utils.py` or `src/v2_optimizer.py`), the `README.md` MUST be updated to reflect these technical changes in the "Agentic Stack" and "Architectural Shift" sections.
 *   **Hierarchical README Maintenance**: Whenever `README.md` is modified, the Table of Contents (TOC) MUST be updated to reflect all changes in sections (H2) and subsections (H3). All titles in the document MUST include hierarchical numbering (e.g., "1. Section", "1.1. Subsection") perfectly synchronized with the TOC.
-*   **Robust Title Standards**: Emojis and ampersands (&) MUST NOT be used in any section (H2) or subsection (H3) titles within `README.md` or the Table of Contents. Ampersands should be replaced with "and". This ensures maximum compatibility with Markdown anchor generation and prevents broken navigation links.
+*   **Universal Title Standards**: Emojis and ampersands (&) MUST NOT be used in any section titles or Table of Contents. Ampersands MUST be replaced with "and". All anchors MUST be lowercase slugs (Mandate 30).
 *   **Asset Inventory and Configuration**: The `README.md` MUST maintain a "Repository Inventory and Configuration" section (Section 13) that provides an exhaustive list of all key configuration files, centralized metadata databases, autonomous workflows, and core source code files. Each item MUST be linked using a relative Markdown path (e.g., `[file.yaml](data/file.yaml)`) to facilitate direct navigation.
 *   **Source Transparency**: Specific curation sources (e.g., X.com accounts) MUST be documented in the "Agentic AI Engine" section of the `README.md`. Any addition or removal of primary sources in `data/curation_sources.yaml` requires a corresponding update to the documentation.
 

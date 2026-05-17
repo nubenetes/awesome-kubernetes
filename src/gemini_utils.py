@@ -164,6 +164,20 @@ async def resolve_url(url: str) -> str:
             except: break
     return final_url
 
+def clean_toc_text(text: str) -> str:
+    """
+    Ensures technical titles and TOC entries are robust.
+    Strips emojis, replaces ampersands, and removes special chars.
+    """
+    if not text: return ""
+    # 1. Replace ampersands
+    text = text.replace("&", "and")
+    # 2. Strip Emojis (Regex for Unicode emoji ranges)
+    text = re.sub(r'[\U00010000-\U0010ffff]', '', text)
+    # 3. Strip other common problematic non-alphanumeric chars (except spaces and hyphens)
+    text = re.sub(r'[^\w\s\-.]', '', text)
+    return text.strip()
+
 def normalize_url(url: str) -> str:
     """
     Normalización de URLs de alta precisión para Nubenetes.
