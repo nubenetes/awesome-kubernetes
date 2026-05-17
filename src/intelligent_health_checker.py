@@ -72,13 +72,34 @@ class IntelligentLinkCleaner:
         unique_urls = list(self.link_registry.keys())
         random.shuffle(unique_urls)
         
+        # 1.5. INCREMENTAL SELF-CORRECTION: Identify 'Suspicious' URLs in BBDD
+        # If a link is 'online' but looks too generic compared to its V1 title, force check.
+        to_check = []
+        for u in unique_urls:
+            nu = normalize_url(u)
+            entry = self.inventory.get(nu, {})
+            # If it's a home/about page but has a specific technical title, it's suspicious
+            is_suspicious = False
+            if entry.get("status") == "online":
+                path = nu.split("://")[-1].rstrip("/")
+                # Generic redirect indicators
+                if path.count("/") <= 1 or any(kw in path for kw in ["/about", "/products", "/index", "/whats-new"]):
+                    is_suspicious = True
+            
+            if is_suspicious or entry.get("needs_ai_refresh") or os.getenv("FORCE_FULL_CHECK") == "true":
+                to_check.append(u)
+            elif (datetime.now().timestamp() - entry.get("last_checked", 0)) > (86400 * 21):
+                to_check.append(u) # Standard 21-day rotation
+
+        log_event(f"[*] Queue: {len(to_check)} links prioritized for validation (including {len([u for u in to_check if u not in unique_urls])} suspicious).")
+
         # 2. Resilient Check
         BATCH_SIZE = 20
-        for i in range(0, len(unique_urls), BATCH_SIZE):
-            batch = unique_urls[i:i+BATCH_SIZE]
+        for i in range(0, len(to_check), BATCH_SIZE):
+            batch = to_check[i:i+BATCH_SIZE]
             tasks = [self._check_and_fix_link(url) for url in batch]
             await asyncio.gather(*tasks)
-            if i % 100 == 0: log_event(f"  [>] Progress: {i}/{len(unique_urls)} checked...")
+            if i % 100 == 0: log_event(f"  [>] Progress: {i}/{len(to_check)} checked...")
 
         # 3. Finalize
         await self.apply_changes()
