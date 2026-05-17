@@ -547,7 +547,7 @@
 
 ### Jenkins Declarative Pipelines with OpenShift
 
-- [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
+- [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin)
 - [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 - [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab)
 - [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)
@@ -576,14 +576,14 @@
         - From Freestyle Jobs to JobDSL, the beginning of our CasC adventure
         - From JobDSL to Pipeline, all the fun of CasC; with even more resilience!
     - Nicolaj Græsholt is a Continuous Delivery and DevOps Consultant and Trainer from Eficode Praqma. He helps organizations with all things CI/CD, Artifact Management, Git, Docker and Kubernetes, and he’s a Certified Kubernetes Administrator of CNCF.
-    - [Slides 🌟🌟🌟](https://github.com/figaw/freestyle-to-pipeline-jenkins/blob/master/from-freestyle-jobs-to-pipeline-with-jobdsl.pdf)
+    - [Slides 🌟🌟🌟](https://github.com/figaw/freestyle-to-pipeline-jenkins)
     - [Demo repository 🌟🌟🌟](https://github.com/figaw/freestyle-to-pipeline-jenkins)
 - Links of interest provided in the event:
     - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps) is a style of programming in which the remainder of the program is passed explicitly as a parameter, as opposed to that being handled implicitly represented as call stack.
-        - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS) transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin/#plugin/workflow-cps):
-            - [cps](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cps): WorkflowDefinitionContext
-            - [cpsScm](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cpsScm): WorkflowDefinitionContext
-        - [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin/#path/pipelineJob-definition-cps-script)
+        - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS) transformation of Groovy scripts. DSL Methods:](https://github.com/jenkinsci/job-dsl-plugin/#plugin/workflow-cps):
+            - [cps](https://github.com/jenkinsci/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cps): WorkflowDefinitionContext
+            - [cpsScm](https://github.com/jenkinsci/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cpsScm): WorkflowDefinitionContext
+        - [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://github.com/jenkinsci/job-dsl-plugin/#path/pipelineJob-definition-cps-script)
     - [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/)
     - [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin)
     - [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
@@ -600,9 +600,9 @@
         - [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
         - [Declarative Pipeline Migration Assistant](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
     - Jenkins Job DSL:
-        - [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
-            - [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
-        - [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
+        - [Jenkins Job DSL API 🌟](https://github.com/jenkinsci/job-dsl-plugin/)
+            - [mavenJob](https://github.com/jenkinsci/job-dsl-plugin/#path/mavenJob)
+        - [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines)
     - [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
 
 ??? note "Video: From Freestyle jobs to Pipeline, with JobDSL. Click to expand!"
@@ -644,7 +644,7 @@
 - **daily_restart.Jenkinsfile**: A script that automatically triggers a daily restart of Jenkins due to performance issues (Jenkins is a Java application). Jenkins with Declarative Pipeline multiline sh that restarts Jenkins every night except on Saturday nights (when cleanup.Jenkinsfile is triggered).
 - **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile.
 
-Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/awesome-kubernetes/tree/master/scripts)
+Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/awesome-kubernetes)
 
 ### Postman & Newman API Automated Tests
 
@@ -664,7 +664,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## Spinnaker
 
 - [Demo/Evaluation Installations](https://spinnaker.io/setup/quickstart/)
-- [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker)
+- [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course)
 - [imperialwicket/spinnaker-demo](https://github.com/imperialwicket/spinnaker-demo)
 - [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689)
 - [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf)
@@ -694,7 +694,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [github.com/spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic)
     - [gitlab.beuth-hochschule.de](https://gitlab.beuth-hochschule.de/s70178/petclinic-ansible-jenkins-ci-cd)
     - [gitlab.comquent.de: Microservices branch](https://gitlab.comquent.de/petclinic/spring-petclinic-microservices)
-- [deors/deors-demos-petclinic jenkinsfile](https://github.com/deors/deors-demos-petclinic/blob/master/Jenkinsfile)
+- [deors/deors-demos-petclinic jenkinsfile](https://github.com/deors/deors-demos-petclinic)
 - [liatrio.com: building with docker using jenkins pipelines](https://www.liatrio.com/blog/building-with-docker-using-jenkins-pipelines)
 - [stackoverflow: How to define BuildConfig object with Jenkins and openshift
 ](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
@@ -721,7 +721,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
 - [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
 - [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
-- [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
+- [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic)
 - [pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
 
 ### PetClinic Docker images
@@ -733,7 +733,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [ref 5 arey/springboot-petclinic](https://hub.docker.com/r/arey/springboot-petclinic/)
 - [ref 6](https://hub.docker.com/r/anthonydahanne/spring-petclinic)
 - [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic/)
-- [ref 8](https://github.com/spring-projects/spring-petclinic/issues/339)
+- [ref 8](https://github.com/spring-projects/spring-petclinic)
 - [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic)
 
 ### OpenShift.io Samples
@@ -767,7 +767,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067) Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
 - [towardsaws.com: Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services | Brandi McCall](https://towardsaws.com/integrating-python-amazon-api-gateway-lambda-sqs-and-sns-services-6015631d5527)
 - [github.com/unitypark/aws-serverless-demos](https://github.com/unitypark/aws-serverless-demos)
-    - [github.com/unitypark: AWS Serverless Demos - cloudfront-http-api-cognito](https://github.com/unitypark/aws-serverless-demos/tree/main/serverless-web-hosting/cloudfront-http-api-cognito)
+    - [github.com/unitypark: AWS Serverless Demos - cloudfront-http-api-cognito](https://github.com/unitypark/aws-serverless-demos)
 
 ## Azure Samples
 
@@ -859,7 +859,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [terraform.collabnix.com](https://collabnix.github.io/terraform/) An Ultimate Terraform Hands-on Labs. Get access to 50+ tutorials around Terraform, Kubernetes & Cloud.
 - [opensource.com: A guide to Terraform for Kubernetes beginners](https://opensource.com/article/20/7/terraform-kubernetes) Learn how to make a Minikube cluster and deploy to it with Terraform.
 - [medium: Install Istio on Azure Kubernetes cluster using Terraform](https://medium.com/@vipinagarwal18/install-istio-on-azure-kubernetes-cluster-using-terraform-214f6d3f611)
-- [brennerm.github.io: Setting up an EKS cluster with IAM/IRSA integration](https://brennerm.github.io/posts/setting-up-eks-with-irsa-using-terraform.html)
+- [brennerm.github.io: Setting up an EKS cluster with IAM/IRSA integration](https://github.com/brennerm/posts)
 - [betterprogramming.pub: Create an Amazon EKS Fargate Cluster and Managed Node Group Using Terraform](https://betterprogramming.pub/with-latest-updates-create-amazon-eks-fargate-cluster-and-managed-node-group-using-terraform-bc5cfefd5773) Serverless clusters and HashiCorp’s Terraform on AWS
 - [azapril.dev: Deploying a LogicApp with Terraform (Bonus: in an AzDO pipeline)](https://azapril.dev/2021/04/12/deploying-a-logicapp-with-terraform/)
 - [k21academy.com: Automate AWS Virtual Machine using Terraform – Creation Demo](https://k21academy.com/terraform-iac/terraform-automate-aws-vm/)
