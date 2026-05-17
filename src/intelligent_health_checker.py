@@ -11,11 +11,7 @@ from src.gitops_manager import RepositoryController
 from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
 from src.logger import log_event
-
-def normalize_url(url: str) -> str:
-    url = url.split("#")[0].split("?")[0].rstrip("/")
-    if url.startswith("http://"): url = "https://" + url[7:]
-    return url.lower()
+from src.gemini_utils import normalize_url
 
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
@@ -212,6 +208,7 @@ class IntelligentLinkCleaner:
         # NOTE: Trusted domains must also be checked to ensure the link isn't a 404.
 
         paywall_indicators = ["sign in", "create free account", "member-only story", "página de suscripción", "inicia sesión"]
+        parked_indicators = ["buy this domain", "domain is for sale", "parked free", "this domain may be for sale", "comprar este dominio"]
         
         if strategy["type"] == "http":
             try:
@@ -225,10 +222,22 @@ class IntelligentLinkCleaner:
                         canonical_url = str(resp.url)
 
                     if resp.status_code < 400: 
+                        # Detect Parked Domains (200 OK but low-value content)
+                        content_lower = resp.text.lower()
+                        if any(kw in content_lower for kw in parked_indicators):
+                            return False, "parked_domain", None
                         return True, "HTTP OK", canonical_url
                     
                     # Definitive Failures
-                    if resp.status_code in [404, 410]: return False, "404", None
+                    if resp.status_code in [404, 410]: 
+                        # AUTO-HEAL GitHub Branches (master -> main)
+                        if "github.com" in url and ("/blob/master/" in url or "/tree/master/" in url):
+                            heal_url = url.replace("/master/", "/main/")
+                            h_resp = await client.get(heal_url)
+                            if h_resp.status_code < 400:
+                                return True, "HTTP OK (Healed: main)", heal_url
+
+                        return False, "404", None
                     
                     # Soft Failures (Keep but flag)
                     if resp.status_code in [403, 429, 401, 500, 502, 503]: 
@@ -251,12 +260,24 @@ class IntelligentLinkCleaner:
                         if page.url.rstrip('/') != url.rstrip('/'):
                             canonical_url = page.url
 
-                        if response.status in [404, 410]: return False, "404", None
-                        
                         content = (await page.content()).lower()
                         title = (await page.title()).lower()
+
+                        if response.status in [404, 410]: 
+                            # AUTO-HEAL in Playwright
+                            if "github.com" in url and ("/blob/master/" in url or "/tree/master/" in url):
+                                heal_url = url.replace("/master/", "/main/")
+                                try:
+                                    h_resp = await page.goto(heal_url, wait_until="domcontentloaded", timeout=15000)
+                                    if h_resp and h_resp.status < 400:
+                                        return True, "Render OK (Healed: main)", heal_url
+                                except: pass
+
+                            return False, "404", None
                         
                         if any(kw in content for kw in paywall_indicators): return True, "Paywall (Preserving)", None
+                        if any(kw in content for kw in parked_indicators) or any(kw in title for kw in parked_indicators):
+                            return False, "parked_domain", None
                         
                         soft_404_keywords = ["page not found", "404 not found", "artículo no encontrado", "página no encontrada"]
                         if any(kw in title for kw in soft_404_keywords) or (("404" in title) and any(kw in content for kw in soft_404_keywords)): 

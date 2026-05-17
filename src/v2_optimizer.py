@@ -6,14 +6,9 @@ import yaml
 import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any
-from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ
-from src.gemini_utils import call_gemini_with_retry
+from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH, STRUCTURE_MAP_PATH
+from src.gemini_utils import call_gemini_with_retry, normalize_url
 from src.logger import log_event
-
-def normalize_url(url: str) -> str:
-    url = url.split("#")[0].split("?")[0].rstrip("/")
-    if url.startswith("http://"): url = "https://" + url[7:]
-    return url.lower()
 
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
@@ -107,6 +102,24 @@ class V2VisionEngine:
 
         log_event("[*] Phase 3: Dimensional Clustering & Chronological Sorting...")
         v2_data = await self._rebuild_structure(library_inventory)
+        
+        log_event("[*] Phase 3.5: Generating Executive State-of-the-Art Introductions...")
+        for dim in v2_data.keys():
+            cache_key = f"INTRO:{dim}"
+            if cache_key in self.inventory and not os.getenv("FORCE_EVAL", "false").lower() == "true":
+                v2_data[dim]["summary"] = self.inventory[cache_key].get("ai_summary")
+            else:
+                prompt = (
+                    f"You act as a CTO and Cloud Architect in 2026. Write a professional, high-density paragraph (3-4 sentences) "
+                    f"explaining the current 'State of the Art' and strategic importance of '{dim}' in the Kubernetes ecosystem. "
+                    "Focus on executive value, innovation, and long-term technical direction. Language: English only."
+                )
+                try:
+                    summary = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=False) # Use Pro for better intros
+                    v2_data[dim]["summary"] = summary
+                    self.inventory[cache_key] = {"ai_summary": summary, "last_updated": datetime.now().isoformat()}
+                except:
+                    v2_data[dim]["summary"] = f"Executive reference library for {dim} architectures."
 
         log_event("[*] Phase 4: Generating Premium Portal Pages...")
         os.makedirs(V2_DIR, exist_ok=True)

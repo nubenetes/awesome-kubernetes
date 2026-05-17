@@ -12,13 +12,8 @@ from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
 from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
-from src.gemini_utils import call_gemini_with_retry, resolve_url
+from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url
 from src.state_manager import get_last_date, save_state
-
-def normalize_url(url: str) -> str:
-    url = url.split("#")[0].split("?")[0].rstrip("/")
-    if url.startswith("http://"): url = "https://" + url[7:]
-    return url.lower()
 
 async def master_orchestrator():
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)

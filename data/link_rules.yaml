@@ -14,11 +14,13 @@ v1_preservation_rules:
   link_strictness:
     deep_link_priority: true  # Always keep subfolders/wikis if ALIVE.
     github_io_preservation: true # No auto-mapping to github.com.
-    forbidden_truncations: ["/pull/", "/wiki/", "/issues/", "/tree/", "/blob/"]
+    forbidden_truncations: ["/pull/", "/wiki/", "/issues/", "/tree/", "/blob/", "#L"]
+    case_sensitive_preservation: true # Do not force lowercase on URL paths.
   
   consolidation_policy:
     allow_on_404: true        # Only truncate to root if deep link is dead.
     update_metadata: true     # If link changes, update only in the BBDD.
+    auto_heal_github_branches: true # Automatically try master -> main if 404.
 
 # -----------------------------------------------------------------------------
 # V2 PORTAL: THE ELITE SHOWCASE (AI-Centric / Optimized)

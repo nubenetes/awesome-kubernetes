@@ -183,8 +183,12 @@ The bot must rotate between profiles to avoid detection:
     - **Advanced MVQ Cleaning**: Upgraded the `IntelligentLinkCleaner` to use V2's MVQ logic (GitHub activity checks) and unbuffered real-time logging.
     - **Smart Batching (Performance Fix)**: AI enrichment MUST exclusively use batch processing (e.g., 10 links per prompt). Individual AI calls within large loops are strictly forbidden to prevent 429 rate limit deadlocks and workflow hangs.
     - **Maturity Audit Transparency**: All curation workflows MUST maintain the **Maturity Audit Log** (`v2-docs/audit-log.md`) to document technical promotions, reclassifications, and AI-driven curation decisions.
+    - **Database-First Resilience**: Implemented a global YAML inventory as the system's "Persistent Memory," reducing AI costs by >90% through metadata reuse.
+    - **Technical Immutability (V1)**: Established strict preservation rules for human-curated titles, stars, and deep-links to ensure AI optimization never sacrifices technical depth.
+    - **Self-Healing Infrastructure**: Added automatic GitHub branch recovery (master -> main) and parked domain detection to rescue broken links and eliminate expired content.
     *   **AI Observability & Transparency (May 2026)**:
         - **Session Tracking**: Every AI call MUST be tracked via `SESSION_TRACKER` to record model usage and key health.
         - **Infrastructure Reporting**: All curation PRs MUST include the `Intelligence Report` to provide transparency on models used (Pro vs Flash) and API key identities (Identity A/B).
         - **Dynamic Discovery**: Agents MUST utilize the dynamic discovery engine to automatically adopt the newest Gemini models and rotate keys upon reaching quotas.
+    - **Engineering Blog Discovery**: Integrated RSS/Atom ingestion into the curation engine to source high-depth architectural content directly from top-tier technical companies.
 

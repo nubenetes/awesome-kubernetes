@@ -164,12 +164,34 @@ async def resolve_url(url: str) -> str:
             except: break
     return final_url
 
+def normalize_url(url: str) -> str:
+    """
+    Normalización de URLs de alta precisión para Nubenetes.
+    Preserva anclajes de línea (#L) y evita forzar minúsculas en rutas profundas.
+    """
+    if not url: return ""
+    
+    # 1. Separar fragmento (pero preservar si es técnico como #L123)
+    fragment = ""
+    if "#" in url:
+        url, fragment = url.split("#", 1)
+        if not re.match(r'^L\d+', fragment): fragment = "" # Solo preservamos anclajes de línea
+    
+    # 2. Limpiar parámetros de tracking social (UTM, etc.)
+    url = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+|fbclid=[^&]+)', '', url)
+    url = url.rstrip("/").rstrip("?")
+    
+    # 3. Normalizar protocolo y dominio (Case Insensitive)
+    match = re.match(r'^(https?://)([^/]+)(.*)', url, re.IGNORECASE)
+    if match:
+        proto, domain, path = match.groups()
+        # El dominio es Case-Insensitive, el path puede ser Case-Sensitive
+        url = f"https://{domain.lower()}{path}"
+    
+    return f"{url}#{fragment}" if fragment else url
+
 def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
-    def clean(u):
-        u = u.split('#')[0].rstrip('/').lower()
-        u = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+)', '', u)
-        return u[:-1] if u.endswith('?') else u
-    return clean(url_a) == clean(url_b)
+    return normalize_url(url_a) == normalize_url(url_b)
 
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
