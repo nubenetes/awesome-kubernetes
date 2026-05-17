@@ -20,22 +20,22 @@
 - [dzone: Introduction to Liquibase and Managing Your Database Source Code](https://dzone.com/articles/introduction-to-liquibase-and-managing-your-databa)
 - [dzone: Managing Your Database With Liquibase and Gradle](https://dzone.com/articles/managing-your-database-with-liquibase-and-gradle)
 - [dzone: Executing Liquibase: 3 Use Cases](https://dzone.com/articles/executing-liquibase-3-use-cases)
-- [percona: Database Schema Management Via Liquibase](https://www.percona.com/community-blog/2020/10/01/database-schema-management-via-liquibase/)
+- [percona: Database Schema Management Via Liquibase](https://percona.community/blog//)
 - [piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes/)
 
 ## Flyway
 
-- [Flyway](https://flywaydb.org/) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.
+- [Flyway](https://www.red-gate.com/products/flyway/community//) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.
 - [dzone: Build a Spring Boot App With Flyway and Postgres](https://dzone.com/articles/build-a-spring-boot-app-with-flyway-and-postgres) 
 
 ## Liquibase vs. Flyway
 
-- [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.org/liquibase-vs-flyway)
+- [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.com/liquibase-vs-flyway)
 - [medium: Database version control — Liquibase versus Flyway](https://medium.com/@ruxijitianu/database-version-control-liquibase-versus-flyway-9872d43ee5a4)
 
 ## PlanetScale
 
-- [docs.planetscale.com: The PlanetScale workflow 🌟](https://docs.planetscale.com/concepts/planetscale-workflow) Use the PlanetScale workflow for branching databases, non-blocking schema changes and more.
+- [docs.planetscale.com: The PlanetScale workflow 🌟](https://planetscale.com/docs/vitess/best-practices) Use the PlanetScale workflow for branching databases, non-blocking schema changes and more.
 
 ## Bytebase
 
