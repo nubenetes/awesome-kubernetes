@@ -236,7 +236,6 @@
 ## GitOps Tools
   - [EntraExporter](https://github.com/microsoft/entraexporter) - *(Related to azure topic)*
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 - A Terraform component from Cloud Posse for provisioning Argo CD on AWS EKS, facilitating declarative GitOps continuous delivery for Kubernetes. Note that Argo CD CRDs need separate installation.
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - *(Related to cicd topic)*
   - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) 🌟 - Microsoft is announcing the private preview of ArgoCD delivered as a cluster extension for Azure Kubernetes Service (AKS) and Azure Arc-enabled Kubernetes. This offering aims to provide a consistent management, security, and deployment experience for ArgoCD across heterogeneous environments, complementing existing Flux support. Key advantages highlighted include simplified deployment, managed upgrades, official supportability, integration with Azure identity, and sample application deployments.
 
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
@@ -295,7 +294,7 @@
 
 ### Jenkins
 
-- There are many tools in the market that have been technically built for GitOps, like [ArgoCD](https://argoproj.github.io/argo-cd/), [Flux](https://github.com/fluxcd/flux), and [Jenkins X](https://jenkins-x.io/). All these tools have in-built proficiency to implement GitOps process for you. But we are going to use our old beloved Jenkins.
+- There are many tools in the market that have been technically built for GitOps, like [ArgoCD](https://github.com/argoproj/argo-cd/), [Flux](https://github.com/fluxcd/flux), and [Jenkins X](https://jenkins-x.io/). All these tools have in-built proficiency to implement GitOps process for you. But we are going to use our old beloved Jenkins.
 - [GitOps for Kubernetes with Jenkins](https://medium.com/stakater/gitops-for-kubernetes-with-jenkins-7db6304216e0)
     - [github.com/stakater/Xposer](https://github.com/stakater/Xposer) (with fabric8 java client library for kubernetes)
 - [GitOps with Jenkins and Kubernetes](https://medium.com/@abhishekbhardwaj510/gitops-with-jenkins-and-kubernetes-c20425244c73)
