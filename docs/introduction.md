@@ -378,7 +378,7 @@
 
 ## Microservices Best Practices and Design Patterns
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) - *(Related to kubernetes-tutorials topic)*
-  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) - *(Related to golang topic)*
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices) - *(Related to golang topic)*
   - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-app-service) - *(Related to azure topic)*
 
 - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) In this article, we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.
