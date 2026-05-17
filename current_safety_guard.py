@@ -26,13 +26,6 @@ class SafetyGuard:
             except: return {}
         return {}
 
-    def _load_exempt_files(self):
-        try:
-            with open("data/link_rules.yaml", "r") as f:
-                rules = yaml.safe_load(f)
-                return rules.get("hierarchy_rules", {}).get("toc_exempt_files", [])
-        except: return []
-
     def validate_data_integrity(self, old_inventory: dict):
         """Mandate 1: Protección de Información."""
         for url, old_meta in old_inventory.items():
@@ -68,8 +61,11 @@ class SafetyGuard:
                 v1_path = os.path.join(V1_DIR, file_name)
                 if os.path.exists(v1_path):
                     v1_links = re.findall(r'\[.*?\]\((https?://.*?)\)', open(v1_path, "r").read())
+                    # Check if these links exist in the inventory marked with this original_file
                     for link in v1_links:
                         nu = normalize_url(link)
+                        # We can't easily check if it's in the V2 rendered file here without complex parsing,
+                        # but we can check if it's in the inventory and not dead.
                         if nu in self.inventory and self.inventory[nu].get("status") == "online":
                             if not self.inventory[nu].get("v2_locations"):
                                 self.errors.append(f"💎 **Special Asset Leak**: `{link}` from `{file_name}` is missing in V2 portal")
@@ -83,7 +79,7 @@ class SafetyGuard:
                     try:
                         last_date = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
                         inactive_years = (datetime.now(last_date.tzinfo) - last_date).days / 365
-                        stars = meta.get("gh_stars", meta.get("stars", 0) * 100) 
+                        stars = meta.get("gh_stars", meta.get("stars", 0) * 100) # Fallback estimate
                         if inactive_years > 4 and stars < 30:
                             self.warnings.append(f"🏚️ **MVQ Violation**: Stale repo `{url}` (>4yrs) in V2 with low impact")
                     except: pass
@@ -94,6 +90,7 @@ class SafetyGuard:
         for file in os.listdir(V2_DIR):
             if file.endswith(".md"):
                 content = open(os.path.join(V2_DIR, file), "r").read()
+                # Find links that are non-English in inventory but missing tag in MD
                 for url, meta in self.inventory.items():
                     lang = meta.get("language", "English")
                     if lang.lower() != "english" and url in content:
@@ -110,45 +107,54 @@ class SafetyGuard:
             missing = [f for f in required if f not in meta]
             if missing:
                 new_count += 1
-                if new_count < 10:
+                if new_count < 10: # Don't overwhelm
                     self.warnings.append(f"🧬 **Schema Incomplete**: `{url}` missing {missing}")
 
     def validate_v2_architecture(self):
         """Mandato 28: Estructura O'Reilly y V2 Flat Navigation."""
         if not os.path.exists(V2_DIR): return
-        exempt_files = self._load_exempt_files()
         for file in os.listdir(V2_DIR):
             if file.endswith(".md") and file != "index.md":
-                if file in exempt_files: continue
                 content = open(os.path.join(V2_DIR, file), "r").read()
                 if "## Table of Contents" not in content:
                     self.errors.append(f"📚 **V2 TOC Missing**: `{file}`")
                 if "### " not in content:
                     self.errors.append(f"📚 **V2 Too Flat**: `{file}` (Missing H3 subtopics)")
+                if "#### " not in content and "Introduction" not in content:
+                    # Not an error but a recommendation for O'Reilly style
+                    pass
 
     def validate_navigation_sync(self):
         """Mandate 11: Sincronización entre Workflow y Config."""
         if not os.path.exists(WORKFLOW_PATH) or not os.path.exists(CURATION_SOURCES_PATH): return
+        
         with open(CURATION_SOURCES_PATH, "r") as f:
             sources = yaml.safe_load(f).get("sources", [])
         topics = [s["topic"] for s in sources]
+        
         workflow_content = open(WORKFLOW_PATH, "r").read()
+        # Look for include_XXX inputs
+        # This is a bit loose but helps
         for topic in topics:
+            # Check if common keywords from topic are in workflow
             keywords = re.findall(r'\w+', topic.lower())
-            found = any(kw in workflow_content.lower() for kw in keywords)
+            found = False
+            for kw in keywords:
+                if kw in workflow_content.lower():
+                    found = True; break
             if not found:
                 self.warnings.append(f"🔄 **Sync Warning**: Topic `{topic}` might not be represented in `{WORKFLOW_PATH}` inputs")
 
     def validate_toc_and_anchors(self):
         """🛠️ Structural Evolution: TOC Consistency & Lowercase Slugs."""
-        exempt_files = self._load_exempt_files()
         for root, _, files in os.walk(V1_DIR):
             for file in files:
                 if file.endswith(".md"):
-                    if file in exempt_files: continue
                     content = open(os.path.join(root, file), "r").read()
                     if "## Table of Contents" not in content and len(re.findall(r'^## ', content, re.M)) > 2:
                         self.warnings.append(f"📍 **V1 TOC Missing**: `{file}` has many sections but no TOC")
+                    
+                    # Check anchors in TOC (should be lowercase)
                     anchors = re.findall(r'\(#([^\)]+)\)', content)
                     for a in anchors:
                         if any(c.isupper() for c in a):
@@ -157,11 +163,13 @@ class SafetyGuard:
     def generate_audit_report(self, old_inv_path=None) -> str:
         """Generates a comprehensive Markdown report based on ALL Mandates."""
         log_event("[Safety] Executing Full Mandate Audit (GEMINI.md compliance)...")
+        
         if old_inv_path and os.path.exists(old_inv_path):
             try:
                 with open(old_inv_path, "r") as f:
                     self.validate_data_integrity(yaml.safe_load(f) or {})
             except: pass
+        
         self.validate_semantic_interlinking()
         self.validate_special_assets_completeness()
         self.validate_mvq_compliance()
@@ -170,9 +178,13 @@ class SafetyGuard:
         self.validate_v2_architecture()
         self.validate_navigation_sync()
         self.validate_toc_and_anchors()
+        
         status = "✅ PASS" if not self.errors else "❌ FAILED"
         if not self.errors and self.warnings: status = "⚠️ WARNING"
-        report = f"\n## 🛡️ Safety & Mandate Audit: {status}\n*Audit executed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+        
+        report = f"\n## 🛡️ Safety & Mandate Audit: {status}\n"
+        report += f"*Audit executed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+        
         if not self.errors and not self.warnings:
             report += "✨ **All project mandates from GEMINI.md and technical integrity checks passed successfully.**\n"
         else:
@@ -180,11 +192,13 @@ class SafetyGuard:
                 report += "### 🔴 Critical Failures (Mandate Violations)\n"
                 for err in self.errors: report += f"- {err}\n"
                 report += "\n"
+            
             if self.warnings:
                 report += "### 🟡 Warnings & Recommendations\n"
                 report += "<details><summary>Click to view " + str(len(self.warnings)) + " recommendations</summary>\n\n"
                 for warn in self.warnings: report += f"- {warn}\n"
                 report += "\n> 💡 **Note**: Warnings suggest improvements to align with Nubenetes Excellence standards.\n</details>\n"
+        
         return report
 
 if __name__ == "__main__":

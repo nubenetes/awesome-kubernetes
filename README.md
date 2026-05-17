@@ -57,7 +57,8 @@
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
 14. [14. Special Assets and Learning Paths](#14-special-assets-and-learning-paths)
     *   [14.1. Special Assets Management](#141-special-assets-management)
-    *   [14.2. O'Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
+    *   [14.2. O.Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
+    *   [14.3. TOC and Structural Exceptions](#143-toc-and-structural-exceptions)
     *   [12.1. Extension Recommendations](#121-extension-recommendations)
     *   [12.2. Recommended settings.json](#122-recommended-settingsjson)
 13. [13. Repository Inventory and Configuration](#13-repository-inventory-and-configuration)
@@ -724,3 +725,8 @@ The V2 Portal is structured as a sophisticated technical reference guide, moving
 - **Gateway Hub Navigation**: Strategic dimensions are semantically interconnected, with a dedicated **Microservices Guide** extracted for high-density focus.
 - **Structured Assimilation**: Information is grouped into technical Areas, Topics, and Subtopics, facilitating learning from foundational theory to advanced engineering internals.
 - **Contextual Hierarchy**: Every page features an automated, clickable Table of Contents (TOC) with nested anchors for precise technical navigation.
+
+### 📑 TOC and Structural Exceptions
+Certain files are exempt from the mandatory Table of Contents (TOC) and deep-hierarchy requirements. These include configuration-heavy files (e.g., `mkdocs.md`) and large technical tables (e.g., `matrix-table.md`) where a navigational index is unnecessary or distracting.
+- **Automatic Skip**: The Agentic Curator and V2 Builder automatically bypass these files during structural reorganization cycles.
+- **Exception Registry**: Exemptions are managed via the `toc_exempt_files` list in [`data/link_rules.yaml`](data/link_rules.yaml).

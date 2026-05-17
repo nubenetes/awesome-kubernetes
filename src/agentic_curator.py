@@ -216,20 +216,41 @@ class AgenticCurator:
         return content + f"\n{line}" if "##" in content else content + f"\n\n## Tools and Resources\n{line}"
 
     async def suggest_reorganization(self):
-        log_event("[*] Starting Internal Reorganization Audit...", section_break=True)
+        log_event("[*] Starting Internal Reorganization & TOC Audit...", section_break=True)
+        # Load Special Assets & Link Rules for exceptions
         special_rules = {}
+        exempt_files = []
         if os.path.exists("data/special_assets.yaml"):
-            try:
-                with open("data/special_assets.yaml", "r") as f: special_rules = {sa["file"]: sa for sa in yaml.safe_load(f).get("special_assets", [])}
+            try: special_rules = {sa["file"]: sa for sa in yaml.safe_load(open("data/special_assets.yaml"))["special_assets"]}
             except: pass
+        if os.path.exists("data/link_rules.yaml"):
+            try: exempt_files = yaml.safe_load(open("data/link_rules.yaml"))["hierarchy_rules"].get("toc_exempt_files", [])
+            except: pass
+
         for file in os.listdir(self.docs_dir):
-            if not file.endswith(".md") or file == "index.md": continue
-            path = os.path.join(self.docs_dir, file); content = open(path, "r").read()
-            is_special = file in special_rules; link_count = len(re.findall(r"^\s*-\s*\[", content, re.MULTILINE))
-            if is_special or (link_count > 25 and len(re.findall(r"^## ", content, re.M)) < 2):
-                log_event(f"  [!] REORGANIZING: {file}")
-                instruction = "SOPHISTICATED O'REILLY HIERARCHY: Create nested sections (##) and subsections (###). Group by technical AREAS, TOPICS, and SUBTOPICS. Preserve all links." if is_special else "Group into logical sections (##)."
-                prompt = f"You act as a Technical Content Architect. Reorganize the file '{file}' based on: {instruction}\nCONTENT:\n{content[:5000]}"
+            if not file.endswith(".md") or file == "index.md" or file in exempt_files: continue
+            path = os.path.join(self.docs_dir, file)
+            with open(path, "r") as f: content = f.read()
+            
+            is_special = file in special_rules
+            link_count = len(re.findall(r"^\s*-\s*\[", content, re.MULTILINE))
+            headers = re.findall(r"^##+ ", content, re.MULTILINE)
+            
+            # --- FEATURE: Automatic TOC Injection for V1 ---
+            if len(headers) >= 3 and "Table of Contents" not in content:
+                log_event(f"  [+] INJECTING TOC: {file}")
+                content = await self._rebuild_toc(content)
+                with open(path, "w") as f: f.write(content)
+            
+            # Reorganize if special OR if flat and large
+            if is_special or (link_count > 25 and len(headers) < 2):
+                log_event(f"  [!] REORGANIZING: {file} ({'Special' if is_special else 'Standard'})")
+                instruction = (
+                    "SOPHISTICATED O'REILLY HIERARCHY: Create nested sections (##) and subsections (###). "
+                    "Group links by technical AREAS, TOPICS, and SUBTOPICS. Preserve all links."
+                    if is_special else "Group into logical sections (##)."
+                )
+                prompt = f"You act as a Technical Content Architect. Reorganize '{file}' based on: {instruction}\nCONTENT:\n{content[:5000]}"
                 try:
                     reorg = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
                     if len(reorg) > len(content) * 0.7:

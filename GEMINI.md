@@ -88,6 +88,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **AI Dimension Naming**: Prioritize industry-standard terms (e.g., "AI and Artificial Intelligence" instead of internal jargon) for top-level navigation.
     - **Content Extraction**: High-value sub-topics may be extracted into dedicated documents (e.g., "Microservices" content extracted from `introduction.md` into `microservices.md`) to maintain high-density focus.
 
+29. **TOC & Structural Exceptions**: Certain files (configuration-heavy or technical tables like `mkdocs.md` or `matrix-table.md`) are exempt from TOC and deep-hierarchy requirements. These exceptions MUST be respected by all agents to avoid unnecessary structural clutter in non-navigational files as defined in [`data/link_rules.yaml`](data/link_rules.yaml).
+
 ## 🛠️ Structural Evolution & Navigation
 ...
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.

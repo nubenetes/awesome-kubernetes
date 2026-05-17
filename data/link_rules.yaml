@@ -57,6 +57,13 @@ hierarchy_rules:
   naming_convention: "Technical Area > Topic > Subtopics"
   v1_reorganization: true     # Use deep hierarchy to rebuild V1 file sections.
   v2_nesting: true            # Enable H2 -> H3 -> H4 -> H5 mapping in V2.
+  toc_exempt_files:           # Files that do NOT require a Table of Contents (V1/V2).
+    - "mkdocs.md"
+    - "yesterday_mkdocs.yml"
+    - "mkdocs.yml"
+    - "v2-mkdocs.yml"
+    - "matrix-table.md"
+    - "jvm-parameters-matrix-table.md"
 
 # -----------------------------------------------------------------------------
 # PLATINUM METADATA: ADVANCED LIFECYCLE MANAGEMENT
