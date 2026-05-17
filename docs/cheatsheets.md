@@ -177,7 +177,7 @@
 - [blog.mimacom.com: Kubernetes Cheat Sheet](https://blog.mimacom.com/kubernetes-cheat-sheet/)
 - [github: K8s in 30 mins 🌟](https://github.com/r0hi7/k8s-In-30Mins) This is not a comprehensive guide to learn Kubernetes from scratch, rather this is just a small guide/cheat sheet to quickly setup and run applications with Kubernetes and deploy a very simple application on single workload VM. This repo can be served as quick learning manual to understand Kubernetes.
 - [kunchalavikram1427: kubernetes Public](https://github.com/kunchalavikram1427/Kubernetes_public)
-    - [kunchalavikram1427: kubernetes Commands](https://github.com/kunchalavikram1427/Kubernetes_public/blob/master/Kubernetes_Commands.txt)
+    - [kunchalavikram1427: kubernetes Commands](https://github.com/kunchalavikram1427/kubernetes_public)
 - [betterprogramming.pub: Awesome Kubernetes Command-Line Hacks](https://betterprogramming.pub/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
 - [thechief.io: The Definitive Kubectl Cheat Sheet](https://thechief.io/c/editorial/definitive-kubectl-cheat-sheet/)
 - [ithands-on.com: Kubernetes 101 : kubectl - communication with pods and containers / running commands inside pods and containers](https://www.ithands-on.com/2021/05/kubernetes-101-kubectl-communication.html)
@@ -263,8 +263,8 @@
 - [education.github.com: Git cheat sheet 🌟](https://education.github.com/git-cheat-sheet-education.pdf)
 - [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
 - [git-tower.com: Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
-- [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
-    - [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+- [rogerdudler.github.io: git - the simple guide 🌟](https://github.com/rogerdudler/git-guide) Just a simple guide for getting started with git. no deep shit ;)
+    - [rogerdudler.github.io: git cheat sheet pdf](https://github.com/rogerdudler/git-guide)
 - [towardsdatascience.com: 18 Git Commands I Learned During My First Year as a Software Developer](https://towardsdatascience.com/git-commands-cheat-sheet-software-developer-54f6aedc1c46)
 - [dzone: Top 35 Git Commands With Examples 🌟](https://dzone.com/articles/top-35-git-commands-with-examples-and-bonus) Git commands are essential, and they help to manage your source code effectively. In this guide, you will learn Git commands from Beginners to Advanced level.
 - [==gitexplorer.com: Git Command Explorer== 🌟🌟](https://gitexplorer.com/) Find the right commands you need without digging through the web.
@@ -275,7 +275,7 @@
 - [==geeksforgeeks.org: Essential Git Commands== 🌟](https://www.geeksforgeeks.org/essential-git-commands/)
 - [dev.to: Git Cheat Sheet- 20 commands I Use Everyday | Tabassum Khanum](https://dev.to/codewithtee/git-cheat-sheet-20-commands-i-use-everyday-47h9)
 - Find the first commit you ever made: ```git log --reverse```
-- [==joshnh/Git-Commands== 🌟](https://github.com/joshnh/Git-Commands/blob/master/README.md) A list of commonly used Git commands
+- [==joshnh/Git-Commands== 🌟](https://github.com/joshnh/git-commands) A list of commonly used Git commands
 - [dev.to: Git Commands Cheatsheet: Advanced (20+ Git Commands Advanced )](https://dev.to/aashiya123/git-commands-cheatsheet-advanced-20-git-commands-advanced--35i3)
 - [dev.to: Git Cheat Sheet 📄 (50 commands + Free PDF and poster)](https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn)
 - [enlear.academy: 20 Git Commands Every Developer Should Know](https://enlear.academy/26-git-command-i-use-all-the-time-cheatsheet-6c5682ded2af) 20 Git Command I Use All The Time — Git CheatSheet
@@ -327,7 +327,6 @@
 - [commandlinefu.com](https://www.commandlinefu.com/)
 - [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)
 - [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)
-- [NetworkManager CLI cheatsheet](https://github.com/neilhwatson/nustuff/blob/master/networking/nmcli.md)
 - [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html)
 - [opensource.com: Linux Parted cheat sheet](https://opensource.com/downloads/parted-cheat-sheet)
 - [opensource.com: GNU Screen cheat sheet](https://opensource.com/downloads/gnu-screen-cheat-sheet)
@@ -452,7 +451,7 @@
 - [markdownguide.org](https://www.markdownguide.org/)
     - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
 - [guides.github.com: Markdown Cheat Sheet 2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here)
 - [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet/)
 
 ## Kafka
@@ -488,7 +487,7 @@
 - [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/CheatSheets)
 - [github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟](https://github.com/enochtangg/quick-SQL-cheatsheet) A quick reminder of all SQL queries and examples on how to use them.
 - [hackr.io: SQL Commands Tutorial: DDL, DML, TCL and DQL Commands](https://hackr.io/blog/sql-commands)
-- [==github.com/swapnakpanda: SQL_CheatSheet.png==](https://github.com/swapnakpanda/Infographics/blob/main/Cheat%20Sheet/Database/SQL_CheatSheet.png)
+- [==github.com/swapnakpanda: SQL_CheatSheet.png==](https://github.com/swapnakpanda/infographics)
 - [TSQL and SQL Queries Cheat Sheet](https://helpercodes.com/sql-query-cheatsheet-tutorial/)
 - [dev.to: Optimizing SQL Queries by 23x!!!](https://dev.to/navneet7716/optimizing-sql-queries-h9j)
 
@@ -512,7 +511,7 @@
 - https://blog.finxter.com/python-cheat-sheets
 - https://www.pythoncheatsheet.org
 - [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c)
-- [github.com/ekramasif: Basic Machine Learning - Python Cheatsheet](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb)
+- [github.com/ekramasif: Basic Machine Learning - Python Cheatsheet](https://github.com/ekramasif/basic-machine-learning)
 
 ## Go
 
@@ -521,7 +520,7 @@
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
 
 ## NodeJS
-  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) - *(Related to golang topic)*
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices) - *(Related to golang topic)*
 
 - [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)
 
