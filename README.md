@@ -618,15 +618,36 @@ We welcome links to high-quality repositories, architectural guides, masterclass
 
 ## 12. Developer Experience and VSCode Setup
 
-> **⚠️ Note on Obsolescence:** The manual editing process via VSCode described below is becoming **largely obsolete** as of May 2026. With the introduction of autonomous Gemini-powered AI agents in our GitHub Workflows, the vast majority of curation, link validation, and metric updates are now handled automatically. This setup is preserved only for emergency manual interventions or structural architectural changes.
+Nubenetes is optimized for a high-velocity developer experience, combining specialized VS Code configurations with local automation tools.
 
-### 12.1. Extension Recommendations
+### 12.1. Optimized "Power User" Environment
+While Nubenetes is managed autonomously, the local development environment is configured for maximum precision and speed. The following setup is used by the core maintainers (specifically optimized for **Chromebook Plus** environments):
+
+*   **Extensions for Quality and Speed**:
+    *   **GitLens & Git Graph**: Total visibility into the repository history and branch architecture.
+    *   **Markdown All in One & markdownlint**: Mandatory for maintaining the technical integrity of the 160+ documentation pages.
+    *   **Code Spell Checker (EN/ES)**: Multilingual typo detection to ensure professional-grade content.
+    *   **Prettier**: Standardized formatting for YAML, JSON, and Python.
+    *   **Kubernetes & YAML (RedHat)**: Rich IntelliSense and schema validation for the project's core technical assets.
+*   **Local Automation with `act` and Docker**:
+    *   The environment includes [**`act`**](https://github.com/nektos/act) to run GitHub Actions locally, allowing for instant testing of curation and build workflows without pushing to GitHub.
+*   **GitHub CLI (`gh`) Enhancements**:
+    *   Custom aliases for rapid PR management: `gh prs` (List my PRs) and `gh rv` (List PRs awaiting my review).
+*   **Chromebook Plus Optimization**:
+    *   **Automated Port Forwarding**: Configured to automatically forward port `8000` (MkDocs) and open the ChromeOS browser the moment the local server starts, bridging the gap between the Linux container and the host OS seamlessly.
+
+### 12.2. Extension Recommendations (Legacy/General)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - **Mandatory** for automatic TOC generation and list management.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Ensures style consistency.
 - [Mermaid Editor](https://marketplace.visualstudio.com/items?itemName=tomoyukim.vscode-mermaid-editor) - To visualize the architecture diagrams.
 - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) - To review AI-generated curation PRs.
 
-### 12.2. Recommended settings.json
+### 12.3. Automated VS Code Tasks
+The repository includes a `.vscode/tasks.json` file to automate frequent operations:
+*   **MkDocs: Serve (Local)**: Launches the local preview server on `localhost:8000`.
+*   **Agentic: Run Curation**: Executes the core AI curation engine (`src/main.py`) for local testing.
+
+### 12.4. Recommended settings.json
 
 ```json
 {
@@ -640,15 +661,14 @@ We welcome links to high-quality repositories, architectural guides, masterclass
     "editor.tabSize": 4,
     "window.zoomLevel": -1,
     "markdownlint.config": {
-        "default": true,
         "MD013": false,
         "MD033": false,
         "MD007": { "indent": 4 },
         "no-hard-tabs": false
     },
-    "editor.defaultFormatter": "vscode.github",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[markdown]": {
-        "editor.defaultFormatter": "vscode.github"
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
     "markdownlint.focusMode": false,
     "editor.renderWhitespace": "all",
@@ -656,6 +676,17 @@ We welcome links to high-quality repositories, architectural guides, masterclass
     "files.exclude": {
         "**/.venv": true,
         "**/__pycache__": true
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "github.pullRequests.focusedMode": true,
+    "editor.formatOnSave": true,
+    "git.terminalAuthentication": true,
+    "remote.portsAttributes": {
+        "8000": {
+            "label": "MkDocs Server (Nubenetes)",
+            "onAutoForward": "openBrowserOnce"
+        }
     }
 }
 ```
