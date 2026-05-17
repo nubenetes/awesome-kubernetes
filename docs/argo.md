@@ -14,9 +14,9 @@
 - [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd) High-level explanation of in which cases Argo CD makes sense and what you should keep in mind if you want to use it.
 
 ## Argo CD
-  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) 🌟 - This pull request introduces the ability to display the ApplicationSet resource as a parent in the Application Resource Tree within the Argo CD UI. This enhancement, now merged and part of Argo CD v3.5, allows users to see which ApplicationSet created or manages an application, providing a clearer understanding of application relationships.
+  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd) 🌟 - This pull request introduces the ability to display the ApplicationSet resource as a parent in the Application Resource Tree within the Argo CD UI. This enhancement, now merged and part of Argo CD v3.5, allows users to see which ApplicationSet created or manages an application, providing a clearer understanding of application relationships.
 
-- [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/)
+- [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://github.com/argoproj/argo-cd/)
 - [youtube: GitOps with Argo-CD & Kubernetes](https://www.youtube.com/watch?v=QrLwFEXvxbo&ab_channel=HoussemDellai)
 - [openshift.com: OpenShift Authentication Integration with ArgoCD](https://www.openshift.com/blog/openshift-authentication-integration-with-argocd)
 - [thenewstack.io: Applied GitOps with ArgoCD](https://thenewstack.io/applied-gitops-with-argocd/)
