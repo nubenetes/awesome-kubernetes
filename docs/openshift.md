@@ -63,7 +63,7 @@
 - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
 ## OpenShift on Public Cloud
 
-- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
+- OCP4 on AWS: [ref1](https://github.com/openshift/installer) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 - [Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
 - [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
@@ -255,7 +255,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
     - [docs.openshift.com: Configuring network policy with OpenShift SDN](https://docs.openshift.com/container-platform/4.4/networking/configuring-networkpolicy.html)
 - [NetworkPolicies and Microsegmentation](https://www.openshift.com/blog/networkpolicies-and-microsegmentation)
 - [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://blog.openshift.com/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator/)
-- [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
+- [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit)
 - [redhat.com: Network traffic control for containers in Red Hat OpenShift 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift)
 
 #### Network Security Zones
