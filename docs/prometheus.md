@@ -317,7 +317,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 #### Telegraf Collector
 
 - [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)
-- [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client)
+- [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf)
 - [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)
 - [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards?collector=Telegraf)
 - [dzone: Synthetic Monitoring With Telegraf (white-box monitoring) [ARCHIVED]]( http://web.archive.org/web/20220927234147/https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
@@ -419,7 +419,7 @@ Red Hat AMQ 7 Operator is fully supported in OpenShift 4.x, initially with Prome
 - References:
     - [activemq.apache.org/components/classic/documentation](https://activemq.apache.org/components/classic/documentation)
     - [grafana.com/grafana/dashboards/10702](https://grafana.com/grafana/dashboards/10702)
-    - [github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq)
+    - [github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq](https://github.com/influxdata/telegraf)
     - [docs.wavefront.com/activemq.html](https://docs.wavefront.com/activemq.html)
 
 #### Deployment and Configuration
