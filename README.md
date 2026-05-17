@@ -119,6 +119,7 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 - **Autonomous Source Discovery**: The engine autonomously scans the technical web for emerging blogs and "Awesome" repos, expanding its own curation horizons without manual input.
 - **Universal Rescue Protocol**: A strict "No Knowledge Left Behind" policy that salvages technical assets during corporate acquisitions and site migrations (e.g., Ansible, Nginx, AWS).
 - **Foundational Preservation**: Automatic protection of high-value resources (marked with 🌟 or bold formatting), ensuring they are never deleted without manual human review.
+- **README Integrity Guardrail**: An automated "Hard Safety Gate" that validates the presence and correct hierarchy of all 15 technical sections before any documentation update is committed, preventing accidental information loss.
 
 ---
 
@@ -580,6 +581,7 @@ graph LR
 
 ### 9.5. Automated Mandate Auditing
 Every Pull Request includes a non-blocking **Safety and Mandate Audit** report cross-referencing changes against [`GEMINI.md`](GEMINI.md) (Data Integrity, Architecture, MVQ, Linguistics).
+- **README Integrity**: A dedicated "Hard Safety Gate" (`src/safety_readme.py`) ensures that all 15 mandatory technical sections are preserved during automated metric updates.
 
 ### 9.6. Multi-Part Reporting Engine
 To handle the scale of 17k+ resources, the engine automatically fragments reports into multiple successive PR comments, ensuring 100% observability without data truncation.
