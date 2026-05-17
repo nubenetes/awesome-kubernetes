@@ -148,7 +148,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Identify ONE primary_category and up to TWO related_categories.\n"
             "- DETECT source content LANGUAGE.\n"
             "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n"
-            "- Identify TECHNICAL AREA, TOPIC, and SUBTOPIC for high-precision grouping.\n"
+            "- Identify TECHNICAL_HIERARCHY: A list of strings representing Area > Topic > Subtopics (up to 10 levels deep).\n"
             "- For 'introduction.md', set is_microservice: true if context matches.\n"
             "PHASE 3: LINGUISTIC DIVERSITY & GLOBAL ACCESS\n"
             "- TITLE: Use the technical title.\n"
@@ -158,7 +158,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Identify RESOURCE_TYPE and complexity LEVEL.\n"
             "- Evaluate TECHNICAL IMPACT (1-100).\n"
             f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"area\": \"...\", \"topic\": \"...\", \"subtopic\": \"...\", \"is_microservice\": bool, \"reasoning\": \"...\"}"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"technical_hierarchy\": [\"Area\", \"Topic\", \"Subtopic1\", ...], \"is_microservice\": bool, \"reasoning\": \"...\"}"
         )
 
         try:
@@ -173,9 +173,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "en_summary": data.get("en_summary", data["desc"]),
                     "resource_type": data.get("resource_type", "Reference"),
                     "complexity": data.get("complexity", "Intermediate"),
-                    "area": data.get("area", "General"),
-                    "topic": data.get("topic", "Uncategorized"),
-                    "subtopic": data.get("subtopic", ""),
+                    "hierarchy": data.get("technical_hierarchy", ["General"]),
                     "is_microservice": data.get("is_microservice", False)
                 }
                 curator.inventory[norm_url] = {
@@ -184,9 +182,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "language": data.get("language", "English"),
                     "resource_type": data.get("resource_type", "Reference"),
                     "complexity": data.get("complexity", "Intermediate"),
-                    "area": data.get("area", "General"),
-                    "topic": data.get("topic", "Uncategorized"),
-                    "subtopic": data.get("subtopic", ""),
+                    "hierarchy": data.get("technical_hierarchy", ["General"]),
                     "is_microservice": data.get("is_microservice", False),
                     "year": year, "pub_date": data.get("pub_date", "N/A"), "post_date": asset.get("timestamp", "N/A"),
                     "stars": min(max(score // 20, 0), 5), "last_checked": datetime.now().timestamp(),

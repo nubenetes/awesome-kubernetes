@@ -35,6 +35,15 @@ v2_optimization_rules:
     github: ["stars", "last_commit", "topics"]
 
 # -----------------------------------------------------------------------------
+# HIERARCHY RULES: DEEP CONTEXTUAL INDEXING
+# -----------------------------------------------------------------------------
+hierarchy_rules:
+  max_depth: 10               # Maximum levels of nesting (e.g., Area > Topic > Sub1 > ... > Sub8).
+  naming_convention: "Technical Area > Topic > Subtopics"
+  v1_reorganization: true     # Use deep hierarchy to rebuild V1 file sections.
+  v2_nesting: true            # Enable H2 -> H3 -> H4 -> H5 mapping in V2.
+
+# -----------------------------------------------------------------------------
 # SYSTEM SAFETY: MKDOCS GUARD
 # -----------------------------------------------------------------------------
 safety_guard:
