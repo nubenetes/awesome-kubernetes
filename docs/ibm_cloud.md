@@ -20,10 +20,10 @@
 
 ## IBM Cloud
 
-- [IBM Cloud](https://www.ibm.com/cloud)
-- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
-- [IBM Knowledge Center 🌟](https://www.ibm.com/support/knowledgecenter/)
-- [IBM Leverages Containers to Advance DevOps on Mainframes](https://containerjournal.com/topics/container-ecosystems/ibm-leverages-containers-to-advance-devops-on-mainframes/)
+- [IBM Cloud](https://www.ibm.com/solutions/cloud)
+- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift)
+- [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en/)
+- [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes//)
 - [xataka.com: IBM se multiplica: la IBM de siempre mantiene el foco en la nube, pero crea una nueva empresa para los servicios de red gestionados 🌟](https://www.xataka.com/pro/ibm-se-parte-dos-109-anos-despues-nube-da-dinero-que-se-creara-empresa-centrada-ella)
 - [reuters.com: IBM to break up 109-year old company to focus on cloud growth 🌟](https://www.reuters.com/article/us-ibm-divestiture/ibm-to-break-up-109-year-old-company-to-focus-on-cloud-growth-idUSKBN26T1TZ)
 
@@ -31,32 +31,32 @@
 
 ## IBM API Connect
 
-- [IBM API Connect](https://developer.ibm.com/apiconnect/)
+- [IBM API Connect](https://www.ibm.com/docs/en/api-connect/)
 
 ## WebSphere Liberty with support of Java Microservices and Cloud Native Apps
 
 - [WebSphere Liberty](https://developer.ibm.com/wasdev/) A fast, light, awesome runtime for your Java apps and microservices, free for developers, and built on Open Liberty.
 - [Download WAS Liberty](https://developer.ibm.com/wasdev/downloads/)
-- [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty/) WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source [Open Liberty project](https://www.openliberty.io/). Ideal for developers but also ready for production, on-premise or in the cloud Liberty is a combination of IBM technology and open source software, with fast startup times (<2 seconds), no server restarts to pick up changes, and a simple XML configuration. All in [a package (with Java EE 8 Web Profile) that’s 80 MB to download](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-non-eclipse-environments/). You can be developing applications in no time. 
+- [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty/) WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source [Open Liberty project](https://openliberty.io/). Ideal for developers but also ready for production, on-premise or in the cloud Liberty is a combination of IBM technology and open source software, with fast startup times (<2 seconds), no server restarts to pick up changes, and a simple XML configuration. All in [a package (with Java EE 8 Web Profile) that’s 80 MB to download](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-non-eclipse-environments/). You can be developing applications in no time. 
 - [DockerHub: websphere-liberty](https://hub.docker.com/_/websphere-liberty/) Official IBM WebSphere Application Server for Developers Liberty image.
 
 ### Open Liberty
 
-- [openliberty.io](https://www.openliberty.io/) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
+- [openliberty.io](https://openliberty.io/) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
 - [github.com/openliberty](https://github.com/openliberty/)
 - [developers.redhat.com: Support for GraphQL with Open Liberty 20.0.0.6](https://developers.redhat.com/blog/2020/06/17/support-for-graphql-with-open-liberty-20-0-0-6/)
 
 ## Red Hat OpenShift on IBM Z and LinuxONE
 
-- [IBM and Red Hat bring OpenShift to IBM Z and LinuxONE](https://www.openshift.com/blog/ibm-and-red-hat-bring-openshift-to-ibm-z-and-linuxone)
-- [Red Hat OpenShift Installation Process Experiences on IBM Z/LinuxONE](https://www.openshift.com/blog/red-hat-openshift-installation-process-experiences-on-ibm-z-linuxone) This article only covers the installation process, for day 2 operations, keep in mind that no storage was configured for workloads that requires persistent storage.
-- [Installing OCP in a Mainframe z-series](https://www.openshift.com/blog/installing-ocp-in-a-mainframe-z-series)
+- [IBM and Red Hat bring OpenShift to IBM Z and LinuxONE](https://www.redhat.com/en/blog/ibm-and-red-hat-bring-openshift-to-ibm-z-and-linuxone)
+- [Red Hat OpenShift Installation Process Experiences on IBM Z/LinuxONE](https://www.redhat.com/en/blog/red-hat-openshift-installation-process-experiences-on-ibm-z-linuxone) This article only covers the installation process, for day 2 operations, keep in mind that no storage was configured for workloads that requires persistent storage.
+- [Installing OCP in a Mainframe z-series](https://www.redhat.com/en/blog/installing-ocp-in-a-mainframe-z-series)
 - [OpenShift Container Platform 4.2. Installing on IBM Z (html)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/installing_on_ibm_z)
 - [OpenShift Container Platform 4.2. Installing on IBM Z (pdf)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/pdf/installing_on_ibm_z)
 
 ### IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite
 
-- [IBM Spectrum](https://www.ibm.com/it-infrastructure/storage/spectrum) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
+- [IBM Spectrum](https://www.ibm.com/solutions) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
 - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## IBM Cloud Paks and OpenShift
@@ -64,7 +64,7 @@
 
 - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io/)
 - **What are IBM Cloud Paks?** Beyond containers and Kubernetes, enterprises need to orchestrate their production topology, and to provide management, security and governance for their applications. They need to do this while improving efficiency and resiliency, reducing costs and maximizing ROI.
-- IBM Cloud® Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud. Each IBM Cloud Pak® includes containerized IBM middleware and common software services for development and management, on top of a common integration layer — designed to **reduce development time by up to 84 percent and operational expenses by up to 75 percent**. **IBM Cloud Paks run wherever Red Hat® OpenShift® runs** and are optimized for productivity and performance on [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift).
+- IBM Cloud® Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud. Each IBM Cloud Pak® includes containerized IBM middleware and common software services for development and management, on top of a common integration layer — designed to **reduce development time by up to 84 percent and operational expenses by up to 75 percent**. **IBM Cloud Paks run wherever Red Hat® OpenShift® runs** and are optimized for productivity and performance on [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift).
 
 ### CloudPaks For Applications (CP4A)
 
@@ -79,8 +79,8 @@
 ### IBM Cloud Pak for Multicloud Management (CP4MCM)
 
 - Alternative to [Red Hat Advanced Cluster Management for Kubernetes](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
-- [IBM Cloud Pak for Multicloud Management](https://www.ibm.com/cloud/cloud-pak-for-management) Automated, end-to-end lifecycle management for applications and IT operations.
-- [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/support/knowledgecenter/SSFC4F) The IBM Cloud Pak for Multicloud Management, running on Red Hat® OpenShift®, provides consistent visibility, governance, and automation from on premises to the edge.
+- [IBM Cloud Pak for Multicloud Management](https://www.ibm.com/products/cloud-pak-for-aiops) Automated, end-to-end lifecycle management for applications and IT operations.
+- [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/docs/en/cloud-paks/cp-management) The IBM Cloud Pak for Multicloud Management, running on Red Hat® OpenShift®, provides consistent visibility, governance, and automation from on premises to the edge.
 - [medium.com/search?q=cp4mcm](https://medium.com/search?q=cp4mcm)
 - [medium: tagged/cp4mcm](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/tagged/cp4mcm)
     - [medium: IBM Multicloud Manager Cluster Sizing](https://medium.com/@cdoan/ibm-multicloud-manager-cluster-sizing-bc3b609b7de9)
