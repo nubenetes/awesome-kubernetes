@@ -438,6 +438,8 @@ graph TD
 
 ### 7.6. Strategic Benefits
 - **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
+- **Automated Semantic Interlinking (Mandate 5)**: AI agents identify technical relationships between categories and automatically inject cross-references (*"See also..."*) into the V1 archive, transforming it into an interconnected technical web.
+- **Executive Comparison Tables (V2 Premium)**: High-density categories in the V2 portal feature AI-generated technical comparison tables (Solution, Maturity, Focus, Language), providing instant decision support for architects.
 - **Structural Intelligence Persistence**: High-precision technical classification is stored as a persistent, **recursive hierarchy** (up to 10 levels deep). This allows all workflows to reuse deep structural insights, reducing AI costs by >90% and ensuring perfect consistency between V1 reorganization and V2 portal generation.
 - **Self-Healing Infrastructure**: The engine automatically detects and rescues broken links (e.g., GitHub `master` -> `main` branch migration) and identifies parked/expired domains that bypass standard health checks.
 - **Zero-to-Hero Learning Paths**: V2 resources are systematically grouped by complexity level (Fundamentals, Intermediate, Advanced, Architect), transforming the portal into a structured educational journey for Cloud Native engineering.

@@ -21,6 +21,21 @@ v1_preservation_rules:
     allow_on_404: true        # Only truncate to root if deep link is dead.
     update_metadata: true     # If link changes, update only in the BBDD.
     auto_heal_github_branches: true # Automatically try master -> main if 404.
+    v1_dedup_strategy: "Conservative" # Preserve human curation; only dedup exact URL matches.
+    v2_dedup_strategy: "Semantic"     # Consolidate multiple project URLs (e.g., site vs repo) into authoritative root.
+
+# -----------------------------------------------------------------------------
+# AI GENIALITY: SEMANTIC INTERLINKING & ANALYTICS
+# -----------------------------------------------------------------------------
+semantic_interlinking:
+  enabled: true
+  max_references: 2           # "See also" references in related categories.
+  format: "  - *See also: [%(title)s](%(url)s) in [%(category)s]*"
+
+executive_analytics:
+  comparison_tables: true     # Generate comparison tables for high-density V2 sections.
+  min_tools_for_table: 8      # Minimum 'Standard' tools to trigger a table.
+  table_fields: ["Maturity", "Language", "Stars", "Primary Use Case"]
 
 # -----------------------------------------------------------------------------
 # V2 PORTAL: THE ELITE SHOWCASE (AI-Centric / Optimized)

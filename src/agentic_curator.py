@@ -333,6 +333,49 @@ class AgenticCurator:
                         log_event(f"  [OK] Reorganized: {file}")
                 except Exception as e: log_event(f"  [!] Error: {e}")
 
+    async def apply_semantic_interlinking(self, evaluations: Dict[str, Dict]):
+        """
+        Implements Automated Semantic Interlinking (Mandate 5).
+        Adds 'See also' references to related categories to improve site navigation.
+        """
+        log_event("[*] Phase 5: Executing Semantic Interlinking (Mandate 5)...", section_break=True)
+        
+        for url, eval_data in evaluations.items():
+            if eval_data.get("status") != "INCLUDED": continue
+            
+            primary_cat = eval_data.get("category")
+            related_cats = eval_data.get("related_categories", [])
+            
+            for rel_cat in related_cats:
+                if not rel_cat or rel_cat == primary_cat: continue
+                
+                rel_path = os.path.join(self.docs_dir, f"{rel_cat}.md")
+                if not os.path.exists(rel_path): continue
+                
+                with open(rel_path, "r") as f: content = f.read()
+                
+                # Check if already interlinked
+                if url in content: continue
+                
+                log_event(f"  [+] Interlinking: {eval_data['title']} -> {rel_cat}.md")
+                
+                see_also = f"\n  - *See also: [{eval_data['title']}]({url}) in [{primary_cat.replace('-', ' ').title()}]*"
+                
+                # Inject at the end of the first H2 or at the end of the file
+                match = re.search(r'^## ', content, re.MULTILINE)
+                if match:
+                    # Find the next H2 or end of section
+                    next_h2 = re.search(r'^## ', content[match.end():], re.MULTILINE)
+                    if next_h2:
+                        pos = match.end() + next_h2.start()
+                        content = content[:pos] + see_also + "\n" + content[pos:]
+                    else:
+                        content += see_also
+                else:
+                    content += f"\n\n## Related Resources\n{see_also}"
+                
+                with open(rel_path, "w") as f: f.write(content)
+
     def validate_changes(self) -> bool: return True
 
 async def _enrich_rich_metadata(url: str, soup) -> Dict:

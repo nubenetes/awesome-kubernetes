@@ -352,6 +352,13 @@ async def master_orchestrator():
         if batch_index < len(all_raw_assets_batches) - 1:
             await asyncio.sleep(5)
 
+    # 5. Semantic Interlinking (Mandate 5)
+    if unique_new_assets:
+        try:
+            await curator_agent.apply_semantic_interlinking(evaluations)
+        except Exception as e:
+            log_event(f"  [!] Interlinking Error: {e}")
+
     # 6. Finalization, Report and PR
     pr_url = None
     if modified_files_content or full_report_metrics:

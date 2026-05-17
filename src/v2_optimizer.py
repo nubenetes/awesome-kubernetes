@@ -5,19 +5,17 @@ import asyncio
 import yaml
 import httpx
 from datetime import datetime
-from typing import List, Dict, Set, Any
+from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH, STRUCTURE_MAP_PATH
 from src.gemini_utils import call_gemini_with_retry, normalize_url
 from src.logger import log_event
 
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
-INVENTORY_PATH = "data/inventory.yaml"
-STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class V2VisionEngine:
     def __init__(self):
-        # Load Special Assets & Rules
+        # Load Config & Policy
         self.special_assets_rules = self._load_special_assets()
         self.link_rules = self._load_link_rules()
         self.max_depth = self.link_rules.get("hierarchy_rules", {}).get("max_depth", 10)
@@ -38,17 +36,17 @@ class V2VisionEngine:
         }
         
         self.library_criteria = (
-            "You are a Senior Technical Content Architect in 2026. Your mission is to organize a high-density technical reference portal "
-            "with the structure and logical flow of an advanced O'Reilly technical book.\n"
+            "You are a Senior Technical Architect in 2026. Your mission is to organize a high-density technical reference portal "
+            "structured like a professional technical book (O'Reilly style).\n"
             "PHASE 1: TECHNICAL PRESERVATION & CURATION\n"
             "- KEEP >90% of technical resources (except for 'introduction.md' where only high-impact links are kept).\n"
             "PHASE 2: SOPHISTICATED HIERARCHICAL CLASSIFICATION\n"
-            "- Identify TECHNICAL_HIERARCHY: A list of strings (max depth configured) representing Area > Topic > Subtopics.\n"
+            "- Identify TECHNICAL_HIERARCHY: A list of strings (max 10) representing Area > Topic > Subtopics.\n"
             "- For 'introduction.md', set is_microservice: true if context matches.\n"
             "PHASE 3: KNOWLEDGE ASSIMILATION FLOW\n"
-            "- Order hierarchy to facilitate a structured learning journey: from foundations to advanced internals.\n"
+            "- Order hierarchy to facilitate a structured learning journey.\n"
             "PHASE 4: MANDATORY DESCRIPTIONS\n"
-            "- If 'Current Desc' is empty, generate a professional 1-2 sentence summary. Style: O'Reilly technical, neutral.\n"
+            "- If 'Current Desc' is empty, generate a professional summary. Style: O'Reilly technical.\n"
         )
         self.inventory = self._load_inventory()
         self.structure_map = self._load_structure_map()
@@ -103,13 +101,14 @@ class V2VisionEngine:
         health_inventory = await self._verify_link_health(all_v1_links)
         log_event(f"[*] Health Check Complete. {len(health_inventory)} online.")
 
-        log_event("[*] Phase 2: Evaluation & Deep Indexing...")
+        log_event("[*] Phase 2: Evaluation & Deep Indexing (Semantic Dedup)...")
         library_inventory = await self._evaluate_and_score_resources(health_inventory)
-        
+        log_event(f"[*] Inventory Refined: {len(library_inventory)} items kept after semantic consolidation.")
+
         log_event("[*] Phase 3: Recursive Hierarchy Construction...")
         v2_data = await self._rebuild_structure(library_inventory)
         
-        log_event("[*] Phase 4: Generating Premium Portal Hubs...")
+        log_event("[*] Phase 4: Generating Premium Portal Hubs (Comparison Tables)...")
         os.makedirs(V2_DIR, exist_ok=True)
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         await self._sync_enterprise_navigation(v2_data)
@@ -165,47 +164,65 @@ class V2VisionEngine:
         return None
 
     async def _evaluate_and_score_resources(self, links: List[Dict]):
-        refined, to_evaluate = [], []
+        to_evaluate = []
+        project_registry = {} # {project_id: best_item}
         force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
-        special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
 
         for l in links:
             item = l.copy()
             norm_url = normalize_url(l["url"])
+            
+            # Identify Project Signature
+            project_id = norm_url
+            if "github.com" in norm_url:
+                match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
+                if match: project_id = match.group(1).lower()
+
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
                 item.update(cached)
-                if cached.get("hierarchy"): refined.append(item); continue
+                if cached.get("hierarchy"):
+                    if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
+                        project_registry[project_id] = item
+                    continue
             to_evaluate.append(item)
 
-        if not to_evaluate: return refined
+        if to_evaluate:
+            for i in range(0, len(to_evaluate), 50):
+                batch = to_evaluate[i:i+50]
+                prompt = (f"{self.library_criteria}\nRespond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\nLINKS:\n" + 
+                          "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)]))
+                try:
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True)
+                    for res in data.get("results", []):
+                        idx = int(res["idx"])
+                        if idx < len(batch):
+                            item = batch[idx].copy()
+                            norm_url = normalize_url(item["url"])
+                            p_id = norm_url
+                            if "github.com" in norm_url:
+                                m = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
+                                if m: p_id = m.group(1).lower()
 
-        for i in range(0, len(to_evaluate), 50):
-            batch = to_evaluate[i:i+50]
-            prompt = (f"{self.library_criteria}\nRespond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\nLINKS:\n" + 
-                      "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)]))
-            try:
-                data = await call_gemini_with_retry(prompt, prefer_flash=True)
-                for res in data.get("results", []):
-                    idx = int(res["idx"])
-                    if idx < len(batch):
-                        item = batch[idx].copy()
-                        norm_url = normalize_url(item["url"])
-                        eval_data = {
-                            "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
-                            "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
-                            "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
-                            "hierarchy": res.get("hierarchy", ["General"]), "is_microservice": bool(res.get("is_microservice", False)),
-                            "status": "online", "tag": self._calculate_tag(item)
-                        }
-                        item.update(eval_data)
-                        self.inventory[norm_url] = eval_data
-                        self.inventory[norm_url]["title"] = item["title"]
-                        refined.append(item)
-            except: 
-                for l in batch: refined.append(l)
-            await asyncio.sleep(0.3)
-        return refined
+                            eval_data = {
+                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
+                                "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
+                                "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
+                                "hierarchy": res.get("hierarchy", ["General"]), "is_microservice": bool(res.get("is_microservice", False)),
+                                "status": "online", "tag": self._calculate_tag(item)
+                            }
+                            item.update(eval_data)
+                            self.inventory[norm_url] = eval_data
+                            self.inventory[norm_url]["title"] = item["title"]
+                            if p_id not in project_registry or item["stars"] > project_registry[p_id].get("stars", 0):
+                                project_registry[p_id] = item
+                except: 
+                    for l in batch:
+                        # Fallback registry injection
+                        u = normalize_url(l["url"])
+                        if u not in project_registry: project_registry[u] = l
+                await asyncio.sleep(0.3)
+        return list(project_registry.values())
 
     def _calculate_tag(self, item: Dict) -> str:
         stars = item.get("gh_stars", 0)
@@ -246,6 +263,18 @@ class V2VisionEngine:
             v2_structure[dim]["summary"] = self.inventory.get(cache_key, {}).get("ai_summary", f"Strategic reference for {dim}.")
         return v2_structure
 
+    async def _generate_comparison_table(self, links: List[Dict]) -> str:
+        standard_tools = [l for l in links if l.get("stars", 0) >= 4]
+        if len(standard_tools) < 6: return ""
+        table = "\n??? abstract \"Architect's Technical Comparison Table\"\n"
+        table += "    | Solution | Maturity | Primary Focus | Language | Stars |\n"
+        table += "    | :--- | :--- | :--- | :--- | :--- |\n"
+        for l in standard_tools[:12]:
+            stars = "🌟" * l.get("stars", 0)
+            focus = l.get("topic", l.get("hierarchy", ["General"])[-1])
+            table += f"    | [{l['title'].replace('==','')}]({l['url']}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
+        return table + "\n"
+
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         mosaic_html = mosaic_html.replace('src="images/', 'src="images/').replace('](images/', '](images/')
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 3], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
@@ -266,12 +295,14 @@ class V2VisionEngine:
                 toc += f"{' ' * (depth * 4)}- [{name}](#{slug})\n" + gen_toc(subnode, depth + 1, slug)
             return toc
 
-        def render_node(node, depth, base_slug, is_intro=False):
+        async def render_node(node, depth, base_slug, is_intro=False):
             md = ""
             for name, subnode in sorted(node.items()):
                 if name == "__links__": continue
                 slug = f"{base_slug}-{name.lower().replace(' ', '-')}"
-                md += f"{'#' * min(6, depth + 2)} {name}\n\n" + render_node(subnode, depth + 1, slug, is_intro)
+                md += f"{'#' * min(6, depth + 2)} {name}\n\n"
+                if depth == 1 and "__links__" in subnode: md += await self._generate_comparison_table(subnode["__links__"])
+                md += await render_node(subnode, depth + 1, slug, is_intro)
             if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
@@ -297,14 +328,14 @@ class V2VisionEngine:
                 md += f"## {cat}\n\n"
                 if cat == "Introduction":
                     md += "!!! quote \"Vision 2026\"\n    The focus shifts to agentic autonomy and hardened security.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n### Gateway Hub\n- 🚀 [Explore AI Dimensions](./ai-and-artificial-intelligence.md)\n- 📦 [Microservices Guide](./microservices.md)\n\n"
-                md += render_node(topics, 0, cat_slug, is_intro=(cat=="Introduction"))
+                md += await render_node(topics, 0, cat_slug, is_intro=(cat=="Introduction"))
             with open(os.path.join(V2_DIR, f"{slug}.md"), "w") as f: f.write(md)
 
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
             nav = ["nav:", "  - \"The 2026 Vision\": index.md"]
-            for dim in data.keys():
+            for dim in sorted(data.keys()):
                 if data[dim]["categories"]:
                     slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
                     nav.append(f"  - \"{dim}\": {slug}.md")
