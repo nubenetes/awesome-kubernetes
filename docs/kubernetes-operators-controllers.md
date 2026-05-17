@@ -165,7 +165,7 @@
 - [==itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should Know About== 🌟](https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5) **Simplify Infrastructure Management**
 
 ## OpenTelemetry Operator
-  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) - *(Related to argo topic)*
+  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd) - *(Related to argo topic)*
 
 - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator)
 - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf) This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.
@@ -217,7 +217,7 @@
 - [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/) transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic [KPIs](https://kpi.org/KPI-Basics).
 
 ## Writing Kubernetes Operators and Controllers
-  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) - This is a release note for Kueue, an open-source Kubernetes project designed for workload management and scheduling. Version v0.14.0 includes changes such as the removal of deprecated annotations related to ProvisioningRequest, which is important for users upgrading from previous versions. It also highlights the necessity for ProvisioningRequest reconcilers to be updated to avoid issues.
+  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue) - This is a release note for Kueue, an open-source Kubernetes project designed for workload management and scheduling. Version v0.14.0 includes changes such as the removal of deprecated annotations related to ProvisioningRequest, which is important for users upgrading from previous versions. It also highlights the necessity for ProvisioningRequest reconcilers to be updated to avoid issues.
   - [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation/) - *(Related to ai topic)*
   - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions/) - *(Related to kubernetes-troubleshooting topic)*
   - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory/) - *(Related to ansible topic)*
@@ -234,7 +234,7 @@
 - [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89) In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.
 - [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool) **Go-based operators are by far the most popular. That is why Go is probably the first option to consider.** The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don't need any complex [capability levels](https://operatorframework.io/operator-capabilities/). I'd leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.
 - [rookout.com: Lessons Learned When Building A Kubernetes Operator](https://www.rookout.com/blog/lessons-learned-when-building-a-kubernetes-operator)
-- [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://brennerm.github.io/posts/k8s-operators-with-python-part-1.html)
+- [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://github.com/brennerm/posts)
 - [vivilearns2code.github.io: Writing Controllers For Kubernetes Resources](https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html)
 - [cloudark.medium.com: Writing Kubernetes Custom Controllers](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)
 - [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang) Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.
