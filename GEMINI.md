@@ -11,7 +11,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 5.  **Semantic Interlinking**: The bot should identify related categories for each resource. While the full entry is injected into the primary category, a short reference (*"See also: [Title](URL) in [Category]"*) should be added to up to two related categories to improve site navigation.
 6.  **Visual Health Dashboard**: Every curation run MUST generate a local `report.html` (outside the repo) for visual validation of metrics, quality (MVQ), and AI decisions.
 7.  **Total Resilience**: The workflow must be able to continue even if there are individual errors in link or file validations. Prioritize generating a result (PR) even if it is partial.
-8.  **Repository Consolidation**: In case of a failure in a deep GitHub/GitLab link, always try to validate the repository root before considering it dead. We prefer stable links to repository roots over volatile deep-links.
+8.  **Repository Consolidation & Deep-Link Preservation**: In case of a failure (404) in a deep GitHub/GitLab link, the bot SHOULD try to validate the repository root before considering it dead. However, if a deep link (wiki, PR, tree) is ALIVE, it MUST be preserved. We prefer specific technical context in V1.
 9.  **URL Expansion**: All shortened links (t.co, bit.ly, buff.ly, etc.) MUST be expanded to their original long version before being evaluated or injected. This ensures inventory homogeneity and improves global deduplication precision.
 10. **Linguistic Diversity & Global Access**:
     - **Primary Language**: English is the official language of the Nubenetes ecosystem.
@@ -29,7 +29,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **V1 Exhaustiveness**: The `IntelligentLinkChecker` operating on V1 MUST preserve all technically valid links regardless of their age. Deletion is strictly reserved for definitively invalid links (404s, dead redirects, etc.).
     - **V2 Elite Selection (MVQ)**: The `V2VisionEngine` MUST continue to apply the **Minimum Viable Quality (MVQ)** logic. GitHub repositories inactive for >4 years with low impact (stars < 30) are deprioritized or excluded ONLY from the V2 Elite edition to ensure freshness.
     - **Foundational Protection**: GitHub and 'Foundational' resources are exempt from automatic removal based on health, but may be flagged for review.
-    - **Consolidation**: If a deep link fails but the repository root is alive, the bot MUST consolidate the reference to the root.
+    - **Consolidation & Policy**: Truncation to root is strictly for dead links. Rules MUST follow [data/link_rules.yaml](data/link_rules.yaml).
 17. **Unified Curation Chronology**: All curation workflows (V1 and V2) MUST utilize the same chronological and descriptive engine. 
     - **Extraction**: Every new link MUST attempt to extract a publication year (URL, metadata, or AI inference).
     - **Formatting**: New links MUST follow the format `  - **(YYYY)** [Title](URL) 🌟 - Description`. If year is 'N/A', the prefix is omitted.

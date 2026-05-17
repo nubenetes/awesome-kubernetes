@@ -615,6 +615,7 @@ Community contributions have been the backbone of Nubenetes since 2018. If you w
 To maintain transparency and ease of navigation, all key configuration, database, and workflow files are inventoried below.
 
 ### 13.1. Core Configuration
+- **Link Rules:** [`data/link_rules.yaml`](data/link_rules.yaml) - Defines strictness for URL transformations and deep-link preservation.
 - **Curation Sources:** [`data/curation_sources.yaml`](data/curation_sources.yaml) - Defines monitored X.com accounts and technical topics.
 - **Site Config (V1):** [`mkdocs.yml`](mkdocs.yml) - Primary MkDocs configuration for the exhaustive archive.
 - **Site Config (V2):** [`v2-mkdocs.yml`](v2-mkdocs.yml) - MkDocs configuration for the Agentic Elite portal.
