@@ -259,6 +259,8 @@ To embrace the diverse global Cloud Native community while maintaining internati
     *   `language`: The identified source language (e.g., 'Spanish', 'French').
     *   `resource_type`: Classification (e.g., 'Blog', 'Repository', 'Case Study').
     *   `complexity`: Target audience level (e.g., 'Beginner', 'Architect').
+    *   `author`: Technical creator/contributor identification.
+    *   `duration` / `reading_time`: Automatic extraction of content length for videos and articles.
 - **Separation of Concerns (Data vs. UI)**:
     *   **The Database (Source of Truth)**: Holds raw data, enabling future features like language-based filtering or statistics without re-processing links.
     *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the `language`, `complexity`, and `type` metadata into visual UI tags (e.g., `[SPANISH CONTENT]`, `[ARCHITECT LEVEL]`) during the site build process.
@@ -424,7 +426,9 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
-- **Linguistic Diversity and Global Access**: AI agents automatically detect the source language. **V1 Archive** preserves descriptions in the resource's native language (e.g., Spanish) to respect original context, while the **V2 Portal** provides professional English summaries and explicit language tagging (e.g., `[SPANISH CONTENT]`) for global accessibility.
+- **Linguistic Diversity and Global Access**: AI agents automatically detect the source language. **V1 Archive** preserves descriptions in the resource's native language (e.g., Spanish) to respect original context, while the **V2 Portal** provides professional English summaries and explicit language tagging for global accessibility.
+- **Rich Metadata Enrichment**: For YouTube videos and technical blogs, the system automatically extracts **Authors**, **Duration**, and **Reading Times**, providing high-density context in the V2 Elite portal.
+- **Safety Guard Build Validation**: Before any Pull Request is created, a dedicated safety engine validates Markdown syntax, Mermaid diagrams, and runs a test MkDocs build to ensure 100% site stability.
 - **Universal English Curation**: All high-level reasoning and synthesis are curated into professional technical English, maintaining Nubenetes as a truly global resource.
 - **Semantic Conflict Resolution**: AI identifies multiple URLs pointing to the same technical project (e.g., repository vs. landing page) and automatically consolidates them into a single canonical reference.
 - **Critical Asset Monitoring**: While the exhaustive health check runs every **3 months**, high-priority assets ([DE FACTO STANDARD]) undergo a specialized pulse check every **3 months (offset by 45 days)** to ensure essential industry tools remain online with maximum reliability.

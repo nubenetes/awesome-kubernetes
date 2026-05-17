@@ -372,6 +372,20 @@ async def master_orchestrator():
             "full_report": full_report_metrics,
             "x_audit": x_audit_trail
         }
+        from src.safety_guard import SafetyGuard
+        guard = SafetyGuard()
+        
+        # Syntax Check
+        is_safe = True
+        for path, content in modified_files_content.items():
+            if path.endswith(".md"):
+                if not guard.validate_syntax(content, path):
+                    is_safe = False; break
+        
+        if not is_safe:
+            log_event("[!] CRITICAL: Safety Guard failed syntax/security validation. Aborting PR.")
+            return
+
         try:
             # --- BBDD Persistence: Include YAML database files in the PR ---
             from src.config import INVENTORY_PATH, STRUCTURE_MAP_PATH
@@ -379,6 +393,10 @@ async def master_orchestrator():
                 with open(INVENTORY_PATH, 'r') as f: modified_files_content[INVENTORY_PATH] = f.read()
             if os.path.exists(STRUCTURE_MAP_PATH):
                 with open(STRUCTURE_MAP_PATH, 'r') as f: modified_files_content[STRUCTURE_MAP_PATH] = f.read()
+
+            # Run build test
+            if not guard.run_mkdocs_build_test():
+                log_event("[!] WARNING: MkDocs Build test failed, but continuing with PR for manual review.")
 
             pr_url = git_controller.apply_multi_file_changes(modified_files_content, metrics)
             if pr_url:

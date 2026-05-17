@@ -595,7 +595,13 @@ class V2VisionEngine:
                     if res_type.lower() in ["case study", "guide", "documentation"]:
                         type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
 
-                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                    # Rich Metadata Tags (Author, Duration, RT)
+                    rich_tags = ""
+                    if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
+                    if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
+                    if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
+
+                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                     if l['description']:
                         desc = l['description']
                         if "\n" in desc:

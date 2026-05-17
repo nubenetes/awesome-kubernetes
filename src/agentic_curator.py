@@ -32,23 +32,27 @@ def get_best_category_match(suggested: str) -> Optional[str]:
     matches = difflib.get_close_matches(suggested, NUBENETES_CATEGORIES, n=1, cutoff=0.6)
     return matches[0] if matches else None
 
-async def _deep_fetch_content(url: str) -> str:
+async def _deep_fetch_content(url: str) -> Tuple[str, Dict]:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.5",
     }
     try:
-        timeout = httpx.Timeout(10.0, connect=5.0)
+        timeout = httpx.Timeout(12.0, connect=5.0)
         async with httpx.AsyncClient(timeout=timeout, verify=False) as client:
             resp = await client.get(url, headers=headers, follow_redirects=True)
             if resp.status_code == 200:
                 from bs4 import BeautifulSoup
                 soup = BeautifulSoup(resp.text, "html.parser")
+                
+                # Extract Rich Metadata
+                rich_meta = await _enrich_rich_metadata(url, soup)
+                
                 for s in soup(["script", "style", "nav", "footer", "aside"]): s.decompose()
-                return soup.get_text(separator=" ", strip=True)[:4000]
-    except: return ""
-    return ""
+                return soup.get_text(separator=" ", strip=True)[:4000], rich_meta
+    except: return "", {}
+    return "", {}
 
 async def _get_github_activity(url: str) -> Dict:
     """Obtiene metadatos de GitHub (estrellas, creación, actividad)."""
@@ -133,7 +137,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         mvq_penalty = True
                 except: pass
 
-        web_content = await _deep_fetch_content(asset["url"])
+        web_content, rich_meta = await _deep_fetch_content(asset["url"])
         strictness_directive = "BE EXTREMELY SELECTIVE.\n" if not is_primary else ""
 
         prompt = (
@@ -172,6 +176,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                 evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Low impact or no category"}
                 log_event(f"  [-] REJECTED: Score {score}")
             else:
+                # Merge Rich Metadata
+                for k, v in rich_meta.items():
+                    if k not in data or not data[k]: data[k] = v
+
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
                     "year": year, "category": primary_cat, "related_categories": related_cats[:2],
@@ -179,7 +187,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "language": data.get("language", "English"),
                     "en_summary": data.get("en_summary", data["desc"]),
                     "resource_type": data.get("resource_type", "Reference"),
-                    "complexity": data.get("complexity", "Intermediate")
+                    "complexity": data.get("complexity", "Intermediate"),
+                    "author": data.get("author", ""),
+                    "duration": data.get("duration", ""),
+                    "reading_time": data.get("reading_time", "")
                 }
                 curator.inventory[norm_url] = {
                     "title": data["title"], "description": data["desc"], 
@@ -187,6 +198,9 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "language": data.get("language", "English"),
                     "resource_type": data.get("resource_type", "Reference"),
                     "complexity": data.get("complexity", "Intermediate"),
+                    "author": data.get("author", ""),
+                    "duration": data.get("duration", ""),
+                    "reading_time": data.get("reading_time", ""),
                     "year": year, "pub_date": data.get("pub_date", "N/A"), "post_date": asset.get("timestamp", "N/A"),
                     "repo_created_at": gh_meta.get("gh_created", "N/A"), "repo_pushed_at": gh_meta.get("gh_pushed", "N/A"),
                     "stars": min(max(score // 20, 0), 5), "last_checked": datetime.now().timestamp(),
@@ -312,3 +326,41 @@ class AgenticCurator:
                 except Exception as e: log_event(f"  [!] Error: {e}")
 
     def validate_changes(self) -> bool: return True
+
+async def _enrich_rich_metadata(url: str, soup) -> Dict:
+    """Extrae metadatos específicos para YouTube y Blogs."""
+    meta = {}
+    url_lower = url.lower()
+    
+    # 1. YouTube Enrichment
+    if "youtube.com" in url_lower or "youtu.be" in url_lower:
+        try:
+            author_tag = soup.find("link", itemprop="name")
+            if author_tag: meta["author"] = author_tag.get("content")
+            
+            # YouTube duration is often in schema meta
+            duration_tag = soup.find("meta", itemprop="duration")
+            if duration_tag:
+                duration_str = duration_tag.get("content") # PT15M30S
+                match = re.search(r'PT(\d+H)?(\d+M)?(\d+S)?', duration_str)
+                if match:
+                    h, m, s = match.groups()
+                    h = h.replace('H', 'h ') if h else ""
+                    m = m.replace('M', 'm') if m else "0m"
+                    meta["duration"] = f"{h}{m}".strip()
+        except: pass
+
+    # 2. Blog Enrichment (Medium, Dev.to, etc.)
+    elif any(d in url_lower for d in ["medium.com", "dev.to", "blog", "hashnode"]):
+        try:
+            # Reading time
+            rt_tag = soup.find("meta", property="twitter:data1") # Common for Medium
+            if rt_tag and "min" in rt_tag.get("content", "").lower():
+                meta["reading_time"] = rt_tag.get("content")
+            
+            # Author
+            author_tag = soup.find("meta", {"name": "author"}) or soup.find("meta", property="article:author")
+            if author_tag: meta["author"] = author_tag.get("content")
+        except: pass
+        
+    return meta
