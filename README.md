@@ -308,8 +308,9 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
+- **Incremental Self-Correction**: The engine autonomously identifies "suspicious" resources in the database (e.g., deep technical links that have defaulted to generic homepages or "About" sections). During standard maintenance runs, these links are prioritized for re-validation and the **Universal Rescue Protocol**, allowing the system to repair past precision errors incrementally without requiring a full `FORCE_FULL_CHECK`.
 - **Physical File Synchronization**: During the health check cycle, the engine performs **surgical line-by-line updates** on the V1 Markdown files. Dead links are physically removed, and permanent redirections (301/302) are updated to their **Canonical URLs**, ensuring the repository remains clean and low-latency.
-- **Semantic Drift Detection**: Using **SHA256 Content Fingerprinting**, the system monitors for silent updates. If resource content changes significantly, it is automatically flagged for AI re-evaluation to refresh its summary and impact score.
+- **Semantic Drift Detection**: Using **SHA256 Content Fingerprinting**, the system monitors for silent updates. If resource content changes significantly, it is flagged for AI re-evaluation to refresh its summary and impact score.
 - **GitHub Branch Auto-Heal**: If a deep link returns a 404, the engine automatically attempts to rescue it by migrating the path from `master` to `main`. Verified revivals are automatically updated in the V1 archive.
 - **Parked Domain Detection**: Using AI-driven content inspection, the engine identifies expired domains displaying "Buy this domain" parking pages, marking them as `DEAD` even if they return an HTTP 200 status.
 - **Auto-Redirect Fix (Canonical Updates)**: During health checks, if a permanent redirection (301/302) is detected, the engine automatically updates the Markdown files with the final **Canonical URL**. This reduces latency and prevents future link rot.
@@ -449,6 +450,7 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
+- **Incremental Self-Correction**: The engine proactively repairs historical precision errors (such as generic redirects) during standard maintenance cycles, ensuring the archive's quality improves over time without the need for exhaustive re-runs.
 - **Content-URL Precision Standard (Mandate 31)**: AI agents automatically detect **Generic Redirects** (e.g., deep technical links redirecting to home pages). For ALL resources, the system triggers a **Universal Rescue Protocol**, using Gemini to find the specific content's new location on the destination domain. Only if no technical equivalent is found is the link removed, ensuring technical coherence and zero misinformation across site migrations (e.g., Nginx to F5).
 - **Universal Title and TOC Standards (Mandate 30)**: All technical titles and indices are programmatically sanitized to remove emojis and ampersands, ensuring 100% robust internal Markdown links and cross-platform rendering stability.
 - **Platinum Lifecycle Management**: The system implements advanced data engineering fields including **SHA256 Content Fingerprinting** (to detect silent content drift), **Health Reliability Scoring** (0-100 EMA), and **Source Provenance Tracking**.
