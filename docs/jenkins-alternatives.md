@@ -33,15 +33,15 @@
 
 ## Introduction and Comparisons
 
-- [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/)
-- [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/)
+- [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.testmuai.com/blog/best-jenkins-alternatives//)
+- [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x//)
 - [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a)
 - [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools) The battle of CI/CD tools rages on — come and find out which is the right tool for your DevOps testing needs.
-- [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.lambdatest.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool/)
-- [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.lambdatest.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools/)
+- [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.testmuai.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool//)
+- [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.testmuai.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools//)
 - [blog.thundra.io: The CI/CD War of 2021: A Look at the Most Popular Technologies](https://blog.thundra.io/the-ci/cd-war-of-2021-a-look-at-the-most-popular-technologies)
-- [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.lambdatest.com/blog/circleci-vs-gitlab/)
-- [==acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools== 🌟](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)
+- [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.testmuai.com/blog/circleci-vs-gitlab//)
+- [==acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools== 🌟](https://www.pluralsight.com/resources/blog/cloud/azure-devops-vs-github-comparing-microsofts-devops-twins)
 - [medium: Choosing a CI that grows at the same pace as a scale-up 🌟](https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084)
     - Tekton
     - Argo
@@ -51,42 +51,42 @@
     - Circle CI
     - GitLab
 - [devops.com: Best of 2021 – 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/)
-- [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.lambdatest.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity)
+- [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.testmuai.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity/)
 
 ## Alternatives
-  - [Buildbot](https://t.co/qXtIPX5eF6) - *(Related to cicd topic)*
+  - [Buildbot](https://buildbot.net/) - *(Related to cicd topic)*
 
-- [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
+- [Cloudbees Flow](https://www.cloudbees.com/capabilities/continuous-delivery)
 - [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
 - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 - [Agola](https://agola.io/)
-- [harness.io](https://harness.io/)
-    - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://harness.io/blog/autostopping-rules-kubernetes/) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
-    - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://harness.io/blog/cd-jenkins-pipelines-harness/)
-- [Drone](https://drone.io/)
+- [harness.io](https://www.harness.io//)
+    - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://www.harness.io/blog/autostopping-rules-kubernetes/) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
+    - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://www.harness.io//blog/cd-jenkins-pipelines-harness/)
+- [Drone](https://www.drone.io//)
     - [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
 - [Buildbot](https://buildbot.net/)
 - [GoCD](https://www.gocd.org/)
-- [Codefresh](https://codefresh.io/)
+- [Codefresh](https://octopus.com/codefresh/)
 - [skaffold](https://skaffold.dev/) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
-- [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
-- [Google Cloud Build](https://cloud.google.com/cloud-build)
+- [AWS DevOps - CICD](https://aws.amazon.com/devops//#cicd)
+- [Google Cloud Build](https://cloud.google.com/build)
 - [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
 - [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
 
 ### Circle CI
 
 - [Circle CI](https://circleci.com/)
-- [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/)
-- [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline/)
-- [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config/)
-- [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config/)
+- [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster//)
+- [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline//)
+- [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config//)
+- [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config//)
 - [dev.to: CI/CD: Automating our build and deploy process](https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91)
-- [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing)
+- [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing/)
 ### Travis CI
 
-- [Travis CI](https://travis-ci.org/)
-- [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/)
+- [Travis CI](https://www.travis-ci.com//)
+- [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.testmuai.com/blog/build-first-ci-cd-pipeline-with-travis-ci//)
 
 ### Concourse
 
@@ -97,21 +97,21 @@
 
 - [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery)
 - [Bamboo](https://www.atlassian.com/software/bamboo)
-- [lambdatest.com: How To Setup CI/CD Pipeline With Bamboo For PHP Projects](https://www.lambdatest.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects/)
+- [lambdatest.com: How To Setup CI/CD Pipeline With Bamboo For PHP Projects](https://www.testmuai.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects//)
 
 ### GitHub Actions
 
-- [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/)
-- [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
+- [GitHub Actions CI/CD](https://github.blog/news-insights/product-news/github-actions-now-supports-ci-cd//)
+- [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows)
 - [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) GitHub Actions and Jenkins both get the job done. Let’sfind out whether it’s worth considering moving from Jenkins.
 - [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry/)
 - [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
 - [redhat-actions](https://github.com/redhat-actions)
-- [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runner)
+- [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runners)
     - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
 - [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
 - [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) A GitHub Action that setupKubernetes tools (kubectl, kustomize, helm, kubeval, conftest, yq) and cache them on the runner. It is like a typescriptversion of stefanprodan/kube-tools with no command input param, but it's very fast as it installs the tools asynchronously.
-- [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) This controller operatesself-hosted runners for GitHub Actions on your Kubernetes cluster.
+- [summerwind/actions-runner-controller](https://github.com/actions/actions-runner-controller) This controller operatesself-hosted runners for GitHub Actions on your Kubernetes cluster.
 - [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How toautomatically build your Docker images; a case study.
 
 ### Ketpn
@@ -120,17 +120,17 @@
 
 ### Azure DevOps
 
-- [Azure DevOps](https://azure.microsoft.com/services/devops/)
-- [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/)
+- [Azure DevOps](https://azure.microsoft.com/en-us/products/devops//)
+- [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/azure-cloud/azure-pipelines-vs-jenkins//)
 
 ### ShuttleOps
 
 - [shuttleOps](https://www.shuttleops.io/)
-- [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/)
+- [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes//)
 
 ### HashiCorp Waypoint
 
-- [HashiCorp Waypoint](https://www.waypointproject.io/)
+- [HashiCorp Waypoint](https://developer.hashicorp.com/waypoint/)
 - [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
 
 ### OneDev
@@ -140,9 +140,9 @@
 
 ### TeamCity
 
-- [TeamCity](https://www.jetbrains.com/teamcity/)
+- [TeamCity](https://www.jetbrains.com/teamcity//)
 - [jetbrains.com: Storing Project Settings in Version Control](https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html)
-- [blog.jetbrains.com: Configuration as Code, Part 1: Getting Started with Kotlin DSL](https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl/)
+- [blog.jetbrains.com: Configuration as Code, Part 1: Getting Started with Kotlin DSL](https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl//)
 - [github.com/OctopusDeploy/Octopus-TeamCity: JetBrains TeamCity plugin to trigger releases on build completion](https://github.com/OctopusDeploy/Octopus-TeamCity)
 
 ### Octopus Deploy
@@ -154,21 +154,21 @@
 
 ### JFrog
 
-- [JFrog Pipelines](https://jfrog.com/pipelines/)
+- [JFrog Pipelines](https://jfrog.com/pipelines//)
 - [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
 
 #### JFrog DevOps Platform
 
-- [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/)
-- [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/)
-- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
+- [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform//)
+- [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/pipelines///)
+- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog//)
 - [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
-- [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog)
+- [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog)
 
 ### Semaphore
 
-- [Semaphore](https://semaphoreci.com/) Hosted CI/CD for teams that don’t like bottlenecks
-- [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphoreci.com/blog/revving-up-continuous-integration-with-parallel-testing) Is your CI/CD pipeline slow? Do wait times make you feel unproductive? Parallel testing is an indispensable technique for reducing wait times. And mastering it is key to getting the most out of CI/CD.
+- [Semaphore](https://semaphore.io//) Hosted CI/CD for teams that don’t like bottlenecks
+- [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphore.io//blog/revving-up-continuous-integration-with-parallel-testing) Is your CI/CD pipeline slow? Do wait times make you feel unproductive? Parallel testing is an indispensable technique for reducing wait times. And mastering it is key to getting the most out of CI/CD.
 
 ### Devtron
 
@@ -180,24 +180,24 @@
 - [csweichel/werft](https://github.com/csweichel/werft) Werft is a Kubernetes-native CI system. It knows no pipelines, just jobs and each job is a Kubernetes pod. What you do in that pod is up to you. We do not impose a "declarative pipeline syntax" or some groovy scripting language. Instead, Werft jobs have run Node, Golang or bash scripts in production environments.
 ### Jenkins X
 
-- [jenkins-x.io](https://jenkins-x.io/)
-- [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)
+- [jenkins-x.io](https://jayex.io//)
+- [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly)
 - [devopstoolkitseries.com](https://www.devopstoolkitseries.com/)
     - [youtube: Jenkins X: The Recipe For Continuous Delivery](https://www.youtube.com/watch?v=ihHr-iLfEGo)
 - [Book: The DevOps 2.6 Toolkit: Jenkins X](https://leanpub.com/the-devops-2-6-toolkit)
-- [Traces for your pipelines: Jenkins X v3 now comes with tracing support for your pipelines out of the box](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/)
+- [Traces for your pipelines: Jenkins X v3 now comes with tracing support for your pipelines out of the box](https://jayex.io//blog/2021/04/08/jx3-pipeline-trace/)
 
 ### Spinnaker
 
-- [spinnaker.io deployment tool](https://www.spinnaker.io/)
-- [Deploy Spinnaker CD Pipelines in Kubernetes](https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes/)
+- [spinnaker.io deployment tool](https://spinnaker.io//)
+- [Deploy Spinnaker CD Pipelines in Kubernetes](https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes//)
 - [speakerdeck.com: Introduction to Spinnaker Managed Pipeline Templates](https://speakerdeck.com/keisukeyamashita/introduction-to-spinnaker-managed-pipeline-templates)
 - [speakerdeck.com: Spinnaker Application management by Terraform Plugins](https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins)
 - [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8)
 - [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) Spinnaker provides unique building blocks to create tailor-made,and highly-collaborative continuous delivery pipelines.
-- [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
-- [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
-- [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
+- [harness.io: Best Spinnaker Alternatives to Consider](https://www.harness.io//blog/continuous-delivery/spinnaker-alternatives/)
+- [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.harness.io/products/continuous-delivery/)
+- [jenkins-x.io: Traces for your pipelines](https://jayex.io//blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
 
 ### ArgoCD
 
@@ -210,14 +210,14 @@
 ### Jenkins X and Tekton on OpenShift
 
 - [Jenkins-X + Tekton on OpenShift](https://github.com/openshift/tektoncd-pipeline-operator)
-- [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton)
+- [CI/CD OpenShift and Tekton](https://www.sonatype.com/blog/new-cloud-native-ci/cd-projects-openshift-and-tekton)
 - [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)
 - [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image)
 - [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3)
 
 ### HAT is the acronym for Helm, ArgoCD and Tekton
 
-- [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/)
+- [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications//)
 
 ### Dagger
 
@@ -234,7 +234,7 @@
 
     <center markdown="1">
 
-    [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
+    [![gitlab](images/gitlab.jpg)](https://about.gitlab.com//)
 
     </center>
 
