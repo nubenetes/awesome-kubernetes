@@ -29,7 +29,7 @@ class IntelligentLinkCleaner:
         self.dead_links: Dict[str, Tuple[str, str]] = {} 
         self.learning_data = self._load_memory()
         self.inventory = self._load_inventory()
-        self.full_report_metrics = [] # Track what happened to every link
+        self.full_report_metrics = [] 
         self.detailed_stats = {"total_scanned": 0, "skipped_recent": 0, "by_file": {}, "operation_types": {"removals": 0, "consolidated": 0, "healed": 0, "enriched": 0}}
         self.stats = {"total_links": 0, "dead_links_removed": 0, "orphans_fixed": 0, "enriched_descriptions": 0}
 
@@ -55,7 +55,7 @@ class IntelligentLinkCleaner:
 
     async def execute_clean_cycle(self):
         log_event("STARTING INTELLIGENT CLEANING CYCLE", section_break=True)
-        # 1. Map all links in V1 and detect Importance Markers
+        # 1. Map all links and Importance Markers
         for root, _, files in os.walk("docs"):
             for f in files:
                 if f.endswith(".md"):
@@ -105,12 +105,11 @@ class IntelligentLinkCleaner:
             tasks = [self._check_url_logic(url) for url in batch]
             results = await asyncio.gather(*tasks)
             for url, res in zip(batch, results): check_results[url] = res
-            if i % 100 == 0: log_event(f"  [>] Network Check Progress: {i}/{len(to_check)} checked...")
+            if i % 100 == 0: log_event(f"  [>] Progress: {i}/{len(to_check)} checked...")
 
-        # 2.5. UNIVERSAL AI RESCUE (Mandate 31)
+        # 2.5. UNIVERSAL AI RESCUE
         to_rescue = [u for u, res in check_results.items() if not res[0] or res[1] == "generic_redirect_loss"]
         if to_rescue:
-            log_event(f"[*] Starting AI Rescue for {len(to_rescue)} links...")
             AI_BATCH_SIZE = 10
             for i in range(0, len(to_rescue), AI_BATCH_SIZE):
                 batch = to_rescue[i:i+AI_BATCH_SIZE]
@@ -120,12 +119,10 @@ class IntelligentLinkCleaner:
                     batch_info.append({"url": u, "title": entry.get("title", u), "context": entry.get("description", "")})
 
                 prompt = (
-                    "You act as a Technical Librarian. These resources are missing or redirecting to generic pages.\n"
-                    "Search for the specific Technical Article or Tool URL based on the title and description provided.\n"
-                    "Consider site migrations, acquisitions (Ansible->RedHat, Nginx->F5), and cross-domain moves to personal blogs.\n"
-                    "Return ONLY a JSON list: [{\"old_url\": \"...\", \"new_url\": \"...\"}, ...]\n"
-                    "If not found, set new_url to \"NONE\".\n\n"
-                    "RESOURCES:\n" + "\n".join([f"- Title: {d['title']} | Desc: {d['context'][:150]} | URL: {d['url']}" for d in batch_info])
+                    "You act as a Technical Librarian. Rescue missing resources based on title and description.\n"
+                    "Consider acquisitions (Ansible->RedHat, Nginx->F5) and cross-domain moves.\n"
+                    "Return ONLY JSON list: [{\"old_url\": \"...\", \"new_url\": \"...\"}, ...]\n\n"
+                    "RESOURCES:\n" + "\n".join([f"- {d['title']} | {d['url']}" for d in batch_info])
                 )
                 
                 try:
@@ -138,42 +135,53 @@ class IntelligentLinkCleaner:
                                 if new_loc and new_loc.startswith("http") and "NONE" not in new_loc.upper():
                                     try:
                                         async with httpx.AsyncClient(timeout=10, follow_redirects=True, verify=False) as client:
-                                            resp = await client.get(new_loc)
-                                            if resp.status_code < 400:
+                                            if (await client.get(new_loc)).status_code < 400:
                                                 log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
                                                 check_results[u] = (True, "resurrected", new_loc)
                                     except: pass
                 except: pass
 
-        # 2.8. Finalize Status with Foundational Preservation & Metadata
+        # 2.8. Finalize Status
         for url, (alive, reason, final) in check_results.items():
             nu = normalize_url(url); entry = self.inventory.get(nu, {})
             score = entry.get("health_score", 100)
             score = (score * 0.8) + (100 if alive else 0) * 0.2
             entry["health_score"] = round(score, 1); entry["last_checked"] = datetime.now().timestamp()
             
+            # --- MANDATE 22: SEMANTIC DRIFT (SHA256) ---
+            if alive:
+                try:
+                    from src.agentic_curator import _deep_fetch_content
+                    text, _ = await _deep_fetch_content(url if not final else final)
+                    if text:
+                        new_hash = hashlib.sha256(text.encode()).hexdigest()
+                        old_hash = entry.get("content_hash", "N/A")
+                        if old_hash != "N/A" and new_hash != old_hash:
+                            log_event(f"  [!] DRIFT DETECTED: {url}")
+                            entry["needs_ai_refresh"] = True
+                        entry["content_hash"] = new_hash
+                except: pass
+
             is_important = any(occ.get("is_important") for occ in self.link_registry.get(nu, []))
             if entry.get("stars", 0) >= 3: is_important = True
 
-            status = "INCLUDED" if alive else "FILTERED"
-            final_reason = reason
+            status, final_reason = ("INCLUDED", reason) if alive else ("FILTERED", reason)
             
             if not alive or reason == "generic_redirect_loss":
                 if is_important:
                     entry["status"] = "review_required"
                     entry["review_metadata"] = {
                         "original_url": url, "proposed_url": final if final else "NONE",
-                        "reason": f"High-Value Preservation: {reason}", "timestamp": datetime.now().isoformat()
+                        "reason": f"High-Value Protection: {reason}", "timestamp": datetime.now().isoformat()
                     }
                     log_event(f"  [⚠️] REVIEW STORED: {url}")
-                    status = "INCLUDED" # Kept in V1
-                    final_reason = f"Preserved for Review ({reason})"
+                    status, final_reason = "INCLUDED", f"Preserved for Review ({reason})"
                 elif score < 20: 
                     entry["status"] = "dead"; self.dead_links[url] = (None, reason)
-                    status = "FILTERED"; final_reason = f"Dead: {reason}"
+                    status, final_reason = "FILTERED", f"Dead: {reason}"
             elif final and alive:
                 self.dead_links[url] = (f"CANONICAL:{final}", "Redirect/Resurrection")
-                final_reason = "Updated (Redirect/Rescued)"
+                final_reason = "Updated (Canonical)"
             
             self.full_report_metrics.append({
                 "url": url, "status": status, "reason": final_reason,
@@ -213,7 +221,7 @@ class IntelligentLinkCleaner:
         except: return True, "Error", None
 
     async def apply_changes(self):
-        log_event("APPLYING CLEANING CHANGES & PR GENERATION...", section_break=True)
+        log_event("APPLYING CLEANING CHANGES...", section_break=True)
         file_updates = {}
         for url, (fallback, reason) in self.dead_links.items():
             nu = normalize_url(url); paths = self.inventory.get(nu, {}).get("v1_locations", [])
@@ -233,13 +241,7 @@ class IntelligentLinkCleaner:
 
         from src.safety_guard import SafetyGuard
         report = SafetyGuard().generate_audit_report()
-        
-        metrics = {
-            "total_extracted": len(self.link_registry),
-            "full_report": self.full_report_metrics,
-            "end_date": datetime.now().isoformat()
-        }
-        
+        metrics = {"total_extracted": len(self.link_registry), "full_report": self.full_report_metrics, "end_date": datetime.now().isoformat()}
         if final_payload: self.git_controller.apply_multi_file_changes(final_payload, metrics, safety_report=report)
 
     async def prune_orphaned_metadata(self):

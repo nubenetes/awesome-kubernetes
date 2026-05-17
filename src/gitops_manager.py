@@ -24,6 +24,30 @@ class RepositoryController:
         except:
             return ""
 
+    def apply_historical_chunk(self, updates: dict, next_since: str) -> None:
+        branch_name = "bot/historical-accumulator"
+        try:
+            self.repository.get_branch(branch_name)
+        except:
+            self._create_feature_branch(branch_name)
+
+        for file_path, content in updates.items():
+            try:
+                try:
+                    file_meta = self.repository.get_contents(file_path, ref=branch_name)
+                    self.repository.update_file(
+                        path=file_path, message=f"chore(historical): chunk sync since {next_since}",
+                        content=content, sha=file_meta.sha, branch=branch_name
+                    )
+                except Exception as e:
+                    if "404" in str(e):
+                        self.repository.create_file(
+                            path=file_path, message=f"chore(historical): init {file_path}",
+                            content=content, branch=branch_name
+                        )
+            except Exception as e:
+                print(f"Error in historical chunk for {file_path}: {e}")
+
     def apply_multi_file_changes(self, updates: dict, metrics: dict, safety_report: str = "") -> str:
         timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
