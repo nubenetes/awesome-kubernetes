@@ -51,6 +51,9 @@
 10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
 11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
+14. [14. Special Assets and Learning Paths](#14-special-assets-and-learning-paths)
+    *   [14.1. Special Assets Management](#141-special-assets-management)
+    *   [14.2. Zero-to-Hero Learning Architecture](#142-zero-to-hero-learning-architecture)
     *   [12.1. Extension Recommendations](#121-extension-recommendations)
     *   [12.2. Recommended settings.json](#122-recommended-settingsjson)
 13. [13. Repository Inventory and Configuration](#13-repository-inventory-and-configuration)
@@ -435,6 +438,8 @@ graph TD
 ### 7.6. Strategic Benefits
 - **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
 - **Self-Healing Infrastructure**: The engine automatically detects and rescues broken links (e.g., GitHub `master` -> `main` branch migration) and identifies parked/expired domains that bypass standard health checks.
+- **Zero-to-Hero Learning Paths**: V2 resources are systematically grouped by complexity level (Fundamentals, Intermediate, Advanced, Architect), transforming the portal into a structured educational journey for Cloud Native engineering.
+- **Special Assets Preservation**: High-value documents (Introduction, YAML, Awesome repos) undergo high-precision semantic grouping in V1 and exhaustive inclusion in V2 to ensure 100% technical preservation.
 - **Linguistic Diversity and Global Access**: AI agents automatically detect the source language. **V1 Archive** preserves descriptions in the resource's native language (e.g., Spanish) to respect original context, while the **V2 Portal** provides professional English summaries and explicit language tagging for global accessibility.
 - **Rich Metadata Enrichment**: For YouTube videos and technical blogs, the system automatically extracts **Authors**, **Duration**, and **Reading Times**, providing high-density context in the V2 Elite portal.
 - **Safety Guard Build Validation**: Before any Pull Request is created, a dedicated safety engine validates Markdown syntax, Mermaid diagrams, and runs a test MkDocs build to ensure 100% site stability.
@@ -465,7 +470,7 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
         *   **Data & Infra:** `@Databricks`, `@ApacheSpark`, `@snowflakedb`, `@HashiCorp`, `@PulumiCorp`, `@ArgoProj`, `@fluxcd`.
 2.  **V2VisionEngine (`src/v2_optimizer.py`)**:
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
-    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "Intelligent Control Plane") using **relevance-first sorting**.
+    - **2026 Taxonomy:** Reorganizes the content into high-density dimensions (e.g., "AI and Artificial Intelligence") using **relevance-first sorting**.
     - **MVQ Hardening:** Automatically identifies stale repositories (>4 years without activity) to exclude them from the Elite portal.
 3.  **IntelligentHealthChecker (`src/intelligent_health_checker.py`)**:
     - **Resilience:** Performs asynchronous health checks with 3x retry and identity rotation.
@@ -660,3 +665,25 @@ To maintain transparency and ease of navigation, all key configuration, database
 <center>
 Give us a 🌟 on GitHub if you like this archive!
 </center>
+
+---
+
+## 💎 Special Assets & Learning Paths
+Nubenetes prioritizes high-value technical documents through a specialized preservation and educational architecture.
+
+### 📚 Special Assets Management
+Certain files are designated as **Special Assets** (defined in [`data/special_assets.yaml`](data/special_assets.yaml)) due to their foundational importance. These include:
+- **Introduction & Fundamentals**: Specialized grouping to ensure a perfect "Day 0" experience.
+- **YAML & JSON Ecosystem**: Exhaustive technical references for configuration languages.
+- **Awesome Repositories**: Preserved curation lists that act as gateways to specialized sub-ecosystems.
+
+**Rules of Engagement:**
+1. **Exhaustive V2 Inclusion**: 100% of ALIVE links from these V1 files are migrated to the V2 Elite portal, bypassing standard impact filters.
+2. **High-Precision Grouping**: AI agents use nested hierarchies (Sections & Subsections) to organize these files without losing any technically valid reference.
+
+### 🎓 Zero-to-Hero Learning Architecture
+The V2 Portal is structured as an educational journey rather than a flat list. Resources are programmatically classified into four expertise tiers:
+- **Fundamentals**: Core concepts and "Getting Started" material.
+- **Intermediate**: Practical implementations and standard tooling.
+- **Advanced**: Performance optimization and complex technical internals.
+- **Architect**: System design, trade-offs, and long-term strategic direction.

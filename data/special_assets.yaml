@@ -1,0 +1,28 @@
+# Nubenetes Special Assets Configuration
+# Defines files that require prioritized preservation in V1 and exhaustive inclusion in V2.
+
+special_assets:
+  - file: "other-awesome-lists.md"
+    v1_rule: "Group by sub-topic (e.g., AI, K8s, Programming). Do not truncate."
+    v2_rule: "Exhaustive: Include 100% of ALIVE links from V1. Maintain sub-topic grouping."
+    keywords: ["awesome", "list", "curation"]
+
+  - file: "yaml.md"
+    v1_rule: "Ensure distinct sections for YAML and JSON technical resources."
+    v2_rule: "Exhaustive: Include all valid YAML/JSON tools and specs."
+    keywords: ["yaml", "json", "schema"]
+
+  - file: "introduction.md"
+    v1_rule: "Semantic clustering: Group by 'Fundamentals', 'Getting Started', and 'Advanced Concepts'."
+    v2_rule: "Elite curated view: Highlight only high-impact fundamental resources."
+    keywords: ["introduction", "getting started", "fundamentals"]
+
+# Navigation Renaming
+dimension_renaming:
+  "Intelligent Control Plane": "AI and Artificial Intelligence"
+
+# Advanced Classification Rules for V2
+v2_learning_paths:
+  enabled: true
+  levels: ["Fundamentals", "Intermediate", "Advanced", "Expert/Architect"]
+  structure: "Zero to Hero"

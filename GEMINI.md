@@ -69,6 +69,15 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Scoring & Ranking**: Prioritize models using the established 2026 hierarchy (Generation 3.x > 2.x > 1.x; Pro > Flash).
     - **Resilient Fallback**: Automatically transition between models and API keys upon encountering 404 (Unsupported) or 429 (Rate Limit) errors.
 
+27. **Special Assets Management (V1 & V2)**: High-value files defined in [`data/special_assets.yaml`](data/special_assets.yaml) require specialized handling:
+    - **High-Precision Reorganization (V1)**: These files MUST use nested semantic grouping (## and ###) to organize links without ever deleting technically valid content.
+    - **Exhaustive Inclusion (V2)**: Unlike standard categories, V2 pages for Special Assets MUST include 100% of the ALIVE links from V1.
+    - **AI Curation Discovery**: The discovery engine MUST actively search for new high-quality curation sources (e.g., "Awesome" repos) and suggest them for inclusion in `curation_sources.yaml`.
+28. **Zero-to-Hero V2 Architecture**: The V2 Portal MUST be structured as a learning journey:
+    - **Complexity Hierarchy**: Resources MUST be grouped by level: Fundamentals -> Intermediate -> Advanced -> Architect.
+    - **Strategic Dimensions**: The "AI and Artificial Intelligence" dimension is the primary entry point for agentic innovation. Dimension naming MUST prioritize industry-standard terms over internal terminology.
+    - **Clickable Navigational Maps**: Every V2 page MUST include a Table of Contents (TOC) with nested anchors for all complexity levels.
+
 ## 🛠️ Structural Evolution & Navigation
 ...
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
@@ -193,3 +202,6 @@ The bot must rotate between profiles to avoid detection:
         - **Dynamic Discovery**: Agents MUST utilize the dynamic discovery engine to automatically adopt the newest Gemini models and rotate keys upon reaching quotas.
     - **Engineering Blog Discovery**: Integrated RSS/Atom ingestion into the curation engine to source high-depth architectural content directly from top-tier technical companies.
 
+    - **AI and Artificial Intelligence Dimension**: Renamed from "Intelligent Control Plane" for better industry alignment.
+    - **Zero-to-Hero Grouping**: Implemented complexity-based levels (Fundamentals to Architect) for high-density learning paths.
+    - **Special Assets Logic**: Integrated data/special_assets.yaml to ensure exhaustive preservation of critical lists (Introduction, YAML, Awesome repos).

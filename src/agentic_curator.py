@@ -310,13 +310,37 @@ class AgenticCurator:
 
     async def suggest_reorganization(self):
         log_event("[*] Starting Internal Reorganization Audit...", section_break=True)
+        # Load Special Assets config
+        special_rules = {}
+        if os.path.exists("data/special_assets.yaml"):
+            try:
+                with open("data/special_assets.yaml", "r") as f:
+                    special_rules = yaml.safe_load(f).get("special_assets", [])
+            except: pass
+        special_files = {sa["file"]: sa for sa in special_rules}
+
         for file in os.listdir(self.docs_dir):
             if not file.endswith(".md") or file == "index.md": continue
             path = os.path.join(self.docs_dir, file)
             with open(path, "r") as f: content = f.read()
-            if len(re.findall(r"^\s*-\s*\[", content, re.MULTILINE)) > 25:
-                log_event(f"  [!] REORGANIZING: {file}")
-                prompt = f"Reorganize '{file}' into logical sections (##). English headers only. Content:\n{content[:4000]}"
+            
+            is_special = file in special_files
+            link_count = len(re.findall(r"^\s*-\s*\[", content, re.MULTILINE))
+            
+            # Reorganize if special OR if flat and large
+            if is_special or (link_count > 25 and len(re.findall(r"^## ", content, re.M)) < 2):
+                log_event(f"  [!] REORGANIZING: {file} ({'Special' if is_special else 'Standard'})")
+                
+                depth_instruction = (
+                    "SOPHISTICATED HIERARCHY: Create nested sections (##) and subsections (###). "
+                    "Group links by technical theme. Maintain all existing links. No deletions."
+                    if is_special else "Group into logical sections (##)."
+                )
+                
+                prompt = (
+                    f"You act as a Technical Content Architect. Reorganize the file '{file}' based on this rule: {depth_instruction}\n"
+                    f"IMPORTANT: DO NOT DELETE any valid link. English headers only. Content:\n{content[:5000]}"
+                )
                 try:
                     reorganized = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
                     if len(reorganized) > len(content) * 0.7:

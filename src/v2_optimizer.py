@@ -17,9 +17,12 @@ STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class V2VisionEngine:
     def __init__(self):
+        # Load Special Assets & Rules
+        self.special_assets_rules = self._load_special_assets()
+        
         # 100% Comprehensive 2026 Taxonomy
         self.dimensions = {
-            "Intelligent Control Plane": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+            "AI and Artificial Intelligence": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
             "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],
@@ -33,30 +36,32 @@ class V2VisionEngine:
         }
         
         self.library_criteria = (
-            "You are a Technical Librarian in 2026. Your mission is to build a high-density, professional reference library.\n"
+            "You are a Senior Technical Librarian and Architect in 2026. Your mission is to build a high-density, professional reference library.\n"
             "PHASE 1: TECHNICAL PRESERVATION (HIGH INCLUSIVITY)\n"
             "- KEEP >90% of technical resources.\n"
             "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY): Look for dates in the URL, Twitter/X post dates, or text context. Return 'N/A' if truly unknown.\n"
-            "- Detect source content LANGUAGE (e.g., 'English', 'Spanish', 'French').\n"
-            "- Identify RESOURCE_TYPE: (Blog, Repository, Video, Tool, Documentation, Guide, Case Study).\n"
-            "- Assign COMPLEXITY: (Beginner, Intermediate, Advanced, Architect).\n"
-            "- Assign QUALITY level (0-5 stars):\n"
-            "  * 0 stars: Good technical resource (Baseline).\n"
-            "  * 1 star (🌟): High-quality technical guide or tool.\n"
-            "  * 2 stars (🌟🌟): Exceptional, enterprise-grade resource.\n"
-            "  * 3 stars (🌟🌟🌟): Elite Gem. Recommended for all architects.\n"
-            "  * 4 stars (🌟🌟🌟🌟): Masterclass content or Essential Industry Tool.\n"
-            "  * 5 stars (🌟🌟🌟🌟🌟): Legendary Resource (e.g., K8s Official Docs, Foundations like Prometheus/Envoy).\n"
-            "- Assign a MATURITY TAG based on content type/status.\n"
-            "PHASE 3: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
-            "- If 'Current Desc' is already provided and descriptive, DO NOT CHANGE IT.\n"
-            "- If 'Current Desc' is empty, too short, or non-descriptive, generate a professional 1-2 sentence summary.\n"
+            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY).\n"
+            "- Detect source content LANGUAGE.\n"
+            "- Identify RESOURCE_TYPE and complexity LEVEL.\n"
+            "PHASE 3: ZERO-TO-HERO CLASSIFICATION\n"
+            "- Categorize into: 'Fundamentals', 'Intermediate', 'Advanced', or 'Architect' level.\n"
+            "- For special curation lists (e.g. Awesome repos), identify the primary curation topic.\n"
+            "PHASE 4: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
+            "- If 'Current Desc' is empty or too short, generate a professional 1-2 sentence summary.\n"
             "- Style: Technical, neutral, and informative. Language: English only.\n"
         )
         self.inventory = self._load_inventory()
         self.structure_map = self._load_structure_map()
         self.maturity_audit = []
+
+    def _load_special_assets(self) -> Dict:
+        path = "data/special_assets.yaml"
+        if os.path.exists(path):
+            try:
+                with open(path, "r") as f:
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
 
     def _load_inventory(self) -> Dict:
         if os.path.exists(INVENTORY_PATH):
@@ -257,28 +262,29 @@ class V2VisionEngine:
         to_evaluate = []
         force_eval = os.getenv("FORCE_EVAL", "false").lower() == "true"
         
-        # We want to re-evaluate the tags and years, so we will bypass cache for tagging logic,
-        # but use cache for AI stars if available to save cost.
+        # Load Special Assets for 100% Inclusion
+        special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
+
         for l in links:
             url = l["url"]
-            # To allow the new logic to apply to cached items, we re-process GitHub links 
-            # and re-apply the tag logic even if it's in the cache.
             item = l.copy()
-            if not force_eval and url in self.inventory and "stars" in self.inventory[normalize_url(url)]:
-                item.update(self.inventory[normalize_url(url)])
-                # If cache has a generated description and item is missing one, use it
-                if "ai_summary" in self.inventory[normalize_url(url)] and not item["description"]:
-                    item["description"] = self.inventory[normalize_url(url)]["ai_summary"]
+            norm_url = normalize_url(url)
+            
+            # --- DATABASE-FIRST: Try to reuse cached evaluations ---
+            if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
+                item.update(self.inventory[norm_url])
+                if "ai_summary" in self.inventory[norm_url] and not item["description"]:
+                    item["description"] = self.inventory[norm_url]["ai_summary"]
             
             # --- TRACK MATURITY CHANGES ---
-            old_tag = self.inventory.get(normalize_url(url), {}).get("tag")
+            old_tag = self.inventory.get(norm_url, {}).get("tag")
 
-            # Re-evaluate if description is still missing even after cache check
-            if not item.get("description"):
+            # Special Assets: If description is missing, we MUST evaluate but we NEVER drop
+            if not item.get("description") or norm_url not in self.inventory:
                 to_evaluate.append(item)
                 continue
             
-            # Re-apply GitHub metadata and mature tagging for cached items
+            # Update GitHub metadata for cached items
             if "github.com" in url:
                 gh_meta = await self._fetch_github_metadata(url)
                 item.update(gh_meta)
@@ -290,7 +296,8 @@ class V2VisionEngine:
             # Audit Check
             if old_tag and old_tag != item["tag"]:
                 self.maturity_audit.append({
-                    "url": url, "title": item["title"], "type": "Promotion" if "STANDARD" in item["tag"] or "STABLE" in item["tag"] else "Reclassification",
+                    "url": url, "title": item["title"], 
+                    "type": "Promotion" if "STANDARD" in item["tag"] or "STABLE" in item["tag"] else "Reclassification",
                     "old": old_tag, "new": item["tag"]
                 })
 
@@ -298,17 +305,17 @@ class V2VisionEngine:
 
         if not to_evaluate: return refined
 
+        # Batch Evaluation with Zero-to-Hero Leveling
         BATCH_SIZE = 50 
         for i in range(0, len(to_evaluate), BATCH_SIZE):
             batch = to_evaluate[i:i+BATCH_SIZE]
             batch_num = i//BATCH_SIZE + 1
-            log_event(f"  [>] Processing Batch {batch_num} with AI (Mandatory Descriptions)...")
+            log_event(f"  [>] Processing Batch {batch_num} with AI (Zero-to-Hero Architecture)...")
             
             prompt = (
                 f"{self.library_criteria}\n"
-                "UNIVERSAL ENGLISH CURATION: ALL output 'summary' fields MUST be in ENGLISH. If source is non-English (e.g. Spanish), TRANSLATE to professional English.\n"
-                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\"}, ...]}\n\n"
-                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Current Desc: {l['description'][:50]}" for idx, l in enumerate(batch)])
+                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\", \"language\": \"...\", \"type\": \"...\", \"level\": \"Fundamentals|Intermediate|Advanced|Architect\"}, ...]}\n\n"
+                "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Desc: {l['description'][:60]}" for idx, l in enumerate(batch)])
             )
             
             try:
@@ -323,6 +330,9 @@ class V2VisionEngine:
                             norm_url = normalize_url(item["url"])
                             old_tag = self.inventory.get(norm_url, {}).get("tag")
 
+                            # SPECIAL ASSET BYPASS: If file is special, force 5 stars or preservation
+                            is_special = item["original_file"] in special_files
+                            
                             eval_data = {
                                 "year": str(res.get("year", "N/A")),
                                 "stars": min(max(int(res.get("stars", 0)), 0), 5),
@@ -333,11 +343,11 @@ class V2VisionEngine:
                                 "resource_type": res.get("type", "Reference"),
                                 "complexity": res.get("level", "Intermediate")
                             }
+                            
                             item.update(eval_data)
                             if not item["description"] and item["ai_summary"]:
                                 item["description"] = item["ai_summary"]
-                            
-                            # GitHub overrides
+
                             if "github.com" in item["url"]:
                                 gh_meta = await self._fetch_github_metadata(item["url"])
                                 item.update(gh_meta)
@@ -346,7 +356,7 @@ class V2VisionEngine:
 
                             item["tag"] = self._calculate_tag(item)
                             
-                            # Audit Check for AI re-evaluation
+                            # Audit Check
                             if old_tag and old_tag != item["tag"]:
                                 self.maturity_audit.append({
                                     "url": item["url"], "title": item["title"], "type": "AI Reclassification",
@@ -354,22 +364,22 @@ class V2VisionEngine:
                                 })
 
                             refined.append(item)
-                            
-                            # Update inventory correctly
+                            # Update inventory
                             self.inventory[norm_url] = {
                                 "title": item["title"], "year": item["year"], "stars": item["stars"],
                                 "is_video": item["is_video"], "ai_summary": item["ai_summary"],
                                 "language": item["language"], "resource_type": item["resource_type"],
-                                "complexity": item["complexity"], "tag": item["tag"], "status": "online"
+                                "complexity": item["complexity"], "tag": item["tag"], "status": "online",
+                                "original_file": item["original_file"]
                             }
                             if "gh_stars" in item: self.inventory[norm_url]["gh_stars"] = item["gh_stars"]
                             if "gh_updated" in item: self.inventory[norm_url]["gh_updated"] = item["gh_updated"]
                     except: continue
-            except:
+            except Exception as e:
+                log_event(f"    [!] AI Error in batch: {e}")
                 for l in batch:
                     item = l.copy()
-                    item["year"], item["stars"], item["is_video"] = "N/A", 0, "youtube" in l["url"]
-                    item["tag"] = self._calculate_tag(item)
+                    item["year"], item["stars"], item["tag"] = "N/A", 0, "[COMMUNITY-TOOL]"
                     refined.append(item)
             await asyncio.sleep(0.3)
         return refined
@@ -424,36 +434,51 @@ class V2VisionEngine:
         except: pass
         return {}
 
-    async def _rebuild_structure(self, inventory: List[Dict]) -> Dict[str, Dict]:
+    async def _rebuild_structure(self, library_inventory: List[Dict]) -> Dict[str, Dict]:
+        special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
         v2_structure = {dim: {"summary": "", "categories": {}} for dim in self.dimensions.keys()}
         file_to_dim = {}
         for dim, files in self.dimensions.items():
             for f in files: file_to_dim[f + ".md"] = dim
 
-        for item in inventory:
-            dim = file_to_dim.get(item["original_file"], "Architectural Foundations")
-            cat_name = item["original_file"].replace(".md", "").capitalize()
-            if cat_name not in v2_structure[dim]["categories"]:
-                v2_structure[dim]["categories"][cat_name] = []
-            v2_structure[dim]["categories"][cat_name].append(item)
-
-        for dim in v2_structure.keys():
-            if not v2_structure[dim]["categories"]: continue
-            for cat in v2_structure[dim]["categories"]:
-                # Sort by: 1. Stars (DESC), 2. Year (DESC, N/A at the end)
-                v2_structure[dim]["categories"][cat].sort(
-                    key=lambda x: (
-                        -x.get("stars", 1),
-                        -(int(x["year"]) if x.get("year", "").isdigit() else 0)
-                    )
-                )
+        for item in library_inventory:
+            orig_file = item.get("original_file", "unknown.md")
+            dim = file_to_dim.get(orig_file, "Architectural Foundations")
+            cat_name = orig_file.replace(".md", "").replace("-", " ").title()
+            is_special = orig_file in special_files
             
-            prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
-            try:
-                v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
-            except:
-                v2_structure[dim]["summary"] = f"Impact-driven reference library for {dim}."
-                
+            # Filtering: Keep if stars >= 3 OR if it's a Special Asset
+            if not is_special and item.get("stars", 0) < 3:
+                continue
+
+            if cat_name not in v2_structure[dim]["categories"]:
+                v2_structure[dim]["categories"][cat_name] = {
+                    "Fundamentals": [], "Intermediate": [], "Advanced": [], "Architect": []
+                }
+            
+            level = item.get("complexity", "Intermediate")
+            if level not in v2_structure[dim]["categories"][cat_name]: level = "Intermediate"
+            v2_structure[dim]["categories"][cat_name][level].append(item)
+
+        for dim in v2_structure:
+            for cat in list(v2_structure[dim]["categories"].keys()):
+                has_content = False
+                for level in v2_structure[dim]["categories"][cat]:
+                    if v2_structure[dim]["categories"][cat][level]:
+                        has_content = True
+                        v2_structure[dim]["categories"][cat][level].sort(
+                            key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0))
+                        )
+                if not has_content: 
+                    del v2_structure[dim]["categories"][cat]
+                else:
+                    # Maintain Executive Summary for Dimension
+                    prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
+                    try:
+                        v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
+                    except:
+                        v2_structure[dim]["summary"] = f"Impact-driven reference library for {dim}."
+
         return v2_structure
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
@@ -563,64 +588,80 @@ class V2VisionEngine:
             slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "").replace(" ", "-")
             md = f"# {dim}\n\n"
             md += f"!!! info \"Architectural Context\"\n    {content['summary']}\n\n"
-            for cat, links in content["categories"].items():
-                md += f"## {cat}\n"
-                for l in links:
-                    year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
-                    stars = ("🌟" * stars_val) if stars_val > 0 else ""
-                    tag = l.get("tag", "[ENTERPRISE-STABLE]")
-                    
-                    # Determine color mapping for new tags
-                    if "STANDARD" in tag or "FOUNDATIONAL" in tag: color = "success"
-                    elif "EMERGING" in tag: color = "warning"
-                    elif "LEGACY" in tag: color = "critical"
-                    elif "STABLE" in tag: color = "info"
-                    else: color = "primary"
-                    
-                    title_clean = l['title'].replace("==", "")
-                    if stars_val >= 3 or "STANDARD" in tag:
-                        title_display = f"**=={title_clean}==**"
-                    elif stars_val == 2:
-                        title_display = f"**{title_clean}**"
-                    else:
-                        title_display = title_clean
-                    
-                    year_prefix = f"**({year})** " if year and year != "N/A" else ""
-                    
-                    gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
-                    icon = " 🎥" if l.get("is_video") else ""
-                    
-                    # Language Tagging
-                    lang = l.get("language", "English")
-                    lang_tag = ""
-                    if lang.lower() != "english":
-                        lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
-                    
-                    # Complexity Tagging
-                    level = l.get("complexity", "Intermediate")
-                    level_tag = ""
-                    if level.lower() in ["architect", "advanced"]:
-                        level_tag = f" <span class='md-tag md-tag--critical'>[{level.upper()} LEVEL]</span>"
-                    
-                    # Resource Type Tagging
-                    res_type = l.get("resource_type", "Reference")
-                    type_tag = ""
-                    if res_type.lower() in ["case study", "guide", "documentation"]:
-                        type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
+            
+            # --- Table of Contents for the Page ---
+            md += "## Table of Contents\n"
+            for cat in content["categories"].keys():
+                cat_slug = cat.lower().replace(" ", "-")
+                md += f"- [{cat}](#{cat_slug})\n"
+                for level, level_links in content["categories"][cat].items():
+                    if level_links:
+                        level_slug = f"{cat_slug}-{level.lower()}"
+                        md += f"    - [{level}](#{level_slug})\n"
+            md += "\n---\n\n"
 
-                    # Rich Metadata Tags (Author, Duration, RT)
-                    rich_tags = ""
-                    if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
-                    if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
-                    if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
-
-                    md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
-                    if l['description']:
-                        desc = l['description']
-                        if "\n" in desc:
-                            md += "\n" + "\n".join(["      " + line for line in desc.split("\n")]) + "\n\n"
+            for cat, levels in content["categories"].items():
+                cat_slug = cat.lower().replace(" ", "-")
+                md += f"## {cat}\n\n"
+                for level, links in levels.items():
+                    if not links: continue
+                    level_slug = f"{cat_slug}-{level.lower()}"
+                    md += f"### {cat} - {level}\n"
+                    for l in links:
+                        year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
+                        stars = ("🌟" * stars_val) if stars_val > 0 else ""
+                        tag = l.get("tag", "[ENTERPRISE-STABLE]")
+                        
+                        # Determine color mapping
+                        if "STANDARD" in tag or "FOUNDATIONAL" in tag: color = "success"
+                        elif "EMERGING" in tag: color = "warning"
+                        elif "LEGACY" in tag: color = "critical"
+                        elif "STABLE" in tag: color = "info"
+                        else: color = "primary"
+                        
+                        title_clean = l['title'].replace("==", "")
+                        if stars_val >= 3 or "STANDARD" in tag:
+                            title_display = f"**=={title_clean}==**"
+                        elif stars_val == 2:
+                            title_display = f"**{title_clean}**"
                         else:
-                            md += f"      {desc}\n"
+                            title_display = title_clean
+                        
+                        year_prefix = f"**({year})** " if year and year != "N/A" else ""
+                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
+                        icon = " 🎥" if l.get("is_video") else ""
+                        
+                        # Language Tagging
+                        lang = l.get("language", "English")
+                        lang_tag = ""
+                        if lang.lower() != "english":
+                            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
+                        
+                        # Complexity Tagging
+                        l_val = l.get("complexity", "Intermediate")
+                        level_tag = ""
+                        if l_val.lower() in ["architect", "advanced"]:
+                            level_tag = f" <span class='md-tag md-tag--critical'>[{l_val.upper()} LEVEL]</span>"
+                        
+                        # Resource Type Tagging
+                        res_type = l.get("resource_type", "Reference")
+                        type_tag = ""
+                        if res_type.lower() in ["case study", "guide", "documentation"]:
+                            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
+
+                        # Rich Metadata
+                        rich_tags = ""
+                        if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
+                        if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
+                        if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
+
+                        md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                        if l['description']:
+                            desc = l['description']
+                            if "\n" in desc:
+                                md += "\n" + "\n".join(["      " + line for line in desc.split("\n")]) + "\n\n"
+                            else:
+                                md += f"      {desc}\n"
                 md += "\n"
             with open(os.path.join(V2_DIR, f"{slug}.md"), "w") as f: f.write(md)
 
