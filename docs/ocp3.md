@@ -17,10 +17,10 @@
 ## OpenShift Container Platform 3 (OCP 3)
 
 - [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
-- [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources/)
-- [blog.openshift.com: Using OpenShift 3 on your **local environment** 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment/)
+- [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources//)
+- [blog.openshift.com: Using OpenShift 3 on your **local environment** 🌟](https://www.redhat.com/en/blog/using-openshift-3-on-your-local-environment/)
 - [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https/)
-- [blog.openshift.com - Kubernetes: A Pod’s Life 🌟](https://blog.openshift.com/kubernetes-pods-life/)
+- [blog.openshift.com - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life/)
 - [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)
 - [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/)
 - [developers.redhat.com: Customizing OpenShift project creation 🌟](https://developers.redhat.com/blog/2020/02/05/customizing-openshift-project-creation/)
@@ -33,8 +33,8 @@
   
 ## Helm Charts and OpenShift 3
 
-- [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
-- [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates)
+- [blog.openshift.com: From Templates to Openshift Helm Charts](https://www.redhat.com/en/blog/from-templates-to-openshift-helm-charts/)
+- [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.theodo.com/en-fr/blog/openshift-what-templates-should-you-use-helm-or-openshift)
 
 ## OpenShift GitOps
 
@@ -42,7 +42,7 @@
 - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/)
 - [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops/)
 - [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
-- [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.openshift.com/blog/from-code-to-production-with-gitops)
+- [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops)
 
 ## Debugging apps
 
@@ -59,9 +59,9 @@
 
 ## OpenShift High Availability
 
-- [blog.openshift.com/tag/multi-datacenter](https://blog.openshift.com/tag/multi-datacenter/)
-- [blog.openshift.com: How to survive an outage and live to tell about it!](https://www.openshift.com/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it)
-- [blog.openshift.com: Stateful Workloads and the Two Data Center Conundrum](https://www.openshift.com/blog/stateful-workloads-and-the-two-data-center-conundrum)
+- [blog.openshift.com/tag/multi-datacenter](https://www.redhat.com/en/blog?f[0]=taxonomy_blog_post_category_tid:107161&f[1]=taxonomy_topic_tid:75521/)
+- [blog.openshift.com: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it)
+- [blog.openshift.com: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum)
 - [OpenShift 3.11 Multi-cluster Federation](https://blog.openshift.comkubernetes-federation-v2-on-openshift-3-11/)
 - [Multi-cluster Federation in OpenShift 4 is called **KubeFed**](https://blog.openshift.comfederation-v2-is-now-kubefed/)
 - [**KubeFed Operator**](https://operatorhub.io/operator/kubefed-operator)
@@ -83,13 +83,13 @@
 
 ## Identity Management
 
-- [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible/tree/master/roles/identity-management )
+- [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible)
 
 ## Quota Management
 
 - [GitHub redhat-cop: OpenShift Toolkit - Quota Management 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management)
 - [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)
-- [techbeatly.com: How to create, increase or decrease project quota](https://www.techbeatly.com/2018/11/how-to-create-increase-or-decrease-project-quota-in-openshift.html/#.Xd5OE9WCGUk)
+- [techbeatly.com: How to create, increase or decrease project quota](https://www.techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift//#.Xd5OE9WCGUk)
 - [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)
 - [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)
 
