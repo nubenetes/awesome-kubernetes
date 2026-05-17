@@ -145,7 +145,7 @@
 ## K8s Tools
   - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support](https://t.co/C6uicr7ZPS) - *(Related to terraform topic)*
   - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) 🌟 - Floci is a free and open-source local emulator for AWS services, designed to be an alternative to AWS Localstack. It leverages Docker Compose for easy setup and operation, providing a local development environment without requiring AWS accounts or facing feature gates. The project aims to offer a 'light, fluffy, and always free' experience for developers working with AWS services.
-  - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) - Tabularis is an open-source desktop client designed for modern databases. It offers support for PostgreSQL, MySQL/MariaDB, and SQLite, featuring SQL notebooks, AI functionalities, MCP integration, and an external plugin system. The README provides installation instructions for Windows and macOS.
+  - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration](https://github.com/tabularisdb/tabularis) - Tabularis is an open-source desktop client designed for modern databases. It offers support for PostgreSQL, MySQL/MariaDB, and SQLite, featuring SQL notebooks, AI functionalities, MCP integration, and an external plugin system. The README provides installation instructions for Windows and macOS.
   - [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) - Kubeterm is a desktop and mobile graphical management tool for Kubernetes clusters. It offers clear visibility, easy resource and application management, and troubleshooting capabilities without requiring any installation within the cluster. It supports automatic kubeconfig loading and integrates with cloud provider accounts (GCP, Azure, AWS) for cluster import.
   - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) - *(Related to helm topic)*
   - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) - SQL Studio is a command-line tool that acts as a universal explorer for various SQL databases, including SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, and Microsoft SQL Server. It simplifies database interaction by providing a single interface for querying and managing data across different database systems.
@@ -162,7 +162,6 @@
   - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) - *(Related to iac topic)*
   - [PMEase QuickBuild](https://www.pmease.com/) - *(Related to cicd topic)*
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) - *(Related to gitops topic)*
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - *(Related to cicd topic)*
   - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh/) 🌟 - Canine is an open-source deployment platform designed to simplify the deployment and management of applications on Kubernetes. It offers a Heroku-like experience, enabling developers to push code and have Canine manage the build, deployment, and entire application lifecycle. Key features include GitHub integration, one-click deployments and rollbacks, automatic SSL certificate management via Let's Encrypt, and a developer-friendly CLI. It aims to provide cost-effective hosting by making cheaper cloud providers as easy to use as more expensive ones.
   - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide) - *(Related to devops topic)*
   - [Warp: The Agentic Development Environment](https://www.warp.dev/) 🌟 - Warp is an open-source agentic development environment that allows developers to build software with AI agents, locally and in the cloud. It offers a modern terminal for agentic coding and an orchestration platform for cloud agents. It aims to accelerate development workflows by integrating AI capabilities.
@@ -446,7 +445,7 @@
 - [stackrox.io: Top 9 Open Source DevSecOps Tools for Kubernetes in 2021 🌟](https://www.stackrox.io/blog/top-9-open-source-devsecops-tools-for-kubernetes/) **Anchore, Checkov, Clair, Falco, Kube-bench, Kube-hunter, KubeLinter, Open Policy Agent (OPA), Terrascan**
 - [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev/) Kdo is a command line tool that enables developers to run, develop and test code changes in a realistic deployed setting without having to deal with the complexity of Kubernetes deployment and configuration.
 - [chekr](https://github.com/ckotzbauer/chekr) A inspection utility for the maintenance of Kubernetes clusters.
-    - [github.com issues: Generate Kyverno deprecation policies with chekr](https://github.com/ckotzbauer/chekr/issues/61)
+    - [github.com issues: Generate Kyverno deprecation policies with chekr](https://github.com/ckotzbauer/chekr)
 - [KUR8 🌟](https://github.com/oslabs-beta/KUR8) A visual overview of Kubernetes architecture and Prometheus metrics. KUR8 is an open-source Kubernetes analytics, monitoring, and visualizer web application that allows for querying, alerts, and creating custom charts and graphs that leverage Prothemeus and its time logged series database metrics.
 - [mperezco/forklift-configmap-service](https://github.com/mperezco/forklift-configmap-service) Systemd service to run in VMs on KubeVirt to mount ConfigMaps
 - [cdk8s](https://github.com/cdk8s-team/cdk8s) Define Kubernetes native apps and abstractions using object-oriented programming
@@ -1040,7 +1039,7 @@ elastic quotas - Effortless optimization at its finest!
   - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - *(Related to ai topic)*
 
 ## kubernetes-operators-controllers
-  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue/releases/tag/v0.14.0) - *(Related to kubernetes-operators-controllers topic)*
+  - [Kueue Release v0.14.0](https://github.com/kubernetes-sigs/kueue) - *(Related to kubernetes-operators-controllers topic)*
 
 - [Azure/aad-pod-identity)](https://github.com/Azure/aad-pod-identity) Assign Azure Active Directory Identities to Kubernetes applications.
 
