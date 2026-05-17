@@ -25,17 +25,17 @@
 
 ## Flyway
 
-- [Flyway](https://flywaydb.org/) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.
+- [Flyway](https://www.red-gate.com/products/flyway/community//) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.
 - [dzone: Build a Spring Boot App With Flyway and Postgres](https://dzone.com/articles/build-a-spring-boot-app-with-flyway-and-postgres) 
 
 ## Liquibase vs. Flyway
 
-- [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.org/liquibase-vs-flyway)
+- [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.com/community/liquibase-vs-flyway)
 - [medium: Database version control — Liquibase versus Flyway](https://medium.com/@ruxijitianu/database-version-control-liquibase-versus-flyway-9872d43ee5a4)
 
 ## PlanetScale
 
-- [docs.planetscale.com: The PlanetScale workflow 🌟](https://docs.planetscale.com/concepts/planetscale-workflow) Use the PlanetScale workflow for branching databases, non-blocking schema changes and more.
+- [docs.planetscale.com: The PlanetScale workflow 🌟](https://planetscale.com/docs/vitess/best-practices) Use the PlanetScale workflow for branching databases, non-blocking schema changes and more.
 
 ## Bytebase
 
