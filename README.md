@@ -298,17 +298,27 @@ To maintain a high-performance "Single Source of Truth", Nubenetes implements au
 - **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using **Real-time Web Grounding** to identify the resource's new specific path on a destination domain. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **Ansible Blog** move to personal domains).
 - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted in bold/yellow, marked with 🌟 stars, or featuring dense technical descriptions) are exempt from automatic deletion. If rescue attempts fail, these links are marked as `status: review_required` and preserved in the archive for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
-#### 🕵️ Rescue Observability (Real-World Examples)
-The engine proactively salvages technical depth during site migrations:
-- **Corporate to Personal**: Rescued the *Ansible Runbook* blog from a generic Red Hat redirect to its new home at `probably.co.uk`.
-- **Site Restructuring**: Successfully mapped old `nginx.com/blog` paths to their new specific locations on `f5.com`.
-- **Domain Migration**: Automatically migrated the *AWS Knowledge Center* from old deep-links to the new `repost.aws` portal.
+#### 🕵️ Intelligent Cleaning Observability
+The Nubenetes cleaning engine provides high-fidelity feedback through real-time logging, allowing maintainers to observe technical preservation and data integrity in action:
+
+- **Technical Resurrection (Rescue Protocol)**: Salvaging technical depth during corporate acquisitions and site migrations.
+- **Semantic Drift Detection (SHA256)**: Identifying silent content updates that require AI re-summarization.
+- **Foundational Protection (VIP Shield)**: Preserving critical resources that fail health checks for manual human review.
 
 ```log
+# 1. UNIVERSAL RESCUE: Finding new homes for technical assets
 [19:21:25] [🔍] RESCUE ATTEMPT: 'Ansible: Migrating the Runbook' is missing.
-[19:21:25] [!] API 429 on `gemini-3.1-pro`. Tiering down & backing off 4.3s...
 [19:21:33] [✨] RESCUED: Found at https://probably.co.uk/posts/migrating-the-runbook...
-[19:22:53] [✨] RESCUED: Found at https://www.percona.com/blog/an-overview-of-sharding...
+
+# 2. SEMANTIC DRIFT: Detecting silent content updates via SHA256
+[22:36:07] [!] DRIFT DETECTED: https://github.com/gruntwork-io/terragrunt-infrastructure...
+[22:37:34] [!] DRIFT DETECTED: https://itnext.io/connect-to-containers-using-kubectl-exec...
+# Meaning: Content changed significantly. Flagged for AI re-evaluation.
+
+# 3. HIGH-VALUE PROTECTION: Shielding 'Joyas de la Corona'
+[22:38:50] [⚠️] REVIEW STORED: https://www.toptechskills.com/ansible-tutorials...
+[22:38:51] [⚠️] REVIEW STORED: https://falco.org/about/case-studies/incepto-medical
+# Meaning:VIP link failed. Protected from auto-deletion. Review metadata stored in BBDD.
 ```
 
 - **Surgical Asset Pruning (V2)**: The V2 generation engine follows a "Zero-Zombie" policy. Instead of aggressive mass deletion, it tracks all valid dimension files and surgically prunes only the orphaned Markdown files in `v2-docs/` that are no longer part of the current architecture.
