@@ -180,23 +180,30 @@ class V2VisionEngine:
                 match = re.search(r'github\.com/([^/]+/[^/]+)', norm_url)
                 if match: project_id = match.group(1).lower()
             
-            # --- MANDATE 23: AUTHORITATIVE ROOT ---
-            # If it's a domain root (prometheus.io) vs a repo (github.com/p/p)
-            # The AI will decide later, but we pre-group here.
-            
+            # --- MANDATE 27: SPECIAL ASSET PROTECTION ---
+            is_special = orig_file in special_rules
+            item["is_special"] = is_special
+
+            # --- MANDATE 23: AUTHORITATIVE MERGE ---
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
                 cached = self.inventory[norm_url]
                 item.update(cached)
+                # Ensure is_special is preserved even if cache didn't have it
+                if is_special: item["is_special"] = True
+                
                 if cached.get("hierarchy"):
-                    # Mandate 23: Authoritative Merge
                     if project_id not in project_registry:
                         project_registry[project_id] = item
                     else:
-                        # Prefer root domains or higher stars
                         existing = project_registry[project_id]
+                        # Inheritance: If any version was special, the consolidated one is special
+                        if item.get("is_special"): existing["is_special"] = True
+                        
                         is_current_root = "github.com" not in norm_url
                         if is_current_root or item.get("stars", 0) > existing.get("stars", 0):
                             item.setdefault("aliases", []).append(existing["url"])
+                            # Preserve special status during overwrite
+                            if existing.get("is_special"): item["is_special"] = True
                             project_registry[project_id] = item
                         else:
                             existing.setdefault("aliases", []).append(url)
@@ -257,8 +264,11 @@ class V2VisionEngine:
             cat_name = orig_file.replace(".md", "").replace("-", " ").title()
             if item.get("is_microservice"): cat_name = "Microservices"; dim = "Architectural Foundations" if orig_file == "introduction.md" else dim
 
+            # --- MANDATE 27: SPECIAL ASSET PROTECTION ---
+            is_special = item.get("is_special", False) or orig_file in special_rules
+
             if orig_file == "introduction.md" and item.get("stars", 0) < 4 and not item.get("is_microservice"): continue
-            if orig_file not in special_rules and item.get("stars", 0) < 3 and not item.get("is_microservice"): continue
+            if not is_special and item.get("stars", 0) < 3 and not item.get("is_microservice"): continue
 
             if cat_name not in v2_structure[dim]["categories"]: v2_structure[dim]["categories"][cat_name] = {"__links__": []}
             hierarchy = item.get("hierarchy", [])
