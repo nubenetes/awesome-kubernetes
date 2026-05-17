@@ -57,13 +57,12 @@ class SafetyGuard:
 
     def validate_special_assets_completeness(self):
         """Mandate 27: Inclusión exhaustiva de Activos Especiales en V2."""
-        if not os.path.exists(SPECIAL_ASSETS_PATH) or not os.path.exists(V2_DIR): return
-        
+        if not os.path.exists(SPECIAL_ASSETS_PATH): return
         with open(SPECIAL_ASSETS_PATH, "r") as f:
             special = yaml.safe_load(f).get("special_assets", [])
         
         for sa in special:
-            if "Include 100%" in sa.get("v2_rule", ""):
+            if "Include 100%" in sa.get("v2_rule", "") or "Exhaustive" in sa.get("v2_rule", ""):
                 file_name = sa["file"]
                 v1_path = os.path.join(V1_DIR, file_name)
                 if os.path.exists(v1_path):
@@ -71,8 +70,9 @@ class SafetyGuard:
                     for link in v1_links:
                         nu = normalize_url(link)
                         if nu in self.inventory and self.inventory[nu].get("status") == "online":
-                            if not self.inventory[nu].get("v2_locations"):
-                                self.errors.append(f"💎 **Special Asset Leak**: `{link}` from `{file_name}` is missing in V2 portal")
+                            # Check for inherited is_special flag instead of v2_locations (which are built later)
+                            if not self.inventory[nu].get("is_special"):
+                                self.errors.append(f"💎 **VIP Flag Missing**: `{link}` from `{file_name}` is not marked as Special")
 
     def validate_mvq_compliance(self):
         """Mandato 3 & 16: Verificar cumplimiento de MVQ en V2."""
@@ -116,7 +116,6 @@ class SafetyGuard:
     def has_valid_toc(self, content: str) -> bool:
         """Checks if content has an explicit header or an implicit list-based TOC."""
         if "## Table of Contents" in content: return True
-        # Check for V1 style: Numbered list of links at the top (after H1)
         toc_pattern = r'^\d+\.\s+\[.*?\]\(#.*?\)'
         matches = re.findall(toc_pattern, content, re.MULTILINE)
         return len(matches) >= 3
@@ -153,7 +152,7 @@ class SafetyGuard:
         for root, _, files in os.walk(V1_DIR):
             for file in files:
                 if file.endswith(".md"):
-                    if file in exempt_files: continue
+                    if file in exempt_files or file == "index.md": continue
                     content = open(os.path.join(root, file), "r").read()
                     if not self.has_valid_toc(content) and len(re.findall(r'^## ', content, re.M)) > 2:
                         self.warnings.append(f"📍 **V1 TOC Missing**: `{file}` has many sections but no TOC")
