@@ -37,7 +37,7 @@
 - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
 - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
 - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)
-- [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)
+- [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides)
 - [==medium.com/apache-apisix: 10 most common use cases of an API Gateway==](https://medium.com/apache-apisix/10-most-use-cases-of-an-api-gateway-in-api-led-architecture-f4d7fa160dcf)
 - [siliconrepublic.com: 10 dev tools recommended by start-up founders](https://www.siliconrepublic.com/advice/dev-tools-recommended-by-irish-start-up-founders)
 
