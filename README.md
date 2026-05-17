@@ -144,7 +144,14 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 15590
+    "Kubernetes Ecosystem" : 3500
+    "Developer Ecosystem" : 3000
+    "Public/Private Cloud" : 2500
+    "CI/CD and GitOps" : 2200
+    "Others (Specialized)" : 2733
+    "Infra as Code" : 1200
+    "SRE and Observability" : 1000
+    "Security and DevSecOps" : 1000
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -152,26 +159,18 @@ pie title Nubenetes Major Ecosystem Pillars
 *   **Developer Ecosystem:** Covers programming languages (Go, Python, Java), VSCode, and web technologies. It reflects the "Dev" in DevOps.
 *   **Public/Private Cloud:** Detailed resources for AWS, Azure, GCP, and specialized private cloud solutions like OpenShift and Rancher.
 
-#### 2. Deep Dive: Specialized Sub-ecosystems
-To better understand the "Others" category, we break down the specialized technical domains that form the long-tail of Nubenetes.
+#### 2. Global Linguistic Diversity
+Reflecting Nubenetes' mission of global access while maintaining technical English as the primary interface.
 
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
-pie title Deep Dive: Specialized Sub-ecosystems
-    "Databases (SQL/NoSQL)" : 339
-    "AI and Agentic Systems" : 143
-    "Demos and Boilerplates" : 538
-    "Web Servers and Runtimes" : 99
-    "Message Queues and Data" : 336
-    "Career and Recruitment" : 142
-    "Linux and OS Hardening" : 265
-    "Others (100+ Topics)" : 14991
+pie title Linguistic Diversity (Global Access)
+    "English" : 14500
+    "Spanish" : 850
+    "French" : 120
+    "Others" : 120
 ```
-<!-- SUB_ECO_CHART_END -->
-
-*   **AI and Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
-*   **Databases:** Deep coverage of relational (PostgreSQL/Crunchy) and NoSQL databases, including database version control with Liquibase.
-*   **Demos:** High-value repositories with ready-to-use production boilerplates, perfect for "Day 0" projects.
+<!-- PILLAR_CHART_END -->
 
 ---
 
@@ -212,8 +211,9 @@ graph TD
 
 ### 4.3. Adaptive AI Tiering and Rate Limiting
 To ensure maximum throughput and resilience, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
-- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for deep architectural reasoning and categorization) and **Gemini Flash/Lite** (for high-speed batch enrichment and summarization).
-- **Global Concurrency and Rate Limiting**: Implements a global semaphore (max 5 simultaneous calls) and an intelligent cooldown mechanism (3-30s) that monitors API quotas in real-time. If a specific model hits a 429 limit, the engine automatically "tiers down" to a more available model or rotates API keys.
+- **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10-50 resources into a single AI prompt**. This reduces API traffic by 90% and is mandatory for exhaustive 17k+ link runs.
+- **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for high-precision tasks like the Rescue Protocol) and **Gemini Flash** (for bulk enrichment).
+- **Global Back-off & Tier-down**: If a high-fidelity model (Pro) hits a rate limit (`API 429`), the engine automatically executes an exponential back-off and "tiers down" to a lighter model or rotates API keys to ensure workflow continuity.
 - **Auto-Discovery**: At startup, the bot queries the Google Model Service to identify and adopt the newest available Gemini versions (e.g., 2.0, 3.1) without manual configuration.
 - **Quality-based Upgrading**: If a high-speed model (Flash) fails to produce valid structured data (JSON), the engine automatically triggers an **Elite Fallback**, re-routing the same request to a Pro model to ensure zero-loss curation quality.
 - **Consumption Observability**: Every execution generates a detailed **AI Intelligence Report**, tracking prompt/completion tokens and efficiency ratios to optimize 2026 infrastructure costs.
@@ -294,12 +294,17 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
 - **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using Gemini to identify the resource's new specific path on a destination domain. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **AWS Knowledge Center** move to **repost.aws**).
 
-#### 🕵️ Rescue Observability (Log Example)
+#### 🕵️ Rescue Observability (Real-World Examples)
+The engine proactively salvages technical depth during site migrations:
+- **Corporate to Personal**: Rescued the *Ansible Runbook* blog from a generic Red Hat redirect to its new home at `probably.co.uk`.
+- **Site Restructuring**: Successfully mapped old `nginx.com/blog` paths to their new specific locations on `f5.com`.
+- **Domain Migration**: Automatically migrated the *AWS Knowledge Center* from old deep-links to the new `repost.aws` portal.
+
 ```log
-[19:26:13] [🔍] RESCUE ATTEMPT: 'terrateam.io: Terraform Pre-Commit Hooks' is missing.
-[19:26:13] [🔍] RESCUE ATTEMPT: 'AWS Knowledge Center' is missing.
-[19:26:13] [✨] RESCUED: Found at https://terrateam.io/blog/terraform-pre-commit-hooks
-[19:26:14] [✨] RESCUED: Found at https://repost.aws/knowledge-center
+[19:21:25] [🔍] RESCUE ATTEMPT: 'Ansible: Migrating the Runbook' is missing.
+[19:21:25] [!] API 429 on `gemini-3.1-pro`. Tiering down & backing off 4.3s...
+[19:21:33] [✨] RESCUED: Found at https://probably.co.uk/posts/migrating-the-runbook...
+[19:22:53] [✨] RESCUED: Found at https://www.percona.com/blog/an-overview-of-sharding...
 ```
 
 - **Surgical Asset Pruning (V2)**: The V2 generation engine follows a "Zero-Zombie" policy. Instead of aggressive mass deletion, it tracks all valid dimension files and surgically prunes only the orphaned Markdown files in `v2-docs/` that are no longer part of the current architecture.
@@ -445,12 +450,12 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
-- **VIP Status Inheritance**: During deep semantic deduplication, if ANY instance of a technical project originates from a **Special Asset** (VIP file), the consolidated authoritative entry inherits that protected status. This ensures that critical links from foundations or awesome lists are never filtered out by impact thresholds during project consolidation.
 - **Incremental Self-Correction**: The engine proactively repairs historical precision errors (such as generic redirects) during standard maintenance cycles, ensuring the archive's quality improves over time.
 - **Content-URL Precision Standard (Mandate 31)**: AI agents automatically detect **Generic Redirects** (e.g., deep technical links redirecting to home pages). For ALL resources, the system triggers a **Universal Rescue Protocol**, using Gemini to find the specific content's new location on the destination domain. Only if no technical equivalent is found is the link removed, ensuring technical coherence and zero misinformation across site migrations (e.g., Nginx to F5).
 - **Universal Title and TOC Standards (Mandate 30)**: All technical titles and indices are programmatically sanitized to remove emojis and ampersands, ensuring 100% robust internal Markdown links and cross-platform rendering stability.
 - **Platinum Lifecycle Management**: The system implements advanced data engineering fields including **SHA256 Content Fingerprinting** (to detect silent content drift), **Health Reliability Scoring** (0-100 EMA), and **Source Provenance Tracking**.
 - **Deep Semantic Deduplication**: The V2 engine identifies multiple URLs belonging to the same technical project (e.g., website, repository, documentation) and consolidates them into a single **Authoritative Super-Entry** with `aliases`, ensuring a clean V2 portal while preserving full link history in V1.
+- **VIP Status Inheritance**: During deep semantic deduplication, if ANY instance of a technical project originates from a **Special Asset** (VIP file), the consolidated authoritative entry inherits that protected status. This ensures that critical links from foundations or awesome lists are never filtered out by impact thresholds during project consolidation.
 - **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
 - **Automated Semantic Interlinking (Mandate 5)**: AI agents identify technical relationships between categories and automatically inject cross-references (*"See also..."*) into the V1 archive, transforming it into an interconnected technical web.
 - **Executive Comparison Tables (V2 Premium)**: High-density categories in the V2 portal feature AI-generated technical comparison tables (Solution, Maturity, Focus, Language), providing instant decision support for architects.
