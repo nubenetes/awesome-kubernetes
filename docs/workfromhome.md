@@ -9,34 +9,34 @@
 
 ## Introduction
 
-- [forbes.com: 5 Essential Coronavirus Work From Home Tech Tips](https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips/)
+- [forbes.com: 5 Essential Coronavirus Work From Home Tech Tips](https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips//)
 - [enterprisersproject.com: Remote work: 10 tips to be a better virtual collaborator](https://enterprisersproject.com/article/2021/2/remote-work-virtual-collaboration-best-practices) Mismatched expectations, poor tools, or even bad manners can hurt virtual collaboration. Consider these remote working best practices for leaders and colleagues.
-- [elconfidencial.com: ¿Qué negociar en el acuerdo de teletrabajo? Guía práctica para empresas y empleados](https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723/) Los pactos individuales de empleo remoto generan muchas dudas tanto a compañías como a los trabajadores. Estas son algunas claves a tener en cuenta en el proceso de negociación
-- [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre/)
+- [elconfidencial.com: ¿Qué negociar en el acuerdo de teletrabajo? Guía práctica para empresas y empleados](https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723//) Los pactos individuales de empleo remoto generan muchas dudas tanto a compañías como a los trabajadores. Estas son algunas claves a tener en cuenta en el proceso de negociación
+- [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre//)
 
 ## Tools recommended by Forbes
 
 - [krisp](https://krisp.ai/) Noise cancelling app
-- [Zoom](https://zoom.us/)
-- [Wordpress P2](https://p2theme.com/)
-- [Google docs & Sheets](https://docs.google.com/)
+- [Zoom](https://www.zoom.com/)
+- [Wordpress P2](https://wordpress.com/p2//)
+- [Google docs & Sheets](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779042489432562&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pav-11IKZl8IOb4XqImV3kUr5dyMPv-c_juxtiguwye_vvM_4JChlo3slW1NhgW6-FumHKZpvw/)
 - [Slack](https://slack.com/)
 
 ## Alternatives
 
-- [Google meet](https://meet.google.com/) Alternative to Zoom
-- [Rocket Chat](https://rocket.chat/) Alternative to Slack
+- [Google meet](https://workspace.google.com/products/meet//) Alternative to Zoom
+- [Rocket Chat](https://www.rocket.chat//) Alternative to Slack
 - [Mattermost](https://mattermost.com/) Alternative to Slack
 - [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) Alternative to Slack and Zoom
-- [atlassian.com/remote](https://www.atlassian.com/remote) Free collaboration tools to kickstart remote teamwork
+- [atlassian.com/remote](https://www.atlassian.com/solutions/distributed) Free collaboration tools to kickstart remote teamwork
 
 ## More Tools
 
 - [Miro](https://miro.com/) Online Collaborative Whiteboard Platform
-    - [Summarising Top 10 API Testing Tools](https://miro.com/app/board/o9J_kqwfjqs=/)
+    - [Summarising Top 10 API Testing Tools](https://miro.com/app/board/o9J_kqwfjqs=//)
 - [Readwise](https://readwise.io/) Readwise makes it easy to revisit and learn from your ebook & article highlights.
 - [Instapaper](https://www.instapaper.com/) Save Anything. Read Anywhere.
-- [Matter](https://getmatter.app/) 
+- [Matter](https://www.getmatter.com//) 
 - [Obsidian](https://obsidian.md/) Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
 
 ## Tips
