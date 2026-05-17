@@ -75,16 +75,19 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         web_content, rich_meta = await _deep_fetch_content(url)
         content_hash = hashlib.sha256(web_content.encode()).hexdigest() if web_content else "N/A"
         
-        # 2. AI Logic (O'Reilly + Linguistic Diversity)
-        is_primary = "nubenetes" in asset.get("source_type", "Social").lower()
-        strictness = "BE EXTREMELY SELECTIVE.\n" if not is_primary else ""
+        # --- DYNAMIC CONTEXT: Mandates from GEMINI.md (Mandate 11 Bridge) ---
+        from src.mandate_ingestor import get_system_mandates
+        dynamic_mandates = get_system_mandates()
+        
         prompt = (
-            "You act as a Senior Technical Librarian in 2026.\n" + strictness +
-            "PHASE 1: LINGUISTIC DIVERSITY (Mandate 10)\n" +
-            "- DESC (V1 Archive): Provide a professional summary in the RESOURCE'S NATIVE LANGUAGE.\n" +
-            "- EN_SUMMARY (V2 Portal): Provide a professional English synthesis.\n" +
-            "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n" +
-            "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n" +
+            "You act as a Senior Technical Librarian in 2026.\n"
+            f"{dynamic_mandates}\n"
+            f"{strictness_directive}"
+            "PHASE 1: LINGUISTIC DIVERSITY (Mandate 10)\n"
+            "- DESC (V1 Archive): Provide a professional summary in the RESOURCE'S NATIVE LANGUAGE.\n"
+            "- EN_SUMMARY (V2 Portal): Provide a professional English synthesis.\n"
+            "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n"
+            "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
             "Respond ONLY with JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"technical_hierarchy\": [\"Area\", ...], \"is_microservice\": bool}\n"
             f"CONTENT: {web_content[:2000]}"
         )

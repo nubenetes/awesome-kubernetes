@@ -16,6 +16,13 @@ from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url
 from src.state_manager import get_last_date, save_state
 
 async def master_orchestrator():
+    # 0. Ingest Mandates from GEMINI.md (Mandate Bridge)
+    try:
+        from src.mandate_ingestor import MandateIngestor
+        MandateIngestor().save_system_instructions()
+    except Exception as e:
+        log_event(f"  [!] Mandate Ingestion failed (Using defaults): {e}")
+
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
     
     log_event("STARTING AGENTIC CURATION (CHRONOLOGY & TRANSPARENCY)", section_break=True)

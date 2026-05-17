@@ -81,6 +81,12 @@ class V2VisionEngine:
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
+        # 0. Mandate Sync
+        try:
+            from src.mandate_ingestor import MandateIngestor
+            MandateIngestor().save_system_instructions()
+        except: pass
+
         all_v1_links, mosaic_html, videos_html = await self._gather_all_v1_content()
         log_event(f"[*] Discovery: Found {len(all_v1_links)} resources in V1.")
 
