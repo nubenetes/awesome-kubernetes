@@ -101,10 +101,10 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Lowercase Anchors**: All Markdown anchors MUST use strictly lowercase slugs without special characters.
 
 31. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
-    - **Generic Redirect Detection**: If a technical deep-link redirects to a generic landing page (e.g., home page, "About" section, or index), it is flagged as a precision failure.
-    - **Deep Link Rescue (Universal)**: For ALL technical resources, the bot MUST NOT delete the link immediately upon a generic redirect or 404. Instead, it SHOULD attempt to "rescue" the link by identifying the specific content's new path on the destination domain using the resource's descriptive title.
-    - **Authoritative Preservation**: If a specific technical equivalent is found (e.g., during a site migration like Nginx to F5), the URL MUST be updated to the new specific path to maintain content coherence with the descriptive title.
-    - **Title Mismatch**: If no specific destination is found and the new URL only provides generic content, the resource MUST be removed. Precision is prioritized over link presence.
+    - **Generic Redirect Detection**: If a technical deep-link redirects to a generic landing page, it is flagged as a precision failure.
+    - **Deep Link Rescue (Universal)**: For ALL technical resources, the bot MUST NOT delete the link immediately. Instead, it SHOULD attempt to "rescue" it using the technical title and full V1 description for high-precision context search.
+    - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted with bold/highlight, marked with 🌟 stars, or featuring dense technical descriptions) MUST NEVER be automatically deleted. If rescue attempts fail, these links MUST be marked as `status: review_required` and preserved in the archive for manual verification.
+    - **Authoritative Preservation**: If a specific technical equivalent is found (e.g., Nginx to F5 migration), the URL MUST be updated to the new specific path.
 
 ## 🛠️ Structural Evolution & Navigation
 ...

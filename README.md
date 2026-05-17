@@ -285,7 +285,8 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
-- **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using Gemini to identify the resource's new specific path on a destination domain. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **AWS Knowledge Center** move to **repost.aws**).
+- **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using Gemini to identify the resource's new specific path on a destination domain.
+- **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted in bold/yellow, marked with 🌟 stars, or featuring dense technical descriptions) are exempt from automatic deletion. If rescue attempts fail, these links are marked as `status: review_required` and preserved in the archive for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
 #### 🕵️ Rescue Observability (Real-World Examples)
 The engine proactively salvages technical depth during site migrations:
