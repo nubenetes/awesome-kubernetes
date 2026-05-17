@@ -153,7 +153,7 @@
 - [blog.cloudtrooper.net: Azure network monitoring with synthetic traffic](https://blog.cloudtrooper.net/2024/01/23/azure-network-monitoring-with-synthetic-traffic/)
 - [techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics](https://techcommunity.microsoft.com/t5/educator-developer-blog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for/ba-p/4028701)
 - [techcommunity.microsoft.com: Azure SQL Managed Instance pools: new features](https://techcommunity.microsoft.com/t5/azure-sql-blog/azure-sql-managed-instance-pools-new-features/ba-p/4044688)
-- [github.com/Azure/Enterprise-Scale: ALZ AMA Update](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update) The Log Analytics agent, also known as the Microsoft Monitoring Agent (MMA), is on a deprecation path and won't be supported after August 31, 2024. Any new data centers brought online after January 1 2024 will not support the Log Analytics agent. If you use the Log Analytics agent to ingest data to Azure Monitor, migrate to the new Azure Monitor agent prior to that date.
+- [github.com/Azure/Enterprise-Scale: ALZ AMA Update](https://github.com/azure/enterprise-scale) The Log Analytics agent, also known as the Microsoft Monitoring Agent (MMA), is on a deprecation path and won't be supported after August 31, 2024. Any new data centers brought online after January 1 2024 will not support the Log Analytics agent. If you use the Log Analytics agent to ingest data to Azure Monitor, migrate to the new Azure Monitor agent prior to that date.
 - [blog.siliconvalve.com: Analysing git commit history using Azure Data Explorer](https://blog.siliconvalve.com/posts/2024/02/06/analysing-git-commit-history-using-azure-data-explorer)
 - [azure.microsoft.com: Generally available: Azure Blob Storage Cold Tier support on Change Feed and Object Replication](https://azure.microsoft.com/en-us/updates/generally-available-azure-blob-storage-cold-tier-support-on-change-feed-and-object-replication/)
 - [hlokensgard.no: Azure Firewall as DNS Proxy with the new Azure DNS Resolver](https://hlokensgard.no/2023/07/03/azure-firewall-as-dns-proxy-with-the-new-azure-dns-resolver/)
@@ -173,7 +173,7 @@
 ## Azure Mindmap
 
 - [github.com/sajeetharan/azure-mindmap](https://github.com/sajeetharan/azure-mindmap) Solution Architecture Patterns and Checklists Mind Map for beginners on Azure
-    - [Azure Fundamentals: AZ-900.pdf](https://github.com/sajeetharan/azure-mindmap/blob/master/azure-fundamentals/AZ-900.pdf)
+    - [Azure Fundamentals: AZ-900.pdf](https://github.com/sajeetharan/azure-mindmap)
 - [techcommunity.microsoft.com: Azure Architecture - Course Blueprint](https://techcommunity.microsoft.com/t5/azure-architecture/course-blueprint/m-p/4012399) This blueprint offers a comprehensive guide to the Azure ecosystem, specifically designed to align with the content of a specific course. It encompasses all resources, tools, structures, and connections discussed throughout the course. The layer filtering feature allows for focused study on specific sections of the course, facilitating a more digestible understanding of the information.
 
 ## Azure APIOps
@@ -206,7 +206,7 @@
 
 - [learn.microsoft.com: Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) The Azure Well-Architected Framework (WAF) is a set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads.
 - [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://infoq.com/news/2023/11/azure-well-architected-framework)
-- [==azure.github.io: Azure Proactive Resiliency Library (APRL)==](https://azure.github.io/Azure-Proactive-Resiliency-Library/)
+- [==azure.github.io: Azure Proactive Resiliency Library (APRL)==](https://github.com/azure/azure-proactive-resiliency-library/)
     - This library is built with the intention of being a staging area for guidance and recommendations that can be used by customers, partners and the field in Well-Architected Framework reliability engagements/assessments; with the intent of the guidance and recommendations being promoted, once tested and validated with customers and partners, into the official Well-Architected Framework documentation.
     - The library also contains supporting Azure Resource Graph (ARG) queries, and sometimes Azure PowerShell or Azure CLI scripts, that can help customers, partners and the field identify resources that may or may not be compliant with the guidance and recommendations. The intent for these queries, in the long-term, is to make them part of the Azure Advisor service.
 - [learn.microsoft.com: Azure Well-Architected Framework perspective on Azure App Service (Web Apps)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/app-service-web-apps)
@@ -223,11 +223,11 @@
 
 ## Azure Landing Zones
   - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) 🌟 - This article from the Microsoft Community Hub details a production-ready guide for implementing automated Azure subscription vending at enterprise scale. It leverages Azure Verified Modules (AVM) with Terraform to ensure standardized, governed, and automated subscription creation, addressing common scalability and governance challenges associated with manual processes. The guide covers necessary permissions, role assignments, and best practices aligned with Azure Landing Zones.
-  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes/) - *(Related to iac topic)*
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://github.com/azure/azure-landing-zones/) - *(Related to iac topic)*
   - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) - *(Related to finops topic)*
   - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) 🌟 - This article provides implementation guidance for automating the process of requesting, deploying, and governing Azure subscriptions. It aims to standardize subscription provisioning, enabling application teams to deploy workloads more efficiently. The guidance includes an architecture diagram illustrating a management group hierarchy and a subscription automation workflow, detailing how subscriptions are organized under platform, landing zones, and sandbox child groups, with specific examples of subscription types and associated resources.
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) - *(Related to iac topic)*
-  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones/) 🌟 - Comprehensive documentation for deploying and managing Azure landing zones, covering foundational components, governance, networking, security, and management.
+  - [Azure Landing Zone IaC Accelerator](https://github.com/azure/azure-landing-zones/) - *(Related to iac topic)*
+  - [Azure Landing Zone Technical Documentation](https://github.com/azure/azure-landing-zones/) 🌟 - Comprehensive documentation for deploying and managing Azure landing zones, covering foundational components, governance, networking, security, and management.
   - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) - *(Related to terraform topic)*
   - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone/) 🌟 - This documentation describes the concept of an Azure landing zone, which is a standardized and recommended approach for organizations to set up and manage their Azure environments at scale. It emphasizes consistency, security, compliance, and operational efficiency through platform and application landing zones, built upon a well-architected foundation across eight design areas. The content also touches on the scalable and modular nature of the Azure landing zone architecture, its repeatable infrastructure, and the use of modules for deployment and modification. It references a specific reference architecture as a starting point.
 
@@ -253,7 +253,7 @@
 
 ## Microsoft REST API Guidelines
 
-- [==Microsoft REST API Guidelines== 🌟🌟🌟](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md)
+- [==Microsoft REST API Guidelines== 🌟🌟🌟](https://github.com/microsoft/api-guidelines)
 
 ## Azure Quick Review
 
@@ -436,7 +436,7 @@
 ### Azure DevOps Templates or Snippets
 
 - [github.com/JFolberth/TheYAMLPipelineOne 🌟](https://github.com/JFolberth/TheYAMLPipelineOne)
-- [gist.github.com: This snippet contains the steps to generate a terraform plan and post it as a comment of a pull request in Azure DevOps](https://gist.github.com/GTRekter/51f8be3fbfb13b3696f92e117d956597)
+- [gist.github.com: This snippet contains the steps to generate a terraform plan and post it as a comment of a pull request in Azure DevOps](https://github.com/gtrekter/51f8be3fbfb13b3696f92e117d956597)
 
     ```yaml
     - script: |
@@ -536,7 +536,7 @@
 - [learn.microsoft.com: Configure a custom container for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-custom-container)
 - [returngis.net: Acceder a un App Service con Private Endpoint desde otra Vnet](https://www.returngis.net/2021/08/acceder-a-un-app-service-con-private-endpoint-desde-otra-vnet/)
 - [youtube: How to run an App Service Web App on Azure Arc-enabled Kubernetes - Part 2 | Azure Tips and Tricks](https://www.youtube.com/watch?v=53-Y_aI0KpE&ab_channel=MicrosoftAzure)
-- [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html)
+- [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://github.com/azure/appservice)
 
 ## Azure Application Gateway
   - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration/) - *(Related to istio topic)*
@@ -641,10 +641,10 @@
 - [jrussellfreelance/powershell-scripts](https://github.com/jrussellfreelance/powershell-scripts)
 - [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories)
 - [systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script](https://systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script/)
-    - [prae1809/PowerShell-Scripts: OperationalCollections](https://github.com/prae1809/PowerShell-Scripts/tree/master/OperationalCollections) This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
+    - [prae1809/PowerShell-Scripts: OperationalCollections](https://github.com/prae1809/powershell-scripts) This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
 - [==github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts==](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts) Microsoft Signed PowerShell scripts
 - [shudnow.io](https://www.shudnow.io) - [github.com/ElanShudnow/AzureCode](https://github.com/ElanShudnow/AzureCode) A place to share all the Azure Code I am writing. This includes PowerShell, Terraform, ARM, Bicep, Ansible, etc...
-    - [github.com/ElanShudnow/AzureCode: AzVNETOverlap.ps1](https://github.com/ElanShudnow/AzureCode/blob/main/PowerShell/AzVNETOverlap/README.md) This script creates will output any VNET that overlaps with another VNET.
+    - [github.com/ElanShudnow/AzureCode: AzVNETOverlap.ps1](https://github.com/elanshudnow/azurecode) This script creates will output any VNET that overlaps with another VNET.
 - [github.com/admindroid-community/powershell-scripts: PowerShell Scripts for Microsoft 365 Management, Reporting, and Auditing](https://github.com/admindroid-community/powershell-scripts) Office 365 Reporting PowerShell Scripts
 
 ### Crescendo powershell module
@@ -703,11 +703,11 @@
 - [johnlokerse.dev: Lint Azure Bicep templates in Azure DevOps](https://johnlokerse.dev/2024/02/05/lint-azure-bicep-templates-in-azure-devops/)
 - [techcommunity.microsoft.com: Announcing public preview of Bicep templates support for Microsoft Graph](https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-public-preview-of-bicep-templates-support-for/ba-p/4141772)
 - [github.com/Azure-Samples/azure-ai-studio-secure-bicep](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep) This repository contains a collection of Bicep modules designed to deploy a secure Azure AI Studio environment with robust network and identity security restrictions.
-    - [Deploy Secure Azure AI Studio with a managed virtual network](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/managedvnet/README.md)
+    - [Deploy Secure Azure AI Studio with a managed virtual network](https://github.com/azure-samples/azure-ai-studio-secure-bicep)
 
 ## Azure Verified Modules
 
-- [==azure.github.io/Azure-Verified-Modules 🌟==](https://azure.github.io/Azure-Verified-Modules/) Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries.
+- [==azure.github.io/Azure-Verified-Modules 🌟==](https://github.com/azure/azure-verified-modules/) Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries.
 - [youtube: Code To Cloud - Getting Started With: Azure Verified Modules](https://www.youtube.com/watch?v=y1lOKQOapTw)
 - [learn.microsoft.com: Introduction to using Azure Verified Modules for Terraform](https://learn.microsoft.com/en-us/samples/azure-samples/avm-terraform-labs/avm-terraform-labs/) - [github.com/azure-samples/avm-terraform-labs](https://github.com/azure-samples/avm-terraform-labs/)
 
@@ -742,7 +742,7 @@
 
 ### Azure Microsoft Defender for Cloud
 
-- [github.com/Azure/Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Network%20Security%20Dashboard) Network Security Dashboard for Microsoft Defender for Cloud
+- [github.com/Azure/Microsoft-Defender-for-Cloud](https://github.com/azure/microsoft-defender-for-cloud) Network Security Dashboard for Microsoft Defender for Cloud
 - [techcommunity.microsoft.com: Microsoft Announces General Availability of Defender for APIs](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-announces-general-availability-of-defender-for-apis/ba-p/3981488)
 - [techcommunity.microsoft.com: What’s new in Defender: How Copilot for Security can transform your SOC](https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/what-s-new-in-defender-how-copilot-for-security-can-transform/ba-p/4084222)
 
@@ -837,7 +837,7 @@
 - [Azure Quickstart Templates 🌟](https://azure.microsoft.com/en-us/resources/templates/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
     - https://github.com/Azure/azure-quickstart-templates
 - [microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟](https://github.com/microsoft/azure-pipelines-yaml/) YAML templates, samples, and community interaction for designing Azure Pipelines.
-    - [microsoft/azure-pipelines-yaml: maven.yml](https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/maven.yml)
+    - [microsoft/azure-pipelines-yaml: maven.yml](https://github.com/microsoft/azure-pipelines-yaml)
 
 ## Azure Healthcare Data Services
 
@@ -876,7 +876,7 @@
 - [github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟](https://github.com/mspnp/AzureNamingTool) The Azure Naming Tool is a .NET 8 Blazor application, with a RESTful API. The UI consists of several pages to allow the configuration and generation of Azure Resource names. The API provides a programmatic interface for the functionality.
 - [github.com/JulianHayward/AzADServicePrincipalInsights](https://github.com/JulianHayward/AzADServicePrincipalInsights) Insights and change tracking on Azure Active Directory Service Principals (Enterprise Applications and Applications)
 - [==github.com/ElanShudnow/AzureCode==](https://github.com/ElanShudnow/AzureCode) A place to share all the Azure Code I am writing. This includes PowerShell, Terraform, ARM, Bicep, Ansible, etc...
-    - [github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport](https://github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport) This script will take an Azure Usage Report csv file and provide new columns as to whether each resource supports migration to another Resource Group, to another Subscription, or to another Region.
+    - [github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport](https://github.com/elanshudnow/azurecode) This script will take an Azure Usage Report csv file and provide new columns as to whether each resource supports migration to another Resource Group, to another Subscription, or to another Region.
 - [github.com/mustafakaya/Azure-Reliability-Checker-Tool](https://github.com/mustafakaya/Azure-Reliability-Checker-Tool) This project contains a PowerShell script that scans Azure resources based on Azure Proactive Resiliency Library. The script clones the library to a local directory and then scans all folders and files and runs KQL queries. Finally, it exports the resources to a CSV file with recommendation ID, subscription ID, and resource ID.
 - [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) Starter kits, scripts, and advanced solutions to accelerate your FinOps journey in the Microsoft Cloud.
 - [github.com/BrianCollet/onboard-automator](https://github.com/BrianCollet/onboard-automator) Streamline and automate the onboarding process for new employees using Azure Logic Apps, Azure Function Apps, Azure Blob Storage, Azure Resource Manager, Azure Active Directory, and Outlook
