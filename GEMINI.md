@@ -66,9 +66,10 @@ This file contains the accumulated instructions and long-term vision for the aut
 24. **Multi-Source Knowledge Discovery**: The discovery engine MUST be extensible beyond social media. 
     - **Engineering Blogs**: High-depth technical content from engineering blogs (via RSS/Atom) MUST be prioritized for high-impact dimensions.
     - **Source Diversity**: Monitor X.com, GitHub Trending, and RSS Feeds to maintain a balanced flow of technical news and architectural deep-dives.
-25. **Tiered Health Monitoring Strategy (Quarterly Cycle)**: To balance resource efficiency with high reliability, the system operates on a staggered 3-month cycle:
-    - **Mid-Quarter Critical Pulse**: High-priority assets (`[DE FACTO STANDARD]` and `[ENTERPRISE-STABLE]`) are verified every 3 months, offset from the full scan (e.g., Feb, May, Aug, Nov) to ensure essential tools remain online with high visibility.
-    - **Quarterly Exhaustive Scan**: The complete 17,000+ link archive undergoes a full health audit every 3 months (Jan, Apr, Jul, Oct). This cycle manages massive cleanup, orphaned metadata pruning, and canonical updates.
+25. **Tiered Health Monitoring & Incremental Self-Correction**: To balance resource efficiency with high reliability, the system operates on a staggered 3-month cycle:
+    - **Incremental Self-Correction (Standard Runs)**: Agents MUST autonomously identify "suspicious" resources in the database (e.g., deep technical links that have defaulted to generic homepages). During standard maintenance cycles, these links MUST be prioritized for re-validation and the **Universal Rescue Protocol**, repairing past precision errors without requiring exhaustive re-runs.
+    - **Mid-Quarter Critical Pulse**: High-priority assets (`[DE FACTO STANDARD]` and `[ENTERPRISE-STABLE]`) are verified every 3 months, offset from the full scan.
+    - **Quarterly Exhaustive Scan**: The complete 17,000+ link archive undergoes a full health audit every 3 months (Jan, Apr, Jul, Oct).
     - **Margin for Review**: Workflows are orchestrated to ensure at least 45 days between a full scan and a critical pulse, allowing ample time for manual review and safety checks.
 26. **Dynamic AI Model Discovery**: To remain at the cutting edge and ensure system stability, all agents MUST use the dynamic model discovery engine.
     - **Live Discovery**: Query the `models.list` API at runtime to identify actually available models for each key.
