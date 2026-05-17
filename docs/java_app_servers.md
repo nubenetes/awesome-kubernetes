@@ -10,14 +10,14 @@
 7. [Tweets](#tweets)
 
 ## Introduction. Jakarta EE (formerly J2EE)
-  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops/) - *(Related to azure topic)*
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops//) - *(Related to azure topic)*
 
 - [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE)
 
 ## Payara
 
 - [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server) 
-- [Payara](https://www.payara.fish/) Java EE/Jakarta EE Application Server and MicroProfile implementation.
+- [Payara](https://payara.fish//) Java EE/Jakarta EE Application Server and MicroProfile implementation.
 - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)
 
 ### Docker Hub images
@@ -32,7 +32,7 @@
 
 ## WildFly
 
-- [WildFly](https://wildfly.org/)
+- [WildFly](https://www.wildfly.org//)
 - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes) Learn how to create a custom Wildfly instance that runs a Jakarta EE appplications through Kubernetes.
 - [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) WildFly is a popular choice for developers who want to develop enterprise-ready applications.
 

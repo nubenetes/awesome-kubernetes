@@ -56,6 +56,7 @@ async def _get_github_activity(url: str) -> Dict:
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
     curator = AgenticCurator()
+    to_evaluate = []
     
     # Mandate 2: Load Blacklist
     memory_file = "src/memory/health_learning.json"
@@ -66,14 +67,14 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             domain_blacklist = set(memory_data.get("blacklisted_domains", []))
         except: pass
 
-    for i, asset in enumerate(raw_assets):
+    # 1. Pre-filter (Blacklist & Cache)
+    for asset in raw_assets:
         url = asset["url"]
-        log_event(f"--- EVALUATING {i+1}/{len(raw_assets)}: {url} ---")
         norm_url = normalize_url(url)
         
         # Mandate 2: Skip Blacklisted
         if any(domain in url.lower() for domain in domain_blacklist):
-            log_event(f"  [-] SKIPPING: Blacklisted domain detected.")
+            log_event(f"  [-] SKIPPING: Blacklisted domain detected: {url}")
             evaluations[url] = {"status": "FILTERED", "reason": "Blacklisted"}
             continue
 
@@ -86,60 +87,96 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                 SESSION_TRACKER.track_cache_hit(est_tokens=2200)
                 evaluations[url] = {"status": "INCLUDED", **cached}
                 continue
-
-        # 1. Fetch & Fingerprint
-        web_content, rich_meta = await _deep_fetch_content(url)
-        content_hash = hashlib.sha256(web_content.encode()).hexdigest() if web_content else "N/A"
         
-        # Mandate 3: MVQ Check (GitHub Activity)
-        mvq_penalty = False
-        gh_meta = {}
-        if "github.com" in url:
-            gh_meta = await _get_github_activity(url)
-            pushed = gh_meta.get("gh_pushed", "")
-            if pushed:
-                last_date = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
-                if (datetime.now(last_date.tzinfo) - last_date).days > (365 * 4):
-                    mvq_penalty = True
-                    log_event(f"  [!] MVQ ALERT: Stale repository (>4 years). Penalty applied.")
+        to_evaluate.append(asset)
 
-        # 2. AI Logic (O'Reilly + Linguistic Diversity)
-        is_primary = "nubenetes" in asset.get("source_type", "Social").lower()
-        strictness = "BE EXTREMELY SELECTIVE.\n" if not is_primary else ""
-        prompt = (
-            "You act as a Senior Technical Librarian in 2026.\n" + strictness +
-            f"{'IMPORTANT: This repo is old (>4 years inactive). Assign impact_score < 30.' if mvq_penalty else ''}\n"
-            "PHASE 1: LINGUISTIC DIVERSITY (Mandate 10)\n"
-            "- DESC (V1 Archive): Professional summary in native language.\n"
-            "- EN_SUMMARY (V2 Portal): English synthesis.\n"
-            "Respond ONLY with JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"technical_hierarchy\": [\"Area\", ...], \"is_microservice\": bool}\n"
-            f"CONTENT: {web_content[:2000]}"
-        )
+    if not to_evaluate: return evaluations
+
+    # 2. SMART BATCHING: Group links into batches of 10
+    BATCH_SIZE = 10
+    from src.mandate_ingestor import get_system_mandates
+    dynamic_mandates = get_system_mandates()
+
+    for i in range(0, len(to_evaluate), BATCH_SIZE):
+        batch = to_evaluate[i:i+BATCH_SIZE]
+        log_event(f"[*] Processing AI Batch {i//BATCH_SIZE + 1} ({len(batch)} links)...")
         
-        try:
-            data = await call_gemini_with_retry(prompt)
-            score = data.get("impact_score", 50)
-            primary_cat = get_best_category_match(data.get("primary_category"))
+        # Pre-fetch content and hashes for the batch
+        batch_data = []
+        for asset in batch:
+            web_content, rich_meta = await _deep_fetch_content(asset["url"])
+            c_hash = hashlib.sha256(web_content.encode()).hexdigest() if web_content else "N/A"
             
-            if score >= (5 if is_primary else 80) and primary_cat:
-                eval_data = {
-                    "title": data["title"], "description": data["desc"], "ai_summary": data.get("en_summary", data["desc"]),
-                    "language": data.get("language", "English"), "resource_type": data.get("resource_type", "Reference"),
-                    "complexity": data.get("complexity", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
-                    "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
-                    "stars": min(max(score // 20, 0), 5), "content_hash": content_hash,
-                    "source_provenance": asset.get("source_type", "Social"), "social_preview_url": rich_meta.get("og_image", ""),
-                    "mentions_count": curator.inventory.get(norm_url, {}).get("mentions_count", 0) + 1,
-                    "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
-                    **gh_meta
-                }
-                curator.inventory[norm_url] = eval_data
-                evaluations[url] = {"status": "INCLUDED", **eval_data}
+            # Mandate 3: MVQ Penalty Check
+            mvq_penalty = False
+            gh_meta = {}
+            if "github.com" in asset["url"]:
+                gh_meta = await _get_github_activity(asset["url"])
+                pushed = gh_meta.get("gh_pushed", "")
+                if pushed:
+                    try:
+                        ld = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
+                        if (datetime.now(ld.tzinfo) - ld).days > (365 * 4): mvq_penalty = True
+                    except: pass
+            
+            batch_data.append({
+                "asset": asset, "content": web_content[:1500], "hash": c_hash, 
+                "mvq_penalty": mvq_penalty, "gh_meta": gh_meta, "rich_meta": rich_meta
+            })
+
+        prompt = (
+            "You act as a Senior Technical Librarian in 2026.\n" + dynamic_mandates +
+            "Analyze these resources and provide high-density metadata for each.\n"
+            "PHASE 1: LINGUISTIC DIVERSITY (Mandate 10)\n"
+            "- DESC (V1 Archive): Professional summary in NATIVE language.\n"
+            "- EN_SUMMARY (V2 Portal): English synthesis.\n"
+            "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n"
+            "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
+            "Respond ONLY with a JSON list: [{\"url\": \"...\", \"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
+        )
+
+        try:
+            results = await call_gemini_with_retry(prompt)
+            if isinstance(results, list):
+                # Map results back to batch data
+                res_map = {normalize_url(r.get("url", "")): r for r in results}
+                
+                for d in batch_data:
+                    url = d["asset"]["url"]
+                    norm_url = normalize_url(url)
+                    data = res_map.get(norm_url)
+                    
+                    if not data: continue
+                    
+                    score = data.get("impact_score", 50)
+                    primary_cat = get_best_category_match(data.get("primary_category"))
+                    is_primary = "nubenetes" in d["asset"].get("source_type", "Social").lower()
+                    
+                    if score >= (5 if is_primary else 80) and primary_cat:
+                        eval_data = {
+                            "title": data["title"], "description": data["desc"], "ai_summary": data.get("en_summary", data["desc"]),
+                            "language": data.get("language", "English"), "resource_type": data.get("type", "Reference"),
+                            "complexity": data.get("level", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
+                            "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
+                            "stars": min(max(score // 20, 0), 5), "content_hash": d["hash"],
+                            "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
+                            "mentions_count": curator.inventory.get(norm_url, {}).get("mentions_count", 0) + 1,
+                            "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
+                            **d["gh_meta"]
+                        }
+                        curator.inventory[norm_url] = eval_data
+                        evaluations[url] = {"status": "INCLUDED", **eval_data}
+                        log_event(f"  [+] ACCEPTED: {data['title']} ({eval_data['language']})")
+                    else:
+                        evaluations[url] = {"status": "FILTERED"}
+                
                 curator._save_inventory()
-                log_event(f"  [+] ACCEPTED: {data['title']}")
             else:
-                evaluations[url] = {"status": "FILTERED"}
-        except Exception as e: log_event(f"  [!] AI Error: {e}")
+                log_event(f"  [!] AI did not return a valid list for batch.")
+        except Exception as e:
+            log_event(f"  [!] Batch AI Error: {e}")
+            
     return evaluations
 
 INVENTORY_PATH = "data/inventory.yaml"

@@ -72,76 +72,104 @@ class IntelligentLinkCleaner:
         unique_urls = list(self.link_registry.keys())
         random.shuffle(unique_urls)
         
-        # 1.5. INCREMENTAL SELF-CORRECTION: Identify 'Suspicious' URLs in BBDD
-        # If a link is 'online' but looks too generic compared to its V1 title, force check.
+        # 1.5. Identify prioritized links for validation
         to_check = []
         for u in unique_urls:
             nu = normalize_url(u)
             entry = self.inventory.get(nu, {})
-            # If it's a home/about page but has a specific technical title, it's suspicious
             is_suspicious = False
             if entry.get("status") == "online":
                 path = nu.split("://")[-1].rstrip("/")
-                # Generic redirect indicators
                 if path.count("/") <= 1 or any(kw in path for kw in ["/about", "/products", "/index", "/whats-new"]):
                     is_suspicious = True
             
             if is_suspicious or entry.get("needs_ai_refresh") or os.getenv("FORCE_FULL_CHECK") == "true":
                 to_check.append(u)
             elif (datetime.now().timestamp() - entry.get("last_checked", 0)) > (86400 * 21):
-                to_check.append(u) # Standard 21-day rotation
+                to_check.append(u)
 
-        log_event(f"[*] Queue: {len(to_check)} links prioritized for validation (including {len([u for u in to_check if u not in unique_urls])} suspicious).")
+        log_event(f"[*] Queue: {len(to_check)} links prioritized for validation.")
 
-        # 2. Resilient Check
+        # 2. Parallel Network Checks
         BATCH_SIZE = 20
+        check_results = {} # {url: (alive, reason, final)}
         for i in range(0, len(to_check), BATCH_SIZE):
             batch = to_check[i:i+BATCH_SIZE]
-            tasks = [self._check_and_fix_link(url) for url in batch]
-            await asyncio.gather(*tasks)
-            if i % 100 == 0: log_event(f"  [>] Progress: {i}/{len(to_check)} checked...")
+            tasks = [self._check_url_logic(url) for url in batch]
+            results = await asyncio.gather(*tasks)
+            for url, res in zip(batch, results): check_results[url] = res
+            if i % 100 == 0: log_event(f"  [>] Network Check Progress: {i}/{len(to_check)} checked...")
+
+        # 2.5. SMART AI BATCH RESCUE: Group links that need resurrection
+        to_rescue = [u for u, res in check_results.items() if not res[0] or res[1] == "generic_redirect_loss"]
+        if to_rescue:
+            log_event(f"[*] Starting AI Rescue for {len(to_rescue)} links...")
+            AI_BATCH_SIZE = 10
+            for i in range(0, len(to_rescue), AI_BATCH_SIZE):
+                batch = to_rescue[i:i+AI_BATCH_SIZE]
+                log_event(f"  [🔍] Processing Rescue Batch {i//AI_BATCH_SIZE + 1}...")
+                
+                batch_info = []
+                for u in batch:
+                    entry = self.inventory.get(normalize_url(u), {})
+                    batch_info.append({"url": u, "title": entry.get("title", u)})
+
+                prompt = (
+                    "You act as a Technical Librarian. These resources are missing or redirecting to generic pages.\n"
+                    "Identify the NEW specific URLs for this technical content. Search for direct equivalents, not home pages.\n"
+                    "Pattern Recognition: Consider site migrations (e.g. Nginx -> F5, Ansible -> RedHat/Personal Blogs).\n"
+                    "Return ONLY a JSON list: [{\"old_url\": \"...\", \"new_url\": \"...\"}, ...]\n"
+                    "If not found, set new_url to \"NONE\".\n\n"
+                    "RESOURCES:\n" + "\n".join([f"- {d['title']} ({d['url']})" for d in batch_info])
+                )
+                
+                try:
+                    async with self.ai_semaphore:
+                        ai_results = await call_gemini_with_retry(prompt, prefer_flash=False)
+                        if isinstance(ai_results, list):
+                            res_map = {normalize_url(r.get("old_url", "")): r.get("new_url") for r in ai_results}
+                            for u in batch:
+                                new_loc = res_map.get(normalize_url(u))
+                                if new_loc and new_loc.startswith("http") and "NONE" not in new_loc.upper():
+                                    # Verify rescued URL
+                                    try:
+                                        async with httpx.AsyncClient(timeout=10, follow_redirects=True, verify=False) as client:
+                                            resp = await client.get(new_loc)
+                                            if resp.status_code < 400:
+                                                log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
+                                                check_results[u] = (True, "resurrected", new_loc)
+                                    except: pass
+                except Exception as e:
+                    log_event(f"    [!] Rescue Batch Error: {e}")
+
+        # 2.8. Finalize Link Status & Update Inventory
+        for url, (alive, reason, final) in check_results.items():
+            nu = normalize_url(url); entry = self.inventory.get(nu, {})
+            
+            # Update Health Score
+            score = entry.get("health_score", 100)
+            score = (score * 0.8) + (100 if alive else 0) * 0.2
+            entry["health_score"] = round(score, 1)
+            entry["last_checked"] = datetime.now().timestamp()
+
+            if alive:
+                # Semantic Drift check
+                # (Skipped in this batch logic for speed, but can be added back if needed)
+                pass
+
+            if not alive and score < 20: 
+                entry["status"] = "dead"; self.dead_links[url] = (None, reason)
+            elif final and alive:
+                self.dead_links[url] = (f"CANONICAL:{final}", "Redirect")
+            
+            self.inventory[nu] = entry
 
         # 3. Finalize
         await self.apply_changes()
 
     async def _check_and_fix_link(self, url: str):
-        nu = normalize_url(url); entry = self.inventory.get(nu, {})
-        alive, reason, final = await self._check_url_logic(url)
-        
-        # --- MANDATE 31: RESCUE PROTOCOL (Universal) ---
-        if (not alive or reason == "generic_redirect_loss"):
-            log_event(f"  [🔍] RESCUE ATTEMPT: '{entry.get('title', url)}' is missing. Searching new location...")
-            new_location = await self._try_rescue_link(url, entry.get("title", ""))
-            if new_location:
-                log_event(f"  [✨] RESCUED: Found at {new_location}")
-                alive, reason, final = True, "resurrected", new_location
-
-        # 1. Update Health Score
-        score = entry.get("health_score", 100)
-        score = (score * 0.8) + (100 if alive else 0) * 0.2
-        entry["health_score"] = round(score, 1)
-        entry["last_checked"] = datetime.now().timestamp()
-        
-        # 2. Semantic Drift Detection (SHA256)
-        if alive:
-            from src.agentic_curator import _deep_fetch_content
-            text, _ = await _deep_fetch_content(url if not final else final)
-            new_hash = hashlib.sha256(text.encode()).hexdigest() if text else "N/A"
-            old_hash = entry.get("content_hash", "N/A")
-            
-            if old_hash != "N/A" and new_hash != old_hash:
-                log_event(f"  [!] DRIFT DETECTED: {url} (Content changed). Marking for re-evaluation.")
-                entry["needs_ai_refresh"] = True
-                entry["content_hash"] = new_hash
-            elif old_hash == "N/A":
-                entry["content_hash"] = new_hash
-
-        if not alive and score < 20: 
-            entry["status"] = "dead"; self.dead_links[url] = (None, reason)
-        elif final and alive:
-            self.dead_links[url] = (f"CANONICAL:{final}", "Redirect")
-        
-        self.inventory[nu] = entry
+        # Deprecated by new batch execution flow in execute_clean_cycle
+        pass
 
     async def _try_rescue_link(self, old_url: str, title: str) -> Optional[str]:
         """

@@ -8,7 +8,7 @@
 
 ## Introduction
 
-- [getpostman.com](https://www.getpostman.com/)
+- [getpostman.com](https://www.postman.com//)
 - [blog.getpostman.com](https://blog.getpostman.com/)
 - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)
 - [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery/)
@@ -38,9 +38,9 @@
 
 ## KIE Server and Drools
 
-- [Drools](https://www.drools.org/)
+- [Drools](https://kie.apache.org/)
 - [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/)
-- [KIE Server](https://registry.hub.docker.com/r/jboss/kie-server/)
+- [KIE Server](https://hub.docker.com/r/jboss/kie-server/)
 
 ## Alternatives. Rest Assured
 

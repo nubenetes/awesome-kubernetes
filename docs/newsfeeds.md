@@ -36,7 +36,7 @@
 
 ## Forums
 
-- [AWS Forums](https://forums.aws.amazon.com)
+- [AWS Forums](https://repost.aws)
 
 ## Newsfeeds
 
