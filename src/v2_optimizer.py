@@ -19,6 +19,8 @@ class V2VisionEngine:
     def __init__(self):
         # Load Special Assets & Rules
         self.special_assets_rules = self._load_special_assets()
+        self.link_rules = self._load_link_rules()
+        self.max_depth = self.link_rules.get("hierarchy_rules", {}).get("max_depth", 10)
         
         # 100% Comprehensive 2026 Taxonomy
         self.dimensions = {
@@ -41,7 +43,7 @@ class V2VisionEngine:
             "PHASE 1: TECHNICAL PRESERVATION & CURATION\n"
             "- KEEP >90% of technical resources (except for 'introduction.md' where only high-impact links are kept).\n"
             "PHASE 2: SOPHISTICATED HIERARCHICAL CLASSIFICATION\n"
-            "- Identify TECHNICAL_HIERARCHY: A list of strings (max 10) representing Area > Topic > Subtopics.\n"
+            "- Identify TECHNICAL_HIERARCHY: A list of strings (max depth configured) representing Area > Topic > Subtopics.\n"
             "- For 'introduction.md', set is_microservice: true if context matches.\n"
             "PHASE 3: KNOWLEDGE ASSIMILATION FLOW\n"
             "- Order hierarchy to facilitate a structured learning journey: from foundations to advanced internals.\n"
@@ -54,6 +56,14 @@ class V2VisionEngine:
 
     def _load_special_assets(self) -> Dict:
         path = "data/special_assets.yaml"
+        if os.path.exists(path):
+            try:
+                with open(path, "r") as f: return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
+
+    def _load_link_rules(self) -> Dict:
+        path = "data/link_rules.yaml"
         if os.path.exists(path):
             try:
                 with open(path, "r") as f: return yaml.safe_load(f) or {}
@@ -221,7 +231,7 @@ class V2VisionEngine:
             hierarchy = item.get("hierarchy", [])
             if hierarchy and (hierarchy[0] == dim or hierarchy[0] == cat_name): hierarchy = hierarchy[1:]
             current = v2_structure[dim]["categories"][cat_name]
-            for h_name in hierarchy[:10]:
+            for h_name in hierarchy[:self.max_depth]:
                 if h_name not in current: current[h_name] = {"__links__": []}
                 current = current[h_name]
             current["__links__"].append(item)

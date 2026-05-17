@@ -269,7 +269,7 @@ To embrace the diverse global Cloud Native community while maintaining internati
     *   `complexity`: Target audience level (e.g., 'Beginner', 'Architect').
     *   `author`: Technical creator/contributor identification.
     *   `duration` / `reading_time`: Automatic extraction of content length for videos and articles.
-    *   `area` / `topic` / `subtopic`: Persistent architectural classification for hierarchical grouping.
+    *   `hierarchy`: Persistent, **recursive technical classification** (list of up to 10 levels) for O'Reilly-style grouping.
 - **Separation of Concerns (Data vs. UI)**:
     *   **The Database (Source of Truth)**: Holds raw data, enabling future features like language-based filtering or statistics without re-processing links.
     *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the `language`, `complexity`, and `type` metadata into visual UI tags (e.g., `[SPANISH CONTENT]`, `[ARCHITECT LEVEL]`) during the site build process.
@@ -438,7 +438,7 @@ graph TD
 
 ### 7.6. Strategic Benefits
 - **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
-- **Structural Intelligence Persistence**: High-precision architectural classification (Area, Topic, Subtopic) is stored as persistent metadata. This allows all workflows to reuse structural insights, reducing AI costs by >90% and ensuring perfect consistency between V1 reorganization and V2 portal generation.
+- **Structural Intelligence Persistence**: High-precision technical classification is stored as a persistent, **recursive hierarchy** (up to 10 levels deep). This allows all workflows to reuse deep structural insights, reducing AI costs by >90% and ensuring perfect consistency between V1 reorganization and V2 portal generation.
 - **Self-Healing Infrastructure**: The engine automatically detects and rescues broken links (e.g., GitHub `master` -> `main` branch migration) and identifies parked/expired domains that bypass standard health checks.
 - **Zero-to-Hero Learning Paths**: V2 resources are systematically grouped by complexity level (Fundamentals, Intermediate, Advanced, Architect), transforming the portal into a structured educational journey for Cloud Native engineering.
 - **Special Assets Preservation**: High-value documents (Introduction, YAML, Awesome repos) undergo high-precision semantic grouping in V1 and exhaustive inclusion in V2 to ensure 100% technical preservation.
@@ -681,7 +681,7 @@ Certain files are designated as **Special Assets** (defined in [`data/special_as
 - **Awesome Repositories**: Preserved curation lists that act as gateways to specialized sub-ecosystems.
 
 **Rules of Engagement:**
-1. **High-Precision Grouping**: AI agents use nested hierarchies (Areas -> Topics -> Subtopics) to organize these files without losing any technically valid reference, following a **Professional Technical Book** (O'Reilly style) structure.
+1. **High-Precision Grouping**: AI agents use **recursive nested hierarchies** (up to 10 levels) to organize these files without losing any technically valid reference, following a **Professional Technical Book** (O'Reilly style) structure.
 2. **Elite Curation**: For the V2 Portal, `introduction.md` undergoes a specialized "Elite selection" (Impact ≥ 4) to ensure a high-density entry point for global users.
 
 ### 🎓 O'Reilly-style Knowledge Architecture
