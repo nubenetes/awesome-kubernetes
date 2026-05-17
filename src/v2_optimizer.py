@@ -168,7 +168,14 @@ class V2VisionEngine:
     async def _check_single_link_resilient(self, client, link: Dict):
         url = link["url"]
         norm_url = normalize_url(url)
-        if norm_url in self.inventory and self.inventory[norm_url].get("status") == "online": return link
+        entry = self.inventory.get(norm_url, {})
+        
+        # Mandate 31: Skip links under review for V2 Elite
+        if entry.get("status") == "review_required":
+            log_event(f"  [-] SKIPPING V2: {url} is under Review.")
+            return None
+            
+        if entry.get("status") == "online": return link
         try:
             resp = await client.get(url, timeout=10.0)
             if resp.status_code < 400:

@@ -45,7 +45,6 @@ class SafetyGuard:
 
     def validate_semantic_interlinking(self):
         """Mandate 5: Verificar interconexión semántica en V1."""
-        log_event("[Safety] Auditing Semantic Interlinking...")
         for url, meta in self.inventory.items():
             related = meta.get("related_categories", [])
             for rel_cat in related:
@@ -53,7 +52,7 @@ class SafetyGuard:
                 if os.path.exists(path):
                     content = open(path, "r").read()
                     if url not in content:
-                        self.warnings.append(f"🔗 **Interlink Missing**: `{meta['title']}` should be referenced in `{rel_cat}.md` (See also)")
+                        self.warnings.append(f"🔗 **Interlink Missing**: `{meta['title']}` in `{rel_cat}.md` (See also)")
 
     def validate_special_assets_completeness(self):
         """Mandate 27: Inclusión exhaustiva de Activos Especiales en V2."""
@@ -70,7 +69,6 @@ class SafetyGuard:
                     for link in v1_links:
                         nu = normalize_url(link)
                         if nu in self.inventory and self.inventory[nu].get("status") == "online":
-                            # Check for inherited is_special flag instead of v2_locations (which are built later)
                             if not self.inventory[nu].get("is_special"):
                                 self.errors.append(f"💎 **VIP Flag Missing**: `{link}` from `{file_name}` is not marked as Special")
 
@@ -144,7 +142,7 @@ class SafetyGuard:
             keywords = re.findall(r'\w+', topic.lower())
             found = any(kw in workflow_content.lower() for kw in keywords)
             if not found:
-                self.warnings.append(f"🔄 **Sync Warning**: Topic `{topic}` might not be represented in `{WORKFLOW_PATH}` inputs")
+                self.warnings.append(f"🔄 **Sync Warning**: Topic `{topic}` not in `{WORKFLOW_PATH}`")
 
     def validate_toc_and_anchors(self):
         """🛠️ Structural Evolution: TOC Consistency & Lowercase Slugs."""
@@ -155,7 +153,7 @@ class SafetyGuard:
                     if file in exempt_files or file == "index.md": continue
                     content = open(os.path.join(root, file), "r").read()
                     if not self.has_valid_toc(content) and len(re.findall(r'^## ', content, re.M)) > 2:
-                        self.warnings.append(f"📍 **V1 TOC Missing**: `{file}` has many sections but no TOC")
+                        self.warnings.append(f"📍 **V1 TOC Missing**: `{file}` has sections but no TOC")
                     anchors = re.findall(r'\(#([^\)]+)\)', content)
                     for a in anchors:
                         if any(c.isupper() for c in a):
@@ -163,7 +161,15 @@ class SafetyGuard:
 
     def generate_audit_report(self, old_inv_path=None) -> str:
         """Generates a comprehensive Markdown report based on ALL Mandates."""
-        log_event("[Safety] Executing Full Mandate Audit (GEMINI.md compliance)...")
+        log_event("[Safety] Executing Full Mandate Audit...")
+        # 1. Identify Pending Reviews
+        pending_reviews = []
+        for url, meta in self.inventory.items():
+            if meta.get("status") == "review_required":
+                rev = meta.get("review_metadata", {})
+                pending_reviews.append(f"📍 `{meta.get('title', url)}`: Original: {rev.get('original_url')} | Proposed: {rev.get('proposed_url')}")
+
+        # 2. Run standard validations
         if old_inv_path and os.path.exists(old_inv_path):
             try:
                 with open(old_inv_path, "r") as f:
@@ -177,21 +183,30 @@ class SafetyGuard:
         self.validate_v2_architecture()
         self.validate_navigation_sync()
         self.validate_toc_and_anchors()
+        
         status = "✅ PASS" if not self.errors else "❌ FAILED"
         if not self.errors and self.warnings: status = "⚠️ WARNING"
+        
         report = f"\n## 🛡️ Safety & Mandate Audit: {status}\n*Audit executed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+        
+        if pending_reviews:
+            report += "### 🔍 High-Value Pending Reviews\n"
+            report += "> ⚠️ The following resources have been preserved in V1 but hidden from V2 for manual audit.\n\n"
+            for pr in pending_reviews: report += f"- {pr}\n"
+            report += "\n"
+
         if not self.errors and not self.warnings:
-            report += "✨ **All project mandates from GEMINI.md and technical integrity checks passed successfully.**\n"
+            report += "✨ **All project mandates and technical integrity checks passed successfully.**\n"
         else:
             if self.errors:
-                report += "### 🔴 Critical Failures (Mandate Violations)\n"
+                report += "### 🔴 Critical Failures\n"
                 for err in self.errors: report += f"- {err}\n"
                 report += "\n"
             if self.warnings:
                 report += "### 🟡 Warnings & Recommendations\n"
                 report += "<details><summary>Click to view " + str(len(self.warnings)) + " recommendations</summary>\n\n"
                 for warn in self.warnings: report += f"- {warn}\n"
-                report += "\n> 💡 **Note**: Warnings suggest improvements to align with Nubenetes Excellence standards.\n</details>\n"
+                report += "\n> 💡 **Note**: Align with Nubenetes Excellence standards.\n</details>\n"
         return report
 
 if __name__ == "__main__":

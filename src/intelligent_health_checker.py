@@ -149,26 +149,33 @@ class IntelligentLinkCleaner:
                                     except: pass
                 except: pass
 
-        # 2.8. Finalize Status with Foundational Preservation
+        # 2.8. Finalize Status with Foundational Preservation & Metadata
         for url, (alive, reason, final) in check_results.items():
             nu = normalize_url(url); entry = self.inventory.get(nu, {})
             score = entry.get("health_score", 100)
             score = (score * 0.8) + (100 if alive else 0) * 0.2
             entry["health_score"] = round(score, 1); entry["last_checked"] = datetime.now().timestamp()
-            
-            # --- MANDATE 31: HIGH-VALUE PROTECTION ---
-            # Check importance from either current mapping or historical stars
+
+            # Identify high-value status
             is_important = any(occ.get("is_important") for occ in self.link_registry.get(nu, []))
             if entry.get("stars", 0) >= 3: is_important = True
 
-            if not alive:
+            if not alive or reason == "generic_redirect_loss":
                 if is_important:
                     entry["status"] = "review_required"
-                    log_event(f"  [⚠️] PRESERVED (Review Needed): {url} is HIGH-VALUE.")
+                    entry["review_metadata"] = {
+                        "original_url": url,
+                        "proposed_url": final if final else "NONE",
+                        "reason": f"High-Value Preservation: {reason}",
+                        "timestamp": datetime.now().isoformat()
+                    }
+                    log_event(f"  [⚠️] REVIEW STORED: {url} in inventory. Metadata preserved.")
                 elif score < 20: 
                     entry["status"] = "dead"; self.dead_links[url] = (None, reason)
             elif final and alive:
-                self.dead_links[url] = (f"CANONICAL:{final}", "Redirect")
+                # If it's rescued or a valid redirect, we update
+                self.dead_links[url] = (f"CANONICAL:{final}", "Redirect/Resurrection")
+
             self.inventory[nu] = entry
 
         await self.apply_changes()

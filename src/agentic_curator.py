@@ -81,6 +81,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         # --- DATABASE-FIRST: Reuse insights ---
         if norm_url in curator.inventory:
             cached = curator.inventory[norm_url]
+            
+            # Mandate 31: Absolute protection for links under review
+            if cached.get("status") == "review_required":
+                log_event(f"  [🔒] PRESERVING REVIEW STATUS: {url}")
+                evaluations[url] = {"status": "REVIEW_PENDING", **cached}
+                continue
+
             if cached.get("title") and cached.get("hierarchy"):
                 log_event(f"  [⚡] REUSING CACHED INSIGHTS: {cached['title']}")
                 from src.gemini_utils import SESSION_TRACKER
