@@ -46,7 +46,7 @@
 
 ## Other Awesome Kubernetes Lists
 
-- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes/)
+- [==@ramitsurana' Awesome Kubernetes==](https://github.com/ramitsurana/awesome-kubernetes/)
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
 - [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
