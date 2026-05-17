@@ -73,10 +73,9 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Mid-Quarter Critical Pulse**: High-priority assets (`[DE FACTO STANDARD]` and `[ENTERPRISE-STABLE]`) are verified every 3 months, offset from the full scan.
     - **Quarterly Exhaustive Scan**: The complete 17,000+ link archive undergoes a full health audit every 3 months (Jan, Apr, Jul, Oct).
     - **Margin for Review**: Workflows are orchestrated to ensure at least 45 days between a full scan and a critical pulse, allowing ample time for manual review and safety checks.
-26. **Dynamic AI Model Discovery & Resilient Back-off**: To remain at the cutting edge and ensure system stability:
+26. **Dynamic AI Model Discovery & Resilient Grounding**: To remain at the cutting edge and ensure system stability:
     - **Live Discovery**: Query the `models.list` API at runtime to identify actually available models for each key.
-    - **Scoring & Ranking**: Prioritize models using the established 2026 hierarchy (Generation 3.x > 2.x > 1.x; Pro > Flash).
-    - **Tier-Down & Back-off Strategy**: When executing high-precision tasks (like the Rescue Protocol), agents MUST implement an automatic "tier-down" logic (e.g., backing off from Pro models upon 429 errors) to ensure workflow continuity without data loss.
+    - **Real-time Web Grounding (MCP-Style)**: Agents MUST use **Google Search Grounding** for high-fidelity tasks, including link rescue and tool maturity verification. This provides a live data filter that ensures architectural decisions are based on the current state of the technical web.
     - **Resilient Fallback**: Automatically transition between models and API keys upon encountering 404 (Unsupported) or 429 (Rate Limit) errors.
 
 27. **Special Assets Management (V1 & V2)**: High-value files defined in [`data/special_assets.yaml`](data/special_assets.yaml) require specialized handling:
@@ -102,7 +101,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 31. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
     - **Generic Redirect Detection**: If a technical deep-link redirects to a generic landing page, it is flagged as a precision failure.
-    - **Deep Link Rescue (Universal)**: For ALL technical resources, the bot MUST NOT delete the link immediately. Instead, it SHOULD attempt to "rescue" it using the technical title and full V1 description for high-precision context search.
+    - **Deep Link Rescue (Universal)**: For ALL technical resources, the bot MUST NOT delete the link immediately. Instead, it SHOULD attempt to "rescue" it using the technical title, full V1 description, and **Real-time Web Grounding** (MCP) for high-precision context search.
     - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted with bold/highlight, marked with 🌟 stars, or featuring dense technical descriptions) MUST NEVER be automatically deleted. If rescue attempts fail, these links MUST be marked as `status: review_required` and preserved in the archive for manual verification.
     - **Authoritative Preservation**: If a specific technical equivalent is found (e.g., Nginx to F5 migration), the URL MUST be updated to the new specific path.
 

@@ -144,7 +144,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         )
 
         try:
-            results = await call_gemini_with_retry(prompt)
+            # ENABLE GROUNDING FOR CURATION (Quality Filter)
+            results = await call_gemini_with_retry(prompt, use_grounding=True)
             if isinstance(results, list):
                 # Map results back to batch data
                 res_map = {normalize_url(r.get("url", "")): r for r in results}

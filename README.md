@@ -202,9 +202,10 @@ graph TD
     D --> G["V2 Elite Generation"]
 ```
 
-### 4.3. Adaptive AI Tiering and Rate Limiting
-To ensure maximum throughput and resilience, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
+### 4.3. Adaptive AI Tiering and Real-time Grounding
+To ensure maximum throughput and industrial-grade precision, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:
 - **Smart Batching (Anti-429)**: Instead of individual calls, the system groups up to **10-50 resources into a single AI prompt**. This reduces API traffic by 90% and is mandatory for exhaustive 17k+ link runs.
+- **Real-time Web Grounding (MCP-Style)**: For high-fidelity tasks, the engine activates **Google Search Grounding**. This allows the AI to verify technical maturity, site migrations, and official documentation in real-time, providing a live data filter for all decisions.
 - **Dynamic Model Selection**: The system automatically toggles between **Gemini Pro** (for high-precision tasks like the Rescue Protocol) and **Gemini Flash** (for bulk enrichment).
 - **Global Back-off & Tier-down**: If a high-fidelity model (Pro) hits a rate limit (`API 429`), the engine automatically executes an exponential back-off and "tiers down" to a lighter model or rotates API keys to ensure workflow continuity.
 - **Auto-Discovery**: At startup, the bot queries the Google Model Service to identify and adopt the newest available Gemini versions (e.g., 2.0, 3.1) without manual configuration.
@@ -285,7 +286,7 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
-- **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using Gemini to identify the resource's new specific path on a destination domain.
+- **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using **Real-time Web Grounding** to identify the resource's new specific path on a destination domain. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **Ansible Blog** move to personal domains).
 - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted in bold/yellow, marked with 🌟 stars, or featuring dense technical descriptions) are exempt from automatic deletion. If rescue attempts fail, these links are marked as `status: review_required` and preserved in the archive for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
 #### 🕵️ Rescue Observability (Real-World Examples)

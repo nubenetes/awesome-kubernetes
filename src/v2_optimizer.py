@@ -226,7 +226,8 @@ class V2VisionEngine:
                 prompt = (f"{self.library_criteria}\nRespond ONLY JSON: {{\"results\": [{{ \"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"hierarchy\": [\"Area\", \"Topic\", ...], \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"complexity\": \"...\", \"is_microservice\": bool }}, ...]}}\n\nLINKS:\n" + 
                           "\n".join([f"{idx}. {l['title']} ({l['url']})" for idx, l in enumerate(batch)]))
                 try:
-                    data = await call_gemini_with_retry(prompt, prefer_flash=True)
+                    # ENABLE GROUNDING FOR V2 (High-Density Accuracy)
+                    data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=True)
                     for res in data.get("results", []):
                         idx = int(res["idx"])
                         if idx < len(batch):

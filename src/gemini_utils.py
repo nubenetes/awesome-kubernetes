@@ -207,26 +207,22 @@ def normalize_url(url: str) -> str:
 def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
     return normalize_url(url_a) == normalize_url(url_b)
 
-async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False):
+async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
     models_pool = await discover_optimal_models()
     
-    # 1. Smart Re-ordering: If prefer_flash is True, put flash models first
+    # 1. Smart Re-ordering
     if prefer_flash:
         models = sorted(models_pool, key=lambda m: 0 if "flash" in m or "lite" in m else 1)
     else:
         models = models_pool
 
-    diagnostics = GeminiDiagnostics()
     total_keys = len(GEMINI_API_KEYS)
-    base_wait_time = 2.5
-    consecutive_429s = 0
     
     async with GLOBAL_AI_SEMAPHORE:
         for attempt_round in range(max_retries + 1):
-            # Global Cooldown Check
             now = time.time()
             if now < GLOBAL_COOLDOWN_UNTIL:
                 await asyncio.sleep(GLOBAL_COOLDOWN_UNTIL - now)
@@ -237,7 +233,6 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                 
                 async with httpx.AsyncClient() as client:
                     for model in models:
-                        # Skip throttled models for this specific execution
                         if THROTTLED_MODELS.get(model, 0) > time.time():
                             continue
 
@@ -245,8 +240,12 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                         api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                         
                         try:
-                            payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                            response = await client.post(api_url, json=payload, timeout=45)
+                            # --- TOOL ENABLING (MCP-LIKE GROUNDING) ---
+                            payload = {
+                                "contents": [{"parts": [{"text": prompt}]}],
+                                "tools": [{"google_search_retrieval": {}}] if use_grounding else []
+                            }
+                            response = await client.post(api_url, json=payload, timeout=50)
                             
                             resp_json = {}
                             try: resp_json = response.json()
