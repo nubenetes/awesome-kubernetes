@@ -57,19 +57,35 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
     curator = AgenticCurator()
     for i, asset in enumerate(raw_assets):
-        log_event(f"--- EVALUATING {i+1}/{len(raw_assets)}: {asset['url']} ---")
-        norm_url = normalize_url(asset["url"])
+        url = asset["url"]
+        log_event(f"--- EVALUATING {i+1}/{len(raw_assets)}: {url} ---")
+        norm_url = normalize_url(url)
         
+        # --- DATABASE-FIRST: Reuse insights ---
+        if norm_url in curator.inventory:
+            cached = curator.inventory[norm_url]
+            if cached.get("title") and cached.get("hierarchy"):
+                log_event(f"  [⚡] REUSING CACHED INSIGHTS: {cached['title']}")
+                from src.gemini_utils import SESSION_TRACKER
+                SESSION_TRACKER.track_cache_hit(est_tokens=2200)
+                evaluations[url] = {"status": "INCLUDED", **cached}
+                continue
+
         # 1. Fetch & Fingerprint
-        web_content, rich_meta = await _deep_fetch_content(asset["url"])
+        web_content, rich_meta = await _deep_fetch_content(url)
         content_hash = hashlib.sha256(web_content.encode()).hexdigest() if web_content else "N/A"
         
-        # 2. AI Logic
+        # 2. AI Logic (O'Reilly + Linguistic Diversity)
         is_primary = "nubenetes" in asset.get("source_type", "Social").lower()
         strictness = "BE EXTREMELY SELECTIVE.\n" if not is_primary else ""
         prompt = (
             "You act as a Senior Technical Librarian in 2026.\n" + strictness +
-            "Analyze the resource and respond ONLY with JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"technical_hierarchy\": [\"Area\", \"Topic\", ...], \"is_microservice\": bool}\n"
+            "PHASE 1: LINGUISTIC DIVERSITY (Mandate 10)\n" +
+            "- DESC (V1 Archive): Provide a professional summary in the RESOURCE'S NATIVE LANGUAGE.\n" +
+            "- EN_SUMMARY (V2 Portal): Provide a professional English synthesis.\n" +
+            "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n" +
+            "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n" +
+            "Respond ONLY with JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"technical_hierarchy\": [\"Area\", ...], \"is_microservice\": bool}\n"
             f"CONTENT: {web_content[:2000]}"
         )
         
@@ -90,11 +106,11 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp()
                 }
                 curator.inventory[norm_url] = eval_data
-                evaluations[asset["url"]] = {"status": "INCLUDED", **eval_data}
+                evaluations[url] = {"status": "INCLUDED", **eval_data}
                 curator._save_inventory()
                 log_event(f"  [+] ACCEPTED: {data['title']}")
             else:
-                evaluations[asset["url"]] = {"status": "FILTERED"}
+                evaluations[url] = {"status": "FILTERED"}
         except Exception as e: log_event(f"  [!] AI Error: {e}")
     return evaluations
 

@@ -298,9 +298,29 @@ class V2VisionEngine:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
                         md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
-                        date = f"**({l.get('year', 'N/A')})** "
-                        tags = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>"
-                        md += f"  - {date}[{title}]({l['url']}){tags} {'🌟'*l.get('stars',0)}\n"
+                        year_prefix = f"**({l.get('year', 'N/A')})** "
+                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+                        icon = " 🎥" if l.get("is_video") else ""
+                        
+                        lang = l.get("language", "English")
+                        lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
+                        
+                        comp = l.get("complexity", "Intermediate")
+                        comp_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
+                        
+                        res_type = l.get("resource_type", "Reference")
+                        type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
+                        
+                        rich = "".join([
+                            f" <small>by **{l['author']}**</small>" if l.get("author") else "",
+                            f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "",
+                            f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""
+                        ])
+                        
+                        tag = l.get("tag", "[COMMUNITY-TOOL]")
+                        color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "info"
+                        
+                        md += f"  - {year_prefix}[{title}]({l['url']}){icon}{gh_info}{lang_tag}{comp_tag}{type_tag}{rich} {'🌟'*l.get('stars',0)} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                         if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
             return md
 

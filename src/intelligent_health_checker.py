@@ -109,12 +109,27 @@ class IntelligentLinkCleaner:
                     text = resp.text.lower()
                     if any(kw in text for kw in parked_indicators): return False, "parked", None
                     return True, "OK", str(resp.url) if str(resp.url) != url else None
+                
+                # Definitive Failures
                 if resp.status_code in [404, 410]:
+                    # AUTO-HEAL GitHub Branches (master -> main)
                     if "github.com" in url and "/master/" in url:
                         heal = url.replace("/master/", "/main/")
                         try:
-                            if (await client.get(heal)).status_code < 200: return True, "healed", heal
+                            if (await client.get(heal)).status_code < 400: return True, "healed", heal
                         except: pass
+                    
+                    # Mandate 8: Repository Consolidation
+                    if "github.com" in url:
+                        match = re.search(r'(https?://github\.com/[^/]+/[^/]+)', url)
+                        if match:
+                            root_url = match.group(1)
+                            if root_url != url:
+                                try:
+                                    if (await client.get(root_url)).status_code < 400:
+                                        return True, "consolidated_to_root", root_url
+                                except: pass
+
                     return False, "404", None
                 return True, f"Soft Block {resp.status_code}", None
         except: return True, "Connection Error", None
