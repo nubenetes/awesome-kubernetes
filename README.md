@@ -142,17 +142,19 @@ Nubenetes uses AI-driven semantic clustering to organize its 17,000+ resources i
 #### 1. Major Ecosystem Pillars
 This chart shows the high-level distribution across the primary domains of Cloud Native engineering.
 
+<!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Kubernetes Ecosystem" : 3034
-    "Developer Ecosystem" : 1121
-    "Public/Private Cloud" : 1298
-    "CI/CD and GitOps" : 1094
-    "Infra as Code" : 997
-    "SRE and Observability" : 781
-    "Security and DevSecOps" : 505
-    "Others (Specialized)" : 8023
+    "Kubernetes Ecosystem" : 3500
+    "Developer Ecosystem" : 3000
+    "Public/Private Cloud" : 2500
+    "CI/CD and GitOps" : 2200
+    "Others (Specialized)" : 2733
+    "Infra as Code" : 1200
+    "SRE and Observability" : 1000
+    "Security and DevSecOps" : 1000
 ```
+<!-- PILLAR_CHART_END -->
 
 *   **Kubernetes Ecosystem:** Includes core K8s, tools, networking, security, and operators. This is the heart of the project, with over 3,500 curated references.
 *   **Developer Ecosystem:** Covers programming languages (Go, Python, Java), VSCode, and web technologies. It reflects the "Dev" in DevOps.
@@ -161,17 +163,19 @@ pie title Nubenetes Major Ecosystem Pillars
 #### 2. Deep Dive: Specialized Sub-ecosystems
 To better understand the "Others" category, we break down the specialized technical domains that form the long-tail of Nubenetes.
 
+<!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Deep Dive: Specialized Sub-ecosystems
-    "Databases (SQL/NoSQL)" : 339
-    "AI and Agentic Systems" : 143
+    "Databases (SQL/NoSQL)" : 600
     "Demos and Boilerplates" : 538
-    "Web Servers and Runtimes" : 99
+    "AI and Agentic Systems" : 450
+    "Web Servers and Runtimes" : 400
     "Message Queues and Data" : 336
-    "Career and Recruitment" : 142
+    "Career and Recruitment" : 250
     "Linux and OS Hardening" : 265
-    "Others (100+ Topics)" : 14991
+    "Others (100+ Topics)" : 1161
 ```
+<!-- SUB_ECO_CHART_END -->
 
 *   **AI and Agentic Systems:** A rapidly growing category since May 2026, focusing on Gemini, MCP, and AI Agents. This is the new frontier of Cloud Native.
 *   **Databases:** Deep coverage of relational (PostgreSQL/Crunchy) and NoSQL databases, including database version control with Liquibase.
@@ -237,6 +241,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 ### 5.2. V2: The Agentic Elite Edition
 - **Purpose:** A high-density, enterprise-grade portal for the 2026 ecosystem.
 - **Algorithm:** Uses the **Incremental Elite Engine** to select and classify top-tier resources.
+- **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
 
@@ -288,10 +293,12 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
+- **GitHub Branch Auto-Heal**: If a deep link returns a 404, the engine automatically attempts to rescue it by migrating the path from `master` to `main`. Verified revivals are automatically updated in the V1 archive.
+- **Parked Domain Detection**: Using AI-driven content inspection, the engine identifies expired domains displaying "Buy this domain" parking pages, marking them as `DEAD` even if they return an HTTP 200 status.
 - **Auto-Redirect Fix (Canonical Updates)**: During health checks, if a permanent redirection (301/302) is detected, the engine automatically updates the Markdown files with the final **Canonical URL**. This reduces latency and prevents future link rot.
 - **Database Garbage Collection (GC)**: A bi-monthly pruning process identifies orphaned metadata in `data/inventory.yaml` for links that have been removed from the repository, keeping the database lean and professional.
 - **Maturity Audit Log**: Every evaluation cycle tracks promotions and reclassifications in a public **Audit Log** (`v2-docs/audit-log.md`). This provides transparency on why resources are moved between tiers (e.g., from Emerging to De Facto Standard).
-- **Exhaustive Initialization (Cold-Start)**: The system supports a `FORCE_FULL_CHECK` mechanism. When activated (via the **Force full re-validation** button in GitHub Actions), the engine bypasses all local caches and re-verifies the entire 17,000+ link archive. This is used to build the initial database from scratch or perform massive architectural refreshes.
+- **Exhaustive Initialization (Cold-Start)**: The system supports a `FORCE_FULL_CHECK` mechanism. When activated (via the **Force full re-validation** button in GitHub Actions), the engine bypasses all local caches and re-verifies the entire 17,000+ link archive.
 
 ### 6.4. Multi-Format Synchronization Logic
 Nubenetes employs a strategic "Double-Format" protocol to ensure system reliability:
@@ -426,13 +433,15 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
+- **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
+- **Self-Healing Infrastructure**: The engine automatically detects and rescues broken links (e.g., GitHub `master` -> `main` branch migration) and identifies parked/expired domains that bypass standard health checks.
 - **Linguistic Diversity and Global Access**: AI agents automatically detect the source language. **V1 Archive** preserves descriptions in the resource's native language (e.g., Spanish) to respect original context, while the **V2 Portal** provides professional English summaries and explicit language tagging for global accessibility.
 - **Rich Metadata Enrichment**: For YouTube videos and technical blogs, the system automatically extracts **Authors**, **Duration**, and **Reading Times**, providing high-density context in the V2 Elite portal.
 - **Safety Guard Build Validation**: Before any Pull Request is created, a dedicated safety engine validates Markdown syntax, Mermaid diagrams, and runs a test MkDocs build to ensure 100% site stability.
 - **Universal English Curation**: All high-level reasoning and synthesis are curated into professional technical English, maintaining Nubenetes as a truly global resource.
 - **Semantic Conflict Resolution**: AI identifies multiple URLs pointing to the same technical project (e.g., repository vs. landing page) and automatically consolidates them into a single canonical reference.
 - **Critical Asset Monitoring**: While the exhaustive health check runs every **3 months**, high-priority assets ([DE FACTO STANDARD]) undergo a specialized pulse check every **3 months (offset by 45 days)** to ensure essential industry tools remain online with maximum reliability.
-- **Canonical Deduplication**: Automatically merges duplicate resources (stripping UTM/trackers), ensuring a clean and precise inventory.
+- **Canonical Deduplication**: Automatically merges duplicate resources using high-precision normalization that **preserves technical line anchors** (`#L`) and respects **URL path case-sensitivity**, ensuring no loss of technical depth during cleanup.
 - **The Agentic Pulse**: A dynamic trending section on the V2 home page that highlights the freshest high-impact resources.
 - **Zero Redundancy**: Links already analyzed by Gemini are never re-evaluated unless forced.
 - **Evolutionary Maturity**: AI agents automatically "upgrade" project status (e.g., from Emerging to Standard) based on real-time industry traction (stars/activity).

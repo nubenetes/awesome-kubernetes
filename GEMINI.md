@@ -52,7 +52,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.
     - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions in the V1 archive files. Enrichment is strictly for `inventory.yaml` and the V2 portal.
 23. **Canonical URL Normalization & Semantic Deduplication**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
-    - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (`#`).
+    - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (except technical ones).
+    - **Technical Preservation (V1)**: Normalization MUST **preserve line anchors** (e.g., `#L123`) and **respect URL path case-sensitivity**. Technical fragmentation is preferred over data loss for deep-links.
     - **Protocol Uniformity**: Standardize on `https://` whenever possible.
     - **Semantic Merge Logic**: If multiple URLs point to the same technical project (e.g., `user.github.io` vs `github.com/user/repo`), the agent MUST consolidate them into a single canonical reference, prioritizing the primary repository root.
     - **Metadata Merge**: Metadata from multiple sources for the same canonical URL MUST be merged, prioritizing the highest star rating and most recent date.
