@@ -95,6 +95,10 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **No Ampersands**: The ampersand character (`&`) MUST be replaced with "and" in all titles and TOCs.
     - **Lowercase Anchors**: All Markdown anchors MUST use strictly lowercase slugs without special characters.
 
+31. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
+    - **No Generic Redirects**: If a technical deep-link redirects to a generic landing page (e.g., home page, "About" section, or index), it MUST be removed entirely from the archive.
+    - **Title Mismatch**: If the new URL resulting from redirection or consolidation no longer contains the specific technical content described in the link title or descriptive text, the resource MUST NOT be kept. Precision is prioritized over link presence.
+
 ## 🛠️ Structural Evolution & Navigation
 ...
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.

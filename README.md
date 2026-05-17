@@ -449,7 +449,9 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
-- **Platinum Lifecycle Management**: The system implements advanced data engineering fields including **SHA256 Content Fingerprinting** (to detect silent content drift), **Health Reliability Scoring** (0-100 EMA), and **Source Provenance Tracking**. This ensures that autonomous agents make context-aware decisions throughout the multi-year lifecycle of every technical resource.
+- **Content-URL Precision Standard (Mandate 31)**: AI agents automatically detect **Generic Redirects** (e.g., a deep technical link redirecting to a home page or generic "About" section). If the destination URL loses the specific technical context described in the resource title, the link is automatically removed to prevent misinformation.
+- **Universal Title and TOC Standards (Mandate 30)**: All technical titles and indices are programmatically sanitized to remove emojis and ampersands, ensuring 100% robust internal Markdown links and cross-platform rendering stability.
+- **Platinum Lifecycle Management**: The system implements advanced data engineering fields including **SHA256 Content Fingerprinting** (to detect silent content drift), **Health Reliability Scoring** (0-100 EMA), and **Source Provenance Tracking**.
 - **Deep Semantic Deduplication**: The V2 engine identifies multiple URLs belonging to the same technical project (e.g., website, repository, documentation) and consolidates them into a single **Authoritative Super-Entry** with `aliases`, ensuring a clean V2 portal while preserving full link history in V1.
 - **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
 - **Automated Semantic Interlinking (Mandate 5)**: AI agents identify technical relationships between categories and automatically inject cross-references (*"See also..."*) into the V1 archive, transforming it into an interconnected technical web.

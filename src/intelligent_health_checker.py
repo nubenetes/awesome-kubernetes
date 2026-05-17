@@ -123,7 +123,25 @@ class IntelligentLinkCleaner:
                 if resp.status_code < 400:
                     text = resp.text.lower()
                     if any(kw in text for kw in parked_indicators): return False, "parked", None
-                    return True, "OK", str(resp.url) if str(resp.url) != url else None
+                    
+                    final_url = str(resp.url)
+                    
+                    # Mandate 31: Content-URL Precision (Generic Redirect Detection)
+                    if final_url != url:
+                        # Clean both for comparison
+                        u_path = url.split("://")[-1].rstrip("/")
+                        f_path = final_url.split("://")[-1].rstrip("/")
+                        
+                        generic_segments = ["/about", "/home", "/index", "/whats-new", "/es/", "/en/"]
+                        # If a deep link (multiple slashes) redirects to a very shallow path
+                        is_deep_orig = u_path.count("/") >= 3
+                        is_shallow_final = f_path.count("/") <= 2 or any(f_path.endswith(s) for s in generic_segments)
+                        
+                        if is_deep_orig and is_shallow_final:
+                            log_event(f"  [!] PRECISION LOSS: {url} -> {final_url} (Generic redirect). Removing.")
+                            return False, "generic_redirect_loss", None
+
+                    return True, "OK", final_url if final_url != url else None
                 
                 # Definitive Failures
                 if resp.status_code in [404, 410]:
