@@ -173,4 +173,4 @@
 
 </center>
 </details>
-  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) - This repository provides a comprehensive guide to NodeJS best practices, with a focus on a Spanish translation of the main README file. It covers various aspects of NodeJS development to ensure maintainability, scalability, and performance.
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices) - This repository provides a comprehensive guide to NodeJS best practices, with a focus on a Spanish translation of the main README file. It covers various aspects of NodeJS development to ensure maintainability, scalability, and performance.
