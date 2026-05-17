@@ -85,16 +85,6 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **AI Curation Discovery (Autonomous)**: The discovery engine MUST periodically use **Grounding/MCP** to identify new high-quality curation sources (e.g., emerging "Awesome" repos, engineering blogs) and suggest them for inclusion in `curation_sources.yaml`.
 
 28. **Sophisticated V2 Knowledge Architecture**: The V2 Portal MUST be structured like an advanced O'Reilly technical book:
-...
-32. **Social Proof & Reputation Filter**: To eliminate "vaporware" and unstable tools:
-    - **Community Vetting**: Curation agents MUST use **Real-time Web Grounding** to cross-reference new tools with community platforms (Reddit, Hacker News).
-    - **Reputation Penalty**: If a project is widely reported as abandoned, unstable, or misleading, the agent MUST apply a significant impact penalty or reject the resource entirely.
-    - **Reputation Metadata**: The inventory SHOULD track `reputation_status` (Vetted/Suspicious) and a brief `reputation_summary`.
-
-33. **License & Compliance Guard**: To protect the Open Source integrity of the Nubenetes ecosystem:
-    - **License Monitoring**: Health agents MUST monitor the `LICENSE` field for all repository resources (GitHub/GitLab).
-    - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
-    - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
     - **Deep Hierarchical Classification**: Resources MUST be organized using the `hierarchy` metadata field (a list of up to 10 strings: Area > Topic > Subtopics). This structure is mandatory for both V1 reorganization and V2 generation to ensure perfect consistency.
     - **Location-Aware Automation**: Workflows MUST utilize the location metadata in the inventory (`v1_locations`, `v2_locations`) to perform surgical updates without redundant repository scans.
     - **Structural Intelligence Persistence**: All agents MUST store and reuse the `hierarchy` and location metadata in the centralized inventory. This ensures zero-cost structural updates and industrial-grade scalability.
@@ -116,8 +106,18 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted with bold/highlight, marked with 🌟 stars, or featuring dense technical descriptions) MUST NEVER be automatically deleted. If rescue attempts fail, these links MUST be marked as `status: review_required` and preserved in the archive for manual verification.
     - **Authoritative Preservation**: If a specific technical equivalent is found (e.g., Nginx to F5 migration), the URL MUST be updated to the new specific path.
 
+32. **Social Proof & Reputation Filter**: To eliminate "vaporware" and unstable tools:
+    - **Community Vetting**: Curation agents MUST use **Real-time Web Grounding** to cross-reference new tools with community platforms (Reddit, Hacker News).
+    - **Reputation Penalty**: If a project is widely reported as abandoned, unstable, or misleading, the agent MUST apply a significant impact penalty or reject the resource entirely.
+    - **Reputation Metadata**: The inventory SHOULD track `reputation_status` (Vetted/Suspicious) and a brief `reputation_summary`.
+
+33. **License & Compliance Guard**: To protect the Open Source integrity of the Nubenetes ecosystem:
+    - **License Monitoring**: Health agents MUST monitor the `LICENSE` field for all repository resources (GitHub/GitLab).
+    - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
+    - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
+
 ## 🛠️ Structural Evolution & Navigation
-...
+
 *   **No Link Limits**: There are NO hard limits on the number of links per page or per section (##/###). Nubenetes is built to host thousands of references.
 *   **TOC Consistency**: Every `.md` page (including the main index `docs/index.md`) MUST maintain an internal Table of Contents (TOC) at the beginning. This TOC must include all sections (##) and subsections (###) nested correctly using a numbered list format with working anchors.
 *   **Relative References & Anchors**:
