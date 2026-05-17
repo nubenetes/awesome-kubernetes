@@ -272,9 +272,16 @@ class V2VisionEngine:
             
             # --- DATABASE-FIRST: Try to reuse cached evaluations ---
             if not force_eval and norm_url in self.inventory and "stars" in self.inventory[norm_url]:
-                item.update(self.inventory[norm_url])
-                if "ai_summary" in self.inventory[norm_url] and not item["description"]:
-                    item["description"] = self.inventory[norm_url]["ai_summary"]
+                cached = self.inventory[norm_url]
+                item.update(cached)
+                if "ai_summary" in cached and not item["description"]:
+                    item["description"] = cached["ai_summary"]
+                
+                # If cached item has structural metadata, we are done
+                if cached.get("area") and cached.get("topic"):
+                    item["tag"] = self._calculate_tag(item)
+                    refined.append(item)
+                    continue
             
             # --- TRACK MATURITY CHANGES ---
             old_tag = self.inventory.get(norm_url, {}).get("tag")

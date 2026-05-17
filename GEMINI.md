@@ -75,6 +75,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **AI Curation Discovery**: The discovery engine MUST actively search for new high-quality curation sources (e.g., "Awesome" repos) and suggest them for inclusion in `curation_sources.yaml`.
 28. **Sophisticated V2 Knowledge Architecture**: The V2 Portal MUST be structured like an advanced O'Reilly technical book:
     - **Contextual Hierarchy**: Resources MUST NOT be flat lists. They must be organized into a sophisticated hierarchy of nested sections (##) and subsections (###) based on technical areas, topics, and subtopics.
+    - **Structural Intelligence Persistence**: All agents MUST store and reuse architectural classification metadata (`area`, `topic`, `subtopic`) in the centralized inventory. This ensures zero-cost structural updates and perfect consistency between V1 reorganization and V2 generation.
     - **Structured Learning**: The organization must facilitate knowledge assimilation, moving from foundations to advanced implementation details in a logical, ordered sequence.
     - **Dynamic Indexing**: Every V2 page MUST include a Table of Contents (TOC) with clickable anchors for all technical sub-sections.
     - **AI Dimension Naming**: Prioritize industry-standard terms (e.g., "AI and Artificial Intelligence" instead of internal jargon) for top-level navigation.

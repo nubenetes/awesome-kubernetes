@@ -421,7 +421,8 @@ class IntelligentLinkCleaner:
                 "4. TYPE: (Blog, Repository, Video, Tool, Guide, Case Study).\n"
                 "5. LEVEL: (Beginner, Intermediate, Advanced, Architect).\n"
                 "6. AUTHOR: Technical creator name if identifiable.\n"
-                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"author\": \"...\"}, ...]\n\n"
+                "7. AREA/TOPIC/SUBTOPIC: Sophisticated O'Reilly-style hierarchical classification.\n"
+                "Format: JSON list: [{\"url\": \"...\", \"desc\": \"...\", \"year\": \"YYYY\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"author\": \"...\", \"area\": \"...\", \"topic\": \"...\", \"subtopic\": \"...\"}, ...]\n\n"
                 "RESOURCES:\n" + "\n".join([f"- {d['url']}: {d['content']}" for d in valid_data])
             )
             
@@ -443,7 +444,10 @@ class IntelligentLinkCleaner:
                                 "complexity": res.get("level", "Intermediate"),
                                 "author": res.get("author") or meta.get("author", ""),
                                 "duration": meta.get("duration", ""),
-                                "reading_time": meta.get("reading_time", "")
+                                "reading_time": meta.get("reading_time", ""),
+                                "area": res.get("area", "General"),
+                                "topic": res.get("topic", "Uncategorized"),
+                                "subtopic": res.get("subtopic", "")
                             })
                             self.stats["enriched_descriptions"] += 1
                             log_event(f"    [OK] Enriched: {url} ({res.get('language', 'English')})")

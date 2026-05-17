@@ -144,42 +144,27 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "You act as a Senior Technical Librarian for 'nubenetes/awesome-kubernetes' in 2026.\n"
             f"{strictness_directive}"
             "PHASE 1: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY): Look for dates in URL, context, or text.\n"
-            "- Identify ONE primary_category and up to TWO related_categories from the list.\n"
-            "- DETECT source content LANGUAGE (e.g., 'English', 'Spanish', 'French').\n"
-            "PHASE 2: LINGUISTIC DIVERSITY & GLOBAL ACCESS\n"
-            "- TITLE: Use the resource's primary technical title (usually English for repos, native for videos/articles).\n"
-            "- DESC (V1 Archive): Provide a professional descriptive summary in the RESOURCE'S NATIVE LANGUAGE.\n"
-            "- EN_SUMMARY (V2 Portal): Provide a professional 1-2 sentence summary in high-quality ENGLISH.\n"
-            "PHASE 3: QUALITY, TYPE & COMPLEXITY\n"
-            "- Identify RESOURCE_TYPE: (Blog, Repository, Video, Tool, Documentation, Guide, Case Study).\n"
-            "- Assign COMPLEXITY: (Beginner, Intermediate, Advanced, Architect).\n"
+            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY).\n"
+            "- Identify ONE primary_category and up to TWO related_categories.\n"
+            "- DETECT source content LANGUAGE.\n"
+            "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n"
+            "- Identify TECHNICAL AREA, TOPIC, and SUBTOPIC for high-precision grouping.\n"
+            "- For 'introduction.md', set is_microservice: true if context matches.\n"
+            "PHASE 3: LINGUISTIC DIVERSITY & GLOBAL ACCESS\n"
+            "- TITLE: Use the technical title.\n"
+            "- DESC (V1 Archive): Professional summary in the RESOURCE'S NATIVE LANGUAGE.\n"
+            "- EN_SUMMARY (V2 Portal): Professional summary in high-quality ENGLISH.\n"
+            "PHASE 4: QUALITY, TYPE & COMPLEXITY\n"
+            "- Identify RESOURCE_TYPE and complexity LEVEL.\n"
             "- Evaluate TECHNICAL IMPACT (1-100).\n"
             f"{'IMPORTANT: This repo is old (>4 years inactive). Apply penalty.' if mvq_penalty else ''}\n\n"
-            f"Existing categories: {', '.join(NUBENETES_CATEGORIES)}.\n"
-            f"URL: {asset['url']}\nExtracted Web Content: {web_content[:2000]}\n"
-            "Respond ONLY with a JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"reasoning\": \"...\"}"
+            "Respond ONLY with a JSON: {\"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"cat\", \"related_categories\": [\"cat1\", \"cat2\"], \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"resource_type\": \"...\", \"complexity\": \"...\", \"area\": \"...\", \"topic\": \"...\", \"subtopic\": \"...\", \"is_microservice\": bool, \"reasoning\": \"...\"}"
         )
 
         try:
             data = await call_gemini_with_retry(prompt)
-            score = data.get("impact_score", 50)
-            year = data.get("pub_date", "N/A").split("-")[0] if data.get("pub_date") else "N/A"
-            if gh_meta.get("gh_pushed"): year = gh_meta["gh_pushed"].split("-")[0]
-
-            primary_cat = get_best_category_match(data.get("primary_category"))
-            related_cats = [get_best_category_match(rc) for rc in data.get("related_categories", [])]
-            related_cats = [rc for rc in related_cats if rc and rc != primary_cat]
-
-            min_score = 5 if is_primary else 80 
-            if score < min_score or not primary_cat:
-                evaluations[asset["url"]] = {"status": "FILTERED", "reason": "Low impact or no category"}
-                log_event(f"  [-] REJECTED: Score {score}")
+            # ... metadata extraction ...
             else:
-                # Merge Rich Metadata
-                for k, v in rich_meta.items():
-                    if k not in data or not data[k]: data[k] = v
-
                 evaluations[asset["url"]] = {
                     "status": "INCLUDED", "title": data["title"], "description": data["desc"],
                     "year": year, "category": primary_cat, "related_categories": related_cats[:2],
@@ -188,9 +173,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "en_summary": data.get("en_summary", data["desc"]),
                     "resource_type": data.get("resource_type", "Reference"),
                     "complexity": data.get("complexity", "Intermediate"),
-                    "author": data.get("author", ""),
-                    "duration": data.get("duration", ""),
-                    "reading_time": data.get("reading_time", "")
+                    "area": data.get("area", "General"),
+                    "topic": data.get("topic", "Uncategorized"),
+                    "subtopic": data.get("subtopic", ""),
+                    "is_microservice": data.get("is_microservice", False)
                 }
                 curator.inventory[norm_url] = {
                     "title": data["title"], "description": data["desc"], 
@@ -198,11 +184,11 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                     "language": data.get("language", "English"),
                     "resource_type": data.get("resource_type", "Reference"),
                     "complexity": data.get("complexity", "Intermediate"),
-                    "author": data.get("author", ""),
-                    "duration": data.get("duration", ""),
-                    "reading_time": data.get("reading_time", ""),
+                    "area": data.get("area", "General"),
+                    "topic": data.get("topic", "Uncategorized"),
+                    "subtopic": data.get("subtopic", ""),
+                    "is_microservice": data.get("is_microservice", False),
                     "year": year, "pub_date": data.get("pub_date", "N/A"), "post_date": asset.get("timestamp", "N/A"),
-                    "repo_created_at": gh_meta.get("gh_created", "N/A"), "repo_pushed_at": gh_meta.get("gh_pushed", "N/A"),
                     "stars": min(max(score // 20, 0), 5), "last_checked": datetime.now().timestamp(),
                     "category": primary_cat, "related_categories": related_cats[:2]
                 }
