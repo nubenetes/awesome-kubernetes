@@ -96,6 +96,10 @@ jobs:
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth pyyaml
           playwright install chromium --with-deps
 
+      - name: Workflow UI Synchronization Check (Mandate 11)
+        run: |
+          python src/sync_workflow_ui.py
+
       - name: Global Agentic Curation Execution
         id: run_curation
         env:

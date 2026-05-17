@@ -107,6 +107,15 @@ class V2VisionEngine:
         await self._sync_enterprise_navigation(v2_data)
         self._save_inventory()
         log_event("V2 ELITE PORTAL GENERATED SUCCESSFULLY.")
+        
+        # --- FINAL SAFETY AUDIT ---
+        try:
+            from src.safety_guard import SafetyGuard
+            guard = SafetyGuard()
+            report = guard.generate_audit_report()
+            with open("v2_safety_report.md", "w") as f: f.write(report)
+        except Exception as e:
+            log_event(f"  [!] V2 Safety Audit Error: {e}")
 
     async def _gather_all_v1_content(self):
         all_links, mosaic_html, videos_html = [], "", ""
