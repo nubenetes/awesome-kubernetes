@@ -261,7 +261,7 @@ A simple extension to make indentation more readable
 
 ## Go in Visual Studio Code
 
-- [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md)
+- [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go)
 - [blog.golang.org: Gopls on by default in the VS Code Go extension](https://blog.golang.org/gopls-vscode-go)
 
 ## Bridge to Kubernetes
