@@ -24,12 +24,12 @@
 
 - [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) Go clients for talking to a kubernetes cluster.
     - [pkg.go.dev/k8s.io/client-go](https://pkg.go.dev/k8s.io/client-go)
-- [Rate Limiting in Controller-Runtime and Client-go](https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting/)
+- [Rate Limiting in Controller-Runtime and Client-go](https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting//)
 - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.
 - [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)
 - [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481) Learn to programmatically talk to the Kubernetes cluster using the Official Client Go Library. In this tutorial, you'll learn how to build a simple CLI that connects to the Kubernetes cluster and displays the server version. In the process, you will learn Go and the client-go package.
-- [iximiuz.com: How To Develop Kubernetes CLIs Like a Pro](https://iximiuz.com/en/posts/kubernetes-api-go-cli/) Build You Own kubectl The Simple Way. Learn how to use the http://k8s.io/cli-runtime library to develop Kubernetes CLI tools that behave like and are as potent as the mighty kubectl.
+- [iximiuz.com: How To Develop Kubernetes CLIs Like a Pro](https://iximiuz.com/en/posts/kubernetes-api-go-cli//) Build You Own kubectl The Simple Way. Learn how to use the http://k8s.io/cli-runtime library to develop Kubernetes CLI tools that behave like and are as potent as the mighty kubectl.
 
 ## Python Client for Kubernetes
 
@@ -73,12 +73,12 @@
 
 ## Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins
 
-- [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
-- [Github: Eclipse Jkube](https://github.com/eclipse/jkube)
+- [Eclipse JKube 🌟](https://eclipse.dev/jkube//) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
+- [Github: Eclipse Jkube](https://github.com/eclipse-jkube/jkube)
 - [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0/)
 - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available/)
 - [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
-- [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/)
+- [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://eclipse.dev/jkube//docs/migration-guide/)
 - [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)
 - [blog.marcnuri.com](https://blog.marcnuri.com/)
     - [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)
