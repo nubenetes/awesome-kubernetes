@@ -186,9 +186,11 @@ Whenever a significant curation cycle (automatic or manual) is completed, the RE
 *   Update the "Comparison Matrix" if the technical differences between V1 and V2 evolve.
 
 ### 5. Automation vs Manual Intervention
-*   **Automated Updates:** The Agentic Bot should ideally include a step to refresh these metrics in its curation PRs.
-*   **Manual Fallback:** If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
+*   **Automated Updates**: The Agentic Bot should ideally include a step to refresh these metrics in its curation PRs.
+*   **Manual Fallback**: If a manual update is performed (emergency fixes, structural changes), the human/AI agent is responsible for manually running the metric extraction scripts and updating the `README.md` accordingly.
+*   **README Integrity Guardrail**: Whenever `README.md` is modified, the agent MUST execute `python3 src/safety_readme.py`. This tool verifies the presence and correct numbering of all **15 mandatory technical sections**. Any PR that fails this audit MUST NOT be merged.
 *   **Algorithm-README Sync**: Whenever the AI curation logic, model tiering, or the extraction algorithm is modified (e.g., `src/gemini_utils.py` or `src/v2_optimizer.py`), the `README.md` MUST be updated to reflect these technical changes in the "Agentic Stack" and "Architectural Shift" sections.
+
 *   **Hierarchical README Maintenance**: Whenever `README.md` is modified, the Table of Contents (TOC) MUST be updated to reflect all changes in sections (H2) and subsections (H3). All titles in the document MUST include hierarchical numbering (e.g., "1. Section", "1.1. Subsection") perfectly synchronized with the TOC.
 *   **Universal Title Standards**: Emojis and ampersands (&) MUST NOT be used in any section titles or Table of Contents. Ampersands MUST be replaced with "and". All anchors MUST be lowercase slugs (Mandate 30).
 *   **Asset Inventory and Configuration**: The `README.md` MUST maintain a "Repository Inventory and Configuration" section (Section 13) that provides an exhaustive list of all key configuration files, centralized metadata databases, autonomous workflows, and core source code files. Each item MUST be linked using a relative Markdown path (e.g., `[file.yaml](data/file.yaml)`) to facilitate direct navigation.

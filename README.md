@@ -72,6 +72,10 @@
     *   [14.1. Special Assets Management](#141-special-assets-management)
     *   [14.2. O.Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
     *   [14.3. TOC and Structural Exceptions](#143-toc-and-structural-exceptions)
+15. [15. Licensing and Legal Disclaimer](#15-licensing-and-legal-disclaimer)
+    *   [15.1. Repository License](#151-repository-license)
+    *   [15.2. Content Ownership](#152-content-ownership)
+    *   [15.3. Legal Disclaimer](#153-legal-disclaimer)
 
 ---
 
@@ -718,3 +722,16 @@ The V2 Portal is structured as a sophisticated technical reference guide, moving
 Certain files are exempt from the mandatory Table of Contents (TOC) and deep-hierarchy requirements. These include configuration-heavy files (e.g., `mkdocs.md`) and large technical tables (e.g., `matrix-table.md`) where a navigational index is unnecessary or distracting.
 - **Automatic Skip**: The Agentic Curator and V2 Builder automatically bypass these files during structural reorganization cycles.
 - **Exception Registry**: Exemptions are managed via the `toc_exempt_files` list in [`data/link_rules.yaml`](data/link_rules.yaml).
+
+---
+
+## 15. Licensing and Legal Disclaimer
+
+### 15.1. Repository License
+The core logic, autonomous agents, and documentation of Nubenetes are licensed under the **MIT License**. You are free to use, modify, and distribute the code as long as the original copyright notice is preserved.
+
+### 15.2. Content Ownership
+The technical resources (links, articles, videos) curated in this archive are the intellectual property of their respective authors and organizations. Nubenetes acts solely as a technical directory and does not host or claim ownership over the external content.
+
+### 15.3. Legal Disclaimer
+The information provided in this repository is for educational and professional reference purposes only. While our Agentic AI ensures high-fidelity curation, users should verify production configurations against official vendor documentation (AWS, Red Hat, CNCF) before deployment.
