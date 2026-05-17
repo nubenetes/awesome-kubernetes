@@ -41,7 +41,7 @@
 - [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines/)
 - [towardsdatascience.com: Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb) A fast and simple approach to serve your model as an API
 - [ravirajag.dev: MLOps Basics - Week 10: Summary](https://www.ravirajag.dev/blog/mlops-summary)
-- [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md#machine-learning)
+- [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/kubernetes-guide#machine-learning)
 - [medium.com/workday-engineering: Implementing a Fully Automated Sharding Strategy on Kubernetes for Multi-tenanted Machine Learning Applications](https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae)
 - [==medium.com/globant: Advantages of Deploying Machine Learning models with Kubernetes== 🌟](https://medium.com/globant/advantages-of-deploying-machine-learning-models-with-kubernetes-8454cc7c565e)
 - [medium.com/pythoneers: MLOps: Tool Stack Requirement in Machine Learning Pipeline](https://medium.com/pythoneers/mlops-tool-stack-requirement-in-machine-learning-pipeline-474b39f09dfc) Tools and technologies in machine learning lifecycle
@@ -175,7 +175,7 @@
 
 - [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://canvatechblog.com/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix-7c1da8e42f61) In this article, you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
     - [Nix](https://nixos.org/manual/nix/stable/)
-    - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
+    - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/nvidia/nvidia-docker#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
 - [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart== 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/helm-charts/gpu-operator)
 - [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup) Setup an NVIDIA RTX GPU on bare-metal Kubernetes, covering driver installation on Ubuntu 22.04, configuration, and troubleshooting.
 - [huggingface.co: Implementing Fractional GPUs in Kubernetes with Aliyun Scheduler](https://huggingface.co/blog/NileshInfer/implementing-fractional-gpus-in-kubernetes)
