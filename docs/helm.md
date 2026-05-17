@@ -187,13 +187,13 @@ Kubernetes packages
 
 ## Helm Charts
 
-- [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins)
+- [Jenkins](https://github.com/helm/charts)
 - [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts) Helm 3 compliant (Simpler and more secure than helm 2)
-- [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
+- [Nexus3](https://github.com/helm/charts)
 - [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
-- [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
-- [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
-- [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
+- [Sonar](https://github.com/helm/charts)
+- [Selenium](https://github.com/helm/charts)
+- [Jmeter](https://github.com/helm/charts)
 - [openshift.com: Introducing the Quarkus Helm Chart](https://www.openshift.com/blog/introducing-the-quarkus-helm-chart)
 - [artifacthub.io: Official Helm charts for HAProxy and the HAProxy Kubernetes Ingress Controller on Artifact Hub 🌟](https://artifacthub.io/packages/search?repo=haproxytech)
 - [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts/)
