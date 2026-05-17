@@ -270,6 +270,8 @@ To embrace the diverse global Cloud Native community while maintaining internati
     *   `author`: Technical creator/contributor identification.
     *   `duration` / `reading_time`: Automatic extraction of content length for videos and articles.
     *   `hierarchy`: Persistent, **recursive technical classification** (list of up to 10 levels) for O'Reilly-style grouping.
+    *   `content_hash` / `health_score`: Advanced fields for content drift detection and reliability tracking.
+    *   `source_provenance` / `social_preview_url`: Data for origin tracing and V2 visual enrichment.
 - **Separation of Concerns (Data vs. UI)**:
     *   **The Database (Source of Truth)**: Holds raw data, enabling future features like language-based filtering or statistics without re-processing links.
     *   **The Portal (Visual Rendering)**: The `V2VisionEngine` dynamically converts the `language`, `complexity`, and `type` metadata into visual UI tags (e.g., `[SPANISH CONTENT]`, `[ARCHITECT LEVEL]`) during the site build process.
@@ -435,6 +437,7 @@ graph TD
 ```
 
 ### 7.6. Strategic Benefits
+- **Platinum Lifecycle Management**: The system implements advanced data engineering fields including **SHA256 Content Fingerprinting** (to detect silent content drift), **Health Reliability Scoring** (0-100 EMA), and **Source Provenance Tracking**. This ensures that autonomous agents make context-aware decisions throughout the multi-year lifecycle of every technical resource.
 - **Technical Immutability (V1)**: AI agents are strictly forbidden from overwriting human-curated titles, manual 🌟 stars, or additional descriptive comments in the V1 archive, ensuring the bot respects and preserves manual engineering effort.
 - **Automated Semantic Interlinking (Mandate 5)**: AI agents identify technical relationships between categories and automatically inject cross-references (*"See also..."*) into the V1 archive, transforming it into an interconnected technical web.
 - **Executive Comparison Tables (V2 Premium)**: High-density categories in the V2 portal feature AI-generated technical comparison tables (Solution, Maturity, Focus, Language), providing instant decision support for architects.

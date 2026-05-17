@@ -294,7 +294,9 @@ class V2VisionEngine:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
                     title = l['title'].replace("==", "")
-                    if is_gold: md += f"!!! note \"{title}\"\n    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
+                    if is_gold:
+                        img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
+                        md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
                         date = f"**({l.get('year', 'N/A')})** "
                         tags = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>"

@@ -59,6 +59,18 @@ hierarchy_rules:
   v2_nesting: true            # Enable H2 -> H3 -> H4 -> H5 mapping in V2.
 
 # -----------------------------------------------------------------------------
+# PLATINUM METADATA: ADVANCED LIFECYCLE MANAGEMENT
+# -----------------------------------------------------------------------------
+platinum_metadata:
+  enabled: true
+  tracking_fields:
+    - "content_hash"          # SHA256 of text to detect content drift.
+    - "health_score"          # 0-100 reliability score based on check history.
+    - "source_provenance"     # Origin (RSS, Twitter, Manual, Discovery).
+    - "social_preview_url"    # OpenGraph image for V2 visual enrichment.
+    - "mentions_count"        # How many times this resource was rediscovered.
+
+# -----------------------------------------------------------------------------
 # SYSTEM SAFETY: MKDOCS GUARD
 # -----------------------------------------------------------------------------
 safety_guard:

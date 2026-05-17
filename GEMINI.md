@@ -46,10 +46,17 @@ This file contains the accumulated instructions and long-term vision for the aut
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
 22. **Unified Metadata Database (Local Storage & Persistence)**: All link metadata MUST be managed via the centralized [`data/inventory.yaml`](data/inventory.yaml).
     - **`inventory.yaml`**: The single source of truth for years, stars (0-5), descriptions, physical locations (`v1_locations`, `v2_locations`), and visual formatting. This eliminates the need for external mapping files (like the legacy `structure_map.yaml`) and ensures full lifecycle visibility.
+    - **Platinum Lifecycle Metadata**: The inventory MUST track advanced engineering fields to empower context-aware automation:
+        *   `content_hash`: SHA256 fingerprint to detect silent content updates.
+        *   `health_score`: 0-100 reliability score based on check history (differentiates flaky from dead).
+        *   `source_provenance`: Identifies the origin of the discovery (Twitter, RSS, Manual).
+        *   `social_preview_url`: OpenGraph/Social images to enrich the V2 visual experience.
+        *   `mentions_count`: Tracks resource popularity/rediscovery frequency.
     - **Persistence (MANDATORY)**: Every AI agent and workflow MUST load this file at startup, update it, and INJECT the modified YAML into the final PR payload if any change is detected. Discarding the database during a workflow run is a CRITICAL FAILURE.
-    - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches and force a full re-validation and re-enrichment of the entire 17k+ link archive.
+    - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches (e.g., 21-day health cache) and force a full re-validation and re-enrichment of the entire 17k+ link archive.
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.
     - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions or stars in the V1 archive files. Enrichment is strictly for the YAML database and the V2 portal.
+
 23. **Canonical URL Normalization & Semantic Deduplication**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
     - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (except technical ones).
     - **Technical Preservation (V1)**: Normalization MUST **preserve line anchors** (e.g., `#L123`) and **respect URL path case-sensitivity**. Technical fragmentation is preferred over data loss for deep-links.
