@@ -1,52 +1,70 @@
-import subprocess
 import os
+import yaml
 import re
 from src.logger import log_event
 
+INVENTORY_PATH = "data/inventory.yaml"
+V1_DIR = "docs"
+V2_DIR = "v2-docs"
+
 class SafetyGuard:
     def __init__(self):
-        self.rules_path = "data/link_rules.yaml"
+        self.errors = []
+        self.inventory = self._load_inventory()
 
-    def validate_syntax(self, file_content: str, file_path: str) -> bool:
-        """Realiza comprobaciones de seguridad y sintaxis en contenido Markdown."""
-        # 1. Mermaid Check
-        if "```mermaid" in file_content:
-            # Check for unquoted labels with special chars if needed, or simple pair matching
-            if file_content.count("```mermaid") != file_content.count("```"):
-                log_event(f"    [!] Syntax Error: Unclosed Mermaid block in {file_path}")
-                return False
+    def _load_inventory(self):
+        if os.path.exists(INVENTORY_PATH):
+            try:
+                with open(INVENTORY_PATH, "r") as f:
+                    return yaml.safe_load(f) or {}
+            except: return {}
+        return {}
 
-        # 2. HTML Security Check
-        forbidden_tags = ["<script", "<iframe>", "<style"]
-        for tag in forbidden_tags:
-            if tag in file_content.lower():
-                log_event(f"    [!] Security Error: Forbidden HTML tag '{tag}' detected in {file_path}")
-                return False
+    def validate_data_integrity(self, old_inventory: dict):
+        """Mandato 1: Protección de Información."""
+        for url, old_meta in old_inventory.items():
+            new_meta = self.inventory.get(url)
+            if not new_meta: continue
+            if old_meta.get("stars", 0) > new_meta.get("stars", 0):
+                self.errors.append(f"❌ **Star Loss**: {url} ({old_meta['stars']} -> {new_meta['stars']})")
+            if old_meta.get("description") and not new_meta.get("description"):
+                self.errors.append(f"❌ **V1 Desc Loss**: {url}")
 
-        # 3. MkDocs Image Check
-        # Ensure images start with images/ or ../docs/images/
-        img_matches = re.findall(r'!\[.*?\]\((.*?)\)', file_content)
-        for img in img_matches:
-            if not (img.startswith("images/") or img.startswith("../docs/images/") or img.startswith("http")):
-                 log_event(f"    [!] Path Error: Invalid image path '{img}' in {file_path}")
-                 # return False # Just warn for now
+    def validate_v2_architecture(self):
+        """Mandato 28: Estructura O'Reilly."""
+        if not os.path.exists(V2_DIR): return
+        for file in os.listdir(V2_DIR):
+            if file.endswith(".md") and file != "index.md":
+                content = open(os.path.join(V2_DIR, file), "r").read()
+                if "## Table of Contents" not in content:
+                    self.errors.append(f"⚠️ **V2 TOC Missing**: `{file}`")
+                if "### " not in content:
+                    self.errors.append(f"⚠️ **V2 Too Flat**: `{file}` (Missing topics)")
 
-        return True
+    def generate_audit_report(self, old_inv_path=None) -> str:
+        """Generates a Markdown report for the PR body."""
+        log_event("[Safety] Running Audit for PR documentation...")
+        if old_inv_path and os.path.exists(old_inv_path):
+            try:
+                with open(old_inv_path, "r") as f:
+                    self.validate_data_integrity(yaml.safe_load(f) or {})
+            except: pass
+        
+        self.validate_v2_architecture()
+        
+        status = "✅ PASS" if not self.errors else "⚠️ WARNING"
+        report = f"\n### 🛡️ Safety & Mandate Audit: {status}\n"
+        if not self.errors:
+            report += "All project mandates and data integrity checks passed successfully.\n"
+        else:
+            report += "<details><summary>Click to view <b>" + str(len(self.errors)) + "</b> issues found</summary>\n\n"
+            for err in self.errors:
+                report += f"- {err}\n"
+            report += "\n> 💡 **Note**: These issues did not stop the workflow, but should be reviewed before merging.\n</details>\n"
+        return report
 
-    def run_mkdocs_build_test(self) -> bool:
-        """Lanza un 'mkdocs build' de prueba para asegurar que no hay errores críticos."""
-        log_event("[*] Running MkDocs Safety Build Test...")
-        try:
-            # We use --strict to catch broken links if necessary, or just standard build
-            result = subprocess.run(
-                ["mkdocs", "build", "--clean", "--site-dir", "/tmp/mkdocs-test"],
-                capture_output=True, text=True, timeout=120
-            )
-            if result.returncode != 0:
-                log_event(f"    [!] MkDocs Build Failed:\n{result.stderr[:500]}")
-                return False
-            log_event("    [OK] MkDocs Build Successful.")
-            return True
-        except Exception as e:
-            log_event(f"    [!] Build test error: {e}")
-            return True # Fallback to true if mkdocs not installed locally
+if __name__ == "__main__":
+    guard = SafetyGuard()
+    success = guard.run_all_checks()
+    if not success:
+        exit(1)

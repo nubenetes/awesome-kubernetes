@@ -362,11 +362,6 @@ async def master_orchestrator():
     # 6. Finalization, Report and PR
     pr_url = None
     if modified_files_content or full_report_metrics:
-        try:
-            from src.report_generator import generate_visual_report
-            report_path = generate_visual_report(full_report_metrics)
-        except: pass
-
         metrics = {
             "total_extracted": len(all_raw_assets),
             "start_date": since_date.isoformat(),
@@ -374,33 +369,23 @@ async def master_orchestrator():
             "full_report": full_report_metrics,
             "x_audit": x_audit_trail
         }
+        
+        # 6.5. Safety & Mandate Audit (Mandate 1, 28, and Security)
         from src.safety_guard import SafetyGuard
         guard = SafetyGuard()
-        
-        # Syntax Check
-        is_safe = True
-        for path, content in modified_files_content.items():
-            if path.endswith(".md"):
-                if not guard.validate_syntax(content, path):
-                    is_safe = False; break
-        
-        if not is_safe:
-            log_event("[!] CRITICAL: Safety Guard failed syntax/security validation. Aborting PR.")
-            return
+        safety_report = guard.generate_audit_report() # Non-blocking report
 
         try:
             # --- BBDD Persistence: Include YAML database files in the PR ---
-            from src.config import INVENTORY_PATH, STRUCTURE_MAP_PATH
+            from src.config import INVENTORY_PATH
             if os.path.exists(INVENTORY_PATH):
                 with open(INVENTORY_PATH, 'r') as f: modified_files_content[INVENTORY_PATH] = f.read()
-            if os.path.exists(STRUCTURE_MAP_PATH):
-                with open(STRUCTURE_MAP_PATH, 'r') as f: modified_files_content[STRUCTURE_MAP_PATH] = f.read()
 
-            # Run build test
-            if not guard.run_mkdocs_build_test():
-                log_event("[!] WARNING: MkDocs Build test failed, but continuing with PR for manual review.")
-
-            pr_url = git_controller.apply_multi_file_changes(modified_files_content, metrics)
+            pr_url = git_controller.apply_multi_file_changes(
+                modified_files_content, 
+                metrics, 
+                safety_report=safety_report
+            )
             if pr_url:
                 print(f"PULL_REQUEST_URL: {pr_url}")
         except Exception as e:

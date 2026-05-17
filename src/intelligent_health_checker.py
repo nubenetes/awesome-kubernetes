@@ -12,7 +12,7 @@ from src.gitops_manager import RepositoryController
 from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import AgenticCurator
 from src.logger import log_event
-from src.gemini_utils import call_gemini_with_retry, normalize_url
+from src.gemini_utils import normalize_url
 
 # Configuración de Excepciones
 CORE_FILES = ["docs/index.md", "README.md"]
@@ -53,62 +53,103 @@ class IntelligentLinkCleaner:
         os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
         yaml.dump(self.inventory, open(INVENTORY_PATH, "w"), sort_keys=False, allow_unicode=True)
 
-    async def _check_url_logic(self, url: str) -> Tuple[bool, str, Optional[str]]:
-        headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.5"}
-        parked = ["buy this domain", "parked free", "this domain may be for sale"]
-        try:
-            async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=15) as client:
-                resp = await client.get(url)
-                if resp.status_code < 400:
-                    text = resp.text.lower()
-                    if any(kw in text for kw in parked): return False, "parked", None
-                    return True, "OK", str(resp.url) if str(resp.url) != url else None
-                if resp.status_code in [404, 410]:
-                    if "github.com" in url and "/master/" in url:
-                        heal = url.replace("/master/", "/main/")
-                        if (await client.get(heal)).status_code < 400: return True, "healed", heal
-                    return False, "404", None
-                return True, f"Soft Error {resp.status_code}", None
-        except: return True, "Timeout/Error", None
+    async def execute_clean_cycle(self):
+        log_event("STARTING INTELLIGENT CLEANING CYCLE", section_break=True)
+        # 1. Map all links in V1
+        for root, _, files in os.walk("docs"):
+            for f in files:
+                if f.endswith(".md"):
+                    path = os.path.join(root, f)
+                    content = open(path, "r").read()
+                    lines = content.splitlines()
+                    for idx, line in enumerate(lines):
+                        urls = re.findall(r'\[.*?\]\((https?://.*?)\)', line)
+                        for url in urls:
+                            nu = normalize_url(url)
+                            self.link_registry.setdefault(nu, []).append({"file": path, "line_index": idx, "url": url})
+        
+        unique_urls = list(self.link_registry.keys())
+        random.shuffle(unique_urls)
+        
+        # 2. Resilient Check
+        BATCH_SIZE = 20
+        for i in range(0, len(unique_urls), BATCH_SIZE):
+            batch = unique_urls[i:i+BATCH_SIZE]
+            tasks = [self._check_and_fix_link(url) for url in batch]
+            await asyncio.gather(*tasks)
+            if i % 100 == 0: log_event(f"  [>] Progress: {i}/{len(unique_urls)} checked...")
+
+        # 3. Finalize
+        await self.apply_changes()
 
     async def _check_and_fix_link(self, url: str):
         nu = normalize_url(url); entry = self.inventory.get(nu, {})
         alive, reason, final = await self._check_url_logic(url)
         
-        # Platinum: Update Health Score (Exponential moving average)
+        # Update Health Score
         score = entry.get("health_score", 100)
         score = (score * 0.8) + (100 if alive else 0) * 0.2
         entry["health_score"] = round(score, 1)
         entry["last_checked"] = datetime.now().timestamp()
         
-        if not alive and score < 20: # Definitive removal threshold
+        if not alive and score < 20: 
             entry["status"] = "dead"; self.dead_links[url] = (None, reason)
         elif final and alive:
             self.dead_links[url] = (f"CANONICAL:{final}", "Redirect")
         
         self.inventory[nu] = entry
-        self.stats["total_links"] += 1
 
-    async def execute_clean_cycle(self):
-        log_event("STARTING INTELLIGENT CLEANING CYCLE", section_break=True)
-        # Gather current state
-        all_urls = set()
-        for root, _, files in os.walk("docs"):
-            for f in files:
-                if f.endswith(".md"):
-                    p = os.path.join(root, f); c = open(p, "r").read()
-                    matches = re.findall(r'\[.*?\]\((https?://.*?)\)', c)
-                    for u in matches:
-                        nu = normalize_url(u); all_urls.add(u)
-                        self.link_registry.setdefault(nu, []).append({"file": p, "line_index": 0}) # Simplified for mapping
+    async def _check_url_logic(self, url: str) -> Tuple[bool, str, Optional[str]]:
+        headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.5"}
+        parked_indicators = ["buy this domain", "parked free", "domain is for sale"]
+        try:
+            async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12) as client:
+                resp = await client.get(url)
+                if resp.status_code < 400:
+                    text = resp.text.lower()
+                    if any(kw in text for kw in parked_indicators): return False, "parked", None
+                    return True, "OK", str(resp.url) if str(resp.url) != url else None
+                if resp.status_code in [404, 410]:
+                    if "github.com" in url and "/master/" in url:
+                        heal = url.replace("/master/", "/main/")
+                        try:
+                            if (await client.get(heal)).status_code < 200: return True, "healed", heal
+                        except: pass
+                    return False, "404", None
+                return True, f"Soft Block {resp.status_code}", None
+        except: return True, "Connection Error", None
+
+    async def apply_changes(self):
+        log_event("APPLYING CLEANING CHANGES & PR GENERATION...", section_break=True)
+        file_updates = {}
         
-        tasks = [self._check_and_fix_link(u) for u in list(all_urls)[:100]] # Limit for speed test
-        await asyncio.gather(*tasks)
+        for url, (fallback, reason) in self.dead_links.items():
+            for occ in self.link_registry.get(normalize_url(url), []):
+                file_path = occ["file"]
+                if file_path not in file_updates: file_updates[file_path] = open(file_path, "r").readlines()
+                
+                if fallback and fallback.startswith("CANONICAL:"):
+                    new_url = fallback.replace("CANONICAL:", "")
+                    file_updates[file_path][occ["line_index"]] = file_updates[file_path][occ["line_index"]].replace(url, new_url)
+                else:
+                    file_updates[file_path][occ["line_index"]] = None # Mark for deletion
+
+        # Final Payload
+        final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
         await self.prune_orphaned_metadata()
         self._save_inventory()
+        final_payload[INVENTORY_PATH] = yaml.dump(self.inventory, sort_keys=False, allow_unicode=True)
+
+        # Safety & Audit
+        from src.safety_guard import SafetyGuard
+        guard = SafetyGuard()
+        safety_report = guard.generate_audit_report()
+        
+        if final_payload:
+            metrics = {"total_extracted": len(self.link_registry), "full_report": self.action_log}
+            self.git_controller.apply_multi_file_changes(final_payload, metrics, safety_report=safety_report)
 
     async def prune_orphaned_metadata(self):
-        log_event("RUNNING DATABASE GARBAGE COLLECTION...", section_break=True)
         valid_map = {}
         for root, _, files in os.walk("docs"):
             for f in files:
@@ -116,18 +157,12 @@ class IntelligentLinkCleaner:
                     p = os.path.join(root, f); c = open(p, "r").read()
                     for u in re.findall(r'\[.*?\]\((https?://.*?)\)', c):
                         valid_map.setdefault(normalize_url(u), []).append(p)
-        
         new_inv = {}
         for u, m in self.inventory.items():
             if u.startswith("INTRO:") or u in valid_map:
                 if u in valid_map: m["v1_locations"] = sorted(list(set(valid_map[u])))
                 new_inv[u] = m
-        self.inventory = new_inv; log_event(f"GC Done. Total records: {len(self.inventory)}")
-
-    async def apply_changes(self):
-        log_event("APPLYING CLEANING CHANGES...")
-        # (This would apply replacements to V1 .md files using inventory.v1_locations)
-        pass
+        self.inventory = new_inv
 
 if __name__ == "__main__":
     cleaner = IntelligentLinkCleaner()
