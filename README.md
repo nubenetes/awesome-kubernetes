@@ -9,9 +9,11 @@
 ### 🌟 2026 Agentic High-Fidelity Standards
 As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuring:
 - **Real-time Web Grounding (MCP)**: The AI engine cross-references all technical decisions with live web data to ensure near-human accuracy in link rescue and maturity verification.
+- **License & Compliance Guard**: Automated monitoring of repository licenses. Transitions from Open Source to restrictive models (e.g., BSL) trigger automatic penalties and review flags to protect architectural ethics.
+- **Social Proof & Reputation Filter**: Every new ingestion undergoes a "Vaporware Check" on community platforms (Reddit, Hacker News) to ensure only stable, reputable tools enter the archive.
+- **Autonomous Source Discovery**: The engine autonomously scans the technical web for emerging blogs and "Awesome" repos, expanding its own curation horizons without manual input.
 - **Universal Rescue Protocol**: A strict "No Knowledge Left Behind" policy that salvages technical assets during corporate acquisitions and site migrations (e.g., Ansible, Nginx, AWS).
 - **Foundational Preservation**: Automatic protection of high-value resources (marked with 🌟 or bold formatting), ensuring they are never deleted without manual human review.
-- **Smart AI Batching**: Industrial-grade processing that reduces API traffic by 90% while maintaining exhaustive coverage of 17k+ links.
 
 ---
 

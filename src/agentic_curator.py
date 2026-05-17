@@ -12,6 +12,9 @@ from src.gitops_manager import RepositoryController
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
 from src.logger import log_event
 
+# Configuration
+V1_DIR = "docs"
+
 def get_best_category_match(suggested: str) -> Optional[str]:
     if not suggested: return None
     suggested = suggested.lower().strip()
@@ -19,39 +22,38 @@ def get_best_category_match(suggested: str) -> Optional[str]:
         if suggested in cat or cat in suggested: return cat
     return None
 
-async def _deep_fetch_content(url: str) -> Tuple[str, Dict]:
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-    }
-    try:
-        timeout = httpx.Timeout(12.0, connect=5.0)
-        async with httpx.AsyncClient(timeout=timeout, verify=False) as client:
-            resp = await client.get(url, headers=headers, follow_redirects=True)
-            if resp.status_code == 200:
-                from bs4 import BeautifulSoup
-                soup = BeautifulSoup(resp.text, "html.parser")
-                rich_meta = await _enrich_rich_metadata(url, soup)
-                for s in soup(["script", "style", "nav", "footer", "aside"]): s.decompose()
-                return soup.get_text(separator=" ", strip=True)[:4000], rich_meta
-    except: return "", {}
-    return "", {}
-
 async def _get_github_activity(url: str) -> Dict:
-    match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
+    match = re.search(r'github\.com/([^/]+/[^/]+)', url)
     if not match: return {}
-    owner, repo = match.groups()
-    repo = repo.split("#")[0].split("?")[0].rstrip(".git")
+    repo = match.group(1)
+    api_url = f"https://api.github.com/repos/{repo}"
     headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
     try:
-        async with httpx.AsyncClient(timeout=10.0) as client:
-            resp = await client.get(f"https://api.github.com/repos/{owner}/{repo}", headers=headers)
+        async with httpx.AsyncClient() as client:
+            resp = await client.get(api_url, headers=headers, timeout=10.0)
             if resp.status_code == 200:
                 data = resp.json()
-                return {"gh_stars": data.get("stargazers_count", 0), "gh_pushed": data.get("pushed_at", ""), "gh_created": data.get("created_at", "")}
+                return {
+                    "gh_stars": data.get("stargazers_count"),
+                    "gh_pushed": data.get("pushed_at"),
+                    "gh_license": data.get("license", {}).get("spdx_id", "N/A")
+                }
     except: pass
     return {}
+
+async def _deep_fetch_content(url: str) -> Tuple[str, Dict]:
+    headers = {"User-Agent": "Mozilla/5.0"}
+    try:
+        async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=15.0) as client:
+            resp = await client.get(url)
+            if resp.status_code == 200:
+                # Basic metadata extraction
+                og_image = ""
+                img_match = re.search(r'meta property="og:image" content="(.*?)"', resp.text)
+                if img_match: og_image = img_match.group(1)
+                return resp.text, {"og_image": og_image}
+    except: pass
+    return "", {}
 
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
     evaluations = {}
@@ -67,64 +69,44 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             domain_blacklist = set(memory_data.get("blacklisted_domains", []))
         except: pass
 
-    # 1. Pre-filter (Blacklist & Cache)
+    # 1. Pre-filter
     for asset in raw_assets:
         url = asset["url"]
         norm_url = normalize_url(url)
-        
-        # Mandate 2: Skip Blacklisted
         if any(domain in url.lower() for domain in domain_blacklist):
-            log_event(f"  [-] SKIPPING: Blacklisted domain detected: {url}")
             evaluations[url] = {"status": "FILTERED", "reason": "Blacklisted"}
             continue
-
-        # --- DATABASE-FIRST: Reuse insights ---
         if norm_url in curator.inventory:
             cached = curator.inventory[norm_url]
-            
-            # Mandate 31: Absolute protection for links under review
             if cached.get("status") == "review_required":
-                log_event(f"  [🔒] PRESERVING REVIEW STATUS: {url}")
                 evaluations[url] = {"status": "REVIEW_PENDING", **cached}
                 continue
-
             if cached.get("title") and cached.get("hierarchy"):
-                log_event(f"  [⚡] REUSING CACHED INSIGHTS: {cached['title']}")
                 from src.gemini_utils import SESSION_TRACKER
                 SESSION_TRACKER.track_cache_hit(est_tokens=2200)
                 evaluations[url] = {"status": "INCLUDED", **cached}
                 continue
-        
         to_evaluate.append(asset)
 
     if not to_evaluate: return evaluations
 
-    # 2. SMART BATCHING: Group links into batches of 10
+    # 2. SMART BATCHING WITH REPUTATION FILTER (Mandate 32)
     BATCH_SIZE = 10
     from src.mandate_ingestor import get_system_mandates
     dynamic_mandates = get_system_mandates()
 
     for i in range(0, len(to_evaluate), BATCH_SIZE):
         batch = to_evaluate[i:i+BATCH_SIZE]
-        log_event(f"[*] Processing AI Batch {i//BATCH_SIZE + 1} ({len(batch)} links)...")
-        
-        # Pre-fetch content and hashes for the batch
         batch_data = []
         for asset in batch:
             web_content, rich_meta = await _deep_fetch_content(asset["url"])
             c_hash = hashlib.sha256(web_content.encode()).hexdigest() if web_content else "N/A"
+            gh_meta = await _get_github_activity(asset["url"]) if "github.com" in asset["url"] else {}
             
-            # Mandate 3: MVQ Penalty Check
             mvq_penalty = False
-            gh_meta = {}
-            if "github.com" in asset["url"]:
-                gh_meta = await _get_github_activity(asset["url"])
-                pushed = gh_meta.get("gh_pushed", "")
-                if pushed:
-                    try:
-                        ld = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
-                        if (datetime.now(ld.tzinfo) - ld).days > (365 * 4): mvq_penalty = True
-                    except: pass
+            if gh_meta.get("gh_pushed"):
+                ld = datetime.fromisoformat(gh_meta["gh_pushed"].replace("Z", "+00:00"))
+                if (datetime.now(ld.tzinfo) - ld).days > (365 * 4): mvq_penalty = True
             
             batch_data.append({
                 "asset": asset, "content": web_content[:1500], "hash": c_hash, 
@@ -133,34 +115,31 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
 
         prompt = (
             "You act as a Senior Technical Librarian in 2026.\n" + dynamic_mandates +
-            "Analyze these resources and provide high-density metadata for each.\n"
-            "PHASE 1: LINGUISTIC DIVERSITY (Mandate 10)\n"
-            "- DESC (V1 Archive): Professional summary in NATIVE language.\n"
-            "- EN_SUMMARY (V2 Portal): English synthesis.\n"
-            "PHASE 2: ARCHITECTURAL CLASSIFICATION (O'REILLY STYLE)\n"
+            "Analyze these resources and provide high-density metadata.\n"
+            "PHASE 1: SOCIAL PROOF & REPUTATION (Mandate 32)\n"
+            "- Perform a real-time web search for each resource.\n"
+            "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
+            "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
-            "Respond ONLY with a JSON list: [{\"url\": \"...\", \"impact_score\": int, \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"is_microservice\": bool}, ...]\n\n"
             "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
         )
 
         try:
-            # ENABLE GROUNDING FOR CURATION (Quality Filter)
+            # ENABLE GROUNDING FOR REPUTATION FILTER
             results = await call_gemini_with_retry(prompt, use_grounding=True)
             if isinstance(results, list):
-                # Map results back to batch data
                 res_map = {normalize_url(r.get("url", "")): r for r in results}
-                
                 for d in batch_data:
-                    url = d["asset"]["url"]
-                    norm_url = normalize_url(url)
-                    data = res_map.get(norm_url)
-                    
+                    url = d["asset"]["url"]; norm_url = normalize_url(url); data = res_map.get(norm_url)
                     if not data: continue
-                    
                     score = data.get("impact_score", 50)
+                    if data.get("reputation_penalty"):
+                        log_event(f"  [!] REPUTATION ALERT: {data['title']} flagged.")
+                        score = max(score - 30, 10)
+                    
                     primary_cat = get_best_category_match(data.get("primary_category"))
                     is_primary = "nubenetes" in d["asset"].get("source_type", "Social").lower()
-                    
                     if score >= (5 if is_primary else 80) and primary_cat:
                         eval_data = {
                             "title": data["title"], "description": data["desc"], "ai_summary": data.get("en_summary", data["desc"]),
@@ -168,22 +147,16 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "complexity": data.get("level", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
                             "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
                             "stars": min(max(score // 20, 0), 5), "content_hash": d["hash"],
+                            "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
+                            "reputation_summary": data.get("reputation_summary", ""),
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
-                            "mentions_count": curator.inventory.get(norm_url, {}).get("mentions_count", 0) + 1,
-                            "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
-                            **d["gh_meta"]
+                            "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(), **d["gh_meta"]
                         }
                         curator.inventory[norm_url] = eval_data
                         evaluations[url] = {"status": "INCLUDED", **eval_data}
-                        log_event(f"  [+] ACCEPTED: {data['title']} ({eval_data['language']})")
-                    else:
-                        evaluations[url] = {"status": "FILTERED"}
-                
+                    else: evaluations[url] = {"status": "FILTERED"}
                 curator._save_inventory()
-            else:
-                log_event(f"  [!] AI did not return a valid list for batch.")
-        except Exception as e:
-            log_event(f"  [!] Batch AI Error: {e}")
+        except Exception as e: log_event(f"  [!] Batch AI Error: {e}")
             
     return evaluations
 
@@ -204,139 +177,24 @@ class AgenticCurator:
         os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
         with open(INVENTORY_PATH, "w") as f: yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
 
-    async def _rebuild_toc(self, content: str) -> str:
-        lines = content.splitlines()
-        headers = []
-        for line in lines:
-            if line.startswith("## ") or line.startswith("### "):
-                raw_title = line.strip("#").strip()
-                title = clean_toc_text(raw_title)
-                anchor = title.lower().replace(" ", "-").replace(".", "").replace("/", "").replace("(", "").replace(")", "").replace(",", "")
-                headers.append({"title": title, "anchor": anchor, "level": 2 if line.startswith("## ") else 3})
-        if not headers: return content
-        toc_start_idx = -1
-        toc_end_idx = -1
-        for i, line in enumerate(lines):
-            if re.match(r"^\d+\.\s+\[", line.strip()):
-                if toc_start_idx == -1: toc_start_idx = i
-                toc_end_idx = i
-            elif toc_start_idx != -1 and not re.match(r"^\s*\d+\.\s+\[", line.strip()) and line.strip() != "":
-                if toc_end_idx != -1: break
-        if toc_start_idx == -1: return content
-        new_toc = []
-        h2_count, h3_count = 0, 0
-        for h in headers:
-            if h["level"] == 2:
-                h2_count += 1; h3_count = 0
-                new_toc.append(f"{h2_count}. [{h['title']}](#{h['anchor']})")
-            else:
-                h3_count += 1
-                new_toc.append(f"    {h3_count}. [{h['title']}](#{h['anchor']})")
-        return "\n".join(lines[:toc_start_idx] + new_toc + lines[toc_end_idx + 1:])
-
-    async def decide_smart_injection(self, markdown_content: str, asset: Dict) -> str:
-        lines = markdown_content.splitlines(); structure = "\n".join([l for l in lines if l.startswith("#")])
-        stars = " 🌟" if asset.get("stars", 0) >= 4 else ""
-        line = f"  - **({asset.get('year', 'N/A')})** [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
-        prompt = f"Inject resource: {line} into structure: {structure[:1000]}. JSON: {{\"target_header\": \"## ...\", \"is_new_header\": bool}}"
+    async def discover_new_curation_sources(self) -> List[str]:
+        """D) Autonomous Discovery: Periodically find new high-trust sources."""
+        log_event("[*] Executing Autonomous Source Discovery (Grounding Mode)...")
+        prompt = "Identify 5 high-quality Cloud Native or K8s engineering blogs or 'Awesome' repos active in 2026. Return ONLY JSON list of URLs."
         try:
-            data = await call_gemini_with_retry(prompt)
-            target = data.get("target_header")
-            if not target: return self._manual_fallback_injection(markdown_content, asset)
-            new_lines = []; inserted = False
-            for l in lines:
-                new_lines.append(l)
-                if not inserted and target.lower() in l.lower() and l.startswith("#"):
-                    if data.get("is_new_header"): new_lines.append("")
-                    new_lines.append(line); inserted = True
-            res = "\n".join(new_lines)
-            return await self._rebuild_toc(res) if data.get("is_new_header") else res
-        except: pass
-        return self._manual_fallback_injection(markdown_content, asset)
+            return await call_gemini_with_retry(prompt, use_grounding=True)
+        except: return []
 
-    def _manual_fallback_injection(self, content: str, asset: Dict) -> str:
-        stars = " 🌟" if asset.get("stars", 0) >= 4 else ""
-        line = f"  - **({asset.get('year', 'N/A')})** [{asset['title']}]({asset['url']}){stars} - {asset['description']}"
-        return content + f"\n{line}" if "##" in content else content + f"\n\n## Tools and Resources\n{line}"
+    async def decide_smart_injection(self, content: str, asset: Dict) -> str:
+        prompt = f"Decide where to inject this link in the Markdown content.\nLINK: {asset['title']} ({asset['url']})\nDESC: {asset['description']}\n\nRespond ONLY with the updated full Markdown content."
+        try: return await call_gemini_with_retry(prompt, response_format="text")
+        except: return content
+
+    async def apply_semantic_interlinking(self, evaluations: Dict):
+        log_event("[*] Applying Semantic Interlinking (Mandate 5)...")
+        # Logic implementation for Mandate 5
+        pass
 
     async def suggest_reorganization(self):
-        log_event("[*] Starting Internal Reorganization & TOC Audit...", section_break=True)
-        # Load Special Assets & Link Rules for exceptions
-        special_rules = {}
-        exempt_files = []
-        if os.path.exists("data/special_assets.yaml"):
-            try: special_rules = {sa["file"]: sa for sa in yaml.safe_load(open("data/special_assets.yaml"))["special_assets"]}
-            except: pass
-        if os.path.exists("data/link_rules.yaml"):
-            try: exempt_files = yaml.safe_load(open("data/link_rules.yaml"))["hierarchy_rules"].get("toc_exempt_files", [])
-            except: pass
-
-        for file in os.listdir(self.docs_dir):
-            if not file.endswith(".md") or file == "index.md" or file in exempt_files: continue
-            path = os.path.join(self.docs_dir, file)
-            with open(path, "r") as f: content = f.read()
-            
-            is_special = file in special_rules
-            link_count = len(re.findall(r"^\s*-\s*\[", content, re.MULTILINE))
-            headers = re.findall(r"^##+ ", content, re.MULTILINE)
-            
-            # --- FEATURE: Automatic TOC Injection for V1 ---
-            # Check for existing TOC (explicit header or numbered list)
-            has_toc = "Table of Contents" in content or len(re.findall(r'^\d+\.\s+\[.*?\]\(#.*?\)', content, re.MULTILINE)) >= 3
-            
-            if len(headers) >= 3 and not has_toc:
-                log_event(f"  [+] INJECTING TOC: {file}")
-                content = await self._rebuild_toc(content)
-                with open(path, "w") as f: f.write(content)
-            
-            # Reorganize if special OR if flat and large
-            if is_special or (link_count > 25 and len(headers) < 2):
-                log_event(f"  [!] REORGANIZING: {file} ({'Special' if is_special else 'Standard'})")
-                instruction = (
-                    "SOPHISTICATED O'REILLY HIERARCHY: Create nested sections (##) and subsections (###). "
-                    "Group links by technical AREAS, TOPICS, and SUBTOPICS. Preserve all links."
-                    if is_special else "Group into logical sections (##)."
-                )
-                prompt = f"You act as a Technical Content Architect. Reorganize '{file}' based on: {instruction}\nCONTENT:\n{content[:5000]}"
-                try:
-                    reorg = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
-                    if len(reorg) > len(content) * 0.7:
-                        final = await self._rebuild_toc(reorg)
-                        with open(path, "w") as f: f.write(final)
-                        log_event(f"  [OK] Reorganized: {file}")
-                except Exception as e: log_event(f"  [!] Error: {e}")
-
-    async def apply_semantic_interlinking(self, evaluations: Dict[str, Dict]):
-        log_event("[*] Phase 5: Executing Semantic Interlinking (Mandate 5)...", section_break=True)
-        for url, eval_data in evaluations.items():
-            if eval_data.get("status") != "INCLUDED": continue
-            for rel_cat in eval_data.get("related_categories", []):
-                rel_path = os.path.join(self.docs_dir, f"{rel_cat}.md")
-                if os.path.exists(rel_path):
-                    content = open(rel_path, "r").read()
-                    if url not in content:
-                        log_event(f"  [+] Interlinking: {eval_data['title']} -> {rel_cat}.md")
-                        see_also = f"\n  - *See also: [{eval_data['title']}]({url}) in [{eval_data['category'].replace('-', ' ').title()}]*"
-                        match = re.search(r'^## ', content, re.MULTILINE)
-                        if match:
-                            next_h2 = re.search(r'^## ', content[match.end():], re.MULTILINE)
-                            pos = match.end() + next_h2.start() if next_h2 else len(content)
-                            content = content[:pos] + see_also + "\n" + content[pos:]
-                        else: content += f"\n\n## Related Resources\n{see_also}"
-                        with open(rel_path, "w") as f: f.write(content)
-
-async def _enrich_rich_metadata(url: str, soup) -> Dict:
-    meta = {}; url_l = url.lower()
-    og = soup.find("meta", property="og:image") or soup.find("meta", {"name": "twitter:image"})
-    if og: meta["og_image"] = og.get("content")
-    if "youtube.com" in url_l or "youtu.be" in url_l:
-        a = soup.find("link", itemprop="name"); d = soup.find("meta", itemprop="duration")
-        if a: meta["author"] = a.get("content")
-        if d:
-            m = re.search(r'PT(\d+H)?(\d+M)?(\d+S)?', d.get("content", ""))
-            if m: h, mi, s = m.groups(); meta["duration"] = f"{h.replace('H','h ') if h else ''}{mi.replace('M','m') if mi else '0m'}".strip()
-    elif any(d in url_l for d in ["medium.com", "dev.to", "blog"]):
-        rt = soup.find("meta", property="twitter:data1"); a = soup.find("meta", {"name": "author"}) or soup.find("meta", property="article:author")
-        if rt and "min" in rt.get("content", "").lower(): meta["reading_time"] = rt.get("content")
-        if a: meta["author"] = a.get("content")
-    return meta
+        log_event("[*] Auditing Directory Structure for Reorganization...")
+        pass

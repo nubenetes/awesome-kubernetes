@@ -127,7 +127,6 @@ class IntelligentLinkCleaner:
                 
                 try:
                     async with self.ai_semaphore:
-                        # ENABLE GROUNDING FOR RESCUE (Mandate 31)
                         ai_results = await call_gemini_with_retry(prompt, prefer_flash=False, use_grounding=True)
                         if isinstance(ai_results, list):
                             res_map = {normalize_url(r.get("old_url", "")): r.get("new_url") for r in ai_results}
@@ -149,6 +148,22 @@ class IntelligentLinkCleaner:
             score = (score * 0.8) + (100 if alive else 0) * 0.2
             entry["health_score"] = round(score, 1); entry["last_checked"] = datetime.now().timestamp()
             
+            # --- MANDATE 33: LICENSE & COMPLIANCE GUARD ---
+            if alive and "github.com" in url:
+                try:
+                    from src.agentic_curator import _get_github_activity
+                    gh_meta = await _get_github_activity(url)
+                    if gh_meta.get("gh_license"):
+                        old_lic = entry.get("gh_license", "N/A")
+                        new_lic = gh_meta["gh_license"]
+                        if old_lic != "N/A" and old_lic != new_lic:
+                            if any(x in new_lic.upper() for x in ["BSL", "SSPL", "PROPRIETARY"]):
+                                log_event(f"  [⚖️] LICENSE ALERT: {url} changed to {new_lic}")
+                                entry["status"] = "review_required"
+                                entry["stars"] = max(entry.get("stars", 1) - 1, 1)
+                        entry["gh_license"] = new_lic
+                except: pass
+
             # --- MANDATE 22: SEMANTIC DRIFT (SHA256) ---
             if alive:
                 try:
