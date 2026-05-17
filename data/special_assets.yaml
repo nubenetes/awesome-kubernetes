@@ -13,9 +13,9 @@ special_assets:
     keywords: ["yaml", "json", "schema"]
 
   - file: "introduction.md"
-    v1_rule: "Semantic clustering: Group by 'Fundamentals', 'Getting Started', and 'Advanced Concepts'."
-    v2_rule: "Elite curated view: Highlight only high-impact fundamental resources."
-    keywords: ["introduction", "getting started", "fundamentals"]
+    v1_rule: "Semantic clustering: Group by technical sub-topics. Preserve 100% of links."
+    v2_rule: "Elite curated selection (Impact >= 4). EXTRACT all Microservices-related links into a new dedicated V2 document: 'microservices.md'."
+    keywords: ["introduction", "getting started", "fundamentals", "microservices"]
 
 # Navigation Renaming
 dimension_renaming:

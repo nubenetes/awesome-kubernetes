@@ -53,7 +53,7 @@
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
 14. [14. Special Assets and Learning Paths](#14-special-assets-and-learning-paths)
     *   [14.1. Special Assets Management](#141-special-assets-management)
-    *   [14.2. Zero-to-Hero Learning Architecture](#142-zero-to-hero-learning-architecture)
+    *   [14.2. O'Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
     *   [12.1. Extension Recommendations](#121-extension-recommendations)
     *   [12.2. Recommended settings.json](#122-recommended-settingsjson)
 13. [13. Repository Inventory and Configuration](#13-repository-inventory-and-configuration)
@@ -673,17 +673,16 @@ Nubenetes prioritizes high-value technical documents through a specialized prese
 
 ### 📚 Special Assets Management
 Certain files are designated as **Special Assets** (defined in [`data/special_assets.yaml`](data/special_assets.yaml)) due to their foundational importance. These include:
-- **Introduction & Fundamentals**: Specialized grouping to ensure a perfect "Day 0" experience.
-- **YAML & JSON Ecosystem**: Exhaustive technical references for configuration languages.
+- **Introduction and Fundamentals**: High-impact fundamental selection for V2, with 100% preservation in V1.
+- **Microservices Ecosystem**: A dedicated V2 document (`microservices.md`) extracted from the introduction to maintain architectural focus.
+- **YAML and JSON Ecosystem**: Exhaustive technical references for configuration languages.
 - **Awesome Repositories**: Preserved curation lists that act as gateways to specialized sub-ecosystems.
 
 **Rules of Engagement:**
-1. **Exhaustive V2 Inclusion**: 100% of ALIVE links from these V1 files are migrated to the V2 Elite portal, bypassing standard impact filters.
-2. **High-Precision Grouping**: AI agents use nested hierarchies (Sections & Subsections) to organize these files without losing any technically valid reference.
+1. **High-Precision Grouping**: AI agents use nested hierarchies (Areas -> Topics -> Subtopics) to organize these files without losing any technically valid reference, following a **Professional Technical Book** (O'Reilly style) structure.
+2. **Elite Curation**: For the V2 Portal, `introduction.md` undergoes a specialized "Elite selection" (Impact ≥ 4) to ensure a high-density entry point for global users.
 
-### 🎓 Zero-to-Hero Learning Architecture
-The V2 Portal is structured as an educational journey rather than a flat list. Resources are programmatically classified into four expertise tiers:
-- **Fundamentals**: Core concepts and "Getting Started" material.
-- **Intermediate**: Practical implementations and standard tooling.
-- **Advanced**: Performance optimization and complex technical internals.
-- **Architect**: System design, trade-offs, and long-term strategic direction.
+### 🎓 O'Reilly-style Knowledge Architecture
+The V2 Portal is structured as a sophisticated technical reference guide. Resources are programmatically classified and grouped by technical topics and subtopics, transforming the portal into a structured educational journey for Cloud Native engineering.
+- **Structured Assimilation**: Information is ordered sections-by-section to facilitate learning from foundational theory to advanced implementation.
+- **Contextual Hierarchy**: Every page features a clickable Table of Contents (TOC) with nested anchors for precise navigation across all technical sub-domains.

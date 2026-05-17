@@ -73,10 +73,12 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **High-Precision Reorganization (V1)**: These files MUST use nested semantic grouping (## and ###) to organize links without ever deleting technically valid content.
     - **Exhaustive Inclusion (V2)**: Unlike standard categories, V2 pages for Special Assets MUST include 100% of the ALIVE links from V1.
     - **AI Curation Discovery**: The discovery engine MUST actively search for new high-quality curation sources (e.g., "Awesome" repos) and suggest them for inclusion in `curation_sources.yaml`.
-28. **Zero-to-Hero V2 Architecture**: The V2 Portal MUST be structured as a learning journey:
-    - **Complexity Hierarchy**: Resources MUST be grouped by level: Fundamentals -> Intermediate -> Advanced -> Architect.
-    - **Strategic Dimensions**: The "AI and Artificial Intelligence" dimension is the primary entry point for agentic innovation. Dimension naming MUST prioritize industry-standard terms over internal terminology.
-    - **Clickable Navigational Maps**: Every V2 page MUST include a Table of Contents (TOC) with nested anchors for all complexity levels.
+28. **Sophisticated V2 Knowledge Architecture**: The V2 Portal MUST be structured like an advanced O'Reilly technical book:
+    - **Contextual Hierarchy**: Resources MUST NOT be flat lists. They must be organized into a sophisticated hierarchy of nested sections (##) and subsections (###) based on technical areas, topics, and subtopics.
+    - **Structured Learning**: The organization must facilitate knowledge assimilation, moving from foundations to advanced implementation details in a logical, ordered sequence.
+    - **Dynamic Indexing**: Every V2 page MUST include a Table of Contents (TOC) with clickable anchors for all technical sub-sections.
+    - **AI Dimension Naming**: Prioritize industry-standard terms (e.g., "AI and Artificial Intelligence" instead of internal jargon) for top-level navigation.
+    - **Content Extraction**: High-value sub-topics may be extracted into dedicated documents (e.g., "Microservices" content extracted from `introduction.md` into `microservices.md`) to maintain high-density focus.
 
 ## 🛠️ Structural Evolution & Navigation
 ...

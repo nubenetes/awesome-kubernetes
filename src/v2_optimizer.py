@@ -36,19 +36,19 @@ class V2VisionEngine:
         }
         
         self.library_criteria = (
-            "You are a Senior Technical Librarian and Architect in 2026. Your mission is to build a high-density, professional reference library.\n"
-            "PHASE 1: TECHNICAL PRESERVATION (HIGH INCLUSIVITY)\n"
-            "- KEEP >90% of technical resources.\n"
-            "PHASE 2: SOPHISTICATED SYNTHESIS & DATING\n"
-            "- Extract precise PUBLICATION DATE (YYYY-MM-DD or YYYY).\n"
-            "- Detect source content LANGUAGE.\n"
-            "- Identify RESOURCE_TYPE and complexity LEVEL.\n"
-            "PHASE 3: ZERO-TO-HERO CLASSIFICATION\n"
-            "- Categorize into: 'Fundamentals', 'Intermediate', 'Advanced', or 'Architect' level.\n"
-            "- For special curation lists (e.g. Awesome repos), identify the primary curation topic.\n"
-            "PHASE 4: MANDATORY DESCRIPTIONS (V1 PRIORITY)\n"
-            "- If 'Current Desc' is empty or too short, generate a professional 1-2 sentence summary.\n"
-            "- Style: Technical, neutral, and informative. Language: English only.\n"
+            "You are a Senior Technical Content Architect in 2026. Your mission is to organize a high-density technical reference portal "
+            "with the structure and logical flow of an advanced O'Reilly technical book.\n"
+            "PHASE 1: TECHNICAL PRESERVATION & CURATION\n"
+            "- KEEP >90% of technical resources (except for 'introduction.md' where only high-impact links are kept).\n"
+            "PHASE 2: SOPHISTICATED HIERARCHICAL CLASSIFICATION\n"
+            "- Analyze the deep context of each resource to identify its TECHNICAL AREA (e.g., 'Storage Protocols', 'Observability Patterns').\n"
+            "- Identify a TOPIC and SUBTOPIC for precise nested grouping.\n"
+            "- For 'introduction.md', identify links related to MICROSERVICES for extraction.\n"
+            "PHASE 3: KNOWLEDGE ASSIMILATION FLOW\n"
+            "- Order topics to facilitate a structured learning journey: from architectural foundations to advanced engineering internals.\n"
+            "- Assign QUALITY level (0-5 stars) and complexity LEVEL.\n"
+            "PHASE 4: MANDATORY DESCRIPTIONS\n"
+            "- If 'Current Desc' is empty, generate a professional 1-2 sentence summary. Style: O'Reilly technical, neutral, and informative.\n"
         )
         self.inventory = self._load_inventory()
         self.structure_map = self._load_structure_map()
@@ -314,7 +314,7 @@ class V2VisionEngine:
             
             prompt = (
                 f"{self.library_criteria}\n"
-                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"1-2 sentences description\", \"language\": \"...\", \"type\": \"...\", \"level\": \"Fundamentals|Intermediate|Advanced|Architect\"}, ...]}\n\n"
+                "Respond ONLY with a JSON object: {\"results\": [{\"idx\": int, \"year\": \"YYYY\", \"stars\": 0-5, \"is_video\": bool, \"tag\": \"[TAG]\", \"summary\": \"...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"area\": \"...\", \"topic\": \"...\", \"subtopic\": \"...\", \"is_microservice\": bool}, ...]}\n\n"
                 "LINKS:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Desc: {l['description'][:60]}" for idx, l in enumerate(batch)])
             )
             
@@ -330,7 +330,7 @@ class V2VisionEngine:
                             norm_url = normalize_url(item["url"])
                             old_tag = self.inventory.get(norm_url, {}).get("tag")
 
-                            # SPECIAL ASSET BYPASS: If file is special, force 5 stars or preservation
+                            # SPECIAL ASSET BYPASS
                             is_special = item["original_file"] in special_files
                             
                             eval_data = {
@@ -341,7 +341,11 @@ class V2VisionEngine:
                                 "ai_summary": res.get("summary", ""),
                                 "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"),
-                                "complexity": res.get("level", "Intermediate")
+                                "complexity": res.get("level", "Intermediate"),
+                                "area": res.get("area", "General"),
+                                "topic": res.get("topic", "Uncategorized"),
+                                "subtopic": res.get("subtopic", ""),
+                                "is_microservice": bool(res.get("is_microservice", False))
                             }
                             
                             item.update(eval_data)
@@ -370,7 +374,9 @@ class V2VisionEngine:
                                 "is_video": item["is_video"], "ai_summary": item["ai_summary"],
                                 "language": item["language"], "resource_type": item["resource_type"],
                                 "complexity": item["complexity"], "tag": item["tag"], "status": "online",
-                                "original_file": item["original_file"]
+                                "original_file": item["original_file"], "area": item["area"],
+                                "topic": item["topic"], "subtopic": item["subtopic"],
+                                "is_microservice": item["is_microservice"]
                             }
                             if "gh_stars" in item: self.inventory[norm_url]["gh_stars"] = item["gh_stars"]
                             if "gh_updated" in item: self.inventory[norm_url]["gh_updated"] = item["gh_updated"]
@@ -435,8 +441,14 @@ class V2VisionEngine:
         return {}
 
     async def _rebuild_structure(self, library_inventory: List[Dict]) -> Dict[str, Dict]:
-        special_files = [sa["file"] for sa in self.special_assets_rules.get("special_assets", [])]
+        """
+        REBUILD STRUCTURE: O'REILLY TECHNICAL BOOK ARCHITECTURE.
+        Implements a sophisticated hierarchy: Dimension -> Category -> Topic -> Subtopic.
+        Handles Special Asset rules and Microservices extraction.
+        """
+        special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}
         v2_structure = {dim: {"summary": "", "categories": {}} for dim in self.dimensions.keys()}
+        
         file_to_dim = {}
         for dim, files in self.dimensions.items():
             for f in files: file_to_dim[f + ".md"] = dim
@@ -445,39 +457,62 @@ class V2VisionEngine:
             orig_file = item.get("original_file", "unknown.md")
             dim = file_to_dim.get(orig_file, "Architectural Foundations")
             cat_name = orig_file.replace(".md", "").replace("-", " ").title()
-            is_special = orig_file in special_files
             
-            # Filtering: Keep if stars >= 3 OR if it's a Special Asset
-            if not is_special and item.get("stars", 0) < 3:
+            # --- RULE: Microservices Extraction ---
+            if item.get("is_microservice"):
+                cat_name = "Microservices"
+                # If from introduction, move to Foundations dimension, else keep in current
+                if orig_file == "introduction.md": dim = "Architectural Foundations"
+
+            # --- RULE: Special Asset Handling ---
+            rule = special_rules.get(orig_file, {})
+            is_special = orig_file in special_rules
+            
+            # Elite Curation for Introduction
+            if orig_file == "introduction.md" and item.get("stars", 0) < 4 and not item.get("is_microservice"):
+                continue
+            
+            # General Filtering for V2
+            if not is_special and item.get("stars", 0) < 3 and not item.get("is_microservice"):
                 continue
 
+            # Hierarchy: Dimension -> Category -> Topic -> Subtopic
             if cat_name not in v2_structure[dim]["categories"]:
-                v2_structure[dim]["categories"][cat_name] = {
-                    "Fundamentals": [], "Intermediate": [], "Advanced": [], "Architect": []
-                }
+                v2_structure[dim]["categories"][cat_name] = {}
             
-            level = item.get("complexity", "Intermediate")
-            if level not in v2_structure[dim]["categories"][cat_name]: level = "Intermediate"
-            v2_structure[dim]["categories"][cat_name][level].append(item)
+            topic = item.get("topic", "General Concepts")
+            if topic not in v2_structure[dim]["categories"][cat_name]:
+                v2_structure[dim]["categories"][cat_name][topic] = {}
+            
+            subtopic = item.get("subtopic", "Other Resources") or "General"
+            if subtopic not in v2_structure[dim]["categories"][cat_name][topic]:
+                v2_structure[dim]["categories"][cat_name][topic][subtopic] = []
+            
+            v2_structure[dim]["categories"][cat_name][topic][subtopic].append(item)
 
+        # Cleanup and Sorting
         for dim in v2_structure:
             for cat in list(v2_structure[dim]["categories"].keys()):
-                has_content = False
-                for level in v2_structure[dim]["categories"][cat]:
-                    if v2_structure[dim]["categories"][cat][level]:
-                        has_content = True
-                        v2_structure[dim]["categories"][cat][level].sort(
+                for topic in v2_structure[dim]["categories"][cat]:
+                    for subtopic in v2_structure[dim]["categories"][cat][topic]:
+                        # Sort by Impact and Year
+                        v2_structure[dim]["categories"][cat][topic][subtopic].sort(
                             key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0))
                         )
-                if not has_content: 
+                
+                if not v2_structure[dim]["categories"][cat]:
                     del v2_structure[dim]["categories"][cat]
                 else:
-                    # Maintain Executive Summary for Dimension
-                    prompt = f"Write a professional 2026 executive summary for '{dim}'. Focus on high-density value. 1 sentence only."
-                    try:
-                        v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
-                    except:
-                        v2_structure[dim]["summary"] = f"Impact-driven reference library for {dim}."
+                    # Update Executive Summary
+                    cache_key = f"INTRO:{dim}"
+                    if cache_key in self.inventory:
+                        v2_structure[dim]["summary"] = self.inventory[cache_key].get("ai_summary")
+                    else:
+                        prompt = f"Write a professional 1-sentence executive summary for the '{dim}' technical dimension."
+                        try:
+                            v2_structure[dim]["summary"] = await call_gemini_with_retry(prompt, response_format="text", prefer_flash=True)
+                        except:
+                            v2_structure[dim]["summary"] = f"Strategic reference library for {dim}."
 
         return v2_structure
 
@@ -588,81 +623,70 @@ class V2VisionEngine:
             slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "").replace(" ", "-")
             md = f"# {dim}\n\n"
             md += f"!!! info \"Architectural Context\"\n    {content['summary']}\n\n"
-            
+
             # --- Table of Contents for the Page ---
             md += "## Table of Contents\n"
-            for cat in content["categories"].keys():
+            for cat, topics in content["categories"].items():
                 cat_slug = cat.lower().replace(" ", "-")
                 md += f"- [{cat}](#{cat_slug})\n"
-                for level, level_links in content["categories"][cat].items():
-                    if level_links:
-                        level_slug = f"{cat_slug}-{level.lower()}"
-                        md += f"    - [{level}](#{level_slug})\n"
+                for topic, subtopics in topics.items():
+                    topic_slug = f"{cat_slug}-{topic.lower().replace(' ', '-')}"
+                    md += f"    - [{topic}](#{topic_slug})\n"
             md += "\n---\n\n"
 
-            for cat, levels in content["categories"].items():
+            for cat, topics in content["categories"].items():
                 cat_slug = cat.lower().replace(" ", "-")
                 md += f"## {cat}\n\n"
-                for level, links in levels.items():
-                    if not links: continue
-                    level_slug = f"{cat_slug}-{level.lower()}"
-                    md += f"### {cat} - {level}\n"
-                    for l in links:
-                        year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
-                        stars = ("🌟" * stars_val) if stars_val > 0 else ""
-                        tag = l.get("tag", "[ENTERPRISE-STABLE]")
-                        
-                        # Determine color mapping
-                        if "STANDARD" in tag or "FOUNDATIONAL" in tag: color = "success"
-                        elif "EMERGING" in tag: color = "warning"
-                        elif "LEGACY" in tag: color = "critical"
-                        elif "STABLE" in tag: color = "info"
-                        else: color = "primary"
-                        
-                        title_clean = l['title'].replace("==", "")
-                        if stars_val >= 3 or "STANDARD" in tag:
-                            title_display = f"**=={title_clean}==**"
-                        elif stars_val == 2:
-                            title_display = f"**{title_clean}**"
-                        else:
-                            title_display = title_clean
-                        
-                        year_prefix = f"**({year})** " if year and year != "N/A" else ""
-                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
-                        icon = " 🎥" if l.get("is_video") else ""
-                        
-                        # Language Tagging
-                        lang = l.get("language", "English")
-                        lang_tag = ""
-                        if lang.lower() != "english":
-                            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
-                        
-                        # Complexity Tagging
-                        l_val = l.get("complexity", "Intermediate")
-                        level_tag = ""
-                        if l_val.lower() in ["architect", "advanced"]:
-                            level_tag = f" <span class='md-tag md-tag--critical'>[{l_val.upper()} LEVEL]</span>"
-                        
-                        # Resource Type Tagging
-                        res_type = l.get("resource_type", "Reference")
-                        type_tag = ""
-                        if res_type.lower() in ["case study", "guide", "documentation"]:
-                            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
 
-                        # Rich Metadata
-                        rich_tags = ""
-                        if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
-                        if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
-                        if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
+                for topic, subtopics in topics.items():
+                    topic_slug = f"{cat_slug}-{topic.lower().replace(' ', '-')}"
+                    md += f"### {topic}\n\n"
 
-                        md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
-                        if l['description']:
-                            desc = l['description']
-                            if "\n" in desc:
-                                md += "\n" + "\n".join(["      " + line for line in desc.split("\n")]) + "\n\n"
-                            else:
-                                md += f"      {desc}\n"
+                    for subtopic, links in subtopics.items():
+                        if subtopic and subtopic != "General":
+                            md += f"#### {subtopic}\n"
+
+                        for l in links:
+                            year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
+                            stars = ("🌟" * stars_val) if stars_val > 0 else ""
+                            tag = l.get("tag", "[ENTERPRISE-STABLE]")
+
+                            # Color mapping
+                            if "STANDARD" in tag or "FOUNDATIONAL" in tag: color = "success"
+                            elif "EMERGING" in tag: color = "warning"
+                            elif "LEGACY" in tag: color = "critical"
+                            elif "STABLE" in tag: color = "info"
+                            else: color = "primary"
+
+                            title_clean = l['title'].replace("==", "")
+                            title_display = f"**=={title_clean}==**" if stars_val >= 3 else title_clean
+
+                            year_prefix = f"**({year})** " if year and year != "N/A" else ""
+                            gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
+                            icon = " 🎥" if l.get("is_video") else ""
+
+                            lang = l.get("language", "English")
+                            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
+
+                            complexity = l.get("complexity", "Intermediate")
+                            level_tag = f" <span class='md-tag md-tag--critical'>[{complexity.upper()} LEVEL]</span>" if complexity.lower() in ["architect", "advanced"] else ""
+
+                            res_type = l.get("resource_type", "Reference")
+                            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
+
+                            # Rich Metadata
+                            rich_tags = ""
+                            if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
+                            if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
+                            if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
+
+                            md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                            if l['description']:
+                                desc = l['description']
+                                md += f"\n      {desc}\n\n"
+                        md += "\n"
                 md += "\n"
+
             with open(os.path.join(V2_DIR, f"{slug}.md"), "w") as f: f.write(md)
 
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):

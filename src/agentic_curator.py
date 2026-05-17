@@ -332,8 +332,10 @@ class AgenticCurator:
                 log_event(f"  [!] REORGANIZING: {file} ({'Special' if is_special else 'Standard'})")
                 
                 depth_instruction = (
-                    "SOPHISTICATED HIERARCHY: Create nested sections (##) and subsections (###). "
-                    "Group links by technical theme. Maintain all existing links. No deletions."
+                    "SOPHISTICATED O'REILLY HIERARCHY: Create nested sections (##) and subsections (###). "
+                    "Group links by technical AREAS, TOPICS, and SUBTOPICS (e.g. 'Foundations' -> 'Container Orchestration'). "
+                    "The structure must facilitate knowledge assimilation like a professional technical book. "
+                    "Ensure every valid link is preserved. Maintain professional titles."
                     if is_special else "Group into logical sections (##)."
                 )
                 
