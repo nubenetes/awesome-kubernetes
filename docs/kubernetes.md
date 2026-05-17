@@ -145,7 +145,7 @@
 - [elmanytas.es: Kubernetes para impostores III](http://elmanytas.es/?q=node/358)
 - [enterprisersproject.com: How to explain Kubernetes in plain English](https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english) How do you explain Kubernetes and orchestration to non-technical people? Listen to the experts
 - [maximilianmichels.com: Kubernetes in a Nutshell: 10 Things You Need to Know](https://maximilianmichels.com/2021/kubernetes-what-you-need-to-know/)
-- [brennerm.github.io: Kubernetes Overview Diagrams 🌟](https://brennerm.github.io/posts/kubernetes-overview-diagrams.html#architecture)
+- [brennerm.github.io: Kubernetes Overview Diagrams 🌟](https://github.com/brennerm/posts#architecture)
 - [thenewstack.io: Kubernetes Lifecycle Management! So Important! (Day 0, Day 1, Day 2) 🌟](https://thenewstack.io/kubernetes-lifecycle-management-so-important-what-does-it-mean)
 - [opensource.com: A beginner's guide to Kubernetes container orchestration](https://opensource.com/article/20/6/container-orchestration) Understanding the building blocks of container orchestration makes it easier to get started with Kubernetes.
 - [luminousmen.com: Kubernetes 101](https://luminousmen.com/post/kubernetes-101)
@@ -365,7 +365,7 @@
 ### Kubernetes Scalability Thresholds
   - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) 🌟 - This blog post introduces the AKS Fleet Manager strategy as a solution for scaling Kubernetes beyond the limits of a single cluster, particularly for AI and data-intensive workloads. It highlights the challenges of scaling within a single cluster (control plane bottlenecks, resource limits) and proposes managing tens or hundreds of clusters using AKS Fleet Manager, powered by the KubeFleet project, to achieve 'limitless' scalability.
 
-- [github.com/kubernetes: Kubernetes Scalability thresholds](https://github.com/kubernetes/community/blob/master/sig-scalability/configs-and-limits/thresholds.md)
+- [github.com/kubernetes: Kubernetes Scalability thresholds](https://github.com/kubernetes/community)
 
 ### Kubernetes Installation Methods
   - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) - *(Related to devops topic)*
@@ -1128,7 +1128,7 @@
 ### Kubernetes Health Checks/Probes. Startup, Liveness, Readiness
 
 - [medium: How to Perform Health checks in Kubernetes (K8s)](https://medium.com/faun/how-to-perform-health-checks-in-kubernetes-k8s-a4e5300b1f9d)
-- [If you have a livenessProbe that takes over one second, it’ll fail when you update to kubernetes 1.20, because a long-standing bug with how the default was handled has been fixed. You must override the ExecProbeTimeout if your probe takes more than 1s](https://github.com/kubernetes/kubernetes/pull/97057)
+- [If you have a livenessProbe that takes over one second, it’ll fail when you update to kubernetes 1.20, because a long-standing bug with how the default was handled has been fixed. You must override the ExecProbeTimeout if your probe takes more than 1s](https://github.com/kubernetes/kubernetes)
 - [Liveness and Readiness Probes for Kubernetes in Phoenix application](https://blog.lelonek.me/liveness-and-readiness-probes-for-kubernetes-in-phoenix-application-890e24d0737e)
 - [Kubernetes Liveness and Readiness Probes](https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes/)
 - [loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls](https://loft.sh/blog/kubernetes-readiness-probes-examples-common-pitfalls/)
@@ -1513,7 +1513,7 @@ will dive into the details of how they work
 
 ### Kubernetes Special Interest Groups (SIGs)
 
-- [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig) have been around to support the community of developers and operators since around the 1.0 release. People organized around networking, storage, scaling and other operational areas.
+- [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community#special-interest-groups-sig) have been around to support the community of developers and operators since around the 1.0 release. People organized around networking, storage, scaling and other operational areas.
 - [SIG Apps: build apps for and operate them in Kubernetes](https://kubernetes.io/blog/2016/08/sig-apps-running-apps-in-kubernetes/)
 
 #### Kubernetes SIG's Repos
@@ -1710,7 +1710,7 @@ will dive into the details of how they work
 ### Kubernetes and Ansible
 
 - [itnext.io: Automating System Updates for Kubernetes Clusters using Ansible](https://itnext.io/automating-system-updates-for-kubernetes-clusters-using-ansible-94a70f4e1972)
-- [Ansible for devops: Kubernetes](https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes)
+- [Ansible for devops: Kubernetes](https://github.com/geerlingguy/ansible-for-devops)
 
 ## Spot instances in Kubernetes
 
@@ -2053,4 +2053,4 @@ will dive into the details of how they work
 
   gtag('config', 'UA-168051035-1');
 </script>
-  - [KEP-2837: Especificaciones de Recursos a Nivel de Pod](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md#summary) 🌟 - Este KEP propone la especificación de recursos de CPU y memoria a nivel de pod en Kubernetes para mejorar la gestión de recursos y el aislamiento.
+  - [KEP-2837: Especificaciones de Recursos a Nivel de Pod](https://github.com/kubernetes/enhancements#summary) 🌟 - Este KEP propone la especificación de recursos de CPU y memoria a nivel de pod en Kubernetes para mejorar la gestión de recursos y el aislamiento.
