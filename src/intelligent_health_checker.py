@@ -17,7 +17,6 @@ from src.gemini_utils import normalize_url
 CORE_FILES = ["docs/index.md", "README.md"]
 MEMORY_FILE = "src/memory/health_learning.json"
 INVENTORY_PATH = "data/inventory.yaml"
-STRUCTURE_MAP_PATH = "data/structure_map.yaml"
 
 class IntelligentLinkCleaner:
     def __init__(self):
@@ -30,7 +29,6 @@ class IntelligentLinkCleaner:
         self.description_updates: Dict[str, str] = {}
         self.learning_data = self._load_memory()
         self.inventory = self._load_inventory()
-        self.structure_map = self._load_structure_map()
         self.action_log: List[Dict] = [] 
         self.detailed_stats = {
             "total_scanned": 0,
@@ -66,21 +64,6 @@ class IntelligentLinkCleaner:
         with open(INVENTORY_PATH, "w") as f:
             import yaml
             yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
-
-    def _load_structure_map(self) -> dict:
-        if os.path.exists(STRUCTURE_MAP_PATH):
-            try:
-                with open(STRUCTURE_MAP_PATH, "r") as f:
-                    import yaml
-                    return yaml.safe_load(f) or {}
-            except: return {}
-        return {}
-
-    def _save_structure_map(self):
-        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
-        with open(STRUCTURE_MAP_PATH, "w") as f:
-            import yaml
-            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
 
     async def _fetch_github_metadata(self, url: str) -> Dict:
         match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
@@ -366,30 +349,41 @@ class IntelligentLinkCleaner:
     async def prune_orphaned_metadata(self):
         """
         DATABASE GARBAGE COLLECTOR: Removes metadata for links no longer present in any .md file.
-        Ensures inventory.yaml and structure_map.yaml remain lean and professional.
+        Updates 'v1_locations' in inventory for all active links.
         """
         log_event("RUNNING DATABASE GARBAGE COLLECTION...", section_break=True)
         initial_inv = len(self.inventory)
-        initial_struct = len(self.structure_map)
         
-        # Identify valid links from registry (those actually found in docs/)
-        valid_urls = {normalize_url(u) for u in self.link_registry.keys()}
+        # 1. Gather all current links in V1
+        valid_urls_map = {} # {url: [paths]}
+        for root, _, files in os.walk("docs"):
+            for file in files:
+                if file.endswith(".md"):
+                    path = os.path.join(root, file)
+                    with open(path, "r") as f: content = f.read()
+                    urls = re.findall(r'\[.*?\]\((https?://.*?)\)', content)
+                    for u in urls:
+                        nu = normalize_url(u)
+                        if path not in valid_urls_map.get(nu, []):
+                            valid_urls_map.setdefault(nu, []).append(path)
         
-        # Prune Inventory
-        self.inventory = {u: m for u, m in self.inventory.items() if u in valid_urls}
-        # Prune Structure Map
-        self.structure_map = {u: m for u, m in self.structure_map.items() if u in valid_urls}
+        # 2. Prune and Update Locations
+        new_inventory = {}
+        for u, m in self.inventory.items():
+            if u.startswith("INTRO:"):
+                new_inventory[u] = m
+                continue
+            if u in valid_urls_map:
+                m["v1_locations"] = sorted(list(set(valid_urls_map[u])))
+                new_inventory[u] = m
         
+        self.inventory = new_inventory
         pruned_inv = initial_inv - len(self.inventory)
-        pruned_struct = initial_struct - len(self.structure_map)
         
-        if pruned_inv > 0 or pruned_struct > 0:
-            log_event(f"    [OK] Pruned {pruned_inv} orphaned inventory entries.")
-            log_event(f"    [OK] Pruned {pruned_struct} orphaned structure mappings.")
-            self._save_inventory()
-            self._save_structure_map()
+        if pruned_inv > 0:
+            log_event(f"    [OK] Pruned {pruned_inv} orphaned records from inventory.")
         else:
-            log_event("    [OK] Database is already lean. No orphans found.")
+            log_event("    [OK] Database is clean. No orphans found.")
 
     async def _enrich_description_batch(self, urls: List[str]):
         """
@@ -532,14 +526,12 @@ class IntelligentLinkCleaner:
         # 3. Ensure BBDD YAML Persistence: Include database files in the PR payload
         await self.prune_orphaned_metadata() # GC first
         self._save_inventory()
-        self._save_structure_map()
         
         final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
         
         # Load fresh YAML content for the PR
         import yaml
         with open(INVENTORY_PATH, "r") as f: final_payload[INVENTORY_PATH] = f.read()
-        with open(STRUCTURE_MAP_PATH, "r") as f: final_payload[STRUCTURE_MAP_PATH] = f.read()
 
         if orphans_linked > 0:
             with open(getattr(self.curator, "index_path", "docs/index.md"), 'r') as f: 

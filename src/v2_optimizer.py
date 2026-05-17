@@ -6,7 +6,7 @@ import yaml
 import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
-from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH, STRUCTURE_MAP_PATH
+from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
 from src.gemini_utils import call_gemini_with_retry, normalize_url
 from src.logger import log_event
 
@@ -49,7 +49,6 @@ class V2VisionEngine:
             "- If 'Current Desc' is empty, generate a professional summary. Style: O'Reilly technical.\n"
         )
         self.inventory = self._load_inventory()
-        self.structure_map = self._load_structure_map()
         self.maturity_audit = []
 
     def _load_special_assets(self) -> Dict:
@@ -79,18 +78,6 @@ class V2VisionEngine:
         os.makedirs(os.path.dirname(INVENTORY_PATH), exist_ok=True)
         with open(INVENTORY_PATH, "w") as f:
             yaml.dump(self.inventory, f, sort_keys=False, allow_unicode=True)
-
-    def _load_structure_map(self) -> dict:
-        if os.path.exists(STRUCTURE_MAP_PATH):
-            try:
-                with open(STRUCTURE_MAP_PATH, "r") as f: return yaml.safe_load(f) or {}
-            except: return {}
-        return {}
-
-    def _save_structure_map(self):
-        os.makedirs(os.path.dirname(STRUCTURE_MAP_PATH), exist_ok=True)
-        with open(STRUCTURE_MAP_PATH, "w") as f:
-            yaml.dump(self.structure_map, f, sort_keys=False, allow_unicode=True)
 
     async def analyze_and_cluster(self):
         log_event("STARTING V2 HIGH-DENSITY O'REILLY LIBRARY GENERATION", section_break=True)
@@ -318,6 +305,22 @@ class V2VisionEngine:
         for dim, content in data.items():
             if not content["categories"]: continue
             slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
+            v2_page = f"{slug}.md"
+            
+            # --- TRACK V2 LOCATIONS IN INVENTORY ---
+            def track_v2(node, page_path):
+                if "__links__" in node:
+                    for l in node["__links__"]:
+                        nu = normalize_url(l["url"])
+                        if nu in self.inventory:
+                            locs = self.inventory[nu].get("v2_locations", [])
+                            if page_path not in locs:
+                                self.inventory[nu].setdefault("v2_locations", []).append(page_path)
+                for k, v in node.items():
+                    if k != "__links__": track_v2(v, page_path)
+            
+            for cat_topics in content["categories"].values(): track_v2(cat_topics, v2_page)
+
             md = f"# {dim}\n\n!!! info \"Architectural Context\"\n    {content['summary']}\n\n## Table of Contents\n"
             for cat, topics in content["categories"].items():
                 cat_slug = cat.lower().replace(" ", "-")

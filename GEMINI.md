@@ -44,13 +44,12 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Flat Asset Routing**: To avoid depth-related path breakage, both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST have `use_directory_urls: false`. This ensures relative paths (e.g., `images/img.png`) resolve correctly regardless of the page depth.
 20. **V2 Navigation Design**: The V2 top navigation bar MUST maintain a flat structure. All dimensions and categories must be top-level tabs in `v2-mkdocs.yml` to ensure direct discoverability and avoid nested groupings like "Categories".
 21. **V2 Impact-Driven Sorting**: The V2 portal MUST prioritize **relevance (Impact) over dates** within sections to provide high-density technical value. Sorting MUST follow: 1. Stars/Relevance (DESC), 2. Year (DESC). The mission statement and descriptions MUST reflect this impact-driven synthesis.
-22. **Unified Metadata Database (Local Storage & Persistence)**: All link metadata MUST be managed via the local YAML database in `data/`.
-    - **`inventory.yaml`**: The primary source of truth for years, stars (0-5), and descriptions.
-    - **`structure_map.yaml`**: Tracks link locations and visual formatting (bold/highlight) across V1 and V2.
-    - **Persistence (MANDATORY)**: Every AI agent and workflow MUST include these YAML files in their Pull Requests if any change is detected. Discarding the database during a workflow run is a CRITICAL FAILURE. All workflows must load the DB, update it, and INJECT the modified YAML files into the final PR payload.
-    - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches (e.g., 21-day health cache) and force a full re-validation and re-enrichment of the entire 17k+ link archive.
+22. **Unified Database Architecture (Single Source of Truth)**: All resource metadata MUST be managed via the centralized [`data/inventory.yaml`](data/inventory.yaml).
+    - **Persistence (MANDATORY)**: Every AI agent and workflow MUST load this file at startup, update it, and INJECT the modified YAML into the final PR payload. Discarding the database during a workflow run is a CRITICAL FAILURE.
+    - **Lifecycle Metadata**: The inventory MUST track the physical locations of every link in the project (fields: `v1_locations` and `v2_locations`) and its visual formatting. This eliminates the need for external mapping files (like the legacy `structure_map.yaml`) and ensures full visibility across workflows.
+    - **Exhaustive Initialization**: The system supports a `FORCE_FULL_CHECK` environment variable to bypass all caches and force a full re-validation and re-enrichment of the entire 17k+ link archive.
     - **No Trusted Bypassing**: All domains, including high-trust ones (GitHub, Google, AWS), MUST be verified for link validity. Trusted status only grants a lower priority for aggressive scraper rotation, not a bypass for existence checks.
-    - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions in the V1 archive files. Enrichment is strictly for `inventory.yaml` and the V2 portal.
+    - **Manual Priority**: AI agents MUST NOT overwrite existing manual descriptions or stars in the V1 archive files. Enrichment is strictly for the YAML database and the V2 portal.
 23. **Canonical URL Normalization & Semantic Deduplication**: To prevent duplication and fragmented metadata, all agents MUST normalize URLs before any inventory operation.
     - **Tracking Stripping**: Systematically remove UTM parameters, social media trackers (X.com, LinkedIn), and URL fragments (except technical ones).
     - **Technical Preservation (V1)**: Normalization MUST **preserve line anchors** (e.g., `#L123`) and **respect URL path case-sensitivity**. Technical fragmentation is preferred over data loss for deep-links.
@@ -75,7 +74,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **AI Curation Discovery**: The discovery engine MUST actively search for new high-quality curation sources (e.g., "Awesome" repos) and suggest them for inclusion in `curation_sources.yaml`.
 28. **Sophisticated V2 Knowledge Architecture**: The V2 Portal MUST be structured like an advanced O'Reilly technical book:
     - **Deep Hierarchical Classification**: Resources MUST be organized using the `hierarchy` metadata field (a list of up to 10 strings: Area > Topic > Subtopics). This structure is mandatory for both V1 reorganization and V2 generation to ensure perfect consistency.
-    - **Structural Intelligence Persistence**: All agents MUST store and reuse the `hierarchy` metadata in the centralized inventory. This ensures zero-cost structural updates and industrial-grade scalability.
+    - **Location-Aware Automation**: Workflows MUST utilize the location metadata in the inventory (`v1_locations`, `v2_locations`) to perform surgical updates without redundant repository scans.
+    - **Structural Intelligence Persistence**: All agents MUST store and reuse the `hierarchy` and location metadata in the centralized inventory. This ensures zero-cost structural updates and industrial-grade scalability.
     - **O'Reilly Learning Flow**: The organization must facilitate knowledge assimilation, moving from foundational theory to advanced engineering internals in a logical, ordered sequence.
     - **Dynamic Indexing**: Every V2 page MUST include a Table of Contents (TOC) with clickable anchors for all technical sub-sections.
     - **AI Dimension Naming**: Prioritize industry-standard terms (e.g., "AI and Artificial Intelligence" instead of internal jargon) for top-level navigation.

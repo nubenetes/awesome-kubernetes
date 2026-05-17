@@ -284,7 +284,6 @@ Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consisten
 ### 6.1. Database Components
 1.  **Central Inventory (`data/inventory.yaml`)**: Stores global technical metadata.
     *   `title`, `year`, `stars` (0-5), `description` (V1), `ai_summary` (V2 Elite), `category`, and `related_categories`.
-2.  **Structure Map (`data/structure_map.yaml`)**: Tracks the physical presence and formatting of links.
     *   Tracks which `.md` pages contain the link in V1 and V2.
     *   Stores visual state: `is_bold`, `is_highlighted` (`==`).
 
@@ -432,7 +431,6 @@ graph TD
     
     subgraph Local Storage
         DB1[inventory.yaml]
-        DB2[structure_map.yaml]
     end
 ```
 
@@ -644,7 +642,6 @@ To maintain transparency and ease of navigation, all key configuration, database
 
 ### 13.2. Centralized Metadata Databases
 - **Global Inventory:** [`data/inventory.yaml`](data/inventory.yaml) - The "System Memory" containing all link metadata (years, stars, descriptions, and audit history).
-- **Structure Map:** [`data/structure_map.yaml`](data/structure_map.yaml) - Tracks link presence and formatting across all Markdown pages.
 
 ### 13.3. Autonomous Workflows
 - **Discovery & Curation:** [`.github/workflows/agentic_cron.yml`](.github/workflows/agentic_cron.yml)
