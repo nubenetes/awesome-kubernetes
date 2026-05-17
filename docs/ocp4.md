@@ -180,7 +180,7 @@
 
 ### Setting up OCP4 on AWS
 
-- [AWS Account Set Up 🌟](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md)).
+- [AWS Account Set Up 🌟](https://github.com/openshift/installer)).
 - [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
 - [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.openshift.com/blog/control-regional-access-to-your-service-on-openshift-running-on-aws)
 - [==cloud.redhat.com: OpenShift Virtualization on Amazon Web Services==](https://cloud.redhat.com/blog/openshift-virtualization-on-amazon-web-services) Of the many selling points for OpenShift, one of the biggest is its ability to provide a common platform for workloads whether they are on premise or at one of the major cloud providers. With the availability of AWS bare metal instance types, Red Hat has announced that OpenShift 4.9 supports OpenShift Virtualization on AWS as a tech preview. Now virtual machines can be managed in much the same way in the cloud as on-premise.
@@ -297,7 +297,7 @@
     - Atomic host updates with [rpm-ostree](https://github.com/coreos/rpm-ostree)
     - [CRI-O](https://cri-o.io/) as a container runtime
     - [SELinux](https://www.slideshare.net/openshift/openshift-18812162) enabled by default
-- [Machine API](https://github.com/openshift/machine-api-operator/tree/master): Provisioning of nodes. Abstraction mechanism added (API objects to declaratively manage the cluster):
+- [Machine API](https://github.com/openshift/machine-api-operator): Provisioning of nodes. Abstraction mechanism added (API objects to declaratively manage the cluster):
     - Based on [Kubernetes Cluster API project](https://github.com/kubernetes-sigs/cluster-api) Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.
     - Provides a new set of machine resources:
         - Machine
@@ -361,7 +361,7 @@
 - The hierarchy of operators, with clusterversion at the top, is the single door for configuration changes and is responsible for reconciling the system to the desired state.
 - For example, if you break a critical cluster resource directly, the system automatically recovers itself. 
 - Similarly to cluster maintenance, [operator framework](https://www.redhat.com/en/blog/introducing-operator-framework-building-apps-kubernetes) used for applications. As a user, you get SDK, [OLM](https://docs.openshift.com/container-platform/4.4/operators/understanding_olm/olm-understanding-olm.html) (Lifecycle Manager of all Operators and their associated services running across their clusters) and embedded [operator hub](https://www.redhat.com/en/blog/new-kubernetes-operatorhub-red-hat-openshift-enable-hybrid-cloud-flexibility-enterprises).
-- [OLM Arquitecture](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md)
+- [OLM Arquitecture](https://github.com/operator-framework/operator-lifecycle-manager)
 - [Adding Operators to a Cluster](https://docs.openshift.com/container-platform/4.4/operators/olm-adding-operators-to-cluster.html) (They can be added via **CatalogSource**)
 - The supported method of using **Helm charts** with Openshift is via the [Helm Operator](https://www.openshift.com/blog/build-kubernetes-operators-from-helm-charts-in-5-steps)
 - [twitter.com/operatorhubio](https://twitter.com/operatorhubio)
@@ -516,7 +516,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Knative Eventing (Camel-K, Kafka, Cron, etc)
 - Integration with Openshift ServiceMesh, Logging, Monitoring.
 - [openshift.com/learn/topics/serverless](https://www.openshift.com/learn/topics/serverless)
-- [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)
+- [redhat-developer-demos.github.io/knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial)
 
 ### Monitoring and Observability
 
@@ -634,8 +634,8 @@ oc login
 
 ## OpenShift 4 Roadmap
 
-    - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
-    - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
+    - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes)
+    - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes)
 
 ## Kubevirt Virtual Machine Management on Kubernetes
 
@@ -738,9 +738,9 @@ oc login
 
 - [OKD.io:](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
 - [docs.okd.io 🌟](https://docs.okd.io/)
-- [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
+- [GitHub: OKD4](https://github.com/openshift/okd)
 - [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
-- [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md)
+- [github.com: OKD 4 Roadmap](https://github.com/openshift/community)
 - [youtube.com: How To Install OKD4 on GCP - Vadim Rutkovsky (Red Hat)](https://www.youtube.com/watch?v=2UwQD0diUxk)
 - [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://blog.openshift.com/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab/)
 - [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup/) Installing OKD4.X with User Provisioned Infrastructure. Libvirt, iPXE, and FCOS
@@ -780,8 +780,8 @@ oc login
 ## Operators in OCP 4
 
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/)
-    - [OLM Architecture 🌟](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md)
-    - [OLM Philosophy](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/philosophy.md)
+    - [OLM Architecture 🌟](https://github.com/operator-framework/operator-lifecycle-manager)
+    - [OLM Philosophy](https://github.com/operator-framework/operator-lifecycle-manager)
     - [developers.redhat.com: OpenShift Commons Briefing: Operator Lifecycle Management (video)](https://developers.redhat.com/openshift-commons/Operator-Lifecycle-Management)
 - [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
 - [operatorhub.io](https://operatorhub.io/)
