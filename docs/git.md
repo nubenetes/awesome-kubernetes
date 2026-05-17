@@ -333,7 +333,7 @@ It prescribes that software designers should define formal, precise and verifiab
 - [medium.com: Gitflow — Branch Guide](https://medium.com/@rafavinnce/gitflow-branch-guide-8a523360c053)
 - [medium.com: Git Flow for Beginners](https://medium.com/@thibault60000/git-flow-for-beginners-d7a152b2c1f9)
 - [medium.com: What is GitFlow?](https://medium.com/@okandavut/what-is-gitflow-c0be7a659992)
-- [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
+- [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://github.com/jamesmgreene/cdd0ac49f90c987e45ac)
 - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 - [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches/)
 
@@ -390,7 +390,7 @@ It prescribes that software designers should define formal, precise and verifiab
 git log --oneline --all --graph --decorate
 ```
 
-- [Removing the last commit](https://gist.github.com/CrookedNumber/8964442):
+- [Removing the last commit](https://github.com/crookednumber/8964442):
 
 ```bash
 git reset --hard HEAD^
@@ -552,9 +552,9 @@ git rebase -i HEAD~5
 - [freecodecamp.org: How to Fork a GitHub Repository – A Complete Workflow](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/)
 - [==levelup.gitconnected.com: GitHub may replace DockerHub==](https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01)
 - [==github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering for Researchers== 🌟](https://github.com/Lightning-AI/engineering-class) **This repository contains additional materials and show notes for the Lightning Bits: Engineering for Researchers video series.**
-    - [github.com/Lightning-AI/engineering-class: Episode 8: Creating a Pull Request on GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep08-github-pr/Ep08-ShowNotes.md)
-    - [github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with Pull Requests using GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/Ep09-ShowNotes.md#syncing-forks-with-upstream)
-- [github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟](https://github.com/marketplace/actions/aws-secrets-manager-github-action)
+    - [github.com/Lightning-AI/engineering-class: Episode 8: Creating a Pull Request on GitHub](https://github.com/lightning-ai/engineering-class)
+    - [github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with Pull Requests using GitHub](https://github.com/lightning-ai/engineering-class#syncing-forks-with-upstream)
+- [github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟](https://github.com/marketplace/actions)
 - [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option/)
 - [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
 - [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l)
@@ -632,7 +632,7 @@ git rebase -i HEAD~5
 
 #### GitHub Actions Marketplace
 
-- [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data.
+- [flat-data](https://github.com/marketplace/actions) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data.
 
 ### GitHub Actions and OpenShift
 
@@ -804,14 +804,14 @@ Automate them.
 - [Bulldozer: GitHub Pull Request Auto-Merge Bot](https://github.com/palantir/bulldozer)
 - [github-merge-bot](https://github.com/depop/github-merge-bot) Automates the process of merging pull requests and keeping them up-to-date.
 - [github.com/squalrus/merge-bot: PR Merge Bot](https://github.com/squalrus/merge-bot) A GitHub action that manages pull request integrations
-- [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot)
+- [Odoo Mergebot](https://github.com/odoo/odoo)
 - [gmaster.io - Mergedroid: Automate merging just by analyzing your GitHub repo.](https://gmaster.io/mergedroid) A BOT that solves conflicts in pull requests without manual intervention.
 - [Kodiak](https://kodiakhq.com/) GitHub bot for updating and merging pull requests
 - [Rultor](http://www.rultor.com/) A merging bot for Github pull requests
     - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
-    - [help.github.com: Configuring protected branches](https://help.github.com/en/github)
-    - [help.github.com: Enabling required status checks:](https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks)
+    - [help.github.com: Configuring protected branches](https://github.com/en/github)
+    - [help.github.com: Enabling required status checks:](https://github.com/en/github)
         - Select Require status checks to pass before merging
         - Choose (create) a status check, that always fails
 
