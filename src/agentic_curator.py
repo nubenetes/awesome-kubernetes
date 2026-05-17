@@ -7,7 +7,7 @@ import yaml
 import hashlib
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple
-from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ
+from src.config import GH_TOKEN, TARGET_REPO, GEMINI_API_KEY, NUBENETES_CATEGORIES, MADRID_TZ, INVENTORY_PATH
 from src.gitops_manager import RepositoryController
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text
 from src.logger import log_event
@@ -185,8 +185,6 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             log_event(f"  [!] Batch AI Error: {e}")
             
     return evaluations
-
-INVENTORY_PATH = "data/inventory.yaml"
 
 class AgenticCurator:
     def __init__(self):

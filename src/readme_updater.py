@@ -3,9 +3,9 @@ import re
 import subprocess
 import yaml
 from datetime import datetime
+from src.config import INVENTORY_PATH
 
 # Unified Path Config
-INVENTORY_PATH = "data/inventory.yaml"
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 

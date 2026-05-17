@@ -4,8 +4,8 @@ import re
 from datetime import datetime
 from src.logger import log_event
 from src.gemini_utils import normalize_url
+from src.config import INVENTORY_PATH
 
-INVENTORY_PATH = "data/inventory.yaml"
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 SPECIAL_ASSETS_PATH = "data/special_assets.yaml"

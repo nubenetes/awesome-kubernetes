@@ -38,6 +38,9 @@ GEMINI_API_VERSION = "v1beta"
 
 TARGET_REPO = "nubenetes/awesome-kubernetes"
 
+# Single Source of Truth for Database Location
+INVENTORY_PATH = "data/inventory.yaml"
+
 NUBENETES_CATEGORIES = [
     'ChromeDevTools', 'GoogleCloudPlatform', 'about', 'ai-agents-mcp', 'ai', 'angular', 
     'ansible', 'api', 'appointment-scheduling', 'argo', 'aws-architecture', 'aws-backup', 
