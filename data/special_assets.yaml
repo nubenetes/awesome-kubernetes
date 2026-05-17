@@ -14,7 +14,12 @@ special_assets:
 
   - file: "introduction.md"
     v1_rule: "Semantic clustering: Group by technical sub-topics. Preserve 100% of links."
-    v2_rule: "Elite curated selection (Impact >= 4). EXTRACT all Microservices-related links into a new dedicated V2 document: 'microservices.md'."
+    v2_rule: |
+      - Executive Preface: Generate a 'Vision 2026' paragraph.
+      - Flowchart Rule: Include a Mermaid diagram of the Nubenetes ecosystem pillars.
+      - Gold Nugget Highlights: Visually feature top-impact (>=4) resources in callout blocks.
+      - Microservices Link: Explicitly link to the new 'microservices.md'.
+      - Gateway Hub: Add a 'Navigation Paths' section to guide users to dimensions.
     keywords: ["introduction", "getting started", "fundamentals", "microservices"]
 
 # Navigation Renaming

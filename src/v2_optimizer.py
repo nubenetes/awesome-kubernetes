@@ -624,7 +624,7 @@ class V2VisionEngine:
             md = f"# {dim}\n\n"
             md += f"!!! info \"Architectural Context\"\n    {content['summary']}\n\n"
 
-            # --- Table of Contents for the Page ---
+            # --- Table of Contents ---
             md += "## Table of Contents\n"
             for cat, topics in content["categories"].items():
                 cat_slug = cat.lower().replace(" ", "-")
@@ -638,6 +638,30 @@ class V2VisionEngine:
                 cat_slug = cat.lower().replace(" ", "-")
                 md += f"## {cat}\n\n"
 
+                # --- PREMIUM: Introduction Hub Features ---
+                if cat == "Introduction":
+                    md += "!!! quote \"Vision 2026\"\n"
+                    md += "    Kubernetes has evolved into the distributed kernel of the modern cloud. In 2026, the focus shifts from "
+                    md += "    cluster management to agentic autonomy, intelligent control planes, and hardened security-by-default.\n\n"
+
+                    md += "### Ecosystem Map\n"
+                    md += "```mermaid\ngraph TD\n"
+                    md += "    A[Architectural Foundations] --> B[AI and Artificial Intelligence]\n"
+                    md += "    A --> C[Hardened Infrastructure]\n"
+                    md += "    B --> D[Agentic Curation]\n"
+                    md += "    C --> E[Enterprise Stability]\n"
+                    md += "    D --> F[Nubenetes Portal]\n"
+                    md += "    E --> F\n```\n\n"
+
+                    md += "!!! abstract \"🌟 Gold Nugget: Foundational Masterclasses\"\n"
+                    md += "    High-impact resources essential for every Cloud Native journey.\n\n"
+
+                    md += "### Navigation Paths (Gateway Hub)\n"
+                    md += "- 🚀 [Explore AI Dimensions](./ai-and-artificial-intelligence.md)\n"
+                    md += "- 🛠️ [Engineering Pipelines](./engineering-pipeline.md)\n"
+                    md += "- 🛡️ [Hardened Infrastructure](./hardened-infrastructure.md)\n"
+                    md += "- 📦 [Microservices Guide (Extracted)](./microservices.md)\n\n"
+
                 for topic, subtopics in topics.items():
                     topic_slug = f"{cat_slug}-{topic.lower().replace(' ', '-')}"
                     md += f"### {topic}\n\n"
@@ -647,11 +671,13 @@ class V2VisionEngine:
                             md += f"#### {subtopic}\n"
 
                         for l in links:
+                            # --- GOLD NUGGET: Special highlighting for Introduction gems ---
+                            is_gold = cat == "Introduction" and l.get("stars", 0) >= 4
+
                             year, stars_val = l.get("year", "N/A"), l.get("stars", 0)
                             stars = ("🌟" * stars_val) if stars_val > 0 else ""
                             tag = l.get("tag", "[ENTERPRISE-STABLE]")
 
-                            # Color mapping
                             if "STANDARD" in tag or "FOUNDATIONAL" in tag: color = "success"
                             elif "EMERGING" in tag: color = "warning"
                             elif "LEGACY" in tag: color = "critical"
@@ -661,34 +687,33 @@ class V2VisionEngine:
                             title_clean = l['title'].replace("==", "")
                             title_display = f"**=={title_clean}==**" if stars_val >= 3 else title_clean
 
-                            year_prefix = f"**({year})** " if year and year != "N/A" else ""
-                            gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
-                            icon = " 🎥" if l.get("is_video") else ""
+                            if is_gold:
+                                md += f"!!! note \"{title_clean}\"\n"
+                                md += f"    **[Access Resource]({l['url']})** {stars} | Level: {l.get('complexity', 'Beginner')}\n"
+                                md += f"    \n    {l['description']}\n\n"
+                            else:
+                                year_prefix = f"**({year})** " if year and year != "N/A" else ""
+                                gh_info = f" <span class='md-tag md-tag--info'>⭐ {l['gh_stars']}</span>" if "gh_stars" in l else ""
+                                icon = " 🎥" if l.get("is_video") else ""
+                                lang = l.get("language", "English")
+                                lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
+                                complexity = l.get("complexity", "Intermediate")
+                                level_tag = f" <span class='md-tag md-tag--critical'>[{complexity.upper()} LEVEL]</span>" if complexity.lower() in ["architect", "advanced"] else ""
+                                res_type = l.get("resource_type", "Reference")
+                                type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
+                                rich_tags = ""
+                                if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
+                                if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
+                                if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
 
-                            lang = l.get("language", "English")
-                            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
-
-                            complexity = l.get("complexity", "Intermediate")
-                            level_tag = f" <span class='md-tag md-tag--critical'>[{complexity.upper()} LEVEL]</span>" if complexity.lower() in ["architect", "advanced"] else ""
-
-                            res_type = l.get("resource_type", "Reference")
-                            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
-
-                            # Rich Metadata
-                            rich_tags = ""
-                            if l.get("author"): rich_tags += f" <small>by **{l['author']}**</small>"
-                            if l.get("duration"): rich_tags += f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>"
-                            if l.get("reading_time"): rich_tags += f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>"
-
-                            md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
-                            if l['description']:
-                                desc = l['description']
-                                md += f"\n      {desc}\n\n"
+                                md += f"  - {year_prefix}[{title_display}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich_tags} {stars} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
+                                if l['description']:
+                                    desc = l['description']
+                                    md += f"\n      {desc}\n\n"
                         md += "\n"
                 md += "\n"
 
             with open(os.path.join(V2_DIR, f"{slug}.md"), "w") as f: f.write(md)
-
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()

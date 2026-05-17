@@ -683,6 +683,9 @@ Certain files are designated as **Special Assets** (defined in [`data/special_as
 2. **Elite Curation**: For the V2 Portal, `introduction.md` undergoes a specialized "Elite selection" (Impact ≥ 4) to ensure a high-density entry point for global users.
 
 ### 🎓 O'Reilly-style Knowledge Architecture
-The V2 Portal is structured as a sophisticated technical reference guide. Resources are programmatically classified and grouped by technical topics and subtopics, transforming the portal into a structured educational journey for Cloud Native engineering.
-- **Structured Assimilation**: Information is ordered sections-by-section to facilitate learning from foundational theory to advanced implementation.
-- **Contextual Hierarchy**: Every page features a clickable Table of Contents (TOC) with nested anchors for precise navigation across all technical sub-domains.
+The V2 Portal is structured as a sophisticated technical reference guide, moving beyond simple lists to an integrated technical hub.
+- **Architectural Hubs**: Critical entry points like `introduction.md` feature **Mermaid ecosystem maps** and executive vision prefaces.
+- **Gold Nugget Highlights**: Legendary foundational masterclasses (Impact ≥ 4) are featured in distinct visual callout blocks for immediate identification.
+- **Gateway Hub Navigation**: Strategic dimensions are semantically interconnected, with a dedicated **Microservices Guide** extracted for high-density focus.
+- **Structured Assimilation**: Information is grouped into technical Areas, Topics, and Subtopics, facilitating learning from foundational theory to advanced engineering internals.
+- **Contextual Hierarchy**: Every page features an automated, clickable Table of Contents (TOC) with nested anchors for precise technical navigation.
