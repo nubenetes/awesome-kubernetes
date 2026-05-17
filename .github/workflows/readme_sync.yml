@@ -24,6 +24,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml pytz
+
       - name: Execute README Metric Updater
         run: |
           python src/readme_updater.py
