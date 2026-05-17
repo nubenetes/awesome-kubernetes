@@ -153,31 +153,53 @@ class IntelligentLinkCleaner:
         log_event("APPLYING CLEANING CHANGES & PR GENERATION...", section_break=True)
         file_updates = {}
         
+        # 1. Prepare file updates for dead/canonical links
         for url, (fallback, reason) in self.dead_links.items():
-            for occ in self.link_registry.get(normalize_url(url), []):
-                file_path = occ["file"]
-                if file_path not in file_updates: file_updates[file_path] = open(file_path, "r").readlines()
+            nu = normalize_url(url)
+            # Use v1_locations from inventory if available, fallback to registry
+            paths = self.inventory.get(nu, {}).get("v1_locations", [])
+            if not paths:
+                paths = [occ["file"] for occ in self.link_registry.get(nu, [])]
+            
+            for path in set(paths):
+                if not os.path.exists(path): continue
+                if path not in file_updates: 
+                    file_updates[path] = open(path, "r").readlines()
                 
-                if fallback and fallback.startswith("CANONICAL:"):
-                    new_url = fallback.replace("CANONICAL:", "")
-                    file_updates[file_path][occ["line_index"]] = file_updates[file_path][occ["line_index"]].replace(url, new_url)
-                else:
-                    file_updates[file_path][occ["line_index"]] = None # Mark for deletion
+                # Perform surgical replacement line-by-line
+                for i, line in enumerate(file_updates[path]):
+                    if url in line:
+                        if fallback and fallback.startswith("CANONICAL:"):
+                            new_url = fallback.replace("CANONICAL:", "")
+                            log_event(f"  [FIX] Redirect: {url} -> {new_url} in {path}")
+                            file_updates[path][i] = line.replace(url, new_url)
+                        else:
+                            log_event(f"  [DEL] Dead Link: {url} in {path}")
+                            file_updates[path][i] = None # Mark line for removal
 
-        # Final Payload
+        # 2. Final Payload Construction
         final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
+        
+        # 3. Database Maintenance (GC & Persistence)
         await self.prune_orphaned_metadata()
         self._save_inventory()
         final_payload[INVENTORY_PATH] = yaml.dump(self.inventory, sort_keys=False, allow_unicode=True)
 
-        # Safety & Audit
+        # 4. Safety Audit & Non-Blocking PR
         from src.safety_guard import SafetyGuard
         guard = SafetyGuard()
         safety_report = guard.generate_audit_report()
         
         if final_payload:
-            metrics = {"total_extracted": len(self.link_registry), "full_report": self.action_log}
+            metrics = {
+                "total_extracted": len(self.link_registry),
+                "full_report": self.action_log,
+                "deleted_dead": len([v for v in self.dead_links.values() if v[0] is None]),
+                "fixed_redirects": len([v for v in self.dead_links.values() if v[0] and "CANONICAL" in v[0]])
+            }
             self.git_controller.apply_multi_file_changes(final_payload, metrics, safety_report=safety_report)
+        else:
+            log_event("  [INFO] No files required cleaning in this cycle.")
 
     async def prune_orphaned_metadata(self):
         valid_map = {}
