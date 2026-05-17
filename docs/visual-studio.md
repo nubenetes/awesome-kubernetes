@@ -32,58 +32,58 @@
 
 - [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/)
 - [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com/) Bring your workflows closer to your code. Learn how Visual Studio Code and GitHub are better together.
-- [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
+- [Visual Studio Online](https://github.com/features/codespaces//)
 - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
-- [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+- [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
 - [kite: Code Faster with AI Autocomplete](https://kite.com/)
 - [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)
 - [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers/)
-- [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help/)
-- [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)
-- [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code/)
+- [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help//)
+- [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)
+- [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code//)
 - [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/)
 - [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx)
-- [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code)
+- [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code/)
 - [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode)
-- [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)
-- [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)
-- [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) Remember all those times you’ve wanted to manage a pull request but didn’t want to leave VS Code? Now they’re in the past. Create and manage them with the GitHub Pull Requests Extension.
+- [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)
+- [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://guide.sst.dev/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)
+- [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/news-insights/product-news/create-pull-requests-in-vscode//) Remember all those times you’ve wanted to manage a pull request but didn’t want to leave VS Code? Now they’re in the past. Create and manage them with the GitHub Pull Requests Extension.
 - [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc)
 - [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/)
 - In code 1.61.0, you can get a colorized bracket pair guide, just enable it by setting:
     - `"editor.guides.bracketPairs": true`
 - [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
 - **Zen Mode:** Per user requests, we have added Zen Mode to VS Code. Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Sidebar and Panel) and going to full screen. Zen mode can be toggled using the View menu, Command Palette or by the shortcut Ctrl+K Z.
-- [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
-- [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal)
-- [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi)
+- [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python//)
+- [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal/)
+- [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi)
 - [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea) An overview to clone a repository, push changes, and make pull requests in VS code
-- [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-snippets-5041)
+- [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041)
 - [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)
 - [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) These shortcuts make the lives of developers easier.
 - [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) Use PlantUML directly in the Visual Studio Code
 - [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/)
 - [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)
 - [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279)
-- [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant/)
+- [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant//)
 - [==developers.redhat.com: Remote container development with VS Code and Podman== 🌟](https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman)
-- [==visualstudio.microsoft.com/services/live-share: Visual Studio Live Share== 🌟](https://visualstudio.microsoft.com/services/live-share/) Real-time collaborative development
+- [==visualstudio.microsoft.com/services/live-share: Visual Studio Live Share== 🌟](https://visualstudio.microsoft.com/services/live-share//) Real-time collaborative development
 - [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode/)
 - [gijsreijn.medium.com: Optimizing Your DSC V3 Authoring Experience in VSCode](https://gijsreijn.medium.com/optimizing-your-dsc-v3-authoring-experience-in-vscode-bd8e90c52312)
 
 ## Updates
 
-- [VSCode Updates](https://code.visualstudio.com/updates)
-- [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_46#_flexible-layout)
+- [VSCode Updates](https://code.visualstudio.com/updates/v1_120)
+- [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46#_flexible-layout)
 
 ## Keyboard shortcuts
 
 - [code.visualstudio.com: keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [code.visualstudio.com: keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
-    - [support.apple.com: Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
-    - [9to5mac.com: How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
-    - [addictivetips.com: How to remap a Windows keyboard for a Mac](https://www.addictivetips.com/mac-os/remap-a-windows-keyboard-for-a-mac/)
+    - [support.apple.com: Mac keyboard shortcuts](https://support.apple.com/en-us/102650)
+    - [9to5mac.com: How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout//)
+    - [addictivetips.com: How to remap a Windows keyboard for a Mac](https://www.addictivetips.com/mac-os/remap-a-windows-keyboard-for-a-mac//)
 - [code.visualstudio.com: keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## Visual Studio MarketPlace and Extensions
@@ -101,7 +101,7 @@
 ### Extensions
 
 - [GitLens 🌟](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) Git supercharged
-    - [GitLens interactive rebase](https://github.com/eamodio/vscode-gitlens#interactive-rebase-editor-)
+    - [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
@@ -117,9 +117,9 @@ A simple extension to make indentation more readable
 - [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 - [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) SVG Coding, Minify, Pretty, Preview All-In-One.
 - [Python Visual Studio Code](https://github.com/microsoft/vscode-python)
-    - [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
-    - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
-    - [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release/)
+    - [twitter.com/pythonvscode](https://x.com/pythonvscode)
+    - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release//)
+    - [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release//)
 - [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64) Yes, there’s more than GitLens!
 - [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt) The best engineering teams I’ve talked to use the right tools to continuously refactor code, improve their codebase communication, and address technical debt.
 - [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb)
@@ -139,7 +139,7 @@ A simple extension to make indentation more readable
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) Improve highlighting of errors, warnings and other language diagnostics.
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) Makes it easy to create, manage, and debug containerized applications.
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) Support for [DotENV](https://github.com/zaynali53/DotENV) file syntax
-- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) Use Facebook's [Jest](https://github.com/facebook/jest), a delightful JavaScript Testing Framework.
+- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) Use Facebook's [Jest](https://github.com/jestjs/jest), a delightful JavaScript Testing Framework.
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) This extension integrates Draw.io into VS Code.
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) Automating the process of writing meaningful log messages.
@@ -150,18 +150,18 @@ A simple extension to make indentation more readable
 - [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) New VS Code extension for working with Azure Resource Manager (ARM) templates that will make your life much easier.
 - [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code/)
     - [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
-- [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/2020/11/30/vscode-extension-development-with-gitlab/) As VS Code editor increases in popularity, find out how GitLab + VS Code can be used for extension development and how we develop the official GitLab VS Code extension.
+- [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/vscode-extension-development-with-gitlab//) As VS Code editor increases in popularity, find out how GitLab + VS Code can be used for extension development and how we develop the official GitLab VS Code extension.
 - [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity/)
-- [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dsteenman.cloudformation-yaml-snippets) Adds autocompletion for all AWS CloudFormation resources. The snippets are updated automatically every week by fetching the data from the official AWS CloudFormation resource specification.
+- [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets) Adds autocompletion for all AWS CloudFormation resources. The snippets are updated automatically every week by fetching the data from the official AWS CloudFormation resource specification.
     - [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code)
-- [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions)
+- [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions)
 - [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) Save files into local history
 - [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) You can now browse or even make edits to any GitHub repo straight from code, instantly WITHOUT having to pull the source down first.
-- [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) With Bridge to Kubernetes, the only thing you need to run and debug on your development machine is the microservice you're working on and your preferred dev tools. - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge 🌟](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/) Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.
+- [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) With Bridge to Kubernetes, the only thing you need to run and debug on your development machine is the microservice you're working on and your preferred dev tools. - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge 🌟](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge//) Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.
 - [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes) Learn how to create a Kubernetes cluster, write a K8s manifest file (YAML), which tells K8s everything it needs to know about app, and finally deploy the app to the K8s cluster.
 - [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) Browse and edit code from Github without cloning. You can even review PRs!. The GitHub Repositories extension lets you quickly browse, search, edit, and commit to any remote GitHub repository directly from within Visual Studio Code, with support for Azure repos coming soon.
-- [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
-- [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension/)
+- [Azure/vscode-kubernetes-tools 🌟](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
+- [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension//)
 - [prisma.io: Improving the Prisma Visual Studio Code Extension with WebAssembly 🌟](https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly) Prisma helps app developers build faster and make fewer errors with an open source database toolkit for PostgreSQL, MySQL, SQL Server, and SQLite. Central to Prisma is the schema - __a declarative way to define your app's data models and their relations that's human-readable__. And you don't have to painstakingly create it from scratch if you already have a database - prisma introspect takes care of that.
 - [==IAM Legend==](https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend) IAM policy actions autocomplete, documentation & wildcard resolution. Supports Serverless Framework, AWS SAM, CloudFormation and Terraform.
 - [GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub) Extend VS Code with real-time collaborative superpowers
@@ -180,14 +180,14 @@ A simple extension to make indentation more readable
 
 - [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
-- [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/unleashing-github-copilot-for-infrastructure-as-code/ba-p/4124031)
+- [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031)
 
 #### More Extensions (Blogs)
 
 - [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
 - [blog.logrocket.com: Top 10 VS Code extensions for 2021](https://blog.logrocket.com/top-10-vs-code-extensions-2021/)
-- [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) - [thunderclient.io 🌟](https://www.thunderclient.io) Hand-crafted lightweight Rest Client for Testing APIs (postman alternative) - [youtube: I Don't Need Postman Anymore!! I Use VS Code Instead...](https://www.youtube.com/watch?v=AbCTlemwZ1k&ab_channel=JamesQQuick)
-- [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git/)
+- [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) - [thunderclient.io 🌟](https://thunderclient.io/) Hand-crafted lightweight Rest Client for Testing APIs (postman alternative) - [youtube: I Don't Need Postman Anymore!! I Use VS Code Instead...](https://www.youtube.com/watch?v=AbCTlemwZ1k&ab_channel=JamesQQuick)
+- [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git//)
 - [dev.to: VS Code extensions to increase your Productivity](https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb)
 - [dev.to: Top 5 Best Git Extensions For VS Code (You must have)](https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6)
 
@@ -205,15 +205,15 @@ A simple extension to make indentation more readable
 #### DevOps Extensions
 
 - [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
-- [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow)
+- [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow)
 - [Kubernetes (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) Develop, deploy and debug Kubernetes applications
 - [Kubernetes Kind (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode)
 - [Docker (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-- [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) Syntax highlighting, linting, formatting, and validation for Hashicorp's Terraform
+- [Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform) Syntax highlighting, linting, formatting, and validation for Hashicorp's Terraform
     - [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/)
     - [Announcing the Terraform Visual Studio Code Extension v2.0.0](https://www.hashicorp.com/blog/announcing-the-terraform-visual-studio-code-extension-v2-0-0/)
 - [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
-    - [Introducing MongoDB for VS Code](https://www.mongodb.com/blog/post/introducing-mongodb-for-vs-code)
+    - [Introducing MongoDB for VS Code](https://www.mongodb.com/company/blog/product-release-announcements/introducing-mongodb-for-vs-code)
 
 #### Azure DevOps Extensions
 
@@ -237,7 +237,7 @@ A simple extension to make indentation more readable
 
 ## Integrated Terminal on Visual Studio Code
 
-- [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
+- [Integrated Terminal](https://code.visualstudio.com/docs/terminal/basics)
 - This is an example of Visual Studio Code settings when adding Git Bash on Windows:
 
 ```pwsh
@@ -255,14 +255,14 @@ A simple extension to make indentation more readable
 ## Python in Visual Studio Code
   - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler) 🌟 - This document introduces Data Wrangler, a code-centric data viewing and cleaning tool integrated into Visual Studio Code and VS Code Jupyter Notebooks. It offers a rich UI for data analysis, column statistics, visualizations, and automatically generates Pandas code for data cleaning and transformation, which can then be exported back to the notebook.
 
-- [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
-- [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/)
-- [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/)
+- [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release//)
+- [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release//)
+- [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code//)
 
 ## Go in Visual Studio Code
 
 - [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md)
-- [blog.golang.org: Gopls on by default in the VS Code Go extension](https://blog.golang.org/gopls-vscode-go)
+- [blog.golang.org: Gopls on by default in the VS Code Go extension](https://go.dev/blog/gopls-vscode-go)
 
 ## Bridge to Kubernetes
 
@@ -271,7 +271,7 @@ A simple extension to make indentation more readable
 
 ## AWS Toolkits
 
-- [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
+- [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code//)
 
 ## Cloud Code
 
@@ -279,15 +279,15 @@ A simple extension to make indentation more readable
 
 ## Alternatives
 
-- [Repl.it](https://repl.it/) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.
-- [==Gitpod Open Sources a ‘Holistic IDE’==](https://thenewstack.io/gitpod-open-sources-a-holistic-ide/)
-    - [thenewstack.io: Gitpod Brings Automated Environments to JetBrains IDEs](https://thenewstack.io/gitpod-brings-automated-environments-to-jetbrains-ides/)
+- [Repl.it](https://replit.com//) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.
+- [==Gitpod Open Sources a ‘Holistic IDE’==](https://thenewstack.io/gitpod-open-sources-a-holistic-ide//)
+    - [thenewstack.io: Gitpod Brings Automated Environments to JetBrains IDEs](https://thenewstack.io/gitpod-brings-automated-environments-to-jetbrains-ides//)
 - [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools/) In this article, you will learn what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
-- [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.openshift.com/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
+- [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
 - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps.
-- [==Fleet==](https://www.jetbrains.com/fleet/) Next-generation IDE by JetBrains
-    - [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains/)
-- [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering/)
+- [==Fleet==](https://www.jetbrains.com/fleet//) Next-generation IDE by JetBrains
+    - [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains//)
+- [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering//)
 
 ### Intellij IDEA
 
@@ -296,15 +296,15 @@ A simple extension to make indentation more readable
 
 ### Online VSCode
 
-- [github.dev](https://github.dev)
-- [==gitpod.io== 🌟🌟](https://www.gitpod.io/) - [github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) Gitpod automates the provisioning of ready-to-code development environments. Gitpod is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser. Tightly integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result, team members can instantly start coding with fresh, ephemeral and fully-compiled dev environments - no matter if you are building a new feature, want to fix a bug or do a code review.
-    - [gitpod.io: VS Code in the browser for everyone](https://www.gitpod.io/blog/openvscode-server-launch)
-    - [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser/)
+- [github.dev](https://github.dev/github/dev)
+- [==gitpod.io== 🌟🌟](https://ona.com/) - [github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) Gitpod automates the provisioning of ready-to-code development environments. Gitpod is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser. Tightly integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result, team members can instantly start coding with fresh, ephemeral and fully-compiled dev environments - no matter if you are building a new feature, want to fix a bug or do a code review.
+    - [gitpod.io: VS Code in the browser for everyone](https://ona.com/blog/openvscode-server-launch)
+    - [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser//)
 - [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
 - [vscode.dev 🌟](https://vscode.dev/)
     - [code.visualstudio.com: vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev?WT.mc_id=devcloud-46480-cxa)
     - [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro)
-    - [css-tricks.com: The Many Faces of VS Code in the Browser](https://css-tricks.com/the-many-faces-of-vs-code-in-the-browser/)
+    - [css-tricks.com: The Many Faces of VS Code in the Browser](https://css-tricks.com/the-many-faces-of-vs-code-in-the-browser//)
 
 ## Youtube Shorts
 
@@ -324,7 +324,7 @@ A simple extension to make indentation more readable
 - [Extension of the week: Thunder Client](https://www.youtube.com/shorts/X3wgBid4gO8)
 - [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4)
 - [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI)
-- [Extensión de Visual Studio Code que genera tests y mejora tu código](https://youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)
+- [Extensión de Visual Studio Code que genera tests y mejora tu código](https://www.youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)
 - [Create diagrams in vscode](https://www.youtube.com/shorts/0N-NFIfy5lI)
 - [Copilot writing Markdown](https://www.youtube.com/shorts/70voiUcMk_I)
 - [Change your Java versions in VS Code!](https://www.youtube.com/shorts/p-H7Q9PtSc8)
@@ -339,11 +339,11 @@ A simple extension to make indentation more readable
 - [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk)
 - [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s)
 - [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4)
-- [New VS Code Release Highlights v1.86](https://youtube.com/shorts/bVlIo4H0IDU)
-- [File Icon Theme](https://youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8)
-- [Learn with Copilot](https://youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)
-- [Visualize your git repo in vscode with Git Graph extensions](https://youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)
-- [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)
+- [New VS Code Release Highlights v1.86](https://www.youtube.com/shorts/bVlIo4H0IDU)
+- [File Icon Theme](https://www.youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8)
+- [Learn with Copilot](https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)
+- [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)
+- [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)
 - [Screencast mode](https://www.youtube.com/shorts/KZHI5RMmFk0)
 
 ## Videos
