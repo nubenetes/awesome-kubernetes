@@ -34,11 +34,11 @@ in your Bitbucket repositories
 - [hub.helm.sh/charts/oteemo/sonarqube](https://hub.helm.sh/charts/oteemo/sonarqube)
 - [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ)
     - [github ref1](https://github.com/gudpick/pods)
-    - [github ref2](https://github.com/gudpick/pods/tree/master/sonar-latest)
+    - [github ref2](https://github.com/gudpick/pods)
 
 ### GCP Kubernetes
 
-- [click-to-deploy/sonarqube](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube)
+- [click-to-deploy/sonarqube](https://github.com/googlecloudplatform/click-to-deploy)
 
 ## SonarQube Scanners
 
