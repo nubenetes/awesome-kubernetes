@@ -31,7 +31,7 @@
 - [markdownguide.org](https://www.markdownguide.org/)
     - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
 - [guides.github.com: Markdown Cheat Sheet 2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here)
 - [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09)
 - [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one/) R Markdown is a dynamic file format that allows you to make documents containing normal text alongside chunks of embedded R code.
 - [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)
