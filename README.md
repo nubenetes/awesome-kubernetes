@@ -292,6 +292,16 @@ To maximize economic efficiency, all AI agents follow a **Database-First** appro
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
+- **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using Gemini to identify the resource's new specific path on a destination domain. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **AWS Knowledge Center** move to **repost.aws**).
+
+#### 🕵️ Rescue Observability (Log Example)
+```log
+[19:26:13] [🔍] RESCUE ATTEMPT: 'terrateam.io: Terraform Pre-Commit Hooks' is missing.
+[19:26:13] [🔍] RESCUE ATTEMPT: 'AWS Knowledge Center' is missing.
+[19:26:13] [✨] RESCUED: Found at https://terrateam.io/blog/terraform-pre-commit-hooks
+[19:26:14] [✨] RESCUED: Found at https://repost.aws/knowledge-center
+```
+
 - **Surgical Asset Pruning (V2)**: The V2 generation engine follows a "Zero-Zombie" policy. Instead of aggressive mass deletion, it tracks all valid dimension files and surgically prunes only the orphaned Markdown files in `v2-docs/` that are no longer part of the current architecture.
 - **Incremental Self-Correction**: The engine autonomously identifies "suspicious" resources in the database (e.g., deep technical links that have defaulted to generic homepages). During standard maintenance runs, these links are prioritized for re-validation and the **Universal Rescue Protocol**, allowing the system to repair past precision errors incrementally without requiring a full `FORCE_FULL_CHECK`.
 - **Physical File Synchronization**: During the health check cycle, the engine performs **surgical line-by-line updates** on the V1 Markdown files. Dead links are physically removed, and permanent redirections (301/302) are updated to their **Canonical URLs**, ensuring the repository remains clean and low-latency.
