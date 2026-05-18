@@ -17,6 +17,7 @@ on:
     paths:
       - 'docs/**'
       - 'data/inventory.yaml'
+      - 'src/v2_optimizer.py'
   # Support automated sync after curation or cleaning runs
   workflow_run:
     workflows: ["Nubenetes Automated Agentic Curation", "Nubenetes Intelligent Link Cleaner & Dedup"]
@@ -30,7 +31,7 @@ permissions:
 jobs:
   build-v2-edition:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/develop') || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v4
