@@ -10,7 +10,7 @@
 - [github.com/tektoncd](https://github.com/tektoncd/)
 - [Tekton community](https://github.com/tektoncd/community)
 - [github: Tekton Pipelines](https://github.com/tektoncd/pipeline)
-- [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines//)
+- [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines///)
 - [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)
 - [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
 - [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
@@ -18,7 +18,7 @@
 - [OpenShift Tekton pipelines](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
 - [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines/)
 - [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines/)
-- [Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin//)
+- [Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin///)
 - [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae) In thispost, we’ll discuss the stages through which continuous delivery infrastructure has evolved at Grofers. We’ll start with how we began with Kubernetes and Jenkins and managed itsgrowing adoption. We’ll then discuss why we decided to move from Jenkins to Tekton, how we plan to scale it beyond a few teams, and what kind of challenges we have faced and arecurrently facing.
     - We started with Jenkins shared libs, and wrote common implementation for one group of engineering teams. This worked very well because not only were we able to consolidate and refactor all pipelines at once leading to several optimizations, it also made it easy to understand the CI implementation for all similar services and if we were to add common features and bug fixes it was really easy to push it through a common implementation.
     - There were benefits of doing this, but what was not desirable is that it took us a lot of effort to build these shared libs and despite our efforts to keep them simple, they ended up looking very complicated. Standard pipeline specs had departed from being declarative in nature and there was a lot of imperative Groovy logic mixed with Pipeline DSL.
