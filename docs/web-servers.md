@@ -44,7 +44,7 @@
 
 ### Nginx playground
 
-- [jvns.ca: New tool: an nginx playground](https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground///) It would be cool to have an nginx playground website where you can just paste in an nginx config and test it out. And then I realized it might actually be pretty easy to build, so got excited and started coding and I built it.
+- [jvns.ca: New tool: an nginx playground](https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground////) It would be cool to have an nginx playground website where you can just paste in an nginx config and test it out. And then I realized it might actually be pretty easy to build, so got excited and started coding and I built it.
 - [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com/)
 
 ## HAProxy (HTTP router and reverse proxy)
@@ -52,8 +52,8 @@
 - [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)
 - [haproxy.org](http://www.haproxy.org/)
 - [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)
-- [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux///)
-- [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8///)
+- [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux////)
+- [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8////)
 - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/)
 - [High priority request queue with HAProxy](https://medium.com/swlh/high-priority-request-queue-with-haproxy-9efd639a8992)
 
@@ -62,7 +62,7 @@
 - [Traefik](http://traefik.io/)
 - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)
 - [blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
-- [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh///)
+- [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh////)
 - [medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than Traefik v2?](https://medium.com/beyn-technology/is-nginx-dead-is-traefik-v3-20-faster-than-traefik-v2-f28ffb7eed3e)
 
 ## Skipper (HTTP router and reverse proxy)
