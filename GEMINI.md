@@ -145,14 +145,14 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 To ensure robust rendering across GitHub, VSCode, and MkDocs, follow these standards when creating or modifying Mermaid diagrams:
 
-1.  **Node Label Quoting**: ALWAYS wrap node labels in double quotes (e.g., `A["Label Text"]`) if they contain spaces, special characters (parentheses, brackets, dots), or reserved words. This prevents parse errors in more restrictive environments.
-2.  **Explicit Direction**: Use `graph TD` (Top-Down) for deep hierarchies and `graph LR` (Left-to-Right) for flat process flows to optimize readability and prevent horizontal clipping.
-3.  **Label Length**: Keep labels concise (under 25 characters). If a longer description is needed, use a tooltip or sub-text.
+1.  **Mandatory Node Label Quoting**: ALWAYS wrap node labels in double quotes (e.g., `A["Label Text"]`). This is a hard requirement for all diagrams to ensure robust rendering and prevent truncation or parsing errors across GitHub, VSCode, and MkDocs.
+2.  **Label Length & Multi-line Support**: Keep labels concise (under 25 characters). If a label is longer, you MUST use the HTML `<br/>` tag to force a line break (e.g., `A["Long Label<br/>Split in Two"]`) to prevent horizontal clipping.
+3.  **Explicit Direction**: Use `graph TD` (Top-Down) for deep hierarchies and `graph LR` (Left-to-Right) for flat process flows to optimize readability and prevent horizontal clipping.
 4.  **Syntax Validation**: Before committing, verify the syntax using a Mermaid previewer. Common pitfalls include:
     *   Unescaped brackets `[` or `]` inside labels.
     *   Missing semicolons or newlines between node definitions.
     *   Recursive loops without proper termination.
-5.  **Integration with MkDocs**: Ensure `pymdownx.superfences` is configured in `mkdocs.yml` to support Mermaid blocks within Markdown.
+5.  **No Special Characters in ID**: Node IDs should be simple alphanumeric strings (e.g., `A`, `B`, `START`). Never use spaces or special characters in the ID itself, only in the quoted label.
 
 ## 🛡️ Repository Policies & Branch Protection
 

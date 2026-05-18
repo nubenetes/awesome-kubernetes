@@ -543,7 +543,7 @@ The following flowchart illustrates how autonomous discovery and maintenance tas
 ```mermaid
 graph TD
     subgraph "Phase 1: Knowledge Discovery & Maintenance"
-        A["New Curation Source (X.com, RSS)"] --> B["[1] Agentic Curation"]
+        A["New Curation Source<br/>(X.com, RSS)"] --> B["[1] Agentic Curation"]
         C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
     end
 
@@ -559,7 +559,7 @@ graph TD
     end
 
     subgraph "Phase 4: Production Deployment"
-        G --> H["Manual Review (develop → master)"]
+        G --> H["Manual Review<br/>(develop → master)"]
         H --> I["[6] Production Deploy"]
         I --> J["nubenetes.com"]
     end
