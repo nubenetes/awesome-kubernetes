@@ -179,7 +179,15 @@ class V2VisionEngine:
         try:
             resp = await client.get(url, timeout=10.0)
             if resp.status_code < 400:
-                self.inventory.setdefault(norm_url, {})["status"] = "online"
+                final_url = str(resp.url)
+                from src.gemini_utils import sanitize_trailing_slashes
+                final_url = sanitize_trailing_slashes(final_url)
+                
+                # Update URL if it was redirected/normalized
+                if final_url != url:
+                    link["url"] = final_url
+                
+                self.inventory.setdefault(normalize_url(final_url), {})["status"] = "online"
                 return link
         except: pass
         return None

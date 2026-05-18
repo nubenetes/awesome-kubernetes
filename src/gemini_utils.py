@@ -163,15 +163,8 @@ async def resolve_url(url: str) -> str:
                 final_url, current_hop = new_url, current_hop + 1
             except: break
     
-    # Mandate 34: Prevent multiple trailing slashes
-    if final_url and '://' in final_url:
-        parts = final_url.split('://')
-        if '/' in parts[-1]:
-            final_url = f"{parts[0]}://{re.sub(r'/+$', '/', parts[-1])}"
-        else:
-            final_url = final_url.rstrip('/')
-            
-    return final_url
+    # Mandate 34: Prevent multiple trailing slashes using centralized utility
+    return sanitize_trailing_slashes(final_url)
 
 def clean_toc_text(text: str) -> str:
     """
@@ -187,12 +180,26 @@ def clean_toc_text(text: str) -> str:
     text = re.sub(r'[^\w\s\-.]', '', text)
     return text.strip()
 
+def sanitize_trailing_slashes(url: str) -> str:
+    """
+    Mandate 34: Enforces a 0 or 1 trailing slash policy.
+    Collapses all multiple slashes (e.g., //) into one.
+    """
+    if not url or '://' not in url: return url
+    parts = url.split('://', 1)
+    # Collapse all multiple slashes in domain and path to one
+    parts[1] = re.sub(r'/{2,}', '/', parts[1])
+    return f"{parts[0]}://{parts[1]}"
+
 def normalize_url(url: str) -> str:
     """
     Normalización de URLs de alta precisión para Nubenetes.
     Preserva anclajes de línea (#L) y evita forzar minúsculas en rutas profundas.
     """
     if not url: return ""
+    
+    # 0. Mandate 34: Cleanup redundant slashes first
+    url = sanitize_trailing_slashes(url)
     
     # 1. Separar fragmento (pero preservar si es técnico como #L123)
     fragment = ""
@@ -202,6 +209,7 @@ def normalize_url(url: str) -> str:
     
     # 2. Limpiar parámetros de tracking social (UTM, etc.)
     url = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+|fbclid=[^&]+)', '', url)
+    # Mandate 34: Remove all trailing slashes and question marks for internal canonical comparison
     url = url.rstrip("/").rstrip("?")
     
     # 3. Normalizar protocolo y dominio (Case Insensitive)

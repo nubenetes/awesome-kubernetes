@@ -12,7 +12,7 @@ from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
 from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
-from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url
+from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url, sanitize_trailing_slashes
 from src.state_manager import get_last_date, save_state
 
 async def master_orchestrator():
@@ -315,18 +315,20 @@ async def master_orchestrator():
             })
 
             if evaluation["status"] == "INCLUDED":
+                # Mandate 34: Sanitize new URLs before injection
+                sanitized_url = sanitize_trailing_slashes(url)
                 unique_new_assets.append({
-                    "url": url, "title": evaluation["title"],
+                    "url": sanitized_url, "title": evaluation["title"],
                     "description": evaluation["description"], 
                     "year": evaluation.get("year", "N/A"),
                     "category": evaluation.get("category", "kubernetes-tools"),
                     "impact_score": evaluation["impact_score"],
                     "reasoning": evaluation.get("reasoning")
                 })
-                existing_urls.add(url.split('#')[0].rstrip('/').lower())
+                existing_urls.add(normalize_url(sanitized_url))
                 for rel_cat in evaluation.get("related_categories", []):
                     interlink_asset = {
-                        "url": url, "title": evaluation["title"],
+                        "url": sanitized_url, "title": evaluation["title"],
                         "description": f"*(Related to {evaluation.get('category')} topic)*",
                         "category": rel_cat, "impact_score": 50 
                     }

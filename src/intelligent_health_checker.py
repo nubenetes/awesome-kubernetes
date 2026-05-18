@@ -218,12 +218,20 @@ class IntelligentLinkCleaner:
                 if resp.status_code < 400:
                     text = resp.text.lower()
                     final_url = str(resp.url)
-                    # Mandate 34: Prevent multiple trailing slashes
-                    final_url = re.sub(r'/+$', '/', final_url) if '/' in final_url.split('://')[-1] else final_url.rstrip('/')
+                    # Mandate 34: Prevent multiple trailing slashes using centralized utility
+                    from src.gemini_utils import sanitize_trailing_slashes
+                    final_url = sanitize_trailing_slashes(final_url)
                     
                     if any(kw in text for kw in parked): return False, "parked", None
+                    
+                    # Mandate 34: Explicit detection of redundant slashes or single slash policy
                     if final_url != url:
                         u_p = url.split("://")[-1].rstrip("/"); f_p = final_url.split("://")[-1].rstrip("/")
+                        # If it's just a slash/redundancy fix, we mark it as 'healed' or 'normalized'
+                        if u_p == f_p:
+                            return True, "normalized_slashes", final_url
+                        
+                        # Generic redirect loss protection
                         if u_p.count("/") >= 3 and (f_p.count("/") <= 2 or any(kw in f_p for kw in ["/about", "/products", "/home"])):
                             return False, "generic_redirect_loss", None
                     return True, "OK", final_url if final_url != url else None
@@ -252,8 +260,19 @@ class IntelligentLinkCleaner:
                 for i, line in enumerate(file_updates[path]):
                     if url in line:
                         if fallback and fallback.startswith("CANONICAL:"):
-                            file_updates[path][i] = line.replace(url, fallback.replace("CANONICAL:", ""))
-                        else: file_updates[path][i] = None 
+                            fallback_url = fallback.replace("CANONICAL:", "")
+                            # Mandate 34: Robust replacement to avoid path/ path// recursion
+                            # We replace exactly the URL within Markdown link syntax or bounded by whitespace
+                            line_updated = line.replace(f"({url})", f"({fallback_url})")
+                            if line_updated == line: # Fallback if not in parens
+                                line_updated = re.sub(rf'({re.escape(url)})(?=[)\s]|$)', fallback_url, line)
+                            
+                            # Final safety check: if line still has // after our intended clean URL
+                            line_updated = line_updated.replace(f"{fallback_url}/", fallback_url)
+                            file_updates[path][i] = line_updated
+                        else: 
+                            # Delete dead link line
+                            file_updates[path][i] = None 
 
         final_payload = {p: "".join([l for l in lines if l is not None]) for p, lines in file_updates.items()}
         await self.prune_orphaned_metadata(); self._save_inventory()
