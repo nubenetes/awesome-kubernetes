@@ -101,15 +101,18 @@ def get_stats():
     growth_data.sort(key=lambda x: x["year"])
     
     # Generate Bar Chart (Mandate 3: Metric Comparison)
-    annual_chart = "```mermaid\n---\nconfig:\n  themeVariables:\n    xyChart:\n      plotColorPalette: \"#5462eb, #fb8c00\"\n---\nxychart-beta\n    title \"Nubenetes Annual Growth Metrics (Commits vs New Refs)\"\n"
+    max_val = max([int(int(item["count"]) * 4.13) for item in growth_data] + [int(item["count"]) for item in growth_data])
+    y_max = ((max_val // 1000) + 1) * 1000
+    
+    annual_chart = "```mermaid\n---\nconfig:\n  themeVariables:\n    xyChart:\n      plotColorPalette: '#3b82f6, #fb923c'\n  theme: mc\n---\nxychart-beta\n    title \"Nubenetes Annual Growth Metrics (2018–2026)\"\n"
     years = [f'"{item["year"]}"' for item in growth_data]
     commits = [item["count"] for item in growth_data]
     refs = [str(int(int(item["count"]) * 4.13)) for item in growth_data]
     
     annual_chart += f"    x-axis [{', '.join(years)}]\n"
-    annual_chart += f"    y-axis \"Volume\"\n"
+    annual_chart += f"    y-axis \"Volume (Commits / Estimated New Refs)\" 0 --> {y_max}\n"
     annual_chart += f"    bar [{', '.join(refs)}]\n"
-    annual_chart += f"    line [{', '.join(commits)}]\n"
+    annual_chart += f"    bar [{', '.join(commits)}]\n"
     annual_chart += "```"
     
     for idx, item in enumerate(growth_data, 1):
