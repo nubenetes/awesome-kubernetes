@@ -7,12 +7,12 @@
 ## Introduction
 
 - [rapidapi.com:What is OAuth2.0?](https://rapidapi.com/guides/oath2-0)
-- [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview///)
+- [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview////)
 - [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security/)
 
 ## OpenID Connect
 
-- [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview///)
+- [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview////)
 
 ## Tweets
 
