@@ -38,7 +38,7 @@
 - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/new)
 - [AWS Forums](https://repost.aws)
-- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)
+- [AWS Knowledge Center](https://repost.aws/knowledge-center)
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
