@@ -186,7 +186,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 pie title Nubenetes Major Ecosystem Pillars
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
-    "Public/Private Cloud" : 2500
+    "Public and Private Cloud" : 2500
     "CI/CD and GitOps" : 2200
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
@@ -408,20 +408,20 @@ As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI op
 ### 6.7. Platinum Operational Tier (2026 Standards)
 The "Platinum" tier represents the highest level of autonomous maintenance, focusing on industrial-grade safety, legal compliance, and real-time infrastructure synchronization.
 
-#### ⚖️ Legal & Compliance Guard
+#### Legal and Compliance Guard
 - **License Integrity Monitoring**: The [Safety Guard](src/safety_guard.py) scans all repository links for license changes.
 - **Restrictive License Alerting**: Immediate detection of transitions to non-free licenses (e.g., BSL, SSPL).
 - **Compliance Dashboard**: Every PR includes a statistical summary of the ecosystem's license distribution to protect Open Source integrity (Mandate 33).
 
-#### 🛡️ Advanced Safety & Standard Hardening
+#### Advanced Safety and Standard Hardening
 - **Structural Integrity Audit**: [Safety Guard](src/safety_guard.py) enforces [Mandate 30](GEMINI.md) by blocking ampersands (`&`) and emojis in section titles to ensure cross-platform rendering.
 - **Anchor & TOC Validation**: Verifies that Table of Contents links point to valid, strictly lowercase anchors.
 - **Rendering Risk Detection**: Ensures HTML blocks like `<center>` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
 
-#### 🔄 Infrastructure Auto-Sync
+#### Infrastructure Auto-Sync
 - **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
 
-#### 🕵️ Reputation Pulse (Vaporware Filter)
+#### Reputation Pulse (Vaporware Filter)
 - **Community-Based Vetting**: The [Curation Engine](src/agentic_curator.py) utilizes **Google Search Grounding** to cross-reference new tools with platforms like Reddit and Hacker News.
 - **Suspicious Tool Labeling**: Autonomously penalizes and labels projects reported as abandoned or unstable as `[SUSPICIOUS]` in the [Global Inventory](data/inventory.yaml) ([Mandate 32](GEMINI.md)).
 
@@ -441,13 +441,13 @@ The following matrix details the operational jump from standard automation to th
 
 ```mermaid
 graph TD
-    A["Curation Source (YAML)"] --> B["[Mandate 11] UI Auto-Sync"]
-    B --> C["GitHub Actions Interface"]
-    D["Discovery Engine"] --> E["[Mandate 32] Reputation Grounding"]
+    A["Curation Source (YAML)"] --> B["[Mandate 11]<br/>UI Auto-Sync"]
+    B --> C["GitHub Actions<br/>Interface"]
+    D["Discovery Engine"] --> E["[Mandate 32]<br/>Reputation Grounding"]
     E --> F["Vaporware Filtering"]
     F --> G["Global Inventory"]
-    G --> H["[Mandate 33] License Dashboard"]
-    H --> I["PR Platinum Audit Report"]
+    G --> H["[Mandate 33]<br/>License Dashboard"]
+    H --> I["PR Platinum Audit<br/>Report"]
 ```
 
 ---
@@ -512,15 +512,15 @@ For large-scale repository automation, Nubenetes prioritizes the **Pay-As-You-Go
 ### 7.5. Agentic Data Flow
 ```mermaid
 graph TD
-    AC[Agentic Curator] -->|Canonical Normalization| DB[(Unified DB)]
-    LC[Link Cleaner] -->|Health & Metadata Enrichment| DB
-    V2[V2 Vision Engine] -->|Elite Selection & Maturity Evolution| DB
+    AC["Agentic Curator"] -->|"Canonical Normalization"| DB[("Unified DB")]
+    LC["Link Cleaner"] -->|"Health and Metadata<br/>Enrichment"| DB
+    V2["V2 Vision Engine"] -->|"Elite Selection and<br/>Maturity Evolution"| DB
     
-    DB -->|Metadata Sync| V1[V1 Archive: docs/]
-    DB -->|Trending: The Agentic Pulse| V2P[V2 Portal: v2-docs/]
+    DB -->|"Metadata Sync"| V1["V1 Archive: docs/"]
+    DB -->|"Trending:<br/>The Agentic Pulse"| V2P["V2 Portal: v2-docs/"]
     
     subgraph Local Storage
-        DB1[inventory.yaml]
+        DB1["inventory.yaml"]
     end
 ```
 
@@ -598,19 +598,19 @@ The following flowchart illustrates how autonomous discovery and maintenance tas
 
 ```mermaid
 graph TD
-    subgraph "Phase 1: Knowledge Discovery & Maintenance"
+    subgraph "Phase 1: Knowledge Discovery and Maintenance"
         A["New Curation Source<br/>(X.com, RSS)"] --> B["[1] Agentic Curation"]
         C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
     end
 
-    B -->|Merged into develop| E{"V2 Sync Trigger"}
-    D -->|Merged into develop| E
+    B -->|"Merged into develop"| E{"V2 Sync Trigger"}
+    D -->|"Merged into develop"| E
     
     subgraph "Phase 2: Elite Optimization"
         E --> F["[2] V2 Elite Builder"]
     end
 
-    subgraph "Phase 3: Documentation & Metrics"
+    subgraph "Phase 3: Documentation and Metrics"
         F --> G["[3] README Sync"]
     end
 
@@ -624,7 +624,7 @@ graph TD
 ### 9.4. Curation Flow Architecture
 ```mermaid
 sequenceDiagram
-    participant X as X.com / Sources
+    participant X as X.com and Sources
     participant G as Gemini Agent
     participant W1 as [1] Agentic Curation
     participant W2 as [2] V2 Elite Builder
@@ -635,17 +635,17 @@ sequenceDiagram
 
     W1->>X: Extract Raw Data
     X-->>W1: Raw JSON/MD
-    W1->>G: Evaluate & Score Assets
-    G-->>W1: Scored & Categorized Assets
+    W1->>G: Evaluate and Score Assets
+    G-->>W1: Scored and Categorized Assets
     W1->>R: Update docs/*.md (V1)
     Note over R: V2 Builder Triggered...
     W2->>R: Update v2-docs/ (Elite)
     R->>W3: Trigger README Sync
-    W3->>R: Update Metrics & TOC
-    Note over R, M: Owner Review & Merge
+    W3->>R: Update Metrics and TOC
+    Note over R, M: Owner Review and Merge
     R->>M: Sync develop to master
     M->>P: Trigger Production Build
-    P-->>P: Deploy V1 & V2 to nubenetes.com
+    P-->>P: Deploy V1 and V2 to nubenetes.com
 ```
 
 ### 9.5. Deployment Lifecycle
