@@ -38,3 +38,31 @@ jobs:
             echo "Deleting remote branch: $branch"
             git push origin --delete "$branch"
           done
+
+          echo "---"
+          echo "Identifying stale unmerged branches (no activity for 30 days)..."
+          # Get all remote branches with their last commit date
+          # Format: authordate:iso8601 refname:short
+          current_date=$(date +%s)
+          stale_seconds=$((30 * 24 * 60 * 60)) # 30 days
+          
+          git for-each-ref --format='%(authordate:unix) %(refname:short)' refs/remotes/origin | while read last_commit_unix branch_full; do
+            branch=$(echo "$branch_full" | sed 's/origin\///')
+            
+            # Skip protected branches and HEAD
+            if [[ "$branch" =~ ^(master|develop|gh-pages|HEAD)$ ]]; then
+              continue
+            fi
+            
+            # Skip branches that were just identified as merged (avoid double attempt)
+            if [[ " $branches " =~ " $branch " ]]; then
+              continue
+            fi
+            
+            age=$((current_date - last_commit_unix))
+            if [ "$age" -gt "$stale_seconds" ]; then
+              last_date=$(date -d "@$last_commit_unix" +"%Y-%m-%d")
+              echo "Deleting stale branch: $branch (Last commit: $last_date)"
+              git push origin --delete "$branch" || echo "Could not delete $branch (might be protected or already gone)"
+            fi
+          done
