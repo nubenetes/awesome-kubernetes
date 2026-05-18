@@ -16,7 +16,7 @@
 
 ## Migrating to Digital Ocean with CloudPlex
 
-- [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex///) CloudPlex unlocks the freedom to migrate applications to the cloud of your choice. Avoid vendor lock-in and start taking advantage of DigitalOcean's simple Managed Kubernetes. 
+- [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex////) CloudPlex unlocks the freedom to migrate applications to the cloud of your choice. Avoid vendor lock-in and start taking advantage of DigitalOcean's simple Managed Kubernetes. 
 
 ## Community Tools
   - [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) - *(Related to ai topic)*
@@ -26,7 +26,7 @@
 
 ## App Platform. Digital Ocean PaaS
 
-- [App Platform](https://docs.digitalocean.com/products/app-platform///)
-- [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform///)
+- [App Platform](https://docs.digitalocean.com/products/app-platform////)
+- [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform////)
 - [theregister.com: DigitalOcean decides to head rivals off at the PaaS, floats App Platform to deploy, run code without juggling servers](https://www.theregister.com/off-prem/2020/10/07/digitalocean-decides-to-head-rivals-off-at-the-paas-floats-app-platform-to-deploy-run-code-without-juggling-servers/802967/)
-- [thenewstack.io: DigitalOcean App Platform Eases Kubernetes Deployments for Developers](https://thenewstack.io/digitalocean-app-platform-eases-kubernetes-deployments-for-developers///)
+- [thenewstack.io: DigitalOcean App Platform Eases Kubernetes Deployments for Developers](https://thenewstack.io/digitalocean-app-platform-eases-kubernetes-deployments-for-developers////)
