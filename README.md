@@ -405,17 +405,49 @@ As of May 2026, Nubenetes implements a **Total Transparency Protocol** for AI op
 - **PR Intelligence Reports**: Detailed breakdown of model hierarchy and identity usage.
 - **Visual AI Dashboard**: Real-time metrics in `report.html` on AI performance and quota management.
 
+### 6.7. Platinum Operational Tier (2026 Standards)
+The "Platinum" tier represents the highest level of autonomous maintenance, focusing on industrial-grade safety, legal compliance, and real-time infrastructure synchronization.
+
+#### ⚖️ Legal & Compliance Guard
+- **License Integrity Monitoring**: The [Safety Guard](src/safety_guard.py) scans all repository links for license changes.
+- **Restrictive License Alerting**: Immediate detection of transitions to non-free licenses (e.g., BSL, SSPL).
+- **Compliance Dashboard**: Every PR includes a statistical summary of the ecosystem's license distribution to protect Open Source integrity (Mandate 33).
+
+#### 🛡️ Advanced Safety & Standard Hardening
+- **Structural Integrity Audit**: [Safety Guard](src/safety_guard.py) enforces [Mandate 30](GEMINI.md) by blocking ampersands (`&`) and emojis in section titles to ensure cross-platform rendering.
+- **Anchor & TOC Validation**: Verifies that Table of Contents links point to valid, strictly lowercase anchors.
+- **Rendering Risk Detection**: Ensures HTML blocks like `<center>` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
+
+#### 🔄 Infrastructure Auto-Sync
+- **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
+
+#### 🕵️ Reputation Pulse (Vaporware Filter)
+- **Community-Based Vetting**: The [Curation Engine](src/agentic_curator.py) utilizes **Google Search Grounding** to cross-reference new tools with platforms like Reddit and Hacker News.
+- **Suspicious Tool Labeling**: Autonomously penalizes and labels projects reported as abandoned or unstable as `[SUSPICIOUS]` in the [Global Inventory](data/inventory.yaml) ([Mandate 32](GEMINI.md)).
+
+### 6.8. Platinum Capability Matrix
+The following matrix details the operational jump from standard automation to the Platinum Agentic Tier:
+
+| # | Capability | Standard Automation | Platinum Agentic Tier (2026) |
+| :--- | :--- | :--- | :--- |
+| **1** | **Safety Guard** | Manual Review | **Strict Mandatory Blocking**: No `&`, No Emojis in titles. |
+| **2** | **Legal Compliance** | None | **Auto-License Pulse**: Real-time BSL/SSPL alerting. |
+| **3** | **Reputation** | Star-based | **Community Grounding**: Real-time Reddit/HN vetting. |
+| **4** | **Workflow UI** | Manual Update | **Auto-Sync**: YAML-driven GitHub UI generation. |
+| **5** | **Data Integrity** | Link Health | **Content Drift**: SHA256 detection of silent site updates. |
+| **6** | **Redundancy** | Single API Key | **Subscription Rotation**: Identity A/B failover logic. |
+| **7** | **Observability** | Console Logs | **Platinum Audit**: Multi-part PR metrics & License Dashboard. |
+| **8** | **HTML Quality** | Implicit | **Rendering Guard**: Mandatory `markdown="1"` validation. |
+
 ```mermaid
-graph LR
-    A[Workflow Initiation] --> B[API Model Discovery]
-    B --> C{Scoring Engine}
-    C -->|Ranked Queue| D[Task Processing]
-    D -->|429 Error| E[Exponential Backoff]
-    E -->|Wait & Retry| D
-    D -->|Persistent Fail| F[Identity Rotation]
-    F --> D
-    D -->|Success| G[Intelligence Report]
-    G --> H[Inventory Sync]
+graph TD
+    A["Curation Source (YAML)"] --> B["[Mandate 11] UI Auto-Sync"]
+    B --> C["GitHub Actions Interface"]
+    D["Discovery Engine"] --> E["[Mandate 32] Reputation Grounding"]
+    E --> F["Vaporware Filtering"]
+    F --> G["Global Inventory"]
+    G --> H["[Mandate 33] License Dashboard"]
+    H --> I["PR Platinum Audit Report"]
 ```
 
 ---
