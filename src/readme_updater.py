@@ -80,9 +80,9 @@ def get_stats():
     annual_rows = ["| Year | Commits | Est. New Refs | Key Milestone |", "| :---: | :---: | :---: | :--- |"]
     milestones = {
         "2018": "**Munich Era (BMW IT-Zentrum)**",
-        "2019": "Early Growth & Open Source Launch",
-        "2020": "**The Great Expansion**",
-        "2021": "Maturity & Standardization",
+        "2019": "Early Growth and Open Source Launch",
+        "2020": "**The Great Expansion** (Global Pandemic/Remote Era)",
+        "2021": "Maturity and Standardization",
         "2022": "Cloud Native Hardening",
         "2023": "Maintenance & Refinement",
         "2024": "Curation Strategy Pivot",

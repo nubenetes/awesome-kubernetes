@@ -135,7 +135,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15200+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4547+** |
+| **Total Commits** | **4548+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -156,11 +156,11 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Year | Commits | Est. New Refs | Key Milestone |
 | :---: | :---: | :---: | :--- |
 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
-| 2020 | 2046 | 8,449 | **The Great Expansion** |
-| 2026 | 988 | 4,080 | **Agentic AI Surge** (May 2026 Inception) |
-| 2021 | 531 | 2,193 | Maturity & Standardization |
+| 2020 | 2046 | 8,449 | **The Great Expansion** (Global Pandemic/Remote Era) |
+| 2026 | 989 | 4,084 | **Agentic AI Surge** (May 2026 Inception) |
+| 2021 | 531 | 2,193 | Maturity and Standardization |
 | 2022 | 402 | 1,660 | Cloud Native Hardening |
-| 2019 | 142 | 586 | Early Growth & Open Source Launch |
+| 2019 | 142 | 586 | Early Growth and Open Source Launch |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 2025 | 5 | 20 | Stability & Research Phase |
@@ -171,7 +171,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 963 | 3,977 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 964 | 3,981 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
