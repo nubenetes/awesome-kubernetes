@@ -1,0 +1,6557 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Enterprise-grade curated portal for the 2026 Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
+      
+      
+        <meta name="author" content="Inaki Fernandez">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/v2/azure.html">
+      
+      
+        <link rel="prev" href="aws.html">
+      
+      
+        <link rel="next" href="digitalocean.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Azure - Nubenetes V2 | The Architect's Cut</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
+      <link rel="stylesheet" href="static/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#azure" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes V2 | The Architect's Cut
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Azure
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://nubenetes.com/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🔙 Back to V1 (Exhaustive)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The 2026 Vision
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  AI and Artificial Intelligence
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="cheatsheets.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Architectural Foundations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Cloud Providers (Hyperscalers)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="crunchydata.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="argo.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ansible.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hardened Infrastructure
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="caching.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Networking & Service Mesh
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="chaos-engineering.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Platform & Site Reliability
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="container-managers.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  The Container Stack
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Nubenetes V2 | The Architect's Cut
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://nubenetes.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔙 Back to V1 (Exhaustive)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 2026 Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI and Artificial Intelligence
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI and Artificial Intelligence
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ai Agents Mcp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ai
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="chatgpt.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chatgpt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mlops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mlops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectural Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architectural Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cheatsheets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cheatsheets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Arch Diagrams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Asset Inventory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="customer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="demos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="devops-tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devops Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faq
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="git.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="grafana.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafana
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="helm.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Helm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Tutorials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linux.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="matrix-table.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matrix Table
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mkdocs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mkdocs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="monitoring.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monitoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="other-awesome-lists.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Awesome Lists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prometheus.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prometheus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Career & Industry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appointment-scheduling.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appointment Scheduling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="digital-money.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Money
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="elearning.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elearning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="finops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="freelancing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Freelancing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hr.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="interview-questions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="newsfeeds.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Newsfeeds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recruitment.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recruitment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Remote Tech Jobs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="workfromhome.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workfromhome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Providers (Hyperscalers)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cloud Providers (Hyperscalers)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Googlecloudplatform
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-architecture.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-backup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Backup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-containers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Containers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-data.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-databases.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Databases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-devops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Devops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-iac.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Iac
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-messaging.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Messaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Miscellaneous
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-monitoring.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Monitoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-networking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Networking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-newfeatures.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Newfeatures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-pricing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Pricing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-security.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Security
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-serverless.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Serverless
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-spain.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Spain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-storage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Tools Scripts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-training.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aws
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Azure
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="azure.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Azure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="digitalocean.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digitalocean
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="edge-computing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Edge Computing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ibm_cloud.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibm_Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Managed Kubernetes In Public Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="oraclecloud.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oraclecloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Private Cloud Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Cloud Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="scaleway.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scaleway
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Data & Advanced Analytics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="crunchydata.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crunchydata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="databases.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Databases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="message-queue.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Message Queue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="newsql.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Newsql
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nosql.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nosql
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="yaml.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yaml
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Developer Ecosystem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ChromeDevTools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chromedevtools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="angular.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Angular
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="api.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Api
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="devel-sites.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devel Sites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dom.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dom
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dotnet.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dotnet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Embedded Servlet Containers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="golang.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Golang
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java And Java Performance Optimization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="java_app_servers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java_App_Servers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="java_frameworks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java_Frameworks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="javascript.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Javascript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linux-dev-env.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux Dev Env
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="lowcode-nocode.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lowcode Nocode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="maven-gradle.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maven Gradle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="postman.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Postman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="react.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    React
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Swagger Code Generator For Rest Apis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="visual-studio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Studio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="web3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="xamarin.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Xamarin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Engineering Pipeline
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="argo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Argo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cicd Kubernetes Plugins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cicd.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cicd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="flux.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flux
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gitops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gitops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jenkins Alternatives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="jenkins.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jenkins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="keptn.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Keptn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="openshift-pipelines.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Openshift Pipelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="registries.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sonarqube.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sonarqube
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="stackstorm.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stackstorm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tekton.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tekton
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardened Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hardened Infrastructure
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ansible.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ansible
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="chef.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chef
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="crossplane.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crossplane
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="devsecops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devsecops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iac.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iac
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-security.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Security
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kustomize.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kustomize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="liquibase.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liquibase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="oauth.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oauth
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="pulumi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pulumi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="securityascode.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Securityascode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="terraform.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terraform
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Networking & Service Mesh
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="caching.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caching
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cloudflare.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloudflare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="istio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Istio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-networking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Networking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="networking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="servicemesh.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Servicemesh
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="web-servers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Servers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Platform & Site Reliability
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="chaos-engineering.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chaos Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="developerportals.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developerportals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="devops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Performance Testing With Jenkins And Jmeter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="project-management-methodology.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Management Methodology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="project-management-tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Management Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="qa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Qa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="scaffolding.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scaffolding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sre.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test Automation Frameworks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="testops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The Container Stack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="container-managers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Container Managers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docker.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubectl-commands.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubectl Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Alternatives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Autoscaling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Backup Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Based Devel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Bigdata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Client Libraries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Monitoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes On Premise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Operators Controllers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-releases.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Releases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-storage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="noops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Noops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ocp3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ocp3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ocp4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ocp4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="openshift.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Openshift
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="rancher.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rancher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="serverless.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serverless
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/azure.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/azure.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="azure">Azure<a class="headerlink" href="#azure" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for Azure in the context of Cloud Providers (Hyperscalers).</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<hr />
+<ul>
+<li><a href="https://azure.microsoft.com/en-us">Microsoft Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us">Microsoft Docs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure">Azure Docs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/?product=All">techcommunity.microsoft.com: Microsoft Learn - Learning Rooms Directory</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/microsoftsentinelblog/non-interactive-logins-minimizing-the-blind-spot/2287932">techcommunity.microsoft.com: Non-interactive logins: minimizing the blind spot</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/fasttrackforazureblog/how-to-create-a-vpn-between-azure-and-aws-using-only-managed-solutions/2281900">techcommunity.microsoft.com: How to create a VPN between Azure and AWS using only managed solutions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://k21academy.com/azure-data/azure-data-lake">k21academy.com: Azure Data Lake Overview For Beginners</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.theregister.com/off-prem/2021/09/03/microsoft-azure-deprecations-api-changes-will-break-applications-and-powershell-scripts/748744">theregister.com: Microsoft Azure deprecations: API changes will break applications and PowerShell scripts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://k21academy.com/azure-cloud/azure-rbac-vs-azure-policies-vs-azure-blueprints">k21academy.com: Azure RBAC Vs Azure Policies Vs Azure Blueprints</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/external-id/cross-tenant-access-overview">docs.microsoft.com: Overview: Cross-tenant access with Azure AD External Identities (Preview)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/educatordeveloperblog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for-real-time-data-anal/4028701">techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuresqlblog/azure-sql-managed-instance-pools-new-features/4044688">techcommunity.microsoft.com: Azure SQL Managed Instance pools: new features</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/fasttrackforazureblog/microsoft-fabric---multi-tenant-architecture/4119429">techcommunity.microsoft.com: Microsoft Fabric - Multi-Tenant Architecture</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-orphan-resources/3492198">techcommunity.microsoft.com: Azure Orphan Resources</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161">Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-course-blueprints/4338972">techcommunity.microsoft.com: Azure Architecture - Course Blueprint</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-policy-for-kubernetes-releases-support-for-custom-policy/2699466">techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-policy-recommended-practices/3798024">Azure Policy Recommended Practices</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/news/2023/11/azure-well-architected-framework">infoq.com: Microsoft Refreshes its Well-Architected Framework</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/service-guides/app-service-web-apps">learn.microsoft.com: Azure Well-Architected Framework perspective on Azure App Service (Web Apps)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/finopsblog/get-tailored-insights-with-our-advisor-well-architected-assessments/4218239">techcommunity.microsoft.com: Get tailored insights with our Advisor Well-Architected assessments</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-what/4026102">techcommunity.microsoft.com: Infra in Azure for Developers - The What</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes">Azure Landing Zone IaC Accelerator Release Notes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/azure-landing-zones-accelerators-for-bicep-and-terraform-announcing-general-avai/4029866">techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-openai-landing-zone-reference-architecture/3882102">techcommunity.microsoft.com: Azure OpenAI Landing Zone reference architecture</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurearchitectureblog/new-feature-easily-assign-regulatory-compliance-policies-to-your-azure-landing-z/4074957">techcommunity.microsoft.com: New feature: easily assign regulatory compliance policies to your Azure Landing Zone</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-landing-zones-custom-archetypes-using-terraform/3791172">techcommunity.microsoft.com: Azure landing zones custom archetypes using Terraform</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-azure-landing-zones/4229195">techcommunity.microsoft.com: From Zero to Hero with Azure Landing Zones</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.theregister.com/software/2023/05/26/microsofts-azure-linux-distro-is-now-generally-available/568359">theregister.com: Microsoft has made Azure Linux generally available. Repeat, Azure Linux</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://commandline.ninja">CommandLine Ninja</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.azurebrains.com">azurebrains.com: Azurebrains</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming">docs.microsoft.com: Define your naming convention</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview">learn.microsoft.com: Mission-critical workloads</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview">docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html">mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway &amp; Load Balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/azurelinux">github.com/microsoft/CBL-Mariner</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/patterns">docs.microsoft.com: Cloud Design Patterns 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889">Announcing Public Preview of Terraform Export from the Azure Portal</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&amp;products=azure-resource-manager">azure.microsoft.com: Azure Quickstart Templates</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/arm-template-specs-now-ga/2402618">techcommunity.microsoft.com: ARM Template Specs now GA!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs">docs.microsoft.com: Azure Resource Manager template specs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/devtest-labs">learn.microsoft.com: DevTest and DevOps for microservice solutions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-gb/training/browse">docs.microsoft.com: Build applications with Azure DevOps (Learning Path)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/devops/pipelines/?view=azure-devops">docs.microsoft.com: Azure Pipelines documentation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/appsonazureblog/building-a-path-to-success-for-microservices-and-net-core---project-tye--github-/1502270">techcommunity.microsoft.com: Building a path to success for microservices and .NET Core - Project Tye + GitHub Actions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thomasthornton.cloud/scout-suite-reports-using-azure-devops-pipeline">thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docs.cloud.google.com/dotnet/docs/creating-cicd-pipeline-vsts-compute-engine">cloud.google.com: Crea una canalización de CI/CD con Azure Pipelines y Compute Engine</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thinksys.com/azure/azure-devops-pipeline-complete-guide">thinksys.com: Azure DevOps Pipeline Complete Guide 2022</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuresynapseanalyticsblog/cicd-in-synapse-sql-how-to-deliver-your-database-objects-across-multiple-environ/3267507">techcommunity.microsoft.com: CICD in Synapse SQL: How to deliver your database objects across multiple environments</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops">learn.microsoft.com: Azure DevOps Templates - Template types &amp; usage 🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-devops-pipelines-if-expressions-and-conditions/3737159">techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=09213cdc-9f30-4e82-aa6f-9b6e8d82dab3&amp;redirect_uri=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fs%2Fauth%2Foauth2callback%2Fproviderid%2Fdefault&amp;response_type=code&amp;state=l6szqle4bzDgvgJagl8z4PdMvpp_5xu-WPFDEhepQ0JV4o6p1Oiy79YAZuEPj3BnEO_EXjdV2VJH4ckf68foAKVHFZ9zL0POiDIgyviNM2LPLGkKCrmP95s8cCy29jWSMUodTlRNE7u4fcWrQ3_-0x0suxxUZh0nRgtFL0BouINjnmwDFGMwFhi1w5p0fjhA99nnnjuaIC8aIgq1A2Orcmawz9DQyoYwqLMlKMupP-U&amp;scope=User.Read+openid+email+profile+offline_access&amp;referer=https%3A%2F%2Ftechcommunity.microsoft.com%2Fblog%2F-%2Fintroduction-to-azure-devops-workload-identity-federation-oidc%2F3908687">techcommunity.microsoft.com: Introduction to Azure DevOps Workload identity federation (OIDC) with Terraform</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://liora.io/en/azure-devops-pipeline-yaml-why-configure-ci-cd-pipelines-with-yaml">datascientest.com: Azure DevOps Pipeline YAML: why configure CI/CD pipelines with YAML?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thomasthornton.cloud/deploy-terraform-using-azure-devops">thomasthornton.cloud: Deploy Terraform using Azure DevOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/devops/managed-devops-pools/?view=azure-devops">learn.microsoft.com: Managed DevOps Pools documentation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://liora.io/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool">datascientest.com: Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines">DevOps Azure Pipelines: YAML Schema</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/discussions/azure/dynamic-user-membership-rules-azure-active-directory-administrative-units-and-pa/3281164">techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset! 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-available-permissions">learn.microsoft.com: Application registration permissions for custom roles in Azure Active Directory</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/identity/monitoring-health/overview-recommendations">learn.microsoft.com: What are Azure Active Directory recommendations? 🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-permissions-101-how-to-manage-azure-access-effectively/4067468">techcommunity.microsoft.com: Azure Permissions 101: How to manage Azure access effectively</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/microsoft-entra-blog/important-azure-ad-graph-retirement-and-powershell-module-deprecation/3848270">techcommunity.microsoft.com: Important: Azure AD Graph Retirement and Powershell Module Deprecation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-service-principal-portal">docs.microsoft.com: Use the portal to create an Azure AD application and service principal that can access resource</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure">vcloud-lab.com: Get started and configure certificate-based authentication in Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="http://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli">vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell &amp; AzureCLI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://jumpstart.azure.com">azurearcjumpstart.io</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/itopstalkblog/standardize-devops-practices-across-hybrid-and-multicloud-environments/2795010">techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2-ci-cd">docs.microsoft.com: CI/CD workflow using GitOps (Flux v2) - Azure Arc enabled Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.seifbassem.com/blogs/posts/azure-arc-ssh">seifbassem.com: SSH into your Azure Arc-enabled servers from anywhere</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://ismiletechnologies.com/en_us/devsecops/secure-devops-kit-azureazsk">ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/app-service/configure-language-java-deploy-run">learn.microsoft.com: Configure a Java app for Azure App Service</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-monitor-logs-next-evolution-multi-tier-logging/4200871">techcommunity.microsoft.com: Azure Monitor Logs Next Evolution: Multi-tier logging</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureobservabilityblog/introducing-azure-monitor-managed-service-for-prometheus/3600185">techcommunity.microsoft.com: Introducing Azure Monitor managed service for Prometheus 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureobservabilityblog/how-to-monitor-your-multi-tenant-solution-on-azure-with-azure-monitor/4042140">techcommunity.microsoft.com: How To Monitor Your Multi-Tenant Solution on Azure With Azure Monitor</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/discussions/azurepartners/azure-orphan-resources-grafana-dashboard/4120303">techcommunity.microsoft.com: Azure Orphan Resources Grafana Dashboard</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/appcenter">Visual Studio App Center VS Azure Pipelines</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/powershell">PowerShell</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.deepinstinct.com/blog/what-makes-powershell-a-challenge-for-cybersecurity-solutions">deepinstinct.com: What makes powershell a challenge for cybersecurity solutions? 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linkedin.com/newsletters/6962087231775772672">blog.guybarrette.com: Powershell prompt: How to display your current Kubernetes context using Oh-My-Posh 3 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.pluralsight.com/resources/blog/cloud/one-shell-to-rule-them-all-5-reasons-to-use-powershell-for-cloud-management">acloudguru.com: The Beginner’s Guide to Azure PowerShell: One Shell to Rule Them All</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/discussions/windowspowershell/an-example-why-powershell-is-so-important/3041748">techcommunity.microsoft.com: An example why PowerShell is so important!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user">commandline.ninja: Use Powershell to find windows services configured to run as another user</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/discussions/microsoft-intune/use-powershell-to-retrieve-all-assigned-intune-policies-and-applications-per-azu/3217498">techcommunity.microsoft.com: Use PowerShell to retrieve all assigned Intune policies and applications per Azure AD group!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/discussions/windowsserver/use-powershell-to-search-for-accounts-in-active-directory-that-have-gone-stale/3585934">techcommunity.microsoft.com: Use PowerShell to search for accounts in Active Directory that have gone stale!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurepaasblog/azure-storage-blob-count--capacity-usage-calculator/3516855">techcommunity.microsoft.com: Azure Storage Blob Count &amp; Capacity usage Calculator</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-powershell-tips-and-tricks/4066848">techcommunity.microsoft.com: Azure PowerShell Tips and Tricks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-a-new-login-experience-with-azure-powershell-and-azure-cli/4109357">techcommunity.microsoft.com: Announcing a new login experience with Azure PowerShell and Azure CLI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/cli/azure/microsoft-graph-migration?view=azure-cli-latest&amp;tabs=powershell">docs.microsoft.com: Microsoft Graph migration</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts">Abhisheksinhacoder/collection-of-useful-scripts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/search?l=powershell&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories">github.com/search?l=powershell</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script">systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devblogs.microsoft.com/powershell-community/my-crescendo-journey">devblogs.microsoft.com: My Crescendo journey</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.powershellgallery.com/packages/Microsoft.PowerShell.Crescendo/1.1.0">powershellgallery.com: Microsoft.PowerShell.Crescendo</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://commandline.ninja/video-intro-to-secret-management-with-powershell">commandline.ninja: Video Intro to Secret Management with Powershell</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks#resize-without-downtime-preview">docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-template-based-previews-of-azure-cli-and-azure-powershell-for-key-vau/3933802">techcommunity.microsoft.com: Announcing template-based previews of Azure CLI and Azure PowerShell for Key Vault deployments</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://cloud.google.com/blog/topics/threat-intelligence/azure-run-command-dummies">mandiant.com: Azure Run Command for Dummies</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/virtual-machines/linux/run-command">docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1">docs.microsoft.com: Desired State Configuration overview for decision makers 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1&amp;viewFallbackFrom=dsc-1.1%2Fconfigurations%2Fconfigdata">docs.microsoft.com: Using configuration data in DSC</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas-deployment/3804348">techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.insight-services-apac.dev/2023/12/04/getting-started-bicep">insight-services-apac.github.io: Getting Started with Bicep</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-how-part-2/4046385">techcommunity.microsoft.com: Infra in Azure for Developers - The How (Part 2)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/announcing-public-preview-of-bicep-templates-support-for-microsoft-graph/4141772">techcommunity.microsoft.com: Announcing public preview of Bicep templates support for Microsoft Graph</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/traffic-manager">Azure Traffic Manager</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/centralized-private-resolver-architecture-implementation-using-azure-private-dns/4132622">techcommunity.microsoft.com: Centralized private resolver architecture implementation using Azure private DNS resolver</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-tenant">Create an Azure Active Directory tenant for P2S OpenVPN protocol connections</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/security-control-implement-security-best-practices/2269914">techcommunity.microsoft.com: Security Control: Implement security best practices</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access">learn.microsoft.com: Conditional Access architecture and personas</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/microsoft-announces-general-availability-of-defender-for-apis/3981488">techcommunity.microsoft.com: Microsoft Announces General Availability of Defender for APIs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/what%e2%80%99s-new-in-defender-how-copilot-for-security-can-transform-your-soc/4084222">techcommunity.microsoft.com: What’s new in Defender: How Copilot for Security can transform your SOC</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/monitoring-microsoft-sentinel-reports-with-dashboard-hub--power-bi/4203870">techcommunity.microsoft.com: Monitoring Microsoft Sentinel Reports with Dashboard Hub &amp; Power BI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuredevcommunityblog/azure-data-factory-how-to-split-a-file-into-multiple-output-files-with-bicep/4039825">techcommunity.microsoft.com: Azure Data Factory: How to split a file into multiple output files with Bicep</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.microsoft.com/en-us/products/container-apps">Azure Container Apps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-azure-container-apps-a-serverless-container-service-for-running-mode/2867265">techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-policy-for-azure-container-apps-yes-please/3775200">techcommunity.microsoft.com: Azure Policy for Azure Container Apps? Yes, please</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurestorageblog/azure-container-storage-in-public-preview/3819246">techcommunity.microsoft.com: Azure Container Storage in Public Preview</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoworld.com/article/2337918/getting-started-with-azure-openai.html">infoworld.com: Getting started with Azure OpenAI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/the-ai-study-guide-azure%E2%80%99s-top-free-resources-for-learning-generative-ai-in-2024/4036890">techcommunity.microsoft.com: The AI Study Guide: Azure’s top free resources for learning generative AI in 2024</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide">Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts">Azure Network Security Perimeter Concepts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azurecharts.com">azurecharts.com: Azure Charts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azurecharts.com/learning">azurecharts.com/learning: Azure Learning Explorer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/azure/mission-critical-online">github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical Online Reference Implementation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure">Introducing the third of three Microsoft Clouds: Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/azure-kubernetes-service-replaces-docker-with-containerd">thenewstack.io: Azure Kubernetes Service Replaces Docker with containerd</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.sixeyed.com/you-cant-always-have-kubernetes-running-containers-in-azure-vm-scale-sets">blog.sixeyed.com: You can't always have Kubernetes: running containers in Azure VM Scale Sets</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devblogs.microsoft.com/java/deploy-spring-boot-applications-by-leveraging-enterprise-best-practices">devblogs.microsoft.com: Deploy Spring Boot applications by leveraging enterprise best practices – Azure Spring Cloud Reference Architecture</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2021/06/replicacion-de-blobs-entre-dos-cuentas-de-azure-storage-en-dos-tenants-diferentes">returngis.net: Replicación de blobs entre dos cuentas de Azure Storage en dos tenants diferentes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.c-sharpcorner.com/article/comparing-aws-sql-server-with-azure-sql-database">c-sharpcorner.com: Comparing AWS SQL Server With Azure SQL Database</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://tecadmin.net/how-to-enable-multiple-rdp-sessions-on-windows-server">teacdmin.net: How To Enable Multiple RDP Sessions on Windows Server</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2021/02/how-to-check-the-available-vm-sizes-skus-by-azure-region">thomasmaurer.ch: How to check the available VM Sizes (SKUs) by Azure Region</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://nubesgen.com">nubesgen.com</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/news/2022/03/nubesgen-azure-infrastructure">infoq.com: NubesGen Brings Git Push to Azure Infrastructure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/developer/java/migration/migration-overview">learn.microsoft.com: Migrate Java applications to Azure 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2022/11/14/overlapping-ip-addresses-in-a-hub-and-spoke-network-feat-avnm-ars">blog.cloudtrooper.net: Overlapping IP addresses in a hub-and-spoke network (feat. AVNM &amp; ARS)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2023/02/06/virtual-network-gateways-routing-in-azure">blog.cloudtrooper.net: Virtual Network Gateways routing in Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2023/04/monitorizar-aplicacion-java-con-spring-boot-con-azure-application-insights">returngis.net: Monitorizar aplicación Java con Spring Boot con Azure Application Insights</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2023/04/invitar-a-usuarios-externos-a-un-tenant-de-azure-ad-a-traves-de-microsoft-graph-y-azure-cli">returngis.net: Invitar a usuarios externos a un tenant de Azure AD a través de Microsoft Graph y Azure CLI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree">learn.microsoft.com: Choose an Azure compute service 🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://nwktimes.blogspot.com/2023/06/azure-ilb-for-nva-ha.html">nwktimes.blogspot.com: NVA Part IV: NVA Redundancy with Azure Internal Load Balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.davesdomain.co.uk/posts/azure-rbac-constrained-delegation">blog.davesdomain.co.uk: A look at Azure RBAC Constrained Delegation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://allazureblog.wordpress.com/2024/01/18/azure-bastion-and-udrs">allazureblog.wordpress.com: Azure Bastion vs UDR</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2024/01/23/azure-network-monitoring-with-synthetic-traffic">blog.cloudtrooper.net: Azure network monitoring with synthetic traffic</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update">github.com/Azure/Enterprise-Scale: ALZ AMA Update</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.siliconvalve.com/posts/2024/02/06/analysing-git-commit-history-using-azure-data-explorer">blog.siliconvalve.com: Analysing git commit history using Azure Data Explorer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://hlokensgard.no/2023/07/03/azure-firewall-as-dns-proxy-with-the-new-azure-dns-resolver">hlokensgard.no: Azure Firewall as DNS Proxy with the new Azure DNS Resolver</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/why-do-azure-resource-groups-have-an-azure-region-association">build5nines.com: Why do Azure Resource Groups have an Azure Region association?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/read-and-write-azure-blob-storage-with-javascript">build5nines.com: Read and Write Azure Blob Storage with Javascript</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/azure-cdn-endpoint-interactive-map">build5nines.com: Azure CDN POP Locations: Interactive Map of Azure CDN Points of Presence</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://luke.geek.nz/azure/azure-architecture-solution-requirement-consideration-checklist">luke.geek.nz/azure: Azure Architecture - Solution Requirement Consideration Checklist</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/sajeetharan/azure-mindmap">github.com/sajeetharan/azure-mindmap</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/sajeetharan/azure-mindmap/blob/master/azure-fundamentals/AZ-900.pdf">Azure Fundamentals: AZ-900.pdf</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure/apiops">github.com/Azure/apiops 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure/migration">github.com/Azure/migration: The Migration Execution Guide.</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://arinco.com.au/blog/awesome-azure-policy-chapter-1">arinco.com.au: Awesome Azure Policy Chapter 1</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://arinco.com.au/blog/awesome-azure-policy-chapter-2">arinco.com.au: Awesome Azure Policy Chapter 2</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options">Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview">learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linkedin.com/pulse/ultimate-guide-azure-cloud-adoption-framework-gregor-wohlfarter-hb4sf">linkedin.com: The Ultimate Guide to Azure Cloud Adoption Framework Lifecycle</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/well-architected">learn.microsoft.com: Azure Well-Architected Framework</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.github.io/Azure-Proactive-Resiliency-Library">azure.github.io: Azure Proactive Resiliency Library (APRL)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/advisor/advisor-assessments">learn.microsoft.com: Use Azure WAF assessments</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linkedin.com/pulse/caf-vs-waf-which-framework-use-your-cloud-migration-gregor-wohlfarter-hko0f">linkedin.com: CAF vs WAF: Which Framework to Use for Your Cloud Migration?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751">Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027">Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2023/09/azure-landing-zone-review-assessment">thomasmaurer.ch: Azure Landing Zone Review Assessment</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox">Azure Sandbox</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/gofireflyltd1705083203658.firefly">azuremarketplace.microsoft.com: Firefly</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md">Microsoft REST API Guidelines 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure/azqr">github.com/Azure/azqr</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841">Introducing Subnet Peering in Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.microsoft.com/en-us/updates/sftp-support-for-azure-blob-storage-now-generally-available">azure.microsoft.com: Generally available: SFTP support for Azure Blob Storage</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://hlokensgard.no/2024/07/01/azure-virtual-network-manager-a-game-changer-or-just-a-costly-upgrade">hlokensgard.no: Azure Virtual Network Manager – A game changer or just a costly upgrade?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://mattias.engineer/blog/2025/azure-ipam-with-terraform">Manage Azure IPAM with Terraform</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com">techcommunity.microsoft.com</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thomasthornton.cloud">thomasthornton.cloud: Thomas Thornton</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch">thomasmaurer.ch</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.dotnetcurry.com">dotnetcurry.com</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://rutlandblog.com">rutlandblog.com</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/johnthebrit/CertificationMaterials">johnthebrit/CertificationMaterials</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2022/01/how-to-learn-microsoft-azure-in-2022">thomasmaurer.ch: How To Learn Microsoft Azure in 2022</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/training/browse/?resource_type=course&amp;products=azure">learn.microsoft.com: Browse all courses, learning paths, and modules 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.freecodecamp.org/news/azure-fundamentals-certification-az-900-exam-course">freecodecamp.org: Azure Fundamentals Certification (AZ-900) – Pass the Exam With This Free 8-Hour Course</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/credentials/certifications/practice-assessments-for-microsoft-certifications">learn.microsoft.com: Practice Assessments for Microsoft Certifications</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud">marketplace.visualstudio.com: Learn Cloud 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://justinoconnor.codes/2022/08/19/azure-periodic-table-of-resource-naming-convention-shorthands">justinoconnor.codes: Azure Periodic Table of Resource Naming Convention Shorthands</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro">learn.microsoft.com: Mission-critical baseline architecture on Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups">Reduce Latency with Azure Proximity Placement Groups</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/azure-load-testing-samples">github.com/Azure-Samples/azure-load-testing-samples 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/deploying-microsofts-new-linux-distribution-as-a-vm-is-not-easy">thenewstack.io: Deploying Microsoft’s New Linux Distribution as a VM is Not Easy</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/mattfeltonma/azure-networking-patterns">mattfeltonma/azure-networking-patterns</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://mattias.engineer/blog/2025/azure-portal-export-terraform">Export Terraform Code from the Azure Portal</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest">Terraform Azure Resource IPAM Module</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889">Announcing Public Preview of Terraform Export from the Azure Portal</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/XtratusCloud/terraform-provider-azureipam">Terraform Provider for Azure IPAM</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates">thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions">Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.azuredevopslabs.com">Azure DevOps Labs 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/nnellans/ado-pipelines-guide">github.com/nnellans/ado-pipelines-guide: Azure DevOps YAML Pipelines Guide 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/azure-pipelines-tasks">microsoft/azure-pipelines-tasks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.zartis.com/simplify-your-sdlc-with-azure-devops">zartis.com: Simplify Your SDLC with Azure DevOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance">devblogs.microsoft.com: Controlling Release Pipelines with Gates and Azure Policy Compliance 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=zL0eLEl2BxI&amp;ab_channel=TravisRoberts">youtube: Azure DevOps Pipeline and Image Builder</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/gbengelebs/setting-up-a-ci-cd-pipeline-using-azure-devops-4gb">dev.to: Setting up a CI-CD Pipeline Using Azure DevOps 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/cschotte/Azure-DevOps-Dashboard">Azure DevOps Dashboard</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.letsdevops.net/post/letsdevops-introduction-to-azure-devops-for-beginners">letsdevops.net: Introduction to Azure DevOps for Beginners - Create CI/CD Pipelines, Setup Repository 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.kevinrchant.com/2021/09/16/increase-in-demand-for-data-platform-automation">kevinrchant.com: Increase in demand for Data Platform automation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.dotnetcurry.com/devops/workitem-customize-azure-devops-server-2020">dotnetcurry.com: Customization of Work Items in Azure DevOps and Azure DevOps Server 2020</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/thomast1906/DevOps-The-Hard-Way-Azure">thomast1906/DevOps-The-Hard-Way-Azure 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linkedin.com/pulse/complete-cicd-solution-ms-aks-using-azure-devops-argocd-singh">linkedin.com: Complete CI/CD Solution for mS on AKS using Azure DevOps, ArgoCD and External Kubernetes Secretes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thomasthornton.cloud/2021/08/04/conditional-variables-in-azure-devops-pipelines">thomasthornton.cloud: Conditional Variables in Azure DevOps Pipelines</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/azure-pipeline-publish-unit-test-and-code-coverage-results-with-net-solution-using-vstest-cobertura-and-coverlet">build5nines.com: Azure Pipeline: Publish Unit Test and Code Coverage Results with .NET 7 Solution using VSTest, Cobertura, and Coverlet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thomasthornton.cloud/2024/01/18/adding-pull-request-comments-to-azure-devops-repo-from-azure-devops-pipelines">thomasthornton.cloud: Adding pull-request comments to Azure DevOps Repo from Azure DevOps Pipelines</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.johnfolberth.com">blog.johnfolberth.com: Resources and posts for those figuring out DevOps in Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://luke.geek.nz/azure/export-azure-devops-repos-azure-storage-account">luke.geek.nz/azure: Export Azure DevOps Repositories to Azure Storage Account</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=FBAav6OoJlw">youtube: Managed DevOps Pools for Azure DevOps | Full Overview &amp; Demo 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/michaelmsonne/AzureDevOpsBackupTool">https://github.com/michaelmsonne/AzureDevOpsBackupTool</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.sonnes.cloud/introducing-azure-devops-backup-tool-1-1-0-0-major-update-with-new-features-bug-fixes-and-enhanced-security">blog.sonnes.cloud: Introducing Azure DevOps Backup Tool 1.1.0.0: Major update with new features, bug fixes and enhanced security!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Microsoft/azure-pipelines-tasks">Microsoft/azure-pipelines-tasks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/datakickstart">github.com/datakickstart</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/JFolberth/TheYAMLPipelineOne">github.com/JFolberth/TheYAMLPipelineOne 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://gist.github.com/GTRekter/51f8be3fbfb13b3696f92e117d956597">gist.github.com: This snippet contains the steps to generate a terraform plan and post it as a comment of a pull request in Azure DevOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=SZM49lGovTg">youtube: Databricks CI/CD: Azure DevOps Pipeline + DABs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://marckean.com/2016/06/01/azure-vs-azure-ad-accounts-tenants-subscriptions">marckean.com: Azure Vs Azure AD – Accounts / Tenants / Subscriptions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blogit.create.pt/miguelisidoro/2019/01/07/pros-and-cons-of-single-tenant-vs-multiple-tenants-in-office-365">blogit.create.pt: Pros and Cons of Single Tenant vs Multiple Tenants in Office 365</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles">learn.microsoft.com: Classic subscription administrator roles, Azure roles, and Azure AD roles</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide">learn.microsoft.com: Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits">learn.microsoft.com: Azure subscription and service limits, quotas, and constraints</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/secure-azure-cosmos-db-access-by-using-azure-managed-identities-55f9fdf48fda">itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=-F9yzj4Kjeo&amp;ab_channel=HoussemDellai">youtube.com: Azure Service Principal - SPN | Houssem Dellai</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=Hg-YsUITnck">youtube.com: How to create Service Principals in Azure Portal | Raaviblog</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/architecture/multi-tenant-user-management-introduction">learn.microsoft.com: Multi-tenant user management introduction</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/nb-no/azure/role-based-access-control/delegate-role-assignments-portal">learn.microsoft.com: Delegate Azure role assignment management to others with conditions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://codewithme.cloud/posts/2024/02/why-arent-you-using-secretless-authentication">codewithme.cloud: Why aren’t you using Managed Identities?!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linkedin.com/pulse/credentials-problem-using-azure-managed-identity-dimitar-iliev--wzzaf">linkedin.com/pulse: No Credentials, No Problem - using Azure Managed Identity</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/nb-no/azure/role-based-access-control/delegate-role-assignments-portal?tabs=template">learn.microsoft.com/nb-no: Delegate Azure role assignment management to others with conditions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles">learn.microsoft.com/en-us: Azure built-in roles 🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://journeyofthegeek.com/2024/05/10/azure-authorization-azure-rbac-delegation">journeyofthegeek.com: Azure Authorization – Azure RBAC Delegation</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.agrenpoint.com/azcli-adscope">agrenpoint.com: Azure AD &amp; Microsoft Graph permission scopes, with Azure CLI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoftgraph/msgraph-sdk-powershell">microsoftgraph/msgraph-sdk-powershell/samples: 9-Applications.ps1</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.nathannellans.com/post/app-registrations-enterprise-apps-and-service-principals">nathannellans.com: App Registrations, Enterprise Apps, and Service Principals 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://zer1t0.gitlab.io/posts/attacking_ad">zer1t0.gitlab.io: Attacking Active Directory: 0 to 0.9 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/azure_arc">architecture diagrams and slides</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2021/06/run-cloud-native-apps-on-azure-paas-anywhere">thomasmaurer.ch: Run cloud-native apps on Azure PaaS anywhere</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/azsk/DevOpsKit">Secure DevOps Kit for Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/azsk/DevOpsKit-docs">DevOpsKit-docs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings">learn.microsoft.com: Environment variables and app settings in Azure App Service</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/app-service/configure-custom-container">learn.microsoft.com: Configure a custom container for Azure App Service</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2021/08/acceder-a-un-app-service-con-private-endpoint-desde-otra-vnet">returngis.net: Acceder a un App Service con Private Endpoint desde otra Vnet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=53-Y_aI0KpE&amp;ab_channel=MicrosoftAzure">youtube: How to run an App Service Web App on Azure Arc-enabled Kubernetes - Part 2 | Azure Tips and Tricks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html">azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4">Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1">Introduction to Azure Application Gateway for Containers (AGC)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.nathannellans.com/post/azure-application-gateway-part-1">nathannellans.com: Azure Application Gateway - Part 1 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm">acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/training/paths/implement-azure-functions">learn.microsoft.com: AZ-204: Implement Azure Functions 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://havanrijn.wordpress.com/2024/04/01/dont-let-azure-log-analytics-break-the-bank">havanrijn.wordpress.com: Don’t let Azure Log Analytics break the bank</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/how-to-setup-ci-cd-pipelines-for-android-with-azure-devops-2a4ded0de0e7">itnext.io: How to setup CI CD pipelines for Android with Azure DevOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://arjavdave.com/2021/03/11/continuous-integration-for-ios-on-azure-devops-part-1">arjavdave.com: Continuous Integration: CI/CD for iOS (Part 1)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://sahansera.dev/multi-stage-builds-with-azure-pipelines-ionic">sahansera.dev: Multi-stage builds for Ionic Apps with Azure Pipeline Templates</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://sahansera.dev/publishing-android-apps-to-microsoft-appcenter">sahansera.dev: Publishing Android Apps to Microsoft App Center from Azure DevOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=s1grtSSIRVA&amp;ab_channel=dotNET">youtube: Signing &amp; Versioning iOS &amp; Android Apps | DevOps for Mobile</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.powershellgallery.com">PowerShell Gallery 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devblogs.microsoft.com/powershell-community">PowerShell Community</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://powershellmagazine.com">powershellmagazine.com</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dbatools.io">dbatools.io</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2021/07/powershell-download-script-or-file-from-github">thomasmaurer.ch: PowerShell: Download script or file from GitHub</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://fedoramagazine.org/powershell-on-linux-a-primer-on-object-shells">fedoramagazine.org: PowerShell on Linux? A primer on Object-Shells</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.sqlservercentral.com/articles/powershell-day-by-day-adding-help-to-scripts">sqlservercentral.com: Powershell Day by Day: Adding Help to Scripts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/dahlbyk/posh-git">dahlbyk/posh-git</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=PjiJsllKZrI&amp;ab_channel=ACloudGuru">youtube: Azure PowerShell account management with Azure contexts | A Cloud Guru 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.hackingarticles.in/powershell-for-pentester-windows-reverse-shell">hackingarticles.in: PowerShell for Pentester: Windows Reverse Shell</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://jdhitsolutions.com/blog/powershell-7/8793/profile-powershell-functions">jdhitsolutions.com: Profile PowerShell Functions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devblogs.microsoft.com/powershell/when-powershellget-v1-fails-to-install-the-nuget-provider">devblogs.microsoft.com: When PowerShellGet v1 fails to install the NuGet Provider</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.softzone.es/noticias/windows/por-que-interesa-usar-powershell-lugar-cmd">softzone.es: Por qué me interesa más usar PowerShell en lugar de CMD</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dotnet-helpers.com/powershell/passing-local-variables-to-remote-powershell-session">dotnet-helpers.com: Passing Local Variables to Remote PowerShell session</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dotnet-helpers.com/powershell/azure-keyvault-set-and-retrieve-secrets">dotnet-helpers.com: Azure KeyVault Set and Retrieve Secrets using Powershell 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2020/04/enable-powershell-ssh-remoting-in-powershell-7">thomasmaurer.ch: Enable PowerShell SSH Remoting in PowerShell 7</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://hlokensgard.no/2023/12/05/get-started-with-powershell-7-2-in-azure-automation-account">hlokensgard.no: Get started with PowerShell 7.2 in Azure Automation Account</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.github.io/enterprise-azure-policy-as-code">azure.github.io/enterprise-azure-policy-as-code: Enterprise Azure Policy as Code Overview</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.techtarget.com/searchwindowsserver/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API">techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://rakhesh.com/azure/graph-cmdlets-and-azure-ad-app-registrations">rakhesh.com: Graph cmdlets and Azure AD App Registrations</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.yannickreekmans.be/secretless-applications-add-permissions-to-a-managed-identity">blog.yannickreekmans.be: Secretless applications: add permissions to a Managed Identity</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/YannickRe/msgraph-utility-scripts">YannickRe/msgraph-utility-scripts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://practical365.com/connect-microsoft-graph-powershell-sdk">practical365.com: The Ups and Downs of Connecting to the Microsoft Graph Using the PowerShell SDK</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://practical365.com/use-certificate-authentication-microsoft-graph-sdk">practical365.com: Using Certificate-based Authentication with the Microsoft Graph PowerShell SDK</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/jrussellfreelance/powershell-scripts">jrussellfreelance/powershell-scripts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts">github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.shudnow.io">shudnow.io</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/ElanShudnow/AzureCode/blob/main/PowerShell/AzVNETOverlap/README.md">github.com/ElanShudnow/AzureCode: AzVNETOverlap.ps1</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/admindroid-community/powershell-scripts">github.com/admindroid-community/powershell-scripts: PowerShell Scripts for Microsoft 365 Management, Reporting, and Auditing</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devblogs.microsoft.com/powershell/announcing-powershell-crescendo-preview-1">Crescendo</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/ARI">github.com/microsoft/ARI: Azure Resource Inventory 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli">argonsys.com: How to query Azure resources using the Azure CLI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/azure-resource-tags-important-organization-strategies-and-tips">build5nines.com: Azure Resource Tags: Important Organization Strategies and Tips 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/azure-cli-check-if-blob-exists-in-azure-storage">build5nines.com: Azure CLI: Check if Blob Exists in Azure Storage</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://octopus.com/blog/getting-started-with-powershell-dsc">octopus.com: Getting started with PowerShell Desired State Configuration (DSC)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure/bicep">Bicep</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/johnlokerse/azure-bicep-cheat-sheet">github.com/johnlokerse/azure-bicep-cheat-sheet: Azure Bicep Cheat Sheet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/nnellans/bicep-guide">github.com/nnellans/bicep-guide</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2023/06/08/deploy-azure-network-as-code-as-a-champ">blog.cloudtrooper.net: Deploy (Azure) Network-as-Code as a champ</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/defender-for-cloud/iac-vulnerabilities">learn.microsoft.com: Discover misconfigurations in Infrastructure as Code (IaC)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/get-started-with-azure-bicep">build5nines.com: Get Started with Azure Bicep – Alternative to ARM Templates</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linkedin.com/pulse/exporting-importing-variables-between-bicep-files-freek-berson-n0ske">linkedin.com/pulse: Exporting and importing variables between Bicep files: compileTimeImports | Freek Berson</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://luke.geek.nz/azure/azure-naming-tool-api-bicep-resources">luke.geek.nz: Using the Azure Naming Tool API to name your Bicep resources</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.microsoft.com/insidetrack/blog/revolutionizing-our-arm-template-deployment-at-microsoft-with-shift-from-json-to-bicep">microsoft.com: Revolutionizing our ARM template deployment at Microsoft with shift from JSON to BICEP</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://johnlokerse.dev/2024/02/05/lint-azure-bicep-templates-in-azure-devops">johnlokerse.dev: Lint Azure Bicep templates in Azure DevOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/azure-ai-studio-secure-bicep">github.com/Azure-Samples/azure-ai-studio-secure-bicep</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/managedvnet/README.md">Deploy Secure Azure AI Studio with a managed virtual network</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://azure.github.io/Azure-Verified-Modules">azure.github.io/Azure-Verified-Modules 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=y1lOKQOapTw">youtube: Code To Cloud - Getting Started With: Azure Verified Modules</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/samples/azure-samples/avm-terraform-labs/avm-terraform-labs">learn.microsoft.com: Introduction to using Azure Verified Modules for Terraform</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview">learn.microsoft.com: What is Azure DNS Private Resolver?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://aidanfinn.com/?p=23582">aidanfinn.com: Script – Document All Azure Private DNS Zones</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Cloud-Architekt/AzureAD-Attack-Defense">github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devops.com/devsecops-in-azure">devops.com: DevSecOps in Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview">learn.microsoft.com: Azure network security overview</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policy-common">learn.microsoft.com: Conditional Access templates</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Network%20Security%20Dashboard">github.com/Azure/Microsoft-Defender-for-Cloud</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://build5nines.com/introducing-microsoft-copilot-for-azure">build5nines.com: Introducing Microsoft Copilot for Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/azure/fleet">github.com/azure/fleet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10">muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2021/07/getting-started-with-windows-package-manager-winget">thomasmaurer.ch: Getting started with Windows Package Manager WinGet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/this-week-in-programming-windows-opens-up-to-android-developers">thenewstack.io: This Week in Programming: Windows Opens Up to Android Developers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management">jmfloreszazo.com: Monetizar un API, con Azure API Management</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/api-management-workspaces-migration">github.com/Azure-Samples/api-management-workspaces-migration: Azure API Management workspaces migration tool</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://unit42.paloaltonetworks.com/azure-container-instances">unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://nedinthecloud.com/2024/04/15/using-azure-container-instances-for-an-azure-devops-self-hosted-agent">nedinthecloud.com: Using azure container instances for an azure dev ops self hosted agent</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.thomasmaurer.ch/2020/06/how-to-install-a-windows-server-container-host">thomasmaurer.ch: How to Install a Windows Server Container Host</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples">github.com/Azure-Samples 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/azure-pipelines-variable-templates">Azure-Samples/azure-pipelines-variable-templates</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/jmeter-aci-terraform">Azure-Samples/jmeter-aci-terraform</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Azure-Samples/azure-pipelines-remote-tasks">Azure-Samples/azure-pipelines-remote-tasks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/azure-devops">github.com/azure-devops</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/azure-pipelines-yaml">microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/maven.yml">microsoft/azure-pipelines-yaml: maven.yml</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom">Microsoft - DICOM Service</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.microsoft.com/en-us/research/project/medical-image-analysis">Project InnerEye – Democratizing Medical Imaging AI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.microsoft.com/en-us/research/blog/biomedical-research-platform-terra-now-available-on-microsoft-azure">microsoft.com: Biomedical Research Platform Terra Now Available on Microsoft Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://o365reports.com">o365reports.com: Office 365 Reports</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/javinpaul/7-free-courses-to-learn-microsoft-azure-cloud-platform-bg4">dev.to/javinpaul: 7 Free Courses to Learn Microsoft Azure Cloud Platform</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook">github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://jamiemaguire.net/index.php/2023/04/22/first-look-azure-open-ai-studio-prompt-engineering-what-you-can-do-and-how">jamiemaguire.net: First Look: Azure Open AI Studio, Prompt Engineering. What You Can Do and How</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://scoop.sh">Scoop: A command-line installer for windows</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/JPCERTCC/LogonTracer">github.com/JPCERTCC/LogonTracer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/mspnp/AzureNamingTool">github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/JulianHayward/AzADServicePrincipalInsights">github.com/JulianHayward/AzADServicePrincipalInsights</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/ElanShudnow/AzureCode">github.com/ElanShudnow/AzureCode</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport">github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/mustafakaya/Azure-Reliability-Checker-Tool">github.com/mustafakaya/Azure-Reliability-Checker-Tool</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/microsoft/finops-toolkit">github.com/microsoft/finops-toolkit</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/BrianCollet/onboard-automator">github.com/BrianCollet/onboard-automator</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/nicolgit/azure-firewall-mon">github.com/nicolgit/azure-firewall-mon: az-firewall-mon</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link">Private Link Reality Bites: Service Endpoints vs Private Link</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

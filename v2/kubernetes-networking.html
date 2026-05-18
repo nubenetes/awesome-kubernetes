@@ -12,25 +12,31 @@
         <meta name="author" content="Inaki Fernandez">
       
       
+        <link rel="canonical" href="https://nubenetes.com/v2/kubernetes-networking.html">
       
+      
+        <link rel="prev" href="istio.html">
+      
+      
+        <link rel="next" href="networking.html">
       
       
         
       
       
-      <link rel="icon" href="/v2/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes V2 | The Architect's Cut</title>
+        <title>Kubernetes Networking - Nubenetes V2 | The Architect's Cut</title>
       
     
     
-      <link rel="stylesheet" href="/v2/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/v2/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,9 +57,9 @@
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
     
-      <link rel="stylesheet" href="/v2/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/v2/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,6 +83,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kubernetes-networking" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +104,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/v2/index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -113,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Kubernetes Networking
             
           </span>
         </div>
@@ -244,7 +255,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/v2/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -265,7 +276,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/ai-agents-mcp.html" class="md-tabs__link">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
           
   
   
@@ -287,7 +298,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/cheatsheets.html" class="md-tabs__link">
+        <a href="cheatsheets.html" class="md-tabs__link">
           
   
   
@@ -309,7 +320,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/appointment-scheduling.html" class="md-tabs__link">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
           
   
   
@@ -331,7 +342,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/GoogleCloudPlatform.html" class="md-tabs__link">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
           
   
   
@@ -353,7 +364,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/crunchydata.html" class="md-tabs__link">
+        <a href="crunchydata.html" class="md-tabs__link">
           
   
   
@@ -375,7 +386,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/ChromeDevTools.html" class="md-tabs__link">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
           
   
   
@@ -397,7 +408,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/argo.html" class="md-tabs__link">
+        <a href="argo.html" class="md-tabs__link">
           
   
   
@@ -419,7 +430,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -437,11 +448,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/v2/caching.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="caching.html" class="md-tabs__link">
           
   
   
@@ -463,7 +476,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/chaos-engineering.html" class="md-tabs__link">
+        <a href="chaos-engineering.html" class="md-tabs__link">
           
   
   
@@ -485,7 +498,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/container-managers.html" class="md-tabs__link">
+        <a href="container-managers.html" class="md-tabs__link">
           
   
   
@@ -529,7 +542,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/v2/index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -586,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -677,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -705,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -733,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -761,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -890,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -918,7 +931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -946,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -974,7 +987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -1002,7 +1015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -1030,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -1058,7 +1071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1086,7 +1099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -1114,7 +1127,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -1142,7 +1155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -1170,7 +1183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1198,7 +1211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1226,7 +1239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1254,7 +1267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -1282,7 +1295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -1310,7 +1323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -1338,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -1366,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -1394,7 +1407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -1507,7 +1520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -1535,7 +1548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -1563,7 +1576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -1591,7 +1604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1619,7 +1632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -1647,7 +1660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -1675,7 +1688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -1703,7 +1716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -1731,7 +1744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -1759,7 +1772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -1787,7 +1800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -1938,7 +1951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -1966,7 +1979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -1994,7 +2007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -2022,7 +2035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -2050,7 +2063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -2078,7 +2091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -2106,7 +2119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -2134,7 +2147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -2162,7 +2175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -2190,7 +2203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -2218,7 +2231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -2246,7 +2259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -2274,7 +2287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -2302,7 +2315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -2330,7 +2343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -2358,7 +2371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -2386,7 +2399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -2414,7 +2427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -2442,7 +2455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -2554,7 +2567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -2582,7 +2595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -2610,7 +2623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -2638,7 +2651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2666,7 +2679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -2694,7 +2707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -2853,7 +2866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -2881,7 +2894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -2909,7 +2922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -2937,7 +2950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/newsql.html" class="md-nav__link">
+      <a href="newsql.html" class="md-nav__link">
         
   
   
@@ -2965,7 +2978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -2993,7 +3006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -3128,7 +3141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -3156,7 +3169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -3184,7 +3197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -3212,7 +3225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -3240,7 +3253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -3268,7 +3281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -3296,7 +3309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3324,7 +3337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -3352,7 +3365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -3380,7 +3393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3408,7 +3421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -3436,7 +3449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -3464,7 +3477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -3492,7 +3505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -3520,7 +3533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3548,7 +3561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -3576,7 +3589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -3604,7 +3617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -3632,7 +3645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -3660,7 +3673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -3688,7 +3701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -3716,7 +3729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -3833,7 +3846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3861,7 +3874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -3889,7 +3902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -3917,7 +3930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3945,7 +3958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -3973,7 +3986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -4001,7 +4014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -4029,7 +4042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -4057,7 +4070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -4085,7 +4098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -4113,7 +4126,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -4141,7 +4154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4169,7 +4182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -4368,7 +4381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -4396,7 +4409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -4424,7 +4437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -4452,7 +4465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4480,7 +4493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4508,7 +4521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -4536,7 +4549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -4564,7 +4577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -4592,7 +4605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -4624,8 +4637,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -4647,21 +4662,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
-        
-          
-          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
             
   
   
@@ -4679,7 +4695,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             
@@ -4697,7 +4713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -4725,7 +4741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -4753,7 +4769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4778,10 +4794,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/v2/kubernetes-networking.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Networking
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kubernetes-networking.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -4797,6 +4840,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -4809,7 +4883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -4837,7 +4911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4865,7 +4939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -4978,7 +5052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -5006,7 +5080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5034,7 +5108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -5062,7 +5136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -5090,7 +5164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -5118,7 +5192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -5146,7 +5220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -5174,7 +5248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -5202,7 +5276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -5230,7 +5304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -5258,7 +5332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -5391,7 +5465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -5419,7 +5493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/docker.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
@@ -5447,7 +5521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -5475,7 +5549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -5503,7 +5577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -5531,7 +5605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -5559,7 +5633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -5587,7 +5661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -5615,7 +5689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -5643,7 +5717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -5671,7 +5745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -5699,7 +5773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -5727,7 +5801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -5755,7 +5829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -5783,7 +5857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -5811,7 +5885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -5839,7 +5913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -5867,7 +5941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -5895,7 +5969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -5923,7 +5997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -5951,7 +6025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -5992,8 +6066,163 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/kubernetes-networking.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/kubernetes-networking.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="kubernetes-networking">Kubernetes Networking<a class="headerlink" href="#kubernetes-networking" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for Kubernetes Networking in the context of Networking &amp; Service Mesh.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<hr />
+<ul>
+<li><a href="https://blog.ovhcloud.com">ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://traefik.io/blog/kubernetes-ingress-service-api-demystified">containo.us: Kubernetes Ingress &amp; Service API Demystified</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.devclass.com/containers/2021/01/26/haproxy-ingress-controller-15-introduces-mtls-support-gives-load-balancing-experts-more-power/1619777">devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docs.getenroute.io">getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.redhat.com/en/blog/grpc-or-http/2-ingress-connectivity-in-openshift">openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.techtarget.com/searchitoperations/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer">searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.redhat.com/en/blog/global-load-balancer-approaches">cloud.redhat.com: Global Load Balancer Approaches 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.vcluster.com/blog/kubernetes-nginx-ingress">loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learnkube.com/kubernetes-network-packets">learnk8s.io: Tracing the path of network traffic in Kubernetes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://palark.com/blog/comparing-ingress-controllers-for-kubernetes">blog.palark.com: Comparing Ingress controllers for Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer">sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.cyera.com">otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://editor.networkpolicy.io">editor.cilium.io 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.redhat.com/en/blog/network-policies-controlling-cross-project-communication-on-openshift">openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.vcluster.com/blog/kubernetes-network-policies-a-practitioners-guide">loft.sh: Kubernetes Network Policies: A Practitioner's Guide 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.vcluster.com/blog/kubernetes-network-policies-for-isolating-namespaces">loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.buoyant.io/blog/kubernetes-network-policies-with-cilium-and-linkerd">buoyant.io: Kubernetes network policies with Cilium and Linkerd</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.fusionlayer.com/products/infinity">fusionlayer.com: Software-Defined IP Address Management (IPAM)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/flannel-io/flannel">Flannel</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.sysdig.com/blog/how-to-monitor-coredns">sysdig.com: How to monitor coreDNS 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/networking">kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified">stackrox.com: Kubernetes Networking Demystified: A Brief Guide</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster">blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses">dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=VicH6KojwCI">youtube: Kubernetes Ingress Explained Completely For Beginners</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard">speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9">externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address">ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://opensource.com/article/20/8/ingress-controllers-kubernetes">opensource.com: Why I use Ingress Controllers to expose Kubernetes services</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/news/2020/09/kubernetes-ingress-ga">infoq.com: Kubernetes Ingress Is Now Generally Available</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices">kubernetes.io: Scaling Kubernetes Networking With EndpointSlices</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5">haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster">thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.suse.com/c/nginx-guest-blog-kubernetes-ingress-controller">suse.com: NGINX Guest Blog: NGINX Kubernetes Ingress Controller 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudflare.com/moving-k8s-communication-to-grpc">blog.cloudflare.com: Moving k8s communication to gRPC</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/AbsaOSS/k8gb">K8GB - Kubernetes Global Balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash">altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html">opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://nbailey.ca/post/k8s-networking">nbailey.ca: Domesticated Kubernetes Networking</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model">sookocheff.com: A Guide to the Kubernetes Networking Model 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/generating-kubernetes-network-policies-by-sniffing-network-traffic-6d5135fe77db">itnext.io: Generating Kubernetes Network Policies Automatically By Sniffing Network Traffic 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://inlets.dev/blog/2021/07/08/short-lived-clusters.html">inlets.dev: Fixing Ingress for short-lived local Kubernetes clusters</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/why-and-how-of-kubernetes-ingress-and-networking-6cb308ca03d2">itnext.io: Why and How of Kubernetes Ingress (and Networking) 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/zerolb-a-new-decentralized-pattern-for-load-balancing">thenewstack.io: ZeroLB, a New Decentralized Pattern for Load Balancing</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable">ungleich.ch: Making kubernetes kube-dns publicly reachable</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://ungleich.ch/u/blog/kubernetes-without-ingress">ungleich.ch: Building Ingress-less Kubernetes Clusters</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/ingress-controllers-the-more-the-merrier">thenewstack.io: Ingress Controllers: The More the Merrier</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devopscube.com/kubernetes-ingress-tutorial">devopscube.com: Kubernetes Ingress Tutorial For Beginners 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes">thenewstack.io: Ingress Controllers: The Swiss Army Knife of Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devopscube.com/configure-ingress-tls-kubernetes">devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-ingress-beginners-guide">armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c">itnext.io: Kubernetes Service Type LB for On Prem Deployments</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.tkng.io">tkng.io: The Kubernetes Networking Guide 🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.tkng.io/arch">tkng.io/arch: THE KUBERNETES NETWORK MODEL 🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers">platform9.com: Ultimate Guide to Kubernetes Ingress Controllers 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes">dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress">home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/imjoseangel/tune-up-your-kubernetes-application-performance-with-a-small-dns-configuration-1o46">dev.to: Tune up your Kubernetes Application Performance with a small DNS Configuration</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/inspecting-and-understanding-service-network-dfd8c16ff2c5">itnext.io: Inspecting and Understanding k8s Service Network 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/kubernetes-network-deep-dive-7492341e0ab5">itnext.io: Kubernetes networking deep dive: Did you make the right choice?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.edureka.co/blog/kubernetes-networking">edureka.co: Kubernetes Networking – A Comprehensive Guide To The Networking Concepts In Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas">api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html">inlets.dev: How to Get Ingress for Private Kubernetes Clusters</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/narasimha1997/communication-between-microservices-in-a-kubernetes-cluster-1n41">dev.to/narasimha1997: Communication between Microservices in a Kubernetes cluster 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud">thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://community.ops.io/danielepolencic/learning-how-an-ingress-controller-works-by-building-one-in-bash-3fni">community.ops.io: Kubernetes Ingress Controller. How does it work?=</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html">cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html">matthewpalmer.net: Kubernetes Networking Guide for Beginners</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572">itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide">blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://opensource.com/article/21/10/kubernetes-networkpolicy">opensource.com: What you need to know about Kubernetes NetworkPolicy</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce">itnext.io: CKAD Scenarios about Ingress and NetworkPolicy</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/kubernetes-sigs/ingate">InGate: Ingress &amp; Gateway API Controller (Archived)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v1.0.0">NGINX Ingress Controller - v1.0.0</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devopscube.com/setup-ingress-kubernetes-nginx-controller">devopscube.com: How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://mattias.engineer/k8s/ingress">mattias.engineer: Kubernetes-101: Ingress 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://trstringer.com/kubernetes-ingress-with-contour">trstringer.com: Kubernetes Ingress with Contour</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://gateway-api.sigs.k8s.io">gateway-api.sigs.k8s.io 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://kubernetes.io/blog/2021/04/22/evolving-kubernetes-networking-with-the-gateway-api">kubernetes.io: Evolving Kubernetes networking with the Gateway API</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/unifying-kubernetes-service-networking-again-with-the-gateway-api">thenewstack.io: Unifying Kubernetes Service Networking (Again) with the Gateway API 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.armosec.io/blog/kubernetes-gateway-api">armosec.io: The New Kubernetes Gateway API and Its Use Cases</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://navendu.me/posts/gateway-vs-ingress-api">navendu.me: Comparing Kubernetes Gateway and Ingress APIs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods">dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://arthurchiao.art/blog/cracking-k8s-node-proxy">arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters">developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/multi-cluster-kubernetes-networking-with-netmaker-bfa4e22eb2fb">itnext.io: Multi-Cluster Kubernetes Networking with Netmaker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.howtoforge.com/kubernetes_network_policy">howtoforge.com: Network Policy in Kubernetes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.learncloudnative.com/blog/2020-10-07-network-policies">learncloudnative.com: Kubernetes Network Policy</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.bionconsulting.com/blog/kubernetes-network-policies">bionconsulting.com: Kubernetes Network Policies</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/the-kubernetes-network-security-effect">thenewstack.io: The Kubernetes Network Security Effect 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://arthurchiao.art/blog/cracking-k8s-network-policy">arthurchiao.art: Cracking Kubernetes Network Policy</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://cilium.io/blog/2021/02/10/network-policy-editor">cilium.io: NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/installing-cilium-on-kubernetes-in-a-fast-and-efficient-way-dbcb79ce9699">itnext.io: Installing Cilium on Kubernetes in a fast and efficient way</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://cilium.io/blog/2021/05/11/cni-benchmark">cilium.io: CNI Benchmark: Understanding Cilium Network Performance</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.cockroachlabs.com/blog/cockroachdb-kubernetes-cilium">cockroachlabs.com: How to use Cluster Mesh for Multi-Region Kubernetes Pod Communication</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://cilium.io/blog/2021/05/20/cilium-110">cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/ahmetb/kubernetes-network-policy-recipes">ahmetb/kubernetes-network-policy-recipes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18">Supporting the Evolving Ingress Specification in Kubernetes 1.18</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485">itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/stakater/Xposer">github.com/stakater/Xposer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins">Kubernetes.io: Network Plugins</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers">Rancher CNI Providers 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/containernetworking">github.com/containernetworking 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-august-2020-6e1b757b9e49">itnext.io: Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network (Updated: August 2020)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/nokia/danm">Damn</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.tigera.io">tigera.io</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://mhmxs.blogspot.com/2020/12/autoscaling-calico-route-reflector.html">mhmxs.blogspot.com: Autoscaling Calico Route Reflector topology in Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.tigera.io/blog/enforcing-network-security-policies-with-gitops-part-1">tigera.io: Enforcing Network Security Policies with GitOps – Part 1 (Calico + ArgoCD)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/supercharge-coredns-with-cluster-addons">thenewstack.io: Supercharge CoreDNS with Cluster Addons 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes">nslookup.io: The life of a DNS query in Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/kubernetes/enhancements">NodeLocal DNSCache</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://povilasv.me/kubernetes-node-local-dns-cache">Kubernetes Node Local DNS Cache</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.k8gb.io">k8gb.io</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8">dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -6078,10 +6307,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/v2/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "/v2/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="/v2/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

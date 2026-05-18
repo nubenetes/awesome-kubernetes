@@ -12,25 +12,31 @@
         <meta name="author" content="Inaki Fernandez">
       
       
+        <link rel="canonical" href="https://nubenetes.com/v2/docker.html">
       
+      
+        <link rel="prev" href="container-managers.html">
+      
+      
+        <link rel="next" href="kubectl-commands.html">
       
       
         
       
       
-      <link rel="icon" href="/v2/images/favicon-car.png">
+      <link rel="icon" href="images/favicon-car.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Nubenetes V2 | The Architect's Cut</title>
+        <title>Docker - Nubenetes V2 | The Architect's Cut</title>
       
     
     
-      <link rel="stylesheet" href="/v2/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/v2/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,9 +57,9 @@
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
     
-      <link rel="stylesheet" href="/v2/static/extra.css">
+      <link rel="stylesheet" href="static/extra.css">
     
-    <script>__md_scope=new URL("/v2/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,6 +83,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#docker" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +104,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/v2/index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -113,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Docker
             
           </span>
         </div>
@@ -244,7 +255,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/v2/index.html" class="md-tabs__link">
+      <a href="index.html" class="md-tabs__link">
         
   
   
@@ -265,7 +276,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/ai-agents-mcp.html" class="md-tabs__link">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
           
   
   
@@ -287,7 +298,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/cheatsheets.html" class="md-tabs__link">
+        <a href="cheatsheets.html" class="md-tabs__link">
           
   
   
@@ -309,7 +320,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/appointment-scheduling.html" class="md-tabs__link">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
           
   
   
@@ -331,7 +342,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/GoogleCloudPlatform.html" class="md-tabs__link">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
           
   
   
@@ -353,7 +364,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/crunchydata.html" class="md-tabs__link">
+        <a href="crunchydata.html" class="md-tabs__link">
           
   
   
@@ -375,7 +386,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/ChromeDevTools.html" class="md-tabs__link">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
           
   
   
@@ -397,7 +408,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/argo.html" class="md-tabs__link">
+        <a href="argo.html" class="md-tabs__link">
           
   
   
@@ -419,7 +430,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/ansible.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
@@ -441,7 +452,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/caching.html" class="md-tabs__link">
+        <a href="caching.html" class="md-tabs__link">
           
   
   
@@ -463,7 +474,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/v2/chaos-engineering.html" class="md-tabs__link">
+        <a href="chaos-engineering.html" class="md-tabs__link">
           
   
   
@@ -481,11 +492,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/v2/container-managers.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="container-managers.html" class="md-tabs__link">
           
   
   
@@ -529,7 +542,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/v2/index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The Architect&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The Architect's Cut" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -586,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -677,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ai-agents-mcp.html" class="md-nav__link">
+      <a href="ai-agents-mcp.html" class="md-nav__link">
         
   
   
@@ -705,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ai.html" class="md-nav__link">
+      <a href="ai.html" class="md-nav__link">
         
   
   
@@ -733,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/chatgpt.html" class="md-nav__link">
+      <a href="chatgpt.html" class="md-nav__link">
         
   
   
@@ -761,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/mlops.html" class="md-nav__link">
+      <a href="mlops.html" class="md-nav__link">
         
   
   
@@ -890,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cheatsheets.html" class="md-nav__link">
+      <a href="cheatsheets.html" class="md-nav__link">
         
   
   
@@ -918,7 +931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cloud-arch-diagrams.html" class="md-nav__link">
+      <a href="cloud-arch-diagrams.html" class="md-nav__link">
         
   
   
@@ -946,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cloud-asset-inventory.html" class="md-nav__link">
+      <a href="cloud-asset-inventory.html" class="md-nav__link">
         
   
   
@@ -974,7 +987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/customer.html" class="md-nav__link">
+      <a href="customer.html" class="md-nav__link">
         
   
   
@@ -1002,7 +1015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/demos.html" class="md-nav__link">
+      <a href="demos.html" class="md-nav__link">
         
   
   
@@ -1030,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devops-tools.html" class="md-nav__link">
+      <a href="devops-tools.html" class="md-nav__link">
         
   
   
@@ -1058,7 +1071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/faq.html" class="md-nav__link">
+      <a href="faq.html" class="md-nav__link">
         
   
   
@@ -1086,7 +1099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/git.html" class="md-nav__link">
+      <a href="git.html" class="md-nav__link">
         
   
   
@@ -1114,7 +1127,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/grafana.html" class="md-nav__link">
+      <a href="grafana.html" class="md-nav__link">
         
   
   
@@ -1142,7 +1155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/helm.html" class="md-nav__link">
+      <a href="helm.html" class="md-nav__link">
         
   
   
@@ -1170,7 +1183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-tools.html" class="md-nav__link">
+      <a href="kubernetes-tools.html" class="md-nav__link">
         
   
   
@@ -1198,7 +1211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-tutorials.html" class="md-nav__link">
+      <a href="kubernetes-tutorials.html" class="md-nav__link">
         
   
   
@@ -1226,7 +1239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes.html" class="md-nav__link">
+      <a href="kubernetes.html" class="md-nav__link">
         
   
   
@@ -1254,7 +1267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/linux.html" class="md-nav__link">
+      <a href="linux.html" class="md-nav__link">
         
   
   
@@ -1282,7 +1295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/matrix-table.html" class="md-nav__link">
+      <a href="matrix-table.html" class="md-nav__link">
         
   
   
@@ -1310,7 +1323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/mkdocs.html" class="md-nav__link">
+      <a href="mkdocs.html" class="md-nav__link">
         
   
   
@@ -1338,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -1366,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/other-awesome-lists.html" class="md-nav__link">
+      <a href="other-awesome-lists.html" class="md-nav__link">
         
   
   
@@ -1394,7 +1407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/prometheus.html" class="md-nav__link">
+      <a href="prometheus.html" class="md-nav__link">
         
   
   
@@ -1507,7 +1520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/appointment-scheduling.html" class="md-nav__link">
+      <a href="appointment-scheduling.html" class="md-nav__link">
         
   
   
@@ -1535,7 +1548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/digital-money.html" class="md-nav__link">
+      <a href="digital-money.html" class="md-nav__link">
         
   
   
@@ -1563,7 +1576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/elearning.html" class="md-nav__link">
+      <a href="elearning.html" class="md-nav__link">
         
   
   
@@ -1591,7 +1604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/finops.html" class="md-nav__link">
+      <a href="finops.html" class="md-nav__link">
         
   
   
@@ -1619,7 +1632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/freelancing.html" class="md-nav__link">
+      <a href="freelancing.html" class="md-nav__link">
         
   
   
@@ -1647,7 +1660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/hr.html" class="md-nav__link">
+      <a href="hr.html" class="md-nav__link">
         
   
   
@@ -1675,7 +1688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/interview-questions.html" class="md-nav__link">
+      <a href="interview-questions.html" class="md-nav__link">
         
   
   
@@ -1703,7 +1716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/newsfeeds.html" class="md-nav__link">
+      <a href="newsfeeds.html" class="md-nav__link">
         
   
   
@@ -1731,7 +1744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/recruitment.html" class="md-nav__link">
+      <a href="recruitment.html" class="md-nav__link">
         
   
   
@@ -1759,7 +1772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/remote-tech-jobs.html" class="md-nav__link">
+      <a href="remote-tech-jobs.html" class="md-nav__link">
         
   
   
@@ -1787,7 +1800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/workfromhome.html" class="md-nav__link">
+      <a href="workfromhome.html" class="md-nav__link">
         
   
   
@@ -1938,7 +1951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/GoogleCloudPlatform.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
@@ -1966,7 +1979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-architecture.html" class="md-nav__link">
+      <a href="aws-architecture.html" class="md-nav__link">
         
   
   
@@ -1994,7 +2007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-backup.html" class="md-nav__link">
+      <a href="aws-backup.html" class="md-nav__link">
         
   
   
@@ -2022,7 +2035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-containers.html" class="md-nav__link">
+      <a href="aws-containers.html" class="md-nav__link">
         
   
   
@@ -2050,7 +2063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-data.html" class="md-nav__link">
+      <a href="aws-data.html" class="md-nav__link">
         
   
   
@@ -2078,7 +2091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-databases.html" class="md-nav__link">
+      <a href="aws-databases.html" class="md-nav__link">
         
   
   
@@ -2106,7 +2119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-devops.html" class="md-nav__link">
+      <a href="aws-devops.html" class="md-nav__link">
         
   
   
@@ -2134,7 +2147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-iac.html" class="md-nav__link">
+      <a href="aws-iac.html" class="md-nav__link">
         
   
   
@@ -2162,7 +2175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-messaging.html" class="md-nav__link">
+      <a href="aws-messaging.html" class="md-nav__link">
         
   
   
@@ -2190,7 +2203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-miscellaneous.html" class="md-nav__link">
+      <a href="aws-miscellaneous.html" class="md-nav__link">
         
   
   
@@ -2218,7 +2231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-monitoring.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
@@ -2246,7 +2259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-networking.html" class="md-nav__link">
+      <a href="aws-networking.html" class="md-nav__link">
         
   
   
@@ -2274,7 +2287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-newfeatures.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
@@ -2302,7 +2315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-pricing.html" class="md-nav__link">
+      <a href="aws-pricing.html" class="md-nav__link">
         
   
   
@@ -2330,7 +2343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-security.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
@@ -2358,7 +2371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-serverless.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
@@ -2386,7 +2399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-spain.html" class="md-nav__link">
+      <a href="aws-spain.html" class="md-nav__link">
         
   
   
@@ -2414,7 +2427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-storage.html" class="md-nav__link">
+      <a href="aws-storage.html" class="md-nav__link">
         
   
   
@@ -2442,7 +2455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-tools-scripts.html" class="md-nav__link">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
         
   
   
@@ -2470,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws-training.html" class="md-nav__link">
+      <a href="aws-training.html" class="md-nav__link">
         
   
   
@@ -2498,7 +2511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/aws.html" class="md-nav__link">
+      <a href="aws.html" class="md-nav__link">
         
   
   
@@ -2526,7 +2539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/azure.html" class="md-nav__link">
+      <a href="azure.html" class="md-nav__link">
         
   
   
@@ -2554,7 +2567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/digitalocean.html" class="md-nav__link">
+      <a href="digitalocean.html" class="md-nav__link">
         
   
   
@@ -2582,7 +2595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/edge-computing.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
@@ -2610,7 +2623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ibm_cloud.html" class="md-nav__link">
+      <a href="ibm_cloud.html" class="md-nav__link">
         
   
   
@@ -2638,7 +2651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
         
   
   
@@ -2666,7 +2679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/oraclecloud.html" class="md-nav__link">
+      <a href="oraclecloud.html" class="md-nav__link">
         
   
   
@@ -2694,7 +2707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/private-cloud-solutions.html" class="md-nav__link">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -2722,7 +2735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/public-cloud-solutions.html" class="md-nav__link">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
         
   
   
@@ -2750,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/scaleway.html" class="md-nav__link">
+      <a href="scaleway.html" class="md-nav__link">
         
   
   
@@ -2853,7 +2866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/crunchydata.html" class="md-nav__link">
+      <a href="crunchydata.html" class="md-nav__link">
         
   
   
@@ -2881,7 +2894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/databases.html" class="md-nav__link">
+      <a href="databases.html" class="md-nav__link">
         
   
   
@@ -2909,7 +2922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/message-queue.html" class="md-nav__link">
+      <a href="message-queue.html" class="md-nav__link">
         
   
   
@@ -2937,7 +2950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/newsql.html" class="md-nav__link">
+      <a href="newsql.html" class="md-nav__link">
         
   
   
@@ -2965,7 +2978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/nosql.html" class="md-nav__link">
+      <a href="nosql.html" class="md-nav__link">
         
   
   
@@ -2993,7 +3006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/yaml.html" class="md-nav__link">
+      <a href="yaml.html" class="md-nav__link">
         
   
   
@@ -3128,7 +3141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ChromeDevTools.html" class="md-nav__link">
+      <a href="ChromeDevTools.html" class="md-nav__link">
         
   
   
@@ -3156,7 +3169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/angular.html" class="md-nav__link">
+      <a href="angular.html" class="md-nav__link">
         
   
   
@@ -3184,7 +3197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/api.html" class="md-nav__link">
+      <a href="api.html" class="md-nav__link">
         
   
   
@@ -3212,7 +3225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devel-sites.html" class="md-nav__link">
+      <a href="devel-sites.html" class="md-nav__link">
         
   
   
@@ -3240,7 +3253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/dom.html" class="md-nav__link">
+      <a href="dom.html" class="md-nav__link">
         
   
   
@@ -3268,7 +3281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/dotnet.html" class="md-nav__link">
+      <a href="dotnet.html" class="md-nav__link">
         
   
   
@@ -3296,7 +3309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/embedded-servlet-containers.html" class="md-nav__link">
+      <a href="embedded-servlet-containers.html" class="md-nav__link">
         
   
   
@@ -3324,7 +3337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/golang.html" class="md-nav__link">
+      <a href="golang.html" class="md-nav__link">
         
   
   
@@ -3352,7 +3365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/java-and-java-performance-optimization.html" class="md-nav__link">
+      <a href="java-and-java-performance-optimization.html" class="md-nav__link">
         
   
   
@@ -3380,7 +3393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/java_app_servers.html" class="md-nav__link">
+      <a href="java_app_servers.html" class="md-nav__link">
         
   
   
@@ -3408,7 +3421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/java_frameworks.html" class="md-nav__link">
+      <a href="java_frameworks.html" class="md-nav__link">
         
   
   
@@ -3436,7 +3449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/javascript.html" class="md-nav__link">
+      <a href="javascript.html" class="md-nav__link">
         
   
   
@@ -3464,7 +3477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/linux-dev-env.html" class="md-nav__link">
+      <a href="linux-dev-env.html" class="md-nav__link">
         
   
   
@@ -3492,7 +3505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/lowcode-nocode.html" class="md-nav__link">
+      <a href="lowcode-nocode.html" class="md-nav__link">
         
   
   
@@ -3520,7 +3533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/maven-gradle.html" class="md-nav__link">
+      <a href="maven-gradle.html" class="md-nav__link">
         
   
   
@@ -3548,7 +3561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/postman.html" class="md-nav__link">
+      <a href="postman.html" class="md-nav__link">
         
   
   
@@ -3576,7 +3589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/python.html" class="md-nav__link">
+      <a href="python.html" class="md-nav__link">
         
   
   
@@ -3604,7 +3617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/react.html" class="md-nav__link">
+      <a href="react.html" class="md-nav__link">
         
   
   
@@ -3632,7 +3645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/swagger-code-generator-for-rest-apis.html" class="md-nav__link">
+      <a href="swagger-code-generator-for-rest-apis.html" class="md-nav__link">
         
   
   
@@ -3660,7 +3673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/visual-studio.html" class="md-nav__link">
+      <a href="visual-studio.html" class="md-nav__link">
         
   
   
@@ -3688,7 +3701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/web3.html" class="md-nav__link">
+      <a href="web3.html" class="md-nav__link">
         
   
   
@@ -3716,7 +3729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/xamarin.html" class="md-nav__link">
+      <a href="xamarin.html" class="md-nav__link">
         
   
   
@@ -3833,7 +3846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/argo.html" class="md-nav__link">
+      <a href="argo.html" class="md-nav__link">
         
   
   
@@ -3861,7 +3874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cicd-kubernetes-plugins.html" class="md-nav__link">
+      <a href="cicd-kubernetes-plugins.html" class="md-nav__link">
         
   
   
@@ -3889,7 +3902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cicd.html" class="md-nav__link">
+      <a href="cicd.html" class="md-nav__link">
         
   
   
@@ -3917,7 +3930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/flux.html" class="md-nav__link">
+      <a href="flux.html" class="md-nav__link">
         
   
   
@@ -3945,7 +3958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/gitops.html" class="md-nav__link">
+      <a href="gitops.html" class="md-nav__link">
         
   
   
@@ -3973,7 +3986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/jenkins-alternatives.html" class="md-nav__link">
+      <a href="jenkins-alternatives.html" class="md-nav__link">
         
   
   
@@ -4001,7 +4014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/jenkins.html" class="md-nav__link">
+      <a href="jenkins.html" class="md-nav__link">
         
   
   
@@ -4029,7 +4042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/keptn.html" class="md-nav__link">
+      <a href="keptn.html" class="md-nav__link">
         
   
   
@@ -4057,7 +4070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/openshift-pipelines.html" class="md-nav__link">
+      <a href="openshift-pipelines.html" class="md-nav__link">
         
   
   
@@ -4085,7 +4098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/registries.html" class="md-nav__link">
+      <a href="registries.html" class="md-nav__link">
         
   
   
@@ -4113,7 +4126,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/sonarqube.html" class="md-nav__link">
+      <a href="sonarqube.html" class="md-nav__link">
         
   
   
@@ -4141,7 +4154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/stackstorm.html" class="md-nav__link">
+      <a href="stackstorm.html" class="md-nav__link">
         
   
   
@@ -4169,7 +4182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/tekton.html" class="md-nav__link">
+      <a href="tekton.html" class="md-nav__link">
         
   
   
@@ -4284,7 +4297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ansible.html" class="md-nav__link">
+      <a href="ansible.html" class="md-nav__link">
         
   
   
@@ -4312,7 +4325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/chef.html" class="md-nav__link">
+      <a href="chef.html" class="md-nav__link">
         
   
   
@@ -4340,7 +4353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/crossplane.html" class="md-nav__link">
+      <a href="crossplane.html" class="md-nav__link">
         
   
   
@@ -4368,7 +4381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devsecops.html" class="md-nav__link">
+      <a href="devsecops.html" class="md-nav__link">
         
   
   
@@ -4396,7 +4409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/iac.html" class="md-nav__link">
+      <a href="iac.html" class="md-nav__link">
         
   
   
@@ -4424,7 +4437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-security.html" class="md-nav__link">
+      <a href="kubernetes-security.html" class="md-nav__link">
         
   
   
@@ -4452,7 +4465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kustomize.html" class="md-nav__link">
+      <a href="kustomize.html" class="md-nav__link">
         
   
   
@@ -4480,7 +4493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/liquibase.html" class="md-nav__link">
+      <a href="liquibase.html" class="md-nav__link">
         
   
   
@@ -4508,7 +4521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/oauth.html" class="md-nav__link">
+      <a href="oauth.html" class="md-nav__link">
         
   
   
@@ -4536,7 +4549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/pulumi.html" class="md-nav__link">
+      <a href="pulumi.html" class="md-nav__link">
         
   
   
@@ -4564,7 +4577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/securityascode.html" class="md-nav__link">
+      <a href="securityascode.html" class="md-nav__link">
         
   
   
@@ -4592,7 +4605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/terraform.html" class="md-nav__link">
+      <a href="terraform.html" class="md-nav__link">
         
   
   
@@ -4697,7 +4710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/caching.html" class="md-nav__link">
+      <a href="caching.html" class="md-nav__link">
         
   
   
@@ -4725,7 +4738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         
   
   
@@ -4753,7 +4766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/istio.html" class="md-nav__link">
+      <a href="istio.html" class="md-nav__link">
         
   
   
@@ -4781,7 +4794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-networking.html" class="md-nav__link">
+      <a href="kubernetes-networking.html" class="md-nav__link">
         
   
   
@@ -4809,7 +4822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/networking.html" class="md-nav__link">
+      <a href="networking.html" class="md-nav__link">
         
   
   
@@ -4837,7 +4850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/servicemesh.html" class="md-nav__link">
+      <a href="servicemesh.html" class="md-nav__link">
         
   
   
@@ -4865,7 +4878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/web-servers.html" class="md-nav__link">
+      <a href="web-servers.html" class="md-nav__link">
         
   
   
@@ -4978,7 +4991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/chaos-engineering.html" class="md-nav__link">
+      <a href="chaos-engineering.html" class="md-nav__link">
         
   
   
@@ -5006,7 +5019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/developerportals.html" class="md-nav__link">
+      <a href="developerportals.html" class="md-nav__link">
         
   
   
@@ -5034,7 +5047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/devops.html" class="md-nav__link">
+      <a href="devops.html" class="md-nav__link">
         
   
   
@@ -5062,7 +5075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
+      <a href="performance-testing-with-jenkins-and-jmeter.html" class="md-nav__link">
         
   
   
@@ -5090,7 +5103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/project-management-methodology.html" class="md-nav__link">
+      <a href="project-management-methodology.html" class="md-nav__link">
         
   
   
@@ -5118,7 +5131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/project-management-tools.html" class="md-nav__link">
+      <a href="project-management-tools.html" class="md-nav__link">
         
   
   
@@ -5146,7 +5159,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/qa.html" class="md-nav__link">
+      <a href="qa.html" class="md-nav__link">
         
   
   
@@ -5174,7 +5187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/scaffolding.html" class="md-nav__link">
+      <a href="scaffolding.html" class="md-nav__link">
         
   
   
@@ -5202,7 +5215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/sre.html" class="md-nav__link">
+      <a href="sre.html" class="md-nav__link">
         
   
   
@@ -5230,7 +5243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/test-automation-frameworks.html" class="md-nav__link">
+      <a href="test-automation-frameworks.html" class="md-nav__link">
         
   
   
@@ -5258,7 +5271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/testops.html" class="md-nav__link">
+      <a href="testops.html" class="md-nav__link">
         
   
   
@@ -5290,8 +5303,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -5341,21 +5356,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
-        
-          
-          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
             
   
   
@@ -5373,7 +5389,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_13">
             <span class="md-nav__icon md-icon"></span>
             
@@ -5391,7 +5407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/container-managers.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
@@ -5416,10 +5432,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/v2/docker.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="docker.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -5435,6 +5478,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -5447,7 +5521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubectl-commands.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
@@ -5475,7 +5549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-alternatives.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
@@ -5503,7 +5577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-autoscaling.html" class="md-nav__link">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
         
   
   
@@ -5531,7 +5605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-backup-migrations.html" class="md-nav__link">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
         
   
   
@@ -5559,7 +5633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-based-devel.html" class="md-nav__link">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
         
   
   
@@ -5587,7 +5661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-bigdata.html" class="md-nav__link">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
         
   
   
@@ -5615,7 +5689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-client-libraries.html" class="md-nav__link">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
         
   
   
@@ -5643,7 +5717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-monitoring.html" class="md-nav__link">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
         
   
   
@@ -5671,7 +5745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-on-premise.html" class="md-nav__link">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
         
   
   
@@ -5699,7 +5773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-operators-controllers.html" class="md-nav__link">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
         
   
   
@@ -5727,7 +5801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-releases.html" class="md-nav__link">
+      <a href="kubernetes-releases.html" class="md-nav__link">
         
   
   
@@ -5755,7 +5829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-storage.html" class="md-nav__link">
+      <a href="kubernetes-storage.html" class="md-nav__link">
         
   
   
@@ -5783,7 +5857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/kubernetes-troubleshooting.html" class="md-nav__link">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
         
   
   
@@ -5811,7 +5885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/noops.html" class="md-nav__link">
+      <a href="noops.html" class="md-nav__link">
         
   
   
@@ -5839,7 +5913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ocp3.html" class="md-nav__link">
+      <a href="ocp3.html" class="md-nav__link">
         
   
   
@@ -5867,7 +5941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/ocp4.html" class="md-nav__link">
+      <a href="ocp4.html" class="md-nav__link">
         
   
   
@@ -5895,7 +5969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/openshift.html" class="md-nav__link">
+      <a href="openshift.html" class="md-nav__link">
         
   
   
@@ -5923,7 +5997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/rancher.html" class="md-nav__link">
+      <a href="rancher.html" class="md-nav__link">
         
   
   
@@ -5951,7 +6025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/v2/serverless.html" class="md-nav__link">
+      <a href="serverless.html" class="md-nav__link">
         
   
   
@@ -5992,8 +6066,191 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/docker.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/docker.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for Docker in the context of The Container Stack.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<hr />
+<ul>
+<li><a href="https://jfrog.com/learn/cloud-native/how-to-build-docker-images">jfrog.com: A Beginner’s Guide to Understanding and Building Docker Images 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker">adictosaltrabajo.com: Cómo crear y desplegar microservicios con Spring Boot, Spring Cloud Netflix y Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://developers.redhat.com/blog/making-environment-variables-accessible-in-front-end-containers">developers.redhat.com: Making environment variables accessible in front-end containers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes">releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker">grafana.com: Docker Integration for Grafana Cloud</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://adoptium.net/news/2021/08/using-jlink-in-dockerfiles">blog.adoptium.net: Using Jlink in Dockerfiles instead of a JRE</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://mattrickard.com/docker-desktop-alternatives">matt-rickard.com: An Overview of Docker Desktop Alternatives</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoworld.com/article/2269272/how-docker-broke-in-half.html">infoworld.com: How Docker broke in half</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoworld.com/article/2270814/docker-really-did-change-the-world.html">infoworld.com: Docker really did change the world</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/containers/how-to-share-data-between-docker-containers">thenewstack.io: How to Share Data Between Docker Containers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.pluralsight.com/resources/blog/cloud/docker-copy-vs-add-whats-the-difference">acloudguru.com: Docker COPY vs ADD: What’s the difference?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.hostinger.com/in/tutorials/what-is-docker">hostinger.in: What Is Docker and How Does It Work? – Docker Explained</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.sysdig.com/learn-cloud-native/dockerfile-best-practices">sysdig.com: Top 20 Dockerfile best practices 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docs.docker.com/reference/cli/docker/buildx/imagetools">docs.docker.com: docker buildx imagetools</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/pabpereza/containers-best-practices">github.com/pabpereza/curated-dockerfiles-examples: Curated Dockerfiles examples</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes">containerjournal.com: What’s the Difference Between Docker and Kubernetes?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://octopus.com/blog/docker-anti-patterns">codefresh.io: Docker anti-patterns 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security">augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.root.io">slim.ai</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://learnkube.com/blog/smaller-docker-images">learnk8s.io: 3 simple tricks for smaller Docker images 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns">jpetazzo.github.io: Anti-Patterns When Building Container Images</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s">nrmitchi.com: One Simple Trick for Building Images Faster 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.inedo.com/devops/top-50-docker-tools">Top 50 Docker Tools</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://sematext.com/capabilities/container-monitoring">sematext: Monitor Docker Metrics &amp; Logs 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoworld.com/article/2257118/dockers-compose-specification-is-now-an-open-standard.html">infoworld.com: Docker's Compose specification is now an open standard</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.theregister.com/software/2020/04/08/compose-yourselves-docker-has-published-multi-container-app-spec-needs-contributors-to-help-maintain-and-develop-it/311866">theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://release.com/blog/6-docker-compose-best-practices-for-dev-and-prod">releasehub.com: 6 Docker Compose Best Practices for Dev and Prod</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="http://crunchtools.com/moving-linux-services-to-containers">crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509">techcommunity.microsoft.com: IIS Central Certificate Store and Windows containers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.portainer.io/install">Portainer Community Edition</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="http://crunchtools.com/comparison-linux-container-images">crunchtools.com: A Comparison of Linux Container Images</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://jfrog.com/learn/devops/alternatives-to-docker">jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docs.docker.com/build/buildkit">buildkit</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.logrocket.com/docker-alternatives">blog.logrocket.com: Top Docker alternatives for 2022</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://americanexpress.io/do-not-run-dockerized-applications-as-root">americanexpress.io: <strong>Do Not Run Dockerized Applications as Root</strong> 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b">freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://labs.play-with-docker.com">Play with docker 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/docker/build-push-action"><strong>GitHub build-push-action</strong></a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598">itnext.io: Getting Started with Docker: Facts You Should Know 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://pythonspeed.com/articles/dockerizing-python-is-hard">Broken by default: why you should avoid most Dockerfile example 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html">Top 18 Docker commands for Automation Tester/Devops/SDET/Test Lead? 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment">A Gentle Introduction to Using a Docker Container as a Dev Environment 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docs.docker.com/engine/context/ecs-integration">docs.docker.com: Deploying Docker containers on ECS</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://martinheinz.dev/blog/35">martinheinz.dev: It's Time to Forget About Docker 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/news/2021/01/docker-jfrog-partnership">infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for Artifactory Users</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://pythonspeed.com/articles/security-updates-in-docker">pythonspeed.com: The worst so-called “best practice” for Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.theskillpedia.com/managing-docker-images-openshift-tutorial">theskillpedia.com: Managing docker images - openshift tutorial</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications">r-bloggers.com: Dockerizing Shiny Applications</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://pythonspeed.com/articles/docker-performance-overhead">pythonspeed.com: Docker can slow down your code and distort your benchmarks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html">linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7">dev.to: Docker CMD vs ENTRYPOINT: explaining the difference</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.gougousis.net/file-permissions-the-painful-side-of-docker">blog.gougousis.net: File Permissions: the painful side of Docker 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure">returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/kubona_my/docker-101-124e">dev.to: Docker 101!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux">tecmint.com: How to Install Docker on Rocky Linux and AlmaLinux</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker">returngis.net: Explorar gráficamente el contenido de un volumen de Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://opensource.com/article/21/8/container-image">opensource.com: What is a container image?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line">zdnet.com: Docker changes its subscription plans, usage rules, and product line</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop">servethehome.com: Docker Abruptly Starts Charging Many Users for Docker Desktop</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.aquasec.com/container-isolation-techniques">blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae">dev.to: One does not "just containerize" an app</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe">dev.to: How to create a production Docker image</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik">dev.to: How to run docker on Windows without Docker Desktop</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75">dev.to: Beginner's guide to Docker and Docker CLI commands</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud">freecodecamp.org: Learn How to Deploy 12 Apps to AWS, Azure, &amp; Google Cloud</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.freecodecamp.org/news/why-you-should-start-using-docker-now">freecodecamp.org: Why You Should Start Using Docker Right Now</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://iximiuz.com/en/posts/container-learning-path">iximiuz.com: Learning Containers From The Bottom Up | Ivan Velichko 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived">thenewstack.io: The Time to Decide on Docker Desktop Has Arrived</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python">codeproject.com: How to Create an Image in Docker using Python</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://iximiuz.com/en/posts/containers-101-attach-vs-exec">iximiuz.com: Containers 101: attach vs. exec - what's the difference?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/how-to-run-docker-in-rootless-mode">thenewstack.io: How to Run Docker in Rootless Mode</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/dhravya/docker-explained-to-a-5-year-old-2cbg">dev.to: Docker: Explained to a 5 year old. 👶🏻</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.freecodecamp.org/news/docker-cache-tutorial">freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/signoz/docker-101-introduction-to-docker-1kbm">dev.to: Docker 101: Introduction to Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devtron.ai/blog/cmd-and-entrypoint-differences">devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docker-curriculum.com">docker-curriculum.com: A Docker Tutorial for Beginners 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://viblo.asia/p/how-to-prevent-out-of-disk-space-when-using-docker-english-WR5JRDBrVGv">viblo.asia: How to prevent out-of-disk space when using Docker?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://iximiuz.com/en/posts/docker-publish-container-ports">iximiuz.com: What Actually Happens When You Publish a Container Port 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://iximiuz.com/en/posts/docker-publish-port-of-running-container">iximiuz.com: How To Publish a Port of a Running Container 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k">dev.to: Simplify Your Dockerfile wiyth Rust programming language| Kamesh Sampath</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.youtube.com/watch?v=0mxhS7H6bxM">youtube: Docker 101 (Workshop) how an application can be run using Docker containers. First, you'll learn how to take an application all the way from source code to a running container. Docker-compose, networking, multi-stage and more 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.codementor.io/blog/docker-technology-5x1kilcbow">codementor.io: Docker: What's Under the Hood?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo">dev.to/javinpaul: My Favorite Free Courses to Learn Docker and Containers in 2023</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b">dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive Guide</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45">dev.to: Docker : From Zero to Hero 🛸 ( part 1) | Prasenjeet Kumar</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://devopscube.com/build-docker-image">devopscube.com: How to Build Docker Image : Comprehensive Beginners Guide</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://testdriven.io/blog/docker-best-practices">testdriven.io: Docker Best Practices for Python Developers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39">dev.to: Top 8 Docker Best Practices for using Docker in Production 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh">dev.to: Top 5 Docker Best Practices</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images">stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://spacelift.io/blog/docker-volumes">spacelift.io: Docker Volumes – Guide with Examples</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://docs.netapp.com/us-en/trident/trident-docker/volumes-docker.html">docs.netapp.com: Work with docker volumes - Astra Trident 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://iximiuz.com/en/posts/docker-debug-slim-containers">iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2">dev.to: 9 Docker Extensions Every Developer Must Try</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/Saniewski/mongo-express-docker-extension">github.com/Saniewski/mongo-express-docker-extension</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker">blog.testproject.io: A Comparison of Kubernetes and Docker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos">acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://brianchristner.io/how-to-use-docker-scan">brianchristner.io: How to use Docker Security Scan Locally</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://snyk.io/blog/10-docker-image-security-best-practices">snyk.io: 10 Docker Security Best Practices 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/articles/securing-docker">infoq.com: Is Docker Secure Enough?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.clickittech.com/devops/docker-security-best-practices">clickittech.com: The Ultimate Docker Security Best Practices for Your Node.js Application</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1">securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size">developers.redhat.com: Keep it small: a closer look at Docker image sizing</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itsopensource.com/how-to-reduce-node-docker-image-size-by-ten-times">itsopensource.com: How to Reduce Node Docker Image Size by 10X</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3">blog.bitsrc.io: Best Practices for Writing a Dockerfile</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments">sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/building-docker-images-the-proper-way-3c9807524582">itnext.io: Building Docker Images The Proper Way 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage">returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim">developers.redhat.com: Reduce the size of container images with DockerSlim</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://piotrminkowski.com/2023/11/07/slim-docker-images-for-java">piotrminkowski.com: Slim Docker Images for Java</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit">bhupesh.me: How I reduced the size of my very first published docker image by 40% - A lesson in dockerizing shell scripts 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://pythonspeed.com/articles/docker-buildkit">pythonspeed.com: Docker BuildKit: faster builds, new features, and now it’s stable</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/news/2020/07/docker-ecs-plugin">docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/wagoodman/dive">dive 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/bcicen/ctop">ctop 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl">dev.to: Use Kool to Dockerize Your Local Development Environment the Right Way</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/stepchowfun/docuum">stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/cybersecsi/RAUDI">cybersecsi/RAUDI</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/grosser/preoomkiller">grosser/preoomkiller</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/ory/dockertest">ory/dockertest</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/hadolint/hadolint">hadolint/hadolint: Haskell Dockerfile Linter</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://ttl.sh">ttl.sh: Anonymous &amp; ephemeral Docker image registry 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/ktock/buildg">buildg: Interactive debugger for Dockerfile 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg">infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/jesseduffield/lazydocker">jesseduffield/lazydocker</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/containrrr/watchtower">github.com/containrrr/watchtower</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://andrewlock.net/installing-docker-desktop-for-windows">andrewlock.net: Installing Docker Desktop for Windows and WSL 2</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa">freecodecamp.org: a beginners guide to docker - how to create a client server side with docker compose</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://geshan.com.np/blog/2021/12/docker-postgres">geshan.com.np: Postgres with Docker and Docker compose a step-by-step guide for beginners</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://codesolid.com/how-to-use-docker-with-python">codesolid.com: How To Use Docker and Docker Compose With Python</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer">thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users">developers.redhat.com: Red Hat Universal Base Images for Docker users</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://hub.docker.com/u/redhat">Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care">developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub">redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.digitalocean.com/community/tags/docker">Digital Ocean: Docker Tutorials</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://buildpacks.io">buildpacks.io: Cloud Native Buildpacks 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks">altoros.com: Streamlining the Creation of Docker Images with Cloud Native Buildpacks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks">thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p">dev.to/pmbanugo: Goodbye Dockerfiles: Build Secure &amp; Optimised Node.js Container Images with Cloud Native Buildpacks</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/genuinetools/img">img</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://github.com/GoogleContainerTools/jib">jib</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+<li><a href="https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19">itnext.io: Replace Docker Desktop with lima</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -6078,10 +6335,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/v2/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "/v2/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="/v2/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
