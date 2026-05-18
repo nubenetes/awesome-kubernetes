@@ -399,7 +399,15 @@ class V2VisionEngine:
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
             
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), is_intro=(f_name=="introduction.md"))
-            with open(os.path.join(V2_DIR, f_name), "w") as f: f.write(md)
+            
+            # Smart Write: Only update disk if content changed
+            target_path = os.path.join(V2_DIR, f_name)
+            existing_content = ""
+            if os.path.exists(target_path):
+                with open(target_path, "r") as f: existing_content = f.read()
+            
+            if md != existing_content:
+                with open(target_path, "w") as f: f.write(md)
 
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
