@@ -26,7 +26,7 @@
 - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to Caching in the Cloud | Anuj Kothiyal](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
 - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)
 - [learncsdesign.medium.com: An Overview of Distributed Caching 🌟 [ARCHIVED]]( http://web.archive.org/web/20220717060745/https://learncsdesign.medium.com/an-overview-of-distributed-caching-e426781d1ff0)
-- [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science//)
+- [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science///)
 
 ## Java Caching
 
@@ -41,16 +41,16 @@
 - In 2011, Red Hat began producing a commercial version of Infinispan, dubbed JBoss Enterprise Data Grid.
 - [Red Hat Data Grid Overview](https://developers.redhat.com/products/datagrid/overview)
 - [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid)
-- [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore//)
+- [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore///)
 - [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more/)
 
 ## CDN Content Delivery Network
 
 - [Wikipedia: CDN Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)
     - [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs)
-- [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work//)
-- [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching//)
-- [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work//)
+- [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work///)
+- [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching///)
+- [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work///)
 
 ## HAProxy
 
@@ -67,7 +67,7 @@
 - [Varnish Cache](https://www.varnish.org/index.html/)
 - [varnish-software.com](https://www.varnish-software.com) Varnish Software is the company behind Varnish Cache, the open source HTTP accelerator.
     - [The Varnish Book](http://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
-- [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable//)
+- [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable///)
 - [Red Hat Developer Blog. Tag: Varnish](https://developerblog.redhat.com/tag/varnish/)
 - [Red Hat Enterprise Linux Blog. Tag: Varnish](http://rhelblog.redhat.com/tag/varnish/)
 - [varnish-cache.org: Installation on RedHat](https://www.varnish.org/index.html/installation/redhat)
