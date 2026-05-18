@@ -80,16 +80,6 @@ markdown_extensions:
   - pymdownx.mark
 
 nav:
-  - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
   - "The 2026 Vision": index.md
-  - "Intelligent Control Plane": intelligent-control-plane.md
   - "Architectural Foundations": architectural-foundations.md
-  - "Platform & Site Reliability": platform-and-site-reliability.md
-  - "Hardened Infrastructure": hardened-infrastructure.md
-  - "Cloud Providers (Hyperscalers)": cloud-providers-hyperscalers.md
-  - "Networking & Service Mesh": networking-and-service-mesh.md
-  - "The Container Stack": the-container-stack.md
   - "Data & Advanced Analytics": data-and-advanced-analytics.md
-  - "Engineering Pipeline": engineering-pipeline.md
-  - "Developer Ecosystem": developer-ecosystem.md
-  - "Career & Industry": career-and-industry.md
