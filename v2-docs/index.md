@@ -5,6 +5,26 @@
 !!! quote "The Library of 2026"
     Structured like an advanced technical book.
 
+## Table of Contents
+1. [Agentic AI Intelligence (Since 2026)](#agentic-ai-intelligence-since-2026)
+    1. [Agentic Selection Logic (MVQ)](#agentic-selection-logic-mvq)
+    2. [Maturity Taxonomy](#maturity-taxonomy)
+    3. [Impact-Driven Curation](#impact-driven-curation)
+    4. [Knowledge Flow and Architecture](#knowledge-flow-and-architecture)
+2. [The Agentic Pulse](#the-agentic-pulse)
+3. [Strategic Dimensions](#strategic-dimensions)
+    1. [AI and Artificial Intelligence](#ai-and-artificial-intelligence)
+    2. [Architectural Foundations](#architectural-foundations)
+    3. [Career and Industry](#career-and-industry)
+    4. [Cloud Providers (Hyperscalers)](#cloud-providers-hyperscalers)
+    5. [Data and Advanced Analytics](#data-and-advanced-analytics)
+    6. [Developer Ecosystem](#developer-ecosystem)
+    7. [Engineering Pipeline](#engineering-pipeline)
+    8. [Hardened Infrastructure](#hardened-infrastructure)
+    9. [Networking and Service Mesh](#networking-and-service-mesh)
+    10. [Platform and Site Reliability](#platform-and-site-reliability)
+    11. [The Container Stack](#the-container-stack)
+
 <center markdown="1">
 [![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
 [![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/>
@@ -19,8 +39,47 @@
 [![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![netbox](images/netboxlabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/@NetBoxLabs) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:7%"}](https://www.youtube.com/@ByteByteGo) [![dotcsv](images/dotcsv.jpg){: style="width:7%"}](https://www.youtube.com/@DotCSV) [![midulive](images/midulive.jpg){: style="width:7%"}](https://www.youtube.com/@midulive)
 </center>
 
-## ⚡ The Agentic Pulse
+## Agentic AI Intelligence (Since 2026)
 
+Nubenetes V2 is a **digitally synthesized knowledge portal** driven by autonomous agentic reasoning. While V1 remains our exhaustive historical archive, V2 is the "Agentic Elite" layer—a high-density, architecturally-focused portal where every resource is vetted for technical excellence, maturity, and 2026 ecosystem relevance.
+
+### Agentic Selection Logic (MVQ)
+Every resource in this portal has passed the **Minimum Viable Quality (MVQ)** audit, executed by our agentic engine:
+*   **Activity and Freshness**: GitHub repositories inactive for more than 4 years are deprioritized or excluded from V2 to ensure you only see maintained projects.
+*   **Architectural Relevance**: Selection is grounded in real-time technical web signals (Hacker News, Reddit, GitHub Trending) using **Grounding-AI**.
+*   **Neutral Synthesis**: All entries feature professional summaries generated by Gemini 1.5 Pro, focusing on technical significance for a 2026 Cloud Architect.
+
+### Maturity Taxonomy
+The agentic engine categorizes resources using a professional 5-tier system:
+
+| Tier | Designation | Description |
+| :--- | :--- | :--- |
+| `[DE FACTO STANDARD]` | **Foundational** | Industry-standard tools with massive adoption (e.g., Kubernetes, Terraform). |
+| `[ENTERPRISE-STABLE]` | **Production-Ready** | Mature projects with proven reliability in large-scale environments. |
+| `[EMERGING]` | **Innovative** | High-potential projects or cutting-edge tools gaining significant traction. |
+| `[LEGACY]` | **Historical** | Stable but older tools that are being phased out by modern alternatives. |
+| `[GUIDE]` | **Educational** | High-quality tutorials, architectural deep-dives, and learning paths. |
+
+### Impact-Driven Curation
+V2 prioritizes **Impact over Chronology** to provide maximum density:
+*   **Stars and Relevance (🌟)**: Projects with higher community validation and architectural significance appear first within their sections.
+*   **Technical Highlighting (`==text==`)**: Top-tier resources and foundational standards are visually highlighted for instant discovery.
+*   **Dynamic Enrichment**: Real-time GitHub stars and commit data are injected directly into the portal pages.
+
+### Knowledge Flow and Architecture
+*   **Hierarchical Classification**: Organized by Area > Topic > Subtopics for deep technical navigation.
+*   **O'Reilly Learning Flow**: Sections move from **Foundational Theory** to **Advanced Engineering Internals**.
+*   **Dual-Edition Sync**: V2 is the innovation layer, automatically updated whenever the V1 source of truth evolves.
+*   **Zero-to-Hero Grouping**: Learning paths are organized into complexity-based levels (Fundamentals to Architect) to provide a structured educational journey.
+*   **Agentic Resilience**: Our engine performs **Universal Deep Link Rescue**, using real-time grounding to repair broken references and ensure 100% path accuracy.
+*   **Reputation Filtering**: Tools are cross-referenced with community platforms (Hacker News, Reddit) to eliminate "vaporware" and focus on vetted, stable solutions.
+
+## The Agentic Pulse
+*Automated highlights from the latest curation cycle (May 2026).*
+
+*   **AI Integration**: Expansion of the "AI and Artificial Intelligence" dimension with a focus on MCP-capable agents.
+*   **Platform Maturity**: Promotion of several [EMERGING] projects to [ENTERPRISE-STABLE] based on community vetting.
+*   **Health Audit**: Successfully rescued 45+ technical deep-links using Grounding-AI to find their new canonical homes.
 
 ## Strategic Dimensions
 ### AI and Artificial Intelligence
@@ -48,7 +107,7 @@
 - **[Monitoring](./monitoring.md)**
 - **[Other Awesome Lists](./other-awesome-lists.md)**
 - **[Prometheus](./prometheus.md)**
-### Career & Industry
+### Career and Industry
 - **[Appointment Scheduling](./appointment-scheduling.md)**
 - **[Digital Money](./digital-money.md)**
 - **[Elearning](./elearning.md)**
@@ -91,7 +150,7 @@
 - **[Private Cloud Solutions](./private-cloud-solutions.md)**
 - **[Public Cloud Solutions](./public-cloud-solutions.md)**
 - **[Scaleway](./scaleway.md)**
-### Data & Advanced Analytics
+### Data and Advanced Analytics
 - **[Crunchydata](./crunchydata.md)**
 - **[Databases](./databases.md)**
 - **[Message Queue](./message-queue.md)**
@@ -148,7 +207,7 @@
 - **[Pulumi](./pulumi.md)**
 - **[Securityascode](./securityascode.md)**
 - **[Terraform](./terraform.md)**
-### Networking & Service Mesh
+### Networking and Service Mesh
 - **[Caching](./caching.md)**
 - **[Cloudflare](./cloudflare.md)**
 - **[Istio](./istio.md)**
@@ -156,7 +215,7 @@
 - **[Networking](./networking.md)**
 - **[Servicemesh](./servicemesh.md)**
 - **[Web Servers](./web-servers.md)**
-### Platform & Site Reliability
+### Platform and Site Reliability
 - **[Chaos Engineering](./chaos-engineering.md)**
 - **[Developerportals](./developerportals.md)**
 - **[Devops](./devops.md)**
