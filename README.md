@@ -128,9 +128,9 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15295+** |
+| **Total Technical Resources (Links)** | **15296+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4688+** |
+| **Total Commits** | **4691+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -168,7 +168,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1129 | 4,662 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1132 | 4,675 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -184,8 +184,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4662]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1129]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4675]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1132]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -194,7 +194,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1104 | 4,559 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1107 | 4,571 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -214,7 +214,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 895
+    "Specialized Topics" : 896
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -228,7 +228,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13765
+    "English" : 13766
     "Spanish" : 917
     "French" : 152
     "Others" : 458
