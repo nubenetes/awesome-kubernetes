@@ -18,11 +18,6 @@ on:
       - 'docs/**'
       - 'data/inventory.yaml'
       - 'src/v2_optimizer.py'
-  # Support automated sync after curation or cleaning runs
-  workflow_run:
-    workflows: ["Nubenetes Automated Agentic Curation", "Nubenetes Intelligent Link Cleaner & Dedup"]
-    types:
-      - completed
 
 permissions:
   contents: write
@@ -31,7 +26,7 @@ permissions:
 jobs:
   build-v2-edition:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/develop') || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/develop')
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v4
@@ -71,5 +66,5 @@ jobs:
           base: develop
           title: "V2 Elite: Agentic Optimization Sync (2026)"
           body-path: pr_description.md
-          commit-message: "feat: sync V2 elite curated edition"
+          commit-message: "feat: sync V2 elite curated edition [skip ci]"
           labels: "v2-elite, agentic-sync"
