@@ -430,7 +430,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
 
 - [Redpanda 🌟](https://www.redpanda.com) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
-- [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/open-source)
+- [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/bsl-source-available-license)
 - [softwareengineeringdaily.com: Redpanda: Kafka Alternative with Alexander Gallego 🌟](https://softwareengineeringdaily.com/2021/01/22/redpanda-kafka-alternative-with-alexander-gallego)
 
 #### KsqlDB
