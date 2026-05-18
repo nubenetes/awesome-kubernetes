@@ -531,8 +531,8 @@ Nubenetes uses a sophisticated multi-stage automation pipeline.
 
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
-1.  **Phase 1: Knowledge Discovery (#1 or #5):** Raw technical data fetched and filtered by the Gemini Agent.
-2.  **Phase 2: Elite Synthesis (#2):** Once curation is merged, the V2 Builder triggers to update the premium portal.
+1.  **Phase 1: Knowledge Discovery or Maintenance (#1, #4, or #5):** Raw technical data is fetched/filtered (Curation) or the existing archive is audited for health (Cleaning).
+2.  **Phase 2: Elite Synthesis (#2):** Once curation or cleaning changes are merged into `develop`, the V2 Builder triggers automatically to synchronize the premium portal with the latest data and health status.
 3.  **Phase 3: Metric Alignment (#3):** The push to `develop` triggers the README Sync.
 4.  **Phase 4: Global Deployment (#6):** Review and merge into `master` to update production.
 
