@@ -617,7 +617,7 @@ To maintain the archive's integrity, the following logical sequence is followed:
 4.  **Phase 4: Global Deployment (#6):** Review and merge into `master` to update production.
 
 ### 9.3. Workflow Trigger and Synchronization Logic
-The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal.
+The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
 
 ```mermaid
 graph TD
@@ -626,21 +626,22 @@ graph TD
         C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
     end
 
-    B -->|"Merged into develop"| E{"V2 Sync Trigger"}
-    D -->|"Merged into develop"| E
-    
+    B -->|"Merged into develop<br/>(Path Filter: docs/, inventory.yaml)"| E{"V2 Surgical Trigger"}
+    D -->|"Merged into develop<br/>(Path Filter: inventory.yaml)"| E
+    F["Manual / Logic Update<br/>(src/v2_optimizer.py)"] --> E
+
     subgraph "Phase 2: Elite Optimization"
-        E --> F["[2] V2 Elite Builder"]
+        E --> G["[2] V2 Elite Builder"]
     end
 
     subgraph "Phase 3: Documentation and Metrics"
-        F --> G["[3] README Sync"]
+        G --> H["[3] README Sync"]
     end
 
     subgraph "Phase 4: Production Deployment"
-        G --> H["Manual Review<br/>(develop → master)"]
-        H --> I["[6] Production Deploy"]
-        I --> J["nubenetes.com"]
+        H --> I["Manual Review<br/>(develop → master)"]
+        I --> J["[6] Production Deploy"]
+        J --> K["nubenetes.com"]
     end
 ```
 
@@ -661,7 +662,7 @@ sequenceDiagram
     W1->>G: Evaluate and Score Assets
     G-->>W1: Scored and Categorized Assets
     W1->>R: Update docs/*.md (V1)
-    Note over R: V2 Builder Triggered...
+    Note over R: V2 Builder Triggered (Surgical Path Filter)...
     W2->>R: Update v2-docs/ (Elite)
     R->>W3: Trigger README Sync
     W3->>R: Update Metrics and TOC
@@ -670,7 +671,6 @@ sequenceDiagram
     M->>P: Trigger Production Build
     P-->>P: Deploy V1 and V2 to nubenetes.com
 ```
-
 ### 9.5. Deployment Lifecycle
 ```mermaid
 graph LR
