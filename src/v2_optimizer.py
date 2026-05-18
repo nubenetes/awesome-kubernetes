@@ -343,15 +343,6 @@ class V2VisionEngine:
         
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
-        def gen_toc(node, depth, base_slug):
-            toc = ""
-            for name, subnode in sorted(node.items()):
-                if name == "__links__": continue
-                clean_name = clean_toc_text(name)
-                slug = f"{base_slug}-{clean_name.lower().replace(' ', '-')}"
-                toc += f"{' ' * (depth * 4)}- [{clean_name}](#{slug})\n" + gen_toc(subnode, depth + 1, slug)
-            return toc
-
         async def render_node(node, depth, base_slug, is_intro=False):
             md = ""
             for name, subnode in sorted(node.items()):
@@ -391,9 +382,7 @@ class V2VisionEngine:
             return md
 
         for f_name, info in data.items():
-            md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n## Table of Contents\n"
-            md += gen_toc(info["content"], 0, f_name.replace(".md", ""))
-            md += "\n---\n\n"
+            md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n"
             
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
