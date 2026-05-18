@@ -63,7 +63,7 @@
 - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
 ## OpenShift on Public Cloud
 
-- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start///)
+- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start////)
 - [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 - [Amazon Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws)
 - [OpenShift on Google Cloud](https://docs.cloud.google.com/compute/docs/containers)
@@ -107,7 +107,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 <center markdown="1">
 
-[![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users///)
+[![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users////)
 
 </center>
 <br/>
@@ -135,7 +135,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### Kubernetes e-Books
 
-- [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes///#e-books)
+- [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes////#e-books)
 
 ## Online Learning
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - *(Related to kubernetes-tutorials topic)*
@@ -161,8 +161,8 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
     - [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html)
     - [schabell.org: Cloud-native development - On local containers 🌟](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
     - etc
-- [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops///#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
-- [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling///)
+- [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops////#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
+- [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling////)
 - [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
 <center markdown="1">
@@ -242,7 +242,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
 - Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
 - **Recommendations:** 
-    - Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies](https://kubernetes.io/docs/concepts/security/pod-security-policy///). PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
+    - Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies](https://kubernetes.io/docs/concepts/security/pod-security-policy////). PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
     - Use the restricted SCC as the default 
     - For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC Audit
     - To show all available SCCs: `oc describe scc`
@@ -262,7 +262,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone) 
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches)
-    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking///), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
+    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking////), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
     - Network Zones have been the widely accepted approach for building security into a network architecture. The general idea is to create separate networks, each with a specific purpose. Each network contains devices with similar security profiles. Communications between networks is highly scrutinized and controlled by firewall rules ([perimeter defense](https://en.wikipedia.org/wiki/All_round_defence)).
     - **Conclusion:** A company’s security organization must be involved when deciding how to deploy OpenShift with regard to traditional network zones. Depending on their level of comfort with new technologies you may have different options. If physical network separation is the only acceptable choice, you will have to build a cluster per network zone. If logical network type of separations can be considered, then there are ways to stretch a single OpenShift deployment across multiple network zones. This post presented a few technical approaches.
 
