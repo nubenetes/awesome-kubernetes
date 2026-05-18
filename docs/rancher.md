@@ -110,7 +110,7 @@
     - What's new with k3d v3
     - Create a multi-server and multi-agent with k3s
     - How to replace the default CNI plugin of k3s
-- [edgelab 🌟 (with k3s) [ARCHIVED]]( http://web.archive.org/web/20251027143124/https:/github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
+- [edgelab 🌟 (with k3s) [ARCHIVED]]( http://web.archive.org/web/20251027143124/https://github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
 - [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020.
 - [dev.to: All about k3s - Lightweight Kubernetes 🌟](https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell)
 - [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) In this article, you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.

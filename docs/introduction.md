@@ -68,7 +68,7 @@
 - [thenewstack.io: Microservices vs. Monoliths: An Operational Comparison](https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison)
 - [weave.works: 6 Business Benefits of Kubernetes](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)
-- [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]]( http://web.archive.org/web/20220716010821/https:/eng.uber.com/microservice-architecture)
+- [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]]( http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
 - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)
 - [Modernize legacy applications with containers, microservices](https://www.techtarget.com/searchcloudcomputing/feature/Modernize-legacy-applications-with-containers-microservices) To break down monolithic apps and modernize them for cloud deployment, enterprise development teams continue to turn to containers and microservices.
 - [blog.heroku.com: Deconstructing Monolithic Applications into Services](https://www.heroku.com/blog/monolithic-applications-into-services)
@@ -398,7 +398,7 @@
 - [dotnetcurry.com: Microservices Architecture Pattern 🌟](https://www.dotnetcurry.com/microsoft-azure/microservices-architecture)
 - [geeksarray.com: Microservice Architecture Pattern for Architects 🌟](https://geeksarray.com/blog/microservice-architecture-pattern-for-architects)
 - [==developers.redhat.com: 5 design principles for microservices==](https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices)
-- [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes== [ARCHIVED]]( http://web.archive.org/web/20251005184420/https:/elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes) In this article, you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
+- [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes== [ARCHIVED]]( http://web.archive.org/web/20251005184420/https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes) In this article, you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
 - [simform.com: Microservices Design Principles: Do We Really Know It Well Enough? 🌟](https://www.simform.com/blog/microservices-design-principles) We are all well aware of microservices architecture, but do we know about its basic design principles and tenants that determine its implementation success? Read to find out more!
 - [javarevisited.blogspot.com: Top 10 Microservices Design Patterns and Principles - Examples](https://javarevisited.blogspot.com/2021/09/microservices-design-patterns-principles.html)
     1. Database per Microservice
@@ -671,7 +671,7 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">/1 Why did Amazon Prime Video monitoring move 𝐟𝐫𝐨𝐦 𝐬𝐞𝐫𝐯𝐞𝐫𝐥𝐞𝐬𝐬 𝐭𝐨 𝐦𝐨𝐧𝐨𝐥𝐢𝐭𝐡𝐢𝐜? How can it save 90% cost?<br><br>The diagram below shows the architecture comparison before and after the migration. <a href="https://t.co/FVaLwzQWQc">pic.twitter.com/FVaLwzQWQc</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1655601921322012673?ref_src=twsrc%5Etfw">May 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 7 Most-Used Distributed System Patterns<br><br>- Ambassador<br>- Circuit Breaker<br>- CQRS<br>- Event Sourcing<br>- Leader Election<br>- Publisher/Subscriber<br>- Sharding<br><br>Which additional patterns have we overlooked?<br><br>Watch and subscribe here (YouTube video): <a href="https://t.co/8GAt27x5Zj">https:/t.co/8GAt27x5Zj</a> <a href="https://t.co/oIDyMtjCfW">pic.twitter.com/oIDyMtjCfW</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1655958815593095173?ref_src=twsrc%5Etfw">May 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 7 Most-Used Distributed System Patterns<br><br>- Ambassador<br>- Circuit Breaker<br>- CQRS<br>- Event Sourcing<br>- Leader Election<br>- Publisher/Subscriber<br>- Sharding<br><br>Which additional patterns have we overlooked?<br><br>Watch and subscribe here (YouTube video): <a href="https://t.co/8GAt27x5Zj">https://t.co/8GAt27x5Zj</a> <a href="https://t.co/oIDyMtjCfW">pic.twitter.com/oIDyMtjCfW</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1655958815593095173?ref_src=twsrc%5Etfw">May 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </center>
 </details>

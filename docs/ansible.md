@@ -44,7 +44,7 @@
 - [ansible.com](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ)
 - [docs.ansible.com](https://docs.ansible.com)
 - [dureka.co: What Is Ansible?](https://www.edureka.co/blog/what-is-ansible) Configuration Management And Automation With Ansible
-- [Dzone: Part 1: Getting Started with Ansible [ARCHIVED]]( http://web.archive.org/web/20230203201722/https:/dzone.com/articles/part-1-getting-started-ansible)
+- [Dzone: Part 1: Getting Started with Ansible [ARCHIVED]]( http://web.archive.org/web/20230203201722/https://dzone.com/articles/part-1-getting-started-ansible)
 - [Dzone: Part 2: Deploying Applications](https://dzone.com/articles/part-2-deploying-applications)
 - [Dzone: 10 easy to use modules in ansible](https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1)
 - [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)

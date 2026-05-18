@@ -47,7 +47,7 @@
 ## Debugging apps
 
 - [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject)
-- [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https:/developers.redhat.com/blog/2020/01/09debugging-applications-within-red-hat-openshift-containers/)
+- [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https://developers.redhat.com/blog/2020/01/09debugging-applications-within-red-hat-openshift-containers/)
 
 ## Capacity Management
 
@@ -55,7 +55,7 @@
 - [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://blog.openshift.comfull-cluster-part-2-protecting-nodes)
 - [full-cluster-part-3-capacity-management](https://blog.openshift.comfull-cluster-part-3-capacity-management)
 - [blog.openshift.comhow-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler](https://blogopenshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler)
-- [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https:/blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard/)
+- [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https://blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard/)
 
 ## OpenShift High Availability
 

@@ -537,7 +537,7 @@
 - [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
 - [devopscube.com: How to Setup Jenkins Build Agents on Kubernetes Cluster 🌟](https://devopscube.com/jenkins-build-agents-kubernetes)
 - [medium: Deploy Docker Image To Kubernetes Cluster Using Jenkins 🌟](https://medium.com/codex/deploy-docker-image-to-kubernetes-cluster-using-jenkins-8182cc0a8de7) This article explains the complete DevOps pipeline setup from creating project to deploying the Docker image to Kubernetes cluster using Jenkins.
-- [igorzhivilo.com: How To Read Vault’s Secrets from Jenkin’s Declarative Pipeline 🌟 [ARCHIVED]]( http://web.archive.org/web/20231213032046/https:/igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline)
+- [igorzhivilo.com: How To Read Vault’s Secrets from Jenkin’s Declarative Pipeline 🌟 [ARCHIVED]]( http://web.archive.org/web/20231213032046/https://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline)
 - [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline)
 - [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy)
 - [lambdatest.com: How To Create Jenkins Multibranch Pipeline 🌟](https://www.testmuai.com/blog/how-to-create-jenkins-multibranch-pipeline)

@@ -113,7 +113,7 @@
 - [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)
 - [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
 - [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java)
-- [dzone: Getting Started with the OpenFaaS Kubernetes Operator on EKS 🌟 [ARCHIVED]]( http://web.archive.org/web/20230202080638/https:/dzone.com/articles/getting-started-with-the-openfaas-kubernetes-opera)
+- [dzone: Getting Started with the OpenFaaS Kubernetes Operator on EKS 🌟 [ARCHIVED]]( http://web.archive.org/web/20230202080638/https://dzone.com/articles/getting-started-with-the-openfaas-kubernetes-opera)
 - [openfaas.com: Learn how to build functions faster using Rancher's kim and K3s](https://www.openfaas.com/blog/kim) Learn how the kim tool from Rancher can be used to build functions directly into a K3s cluster.
 
 ### OpenFunction
@@ -185,7 +185,7 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hi aspiring cloud professional, my name is Adam and I need you to listen to me.<br><br>First, I make a zillion-ish dollars per year freelancing and I stand to gain nothing from your attention.<br><br>I’m writing to you because it occurs to me that things I think are obvious probably aren’t.</p>&mdash; Adam Elmore (@aeduhm) <a href="https://twitter.com/aeduhm/status/1443308075079938055?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When building message/event based solutions you may want to take a message or event and split it into many different ones.<br><br>We can use this to split large messages/events into smaller ones for downstream consumers.<br><br>Visual, resources and example 👇<a href="https://t.co/kqbYoNMxkA">https:/t.co/kqbYoNMxkA</a> <a href="https://t.co/5qyhbVcSZJ">pic.twitter.com/5qyhbVcSZJ</a></p>&mdash; David Boyne 🚀 (@boyney123) <a href="https://twitter.com/boyney123/status/1630233252702171138?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When building message/event based solutions you may want to take a message or event and split it into many different ones.<br><br>We can use this to split large messages/events into smaller ones for downstream consumers.<br><br>Visual, resources and example 👇<a href="https://t.co/kqbYoNMxkA">https://t.co/kqbYoNMxkA</a> <a href="https://t.co/5qyhbVcSZJ">pic.twitter.com/5qyhbVcSZJ</a></p>&mdash; David Boyne 🚀 (@boyney123) <a href="https://twitter.com/boyney123/status/1630233252702171138?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </center>
 </details>

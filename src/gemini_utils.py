@@ -183,14 +183,12 @@ def clean_toc_text(text: str) -> str:
 def sanitize_trailing_slashes(url: str) -> str:
     """
     Mandate 34: Enforces a ZERO trailing slash policy.
-    Collapses multiple slashes and removes any trailing slashes.
+    Removes ALL trailing slashes and question marks from the end of the URL.
+    Does NOT collapse slashes in the middle of the URL (to avoid breaking protocol or deep links).
     """
     if not url or '://' not in url: return url
-    parts = url.split('://', 1)
-    # Collapse all multiple slashes in domain and path to one
-    parts[1] = re.sub(r'/{2,}', '/', parts[1])
-    # Remove all trailing slashes and question marks
-    return f"{parts[0]}://{parts[1].rstrip('/').rstrip('?')}"
+    # Remove all trailing slashes and question marks from the end of the entire string
+    return url.rstrip('/').rstrip('?')
 
 def normalize_url(url: str) -> str:
     """

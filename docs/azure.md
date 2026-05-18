@@ -734,7 +734,7 @@
 - [techcommunity.microsoft.com: Security Control: Implement security best practices](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/security-control-implement-security-best-practices/2269914)
 - [==github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook==](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) **This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected.**
 - [==devops.com: DevSecOps in Azure==](https://devops.com/devsecops-in-azure)
-- [learn.microsoft.com: SC-100: Design a Zero Trust strategy and architecture [ARCHIVED]]( http://web.archive.org/web/20221129213259/https:/learn.microsoft.com/en-us/training/paths/sc-100-design-zero-trust-strategy-architecture)
+- [learn.microsoft.com: SC-100: Design a Zero Trust strategy and architecture [ARCHIVED]]( http://web.archive.org/web/20221129213259/https://learn.microsoft.com/en-us/training/paths/sc-100-design-zero-trust-strategy-architecture)
     - https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect
 - [learn.microsoft.com: Azure network security overview](https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview)
 - [learn.microsoft.com: Conditional Access templates](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policy-common)

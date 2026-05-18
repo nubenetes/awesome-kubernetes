@@ -44,7 +44,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 ## Productivity Tips with .new TLD to quickly create
 
 - [Google Docs: doc.new](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S1328157413%3A1779046143757246&followup=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=docs&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PasaQiQXmXb5iN1qZZsvtoOkhIgQoRWugSdY4-JVcpmeUs17j5clMIVQfi1xcpGGzFDWWEjvLg)
-- [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https:/meet.google.com/new?authuser%3D0%26hs%3D178)
+- [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)
 - [Spreadsheets: sheet.new](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S-888283151%3A1779038836107039&followup=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=sheets&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauoMa7lQWyxlGGmOlILKdc_0OGix3neZYVIl24vayGw0wGG0CrQxkizeIBOFWVtABpTKfaO)
 - [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)
 - [GH Gists: gist.new](https://gist.github.com/starred)

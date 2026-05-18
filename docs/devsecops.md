@@ -322,7 +322,7 @@
 
 - [Twistlock](https://www.paloaltonetworks.com/prisma/cloud)
 - [Threat Stack](https://www.f5.com/products/distributed-cloud-services)
-- [dzone: A Twistlock and Threat Stack Comparison [ARCHIVED]]( http://web.archive.org/web/20221007145938/https:/dzone.com/articles/a-twistlock-and-threat-stack-comparison) Compare two of the most popular tools available for container security, and how their different approaches breed different solutions.
+- [dzone: A Twistlock and Threat Stack Comparison [ARCHIVED]]( http://web.archive.org/web/20221007145938/https://dzone.com/articles/a-twistlock-and-threat-stack-comparison) Compare two of the most popular tools available for container security, and how their different approaches breed different solutions.
 
 ## OWASP
 

@@ -143,7 +143,7 @@
 - [terraform.io](https://developer.hashicorp.com/terraform)
 - [Terraform Registry - registry.terraform.io: Terraform Providers and Modules 🌟](https://registry.terraform.io)
 - [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)
-- [Dzone: intro to terraform [ARCHIVED]]( http://web.archive.org/web/20230530000108/https:/dzone.com/articles/intro-to-terraform-way-of-infra-as-code)
+- [Dzone: intro to terraform [ARCHIVED]]( http://web.archive.org/web/20230530000108/https://dzone.com/articles/intro-to-terraform-way-of-infra-as-code)
 - [blog.teemo.co: Terraform in 10 commands](https://blog.teemo.co/terraform-in-10-commands-e737dfd8bf31)
 - [udemy.com: Learn DevOps: Infrastructure Automation With Terraform](https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform)
 - [terraform-infraestructura.readthedocs.io](https://terraform-infraestructura.readthedocs.io/es/latest)
@@ -390,7 +390,7 @@
 
 - [docs.gitlab.com: GitLab managed Terraform State 🌟](https://docs.gitlab.com/ee/user/infrastructure/terraform_state.html) Gitlab Terraform now share tfstate directly on gitlab.
 - [about.gitlab.com: How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws)
-- [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]]( http://web.archive.org/web/20240724222526/https:/squareops.com/terraform-pipeline-with-gitlab)
+- [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]]( http://web.archive.org/web/20240724222526/https://squareops.com/terraform-pipeline-with-gitlab)
 
 ## Terraform Testing
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 - A repository providing best-practices for Terraform and OpenTofu, designed to serve as a skill for AI coding agents. It covers testing strategies (native tests vs. Terratest), testing workflows (static, integration, E2E), module patterns, CI/CD workflows, and production infrastructure code.
@@ -1195,7 +1195,7 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ Yesterday we released v2.1.0 of the <a href="https://twitter.com/HashiCorp?ref_src=twsrc%5Etfw">@HashiCorp</a> Terraform provider for <a href="https://twitter.com/HelmPack?ref_src=twsrc%5Etfw">@HelmPack</a> with a cool new feature: diffs of the <a href="https://twitter.com/kubernetesio?ref_src=twsrc%5Etfw">@kubernetesio</a> manifests that Helm is sending to the cluster!<br><br>So, what does this look like? Let&#39;s see ...</p>&mdash; Phil, in the 🏜️ of Arizona (@PhilipSautter) <a href="https://twitter.com/PhilipSautter/status/1378071256969355265?ref_src=twsrc%5Etfw">April 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is very common. Terraform doesnt give workload portability. It gives workflow portability<br><br>By keeping the same workflow it improves adoption because it doesn’t matter if your managing EC2 or Pagerduty the same lang and tools work. It lowers switching costs through workflow <a href="https://t.co/wSOZYjZMm3">https:/t.co/wSOZYjZMm3</a></p>&mdash; Justin Garrison (@rothgar) <a href="https://twitter.com/rothgar/status/1420766310334484480?ref_src=twsrc%5Etfw">July 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is very common. Terraform doesnt give workload portability. It gives workflow portability<br><br>By keeping the same workflow it improves adoption because it doesn’t matter if your managing EC2 or Pagerduty the same lang and tools work. It lowers switching costs through workflow <a href="https://t.co/wSOZYjZMm3">https://t.co/wSOZYjZMm3</a></p>&mdash; Justin Garrison (@rothgar) <a href="https://twitter.com/rothgar/status/1420766310334484480?ref_src=twsrc%5Etfw">July 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unfortunately I think this is the biggest misconception that orgs have when deciding to adopt Terraform. It&#39;s &quot;cloud agnostic&quot; in the same way that Python is cloud agnostic. You still need vendor specific libraries. The only thing you standardize on is syntax and workflow</p>&mdash; Noah Mercado (@noah_mercado) <a href="https://twitter.com/noah_mercado/status/1420797838129340417?ref_src=twsrc%5Etfw">July 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

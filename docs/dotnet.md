@@ -78,7 +78,7 @@
 
 <center markdown="1">
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My favorite .NET 6 feature: single file deployment and executable binaries across multiple platforms. <a href="https://t.co/Zfd7zJGf0N">https:/t.co/Zfd7zJGf0N</a> <a href="https://t.co/jpu9R36S7v">pic.twitter.com/jpu9R36S7v</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1457772150576742415?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My favorite .NET 6 feature: single file deployment and executable binaries across multiple platforms. <a href="https://t.co/Zfd7zJGf0N">https://t.co/Zfd7zJGf0N</a> <a href="https://t.co/jpu9R36S7v">pic.twitter.com/jpu9R36S7v</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1457772150576742415?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </center>
 </details>

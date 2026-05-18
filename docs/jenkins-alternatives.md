@@ -112,7 +112,7 @@
 - [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
 - [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) A GitHub Action that setupKubernetes tools (kubectl, kustomize, helm, kubeval, conftest, yq) and cache them on the runner. It is like a typescriptversion of stefanprodan/kube-tools with no command input param, but it's very fast as it installs the tools asynchronously.
 - [summerwind/actions-runner-controller](https://github.com/actions/actions-runner-controller) This controller operatesself-hosted runners for GitHub Actions on your Kubernetes cluster.
-- [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How toautomatically build your Docker images; a case study.
+- [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https://towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How toautomatically build your Docker images; a case study.
 
 ### Ketpn
 

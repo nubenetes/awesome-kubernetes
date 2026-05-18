@@ -285,7 +285,7 @@
 
 ## Modify containers without rebuilding
 
-- [cloudowski.com: How to modify containers without rebuilding their image [ARCHIVED]]( http://web.archive.org/web/20210731130210/https:/cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding)
+- [cloudowski.com: How to modify containers without rebuilding their image [ARCHIVED]]( http://web.archive.org/web/20210731130210/https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding)
 
 ## Docker Tools
   - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) - *(Related to kubernetes-tools topic)*

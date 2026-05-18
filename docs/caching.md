@@ -25,7 +25,7 @@
 - [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b) In this article, we are going to talk about Microservices Distributed Caching for Microservices Architectures. As you know that we learned practices and patterns and add them into our design toolbox. And we will use these pattern and practices when designing e-commerce microservice architecture.
 - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to Caching in the Cloud | Anuj Kothiyal](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
 - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)
-- [learncsdesign.medium.com: An Overview of Distributed Caching 🌟 [ARCHIVED]]( http://web.archive.org/web/20220717060745/https:/learncsdesign.medium.com/an-overview-of-distributed-caching-e426781d1ff0)
+- [learncsdesign.medium.com: An Overview of Distributed Caching 🌟 [ARCHIVED]]( http://web.archive.org/web/20220717060745/https://learncsdesign.medium.com/an-overview-of-distributed-caching-e426781d1ff0)
 - [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science)
 
 ## Java Caching
