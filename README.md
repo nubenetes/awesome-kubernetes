@@ -51,11 +51,12 @@
 9.  [9. GitHub Workflows and Automation](#9-github-workflows-and-automation)
     *   [9.1. Workflow Inventory and Sequencing](#91-workflow-inventory-and-sequencing)
     *   [9.2. Recommended Execution Pipeline](#92-recommended-execution-pipeline)
-    *   [9.3. Curation Flow Architecture](#93-curation-flow-architecture)
-    *   [9.4. Deployment Lifecycle](#94-deployment-lifecycle)
-    *   [9.5. Automated Mandate Auditing](#95-automated-mandate-auditing)
-    *   [9.6. Multi-Part Reporting Engine](#96-multi-part-reporting-engine)
-    *   [9.7. Workflow UI Auto-Sync](#97-workflow-ui-auto-sync)
+    *   [9.3. Workflow Trigger and Synchronization Logic](#93-workflow-trigger-and-synchronization-logic)
+    *   [9.4. Curation Flow Architecture](#94-curation-flow-architecture)
+    *   [9.5. Deployment Lifecycle](#95-deployment-lifecycle)
+    *   [9.6. Automated Mandate Auditing](#96-automated-mandate-auditing)
+    *   [9.7. Multi-Part Reporting Engine](#97-multi-part-reporting-engine)
+    *   [9.8. Workflow UI Auto-Sync](#98-workflow-ui-auto-sync)
 10. [10. Branching Strategy and Lifecycle](#10-branching-strategy-and-lifecycle)
 11. [11. Contributing to the Archive](#11-contributing-to-the-archive)
 12. [12. Developer Experience and VSCode Setup](#12-developer-experience-and-vscode-setup)
@@ -536,7 +537,35 @@ To maintain the archive's integrity, the following logical sequence is followed:
 3.  **Phase 3: Metric Alignment (#3):** The push to `develop` triggers the README Sync.
 4.  **Phase 4: Global Deployment (#6):** Review and merge into `master` to update production.
 
-### 9.3. Curation Flow Architecture
+### 9.3. Workflow Trigger and Synchronization Logic
+The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal.
+
+```mermaid
+graph TD
+    subgraph "Phase 1: Knowledge Discovery & Maintenance"
+        A["New Curation Source (X.com, RSS)"] --> B["[1] Agentic Curation"]
+        C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
+    end
+
+    B -->|Merged into develop| E{"V2 Sync Trigger"}
+    D -->|Merged into develop| E
+    
+    subgraph "Phase 2: Elite Optimization"
+        E --> F["[2] V2 Elite Builder"]
+    end
+
+    subgraph "Phase 3: Documentation & Metrics"
+        F --> G["[3] README Sync"]
+    end
+
+    subgraph "Phase 4: Production Deployment"
+        G --> H["Manual Review (develop → master)"]
+        H --> I["[6] Production Deploy"]
+        I --> J["nubenetes.com"]
+    end
+```
+
+### 9.4. Curation Flow Architecture
 ```mermaid
 sequenceDiagram
     participant X as X.com / Sources
@@ -563,7 +592,7 @@ sequenceDiagram
     P-->>P: Deploy V1 & V2 to nubenetes.com
 ```
 
-### 9.4. Deployment Lifecycle
+### 9.5. Deployment Lifecycle
 ```mermaid
 graph LR
     A["AI Discovery"] --> B["V1 Update (develop)"]
@@ -577,14 +606,14 @@ graph LR
     Z --> B
 ```
 
-### 9.5. Automated Mandate Auditing
+### 9.6. Automated Mandate Auditing
 Every Pull Request includes a non-blocking **Safety and Mandate Audit** report cross-referencing changes against [`GEMINI.md`](GEMINI.md).
 - **README Integrity**: A dedicated "Hard Safety Gate" ([`src/safety_readme.py`](src/safety_readme.py)) ensures that all 15 mandatory technical sections are preserved.
 
-### 9.6. Multi-Part Reporting Engine
+### 9.7. Multi-Part Reporting Engine
 To handle the scale of 17k+ resources, the engine automatically fragments reports into multiple successive PR comments, ensuring 100% observability.
 
-### 9.7. Workflow UI Auto-Sync
+### 9.8. Workflow UI Auto-Sync
 Maintains **Mandate 11** by detecting new categories and alerting maintainers to update the GitHub Actions interface.
 
 ---
