@@ -48,7 +48,7 @@
 
 ## API Landscape and API Marketplaces
   - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) - *(Related to ai topic)*
-  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills///) - *(Related to ai topic)*
+  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills////) - *(Related to ai topic)*
   - [Claude 101: Free Guides to Master Claude](https://claude101.com/) - *(Related to ai topic)*
   - [Public APIs Directory](https://publicapis.io/) - *(Related to api topic)*
 
@@ -67,17 +67,17 @@
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 
 ## API Managers with API Gateways & Developer Portals
-  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions///) - *(Related to git topic)*
-  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli///?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) - *(Related to ai topic)*
+  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions////) - *(Related to git topic)*
+  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli////?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) - *(Related to ai topic)*
   - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy) - *(Related to kubernetes-tutorials topic)*
-  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces///) - *(Related to ai topic)*
+  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces////) - *(Related to ai topic)*
   - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - *(Related to ai-agents-mcp topic)*
-  - [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend/) - *(Related to aws-architecture topic)*
+  - [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend//) - *(Related to aws-architecture topic)*
   - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) - *(Related to ai topic)*
   - [Warp: The Agentic Development Environment](https://www.warp.dev/) - *(Related to kubernetes-tools topic)*
   - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it/) - This article explains what a GitHub Wiki is, its benefits for project documentation, and provides a step-by-step guide on how to enable, create, and locally clone a wiki for a GitHub repository. It highlights that wikis are integrated with GitHub repositories and primarily use Markdown for content creation.
 
-- [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives///)
+- [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives////)
 
 ### API Management vs API Gateway vs Developer Portals
 
@@ -160,7 +160,7 @@
 ### APISIX
 
 - [apisix](https://github.com/apache/apisix)
-- [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices///)
+- [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices////)
 
 ### NGINX as an API Gateway
 
@@ -170,11 +170,11 @@
 
 - [Lura 🌟](https://luraproject.org/) An extendable, simple and stateless high-performance API Gateway framework designed for both cloud-native and on-prem setups.
 - [KrakenD: The fastest API gateway comes with true linear scalability 🌟](https://www.krakend.io/) KrakenD is a stateless, distributed, high-performance API Gateway that helps you effortlessly adopt microservices.
-- [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation///) KrakenD framework has been donated to the Linux Foundation and is now the “Lura Project."
+- [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation////) KrakenD framework has been donated to the Linux Foundation and is now the “Lura Project."
 
 ### Spring Cloud Gateway
 
-- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway//)
+- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway///)
 - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices) Enforcing rate limits on microservices is a common requirement in the API economy. In this article, we are going to build a custom rate limiting solution.
 - [cloudtechtwitter.com: Pattern: API Gateway / Backends for Frontends](https://www.cloudtechtwitter.com/2022/05/pattern-api-gateway-backends-for.html) Spring Cloud Gateway provides a library to build an API Gateway. This is the preferred gateway implementation provided by Spring Cloud. It's built with Spring 5, Spring Boot 2, and Project Reactor. To understand the offerings of Spring Cloud Gateway we must understand the API Gateway pattern in detail.
 - [medium.com/@jeevansathisocial: High-performance API gateway](https://medium.com/@jeevansathisocial/high-performance-api-gateway-3661d5a2fee0s-3661d5a2fee0)
@@ -212,7 +212,7 @@
     - [berlin-group.org: PSD2 Access to Bank Accounts](https://www.berlin-group.org/psd2-access-to-bank-accounts)
 - [openbankingtracker.com](https://www.openbankingtracker.com/)
 - [Santander APIs](https://developerhub.santander.com/)
-- [BBVA API Market](https://www.bbvaapimarket.com/es///)
+- [BBVA API Market](https://www.bbvaapimarket.com/es////)
 - [CaixaBank API Store](https://apistore.caixabank.com/)
 - [Deutsche Bank API Program](https://developer.db.com/)
 - [TSB API Developer Portal](https://apis.developer.tsb.co.uk/)
@@ -229,7 +229,7 @@
 
 ## Telecom
 
-- [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest///)
+- [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest////)
 
 ## Tweets
   - [Programming with GitHub Copilot Agent Mode](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) - *(Related to ai topic)*
