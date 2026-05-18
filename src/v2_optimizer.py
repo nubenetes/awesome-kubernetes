@@ -365,6 +365,12 @@ class V2VisionEngine:
                         rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
                         tag = l.get("tag", "[COMMUNITY-TOOL]")
                         color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "info"
+                        
+                        # Fix NameError: Define year_prefix according to Mandate 17
+                        year = l.get('year', 'N/A')
+                        year_prefix = f"**({year})** " if year != 'N/A' else ""
+                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+                        
                         md += f"  - {year_prefix}[{title}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*l.get('stars',0)} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                         if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
             return md

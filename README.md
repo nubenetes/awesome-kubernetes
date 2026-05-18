@@ -128,9 +128,9 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15180+** |
+| **Total Technical Resources (Links)** | **15295+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4629+** |
+| **Total Commits** | **4677+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -140,7 +140,16 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Uncategorized](docs/uncategorized.md) | 15180 |
+| [Kubernetes](docs/kubernetes.md) | 1108 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 729 |
+| [Terraform](docs/terraform.md) | 620 |
+| [Demos](docs/demos.md) | 519 |
+| [Git](docs/git.md) | 487 |
+| [Azure](docs/azure.md) | 470 |
+| [Jenkins](docs/jenkins.md) | 410 |
+| [Devsecops](docs/devsecops.md) | 401 |
+| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 368 |
+| [Introduction](docs/introduction.md) | 325 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -159,7 +168,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1070 | 4,419 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1118 | 4,617 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -175,8 +184,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4419]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1070]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4617]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1118]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -185,7 +194,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1045 | 4,315 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1093 | 4,514 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -205,7 +214,7 @@ pie title Nubenetes Major Ecosystem Pillars
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
-    "Specialized Topics" : 780
+    "Specialized Topics" : 895
 ```
 <!-- PILLAR_CHART_END -->
 
@@ -219,10 +228,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13662
-    "Spanish" : 910
-    "French" : 151
-    "Others" : 455
+    "English" : 13765
+    "Spanish" : 917
+    "French" : 152
+    "Others" : 458
 ```
 <!-- SUB_ECO_CHART_END -->
 
@@ -608,7 +617,7 @@ To maintain the archive's integrity, the following logical sequence is followed:
 4.  **Phase 4: Global Deployment (#6):** Review and merge into `master` to update production.
 
 ### 9.3. Workflow Trigger and Synchronization Logic
-The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal.
+The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
 
 ```mermaid
 graph TD
@@ -617,21 +626,22 @@ graph TD
         C["Scheduled / Manual Audit"] --> D["[4] Intelligent Cleaner"]
     end
 
-    B -->|"Merged into develop"| E{"V2 Sync Trigger"}
-    D -->|"Merged into develop"| E
-    
+    B -->|"Merged into develop<br/>(Path Filter: docs/, inventory.yaml)"| E{"V2 Surgical Trigger"}
+    D -->|"Merged into develop<br/>(Path Filter: inventory.yaml)"| E
+    F["Manual / Logic Update<br/>(src/v2_optimizer.py)"] --> E
+
     subgraph "Phase 2: Elite Optimization"
-        E --> F["[2] V2 Elite Builder"]
+        E --> G["[2] V2 Elite Builder"]
     end
 
     subgraph "Phase 3: Documentation and Metrics"
-        F --> G["[3] README Sync"]
+        G --> H["[3] README Sync"]
     end
 
     subgraph "Phase 4: Production Deployment"
-        G --> H["Manual Review<br/>(develop → master)"]
-        H --> I["[6] Production Deploy"]
-        I --> J["nubenetes.com"]
+        H --> I["Manual Review<br/>(develop → master)"]
+        I --> J["[6] Production Deploy"]
+        J --> K["nubenetes.com"]
     end
 ```
 
@@ -652,7 +662,7 @@ sequenceDiagram
     W1->>G: Evaluate and Score Assets
     G-->>W1: Scored and Categorized Assets
     W1->>R: Update docs/*.md (V1)
-    Note over R: V2 Builder Triggered...
+    Note over R: V2 Builder Triggered (Surgical Path Filter)...
     W2->>R: Update v2-docs/ (Elite)
     R->>W3: Trigger README Sync
     W3->>R: Update Metrics and TOC
@@ -661,7 +671,6 @@ sequenceDiagram
     M->>P: Trigger Production Build
     P-->>P: Deploy V1 and V2 to nubenetes.com
 ```
-
 ### 9.5. Deployment Lifecycle
 ```mermaid
 graph LR

@@ -39,8 +39,11 @@ def get_stats():
     category_counts = {}
     for url, meta in inventory.items():
         if url.startswith("INTRO:"): continue
-        cat = meta.get("category", "uncategorized")
-        category_counts[cat] = category_counts.get(cat, 0) + 1
+        locations = meta.get("v1_locations", [])
+        for loc in locations:
+            # Extract category name from docs/category.md
+            cat = loc.replace("docs/", "").replace(".md", "")
+            category_counts[cat] = category_counts.get(cat, 0) + 1
 
     # Top 10 Table
     top_10 = sorted(category_counts.items(), key=lambda x: x[1], reverse=True)[:10]
