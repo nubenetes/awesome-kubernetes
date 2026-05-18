@@ -59,7 +59,7 @@ hierarchy_rules:
   v2_nesting: true            # Enable H2 -> H3 -> H4 -> H5 mapping in V2.
   toc_exempt_files:           # Files that do NOT require a Table of Contents (V1/V2).
     - "mkdocs.md"
-    - "yesterday_mkdocs.yml"
+    - "mkdocs-v1-archive.yml"
     - "mkdocs.yml"
     - "v2-mkdocs.yml"
     - "matrix-table.md"
