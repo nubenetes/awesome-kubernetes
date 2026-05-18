@@ -31,22 +31,22 @@
 - [autodraw.com](https://www.autodraw.com/) Fast drawing for everyone. AutoDraw pairs machine learning with drawings from talented artists to help you draw stuff fast.
 - [redhat.com: Try these 5 diagramming tools for network architecture](https://www.redhat.com/en/blog/diagramming-tools-network-architecture)
 - [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/en/blog/design-enterprise-architecture-diagrams) Walk step-by-step through creating enterprise architecture diagrams like an expert in this DevConf workshop.
-- [kubernetes.io: Diagram Guide - Mermaid JavaScript library 🌟](https://kubernetes.io/docs/contribute/style/diagram-guide//)
+- [kubernetes.io: Diagram Guide - Mermaid JavaScript library 🌟](https://kubernetes.io/docs/contribute/style/diagram-guide///)
 - [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 🎨 Diagram as Code for prototyping cloud system architectures
-    - [navveenbalani.dev: Code To Custom Cloud Architecture Diagrams](https://navveenbalani.dev/index.php/articles/code-to-custom-cloud-architecture-diagrams//)
+    - [navveenbalani.dev: Code To Custom Cloud Architecture Diagrams](https://navveenbalani.dev/index.php/articles/code-to-custom-cloud-architecture-diagrams///)
 - [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) Kubernetes diagrams using VS Code. Kubernetes-PlantUML contains the PlantUML sprites, macros and stereotypes for creating PlantUML diagrams with the Kubernetes components. This work is based on the official Kubernetes Icons Set.
 - [excalidraw.com](https://excalidraw.com)
 - [diagrams.mingrammer.com: Diagram as Code](https://diagrams.mingrammer.com/) Diagrams lets you draw the cloud system architecture in Python code.
 
 ## K8s Diagrams
-  - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using//) - This blog post discusses the benefits of using Draw.io MCP (Model Context Protocol) to generate diagrams from structured input like text, CSV, or Mermaid. It highlights how this approach integrates diagrams with code and infrastructure, turning them into living assets that evolve with the system, especially relevant for cloud, platform, and AI-assisted engineering workflows.
+  - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using///) - This blog post discusses the benefits of using Draw.io MCP (Model Context Protocol) to generate diagrams from structured input like text, CSV, or Mermaid. It highlights how this approach integrates diagrams with code and infrastructure, turning them into living assets that evolve with the system, especially relevant for cloud, platform, and AI-assisted engineering workflows.
 
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://x.com/PlantUML).
 
 ## Architecture Icons
 
-- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons//)
-- [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons//) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now//)
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons///)
+- [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons///) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now//)
 - [Google Cloud Architecture Icons](https://cloud.google.com/icons)
 - [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) A collection of cloud security icons ☁️🔒
 - [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/main/icons) These icons are a way to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandability
@@ -56,11 +56,11 @@
   - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) - *(Related to azure topic)*
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) - *(Related to azure topic)*
   - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) - *(Related to azure topic)*
-  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones//) - *(Related to azure topic)*
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones///) - *(Related to azure topic)*
   - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone//) - *(Related to azure topic)*
   - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) - *(Related to azure topic)*
 
-- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons//) The official AWS icon set for building architecture diagrams
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons///) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://www.cloudcraft.co//)
     - [diagrams.net: Use Cloudcraft to export your AWS architecture to a .drawio diagram](https://www.drawio.com//blog/drawio-aws-cloudcraft)
 - [hava.io](https://www.hava.io/)
@@ -72,11 +72,11 @@
 - [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer)
     - [How to visualize your AWS Account with AWS Cloud9?](https://www.linkedin.com/pulse/how-visualize-your-aws-account-cloud9-wong-chun-yin-cyrus-%E9%BB%83%E4%BF%8A%E5%BD%A5-/)
 - AWS CloudFormer + AWS CloudFormation Designer
-- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons//) The official AWS icon set for building architecture diagrams
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons///) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://www.cloudcraft.co//)
 - [hava.io](https://www.hava.io/)
 - [CloudMapper (OSS)](https://duo.com/blog)
-- [Lucidchart](https://www.lucidchart.com/pages/pages/integrations/aws-architecture-import)
+- [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)
 - [infviz.io](https://infviz.io/)
 - AWS CloudFormer + AWS CloudFormation Designer
 - [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://acloud.guru/forums/aws-certified-advanced-networking-specialty/discussion/-LELSWplsuDI8q8_KtjN/What%20is%20the%20best%20way%20to%20generate%20a%20visual%20diagram%20of%20the%20AWS%20environment%20which%20includes%20VPC,%20VPN,%20EC2,%20and%20AMIs%3F)
