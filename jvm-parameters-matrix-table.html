@@ -7628,17 +7628,17 @@
 <tr>
 <td style="text-align: left;">-XX:+UseG1GC</td>
 <td style="text-align: left;">Enabled by default in Java 8u191+</td>
-<td style="text-align: left;">Most important defaults specific to G1 and their default values.<br/> <a href="https://dzone.com/articles/choosing-the-right-gc">https://dzone.com/articles/choosing-the-right-gc</a><br/> <a href="https://wiki.openjdk.java.net/display/HotSpot/G1GC+Feedback">https://wiki.openjdk.java.net/display/HotSpot/G1GC+Feedback</a><br/> Alternative: Shenandoah GC</td>
+<td style="text-align: left;">Most important defaults specific to G1 and their default values.<br/> <a href="https://dzone.com/articles/choosing-the-right-gc">https://dzone.com/articles/choosing-the-right-gc</a><br/> <a href="https://wiki.openjdk.org/spaces/HotSpot/pages/24674441/G1GC+Feedback">https://wiki.openjdk.org/spaces/HotSpot/pages/24674441/G1GC+Feedback</a><br/> Alternative: Shenandoah GC</td>
 </tr>
 <tr>
 <td style="text-align: left;">-XX:+UseShenandoahGC</td>
 <td style="text-align: left;">Alternative to G1GC.</td>
-<td style="text-align: left;">Shenandoah Garbage Collector: experimental in Java 8, newer than G1GC, available in some OpenJDK 8 and newer releases.<br/> <a href="https://wiki.openjdk.java.net/display/shenandoah/Main">https://wiki.openjdk.java.net/display/shenandoah/Main</a> <br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1</a></td>
+<td style="text-align: left;">Shenandoah Garbage Collector: experimental in Java 8, newer than G1GC, available in some OpenJDK 8 and newer releases.<br/> <a href="https://wiki.openjdk.org/spaces/shenandoah/pages/25002018/Main">https://wiki.openjdk.org/spaces/shenandoah/pages/25002018/Main</a> <br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1</a></td>
 </tr>
 <tr>
 <td style="text-align: left;">-XX:+UseZGC</td>
 <td style="text-align: left;">Yes (JDK 11+)</td>
-<td style="text-align: left;">Z GC : Better Garbage Collector Algorithm than G1 or Shenandoah. JDK 11+ required.<br/> The Z Garbage Collector, also known as ZGC, is a scalable low latency garbage collector designed to meet the following goals:<br/> · Pause times do not exceed 10ms (*)<br/> · Pause times do not increase with the heap or live-set size<br/> · Handle heaps ranging from a 8MB to 16TB in size<br/> At a glance, ZGC is:<br/> · Concurrent<br/> · Region-based<br/> · Compacting<br/> · NUMA-aware<br/> · Using colored pointers<br/> · Using load barriers<br/> At its core, ZGC is a concurrent garbage collector, meaning all heavy lifting work is done while Java threads continue to execute. This greatly limits the impact garbage collection will have on your application&rsquo;s response time.<br/> 7 JVM Arguments of Highly Effective Applications<br/> <a href="https://wiki.openjdk.java.net/display/zgc/Main">https://wiki.openjdk.java.net/display/zgc/Main</a></td>
+<td style="text-align: left;">Z GC : Better Garbage Collector Algorithm than G1 or Shenandoah. JDK 11+ required.<br/> The Z Garbage Collector, also known as ZGC, is a scalable low latency garbage collector designed to meet the following goals:<br/> · Pause times do not exceed 10ms (*)<br/> · Pause times do not increase with the heap or live-set size<br/> · Handle heaps ranging from a 8MB to 16TB in size<br/> At a glance, ZGC is:<br/> · Concurrent<br/> · Region-based<br/> · Compacting<br/> · NUMA-aware<br/> · Using colored pointers<br/> · Using load barriers<br/> At its core, ZGC is a concurrent garbage collector, meaning all heavy lifting work is done while Java threads continue to execute. This greatly limits the impact garbage collection will have on your application&rsquo;s response time.<br/> 7 JVM Arguments of Highly Effective Applications<br/> <a href="https://wiki.openjdk.org/spaces/zgc/pages/34668579/Main">https://wiki.openjdk.org/spaces/zgc/pages/34668579/Main</a></td>
 </tr>
 <tr>
 <td style="text-align: left;">-XshowSettings:vm</td>
@@ -7653,7 +7653,7 @@
 <tr>
 <td style="text-align: left;">-XX:+HeapDumpOnOutOfMemoryError<br/> -XX:HeapDumpPath</td>
 <td style="text-align: left;">Yes</td>
-<td style="text-align: left;">When running a JVM in a docker container it is probably wise to use the HeapDumpOnOutOfMemoryError option so if you ever run out of memmory the jvm will write a dump of the heap to disk.<br/> <a href="https://merikan.com/2019/04/jvm-in-a-container/">https://merikan.com/2019/04/jvm-in-a-container/</a><br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1</a></td>
+<td style="text-align: left;">When running a JVM in a docker container it is probably wise to use the HeapDumpOnOutOfMemoryError option so if you ever run out of memmory the jvm will write a dump of the heap to disk.<br/> <a href="https://www.merikan.com/2019/04/jvm-in-a-container">https://www.merikan.com/2019/04/jvm-in-a-container</a><br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1</a></td>
 </tr>
 <tr>
 <td style="text-align: left;">-Xss</td>

@@ -8252,7 +8252,7 @@
 </ol>
 <h2 id="introduction">Introduction</h2>
 <ul>
-<li><a href="https://prometheus.io/"><strong>prometheus.io</strong></a></li>
+<li><a href="https://prometheus.io"><strong>prometheus.io</strong></a></li>
 <li><a href="https://github.com/prometheus/prometheus">github.com/prometheus/prometheus</a></li>
 <li><a href="https://dzone.com/refcardz/scaling-and-augmenting-prometheus">Dzone Refcard: Scaling and Augmenting Prometheus</a> Prometheus is an open-source infrastructure and services monitoring system popular for Kubernetes and cloud-native services and apps. It can help make metric collection easier, correlate events and alerts, provide security, and do troubleshooting and tracing at scale. This Refcard will teach you how to pave the path for Prometheus adoption, what observability looks like beyond Prometheus, and how Prometheus helps provide scalability, high availability, and long-term storage.</li>
 <li><a href="https://dzone.com/articles/prometheus-collectors">Monitoring Self-Destructing Apps Using Prometheus</a> Learn how to configure Prometheus collectors and their use cases.</li>
@@ -8263,18 +8263,18 @@
 <li><a href="https://medium.com/@valyala/promql-tutorial-for-beginners-9ab455142085">PromQL Tutorial</a></li>
 <li><a href="https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus">How to use Ansible to set up system monitoring with Prometheus</a></li>
 <li><a href="https://medium.com/@griggheo/initial-experiences-with-the-prometheus-monitoring-system-167054ac439c">Initial experiences with the Prometheus monitoring system</a></li>
-<li><a href="https://prometheus.io/docs/instrumenting/writing_exporters/">prometheus.io/docs/instrumenting/writing_exporters/</a></li>
-<li><a href="https://devconnected.com/complete-node-exporter-mastery-with-prometheus/">devconnected.com/complete-node-exporter-mastery-with-prometheus/</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/writing_exporters">prometheus.io/docs/instrumenting/writing_exporters/</a></li>
+<li><a href="https://devconnected.com/complete-node-exporter-mastery-with-prometheus">devconnected.com/complete-node-exporter-mastery-with-prometheus/</a></li>
 <li>Prometheus es un &ldquo;time series DBMS&rdquo; y sistema de monitorización completo, que incluye recogida de datos, almacenamiento, visualización y exportación.</li>
 <li>La <strong>arquitectura de Prometheus</strong> se basa en <strong>&ldquo;pull metrics&rdquo; (extracción de métricas)</strong>. En lugar de empujar las métricas (&ldquo;pushing metrics&rdquo;) hacia la herramienta de monitorización, <strong>extrae (&ldquo;pull&rdquo;) las métricas de los servicios (por defecto un &ldquo;/metrics&rdquo; HTTP endpoint)</strong> en texto plano (parseable por humanos y de fácil diagnóstico). Prometheus también tiene un &ldquo;push gateway&rdquo;, de modo que también soporta &ldquo;push&rdquo; para métricas específicas cuando el modelo de &ldquo;pull&rdquo; no funciona (si bien este método no es recomendable).</li>
 <li>Prometheus se puede conectar a <strong>series de tiempo (time series)</strong> con un nombre de métrica y pares clave-valor, simplificando la monitorización en complejos entornos cloud multi-nodo.</li>
-<li>La herramienta también proporciona <a href="https://prometheus.io/docs/prometheus/latest/querying/basics/">PromQL</a>, para el procesado de datos &ldquo;time-series&rdquo;. Permite realizar consultas (queries) para la manipulación de datos y generar nueva información relevante. Con <a href="https://prometheus.io/docs/prometheus/latest/querying/basics/">PromQL</a> se pueden generar gráficos, visualizar conjuntos de datos, crear tablas, y generar alertas basadas en parámetros específicos.</li>
-<li>La consola web de Prometheus permite gestionar todas las características y herramientas disponibles en Prometheus. Se pueden utilizar expresiones regulares y consultas avanzadas de <a href="https://prometheus.io/docs/prometheus/latest/querying/basics/">PromQL</a> para la creación de conjuntos de datos (datasets) y alertas.</li>
+<li>La herramienta también proporciona <a href="https://prometheus.io/docs/prometheus/latest/querying/basics">PromQL</a>, para el procesado de datos &ldquo;time-series&rdquo;. Permite realizar consultas (queries) para la manipulación de datos y generar nueva información relevante. Con <a href="https://prometheus.io/docs/prometheus/latest/querying/basics">PromQL</a> se pueden generar gráficos, visualizar conjuntos de datos, crear tablas, y generar alertas basadas en parámetros específicos.</li>
+<li>La consola web de Prometheus permite gestionar todas las características y herramientas disponibles en Prometheus. Se pueden utilizar expresiones regulares y consultas avanzadas de <a href="https://prometheus.io/docs/prometheus/latest/querying/basics">PromQL</a> para la creación de conjuntos de datos (datasets) y alertas.</li>
 <li>Prometheus activamente &ldquo;scrapea&rdquo; datos, los almacena, y soporta &ldquo;queries&rdquo;, &ldquo;gráficos&rdquo; y &ldquo;alertas&rdquo;, así como proporciona &ldquo;endpoints&rdquo; a otros consumidores API como Grafana. Todo esto lo realiza con los siguientes componentes:<ul>
-<li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">Librerías cliente</a>: instrumentación del código de aplicación (para generar eventos).</li>
+<li><a href="https://prometheus.io/docs/instrumenting/clientlibs">Librerías cliente</a>: instrumentación del código de aplicación (para generar eventos).</li>
 <li><a href="https://github.com/prometheus/prometheus">Servidor Prometheus</a>: &ldquo;scrapeando&rdquo; y almacenando estos eventos, cuando se generan, como &ldquo;time series data&rdquo;. Este es el <strong>modelo &ldquo;pull&rdquo;</strong> más común para la recogida general de métricas en Prometheus.</li>
 <li><a href="https://github.com/prometheus/pushgateway">Pushgateway</a>: <strong>Modelo &ldquo;Push&rdquo;</strong>, soportando trabajos efímeros de importación de datos. <strong>Sólo recomendable en aplicaciones &ldquo;serverless&rdquo;</strong>, donde las aplicaciones son lanzadas y destruidas bajo demanda, así como las aplicaciones que manejan &ldquo;batch jobs&rdquo;.</li>
-<li><a href="https://prometheus.io/docs/instrumenting/exporters/">Exportadores de Datos</a>: exportando servicios como HAProxy, StatsD, Graphite, etc.</li>
+<li><a href="https://prometheus.io/docs/instrumenting/exporters">Exportadores de Datos</a>: exportando servicios como HAProxy, StatsD, Graphite, etc.</li>
 </ul>
 </li>
 <li>Prometheus se diferencia de otros sistemas de monitorización con las siguientes funcionalidades:<ul>
@@ -8287,51 +8287,51 @@
 </ul>
 </li>
 <li><a href="https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects">magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects</a></li>
-<li><a href="https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus/">Cloud Native Monitoring with Prometheus 🌟</a></li>
+<li><a href="https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus">Cloud Native Monitoring with Prometheus 🌟</a></li>
 <li><a href="https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8">itnext.io - Prometheus: yet-another-cloudwatch-exporter — collecting AWS CloudWatch metrics</a></li>
-<li><a href="https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp/">Prometheus Monitoring Ecosystem Begins to Mature</a></li>
-<li><a href="https://www.learnsteps.com/monitoring-infrastructure-system-design/">learnsteps.com: Monitoring Infrastructure System Design</a></li>
-<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block/">ganeshvernekar.com: Prometheus TSDB (Part 1): The Head Block</a></li>
-<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint/">ganeshvernekar.com: Prometheus TSDB (Part 2): WAL and Checkpoint</a></li>
-<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk/">ganeshvernekar.com: Prometheus TSDB (Part 3): Memory Mapping of Head Chunks from Disk</a></li>
-<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index/">ganeshvernekar.com: Prometheus TSDB (Part 4): Persistent Block and its Index</a></li>
+<li><a href="https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp">Prometheus Monitoring Ecosystem Begins to Mature</a></li>
+<li><a href="https://www.learnsteps.com/monitoring-infrastructure-system-design">learnsteps.com: Monitoring Infrastructure System Design</a></li>
+<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block">ganeshvernekar.com: Prometheus TSDB (Part 1): The Head Block</a></li>
+<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint">ganeshvernekar.com: Prometheus TSDB (Part 2): WAL and Checkpoint</a></li>
+<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk">ganeshvernekar.com: Prometheus TSDB (Part 3): Memory Mapping of Head Chunks from Disk</a></li>
+<li><a href="https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index">ganeshvernekar.com: Prometheus TSDB (Part 4): Persistent Block and its Index</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3">youtube playlist: How to setup Prometheus 🌟</a></li>
 <li><a href="https://learndevops.substack.com/p/hitting-prometheus-api-with-curl">learndevops.substack.com: Hitting prometheus API with curl and jq 🌟</a> <strong>Determine offending pods that use more RAM than requested, causing OOM.</strong></li>
-<li><a href="https://devclass.com/2021/01/07/prometheus-2_24/">devclass.com: Safety…first? Prometheus 2.24 finally features TLS on HTTP serving endpoints</a></li>
-<li><a href="https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus/">sysadminxpert.com: Steps to Monitor Linux Server using Prometheus</a></li>
+<li><a href="https://www.devclass.com/containers/2021/01/07/safetyfirst-prometheus-224-finally-features-tls-on-http-serving-endpoints/1626636">devclass.com: Safety…first? Prometheus 2.24 finally features TLS on HTTP serving endpoints</a></li>
+<li><a href="https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus">sysadminxpert.com: Steps to Monitor Linux Server using Prometheus</a></li>
 <li><a href="https://medium.com/@akshitverma8191/prometheus-grafana-node-monitoring-on-kubernetes-79fd8311b56d">medium.com: Prometheus-Grafana : Node Monitoring on Kubernetes</a></li>
-<li><a href="https://zerodha.tech/blog/infra-monitoring-at-zerodha/">zerodha.tech: Infrastructure monitoring with Prometheus at Zerodha</a></li>
-<li><a href="https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/">devopscube.com: How to Setup Prometheus Monitoring On Kubernetes Cluster 🌟</a></li>
+<li><a href="https://zerodha.tech/blog/infra-monitoring-at-zerodha">zerodha.tech: Infrastructure monitoring with Prometheus at Zerodha</a></li>
+<li><a href="https://devopscube.com/setup-prometheus-monitoring-on-kubernetes">devopscube.com: How to Setup Prometheus Monitoring On Kubernetes Cluster 🌟</a></li>
 <li><a href="https://prometheus-operator.dev">prometheus-operator.dev 🌟</a></li>
 <li><a href="https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang">gabrieltanner.org: Golang Application monitoring using Prometheus</a></li>
-<li><a href="https://promlens.com/">promlens.com 🌟</a> The power tool for querying Prometheus. Build, understand, and fix your queries much more effectively with the ultimate query builder for PromQL</li>
+<li><a href="https://promlens.com">promlens.com 🌟</a> The power tool for querying Prometheus. Build, understand, and fix your queries much more effectively with the ultimate query builder for PromQL</li>
 <li><a href="https://medium.com/avmconsulting-blog/prometheus-monitoring-with-elastic-stack-in-kubernetes-5cf0aaa7ce04">medium: Prometheus monitoring with Elastic Stack in Kubernetes 🌟</a> Monitoring is one of the key components for managing large clusters. For this, we have several tools.</li>
-<li><a href="https://grafana.com/blog/2021/04/08/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs/">grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs</a> If you rely on Prometheus for your monitoring, and your monitoring fails, how will you know? Learn how to set up Prometheus servers to monitor all other Prometheus servers</li>
-<li><a href="https://portworx.com/kubernetes-backup-monitoring/">portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana</a></li>
-<li><a href="https://sysdig.com/blog/postgresql-monitoring/">sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟</a></li>
+<li><a href="https://grafana.com/blog/2021/04/08/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs">grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs</a> If you rely on Prometheus for your monitoring, and your monitoring fails, how will you know? Learn how to set up Prometheus servers to monitor all other Prometheus servers</li>
+<li><a href="https://portworx.com/kubernetes-backup-monitoring">portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana</a></li>
+<li><a href="https://www.sysdig.com/blog/postgresql-monitoring">sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟</a></li>
 <li><a href="https://itnext.io/observability-at-scale-52d0d9a5fb9b">itnext.io: Observability at Scale</a></li>
 <li><a href="https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc">jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics</a> Starting your journey in observability by gathering metrics with Prometheus</li>
-<li><a href="https://www.innoq.com/en/blog/scraping-docker-swarm-service-instances-with-prometheus/">innoq.com: Scraping a Docker swarm service with Prometheus</a></li>
+<li><a href="https://www.innoq.com/en/blog/2020/04/scraping-docker-swarm-service-instances-with-prometheus">innoq.com: Scraping a Docker swarm service with Prometheus</a></li>
 <li><a href="https://opensource.com/article/21/7/run-prometheus-home-container">opensource.com: Run Prometheus at home in a container</a></li>
 <li><a href="https://faun.pub/production-grade-kubernetes-monitoring-using-prometheus-78144b835b60">faun.pub: Production grade Kubernetes Monitoring using Prometheus 🌟</a></li>
-<li><a href="https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04/">howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu 20.04</a></li>
-<li><a href="https://cribl.io/blog/using-prometheus-for-agentless-monitoring/">cribl.io: Using Prometheus for Agentless Monitoring</a></li>
-<li><a href="https://logz.io/blog/aws-lambda-metrics-monitoring-guide/">logz.io:  Guide to Monitoring AWS Lambda Metrics with Prometheus &amp; Logz.io 🌟</a></li>
-<li><a href="https://aprenderbigdata.com/prometheus/">aprenderbigdata.com: Prometheus: Introducción a la Monitorización de Métricas</a></li>
+<li><a href="https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04">howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu 20.04</a></li>
+<li><a href="https://cribl.io/blog/using-prometheus-for-agentless-monitoring">cribl.io: Using Prometheus for Agentless Monitoring</a></li>
+<li><a href="https://logz.io/blog/aws-lambda-metrics-monitoring-guide">logz.io:  Guide to Monitoring AWS Lambda Metrics with Prometheus &amp; Logz.io 🌟</a></li>
+<li><a href="https://aprenderbigdata.com/prometheus">aprenderbigdata.com: Prometheus: Introducción a la Monitorización de Métricas</a></li>
 <li><a href="https://tech.marksblogg.com/clickhouse-prometheus-grafana.html">tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus &amp; Grafana</a></li>
 <li><a href="https://www.youtube.com/watch?v=GL2v81xYuAQ&amp;ab_channel=k6">youtube: Monitoring your k6 load test: how to install Grafana and Prometheus on a Kubernetes cluster</a></li>
-<li><a href="https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase/">blog.couchbase.com: How to Build Observability Dashboards with Prometheus, Grafana &amp; Couchbase</a></li>
-<li><a href="https://sysdig.com/blog/redis-prometheus/">sysdig.com: How to monitor Redis with Prometheus</a></li>
-<li><a href="https://jfrog.com/blog/dont-let-prometheus-steal-your-fire/">jfrog.com: Don’t let Prometheus Steal your Fire</a> <strong>Real world secrets exposed by unsafe defaults</strong></li>
+<li><a href="https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase">blog.couchbase.com: How to Build Observability Dashboards with Prometheus, Grafana &amp; Couchbase</a></li>
+<li><a href="https://www.sysdig.com/blog/redis-prometheus">sysdig.com: How to monitor Redis with Prometheus</a></li>
+<li><a href="https://jfrog.com/blog/dont-let-prometheus-steal-your-fire">jfrog.com: Don’t let Prometheus Steal your Fire</a> <strong>Real world secrets exposed by unsafe defaults</strong></li>
 <li><a href="https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02">itnext.io: Monitoring Spark Streaming on K8s with Prometheus and Grafana</a></li>
-<li><a href="https://source.coveo.com/2021/11/11/prometheus-at-scale/">source.coveo.com: Prometheus at scale</a> Check out how Coveo uses Thanos and Prometheus.</li>
+<li><a href="https://source.coveo.com/2021/11/11/prometheus-at-scale">source.coveo.com: Prometheus at scale</a> Check out how Coveo uses Thanos and Prometheus.</li>
 <li><a href="https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1">medium.com: Prometheus HA with Thanos Sidecar Or Receiver?</a> In this blog post, you will go through the two different approaches for integrating
 Thanos Metrics with prometheus in Kubernetes environments.</li>
-<li><a href="https://prometheus.io/docs/introduction/comparison/"><mark>prometheus.io: Comparison to Alternatives</mark> 🌟</a></li>
-<li><a href="https://www.cloudsavvyit.com/15124/what-is-prometheus-and-why-is-it-so-popular/"><mark>cloudsavvyit.com: What is Prometheus and Why Is It So Popular</mark></a></li>
-<li><a href="https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases/"><mark>infracloud.io: Prometheus Definitive Guide Part I - Metrics and Use Cases</mark></a><ul>
-<li><a href="https://www.infracloud.io/blogs/promql-prometheus-guide/"><mark>infracloud.io: Prometheus Query Language - Prometheus Definitive Guide Part II</mark></a></li>
-<li><a href="https://www.infracloud.io/blogs/prometheus-operator-helm-guide/"><mark>infracloud.io: Prometheus Definitive Guide Part III - Prometheus Operator</mark></a></li>
+<li><a href="https://prometheus.io/docs/introduction/comparison"><mark>prometheus.io: Comparison to Alternatives</mark> 🌟</a></li>
+<li><a href="https://www.cloudsavvyit.com/15124/what-is-prometheus-and-why-is-it-so-popular"><mark>cloudsavvyit.com: What is Prometheus and Why Is It So Popular</mark></a></li>
+<li><a href="https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases"><mark>infracloud.io: Prometheus Definitive Guide Part I - Metrics and Use Cases</mark></a><ul>
+<li><a href="https://www.infracloud.io/blogs/promql-prometheus-guide"><mark>infracloud.io: Prometheus Query Language - Prometheus Definitive Guide Part II</mark></a></li>
+<li><a href="https://www.infracloud.io/blogs/prometheus-operator-helm-guide"><mark>infracloud.io: Prometheus Definitive Guide Part III - Prometheus Operator</mark></a></li>
 </ul>
 </li>
 <li><a href="https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc">jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics</a> Starting your journey in observability by gathering metrics with Prometheus<ul>
@@ -8340,7 +8340,7 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 </li>
 <li><a href="https://medium.com/gumgum-tech/how-to-reduce-your-prometheus-cost-6c7cc685e347"><mark>medium.com/gumgum-tech: How to reduce your Prometheus cost | Daniel Fernandez</mark></a> Prometheus is an excellent service to monitor your containerized applications. Still, it can get expensive quickly if you ingest all of the Kube-state-metrics metrics, and you are probably not even using them all. This is especially true when using a service like Amazon Managed Service for Prometheus (AMP) because you get billed by metrics ingested and stored.</li>
 <li><a href="https://medium.com/kubecost/prometheus-grafana-configuration-query-examples-885b91b6ca6">medium.com/kubecost: Prometheus Grafana: configuration &amp; query examples 🌟</a></li>
-<li><a href="https://sysdig.com/blog/prometheus-2-37-lts/">sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟</a></li>
+<li><a href="https://www.sysdig.com/blog">sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟</a></li>
 <li><a href="https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f">dev.to: How to monitor nginx in Kubernetes with Prometheus</a> In this article, you&rsquo;ll learn how to monitor nginx in Kubernetes with Prometheus and troubleshoot issues related to latency, saturation, etc</li>
 <li><a href="https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus">promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus</a></li>
 <li><a href="https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915">itnext.io: Hardening Monitoring: a step-by-step guide</a> In this article, I walk through how to serve metrics-server, prometheus-server and prometheus-adapter securely.</li>
@@ -8348,19 +8348,19 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 <li><a href="https://blog.devops.dev/observability-better-ci-for-your-prometheus-alerts-32aaea3b3d77">blog.devops.dev: Observability: Better CI for your prometheus alerts with pint instead of promtool 🌟</a></li>
 <li><a href="https://blog.zelarsoft.com/website-monitoring-by-using-prometheus-blackbox-exporter-with-grafana-c4004bb03131">blog.zelarsoft.com: Website Monitoring By Using Prometheus Blackbox Exporter with Grafana</a></li>
 <li><a href="https://blog.devops.dev/monitoring-a-spring-boot-application-in-kubernetes-with-prometheus-a2d4ec7f9922"><mark>blog.devops.dev: Monitoring a Spring Boot application in Kubernetes with Prometheus</mark> 🌟</a></li>
-<li><a href="https://devopstalks.in/everything-about-prometheus/">devopstalks.in: Everything about Prometheus</a></li>
+<li><a href="https://devopstalks.in/everything-about-prometheus">devopstalks.in: Everything about Prometheus</a></li>
 <li><a href="https://blog.devops.dev/deploying-and-monitoring-an-application-using-prometheus-on-kubernetes-cluster-483773f789f"><mark>blog.devops.dev: How to Monitor your Application using Prometheus</mark> 🌟</a> In this Blog, we will be able to deploy our application in an EKS cluster and monitor it with Prometheus</li>
 <li><a href="https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u"><mark>dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including Dashboards</mark></a> Goodbye to the headaches of manual infrastructure management, and hello to a more efficient and scalable approach with ArgoCD.</li>
 <li><a href="https://medium.com/@dotdc/how-to-find-unused-prometheus-metrics-using-mimirtool-a44560173543">medium.com: How to find unused Prometheus metrics using mimirtool 🌟</a></li>
-<li><a href="https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter/">rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter</a> In this tutorial, you will learn how to deploy the blackbox-exporter and configure monitoring of endpoints with the Kubernetes ServiceMonitors. And finally, you will discuss Blackbox probes which are used to poll endpoints.</li>
+<li><a href="https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter">rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter</a> In this tutorial, you will learn how to deploy the blackbox-exporter and configure monitoring of endpoints with the Kubernetes ServiceMonitors. And finally, you will discuss Blackbox probes which are used to poll endpoints.</li>
 <li><a href="https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infrastructure-footprint-by-a-third-8bf8171e46b1">medium.com/criteo-engineering: How we reduced our Prometheus infrastructure footprint by a third</a></li>
 <li><a href="https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495">blog.devops.dev: Observability Concept in Prometheus</a> In This blog, we will talk more about other components of Prometheus that are useful in understanding and in the field of DevOps and SRE. These terms are common in Prometheus also the topics are discussed in PCA certification</li>
 <li><a href="https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a"><mark>horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics</mark></a></li>
-<li><a href="https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half/"><mark>thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half</mark></a> Grafana Labs Distinguished Engineer Bryan Boreham detailed at KubeCon how he reduced the memory usage of Prometheus.</li>
+<li><a href="https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half"><mark>thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half</mark></a> Grafana Labs Distinguished Engineer Bryan Boreham detailed at KubeCon how he reduced the memory usage of Prometheus.</li>
 <li><a href="https://devxblog.hashnode.dev/prometheus-elevate-your-monitoring-game">devxblog.hashnode.dev: Prometheus: Elevate Your Monitoring Game</a></li>
 <li><a href="https://devxblog.hashnode.dev/simplified-setup-prometheus-cadvisor-redis-and-node-exporter">devxblog.hashnode.dev: Simplified Setup: Prometheus, cAdvisor, redis and Node Exporter</a></li>
-<li><a href="https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects/"><mark>grafana.com: Get started with Prometheus with these three easy projects</mark></a></li>
-<li><a href="https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04/">fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟</a></li>
+<li><a href="https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects"><mark>grafana.com: Get started with Prometheus with these three easy projects</mark></a></li>
+<li><a href="https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04">fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟</a></li>
 </ul>
 <center>
 <p><a href="https://github.com/prometheus/prometheus"><img alt="prometheus architecture" src="images/prometheus-architecture.png" /></a></p>
@@ -8374,10 +8374,10 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 </ul>
 <h2 id="prometheus-agent">Prometheus Agent</h2>
 <ul>
-<li><a href="https://prometheus.io/blog/2021/11/16/agent/">prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding</a></li>
-<li><a href="https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases/">cncf.io: Prometheus announces an Agent to address a new range of use cases</a></li>
-<li><a href="https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent/">grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent</a></li>
-<li><a href="https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge/">thenewstack.io: CNCF Prometheus Agent Could Be a ‘Game Changer’ for Edge</a></li>
+<li><a href="https://prometheus.io/blog/2021/11/16/agent">prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding</a></li>
+<li><a href="https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases">cncf.io: Prometheus announces an Agent to address a new range of use cases</a></li>
+<li><a href="https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent">grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent</a></li>
+<li><a href="https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge">thenewstack.io: CNCF Prometheus Agent Could Be a ‘Game Changer’ for Edge</a></li>
 <li><a href="https://medium.com/@ehsan-khodadadi/prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-cab2cdb20c11">medium.com/@ehsan-khodadadi: Prometheus Multi-Cluster monitoring using Prometheus Agent Mode</a></li>
 <li><a href="https://medium.com/techspiration/deploying-prometheus-multi-cluster-monitoring-using-prometheus-agent-mode-a04d89afeed7">medium.com/techspiration: Deploying Prometheus Multi-Cluster monitoring using Prometheus Agent Mode</a></li>
 </ul>
@@ -8387,7 +8387,7 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 </ul>
 <h2 id="promcat-resource-catalog">Promcat Resource Catalog</h2>
 <ul>
-<li><a href="https://promcat.io/">Promcat: A resource catalog for enterprise-class Prometheus monitoring 🌟</a></li>
+<li><a href="https://promcat.io">Promcat: A resource catalog for enterprise-class Prometheus monitoring 🌟</a></li>
 </ul>
 <h2 id="prometheus-demo">Prometheus Demo</h2>
 <ul>
@@ -8395,7 +8395,7 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 </ul>
 <h2 id="prometheus-storage">Prometheus Storage</h2>
 <ul>
-<li>Proporciona etiquetado clave-valor y &ldquo;time-series&rdquo;.  La propia documentación de Prometheus explica cómo se gestiona el <a href="https://prometheus.io/docs/prometheus/latest/storage/">almacenamiento en disco</a> (<strong>Prometheus Time-Series DB</strong>). La ingestión de datos se agrupa en bloques de dos horas, donde cada bloque es un directorio conteniendo uno o más &ldquo;chunk files&rdquo; (los datos), además de un fichero de metadatos y un fichero index:</li>
+<li>Proporciona etiquetado clave-valor y &ldquo;time-series&rdquo;.  La propia documentación de Prometheus explica cómo se gestiona el <a href="https://prometheus.io/docs/prometheus/latest/storage">almacenamiento en disco</a> (<strong>Prometheus Time-Series DB</strong>). La ingestión de datos se agrupa en bloques de dos horas, donde cada bloque es un directorio conteniendo uno o más &ldquo;chunk files&rdquo; (los datos), además de un fichero de metadatos y un fichero index:</li>
 <li>Almacenamiento de datos en disco (Prometheus Time-Series DB):</li>
 </ul>
 <div class="highlight"><pre><span></span><code>./data/01BKGV7JBM69T2G1BGBGM6KB12
@@ -8414,11 +8414,11 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 <li><a href="https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4">itnext.io: SLOs should be easy, say hi to Sloth 🌟</a></li>
 </ul>
 </li>
-<li><a href="https://promtools.dev/">PromTools: SLOs with Prometheus 🌟</a> Multiple Burn Rate Alerts. This page will generate, with the data you provide in the form, the necessary Prometheus alerting and recording rules for Multiple Burn Rate which you might know from The Site Reliability Workbook. These rules will evaluate based on the available metrics in the last 30 days.<ul>
+<li><a href="https://promtools.dev">PromTools: SLOs with Prometheus 🌟</a> Multiple Burn Rate Alerts. This page will generate, with the data you provide in the form, the necessary Prometheus alerting and recording rules for Multiple Burn Rate which you might know from The Site Reliability Workbook. These rules will evaluate based on the available metrics in the last 30 days.<ul>
 <li><a href="https://github.com/metalmatze/slo-libsonnet">slo-libsonnet</a> Generate Prometheus alerting &amp; recording rules and Grafana dashboards for your SLOs.</li>
 </ul>
 </li>
-<li><a href="https://opensource.google/projects/prometheus-slo-burn-example">opensource.google: Prometheus SLO example</a> An end to end example of implementing SLOs with Prometheus, Grafana and Go</li>
+<li><a href="https://github.com/google/prometheus-slo-burn-example">opensource.google: Prometheus SLO example</a> An end to end example of implementing SLOs with Prometheus, Grafana and Go</li>
 <li><a href="https://github.com/google/slo-generator">SLO Generator</a> SLO Generator is a tool to compute SLIs, SLOs, Error Budgets and Burn rate and export an SLO report to supported exporters.</li>
 </ul>
 <h3 id="scalability-high-availability-ha-and-long-term-storage">Scalability, High Availability (HA) and Long-Term Storage</h3>
@@ -8436,43 +8436,43 @@ Thanos Metrics with prometheus in Kubernetes environments.</li>
 <h3 id="storage-solutions-for-prometheus">Storage Solutions for Prometheus</h3>
 <ul>
 <li><a href="https://monitoring2.substack.com/p/big-prometheus">monitoring2.substack.com: Big Prometheus. Thanos, Cortex, M3DB and VictoriaMetrics at scale 🌟</a></li>
-<li><a href="https://prometheus.io/docs/prometheus/latest/storage/"><strong>Prometheus TSDB</strong></a></li>
-<li><a href="https://cortexmetrics.io/"><strong>Cortex</strong>:</a> Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.<ul>
+<li><a href="https://prometheus.io/docs/prometheus/latest/storage"><strong>Prometheus TSDB</strong></a></li>
+<li><a href="https://cortexmetrics.io"><strong>Cortex</strong>:</a> Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.<ul>
 <li><a href="https://github.com/cortexproject/cortex">github.com/cortexproject/cortex</a></li>
-<li><a href="https://www.weave.works/features/prometheus-monitoring/">Weave Cortex SaaS (Hosted Prometheus - Public Cloud)</a></li>
+<li><a href="https://ambking1234.biz/?action=register&amp;marketingRef=6788b227da9499f55f6ea745">Weave Cortex SaaS (Hosted Prometheus - Public Cloud)</a></li>
 </ul>
 </li>
-<li><a href="https://thanos.io/"><strong>Thanos</strong>:</a> Open source, <strong>highly available Prometheus setup with long term storage capabilities</strong>.<ul>
+<li><a href="https://thanos.io"><strong>Thanos</strong>:</a> Open source, <strong>highly available Prometheus setup with long term storage capabilities</strong>.<ul>
 <li>Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.</li>
 <li><a href="https://github.com/ruanbekker/thanos-cluster-setup">github.com/ruanbekker: Thanos Cluster Setup</a> How to deploy a HA Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.</li>
-<li><a href="https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke/">Highly Available Prometheus Metrics for Distributed SQL with Thanos on GKE</a></li>
-<li><a href="https://www.infracloud.io/blogs/multi-tenancy-monitoring-thanos-receiver/">infracloud.io: Achieving multi-tenancy in monitoring with Prometheus &amp; the mighty Thanos Receiver</a></li>
+<li><a href="https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke">Highly Available Prometheus Metrics for Distributed SQL with Thanos on GKE</a></li>
+<li><a href="https://www.infracloud.io/blogs/multi-tenancy-monitoring-thanos-receiver">infracloud.io: Achieving multi-tenancy in monitoring with Prometheus &amp; the mighty Thanos Receiver</a></li>
 <li><a href="https://particule.io/en/blog/thanos-monitoring">particule.io: Multi-Cluster Monitoring with Thanos</a></li>
 <li><a href="https://github.com/thanos-io/thanos#architecture-overview">Thanos Architecture Overview 🌟</a></li>
-<li><a href="https://enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose/">enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose</a></li>
+<li><a href="https://www.enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose">enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose</a></li>
 <li><a href="https://github.com/goatlas-io/atlas">goatlas-io/atlas</a> Atlas provides the ability to easily run a secure distributed Thanos deployment.</li>
 <li><a href="https://github.com/thanos-io/kube-thanos"><mark>thanos-io/kube-thanos: Kubernetes specific configuration for deploying Thanos</mark></a></li>
 <li><a href="https://medium.com/nerd-for-tech/deep-dive-into-thanos-part-i-f72ecba39f76">medium.com/nerd-for-tech: Deep Dive into Thanos-Part I | Pavan Kumar</a> Monitoring Kubernetes Workloads with Thanos and Prometheus Operator.</li>
-<li><a href="https://particule.io/en/blog/thanos-monitoring/">particule.io: Multi-Cluster Monitoring with Thanos 🌟</a> In this article, you&rsquo;ll learn the limitations of a Prometheus-only monitoring stack and why moving to a Thanos-based stack can improve metrics retention and reduce overall costs for your clusters</li>
+<li><a href="https://particule.io/en/blog/thanos-monitoring">particule.io: Multi-Cluster Monitoring with Thanos 🌟</a> In this article, you&rsquo;ll learn the limitations of a Prometheus-only monitoring stack and why moving to a Thanos-based stack can improve metrics retention and reduce overall costs for your clusters</li>
 </ul>
 </li>
-<li><a href="https://www.m3db.io/"><strong>M3</strong>:</a> An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
+<li><a href="https://m3db.io"><strong>M3</strong>:</a> An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it&rsquo;s exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.</li>
-<li><a href="https://victoriametrics.com/">VictoriaMetrics</a></li>
+<li><a href="https://victoriametrics.com">VictoriaMetrics</a></li>
 </ul>
 <h4 id="influxdb-and-influxdb-templates">InfluxDB and InfluxDB Templates</h4>
 <ul>
-<li><a href="https://www.influxdata.com/"><strong>InfluxDB</strong>:</a> An <a href="https://en.wikipedia.org/wiki/Time_series_database">open-source time series database (TSDB)</a> developed by InfluxData. It is written in <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go</a> and optimized for fast, high-availability storage and retrieval of <a href="https://en.wikipedia.org/wiki/Time_series">time series</a> data in fields such as operations monitoring, application metrics, <a href="https://en.wikipedia.org/wiki/Internet_of_Things">Internet of Things</a> sensor data, and real-time analytics. It also has support for processing data from <a href="https://en.wikipedia.org/wiki/Graphite_(software)">Graphite</a>.</li>
+<li><a href="https://www.influxdata.com"><strong>InfluxDB</strong>:</a> An <a href="https://en.wikipedia.org/wiki/Time_series_database">open-source time series database (TSDB)</a> developed by InfluxData. It is written in <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go</a> and optimized for fast, high-availability storage and retrieval of <a href="https://en.wikipedia.org/wiki/Time_series">time series</a> data in fields such as operations monitoring, application metrics, <a href="https://en.wikipedia.org/wiki/Internet_of_Things">Internet of Things</a> sensor data, and real-time analytics. It also has support for processing data from <a href="https://en.wikipedia.org/wiki/Graphite_(software)">Graphite</a>.</li>
 <li><a href="https://en.wikipedia.org/wiki/MIT_License">en.wikipedia.org/wiki/InfluxDB</a></li>
-<li><a href="https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack/">influxdata.com: Building a Metrics &amp; Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack</a></li>
+<li><a href="https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack">influxdata.com: Building a Metrics &amp; Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack</a></li>
 <li><a href="https://en.wikipedia.org/wiki/MIT_License">en.wikipedia.org/wiki/MIT_License</a></li>
 <li><a href="https://dzone.com/articles/flux-windowing-and-aggregation">dzone: Flux queries</a> New language being developed at InfluxData.</li>
-<li><a href="https://www.influxdata.com/products/influxdb-templates/">influxdb-templates</a> Build and share InfluxDB templates for monitoring solutions that deliver faster time to awesome.<ul>
-<li><a href="https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates/">thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates</a></li>
+<li><a href="https://www.influxdata.com">influxdb-templates</a> Build and share InfluxDB templates for monitoring solutions that deliver faster time to awesome.<ul>
+<li><a href="https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates">thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates</a></li>
 </ul>
 </li>
-<li><a href="https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker/">influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker</a></li>
-<li><a href="https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud/">influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud</a></li>
+<li><a href="https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker">influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker</a></li>
+<li><a href="https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud">influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud</a></li>
 </ul>
 <h2 id="collectors-software-exposing-prometheus-metrics">Collectors. Software exposing Prometheus metrics</h2>
 <ul>
@@ -8481,10 +8481,10 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 <h3 id="prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors">Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)</h3>
 <ul>
 <li>Prometheus proporciona un ecosistema de <strong>&ldquo;exporters&rdquo;</strong>, los cuales permiten que herramientas de terceros puedan exportar sus datos en Prometheus. Muchos componentes de software de código abierto son compatibles por defecto.</li>
-<li><a href="https://exporterhub.io/">exporterhub.io 🌟</a> Exporterhub is a curated List of Prometheus Exporters</li>
+<li><a href="https://exporterhub.io">exporterhub.io 🌟</a> Exporterhub is a curated List of Prometheus Exporters</li>
 <li><strong>Un &ldquo;exporter&rdquo; expone las métricas de uno ó varios &ldquo;collectors&rdquo;.</strong></li>
-<li><a href="https://prometheus.io/docs/instrumenting/exporters/">Prometheus Exporters</a><ul>
-<li><a href="https://prometheus.io/download/">prometheus.io/download/</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/exporters">Prometheus Exporters</a><ul>
+<li><a href="https://prometheus.io/download">prometheus.io/download/</a></li>
 <li><a href="https://github.com/prometheus">github.com/prometheus</a></li>
 </ul>
 </li>
@@ -8496,10 +8496,10 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 </ul>
 </li>
 <li><a href="https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data">Example: JMX Exporter with ActiveMQ</a></li>
-<li><a href="https://github.com/flant/k8s-image-availability-exporter">k8s-image-availability-exporter</a> is a Prometheus exporter that warns you proactively about images that are defined in Kubernetes objects (e.g., an image field in the Deployment) but are not available in the container registry (such as Docker Registry, etc.).</li>
+<li><a href="https://github.com/deckhouse/k8s-image-availability-exporter">k8s-image-availability-exporter</a> is a Prometheus exporter that warns you proactively about images that are defined in Kubernetes objects (e.g., an image field in the Deployment) but are not available in the container registry (such as Docker Registry, etc.).</li>
 <li><a href="https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html">engineeringblog.yelp.com: Improving the performance of the Prometheus JMX Exporter</a></li>
-<li><a href="https://sysdig.com/blog/monitor-oracle-database-prometheus/">sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter</a></li>
-<li><a href="https://github.com/ivx/yet-another-cloudwatch-exporter">YACE - yet another cloudwatch exporter 🌟</a> AWS cloudwatch to prometheus exporter - Discovers services through AWS tags, gets cloudwatch data and provides them as prometheus metrics with AWS tags as labels</li>
+<li><a href="https://www.sysdig.com/blog/monitor-oracle-database-prometheus">sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter</a></li>
+<li><a href="https://github.com/prometheus-community/yet-another-cloudwatch-exporter">YACE - yet another cloudwatch exporter 🌟</a> AWS cloudwatch to prometheus exporter - Discovers services through AWS tags, gets cloudwatch data and provides them as prometheus metrics with AWS tags as labels</li>
 <li><a href="https://github.com/prometheus-community/elasticsearch_exporter">prometheus-community/elasticsearch_exporter</a> Prometheus exporter for various metrics about ElasticSearch, written in Go.</li>
 <li><a href="https://medium.com/@akashjoffical08/monitor-uptime-of-endpoints-in-k8s-using-blackbox-exporter-f80166a328e9">medium.com/@akashjoffical08: Monitor Uptime of Endpoints in K8s using Blackbox Exporter 🌟</a></li>
 <li><a href="https://github.com/sstarcher/helm-exporter">sstarcher/helm-exporter</a> Helm-exporter exports Helm releases, charts, and version statistics in the Prometheus format</li>
@@ -8514,47 +8514,47 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 <ul>
 <li>Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un &ldquo;text-file&rdquo;. Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter.</li>
 <li><a href="https://dzone.com/articles/prometheus-collectors">dzone.com: Monitoring Self-Destructing Apps Using Prometheus</a> Learn how to configure Prometheus collectors and their use cases.</li>
-<li><a href="https://prometheus.io/docs/instrumenting/writing_exporters/">prometheus.io: Writing Exporters</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/writing_exporters">prometheus.io: Writing Exporters</a></li>
 <li><a href="https://devconnected.com/complete-node-exporter-mastery-with-prometheus">devconnected.com: Complete Node Exporter Mastery with Prometheus</a></li>
-<li><a href="https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk/">aws.amazon.com: Building a Prometheus remote write exporter for the OpenTelemetry Go SDK</a></li>
+<li><a href="https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk">aws.amazon.com: Building a Prometheus remote write exporter for the OpenTelemetry Go SDK</a></li>
 <li><a href="https://medium.com/@dast04/writing-custom-prometheus-exporters-in-python-kubernetes-73626b66d78c">medium.com/@dast04: Writing Custom Prometheus Exporters (in Python) — Kubernetes</a></li>
 </ul>
 <h3 id="prometheus-third-party-collectorsexporters">Prometheus Third-party Collectors/Exporters</h3>
 <ul>
 <li>Some third-party software exposes metrics in the Prometheus format, so no separate exporters are needed.</li>
-<li><a href="https://prometheus.io/docs/instrumenting/exporters/">Prometheus Third Party Exporters</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/exporters">Prometheus Third Party Exporters</a></li>
 </ul>
 <h4 id="opentelemetry-collector">OpenTelemetry Collector</h4>
 <ul>
 <li><a href="https://github.com/open-telemetry/opentelemetry-collector">OpenTelemetry Collector</a></li>
-<li><a href="https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code/">thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration to Line of Code</a></li>
+<li><a href="https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code">thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration to Line of Code</a></li>
 <li><a href="https://github.com/search?q=org%3Alightstep+launcher">OpenTelemetry Launchers 🌟</a></li>
-<li><a href="https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry/">thenewstack.io: Demystifying Distributed Traces in OpenTelemetry</a></li>
+<li><a href="https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry">thenewstack.io: Demystifying Distributed Traces in OpenTelemetry</a></li>
 <li><a href="https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978">medium: OpenTelemetry Specification v1.0.0, Tracing Edition</a></li>
 <li><a href="https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&amp;utm_medium=twitter&amp;utm_campaign=platform">cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level</a></li>
 <li><a href="https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d">medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana Tempo</a></li>
-<li><a href="https://newrelic.com/blog/best-practices/java-opentelemetry">newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry</a></li>
+<li><a href="https://newrelic.com/blog/apm/java-opentelemetry">newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry</a></li>
 <li><a href="https://github.com/jenkinsci/opentelemetry-plugin">https://github.com/jenkinsci/opentelemetry-plugin</a> Publish Jenkins performances metrics to an OpenTelemetry endpoint, including distributed traces of job executions and health metrics of the controller.</li>
 <li><a href="https://github.com/cyrille-leclerc/opentelemetry-maven-extension">https://github.com/cyrille-leclerc/opentelemetry-maven-extension</a> Maven extension to observe Maven builds as distributed traces using OpenTelemetry</li>
 <li><a href="https://github.com/equinix-labs/otel-cli">https://github.com/equinix-labs/otel-cli</a> OpenTelemetry command-line tool for sending events from shell scripts &amp; similar environments</li>
 <li><a href="https://github.com/ansible-collections/community.general/pull/3091">https://github.com/ansible-collections/community.general/pull/3091</a> Send distributed traces for the ansible runs with OpenTelemetry</li>
 <li><a href="https://medium.com/@tathagatapaul7/opentelemetry-in-kubernetes-deploying-your-collector-and-metrics-backend-b8ec86ac4a43">medium.com/@tathagatapaul7: OpenTelemetry in Kubernetes: Deploying your Collector and Metrics Backend</a> OpenTelemetry is a great way to instrument your applications to provide metrics in a vendor-agnostic way to any observability backend. But lots of people face issues while deploying it on Kubernetes. For me, I had the knowledge of how Kubernetes works, but I had trouble deploying the collector or at times instrumenting my application. The resources on the internet are a bit scattered and it requires a lot of time to go through them. There is a lack of resources that can show you a concrete implementation of OpenTelemetry in Kubernetes from start to finish (or some of them are very cleverly hidden). So I decided to write this blog to demonstrate a very simple implementation of how to deploy a collector to collect metrics and then export the data to various backends for observability. In another blog, I will show how an application in GoLang can be instrumented to expose metrics.</li>
-<li><a href="https://thenewstack.io/maximizing-kubernetes-efficiency-with-opentelemetry-tracing/">thenewstack.io: Maximizing Kubernetes Efficiency with OpenTelemetry Tracing</a> OTEL tracing can collect detailed data on request execution and provide visibility into the entire system. By catching performance issues early on, it can improve the user experience and reduce the risk of application failures.</li>
+<li><a href="https://thenewstack.io/maximizing-kubernetes-efficiency-with-opentelemetry-tracing">thenewstack.io: Maximizing Kubernetes Efficiency with OpenTelemetry Tracing</a> OTEL tracing can collect detailed data on request execution and provide visibility into the entire system. By catching performance issues early on, it can improve the user experience and reduce the risk of application failures.</li>
 </ul>
 <h4 id="telegraf-collector">Telegraf Collector</h4>
 <ul>
-<li><a href="https://www.influxdata.com/time-series-platform/telegraf/">Telegraf Collector</a></li>
+<li><a href="https://www.influxdata.com/time-series-platform/telegraf">Telegraf Collector</a></li>
 <li><a href="https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client">Telegraf Prometheus Output Plugin</a></li>
 <li><a href="https://github.com/rossmcdonald/telegraf">Telegraf Ansible Role</a></li>
-<li><a href="https://grafana.com/grafana/dashboards?collector=Telegraf">Grafana Dashboards with Telegraf Collectors</a></li>
+<li><a href="https://grafana.com/grafana/dashboards/?collector=Telegraf">Grafana Dashboards with Telegraf Collectors</a></li>
 <li><a href="http://web.archive.org/web/20220927234147/https://dzone.com/articles/synthetic-monitoring-with-telegraf">dzone: Synthetic Monitoring With Telegraf (white-box monitoring) [ARCHIVED]</a> Monitoring based on metrics exposed by the internals of the system</li>
-<li><a href="https://grafana.com/blog/2021/04/05/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service/">grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service</a></li>
-<li><a href="https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf/">sysadminxpert.com: How to Monitor Linux System with Grafana and Telegraf</a></li>
-<li><a href="https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf/">influxdata.com: Three Ways to Keep Cardinality Under Control When Using Telegraf</a></li>
+<li><a href="https://grafana.com/blog/2021/04/05/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service">grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service</a></li>
+<li><a href="https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf">sysadminxpert.com: How to Monitor Linux System with Grafana and Telegraf</a></li>
+<li><a href="https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf">influxdata.com: Three Ways to Keep Cardinality Under Control When Using Telegraf</a></li>
 </ul>
 <h4 id="micrometer-collector">Micrometer Collector</h4>
 <ul>
-<li><a href="http://micrometer.io/"><strong>Micrometer</strong> Collector</a></li>
+<li><a href="http://micrometer.io"><strong>Micrometer</strong> Collector</a></li>
 </ul>
 <h2 id="prometheus-alarms-and-event-tracking">Prometheus Alarms and Event Tracking</h2>
 <ul>
@@ -8563,17 +8563,17 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 <h2 id="prometheus-and-cloud-monitoring">Prometheus and Cloud Monitoring</h2>
 <ul>
 <li>AWS CloudWatch is supported by Prometheus.</li>
-<li><a href="https://aws.amazon.com/prometheus/">https://aws.amazon.com/prometheus/</a></li>
+<li><a href="https://aws.amazon.com/prometheus">https://aws.amazon.com/prometheus</a></li>
 <li><a href="https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus">cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus</a> Prometheus, the de facto standard for Kubernetes monitoring, works well for many basic deployments, but managing Prometheus infrastructure can become challenging at scale. As Kubernetes deployments continue to play a bigger role in enterprise IT, scaling Prometheus for a large number of metrics across a global footprint has become a pressing need for many organizations. Today, we’re excited to announce the public preview of Google Cloud Managed Service for Prometheus, a new monitoring offering designed for scale and ease of use that maintains compatibility with the open-source Prometheus ecosystem.</li>
 </ul>
 <h2 id="prometheus-installers">Prometheus Installers</h2>
 <ul>
-<li><a href="https://devopscube.com/setup-prometheus-helm-chart/">Setup Prometheus Using Helm Chart on Kubernetes</a> 🌟 - A detailed guide on how to set up Prometheus on a Kubernetes cluster using the official community Helm chart, including best practices and an overview of the components involved like Alertmanager, Kube State Metrics, and Node Exporter.</li>
+<li><a href="https://devopscube.com/setup-prometheus-helm-chart">Setup Prometheus Using Helm Chart on Kubernetes</a> 🌟 - A detailed guide on how to set up Prometheus on a Kubernetes cluster using the official community Helm chart, including best practices and an overview of the components involved like Alertmanager, Kube State Metrics, and Node Exporter.</li>
 </ul>
 <h3 id="binaries-source-code-or-docker">Binaries, source code or Docker</h3>
 <ul>
-<li><a href="https://prometheus.io/docs/prometheus/latest/installation/">prometheus.io: Installarion</a></li>
-<li><a href="https://prometheus.io/docs/prometheus/latest/getting_started/">prometheus.io: Getting Started</a></li>
+<li><a href="https://prometheus.io/docs/prometheus/latest/installation">prometheus.io: Installarion</a></li>
+<li><a href="https://prometheus.io/docs/prometheus/latest/getting_started">prometheus.io: Getting Started</a></li>
 <li><a href="https://github.com/prometheus/prometheus">github.com/prometheus/prometheus</a></li>
 </ul>
 <h3 id="ansible-roles">Ansible Roles</h3>
@@ -8583,7 +8583,7 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 <li><a href="https://github.com/cloudalchemy/ansible-prometheus">github.com/cloudalchemy/ansible-prometheus</a></li>
 </ul>
 </li>
-<li><a href="https://github.com/idealista/prometheus_jmx_exporter-role">Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment</a><ul>
+<li><a href="https://github.com/idealista/prometheus_jmx_exporter_role">Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment</a><ul>
 <li><a href="https://galaxy.ansible.com/alexdzyoba/jmx-exporter">galaxy.ansible.com/alexdzyoba/jmx-exporter</a></li>
 <li><a href="https://github.com/alexdzyoba/ansible-jmx-exporter">github.com/alexdzyoba/ansible-jmx-exporter</a></li>
 </ul>
@@ -8617,12 +8617,12 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 <h2 id="prometheus-operator">Prometheus Operator</h2>
 <h3 id="kube-prometheus">kube Prometheus</h3>
 <ul>
-<li><a href="https://github.com/coreos/kube-prometheus">kube-prometheus</a> Use Prometheus to monitor Kubernetes and applications running on Kubernetes.</li>
+<li><a href="https://github.com/prometheus-operator/kube-prometheus">kube-prometheus</a> Use Prometheus to monitor Kubernetes and applications running on Kubernetes.</li>
 <li><a href="https://arthursens.medium.com/risk-analysis-and-security-compliance-in-kube-prometheus-10c8cfb180b8">arthursens.medium.com: Risk analysis and security compliance in Kube-prometheus</a></li>
 </ul>
 <h4 id="prometheus-operator-with-helm3">Prometheus Operator with Helm3</h4>
 <ul>
-<li><a href="https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry/">devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry 🌟</a></li>
+<li><a href="https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry">devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry 🌟</a></li>
 </ul>
 <h4 id="kube-prometheus-stack-best-choice">Kube-prometheus-stack (best choice)</h4>
 <ul>
@@ -8635,12 +8635,12 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 </ul>
 <h2 id="prometheus-saas-solutions">Prometheus SaaS Solutions</h2>
 <ul>
-<li><a href="https://www.weave.works/features/prometheus-monitoring/">Weave Cortex SaaS (Hosted Prometheus - Public Cloud)</a></li>
+<li><a href="https://ambking1234.biz/?action=register&amp;marketingRef=6788b227da9499f55f6ea745">Weave Cortex SaaS (Hosted Prometheus - Public Cloud)</a></li>
 <li><a href="https://logz.io">logz.io</a><ul>
-<li><a href="https://logz.io/blog/prometheus-as-a-service-launch/">logz.io: Logz.io’s Prometheus-as-a-Service is Generally Available 🌟</a></li>
+<li><a href="https://logz.io/blog/prometheus-as-a-service-launch">logz.io: Logz.io’s Prometheus-as-a-Service is Generally Available 🌟</a></li>
 </ul>
 </li>
-<li><a href="https://aws.amazon.com/prometheus/">Amazon Managed Service for Prometheus</a></li>
+<li><a href="https://aws.amazon.com/prometheus">Amazon Managed Service for Prometheus</a></li>
 </ul>
 <h2 id="proof-of-concept-activemq-monitoring-with-prometheus">Proof of Concept: ActiveMQ Monitoring with Prometheus</h2>
 <p>The aim of this Proof of Concept is to learn Prometheus by example being <a href="https://developers.redhat.com/products/amq/overview">Red Hat AMQ 7 (broker)</a> on RHEL the application to be monitored. Red Hat AMQ Broker is based on ActiveMQ Artemis, being this the reason why one of the following proof of concepts is done with Artemis (the other one was run in order to learn telegraf, prometheus and grafana). The same solution tested with Artemis on RHEL is valid for Red Hat AMQ 7 Broker on RHEL.</p>
@@ -8649,15 +8649,15 @@ Although it&rsquo;s exciting to see attempts to address the challenges of runnin
 <h3 id="poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702">PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702</h3>
 <ul>
 <li>Latest releases of Telegraf and Prometheus have been used in this Proof of Concept:<ul>
-<li><a href="https://www.influxdata.com/time-series-platform/telegraf/">telegraf-1.14.0-1 (rpm)</a></li>
-<li><a href="https://grafana.com/">grafana-6.3.2-1.x86_64 (rpm)</a> This is the release specified as requirement for this grafana dashboard. Newer releases of grafana are probably compliant.</li>
-<li><a href="https://prometheus.io/">prometheus-2.17.1.linux-amd64 (.tar.gz)</a></li>
-<li><a href="https://activemq.apache.org/components/classic/">apache-activemq-5.15.12 (.tar.g)</a></li>
+<li><a href="https://www.influxdata.com/time-series-platform/telegraf">telegraf-1.14.0-1 (rpm)</a></li>
+<li><a href="https://grafana.com">grafana-6.3.2-1.x86_64 (rpm)</a> This is the release specified as requirement for this grafana dashboard. Newer releases of grafana are probably compliant.</li>
+<li><a href="https://prometheus.io">prometheus-2.17.1.linux-amd64 (.tar.gz)</a></li>
+<li><a href="https://activemq.apache.org/components/classic">apache-activemq-5.15.12 (.tar.g)</a></li>
 </ul>
 </li>
 <li>References:<ul>
 <li><a href="https://activemq.apache.org/components/classic/documentation">activemq.apache.org/components/classic/documentation</a></li>
-<li><a href="https://grafana.com/grafana/dashboards/10702">grafana.com/grafana/dashboards/10702</a></li>
+<li><a href="https://grafana.com/grafana/dashboards/10702-activemq">grafana.com/grafana/dashboards/10702</a></li>
 <li><a href="https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq">github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq</a></li>
 <li><a href="https://docs.wavefront.com/activemq.html">docs.wavefront.com/activemq.html</a></li>
 </ul>
@@ -8773,23 +8773,23 @@ tag_keys = [&quot;brokerName&quot;]
       - targets: [&#39;localhost:9273&#39;]
 </code></pre></div>
 <ul>
-<li>Grafana Dashboard <a href="https://grafana.com/grafana/dashboards/10702">10702</a> is imported from Grafana UI -&gt; &ldquo;import dashboard&rdquo;. Prometheus data source is connected manually with Grafana via Grafana UI.</li>
+<li>Grafana Dashboard <a href="https://grafana.com/grafana/dashboards/10702-activemq">10702</a> is imported from Grafana UI -&gt; &ldquo;import dashboard&rdquo;. Prometheus data source is connected manually with Grafana via Grafana UI.</li>
 </ul>
 <h3 id="poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available">PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available</h3>
 <ul>
 <li>Latest releases of ActiveMQ Artemis and Prometheus have been used in this Proof of Concept:<ul>
-<li><a href="https://grafana.com/">grafana-6.7.2-1.x86_64.rpm</a></li>
+<li><a href="https://grafana.com">grafana-6.7.2-1.x86_64.rpm</a></li>
 <li><a href="https://prometheus.io">prometheus-2.17.1.linux-amd64</a></li>
-<li><a href="https://activemq.apache.org/components/artemis/">apache-artemis-2.11.0</a></li>
-<li><a href="https://maven.apache.org/">apache-maven-3.6.3</a></li>
+<li><a href="https://artemis.apache.org/components/artemis">apache-artemis-2.11.0</a></li>
+<li><a href="https://maven.apache.org">apache-maven-3.6.3</a></li>
 </ul>
 </li>
-<li>ActiveMQ Artemis can export metrics to several monitoring systems via <a href="https://github.com/rh-messaging/artemis-prometheus-metrics-plugin">Artemis Prometheus Metrics Plugin</a>, which uses <a href="https://micrometer.io/">Micrometer Collector</a>. Check <a href="http://activemq.apache.org/components/artemis/documentation/latest/metrics.html">this link</a>.</li>
+<li>ActiveMQ Artemis can export metrics to several monitoring systems via <a href="https://github.com/rh-messaging/artemis-prometheus-metrics-plugin">Artemis Prometheus Metrics Plugin</a>, which uses <a href="https://micrometer.io">Micrometer Collector</a>. Check <a href="http://activemq.apache.org/components/artemis/documentation/latest/metrics.html">this link</a>.</li>
 <li>Unfortunately, there&rsquo;s no Grafana Dashboard available for this plugin. In consequence <a href="https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana">a new Grafana Dashboard has to be developed from scratch</a>.</li>
 <li><a href="https://github.com/rh-messaging/artemis-prometheus-metrics-plugin">Artemis Prometheus Metrics Plugin</a> is the recommended approach. Use <a href="https://github.com/prometheus/jmx_exporter">JMX Exporter</a> to export other metrics.</li>
 <li>References:<ul>
-<li><a href="https://activemq.apache.org/components/artemis/documentation/latest/using-server.html">Apache ActiveMQ Artemis Using the Server</a></li>
-<li><a href="https://activemq.apache.org/components/artemis/documentation/latest/management-console.html">Apache ActiveMQ Artemis Management Console</a></li>
+<li><a href="https://artemis.apache.org/components/artemis/documentation/latest/using-server.html">Apache ActiveMQ Artemis Using the Server</a></li>
+<li><a href="https://artemis.apache.org/components/artemis/documentation/latest/management-console.html">Apache ActiveMQ Artemis Management Console</a></li>
 <li><a href="http://activemq.apache.org/components/artemis/documentation/latest/metrics.html">Apache ActiveMQ Artemis Metrics</a></li>
 </ul>
 </li>
@@ -8936,11 +8936,11 @@ isbroker/web/
 <ul>
 <li>In order to validate our Artemis Broker Monitoring solution we need to &ldquo;inject traffic/data/metrics&rdquo; with for example Pub/Sub messages.</li>
 <li>We can achieve this with a little of java code or by sending messages via Artemis Web Console -&gt; <strong>&ldquo;Operations&rdquo;</strong> tab.</li>
-<li>Another option is running the jmeter test plans available on <a href="https://github.com/apache/activemq-artemis">Artemis&rsquo; github repo</a>. The procedure is described below. Remember to create the queues and addresses (topics) defined in jmeter example test plans.</li>
+<li>Another option is running the jmeter test plans available on <a href="https://github.com/apache/artemis">Artemis&rsquo; github repo</a>. The procedure is described below. Remember to create the queues and addresses (topics) defined in jmeter example test plans.</li>
 </ul>
 <h4 id="jmeter-example-test-plans">JMeter Example Test Plans</h4>
 <ul>
-<li>Latest release of <a href="https://jmeter.apache.org/">Apache JMeter</a> deployed in /opt</li>
+<li>Latest release of <a href="https://jmeter.apache.org">Apache JMeter</a> deployed in /opt</li>
 <li>Library artemis-jms-client-all-2.11.0.jar is copied to $JMETER_HOME/lib :</li>
 </ul>
 <div class="highlight"><pre><span></span><code>$<span class="w"> </span>cp<span class="w"> </span>/opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar<span class="w"> </span>/opt/apache-jmeter-5.2.1/lib/
@@ -9018,7 +9018,7 @@ drwxrwxr-x<span class="w"> </span><span class="m">3</span><span class="w"> </spa
 </ul>
 <h2 id="managed-prometheus-in-gcp">Managed Prometheus in GCP</h2>
 <ul>
-<li><a href="https://cloud.google.com/stackdriver/docs/managed-prometheus/"><mark>cloud.google.com: Google Cloud Managed Service for Prometheus</mark></a> A top option in the market. It&rsquo;s a drop-in replacement for what you have now, and offers leading scale, price, and retention, all with a global backplane.</li>
+<li><a href="https://docs.cloud.google.com/stackdriver/docs/managed-prometheus"><mark>cloud.google.com: Google Cloud Managed Service for Prometheus</mark></a> A top option in the market. It&rsquo;s a drop-in replacement for what you have now, and offers leading scale, price, and retention, all with a global backplane.</li>
 <li><a href="https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes">cloud.google.com: Google Cloud Managed Service for Prometheus is now generally available</a></li>
 </ul>
 <h2 id="videos">Videos</h2>
