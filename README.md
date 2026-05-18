@@ -130,7 +130,7 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15180+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4629+** |
+| **Total Commits** | **4671+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -140,7 +140,16 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Uncategorized](docs/uncategorized.md) | 15180 |
+| [Kubernetes](docs/kubernetes.md) | 1108 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 729 |
+| [Terraform](docs/terraform.md) | 620 |
+| [Demos](docs/demos.md) | 519 |
+| [Git](docs/git.md) | 487 |
+| [Azure](docs/azure.md) | 470 |
+| [Jenkins](docs/jenkins.md) | 410 |
+| [Devsecops](docs/devsecops.md) | 401 |
+| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 368 |
+| [Introduction](docs/introduction.md) | 325 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -159,7 +168,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1070 | 4,419 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1112 | 4,592 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -175,8 +184,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4419]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1070]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4592]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1112]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -185,7 +194,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1045 | 4,315 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1087 | 4,489 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
