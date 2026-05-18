@@ -10,9 +10,9 @@
 ## Introduction
 
 - [wikipedia: SonarQube](https://en.wikipedia.org/wiki/SonarQube)
-- [Sonarqube.org](https://www.sonarsource.com/products/sonarqube///)
+- [Sonarqube.org](https://www.sonarsource.com/products/sonarqube////)
 - [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)
-- [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform///)
+- [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform////)
 
 ## Analyzing Code with SonarQube
 
@@ -20,7 +20,7 @@
 - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)
 - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)
 - [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)
-- [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube///)
+- [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube////)
 - [itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42)
 
 ## Integrations
