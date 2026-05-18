@@ -19,17 +19,17 @@
 - [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8) Why do we need an accountant in IT?
 - [padok.fr: FinOps, or the Culture of Cloud Cost Optimization](https://www.theodo.com/en-fr/blog/what-is-finops-and-what-are-its-best-practices)
 - [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://www.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)
-- [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops///)
+- [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops////)
 - [devops.com: FinOps Foundation to Help Rein in Cloud Costs](https://devops.com/finops-foundation-to-help-rein-in-cloud-costs/)
-- [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead///)
+- [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead////)
 - [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/)
 - [loft.sh: The Cost of Managed Kubernetes - A Comparison 🌟](https://www.vcluster.com/blog/the-cost-of-managed-kubernetes-a-comparison/)
-- [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team///)
+- [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team////)
 - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417) Financial Operations (FinOps) is a culture that will help you creating cost awareness in your organisation!
 - [cloud.google.com: 5 key metrics to measure Cloud FinOps impact in your organization in 2022 and beyond](https://cloud.google.com/blog/topics/cloud-first/key-metrics-to-measure-impact-of-cloud-finops)
-- [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops//)
-- [zdnet.com: As cloud costs spiral upward, enterprises turn to a thing called FinOps](https://www.zdnet.com/article/as-cloud-costs-spiral-upward-enterprises-turn-to-a-thing-called-finops///) Organizations waste 32% of cloud spend, up from 30% a year ago. 'More and more users are swimming in the FinOps side of the pool, even if they may not know it - or call it FinOps yet.'
-- [thenewstack.io: Tricks for Cloud Cost Optimization | Pavan Belagatti](https://thenewstack.io/tricks-for-cloud-cost-optimization//)
+- [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops///)
+- [zdnet.com: As cloud costs spiral upward, enterprises turn to a thing called FinOps](https://www.zdnet.com/article/as-cloud-costs-spiral-upward-enterprises-turn-to-a-thing-called-finops////) Organizations waste 32% of cloud spend, up from 30% a year ago. 'More and more users are swimming in the FinOps side of the pool, even if they may not know it - or call it FinOps yet.'
+- [thenewstack.io: Tricks for Cloud Cost Optimization | Pavan Belagatti](https://thenewstack.io/tricks-for-cloud-cost-optimization///)
 - [venturebeat.com: Cloud costs are unmanageable: It’s time we standardize billing](https://venturebeat.com/datadecisionmakers/cloud-costs-are-unmanageable-its-time-we-standardize-billing/)
 - [medium.com/@pratzy99: Adoption of FinOps for Kubernetes Cost Optimization 🌟](https://medium.com/@pratzy99/adoption-of-finops-for-kubernetes-cost-optimization-6263bc7b3f57)
 - AWS Tip 💛 Avoid billing surprises:
@@ -38,10 +38,10 @@
     - get familiar with 𝗔𝗪𝗦 𝗖𝗼𝘀𝘁 𝗲𝘅𝗽𝗹𝗼𝗿𝗲𝗿
     - set up 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗮𝗹𝗲𝗿𝘁𝘀
     - understand your cost 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲: which services contribute significantly to your costs?
-- [hystax.com: The difference between cloud cost management and FinOps](https://hystax.com/the-difference-between-cloud-cost-management-and-finops///)
+- [hystax.com: The difference between cloud cost management and FinOps](https://hystax.com/the-difference-between-cloud-cost-management-and-finops////)
 - [infoworld.com: Are we experiencing cloudflation?](https://www.infoworld.com/article/2336761/are-we-experiencing-cloudflation.html) The sticker shock of cloud computing bills has many in the C-suite looking for answers. A solid finops program can close the budget holes and pay for itself.
 - [edgebricks.com: Why Public Clouds Get So Expensive Over Time 🌟](https://edgebricks.com/why-public-clouds-get-so-expensive-over-time/)
-- [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know///)
+- [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know////)
 - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost/)
 - [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba) In this article, you will learn how to reduce your cloud bill and some tips on cloud infrastructure optimization
 - [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) How much will Kubernetes cost to run? That question has become much easier to answer for Azure Kubernetes Service, thanks to OpenCost integration.
@@ -59,10 +59,10 @@
   - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - *(Related to aws topic)*
 
 - [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)
-- [aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common Architectures](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures///)
+- [aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common Architectures](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures////)
 
 ## Azure Cost Governance
-  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper///) - *(Related to azure topic)*
+  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper////) - *(Related to azure topic)*
   - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) 🌟 - This blog post explores how to design and automate a FinOps-ready Azure Landing Zone by embedding cost governance, tagging, and budgets from the initial setup using infrastructure-as-code and Azure-native services. It details core infrastructure components for FinOps enablement, including management groups, subscriptions, resource tags, budgets, alerts, Azure Policy, and Log Analytics. The post also provides a walkthrough of automating FinOps controls with PowerShell and ARM templates.
   - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) 🌟 - This blog post from the Microsoft Community Hub's FinOps Blog introduces a new self-paced training plan on Microsoft Learn, 'Manage Azure and AI investments for Cost Efficiency.' It aims to equip teams with the skills to manage cloud spending, build financial best practices into AI and cloud computing, and foster a culture of cost efficiency. The post highlights how Azure savings plans and FinOps principles can lead to significant cost savings, using The Carlsberg Group as a case study.
   - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization///) - *(Related to serverless topic)*
@@ -88,7 +88,7 @@
 - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)
 - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html)
 - [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6) In this article, you'll discuss resource over-provisioning in Kubernetes and learn some tips to improve utilisation to save money and have a well-architected workload
-- [thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs///) Grafana introduces new infrastructure and cost monitoring capabilities in Grafana Cloud.
+- [thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs////) Grafana introduces new infrastructure and cost monitoring capabilities in Grafana Cloud.
 
 ## Licence Managers
 
@@ -97,7 +97,7 @@
 ## EKS
 
 - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)
-- [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs///) This post describes different EKS log types and ways to optimize costs. Understanding the levers available for consuming logs not only helps you in optimizing costs but also allows you to focus on the root causes analysis and attribution.
+- [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs////) This post describes different EKS log types and ways to optimize costs. Understanding the levers available for consuming logs not only helps you in optimizing costs but also allows you to focus on the root causes analysis and attribution.
 
 ## Books
 
@@ -120,7 +120,7 @@
 - [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot) The serverless cost optimization bot. Bill enables AWS customers to proactively monitor their infrastructure costs and identify unforeseen expenses in a timely manner. Bill wants to prevent AWS customers from receiving bad surprises in their monthly bill. Therefore he addresses two primary problem areas:
     - Cost history is not monitored on a regular basis
     - Basic cost optimization best practices are not setup
-- [thenewstack.io: Finout Gets a Handle on Kubernetes Costs](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs///) Finout has expanded its cost analysis platform for enterprise software to Kubernetes, providing a way to understand the costs of running the open source orchestration tool.
+- [thenewstack.io: Finout Gets a Handle on Kubernetes Costs](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs////) Finout has expanded its cost analysis platform for enterprise software to Kubernetes, providing a way to understand the costs of running the open source orchestration tool.
 
 ## Tweets
 
