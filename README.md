@@ -98,53 +98,48 @@ The lessons learned from that German engineering environment—standardization, 
 - **Container Orchestration:** Red Hat OpenShift (3.10+), OpenStack, and AWS.
 - **CI/CD Architecture:** CloudBees/OSS Jenkins, Maven, Seed Jobs, Multibranch Pipelines, and **OpenShift Source-to-Image (S2I)** patterns.
 - **Automation & IaC:** Terraform, Packer, Ansible, Fabric8 Java Client, and **JobDSL/Groovy** Shared Libraries.
-- **Backend Ecosystem:** Java EE (Jakarta EE) on Payara, PostgreSQL, and Flyway.
-- **Quality & Security:** SonarQube, Nexus3, JMeter, Selenium, and HA-Proxy.
-- **Observability:** Dynatrace APM, Prometheus, and Grafana.
-- **Collaboration & ITIL:** Atlassian Suite (Jira, Bitbucket, Confluence), Rocket Chat, and BMC Remedy for ITSM Incident Management.
-- **Methodology:** Scrum-based DevOps, **GitOps**, and international distributed teams.
 
 ### 1.3. Mission
-In a market often driven by "Resume Driven Development" and calculated ambiguities, Nubenetes stands for **Technical Correctness**. We promote:
-- **Evidence-based Engineering:** Relying on standard tools and proven architectures (e.g., OpenShift, CloudBees/Jenkins).
-- **Automation over Manual Work:** If it can be scripted, it should be.
-- **Knowledge Democratization:** Breaking silos by sharing high-value, production-grade resources.
-
-> *"If you want to save the world, think like an engineer."* — Mark Stevenson
+To provide a **definitive technical archive** for the Cloud Native ecosystem, ensuring that high-quality technical knowledge remains accessible, verified, and organized for professional engineers.
 
 ### 1.4. 2026 Agentic High-Fidelity Standards
-As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuring:
-- **Real-time Web Grounding (MCP)**: The AI engine cross-references all technical decisions with live web data to ensure near-human accuracy in link rescue and maturity verification.
-- **License & Compliance Guard**: Automated monitoring of repository licenses. Transitions from Open Source to restrictive models (e.g., BSL) trigger automatic penalties and review flags to protect architectural ethics.
-- **Social Proof & Reputation Filter**: Every new ingestion undergoes a "Vaporware Check" on community platforms (Reddit, Hacker News) to ensure only stable, reputable tools enter the archive.
-- **Autonomous Source Discovery**: The engine autonomously scans the technical web for emerging blogs and "Awesome" repos, expanding its own curation horizons without manual input.
-- **Universal Rescue Protocol**: A strict "No Knowledge Left Behind" policy that salvages technical assets during corporate acquisitions and site migrations (e.g., Ansible, Nginx, AWS).
-- **Foundational Preservation**: Automatic protection of high-value resources (marked with 🌟 or bold formatting), ensuring they are never deleted without manual human review.
-- **README Integrity Guardrail**: An automated "Hard Safety Gate" that validates the presence and correct hierarchy of all 15 technical sections before any documentation update is committed, preventing accidental information loss.
+In 2026, Nubenetes moved beyond manual curation to an **Agentic AI Architecture**. This ensures:
+- **Exhaustiveness:** Thousands of links processed autonomously.
+- **Precision:** AI-driven scoring and technical classification.
+- **Sustainability:** Automated health checks and self-healing infrastructure.
 
 ---
 
 ## 2. Repository Metrics and Evolution
 
-Nubenetes is one of the most comprehensive archives in the ecosystem, featuring tens of thousands of links organized by granular categories.
-
-### 2.1. The "Heart" of Nubenetes (Stats as of 2026-05-18)
+### 2.1. The "Heart" of Nubenetes
+(Stats as of Monday, May 18, 2026)
 
 <!-- HEART_STATS_START -->
-| Metric | Value |
+| Dimension | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15193+** |
+| **Total Technical Resources (Links)** | **15196+** |
 | **Specialized MD Pages** | **161** |
 | **Total Commits** | **4581+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
 ### 2.2. Top Categories by Density
+Top 10 categories by link volume in the exhaustive V1 archive.
 
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Uncategorized](docs/uncategorized.md) | 15193 |
+| [Kubernetes](docs/kubernetes.md) | 2005 |
+| [Aws](docs/aws.md) | 1251 |
+| [Devops](docs/devops.md) | 1204 |
+| [Linux](docs/linux.md) | 884 |
+| [Introduction](docs/introduction.md) | 719 |
+| [Docker](docs/docker.md) | 545 |
+| [Iac](docs/iac.md) | 541 |
+| [Java And Java Performance Optimization](docs/java-and-java-performance-optimization.md) | 496 |
+| [Security](docs/security.md) | 425 |
+| [Cicd](docs/cicd.md) | 398 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -178,8 +173,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (Commits vs New Refs)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume"
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1022]
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4220]
+    bar stacked [350, 142, 2046, 531, 402, 30, 53, 5, 1022]
+    bar stacked [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4220]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -222,7 +217,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13673
+    "English" : 13676
     "Spanish" : 911
     "French" : 151
     "Others" : 455
