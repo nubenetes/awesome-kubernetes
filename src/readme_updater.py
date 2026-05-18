@@ -103,6 +103,12 @@ def get_stats():
     annual_chart = "```mermaid\npie title Nubenetes Historical Commit Distribution (By Year)\n"
     for item in growth_data:
         annual_chart += f"    \"{item['year']}\" : {item['count']}\n"
+    annual_chart += "```\n\n"
+    
+    annual_chart += "```mermaid\npie title Nubenetes Estimated Knowledge Growth (New Refs by Year)\n"
+    for item in growth_data:
+        est_refs = int(int(item['count']) * 4.13)
+        annual_chart += f"    \"{item['year']}\" : {est_refs}\n"
     annual_chart += "```"
     
     for idx, item in enumerate(growth_data, 1):
