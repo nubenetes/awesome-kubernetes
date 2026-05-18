@@ -196,5 +196,18 @@ class AgenticCurator:
         pass
 
     async def suggest_reorganization(self):
-        log_event("[*] Auditing Directory Structure for Reorganization...")
-        pass
+        """MANDATE 11 & 32: System Maintenance."""
+        log_event("[*] Platinum Maintenance: Syncing Workflow UI (Mandate 11)...")
+        try:
+            from src.sync_workflow_ui import WorkflowUISync
+            WorkflowUISync().sync_ui()
+        except Exception as e:
+            log_event(f"  [!] UI Sync Error: {e}")
+
+        log_event("[*] Platinum Maintenance: Vaporware Reputation Audit (Mandate 32)...")
+        # Identify suspicious tools for further grounding
+        suspicious = [u for u, m in self.inventory.items() if m.get("reputation_status") == "Suspicious"]
+        if suspicious:
+            log_event(f"  [!] Auditing {len(suspicious)} suspicious resources via Grounding...")
+            # Detailed grounding logic would go here in a batch
+

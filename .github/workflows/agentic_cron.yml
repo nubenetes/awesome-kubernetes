@@ -68,6 +68,10 @@ on:
         description: 'Activate Identity B (Subscription) as backup/rotation'
         type: boolean
         default: false
+      include_infrastructure_as_code___gitops:
+        description: '\"Infrastructure as Code & GitOps\"'
+        type: boolean
+        default: true
 
 permissions:
   contents: write

@@ -13,60 +13,62 @@ class WorkflowUISync:
     """
     def sync_ui(self):
         if not os.path.exists(CURATION_SOURCES_PATH) or not os.path.exists(WORKFLOW_PATH):
-            return
+            return False
 
-        with open(CURATION_SOURCES_PATH, "r") as f:
-            sources = yaml.safe_load(f).get("sources", [])
+        try:
+            with open(CURATION_SOURCES_PATH, "r") as f:
+                sources = yaml.safe_load(f).get("sources", [])
+        except Exception as e:
+            log_event(f"  [!] Error loading curation sources: {e}")
+            return False
         
-        # 1. Map topics to standard input IDs
-        mapping = {
-            "kubernetes": "include_k8s",
-            "cloud": "include_cloud",
-            "ai": "include_ai",
-            "productivity": "include_dev",
-            "agents": "include_dev",
-            "data": "include_data",
-            "iac": "include_iac",
-            "gitops": "include_iac"
-        }
-
+        topics = [s["topic"] for s in sources]
+        
         with open(WORKFLOW_PATH, "r") as f:
-            lines = f.readlines()
+            content = f.read()
 
         log_event("[Mandate 11] Synchronizing Workflow UI with Curation Sources...")
         
-        updated_lines = []
-        in_inputs = False
-        existing_inputs = set()
+        # Identify the checkboxes section (inputs)
+        # We look for the 'inputs:' block and the start of job definitions
+        match = re.search(r'(inputs:.*?\n)(  \w+:)', content, re.DOTALL)
+        if not match:
+            log_event("  [!] Could not find inputs block in workflow file.")
+            return False
+
+        changed = False
+        new_content = content
         
-        # Parse existing inputs
-        for line in lines:
-            match = re.search(r'^\s+(include_\w+):', line)
-            if match: existing_inputs.add(match.group(1))
+        for topic in topics:
+            if topic not in content:
+                log_event(f"  [+] Adding new UI toggle for topic '{topic}'")
+                
+                # Logic to generate a safe ID
+                safe_id = "include_" + re.sub(r'[^a-z0-9]', '_', topic.lower()).strip('_')
+                
+                # Construct the YAML block for the checkbox
+                checkbox_yaml = f"\n      {safe_id}:\n        description: '{topic}'\n        type: boolean\n        default: true"
+                
+                # Inject before the next section
+                # We find the end of the last boolean input
+                inputs_block = re.search(r'inputs:(.*?)jobs:', new_content, re.DOTALL)
+                if inputs_block:
+                    block_text = inputs_block.group(1)
+                    # Insert at the end of the block
+                    last_input_match = list(re.finditer(r'default: \w+', block_text))
+                    if last_input_match:
+                        insert_pos = inputs_block.start(1) + last_input_match[-1].end()
+                        new_content = new_content[:insert_pos] + checkbox_yaml + new_content[insert_pos:]
+                        changed = True
 
-        # Check for missing topics
-        for source in sources:
-            topic_name = source["topic"]
-            topic_lower = topic_name.lower()
-            
-            # Find matching ID or generate one
-            target_id = None
-            for kw, id_ in mapping.items():
-                if kw in topic_lower: target_id = id_; break
-            
-            if not target_id:
-                # Generate slug if no keyword matches
-                target_id = "include_" + re.sub(r'[^a-z0-9]', '_', topic_lower).strip('_')
+        if changed:
+            with open(WORKFLOW_PATH, "w") as f:
+                f.write(new_content)
+            log_event(f"  [OK] Workflow UI updated successfully.")
+            return True
 
-            if target_id not in existing_inputs:
-                log_event(f"  [+] Adding new UI toggle: {target_id} for topic '{topic_name}'")
-                # This is a simplified injection logic. 
-                # In a real O'Reilly style engine, we would insert the YAML block properly.
-                # For safety, we will just log the violation for the SafetyGuard to report.
-                # Re-writing YAML workflows can trigger security blocks in GitHub Actions.
-                pass
-
-        return True
+        log_event("  [OK] Workflow UI is already synchronized.")
+        return False
 
 if __name__ == "__main__":
     sync = WorkflowUISync()
