@@ -35,7 +35,7 @@
 
 1. Variables + Scoping: [Declaring JavaScript Variables: var, let and const](https://scotch.io/courses/10-need-to-know-javascript-concepts/declaring-javascript-variables-var-let-and-const)
 2. Types: [Understanding Data Types in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-data-types-in-javascript)
-3. Objects, functions & arrays: [Intro to Web Dev V2](https://btholt.github.io/intro-to-web-dev-v2/intro//)
+3. Objects, functions & arrays: [Intro to Web Dev V2](https://btholt.github.io/intro-to-web-dev-v2/intro///)
 4. The DOM: [What exactly is the DOM?!](https://dev.to/karaluton/what-exactly-is-the-dom-jhg)
 5. Prototypes + this: [A Beginner's Guide to JavaScript's Prototype](https://fireship.dev/beginners-guide-to-javascript-prototype/)
 6. Events: ["What the heck is the event loop anyway?" By @philip_roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
@@ -57,10 +57,10 @@
 ## Npm
 
 - [Npm](https://www.npmjs.com/)
-- [npm has joined GitHub](https://github.blog/news-insights/company-news/npm-has-joined-github//)
+- [npm has joined GitHub](https://github.blog/news-insights/company-news/npm-has-joined-github///)
 
 ## More Frontend JavaScript Frameworks
-  - [Clean Architecture on Frontend](https://t.co/hshyLt0r2x) - *(Related to aws-architecture topic)*
+  - [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend/) - *(Related to aws-architecture topic)*
 
 - [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021/)
 - [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies)  Things I think about when I write React code
