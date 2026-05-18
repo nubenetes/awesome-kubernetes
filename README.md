@@ -211,6 +211,10 @@ pie title Linguistic Diversity (Global Access)
 ```
 <!-- SUB_ECO_CHART_END -->
 
+---
+
+## 3. The Agentic Stack
+
 The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensures 24/7 curation and maintenance.
 
 | Layer | Technology | Purpose |
