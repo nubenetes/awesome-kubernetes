@@ -6,6 +6,7 @@ on:
       - develop
     paths-ignore:
       - 'README.md'
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
 
 permissions:
   contents: write
@@ -24,9 +25,20 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml pytz python-dotenv
+
       - name: Execute README Metric Updater
         run: |
+          export PYTHONPATH=$PYTHONPATH:.
           python src/readme_updater.py
+
+      - name: Validate README Integrity (Guardrail)
+        run: |
+          export PYTHONPATH=$PYTHONPATH:.
+          python src/safety_readme.py
 
       - name: Commit and Push README Updates
         run: |
