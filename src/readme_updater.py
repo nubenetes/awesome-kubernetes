@@ -108,8 +108,8 @@ def get_stats():
     
     annual_chart += f"    x-axis [{', '.join(years)}]\n"
     annual_chart += f"    y-axis \"Volume\"\n"
-    annual_chart += f"    bar stacked [{', '.join(commits)}]\n"
-    annual_chart += f"    bar stacked [{', '.join(refs)}]\n"
+    annual_chart += f"    bar [{', '.join(refs)}]\n"
+    annual_chart += f"    line [{', '.join(commits)}]\n"
     annual_chart += "```"
     
     for idx, item in enumerate(growth_data, 1):
