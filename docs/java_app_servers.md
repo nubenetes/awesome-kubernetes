@@ -10,7 +10,7 @@
 7. [Tweets](#tweets)
 
 ## Introduction. Jakarta EE (formerly J2EE)
-  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops//) - *(Related to azure topic)*
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops///) - *(Related to azure topic)*
 
 - [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE)
 
