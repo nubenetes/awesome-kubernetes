@@ -127,14 +127,14 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 
 Nubenetes is one of the most comprehensive archives in the ecosystem, featuring tens of thousands of links organized by granular categories.
 
-### 2.1. The "Heart" of Nubenetes (Stats as of 2026-05-17)
+### 2.1. The "Heart" of Nubenetes (Stats as of 2026-05-18)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15590+** |
+| **Total Technical Resources (Links)** | **15441+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4194+** |
+| **Total Commits** | **4383+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -143,7 +143,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Uncategorized](docs/uncategorized.md) | 15590 |
+| [Uncategorized](docs/uncategorized.md) | 15441 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -155,14 +155,14 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Year | Commits | Est. New Refs | Key Milestone |
 | :---: | :---: | :---: | :--- |
 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
-| 2019 | 142 | 586 | Early Growth & Open Source Launch |
 | 2020 | 2046 | 8,449 | **The Great Expansion** |
+| 2026 | 824 | 3,403 | **Agentic AI Surge** (May 2026 Inception) |
 | 2021 | 531 | 2,193 | Maturity & Standardization |
 | 2022 | 402 | 1,660 | Cloud Native Hardening |
-| 2023 | 30 | 123 | Maintenance & Refinement |
+| 2019 | 142 | 586 | Early Growth & Open Source Launch |
 | 2024 | 53 | 218 | Curation Strategy Pivot |
+| 2023 | 30 | 123 | Maintenance & Refinement |
 | 2025 | 5 | 20 | Stability & Research Phase |
-| 2026 | 635 | 2,622 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 #### 2026: The Agentic Monthly Surge
@@ -170,7 +170,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 610 | 2,519 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 799 | 3,299 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -187,8 +187,8 @@ pie title Nubenetes Major Ecosystem Pillars
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
     "CI/CD and GitOps" : 2200
-    "Specialized Topics" : 1190
     "Infra as Code" : 1200
+    "Specialized Topics" : 1041
     "SRE and Observability" : 1000
     "Security and DevSecOps" : 1000
 ```
@@ -204,10 +204,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 14031
-    "Spanish" : 935
-    "French" : 155
-    "Others" : 467
+    "English" : 13896
+    "Spanish" : 926
+    "French" : 154
+    "Others" : 463
 ```
 <!-- SUB_ECO_CHART_END -->
 
