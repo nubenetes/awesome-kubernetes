@@ -6,6 +6,7 @@ on:
       - develop
     paths-ignore:
       - 'README.md'
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
 
 permissions:
   contents: write
