@@ -23,7 +23,7 @@
 
 - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22) Is Kubernetes really right for your stack?
 - [medium: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)
-- [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes///)
+- [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes////)
 - [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/2261975/when-kubernetes-is-not-the-solution.html)
 - [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes)
 
@@ -34,28 +34,28 @@
 ## Amazon ECS
 
 - [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
-- [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere///) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
+- [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere////) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
 
 ## Cycle.io
 
 - [Cycle.io](https://cycle.io)
-- [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes///)
-- [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers///) "Kubernetes has not been able to deliver this level of multicloud portability and ease of use with containers. Cycle promises to fill this gap."
+- [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes////)
+- [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers////) "Kubernetes has not been able to deliver this level of multicloud portability and ease of use with containers. Cycle promises to fill this gap."
 
 ## Nomad
 
 - [Nomad](https://developer.hashicorp.com/nomad/)
-- [Nomad an alternative to Kubernetes](https://blog.nobugware.com/post/2019/nomad_an_alternative_to_kubernetes///)
+- [Nomad an alternative to Kubernetes](https://blog.nobugware.com/post/2019/nomad_an_alternative_to_kubernetes////)
 - [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes/)
 - [nomadproject.io: Nomad vs. Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad/)
-- [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/backend/nomad-kubernetes-but-without-the-complexity///)
+- [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/backend/nomad-kubernetes-but-without-the-complexity////)
 - [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
-- [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad///)
-- [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes//)
-- [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad///) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay."
+- [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad////)
+- [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes///)
+- [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad////) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay."
 - [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes/)
 - [nomadproject.io: An alternative to Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad)
-- [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes///)
+- [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes////)
 
 ## Portainer
 
@@ -79,7 +79,7 @@
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
 - [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
 - [==swarmlet/swarmlet: Swarmlet==](https://github.com/swarmlet/swarmlet) A self-hosted, open-source Platform as a Service that enables easy swarm deployments, load balancing, automatic SSL, metrics, analytics and more.
-- [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://thinksys.com/devops/docker-swarm-vs-kubernetes-comparison///)
+- [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://thinksys.com/devops/docker-swarm-vs-kubernetes-comparison////)
 
 ## Simplenetes
 
