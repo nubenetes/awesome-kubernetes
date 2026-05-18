@@ -135,7 +135,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15200+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4556+** |
+| **Total Commits** | **4561+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -157,7 +157,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | :---: | :---: | :---: | :--- |
 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
 | 2020 | 2046 | 8,449 | **The Great Expansion** (Global Pandemic/Remote Era) |
-| 2026 | 997 | 4,117 | **Agentic AI Surge** (May 2026 Inception) |
+| 2026 | 1002 | 4,138 | **Agentic AI Surge** (May 2026 Inception) |
 | 2021 | 531 | 2,193 | Maturity and Standardization |
 | 2022 | 402 | 1,660 | Cloud Native Hardening |
 | 2019 | 142 | 586 | Early Growth and Open Source Launch |
@@ -171,7 +171,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 972 | 4,014 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 977 | 4,035 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -186,7 +186,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 pie title Nubenetes Major Ecosystem Pillars
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
-    "Public and Private Cloud" : 2500
+    "Public/Private Cloud" : 2500
     "CI/CD and GitOps" : 2200
     "Infra as Code" : 1200
     "SRE and Observability" : 1000
