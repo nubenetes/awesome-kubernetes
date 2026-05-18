@@ -28,8 +28,8 @@
     - [nfrankel.medium.com: Goodbye minikube](https://nfrankel.medium.com/goodbye-minikube-340070edc5af) I’ve been using minikube as my local cluster since I started to learn Kubernetes. But I’ve decided to let it go in favor of kind. Here’s the story.
     - [linux.com: Getting Started With Kubernetes Is Easy With Minikube](https://www.linux.com/audience/devops/getting-started-kubernetes-easy-minikube/)
     - [==faun.pub: Accessing a remote minikube from a local computer==](https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd) Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine. In this article, you will learn how to connect to a remote computer with minikube installed.
-    - [==adamtheautomator.com: Jumpstart Kubernetes Locally with this MiniKube Tutorial==](https://adamtheautomator.com/minikube-tutorial///) You'll usually find Kubernetes where it makes sense — i.e. in cloud environments. But how do you speed up development for Kubernetes? Could you test deployments locally?
-    - [devopscube.com: Kubernetes Minikube Tutorial for Beginners](https://devopscube.com/kubernetes-minikube-tutorial///)
+    - [==adamtheautomator.com: Jumpstart Kubernetes Locally with this MiniKube Tutorial==](https://adamtheautomator.com/minikube-tutorial////) You'll usually find Kubernetes where it makes sense — i.e. in cloud environments. But how do you speed up development for Kubernetes? Could you test deployments locally?
+    - [devopscube.com: Kubernetes Minikube Tutorial for Beginners](https://devopscube.com/kubernetes-minikube-tutorial////)
 - [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes. Kind is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
     - [kubernetes-development-environment-in-a-box](https://github.com/ManagedKube/kubernetes-development-environment-in-a-box) This project is geared toward running multiple isolated KinD cluster on a single instance. This project produces an AMI image that can run an instance that has Docker and multiple isolated Kubernetes clusters running in it using KinD. The main use case is to setup one node that can run multiple fully isolated Kubernetes cluster on it for development purposes.
     - [faun.pub: Finally, (successfully…) setup docker registry inside kind Kubernetes cluster](https://faun.pub/finally-successfully-setup-docker-registry-inside-kind-kubernetes-cluster-5b0381dbb2ec)
@@ -45,9 +45,9 @@
 - [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)
 - [itnext.io: Kubernetes local playground alternatives](https://itnext.io/kubernetes-local-playground-alternatives-e1a590632b9f)
 - [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)
-- [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments///)
+- [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments////)
 - [Metal Kubes](https://github.com/shank-git/metal-kubes) Create OnPrem Kubernetes Cluster. Install Kubernetes Cluster on Bare Metal Machines
-- [blog.flant.com: Small Kubernetes for your local experiments: k0s, MicroK8s, kind, k3s, and Minikube](https://palark.com/blog/small-local-kubernetes-comparison///)
+- [blog.flant.com: Small Kubernetes for your local experiments: k0s, MicroK8s, kind, k3s, and Minikube](https://palark.com/blog/small-local-kubernetes-comparison////)
 - [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) Playground for setting up small Kubernetes cluster on some **vagrant** boxes and practice with various examples to get familiar with K8s.
 
 ## Kubernetes Based Development. Kubernetes Development Tools
@@ -62,20 +62,20 @@
         - Tilt to the rescue: Finally, they found Tilt - An open-source tool that is focused on generating a comfortable and customizable rebuild for Docker and Kubernetes. Tilt makes really easy to manage development in a local environment of many services that need to communicate among them. Also, it’s focused on the Developer Experience. Once they implemented Tilt, they were able to use their services in the dev phase by running: tilt up. With a well-written configuration and settings, you can get reloads in a few milliseconds using the sync feature. Also, it has easy integration with Helm which is the most used package manager for K8s.
 - [==garden.io==](https://docs.garden.io//)
 - [microcks.io](https://microcks.io) K8s-based API mock/test tool.
-    - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support//)
+    - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support///)
 - [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://www.vcluster.com/blog/checklist-for-kubernetes-based-development)
 - [loft.sh: Kubernetes Development Environments – A Comparison](https://website.vcluster.com/blog/kubernetes-development-environments-a-comparison/)
 - [loft.sh: Skaffold vs Tilt vs DevSpace](https://www.vcluster.com/blog/skaffold-vs-tilt-vs-devspace/)
 - [yitaek.medium.com: Useful Tools for Better Kubernetes Development 🌟](https://yitaek.medium.com/useful-tools-for-better-kubernetes-development-87820c2b9435) Lens, Polaris, kube-hunter, kube-bench, Trivy, Goldilocks, Kyverno, kube-ps1, kubectx + kubens , krew, kubectl-neat, kube-no-trouble, helm-mapkubeapis, kube-diff + helm-diff , kube forwarder, kubecost, kubespy.
 - [cncf.io: Tools to develop apps on Kubernetes 🌟](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes)
 - [blog.usejournal.com: Useful Tools for Better Kubernetes Development](https://blog.usejournal.com/useful-tools-for-better-kubernetes-development-87820c2b9435)
-- [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers//)
-    - [rookout.com: Developer Tools for Kubernetes in 2021 – Skaffold, Tilt, and Garden (Part 2)](https://www.dynatrace.com/solutions/observability-for-developers//-part-2) In that previous blog post, I also mentioned another tool – Skaffold. While Skaffold has limited ability to define Kubernetes applications and build and deploy them in CI/CD pipelines, it’s core functionality is creating a development environment for Kubernetes. In this blog post, I’ll discuss the alternative tools of doing just that – spinning up a development environment on Kubernetes. So let’s go into an in-depth comparison of Skaffold, Tilt, and Garden. **I will not be covering Microsoft Draft, as the Github repository appears to be archived and has had no new versions in 2020.**
-    - [rookout.com: Developer Tools for Kubernetes in 2021: Lens, VSCode, IntelliJ, & Gitpod (Part 3)](https://www.dynatrace.com/solutions/observability-for-developers//-part-3)
-    - [rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko, Buildpack & Jib (Part 4)](https://www.dynatrace.com/solutions/observability-for-developers//)
-    - [rookout.com: Developer Tools for Kubernetes in 2021: Development Machines (Part 5)](https://www.dynatrace.com/solutions/observability-for-developers//-development-machines-part-5)
+- [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers///)
+    - [rookout.com: Developer Tools for Kubernetes in 2021 – Skaffold, Tilt, and Garden (Part 2)](https://www.dynatrace.com/solutions/observability-for-developers///-part-2) In that previous blog post, I also mentioned another tool – Skaffold. While Skaffold has limited ability to define Kubernetes applications and build and deploy them in CI/CD pipelines, it’s core functionality is creating a development environment for Kubernetes. In this blog post, I’ll discuss the alternative tools of doing just that – spinning up a development environment on Kubernetes. So let’s go into an in-depth comparison of Skaffold, Tilt, and Garden. **I will not be covering Microsoft Draft, as the Github repository appears to be archived and has had no new versions in 2020.**
+    - [rookout.com: Developer Tools for Kubernetes in 2021: Lens, VSCode, IntelliJ, & Gitpod (Part 3)](https://www.dynatrace.com/solutions/observability-for-developers///-part-3)
+    - [rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko, Buildpack & Jib (Part 4)](https://www.dynatrace.com/solutions/observability-for-developers///)
+    - [rookout.com: Developer Tools for Kubernetes in 2021: Development Machines (Part 5)](https://www.dynatrace.com/solutions/observability-for-developers///-development-machines-part-5)
 - [yitaek.medium.com: Useful Tools for Better Kubernetes Development](https://yitaek.medium.com/useful-tools-for-better-kubernetes-development-87820c2b9435)
-- [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics///)
+- [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics////)
 - [docker.com: Kubernetes in Production Environments](https://www.docker.com/blog/dear-moby-2-kubernetes-in-production/) What is the best way to develop if my prod environment runs Kubernetes? Using Docker Compose does come with conditions:
     - It’s another tool in your arsenal. This means another set of manifests to maintain and update. If you need to define a new environment variable, you’ll need to add it to both your Compose file and Kubernetes manifests.
     - You’ll have to vet changes against either prod or a staging environment since you’re not running Kubernetes locally.
@@ -85,8 +85,8 @@
 ### Skaffold. Local Kubernetes Development
 
 - [==Skaffold== 🌟](https://skaffold.dev/)
-- [infracloud.io: Build and deploy Kubernetes apps with Skaffold](https://www.infracloud.io/blogs/skaffold-usecases///)
-- [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold///)
+- [infracloud.io: Build and deploy Kubernetes apps with Skaffold](https://www.infracloud.io/blogs/skaffold-usecases////)
+- [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold////)
 - [dev.to: How to Simplify Your Local Kubernetes Development With Skaffold](https://dev.to/otomato_io/local-kubernetes-development-with-skaffold-i0k) Skaffold is a tool that does everything with one single command:
     - Builds Docker images
     - Pushes them
@@ -95,19 +95,19 @@
 ### DevSpace
 
 - [==devspace.sh==](https://www.devspace.sh//)
-- [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve///)
+- [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve////)
 - [==cloudsavvyit.com: How to Get Started With DevSpace and Rapidly Develop Kubernetes Apps==](https://www.cloudsavvyit.com/14690/how-to-get-started-with-devspace-and-rapidly-develop-kubernetes-apps/)
 
 ### Telepresence local development for k8s and openshift microservices
 
 - [telepresence.io 🌟](https://telepresence.io/) Fast, local development for kubernetes and openshift microservices.
 - [betterprogramming.pub: Do Faster Development and Testing on Kubernetes Apps With Telepresence](https://betterprogramming.pub/do-faster-development-and-testing-on-kubernetes-apps-with-telepresence-b7eac604dca4) Use Telepresence to instantly deploy your code change to a Kubernetes cluster
-- [thenewstack.io: Cloud Native Debugging Challenges: From Local to ‘Remocal’](https://thenewstack.io/cloud-native-debugging-challenges-from-local-to-remocal///) Making remote clusters accessible, as though local, and giving developers tools to work locally in familiar ways are key ways to zap bugs and ship faster.
+- [thenewstack.io: Cloud Native Debugging Challenges: From Local to ‘Remocal’](https://thenewstack.io/cloud-native-debugging-challenges-from-local-to-remocal////) Making remote clusters accessible, as though local, and giving developers tools to work locally in familiar ways are key ways to zap bugs and ship faster.
 - [dev.to/dsudia: How to Integrate Docker & JetBrains into Telepresence](https://dev.to/dsudia/how-to-integrate-docker-jetbrains-into-telepresence-31op) Learn to debug Kubernetes containerized apps with Telepresence, set remote IDE breakpoints, manage Docker builds, and access cluster services. This guide covers environment setup, development practices, and IDE support for JVM and Go applications.
 
 ### Bridge to Kubernetes
 
-- [Bridge to Kubernetes 🌟🌟](https://learn.microsoft.com/en-us/previous-versions/visualstudio/bridge///)
+- [Bridge to Kubernetes 🌟🌟](https://learn.microsoft.com/en-us/previous-versions/visualstudio/bridge////)
 
 ### Garden
 
@@ -125,15 +125,15 @@
 - [hackerxone.com: How To Install Kubernetes Dashboard with NodePort in Linux](https://www.hackerxone.com/2021/07/10/how-install-kubernetes-dashboard-nodeport-linux///)
 - [loft.sh: Kubernetes Monitoring Dashboards - 5 Best Open-Source Tools](https://www.vcluster.com/blog/kubernetes-monitoring-dashboards-5-best-open-source-tools/)
 - [medium: YAKD: Yet Another Kubernetes Dashboard](https://medium.com/geekculture/yakd-yet-another-kubernetes-dashboard-7766bd071f30) A list of most popular opensource kubernetes dashboard both for local development & in production as well
-- [adamtheautomator.com: How to Install and Set Up Kubernetes Dashboard [Step by Step]](https://adamtheautomator.com/kubernetes-dashboard///)
-- [thenewstack.io: Who Needs a Dashboard? Why the Kubernetes Command Line Is Not Enough](https://thenewstack.io/who-needs-a-dashboard-why-the-kubernetes-command-line-is-not-enough///)
+- [adamtheautomator.com: How to Install and Set Up Kubernetes Dashboard [Step by Step]](https://adamtheautomator.com/kubernetes-dashboard////)
+- [thenewstack.io: Who Needs a Dashboard? Why the Kubernetes Command Line Is Not Enough](https://thenewstack.io/who-needs-a-dashboard-why-the-kubernetes-command-line-is-not-enough////)
 - [kui.tools 🌟](https://kui.tools) Kui: CLI-driven Graphics for Kubernetes. Tired of working with Kubernetes in cli mode only? Try kui - a hybrid tool that allows you to interact with any Kubernetes cluster easily with more advanced features available only in GUI.
-    - [blog.flant.com: Kui — a “hybrid” CLI/GUI application for working with Kubernetes](https://palark.com/blog/kui-hybrid-cli-gui-for-kubernetes///) Kui is a GUI-enhanced CLI interface for managing Kubernetes clusters
+    - [blog.flant.com: Kui — a “hybrid” CLI/GUI application for working with Kubernetes](https://palark.com/blog/kui-hybrid-cli-gui-for-kubernetes////) Kui is a GUI-enhanced CLI interface for managing Kubernetes clusters
 Kui enriches the good old terminal experience with GUI features, giving you a different perspective of your Kubernetes cluster
 - [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat)
 - [medium.com/@satyakommula: Deploy Kubernetes dashboard with NodePort](https://medium.com/@satyakommula/deploy-kubernetes-dashboard-with-nodeport-382f447d2ff8)
-- [rigorousthemes.com: 10 Best Kubernetes Dashboard Alternatives 2022](https://rigorousthemes.com/blog/best-kubernetes-dashboard-alternatives///)
-- [blog.flant.com: kubenav as a tool for managing Kubernetes clusters from your smartphone](https://palark.com/blog/kubenav-managing-kubernetes-from-smartphone///)
+- [rigorousthemes.com: 10 Best Kubernetes Dashboard Alternatives 2022](https://rigorousthemes.com/blog/best-kubernetes-dashboard-alternatives////)
+- [blog.flant.com: kubenav as a tool for managing Kubernetes clusters from your smartphone](https://palark.com/blog/kubenav-managing-kubernetes-from-smartphone////)
 - [==kubeapps.dev== 🌟](https://kubeapps.dev) Kubeapps is an in-cluster web-based application that enables users with a one-time installation to deploy, manage, and upgrade applications on a Kubernetes cluster
 - [==github.com/openshift/console== 🌟](https://github.com/openshift/console)
     - [engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes 🌟](https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubernetes)
@@ -156,9 +156,9 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### Okteto local kubernetes development
 
-- [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops///)
+- [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops////)
 - [github.com/marketplace: Automating your Kubernetes dev environments with the open source oktetohq Cloud got easier with GitHub Actions](https://github.com/marketplace?query=publisher%3Aokteto&type=actions)
-- [blog.palark.com: Okteto Cloud as another way for local development in Kubernetes](https://palark.com/blog/okteto-cloud-for-local-development-in-kubernetes///) This article explores an approach featuring application development performed right inside the Kubernetes without needing separate build and deploy steps using Okteto
+- [blog.palark.com: Okteto Cloud as another way for local development in Kubernetes](https://palark.com/blog/okteto-cloud-for-local-development-in-kubernetes////) This article explores an approach featuring application development performed right inside the Kubernetes without needing separate build and deploy steps using Okteto
 
 ### Monokle
 
@@ -168,7 +168,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 ### K8Studio
 
 - [kubeshop.github.io/monokle](https://docs.monokle.io/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
-- [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide///) K8studio vs Lens and K9s, probably the best tool to manage kubernetes
+- [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide////) K8studio vs Lens and K9s, probably the best tool to manage kubernetes
 
 ### Lens and OpenLens Kubernetes IDE
 
@@ -192,7 +192,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### Cloud Manager
 
-- [thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes///)
+- [thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes////)
 - [medium: Do It All Kubernetes Dashboard](https://medium.com/faun/do-it-all-kubernetes-dashboard-81375833e01c)
 
 ### Yaki
