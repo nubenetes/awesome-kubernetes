@@ -135,7 +135,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15193+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4577+** |
+| **Total Commits** | **4578+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -163,34 +163,17 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1018 | 4,204 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1019 | 4,208 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
 ```mermaid
-pie title Nubenetes Historical Commit Distribution (By Year)
-    "2018" : 350
-    "2019" : 142
-    "2020" : 2046
-    "2021" : 531
-    "2022" : 402
-    "2023" : 30
-    "2024" : 53
-    "2025" : 5
-    "2026" : 1018
-```
-
-```mermaid
-pie title Nubenetes Estimated Knowledge Growth (New Refs by Year)
-    "2018" : 1445
-    "2019" : 586
-    "2020" : 8449
-    "2021" : 2193
-    "2022" : 1660
-    "2023" : 123
-    "2024" : 218
-    "2025" : 20
-    "2026" : 4204
+xychart-beta
+    title "Nubenetes Annual Growth Metrics (Commits vs New Refs)"
+    x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
+    y-axis "Volume"
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1019]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4208]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -199,7 +182,7 @@ pie title Nubenetes Estimated Knowledge Growth (New Refs by Year)
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 993 | 4,101 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 994 | 4,105 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
