@@ -31,10 +31,12 @@ jobs:
 
       - name: Execute README Metric Updater
         run: |
+          export PYTHONPATH=$PYTHONPATH:.
           python src/readme_updater.py
 
       - name: Validate README Integrity (Guardrail)
         run: |
+          export PYTHONPATH=$PYTHONPATH:.
           python src/safety_readme.py
 
       - name: Commit and Push README Updates

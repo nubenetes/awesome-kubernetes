@@ -209,11 +209,7 @@ pie title Linguistic Diversity (Global Access)
     "French" : 155
     "Others" : 467
 ```
-<!-- PILLAR_CHART_END -->
-
----
-
-## 3. The Agentic Stack
+<!-- SUB_ECO_CHART_END -->
 
 The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensures 24/7 curation and maintenance.
 
