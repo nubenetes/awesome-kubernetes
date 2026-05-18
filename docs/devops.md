@@ -55,12 +55,12 @@
 - [medium: 6 key areas to improve your DevOps performance](https://medium.com/codex/6-key-areas-to-improve-your-devops-performance-f4c4226feb25)
 - [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/en/blog/it-automation-training) Make the path to automation more efficient with training that translates into immediate business impacts.
 - [about.gitlab.com: Soft skills are the key to your DevOps career advancement](https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement)
-- [salesforceben.com: 5 DevOps Concepts You Need to Know](https://www.salesforceben.com/5-devops-concepts-you-need-to-know//)
+- [salesforceben.com: 5 DevOps Concepts You Need to Know](https://www.salesforceben.com/5-devops-concepts-you-need-to-know///)
 - [enterprisersproject.com: DevOps: 3 skills needed to support its future in the enterprise](https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it) If you're aiming for continuous improvement with your DevOps effort, prioritize these skills. They're critical to helping teams conquer cultural and technology challenges
-- [devblogs.microsoft.com: DevOps Dojo – Culture and Mindset](https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset//)
+- [devblogs.microsoft.com: DevOps Dojo – Culture and Mindset](https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset///)
 - [devops.com: The DevOps Journey: Continuous Mindset Starts With Cultural Change](https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change/)
 - [==dzone.com/trendreports/devops-3: DevOps==](https://dzone.com/trendreports/devops-3) CI/CD and Application Release Orchestration. With the need for companies to deliver capabilities faster, it has become increasingly clear that DevOps is a practice that many enterprises must adopt (if they haven’t already). A strong CI/CD pipeline leads to a smoother release process, and a smoother release process decreases time to market. In DZone’s "DevOps: CI/CD and Application Release Orchestration" Trend Report, we provide insight into how CI/CD has revolutionized automated testing, offer advice on why an SRE is important to CI/CD, explore the differences between managed and self-hosted CI/CD, and much more. The goal of this Trend Report is to offer guidance to our global audience of DevOps Engineers, Automation Architects, and all those in between on how to best adopt DevOps practices to help scale the productivity of their teams.
-- [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success//)
+- [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success///)
 - [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://yourdevopsmentor.com/blog/how-to-become-a-devops-engineer/)
 - [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams/)
 - [umbrellainfocare.com: Cloud and DevOps are Made for Each Other](https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other)
@@ -73,7 +73,7 @@
 - [microsoft.com: DevOps threat matrix](https://www.microsoft.com/en-us/security/blog/2023/04/06/devops-threat-matrix/)
 - [devops.com: 11 Steps to a Successful DevOps Career](https://devops.com/11-steps-to-a-successful-devops-career/)
 - [dev.to/aws-builders: How to get started with DevOps? What skills should we start with?](https://dev.to/aws-builders/how-to-get-started-with-devops-what-skills-should-we-start-with-5efp)
-- [==infoq.com: Dark Side of DevOps - the Price of Shifting Left and Ways to Make it Affordable==](https://www.infoq.com/articles/devops-shifting-left//)
+- [==infoq.com: Dark Side of DevOps - the Price of Shifting Left and Ways to Make it Affordable==](https://www.infoq.com/articles/devops-shifting-left///)
 
 ## Automation Glossary
 
@@ -81,8 +81,8 @@
 - [==DZone: Defining Day-2 Operations==](https://dzone.com/articles/defining-day-2-operations) Day-2 operations is where the system generates an outcome for the organization. Thus, continually seek improvements in day-2 operations, to maximize benefits.
 
 ## Blogs
-  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release//) - *(Related to ai-agents-mcp topic)*
-  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions//) - *(Related to kubernetes-troubleshooting topic)*
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release///) - *(Related to ai-agents-mcp topic)*
+  - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions///) - *(Related to kubernetes-troubleshooting topic)*
 
 - [devops.com](https://devops.com/)
 - [devopscube.com](https://devopscube.com/)
@@ -134,13 +134,13 @@
 
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.
 - [What is Configuration Drift?](https://www.continuitysoftware.com/blog/it-resilience/what-is-configuration-drift/) Configuration drift  is a data center environment term. At a high level, configuration drift happens when production or primary hardware and software infrastructure configurations “drift” or become different in some way from a recovery or secondary configuration or visa versa.  Production or primary and recovery or secondary configurations are designed to be identical in certain aspects is order for business resumption should there be a disaster or major failure in production.  When these infrastructure configurations drift from another, they leave a gap between them which commonly called a configuration gap.
-- [thenewstack.io: Cloud Drift Detection: How to Resolve Out-of-State Changes](https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes//)
+- [thenewstack.io: Cloud Drift Detection: How to Resolve Out-of-State Changes](https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes///)
 - [fairwinds.com: Configuration Drift in Kubernetes - What Is It and Why it Matters 🌟](https://www.fairwinds.com/blog/configuration-drift-kubernetes)
 
 ### Drift Detection Tools
 
 - [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0) env0 is enabling the ability to automatically detect drift and make sure your real-world resources in the cloud provider are aligned with your Infrastructure as Code files. env0 will alert you once a drift has been detected and gives you the ability to view and fix the drift, which can help mitigate one of the main challenges when using Infrastructure as Code!
-- [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure/)
+- [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure//)
 
 ## DevOps Docs
   - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd) - *(Related to kubernetes-troubleshooting topic)*
@@ -155,14 +155,14 @@
 
 ==}
 
-- [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/kubernetes//)
+- [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/kubernetes///)
 - [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
 - [opensource.com: The case for making the transition from sysadmin to DevOps engineer](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
 - [opensource.com: How to transition into a career as a DevOps engineer](https://opensource.com/article/19/7/how-transition-career-devops-engineer) Whether you're a recent college graduate or a seasoned IT pro looking to advance your career, these tips can help you get hired as a DevOps engineer.
 - [opensource.com: A beginner's guide to everything DevOps 🌟](https://opensource.com/article/20/2/devops-beginners) Take a fresh look at why DevOps is important, what it means for IT professionals, and its methods, frameworks, and tools.
 - [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps)
-- [Corporate culture complicates Kubernetes and container collaboration 🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration//) 'As the DevOps crew likes to say: containers won't fix your broken culture'
-- [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us//)
+- [Corporate culture complicates Kubernetes and container collaboration 🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration///) 'As the DevOps crew likes to say: containers won't fix your broken culture'
+- [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us///)
 - [How to be a great DevOps Engineer 🌟](https://blog.shippable.com/how-to-be-a-great-devops-engineer)
 - [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
 - [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
@@ -172,58 +172,58 @@
 - [DevOps for beginners: Where to start learning and focusing](https://enterprisersproject.com/article/2020/6/devops-beginners-where-start) Where to start with DevOps? Let's explore how to get going with this cross-functional way of working that breaks down walls, improves speed of delivery, and increases experimentation.
 - [contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 - [scaledagileframework.com: DevOps 🌟🌟](https://www.scaledagileframework.com/devops/)
-- [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops//)
+- [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops///)
 - [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
 - [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/management/2020/06/devops-culture.html)
 - [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
 - [medium: How to Become a DevOps Engineer in 2020 (Tj Blogumas)](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
 - [medium: How to Become a DevOps Engineer in 2020 (Shane Shown)](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52)
 - [Digestible DevOps: The 7 DevOps Practices](https://levelup.gitconnected.com/digestible-devops-the-7-devops-practices-8bd8b34e1418) Breaking down DevOps into practical chunks for real-world implementation.
-- [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance/) There’s a myth about DevOps which is hard to shake free of: that “success” means fully automating your deployments from code check-in to production.
+- [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance//) There’s a myth about DevOps which is hard to shake free of: that “success” means fully automating your deployments from code check-in to production.
 - [Hating code of others](https://statemanagement.substack.com/p/hating-the-code-of-others) We struggle to appreciate the meaning and intent of other people's work because we fail to understand the deeply personal and subjective quality of software development.
-- [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia//)
+- [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia///)
 - [dzone: DevOps Guide: Implementing Four-Eyes Principle With Process Automation Tooling](https://dzone.com/articles/devops-guide-implementing-four-eyes-principle-with) With great power comes great responsibility. More and more organisations are moving towards a DevOps based organisational model, putting more and more respon...
 - [cloudsavvyit.com: A Beginner’s Introduction To DevOps Principles](https://www.cloudsavvyit.com/3233/a-beginners-introduction-to-devops-principles/)
 - [learnsteps.com: DevOps Interview Question: How will you set up a CI/CD pipeline? 🌟](https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline/)
 - [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
 - [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) CEO Sacha Labourey: 'DevOps is a pretty good proxy for what needs to happen in any organisation'
 - [acloudguru.com: 5 Reasons to NOT Move to DevOps 🌟](https://www.pluralsight.com/resources/blog/cloud/5-reasons-to-not-move-to-devops)
-- [forbes: Why No One Understands Agile, SCRUM & DevOps & Why Perfect Technology Abstractions Are Sure To Fail](https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail//)
-- [github.blog: What is DevOps? A guide to common methods and misconceptions 🌟](https://github.blog/enterprise-software/devops/devops-definition//)
-- [thenewstack.io: From DevOps to DevApps 🌟](https://thenewstack.io/from-devops-to-devapps//)
-- [thenewstack.io: The Future of Ops Careers 🌟🌟](https://thenewstack.io/the-future-of-ops-careers//)
-- [cloudtweaks.com: DevOps - Secure & scalable CI/CD pipeline with AWS 🌟](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws//) Devops is a union of software development and operations. It is a culture that the company imbibes in the agile development process.
+- [forbes: Why No One Understands Agile, SCRUM & DevOps & Why Perfect Technology Abstractions Are Sure To Fail](https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail///)
+- [github.blog: What is DevOps? A guide to common methods and misconceptions 🌟](https://github.blog/enterprise-software/devops/devops-definition///)
+- [thenewstack.io: From DevOps to DevApps 🌟](https://thenewstack.io/from-devops-to-devapps///)
+- [thenewstack.io: The Future of Ops Careers 🌟🌟](https://thenewstack.io/the-future-of-ops-careers///)
+- [cloudtweaks.com: DevOps - Secure & scalable CI/CD pipeline with AWS 🌟](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws///) Devops is a union of software development and operations. It is a culture that the company imbibes in the agile development process.
 - [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
-- [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps//)
-- [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration//)
+- [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps///)
+- [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration///)
 - [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
 - [medium: How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8) Your guide to getting started in a career in DevOps.
-- [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://platform.qa.com/login//)
-- [infoq.com: Puppet Releases Its 2020 State of DevOps Report 🌟](https://www.infoq.com/news/2020/11/2020-devops-report//)
-- [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/devops/whats-holding-devops-back) DevOps teams are at different stages of maturity. However, there are some common challenges they face along the way.
+- [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://platform.qa.com/login///)
+- [infoq.com: Puppet Releases Its 2020 State of DevOps Report 🌟](https://www.infoq.com/news/2020/11/2020-devops-report///)
+- [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/software-services/devops) DevOps teams are at different stages of maturity. However, there are some common challenges they face along the way.
 - [opensource.com: Create a DevOps culture with open source principles](https://opensource.com/article/20/12/remote-devops) Now that more workforces are remote, DevOps teams can maximize their collaboration and productivity by following open source principles.
-- [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage//)
+- [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage///)
 - [opensource.com: 3 critical DevOps concepts we explored in 2020 🌟](https://opensource.com/article/20/12/devops) In 2020, Opensource.com's top DevOps articles focused on testing, software methodologies, and the most important part: the people.
 - [sysadmin.prod.acquia-sites.com: 10 container guides for sysadmins](https://sysadmin.prod.acquia-sites.com/sysadmin/container-guides-2020) Containers continue their quest to take over the world, and these 10 articles help you manage this technology.
 - [devops.com: Unlocking Your DevOps Automation Mindset 🌟](https://devops.com/unlocking-your-devops-automation-mindset/)
 - [devops.com: 7 Trends Influencing DevOps and DevSecOps Adoption](https://devops.com/7-trends-influencing-devops-and-devsecops-adoption/)
 - [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets/)
 - [devops.com: DevOps for the Development and Delivery of High-Performance Applications](https://devops.com/devops-for-the-development-and-delivery-of-high-performance-applications/)
-- [thenewstack.io: DevOps, DevApps and the Death of Infrastructure](https://thenewstack.io/devops-devapps-and-the-death-of-infrastructure//)
+- [thenewstack.io: DevOps, DevApps and the Death of Infrastructure](https://thenewstack.io/devops-devapps-and-the-death-of-infrastructure///)
 - [dzone: 15 DevOps Trends to Expect in 2021 🌟](https://dzone.com/articles/15-devops-trends-to-expect-in-2021) This is a round-up article where we collected opinions from 15 DevOps experts on what they think will be a trend in 2021 with context to DevOps.
-- [devopscube.com: Become A DevOps Engineer in 2021: A Comprehensive Guide](https://devopscube.com/become-devops-engineer//)
+- [devopscube.com: Become A DevOps Engineer in 2021: A Comprehensive Guide](https://devopscube.com/become-devops-engineer///)
 - [devops.com: 6 Signs You’re Doing DevOps Correctly](https://devops.com/6-signs-youre-doing-devops-correctly/)
-- [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes//)
+- [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes///)
 - [content.techgig.com: 5 Best DevOps practices for beginners](https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms)
 - [devops.com: 5 Steps to Successful DevOps Culture](https://devops.com/five-steps-to-successful-devops-culture)
 - [cst-bg.net: 13 clues you are doing DevOps right 🌟](https://www.cst-bg.net/post/13-clues-to-good-devops)
 - [medium.com: DevOps, Observability, and the need to tear down organizational boundaries 🌟](https://medium.com/lightstephq/devops-observability-and-the-need-to-tear-down-organizational-boundaries-f5d25755ff3a)
-- [softwebsolutions.com: DevOps and Microservices – Creating change together](https://www.softwebsolutions.com/resources/devops-and-microservices/)
-- [thenewstack.io: 5 Cloud Automation Tips for Developers and DevOps](https://thenewstack.io/5-cloud-automation-tips-for-developers-and-devops//)
-- [containerjournal.com: Kubernetes Enables DevOps-as-a-Service (DaaS) 🌟](https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas//)
-- [thenewstack.io: Maximizing the Value of Containerization for DevOps](https://thenewstack.io/maximizing-the-value-of-containerization-for-devops//)
+- [softwebsolutions.com: DevOps and Microservices – Creating change together](https://www.softwebsolutions.com/resources/devops-and-microservices//)
+- [thenewstack.io: 5 Cloud Automation Tips for Developers and DevOps](https://thenewstack.io/5-cloud-automation-tips-for-developers-and-devops///)
+- [containerjournal.com: Kubernetes Enables DevOps-as-a-Service (DaaS) 🌟](https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas///)
+- [thenewstack.io: Maximizing the Value of Containerization for DevOps](https://thenewstack.io/maximizing-the-value-of-containerization-for-devops///)
 - [opensource.com: A DevOps guide to documentation](https://opensource.com/article/21/3/devops-documentation) Bring your documentation writing into the DevOps lifecycle.
-- [infoq.com: DevOps is Not Enough for Scaling and Evolving Tech-Driven Organizations: a Q&A with Eduardo da Silva](https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations//)
+- [infoq.com: DevOps is Not Enough for Scaling and Evolving Tech-Driven Organizations: a Q&A with Eduardo da Silva](https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations///)
 - [infoworld.com: 5 devops practices to improve application reliability](https://www.infoworld.com/article/2263821/5-devops-practices-to-improve-application-reliability.html)
 - [devops.com: Languages and DevOps: Recommendations](https://devops.com/languages-and-devops-recommendations/)
 - [devops.com: Survey Shows Mounting DevOps Frustration and Costs](https://devops.com/survey-shows-mounting-devops-frustration-and-costs/)
@@ -232,7 +232,7 @@
 - [itproportal.com: How to implement DevOps successfully in 2021 🌟](https://www.itproportal.com/features/how-to-implement-devops-successfully-in-2021/) The question isn’t whether or not companies should adopt DevOps, but how to successfully.
 - [devops.com: Nine Pillars of DevOps Best Practices](https://devops.com/nine-pillars-of-devops-best-practices/)
 - [medium: Digital Transformation for Modern Enterprises Through DevOps — A Complete Guide](https://medium.com/hackernoon/digital-transformation-for-modern-enterprises-through-devops-a-complete-guide-6f595463c7dd)
-- [weblineindia.com: DevOps Automation – Everything You Need to Know](https://www.weblineindia.com/blog/all-about-devops-automation//)
+- [weblineindia.com: DevOps Automation – Everything You Need to Know](https://www.weblineindia.com/blog/all-about-devops-automation///)
 - [getxray.app: Get started with DevOps: principles, best practices and tips](https://www.getxray.app/blog/get-started-with-devops-principles-best-practices-and-tips)
 - [stackoverflow.blog: How developers can be their own operations department](https://stackoverflow.blog/2021/05/24/how-developers-can-be-their-own-operations-department/) Many companies run parallel development and operations organizations. But what if you just ran one team that did both?
 - [linkedin.com/pulse: Top 10 skills a DevOps engineer should possess](https://www.linkedin.com/pulse/top-10-skills-devops-engineer-should-possess-saurabh-badhwar/)
@@ -240,27 +240,27 @@
 - [dev.to: 5 GitHub Projects to make you a better DevOps Engineer 🌟](https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl)
 - [cloudbees.com: How to Nail DevOps Governance and Compliance in a Highly Regulated Industry 🌟](https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry)
 - [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/en/blog/it-automation-book) Download this collection of short stories about the excitement, frustrations, and challenges associated with learning IT automation.
-- [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know/)  The future of DevOps according to CloudBees' CEO: **"no company should re-write code that you can repeat through automation.”**
-- [zdnet.com: Stop calling DevOps teams 'DevOps teams' 🌟🌟](https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams//) Latest Puppet survey finds DevOps teams actually have a variety of roles that are more in line with business goals.
+- [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know//)  The future of DevOps according to CloudBees' CEO: **"no company should re-write code that you can repeat through automation.”**
+- [zdnet.com: Stop calling DevOps teams 'DevOps teams' 🌟🌟](https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams///) Latest Puppet survey finds DevOps teams actually have a variety of roles that are more in line with business goals.
 - [puppet.com: The 2021 State of DevOps Report is here! 🌟](https://puppet.com/resources/report/2021-state-of-devops-report/)
 - [devops.com: Yeah, You’re Doing DevOps](https://devops.com/yeah-youre-doing-devops/)
-- [infoq.com: How External IT Providers Can Adopt DevOps Practices 🌟](https://www.infoq.com/news/2021/08/external-IT-providers-devops//)
+- [infoq.com: How External IT Providers Can Adopt DevOps Practices 🌟](https://www.infoq.com/news/2021/08/external-IT-providers-devops///)
 - [chaossearch.io: 9 Essential DevOps Tools for 2021](https://www.chaossearch.io/blog/essential-devops-tools)
 - [devopsonline.co.uk: The role of Automation in DevOps](https://www.devopsonline.co.uk/the-role-of-automation-in-devops/)
-- [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation//)
+- [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation///)
 - [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/councils/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/?streamIndex=0/)
 - [dev.to: DevOps Is Not Automation](https://dev.to/run-x/devops-is-not-automation-2amo)
-- [intellipaat.com: What Does a DevOps Engineer Do? 🌟](https://intellipaat.com/blog/what-does-a-devops-engineer-do//) DevOps assimilates development and operations teams to improve the collaboration process. **A DevOps Engineer will work with IT developers to facilitate better coordination among operations, development, and testing functions by automating and streamlining the integration and deployment processes.**
-- [siliconangle.com: ‘DevOps for Dummies’ author Emily Freeman introduces revolutionary model for modern software development](https://siliconangle.com/2021/09/29/devops-dummies-author-emily-freeman-introduces-revolutionary-model-modern-software-development-awsq3//)
-- [thenewstack.io: Microservices Transformed DevOps — Why Security Is Next](https://thenewstack.io/microservices-transformed-devops-why-security-is-next//)
-- [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery//)
-- [thenewstack.io: 3 Habits of Highly Successful DevOps Teams](https://thenewstack.io/3-habits-of-highly-successful-devops-teams//)
+- [intellipaat.com: What Does a DevOps Engineer Do? 🌟](https://intellipaat.com/blog/what-does-a-devops-engineer-do///) DevOps assimilates development and operations teams to improve the collaboration process. **A DevOps Engineer will work with IT developers to facilitate better coordination among operations, development, and testing functions by automating and streamlining the integration and deployment processes.**
+- [siliconangle.com: ‘DevOps for Dummies’ author Emily Freeman introduces revolutionary model for modern software development](https://siliconangle.com/2021/09/29/devops-dummies-author-emily-freeman-introduces-revolutionary-model-modern-software-development-awsq3///)
+- [thenewstack.io: Microservices Transformed DevOps — Why Security Is Next](https://thenewstack.io/microservices-transformed-devops-why-security-is-next///)
+- [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery///)
+- [thenewstack.io: 3 Habits of Highly Successful DevOps Teams](https://thenewstack.io/3-habits-of-highly-successful-devops-teams///)
 - [devops.com: 5 Tips for a Successful DevOps Implementation](https://devops.com/5-tips-for-a-successful-devops-implementation)
 - [dev.to: DEV-OPS](https://dev.to/attaullahshafiq10/dev-ops-59dm)
     - Its a culture, concept, process and approach that merges software requirement gathering, software development, testing, quality assurance, system configurations, product deployment and operations. Organizations building or improving software products are moving towards a DevOps approach where development, testing, security, quality assurance and operations are getting merged within a large team and those technical resources work side by side to achieve higher return on investment
     - DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
-- [==github.blog: 5 DevOps tips to speed up your developer workflow== 🌟](https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow//) From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.
-- [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth/)
+- [==github.blog: 5 DevOps tips to speed up your developer workflow== 🌟](https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow///) From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.
+- [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth//)
 - [itproportal.com: Stop messing up with CI/CD vs. DevOps and learn the difference finally](https://www.itproportal.com/features/stop-messing-up-with-cicd-vs-devops-and-learn-the-difference-finally/) When asking development pros to weigh in on the concept of DevOps, and share their views, we realised one thing.
 - [==blog.udemy.com: Becoming a DevOps Engineer: Understanding the Role and Responsibilities==](https://blog.udemy.com/devops-engineer/) The title “DevOps Engineer” itself is confusing, and no one can agree on what precisely a DevOps Engineer is (or does). So, for now, let’s list some typical activities you might have in this role:
     - Providing leadership and guidance for reducing the time it takes to deploy a software change.
@@ -274,19 +274,19 @@
 - [bmc.com: DevOps Metrics for Optimizing CI/CD Pipelines](https://www.bmc.com/blogs/devops-ci-cd-metrics/)
 - [==simform.com: How to Implement DevOps for Enterprise?==](https://www.simform.com/blog/devops-for-enterprise/) This blog focuses on how to implement DevOps for enterprise-level organizations.
 - [calcalistech.com: “DevOps is a culture, it's not a job description”](https://www.calcalistech.com/ctechnews/article/s1mlpunf9)
-- [reviewnprep.com: DevOps Basics](https://reviewnprep.com/blog/devops-basics//)
+- [reviewnprep.com: DevOps Basics](https://reviewnprep.com/blog/devops-basics///)
 - [==dev.to: How I learn new technologies as a DevOps Engineer (without being overwhelmed 👏) | TechWorld with Nana==](https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e)
 - [medium.com/@hunkarbozkurt: What is DevOps? How Was DevOps Derived?](https://medium.com/@hunkarbozkurt/what-is-devops-how-was-devops-derived-660ef47d42d6)
 - [blog.devops.dev: Devops Best Practices for Continuous Delivery 🌟](https://blog.devops.dev/devops-best-practices-for-continuous-delivery-2f0ebbae65c6)
 - [devops.com: he Real Pipeline](https://devops.com/the-real-pipeline/) Your toolchains need to include stability and security tools.
-- [information-age.com: DevOps vs Agile: distinguishing and combining the two](https://www.information-age.com/devops-vs-agile-distinguishing-and-combining-the-two-20117//)
+- [information-age.com: DevOps vs Agile: distinguishing and combining the two](https://www.information-age.com/devops-vs-agile-distinguishing-and-combining-the-two-20117///)
 - [medium.com/@devfire: How To Become a DevOps Engineer In Six Months or Less, Part 6: Observe](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-part-7-monitor-47c61aea0bf7)
 - [rcls.medium.com: Stop calling yourselves DevOps engineers](https://rcls.medium.com/stop-calling-yourselves-devops-engineers-f9dfec382d0d)
 - [enterprisersproject.com: DevOps: Why shift left goes wrong](https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong) The shift-left approach helps development teams make software better and faster. So why hasn't it caught on - and how can you beat the barriers to success?
 - [==itnext.io: DevOps Big Picture (On-Premises)==](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c)
 - [medium.com/agileinsider: DevOps Principles and Practices Explained in Ten Minutes](https://medium.com/agileinsider/devops-principles-and-practices-explained-in-ten-minutes-6cec7e1dae6d)
 - [medium.com/@perspectivementor: 6 Essential Skills for Landing a DevOps Job in 2024](https://medium.com/@perspectivementor/6-essential-skills-for-landing-a-devops-job-in-2024-88f6c19341d7)
-- [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024//)
+- [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024///)
 
 <center markdown="1">
 
@@ -298,7 +298,7 @@
 
 ## DORA metrics
 
-- [dynatrace.com: 9 key DevOps metrics for success - What are the four main DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success//)
+- [dynatrace.com: 9 key DevOps metrics for success - What are the four main DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success///)
     1. Deployment frequency
     2. Lead time for changes
     3. Change failure rate
@@ -327,26 +327,26 @@
 ## DevOps as a Service (DaaS)
 
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.
-- [containerjournal.com: Best of 2021 – Kubernetes Enables DevOps-as-a-Service (DaaS)](https://containerjournal.com/features/kubernetes-enables-devops-as-a-service-daas//)
+- [containerjournal.com: Best of 2021 – Kubernetes Enables DevOps-as-a-Service (DaaS)](https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas////)
 
 ## IaC Infrastructure as Code
   - [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) - *(Related to linux topic)*
   - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece/) - *(Related to iac topic)*
   - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) - *(Related to ansible topic)*
-  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions//) - *(Related to terraform topic)*
+  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions///) - *(Related to terraform topic)*
 
 - [IaC Infrastructure as Code](iac.md)
 
 ## Xebia Labs and DevOps
 
-- [DevOps Glosary of Terms 🌟](https://digital.ai/glossary//)
-- [The Ultimate DevOps Tool Chest 🌟](https://digital.ai/learn/diagram-generator//)
+- [DevOps Glosary of Terms 🌟](https://digital.ai/glossary///)
+- [The Ultimate DevOps Tool Chest 🌟](https://digital.ai/learn/diagram-generator///)
     - [The Ultimate List of Open Source DevOps Tools](https://digital.ai/)
-- [Periodic Table of DevOps 🌟](https://digital.ai/learn/devsecops-periodic-table//)
+- [Periodic Table of DevOps 🌟](https://digital.ai/learn/devsecops-periodic-table///)
 
 ## DevOps Tools
   - [Buildbot](https://buildbot.net/) - *(Related to cicd topic)*
-  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits//) - *(Related to git topic)*
+  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits///) - *(Related to git topic)*
   - [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) - *(Related to chaos-engineering topic)*
   - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) 🌟 - This DEV Community post guides Windows users on how to streamline the installation of essential DevOps tools like AWS CLI, ECS CLI, Docker, and Terraform using Chocolatey, a Windows package manager. It explains Chocolatey's benefits for automating software installations and updates and provides steps for setting up Chocolatey and subsequently installing these tools via PowerShell.
   - [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on/) - *(Related to kubernetes-tools topic)*
@@ -363,12 +363,12 @@
 ### AWS DevOps
   - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - *(Related to aws topic)*
 
-- [AWS DevOps 🌟](https://aws.amazon.com/devops//)
+- [AWS DevOps 🌟](https://aws.amazon.com/devops///)
 
 ### Azure DevOps
   - [EntraExporter](https://github.com/microsoft/entraexporter) - *(Related to azure topic)*
   - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) - *(Related to azure topic)*
-  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses//) - *(Related to azure topic)*
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses///) - *(Related to azure topic)*
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/en-us/products/devops//)
 
@@ -406,8 +406,8 @@ Resolve your software incidents 10x faster
 
 ## Data as Code
 
-- [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code//)
-- [arrikto.com: What is Data as Code 🌟](https://www.arrikto.com/blog/what-is-data-as-code//)
+- [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code///)
+- [arrikto.com: What is Data as Code 🌟](https://www.arrikto.com/blog/what-is-data-as-code///)
 
 ## DevOps for SAP
 
@@ -425,28 +425,28 @@ Resolve your software incidents 10x faster
   - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) - This article discusses the evolution of platform engineering, from the Dev/Ops split to DevOps and the emergence of Platform Teams. It critiques the limitations of centralized platform teams and introduces the concept of 'Platform Democracy,' where multiple teams collaborate to build and consume platform capabilities in a more decentralized and collaborative manner.
 
 - [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
-- [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering/) Platform engineering is the discipline of building workflows, toolchains, platforms & docs to support app teams in their delivery of business value. Benefits Include:
+- [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering//) Platform engineering is the discipline of building workflows, toolchains, platforms & docs to support app teams in their delivery of business value. Benefits Include:
     - Increased velocity
     - Enable developer satisfaction
     - Speed up onboarding
 - [==honeycomb.io: The Future of Ops Is Platform Engineering== 🌟](https://www.honeycomb.io/blog/future-ops-platform-engineering) Platform engineers vs. DevOps engineers
-- [thenewstack.io: DevOps Burnout? Try Platform Engineering](https://thenewstack.io/devops-burnout-try-platform-engineering//) Internal developer platforms might be part of the solution by reducing repetitive and manual work and cognitive load.
-- [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering//)
-- [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre//) Platform engineering is the next stage of evolution. Like DevOps, it enables developer self-service. Like SRE, it reduces errors and increases reliability.
-- [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4//) TLTR: We have reached a point where the adoption and understanding of Kubernetes and Kubernetes tools are mature enough to start hiding them away from the teams consuming them. This blog post explores some of the approaches different development tools take to provide a better and simplified experience for developers while allowing platform teams to curate the resources these tools use and how they behave.
-- [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering/-in-2023-dev-first-collaboration-and-apis//) Developer platforms won't eliminate DevOps but will prioritize developer experience.
+- [thenewstack.io: DevOps Burnout? Try Platform Engineering](https://thenewstack.io/devops-burnout-try-platform-engineering///) Internal developer platforms might be part of the solution by reducing repetitive and manual work and cognitive load.
+- [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering///)
+- [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre///) Platform engineering is the next stage of evolution. Like DevOps, it enables developer self-service. Like SRE, it reduces errors and increases reliability.
+- [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4///) TLTR: We have reached a point where the adoption and understanding of Kubernetes and Kubernetes tools are mature enough to start hiding them away from the teams consuming them. This blog post explores some of the approaches different development tools take to provide a better and simplified experience for developers while allowing platform teams to curate the resources these tools use and how they behave.
+- [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering//-in-2023-dev-first-collaboration-and-apis//) Developer platforms won't eliminate DevOps but will prioritize developer experience.
 - [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0/)
-- [thenewstack.io: Architecture and Design Considerations for Platform Engineering Teams](https://thenewstack.io/platform-engineering//architecture-and-design-considerations-for-platform-engineering-teams/) What exactly is a platform? Is it an internal developer platform, a developer self-service portal or simply a developer onboarding tool?
+- [thenewstack.io: Architecture and Design Considerations for Platform Engineering Teams](https://thenewstack.io/platform-engineering///architecture-and-design-considerations-for-platform-engineering-teams/) What exactly is a platform? Is it an internal developer platform, a developer self-service portal or simply a developer onboarding tool?
 - [dev.to/thenjdevopsguy: Platform Engineering On Kubernetes Part 4: Internal Developer Platforms](https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh)
 - [medium.com/agorapulse-stories: Platform Engineering, Part 3: WHEN & HOW to Build an Internal Developer Platform](https://medium.com/agorapulse-stories/platform-engineering-part-3-when-how-to-build-an-internal-developer-platform-cfb22efcca34)
 - [dev.to/thenjdevopsguy: Create and Understand Your Platform Engineering Environment](https://dev.to/thenjdevopsguy/creating-your-platform-engineering-environment-4hpa)
-- [siliconangle.com: The rise of platform engineering in the Kubernetes era](https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon//)
+- [siliconangle.com: The rise of platform engineering in the Kubernetes era](https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon///)
 - [loft.sh: Platform Engineering: The Definitive Guide](https://www.vcluster.com/blog/platform-engineering-the-definitive-guide/) Platform engineering is the practice of designing, building, operating, and maintaining tools and infrastructure to help software developers build and ship software quickly
 - [infoworld.com: Why platform engineering?](https://www.infoworld.com/article/2338392/why-platform-engineering.html) The shift from devops to platform engineering could be transformational. Here's why and what's involved in making the leap.
 - [dev.to: Platform Engineering and Internal Developer Platform (IDP)](https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb)
 - [devops.com: What’s the Difference Between DevOps and Platform Engineering?](https://devops.com/whats-the-difference-between-devops-and-platform-engineering)
 - [==dev.to/thenjdevopsguy: What Is Platform Engineering (And What Is It Not?)==](https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8)
-- [thenewstack.io: The 6 Pillars of Platform Engineering: Part 1 — Security](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security//) Platform team workflows and checklists for building security, pipelines, provisioning, connectivity, orchestration, and observability into their platform.
+- [thenewstack.io: The 6 Pillars of Platform Engineering: Part 1 — Security](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security///) Platform team workflows and checklists for building security, pipelines, provisioning, connectivity, orchestration, and observability into their platform.
 - [humanitec.com: How to design your repository structures to nail platform engineering](https://humanitec.com/blog/how-to-design-your-repository-structures-to-nail-platform-engineering) Unlock the full power of platform engineering with repo structures designed to nail high-impact IDPs. Optimize operations, security, and agility for enterprise-ready solutions.
 - [medium.com/@rphilogene: What’s an Internal Developer Platform?](https://medium.com/@rphilogene/whats-an-internal-developer-platform-8f52fb367552)
 - [medium.com/devoptimism: DevOps+Platform Engineering: A Necessary Love Story of Efficiency](https://medium.com/devoptimism/devops-platform-engineering-a-necessary-love-story-of-efficiency-783dff78fd81)
@@ -454,11 +454,11 @@ Resolve your software incidents 10x faster
 - [muycomputerpro.com: Ingeniería de plataformas de DevOps: la nueva generación de DevOps](https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops)
 - [fernandovillalba.substack.com: DevOps: Don't destroy silos, transform them](https://fernandovillalba.substack.com/p/devops-dont-destroy-silos-transform) "Destroying silos" is a clumsy solution to team isolation
 - [humanitec.com: Escape VMware lock-in with a modular Internal Developer Platform](https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-developer-platform)
-- [infoq.com: InfoQ platform engineering homepage](https://www.infoq.com/platformengineering//)
-- [infoq.com: Platform as a Runtime - the Next Step in Platform Engineering](https://www.infoq.com/articles/platform-runtime-engineering//)
-- [infoq.com: Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better//)
+- [infoq.com: InfoQ platform engineering homepage](https://www.infoq.com/platformengineering///)
+- [infoq.com: Platform as a Runtime - the Next Step in Platform Engineering](https://www.infoq.com/articles/platform-runtime-engineering///)
+- [infoq.com: Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better///)
 - [syntasso.io: Platform Engineering: Orchestrating Applications, Platforms, and Infrastructure](https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure)
-- [thenewstack.io: 5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product//)
+- [thenewstack.io: 5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product///)
 - [overcast.blog: 15 Cloud-Native DevOps Tools You Should Know](https://overcast.blog/15-cloud-native-devops-tools-you-should-know-36129057a15c)
 - [==seal.io: Open Source Platform Engineering for Dev & Ops==](https://gpustack.ai//)
 - [humanitec.com: Why every Internal Developer Platform needs a backend](https://humanitec.com/blog/why-every-internal-developer-platform-needs-a-backend) It’s not enough to just have an Internal Developer Platform. To get results, it needs to be done right, and that means building an effective platform backend, a Platform Orchestrator.
@@ -485,7 +485,7 @@ Resolve your software incidents 10x faster
 
 	[![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 
-	[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us//)
+	[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us///)
 
 	[![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
 

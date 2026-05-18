@@ -46,17 +46,17 @@
 
 ## Other Awesome Kubernetes Lists
 
-- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes//)
+- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes///)
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
 - [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools//) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
+- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools///) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [==ksoclabs/awesome-kubernetes-security== 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
-- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest//)
+- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest///)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
     - https://clusterpedia.io
@@ -188,7 +188,7 @@
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Compose](https://github.com/docker/awesome-compose)
     - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/) for project development kickoff
-- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions//) A Curated List of Docker Extensions
+- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions///) A Curated List of Docker Extensions
 
 ### Configuration Management
 
@@ -251,7 +251,7 @@
 #### Bash
 
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
-- [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets//) Generate SSH Keys, Push SSH public key, run remote commands, etc.
+- [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets///) Generate SSH Keys, Push SSH public key, run remote commands, etc.
 
 #### Powershell
 

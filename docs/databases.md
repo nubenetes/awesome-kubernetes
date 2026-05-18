@@ -47,51 +47,51 @@
 
 ## Introduction
 
-- [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture//)
-- [sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices 🌟](https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices//)
+- [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture///)
+- [sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices 🌟](https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices///)
 - [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io/)
 - [theregister.com: 75% of databases to be cloud-hosted by 2022, says Gartner while dishing on the weak points of each provider](https://www.theregister.com/software/2020/12/02/75-of-databases-to-be-cloud-hosted-by-2022-says-gartner-while-dishing-on-the-weak-points-of-each-provider/495782/)
-- [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age//)
-- [==thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic==](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic//)
+- [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age///)
+- [==thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic==](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic///)
 - [hackernoon.com: Database Vs Data Warehouse Vs Data Lake: A Simple Explanation](https://hackernoon.com/database-vs-data-warehouse-vs-data-lake-a-simple-explanation-hz2k33rm)
-- [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood//)
+- [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood///)
 - [blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟](https://www.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database)
-- [thenewstack.io: Databases — Finally — Get Containerized](https://thenewstack.io/databases-finally-get-containerized//)
-- [percona.com: Autoscaling Databases in Kubernetes for MongoDB, MySQL, and PostgreSQL](https://www.percona.com/blog/autoscaling-databases-in-kubernetes-for-mongodb-mysql-and-postgresql//)
+- [thenewstack.io: Databases — Finally — Get Containerized](https://thenewstack.io/databases-finally-get-containerized///)
+- [percona.com: Autoscaling Databases in Kubernetes for MongoDB, MySQL, and PostgreSQL](https://www.percona.com/blog/autoscaling-databases-in-kubernetes-for-mongodb-mysql-and-postgresql///)
 - [levelup.gitconnected.com: How to design a system to scale to your first 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d) Think Big, Do Small, Learn Fast
 - [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)
 - [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types 🌟🌟](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106) When to use SQL vs. NoSQL database? Deep dive, differences, decision tree, and cloud cheatsheet to choose the best database for your data type and use case.
-- [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations//) Deploying ASP.NET Core applications to Kubernetes - Part 7. Learn how to run database migrations with init containers and Jobs in Kubernetes.
+- [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations///) Deploying ASP.NET Core applications to Kubernetes - Part 7. Learn how to run database migrations with init containers and Jobs in Kubernetes.
 - [redislabs.com: What is a “Databaseless” (DBLess) Architecture, and Why It’s the Future 🌟 [ARCHIVED]]( http://web.archive.org/web/20210806055040/https://redislabs.com/blog/dbless-architecture-and-why-its-the-future//) DBLess architecture provides a new approach to data pipeline and backend architecture. Just like the terms serverless, stateless, and NoSQL, it attempts to provide more options for architects to think about.
-- [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures//)
+- [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures///)
 - [medium: Not using trendy technologies is the best thing for your Startup!](https://medium.com/dataseries/not-using-nosql-is-good-i-stuck-to-sql-4504a67972f0) I refused to use MongoDB and I convinced my company to use a SQL relational database system.
-- [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth//)
+- [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth///)
 - [cloud.redhat.com: OpenShift Commons Briefing: Database Disaster Recovery Made Easy with Annette Clewett (Red Hat) and Andrew L'Ecuyer (Crunchy Data)](https://www.redhat.com/en/blog/openshift-commons-briefing-database-disaster-recovery-made-easy-with-annette-clewett-red-hat-and-andrew-lecuyer-crunchy-data)
-- [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic/)
+- [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic//)
 - [hackernoon.com: Practical Transaction Handling in Microservice Architecture](https://hackernoon.com/practical-transaction-handling-in-microservice-architecture-5x1631ke)
-- [thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization](https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization//)
-- [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management//)
+- [thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization](https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization///)
+- [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management///)
 - [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report/) Standardization, consistency and the ability for developers to self-manage - are among the top 3 important factors in the organization's decision to run stateful workloads on Kubernetes.
 - [cloud.redhat.com: Simplifying Database Cloud Service Access](https://www.redhat.com/en/blog/simplifying-database-cloud-service-access)
 - [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases/)
-- [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication//)
+- [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication///)
 - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) A completely scalable intake solution that didn't require a database because all the data was stored on S3.
-- [intellipaat.com: Difference between DBMS and RDBMS](https://intellipaat.com/blog/dbms-vs-rdbms-difference//) DBMS and RDBMS sound very similar, but can be confusing to those who are completely new to the database domain. Both of them are based on the technology of storing data. However, we will dive into this DBMS vs RDBMS blog to learn the difference between them.
+- [intellipaat.com: Difference between DBMS and RDBMS](https://intellipaat.com/blog/dbms-vs-rdbms-difference///) DBMS and RDBMS sound very similar, but can be confusing to those who are completely new to the database domain. Both of them are based on the technology of storing data. However, we will dive into this DBMS vs RDBMS blog to learn the difference between them.
 - [==betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase, and PostgreSQL==](https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639) A step-by-step guide on how to implement multi-tenancy.
-- [==thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution==](https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution//)
-- [thenewstack.io: How Radical API Design Changed the Way We Access Databases](https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases//)
+- [==thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution==](https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution///)
+- [thenewstack.io: How Radical API Design Changed the Way We Access Databases](https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases///)
 - [==architecturenotes.co: Things You Should Know About Databases==](https://architecturenotes.co/p/things-you-should-know-about-databases/) This is the first post in a series called Things You Should Know. Think of it as a primer to level set from base principles on various topics. Today we are discussing databases!
-- [vladmihalcea.com: A beginner’s guide to database multitenancy](https://vladmihalcea.com/database-multitenancy//)
+- [vladmihalcea.com: A beginner’s guide to database multitenancy](https://vladmihalcea.com/database-multitenancy///)
 - [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959) 90% of the customers believe it is ready for stateful workloads, and a large majority (70%) are running them in production with databases topping the list. Companies report significant benefits to standardization, consistency, and management as key drivers.
-- [thenewstack.io: More Database, Analytics Workloads Ran on Kubernetes in 2022](https://thenewstack.io/more-database-analytics-workloads-ran-on-kubernetes-in-2022//) More than three in four participants in the new Data on Kubernetes survey now acknowledge the use of databases on Kubernetes, up from 50% in 2021.
+- [thenewstack.io: More Database, Analytics Workloads Ran on Kubernetes in 2022](https://thenewstack.io/more-database-analytics-workloads-ran-on-kubernetes-in-2022///) More than three in four participants in the new Data on Kubernetes survey now acknowledge the use of databases on Kubernetes, up from 50% in 2021.
 - [medium.com/@bijit211987: Kubernetes ready for stateful workloads and to Revolutionize Enterprise Database Management](https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2)
 - [==medium.com/javarevisited: Top Performance issues every developer/architect must know — part 1-Database==](https://medium.com/javarevisited/top-performance-issues-every-developer-architect-must-know-part-1-fc1ad6e1644b)
-- [infoq.com: Create Your Distributed Database on Kubernetes with Existing Monolithic Databases](https://www.infoq.com/articles/kubernetes-databases-apache-sharding-sphere//)
+- [infoq.com: Create Your Distributed Database on Kubernetes with Existing Monolithic Databases](https://www.infoq.com/articles/kubernetes-databases-apache-sharding-sphere///)
 - [==dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every programmer must know==](https://dineshchandgr.medium.com/why-do-we-need-a-database-connection-pool-every-programmer-must-know-9f90e7c8e5af) In this article, we looked at what is Database connection and its life cycle. Then we saw the drawbacks of creating connections on the fly and then saw the need to use a Database Connection Pool. We also looked at the design patterns on where to place the connection pool. We have then looked at the performance issues that can arise from the Database connection pool and concluded the article by looking at the common connection pool frameworks used in Java.
 - [==medium.com/fintechexplained: What Is Database Sharding?==](https://medium.com/fintechexplained/what-is-database-sharding-582b36282f97) Learn How Splitting Database Across Multiple Machines Improves Performance By Processing Requests In Parallel For High Volume Applications
 - [==blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment== 🌟](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates.
 - [blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates
-- [thenewstack.io: Distributed Database Architecture: What Is It?](https://thenewstack.io/distributed-database-architecture-what-is-it//)
+- [thenewstack.io: Distributed Database Architecture: What Is It?](https://thenewstack.io/distributed-database-architecture-what-is-it///)
 - [medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why it won’t work for you if you’re implementing a big data solution)](https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644)
 - [medium.com/@fengruohang: Database in Kubernetes: Is that a good idea?](https://medium.com/@fengruohang/database-in-kubernetes-is-that-a-good-idea-daf5775b5c1f) Perhaps one day, when the reliability and performance of distributed network storage surpass local storage and mainstream databases have some native support for storage-computation separation, things might change again — K8S might become suitable for databases. But for now, I believe putting serious production OLTP databases into K8S is immature and inappropriate. I hope readers will make wise choices on this matter.
 
@@ -106,22 +106,22 @@
 ## SQL
 
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
-- [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference//)
-- [vettabase.com: How slow is SELECT * ?](https://vettabase.com/how-slow-is-select//)
+- [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference///)
+- [vettabase.com: How slow is SELECT * ?](https://vettabase.com/how-slow-is-select///)
 - [towardsdatascience.com: How to Use SQL Cross Joins](https://towardsdatascience.com/how-to-use-sql-cross-joins-5653fe7d353) The SQL join you never knew existed
-- [vladmihalcea.com: SQL EXISTS and NOT EXISTS](https://vladmihalcea.com/sql-exists//)
-- [vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing](https://vladmihalcea.com/default-database-key-indexing//)
+- [vladmihalcea.com: SQL EXISTS and NOT EXISTS](https://vladmihalcea.com/sql-exists///)
+- [vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing](https://vladmihalcea.com/default-database-key-indexing///)
 - [blog.jooq.org](https://blog.jooq.org) JAVA, SQL AND JOOQ. Best Practices and Lessons Learned from Writing Awesome Java and SQL Code. Get some hands-on insight on what's behind developing jOOQ.
-- [vladmihalcea.com: SQL LEFT JOIN – A Beginner’s Guide](https://vladmihalcea.com/sql-left-join//)
-- [vladmihalcea.com: SQL JOIN USING – A Beginner’s Guide](https://vladmihalcea.com/sql-join-using//)
+- [vladmihalcea.com: SQL LEFT JOIN – A Beginner’s Guide](https://vladmihalcea.com/sql-left-join///)
+- [vladmihalcea.com: SQL JOIN USING – A Beginner’s Guide](https://vladmihalcea.com/sql-join-using///)
 - [gcreddy.com: SQL Step by Step Videos](https://www.gcreddy.com/2021/05/sql-step-by-step-videos.html)
 - [freecodecamp.org: SQL Joins Tutorial: Cross Join, Full Outer Join, Inner Join, Left Join, and Right Join](https://www.freecodecamp.org/news/sql-joins-tutorial/)
 - [freecodecamp.org: SQL Join Types – Inner Join VS Outer Join Example](https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/)
 - [freecodecamp.org: The SQL Inner Join Command: Example Syntax](https://www.freecodecamp.org/news/the-sql-inner-join-command-example-syntax/)
 - [freecodecamp.org: SQL Inner Join – How to Join 3 Tables in SQL and MySQL](https://www.freecodecamp.org/news/sql-inner-join-how-to-join-3-tables-in-sql-and-mysql/)
-- [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations//)
+- [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations///)
 - [towardsdatascience.com: You Should Use This to Visualize SQL Joins Instead of Venn Diagrams](https://towardsdatascience.com/you-should-use-this-to-visualize-sql-joins-instead-of-venn-diagrams-ede15f9583fc)
-- [vladmihalcea.com: MySQL JSON_TABLE – Map a JSON object to a relational database table](https://vladmihalcea.com/mysql-json-table//)
+- [vladmihalcea.com: MySQL JSON_TABLE – Map a JSON object to a relational database table](https://vladmihalcea.com/mysql-json-table///)
 
 ### Alternatives to SQL
 
@@ -141,7 +141,7 @@
 
 - [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
 - [threadreaderapp.com:  Kelsey Hightower: "Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes" 🌟](https://threadreaderapp.com/thread/963413508300812295.html)
-- [thenewstack.io: Data on Kubernetes: The Next Frontier](https://thenewstack.io/data-on-kubernetes-the-next-frontier//) “The interesting opportunity I see in the Kubernetes ecosystem,” Evenson continued, “is that, with the advent of custom resources and Kubernetes, you can build bespoke APIs for your application really easily. We’re in the world of operator explosion. In essence, it makes Kubernetes applications aware.”
+- [thenewstack.io: Data on Kubernetes: The Next Frontier](https://thenewstack.io/data-on-kubernetes-the-next-frontier///) “The interesting opportunity I see in the Kubernetes ecosystem,” Evenson continued, “is that, with the advent of custom resources and Kubernetes, you can build bespoke APIs for your application really easily. We’re in the world of operator explosion. In essence, it makes Kubernetes applications aware.”
 - [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.redhat.com/en/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift)
 - [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)
 
@@ -153,11 +153,11 @@
 
 ## Serverless Databases
 
-- [thenewstack.io: How to Ensure Your Serverless Database Stays Serverless](https://thenewstack.io/how-to-ensure-your-serverless-database-stays-serverless//)
+- [thenewstack.io: How to Ensure Your Serverless Database Stays Serverless](https://thenewstack.io/how-to-ensure-your-serverless-database-stays-serverless///)
 
 ## DataOps
 
-- [thenewstack.io: The Benefits and Drawbacks of DataOps in Practice](https://thenewstack.io/the-benefits-and-drawbacks-of-dataops-in-practice//)
+- [thenewstack.io: The Benefits and Drawbacks of DataOps in Practice](https://thenewstack.io/the-benefits-and-drawbacks-of-dataops-in-practice///)
 
 ## Database Continuous Integration
 
@@ -172,7 +172,7 @@
 
 ## Database DevOps
 
-- [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/devops/can-enterprises-benefit-from-adopting-database-devops)
+- [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/software-services/devops)
 - [medium: DevOps and Databases — The forgotten automation](https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89)
 
 ## Database Mesh
@@ -187,7 +187,7 @@
 
 - [Wikipedia: CockroachDB](https://en.wikipedia.org/wiki/Cockroach_Labs) is a project that is designed to store copies of data in multiple locations in order to deliver speedy access. It is described as a scalable, consistently-replicated, transactional datastore.
 - [==Cockroach==](https://www.cockroachlabs.com/docs/stable/kubernetes-overview)
-- [cockroachlabs.com: Automated database operations with Terraform](https://www.cockroachlabs.com/blog/automate-database-ops-with-terraform//)
+- [cockroachlabs.com: Automated database operations with Terraform](https://www.cockroachlabs.com/blog/automate-database-ops-with-terraform///)
 - [blog.cloudneutral.se: Running CockroachDB TPC-C benchmark on GKE](https://blog.cloudneutral.se/running-cockroachdb-tpc-c-benchmark-on-gke) This article demonstrates how to run a TPC-C 2.5K benchmark on a self-hosted, 3-node, single-region CockroachDB cluster on Google Kubernetes Engine (GKE)
 
 ## Operator Lifecycle Manager (OLM)
@@ -198,7 +198,7 @@
 
 - [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA.
 - [Patroni](https://github.com/patroni/patroni)
-- [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes//)
+- [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes///)
 
 ## Zalando PostgreSQL Operator
 
@@ -217,60 +217,60 @@
 - https://github.com/oracle/oracle-database-operator
 
 ## SQL Server
-  - [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell//) - *(Related to kubernetes-backup-migrations topic)*
+  - [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell///) - *(Related to kubernetes-backup-migrations topic)*
 
 - [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/)
-- [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql//)
+- [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql///)
 - [khalidabuhakmeh.com: Running SQL Server Queries In Docker](https://khalidabuhakmeh.com/running-sql-server-queries-in-docker)
 
 ## MySQL
 
 - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool/)
 - [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table)
-- [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance//)
+- [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance///)
 - [pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER) in MySQL](https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4) Database schema relationships of tables
 - [dbasecenter.com: The top 5 MySQL performance variables](https://dbasecenter.com/blog/the-top-5-mysql-performance-variables/)
 - [opensource.com](https://opensource.com/article/21/5/mysql-query-tuning) Tune your MySQL queries like a pro. Optimizing your queries isn't a dark art; it's just simple engineering.
-- [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops//)
-- [Moco](https://cybozu-go.github.io/moco//) MOCO is a Kubernetes operator for MySQL created and maintained by Cybozu.
+- [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops///)
+- [Moco](https://cybozu-go.github.io/moco///) MOCO is a Kubernetes operator for MySQL created and maintained by Cybozu.
 - [cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container](https://www.cloudsavvyit.com/13842/how-to-run-phpmyadmin-in-a-docker-container/)
 - [tusacentral.com: MySQL on Kubernetes demystified](http://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified)
 - [dzone: PostgreSQL vs MySQL Performance](https://dzone.com/articles/postgresql-versus-mysql-performance)
-- [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker//)
+- [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker///)
 
 ## MariaDB
 
-- [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java//)
+- [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java///)
 
 ## PostgreSQL
 
 - [momjian.us: Mastering PostgreSQL Administration [pdf]](https://momjian.us/main/writings/pgsql/administration.pdf)
-- [9 High-Performance Tips when using PostgreSQL with JPA and Hibernate](https://vladmihalcea.com/9-postgresql-high-performance-performance-tips//)
+- [9 High-Performance Tips when using PostgreSQL with JPA and Hibernate](https://vladmihalcea.com/9-postgresql-high-performance-performance-tips///)
 - [migops.com: pgBackRest – The Best Postgres Backup Tool with a very active community](https://www.migops.com/blog/pgbackrest-the-best-postgres-backup-tool-with-a-very-active-community//)
 - [towardsdatascience.com: Practical Introduction to PostgreSQL](https://towardsdatascience.com/practical-introduction-to-postgresql-5f73d3d394e)
-- [percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs//)
+- [percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs///)
 - [blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
-- [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://palark.com/blog/comparing-kubernetes-operators-for-postgresql//)
+- [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://palark.com/blog/comparing-kubernetes-operators-for-postgresql///)
 - [blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres](https://www.crunchydata.com/blog/generating-json-directly-from-postgres)
-- [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/out-of-memory-killer-or-savior//)
+- [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/out-of-memory-killer-or-savior///)
 - [Postgres.app](https://postgresapp.com/) The easiest way to get started with PostgreSQL on the Mac
-- [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset//)
+- [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset///)
 - [blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta)
 - **Why Postgres?**
     - Its fully open source, so control over destiny
     - Features are comparable to Oracle, so minimizes mental friction of the move
 - [blog.crunchydata.com: Devious SQL: Message Queuing Using Native PostgreSQL](https://www.crunchydata.com/blog/message-queuing-using-native-postgresql)
-- [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql//)
-- [percona.com: PostgreSQL 14 Database Monitoring and Logging Enhancements](https://www.percona.com/blog/postgresql-14-database-monitoring-and-logging-enhancements//)
+- [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql///)
+- [percona.com: PostgreSQL 14 Database Monitoring and Logging Enhancements](https://www.percona.com/blog/postgresql-14-database-monitoring-and-logging-enhancements///)
 - [theregister.com: MySQL a 'pretty poor database' says departing Oracle engineer](https://www.theregister.com/software/2021/12/06/mysql-a-pretty-poor-database-says-ex-oracle-engineer/539827/) PostgreSQL a better option for open source RDBMS, he claims
-- [wanago.io: Creating views with PostgreSQL](https://wanago.io/2021/12/06/views-postgresql-typeorm//)
+- [wanago.io: Creating views with PostgreSQL](https://wanago.io/2021/12/06/views-postgresql-typeorm///)
 - [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) PostgreSQL Statistics Collector
 - [==blog.crunchydata.com: A Postgres Primer for Oracle DBAs==](https://www.crunchydata.com/blog/a-postgres-primer-for-oracle-dbas)
 - [==blog.crunchydata.com: Postgres Indexes for Newbies==](https://www.crunchydata.com/blog/postgres-indexes-for-newbies)
 - [dev.to: REST Data Service on YugabyteDB / PostgreSQL](https://dev.to/yugabyte/rest-data-service-on-yugabytedb-postgresql-5f2h)
 - [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) pg_back dumps databases from PostgreSQL
 - [sqlrevisited.blogspot.com: MySQL vs PostgreSQL? Pros and Cons](https://www.sqlrevisited.com/2022/03/mysql-vs-postgresql-pros-and-cons.html)
-- [==adamtheautomator.com: How to Deploy Postgres to Kubernetes== 🌟](https://adamtheautomator.com/postgres-to-kubernetes//) In this step-by-step tutorial, you will learn how to securely deploy Postgres to Kubernetes using two methods:
+- [==adamtheautomator.com: How to Deploy Postgres to Kubernetes== 🌟](https://adamtheautomator.com/postgres-to-kubernetes///) In this step-by-step tutorial, you will learn how to securely deploy Postgres to Kubernetes using two methods:
     - Helm charts
     - YAML configurations
 - [purnapoudel.blogspot.com: How to Configure PostgreSQL with SSL/TLS support on Kubernetes](https://purnapoudel.blogspot.com/2018/09/how-to-configure-postgresql-with-ssl-tls-on-kubernetes.html) This tutorial describes detailed steps to deploy PostgreSQL on Kubernetes with SSL/TLS support using PersistentVolume, configMap, and secrets along with possible issues, troubleshooting steps and work-around.
@@ -279,13 +279,13 @@
 
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html)
 - [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)
-- [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/mysql-101-how-to-find-and-tune-a-slow-sql-query//)
-- [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github//)
-- [percona.com: Migration of a MySQL Database to a Kubernetes Cluster Using Asynchronous Replication](https://www.percona.com/blog/migration-of-a-mysql-database-to-a-kubernetes-cluster-using-asynchronous-replication//)
+- [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/mysql-101-how-to-find-and-tune-a-slow-sql-query///)
+- [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github///)
+- [percona.com: Migration of a MySQL Database to a Kubernetes Cluster Using Asynchronous Replication](https://www.percona.com/blog/migration-of-a-mysql-database-to-a-kubernetes-cluster-using-asynchronous-replication///)
 
 ## Percona PostgreSQL Operator
 
-- [percona.com: Migrating PostgreSQL to Kubernetes](https://www.percona.com/blog/migrating-postgresql-to-kubernetes/)
+- [percona.com: Migrating PostgreSQL to Kubernetes](https://www.percona.com/blog/migrating-postgresql-to-kubernetes//)
 
 ## Redis
 
@@ -339,12 +339,12 @@
 
 ## Time-Series Database
 
-- [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database//)
+- [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database///)
 
 ## Data Analytics and Visualization Tools
 
 - [opensource.com: Make your data boss-friendly with EDA - Enterprise Data Analytics](https://opensource.com/article/21/4/visualize-data-eda) - [EDA](https://eda.jortilles.com/en/jortilles-english//)
-- [thenewstack.io: Kubernetes-Run Analytics at the Edge: Postgres, Kafka, Debezium](https://thenewstack.io/kubernetes-run-analytics-at-the-edge-postgres-kafka-debezium//)
+- [thenewstack.io: Kubernetes-Run Analytics at the Edge: Postgres, Kafka, Debezium](https://thenewstack.io/kubernetes-run-analytics-at-the-edge-postgres-kafka-debezium///)
 
 ## Data Lakes
 

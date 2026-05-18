@@ -32,30 +32,30 @@
 
 ## Introduction
 
-- [AWS Cloud Products](https://aws.amazon.com/products//)
+- [AWS Cloud Products](https://aws.amazon.com/products///)
 - [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations//)
 - [status.aws.amazon.com: Service Health Dashboard](https://health.aws.amazon.com/health/status)
-- [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new/)
-- [aws.amazon.com/releasenotes](https://aws.amazon.com/new//)
+- [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new//)
+- [aws.amazon.com/releasenotes](https://aws.amazon.com/new///)
 - [AWS Forums](https://repost.aws)
-- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport//knowledge-center/)
+- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport///knowledge-center/)
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
-- [AWS Support](https://aws.amazon.com/premiumsupport//)
+- [AWS Support](https://aws.amazon.com/premiumsupport///)
 - [github.com/awslabs](https://github.com/awslabs)
 - [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)
-- [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/hands-on//)
+- [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/hands-on///)
 - [How do I create and activate a new Amazon Web Services account?](https://repost.aws/knowledge-center/create-and-activate-aws-account/)
 - [onlineitguru.com: AWS Services [ARCHIVED]]( http://web.archive.org/web/20210119012455/https://onlineitguru.com/tutorial/aws-services)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
-- [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides//) Your guides to learning the AWS Cloud. Build Your AWS Cloud Knowledge with Ramp-Up Guides.
+- [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides///) Your guides to learning the AWS Cloud. Build Your AWS Cloud Knowledge with Ramp-Up Guides.
 - [serverlessland.com](https://serverlessland.com/) This site brings together all the latest blogs, videos, and training for AWS Serverless. Learn to use and build apps that scale automatically on low-cost, fully-managed serverless architecture.
     - [serverlessland.com/patterns: Serverless Patterns Collection](https://serverlessland.com/patterns) Use serverless patterns to quickly build integrations using AWS SAM and CDK templates. Filter by pattern and copy the template directly into your application.
     - [AWS SAM Pipelines](https://serverlessland.com/explore/sam-pipelines) Video tutorials: Learn how to generate CI/CD pipelines and deployment templates for serverless applications with AWS’ best practices for CloudBees, JenkinsCI, GitLab, GitHub using AWS SAM Pipelines.
-- [AWS Activate](https://aws.amazon.com/startups/) AWS Activate offers startups free tools, resources, and more to quickly get started on AWS. Build and scale with up to $100,000 in AWS Activate credits
+- [AWS Activate](https://aws.amazon.com/startups//) AWS Activate offers startups free tools, resources, and more to quickly get started on AWS. Build and scale with up to $100,000 in AWS Activate credits
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
-- [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free//)
+- [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free///)
 - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)
 - [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) In this post, we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
@@ -63,19 +63,19 @@
 - [linkedin pulse: Listado de todos los Servicios de AWS (actualizado 1 de Enero 2021)](https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva)
 - [towardsaws.com: A Gentle Introduction to Amazon Web Services (AWS)](https://towardsaws.com/a-gentle-introduction-to-amazon-web-services-aws-50f18c7c57dc)
 - [docs.aws.amazon.com: The AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html)
-- [thenewstack.io: The AWS Shared Responsibility Model for Kubernetes](https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes//)
+- [thenewstack.io: The AWS Shared Responsibility Model for Kubernetes](https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes///)
 - [medium: AWS Services Every Developer Should Be Aware Of](https://medium.com/@ashish_fagna/aws-services-every-developer-should-be-aware-of-f7c48aaa854f)
 - [blog.cloudyali.io: The Absolute minimum every developer must know about AWS security!](https://blog.cloudyali.io/absolute-minimum-every-developer-must-know-about-aws-security)
 - [acloudguru.com: 12 AWS Config rules that every account should have](https://www.pluralsight.com/resources/blog/cloud/12-aws-config-rules-that-every-account-should-have)
-- [cloudonaut.io: EC2 Checklist: 7 things to do after launching an instance](https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance//)
+- [cloudonaut.io: EC2 Checklist: 7 things to do after launching an instance](https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance///)
 - [medium: 6 Lessons Learned - Migrating Application on Production](https://medium.com/swlh/6-lessons-learned-from-migrating-web-application-on-production-ce9add8e63f3)
-- [lastweekinaws.com: 17 More Ways to Run Containers on AWS](https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws//)
-- [What is Streaming Data?](https://aws.amazon.com/what-is/streaming-data//)
+- [lastweekinaws.com: 17 More Ways to Run Containers on AWS](https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws///)
+- [What is Streaming Data?](https://aws.amazon.com/what-is/streaming-data///)
 - [dzone: Five Different Ways to Build AWS Infrastructure](https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure) Before deciding on how to create your production platform, learn about the benefits and drawbacks of different ways to build your AWS infrastructure.
-- [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads//)
+- [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads///)
 - [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
 - [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
-- [intellipaat.com: What is AWS?](https://intellipaat.com/blog/what-is-amazon-web-services-aws//)
+- [intellipaat.com: What is AWS?](https://intellipaat.com/blog/what-is-amazon-web-services-aws///)
 - [tech.twenix.com: Securiza tu infraestructura cloud sin arruinarte](https://tech.twenix.com/securiza-tu-infraestructura-cloud-sin-arruinarte-d9d2e2d5302c)
 - [==amazon.qwiklabs.com/catalog==](https://amazon.qwiklabs.com/catalog) **One of the best ways to learn AWS services is to use them. If you want to grow your skills this year check out these AWS quicklabs. Free and paid quests to get you started and gaining experience.**
 - [==freecodecamp.org/news/tag/aws==](https://www.freecodecamp.org/news/tag/aws/) Are you looking to get into cloud? Check out all the amazing free content available on freecodecamp under the AWS tag.
@@ -84,7 +84,7 @@
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
 - [medium.com/@imaze.enabulele: Autoscaling EC2 Instances for High Availability and Stress Testing 🌟](https://medium.com/@imaze.enabulele/autoscaling-ec2-instances-for-high-availability-and-stress-testing-946b41f229e2)
 - [awstip.com: How to list all resources in your AWS account](https://awstip.com/how-to-list-all-resources-in-your-aws-account-c3f18061f71b)
-- [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones//) AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers.
+- [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones///) AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers.
 - [dev.to: Disaster Recovery Cheat-sheet/Write-up 🌟](https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62)
 - [terminalsandcoffee.com: Setting Up the AWS CLI & IAM User API Keys 🌟](https://terminalsandcoffee.com/setting-up-the-aws-cli-iam-user-api-keys-b83554e314e4)
 - [dev.to: Best Practices When Designing AWS Architecture 🌟🌟](https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d) AWSArchitecture is the way you design & implement your cloud apps using AWS services & resources. A well-designed architecture help to achieve business goals 👉 scalability, reliability, etc.
@@ -93,11 +93,11 @@
 
 ## AWS Reference Archigtecture
 
-- [infoq.com: AWS Publishes Reference Architecture and Implementations for Deployment Pipelines](https://www.infoq.com/news/2023/02/aws-deployment-pipelines//) - [New - Deployment Pipelines Reference Architecture and Reference Implementations](https://aws.amazon.com/blogs/aws/new_deployment_pipelines_reference_architecture_and_-reference_implementations//)
+- [infoq.com: AWS Publishes Reference Architecture and Implementations for Deployment Pipelines](https://www.infoq.com/news/2023/02/aws-deployment-pipelines///) - [New - Deployment Pipelines Reference Architecture and Reference Implementations](https://aws.amazon.com/blogs/aws/new_deployment_pipelines_reference_architecture_and_-reference_implementations//)
 
 ## AWS Application Services
 
-- [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/aws-solutions-architect/aws-application-services//)
+- [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/aws-cloud/aws-application-services///)
 
 ## Blogs
   - [Introducing Kiro: AWS Agentic AI-Based IDE](https://markrosscloud.medium.com/introducing-kiro-aws-agentic-ai-based-ide-cded711b1409) - *(Related to ai topic)*
@@ -130,7 +130,7 @@ You can filter by topic using the toolbar above.
 ## Containers on AWS
   - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com/) - *(Related to cicd topic)*
 
-- [==vladionescu.me: Scaling containers on AWS in 2022 (comparison)==](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022//)
+- [==vladionescu.me: Scaling containers on AWS in 2022 (comparison)==](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022///)
 
 ## AWS Startup Collection. For startups building on AWS
 
@@ -153,14 +153,14 @@ You can filter by topic using the toolbar above.
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
 - [AWS Tutorial Series](https://www.youtube.com/user/awstutorialseries)
 - [AWS Webinar Channel](https://www.youtube.com/user/AWSwebinars)
-- [AWS Podcasts](https://aws.amazon.com/podcasts/aws-podcast//)
-- [AWS Techchat](https://aws.amazon.com/podcasts/aws-techchat/)
+- [AWS Podcasts](https://aws.amazon.com/podcasts/aws-podcast///)
+- [AWS Techchat](https://aws.amazon.com/podcasts/aws-techchat//)
 - [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
 
 ## AWS Developer Blog
-  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions//) 🌟 - This blog post introduces an enhanced local Integrated Development Environment (IDE) experience for AWS Step Functions, integrating Workflow Studio directly into Visual Studio Code (VS Code) via the AWS Toolkit extension. This allows developers to visually author and edit state machines locally, mirroring the AWS Console experience. The integration simplifies the development of distributed applications, process automation, microservice orchestration, and data/ML pipelines by providing a seamless workflow authoring experience within the developer's preferred IDE, synchronizing visual changes with the Amazon States Language (ASL) definition.
+  - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions///) 🌟 - This blog post introduces an enhanced local Integrated Development Environment (IDE) experience for AWS Step Functions, integrating Workflow Studio directly into Visual Studio Code (VS Code) via the AWS Toolkit extension. This allows developers to visually author and edit state machines locally, mirroring the AWS Console experience. The integration simplifies the development of distributed applications, process automation, microservice orchestration, and data/ML pipelines by providing a seamless workflow authoring experience within the developer's preferred IDE, synchronizing visual changes with the Amazon States Language (ASL) definition.
 
-- [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer//)
+- [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer///)
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
 ## AWS Patterns
@@ -192,22 +192,22 @@ You can filter by topic using the toolbar above.
 
 ## AWS Systems Manager Explorer
 
-- [Multi-account AWS Trusted Advisor summaries now available in AWS Systems Manager Explorer](https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer//)
+- [Multi-account AWS Trusted Advisor summaries now available in AWS Systems Manager Explorer](https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer///)
 
 ### AWS Systems Manager Incident Manager
 
-- [How to automate incident response to security events with AWS Systems Manager Incident Manager](https://aws.amazon.com/blogs/security/how-to-automate-incident-response-to-security-events-with-aws-systems-manager-incident-manager//)
+- [How to automate incident response to security events with AWS Systems Manager Incident Manager](https://aws.amazon.com/blogs/security/how-to-automate-incident-response-to-security-events-with-aws-systems-manager-incident-manager///)
 
 ## AWS Cloud Adoption Framework (AWS CAF)
 
-- [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/cloud-adoption-framework//) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
-- [AWS Cloud Adoption Framework (CAF) 3.0 is Now Available](https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available//)
+- [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/cloud-adoption-framework///) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
+- [AWS Cloud Adoption Framework (CAF) 3.0 is Now Available](https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available///)
 
 ## AWS re:Post
 
 - [==repost.aws== 🌟](https://repost.aws)
-- [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community//)
-- [infoq.com: Amazon Introduces re:Post, a "Stack Overflow" for AWS](https://www.infoq.com/news/2021/12/amazon-repost-questions-answers//)
+- [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community///)
+- [infoq.com: Amazon Introduces re:Post, a "Stack Overflow" for AWS](https://www.infoq.com/news/2021/12/amazon-repost-questions-answers///)
 
 ## Bunch of Images
 
@@ -217,11 +217,11 @@ You can filter by topic using the toolbar above.
 
 	![aws responsability model](images/s3_storage_classes.jfif)
 
-	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model//)
+	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model///)
 
 	[![Most Popular Cloud Platforms with AWS removed for scale](images/most_popular_cloud_platforms.jfif)](https://x.com/okta)
 
-	[![aws rds dashbird](images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds//)
+	[![aws rds dashbird](images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds///)
 
 	</center>
 
