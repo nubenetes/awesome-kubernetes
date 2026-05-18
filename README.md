@@ -457,30 +457,30 @@ graph TD
 Nubenetes utilizes a **Performance-First / Cost-Optimized** hybrid model.
 
 ### 7.1. Comprehensive Economic Projections (2026 Inception)
-| Scenario | Tier | Avg. Tokens/Link | Total Tokens (17k) | Est. Cost (USD) | Est. Cost (EUR) |
+| Scenario | Tier | Avg. Tokens/Link | Total Tokens (17k) | Est. Cost (EUR) | Est. Cost (USD) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| **Max Quality** | 100% Gemini Pro | 2.2k | 37.6M | **$131.70** | **€121.16** |
-| **Optimized** | **Hybrid (Pro/Flash)** | 2.2k | 37.6M | **$18.50** | **€17.02** |
-| **Economy** | 100% Gemini Flash | 2.2k | 37.6M | **$2.82** | **€2.60** |
+| **Max Quality** | 100% Gemini Pro | 2.2k | 37.6M | **€121.16** | **$131.70** |
+| **Optimized** | **Hybrid (Pro/Flash)** | 2.2k | 37.6M | **€17.02** | **$18.50** |
+| **Economy** | 100% Gemini Flash | 2.2k | 37.6M | **€2.60** | **$2.82** |
 
 #### 2. Standard Pipeline Execution (Incremental)
 Cost per automated workflow run on the `develop` branch.
 
-| Execution Type | Frequency | New Links | Model Tier | Cost per Run (USD) |
+| Execution Type | Frequency | New Links | Model Tier | Cost per Run (EUR) |
 | :--- | :--- | :---: | :--- | :---: |
-| **Daily Curation** | 1/day | 25-50 | Flash + Pro | **$0.08** |
-| **Weekly Discovery** | 1/week | 100-200 | Pro Elite | **$0.45** |
-| **Monthly Health Pass** | 2/month | 17,110 | Local Cache | **$0.00** |
-| **V2 Elite Sync** | On demand | 0-100 | Flash (Upgraded) | **$0.02** |
+| **Daily Curation** | 1/day | 25-50 | Flash + Pro | **€0.07** |
+| **Weekly Discovery** | 1/week | 100-200 | Pro Elite | **€0.41** |
+| **Monthly Health Pass** | 2/month | 17,110 | Local Cache | **€0.00** |
+| **V2 Elite Sync** | On demand | 0-100 | Flash (Upgraded) | **€0.02** |
 
 #### 3. Monthly Operational Footprint (OPEX)
 Projected monthly budget for 24/7 autonomous maintenance.
 
-| Monthly Load | Est. Pipelines | Total New Links | Est. Monthly Cost | ROI (Manual vs AI) |
+| Monthly Load | Est. Pipelines | Total New Links | Est. Monthly Cost (EUR) | ROI (Manual vs AI) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Standard** | 35 | 1,200 | **$4.85** | ~160 hrs saved |
-| **Aggressive Surge** | 60 | 3,500 | **$12.30** | ~450 hrs saved |
-| **Maintenance** | 10 | 100 | **$0.55** | ~20 hrs saved |
+| **Standard** | 35 | 1,200 | **€4.46** | ~160 hrs saved |
+| **Aggressive Surge** | 60 | 3,500 | **€11.32** | ~450 hrs saved |
+| **Maintenance** | 10 | 100 | **€0.51** | ~20 hrs saved |
 
 ### 7.2. Efficiency and Performance Metrics
 Achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.

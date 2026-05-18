@@ -99,22 +99,27 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **No Ampersands**: The ampersand character (`&`) MUST be replaced with "and" in all titles and TOCs.
     - **Lowercase Anchors**: All Markdown anchors MUST use strictly lowercase slugs without special characters.
 
-31. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
+31. **README Cost Analysis (EUR First)**: To align with European operational standards:
+    - **Primary Currency**: All cost projections, tables, and analysis in `README.md` (Section 7) MUST use **Euros (€)** as the primary currency.
+    - **Conversion Policy**: If USD values are provided for technical reference, they MUST be accompanied by their EUR equivalent using a current market estimate (e.g., 1 USD ≈ 0.92 EUR).
+    - **Metric Precision**: Maintain at least two decimal places for EUR values to ensure financial accuracy.
+
+32. **Content-URL Precision Standard**: To prevent misinformation and maintain high-density technical value:
     - **Generic Redirect Detection**: If a technical deep-link redirects to a generic landing page, it is flagged as a precision failure.
     - **Deep Link Rescue (Universal)**: For ALL technical resources, the bot MUST NOT delete the link immediately. Instead, it SHOULD attempt to "rescue" it using the technical title, full V1 description, and **Real-time Web Grounding** (MCP) for high-precision context search.
     - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (visually highlighted with bold/highlight, marked with 🌟 stars, or featuring dense technical descriptions) MUST NEVER be automatically deleted. If rescue attempts fail, these links MUST be marked as `status: review_required` and preserved in the archive for manual verification.
     - **Authoritative Preservation**: If a specific technical equivalent is found (e.g., Nginx to F5 migration), the URL MUST be updated to the new specific path.
 
-32. **Social Proof & Reputation Filter**: To eliminate "vaporware" and unstable tools:
+33. **Social Proof & Reputation Filter**: To eliminate "vaporware" and unstable tools:
     - **Community Vetting**: Curation agents MUST use **Real-time Web Grounding** to cross-reference new tools with community platforms (Reddit, Hacker News).
     - **Reputation Penalty**: If a project is widely reported as abandoned, unstable, or misleading, the agent MUST apply a significant impact penalty or reject the resource entirely.
     - **Reputation Metadata**: The inventory SHOULD track `reputation_status` (Vetted/Suspicious) and a brief `reputation_summary`.
 
-33. **License & Compliance Guard**: To protect the Open Source integrity of the Nubenetes ecosystem:
+34. **License & Compliance Guard**: To protect the Open Source integrity of the Nubenetes ecosystem:
     - **License Monitoring**: Health agents MUST monitor the `LICENSE` field for all repository resources (GitHub/GitLab).
     - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
     - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
-34. **URL Normalization & Trailing Slash Consistency**: To prevent data duplication and broken navigation:
+35. **URL Normalization & Trailing Slash Consistency**: To prevent data duplication and broken navigation:
     - **No Trailing Slashes**: All agents and workflows MUST ensure that URLs NEVER end with trailing slashes (e.g., `path/` or `path//`).
     - **Zero Slash Policy**: All URLs MUST be normalized to end WITHOUT a trailing slash. If a server redirects to a slashed version, the bot MUST strip it before storage or injection.
     - **Normalization Enforcement**: All URLs MUST be passed through the `normalize_url` engine before storage or comparison to ensure consistency (stripping parameters, social trackers, and ALL trailing slashes).
