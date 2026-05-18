@@ -17,7 +17,7 @@
 ## OpenShift Container Platform 3 (OCP 3)
 
 - [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
-- [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources//)
+- [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources///)
 - [blog.openshift.com: Using OpenShift 3 on your **local environment** 🌟](https://www.redhat.com/en/blog/using-openshift-3-on-your-local-environment/)
 - [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https/)
 - [blog.openshift.com - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life/)
@@ -89,7 +89,7 @@
 
 - [GitHub redhat-cop: OpenShift Toolkit - Quota Management 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management)
 - [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)
-- [techbeatly.com: How to create, increase or decrease project quota](https://www.techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift//#.Xd5OE9WCGUk)
+- [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift///#.Xd5OE9WCGUk)
 - [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)
 - [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)
 
