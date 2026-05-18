@@ -273,21 +273,31 @@ class V2VisionEngine:
 
     async def _rebuild_structure(self, library_inventory: List[Dict]):
         special_rules = {sa["file"]: sa for sa in self.special_assets_rules.get("special_assets", [])}
-        v2_structure = {dim: {"summary": "", "categories": {}} for dim in self.dimensions.keys()}
+        # Change: Map by original file for high granularity
+        v2_structure = {} 
+        
         file_to_dim = {f + ".md": dim for dim, files in self.dimensions.items() for f in files}
 
         for item in library_inventory:
             orig_file = item.get("original_file", "unknown.md")
             dim = file_to_dim.get(orig_file, "Architectural Foundations")
-            cat_name = orig_file.replace(".md", "").replace("-", " ").title()
-            if item.get("is_microservice"): cat_name = "Microservices"; dim = "Architectural Foundations" if orig_file == "introduction.md" else dim
+            
+            # Mandate: High density preservation (Keep almost everything)
             is_special = item.get("is_special", False) or orig_file in special_rules
-            if orig_file == "introduction.md" and item.get("stars", 0) < 4 and not item.get("is_microservice"): continue
-            if not is_special and item.get("stars", 0) < 3 and not item.get("is_microservice"): continue
-            if cat_name not in v2_structure[dim]["categories"]: v2_structure[dim]["categories"][cat_name] = {"__links__": []}
+            if orig_file == "introduction.md" and item.get("stars", 0) < 3 and not item.get("is_microservice"): continue
+            
+            if orig_file not in v2_structure:
+                v2_structure[orig_file] = {
+                    "dim": dim,
+                    "title": orig_file.replace(".md", "").replace("-", " ").title(),
+                    "content": {"__links__": []}
+                }
+            
             hierarchy = item.get("hierarchy", [])
-            if hierarchy and (hierarchy[0] == dim or hierarchy[0] == cat_name): hierarchy = hierarchy[1:]
-            current = v2_structure[dim]["categories"][cat_name]
+            # Skip redundant top-level labels
+            if hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]): hierarchy = hierarchy[1:]
+            
+            current = v2_structure[orig_file]["content"]
             for h_name in hierarchy[:self.max_depth]:
                 if h_name not in current: current[h_name] = {"__links__": []}
                 current = current[h_name]
@@ -296,35 +306,43 @@ class V2VisionEngine:
         def sort_rec(node):
             if "__links__" in node: node["__links__"].sort(key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
             for k, v in node.items():
-                if k != "__links__": sort_rec(v)
-        for dim in v2_structure:
-            for cat in list(v2_structure[dim]["categories"].keys()): sort_rec(v2_structure[dim]["categories"][cat])
-            cache_key = f"INTRO:{dim}"
-            v2_structure[dim]["summary"] = self.inventory.get(cache_key, {}).get("ai_summary", f"Strategic reference for {dim}.")
+                if k != "__links__" and isinstance(v, dict): sort_rec(v)
+                
+        for f_name in v2_structure:
+            sort_rec(v2_structure[f_name]["content"])
+            
         return v2_structure
 
     async def _generate_comparison_table(self, links: List[Dict]) -> str:
-        standard_tools = [l for l in links if l.get("stars", 0) >= 4]
-        if len(standard_tools) < 6: return ""
+        standard_tools = [l for l in links if l.get("stars", 0) >= 3]
+        if len(standard_tools) < 5: return ""
         table = "\n??? abstract \"Architect's Technical Comparison Table\"\n"
         table += "    | Solution | Maturity | Primary Focus | Language | Stars |\n"
         table += "    | :--- | :--- | :--- | :--- | :--- |\n"
-        for l in standard_tools[:12]:
+        for l in standard_tools[:10]:
             stars = "🌟" * l.get("stars", 0)
             focus = l.get("topic", l.get("hierarchy", ["General"])[-1])
             table += f"    | [{l['title'].replace('==','')}]({l['url']}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
         return table + "\n"
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
-        mosaic_html = mosaic_html.replace('src="images/', 'src="images/').replace('](images/', '](images/')
-        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 3], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
+        # 1. Update Index with Pulse
+        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if meta.get("stars", 0) >= 4], key=lambda x: (x.get("pub_date", "0000"), -x.get("stars", 0)), reverse=True)
         pulse_md = "## ⚡ The Agentic Pulse\n" + "\n".join([f"- **({l.get('pub_date', 'N/A')[:10]})** [**=={l['title']}==**]({l['url']}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         index_md = f"# Nubenetes V2 | The High-Density Library (2026)\n\n![Banner](images/kubernetes_logo.jpg)\n\n!!! quote \"The Library of 2026\"\n    Structured like an advanced technical book.\n\n<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n{pulse_md}\n\n## Strategic Dimensions\n"
-        for dim, content in data.items():
-            if not content["categories"]: continue
-            slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
-            index_md += f"- **[{dim}](./{slug}.md)**: {content['summary']}\n"
+        
+        # Group by dimension for index
+        dim_groups = {}
+        for f_name, info in data.items():
+            dim_groups.setdefault(info["dim"], []).append(f_name)
+            
+        for dim in sorted(self.dimensions.keys()):
+            if dim in dim_groups:
+                index_md += f"### {dim}\n"
+                for f in sorted(dim_groups[dim]):
+                    index_md += f"- **[{data[f]['title']}](./{f})**\n"
+        
         with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
 
         def gen_toc(node, depth, base_slug):
@@ -345,6 +363,7 @@ class V2VisionEngine:
                 md += f"{'#' * min(6, depth + 2)} {clean_name}\n\n"
                 if depth == 1 and "__links__" in subnode: md += await self._generate_comparison_table(subnode["__links__"])
                 md += await render_node(subnode, depth + 1, slug, is_intro)
+            
             if "__links__" in node:
                 for l in node["__links__"]:
                     is_gold = is_intro and l.get("stars", 0) >= 4
@@ -353,8 +372,11 @@ class V2VisionEngine:
                         img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
                         md += f"!!! note \"{title}\"\n{img}    **[Access Resource]({l['url']})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
                     else:
-                        date = f"**({l.get('year', 'N/A')})** "
-                        tags = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+                        # Fix NameError: Define year_prefix according to Mandate 17
+                        year = l.get('year', 'N/A')
+                        year_prefix = f"**({year})** " if year != 'N/A' else ""
+                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+                        
                         icon = " 🎥" if l.get("is_video") else ""
                         lang = l.get("language", "English")
                         lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
@@ -366,50 +388,38 @@ class V2VisionEngine:
                         tag = l.get("tag", "[COMMUNITY-TOOL]")
                         color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "info"
                         
-                        # Fix NameError: Define year_prefix according to Mandate 17
-                        year = l.get('year', 'N/A')
-                        year_prefix = f"**({year})** " if year != 'N/A' else ""
-                        gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
-                        
                         md += f"  - {year_prefix}[{title}]({l['url']}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*l.get('stars',0)} <span class='md-tag md-tag--{color}'>{tag}</span>\n"
                         if l.get('ai_summary'): md += f"\n      {l['ai_summary']}\n\n"
             return md
 
-        for dim, content in data.items():
-            if not content["categories"]: continue
-            slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
-            v2_page = f"{slug}.md"
-            def track_v2(node, p):
-                if "__links__" in node:
-                    for l in node["__links__"]:
-                        nu = normalize_url(l["url"])
-                        if nu in self.inventory:
-                            locs = self.inventory[nu].get("v2_locations", [])
-                            if p not in locs: self.inventory[nu].setdefault("v2_locations", []).append(p)
-                for k, v in node.items():
-                    if k != "__links__": track_v2(v, p)
-            for ct in content["categories"].values(): track_v2(ct, v2_page)
-            md = f"# {dim}\n\n!!! info \"Architectural Context\"\n    {content['summary']}\n\n## Table of Contents\n"
-            for cat, topics in content["categories"].items():
-                cat_slug = cat.lower().replace(" ", "-")
-                md += f"- [{cat}](#{cat_slug})\n" + gen_toc(topics, 1, cat_slug)
+        for f_name, info in data.items():
+            md = f"# {info['title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['title']} in the context of {info['dim']}.\n\n## Table of Contents\n"
+            md += gen_toc(info["content"], 0, f_name.replace(".md", ""))
             md += "\n---\n\n"
-            for cat, topics in content["categories"].items():
-                cat_slug = cat.lower().replace(" ", "-")
-                md += f"## {cat}\n\n"
-                if cat == "Introduction":
-                    md += "!!! quote \"Vision 2026\"\n    The focus shifts to agentic autonomy and hardened security.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n### Gateway Hub\n- 🚀 [Explore AI Dimensions](./ai-and-artificial-intelligence.md)\n- 📦 [Microservices Guide](./microservices.md)\n\n"
-                md += await render_node(topics, 0, cat_slug, is_intro=(cat=="Introduction"))
-            with open(os.path.join(V2_DIR, v2_page), "w") as f: f.write(md)
+            
+            if f_name == "introduction.md":
+                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n"
+            
+            md += await render_node(info["content"], -1, f_name.replace(".md", ""), is_intro=(f_name=="introduction.md"))
+            with open(os.path.join(V2_DIR, f_name), "w") as f: f.write(md)
 
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
-            nav = ["nav:", "  - \"The 2026 Vision\": index.md"]
-            for dim in sorted(data.keys()):
-                if data[dim]["categories"]:
-                    slug = dim.lower().replace(" ", "-").replace("&", "and").replace("(", "").replace(")", "")
-                    nav.append(f"  - \"{dim}\": {slug}.md")
+            nav = ["nav:", "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/", "  - \"The 2026 Vision\": index.md"]
+            
+            # Group files by dimension
+            dim_groups = {}
+            for f_name, info in data.items():
+                dim_groups.setdefault(info["dim"], []).append(f_name)
+                
+            for dim in sorted(self.dimensions.keys()):
+                if dim in dim_groups:
+                    dim_nav = [f"  - \"{dim}\":"]
+                    for f in sorted(dim_groups[dim]):
+                        dim_nav.append(f"    - \"{data[f]['title']}\": {f}")
+                    nav.extend(dim_nav)
+                    
             updated = re.sub(r'nav:.*', "\n".join(nav), content, flags=re.DOTALL)
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
         except: pass
