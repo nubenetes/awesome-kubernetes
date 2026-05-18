@@ -11,14 +11,15 @@ on:
         description: 'Activate Identity B (Subscription) as backup/rotation'
         type: boolean
         default: false
-  # Automatic detection: Sync V2 whenever V1 archive is updated (manual or automated)
+  # Automatic detection: Sync V2 whenever V1 archive or inventory is updated
   push:
     branches: [ develop ]
     paths:
       - 'docs/**'
-  # Support automated sync after curation run
+      - 'data/inventory.yaml'
+  # Support automated sync after curation or cleaning runs
   workflow_run:
-    workflows: ["Nubenetes Automated Agentic Curation"]
+    workflows: ["Nubenetes Automated Agentic Curation", "Nubenetes Intelligent Link Cleaner & Dedup"]
     types:
       - completed
 
