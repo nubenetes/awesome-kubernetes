@@ -16,7 +16,9 @@ jobs:
           ref: develop # Operamos sobre develop para usar la lógica de limpieza más reciente
           fetch-depth: 0
 
-      - name: Delete merged branches
+      - name: Delete merged and stale branches
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -24,45 +26,50 @@ jobs:
           echo "Fetching latest changes..."
           git fetch --prune
           
-          echo "Identifying branches merged into develop..."
-          # Get remote branches merged into origin/develop
-          # Filter out protected branches: master, develop, gh-pages, and the HEAD pointer
-          branches=$(git branch -r --merged origin/develop | grep -vE 'origin/(master|develop|gh-pages|HEAD)' | sed 's/.*origin\///')
-          
-          if [ -z "$branches" ]; then
-            echo "No merged branches to clean up."
-            exit 0
-          fi
-          
-          for branch in $branches; do
-            echo "Deleting remote branch: $branch"
-            git push origin --delete "$branch"
-          done
-
-          echo "---"
-          echo "Identifying stale unmerged branches (no activity for 30 days)..."
-          # Get all remote branches with their last commit date
-          # Format: authordate:iso8601 refname:short
           current_date=$(date +%s)
           stale_seconds=$((30 * 24 * 60 * 60)) # 30 days
           
-          git for-each-ref --format='%(authordate:unix) %(refname:short)' refs/remotes/origin | while read last_commit_unix branch_full; do
-            branch=$(echo "$branch_full" | sed 's/origin\///')
+          echo "Auditing remote branches..."
+          # Get all remote branches (excluding protected ones)
+          branches=$(git branch -r | grep -vE 'origin/(master|develop|gh-pages|HEAD)' | sed 's/.*origin\///')
+          
+          for branch in $branches; do
+            echo "[*] Checking branch: $branch"
             
-            # Skip protected branches and HEAD
-            if [[ "$branch" =~ ^(master|develop|gh-pages|HEAD)$ ]]; then
+            # 1. Check if it's merged into develop (Git check)
+            if git branch -r --merged origin/develop | grep -q "origin/$branch"; then
+              echo "  [+] Branch is merged in git. Deleting..."
+              git push origin --delete "$branch"
               continue
             fi
             
-            # Skip branches that were just identified as merged (avoid double attempt)
-            if [[ " $branches " =~ " $branch " ]]; then
-              continue
+            # 2. Check PR status via GitHub CLI
+            # Returns state (OPEN, CLOSED, MERGED) and PR number
+            pr_info=$(gh pr list --head "$branch" --state all --json state,number --jq '.[0] | "\(.state) \(.number)"' 2>/dev/null || echo "")
+            
+            if [ -n "$pr_info" ] && [ "$pr_info" != "null null" ]; then
+              state=$(echo "$pr_info" | cut -d' ' -f1)
+              number=$(echo "$pr_info" | cut -d' ' -f2)
+              
+              if [ "$state" == "OPEN" ]; then
+                echo "  [-] Skipping: Open PR found (#$number)"
+                continue
+              elif [ "$state" == "CLOSED" ] || [ "$state" == "MERGED" ]; then
+                echo "  [+] Deleting: Associated PR #$number is $state"
+                git push origin --delete "$branch"
+                continue
+              fi
             fi
             
+            # 3. If no PR, check stale inactivity (30 days)
+            last_commit_unix=$(git log -1 --format=%at "origin/$branch")
             age=$((current_date - last_commit_unix))
+            
             if [ "$age" -gt "$stale_seconds" ]; then
               last_date=$(date -d "@$last_commit_unix" +"%Y-%m-%d")
-              echo "Deleting stale branch: $branch (Last commit: $last_date)"
-              git push origin --delete "$branch" || echo "Could not delete $branch (might be protected or already gone)"
+              echo "  [+] Deleting stale branch (No PR, Inactive since $last_date)"
+              git push origin --delete "$branch"
+            else
+              echo "  [-] Keeping: Active branch (No PR, last commit less than 30 days ago)"
             fi
           done
