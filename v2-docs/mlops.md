@@ -1,0 +1,91 @@
+# Mlops
+
+!!! info "Architectural Context"
+    Detailed reference for Mlops in the context of AI and Artificial Intelligence.
+
+## Table of Contents
+
+---
+
+  - [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://opensource.microsoft.com/blog/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rubrix](https://github.com/argilla-io/argilla)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphore.io/blog/devops-ml-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.microsoft.com: MLflow and Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlflow?view=azureml-api-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Nix](https://nix.dev/manual/nix/2.28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/meta-llama/llama-recipes](https://github.com/meta-llama/llama-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-LMC-Lab/FastSAM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/VikParuchuri/surya](https://github.com/datalab-to/surya)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dafriedman97.github.io: Machine Learning from Scratch](https://dafriedman97.github.io/mlbook/content/introduction.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github: A very Long never ending Learning around Data Engineering & Machine Learning](https://github.com/abhishek-ch/around-dataengineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: A Kubernetes architecture for machine learning web-application deployments](https://towardsdatascience.com/a-kubernetes-architecture-for-machine-learning-web-application-deployments-632f7765ef29)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: How to use a machine learning model from a Google Sheet using BigQuery ML](https://cloud.google.com/blog/topics/developers-practitioners/how-use-machine-learning-model-google-sheet-using-bigquery-ml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Building ML Componentes on Kubernetes](https://itnext.io/building-ml-componentes-on-kubernetes-fc7e24cb9269)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Deploying An ML Model With FastAPI — A Succinct Guide](https://towardsdatascience.com/deploying-an-ml-model-with-fastapi-a-succinct-guide-69eceda27b21)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Automatically Generate Machine Learning Code with Just a Few Clicks](https://towardsdatascience.com/automatically-generate-machine-learning-code-with-just-a-few-clicks-7901b2334f97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Schemafull streaming data processing in ML pipelines](https://towardsdatascience.com/using-kafka-with-avro-in-python-da85b3e0f966)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mikeroyal/Kubernetes-Guide: Machine Learning 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md#machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: From Jupyter Notebooks to Real-life: MLOps 🌟](https://towardsdatascience.com/from-jupyter-notebooks-to-real-life-mlops-9f590a7b5faa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [huyenchip.com: Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learn.microsoft.com: Machine Learning operations maturity model 🌟](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Deploying LLM Apps to AWS, the Open-Source Self-Service Way](https://towardsdatascience.com/deploying-llm-apps-to-aws-the-open-source-self-service-way-c54b8667d829)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [axelmendoza.com: The Ultimate Guide To ML Model Deployment In 2024](https://www.axelmendoza.com/posts/ml-model-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: Build Machine Learning Pipelines with Airflow and Mlflow: Reservation Cancellation Forecasting](https://towardsdatascience.com/build-machine-learning-pipelines-with-airflow-and-mlflow-reservation-cancellation-forecasting-da675d409842)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [marvelousmlops.substack.com: Learn Machine Learning and Neural Networks without Frameworks](https://www.freecodecamp.org/news/learn-machine-learning-and-neural-networks-without-frameworks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to/pavanbelagatti: Deploy Any AI/ML Application On Kubernetes: A Step-by-Step Guide!](https://dev.to/pavanbelagatti/deploy-any-aiml-application-on-kubernetes-a-step-by-step-guide-2i37)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: MLOps Course – Learn to Build Machine Learning Production Grade Projects](https://www.freecodecamp.org/news/mlops-course-learn-to-build-machine-learning-production-grade-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [roadmap.sh: MLOps roadmap](https://roadmap.sh/r?id=65a112f2b8633950ffcf38b6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ray](https://docs.ray.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Union Cloud](https://www.union.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript) 🌟🌟🌟](https://www.union.ai/blog-post/machine-learning-in-production)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [union.ai: Production-Grade ML Pipelines: Flyte™ vs. Kubeflow](https://www.union.ai/blog-post/production-grade-ml-pipelines-flyte-vs-kubeflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Deploy Convolutional Neural Network (CNN) on Azure with Python | Deep Learning Deployment | MLOPS](https://www.youtube.com/watch?v=6sqGxVI3X1w)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learn.microsoft.com: Azure Well-Architected Framework perspective on Azure Machine Learning](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: KServe: A Robust and Extensible Cloud Native Model Server](https://thenewstack.io/kserve-a-robust-and-extensible-cloud-native-model-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsvidhya.com: Bring DevOps To Data Science With MLOps](https://www.analyticsvidhya.com/blog/2021/04/bring-devops-to-data-science-with-continuous-mlops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsindiamag.com: Is coding necessary to work as a data scientist?](https://analyticsindiamag.com/is-coding-necessary-to-work-as-a-data-scientist)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/helm-charts/gpu-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [huggingface.co: Implementing Fractional GPUs in Kubernetes with Aliyun Scheduler](https://huggingface.co/blog/NileshInfer/implementing-fractional-gpus-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bodywork-ml/bodywork-core: Bodywork](https://github.com/bodywork-ml/bodywork-core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DVC](https://marketplace.visualstudio.com/items?itemName=Iterative.dvc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [postgresml/postgresml 🌟](https://github.com/postgresml/postgresml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [vaex.io](https://vaex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/aimhubio/aim](https://github.com/aimhubio/aim)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/XuehaiPan/nvitop 🌟](https://github.com/XuehaiPan/nvitop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/Netflix/metaflow 🌟](https://github.com/Netflix/metaflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zenml.io: ZenML](https://www.zenml.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fepegar/vesseg](https://github.com/fepegar/vesseg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS](https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dair-ai/ML-Course-Notes: ML Course Notes 🌟](https://github.com/dair-ai/ML-Course-Notes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kaggle Competitions](https://www.kaggle.com/competitions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
