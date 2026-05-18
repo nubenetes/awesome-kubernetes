@@ -39,7 +39,7 @@
 - [pixelstech.net: Update & Delete Kubernetes resources in one-line command](https://www.pixelstech.net/article/1604225312-Update-&amp-Delete-Kubernetes-resources-in-one-line-command)
 - [opensource.com: 5 useful ways to manage Kubernetes with kubectl](https://opensource.com/article/21/7/kubectl) Learn kubectl to enhance how you interact with Kubernetes.
 - [hackerxone.com: How to Manage Single & Multiple Kubernetes Clusters using kubectl & kubectx in Linux](https://www.hackerxone.com/2021/07/10/how-manage-single-multiple-kubernetes-clusters-using-kubectl-kubectx-linux///)
-- [Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere///) This tutorial shows you how to expose your private Kubernetes API server to the Internet, so that you can manage your cluster from anywhere, just like you would with a cloud offering.
+- [Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere////) This tutorial shows you how to expose your private Kubernetes API server to the Internet, so that you can manage your cluster from anywhere, just like you would with a cloud offering.
 - [medium: One CKA/CKAD/CKS requirement: Mastering Kubectl](https://medium.com/nerd-for-tech/one-cka-ckad-cks-requirement-mastering-kubectl-85486bc0a3aa)
 - [medium: Replication Controller Vs ReplicaSets in Kubernetes](https://medium.com/geekculture/replication-controller-vs-replicasets-in-kubernetes-7b780e4d09d5) Learn why we need replication and how replication works in Kubernetes. Scale the application using the kubectl scale command.
 - [dev.to: Open a command prompt in a Kubernetes cluster](https://dev.to/eldadak/open-a-command-prompt-in-a-kubernetes-cluster-206g) This starts up a pod (in the default namespace by default) and opens a command line in the given container. As I'm running as root, I can install anything I need for debugging and testing right in my cluster.
@@ -60,7 +60,7 @@
 - [medium.com/codex: Kubectl Output 101](https://medium.com/codex/kubectl-output-101-851f8e61fd51) Cheatsheet & examples of using kubectl get -o
 - [medium.com/geekculture: kubectl — Best Practices](https://medium.com/geekculture/kubectl-best-practices-c4ff809167dd)
 - [==learnitguide.net: How to Create ConfigMap from Properties File Using K8s Client==](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html)
-- [shardul.dev: Most Useful kubectl Plugins](https://shardul.dev/most-useful-kubectl-plugins///) In this article, you will have a look at the following kubectl plugins:
+- [shardul.dev: Most Useful kubectl Plugins](https://shardul.dev/most-useful-kubectl-plugins////) In this article, you will have a look at the following kubectl plugins:
     - neat
     - view-secret
     - access-matrix
@@ -82,7 +82,7 @@
 
 ## Kubectl explain
 
-- [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain///)
+- [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain////)
 - [==itnext.io: Using ‘kubectl explain’ for Custom Resources==](https://itnext.io/understanding-kubectl-explain-9d703396cc8) Goal: Explore if ‘kubectl explain’ can be used to discover static information about Custom Resources
 
 ```for r in $(kubectl api-resources|grep -v ^N|awk '{print $1}');do kubectl explain $r --recursive;done```
@@ -93,7 +93,7 @@
 
 ## Kubectl Autocomplete
 
-- [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/quick-reference///)
+- [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/quick-reference////)
 - [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3)
 - [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/expertise/cloud)
 - [complete-alias](https://github.com/cykerway/complete-alias) Automagical shell alias completion.
@@ -114,7 +114,7 @@ complete -F __start_kubectl k
   - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command/) - *(Related to kubernetes-tools topic)*
 
 - [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03) In this article, we will look at the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
-- [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl///) This article compares `kubectl exec` and SSH and discusses their strengths and weaknesses
+- [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl////) This article compares `kubectl exec` and SSH and discusses their strengths and weaknesses
 
 ## kubectl scale
 
@@ -158,7 +158,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ## Buildkit CLI for kubectl a drop in replacement for docker build
 
-- [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl///) With BuildKit CLI for kubectl a drop in replacement for docker build. In this post, you will learn how to build container images with BuildKit CLI for kubectl (a replacement for the `docker build` command)
+- [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl////) With BuildKit CLI for kubectl a drop in replacement for docker build. In this post, you will learn how to build container images with BuildKit CLI for kubectl (a replacement for the `docker build` command)
 - [vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)](https://github.com/vmware-archive/buildkit-cli-for-kubectl) BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster.
 
 ## Kubectl Alternatives
@@ -168,7 +168,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module
 
-- [Manage Kubernetes (K8s) objects](https://docs.ansible.com/ansible/latest/collections/kubernetes/core/k8s_module.html)
+- [Manage Kubernetes (K8s) objects](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/k8s_module.html)
 - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com/)
 
 ### Jenkins Kubernetes Plugins
