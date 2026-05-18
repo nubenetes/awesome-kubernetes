@@ -77,7 +77,7 @@ def get_stats():
 
     # 6. Annual Growth
     annual_raw = run_command("git log --format='%ad' --date=format:'%Y' | sort | uniq -c")
-    annual_rows = ["| Year | Commits | Est. New Refs | Key Milestone |", "| :---: | :---: | :---: | :--- |"]
+    annual_rows = ["| # | Year | Commits | Est. New Refs | Key Milestone |", "| :---: | :---: | :---: | :---: | :--- |"]
     milestones = {
         "2018": "**Munich Era (BMW IT-Zentrum)**",
         "2019": "Early Growth and Open Source Launch",
@@ -89,14 +89,23 @@ def get_stats():
         "2025": "Stability & Research Phase",
         "2026": "**Agentic AI Surge** (May 2026 Inception)"
     }
-    for line in sorted(annual_raw.split('\n'), reverse=True):
+    
+    # Parse and sort chronologically (ascending)
+    growth_data = []
+    for line in annual_raw.split('\n'):
         if line.strip():
             parts = line.strip().split()
             if len(parts) >= 2:
-                count, year = parts[0], parts[1]
-                est_refs = int(int(count) * 4.13)
-                milestone = milestones.get(year, "Continuing Evolution")
-                annual_rows.append(f"| {year} | {count} | {est_refs:,} | {milestone} |")
+                growth_data.append({"count": parts[0], "year": parts[1]})
+    
+    growth_data.sort(key=lambda x: x["year"])
+    
+    for idx, item in enumerate(growth_data, 1):
+        year = item["year"]
+        count = item["count"]
+        est_refs = int(int(count) * 4.13)
+        milestone = milestones.get(year, "Continuing Evolution")
+        annual_rows.append(f"| {idx} | {year} | {count} | {est_refs:,} | {milestone} |")
 
     # 7. Monthly Surge (2026)
     monthly_raw = run_command("git log --format='%ad' --date=format:'%Y-%m' | grep '2026' | sort | uniq -c")

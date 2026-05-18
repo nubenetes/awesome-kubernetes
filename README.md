@@ -135,7 +135,7 @@ Nubenetes is one of the most comprehensive archives in the ecosystem, featuring 
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15193+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4569+** |
+| **Total Commits** | **4570+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -153,17 +153,17 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 
 #### Annual Growth Summary
 <!-- ANNUAL_GROWTH_START -->
-| Year | Commits | Est. New Refs | Key Milestone |
-| :---: | :---: | :---: | :--- |
-| 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
-| 2020 | 2046 | 8,449 | **The Great Expansion** (Global Pandemic/Remote Era) |
-| 2026 | 1010 | 4,171 | **Agentic AI Surge** (May 2026 Inception) |
-| 2021 | 531 | 2,193 | Maturity and Standardization |
-| 2022 | 402 | 1,660 | Cloud Native Hardening |
-| 2019 | 142 | 586 | Early Growth and Open Source Launch |
-| 2024 | 53 | 218 | Curation Strategy Pivot |
-| 2023 | 30 | 123 | Maintenance & Refinement |
-| 2025 | 5 | 20 | Stability & Research Phase |
+| # | Year | Commits | Est. New Refs | Key Milestone |
+| :---: | :---: | :---: | :---: | :--- |
+| 1 | 2018 | 350 | 1,445 | **Munich Era (BMW IT-Zentrum)** |
+| 2 | 2019 | 142 | 586 | Early Growth and Open Source Launch |
+| 3 | 2020 | 2046 | 8,449 | **The Great Expansion** (Global Pandemic/Remote Era) |
+| 4 | 2021 | 531 | 2,193 | Maturity and Standardization |
+| 5 | 2022 | 402 | 1,660 | Cloud Native Hardening |
+| 6 | 2023 | 30 | 123 | Maintenance & Refinement |
+| 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
+| 8 | 2025 | 5 | 20 | Stability & Research Phase |
+| 9 | 2026 | 1011 | 4,175 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 #### 2026: The Agentic Monthly Surge
@@ -171,7 +171,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 985 | 4,068 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 986 | 4,072 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
