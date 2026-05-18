@@ -32,7 +32,7 @@
 - [Documentation: Crunchy Data Container Suite 🌟](https://access.crunchydata.com/documentation/crunchy-postgres-containers/latest)
 - [crunchydata blog: Deploying Active-Active PostgreSQL on Kubernetes](https://www.crunchydata.com/blog/active-active-on-kubernetes)
 - [crunchydata blog: What's New in Crunchy PostgreSQL Operator 4.0](https://www.crunchydata.com/blog/crunchy-postgres-kubernetes-operator-4.0)
-- [slideshare.net: Deploying PostgreSQL on Kubernetes](https://www.slideshare.net/vyruss000/deploying-postgresql-on-kubernetes)
+- [slideshare.net: Deploying PostgreSQL on Kubernetes](https://www.slideshare.net/slideshow/deploying-postgresql-on-kubernetes/130351662)
 - [slideshare.net: Operating PostgreSQL at Scale with Kubernetes](https://www.slideshare.net/slideshow/operating-postgresql-at-scale-with-kubernetes-137132067/137132067)
 - [Youtube: Demo of Crunchy Data Postgres Operator v1.0.0 (2017)](https://www.youtube.com/watch?v=HX10WWTRiTY)
 - [Youtube: Crunchy PostgreSQL Operator for Kubernetes 3.4 Overview (2018)](https://www.youtube.com/watch?v=gaXlrlz7GVc)
