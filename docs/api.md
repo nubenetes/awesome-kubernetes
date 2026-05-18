@@ -43,14 +43,14 @@
 ## APIs
 
 - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)
-- [postman.com: What is an API?](https://www.postman.com/what-is-an-api/)
+- [postman.com: What is an API?](https://www.postman.com/what-is-an-api//)
 - [==github.com/public-apis/public-apis: Try Public APIs for free== 🌟](https://github.com/public-apis/public-apis) **A collective list of free APIs. Explore popular APIs and see them work in Postman.**
 - [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api/)
 - [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management)
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
 - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
 - [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
-- [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway//)
+- [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway///)
 - [redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟](https://www.redhat.com/en/blog/apis-soap-rest-graphql-grpc) There are many strategies for data exchange. Here's a primer on four essentials.
 - [amazicworld.com: Why APIs can’t be missed when it comes to DevOps](https://amazicworld.com/why-apis-cant-be-missed-when-it-comes-to-devops/)
 - [medium: API Gateway Part 1](https://medium.com/easyread/api-gateway-part-1-7901ba703f9) Understanding how API Gateway Works
@@ -63,8 +63,8 @@
 - [abdulrwahab.medium.com: API Architecture — Design Best Practices for REST APIs](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f)
 - [blog.bitsrc.io: API vs Microservices — Are you using 2 terms for the same concept?](https://blog.bitsrc.io/api-vs-microservices-are-you-using-2-terms-for-the-same-concept-b51f13f5974e) No, you’re not, but let me explain
 - [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f)
-- [troyhunt.com: Your API versioning is wrong, which is why I decided to do it 3 different wrong ways](https://www.troyhunt.com/your-api-versioning-is-wrong-which-is//)
-- [infoq.com: A Standardized, Specification-Driven API Lifecycle](https://www.infoq.com/articles/Standardized-Specification-Driven-API-Lifecycle//)
+- [troyhunt.com: Your API versioning is wrong, which is why I decided to do it 3 different wrong ways](https://www.troyhunt.com/your-api-versioning-is-wrong-which-is///)
+- [infoq.com: A Standardized, Specification-Driven API Lifecycle](https://www.infoq.com/articles/Standardized-Specification-Driven-API-Lifecycle///)
 - [levelup.gitconnected.com: What’s Wrong With Your CRUD APIs— Besides Everything?](https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a) So… I heard you worship CRUDy REST interfaces.
 - [==dzone: Exploring the API-First Design Pattern==](https://dzone.com/articles/exploring-the-api-first-design-pattern) Learn how the API-first design pattern is a carbon copy of the successful writing approach that John Vester has leveraged for several years.
 - [genbeta.com: Hace 20 años, este correo de Jeff Bezos en Amazon cambió para siempre la forma en que programamos apps](https://www.genbeta.com/desarrollo/hace-22-anos-este-correo-jeff-bezos-amazon-cambio-para-siempre-forma-que-programamos-apps) Un aspecto fundamental del valor de una API reside en su 'efecto red': siendo un conjunto de 'bloques de construcción digitales', cuanto mayor sea el número de funcionalidades que proporcione más cosas valiosas permitirá crear. El texto completo de la ya conocida como 'API Mandate' ('Orden API') es el siguiente:
@@ -74,20 +74,20 @@
     - No importa qué tecnología utilicéis: HTTP, Corba, Pubsub, protocolos personalizados? da igual.
     - Todas las interfaces de servicio, sin excepción, deberán diseñarse desde cero para que sean externalizables. Es decir, el equipo debe planificar y diseñar para poder exponer la interfaz a los desarrolladores en el mundo exterior. Sin excepciones.
     - Cualquiera que no haga esto será despedido.
-- [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance//) With APIs popping up everywhere, API strategy demands common design patterns, central discoverability, and putting users first.
+- [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance///) With APIs popping up everywhere, API strategy demands common design patterns, central discoverability, and putting users first.
 - [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
 - [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself. In this guide Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
-- [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document//)
+- [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document///)
 - [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723) Deprecate your old APIs with the consciousness of your users
 - [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) Discover how to choose the right communication style for your microservices in this exploration of two common protocols.
 - [medium.com/@ezinneanne: Best API documentation tools you need](https://medium.com/@ezinneanne/best-api-documentation-tools-you-need-cf3ef2c47e89)
 - [==freecodecamp.org: Public APIs Developers Can Use in Their Projects==](https://www.freecodecamp.org/news/public-apis-for-developers/)
 - [==blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs. SOAP==](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/)
-- [postman.com: API versioning](https://www.postman.com/api-platform/api-versioning//) Learn how API versioning enables teams to make changes to their API without creating problems for consumers.
+- [postman.com: API versioning](https://www.postman.com/api-platform/api-versioning///) Learn how API versioning enables teams to make changes to their API without creating problems for consumers.
 
 ## From RESTful to Event-Driven APIs
 
-- [foojay.io: The Evolution of APIs: From RESTful to Event-Driven](https://foojay.io/today/the-evolution-of-apis-from-restful-to-event-driven//)
+- [foojay.io: The Evolution of APIs: From RESTful to Event-Driven](https://foojay.io/today/the-evolution-of-apis-from-restful-to-event-driven///)
 
 ## API Gateway vs. Load Balancer: What's The Difference?
 
@@ -103,7 +103,7 @@
 
 ## Motivation
 
-- [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors//) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure.
+- [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors///) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure.
 - [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html)
 
 ## State of the API Report
@@ -125,8 +125,8 @@
 ### SOAP API Protocol (Simple Object Access Protocol)
 
 - [wikipedia: SOAP](https://en.wikipedia.org/wiki/SOAP)
-- [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol//)
-- For information about the latest work on SOAP and a full list of SOAP specifications refer to the [W3C Technical Reports](https://www.w3.org/TR//)
+- [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol///)
+- For information about the latest work on SOAP and a full list of SOAP specifications refer to the [W3C Technical Reports](https://www.w3.org/TR///)
 - [guru99.com: SOAP Web Services Tutorial: Simple Object Access Protocol. What is SOAP?](https://www.guru99.com/soap-simple-object-access-protocol.html)
 - [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java/)
 - [dzone: Creating a SOAP Web Service With Spring Boot Starter Web Services](https://dzone.com/articles/creating-a-soap-web-service-with-spring-boot-start) In this post, we cover the concepts of SOAP and REST and show you all the code you need to use SOAP web services in a Spring Boot app.
@@ -134,8 +134,8 @@
 ### REST API Protocol (Representational State Transfer)
 
 - [wikipedia: REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
-- [geeksforgeeks.org: REST API (Introduction)](https://www.geeksforgeeks.org/node-js/rest-api-introduction//)
-- [geeksforgeeks.org: REST API Architectural Constraints](https://www.geeksforgeeks.org/javascript/rest-api-architectural-constraints//)
+- [geeksforgeeks.org: REST API (Introduction)](https://www.geeksforgeeks.org/node-js/rest-api-introduction///)
+- [geeksforgeeks.org: REST API Architectural Constraints](https://www.geeksforgeeks.org/javascript/rest-api-architectural-constraints///)
 - [mulesoft.com: What is a RESTful API?](https://www.mulesoft.com/api/rest/what-is-rest-api)
 - [Dzone refcard: Foundations of **RESTful Architecture** 🌟](https://dzone.com/refcardz/rest-foundations-restful)
 - [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials)
@@ -179,7 +179,7 @@
 - [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
 - [The State of Real-Time Web in 2016](https://banksco.de/p/state-of-realtime-web-2016.html)
 - [SPDY and WebSocket Support at Akamai](https://blogs.akamai.com/2012/07/spdy-and-websocket-support-at-akamai.html)
-- [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets/) Welcome to another installment of You May Not Need Another Library For That (YMNNALFT)!
+- [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets//) Welcome to another installment of You May Not Need Another Library For That (YMNNALFT)!
 - [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) Understand the important attributes of WebSockets that every developer should know
 - [==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and Performance==](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab) With the big push to use Step Functions over Lambda, you might be wondering “which is more cost-effective”? The answer might surprise you.
     - There are use cases for both, but the consensus for production development lives with a hybrid approach: performing a base set of actions synchronously, like validations and id creation **and kicking off the rest of the processing asynchronously**. You’d then [use a WebSocket](https://betterprogramming.pub/introduction-to-aws-websockets-8b336a92c379) to inform the user when the workflow is complete.
@@ -193,8 +193,8 @@
 #### AsyncAPI
 
 - [AsyncAPI](https://www.asyncapi.com/) Building the future of event-driven architecture. Open source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.
-- [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures//)
-- [microcks.io: Simulating CloudEvents with AsyncAPI and Microcks](https://microcks.io/blog/simulating-cloudevents-with-asyncapi//)
+- [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures///)
+- [microcks.io: Simulating CloudEvents with AsyncAPI and Microcks](https://microcks.io/blog/simulating-cloudevents-with-asyncapi///)
     - The rise of Event Driven Architecture (EDA) is a necessary evolution step towards cloud-native applications. Events are the ultimate weapon to decouple your microservices within your architecture. They are bringing great benefits like space and time decoupling, better resiliency and elasticity.
     - But events come also with challenges! One of the first you are facing when starting up as a development team - aside the technology choice - is how to describe these events structure? Another challenge that comes very quickly after being: How can we efficiently work as a team without having to wait for someone else’s events?
     - We’ll explore those particular two challenges and see how to simulate events using CloudEvents, AsyncAPI and Microcks.
@@ -214,7 +214,7 @@
 
 ### SOAP vs REST
 
-- [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/websites-apps/difference-between-rest-api-and-soap-api//)
+- [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/websites-apps/difference-between-rest-api-and-soap-api///)
 - [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) Learn the primary differences between REST and SOAP APIs, each one's benefits, and when it's appropriate to use the two.
 - [dzone: Comparing RESTful APIs and SOAP APIs Using MuleSoft as an Example](https://dzone.com/articles/comparing-restful-apis-and-soap-apis)
 - [reply.com: Web Services: SOAP and REST - A Simple Introduction](https://www.reply.com/solidsoft-reply/en/content/webservices-soap-and-rest-a-simple-introduction)
@@ -246,7 +246,7 @@
 - [blog.testproject.io: Top 10 API Testing Tools to Watch in 2020 🌟](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
 - [mockoon 🌟](https://mockoon.com/) Create mock APIs in seconds. Mockoon is the easiest and quickest way to run mock API locally. No remote deployment, no account required, open source.
 - [mockapy](https://pythonium.net/mockapy) Create mock APIs from a JSON object and customize their behavior using a Python rule engine. Open source.
-- [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications//)
+- [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications///)
 - [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)
 - [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101/)
 - [microcks.io 🌟](https://microcks.io/) Open source Kubernetes Native tool for API Mocking and Testing. If you are looking for a tool that helps in microservices API testing on Kubernetes it is worth taking a look at microcksio. It supports OpenAPI 3 and e.g. Kafka with [Avro encoding](https://microcks.io/documentation/guides/avro-messaging/)
@@ -259,7 +259,7 @@
 - [GraphQL](https://graphql.org/) A query language for your API
 - [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) How are screws better than nails? Both are useful tools that solve similar problems in slightly different ways. OpenAPI Specification offers a declarative contract that defines the structure of API requests and responses as discrete operations. GraphQL prefers an interface style that is more like querying a database and is best suited to graph databases.
 - [Hasura Launches Beta of GraphQL-Based Remote Joins Tool](https://devops.com/hansura-launches-beta-of-graphql-based-remote-joins-tool/)
-- [thenewstack.io: Why Backend Developers Should Fall in Love with GraphQL too](https://thenewstack.io/why-backend-developers-should-fall-in-love-with-graphql-too//)
+- [thenewstack.io: Why Backend Developers Should Fall in Love with GraphQL too](https://thenewstack.io/why-backend-developers-should-fall-in-love-with-graphql-too///)
 - [blog.dream11engineering.com: Lessons learned from running GraphQL at scale](https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb)
 - [world.hey.com: Another REST vs GraphQL comparison](https://world.hey.com/sammy.henningsson/another-rest-vs-graphql-comparison-8e8357bb)
 - [medium.datadriveninvestor.com: Everything You Wanted to Know About GraphQL (But Were Afraid to Ask)](https://medium.datadriveninvestor.com/everything-you-wanted-to-know-about-graphql-but-were-afraid-to-ask-ad66980116cb) API’s are Everywhere now. So, modern developers need an efficient Query Language, GraphQL. Learn everything about this query language used by Twitter, Facebook, Github, Shopify, Pinterest and thousands more.
@@ -282,14 +282,14 @@
 - [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security/)
 - [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security) Application programming interfaces are critical to businesses. Tech leaders must do more to protect them.
 - [portswigger.net: Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/)
-- [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook//)
+- [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook///)
 - [==medium.com/@sajjadfazlani: How to protect your APIs and Microservices?== 🌟](https://medium.com/@sajjadfazlani/how-to-protect-your-apis-and-microservices-f22b99ce2322) **The simplest answer is to enforce 1) Zero Trust and 2) Mitigate the critical security vulnerabilities by considering the OWASP top 10 recommendations.**
 
 ## Free Web Services (Public APIs)
   - [Public APIs Directory](https://publicapis.io/) - A curated directory of over 1000 free public REST APIs for developers to discover and integrate into their projects. It allows browsing by category, comparing alternatives, and accessing code examples.
 
 - [free-web-services.com](http://free-web-services.com/)
-- [SwaggerHub: Free Web Service](https://swagger.io/product//)
+- [SwaggerHub: Free Web Service](https://swagger.io/product///)
 - [programmableweb.com](https://www.programmableweb.com/)
 - [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection/)
 - [Rapid API](https://rapidapi.com/)
@@ -297,20 +297,20 @@
 ## Open Banking
 
 - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)
-- [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector//)
+- [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector///)
 
 ## RPA
 
-- [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices//)
+- [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices///)
 
 ## API Ops
 
-- [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy//) **Platform Ops Is API Ops**
+- [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy///) **Platform Ops Is API Ops**
 
 ## Related
   - [Cerebras AI](https://www.cerebras.ai/) - *(Related to ai topic)*
 
-- [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh//)
+- [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh///)
 - [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)
 - [Dzone: Step-By-Step Spring Boot RESTful Web Service Complete Example](https://dzone.com/articles/spring-boot-restful-web-service-complete-example)
 - [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/)
@@ -322,11 +322,11 @@
 ## Video APIs
 
 - [Mux: The API to Video](https://www.mux.com//)
-    - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat//)
+    - [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat///)
 
 ## API Business Models
 
-- [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models//)
+- [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models///)
 
 ## Videos
 
@@ -346,7 +346,7 @@
 
 	[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
 
-	[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models//)
+	[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models///)
 
 	![gRPC vs REST vs GraphQL comparison](images/grpc_vs_rest_vs_graphql.png)
 
