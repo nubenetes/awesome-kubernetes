@@ -30,7 +30,7 @@
 - [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
 - [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 - [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://www.redhat.com/en/blog/deploying-jenkins-on-openshift-part-1/)
-- [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift///)
+- [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift////)
 - [developers.redhat.com: An easier way to create custom Jenkins containers in OpenShift 4 🌟](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers/) Create your own custom Jenkins container image by aggregating readily available containers in a pod template.
 
 ### Jenkins Container Images in OpenShift
@@ -51,7 +51,7 @@
 ### OpenShift Pipelines with Build Config
 
 - [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)
-- [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
+- [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https://www.slideshare.net/slideshow/openshift-container-platform-cicd-build-deploy/112420154)
 
 ### OpenShift Pipelines with S2i
 
@@ -104,7 +104,7 @@
 
 ### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes & OpenShift Plugins
 
-- [Eclipse JKube 🌟](https://eclipse.dev/jkube///) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of Maven and Gradle plugins, and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
+- [Eclipse JKube 🌟](https://eclipse.dev/jkube////) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of Maven and Gradle plugins, and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
 - [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube)
 
 ### Jenkins Pipelines with OpenShift 3
@@ -115,7 +115,7 @@
 ### OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax
 
 - [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin):
-    - [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax///): 
+    - [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax////): 
         - **Version 2.5 of the "Pipeline plugin" released in 2016/05/16 introduces support for Declarative Pipeline syntax**.
         - Declarative Pipeline is a relatively recent addition to Jenkins Pipeline which presents a more simplified and opinionated syntax on top of the Pipeline sub-systems. 
     - **Jenkinsfiles have only become an integral part of Jenkins since version 2** but they have quickly become the de-facto standard for building continuous delivery pipelines with Jenkins. **Jenkinsfile allows defining pipelines as code using a Groovy DSL syntax** and checking it into source version control which allows you to track, review, audit, and manage the lifecycle of changes to the continuous delivery pipelines the same way that you manage the source code of your application. 
