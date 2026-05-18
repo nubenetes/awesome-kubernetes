@@ -80,6 +80,7 @@ markdown_extensions:
   - pymdownx.mark
 
 nav:
+  - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/
   - "The 2026 Vision": index.md
   - "Architectural Foundations": architectural-foundations.md
   - "Data & Advanced Analytics": data-and-advanced-analytics.md
