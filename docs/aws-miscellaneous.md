@@ -81,7 +81,7 @@
 
 - [AWS Partner Network](https://aws.amazon.com/partners)
     - [APN Technology Partners](https://aws.amazon.com/partners/paths)
-    - [APN Consulting Partners](https://aws.amazon.com/partners/consulting)
+    - [APN Consulting Partners](https://aws.amazon.com/partners/paths)
 - [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn)
     - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium)
     - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst)

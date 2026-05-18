@@ -681,7 +681,7 @@
 ## IaC with PowerShell DSC Desired State Configuration
 
 - [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1)
-- [docs.microsoft.com: Using configuration data in DSC](https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1/configurations/configData)
+- [docs.microsoft.com: Using configuration data in DSC](https://learn.microsoft.com/en-us/powershell/dsc/overview/decisionmaker?view=dsc-1.1&viewFallbackFrom=dsc-1.1%2Fconfigurations%2Fconfigdata)
 - [octopus.com: Getting started with PowerShell Desired State Configuration (DSC)](https://octopus.com/blog/getting-started-with-powershell-dsc) PowerShell DSC is an Infrastructure as Code (IaC) technology that uses PowerShell to create Managed Object Format (MOF) files, which Windows Management Instrumentation (WMI) can use to configure a machine. In other words, PowerShell DSC uses PowerShell to programmatically configure your Windows-based computers. Additionally, DSC can monitor the state of the configured resources to make sure your machines stay consistent. Along with monitoring, DSC can also automatically correct the configuration of your system, so it’s always in the desired state. **PowerShell != PowerShell DSC**
 
 ## Azure Bicep

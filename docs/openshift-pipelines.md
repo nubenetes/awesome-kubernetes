@@ -109,7 +109,7 @@
 
 ### Jenkins Pipelines with OpenShift 3
 
-- [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
+- [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/slideshow/cicd-with-openshift-and-jenkins/57944430)
 - [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline)
 
 ### OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax
