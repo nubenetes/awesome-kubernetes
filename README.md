@@ -130,7 +130,7 @@ As of May 2026, Nubenetes has reached the **Platinum Operational Tier**, featuri
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **15295+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4684+** |
+| **Total Commits** | **4686+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -168,7 +168,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1125 | 4,646 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1127 | 4,654 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -184,8 +184,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 9000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4646]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1125]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4654]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 1127]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -194,7 +194,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 1100 | 4,543 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 1102 | 4,551 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
