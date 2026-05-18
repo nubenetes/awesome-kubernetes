@@ -20,5 +20,5 @@
 
 ## GitLab Kubernetes Agent
 
-- [GitLab Kubernetes Agent](https://docs.gitlab.com/user/clusters/agent///)
+- [GitLab Kubernetes Agent](https://docs.gitlab.com/user/clusters/agent////)
 - [GitLab Kubernetes Agent available on GitLab.com](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11//#gitlab-kubernetes-agent-available-on-gitlabcom)
