@@ -335,16 +335,21 @@ To maintain a high-performance "Single Source of Truth", Nubenetes implements au
 
 #### 🕵️ Intelligent Cleaning Observability
 ```log
-# 1. UNIVERSAL RESCUE: Finding new homes for technical assets
-[19:21:25] [🔍] RESCUE ATTEMPT: 'Ansible: Migrating the Runbook' is missing.
-[19:21:33] [✨] RESCUED: Found at https://probably.co.uk/posts/migrating-the-runbook...
+# 1. PROGRESS TRACKING & PARALLEL EXECUTION
+[14:01:20] [*] Queue: 17110 links prioritized for validation.
+[14:01:25] [>] Progress: [45/17110] links validated...
+[14:01:29] [>] Progress: [90/17110] links validated...
 
-# 2. SEMANTIC DRIFT: Detecting silent content updates via SHA256
-[22:36:07] [!] DRIFT DETECTED: https://github.com/gruntwork-io/terragrunt-infrastructure...
-# Meaning: Content changed significantly. Flagged for AI re-evaluation.
+# 2. SEMANTIC DRIFT (Optimized & Deduplicated): Detecting silent content updates via SHA256
+[14:01:32] [!] DRIFT DETECTED: https://lzone.de
+[14:01:33] [!] DRIFT DETECTED: https://hackerone.com/reports/1249583
+# Meaning: Content changed significantly. Flagged for AI re-evaluation (only logged once per unique URL).
 
-# 3. HIGH-VALUE PROTECTION: Shielding 'Joyas de la Corona'
-[22:38:50] [⚠️] REVIEW STORED: https://www.toptechskills.com/ansible-tutorials...
+# 3. UNIVERSAL RESCUE: Finding new homes for technical assets
+[14:02:15] [✨] RESCUED: https://probably.co.uk/posts/migrating-the-runbook -> https://new-domain.com/migrating-the-runbook
+
+# 4. HIGH-VALUE PROTECTION: Shielding 'Joyas de la Corona'
+[14:03:50] [⚠️] REVIEW STORED: https://www.toptechskills.com/ansible-tutorials...
 # Meaning: VIP link failed. Protected from auto-deletion. Review metadata stored in BBDD.
 ```
 
