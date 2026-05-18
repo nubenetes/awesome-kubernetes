@@ -216,7 +216,11 @@ class IntelligentLinkCleaner:
             async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12) as client:
                 resp = await client.get(url)
                 if resp.status_code < 400:
-                    text = resp.text.lower(); final_url = str(resp.url)
+                    text = resp.text.lower()
+                    final_url = str(resp.url)
+                    # Mandate 34: Prevent multiple trailing slashes
+                    final_url = re.sub(r'/+$', '/', final_url) if '/' in final_url.split('://')[-1] else final_url.rstrip('/')
+                    
                     if any(kw in text for kw in parked): return False, "parked", None
                     if final_url != url:
                         u_p = url.split("://")[-1].rstrip("/"); f_p = final_url.split("://")[-1].rstrip("/")

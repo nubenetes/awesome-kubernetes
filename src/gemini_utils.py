@@ -162,6 +162,15 @@ async def resolve_url(url: str) -> str:
                 if new_url == final_url: break
                 final_url, current_hop = new_url, current_hop + 1
             except: break
+    
+    # Mandate 34: Prevent multiple trailing slashes
+    if final_url and '://' in final_url:
+        parts = final_url.split('://')
+        if '/' in parts[-1]:
+            final_url = f"{parts[0]}://{re.sub(r'/+$', '/', parts[-1])}"
+        else:
+            final_url = final_url.rstrip('/')
+            
     return final_url
 
 def clean_toc_text(text: str) -> str:
