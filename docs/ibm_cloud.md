@@ -23,7 +23,7 @@
 - [IBM Cloud](https://www.ibm.com/solutions/cloud)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift)
 - [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en/)
-- [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes//)
+- [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes///)
 - [xataka.com: IBM se multiplica: la IBM de siempre mantiene el foco en la nube, pero crea una nueva empresa para los servicios de red gestionados 🌟](https://www.xataka.com/pro/ibm-se-parte-dos-109-anos-despues-nube-da-dinero-que-se-creara-empresa-centrada-ella)
 - [reuters.com: IBM to break up 109-year old company to focus on cloud growth 🌟](https://www.reuters.com/article/us-ibm-divestiture/ibm-to-break-up-109-year-old-company-to-focus-on-cloud-growth-idUSKBN26T1TZ)
 
@@ -56,7 +56,7 @@
 
 ### IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite
 
-- [IBM Spectrum](https://www.ibm.com/storage) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
+- [IBM Spectrum](https://www.ibm.com/solutions/storage) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
 - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## IBM Cloud Paks and OpenShift
