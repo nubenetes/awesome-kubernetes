@@ -113,14 +113,14 @@ In 2026, Nubenetes moved beyond manual curation to an **Agentic AI Architecture*
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of Monday, May 18, 2026)
+(Stats as of 2026-05-18)
 
 <!-- HEART_STATS_START -->
-| Dimension | Value |
+| Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **15196+** |
+| **Total Technical Resources (Links)** | **15193+** |
 | **Specialized MD Pages** | **161** |
-| **Total Commits** | **4581+** |
+| **Total Commits** | **4583+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -130,16 +130,7 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes](docs/kubernetes.md) | 2005 |
-| [Aws](docs/aws.md) | 1251 |
-| [Devops](docs/devops.md) | 1204 |
-| [Linux](docs/linux.md) | 884 |
-| [Introduction](docs/introduction.md) | 719 |
-| [Docker](docs/docker.md) | 545 |
-| [Iac](docs/iac.md) | 541 |
-| [Java And Java Performance Optimization](docs/java-and-java-performance-optimization.md) | 496 |
-| [Security](docs/security.md) | 425 |
-| [Cicd](docs/cicd.md) | 398 |
+| [Uncategorized](docs/uncategorized.md) | 15193 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -158,7 +149,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 1022 | 4,220 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 1024 | 4,229 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -173,8 +164,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (Commits vs New Refs)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume"
-    bar stacked [350, 142, 2046, 531, 402, 30, 53, 5, 1022]
-    bar stacked [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4220]
+    bar stacked [350, 142, 2046, 531, 402, 30, 53, 5, 1024]
+    bar stacked [1445, 586, 8449, 2193, 1660, 123, 218, 20, 4229]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -183,7 +174,7 @@ xychart-beta
 | Month | Commits | Est. New Refs | Status |
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
-| 2026-05 | 997 | 4,117 | **Agentic Inception (Gemini Era)** |
+| 2026-05 | 999 | 4,125 | **Agentic Inception (Gemini Era)** |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -217,7 +208,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 13676
+    "English" : 13673
     "Spanish" : 911
     "French" : 151
     "Others" : 455
