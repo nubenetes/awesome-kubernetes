@@ -25,7 +25,7 @@
 - [tutorialspoint.com](http://www.tutorialspoint.com/)
 - [typing.io: Typing Practice for Programmers](https://typing.io/)
 - [vogella.com](http://www.vogella.com/tutorials/)
-- [The Linux Foundation Training](https://training.linuxfoundation.org/resources///)
+- [The Linux Foundation Training](https://training.linuxfoundation.org/resources////)
 - [khanacademy.org](https://www.khanacademy.org/)
 - [codely.tv](https://codely.com/en/)
 - [ine.com](https://ine.com/)
@@ -58,7 +58,7 @@
 ## Opinions
 
 - [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)
-- [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus///)
+- [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus////)
 
 ## Tweets
 
