@@ -168,6 +168,12 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 
 <!-- ANNUAL_CHART_START -->
 ```mermaid
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#5462eb, #fb8c00"
+---
 xychart-beta
     title "Nubenetes Annual Growth Metrics (Commits vs New Refs)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]

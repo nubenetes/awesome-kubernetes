@@ -101,7 +101,7 @@ def get_stats():
     growth_data.sort(key=lambda x: x["year"])
     
     # Generate Bar Chart (Mandate 3: Metric Comparison)
-    annual_chart = "```mermaid\nxychart-beta\n    title \"Nubenetes Annual Growth Metrics (Commits vs New Refs)\"\n"
+    annual_chart = "```mermaid\n---\nconfig:\n  themeVariables:\n    xyChart:\n      plotColorPalette: \"#5462eb, #fb8c00\"\n---\nxychart-beta\n    title \"Nubenetes Annual Growth Metrics (Commits vs New Refs)\"\n"
     years = [f'"{item["year"]}"' for item in growth_data]
     commits = [item["count"] for item in growth_data]
     refs = [str(int(int(item["count"]) * 4.13)) for item in growth_data]
