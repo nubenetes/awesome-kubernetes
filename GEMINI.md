@@ -84,14 +84,13 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Exhaustive Inclusion (V2)**: Unlike standard categories, V2 pages for Special Assets MUST include 100% of the ALIVE links from V1, bypassing standard impact filters.
     - **AI Curation Discovery (Autonomous)**: The discovery engine MUST periodically use **Grounding/MCP** to identify new high-quality curation sources (e.g., emerging "Awesome" repos, engineering blogs) and suggest them for inclusion in `curation_sources.yaml`.
 
-28. **Sophisticated V2 Knowledge Architecture**: The V2 Portal MUST be structured like an advanced O'Reilly technical book:
-    - **Deep Hierarchical Classification**: Resources MUST be organized using the `hierarchy` metadata field (a list of up to 10 strings: Area > Topic > Subtopics). This structure is mandatory for both V1 reorganization and V2 generation to ensure perfect consistency.
-    - **Location-Aware Automation**: Workflows MUST utilize the location metadata in the inventory (`v1_locations`, `v2_locations`) to perform surgical updates without redundant repository scans.
-    - **Structural Intelligence Persistence**: All agents MUST store and reuse the `hierarchy` and location metadata in the centralized inventory. This ensures zero-cost structural updates and industrial-grade scalability.
-    - **O'Reilly Learning Flow**: The organization must facilitate knowledge assimilation, moving from foundational theory to advanced engineering internals in a logical, ordered sequence.
-    - **Dynamic Indexing**: Every V2 page MUST include a Table of Contents (TOC) with clickable anchors for all technical sub-sections.
-    - **AI Dimension Naming**: Prioritize industry-standard terms (e.g., "AI and Artificial Intelligence" instead of internal jargon) for top-level navigation.
-    - **Content Extraction**: High-value sub-topics may be extracted into dedicated documents (e.g., "Microservices" content extracted from `introduction.md` into `microservices.md`) to maintain high-density focus.
+28. **Sophisticated V2 Knowledge Architecture & V1 Structural Stability**: The ecosystem maintains a strict separation of architectural philosophies between editions:
+    - **V1 (Archive Stability)**: The V1 archive (`docs/`) prioritized human curation and historical continuity. AI agents MUST NOT perform aggressive structural reorganization, section rebuilding, or automated TOC reconstruction in V1. Injection of new links must follow a "minimal disruption" pattern, placing resources within existing categories without altering the established manual structure.
+    - **V2 (O'Reilly Knowledge Flow)**: The V2 Portal (`v2-docs/`) is the innovation layer. It MUST be structured like an advanced technical book:
+        *   **Deep Hierarchical Classification**: Resources are organized using the `hierarchy` field (Area > Topic > Subtopics). This is mandatory for V2 generation.
+        *   **O'Reilly Learning Flow**: Organization must move from foundational theory to advanced engineering internals in a logical, ordered sequence.
+        *   **Dynamic Indexing**: Every V2 page MUST include an automated Table of Contents (TOC) with clickable anchors for all sub-sections.
+    - **Location-Aware Automation**: Workflows utilize location metadata (`v1_locations`, `v2_locations`) to perform surgical updates. V1 locations are considered "Fixed Anchors," while V2 locations are "Dynamic Clusters."
 
 29. **TOC & Structural Exceptions**: Certain files (configuration-heavy or technical tables like `mkdocs.md` or `matrix-table.md`) are exempt from TOC and deep-hierarchy requirements. These exceptions MUST be respected by all agents to avoid unnecessary structural clutter in non-navigational files as defined in [`data/link_rules.yaml`](data/link_rules.yaml).
 

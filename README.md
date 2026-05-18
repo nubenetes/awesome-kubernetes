@@ -280,7 +280,23 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
 
-### 5.3. The Incremental Elite Engine
+### 5.3. Architecture Comparison Matrix: V1 vs. V2
+To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
+
+| # | Feature / Aspect | V1: Exhaustive Archive (`docs/`) | V2: Agentic Elite Portal (`v2-docs/`) |
+| :--- | :--- | :--- | :--- |
+| **1** | **Primary Goal** | **Historical Preservation**: Exhaustive list of all technically valid resources since 2018. | **High-Density Synthesis**: Elite selection of top-tier tools for the 2026 Architect. |
+| **2** | **Structural Logic** | **Manual Stability**: Flat or semi-structured categories based on manual curation. | **Recursive Hierarchy**: Deep nesting (up to 10 levels) based on Area > Topic > Subtopics. |
+| **3** | **AI Intervention** | **Minimal Disruption**: AI only injects new links into existing sections. No rebuilding. | **Total Reconstruction**: AI rebuilds pages from scratch using O'Reilly-style learning flows. |
+| **4** | **Inclusion Filter** | **Low Barrier**: Any ALIVE and technically relevant link is included. | **High Maturity (MVQ)**: Minimum stars (>30) and recent activity (commits < 4 years). |
+| **5** | **TOC Policy** | **Manual/Static**: Table of Contents is manually maintained or triggered on request. | **Dynamic/Automated**: Clickable TOC is automatically generated and updated in every run. |
+| **6** | **Metadata Density** | **Standard**: Title, URL, and descriptive summary. | **Platinum**: Author, Reading Time, Maturity Tag, and AI-generated Professional Summary. |
+| **7** | **Organization Style** | **Thematic Folders**: Organized by file name and topic sections (##). | **Strategic Dimensions**: Grouped by high-level engineering domains (e.g., Platform Engineering). |
+| **8** | **Content Format** | **Original Language**: Preserves V1 native descriptions (Spanish, French, etc.). | **Global English**: All summaries and UI are in Professional English for global access. |
+| **9** | **Maintenance Type** | **Surgical Repair**: Dead links are removed or updated line-by-line. | **Full Refresh**: Orphaned files are pruned and content is re-indexed from the inventory. |
+| **10** | **Target Audience** | **Researchers & Historians**: Looking for specific deep technical context. | **Architects & Decision Makers**: Looking for vetted, stable, and mature solutions. |
+
+### 5.4. The Incremental Elite Engine
 To maintain the high-density quality of V2 without redundant AI costs, the `V2VisionEngine` implements an incremental synchronization strategy:
 1. **Intelligent Caching**: It utilizes the centralized YAML inventory to store previous AI evaluations. Only NEW links added to V1 are sent to Gemini for classification.
 2. **Dynamic "Upgrading"**: Even for cached links, the engine performs real-time local updates:
