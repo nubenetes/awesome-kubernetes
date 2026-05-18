@@ -22,8 +22,8 @@
 
 - [IBM Cloud](https://www.ibm.com/solutions/cloud)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift)
-- [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en/)
-- [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes///)
+- [IBM Knowledge Center 🌟](https://www.ibm.com/docs/en)
+- [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes)
 - [xataka.com: IBM se multiplica: la IBM de siempre mantiene el foco en la nube, pero crea una nueva empresa para los servicios de red gestionados 🌟](https://www.xataka.com/pro/ibm-se-parte-dos-109-anos-despues-nube-da-dinero-que-se-creara-empresa-centrada-ella)
 - [reuters.com: IBM to break up 109-year old company to focus on cloud growth 🌟](https://www.reuters.com/article/us-ibm-divestiture/ibm-to-break-up-109-year-old-company-to-focus-on-cloud-growth-idUSKBN26T1TZ)
 
@@ -31,20 +31,20 @@
 
 ## IBM API Connect
 
-- [IBM API Connect](https://www.ibm.com/docs/en/api-connect/)
+- [IBM API Connect](https://www.ibm.com/docs/en/api-connect)
 
 ## WebSphere Liberty with support of Java Microservices and Cloud Native Apps
 
-- [WebSphere Liberty](https://developer.ibm.com/wasdev/) A fast, light, awesome runtime for your Java apps and microservices, free for developers, and built on Open Liberty.
-- [Download WAS Liberty](https://developer.ibm.com/wasdev/downloads/)
-- [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty/) WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source [Open Liberty project](https://openliberty.io/). Ideal for developers but also ready for production, on-premise or in the cloud Liberty is a combination of IBM technology and open source software, with fast startup times (<2 seconds), no server restarts to pick up changes, and a simple XML configuration. All in [a package (with Java EE 8 Web Profile) that’s 80 MB to download](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-non-eclipse-environments/). You can be developing applications in no time. 
-- [DockerHub: websphere-liberty](https://hub.docker.com/_/websphere-liberty/) Official IBM WebSphere Application Server for Developers Liberty image.
+- [WebSphere Liberty](https://developer.ibm.com/wasdev) A fast, light, awesome runtime for your Java apps and microservices, free for developers, and built on Open Liberty.
+- [Download WAS Liberty](https://developer.ibm.com/wasdev/downloads)
+- [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty) WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source [Open Liberty project](https://openliberty.io). Ideal for developers but also ready for production, on-premise or in the cloud Liberty is a combination of IBM technology and open source software, with fast startup times (<2 seconds), no server restarts to pick up changes, and a simple XML configuration. All in [a package (with Java EE 8 Web Profile) that’s 80 MB to download](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-non-eclipse-environments). You can be developing applications in no time. 
+- [DockerHub: websphere-liberty](https://hub.docker.com/_/websphere-liberty) Official IBM WebSphere Application Server for Developers Liberty image.
 
 ### Open Liberty
 
-- [openliberty.io](https://openliberty.io/) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
-- [github.com/openliberty](https://github.com/openliberty/)
-- [developers.redhat.com: Support for GraphQL with Open Liberty 20.0.0.6](https://developers.redhat.com/blog/2020/06/17/support-for-graphql-with-open-liberty-20-0-0-6/)
+- [openliberty.io](https://openliberty.io) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
+- [github.com/openliberty](https://github.com/openliberty)
+- [developers.redhat.com: Support for GraphQL with Open Liberty 20.0.0.6](https://developers.redhat.com/blog/2020/06/17/support-for-graphql-with-open-liberty-20-0-0-6)
 
 ## Red Hat OpenShift on IBM Z and LinuxONE
 
@@ -62,17 +62,17 @@
 ## IBM Cloud Paks and OpenShift
   - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF) - This update to IBM Vault 2.0 focuses on improving the user interface for better feature discoverability and product usability. It also includes reporting enhancements to provide greater transparency and support for forecasting.
 
-- [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io/)
+- [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io)
 - **What are IBM Cloud Paks?** Beyond containers and Kubernetes, enterprises need to orchestrate their production topology, and to provide management, security and governance for their applications. They need to do this while improving efficiency and resiliency, reducing costs and maximizing ROI.
 - IBM Cloud® Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud. Each IBM Cloud Pak® includes containerized IBM middleware and common software services for development and management, on top of a common integration layer — designed to **reduce development time by up to 84 percent and operational expenses by up to 75 percent**. **IBM Cloud Paks run wherever Red Hat® OpenShift® runs** and are optimized for productivity and performance on [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/solutions/cloud/openshift).
 
 ### CloudPaks For Applications (CP4A)
 
-- [IBM Cloud Pak For Applications Overview](https://cloudpak8s.io/apps/cp4a_overview/) The **Cloud Pak for Applications** provides product offerings to support **modernizing existing applications and building new cloud native applications**. The applications run within a **Kubernetes cluster** provided with the **Red Hat OpenShift Container Platform**. The focus provided here is on running application workloads as containers. The Cloud Pak for Applications is a bundle of multiple offerings.  This diagram provides an overview of what offerings are included and what they would be used for:
+- [IBM Cloud Pak For Applications Overview](https://cloudpak8s.io/apps/cp4a_overview) The **Cloud Pak for Applications** provides product offerings to support **modernizing existing applications and building new cloud native applications**. The applications run within a **Kubernetes cluster** provided with the **Red Hat OpenShift Container Platform**. The focus provided here is on running application workloads as containers. The Cloud Pak for Applications is a bundle of multiple offerings.  This diagram provides an overview of what offerings are included and what they would be used for:
 
 <center markdown="1">
 
-[![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
+[![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview)
 
 </center>
 

@@ -16,16 +16,16 @@
 
 ## Liquibase
 
-- [liquibase.org](http://www.liquibase.org/)
+- [liquibase.org](http://www.liquibase.org)
 - [dzone: Introduction to Liquibase and Managing Your Database Source Code](https://dzone.com/articles/introduction-to-liquibase-and-managing-your-databa)
 - [dzone: Managing Your Database With Liquibase and Gradle](https://dzone.com/articles/managing-your-database-with-liquibase-and-gradle)
 - [dzone: Executing Liquibase: 3 Use Cases](https://dzone.com/articles/executing-liquibase-3-use-cases)
-- [percona: Database Schema Management Via Liquibase](https://www.percona.com/community-blog/2020/10/01/database-schema-management-via-liquibase/)
-- [piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes/)
+- [percona: Database Schema Management Via Liquibase](https://www.percona.com/community-blog/2020/10/01/database-schema-management-via-liquibase)
+- [piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes)
 
 ## Flyway
 
-- [Flyway](https://www.red-gate.com/products/flyway/community//) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.
+- [Flyway](https://www.red-gate.com/products/flyway/community) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.
 - [dzone: Build a Spring Boot App With Flyway and Postgres](https://dzone.com/articles/build-a-spring-boot-app-with-flyway-and-postgres) 
 
 ## Liquibase vs. Flyway

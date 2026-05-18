@@ -17,60 +17,60 @@
 
 <center markdown="1">
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162899288&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/arielmezzapesa-1" title="Ariel Mezzapesa" target="_blank" style="color: #cccccc; text-decoration: none;">Ariel Mezzapesa</a> · <a href="https://soundcloud.com/arielmezzapesa-1/lily-was-here-candy-dulfer" title="Lily Was Here (Candy Dulfer)" target="_blank" style="color: #cccccc; text-decoration: none;">Lily Was Here (Candy Dulfer)</a></div>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A/api.soundcloud.com/tracks/162899288&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/arielmezzapesa-1" title="Ariel Mezzapesa" target="_blank" style="color: #cccccc; text-decoration: none;">Ariel Mezzapesa</a> · <a href="https://soundcloud.com/arielmezzapesa-1/lily-was-here-candy-dulfer" title="Lily Was Here (Candy Dulfer)" target="_blank" style="color: #cccccc; text-decoration: none;">Lily Was Here (Candy Dulfer)</a></div>
 
 </center>
 
 ## Introduction
 
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
-- [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40///)
-- [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn///) One of the big headlines this week in the world of programming comes in the form of a single statistic: 83% of developers suffer from burnout, according to a study by Haystack Analytics.
+- [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40)
+- [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn) One of the big headlines this week in the world of programming comes in the form of a single statistic: 83% of developers suffer from burnout, according to a study by Haystack Analytics.
 - [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs)
-- [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report///) 3,900 global remote workers share the good, bad, and unexpected of the new status quo
-- [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat///)
-- [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers/)
-- [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job//) Around the world, workers are quitting their jobs in record numbers – and bosses are still scrambling to figure out how to keep them
+- [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 3,900 global remote workers share the good, bad, and unexpected of the new status quo
+- [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat)
+- [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers)
+- [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job) Around the world, workers are quitting their jobs in record numbers – and bosses are still scrambling to figure out how to keep them
 - [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan) Employees are leaving their workplaces in record numbers in a wave named "#TheGreatResignation.”
-- [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it//)
+- [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)
 - [news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage](https://news.slashdot.org/story/21/10/12/1818252/a-record-number-of-workers-are-quitting-their-jobs-empowered-by-new-leverage)
-- [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety///)
+- [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety)
 - [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0) How to avoid tech interviews as we know them
-- [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market///)
+- [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market)
 - [hbr.org: Change Your Career Without Having to Start All Over Again](https://hbr.org/2016/05/change-your-career-without-having-to-start-all-over-again)
 - [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy)
 - [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend) Employees often assume human resources is there to help. But given HR really works for the company, is it ever really on our side?
-- [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration///)
+- [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration)
 - https://en.wikipedia.org/wiki/Great_Resignation
 - [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation)
 - [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)
 - [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)
-- [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation///)
-- [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers//) Nearly two years into the pandemic, many Americans are reevaluating their relationship with work.
+- [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation)
+- [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers) Nearly two years into the pandemic, many Americans are reevaluating their relationship with work.
 - [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)
 - [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html)
-- [findmyprofession.com: 100+ Questions to Ask in an Interview 🌟](https://www.findmyprofession.com/career-advice/questions-to-ask/)
+- [findmyprofession.com: 100+ Questions to Ask in an Interview 🌟](https://www.findmyprofession.com/career-advice/questions-to-ask)
 - [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave)
-- [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications/)
-- [thewokesalaryman.com: Why people leave even the most high paying jobs 🌟](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs///)
-- [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs/) Amid a wave of resignations across industries, organizational leaders must identify ways to create better, more desirable jobs that will help them hang on to employees.
-- [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview//)
-- [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how///)
+- [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications)
+- [thewokesalaryman.com: Why people leave even the most high paying jobs 🌟](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs)
+- [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs) Amid a wave of resignations across industries, organizational leaders must identify ways to create better, more desirable jobs that will help them hang on to employees.
+- [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview)
+- [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how)
 - [4dayweek.medium.com: What does the work-life balance of a Software Engineer look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0) We compare the work-life balance of FAANG employees at Amazon, Google, Apple, Facebook and Microsoft comparing their vacation, remote work policy as well as openness to side projects.
 - [medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor (IC) or Engineering Manager Role is Right for You?](https://medium.com/walmartglobaltech/how-do-you-decide-whether-an-individual-contributor-ic-or-engineering-manager-role-is-right-for-f46251f1a4cd)
-- [freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners](https://www.freecodecamp.org/news/how-to-get-ready-for-a-job-in-tech/)
+- [freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners](https://www.freecodecamp.org/news/how-to-get-ready-for-a-job-in-tech)
 - [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html) Sky-high demand for tech workers means more open doors for IT pros who don’t have prior experience in the healthcare industry.
 - [theengineeringmanager.substack.com: How do I progress to the next level in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level) Let's look at motivation, craft, opportunity and taking ownership.
-- [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693///)
-- [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers/) Career paths for software engineers
-- [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do///)
-- [vice.com: Thousands of Software Engineers Say the Job Market Is Getting Much Worse](https://www.vice.com/en/article/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse//)
+- [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693)
+- [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers) Career paths for software engineers
+- [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do)
+- [vice.com: Thousands of Software Engineers Say the Job Market Is Getting Much Worse](https://www.vice.com/en/article/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse)
 - [madokai.medium.com: Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)
 
 ## Articles in Spanish
 
-- [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087///)
-- [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona///)
+- [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087)
+- [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona)
 - [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) Descubre si la gente que trabaja contigo te tiene confianza o si debes cambiar ciertas actitudes para obtener mejores resultados.
 - [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia)
 - [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html)
@@ -97,9 +97,9 @@
 
 ## Recruitment Portals
 
-- [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages
+- [relocate.me](https://relocate.me) Job relocation made easy. Find tech jobs w/ relocation packages
     - [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
-- [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com/)
+- [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com)
 
 ## Recruitment Portals in Spain
 
@@ -119,15 +119,15 @@
 
 ## Writing a CV
 
-- [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv///)
+- [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv)
 
 ## Fake it til you make it
 
 - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) Have you come across to someone that thinks you don't deserve a job because you don't have GitHub contributions? Never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn't use GitHub, use fake-it-til-you-make-it to generate two years of contributions.
 
 ## Tweets
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai/) - *(Related to ai topic)*
-  - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career/) - *(Related to devsecops topic)*
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai) - *(Related to ai topic)*
+  - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) - *(Related to devsecops topic)*
 
 <details>
   <summary>Click to expand!</summary>
@@ -166,7 +166,7 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">People who are fluent on more than one cloud provider - how has this skillset affected your career? <br><br>Does it mostly just expand your job opportunities (ie, you can get hired by a GCP shop or an AWS shop), or do you find yourself working with multiple clouds at your current job?</p>&mdash; Forrest Brazeal (@forrestbrazeal) <a href="https://twitter.com/forrestbrazeal/status/1475841432254656513?ref_src=twsrc%5Etfw">December 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Anxiety sucks. Live coding interviews están definitivamente en el top 5 de las peores experiencias en mi carrera. 🤦‍♂️<br><br>Aún teniendo +30 apps en portfolio (algunas famosas) he fallado miserablemente en TODAS las FAANG (Mi última entrevista fue hace 4 años) ❌ <a href="https://t.co/S49wb5B3bo">https://t.co/S49wb5B3bo</a></p>&mdash; Christian Roman 👨‍💻🏝 (@devnull) <a href="https://twitter.com/devnull/status/1490814836174987277?ref_src=twsrc%5Etfw">February 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Anxiety sucks. Live coding interviews están definitivamente en el top 5 de las peores experiencias en mi carrera. 🤦‍♂️<br><br>Aún teniendo +30 apps en portfolio (algunas famosas) he fallado miserablemente en TODAS las FAANG (Mi última entrevista fue hace 4 años) ❌ <a href="https://t.co/S49wb5B3bo">https:/t.co/S49wb5B3bo</a></p>&mdash; Christian Roman 👨‍💻🏝 (@devnull) <a href="https://twitter.com/devnull/status/1490814836174987277?ref_src=twsrc%5Etfw">February 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </center>
 </details>
@@ -190,7 +190,7 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Software eng interviews today: “Invert this binary tree” (because I said so)<br><br>What software eng interviews should be:“The customer wants you to implement feature X. How would you make it work with the legacy codebase? What’s your time estimate? What security issues could arise?”</p>&mdash; Anna Spysz 💉💉 (@annaspies) <a href="https://twitter.com/annaspies/status/1441420614263214086?ref_src=twsrc%5Etfw">September 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;terminated within the hour&quot; -- big companies treat employees as disposable :/ <a href="https://t.co/BAgiSBmX4c">https://t.co/BAgiSBmX4c</a></p>&mdash; Liz Fong-Jones (方禮真) (@lizthegrey) <a href="https://twitter.com/lizthegrey/status/1443266495971094531?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;terminated within the hour&quot; -- big companies treat employees as disposable :/ <a href="https://t.co/BAgiSBmX4c">https:/t.co/BAgiSBmX4c</a></p>&mdash; Liz Fong-Jones (方禮真) (@lizthegrey) <a href="https://twitter.com/lizthegrey/status/1443266495971094531?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will never understand why tech companies optimize interviews for a college grad to do better than someone with ten years of experience.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1443651873412550682?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -200,9 +200,9 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">9⃣cloud-related jobs you can do 🔥<br><br>Cloud Administrator<br>Cloud (Solution) Architect<br>Cloud Developer<br>Cloud DevOps Engineer<br>Cloud Data Engineer<br>Cloud Operations Engineer<br>Cloud Security Engineer<br>Cloud Support Engineer<br>Cloud AI/ML Engineer<br><br>So many opportunities in the cloud ...☁️</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1445019048446775300?ref_src=twsrc%5Etfw">October 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is not just Nigeria, but worldwide.<br><br>If you work in IT: you’re usually seen cost center, typically in a “traditional” company.<br><br>If you work in tech, you’re typically viewed as a profit generator, and core to the company. Both autonomy, motivation and pay tend to be higher. <a href="https://t.co/z579RoAS3I">https://t.co/z579RoAS3I</a></p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1445641496066072582?ref_src=twsrc%5Etfw">October 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is not just Nigeria, but worldwide.<br><br>If you work in IT: you’re usually seen cost center, typically in a “traditional” company.<br><br>If you work in tech, you’re typically viewed as a profit generator, and core to the company. Both autonomy, motivation and pay tend to be higher. <a href="https://t.co/z579RoAS3I">https:/t.co/z579RoAS3I</a></p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1445641496066072582?ref_src=twsrc%5Etfw">October 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unpopular opinion: I don’t think being a 10x engineer is a persona. 10xness is specific to projects and what orgs allow you to do. It’s a combination of having authority and skills to execute. It depends on the momentary situation and it’s not always repeatable. <a href="https://t.co/xSMY50OouT">https://t.co/xSMY50OouT</a></p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1447052037246447617?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unpopular opinion: I don’t think being a 10x engineer is a persona. 10xness is specific to projects and what orgs allow you to do. It’s a combination of having authority and skills to execute. It depends on the momentary situation and it’s not always repeatable. <a href="https://t.co/xSMY50OouT">https:/t.co/xSMY50OouT</a></p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1447052037246447617?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to get really good job offers on LinkedIn, I suggest the following neat little hack:<br><br>Add emojis to your name.<br><br>A recruiter who doesn&#39;t even take the time to write me personally does not deserve my attention at all. <a href="https://t.co/9DpltKSqul">pic.twitter.com/9DpltKSqul</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1459478049351782407?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -256,7 +256,7 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">trying to hire cybersecurity professionals and not having success? check:<br><br>- is your job description realistic to the actual job tasks?<br>- are you asking for the level of talent you have the budget to pay fair market value?<br>- are you requiring 5 years experience for a junior role?</p>&mdash; meg west (@cybersecmeg) <a href="https://twitter.com/cybersecmeg/status/1503383305156235266?ref_src=twsrc%5Etfw">March 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If this is what your recruitment process is like, you will limit the candidates to ones that are not hirable elsewhere. <a href="https://t.co/xwAQNFi2XA">https://t.co/xwAQNFi2XA</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1505561548827242496?ref_src=twsrc%5Etfw">March 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If this is what your recruitment process is like, you will limit the candidates to ones that are not hirable elsewhere. <a href="https://t.co/xwAQNFi2XA">https:/t.co/xwAQNFi2XA</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1505561548827242496?ref_src=twsrc%5Etfw">March 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Great Resignation is happening.<br><br>What is your best advice to increase employee retention?</p>&mdash; Michael Girdley (@girdley) <a href="https://twitter.com/girdley/status/1506966301423464451?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -274,13 +274,13 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lack of career advancement and development is now the top reason why people leave their job according to a new McKinsey study. <a href="https://t.co/duMKhwtD1n">pic.twitter.com/duMKhwtD1n</a></p>&mdash; Julia Stiglitz (@juliastiglitz) <a href="https://twitter.com/juliastiglitz/status/1550896144212848641?ref_src=twsrc%5Etfw">July 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn&#39;t use GitHub, use fake-it-til-you-make-it to generate two years of contributions. <a href="https://t.co/n8Ij8JtG83">https://t.co/n8Ij8JtG83</a> <a href="https://t.co/6GSt45dJQG">https://t.co/6GSt45dJQG</a> <a href="https://t.co/qLXlwz9yVa">pic.twitter.com/qLXlwz9yVa</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1688417566384152577?ref_src=twsrc%5Etfw">August 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn&#39;t use GitHub, use fake-it-til-you-make-it to generate two years of contributions. <a href="https://t.co/n8Ij8JtG83">https:/t.co/n8Ij8JtG83</a> <a href="https://t.co/6GSt45dJQG">https:/t.co/6GSt45dJQG</a> <a href="https://t.co/qLXlwz9yVa">pic.twitter.com/qLXlwz9yVa</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1688417566384152577?ref_src=twsrc%5Etfw">August 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is unfortunately how the game works. Most companies are not set up to retained high performing, ambitious talent, mainly because of how job ladders are structured, and the compensation models attached to them. <a href="https://t.co/4v1whKfmY1">https://t.co/4v1whKfmY1</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1755732994600718585?ref_src=twsrc%5Etfw">February 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is unfortunately how the game works. Most companies are not set up to retained high performing, ambitious talent, mainly because of how job ladders are structured, and the compensation models attached to them. <a href="https://t.co/4v1whKfmY1">https:/t.co/4v1whKfmY1</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1755732994600718585?ref_src=twsrc%5Etfw">February 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </center>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every company can&#39;t afford to pay you what you&#39;re worth. It isn&#39;t personal. Just business. <a href="https://t.co/4JID6gZwgd">https://t.co/4JID6gZwgd</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1756404285196398844?ref_src=twsrc%5Etfw">February 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every company can&#39;t afford to pay you what you&#39;re worth. It isn&#39;t personal. Just business. <a href="https://t.co/4JID6gZwgd">https:/t.co/4JID6gZwgd</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1756404285196398844?ref_src=twsrc%5Etfw">February 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Os voy a contar la historia de una amiga que, oh!, no se llama Jose (aunque es fontanera). Mi amiga es rubia, así que para preservar su intimidad, le llamaré Ruby.<br>Ruby siempre se quejaba de los impuestos. Un día me dice: tía, mira mi nómina, tía!<br>Y me manda esto: <a href="https://t.co/PnBXAiNnuX">pic.twitter.com/PnBXAiNnuX</a></p>&mdash; Mal pero acostumbrada 🌹 (@Merche_Acevedo) <a href="https://twitter.com/Merche_Acevedo/status/1773747643203616789?ref_src=twsrc%5Etfw">March 29, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </details>

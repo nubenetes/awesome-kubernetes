@@ -115,9 +115,9 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Non-Free Transition Alert**: If a project transitions from a permissive license (e.g., Apache 2.0, MIT) to a non-free or restrictive license (e.g., BSL, SSPL), the resource MUST be flagged as `status: review_required`.
     - **Impact Adjustment**: Projects that move away from Open Source standards MUST receive an automatic star reduction and be deprioritized in the V2 portal to favor truly open alternatives.
 34. **URL Normalization & Trailing Slash Consistency**: To prevent data duplication and broken navigation:
-    - **No Multiple Trailing Slashes**: All agents and workflows MUST ensure that URLs NEVER end with multiple trailing slashes (e.g., `path//`).
-    - **Single Slash Policy**: If a URL requires a trailing slash (e.g., directory-style), it MUST have exactly ONE slash.
-    - **Normalization Enforcement**: All URLs MUST be passed through the `normalize_url` engine before storage or comparison to ensure consistency (stripping parameters, social trackers, and redundant slashes).
+    - **No Trailing Slashes**: All agents and workflows MUST ensure that URLs NEVER end with trailing slashes (e.g., `path/` or `path//`).
+    - **Zero Slash Policy**: All URLs MUST be normalized to end WITHOUT a trailing slash. If a server redirects to a slashed version, the bot MUST strip it before storage or injection.
+    - **Normalization Enforcement**: All URLs MUST be passed through the `normalize_url` engine before storage or comparison to ensure consistency (stripping parameters, social trackers, and ALL trailing slashes).
     - **Recursive Prevention**: Workflows updating URLs to 'Canonical' versions MUST verify that the new URL does not introduce redundant slashes or loop redirections.
 
 ## 🛠️ Structural Evolution & Navigation

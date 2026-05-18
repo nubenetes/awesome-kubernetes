@@ -44,16 +44,16 @@
 ## OpenShift
   - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue) - *(Related to kubernetes-operators-controllers topic)*
 - [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)
-- [OpenShift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift/)
+- [OpenShift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift)
 - [OpenShift blog 🌟](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure)
-- [docs.openshift.com 🌟](https://docs.openshift.com/)
-- [developers.redhat.com 🌟](https://developers.redhat.com/)
+- [docs.openshift.com 🌟](https://docs.openshift.com)
+- [developers.redhat.com 🌟](https://developers.redhat.com)
 - [github.com/openshift/origin 🌟](https://github.com/openshift/origin) Images for OpenShift 3 and 4 - see openshift/okd for more 
-- [try.openshift.com 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it/) Create an OCP (OpenShift Container Platform) Cluster or OSD (OpenShift Dedicated) Cluster.
-- [okd.io](https://okd.io//) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
-- [OpenShift Commons](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift. Commons builds connections and collaboration across OpenShift communities, projects and stakeholders.
+- [try.openshift.com 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it) Create an OCP (OpenShift Container Platform) Cluster or OSD (OpenShift Dedicated) Cluster.
+- [okd.io](https://okd.io) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
+- [OpenShift Commons](https://commons.openshift.org) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift. Commons builds connections and collaboration across OpenShift communities, projects and stakeholders.
 - [twitter.com/openshift](https://x.com/openshift) 
-- [OpenShift in DockerHub](https://hub.docker.com/u/openshift/)
+- [OpenShift in DockerHub](https://hub.docker.com/u/openshift)
 - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)
 - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
 
@@ -63,31 +63,31 @@
 - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
 ## OpenShift on Public Cloud
 
-- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start///)
-- [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
+- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)
+- [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 - [Amazon Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws)
 - [OpenShift on Google Cloud](https://docs.cloud.google.com/compute/docs/containers)
 - [Microsoft Azure Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/azure)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/products/openshift)
-- [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/online/)
-- [OpenShift.io](https://openshift.io/)
+- [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/online)
+- [OpenShift.io](https://openshift.io)
 - [Developer Sandbox](https://developers.redhat.com/developer-sandbox)
-- [Red Hat Marketplace](https://marketplace.redhat.com/sunset/) 
+- [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 
 
 ### Azure Red Hat OpenShift ARO
 
 - [ARO](https://www.redhat.com/en/technologies/cloud-computing/openshift/azure)
-- [aroworkshop.io 🌟](http://aroworkshop.io/) 
+- [aroworkshop.io 🌟](http://aroworkshop.io) 
 - [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://learn.microsoft.com/en-us/azure/developer/java/ee/jboss-eap-on-aro)
 
 ## Blogs
   - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) 🌟 - This article introduces Kruize, an open-source solution for performance testing and optimization of applications running on OpenShift. It details how Kruize uses Kubernetes operators to collect performance metrics, identify performance bottlenecks, and suggest optimal configurations for workloads, aiming to improve resource utilization and application performance.
 
-- [Rcarrata's blog](https://rcarrata.com/)
+- [Rcarrata's blog](https://rcarrata.com)
 
 ## Meetings
 
-- [openshift-ireland.com](https://openshift-ireland.com/)
+- [openshift-ireland.com](https://openshift-ireland.com)
 
 ## Differences in developing on OpenShift as opposed to other Kubernetes distributions
 
@@ -107,14 +107,14 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 <center markdown="1">
 
-[![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users///)
+[![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users)
 
 </center>
 <br/>
 
 ## OpenShift.io online IDE
 
-- [openshift.io 🌟](https://openshift.io/) an online IDE for building container-based apps, built for team collaboration.
+- [openshift.io 🌟](https://openshift.io) an online IDE for building container-based apps, built for team collaboration.
 
 ## OC CLI Auto Completion
 
@@ -128,30 +128,30 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ## e-Books
 
-- [O'Reilly Free Book: **DevOps with OpenShift**](https://www.redhat.com/en/resources/)
-- [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers/)
+- [O'Reilly Free Book: **DevOps with OpenShift**](https://www.redhat.com/en/resources)
+- [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers)
 - [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
 - [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)
 
 ### Kubernetes e-Books
 
-- [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes///#e-books)
+- [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)
 
 ## Online Learning
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - *(Related to kubernetes-tutorials topic)*
 
 - [learn.openshift.com 🌟](https://learn.openshift.com) Interactive Learning Portal
-- [katacoda.com 🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
-- [redhatgov.io](http://redhatgov.io/)
+- [katacoda.com 🌟](https://www.katacoda.com) Interactive Learning and Training Platform for Software Engineers 
+- [redhatgov.io](http://redhatgov.io)
 - [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
 - [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
-- [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops/) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
+- [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
 - [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
 
 ## Local Installers
 
-- [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
-- A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin) and [minishift](https://okd.io//minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
+- [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview)
+- A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin) and [minishift](https://okd.io/minishift). These may be a better fit for your use case if you only need a quick throwaway environment.
 - [github.com/redhatdemocentral: OpenShift Container Platform Install Demo 🌟](https://github.com/redhatdemocentral/ocp-install-demo)
     - [Dzone.com: Install OpenShift Container Platform in Minutes [Video]](https://dzone.com/articles/install-openshift-container-platform-in-minutes-video)
 
@@ -161,8 +161,8 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
     - [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html)
     - [schabell.org: Cloud-native development - On local containers 🌟](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
     - etc
-- [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops///#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
-- [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling///)
+- [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
+- [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling)
 - [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
 <center markdown="1">
@@ -178,14 +178,14 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### OKD 3
 
-- [OKD.io:](https://okd.io//) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
-- [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host/)
+- [OKD.io:](https://okd.io) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
+- [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host)
 - [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
 - [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.
 
 ### OpenShift 3
 
-- [uncontained.io: Installing a Highly Available OpenShift Cluster 🌟](http://uncontained.io/articles/openshift-ha-installation/)
+- [uncontained.io: Installing a Highly Available OpenShift Cluster 🌟](http://uncontained.io/articles/openshift-ha-installation)
 
 ### OpenShift 4
 
@@ -194,9 +194,9 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 #### OpenShift 4 deployment on VMWare vSphere
 
-- [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install/)
-- [blog.openshift.com: OpenShift 4.2 vSphere Install Quickstart](https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-quickstart/) 
-- [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs 🌟](https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-with-static-ips/)
+- [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install)
+- [blog.openshift.com: OpenShift 4.2 vSphere Install Quickstart](https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-quickstart) 
+- [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs 🌟](https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-with-static-ips)
 - [youtube: Deploy OpenShift 4 to vSphere using OpenShift's UPI](https://www.youtube.com/watch?v=DLB9m17aGus)    
 
 ##### Deploying OpenShift 4.4 to VMware vSphere 7
@@ -212,10 +212,10 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ## Networking (OCP 3 and OCP 4)
 
-- [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)
-- [developers.redhat.com: Skupper.io: Let your services communicate across Kubernetes clusters](https://developers.redhat.com/blog/2020/01/01/skupper-io-let-your-services-communicate-across-kubernetes-clusters/)
-- [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://www.redhat.com/en/blog/troubleshooting-openshift-network-performance-with-a-netperf-daemonset/)
-- [blog.openshift.com: Advanced Network customizations for OpenShift Install](https://www.redhat.com/en/blog/advanced-network-customizations-for-openshift-install/)
+- [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod)
+- [developers.redhat.com: Skupper.io: Let your services communicate across Kubernetes clusters](https://developers.redhat.com/blog/2020/01/01/skupper-io-let-your-services-communicate-across-kubernetes-clusters)
+- [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://www.redhat.com/en/blog/troubleshooting-openshift-network-performance-with-a-netperf-daemonset)
+- [blog.openshift.com: Advanced Network customizations for OpenShift Install](https://www.redhat.com/en/blog/advanced-network-customizations-for-openshift-install)
 
 ## Security
 
@@ -242,7 +242,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
 - Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
 - **Recommendations:** 
-    - Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies](https://kubernetes.io/docs/concepts/security/pod-security-policy///). PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
+    - Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies](https://kubernetes.io/docs/concepts/security/pod-security-policy). PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
     - Use the restricted SCC as the default 
     - For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC Audit
     - To show all available SCCs: `oc describe scc`
@@ -254,7 +254,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
     - [docs.openshift.com: Configuring network policy with OpenShift SDN](https://docs.openshift.com/container-platform/4.4/networking/configuring-networkpolicy.html)
 - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/networkpolicies-and-microsegmentation)
-- [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://www.redhat.com/en/blog/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator/)
+- [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://www.redhat.com/en/blog/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator)
 - [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 - [redhat.com: Network traffic control for containers in Red Hat OpenShift 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift)
 
@@ -262,7 +262,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone) 
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches)
-    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking///), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
+    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
     - Network Zones have been the widely accepted approach for building security into a network architecture. The general idea is to create separate networks, each with a specific purpose. Each network contains devices with similar security profiles. Communications between networks is highly scrutinized and controlled by firewall rules ([perimeter defense](https://en.wikipedia.org/wiki/All_round_defence)).
     - **Conclusion:** A company’s security organization must be involved when deciding how to deploy OpenShift with regard to traditional network zones. Depending on their level of comfort with new technologies you may have different options. If physical network separation is the only acceptable choice, you will have to build a cluster per network zone. If logical network type of separations can be considered, then there are ways to stretch a single OpenShift deployment across multiple network zones. This post presented a few technical approaches.
 
@@ -286,15 +286,15 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ## Openshift Compliant Docker Images
 
-- [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://catalog.redhat.com/en/) License required
-- [DockerHub OpenShift](https://hub.docker.com/u/openshift/)
-- [github.com/sclorg/](https://github.com/sclorg/)
-- [github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
+- [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://catalog.redhat.com/en) License required
+- [DockerHub OpenShift](https://hub.docker.com/u/openshift)
+- [github.com/sclorg/](https://github.com/sclorg)
+- [github.com/sclorg/postgresql-container/](https://github.com/sclorg)
 - [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
 ### Gitlab
 
-- [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/blog/2016/06/28/get-started-with-openshift-origin-3-and-gitlab//)
+- [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/blog/2016/06/28/get-started-with-openshift-origin-3-and-gitlab)
 
 ### Atlassian Confluence6 
 
@@ -302,35 +302,35 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ### Sonatype Nexus 3
 
-- [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3/)
+- [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3)
 
 ### Rocket Chat
 
-- [Deploying Rocket.Chat on OpenShift [ARCHIVED]]( http://web.archive.org/web/20191122111119/https://rocket.chat/docs/installation/paas-deployments/openshift//)
+- [Deploying Rocket.Chat on OpenShift [ARCHIVED]]( http://web.archive.org/web/20191122111119/https:/rocket.chat/docs/installation/paas-deployments/openshift)
 - [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy)
 
 ## IBM Cloud Paks and OpenShift
 
-- [cloudpak8s.io](https://cloudpak8s.io/) 
+- [cloudpak8s.io](https://cloudpak8s.io) 
 - **What are IBM Cloud Paks?** Beyond containers and Kubernetes, enterprises need to orchestrate their production topology, and to provide management, security and governance for their applications. They need to do this while improving efficiency and resiliency, reducing costs and maximizing ROI.
 - IBM Cloud® Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud. Each IBM Cloud Pak® includes containerized IBM middleware and common software services for development and management, on top of a common integration layer — designed to **reduce development time by up to 84 percent and operational expenses by up to 75 percent**. **IBM Cloud Paks run wherever Red Hat® OpenShift® runs** and are optimized for productivity and performance on [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/products/openshift).
-- [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/) The **Cloud Pak for Applications** provides product offerings to support **modernizing existing applications and building new cloud native applications**. The applications run within a **Kubernetes cluster** provided with the **Red Hat OpenShift Container Platform**. The focus provided here is on running application workloads as containers. The Cloud Pak for Applications is a bundle of multiple offerings.  This diagram provides an overview of what offerings are included and what they would be used for:
+- [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview) The **Cloud Pak for Applications** provides product offerings to support **modernizing existing applications and building new cloud native applications**. The applications run within a **Kubernetes cluster** provided with the **Red Hat OpenShift Container Platform**. The focus provided here is on running application workloads as containers. The Cloud Pak for Applications is a bundle of multiple offerings.  This diagram provides an overview of what offerings are included and what they would be used for:
 
 <center markdown="1">
 
-[![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview/)
+[![cp4a_overview](images/cloudpak8s-overview.png)](https://cloudpak8s.io/apps/cp4a_overview)
 
 </center>
 
 ## OpenShift on AWS
 
-- [blog.openshift.com: AWS and red hat quickstart workshop](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop/)
-- [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift/) View deployment guide
+- [blog.openshift.com: AWS and red hat quickstart workshop](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop)
+- [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift) View deployment guide
 - [openshift.com: Introducing Red Hat OpenShift Service on AWS](https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws)
 
 ## OpenShift Dedicated
 
-- [OpenShift Dedicated 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated/)
+- [OpenShift Dedicated 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)
 - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 
 ## Other Awesome Lists

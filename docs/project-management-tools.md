@@ -10,15 +10,15 @@
 - [Jira](https://www.atlassian.com/software/jira)
     - [Transition Jira issues on merge](https://www.atlassian.com/blog/app/bitbucket) Check out the latest 
 Jira and Bitbucket integration. Now you can transition issues right from your merge window. Less back and forth with Jira.
-- [==OpenProject==](https://www.openproject.org/) Project Management 
-    - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject///)
+- [==OpenProject==](https://www.openproject.org) Project Management 
+    - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject)
     - [youtube.com: Learn to deploy OpenProject with Postgres in Kubernetes](https://www.youtube.com/watch?v=2mNAsrThius&ab_channel=CloudControl)
 - [==nextcloud.com==](https://nextcloud.com) Open Source On-Premises Content collaboration platform
-- [Servicenow](https://www.servicenow.com/)
+- [Servicenow](https://www.servicenow.com)
 - [Atlassian Confluence](https://www.atlassian.com/software/confluence)
     - [nightfall.ai: Is Atlassian Cloud HIPAA Compliant?](https://www.nightfall.ai/blog/atlassian-cloud-hipaa-compliant) HIPAA stands for Health Insurance Portability and Accountability Act, the standard for sensitive patient data protection.
-- [opensource.com: A guide to simplifying invoicing with this open source tool](https://opensource.com/article/21/7/open-source-invoicing-po) [project-open](https://www.project-open.com/) simplifies one of the most challenging activities in IT: writing customer invoices.
-- [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management/)
+- [opensource.com: A guide to simplifying invoicing with this open source tool](https://opensource.com/article/21/7/open-source-invoicing-po) [project-open](https://www.project-open.com) simplifies one of the most challenging activities in IT: writing customer invoices.
+- [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management)
 - [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html) Download free over 300, customizable project plan templates for Microsoft Word to track, manage, and prioritize your projects.
 - Microsoft Excel:
 - [namelix.com](https://namelix.com) Struggling to come up with a business name? Namelix can help you out.
@@ -26,25 +26,25 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 ## Alternatives
 
 - [32 Best Jira Alternatives For Agile Project Management Teams In 2020 [Free and Paid]](https://dzone.com/articles/32-best-jira-alternatives-for-agile-project-manage) 
-- [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software/)
+- [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software)
 - [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence) BlueSpice, XWiki, and DokuWiki give you all the features of more popular knowledge-management software without the proprietary limitations.
-- [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com/) The pros and cons of five popular project management timeline software companies.
+- [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com) The pros and cons of five popular project management timeline software companies.
 - [joplin](https://github.com/laurent22/joplin) is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.
 - [Podium](https://github.com/sa-mw-dach/podium) A collaboration environment.
-- [Swim](https://swimm.io/) Sync Teams with Code. 
-    - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation///)
-- [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management/)
+- [Swim](https://swimm.io) Sync Teams with Code. 
+    - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation)
+- [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management)
 - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)
 - [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom) Try one of these open source video conferencing services.
 - [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)
 - [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools) These articles show the power of open source in business as tools, platforms, or integration points.
-- [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter///)
+- [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter)
 - [ifuckinghatejira.com](https://ifuckinghatejira.com)
 
 ## Productivity Tips with .new TLD to quickly create
 
 - [Google Docs: doc.new](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S1328157413%3A1779046143757246&followup=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=docs&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PasaQiQXmXb5iN1qZZsvtoOkhIgQoRWugSdY4-JVcpmeUs17j5clMIVQfi1xcpGGzFDWWEjvLg)
-- [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https://meet.google.com/new?authuser%3D0%26hs%3D178)
+- [Google meet: meet.new](https://meet.google.com/unsupported?meetingCode=new&ref=https:/meet.google.com/new?authuser%3D0%26hs%3D178)
 - [Spreadsheets: sheet.new](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S-888283151%3A1779038836107039&followup=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=sheets&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauoMa7lQWyxlGGmOlILKdc_0OGix3neZYVIl24vayGw0wGG0CrQxkizeIBOFWVtABpTKfaO)
 - [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)
 - [GH Gists: gist.new](https://gist.github.com/starred)

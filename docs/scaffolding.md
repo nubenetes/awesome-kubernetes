@@ -12,11 +12,11 @@
 
 ## Nodejs Scaffolding with Yeoman
 
-- [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application///)
+- [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application)
 
 ## Java Scaffolding
 
-- [jhipster](https://www.jhipster.tech/)
+- [jhipster](https://www.jhipster.tech)
 
 ### Java Scaffolding with Spring Roo
 
@@ -30,18 +30,18 @@
 
 ## Kubernetes Scaffolding. Built in snippets for creating k8s resources
 
-- [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://blackbird.a8r.io//) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
-- [Skaffold 🌟](https://skaffold.dev/)
+- [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://blackbird.a8r.io) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
+- [Skaffold 🌟](https://skaffold.dev)
     - [cloud.google.com: Kubernetes development, simplified—Skaffold is now GA](https://cloud.google.com/blog/products/application-development/kubernetes-development-simplified-skaffold-is-now-ga)
     - [Cloud Code](https://cloud.google.com/code) Skaffold is the underlying engine that drives Cloud Code.
     - [ashishtechmill.com: CI/CD Workflow for Spring Boot Application on Kubernetes via Skaffold](https://www.ashishtechmill.com/cicd-workflow-for-spring-boot-application-on-kubernetes-via-skaffold) This article will cover how to create CI/CD workflow for a SpringBoot Application deployed to Kubernetes using Skaffold.
     - [==piotrminkowski.com: Development on Kubernetes with Telepresence and Skaffold==](https://piotrminkowski.com/2021/12/21/development-on-kubernetes-with-telepresence-and-skaffold) Development on Kubernetes with Telepresence and Skaffold. In this article, you will learn how to use Telepresence, Skaffold and the Jib Maven plugin to improve your Java development workflow on Kubernetes.
     - [dev.to: Getting Started With Skaffold](https://dev.to/thenjdevopsguy/getting-started-with-skaffold-5120)
-- [Draft](https://github.com/Azure/draft//)
-- [Garden](https://docs.garden.io//)
-- [codefresh.io: The ultimate guide for local development on Kubernetes: Draft vs Skaffold vs Garden.io](https://octopus.com/devops///)
+- [Draft](https://github.com/Azure/draft)
+- [Garden](https://docs.garden.io)
+- [codefresh.io: The ultimate guide for local development on Kubernetes: Draft vs Skaffold vs Garden.io](https://octopus.com/devops)
 - [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) GoogleCloudTech Code has built-in snippets for creating common resources (pod, service, configmap, etc). Plus diffing and dry-run of YAML.
 
 ## Other Scaffolding Tools
 
-- [Atomist](https://go.atomist.com/) New automation platform, delivering pre-built automations called Skills. 
+- [Atomist](https://go.atomist.com) New automation platform, delivering pre-built automations called Skills. 

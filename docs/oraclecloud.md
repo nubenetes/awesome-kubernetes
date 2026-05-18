@@ -10,7 +10,7 @@
 - [github.com/oracle](https://github.com/oracle)
 - [blogs.oracle.com: Access hands-on exercises for Oracle Cloud Infrastructure with ease](https://blogs.oracle.com/oracleuniversity/post/hands-on-labs-oci-training)
 - [docs.oracle.com: Overview of Resource Manager](https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm)
-- [thatjeffsmith.com: Best Practices: REST APIs for your Database {Draft!}](http://www.thatjeffsmith.com/archive/2022/02/best-practices-rest-apis-for-your-database-draft//)
+- [thatjeffsmith.com: Best Practices: REST APIs for your Database {Draft!}](http://www.thatjeffsmith.com/archive/2022/02/best-practices-rest-apis-for-your-database-draft)
 
 ## Oracle RAC
 

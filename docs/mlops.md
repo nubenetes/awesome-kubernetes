@@ -25,20 +25,20 @@
 
 ## Introduction. MLOps
 
-- [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
+- [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)
 - [dafriedman97.github.io: Machine Learning from Scratch](https://dafriedman97.github.io/mlbook/content/introduction.html) Derivations in Concept and Code.
-- [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models//)
+- [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models)
 - [github: A very Long never ending Learning around Data Engineering & Machine Learning](https://github.com/abhishek-ch/around-dataengineering)
 - [towardsdatascience.com: A Kubernetes architecture for machine learning web-application deployments](https://towardsdatascience.com/a-kubernetes-architecture-for-machine-learning-web-application-deployments-632f7765ef29) Use Kubernetes to reduce machine learning infrastructure costs and scale resources with ease.
 - [cloud.google.com: How to use a machine learning model from a Google Sheet using BigQuery ML](https://cloud.google.com/blog/topics/developers-practitioners/how-use-machine-learning-model-google-sheet-using-bigquery-ml)
 - [itnext.io: Building ML Componentes on Kubernetes](https://itnext.io/building-ml-componentes-on-kubernetes-fc7e24cb9269)
 - [towardsdatascience.com: Deploying An ML Model With FastAPI — A Succinct Guide](https://towardsdatascience.com/deploying-an-ml-model-with-fastapi-a-succinct-guide-69eceda27b21)
-- [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://opensource.microsoft.com/blog/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices///)
+- [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://opensource.microsoft.com/blog/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices)
 - [ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop) Example code for a basic ML Platform based on Pulumi, FastAPI, DVC, MLFlow and more
 - [rubrix](https://github.com/argilla-io/argilla) A free and open-source tool to explore, label, and monitor data for NLP projects.
 - [towardsdatascience.com: Automatically Generate Machine Learning Code with Just a Few Clicks](https://towardsdatascience.com/automatically-generate-machine-learning-code-with-just-a-few-clicks-7901b2334f97) Using Traingenerator to easily create PyTorch and scikit-learn template codes for machine learning model training
 - [towardsdatascience.com: Schemafull streaming data processing in ML pipelines](https://towardsdatascience.com/using-kafka-with-avro-in-python-da85b3e0f966) Making containerized Python streaming data pipelines leverage schemas for data validation using Kafka with AVRO and Schema Registry
-- [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines/)
+- [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines)
 - [towardsdatascience.com: Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb) A fast and simple approach to serve your model as an API
 - [ravirajag.dev: MLOps Basics - Week 10: Summary](https://www.ravirajag.dev/blog/mlops-summary)
 - [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md#machine-learning)
@@ -50,9 +50,9 @@
 - [datarevenue.com: Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow) Choosing a task orchestration tool
 - [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) From deepfakes to natural language processing and more, the open source world is ripe with projects to support software development on the frontiers of artificial intelligence and machine learning.
 - [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) In this tutorial, we’ll build an NLP app starting from DagsHub-MLflow, then diving into deployment in SageMaker and EC2 with the front end in Streamlit.
-- [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865///) El sistema AlphaFold de Google revela la estructura en 3D de las proteínas y ya es utilizado por miles de biólogos, pero Meta contraataca con otro algoritmo. ¿Cuál es mejor?
+- [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865) El sistema AlphaFold de Google revela la estructura en 3D de las proteínas y ya es utilizado por miles de biólogos, pero Meta contraataca con otro algoritmo. ¿Cuál es mejor?
 - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)
-- [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops/)
+- [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops)
 - [youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)
 - [openai.com: Scaling Kubernetes to 7,500 nodes 🌟](https://openai.com/research/scaling-kubernetes-to-7500-nodes) **We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling Laws for Neural Language Models.**
 - [huyenchip.com: Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
@@ -65,19 +65,19 @@
 - [marvelousmlops.substack.com: How to sell MLOps in large Organizations](https://marvelousmlops.substack.com/p/how-to-sell-mlops-in-large-organizations)
 - [marvelousmlops.substack.com: MLOps roadmap 2024](https://marvelousmlops.substack.com/p/mlops-roadmap-2024)
 - [towardsdatascience.com: Deploying LLM Apps to AWS, the Open-Source Self-Service Way](https://towardsdatascience.com/deploying-llm-apps-to-aws-the-open-source-self-service-way-c54b8667d829) A step-by-step guide on deploying LlamaIndex RAGs to AWS ECS fargate
-- [axelmendoza.com: The Ultimate Guide To ML Model Deployment In 2024](https://www.axelmendoza.com/posts/ml-model-deployment///) Explore the top ML model deployment tools of 2024 with this comprehensive guide. Uncover insights on Vertex AI, AWS Sagemaker, Seldon, KServe for successful ML projects.
+- [axelmendoza.com: The Ultimate Guide To ML Model Deployment In 2024](https://www.axelmendoza.com/posts/ml-model-deployment) Explore the top ML model deployment tools of 2024 with this comprehensive guide. Uncover insights on Vertex AI, AWS Sagemaker, Seldon, KServe for successful ML projects.
 - [towardsdatascience.com: Build Machine Learning Pipelines with Airflow and Mlflow: Reservation Cancellation Forecasting](https://towardsdatascience.com/build-machine-learning-pipelines-with-airflow-and-mlflow-reservation-cancellation-forecasting-da675d409842) Learn how to create reproducible and ready-for-production Machine Learning pipelines through a Senior Machine Learning assignment
 - [marvelousmlops.substack.com: Technical roles in Data Science: Who is doing what?](https://marvelousmlops.substack.com/p/technical-roles-in-data-science-who)
 - [marvelousmlops.substack.com: Traceability & Reproducibility](https://marvelousmlops.substack.com/p/traceability-and-reproducibility)
-- [marvelousmlops.substack.com: Learn Machine Learning and Neural Networks without Frameworks](https://www.freecodecamp.org/news/learn-machine-learning-and-neural-networks-without-frameworks/)
+- [marvelousmlops.substack.com: Learn Machine Learning and Neural Networks without Frameworks](https://www.freecodecamp.org/news/learn-machine-learning-and-neural-networks-without-frameworks)
 - [==seattledataguy.substack.com: Data Engineering Vs Machine Learning Pipelines==](https://seattledataguy.substack.com/p/data-engineering-vs-machine-learning)
 - [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphore.io/blog/devops-ml-data)
-- [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium///)
+- [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium)
 - [==medium.com/@samiullah6799: Different Roles in MLOps==](https://medium.com/@samiullah6799/different-roles-in-mlops-0918de5321a4)
 - [==dev.to/pavanbelagatti: Deploy Any AI/ML Application On Kubernetes: A Step-by-Step Guide!==](https://dev.to/pavanbelagatti/deploy-any-aiml-application-on-kubernetes-a-step-by-step-guide-2i37)
 - [marvelousmlops.substack.com: Sharpen your cookiecutter: speed up repo creation with workflows](https://marvelousmlops.substack.com/p/sharpen-your-cookiecutter-speed-up)
 - [decodingml.substack.com: How to ensure your models are fail-safe in production?](https://decodingml.substack.com/p/how-to-ensure-your-models-are-fail) Effectively monitor model serving stacks at scale, extracting key insights from their behaviour under large loads.
-- [==freecodecamp.org: MLOps Course – Learn to Build Machine Learning Production Grade Projects==](https://www.freecodecamp.org/news/mlops-course-learn-to-build-machine-learning-production-grade-projects/)
+- [==freecodecamp.org: MLOps Course – Learn to Build Machine Learning Production Grade Projects==](https://www.freecodecamp.org/news/mlops-course-learn-to-build-machine-learning-production-grade-projects)
 - [medium.com/@kevin30101999: Machine Learning Pipeline using Argo workflow 🌟](https://medium.com/@kevin30101999/machine-learning-pipeline-using-argo-workflow-be91feb07c41)
 
 ## MLOps Roadmap
@@ -87,12 +87,12 @@
 ## Blogs
 
 - [Marvelous MLOps Substack](https://marvelousmlops.substack.com)
-- [decodingml.substack.com: Decoding ML Newsletter](https://decodingml.substack.com/) Join for battle-tested content on designing, coding, and deploying production-grade ML & MLOps systems. Every week. For FREE.
+- [decodingml.substack.com: Decoding ML Newsletter](https://decodingml.substack.com) Join for battle-tested content on designing, coding, and deploying production-grade ML & MLOps systems. Every week. For FREE.
 
 ## ML Infra
 
 - [==youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform==](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale)
-- [==Ray==](https://docs.ray.io/en/latest///) is an open-source unified framework for scaling AI and Python applications. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert.
+- [==Ray==](https://docs.ray.io/en/latest) is an open-source unified framework for scaling AI and Python applications. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert.
 
 ## Object Detection Libraries
 
@@ -102,12 +102,12 @@
 
 - https://mlflow.org
 - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server) A Helm chart for MLFlow On Kubernetes
-- [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow/) An Apache Airflow provider to interact with MLflow using Operators and Hooks
+- [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow) An Apache Airflow provider to interact with MLflow using Operators and Hooks
 
 ## Kubeflow
 
-- [kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
-- [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow///)
+- [kubeflow](https://www.kubeflow.org) The Machine Learning Toolkit for Kubernetes
+- [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow)
 - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline. In this article you will learn how to deploy Kubeflow in AWS.
 - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)
 - [medium.com/dkatalis: Creating a Mutating Webhook for Great Good! Or: how to automatically provision Pods on a specific node pool](https://medium.com/dkatalis/creating-a-mutating-webhook-for-great-good-b21acb941207) In this tutorial, you will learn how to automatically schedule Kubeflow pipeline Pods from any number of namespaces on dedicated GKE node pools
@@ -116,7 +116,7 @@
 
 - https://flyte.org
 - [Union Cloud](https://www.union.ai) ML and Data Orchestration powered by Flyte
-- [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering/)
+- [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering)
 - [==Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript)== 🌟🌟🌟](https://www.union.ai/blog-post/machine-learning-in-production) - [Play Recording](https://x.com/i/spaces/1ZkKzbXLekWKv)
     - Kelsey Hightower joined the @flyteorg team to discuss what ML looks like in the real world, from ingesting data to consuming ML models via an API.
     - @kelseyhightower You can't go swimming in a #data_lake if you actually can't swim, right? You're going to drown. 🏊‍♂️
@@ -136,18 +136,18 @@
     - @kelseyhightower We're now at a stage where we can start to leverage systems like https://flyte.org to give us more of an opinionated end-to-end workflow. What we call #ML can become a real discipline where practitioners can use a common set of terms and practices.
 - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)
 - [union.ai: Production-Grade ML Pipelines: Flyte™ vs. Kubeflow](https://www.union.ai/blog-post/production-grade-ml-pipelines-flyte-vs-kubeflow) Kubeflow and Flyte are both production-grade, Kubernetes-native orchestrators for machine learning. Which is best for ML engineers? Check out this head-to-head comparison.
-- [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified/)
+- [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified)
 - [medium.com/@timleonardDS: Who Let the DAGs out? Register an External DAG with Flyte (Chapter 3)](https://medium.com/@timleonardDS/who-lets-the-dags-out-register-an-external-dag-with-flyte-chapter-3-bad0ea781119)
 
 ## AWS ML
 
-- [aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker///)
-- [aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd///)
+- [aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker)
+- [aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd)
 
 ## Azure ML
 
 - [docs.microsoft.com: MLflow and Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlflow?view=azureml-api-2) One of the open-source projects that has made #ML better is MLFlow. Microsoft is expanding support for APIs, no-code deployment for MLflow models in real-time/batch managed inference, curated MLflow settings, and CLI v2 integrations.
-- [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint///)
+- [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint)
     - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
     - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
 - [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c) Accelerate Model Development, Deployment, and Monitoring at Scale
@@ -161,20 +161,20 @@
 
 ## KServe Cloud Native Model Server
 
-- [thenewstack.io: KServe: A Robust and Extensible Cloud Native Model Server](https://thenewstack.io/kserve-a-robust-and-extensible-cloud-native-model-server///)
+- [thenewstack.io: KServe: A Robust and Extensible Cloud Native Model Server](https://thenewstack.io/kserve-a-robust-and-extensible-cloud-native-model-server)
 - [medium.com/bakdata: Scalable Machine Learning with Kafka Streams and KServe](https://medium.com/bakdata/scalable-machine-learning-with-kafka-streams-and-kserve-85308858d867) In this blog post, you'll learn how to use Apache Kafka and Kafka Streams in combination with the KServe inference platform for an easy integration of ML models with data streams
 
 ## Data Science
 
-- [analyticsvidhya.com: Bring DevOps To Data Science With MLOps](https://www.analyticsvidhya.com/blog/2021/04/bring-devops-to-data-science-with-continuous-mlops///)
-- [analyticsindiamag.com: Is coding necessary to work as a data scientist?](https://analyticsindiamag.com/is-coding-necessary-to-work-as-a-data-scientist/) Non-programmers with a no-coding background can have a glorious career in data science and programming, and coding knowledge is more like a skill and not a criterion.
+- [analyticsvidhya.com: Bring DevOps To Data Science With MLOps](https://www.analyticsvidhya.com/blog/2021/04/bring-devops-to-data-science-with-continuous-mlops)
+- [analyticsindiamag.com: Is coding necessary to work as a data scientist?](https://analyticsindiamag.com/is-coding-necessary-to-work-as-a-data-scientist) Non-programmers with a no-coding background can have a glorious career in data science and programming, and coding knowledge is more like a skill and not a criterion.
 - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
 
 ## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
-- [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix//) In this article, you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
-    - [Nix](https://nix.dev/manual/nix/2.28///)
+- [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) In this article, you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
+    - [Nix](https://nix.dev/manual/nix/2.28)
     - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
 - [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart== 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/helm-charts/gpu-operator)
 - [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup) Setup an NVIDIA RTX GPU on bare-metal Kubernetes, covering driver installation on Ubuntu 22.04, configuration, and troubleshooting.
@@ -188,16 +188,16 @@
 ## Other Tools
 
 - [bodywork-ml/bodywork-core: Bodywork](https://github.com/bodywork-ml/bodywork-core) is a command line tool that deploys machine learning pipelines to Kubernetes. It takes care of everything to do with containers and orchestration, so that you don't have to. **It is a more lightweight and simpler alternative when compared to tools like KubeFlow**
-- [learn.iterative.ai: Iterative Tools for Data Scientists & Analysts](https://learn.iterative.ai/) All the things you need to know to take you from your notebook to production with Iterative tools!
+- [learn.iterative.ai: Iterative Tools for Data Scientists & Analysts](https://learn.iterative.ai) All the things you need to know to take you from your notebook to production with Iterative tools!
 - VSCode DVC:
     - [DVC](https://marketplace.visualstudio.com/items?itemName=Iterative.dvc) Machine learning experiment management with tracking, plots, and data versioning.
     - [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension)
-- [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) envd (ɪnˈvdɪ) is a command-line tool that helps you create the container-based development environment for AI/ML. https://envd.tensorchord.ai/
+- [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) envd (ɪnˈvdɪ) is a command-line tool that helps you create the container-based development environment for AI/ML. https://envd.tensorchord.ai
 - [postgresml/postgresml 🌟](https://github.com/postgresml/postgresml) PostgresML is an end-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database.
 - [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677)
 - [vaex.io](https://vaex.io) An ML Ready Fast DataFrame for Python
-    - https://pypi.org/project/vaex/
-- [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists///) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
+    - https://pypi.org/project/vaex
+- [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
 - [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck) - [techxplore.com: Open-source training framework increases the speed of large language model pre-training when failures arise](https://techxplore.com/news/2023-12-open-source-framework-large-language-pre-training.html)
 - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-LMC-Lab/FastSAM) Fast Segment Anything
 - [github.com/VikParuchuri/surya](https://github.com/datalab-to/surya) Accurate line-level text detection and recognition (OCR) in any language
@@ -205,7 +205,7 @@
 - [==github.com/XuehaiPan/nvitop== 🌟](https://github.com/XuehaiPan/nvitop) **An interactive NVIDIA-GPU process viewer and beyond, the one-stop solution for GPU process management**
 - [==github.com/Netflix/metaflow== 🌟](https://github.com/Netflix/metaflow) **Build and manage real-life ML, AI, and data science projects with ease!**
 - [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingai-magazine/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db)
-- [zenml.io: ZenML](https://www.zenml.io/)
+- [zenml.io: ZenML](https://www.zenml.io)
     - [zenml.io/integrations: Explore the MLOps Landscape with ZenML](https://www.zenml.io/integrations) ZenML integrates with many different third-party tools. Once code is organized into a ZenML pipeline, you can supercharge your ML workflows with the best-in-class solutions from various MLOps areas.
     - [registry.terraform.io/modules/zenml-io/zenml-stack](https://registry.terraform.io/modules/zenml-io/zenml-stack)
 
@@ -230,7 +230,7 @@
 - [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset)
     - [Sport Car Price Prediction.ipynb](https://colab.research.google.com/drive/1m6ZjIJBxU20kxI9zTZqeMEVSq1FL0pNa?usp=sharing)
 - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)
-- [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab/)
+- [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab)
 
 ## Polls
 
@@ -257,9 +257,9 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deep Neural Networks are used for many applications. One I&#39;m particularly fond of is medical imaging. A trained model can process the input thanks to the activation functions propagating through a network of perceptrons and generating the output of interest.<a href="https://twitter.com/hashtag/NeuralNets?src=hash&amp;ref_src=twsrc%5Etfw">#NeuralNets</a> <a href="https://twitter.com/hashtag/Medical?src=hash&amp;ref_src=twsrc%5Etfw">#Medical</a> <a href="https://t.co/vPwm0TfHnn">pic.twitter.com/vPwm0TfHnn</a></p>&mdash; Valerio Pergola (@valerio_pergola) <a href="https://twitter.com/valerio_pergola/status/1544644935093215235?ref_src=twsrc%5Etfw">July 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/3D?src=hash&amp;ref_src=twsrc%5Etfw">#3D</a> intracranial artery segmentation using a convolutional neural networks <a href="https://twitter.com/hashtag/CNN?src=hash&amp;ref_src=twsrc%5Etfw">#CNN</a> - <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> &gt; <a href="https://t.co/Z2WDp2UOl3">https://t.co/Z2WDp2UOl3</a> | <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://twitter.com/hashtag/TensorFlow?src=hash&amp;ref_src=twsrc%5Etfw">#TensorFlow</a> <a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> <a href="https://twitter.com/hashtag/Nvidia?src=hash&amp;ref_src=twsrc%5Etfw">#Nvidia</a> <a href="https://twitter.com/hashtag/GPU?src=hash&amp;ref_src=twsrc%5Etfw">#GPU</a> <a href="https://twitter.com/hashtag/brain?src=hash&amp;ref_src=twsrc%5Etfw">#brain</a> <a href="https://twitter.com/hashtag/medical?src=hash&amp;ref_src=twsrc%5Etfw">#medical</a> <a href="https://twitter.com/hashtag/conda?src=hash&amp;ref_src=twsrc%5Etfw">#conda</a> <a href="https://twitter.com/hashtag/Neurology?src=hash&amp;ref_src=twsrc%5Etfw">#Neurology</a> <a href="https://twitter.com/hashtag/Artificial_Intelligence?src=hash&amp;ref_src=twsrc%5Etfw">#Artificial_Intelligence</a> <a href="https://twitter.com/hashtag/medical_imaging?src=hash&amp;ref_src=twsrc%5Etfw">#medical_imaging</a> <a href="https://twitter.com/hashtag/Nifti?src=hash&amp;ref_src=twsrc%5Etfw">#Nifti</a> <a href="https://t.co/eKrBBuFxSy">pic.twitter.com/eKrBBuFxSy</a></p>&mdash; NewUlmDesign (@ulmdesign) <a href="https://twitter.com/ulmdesign/status/1545091486475223041?ref_src=twsrc%5Etfw">July 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/3D?src=hash&amp;ref_src=twsrc%5Etfw">#3D</a> intracranial artery segmentation using a convolutional neural networks <a href="https://twitter.com/hashtag/CNN?src=hash&amp;ref_src=twsrc%5Etfw">#CNN</a> - <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> &gt; <a href="https://t.co/Z2WDp2UOl3">https:/t.co/Z2WDp2UOl3</a> | <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://twitter.com/hashtag/TensorFlow?src=hash&amp;ref_src=twsrc%5Etfw">#TensorFlow</a> <a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> <a href="https://twitter.com/hashtag/Nvidia?src=hash&amp;ref_src=twsrc%5Etfw">#Nvidia</a> <a href="https://twitter.com/hashtag/GPU?src=hash&amp;ref_src=twsrc%5Etfw">#GPU</a> <a href="https://twitter.com/hashtag/brain?src=hash&amp;ref_src=twsrc%5Etfw">#brain</a> <a href="https://twitter.com/hashtag/medical?src=hash&amp;ref_src=twsrc%5Etfw">#medical</a> <a href="https://twitter.com/hashtag/conda?src=hash&amp;ref_src=twsrc%5Etfw">#conda</a> <a href="https://twitter.com/hashtag/Neurology?src=hash&amp;ref_src=twsrc%5Etfw">#Neurology</a> <a href="https://twitter.com/hashtag/Artificial_Intelligence?src=hash&amp;ref_src=twsrc%5Etfw">#Artificial_Intelligence</a> <a href="https://twitter.com/hashtag/medical_imaging?src=hash&amp;ref_src=twsrc%5Etfw">#medical_imaging</a> <a href="https://twitter.com/hashtag/Nifti?src=hash&amp;ref_src=twsrc%5Etfw">#Nifti</a> <a href="https://t.co/eKrBBuFxSy">pic.twitter.com/eKrBBuFxSy</a></p>&mdash; NewUlmDesign (@ulmdesign) <a href="https://twitter.com/ulmdesign/status/1545091486475223041?ref_src=twsrc%5Etfw">July 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/WxspfKvLFS">https://t.co/WxspfKvLFS</a></p>&mdash; nubenetes (@nubenetes) <a href="https://twitter.com/nubenetes/status/1550543229799477248?ref_src=twsrc%5Etfw">July 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/WxspfKvLFS">https:/t.co/WxspfKvLFS</a></p>&mdash; nubenetes (@nubenetes) <a href="https://twitter.com/nubenetes/status/1550543229799477248?ref_src=twsrc%5Etfw">July 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/kelseyhightower?ref_src=twsrc%5Etfw">@kelseyhightower</a> We&#39;re now at a stage where we can start to leverage systems like <a href="https://twitter.com/hashtag/Flyte?src=hash&amp;ref_src=twsrc%5Etfw">#Flyte</a> to give us more of an opinionated end-to-end workflow. What we call <a href="https://twitter.com/hashtag/ML?src=hash&amp;ref_src=twsrc%5Etfw">#ML</a> can become a real discipline where practitioners can use a common set of terms and practices.<a href="https://twitter.com/hashtag/KelseyTakesFlyte?src=hash&amp;ref_src=twsrc%5Etfw">#KelseyTakesFlyte</a> <a href="https://twitter.com/hashtag/MLOps?src=hash&amp;ref_src=twsrc%5Etfw">#MLOps</a></p>&mdash; Flyte (@flyteorg) <a href="https://twitter.com/flyteorg/status/1550543758764044288?ref_src=twsrc%5Etfw">July 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

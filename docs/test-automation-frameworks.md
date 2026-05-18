@@ -24,78 +24,78 @@
 
 ## Selenium
 
-- [selenium.dev](https://www.selenium.dev//)
+- [selenium.dev](https://www.selenium.dev)
 - [Dzone: best practices for selenium automation](https://dzone.com/articles/best-practices-for-selenium-automation-one-must-kn)
 - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)
 - [youtube: execution test Selenium + Grafana + Jenkins](https://www.youtube.com/watch?v=vDj5IsWjU0A)
-- [lambdatest.com: Why Selenium Grid Is Ideal For Automated Browser Testing?](https://www.testmuai.com/blog/why-selenium-grid-is-ideal-for-automated-browser-testing///)
-- [lambdatest.com: Top 27 Best Practices For Selenium Test Automation](https://www.testmuai.com/blog/27-best-practices-selenium-test-automation///)
-- [lambdatest.com: Complete Guide To Access Forms In Selenium With Java](https://www.testmuai.com/blog/complete-guide-to-access-forms-in-selenium-with-java///)
-- [lambdatest.com: Selenium IDE: What Is It? & Why Is It Must For Every QA?](https://www.testmuai.com/blog/selenium-ide-what-is-it-why-is-it-must-for-every-qa///)
-- [qautomation.blog: How to run selenium script in JMeter](https://qautomation.blog/2019/05/07/how-to-run-selenium-script-in-jmeter/)
+- [lambdatest.com: Why Selenium Grid Is Ideal For Automated Browser Testing?](https://www.testmuai.com/blog/why-selenium-grid-is-ideal-for-automated-browser-testing)
+- [lambdatest.com: Top 27 Best Practices For Selenium Test Automation](https://www.testmuai.com/blog/27-best-practices-selenium-test-automation)
+- [lambdatest.com: Complete Guide To Access Forms In Selenium With Java](https://www.testmuai.com/blog/complete-guide-to-access-forms-in-selenium-with-java)
+- [lambdatest.com: Selenium IDE: What Is It? & Why Is It Must For Every QA?](https://www.testmuai.com/blog/selenium-ide-what-is-it-why-is-it-must-for-every-qa)
+- [qautomation.blog: How to run selenium script in JMeter](https://qautomation.blog/2019/05/07/how-to-run-selenium-script-in-jmeter)
 - [dev.to: Using Selenium With Python in a Docker Container](https://dev.to/nazliander/using-selenium-within-a-docker-container-ghp)
-- [intellipaat.com: Selenium Tutorial – Learn Selenium from Experts](https://intellipaat.com/blog/tutorial/selenium-tutorial///)
-- [lambdatest.com: How To Integrate Jenkins & Maven With Selenium?](https://www.testmuai.com/blog/selenium-maven-jenkins-integration///)
-- [lambdatest.com: Selenium 4 🌟](https://www.testmuai.com/learning-hub/selenium-4//)
+- [intellipaat.com: Selenium Tutorial – Learn Selenium from Experts](https://intellipaat.com/blog/tutorial/selenium-tutorial)
+- [lambdatest.com: How To Integrate Jenkins & Maven With Selenium?](https://www.testmuai.com/blog/selenium-maven-jenkins-integration)
+- [lambdatest.com: Selenium 4 🌟](https://www.testmuai.com/learning-hub/selenium-4)
 - [automationreinvented.blogspot.com: How to run selenium tests from Jenkins? Maven and Jenkins Integration with Testng-Selenium? Run selenium maven project from command line? 🌟](https://automationreinvented.blogspot.com/2021/02/how-to-run-test-selenium-tests-from.html)
-- [lambdatest.com/selenium: Introduction to Selenium Basics](https://www.testmuai.com/selenium//) Selenium is an open-source software to automate web testing by controlling browsers
+- [lambdatest.com/selenium: Introduction to Selenium Basics](https://www.testmuai.com/selenium) Selenium is an open-source software to automate web testing by controlling browsers
 based on your test scripts.
-- [lambdatest.com: Selenium Webdriver Java Tutorial – Guide for Beginners](https://www.testmuai.com/blog/selenium-java-tutorial-how-to-test-login-process///)
-- [lambdatest.com: Complete Guide To Selenium Testing with GitHub Actions 🌟](https://www.testmuai.com/blog/selenium-github-actions-example///)
-- [lambdatest.com: 49 Most Common Selenium Exceptions for Automation Testing](https://www.testmuai.com/blog/49-common-selenium-exceptions-automation-testing///)
-- [lambdatest.com: How to execute JUnit 4 tests with JUnit 5 [Tutorial]](https://www.testmuai.com/blog/execute-junit4-tests-with-junit5///)
-- [lambdatest.com: How To Run Selenium Tests In Docker ? 🌟](https://www.testmuai.com/blog/run-selenium-tests-in-docker///)
-- [lambdatest.com: What Is New In Selenium 4 And What Is Deprecated In It? 🌟](https://www.testmuai.com/blog/what-is-deprecated-in-selenium4///)
-- [lambdatest.com: How To Upgrade From Selenium 3 To Selenium 4?](https://www.testmuai.com/blog/upgrade-from-selenium3-to-selenium4///)
-- [lambdatest.com: Automation Testing with Selenium JavaScript [Tutorial]](https://www.testmuai.com/blog/automation-testing-with-selenium-javascript///)
-- [lambdatest.com: How To Scroll a Page Using Selenium WebDriver?](https://www.testmuai.com/blog/scroll-down-in-selenium///)
-- [automationscript.com: Parallel Execution In Selenium Using Jenkins](https://automationscript.com/parallel-execution-in-selenium-using-jenkins/)
-- [lambdatest.com: How To Modify HTTP Request Headers In JAVA Using Selenium WebDriver?](https://www.testmuai.com/blog/modifying-http-request-headers-in-java-using-selenium-webdriver//)
+- [lambdatest.com: Selenium Webdriver Java Tutorial – Guide for Beginners](https://www.testmuai.com/blog/selenium-java-tutorial-how-to-test-login-process)
+- [lambdatest.com: Complete Guide To Selenium Testing with GitHub Actions 🌟](https://www.testmuai.com/blog/selenium-github-actions-example)
+- [lambdatest.com: 49 Most Common Selenium Exceptions for Automation Testing](https://www.testmuai.com/blog/49-common-selenium-exceptions-automation-testing)
+- [lambdatest.com: How to execute JUnit 4 tests with JUnit 5 [Tutorial]](https://www.testmuai.com/blog/execute-junit4-tests-with-junit5)
+- [lambdatest.com: How To Run Selenium Tests In Docker ? 🌟](https://www.testmuai.com/blog/run-selenium-tests-in-docker)
+- [lambdatest.com: What Is New In Selenium 4 And What Is Deprecated In It? 🌟](https://www.testmuai.com/blog/what-is-deprecated-in-selenium4)
+- [lambdatest.com: How To Upgrade From Selenium 3 To Selenium 4?](https://www.testmuai.com/blog/upgrade-from-selenium3-to-selenium4)
+- [lambdatest.com: Automation Testing with Selenium JavaScript [Tutorial]](https://www.testmuai.com/blog/automation-testing-with-selenium-javascript)
+- [lambdatest.com: How To Scroll a Page Using Selenium WebDriver?](https://www.testmuai.com/blog/scroll-down-in-selenium)
+- [automationscript.com: Parallel Execution In Selenium Using Jenkins](https://automationscript.com/parallel-execution-in-selenium-using-jenkins)
+- [lambdatest.com: How To Modify HTTP Request Headers In JAVA Using Selenium WebDriver?](https://www.testmuai.com/blog/modifying-http-request-headers-in-java-using-selenium-webdriver)
 - [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot)
-- [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.testmuai.com/blog/debunking-selenium-testing-myths///)
-- [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna/) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
-- [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://andara88.it.com//)
-- [testrigtechnologies.com: Selenium Automation Testing: How to write automated test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script///)
-- [lambdatest.com: Selenium Locators Tutorial 🌟](https://www.testmuai.com/learning-hub/selenium-locators//) Locators in Selenium play an important role in the life of an automation engineer. They provide a path to access web elements that are essential to automate specific actions like click, type, checkboxes, etc.
-- [==lambdatest.com: Selenium Automation Testing: Basics and Getting Started== 🌟](https://www.testmuai.com/blog/selenium-tutorial///)
-- [lambdatest.com: How To Read Config Files In Python Using Selenium [With Example]](https://www.testmuai.com/blog/how-to-read-configuration-files-in-python-using-selenium///)
-- [lambdatest.com: How To Create Automated Web Bot With Selenium In Python](https://www.testmuai.com/blog/automated-web-bot-with-selenium-python///)
-- [==lambdatest.com: Selenium Python Tutorial== 🌟](https://www.testmuai.com/learning-hub/python-tutorial//)
-- [lambdatest.com: Why You Need Build Automation Tools for Selenium Automation Testing?](https://www.testmuai.com/blog/why-you-need-build-automation-tools-for-selenium-automation-testing///)
+- [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.testmuai.com/blog/debunking-selenium-testing-myths)
+- [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
+- [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://andara88.it.com)
+- [testrigtechnologies.com: Selenium Automation Testing: How to write automated test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script)
+- [lambdatest.com: Selenium Locators Tutorial 🌟](https://www.testmuai.com/learning-hub/selenium-locators) Locators in Selenium play an important role in the life of an automation engineer. They provide a path to access web elements that are essential to automate specific actions like click, type, checkboxes, etc.
+- [==lambdatest.com: Selenium Automation Testing: Basics and Getting Started== 🌟](https://www.testmuai.com/blog/selenium-tutorial)
+- [lambdatest.com: How To Read Config Files In Python Using Selenium [With Example]](https://www.testmuai.com/blog/how-to-read-configuration-files-in-python-using-selenium)
+- [lambdatest.com: How To Create Automated Web Bot With Selenium In Python](https://www.testmuai.com/blog/automated-web-bot-with-selenium-python)
+- [==lambdatest.com: Selenium Python Tutorial== 🌟](https://www.testmuai.com/learning-hub/python-tutorial)
+- [lambdatest.com: Why You Need Build Automation Tools for Selenium Automation Testing?](https://www.testmuai.com/blog/why-you-need-build-automation-tools-for-selenium-automation-testing)
 
 ## Robot Framework
 
-- [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
+- [Robot Framework 🌟](https://robotframework.org) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
 
 ## Cypress
 
-- [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.testmuai.com/blog/cypress-vs-selenium-comparison///)
+- [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.testmuai.com/blog/cypress-vs-selenium-comparison)
 
 ## Microsoft Playwright
   - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - *(Related to azure topic)*
-- [automationqahub.com: How to Configure Playwright](https://automationqahub.com/how-to-install-playwright-tool/)
-- [automationqahub.com: How to build a Playwright Page Object Model](https://automationqahub.com/how-to-build-playwright-page-object-model/)
-- [automationqahub.com: How to Configure multiple environments in Playwright](https://automationqahub.com/how-to-configure-multiple-environments-in-playwright/)
+- [automationqahub.com: How to Configure Playwright](https://automationqahub.com/how-to-install-playwright-tool)
+- [automationqahub.com: How to build a Playwright Page Object Model](https://automationqahub.com/how-to-build-playwright-page-object-model)
+- [automationqahub.com: How to Configure multiple environments in Playwright](https://automationqahub.com/how-to-configure-multiple-environments-in-playwright)
 
 ## Tempest Testing Project
 
-- [Tempest Testing Project](https://docs.openstack.org/tempest/latest//) Complete coverage of the OpenStack API and common scenarios that simulate a working cloud.
+- [Tempest Testing Project](https://docs.openstack.org/tempest/latest) Complete coverage of the OpenStack API and common scenarios that simulate a working cloud.
 - [opensource.com: Why we built an open source testing framework](https://opensource.com/article/22/1/open-source-testing-framework)
 
 ## Mobile Tests
 
 ### Appium
 
-- [appium.io](http://appium.io/)
-- [automationqahub.com: How to get started with Appium 2.0](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0/)
+- [appium.io](http://appium.io)
+- [automationqahub.com: How to get started with Appium 2.0](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0)
 
 ### Cucumber and Appium. Behavior Driven Development
 
-- [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://digital.ai/products/continuous-testing///)
+- [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://digital.ai/products/continuous-testing)
 - [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe) Getting started with BDD, Cucumber, and Gherkin.
-- [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.testmuai.com/blog/cucumber-with-jenkins-integration//)
+- [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.testmuai.com/blog/cucumber-with-jenkins-integration)
 - [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam) Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Postman collection. It allows to build and test api workflow in minutes.
-- [testinglpoint.com: Cucumber Interview Question](https://www.testinglpoint.com/cucumber-interview-question/)
+- [testinglpoint.com: Cucumber Interview Question](https://www.testinglpoint.com/cucumber-interview-question)
 - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber) Testing APIs in a microservices environment can be a challenging task. In this tutorial, we will learn to address it in BDD-style testing using Cucumber.
 
 ## Test Automation with Zephyr (Jira Plugin)

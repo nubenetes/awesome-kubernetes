@@ -1,4 +1,4 @@
 # Chef
 
-- [chef.io](https://www.chef.io/)
-- [learn.chef.io](https://www.chef.io/training/tutorials/)
+- [chef.io](https://www.chef.io)
+- [learn.chef.io](https://www.chef.io/training/tutorials)

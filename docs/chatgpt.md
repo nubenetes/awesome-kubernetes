@@ -18,12 +18,12 @@
 - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google)
 - [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data) Lets generate SQL using chatGPT and simplify our work
 - [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162)
-- [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data///) ChatGPT is a powerful language model that can be used for a variety of tasks. But did you know you can use custom data to improve its accuracy and speed?
-- [techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023](https://www.techrepublic.com/article/chatgpt-cheat-sheet/)
-- [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional/)
+- [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) ChatGPT is a powerful language model that can be used for a variety of tasks. But did you know you can use custom data to improve its accuracy and speed?
+- [techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023](https://www.techrepublic.com/article/chatgpt-cheat-sheet)
+- [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional)
 - [christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve your Microsft Excel skills?](https://christianmartinezfinancialfox.medium.com/how-to-use-chatgpt-to-improve-your-microsft-excel-skills-41817b6465df)
-- [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code///) With so many AI-powered assistants waiting to be explored, we've now entered the phase where excited coders are trying their own homegrown experiments — and sharing the results online.
-- [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr//)
+- [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code) With so many AI-powered assistants waiting to be explored, we've now entered the phase where excited coders are trying their own homegrown experiments — and sharing the results online.
+- [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr)
 
 ## TableauGPT
 
@@ -38,7 +38,7 @@
 - [github.com/robusta-dev/chatgpt-yaml-generator](https://github.com/robusta-dev/chatgpt-yaml-generator)
 
 ## Explained by ChatGPT
-  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for/) - *(Related to ai topic)*
+  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for) - *(Related to ai topic)*
 
 ### DevOps Compliance
 
@@ -73,17 +73,17 @@
 > *In summary, both approaches have their advantages and disadvantages and are suited to different situations and needs. It depends on the preferences and skills of the development and IT operations team to choose the appropriate approach for their organization.*
 
 ## Tools
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai/) - *(Related to ai topic)*
-  - [Cerebras AI](https://www.cerebras.ai/) - *(Related to ai topic)*
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai) - *(Related to ai topic)*
+  - [Cerebras AI](https://www.cerebras.ai) - *(Related to ai topic)*
   - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
   - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) - *(Related to ai topic)*
-  - [Claude 101: Free Guides to Master Claude](https://claude101.com/) - *(Related to ai topic)*
-  - [Think Python](https://allendowney.github.io/ThinkPython//) - *(Related to python topic)*
-  - [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task/) - *(Related to ai topic)*
+  - [Claude 101: Free Guides to Master Claude](https://claude101.com) - *(Related to ai topic)*
+  - [Think Python](https://allendowney.github.io/ThinkPython) - *(Related to python topic)*
+  - [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task) - *(Related to ai topic)*
   - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) - *(Related to ai topic)*
-  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga///) - *(Related to cicd topic)*
+  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) - *(Related to cicd topic)*
 
-- [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot/) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
+- [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
 - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
-- [numerous.ai](https://numerous.ai/) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.
+- [numerous.ai](https://numerous.ai) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.
 - [chat.openai.com/g/g-6eSNNNvsB-kubernetes-terraformer: Kubernetes Terraformer](https://chatgpt.com/g/g-6eSNNNvsB-kubernetes-terraformer) Converts Kubernetes YAML to Terraform HCL, extracting key variables. By Mark Tinderholt

@@ -46,17 +46,17 @@
 
 ## Other Awesome Kubernetes Lists
 
-- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes///)
+- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes)
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
 - [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools///) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
-- [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
+- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
+- [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [==ksoclabs/awesome-kubernetes-security== 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
-- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest///)
+- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
     - https://clusterpedia.io
@@ -86,8 +86,8 @@
 - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
 - [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles.
 - [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
-- [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
-- [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com/) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
+- [==Devdocs.io API Documentation== 🌟](https://devdocs.io)
+- [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
 - [github.com/iximiuz: Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering) List of awesome tools to tinker with containers.
 - [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) This repository provides a working, deployable, open source based, AWS Lambda handler and CDK Python code. This handler embodies Serverless best practices and has all the bells and whistles for a proper production ready handler.
 - [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) A collection of tools to improve your containerized apps security posture
@@ -113,7 +113,7 @@
 
 ### Cloud Native
 
-- [Awesome Cloud Native](https://awesome.jimmysong.io//)
+- [Awesome Cloud Native](https://awesome.jimmysong.io)
 - [Awesome Cloud Native Java](https://github.com/saturnism/awesome-cloud-native-java)
 
 ### CI/CD and Pipelines
@@ -187,8 +187,8 @@
 
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Compose](https://github.com/docker/awesome-compose)
-    - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/) for project development kickoff
-- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions///) A Curated List of Docker Extensions
+    - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff) for project development kickoff
+- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions) A Curated List of Docker Extensions
 
 ### Configuration Management
 
@@ -228,8 +228,8 @@
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - Awesome Go:
     - [Awesome Go](https://github.com/avelino/awesome-go)
-        - [awesome-go.com](https://awesome-go.com/)
-        - [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
+        - [awesome-go.com](https://awesome-go.com)
+        - [==golangrepo.com== 🌟](https://golangrepo.com) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
     - [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
     - [nleiva/go-links](https://github.com/nleiva/go-links)
 - Awesome .NET Core:
@@ -250,8 +250,8 @@
 
 #### Bash
 
-- [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
-- [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets///) Generate SSH Keys, Push SSH public key, run remote commands, etc.
+- [wiki.bash-hackers.org](https://wiki.bash-hackers.org)
+- [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets) Generate SSH Keys, Push SSH public key, run remote commands, etc.
 
 #### Powershell
 
@@ -260,7 +260,7 @@
 
 ### Data Processing
 
-- [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
+- [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101) frameworks, applications, readings and other resources.
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
 
 ### Big Data
@@ -276,8 +276,8 @@
 
 ## Open Source Alternatives
 
-- [opensource.builders](https://opensource.builders/)
-- [free-for.dev](https://free-for.dev/)
+- [opensource.builders](https://opensource.builders)
+- [free-for.dev](https://free-for.dev)
 
 ## Kubectl Plugins
 
