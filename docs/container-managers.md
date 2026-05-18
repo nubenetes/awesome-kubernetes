@@ -23,13 +23,13 @@
 
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
 - [inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟](https://www.inovex.de/de/blog/containers-docker-containerd-nabla-kata-firecracker//)
-- [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker///)
-- [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/containers/container-best-practices-what-they-are-and-why-you-should-care///)
+- [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker////)
+- [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/containers/container-best-practices-what-they-are-and-why-you-should-care////)
 
 ## OCI Project. Open Container Initiative
 
 - [OCI: Open Container Initiative](https://opencontainers.org//)
-- [scrivano.org: the journey to speed up running OCI containers](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers///)
+- [scrivano.org: the journey to speed up running OCI containers](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers////)
 
 ### OCI Runtimes
 
@@ -48,9 +48,9 @@
 ## Container Managers / Container Runtimes (CRI runtimes)
   - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) 🌟 - The containerd GitHub repository hosts the source code and documentation for containerd, an open and reliable container runtime. It is a core component for running containers, often used by higher-level orchestrators like Kubernetes and Docker.
   - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) - *(Related to kubernetes topic)*
-  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker///) - An article from Build5Nines providing a detailed overview of Podman, an open-source container engine developed by Red Hat. It explains Podman's key features such as its daemonless architecture, rootless execution, native pod support, and Docker-compatible CLI, and contrasts it with Docker's daemon-based model. The article aims to help developers transition between the two container management tools.
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker////) - An article from Build5Nines providing a detailed overview of Podman, an open-source container engine developed by Red Hat. It explains Podman's key features such as its daemonless architecture, rootless execution, native pod support, and Docker-compatible CLI, and contrasts it with Docker's daemon-based model. The article aims to help developers transition between the two container management tools.
 
-- [Kubernetes.io: Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes///)
+- [Kubernetes.io: Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes////)
 - [Docker](https://www.docker.com/products/container-runtime)
 - [containerd.io](https://containerd.io/)
 - [Frakti](https://github.com/kubernetes-retired/frakti)
@@ -73,28 +73,28 @@
 - [youtube: Getting started with Podman](https://www.youtube.com/watch?v=Za36qHbrf3g)
 - [Podman remote clients for macOS and Windows](https://www.redhat.com/en/blog/podman-clients-macos-windows) Podman manages your containers on a Linux host. Manage your containers from macOS or Windows by using the Podman remote client.
 - [developers.redhat.com: Rootless containers with Podman: The basics](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics/)
-- [tecmint.com: How to Manage Containers Using Podman and Skopeo in RHEL 8](https://www.tecmint.com/manage-containers-using-podman-in-rhel///)
-- [thenewstack.io: Tutorial: Host a Local Podman Image Registry 🌟](https://thenewstack.io/tutorial-host-a-local-podman-image-registry///)
+- [tecmint.com: How to Manage Containers Using Podman and Skopeo in RHEL 8](https://www.tecmint.com/manage-containers-using-podman-in-rhel////)
+- [thenewstack.io: Tutorial: Host a Local Podman Image Registry 🌟](https://thenewstack.io/tutorial-host-a-local-podman-image-registry////)
 - [redhat.com: Using Podman and Docker Compose](https://www.redhat.com/en/blog/podman-docker-compose) Podman 3.0 now supports Docker Compose to orchestrate containers.
 - [redhat.com: From Docker Compose to Kubernetes with Podman](https://www.redhat.com/en/blog/compose-kubernetes-podman) Use Podman 3.0 to convert Docker Compose YAML to a format Podman recognizes.
-- [fedoramagazine.org: Manage containers with Podman Compose](https://fedoramagazine.org/manage-containers-with-podman-compose///)
+- [fedoramagazine.org: Manage containers with Podman Compose](https://fedoramagazine.org/manage-containers-with-podman-compose////)
 - [medium: Podman: Getting Started](https://medium.com/javarevisited/podman-getting-started-e7fc06961994)
 - [oldgitops.medium.com: Setting up Podman on WSL2 in Windows 10 🌟](https://oldgitops.medium.com/setting-up-podman-on-wsl2-in-windows-10-be2991c2d443)
 - [youtube: Podman in Podman (Running a container within a container)](https://www.youtube.com/watch?app=desktop&v=OcHRWaC5tvY&feature=youtu.be&ab_channel=RedHat)
 - "Forget about Docker image updating hassle. Podman offers simple auto updating capabilities. It works with conjunction with systemd. Just add label "io.containers.autoupdate=image" and run podman auto-update in cron or with help of systemd.timer and be done with it" [puksiarz](https://x.com/puksiarz)
-- [wbhegedus.me: Configuring Podman for WSL2 🌟](https://wbhegedus.me/running-podman-on-wsl2//)
+- [wbhegedus.me: Configuring Podman for WSL2 🌟](https://wbhegedus.me/running-podman-on-wsl2///)
 - [redhat.com: How to replace Docker with Podman on a Mac](https://www.redhat.com/en/blog/replace-docker-podman-macos) Want to use Podman to work with containers? Here's what you need to know about Podman on a Mac.
 - [redhat.com: Exploring the new Podman secret command 🌟](https://www.redhat.com/en/blog/new-podman-secrets-command) Use the new podman secret command to secure sensitive data when working with containers.
 - [developers.redhat.com: Using Podman Compose with Microcks: A cloud-native API mocking and testing tool](https://developers.redhat.com/blog/2021/04/22/using-podman-compose-with-microcks-a-cloud-native-api-mocking-and-testing-tool)
 - [redhat.com: How to automate Podman installation and deployment using Ansible 🌟](https://www.redhat.com/en/blog/automate-podman-ansible) Learn how to easily install and deploy Podman using Ansible in your environment.
-- [tutorialworks.com: How to Start Containers Automatically, with Podman and Systemd](https://www.tutorialworks.com/podman-systemd///)
+- [tutorialworks.com: How to Start Containers Automatically, with Podman and Systemd](https://www.tutorialworks.com/podman-systemd////)
 - [youtube: Podman 3 and Docker Compose - How Does the Dockerless Compose Work? 🌟](https://www.youtube.com/watch?v=15PFfjuxtvM&ab_channel=mkdev)
-- [fedoramagazine.org: Use Docker Compose with Podman to Orchestrate Containers on Fedora Linux](https://fedoramagazine.org/use-docker-compose-with-podman-to-orchestrate-containers-on-fedora///)
+- [fedoramagazine.org: Use Docker Compose with Podman to Orchestrate Containers on Fedora Linux](https://fedoramagazine.org/use-docker-compose-with-podman-to-orchestrate-containers-on-fedora////)
 - [opensource.com: Run a Linux virtual machine in Podman](https://opensource.com/article/21/7/linux-podman) Use Podman Machine to create a basic Fedora CoreOS VM to use with containers and containerized workloads.
 - [developers.redhat.com: Transitioning from Docker to Podman 🌟](https://developers.redhat.com/blog/2020/11/19/transitioning-from-docker-to-podman)
 - [pythonspeed.com: Using Podman with BuildKit, the better Docker image builder 🌟](https://pythonspeed.com/articles/podman-buildkit/)
-- [devopscube.com: Podman Tutorial For Beginners: Step by Step Guides 🌟](https://devopscube.com/podman-tutorial-beginners///)
-- [kubernetespodcast.com: Podman, with Daniel Walsh and Brent Baude](https://kubernetespodcast.com/episode/164-podman///)
+- [devopscube.com: Podman Tutorial For Beginners: Step by Step Guides 🌟](https://devopscube.com/podman-tutorial-beginners////)
+- [kubernetespodcast.com: Podman, with Daniel Walsh and Brent Baude](https://kubernetespodcast.com/episode/164-podman////)
 - [redhat.com: How to use auto-updates and rollbacks in Podman](https://www.redhat.com/en/blog/podman-auto-updates-rollbacks)
     - New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
     - Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
@@ -103,7 +103,7 @@
 - [medium.com: Exploring Docker alternative — Podman](https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311)
 - [darumatic.com: Podman - Introduction 🌟](https://darumatic.com/blog/podman_introduction)
 - [redhat.com: Build Kubernetes pods with Podman play kube](https://www.redhat.com/en/blog/podman-play-kube-updates) Enhancements include building images and tearing down pods with play kube and support for Kubernetes-style init containers.
-- [==iongion.github.io: Podman Desktop Companion== 🌟](https://iongion.github.io/podman-desktop-companion///) Cross-platform desktop integrated application with consistent UI
+- [==iongion.github.io: Podman Desktop Companion== 🌟](https://iongion.github.io/podman-desktop-companion////) Cross-platform desktop integrated application with consistent UI
 - [redhat.com: How to replace Docker with Podman on a Mac, revisited](https://www.redhat.com/en/blog/replace-docker-podman-mac-revisited) Want to use Podman on macOS? There's a new way with podman machine. Here's what you need to know.
 - [imaginarycloud.com: Podman vs Docker: What are the differences?](https://www.imaginarycloud.com/blog/podman-vs-docker/)
 - [opensource.com: Run containers on Linux without sudo in Podman](https://opensource.com/article/22/1/run-containers-without-sudo-podman) Configure your system for rootless containers.
@@ -129,7 +129,7 @@
 ## Container Images
 
 - [sherifabdlnaby/kubephp](https://github.com/sherifabdlnaby/kubephp) 🐳 Production Grade, Rootless, and Optimized PHP Container Image Template for Cloud-Native Deployments and Kubernetes.
-- [iximiuz.com: In Pursuit of Better Container Images: Alpine, Distroless, Apko, Chisel, DockerSlim, oh my!](https://iximiuz.com/en/posts/containers-making-images-better///)
+- [iximiuz.com: In Pursuit of Better Container Images: Alpine, Distroless, Apko, Chisel, DockerSlim, oh my!](https://iximiuz.com/en/posts/containers-making-images-better////)
 
 ### Red Hat Universal Base Image
 
