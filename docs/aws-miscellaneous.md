@@ -51,16 +51,16 @@
 
 ## AWS Cloud Control API
 
-- [AWS Cloud Control API](https://aws.amazon.com/cloudcontrolapi///) **Manage AWS and third-party cloud infrastructure with consistent APIs**
-- [AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services](https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api//)
+- [AWS Cloud Control API](https://aws.amazon.com/cloudcontrolapi////) **Manage AWS and third-party cloud infrastructure with consistent APIs**
+- [AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services](https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api///)
 
 ## VMware Cloud on AWS
 
-- [VMware Cloud on AWS](https://aws.amazon.com/es/vmware///) The Only Way to Extend Your VMware Environment into AWS
+- [VMware Cloud on AWS](https://aws.amazon.com/es/vmware////) The Only Way to Extend Your VMware Environment into AWS
 
 ### AWS Application Discovery Service Update. Agentless Discovery for VMware
 
-- [AWS Application Discovery Service Update – Agentless Discovery for VMware](https://aws.amazon.com/blogs/aws/aws-application-discovery-service-update-agentless-discovery-for-vmware///)
+- [AWS Application Discovery Service Update – Agentless Discovery for VMware](https://aws.amazon.com/blogs/aws/aws-application-discovery-service-update-agentless-discovery-for-vmware////)
 
 ## AWS for Windows
 
@@ -68,7 +68,7 @@
 
 ## AWS IoT
 
-- [aws.amazon.com/en/iot](https://aws.amazon.com/iot//)
+- [aws.amazon.com/en/iot](https://aws.amazon.com/iot///)
 - [What Is AWS IoT?](http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html)
 
 ## AWS Elastic Transcoder. Video streaming
@@ -79,17 +79,17 @@
 
 ## AWS Partner Network (APN)
 
-- [AWS Partner Network](https://aws.amazon.com/partners///)
-    - [APN Technology Partners](https://aws.amazon.com/partners///paths//)
-    - [APN Consulting Partners](https://aws.amazon.com/partners///consulting/)
-- [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn///)
-    - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn//active-directory-single-sign-on-sso-on-aws-with-bitium//)
-    - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn//how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst///)
+- [AWS Partner Network](https://aws.amazon.com/partners////)
+    - [APN Technology Partners](https://aws.amazon.com/partners////paths//)
+    - [APN Consulting Partners](https://aws.amazon.com/partners////consulting/)
+- [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn////)
+    - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn///active-directory-single-sign-on-sso-on-aws-with-bitium//)
+    - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn///how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst///)
 
 ## AWS App Mesh
 
-- [AWS App Mesh Workshop](https://aws.amazon.com/app-mesh//)
-- [amazon.com: Leveraging App Mesh with Amazon EKS in a Multi-Account environment](https://aws.amazon.com/blogs/containers/leveraging-app-mesh-with-amazon-eks-in-a-multi-account-environment///)
+- [AWS App Mesh Workshop](https://aws.amazon.com/app-mesh///)
+- [amazon.com: Leveraging App Mesh with Amazon EKS in a Multi-Account environment](https://aws.amazon.com/blogs/containers/leveraging-app-mesh-with-amazon-eks-in-a-multi-account-environment////)
 
 ## Local Testing
 
@@ -108,7 +108,7 @@
 
 ## AWS Chaos Engineeering. AWS Fault Injection Simulator
 
-- [techcrunch.com: AWS introduces new Chaos Engineering as a Service offering](https://techcrunch.com/2020/12/15/aws-introduces-new-chaos-engineering-as-a-service-offering///)
+- [techcrunch.com: AWS introduces new Chaos Engineering as a Service offering](https://techcrunch.com/2020/12/15/aws-introduces-new-chaos-engineering-as-a-service-offering////)
 
 ## Superwerker
 
@@ -118,27 +118,27 @@
 
 - [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-react-native-tutorial-examples//)
 - [dev.to: 10 New AWS Amplify Features to Check Out](https://dev.to/aws/10-new-aws-amplify-features-to-check-out-4291)
-- [docs.amplify.aws: Set up Amplify Auth](https://docs.amplify.aws/javascript/build-a-backend/auth/set-up-auth///)
+- [docs.amplify.aws: Set up Amplify Auth](https://docs.amplify.aws/javascript/build-a-backend/auth/set-up-auth////)
 
 ## AWS App Runner
 
-- [AWS App Runner 🌟](https://aws.amazon.com/apprunner///) AWS App Runner is one of the simplest ways to run your containerized web applications and APIs on AWS. App Runner abstracts away the cloud resources needed for running your web application or API, including load balancers, TLS certificates, auto-scaling, logs, metrics, tracing (such as observability), as well as the underlying compute resources. With App Runner, you can start with source code or a container image.
+- [AWS App Runner 🌟](https://aws.amazon.com/apprunner////) AWS App Runner is one of the simplest ways to run your containerized web applications and APIs on AWS. App Runner abstracts away the cloud resources needed for running your web application or API, including load balancers, TLS certificates, auto-scaling, logs, metrics, tracing (such as observability), as well as the underlying compute resources. With App Runner, you can start with source code or a container image.
 - [dev.to: AWS App Runner : How to deploy containerized applications using App Runner](https://dev.to/aws-builders/aws-app-runner-how-to-deploy-containerized-applications-using-app-runner-1f7c) AWS App Runner is an AWS service that provides a fast, simple and cost-effective way to deploy from source code or a container image directly to a scalable and secure web application in the AWS Cloud. You don’t need to learn new technologies, decide which compute service to use, or know how to provision and configure AWS resources.
-- [Architecting for resiliency on AWS App Runner](https://aws.amazon.com/blogs/containers/architecting-for-resiliency-on-aws-app-runner///) Using two regions in an active-active configuration
+- [Architecting for resiliency on AWS App Runner](https://aws.amazon.com/blogs/containers/architecting-for-resiliency-on-aws-app-runner////) Using two regions in an active-active configuration
 
 ## Development
 
-- [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset///)
+- [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset////)
 
 ## Cloud Development Kit CDK
 
-- [CDK](https://aws.amazon.com/cdk///)
+- [CDK](https://aws.amazon.com/cdk////)
 - [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk/)
 - [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
 - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
 - [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)
-- [==Announcing CDK Migrate: A single command to migrate to the AWS CDK==](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk///)
+- [==Announcing CDK Migrate: A single command to migrate to the AWS CDK==](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk////)
 - [==sst.dev: Moving away from CDK: CDK doesn’t create the infrastructure you define==](https://sst.dev/blog/moving-away-from-cdk) On the CDK side, we write TypeScript code that defines our infrastructure. But CDK doesn’t create the infrastructure you define. It generates a CloudFormation template (JSON) that CloudFormation will use to create your infrastructure.
 
 ## AWS Session Manager
@@ -148,11 +148,11 @@
 
 ## AWS Cloud Endure
 
-- [AWS Cloud Endure Migration](https://aws.amazon.com/application-migration-service///)
+- [AWS Cloud Endure Migration](https://aws.amazon.com/application-migration-service////)
 
 ## ECommerce
 
-- [Architecting a Highly Available Serverless, Microservices-Based Ecommerce Site](https://aws.amazon.com/blogs/architecture/architecting-a-highly-available-serverless-microservices-based-ecommerce-site///)
+- [Architecting a Highly Available Serverless, Microservices-Based Ecommerce Site](https://aws.amazon.com/blogs/architecture/architecting-a-highly-available-serverless-microservices-based-ecommerce-site////)
 
 ## AWS Clients
 
@@ -160,15 +160,15 @@
 - [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
 - [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies/trainline/)
 - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)
-- [aws.amazon.com: Creating a digital map of COVID-19 virus for discovery of new treatment compounds](https://aws.amazon.com/blogs/hpc/creating-a-digital-map-of-covid-19-virus-for-discovery-of-new-treatment-compounds///)
+- [aws.amazon.com: Creating a digital map of COVID-19 virus for discovery of new treatment compounds](https://aws.amazon.com/blogs/hpc/creating-a-digital-map-of-covid-19-virus-for-discovery-of-new-treatment-compounds////)
 
 ## AWS LightSail
 
-- [AWS LightSail](https://aws.amazon.com/lightsail///) Build applications and websites fast with low-cost, pre-configured cloud resources
+- [AWS LightSail](https://aws.amazon.com/lightsail////) Build applications and websites fast with low-cost, pre-configured cloud resources
 
 ## AWS Data Lake
 
-- [aws.amazon.com: Optimize your modern data architecture for sustainability: Part 1 – data ingestion and data lake](https://aws.amazon.com/blogs/architecture/optimize-your-modern-data-architecture-for-sustainability-part-1-data-ingestion-and-data-lake///)
+- [aws.amazon.com: Optimize your modern data architecture for sustainability: Part 1 – data ingestion and data lake](https://aws.amazon.com/blogs/architecture/optimize-your-modern-data-architecture-for-sustainability-part-1-data-ingestion-and-data-lake////)
 
 ## AWS Managed Grafana
 
