@@ -11,7 +11,7 @@
     - [Transition Jira issues on merge](https://www.atlassian.com/blog/app/bitbucket) Check out the latest 
 Jira and Bitbucket integration. Now you can transition issues right from your merge window. Less back and forth with Jira.
 - [==OpenProject==](https://www.openproject.org/) Project Management 
-    - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject///)
+    - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/blog/create-configure-manage-projects-openproject////)
     - [youtube.com: Learn to deploy OpenProject with Postgres in Kubernetes](https://www.youtube.com/watch?v=2mNAsrThius&ab_channel=CloudControl)
 - [==nextcloud.com==](https://nextcloud.com) Open Source On-Premises Content collaboration platform
 - [Servicenow](https://www.servicenow.com/)
@@ -32,13 +32,13 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [joplin](https://github.com/laurent22/joplin) is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.
 - [Podium](https://github.com/sa-mw-dach/podium) A collaboration environment.
 - [Swim](https://swimm.io/) Sync Teams with Code. 
-    - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation///)
+    - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation////)
 - [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management/)
 - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)
 - [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom) Try one of these open source video conferencing services.
 - [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)
 - [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools) These articles show the power of open source in business as tools, platforms, or integration points.
-- [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter///)
+- [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter////)
 - [ifuckinghatejira.com](https://ifuckinghatejira.com)
 
 ## Productivity Tips with .new TLD to quickly create
