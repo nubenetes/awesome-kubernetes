@@ -9,7 +9,7 @@
 
 - [en.wikipedia.org: Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)
 - [en.wikipedia.org: Blockchain](https://en.wikipedia.org/wiki/Blockchain)
-- [Tether (USDt)](https://tether.to/)
+- [Tether (USDt)](https://tether.to)
 
 ## Tweets
 

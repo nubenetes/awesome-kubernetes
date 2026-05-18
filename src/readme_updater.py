@@ -77,26 +77,50 @@ def get_stats():
 
     # 6. Annual Growth
     annual_raw = run_command("git log --format='%ad' --date=format:'%Y' | sort | uniq -c")
-    annual_rows = ["| Year | Commits | Est. New Refs | Key Milestone |", "| :---: | :---: | :---: | :--- |"]
+    annual_rows = ["| # | Year | Commits | Est. New Refs | Key Milestone |", "| :---: | :---: | :---: | :---: | :--- |"]
     milestones = {
         "2018": "**Munich Era (BMW IT-Zentrum)**",
-        "2019": "Early Growth & Open Source Launch",
-        "2020": "**The Great Expansion**",
-        "2021": "Maturity & Standardization",
+        "2019": "Early Growth and Open Source Launch",
+        "2020": "**The Great Expansion** (Global Pandemic/Remote Era)",
+        "2021": "Maturity and Standardization",
         "2022": "Cloud Native Hardening",
         "2023": "Maintenance & Refinement",
         "2024": "Curation Strategy Pivot",
         "2025": "Stability & Research Phase",
         "2026": "**Agentic AI Surge** (May 2026 Inception)"
     }
-    for line in sorted(annual_raw.split('\n'), reverse=True):
+    
+    # Parse and sort chronologically (ascending)
+    growth_data = []
+    for line in annual_raw.split('\n'):
         if line.strip():
             parts = line.strip().split()
             if len(parts) >= 2:
-                count, year = parts[0], parts[1]
-                est_refs = int(int(count) * 4.13)
-                milestone = milestones.get(year, "Continuing Evolution")
-                annual_rows.append(f"| {year} | {count} | {est_refs:,} | {milestone} |")
+                growth_data.append({"count": parts[0], "year": parts[1]})
+    
+    growth_data.sort(key=lambda x: x["year"])
+    
+    # Generate Bar Chart (Mandate 3: Metric Comparison)
+    max_val = max([int(int(item["count"]) * 4.13) for item in growth_data] + [int(item["count"]) for item in growth_data])
+    y_max = ((max_val // 1000) + 1) * 1000
+    
+    annual_chart = "```mermaid\n---\nconfig:\n  themeVariables:\n    xyChart:\n      plotColorPalette: '#3b82f6, #fb923c'\n  theme: mc\n---\nxychart-beta\n    title \"Nubenetes Annual Growth Metrics (2018–2026)\"\n"
+    years = [f'"{item["year"]}"' for item in growth_data]
+    commits = [item["count"] for item in growth_data]
+    refs = [str(int(int(item["count"]) * 4.13)) for item in growth_data]
+    
+    annual_chart += f"    x-axis [{', '.join(years)}]\n"
+    annual_chart += f"    y-axis \"Volume (Commits / Estimated New Refs)\" 0 --> {y_max}\n"
+    annual_chart += f"    bar [{', '.join(refs)}]\n"
+    annual_chart += f"    bar [{', '.join(commits)}]\n"
+    annual_chart += "```"
+    
+    for idx, item in enumerate(growth_data, 1):
+        year = item["year"]
+        count = item["count"]
+        est_refs = int(int(count) * 4.13)
+        milestone = milestones.get(year, "Continuing Evolution")
+        annual_rows.append(f"| {idx} | {year} | {count} | {est_refs:,} | {milestone} |")
 
     # 7. Monthly Surge (2026)
     monthly_raw = run_command("git log --format='%ad' --date=format:'%Y-%m' | grep '2026' | sort | uniq -c")
@@ -126,6 +150,7 @@ def get_stats():
         "pillar_chart": pillar_chart,
         "lang_chart": lang_chart,
         "annual_growth": "\n".join(annual_rows),
+        "annual_chart": annual_chart,
         "monthly_surge": "\n".join(monthly_rows),
         "last_update": datetime.now().strftime("%Y-%m-%d")
     }
@@ -149,6 +174,7 @@ def update_readme(stats):
     content = replace_section(content, "HEART_STATS", stats["heart_stats"])
     content = replace_section(content, "TOP_CATEGORIES", stats["top_categories"])
     content = replace_section(content, "ANNUAL_GROWTH", stats["annual_growth"])
+    content = replace_section(content, "ANNUAL_CHART", stats["annual_chart"])
     content = replace_section(content, "MONTHLY_SURGE", stats["monthly_surge"])
     content = replace_section(content, "PILLAR_CHART", stats["pillar_chart"])
     content = replace_section(content, "SUB_ECO_CHART", stats["lang_chart"])

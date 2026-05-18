@@ -19,14 +19,14 @@
 - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)
 - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)
 - [Slideshare: Caching](http://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
-- [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/)
+- [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)
 - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo) When it comes to caching, what was once a nice-to-have it now a must-have. Check out this detailed article to learn everything you need to know about caching!
 - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)
 - [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b) In this article, we are going to talk about Microservices Distributed Caching for Microservices Architectures. As you know that we learned practices and patterns and add them into our design toolbox. And we will use these pattern and practices when designing e-commerce microservice architecture.
 - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to Caching in the Cloud | Anuj Kothiyal](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
 - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)
 - [learncsdesign.medium.com: An Overview of Distributed Caching 🌟 [ARCHIVED]]( http://web.archive.org/web/20220717060745/https://learncsdesign.medium.com/an-overview-of-distributed-caching-e426781d1ff0)
-- [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science/)
+- [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science)
 
 ## Java Caching
 
@@ -41,16 +41,16 @@
 - In 2011, Red Hat began producing a commercial version of Infinispan, dubbed JBoss Enterprise Data Grid.
 - [Red Hat Data Grid Overview](https://developers.redhat.com/products/datagrid/overview)
 - [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid)
-- [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore/)
-- [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more/)
+- [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore)
+- [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more)
 
 ## CDN Content Delivery Network
 
 - [Wikipedia: CDN Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)
     - [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs)
-- [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
-- [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching/)
-- [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://www.nczonline.net/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
+- [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
+- [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching)
+- [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
 
 ## HAProxy
 
@@ -60,18 +60,18 @@
 - [slideshare: Haproxy best practice](http://www.slideshare.net/haproxytech/haproxy-best-practice)
 - [slideshare: How To Set Up SQL Load Balancing with HAProxy](http://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143)
 - [slideshare: Performance Tuning of HAProxy for Database Load Balancing](http://www.slideshare.net/Severalnines/haproxy-mysql-slides)
-- [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf/)
+- [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf)
 
 ## Varnish
 
-- [Varnish Cache](https://www.varnish-cache.org/)
+- [Varnish Cache](https://www.varnish.org/index.html)
 - [varnish-software.com](https://www.varnish-software.com) Varnish Software is the company behind Varnish Cache, the open source HTTP accelerator.
     - [The Varnish Book](http://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
-- [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable/)
-- [Red Hat Developer Blog. Tag: Varnish](https://developerblog.redhat.com/tag/varnish/)
-- [Red Hat Enterprise Linux Blog. Tag: Varnish](http://rhelblog.redhat.com/tag/varnish/)
-- [varnish-cache.org: Installation on RedHat](https://www.varnish-cache.org/installation/redhat)
-- [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://hitch-tls.org/)
+- [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)
+- [Red Hat Developer Blog. Tag: Varnish](https://developerblog.redhat.com/tag/varnish)
+- [Red Hat Enterprise Linux Blog. Tag: Varnish](http://rhelblog.redhat.com/tag/varnish)
+- [varnish-cache.org: Installation on RedHat](https://www.varnish.org/index.html/installation/redhat)
+- [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://www.hitch-tls.org)
 - [slideshare: Varnish - Tips & Tricks - 4Developers 2015](http://www.slideshare.net/piotrpasich/varnish-47199139)
 - [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04)
 - [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) Run and manage Varnish clusters on Kubernetes. Varnish operator manages Varnish clusters using a CustomResourceDefinition that defines a new Kind called VarnishCluster. The operator manages the whole lifecycle of the cluster: creating, deleting and keeping the cluster configuration up to date
@@ -87,14 +87,14 @@
 - [redis.io](http://redis.io)
 - [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
-- [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/redis/) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
+- [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/p/redis) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
 - [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce) In this tutorial, you will learn how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
 - [medium.com/lightricks-tech-blog: Step by Step Guide: How to create a Dynamic Service Endpoint via K8S API](https://medium.com/lightricks-tech-blog/step-by-step-guide-how-to-create-a-dynamic-service-endpoint-via-k8s-api-1024309cb226) This article explains how to deploy Redis HA in Kubernetes and create a Service that always points to the master Redis. It also demonstrates how to interact with Kubernetes API from inside a pod using a script to update the endpoint dynamically.
 
 ## Nginx High-performance caching
 
 - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)
-- [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-/)
+- [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-)
 - [highscalability.com: Building nginx and Tarantool based services 🌟](http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html)
 
 ## Tau Git-Native CDN PaaS

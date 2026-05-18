@@ -1,6 +1,6 @@
 # Swagger code generator for REST APIs
 
-- [https://swagger.io/](https://swagger.io/)
+- [https://swagger.io](https://swagger.io)
 - [https://github.com/swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen)
 - [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ)
 - [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM)

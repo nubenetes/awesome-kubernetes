@@ -2,6 +2,7 @@ import json
 import base64
 from github import Github
 from datetime import datetime
+from typing import List, Dict
 
 from src.gemini_utils import SESSION_TRACKER
 
@@ -25,8 +26,6 @@ class RepositoryController:
 
     def apply_historical_chunk(self, updates: dict, next_since: str) -> None:
         branch_name = "bot/historical-accumulator"
-        
-        # Check if branch exists, if not, create from develop
         try:
             self.repository.get_branch(branch_name)
         except:
@@ -49,18 +48,14 @@ class RepositoryController:
             except Exception as e:
                 print(f"Error in historical chunk for {file_path}: {e}")
 
-    def apply_multi_file_changes(self, updates: dict, metrics: dict) -> None:
+    def apply_multi_file_changes(self, updates: dict, metrics: dict, safety_report: str = "") -> str:
         timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
         branch_name = f"bot/knowledge-update-{timestamp_slug}"
         
-        # In the last historical chunk, use the accumulator as base if it exists
-        accumulator_branch = "bot/historical-accumulator"
-        base_sha = None
         try:
-            acc = self.repository.get_branch(accumulator_branch)
-            base_sha = acc.commit.sha
-            self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_sha)
+            self._create_feature_branch(branch_name)
         except:
+            branch_name = f"bot/knowledge-update-{timestamp_slug}-{id(updates)}"
             self._create_feature_branch(branch_name)
 
         if not updates:
@@ -74,7 +69,7 @@ class RepositoryController:
             try:
                 commit_signature = f"chore: update {file_path} [{timestamp_slug}]"
                 try:
-                    file_meta = self.repository.get_contents(file_path, ref=self.default_branch_name)
+                    file_meta = self.repository.get_contents(file_path, ref=branch_name)
                     self.repository.update_file(
                         path=file_path, message=commit_signature, content=content,
                         sha=file_meta.sha, branch=branch_name
@@ -90,96 +85,91 @@ class RepositoryController:
 
         # --- REPORT CONSTRUCTION ---
         full_report = metrics.get('full_report', [])
-        
-        # 1. Matrix Table with Numeric Index and Date (Prioritizing INCLUDED)
-        sorted_report = sorted(full_report, key=lambda x: 0 if x['status'] == 'INCLUDED' else 1)
-        
-        header_table = "| # | Status | Post Date | Source | Reason | Category | URL |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n"
+        sorted_report = sorted(full_report, key=lambda x: 0 if x['status'] == 'INCLUDED' else (1 if x['status'] == 'DUPLICATE' else 2))
         
         counts = {"INCLUDED": 0, "DUPLICATE": 0, "FILTERED": 0}
         source_counts = {}
-        
         all_rows = []
+        
+        header_table = "| # | Status | Score | Lang | Type | Date | Source | Reason | URL |\n| :--- | :--- | :---: | :---: | :--- | :---: | :--- | :--- | :--- |\n"
+        
         for idx, item in enumerate(sorted_report, 1):
             status_emoji = {"INCLUDED": "✅", "DUPLICATE": "👯", "FILTERED": "🛡️"}.get(item['status'], "❓")
-            date_str = item.get('post_date', 'N/A')[:10] if item.get('post_date') else 'N/A'
-            all_rows.append(f"| {idx} | {status_emoji} {item['status']} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | `{item['category']}` | {item['url']} |\n")
+            date_str = str(item.get('post_date', 'N/A'))[:10] if item.get('post_date') else 'N/A'
+            score = item.get('impact_score', 'N/A')
+            lang = item.get('language', 'N/A')[:2].upper() if item.get('language') else 'EN'
+            res_type = item.get('type', 'Ref')
+            
+            row = f"| {idx} | {status_emoji} {item['status']} | {score} | {lang} | {res_type} | {date_str} | {item.get('source', 'N/A')} | {item['reason']} | {item['url']} |\n"
+            all_rows.append(row)
             
             counts[item['status']] = counts.get(item['status'], 0) + 1
-            if item['status'] == "INCLUDED":
-                src = item.get('source', 'Unknown')
-                source_counts[src] = source_counts.get(src, 0) + 1
+            src = item.get('source', 'Unknown')
+            source_counts[src] = source_counts.get(src, 0) + 1
 
-        # Split rows into chunks for PR Body and Comments
-        chunks = []
-        current_chunk = header_table
-        for row in all_rows:
-            if len(current_chunk) + len(row) > 50000:
-                chunks.append(current_chunk)
-                current_chunk = header_table + row
-            else:
-                current_chunk += row
-        chunks.append(current_chunk)
+        # AI Intel and Mermaid
+        ai_intel = SESSION_TRACKER.get_intelligence_report()
+        source_md = "#### 📊 Source Distribution\n| Source | Count |\n| :--- | :---: |\n"
+        for src, count in sorted(source_counts.items(), key=lambda x: x[1], reverse=True):
+            source_md += f"| {src} | {count} |\n"
 
-        matrix_table_body = chunks[0]
-        if len(chunks) > 1:
-            matrix_table_body += f"\n> ℹ️ **Note:** The table continues in PR comments ({len(chunks)-1} additional parts).\n"
-
-        # 2. Historical Extraction Diagnosis
-        extraction_audit = "### 🕵️ Time Horizon Diagnosis\n"
-        start_date_str = metrics.get('start_date')[:10] if metrics.get('start_date') else 'N/A'
+        mermaid = f"### 📊 Decision Metrics\n```mermaid\npie title Agentic Decision Distribution\n    \"Accepted\" : {counts['INCLUDED']}\n    \"Duplicates\" : {counts['DUPLICATE']}\n    \"Filtered\" : {counts['FILTERED']}\n```\n"
         
-        actual_oldest = "N/A"
-        dates = [item.get('post_date') for item in full_report if item.get('post_date')]
-        if dates: actual_oldest = min(dates)[:10]
-
-        if actual_oldest != "N/A" and actual_oldest > start_date_str:
-            extraction_audit += f"⚠️ **Limit Reached:** Requested from `{start_date_str}`, but stopped at `{actual_oldest}`.\n"
+        # Build PR Body (With Safety Guard Splitting)
+        pr_body = f"## 💎 Knowledge Update: {datetime.now().strftime('%d %b %Y')}\n\nProcessed **{metrics.get('total_extracted', 0)}** links.\n\n"
+        
+        # If safety_report is huge, move it to its own comment
+        safety_in_body = True
+        if len(safety_report) > 30000:
+            pr_body += "⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n"
+            safety_in_body = False
         else:
-            extraction_audit += f"✅ **Horizon Reached:** Extraction successfully covered since `{start_date_str}`.\n"
-
-        # 3. Mermaid Diagrams
-        mermaid_pie = "### 📊 Decision Metrics\n```mermaid\npie title Agentic Decision Distribution\n"
-        mermaid_pie += f"    \"Accepted (Injected)\" : {counts['INCLUDED']}\n"
-        mermaid_pie += f"    \"Duplicates (Ignored)\" : {counts['DUPLICATE']}\n"
-        mermaid_pie += f"    \"Filtered (Quality/Impact)\" : {counts['FILTERED']}\n```\n"
-
-        mermaid_origin = ""
-        if source_counts:
-            mermaid_origin = "### 🌍 Source of Injected Updates\n```mermaid\npie title Added References Sources\n"
-            for src, val in source_counts.items():
-                mermaid_origin += f"    \"{src}\" : {val}\n"
-            mermaid_origin += "```\n"
-
-        # 4. Ingestion Log
-        x_log = "### ⚡ Ingestion Audit Trail (X.com)\n"
-        for entry in metrics.get('x_audit', []): x_log += f"- {entry}\n"
-
-        # 5. AI Intelligence & Observability Report
-        ai_intelligence = SESSION_TRACKER.get_intelligence_report()
-
-        pr_narrative = (
-            f"## 💎 Knowledge Update War Room: Kubernetes & Cloud Native\n\n"
-            f"This report details the processing of **{metrics.get('total_extracted', 0)}** detected links.\n\n"
-            f"{extraction_audit}\n"
-            f"{ai_intelligence}\n"
-            f"{mermaid_pie}\n"
-            f"{mermaid_origin}\n"
-            f"{x_log}\n"
-            f"### 📋 Audit Matrix (Part 1)\n{matrix_table_body}\n"
-            f"---\n"
-            f"**Evaluation Note:** Full history analyzed successfully."
-        )
+            pr_body += f"{safety_report}\n\n"
+            
+        pr_body += f"{ai_intel}\n\n{mermaid}\n{source_md}\n---\n**Audit Matrix and Logs follow in successive comments.**\n"
 
         pr = self.repository.create_pull(
             title=f"💎 Knowledge Update & Optimization: {datetime.now().strftime('%d %b %Y')}",
-            body=pr_narrative,
+            body=pr_body[:65000],
             head=branch_name,
             base=self.default_branch_name
         )
 
-        # 5. Post comments with the rest of the table
-        if len(chunks) > 1:
-            for i, chunk in enumerate(chunks[1:], 2):
-                pr.create_issue_comment(f"### 📋 Audit Matrix (Part {i})\n{chunk}")
+        # 1. Safety Report (if huge)
+        if not safety_in_body:
+            log_header = "## 🛡️ Safety & Mandate Audit (Detailed)\n"
+            current_chunk = log_header
+            for line in safety_report.splitlines():
+                if len(current_chunk) + len(line) > 60000:
+                    pr.create_issue_comment(current_chunk)
+                    current_chunk = log_header + line + "\n"
+                else:
+                    current_chunk += line + "\n"
+            pr.create_issue_comment(current_chunk)
 
+        # 2. X.com Extraction Audit Trail
+        x_audit = metrics.get('x_audit', [])
+        if x_audit:
+            log_header = "### 📜 Extraction Audit Trail\n*Detailed logs of social and RSS discovery attempts.*\n\n"
+            current_log = log_header
+            for entry in x_audit:
+                if len(current_log) + len(entry) > 60000:
+                    pr.create_issue_comment(current_log)
+                    current_log = log_header + entry + "\n"
+                else:
+                    current_log += entry + "\n"
+            pr.create_issue_comment(current_log)
+
+        # 3. Split Audit Matrix into Comments
+        current_comment = header_table
+        part = 1
+        for row in all_rows:
+            if len(current_comment) + len(row) > 60000:
+                pr.create_issue_comment(f"### 📋 Audit Matrix (Part {part})\n{current_comment}")
+                current_comment = header_table + row
+                part += 1
+            else:
+                current_comment += row
+        pr.create_issue_comment(f"### 📋 Audit Matrix (Part {part})\n{current_comment}")
+
+        return pr.html_url

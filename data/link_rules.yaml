@@ -1,0 +1,86 @@
+# Nubenetes Master Policy: V1 (Preservation) vs. V2 (Optimization)
+# This file governs how AI agents interact with different layers of the ecosystem.
+
+# -----------------------------------------------------------------------------
+# V1 ARCHIVE: THE SOURCE OF TRUTH (Human-Centric / Conservative)
+# -----------------------------------------------------------------------------
+v1_preservation_rules:
+  # IMMUTABILITY: If these exist, the AI MUST NOT touch them
+  immutable_fields:
+    - "titles"                # AI never renames a link already present in V1.
+    - "stars"                 # Manual 🌟 badges have absolute priority.
+    - "manual_descriptions"   # Long-form descriptive notes are sacred.
+  
+  link_strictness:
+    deep_link_priority: true  # Always keep subfolders/wikis if ALIVE.
+    github_io_preservation: true # No auto-mapping to github.com.
+    forbidden_truncations: ["/pull/", "/wiki/", "/issues/", "/tree/", "/blob/", "#L"]
+    case_sensitive_preservation: true # Do not force lowercase on URL paths.
+  
+  consolidation_policy:
+    allow_on_404: true        # Only truncate to root if deep link is dead.
+    update_metadata: true     # If link changes, update only in the BBDD.
+    auto_heal_github_branches: true # Automatically try master -> main if 404.
+    v1_dedup_strategy: "Conservative" # Preserve human curation; only dedup exact URL matches.
+    v2_dedup_strategy: "Semantic"     # Consolidate multiple project URLs (e.g., site vs repo) into authoritative root.
+
+# -----------------------------------------------------------------------------
+# AI GENIALITY: SEMANTIC INTERLINKING & ANALYTICS
+# -----------------------------------------------------------------------------
+semantic_interlinking:
+  enabled: true
+  max_references: 2           # "See also" references in related categories.
+  format: "  - *See also: [%(title)s](%(url)s) in [%(category)s]*"
+
+executive_analytics:
+  comparison_tables: true     # Generate comparison tables for high-density V2 sections.
+  min_tools_for_table: 8      # Minimum 'Standard' tools to trigger a table.
+  table_fields: ["Maturity", "Language", "Stars", "Primary Use Case"]
+
+# -----------------------------------------------------------------------------
+# V2 PORTAL: THE ELITE SHOWCASE (AI-Centric / Optimized)
+# -----------------------------------------------------------------------------
+v2_optimization_rules:
+  consolidation_strategy: "Executive" # Aggregate deep links to project roots.
+  maturity_threshold: 30              # Minimum stars for GitHub Elite inclusion.
+  auto_translate: true                # Summaries MUST be in English.
+  rich_metadata_enrichment:
+    youtube: ["author", "duration"]
+    blogs: ["reading_time", "author"]
+    github: ["stars", "last_commit", "topics"]
+
+# -----------------------------------------------------------------------------
+# HIERARCHY RULES: DEEP CONTEXTUAL INDEXING
+# -----------------------------------------------------------------------------
+hierarchy_rules:
+  max_depth: 10               # Maximum levels of nesting (e.g., Area > Topic > Sub1 > ... > Sub8).
+  naming_convention: "Technical Area > Topic > Subtopics"
+  v1_reorganization: true     # Use deep hierarchy to rebuild V1 file sections.
+  v2_nesting: true            # Enable H2 -> H3 -> H4 -> H5 mapping in V2.
+  toc_exempt_files:           # Files that do NOT require a Table of Contents (V1/V2).
+    - "mkdocs.md"
+    - "mkdocs-v1-archive.yml"
+    - "mkdocs.yml"
+    - "v2-mkdocs.yml"
+    - "matrix-table.md"
+    - "jvm-parameters-matrix-table.md"
+
+# -----------------------------------------------------------------------------
+# PLATINUM METADATA: ADVANCED LIFECYCLE MANAGEMENT
+# -----------------------------------------------------------------------------
+platinum_metadata:
+  enabled: true
+  tracking_fields:
+    - "content_hash"          # SHA256 of text to detect content drift.
+    - "health_score"          # 0-100 reliability score based on check history.
+    - "source_provenance"     # Origin (RSS, Twitter, Manual, Discovery).
+    - "social_preview_url"    # OpenGraph image for V2 visual enrichment.
+    - "mentions_count"        # How many times this resource was rediscovered.
+
+# -----------------------------------------------------------------------------
+# SYSTEM SAFETY: MKDOCS GUARD
+# -----------------------------------------------------------------------------
+safety_guard:
+  validate_mkdocs_syntax: true
+  forbidden_tags: ["<script>", "<iframe>", "<style>"] # Security hardening
+  mermaid_strict_check: true

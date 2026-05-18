@@ -12,15 +12,17 @@ from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
 from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
-from src.gemini_utils import call_gemini_with_retry, resolve_url
+from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url, sanitize_trailing_slashes
 from src.state_manager import get_last_date, save_state
 
-def normalize_url(url: str) -> str:
-    url = url.split("#")[0].split("?")[0].rstrip("/")
-    if url.startswith("http://"): url = "https://" + url[7:]
-    return url.lower()
-
 async def master_orchestrator():
+    # 0. Ingest Mandates from GEMINI.md (Mandate Bridge)
+    try:
+        from src.mandate_ingestor import MandateIngestor
+        MandateIngestor().save_system_instructions()
+    except Exception as e:
+        log_event(f"  [!] Mandate Ingestion failed (Using defaults): {e}")
+
     git_controller = RepositoryController(GH_TOKEN, TARGET_REPO)
     
     log_event("STARTING AGENTIC CURATION (CHRONOLOGY & TRANSPARENCY)", section_break=True)
@@ -80,6 +82,7 @@ async def master_orchestrator():
 
     # 2. Load Multi-source Accounts with Topic Filtering
     accounts_to_scan = []
+    feeds_to_scan = []
     sources_file = "data/curation_sources.yaml"
     
     # Topic Inclusion Flags (from Env)
@@ -106,9 +109,14 @@ async def master_orchestrator():
                         for acc in topic_data.get("accounts", []):
                             if acc.lower() not in exclude_list:
                                 all_accounts.add(acc)
+                        for feed in topic_data.get("feeds", []):
+                            feeds_to_scan.append(feed)
+
                 if all_accounts:
                     accounts_to_scan = list(all_accounts)
                     log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts from enabled topics.")
+                if feeds_to_scan:
+                    log_event(f"[*] RSS Feeds loaded: {len(feeds_to_scan)} technical blogs.")
         except Exception as e:
             log_event(f"[!] Error loading sources: {e}")
     
@@ -119,16 +127,27 @@ async def master_orchestrator():
     # 3. Multi-source Ingestion
     backup_file = os.getenv("BACKUP_FILE")
     x_audit_trail = []
+    raw_social = []
+
     if backup_file and os.path.exists(backup_file):
         from src.ingestion_backup import BackupDataExtractor
         extractor = BackupDataExtractor(backup_file)
         raw_social = await extractor.fetch_links()
         x_audit_trail = extractor.audit_trail
     else:
+        # A. X.com Extraction
         strategy = os.getenv("EXTRACTION_STRATEGY", "search")
         twitter_client = SocialDataExtractor()
         raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy, accounts=accounts_to_scan)
         x_audit_trail = twitter_client.audit_trail
+
+        # B. RSS Extraction
+        if feeds_to_scan:
+            from src.ingestion_rss import RSSDataExtractor
+            rss_client = RSSDataExtractor()
+            raw_rss = await rss_client.fetch_links_since(since_date, feeds_to_scan)
+            raw_social.extend(raw_rss)
+            x_audit_trail.extend(rss_client.audit_trail)
     
     trending = []
     if not is_historical and not backup_file:
@@ -163,21 +182,18 @@ async def master_orchestrator():
             # 2. Resilient Health Check (Identity Rotation)
             ua = user_agents[idx % len(user_agents)]
             headers = {"User-Agent": ua, "Referer": "https://www.google.com/"}
-            
-            # Trust high-value domains immediately
-            if any(trusted in expanded_url.lower() for trusted in ["github.com", "gitlab.com", "microsoft.com", "google.com"]):
-                asset["health"] = "trusted"
-            else:
-                try:
-                    async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12, verify=False) as client:
-                        resp = await client.get(expanded_url)
-                        if resp.status_code == 404:
-                            asset["health"] = "dead" # Definitively dead
-                        else:
-                            asset["health"] = "online"
-                except:
-                    asset["health"] = "uncertain" # Preserving if not 404
-            
+
+            # NOTE: All domains must be checked to ensure the link isn't a 404.
+            try:
+                async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12, verify=False) as client:
+                    resp = await client.get(expanded_url)
+                    if resp.status_code == 404:
+                        asset["health"] = "dead" # Definitively dead
+                    else:
+                        asset["health"] = "online"
+            except:
+                asset["health"] = "timeout" # Assume alive but unreachable for now
+
             # 3. GitHub Metadata Enrichment
             if "github.com" in expanded_url:
                 match = re.search(r'github\.com/([^/]+)/([^/]+)', expanded_url)
@@ -293,22 +309,26 @@ async def master_orchestrator():
                 "post_date": asset.get("timestamp"),
                 "source": asset.get("source_type", "Social"),
                 "impact_score": evaluation.get("impact_score", 0),
-                "title": evaluation.get("title", "N/A")
+                "title": evaluation.get("title", "N/A"),
+                "language": evaluation.get("language", "English"),
+                "type": evaluation.get("resource_type", "Reference")
             })
 
             if evaluation["status"] == "INCLUDED":
+                # Mandate 34: Sanitize new URLs before injection
+                sanitized_url = sanitize_trailing_slashes(url)
                 unique_new_assets.append({
-                    "url": url, "title": evaluation["title"],
+                    "url": sanitized_url, "title": evaluation["title"],
                     "description": evaluation["description"], 
                     "year": evaluation.get("year", "N/A"),
                     "category": evaluation.get("category", "kubernetes-tools"),
                     "impact_score": evaluation["impact_score"],
                     "reasoning": evaluation.get("reasoning")
                 })
-                existing_urls.add(url.split('#')[0].rstrip('/').lower())
+                existing_urls.add(normalize_url(sanitized_url))
                 for rel_cat in evaluation.get("related_categories", []):
                     interlink_asset = {
-                        "url": url, "title": evaluation["title"],
+                        "url": sanitized_url, "title": evaluation["title"],
                         "description": f"*(Related to {evaluation.get('category')} topic)*",
                         "category": rel_cat, "impact_score": 50 
                     }
@@ -341,14 +361,16 @@ async def master_orchestrator():
         if batch_index < len(all_raw_assets_batches) - 1:
             await asyncio.sleep(5)
 
+    # 5. Semantic Interlinking (Mandate 5)
+    if unique_new_assets:
+        try:
+            await curator_agent.apply_semantic_interlinking(evaluations)
+        except Exception as e:
+            log_event(f"  [!] Interlinking Error: {e}")
+
     # 6. Finalization, Report and PR
     pr_url = None
     if modified_files_content or full_report_metrics:
-        try:
-            from src.report_generator import generate_visual_report
-            report_path = generate_visual_report(full_report_metrics)
-        except: pass
-
         metrics = {
             "total_extracted": len(all_raw_assets),
             "start_date": since_date.isoformat(),
@@ -356,8 +378,23 @@ async def master_orchestrator():
             "full_report": full_report_metrics,
             "x_audit": x_audit_trail
         }
+        
+        # 6.5. Safety & Mandate Audit (Mandate 1, 28, and Security)
+        from src.safety_guard import SafetyGuard
+        guard = SafetyGuard()
+        safety_report = guard.generate_audit_report() # Non-blocking report
+
         try:
-            pr_url = git_controller.apply_multi_file_changes(modified_files_content, metrics)
+            # --- BBDD Persistence: Include YAML database files in the PR ---
+            from src.config import INVENTORY_PATH
+            if os.path.exists(INVENTORY_PATH):
+                with open(INVENTORY_PATH, 'r') as f: modified_files_content[INVENTORY_PATH] = f.read()
+
+            pr_url = git_controller.apply_multi_file_changes(
+                modified_files_content, 
+                metrics, 
+                safety_report=safety_report
+            )
             if pr_url:
                 print(f"PULL_REQUEST_URL: {pr_url}")
         except Exception as e:

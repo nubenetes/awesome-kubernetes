@@ -11,14 +11,15 @@ on:
         description: 'Activate Identity B (Subscription) as backup/rotation'
         type: boolean
         default: false
-  # Automatic detection: Sync V2 whenever V1 archive is updated (manual or automated)
+  # Automatic detection: Sync V2 whenever V1 archive or inventory is updated
   push:
     branches: [ develop ]
     paths:
       - 'docs/**'
-  # Support automated sync after curation run
+      - 'data/inventory.yaml'
+  # Support automated sync after curation or cleaning runs
   workflow_run:
-    workflows: ["Nubenetes Automated Agentic Curation"]
+    workflows: ["Nubenetes Automated Agentic Curation", "Nubenetes Intelligent Link Cleaner & Dedup"]
     types:
       - completed
 
@@ -29,7 +30,7 @@ permissions:
 jobs:
   build-v2-edition:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v4
@@ -56,6 +57,11 @@ jobs:
           PYTHONPATH: .
         run: |
           python -u src/v2_optimizer.py
+          if [ -f v2_safety_report.md ]; then
+            cat v2_safety_report.md >> pr_description.md
+          else
+            echo "No safety report generated." > pr_description.md
+          fi
           
       - name: Create Pull Request for V2 Elite Update
         uses: peter-evans/create-pull-request@v6
@@ -63,12 +69,6 @@ jobs:
           branch: bot/v2-elite-sync
           base: develop
           title: "V2 Elite: Agentic Optimization Sync (2026)"
-          body: |
-            This PR updates the Nubenetes V2 (Agentic Elite) edition.
-            
-            The AI agent has scanned the V1 archive and selected the top-tier resources according to 2026 architectural standards.
-            - GitHub Repos inactive for too long have been deprioritized.
-            - Fundational 'Awesome' lists have been preserved.
-            - Redundancy has been reduced to focus on innovation.
+          body-path: pr_description.md
           commit-message: "feat: sync V2 elite curated edition"
           labels: "v2-elite, agentic-sync"

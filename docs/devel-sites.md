@@ -28,28 +28,28 @@
 - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) Recursos gratuitos para empezar a ser un Frontend Developer o ampliar conocimientos
 - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
-- [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/)
+- [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software)
 - [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
-- [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/7-most-in-demand-and-high-paying-programming-jobs/)
-- [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/)
+- [geeksforgeeks.org: 7 Most In-Demand and High Paying Programming Jobs](https://www.geeksforgeeks.org/blogs/7-most-in-demand-and-high-paying-programming-jobs)
+- [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022)
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
-- [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
-- [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
+- [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
+- [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022)
 - https://suckless.org/philosophy software that sucks less
 - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
-- [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/)
+- [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly)
 - [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)
-- [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/)
+- [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference)
 - [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078)
-- [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) Full stack developers are in high demand in today's job market. But what does "full stack" actually mean, and what skills do you need to have? In this detailed guide, Dionysia explains what a full stack dev is, and what you should learn to become one.
+- [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide) Full stack developers are in high demand in today's job market. But what does "full stack" actually mean, and what skills do you need to have? In this detailed guide, Dionysia explains what a full stack dev is, and what you should learn to become one.
 - [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)
 - [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff)
-- [trio.dev: Angular vs React: Is Angular Dead?](https://www.trio.dev/react/resources/angular-vs-react)
-- [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook/)
+- [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react)
+- [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook)
 
 ## Design Patterns
 
-- [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)
+- [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns)
     - [refactoring.guru: Design Patterns Java](https://refactoring.guru/design-patterns/java)
     - [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
     - [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
@@ -61,7 +61,7 @@
 
 ## Documentation Driven Development (DDD)
 
-- [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem)
+- [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)
 
 ## Developer Tools
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) - *(Related to kubernetes-tutorials topic)*
@@ -77,12 +77,12 @@
 
 ### Supabase Studio. An alternative to Firebase
 
-- [==supabase.com==](https://supabase.com/) The Open Source Firebase Alternative. Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.
-- [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio/)
+- [==supabase.com==](https://supabase.com) The Open Source Firebase Alternative. Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.
+- [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio)
 
 ### Ballerina
 
-- [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api/)
+- [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api)
 
 ### Red Hat Software Collections and Red Hat Developer Toolset
 
@@ -93,12 +93,12 @@
 
 ### Dhall Configuration Language
 
-- [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org/) - Dhall is a programmable configuration language that you can think of as: JSON + functions + types + imports
+- [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org) - Dhall is a programmable configuration language that you can think of as: JSON + functions + types + imports
 - https://github.com/dhall-lang/dhall-kubernetes Typecheck, template and modularize your Kubernetes definitions with Dhall
 
 ### DDEV
 
-- [==ddev.com==](https://ddev.com/) Meet your new local development environment. DDEV simplifies integrating the power and consistency of containerization into your workflows. Set up environments in minutes; switch contexts and projects quickly and easily; speed your time to deployment. We handle the complexity. You get on with the valuable part of your job.
+- [==ddev.com==](https://ddev.com) Meet your new local development environment. DDEV simplifies integrating the power and consistency of containerization into your workflows. Set up environments in minutes; switch contexts and projects quickly and easily; speed your time to deployment. We handle the complexity. You get on with the valuable part of your job.
 - [==opensource.com: 16 reasons DDEV will be your new favorite web development environment==](https://opensource.com/article/22/12/ddev) What's so different about DDEV? It's a container-based local web development environment. An open source tool for launching local PHP, Node.js, and HTML/JS development environments in minutes.
 
 ### OCLIF
@@ -108,9 +108,9 @@
 
 ## AI Programming
 
-- [GitHub Copilot](https://copilot.github.com/)
-- [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
+- [GitHub Copilot](https://github.com/copilot)
+- [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler)
+- [Amazon CodeWhisperer](https://aws.amazon.com/q/developer) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 - [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/2024/03/devin-inteligencia-artificial-programa-software)
 
 ## No code tools

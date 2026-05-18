@@ -1,0 +1,33 @@
+# Nubenetes Special Assets Configuration
+# Defines files that require prioritized preservation in V1 and exhaustive inclusion in V2.
+
+special_assets:
+  - file: "other-awesome-lists.md"
+    v1_rule: "Group by sub-topic (e.g., AI, K8s, Programming). Do not truncate."
+    v2_rule: "Exhaustive: Include 100% of ALIVE links from V1. Maintain sub-topic grouping."
+    keywords: ["awesome", "list", "curation"]
+
+  - file: "yaml.md"
+    v1_rule: "Ensure distinct sections for YAML and JSON technical resources."
+    v2_rule: "Exhaustive: Include all valid YAML/JSON tools and specs."
+    keywords: ["yaml", "json", "schema"]
+
+  - file: "introduction.md"
+    v1_rule: "Semantic clustering: Group by technical sub-topics. Preserve 100% of links."
+    v2_rule: |
+      - Executive Preface: Generate a 'Vision 2026' paragraph.
+      - Flowchart Rule: Include a Mermaid diagram of the Nubenetes ecosystem pillars.
+      - Gold Nugget Highlights: Visually feature top-impact (>=4) resources in callout blocks.
+      - Microservices Link: Explicitly link to the new 'microservices.md'.
+      - Gateway Hub: Add a 'Navigation Paths' section to guide users to dimensions.
+    keywords: ["introduction", "getting started", "fundamentals", "microservices"]
+
+# Navigation Renaming
+dimension_renaming:
+  "Intelligent Control Plane": "AI and Artificial Intelligence"
+
+# Advanced Classification Rules for V2
+v2_learning_paths:
+  enabled: true
+  levels: ["Fundamentals", "Intermediate", "Advanced", "Expert/Architect"]
+  structure: "Zero to Hero"

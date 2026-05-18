@@ -10,7 +10,9 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         "topic:kubernetes+stars:>1000", 
         "topic:mcp-server+stars:>0", 
         "topic:model-context-protocol+stars:>0",
-        "topic:ai-agents+stars:>50"
+        "topic:ai-agents+stars:>50",
+        "awesome+stars:>1000",
+        "topic:generative-ai+stars:>500"
     ]
     all_repos = []
     headers = {'Accept': 'application/vnd.github.v3+json'}
@@ -59,6 +61,8 @@ async def discover_trending_assets() -> list[dict]:
         
         if "mcp" in desc_lower or "context-protocol" in desc_lower or "mcp" in name_lower:
             category = "ai-agents-mcp"
+        elif "awesome" in name_lower:
+            category = "other-awesome-lists"
         elif "ai" in desc_lower or "agent" in desc_lower:
             category = "ai"
         elif "security" in desc_lower:

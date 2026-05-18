@@ -17,37 +17,37 @@
 
 ## Introduction
 
-- [golang.org](https://golang.org/)
+- [golang.org](https://go.dev)
 - [github.com/golang/go](https://github.com/golang/go)
 - [golang-design/history](https://github.com/golang-design/history) Go: A Documentary. This document collects many interesting (publicly observable) issues, discussions, proposals, CLs, and talks from the Go development process, which intents to offer a comprehensive reference of the Go history.
 - [Awesome Go 🌟](https://github.com/avelino/awesome-go)
 - [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto)
 - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)
-- [search.gocenter.io: JFrog Go Center](https://search.gocenter.io/) Host your Go-based applications for free on the JFrog Platform.
+- [search.gocenter.io: JFrog Go Center](https://search.gocenter.io) Host your Go-based applications for free on the JFrog Platform.
 - [dev.to: Deploying Your First Golang Webapp](https://dev.to/heroku/deploying-your-first-golang-webapp-11b3)
-- [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/)
+- [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger)
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
-- [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/)
+- [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux)
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 - [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go)
-- [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters/)
-- [cyberciti.biz: How to install Go [golang] on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/)
+- [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters)
+- [cyberciti.biz: How to install Go [golang] on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux)
 - [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide)
 - [go-ini/ini](https://github.com/go-ini/ini) Package ini provides INI file read and write functionality in Go
 - [rakyll/go-test-trace 🌟](https://github.com/rakyll/go-test-trace) Go test with tracing. go-test-trace is like go test but it also generates distributed traces. Generated traces are exported in OTLP to a OpenTelemetry collector. You need to run go-test-trace alongside a collector to export data to distributed tracing service.
 - [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code)
-- [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/)
+- [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb)
 - [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign)
 - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) Learn Go with test-driven development
 - [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#? - [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60)
 - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)
 - [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)
-- [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/)
+- [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/build-blockchain-with-go)
 - [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7)
 - [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183)
 - [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0)
 - [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers) Examples of Golang compared to Node.js for learning
-- [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/)
+- [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql)
 - [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
 - [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d)
 - [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha)
@@ -58,8 +58,8 @@
 
 ## Design Patterns
 
-- [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/)
-- [==github.com/paliimx: Data Structures and Algorithms implementation in Go==](https://github.com/paliimx/Data-Structures-and-Algorithms) **Clean and simple implementation in Go**
+- [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns)
+- [==github.com/paliimx: Data Structures and Algorithms implementation in Go==](https://github.com/ua-nick/Data-Structures-and-Algorithms) **Clean and simple implementation in Go**
 
 ## Tutorials
 
@@ -70,31 +70,31 @@
 
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
-- [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/)
+- [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery)
 - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery. In this post you’ll learn how to work with live Kubernetes objects in Go using the typed and dynamic clients available from the API machinery sub-project client-go.
 - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) Invoke the Kubernetes resources without overloading the cluster. Many popular Kubernetes tools such as K9s are based on client-go. They use the informer pattern to continuously refresh data without posing additional pressure to the API Server. Learn how the informer pattern works in this article.
 - [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)
-- [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop/)
+- [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop)
 - [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)
 
 ## Building container images
 
-- [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/)
+- [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go)
 
 ## Go cheatsheets
 
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
-- [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
+- [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)
 - [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) An overview of Go syntax and features.
 
 ## Go Frameworks and libraries
   - [Koa.js](https://koa) - *(Related to web-servers topic)*
 
-- [go-micro](https://github.com/asim/go-micro) Go Micro is a framework for distributed systems development
+- [go-micro](https://github.com/micro/go-micro) Go Micro is a framework for distributed systems development
 - [dapr.io](https://dapr.io)
-- [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/)
+- [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)
 - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) Useful template functions for Go templates. The Go language comes with a built-in template language, but not very many template functions. Sprig is a library that provides more than 100 commonly used template functions.
 - [go-kratos/kratos](https://github.com/go-kratos/kratos) A modular-designed and easy-to-use __microservices framework__ in Go.
 - [gnet](https://github.com/panjf2000/gnet) 🚀 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go./ gnet
@@ -107,14 +107,14 @@
 ## Go packages
 
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
-- [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) Generate a Go ORM tailored to your database schema.
+- [volatiletech/sqlboiler](https://github.com/aarondl/sqlboiler) Generate a Go ORM tailored to your database schema.
 
 ## Go Tools
   - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) - *(Related to devel-sites topic)*
 
-- [jcchavezs/porto](https://github.com/jcchavezs/porto) Tool for adding [vanity imports](https://sagikazarmark.hu/blog/vanity-import-paths-in-go/) URI to Go files. If you want to enforce vanity import paths, it automates the addition of the import directive.
+- [jcchavezs/porto](https://github.com/jcchavezs/porto) Tool for adding [vanity imports](https://sagikazarmark.hu/blog/vanity-import-paths-in-go) URI to Go files. If you want to enforce vanity import paths, it automates the addition of the import directive.
 - [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
-- [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
+- [curl-to-go](https://mholt.github.io/curl-to-go) Instantly convert curl commands to Go code
 - [kkdai/youtube](https://github.com/kkdai/youtube) Download Youtube Video in Golang
 - [==github.com/iawia002/lux== 🌟](https://github.com/iawia002/lux) 👾 **Fast and simple video download library and CLI tool written in Go**
 - [github.com/Email-Dashboard:](https://github.com/Email-Dashboard/Email-Dashboard) An interactive emailing management service with scheduling, templating, tracking and A/B testing.
@@ -154,7 +154,7 @@
 
 ## Tweets
 
-- [twitter.com/GolangRepos](https://twitter.com/GolangRepos)
+- [twitter.com/GolangRepos](https://x.com/GolangRepos)
 
 <details>
   <summary>Click to expand!</summary>

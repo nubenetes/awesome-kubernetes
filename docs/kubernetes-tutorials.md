@@ -11,27 +11,27 @@
 8. [Tweets](#tweets)
 
 ## Introduction
-  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro/) 🌟 - This resource provides an introduction to AKS Labs, a series of workshops designed for hands-on learning of Azure Kubernetes Service (AKS). It covers deploying, scaling, and managing containerized applications on AKS, with featured workshops on getting started, automated cluster deployment, and Istio Service Mesh implementation.
+  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) 🌟 - This resource provides an introduction to AKS Labs, a series of workshops designed for hands-on learning of Azure Kubernetes Service (AKS). It covers deploying, scaling, and managing containerized applications on AKS, with featured workshops on getting started, automated cluster deployment, and Istio Service Mesh implementation.
 
-- [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/) Official documentation from Kubernetes. One can go through this official documentation and can learn much more about Kubernetes.
-- [devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide](https://devopscube.com/kubernetes-tutorials-beginners/)
-- [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco)
+- [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials) Official documentation from Kubernetes. One can go through this official documentation and can learn much more about Kubernetes.
+- [devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide](https://devopscube.com/kubernetes-tutorials-beginners)
+- [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit)
 - [medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
 - [medium.com: Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers](https://medium.com/free-code-camp/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)
-- [kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7](https://kubernetestutorials.com/install-and-deploy-kubernetes-on-centos-7/)
+- [kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7](https://kubernetestutorials.com/install-and-deploy-kubernetes-on-centos-7)
 - [medium.com: Simplifying orchestration with Kubernetes](https://medium.com/@swapnasagarpradhan/simplifying-orchestration-with-kubernetes-e81015681a85)
 - [aquasec.com: 70 Best Kubernetes Tutorials](https://www.aquasec.com/wiki/display/containers/70+Best+Kubernetes+Tutorials) Valuable Kubernetes tutorials from multiple sources, classified into the following categories: Kubernetes AWS and Azure tutorials, networking tutorials, clustering and federation tutorials and more.
-- [cloud.google.com: kubernetes comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic/) Learn about kubernetes and how you can use it for continuous integration and delivery.
+- [cloud.google.com: kubernetes comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic) Learn about kubernetes and how you can use it for continuous integration and delivery.
 - [magalix.com: Kubernetes 101 - Concepts and Why It Matters](https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters)
     - [apkplz.net: Learn Kubernetes 1 APK](https://apkplz.net/app/com.LearningSolution.LearnKubernetes)
-    - [Google Play Search](https://play.google.com/store/search?q=learn+kubernetes)
+    - [Google Play Search](https://play.google.com/store/search?q=learn+kubernetes&c=apps)
 - [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
 - [magalix.com: The Best Kubernetes Tutorials](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 - [35 Advanced Tutorials to Learn Kubernetes](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
-- [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
+- [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook)
 - [youtube: Kubernetes Pods and ReplicaSets explained](https://www.youtube.com/playlist?list=PLy0Gle4XyvbGhGpX0CXAuiEsfL-MD-rND)
 - [medium: DraftKings Kubernetes Workshop: Hands-on Learning in K8s (with Video Walkthrough)](https://medium.com/draftkings-engineering/draftkings-workshop-demystifying-kubernetes-4ce86c187408)
-- [100 Days Of Kubernetes: 100daysofkubernetes.io](https://100daysofkubernetes.io/) 100 Days of Kubernetes is the challenge in which we aim to learn something new related to Kubernetes each day across 100 Days!!!
+- [100 Days Of Kubernetes: 100daysofkubernetes.io](https://100daysofkubernetes.io) 100 Days of Kubernetes is the challenge in which we aim to learn something new related to Kubernetes each day across 100 Days!!!
 - [youtube playlist: Thetips4you - Kubernetes Tutorial for Beginners](https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) HPA, Deployments, YAML, Jenkins, etc.
 - [youtube playlist: DevNation Lessons: Kubernetes Fundamentals](https://www.youtube.com/playlist?list=PLf3vm0UK6HKpOqIY2fcu_M0sCSpluyXMW)
 - [amazee.io: Master the Fundamentals of K8s: Kubernetes 101 video series with Jeff Geerling](https://www.amazee.io/blog/post/master-the-fundamentals-of-k8s)
@@ -61,59 +61,59 @@
 - [==omerbsezer/Fast-Kubernetes== 🌟🌟](https://github.com/omerbsezer/Fast-Kubernetes) **This repo covers Kubernetes objects' and components' details (Kubectl, Pod, Deployment, Service, ConfigMap, Volume, PV, PVC, Daemonset, Secret, Affinity, Taint-Toleration, Helm, etc.), and possible example usage scenarios (how-to, hands-on labs, etc.)**
 - [javarevisited.blogspot.com: Top 5 Online Courses to Learn Kubernetes in 2022 - Best of Lot](https://javarevisited.blogspot.com/2020/06/top-5-courses-to-learn-kubernetes-for-devops-and-certification.html)
 - [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.**
-- [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/the-kubernetes-course) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**
-    - [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/the-kubernetes-course/RMmq5M6Gp8R) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes:
+- [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/learn-kubernetes) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**
+    - [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/learn-kubernetes/pods) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes:
         - Pods & containers
         - Pod anatomy
         - Pods as unit of scaling
         - Pod lifecycle
 
 - [blog.getambassador.io: How to Learn Kubernetes: Prerequisites, Paths, and Resources 🌟](https://blog.getambassador.io/how-to-learn-kubernetes-prerequisites-paths-and-resources-9e044daee185)
-- [==devopscube.com: How to Learn Kubernetes (Complete Roadmap)== 🌟🌟🌟](https://devopscube.com/learn-kubernetes-complete-roadmap/) A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)
+- [==devopscube.com: How to Learn Kubernetes (Complete Roadmap)== 🌟🌟🌟](https://devopscube.com/learn-kubernetes-complete-roadmap) A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)
     - [==github.com/techiescamp/kubernetes-learning-path== 🌟🌟](https://github.com/techiescamp/kubernetes-learning-path)
 - [dev.to: Understanding Kubernetes: part 48 – Kubernetes 1.27 Changelog](https://dev.to/aurelievache/understanding-kubernetes-part-48-kubernetes-127-changelog-1alk)
 
 ## Online Training
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - The Red Hat Customer Portal's community section, previously the Red Hat Learning Community, offers resources for learning and certification related to Red Hat products, including OpenShift and Kubernetes. It provides access to training materials, e-books, and videos to supplement learning journeys.
 
-- [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers
-- [kubernetesbyexample.com](http://kubernetesbyexample.com/)
-- [Play with Kubernetes](https://labs.play-with-k8s.com/) A simple, interactive and fun playground to learn Kubernetes
+- [katacoda.com](https://www.katacoda.com) Interactive Learning and Training Platform for Software Engineers
+- [kubernetesbyexample.com](http://kubernetesbyexample.com)
+- [Play with Kubernetes](https://labs.play-with-k8s.com) A simple, interactive and fun playground to learn Kubernetes
 - [udemy.com: Learn DevOps: The Complete Kubernetes Course](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
     - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 - [udemy.com: Learn DevOps: Advanced Kubernetes Usage](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
     - [wardviaene/advanced-kubernetes-course](https://github.com/wardviaene/advanced-kubernetes-course)
 - [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 - [kodekloud.com](https://kodekloud.com)
-- [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Want to learn Kubernetes? Get an in-depth primer on this powerful system for managing containerized applications in this free course.
+- [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes) Want to learn Kubernetes? Get an in-depth primer on this powerful system for managing containerized applications in this free course.
 - [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy) Learn Kubernetes with Civo Academy. Learn everything you need to know to get started with Kubernetes. Learn Kubernetes for free. We’ve created over 50 video guides and tutorials that will help you navigate Kubernetes: from understanding the basic need for and function of containers, to launching and scaling your first clusters.
 - [medium.com/javarevisited: 8 Best Free Kubernetes Courses for Beginners in 2022](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc) Learn Kubernetes using these free online training courses and add an in-demand skill to your colorful resume.
-    - [udemy.com: Just enough kubernetes to be dangerous (free)](https://www.udemy.com/course/just-enough-kubernetes/)
-    - [udemy.com: Learn Devops Kubernetes deployment by kops and terraform (free)](https://www.udemy.com/course/learn-devops-kubernetes-deployment-by-kops-and-terraform/) Comprehensive Nginx deployment to Kubernetes on AWS by using kops and terraform
-    - [edx.org: Introduction to Kubernetes (free)](https://www.edx.org/course/introduction-to-kubernetes)
-    - [udemy.com: Containers 101 (free)](https://www.udemy.com/course/containers-101/) Building and deploying containerize applications with Kubernetes, Docker and Helm
-- [devopswithkubernetes.com](https://devopswithkubernetes.com/) Introductory course to Kubernetes with K3s and GKE
+    - [udemy.com: Just enough kubernetes to be dangerous (free)](https://www.udemy.com/course/just-enough-kubernetes)
+    - [udemy.com: Learn Devops Kubernetes deployment by kops and terraform (free)](https://www.udemy.com/course/learn-devops-kubernetes-deployment-by-kops-and-terraform) Comprehensive Nginx deployment to Kubernetes on AWS by using kops and terraform
+    - [edx.org: Introduction to Kubernetes (free)](https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes)
+    - [udemy.com: Containers 101 (free)](https://www.udemy.com/course/containers-101) Building and deploying containerize applications with Kubernetes, Docker and Helm
+- [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) Introductory course to Kubernetes with K3s and GKE
 
 ## K8s Diagrams
 
 ## Kubernetes Networking
-  - [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish/) - *(Related to istio topic)*
+  - [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish) - *(Related to istio topic)*
 
 ## Kubernetes Troubleshooting
-  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide/) - *(Related to kubernetes-troubleshooting topic)*
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide) - *(Related to kubernetes-troubleshooting topic)*
   - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd) - *(Related to kubernetes-troubleshooting topic)*
   - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing) - *(Related to kubernetes-networking topic)*
 
-- [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
+- [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://x.com/PlantUML).
 
 ## Learning Tools
   - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) 🌟 - A repository offering step-by-step guides to recreate various technologies from scratch, promoting deep understanding through practical implementation. It covers a wide range of domains including AI, databases, operating systems, and networking.
   - [Quiz Grader](https://github.com/ned1313/quiz-grader) - *(Related to ai topic)*
   - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) - *(Related to devops topic)*
-  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker/) - *(Related to container-managers topic)*
-  - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide/) - *(Related to jenkins topic)*
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker) - *(Related to container-managers topic)*
+  - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) - *(Related to jenkins topic)*
   - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
-  - [useHooks - React Hooks Library](https://usehooks.com/) - *(Related to javascript topic)*
+  - [useHooks - React Hooks Library](https://usehooks.com) - *(Related to javascript topic)*
 
 ### Neptune
 
@@ -123,7 +123,7 @@
 
 ## Videos
   - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy) - A YouTube video discussing Spec Kit, explaining its purpose, the challenges it addresses, and how clear specifications facilitate effective collaboration in software development.
-  - [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://youtu.be/1v15VSKPZRU?si=vK_9UKjGV8F24Ebt) - Comparativa técnica de los métodos de instalación de OpenShift en baremetal: Agent, Assisted e IPI, para ayudarte a elegir el más adecuado.
+  - [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://www.youtube.com/watch?si=vK_9UKjGV8F24Ebt&v=1v15VSKPZRU&feature=youtu.be) - Comparativa técnica de los métodos de instalación de OpenShift en baremetal: Agent, Assisted e IPI, para ayudarte a elegir el más adecuado.
 
 ??? note "Click to expand!"
 
@@ -152,4 +152,4 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What problem is Kubernetes trying to solve?<br><br>Is it simply container orchestration?<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1557304846730002435?ref_src=twsrc%5Etfw">August 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </center>
-  - [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8) 🌟 - Una playlist de YouTube que ofrece una guía definitiva y completa sobre Kubernetes para principiantes absolutos, cubriendo conceptos fundamentales y prácticos.
+  - [Kubernetes para principiantes - La guía definitiva para principiantes absolutos](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqcKOKT4c0uGkBt3YSRQ9S5v&si=qGpgMP56yagniZx8) 🌟 - Una playlist de YouTube que ofrece una guía definitiva y completa sobre Kubernetes para principiantes absolutos, cubriendo conceptos fundamentales y prácticos.

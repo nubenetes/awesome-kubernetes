@@ -17,14 +17,14 @@
 
 ## Introduction
 
-- [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes/) Looking for alternatives to Kubernetes to overcome orchestration challenges? Here are eight alternatives for optimized containerization!
+- [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes) Looking for alternatives to Kubernetes to overcome orchestration challenges? Here are eight alternatives for optimized containerization!
 
 ### Why Not Use Kubernetes
 
 - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22) Is Kubernetes really right for your stack?
 - [medium: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)
-- [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes/)
-- [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/3604652/when-kubernetes-is-not-the-solution.html)
+- [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes)
+- [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/2261975/when-kubernetes-is-not-the-solution.html)
 - [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes)
 
 ## Heroku
@@ -33,53 +33,53 @@
 
 ## Amazon ECS
 
-- [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://searchcloudcomputing.techtarget.com/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
-- [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere/) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
+- [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
+- [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
 
 ## Cycle.io
 
 - [Cycle.io](https://cycle.io)
-- [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes/)
-- [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers/) "Kubernetes has not been able to deliver this level of multicloud portability and ease of use with containers. Cycle promises to fill this gap."
+- [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes)
+- [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers) "Kubernetes has not been able to deliver this level of multicloud portability and ease of use with containers. Cycle promises to fill this gap."
 
 ## Nomad
 
-- [Nomad](https://nomadproject.io/)
-- [Nomad an alternative to Kubernetes](https://blog.nobugware.com/post/2019/nomad_an_alternative_to_kubernetes/)
-- [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes/)
-- [nomadproject.io: Nomad vs. Kubernetes](https://www.nomadproject.io/intro/vs/kubernetes/)
-- [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/dev-hub/backend-dev/nomad-kubernetes-but-without-the-complexity/)
+- [Nomad](https://developer.hashicorp.com/nomad)
+- [Nomad an alternative to Kubernetes](https://blog.nobugware.com/post/2019/nomad_an_alternative_to_kubernetes)
+- [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes)
+- [nomadproject.io: Nomad vs. Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad)
+- [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/backend/nomad-kubernetes-but-without-the-complexity)
 - [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
-- [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad/)
+- [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad)
 - [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes)
-- [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad/) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay."
-- [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes/)
-- [nomadproject.io: An alternative to Kubernetes](https://www.nomadproject.io/docs/nomad-vs-kubernetes/alternative)
-- [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes/)
+- [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay."
+- [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes)
+- [nomadproject.io: An alternative to Kubernetes](https://developer.hashicorp.com/nomad/docs/k8s-nomad)
+- [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes)
 
 ## Portainer
 
-- [Portainer](https://www.portainer.io/) Making Docker management easy
+- [Portainer](https://www.portainer.io) Making Docker management easy
 - [stackshare.io: Kubernetes vs Portainer](https://stackshare.io/stackups/kubernetes-vs-portainer)
 
 ## Docker Enterprise and Docker Universal Control Plane (UCP)
 
-- [Universal Control Plane overview](https://docs.docker.com/ee/ucp/) Docker Universal Control Plane (UCP) is the enterprise-grade cluster management solution from Docker. You install it on-premises or in your virtual private cloud, and it helps you manage your Docker cluster and applications through a single interface.
+- [Universal Control Plane overview](https://docs.docker.com) Docker Universal Control Plane (UCP) is the enterprise-grade cluster management solution from Docker. You install it on-premises or in your virtual private cloud, and it helps you manage your Docker cluster and applications through a single interface.
 
 ## Docker Swarm
 
-- [Docker Swarm](https://docs.docker.com/engine/swarm/)
+- [Docker Swarm](https://docs.docker.com/engine/swarm)
 - [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) Setup Docker on RHEL/CentOS and Debian/Ubuntu servers. The role supports Docker Engine's "Swarm Mode" to create a cluster of Docker nodes.
 - [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
-- [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert/)
-- [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.dotnettricks.com/learn/docker/kubernetes-vs-docker-analyzing-the-differences)
-- [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
+- [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert)
+- [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.scholarhat.com/tutorial/docker/kubernetes-vs-docker-analyzing-the-differences)
+- [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples)
 - [kpatronas.medium.com: Docker swarm: High Availability](https://kpatronas.medium.com/docker-swarm-high-availability-36ea7ee7f9e8)
-- [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphoreci.com/blog/kubernetes-vs-docker)
-- [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
-- [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
+- [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphore.io/blog/kubernetes-vs-docker)
+- [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret)
+- [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it)
 - [==swarmlet/swarmlet: Swarmlet==](https://github.com/swarmlet/swarmlet) A self-hosted, open-source Platform as a Service that enables easy swarm deployments, load balancing, automatic SSL, metrics, analytics and more.
-- [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://www.thinksys.com/devops/docker-swarm-vs-kubernetes-comparison/)
+- [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://thinksys.com/devops/docker-swarm-vs-kubernetes-comparison)
 
 ## Simplenetes
 
@@ -89,14 +89,14 @@
 
 - [Taubyte](https://taubyte.com) Alternative to Kubernetes that aims to eliminate as much ops as possible (NoOps)
 - [tau](https://github.com/taubyte/tau) Implementation of Taubyte. Build a Cloud Computing Platform running few commands.
-- [dreamland](https://github.com/taubyte/dreamland) Implementation of Taubyte for local development and E2E testing automation.
+- [dreamland](https://github.com/taubyte/dream) Implementation of Taubyte for local development and E2E testing automation.
 - [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite) llama.cpp integration for WebAssembly
 
 ## More comparisons and alternatives
 
-- [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes/)
-- [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.itprotoday.com/hybrid-cloud-and-multicloud/4-alternatives-kubernetes-container-orchestrator) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
-- [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/orchestrator-wars-continue)
+- [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes)
+- [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
+- [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/docker-swarm-vs-kubernetes)
 - [coolify.io](https://coolify.io) Made self-hosting simple. An open-source & self-hostable Heroku / Netlify alternative (and even more).
 
 ## Images

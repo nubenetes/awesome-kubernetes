@@ -26,6 +26,12 @@ class GeminiSessionTracker:
         self.total_throttles = 0
         self.total_tokens_prompt = 0
         self.total_tokens_completion = 0
+        self.cache_hits = 0
+        self.est_tokens_saved = 0
+
+    def track_cache_hit(self, est_tokens: int = 1500):
+        self.cache_hits += 1
+        self.est_tokens_saved += est_tokens
 
     def track_call(self, key_idx: int, model: str, status: int, usage: Dict = None):
         if status == 200:
@@ -58,10 +64,15 @@ class GeminiSessionTracker:
             usage_bar = "█" * min(stats["calls"] // 5, 10) or "░"
             report += f"| Key {idx+1} | `{stats['type']}` | {stats['label']} | {usage_bar} ({stats['calls']}) | {stats['429s']} / {stats['404s']} |\n"
         
-        report += f"\n#### 📊 Consumption Metrics (2026 Units)\n"
+        report += f"\n#### 📊 Consumption and Efficiency Metrics (2026 Units)\n"
         report += f"- **Total Prompt Tokens**: {self.total_tokens_prompt:,}\n"
         report += f"- **Total Completion Tokens**: {self.total_tokens_completion:,}\n"
-        report += f"- **Efficiency Ratio**: {((self.total_tokens_completion / self.total_tokens_prompt * 100) if self.total_tokens_prompt > 0 else 0):.1f}% (Completion/Prompt)\n"
+        
+        # Cache-First Metrics
+        hit_ratio = (self.cache_hits / (self.cache_hits + sum(self.model_usage.values())) * 100) if (self.cache_hits + sum(self.model_usage.values())) > 0 else 0
+        report += f"- **Database-First Cache Hits**: **{self.cache_hits}** ({hit_ratio:.1f}% hit ratio)\n"
+        report += f"- **Estimated Tokens Saved**: ~{self.est_tokens_saved:,} (Zero-API cost)\n"
+        report += f"- **Execution Efficiency**: {((self.total_tokens_completion / self.total_tokens_prompt * 100) if self.total_tokens_prompt > 0 else 0):.1f}% (Completion/Prompt)\n"
 
         status_msg = f"{len(DISCOVERED_MODELS)} models verified."
         if self.total_throttles > 0:
@@ -151,35 +162,83 @@ async def resolve_url(url: str) -> str:
                 if new_url == final_url: break
                 final_url, current_hop = new_url, current_hop + 1
             except: break
-    return final_url
+    
+    # Mandate 34: Prevent multiple trailing slashes using centralized utility
+    return sanitize_trailing_slashes(final_url)
+
+def clean_toc_text(text: str) -> str:
+    """
+    Ensures technical titles and TOC entries are robust.
+    Strips emojis, replaces ampersands, and removes special chars.
+    """
+    if not text: return ""
+    # 1. Replace ampersands
+    text = text.replace("&", "and")
+    # 2. Strip Emojis (Regex for Unicode emoji ranges)
+    text = re.sub(r'[\U00010000-\U0010ffff]', '', text)
+    # 3. Strip other common problematic non-alphanumeric chars (except spaces and hyphens)
+    text = re.sub(r'[^\w\s\-.]', '', text)
+    return text.strip()
+
+def sanitize_trailing_slashes(url: str) -> str:
+    """
+    Mandate 34: Enforces a ZERO trailing slash policy.
+    Removes ALL trailing slashes and question marks from the end of the URL.
+    Does NOT collapse slashes in the middle of the URL (to avoid breaking protocol or deep links).
+    """
+    if not url or '://' not in url: return url
+    # Remove all trailing slashes and question marks from the end of the entire string
+    return url.rstrip('/').rstrip('?')
+
+def normalize_url(url: str) -> str:
+    """
+    Normalización de URLs de alta precisión para Nubenetes.
+    Preserva anclajes de línea (#L) y evita forzar minúsculas en rutas profundas.
+    """
+    if not url: return ""
+    
+    # 0. Mandate 34: Cleanup redundant slashes first
+    url = sanitize_trailing_slashes(url)
+    
+    # 1. Separar fragmento (pero preservar si es técnico como #L123)
+    fragment = ""
+    if "#" in url:
+        url, fragment = url.split("#", 1)
+        if not re.match(r'^L\d+', fragment): fragment = "" # Solo preservamos anclajes de línea
+    
+    # 2. Limpiar parámetros de tracking social (UTM, etc.)
+    url = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+|fbclid=[^&]+)', '', url)
+    # Mandate 34: Remove all trailing slashes and question marks for internal canonical comparison
+    url = url.rstrip("/").rstrip("?")
+    
+    # 3. Normalizar protocolo y dominio (Case Insensitive)
+    match = re.match(r'^(https?://)([^/]+)(.*)', url, re.IGNORECASE)
+    if match:
+        proto, domain, path = match.groups()
+        # El dominio es Case-Insensitive, el path puede ser Case-Sensitive
+        url = f"https://{domain.lower()}{path}"
+    
+    return f"{url}#{fragment}" if fragment else url
 
 def is_fuzzy_duplicate(url_a: str, url_b: str) -> bool:
-    def clean(u):
-        u = u.split('#')[0].rstrip('/').lower()
-        u = re.sub(r'(\?|&)(utm_[^&]+|s=[^&]+|t=[^&]+|ref=[^&]+)', '', u)
-        return u[:-1] if u.endswith('?') else u
-    return clean(url_a) == clean(url_b)
+    return normalize_url(url_a) == normalize_url(url_b)
 
-async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False):
+async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
     models_pool = await discover_optimal_models()
     
-    # 1. Smart Re-ordering: If prefer_flash is True, put flash models first
+    # 1. Smart Re-ordering
     if prefer_flash:
         models = sorted(models_pool, key=lambda m: 0 if "flash" in m or "lite" in m else 1)
     else:
         models = models_pool
 
-    diagnostics = GeminiDiagnostics()
     total_keys = len(GEMINI_API_KEYS)
-    base_wait_time = 2.5
-    consecutive_429s = 0
     
     async with GLOBAL_AI_SEMAPHORE:
         for attempt_round in range(max_retries + 1):
-            # Global Cooldown Check
             now = time.time()
             if now < GLOBAL_COOLDOWN_UNTIL:
                 await asyncio.sleep(GLOBAL_COOLDOWN_UNTIL - now)
@@ -190,7 +249,6 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                 
                 async with httpx.AsyncClient() as client:
                     for model in models:
-                        # Skip throttled models for this specific execution
                         if THROTTLED_MODELS.get(model, 0) > time.time():
                             continue
 
@@ -198,8 +256,12 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                         api_url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/{full_model_name}:generateContent?key={api_key}"
                         
                         try:
-                            payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                            response = await client.post(api_url, json=payload, timeout=45)
+                            # --- TOOL ENABLING (MCP-LIKE GROUNDING) ---
+                            payload = {
+                                "contents": [{"parts": [{"text": prompt}]}],
+                                "tools": [{"google_search_retrieval": {}}] if use_grounding else []
+                            }
+                            response = await client.post(api_url, json=payload, timeout=50)
                             
                             resp_json = {}
                             try: resp_json = response.json()

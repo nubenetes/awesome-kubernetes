@@ -42,21 +42,21 @@
 
 ## Introduction
 
-- [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/this-is-learning/the-awesome-side-of-github-awesome-lists-2a5h)
+- [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)
 
 ## Other Awesome Kubernetes Lists
 
-- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes/)
+- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes)
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
 - [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools/) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
-- [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
+- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
+- [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [==ksoclabs/awesome-kubernetes-security== 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
-- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
+- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
     - https://clusterpedia.io
@@ -86,12 +86,12 @@
 - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
 - [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles.
 - [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
-- [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
-- [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com/) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
+- [==Devdocs.io API Documentation== 🌟](https://devdocs.io)
+- [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
 - [github.com/iximiuz: Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering) List of awesome tools to tinker with containers.
 - [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) This repository provides a working, deployable, open source based, AWS Lambda handler and CDK Python code. This handler embodies Serverless best practices and has all the bells and whistles for a proper production ready handler.
 - [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) A collection of tools to improve your containerized apps security posture
-- [steveazz/awesome-slo: Awesome SLOs](https://github.com/steveazz/awesome-slo) A curated list of useful resources for SLIs/SLOs
+- [steveazz/awesome-slo: Awesome SLOs](https://github.com/steve-mt/awesome-slo) A curated list of useful resources for SLIs/SLOs
 - [github.com/Noovolari/awesome-cloudops: Awesome CloudOps](https://github.com/Noovolari/awesome-cloudops) A curated list of tools and best practices for CloudOps
 - [github.com/collections/learn-to-code 🌟](https://github.com/collections/learn-to-code)
 - [github.com/palark/awesome-devops-telegram: Awesome DevOps Telegram](https://github.com/palark/awesome-devops-telegram) A curated list of public Telegram channels and groups (chats) dedicated to DevOps, SRE, and Platform Engineering. English language only.
@@ -113,7 +113,7 @@
 
 ### Cloud Native
 
-- [Awesome Cloud Native](https://jimmysong.io/awesome-cloud-native/)
+- [Awesome Cloud Native](https://awesome.jimmysong.io)
 - [Awesome Cloud Native Java](https://github.com/saturnism/awesome-cloud-native-java)
 
 ### CI/CD and Pipelines
@@ -161,7 +161,7 @@
 
 ### Argo
 
-- [terrytangyuan/awesome-argo 🌟](https://github.com/terrytangyuan/awesome-argo) A curated list of awesome projects and resources related to Argo (a CNCF hosted project)
+- [terrytangyuan/awesome-argo 🌟](https://github.com/akuity/awesome-argo) A curated list of awesome projects and resources related to Argo (a CNCF hosted project)
 - [akuity/awesome-argo 🌟](https://github.com/akuity/awesome-argo)
 
 ### Monitoring Observability
@@ -176,7 +176,7 @@
 - [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)
 - [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure)
 - [github.com/jonleibowitz/awesome-digitalocean: Awesome Digital Ocean](https://github.com/jonleibowitz/awesome-digitalocean)
-- [christopherhein/awesome-eks: Awesome EKS](https://github.com/christopherhein/awesome-eks)
+- [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks)
 - [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks)
 - [globalbao/awesome-azure-policy: AWESOME-Azure-Policy](https://github.com/globalbao/awesome-azure-policy) A curated list of blogs, videos, tutorials, code, tools, scripts, and anything useful to help you learn Azure Policy - by @jesseloudon
 - [github.com/toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
@@ -187,29 +187,29 @@
 
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Compose](https://github.com/docker/awesome-compose)
-    - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/) for project development kickoff
-- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions/) A Curated List of Docker Extensions
+    - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff) for project development kickoff
+- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions) A Curated List of Docker Extensions
 
 ### Configuration Management
 
 - [jdauphant/Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
-    - [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
+    - [mrxpalmeiras: Ansible Cheat Sheet](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S1127513064%3A1779041015006518&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PatKhgmTZTEkwb3Q5nWpkPt4ntDFIyQrUJIi2ZjPJ-M3IOraCUtKjEa4_jbOFaWLmjeqIlS_)
 - [==ansible-community/awesome-ansible: Awesome Ansible== 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible)
-- [dawitnida/Awesome Packer](https://github.com/dawitnida/awesome-packer)
-- [shuaibiyy/Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
+- [dawitnida/Awesome Packer](https://github.com/dchonch/awesome-packer)
+- [shuaibiyy/Awesome Terraform](https://github.com/shuaibiyy/awesome-tf)
 - [ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep](https://github.com/ElYusubov/AWESOME-Azure-Bicep)
 
 ### Security
 
 - [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security)
 - [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security) A curated list of awesome Docker security resources
-- [anderseknert/awesome-opa 🌟](https://github.com/anderseknert/awesome-opa) A curated list of awesome Open Policy Agent (OPA) related tools, frameworks and articles.
+- [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) A curated list of awesome Open Policy Agent (OPA) related tools, frameworks and articles.
 - [github.com/tldrsec/awesome-secure-defaults](https://github.com/tldrsec/awesome-secure-defaults) Awesome secure by default libraries to help you eliminate bug classes!
 
 ### QA
 
 - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
-- [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
+- [Awesome Software Quality](https://github.com/ligurio/sqa-wiki)
 - [Awesome Testing](https://github.com/TheJambo/awesome-testing)
 - [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting)
 - [Awesome JMeter](https://github.com/aliesbelik/awesome-jmeter)
@@ -228,8 +228,8 @@
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - Awesome Go:
     - [Awesome Go](https://github.com/avelino/awesome-go)
-        - [awesome-go.com](https://awesome-go.com/)
-        - [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
+        - [awesome-go.com](https://awesome-go.com)
+        - [==golangrepo.com== 🌟](https://golangrepo.com) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
     - [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
     - [nleiva/go-links](https://github.com/nleiva/go-links)
 - Awesome .NET Core:
@@ -250,8 +250,8 @@
 
 #### Bash
 
-- [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
-- [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets/) Generate SSH Keys, Push SSH public key, run remote commands, etc.
+- [wiki.bash-hackers.org](https://wiki.bash-hackers.org)
+- [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets) Generate SSH Keys, Push SSH public key, run remote commands, etc.
 
 #### Powershell
 
@@ -260,12 +260,12 @@
 
 ### Data Processing
 
-- [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
+- [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101) frameworks, applications, readings and other resources.
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
 
 ### Big Data
 
-- [onurakpolat/awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata)
+- [onurakpolat/awesome-bigdata](https://github.com/oxnr/awesome-bigdata)
 
 ### Machine Learning and MLOps. Data Engineering
 
@@ -276,8 +276,8 @@
 
 ## Open Source Alternatives
 
-- [opensource.builders](https://opensource.builders/)
-- [free-for.dev](https://free-for.dev/)
+- [opensource.builders](https://opensource.builders)
+- [free-for.dev](https://free-for.dev)
 
 ## Kubectl Plugins
 
