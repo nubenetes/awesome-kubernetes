@@ -97,14 +97,14 @@
 </center>
 
 ## Azure
-  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide///) - A step-by-step guide demonstrating how to obtain free automated Let's Encrypt TLS certificates and store them securely in Azure Key Vault. This solution allows for automatic renewal and provisioning of additional certificates, offering a cost-effective way to secure services in Azure.
+  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide////) - A step-by-step guide demonstrating how to obtain free automated Let's Encrypt TLS certificates and store them securely in Azure Key Vault. This solution allows for automatic renewal and provisioning of additional certificates, offering a cost-effective way to secure services in Azure.
   - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b) 🌟 - A technical article demonstrating how to implement application network security in Azure using subnets, endpoints, DNS, and Network Security Groups (NSGs), with accompanying Terraform code.
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/en-us/explore/global-infrastructure/products-by-region/table) 🌟 - This page provides a comprehensive table of Azure products and their availability across various Azure regions globally. It's a valuable resource for understanding where specific Azure services can be deployed.
-  - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us//azure//private-link/network-security-perimeter-concepts) 🌟 - This article explains Azure Network Security Perimeter (NSP), a feature that establishes logical network boundaries around Azure Platform-as-a-Service (PaaS) resources deployed outside of virtual networks. It enhances security by controlling public network access to PaaS resources like Azure Storage and Key Vault, restricting inbound and outbound traffic by default and allowing explicit exceptions. Key benefits include preventing data exfiltration, managing external access, providing access logs for auditing, and offering a unified management experience across PaaS resources.
+  - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us///azure//private-link/network-security-perimeter-concepts) 🌟 - This article explains Azure Network Security Perimeter (NSP), a feature that establishes logical network boundaries around Azure Platform-as-a-Service (PaaS) resources deployed outside of virtual networks. It enhances security by controlling public network access to PaaS resources like Azure Storage and Key Vault, restricting inbound and outbound traffic by default and allowing explicit exceptions. Key benefits include preventing data exfiltration, managing external access, providing access logs for auditing, and offering a unified management experience across PaaS resources.
 
 - [Microsoft Azure](https://azure.microsoft.com/en-us/)
-- [Microsoft Docs](https://learn.microsoft.com/en-us///)
-- [Azure Docs](https://learn.microsoft.com/en-us//azure//)
+- [Microsoft Docs](https://learn.microsoft.com/en-us////)
+- [Azure Docs](https://learn.microsoft.com/en-us///azure//)
 - [Azure Updates 🌟](https://azure.microsoft.com/en-us/en-us/updates/)
 - [Azure Updates AKS 🌟](https://azure.microsoft.com/en-us/en-us/updates/?query=AKS)
 - [==azurecharts.com: Azure Charts==](https://azurecharts.com/) Live visual exploration environment for Azure Cloud + ecosystem. Cloud representation metrics auto-updated continuously
@@ -117,38 +117,38 @@
     - Platform as a Service: In PaaS (Pizza Delivered) the cloud vendor is responsible for the networking layers through the runtime layer and your IT team is responsible for the data and the applications. PaaS is commonly used to test, build and deploy applications for an organization.
     - Software as a Service: In SaaS (Dining Out) the cloud vendor is responsible for all layers from the networking through to the application layer. A common example of SaaS is a web-based email service such as Outlook, Hotmail or Gmail.
 - [medium: Scaling Applications in the Cloud](https://medium.com/faun/scaling-applications-in-the-cloud-52bb6dfbac4e)
-- [thenewstack.io: Azure Kubernetes Service Replaces Docker with containerd](https://thenewstack.io/azure-kubernetes-service-replaces-docker-with-containerd///)
-- [blog.sixeyed.com: You can't always have Kubernetes: running containers in Azure VM Scale Sets](https://blog.sixeyed.com/you-cant-always-have-kubernetes-running-containers-in-azure-vm-scale-sets///)
-- [devblogs.microsoft.com: Deploy Spring Boot applications by leveraging enterprise best practices – Azure Spring Cloud Reference Architecture](https://devblogs.microsoft.com/java/deploy-spring-boot-applications-by-leveraging-enterprise-best-practices///)
+- [thenewstack.io: Azure Kubernetes Service Replaces Docker with containerd](https://thenewstack.io/azure-kubernetes-service-replaces-docker-with-containerd////)
+- [blog.sixeyed.com: You can't always have Kubernetes: running containers in Azure VM Scale Sets](https://blog.sixeyed.com/you-cant-always-have-kubernetes-running-containers-in-azure-vm-scale-sets////)
+- [devblogs.microsoft.com: Deploy Spring Boot applications by leveraging enterprise best practices – Azure Spring Cloud Reference Architecture](https://devblogs.microsoft.com/java/deploy-spring-boot-applications-by-leveraging-enterprise-best-practices////)
 - [techcommunity.microsoft.com: Non-interactive logins: minimizing the blind spot](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/non-interactive-logins-minimizing-the-blind-spot/2287932) In this blog post, we will review the new Azure Sentinel data streams for Azure Active Directory non-interactive, service principal, and managed identity logins. We will also share the new security content we built and updated in the product, which includes analytics rules for the detection part and workbooks to assist our customers to deal with this blind spot.
-- [returngis.net: Replicación de blobs entre dos cuentas de Azure Storage en dos tenants diferentes](https://www.returngis.net/2021/06/replicacion-de-blobs-entre-dos-cuentas-de-azure-storage-en-dos-tenants-diferentes///)
-- [c-sharpcorner.com: Comparing AWS SQL Server With Azure SQL Database](https://www.c-sharpcorner.com/article/comparing-aws-sql-server-with-azure-sql-database///)
+- [returngis.net: Replicación de blobs entre dos cuentas de Azure Storage en dos tenants diferentes](https://www.returngis.net/2021/06/replicacion-de-blobs-entre-dos-cuentas-de-azure-storage-en-dos-tenants-diferentes////)
+- [c-sharpcorner.com: Comparing AWS SQL Server With Azure SQL Database](https://www.c-sharpcorner.com/article/comparing-aws-sql-server-with-azure-sql-database////)
 - [techcommunity.microsoft.com: How to create a VPN between Azure and AWS using only managed solutions](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/how-to-create-a-vpn-between-azure-and-aws-using-only-managed-solutions/2281900)
-- [teacdmin.net: How To Enable Multiple RDP Sessions on Windows Server](https://tecadmin.net/how-to-enable-multiple-rdp-sessions-on-windows-server///)
+- [teacdmin.net: How To Enable Multiple RDP Sessions on Windows Server](https://tecadmin.net/how-to-enable-multiple-rdp-sessions-on-windows-server////)
 - [k21academy.com: Azure Data Lake Overview For Beginners](https://k21academy.com/microsoft-azure/dp-203/azure-data-lake//)
 - [theregister.com: Microsoft Azure deprecations: API changes will break applications and PowerShell scripts](https://www.theregister.com/off-prem/2021/09/03/microsoft-azure-deprecations-api-changes-will-break-applications-and-powershell-scripts/748744/)
 - [k21academy.com: Azure RBAC Vs Azure Policies Vs Azure Blueprints](https://k21academy.com/azure-cloud/azure-rbac-vs-azure-policies-vs-azure-blueprints//)
 - [==blog.identitydigest.com: Azure AD workload identity federation with Kubernetes==](https://blog.identitydigest.com/azuread-federate-k8s/) Any k8s cluster, running on any platform, can now securely access Azure resources without keys or secrets through Azure AD Workload Identity Federation.
-- [thomasmaurer.ch: How to check the available VM Sizes (SKUs) by Azure Region](https://www.thomasmaurer.ch/2021/02/how-to-check-the-available-vm-sizes-skus-by-azure-region///)
-- [docs.microsoft.com: Multi-tenant user management scenarios](https://learn.microsoft.com/en-us///en-us/azure/active-directory/fundamentals/multi-tenant-user-management-scenarios)
-- [docs.microsoft.com: Overview: Cross-tenant access with Azure AD External Identities (Preview)](https://learn.microsoft.com/en-us//entra/external-id/cross-tenant-access-overview) Azure AD organizations can use External Identities cross-tenant access settings to manage how they collaborate with other Azure AD organizations through B2B collaboration. Cross-tenant access settings give you granular control over how external Azure AD organizations collaborate with you (inbound access) and how your users collaborate with external Azure AD organizations (outbound access).
+- [thomasmaurer.ch: How to check the available VM Sizes (SKUs) by Azure Region](https://www.thomasmaurer.ch/2021/02/how-to-check-the-available-vm-sizes-skus-by-azure-region////)
+- [docs.microsoft.com: Multi-tenant user management scenarios](https://learn.microsoft.com/en-us////en-us/azure/active-directory/fundamentals/multi-tenant-user-management-scenarios)
+- [docs.microsoft.com: Overview: Cross-tenant access with Azure AD External Identities (Preview)](https://learn.microsoft.com/en-us///entra/external-id/cross-tenant-access-overview) Azure AD organizations can use External Identities cross-tenant access settings to manage how they collaborate with other Azure AD organizations through B2B collaboration. Cross-tenant access settings give you granular control over how external Azure AD organizations collaborate with you (inbound access) and how your users collaborate with external Azure AD organizations (outbound access).
 - [==nubesgen.com==](https://nubesgen.com) - [microsoft/NubesGen](https://github.com/microsoft/NubesGen) Going to production on Azure is only one `git push` away. **Kickstart your project on Azure in minutes! Easily generate Terraform and Bicep templates for your project. Automate your infrastructure using GitOps best practices with GitHub Actions. NubesGen is an Open Source project and we are always looking for feedbacks and contributions.**
-    - [infoq.com: NubesGen Brings Git Push to Azure Infrastructure](https://www.infoq.com/news/2022/03/nubesgen-azure-infrastructure///)
+    - [infoq.com: NubesGen Brings Git Push to Azure Infrastructure](https://www.infoq.com/news/2022/03/nubesgen-azure-infrastructure////)
 - [charbelnemnom.com: Move Files Between Azure File Share Tiers and optimize storage costs](https://charbelnemnom.com/move-files-between-azure-file-share-tiers/)
 - [==techrepublic.com: What can you do with Azure Files?==](https://www.techrepublic.com/article/what-can-you-do-azure-files/)
 - [==satyenkumar.medium.com: Demystifying The Cloud: An Overview of the Microsoft Azure== 🌟🌟🌟](https://satyenkumar.medium.com/demystifying-the-cloud-computing-an-overview-of-the-microsoft-azure-6a5c1fb1799d) Learn how to make the most of the Azure cloud platform in this comprehensive story (Cloud Demystified Series). Go through 80% of Azure in 30 minutes
-- [==learn.microsoft.com: Migrate Java applications to Azure== 🌟🌟🌟](https://learn.microsoft.com/en-us//azure//developer/java/migration/migration-overview)
-- [blog.cloudtrooper.net: Overlapping IP addresses in a hub-and-spoke network (feat. AVNM & ARS)](https://blog.cloudtrooper.net/2022/11/14/overlapping-ip-addresses-in-a-hub-and-spoke-network-feat-avnm-ars///)
-- [blog.cloudtrooper.net: Virtual Network Gateways routing in Azure](https://blog.cloudtrooper.net/2023/02/06/virtual-network-gateways-routing-in-azure///)
-- [returngis.net: Monitorizar aplicación Java con Spring Boot con Azure Application Insights](https://www.returngis.net/2023/04/monitorizar-aplicacion-java-con-spring-boot-con-azure-application-insights///)
+- [==learn.microsoft.com: Migrate Java applications to Azure== 🌟🌟🌟](https://learn.microsoft.com/en-us///azure//developer/java/migration/migration-overview)
+- [blog.cloudtrooper.net: Overlapping IP addresses in a hub-and-spoke network (feat. AVNM & ARS)](https://blog.cloudtrooper.net/2022/11/14/overlapping-ip-addresses-in-a-hub-and-spoke-network-feat-avnm-ars////)
+- [blog.cloudtrooper.net: Virtual Network Gateways routing in Azure](https://blog.cloudtrooper.net/2023/02/06/virtual-network-gateways-routing-in-azure////)
+- [returngis.net: Monitorizar aplicación Java con Spring Boot con Azure Application Insights](https://www.returngis.net/2023/04/monitorizar-aplicacion-java-con-spring-boot-con-azure-application-insights////)
 - [medium.com/awesome-azure: Azure — Most Useful Azure Services Every Developer Must Know](https://medium.com/awesome-azure/azure-most-useful-azure-services-every-developer-must-know-top-azure-paas-serverless-services-developer-c55b829ac6d7)
-- [returngis.net: Invitar a usuarios externos a un tenant de Azure AD a través de Microsoft Graph y Azure CLI](https://www.returngis.net/2023/04/invitar-a-usuarios-externos-a-un-tenant-de-azure-ad-a-traves-de-microsoft-graph-y-azure-cli//)
-- [==learn.microsoft.com: Choose an Azure compute service== 🌟🌟](https://learn.microsoft.com/en-us//azure//architecture/guide/technology-choices/compute-decision-tree)
+- [returngis.net: Invitar a usuarios externos a un tenant de Azure AD a través de Microsoft Graph y Azure CLI](https://www.returngis.net/2023/04/invitar-a-usuarios-externos-a-un-tenant-de-azure-ad-a-traves-de-microsoft-graph-y-azure-cli///)
+- [==learn.microsoft.com: Choose an Azure compute service== 🌟🌟](https://learn.microsoft.com/en-us///azure//architecture/guide/technology-choices/compute-decision-tree)
 - [nwktimes.blogspot.com: NVA Part IV: NVA Redundancy with Azure Internal Load Balancer](https://nwktimes.blogspot.com/2023/06/azure-ilb-for-nva-ha.html)
 - [==azure.microsoft.com: Choose the best global distribution solution for your applications with Azure==](https://azure.microsoft.com/en-us/en-us/blog/choose-the-best-global-distribution-solution-for-your-applications-with-azure/)
 - [blog.davesdomain.co.uk: A look at Azure RBAC Constrained Delegation](https://blog.davesdomain.co.uk/posts/azure-rbac-constrained-delegation)
 - [linkedin.com: Azure Networking | Filiz Akkaya](https://www.linkedin.com/top-content/?trk=article_not_found/)
-- [allazureblog.wordpress.com: Azure Bastion vs UDR](https://allazureblog.wordpress.com/2024/01/18/azure-bastion-and-udrs///)
+- [allazureblog.wordpress.com: Azure Bastion vs UDR](https://allazureblog.wordpress.com/2024/01/18/azure-bastion-and-udrs////)
 - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8) Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.
 - [blog.cloudtrooper.net: Azure network monitoring with synthetic traffic](https://blog.cloudtrooper.net/2024/01/23/azure-network-monitoring-with-synthetic-traffic///)
 - [techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics](https://techcommunity.microsoft.com/blog/educatordeveloperblog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for-real-time-data-anal/4028701)
@@ -156,19 +156,19 @@
 - [github.com/Azure/Enterprise-Scale: ALZ AMA Update](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update) The Log Analytics agent, also known as the Microsoft Monitoring Agent (MMA), is on a deprecation path and won't be supported after August 31, 2024. Any new data centers brought online after January 1 2024 will not support the Log Analytics agent. If you use the Log Analytics agent to ingest data to Azure Monitor, migrate to the new Azure Monitor agent prior to that date.
 - [blog.siliconvalve.com: Analysing git commit history using Azure Data Explorer](https://blog.siliconvalve.com/posts/2024/02/06/analysing-git-commit-history-using-azure-data-explorer)
 - [azure.microsoft.com: Generally available: Azure Blob Storage Cold Tier support on Change Feed and Object Replication](https://azure.microsoft.com/en-us/en-us/updates/generally-available-azure-blob-storage-cold-tier-support-on-change-feed-and-object-replication/)
-- [hlokensgard.no: Azure Firewall as DNS Proxy with the new Azure DNS Resolver](https://hlokensgard.no/2023/07/03/azure-firewall-as-dns-proxy-with-the-new-azure-dns-resolver///)
+- [hlokensgard.no: Azure Firewall as DNS Proxy with the new Azure DNS Resolver](https://hlokensgard.no/2023/07/03/azure-firewall-as-dns-proxy-with-the-new-azure-dns-resolver////)
 - [linkedin.com/pulse: The Who's Who of the Azure Configuration Management Landscape | Mark Tinderholt](https://www.linkedin.com/top-content/?trk=article_not_found/)
 - [techcommunity.microsoft.com: Microsoft Fabric - Multi-Tenant Architecture](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/microsoft-fabric---multi-tenant-architecture/4119429)
-- [build5nines.com: Why do Azure Resource Groups have an Azure Region association?](https://build5nines.com/why-do-azure-resource-groups-have-an-azure-region-association///)
+- [build5nines.com: Why do Azure Resource Groups have an Azure Region association?](https://build5nines.com/why-do-azure-resource-groups-have-an-azure-region-association////)
 - [build5nines.com: Read and Write Azure Blob Storage with Javascript](https://build5nines.com/read-and-write-azure-blob-storage-with-javascript///)
 - [techcommunity.microsoft.com: Azure Orphan Resources](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-orphan-resources/3492198)
     - [github.com/dolevshor/azure-orphan-resources](https://github.com/dolevshor/azure-orphan-resources) Centralize orphan resources in Azure environments
-- [build5nines.com: Azure CDN POP Locations: Interactive Map of Azure CDN Points of Presence](https://build5nines.com/azure-cdn-endpoint-interactive-map///)
+- [build5nines.com: Azure CDN POP Locations: Interactive Map of Azure CDN Points of Presence](https://build5nines.com/azure-cdn-endpoint-interactive-map////)
 
 ## Azure Architecture Check List
   - [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) - This article details how to deploy and manage virtual networks across different Azure tenants using Azure Virtual Network Manager. It covers the capabilities and implementation steps for achieving cross-tenant network connectivity, which is crucial for large organizations with multiple Azure subscriptions and tenants.
 
-- [luke.geek.nz/azure: Azure Architecture - Solution Requirement Consideration Checklist](https://luke.geek.nz/azure/azure-architecture-solution-requirement-consideration-checklist///)
+- [luke.geek.nz/azure: Azure Architecture - Solution Requirement Consideration Checklist](https://luke.geek.nz/azure/azure-architecture-solution-requirement-consideration-checklist////)
 
 ## Azure Mindmap
 
@@ -187,33 +187,33 @@
 ## Azure Policy
 
 - [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-policy-for-kubernetes-releases-support-for-custom-policy/2699466) **A tutorial on how to set up Azure Policy for Kubernetes with custom policies.**
-- [arinco.com.au: Awesome Azure Policy Chapter 1](https://arinco.com.au/blog/awesome-azure-policy-chapter-1///)
-- [arinco.com.au: Awesome Azure Policy Chapter 2](https://arinco.com.au/blog/awesome-azure-policy-chapter-2///)
+- [arinco.com.au: Awesome Azure Policy Chapter 1](https://arinco.com.au/blog/awesome-azure-policy-chapter-1////)
+- [arinco.com.au: Awesome Azure Policy Chapter 2](https://arinco.com.au/blog/awesome-azure-policy-chapter-2////)
 
 ### Azure Policy Best Practices
 
 - [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-policy-recommended-practices/3798024)
 
 ## Azure Cloud Adoption Framework CAF
-  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us//azure//cloud-adoption-framework/ready/enterprise-scale/transition) - This Microsoft Learn article provides guidance and recommendations for organizations looking to migrate their existing Azure environments, including resources and management group structures, to align with the Azure landing zone reference architecture. It covers considerations for moving resources within Azure and discusses different approaches based on user RBAC permissions.
+  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us///azure//cloud-adoption-framework/ready/enterprise-scale/transition) - This Microsoft Learn article provides guidance and recommendations for organizations looking to migrate their existing Azure environments, including resources and management group structures, to align with the Azure landing zone reference architecture. It covers considerations for moving resources within Azure and discusses different approaches based on user RBAC permissions.
   - [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options) 🌟 - This article from Microsoft Learn details the various implementation options for deploying and managing Azure platform landing zones, a key component of the Cloud Adoption Framework. It highlights Infrastructure-as-Code (IaC) using Azure Verified Modules (AVMs) with Terraform or Bicep as the recommended approach, while also presenting a portal-based approach for organizations less familiar with IaC.
 
-- [learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?](https://learn.microsoft.com/en-us//azure//cloud-adoption-framework/overview)
+- [learn.microsoft.com: What is the Microsoft Cloud Adoption Framework for Azure?](https://learn.microsoft.com/en-us///azure//cloud-adoption-framework/overview)
 - [linkedin.com: The Ultimate Guide to Azure Cloud Adoption Framework Lifecycle](https://www.linkedin.com/pulse/ultimate-guide-azure-cloud-adoption-framework-gregor-wohlfarter-hb4sf/)
 
 ## Azure Well-Architected Framework WAF
-  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us//azure//well-architected///service-guides/azure-kubernetes-service) 🌟 - This document provides architectural recommendations for Azure Kubernetes Service (AKS), aligning with the principles of the Azure Well-Architected Framework. It covers best practices for both the AKS cluster itself and the workloads deployed on it, distinguishing between responsibilities of cluster administrators and developers. The content aims to guide architects in making informed decisions for deploying and managing containerized applications on AKS.
+  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us///azure//well-architected///service-guides/azure-kubernetes-service) 🌟 - This document provides architectural recommendations for Azure Kubernetes Service (AKS), aligning with the principles of the Azure Well-Architected Framework. It covers best practices for both the AKS cluster itself and the workloads deployed on it, distinguishing between responsibilities of cluster administrators and developers. The content aims to guide architects in making informed decisions for deploying and managing containerized applications on AKS.
 
-- [learn.microsoft.com: Azure Well-Architected Framework](https://learn.microsoft.com/en-us//azure//well-architected///) The Azure Well-Architected Framework (WAF) is a set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads.
-- [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://www.infoq.com/news/2023/11/azure-well-architected-framework//)
-- [==azure.github.io: Azure Proactive Resiliency Library (APRL)==](https://azure.github.io/Azure-Proactive-Resiliency-Library///)
+- [learn.microsoft.com: Azure Well-Architected Framework](https://learn.microsoft.com/en-us///azure//well-architected///) The Azure Well-Architected Framework (WAF) is a set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads.
+- [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://www.infoq.com/news/2023/11/azure-well-architected-framework///)
+- [==azure.github.io: Azure Proactive Resiliency Library (APRL)==](https://azure.github.io/Azure-Proactive-Resiliency-Library////)
     - This library is built with the intention of being a staging area for guidance and recommendations that can be used by customers, partners and the field in Well-Architected Framework reliability engagements/assessments; with the intent of the guidance and recommendations being promoted, once tested and validated with customers and partners, into the official Well-Architected Framework documentation.
     - The library also contains supporting Azure Resource Graph (ARG) queries, and sometimes Azure PowerShell or Azure CLI scripts, that can help customers, partners and the field identify resources that may or may not be compliant with the guidance and recommendations. The intent for these queries, in the long-term, is to make them part of the Azure Advisor service.
-- [learn.microsoft.com: Azure Well-Architected Framework perspective on Azure App Service (Web Apps)](https://learn.microsoft.com/en-us//azure//well-architected///service-guides/app-service-web-apps)
+- [learn.microsoft.com: Azure Well-Architected Framework perspective on Azure App Service (Web Apps)](https://learn.microsoft.com/en-us///azure//well-architected///service-guides/app-service-web-apps)
 
 ### Well-Architected Framework Assessments
 
-- [learn.microsoft.com: Use Azure WAF assessments](https://learn.microsoft.com/en-us//azure//advisor/advisor-assessments)
+- [learn.microsoft.com: Use Azure WAF assessments](https://learn.microsoft.com/en-us///azure//advisor/advisor-assessments)
 - [techcommunity.microsoft.com: Get tailored insights with our Advisor Well-Architected assessments](https://techcommunity.microsoft.com/blog/finopsblog/get-tailored-insights-with-our-advisor-well-architected-assessments/4218239)
 
 ## CAF vs WAF
@@ -223,20 +223,20 @@
 
 ## Azure Landing Zones
   - [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) 🌟 - This article from the Microsoft Community Hub details a production-ready guide for implementing automated Azure subscription vending at enterprise scale. It leverages Azure Verified Modules (AVM) with Terraform to ensure standardized, governed, and automated subscription creation, addressing common scalability and governance challenges associated with manual processes. The guide covers necessary permissions, role assignments, and best practices aligned with Azure Landing Zones.
-  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones//accelerator/accelerator-release-notes//) - *(Related to iac topic)*
+  - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones//accelerator/accelerator-release-notes///) - *(Related to iac topic)*
   - [Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) - *(Related to finops topic)*
-  - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us//azure//architecture/landing-zones/subscription-vending) 🌟 - This article provides implementation guidance for automating the process of requesting, deploying, and governing Azure subscriptions. It aims to standardize subscription provisioning, enabling application teams to deploy workloads more efficiently. The guidance includes an architecture diagram illustrating a management group hierarchy and a subscription automation workflow, detailing how subscriptions are organized under platform, landing zones, and sandbox child groups, with specific examples of subscription types and associated resources.
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones///accelerator//) - *(Related to iac topic)*
-  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones///) 🌟 - Comprehensive documentation for deploying and managing Azure landing zones, covering foundational components, governance, networking, security, and management.
+  - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us///azure//architecture/landing-zones/subscription-vending) 🌟 - This article provides implementation guidance for automating the process of requesting, deploying, and governing Azure subscriptions. It aims to standardize subscription provisioning, enabling application teams to deploy workloads more efficiently. The guidance includes an architecture diagram illustrating a management group hierarchy and a subscription automation workflow, detailing how subscriptions are organized under platform, landing zones, and sandbox child groups, with specific examples of subscription types and associated resources.
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones////accelerator//) - *(Related to iac topic)*
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones////) 🌟 - Comprehensive documentation for deploying and managing Azure landing zones, covering foundational components, governance, networking, security, and management.
   - [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) - *(Related to terraform topic)*
-  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone///) 🌟 - This documentation describes the concept of an Azure landing zone, which is a standardized and recommended approach for organizations to set up and manage their Azure environments at scale. It emphasizes consistency, security, compliance, and operational efficiency through platform and application landing zones, built upon a well-architected foundation across eight design areas. The content also touches on the scalable and modular nature of the Azure landing zone architecture, its repeatable infrastructure, and the use of modules for deployment and modification. It references a specific reference architecture as a starting point.
+  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone////) 🌟 - This documentation describes the concept of an Azure landing zone, which is a standardized and recommended approach for organizations to set up and manage their Azure environments at scale. It emphasizes consistency, security, compliance, and operational efficiency through platform and application landing zones, built upon a well-architected foundation across eight design areas. The content also touches on the scalable and modular nature of the Azure landing zone architecture, its repeatable infrastructure, and the use of modules for deployment and modification. It references a specific reference architecture as a starting point.
 
 - [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
 - [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/blog/azuretoolsblog/azure-landing-zones-accelerators-for-bicep-and-terraform-announcing-general-avai/4029866)
 - [techcommunity.microsoft.com: Azure OpenAI Landing Zone reference architecture](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-openai-landing-zone-reference-architecture/3882102)
 - [techcommunity.microsoft.com: New feature: easily assign regulatory compliance policies to your Azure Landing Zone](https://techcommunity.microsoft.com/blog/azurearchitectureblog/new-feature-easily-assign-regulatory-compliance-policies-to-your-azure-landing-z/4074957)
 - [techcommunity.microsoft.com: Azure landing zones custom archetypes using Terraform](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-landing-zones-custom-archetypes-using-terraform/3791172)
-- [thomasmaurer.ch: Azure Landing Zone Review Assessment](https://www.thomasmaurer.ch/2023/09/azure-landing-zone-review-assessment///)
+- [thomasmaurer.ch: Azure Landing Zone Review Assessment](https://www.thomasmaurer.ch/2023/09/azure-landing-zone-review-assessment////)
 - [techcommunity.microsoft.com: From Zero to Hero with Azure Landing Zones](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-azure-landing-zones/4229195)
 
 ## Azure Extended Zones
@@ -245,7 +245,7 @@
 
 ## Azure Sandbox
 
-- [Azure Sandbox](https://learn.microsoft.com/en-us//azure//architecture/guide/azure-sandbox/azure-sandbox) Azure Sandbox is a collection of interdependent cloud computing configurations for implementing common Azure services on a single subscription. This collection provides a flexible and cost effective sandbox environment for experimenting with Azure services and capabilities.
+- [Azure Sandbox](https://learn.microsoft.com/en-us///azure//architecture/guide/azure-sandbox/azure-sandbox) Azure Sandbox is a collection of interdependent cloud computing configurations for implementing common Azure services on a single subscription. This collection provides a flexible and cost effective sandbox environment for experimenting with Azure services and capabilities.
 
 ## Azure Marketplace
 
@@ -264,16 +264,16 @@
 
 - [==azure.microsoft.com: General availability: Azure Bastion native client support==](https://azure.microsoft.com/en-us/en-us/updates/general-availability-azure-bastion-native-client-support//)
 - [azure.microsoft.com: Generally available: SFTP support for Azure Blob Storage](https://azure.microsoft.com/en-us/updates/sftp-support-for-azure-blob-storage-now-generally-available//)
-- [azure.microsoft.com: Generally Available: Durable Functions support of managed identity for Azure Storage](https://azure.microsoft.com/en-us/en-us/updates/generally-available-durable-functions-support-of-managed-identity-for-azure-storage//) Azure Durable Functions support of managed identity for Azure Storage is now generally available! Instead of embedding secrets in connection strings, you can use an identity-based connection to access Azure Storage. The identity is managed by the Azure platform and does not require you to provision or rotate any secrets. See [quickstart](https://learn.microsoft.com/en-us//azure//azure-functions/durable-functions/durable-functions-configure-managed-identity) on how to configure managed identity for Azure Storage in your Durable Functions app.
+- [azure.microsoft.com: Generally Available: Durable Functions support of managed identity for Azure Storage](https://azure.microsoft.com/en-us/en-us/updates/generally-available-durable-functions-support-of-managed-identity-for-azure-storage//) Azure Durable Functions support of managed identity for Azure Storage is now generally available! Instead of embedding secrets in connection strings, you can use an identity-based connection to access Azure Storage. The identity is managed by the Azure platform and does not require you to provision or rotate any secrets. See [quickstart](https://learn.microsoft.com/en-us///azure//azure-functions/durable-functions/durable-functions-configure-managed-identity) on how to configure managed identity for Azure Storage in your Durable Functions app.
 - [Generally available: Azure Bastion now support shareable links](https://azure.microsoft.com/en-us/en-us/updates/generally-available-azure-bastion-shareable-links/)
 - [theregister.com: Microsoft has made Azure Linux generally available. Repeat, Azure Linux](https://www.theregister.com/software/2023/05/26/microsofts-azure-linux-distro-is-now-generally-available/568359/) Come for the Kubernetes, stay for the containers
-- [==azure.microsoft.com: Azure Virtual Network Manager topology view now generally available==](https://azure.microsoft.com/en-us/en-us/updates/v2/Azure-Virtual-Network-Manager-topology-view-now-generally-available/) AVNM is a highly scalable and available network management solution that allows you to simplify network management across subscriptions globally. Azure Resource Topology (ART) allows you to visualize the resources in your network – collaborating with AVNM results in a topology view contextualized by your AVNM connectivity configurations. [==Connectivity configuration in Azure Virtual Network Manager==](https://learn.microsoft.com/en-us//azure//virtual-network-manager/concept-connectivity-configuration)
-- [hlokensgard.no: Azure Virtual Network Manager – A game changer or just a costly upgrade?](https://hlokensgard.no/2024/07/01/azure-virtual-network-manager-a-game-changer-or-just-a-costly-upgrade///)
+- [==azure.microsoft.com: Azure Virtual Network Manager topology view now generally available==](https://azure.microsoft.com/en-us/en-us/updates/v2/Azure-Virtual-Network-Manager-topology-view-now-generally-available/) AVNM is a highly scalable and available network management solution that allows you to simplify network management across subscriptions globally. Azure Resource Topology (ART) allows you to visualize the resources in your network – collaborating with AVNM results in a topology view contextualized by your AVNM connectivity configurations. [==Connectivity configuration in Azure Virtual Network Manager==](https://learn.microsoft.com/en-us///azure//virtual-network-manager/concept-connectivity-configuration)
+- [hlokensgard.no: Azure Virtual Network Manager – A game changer or just a costly upgrade?](https://hlokensgard.no/2024/07/01/azure-virtual-network-manager-a-game-changer-or-just-a-costly-upgrade////)
 
 ## Blogs
-  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release///) - *(Related to ai-agents-mcp topic)*
-  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper///) - A blog post comparing the costs of different Azure networking services to help users make more cost-effective decisions.
-  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform///) 🌟 - A blog post detailing how to provision and utilize Azure IPAM (IP Address Management) service using Terraform. It explains the benefits of IPAM in simplifying IP address allocation across teams and environments by abstracting the complexity of IP ranges, allowing consumers to request a specific number of addresses from a shared pool.
+  - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release////) - *(Related to ai-agents-mcp topic)*
+  - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper////) - A blog post comparing the costs of different Azure networking services to help users make more cost-effective decisions.
+  - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform////) 🌟 - A blog post detailing how to provision and utilize Azure IPAM (IP Address Management) service using Terraform. It explains the benefits of IPAM in simplifying IP address allocation across teams and environments by abstracting the complexity of IP ranges, allowing consumers to request a specific number of addresses from a shared pool.
   - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) 🌟 - This blog post outlines the development of a comprehensive DDoS response strategy by leveraging the capabilities of Azure DDoS Protection. It details the types of DDoS attacks (Volumetric, Protocol, and Resource), and explains how Azure DDoS Protection, in conjunction with Azure Web Application Firewall (WAF), provides mitigation. The post emphasizes the importance of incident detection, communication protocols, and the overall creation of a robust plan to ensure the availability and performance of online services.
   - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) - *(Related to kubernetes topic)*
   - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) - *(Related to finops topic)*
@@ -290,29 +290,29 @@
 ## Azure Training and Certifications
 
 - [johnthebrit/CertificationMaterials](https://github.com/johnthebrit/CertificationMaterials) A collection of materials related to my certification videos
-- [thomasmaurer.ch: How To Learn Microsoft Azure in 2022](https://www.thomasmaurer.ch/2022/01/how-to-learn-microsoft-azure-in-2022///)
+- [thomasmaurer.ch: How To Learn Microsoft Azure in 2022](https://www.thomasmaurer.ch/2022/01/how-to-learn-microsoft-azure-in-2022////)
 - [charbelnemnom.com: Exam AZ-305: Microsoft Certified: Azure Solutions Architect Expert](https://charbelnemnom.com/az-305-exam-study-guide-azure-solutions-architect/)
-- [==learn.microsoft.com: Browse all courses, learning paths, and modules== 🌟🌟🌟](https://learn.microsoft.com/en-us//training/browse/?resource_type=course&products=azure)
+- [==learn.microsoft.com: Browse all courses, learning paths, and modules== 🌟🌟🌟](https://learn.microsoft.com/en-us///training/browse/?resource_type=course&products=azure)
 - [freecodecamp.org: Azure Fundamentals Certification (AZ-900) – Pass the Exam With This Free 8-Hour Course](https://www.freecodecamp.org/news/azure-fundamentals-certification-az-900-exam-course/)
-- [learn.microsoft.com: Practice Assessments for Microsoft Certifications](https://learn.microsoft.com/en-us//credentials/certifications/practice-assessments-for-microsoft-certifications)
+- [learn.microsoft.com: Practice Assessments for Microsoft Certifications](https://learn.microsoft.com/en-us///credentials/certifications/practice-assessments-for-microsoft-certifications)
 - [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) Guiding first-time cloud users to deploy to Azure PaaS
 
 ## Azure Naming Convention
 
 - [docs.microsoft.com: Define your naming convention](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
     - [seifbassem.com: Azure Naming Tool](https://blog.seifbassem.com/blogs/posts/azure-naming-tool/)
-- [justinoconnor.codes: Azure Periodic Table of Resource Naming Convention Shorthands](https://justinoconnor.codes/2022/08/19/azure-periodic-table-of-resource-naming-convention-shorthands///)
+- [justinoconnor.codes: Azure Periodic Table of Resource Naming Convention Shorthands](https://justinoconnor.codes/2022/08/19/azure-periodic-table-of-resource-naming-convention-shorthands////)
 
 ## Mission-critical Architecture on Azure
   - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) - *(Related to aws-networking topic)*
 
-- [==learn.microsoft.com: Mission-critical baseline architecture on Azure==](https://learn.microsoft.com/en-us//azure//architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro)
-- [learn.microsoft.com: Mission-critical workloads](https://learn.microsoft.com/en-us//azure//well-architected///mission-critical/mission-critical-overview)
+- [==learn.microsoft.com: Mission-critical baseline architecture on Azure==](https://learn.microsoft.com/en-us///azure//architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro)
+- [learn.microsoft.com: Mission-critical workloads](https://learn.microsoft.com/en-us///azure//well-architected///mission-critical/mission-critical-overview)
 
 ## Understand Azure Load Balancing
-  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups///) - This article explains how Azure Proximity Placement Groups can be used to physically co-locate Azure compute resources, ensuring low latency between them. It discusses use cases for latency-sensitive applications like manufacturing systems and in-memory computations, and includes details on testing the effectiveness of these groups.
+  - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups////) - This article explains how Azure Proximity Placement Groups can be used to physically co-locate Azure compute resources, ensuring low latency between them. It discusses use cases for latency-sensitive applications like manufacturing systems and in-memory computations, and includes details on testing the effectiveness of these groups.
 
-- [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://learn.microsoft.com/en-us//azure//architecture/guide/technology-choices/load-balancing-overview)
+- [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://learn.microsoft.com/en-us///azure//architecture/guide/technology-choices/load-balancing-overview)
 - [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
 
 ## Azure Load Testing
@@ -323,53 +323,53 @@
 
 ## Microsoft Linux Distribution CBL Mariner
 
-- [thenewstack.io: Deploying Microsoft’s New Linux Distribution as a VM is Not Easy](https://thenewstack.io/deploying-microsofts-new-linux-distribution-as-a-vm-is-not-easy///)
+- [thenewstack.io: Deploying Microsoft’s New Linux Distribution as a VM is Not Easy](https://thenewstack.io/deploying-microsofts-new-linux-distribution-as-a-vm-is-not-easy////)
 - [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) Linux OS for Azure 1P services and edge appliances
 
 ## Azure Patterns
-  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us//azure//architecture/web-apps/guides/enterprise-app-patterns/overview) - This article from the Azure Architecture Center outlines enterprise web app patterns, offering a structured approach for developers and architects to guide web applications through the cloud journey. It focuses on two phases, each addressing a common business goal and progressing towards more advanced web applications, with prescriptive guidance aligned with the Azure Well-Architected Framework.
-  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us//azure//architecture/networking/architecture/hub-spoke) - This Microsoft Learn page details the hub-spoke network pattern as a recommended best practice for Azure network topology by the Cloud Adoption Framework. It provides an architecture diagram and explains the implementation of customer-managed hub infrastructure components. The page also references an alternative solution with Microsoft-managed hub infrastructure using Azure Virtual WAN.
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us///azure//architecture/web-apps/guides/enterprise-app-patterns/overview) - This article from the Azure Architecture Center outlines enterprise web app patterns, offering a structured approach for developers and architects to guide web applications through the cloud journey. It focuses on two phases, each addressing a common business goal and progressing towards more advanced web applications, with prescriptive guidance aligned with the Azure Well-Architected Framework.
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us///azure//architecture/networking/architecture/hub-spoke) - This Microsoft Learn page details the hub-spoke network pattern as a recommended best practice for Azure network topology by the Cloud Adoption Framework. It provides an architecture diagram and explains the implementation of customer-managed hub infrastructure components. The page also references an alternative solution with Microsoft-managed hub infrastructure using Azure Virtual WAN.
 
 - [==mattfeltonma/azure-networking-patterns==](https://github.com/mattfeltonma/azure-networking-patterns)
-- [==docs.microsoft.com: Cloud Design Patterns== 🌟](https://learn.microsoft.com/en-us//azure//architecture/patterns//)
+- [==docs.microsoft.com: Cloud Design Patterns== 🌟](https://learn.microsoft.com/en-us//azure/architecture/patterns///)
 
 ## ARM Templates
   - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot](https://github.com/Azure/AZVerify) - AZVerify is a GitHub repository that enhances GitHub Copilot's capabilities to synchronize Azure resources, Bicep templates, and live environment diagrams. It addresses the common issue of drift between these three sources of truth. The project provides skills for GitHub Copilot Chat and the Copilot CLI to facilitate this synchronization, allowing users to generate diagrams from Azure resources or vice versa, and ensuring consistency.
-  - [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform///) - *(Related to terraform topic)*
+  - [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform////) - *(Related to terraform topic)*
   - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) - *(Related to terraform topic)*
   - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) - *(Related to terraform topic)*
   - [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) - *(Related to terraform topic)*
   - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) - *(Related to iac topic)*
-  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines///) - *(Related to terraform topic)*
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines////) - *(Related to terraform topic)*
   - [Terraform Provider for Azure IPAM](https://github.com/XtratusCloud/terraform-provider-azureipam) - *(Related to terraform topic)*
 
-- [==azure.microsoft.com: Azure Quickstart Templates==](https://learn.microsoft.com/en-us//samples/browse/?expanded=azure&products=azure-resource-manager/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
-- [thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates](https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates///)
+- [==azure.microsoft.com: Azure Quickstart Templates==](https://learn.microsoft.com/en-us///samples/browse/?expanded=azure&products=azure-resource-manager/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
+- [thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates](https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates////)
 - [techcommunity.microsoft.com: ARM Template Specs now GA!](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/arm-template-specs-now-ga/2402618)
-- [docs.microsoft.com: Azure Resource Manager template specs](https://learn.microsoft.com/en-us//azure//azure-resource-manager/templates/template-specs)
+- [docs.microsoft.com: Azure Resource Manager template specs](https://learn.microsoft.com/en-us///azure//azure-resource-manager/templates/template-specs)
 
 ## DevTest
 
-- [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us//azure//devtest-labs/)
+- [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us//azure/devtest-labs//)
 
 ## Azure DevOps
-  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline///) - *(Related to cicd topic)*
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline////) - *(Related to cicd topic)*
   - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - This repository contains the server-side implementation for the Microsoft Cloud Platform (MCP) agent, which integrates Azure DevOps capabilities directly with agent environments. It enables enhanced CI/CD workflows and DevOps automation by bringing Azure DevOps features to the agent level.
-  - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview///) - *(Related to ai topic)*
+  - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview////) - *(Related to ai topic)*
   - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254) 🌟 - This article demonstrates how to automate the deployment of Microsoft Sentinel using Azure DevOps CI/CD pipelines. It covers the setup of Sentinel resources, workspace configuration, and the integration with Azure DevOps for continuous integration and deployment.
-  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro///) - *(Related to kubernetes-tutorials topic)*
+  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro////) - *(Related to kubernetes-tutorials topic)*
   - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/2025/02/27/deploying-to-azure-secure-your-github-workflow-with-oidc/) - *(Related to cicd topic)*
-  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops///) - *(Related to cicd topic)*
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops////) - *(Related to cicd topic)*
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - This article, originating from a LinkedIn post about securing Azure DevOps when utilizing private repositories, appears to be lost. The provided link redirects to a general LinkedIn 'Top Content' page, indicating the original content is unavailable. Therefore, its technical value and cataloging are impossible.
-  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions///) - *(Related to terraform topic)*
+  - [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions////) - *(Related to terraform topic)*
   - [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) - *(Related to kubernetes-security topic)*
   - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai///) - *(Related to cicd topic)*
-  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses///) - This post announces upcoming changes to Azure DevOps networking infrastructure, requiring users to allow list new IP addresses in their firewall configurations. These updates are aimed at enhancing performance, speed, and stability of Azure DevOps services, with a transition period to ensure a smooth migration. The new IPv4 and IPv6 ranges, as well as ExpressRoute IP ranges, are provided.
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses////) - This post announces upcoming changes to Azure DevOps networking infrastructure, requiring users to allow list new IP addresses in their firewall configurations. These updates are aimed at enhancing performance, speed, and stability of Azure DevOps services, with a transition period to ensure a smooth migration. The new IPv4 and IPv6 ranges, as well as ExpressRoute IP ranges, are provided.
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/en-us/services/devops/)
 - [Azure DevOps Labs 🌟](https://www.azuredevopslabs.com/)
 - [github.com/nnellans/ado-pipelines-guide: Azure DevOps YAML Pipelines Guide 🌟](https://github.com/nnellans/ado-pipelines-guide)
-- [==docs.microsoft.com: Build applications with Azure DevOps (Learning Path)==](https://learn.microsoft.com/en-gb/training/browse///)
+- [==docs.microsoft.com: Build applications with Azure DevOps (Learning Path)==](https://learn.microsoft.com/en-gb/training/browse////)
 - [==docs.microsoft.com: Azure Pipelines documentation==](https://learn.microsoft.com/en-gb/azure/devops/pipelines/?view=azure-devops/) Implement continuous integration and continuous delivery (CI/CD) for the app and platform of your choice.
 - [microsoft/azure-pipelines-tasks](https://github.com/microsoft/azure-pipelines-tasks)
 - [info.acloud.guru: Deploying your first kubernetes app with Azure DevOps](https://info.acloud.guru/resources/deploy-kubernetes-app-with-azure-devops)
@@ -379,39 +379,39 @@
 - [Azure DevOps Tips: “Each” Loops](https://medium.com/@therealjordanlee/azure-devops-tips-each-loops-c082c692d025)
 - [cloudskills.io: Getting Started with Git and Azure DevOps: The Ultimate Guide 🌟](https://ine.com/)
 - [zartis.com: Simplify Your SDLC with Azure DevOps](https://www.zartis.com/simplify-your-sdlc-with-azure-devops/)
-- [devblogs.microsoft.com: Controlling Release Pipelines with Gates and Azure Policy Compliance 🌟](https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance///)
+- [devblogs.microsoft.com: Controlling Release Pipelines with Gates and Azure Policy Compliance 🌟](https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance////)
 - [youtube: Azure DevOps Pipeline and Image Builder](https://www.youtube.com/watch?v=zL0eLEl2BxI&ab_channel=TravisRoberts)
 - [dev.to: Setting up a CI-CD Pipeline Using Azure DevOps 🌟](https://dev.to/gbengelebs/setting-up-a-ci-cd-pipeline-using-azure-devops-4gb)
 - [zartis.com: Simplify Your SDLC with Azure DevOps 🌟](https://www.zartis.com/simplify-your-sdlc-with-azure-devops/)
-- [thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline](https://thomasthornton.cloud/scout-suite-reports-using-azure-devops-pipeline///) Interesting article on how to fecth az DevOps pipelines reports as a static website
+- [thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline](https://thomasthornton.cloud/scout-suite-reports-using-azure-devops-pipeline////) Interesting article on how to fecth az DevOps pipelines reports as a static website
 - [Azure DevOps Dashboard](https://github.com/cschotte/Azure-DevOps-Dashboard)
 - [cloud.google.com: Crea una canalización de CI/CD con Azure Pipelines y Compute Engine](https://docs.cloud.google.com/dotnet/docs/creating-cicd-pipeline-vsts-compute-engine)
 - [letsdevops.net: Introduction to Azure DevOps for Beginners - Create CI/CD Pipelines, Setup Repository 🌟](https://www.letsdevops.net/post/letsdevops-introduction-to-azure-devops-for-beginners)
-- [kevinrchant.com: Increase in demand for Data Platform automation](https://www.kevinrchant.com/2021/09/16/increase-in-demand-for-data-platform-automation///)
-    - [kevinrchant.com: Introducing my Azure DevOps templates for Data Platform deployments](https://www.kevinrchant.com/2021/09/14/t-sql-tuesday-142-introducing-my-azure-devops-templates-for-data-platform-deployments///)
+- [kevinrchant.com: Increase in demand for Data Platform automation](https://www.kevinrchant.com/2021/09/16/increase-in-demand-for-data-platform-automation////)
+    - [kevinrchant.com: Introducing my Azure DevOps templates for Data Platform deployments](https://www.kevinrchant.com/2021/09/14/t-sql-tuesday-142-introducing-my-azure-devops-templates-for-data-platform-deployments////)
 - [dotnetcurry.com: Customization of Work Items in Azure DevOps and Azure DevOps Server 2020](https://www.dotnetcurry.com/devops/workitem-customize-azure-devops-server-2020)
 - [thomast1906/DevOps-The-Hard-Way-Azure 🌟](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in Azure
-- [==thinksys.com: Azure DevOps Pipeline Complete Guide 2022==](https://thinksys.com/azure/azure-devops-pipeline-complete-guide///)
+- [==thinksys.com: Azure DevOps Pipeline Complete Guide 2022==](https://thinksys.com/azure/azure-devops-pipeline-complete-guide////)
 - [techcommunity.microsoft.com: CICD in Synapse SQL: How to deliver your database objects across multiple environments](https://techcommunity.microsoft.com/blog/azuresynapseanalyticsblog/cicd-in-synapse-sql-how-to-deliver-your-database-objects-across-multiple-environ/3267507)
 - [==medium.com/geekculture: Provision resources on AWS with Azure DevOps and Terraform — Part I==](https://medium.com/geekculture/provision-resources-on-aws-with-azure-devops-and-terraform-part-i-3c0de6d34fc9)
     - [==medium.com/geekculture: Provision resources on AWS with Azure DevOps and Terraform — Part II==](https://medium.com/geekculture/provision-resources-on-aws-with-azure-devops-and-terraform-part-ii-45ee450139)
 - [==medium.com/@sdevsecops: How to implement DevSecOps in a Kubernetes cluster environment-Github Actions and Azure DevOps==](https://medium.com/@sdevsecops/how-to-implement-devsecops-in-a-kubernetes-cluster-environment-github-actions-and-azure-devops-522bdd121e34)
-- [==learn.microsoft.com: Azure DevOps Templates - Template types & usage== 🌟🌟](https://learn.microsoft.com/en-us//azure//devops/pipelines/process/templates?view=azure-devops)
+- [==learn.microsoft.com: Azure DevOps Templates - Template types & usage== 🌟🌟](https://learn.microsoft.com/en-us///azure//devops/pipelines/process/templates?view=azure-devops)
 - [medium.com/geekculture: Continuous Deployment with Azure DevOps Pipelines and Kubernetes](https://medium.com/geekculture/continuous-deployment-with-azure-devops-pipelines-and-kubernetes-12fe1c70b343) Create a Continuous Deployment workflow for your application
 - [techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-devops-pipelines-if-expressions-and-conditions/3737159)
 - [linkedin.com: Complete CI/CD Solution for mS on AKS using Azure DevOps, ArgoCD and External Kubernetes Secretes 🌟](https://www.linkedin.com/pulse/complete-cicd-solution-ms-aks-using-azure-devops-argocd-singh/)
 - [techcommunity.microsoft.com: Introduction to Azure DevOps Workload identity federation (OIDC) with Terraform](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=09213cdc-9f30-4e82-aa6f-9b6e8d82dab3&redirect_uri=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fs%2Fauth%2Foauth2callback%2Fproviderid%2Fdefault&response_type=code&state=l6szqle4bzDgvgJagl8z4PdMvpp_5xu-WPFDEhepQ0JV4o6p1Oiy79YAZuEPj3BnEO_EXjdV2VJH4ckf68foAKVHFZ9zL0POiDIgyviNM2LPLGkKCrmP95s8cCy29jWSMUodTlRNE7u4fcWrQ3_-0x0suxxUZh0nRgtFL0BouINjnmwDFGMwFhi1w5p0fjhA99nnnjuaIC8aIgq1A2Orcmawz9DQyoYwqLMlKMupP-U&scope=User.Read+openid+email+profile+offline_access&referer=https%3A%2F%2Ftechcommunity.microsoft.com%2Fblog%2F-%2Fintroduction-to-azure-devops-workload-identity-federation-oidc%2F3908687)
 - [==datascientest.com: Azure DevOps Pipeline YAML: why configure CI/CD pipelines with YAML?==](https://liora.io/en/azure-devops-pipeline-yaml-why-configure-ci-cd-pipelines-with-yaml)
 - [thomasthornton.cloud: Conditional Variables in Azure DevOps Pipelines](https://thomasthornton.cloud/2021/08/04/conditional-variables-in-azure-devops-pipelines/)
-- [build5nines.com: Azure Pipeline: Publish Unit Test and Code Coverage Results with .NET 7 Solution using VSTest, Cobertura, and Coverlet](https://build5nines.com/azure-pipeline-publish-unit-test-and-code-coverage-results-with-net-solution-using-vstest-cobertura-and-coverlet///)
+- [build5nines.com: Azure Pipeline: Publish Unit Test and Code Coverage Results with .NET 7 Solution using VSTest, Cobertura, and Coverlet](https://build5nines.com/azure-pipeline-publish-unit-test-and-code-coverage-results-with-net-solution-using-vstest-cobertura-and-coverlet////)
 - [thomasthornton.cloud: Adding pull-request comments to Azure DevOps Repo from Azure DevOps Pipelines](https://thomasthornton.cloud/2024/01/18/adding-pull-request-comments-to-azure-devops-repo-from-azure-devops-pipelines/)
 - [==towardsdev.com: Azure DevOps Project Creation and Setup via Terraform==](https://towardsdev.com/azure-devops-project-creation-and-setup-via-terraform-3444ff985bae)
-- [==thomasthornton.cloud: Deploy Terraform using Azure DevOps==](https://thomasthornton.cloud/deploy-terraform-using-azure-devops///)
+- [==thomasthornton.cloud: Deploy Terraform using Azure DevOps==](https://thomasthornton.cloud/deploy-terraform-using-azure-devops////)
 - [blog.johnfolberth.com: Resources and posts for those figuring out DevOps in Azure](https://blog.johnfolberth.com/)
 - [medium.com/@muppedaanvesh: Azure DevOps — Self Hosted Agents on Kubernetes — PART-1](https://medium.com/@muppedaanvesh/azure-devops-self-hosted-agents-on-kubernetes-part-1-aa91e7912f79) Unlocking Efficiency and Scalability for Your CI/CD Workflows
 - [medium.com/@DevOps-Diva.o: Implementing Security on Azure DevOps Pipelines](https://medium.com/@DevOps-Diva.o/implementing-security-on-azure-devops-pipelines-a653da4862a9)
-- [luke.geek.nz/azure: Export Azure DevOps Repositories to Azure Storage Account](https://luke.geek.nz/azure/export-azure-devops-repos-azure-storage-account///)
-- [learn.microsoft.com: Managed DevOps Pools documentation](https://learn.microsoft.com/en-us//azure//devops/managed-devops-pools/?view=azure-devops) Managed DevOps Pool is a fully managed service where VMs or containers powering the agents will live in a Microsoft Azure subscription and not in your own Azure subscription.
+- [luke.geek.nz/azure: Export Azure DevOps Repositories to Azure Storage Account](https://luke.geek.nz/azure/export-azure-devops-repos-azure-storage-account////)
+- [learn.microsoft.com: Managed DevOps Pools documentation](https://learn.microsoft.com/en-us///azure//devops/managed-devops-pools/?view=azure-devops) Managed DevOps Pool is a fully managed service where VMs or containers powering the agents will live in a Microsoft Azure subscription and not in your own Azure subscription.
 - [youtube: Managed DevOps Pools for Azure DevOps | Full Overview & Demo 🌟](https://www.youtube.com/watch?v=FBAav6OoJlw)
 
 ### Azure DevOps Backup Tool
@@ -425,10 +425,10 @@
 
 ### YAML Schema in DevOps Azure Pipelines
 
-- [==DevOps Azure Pipelines: YAML Schema==](https://learn.microsoft.com/en-us//azure//devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)
+- [==DevOps Azure Pipelines: YAML Schema==](https://learn.microsoft.com/en-us///azure//devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)
 
 ### Azure Pipeline Tasks
-  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops///) - This article provides a step-by-step guide on how to install Java 23 within an Azure DevOps pipeline, specifically when the default JavaToolInstaller task does not support the desired version. It outlines the necessary scripts to download, extract, and configure Java 23, setting JAVA_HOME and updating the PATH environment variables, and then demonstrates how to use it with a Maven build.
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops////) - This article provides a step-by-step guide on how to install Java 23 within an Azure DevOps pipeline, specifically when the default JavaToolInstaller task does not support the desired version. It outlines the necessary scripts to download, extract, and configure Java 23, setting JAVA_HOME and updating the PATH environment variables, and then demonstrates how to use it with a Maven build.
 
 - [==Microsoft/azure-pipelines-tasks==](https://github.com/Microsoft/azure-pipelines-tasks) This repo contains the tasks that are provided out-of-the-box with Azure Pipelines and Team Foundation Server. This provides open examples on how we write tasks which will help you write other tasks which can be uploaded to your account or server.
     - [github.com/datakickstart](https://github.com/datakickstart)
@@ -471,35 +471,35 @@
   - [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) - *(Related to kubernetes-security topic)*
 
 - [==stackoverflow.com: What is the difference between an Azure tenant and Azure subscription?==](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)
-- [==marckean.com: Azure Vs Azure AD – Accounts / Tenants / Subscriptions==](https://marckean.com/2016/06/01/azure-vs-azure-ad-accounts-tenants-subscriptions///)
+- [==marckean.com: Azure Vs Azure AD – Accounts / Tenants / Subscriptions==](https://marckean.com/2016/06/01/azure-vs-azure-ad-accounts-tenants-subscriptions////)
 - [blogit.create.pt: Pros and Cons of Single Tenant vs Multiple Tenants in Office 365](https://blogit.create.pt/miguelisidoro/2019/01/07/pros-and-cons-of-single-tenant-vs-multiple-tenants-in-office-365/)
-- [learn.microsoft.com: Classic subscription administrator roles, Azure roles, and Azure AD roles](https://learn.microsoft.com/en-us//azure//role-based-access-control/rbac-and-directory-admin-roles)
-- [learn.microsoft.com: Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://learn.microsoft.com/en-us//microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide)
-- [learn.microsoft.com: Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us//azure//azure-resource-manager/management/azure-subscription-service-limits)
-    - [learn.microsoft.com: Azure Active Directory limits](https://learn.microsoft.com/en-us//azure//azure-resource-manager/management/azure-subscription-service-limits#azure-active-directory-limits)
+- [learn.microsoft.com: Classic subscription administrator roles, Azure roles, and Azure AD roles](https://learn.microsoft.com/en-us///azure//role-based-access-control/rbac-and-directory-admin-roles)
+- [learn.microsoft.com: Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://learn.microsoft.com/en-us///microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide)
+- [learn.microsoft.com: Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us///azure//azure-resource-manager/management/azure-subscription-service-limits)
+    - [learn.microsoft.com: Azure Active Directory limits](https://learn.microsoft.com/en-us///azure//azure-resource-manager/management/azure-subscription-service-limits#azure-active-directory-limits)
 - [itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities](https://itnext.io/secure-azure-cosmos-db-access-by-using-azure-managed-identities-55f9fdf48fda) Getting rid of passwords (or connection strings) while accessing Azure services and instead making use of Managed Identities is a way to increase the security of your workloads. Learn how to use Managed Identities in this article.
 - [youtube.com: Azure Service Principal - SPN | Houssem Dellai](https://www.youtube.com/watch?v=-F9yzj4Kjeo&ab_channel=HoussemDellai)
 - [youtube.com: How to create Service Principals in Azure Portal | Raaviblog](https://www.youtube.com/watch?v=Hg-YsUITnck)
 - [==techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset!== 🌟](https://techcommunity.microsoft.com/discussions/azure/dynamic-user-membership-rules-azure-active-directory-administrative-units-and-pa/3281164)
-- [learn.microsoft.com: Application registration permissions for custom roles in Azure Active Directory](https://learn.microsoft.com/en-us//entra/identity/role-based-access-control/custom-available-permissions)
-- [==learn.microsoft.com: What are Azure Active Directory recommendations?== 🌟🌟](https://learn.microsoft.com/en-us//entra/identity/monitoring-health/overview-recommendations)
-- [==learn.microsoft.com: Multi-tenant user management introduction==](https://learn.microsoft.com/en-us//entra/architecture/multi-tenant-user-management-introduction)
+- [learn.microsoft.com: Application registration permissions for custom roles in Azure Active Directory](https://learn.microsoft.com/en-us///entra/identity/role-based-access-control/custom-available-permissions)
+- [==learn.microsoft.com: What are Azure Active Directory recommendations?== 🌟🌟](https://learn.microsoft.com/en-us///entra/identity/monitoring-health/overview-recommendations)
+- [==learn.microsoft.com: Multi-tenant user management introduction==](https://learn.microsoft.com/en-us///entra/architecture/multi-tenant-user-management-introduction)
 - [==learn.microsoft.com: Delegate Azure role assignment management to others with conditions==](https://learn.microsoft.com/nb-no/azure/role-based-access-control/delegate-role-assignments-portal)
 - [==codewithme.cloud: Why aren’t you using Managed Identities?!==](https://codewithme.cloud/posts/2024/02/why-arent-you-using-secretless-authentication/)
 - [linkedin.com/pulse: No Credentials, No Problem - using Azure Managed Identity](https://www.linkedin.com/pulse/credentials-problem-using-azure-managed-identity-dimitar-iliev--wzzaf/)
 - [learn.microsoft.com/nb-no: Delegate Azure role assignment management to others with conditions](https://learn.microsoft.com/nb-no/azure/role-based-access-control/delegate-role-assignments-portal?tabs=template)
-- [learn.microsoft.com/en-us: Azure built-in roles 🌟🌟](https://learn.microsoft.com/en-us//azure//role-based-access-control/built-in-roles)
+- [learn.microsoft.com/en-us: Azure built-in roles 🌟🌟](https://learn.microsoft.com/en-us///azure//role-based-access-control/built-in-roles)
 - [==techcommunity.microsoft.com: Azure Permissions 101: How to manage Azure access effectively==](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/azure-permissions-101-how-to-manage-azure-access-effectively/4067468)
 - [techcommunity.microsoft.com: Important: Azure AD Graph Retirement and Powershell Module Deprecation](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/important-azure-ad-graph-retirement-and-powershell-module-deprecation/3848270)
-- [journeyofthegeek.com: Azure Authorization – Azure RBAC Delegation](https://journeyofthegeek.com/2024/05/10/azure-authorization-azure-rbac-delegation///)
-- [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github///)
+- [journeyofthegeek.com: Azure Authorization – Azure RBAC Delegation](https://journeyofthegeek.com/2024/05/10/azure-authorization-azure-rbac-delegation////)
+- [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github////)
 
 ### Register applications in Azure AD. Authenticate apps and services
 
-- [==agrenpoint.com: Azure AD & Microsoft Graph permission scopes, with Azure CLI==](https://www.agrenpoint.com/azcli-adscope///) In this small post, we will look at a scenario where we want to register an Azure AD Application using specific scopes. When adding scopes for service principals using the Azure CLI we need to use the internal Ids. And one way would be to manually create one registration, get that app and then print out the scopes and then copy and paste.
+- [==agrenpoint.com: Azure AD & Microsoft Graph permission scopes, with Azure CLI==](https://www.agrenpoint.com/azcli-adscope////) In this small post, we will look at a scenario where we want to register an Azure AD Application using specific scopes. When adding scopes for service principals using the Azure CLI we need to use the internal Ids. And one way would be to manually create one registration, get that app and then print out the scopes and then copy and paste.
 - [==medium.com/medialesson: Create Azure Active Directory App Registration with Azure CLI==](https://medium.com/medialesson/create-azure-active-directory-app-registration-with-azure-cli-3241aa3824c5)
 - [inkoop.io: How to get Azure API Credentials](https://www.inkoop.io/blog/how-to-get-azure-api-credentials/) How to create an application in Azure active directory and get subscription id, tenant id, client id, client secret and generate management certificates. You will need these keys to access Azure API.
-- [docs.microsoft.com: Use the portal to create an Azure AD application and service principal that can access resource](https://learn.microsoft.com/en-us//entra/identity-platform/howto-create-service-principal-portal)
+- [docs.microsoft.com: Use the portal to create an Azure AD application and service principal that can access resource](https://learn.microsoft.com/en-us///entra/identity-platform/howto-create-service-principal-portal)
 - [medium.com/medialesson: Assigning Azure built-in roles vs Azure AD built-in roles with Azure CLI](https://medium.com/medialesson/assigning-azure-built-in-roles-vs-azure-ad-built-in-roles-with-azure-cli-d1cbf56fcdbe) Depending on what action you are trying to perform in Azure you might require either to be member of a certain Azure role or a certain Azure AD role. For example **if we want an identity to create an app registration in Azure AD we need the role Application Administrator which is part of the Azure AD roles.** When we want to create a resource in a certain resource group we need the Contributor role which is part of the Azure AD and typically scoped to a either a subscription, a resource group or a distinct resource.
 - [microsoftgraph/msgraph-sdk-powershell/samples: 9-Applications.ps1](https://github.com/microsoftgraph/msgraph-sdk-powershell)
 - [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure)
@@ -509,51 +509,51 @@
 
 ### Azure AD Pen Testing
 
-- [==zer1t0.gitlab.io: Attacking Active Directory: 0 to 0.9== 🌟](https://zer1t0.gitlab.io/posts/attacking_ad///)
+- [==zer1t0.gitlab.io: Attacking Active Directory: 0 to 0.9== 🌟](https://zer1t0.gitlab.io/posts/attacking_ad////)
 
 ## Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc
   - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) - *(Related to gitops topic)*
 
-- [Azure Arc overview](https://learn.microsoft.com/en-us///en-us/azure/azure-arc/overview) Alternative to Google Anthos or RHACM
+- [Azure Arc overview](https://learn.microsoft.com/en-us////en-us/azure/azure-arc/overview) Alternative to Google Anthos or RHACM
 - [azurearcjumpstart.io](https://jumpstart.azure.com//) - [microsoft/azure_arc](https://github.com/microsoft/azure_arc)
     - [architecture diagrams and slides](https://github.com/microsoft/azure_arc)
 - [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/blog/itopstalkblog/standardize-devops-practices-across-hybrid-and-multicloud-environments/2795010) With Azure Arc-enabled Kubernetes, you can attach and configure Kubernetes clusters located either inside or outside Azure.
-- [docs.microsoft.com: CI/CD workflow using GitOps (Flux v2) - Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us//azure//azure-arc/kubernetes/conceptual-gitops-flux2-ci-cd)
-- [thomasmaurer.ch: Run cloud-native apps on Azure PaaS anywhere](https://www.thomasmaurer.ch/2021/06/run-cloud-native-apps-on-azure-paas-anywhere///)
+- [docs.microsoft.com: CI/CD workflow using GitOps (Flux v2) - Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us///azure//azure-arc/kubernetes/conceptual-gitops-flux2-ci-cd)
+- [thomasmaurer.ch: Run cloud-native apps on Azure PaaS anywhere](https://www.thomasmaurer.ch/2021/06/run-cloud-native-apps-on-azure-paas-anywhere////)
 - [seifbassem.com: SSH into your Azure Arc-enabled servers from anywhere](https://blog.seifbassem.com/blogs/posts/azure-arc-ssh/)
 
 ## Secure DevOps Kit for Azure
 
 - [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit)
 - [DevOpsKit-docs](https://github.com/azsk/DevOpsKit-docs)
-- [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://ismiletechnologies.com/en_us/devsecops/secure-devops-kit-azureazsk///)
+- [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://ismiletechnologies.com/en_us/devsecops/secure-devops-kit-azureazsk////)
 
 ## Azure App Service
   - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) 🌟 - This blog post details Azure App Service Auto-Heal, a diagnostic and recovery feature designed to proactively detect and mitigate application performance issues. It explains how Auto-Heal can be configured with custom rules based on metrics like request duration and memory usage to trigger automatic corrective actions such as recycling the application process, collecting diagnostic dumps, or logging additional telemetry. The goal is to minimize downtime, improve reliability, and facilitate efficient troubleshooting by capturing vital diagnostic data.
 
-- [learn.microsoft.com: Environment variables and app settings in Azure App Service](https://learn.microsoft.com/en-us//azure//app-service/reference-app-settings)
-- [learn.microsoft.com: Configure a Java app for Azure App Service](https://learn.microsoft.com/en-us//azure//app-service/configure-language-java-deploy-run)
-- [learn.microsoft.com: Configure a custom container for Azure App Service](https://learn.microsoft.com/en-us//azure//app-service/configure-custom-container)
-- [returngis.net: Acceder a un App Service con Private Endpoint desde otra Vnet](https://www.returngis.net/2021/08/acceder-a-un-app-service-con-private-endpoint-desde-otra-vnet///)
+- [learn.microsoft.com: Environment variables and app settings in Azure App Service](https://learn.microsoft.com/en-us///azure//app-service/reference-app-settings)
+- [learn.microsoft.com: Configure a Java app for Azure App Service](https://learn.microsoft.com/en-us///azure//app-service/configure-language-java-deploy-run)
+- [learn.microsoft.com: Configure a custom container for Azure App Service](https://learn.microsoft.com/en-us///azure//app-service/configure-custom-container)
+- [returngis.net: Acceder a un App Service con Private Endpoint desde otra Vnet](https://www.returngis.net/2021/08/acceder-a-un-app-service-con-private-endpoint-desde-otra-vnet////)
 - [youtube: How to run an App Service Web App on Azure Arc-enabled Kubernetes - Part 2 | Azure Tips and Tricks](https://www.youtube.com/watch?v=53-Y_aI0KpE&ab_channel=MicrosoftAzure)
 - [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html)
 
 ## Azure Application Gateway
-  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration//) - *(Related to istio topic)*
-  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4///) - *(Related to kubernetes-networking topic)*
-  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1///) - A detailed introduction to Azure Application Gateway for Containers (AGC), a reverse proxy solution for Kubernetes workloads. This post covers its architecture, components, and how it differs from the previous Application Gateway Ingress Controller (AGIC), focusing on benefits like external deployment to conserve cluster resources and faster reconfiguration times.
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration///) - *(Related to istio topic)*
+  - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4////) - *(Related to kubernetes-networking topic)*
+  - [Introduction to Azure Application Gateway for Containers (AGC)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1////) - A detailed introduction to Azure Application Gateway for Containers (AGC), a reverse proxy solution for Kubernetes workloads. This post covers its architecture, components, and how it differs from the previous Application Gateway Ingress Controller (AGIC), focusing on benefits like external deployment to conserve cluster resources and faster reconfiguration times.
 
 - [==nathannellans.com: Azure Application Gateway - Part 1== 🌟](https://www.nathannellans.com/post/azure-application-gateway-part-1)
-- [acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs](https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm///)
+- [acethecloud.com: Which is better Azure App Gateway or Nginx configured on Azure VMs](https://acethecloud.com/blog/azure-application-gateway-and-nginx-on-vm////)
 
 ## Azure Functions
   - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization///) - *(Related to serverless topic)*
 
-- [learn.microsoft.com: AZ-204: Implement Azure Functions 🌟](https://learn.microsoft.com/en-us//training/paths/implement-azure-functions///)
+- [learn.microsoft.com: AZ-204: Implement Azure Functions 🌟](https://learn.microsoft.com/en-us///training/paths/implement-azure-functions///)
 - [azurebrains.com: Despliega tu Azure Function App con Terraform y Azure DevOps 🌟](https://blog.azurebrains.com//despliega-azure-function-terraform-azuredevops//)
 
 ## Azure Monitor
-  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us//azure//cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - This Microsoft Learn article outlines how to plan, configure, and optimize monitoring for Azure cloud environments. It covers integrating data from other clouds, on-premises, and edge locations, and details monitoring responsibilities based on deployment models (IaaS, PaaS, SaaS). The article emphasizes defining a monitoring strategy to detect, diagnose, and predict issues.
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us///azure//cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - This Microsoft Learn article outlines how to plan, configure, and optimize monitoring for Azure cloud environments. It covers integrating data from other clouds, on-premises, and edge locations, and details monitoring responsibilities based on deployment models (IaaS, PaaS, SaaS). The article emphasizes defining a monitoring strategy to detect, diagnose, and predict issues.
 
 - [techcommunity.microsoft.com: Azure Monitor Logs Next Evolution: Multi-tier logging](https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-monitor-logs-next-evolution-multi-tier-logging/4200871)
 
@@ -565,7 +565,7 @@
 
 ## Azure Log Analytics
 
-- [havanrijn.wordpress.com: Don’t let Azure Log Analytics break the bank](https://havanrijn.wordpress.com/2024/04/01/dont-let-azure-log-analytics-break-the-bank///)
+- [havanrijn.wordpress.com: Don’t let Azure Log Analytics break the bank](https://havanrijn.wordpress.com/2024/04/01/dont-let-azure-log-analytics-break-the-bank////)
 
 ## Azure Grafana
 
@@ -573,74 +573,74 @@
 
 ## Mobile Apps
 
-- [Visual Studio App Center VS Azure Pipelines](https://learn.microsoft.com/en-us//appcenter/build/choose-between-services)
+- [Visual Studio App Center VS Azure Pipelines](https://learn.microsoft.com/en-us///appcenter/build/choose-between-services)
 - [itnext.io: How to setup CI CD pipelines for Android with Azure DevOps](https://itnext.io/how-to-setup-ci-cd-pipelines-for-android-with-azure-devops-2a4ded0de0e7) At Royale Cheese initially we had setup CI/CD for Android via Microsoft’s Visual Studio App Center (an upgrade of Hockey App), but last year they declared the retirement of MBaas which got us worried about the overall future of VS App Center. That was one of the reasons we wanted to switch away from it. Secondly, the free tier provided around 400 minutes of build time per month per account which would had been sufficient for other technologies, but Android takes around 15 minutes to create a single build and deploy. We all know what gradle is capable of 😉. So having multiple apps (both iOS and Android) in the same account didn’t fare well.
 - [arjavdave.com: Continuous Integration: CI/CD for iOS (Part 1)](https://arjavdave.com/2021/03/11/continuous-integration-for-ios-on-azure-devops-part-1/)
-- [sahansera.dev: Multi-stage builds for Ionic Apps with Azure Pipeline Templates](https://sahansera.dev/multi-stage-builds-with-azure-pipelines-ionic///)
-- [sahansera.dev: Publishing Android Apps to Microsoft App Center from Azure DevOps](https://sahansera.dev/publishing-android-apps-to-microsoft-appcenter///)
+- [sahansera.dev: Multi-stage builds for Ionic Apps with Azure Pipeline Templates](https://sahansera.dev/multi-stage-builds-with-azure-pipelines-ionic////)
+- [sahansera.dev: Publishing Android Apps to Microsoft App Center from Azure DevOps](https://sahansera.dev/publishing-android-apps-to-microsoft-appcenter////)
 - [yoshevski.medium.com: Cost-effective Azure Devops and AppCenter integration](https://yoshevski.medium.com/cost-effective-azuredevops-and-appcenter-integration-fe606725d5d5)
 - [youtube: Signing & Versioning iOS & Android Apps | DevOps for Mobile](https://www.youtube.com/watch?v=s1grtSSIRVA&ab_channel=dotNET)
 
 ## Powershell
 
-- [PowerShell](https://learn.microsoft.com/en-us//powershell//)
+- [PowerShell](https://learn.microsoft.com/en-us///powershell//)
 - [PowerShell Gallery 🌟](https://www.powershellgallery.com/) The central repository for sharing and acquiring PowerShell code including PowerShell modules, scripts, and DSC resources.
-- [PowerShell Community](https://devblogs.microsoft.com/powershell-community///)
+- [PowerShell Community](https://devblogs.microsoft.com/powershell-community////)
 - [reddit.com: PowerShell Core yaml support?](https://www.reddit.com/r/PowerShell/comments/flzsx5/powershell_core_yaml_support/)
 - [powershellmagazine.com](https://powershellmagazine.com/)
 - [dbatools.io](https://dbatools.io/) SQL Server instance migrations and best practice implementation.
-- [thomasmaurer.ch: PowerShell: Download script or file from GitHub](https://www.thomasmaurer.ch/2021/07/powershell-download-script-or-file-from-github///)
+- [thomasmaurer.ch: PowerShell: Download script or file from GitHub](https://www.thomasmaurer.ch/2021/07/powershell-download-script-or-file-from-github////)
 - [deepinstinct.com: What makes powershell a challenge for cybersecurity solutions? 🌟](https://www.deepinstinct.com/blog/what-makes-powershell-a-challenge-for-cybersecurity-solutions/)
-- [fedoramagazine.org: PowerShell on Linux? A primer on Object-Shells](https://fedoramagazine.org/powershell-on-linux-a-primer-on-object-shells///)
+- [fedoramagazine.org: PowerShell on Linux? A primer on Object-Shells](https://fedoramagazine.org/powershell-on-linux-a-primer-on-object-shells////)
 - [sqlservercentral.com: Powershell Day by Day: Adding Help to Scripts](https://www.sqlservercentral.com/articles/powershell-day-by-day-adding-help-to-scripts)
 - [dahlbyk/posh-git](https://github.com/dahlbyk/posh-git) A PowerShell environment for Git
 - [blog.guybarrette.com: Powershell prompt: How to display your current Kubernetes context using Oh-My-Posh 3 🌟](https://www.linkedin.com/newsletters/6962087231775772672)
 - [jinwookim928.medium.com: Automation Script for Git Flow on PowerShell](https://jinwookim928.medium.com/automation-script-for-git-flow-on-powershell-70d0596f6da8)
 - [youtube: Azure PowerShell account management with Azure contexts | A Cloud Guru 🌟](https://www.youtube.com/watch?v=PjiJsllKZrI&ab_channel=ACloudGuru) If you've been using Azure PowerShell, you might've noticed that when you launch a script, you'll need to authenticate. When you have multiple Azure subscriptions with their own resources, this makes account management difficult. Mark Mikula demonstrates how you can manage multiple Azure subscriptions through Azure Contexts in PowerShell
-- [hackingarticles.in: PowerShell for Pentester: Windows Reverse Shell](https://www.hackingarticles.in/powershell-for-pentester-windows-reverse-shell///) We’ll explore how to acquire a reverse shell using Powershell scripts on the Windows platform.
+- [hackingarticles.in: PowerShell for Pentester: Windows Reverse Shell](https://www.hackingarticles.in/powershell-for-pentester-windows-reverse-shell////) We’ll explore how to acquire a reverse shell using Powershell scripts on the Windows platform.
 - [hashicorp.com: Managing Terraform Cloud With PowerShell](https://www.hashicorp.com/resources/managing-terraform-cloud-with-powershell)
 - [==acloudguru.com: The Beginner’s Guide to Azure PowerShell: One Shell to Rule Them All==](https://www.pluralsight.com/resources/blog/cloud/one-shell-to-rule-them-all-5-reasons-to-use-powershell-for-cloud-management)
 - [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/discussions/windowspowershell/an-example-why-powershell-is-so-important/3041748)
 - [jdhitsolutions.com: Profile PowerShell Functions](https://jdhitsolutions.com/blog/powershell-7/8793/profile-powershell-functions/)
-- [devblogs.microsoft.com: When PowerShellGet v1 fails to install the NuGet Provider](https://devblogs.microsoft.com/powershell/when-powershellget-v1-fails-to-install-the-nuget-provider///)
+- [devblogs.microsoft.com: When PowerShellGet v1 fails to install the NuGet Provider](https://devblogs.microsoft.com/powershell/when-powershellget-v1-fails-to-install-the-nuget-provider////)
 - [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/discussions/windowspowershell/an-example-why-powershell-is-so-important/3041748) Create 500 training (test) accounts
-- [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user//)
+- [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user///)
 - [techcommunity.microsoft.com: Use PowerShell to retrieve all assigned Intune policies and applications per Azure AD group!](https://techcommunity.microsoft.com/discussions/microsoft-intune/use-powershell-to-retrieve-all-assigned-intune-policies-and-applications-per-azu/3217498)
-- [softzone.es: Por qué me interesa más usar PowerShell en lugar de CMD](https://www.softzone.es/noticias/windows/por-que-interesa-usar-powershell-lugar-cmd///)
+- [softzone.es: Por qué me interesa más usar PowerShell en lugar de CMD](https://www.softzone.es/noticias/windows/por-que-interesa-usar-powershell-lugar-cmd////)
 - [==mssqltips.com: PowerShell for the DBA - If Else and Switch statements==](https://www.mssqltips.com/sqlservertip/7188/powershell-if-if-else-switch-examples/)
 - [4sysops.com: Use PsExec and PowerShell together](https://4sysops.com/archives/use-psexec-and-powershell-together/) **How to run PowerShell commands remotely with PsExec**
 - [dotnet-helpers.com: Passing Local Variables to Remote PowerShell session](https://dotnet-helpers.com/powershell/passing-local-variables-to-remote-powershell-session/)
 - [techcommunity.microsoft.com: Use PowerShell to search for accounts in Active Directory that have gone stale!](https://techcommunity.microsoft.com/discussions/windowsserver/use-powershell-to-search-for-accounts-in-active-directory-that-have-gone-stale/3585934)
 - [techcommunity.microsoft.com: Azure Storage Blob Count & Capacity usage Calculator](https://techcommunity.microsoft.com/blog/azurepaasblog/azure-storage-blob-count--capacity-usage-calculator/3516855) This PowerShell script allow you to count and calculate Azure Storage blob usage for Soft Deleted / non-Soft Deleted objects, by Container, by Tier, with Prefix, and considering Last Modified Date. Azure Storage blob objects is defined as Base Blobs, Blob Snapshots or Blob Versions.
 - [dotnet-helpers.com: Azure KeyVault Set and Retrieve Secrets using Powershell 🌟](https://dotnet-helpers.com/powershell/azure-keyvault-set-and-retrieve-secrets/)
-- [thomasmaurer.ch: Enable PowerShell SSH Remoting in PowerShell 7](https://www.thomasmaurer.ch/2020/04/enable-powershell-ssh-remoting-in-powershell-7///)
-- [hlokensgard.no: Get started with PowerShell 7.2 in Azure Automation Account](https://hlokensgard.no/2023/12/05/get-started-with-powershell-7-2-in-azure-automation-account///)
+- [thomasmaurer.ch: Enable PowerShell SSH Remoting in PowerShell 7](https://www.thomasmaurer.ch/2020/04/enable-powershell-ssh-remoting-in-powershell-7////)
+- [hlokensgard.no: Get started with PowerShell 7.2 in Azure Automation Account](https://hlokensgard.no/2023/12/05/get-started-with-powershell-7-2-in-azure-automation-account////)
 - [techcommunity.microsoft.com: Azure PowerShell Tips and Tricks](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/azure-powershell-tips-and-tricks/4066848)
 - [techcommunity.microsoft.com: Announcing a new login experience with Azure PowerShell and Azure CLI](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-a-new-login-experience-with-azure-powershell-and-azure-cli/4109357)
 
 ### Azure Enterprise Policy As Code (EPAC)
 
-- [azure.github.io/enterprise-azure-policy-as-code: Enterprise Azure Policy as Code Overview](https://azure.github.io/enterprise-azure-policy-as-code///) Enterprise Azure Policy as Code (EPAC for short) is a number of PowerShell scripts which can be used in CI/CD based system or a semi-automated use to deploy Policies, Policy Sets, Policy Assignments, Policy Exemptions and Role Assignments. It also contains operational scripts to simplify operational tasks.
+- [azure.github.io/enterprise-azure-policy-as-code: Enterprise Azure Policy as Code Overview](https://azure.github.io/enterprise-azure-policy-as-code////) Enterprise Azure Policy as Code (EPAC for short) is a number of PowerShell scripts which can be used in CI/CD based system or a semi-automated use to deploy Policies, Policy Sets, Policy Assignments, Policy Exemptions and Role Assignments. It also contains operational scripts to simplify operational tasks.
 
 ### Microsoft Graph PowerShell SDK
 
 - [==microsoftgraph/msgraph-sdk-powershell==](https://github.com/microsoftgraph/msgraph-sdk-powershell) The Microsoft Graph PowerShell SDK is a collection of PowerShell modules that contain commands for calling Microsoft Graph service.
 - [==microsoftgraph/msgraph-sdk-powershell: samples==](https://github.com/microsoftgraph/msgraph-sdk-powershell)
     - [Samples: how to create a corresponding service principal from an application](https://github.com/microsoftgraph/msgraph-sdk-powershell)
-- [docs.microsoft.com: Microsoft Graph migration](https://learn.microsoft.com/en-us//cli/azure/microsoft-graph-migration?view=azure-cli-latest&tabs=powershell) Due to the deprecation of Azure Active Directory (Azure AD) Graph, the underlying Active Directory Graph API will be replaced by Microsoft Graph API in Azure CLI 2.37.0.
+- [docs.microsoft.com: Microsoft Graph migration](https://learn.microsoft.com/en-us///cli/azure/microsoft-graph-migration?view=azure-cli-latest&tabs=powershell) Due to the deprecation of Azure Active Directory (Azure AD) Graph, the underlying Active Directory Graph API will be replaced by Microsoft Graph API in Azure CLI 2.37.0.
 - [==techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API==](https://www.techtarget.com/searchwindowsserver/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API) **Microsoft plans to retire technologies that admins depend on to handle Office 365 and other cloud services via PowerShell. Learn how to start with this newer management method.**
-- [rakhesh.com: Graph cmdlets and Azure AD App Registrations](https://rakhesh.com/azure/graph-cmdlets-and-azure-ad-app-registrations///)
-- [blog.yannickreekmans.be: Secretless applications: add permissions to a Managed Identity](https://blog.yannickreekmans.be/secretless-applications-add-permissions-to-a-managed-identity///) Your Managed Identity needs permissions to access other Azure resources or even other Azure AD protected applications and APIs. This is how you do that!
+- [rakhesh.com: Graph cmdlets and Azure AD App Registrations](https://rakhesh.com/azure/graph-cmdlets-and-azure-ad-app-registrations////)
+- [blog.yannickreekmans.be: Secretless applications: add permissions to a Managed Identity](https://blog.yannickreekmans.be/secretless-applications-add-permissions-to-a-managed-identity////) Your Managed Identity needs permissions to access other Azure resources or even other Azure AD protected applications and APIs. This is how you do that!
     - [YannickRe/msgraph-utility-scripts](https://github.com/YannickRe/msgraph-utility-scripts)
-- [practical365.com: The Ups and Downs of Connecting to the Microsoft Graph Using the PowerShell SDK](https://practical365.com/connect-microsoft-graph-powershell-sdk///)
-- [practical365.com: Using Certificate-based Authentication with the Microsoft Graph PowerShell SDK](https://practical365.com/use-certificate-authentication-microsoft-graph-sdk///)
+- [practical365.com: The Ups and Downs of Connecting to the Microsoft Graph Using the PowerShell SDK](https://practical365.com/connect-microsoft-graph-powershell-sdk////)
+- [practical365.com: Using Certificate-based Authentication with the Microsoft Graph PowerShell SDK](https://practical365.com/use-certificate-authentication-microsoft-graph-sdk////)
 
 ### Powershell repos
 
 - [Abhisheksinhacoder/collection-of-useful-scripts](https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts)
 - [jrussellfreelance/powershell-scripts](https://github.com/jrussellfreelance/powershell-scripts)
 - [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories)
-- [systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script](https://www.systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script///)
+- [systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script](https://www.systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script////)
     - [prae1809/PowerShell-Scripts: OperationalCollections](https://github.com/prae1809/PowerShell-Scripts/tree/master/OperationalCollections) This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
 - [==github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts==](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts) Microsoft Signed PowerShell scripts
 - [shudnow.io](https://www.shudnow.io) - [github.com/ElanShudnow/AzureCode](https://github.com/ElanShudnow/AzureCode) A place to share all the Azure Code I am writing. This includes PowerShell, Terraform, ARM, Bicep, Ansible, etc...
@@ -649,8 +649,8 @@
 
 ### Crescendo powershell module
 
-- [Crescendo](https://devblogs.microsoft.com/powershell/announcing-powershell-crescendo-preview-1///) is an experimental module developed by Jim Truher, one of the main developers of PowerShell. Crescendo provides a framework to rapidly develop PowerShell cmdlets that wrap native commands, regardless of platform. The goal of a Crescendo-based module is to create PowerShell cmdlets that use a native command-line tool, but unlike the tool, return PowerShell objects instead of plain text.
-- [devblogs.microsoft.com: My Crescendo journey](https://devblogs.microsoft.com/powershell-community///my-crescendo-journey//)
+- [Crescendo](https://devblogs.microsoft.com/powershell/announcing-powershell-crescendo-preview-1////) is an experimental module developed by Jim Truher, one of the main developers of PowerShell. Crescendo provides a framework to rapidly develop PowerShell cmdlets that wrap native commands, regardless of platform. The goal of a Crescendo-based module is to create PowerShell cmdlets that use a native command-line tool, but unlike the tool, return PowerShell objects instead of plain text.
+- [devblogs.microsoft.com: My Crescendo journey](https://devblogs.microsoft.com/powershell-community////my-crescendo-journey//)
 - [powershellgallery.com: Microsoft.PowerShell.Crescendo](https://www.powershellgallery.com/packages/Microsoft.PowerShell.Crescendo/1.1.0) Module that improves user experience with native commands
 - [visualstudiomagazine.com: PowerShell Crescendo Now Generally Available](https://visualstudiomagazine.com/articles/2022/03/10/powershell-crescendo-ga.aspx?m=1)
 
@@ -658,7 +658,7 @@
 
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore
-- [commandline.ninja: Video Intro to Secret Management with Powershell](https://commandline.ninja/video-intro-to-secret-management-with-powershell//)
+- [commandline.ninja: Video Intro to Secret Management with Powershell](https://commandline.ninja/video-intro-to-secret-management-with-powershell///)
 
 ### Azure Resource Inventory
 
@@ -666,22 +666,22 @@
 
 ## Azure CLI. AZ CLI
 
-- [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli///)
-- [docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI](https://learn.microsoft.com/en-us//azure//virtual-machines/linux/expand-disks#resize-without-downtime-preview)
+- [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli////)
+- [docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI](https://learn.microsoft.com/en-us///azure//virtual-machines/linux/expand-disks#resize-without-downtime-preview)
 - [techcommunity.microsoft.com: Announcing template-based previews of Azure CLI and Azure PowerShell for Key Vault deployments](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-template-based-previews-of-azure-cli-and-azure-powershell-for-key-vau/3933802)
-- [build5nines.com: Azure Resource Tags: Important Organization Strategies and Tips 🌟](https://build5nines.com/azure-resource-tags-important-organization-strategies-and-tips///)
-- [build5nines.com: Azure CLI: Check if Blob Exists in Azure Storage](https://build5nines.com/azure-cli-check-if-blob-exists-in-azure-storage///)
+- [build5nines.com: Azure Resource Tags: Important Organization Strategies and Tips 🌟](https://build5nines.com/azure-resource-tags-important-organization-strategies-and-tips////)
+- [build5nines.com: Azure CLI: Check if Blob Exists in Azure Storage](https://build5nines.com/azure-cli-check-if-blob-exists-in-azure-storage////)
 
 ## Azure Run Command
 
 - [mandiant.com: Azure Run Command for Dummies](https://cloud.google.com/blog/topics/threat-intelligence/azure-run-command-dummies/)
-- [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://learn.microsoft.com/en-us//azure//virtual-machines/linux/run-command)
-- [docs.microsoft.com: Run scripts in your Windows VM by using action Run Commands](https://learn.microsoft.com/en-us///en-us/azure/virtual-machines/windows/run-command)
+- [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://learn.microsoft.com/en-us///azure//virtual-machines/linux/run-command)
+- [docs.microsoft.com: Run scripts in your Windows VM by using action Run Commands](https://learn.microsoft.com/en-us////en-us/azure/virtual-machines/windows/run-command)
 
 ## IaC with PowerShell DSC Desired State Configuration
 
-- [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://learn.microsoft.com/en-us//powershell/dsc/overview/decisionmaker?view=dsc-1.1/)
-- [docs.microsoft.com: Using configuration data in DSC](https://learn.microsoft.com/en-us//powershell/dsc/overview/decisionmaker?view=dsc-1.1/configurations/configData)
+- [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://learn.microsoft.com/en-us///powershell/dsc/overview/decisionmaker?view=dsc-1.1/)
+- [docs.microsoft.com: Using configuration data in DSC](https://learn.microsoft.com/en-us//powershell/dsc/overview/decisionmaker?view=dsc-1.1&viewFallbackFrom=dsc-1.1%2Fconfigurations%2Fconfigdata)
 - [octopus.com: Getting started with PowerShell Desired State Configuration (DSC)](https://octopus.com/blog/getting-started-with-powershell-dsc) PowerShell DSC is an Infrastructure as Code (IaC) technology that uses PowerShell to create Managed Object Format (MOF) files, which Windows Management Instrumentation (WMI) can use to configure a machine. In other words, PowerShell DSC uses PowerShell to programmatically configure your Windows-based computers. Additionally, DSC can monitor the state of the configured resources to make sure your machines stay consistent. Along with monitoring, DSC can also automatically correct the configuration of your system, so it’s always in the desired state. **PowerShell != PowerShell DSC**
 
 ## Azure Bicep
@@ -692,12 +692,12 @@
 - [faun.pub: From Terraform to Azure Bicep: What You Need to Know about syntax](https://faun.pub/from-terraform-to-azure-bicep-what-you-need-to-know-bb1c404b7603)
 - [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on-via-bicep/3802069)
 - [techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas-deployment/3804348)
-- [blog.cloudtrooper.net: Deploy (Azure) Network-as-Code as a champ](https://blog.cloudtrooper.net/2023/06/08/deploy-azure-network-as-code-as-a-champ///)
-- [learn.microsoft.com: Discover misconfigurations in Infrastructure as Code (IaC)](https://learn.microsoft.com/en-us//azure//defender-for-cloud/iac-vulnerabilities)
+- [blog.cloudtrooper.net: Deploy (Azure) Network-as-Code as a champ](https://blog.cloudtrooper.net/2023/06/08/deploy-azure-network-as-code-as-a-champ////)
+- [learn.microsoft.com: Discover misconfigurations in Infrastructure as Code (IaC)](https://learn.microsoft.com/en-us///azure//defender-for-cloud/iac-vulnerabilities)
 - [insight-services-apac.github.io: Getting Started with Bicep](https://blog.insight-services-apac.dev/2023/12/04/getting-started-bicep)
-- [build5nines.com: Get Started with Azure Bicep – Alternative to ARM Templates](https://build5nines.com/get-started-with-azure-bicep///)
+- [build5nines.com: Get Started with Azure Bicep – Alternative to ARM Templates](https://build5nines.com/get-started-with-azure-bicep////)
 - [linkedin.com/pulse: Exporting and importing variables between Bicep files: compileTimeImports | Freek Berson](https://www.linkedin.com/pulse/exporting-importing-variables-between-bicep-files-freek-berson-n0ske/)
-- [luke.geek.nz: Using the Azure Naming Tool API to name your Bicep resources](https://luke.geek.nz/azure/azure-naming-tool-api-bicep-resources///)
+- [luke.geek.nz: Using the Azure Naming Tool API to name your Bicep resources](https://luke.geek.nz/azure/azure-naming-tool-api-bicep-resources////)
 - [microsoft.com: Revolutionizing our ARM template deployment at Microsoft with shift from JSON to BICEP](https://www.microsoft.com/insidetrack/blog/revolutionizing-our-arm-template-deployment-at-microsoft-with-shift-from-json-to-bicep/)
 - [techcommunity.microsoft.com: Infra in Azure for Developers - The How (Part 2)](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/infra-in-azure-for-developers---the-how-part-2/4046385)
 - [johnlokerse.dev: Lint Azure Bicep templates in Azure DevOps](https://johnlokerse.dev/2024/02/05/lint-azure-bicep-templates-in-azure-devops///)
@@ -707,9 +707,9 @@
 
 ## Azure Verified Modules
 
-- [==azure.github.io/Azure-Verified-Modules 🌟==](https://azure.github.io/Azure-Verified-Modules///) Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries.
+- [==azure.github.io/Azure-Verified-Modules 🌟==](https://azure.github.io/Azure-Verified-Modules////) Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries.
 - [youtube: Code To Cloud - Getting Started With: Azure Verified Modules](https://www.youtube.com/watch?v=y1lOKQOapTw)
-- [learn.microsoft.com: Introduction to using Azure Verified Modules for Terraform](https://learn.microsoft.com/en-us//samples/azure-samples/avm-terraform-labs/avm-terraform-labs//) - [github.com/azure-samples/avm-terraform-labs](https://github.com/azure-samples/avm-terraform-labs/)
+- [learn.microsoft.com: Introduction to using Azure Verified Modules for Terraform](https://learn.microsoft.com/en-us//samples/azure-samples/avm-terraform-labs/avm-terraform-labs////) - [github.com/azure-samples/avm-terraform-labs](https://github.com/azure-samples/avm-terraform-labs/)
 
 ## Azure Cross region Load Balancer
 
@@ -717,28 +717,28 @@
 
 ## Azure Traffic Manager
 
-- [Azure Traffic Manager](https://learn.microsoft.com/en-us//azure//traffic-manager///)
+- [Azure Traffic Manager](https://learn.microsoft.com/en-us///azure//traffic-manager///)
 
 ## Azure DNS
 
-- [learn.microsoft.com: What is Azure DNS Private Resolver?](https://learn.microsoft.com/en-us//azure//dns/dns-private-resolver-overview) Azure DNS Private Resolver is a new service that enables you to query Azure DNS private zones from an on-premises environment and vice versa without deploying VM based DNS servers. Customers will no longer need to provision IaaS based solutions on their Virtual Networks to resolve names registered on Azure Private DNS Zones and will be able to do conditional forwarding of domains back to on-prem, multi-cloud and public DNS servers.
+- [learn.microsoft.com: What is Azure DNS Private Resolver?](https://learn.microsoft.com/en-us///azure//dns/dns-private-resolver-overview) Azure DNS Private Resolver is a new service that enables you to query Azure DNS private zones from an on-premises environment and vice versa without deploying VM based DNS servers. Customers will no longer need to provision IaaS based solutions on their Virtual Networks to resolve names registered on Azure Private DNS Zones and will be able to do conditional forwarding of domains back to on-prem, multi-cloud and public DNS servers.
 - [aidanfinn.com: Script – Document All Azure Private DNS Zones](https://aidanfinn.com/?p=23582) This post contains a script that will find all Azure Private DNS Zones in a tenant and export information on screen and as markdown in a file.
 - [techcommunity.microsoft.com: Centralized private resolver architecture implementation using Azure private DNS resolver](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/centralized-private-resolver-architecture-implementation-using-azure-private-dns/4132622)
 
 ## Azure OpenVPN
 
-- [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://learn.microsoft.com/en-us//azure///vpn-gateway/openvpn-azure-ad-tenant)
+- [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://learn.microsoft.com/en-us///azure///vpn-gateway/openvpn-azure-ad-tenant)
 
 ## Azure Security
 
 - [techcommunity.microsoft.com: Security Control: Implement security best practices](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/security-control-implement-security-best-practices/2269914)
 - [==github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook==](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) **This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected.**
 - [==devops.com: DevSecOps in Azure==](https://devops.com/devsecops-in-azure/)
-- [learn.microsoft.com: SC-100: Design a Zero Trust strategy and architecture [ARCHIVED]]( http://web.archive.org/web/20221129213259/https://learn.microsoft.com/en-us//training/paths/sc-100-design-zero-trust-strategy-architecture//)
+- [learn.microsoft.com: SC-100: Design a Zero Trust strategy and architecture [ARCHIVED]]( http://web.archive.org/web/20221129213259/https://learn.microsoft.com/en-us///training/paths/sc-100-design-zero-trust-strategy-architecture//)
     - https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect
-- [learn.microsoft.com: Azure network security overview](https://learn.microsoft.com/en-us//azure//security/fundamentals/network-overview)
-- [learn.microsoft.com: Conditional Access templates](https://learn.microsoft.com/en-us//entra/identity/conditional-access/concept-conditional-access-policy-common)
-- [learn.microsoft.com: Conditional Access architecture and personas](https://learn.microsoft.com/en-us//entra/identity/conditional-access/plan-conditional-access)
+- [learn.microsoft.com: Azure network security overview](https://learn.microsoft.com/en-us///azure//security/fundamentals/network-overview)
+- [learn.microsoft.com: Conditional Access templates](https://learn.microsoft.com/en-us///entra/identity/conditional-access/concept-conditional-access-policy-common)
+- [learn.microsoft.com: Conditional Access architecture and personas](https://learn.microsoft.com/en-us///entra/identity/conditional-access/plan-conditional-access)
 
 ### Azure Microsoft Defender for Cloud
 
@@ -752,7 +752,7 @@
 
 ## Microsoft Copilot for Azure
 
-- [build5nines.com: Introducing Microsoft Copilot for Azure](https://build5nines.com/introducing-microsoft-copilot-for-azure///)
+- [build5nines.com: Introducing Microsoft Copilot for Azure](https://build5nines.com/introducing-microsoft-copilot-for-azure////)
 
 ## Azure Virtual WAN. vWAN
 
@@ -787,17 +787,17 @@
 ## WinGet Windows Package Manager CLI
 
 - [WinGet: Welcome to the Windows Package Manager Client (aka winget.exe) repository](https://github.com/microsoft/winget-cli/) Windows Package Manager CLI (aka winget)
-- [muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows](https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10///)
-- [thomasmaurer.ch: Getting started with Windows Package Manager WinGet](https://www.thomasmaurer.ch/2021/07/getting-started-with-windows-package-manager-winget///)
+- [muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows](https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10////)
+- [thomasmaurer.ch: Getting started with Windows Package Manager WinGet](https://www.thomasmaurer.ch/2021/07/getting-started-with-windows-package-manager-winget////)
 
 ## Windows 11
 
-- [thenewstack.io: This Week in Programming: Windows Opens Up to Android Developers](https://thenewstack.io/this-week-in-programming-windows-opens-up-to-android-developers///)
+- [thenewstack.io: This Week in Programming: Windows Opens Up to Android Developers](https://thenewstack.io/this-week-in-programming-windows-opens-up-to-android-developers////)
 
 ## Azure API Management
 
 - [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/en-us/services/api-management)
-- [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management///)
+- [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management////)
 - [github.com/Azure-Samples/api-management-workspaces-migration: Azure API Management workspaces migration tool](https://github.com/Azure-Samples/api-management-workspaces-migration) Tooling to ease migration of Azure API Management service-level resources to workspaces.
 
 ## Azure Container Apps
@@ -810,8 +810,8 @@
 ## Azure Container Instances
 
 - [azure.microsoft.com: Azure Container Instances](https://azure.microsoft.com/en-us/en-us/services/container-instances/) Launch containers with hypervisor isolation
-- [unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances///)
-- [nedinthecloud.com: Using azure container instances for an azure dev ops self hosted agent](https://nedinthecloud.com/2024/04/15/using-azure-container-instances-for-an-azure-devops-self-hosted-agent///)
+- [unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances////)
+- [nedinthecloud.com: Using azure container instances for an azure dev ops self hosted agent](https://nedinthecloud.com/2024/04/15/using-azure-container-instances-for-an-azure-devops-self-hosted-agent////)
 
 ## Azure Container Storage
 
@@ -819,11 +819,11 @@
 
 ## Windows Server Container Host
 
-- [thomasmaurer.ch: How to Install a Windows Server Container Host](https://www.thomasmaurer.ch/2020/06/how-to-install-a-windows-server-container-host///)
+- [thomasmaurer.ch: How to Install a Windows Server Container Host](https://www.thomasmaurer.ch/2020/06/how-to-install-a-windows-server-container-host////)
 
 ## Disaster Recovery
 
-- [docs.microsoft.com: Using Policy with Azure Site Recovery](https://learn.microsoft.com/en-us///en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy) Disaster Recovery with Azure Policy. Learn how to enable Policy Support to protect your VMs using Azure Site Recovery.
+- [docs.microsoft.com: Using Policy with Azure Site Recovery](https://learn.microsoft.com/en-us////en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy) Disaster Recovery with Azure Policy. Learn how to enable Policy Support to protect your VMs using Azure Site Recovery.
 
 ## Azure Samples (Boilerplates)
 
@@ -834,14 +834,14 @@
     - [Azure-Samples/jenkins-terraform-azure-example](https://github.com/Azure-Samples/jenkins-terraform-azure-example)
     - etc
 - [github.com/azure-devops](https://github.com/azure-devops)
-- [Azure Quickstart Templates 🌟](https://learn.microsoft.com/en-us//samples/browse/?expanded=azure&products=azure-resource-manager/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
+- [Azure Quickstart Templates 🌟](https://learn.microsoft.com/en-us///samples/browse/?expanded=azure&products=azure-resource-manager/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
     - https://github.com/Azure/azure-quickstart-templates
 - [microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟](https://github.com/microsoft/azure-pipelines-yaml/) YAML templates, samples, and community interaction for designing Azure Pipelines.
     - [microsoft/azure-pipelines-yaml: maven.yml](https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/maven.yml)
 
 ## Azure Healthcare Data Services
 
-- [Microsoft - DICOM Service](https://learn.microsoft.com/en-us//azure//healthcare-apis/dicom///)
+- [Microsoft - DICOM Service](https://learn.microsoft.com/en-us//azure/healthcare-apis/dicom////)
     - [github.com/microsoft/dicom-server](https://github.com/microsoft/dicom-server) OSS Implementation of DICOMweb standard
     - [github.com/microsoft/fhir-server](https://github.com/microsoft/fhir-server) A service that implements the FHIR standard
 - [Project InnerEye – Democratizing Medical Imaging AI](https://www.microsoft.com/en-us/research/project/medical-image-analysis/)
@@ -861,7 +861,7 @@
 ## Azure OpenAI
 
 - [infoworld.com: Getting started with Azure OpenAI](https://www.infoworld.com/article/2337918/getting-started-with-azure-openai.html) Microsoft’s Azure-hosted OpenAI language models are now generally available, and it’s surprisingly simple to use them in your code.
-- [jamiemaguire.net: First Look: Azure Open AI Studio, Prompt Engineering. What You Can Do and How](https://jamiemaguire.net/index.php/2023/04/22/first-look-azure-open-ai-studio-prompt-engineering-what-you-can-do-and-how///)
+- [jamiemaguire.net: First Look: Azure Open AI Studio, Prompt Engineering. What You Can Do and How](https://jamiemaguire.net/index.php/2023/04/22/first-look-azure-open-ai-studio-prompt-engineering-what-you-can-do-and-how////)
 - [==techcommunity.microsoft.com: The AI Study Guide: Azure’s top free resources for learning generative AI in 2024==](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/the-ai-study-guide-azure%E2%80%99s-top-free-resources-for-learning-generative-ai-in-2024/4036890)
 - [==hashicorp.com: Build secure AI applications on Azure with HashiCorp Terraform and Vault==](https://www.hashicorp.com/blog/build-secure-ai-applications-on-azure-with-hashicorp-terraform-and-vault)
 - [techcommunity.microsoft.com: Azure OpenAI Landing Zone reference architecture](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-openai-landing-zone-reference-architecture/3882102)
@@ -917,4 +917,4 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you looking to start a career in AI using Microsoft Azure? <br><br>Here are some of the best Azure services to learn:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1626147296630001667?ref_src=twsrc%5Etfw">February 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </center>
-  - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link///) - *(Related to kubernetes-networking topic)*
+  - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link////) - *(Related to kubernetes-networking topic)*
