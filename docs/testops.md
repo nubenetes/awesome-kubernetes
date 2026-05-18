@@ -18,7 +18,7 @@
 - [softwarebusinessgrowth.com: Parallel System Validation – The End Of DevOps](https://www.varinsights.com/doc/parallel-system-validation-the-end-of-devops-0001)
 - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)
 - [gcreddy.com: Domain Knowledge for Software Testers](https://www.gcreddy.com/2016/06/domain-knowledge-for-testers.html)
-- [==blog.gurock.com: What Is DevTestOps?==](https://www.testrail.com/blog/what-is-devtestops///)
+- [==blog.gurock.com: What Is DevTestOps?==](https://www.testrail.com/blog/what-is-devtestops////)
 
 ## Continuous Testing in DevOps
 
@@ -26,7 +26,7 @@
 - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits, Tools](https://www.guru99.com/continuous-testing.html)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [opensource.com: What you need to know about automation testing in CI/CD](https://opensource.com/article/20/7/automation-testing-cicd)
-- [thenewstack.io: Removing the Roadblock to Continuous Performance Testing](https://thenewstack.io/removing-the-roadblock-to-continuous-performance-testing///)
+- [thenewstack.io: Removing the Roadblock to Continuous Performance Testing](https://thenewstack.io/removing-the-roadblock-to-continuous-performance-testing////)
 ## Test Driven Development (TDD)
 
 - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)
@@ -39,7 +39,7 @@
 - [opensource.com: Cerberus - An open source solution for continuous testing at scale](https://opensource.com/article/20/8/cerberus-test-automation) Cerberus focuses on testing usability, scalability, and integration.
 - [Diffblue](https://www.diffblue.com/) Catch regressions earlier in your pipeline with Java unit tests that are automatically created by Diffblue Cover
     - [theregister.com: Coding unit tests is boring. Wouldn't it be cool if an AI could do it for you? That's where Diffblue comes in](https://www.theregister.com/software/2020/09/21/coding-unit-tests-is-boring-wouldnt-it-be-cool-if-an-ai-could-do-it-for-you-thats-where-diffblue-comes-in/318634) A big time saver – but 'we can't tell if the current logic that you have in the code is correct or not.' Oh
-- [Cicada: A tool for testing microservices](https://cicadatesting.github.io/cicada-2///)
+- [Cicada: A tool for testing microservices](https://cicadatesting.github.io/cicada-2////)
     - [medium: Cicada: An integration testing framework for Docker and Kubernetes](https://medium.com/@jeremyaherzog/cicada-an-integration-testing-framework-for-docker-and-kubernetes-7eee5624cc55)
 
 ### KubeAudit 
