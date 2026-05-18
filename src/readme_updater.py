@@ -137,6 +137,14 @@ def get_stats():
                 status = "**Agentic Inception (Gemini Era)**" if month == "2026-05" else "Active Curation"
                 monthly_rows.append(f"| {month} | {count} | {est_refs:,} | {status} |")
 
+    # 7. Efficiency Chart (Section 7.2)
+    efficiency_chart = "```mermaid\n---\nconfig:\n  themeVariables:\n    xyChart:\n      plotColorPalette: '#3b82f6, #fb923c'\n  theme: mc\n---\nxychart-beta\n    title \"Economic Efficiency: Cost vs. Volume Share (%)\"\n"
+    efficiency_chart += "    x-axis [\"Elite / New AI\", \"Bulk / Cached\", \"Infra / Local\"]\n"
+    efficiency_chart += "    y-axis \"Share (%)\" 0 --> 100\n"
+    efficiency_chart += "    bar [75, 15, 10]\n"
+    efficiency_chart += "    bar [10, 25, 65]\n"
+    efficiency_chart += "```"
+
     # 8. Heart Stats Table
     heart_stats = [
         "| Metric | Value |",
@@ -155,6 +163,7 @@ def get_stats():
         "annual_growth": "\n".join(annual_rows),
         "annual_chart": annual_chart,
         "monthly_surge": "\n".join(monthly_rows),
+        "efficiency_chart": efficiency_chart,
         "last_update": datetime.now().strftime("%Y-%m-%d")
     }
 
@@ -179,6 +188,7 @@ def update_readme(stats):
     content = replace_section(content, "ANNUAL_GROWTH", stats["annual_growth"])
     content = replace_section(content, "ANNUAL_CHART", stats["annual_chart"])
     content = replace_section(content, "MONTHLY_SURGE", stats["monthly_surge"])
+    content = replace_section(content, "EFFICIENCY_CHART", stats["efficiency_chart"])
     content = replace_section(content, "PILLAR_CHART", stats["pillar_chart"])
     content = replace_section(content, "SUB_ECO_CHART", stats["lang_chart"])
 

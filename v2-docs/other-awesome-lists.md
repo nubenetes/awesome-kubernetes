@@ -1,25 +1,29 @@
-# Architectural Foundations
+# Other Awesome Lists
 
 !!! info "Architectural Context"
-    Strategic reference for Architectural Foundations.
+    Detailed reference for Other Awesome Lists in the context of Architectural Foundations.
 
 ## Table of Contents
-- [Other Awesome Lists](#other-awesome-lists)
 
 ---
 
-## Other Awesome Lists
-
-  - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [steveazz/awesome-slo: Awesome SLOs](https://github.com/steve-mt/awesome-slo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Cloud Native](https://awesome.jimmysong.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dawitnida/Awesome Packer](https://github.com/dchonch/awesome-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Software Quality](https://github.com/ligurio/sqa-wiki)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [onurakpolat/awesome-bigdata](https://github.com/oxnr/awesome-bigdata)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [@ramitsurana' Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tomhuang12: Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome kubetools](https://dockerlabs.collabnix.com/kubernetes/kubetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ksoclabs/awesome-kubernetes-security 🌟](https://github.com/ksoclabs/awesome-kubernetes-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mikeroyal/Kubernetes-Guide: Kubernetes Guide 🌟](https://github.com/mikeroyal/Kubernetes-Guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -32,7 +36,7 @@
   - [Awesome Linux](https://github.com/inputsh/awesome-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Book of Secret Knowledge 🌟](https://github.com/trimstray/the-book-of-secret-knowledge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How they SRE](https://github.com/upgundecha/howtheysre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -44,7 +48,6 @@
   - [github.com/iximiuz: Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [steveazz/awesome-slo: Awesome SLOs](https://github.com/steve-mt/awesome-slo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Noovolari/awesome-cloudops: Awesome CloudOps](https://github.com/Noovolari/awesome-cloudops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/collections/learn-to-code 🌟](https://github.com/collections/learn-to-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/palark/awesome-devops-telegram: Awesome DevOps Telegram](https://github.com/palark/awesome-devops-telegram)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -53,7 +56,6 @@
   - [Awesome Agile](https://github.com/lorabv/awesome-agile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rayfrankenstein/AITOW: #AgileKillsKittens (or Agile In Their Own Words: The Problem With Agile & Scrum)](https://github.com/rayfrankenstein/AITOW)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome SysAdmin](https://github.com/kahun/awesome-sysadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Cloud Native](https://awesome.jimmysong.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Cloud Native Java](https://github.com/saturnism/awesome-cloud-native-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Spinnaker](https://github.com/robzienert/awesome-spinnaker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -70,31 +72,27 @@
   - [mancubus77/awesome-sre](https://github.com/mancubus77/awesome-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awesome-sre/awesome-sre](https://github.com/awesome-sre/awesome-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome microservices](https://github.com/mfornos/awesome-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [terrytangyuan/awesome-argo 🌟](https://github.com/akuity/awesome-argo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [akuity/awesome-argo 🌟](https://github.com/akuity/awesome-argo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/adriannovegil/awesome-observability: Awesome Observability 🌟](https://github.com/adriannovegil/awesome-observability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/donnemartin/awesome-aws: Awesome AWS](https://github.com/donnemartin/awesome-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/GoogleCloudPlatform/awesome-google-cloud: Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/jonleibowitz/awesome-digitalocean: Awesome Digital Ocean](https://github.com/jonleibowitz/awesome-digitalocean)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [christopherhein/awesome-eks: Awesome EKS](https://github.com/jimmyraywv/awesome-eks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [globalbao/awesome-azure-policy: AWESOME-Azure-Policy](https://github.com/globalbao/awesome-azure-policy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course](https://github.com/iam-veeramalla/Azure-zero-to-hero)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Compose](https://github.com/docker/awesome-compose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jdauphant/Awesome Ansible](https://github.com/jdauphant/awesome-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ansible-community/awesome-ansible: Awesome Ansible 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [dawitnida/Awesome Packer](https://github.com/dchonch/awesome-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep](https://github.com/ElYusubov/AWESOME-Azure-Bicep)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/tldrsec/awesome-secure-defaults](https://github.com/tldrsec/awesome-secure-defaults)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Software Quality](https://github.com/ligurio/sqa-wiki)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Testing](https://github.com/TheJambo/awesome-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome JMeter](https://github.com/aliesbelik/awesome-jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -108,7 +106,6 @@
   - [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [janikvonrotz/awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awesomerank.github.io: janikvonrotz/awesome-powershell](https://awesomerank.github.io/lists/janikvonrotz/awesome-powershell.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [onurakpolat/awesome-bigdata](https://github.com/oxnr/awesome-bigdata)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ekramasif/Basic-Machine-Learning](https://github.com/ekramasif/Basic-Machine-Learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/DataExpert-io/data-engineer-handbook 🌟](https://github.com/DataExpert-io/data-engineer-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

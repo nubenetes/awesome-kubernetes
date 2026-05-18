@@ -1,0 +1,124 @@
+# Kubernetes Networking
+
+!!! info "Architectural Context"
+    Detailed reference for Kubernetes Networking in the context of Networking & Service Mesh.
+
+## Table of Contents
+
+---
+
+  - [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containo.us: Kubernetes Ingress & Service API Demystified](https://traefik.io/blog/kubernetes-ingress-service-api-demystified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power](https://www.devclass.com/containers/2021/01/26/haproxy-ingress-controller-15-introduces-mtls-support-gives-load-balancing-experts-more-power/1619777)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟](https://docs.getenroute.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟](https://www.redhat.com/en/blog/grpc-or-http/2-ingress-connectivity-in-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer](https://www.techtarget.com/searchitoperations/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.redhat.com: Global Load Balancer Approaches 🌟](https://www.redhat.com/en/blog/global-load-balancer-approaches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options 🌟](https://www.vcluster.com/blog/kubernetes-nginx-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnk8s.io: Tracing the path of network traffic in Kubernetes 🌟](https://learnkube.com/kubernetes-network-packets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.palark.com: Comparing Ingress controllers for Kubernetes](https://palark.com/blog/comparing-ingress-controllers-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer](https://www.sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management](https://www.cyera.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [editor.cilium.io 🌟🌟🌟](https://editor.networkpolicy.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift](https://www.redhat.com/en/blog/network-policies-controlling-cross-project-communication-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [loft.sh: Kubernetes Network Policies: A Practitioner's Guide 🌟](https://www.vcluster.com/blog/kubernetes-network-policies-a-practitioners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟](https://www.vcluster.com/blog/kubernetes-network-policies-for-isolating-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [buoyant.io: Kubernetes network policies with Cilium and Linkerd](https://www.buoyant.io/blog/kubernetes-network-policies-with-cilium-and-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fusionlayer.com: Software-Defined IP Address Management (IPAM)](https://www.fusionlayer.com/products/infinity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Flannel](https://github.com/flannel-io/flannel)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: How to monitor coreDNS 🌟](https://www.sysdig.com/blog/how-to-monitor-coredns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackrox.com: Kubernetes Networking Demystified: A Brief Guide](https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!](https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes](https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Why I use Ingress Controllers to expose Kubernetes services](https://opensource.com/article/20/8/ingress-controllers-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoq.com: Kubernetes Ingress Is Now Generally Available](https://www.infoq.com/news/2020/09/kubernetes-ingress-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubernetes.io: Scaling Kubernetes Networking With EndpointSlices](https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟](https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster](https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [suse.com: NGINX Guest Blog: NGINX Kubernetes Ingress Controller 🌟](https://www.suse.com/c/nginx-guest-blog-kubernetes-ingress-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.cloudflare.com: Moving k8s communication to gRPC](https://blog.cloudflare.com/moving-k8s-communication-to-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [K8GB - Kubernetes Global Balancer](https://github.com/AbsaOSS/k8gb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing](https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nbailey.ca: Domesticated Kubernetes Networking](https://nbailey.ca/post/k8s-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sookocheff.com: A Guide to the Kubernetes Networking Model 🌟](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Generating Kubernetes Network Policies Automatically By Sniffing Network Traffic 🌟](https://itnext.io/generating-kubernetes-network-policies-by-sniffing-network-traffic-6d5135fe77db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [inlets.dev: Fixing Ingress for short-lived local Kubernetes clusters](https://inlets.dev/blog/2021/07/08/short-lived-clusters.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Why and How of Kubernetes Ingress (and Networking) 🌟](https://itnext.io/why-and-how-of-kubernetes-ingress-and-networking-6cb308ca03d2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: ZeroLB, a New Decentralized Pattern for Load Balancing](https://thenewstack.io/zerolb-a-new-decentralized-pattern-for-load-balancing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ungleich.ch: Making kubernetes kube-dns publicly reachable](https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ungleich.ch: Building Ingress-less Kubernetes Clusters](https://ungleich.ch/u/blog/kubernetes-without-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Ingress Controllers: The More the Merrier](https://thenewstack.io/ingress-controllers-the-more-the-merrier)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com: Kubernetes Ingress Tutorial For Beginners 🌟](https://devopscube.com/kubernetes-ingress-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Ingress Controllers: The Swiss Army Knife of Kubernetes](https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes](https://devopscube.com/configure-ingress-tls-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg](https://www.armosec.io/blog/kubernetes-ingress-beginners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Kubernetes Service Type LB for On Prem Deployments](https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tkng.io: The Kubernetes Networking Guide 🌟🌟](https://www.tkng.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tkng.io/arch: THE KUBERNETES NETWORK MODEL 🌟🌟](https://www.tkng.io/arch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [platform9.com: Ultimate Guide to Kubernetes Ingress Controllers 🌟](https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes](https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress 🌟🌟🌟](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Tune up your Kubernetes Application Performance with a small DNS Configuration](https://dev.to/imjoseangel/tune-up-your-kubernetes-application-performance-with-a-small-dns-configuration-1o46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Inspecting and Understanding k8s Service Network 🌟](https://itnext.io/inspecting-and-understanding-service-network-dfd8c16ff2c5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Kubernetes networking deep dive: Did you make the right choice?](https://itnext.io/kubernetes-network-deep-dive-7492341e0ab5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [edureka.co: Kubernetes Networking – A Comprehensive Guide To The Networking Concepts In Kubernetes](https://www.edureka.co/blog/kubernetes-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?](https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [inlets.dev: How to Get Ingress for Private Kubernetes Clusters](https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to/narasimha1997: Communication between Microservices in a Kubernetes cluster 🌟](https://dev.to/narasimha1997/communication-between-microservices-in-a-kubernetes-cluster-1n41)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud](https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [community.ops.io: Kubernetes Ingress Controller. How does it work?=](https://community.ops.io/danielepolencic/learning-how-an-ingress-controller-works-by-building-one-in-bash-3fni)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences](https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [matthewpalmer.net: Kubernetes Networking Guide for Beginners](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond](https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide](https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: What you need to know about Kubernetes NetworkPolicy](https://opensource.com/article/21/10/kubernetes-networkpolicy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: CKAD Scenarios about Ingress and NetworkPolicy](https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [NGINX Ingress Controller - v1.0.0](https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v1.0.0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com: How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide 🌟](https://devopscube.com/setup-ingress-kubernetes-nginx-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mattias.engineer: Kubernetes-101: Ingress 🌟](https://mattias.engineer/k8s/ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [trstringer.com: Kubernetes Ingress with Contour](https://trstringer.com/kubernetes-ingress-with-contour)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gateway-api.sigs.k8s.io 🌟](https://gateway-api.sigs.k8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubernetes.io: Evolving Kubernetes networking with the Gateway API](https://kubernetes.io/blog/2021/04/22/evolving-kubernetes-networking-with-the-gateway-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Unifying Kubernetes Service Networking (Again) with the Gateway API 🌟](https://thenewstack.io/unifying-kubernetes-service-networking-again-with-the-gateway-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [armosec.io: The New Kubernetes Gateway API and Its Use Cases](https://www.armosec.io/blog/kubernetes-gateway-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [navendu.me: Comparing Kubernetes Gateway and Ingress APIs](https://navendu.me/posts/gateway-vs-ingress-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters 🌟](https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Multi-Cluster Kubernetes Networking with Netmaker](https://itnext.io/multi-cluster-kubernetes-networking-with-netmaker-bfa4e22eb2fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [howtoforge.com: Network Policy in Kubernetes 🌟](https://www.howtoforge.com/kubernetes_network_policy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learncloudnative.com: Kubernetes Network Policy](https://www.learncloudnative.com/blog/2020-10-07-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bionconsulting.com: Kubernetes Network Policies](https://www.bionconsulting.com/blog/kubernetes-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: The Kubernetes Network Security Effect 🌟](https://thenewstack.io/the-kubernetes-network-security-effect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [arthurchiao.art: Cracking Kubernetes Network Policy](https://arthurchiao.art/blog/cracking-k8s-network-policy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cilium.io: NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies 🌟](https://cilium.io/blog/2021/02/10/network-policy-editor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Installing Cilium on Kubernetes in a fast and efficient way](https://itnext.io/installing-cilium-on-kubernetes-in-a-fast-and-efficient-way-dbcb79ce9699)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cilium.io: CNI Benchmark: Understanding Cilium Network Performance](https://cilium.io/blog/2021/05/11/cni-benchmark)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cockroachlabs.com: How to use Cluster Mesh for Multi-Region Kubernetes Pod Communication](https://www.cockroachlabs.com/blog/cockroachdb-kubernetes-cilium)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more](https://cilium.io/blog/2021/05/20/cilium-110)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ahmetb/kubernetes-network-policy-recipes 🌟](https://github.com/ahmetb/kubernetes-network-policy-recipes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)](https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/stakater/Xposer](https://github.com/stakater/Xposer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes.io: Network Plugins](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rancher CNI Providers 🌟](https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/containernetworking 🌟](https://github.com/containernetworking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network (Updated: August 2020)](https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-august-2020-6e1b757b9e49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Damn](https://github.com/nokia/danm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tigera.io](https://www.tigera.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mhmxs.blogspot.com: Autoscaling Calico Route Reflector topology in Kubernetes](https://mhmxs.blogspot.com/2020/12/autoscaling-calico-route-reflector.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tigera.io: Enforcing Network Security Policies with GitOps – Part 1 (Calico + ArgoCD)](https://www.tigera.io/blog/enforcing-network-security-policies-with-gitops-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Supercharge CoreDNS with Cluster Addons 🌟](https://thenewstack.io/supercharge-coredns-with-cluster-addons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nslookup.io: The life of a DNS query in Kubernetes](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [NodeLocal DNSCache](https://github.com/kubernetes/enhancements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Node Local DNS Cache](https://povilasv.me/kubernetes-node-local-dns-cache)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [k8gb.io](https://www.k8gb.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks](https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

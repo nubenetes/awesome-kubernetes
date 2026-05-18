@@ -1,19 +1,23 @@
-# Data & Advanced Analytics
+# Yaml
 
 !!! info "Architectural Context"
-    Strategic reference for Data & Advanced Analytics.
+    Detailed reference for Yaml in the context of Data & Advanced Analytics.
 
 ## Table of Contents
-- [Yaml](#yaml)
 
 ---
 
-## Yaml
-
   - [redhat.com: YAML for beginners](https://www.redhat.com/en/blog/yaml-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Understanding YAML for Ansible. Validating YAML files with YAMLlint 🌟](https://www.redhat.com/en/blog/understanding-yaml-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.ansible.com: YAML anchors and aliases: sharing variable values](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [yamllint.com: YAML Lint - The YAML Validator](http://www.yamllint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubeval](https://teresaforcades.com/pensament/medicina.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://shipa.io/devops-challenge-kubernetes-deployment-ketch-vs-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [naml: Not another markup language](https://github.com/krisnova/naml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thoughtworks.com: Templating in YAML](https://www.thoughtworks.com/radar/techniques/templating-in-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Steve Horsfield: DevOps tricks - Templating YAML files](https://stevehorsfield.wordpress.com/2019/08/13/devops-tricks-templating-yaml-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [redhat.com: Understanding YAML for Ansible. Validating YAML files with YAMLlint 🌟](https://www.redhat.com/en/blog/understanding-yaml-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: How to configure YAML schema to make editing files easier](https://developers.redhat.com/blog/2020/11/25/how-to-configure-yaml-schema-to-make-editing-files-easier)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -26,16 +30,14 @@
   - [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [support.atlassian.com: YAML anchors and aliases](https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [docs.ansible.com: YAML anchors and aliases: sharing variable values](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/topics/yaml-processor](https://github.com/topics/yaml-processor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ytt](https://get-ytt.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [yq 🌟](https://mikefarah.gitbook.io/yq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: yq : A command line tool that will help you handle your YAML resources better 🌟](https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kapitan](https://kapitan.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kapitan: Generic templated configuration management for Kubernetes, Terraform and other things](https://kapitan.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [azohra/yaml.sh](https://github.com/azohra/yaml.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [yamllint.com: YAML Lint - The YAML Validator](http://www.yamllint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [codebeautify.org/yaml-validator](https://codebeautify.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [yamlvalidator.dev: YAML Validator](https://yamlvalidator.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [onlineyamltools.com 🌟](https://onlineyamltools.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -53,7 +55,6 @@
   - [json.org: Introducing JSON](https://www.json.org/json-en.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jsonnet](https://jsonnet.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [buger/jsonparser](https://github.com/buger/jsonparser)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: The JSON trick 25% of Python devs don't know about](https://dev.to/codereviewdoctor/the-json-trick-25-of-python-devs-dont-know-about-including-devs-at-microsoft-sentry-unicef-and-more-4h10)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Convert nested JSON to simple JSON in Javascript](https://dev.to/urstrulyvishwak/convert-nested-json-to-simple-json-in-javascript-4a34)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -70,12 +71,8 @@
   - [github.com/JFryy/qq](https://github.com/JFryy/qq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jsoning.com](https://jsoning.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubeval](https://teresaforcades.com/pensament/medicina.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KubeLinter](https://github.com/stackrox/kube-linter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline](https://thomasthornton.cloud/2022/04/13/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ketch](https://theketch.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://shipa.io/devops-challenge-kubernetes-deployment-ketch-vs-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [naml: Not another markup language](https://github.com/krisnova/naml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kislyuk/yq](https://github.com/kislyuk/yq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

@@ -1,0 +1,83 @@
+# Kubernetes On Premise
+
+!!! info "Architectural Context"
+    Detailed reference for Kubernetes On Premise in the context of The Container Stack.
+
+## Table of Contents
+
+---
+
+  - [containerjournal.com: Deploying Kubernetes on Bare Metal](https://cloudnativenow.com/features/deploying-kubernetes-on-bare-metal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerjournal.com: When Kubernetes-as-a-Service Doesn’t Cut It](https://cloudnativenow.com/features/when-kubernetes-as-a-service-doesnt-cut-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/blog/404-page-doesnt-exist)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: An introduction to Kubespray](https://www.redhat.com/en/blog/kubespray-deploy-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Conjure up**](https://canonical.com/juju)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weave.works: Manage Thousands of Clusters with GitOps and the Cluster API](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Microk8s**](https://canonical.com/microk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [defenseunicorns/zarf](https://github.com/zarf-dev/zarf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acloudguru.com: Which Kubernetes distribution is right for you?](https://www.pluralsight.com/resources/blog/cloud/which-kubernetes-distribution-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OKD](https://okd.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weave.works: Weave Kubernetes Platform](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/cloud-infrastructure/vsphere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [VMware hands-on Labs 🌟](https://labs.hol.vmware.com/HOL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [vmware-tanzu/octant](https://github.com/vmware-archive/octant)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tanzu.vmware.com: Introducing KubeAcademy Pro: In-Depth Kubernetes Training, Totally Free](https://www.vmware.com/products/app-platform/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Kubernetes on Bare Metal vs. VMs: It’s Not Just Performance](https://thenewstack.io/kubernetes-on-bare-metal-vs-vms-its-not-just-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Set up a Bare Metal Kubernetes cluster with](https://www.padok.fr/en/blog/kubeadm-kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kosyfrances.com: Using kubeadm to create a Kubernetes 1.20 cluster on VirtualBox with Ubuntu](https://kosyfrances.com/kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.radwell.codes: Provisioning Single-node Kubernetes Cluster using kubeadm on Ubuntu 20.04](https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: How to Deploy Kubernetes with Kubeadm and containerd](https://thenewstack.io/how-to-deploy-kubernetes-with-kubeadm-and-containerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/kubernetes/kubeadm: High Availability Considerations](https://github.com/kubernetes/kubeadm/blob/main/docs/ha-considerations.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [krd](https://github.com/electrocucaracha/krd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubeinit 🌟](https://github.com/kubeinit/kubeinit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: OpenShift Commons En Vivo - KubeInit con Maria Bracho, Scott McCarty, and Carlos Camacho (Red Hat, Spanish) 🌟](https://www.youtube.com/watch?v=9_6H7Ahsdm4&ab_channel=OpenShift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [adamtheautomator.com/kubespray: Conquer Kubernetes Clusters with Ansible Kubespray](https://adamtheautomator.com/kubespray)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/bluxmit: Kubespray Workspace](https://github.com/bluxmit/alnoda-workspaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Autoscalable Kubernetes cluster at Exoscale, using Packer and Terraform](https://github.com/PhilippeChepy/exoscale-kubernetes-crio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes the Hard Way: Azure Edition](https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes The Hard Way: AWS Edition](https://github.com/prabhatsharma/kubernetes-the-hard-way-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ClusterAPI](https://cluster-api.sigs.k8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)](https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com: Cluster API Helm Chart](https://github.com/kgamanji/cluster-api-helm-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Cluster API Offers a Way to Manage Multiple Kubernetes Deployments](https://thenewstack.io/cluster-api-offers-a-way-to-manage-multiple-kubernetes-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API](https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weaveworks/cluster-api-provider-existinginfra](https://github.com/weaveworks/cluster-api-provider-existinginfra)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [piotrminkowski.com: Create and Manage Kubernetes Clusters with Cluster API and ArgoCD](https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kata Containers on MicroK8s](https://github.com/didier-durand/microk8s-kata-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [MicroK8s & Kubernetes security benchmark from CIS](https://github.com/didier-durand/microk8s-kube-bench)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Deploy Microk8s and the Kubernetes Dashboard for K8s Development](https://thenewstack.io/deploy-microk8s-and-the-kubernetes-dashboard-for-k8s-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s](https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**k8s-tew**](https://github.com/darxkies/k8s-tew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tanzu.vmware.com: VMware Tanzu SQL: MySQL at Scale Made Easy for Kubernetes](https://tanzu.vmware.com/content/blog/vmware-tanzu-sql-mysql-at-scale-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption](https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to/saintdle: Deploying Nvidia GPU enabled Tanzu Kubernetes Clusters](https://dev.to/saintdle/deploying-nvidia-gpu-enabled-tanzu-kubernetes-clusters-40ma)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kube.academy/pro 🌟](https://kube.academy/pro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [k0s](https://k0sproject.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution](https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [K0s - Zero Friction Kubernetes](https://github.com/k0sproject/k0s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [xiaods/k8e](https://github.com/xiaods/k8e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [poseidon/typhoon](https://github.com/poseidon/typhoon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kurl.sh](https://kurl.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
