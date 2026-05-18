@@ -1,0 +1,194 @@
+# Ansible
+
+!!! info "Architectural Context"
+    Detailed reference for Ansible in the context of Hardened Infrastructure.
+
+## Table of Contents
+
+---
+
+  - [ansible.com](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Ansible and OpenShift: Connecting for Success 🌟](https://www.redhat.com/en/blog/ansible-and-openshift-connecting-for-success)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/software/2020/10/14/juggling-ansible-openshift-and-k8s-this-is-for-you-red-hat-couples-automation-to-cluster-management/656846)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟](https://www.redhat.com/en/services/training/au094-ansible-essentials-simplicity-automation-technical-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Renewing my thrill at work with Ansible](https://www.redhat.com/en/blog/renewed-thrill-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Demystifying Ansible for Linux sysadmins 🌟](https://www.redhat.com/en/blog/demystifying-ansible-sysadmins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Quick start guide to Ansible for Linux sysadmins 🌟](https://www.redhat.com/en/blog/ansible-quick-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Ansible Network Resource Modules: Deep Dive on Return Values](https://www.redhat.com/en/blog/ansible-network-resource-modules-deep-dive-on-return-values?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to automate system reboots using the Ansible reboot module](https://www.redhat.com/en/blog/automate-reboot-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟](https://www.redhat.com/en/blog/how-start-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Ansible whitepaper](https://www.redhat.com/en/engage/ansible-automation-platform-beginners-guide-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/en/blog/configure-gmail-using-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/en/blog/install-ansible-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/devops/ansible-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/en/blog/6-code-pushes-aap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/en/blog/ansible-create-users-csv)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/en/blog/python-venv-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/en/blog/ansible-ad-hoc-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/en/blog/software-packages-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/en/blog/ansiblefest-sysadmins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 8 ways to speed up your Ansible playbooks](https://www.redhat.com/en/blog/faster-ansible-playbook-execution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube](https://techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to create dynamic inventory files in Ansible](https://www.redhat.com/en/blog/ansible-dynamic-inventories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to write a Python script to create dynamic Ansible inventories](https://www.redhat.com/en/blog/ansible-dynamic-inventory-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to write an Ansible plugin to create inventory files](https://www.redhat.com/en/blog/ansible-plugin-inventory-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Creating Custom Rules for Ansible Lint](https://www.redhat.com/en/blog/creating-custom-rules-for-ansible-lint?intcmp=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: The Top 10 Ansible Blogs of 2022](https://www.redhat.com/en/blog/top-10-ansible-blogs-2022?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible?intcmp=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!](https://community.ibm.com/community/user/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟](https://www.redhat.com/en/blog/ansible-lists-dictionaries-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.ai](https://www.redhat.com/en/technologies/management/ansible/ai-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/technologies/management/ansible/automation-coding-assistant)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Semaphore UI 🌟](https://mightyclaws.co.uk/bournemouth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.ansible.com: Developing Ansible modules](https://docs.ansible.com/projects/ansible/latest/dev_guide/developing_modules_general.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Using Ansible to interact with web endpoints](https://www.redhat.com/en/blog/ansible-web-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Automating your business application's REST API with Ansible](https://www.redhat.com/en/technologies/management/ansible/application-delivery?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection](https://www.redhat.com/en/blog/based-validated-network-content?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Red Hat Ansible Automation Platform 1.2](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/now-available-red-hat-ansible-automation-platform-1.2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Introducing Ansible Automation Platform 2](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/introducing-ansible-automation-platform-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: What's new in Ansible Automation Platform 2: automation controller](https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Automating Red Hat Satellite with Ansible](https://www.redhat.com/en/blog/automating-red-hat-satellite-with-ansible?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟](https://www.redhat.com/en/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Let's Encrypt Collection](https://www.telekom-mms.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/en/blog/extra-variables-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Tower](https://www.redhat.com/en/technologies/management/ansible/automation-controller?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Tower Docs](http://legacy-controller-docs.ansible.com/ansible-tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/blog/topic/ansible-tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [vagrant: ansible tower](https://portal.cloud.hashicorp.com/vagrant/discover/ansible/tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes](https://www.redhat.com/en/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes?sc_cid=7015Y000003t7aWQAQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Molecule](https://docs.ansible.com/projects/molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [PDF: Practical Ansible Testing with Molecule](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ/hubfs/AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: The Automated Enterprise](https://www.redhat.com/en/engage/automated-enterprise-e-book?sc_cid=7013a0000034fMwAAI&dclid=COKjiau-upQDFXLuKAUdouAGMQ&gad_source=7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟](https://www.redhat.com/en/blog/ansible-system-role)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_module.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_plugin_module.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Public Cloud Guides 🌟](https://docs.ansible.com/projects/ansible/latest/scenario_guides/cloud_guides.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/en/blog/mssql-linux-easy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [oci-ansible-collection.readthedocs.io](https://oci-ansible-collection.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.ansible.com](https://docs.ansible.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dureka.co: What Is Ansible?](https://www.edureka.co/blog/what-is-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: How to install software with Ansible](https://opensource.com/article/20/9/install-packages-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟](https://opensource.com/article/20/9/ansible-modules-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: A quickstart guide to Ansible 🌟](https://opensource.com/article/19/2/quickstart-guide-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 7 things you can do with Ansible right now](https://opensource.com/article/20/9/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟](https://opensource.com/article/20/10/calendar-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: My first day using Ansible](https://opensource.com/article/20/10/first-day-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟](https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟](https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟](https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 10 Ansible modules for Linux system automation c](https://opensource.com/article/20/10/ansible-modules-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Set up an Ansible lab in 20 minutes](https://opensource.com/article/20/12/ansible-lab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 4 lines of code to improve your Ansible play](https://opensource.com/article/21/1/improve-ansible-play)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 10 ways Ansible is for everyone 🌟](https://opensource.com/article/21/1/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developer.okta.com: Tutorial: Ansible and Account Automation with Okta](https://developer.okta.com/blog/2021/02/05/okta-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: How Ansible got started and grew](https://opensource.com/article/21/2/ansible-origin-story)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fedoramagazine.org: Using Ansible to configure Podman containers 🌟](https://fedoramagazine.org/using-ansible-to-configure-podman-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: DevOps 101 : Introduction to Ansible](https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 9 ways to learn Ansible this year 🌟](https://opensource.com/article/22/1/learn-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible](https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands](https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [middlewareinventory.com: Ansible Dictionary – How to create and add items to dict](https://www.middlewareinventory.com/blog/ansible-dict)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples | Devops Junction](https://www.middlewareinventory.com/blog/ansible-aws_s3-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home Lab Part 10 🌟](https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and Ansible Playbooks](https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: How to install VMs and Ansible Automation Platform on Mac M1](https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com: How to Setup Ansible AWS Dynamic Inventory](https://devopscube.com/setup-ansible-aws-dynamic-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps](https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Conditional statements – making decisions in Ansible code](https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: How to implement and use handlers in Ansible code?](https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code](https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes](https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide](https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopsinside.com: Is Kubernetes killing tools like Ansible?](https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [intellipaat.com: Ansible vs Kubernetes vs Docker](https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/naveensilver/Ansible](https://github.com/naveensilver/Ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jinja 🌟](https://github.com/pallets/jinja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techforce1.nl: Creating your first Ansible module](https://techforce1.nl/creating-your-first-ansible-module)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linuxctl.com: Ansible - Interacting with external REST API](https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [steampunk.si: Let us give Ansible a REST](https://steampunk.si/blog/let-us-give-ansible-a-rest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Using Ansible with REST APIs](https://opensource.com/article/21/9/ansible-rest-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟](https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Ansible for beginners - by XavkiEn](https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with Ansible](https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction](https://www.middlewareinventory.com/blog/ansible-playbook-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Collections 🌟](https://github.com/ansible-collections)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pypi.org: ansible-navigator 🌟](https://pypi.org/project/ansible-navigator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: From the datacenter to the edge: The open hybrid cloud vision for Red Hat Ansible Automation Platform 2](https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Redefining the possibilities of IT automation across your ecosystem with Red Hat partners](https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access](https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: Red Hat Extends Scope of Ansible Automation Ambitions](https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to **Microsoft Azure**](https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 5 tips for choosing an Ansible collection that's right for you](https://opensource.com/article/21/3/ansible-collections)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible AWX](https://github.com/ansible/awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWX Operator](https://github.com/ansible/awx-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [galaxy.ansible.com/geerlingguy/awx 🌟](https://galaxy.ansible.com/geerlingguy/awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWX Ansible Collection: galaxy.ansible.com/awx/awx](https://galaxy.ansible.com/awx/awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/tom-256/ansible-awx-packer](https://github.com/tom-256/ansible-awx-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [artifacthub.io: Helm Charts - AWX](https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Marketplace (AMIs): AWX/Tower](https://aws.amazon.com/marketplace/search/results?searchTerms=tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Foreman](https://www.theforeman.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jeffgeerling.com: Testing your Ansible roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tomsitcafe.com: How to test Ansible code with Molecule](https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansiblefordevops.com](https://www.ansiblefordevops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/automateyournetwork/automate_your_network: Automate Your Network - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [galaxy.ansible.com](https://galaxy.ansible.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible Role: Docker 🌟](https://github.com/geerlingguy/ansible-role-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible to automate Microsoft Azure](https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)](https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/oravirt/ansible-oracle](https://github.com/oravirt/ansible-oracle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/oravirt/ansible-oracle-modules](https://github.com/oravirt/ansible-oracle-modules)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [oravirt.wordpress.com: Getting started with ansible-oracle](https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [oravirt.wordpress.com: Changes in ansible-oracle v1.2](https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/abessifi/ansible-sqlplus](https://github.com/abessifi/ansible-sqlplus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansistrano](https://github.com/ansistrano)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Capistrano](https://capistranorb.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>

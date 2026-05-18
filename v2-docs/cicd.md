@@ -1,0 +1,92 @@
+# Cicd
+
+!!! info "Architectural Context"
+    Detailed reference for Cicd in the context of Engineering Pipeline.
+
+## Table of Contents
+
+---
+
+  - [infoworld.com: What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/2269266/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kodekloud.com: What is CI/CD Pipeline in DevOps](https://kodekloud.com/blog/ci-cd-pipeline-in-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: What is a CI/CD Platform and why should I care? 🌟](https://www.harness.io/blog/what-is-cicd-platform-why-should-i-care)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: CI/CD Pipeline: Everything You Need to Know 🌟](https://www.harness.io/blog/ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: What is Continuous Integration? 🌟](https://www.harness.io/harness-devops-academy/what-is-continuous-integration-ci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: Understanding the Phases of the Software Development Life Cycle](https://www.harness.io/blog/software-development-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: Streamlining CI/CD and Optimizing AWS Cloud Spend](https://www.harness.io/blog/streamlining-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: Top 10 CI/CD Pipeline Implementation Challenges And Solutions](https://www.testmuai.com/blog/cicd-pipeline-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery?utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=individual)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: Pipeline Patterns for CI/CD Pipelines 🌟](https://www.harness.io/blog/deployment-pipeline-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://www.sonatype.com/blog/achieving-ci/cd-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: Kubernetes CI/CD Best Practices](https://www.harness.io/blog/kubernetes-ci-cd-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [trek10.com: Enterprise CI/CD on AWS: a pragmatic approach](https://caylent.com/blog/pragmatic-enterprise-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitBook Webinar: GitBook for Public Docs](https://www.youtube.com/watch?si=dWSDPD4eXvF3dx5r&v=gnYU0jtQbug&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [martinfowler.com: Continuous Integration (original version)](https://martinfowler.com/articles/originalContinuousIntegration.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: CI/CD Continuous Integration & Delivery Explained 🌟🌟](https://dev.to/semaphore/ci-cd-continuous-integration-delivery-explained-75l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tech.buzzfeed.com: Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: How to Implement an Effective CI/CD Pipeline](https://devops.com/how-to-implement-an-effective-ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com: Automating safe, hands-off deployments 🌟🌟](https://aws.amazon.com/es/builders-library/automating-safe-hands-off-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techuz.com: What is CI/CD? An Introduction to Continuous Integration, Continuous Deployment and CI/CD Pipeline](https://www.techuz.com/blog/what-is-ci-cd-an-introduction-to-continuous-integration-continuous-deployment-and-ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CI/CD Best Practices 🌟](https://blog.bitsrc.io/ci-cd-best-practices-bca0ef665677)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harness.io: 3 Ways to Use Automation in CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudbees.com: 7 Tips for Creating A Successful CI/CD Pipeline 🌟](https://www.cloudbees.com/blog/tips-creating-successful-cicd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackoverflow.blog: Fulfilling the promise of CI/CD](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Top 5 CI/CD best practices for 2021 🌟](https://circleci.com/blog/top-5-ci-cd-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opsmx.com: What is a CI/CD Pipeline ?](https://www.opsmx.com/blog/what-is-a-ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [continuousdelivery.com: Patterns 🌟](https://continuousdelivery.com/implementing/patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [testguild.com: Pipeline as Code with Mohamed Labouardy](https://testguild.com/podcast/automation/a345-mohamed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudbees.com: Key Components of a CI/CD Pipeline](https://www.cloudbees.com/blog/ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jfrog.com: Cloud Native CI/CD: The Ultimate Checklist](https://jfrog.com/blog/cloud-native-ci-cd-the-ultimate-checklist)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jfrog.com: How to Accelerate Software Delivery with Hybrid Cloud CI/CD (e-commerce) 🌟](https://jfrog.com/blog/how-to-accelerate-software-delivery-with-hybrid-cloud-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sdtimes.com: The State of CI/CD](https://sdtimes.com/cicd/the-state-of-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Improve Dev Experience to Maximize the Business Value of CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [community.dataminer.services: CI/CD and the Agile Principles](https://community.dataminer.services/ci-cd-and-the-agile-principles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [speakerdeck.com: Deployment Scripting != Continuous Delivery](https://speakerdeck.com/devopslx/cd-and-optimized-cloud-spend?slide=12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: 4 Best Practices to Drive Successful Adoption of CI/CD](https://thenewstack.io/four-best-practices-to-drive-successful-adoption-of-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [spacelift.io: Kubernetes CI/CD Pipelines – 7 Best Practices and Tools | James Walker 🌟](https://spacelift.io/blog/kubernetes-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Embracing Database Deployments in CI/CD Practices with Git](https://thenewstack.io/embracing-database-deployments-in-ci-cd-practices-with-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Kubernetes CI/CD Pipelines Explained](https://thenewstack.io/kubernetes-ci-cd-pipelines-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Purposeful Commits](https://chrisarcand.com/purposeful-commits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube: Kubernetes Deployment Strategies | DevOps FAQ | DevOps DevOps Interview Q&A ](https://www.youtube.com/watch?v=aU-EtdEOdlM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: CI/CD with kubernetes 🌟](https://thenewstack.io/ebooks/kubernetes/ci-cd-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [JFrog Pipelines](https://jfrog.com/pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Buildbot](https://buildbot.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Gama: Terminal UI for GitHub Actions](https://github.com/termkit/gama)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
