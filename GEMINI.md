@@ -185,7 +185,9 @@ Whenever a significant curation cycle (automatic or manual) is completed, the RE
 *   **Historical Growth:** Add/update the monthly surge rows in the "2026: The Agentic Monthly Surge" table.
 
 ### 3. Visual & Diagram Sync
-*   **Mermaid Charts:** Update the "Major Ecosystem Pillars" pie chart to align with the **Strategic Dimensions** defined in the V2 portal.
+*   **Mermaid Charts:** 
+    - Update the "Major Ecosystem Pillars" pie chart to align with the **Strategic Dimensions** defined in the V2 portal.
+    - **Annual Growth Distribution**: Include a Mermaid pie chart visualizing the historical distribution of commits by year, perfectly synchronized with the Annual Growth Summary table.
 *   **Linguistic Diversity**: Maintain a dedicated chart visualizing the project's commitment to **Global Access** (Mandate 10).
 *   **Architecture Flow:** If the Agentic Stack or the deployment lifecycle changes, the corresponding Mermaid diagrams MUST be updated immediately.
 *   **Robustness:** Follow the "Mermaid Diagram Best Practices" (node quoting, explicit direction) as defined in this document.

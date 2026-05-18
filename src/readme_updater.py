@@ -100,6 +100,11 @@ def get_stats():
     
     growth_data.sort(key=lambda x: x["year"])
     
+    annual_chart = "```mermaid\npie title Nubenetes Historical Commit Distribution (By Year)\n"
+    for item in growth_data:
+        annual_chart += f"    \"{item['year']}\" : {item['count']}\n"
+    annual_chart += "```"
+    
     for idx, item in enumerate(growth_data, 1):
         year = item["year"]
         count = item["count"]
@@ -135,6 +140,7 @@ def get_stats():
         "pillar_chart": pillar_chart,
         "lang_chart": lang_chart,
         "annual_growth": "\n".join(annual_rows),
+        "annual_chart": annual_chart,
         "monthly_surge": "\n".join(monthly_rows),
         "last_update": datetime.now().strftime("%Y-%m-%d")
     }
@@ -158,6 +164,7 @@ def update_readme(stats):
     content = replace_section(content, "HEART_STATS", stats["heart_stats"])
     content = replace_section(content, "TOP_CATEGORIES", stats["top_categories"])
     content = replace_section(content, "ANNUAL_GROWTH", stats["annual_growth"])
+    content = replace_section(content, "ANNUAL_CHART", stats["annual_chart"])
     content = replace_section(content, "MONTHLY_SURGE", stats["monthly_surge"])
     content = replace_section(content, "PILLAR_CHART", stats["pillar_chart"])
     content = replace_section(content, "SUB_ECO_CHART", stats["lang_chart"])

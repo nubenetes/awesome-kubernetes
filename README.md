@@ -166,6 +166,21 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 9 | 2026 | 1012 | 4,179 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
+<!-- ANNUAL_CHART_START -->
+```mermaid
+pie title Nubenetes Historical Commit Distribution (By Year)
+    "2018" : 350
+    "2019" : 142
+    "2020" : 2046
+    "2021" : 531
+    "2022" : 402
+    "2023" : 30
+    "2024" : 53
+    "2025" : 5
+    "2026" : 1012
+```
+<!-- ANNUAL_CHART_END -->
+
 #### 2026: The Agentic Monthly Surge
 <!-- MONTHLY_SURGE_START -->
 | Month | Commits | Est. New Refs | Status |
