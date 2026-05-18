@@ -508,19 +508,23 @@ Projected monthly budget for 24/7 autonomous maintenance.
 ### 7.2. Efficiency and Performance Metrics
 Achieves **>90% cost reduction** compared to full-Pro architectures by utilizing multi-tier caching, global concurrency semaphores, and structured batching.
 
+<!-- EFFICIENCY_CHART_START -->
 ```mermaid
-pie title AI Curation Cost Distribution (Standard Monthly)
-    "Elite Reasoning (Pro Tier)" : 75
-    "Bulk Enrichment (Flash Tier)" : 15
-    "Infrastructure Overhead" : 10
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: '#3b82f6, #fb923c'
+  theme: mc
+---
+xychart-beta
+    title "Economic Efficiency: Cost vs. Volume Share (%)"
+    x-axis ["Elite / New AI", "Bulk / Cached", "Infra / Local"]
+    y-axis "Share (%)" 0 --> 100
+    bar [75, 15, 10]
+    bar [10, 25, 65]
 ```
-
-```mermaid
-pie title Processing Strategy (By Link Volume)
-    "Local Metadata (Zero Cost)" : 65
-    "Cached AI Insights (Zero Cost)" : 25
-    "New AI Inference (Identity A)" : 10
-```
+<!-- EFFICIENCY_CHART_END -->
 
 ### 7.3. Economic Sustainability Principles
 1.  **Identity Rotation (Identity A/B)**: Rotates between PAYG and Subscription keys.
