@@ -55,7 +55,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)
 - [==Kubernetes magic is in enterprise standardization, not app portability==](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
-- [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://cloudnativenow.com/features/the-rise-of-the-kubemaster///)
+- [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://cloudnativenow.com/features/the-rise-of-the-kubemaster////)
 - [An emerging Job: Kubernetes engineer 🌟](https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/)
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
@@ -63,14 +63,14 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [The rise of the automation architect](https://www.redhat.com/en/blog/automation-architects)
 - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
 - [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
-- [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes///)
-- [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know///)
+- [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes////)
+- [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know////)
 - [==How to Explain Kubernetes to a Business Team==](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 - [==Pets vs. Cattle: The Future of Kubernetes in 2022==](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
 - [dok.community: DoKC Data on Kubernetes](https://dok.community)
-- [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story///)
+- [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story////)
 - [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
-- [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea///)
+- [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea////)
 - [dzone.com/trendreports](https://dzone.com/trendreports)
 - [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
 - [The future of Kubernetes – and why developers should look beyond Kubernetes in 2022](https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
@@ -83,9 +83,9 @@ A curated list of awesome references collected since 2018. Microservices archite
     - Job opportunities
     - K3s
     - Events
-- [thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service///)
+- [thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service////)
 - [dzone: Kubernetes in the Enterprise - Trend Report](https://dzone.com/trendreports/kubernetes-in-the-enterprise-1)
-- [Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code///)
+- [Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code////)
 - [learnk8s.io/learn-kubernetes-weekly 🌟](https://kube.today/learn-kubernetes-weekly)
 - [infoworld.com: Cloud architects are afraid of automation](https://www.infoworld.com/article/2337301/cloud-architects-are-afraid-of-automation.html) Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What's so scary?
 - [infoworld.com: The biggest obstacle to cloud is people](https://www.infoworld.com/article/2334635/the-biggest-obstacle-to-cloud-is-people.html) People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.
@@ -97,9 +97,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [serverlessland.com: EDA VISUALS](https://serverlessland.com/event-driven-architecture/visuals) Small bite sized visuals about event-driven architectures
 - [dzone: The Essentials of GitOps 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
 - [dzone.com: REST vs. Messaging for Microservices](https://dzone.com/articles/rest-vs-messaging-for-microservices)
-- [The Next Kubernetes Management Frontier: Automation](https://thenewstack.io/the-next-kubernetes-management-frontier-automation///) Automation Is No Longer a “Nice to Have”
-- [redis.com: Microservice Architecture Key Concepts](https://redis.io/blog/microservice-architecture-key-concepts///)
-- [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse///)
+- [The Next Kubernetes Management Frontier: Automation](https://thenewstack.io/the-next-kubernetes-management-frontier-automation////) Automation Is No Longer a “Nice to Have”
+- [redis.com: Microservice Architecture Key Concepts](https://redis.io/blog/microservice-architecture-key-concepts////)
+- [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse////)
 - [Software Deployment Best Practices in 2023](https://dzone.com/articles/software-deployment-best-practices) Explore the best software development practices that are the proven catalysts for innovation and growth.
 - [==DevOps-Books== 🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)
 - [community.aws/kubernetes](https://builder.aws.com/learn/topics/kubernetes) Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.
@@ -107,8 +107,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [cloudcatalog.dev](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
 - [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
 - [Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?](https://liora.io/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool)
-- [Redefining Virtualization in the VMware Acquisition Era](https://pod.chaoslever.com/redefining-virtualization-in-the-vmware-acquisition-era///)
-- [Do Kubernetes Certs Prepare You For Real-World Production?](https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production///)
+- [Redefining Virtualization in the VMware Acquisition Era](https://pod.chaoslever.com/redefining-virtualization-in-the-vmware-acquisition-era////)
+- [Do Kubernetes Certs Prepare You For Real-World Production?](https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production////)
 - [Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)
 - [dagger.io](https://dagger.io) CI/CD as Code that Runs Anywhere.
 - [Bus factor](https://en.wikipedia.org/wiki/Bus_factor) The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus".
@@ -120,8 +120,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [glasskube.dev package manager for k8s 🌟](https://glasskube.dev/)
 - [github.com/infrahouse/infrahouse-toolkit](https://github.com/infrahouse/infrahouse-toolkit) A collection of tools for building infrastructure
 - [github.com/taubyte/tau](https://github.com/taubyte/tau) Open Source Git-Native CDN PaaS
-- [==mattias.engineer/courses== 🌟](https://mattias.engineer/courses///) HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD
-- [The hater’s guide to Kubernetes](https://paulbutler.org/2024/the-haters-guide-to-kubernetes///)
+- [==mattias.engineer/courses== 🌟](https://mattias.engineer/courses////) HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD
+- [The hater’s guide to Kubernetes](https://paulbutler.org/2024/the-haters-guide-to-kubernetes////)
 - [github.com/cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) Developer Friendly Kubernetes
 - [k8z.dev](https://k8z.dev/) A lightweight, modern mobile and desktop application for manage kubernetes
 - [Kube-score](https://github.com/zegl/kube-score)
@@ -133,7 +133,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [youtube: GitOps Guide to the Galaxy](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd)
 - [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes/) Introductory course to Kubernetes with K3s and GKE
 - [Gardener](https://github.com/gardener/gardener) Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service
-- [collabnix.github.io/kubetools 🌟](https://collabnix.github.io/kubetools///) A Curated List of Kubernetes Tools
+- [collabnix.github.io/kubetools 🌟](https://collabnix.github.io/kubetools////) A Curated List of Kubernetes Tools
 - [OpenShift AI Examples](https://github.com/CastawayEGR/openshift-ai-examples)
 - [Jenkins Tutorials by CloudBeesTV 🌟](https://www.youtube.com/playlist?list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe&si=GBJtqv36O8bslj9z)
 - [kui.tools](https://kui.tools) Kui: CLI-driven Graphics for Kubernetes
