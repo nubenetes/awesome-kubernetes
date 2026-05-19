@@ -1,0 +1,48 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern Background Gradient -->
+  <defs>
+    <linearGradient id="bg_grad" x1="0" y1="0" x2="800" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="container_grad" x1="200" y1="100" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <blur stdDeviation="10" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="400" rx="12" fill="url(#bg_grad)"/>
+
+  <!-- Kubernetes Hexagonal Pattern (Subtle Background) -->
+  <path d="M50 50L75 35.5V64.5L50 79L25 64.5V35.5L50 50Z" fill="white" fill-opacity="0.03"/>
+  <path d="M750 350L775 335.5V364.5L750 379L725 364.5V335.5L750 350Z" fill="white" fill-opacity="0.03"/>
+
+  <!-- Modern Shipping Container (Kubernetes Metaphor) -->
+  <rect x="200" y="120" width="400" height="200" rx="4" stroke="url(#container_grad)" stroke-width="2" fill="#0EA5E9" fill-opacity="0.1"/>
+  <line x1="200" y1="160" x2="600" y2="160" stroke="url(#container_grad)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="200" y1="200" x2="600" y2="200" stroke="url(#container_grad)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="200" y1="240" x2="600" y2="240" stroke="url(#container_grad)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="200" y1="280" x2="600" y2="280" stroke="url(#container_grad)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Sleek Car Silhouettes (Automotive Roots) -->
+  <!-- Car 1 -->
+  <path d="M250 260C250 260 270 240 320 240C370 240 400 260 400 260L400 280L250 280V260Z" fill="white" fill-opacity="0.8"/>
+  <circle cx="280" cy="285" r="8" fill="#38BDF8"/>
+  <circle cx="370" cy="285" r="8" fill="#38BDF8"/>
+
+  <!-- Car 2 (Futuristic Perspective) -->
+  <path d="M420 220C420 220 440 200 490 200C540 200 570 220 570 220L570 240L420 240V220Z" fill="white" fill-opacity="0.4"/>
+  <circle cx="450" cy="245" r="6" fill="#38BDF8" fill-opacity="0.5"/>
+  <circle cx="540" cy="245" r="6" fill="#38BDF8" fill-opacity="0.5"/>
+
+  <!-- Kubernetes Logo Elements (Stylized) -->
+  <path d="M400 60L430 77.32V112H370V77.32L400 60Z" fill="#38BDF8" filter="url(#glow)"/>
+  <path d="M400 70L420 81.5V104.5H380V81.5L400 70Z" fill="#0F172A"/>
+
+  <!-- Text: Nubenetes V2 Elite -->
+  <text x="400" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" fill-opacity="0.9">NUBENETES V2 ELITE</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#38BDF8">ESTABLISHED 2018 | MODERNIZED 2026</text>
+</svg>
