@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.3] - 2026-05-21
+
+### Added
+- **Flash-First Architecture**: Strategic transition to Gemini Flash/Lite models for high-density analysis, achieving >90% cost reduction and radical throughput gains.
+- **Multi-Phase Incremental Persistence**: Dual-layer auto-save mechanism (Metadata & AI phases) ensuring zero data loss during long-running CI/CD workflows.
+- **Industrial Telemetry Layer**: Deep AI observability with token counting, payload estimation, and transparent error diagnostics.
+- **GitHub Actions Cache Integration**: High-resilience persistence layer to reuse enriched metadata across interrupted or queued runs.
+- **Emergency PR Workflow**: Lightweight "Safety Off-ramp" to publish current cached state without AI overhead.
+
+### Changed
+- **Optimized Batching Strategy**: Balanced batch sizes (50 items) and safety delays (2s) to maximize API quota utilization (TPM/RPM).
+- **Hardened Error Handling**: Transitioned from silent failure loops to strict Circuit Breaker (Exit Code 42) logic.
+- **Unified Global Logging**: Enforced `PYTHONUNBUFFERED` logging across the entire workflow ecosystem for real-time transparency.
+- **V2 UI Refinement**: Optimized header contrast for Light/Dark modes and fixed semantic cross-link duplication.
+
+### Fixed
+- **API Timeout Bottleneck**: Increased HTTP request timeouts to 180s to accommodate high-density token generation.
+- **Markdown Linter Compliance**: Resolved MD024, MD025, MD031, and MD039 violations through "Nuclear" whitespace sanitization and header depth management.
+- **Workflow Permissions**: Optimized security model to allow automated PRs without requiring conflictive workflow-write permissions.
+
 ## [2.0.0-rc.2] - 2026-05-20
 
 ### Added
