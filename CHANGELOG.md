@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.10] - 2026-05-22
+
+### Added
+- **GEMINI Mandate Codification**: Officially codified architectural and UI standards in `GEMINI.md`, including the V1 vs V2 metrics protocol and branding protection rules.
+
+### Changed
+- **V2 Elite Synchronization**: Successfully synchronized the curated elite edition and updated README metrics via the automated publisher pipeline.
+
+## [2.0.0-rc.9] - 2026-05-22
+
 ## [2.0.0-rc.9] - 2026-05-22
 
 ### Changed
