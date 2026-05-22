@@ -1881,6 +1881,7 @@ https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kuberne
   v2_locations:
   - maven-gradle.md
   - kubernetes-client-libraries.md
+  - demos.md
   ai_summary: Exploring developer loop workflows utilizing Eclipse JKube to build,
     deploy, and debug Java applications in real-time inside a local or remote Kubernetes
     cluster environment.
@@ -3086,6 +3087,7 @@ https://aws.amazon.com/devops:
   v2_locations:
   - aws-devops.md
   - devops.md
+  - jenkins-alternatives.md
   ai_summary: 'Curator Insight: Main AWS portal summarizing continuous integration,
     deployment, and management tools.
 
@@ -10366,6 +10368,7 @@ https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-clou
   v2_locations:
   - aws-architecture.md
   - iac.md
+  - aws.md
   ai_summary: A highly clear exploration of AWS Organizations, dissecting organizational
     units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding
     shows it serves as a fundamental training material for cloud administrators establishing
@@ -12659,6 +12662,7 @@ https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets:
   v2_locations:
   - ai.md
   - digitalocean.md
+  - kubernetes.md
   ai_summary: Tactical walkthrough showing how to provision DigitalOcean GPU Droplets
     to serve DeepSeek-R1. Configures vLLM runtimes, registers systemd units, and establishes
     benchmarking paradigms to maximize inference performance on cost-effective infrastructure.
@@ -12767,6 +12771,7 @@ https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/
   v2_locations:
   - kubernetes-bigdata.md
   - kubernetes-operators-controllers.md
+  - openshift.md
   ai_summary: 'Curator Insight: Documentation for the Red Hat Build of Kueue scheduler
     within OpenShift.
 
@@ -14335,6 +14340,7 @@ https://github.com/shanraisshan/claude-code-best-practice:
   - '[GUIDE]'
   v2_locations:
   - ai.md
+  - ai-agents-mcp.md
   gh_stars: 54376
   gh_pushed: '2026-05-21T15:48:06Z'
   ai_summary: 'Curator Insight: Curated collection of best practices, system prompts,
@@ -14469,6 +14475,7 @@ https://github.com/punkpeye/awesome-mcp-servers:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - ai.md
+  - ai-agents-mcp.md
   gh_stars: 87348
   gh_pushed: '2026-05-02T16:08:17Z'
   ai_summary: 'Curator Insight: A community-curated collection of servers implementing
@@ -15394,6 +15401,7 @@ https://www.cerebras.ai:
   v2_locations:
   - ai.md
   - api.md
+  - chatgpt.md
   ai_summary: Architectural hub detailing wafer-scale AI processors built to tackle
     compute limits. Facilitates unprecedented deep-learning model execution with extreme
     localized bandwidth optimizations.
@@ -18988,6 +18996,7 @@ https://github.com/google/agents-cli:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - ai.md
+  - GoogleCloudPlatform.md
   gh_stars: 2528
   gh_pushed: '2026-05-19T01:14:35Z'
   ai_summary: An official command-line tool from Google designed to build, debug,
@@ -19485,6 +19494,7 @@ https://cursor.com/blog/cloud-agent-development-environments:
   v2_locations:
   - ai.md
   - devops.md
+  - kubernetes.md
   ai_summary: Analyzes the infrastructure required to run high-autonomy AI coding
     agents. Discusses secure sandboxing, runtime requirements, and interactive execution
     environments designed to bridge LLMs with real-world system runtimes safely.
@@ -19589,6 +19599,7 @@ https://www.docker.com/llm:
   v2_locations:
   - ai.md
   - azure.md
+  - finops.md
   ai_summary: Comprehensive guide for managing cloud-spend on Azure AI infrastructure.
     Covers architectural frameworks for optimizing large GPU node pools, tracking
     LLM API consumption patterns, and integrating FinOps principles into AI platform
@@ -19620,6 +19631,7 @@ https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-d
   v2_locations:
   - ai.md
   - azure.md
+  - cicd.md
   ai_summary: A practical implementation guide demonstrating how to integrate Azure
     OpenAI into Azure DevOps pipelines to automatically generate comprehensive pull
     request descriptions from code differences. Demonstrates prompt engineering techniques
@@ -19950,6 +19962,7 @@ https://markaicode.com/terraform-ai-infrastructure-as-code:
   v2_locations:
   - ai.md
   - iac.md
+  - terraform.md
   ai_summary: Focuses on AI-driven generation of HCL infrastructure files. Covers
     schema checking, validating security guardrails in prompt pipelines, and continuous
     integration workflows for automated infrastructure verification.
@@ -19980,6 +19993,7 @@ https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation:
   v2_locations:
   - ai.md
   - kubernetes-operators-controllers.md
+  - terraform.md
   ai_summary: Outlines specific prompting strategies to automatically draft tests
     for Terraform modules. Synthesizes automated validation frameworks like `terraform
     test` with generative AI outputs to ensure infrastructure stability.
@@ -20452,6 +20466,7 @@ https://ettema.dev/posts/ai-multi-repo-workspaces:
   v2_locations:
   - ai.md
   - developerportals.md
+  - devops-tools.md
   ai_summary: Investigates methods for utilizing structured developer workspaces to
     safely implement, coordinate, and review automated AI-driven modifications across
     sprawling multi-repository codebases. Offers patterns for multi-repo orchestrations
@@ -20550,6 +20565,7 @@ https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-us
   v2_locations:
   - ai.md
   - cloud-arch-diagrams.md
+  - cicd.md
   ai_summary: An illustrative guide showing how the Draw.io Model Context Protocol
     (MCP) server allows AI assistants to programmatically generate and edit architecture
     diagrams. Bridges the gap between conversational design instructions and technical
@@ -20643,6 +20659,7 @@ https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview:
   v2_locations:
   - ai.md
   - azure.md
+  - cicd.md
   ai_summary: The official public announcement details the release and capabilities
     of the Azure DevOps MCP server. Highlights the architectural integration of Large
     Language Models directly into enterprise ADO workflows for automated engineering
@@ -24960,6 +24977,7 @@ https://github.com/argoproj/argo-cd/pull/26601:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - argo.md
+  - kubernetes-operators-controllers.md
   gh_stars: 22950
   gh_pushed: '2026-05-22T09:45:30Z'
   ai_summary: The official GitHub pull request introducing ApplicationSet rendering
@@ -26323,6 +26341,7 @@ https://github.com/cloudposse-terraform-components/aws-eks-argocd:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - argo.md
+  - gitops.md
   ai_summary: 'Curator Insight: Enterprise-ready Terraform submodule designed to deploy,
     configure, and bootstrap Argo CD onto an existing AWS EKS cluster. Live Grounding:
     Standardizes complex security configuration flags, integrates smoothly with AWS
@@ -26615,6 +26634,7 @@ https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4:
   v2_locations:
   - argo.md
   - jenkins.md
+  - cicd.md
   ai_summary: A comprehensive real-world migration case study detailing how Intuit
     transitioned high-volume CI/CD pipelines from Jenkins to Kubernetes-native Argo
     Workflows. Outlines critical architectural lessons, scale bottlenecks, pipeline-as-code
@@ -26766,6 +26786,7 @@ https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-locat
   v2_locations:
   - argo.md
   - kubernetes.md
+  - cicd.md
   ai_summary: 'Curator Insight: Direct portal to community sessions, submissions,
     and emerging patterns for the Argo GitOps suite in 2026. Live Grounding: Acts
     as the primary standard gathering point for Kubernetes GitOps continuous delivery.
@@ -29161,6 +29182,7 @@ https://github.com/imthenachoman/How-To-Secure-A-Linux-Server:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - linux.md
+  - aws-security.md
   gh_stars: 27424
   gh_pushed: '2026-03-05T13:25:16Z'
   ai_summary: An exhaustive, highly popular guide for securing production Linux environments.
@@ -29196,6 +29218,7 @@ https://www.linkedin.com/top-content/?trk=article_not_found:
   v2_locations:
   - aws-training.md
   - aws-security.md
+  - grafana.md
   ai_summary: Analyses secure integration patterns for private Azure DevOps environments.
     Offers standard reference controls for isolating source code hosting, managing
     external worker access, and mitigating common misconfiguration patterns across
@@ -32005,6 +32028,7 @@ https://github.com/taubyte/tau:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - kubernetes-alternatives.md
+  - caching.md
   gh_stars: 5030
   gh_pushed: '2026-05-07T14:02:50Z'
   ai_summary: The main open-source repository for Tau. This platform handles autonomous
@@ -33193,6 +33217,7 @@ https://quickref.me/index.html:
   v2_locations:
   - devops-tools.md
   - cheatsheets.md
+  - kubernetes-tools.md
   ai_summary: A massive aggregator of high-density cheat sheets and quick reference
     guides covering terminal systems, programming syntaxes, database commands, and
     deployment paradigms.
@@ -35255,6 +35280,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - mkdocs.md
+  - cheatsheets.md
   gh_stars: 60200
   gh_pushed: '2025-08-22T00:21:50Z'
   ai_summary: 'One of the most referenced cheat sheets on GitHub for fast, offline-compatible
@@ -35654,6 +35680,7 @@ https://github.com/a8m/golang-cheat-sheet:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - golang.md
+  - cheatsheets.md
   ai_summary: Duplicate reference of the high-density Go cheat-sheet database. It
     provides programmatic access to Go fundamentals, standard functions, and syntax
     paradigms to streamline engineering workflows.
@@ -35695,6 +35722,7 @@ https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/READM
   - '[DE FACTO STANDARD]'
   v2_locations:
   - golang.md
+  - cheatsheets.md
   gh_stars: 105273
   gh_pushed: '2025-04-15T21:52:42Z'
   ai_summary: Curator Insight hosts the comprehensive Spanish translation of the premier
@@ -37471,6 +37499,7 @@ https://chrisarcand.com/purposeful-commits:
   v2_locations:
   - cicd.md
   - devops.md
+  - git.md
   ai_summary: 'Curator Insight: Explores the cultural developer hygiene of crafting
     clear, logical git commits. Live Grounding: Details how concise commit histories
     simplify pipeline automated testing, automated changelogs, and fast deployment
@@ -37904,6 +37933,7 @@ https://docs.cloudposse.com/components/library/aws/runs-on:
   v2_locations:
   - cicd.md
   - devops.md
+  - kubernetes-tools.md
   ai_summary: A robust, production-tested Terraform component for deploying and autoscaling
     self-hosted GitHub Actions runners inside AWS. Integrates with AWS ECS, EKS, or
     EC2 to provide secure, ephemeral, and cost-effective pipeline execution environments.
@@ -37989,6 +38019,7 @@ https://github.com/antonbabenko/terraform-skill:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - cicd.md
+  - iac.md
   gh_stars: 1881
   gh_pushed: '2026-05-19T17:40:05Z'
   ai_summary: An experimental, open-source repository establishing unified Model Context
@@ -38095,6 +38126,7 @@ https://github.com/microsoft/azure-devops-mcp:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - devops-tools.md
+  - azure.md
   gh_stars: 1718
   gh_pushed: '2026-05-19T11:37:44Z'
   ai_summary: An official Microsoft MCP server repository enabling AI Agents (like
@@ -38191,6 +38223,7 @@ https://github.com/techpivot/terraform-module-releaser:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - cicd.md
+  - iac.md
   gh_stars: 221
   gh_pushed: '2026-05-20T03:41:30Z'
   ai_summary: A specialized GitHub Action designed to automate the release process,
@@ -38394,6 +38427,7 @@ https://github.com/cicdops/awesome-ciandcd:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - cicd.md
+  - other-awesome-lists.md
   gh_stars: 1996
   gh_pushed: '2026-04-14T12:29:54Z'
   ai_summary: A highly extensive, community-curated collection targeting cloud-native
@@ -39305,6 +39339,7 @@ https://github.com/ynqa/bul:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - kubernetes-monitoring.md
+  - container-managers.md
   gh_stars: 16
   gh_pushed: '2024-05-23T09:31:41Z'
   ai_summary: An interactive Terminal User Interface (TUI) written in Go for streaming
@@ -42339,6 +42374,7 @@ https://github.com/frectonz/sql-studio:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - devops-tools.md
+  - databases.md
   gh_stars: 3539
   gh_pushed: '2026-03-15T20:25:56Z'
   ai_summary: A single-binary SQL database administrator interface written in Rust.
@@ -45899,6 +45935,7 @@ https://github.com/siamaksade/jenkins-blueocean:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - openshift-pipelines.md
+  - demos.md
   ai_summary: Utility repository hosting configurations to deploy Jenkins Blue Ocean
     configurations instantly within early Red Hat OpenShift Container Platform environments.
     Serves as a reference setup for visualized pipeline states.
@@ -48922,6 +48959,7 @@ https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499:
   v2_locations:
   - golang.md
   - devel-sites.md
+  - javascript.md
   ai_summary: Community-driven performance and usability evaluation contrasting IntelliJ
     Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro
     expansion speeds, and debugging tool integrations.
@@ -55201,6 +55239,7 @@ https://github.com/stackrox/kube-linter:
   v2_locations:
   - data-and-advanced-analytics.md
   - yaml.md
+  - devsecops.md
   tags:
   - '[ENTERPRISE-STABLE]'
   gh_stars: 3450
@@ -67516,6 +67555,7 @@ https://github.com/dictcp/awesome-git:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - git.md
+  - other-awesome-lists.md
   gh_stars: 2858
   gh_pushed: '2025-02-04T11:05:22Z'
   ai_summary: An extensive, community-curated list of tools, clients, extensions,
@@ -72382,6 +72422,7 @@ https://github.com/features/codespaces:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - git.md
+  - visual-studio.md
   ai_summary: GitHub Codespaces delivers cloud-hosted, highly configurable development
     environments running directly inside Visual Studio Code or browser instances.
     By leveraging declarative configuration (devcontainer.json), platform teams can
@@ -76690,6 +76731,7 @@ https://github.com/werf/nelm:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - helm.md
+  - gitops.md
   gh_stars: 1072
   gh_pushed: '2026-05-21T13:43:26Z'
   ai_summary: An innovative deployment engine integrated within the Werf workflow
@@ -76791,6 +76833,7 @@ https://github.com/weaveworks/wksctl:
   - '[LEGACY]'
   v2_locations:
   - kubernetes-on-premise.md
+  - gitops.md
   gh_stars: 389
   gh_pushed: '2023-03-31T12:32:52Z'
   ai_summary: An early GitOps-driven Kubernetes cluster manager from Weaveworks that
@@ -77228,6 +77271,7 @@ https://github.com/weaveworks/weave:
   - '[LEGACY]'
   v2_locations:
   - kubernetes-on-premise.md
+  - gitops.md
   gh_stars: 6613
   gh_pushed: '2024-08-09T08:45:55Z'
   ai_summary: Weave Net is a resilient container CNI designed to create peer-to-peer
@@ -82095,6 +82139,7 @@ https://azure-samples.github.io/aks-labs/docs/intro:
   v2_locations:
   - istio.md
   - azure.md
+  - kubernetes-tutorials.md
   ai_summary: Microsoft's structured laboratory ecosystem designed to onboard engineers
     to Azure Kubernetes Service (AKS). The content delivers a reliable, production-aligned
     guide covering core infrastructure topics such as advanced networking, cluster
@@ -87135,6 +87180,7 @@ https://github.com/openshift/pipelines-tutorial:
   - '[GUIDE]'
   v2_locations:
   - openshift-pipelines.md
+  - jenkins-alternatives.md
   gh_stars: 322
   gh_pushed: '2026-05-18T09:23:05Z'
   ai_summary: 'Curator Insight: The primary repository used for training developers
@@ -89280,6 +89326,7 @@ https://www.jenkins.io/doc/book/pipeline/syntax:
     Syntax 🌟'
   v2_locations:
   - jenkins.md
+  - openshift-pipelines.md
 https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library:
   title: A sustainable pattern with shared library 🌟
   year: N/A
@@ -89910,6 +89957,7 @@ https://github.com/jenkinsci/performance-plugin:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - performance-testing-with-jenkins-and-jmeter.md
+  - jenkins.md
   gh_stars: 194
   gh_pushed: '2026-05-08T07:07:51Z'
   ai_summary: A stable Jenkins CI plugin designed to ingest, compile, and visualize
@@ -97682,6 +97730,7 @@ https://github.com/poseidon/typhoon:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - kubernetes-on-premise.md
+  - terraform.md
   gh_stars: 2042
   gh_pushed: '2026-05-19T05:43:03Z'
   ai_summary: Typhoon is a bare-metal and multi-cloud Kubernetes distribution focused
@@ -99162,6 +99211,7 @@ https://github.com/actions/actions-runner-controller:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - git.md
+  - jenkins-alternatives.md
   gh_stars: 6260
   gh_pushed: '2026-05-22T10:15:15Z'
   ai_summary: An official Kubernetes operator designed to manage self-hosted runner
@@ -99914,6 +99964,7 @@ https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kuberne
   v2_locations:
   - kubernetes-monitoring.md
   - kubernetes-operators-controllers.md
+  - kubernetes-tools.md
   ai_summary: Explores the technicalities of sharing physical NVIDIA GPUs among multiple
     Pods in Kubernetes. Covers GPU fractional slicing, Multi-Instance GPU (MIG) strategies,
     and workload optimization for ML/AI clusters.
@@ -103179,6 +103230,7 @@ https://github.com/cert-manager/cert-manager:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - registries.md
+  - kubernetes-security.md
   gh_stars: 13830
   gh_pushed: '2026-05-22T08:41:10Z'
   ai_summary: Consolidated record of the cert-manager project, automating dynamic
@@ -113340,6 +113392,7 @@ https://github.com/aws/aws-node-termination-handler:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - managed-kubernetes-in-public-cloud.md
+  - kubernetes-tools.md
   gh_stars: 1755
   gh_pushed: '2026-05-20T00:16:00Z'
   ai_summary: High-efficiency agent ensuring EKS pod rescheduling during abrupt EC2
@@ -113599,6 +113652,7 @@ https://github.com/aws-controllers-k8s/community:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - managed-kubernetes-in-public-cloud.md
+  - kubernetes-tools.md
   gh_stars: 2627
   gh_pushed: '2026-05-22T00:16:16Z'
   ai_summary: Official community hub and development ecosystem for ACK (AWS Controllers
@@ -113694,6 +113748,7 @@ https://github.com/aws-ia/terraform-aws-eks-blueprints:
   - '[DE FACTO STANDARD]'
   v2_locations:
   - managed-kubernetes-in-public-cloud.md
+  - terraform.md
   gh_stars: 3021
   gh_pushed: '2026-05-15T11:53:28Z'
   ai_summary: A highly opinionated, production-ready collection of Terraform modules
@@ -116529,6 +116584,7 @@ https://github.com/OvidiuBorlean/kubectl-windumps:
   - '[LEGACY]'
   v2_locations:
   - managed-kubernetes-in-public-cloud.md
+  - kubernetes-tools.md
   ai_summary: A specialized kubectl plugin facilitating raw packet capturing on AKS
     Windows worker nodes. Live grounding indicates the repository has been inactive
     for over four years, yet it remains a valuable conceptual reference for troubleshooting
@@ -119157,6 +119213,7 @@ https://redis.io:
   v2_locations:
   - message-queue.md
   - caching.md
+  - nosql.md
   ai_summary: The definitive open-source, in-memory data store used as a database,
     cache, message broker, and streaming engine. Offers unmatched low-latency read-write
     cycles and versatile data structures. Highly valued for real-time applications
@@ -128026,6 +128083,7 @@ https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift
   v2_locations:
   - performance-testing-with-jenkins-and-jmeter.md
   - openshift.md
+  - kubernetes-tools.md
   ai_summary: Provides a comprehensive overview of how Kruize Autotune optimizes resource
     efficiency in OpenShift and Kubernetes workloads. Evaluates real-time scaling
     mechanisms and automated recommendations to reduce resource waste.
@@ -139816,6 +139874,7 @@ https://sre.google/sre-book/monitoring-distributed-systems:
   v2_locations:
   - kubernetes-monitoring.md
   - monitoring.md
+  - sre.md
   ai_summary: The industry-standard chapter from Google's SRE book detailing the implementation
     of distributed systems monitoring. It defines the 'Four Golden Signals'—latency,
     traffic, errors, and saturation—providing practical blueprints to prevent alert
@@ -201483,6 +201542,7 @@ https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-dee
   title: 'CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions'
   v2_locations:
   - kubernetes-troubleshooting.md
+  - linux.md
 https://fabric8.io/guide/cdelivery.html:
   description: ''
   year: '2018'
@@ -201697,6 +201757,7 @@ https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-mar
   title: 'InfraCost + Terraform PRs: Making Cost Awareness Effortless'
   v2_locations:
   - terraform.md
+  - cicd.md
 https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html:
   status: online
   health_score: 100.0
@@ -202182,6 +202243,7 @@ https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-ge
   title: 'GitHub Copilot CLI for Beginners: Getting Started'
   v2_locations:
   - developerportals.md
+  - devops-tools.md
 https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui:
   status: online
   health_score: 100.0
@@ -202263,6 +202325,7 @@ https://www.haproxy.org:
   title: haproxy.org
   v2_locations:
   - caching.md
+  - web-servers.md
 https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394:
   status: online
   health_score: 100.0
@@ -207086,6 +207149,7 @@ https://mywiki.wooledge.org/BashPitfalls:
   title: Bash Pitfalls 🌟
   v2_locations:
   - cheatsheets.md
+  - linux.md
 https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api:
   health_score: 100.0
   last_checked: 1779130495.033632
@@ -207657,6 +207721,7 @@ https://www.saaras.io/blog/leverage-open-source-oss-derive-insights-grafana-prom
     service mesh add-on via Bicep'
   v2_locations:
   - azure.md
+  - managed-kubernetes-in-public-cloud.md
 https://www.sonatype.com/blog/achieving-ci/cd-with-kubernetes:
   description: ''
   year: '2022'
@@ -209556,6 +209621,7 @@ https://www.commandlinefu.com/commands/browse:
   title: CommandLineFu 🌟
   v2_locations:
   - cheatsheets.md
+  - linux.md
 https://noticiastrabajo.huffingtonpost.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico:
   description: ''
   year: '2021'
@@ -211085,6 +211151,7 @@ https://docs.garden.io:
   title: 'garden.io: Performance testing on a microservice architecture'
   v2_locations:
   - pulumi.md
+  - kubernetes-tools.md
 https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html:
   description: ''
   year: '2022'
@@ -211638,6 +211705,7 @@ https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog:
   title: 'openshift.com: Cloud DevOps With OpenShift and JFrog'
   v2_locations:
   - jenkins-alternatives.md
+  - registries.md
 https://newrelic.com/blog/infrastructure-monitoring/create-nr-dashboards-with-terraform-part-1:
   health_score: 100.0
   last_checked: 1779130494.976196
@@ -212515,6 +212583,7 @@ https://jfrog.com/blog:
   title: 'jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines'
   v2_locations:
   - jenkins-alternatives.md
+  - registries.md
 https://azure.microsoft.com/en-us/en-us/resources/azure-for-architects:
   health_score: 100.0
   last_checked: 1779130494.930166
@@ -213995,6 +214064,7 @@ https://www.empowersurvivors.net:
     Cert Manager'
   v2_locations:
   - ansible.md
+  - terraform.md
 https://docs.getenroute.io:
   health_score: 100.0
   last_checked: 1779130494.95724
@@ -214051,6 +214121,7 @@ https://canonical.com/juju:
   title: '**Conjure up**'
   v2_locations:
   - kubernetes.md
+  - kubernetes-on-premise.md
 https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure:
   health_score: 100.0
   last_checked: 1779130494.978324
@@ -215033,6 +215104,7 @@ https://learnkube.com/allocatable-resources:
   title: Allocatable memory and CPU in Kubernetes Nodes 🌟
   v2_locations:
   - kubernetes.md
+  - managed-kubernetes-in-public-cloud.md
 https://devm.io/blog:
   health_score: 100.0
   last_checked: 1779130495.022048
@@ -215408,6 +215480,7 @@ https://www.jenkins.io/blog/2016/11/21/gc-tuning:
     Instances 🌟
   v2_locations:
   - jenkins.md
+  - java-and-java-performance-optimization.md
 https://thinksys.com/devops/kubernetes-multi-tenancy:
   health_score: 100.0
   last_checked: 1779130494.942283
@@ -215656,6 +215729,7 @@ https://www.clickittech.com/cloud-services/amazon-ecs-vs-eks:
     🌟'
   v2_locations:
   - aws-containers.md
+  - managed-kubernetes-in-public-cloud.md
 https://www.redhat.com/en/blog/it-automation-training:
   health_score: 100.0
   last_checked: 1779130495.007185
@@ -217410,6 +217484,7 @@ https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745:
     Using Kuma & GitOps to implement canary releasing'
   v2_locations:
   - introduction.md
+  - servicemesh.md
 https://aws.amazon.com/partners/consulting:
   health_score: 84.0
   last_checked: 1779130494.971632
@@ -217506,6 +217581,7 @@ https://spanish.entrepreneur.com:
     un buen líder'
   v2_locations:
   - project-management-methodology.md
+  - recruitment.md
 https://www.redhat.com/en/blog/ansible-web-endpoints:
   health_score: 100.0
   last_checked: 1779130494.960125
@@ -220460,6 +220536,7 @@ https://kubernetes.io/docs/concepts/security:
   title: '==kubernetes.io: Overview of Cloud Native Security=='
   v2_locations:
   - devsecops.md
+  - kubernetes-security.md
 ? https://www.crunchydata.com/blog/synchronous-replication-in-the-postgresql-operator-for-kubernetes-guarding-against-transactions-loss
 : health_score: 100.0
   last_checked: 1779130494.951204
@@ -220782,6 +220859,7 @@ https://learnkube.com/cloud-resources-kubernetes:
   title: '==learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes=='
   v2_locations:
   - databases.md
+  - managed-kubernetes-in-public-cloud.md
 https://www.pluralsight.com/resources/blog/cloud/10-fun-hands-on-projects-to-learn-aws:
   description: ''
   year: '2021'
@@ -220925,6 +221003,7 @@ https://www.datamechanics.co:
     Available'
   v2_locations:
   - docker.md
+  - kubernetes-bigdata.md
 https://www.weekly.tf:
   health_score: 100.0
   last_checked: 1779130494.961434
@@ -221224,6 +221303,7 @@ https://www.vmware.com/products/app-platform/tanzu:
     Trusted Open Source Software Providers for the Enterprise'
   v2_locations:
   - demos.md
+  - kubernetes-on-premise.md
 https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh:
   health_score: 100.0
   last_checked: 1779130494.972261
@@ -221965,6 +222045,7 @@ https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-rea
   title: 'infoworld.com: Kubernetes cost management for the real world'
   v2_locations:
   - finops.md
+  - managed-kubernetes-in-public-cloud.md
 https://javatechonline.com/distributed-tracing-logging-using-sleuth-zipkin:
   health_score: 100.0
   last_checked: 1779130494.989866
@@ -222104,6 +222185,7 @@ https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-
   title: Programming with GitHub Copilot Agent Mode
   v2_locations:
   - developerportals.md
+  - cicd.md
 https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know:
   description: ''
   year: '2019'
@@ -222146,6 +222228,7 @@ https://octopus.com/devops:
   title: 'codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟'
   v2_locations:
   - project-management-methodology.md
+  - scaffolding.md
 https://www.redhat.com/en/about/videos/openshift-backup-and-recovery-kasten-k10:
   health_score: 64.0
   last_checked: 1779130494.928622
@@ -223305,6 +223388,7 @@ https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plug
   title: Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟
   v2_locations:
   - jenkins.md
+  - openshift-pipelines.md
 https://docs.cloud.google.com/load-balancing/docs/l7-internal:
   health_score: 100.0
   last_checked: 1779130494.940207
@@ -223484,6 +223568,7 @@ https://okd.io:
   title: OKD
   v2_locations:
   - openshift.md
+  - ocp4.md
 https://www.drawio.com/blog/drawio-aws-cloudcraft:
   health_score: 100.0
   last_checked: 1779130495.000524
@@ -223797,6 +223882,7 @@ https://www.sysdig.com/blog/kubernetes-1-24-whats-new:
     Kubernetes Service clusters through Azure Monitor'
   v2_locations:
   - azure.md
+  - managed-kubernetes-in-public-cloud.md
 https://www.redhat.com/en/blog/event-driven-architecture-essentials:
   description: ''
   year: '2021'
@@ -225115,6 +225201,7 @@ https://docs.github.com/en:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - mkdocs.md
+  - cheatsheets.md
   year: '2024'
   stars: 4
   ai_summary: 'The authoritative documentation portal for GitHub, offering deep-dives
@@ -225153,6 +225240,7 @@ https://docs.github.com/en:
   title: Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)
   v2_locations:
   - kubernetes-operators-controllers.md
+  - kubernetes-security.md
 https://www.redhat.com/en/blog/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab:
   health_score: 100.0
   last_checked: 1779130494.979561
@@ -227433,6 +227521,7 @@ https://docs.cloudify.co:
   title: 'cloudify.co: Understanding DevSecOps And Its Challenges'
   v2_locations:
   - introduction.md
+  - managed-kubernetes-in-public-cloud.md
 https://learn.microsoft.com/en-us/azure/devtest-labs:
   health_score: 100.0
   last_checked: 1779130495.002024
@@ -227835,6 +227924,7 @@ https://cloudnativenow.com/features/kubernetes-enables-devops-as-a-service-daas:
   title: WKSctl - A New OSS Kubernetes Manager using GitOps
   v2_locations:
   - gitops.md
+  - kubernetes-on-premise.md
 https://www.cbui.dev/every-company-has-an-old-production-aws-account:
   description: ''
   year: '2023'
@@ -227878,6 +227968,7 @@ https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-Wo
   title: 'itprotoday.com: Why Site Reliability Engineering Is Key to Modern DevOps'
   v2_locations:
   - introduction.md
+  - ocp4.md
 https://www.testmuai.com/blog/best-jenkins-alternatives:
   health_score: 100.0
   last_checked: 1779130495.00156
@@ -227960,6 +228051,7 @@ https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines:
   title: 'openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton'
   v2_locations:
   - tekton.md
+  - openshift-pipelines.md
 https://app.gitbook.com/o/-LbOdudvkdYwKCQYAHS8/s/RrlyoCHlF8LNFTvw74mT:
   health_score: 100.0
   last_checked: 1779130494.995157
@@ -228676,6 +228768,7 @@ https://www.f5.com/products/nginx:
   title: Nginx
   v2_locations:
   - introduction.md
+  - servicemesh.md
 https://k21academy.com/devops/ansible-for-beginners:
   health_score: 100.0
   last_checked: 1779130495.004911
@@ -229290,6 +229383,7 @@ https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021
   title: 'cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟'
   v2_locations:
   - devsecops.md
+  - kubernetes-security.md
 https://jumpstart.azure.com:
   health_score: 100.0
   last_checked: 1779130495.006318
@@ -229933,6 +230027,7 @@ https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes:
   title: 'semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟'
   v2_locations:
   - kubernetes.md
+  - cicd.md
 https://www.redhat.com/en/blog/curl-hack-httpie:
   description: ''
   year: '2021'
@@ -232132,6 +232227,7 @@ https://www.redhat.com/en/blog/channel/open-source-communities?intcmp=7015Y00000
   title: 'ansible.com: Ansible and ChatGPT: Putting it to the test'
   v2_locations:
   - ansible.md
+  - chatgpt.md
 https://release.com/blog/kubernetes-health-checks-2-ways-to-improve-stability:
   health_score: 100.0
   last_checked: 1779130494.950882
@@ -232222,6 +232318,7 @@ https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - openshift-pipelines.md
+  - demos.md
   gh_stars: 8654
   gh_pushed: '2026-05-22T03:03:38Z'
   year: '2018'
@@ -232319,6 +232416,7 @@ https://ubuntu.com/kubernetes/charmed-k8s:
   title: Charmed Kubernetes
   v2_locations:
   - gitops.md
+  - kubernetes-on-premise.md
 https://builder.aws.com/learn:
   description: ''
   year: '2023'
@@ -232857,6 +232955,7 @@ https://eclipse.dev/jkube:
   title: Eclipse JKube 🌟
   v2_locations:
   - kubernetes-client-libraries.md
+  - openshift-pipelines.md
 https://www.jenkins.io/doc/developer/plugin-development/dependency-management:
   health_score: 100.0
   last_checked: 1779130495.027766
@@ -233751,6 +233850,7 @@ https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernet
   title: 'blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes'
   v2_locations:
   - monitoring.md
+  - java-and-java-performance-optimization.md
 https://www.thoughtworks.com/insights/topic/continuous-delivery:
   health_score: 100.0
   last_checked: 1779130495.008879
@@ -233871,6 +233971,7 @@ https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes:
   title: Kubernetes GitOps with Azure Arc and Charmed Kubernetes
   v2_locations:
   - gitops.md
+  - kubernetes-on-premise.md
 https://github.com/nubenetes/nexus3-helm-chart:
   health_score: 100.0
   last_checked: 1779130494.978136
@@ -234984,6 +235085,7 @@ https://github.com/eclipse-jkube/jkube:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - maven-gradle.md
+  - kubernetes-client-libraries.md
   gh_stars: 850
   gh_pushed: '2026-04-16T21:53:31Z'
   year: '2025'
@@ -238686,6 +238788,7 @@ https://eclipse.dev/jkube/docs/migration-guide:
     Eclipse JKube 🌟'
   v2_locations:
   - kubernetes-client-libraries.md
+  - maven-gradle.md
 https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3:
   health_score: 100.0
   last_checked: 1779130494.943896
@@ -238772,6 +238875,7 @@ https://www.harness.io/blog:
   title: 'harness.io: Progressive Delivery: Everything You Need to Know'
   v2_locations:
   - kubernetes.md
+  - cicd.md
 https://azure.microsoft.com/en-us/en-gb/products/load-testing:
   health_score: 100.0
   last_checked: 1779130494.983468
@@ -239563,6 +239667,7 @@ https://learnkube.com/research:
   title: 'learnk8s.io/research:  Comparison of Kubernetes managed services 🌟'
   v2_locations:
   - kubernetes.md
+  - managed-kubernetes-in-public-cloud.md
 https://semaphore.io:
   health_score: 100.0
   last_checked: 1779130495.028388
@@ -239699,6 +239804,7 @@ https://github.com/HolmesGPT/holmesgpt:
   - '[ENTERPRISE-STABLE]'
   v2_locations:
   - ai.md
+  - ai-agents-mcp.md
   gh_stars: 2480
   gh_pushed: '2026-05-21T12:47:47Z'
   year: '2024'
@@ -240057,6 +240163,7 @@ https://www.redhat.com/en/blog/openshift-pipelines-jenkins-blue-ocean:
   title: OpenShift Pipelines with Jenkins Blue Ocean 🌟
   v2_locations:
   - demos.md
+  - openshift-pipelines.md
 https://liora.io/en/azure-devops-pipeline-yaml-why-configure-ci-cd-pipelines-with-yaml:
   health_score: 100.0
   last_checked: 1779130495.030453
@@ -240927,6 +241034,7 @@ https://bespoyasov.me/blog/clean-architecture-on-frontend:
   title: Clean Architecture on Frontend
   v2_locations:
   - developerportals.md
+  - javascript.md
 https://thenewstack.io/kubernetes/-and-the-next-generation-of-paas:
   health_score: 80.0
   last_checked: 1779130495.0183
@@ -241941,63 +242049,60 @@ https://github.com/chen-keinan/mesh-kridik:
   gh_pushed: '2024-12-09T16:56:32Z'
   gh_license: Apache-2.0
 https://www.youtube.com/embed/BE77h7dmoQU:
-  title: Global-Scale Media Streaming and Content Delivery Networks
+  title: 'Kubernetes: The Documentary [PART 1]'
   year: N/A
-  stars: 0
+  stars: 5
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: This resource represents a generic YouTube portal, which structurally
-    reflects global-scale media dissemination leveraging low-latency edge caching,
-    dynamic transcoding pipelines, and adaptive bitrate streaming. For 2026 cloud-native
-    architectures, it highlights the critical integration of decentralized edge computing
-    nodes co-located with ISPs to minimize egress costs and latency. Scalable microservices
-    running on global container orchestrators are required to manage high-throughput
-    metadata resolution and real-time telemetry ingestion.
-  category: Architecture and Cloud Strategy
+  ai_summary: "The official Kubernetes Documentary Part 1. Inspired by the open source\
+    \ success of Docker in 2013, \nthis film captures the story of the container orchestrator\
+    \ directly from the people who lived it, \nfeaturing interviews with prominent\
+    \ engineers from Google, Red Hat, Twitter, and others.\n"
+  category: Fundamentals and Documentaries
   is_featured_video: true
-  technology: Content Delivery Networks (CDN) & Edge Computing
+  technology: Kubernetes
   video_order: 1
   is_enriched: true
 https://www.youtube.com/embed/318elIq37PE:
-  title: N/A (Generic YouTube Link)
+  title: 'Kubernetes: The Documentary [PART 2]'
   year: N/A
-  stars: 0
+  stars: 5
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: The provided input contains only the generic YouTube landing page metadata
-    and lacks a specific video title or technical content to analyze. Consequently,
-    no cloud native architectural value or specific technology can be evaluated from
-    the resource.
-  category: Architecture and Cloud Strategy
+  ai_summary: "The official Kubernetes Documentary Part 2. Continuing the story of\
+    \ the \"Container Orchestrator Wars,\" \nthis part explores how Kubernetes ultimately\
+    \ came out on top despite technical challenges, \ninternal resistance, and intense\
+    \ competition, highlighting the power of open source.\n"
+  category: Fundamentals and Documentaries
   is_featured_video: true
-  technology: None
+  technology: Kubernetes
   video_order: 2
   is_enriched: true
 https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4:
-  title: N/A - Generic YouTube Link Provided
+  title: Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf
   year: N/A
-  stars: 0
+  stars: 5
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: The provided metadata corresponds to the generic YouTube homepage rather
-    than a specific technical video. As a result, no actionable cloud-native architectural
-    content, deployment patterns, or engineering methodologies could be analyzed or
-    extracted for a 2026 cloud-native context.
+  ai_summary: "Software engineer Kelsey Hightower provides a high-impact overview\
+    \ of Kubernetes (k8s) for system administrators. \nThe session includes a practical\
+    \ demo on deploying stateful workloads (MySQL) and applications (Ruby on Rails),\
+    \ \nscaling, and integrating service discovery.\n"
   category: Architecture and Cloud Strategy
   is_featured_video: true
-  technology: None
+  technology: Kubernetes
   video_order: 3
   is_enriched: true
 https://www.youtube.com/embed/rT4fJNbfe14:
@@ -242094,45 +242199,41 @@ https://www.youtube.com/embed/ghzsBm8vOms:
   video_order: 8
   is_enriched: true
 https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb:
-  title: YouTube System Architecture and Global Video Delivery
+  title: 'David Heinemeier Hansson: Microservices vs. Monolith'
   year: N/A
-  stars: 0
+  stars: 4
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: This architectural analysis explores YouTube's planetary-scale system
-    design, highlighting the integration of Vitess for database clustering and horizontal
-    scaling of stateful workloads. It details the mechanics of high-throughput video
-    transcoding pipelines, dynamic adaptive streaming (DASH/HLS), and edge-delivery
-    optimization via Google Global Cache (GGC) to achieve ultra-low latency and resilient
-    content distribution at exabyte scale.
+  ai_summary: "David Heinemeier Hansson (DHH), creator of Ruby on Rails, provides\
+    \ a critical analysis \non application architecture, contrasting the complexities\
+    \ of microservices with the \nefficiencies of the \"Majestic Monolith\" for modern\
+    \ engineering teams.\n"
   category: Architecture and Cloud Strategy
   is_featured_video: true
-  technology: Vitess
+  technology: Architecture
   video_order: 9
   is_enriched: true
 https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja:
-  title: 'YouTube Infrastructure: Global-Scale Video Streaming and Storage Architecture'
+  title: The creator of Rails on JavaScript FE vs. Classic Server-side Rendering
   year: N/A
-  stars: 0
+  stars: 4
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: This architectural analysis explores YouTube's global distribution platform,
-    highlighting its reliance on Vitess for horizontal MySQL database clustering,
-    custom transcoding hardware (Argos/VC1), and globally distributed edge-caching
-    infrastructure. It provides essential blueprints for 2026 cloud-native systems
-    handling multi-exabyte stateful storage workloads and ultra-low-latency content
-    delivery at the edge.
+  ai_summary: "David Heinemeier Hansson (DHH) discusses the trade-offs between complex\
+    \ JavaScript \nSingle Page Applications (SPAs) and classic Server-Side Rendering\
+    \ (SSR). \nHe introduces Hotwire as a modern approach to achieve high interactivity\
+    \ without the \noverhead of heavy client-side frameworks.\n"
   category: Architecture and Cloud Strategy
   is_featured_video: true
-  technology: Vitess & Edge Computing
+  technology: Web Architecture
   video_order: 10
   is_enriched: true
 https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1:
@@ -242155,45 +242256,41 @@ https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1:
   video_order: 11
   is_enriched: true
 https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c:
-  title: 'Vitess: Scaling YouTube''s Database Infrastructure'
+  title: Murli Thirumale | KubeCon CloudNativeCon EU 2023
   year: N/A
-  stars: 0
+  stars: 3
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: This technical analysis details Vitess, the cloud-native database clustering
-    system designed to horizontally scale MySQL through intelligent sharding and query
-    routing. In a 2026 cloud-native paradigm, Vitess enables stateless applications
-    on Kubernetes to seamlessly interface with highly available, distributed relational
-    databases across multi-region deployments. Its built-in connection pooling and
-    SQL parsing mitigate stateful bottlenecks, ensuring resilient, low-latency transactional
-    integrity at hyperscale.
+  ai_summary: "Murli Thirumale (VP & GM, Portworx) discusses the critical evolution\
+    \ of cloud-native \nstorage and data management at KubeCon EU 2023. The talk focuses\
+    \ on enabling \nresilient, stateful workloads and multi-cloud data mobility for\
+    \ enterprise Kubernetes deployments.\n"
   category: Architecture and Cloud Strategy
   is_featured_video: true
-  technology: Vitess
+  technology: Cloud Native Storage
   video_order: 12
   is_enriched: true
 https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe:
-  title: YouTube's Scalable Database Infrastructure (Vitess)
+  title: Red Hat OpenShift Platform Plus Overview
   year: N/A
-  stars: 0
+  stars: 3
   description: Featured video in the Top Videos & Clips section.
   status: online
   health_score: 100.0
   last_checked: 0.0
   v1_locations:
   - docs/index.md
-  ai_summary: This resource explores Vitess, the database clustering system developed
-    by YouTube to horizontally scale MySQL through intelligent query routing and automated
-    sharding. In a 2026 Cloud Native context, it demonstrates how to run highly scalable,
-    stateful transactional databases natively on Kubernetes without sacrificing SQL
-    compliance or application simplicity.
+  ai_summary: "An official architectural overview of Red Hat OpenShift Platform Plus.\
+    \ \nIt showcases the integration of advanced cluster security (ACS), multi-cluster\
+    \ \nmanagement, and persistent data services within a unified, enterprise-grade\
+    \ Kubernetes platform.\n"
   category: Architecture and Cloud Strategy
   is_featured_video: true
-  technology: Vitess
+  technology: OpenShift
   video_order: 13
   is_enriched: true
 https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3:

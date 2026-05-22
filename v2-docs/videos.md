@@ -8,28 +8,15 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 2. [Fundamentals and Documentaries](#fundamentals-and-documentaries)
 
 ## Architecture and Cloud Strategy
-??? note "🎬 Global-Scale Media Streaming and Content Delivery Networks | `Content Delivery Networks (CDN) & Edge Computing`"
+??? note "🎬 Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | `Kubernetes`"
     !!! info "Architectural Summary"
-        This resource represents a generic YouTube portal, which structurally reflects global-scale media dissemination leveraging low-latency edge caching, dynamic transcoding pipelines, and adaptive bitrate streaming. For 2026 cloud-native architectures, it highlights the critical integration of decentralized edge computing nodes co-located with ISPs to minimize egress costs and latency. Scalable microservices running on global container orchestrators are required to manage high-throughput metadata resolution and real-time telemetry ingestion.
+        Software engineer Kelsey Hightower provides a high-impact overview of Kubernetes (k8s) for system administrators. 
+The session includes a practical demo on deploying stateful workloads (MySQL) and applications (Ruby on Rails), 
+scaling, and integrating service discovery.
+
 
     <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Global-Scale Media Streaming and Content Delivery Networks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-    </center>
-
-??? note "🎬 N/A (Generic YouTube Link) | `None`"
-    !!! info "Architectural Summary"
-        The provided input contains only the generic YouTube landing page metadata and lacks a specific video title or technical content to analyze. Consequently, no cloud native architectural value or specific technology can be evaluated from the resource.
-
-    <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="N/A (Generic YouTube Link)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-    </center>
-
-??? note "🎬 N/A - Generic YouTube Link Provided | `None`"
-    !!! info "Architectural Summary"
-        The provided metadata corresponds to the generic YouTube homepage rather than a specific technical video. As a result, no actionable cloud-native architectural content, deployment patterns, or engineering methodologies could be analyzed or extracted for a 2026 cloud-native context.
-
-    <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="N/A - Generic YouTube Link Provided" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
 ??? note "🎬 Generic YouTube Metadata (No Video Specified) | `None`"
@@ -72,20 +59,27 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <iframe width="720" height="405" src="https://www.youtube.com/embed/ghzsBm8vOms" title="N/A - Generic YouTube Landing Page" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
-??? note "🎬 YouTube System Architecture and Global Video Delivery | `Vitess`"
+??? note "🎬 David Heinemeier Hansson: Microservices vs. Monolith | `Architecture`"
     !!! info "Architectural Summary"
-        This architectural analysis explores YouTube's planetary-scale system design, highlighting the integration of Vitess for database clustering and horizontal scaling of stateful workloads. It details the mechanics of high-throughput video transcoding pipelines, dynamic adaptive streaming (DASH/HLS), and edge-delivery optimization via Google Global Cache (GGC) to achieve ultra-low latency and resilient content distribution at exabyte scale.
+        David Heinemeier Hansson (DHH), creator of Ruby on Rails, provides a critical analysis 
+on application architecture, contrasting the complexities of microservices with the 
+efficiencies of the "Majestic Monolith" for modern engineering teams.
+
 
     <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="YouTube System Architecture and Global Video Delivery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="David Heinemeier Hansson: Microservices vs. Monolith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
-??? note "🎬 YouTube Infrastructure: Global-Scale Video Streaming and Storage Architecture | `Vitess & Edge Computing`"
+??? note "🎬 The creator of Rails on JavaScript FE vs. Classic Server-side Rendering | `Web Architecture`"
     !!! info "Architectural Summary"
-        This architectural analysis explores YouTube's global distribution platform, highlighting its reliance on Vitess for horizontal MySQL database clustering, custom transcoding hardware (Argos/VC1), and globally distributed edge-caching infrastructure. It provides essential blueprints for 2026 cloud-native systems handling multi-exabyte stateful storage workloads and ultra-low-latency content delivery at the edge.
+        David Heinemeier Hansson (DHH) discusses the trade-offs between complex JavaScript 
+Single Page Applications (SPAs) and classic Server-Side Rendering (SSR). 
+He introduces Hotwire as a modern approach to achieve high interactivity without the 
+overhead of heavy client-side frameworks.
+
 
     <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="YouTube Infrastructure: Global-Scale Video Streaming and Storage Architecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="The creator of Rails on JavaScript FE vs. Classic Server-side Rendering" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
 ??? note "🎬 Generic or Missing YouTube Video Reference | `Metadata Analysis`"
@@ -96,20 +90,26 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     <iframe width="720" height="405" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="Generic or Missing YouTube Video Reference" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
-??? note "🎬 Vitess: Scaling YouTube's Database Infrastructure | `Vitess`"
+??? note "🎬 Murli Thirumale | KubeCon CloudNativeCon EU 2023 | `Cloud Native Storage`"
     !!! info "Architectural Summary"
-        This technical analysis details Vitess, the cloud-native database clustering system designed to horizontally scale MySQL through intelligent sharding and query routing. In a 2026 cloud-native paradigm, Vitess enables stateless applications on Kubernetes to seamlessly interface with highly available, distributed relational databases across multi-region deployments. Its built-in connection pooling and SQL parsing mitigate stateful bottlenecks, ensuring resilient, low-latency transactional integrity at hyperscale.
+        Murli Thirumale (VP & GM, Portworx) discusses the critical evolution of cloud-native 
+storage and data management at KubeCon EU 2023. The talk focuses on enabling 
+resilient, stateful workloads and multi-cloud data mobility for enterprise Kubernetes deployments.
+
 
     <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="Vitess: Scaling YouTube's Database Infrastructure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="Murli Thirumale | KubeCon CloudNativeCon EU 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
-??? note "🎬 YouTube's Scalable Database Infrastructure (Vitess) | `Vitess`"
+??? note "🎬 Red Hat OpenShift Platform Plus Overview | `OpenShift`"
     !!! info "Architectural Summary"
-        This resource explores Vitess, the database clustering system developed by YouTube to horizontally scale MySQL through intelligent query routing and automated sharding. In a 2026 Cloud Native context, it demonstrates how to run highly scalable, stateful transactional databases natively on Kubernetes without sacrificing SQL compliance or application simplicity.
+        An official architectural overview of Red Hat OpenShift Platform Plus. 
+It showcases the integration of advanced cluster security (ACS), multi-cluster 
+management, and persistent data services within a unified, enterprise-grade Kubernetes platform.
+
 
     <center markdown="1">
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="YouTube's Scalable Database Infrastructure (Vitess)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="Red Hat OpenShift Platform Plus Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
     </center>
 
 ??? note "🎬 N/A (Generic YouTube Link) | `None`"
@@ -201,6 +201,28 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
     </center>
 
 ## Fundamentals and Documentaries
+??? note "🎬 Kubernetes: The Documentary [PART 1] | `Kubernetes`"
+    !!! info "Architectural Summary"
+        The official Kubernetes Documentary Part 1. Inspired by the open source success of Docker in 2013, 
+this film captures the story of the container orchestrator directly from the people who lived it, 
+featuring interviews with prominent engineers from Google, Red Hat, Twitter, and others.
+
+
+    <center markdown="1">
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes: The Documentary [PART 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    </center>
+
+??? note "🎬 Kubernetes: The Documentary [PART 2] | `Kubernetes`"
+    !!! info "Architectural Summary"
+        The official Kubernetes Documentary Part 2. Continuing the story of the "Container Orchestrator Wars," 
+this part explores how Kubernetes ultimately came out on top despite technical challenges, 
+internal resistance, and intense competition, highlighting the power of open source.
+
+
+    <center markdown="1">
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    </center>
+
 ??? note "🎬 Generic YouTube Video Placeholder | `None`"
     !!! info "Architectural Summary"
         The provided metadata represents the generic YouTube landing page rather than a specific technical presentation or engineering video. Consequently, no cloud-native architectural analysis or 2026 context can be extracted from this placeholder resource.
