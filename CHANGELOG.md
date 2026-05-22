@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.7] - 2026-05-22
+
+### Fixed
+- **GitHub Metadata Metrics**: Corrected the coverage calculation logic in `v2_optimizer.py` to properly identify GitHub repositories by ensuring URLs are correctly injected into the resource objects during the audit phase.
+- **Knowledge Graph Integrity**: Resolved the 0% reporting bug in the V2 Portal index, ensuring accurate tracking of resource maturity.
+
+### Changed
+- **Pipeline Orchestration**: Successfully validated the new decoupled workflow system by performing a manual execution of the Metadata and Publisher engines.
+
+
 ## [2.0.0-rc.6] - 2026-05-22
 
 ### Added
