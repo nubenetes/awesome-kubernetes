@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.12] - 2026-05-22
+
+### Fixed
+- **YouTube Mosaic Exemption**: Implemented high-precision detection for the YouTube mosaic in `docs/index.md`, ensuring that only the primary high-density block is exempt from health checks, while other YouTube links (before the mosaic and in collapsible notes) are properly checked.
+- **README Metrics Restoration**: Fixed the git checkout depth (`fetch-depth: 0`) in the V2 publisher workflow to restore accurate historical metric generation for the README.
+- **Iframe Health Checks**: Added support for detecting and checking YouTube links within `<iframe>` tags in the index file.
+
 ## [2.0.0-rc.11] - 2026-05-22
 
 ### Added
