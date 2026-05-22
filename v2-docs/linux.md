@@ -102,13 +102,6 @@
 #### Visual Diffing
 
   - **(2020)** [opensource.com: Don't love diff? Use Meld instead](https://opensource.com/article/20/3/meld) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents Meld as a highly visual diff and merge application for comparing files and directories. Live Grounding showcases its continuous integration into modern Git environments as an intuitive tool for resolving merge conflicts. It remains a reliable desktop alternative for development teams looking for deeper side-by-side file visualizations.
-## Education
-
-### Infrastructure Automation
-
-#### Tutorials
-
-  - **(2025)** [learnitguide.net 🌟](https://www.learnitguide.net) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A systematic, text-based documentation portal offering modular training on enterprise Linux administration, automation, bash script configurations, and core networking blueprints.
 ## Enterprise Administration
 
 ### Career
@@ -138,7 +131,6 @@
 
 #### Kernel Internals
 
-  - **(2023)** [**Controlling Process Resources with Linux Control Groups (cgroups)**](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep, interactive laboratory walk-through demonstrating how Linux Control Groups (cgroups) throttle and isolate system resources. Crucial baseline knowledge for understanding container limits in Kubernetes.
   - **(2021)** [**How Linux PID namespaces work with containers 🌟**](https://www.redhat.com/en/blog/linux-pid-namespaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An elegant, system-level explanation of PID namespaces from Red Hat engineers. Demonstrates how host process identifiers map down into isolated container layers, establishing safe sandbox boundaries.
 ### Observability
 
@@ -316,13 +308,6 @@
   - **(2022)** [linuxteck.com: 15 basic useful firewall-cmd commands in Linux](https://www.linuxteck.com/basic-useful-firewall-cmd-commands-in-linux) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walkthrough of firewalld configurations using the firewall-cmd CLI. Covers zone management, permanent versus runtime rule definitions, and service-based port bindings for modern Red Hat enterprise environments.
 ## Observability (1)
 
-### Capacity Management
-
-#### Kernel Internals (1)
-
-##### Pod Throttling
-
-  - **(2024)** [**CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions**](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep analysis of the Linux kernel's Completely Fair Scheduler (CFS) quotas and how they cause Kubernetes pod throttling despite low resource utilization. Indispensable for engineers diagnosing performance degradation under restrictive CPU limit settings.
 ### Metrics Collection
 
 #### Daemon Monitoring
@@ -358,7 +343,6 @@
 #### CLI Curation
 
   - **(2025)** [==The Art of Command Line==](https://github.com/jlevy/the-art-of-command-line) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The premium, single-page reference for command-line mastery. Highly dense and comprehensive, it targets engineers seeking to elevate their terminal habits, performance tracing, and file management efficiency.
-  - **(2025)** [**CommandLineFu 🌟**](https://www.commandlinefu.com/commands/browse) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An immense, user-voted platform for sharing and assessing terminal tricks. Perfect for tracking down highly specific, multi-tool regex constructs or one-liners.
   - **(2024)** [twitter.com/commandlinefu](https://x.com/commandlinefu) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official social channel broadcasting top command-line tips from the CommandLineFu portal. Useful for continuous bite-sized technical integration.
   - **(2023)** [twitter.com/commandlinefu3](https://x.com/commandlinefu3) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Supplementary feed mirroring automated script updates and terminal command structures.
   - **(2023)** [twitter.com/commandlinefu10](https://x.com/commandlinefu10) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Secondary distribution pipeline showcasing community-submitted bash recipes and diagnostic tools.
@@ -390,11 +374,11 @@
   - **(2025)** [==github.com/zsh-users/zsh-autosuggestions 🌟==](https://github.com/zsh-users/zsh-autosuggestions) <span class='md-tag md-tag--info'>⭐ 35560</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly efficient Zsh plugin that suggests commands as you type based on shell history. Greatly boosts productivity and matches the usability standard popularized by the Fish shell.
 ## Security (1)
 
-### Compliance
+### Linux Hardening
 
-#### Host Hardening
+#### Best Practices
 
-  - **(2021)** [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed Linux auditing walkthrough using the Lynis tool to harden target environments. Provides granular shell instructions for reviewing user-space permissions, file integrity, and core system policies.
+  - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27424</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive, highly popular guide for securing production Linux environments. Covers SSH hardening, firewalls, user permission boundaries, 2FA, kernel optimization, audit logs, and automated vulnerability scanning.
 ### Systems Hardening
 
 #### User Auditing
@@ -455,7 +439,6 @@
   - **(2026)** [==zx==](https://github.com/google/zx) <span class='md-tag md-tag--info'>⭐ 45504</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A revolutionary library by Google allowing developers to write rich shell scripts using JavaScript or TypeScript. Intuitively wraps child-process execution, making complex scripting pipelines highly readable and safe.
 #### Secure Bash
 
-  - **(2025)** [==Bash Pitfalls 🌟==](http://mywiki.wooledge.org/BashPitfalls) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The legendary Wooledge guide listing common Bash coding mistakes and how to fix them. Covering quoting, scope, pipeline traps, and array logic, this resource is a mandatory read for any systems engineer.
   - **(2024)** [==github: Safe ways to do things in bash==](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) <span class='md-tag md-tag--info'>⭐ 4782</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The ultimate reference manual for writing safe, robust shell scripts, maintained as part of the Shellharden project. Explains how to avoid typical syntax traps, highlighting strict quoting guidelines and expansion rules.
 #### Zsh Debugging
 
@@ -597,5 +580,5 @@
   - **(2021)** [**tecmint.com: Testssl.sh – Testing TLS/SSL Encryption Anywhere on Any Port**](https://www.tecmint.com/testssl-sh-test-tls-ssl-encryption-in-linux-commandline) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation and usage guide for testssl.sh, an open-source command-line security auditing tool. It demonstrates how to scan endpoints on any port to detect SSL/TLS vulnerabilities, cipher suite issues, and configuration flaws.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 

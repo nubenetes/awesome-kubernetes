@@ -19,5 +19,5 @@
   - **(2026)** [==prometheus-community/kube-prometheus-stack 🌟🌟==](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The de facto standard Helm chart for deploying Prometheus and Grafana on Kubernetes. It manages the custom resource definitions (CRDs), handles scraper configurations, and provides out-of-the-box system alerting rules.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

@@ -10,9 +10,6 @@
 #### AWS CDK
 
   - **(2021)** [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official AWS educational lab covering foundations of the Cloud Development Kit. Focuses on writing structural patterns to deploy secure multi-tier cloud environments using object-oriented languages.
-#### CloudFormation
-
-  - **(2021)** [==youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟==](https://www.youtube.com/watch?v=zA8guDqfv40) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive boot-camp produced by freeCodeCamp focusing on CloudFormation foundations. Details modular resource design, dependency mapping, drift protection, and secure infrastructure-as-code delivery pipelines.
 ### Training
 
 #### AWS Deep Dives
@@ -54,5 +51,5 @@
   - **(2021)** [acloudguru.com: 10 fun hands-on projects to learn AWS](https://www.pluralsight.com/resources/blog/cloud/10-fun-hands-on-projects-to-learn-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Suggests 10 hands-on AWS training projects designed for cloud engineers. Covers deploying static architectures under HTTPS, building simple serverless APIs, and setting up automated backup pipelines.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Aws Architecture](./aws-architecture.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

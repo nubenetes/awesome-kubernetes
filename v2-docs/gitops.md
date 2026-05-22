@@ -3,33 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for Gitops in the context of Engineering Pipeline.
 
-## Application Delivery
+## Cloud Infrastructure
 
-### Helm
+### Kubernetes Distributions
 
-#### Alternative Engines
+#### Bare-Metal and Edge
 
-  - **(2025)** [**Nelm: A Helm Alternative for Kubernetes Deployments**](https://github.com/werf/nelm) <span class='md-tag md-tag--info'>⭐ 1072</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative deployment engine integrated within the Werf workflow that functions as an alternative to native Helm release tracking. It resolves Helm's tracking limitations by ensuring strict live cluster validation and resource health monitoring.
-### Infrastructure as Code
+  - **(2026)** [**Charmed Kubernetes**](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Canonical's model-driven Kubernetes distribution designed for bare-metal, private, and multi-cloud environments. Leverages Ubuntu's automated Juju framework to manage complex cluster lifecycles, upgrades, security scanning, and seamless hypervisor scaling.
+## GitOps
 
-#### Terraform Components
+### Hybrid Cloud Platforms
 
-  - **(2024)** [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Enterprise-ready Terraform submodule designed to deploy, configure, and bootstrap Argo CD onto an existing AWS EKS cluster. Live Grounding: Standardizes complex security configuration flags, integrates smoothly with AWS IAM roles for service accounts (IRSA), and provisions preconfigured Helm-based releases.
+#### Azure Arc Integration
+
+  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide illustrating the integration of Charmed Kubernetes with Azure Arc to orchestrate hybrid-cloud resources. Demonstrates how GitOps configurations are pushed dynamically across decentralized architectures using unified portal controls.
 ## Infrastructure
 
-### GitOps
+### GitOps (1)
 
 #### Cluster Provisioning
 
-  - **(2022)** [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An early GitOps-driven Kubernetes cluster manager from Weaveworks that provisioned clusters from a declared state stored in git. Following Weaveworks' operational shutdown, this project is considered legacy but remains highly influential in GitOps control-loop architecture history.
-## Networking
-
-### Container Network Interface
-
-#### CNI Plugins
-
-  - **(2024)** [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6613</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weave Net is a resilient container CNI designed to create peer-to-peer overlay networks without external databases or configurations. The project was officially archived by Weaveworks in 2024, prompting teams to migrate to more modern CNI plugins like Cilium and Calico.
+  - **(2020)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical reference covering the announcement of WKSctl as an open-source GitOps-centric cluster bootstrapper. Note: The URL appears to have defaulted to an external registration portal and should be treated with caution.
+  - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ editorial piece analyzing the operational design of WKSctl. Explores how declarative machine and cluster definitions allowed users to bootstrap and reconcile nodes over SSH using Git as the source of truth.
 
 ---
-💡 **Explore Related:** [Cicd](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md)
 

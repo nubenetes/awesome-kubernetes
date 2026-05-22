@@ -25,9 +25,6 @@
 ##### Kubernetes Ingress
 
   - **(2020)** [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory article explaining how to set up Traefik as an Ingress Controller in Kubernetes. It focuses on setting up path-based routing rules and using labels to automate routing table updates.
-##### Kustomize Deployments
-
-  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations blog outlining Traefik v2.2 deployment using Kustomize overlays. Although the specific Traefik CRD API versions are legacy, the architectural structure of managing ingress with Kustomize remains highly educational.
   - **(2026)** [==Traefik==](http://traefik.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Traefik is a modern cloud-native HTTP reverse proxy and ingress controller designed to automatically discover backend services from platforms like Kubernetes, Docker, and Consul. Its auto-configuration feature and native support for Let's Encrypt certificates simplify cluster operations.
 ### Load Balancing (1)
 
@@ -39,7 +36,6 @@
 ##### Nginx Integration
 
   - **(2020)** [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A configuration-focused tutorial detailing how to chain HAProxy as a frontend load balancer in front of an Nginx web tier on CentOS 8. Note: CentOS 8 is end-of-life, meaning parts of this OS guide must be updated, but the routing concepts remain sound.
-  - **(2026)** [==haproxy.org==](http://www.haproxy.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official site for HAProxy, the high-performance TCP/HTTP load balancer. Renowned for its extreme efficiency and microsecond-level latency control, HAProxy is an industry standard for routing massive amounts of concurrent web traffic.
 ### Reverse Proxy
 
 #### Apache HTTPD
@@ -57,9 +53,6 @@
   - **(2026)** [==Apache==](https://httpd.apache.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The home page for Apache HTTPD, the foundational open-source web server of the internet. While newer microservices architectures typically leverage Nginx or Envoy, Apache remains highly relevant for legacy proxy configurations and traditional web hosting setups.
 #### Nginx
 
-##### Configuration Generators
-
-  - **(2025)** [==NGINXConfig==](https://www.digitalocean.com/community/tools/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DigitalOcean's visual configuration tool for Nginx. It generates highly secure, production-tested server blocks tailored for modern features like HTTP/2, custom security headers, SSL/TLS optimizations via Let's Encrypt, and Gzip compression.
 ##### Guides
 
   - **(2021)** [**freecodecamp.org: The NGINX Handbook 🌟**](https://www.freecodecamp.org/news/the-nginx-handbook) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive manual explaining the underlying mechanics of Nginx. Covers everything from server blocks and upstream definitions to proxy routing rules, security hardening, and cache configuration optimization.
@@ -74,5 +67,5 @@
   - **(2026)** [**unit.nginx.org**](https://unit.nginx.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Nginx Unit is a dynamic, polyglot application server engineered to run application code across multiple runtimes (Go, Python, Node.js, PHP) simultaneously. It is entirely controlled via a declarative JSON-based REST API, making it well-suited for container-centric microservices.
 
 ---
-💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Istio](./istio.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Servicemesh](./servicemesh.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

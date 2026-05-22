@@ -14,6 +14,9 @@
 
 ### Kubernetes Operators
 
+#### CI-CD Auto-Scaling
+
+  - **(2026)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6260</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Kubernetes operator designed to manage self-hosted runner infrastructure dynamically. Integrates natively with Kubernetes HPA metrics to automatically scale runner pods based on job queues.
 #### GitLab Orchestration
 
   - **(2021)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official deployment architecture guide showing how to implement the GitLab Kubernetes Operator on Red Hat OpenShift Container Platform (OCP). Provides configuration details for persistent volumes, container security contexts, and runners to ensure stable multi-tenant operations.
@@ -77,6 +80,9 @@
 #### Platform Optimization
 
   - **(2022)** [**infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance**](https://www.infoq.com/news/2022/02/github-codespaces-templates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — This technical news article details the introduction of Codespaces templates, designed to optimize boot times and environment reproducibility. By pre-building dependencies and container configurations, developers can spin up fully realized environments almost instantaneously. This performance optimization is critical for scaling enterprise-grade remote development initiatives while controlling execution costs.
+#### Visual Studio Integrations
+
+  - **(2026)** [==GitHub Codespaces==](https://github.com/features/codespaces) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — GitHub Codespaces delivers cloud-hosted, highly configurable development environments running directly inside Visual Studio Code or browser instances. By leveraging declarative configuration (devcontainer.json), platform teams can eliminate the standard 'works on my machine' problem and onboard developers in seconds. It represents a paradigm shift in software engineering productivity, replacing heavy local setups with scalable, secure cloud-native workstations.
 #### Web IDEs
 
   - **(2021)** [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This guide details 10 highly useful features of github.dev, the web-based, zero-install IDE that opens immediately when pressing '.' inside any GitHub repository. It explores editing workflows, extensions compatibility, and visual commits directly on the web. It serves as an excellent operational guide for quick reviews and documentation modifications without spinning up local environments.
@@ -98,7 +104,6 @@
 #### Documentation Engines
 
   - **(2020)** [github.blog: How we launched docs.github.com](https://github.blog/engineering/how-we-launched-docs-github-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth engineering case study describing GitHub's architectural migration of its developer documentation site to a modern, Markdown-driven, node.js platform. It details how the engineering team optimized rendering performance, designed internationalization frameworks, and maintained strict availability under massive traffic. This serves as a vital blueprint for any team building developer portal documentation platforms at hyper-scale.
-  - **(2021)** [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This practical guide breaks down the structure and utility of GitHub Wikis for software project documentation. It walks through syntax formatting, sidebar architecture, and collaborative editing patterns. While modern enterprise teams often prefer Docs-as-Code paradigms built with tools like MkDocs or Docusaurus, GitHub Wikis still serve as a quick, low-overhead option for repository-centric developer documentation.
 #### Enterprise Code Auditing
 
   - **(2022)** [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/2270808/github-introduces-code-review-controls.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — This InfoWorld article highlights GitHub's enhancement of its governance capabilities through advanced code review controls, ensuring compliance policies can be enforced programmatically. By restricting who can approve pull requests and ensuring checks pass, organizations can automate their security and governance criteria. For enterprises running in regulated environments, these platform constraints are critical to maintaining audit trails.
@@ -115,9 +120,6 @@
 #### Multi-Repository Management
 
   - **(2021)** [**blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos**](https://www.gruntwork.io/blog/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Gruntwork introduces git-xargs, a powerful open-source command-line tool designed to perform bulk edits across multiple GitHub repositories concurrently using scripts or CLI commands. It automates the tedious task of branching, committing, pushing, and opening pull requests across dozens of repositories. For platform engineering teams managing microservice fleets, this utility dramatically reduces the overhead of updating shared configurations.
-#### Open Source Education
-
-  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official GitHub onboarding guide tailored for software engineers looking to initiate their contributions to Open Source Software (OSS) projects. It teaches how to fork repositories, configure branches, submit pull requests, and write structured issues. Understanding these fundamentals is crucial for developers seeking to participate in the global cloud-native ecosystem.
 #### Product Strategy
 
   - **(2026)** [==GitHub public roadmap 🌟==](https://github.com/github/roadmap) <span class='md-tag md-tag--info'>⭐ 8741</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official interactive roadmap repository for upcoming features across GitHub's product suite (Copilot, Actions, Projects, Security). This public portal allows product managers and platform architects to anticipate feature deliveries and align internal DevOps transformations with upstream capabilities. In 2026, it remains a model of public transparency in platform software engineering.
@@ -234,11 +236,6 @@
 #### Runner Infrastructure
 
   - **(2021)** [github.blog: GitHub Actions: Ephemeral self-hosted runners & new webhooks for auto-scaling](https://github.blog/changelog/2021-09-20-github-actions-ephemeral-self-hosted-runners-new-webhooks-for-auto-scaling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product release introducing ephemeral self-hosted runners and targeted autoscale webhooks, allowing platform teams to build dynamic, secure single-use runner environments.
-### Cloud Security
-
-#### Identity Federation
-
-  - **(2024)** [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth configuration guide explaining how to design passwordless integrations between GitHub Actions and Microsoft Azure using OpenID Connect (OIDC). Eliminates long-lived static API secrets in favor of short-lived federated credentials.
 ### DevSecOps
 
 #### Artifact Signing
@@ -264,13 +261,6 @@
 
   - **(2021)** [github.blog: Showing code scanning alerts on pull requests](https://github.blog/changelog/2021-09-27-showing-code-scanning-alerts-on-pull-requests) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the integration of code scanning alerts directly within the pull request conversation view, improving security feedback loops during peer reviews.
   - **(2020)** [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Summarizes the release of GitHub's native Advanced Security SAST tooling, focusing on the enterprise value of code-scanning pipelines powered by CodeQL rules.
-## Software Delivery
-
-### CICD Foundations
-
-#### Trunk-Based Development
-
-  - **(2019)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the cultural developer hygiene of crafting clear, logical git commits. Live Grounding: Details how concise commit histories simplify pipeline automated testing, automated changelogs, and fast deployment troubleshooting. Essential software craft guidance.
 ## Software Delivery and Engineering
 
 ### Continuous Integration
@@ -299,6 +289,7 @@
   - **(2020)** [github.blog: Highlights from Git 2.28](https://github.blog/open-source/git/highlights-from-git-2-28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines major improvements and configuration adjustments introduced in the Git 2.28 engine release. It details the setup steps to define custom, globally synchronized initial branch naming standards (such as changing the default to `main`).
 #### Resources
 
+  - **(2024)** [==Awesome Git 🌟==](https://github.com/dictcp/awesome-git) <span class='md-tag md-tag--info'>⭐ 2858</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, community-curated list of tools, clients, extensions, and learning pathways for Git. This list serves as an ultimate reference directory for engineers looking to optimize repository workflows and build custom git hooks.
   - **(2018)** [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive index of books, terminal extensions, interactive games, and developer platforms designed to train engineers on Git capabilities. This database is an excellent resource for platform builders organizing standard developer onboarding systems.
 #### Security (1)
 
@@ -498,18 +489,17 @@
     | [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [youtube: Git Flow Is A Bad Idea - Dave Farley](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [trunkbaseddevelopment.com: Alternative Branching Models](https://trunkbaseddevelopment.com/alternative-branching-models) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
-    | [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [paulhammant.com: What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟🌟 |
     | [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) |  | Branching Strategies | English | 🌟🌟🌟 |
     | [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟 |
     | [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟 |
+    | [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development) |  | Branching Strategies | English | 🌟🌟🌟 |
 
   - **(2017)** [==Trunk Based Development==](https://trunkbaseddevelopment.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical reference site for Trunk-Based Development (TBD). It details the architectural practice where developers merge small, frequent updates to a core branch, resisting long-lived branches. This eliminates complex merge phases and forms the bedrock of modern continuous integration workflows.
   - **(2010)** [==Git Flow==](https://nvie.com/posts/a-successful-git-branching-model) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The original, widely adopted 2010 post by Vincent Driessen introducing the Git Flow branching model. While historically revolutionary for structured releases, modern consensus and the author's own 2020 update reflect that this model introduces excessive complexity for continuous delivery pipelines.
   - **(2021)** [**atlassian.com: Gitflow Workflow**](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly-structured tutorial by Atlassian comparing Gitflow against alternative branching strategies. It offers clear operational blueprints and command examples, evaluating how the model coordinates scheduled release cycles while warning of its constraints in high-velocity CI/CD environments.
   - **(2021)** [**youtube: Git Flow Is A Bad Idea - Dave Farley**](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-impact video by continuous delivery expert Dave Farley arguing why Git Flow acts as an anti-pattern for modern software delivery. He contrasts multi-branch isolation with the rapid feedback, safety, and velocity realized via strict trunk-based architectures.
   - **(2017)** [**trunkbaseddevelopment.com: Alternative Branching Models**](https://trunkbaseddevelopment.com/alternative-branching-models) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A sub-section of the core trunk-based reference site that breaks down alternative branching topologies (GitHub Flow, GitLab Flow, GitFlow). It provides a deep structural comparison highlighting the strengths and bottlenecks of each approach in continuous production.
-  - **(2013)** [**Git-flow cheatsheet**](https://danielkummer.github.io/git-flow-cheatsheet/index.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly interactive and multilingual cheat sheet illustrating the lifecycle of branches in Vincent Driessen's GitFlow model. This reference acts as an indispensable, quick-lookup guide for understanding CLI commands for features, releases, and hotfixes.
   - **(2013)** [**paulhammant.com: What is Trunk-Based Development?**](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A foundational historical article by Paul Hammant outlining the core mechanics and philosophy of Trunk-Based Development. It serves as an early conceptual introduction, explaining how avoiding long-lived branch models accelerates deployment velocity and prevents merge hell in large engineering teams.
   - **(2022)** [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical UI-centric guide demonstrating GitFlow execution inside the GitKraken desktop client. It simplifies branch creation, merging, and visual release management, offering a low-friction approach for teams bound to multi-branch deployment workflows.
   - **(2021)** [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clear, educational introduction to the concepts of Trunk-Based Development under a modern software delivery lifecycle. It explains the core benefits of rapid codebase integration and how it directly pairs with robust automated CI/CD practices.
@@ -588,7 +578,6 @@
 ??? abstract "Architect's Technical Comparison Table"
     | Solution | Maturity | Primary Focus | Language | Stars |
     | :--- | :--- | :--- | :--- | :--- |
-    | [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) |  | Git Operations | English | 🌟🌟🌟🌟 |
     | [cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟](https://www.cloudbees.com/blog/git-reset-undo-changes) |  | Git Operations | English | 🌟🌟🌟🌟 |
     | [freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git) |  | Git Operations | English | 🌟🌟🌟🌟 |
     | [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) |  | Git Operations | English | 🌟🌟🌟 |
@@ -599,7 +588,6 @@
     | [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name) |  | Git Operations | English | 🌟🌟🌟 |
     | [Removing the last commit](https://gist.github.com/CrookedNumber/8964442) |  | Git Operations | English | 🌟🌟🌟 |
 
-  - **(2021)** [**atlassian.com: Git cheat sheet**](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
   - **(2021)** [**cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟**](https://www.cloudbees.com/blog/git-reset-undo-changes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demystifies the core differences between '--soft', '--mixed', and '--hard' reset operations in Git. By mapping how resets affect the HEAD pointer, the index, and the working directory, this guide provides solid strategies for safe rollback of local changes.
   - **(2021)** [**freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git**](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed, structural exploration on undoing completed branch mergers using 'git revert' with parent pointer options ('-m'). Discusses the architectural implications of reverting merges and how it shapes subsequent branch integration.
   - **(2022)** [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive manual covering safe patterns of pushing code, focusing on options like '--force-with-lease' versus '--force'. Provides patterns to protect upstream tracking states from destructive history alterations by other team members.
@@ -706,5 +694,5 @@
   - **(2022)** [dev.to: How to Use Git Stash Command](https://dev.to/mwafrika/how-to-use-git-stash-command-22bk) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Quick operational guide focusing on practical everyday Git stash operations. Outlines how to isolate unstaged changes quickly without committing incomplete features, ideal for immediate reference during high-frequency development cycles.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Introduction](./introduction.md) | [Kubernetes Tools](./kubernetes-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

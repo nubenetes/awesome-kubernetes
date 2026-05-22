@@ -30,24 +30,19 @@
 
 ##### Eclipse JKube
 
-  - **(2020)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
   - **(2020)** [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory technical blog discussing the architecture of Eclipse JKube and explaining how it decouples deployment mechanisms into Maven/Gradle plugins, providing a highly customizable developer experience.
-#### Migration Guides
+#### Product Updates
 
 ##### Eclipse JKube (1)
 
-  - **(2026)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official technical reference outlining the exact property conversions, API transformations, and plugin changes needed to move builds from `fabric8-maven-plugin` to `jkube-maven-plugin`.
-  - **(2020)** [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step technical guide highlighting the namespace transitions, configuration changes, and structural refactoring required when migrating legacy Fabric8 Maven build files to the modernized Eclipse JKube.
-#### Product Updates
-
-##### Eclipse JKube (2)
-
   - **(2021)** [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detail-rich release note highlighting improvements, bug fixes, and support extensions introduced in version 1.4.0 of Eclipse JKube.
-#### Quarkus Integration
+## Red Hat OpenShift (1)
 
-##### Video Tutorials
+### Developer Experience
 
-  - **(2021)** [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video session detailing the integration of Quarkus with Eclipse JKube to deploy highly optimized, native-compiled Java microservices directly to Kubernetes.
+#### Maven Plugins
+
+  - **(2025)** [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 850</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Active repository containing the source code, extensions, and Maven/Gradle plugins for Eclipse JKube. Simplifies localized builds, auto-detects Java application frameworks, and generates matching Kubernetes resource configurations.
 ## Software Engineering
 
 ### Build Systems
@@ -119,7 +114,7 @@
 ##### Tutorials
 
   - **(2021)** [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/maven-java-project-with-intellij-idea) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial on initializing, configuring, and importing Maven projects inside JetBrains IntelliJ IDEA. Useful for junior developers looking to establish standard build patterns and resolve dependency import conflicts.
-### Developer Experience
+### Developer Experience (1)
 
 #### IDE Configuration
 
@@ -136,5 +131,5 @@
   - **(2026)** [**JBang**](https://www.jbang.dev) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CLI tool allowing Java developers to run single-file source code programs as executable scripts, handling dependency fetching on-the-fly without heavy project setups.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [Javascript](./javascript.md) | [Python](./python.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md)
 

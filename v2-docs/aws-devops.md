@@ -65,5 +65,5 @@ Live Grounding: While primarily legacy, it outlines key patterns for mapping sta
 Live Grounding: Detailed comparative resource mapping the architectural equivalents between AWS developer tooling and Azure DevOps systems.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Aws Architecture](./aws-architecture.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

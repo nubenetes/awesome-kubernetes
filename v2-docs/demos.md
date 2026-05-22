@@ -17,15 +17,6 @@
 #### Enterprise Architectures
 
   - **(2020)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural integration study mapping out Continuous Delivery structures using Nexus Repository, Jenkins pipelines, and Cloudogu software suites for regulated enterprise workloads.
-## Cloud-Native
-
-### Kubernetes Native
-
-#### Java Build Plugins
-
-##### Eclipse JKube
-
-  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
 ## Continuous Integration
 
 ### Jenkins Pipelines
@@ -49,6 +40,13 @@
 ##### Integrations
 
   - **(2020)** [developers.redhat.com: HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural guide detailing how to use the HTTP Bridge component inside AMQ Streams. Allows web and legacy application services to publish and consume event data via lightweight REST HTTP requests.
+## Infrastructure
+
+### Cluster Provisioning
+
+#### Kubeadm Guides
+
+  - **(2019)** [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on deploying an on-premises multi-master Kubernetes control plane using kubeadm and HAProxy for load balancing. Walks through the bootstrap token mechanism and control-plane join procedures. Excellent theoretical coverage of manual multi-master networking.
 ## Platform Engineering
 
 ### Enterprise Linux
@@ -62,8 +60,15 @@
 
 #### Jenkins Ecosystem (1)
 
-  - **(2018)** [**github - using jenkins pipelines with OKD**](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline) <span class='md-tag md-tag--info'>⭐ 8654</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Repository detailing baseline code configurations, sample pipelines, and deployment manifests engineered to execute scripted Jenkins procedures inside early versions of the OKD community container platform.
-  - **(2018)** [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Utility repository hosting configurations to deploy Jenkins Blue Ocean configurations instantly within early Red Hat OpenShift Container Platform environments. Serves as a reference setup for visualized pipeline states.
+  - **(2020)** [developers.redhat.com: An easier way to create custom Jenkins containers](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains streamlined procedures for producing custom, secure Jenkins container images for deployment. Focuses on minimizing layers, loading plug-ins safely during build time, and injecting enterprise parameters within Red Hat architectures.
+  - **(2018)** [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.redhat.com/en/blog/openshift-pipelines-jenkins-blue-ocean) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Combines OpenShift Orchestration APIs with Jenkins Blue Ocean to manage continuous delivery pipelines visually. Promotes clear state-tracking, modular pipeline construction, and simplified debugging metrics.
+## Security
+
+### Supply Chain
+
+#### Enterprise Platform
+
+  - **(2021)** [tanzu.vmware.com: Log4Shell Vulnerability Spotlights the Importance of Adopting Trusted Open Source Software Providers for the Enterprise](https://www.vmware.com/products/app-platform/tanzu)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the strategic imperative of establishing trusted open-source workflows inside enterprise build infrastructures. Demonstrates how Tanzu's curated application platform streamlines immediate mitigation tasks at runtime.
 ## Software Engineering
 
 ### Developer Experience
@@ -75,5 +80,5 @@
   - **(2026)** [==SdkMan==](https://sdkman.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A command-line utility for managing parallel versions of multiple Software Development Kits on most Unix-like systems. Widely used to manage JDKs, Gradle, Maven, and JBang versions in local developer setups and CI agents.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

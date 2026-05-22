@@ -66,11 +66,6 @@
   - **(2020)** [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational manual detailing production-grade strategies for deploying Jaeger. Explains the differences between ephemeral, Elasticsearch, and Cassandra storage backends, and details the scaling of Jaeger collectors under intense trace ingestion loads.
 ### Service Mesh (1)
 
-#### AWS Ecosystem
-
-##### App Mesh Managed Service
-
-  - **(2023)** [**aws.amazon.com/app-mesh**](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official landing page for AWS App Mesh, a fully managed service mesh service designed to streamline microservice communications. Utilizes the Envoy proxy data plane to offer consistent visibility, routing controls, and mTLS security across Amazon ECS, EKS, and EC2.
 #### Architecture
 
 ##### Deep Dives
@@ -210,5 +205,5 @@
   - **(2021)** [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive tutorial explaining telemetry configuration for gRPC-based microservices on Amazon EKS running Istio. Offers practical configurations for capturing service-to-service call latency, tracing headers, and standard Envoy metrics at the pod boundary.
 
 ---
-💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Networking](./networking.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Servicemesh](./servicemesh.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

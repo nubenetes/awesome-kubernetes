@@ -40,7 +40,6 @@
 
 #### CI-CD Pipelines (1)
 
-  - **(2021)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A case study looking at OpenShift and JFrog Artifactory integrations. It details how teams establish secure, auditable image management pipelines across hybrid cloud nodes.
   - **(2020)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide detailing integrations between JFrog Artifactory and Red Hat OpenShift, showing how to coordinate secure, automated image promotion paths.
 ## Infrastructure Standards
 
@@ -119,12 +118,12 @@
   - **(2020)** [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Ansible Galaxy role designed to install Harbor registries on VMware-based virtual infrastructure. It remains a historical reference but has been surpassed by containerized approaches.
 ## Security
 
-### DevSecOps
+### Certificates
 
-#### Secrets Scanning
+#### TLS Automation
 
-  - **(2022)** [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through showing how to use Spectral in tandem with JFrog Pipelines. The tutorial focuses on identifying misplaced credentials and code misconfigurations inside continuous integration stages.
+  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13830</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager project, automating dynamic certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
 
 ---
-💡 **Explore Related:** [Cicd](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md) | [Jenkins](./jenkins.md)
 

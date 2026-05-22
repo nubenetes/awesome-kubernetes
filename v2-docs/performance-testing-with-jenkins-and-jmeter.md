@@ -12,14 +12,10 @@
   - **(2022)** [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide for implementing low-overhead load testing routines within CI pipelines. Explores triggering synthetic benchmarks during typical code validation runs inside GitHub runners.
 #### Jenkins
 
+  - **(2024)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A stable Jenkins CI plugin designed to ingest, compile, and visualize execution metrics from varied load-testing libraries including JMeter, Taurus, and JUnit.
   - [plugins.jenkins.io: gatling](https://plugins.jenkins.io/gatling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Integrates Gatling load simulation tests into modern Jenkins jobs. Features automated metrics visualization, pipeline validation, and conditional build-failing mechanisms.
 ## Observability and Performance
 
-### Kubernetes Internals
-
-#### Resource Management
-
-  - **(2024)** [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis exposing the silent threat of CPU throttling inside Kubernetes clusters caused by rigid CFS quota management. Demonstrates how microservices suffer latency spikes even with low aggregate CPU consumption.
 ### Performance Testing
 
 #### APIs
@@ -37,9 +33,6 @@
 #### Distributed Load Testing
 
   - **(2016)** [JMeter Distributed Testing Step-by-step](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed execution manual outlining steps to orchestrate distributed JMeter server architectures. Teaches how to configure multiple remote load injectors managed by a master engine to bypass network bottlenecks.
-#### HTTP Benchmarking
-
-  - **(2022)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive introducing `pycurlb`, a fast performance tool wrapping libcurl for rapid HTTP request benchmarking in Python. Explores real-world performance results and technical comparisons.
 #### Load Testing
 
   - **(2024)** [==tsenart/vegeta 🌟==](https://github.com/tsenart/vegeta) <span class='md-tag md-tag--info'>⭐ 25040</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Vegeta is an exceptionally fast, command-line HTTP load-testing library written in Go. Ideal for asserting constant request rates and visualizing detailed performance latencies under heavy loads.
@@ -64,5 +57,5 @@
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Catchpoint’s strategic acquisition of the highly popular open-source tool WebPageTest. Highlights long-term development roadmaps and standardizations for internet performance tools.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [Devops](./devops.md) | [Sre](./sre.md)
+💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md) | [Devops](./devops.md)
 

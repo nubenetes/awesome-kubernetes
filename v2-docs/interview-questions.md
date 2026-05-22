@@ -34,9 +34,6 @@
 
   - **(2023)** [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight lists frequent questions for AWS systems architecture, core networking, and storage. Live Grounding shows that multi-tier application scaling remains a key indicator of cloud expertise. It covers standard architectural paradigms on AWS.
   - **(2023)** [Frequently Asked AWS Interview Questions](https://www.interviewbit.com/aws-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight compiles high-frequency AWS technical inquiries on IAM, EC2, and VPC configurations. Live Grounding confirms that security posture and network isolation are foundational for any cloud architect role. This guide ensures solid structural prep.
-#### Cloud Networking
-
-  - **(2021)** [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight examines VPC design, public and private subnet mapping, and routing infrastructure. Live Grounding confirms that secure network isolation is the first defense line in cloud security architectures. This prepares candidates for high-level network design.
 #### Data Platforms
 
   - **(2022)** [javarevisited.blogspot.com: Top 20 Apache Kafka Interview Questions with Answers](https://javarevisited.blogspot.com/2022/03/top-20-apache-kafka-interview-questions.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight details Apache Kafka broker architecture, topic partition offsets, and consumer group rebalancing. Live Grounding confirms that event-driven architectures rely heavily on Kafka's message durability and high throughput. This resource supports advanced system design.
@@ -117,5 +114,5 @@
   - **(2023)** [automationqahub.com: The Ultimate Git Cheat Sheet 🌟](https://automationqahub.com/mastering-git-your-ultimate-git-cheat-sheet-for-quick-reference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps out a cheat sheet for rapid Git command lookups, including cherry-picking and stashing. Live Grounding indicates that quick-access reference sheets are highly valued for reducing context switching. This is an efficient reference.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [Elearning](./elearning.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
 

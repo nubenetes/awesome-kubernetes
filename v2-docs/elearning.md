@@ -29,6 +29,11 @@
 #### Platforms (1)
 
   - **(2024)** [GCF LearnFree.org](https://www.learnfree.org/en) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental learning portal designed for absolute beginners to build basic digital literacy and standard productivity skills. Sits outside core cloud-native engineering pathways.
+### Infrastructure Automation
+
+#### Tutorials
+
+  - **(2025)** [learnitguide.net 🌟](https://www.learnitguide.net) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A systematic, text-based documentation portal offering modular training on enterprise Linux administration, automation, bash script configurations, and core networking blueprints.
 ### Interactive Learning
 
 #### Platforms (2)
@@ -40,9 +45,6 @@
 #### Linux Foundation
 
   - **(2026)** [==The Linux Foundation Training==](https://training.linuxfoundation.org/resources) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive technical source of cloud-native certifications (CKA, CKAD, CKS). It offers formal enterprise training pathways aligned directly with Cloud Native Computing Foundation (CNCF) blueprints.
-#### Networking
-
-  - **(2026)** [ine.com](https://ine.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced IT, cybersecurity, and cloud-networking training suite. Provides massive, production-grade lab simulations targeting Cisco, cloud infrastructure, and penetration testing paths.
 #### Opinion Pieces
 
   - **(2022)** [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry blog post analyzing certification pathways from a business-impact standpoint, explaining why credentials must be paired with hands-on systems architecture portfolios.
@@ -64,17 +66,12 @@
 #### Bootcamps
 
   - **(2024)** [open-bootcamp.com](http://open-bootcamp.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formerly a free, Spanish-language software developer bootcamp offering continuous programming learning. Grounding tracks show the platform has shifted focus and remains mostly inactive. [SPANISH CONTENT]
-#### Tutorials
+#### Tutorials (1)
 
   - **(2024)** [riptutorial.com 🌟](https://riptutorial.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An invaluable, community-driven aggregation of technical tutorials constructed by parsing Stack Overflow documentation. Offers exhaustive syntax and API code patterns.
   - **(2024)** [vogella.com](http://www.vogella.com/tutorials) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive source of systematic software development tutorials covering Java engineering, Eclipse integration, Git architecture, and Android paradigms. Highly valued for raw syntax and framework details.
 ## Platform Engineering
 
-### Cloud-Native
-
-#### Education (1)
-
-  - **(2026)** [**Techworld with Nana: Learn DevOps topics easily**](https://www.techworld-with-nana.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The premier high-density visual learning academy for modern DevOps engineering. Features highly structured training tracks on Docker, Kubernetes, CI/CD, GitOps, and cloud-native monitoring systems.
 ### Container Orchestration
 
 #### Kubernetes
@@ -83,12 +80,12 @@
 #### OpenShift
 
   - **(2021)** [tutorialspoint.com/openshift](https://www.tutorialspoint.com/openshift/index.htm) 🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A structured, introductory tutorial covering Red Hat OpenShift cluster components, deployment mechanisms, and basic developer workflows. Best as a baseline primer for legacy container modernization projects.
-### Infrastructure Automation
+### Infrastructure Automation (1)
 
 #### Real-world Labs
 
   - **(2025)** [**techiescamp/devops-projects:Real-World DevOps Projects For Learning**](https://github.com/techiescamp/devops-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated GitHub repository containing end-to-end real-world DevOps projects. Implements standard infrastructure-as-code deployments, multi-tier CI/CD pipelines, and structured orchestration designs.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [Interview Questions](./interview-questions.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)
 

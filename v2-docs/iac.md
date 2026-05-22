@@ -3,6 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Iac in the context of Hardened Infrastructure.
 
+## Cloud Architecture
+
+### AWS Governance
+
+#### AWS Organizations
+
+  - **(2023)** [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly clear exploration of AWS Organizations, dissecting organizational units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding shows it serves as a fundamental training material for cloud administrators establishing multi-account safety structures.
 ## Cloud Infrastructure
 
 ### Azure
@@ -16,21 +23,19 @@
 
 *   Guides cloud platform teams to construct GitOps-driven workflows.
 *   Automatically provisions fully governed, secure, and networked Azure subscriptions using Bicep or Terraform.
-## Platform Engineering (1)
+### Infrastructure as Code
 
-### AI Integration
+#### AI Generation
 
-#### Agentic Engineering
+  - **(2025)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AI-driven generation of HCL infrastructure files. Covers schema checking, validating security guardrails in prompt pipelines, and continuous integration workflows for automated infrastructure verification.
+## Cloud-Native Infrastructure
 
-  - **(2025)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 1881</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An experimental, open-source repository establishing unified Model Context Protocol (MCP) skills or AI tools for Terraform and OpenTofu. Empowers AI agents to dynamically generate, parse, validate, and execute infrastructure-as-code definitions with semantic awareness.
-### CI-CD Pipelines
+### Infrastructure as Code (1)
 
-#### Infrastructure as Code
+#### AI-Assisted Operations
 
-##### GitHub Actions
-
-  - **(2022)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 221</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized GitHub Action designed to automate the release process, version tagging, and registry publication of Terraform modules. Resolves development overhead by automatically generating release logs and enforcing Semantic Versioning.
+  - **(2025)** [**Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure**](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Analyzes the application of LLM co-pilots in rapidly writing secure ARM and Bicep configurations. Live Grounding: Demonstrates how contextual AI generators drastically lower human-error risk in pipeline IaC templates. Highly representative of modern 2025/2026 operational shifts.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Crossplane](./crossplane.md) | [Pulumi](./pulumi.md)
 

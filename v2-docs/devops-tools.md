@@ -46,11 +46,11 @@
   - **(2021)** [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive market snapshot from 2021 enumerating critical DevOps technologies. While highly localized to historical toolchains, it provides a comparative baseline of industry migration patterns from monolithic pipelines to modern orchestrators.
 ## Developer Experience
 
-### AI Assisted Engineering
+### Database Tooling
 
-#### Multi-Repository Architectures
+#### SQL Utilities
 
-  - **(2024)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates methods for utilizing structured developer workspaces to safely implement, coordinate, and review automated AI-driven modifications across sprawling multi-repository codebases. Offers patterns for multi-repo orchestrations and version control management.
+  - **(2025)** [**SQL Studio: A Unified SQL Database Explorer**](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3539</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
 ## Developer Reference
 
 ### Industry Reports
@@ -91,6 +91,11 @@
   - **(2022)** [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) <span class='md-tag md-tag--info'>⭐ 208</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source desktop client designed for administrative and monitoring interactions within Kubernetes clusters. Employs graphical representations of active resources to lower cognitive load during deep-dive debugging of deployments, services, and namespace configurations.
 ## Platform Engineering (1)
 
+### AI Integration
+
+#### Agentic Engineering
+
+  - **(2025)** [**Azure DevOps MCP Server**](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1718</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
 ### CI-CD Pipelines
 
 #### Debugging
@@ -100,13 +105,6 @@
   - **(2025)** [==action-tmate: Debug GitHub Actions via SSH==](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3544</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive tool for debugging failing GitHub Actions runner environments. This action opens an interactive, secure shell (SSH or Web TUI) terminal session on the live GHA runner, allowing developers to execute shell commands, inspect filesystems, and debug failures instantly.
 ## Software Engineering
 
-### Developer Experience (1)
-
-#### AI Assisted Coding
-
-##### GitHub Copilot
-
-  - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
 ### Product Culture
 
 #### Philosophical Frameworks
@@ -114,5 +112,5 @@
   - **(2020)** [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commentary exploring the dynamic intersection between DevOps organizational practices, corporate cultures, and how continuous toolchain feedback loops dictate infrastructure modernization.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

@@ -80,13 +80,6 @@
 *   Details how network privilege escalation can occur via underlying CNI vulnerabilities.
 *   Highlights critical hardening practices for the network layer.
   - **(2020)** [thenewstack.io: Defend the Core: Kubernetes Security at Every Layer](https://thenewstack.io/defend-the-core-kubernetes-security-at-every-layer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walkthrough of security layers within a standard Kubernetes deployment stack. It illustrates mapping defensive configurations from container code and pipelines down through the API server and network infrastructure.
-## Cloud Native Security
-
-### Supply Chain Security
-
-#### Security Tooling
-
-  - **(2021)** [**cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟**](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A strategic overview of outstanding open-source Kubernetes protection mechanisms. Summarizes and contrasts the deployment use-cases for prominent systems focused on static verification, policy governance, and kernel monitoring.
 ## Microservices
 
 ### Application Lifecycle
@@ -94,18 +87,6 @@
 #### Kubernetes Deployment
 
   - **(2022)** [**itnext.io: Journey Of A Microservice Application In The Kubernetes World 🌟**](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Follows a microservice application from development to full-scale production deployment on Kubernetes, focusing on ingress, security, and scaling. Curator insight breaks down architectural steps, including secure service routing and config separation. Live grounding verifies that understanding the holistic life cycle helps teams avoid standard reliability bottlenecks and secure their continuous delivery setups.
-## Platform Security
-
-### Compliance and Auditing
-
-#### Security Frameworks
-
-  - **(2022)** [**armosec.io: Kubernetes Security Compliance Frameworks 🌟**](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a thorough breakdown of standard security compliance frameworks applicable to Kubernetes environments, including CIS Benchmarks, NSA-CISA hardening guides, and MITRE ATT&CK. Details key validation metrics and remediation methods required to audit clusters against these controls.
-### Kubernetes Fundamentals
-
-#### Security Concepts
-
-  - **(2026)** [==kubernetes.io: Overview of Cloud Native Security==](https://kubernetes.io/docs/concepts/security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative framework defining Kubernetes security architecture across the 'FourCs' Model: Cloud, Cluster, Container, and Code. Serves as the foundational blueprint for understanding attack vectors, defense-in-depth methodologies, and default-deny paradigms in orchestrating container workloads safely.
 ## Security (2)
 
 ### Access Control
@@ -158,13 +139,23 @@
 #### TLS Automation
 
   - **(2026)** [==cert-manager.io 🌟==](https://cert-manager.io/docs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical documentation page for cert-manager, the industry-standard PKI and TLS certificate operator for automating certificates generation and renewal.
-  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13830</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager project, automating dynamic certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
   - **(2022)** [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses upgrading cert-manager inside highly available environments without causing downtime, explaining migration mappings of CRDs and webhook components.
   - **(2021)** [rejupillai.com: Let’s Encrypt the Web (for free)](https://rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches administrators how to configure automated TLS on Google Kubernetes Engine (GKE) endpoints using GKE Ingress controllers and free Let's Encrypt certificates.
 ### Cluster Hardening
 
 #### Best Practices
 
+
+??? abstract "Architect's Technical Comparison Table"
+    | Solution | Maturity | Primary Focus | Language | Stars |
+    | :--- | :--- | :--- | :--- | :--- |
+    | [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) |  | Best Practices | en | 🌟🌟🌟🌟🌟 |
+    | [Kubernetes Security 101: Risks and 29 Best Practices 🌟](https://www.redhat.com/en/topics/containers/kubernetes-security) |  | Best Practices | en | 🌟🌟🌟🌟🌟 |
+    | [armosec.io: Kubernetes Security Best Practices: Definitive Guide](https://www.armosec.io/blog/kubernetes-security-best-practices) |  | Best Practices | en | 🌟🌟🌟🌟 |
+    | [thenewstack.io: 6 Kubernetes Security Best Practices 🌟](https://thenewstack.io/6-kubernetes-security-best-practices) |  | Best Practices | en | 🌟🌟🌟 |
+    | [spectrocloud.com: Kubernetes security best practices: 5 easy ways to cut risk](https://www.spectrocloud.com/blog/kubernetes-security-best-practices-5-easy-ways-to-cut-risk) |  | Best Practices | en | 🌟🌟🌟 |
+
+  - **(2026)** [==Amazon EKS Best Practices Guide for Security 🌟==](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: The definitive handbook for securing AWS EKS environments, curated by AWS security engineers. Live Grounding: Serves as the primary operational baseline for hardening network, IAM, data, and compute resources in AWS.
   - **(2024)** [==Kubernetes Security 101: Risks and 29 Best Practices 🌟==](https://www.redhat.com/en/topics/containers/kubernetes-security) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Fundamental 101 guide compiling standard security paradigms and vectors. Live Grounding: Maintained by Red Hat; compiles 29 production-validated rules including image scanning, API isolation, and run-time container metrics.
   - **(2024)** [**armosec.io: Kubernetes Security Best Practices: Definitive Guide**](https://www.armosec.io/blog/kubernetes-security-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive security handbook focused on practical remediation. Live Grounding: Authored by Armo (developers of Kubescape); highly detailed on network security, host configuration, and scanning orchestration.
   - **(2023)** [thenewstack.io: 6 Kubernetes Security Best Practices 🌟](https://thenewstack.io/6-kubernetes-security-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Conceptual breakdown of the six pillars of native Kubernetes security. Live Grounding: Distills complicated architectures into six action items (e.g., container isolation, CIS benchmarks) for fast-growing engineering teams.
@@ -204,7 +195,7 @@
 #### Threat Modeling
 
   - **(2024)** [==owasp.org: OWASP Kubernetes Top Ten==](https://owasp.org/www-project-kubernetes-top-ten) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OWASP Kubernetes Top 10 project cataloging critical security issues. Helps engineering teams understand threat models ranging from insecure pod configurations to compromised secrets storage.
-### Compliance and Auditing (1)
+### Compliance and Auditing
 
 #### Audit Methodology
 
@@ -400,7 +391,6 @@
   - **(2023)** [**youtube: Manage Kubernetes Secrets With External Secrets Operator (ESO) 🌟**](https://www.youtube.com/watch?v=SyRZe5YVCVk) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A video walk-through of the External Secrets Operator (ESO). Explains how to orchestrate automated synchronization between external secrets engines and native Kubernetes workflows.
 #### Cloud Integrations (1)
 
-  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates four approaches to integrate Azure Key Vault secrets within AKS environments. Weighs security architectures including Azure Workload Identity and the Secrets Store CSI driver.
   - **(2022)** [itnext.io: Effective Secrets with Vault and Kubernetes](https://itnext.io/effective-secrets-with-vault-and-kubernetes-9af5f5c04d06) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains HashiCorp Vault integration inside Kubernetes environments. Illustrates the Vault Agent Sidecar Injector mechanism, allowing target workloads to resolve credentials directly.
   - **(2021)** [itnext.io: Vault cluster with auto unseal on Kubernetes](https://itnext.io/vault-cluster-with-auto-unseal-on-kubernetes-8e469f9cdcfd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the configurations needed to bootstrap highly available HashiCorp Vault systems using dynamic KMS systems (AWS or GCP) to automate unsealing tasks.
 #### Compliance Auditing (1)
@@ -508,5 +498,5 @@
   - **(2021)** [**snyk.io: 10 Kubernetes Security Context settings you should understand**](https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understand) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive guide on utilizing the Kubernetes `securityContext` API to enforce Pod and container-level boundaries. Curator insight details foundational settings like `runAsNonRoot`, `readOnlyRootFilesystem`, and `allowPrivilegeEscalation`. Live grounding confirms these configurations remain the primary defense-in-depth mechanisms for preventing container breakouts in 2026 production environments.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [Iac](./iac.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Crossplane](./crossplane.md) | [Pulumi](./pulumi.md)
 

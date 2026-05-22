@@ -53,11 +53,6 @@
   - **(2021)** [acloudguru.com: What is lift and shift cloud migration?](https://www.pluralsight.com/resources/blog/business-and-leadership/what-is-lift-and-shift-cloud-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational architectural guide exploring the mechanics, trade-offs, and risk profiles associated with the 'lift-and-shift' (rehosting) cloud migration strategy. It contrasts direct VM migration with cloud-native re-architecting, detailing scenarios where rehosting provides immediate financial or timeline relief. The synthesis warns of the potential long-term operational overhead without subsequent modernization.
 ## Enterprise Strategy
 
-### Container Adoption
-
-#### Best Practices
-
-  - **(2023)** [**contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟**](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Provides high-level strategic guidance for enterprise leaders looking to build sustainable containerization and orchestration architectures. Live Grounding: Covers people, process, and security paradigms, helping organizations align technological adoption with reliable cloud-native governance structures.
 ### Talent Acquisition
 
 #### Skills Matrix
@@ -79,5 +74,5 @@
   - **(2020)** [**developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟**](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highlights the distinction between applications run on cloud infrastructure and systems designed specifically to leverage native Kubernetes operators and structures. Live Grounding: Analyzes how API extensions, CRDs, and native configuration constructs improve resilience, efficiency, and resource utilization.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

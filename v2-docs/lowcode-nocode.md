@@ -18,5 +18,5 @@
   - **(2020)** [acloudguru.com: AWS adds to the no-code pile: Is it the end of the engineer?](https://www.pluralsight.com/resources/blog/cloud/aws-adds-to-the-no-code-pile-is-it-the-end-of-the-engineer) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the release of AWS Honeycode and dissects whether the rise of visual application editors signals the replacement of traditional software engineers. Emphasizes why deep infrastructure skills remain indispensable.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [Javascript](./javascript.md) | [Python](./python.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Golang](./golang.md)
 

@@ -3,14 +3,17 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Security in the context of Cloud Providers (Hyperscalers).
 
-## Security
+## Platform Engineering
 
-### Linux Hardening
+### CI-CD Security
 
-#### Best Practices
+#### Azure DevOps
 
-  - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27424</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive, highly popular guide for securing production Linux environments. Covers SSH hardening, firewalls, user permission boundaries, 2FA, kernel optimization, audit logs, and automated vulnerability scanning.
+  - **(2023)** [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
+#### Cloud Identity
+
+  - **(2023)** [==Avoiding Mistakes with AWS OIDC Integration Conditions==](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An in-depth security analysis detailing how to configure AWS OpenID Connect (OIDC) trust relationships correctly in GitHub Actions and other CI providers. Highlights major vulnerabilities arising from missing subject (sub) or audience (aud) validation and shows how to restrict access patterns safely.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Aws Architecture](./aws-architecture.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

@@ -43,6 +43,11 @@
   - **(2024)** [==argoproj-labs/argocd-vault-plugin==](https://github.com/argoproj-labs/argocd-vault-plugin) <span class='md-tag md-tag--info'>⭐ 965</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An indispensable Argo CD plugin built to inject secrets dynamically from HashiCorp Vault, AWS Secrets Manager, or GCP Secret Manager. Live Grounding: Replaces custom templating hacks by decrypting and injecting secret values directly into workloads at synchronization time, ensuring zero plaintext secrets enter the Git repository.
   - **(2022)** [dev.to: Argo CD and Sealed Secrets is a perfect match](https://dev.to/timtsoitt/argo-cd-and-sealed-secrets-is-a-perfect-match-1dbf) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the integration of Bitnami Sealed Secrets with Argo CD for safe GitOps secret workflows. Live Grounding: Demonstrates how public cryptography allows storing encrypted secrets safely in Git, which are decrypted only within the target Kubernetes cluster by the Sealed Secrets controller.
   - **(2021)** [github.com/crumbhole/argocd-vault-replacer](https://github.com/crumbhole/argocd-vault-replacer) <span class='md-tag md-tag--info'>⭐ 109</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: A specialized replacement utility designed to pull secrets from HashiCorp Vault during the Argo CD rendering phase. Live Grounding: Acts as a lightweight precursor/alternative to full plugin integrations, enabling targeted placeholder substitutions within native Kubernetes manifest streams.
+### Infrastructure as Code (1)
+
+#### Terraform Components
+
+  - **(2024)** [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Enterprise-ready Terraform submodule designed to deploy, configure, and bootstrap Argo CD onto an existing AWS EKS cluster. Live Grounding: Standardizes complex security configuration flags, integrates smoothly with AWS IAM roles for service accounts (IRSA), and provisions preconfigured Helm-based releases.
 ### Progressive Delivery
 
 #### Argo Rollouts
@@ -138,14 +143,21 @@
 #### Argo Ecosystem
 
   - **(2026)** [==argoproj.github.io: Argo Events - The Event-driven Workflow Automation Framework==](https://argoproj.github.io/argo-events) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Argo Events is an enterprise-grade, event-driven workflow automation framework. It triggers scalable Kubernetes actions from diverse external inputs (webhooks, storage, message queues), serving as a crucial modern CI/CD cornerstone.
+## GitOps and Continuous Delivery
+
+### GitOps (2)
+
+#### Argo CD (1)
+
+  - **(2025)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 22950</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub pull request introducing ApplicationSet rendering directly inside the Argo CD UI Resource Tree. This highly demanded improvement provides cluster administrators with superior visibility into generated application topologies and dependencies directly from the dashboard.
 ## Platform Engineering (1)
 
 ### Internal Developer Platforms
 
-#### Argo CD (1)
+#### Argo CD (2)
 
   - **(2023)** [**itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels**](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Proposes an innovative model for constructing a lightweight IDP by utilizing simple Kubernetes label configurations mapped to Argo CD ApplicationSets. Live Grounding: Demonstrates how platform teams can abstract direct Kubernetes complexity for application developers, promoting self-service deployment without security compromises.
 
 ---
-💡 **Explore Related:** [Cicd](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Jenkins](./jenkins.md)
 

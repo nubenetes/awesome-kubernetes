@@ -3,14 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Googlecloudplatform in the context of Cloud Providers (Hyperscalers).
 
-## AI and Intelligent Tooling
+## Public Cloud Providers
 
-### Agentic Systems
+### Google Kubernetes Engine GKE
 
-#### CLI Tools
+#### Cluster Management
 
-  - **(2024)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2528</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
+  - **(2026)** [==Google Kubernetes Engine==](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical documentation page for GKE (Google Kubernetes Engine). Details foundational and advanced options, covering Autopilot architecture, GKE Datapath V2 routing, and multi-cluster orchestrations.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Aws Architecture](./aws-architecture.md) | [Aws](./aws.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

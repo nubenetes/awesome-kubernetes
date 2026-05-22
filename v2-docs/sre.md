@@ -15,11 +15,6 @@
   - **(2021)** [**phoenixnap.com: SRE Vs. DevOps: Differences Explained 🌟**](https://phoenixnap.com/blog/sre-vs-devops) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An educational guide that outlines the operational boundaries and target objectives distinguishing SRE from DevOps. It features detailed structural comparisons highlighting specific KPI alignments, on-call expectations, and error budget implementation procedures.
   - **(2022)** [dev.to: DevOps vs SRE: What's The Difference?](https://dev.to/thenjdevopsguy/devops-vs-sre-what-s-the-difference-560d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory analysis exploring how DevOps and SRE differ conceptually and operationally. It illustrates how SRE provides the programmatic solutions and infrastructure instrumentation needed to realize the broader cultural transformations promised by DevOps methodologies.
   - **(2021)** [youtube: Viktor Farcic - What is the difference between SRE and DevOps?](https://www.youtube.com/watch?v=jgW4r9FxItI&ab_channel=DevOpsToolkitbyViktorFarcic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical video comparing SRE and DevOps methodologies. The presentation details structural overlaps, detailing SRE as a concrete class implementing the abstract interface of DevOps, emphasizing automated tooling, error budget tracking, and shared organizational objectives.
-### Observability and Monitoring
-
-#### Foundations
-
-  - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard chapter from Google's SRE book detailing the implementation of distributed systems monitoring. It defines the 'Four Golden Signals'—latency, traffic, errors, and saturation—providing practical blueprints to prevent alert fatigue and build actionable dashboard designs.
 ### Organization Design
 
 #### Operational Models
@@ -38,7 +33,7 @@
 #### Community Events
 
   - **(2024)** [SLOconf](https://www.sloconf.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official landing page for SLOconf, a premier community event dedicated to Service Level Objectives. The forum hosts deep technical tracks, production post-mortems, and deployment case studies, making it an essential hub for engineers refining reliability standards.
-#### Foundations (1)
+#### Foundations
 
   - **(2020)** [==sre.google: The Art of SLOs==](https://sre.google/resources/practices-and-processes/art-of-slos) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential training handbook from Google covering the foundational concepts of setting, calculating, and maintaining Service Level Objectives. It provides practical exercises to identify critical user pathways and align internal metrics with real-world customer expectations.
 #### GitOps Implementation
@@ -88,17 +83,12 @@
   - **(2020)** [infoq.com: Observing and Understanding Failures: SRE Apprentices](https://www.infoq.com/presentations/sre-apprentices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This session addresses the cognitive models of system failure, specifically targeting how apprentices and junior SREs can safely learn to analyze complex failures. It advocates for structured code-level tracing, game days, and interactive debugging to accelerate reliable operational troubleshooting.
 ## Platform Engineering (1)
 
-### Architectural Patterns
-
-#### Internal Developer Platforms
-
-  - **(2023)** [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece explaining Platform Democracy as an operational framework. Discusses user-centric workflows when designing internal developer platform structures (IDPs).
 ### Site Reliability Engineering (1)
 
 #### Case Studies (1)
 
   - **(2023)** [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise case study detailing how Red Hat transitioned its OpenShift Dedicated operations team to a modern SRE model, showing concrete scaling metrics.
-#### Foundations (2)
+#### Foundations (1)
 
   - **(2026)** [==sre.google: What is Site Reliability Engineering (SRE)? 🌟==](https://sre.google) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main portal hosting Google's legendary Site Reliability Engineering, Site Reliability Workbook, and Building Secure and Reliable Systems textbooks. Mandatory standard reference.
   - **(2025)** [==cloud.google.com: SRE at Google: Our complete list of CRE life lessons 🌟==](https://cloud.google.com/blog/products/devops-sre/sre-at-google-our-complete-list-of-cre-life-lessons) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential collection of enterprise insights gathered by Google Customer Reliability Engineers (CRE). Translates massive Google-scale SRE rules into practical roadmaps for external architectures.
@@ -117,5 +107,5 @@
   - **(2021)** [circonus.com: Monitoring for Success: What All SREs Need to Know](https://www.circonus.com/2021/04/monitoring-for-success-what-all-sres-need-to-know) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical evaluation of telemetry and metric requirements for SRE. Discusses the selection of appropriate service objectives and data collection frequencies.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [Devops](./devops.md) | [Scaffolding](./scaffolding.md)
+💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md) | [Devops](./devops.md)
 

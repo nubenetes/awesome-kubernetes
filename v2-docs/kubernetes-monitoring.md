@@ -34,6 +34,7 @@
 #### Command Line Tools (1)
 
   - **(2021)** [kubelog.de](https://kubelog.de) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized logging utility designed to simplify container log fetching. Grounding reveals it as a community-driven project that acts as an easy alternative to standard kubectl logs with colorized output.
+  - **(2021)** [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive Terminal User Interface (TUI) written in Go for streaming and searching Kubernetes container logs. Grounding suggests that development has stalled (inactive for over 4 years), so while technically functional for local dev, tools like Stern or K9s are preferred in enterprise environments.
 #### Concepts
 
   - **(2022)** [==devopscube.com: Kubernetes Logging Tutorial For Beginners 🌟==](https://devopscube.com/kubernetes-logging-tutorial) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An elite, entry-level tutorial introducing Kubernetes logging paradigms, covering container stdout extraction, cluster-level log architectures, and daemonset collection. Curators praise its lucid diagrams and step-by-step practical commands.
@@ -173,5 +174,5 @@
   - **(2022)** [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted troubleshooting guide focused on analyzing the Kube-APIServer audit log payload. Explains how to parse JSON audit trails to track exact identity, timestamp, and API verbs executing namespace lifecycle events.
 
 ---
-💡 **Explore Related:** [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubectl Commands](./kubectl-commands.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 

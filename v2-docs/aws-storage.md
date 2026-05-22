@@ -63,5 +63,5 @@
 *   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Aws Architecture](./aws-architecture.md)
+💡 **Explore Related:** [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

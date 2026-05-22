@@ -26,13 +26,6 @@
 ##### Operations
 
   - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
-## GitOps and Continuous Delivery
-
-### Progressive Delivery
-
-#### GitOps
-
-  - **(2021)** [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://ambking1234.biz/?action=register&marketingRef=6788b227da9499f55f6ea745) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archival reference describing historical patterns of Weaveworks GitOps implementations across multi-cloud topologies. NOTE: The original URL has redirected due to business domain changes; preserved for architectural lineage.
 ## Networking
 
 ### Service Mesh (2)
@@ -42,11 +35,6 @@
 ##### Implementation
 
   - **(2023)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An implementation guide mapping out the lifecycle steps required to deploy, secure, and operate an Istio service mesh in enterprise environments. It provides structured insights on handling namespace injection, ambient mesh considerations, and mutual TLS enforcement.
-### Web Servers
-
-#### Nginx
-
-  - **(2026)** [==Nginx==](https://www.f5.com/products/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nginx is the premier high-performance web server, reverse proxy, and ingress standard globally. Its lightweight event-driven design allows it to process high-concurrency traffic patterns with extremely predictable memory and CPU footprints.
 ## Observability
 
 ### Telemetry Standards
@@ -56,5 +44,5 @@
   - **(2022)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative look at the historical data model incompatibilities between Prometheus and OpenTelemetry (OTel). It details the industry efforts to reconcile standard Prometheus structures with the broader OTel landscape.
 
 ---
-💡 **Explore Related:** [Istio](./istio.md) | [Networking](./networking.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Networking](./networking.md)
 

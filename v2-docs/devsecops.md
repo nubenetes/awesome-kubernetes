@@ -152,6 +152,7 @@
   - **(2021)** [opensource.com: Sign and verify container images with this open source tool (sigstore)](https://opensource.com/article/21/12/sigstore-container-images) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how developers can use Sigstore's Cosign integration to guarantee image authenticity. Highlights structural differences between classic PGP setups and the identity-driven ledger approach utilized by modern DevSecOps frameworks.
 #### Security Tooling (1)
 
+  - **(2021)** [**cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟**](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A strategic overview of outstanding open-source Kubernetes protection mechanisms. Summarizes and contrasts the deployment use-cases for prominent systems focused on static verification, policy governance, and kernel monitoring.
   - **(2020)** [techbeacon.com: 17 open-source container security tools 🌟](https://techbeacon.com/security/17-open-source-container-security-tools) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging seventeen critical open-source security technologies. Details structural features and comparison parameters across image scanners, policy-engine enforcement options, and runtime observation technologies.
   - **(2021)** [itnext.io: Top 6 Threat Detection Tools for Containers](https://itnext.io/top-6-threat-detection-tools-for-containers-3dd80b77777e) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares six container risk detection technologies. Contrasts passive image checking with complex system-call interception models (e.g., Falco), showing engineers how to balance performance overhead against real-time protection.
 ### Vulnerability Management
@@ -227,9 +228,6 @@
 #### Kubernetes Deployment
 
   - **(2021)** [containerjournal.com: Kubernetes Security in Your CI/CD Pipeline](https://cloudnativenow.com/features/kubernetes-security-in-your-ci-cd-pipeline) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines security best practices for embedding Kubernetes-focused vulnerability, manifest, and policy scanning within continuous deployment lifecycles. Discusses the transition from raw Docker registry checks to active policy enforcement during runtime transitions.
-#### Podman
-
-  - **(2021)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates strategies for building rootless, secure continuous integration pipelines using Red Hat's Podman. Contrasts Podman's daemonless security with Docker's privileged execution models to prevent pipeline takeover attacks.
 #### Vulnerability Analysis
 
   - **(2022)** [==research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines==](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical compilation of real-world penetration testing engagements exposing severe vulnerabilities in automated deployment systems. Analyzes attack vectors such as runner compromise, untrusted workflow executions, and secret exposure, offering concrete architectural remediation steps for securing pipeline configurations.
@@ -305,7 +303,6 @@
   - **(2021)** [thenewstack.io: Infrastructure-as-Code: 6 Best Practices for Securing Applications 🌟](https://thenewstack.io/infrastructure-as-code-6-best-practices-for-securing-applications) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents six foundational guidelines for securing IaC templates before cloud deployments. Contrast: Curator Insight limits its scope to simple template linters, while Live Grounding confirms that evaluating IaC using declarative Policy-as-Code engines (like OPA) is the standard method to block configuration drift. Essential reference.
 #### Static Analysis (1)
 
-  - **(2026)** [**KubeLinter**](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3450</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
   - **(2026)** [**github.com/yannh/kubeconform 🌟**](https://github.com/yannh/kubeconform) <span class='md-tag md-tag--info'>⭐ 3033</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly performant Kubernetes manifest validator written in Go, acting as a faster alternative to `kubeval`. Validates resource specifications against OpenAPI schemas, supporting custom resource definitions (CRDs) seamlessly in CI/CD environments.
   - **(2020)** [thenewstack.io: StackRox KubeLinter Brings Security Linting to Kubernetes](https://thenewstack.io/stackrox-kubelinter-brings-security-linting-to-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces StackRox's KubeLinter tool, exploring its core capabilities to audit deployment manifests and Helm templates before operational execution. Details standard rule definitions and highlights strategies for developer integration.
   - **(2020)** [thenewstack.io: Security Insights into Infrastructure-as-Code](https://thenewstack.io/security-insights-into-infrastructure-as-code) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details security challenges present in IaC files across Terraform, Ansible, and CloudFormation. Analyzes typical misconfiguration risks (such as public S3 buckets, open security groups) and demonstrates the value of automated programmatic verification.
@@ -435,6 +432,11 @@
   - **(2022)** [cisecurity.org: Where Does Zero Trust Begin and Why is it Important?](https://www.cisecurity.org/insights/blog/where-does-zero-trust-begin-and-why-is-it-important) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural primer outlining the foundational structures of the Zero-Trust security paradigm. Discusses the fundamental shift from perimeter security to identity-oriented verification, detailing the practical integration of context-driven policy engines and micro-segmentation.
 ## Infrastructure as Code
 
+### Configuration Management
+
+#### Templating
+
+  - **(2025)** [Kapitan: Generic templated configuration management for Kubernetes, Terraform and other things](https://kapitan.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful configuration generator for Kubernetes and cloud platforms. Includes native cryptographic secrets handling (supporting GPG, KMS, Vault), allowing multi-environment configurations to remain secure in Git.
 ### Terraform
 
 #### Secrets Management (3)
@@ -454,6 +456,11 @@
 #### Prisma Cloud
 
   - **(2026)** [==Twistlock==](https://www.paloaltonetworks.com/prisma/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Palo Alto's comprehensive Cloud Native Security Platform (formerly Twistlock), combining CSPM, CWPP, and CI/CD security validation. Integrates vulnerability intelligence, compliance audits, and advanced container firewalls within single centralized administration consoles.
+### Compliance and Auditing
+
+#### Security Frameworks
+
+  - **(2022)** [**armosec.io: Kubernetes Security Compliance Frameworks 🌟**](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a thorough breakdown of standard security compliance frameworks applicable to Kubernetes environments, including CIS Benchmarks, NSA-CISA hardening guides, and MITRE ATT&CK. Details key validation metrics and remediation methods required to audit clusters against these controls.
 ### Host Hardening
 
 #### SELinux
@@ -469,6 +476,11 @@
 #### Secrets Management (4)
 
   - **(2022)** [**kubewarden.io: Scanning secrets in environment variables**](https://www.kubewarden.io/blog/2022/10/env-var-secrets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Demonstrates how to use Kubewarden admission policies to dynamically intercept and prevent container deployments containing plaintext secrets or API keys exposed in environment variables. Provides concrete policy writing paradigms using WebAssembly (Wasm) and Rego.
+### Kubernetes Fundamentals
+
+#### Security Concepts (1)
+
+  - **(2026)** [==kubernetes.io: Overview of Cloud Native Security==](https://kubernetes.io/docs/concepts/security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative framework defining Kubernetes security architecture across the 'FourCs' Model: Cloud, Cluster, Container, and Code. Serves as the foundational blueprint for understanding attack vectors, defense-in-depth methodologies, and default-deny paradigms in orchestrating container workloads safely.
 ### Kubernetes Hardening
 
 #### Threat Landscape
@@ -536,6 +548,9 @@
 #### Cloud Security Posture
 
   - **(2016)** [==github.com/prowler-cloud/prowler 🌟🌟==](https://github.com/prowler-cloud/prowler) <span class='md-tag md-tag--info'>⭐ 13857</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Prowler is an industry-standard open-source tool for cloud security posture management (CSPM). Audits multi-cloud infrastructures against CIS benchmarks, GDPR, and PCI-DSS rules with detailed security logs.
+#### Host Hardening (1)
+
+  - **(2021)** [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed Linux auditing walkthrough using the Lynis tool to harden target environments. Provides granular shell instructions for reviewing user-space permissions, file integrity, and core system policies.
 ### Container Security (2)
 
 #### Base Image Optimization
@@ -594,9 +609,6 @@
 #### Pentesting
 
   - **(2020)** [forbes.com: DevOps Drives Pentesting Delivered As A Service](https://www.forbes.com/sites/chenxiwang/2020/06/17/devops-drives-pentesting-delivered-as-a-service) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — This Forbes article explores how continuous deployment velocities are driving the shift toward API-driven Pentesting-as-a-Service (PTaaS). It contrasts legacy annual audits with modern, on-demand security testing models natively embedded into developer pipelines.
-#### Product Analysis
-
-  - **(2022)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines updates to CloudBees' enterprise pipeline offerings, emphasizing the convergence of developer visibility and compliance control gates. Addresses challenges in executing secure enterprise DevOps workflows at scale.
 #### Secrets Detection
 
   - **(2022)** [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth corporate case study and operational guide detailing the systematic threats of credential leakage in public and private Git environments. It highlights risk mitigation frameworks, API scanner configurations, and team hygiene rules required to prevent credential sprawl.
@@ -840,5 +852,5 @@
   - **(2021)** [torq.io: 5 Security Automation Examples for Non-Developers](https://torq.io/blog/5-security-automation-examples-for-non-developers) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides five actionable automation playbooks for SecOps teams to streamline alert triage and response actions. Contrast: Curator Insight presents low-code solutions for non-developers, while Live Grounding shows that automating through structured JSON endpoints and centralized notification platforms is key to keeping MTTR minimal. Practical operational guide.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [Iac](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Pulumi](./pulumi.md) | [Kubernetes Security](./kubernetes-security.md)
 

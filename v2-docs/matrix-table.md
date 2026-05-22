@@ -3,13 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Matrix Table in the context of Architectural Foundations.
 
-## Networking
-
-### Ingress Controllers
-
-#### Comparison
-
-  - **(2024)** [==Learnk8s: Comparison of Kubernetes Ingress controllers 🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard comparison spreadsheet analyzing over a dozen Kubernetes Ingress controllers. Details performance, dynamic reloading capabilities, routing protocols, and native TLS/WAF integrations.
 ## Platform Engineering
 
 ### Infrastructure
@@ -20,5 +13,5 @@
   - **(2020)** [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural and cost-comparison analysis of managed Kubernetes engines from alternative cloud providers. Grounding highlights the comparative differences in control-plane SLAs, storage speeds, and node autoscaling support.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Git](./git.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Linux](./linux.md)
 

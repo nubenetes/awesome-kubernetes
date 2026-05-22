@@ -125,14 +125,6 @@
 #### Event Sourcing
 
   - **(2021)** [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Argues the case for event sourcing as a primary mechanism to store state in distributed microservice topologies. It highlights capabilities such as complete audit trails, high-performance writes, and historical state reconstruction. The post warns of common pitfalls including schema evolution complexity and read projection overhead.
-#### Event-Driven Design
-
-  - **(2016)** [**infoq.com: Turning Microservices Inside-Out**](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This foundational architectural piece by Martin Kleppmann argues for treating database tables as streams of changes rather than static silos. By turning the database "inside out" using event streams (like Kafka), microservices can achieve decentralized state management and projection consistency. It bridges the gap between stream processing and relational storage.
-### Orchestration (1)
-
-#### Kubernetes Pod Lifecycle
-
-  - **(2021)** [**K8s prevent queue worker Pod from being killed during deployment**](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides concrete technical implementation strategies to prevent abrupt termination of active queue worker Pods during rolling Kubernetes updates. It details the effective utilization of `preStop` hooks and graceful shutdown signals within Pod specifications. It ensures zero-loss processing of long-running asynchronous messages.
 ## Cloud Native Infrastructure
 
 ### High Availability
@@ -356,7 +348,7 @@
   - **(2020)** [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates design principles for high-throughput, low-latency cloud-native big data architectures. The guide details how to integrate ingestion layers with stream processing engines and distributed analytical databases. It presents structured architectural templates for unified analytical and machine learning workloads.
 ### Data on Kubernetes
 
-#### Orchestration (2)
+#### Orchestration (1)
 
   - **(2021)** [thenewstack.io: The Path to Getting the Full Data Stack on Kubernetes](https://thenewstack.io/the-path-to-getting-the-full-data-stack-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the evolutionary path of running complex, stateful database and data streaming systems natively on Kubernetes. It addresses the maturity of operators, storage classes, and orchestrators that facilitate the deployment of the complete data pipeline. The article details challenges regarding resource management and high availability.
 ### Real-Time Data Streaming (2)
@@ -760,5 +752,5 @@
   - **(2021)** [**infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture**](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An InfoQ guide detailing how to use Domain-Driven Design (DDD) to isolate domain boundaries and discover 'seams' within large-scale monoliths. Grounding confirms its position as a primary methodology for refactoring to decoupled, event-driven pipelines.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Nosql](./nosql.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Newsql](./newsql.md)
 

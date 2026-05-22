@@ -17,8 +17,6 @@ Live Grounding: Explains basic architecture of Spark RDDs, DataFrames, and struc
 Live Grounding: Outlines historical transition metrics from static clusters to unified container environments, citing resource efficiency and deployment agility as top motivators.
 #### Spark on Kubernetes
 
-  - **(2021)** [datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available](https://www.datamechanics.co)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Platform news highlighting Apache Spark 3.1 generally available support for native Kubernetes.
-Live Grounding: Covers the native scheduling capabilities, decommissioning behaviors, and executor tracking improvements that made Kubernetes a first-class citizen for Spark.
   - **(2020)** [itnext.io: Migrating Apache Spark workloads from AWS EMR to Kubernetes](https://itnext.io/migrating-apache-spark-workloads-from-aws-emr-to-kubernetes-463742b49fda) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Technical breakdown of migrating Apache Spark analytics engines from AWS EMR to Kubernetes clusters.
 Live Grounding: Deep-dives into memory allocation, dynamic resource allocation, storage mounting, and cost optimizations compared to traditional VM-based EMR setups.
 ## Data Platforms
@@ -46,5 +44,5 @@ Live Grounding: Deep-dives into memory allocation, dynamic resource allocation, 
 Live Grounding: Demystifies user routing, security context constraints, and performance tuning when running containerized Spark clusters on enterprise Red Hat foundations.
 
 ---
-💡 **Explore Related:** [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubectl Commands](./kubectl-commands.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 

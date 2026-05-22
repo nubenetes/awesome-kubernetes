@@ -109,5 +109,5 @@
   - **(2015)** [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An influential early review of Amazon Aurora documenting how its decoupling of compute and storage engines significantly outperformed traditional MySQL instances. Grounding shows that while old, it provides the fundamental history of cloud-native storage architecture.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Aws](./aws.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Tools Scripts](./aws-tools-scripts.md) | [Aws Databases](./aws-databases.md)
 

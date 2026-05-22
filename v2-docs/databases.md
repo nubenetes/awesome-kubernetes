@@ -3,14 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Databases in the context of Data & Advanced Analytics.
 
-## Developer Experience
+## Cluster Management
 
-### Database Tooling
+### Infrastructure Provisioning
 
-#### SQL Utilities
+#### Kubernetes Operators
 
-  - **(2025)** [**SQL Studio: A Unified SQL Database Explorer**](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3539</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
+  - **(2023)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative analysis of Kubernetes Operators for cloud infrastructure provisioning (such as Crossplane, AWS ACK, Google KCC, and Azure ASO). Critiques the shift from Terraform toward declarative reconciliation loops.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Nosql](./nosql.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
 

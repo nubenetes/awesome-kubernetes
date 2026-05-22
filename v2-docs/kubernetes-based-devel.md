@@ -59,9 +59,6 @@
 
 ### API Mocking and Testing
 
-#### Microservices
-
-  - **(2026)** [**microcks.io 🌟**](https://microcks.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and testing API specifications (REST, gRPC, GraphQL, and event-driven architectures). It allows microservices teams to mock dependencies and run contract tests rapidly during continuous integration.
 #### Podman Integration
 
   - **(2023)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide showing how to configure Microcks mocking environments using Podman Compose instead of Docker. Offers a reliable setup path for developers running security-hardened container environments.
@@ -93,9 +90,6 @@
 #### Docker-in-Docker
 
   - **(2026)** [==**kind**==](https://github.com/kubernetes-sigs/kind) <span class='md-tag md-tag--info'>⭐ 15254</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — kind (Kubernetes in Docker) is an open-source tool for running local Kubernetes clusters using Docker containers as nodes. Highly favored for CI/CD environments and rapid inner-loop developer workflows because of its quick startup times and minimal host footprint.
-#### Guides and Workflows
-
-  - **(2021)** [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
 #### Legacy Installers (1)
 
   - **(2019)** [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An older Vagrant-based helper for building and running multi-node Kubernetes clusters. Kept for historical reference on VM-based local orchestration workflows before containerized tools like kind became popular.
@@ -211,5 +205,5 @@
   - **(2021)** [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Crucial security review warning how misconfigured visual cluster admin panels can act as Remote Access Tools (RATs) for malicious actors to execute arbitrary code.
 
 ---
-💡 **Explore Related:** [Kubectl Commands](./kubectl-commands.md) | [Serverless](./serverless.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Openshift](./openshift.md)
 

@@ -5,28 +5,12 @@
 
 ## Agentic Engineering
 
-### AI Assistants
-
-#### Claude Code
-
-  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
-Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
-### Kubernetes AI Operators
-
-#### Observability Agents
-
-  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
-Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
 ### Model Context Protocol
 
 #### Architecture
 
   - **(2024)** [anthropic.com: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: The official announcement introducing Anthropic's Model Context Protocol (MCP).
 Live Grounding: Outlines an open, universal standard connecting AI agents to real-world data sources, replacing fragmented integrations with a standardized client-server model.
-#### Curation
-
-  - **(2024)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87348</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
-Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 #### Directory
 
   - **(2024)** [MCPBundles](https://www.mcpbundles.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Visual directory cataloging compatible Model Context Protocol bundles.

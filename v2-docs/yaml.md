@@ -66,6 +66,13 @@
 #### JSON Operations
 
   - **(2021)** [thenewstack.io: Why (and How) You Should Manage JSON with SQL](https://thenewstack.io/why-and-how-you-should-manage-json-with-sql) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to query and manipulate semi-structured JSON payloads natively in relational databases using modern SQL. Offers a roadmap for blending NoSQL flexibility with transactional relational databases.
+## DevSecOps
+
+### Infrastructure as Code Security
+
+#### Static Analysis
+
+  - **(2026)** [**KubeLinter**](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3450</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
 ## Infrastructure as Code
 
 ### Ansible
@@ -73,11 +80,6 @@
 #### Data Parsing
 
   - **(2021)** [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Presents five robust approaches to parse, filter, and modify raw JSON parameters inside automated Ansible configurations. Focuses on using native filters and Jinja2 structures to orchestrate complex environment definitions.
-### Configuration Management
-
-#### Templating
-
-  - **(2025)** [Kapitan: Generic templated configuration management for Kubernetes, Terraform and other things](https://kapitan.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful configuration generator for Kubernetes and cloud platforms. Includes native cryptographic secrets handling (supporting GPG, KMS, Vault), allowing multi-environment configurations to remain secure in Git.
 ## Orchestration
 
 ### Kubernetes
@@ -209,5 +211,5 @@
   - **(2022)** [automationreinvented.blogspot.com: What is Json Schema and how to perform schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed test automation walkthrough explaining JSON Schema validation with Rest Assured. Guides developers in implementing reliable regression pipelines to maintain robust system integrations.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Nosql](./nosql.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
 

@@ -5,6 +5,11 @@
 
 ## AI and Intelligent Tooling
 
+### Agentic Systems
+
+#### CLI Tools
+
+  - **(2024)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2528</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
 ### Computer Vision
 
 #### Generative Models
@@ -15,6 +20,26 @@
 #### JupyterLab
 
   - **(2023)** [**github.com/jupyterlab/jupyter-ai**](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4237</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official JupyterLab extension integrating generative AI directly into interactive notebooks. It supports conversational coding, code generation, and error explanation across multiple model providers. Live grounding validates its widespread adoption within modern ML engineering and data science teams.
+## Agentic Engineering
+
+### AI Assistants
+
+#### Claude Code
+
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
+Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+### Kubernetes AI Operators
+
+#### Observability Agents
+
+  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
+Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
+### Model Context Protocol
+
+#### Curation
+
+  - **(2024)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87348</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
+Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## Artificial Intelligence
 
 ### Business Strategy
@@ -34,7 +59,7 @@
   - **(2023)** [**youtube: AWS re:Invent 2023 - From hype to impact: Building a generative AI architecture (ARC217)**](https://www.youtube.com/watch?v=1Lat8dP7Eq0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight covers an AWS re:Invent session demonstrating how to design and build enterprise-grade Generative AI topologies on AWS. Live Grounding verifies its importance for understanding serverless integration via Amazon Bedrock, Vector databases, and security constraints.
 ### Computer Vision (1)
 
-#### Curation
+#### Curation (1)
 
   - **(2023)** [github.com/SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers) <span class='md-tag md-tag--info'>⭐ 647</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured hub tracking top-performing research work from CVPR 2023. Synthesizes key advancements in object detection, visual language models, and zero-shot segmentation libraries.
 #### Visual Learning Tools
@@ -84,7 +109,7 @@
 #### Best Practices
 
   - **(2024)** [valohai.com/blog/llmops/](https://valohai.com/blog/llmops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-focused editorial exploring the core pillars of Large Language Model Operations (LLMOps). Discusses continuous fine-tuning, automated prompt validation, model registry compliance, and operational observability at scale.
-#### Curation (1)
+#### Curation (2)
 
   - **(2025)** [**github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps**](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5797</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curated, high-quality compendium of tools, libraries, and resources for the LLMOps ecosystem. Covers framework deployment, GPU scheduling, vector databases, and evaluation tools tailored for production AI pipelines.
 ### Large Language Models (1)
@@ -230,5 +255,5 @@
   - **(2025)** [**Claude Code Templates**](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27488</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
 
 ---
-💡 **Explore Related:** [Ai Agents Mcp](./ai-agents-mcp.md) | [Chatgpt](./chatgpt.md)
+💡 **Explore Related:** [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md)
 

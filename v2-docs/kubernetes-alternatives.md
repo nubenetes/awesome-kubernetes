@@ -82,11 +82,6 @@
 #### Docker Enterprise
 
   - **(2021)** [Universal Control Plane overview](https://docs.docker.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Archived documentation for Mirantis Universal Control Plane (UCP). Offers historic guidance on running large-scale legacy Docker Swarm Enterprise and Kubernetes platforms under a unified administrative dashboard.
-### Management Interfaces
-
-#### GUI Consoles
-
-  - **(2026)** [**Portainer 🌟**](https://www.portainer.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A robust administrative dashboard that simplifies the visual management of Docker Swarm, Kubernetes, and local container environments. Ideal for dev teams seeking centralized configuration oversight without heavy command-line overhead.
 ### Self-Hosted Platforms
 
 #### PaaS Solutions
@@ -102,7 +97,6 @@
 #### Evaluations (1)
 
   - **(2023)** [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative breakdown analyzing leading container orchestrators other than Kubernetes. Details architectural features of Docker Swarm, Nomad, and AWS ECS for diverse engineering demands.
-  - **(2022)** [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid architectural decision guide evaluating the complexity, overhead, and maintenance costs of adopting Kubernetes. Offers simpler alternative infrastructure paradigms.
   - **(2021)** [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/2261975/when-kubernetes-is-not-the-solution.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights use-cases and scenarios where Kubernetes acts as an anti-pattern. Outlines operational over-engineering, hidden resource consumption, and networking complexities.
   - **(2020)** [towardsdatascience.com: Heroku + Docker in 10 Minutes](https://towardsdatascience.com/heroku-docker-in-10-minutes-f4329c4fd72f) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick-deployment tutorial showing how to containerize dynamic web applications with Docker and deploy them smoothly to Heroku's managed infrastructure.
 ## Serverless Architectures
@@ -111,11 +105,12 @@
 
 #### Edge Computing Engines
 
+  - **(2026)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5030</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main open-source repository for Tau. This platform handles autonomous routing, distributed database syncs, and scaling for multi-tenant edge services, running on WebAssembly.
   - **(2026)** [Taubyte](https://taubyte.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A decentralized serverless platform built on WebAssembly and IPFS. Acts as an alternative to VMs and containers, focusing on edge intelligence, fast execution, and zero-configuration networking.
 #### Testing Infrastructure
 
   - **(2025)** [dreamland](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A local testing and deployment tool for the Taubyte WebAssembly-native edge framework. Lets engineers build, test, and debug distributed serverless systems locally.
 
 ---
-💡 **Explore Related:** [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubectl Commands](./kubectl-commands.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Ocp4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 

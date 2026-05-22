@@ -8,18 +8,6 @@
 ### CICD and GitOps
 
   - **(2024)** [Azure/Draft 🌟](https://github.com/Azure/draft) <span class='md-tag md-tag--info'>⭐ 642</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Azure Draft project designed to ease early-stage developer transitions onto Kubernetes. Scans source directories to dynamically output standard Dockerfiles, Kubernetes manifests, Helm deployments, and pipeline workflows.
-## Cloud-Native Development
-
-### Continuous Delivery
-
-#### Skaffold
-
-  - **(2026)** [==skaffold==](https://skaffold.dev) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly active open-source CLI utility by Google that automates the workflow for building, pushing, and deploying Kubernetes applications. Accelerates inner-loop cycles through continuous live-sync engine integration.
-### Local Development Tools
-
-#### Okteto
-
-  - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
 ## Developer Experience
 
 ### Application Bootstrapping
@@ -38,5 +26,5 @@
   - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Google Cloud tutorial configuring Visual Studio Code with structural snippets, optimizing engineering speeds when deploying nested Kubernetes objects.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [Devops](./devops.md) | [Sre](./sre.md)
+💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Devops](./devops.md) | [Chaos Engineering](./chaos-engineering.md)
 
