@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0-rc.8] - 2026-05-22
+
+### Added
+- **Comparative Knowledge Metrics**: Enhanced the V2 Portal index with V1 vs V2 inventory comparison, showing the total base resources analyzed and the elite selection density ratio.
+- **Agentic Efficiency Tracking**: Integrated real-time calculation of the curation delta between the master archive and the high-density portal.
+
+
 ## [2.0.0-rc.7] - 2026-05-22
 
 ### Fixed
