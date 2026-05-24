@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md) | [Cicd](./cicd.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [Cicd](./cicd.md)
 

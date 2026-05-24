@@ -5,7 +5,12 @@
 
 ## Standard Reference
 
+  - [Pulumi VS Terraform](https://www.pulumi.com/docs/iac/comparisons/terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pulumi](https://www.pulumi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DRY (Don’t Repeat Yourself) on the cloud with Pulumi](https://blog.thundra.io/dry-dont-repeat-yourself-on-the-cloud-with-pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pulumi.com: From Terraform to Infrastructure as Software](https://www.pulumi.com/blog/from-terraform-to-infrastructure-as-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pulumi.com: Observability with Infrastructure as Code](https://www.pulumi.com/blog/observability-with-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -22,5 +27,5 @@
 
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
 

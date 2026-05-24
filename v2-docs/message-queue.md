@@ -5,7 +5,112 @@
 
 ## Standard Reference
 
+  - [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/open-source)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Orchestration Made Easy with Zeebe and Kafka](https://softobiz.com/microservice-orchestration-with-zeebe-and-kafka)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Banzai Cloud 🌟](https://banzaicloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Event-Driven Architecture as a Strategy](https://dzone.com/articles/event-driven-architecture-as-a-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: Enterprise service bus](https://en.wikipedia.org/wiki/Enterprise_service_bus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: The need for Kubernetes Native Messaging Platform in Hybrid Cloud' Environment](https://www.cncf.io/blog/2020/11/03/the-need-for-kubernetes-native-messaging-platform-in-hybrid-cloud-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wiprodigital.com: A Guide to Enterprise Event-Driven Architecture](https://wiprodigital.com/2020/11/10/a-guide-to-enterprise-event-driven-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Introduction to Event-Driven Architecture 🌟](https://medium.com/microservicegeeks/introduction-to-event-driven-architecture-e94ef442d824)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sebalopezz.medium.com: Monolith to Microservices + Event-Driven Architecture' 🌟](https://sebalopezz.medium.com/monolith-to-microservices-event-driven-architecture-ff4284bf4ecf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Introduction to Message Queues 🌟](https://medium.com/hookdeck/introduction-to-message-queues-20d00373cc1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [headspring.com: Is Kafka or RabbitMQ the right messaging tool for you?](https://headspring.com/2019/07/09/kafka-or-rabbitmq-messaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: Pub-Sub vs. Message Queues 🌟](https://www.baeldung.com/pub-sub-vs-message-queues)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Monolithic to Microservices Architecture with Patterns & Best' Practices 🌟](https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: RESTful Applications in An Event-Driven Architecture](https://dzone.com/articles/restful-applications-in-an-event-driven-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jinwookim928.medium.com: Why Not Event Driven Architecture?](https://jinwookim928.medium.com/intro-to-event-driven-architecture-79914e5969d7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.direktiv.io: Event driven orchestration with Knative (part 1)](https://blog.direktiv.io/event-driven-orchestration-with-knative-part-1-fbdcc0e2ea03)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.direktiv.io: Redefining event-driven orchestration for automation &' applications](https://blog.direktiv.io/redefining-event-driven-orchestration-for-automation-applications-ec07d79f21c0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pub.towardsai.net: Deep Dive into Event-Driven architecture | Gul Ershad](https://pub.towardsai.net/software-engineering-baa4e7a8015c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developer.com: An Introduction to Event Driven Microservices](https://www.developer.com/design/event-driven-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: What Are Microservices and The Event Aggregator Pattern? 🌟](https://dzone.com/articles/microservices-and-the-event-aggregator-pattern)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [irfanyusanif.medium.com: Best practices to communicate between microservices](https://irfanyusanif.medium.com/how-to-communicate-between-microservices-7956ed68a99a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [swapnil-chougule.medium.com: Rapid Feature Engineering through SQL](https://swapnil-chougule.medium.com/rapid-feature-engineering-through-sql-a92b0926683d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.twitter.com: Processing billions of events in real time at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/tinyclues-vision: 4 Design Principles for Robust Data Pipelines](https://medium.com/tinyclues-vision/4-design-principles-for-robust-data-pipelines-5bbd40de4a43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/fiverr-engineering: How to Share Data Between Microservices on' High Scale](https://medium.com/fiverr-engineering/how-to-share-data-between-microservices-on-high-scale-ab2bc663898d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: Microservices Communication — Queues Topics and Streams](https://medium.com/codex/microservices-communication-queues-topics-and-streams-597664d4b786)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [emirayhan.medium.com: What is the difference Message Queue and Message' Bus? 🌟](https://emirayhan.medium.com/what-is-the-difference-message-queue-and-message-bus-7f2e2867eff6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/event-driven-utopia: Comparing Stateful Stream Processing and' Streaming Databases](https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Resilient MultiCloud Messaging](https://dzone.com/articles/messaging-for-multicloud-resilience)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [juhache.substack.com: From Data Engineer to YAML Engineer](https://juhache.substack.com/p/from-data-engineer-to-yaml-engineer-ed2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/dev-jam: TIBCO Business Works vs. Apache Camel — A short Comparison' 🌟](https://medium.com/dev-jam/tibco-bw-vs-apache-camel-9552a5f4e6be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: **RabbitMQ vs. Kafka**](https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@paolo.gazzola: How to deploy a high available and fault tolerant' RabbitMQ service in an on-premise Kubernetes multi-node cluster environment](https://medium.com/@paolo.gazzola/deploy-a-rabbitmq-cluster-in-an-on-premise-kubernetes-multi-node-cluster-enviroment-5dd71d84dafc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: The Perfect Message Queue Solution Based on the Redis' Stream Type](https://betterprogramming.pub/the-perfect-message-queue-solution-based-on-the-redis-stream-type-ccf273554178)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Apache Camel](https://camel.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Quora.com: What's the difference between Apache Camel and Kafka?](https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Hybrid multi-cloud event mesh architectural design](https://dzone.com/articles/building-a-hybrid-multi-cloud-event-mesh-demo-with)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: KubeMQ: A Modern Alternative to Kafka](https://dzone.com/articles/seamless-migration-from-kafka-to-kubemq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia: Cloud Based Integration (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.axway.com: What is iPaaS?](https://blog.axway.com/hybrid-integration/whats-ipaas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [A good explanation of how to avoid distributed transactions using outbox' pattern: Transaction Log Tailing With Debezium](https://medium.com/trendyol-tech/transaction-log-tailing-with-debezium-part-1-aeb968d72220)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: Stream Your Database into Kafka with Debezium](https://medium.com/comsystoreply/stream-your-database-into-kafka-with-debezium-a94b2f649664)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Change Data Capture — Using Debezium](https://medium.com/geekculture/change-data-capture-using-debezium-ec48631d643a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pradeepdaniel.medium.com: Creating an ETL data pipeline to sync data to' Snowflake using Kafka and Debezium](https://pradeepdaniel.medium.com/real-time-change-data-replication-to-snowflake-using-kafka-and-debezium-d6ebb0d4eb29)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: A Visual Introduction to Debezium 🌟](https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [satishchandragupta.com: Scalable Efficient Big Data Pipeline Architecture](https://www.satishchandragupta.com/tech/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Apache Kafka Startup Guide: System Design Architectures: Notification' System, Web Activity Tracker, ELT Pipeline, Storage System 🌟](https://medium.com/swlh/apache-kafka-startup-guide-system-design-architectures-notification-system-web-activity-tracker-6dcaf0cf8a7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Getting Started With Kafka on OpenShift](https://medium.com/swlh/getting-started-with-kafka-on-openshift-c44c0fdec384)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [banzaicloud.com: Kafka Schema Registry on Kubernetes the declarative way](https://banzaicloud.com/blog/kafka-schemareg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [banzaicloud.com: Bulletproof Kafka, and the tale of an Amazon outage](https://banzaicloud.com/blog/supertubes-focal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Kafka for Engineers 🌟](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [banzaicloud.com: Kafka on Kubernetes - using etcd 🌟](https://banzaicloud.com/blog/kafka-on-etcd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Processing guarantees in Kafka](https://medium.com/@andy.bryant/processing-guarantees-in-kafka-12dd2e30be0e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: How Pinterest runs Kafka at scale](https://medium.com/pinterest-engineering/how-pinterest-runs-kafka-at-scale-ff9c6f735be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Google Pub/Sub Lite for Kafka Users](https://medium.com/google-cloud/google-pub-sub-lite-for-kafka-users-dec8a7cfc5e5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: 4 Microservices Caching Patterns at Wix](https://medium.com/wix-engineering/4-microservices-caching-patterns-at-wix-b4dfee1ae22f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Microservices in Rust with Kafka](https://medium.com/digitalfrontiers/microservices-in-rust-with-kafka-2b671295b24e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Apache Kafka in a Nutshell 🌟](https://medium.com/swlh/apache-kafka-in-a-nutshell-5782b01d9ffb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Solutions to Communication Problems in Microservices using Apache' Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Microservices, Event-Driven Architecture and Kafka 🌟](https://dzone.com/articles/microservices-event-driven-architecture-and-kafka)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Understanding Kafka Topic Partitions](https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [instaclustr.com: Apache Kafka Architecture: A Complete Guide 🌟](https://www.instaclustr.com/apache-kafka-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Getting started with Red Hat OpenShift Streams for' Apache Kafka](https://developers.redhat.com/articles/2021/07/07/getting-started-red-hat-openshift-streams-apache-kafka)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: List Active Brokers in a Kafka Cluster Using Shell Commands' 🌟](https://www.baeldung.com/ops/kafka-list-active-brokers-in-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Next-Gen Data Pipes With Spark, Kafka and k8s 🌟](https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudhut.dev: Running Apache Kafka on Kubernetes successfully](https://cloudhut.dev/blog/2021-06-24-running-kafka-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Running Kafka in Kubernetes, Part 1: Why we migrated our Kafka clusters' to Kubernetes](https://medium.com/transferwise-engineering/running-kafka-in-kubernetes-part-1-why-we-migrated-our-kafka-clusters-to-kubernetes-722101a2e751)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: How to Handle Duplicate Messages and Message Ordering' in Kafka](https://betterprogramming.pub/how-to-handle-duplicate-messages-and-message-ordering-in-kafka-82e2fef82025)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Optimizing Kafka Streams Apps on Kubernetes by Splitting Topologies](https://medium.com/bakdata/optimizing-kafka-streams-apps-on-kubernetes-by-splitting-topologies-ac6b4c90516e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.workwell.io: How to manage your Kafka consumers from the producer](https://blog.workwell.io/how-to-manage-your-kafka-consumers-from-the-producer-9933b88085dd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [adam-kotwasinski.medium.com: Kafka mesh filter in Envoy](https://adam-kotwasinski.medium.com/kafka-mesh-filter-in-envoy-a70b3aefcdef)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/airwallex-engineering: Kafka Streams: Iterative Development and' Blue-Green Deployment](https://medium.com/airwallex-engineering/kafka-streams-iterative-development-and-blue-green-deployment-fae88b26e75e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache' Kafka](https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/dna-technology: Why we dropped event sourcing with Kafka Streams' when given a second chance](https://medium.com/dna-technology/why-we-dropped-event-sourcing-with-kafka-streams-when-given-a-second-chance-b904a80bc4be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Everything You Need To Know About Kafka 🌟](https://betterprogramming.pub/everything-you-need-to-know-about-kafka-a83e2456d14c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.developer.adobe.com: Exploring Kafka Producer’s Internals 🌟](https://blog.developer.adobe.com/exploring-kafka-producers-internals-37411b647d0f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/altitudehq: Kafka retries and maintaining the order of retry' events 🌟](https://medium.com/altitudehq/kafka-retries-and-maintain-order-of-retry-events-313482044351)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/cloudnesil: Kafka Streams State Store at Scale](https://medium.com/cloudnesil/kafka-streams-state-store-at-scale-390d9717b42a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster](https://towardsdev.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@hardiktaneja_99752: Lessons after running Kafka in production' 🌟](https://medium.com/@hardiktaneja_99752/lessons-after-running-kafka-in-production-626974ffd700)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Monitoring Kafka Applications — Implementing Healthchecks' and Tracking Lag](https://betterprogramming.pub/monitoring-kafkaapplications-implementing-healthchecks-and-tracking-lag-3976cc6f00d5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.datumo.io: Setting up Kafka on Kubernetes - an easy way](https://blog.datumo.io/setting-up-kafka-on-kubernetes-an-easy-way-26ae150b9ca8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/wix-engineering: Troubleshooting Kafka for 2000 Microservices' at Wix](https://medium.com/wix-engineering/troubleshooting-kafka-for-2000-microservices-at-wix-986ee382fd1e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@rramiz.rraza: Kafka metrics monitoring with Prometheus and Grafana' 🌟](https://medium.com/@rramiz.rraza/kafka-metrics-integration-with-prometheus-and-grafana-14fe318fbb8b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Visualize your Apache Kafka Streams using the Quarkus Dev UI](https://dzone.com/articles/visualize-your-apache-kafka-streams-using-the-quar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Mastering Apache Kafka on Kubernetes — Strimzi K8s operator](https://medium.com/hacking-talent/mastering-apache-kafka-on-kubernetes-strimzi-k8s-operator-2c1d21d7b89a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@ahmed.farhan: Kafka Setup in Kubernetes Using Strimzi K8s operator' — Part 2](https://medium.com/@ahmed.farhan/kafka-setup-in-kubernetes-using-strimzi-k8s-operator-part-2-1f67dbe5f14d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/adaltas: Operating Kafka in Kubernetes with Strimzi](https://medium.com/adaltas/operating-kafka-in-kubernetes-with-strimzi-84a281c6d964)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Hazelcast JET](https://jet-start.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: Workflow Engine](https://en.wikipedia.org/wiki/Workflow_engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Apache Airflow Architecture on OpenShift](https://dzone.com/articles/apache-airflow-architecture-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Running Airflow Using Kubernetes Executor and Kubernetes' Pod Operator with Istio](https://betterprogramming.pub/running-airflow-using-kubernetes-executor-and-kubernetes-pod-operator-with-istio-d5aa7af16ef5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dataengineeringcentral.substack.com: Why is everyone trying to kill Airflow?' 🌟](https://dataengineeringcentral.substack.com/p/why-is-everyone-trying-to-kill-airflow?sd=pf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devgenius.io: Send information from Databricks to Airflow](https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/apache-airflow: Passing Data Between Tasks with the KubernetesPodOperator' in Apache Airflow 🌟](https://medium.com/apache-airflow/passing-data-between-tasks-with-the-kubernetespodoperator-in-apache-airflow-7ae9e3e6675c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@piyush_74867: Apache Airflow on Kubernetes at scale — a peak' under the hood](https://medium.com/@piyush_74867/apache-airflow-on-kubernetes-at-scale-a-peak-under-the-hood-1eebb9b4769b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@alfahreiza: Building an ELT Pipeline: From CSV to BigQuery using' dbt](https://medium.com/@alfahreiza/building-an-elt-pipeline-from-csv-to-bigquery-using-dbt-f6e3f30bfc9c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/apache-airflow: What we learned after running Airflow on Kubernetes' for 2 years](https://medium.com/apache-airflow/what-we-learned-after-running-airflow-on-kubernetes-for-2-years-0537b157acfd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Application Integration
 
@@ -59,13 +164,9 @@
 #### Event Streaming (1)
 
   - **(2021)** [**blog.rabbitmq.com: First Application With RabbitMQ Streams**](https://www.rabbitmq.com/blog/2021/07/19/rabbitmq-streams-first-application) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces RabbitMQ Streams, a high-throughput, log-append-only streaming protocol introduced in RabbitMQ 3.9. It compares RabbitMQ Streams' sub-millisecond latencies and message retention directly with traditional AMQP queues and Apache Kafka. The walkthrough showcases a complete consumer-producer application setup.
-#### High-Performance Messaging
-
-  - **(2026)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1017</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official GitHub mirror of Apache ActiveMQ Artemis, housing the high-performance non-blocking asynchronous message broker. It provides native support for AMQP, MQTT, STOMP, and OpenWire. It delivers ultra-low latency and scalable message distribution under extreme workloads.
 #### JMS
 
   - [Apache ActiveMQ](https://activemq.apache.org) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An iconic, mature open-source multi-protocol message broker supporting JMS 1.1 and 2.0, AMQP, MQTT, and STOMP. Known for enterprise-grade reliability and complex message routing patterns. It remains a foundational asset in legacy integration environments globally.
-  - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The classic implementation of Apache ActiveMQ, continuing to power millions of production enterprise nodes. It offers rich support for JMS client specifications alongside robust clustering and persistence. Ideal for traditional integration architecture, though increasingly superseded by Artemis.
 #### Kubernetes Native
 
   - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — KubeMQ is an enterprise-grade, ultra-lightweight message broker engineered specifically for Kubernetes container ecosystems. Delivered in a minimal footprint, it supports pub/sub, queues, and streams with native GRPC and REST support. It avoids external operational dependencies.
@@ -86,6 +187,13 @@
 #### Serverless Integration (1)
 
   - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines six key architectural advantages of Camel K, including fast deployment loops, native Quarkus optimization, low memory footprints, and serverless scale-to-zero capabilities via Knative. Highly useful for architects modernizing traditional ESBs.
+## Cloud Infrastructure
+
+### Kubernetes
+
+#### Service Mesh
+
+  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
 ## Cloud Native Architecture
 
 ### Domain-Driven Design
@@ -126,6 +234,14 @@
 #### Event Sourcing
 
   - [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Argues the case for event sourcing as a primary mechanism to store state in distributed microservice topologies. It highlights capabilities such as complete audit trails, high-performance writes, and historical state reconstruction. The post warns of common pitfalls including schema evolution complexity and read projection overhead.
+#### Event-Driven Design
+
+  - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This foundational architectural piece by Martin Kleppmann argues for treating database tables as streams of changes rather than static silos. By turning the database "inside out" using event streams (like Kafka), microservices can achieve decentralized state management and projection consistency. It bridges the gap between stream processing and relational storage.
+### Orchestration (1)
+
+#### Kubernetes Pod Lifecycle
+
+  - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides concrete technical implementation strategies to prevent abrupt termination of active queue worker Pods during rolling Kubernetes updates. It details the effective utilization of `preStop` hooks and graceful shutdown signals within Pod specifications. It ensures zero-loss processing of long-running asynchronous messages.
 ## Cloud Native Infrastructure
 
 ### High Availability
@@ -274,10 +390,6 @@
 #### Metadata Management KRaft
 
   - **(2021)** [devclass.com: Apache Kafka 2.8.0 previews life without ZooKeeper](https://www.devclass.com/databases/2021/04/20/apache-kafka-280-previews-life-without-zookeeper/1627009) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the operational and administrative benefits of ZooKeeper removal. Reviews how KRaft architecture improves cluster limits, simplifies administrator overhead, and accelerates recovery speeds during node failures.
-#### Resource Indexes
-
-  - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly curated meta-resource listing frameworks, engine architectures, academic publications, and database connectors within the streaming data ecosystem. Covers key analytical and event-driven technologies.
-  - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rich community collection of operational utilities, libraries, and GUI packages optimized for developers and administrators deploying and scaling Apache Kafka systems.
 #### Video Tutorials
 
   - [youtube playlist: Kafka Connect Tutorials | Kafka Connect 101: REST API' 🌟](https://www.youtube.com/watch?v=9wu-j9gIlBY&list=PLa7VYi0yPIH1MB2n2w8pMZguffCDu2L4Y&index=8&ab_channel=Confluent)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An educational video series illustrating the programmatic administration of Kafka Connect connectors. Details the layout of the Connect REST API for creating, validating, scaling, and debugging stateful data integrations.
@@ -349,7 +461,7 @@
   - [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big' Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates design principles for high-throughput, low-latency cloud-native big data architectures. The guide details how to integrate ingestion layers with stream processing engines and distributed analytical databases. It presents structured architectural templates for unified analytical and machine learning workloads.
 ### Data on Kubernetes
 
-#### Orchestration (1)
+#### Orchestration (2)
 
   - [thenewstack.io: The Path to Getting the Full Data Stack on Kubernetes](https://thenewstack.io/the-path-to-getting-the-full-data-stack-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the evolutionary path of running complex, stateful database and data streaming systems natively on Kubernetes. It addresses the maturity of operators, storage classes, and orchestrators that facilitate the deployment of the complete data pipeline. The article details challenges regarding resource management and high availability.
 ### Real-Time Data Streaming (2)
@@ -429,6 +541,9 @@
 ##### Components
 
   - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part 1 of an analytical breakdown detailing the components of Red Hat AMQ Streams (built on Strimzi). Explains operators, ZooKeeper configurations, and Kafka broker deployment patterns within enterprise Kubernetes clusters.
+##### Integrations (2)
+
+  - [developers.redhat.com: HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/#more-720187)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural guide detailing how to use the HTTP Bridge component inside AMQ Streams. Allows web and legacy application services to publish and consume event data via lightweight REST HTTP requests.
 ##### Security (2)
 
   - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates replacing auto-generated certificates with custom enterprise CA certs to implement secured TLS and mTLS configurations inside Strimzi-managed AMQ Streams.
@@ -559,7 +674,6 @@
 
   - **(2026)** [==redpanda-data/kowl==](https://github.com/redpanda-data/console) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Excellent web UI (now Redpanda Console) designed for debugging and exploring event streams. Live Grounding: Outstanding user experience presenting topology, schema registry mapping, consumer tracking, and high-performance message search.
   - [towardsdatascience.com: Overview of UI Tools for Monitoring and Management' of Apache Kafka Clusters](https://towardsdatascience.com/overview-of-ui-tools-for-monitoring-and-management-of-apache-kafka-clusters-8c383f897e80)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Comparative review of leading open-source and commercial administration portals for Kafka. Live Grounding: Compares visual management capabilities, schema registration support, and partition offset visualization across tools like AKHQ, Kafdrop, and Lenses.
-  - [Kafdrop – Kafka Web UI 🌟](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6135</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highly popular, lightweight web UI for monitoring and managing Apache Kafka. Live Grounding: Renders cluster info, brokers, topics, partition offsets, consumer group lag, and allows active JSON/protobuf message payload inspection.
   - [dev.to: Learn how to use Kafkacat – the most versatile Kafka CLI client' 🌟](https://dev.to/de_maric/learn-how-to-use-kafkacat-the-most-versatile-kafka-cli-client-1kb4)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Guide to Kafkacat (now rebranded as kcat), the developer's favorite Swiss Army knife CLI. Live Grounding: Walks through real-world piping, consuming from dynamic offsets, producing raw file contents, and query configurations using the command line.
   - [github.com/sauljabin/kaskade](https://github.com/sauljabin/kaskade) <span class='md-tag md-tag--info'>⭐ 1013</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Modern Terminal User Interface (TUI) client for Apache Kafka. Live Grounding: Employs an elegant console layout allowing engineering teams to navigate topics, inspect raw schema properties, and watch streaming events dynamically right from the terminal.
 ### Application Integration (2)
@@ -747,5 +861,5 @@
   - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An InfoQ guide detailing how to use Domain-Driven Design (DDD) to isolate domain boundaries and discover 'seams' within large-scale monoliths. Grounding confirms its position as a primary methodology for refactoring to decoupled, event-driven pipelines.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Nosql](./nosql.md)
 

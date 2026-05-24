@@ -5,33 +5,97 @@
 
 ## Standard Reference
 
+  - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/en/blog/11-manager-considerations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [creately.com: How to Better Manage Your Projects with Kanban Boards](https://creately.com/blog/project-management/what-is-a-kanban-board)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [noidea.dog/glue: Being Glue](https://www.noidea.dog/glue)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: What to do when your devops team is downsized](https://www.infoworld.com/article/2337651/what-to-do-when-your-devops-team-is-downsized.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://analoghq.ai/blog/es/tipos-de-consultoria)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blogs.elconfidencial.com: Los españoles somos más improductivos que nunca y el problema no es de los empleados](https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://www.xataka.com/magnet/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [businessinsider.es: Avanzar en la carrera profesional y conseguir ascensos dentro de la empresa será mucho más difícil para las personas que teletrabajan, según el CEO de IBM](https://www.businessinsider.es/desarrollo-profesional/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [genbeta.com: Un ex-CEO, sobre el origen de tener gente que ni hace falta en las empresas: “Contratas a alguien, y lo primero que hace es contratar"](https://www.genbeta.com/actualidad/ex-ceo-origen-tener-gente-que-hace-falta-empresas-contratas-a-alguien-primero-que-hace-contratar-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [businessinsider.es: La brillante explicación de Steve Jobs sobre por qué los buenos empleados renuncian al trabajo](https://www.businessinsider.es/desarrollo-profesional/explicacion-steve-jobs-buenos-empleados-renuncian-trabajo-1137601)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/articles/the-problem-with-org-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itrevolution.com: Get Started With Team Topologies In 8 Steps](https://itrevolution.com/articles/get-started-with-team-topologies-in-8-steps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [deloitte.com: Bringing Agile benefits to a waterfall project](https://www.deloitte.com/us/en/insights/industry/government-public-sector-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [k21academy.com: Scrum vs Kanban](https://k21academy.com/scrum/scrum-vs-kanban)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://analoghq.ai/blog/es/matriz-raci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/desarrollo-profesional/tan-dificil-decir-no-jefe-965459)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [businessinsider.es: Así es como tu educación te ha moldeado sutilmente para que nunca consigas ascender en el trabajo](https://www.businessinsider.es/desarrollo-profesional/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [isprox.com: 16 Estilos de liderazgo: ¿cuál es más efectivo?](https://isprox.com/es/16-estilos-liderazgo-cual-es-mas-efectivo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver' Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [agilecheetah.com: Why So Many Developers are Fed Up with Agile](https://agilecheetah.com/why-so-many-developers-are-fed-up-with-agile-pt-3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [age-of-product.com: Scrum 2021: Getting You Started as Scrum Master or Product' Owner](https://age-of-product.com/scrum-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Scrum Teams That Don’t Verify Their Outcomes Are Basically Waterfall' Teams](https://medium.com/serious-scrum/scrum-teams-that-dont-verify-their-outcomes-are-basically-waterfall-teams-cb208acdcc61)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Nine Steps to Successfully Start Your New Product Owner Job](https://medium.com/serious-scrum/nine-steps-to-successfully-start-your-new-product-owner-job-b276c85e3dde)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show' Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Driving DevOps with Value Stream Management](https://www.infoq.com/articles/DevOps-value-stream)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: As Your Team Gets Bigger, Your Leadership Style Has to Adapt](https://hbr.org/2019/03/as-your-team-gets-bigger-your-leadership-style-has-to-adapt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [carlos-piqueres.medium.com: Product Backlog vs Sprint Backlog](https://carlos-piqueres.medium.com/product-backlog-vs-sprint-backlog-c951f972e979)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [skamille.medium.com: How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious' Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acumen.io: Can Kanban scale for teams of over 50 developers? When should' you consider moving to Scrum?](https://www.acumen.io/blog/can-kanban-scale-for-teams-of-over-50-developers-when-should-you-consider-moving-to-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Better Metrics for Building High Performance Teams](https://www.infoq.com/articles/better-metrics-team-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: The Real Value of Middle Managers](https://hbr.org/2021/06/the-real-value-of-middle-managers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: What’s Wrong With Measuring Developer Performance (+ 10 Best Metrics)](https://dev.to/actitime/whats-wrong-with-measuring-developer-performance-10-best-metrics-5620)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: How to Speed Up Your Progress With Feedback](https://betterprogramming.pub/how-to-speed-up-your-progress-with-feedback-1f41872b290a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Sprint Planning: Best Practices](https://betterprogramming.pub/sprint-planning-best-practices-1aad4103f6cb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@victor.ronin: The dark side of a cross-functional team](https://medium.com/@victor.ronin/the-dark-side-of-a-cross-functional-team-e0d379e37c70)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: How to Deal with High Pressure Situations at Work](https://hbr.org/2022/05/how-to-deal-with-high-pressure-situations-at-work)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@TonyBologni: 4 reasons why 4 is the perfect team size for (agile)' software development 🌟](https://medium.com/@TonyBologni/4-reasons-why-4-is-the-perfect-team-size-for-agile-software-development-8597d33f3cfe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/dkatalis: Component Team vs Feature Team in a Nutshell 🌟](https://medium.com/dkatalis/component-team-vs-feature-team-in-a-nutshell-60c58671496f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/the-ascent: Quiet People in Meetings Are Incredible](https://medium.com/the-ascent/quiet-people-in-meetings-are-incredible-7bb05ef9acd1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [autoblog.com: VW CEO lost his job over buggy software that delayed new models](https://www.autoblog.com/2022/07/25/vw-ceo-herbert-diess-fired-over-cariad-buggy-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techcrunch.com: Protestware on the rise: Why developers are sabotaging their' own code](https://techcrunch.com/2022/07/27/protestware-code-sabotage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: How to Debate Ideas Productively at Work](https://hbr.org/2019/01/how-to-debate-ideas-productively-at-work)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Techniques for Managing Your Time and Cognitive Load' as a Senior Leader](https://betterprogramming.pub/techniques-for-managing-your-time-and-cognitive-load-as-a-senior-leader-2b9eadb0daa4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/awesome-agile: 10 Ways Managers are Wasting Their Developers' Potential](https://medium.com/awesome-agile/10-ways-managers-are-wasting-their-developers-potential-5c0d78d8f8ba)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Stop Hiring Software Engineers](https://betterprogramming.pub/stop-hiring-software-engineers-8545520437ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: The Surprising Power of Simply Asking Coworkers How They’re Doing](https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/developer-purpose: Think before you code. Engineering’s most' underrated advice](https://medium.com/developer-purpose/think-before-you-code-engineerings-most-underrated-advice-40b47e08a3fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: How to Grow as a (Software) Engineering Manager](https://betterprogramming.pub/how-do-you-grow-as-a-software-engineering-manager-33a05873693)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Good Leadership Is About Growth, Not Brilliance](https://betterprogramming.pub/good-leadership-is-about-growth-not-brilliance-af8ca30f1a3a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterhumans.pub: 8 Communication Hacks I Use To Appear More Senior As a' Young Employee](https://betterhumans.pub/8-communication-hacks-i-use-to-appear-more-senior-as-a-young-employee-9106468bf5aa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jproco.medium.com: Deliver a Product Roadmap That Survives Startup Velocity](https://jproco.medium.com/deliver-a-product-roadmap-that-survives-startup-velocity-f9be4fb9893e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/career-of-you: A Ten-Step Process for Team Leaders to Reduce' Meeting Overload and Take Back Their Time](https://medium.com/career-of-you/a-ten-step-process-for-team-leaders-to-reduce-meeting-overload-and-take-back-their-time-407cf1f8f09b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: The Importance of Code Ownership 🌟](https://betterprogramming.pub/the-underestimated-importance-of-clear-code-ownership-baed758e47b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bootcamp.uxdesign.cc: A quick win to prepare for every meeting using templates](https://bootcamp.uxdesign.cc/a-quick-win-to-prepare-for-every-meeting-using-templates-d2359c849433)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [huryn.substack.com: 3 Ways to Create 10X Better Product Roadmaps](https://huryn.substack.com/p/3-ways-to-create-10x-better-product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jchyip.medium.com: My critique of “the Spotify Model”: Part 1](https://jchyip.medium.com/my-critique-of-the-spotify-model-part-1-197d335ef7af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: How to Give Tough Feedback That Helps People Grow](https://hbr.org/2015/08/how-to-give-tough-feedback-that-helps-people-grow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@tom-neal: CTO Checklist](https://medium.com/@tom-neal/cto-checklist-1a2ef3d6502)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [martinfowler.com: Retrospectives Antipatterns 🌟](https://martinfowler.com/articles/retrospective-antipatterns.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rebelscrum.site: Characteristics of a Great Product Owner](https://www.rebelscrum.site/post/characteristics-of-a-great-product-owner)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Breaking Down Silos: Applying Open Source Practices in the Workplace](https://devops.com/breaking-down-silos-applying-open-source-practices-in-the-workplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: How Good Developers Become Good Engineering Managers](https://devops.com/how-good-developers-become-good-engineering-managers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techrepublic.com: What is Lean Software Development?](https://www.techrepublic.com/article/lean-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@ElizAyer: Meetings *are* the work](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [newsletter.pragmaticengineer.com: Engineering Leadership Skill Set Overlaps](https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hbr.org: What It Takes to Give a Great Presentation](https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [inc.com: 27 Years Ago, Steve Jobs Said the Best Employees Focus on Content,' Not Process. Research Shows He Was Right](https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Bus factor](https://en.wikipedia.org/wiki/Bus_factor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [businessinsider.com: I'm an ex-Amazon senior leader. Here's why layoffs' keep happening and why ambitious managers are fueling them](https://www.businessinsider.com/amazon-reason-for-layoffs-former-senior-tech-leader-2023-5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: The Only True Agency A Software Engineer Requires](https://medium.com/codex/the-only-true-agency-a-software-engineer-requires-2c0816b263bc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -43,6 +107,7 @@
   - [lavanguardia.com: La delgada línea roja del liderazgo: de la cercanía al' compadreo](https://www.lavanguardia.com/economia/20220223/8075492/liderazgo-empresa-jefes-empleados-cercania-decisiones.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [okdiario.com: Telefónica y Santander despiden a 467 empleados en 2021 por' denuncias de compañeros](https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cronista.com: Cómo identificar a un mal jefe y qué errores no pueden cometer' hoy los líderes](https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor' su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [elconfidencial.com: Esta psicóloga ha estudiado a los capullos de tu empresa' y sabe por qué se comportan así](https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [genbeta.com: Las reuniones laborales por videollamada nos agotan: esto es' lo que pasa si se eliminan y cambian por chats](https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-sabe-que-pasa-se-eliminan-usamos-chats)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -50,32 +115,38 @@
   - [estrategiadeproducto.com: La segunda mayor mentira sobre Product Management](https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mariocortes.net: La crisis de seniority](https://www.mariocortes.net/la-crisis-de-seniority)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openwebinars.net: 13 Errores que cometes como Manager](https://openwebinars.net/blog/13-errores-que-cometes-como-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Team Topologies — A New Way of Thinking About Teams](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes' Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softwaretestinghelp.com: Kanban Vs Scrum Vs Agile: A Detailed Comparison' To Find Differences](https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [atlassian.com: Kanban vs. Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Are Scrum and Kanban Allies Or Enemies?](https://medium.com/serious-scrum/are-scrum-and-kanban-allies-or-enemies-9d1d27353cd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: Responsibility assignment matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thedigitalprojectmanager.com: Create A Responsibility Assignment Matrix' (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Understanding Responsibility Assignment Matrix (RACI Matrix)](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.hubspot.es: MVP: 3 pasos para desarrollar un Producto mínimo viable](https://blog.hubspot.es/sales/producto-minimo-viable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bloo.media: Producto Mínimo Viable ¿Qué es y cómo crearlo?](https://bloo.media/blog/producto-minimo-viable-mvp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.asmartbear.com: I hate MVPs. So do your customers. Make it SLC instead' 🌟](https://blog.asmartbear.com/slc.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [joelcalifa.com: Tiny Wins](https://joelcalifa.com/blog/tiny-wins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gammaux.com: Cómo definir un Minimum Viable Product (MVP)](https://www.gammaux.com/blog/como-definir-un-minimum-viable-product-mvp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Construyendo un MVP sin base de datos](https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devdriven.by](https://devdriven.by)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Engineering Leadership and Career Dynamics
-
-### Organizational Design and Leadership Systems
-
-#### Engineering Culture
-
-  - **(2021)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a self-diagnostic framework composed of ten strategic evaluation questions designed to gauge leadership efficacy and maturity. Promotes reflective coaching and output-driven organizational alignment. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Devops](./devops.md) | [Scaffolding](./scaffolding.md) | [Chaos Engineering](./chaos-engineering.md)
 

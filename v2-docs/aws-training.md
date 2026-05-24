@@ -3,6 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Training in the context of Cloud Providers (Hyperscalers).
 
+## Standard Reference
+
+  - [Amazon AWS Certification Preparation Tips](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications' (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Cloud Infrastructure
 
 ### Infrastructure as Code
@@ -10,6 +17,9 @@
 #### AWS CDK
 
   - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official AWS educational lab covering foundations of the Cloud Development Kit. Focuses on writing structural patterns to deploy secure multi-tier cloud environments using object-oriented languages.
+#### CloudFormation
+
+  - [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp' 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive boot-camp produced by freeCodeCamp focusing on CloudFormation foundations. Details modular resource design, dependency mapping, drift protection, and secure infrastructure-as-code delivery pipelines.
 ### Training
 
 #### AWS Deep Dives
@@ -45,5 +55,5 @@
   - **(2021)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A premier enterprise learning platform specialized in modern cloud-native system training. Delivers deep hands-on sandbox labs, certification preparation curricula, and continuous technical playground resources.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

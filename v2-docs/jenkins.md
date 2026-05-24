@@ -5,24 +5,70 @@
 
 ## Standard Reference
 
+  - [WebSocket support in now available for Jenkins CLI and agent networking!](https://www.jenkins.io/blog/2020/02/02/web-socket)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟](https://webhookrelay.com/blog/github-jenkins-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.testmuai.com/blog/jenkins-pipeline-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: How To Set Up Continuous Integration With Git and Jenkins?](https://www.testmuai.com/blog/how-to-setup-continuous-integration-with-git-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: Jenkins Tutorial 🌟](https://www.testmuai.com/learning-hub/jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&t=657s&ab_channel=BribeByBytes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: How To Set Jenkins Pipeline Environment Variables? 🌟](https://www.testmuai.com/blog/set-jenkins-pipeline-environment-variables-list)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/2270388/continuous-integration-with-docker-and-jenkins.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: What Is Jenkins Used For? 🌟](https://www.testmuai.com/blog/what-is-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins.io - **Jenkinsfile** 🌟](https://www.jenkins.io/doc/book/pipeline/jenkinsfile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es-es/insights/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins users mailing list: Declarative pipelines vs scripted](http://jenkins-ci.361315.n4.nabble.com/Declarative-pipelines-vs-scripted-td4891792.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lambdatest.com: How To Use Shared Libraries In A Jenkins Pipeline? 🌟](https://www.testmuai.com/blog/use-jenkins-shared-libraries-in-a-jenkins-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-ci/latest/casc-controller/distribute-casc-bundles-from-oc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins-job-builder.readthedocs.io 🌟](https://jenkins-job-builder.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Matrix 🌟](https://www.jenkins.io/blog/2019/11/22/welcome-to-the-matrix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Atlassian's new Bitbucket Server integration for Jenkins 🌟](https://www.jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [In this presentation](https://www.meetup.com/jenkins-online-meetup/events/270630108)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [**Cloudbees Flow** 🌟](https://www.cloudbees.com/capabilities/continuous-delivery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Build Monitor Plugin](https://plugins.jenkins.io/build-monitor-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [Monitor CI nodes with Jenkins](http://www.ampelofilosofies.gr/software/2017/03/04/monitor-ci-nodes-with-jenkins#sthash.eLP0PanT.dpbs)
+    - [youtube: How to create Build Monitor View](https://www.youtube.com/watch?v=WnQK6-puXSM)
+    - [youtube: monitoring jenkins job with build monitor view](https://www.youtube.com/watch?v=y6RNLNvnYIw)
+    - [tatiyants.com: jenkins build monitor](http://tatiyants.com/jenkins-build-monitor)
+  - [Monitor Pro Plugin](https://plugins.jenkins.io/monitor-pro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opsview.com: opspack](https://docs.itrsgroup.com/docs/opsview/6.12.1/opspacks/opspack-index/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Chrome Extension](https://chromewebstore.google.com/detail/empty-title/jhbokpimjgedmpcmfoghhiokhpihlkgc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stats.jenkins.io 🌟](http://stats.jenkins.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jaxenter.com - CI/CD for Spring Boot Microservices](https://devm.io/microservices/cicd-microservices-docker-162408)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [rollout.io: CloudBees Rollout Tutorial: Feature Flagging in your React Native App in 5 minutes](https://www.cloudbees.com/blog/rollout-tutorial-feature-flagging-your-react-native-app-5-minutes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Speed Up Software Development with Build and Test Acceleration Tools](https://www.cloudbees.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkins-x.io](https://jayex.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sap.github.io/jenkins-library](https://www.project-piper.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [CloudBees](https://www.cloudbees.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/jenkinsci 🌟](https://github.com/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: getting started with jenkins the ultimate guide](https://dzone.com/articles/getting-started-with-jenkins-the-ultimate-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone refcard: Jenkins on PaaS](https://dzone.com/refcardz/jenkins-paas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io 2020-05-06: Slave to Agent renaming. Renaming of the official' Docker images for Jenkins agents](https://www.jenkins.io/blog/2020/05/06/docker-agent-image-renaming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Windows Docker Agent Images: General Availability 🌟](https://www.jenkins.io/blog/2020/05/11/docker-windows-agents)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins: Shifting Gears 🌟🌟](https://www.jenkins.io/blog/2018/08/31/shifting-gears)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/blogs: Why Jenkins still continuously serves developers 🌟](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [On Jenkins Terminology Updates](https://www.jenkins.io/blog/2020/06/18/terminology-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Deploy your App Using CI/CD Pipeline](https://medium.com/wind-of-change/creating-a-ci-cd-pipeline-6ff9aeb0848c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring' on the Top of Kubernetes 🌟](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Cross account ECR push with Jenkins](https://devopsformula.hashnode.dev/cross-account-ecr-push-with-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Easily Automate Your CI/CD Pipeline With Jenkins, Helm, and Kubernetes' 🌟](https://dzone.com/articles/easily-automate-your-cicd-pipeline-with-jenkins-he)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Building Pipeline and Launching Jenkins in Container](https://medium.com/@rishabh1799/building-pipeline-and-launching-jenkins-in-container-d4faf39de173)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: MSBuild With Jenkins | Jenkins For C# / .NET Applications](https://www.youtube.com/watch?v=uC7vajbnZS4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betsol.com: DevOps Using Jenkins, Docker, and Kubernetes](https://www.betsol.com/blog/devops-using-jenkins-docker-and-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Setup Chained Jenkins Declarative Pipeline Projects with Triggers 🌟](https://medium.com/@rosaniline/setup-chained-jenkins-declarative-pipeline-projects-with-triggers-d3d04f1daf75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin: Jenkins Server setup with dynamic worker nodes](https://www.linkedin.com/pulse/jenkins-server-setup-dynamic-worker-nodes-shishir-khandelwal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: CI/CD with Dockers and Jenkins](https://medium.com/avmconsulting-blog/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Docker image updates](https://www.jenkins.io/blog/2021/02/08/docker-base-os-upgrade)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.executeautomation.com: Running Jenkins Build Agent within Docker container' – Part A](https://blog.executeautomation.com/running-jenkins-build-agent-within-docker-container-part-a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Jenkins: running workers in Kubernetes and Docker images build](https://itnext.io/jenkins-running-workers-in-kubernetes-and-docker-images-build-83299a10f3ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [amazon.com: Building a serverless Jenkins environment on AWS Fargate](https://aws.amazon.com/es/blogs/devops/building-a-serverless-jenkins-environment-on-aws-fargate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: How to Create a GitLab Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?app=desktop&v=y4XGFluzPHY&ab_channel=CloudBeesTV)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [slideshare.net: Jeff Geerling - Jenkins or: How I learned to stop worrying' and love automation 🌟](https://www.slideshare.net/geerlingguy/jenkins-or-how-i-learned-to-stop-worrying-and-love-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube - CloudBeesTV: How to Run a Shell Script in Jenkins Pipeline 🌟](https://www.youtube.com/watch?v=mbeQWBNaNKQ&ab_channel=CloudBeesTV)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Make Jenkins logs pretty](https://opensource.com/article/21/5/jenkins-logs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Dynamic and reactive parameterization in Jenkins pipelines using' HTML, Groovy, and Bash 🌟](https://medium.com/globant/dynamic-and-reactive-parameterization-in-jenkins-pipelines-using-html-groovy-and-bash-27b031fcd69b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationreinvented.blogspot.com: How to schedule a job in Jenkins pipeline?' How to run automation suite everyday with auto trigger scheduler?](https://automationreinvented.blogspot.com/2021/05/how-to-schedule-job-in-jenkins-pipeline.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationscript.com: How To Read Jenkins Build Log Console Output](https://automationscript.com/how-to-read-console-output-in-jenkins-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: So, Your Jenkins Is Slow. Here’s How to Fix It 🌟](https://www.cloudbees.com/blog/your-jenkins-slow-how-to-fix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -37,6 +83,7 @@
   - [gist.github.com/twasink: Jenkins Image, using Docker-in-Docker 🌟](https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Run Jenkins Pipeline With AWS ECS Fargate & AWS EC2 Based ECS Cluster' | Learn DevOps Tools Ep4](https://www.youtube.com/watch?v=K2CBHLwPL50&ab_channel=SandipDas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube LambdaTest: Jenkins Tutorial For Beginners | Part 9 | Cross Browser' Testing With LambdaTest Jenkins Plugin](https://www.youtube.com/watch?v=x5cyrE9ecis&ab_channel=LambdaTest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Integrate BitBucket & Jenkins](https://medium.com/ampersand-academy/integrate-bitbucket-jenkins-c6e51103d0fe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Update App Secrets with Jenkins CI and .NET Core](https://developer.okta.com/blog/2021/07/08/jenkins-ci-dotnet-update-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell' 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Creating a CI/CD deployment pipeline for JenkinsCI with AWS SAM' Pipelines 🌟](https://www.youtube.com/watch?v=tJOlk-B66R4&ab_channel=ServerlessLand)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -49,17 +96,35 @@
   - [jenkins.io: Docker images use Java 11 by default 🌟](https://www.jenkins.io/blog/2021/08/17/docker-images-use-jdk-11-by-default)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [community.jenkins.io: DSTY - jenkins-std-lib (Shared Library) - Interact' with files/directories using Groovy!](https://community.jenkins.io/t/dsty-jenkins-std-lib-shared-library-interact-with-files-directories-using-groovy/398)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Connecting and authenticating to Jenkins with Teleport Application Access](https://github.com/gravitational/teleport/discussions/8330) <span class='md-tag md-tag--info'>⭐ 20357</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationreinvented.blogspot.com: How to create parameterized job in Jenkins?' What is parameterized build in Jenkins?](https://automationreinvented.blogspot.com/2021/08/how-to-create-parameterized-job-in.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: A developer's guide to CI/CD and GitOps with Jenkins' Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [inder-devops.medium.com: CI/CD setup in just 5 mins with basic yaml configuration](https://inder-devops.medium.com/ci-cd-setup-in-just-5-mins-with-basic-yaml-configuration-95b8e894a110)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Cloud Learn Hub - How to Integrate Jenkins with Ansible Tower?](https://www.youtube.com/watch?v=E3Xyu29LIwY&ab_channel=CLOUDLEARNHUB)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Tech World with Nana - Jenkins Tutorial for Beginners](https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [camunda.com: How We Overcame Long-Running Job Limitations in Jenkins Declarative' Pipelines](https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Jenkins high availability and disaster recovery on AWS' 🌟](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents' On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fosstechnix.com: How to Validate Jenkinsfile using Visual Studio Code](https://www.fosstechnix.com/validate-jenkinsfile-using-visual-studio-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Learn Jenkins by Building a CI/CD Pipeline 🌟](https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/ni-tech-talk: Creating Customized Kubernetes Pod Templates using' Groovy in Jenkins Pipeline 🌟](https://medium.com/ni-tech-talk/creating-customized-kubernetes-pod-templates-using-groovy-in-jenkins-pipeline-7007f023a585)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [palak-bhawsar.hashnode.dev: Automated CI/CD pipeline for Java Project](https://palak-bhawsar.hashnode.dev/automated-cicd-pipeline-for-java-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Set up Jenkins on a Kubernetes Cluster](https://faun.pub/set-up-jenkins-on-a-kubernetes-cluster-2b982c840ebe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Blue-Green Deployment (CI/CD) Pipelines with Docker, GitHub,' Jenkins and SonarQube](https://blog.devops.dev/blue-green-deployment-ci-cd-pipelines-with-docker-github-and-jenkins-6a262b2994c6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Accelerate Development with Jenkins Pipelines and Continuous' Integration](https://itnext.io/accelerate-development-with-jenkins-pipelines-and-continuous-integration-9a6c7857ccd2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: Continuous Integration in AWS Using Jenkins Pipelines: Best Practices' and Strategies](https://dzone.com/articles/continuous-integration-in-aws-using-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [praveendandu24.medium.com: Understanding the Differences Between Jenkins' Scripted and Declarative Pipeline: A Comprehensive Guide with Real-World Examples](https://praveendandu24.medium.com/understanding-the-differences-between-jenkins-scripted-and-declarative-pipeline-a-comprehensive-960826e26c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [prabirmahatha.hashnode.dev: Jenkins Declarative Pipeline with Docker](https://prabirmahatha.hashnode.dev/jenkins-declarative-pipeline-with-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Deploying Helm Charts with Jenkins and Groovy: A Comprehensive' Guide](https://blog.devops.dev/deploying-helm-charts-with-jenkins-and-groovy-a-comprehensive-guide-c2aa0f2bd424)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/jenkinsci/helm-charts](https://github.com/jenkinsci/helm-charts) <span class='md-tag md-tag--info'>⭐ 656</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.plainenglish.io: Deploying AWS Resources and a Jenkins Server with Terraform](https://aws.plainenglish.io/deploying-aws-resources-and-a-jenkins-server-with-terraform-297bad905459)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.plainenglish.io: Terraform: How To Deploy Jenkins CI/CD Pipelines Using' Terraform](https://aws.plainenglish.io/terraform-how-to-deploy-jenkins-ci-cd-pipelines-using-terraform-9ffc086dcd56)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkinsistheway.io: Financial Transactions Simplified With Faster Build' Cycles 🌟](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-fintech-excellence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkinsistheway.io: Advanced Declarative Pipelines for Workflow and Decision' Automation Platform 🌟](https://jenkinsistheway.io/user-story/to-build-ci-cd-that-fits-advanced-and-unique-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jenkinsistheway.io: Jenkins is the way to DevSecOps. Cybersecurity CI/CD](https://jenkinsistheway.io/user-story/to-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Presentation: NADOG - Evolution of open source CI/CD tools - Oleg Nenashev' 🌟](https://docs.google.com/presentation/d/17bQ30ycAUB-k4YZ4dC23cxNiNChvRRQO7_6FNGcS0j4/edit?usp=sharing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pipeline as Code](https://www.manning.com/books/pipeline-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [riptutorial.com: Learning Jenkins](https://riptutorial.com/ebook/jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -71,50 +136,75 @@
   - [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) <span class='md-tag md-tag--info'>⭐ 643</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Jenkins Operator becomes an official sub-project!](https://www.jenkins.io/blog/2021/04/15/jenkins-operator-sub-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Security Validator for Jenkins Operator for Kubernetes](https://www.jenkins.io/blog/2021/08/23/jenkins-operator-security-work-report)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cd.foundation: Going Cloud Native with Jenkins Kubernetes Operator](https://cd.foundation/blog/2021/09/02/going-cloud-native-with-jenkins-kubernetes-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone refcard: Groovy, a Rapid-Development JVM Language](https://dzone.com/refcardz/groovy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Read and write files with Groovy](https://opensource.com/article/21/4/groovy-io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) <span class='md-tag md-tag--info'>⭐ 70</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Groovy Goodness: Using The Call Operator](https://dzone.com/articles/groovy-goodness-using-the-call-operator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins SIG Platform 🌟](https://www.jenkins.io/sigs/platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins SIG Cloud Native 🌟](https://www.jenkins.io/sigs/cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.techiescamp.com/jenkins-course 🌟🌟🌟](https://blog.techiescamp.com/jenkins-course)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Job DSL](https://plugins.jenkins.io/job-dsl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS)' transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example) <span class='md-tag md-tag--info'>⭐ 451</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Jenkins Jobs as Code with Groovy DSL (Job DSL plugin) 🌟](https://tech.gogoair.com/jenkins-jobs-as-code-with-groovy-dsl-c8143837593a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**Why Pipeline?**](https://www.jenkins.io/doc/book/pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone refcard: **Continuous Delivery with Jenkins Pipeline** 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies' with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone refcard: declarative pipeline with jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible,' Docker, Golang App) 🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: learn how to setup a cicd pipeline from scratch 🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com - building cicd pipelines with jenkins 🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟🌟](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cuelogic.com: Decoding Pipeline as Code (With Jenkins) 🌟](https://www.cuelogic.com/blog/pipeline-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mtijhof.wordpress.com: Jenkins: Running a declarative pipeline from your' Shared Library 🌟](https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Starting with Declarative 1.2, released in late September, 2017, you can define Declarative Pipelines in your shared libraries as well 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Declarative Pipeline - Jenkins shared library 🌟](https://github.com/gfkse/jenkins-shared-library) <span class='md-tag md-tag--info'>⭐ 22</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackoverflow.com: Can I have an entire declarative pipeline defined and' parameterized in a shared library?](https://stackoverflow.com/questions/45889796/can-i-have-an-entire-declarative-pipeline-defined-and-parameterized-in-a-shared)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Share a standard Pipeline across multiple projects with Shared' Libraries 🌟](https://www.jenkins.io/blog/2017/10/02/pipeline-templates-with-shared-libraries)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Parallel stages with Declarative Pipeline 1.2 🌟](https://www.jenkins.io/blog/2017/09/25/declarative-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A sustainable pattern with shared library 🌟](https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tomd.xyz: Jenkins shared library: tutorial with examples 🌟](https://tomd.xyz/jenkins-shared-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jjba.dev: Jenkins Shared Library with Unit tests](https://jjba.dev/posts/jenkins-shared-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) <span class='md-tag md-tag--info'>⭐ 1202</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins Configuration as Code Plugin](https://www.jenkins.io/projects/jcasc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Running Jenkins Server With Configuration-as-Code 🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudbees.com: CloudBees Core Configuration as Code](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Configuration as Code of Jenkins (for Kubernetes) 🌟🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code' users](https://www.jenkins.io/events/online-hackfest/2020-uiux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [iceburn.medium.com: Jenkins Configuration As Code](https://iceburn.medium.com/jenkins-configuration-as-code-afd9031a42c9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.openstack.org: Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Automate Jenkins Pipelines management with Jenkins Job Builder' 🌟](https://faun.pub/automate-jenkins-pipelines-management-6e771b5890f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [plugins.jenkins.io/templating-engine: Jenkins Template Engine JTE 🌟](https://plugins.jenkins.io/templating-engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Managing DevSecOps Pipelines at Scale with Jenkins Templating' Engine](https://www.cloudbees.com/videos/jenkins-template-pipeline-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit) <span class='md-tag md-tag--info'>⭐ 1586</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: kubernetes jenkins master slave scalability](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: How to Setup Docker containers as Build Slaves for Jenkins](https://devopscube.com/docker-containers-as-build-slaves-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition -' Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition -' Part 2 (2020) 🌟](https://www.cloudbees.com/blog/application-performance-monitoring-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them' 🌟](https://www.cloudbees.com/blog/most-common-issues-scaling-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ansible-role-jenkins](https://github.com/geerlingguy/ansible-role-jenkins) <span class='md-tag md-tag--info'>⭐ 851</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin) <span class='md-tag md-tag--info'>⭐ 2791</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -127,8 +217,11 @@
   - [marketplace.visualstudio.com: Jenkins Extension Pack: DontShaveTheYak](https://marketplace.visualstudio.com/items?itemName=DontShaveTheYak.jenkins-extension-pack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: Migrating Jenkins Freestyle Job to Multibranch Pipeline 🌟](https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: How to Create a Bitbucket Cloud Branch Source Multibranch Pipeline' in Jenkins](https://www.youtube.com/watch?v=LNfthmZuRDI&ab_channel=CloudBeesTV)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Build CI/CD Multibranch Pipeline with Jenkins and Kubernetes 🌟](https://medium.com/@peiruwang/build-ci-cd-multibranch-pipeline-with-jenkins-and-kubernetes-637de560d55a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: 15 must have Jenkins plugins to increase productivity](https://devops.com/15-must-jenkins-plugins-increase-productivity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Deprecating non-Java plugins](https://www.jenkins.io/blog/2021/12/22/deprecated-ruby-runtime)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -147,6 +240,7 @@
   - [Code Average API](https://plugins.jenkins.io/code-coverage-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Fortify](https://plugins.jenkins.io/fortify)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SonarQube Scanner 🌟](https://plugins.jenkins.io/sonar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pipeline: SCM Step (workflow-scm-step)](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon EC2 plugin](https://plugins.jenkins.io/ec2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Copy Artifact](https://plugins.jenkins.io/copyartifact)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -168,7 +262,6 @@
   - [QF-Test](https://plugins.jenkins.io/qftest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Extensible Choice Parameter](https://plugins.jenkins.io/extensible-choice-parameter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Allure 🌟](https://plugins.jenkins.io/allure-jenkins-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Web Services SDK](https://plugins.jenkins.io/aws-java-sdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Metrics](https://plugins.jenkins.io/metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Git Forensics](https://plugins.jenkins.io/git-forensics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -208,16 +301,17 @@
   - [Plugin Development: Dependency Management](https://www.jenkins.io/doc/developer/plugin-development/dependency-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Parent POM for Jenkins Plugins. Plugin POM 4.0](https://github.com/jenkinsci/plugin-pom) <span class='md-tag md-tag--info'>⭐ 75</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cd.foundation: Bringing Blue Ocean into the future of Jenkins](https://cd.foundation/blog/2021/09/02/bringing-blue-ocean-into-the-future-of-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Splunk Plugins](https://plugins.jenkins.io/splunk-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Logstash](https://plugins.jenkins.io/logstash)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ALM Performance: Continuously Monitor Performance and Vitality of your Jenkins' Deployment](https://www.almtoolbox.com/jenkins-monitoring.php)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: prometheus and grafana dashboard](https://medium.com/@gangsta_black/grafana-cool-dashboard-for-monitoring-jenkins-with-prometheus-c7ba4f1c6297)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Monitoring Jenkins with Grafana and Prometheus](https://www.youtube.com/watch?v=EWFJem7GUAc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Jenkins Prometheus Grafana Dashboard | Prometheus Jenkins Monitoring' | Prometheus.yml | Thetips4you](https://www.youtube.com/watch?v=N8P9ZLMA2xY)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dynatrace.com: optimizing jenkins to ensure fast build times with dynatrace](https://www.dynatrace.com/news/blog/optimizing-jenkins-to-ensure-fast-build-times-with-dynatrace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins plugin to provide automatic status for multibranch jobs (Grafana)](https://plugins.jenkins.io/github-autostatus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing' Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins opentelemetry-plugin 🌟](https://github.com/jenkinsci/opentelemetry-plugin) <span class='md-tag md-tag--info'>⭐ 124</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [**InfluxDB**:](https://www.influxdata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io: Jenkins Remoting Monitoring 🌟](https://www.jenkins.io/projects/gsoc/2021/projects/remoting-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins Remoting monitoring with OpenTelemetry Plugin 🌟](https://github.com/jenkinsci/remoting-opentelemetry-plugin) <span class='md-tag md-tag--info'>⭐ 15</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins: Agents Monitoring End User Survey](https://docs.google.com/forms/d/e/1FAIpQLSdiuQN3sm2mQ2E86VTXVXu7bf_9C0hVdzhw2_Kvu3DFqL7EZA/viewform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -227,8 +321,10 @@
   - [External Fingerprint Storage Phase-1 Updates](https://www.jenkins.io/blog/2020/06/27/external-fingerprint-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Redis Fingerprint Storage Plugin](https://github.com/jenkinsci/redis-fingerprint-storage-plugin) <span class='md-tag md-tag--info'>⭐ 5</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183) <span class='md-tag md-tag--info'>⭐ 2647</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to Disable Code: The Developer's Production Kill Switch 🌟](https://www.cloudbees.com/blog/how-disable-code-developers-production-kill-switch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -240,30 +336,47 @@
   - [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [templates.cloudonaut.io: Jenkins 2.0: highly available master](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps) <span class='md-tag md-tag--info'>⭐ 95</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Application Delivery and GitOps
+
+### Package Management
+
+#### OpenShift Integration
+
+  - [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat' OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat developer guide demonstrating automated Helm deployments through Jenkins on OpenShift 4. Covers pipeline definitions, credentials handling, and rollback automations.
 ## Continuous Integration
 
 ### CI Tools
 
 #### Jenkins (1)
 
-  - [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A stable Jenkins CI plugin designed to ingest, compile, and visualize execution metrics from varied load-testing libraries including JMeter, Taurus, and JUnit.
-## DevOps
+  - [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Allows direct deployment integrations inside Red Hat OpenShift pipelines via Jenkins, automating image building and pipeline orchestrations.
+  - [openshift-sync](https://plugins.jenkins.io/openshift-sync) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synchronizes OpenShift environment configs, secrets, build limits, and pod templates automatically to ensure consistent CI runner execution.
+  - [openshift-client](https://plugins.jenkins.io/openshift-client) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes OpenShift's command-line tool definitions directly inside Jenkins jobs, enabling custom script actions to command remote clusters safely.
+## GitOps and Continuous Delivery
 
-### CI-CD Pipelines
+### Kubernetes Native CI-CD
 
-#### Jenkins Ecosystem
+#### Argo Workflows
 
-  - [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative' Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Authoritative documentation explaining scripted and declarative Jenkins pipeline configuration syntaxes. Breaks down flow control structures, declarative directives, agent allocations, and step definitions essential to enterprise build automation.
-## Red Hat OpenShift
+  - [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive real-world migration case study detailing how Intuit transitioned high-volume CI/CD pipelines from Jenkins to Kubernetes-native Argo Workflows. Outlines critical architectural lessons, scale bottlenecks, pipeline-as-code models, and resource optimization.
+## Runtime Optimizations
 
-### CI-CD Pipelines (1)
+### JVM Tuning
 
-#### Jenkins Ecosystem (1)
+#### Language Fundamentals
 
-  - **(2018)** [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details strategies to compile reliable, declarative Jenkins pipelines utilizing OpenShift DSL plugins. Discusses native methods to trigger S2I builds, promote container images, and securely communicate with Cluster managers.
-  - [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial addressing the orchestration of containerized workloads inside a Jenkins building phase. Evaluates Docker-in-Docker strategies and Kubernetes dynamic agents to avoid single-host execution bottlenecks and guarantee runtime isolation.
+  - [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Administrative guide addressing the platform transition of the Jenkins controller from obsolete Java 8 engines to modern Java 11 runtime profiles.
+## Software Engineering
+
+### CICD
+
+#### Trends
+
+  - [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how modern CI/CD pipelines are expanding their scope to integrate security scans, compliance policy engines, and platform provisioning stages.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Cicd](./cicd.md) | [Gitops](./gitops.md)
 

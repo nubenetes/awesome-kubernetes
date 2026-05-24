@@ -5,6 +5,11 @@
 
 ## Standard Reference
 
+  - [Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin](https://aws.amazon.com/about-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush](https://www.theregister.com/off-prem/2021/07/29/aws-to-retire-ec2-classic-the-network-glue-that-helped-start-the-iaas-rush/527489)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/off-prem/2021/12/09/the-big-aws-event-120-announcements-but-nothing-has-changed/605657)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Preview – AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Config Rules – Dynamic Compliance Checking for Cloud Resources](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Inspector – Automated Security Assessment Service](https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Coming Soon – EC2 Dedicated Hosts](https://aws.amazon.com/blogs/aws/coming-soon-ec2-dedicated-hosts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -42,9 +47,11 @@
   - [Now — AWS Step Functions Supports 200 AWS Services To Enable Easier Workflow Automation](https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Control Tower now supports nested organizational units](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-control-tower-supports-nested-organizational-units)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Visualize all your Kubernetes clusters in one place with Amazon EKS Connector, now generally available](https://aws.amazon.com/about-aws/whats-new/2021/11/visualize-kubernetes-clusters-one-place-amazon-eks-connector-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [venturebeat.com: Amazon’s AWS expands free ‘egress’ data transfer limits](https://venturebeat.com/2021/11/25/amazons-aws-expands-free-egress-data-transfer-limits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linux.slashdot.org: AWS Embraces Fedora Linux for Its Cloud-Based 'Amazon' Linux](https://linux.slashdot.org/story/21/11/27/0328223/aws-embraces-fedora-linux-for-its-cloud-based-amazon-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS announces the new **Amazon Inspector** for continual vulnerability management](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techcrunch.com: AWS to launch over 30 new Local Zones internationally starting' in 2022](https://techcrunch.com/2021/12/02/aws-to-launch-over-30-new-local-zones-starting-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [venturebeat.com: 6 big Kubernetes container security launches at AWS re:Invent' 2021](https://venturebeat.com/2021/12/03/6-big-kubernetes-container-security-launches-at-aws-reinvent-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes.com: AWS re:Invent - A Roundup Of Container Services Announcements](https://www.forbes.com/sites/janakirammsv/2021/12/03/aws-reinventa-roundup-of-container-services-announcements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Recap of AWS re:Invent 2021](https://www.infoq.com/news/2021/12/recap-reinvent-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -55,6 +62,7 @@
   - [infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ' Deployments](https://www.infoq.com/news/2022/01/aws-rds-readable-standby)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing Amazon Elastic File System Replication](https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-elastic-file-system-replication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Amazon Announces Elastic File System Replication for Multi-Region' Deployments](https://www.infoq.com/news/2022/02/aws-efs-replication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@fabrizio-cafolla: Dockerize Python for AWS Lambda — Deploy with' GitHub Workflow](https://medium.com/@fabrizio-cafolla/dockerize-python-for-aws-lambda-deploy-with-github-workflow-9a930c1e86b1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Announcing the general availability of AWS Backup for Amazon S3](https://aws.amazon.com/about-aws/whats-new/2022/02/general-availability-aws-backup-amazon-s3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: HashiCorp Adds Consul and Vault to Cloud Platform for AWS](https://thenewstack.io/hashicorp-adds-consul-and-vault-to-cloud-platform-for-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon EKS clusters now support user authentication with OIDC compatible identity providers](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -111,14 +119,7 @@
   - [AWS Config supports recording exclusions by resource type](https://aws.amazon.com/about-aws/whats-new/2023/06/aws-config-recording-exclusions-resource-type)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon ECS and AWS Fargate now integrate with Amazon EBS](https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-ecs-fargate-integrate-ebs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Providers
-
-### AWS EKS
-
-#### Security
-
-  - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

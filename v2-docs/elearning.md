@@ -3,13 +3,16 @@
 !!! info "Architectural Context"
     Detailed reference for Elearning in the context of Career & Industry.
 
-## Artificial Intelligence
+## Standard Reference
 
-### Machine Learning
+  - [tutorialspoint.com](http://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Udemy.com](https://www.udemy.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Udacity.com](https://eu.udacity.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/javarevisited: 11 Best Java Microservices Courses with Spring' Boot and Spring Cloud in 2022](https://medium.com/javarevisited/10-best-java-microservices-courses-with-spring-boot-and-spring-cloud-6d04556bdfed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-#### Google Courses
-
-  - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's formal, highly optimized machine learning crash course. Grounding indicates it offers a highly technical path for systems engineers wishing to deploy AI models in container environments. [SPANISH CONTENT]
 ## Data Architecture
 
 ### Databases
@@ -39,16 +42,10 @@
 #### Platforms (1)
 
   - **(2024)** [GCF LearnFree.org](https://www.learnfree.org/en) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental learning portal designed for absolute beginners to build basic digital literacy and standard productivity skills. Sits outside core cloud-native engineering pathways.
-### Infrastructure Automation
-
-#### Tutorials
-
-  - [learnitguide.net 🌟](https://www.learnitguide.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A systematic, text-based documentation portal offering modular training on enterprise Linux administration, automation, bash script configurations, and core networking blueprints.
 ### Interactive Learning
 
 #### Platforms (2)
 
-  - [katacoda.com](https://www.katacoda.com)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Formerly the premier interactive browser-based terminal platform for testing and learning Kubernetes, Docker, and Linux configuration on-demand. Live Grounding indicates the platform was retired by O'Reilly, rendering it a legacy archive link.
   - [codecademy.com](https://www.codecademy.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive web training platform focusing on programming syntax, web development loops, and fundamental systems programming. Excellent for non-systems developers seeking to transition to infra code.
   - [codewars.com](https://www.codewars.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An algorithmic development arena where engineers solve progressive code katas and refine implementation logic using community review and continuous feedback loops.
 ### Professional Certifications
@@ -80,7 +77,7 @@
 #### Bootcamps
 
   - **(2024)** [open-bootcamp.com](http://open-bootcamp.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formerly a free, Spanish-language software developer bootcamp offering continuous programming learning. Grounding tracks show the platform has shifted focus and remains mostly inactive. [SPANISH CONTENT]
-#### Tutorials (1)
+#### Tutorials
 
   - **(2024)** [vogella.com](http://www.vogella.com/tutorials) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive source of systematic software development tutorials covering Java engineering, Eclipse integration, Git architecture, and Android paradigms. Highly valued for raw syntax and framework details.
   - [riptutorial.com 🌟](https://riptutorial.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An invaluable, community-driven aggregation of technical tutorials constructed by parsing Stack Overflow documentation. Offers exhaustive syntax and API code patterns.
@@ -99,17 +96,12 @@
 #### OpenShift
 
   - **(2021)** [tutorialspoint.com/openshift](https://www.tutorialspoint.com/openshift/index.htm) 🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A structured, introductory tutorial covering Red Hat OpenShift cluster components, deployment mechanisms, and basic developer workflows. Best as a baseline primer for legacy container modernization projects.
-### Enterprise Linux
-
-#### Training
-
-  - **(2025)** [redhatgov.io](http://redhatgov.io) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's dedicated architectural training blueprint designed for secure governmental and enterprise environments. Focuses on orchestrating compliant private clouds and enterprise Linux configurations.
-### Infrastructure Automation (1)
+### Infrastructure Automation
 
 #### Real-world Labs
 
   - [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated GitHub repository containing end-to-end real-world DevOps projects. Implements standard infrastructure-as-code deployments, multi-tier CI/CD pipelines, and structured orchestration designs.
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)
 

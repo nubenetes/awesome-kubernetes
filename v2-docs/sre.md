@@ -3,6 +3,25 @@
 !!! info "Architectural Context"
     Detailed reference for Sre in the context of Platform & Site Reliability.
 
+## Standard Reference
+
+  - [wikipedia: Site Reliability Engineering](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [overops.com: DevOps vs. SRE: What’s the Difference Between Them, and Which' One Are You?](https://blog.overops.com/devops-vs-sre-whats-the-difference-between-them-and-which-one-are-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: SRE vs. DevOps: SRE Is to DevOps What Scrum Is to Agile](https://dzone.com/articles/sre-vs-devopssre-is-to-devops-what-scrum-is-to-agi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: DevOps vs. SRE](https://www.cncf.io/blog/2020/07/17/site-reliability-engineering-sre-101-with-devops-vs-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kelda.io: Why SREs Should be Responsible for Development Environments](https://kelda.io/blog/sres-should-manage-development-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hernan-david-hd.medium.com: 5 pilares del SRE/DevOps](https://hernan-david-hd.medium.com/5-pilares-del-sre-devops-f16e45f8d3fd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hernan-david-hd.medium.com: Breaking down SRE/DevOps into 5 key areas](https://hernan-david-hd.medium.com/breaking-down-sre-devops-into-5-key-areas-5aacf40e8392)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackpulse.com: Managing Reliability for Monoliths vs. Microservices: The' Challenges for SREs](https://stackpulse.com/blog/monoliths-vs-microservices-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackpulse.com: Managing Reliability for Monoliths vs. Microservices: Best' Practices for SREs](https://stackpulse.com/blog/monoliths-vs-microservices-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackpulse.com: No, SRE Is Not the New DevOps – Unless It Is](https://stackpulse.com/blog/no-sre-is-not-the-new-devops-unless-it-is)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Agile vs. DevOps vs. SRE… it’s not OR, it’s AND !](https://medium.com/@ta.abhisingh/agile-vs-devops-vs-sre-its-not-or-it-s-and-aa312904e577)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blogs.letusdevops.com: How much programming should I know for DevOps/SRE' domain.](https://blogs.letusdevops.com/p/how-much-programming-should-i-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller' than you think](https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.acethecloud.com: A Step-by-Step Guide to Calculate SLAs, SLIs, and' SLOs for Your IT Services](https://blog.acethecloud.com/a-step-by-step-guide-to-calculating-slas-slis-and-slos-for-your-it-services-6f0a07b67bb5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/picsart-engineering: Prioritizing Development Efforts with SLOs' in Microservices](https://medium.com/picsart-engineering/prioritizing-development-efforts-with-slos-in-microservices-109ecd9b9b92)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Education
 
 ### Software Engineering
@@ -124,5 +143,5 @@
   - [circonus.com: Monitoring for Success: What All SREs Need to Know](https://www.circonus.com/2021/04/monitoring-for-success-what-all-sres-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical evaluation of telemetry and metric requirements for SRE. Discusses the selection of appropriate service objectives and data collection frequencies.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md) | [Devops](./devops.md)
+💡 **Explore Related:** [Devops](./devops.md) | [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md)
 

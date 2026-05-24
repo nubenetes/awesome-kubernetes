@@ -5,6 +5,9 @@
 
 ## Standard Reference
 
+  - [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cloud-financial-management/understanding-your-aws-cost-datasets-a-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Announcing General Availability of AWS Cost Anomaly Detection](https://aws.amazon.com/blogs/aws-cloud-financial-management/announcing-general-availability-of-aws-cost-anomaly-detection)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard' Reserved Instances](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ec2.shop: Compare AWS EC2 instance price from the CLI](https://ec2.shop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: AWS Launches Low-Cost Burstable T4g Instances Powered by AWS' Graviton2](https://www.infoq.com/news/2020/09/aws-ec2-t4g-instances)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -18,10 +21,11 @@
   - [aws.amazon.com: Exploring Data Transfer Costs for AWS Managed Databases](https://aws.amazon.com/blogs/architecture/exploring-data-transfer-costs-for-aws-managed-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Announces Data Transfer Price Reduction for AWS PrivateLink, AWS Transit Gateway, and AWS Client VPN services](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-data-transfer-price-reduction-privatelink-transit-gateway-client-vpn-services/?nc1=h_ls)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [topcloudops.com: Optimizing AWS RDS Cost](https://topcloudops.com/blog-detail?id=030b1031-8bc8-4bc5-8f7a-417950005b97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Manage Amazon S3 storage costs granularly and at scale using S3 Intelligent-Tiering](https://aws.amazon.com/blogs/storage/manage-amazon-s3-storage-costs-granularly-and-at-scale-using-s3-intelligent-tiering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

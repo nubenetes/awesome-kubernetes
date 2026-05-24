@@ -5,89 +5,184 @@
 
 ## Standard Reference
 
+  - [jfrog.com: A Beginner’s Guide to Understanding and Building Docker Images 🌟](https://jfrog.com/learn/cloud-native/how-to-build-docker-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [adictosaltrabajo.com: Cómo crear y desplegar microservicios con Spring Boot, Spring Cloud Netflix y Docker](https://adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.adoptium.net: Using Jlink in Dockerfiles instead of a JRE](https://adoptium.net/news/2021/08/using-jlink-in-dockerfiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [matt-rickard.com: An Overview of Docker Desktop Alternatives](https://mattrickard.com/docker-desktop-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: How Docker broke in half](https://www.infoworld.com/article/2269272/how-docker-broke-in-half.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: Docker really did change the world](https://www.infoworld.com/article/2270814/docker-really-did-change-the-world.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: How to Share Data Between Docker Containers](https://thenewstack.io/containers/how-to-share-data-between-docker-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acloudguru.com: Docker COPY vs ADD: What’s the difference?](https://www.pluralsight.com/resources/blog/cloud/docker-copy-vs-add-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hostinger.in: What Is Docker and How Does It Work? – Docker Explained](https://www.hostinger.com/in/tutorials/what-is-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Top 20 Dockerfile best practices 🌟](https://www.sysdig.com/learn-cloud-native/dockerfile-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.docker.com: docker buildx imagetools](https://docs.docker.com/reference/cli/docker/buildx/imagetools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/pabpereza/curated-dockerfiles-examples: Curated Dockerfiles examples](https://github.com/pabpereza/containers-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerjournal.com: What’s the Difference Between Docker and Kubernetes?](https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [codefresh.io: Docker anti-patterns 🌟](https://octopus.com/blog/docker-anti-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security](https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [slim.ai](https://www.root.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnkube.com/blog/smaller-docker-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jpetazzo.github.io: Anti-Patterns When Building Container Images](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - ``BUILDKIT_INLINE_CACHE=1 build-arg`` is a neat flag that you could add to your docker build to reduce the build time upto 89%
+  - [Top 50 Docker Tools](https://blog.inedo.com/devops/top-50-docker-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sematext: Monitor Docker Metrics & Logs 🌟](https://sematext.com/capabilities/container-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/2257118/dockers-compose-specification-is-now-an-open-standard.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.com/software/2020/04/08/compose-yourselves-docker-has-published-multi-container-app-spec-needs-contributors-to-help-maintain-and-develop-it/311866)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [releasehub.com: 6 Docker Compose Best Practices for Dev and Prod](https://release.com/blog/6-docker-compose-best-practices-for-dev-and-prod)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techcommunity.microsoft.com: IIS Central Certificate Store and Windows containers](https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Portainer Community Edition](https://www.portainer.io/install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/learn/devops/alternatives-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.logrocket.com: Top Docker alternatives for 2022](https://blog.logrocket.com/docker-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Podman.io](https://podman.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and' Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Play with docker 🌟](https://labs.play-with-docker.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Strategies of docker images optimization](https://medium.com/sciforce/strategies-of-docker-images-optimization-2ca9cc5719b6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Docker explained, an introductory guide to docker](https://dzone.com/articles/docker-explained-an-introductory-guide-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: everything you need to know about docker](https://dzone.com/articles/everything-you-need-to-know-about-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [**GitHub build-push-action**](https://github.com/docker/build-push-action) <span class='md-tag md-tag--info'>⭐ 5280</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [itnext.io: Getting Started with Docker: Facts You Should Know 🌟](https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: What is Docker, Why should you use it in simple words](https://medium.com/@shahinghasemy/what-is-docker-why-should-you-use-it-in-simple-words-cc5e6160f9db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Top Questions for Getting Started with Docker 🌟](https://www.docker.com/blog/top-questions-for-getting-started-with-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: How to Start Working With Docker Containers](https://medium.com/swlh/how-to-start-working-with-docker-containers-72b73ca60e0c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Mitigating DevOps Repository Risks](https://dzone.com/articles/mitigating-devops-repository-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Top 18 Docker commands for Automation Tester/Devops/SDET/Test Lead? 🌟](https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Gentle Introduction to Using a Docker Container as a Dev Environment 🌟](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [martinheinz.dev: It's Time to Forget About Docker 🌟](https://martinheinz.dev/blog/35)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Docker Hub Experimental CLI tool](https://www.docker.com/blog/docker-hub-experimental-cli-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part' 1 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part' 2 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to Use Cron With Your Docker Containers](https://www.cloudsavvyit.com/9033/how-to-use-cron-with-your-docker-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for' Artifactory Users](https://www.infoq.com/news/2021/01/docker-jfrog-partnership)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pythonspeed.com: The worst so-called “best practice” for Docker](https://pythonspeed.com/articles/security-updates-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Making environment variables accessible in front-end' containers](https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch' Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [r-bloggers.com: Dockerizing Shiny Applications](https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pythonspeed.com: Docker can slow down your code and distort your benchmarks](https://pythonspeed.com/articles/docker-performance-overhead)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [turbofuture.com: A Beginners Guide to Containers and Docker](https://turbofuture.com/computers/introductiontodocker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.gougousis.net: File Permissions: the painful side of Docker 🌟](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Push Docker Image To Docker Hub](https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Docker 101!](https://dev.to/kubona_my/docker-101-124e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pawelurbanek.com: asdf and Docker for Managing Local Development Dependencies](https://pawelurbanek.com/asdf-docker-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tecmint.com: How to Install Docker on Rocky Linux and AlmaLinux](https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to SSH into a Docker container](https://www.cloudsavvyit.com/13937/how-to-ssh-into-a-docker-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to use docker cp to copy files between host and containers](https://www.cloudsavvyit.com/13987/how-to-use-docker-cp-to-copy-files-between-host-and-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: Deploying a Java War in a Docker Container](https://www.baeldung.com/docker-deploy-java-war)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [returngis.net: Explorar gráficamente el contenido de un volumen de Docker](https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: What is a container image?](https://opensource.com/article/21/8/container-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zdnet.com: Docker changes its subscription plans, usage rules, and product' line](https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [servethehome.com: Docker Abruptly Starts Charging Many Users for Docker' Desktop](https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques](https://blog.aquasec.com/container-isolation-techniques)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to Pass Environment Variables to Docker Containers](https://www.cloudsavvyit.com/14081/how-to-pass-environment-variables-to-docker-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: One does not "just containerize" an app](https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How To Clean Up and Delete Docker Images](https://www.cloudsavvyit.com/14191/how-to-clean-up-and-delete-docker-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: How to create a production Docker image](https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: How to run docker on Windows without Docker Desktop](https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Beginner's guide to Docker and Docker CLI commands](https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Learn How to Deploy 12 Apps to AWS, Azure, & Google Cloud](https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to Assign a Static IP to a Docker Container](https://www.cloudsavvyit.com/14508/how-to-assign-a-static-ip-to-a-docker-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to Inspect a Docker Image’s Content Without Starting' a Container](https://www.cloudsavvyit.com/14663/how-to-inspect-a-docker-images-content-without-starting-a-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Why You Should Start Using Docker Right Now](https://www.freecodecamp.org/news/why-you-should-start-using-docker-now)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How (and Why) to Run Docker Inside Docker](https://www.cloudsavvyit.com/14890/how-and-why-to-run-docker-inside-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: What’s the Difference Between Exposing and Publishing' a Docker Port?](https://www.cloudsavvyit.com/14880/whats-the-difference-between-exposing-and-publishing-a-docker-port)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [clavinjune.dev: Working With Remote Docker Using Docker Context](https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to Add a Volume to an Existing Docker Container](https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: Learning Containers From The Bottom Up | Ivan Velichko' 🌟🌟🌟](https://iximiuz.com/en/posts/container-learning-path)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: The Time to Decide on Docker Desktop Has Arrived](https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How to Run Docker in Rootless Mode](https://thenewstack.io/how-to-run-docker-in-rootless-mode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mjovanc.com: Get started with Docker and Docker Compose](https://mjovanc.com/get-started-with-docker-and-docker-compose-cddcb5a3f3b9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Docker: Explained to a 5 year old. 👶🏻](https://dev.to/dhravya/docker-explained-to-a-5-year-old-2cbg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nishnit007.medium.com: A Journey from Dockerfile to Application Deployment' on Kubernetes For Beginners](https://nishnit007.medium.com/a-journey-from-dockerfile-to-application-deployment-on-kubernetes-for-beginners-fea1eb0f3581)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear' Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Docker 101: Introduction to Docker](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@joelbelton: Optimising Docker Performance — The Key 4 Techniques' You Need](https://medium.com/@joelbelton/optimising-docker-performance-the-key-4-techniques-you-need-6440cfebb650)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: Docker — Limit Container CPU Usage 🌟](https://medium.com/geekculture/docker-limit-container-cpu-usage-11eb8ee0de5a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fatehmuhammad.medium.com: Introduction to Docker | part 1](https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudnativeislamabad.hashnode.dev: Introduction to Docker | part 1 🌟](https://cloudnativeislamabad.hashnode.dev/introduction-to-docker-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docker-curriculum.com: A Docker Tutorial for Beginners 🌟](https://docker-curriculum.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devgenius.io: Container — Namespace Introduction](https://blog.devgenius.io/container-namespace-introduction-6a1e26f8707a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [viblo.asia: How to prevent out-of-disk space when using Docker?](https://viblo.asia/p/how-to-prevent-out-of-disk-space-when-using-docker-english-WR5JRDBrVGv)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: What Actually Happens When You Publish a Container Port 🌟](https://iximiuz.com/en/posts/docker-publish-container-ports)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: How To Publish a Port of a Running Container 🌟](https://iximiuz.com/en/posts/docker-publish-port-of-running-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@BeNitinAgarwal: Lifecycle of Docker Container](https://medium.com/@BeNitinAgarwal/lifecycle-of-docker-container-d2da9f85959)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Docker Compose: What’s New, What’s Changing, What’s Next](https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@i180826: Using Docker to build React App](https://medium.com/@i180826/using-docker-to-build-react-app-49862615e6f8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Simplify Your Dockerfile wiyth Rust programming language| Kamesh' Sampath](https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kennybrast.medium.com: How I Used Docker to Create a Python Dev Environment](https://kennybrast.medium.com/how-i-used-docker-to-create-a-python-dev-environment-48a5d31ae277)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Docker 101 (Workshop) how an application can be run using Docker' containers. First, you'll learn how to take an application all the way from source code to a running container. Docker-compose, networking, multi-stage and more 🌟](https://www.youtube.com/watch?v=0mxhS7H6bxM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [codementor.io: Docker: What's Under the Hood?](https://www.codementor.io/blog/docker-technology-5x1kilcbow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/javinpaul: My Favorite Free Courses to Learn Docker and Containers' in 2023](https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tonylixu.medium.com: Docker RUN vs CMD vs ENTRYPOINT](https://tonylixu.medium.com/docker-run-vs-cmd-vs-entrypoint-57f248b95889)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive' Guide](https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Docker : From Zero to Hero 🛸 ( part 1) | Prasenjeet Kumar](https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Components of Container Management](https://dzone.com/articles/components-of-container-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: How to Build Docker Image : Comprehensive Beginners Guide](https://devopscube.com/build-docker-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pointbase.hashnode.dev: Understand Docker layers by example : RUN instructions' Impact](https://pointbase.hashnode.dev/understand-docker-layers-by-example-run-instructions-impact)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.docker.com: Intro Guide to Dockerfile Best Practices 🌟](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices](https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [testdriven.io: Docker Best Practices for Python Developers](https://testdriven.io/blog/docker-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Top 8 Docker Best Practices for using Docker in Production 🌟](https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Top 5 Docker Best Practices](https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stevelasker.blog: Docker Tagging: Best practices for tagging and versioning' docker images](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Dockerfile Best Practices for Developers | Pavan Belagatti](https://faun.pub/dockerfile-best-practices-for-developers-87a2c19b4abe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [azeynalli1990.medium.com: 15 Best Practices when working with Docker](https://azeynalli1990.medium.com/15-best-practices-when-working-with-docker-720d2d8de202)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hwchiu.medium.com: Docker Networking Model — Introduction](https://hwchiu.medium.com/docker-networking-model-introduction-194a2a2c9b68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Understanding Docker Volumes, Mounts and Layers and How to Manage' Data in Containers](https://medium.com/nycdev/understanding-docker-volumes-mounts-and-layers-9fa17befa493)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [spacelift.io: Docker Volumes – Guide with Examples](https://spacelift.io/blog/docker-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docs.netapp.com: Work with docker volumes - Astra Trident 🌟](https://docs.netapp.com/us-en/trident/trident-docker/volumes-docker.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: 5 Simple Tips For Debugging Docker Containers 🌟](https://betterprogramming.pub/5-simple-tips-for-debugging-docker-containers-271cb3dee77a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟](https://iximiuz.com/en/posts/docker-debug-slim-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: 9 Docker Extensions Every Developer Must Try](https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Saniewski/mongo-express-docker-extension](https://github.com/Saniewski/mongo-express-docker-extension) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [medium: Docker anti-patterns | Codefresh](https://medium.com/containers-101/docker-anti-patterns-ad2a1fcd5ce1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [clickittech.com: The Ultimate Docker Security Best Practices for Your Node.js' Application](https://www.clickittech.com/devops/docker-security-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infosecwriteups.com: Attacking and securing Docker containers](https://infosecwriteups.com/attacking-and-securing-docker-containers-cc8c80f05b5b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [securitylabs.datadoghq.com: Container security fundamentals: Exploring containers' as processes](https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itsopensource.com: How to Reduce Node Docker Image Size by 10X](https://itsopensource.com/how-to-reduce-node-docker-image-size-by-ten-times)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.bitsrc.io: Best Practices for Writing a Dockerfile](https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes' Environments) 🌟](https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Building Docker Images The Proper Way 🌟](https://itnext.io/building-docker-images-the-proper-way-3c9807524582)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Reduce the size of container images with DockerSlim](https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Reduce Your Image Size with the Dive-In Docker Extension](https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/vantageai: How to make your Python Docker images secure, fast' & small 🌟](https://medium.com/vantageai/how-to-make-your-python-docker-images-secure-fast-small-b3a6870373a0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devgenius.io: DevOps in K8s — Write Dockerfile Efficiently 🌟](https://blog.devgenius.io/devops-in-k8s-write-dockerfile-efficiently-37eaedf87163)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Slim Docker Images for Java](https://piotrminkowski.com/2023/11/07/slim-docker-images-for-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bhupesh.me: How I reduced the size of my very first published docker image' by 40% - A lesson in dockerizing shell scripts 🌟](https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@RoussiAbel: Optimizing java base docker images size from 674Mb' to 58Mb](https://medium.com/@RoussiAbel/optimizing-java-base-docker-images-size-from-674mb-to-58mb-c1b7c911f622)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pythonspeed.com: Docker BuildKit: faster builds, new features, and now it’s' stable](https://pythonspeed.com/articles/docker-buildkit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [pauldally.medium.com: Structuring Dockerfiles For Productivity](https://pauldally.medium.com/structuring-dockerfiles-for-productivity-2681de4815a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into' AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dive 🌟](https://github.com/wagoodman/dive) <span class='md-tag md-tag--info'>⭐ 53971</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [ctop 🌟](https://github.com/bcicen/ctop) <span class='md-tag md-tag--info'>⭐ 17741</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [dev.to: Use Kool to Dockerize Your Local Development Environment the Right' Way](https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟](https://github.com/stepchowfun/docuum) <span class='md-tag md-tag--info'>⭐ 693</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudsavvyit.com: 10 Tools That Complement Docker](https://www.cloudsavvyit.com/15158/10-tools-that-complement-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cybersecsi/RAUDI](https://github.com/cybersecsi/RAUDI) <span class='md-tag md-tag--info'>⭐ 559</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [grosser/preoomkiller](https://github.com/grosser/preoomkiller) <span class='md-tag md-tag--info'>⭐ 78</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ory/dockertest](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4517</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
@@ -95,14 +190,22 @@
   - [ttl.sh: Anonymous & ephemeral Docker image registry 🌟](https://ttl.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [buildg: Interactive debugger for Dockerfile 🌟](https://github.com/ktock/buildg) <span class='md-tag md-tag--info'>⭐ 1495</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg](https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/google/go-containerregistry 🌟](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3881</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) <span class='md-tag md-tag--info'>⭐ 51111</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [docker.com: Docker and Ambassador Labs Announce Telepresence for Docker,' Improving the Kubernetes Development Experience 🌟](https://www.docker.com/blog/telepresence-for-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) <span class='md-tag md-tag--info'>⭐ 24618</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@adeelsubhan25: How to setup and build Docker Images on Windows](https://medium.com/@adeelsubhan25/how-to-setup-and-build-docker-images-on-windows-baf252152aca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: a beginners guide to docker - how to create a client server' side with docker compose](https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Announcing the Compose Specification 🌟](https://www.docker.com/blog/announcing-the-compose-specification)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Visual docker-compose.yml file generator 🌟](https://nuxx.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: How can we easily and visually explain the Docker Compose 🌟](https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [geshan.com.np: Postgres with Docker and Docker compose a step-by-step' guide for beginners](https://geshan.com.np/blog/2021/12/docker-postgres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [codesolid.com: How To Use Docker and Docker Compose With Python](https://codesolid.com/how-to-use-docker-with-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Windows Containers (personal) cheat sheet](https://medium.com/@sebagomez/windows-containers-personal-cheat-sheet-95c1c4d6bdf5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer](https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubedex.com: Base images comparison](https://kubedex.com/base-images)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard,' minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why' should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -112,27 +215,21 @@
   - [altoros.com: Streamlining the Creation of Docker Images with Cloud Native' Buildpacks](https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks](https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/pmbanugo: Goodbye Dockerfiles: Build Secure & Optimised Node.js Container' Images with Cloud Native Buildpacks](https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nerdctl 🌟](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10104</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [img](https://github.com/genuinetools/img) <span class='md-tag md-tag--info'>⭐ 3986</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [jib](https://github.com/GoogleContainerTools/jib) <span class='md-tag md-tag--info'>⭐ 14402</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [kaniko](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15762</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Alternatives to Docker Desktop](https://dzone.com/articles/alternatives-to-docker-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application](https://dzone.com/articles/docker-alternatives-10-alternatives-to-docker-for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Development Tools
+## Cloud Native Security
 
-### Local Kubernetes Environments
+### Supply Chain Security
 
-#### Guides and Workflows
+#### Container Vulnerabilities
 
-  - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
-## Infrastructure Standards
-
-### Container Registry
-
-#### Legacy Resources
-
-  - **(2026)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Retired Docker documentation dealing with configurations of insecure, unencrypted private registries. Preserved for diagnosing vintage local developer configurations.
+  - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed' via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical threat dispatch chronicling how malicious actors injected cryptojacking malware directly into public Docker Hub registries. Highlights the catastrophic operational implications of lack of supply-chain validation processes in modern registries.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

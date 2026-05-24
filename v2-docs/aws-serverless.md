@@ -3,6 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Serverless in the context of Cloud Providers (Hyperscalers).
 
+## Standard Reference
+
+  - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](http://www.giantflyingsaucer.com/blog/?p=5730)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.powerupcloud.com: AWS inventory details in CSV using lambda](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.usejournal.com: Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Going Serverless (on AWS)](https://medium.com/galvanize/going-serverless-on-aws-116a04a0defd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda](https://liavyona09.medium.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@andrewjr350: Misunderstanding of Serverless (AWS)](https://medium.com/@andrewjr350/misunderstanding-of-serverless-aws-835c7076ea4c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/aws-serverless-microservices-with-patterns-best: Cloud-Native' Microservices Evolves to AWS Serverless Event-driven Architectures](https://medium.com/aws-serverless-microservices-with-patterns-best/cloud-native-microservices-evolves-to-aws-serverless-event-driven-architectures-9a38c473f4f8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Exploring the Serverless Event-Driven Architecture](https://betterprogramming.pub/exploring-the-serverless-event-driven-architecture-8d6bda93e823)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and' Performance](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/awesome-cloud: AWS — Difference between Serverless (Lambda) and' Containers (Kubernetes)](https://medium.com/awesome-cloud/aws-difference-between-serverless-lambda-and-containers-kubernetes-serverless-vs-containers-lambda-vs-k8s-a166931870a2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.plainenglish.io: Let's design a serverless ETL pipeline with AWS services](https://aws.plainenglish.io/lets-design-a-serverless-etl-pipeline-with-aws-services-9ab88c95afd4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Serverless With Spring Boot & AWS Lambda](https://faun.pub/serverless-with-spring-boot-aws-lambda-bc76c1de2b12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@dan.avila7: Prueba tus proyectos serverless de forma local con' serverless-offline](https://medium.com/@dan.avila7/prueba-tus-proyectos-serverless-de-forma-local-con-serverless-offline-2e555f2b5e9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/lego-engineering: A Journey into Serverless and Handling Step' Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step' Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@sassenthusiast: Serverless Simplified: Integrating Docker Containers' into AWS Lambda via serverless.yml](https://medium.com/@sassenthusiast/serverless-simplified-integrating-docker-containers-into-aws-lambda-via-serverless-yml-cdef9be1681e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@HirenDhaduk1: Best choice to run your containers: AWS FARGATE' or AWS LAMBDA or Both?](https://medium.com/@HirenDhaduk1/best-choice-to-run-your-containers-aws-fargate-or-aws-lambda-or-both-d9e14685a363)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS SAM CLI Advanced Serverless Deployments](https://medium.com/@mertmengu/aws-sam-cli-advanced-serverless-deployments-07432fee87ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Container-Orchestration
 
 ### AWS ECS
@@ -149,5 +172,5 @@
   - [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive operational guide explaining how to declare, compile, and manage AWS Lambda functions natively within Terraform infrastructure-as-code patterns. It maps IAM role dependencies, source code hash tracking, and automated zip compilation cycles. This is an essential blueprint for teams prioritizing Terraform-centric CI/CD environments.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

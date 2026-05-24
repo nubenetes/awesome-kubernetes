@@ -5,20 +5,48 @@
 
 ## Standard Reference
 
+  - [AWS Security Blog](http://blogs.aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Most Popular AWS Security Blog Posts in 2015](http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Announcing Industry Best Practices for Securing AWS Resources](http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Most Viewed AWS Security Blog Posts so Far in 2016](http://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Restrict Amazon S3 Bucket Access to a Specific IAM Role](http://blogs.aws.amazon.com/security/post/TxK5WUJK3DG9G8/How-to-Restrict-Amazon-S3-Bucket-Access-to-a-Specific-IAM-Role)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency](http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Security Blog: In Case You Missed These: AWS Security Blog Posts from June, July, and August 2016](http://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acloudguru.com: How to audit and secure an AWS account](https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.aws.amazon.com: AWS Security Reference Architecture (AWS SRA) 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Identity and Access Management - Getting Started](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Identity and Access Management (IAM) best practices in 2016](http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [keepler.io: Gestionando el control de accesos en nuestro data lake en AWS](https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Automatically Update Your Security Groups for Amazon CloudFront and AWS WAF by Using AWS Lambda (boto3 python)](http://blogs.aws.amazon.com/security/post/Tx1LPI2H6Q6S5KC/How-to-Automatically-Update-Your-Security-Groups-for-Amazon-CloudFront-and-AWS-W)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests](http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS WAF sample rules](https://github.com/amazon-archives/aws-waf-sample) <span class='md-tag md-tag--info'>⭐ 511</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Security](https://aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Security docs](https://docs.aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4#.qyixu5mu3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Oracle Database Encryption Options on Amazon RDS](https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Learn AWS Security Fundamentals with Free and Online Training](https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Inspector Announces General Availability for Windows](https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [encrypt and decrypt data: Importing Key Material in AWS Key Management Service' (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Encrypt global data client-side with AWS KMS multi-Region keys](https://aws.amazon.com/blogs/security/encrypt-global-data-client-side-with-aws-kms-multi-region-keys)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Removing the Bastion Host and Improving the Security in AWS](https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to automate AWS account creation with SSO user assignment](https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Security practices in AWS multi-tenant SaaS environments](https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Handling Exposed AWS Access Key](https://faun.pub/handling-exposed-aws-access-key-b053362abd73)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/aws-samples: How to set up continuous replication from your third-party' secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@neonforge: Why You Shouldn’t Use AWS managed KMS Keys](https://medium.com/@neonforge/why-you-shouldnt-use-aws-managed-kms-keys-83d9eb9d5090)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin.com: Complexities of AWS Security Groups in the Cloud World](https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awslabs/cognito-at-edge](https://github.com/awslabs/cognito-at-edge) <span class='md-tag md-tag--info'>⭐ 238</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/aws-samples: Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples) <span class='md-tag md-tag--info'>⭐ 302</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.parttimepolymath.net: No more AWS Access Keys?](https://medium.parttimepolymath.net/no-more-aws-access-keys-13a3c3f2337a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [darryl-ruggles.cloud: AWS SSO Credentials With Multiple Accounts](https://darryl-ruggles.cloud/aws-sso-credentials-with-multiple-accounts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/awslabs/sustainability-scanner: Sustainability Scanner (SusScanner)](https://github.com/awslabs/sustainability-scanner) <span class='md-tag md-tag--info'>⭐ 123</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -31,13 +59,16 @@
   - [aws.amazon.com: IAM Access Analyzer Update – Policy Validation](https://aws.amazon.com/blogs/aws/iam-access-analyzer-update-policy-validation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [netflixtechblog.com: ConsoleMe: A Central Control Plane for AWS Permissions' and Access](https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudkatha.com: Difference between Root User and IAM User in AWS You Need' to Know](https://cloudkatha.com/difference-between-root-user-and-iam-user-in-aws-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ben11kehoe.medium.com: AWS Authentication: Principals (users and roles)' in AWS IAM](https://ben11kehoe.medium.com/principals-in-aws-iam-38c4a3dc322a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Incorrect IAM Policy Raised Questions About AWS Access to S3' Data](https://www.infoq.com/news/2022/01/aws-iam-s3-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iann0036/iamlive](https://github.com/iann0036/iamlive) <span class='md-tag md-tag--info'>⭐ 3381</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [awsiam.info: AWS IAM Search](https://www.awsiam.info)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [daan.fyi: AWS IAM Demystified](https://www.daan.fyi/writings/iam)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [willdady/cdk-iam-credentials-rotator: IAM Credentials Rotator](https://github.com/willdady/cdk-iam-credentials-rotator) <span class='md-tag md-tag--info'>⭐ 17</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: When and where to use IAM permissions boundaries](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Extend AWS IAM roles to workloads outside of AWS with IAM Roles Anywhere 🌟](https://aws.amazon.com/blogs/security/extend-aws-iam-roles-to-workloads-outside-of-aws-with-iam-roles-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [binx.io: Working with AWS Permission Policies 🌟](https://binx.io/2022/07/13/working-with-aws-permission-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Use IAM Access Analyzer policy generation to grant fine-grained permissions for your AWS CloudFormation service roles](https://aws.amazon.com/blogs/security/use-iam-access-analyzer-policy-generation-to-grant-fine-grained-permissions-for-your-aws-cloudformation-service-roles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [globaldatanet.com: .AWS IAM Identity Center Permission Management at Scale' Part 2](https://globaldatanet.com/tech-blog/aws-iam-identity-center-permission-management-at-scale-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to monitor and query IAM resources at scale – Part 1](https://aws.amazon.com/blogs/security/how-to-monitor-and-query-iam-resources-at-scale-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,35 +78,20 @@
   - [jimmydqv.com: AWS IAM Anywhere 🌟](https://jimmydqv.com/iam-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Standardize compliance in AWS using DevOps and a Cloud Center of Excellence (CCOE) approach](https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Control Tower](https://aws.amazon.com/controltower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Automate AWS Control Tower landing zone operations using' APIs](https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [doit-intl.com: AWS Firewalls 101: How and when to use each one](https://blog.doit-intl.com/aws-firewalls-101-how-and-when-to-use-each-one-d4ad8087a6b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automatically block suspicious traffic with AWS Network Firewall and Amazon GuardDuty](https://aws.amazon.com/es/blogs/security/automatically-block-suspicious-traffic-with-aws-network-firewall-and-amazon-guardduty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Blocking bots using AWS WAF](https://medium.com/cloud-techies/blocking-bots-using-aws-waf-d449e6d159ca)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Protecting your Web Application or APIs using AWS WAF](https://medium.com/avmconsulting-blog/protecting-your-web-application-or-apis-using-aws-waf-1829ff79275a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Set up global rate limiting with AWS WAF in 5 minutes](https://faun.pub/set-up-global-rate-limiting-with-aws-waf-in-5-minutes-bd43a9309683)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: AWS WAF (Web Application Firewall): Deep Dive](https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Secrets Manager controller POC: an EKS operator for automatic rotation' of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Debugging Kubernetes Secrets, Why My Pod Wouldn’t Start](https://blog.devops.dev/manage-secrets-on-aws-and-helm-as-environment-variables-f7ec998c58fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Vault](https://github.com/99designs/aws-vault) <span class='md-tag md-tag--info'>⭐ 8976</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Platform Engineering
-
-### CI-CD Security
-
-#### Azure DevOps
-
-  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
-#### Cloud Identity
-
-  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An in-depth security analysis detailing how to configure AWS OpenID Connect (OIDC) trust relationships correctly in GitHub Actions and other CI providers. Highlights major vulnerabilities arising from missing subject (sub) or audience (aud) validation and shows how to restrict access patterns safely.
-## Security
-
-### Linux Hardening
-
-#### Best Practices
-
-  - [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27424</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive, highly popular guide for securing production Linux environments. Covers SSH hardening, firewalls, user permission boundaries, 2FA, kernel optimization, audit logs, and automated vulnerability scanning.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Backup](./aws-backup.md)
 

@@ -5,26 +5,48 @@
 
 ## Standard Reference
 
+  - [inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟](https://www.inovex.de/de/blog/containers-docker-containerd-nabla-kata-firecracker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/containers/container-best-practices-what-they-are-and-why-you-should-care)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [scrivano.org: the journey to speed up running OCI containers](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Frakti](https://github.com/kubernetes-retired/frakti) <span class='md-tag md-tag--info'>⭐ 675</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Why Red Hat is investing in CRI-O and Podman](https://www.redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/podman) <span class='md-tag md-tag--info'>⭐ 31763</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — - Libpod is a library used to create container pods. Home of Podman.
+    - Libpod provides a library for applications looking to use the Container Pod concept, popularized by Kubernetes. Libpod also contains the Pod Manager tool (Podman). Podman manages pods, containers, container images, and container volumes.
+  - [Podman remote clients for macOS and Windows](https://www.redhat.com/en/blog/podman-clients-macos-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Using Podman and Docker Compose](https://www.redhat.com/en/blog/podman-docker-compose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: From Docker Compose to Kubernetes with Podman](https://www.redhat.com/en/blog/compose-kubernetes-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to replace Docker with Podman on a Mac](https://www.redhat.com/en/blog/replace-docker-podman-macos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Exploring the new Podman secret command 🌟](https://www.redhat.com/en/blog/new-podman-secrets-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to automate Podman installation and deployment using Ansible 🌟](https://www.redhat.com/en/blog/automate-podman-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to use auto-updates and rollbacks in Podman](https://www.redhat.com/en/blog/podman-auto-updates-rollbacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
+    - Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
+  - [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Build Kubernetes pods with Podman play kube](https://www.redhat.com/en/blog/podman-play-kube-updates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to replace Docker with Podman on a Mac, revisited](https://www.redhat.com/en/blog/replace-docker-podman-mac-revisited)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Create fast, easy, and repeatable containers with Podman and shell scripts](https://www.redhat.com/en/blog/create-containers-podman-quickly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: How to use Podman to get information about your containers](https://www.redhat.com/en/blog/container-information-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: 5 Podman features to try now](https://www.redhat.com/en/blog/podman-features-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com/sysadmin/quadlet-podman](https://www.redhat.com/en/blog/quadlet-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Red Hat Ecosystem Catalog](https://catalog.redhat.com/en/software/containers/explore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to use the --privileged flag with container engines](https://www.redhat.com/en/blog/privileged-flag-container-engines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Promoting container images between registries with skopeo](https://www.redhat.com/en/blog/promoting-container-images-between-registries-with-skopeo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [runc](https://github.com/opencontainers/runc) <span class='md-tag md-tag--info'>⭐ 13237</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [crun](https://github.com/containers/crun) <span class='md-tag md-tag--info'>⭐ 3933</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Conmon](https://github.com/containers/conmon) <span class='md-tag md-tag--info'>⭐ 479</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20746</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes.io: Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Docker](https://www.docker.com/products/container-runtime)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [containerd.io](https://containerd.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cri-o.io](https://cri-o.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Podman.io](https://podman.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Intro to Podman](https://developers.redhat.com/blog/2018/08/29/intro-to-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: Be careful when pulling images by short name](https://www.redhat.com/en/blog/be-careful-when-pulling-images-short-name)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [podmain.io: Announcing Podman v2](https://podman.io/blogs/2020/06/29/podman-v2-announce.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Getting started with Podman](https://www.youtube.com/watch?v=Za36qHbrf3g)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Rootless containers with Podman: The basics](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tecmint.com: How to Manage Containers Using Podman and Skopeo in RHEL 8](https://www.tecmint.com/manage-containers-using-podman-in-rhel)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Tutorial: Host a Local Podman Image Registry 🌟](https://thenewstack.io/tutorial-host-a-local-podman-image-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fedoramagazine.org: Manage containers with Podman Compose](https://fedoramagazine.org/manage-containers-with-podman-compose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Podman: Getting Started](https://medium.com/javarevisited/podman-getting-started-e7fc06961994)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [oldgitops.medium.com: Setting up Podman on WSL2 in Windows 10 🌟](https://oldgitops.medium.com/setting-up-podman-on-wsl2-in-windows-10-be2991c2d443)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Podman in Podman (Running a container within a container)](https://www.youtube.com/watch?app=desktop&v=OcHRWaC5tvY&feature=youtu.be&ab_channel=RedHat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wbhegedus.me: Configuring Podman for WSL2 🌟](https://wbhegedus.me/running-podman-on-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Using Podman Compose with Microcks: A cloud-native' API mocking and testing tool](https://developers.redhat.com/blog/2021/04/22/using-podman-compose-with-microcks-a-cloud-native-api-mocking-and-testing-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -37,10 +59,13 @@
   - [devopscube.com: Podman Tutorial For Beginners: Step by Step Guides 🌟](https://devopscube.com/podman-tutorial-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetespodcast.com: Podman, with Daniel Walsh and Brent Baude](https://kubernetespodcast.com/episode/164-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Get podman up and running on Windows using Linux](https://opensource.com/article/21/10/podman-windows-wsl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: Exploring Docker alternative — Podman](https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [darumatic.com: Podman - Introduction 🌟](https://darumatic.com/blog/podman_introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iongion.github.io: Podman Desktop Companion 🌟](https://iongion.github.io/podman-desktop-companion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [imaginarycloud.com: Podman vs Docker: What are the differences?](https://www.imaginarycloud.com/blog/podman-vs-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Run containers on Linux without sudo in Podman](https://opensource.com/article/22/1/run-containers-without-sudo-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@raghavendraguttur: Podman Containers — Beginner’s Guide](https://medium.com/@raghavendraguttur/podman-containers-beginners-guide-830b931e66f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nilesh93.medium.com: Replacing Docker Desktop with Podman and Kind in MacOS](https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Containers without Docker (podman, buildah, and skopeo)](https://dev.to/cedricclyburn/containers-without-docker-podman-buildah-and-skopeo-1eal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Podman Desktop](https://podman-desktop.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Podman expands to the Desktop](https://developers.redhat.com/articles/2022/10/24/podman-expands-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -53,34 +78,11 @@
   - [developers.redhat.com: How to pick the right container base image](https://developers.redhat.com/blog/2021/04/13/how-to-pick-the-right-container-base-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Docker, Kaniko, Buildah](https://itnext.io/docker-kaniko-buildah-209abdde5f94)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kubesimplify.com: Getting started with ko: A fast container image builder' for your Go applications](https://blog.kubesimplify.com/getting-started-with-ko-a-fast-container-image-builder-for-your-go-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Buildah.io](https://buildah.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/containers/buildah](https://github.com/containers/buildah) <span class='md-tag md-tag--info'>⭐ 8795</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [developers.redhat.com: Getting started with Buildah](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: How to live without Docker for developers - Part 1 | Migration' from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Skopeo](https://github.com/containers/skopeo) <span class='md-tag md-tag--info'>⭐ 10891</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## DevSecOps
-
-### CICD Pipeline Security
-
-#### Podman
-
-  - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates strategies for building rootless, secure continuous integration pipelines using Red Hat's Podman. Contrasts Podman's daemonless security with Docker's privileged execution models to prevent pipeline takeover attacks.
-## Infrastructure
-
-### Containerization
-
-#### Kernel Internals
-
-  - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep, interactive laboratory walk-through demonstrating how Linux Control Groups (cgroups) throttle and isolate system resources. Crucial baseline knowledge for understanding container limits in Kubernetes.
-## Observability
-
-### Logging
-
-#### Command Line Tools
-
-  - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive Terminal User Interface (TUI) written in Go for streaming and searching Kubernetes container logs. Grounding suggests that development has stalled (inactive for over 4 years), so while technically functional for local dev, tools like Stern or K9s are preferred in enterprise environments.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

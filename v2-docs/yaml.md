@@ -3,6 +3,48 @@
 !!! info "Architectural Context"
     Detailed reference for Yaml in the context of Data & Advanced Analytics.
 
+## Standard Reference
+
+  - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟](https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes](https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [abhisheksaini.hashnode.dev: YAML For Data Representation?](https://abhisheksaini.hashnode.dev/yaml-for-representation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devgenius.io: YAML with Python](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker' Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts](https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP](https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Exploring JSON, JSON5, and Circular References](https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.mariano.cloud: Do you even JSONPath?](https://blog.mariano.cloud/do-you-even-jsonpath)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jonathan_37674: How to validate Kubernetes YAML files? | ARMO](https://medium.com/@jonathan_37674/how-to-validate-kubernetes-yaml-files-armo-e45dd006d633)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [base64encode.org](https://www.base64encode.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Polaris](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3368</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [arttor/helmify](https://github.com/arttor/helmify) <span class='md-tag md-tag--info'>⭐ 1734</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thoughtworks.com: Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
+## Application Delivery and GitOps
+
+### Package Management
+
+#### Helm
+
+  - [thoughtworks.com: Helm](https://www.thoughtworks.com/radar/tools/helm)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Thoughtworks Technology Radar page validating Helm's position as the primary package manager for Kubernetes. Underlines how the server-side removal (Tiller) in Helm v3 fundamentally resolved security risks.
+  - [helm.sh](https://helm.sh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing site for Helm, containing foundational documentation, API schemas, and architecture overviews. The ultimate hub for engineers developing or consuming Kubernetes chart templates.
+## CICD Pipelines
+
+### GitOps
+
+#### Policy Enforcement
+
+  - [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical blueprint describing automated configuration pipeline testing using modern git hooks and validation platforms. Helps engineers automate linting policies directly in shared Git workflows.
 ## Data Formats
 
 ### Data Conversion
@@ -54,6 +96,13 @@
 #### JSON Operations
 
   - [thenewstack.io: Why (and How) You Should Manage JSON with SQL](https://thenewstack.io/why-and-how-you-should-manage-json-with-sql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to query and manipulate semi-structured JSON payloads natively in relational databases using modern SQL. Offers a roadmap for blending NoSQL flexibility with transactional relational databases.
+## DevSecOps
+
+### Infrastructure as Code Security
+
+#### Static Analysis
+
+  - [KubeLinter](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3450</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
 ## Infrastructure as Code
 
 ### Ansible
@@ -61,6 +110,11 @@
 #### Data Parsing
 
   - [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Presents five robust approaches to parse, filter, and modify raw JSON parameters inside automated Ansible configurations. Focuses on using native filters and Jinja2 structures to orchestrate complex environment definitions.
+### Configuration Management
+
+#### Templating
+
+  - [Kapitan: Generic templated configuration management for Kubernetes, Terraform' and other things](https://kapitan.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful configuration generator for Kubernetes and cloud platforms. Includes native cryptographic secrets handling (supporting GPG, KMS, Vault), allowing multi-environment configurations to remain secure in Git.
 ## Orchestration
 
 ### Kubernetes
@@ -76,10 +130,16 @@
 #### Infrastructure as Code (1)
 
   - **(2022)** [naml: Not another markup language](https://github.com/krisnova/naml) <span class='md-tag md-tag--info'>⭐ 1261</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative engine enabling developers to write Kubernetes configurations using type-safe Go instead of YAML. Brings compilation safety, testability, and standard Go refactoring capabilities to platform engineering.
+#### JSON Schema Databases
+
+  - [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) <span class='md-tag md-tag--info'>⭐ 337</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An automated repository of JSON Schemas extracted from official Kubernetes API definitions. While currently superseded by native validation tools, it remains an essential reference for editor integrations.
 #### Legacy Validation Tools
 
   - [instrumenta/kubeval](https://github.com/instrumenta/kubeval) <span class='md-tag md-tag--info'>⭐ 3228</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A widely historical command-line validation parser that matches local Kubernetes YAML configurations against schemas. While archived and succeeded by tools like Kubeconform, it remains a pioneering reference in cloud-native linting history.
-#### Policy Enforcement
+#### Manifest Generation
+
+  - [k8syaml.com 🌟](https://k8syaml.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, web-based tool dedicated to synthesizing clean, boilerplate Kubernetes configurations. It simplifies complex manifest structural creation (Deployments, Services, and Ingress resources) to ease the onboarding of systems engineers.
+#### Policy Enforcement (1)
 
   - **(2022)** [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive analysis evaluating popular Kubernetes manifest validation engines. Compares tools like Kube-score, Polaris, and Conftest, showing teams how to set up robust automated configuration safeguards.
   - **(2021)** [Kubeval](https://teresaforcades.com/pensament/medicina.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A structured index highlighting central open-source utilities designed to validate Kubernetes configurations. Explores tools like Polaris, Copper, and Conftest to guarantee resilient configuration deployments.
@@ -89,7 +149,7 @@
   - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive set of production-grade Kubernetes resource configuration blueprints curated by Container Solutions. Features robust architecture design options for real-world application structures.
 ## Platform Engineering
 
-### CICD Pipelines
+### CICD Pipelines (1)
 
 #### Declarative Patterns
 
@@ -127,9 +187,14 @@
   - [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details the core structural mechanics of YAML, specifically maps, lists, scalar types, and multi-line strings. Live Grounding explores standard DevOps implementations (such as Docker Compose and Kubernetes manifests) where these concepts dictate application configuration. Highly recommended introductory reference.
   - [opensource.com: Make YAML as easy as it looks](https://opensource.com/article/21/9/yaml-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight acts as an advanced quick-reference cheat sheet for writing clean and readable YAML schemas. Live Grounding points out how understanding data types (like anchors, blocks, and sequence syntax) prevents common compilation bugs. Essential workspace cheat sheet.
   - [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight clarifies the historical origins, technical details, and file extension choices of .yaml vs .yml. Live Grounding shows that while modern operating systems treat both extensions identically, maintaining file extension consistency across internal configuration repositories is key for pipeline parsing stability.
-### Developer Tooling (1)
+### Developer Experience (1)
 
 #### CLI Utilities
+
+  - [jvns.ca: A list of new(ish) command line tools | Julia Evans](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly curated technical index compiling modern CLI tools that replace classic utilities. Recommends Rust-based tools like fd, bat, and jaq to modernize development environments.
+### Developer Tooling (1)
+
+#### CLI Utilities (1)
 
   - [yq 🌟](https://mikefarah.gitbook.io/yq)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents yq as a lightweight, portable command-line YAML processor built in Go. Live Grounding verifies yq’s extensive support for evaluating paths, modifying values dynamically, and converting YAML to/from JSON or XML within CI/CD pipelines. A standard tool in any platform engineer's toolbox.
   - [dev.to: yq : A command line tool that will help you handle your YAML resources' better 🌟](https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight provides a practical guide on installing and utilizing yq for system automation. Live Grounding covers everyday command examples, including selective key extraction, array mutation, and nested property updates in Kubernetes manifests. A vital resource for learning CLI-driven manifest manipulation.
@@ -143,6 +208,13 @@
 
   - [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight provides architectural structures for dividing, tagging, and organizing massive collections of Kubernetes YAML manifests. Live Grounding analyzes standard patterns, comparing monolithic files against multi-directory structures managed by Kustomize and Helm. Offers crucial hygiene tips for scaling GitOps repositories.
   - [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines advanced tips for writing clean, optimized, and dry Kubernetes manifest structures. Live Grounding emphasizes using YAML anchors, Kustomize overlays, and schema linting to scale Kubernetes operations safely. An exceptionally practical, production-honed reference guide.
+## Software Delivery and Engineering
+
+### Continuous Integration
+
+#### Policy Enforcement (2)
+
+  - [datree.io](https://www.datree.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source CLI-driven tool that scans Kubernetes manifests and Helm charts to verify compliance with operational guidelines and security benchmarks. Grounding shows how Datree can be executed within pre-commit hooks or CI/CD pipelines to prevent infrastructure misconfigurations.
 ## Software Engineering
 
 ### Algorithms
@@ -181,5 +253,5 @@
   - [automationreinvented.blogspot.com: What is Json Schema and how to perform' schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed test automation walkthrough explaining JSON Schema validation with Rest Assured. Guides developers in implementing reliable regression pipelines to maintain robust system integrations.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Message Queue](./message-queue.md) | [Databases](./databases.md) | [Nosql](./nosql.md)
 

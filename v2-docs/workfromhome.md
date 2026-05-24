@@ -5,6 +5,13 @@
 
 ## Standard Reference
 
+  - [Zoom](https://www.zoom.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wordpress P2](https://wordpress.com/p2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google meet](https://workspace.google.com/products/meet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rocket Chat](https://www.rocket.chat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [atlassian.com/remote](https://www.atlassian.com/solutions/distributed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Matter](https://www.getmatter.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [opensource.com: 10 tips for maintaining a DevOps mindset for distributed' teams](https://opensource.com/article/20/6/devops-mindset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [forbes.com: 5 Essential Coronavirus Work From Home Tech Tips](https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: Remote work: 10 tips to be a better virtual collaborator](https://enterprisersproject.com/article/2021/2/remote-work-virtual-collaboration-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [elconfidencial.com: ¿Qué negociar en el acuerdo de teletrabajo? Guía práctica' para empresas y empleados](https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -22,5 +29,5 @@
 
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
 

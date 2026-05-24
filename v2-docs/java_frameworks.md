@@ -5,7 +5,34 @@
 
 ## Standard Reference
 
-  - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [JDK 15: The new features in Java 15](https://www.infoworld.com/article/2256828/jdk-15-the-new-features-in-java-15.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitHub Welcomes the OpenJDK Project!](https://github.blog/news-insights/company-news/github-welcomes-the-openjdk-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [java-success.com: 01: Q07 – Q12 Java Micro & Web services Interview Q&As](https://www.java-success.com/microservices-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-principles-oops-design-principles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [geeksforgeeks.org: 5 Best Java Frameworks For Microservices](https://www.geeksforgeeks.org/blogs/best-java-frameworks-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
+  - [AdoptOpenJDk](https://adoptium.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.microsoft.com: Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [All You Need To Know For Migrating To Java 11](https://nipafx.dev/java-11-migration-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Best Java Frameworks Solutions](https://www.peerspot.com/categories/java-frameworks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [TomEE from Tomitribe](http://tomee.apache.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Payara](https://payara.fish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [RedHat’s WildFly Swarm](http://wildfly-swarm.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Spring Boot: ¿war o jar? Ambos](https://adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-multiline-logs-fluentd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/springboot/best-way-to-master-spring-boot-a-complete-roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnkube.com/spring-boot-kubernetes-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud/-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) <span class='md-tag md-tag--info'>⭐ 80690</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2022/10/20/spring-vault)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://cloudnativenow.com/topics/cloudnativedevelopment/red-hat-adds-java-runtime-for-kubernetes-to-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kie.org](https://www.kie.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [WildFly](https://www.wildfly.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: The future of Java and OpenJDK updates without Oracle' support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -15,15 +42,22 @@
   - [javaconceptoftheday.com: Java 9 Interface Private Methods](https://javaconceptoftheday.com/java-9-interface-private-methods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javatechonline.com: Making Java easy to learn - Microservices In Java 🌟](https://javatechonline.com/microservices-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javatechonline.com: Making Java easy to learn - Spring Boot Annotations' With Examples](https://javatechonline.com/spring-boot-annotations-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Java 17, the Next Long-Term Support Release, is Now Available](https://www.infoq.com/news/2021/09/java17-released)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tschatzl.github.io: JDK 17 G1/Parallel GC changes](https://tschatzl.github.io/2021/09/16/jdk17-g1-parallel-gc-changes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Modernizing Enterprise Java: A cloud native guide' for developers](https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/javarevisited: Top 5 Frameworks Java developers can learn for' Microservices Development in 2022](https://medium.com/javarevisited/top-5-frameworks-java-developers-can-learn-for-microservices-development-in-2022-848da66d6651)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [java67.com: How to Create and Start Multiple Threads in Java? - Example' Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@aritra.chatterjee_: Hexagonal architecture in java](https://medium.com/@aritra.chatterjee_/hexagonal-architecture-in-java-7ac8f4bea753)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/javarevisited: Do you know about the different microservices' frameworks for Java? 🌟](https://medium.com/javarevisited/do-you-know-about-the-different-microservices-frameworks-for-java-90b61f8cdbd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: How to migrate Java workloads to containers: 3' considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Best Practices for Java Apps on Kubernetes 🌟](https://piotrminkowski.com/2023/02/13/best-practices-for-java-apps-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Oracle OpenJDK](https://jdk.java.net/11)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [IBM JDK](https://developer.ibm.com/javasdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Which JDK to Choose on Kubernetes 🌟](https://piotrminkowski.com/2023/02/17/which-jdk-to-choose-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon Corretto](https://aws.amazon.com/corretto)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -38,18 +72,31 @@
   - [Eclipse MicroProfile Project](https://projects.eclipse.org/projects/technology.microprofile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [MicroProfile](https://microprofile.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Develop Eclipse MicroProfile applications on Red' Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Virtual Panel: The MicroProfile Influence on Microservices Frameworks](https://www.infoq.com/articles/microprofile-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [KumuluzEE](https://ee.kumuluz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Multi-Tenancy Implementation using Spring Boot + Hibernate 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackoverflow.com: How to map a MySQL JSON column to a Java entity property' using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [stackoverflow.com: What are the differences between the different saving' methods in Hibernate?](https://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate/54907032?stw=2#54907032)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring](https://spring.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Spring Framework Architecture 🌟](https://www.javacodegeeks.com/2019/02/spring-framework-architecture.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javatutorial.net: Introduction to Spring Web Framework](https://javatutorial.net/introduction-to-spring-web-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: Top 10 Courses to Learn Microservices in Java and Spring Framework](https://medium.com/javarevisited/top-5-courses-to-learn-microservices-in-java-and-spring-framework-e9fed1ba804d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: How to Create Microservices Using Spring 🌟](https://dzone.com/articles/how-to-create-microservices-using-spring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [spring.io: A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [java67.com: 10 Spring Framework Annotations Java Developer should learn' - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: Role based Access control using Spring Security' and MVC, Mapping LDAP Groups to Authorities for Authorization](https://javarevisited.blogspot.com/2013/07/role-based-access-control-using-spring-security-ldap-authorities-mapping-mvc.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [odedia.org: Production Considerations for Spring on Kubernetes 🌟🌟🌟](https://odedia.org/production-considerations-for-spring-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: All About Spring Boot (Tutorials and Articles)](https://dzone.com/articles/spring-boot-framework-tutorials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Deploying Spring Boot App to JBoss Wildfly](https://dzone.com/articles/deploying-spring-boot-app-to-jboss-wildfly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javatutorial.net: Spring vs. Java EE](https://javatutorial.net/spring-vs-java-ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [__Spring Boot Istio library__: Spring Boot library for integration with' Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -59,12 +106,15 @@
   - [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) <span class='md-tag md-tag--info'>⭐ 12832</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [piotrminkowski.com: Spring Boot Tips, Tricks and Techniques](https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javatechonline.com: How To Work With Apache Kafka In Spring Boot?](https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: The best way to log SQL statements with Spring Boot](https://vladmihalcea.com/log-sql-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java' Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Distributed Transactions in Microservices with Kafka' Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: Spring Boot Application Properties 🌟](https://vladmihalcea.com/spring-boot-application-properties)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example' Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/shoutloudz: Microservice: Developing an Authentication Service' using Spring Boot](https://medium.com/shoutloudz/microservice-developing-an-authentication-service-using-spring-boot-d421b8802712)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [java67.com: How to set the logging level with application.properties in' Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@hubian: 16 Best Practices in Spring Boot Production 🌟](https://medium.com/@hubian/16-best-practices-in-spring-boot-production-62c065a6145c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaguides.net: Event-Driven Microservices using Spring Boot and Kafka](https://www.javaguides.net/2022/07/event-driven-microservices-using-spring-boot-and-apache-kafka.html?spref=tw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Microservices with Spring Boot 3 and Spring Cloud' 🌟](https://piotrminkowski.com/2023/03/13/microservices-with-spring-boot-3-and-spring-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaguides.net: Spring Boot 3 REST API Documentation using SpringDoc OpenAPI](https://www.javaguides.net/2023/03/spring-boot-3-rest-api-documentation.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -77,14 +127,19 @@
   - [infoq.com: Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4' Is EOL](https://www.infoq.com/news/2021/12/spring-boot-2-6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/francescoxx: Java CRUD Rest API using Spring Boot, Hibernate, Postgres,' Docker and Docker Compose](https://dev.to/francescoxx/java-crud-rest-api-using-spring-boot-hibernate-postgres-docker-and-docker-compose-5cln)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [odo](https://odo.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Dekorate](https://dekorate.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) <span class='md-tag md-tag--info'>⭐ 276</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 355</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud](https://spring.io/projects/spring-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3530</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform' 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Spring Cloud Config Server on Kubernetes (Part 1)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Spring Microservices Security Best Practices 🌟](https://piotrminkowski.com/2021/05/26/spring-microservices-security-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [baeldung.com: Using Spring Cloud Config Without Git](https://www.baeldung.com/spring-cloud-config-without-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.spring.io: Spring Cloud Vault 🌟](https://cloud.spring.io/spring-cloud-vault/reference/html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [quarkus.io](https://quarkus.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Quarkus Images](https://github.com/quarkusio/quarkus-images) <span class='md-tag md-tag--info'>⭐ 123</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -92,6 +147,8 @@
   - [redhat.com: Red Hat drives future of Java with cloud-native, container-first' Quarkus](https://www.redhat.com/en/blog/red-hat-drives-future-java-cloud-native-container-first-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Quarkus: A quick-start guide to the Kubernetes-native' Java stack](https://developers.redhat.com/articles/quarkus-quick-start-guide-kubernetes-native-java-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [quarkus.io: Quarkus support in IDE's](https://quarkus.io/blog/march-of-ides)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: quarkus refcard](https://dzone.com/refcardz/quarkus-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Autowire MicroProfile into Spring with Quarkus](https://developers.redhat.com/blog/2019/10/02/autowire-microprofile-into-spring-with-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dmcommunity.org: Who will win? Spring Boot or Quarkus](https://dmcommunity.org/2020/01/12/who-will-win-spring-boot-or-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: How Quarkus brings imperative and reactive programming' together](https://developers.redhat.com/blog/2019/11/18/how-quarkus-brings-imperative-and-reactive-programming-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -106,8 +163,10 @@
   - [developers.redhat.com: Deploy Quarkus everywhere with Red Hat Enterprise' Linux (RHEL)](https://developers.redhat.com/blog/2021/04/07/deploy-quarkus-everywhere-with-red-hat-enterprise-linux-rhel)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Quarkus 2.0 Delivers Continuous Testing, CLI and Supports Minimal' JDK 11](https://www.infoq.com/news/2021/08/quarkus-2-0-final-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Quarkus - Dev UI 🌟](https://quarkus.io/guides/dev-ui)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: A Java developer's guide to Quarkus](https://dzone.com/articles/a-java-developers-guide-to-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone refcard: Getting Started With Quarkus Serverless Functions](https://dzone.com/refcardz/getting-started-with-quarkus-serverless-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus' 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javaadvent.com: You need more than containers. A short history of the' mess we're in](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -117,24 +176,28 @@
   - [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kogito.kie.org](https://kogito.kie.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat Thorntail](https://thorntail.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Microservices: Quarkus vs. Spring Boot](https://dzone.com/articles/microservices-quarkus-vs-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [JPA streamer 🌟](https://jpastreamer.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [logbook](https://github.com/zalando/logbook) <span class='md-tag md-tag--info'>⭐ 2042</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/javarevisited: Logging in Java — Log4j vs Logback vs SLF4J' 🌟](https://medium.com/javarevisited/logging-in-java-log4j-vs-logback-vs-slf4j-88c533088d2a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GoodforGod/java-logger-benchmark](https://github.com/GoodforGod/java-logger-benchmark) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jfrunit](https://github.com/moditect/jfrunit) <span class='md-tag md-tag--info'>⭐ 327</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Red Hat OpenShift
+## Runtime Optimizations
 
-### Developer Experience
+### JVM Tuning
 
-#### Maven Plugins
+#### Garbage Collection
 
-  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
+  - [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical performance benchmarks tracking G1GC, ParallelGC, ZGC, and Shenandoah collection efficiency improvements from Java SE 8 through LTS 17.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Api](./api.md) | [Jvm Parameters Matrix Table](./jvm-parameters-matrix-table.md)
 

@@ -3,6 +3,12 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Storage in the context of Cloud Providers (Hyperscalers).
 
+## Standard Reference
+
+  - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Cloud Infrastructure
 
 ### AWS Storage
@@ -45,5 +51,5 @@
   - **(2022)** [**blog.min.io: Certificate-based Authentication for S3**](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to implement robust Mutual TLS (mTLS) and client certificate-based authentication with MinIO. Outlines secure key exchanges and architectural mapping of certificates to IAM policies.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Databases](./aws-databases.md) | [Aws Backup](./aws-backup.md)
 

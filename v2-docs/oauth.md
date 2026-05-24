@@ -20,5 +20,5 @@
   - [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides a comprehensive introduction to OpenID Connect (OIDC), the identity layer built directly on top of OAuth 2.0. Curator insight highlights how OIDC standardizes token delivery to provide secure client identity resolution. Live grounding affirms that OIDC is the preferred mechanism for securing user access to corporate Kubernetes instances.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
 

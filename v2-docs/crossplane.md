@@ -3,6 +3,11 @@
 !!! info "Architectural Context"
     Detailed reference for Crossplane in the context of Hardened Infrastructure.
 
+## Standard Reference
+
+  - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Control Planes
 
 ### Cloud Infrastructure As Code
@@ -52,5 +57,5 @@
   - **(2023)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural study outlines the synchronization of infrastructure and application deployments using GitOps principles, examining the strategic union of Crossplane and continuous deployment tools.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md) | [Kustomize](./kustomize.md)
 

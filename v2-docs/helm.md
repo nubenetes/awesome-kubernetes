@@ -3,6 +3,69 @@
 !!! info "Architectural Context"
     Detailed reference for Helm in the context of Architectural Foundations.
 
+## Standard Reference
+
+  - [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: 15 useful helm chart tools](https://dzone.com/articles/15-useful-helm-charts-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: create install upgrade and rollback a helm chart - part 2](https://dzone.com/articles/create-install-upgrade-rollback-a-helm-chart-part)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [banzaicloud.com: Helm 3, the Good, the Bad and the Ugly](https://banzaicloud.com/blog/helm3-the-good-the-bad-and-the-ugly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Helm Chart — Development Guide 🌟](https://medium.com/swlh/helm-chart-development-guide-bbc525d3b448)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Multi-namespace Helm deploy in Kubernetes](https://medium.com/analytics-vidhya/multi-namespace-helm-deploy-in-kubernetes-26d1baf1ca5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [daveops.xyz: Running DB migrations on Kubernetes with Helm](https://daveops.xyz/en/2020/09/18/running-db-migrations-on-kubernetes-with-helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mbbaig.blog: How to create custom Helm charts 🌟](https://mbbaig.blog/how-to-create-custom-helm-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: Quick application deployments on MicroK8s using Helm Charts](https://www.cncf.io/blog/2021/03/23/quick-application-deployments-on-microk8s-using-helm-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly](https://www.cncf.io/blog/2021/03/24/add-java-agents-to-existing-kubernetes-and-helm-applications-instantly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Create Helm Charts to manage Kubernetes applications](https://medium.com/marionete/create-helm-charts-to-manage-kubernetes-applications-9c4235acf99e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bridgecrew.io: Part 1: Top trends from analyzing the security posture of' open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jasiek-petryk.medium.com: Setting up a private Helm chart repository on' GitHub](https://jasiek-petryk.medium.com/setting-up-a-private-helm-chart-repository-on-github-4a767703cec8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: How To Continuously Test and Deploy Your Helm Charts' on Kubernetes Clusters Using Kind](https://betterprogramming.pub/how-to-continuously-test-and-deploy-your-helm-charts-on-kubernetes-clusters-using-kind-d71e3585d2dc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Helm 101 for Developers](https://levelup.gitconnected.com/helm-101-for-developers-1c28e734937e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: 6 Tips for Creating Helm Charts in Kubernetes Applications](https://betterprogramming.pub/6-tips-for-creating-helm-charts-in-kubernetes-applications-452a37446f31)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Kubernetes Deployment using Helm Charts and Krane 🌟](https://medium.com/groupon-eng/kubernetes-deployment-using-helm-charts-and-krane-e0100b55d00c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [bridgecrew.io: Applying Kubernetes security best practices to Helm charts](https://bridgecrew.io/blog/applying-kubernetes-security-best-practices-to-helm-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Test Helm Release in Production Environment with Zero Downtime' 🌟](https://medium.com/@deejiw/test-helm-release-in-production-environment-with-zero-downtime-400c5d41ecdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Deploying Helm Apps to Kubernetes with Waypoint and GitOps](https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/dailymotion: Deploying apps on multiple Kubernetes clusters with' Helm](https://medium.com/dailymotion/deploying-apps-on-multiple-kubernetes-clusters-with-helm-19ee2b06179e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gennyallcroft.medium.com: Understanding Kubernetes deployments with Helm](https://gennyallcroft.medium.com/understanding-kubernetes-deployments-with-helm-444116a622be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: Helm Charts For Kubernetes Developers](https://medium.com/codex/helm-charts-for-kubernetes-developers-dce5719d4c8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@paolo.gallina: How-to release Helm Charts maintaining your mental' health 🌟](https://medium.com/@paolo.gallina/releasing-helm-charts-maintaining-your-mental-health-b382685390c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopslearners.com: How to Convert Helm Chart to Kubernetes YAML](https://devopslearners.com/how-to-convert-helm-chart-to-kubernetes-yaml-fbe6d6722f6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [mlepeshkin.medium.com: Automated Kubernetes deployment with Helm and additional' templating](https://mlepeshkin.medium.com/automated-kubernetes-deployment-with-helm-and-additional-templating-dc960689609f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.ediri.io: How To Unit Test Your Helm Charts](https://blog.ediri.io/how-to-unit-test-your-helm-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@percenuage: My adventure with Helm as GitOps in a distributed' architecture](https://medium.com/@percenuage/my-adventure-with-helm-as-gitops-in-a-distributed-architecture-6a6fdc6f11bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/avmconsulting-blog: How to Deploy Applications using Helm in' Kubernetes |AWS|](https://medium.com/avmconsulting-blog/deploying-applications-using-helm-in-kubernetes-b5c8b609e4b5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/tech-chronicles: Helm tests](https://medium.com/tech-chronicles/helm-test-tested-my-patience-732eeab0e935)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [xbery.medium.com: Deploy helm charts using Terraform module 🌟](https://xbery.medium.com/deploy-helm-charts-using-terraform-module-63684efbd221)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: Simplifying Kubernetes Deployments With Helm Package' Manager 🌟](https://medium.com/codex/simplifying-kubernetes-deployments-with-helm-package-manager-bf834c51818d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: Helm — Advanced Commands 🌟](https://medium.com/geekculture/helm-advanced-commands-9365097475b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Helm—Named Templates](https://levelup.gitconnected.com/helm-named-templates-de2efc3875d0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Helm — Template Actions, Functions, and Pipelines 🌟](https://faun.pub/helm-template-actions-functions-and-pipelines-16ed23ed336f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [shipmight.com: Understanding Helm upgrade flags](https://shipmight.com/blog/understanding-helm-upgrade-reset-reuse-values)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Stop cloning helm charts! Enough! 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: Helm Your Kubernetes Application](https://medium.com/zeals-tech-blog/helm-your-kubernetes-application-7af6293bcfcf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/linux-shots: Use PostgreSQL database as backend storage for helm](https://medium.com/linux-shots/use-postgresql-as-backend-storage-for-helm-de407cd9c43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [tratnayake.dev: Using Helm To Include All Files From A Directory In-line](https://tratnayake.dev/helm-include-all-files-from-directory-in-line)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fenyuk.medium.com: Helm for Kubernetes. Datree for keeping cluster secure' and healthy 🌟](https://fenyuk.medium.com/helm-for-kubernetes-datree-for-keeping-cluster-secure-and-healthy-6fbd10f0d958)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fenyuk.medium.com: Helm for Kubernetes. GitOps with Argo CD 🌟](https://fenyuk.medium.com/helm-for-kubernetes-gitops-with-argo-cd-c8f80330596)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: HELM — How Release Information is Stored](https://medium.com/geekculture/helm-how-release-information-is-stored-778d7f0b7498)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Helm — Data Sharing Between Parent and Child Chart](https://levelup.gitconnected.com/helm-data-sharing-between-parent-and-child-chart-c4487a452d4e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: Helm Chart Wait for All Dependencies Before Starting' Kubernetes Pods](https://medium.com/geekculture/helm-chart-wait-for-all-dependencies-before-starting-kubernetes-pods-cc0a3ddbf02b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@marc.khouzam: Shell completion for plugins with Helm 3.8](https://medium.com/@marc.khouzam/shell-completion-for-plugins-with-helm-3-8-7cb001012a54)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Highway to Helm: How to efficiently manage chart sources](https://medium.com/adevinta-tech-blog/highway-to-helm-how-to-efficiently-manage-chart-sources-f5749ba8031e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/geekculture: K8s — Helm Dashboard](https://medium.com/geekculture/k8s-helm-dashboard-d7509c5fee88)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubecrt - Convert HELM charts to kubernetes resources 🌟](https://toolbox.kali-linuxtr.net/kubecrt-convert-helm-charts-to-kubernetes-resources.tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [linuxadvise.com: Helmfile - Next Level to manage your helm Charts](https://www.linuxadvise.com/amp/helmfile-next-level-to-manage-your-helm-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Gitops using Helmsman to apply Helm Charts to k8s](https://medium.com/@marco.franssen/gitops-using-helmsman-to-apply-helm-charts-to-k8s-1a7217ced411)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [abhaypore.medium.com: Migrate your manifest yaml files into Helm Chart](https://abhaypore.medium.com/migrate-your-manifest-yaml-files-into-helm-chart-32a44230f3b5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Application Delivery
 
 ### Helm (1)
@@ -13,12 +76,9 @@
 #### Documentation
 
   - [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen) <span class='md-tag md-tag--info'>⭐ 122</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated CLI utility for generating Markdown documentation automatically from Helm 'values.yaml' files. It streamlines package maintenance by keeping user-facing parameter catalogs perfectly aligned with template configurations.
-  - [helm-docs](https://github.com/norwoodj/helm-docs) <span class='md-tag md-tag--info'>⭐ 1740</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard utility that auto-generates Markdown documentation from Helm chart metadata and variables files. It reads 'values.yaml' schema annotations to generate detailed configuration tables, ensuring precise, up-to-date documentation.
-  - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog) <span class='md-tag md-tag--info'>⭐ 43</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A CLI utility designed to automatically assemble neat changelogs for Helm charts by parsing git repository commit history. It simplifies publishing notes by keeping track of charts updates over multiple releases.
 #### Governance
 
   - [github: Nova 🌟](https://github.com/fairwindsops/nova) <span class='md-tag md-tag--info'>⭐ 860</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A valuable auditing tool that scans running Kubernetes clusters for outdated Helm releases. It cross-references deployed charts with upstream versions to ensure administrators maintain robust patch levels and security updates.
-  - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts' 🌟](https://github.com/redhat-certification/chart-verifier) <span class='md-tag md-tag--info'>⭐ 61</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's automated verification tool built to certify that third-party Helm charts align with platform standards on OpenShift. It performs automated checks against strict deployment policies and security guidelines.
 #### Learning Paths
 
   - [mattias.engineer/courses/kubernetes/helm: Kubernetes-101: Helm 🌟](https://mattias.engineer/courses/kubernetes/helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational course module mapping out Helm architecture, release lifecycles, and template syntax. It serves as an optimal starting point for operators transitioning from static manifests to dynamic Kubernetes packaging.
@@ -35,7 +95,6 @@
 #### Observability
 
   - **(2022)** [blog.knell.it: Making your Helm Chart observable for Prometheus](https://christianhuth.de/making-your-helm-chart-observable-for-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical engineering guide detailing how to expose Prometheus metrics from custom Helm charts. It explores configuring PodMonitors and ServiceMonitors directly within Chart templates to guarantee day-2 observability out of the box.
-  - [sstarcher/helm-exporter](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 298</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
 #### Orchestration
 
   - **(2024)** [**Helmsman: Helm Charts as Code 🌟**](https://github.com/mkubaczyk/helmsman) <span class='md-tag md-tag--info'>⭐ 1495</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An advanced tool designed to manage Helm releases declaratively as code. Supporting GitOps principles, Helmsman processes desired state files to automatically update, clean, or track installations across dynamic clusters.
@@ -70,7 +129,6 @@
 
   - [itnext.io: Helm: reusable chart — named templates, and a generic chart for' multiple applications](https://itnext.io/helm-reusable-chart-named-templates-and-a-generic-chart-for-multiple-applications-13d9b26e9244) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive article addressing advanced Go template techniques in Helm, specifically targeting the creation of reusable library charts. It offers a blueprint for building a single, highly flexible parent chart that can deploy diverse microservice patterns.
   - [boxunix.com: Developer’s Guide to Writing a Good Helm Chart](https://boxunix.com/2022/02/05/developers-guide-to-writing-a-good-helm-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive guide outline covering best practices in writing high-quality Helm charts. It addresses templates organization, variable naming conventions, semantic schema formatting, and validation practices.
-  - [HULL](https://github.com/vidispine/hull) <span class='md-tag md-tag--info'>⭐ 288</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A unique template library extension designed to drastically reduce boilerplate in Helm development. HULL enables declarative, object-oriented configuration structures, letting developers generate entire charts with minimal template overhead.
 #### Visualization
 
   - **(2024)** [Helm Kanvas Snapshot](https://github.com/meshery-extensions/helm-kanvas-snapshot) <span class='md-tag md-tag--info'>⭐ 35</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extension designed to capture visual topology snapshots of Helm releases within Meshery. It allows operators to visually audit and document the runtime architecture generated by complex multi-tier Helm installations.
@@ -103,8 +161,6 @@
 #### Helm (2)
 
   - **(2020)** [dev.to: Introduction to Helm 🌟](https://dev.to/leading-edje/introduction-to-helm-50jl) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Accessible and clear introduction detailing core Helm entities (charts, repositories, releases). Excellent read for cloud engineers looking to grasp basic Helm vocabulary quickly.
-  - [thoughtworks.com: Helm](https://www.thoughtworks.com/radar/tools/helm)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Thoughtworks Technology Radar page validating Helm's position as the primary package manager for Kubernetes. Underlines how the server-side removal (Tiller) in Helm v3 fundamentally resolved security risks.
-  - [helm.sh](https://helm.sh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing site for Helm, containing foundational documentation, API schemas, and architecture overviews. The ultimate hub for engineers developing or consuming Kubernetes chart templates.
   - [GitHub: Helm, the Kubernetes Package Manager](https://github.com/helm/helm) <span class='md-tag md-tag--info'>⭐ 29830</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Authoritative GitHub repository for Helm. With over 29k stars and massive community backing, it is the primary source of truth for the project's codebase, releases, and development.
   - [hackernoon.com: Kubernetes and Helm: A Deadly Combo to Help You Deploy with' Ease](https://hackernoon.com/kubernetes-and-helm-a-deadly-combo-to-help-you-deploy-with-ease-rjr30x2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — High-level overview illustrating the synergies between Kubernetes architectures and Helm's package abstractions, demonstrating how Helm reduces manual configuration drift.
   - [freecodecamp.org: What is a Helm Chart? A Tutorial for Kubernetes Beginners](https://www.freecodecamp.org/news/what-is-a-helm-chart-tutorial-for-kubernetes-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive beginner's tutorial detailing the directory structures and YAML formats of Helm. Offers hands-on exercises for authoring and deploying custom application templates.
@@ -139,6 +195,13 @@
 #### Waypoint
 
   - **(2022)** [**learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps**](https://github.com/hashicorp/waypoint/tree/main/website/content/docs) <span class='md-tag md-tag--info'>⭐ 4730</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — HashiCorp walkthrough presenting continuous, declarative deployment of Helm-based apps using Waypoint pipelines, highlighting structural GitOps workflows.
+## Cloud-Native Development
+
+### Local Development Tools
+
+#### Okteto
+
+  - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
 ## Edge Computing
 
 ### IoT and Smart Home
@@ -146,6 +209,13 @@
 #### Surveillance
 
   - **(2024)** [Frigate](https://frigate.readthedocs.io/en/latest) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly specialized NVR software focusing on local real-time object detection using AI accelerators. Its reference Helm and Kubernetes guides allow developers to scale home automation and security workloads on private clusters.
+## GitOps and Continuous Delivery
+
+### Progressive Delivery
+
+#### Theory
+
+  - **(2024)** [**harness.io: Progressive Delivery: Everything You Need to Know**](https://www.harness.io/blog) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A masterclass resource explaining the evolutionary shift from standard continuous delivery to progressive delivery. Explains integration of automated canary releases with advanced deployment patterns, metrics monitoring, and developer self-service.
 ## Infrastructure as Code
 
 ### Kubernetes Package Management
@@ -167,28 +237,7 @@
 #### Sveltos
 
   - [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl#display-outcome-of-clusterprofiles-in-dryrun-mode) <span class='md-tag md-tag--info'>⭐ 36</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — sveltosctl provides command-line control over Project Sveltos. It excels at dry-run validations of ClusterProfiles, ensuring declarative configurations are verified prior to production propagation.
-## Observability (1)
-
-### Metrics
-
-#### Prometheus
-
-  - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A direct, production-ready tutorial demonstrating how to install and configure Prometheus using official Helm charts. Explains default values overrides, persistent volume configurations, and custom alertmanager integration for instant operational visibility.
-## Operations and Management
-
-### Application Catalog
-
-#### Kubeapps
-
-  - [kubeapps.dev 🌟](https://kubeapps.dev)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A web-based control panel by VMware Tanzu that simplifies packaging, deployment, and management of Helm charts and operators within multitenant clusters.
-## Training and Certification
-
-### Red Hat Ecosystem
-
-#### Learning Platforms
-
-  - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official educational resources and certification preparation portal curated by Red Hat. Serves as a vital reference for mastering OpenShift and enterprise Linux engineering architectures.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

@@ -3,13 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Devops Tools in the context of Architectural Foundations.
 
-## Cloud Infrastructure
+## Standard Reference
 
-### AWS
+  - [geekflare.com: devops-tools](https://geekflare.com/devops/config-management-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [zigiwave.medium.com: Top 10 Tools your DevOps Teams Should Use in 2022](https://zigiwave.medium.com/top-10-tools-your-devops-teams-should-use-in-2022-569700f40426)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/leapp-cloud: Top 10 uncommon DevOps tools you should know](https://medium.com/leapp-cloud/top-10-uncommon-devops-tools-you-should-know-91dadde9777e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/4th-coffee: 10 New DevOps Tools to Watch in 2023 🌟](https://medium.com/4th-coffee/10-new-devops-tools-to-watch-in-2023-e974dbb1f1bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/4th-coffee: 10 Best DevOps Tools for Start-ups](https://medium.com/4th-coffee/10-best-devops-tools-for-start-ups-91eb69bc3128)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Relay](https://relay.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/cp-massive-programming: Deploying Devtron in a Local K8s Kind' Cluster using Terraform](https://medium.com/cp-massive-programming/deploying-devtron-in-a-local-k8s-kind-cluster-using-terraform-cea9d4d9636)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-#### CI-CD Pipelines
-
-  - [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide illustrating architectural patterns for building resilient and secure continuous integration and delivery pipelines within the AWS ecosystem. Analyzes core components such as AWS CodePipeline, CodeBuild, and security best practices to enforce governance and compliance.
 ## Cloud-Native
 
 ### Infrastructure Operations
@@ -19,13 +29,6 @@
 ##### Video Channels
 
   - [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A widely populated YouTube learning platform containing architectural deep dives and step-by-step guides for tools like AWS, Kubernetes, Jenkins, Terraform, and Docker.
-## Containerization
-
-### Local Environment
-
-#### Docker Compose Orchestration
-
-  - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2558</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
 ## DevOps
 
 ### Orchestration
@@ -58,16 +61,6 @@
 #### Multi-Repository Architectures
 
   - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates methods for utilizing structured developer workspaces to safely implement, coordinate, and review automated AI-driven modifications across sprawling multi-repository codebases. Offers patterns for multi-repo orchestrations and version control management.
-### Database Tooling
-
-#### SQL Utilities
-
-  - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3539</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
-### Local Environment (1)
-
-#### Version Management
-
-  - [asdf version manager (asdf-vm)](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible, multi-language version manager capable of centralizing tool runtimes through a unified CLI configuration file (`.tool-versions`). Eliminates environmental drift across localized developer workspaces by managing multiple CLI toolchains via a modular plugin architecture.
 ## Developer Reference
 
 ### Industry Reports
@@ -79,38 +72,13 @@
   - [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Aggregated selection of critical tools for SRE teams in 2020, discussing real-time crash reporting, APM utilities, and orchestration options.
   - [hackr.io: Top 10 DevOps Tools To Look For in 2020](https://hackr.io/blog/top-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical run-through of core technologies driving operational speed, featuring configurations such as configuration managers, automated deployment frameworks, and container layers.
   - [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry round-up detailing enterprise DevOps offerings, tracking leading SaaS and open source tools across CI/CD, performance tracking, and security monitoring.
-### Syntax Cheat Sheets
-
-#### Language Manuals
-
-  - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A massive aggregator of high-density cheat sheets and quick reference guides covering terminal systems, programming syntaxes, database commands, and deployment paradigms.
 ## Infrastructure Operations (1)
 
-### Sysadmin Toolsets
-
-#### Resource Curation (1)
-
-##### Awesome Lists
-
-  - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 33981</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An incredibly rich curation containing production-grade open source utilities, control planes, networking layers, and security mechanisms used daily by systems architects and site reliability engineers.
 ### Virtualization Environments
 
 #### Vagrant Setup
 
   - [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth tutorial highlighting standard virtualization setups using HashiCorp Vagrant. Covers provider initialization, Vagrantfile declarations, provisioning hooks, and multi-node architectures.
-## Kubernetes
-
-### Application Delivery
-
-#### Continuous Delivery
-
-  - [Devtron](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5486</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
-### Cluster Operations
-
-#### GUI Clients
-
-  - [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) <span class='md-tag md-tag--info'>⭐ 208</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source desktop client designed for administrative and monitoring interactions within Kubernetes clusters. Employs graphical representations of active resources to lower cognitive load during deep-dive debugging of deployments, services, and namespace configurations.
-  - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 308</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A native, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. Enhances developer agility through dynamic views of multi-cluster namespaces, container outputs, and active workload parameters.
 ## Platform Engineering (1)
 
 ### AI Integration
@@ -122,21 +90,6 @@
 #### Coding Assistants
 
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official GitHub product announcement marking the General Availability of GitHub Copilot's automated pipeline diagnostics. Empowers developers to quickly resolve failing CI/CD builds by getting clear, contextual, AI-driven summaries and remediation plans.
-### CI-CD Pipelines (1)
-
-#### Debugging
-
-##### GitHub Actions
-
-  - [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3544</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The definitive tool for debugging failing GitHub Actions runner environments. This action opens an interactive, secure shell (SSH or Web TUI) terminal session on the live GHA runner, allowing developers to execute shell commands, inspect filesystems, and debug failures instantly.
-#### Enterprise Tooling
-
-  - [PMEase QuickBuild](https://www.pmease.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A commercial continuous integration and release management system offering robust build configuration inheritance, graphical pipeline design, and extensive platform agent management. Favored by enterprises requiring complex build tree structures.
-### Kubernetes Management
-
-#### PaaS Solutions
-
-  - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An ultra-lightweight, developer-friendly Platform-as-a-Service (PaaS) built on top of Kubernetes. Focuses on minimizing the friction of infrastructure management by automating container packaging, ingress configuration, and SSL provisioning for rapid app deployments.
 ## Software Engineering
 
 ### Developer Experience (1)
@@ -146,9 +99,6 @@
 ##### Claude Templates
 
   - [Claude Code Templates](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27488</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
-##### Cursor Documentation
-
-  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation explaining the Cursor Bugbot's dynamic execution tiering, balancing deep semantic analysis and token limits against codebase complexity metrics.
 ##### GitHub Copilot
 
   - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
@@ -164,5 +114,5 @@
   - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Mkdocs](./mkdocs.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

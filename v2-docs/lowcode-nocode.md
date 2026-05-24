@@ -3,6 +3,10 @@
 !!! info "Architectural Context"
     Detailed reference for Lowcode Nocode in the context of Developer Ecosystem.
 
+## Standard Reference
+
+  - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Infrastructure Development
 
 ### Software Engineering
@@ -18,5 +22,5 @@
   - [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A forward-looking exploration of the swift adoption velocity of low-code architectures. Highlights potential impacts on classic development methods.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Api](./api.md)
 

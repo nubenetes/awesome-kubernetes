@@ -10,30 +10,6 @@
 #### Asset Management
 
   - [Querying AWS at scale across APIs, Regions, and accounts](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS blog post analyzing strategies and open-source tools (like Steampipe) to query and audit AWS resources at massive multi-region, multi-account scales. It breaks down API rate-limiting workarounds and security posture assessment methodologies.
-### Azure
-
-#### Enterprise Architecture
-
-  - [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Official Microsoft guidance outlining the migration roadmap of legacy brownfield Azure environments to the Azure Landing Zone (ALZ) conceptual architecture. It focuses on governance, subscription organization, network topology convergence, and security policy enforcement at scale.
-#### Platform Engineering
-
-  - [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural pattern of automated subscription vending on Azure.
-
-*   Guides cloud platform teams to construct GitOps-driven workflows.
-*   Automatically provisions fully governed, secure, and networked Azure subscriptions using Bicep or Terraform.
-### Storage
-
-#### Distributed Filesystems
-
-  - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16621</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard unified, distributed storage system designed to provide excellent performance, reliability, and scalability.
-
-*   Provides object, block, and file storage within a single cluster.
-*   Acts as a foundational storage engine for large-scale Kubernetes PV platforms (Rook-Ceph) and private clouds.
-### Training
-
-#### AWS Official
-
-  - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A complete video guide systematically mapping the official AWS Cloud Practitioner certification domains in Spanish. [SPANISH CONTENT]
 ## Cloud Security
 
 ### Asset Management (1)
@@ -45,14 +21,7 @@
 #### Observability
 
   - **(2023)** [cloudquery.io: Building an Open-Source Cloud Asset Inventory with CloudQuery and Grafana](https://www.cloudquery.io/learning-center/cloud-asset-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on deployment guide detailing how to build a unified cloud-native asset inventory. It guides architects through configuring CloudQuery pipelines to extract multi-cloud metadata and visualize security posture and infrastructure footprint dynamically via Grafana dashboards.
-## Software Architecture
-
-### Cloud Patterns
-
-#### Serverless
-
-  - [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un compendio técnico sobre los errores más comunes y costosos en el diseño de arquitecturas serverless. Ofrece un análisis crítico de fallos reales de concurrencia, inicios en frío ("cold starts"), costos fuera de control e integración de servicios, sirviendo como guía de advertencia para diseñadores de sistemas distribuidos. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Customer](./customer.md) | [Devops Tools](./devops-tools.md) | [Mkdocs](./mkdocs.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 
