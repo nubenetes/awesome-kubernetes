@@ -17,5 +17,5 @@
   - [useHooks - React Hooks Library](https://usehooks.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium library of self-contained, optimized React hooks facilitating stateful abstractions. Designed to simplify DOM tracking, event management, and browser interactions inside production web applications.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Swagger Code Generator For Rest Apis](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Api](./api.md)
 

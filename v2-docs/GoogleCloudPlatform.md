@@ -5,16 +5,20 @@
 
 ## Standard Reference
 
+  - [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: VPN network overview](https://docs.cloud.google.com/vpc/docs/vpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/cloud-platform-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud AppSheet](https://about.appsheet.com/home)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloud.google.com: The gcloud tool cheat sheet](https://docs.cloud.google.com/sdk/docs/cheatsheet?hl=en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com](https://cloud.google.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloud.google.com: DevOps](https://cloud.google.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Cloud Developer Tools](https://cloud.google.com/products/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Training more than 40 million new people on Google Cloud' skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Microservices architecture on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: How to get started with Google Cloud: Introducing our' new learning hub and learning benefits for Innovators](https://cloud.google.com/blog/topics/training-certifications/new-learning-hub-and-benefits-for-google-cloud-innovators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techradar.com: Google Cloud is making it easier for developers to smuggle' ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [venturebeat.com: Google Cloud announces Network Connectivity Center to simplify' hybrid cloud management](https://venturebeat.com/2021/03/23/google-cloud-announces-network-connectivity-center-to-simplify-hybrid-cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Demystifying Cloud Spanner multi-region configurations](https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Choose the best way to use and authenticate service accounts' on Google Cloud](https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: 5 cheat sheets to help you get started on your Google' Cloud journey 🌟](https://cloud.google.com/blog/products/gcp/5-google-cloud-product-cheat-sheets-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,16 +44,17 @@
   - [cloud.google.com: What is Cloud CDN and how does it work?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-cdn-and-how-does-it-work)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [networkmanagementsoftware.com: Google Cloud Platform (GCP) Networking' Fundamentals](https://www.networkmanagementsoftware.com/google-cloud-platform-gcp-networking-fundamentals)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Service Directory cheat sheet](https://cloud.google.com/blog/topics/developers-practitioners/service-directory-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/google-cloud: Design your Landing Zone — Design Considerations' Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/GoogleCloudPlatform/cloud-code-samples 🌟](https://github.com/GoogleCloudPlatform/cloud-code-samples) <span class='md-tag md-tag--info'>⭐ 434</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kelseyhightower/cmd-tutorial](https://github.com/kelseyhightower/cmd-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud Functions, meet VPC functionality](https://cloud.google.com/blog/products/serverless/learn-how-to-use-advanced-vpc-functionality-with-your-cloud-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service' Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Anthos makes multi-cloud easier with new API, support' for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos' Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [anderfernandez.com: Cómo automatizar un script de Python en Google Cloud](https://anderfernandez.com/blog/automatizar-script-python-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks) <span class='md-tag md-tag--info'>⭐ 1140</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloud.google.com: Introducing Google Cloud Deploy: Managed continuous delivery' to GKE](https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-automates-deploys-to-gke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -62,29 +67,7 @@
   - [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1034</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Web Scraping with Google Sheets – How to Scrape Web Pages' with Built-in Functions](https://www.freecodecamp.org/news/web-scraping-google-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## AI and Intelligent Tooling
-
-### Agentic Systems
-
-#### CLI Tools
-
-  - [Google Agents CLI](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2528</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
-## Agentic Engineering
-
-### Agentic Frameworks
-
-#### Skills Integration
-
-  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Google's official skills repository and toolkit for modular agentic development.
-Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
-## Public Cloud Providers
-
-### Google Kubernetes Engine GKE
-
-#### Cluster Management
-
-  - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical documentation page for GKE (Google Kubernetes Engine). Details foundational and advanced options, covering Autopilot architecture, GKE Datapath V2 routing, and multi-cluster orchestrations.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

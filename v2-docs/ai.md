@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for Ai in the context of AI and Artificial Intelligence.
 
+## Standard Reference
+
+  - [guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [technologyreview.es: "Las empresas que empiezan a lo grande con la IA' fracasan más" 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hipertextual.com: Diferencias entre Inteligencia Artificial, Machine Learning' y Deep Learning](https://hipertextual.com/2023/02/diferencias-ia-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.redbrickai.com: F.A.S.T. ⚡️ Meta AI’s Segment Anything for Medical' Imaging](https://blog.redbrickai.com/blog-posts/fast-meta-sam-for-medical-imaging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Accelerating AI adoption on Azure with Terraform](https://www.hashicorp.com/blog/accelerating-ai-adoption-on-azure-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: AI for infrastructure management](https://www.hashicorp.com/solutions/ai-infrastructure-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## AI and Intelligent Tooling
 
 ### Computer Vision
@@ -15,13 +24,16 @@
 #### JupyterLab
 
   - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4237</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official JupyterLab extension integrating generative AI directly into interactive notebooks. It supports conversational coding, code generation, and error explanation across multiple model providers. Live grounding validates its widespread adoption within modern ML engineering and data science teams.
+## Agentic Engineering
+
+### Kubernetes AI Operators
+
+#### Observability Agents
+
+  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
+Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
 ## Artificial Intelligence
 
-### AI Workflows
-
-#### Prompt Engineering
-
-  - [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guides to mastering Anthropic's Claude. Focuses on system instructions, complex XML markup injection, custom tool calls, and API configuration profiles for multi-agent workflows.
 ### Business Strategy
 
 #### Expert Insights
@@ -90,9 +102,6 @@
 #### Best Practices
 
   - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-focused editorial exploring the core pillars of Large Language Model Operations (LLMOps). Discusses continuous fine-tuning, automated prompt validation, model registry compliance, and operational observability at scale.
-#### Curation (1)
-
-  - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5797</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curated, high-quality compendium of tools, libraries, and resources for the LLMOps ecosystem. Covers framework deployment, GPU scheduling, vector databases, and evaluation tools tailored for production AI pipelines.
 ### Large Language Models (1)
 
 #### Educational Guides (1)
@@ -114,26 +123,11 @@
 #### Industry Analysis
 
   - **(2023)** [businessinsider.es: Los ingenieros de software están aterrorizados ante la posibilidad de ser sustituidos por la IA](https://www.businessinsider.es/tecnologia/ingenieros-software-estan-aterrorizados-posibilidad-ser-sustituidos-ia-1238112) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight analyzes the anxiety among developers regarding job replacement risks due to rapid advances in generative AI code assistants. Live Grounding shows that while fears remain high, industry consensus shifts toward AI acting as a massive productivity multiplier rather than a total replacement. [SPANISH CONTENT]
-## Cloud Architecture (1)
-
-### AWS Well-Architected
-
-#### Infrastructure as Code
-
-  - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 473</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-sourced open-source analyzer designed to inspect Infrastructure as Code (CloudFormation, Terraform) templates against AWS Well-Architected practices before deployment. Grounding demonstrates how incorporating this tool into continuous integration checks reduces pre-production compliance failures.
 ## Cloud Infrastructure
 
-### Infrastructure as Code (1)
-
-#### AI Generation
-
-  - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AI-driven generation of HCL infrastructure files. Covers schema checking, validating security guardrails in prompt pipelines, and continuous integration workflows for automated infrastructure verification.
-#### Testing Practices
-
-  - [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines specific prompting strategies to automatically draft tests for Terraform modules. Synthesizes automated validation frameworks like `terraform test` with generative AI outputs to ensure infrastructure stability.
 ### Visual Development
 
-#### AI Generation (1)
+#### AI Generation
 
   - [IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft/AWS visual tool update utilizing AI to generate production-ready CloudFormation templates directly from system design canvasses. Lowers barriers for composing serverless cloud architectures visually.
 ## Cloud Management
@@ -152,17 +146,6 @@
 #### Site Reliability Engineering
 
   - [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines technical execution patterns for embedding AI telemetry loops within modern SRE frameworks. Focuses on dynamic thresholding, algorithmic anomaly isolation, and proactive capacity planning in dense cluster matrices.
-### FinOps
-
-#### AI Automation
-
-  - [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1024</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, no-code FinOps platform that leverages artificial intelligence to autonomously optimize cloud infrastructure costs. Integrates cloud budget controls directly with container orchestration metrics.
-#### Automated Scaling
-
-  - [CAST AI](https://cast.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise-grade automated container management and FinOps scaling engine. Performs real-time node selection, spot instance provisioning, and cluster rightsizing dynamically without degrading active microservice performance.
-#### Cost Optimization
-
-  - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide for managing cloud-spend on Azure AI infrastructure. Covers architectural frameworks for optimizing large GPU node pools, tracking LLM API consumption patterns, and integrating FinOps principles into AI platform teams.
 ## Cloud Native
 
 ### AI Infrastructure
@@ -178,21 +161,11 @@
 #### CLI Plugins
 
   - [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical walkthrough on using the kubectl-openai plugin. Details how natural language prompts are parsed and securely converted into compliant Kubernetes manifest definitions or localized query commands.
-#### Fleet Management
-
-  - **(2025)** [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dives into Azure Kubernetes Service (AKS) Fleet Manager strategies to run multi-cluster AI workloads. Outlines global routing, high-density scheduling optimizations, and cross-cluster resource synchronization required for distributed training.
 ### Platform Engineering
 
 #### AIOps Integration
 
   - [platformengineering.org: AI is changing the future of platform engineering.' Are you ready?](https://platformengineering.org/blog/ai-is-changing-the-future-of-platform-engineering-are-you-ready)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Surveys the architectural shift of modern IDPs (Internal Developer Platforms) incorporating AI agents. Demonstrates self-service infrastructure blueprints powered by LLMs to significantly shorten developers' cycle times.
-## Cloud Native Infrastructure
-
-### Kubernetes Operations
-
-#### AIOps Diagnostics
-
-  - [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier AI-native diagnostic framework for Kubernetes cluster operations. Scans running clusters, decodes anomalies, and references OpenAI integrations to deliver actionable mitigation strategies.
 ## Cloud Security
 
 ### CICD Platforms
@@ -200,86 +173,21 @@
 #### Best Practices (1)
 
   - **(2024)** [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/2336728/5-best-practices-for-securing-cicd-pipelines.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry playbook highlighting optimal architectural security boundaries in modern delivery environments. Emphasizes secrets lifecycle management, dependency scanning, least privilege controls, and software bill of materials (SBOM) validations.
-## Data and Databases
-
-### Database Administration
-
-#### AI and MCP Clients
-
-  - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2151</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative, open-source cross-platform database client featuring deep AI integration and Model Context Protocol (MCP) compliance. This configuration enables language models to securely inspect, query, and mutate structured schemas under strict guardrails. Live grounding confirms the project provides localized Spanish documentation as its primary onboarding interface while keeping global compliance.
 ## Developer Tools
 
 ### AI Coding Assistants
 
-#### .NET Integration
-
-  - [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instruction illustrating how to inject specialized .NET SDK contexts and compilation knowledge bases into autonomous coding agents to optimize C# generation pipelines.
-#### Agentic Workflows
-
-  - [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the infrastructure required to run high-autonomy AI coding agents. Discusses secure sandboxing, runtime requirements, and interactive execution environments designed to bridge LLMs with real-world system runtimes safely.
 #### Industry Impact
 
   - [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [SPANISH CONTENT] A collection of deep-dive interviews tracking the generational shift of AI in standard software engineering teams. Documents shifts in productivity, engineering psychology, and technical evolution.
-### Terminal Systems
-
-#### AI Tooling
-
-  - [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Warp, a Rust-based modern terminal platform embedding native AI workflows. Outlines command prediction, architectural collaboration features, and native agentic debugging directly from terminal logs.
-## Education and Automation
-
-### Grading Systems
-
-#### CLI
-
-  - [Quiz Grader](https://github.com/ned1313/quiz-grader)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. It processes markdown-based inputs to generate structured performance assessments. Grounding highlights its utility in small-scale educational pipelines or self-assessment exercises.
-## Healthcare Technology
-
-### Artificial Intelligence (1)
-
-#### Speech and Voice Systems
-
-  - [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official press release detailing Microsoft's Dragon Copilot launch. Explores the application of ambient clinical speech models to draft medical charts automatically under strict HIPAA compliance.
-## Knowledge Management
-
-### AI Workflows (1)
-
-#### NotebookLM Prompting
-
-  - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3412</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master repository containing systemic prompts for Google NotebookLM. Accelerates deep source material analysis, structured outlining, and programmatic context extraction.
-## Machine Learning (1)
-
-### AI Hardware Acceleration
-
-#### Enterprise Infrastructure
-
-  - [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural hub detailing wafer-scale AI processors built to tackle compute limits. Facilitates unprecedented deep-learning model execution with extreme localized bandwidth optimizations.
-### Deep Learning Foundations
-
-#### Large Language Models (2)
-
-  - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 95379</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly acclaimed code-first textbook guiding the creation of a Large Language Model (LLM) from scratch in PyTorch. Illustrates attention mechanisms, tokenizers, training loops, and weight loadings.
 ## Platform Engineering (1)
 
 ### AI Integration
 
-#### Agentic Engineering
-
-  - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
-  - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official public announcement details the release and capabilities of the Azure DevOps MCP server. Highlights the architectural integration of Large Language Models directly into enterprise ADO workflows for automated engineering management.
 #### Coding Assistants
 
   - **(2025)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical deep-dive into utilizing GitHub Copilot's 'Agent Mode' (Copilot Workspace) directly from the IDE. Explains how the tool acts as an autonomous collaborator, creating comprehensive implementation plans, managing complex multi-file updates, and executing test suites.
-  - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official training course by Anthropic showcasing the capabilities and CLI operations of Claude Code. Demonstrates how developers can utilize the terminal agent for code reviews, refactoring, automated testing, and execution-guided software development.
-  - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative guidelines from GitHub for maximizing productivity and code quality using GitHub Copilot. Outlines advanced prompt engineering strategies, structuring context files, dealing with security vulnerabilities, and validation routines.
-  - [Google Launches Gemini Code Assist, Challenging GitHub Copilot with Generous Free Tier](https://www.xataka.com/robotica-e-ia/google-lanza-misil-github-copilot-su-asistente-programacion-ofrece-mucho-uso-gratuito-que-microsoft) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Spanish news analysis covering the competitive launch of Google Gemini Code Assist and its direct threat to GitHub Copilot's market dominance. Highlights its multi-repository context window, competitive pricing strategies, and integration into IDEs. [SPANISH CONTENT]
-### CI-CD Pipelines
-
-#### AI Integration (1)
-
-##### Azure DevOps
-
-  - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A practical implementation guide demonstrating how to integrate Azure OpenAI into Azure DevOps pipelines to automatically generate comprehensive pull request descriptions from code differences. Demonstrates prompt engineering techniques and YAML pipeline configurations to enhance team productivity and standardise PR documentation using generative AI.
 
 ---
-💡 **Explore Related:** [Ai Agents Mcp](./ai-agents-mcp.md) | [Chatgpt](./chatgpt.md) | [Mlops](./mlops.md)
+💡 **Explore Related:** [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md) | [Mlops](./mlops.md)
 

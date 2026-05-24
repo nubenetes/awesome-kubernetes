@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Devops in the context of Cloud Providers (Hyperscalers).
 
+## Standard Reference
+
+  - [Amazon DevOps Guru](https://aws.amazon.com/devops/-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@d.kumarkaran12: DevSecOps with AWS CodePipeline and ECS](https://medium.com/@d.kumarkaran12/devsecops-with-aws-codepipeline-and-ecs-c800f139a9ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Advanced Orchestration
 
 ### Multi Cluster
@@ -49,10 +57,6 @@ Live Grounding: Outlines deployment connectors, security scanners, and test suit
 
   - [adamtheautomator.com: Getting Started with AWS CodeDeploy](https://adamtheautomator.com/aws-codedeploy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Tutorial introducing AWS CodeDeploy setups for hosting infrastructure applications.
 Live Grounding: Details step-by-step agent configurations on target environments, build specs, and continuous rollout patterns using the CodeDeploy service.
-#### DevOps Foundations
-
-  - [AWS DevOps](https://aws.amazon.com/devops) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Main AWS portal summarizing continuous integration, deployment, and management tools.
-Live Grounding: Features structural overviews of AWS CodePipeline, CodeBuild, and CodeDeploy, illustrating patterns for cloud-native delivery inside AWS.
 #### Infrastructure as Code
 
   - [aws.amazon.com: Multi-branch pipeline management and infrastructure deployment' using AWS CDK Pipelines](https://aws.amazon.com/blogs/devops/multi-branch-pipeline-management-and-infrastructure-deployment-using-aws-cdk-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Tutorial for managing multi-branch infrastructures using AWS Cloud Development Kit.
@@ -69,5 +73,5 @@ Live Grounding: While primarily legacy, it outlines key patterns for mapping sta
 Live Grounding: Detailed comparative resource mapping the architectural equivalents between AWS developer tooling and Azure DevOps systems.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

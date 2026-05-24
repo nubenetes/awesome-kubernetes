@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Aws Architecture in the context of Cloud Providers (Hyperscalers).
 
+## Standard Reference
+
+  - [The Truth About Downtime in the Cloud](http://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture](https://awstip.com/increase-security-and-efficiency-with-a-3-tier-cloud-architecture-bf5e835cd55a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DZone: A Guide to Performance Challenges with AWS EC2: Part 1](https://blog.appdynamics.com/cloud/a-guide-to-performance-challenges-with-aws-ec2-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [foreseeti.com: How to become and stay AWS well architected in a smart way](https://foreseeti.com/how-to-become-and-stay-aws-well-architected-in-a-smart-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@buraktahtacioglu: AWS Well-Architected Framework — AWS Roadmap](https://medium.com/@buraktahtacioglu/aws-well-architected-framework-aws-roadmap-80aaa6ca7f53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Cloud Architecture
 
 ### AWS
@@ -22,9 +30,6 @@
 
   - **(2025)** [==AWS Architecture Blog==](https://aws.amazon.com/blogs/architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary repository for official architectural insights, design patterns, and systemic frameworks curated directly by AWS architects. Live grounding emphasizes its position as the industry's most authoritative platform for cloud pattern evolution.
   - **(2025)** [==AWS Official Blog==](http://blogs.aws.amazon.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary hub for all official updates, product announcements, and architectural insights directly from AWS engineers. Grounding confirms its role as a fundamental daily monitoring source for all cloud platform developers.
-#### Open Source
-
-  - [AWS Labs GitHub](https://github.com/awslabs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — AWS's central laboratory incubator on GitHub housing thousands of reference architectures, automation scripts, and experimental SDKs. Grounding validates this organization as a primary resource for cloud-native engineering patterns.
 #### Reference Architectures
 
   - **(2023)** [**AWS Quick Start Reference Deployments**](http://aws.amazon.com/es/quickstart) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — AWS-validated CloudFormation templates and deployment guides structured to stand up complex multi-tier enterprise workloads rapidly. Grounding reveals that while many are migrating to Partner Solutions, this archive is a high-density resource for building compliant infrastructure.
@@ -35,9 +40,6 @@
   - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An archival announcement detail on the integration of deep EC2 usage patterns directly into AWS Cost Explorer. It highlights early steps in AWS's native cost analysis tools. Grounding confirms its legacy value for understanding the historic evolution of Cloud FinOps.
 ### AWS Governance
 
-#### AWS Organizations
-
-  - [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly clear exploration of AWS Organizations, dissecting organizational units (OUs), Service Control Policies (SCPs), and account hierarchy. Grounding shows it serves as a fundamental training material for cloud administrators establishing multi-account safety structures.
 #### Architecture Visibility
 
   - [Maintain visibility over the use of cloud architecture patterns](https://aws.amazon.com/blogs/architecture/maintain-visibility-over-the-use-of-cloud-architecture-patterns) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide detailing automated mechanisms to track, catalog, and control architectural drifts in cloud environments. It focuses on using AWS Service Catalog, AWS Config, and tag enforcement protocols. Grounding confirms its relevance for maintaining strict compliance boundaries across distributed team deployments.
@@ -119,5 +121,5 @@
   - **(2021)** [**Clean Architecture on Frontend**](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional breakdown demonstrating the application of Clean Architecture principles to frontend systems. Illustrates isolation of business logic from UI components to enable extreme testability.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

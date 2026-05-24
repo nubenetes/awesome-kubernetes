@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Javascript in the context of Developer Ecosystem.
 
+## Standard Reference
+
+  - [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [canva.com](https://www.canva.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Npm](https://www.npmjs.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Cloud Native Infrastructure
 
 ### Containerization
@@ -68,6 +76,9 @@
   - [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical deep dive showing rapid database-to-API automation workflows using relational database schemas. Focuses on minimizing operational overhead through automatic API generation.
 ### Developer Experience
 
+#### IDEs and Tooling
+
+  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
 #### Workspace Cleanup
 
   - [npkill.js.org](https://npkill.js.org)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A fast, dependency-free interactive command-line interface (CLI) tool designed to scan and target heavy node_modules directories. Significantly improves localized workspace disk efficiency.
@@ -91,5 +102,5 @@
   - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive foundational guide analyzing HTTP request-response lifecycles, network architectures, and client-side browser execution. Highlights modern REST API interactions and secure payload configurations.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Api](./api.md)
 

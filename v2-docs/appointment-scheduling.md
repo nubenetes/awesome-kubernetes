@@ -5,6 +5,9 @@
 
 ## Standard Reference
 
+  - [Doodle](https://doodle.com/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ScheduleOnce](https://www.oncehub.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Calendly](https://calendly.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youcanbook.me](https://youcanbook.me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Acuity Scheduling](https://acuityscheduling.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -19,5 +22,5 @@
 
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Elearning](./elearning.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
 

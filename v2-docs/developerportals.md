@@ -5,15 +5,35 @@
 
 ## Standard Reference
 
+  - [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://www.redhat.com/en/blog/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://chakray.com/11-steps-achieving-successful-api-management-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [chakray.com: 11 Pasos para lograr una estrategia API Management exitosa](https://chakray.com/es/11-pasos-lograr-estrategia-api-management-exitosa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kong API Manager](https://konghq.com/products/kong-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.redhat.com/en/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [high-mobility.com](https://www.high-mobility.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [REST Auto API Tutorial](https://www.high-mobility.com/car-api)
+  - [Smartcar API for BMW](https://smartcar.com/brand/bmw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BBVA API Market](https://www.bbvaapimarket.com/es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ING Developer Portal](https://developer.ing.com/openbanking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — - [ING API Marketplace](https://developer.ing.com/openbanking/api-marketplace/marketplace)
+  - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes' de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/apache-apisix: 10 most common use cases of an API Gateway](https://medium.com/apache-apisix/10-most-use-cases-of-an-api-gateway-in-api-led-architecture-f4d7fa160dcf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [siliconrepublic.com: 10 dev tools recommended by start-up founders](https://www.siliconrepublic.com/advice/dev-tools-recommended-by-irish-start-up-founders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [API Landscape](https://www.apidays.co/api-landscape)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [moesif.com: How to choose the right API Gateway for your platform: Comparison' of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [API Management vs API Gateway: Where Does API Analytics and Monitoring Fit?](https://dzone.com/articles/api-management-vs-api-gateway-and-where-does-api-a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Management vs API Gateway and where does API Analytics and Monitoring fit?](https://dev.to/moesif/api-management-vs-api-gateway-and-where-does-api-analytics-and-monitoring-fit-4g75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -27,13 +47,21 @@
   - [Apigee @Youtube](https://www.youtube.com/user/apigee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Kong API Gateway - From Zero to Production](https://medium.com/swlh/kong-api-gateway-zero-to-production-5b8431495ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@martin.hodges: Why do I need an API Gateway on a Kubernetes' cluster](https://medium.com/@martin.hodges/why-do-i-need-an-api-gateway-on-a-kubernetes-cluster-c70f15da836c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tyk API Manager](https://tyk.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Axway API Management](https://www.axway.com/en/products/api-management/full-lifecycle-api-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [axway.com/digitize](https://axway.com/digitize)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [MuleSoft API Manager](https://www.mulesoft.com/platform/api/manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Backstage Developer Portal:](https://backstage.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@_gdantas: Backstage and Terraform — A Powerful Combination for' Ops, Wonderful for Devs](https://medium.com/@_gdantas/backstage-and-terraform-a-powerful-combination-for-ops-wonderful-for-devs-c04ebce849f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Backstage on Kubernetes](https://piotrminkowski.com/2024/06/28/backstage-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [apisix](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16627</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -42,40 +70,56 @@
   - [KrakenD: The fastest API gateway comes with true linear scalability 🌟](https://www.krakend.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudtechtwitter.com: Pattern: API Gateway / Backends for Frontends](https://www.cloudtechtwitter.com/2022/05/pattern-api-gateway-backends-for.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jeevansathisocial: High-performance API gateway](https://medium.com/@jeevansathisocial/high-performance-api-gateway-3661d5a2fee0s-3661d5a2fee0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developer.mobileconnect.io](https://developer.mobileconnect.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.android.com](https://developer.android.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.apple.com](https://developer.apple.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [auto-api.dev](https://auto-api.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [High Mobility @Youtube](https://www.youtube.com/channel/UCZNjYn1NXEgPa_ENPna9Atw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [smartcar.com](https://smartcar.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia: PSD2 - the Revised Payment Services Directive](https://en.wikipedia.org/wiki/Payment_Services_Directive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openbankingtracker.com](https://www.openbankingtracker.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Santander APIs](https://developerhub.santander.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CaixaBank API Store](https://apistore.caixabank.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deutsche Bank API Program](https://developer.db.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [TSB API Developer Portal](https://apis.developer.tsb.co.uk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rabobank Developer Portal](https://developer.rabobank.nl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cecabank API Market](https://apimarket.cecabank.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Open Insurance](https://openinsurance.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [santalucia.es](https://api-market.santalucia.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Native Infrastructure
+## Agentic Engineering
 
-### Service Mesh
+### AI Assistants
 
-#### Istio
+#### Claude Code
 
-##### Operations
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
+Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+#### Developer Tools
 
-  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
-## Developer Tools
+  - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive educational course focused on maximizing efficiency within Cursor AI Editor.
+Live Grounding: Delivers strategic instruction on utilizing AI capabilities, codebase indexing, and multi-file edit workflows to accelerate modern software engineering. Explicitly marked as Spanish localized educational content. [SPANISH CONTENT]
+## Artificial Intelligence
 
-### Collaboration and Workflow
+### AI Workflows
 
-#### Documentation Engines
+#### Prompt Engineering
 
-  - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This practical guide breaks down the structure and utility of GitHub Wikis for software project documentation. It walks through syntax formatting, sidebar architecture, and collaborative editing patterns. While modern enterprise teams often prefer Docs-as-Code paradigms built with tools like MkDocs or Docusaurus, GitHub Wikis still serve as a quick, low-overhead option for repository-centric developer documentation.
-#### Open Source Education
+  - [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guides to mastering Anthropic's Claude. Focuses on system instructions, complex XML markup injection, custom tool calls, and API configuration profiles for multi-agent workflows.
+## Platform Engineering
 
-  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official GitHub onboarding guide tailored for software engineers looking to initiate their contributions to Open Source Software (OSS) projects. It teaches how to fork repositories, configure branches, submit pull requests, and write structured issues. Understanding these fundamentals is crucial for developers seeking to participate in the global cloud-native ecosystem.
+### AI Integration
+
+#### Coding Assistants
+
+  - [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative guidelines from GitHub for maximizing productivity and code quality using GitHub Copilot. Outlines advanced prompt engineering strategies, structuring context files, dealing with security vulnerabilities, and validation routines.
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Devops](./devops.md)
+💡 **Explore Related:** [Devops](./devops.md) | [Project Management Methodology](./project-management-methodology.md) | [Scaffolding](./scaffolding.md)
 

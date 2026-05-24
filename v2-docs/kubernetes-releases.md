@@ -5,7 +5,20 @@
 
 ## Standard Reference
 
+  - [sysdig.com: What’s new in Kubernetes 1.20?](https://www.sysdig.com/blog/whats-new-kubernetes-1-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Kubernetes is Removing Docker Support, Kubernetes is Not Removing Docker Support](https://www.redhat.com/en/blog/kubernetes-is-removing-docker-support-kubernetes-is-not-removing-docker-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devclass.com: Kubernetes 1.21 unloads pod security, adds dual IPv4/IPv6 networking, and shuts down gracefully](https://www.devclass.com/containers/2021/04/09/kubernetes-121-unloads-pod-security-adds-dual-ipv4/ipv6-networking-and-shuts-down-gracefully/1623619)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Kubernetes 1.21 Grows Innovative New Features](https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes 1.22 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-22-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [acloudguru.com: What’s new with Kubernetes 1.22?](https://www.pluralsight.com/resources/blog/cloud/whats-new-with-kubernetes-1-22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes 1.23 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-23-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes 1.24 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-24-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes 1.25 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-25-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [datree.io: EKS 1.22 Upgrade Tutorial](https://www.datree.io/resources/eks-1-22-upgrade-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes 1.26 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-26-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [sysdig.com: Kubernetes 1.27 – What’s new?](https://www.sysdig.com/blog/kubernetes-1-27-whats-new)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [relnotes.k8s.io: Kubernetes Release Notes](https://relnotes.k8s.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [magalix: What You Should Know about Kubernetes 1.20](https://www.magalix.com/blog/what-you-should-know-about-kubernetes-1.20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [zdnet.com: Kubernetes dropping Docker is not that big of a deal](https://www.zdnet.com/article/kubernetes-dropping-docker-is-not-that-big-of-a-deal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes 1.20 Lands with 44 Enhancements](https://thenewstack.io/kubernetes-1-20-lands-with-44-enhancements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes 1.20 Enhances the Operator Experience and Brings' New Features to the Container Runtime](https://thenewstack.io/kubernetes-1-20-enhances-the-operator-experience-and-brings-new-features-to-the-container-runtime)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -23,14 +36,17 @@
   - [kubernetes.io: Graceful Node Shutdown Goes Beta](https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes Memory Manager moves to beta](https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Dockershim removal is coming. Are you ready?](https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Kubernetes v1.22 ends Cloud Provider LoadBalancer lock-in](https://medium.com/thermokline/kubernetes-v1-22-ends-cloud-provider-loadbalancer-lock-in-80ed7907695e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [armosec.io: Kubernetes version 1.23 is out – everything you should know](https://www.armosec.io/blog/kubernetes-version-1-23-is-out-everything-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes 1.23: Dual Stack IPv4/IPv6, CronJobs, Ephemeral' Volumes](https://thenewstack.io/kubernetes-1-23-dual-stack-ipv4-ipv6-cronjobs-ephemeral-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.aquasec.com: Kubernetes Version 1.23: What’s New for Security?](https://blog.aquasec.com/kubernetes-version-1.23-security-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes 1.23: The Next Frontier](https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Kubernetes Proceeding with Deprecation of Dockershim in Upcoming' 1.24 Release](https://www.infoq.com/news/2022/01/kubernetes-dockershim-removal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.runx.dev: Will That Kubernetes v1.22 Upgrade Break My Application?](https://blog.runx.dev/will-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Updated: Dockershim Removal FAQ](https://kubernetes.io/blog/2022/02/17/dockershim-faq)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes Release Cadence Change: Here’s What You Need' To Know](https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Amazon EKS now supports Kubernetes 1.22](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [inder-devops.medium.com: It’s Time to Migrate your Container Runtime, Kubernetes' 1.24 is coming](https://inder-devops.medium.com/its-time-to-migrate-your-container-runtime-kubernetes-1-24-is-coming-f0c0b6b9bb90)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes Removals and Major Changes In 1.25](https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes v1.25: Combiner](https://kubernetes.io/blog/2022/08/23/kubernetes-v1-25-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: PodSecurityPolicy: The Historical Context 🌟](https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -43,15 +59,18 @@
   - [kubernetes.io: Kubernetes v1.26: CPUManager goes GA](https://kubernetes.io/blog/2022/12/27/cpumanager-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Unleashing the Power of Kubernetes 1.26: Exploring the New ValidatingAdmissionPolicy' Feature with CEL](https://itnext.io/unleashing-the-power-of-kubernetes-1-26-56979ee667fd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes 1.26: Job Tracking, to Support Massively Parallel' Batch Workloads, Is Generally Available](https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [alexandrev.medium.com: Kubernetes Autoscaling 1.26: A Game-Changer for KEDA' Users?](https://alexandrev.medium.com/kubernetes-autoscaling-1-26-a-game-changer-for-keda-users-c718a81fb155)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes v1.26: Advancements in Kubernetes Traffic Engineering](https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes v1.27: Chill Vibes](https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jonathan_37674: Kubernetes 1.27: Everything You Should Know' | ARMO](https://medium.com/@jonathan_37674/kubernetes-1-27-everything-you-should-know-armo-236de6d77272)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes 1.27 Arrives](https://thenewstack.io/kubernetes-1-27-arrives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [armosec.io: Kubernetes 1.27 Release: Enhancements and Security Updates](https://www.armosec.io/blog/kubernetes-1-27-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Private Access to the AWS Management Console is generally available](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-management-console-private-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes 1.27: In-place Resource Resize for Kubernetes' Pods (alpha)](https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes 1.28 Accommodates the Service Mesh, Sudden Outages](https://thenewstack.io/kubernetes-1-28-accommodates-the-service-mesh-sudden-outages)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Kubernetes Planternetes v1.28: Non-Graceful Node' Shutdown Feature](https://levelup.gitconnected.com/kubernetes-planternetes-v1-28-non-graceful-node-shutdown-feature-8608d5073519)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 

@@ -3,6 +3,21 @@
 !!! info "Architectural Context"
     Detailed reference for Web Servers in the context of Networking & Service Mesh.
 
+## Standard Reference
+
+  - [nginx.com: The Complete NGINX Cookbook 🌟](https://www.f5.com/products/nginx/resources/library/complete-nginx-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone Refcard: Essential Apache HTTP Server](https://dzone.com/refcardz/essential-apache-http-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nixCraft: How to secure Apache with Let’s Encrypt Certificates on RHEL 8](https://www.cyberciti.biz/faq/how-to-secure-apache-with-lets-encrypt-certificates-on-rhel-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [High priority request queue with HAProxy](https://medium.com/swlh/high-priority-request-queue-with-haproxy-9efd639a8992)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than' Traefik v2?](https://medium.com/beyn-technology/is-nginx-dead-is-traefik-v3-20-faster-than-traefik-v2-f28ffb7eed3e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Networking
 
 ### Fundamentals
@@ -25,6 +40,9 @@
 ##### Kubernetes Ingress
 
   - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory article explaining how to set up Traefik as an Ingress Controller in Kubernetes. It focuses on setting up path-based routing rules and using labels to automate routing table updates.
+##### Kustomize Deployments
+
+  - [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations blog outlining Traefik v2.2 deployment using Kustomize overlays. Although the specific Traefik CRD API versions are legacy, the architectural structure of managing ingress with Kustomize remains highly educational.
   - **(2026)** [==Traefik==](http://traefik.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Traefik is a modern cloud-native HTTP reverse proxy and ingress controller designed to automatically discover backend services from platforms like Kubernetes, Docker, and Consul. Its auto-configuration feature and native support for Let's Encrypt certificates simplify cluster operations.
 ### Load Balancing (1)
 
@@ -36,6 +54,7 @@
 ##### Nginx Integration
 
   - [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A configuration-focused tutorial detailing how to chain HAProxy as a frontend load balancer in front of an Nginx web tier on CentOS 8. Note: CentOS 8 is end-of-life, meaning parts of this OS guide must be updated, but the routing concepts remain sound.
+  - **(2026)** [==haproxy.org==](http://www.haproxy.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official site for HAProxy, the high-performance TCP/HTTP load balancer. Renowned for its extreme efficiency and microsecond-level latency control, HAProxy is an industry standard for routing massive amounts of concurrent web traffic.
 ### Reverse Proxy
 
 #### Apache HTTPD
@@ -53,6 +72,9 @@
   - [Apache](https://httpd.apache.org)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The home page for Apache HTTPD, the foundational open-source web server of the internet. While newer microservices architectures typically leverage Nginx or Envoy, Apache remains highly relevant for legacy proxy configurations and traditional web hosting setups.
 #### Nginx
 
+##### Configuration Generators
+
+  - [NGINXConfig](https://www.digitalocean.com/community/tools/nginx)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DigitalOcean's visual configuration tool for Nginx. It generates highly secure, production-tested server blocks tailored for modern features like HTTP/2, custom security headers, SSL/TLS optimizations via Let's Encrypt, and Gzip compression.
 ##### Guides
 
   - [freecodecamp.org: The NGINX Handbook 🌟](https://www.freecodecamp.org/news/the-nginx-handbook) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive manual explaining the underlying mechanics of Nginx. Covers everything from server blocks and upstream definitions to proxy routing rules, security hardening, and cache configuration optimization.
@@ -67,5 +89,5 @@
   - [unit.nginx.org](https://unit.nginx.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Nginx Unit is a dynamic, polyglot application server engineered to run application code across multiple runtimes (Go, Python, Node.js, PHP) simultaneously. It is entirely controlled via a declarative JSON-based REST API, making it well-suited for container-centric microservices.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 

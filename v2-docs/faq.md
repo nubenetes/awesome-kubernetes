@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for Faq in the context of Architectural Foundations.
 
+## Standard Reference
+
+  - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance' Between Microservices and Monoliths](https://betterprogramming.pub/domain-partitions-how-to-find-a-healthy-balance-between-microservices-and-monoliths-2cd74206559)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium: It’s time to stop making “Microservices” the goal of modernization](https://medium.com/ibm-garage/its-time-to-stop-making-microservices-the-goal-of-modernization-71758b400287)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com: When to Use and When NOT to Use Microservices: No Silver Bullet' 🌟](https://medium.com/design-microservices-architecture-with-patterns/when-to-use-and-when-not-to-use-microservices-no-silver-bullet-3ae293faf6d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Architecture Patterns
 
 ### Microservices
@@ -51,8 +60,20 @@
 #### Patterns
 
   - **(2021)** [acloudguru.com: What is lift and shift cloud migration?](https://www.pluralsight.com/resources/blog/business-and-leadership/what-is-lift-and-shift-cloud-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational architectural guide exploring the mechanics, trade-offs, and risk profiles associated with the 'lift-and-shift' (rehosting) cloud migration strategy. It contrasts direct VM migration with cloud-native re-architecting, detailing scenarios where rehosting provides immediate financial or timeline relief. The synthesis warns of the potential long-term operational overhead without subsequent modernization.
+## Cloud-Native Infrastructure
+
+### Kubernetes Delivery
+
+#### Enterprise Orchestration
+
+  - [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes' Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: Explains the integration of legacy build architectures with cloud-native Kubernetes deployments. Live Grounding: Focuses on managing microservice dependencies, service meshes, and GitOps workflows in multi-cluster systems. Essential for platform transition projects.
 ## Enterprise Strategy
 
+### Container Adoption
+
+#### Best Practices
+
+  - [contino.io: How to Make Enterprise Container Strategies That Last (Part' One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Provides high-level strategic guidance for enterprise leaders looking to build sustainable containerization and orchestration architectures. Live Grounding: Covers people, process, and security paradigms, helping organizations align technological adoption with reliable cloud-native governance structures.
 ### Talent Acquisition
 
 #### Skills Matrix
@@ -74,5 +95,5 @@
   - [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Highlights the distinction between applications run on cloud infrastructure and systems designed specifically to leverage native Kubernetes operators and structures. Live Grounding: Analyzes how API extensions, CRDs, and native configuration constructs improve resilience, efficiency, and resource utilization.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Cheatsheets](./cheatsheets.md) | [Git](./git.md)
 

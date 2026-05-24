@@ -3,6 +3,21 @@
 !!! info "Architectural Context"
     Detailed reference for Recruitment in the context of Career & Industry.
 
+## Standard Reference
+
+  - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [4dayweek.medium.com: What does the work-life balance of a Software Engineer' look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor' (IC) or Engineering Manager Role is Right for You?](https://medium.com/walmartglobaltech/how-do-you-decide-whether-an-individual-contributor-ic-or-engineering-manager-role-is-right-for-f46251f1a4cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theengineeringmanager.substack.com: How do I progress to the next level' in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [trycircular.com (Spain)](https://trycircular.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [skamille.medium.com: An incomplete list of skills senior engineers need,' beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Career Development
 
 ### Industry Trends
@@ -64,6 +79,7 @@
 #### Engineering Culture
 
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a ranked taxonomy of the nine key workplace elements that dictate developer and professional happiness. Details how factors like flexibility, trust, work-life balance, and constructive recognition far outweigh basic financial remuneration over time. [SPANISH CONTENT]
+  - **(2021)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a self-diagnostic framework composed of ten strategic evaluation questions designed to gauge leadership efficacy and maturity. Promotes reflective coaching and output-driven organizational alignment. [SPANISH CONTENT]
   - [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues that workplace flexibility is ineffective without operational autonomy over tasks, schedules, and team collaboration frameworks. Outlines design principles for engineering organizations looking to scale remote-first operations without compromising deployment velocity or developer experience.
   - [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes major organizational failures exposed by the Great Resignation, detailing actionable leadership modifications. Focuses on moving from top-down monitoring paradigms to trust-driven, output-oriented metrics within distributed engineering units.
   - [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores the fundamental tensions and organizational challenges of establishing permanent hybrid and remote work architectures. Examines how shifting employee expectations collided with legacy corporate management mechanisms throughout 2022.
@@ -129,7 +145,21 @@
 #### Remote Operations
 
   - **(2021)** [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative, data-driven whitepaper by GitLab on global remote work methodologies. Discusses practical insights regarding asynchronous operations, developer productivity, and remote-first scaling strategies.
+## Security
+
+### Cloud Native
+
+#### Kubernetes Hardening
+
+  - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A DevSecOps assessment explaining key patterns for hardening Kubernetes namespaces. Reviews best practices for securing configuration secrets, configuring network isolation policies, and enforcing runtime container constraints.
+## Software Engineering
+
+### Developer Productivity
+
+#### Shell Tools
+
+  - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A shell-based script interface to generate programmatic git commits and simulate active GitHub profile contributions. Flagged as legacy under Minimum Viable Quality (MVQ) rules due to long-term inactivity.
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Freelancing](./freelancing.md) | [Finops](./finops.md)
 

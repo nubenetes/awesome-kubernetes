@@ -3,6 +3,57 @@
 !!! info "Architectural Context"
     Detailed reference for Argo in the context of Engineering Pipeline.
 
+## Standard Reference
+
+  - [medium: Argo CD: A Tool for Kubernetes DevOps](https://medium.com/geekculture/argo-cd-a-tool-for-kubernetes-devops-c46f2881edfe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [wecloudpro.com: Deploying Helm Charts with ArgoCD](https://www.wecloudpro.com/2021/11/28/Argocd-helm.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/gumgum-tech: Streamlining your Kubernetes adoption with Helmfile' / ArgoCD and GitOps](https://medium.com/gumgum-tech/streamlining-your-kubernetes-adoption-with-helmfile-argocd-and-gitops-211937e21e29)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes' Cluster](https://levelup.gitconnected.com/getting-started-with-argocd-on-your-kubernetes-cluster-552ca5d8cf41)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [igboie.medium.com: Kubernetes CI/CD with GitHub, GitHub Actions and Argo' CD](https://igboie.medium.com/kubernetes-ci-cd-with-github-github-actions-and-argo-cd-36b88b6bda64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/containers-101: Using GitOps, Multiple Argo Instances, and Environments' with Argo CD at Scale](https://medium.com/containers-101/using-gitops-multiple-argo-instances-and-environments-with-argo-cd-at-scale-e6b19c86be36)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@ScrumPokerPro: Cloud native architecture with Kubernetes and' ArgoCD](https://medium.com/@ScrumPokerPro/cloud-native-architecture-with-kubernetes-and-argocd-ebecda7784b8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Deploying Argo CD and Sealed Secrets with Helm](https://faun.pub/deploying-argo-cd-and-sealed-secrets-with-helm-8de12f53051b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [amralaayassen.medium.com: How to create ArgoCD Applications Automatically' using ApplicationSet? “Automation of GitOps”](https://amralaayassen.medium.com/how-to-create-argocd-applications-automatically-using-applicationset-automation-of-the-gitops-59455eaf4f72)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.akuity.io: Unveil the Secret Ingredients of Continuous Delivery at' Enterprise Scale with Argo CD](https://blog.akuity.io/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argo-cd-7c5b4057ee49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [prashant-48386.medium.com: Continuous Delivery for Kubernetes With Argo' CD](https://prashant-48386.medium.com/continuous-delivery-for-kubernetes-with-argo-cd-9d5f3b69f1db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@outlier.developer: Getting Started with ArgoCD for GitOps Kubernetes' Deployments](https://medium.com/@outlier.developer/getting-started-with-argocd-for-gitops-kubernetes-deployments-fafc2ad2af0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Automating' Kubernetes with ArgoCD](https://medium.com/@hmquan08011996/setup-microservices-on-kubernetes-automating-kubernetes-with-argocd-cb94622dac5b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kamsjec.medium.com: ArgoCD Setup on Kubernetes/OpenShift Cluster](https://kamsjec.medium.com/argocd-setup-on-kubernetes-openshift-cluster-f7340344c017)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@versentfastforward: GitOps on Kubernetes with ArgoCD](https://medium.com/@versentfastforward/gitops-and-argocd-to-automate-kubernetes-deployments-640f3a086865)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@versentfastforward: One-click Bootstrap Deployment of ArgoCD](https://medium.com/@versentfastforward/one-click-bootstrap-deployment-of-argocd-e06f848aacc5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@versentfastforward: Structuring Your Repo for ArgoCD, Part 1](https://medium.com/@versentfastforward/structuring-your-repo-for-argocd-part-1-582817713b0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD' GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jamalshahverdiev.medium.com: ArgoCD ApplicationSet with Applications, Image' Updater and Notification controller with SSO](https://jamalshahverdiev.medium.com/argocd-applicationset-with-applications-image-updater-and-notification-controller-with-sso-bba3182dad8a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [figments.medium.com: ArgoCD: The first step towards GitOps](https://figments.medium.com/argocd-the-first-step-towards-gitops-899732fbc33e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@nsfabrice2009: How to install ArgoCD on k8s cluster](https://medium.com/@nsfabrice2009/how-to-install-argocd-on-k8s-cluster-ad9084c71f16)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/containers-101: How to Install and Upgrade Argo CD](https://medium.com/containers-101/how-to-install-and-upgrade-argo-cd-a64f4635f97b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/containers-101: Argo CD Best Practices](https://medium.com/containers-101/best-practices-for-argo-cd-8253bcd31897)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gokhan-karadas1992.medium.com: ArgoCD + Kubevela Integration](https://gokhan-karadas1992.medium.com/argocd-kubevela-integration-eb88dc0484e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.tanmaysarkar.tech: Beginners Guide to Argo CD](https://blog.tanmaysarkar.tech/beginners-guide-to-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/devops-techable: GitOps with ArgoCD running in Kubernetes for' deployment processing](https://medium.com/devops-techable/gitops-with-argocd-running-in-kubernetes-for-deployment-processing-c5d21770ca97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@eduard.mihai.lemnaru: Auto-update helm chart version using ArgoCD](https://medium.com/@eduard.mihai.lemnaru/auto-update-helm-chart-version-using-argocd-4936933a2bac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [53jk1.medium.com: ArgoCD: The Continuous Delivery Solution for Kubernetes](https://53jk1.medium.com/argocd-the-continuous-delivery-solution-for-kubernetes-ae5b008e76d1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jon.mclean: ArgoCD: The GitOps Way](https://medium.com/@jon.mclean/argocd-the-gitops-way-90f7eb0d2606)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@devopsrockers: Blue-Green Deployment on EKS using Argocd with' Kubecost, Istio, External DNS, Grafana-Prometheus and More: “Build, Deploy a Resilient and Observability-Driven Application”](https://medium.com/@devopsrockers/blue-green-deployment-on-eks-using-argocd-with-kubecost-istio-external-dns-grafana-prometheus-d5d5508f0748)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@samuelbagattin: Partial Helm values encryption using AWS KMS' with ArgoCD](https://medium.com/@samuelbagattin/partial-helm-values-encryption-using-aws-kms-with-argocd-aca1c0d36323)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@jerome.decoster: Create temporary environment from Pull Request' with ArgoCD ApplicationSet](https://medium.com/@jerome.decoster/create-temporary-environment-from-pull-request-with-argocd-applicationset-1cef9803223a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@geoffrey.muselli: ArgoCD: Multi-cluster Helm charts management' in mono-repo](https://medium.com/@geoffrey.muselli/argocd-multi-cluster-helm-charts-installation-in-mono-repo-0a406ff7c578)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/otomi-platform: Helmfile and ArgoCD are better together](https://medium.com/otomi-platform/helmfile-and-argocd-better-together-f8d4587263ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/globant: Using multiple sources for a Helm Chart deployment in' ArgoCD](https://medium.com/globant/using-multiple-sources-for-a-helm-chart-deployment-in-argocd-cf3cd2d598fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from' Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dnastacio.medium.com: Six critical blindspots while securing Argo CD](https://dnastacio.medium.com/gitops-argocd-security-cbb6fb6378bb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [jijujacob27.medium.com: Sharded applications on Kubernetes using Helm, ArgoCD,' and Argo-Rollouts](https://jijujacob27.medium.com/sharded-saas-applications-on-kubernetes-using-helm-argocd-and-argo-rollouts-a683c66f8646)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/@ej.sta.ana: Easy Blue-Green Deployment on Openshift Container' Platform using Argo Rollouts](https://medium.com/@ej.sta.ana/easy-blue-green-deployment-on-openshift-container-platform-using-argo-rollouts-4d514b3c5c0f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo' Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/atlantbh: Implementing CI/CD pipeline using Argo Workflows and' Argo Events 🌟](https://medium.com/atlantbh/implementing-ci-cd-pipeline-using-argo-workflows-and-argo-events-6417dd157566)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Application Delivery
 
 ### GitOps
@@ -43,11 +94,6 @@
   - [dev.to: Argo CD and Sealed Secrets is a perfect match](https://dev.to/timtsoitt/argo-cd-and-sealed-secrets-is-a-perfect-match-1dbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the integration of Bitnami Sealed Secrets with Argo CD for safe GitOps secret workflows. Live Grounding: Demonstrates how public cryptography allows storing encrypted secrets safely in Git, which are decrypted only within the target Kubernetes cluster by the Sealed Secrets controller.
   - [argoproj-labs/argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) <span class='md-tag md-tag--info'>⭐ 965</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An indispensable Argo CD plugin built to inject secrets dynamically from HashiCorp Vault, AWS Secrets Manager, or GCP Secret Manager. Live Grounding: Replaces custom templating hacks by decrypting and injecting secret values directly into workloads at synchronization time, ensuring zero plaintext secrets enter the Git repository.
   - [github.com/crumbhole/argocd-vault-replacer](https://github.com/crumbhole/argocd-vault-replacer) <span class='md-tag md-tag--info'>⭐ 109</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: A specialized replacement utility designed to pull secrets from HashiCorp Vault during the Argo CD rendering phase. Live Grounding: Acts as a lightweight precursor/alternative to full plugin integrations, enabling targeted placeholder substitutions within native Kubernetes manifest streams.
-### Infrastructure as Code (1)
-
-#### Terraform Components
-
-  - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Enterprise-ready Terraform submodule designed to deploy, configure, and bootstrap Argo CD onto an existing AWS EKS cluster. Live Grounding: Standardizes complex security configuration flags, integrates smoothly with AWS IAM roles for service accounts (IRSA), and provisions preconfigured Helm-based releases.
 ### Progressive Delivery
 
 #### Argo Rollouts
@@ -78,13 +124,6 @@
 #### Security (1)
 
   - [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An authoritative security hardening guide designed to lock down Argo Workflows inside shared multi-tenant environments. Live Grounding: Focuses on strict RBAC roles, container security contexts, namespace network policies, and the isolation of high-privilege service accounts to prevent cluster escapes.
-## Cloud-Native Infrastructure
-
-### GitOps and Declarative Delivery
-
-#### Argo Project Ecosystem
-
-  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — Curator Insight: Direct portal to community sessions, submissions, and emerging patterns for the Argo GitOps suite in 2026. Live Grounding: Acts as the primary standard gathering point for Kubernetes GitOps continuous delivery. Keeps teams abreast of cutting-edge development paths in orchestration.
 ## Developer Platforms
 
 ### Platform Engineering
@@ -102,9 +141,6 @@
 #### Architectural Strategy (1)
 
   - [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic evaluation explaining the architectural differences between pushing configurations via CI and pulling them via declarative GitOps operators, positioning Argo CD's reconciliation loops.
-#### Argo CD
-
-  - [argoproj.github.io: Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Argo CD is a declarative GitOps engine that automates Kubernetes deployments. By continually matching the live cluster state to git specifications, it guarantees robust security and rapid rollback features.
 #### Argo CD Features
 
   - [blog.argoproj.io: New sync and diff strategies in ArgoCD](https://blog.argoproj.io/new-sync-and-diff-strategies-in-argocd-44195d3f8b8c) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines advanced diff and sync customization in modern Argo CD versions, clarifying sync waves and resource skip behaviors for complex helm-based applications.
@@ -150,26 +186,14 @@
 #### Argo Ecosystem
 
   - [argoproj.github.io: Argo Events - The Event-driven Workflow Automation Framework](https://argoproj.github.io/argo-events) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Argo Events is an enterprise-grade, event-driven workflow automation framework. It triggers scalable Kubernetes actions from diverse external inputs (webhooks, storage, message queues), serving as a crucial modern CI/CD cornerstone.
-## GitOps and Continuous Delivery
-
-### GitOps (2)
-
-#### Argo CD (1)
-
-  - [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 22950</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub pull request introducing ApplicationSet rendering directly inside the Argo CD UI Resource Tree. This highly demanded improvement provides cluster administrators with superior visibility into generated application topologies and dependencies directly from the dashboard.
-### Kubernetes Native CI-CD
-
-#### Argo Workflows (1)
-
-  - [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive real-world migration case study detailing how Intuit transitioned high-volume CI/CD pipelines from Jenkins to Kubernetes-native Argo Workflows. Outlines critical architectural lessons, scale bottlenecks, pipeline-as-code models, and resource optimization.
 ## Platform Engineering (1)
 
 ### Internal Developer Platforms
 
-#### Argo CD (2)
+#### Argo CD
 
   - [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD' and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Proposes an innovative model for constructing a lightweight IDP by utilizing simple Kubernetes label configurations mapped to Argo CD ApplicationSets. Live Grounding: Demonstrates how platform teams can abstract direct Kubernetes complexity for application developers, promoting self-service deployment without security compromises.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md) | [Cicd](./cicd.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Jenkins](./jenkins.md) | [Cicd](./cicd.md)
 

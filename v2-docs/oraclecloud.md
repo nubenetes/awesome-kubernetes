@@ -3,6 +3,12 @@
 !!! info "Architectural Context"
     Detailed reference for Oraclecloud in the context of Cloud Providers (Hyperscalers).
 
+## Standard Reference
+
+  - [blogs.oracle.com: Access hands-on exercises for Oracle Cloud Infrastructure' with ease](https://blogs.oracle.com/oracleuniversity/post/hands-on-labs-oci-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blogs.oracle.com: Oracle RAC on Docker - Now with Full Production Support](https://blogs.oracle.com/maa/post/oracle-rac-on-docker-now-with-full-production-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blogs.oracle.com: Announcing private Kubernetes clusters](https://blogs.oracle.com/cloud-infrastructure/announcing-private-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Networking
 
 ### API Design
@@ -28,5 +34,5 @@
   - [github.com/oracle](https://github.com/oracle)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The primary open-source hub for Oracle's cloud-native integrations. Hosts projects like OCI Cloud Controller Manager, CSI plugins, and deployment tools designed for enterprise container infrastructure.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Security](./aws-security.md) | [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md)
 

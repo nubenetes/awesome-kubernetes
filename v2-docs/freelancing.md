@@ -3,6 +3,20 @@
 !!! info "Architectural Context"
     Detailed reference for Freelancing in the context of Career & Industry.
 
+## Standard Reference
+
+  - [gestoresderiesgo.com: Prohibición de utilizar programas informáticos que permitan llevar una doble contabilidad empresarial](http://www.gestoresderiesgo.com/colaboradores/prohibicion-de-utilizar-programas-informaticos-que-permitan-llevar-una-doble-contabilidad-empresarial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eleconomista.es: El acceso a financiación, una barrera (casi) infranqueable' para los autónomos](https://www.eleconomista.es/actualidad/noticias/11361634/08/21/El-acceso-a-financiacion-una-barrera-casi-infranqueable-para-los-autonomos.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social' y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eleconomista.es: Estos son los gastos de los autónomos que no se pueden' deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el' paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [malt 🌟](https://www.malt.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [upwork 🌟](https://www.upwork.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [freelancer 🌟](https://www.freelancer.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [fiverr](https://www.fiverr.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [remoteone](https://remote.one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+
 ## Career and Freelancing
 
 ### Alternative Employment Models
@@ -113,5 +127,5 @@
   - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un reportaje de El Confidencial que examina la transición de los profesionales de TI en España desde las consultoras tradicionales ("cárnicas") hacia el trabajo autónomo. Evalúa plataformas de intermediación y detalla las ventajas operativas y financieras de este modelo profesional. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Finops](./finops.md)
 

@@ -5,7 +5,22 @@
 
 ## Standard Reference
 
+  - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift' clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang' 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Architecture
 
@@ -14,9 +29,6 @@
 #### Design Patterns
 
   - [ebosas/microservices](https://github.com/ebosas/microservices) <span class='md-tag md-tag--info'>⭐ 309</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases a reference architecture modeling an end-to-end microservices pattern in Go. Live Grounding reveals it as a practical template illustrating API Gateways, service registries, and gRPC communication loops.
-#### Distributed Application Runtime
-
-  - [dapr.io](https://dapr.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents Dapr as a portable, event-driven runtime that simplifies building resilient, distributed microservices. Live Grounding highlights its widespread enterprise adoption as a CNCF incubated project, offering sidecar APIs for state management, pub/sub, and service invocation across any cloud.
 #### Go Frameworks
 
   - **(2025)** [==go-micro==](https://github.com/micro/go-micro) <span class='md-tag md-tag--info'>⭐ 22751</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces go-micro as a distributed systems development framework providing key abstractions for microservices. Live Grounding notes its journey through corporate and open-source licensing changes, yet it remains a foundational toolkit for service discovery, RPC, and event-driven architectures in Go.
@@ -88,9 +100,6 @@
 #### Advanced Projects
 
   - **(2022)** [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/build-blockchain-with-go) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide illustrating how to build a basic blockchain protocol in Go from scratch. Walks through cryptography, hashing, transaction processing, and basic consensus mechanism structures.
-#### Awesome Lists
-
-  - [Awesome Go 🌟](https://github.com/avelino/awesome-go) <span class='md-tag md-tag--info'>⭐ 173341</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development.
 #### Configuration Management
 
   - [go-ini/ini](https://github.com/go-ini/ini) <span class='md-tag md-tag--info'>⭐ 3540</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A feature-rich, high-performance ini file parser for Go. Offers seamless serialization and deserialization, essential for managing localized configuration states in production environments.
@@ -112,7 +121,6 @@
   - [dev.to: Deploying Your First Golang Webapp](https://dev.to/heroku/deploying-your-first-golang-webapp-11b3) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A quickstart tutorial covering local compilation and cloud deployment of Go web applications. While slightly legacy, it provides robust fundamental concepts on environmental variables and buildpacks.
 #### Kubernetes Integration
 
-  - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
   - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a practical, concrete code blueprint demonstrating how to query Kubernetes resources dynamically without pre-compiled SDK structures. Simplifies integration with custom CRDs.
   - [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A masterfully structured tutorial on raw Kubernetes API mechanisms using Go's dynamic client and RESTClient abstractions. Explains complex API machinery concepts in clear, visual steps.
 #### Memory Management
@@ -182,6 +190,10 @@
 #### Project Scaffolding
 
   - [create-go-app/cli](https://github.com/create-go-app/cli) <span class='md-tag md-tag--info'>⭐ 2761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight introduces this CLI to construct boilerplate-free backend, frontend, and web applications in Go. Live Grounding shows its capability to pre-configure deployment assets like Dockerfiles and Kubernetes manifests to quicken development cycles.
+#### Reference Docs
+
+  - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
+  - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
 #### Version Managers
 
   - [gobrew 🌟](https://github.com/kevincobain2000/gobrew) <span class='md-tag md-tag--info'>⭐ 421</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Gobrew as an elegant and fast Go version manager that downloads and switches active toolchains easily. Live Grounding notes its speed and simplicity, making it a competitive alternative to gvm and asdf for dedicated Go development.
@@ -213,5 +225,5 @@
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1175</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Api](./api.md)
 

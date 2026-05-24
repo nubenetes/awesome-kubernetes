@@ -5,13 +5,54 @@
 
 ## Standard Reference
 
+  - [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://guide.sst.dev/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/news-insights/product-news/create-pull-requests-in-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [VSCode Updates](https://code.visualstudio.com/updates/v1_120)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46#_flexible-layout)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-) <span class='md-tag md-tag--info'>⭐ 9822</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dannysteenman.cloudformation-yaml-snippets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure/vscode-kubernetes-tools 🌟](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) <span class='md-tag md-tag--info'>⭐ 757</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Integrated Terminal](https://code.visualstudio.com/docs/terminal/basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [blog.golang.org: Gopls on by default in the VS Code Go extension](https://go.dev/blog/gopls-vscode-go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Repl.it](https://replit.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.redhat.com/en/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.dev](https://github.dev/github/dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gitpod.io 🌟🌟](https://ona.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Extensión de Visual Studio Code que genera tests y mejora tu código](https://www.youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [New VS Code Release Highlights v1.86](https://www.youtube.com/shorts/bVlIo4H0IDU)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [File Icon Theme](https://www.youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Learn with Copilot](https://www.youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Visualize your git repo in vscode with Git Graph extensions](https://www.youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://www.youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [kite: Code Faster with AI Autocomplete](https://kite.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ruff](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47643</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Google Cloud Code](https://cloud.google.com/code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode' (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blogs.windows.com: Bringing the browser developer tools to Visual Studio' Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [39digits.com: How to sign your commits to GitHub using Visual Studio Code' on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -19,13 +60,18 @@
   - [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio' Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer' Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your' Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Remote container development with VS Code and Podman' 🌟](https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [visualstudio.microsoft.com/services/live-share: Visual Studio Live Share' 🌟](https://visualstudio.microsoft.com/services/live-share)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [gijsreijn.medium.com: Optimizing Your DSC V3 Authoring Experience in VSCode](https://gijsreijn.medium.com/optimizing-your-dsc-v3-authoring-experience-in-vscode-bd8e90c52312)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.visualstudio.com: keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.visualstudio.com: keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [code.visualstudio.com: keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -49,10 +95,13 @@
   - [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Python Visual Studio Code](https://github.com/microsoft/vscode-python) <span class='md-tag md-tag--info'>⭐ 4618</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [c-sharpcorner.com: The Best VS Code Extensions For Remote Working](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: VS Code Extensions to Increase Developer Productivity](https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: My Top 5 Visual Studio Code extensions for Azure Developers](https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Terraform extension for VS Code speeds up loading of large' workspaces](https://www.hashicorp.com/blog/terraform-extension-for-vs-code-speeds-up-loading-of-large-workspaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -71,6 +120,7 @@
   - [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift' Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity' 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -106,6 +156,7 @@
   - [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Kind (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio' Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure DevOps 🌟](https://marketplace.visualstudio.com/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gitflow by vector-of-bool](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -119,18 +170,22 @@
   - [Alessandro Fragnani: Jenkins Status](https://marketplace.visualstudio.com/items?itemName=alefragnani.jenkins-status)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Remote debugging on Kubernetes using VS Code](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) <span class='md-tag md-tag--info'>⭐ 5083</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service' from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 4248</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) <span class='md-tag md-tag--info'>⭐ 303</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [visualstudiomagazine.com: Bridge to Kubernetes Simplifies Microservice Development' in Visual Studio/VS Code](https://visualstudiomagazine.com/articles/2020/10/07/bridge-kubernetes.aspx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Gitpod Open Sources a ‘Holistic IDE’](https://thenewstack.io/gitpod-open-sources-a-holistic-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Fleet](https://www.jetbrains.com/fleet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [evaizik.medium.com: Setting up a remote debugging for Java microservices' running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [betterprogramming.pub: My Top 7 Most Underrated IntelliJ IDEA Features](https://betterprogramming.pub/my-top-7-most-underrated-intellij-idea-features-572b0b706bd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github1s.com 🌟](https://github1s.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vscode.dev 🌟](https://vscode.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Visual Studio Code - Shorts](https://www.youtube.com/@code/shorts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -164,7 +219,14 @@
   - [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Screencast mode](https://www.youtube.com/shorts/KZHI5RMmFk0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## Cloud Native Languages
+
+### Go
+
+#### Kubernetes Integration
+
+  - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Java_Frameworks](./java_frameworks.md) | [Api](./api.md)
 

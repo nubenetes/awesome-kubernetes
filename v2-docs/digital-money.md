@@ -5,9 +5,11 @@
 
 ## Standard Reference
 
+  - [en.wikipedia.org: Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [en.wikipedia.org: Blockchain](https://en.wikipedia.org/wiki/Blockchain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tether (USDt)](https://tether.to)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md) | [Elearning](./elearning.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md)
 

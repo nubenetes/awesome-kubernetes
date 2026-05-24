@@ -101,6 +101,7 @@ nav:
     - "Chatgpt": chatgpt.md
     - "Mlops": mlops.md
   - "Architectural Foundations":
+    - "About": about.md
     - "Cheatsheets": cheatsheets.md
     - "Cloud Arch Diagrams": cloud-arch-diagrams.md
     - "Cloud Asset Inventory": cloud-asset-inventory.md
@@ -111,6 +112,7 @@ nav:
     - "Git": git.md
     - "Grafana": grafana.md
     - "Helm": helm.md
+    - "Index": index.md
     - "Introduction": introduction.md
     - "Kubernetes Tools": kubernetes-tools.md
     - "Kubernetes Tutorials": kubernetes-tutorials.md
@@ -163,6 +165,7 @@ nav:
     - "Oraclecloud": oraclecloud.md
     - "Private Cloud Solutions": private-cloud-solutions.md
     - "Public Cloud Solutions": public-cloud-solutions.md
+    - "Scaleway": scaleway.md
   - "Data & Advanced Analytics":
     - "Crunchydata": crunchydata.md
     - "Databases": databases.md
@@ -183,6 +186,7 @@ nav:
     - "Java_App_Servers": java_app_servers.md
     - "Java_Frameworks": java_frameworks.md
     - "Javascript": javascript.md
+    - "Jvm Parameters Matrix Table": jvm-parameters-matrix-table.md
     - "Linux Dev Env": linux-dev-env.md
     - "Lowcode Nocode": lowcode-nocode.md
     - "Maven Gradle": maven-gradle.md
@@ -192,6 +196,7 @@ nav:
     - "Swagger Code Generator For Rest Apis": swagger-code-generator-for-rest-apis.md
     - "Visual Studio": visual-studio.md
     - "Web3": web3.md
+    - "Xamarin": xamarin.md
   - "Engineering Pipeline":
     - "Argo": argo.md
     - "Cicd Kubernetes Plugins": cicd-kubernetes-plugins.md
