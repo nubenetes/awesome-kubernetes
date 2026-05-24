@@ -62,8 +62,6 @@
   - [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -73,14 +71,7 @@
   - [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Development Tools
-
-### API Mocking and Testing
-
-#### Microservices
-
-  - [microcks.io 🌟](https://microcks.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and testing API specifications (REST, gRPC, GraphQL, and event-driven architectures). It allows microservices teams to mock dependencies and run contract tests rapidly during continuous integration.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
 

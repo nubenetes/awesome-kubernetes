@@ -9,5 +9,5 @@
 
 
 ---
-💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md) | [Elearning](./elearning.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md)
 

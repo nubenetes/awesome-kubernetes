@@ -21,17 +21,9 @@
   - [itnext.io: Generating, transforming, and patching Kubernetes configuration' with Kustomize](https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Secretize 🌟](https://github.com/bbl/secretize) <span class='md-tag md-tag--info'>⭐ 71</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) <span class='md-tag md-tag--info'>⭐ 18</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Networking
-
-### Ingress
-
-#### Traefik
-
-##### Kustomize Deployments
-
-  - [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An operations blog outlining Traefik v2.2 deployment using Kustomize overlays. Although the specific Traefik CRD API versions are legacy, the architectural structure of managing ingress with Kustomize remains highly educational.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
 

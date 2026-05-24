@@ -76,6 +76,9 @@
 #### React Best Practices
 
   - [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3731</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated philosophy repository outlining architectural rules for designing highly maintainable React components. Promotes declarative clean code patterns, separation of concerns, and effective state models.
+#### React Framework
+
+  - [useHooks - React Hooks Library](https://usehooks.com)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium library of self-contained, optimized React hooks facilitating stateful abstractions. Designed to simplify DOM tracking, event management, and browser interactions inside production web applications.
 ### Package Management
 
 #### Ecosystem Announcements
@@ -91,5 +94,5 @@
   - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive foundational guide analyzing HTTP request-response lifecycles, network architectures, and client-side browser execution. Highlights modern REST API interactions and secure payload configurations.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Maven Gradle](./maven-gradle.md)
 

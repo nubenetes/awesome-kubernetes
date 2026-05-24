@@ -40,5 +40,5 @@
 
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

@@ -15,6 +15,7 @@
   - [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure' as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS' KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sufle.io: Adopting GitOps for Enhanced Operations](https://www.sufle.io/blog/adopting-gitops-for-enhanced-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Understanding GitOps: The Latest Tools and Philosophies](https://thenewstack.io/understanding-gitops-the-latest-tools-and-philosophies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [clickittech.com: What is GitOps? 🌟](https://www.clickittech.com/devops/what-is-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -77,6 +78,8 @@
   - [developers.redhat.com: Git best practices: Workflows for GitOps deployments' | Christian Hernandez 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: How to set up your GitOps directory structure |' Christian Hernandez 🌟](https://developers.redhat.com/articles/2022/09/07/how-set-your-gitops-directory-structure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopsera.com: How to Structure Directories in a GitOps Repository for the' Best User-Friendliness and Flexibility](https://devopsera.com/2023/06/how-to-structure-directories-in-a-gitops-repository-for-the-best-user-friendliness-and-flexibility)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [EntraExporter](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 860</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the' Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [slideshare: GitOps, Jenkins X & Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tanka](https://tanka.dev/tutorial/jsonnet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -86,7 +89,6 @@
   - [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) <span class='md-tag md-tag--info'>⭐ 3491</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Flagger](https://flagger.app)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [partlycloudy.blog: Release to Kubernetes like a Pro with Flagger](https://partlycloudy.blog/2020/07/08/release-to-k8s-like-a-pro-with-flagger)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2469</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openshift-applier](https://github.com/redhat-cop/openshift-applier) <span class='md-tag md-tag--info'>⭐ 98</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Weave GitOps Enterprise](https://www.weave.works/product/gitops-enterprise)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -102,50 +104,7 @@
   - [piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes' 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube.com: GitOps Guide to the Galaxy 🌟🌟🌟](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Application Delivery
-
-### Helm
-
-#### Alternative Engines
-
-  - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) <span class='md-tag md-tag--info'>⭐ 1072</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative deployment engine integrated within the Werf workflow that functions as an alternative to native Helm release tracking. It resolves Helm's tracking limitations by ensuring strict live cluster validation and resource health monitoring.
-## Cloud Infrastructure
-
-### Kubernetes Distributions
-
-#### Bare-Metal and Edge
-
-  - **(2026)** [**Charmed Kubernetes**](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Canonical's model-driven Kubernetes distribution designed for bare-metal, private, and multi-cloud environments. Leverages Ubuntu's automated Juju framework to manage complex cluster lifecycles, upgrades, security scanning, and seamless hypervisor scaling.
-## Cloud-Native Development
-
-### Local Development Tools
-
-#### Okteto
-
-  - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
-## GitOps
-
-### Hybrid Cloud Platforms
-
-#### Azure Arc Integration
-
-  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide illustrating the integration of Charmed Kubernetes with Azure Arc to orchestrate hybrid-cloud resources. Demonstrates how GitOps configurations are pushed dynamically across decentralized architectures using unified portal controls.
-## Infrastructure
-
-### GitOps (1)
-
-#### Cluster Provisioning
-
-  - [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An early GitOps-driven Kubernetes cluster manager from Weaveworks that provisioned clusters from a declared state stored in git. Following Weaveworks' operational shutdown, this project is considered legacy but remains highly influential in GitOps control-loop architecture history.
-  - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ editorial piece analyzing the operational design of WKSctl. Explores how declarative machine and cluster definitions allowed users to bootstrap and reconcile nodes over SSH using Git as the source of truth.
-## Networking
-
-### Container Network Interface
-
-#### CNI Plugins
-
-  - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6613</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weave Net is a resilient container CNI designed to create peer-to-peer overlay networks without external databases or configurations. The project was officially archived by Weaveworks in 2024, prompting teams to migrate to more modern CNI plugins like Cilium and Calico.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
 

@@ -149,5 +149,5 @@
   - [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive operational guide explaining how to declare, compile, and manage AWS Lambda functions natively within Terraform infrastructure-as-code patterns. It maps IAM role dependencies, source code hash tracking, and automated zip compilation cycles. This is an essential blueprint for teams prioritizing Terraform-centric CI/CD environments.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

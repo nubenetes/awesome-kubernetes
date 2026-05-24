@@ -62,29 +62,7 @@
   - [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1034</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: Web Scraping with Google Sheets – How to Scrape Web Pages' with Built-in Functions](https://www.freecodecamp.org/news/web-scraping-google-sheets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## AI and Intelligent Tooling
-
-### Agentic Systems
-
-#### CLI Tools
-
-  - [Google Agents CLI](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2528</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
-## Agentic Engineering
-
-### Agentic Frameworks
-
-#### Skills Integration
-
-  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Google's official skills repository and toolkit for modular agentic development.
-Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
-## Public Cloud Providers
-
-### Google Kubernetes Engine GKE
-
-#### Cluster Management
-
-  - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical documentation page for GKE (Google Kubernetes Engine). Details foundational and advanced options, covering Autopilot architecture, GKE Datapath V2 routing, and multi-cluster orchestrations.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

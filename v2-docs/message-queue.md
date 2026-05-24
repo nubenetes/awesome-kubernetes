@@ -86,6 +86,13 @@
 #### Serverless Integration (1)
 
   - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines six key architectural advantages of Camel K, including fast deployment loops, native Quarkus optimization, low memory footprints, and serverless scale-to-zero capabilities via Knative. Highly useful for architects modernizing traditional ESBs.
+## Cloud Infrastructure
+
+### Kubernetes
+
+#### Service Mesh
+
+  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
 ## Cloud Native Architecture
 
 ### Domain-Driven Design
@@ -126,6 +133,14 @@
 #### Event Sourcing
 
   - [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Argues the case for event sourcing as a primary mechanism to store state in distributed microservice topologies. It highlights capabilities such as complete audit trails, high-performance writes, and historical state reconstruction. The post warns of common pitfalls including schema evolution complexity and read projection overhead.
+#### Event-Driven Design
+
+  - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This foundational architectural piece by Martin Kleppmann argues for treating database tables as streams of changes rather than static silos. By turning the database "inside out" using event streams (like Kafka), microservices can achieve decentralized state management and projection consistency. It bridges the gap between stream processing and relational storage.
+### Orchestration (1)
+
+#### Kubernetes Pod Lifecycle
+
+  - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides concrete technical implementation strategies to prevent abrupt termination of active queue worker Pods during rolling Kubernetes updates. It details the effective utilization of `preStop` hooks and graceful shutdown signals within Pod specifications. It ensures zero-loss processing of long-running asynchronous messages.
 ## Cloud Native Infrastructure
 
 ### High Availability
@@ -349,9 +364,14 @@
   - [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big' Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates design principles for high-throughput, low-latency cloud-native big data architectures. The guide details how to integrate ingestion layers with stream processing engines and distributed analytical databases. It presents structured architectural templates for unified analytical and machine learning workloads.
 ### Data on Kubernetes
 
-#### Orchestration (1)
+#### Orchestration (2)
 
   - [thenewstack.io: The Path to Getting the Full Data Stack on Kubernetes](https://thenewstack.io/the-path-to-getting-the-full-data-stack-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the evolutionary path of running complex, stateful database and data streaming systems natively on Kubernetes. It addresses the maturity of operators, storage classes, and orchestrators that facilitate the deployment of the complete data pipeline. The article details challenges regarding resource management and high availability.
+### In-Memory Databases
+
+#### Caching
+
+  - [Redis](https://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
 ### Real-Time Data Streaming (2)
 
 #### Data Stack
@@ -429,6 +449,9 @@
 ##### Components
 
   - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part 1 of an analytical breakdown detailing the components of Red Hat AMQ Streams (built on Strimzi). Explains operators, ZooKeeper configurations, and Kafka broker deployment patterns within enterprise Kubernetes clusters.
+##### Integrations (2)
+
+  - [developers.redhat.com: HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/#more-720187)  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural guide detailing how to use the HTTP Bridge component inside AMQ Streams. Allows web and legacy application services to publish and consume event data via lightweight REST HTTP requests.
 ##### Security (2)
 
   - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates replacing auto-generated certificates with custom enterprise CA certs to implement secured TLS and mTLS configurations inside Strimzi-managed AMQ Streams.
@@ -747,5 +770,5 @@
   - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An InfoQ guide detailing how to use Domain-Driven Design (DDD) to isolate domain boundaries and discover 'seams' within large-scale monoliths. Grounding confirms its position as a primary methodology for refactoring to decoupled, event-driven pipelines.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [Nosql](./nosql.md)
 

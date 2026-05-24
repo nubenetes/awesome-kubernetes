@@ -33,22 +33,12 @@
   - [aws.amazon.com: AWS Systems Manager announces support for port forwarding' to remote hosts using Session Manager](https://aws.amazon.com/about-aws/whats-new/2022/05/aws-systems-manager-support-port-forwarding-remote-hosts-using-session-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Architecting a Highly Available Serverless, Microservices-Based Ecommerce Site](https://aws.amazon.com/blogs/architecture/architecting-a-highly-available-serverless-microservices-based-ecommerce-site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Creating a digital map of COVID-19 virus for discovery of' new treatment compounds](https://aws.amazon.com/blogs/hpc/creating-a-digital-map-of-covid-19-virus-for-discovery-of-new-treatment-compounds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS LightSail](https://aws.amazon.com/lightsail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Optimize your modern data architecture for sustainability:' Part 1 – data ingestion and data lake](https://aws.amazon.com/blogs/architecture/optimize-your-modern-data-architecture-for-sustainability-part-1-data-ingestion-and-data-lake)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Automatic API Key rotation for Amazon Managed Grafana](https://dev.to/aws-heroes/automatic-api-key-rotation-for-amazon-managed-grafana-2h68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Native Infrastructure
-
-### Service Mesh
-
-#### AWS Ecosystem
-
-##### App Mesh Managed Service
-
-  - [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official landing page for AWS App Mesh, a fully managed service mesh service designed to streamline microservice communications. Utilizes the Envoy proxy data plane to offer consistent visibility, routing controls, and mTLS security across Amazon ECS, EKS, and EC2.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

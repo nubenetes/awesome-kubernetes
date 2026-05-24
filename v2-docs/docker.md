@@ -16,7 +16,6 @@
   - [martinheinz.dev: It's Time to Forget About Docker 🌟](https://martinheinz.dev/blog/35)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part' 2 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for' Artifactory Users](https://www.infoq.com/news/2021/01/docker-jfrog-partnership)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pythonspeed.com: The worst so-called “best practice” for Docker](https://pythonspeed.com/articles/security-updates-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [r-bloggers.com: Dockerizing Shiny Applications](https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -66,8 +65,6 @@
   - [iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟](https://iximiuz.com/en/posts/docker-debug-slim-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: 9 Docker Extensions Every Developer Must Try](https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Saniewski/mongo-express-docker-extension](https://github.com/Saniewski/mongo-express-docker-extension) <span class='md-tag md-tag--info'>⭐ 11</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,7 +92,6 @@
   - [ttl.sh: Anonymous & ephemeral Docker image registry 🌟](https://ttl.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [buildg: Interactive debugger for Dockerfile 🌟](https://github.com/ktock/buildg) <span class='md-tag md-tag--info'>⭐ 1495</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg](https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [github.com/google/go-containerregistry 🌟](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3881</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) <span class='md-tag md-tag--info'>⭐ 51111</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) <span class='md-tag md-tag--info'>⭐ 24618</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -112,27 +108,11 @@
   - [altoros.com: Streamlining the Creation of Docker Images with Cloud Native' Buildpacks](https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks](https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/pmbanugo: Goodbye Dockerfiles: Build Secure & Optimised Node.js Container' Images with Cloud Native Buildpacks](https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [nerdctl 🌟](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10104</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [img](https://github.com/genuinetools/img) <span class='md-tag md-tag--info'>⭐ 3986</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [jib](https://github.com/GoogleContainerTools/jib) <span class='md-tag md-tag--info'>⭐ 14402</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [kaniko](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15762</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Development Tools
-
-### Local Kubernetes Environments
-
-#### Guides and Workflows
-
-  - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
-## Infrastructure Standards
-
-### Container Registry
-
-#### Legacy Resources
-
-  - **(2026)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Retired Docker documentation dealing with configurations of insecure, unencrypted private registries. Preserved for diagnosing vintage local developer configurations.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

@@ -14,5 +14,5 @@
 
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Istio](./istio.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Web Servers](./web-servers.md) | [Caching](./caching.md)
 

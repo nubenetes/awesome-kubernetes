@@ -8,7 +8,6 @@
   - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) <span class='md-tag md-tag--info'>⭐ 4003</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Agola](https://agola.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [GoCD](https://www.gocd.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) <span class='md-tag md-tag--info'>⭐ 1041</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Circle CI](https://circleci.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,29 +46,7 @@
   - [dagger.io](https://dagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) <span class='md-tag md-tag--info'>⭐ 15849</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
 
-## Cloud-Native Development
-
-### Continuous Delivery
-
-#### Skaffold
-
-  - [skaffold](https://skaffold.dev)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly active open-source CLI utility by Google that automates the workflow for building, pushing, and deploying Kubernetes applications. Accelerates inner-loop cycles through continuous live-sync engine integration.
-## Enterprise Kubernetes
-
-### Red Hat OpenShift
-
-#### CI-CD Pipelines
-
-  - **(2021)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A case study looking at OpenShift and JFrog Artifactory integrations. It details how teams establish secure, auditable image management pipelines across hybrid cloud nodes.
-## Hybrid Cloud and Enterprise
-
-### OpenShift
-
-#### Pipelines and CI CD
-
-  - [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: The primary repository used for training developers on utilizing Tekton triggers and tasks in OpenShift.
-Live Grounding: Serves as an excellent hands-on lab environment for configuring Tasks, Pipelines, PipelineRuns, and EventListeners using the OpenShift Pipelines CLI.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
 

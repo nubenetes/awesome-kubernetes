@@ -32,5 +32,5 @@
 *   Establishes safe practices for database change control that are compatible with agile methodologies.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Kubernetes Security](./kubernetes-security.md) | [Devsecops](./devsecops.md)
 

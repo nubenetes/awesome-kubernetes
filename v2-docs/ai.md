@@ -5,6 +5,11 @@
 
 ## AI and Intelligent Tooling
 
+### Agentic Systems
+
+#### CLI Tools
+
+  - [Google Agents CLI](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2528</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google designed to build, debug, and deploy agentic AI workflows. It leverages the Model Context Protocol (MCP) and Google LLM APIs to facilitate automated task execution across local filesystems and remote cloud APIs. Live grounding highlights its role in the standard dev toolchain for orchestrating autonomous workflows.
 ### Computer Vision
 
 #### Generative Models
@@ -15,6 +20,30 @@
 #### JupyterLab
 
   - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <span class='md-tag md-tag--info'>⭐ 4237</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official JupyterLab extension integrating generative AI directly into interactive notebooks. It supports conversational coding, code generation, and error explanation across multiple model providers. Live grounding validates its widespread adoption within modern ML engineering and data science teams.
+## Agentic Engineering
+
+### AI Assistants
+
+#### Claude Code
+
+  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
+Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+#### Developer Tools
+
+  - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive educational course focused on maximizing efficiency within Cursor AI Editor.
+Live Grounding: Delivers strategic instruction on utilizing AI capabilities, codebase indexing, and multi-file edit workflows to accelerate modern software engineering. Explicitly marked as Spanish localized educational content. [SPANISH CONTENT]
+### Kubernetes AI Operators
+
+#### Observability Agents
+
+  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
+Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
+### Model Context Protocol
+
+#### Curation
+
+  - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87348</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
+Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## Artificial Intelligence
 
 ### AI Workflows
@@ -39,7 +68,7 @@
   - [youtube: AWS re:Invent 2023 - From hype to impact: Building a generative' AI architecture (ARC217)](https://www.youtube.com/watch?v=1Lat8dP7Eq0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight covers an AWS re:Invent session demonstrating how to design and build enterprise-grade Generative AI topologies on AWS. Live Grounding verifies its importance for understanding serverless integration via Amazon Bedrock, Vector databases, and security constraints.
 ### Computer Vision (1)
 
-#### Curation
+#### Curation (1)
 
   - [github.com/SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers) <span class='md-tag md-tag--info'>⭐ 647</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured hub tracking top-performing research work from CVPR 2023. Synthesizes key advancements in object detection, visual language models, and zero-shot segmentation libraries.
 #### Visual Learning Tools
@@ -63,6 +92,9 @@
 #### APIs
 
   - [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook) <span class='md-tag md-tag--info'>⭐ 73692</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The ultimate repository of code recipes, integration patterns, and best practices from OpenAI. Details programmatic strategies for structured JSON output, embeddings search, agent tool calling, and high-throughput batching APIs.
+#### Case Studies
+
+  - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to' Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews BMW Group's production deployment of a GenAI orchestrator built on Amazon Bedrock. Highlights technical methods used to automatically review AWS cloud footprints and propose infrastructure optimizations globally.
 #### Large Language Models
 
   - [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical breakdown of the Generative Pre-trained Transformer (GPT) series. Traces the evolution of decoder-only architectures, scaling laws, autoregressive generation, and key differences relative to encoder models.
@@ -90,7 +122,7 @@
 #### Best Practices
 
   - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-focused editorial exploring the core pillars of Large Language Model Operations (LLMOps). Discusses continuous fine-tuning, automated prompt validation, model registry compliance, and operational observability at scale.
-#### Curation (1)
+#### Curation (2)
 
   - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5797</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curated, high-quality compendium of tools, libraries, and resources for the LLMOps ecosystem. Covers framework deployment, GPU scheduling, vector databases, and evaluation tools tailored for production AI pipelines.
 ### Large Language Models (1)
@@ -109,6 +141,9 @@
 #### Educational Guides (2)
 
   - [aman.ai/primers/ai: Distilled AI](https://aman.ai/primers/ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight profiles a high-density reference notebook condensing advanced ML and AI theorems. Live Grounding confirms it's a prized reference site for engineers studying the underlying mathematical paradigms of modern architectures.
+#### Google Courses
+
+  - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's formal, highly optimized machine learning crash course. Grounding indicates it offers a highly technical path for systems engineers wishing to deploy AI models in container environments. [SPANISH CONTENT]
 ### Social Impact
 
 #### Industry Analysis
@@ -123,6 +158,11 @@
   - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 473</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-sourced open-source analyzer designed to inspect Infrastructure as Code (CloudFormation, Terraform) templates against AWS Well-Architected practices before deployment. Grounding demonstrates how incorporating this tool into continuous integration checks reduces pre-production compliance failures.
 ## Cloud Infrastructure
 
+### GPU Compute
+
+#### Model Deployment
+
+  - [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Tactical walkthrough showing how to provision DigitalOcean GPU Droplets to serve DeepSeek-R1. Configures vLLM runtimes, registers systemd units, and establishes benchmarking paradigms to maximize inference performance on cost-effective infrastructure.
 ### Infrastructure as Code (1)
 
 #### AI Generation
@@ -207,7 +247,14 @@
 #### AI and MCP Clients
 
   - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2151</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative, open-source cross-platform database client featuring deep AI integration and Model Context Protocol (MCP) compliance. This configuration enables language models to securely inspect, query, and mutate structured schemas under strict guardrails. Live grounding confirms the project provides localized Spanish documentation as its primary onboarding interface while keeping global compliance.
-## Developer Tools
+## Developer Experience
+
+### AI Assisted Engineering
+
+#### Multi-Repository Architectures
+
+  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates methods for utilizing structured developer workspaces to safely implement, coordinate, and review automated AI-driven modifications across sprawling multi-repository codebases. Offers patterns for multi-repo orchestrations and version control management.
+## Developer Tools (1)
 
 ### AI Coding Assistants
 
@@ -225,6 +272,13 @@
 #### AI Tooling
 
   - [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Warp, a Rust-based modern terminal platform embedding native AI workflows. Outlines command prediction, architectural collaboration features, and native agentic debugging directly from terminal logs.
+## Education
+
+### Software Engineering
+
+#### Professional Growth
+
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 100172</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, widely vetted resource compiling software engineering methodologies, design schemas, and performance protocols required for elite software delivery.
 ## Education and Automation
 
 ### Grading Systems
@@ -262,7 +316,7 @@
 
 ### AI Integration
 
-#### Agentic Engineering
+#### Agentic Engineering (1)
 
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An illustrative guide showing how the Draw.io Model Context Protocol (MCP) server allows AI assistants to programmatically generate and edit architecture diagrams. Bridges the gap between conversational design instructions and technical diagrams.
   - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official public announcement details the release and capabilities of the Azure DevOps MCP server. Highlights the architectural integration of Large Language Models directly into enterprise ADO workflows for automated engineering management.
@@ -279,7 +333,22 @@
 ##### Azure DevOps
 
   - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A practical implementation guide demonstrating how to integrate Azure OpenAI into Azure DevOps pipelines to automatically generate comprehensive pull request descriptions from code differences. Demonstrates prompt engineering techniques and YAML pipeline configurations to enhance team productivity and standardise PR documentation using generative AI.
+## Software Engineering (1)
+
+### Developer Experience (1)
+
+#### AI Assisted Coding
+
+##### Claude Templates
+
+  - [Claude Code Templates](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27488</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
+##### Cursor Documentation
+
+  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation explaining the Cursor Bugbot's dynamic execution tiering, balancing deep semantic analysis and token limits against codebase complexity metrics.
+##### GitHub Copilot
+
+  - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
 
 ---
-💡 **Explore Related:** [Ai Agents Mcp](./ai-agents-mcp.md) | [Chatgpt](./chatgpt.md) | [Mlops](./mlops.md)
+💡 **Explore Related:** [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md) | [Mlops](./mlops.md)
 

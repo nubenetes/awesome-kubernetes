@@ -10,6 +10,9 @@
 #### AWS CDK
 
   - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official AWS educational lab covering foundations of the Cloud Development Kit. Focuses on writing structural patterns to deploy secure multi-tier cloud environments using object-oriented languages.
+#### CloudFormation
+
+  - [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp' 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive boot-camp produced by freeCodeCamp focusing on CloudFormation foundations. Details modular resource design, dependency mapping, drift protection, and secure infrastructure-as-code delivery pipelines.
 ### Training
 
 #### AWS Deep Dives
@@ -43,7 +46,14 @@
 #### Multi-Cloud Platforms
 
   - **(2021)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A premier enterprise learning platform specialized in modern cloud-native system training. Delivers deep hands-on sandbox labs, certification preparation curricula, and continuous technical playground resources.
+## Platform Engineering
+
+### CI-CD Security
+
+#### Azure DevOps
+
+  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

@@ -26,7 +26,6 @@
   - [devtron.ai: Troubleshoot: Pod Crashloopbackoff](https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [erkanerol.github.io: I wish pods were fully restartable](https://erkanerol.github.io/post/restartable-pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [komodor.com: Kubernetes CrashLoopBackOff Error: What It Is and How to Fix' It](https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Kubernetes Silent Pod Killer](https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl-debug](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2306</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) <span class='md-tag md-tag--info'>⭐ 36</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,7 +38,6 @@
   - [opensource.googleblog.com: Introducing Ephemeral Containers](https://opensource.googleblog.com/2022/01/Introducing%20Ephemeral%20Containers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin.com: Kubernetes Ephemeral Containers | Bibin Wilson](https://www.linkedin.com/pulse/kubernetes-ephemeral-containers-bibin-wilson)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/airwallex: k8s-pod-restart-info-collector](https://github.com/airwallex/k8s-pod-restart-info-collector)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [komodor.com](https://komodor.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [komodor.com: Kubernetes Troubleshooting: The Complete Guide 🌟](https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -47,14 +45,7 @@
   - [iximiuz/cdebug](https://github.com/iximiuz/cdebug) <span class='md-tag md-tag--info'>⭐ 1646</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [felipecruz91/debug-ctr](https://github.com/felipecruz91/debug-ctr) <span class='md-tag md-tag--info'>⭐ 52</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Observability and Performance
-
-### Kubernetes Internals
-
-#### Resource Management
-
-  - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis exposing the silent threat of CPU throttling inside Kubernetes clusters caused by rigid CFS quota management. Demonstrates how microservices suffer latency spikes even with low aggregate CPU consumption.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

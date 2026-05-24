@@ -105,13 +105,6 @@
   - [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative breakdown analyzing leading container orchestrators other than Kubernetes. Details architectural features of Docker Swarm, Nomad, and AWS ECS for diverse engineering demands.
   - [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid architectural decision guide evaluating the complexity, overhead, and maintenance costs of adopting Kubernetes. Offers simpler alternative infrastructure paradigms.
   - [towardsdatascience.com: Heroku + Docker in 10 Minutes](https://towardsdatascience.com/heroku-docker-in-10-minutes-f4329c4fd72f) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A quick-deployment tutorial showing how to containerize dynamic web applications with Docker and deploy them smoothly to Heroku's managed infrastructure.
-## Platform Engineering
-
-### Site Reliability Engineering
-
-#### Foundations
-
-  - **(2024)** [itprotoday.com: Why Site Reliability Engineering Is Key to Modern DevOps](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive analysis examining why SRE architecture is a vital component of any modern, high-density DevOps delivery system trying to limit service down-time.
 ## Serverless Architectures
 
 ### WebAssembly and Edge
@@ -125,5 +118,5 @@
   - **(2025)** [dreamland](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A local testing and deployment tool for the Taubyte WebAssembly-native edge framework. Lets engineers build, test, and debug distributed serverless systems locally.
 
 ---
-💡 **Explore Related:** [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

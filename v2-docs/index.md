@@ -68,7 +68,6 @@
 - **[Git](./git.md)**
 - **[Grafana](./grafana.md)**
 - **[Helm](./helm.md)**
-- **[Introduction](./introduction.md)**
 - **[Kubernetes Tools](./kubernetes-tools.md)**
 - **[Kubernetes Tutorials](./kubernetes-tutorials.md)**
 - **[Kubernetes](./kubernetes.md)**
@@ -129,7 +128,6 @@
 - **[Yaml](./yaml.md)**
 ### Developer Ecosystem
 - **[Chromedevtools](./ChromeDevTools.md)**
-- **[Angular](./angular.md)**
 - **[Api](./api.md)**
 - **[Devel Sites](./devel-sites.md)**
 - **[Dom](./dom.md)**

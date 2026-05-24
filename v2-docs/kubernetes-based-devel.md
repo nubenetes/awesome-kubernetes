@@ -62,6 +62,9 @@
 
 ### API Mocking and Testing
 
+#### Microservices
+
+  - [microcks.io 🌟](https://microcks.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and testing API specifications (REST, gRPC, GraphQL, and event-driven architectures). It allows microservices teams to mock dependencies and run contract tests rapidly during continuous integration.
 #### Podman Integration
 
   - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide showing how to configure Microcks mocking environments using Podman Compose instead of Docker. Offers a reliable setup path for developers running security-hardened container environments.
@@ -93,6 +96,9 @@
 #### Docker-in-Docker
 
   - [**kind**](https://github.com/kubernetes-sigs/kind) <span class='md-tag md-tag--info'>⭐ 15254</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — kind (Kubernetes in Docker) is an open-source tool for running local Kubernetes clusters using Docker containers as nodes. Highly favored for CI/CD environments and rapid inner-loop developer workflows because of its quick startup times and minimal host footprint.
+#### Guides and Workflows
+
+  - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide explaining how to design local workflows with container environments. Demonstrates setup strategies for hot reloading, direct container mounts, network port forwards, and dev-to-prod pipeline parity.
 #### Legacy Installers (1)
 
   - [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An older Vagrant-based helper for building and running multi-node Kubernetes clusters. Kept for historical reference on VM-based local orchestration workflows before containerized tools like kind became popular.
@@ -112,13 +118,6 @@
 #### Validation and Security
 
   - [kubevious 🌟🌟](https://github.com/kubevious/kubevious) <span class='md-tag md-tag--info'>⭐ 1695</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubevious is an open-source Kubernetes dashboard that provides full cluster topology visualization and configuration audits. It detects anti-patterns and validates live manifests, giving developers a clear view of cluster health.
-## Observability and Performance
-
-### Performance Testing
-
-#### Microservices
-
-  - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official integration documentation for running non-disruptive, end-to-end performance tests within a modern microservices workflow. Emphasizes utilizing Garden's graph-based execution framework for local and CI load validation.
 ## Operations and Management
 
 ### Cluster Visualizers
@@ -212,5 +211,5 @@
   - [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI' Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Crucial security review warning how misconfigured visual cluster admin panels can act as Remote Access Tools (RATs) for malicious actors to execute arbitrary code.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
 

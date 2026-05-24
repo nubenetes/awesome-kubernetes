@@ -20,5 +20,5 @@
 
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
 

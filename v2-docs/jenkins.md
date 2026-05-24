@@ -6,6 +6,7 @@
 ## Standard Reference
 
   - [CloudBees](https://www.cloudbees.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Jenkins](https://www.jenkins.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/jenkinsci 🌟](https://github.com/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jenkins.io 2020-05-06: Slave to Agent renaming. Renaming of the official' Docker images for Jenkins agents](https://www.jenkins.io/blog/2020/05/06/docker-agent-image-renaming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -76,9 +77,11 @@
   - [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins SIG Platform 🌟](https://www.jenkins.io/sigs/platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins SIG Cloud Native 🌟](https://www.jenkins.io/sigs/cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.techiescamp.com/jenkins-course 🌟🌟🌟](https://blog.techiescamp.com/jenkins-course)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Job DSL](https://plugins.jenkins.io/job-dsl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS)' transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example) <span class='md-tag md-tag--info'>⭐ 451</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -101,6 +104,7 @@
   - [Jenkins Configuration as Code Plugin](https://www.jenkins.io/projects/jcasc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Configuration as Code of Jenkins (for Kubernetes) 🌟🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code' users](https://www.jenkins.io/events/online-hackfest/2020-uiux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -115,6 +119,7 @@
   - [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition -' Part 2 (2020) 🌟](https://www.cloudbees.com/blog/application-performance-monitoring-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them' 🌟](https://www.cloudbees.com/blog/most-common-issues-scaling-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ansible-role-jenkins](https://github.com/geerlingguy/ansible-role-jenkins) <span class='md-tag md-tag--info'>⭐ 851</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin) <span class='md-tag md-tag--info'>⭐ 2791</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -241,29 +246,7 @@
   - [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [templates.cloudonaut.io: Jenkins 2.0: highly available master](https://templates.cloudonaut.io/en/stable/jenkins/#jenkins-20-highly-available-master)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Continuous Integration
-
-### CI Tools
-
-#### Jenkins (1)
-
-  - [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A stable Jenkins CI plugin designed to ingest, compile, and visualize execution metrics from varied load-testing libraries including JMeter, Taurus, and JUnit.
-## DevOps
-
-### CI-CD Pipelines
-
-#### Jenkins Ecosystem
-
-  - [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative' Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Authoritative documentation explaining scripted and declarative Jenkins pipeline configuration syntaxes. Breaks down flow control structures, declarative directives, agent allocations, and step definitions essential to enterprise build automation.
-## Red Hat OpenShift
-
-### CI-CD Pipelines (1)
-
-#### Jenkins Ecosystem (1)
-
-  - **(2018)** [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details strategies to compile reliable, declarative Jenkins pipelines utilizing OpenShift DSL plugins. Discusses native methods to trigger S2I builds, promote container images, and securely communicate with Cluster managers.
-  - [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial addressing the orchestration of containerized workloads inside a Jenkins building phase. Evaluates Docker-in-Docker strategies and Kubernetes dynamic agents to avoid single-host execution bottlenecks and guarantee runtime isolation.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
 

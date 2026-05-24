@@ -22,14 +22,7 @@
   - [Accelerate infrastructure as code development with open source Former2](https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [onecloudplease.com: Console Recorder for AWS](https://onecloudplease.com/project/console-recorder)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Infrastructure
-
-### Infrastructure as Code
-
-#### CloudFormation
-
-  - [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp' 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive boot-camp produced by freeCodeCamp focusing on CloudFormation foundations. Details modular resource design, dependency mapping, drift protection, and secure infrastructure-as-code delivery pipelines.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Messaging](./aws-messaging.md) | [Aws Pricing](./aws-pricing.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

@@ -26,5 +26,5 @@
 
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
 

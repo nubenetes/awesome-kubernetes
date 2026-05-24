@@ -21,11 +21,9 @@
   - [blog.cloudflare.com: Moving k8s communication to gRPC](https://blog.cloudflare.com/moving-k8s-communication-to-grpc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [K8GB - Kubernetes Global Balancer](https://github.com/AbsaOSS/k8gb) <span class='md-tag md-tag--info'>⭐ 1</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with' Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Network Node Manager](https://github.com/kakao/network-node-manager) <span class='md-tag md-tag--info'>⭐ 109</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with' Topology Aware Routing](https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [nbailey.ca: Domesticated Kubernetes Networking](https://nbailey.ca/post/k8s-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sookocheff.com: A Guide to the Kubernetes Networking Model 🌟](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ingressbuilder.jetstack.io 🌟🌟](https://ingressbuilder.jetstack.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Generating Kubernetes Network Policies Automatically By Sniffing' Network Traffic 🌟](https://itnext.io/generating-kubernetes-network-policies-by-sniffing-network-traffic-6d5135fe77db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [inlets.dev: Fixing Ingress for short-lived local Kubernetes clusters](https://inlets.dev/blog/2021/07/08/short-lived-clusters.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Why and How of Kubernetes Ingress (and Networking) 🌟](https://itnext.io/why-and-how-of-kubernetes-ingress-and-networking-6cb308ca03d2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -55,12 +53,10 @@
   - [cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences](https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [matthewpalmer.net: Kubernetes Networking Guide for Beginners](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance,' BGP, IPVS and Beyond](https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide](https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: What you need to know about Kubernetes NetworkPolicy](https://opensource.com/article/21/10/kubernetes-networkpolicy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: CKAD Scenarios about Ingress and NetworkPolicy](https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 731</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [NGINX Ingress Controller - v1.0.0](https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v1.0.0) <span class='md-tag md-tag--info'>⭐ 19495</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [devopscube.com: How to Setup Nginx Ingress Controller On Kubernetes – Detailed' Guide 🌟](https://devopscube.com/setup-ingress-kubernetes-nginx-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mattias.engineer: Kubernetes-101: Ingress 🌟](https://mattias.engineer/k8s/ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -71,7 +67,6 @@
   - [thenewstack.io: Unifying Kubernetes Service Networking (Again) with the' Gateway API 🌟](https://thenewstack.io/unifying-kubernetes-service-networking-again-with-the-gateway-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [armosec.io: The New Kubernetes Gateway API and Its Use Cases](https://www.armosec.io/blog/kubernetes-gateway-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [navendu.me: Comparing Kubernetes Gateway and Ingress APIs](https://navendu.me/posts/gateway-vs-ingress-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters' 🌟](https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -86,6 +81,7 @@
   - [cilium.io: CNI Benchmark: Understanding Cilium Network Performance](https://cilium.io/blog/2021/05/11/cni-benchmark)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cockroachlabs.com: How to use Cluster Mesh for Multi-Region Kubernetes Pod' Communication](https://www.cockroachlabs.com/blog/cockroachdb-kubernetes-cilium)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium' CLI, XDP Load Balancer, Alibaba Cloud Integration and more](https://cilium.io/blog/2021/05/20/cilium-110)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ahmetb/kubernetes-network-policy-recipes 🌟](https://github.com/ahmetb/kubernetes-network-policy-recipes) <span class='md-tag md-tag--info'>⭐ 6139</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)](https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -104,24 +100,7 @@
   - [k8gb.io](https://www.k8gb.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks](https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Infrastructure
-
-### Kubernetes
-
-#### Networking
-
-  - [cilium.io](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered open-source project that provides high-performance, secure, and observable networking, load balancing, and network security for Kubernetes workloads. Cilium is widely adopted by enterprise platforms due to its scale capabilities and granular L3-L7 policy controls.
-#### Service Mesh
-
-  - **(2021)** [**Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟**](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering challenge of load balancing long-lived connections (gRPC, HTTP/2, WebSockets) within Kubernetes. It explains how standard L4 kube-proxy load balancing fails to distribute traffic evenly and presents L7 proxies and service meshes (like Linkerd or Istio) as the definitive architectural solution.
-## Networking (1)
-
-### Ingress Controllers
-
-#### Comparison
-
-  - [Learnk8s: Comparison of Kubernetes Ingress controllers 🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard comparison spreadsheet analyzing over a dozen Kubernetes Ingress controllers. Details performance, dynamic reloading capabilities, routing protocols, and native TLS/WAF integrations.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Web Servers](./web-servers.md) | [Caching](./caching.md)
 

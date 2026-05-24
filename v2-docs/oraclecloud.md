@@ -28,5 +28,5 @@
   - [github.com/oracle](https://github.com/oracle)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The primary open-source hub for Oracle's cloud-native integrations. Hosts projects like OCI Cloud Controller Manager, CSI plugins, and deployment tools designed for enterprise container infrastructure.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

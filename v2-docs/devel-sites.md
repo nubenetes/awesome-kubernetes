@@ -17,8 +17,6 @@
   - [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [freecodecamp.org: How to Start Learning to Code – Handbook for Beginners](https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [FreeLens](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5073</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [firebase.google.com](https://firebase.google.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [supabase.com](https://supabase.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -30,14 +28,7 @@
   - [opensource.com: 16 reasons DDEV will be your new favorite web development' environment](https://opensource.com/article/22/12/ddev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [oclif.io 🌟](https://oclif.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Software Engineering
-
-### Developer Experience
-
-#### IDEs and Tooling
-
-  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
 

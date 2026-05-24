@@ -21,5 +21,5 @@
   - [AWS Transit Gateway is now available in Europe (Spain) Region](https://aws.amazon.com/about-aws/whats-new/2023/04/aws-transit-gateway-europe-spain-region) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — AWS announcement declaring the availability of Transit Gateway in the Europe (Spain) region. Enables cloud architects to build highly scalable hub-and-spoke virtual private networks natively.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Serverless](./aws-serverless.md)
 

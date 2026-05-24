@@ -5,13 +5,6 @@
 
 ## Observability
 
-### Capacity Management
-
-#### Kernel Internals
-
-##### Pod Throttling
-
-  - **(2024)** [**CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions**](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep analysis of the Linux kernel's Completely Fair Scheduler (CFS) quotas and how they cause Kubernetes pod throttling despite low resource utilization. Indispensable for engineers diagnosing performance degradation under restrictive CPU limit settings.
 ### ChatOps
 
 #### Cert-Manager Monitoring
@@ -40,6 +33,7 @@
 
 #### Command Line Tools (1)
 
+  - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive Terminal User Interface (TUI) written in Go for streaming and searching Kubernetes container logs. Grounding suggests that development has stalled (inactive for over 4 years), so while technically functional for local dev, tools like Stern or K9s are preferred in enterprise environments.
   - [kubelog.de](https://kubelog.de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized logging utility designed to simplify container log fetching. Grounding reveals it as a community-driven project that acts as an easy alternative to standard kubectl logs with colorized output.
 #### Concepts
 
@@ -171,6 +165,13 @@
 #### Pixie Integration
 
   - [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to use Pixie, an eBPF-driven platform, to achieve instant observability on Kubernetes clusters. Demonstrates capturing system-wide HTTP traffic, db queries, and CPU profiles with zero code instrumenting overhead.
+## Operations and Reliability
+
+### Observability and Monitoring
+
+#### Foundations
+
+  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard chapter from Google's SRE book detailing the implementation of distributed systems monitoring. It defines the 'Four Golden Signals'—latency, traffic, errors, and saturation—providing practical blueprints to prevent alert fatigue and build actionable dashboard designs.
 ## Platform Engineering
 
 ### Compute
@@ -194,5 +195,5 @@
   - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines advanced configuration policies for the Kubernetes API audit logging engine. Deeply covers audit profiles, performance tuning, secure log transport, and compliance-driven retention metrics.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

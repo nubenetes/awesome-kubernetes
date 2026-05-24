@@ -65,11 +65,9 @@
   - [linuxctl.com: Ansible - Interacting with external REST API](https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [steampunk.si: Let us give Ansible a REST](https://steampunk.si/blog/let-us-give-ansible-a-rest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Using Ansible with REST APIs](https://opensource.com/article/21/9/ansible-rest-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟](https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Ansible for beginners - by XavkiEn](https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Ansible for DevOps Examples](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2793</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) <span class='md-tag md-tag--info'>⭐ 712</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with' Ansible](https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -89,7 +87,6 @@
   - [opensource.com: 5 tips for choosing an Ansible collection that's right' for you](https://opensource.com/article/21/3/ansible-collections)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ansible AWX](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15428</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [AWX Operator](https://github.com/ansible/awx-operator) <span class='md-tag md-tag--info'>⭐ 1484</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -102,21 +99,17 @@
   - [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [artifacthub.io: Helm Charts - AWX](https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Marketplace (AMIs): AWX/Tower](https://aws.amazon.com/marketplace/search/results?searchTerms=tower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Jenkins](https://www.jenkins.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Foreman](https://www.theforeman.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jeffgeerling.com: Testing your Ansible roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [tomsitcafe.com: How to test Ansible code with Molecule](https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ansiblefordevops.com](https://www.ansiblefordevops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/automateyournetwork/automate_your_network: Automate Your Network' - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network) <span class='md-tag md-tag--info'>⭐ 645</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [galaxy.ansible.com](https://galaxy.ansible.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Ansible Role: Docker 🌟](https://github.com/geerlingguy/ansible-role-docker) <span class='md-tag md-tag--info'>⭐ 2261</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) <span class='md-tag md-tag--info'>⭐ 75</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp' Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) <span class='md-tag md-tag--info'>⭐ 23</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1005</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [ansible-community/awesome-ansible: Awesome Ansible 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1878</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -130,28 +123,7 @@
   - [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## DevOps and Automation
-
-### AI-Assisted Operations
-
-#### Infrastructure as Code
-
-  - **(2023)** [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Red Hat's experimental analysis testing generative AI capability against Ansible Playbook authoring constraints. Highlights current logical gaps and structural best practices for verification.
-## Networking
-
-### Web Servers
-
-#### Nginx
-
-  - **(2026)** [==Nginx==](https://www.f5.com/products/nginx) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nginx is the premier high-performance web server, reverse proxy, and ingress standard globally. Its lightweight event-driven design allows it to process high-concurrency traffic patterns with extremely predictable memory and CPU footprints.
-## Security
-
-### Certificates
-
-#### TLS Automation
-
-  - **(2021)** [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://www.empowersurvivors.net) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rescued guide detailing the technical orchestration steps of cert-manager and Let's Encrypt certificates mapping over NGINX Ingress controllers for ingress traffic protection.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
 

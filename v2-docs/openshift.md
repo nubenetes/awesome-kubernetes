@@ -14,6 +14,8 @@
   - [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/redhatdemocentral: OpenShift Container Platform Install Demo' 🌟](https://github.com/redhatdemocentral/ocp-install-demo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Portfolio Architecture](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [redhatdemocentral.gitlab.io/portfolio-architecture-tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from' start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -31,5 +33,5 @@
 
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

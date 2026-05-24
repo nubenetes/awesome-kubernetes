@@ -11,8 +11,9 @@
   - [siliconrepublic.com: 10 dev tools recommended by start-up founders](https://www.siliconrepublic.com/advice/dev-tools-recommended-by-irish-start-up-founders)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rapid API](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [moesif.com: How to choose the right API Gateway for your platform: Comparison' of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [API Management vs API Gateway and where does API Analytics and Monitoring fit?](https://dev.to/moesif/api-management-vs-api-gateway-and-where-does-api-analytics-and-monitoring-fit-4g75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -49,6 +50,7 @@
   - [High Mobility @Youtube](https://www.youtube.com/channel/UCZNjYn1NXEgPa_ENPna9Atw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [smartcar.com](https://smartcar.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [openbankingtracker.com](https://www.openbankingtracker.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Deutsche Bank API Program](https://developer.db.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [TSB API Developer Portal](https://apis.developer.tsb.co.uk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -56,26 +58,7 @@
   - [Open Insurance](https://openinsurance.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [santalucia.es](https://api-market.santalucia.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Native Infrastructure
-
-### Service Mesh
-
-#### Istio
-
-##### Operations
-
-  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
-## Developer Tools
-
-### Collaboration and Workflow
-
-#### Documentation Engines
-
-  - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This practical guide breaks down the structure and utility of GitHub Wikis for software project documentation. It walks through syntax formatting, sidebar architecture, and collaborative editing patterns. While modern enterprise teams often prefer Docs-as-Code paradigms built with tools like MkDocs or Docusaurus, GitHub Wikis still serve as a quick, low-overhead option for repository-centric developer documentation.
-#### Open Source Education
-
-  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official GitHub onboarding guide tailored for software engineers looking to initiate their contributions to Open Source Software (OSS) projects. It teaches how to fork repositories, configure branches, submit pull requests, and write structured issues. Understanding these fundamentals is crucial for developers seeking to participate in the global cloud-native ecosystem.
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Devops](./devops.md)
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
 

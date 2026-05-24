@@ -19,6 +19,7 @@
   - [thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization](https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intellipaat.com: Difference between DBMS and RDBMS](https://intellipaat.com/blog/dbms-vs-rdbms-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution](https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Radical API Design Changed the Way We Access Databases](https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -101,15 +102,9 @@
   - [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo) <span class='md-tag md-tag--info'>⭐ 35</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [towardsdatascience.com: At Its Core: How Is a Graph Database Different from' a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cluster Management
-
-### Infrastructure Provisioning
-
-#### Kubernetes Operators
-
-  - **(2023)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative analysis of Kubernetes Operators for cloud infrastructure provisioning (such as Crossplane, AWS ACK, Google KCC, and Azure ASO). Critiques the shift from Terraform toward declarative reconciliation loops.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
 

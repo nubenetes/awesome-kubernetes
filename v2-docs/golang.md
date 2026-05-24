@@ -182,6 +182,10 @@
 #### Project Scaffolding
 
   - [create-go-app/cli](https://github.com/create-go-app/cli) <span class='md-tag md-tag--info'>⭐ 2761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight introduces this CLI to construct boilerplate-free backend, frontend, and web applications in Go. Live Grounding shows its capability to pre-configure deployment assets like Dockerfiles and Kubernetes manifests to quicken development cycles.
+#### Reference Docs
+
+  - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
+  - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
 #### Version Managers
 
   - [gobrew 🌟](https://github.com/kevincobain2000/gobrew) <span class='md-tag md-tag--info'>⭐ 421</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Gobrew as an elegant and fast Go version manager that downloads and switches active toolchains easily. Live Grounding notes its speed and simplicity, making it a competitive alternative to gvm and asdf for dedicated Go development.
@@ -204,6 +208,18 @@
 #### Go Libraries (2)
 
   - [dsa0x/sicher](https://github.com/dsa0x/sicher) <span class='md-tag md-tag--info'>⭐ 31</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases Sicher as a lightweight tool for managing environment variables and secrets securely within Go applications. Live Grounding indicates low community activity and lack of recent updates, which makes it less suitable for production compared to established secure runtimes.
+## Software Engineering
+
+### Developer Experience
+
+#### IDEs and Tooling
+
+  - [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community-driven performance and usability evaluation contrasting IntelliJ Rust and VSCode (rust-analyzer) workflows. Discusses compilation feedback, macro expansion speeds, and debugging tool integrations.
+### NodeJS
+
+#### Best Practices
+
+  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
 ## Utilities
 
 ### Go Tools (1)
@@ -213,5 +229,5 @@
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1175</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Javascript](./javascript.md) | [Maven Gradle](./maven-gradle.md)
 

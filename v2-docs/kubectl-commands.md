@@ -14,7 +14,6 @@
   - [inlets.dev: Fixing the Developer Experience of Kubernetes Port Forwarding](https://inlets.dev/blog/2022/06/24/fixing-kubectl-port-forward.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: How to Restart Kubernetes Pods With Kubectl 🌟](https://itnext.io/how-to-restart-kubernetes-pods-with-kubectl-2a7834a6b961)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [superbrothers/zsh-kubectl-prompt 🌟](https://github.com/superbrothers/zsh-kubectl-prompt) <span class='md-tag md-tag--info'>⭐ 591</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1445</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnitguide.net: How to Create ConfigMap from Properties File Using K8s' Client](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [shardul.dev: Most Useful kubectl Plugins](https://shardul.dev/most-useful-kubectl-plugins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [howtogeek.com: Getting Started With Kubectl to Manage Kubernetes Clusters](https://www.howtogeek.com/devops/getting-started-with-kubectl-to-manage-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -25,14 +24,13 @@
   - [github.com/trstringer/kubectl-example](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [complete-alias](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 811</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hackernoon.com: How to Work With the Kubectl Debug Command](https://hackernoon.com/how-to-work-with-the-kubectl-debug-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes/pull/73787) <span class='md-tag md-tag--info'>⭐ 122403</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

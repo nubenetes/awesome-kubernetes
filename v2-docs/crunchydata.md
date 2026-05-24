@@ -26,5 +26,5 @@
 
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Databases](./databases.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Newsql](./newsql.md)
 

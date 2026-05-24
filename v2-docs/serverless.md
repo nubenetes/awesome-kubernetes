@@ -23,7 +23,6 @@
   - [dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟](https://dev.to/aws-heroes/serverless-beyond-the-basics-kom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [theburningmonk.com: Why you should use ephemeral environments when you do' serverless](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverlesshorrors.com](https://serverlesshorrors.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟](https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [economictimes.indiatimes.com: Thoughtworks XConf Tech Talk Series: Serverless' vs. Kubernetes when deploying microservices](https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -54,5 +53,5 @@
 
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

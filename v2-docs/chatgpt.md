@@ -33,6 +33,13 @@
 #### Enterprise AI
 
   - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
+## DevOps and Automation
+
+### AI-Assisted Operations
+
+#### Infrastructure as Code (1)
+
+  - **(2023)** [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Red Hat's experimental analysis testing generative AI capability against Ansible Playbook authoring constraints. Highlights current logical gaps and structural best practices for verification.
 ## Human Productivity
 
 ### Artificial Intelligence
@@ -50,9 +57,16 @@
 #### Industry Dynamics
 
   - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo' Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza la evolución de Microsoft como líder de la revolución de IA generativa a través de su alianza con OpenAI, contrastándolo con la postura reactiva de Google ante los modelos de lenguaje transformadores. [SPANISH CONTENT]
+## Platform Engineering
+
+### AI Integration (1)
+
+#### Coding Assistants
+
+  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official GitHub product announcement marking the General Availability of GitHub Copilot's automated pipeline diagnostics. Empowers developers to quickly resolve failing CI/CD builds by getting clear, contextual, AI-driven summaries and remediation plans.
 ## Software Engineering
 
-### AI-Assisted Operations
+### AI-Assisted Operations (1)
 
 #### Code Generation Quality
 
@@ -64,5 +78,5 @@
   - **(2025)** [**Think Python**](https://allendowney.github.io/ThinkPython) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic computational thinking handbook utilizing Python. Focuses on algorithmic integrity, data structure designs, object-oriented implementations, and debug execution pipelines.
 
 ---
-💡 **Explore Related:** [Ai Agents Mcp](./ai-agents-mcp.md) | [Ai](./ai.md) | [Mlops](./mlops.md)
+💡 **Explore Related:** [Ai](./ai.md) | [Ai Agents Mcp](./ai-agents-mcp.md) | [Mlops](./mlops.md)
 

@@ -22,6 +22,7 @@
   - [opensource.com: Watch command cheat sheet](https://opensource.com/downloads/watch-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [docs.aws.amazon.com: Actions, resources, and condition keys for AWS services' 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awsgeek.com/Amazon-S3](http://www.awsgeek.com/Amazon-S3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words) <span class='md-tag md-tag--info'>⭐ 8221</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How' to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -154,51 +155,7 @@
   - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part' 2](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-2.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Infrastructure
-
-### Orchestration
-
-#### Managed Kubernetes
-
-  - **(2022)** [**learnk8s.io/research:  Comparison of Kubernetes managed services 🌟**](https://learnkube.com/research) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Comprehensive comparison matrix evaluating key metrics of major managed Kubernetes engines, mapping out scalability limits, upgrade strategies, and CNI setups.
-## Operating Systems
-
-### Linux Utilities
-
-#### CLI Curation
-
-  - **(2025)** [**CommandLineFu 🌟**](https://www.commandlinefu.com/commands/browse) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An immense, user-voted platform for sharing and assessing terminal tricks. Perfect for tracking down highly specific, multi-tool regex constructs or one-liners.
-## Programming Languages
-
-### Go
-
-#### Reference Docs
-
-  - [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights a concise, single-page reference sheet covering Go syntax, control flow, channels, and basic standard library interfaces. Live Grounding confirms this is a widely-used cheatsheet for quick syntax lookups during day-to-day coding. It is optimized for speed and readability.
-  - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate reference of the high-density Go cheat-sheet database. It provides programmatic access to Go fundamentals, standard functions, and syntax paradigms to streamline engineering workflows.
-## Software Development
-
-### Scripting
-
-#### Secure Bash
-
-  - **(2025)** [==Bash Pitfalls 🌟==](http://mywiki.wooledge.org/BashPitfalls) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The legendary Wooledge guide listing common Bash coding mistakes and how to fix them. Covering quoting, scope, pipeline traps, and array logic, this resource is a mandatory read for any systems engineer.
-## Software Engineering
-
-### NodeJS
-
-#### Best Practices
-
-  - [NodeJS Best Practices (Spanish Translation)](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105273</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight hosts the comprehensive Spanish translation of the premier Node.js architecture and security handbook. Live Grounding validates its immense utility as an industry-standard guide covering testing, error handling, and production safety. [SPANISH CONTENT]
-### Version Control
-
-#### Branching Strategies
-
-  - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly interactive and multilingual cheat sheet illustrating the lifecycle of branches in Vincent Driessen's GitFlow model. This reference acts as an indispensable, quick-lookup guide for understanding CLI commands for features, releases, and hotfixes.
-#### Git Operations
-
-  - [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

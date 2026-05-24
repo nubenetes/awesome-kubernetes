@@ -21,6 +21,7 @@
   - [Kubernetes Goat 🌟](https://madhuakula.com/kubernetes-goat)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The premier interactive, intentionally vulnerable Kubernetes environment designed for learning cloud-native security. It features various real-world scenarios covering container escapes, SSRF, and credential harvesting, making it invaluable for security training.
 #### Networking
 
+  - [cilium.io](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered open-source project that provides high-performance, secure, and observable networking, load balancing, and network security for Kubernetes workloads. Cilium is widely adopted by enterprise platforms due to its scale capabilities and granular L3-L7 policy controls.
   - [itnext.io: How-To: Kubernetes Cluster Network Security 🌟](https://itnext.io/how-to-kubernetes-cluster-network-security-f19bc99161f5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed technical guide explaining network security configurations within Kubernetes clusters. It demonstrates how to write and apply zero-trust Network Policies to restrict pod-to-pod and egress traffic effectively.
 #### Observability
 
@@ -29,6 +30,14 @@
 *   Details rule construction and audit filtering.
 *   Provides blueprint event matching for runtime anomalies and suspicious API server activities.
   - [Analyze Kubernetes Audit logs using Falco 🌟](https://github.com/developer-guy/falco-analyze-audit-log-from-k3s-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on open-source demonstration project for analyzing Kubernetes audit logs on lightweight K3s clusters using Falco. Ideal for dev environments and homelabs to understand security monitoring patterns.
+#### Policy-as-Code
+
+  - [Kyverno 🌟](https://kyverno.io)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A CNCF graduated Kubernetes-native policy engine.
+
+*   Allows policy definition as standard Kubernetes resources (YAML).
+*   Eliminates the need for complex DSLs like Rego.
+*   Simplifies admission control, generation, mutation, and validation of workloads.
+  - [kyverno.io: 56 sample policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A rich library of ready-to-use Kyverno policy definitions. These templates address common cloud security standards (Pod Security Standards, multi-tenancy constraints, best practices, and resource optimization parameters) for instant cluster hardening.
 #### Security (1)
 
   - **(2021)** [**tldrsec.com: Risk8s Business: Risk Analysis of Kubernetes Clusters 🌟**](https://tldrsec.com/?404=%2Fguides%2Fkubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A security auditing guide outlining common vulnerabilities and risk assessment techniques for Kubernetes environments.
@@ -67,6 +76,20 @@
 
 *   Details how the tool scans clusters for RBAC misconfigurations.
 *   Pinpoints exposed endpoints and vulnerable images to provide rapid threat-vector modeling.
+## Cloud Native Security
+
+### Supply Chain Security
+
+#### Security Tooling
+
+  - **(2021)** [**cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟**](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A strategic overview of outstanding open-source Kubernetes protection mechanisms. Summarizes and contrasts the deployment use-cases for prominent systems focused on static verification, policy governance, and kernel monitoring.
+## Identity and Access Management
+
+### Cloud IAM
+
+#### Microsoft Entra
+
+  - [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official documentation outlines hardening parameters for Microsoft Entra ID. Features prescriptive blueprints for setting up conditional access, continuous access evaluation, Multi-Factor Authentication (MFA), and role-based identity management.
 ## Microservices
 
 ### Application Lifecycle
@@ -74,6 +97,18 @@
 #### Kubernetes Deployment
 
   - [itnext.io: Journey Of A Microservice Application In The Kubernetes World' 🌟](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Follows a microservice application from development to full-scale production deployment on Kubernetes, focusing on ingress, security, and scaling. Curator insight breaks down architectural steps, including secure service routing and config separation. Live grounding verifies that understanding the holistic life cycle helps teams avoid standard reliability bottlenecks and secure their continuous delivery setups.
+## Platform Security
+
+### Compliance and Auditing
+
+#### Security Frameworks
+
+  - [armosec.io: Kubernetes Security Compliance Frameworks 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a thorough breakdown of standard security compliance frameworks applicable to Kubernetes environments, including CIS Benchmarks, NSA-CISA hardening guides, and MITRE ATT&CK. Details key validation metrics and remediation methods required to audit clusters against these controls.
+### Kubernetes Fundamentals
+
+#### Security Concepts
+
+  - **(2026)** [==kubernetes.io: Overview of Cloud Native Security==](https://kubernetes.io/docs/concepts/security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative framework defining Kubernetes security architecture across the 'FourCs' Model: Cloud, Cluster, Container, and Code. Serves as the foundational blueprint for understanding attack vectors, defense-in-depth methodologies, and default-deny paradigms in orchestrating container workloads safely.
 ## Security (2)
 
 ### Access Control
@@ -115,6 +150,12 @@
 #### Client-Side Security
 
   - [curity.io: Client Security](https://curity.io/resources/client-security) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Analyzes security patterns and best practices for implementing secure clients within modern web architecture. Curator insight focuses on preventing token leakage on client platforms. Live grounding confirms that securing the client architecture is paramount to avoiding credential hijacking in distributed web environments.
+#### OAuth 2.0
+
+  - [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An authoritative reference detailing the core flows, mechanics, and actors within the OAuth 2.0 authorization framework. Curator insight describes integration opportunities for web, native, and API client types. Live grounding demonstrates that OAuth 2.0 tokens serve as the underlying standard for authenticating microservice operations.
+#### OIDC
+
+  - [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides a comprehensive introduction to OpenID Connect (OIDC), the identity layer built directly on top of OAuth 2.0. Curator insight highlights how OIDC standardizes token delivery to provide secure client identity resolution. Live grounding affirms that OIDC is the preferred mechanism for securing user access to corporate Kubernetes instances.
 ### Certificates
 
 #### Concepts
@@ -125,9 +166,9 @@
   - **(2025)** [github.com/cert-manager: Policy Approver](https://github.com/cert-manager/approver-policy) <span class='md-tag md-tag--info'>⭐ 90</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official cert-manager approver-policy extension that verifies certificate requests against user-defined security guidelines before signing actions take place.
 #### TLS Automation
 
+  - **(2021)** [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://www.empowersurvivors.net) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rescued guide detailing the technical orchestration steps of cert-manager and Let's Encrypt certificates mapping over NGINX Ingress controllers for ingress traffic protection.
   - **(2021)** [rejupillai.com: Let’s Encrypt the Web (for free)](https://rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches administrators how to configure automated TLS on Google Kubernetes Engine (GKE) endpoints using GKE Ingress controllers and free Let's Encrypt certificates.
   - [cert-manager.io 🌟](https://cert-manager.io/docs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical documentation page for cert-manager, the industry-standard PKI and TLS certificate operator for automating certificates generation and renewal.
-  - [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13830</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Consolidated record of the cert-manager project, automating dynamic certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
   - [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses upgrading cert-manager inside highly available environments without causing downtime, explaining migration mappings of CRDs and webhook components.
 ### Cluster Hardening
 
@@ -137,7 +178,6 @@
   - [thenewstack.io: 6 Kubernetes Security Best Practices 🌟](https://thenewstack.io/6-kubernetes-security-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Conceptual breakdown of the six pillars of native Kubernetes security. Live Grounding: Distills complicated architectures into six action items (e.g., container isolation, CIS benchmarks) for fast-growing engineering teams.
   - [armosec.io: Kubernetes Security Best Practices: Definitive Guide](https://www.armosec.io/blog/kubernetes-security-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive security handbook focused on practical remediation. Live Grounding: Authored by Armo (developers of Kubescape); highly detailed on network security, host configuration, and scanning orchestration.
   - [spectrocloud.com: Kubernetes security best practices: 5 easy ways to cut' risk](https://www.spectrocloud.com/blog/kubernetes-security-best-practices-5-easy-ways-to-cut-risk) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Architectural guide targeting five foundational risk-reduction vectors. Live Grounding: Emphasizes simple steps like node OS patching, configuration drift detection, and early pipeline policy enforcement.
-  - [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: The definitive handbook for securing AWS EKS environments, curated by AWS security engineers. Live Grounding: Serves as the primary operational baseline for hardening network, IAM, data, and compute resources in AWS.
 #### Deployment Security
 
   - **(2023)** [semaphoreci.com: Secure Your Kubernetes Deployments](https://semaphore.io/blog/kubernetes-deployments) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Actionable patterns for securing standard Deployment manifests in CI/CD pipelines. Live Grounding: Explains key-value securityContext settings, network policy bounds, and resource allocations.
@@ -162,7 +202,7 @@
 #### Threat Modeling
 
   - [owasp.org: OWASP Kubernetes Top Ten](https://owasp.org/www-project-kubernetes-top-ten) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OWASP Kubernetes Top 10 project cataloging critical security issues. Helps engineering teams understand threat models ranging from insecure pod configurations to compromised secrets storage.
-### Compliance and Auditing
+### Compliance and Auditing (1)
 
 #### Audit Methodology
 
@@ -180,6 +220,9 @@
 #### CICD Pipeline Security
 
   - **(2021)** [infoworld.com: 10 steps to automating security in Kubernetes pipelines](https://www.infoworld.com/article/2258136/10-steps-to-automating-security-in-kubernetes-pipelines.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on establishing highly automated security checkpoints across the continuous delivery pipeline. Curator insight lists key automation areas, including infrastructure-as-code linting and automated vulnerability patching. Live grounding proves that shifting security left into the pipeline minimizes runtime surprises and maintains continuous developer velocity.
+#### SAST
+
+  - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to GitHub's native, free vulnerability scanning tools designed to locate security regressions, secrets, and supply chain threats directly within the code repository. It highlights automated security alerts and quick enablement configurations.
 #### Static Code Analysis
 
   - [itnext.io: Performing Security Checks for Deployed Kubernetes Manifests](https://itnext.io/performing-security-checks-for-deployed-kubernetes-manifests-fa9d442b7951) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines methods and tools used to inspect existing, live-running, or static Kubernetes resource manifests for structural defects. Curator insight showcases policy enforcement tools such as Checkov and Kube-score. Live grounding demonstrates that shift-left auditing of manifests in CI guarantees that only vetted resources enter production.
@@ -219,6 +262,7 @@
 #### Cloud Integration
 
   - [dev.to: Binding AWS IAM roles to Kubernetes Service Account for on-prem' clusters | Daniele Polencic 🌟](https://dev.to/danielepolencic/binding-aws-iam-roles-to-kubernetes-service-account-for-on-prem-clusters-1icc) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Technical guide on binding AWS IAM roles directly to ServiceAccounts inside on-premises nodes. Live Grounding: Offers an architecturally sound pattern for managing hybrid cloud identity federations without static AWS keys.
+  - [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Architect blueprint for managing Microsoft Entra ID integration in Azure Kubernetes Service. Live Grounding: Walks through configuring fine-grained identity federation and replacing Kubernetes cluster roles with enterprise Azure AD mappings.
 #### Enterprise Authentication
 
   - **(2023)** [**gravitational.com: How to Set Up Kubernetes SSO with SAML**](https://goteleport.com/blog/kubernetes-sso-saml) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: Tutorial showing how to secure the Kubernetes API utilizing SAML Single Sign-On. Live Grounding: Details proxy setup and Dex configuration, bridging legacy authentication methods with modern web authorization engines.
@@ -247,7 +291,7 @@
 
   - **(2024)** [==learnk8s.io/authentication-kubernetes: User and workload identities in Kubernetes 🌟🌟🌟==](https://learnkube.com/authentication-kubernetes) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep dive comparing human user logins and system-managed Service Accounts. Walks through the mechanics of token verification and the internal request protocols of the API server.
   - **(2021)** [**linkerd.io: Using Kubernetes's new Bound Service Account Tokens for secure workload identity**](https://linkerd.io/2021/12/28/using-kubernetess-new-bound-service-account-tokens-for-secure-workload-identity/index.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Describes how Linkerd leverages Bound Service Account Tokens to construct cryptographic workload identity, showing their security advantages over older token mechanisms.
-### Identity and Access Management
+### Identity and Access Management (1)
 
 #### API Server Hardening
 
@@ -276,6 +320,7 @@
 #### Network Protection
 
   - **(2025)** [**Calico in EKS**](https://docs.aws.amazon.com/eks/latest/userguide/cni-network-policy.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Official AWS guide to configuring Calico as a network policy engine within EKS clusters. Live Grounding: Standard pattern for implementing namespace segregation and network isolation for microservices.
+  - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Architecture plan to withstand high-volume distributed denial-of-service attempts. Live Grounding: Focuses heavily on cloud-native patterns like rate-limiting, load-balancer protection, and Edge integration on Azure platforms.
   - [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Official AWS guidelines on minimal security group parameters for EKS control planes and workers. Live Grounding: Vital infrastructure design reference preventing accidental exposure of internal cluster controllers.
   - [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Technical documentation specifying ENI limits and IP exhaustion thresholds in EC2. Live Grounding: Critical reference for EKS network planning to avoid pod startup errors due to IP scarcity.
 #### Vulnerability Intelligence
@@ -348,6 +393,7 @@
   - [youtube: Manage Kubernetes Secrets With External Secrets Operator (ESO)' 🌟](https://www.youtube.com/watch?v=SyRZe5YVCVk)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A video walk-through of the External Secrets Operator (ESO). Explains how to orchestrate automated synchronization between external secrets engines and native Kubernetes workflows.
 #### Cloud Integrations (1)
 
+  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates four approaches to integrate Azure Key Vault secrets within AKS environments. Weighs security architectures including Azure Workload Identity and the Secrets Store CSI driver.
   - [itnext.io: Effective Secrets with Vault and Kubernetes](https://itnext.io/effective-secrets-with-vault-and-kubernetes-9af5f5c04d06)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains HashiCorp Vault integration inside Kubernetes environments. Illustrates the Vault Agent Sidecar Injector mechanism, allowing target workloads to resolve credentials directly.
   - [itnext.io: Vault cluster with auto unseal on Kubernetes](https://itnext.io/vault-cluster-with-auto-unseal-on-kubernetes-8e469f9cdcfd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the configurations needed to bootstrap highly available HashiCorp Vault systems using dynamic KMS systems (AWS or GCP) to automate unsealing tasks.
 #### Compliance Auditing (1)
@@ -455,5 +501,5 @@
   - [snyk.io: 10 Kubernetes Security Context settings you should understand](https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understand) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive guide on utilizing the Kubernetes `securityContext` API to enforce Pod and container-level boundaries. Curator insight details foundational settings like `runAsNonRoot`, `readOnlyRootFilesystem`, and `allowPrivilegeEscalation`. Live grounding confirms these configurations remain the primary defense-in-depth mechanisms for preventing container breakouts in 2026 production environments.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Devsecops](./devsecops.md)
 

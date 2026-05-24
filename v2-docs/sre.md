@@ -3,13 +3,6 @@
 !!! info "Architectural Context"
     Detailed reference for Sre in the context of Platform & Site Reliability.
 
-## Education
-
-### Software Engineering
-
-#### Professional Growth
-
-  - [Skills for Real Engineers](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 100172</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive, widely vetted resource compiling software engineering methodologies, design schemas, and performance protocols required for elite software delivery.
 ## Operations and Reliability
 
 ### DevOps and SRE Culture
@@ -22,11 +15,6 @@
   - [youtube: Viktor Farcic - What is the difference between SRE and DevOps?](https://www.youtube.com/watch?v=jgW4r9FxItI&ab_channel=DevOpsToolkitbyViktorFarcic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical video comparing SRE and DevOps methodologies. The presentation details structural overlaps, detailing SRE as a concrete class implementing the abstract interface of DevOps, emphasizing automated tooling, error budget tracking, and shared organizational objectives.
   - [dev.to: DevOps vs SRE: What's The Difference?](https://dev.to/thenjdevopsguy/devops-vs-sre-what-s-the-difference-560d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory analysis exploring how DevOps and SRE differ conceptually and operationally. It illustrates how SRE provides the programmatic solutions and infrastructure instrumentation needed to realize the broader cultural transformations promised by DevOps methodologies.
   - [phoenixnap.com: SRE Vs. DevOps: Differences Explained 🌟](https://phoenixnap.com/blog/sre-vs-devops)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An educational guide that outlines the operational boundaries and target objectives distinguishing SRE from DevOps. It features detailed structural comparisons highlighting specific KPI alignments, on-call expectations, and error budget implementation procedures.
-### Observability and Monitoring
-
-#### Foundations
-
-  - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard chapter from Google's SRE book detailing the implementation of distributed systems monitoring. It defines the 'Four Golden Signals'—latency, traffic, errors, and saturation—providing practical blueprints to prevent alert fatigue and build actionable dashboard designs.
 ### Organization Design
 
 #### Operational Models
@@ -45,7 +33,7 @@
 #### Community Events
 
   - [SLOconf](https://www.sloconf.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official landing page for SLOconf, a premier community event dedicated to Service Level Objectives. The forum hosts deep technical tracks, production post-mortems, and deployment case studies, making it an essential hub for engineers refining reliability standards.
-#### Foundations (1)
+#### Foundations
 
   - [sre.google: The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential training handbook from Google covering the foundational concepts of setting, calculating, and maintaining Service Level Objectives. It provides practical exercises to identify critical user pathways and align internal metrics with real-world customer expectations.
 #### GitOps Implementation
@@ -54,9 +42,6 @@
 #### Open Standards
 
   - [OpenSLO specification 🌟](https://github.com/OpenSLO/OpenSLO) <span class='md-tag md-tag--info'>⭐ 1491</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The open-source OpenSLO specification, which defines a vendor-agnostic standard for declaring SLOs, SLIs, and error budgets in YAML format. It enables platform engineers to implement declarative reliability metrics across diverse tracing systems like Prometheus and Datadog.
-#### Progressive Delivery
-
-  - [Iter8](https://iter8.tools) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native progressive delivery platform that orchestrates metric-driven canary releases and A/B tests. Live grounding shows Iter8's ability to validate runtime SLO performance, using Prometheus and OpenTelemetry targets to automate application promotion or rollbacks.
 #### Testing and Validation
 
   - [thenewstack.io: Validate Service-Level Objectives of REST APIs Using Iter8](https://thenewstack.io/validate-service-level-objectives-of-rest-apis-using-iter8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical walkthrough detailing how to integrate Iter8 with CI/CD runners to automatically validate REST API SLO configurations. The tutorial includes sample manifests for monitoring API response times and failure rates under heavy synthetic request loads.
@@ -105,7 +90,7 @@
 #### Case Studies (1)
 
   - **(2023)** [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise case study detailing how Red Hat transitioned its OpenShift Dedicated operations team to a modern SRE model, showing concrete scaling metrics.
-#### Foundations (2)
+#### Foundations (1)
 
   - **(2024)** [cloud.google.com: SRE vs. DevOps: competing standards or close friends?](https://cloud.google.com/blog/products/devops-sre) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official Google Cloud guide highlighting operational synergies and clear organizational distinctions between SRE and DevOps execution models.
   - [sre.google: What is Site Reliability Engineering (SRE)? 🌟](https://sre.google) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main portal hosting Google's legendary Site Reliability Engineering, Site Reliability Workbook, and Building Secure and Reliable Systems textbooks. Mandatory standard reference.
@@ -124,5 +109,5 @@
   - [circonus.com: Monitoring for Success: What All SREs Need to Know](https://www.circonus.com/2021/04/monitoring-for-success-what-all-sres-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical evaluation of telemetry and metric requirements for SRE. Discusses the selection of appropriate service objectives and data collection frequencies.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md) | [Devops](./devops.md)
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Testops](./testops.md)
 

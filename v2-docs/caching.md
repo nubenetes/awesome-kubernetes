@@ -19,21 +19,7 @@
   - [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) <span class='md-tag md-tag--info'>⭐ 312</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching' Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Data Engineering
-
-### In-Memory Databases
-
-#### Caching (1)
-
-  - [Redis](http://redis.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive open-source, in-memory data store used as a database, cache, message broker, and streaming engine. Offers unmatched low-latency read-write cycles and versatile data structures. Highly valued for real-time applications requiring low overhead.
-## Networking
-
-### Load Balancing
-
-#### HAProxy
-
-  - **(2026)** [==haproxy.org==](http://www.haproxy.org) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official site for HAProxy, the high-performance TCP/HTTP load balancer. Renowned for its extreme efficiency and microsecond-level latency control, HAProxy is an industry standard for routing massive amounts of concurrent web traffic.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Istio](./istio.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Web Servers](./web-servers.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

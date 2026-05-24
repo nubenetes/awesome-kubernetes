@@ -34,12 +34,47 @@
 
 ##### Eclipse JKube
 
+  - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse' JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launch announcement of Eclipse JKube 1.0.0 detailing its design philosophy, architectural decoupling from old Fabric8 dependencies, and its seamless integration with modern cloud-native standards.
+  - [developers.redhat.com: Java development on top of Kubernetes using Eclipse' JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploring developer loop workflows utilizing Eclipse JKube to build, deploy, and debug Java applications in real-time inside a local or remote Kubernetes cluster environment.
   - [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for' Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory technical blog discussing the architecture of Eclipse JKube and explaining how it decouples deployment mechanisms into Maven/Gradle plugins, providing a highly customizable developer experience.
-#### Product Updates
+#### Migration Guides
 
 ##### Eclipse JKube (1)
 
+  - **(2026)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official technical reference outlining the exact property conversions, API transformations, and plugin changes needed to move builds from `fabric8-maven-plugin` to `jkube-maven-plugin`.
+  - [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube' 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step technical guide highlighting the namespace transitions, configuration changes, and structural refactoring required when migrating legacy Fabric8 Maven build files to the modernized Eclipse JKube.
+#### Product Updates
+
+##### Eclipse JKube (2)
+
   - [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detail-rich release note highlighting improvements, bug fixes, and support extensions introduced in version 1.4.0 of Eclipse JKube.
+#### Quarkus Integration
+
+##### Video Tutorials
+
+  - [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud' Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video session detailing the integration of Quarkus with Eclipse JKube to deploy highly optimized, native-compiled Java microservices directly to Kubernetes.
+## Continuous Integration
+
+### Jenkins Pipelines
+
+#### Build Automation
+
+##### Multi-JDK Build
+
+  - [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide showing how to parallelize stages in a Jenkins declarative pipeline to build and test Maven applications across multiple isolated JDK versions simultaneously.
+#### Containerized Builds
+
+##### SDKMAN
+
+  - [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — High-density integration guide describing the preparation of a containerized Jenkins CI/CD worker image prepopulated with SDKMAN!, enabling dynamic runtime JDK resolution.
+## Red Hat OpenShift (1)
+
+### Developer Experience
+
+#### Maven Plugins
+
+  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
+  - **(2025)** [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 850</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Active repository containing the source code, extensions, and Maven/Gradle plugins for Eclipse JKube. Simplifies localized builds, auto-detects Java application frameworks, and generates matching Kubernetes resource configurations.
 ## Software Engineering
 
 ### Build Systems
@@ -105,7 +140,7 @@
 ##### Testing
 
   - [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Parses JUnit and TestNG XML reports during the test and integration test phases to generate structured, human-readable HTML test summaries. Seamlessly plugs into standard CI pipeline visualization engines.
-### Developer Experience
+### Developer Experience (1)
 
 #### IDE Configuration
 
@@ -117,10 +152,13 @@
   - [code.visualstudio.com: Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation detailing project management configurations, build tool integration (Maven/Gradle), and workspace settings for Java development within Visual Studio Code. It provides technical insights into using the Language Server for Java (RSP) and configuring classpath dependencies.
 #### JVM Ecosystem (1)
 
+##### Environment Management
+
+  - [SdkMan](https://sdkman.io)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A command-line utility for managing parallel versions of multiple Software Development Kits on most Unix-like systems. Widely used to manage JDKs, Gradle, Maven, and JBang versions in local developer setups and CI agents.
 ##### Scripting Tools
 
   - [JBang](https://www.jbang.dev)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CLI tool allowing Java developers to run single-file source code programs as executable scripts, handling dependency fetching on-the-fly without heavy project setups.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
 

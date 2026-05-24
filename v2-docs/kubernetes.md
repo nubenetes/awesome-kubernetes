@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techbeacon.com: 25 Kubernetes experts you should follow on Twitter](https://techbeacon.com/enterprise-it/25-kubernetes-experts-you-should-follow-twitter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [enterprisersproject.com: Kubernetes: Everything you need to know (2020)' 🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: Explaining Kubernetes in 10 minutes using an analogy](https://opensource.com/article/20/7/kubernetes-analogy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -57,6 +58,7 @@
   - [dev.to: Build my own Kubernetes journey (10 Part Series) | Jonatan Ezron](https://dev.to/jonatan5524/build-my-own-kubernetes-journey-1a3j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Why Kubernetes Has Emerged as the ‘OS’ of the Cloud](https://thenewstack.io/why-kubernetes-has-emerged-as-the-os-of-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Kubernetes as a platform vs. Kubernetes as an API 🌟🌟](https://aws.amazon.com/blogs/containers/kubernetes-as-a-platform-vs-kubernetes-as-an-api-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Symbiosis](https://symbiosis.host)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Kubernetes 101, part I, the fundamentals | Leandro Proença](https://dev.to/leandronsp/kubernetes-101-part-i-the-fundamentals-23a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: A Platform for Kubernetes](https://thenewstack.io/a-platform-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopscube.com: Kubernetes Daemonset: A Comprehensive Guide](https://devopscube.com/kubernetes-daemonset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -65,13 +67,13 @@
   - [serokell.io/blog/kubernetes-guide: A Guide to Kubernetes](https://serokell.io/blog/kubernetes-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kube.careers: Kubernetes jobs market trends for 2021 (Q4)](https://kube.careers/report-2021-q4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kube.careers](https://kube.careers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Cloud-Native Development Survey Details Kubernetes, Serverless Data](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [k8s.af 🌟](https://k8s.af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Kubernetes Horror Stories](https://thenewstack.io/kubernetes-horror-stories)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techbeacon.com: Why teams fail with Kubernetes—and what to do about it](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [fairwinds.medium.com: Kubernetes Maturity Model](https://www.fairwinds.com/kubernetes-maturity-model)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubebyexample.com - kubernetesbyexample.com 🌟🌟](https://kubebyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Kubernetes Installation Methods The Complete Guide](https://itnext.io/kubernetes-installation-methods-the-complete-guide-1036c860a2b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io](https://kubernetes.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -84,8 +86,11 @@
   - [opensource.com/tags/kubernetes](https://opensource.com/tags/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io/tagged/kubernetes](https://itnext.io/tagged/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [devopscube.com](https://devopscube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thecloudblog.net](https://thecloudblog.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Rcarrata's blog](https://rcarrata.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [returngis.net](https://www.returngis.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [platform9.com: Kubernetes CI/CD Pipelines at Scale](https://platform9.com/blog/kubernetes-ci-cd-pipelines-at-scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [5 open source projects that make Kubernetes even better: Prometheus, Operator' framework, Knative, Tekton, Kubeflow 🌟](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -153,6 +158,7 @@
   - [danielmangum.com: How Kubernetes validates custom resources](https://danielmangum.com/posts/how-kubernetes-validates-custom-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: How the Kubernetes ReplicationController works](https://opensource.com/article/21/11/kubernetes-replicationcontroller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Kubernetes — Running Multiple Container Runtimes](https://itnext.io/kubernetes-running-multiple-container-runtimes-65220b4f9ef4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubermatic.com: The Ultimate Checklist for Running Kubernetes in Production](https://www.kubermatic.com/resources/the-ultimate-checklist-for-running-kubernetes-in-production)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vadosware.io: So you need to wait for some Kubernetes resources?](https://vadosware.io/post/so-you-need-to-wait-for-some-kubernetes-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [mayankshah.dev: Demystifying kube-proxy](https://mayankshah.dev/blog/demystifying-kube-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -317,6 +323,7 @@
   - [towardsdatascience.com: Maximizing the Utility of Scarce AI Resources: A' Kubernetes Approach](https://towardsdatascience.com/maximizing-the-utility-of-scarce-ai-resources-a-kubernetes-approach-0230ba53965b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Operating etcd clusters for Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-etcd-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: A Detailed Brief About Offence and Defence on Cloud Security - Etcd' Risks](https://dev.to/tutorialboy/a-detailed-brief-about-offence-and-defence-on-cloud-security-etcd-risks-4h02)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/fermyon: Scaling Sidecars to Zero in Kubernetes](https://dev.to/fermyon/scaling-sidecars-to-zero-in-kubernetes-2m23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Annotating Kubernetes Services for Humans](https://kubernetes.io/blog/2021/04/20/annotating-k8s-for-humans)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [diegolnasc/kubernetes-best-practices 🌟](https://github.com/diegolnasc/kubernetes-best-practices) <span class='md-tag md-tag--info'>⭐ 1498</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -416,11 +423,12 @@
   - [AWS: Introducing CDK for Kubernetes](https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [jsonnet data templating language](https://github.com/google/jsonnet/tree/master/case_studies/kubernetes) <span class='md-tag md-tag--info'>⭐ 7517</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [aquasec.com: Kubernetes Federation: The Basics and a 5-Step Tutorial](https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-federation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1856</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep' Dive](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.io: Kubernetes-in-Kubernetes and the WEDOS PXE bootable server' farm](https://kubernetes.io/blog/2021/12/22/kubernetes-in-kubernetes-and-pxe-bootable-server-farm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Kubernetes Scripts](https://github.com/eldada/kubernetes-scripts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Get applied and effective apiVersion from Kubernetes objects](https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Automating System Updates for Kubernetes Clusters using Ansible](https://itnext.io/automating-system-updates-for-kubernetes-clusters-using-ansible-94a70f4e1972)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Ansible for devops: Kubernetes](https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes) <span class='md-tag md-tag--info'>⭐ 9761</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [itnext.io: Embracing failures and cutting infrastructure costs: Spot instances' in Kubernetes](https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cynet.com: Incident Report Plan (IRP)](https://www.cynet.com/incident-response/incident-response-plan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubermatic.com: A Framework for Kubernetes Incident Response](https://www.kubermatic.com/blog/a-framework-for-kubernetes-incident-response)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -442,21 +450,7 @@
   - [container-security.site: PCI Container Orchestration Guidance for Kubernetes](https://www.container-security.site/defenders/PCI_Container_Orchestration_Guidance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [kubernetes.slack.com](https://kubernetes.slack.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Infrastructure
-
-### Orchestration
-
-#### Cluster Resource Management
-
-  - **(2022)** [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnkube.com/allocatable-resources) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical breakdown of node allocatable resources in Kubernetes. Explains how `kube-reserved`, `system-reserved`, and eviction thresholds reduce physical capacity available for user pods.
-## Cloud Native Architecture
-
-### Orchestration (1)
-
-#### Kubernetes Pod Lifecycle
-
-  - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides concrete technical implementation strategies to prevent abrupt termination of active queue worker Pods during rolling Kubernetes updates. It details the effective utilization of `preStop` hooks and graceful shutdown signals within Pod specifications. It ensures zero-loss processing of long-running asynchronous messages.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

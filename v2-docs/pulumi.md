@@ -22,5 +22,5 @@
 
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
 

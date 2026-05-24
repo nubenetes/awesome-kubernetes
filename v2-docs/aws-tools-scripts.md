@@ -12,7 +12,6 @@
   - [github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on' AWS boto3 for manage ec2 and s3 buckets](https://github.com/Levi-Michael/boto3-ec2-s3-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/cavaliercoder/vpc-free](https://github.com/cavaliercoder/vpc-free) <span class='md-tag md-tag--info'>⭐ 60</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenSource at AWS](https://aws.github.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Floci - An AWS Local Emulator Alternative](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 12740</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS](https://github.com/awslabs/aws-cloudsaga) <span class='md-tag md-tag--info'>⭐ 475</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [willdady/aws-resource-based-policy-collector: AWS resource-based policy' collector](https://github.com/willdady/aws-resource-based-policy-collector) <span class='md-tag md-tag--info'>⭐ 24</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/ualter: AwsBe](https://github.com/ualter/awsbe-site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -39,5 +38,5 @@
 
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

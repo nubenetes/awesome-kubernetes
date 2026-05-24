@@ -36,6 +36,7 @@
   - [Ray](https://docs.ray.io/en/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubeflow](https://www.kubeflow.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Union Cloud](https://www.union.ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript) 🌟🌟🌟](https://www.union.ai/blog-post/machine-learning-in-production)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -74,5 +75,5 @@
 
 
 ---
-💡 **Explore Related:** [Ai Agents Mcp](./ai-agents-mcp.md) | [Ai](./ai.md) | [Chatgpt](./chatgpt.md)
+💡 **Explore Related:** [Ai](./ai.md) | [Chatgpt](./chatgpt.md) | [Ai Agents Mcp](./ai-agents-mcp.md)
 

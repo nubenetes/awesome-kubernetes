@@ -47,5 +47,5 @@
   - [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide demonstrating how to spin up a SonarQube server inside Minikube, configured for localized developer playground environments.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

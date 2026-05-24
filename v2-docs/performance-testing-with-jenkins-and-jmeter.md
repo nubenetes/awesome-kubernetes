@@ -12,9 +12,18 @@
   - [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide for implementing low-overhead load testing routines within CI pipelines. Explores triggering synthetic benchmarks during typical code validation runs inside GitHub runners.
 #### Jenkins
 
+  - [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A stable Jenkins CI plugin designed to ingest, compile, and visualize execution metrics from varied load-testing libraries including JMeter, Taurus, and JUnit.
   - [plugins.jenkins.io: gatling](https://plugins.jenkins.io/gatling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Integrates Gatling load simulation tests into modern Jenkins jobs. Features automated metrics visualization, pipeline validation, and conditional build-failing mechanisms.
 ## Observability and Performance
 
+### Kubernetes Internals
+
+#### Autotuning
+
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive overview of how Kruize Autotune optimizes resource efficiency in OpenShift and Kubernetes workloads. Evaluates real-time scaling mechanisms and automated recommendations to reduce resource waste.
+#### Resource Management
+
+  - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis exposing the silent threat of CPU throttling inside Kubernetes clusters caused by rigid CFS quota management. Demonstrates how microservices suffer latency spikes even with low aggregate CPU consumption.
 ### Performance Testing
 
 #### APIs
@@ -32,6 +41,9 @@
 #### Distributed Load Testing
 
   - **(2016)** [JMeter Distributed Testing Step-by-step](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed execution manual outlining steps to orchestrate distributed JMeter server architectures. Teaches how to configure multiple remote load injectors managed by a master engine to bypass network bottlenecks.
+#### HTTP Benchmarking
+
+  - [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive introducing `pycurlb`, a fast performance tool wrapping libcurl for rapid HTTP request benchmarking in Python. Explores real-world performance results and technical comparisons.
 #### Load Testing
 
   - [jmeter.apache.org](https://jmeter.apache.org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Apache JMeter is the industry standard for performing robust load tests across varied protocols (HTTP, FTP, SOAP, Database). Allows extensive functional testing and architectural load emulation.
@@ -54,7 +66,14 @@
 #### Web Performance
 
   - [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Catchpoint’s strategic acquisition of the highly popular open-source tool WebPageTest. Highlights long-term development roadmaps and standardizations for internet performance tools.
+## Operations and Reliability
+
+### Service Level Objectives
+
+#### Progressive Delivery
+
+  - [Iter8](https://iter8.tools) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native progressive delivery platform that orchestrates metric-driven canary releases and A/B tests. Live grounding shows Iter8's ability to validate runtime SLO performance, using Prometheus and OpenTelemetry targets to automate application promotion or rollbacks.
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Sre](./sre.md) | [Testops](./testops.md)
 

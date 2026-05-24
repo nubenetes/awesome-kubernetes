@@ -113,5 +113,5 @@
   - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un reportaje de El Confidencial que examina la transición de los profesionales de TI en España desde las consultoras tradicionales ("cárnicas") hacia el trabajo autónomo. Evalúa plataformas de intermediación y detalla las ventajas operativas y financieras de este modelo profesional. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Interview Questions](./interview-questions.md) | [Elearning](./elearning.md)
 

@@ -106,5 +106,5 @@
   - **(2021)** [**Tutorial: Tuning Table Design**](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight provides the authoritative AWS tutorial on optimizing Amazon Redshift table structures. Live Grounding highlights deep configurations including distribution styles (KEY, ALL, EVEN), sort keys (compound vs interleaved), and compression encodings. Essential reading for data platform engineers scaling cloud-native data warehouses.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Spain](./aws-spain.md) | [Aws Serverless](./aws-serverless.md)
 

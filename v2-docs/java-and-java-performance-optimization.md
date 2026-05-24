@@ -89,5 +89,5 @@
   - **(2021)** [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive integration guide explaining how to hook up Spring Boot Prometheus metrics directly into automated OpenShift cluster telemetry layers.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Golang](./golang.md) | [Javascript](./javascript.md) | [Maven Gradle](./maven-gradle.md)
 

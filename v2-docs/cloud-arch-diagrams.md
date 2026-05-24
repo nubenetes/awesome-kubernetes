@@ -18,11 +18,15 @@
   - [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) <span class='md-tag md-tag--info'>⭐ 281</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [excalidraw.com](https://excalidraw.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [diagrams.mingrammer.com: Diagram as Code](https://diagrams.mingrammer.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Google Cloud Architecture Icons](https://cloud.google.com/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 94</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [hava.io](https://www.hava.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infviz.io](https://infviz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -32,5 +36,5 @@
 
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

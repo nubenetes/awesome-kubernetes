@@ -52,5 +52,5 @@ Live Grounding: Deep-dives into memory allocation, dynamic resource allocation, 
 Live Grounding: Demystifies user routing, security context constraints, and performance tuning when running containerized Spark clusters on enterprise Red Hat foundations.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Noops](./noops.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
 

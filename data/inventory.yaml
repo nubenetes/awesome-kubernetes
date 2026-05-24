@@ -67704,6 +67704,7 @@ https://eclipse.dev/jkube:
   - kubernetes-client-libraries.md
   - openshift-pipelines.md
   - java_frameworks.md
+  - maven-gradle.md
   year: '2025'
 https://eclipse.dev/jkube/docs/migration-guide:
   ai_summary: Official technical reference outlining the exact property conversions,
@@ -74682,6 +74683,7 @@ https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-ge
   v2_locations:
   - developerportals.md
   - devops-tools.md
+  - ai.md
   year: '2024'
 ? https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests
 : content_hash: 7ad3c504ce09a7134d205fc0d06ea1186a41bc6358c75672735cead425f23ee1
@@ -91130,7 +91132,7 @@ https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes:
   stars: 0
   status: online
   tags:
-  - '[COMMUNITY-TOOL]'
+  - '[ENTERPRISE-STABLE]'
   title: 'Ansible for devops: Kubernetes'
   v1_locations:
   - docs/kubernetes.md
@@ -139539,6 +139541,7 @@ https://learnkube.com/kubernetes-long-lived-connections:
   v2_locations:
   - servicemesh.md
   - kubernetes-networking.md
+  - message-queue.md
   year: '2021'
 https://learnkube.com/kubernetes-network-packets:
   content_hash: a56add84e2f2f814e77d2556d26964c1d44f5b7633d27e46401cc4fda1099e61
@@ -161693,6 +161696,7 @@ https://octopus.com/devops:
   - project-management-methodology.md
   - scaffolding.md
   - gitops.md
+  - helm.md
   year: '2021'
 https://octopus.com/devops/gitops:
   ai_summary: This architectural study outlines the synchronization of infrastructure
@@ -217712,6 +217716,7 @@ https://www.empowersurvivors.net:
   v2_locations:
   - ansible.md
   - terraform.md
+  - kubernetes-security.md
   year: '2021'
 https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html:
   content_hash: 502a7b25bacf963eb627046e6947f879b54c0c036a9ebdfb08624b84d789e724
@@ -218231,6 +218236,7 @@ https://www.f5.com/products/nginx:
   - servicemesh.md
   - web-servers.md
   - ansible.md
+  - linux.md
   year: '2026'
 https://www.f5.com/products/nginx/resources/library/complete-nginx-cookbook:
   health_score: 64.0
@@ -223988,6 +223994,7 @@ https://www.harness.io/blog:
   - kubernetes.md
   - cicd.md
   - terraform.md
+  - helm.md
   year: '2024'
 https://www.harness.io/blog/automated-devsecops:
   ai_summary: 'A technical implementation tutorial showing how to chain StackHawk
@@ -255679,6 +255686,7 @@ https://www.solo.io/blog:
   v2_locations:
   - servicemesh.md
   - developerportals.md
+  - istio.md
   year: '2021'
 https://www.solo.io/blog/amazon-eks-anywhere-and-solo-istio:
   ai_summary: Analyzes the integration of enterprise-grade Solo.io Istio setups with
@@ -258483,6 +258491,7 @@ https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-Wo
   - introduction.md
   - ocp4.md
   - kubernetes-alternatives.md
+  - kubernetes-on-premise.md
   year: '2024'
 https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS:
   ai_summary: A comprehensive comparison outlining the structural and operational
@@ -263824,6 +263833,7 @@ https://www.weave.works:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - cicd.md
+  - kubernetes-on-premise.md
 https://www.weave.works/blog/6-business-benefits-of-kubernetes:
   content_hash: 091412b47e174c316006481c48b92256957365c7790fb29edb04c77f85eafff9
   description: ''
@@ -264192,6 +264202,7 @@ https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops:
   - '[COMMUNITY-TOOL]'
   v2_locations:
   - gitops.md
+  - kubernetes-on-premise.md
 https://www.weave.works/docs/net/latest/overview:
   content_hash: 091412b47e174c316006481c48b92256957365c7790fb29edb04c77f85eafff9
   description: ''

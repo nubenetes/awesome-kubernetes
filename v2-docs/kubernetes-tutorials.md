@@ -30,8 +30,15 @@
   - [kodekloud.com](https://kodekloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how' clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

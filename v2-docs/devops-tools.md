@@ -53,11 +53,6 @@
   - [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive market snapshot from 2021 enumerating critical DevOps technologies. While highly localized to historical toolchains, it provides a comparative baseline of industry migration patterns from monolithic pipelines to modern orchestrators.
 ## Developer Experience
 
-### AI Assisted Engineering
-
-#### Multi-Repository Architectures
-
-  - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates methods for utilizing structured developer workspaces to safely implement, coordinate, and review automated AI-driven modifications across sprawling multi-repository codebases. Offers patterns for multi-repo orchestrations and version control management.
 ### Database Tooling
 
 #### SQL Utilities
@@ -119,9 +114,6 @@
 
   - [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An emerging framework focused on enforcing software engineering rigor, test-driven validation, and deterministic guardrails within AI Agent-driven code generation and execution loops. Provides platform architectures for managing safe agent-based deployments.
   - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1718</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, inspect pipeline logs, and orchestrate PR reviews dynamically.
-#### Coding Assistants
-
-  - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official GitHub product announcement marking the General Availability of GitHub Copilot's automated pipeline diagnostics. Empowers developers to quickly resolve failing CI/CD builds by getting clear, contextual, AI-driven summaries and remediation plans.
 ### CI-CD Pipelines (1)
 
 #### Debugging
@@ -139,19 +131,6 @@
   - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An ultra-lightweight, developer-friendly Platform-as-a-Service (PaaS) built on top of Kubernetes. Focuses on minimizing the friction of infrastructure management by automating container packaging, ingress configuration, and SSL provisioning for rapid app deployments.
 ## Software Engineering
 
-### Developer Experience (1)
-
-#### AI Assisted Coding
-
-##### Claude Templates
-
-  - [Claude Code Templates](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 27488</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular community repository hosting prompt structures, workflows, and templates optimized for Claude Code and Anthropic integrations in complex development cycles.
-##### Cursor Documentation
-
-  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation explaining the Cursor Bugbot's dynamic execution tiering, balancing deep semantic analysis and token limits against codebase complexity metrics.
-##### GitHub Copilot
-
-  - **(2024)** [**GitHub Copilot CLI for Beginners: Getting Started**](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introductory guide explaining how to integrate the terminal-based GitHub Copilot CLI to leverage natural-language shell queries, automating script development and git lifecycle executions.
 ### Product Culture
 
 #### Philosophical Frameworks
@@ -164,5 +143,5 @@
   - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally published by VictorOps (now acquired by Splunk as Splunk On-Call), this guide provides a direct comparison between Trunk-Based Development and GitFlow. It outlines the operational trade-offs between stability-centric scheduled release cycles and fast continuous deployment.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Mkdocs](./mkdocs.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

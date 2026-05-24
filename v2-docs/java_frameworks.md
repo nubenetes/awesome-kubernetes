@@ -5,7 +5,6 @@
 
 ## Standard Reference
 
-  - [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: The future of Java and OpenJDK updates without Oracle' support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,6 +39,7 @@
   - [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developers.redhat.com: Develop Eclipse MicroProfile applications on Red' Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [infoq.com: Virtual Panel: The MicroProfile Influence on Microservices Frameworks](https://www.infoq.com/articles/microprofile-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [KumuluzEE](https://ee.kumuluz.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring](https://spring.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -80,7 +80,10 @@
   - [Dekorate](https://dekorate.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) <span class='md-tag md-tag--info'>⭐ 276</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 355</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud](https://spring.io/projects/spring-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) <span class='md-tag md-tag--info'>⭐ 3530</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -127,14 +130,7 @@
   - [Helidon.io](https://helidon.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Red Hat OpenShift
-
-### Developer Experience
-
-#### Maven Plugins
-
-  - **(2025)** [Eclipse JKube 🌟](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Eclipse JKube, an open-source suite of tooling designed to facilitate the rapid containerization, deployment, and management of Java applications across Kubernetes and Red Hat OpenShift infrastructures.
 
 ---
-💡 **Explore Related:** [Dom](./dom.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [React](./react.md)
+💡 **Explore Related:** [Java And Java Performance Optimization](./java-and-java-performance-optimization.md) | [Golang](./golang.md) | [Javascript](./javascript.md)
 

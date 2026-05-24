@@ -23,6 +23,7 @@
   - [Awesome Linux](https://github.com/inputsh/awesome-linux) <span class='md-tag md-tag--info'>⭐ 5024</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [The Book of Secret Knowledge 🌟](https://github.com/trimstray/the-book-of-secret-knowledge) <span class='md-tag md-tag--info'>⭐ 222882</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) <span class='md-tag md-tag--info'>⭐ 71159</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) <span class='md-tag md-tag--info'>⭐ 82450</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [How they SRE](https://github.com/upgundecha/howtheysre) <span class='md-tag md-tag--info'>⭐ 9723</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) <span class='md-tag md-tag--info'>⭐ 139662</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) <span class='md-tag md-tag--info'>⭐ 17712</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
@@ -60,6 +61,7 @@
   - [Awesome microservices](https://github.com/mfornos/awesome-microservices) <span class='md-tag md-tag--info'>⭐ 14297</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [akuity/awesome-argo 🌟](https://github.com/akuity/awesome-argo) <span class='md-tag md-tag--info'>⭐ 2437</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/adriannovegil/awesome-observability: Awesome Observability 🌟](https://github.com/adriannovegil/awesome-observability) <span class='md-tag md-tag--info'>⭐ 630</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws) <span class='md-tag md-tag--info'>⭐ 14033</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/GoogleCloudPlatform/awesome-google-cloud: Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud) <span class='md-tag md-tag--info'>⭐ 899</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -68,7 +70,11 @@
   - [github.com/toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) <span class='md-tag md-tag--info'>⭐ 9450</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture) <span class='md-tag md-tag--info'>⭐ 1695</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5046</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
+  - [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36056</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [Awesome Compose 🌟](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45355</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1005</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [ansible-community/awesome-ansible: Awesome Ansible 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1878</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep](https://github.com/ElYusubov/AWESOME-Azure-Bicep) <span class='md-tag md-tag--info'>⭐ 424</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security) <span class='md-tag md-tag--info'>⭐ 14358</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security) <span class='md-tag md-tag--info'>⭐ 717</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -80,7 +86,6 @@
   - [Awesome API Management Tools](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) <span class='md-tag md-tag--info'>⭐ 86</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome API Gateway](https://github.com/yangtao309/awesome-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28668</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Awesome Python 🌟](https://github.com/vinta/awesome-python) <span class='md-tag md-tag--info'>⭐ 298980</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Java 🌟](https://github.com/akullpp/awesome-java) <span class='md-tag md-tag--info'>⭐ 48005</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [Awesome Angular](https://github.com/PatrickJS/awesome-angular) <span class='md-tag md-tag--info'>⭐ 10017</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -95,5 +100,5 @@
 
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

@@ -19,5 +19,5 @@
 
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Elearning](./elearning.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md)
 

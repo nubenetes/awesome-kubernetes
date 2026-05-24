@@ -5,7 +5,9 @@
 
 ## Standard Reference
 
+  - [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [weave.works: Manage Thousands of Clusters with GitOps and the Cluster API](https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [weave.works: Weave Kubernetes Platform](https://www.weave.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 ## Cloud Infrastructure
 
@@ -23,6 +25,7 @@
 
 #### Bare-Metal and Edge
 
+  - **(2026)** [**Charmed Kubernetes**](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Canonical's model-driven Kubernetes distribution designed for bare-metal, private, and multi-cloud environments. Leverages Ubuntu's automated Juju framework to manage complex cluster lifecycles, upgrades, security scanning, and seamless hypervisor scaling.
   - [poseidon/typhoon](https://github.com/poseidon/typhoon) <span class='md-tag md-tag--info'>⭐ 2042</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Typhoon is a bare-metal and multi-cloud Kubernetes distribution focused on simplicity. Built entirely with Terraform and running on Flatcar Container Linux, it provides a stable setup that operates efficiently without heavy proprietary layers.
 #### Comparison
 
@@ -59,6 +62,13 @@
 
   - [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical review showing vSphere with Kubernetes in a live environment. Reviews how the Supervisor Cluster exposes Kubernetes native primitives natively within vCenter, allowing developers to consume storage and compute via standard YAML.
   - [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical walk-through detailing how to construct and deploy a Tanzu Kubernetes Grid (TKG) guest cluster. Covers configuration details including Cluster API controllers, control-plane load balancers, and persistent virtual storage.
+## GitOps
+
+### Hybrid Cloud Platforms
+
+#### Azure Arc Integration
+
+  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide illustrating the integration of Charmed Kubernetes with Azure Arc to orchestrate hybrid-cloud resources. Demonstrates how GitOps configurations are pushed dynamically across decentralized architectures using unified portal controls.
 ## Infrastructure
 
 ### Air-Gapped
@@ -146,6 +156,7 @@
 #### Kubeadm Guides
 
   - [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step tutorial for building a Kubernetes control plane and node infrastructure on Ubuntu 18.04 VMs using kubeadm. Explores Docker runtime configuration and basic CNI setups. Highly legacy given newer Ubuntu releases and containerd/CRI-O standard transition.
+  - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to' setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on deploying an on-premises multi-master Kubernetes control plane using kubeadm and HAProxy for load balancing. Walks through the bootstrap token mechanism and control-plane join procedures. Excellent theoretical coverage of manual multi-master networking.
   - [mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty' guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A simplified deployment checklist for running containerized workloads on Kubernetes via kubeadm. Demonstrates manual package installation, initialization commands, and standard validation tests. Good starting point for spinning up fast staging clusters.
 #### Kubespray
 
@@ -175,6 +186,12 @@
 #### Security Benchmarking
 
   - [MicroK8s & Kubernetes security benchmark from CIS](https://github.com/didier-durand/microk8s-kube-bench) <span class='md-tag md-tag--info'>⭐ 17</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A validation utility adapting aquasecurity's kube-bench to run structured CIS security benchmarks directly against canonical MicroK8s clusters. Confirms cluster configuration conformance to standard security profiles.
+### GitOps (1)
+
+#### Cluster Provisioning (1)
+
+  - [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An early GitOps-driven Kubernetes cluster manager from Weaveworks that provisioned clusters from a declared state stored in git. Following Weaveworks' operational shutdown, this project is considered legacy but remains highly influential in GitOps control-loop architecture history.
+  - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ editorial piece analyzing the operational design of WKSctl. Explores how declarative machine and cluster definitions allowed users to bootstrap and reconcile nodes over SSH using Git as the source of truth.
 ### Infrastructure as Code
 
 #### Ansible
@@ -193,6 +210,11 @@
   - [kosyfrances.com: Using kubeadm to create a Kubernetes 1.20 cluster on VirtualBox' with Ubuntu](https://kosyfrances.com/kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A local lab guide explaining how to spin up a Kubernetes 1.20 multi-node environment on Oracle VirtualBox using kubeadm. Outlines setting up host-only networking, static IP mapping, and configuring containerd manually. Tailored for software testing and network topology validation.
 ## Networking
 
+### Container Network Interface
+
+#### CNI Plugins
+
+  - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6613</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weave Net is a resilient container CNI designed to create peer-to-peer overlay networks without external databases or configurations. The project was officially archived by Weaveworks in 2024, prompting teams to migrate to more modern CNI plugins like Cilium and Calico.
 ### Service Mesh
 
 #### VMware Tanzu Ecosystem (3)
@@ -205,6 +227,13 @@
 #### Legacy Tools
 
   - **(2023)** [vmware-tanzu/octant](https://github.com/vmware-archive/octant) <span class='md-tag md-tag--info'>⭐ 6249</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Octant was a widely used extensible, developer-focused dashboard for exploring Kubernetes structures. It was archived in 2023 and has been succeeded by more modern and active alternatives like Lens and K9s.
+## Platform Engineering
+
+### Site Reliability Engineering
+
+#### Foundations
+
+  - **(2024)** [itprotoday.com: Why Site Reliability Engineering Is Key to Modern DevOps](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive analysis examining why SRE architecture is a vital component of any modern, high-density DevOps delivery system trying to limit service down-time.
 ## Storage
 
 ### Stateful Workloads
@@ -214,5 +243,5 @@
   - [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical look at combining the Kontena Pharos Kubernetes distribution with Pure Storage orchestrators to run heavy database workloads. Useful for documenting the evolution of early volume mount drivers before CSI stabilization.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md)
 

@@ -10,7 +10,6 @@
   - [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Youtube: BMW enables the BMW Group to deliver the continuous service that' today's consumers expect (video starts at 1:29:00)](https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin.com/pulse: How BMW uses Redhat OpenShift?](https://www.linkedin.com/pulse/how-bmw-uses-redhat-openshift-bobby-singh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [BMW InnovationLab](https://github.com/BMW-InnovationLab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [redhat.com: The Volkswagen Group builds automated testing environment](https://www.redhat.com/en/success-stories/the-volkswagen-group)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [xataka.com: El auge del coche eléctrico y autónomo se ha topado con otra' barrera: el software. Volkswagen lo sabe bien](https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/mercedes-benz](https://github.com/mercedes-benz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -18,7 +17,6 @@
   - [youtube: Keynote: 7 Years of Running Kubernetes for Mercedes-Benz - Jens' Erat, Peter Mueller, Sabine Wolz](https://www.youtube.com/watch?v=UmbjwSK9b3I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [teslarati.com: IDRA finishes 9,000-ton Giga Press; Tesla expecting it any' day now](https://www.teslarati.com/idra-9000-ton-giga-press)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta' que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [quarkus.io: VCStream: a new messaging platform for DECATHLON’s Value Chain,' built on Quarkus](https://quarkus.io/blog/decathlon-user-story)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Deutsche Telekom Manages Edge Infrastructure with GitOps](https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: AstraZeneca’s Drug Design Program Built using AWS wins Innovation' Award](https://aws.amazon.com/blogs/industries/astrazenecas-drug-design-program-built-using-aws-wins-innovation-award)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -32,14 +30,7 @@
   - [hms.harvard.edu: Does AI Help or Hurt Human Radiologists’ Performance? It' Depends on the Doctor](https://hms.harvard.edu/news/does-ai-help-or-hurt-human-radiologists-performance-depends-doctor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [cronicaglobal.elespanol.com: Roberto Ardon (Incepto): "A la IA no se le' pueden pedir imposibles](https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-pueden-pedir-imposibles/860164103_0.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Artificial Intelligence
-
-### Generative AI
-
-#### Case Studies
-
-  - [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to' Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews BMW Group's production deployment of a GenAI orchestrator built on Amazon Bedrock. Highlights technical methods used to automatically review AWS cloud footprints and propose infrastructure optimizations globally.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Devops Tools](./devops-tools.md) | [Mkdocs](./mkdocs.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

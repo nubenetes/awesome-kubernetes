@@ -111,14 +111,7 @@
   - [AWS Config supports recording exclusions by resource type](https://aws.amazon.com/about-aws/whats-new/2023/06/aws-config-recording-exclusions-resource-type)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Amazon ECS and AWS Fargate now integrate with Amazon EBS](https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-ecs-fargate-integrate-ebs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Cloud Providers
-
-### AWS EKS
-
-#### Security
-
-  - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights the launch of EKS Pod Identity, an evolved architectural alternative to IRSA (IAM Roles for Service Accounts). By utilizing a highly optimized local agent daemon on worker nodes, it simplifies IAM association, scales beyond IRSA session limits, and works across multiple clusters with ease. A fundamental improvement to EKS access management.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

@@ -47,35 +47,15 @@
   - [jimmydqv.com: AWS IAM Anywhere 🌟](https://jimmydqv.com/iam-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Standardize compliance in AWS using DevOps and a Cloud Center of Excellence (CCOE) approach](https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [AWS Control Tower](https://aws.amazon.com/controltower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [aws.amazon.com: New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [aws.amazon.com: Automate AWS Control Tower landing zone operations using' APIs](https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Automatically block suspicious traffic with AWS Network Firewall and Amazon GuardDuty](https://aws.amazon.com/es/blogs/security/automatically-block-suspicious-traffic-with-aws-network-firewall-and-amazon-guardduty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: AWS WAF (Web Application Firewall): Deep Dive](https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Secrets Manager controller POC: an EKS operator for automatic rotation' of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [AWS Vault](https://github.com/99designs/aws-vault) <span class='md-tag md-tag--info'>⭐ 8976</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
 
-## Platform Engineering
-
-### CI-CD Security
-
-#### Azure DevOps
-
-  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses secure integration patterns for private Azure DevOps environments. Offers standard reference controls for isolating source code hosting, managing external worker access, and mitigating common misconfiguration patterns across self-hosted agent pools.
-#### Cloud Identity
-
-  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An in-depth security analysis detailing how to configure AWS OpenID Connect (OIDC) trust relationships correctly in GitHub Actions and other CI providers. Highlights major vulnerabilities arising from missing subject (sub) or audience (aud) validation and shows how to restrict access patterns safely.
-## Security
-
-### Linux Hardening
-
-#### Best Practices
-
-  - [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27424</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive, highly popular guide for securing production Linux environments. Covers SSH hardening, firewalls, user permission boundaries, 2FA, kernel optimization, audit logs, and automated vulnerability scanning.
 
 ---
-💡 **Explore Related:** [Aws Containers](./aws-containers.md) | [Aws Iac](./aws-iac.md) | [Aws Messaging](./aws-messaging.md)
+💡 **Explore Related:** [Aws Storage](./aws-storage.md) | [Aws Databases](./aws-databases.md) | [Aws Spain](./aws-spain.md)
 

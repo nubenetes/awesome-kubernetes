@@ -3,6 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Yaml in the context of Data & Advanced Analytics.
 
+## CICD Pipelines
+
+### GitOps
+
+#### Policy Enforcement
+
+  - [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical blueprint describing automated configuration pipeline testing using modern git hooks and validation platforms. Helps engineers automate linting policies directly in shared Git workflows.
 ## Data Formats
 
 ### Data Conversion
@@ -54,6 +61,13 @@
 #### JSON Operations
 
   - [thenewstack.io: Why (and How) You Should Manage JSON with SQL](https://thenewstack.io/why-and-how-you-should-manage-json-with-sql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to query and manipulate semi-structured JSON payloads natively in relational databases using modern SQL. Offers a roadmap for blending NoSQL flexibility with transactional relational databases.
+## DevSecOps
+
+### Infrastructure as Code Security
+
+#### Static Analysis
+
+  - [KubeLinter](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3450</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A static analysis tool that analyzes Kubernetes YAML manifests and Helm charts against best practices for security and production readiness. Checks for running as root, container security context settings, and missing resource limits.
 ## Infrastructure as Code
 
 ### Ansible
@@ -61,6 +75,11 @@
 #### Data Parsing
 
   - [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Presents five robust approaches to parse, filter, and modify raw JSON parameters inside automated Ansible configurations. Focuses on using native filters and Jinja2 structures to orchestrate complex environment definitions.
+### Configuration Management
+
+#### Templating
+
+  - [Kapitan: Generic templated configuration management for Kubernetes, Terraform' and other things](https://kapitan.dev) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful configuration generator for Kubernetes and cloud platforms. Includes native cryptographic secrets handling (supporting GPG, KMS, Vault), allowing multi-environment configurations to remain secure in Git.
 ## Orchestration
 
 ### Kubernetes
@@ -76,10 +95,16 @@
 #### Infrastructure as Code (1)
 
   - **(2022)** [naml: Not another markup language](https://github.com/krisnova/naml) <span class='md-tag md-tag--info'>⭐ 1261</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative engine enabling developers to write Kubernetes configurations using type-safe Go instead of YAML. Brings compilation safety, testability, and standard Go refactoring capabilities to platform engineering.
+#### JSON Schema Databases
+
+  - [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) <span class='md-tag md-tag--info'>⭐ 337</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An automated repository of JSON Schemas extracted from official Kubernetes API definitions. While currently superseded by native validation tools, it remains an essential reference for editor integrations.
 #### Legacy Validation Tools
 
   - [instrumenta/kubeval](https://github.com/instrumenta/kubeval) <span class='md-tag md-tag--info'>⭐ 3228</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A widely historical command-line validation parser that matches local Kubernetes YAML configurations against schemas. While archived and succeeded by tools like Kubeconform, it remains a pioneering reference in cloud-native linting history.
-#### Policy Enforcement
+#### Manifest Generation
+
+  - [k8syaml.com 🌟](https://k8syaml.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, web-based tool dedicated to synthesizing clean, boilerplate Kubernetes configurations. It simplifies complex manifest structural creation (Deployments, Services, and Ingress resources) to ease the onboarding of systems engineers.
+#### Policy Enforcement (1)
 
   - **(2022)** [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive analysis evaluating popular Kubernetes manifest validation engines. Compares tools like Kube-score, Polaris, and Conftest, showing teams how to set up robust automated configuration safeguards.
   - **(2021)** [Kubeval](https://teresaforcades.com/pensament/medicina.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A structured index highlighting central open-source utilities designed to validate Kubernetes configurations. Explores tools like Polaris, Copper, and Conftest to guarantee resilient configuration deployments.
@@ -89,7 +114,7 @@
   - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive set of production-grade Kubernetes resource configuration blueprints curated by Container Solutions. Features robust architecture design options for real-world application structures.
 ## Platform Engineering
 
-### CICD Pipelines
+### CICD Pipelines (1)
 
 #### Declarative Patterns
 
@@ -143,6 +168,13 @@
 
   - [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight provides architectural structures for dividing, tagging, and organizing massive collections of Kubernetes YAML manifests. Live Grounding analyzes standard patterns, comparing monolithic files against multi-directory structures managed by Kustomize and Helm. Offers crucial hygiene tips for scaling GitOps repositories.
   - [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines advanced tips for writing clean, optimized, and dry Kubernetes manifest structures. Live Grounding emphasizes using YAML anchors, Kustomize overlays, and schema linting to scale Kubernetes operations safely. An exceptionally practical, production-honed reference guide.
+## Software Delivery and Engineering
+
+### Continuous Integration
+
+#### Policy Enforcement (2)
+
+  - [datree.io](https://www.datree.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source CLI-driven tool that scans Kubernetes manifests and Helm charts to verify compliance with operational guidelines and security benchmarks. Grounding shows how Datree can be executed within pre-commit hooks or CI/CD pipelines to prevent infrastructure misconfigurations.
 ## Software Engineering
 
 ### Algorithms
@@ -181,5 +213,5 @@
   - [automationreinvented.blogspot.com: What is Json Schema and how to perform' schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed test automation walkthrough explaining JSON Schema validation with Rest Assured. Guides developers in implementing reliable regression pipelines to maintain robust system integrations.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Message Queue](./message-queue.md) | [Newsql](./newsql.md) | [Nosql](./nosql.md)
 

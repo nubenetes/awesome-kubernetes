@@ -7,6 +7,9 @@
 
 ### Helm (1)
 
+#### Alternative Engines
+
+  - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) <span class='md-tag md-tag--info'>⭐ 1072</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An innovative deployment engine integrated within the Werf workflow that functions as an alternative to native Helm release tracking. It resolves Helm's tracking limitations by ensuring strict live cluster validation and resource health monitoring.
 #### Developer Experience
 
   - [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A retrospective engineering article summarizing lessons learned from building and deploying microservices on Kubernetes. It highlights the paradigm shift of treating infrastructure-as-code and configuration as vital parts of the software lifecycle.
@@ -135,10 +138,18 @@
 #### OpenShift Integration
 
   - [redhat.com: Red Hat OpenShift Certification extends support for Kubernetes-native' technologies with Helm 🌟](https://www.redhat.com/en/blog/red-hat-openshift-certification-extends-support-kubernetes-native-technologies-helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat blog announcing extended, first-class Helm integration in OpenShift. Discusses Console-level management of Helm charts, ensuring enterprise-compliant application lifecycles.
+  - [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat' OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat developer guide demonstrating automated Helm deployments through Jenkins on OpenShift 4. Covers pipeline definitions, credentials handling, and rollback automations.
   - [developers.redhat.com: Deploy Node.js applications to Red Hat OpenShift' with Helm](https://developers.redhat.com/articles/2021/07/20/deploy-nodejs-applications-red-hat-openshift-helm)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric walkthrough for wrapping Node.js applications into compliant Helm charts for OpenShift deployment, showing the end-to-end development-to-production lifecycle.
 #### Waypoint
 
   - **(2022)** [**learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps**](https://github.com/hashicorp/waypoint/tree/main/website/content/docs) <span class='md-tag md-tag--info'>⭐ 4730</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — HashiCorp walkthrough presenting continuous, declarative deployment of Helm-based apps using Waypoint pipelines, highlighting structural GitOps workflows.
+## Cloud-Native Development
+
+### Local Development Tools
+
+#### Okteto
+
+  - **(2021)** [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough displaying how to use Okteto to connect a developer workspace directly with live infrastructure, bypassing resource-heavy local systems.
 ## Edge Computing
 
 ### IoT and Smart Home
@@ -146,6 +157,13 @@
 #### Surveillance
 
   - **(2024)** [Frigate](https://frigate.readthedocs.io/en/latest) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly specialized NVR software focusing on local real-time object detection using AI accelerators. Its reference Helm and Kubernetes guides allow developers to scale home automation and security workloads on private clusters.
+## GitOps and Continuous Delivery
+
+### Progressive Delivery
+
+#### Theory
+
+  - **(2024)** [**harness.io: Progressive Delivery: Everything You Need to Know**](https://www.harness.io/blog) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A masterclass resource explaining the evolutionary shift from standard continuous delivery to progressive delivery. Explains integration of automated canary releases with advanced deployment patterns, metrics monitoring, and developer self-service.
 ## Infrastructure as Code
 
 ### Kubernetes Package Management
@@ -190,5 +208,5 @@
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official educational resources and certification preparation portal curated by Red Hat. Serves as a vital reference for mastering OpenShift and enterprise Linux engineering architectures.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Faq](./faq.md)
 

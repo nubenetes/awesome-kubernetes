@@ -5,6 +5,7 @@
 
 ## Standard Reference
 
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -65,11 +66,13 @@
   - [opensource.com: Distributed tracing in a microservices world](https://opensource.com/article/18/9/distributed-tracing-microservices-world)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: 3 open source distributed tracing tools](https://opensource.com/article/18/9/distributed-tracing-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Tracing: Why Logs Aren’t Enough to Debug Your Microservices' 🌟](https://thenewstack.io/tracing-why-logs-arent-enough-to-debug-your-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1696</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: OpenTelemetry Gaining Traction from Companies and Vendors](https://thenewstack.io/opentelemetry-gaining-traction-from-companies-and-vendors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How OpenTelemetry Works with Kubernetes](https://thenewstack.io/how-opentelemetry-works-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Jaeger vs. Zipkin: Battle of the Open Source Tracing Tools](https://thenewstack.io/jaeger-vs-zipkin-battle-of-the-open-source-tracing-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Grafana Tempo](https://github.com/grafana/tempo) <span class='md-tag md-tag--info'>⭐ 5276</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
   - [opensource.com: Get started with distributed tracing using Grafana Tempo](https://opensource.com/article/21/2/tempo-distributed-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [Azure App Service Auto-Heal: Capturing Relevant Data During Performance' Issues](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/antonarhipov/awesome-apm: Awesome APM](https://github.com/antonarhipov/awesome-apm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [datadoghq.com](https://www.datadoghq.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix#matrix_compatibility)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -98,15 +101,9 @@
   - [Checkly](https://www.checklyhq.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [network-king.net: IoT use in healthcare grows but has some pitfalls](https://network-king.net/iot-use-in-healthcare-grows-but-has-its-pitfalls)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87087</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
+  - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Observability and Performance
-
-### Performance Testing
-
-#### HTTP Benchmarking
-
-  - [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive introducing `pycurlb`, a fast performance tool wrapping libcurl for rapid HTTP request benchmarking in Python. Explores real-world performance results and technical comparisons.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

@@ -25,5 +25,5 @@
 
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
 

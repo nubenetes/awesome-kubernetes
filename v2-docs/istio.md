@@ -90,6 +90,11 @@
   - [Kibana](https://www.elastic.co/kibana) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The foundational visualization and management interface for the Elastic Stack. Enables operators to search, index, analyze, and construct real-time security dashboards and log analysis patterns for high-throughput microservice applications.
 ### Service Mesh (1)
 
+#### AWS Ecosystem
+
+##### App Mesh Managed Service
+
+  - [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official landing page for AWS App Mesh, a fully managed service mesh service designed to streamline microservice communications. Utilizes the Envoy proxy data plane to offer consistent visibility, routing controls, and mTLS security across Amazon ECS, EKS, and EC2.
 #### Architecture
 
 ##### Deep Dives
@@ -121,6 +126,12 @@
 
   - **(2022)** [**tetrate.io: Using Istio Service Mesh as API Gateway 🌟**](https://tetrate.io/blog/istio-service-mesh-api-gateway) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the technical viability and patterns for utilizing Istio's native Ingress Gateway as an API Gateway solution. Covers standard gateway requirements such as rate limiting, request transformation, CORS policy enforcement, and authentication delegation directly at the perimeter.
   - [learncloudnative.com: Attach multiple VirtualServices to Istio Gateway](https://learncloudnative.com/blog/2020-11-23-multiple-vs-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical configuration guide explaining how to attach multiple VirtualService definitions to a singular shared Istio Gateway resource. Demonstrates host-matching strategies and wildcard configurations to safely share ingress infrastructure across distinct namespaces and engineering teams.
+##### Learning Resources
+
+  - [redhat-scholars: istio-tutorial 🌟](https://github.com/redhat-scholars/istio-tutorial) <span class='md-tag md-tag--info'>⭐ 1207</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on, scenario-driven learning path designed by Red Hat to introduce developers to Istio's core operational capabilities. Covers basic deployment, routing rules, traffic splitting, dark launches, resilient patterns like circuit breaking, and advanced security configurations using Envoy proxies.
+##### Operations
+
+  - **(2021)** [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide detailing useful debugging utilities and CLI tools for validating and diagnosing Istio configuration sets. Explains how to leverage 'istioctl' diagnostics, debug configuration states, and inspect direct Envoy configuration mappings to maintain healthy cluster states.
 ##### Release Analysis
 
   - [thenewstack.io: Istio 1.10 Improves Scalability and Revision Control](https://thenewstack.io/istio-1-10-improves-scalability-and-revision-control)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Highlights the key technical improvements delivered in the Istio 1.10 release, with a strong focus on canary control plane upgrades, safer discovery mechanisms, and memory consumption optimizations. Shows how sidecar injection was streamlined to minimize workload disruption.
@@ -138,7 +149,7 @@
 ##### Source Code
 
   - [github.com: Maistra Istio](https://github.com/maistra/istio) <span class='md-tag md-tag--info'>⭐ 94</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official GitHub repository for Maistra's modified Istio control plane code. Optimized for multi-tenancy support, advanced security policies, and tight integration within OpenShift environments.
-#### Learning Resources
+#### Learning Resources (1)
 
 ##### Comprehensive Courses
 
@@ -174,7 +185,7 @@
 ##### Visualization
 
   - **(2025)** [==kiali.io==](https://kiali.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The home portal for Kiali, the de facto standard visual console for Istio service mesh topologies. It aggregates Prometheus metrics, Jaeger traces, and Istio configurations to display active traffic flows, circuit breakers, and network health anomalies.
-#### Operations
+#### Operations (1)
 
 ##### Lifecycle Management
 
@@ -209,8 +220,22 @@
 ##### Service Mesh (2)
 
   - [allthingsdistributed.com: Redefining application communications with AWS' App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)  <span class='md-tag md-tag--info'>[LEGACY]</span> — This foundational article by AWS CTO Werner Vogels outlines the initial design philosophy of AWS App Mesh. While historically valuable for understanding multi-tenant application boundaries across ECS and EKS, the service was officially deprecated in 2024. Teams are heavily advised to migrate to modern alternatives like VPC Lattice.
+### Azure
+
+#### AKS
+
+##### Hands-on Labs
+
+  - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microsoft's structured laboratory ecosystem designed to onboard engineers to Azure Kubernetes Service (AKS). The content delivers a reliable, production-aligned guide covering core infrastructure topics such as advanced networking, cluster security integration, and enterprise scaling mechanics.
 ## Networking (1)
 
+### Ingress
+
+#### Azure AGC
+
+##### Istio Integration
+
+  - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A modern engineering analysis detailing the integration of Azure Application Gateway for Containers (AGC) with an internal Istio service mesh topology. Focuses on seamless north-south traffic routing and end-to-end TLS bridging configurations inside Azure cloud architectures.
 ### Service Mesh (3)
 
 #### Istio (2)
@@ -232,5 +257,5 @@
   - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive tutorial explaining telemetry configuration for gRPC-based microservices on Amazon EKS running Istio. Offers practical configurations for capturing service-to-service call latency, tracing headers, and standard Envoy metrics at the pod boundary.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Web Servers](./web-servers.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

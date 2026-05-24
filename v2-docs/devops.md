@@ -26,7 +26,6 @@
   - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com](https://devops.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [devopscube.com](https://devopscube.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopszone.info](https://www.devopszone.info)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopsdigest.com](https://www.devopsdigest.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devopstips.net](https://devopstips.net)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -40,7 +39,6 @@
   - [fairwinds.com: Configuration Drift in Kubernetes - What Is It and Why it' Matters 🌟](https://www.fairwinds.com/blog/configuration-drift-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: The case for making the transition from sysadmin to DevOps' engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: How to transition into a career as a DevOps engineer](https://opensource.com/article/19/7/how-transition-career-devops-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [opensource.com: A beginner's guide to everything DevOps 🌟](https://opensource.com/article/20/2/devops-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -113,11 +111,9 @@
   - [itnext.io: DevOps Big Picture (On-Premises)](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dynatrace.com: 9 key DevOps metrics for success - What are the four main' DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19457</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
   - [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [techworld-with-nana.com: DevOps Roadmap 🌟](https://www.techworld-with-nana.com/devops-roadmap)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [The DevOps Bottleneck: Why IaC Orchestration is the Missing Piece](https://devops.com/the-devops-bottleneck-why-iac-orchestration-is-the-missing-piece)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [devops.com: The Rise of NetDevOps and CI/CD Pipeline Solutions](https://devops.com/the-rise-of-netdevops-and-ci-cd-pipeline-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -128,8 +124,8 @@
   - [blogs.sap.com: A Practical Guide to DevOps for SAP ERP](https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: DevOps - SonarQube, Artifactory, JFrog, Jenkins, Maven,' etc 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Docker 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [platformengineering.org](https://platformengineering.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [honeycomb.io: The Future of Ops Is Platform Engineering 🌟](https://www.honeycomb.io/blog/future-ops-platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -159,28 +155,7 @@
   - [Atlassian Compass](https://www.atlassian.com/software/compass)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/KusionStack/kusion](https://github.com/KusionStack/kusion) <span class='md-tag md-tag--info'>⭐ 1306</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Career Development
-
-### Interview Preparation
-
-#### Cloud Networking
-
-  - [learnsteps.com: DevOps Interview Questions: How will you design your cloud' VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight examines VPC design, public and private subnet mapping, and routing infrastructure. Live Grounding confirms that secure network isolation is the first defense line in cloud security architectures. This prepares candidates for high-level network design.
-## Enterprise Strategy
-
-### Container Adoption
-
-#### Best Practices
-
-  - [contino.io: How to Make Enterprise Container Strategies That Last (Part' One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Provides high-level strategic guidance for enterprise leaders looking to build sustainable containerization and orchestration architectures. Live Grounding: Covers people, process, and security paradigms, helping organizations align technological adoption with reliable cloud-native governance structures.
-## Security
-
-### DevSecOps
-
-#### Product Analysis
-
-  - [computing.co.uk: CloudBees gets busy with security, visibility and control' as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines updates to CloudBees' enterprise pipeline offerings, emphasizing the convergence of developer visibility and compliance control gates. Addresses challenges in executing secure enterprise DevOps workflows at scale.
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
 

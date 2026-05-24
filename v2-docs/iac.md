@@ -27,15 +27,11 @@
   - [spacelift.io: Terraform vs. Ansible : Key Differences and Comparison of' Tools](https://spacelift.io/blog/ansible-vs-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [env0.com: Ansible vs Terraform: Choose One or Use Both?](https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure' as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25228</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span>
-  - [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 68</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2637</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3794</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span>
-  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey' | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
 

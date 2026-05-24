@@ -10,5 +10,5 @@
 
 
 ---
-💡 **Explore Related:** [Digital Money](./digital-money.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Freelancing](./freelancing.md) | [Interview Questions](./interview-questions.md)
 

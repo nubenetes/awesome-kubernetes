@@ -27,6 +27,7 @@
   - [kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview' with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [developers.redhat.com: Persistent storage in action: Understanding Red Hat' OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) <span class='md-tag md-tag--info'>⭐ 1198</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -37,7 +38,6 @@
   - [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative](https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Rook](https://rook.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Reduxio](https://www.reduxio.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [OpenEBS](https://openebs.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -46,7 +46,6 @@
   - [Longhorn](https://longhorn.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage' Software to CNCF](https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [Kadalu](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 749</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iomesh.com](https://www.iomesh.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage' to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes](https://github.com/libopenstorage/stork) <span class='md-tag md-tag--info'>⭐ 401</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -56,11 +55,9 @@
   - [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) <span class='md-tag md-tag--info'>⭐ 639</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/yandex-cloud: CSI for S3](https://github.com/yandex-cloud/k8s-csi-s3) <span class='md-tag md-tag--info'>⭐ 855</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [kubestr.io](https://kubestr.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-  - [VolSync 🌟](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 973</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md)
 

@@ -5,22 +5,12 @@
 
 ## Agentic Engineering
 
-### AI Assistants
+### Agentic Frameworks
 
-#### Claude Code
+#### Skills Integration
 
-  - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 54376</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code.
-Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
-#### Developer Tools
-
-  - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Comprehensive educational course focused on maximizing efficiency within Cursor AI Editor.
-Live Grounding: Delivers strategic instruction on utilizing AI capabilities, codebase indexing, and multi-file edit workflows to accelerate modern software engineering. Explicitly marked as Spanish localized educational content. [SPANISH CONTENT]
-### Kubernetes AI Operators
-
-#### Observability Agents
-
-  - **(2024)** [**HolmesGPT (Robusta)**](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2480</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta.
-Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
+  - [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Google's official skills repository and toolkit for modular agentic development.
+Live Grounding: Delivers pre-integrated capabilities and action templates allowing Enterprise Gemini Agents to dynamically execute API operations, retrieve structured data, and handle multi-step workflows.
 ### Model Context Protocol
 
 #### Architecture
@@ -31,10 +21,6 @@ Live Grounding: Outlines an open, universal standard connecting AI agents to rea
 
   - [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Announcement of Microsoft Azure's MCP Server 2.0 release for agentic automation.
 Live Grounding: Provides stable, secure integrations allowing compliant AI models to deploy, manage, and query Azure cloud assets using the standardized Model Context Protocol.
-#### Curation
-
-  - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 87348</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol.
-Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 #### Directory
 
   - **(2024)** [MCPBundles](https://www.mcpbundles.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Visual directory cataloging compatible Model Context Protocol bundles.

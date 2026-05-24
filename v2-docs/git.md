@@ -157,6 +157,7 @@
 #### Documentation Engines
 
   - **(2020)** [github.blog: How we launched docs.github.com](https://github.blog/engineering/how-we-launched-docs-github-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth engineering case study describing GitHub's architectural migration of its developer documentation site to a modern, Markdown-driven, node.js platform. It details how the engineering team optimized rendering performance, designed internationalization frameworks, and maintained strict availability under massive traffic. This serves as a vital blueprint for any team building developer portal documentation platforms at hyper-scale.
+  - [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This practical guide breaks down the structure and utility of GitHub Wikis for software project documentation. It walks through syntax formatting, sidebar architecture, and collaborative editing patterns. While modern enterprise teams often prefer Docs-as-Code paradigms built with tools like MkDocs or Docusaurus, GitHub Wikis still serve as a quick, low-overhead option for repository-centric developer documentation.
 #### Enterprise Code Auditing
 
   - **(2022)** [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/2270808/github-introduces-code-review-controls.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — This InfoWorld article highlights GitHub's enhancement of its governance capabilities through advanced code review controls, ensuring compliance policies can be enforced programmatically. By restricting who can approve pull requests and ensuring checks pass, organizations can automate their security and governance criteria. For enterprises running in regulated environments, these platform constraints are critical to maintaining audit trails.
@@ -173,6 +174,9 @@
 #### Multi-Repository Management
 
   - **(2021)** [**blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos**](https://www.gruntwork.io/blog/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Gruntwork introduces git-xargs, a powerful open-source command-line tool designed to perform bulk edits across multiple GitHub repositories concurrently using scripts or CLI commands. It automates the tedious task of branching, committing, pushing, and opening pull requests across dozens of repositories. For platform engineering teams managing microservice fleets, this utility dramatically reduces the overhead of updating shared configurations.
+#### Open Source Education
+
+  - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official GitHub onboarding guide tailored for software engineers looking to initiate their contributions to Open Source Software (OSS) projects. It teaches how to fork repositories, configure branches, submit pull requests, and write structured issues. Understanding these fundamentals is crucial for developers seeking to participate in the global cloud-native ecosystem.
 #### Product Strategy
 
   - [GitHub public roadmap 🌟](https://github.com/github/roadmap) <span class='md-tag md-tag--info'>⭐ 8741</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official interactive roadmap repository for upcoming features across GitHub's product suite (Copilot, Actions, Projects, Security). This public portal allows product managers and platform architects to anticipate feature deliveries and align internal DevOps transformations with upstream capabilities. In 2026, it remains a model of public transparency in platform software engineering.
@@ -269,6 +273,11 @@
 #### Runner Infrastructure
 
   - [github.blog: GitHub Actions: Ephemeral self-hosted runners & new webhooks' for auto-scaling](https://github.blog/changelog/2021-09-20-github-actions-ephemeral-self-hosted-runners-new-webhooks-for-auto-scaling) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product release introducing ephemeral self-hosted runners and targeted autoscale webhooks, allowing platform teams to build dynamic, secure single-use runner environments.
+### Cloud Security
+
+#### Identity Federation
+
+  - [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth configuration guide explaining how to design passwordless integrations between GitHub Actions and Microsoft Azure using OpenID Connect (OIDC). Eliminates long-lived static API secrets in favor of short-lived federated credentials.
 ### DevSecOps
 
 #### Artifact Signing
@@ -301,9 +310,6 @@
 #### Merge Automation
 
   - [julien.danjou.info: Stop merging your pull requests manually 🌟](https://julien.danjou.info/stop-merging-your-pull-request-manually)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Advocates for using automated merge engines to manage pull requests instead of manually executing git merges. The author explains how programmatic merge validation queues eliminate regression bugs, enforce testing standards, and lower overall operational overhead.
-#### Policy Enforcement
-
-  - [datree.io](https://www.datree.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source CLI-driven tool that scans Kubernetes manifests and Helm charts to verify compliance with operational guidelines and security benchmarks. Grounding shows how Datree can be executed within pre-commit hooks or CI/CD pipelines to prevent infrastructure misconfigurations.
 ### Version Control and Git
 
 #### Advanced Techniques
@@ -439,9 +445,6 @@
 #### GitHub Features
 
   - [github.blog: Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the introduction of public beta list-making capabilities for categorized repository tracking. Solves star organization challenges, allowing developers to cleanly build domain-specific learning tracks directly on their profiles.
-#### Shell Tools
-
-  - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A shell-based script interface to generate programmatic git commits and simulate active GitHub profile contributions. Flagged as legacy under Minimum Viable Quality (MVQ) rules due to long-term inactivity.
 ### Developer Tooling
 
 #### Visual Metadata Badges
@@ -496,6 +499,7 @@
   - [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly-structured tutorial by Atlassian comparing Gitflow against alternative branching strategies. It offers clear operational blueprints and command examples, evaluating how the model coordinates scheduled release cycles while warning of its constraints in high-velocity CI/CD environments.
   - [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical UI-centric guide demonstrating GitFlow execution inside the GitKraken desktop client. It simplifies branch creation, merging, and visual release management, offering a low-friction approach for teams bound to multi-branch deployment workflows.
   - [gist.github.com/JamesMGreene: A comparison of using `git flow` commands' versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed side-by-side CLI command comparison showing the underlying raw Git operations performed by the automated `git flow` wrapper tool. Crucial for developers needing to troubleshoot or replicate GitFlow states without installing additional dependencies.
+  - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly interactive and multilingual cheat sheet illustrating the lifecycle of branches in Vincent Driessen's GitFlow model. This reference acts as an indispensable, quick-lookup guide for understanding CLI commands for features, releases, and hotfixes.
   - [thinkinglabs.io: Feature Branching considered Evil](https://thinkinglabs.io/talks/2016/10/29/feature-branching-considered-evil.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critical analysis examining the negative impact of long-lived feature branches on continuous integration. It argues that delayed integration degrades feedback loops and promotes isolation, advocating for Trunk-Based practices to establish real collective ownership.
   - [youtube: Git Flow Is A Bad Idea - Dave Farley](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-impact video by continuous delivery expert Dave Farley arguing why Git Flow acts as an anti-pattern for modern software delivery. He contrasts multi-branch isolation with the rapid feedback, safety, and velocity realized via strict trunk-based architectures.
   - [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A migration-focused technical post mapping the practical steps and culture shift required to move an engineering team from a GitFlow framework to Trunk-Based Development. It highlights pipeline adaptations, test automation needs, and mindset changes.
@@ -572,6 +576,7 @@
   - [freecodecamp.org: Undo Git Add – How to Remove Added Files in Git 🌟](https://www.freecodecamp.org/news/undo-git-add-how-to-remove-added-files-in-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the commands required to safely unstage files from the Git index without altering working directory contents. Highlights nuances between 'git reset HEAD', 'git restore --staged', and other historical command forms.
   - [build5nines.com: Git: Reset / Undo Most Recent Local Commit](https://build5nines.com/git-reset-undo-most-recent-local-commit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step documentation focusing on reversing the latest committed changes locally. Evaluates command scenarios utilizing the 'HEAD~1' targeting operator under different staging and working directory preservation options.
   - [Removing the last commit](https://gist.github.com/CrookedNumber/8964442)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical community GitHub Gist outlining multiple strategies to revert, reset, or remove the latest commit in a Git repository. Illustrates the critical differences between `git reset --soft` and `git reset --hard` for local and remote recovery.
+  - [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive and beautifully formatted PDF and web-based Git command reference guide from Atlassian. Covers essential command categories including repository creation, local staging, history review, branch management, and remote synchronization.
 #### Git Productivity
 
   - [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highlights ten advanced terminal commands and aliases to streamline git workflows, including stash parsing, custom log formatting, and interactive rebasing. These tips target active development patterns to minimize command-line friction and maximize change velocity.
@@ -648,5 +653,5 @@
   - [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers concrete workflows for isolating and moving accidental master/main modifications into a cleanly isolated feature branch. Demonstrates terminal patterns using checkout/switch commands while safeguarding index status.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Customer](./customer.md) | [Devops Tools](./devops-tools.md)
+💡 **Explore Related:** [Mkdocs](./mkdocs.md) | [Linux](./linux.md) | [Helm](./helm.md)
 

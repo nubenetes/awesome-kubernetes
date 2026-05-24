@@ -9,5 +9,5 @@
 
 
 ---
-💡 **Explore Related:** [Oauth](./oauth.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
 

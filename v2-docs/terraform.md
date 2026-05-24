@@ -6,6 +6,7 @@
 ## Standard Reference
 
   - [computingforgeeks.com: Build AWS EC2 Machine Images (AMI) With Packer and' Ansible](https://computingforgeeks.com/build-aws-ec2-machine-images-with-packer-and-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com](https://build5nines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [nedinthecloud.com](https://nedinthecloud.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [roadmap.sh/terraform](https://roadmap.sh/terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -56,6 +57,7 @@
   - [blog.ogenki.io: Applying GitOps Principles to Infrastructure: An overview' of tf-controller](https://blog.ogenki.io/post/terraform-controller)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [overmind.tech: Is Observability relevant for Terraform?](https://overmind.tech/blog/is-observability-relevant-for-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [thenewstack.io: Automating Retry for Failed Terraform Launches](https://thenewstack.io/automating-retry-for-failed-terraform-launches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: Terraform Workflow Process Explained](https://build5nines.com/terraform-workflow-process-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: Terraform: How to Join and Split Strings](https://build5nines.com/terraform-how-to-join-and-split-strings)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [build5nines.com: Terraform: Deploy Azure ExpressRoute Circuit with VNet' Gateway](https://build5nines.com/terraform-deploy-azure-expressroute-circuit-with-vnet-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -173,6 +175,8 @@
   - [dev.to/aws-builders: Navigating AWS EKS with Terraform: Understanding VPC' Essentials for EKS Cluster Management](https://dev.to/aws-builders/navigating-aws-eks-with-terraform-understanding-vpc-essentials-for-eks-cluster-management-51e3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to/verifacrew: How to assume an AWS IAM role from a Service Account' in EKS with Terraform](https://dev.to/verifacrew/how-to-assume-an-aws-iam-role-from-a-service-account-in-eks-with-terraform-28gd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [awscc](https://registry.terraform.io/providers/hashicorp/awscc/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [aws.amazon.com: New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [AWS Control Tower](https://aws.amazon.com/controltower)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [porscheofficial/terraform-aws-ecr-watch](https://github.com/porscheofficial/terraform-aws-ecr-watch) <span class='md-tag md-tag--info'>⭐ 70</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [serverless.tf: Doing serverless with Terraform](https://serverless.tf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [registry.terraform.io: Terraform Azure Resources 🌟](https://registry.terraform.io/modules/azurerm/resources/azure/latest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -207,6 +211,7 @@
   - [github.com/microsoft/terraform-provider-azuredevops/releases/tag/v1.0.0](https://github.com/microsoft/terraform-provider-azuredevops/releases/tag/v1.0.0) <span class='md-tag md-tag--info'>⭐ 427</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Azure/terraform-azurerm-aks](https://github.com/Azure/terraform-azurerm-aks) <span class='md-tag md-tag--info'>⭐ 388</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes' Cluster in Azure](https://itnext.io/how-we-used-terraform-to-create-and-manage-a-ha-aks-kubernetes-cluster-in-azure-812f64896c08)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+  - [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/amitmavgupta/azure-terraform](https://github.com/amitmavgupta/azure-terraform) <span class='md-tag md-tag--info'>⭐ 29</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [github.com/Azure-Samples/aks-platform-engineering Building a Platform Engineering Environment on Azure Kubernetes Service (AKS) 🌟](https://github.com/Azure-Samples/aks-platform-engineering) <span class='md-tag md-tag--info'>⭐ 155</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [dev.to: Deploy Kubernetes Resources in Minikube cluster using Terraform](https://dev.to/chefgs/deploy-kubernetes-resources-in-minikube-cluster-using-terraform-1p8o)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
@@ -262,5 +267,5 @@
 
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Oauth](./oauth.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Crossplane](./crossplane.md) | [Liquibase](./liquibase.md) | [Kubernetes Security](./kubernetes-security.md)
 

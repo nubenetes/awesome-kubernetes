@@ -68,14 +68,7 @@
   - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## Engineering Leadership and Career Dynamics
-
-### Organizational Design and Leadership Systems
-
-#### Engineering Culture
-
-  - **(2021)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a self-diagnostic framework composed of ten strategic evaluation questions designed to gauge leadership efficacy and maturity. Promotes reflective coaching and output-driven organizational alignment. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Sre](./sre.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Sre](./sre.md)
 

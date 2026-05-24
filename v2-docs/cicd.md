@@ -3,20 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Cicd in the context of Engineering Pipeline.
 
-## Standard Reference
-
-  - [weave.works: Weave Kubernetes Platform](https://www.weave.works/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Cloud-Native Infrastructure
 
+### Infrastructure as Code
+
+#### AI-Assisted Operations
+
+  - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight: Analyzes the application of LLM co-pilots in rapidly writing secure ARM and Bicep configurations. Live Grounding: Demonstrates how contextual AI generators drastically lower human-error risk in pipeline IaC templates. Highly representative of modern 2025/2026 operational shifts.
 ### Kubernetes Delivery
 
 #### Engine Evaluation
 
   - [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Evaluates the modern, Kubernetes-native shift in build pipelines (Tekton, Argo, Jenkins X). Live Grounding: Outlines how cloud-native orchestration removes VM runner overheads via isolated pod execution. Essential reading for selecting modern Kubernetes build architectures.
-#### Enterprise Orchestration
-
-  - [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes' Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: Explains the integration of legacy build architectures with cloud-native Kubernetes deployments. Live Grounding: Focuses on managing microservice dependencies, service meshes, and GitOps workflows in multi-cluster systems. Essential for platform transition projects.
 #### Implementation Guides
 
   - [spacelift.io: Kubernetes CI/CD Pipelines – 7 Best Practices and Tools' | James Walker 🌟](https://spacelift.io/blog/kubernetes-ci-cd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Practical guide mapping pipeline design patterns specifically for deployment into Kubernetes. Live Grounding: Outlines declarative configuration, helm packaging, namespace scoping, and secret management patterns. Essential for platform developers implementing resilient Kubernetes pipelines.
@@ -51,7 +49,6 @@
 
 #### Theory
 
-  - **(2024)** [**harness.io: Progressive Delivery: Everything You Need to Know**](https://www.harness.io/blog) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A masterclass resource explaining the evolutionary shift from standard continuous delivery to progressive delivery. Explains integration of automated canary releases with advanced deployment patterns, metrics monitoring, and developer self-service.
   - **(2024)** [**split.io: Progressive Delivery**](https://www.harness.io/harness-devops-academy/progressive-delivery?utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=individual) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive guide hosted by Harness (following Split.io's integration) that breaks down the mechanics of Progressive Delivery, combining canary deployments, feature flags, and automated rollbacks. Outlines how to mitigate blast radius and leverage real-time observability.
 ## Infrastructure
 
@@ -95,14 +92,23 @@
 #### Enterprise Tooling
 
   - [JFrog Pipelines](https://jfrog.com/pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An enterprise-grade CI/CD automation tool natively integrated into the JFrog Platform. It leverages declarative YAML schemas, step-based workflows, and reusable resource models to orchestrate robust binary-centric pipelines with native support for Artifactory.
-#### Infrastructure as Code
+#### Infrastructure as Code (1)
 
+##### Azure DevOps
+
+  - [Azure DevOps Terraform Pipeline (Complete Guide + YAML Examples)](https://deniscooper.co.uk/azure-devops-terraform-pipeline) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A production-grade, step-by-step tutorial on building a fully secure and automated Terraform deployment pipeline within Azure DevOps. Provides robust, reusable YAML template definitions, including state locking configurations, plan validations, and multi-environment promotions.
+  - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides a complete implementation walkthrough for embedding robust automated test suites (including tftest and checkov) inside Azure DevOps pipelines. Demonstrates how to validate infrastructure compliance and dry-run infrastructure updates early in the pipeline.
 ##### GitHub Actions
 
   - [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 221</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized GitHub Action designed to automate the release process, version tagging, and registry publication of Terraform modules. Resolves development overhead by automatically generating release logs and enforcing Semantic Versioning.
 #### Jenkins
 
   - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide)  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly practical, pragmatic guide from a core Jenkins maintainer outlining safe upgrade strategies for Jenkins controllers and its complex plugin ecosystem. Reduces administrative friction by emphasizing snapshot backups, compatibility matrices, and staged canary verification.
+#### Language Runtimes
+
+##### Azure DevOps (1)
+
+  - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical guide written in Spanish demonstrating how to dynamically configure, install, and leverage the Java 23 SDK runtime inside Azure DevOps build pipelines, using modern Microsoft-hosted and self-hosted runner strategies. [SPANISH CONTENT]
 #### Legacy Tooling
 
   - [Buildbot](https://buildbot.net) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, highly customizable Python-based continuous integration framework. While largely replaced in modern microservice deployments by container-native engines, it remains a powerful workhorse for complex, multi-platform compiled build environments.
@@ -111,6 +117,13 @@
   - **(2023)** [**harness.io: Pipeline Patterns for CI/CD Pipelines 🌟**](https://www.harness.io/blog/deployment-pipeline-patterns) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated collection of proven architectural patterns for structuring CI/CD pipelines at scale. Analyzes standard strategies for separating build and release triggers, parallel execution trees, templated pipeline-as-code inheritance, and automated gate governance.
 ### CI-CD Security
 
+#### Azure DevOps (2)
+
+  - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation outlines the network security updates for Azure DevOps, focusing on the transitioning IP address ranges and service tags. Crucial for security engineers managing firewalls and strict ingress/egress rules to maintain uninterrupted pipeline connectivity.
+  - [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide explaining the installation and automated orchestration of Dependabot-style dependency scanning and automated PR version updates within Azure DevOps repositories. Written in Spanish. [SPANISH CONTENT]
+#### Cloud Identity
+
+  - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An in-depth security analysis detailing how to configure AWS OpenID Connect (OIDC) trust relationships correctly in GitHub Actions and other CI providers. Highlights major vulnerabilities arising from missing subject (sub) or audience (aud) validation and shows how to restrict access patterns safely.
 #### Hardening
 
   - [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines foundational security rules for continuous integration and delivery pipelines, addressing secret management, environment isolation, source code integrity, and third-party dependency scanning. Serves as a high-level checklist for establishing a secure DevSecOps culture.
@@ -139,7 +152,7 @@
   - [thenewstack.io: Improve Dev Experience to Maximize the Business Value of' CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Direct correlation of continuous delivery maturity with developer cognitive load and retention. Live Grounding: Explores the internal developer platform (IDP) model, emphasizing self-service portal deployment mechanisms. Highlights how lowering tool friction yields faster market delivery.
 ### FinOps
 
-#### Infrastructure as Code (1)
+#### Infrastructure as Code (2)
 
   - **(2024)** [**InfraCost + Terraform PRs: Making Cost Awareness Effortless**](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highlights how integrating Infracost into Terraform pull request workflows drives continuous cost awareness and optimization directly at the developer level. Prevents budget shocks by showing real-time, side-by-side cost differentials before code is merged.
 ### FinOps and Efficiency
@@ -147,13 +160,14 @@
 #### Pipeline Cost Control
 
   - **(2022)** [harness.io: Streamlining CI/CD and Optimizing AWS Cloud Spend](https://www.harness.io/blog/streamlining-ci-cd) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Analyzes how automated delivery platforms can lower infrastructure footprints during CI/CD execution. Live Grounding: Details techniques like spot instance integration, automatic test-environment teardown, and resource tagging. Highly relevant for modern cloud cost-efficiency strategies.
-### Infrastructure as Code (2)
+### Infrastructure as Code (3)
 
 #### GitHub Actions Runners
 
 ##### AWS (1)
 
   - [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A robust, production-tested Terraform component for deploying and autoscaling self-hosted GitHub Actions runners inside AWS. Integrates with AWS ECS, EKS, or EC2 to provide secure, ephemeral, and cost-effective pipeline execution environments.
+  - [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A commercial-grade, highly efficient solution for hosting ephemeral, auto-scaled GitHub Actions runners directly on your AWS account. Delivers a significant reduction in GitHub Actions spend (up to 10x) using cheap EC2 spot instances, fast cache persistence, and seamless setup.
 ### Kubernetes Management
 
 #### PaaS Solutions
@@ -249,7 +263,7 @@
 #### Resilient Release Strategies
 
   - [aws.amazon.com: Automating safe, hands-off deployments 🌟🌟](https://aws.amazon.com/es/builders-library/automating-safe-hands-off-deployments) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Internal engineering insights from Amazon's sophisticated deployment engines (Pipelines/Apollo). Live Grounding: Explores fractional rollouts, automated rollback alarms, and regional blast-radius mitigation. Serves as an essential architectural design guide for mission-critical cloud-scale delivery. [SPANISH CONTENT]
-### Enterprise Orchestration (1)
+### Enterprise Orchestration
 
 #### Platform Evaluation
 
@@ -272,5 +286,5 @@
   - [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An updated architectural deep-dive into the Twelve-Factor App methodology. Reviews the classic software principles (like database separations, environment configs, and scaling processes) in modern Kubernetes environments.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Argo](./argo.md) | [Cicd Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Registries](./registries.md) | [Argo](./argo.md) | [Sonarqube](./sonarqube.md)
 
