@@ -282213,8 +282213,16 @@ https://www.youtube.com/embed/9vM4p9NN0Ts:
   video_order: 26
   year: N/A
 https://www.youtube.com/embed/QBqRAMVTmwE:
-  ai_summary: |
-    Azure Verified Modules (AVM) is the official Microsoft infrastructure-as-code module library for both Bicep and Terraform. This session explores how AVM standardizes deployments according to the Azure Well-Architected Framework by default, shipping with high-impact security defaults like zone redundancy and disabled public IPs. It introduces Spec-Driven Development with GitHub Copilot using the "Spec Kit" (an 8-step framework from constitution to implementation). By turning non-deterministic AI prompts into reliable, repeatable builds, architects can leverage AI as a trusted foundation for secure and compliant Azure workload orchestration.
+  ai_summary: 'Azure Verified Modules (AVM) is the official Microsoft infrastructure-as-code
+    module library for both Bicep and Terraform. This session explores how AVM standardizes
+    deployments according to the Azure Well-Architected Framework by default, shipping
+    with high-impact security defaults like zone redundancy and disabled public IPs.
+    It introduces Spec-Driven Development with GitHub Copilot using the "Spec Kit"
+    (an 8-step framework from constitution to implementation). By turning non-deterministic
+    AI prompts into reliable, repeatable builds, architects can leverage AI as a trusted
+    foundation for secure and compliant Azure workload orchestration.
+
+    '
   category: Architecture and Cloud Strategy
   description: Featured video in the Top Videos & Clips section.
   health_score: 100.0
@@ -282224,13 +282232,16 @@ https://www.youtube.com/embed/QBqRAMVTmwE:
   stars: 0
   status: online
   technology: Azure Verified Modules (AVM)
-  title: Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot
+  title: Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules
+    and GitHub Copilot
   v1_locations: []
   video_order: 27
   year: N/A
 https://www.youtube.com/@ITOpsTalk:
-  content_hash: ""
-  description: IT Pro & Operations content from Microsoft's Azure Infrastructure Advocacy team. Video series, screencast demos, exam prep, product team interviews, shows and more.
+  content_hash: ''
+  description: IT Pro & Operations content from Microsoft's Azure Infrastructure Advocacy
+    team. Video series, screencast demos, exam prep, product team interviews, shows
+    and more.
   health_score: 100.0
   last_checked: 0.0
   status: online
@@ -282240,8 +282251,9 @@ https://www.youtube.com/@ITOpsTalk:
   v2_locations:
   - index.md
 https://www.youtube.com/@googlecloudtech:
-  content_hash: ""
-  description: Official channel for Google Cloud. It features technical tutorials, product updates, and insights into AI, data analytics, infrastructure, and security.
+  content_hash: ''
+  description: Official channel for Google Cloud. It features technical tutorials,
+    product updates, and insights into AI, data analytics, infrastructure, and security.
   health_score: 100.0
   last_checked: 0.0
   status: online
