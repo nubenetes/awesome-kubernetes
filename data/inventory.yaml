@@ -282213,8 +282213,18 @@ https://www.youtube.com/embed/9vM4p9NN0Ts:
   video_order: 26
   year: N/A
 https://www.youtube.com/embed/QBqRAMVTmwE:
-  ai_summary: |
-    This technical session introduces Azure Verified Modules (AVM), the official Microsoft library for Bicep and Terraform, designed to standardize infrastructure-as-code (IaC) according to the Azure Well-Architected Framework. It explores how AVM provides a supported, resilient foundation with security-first defaults (e.g., zone redundancy, disabled public IPs) to solve fragmentation in open-source module ecosystems. The session highlights a critical architectural shift: Spec-Driven Development with GitHub Copilot. By utilizing the "Spec Kit" (an 8-step structured orchestration framework), architects can transform non-deterministic AI prompts into reliable, repeatable, and compliant multi-cloud builds, ensuring human-in-the-loop governance for AI-assisted infrastructure operations.
+  ai_summary: 'This technical session introduces Azure Verified Modules (AVM), the
+    official Microsoft library for Bicep and Terraform, designed to standardize infrastructure-as-code
+    (IaC) according to the Azure Well-Architected Framework. It explores how AVM provides
+    a supported, resilient foundation with security-first defaults (e.g., zone redundancy,
+    disabled public IPs) to solve fragmentation in open-source module ecosystems.
+    The session highlights a critical architectural shift: Spec-Driven Development
+    with GitHub Copilot. By utilizing the "Spec Kit" (an 8-step structured orchestration
+    framework), architects can transform non-deterministic AI prompts into reliable,
+    repeatable, and compliant multi-cloud builds, ensuring human-in-the-loop governance
+    for AI-assisted infrastructure operations.
+
+    '
   category: Architecture and Cloud Strategy
   description: Featured video in the Top Videos & Clips section.
   health_score: 100.0
@@ -282224,13 +282234,16 @@ https://www.youtube.com/embed/QBqRAMVTmwE:
   stars: 0
   status: online
   technology: Azure Verified Modules (AVM)
-  title: Building Secure, Well-Architected Azure Workloads with Azure Verified Modules and GitHub Copilot
+  title: Building Secure, Well-Architected Azure Workloads with Azure Verified Modules
+    and GitHub Copilot
   v1_locations: []
   video_order: 27
   year: N/A
 https://www.youtube.com/@ITOpsTalk:
-  content_hash: ""
-  description: IT Pro & Operations content from Microsoft's Azure Infrastructure Advocacy team. Video series, screencast demos, exam prep, product team interviews, shows and more.
+  content_hash: ''
+  description: IT Pro & Operations content from Microsoft's Azure Infrastructure Advocacy
+    team. Video series, screencast demos, exam prep, product team interviews, shows
+    and more.
   health_score: 100.0
   last_checked: 0.0
   status: online
@@ -282240,8 +282253,9 @@ https://www.youtube.com/@ITOpsTalk:
   v2_locations:
   - index.md
 https://www.youtube.com/@googlecloudtech:
-  content_hash: ""
-  description: Official channel for Google Cloud. It features technical tutorials, product updates, and insights into AI, data analytics, infrastructure, and security.
+  content_hash: ''
+  description: Official channel for Google Cloud. It features technical tutorials,
+    product updates, and insights into AI, data analytics, infrastructure, and security.
   health_score: 100.0
   last_checked: 0.0
   status: online

@@ -233,13 +233,13 @@ Welcome to the **Agentic Video Hub**. This section presents a logical, architect
 
     </center>
 
-??? note "🎬 What is Architecture? | `Architecture Theory`"
+??? note "🎬 Building Secure, Well-Architected Azure Workloads with Azure Verified Modules and GitHub Copilot | `Azure Verified Modules (AVM)`"
     !!! info "Architectural Summary"
-        This conceptual deep-dive by Stewart Hicks explores the fundamental definition of architecture, framing it as the design of inhabitable space rather than mere form. It deconstructs the interaction between geometry, human experience, and social context. For a 2026 Cloud Architect, these principles are highly analogous to system design: where the "form" (containers, nodes) is secondary to the "space" (the functional void) where data flows and business logic resides. Understanding these first-principles of design aids in building more intuitive, human-centric, and socio-technically resilient digital platforms.
+        This technical session introduces Azure Verified Modules (AVM), the official Microsoft library for Bicep and Terraform, designed to standardize infrastructure-as-code (IaC) according to the Azure Well-Architected Framework. It explores how AVM provides a supported, resilient foundation with security-first defaults (e.g., zone redundancy, disabled public IPs) to solve fragmentation in open-source module ecosystems. The session highlights a critical architectural shift: Spec-Driven Development with GitHub Copilot. By utilizing the "Spec Kit" (an 8-step structured orchestration framework), architects can transform non-deterministic AI prompts into reliable, repeatable, and compliant multi-cloud builds, ensuring human-in-the-loop governance for AI-assisted infrastructure operations.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="What is Architecture?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="Building Secure, Well-Architected Azure Workloads with Azure Verified Modules and GitHub Copilot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
