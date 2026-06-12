@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.4.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.4.0) - 2026-06-12
+
+### Changed
+- **SEO-Friendly URL Structure**: Reverted the entire ecosystem to use clean directory URLs (e.g., `/demos/` instead of `/demos.html`) by enabling `use_directory_urls: true` in both V1 and V2 configurations.
+- **Mandatory Path Standard**: Updated `GEMINI.md` mandates to establish root-relative paths (e.g., `/images/`) as the standard for manual HTML assets to prevent breakage across directory levels.
+- **V2 Optimization Automation**: Updated `src/v2_optimizer.py` to ensure all future automated regenerations of the V2 Elite Portal follow the clean URL and absolute path standard.
+
+### Fixed
+- **V2 Index Navigation**: Corrected all manual HTML navigation badges in the V2 index to use clean directory paths, resolving 404 errors during the SEO transition.
+
 ## [[2.3.44]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.3.44) - 2026-06-10
 
 ### Added
