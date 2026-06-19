@@ -113,7 +113,7 @@ def save_inventory(inv: Dict, shard_file: str = None):
         addition_method TEXT,
         content_hash TEXT,
         health_score REAL,
-        last_checked REAL,
+        last_checked INTEGER,
         needs_ai_refresh BOOLEAN,
         discovered_at TEXT,
         last_ai_eval TEXT,
@@ -139,7 +139,16 @@ def save_inventory(inv: Dict, shard_file: str = None):
     for url, entry in inv.items():
         if not isinstance(entry, dict):
             continue
-            
+
+        # last_checked is a coarse staleness timestamp (epoch seconds). Normalize
+        # it to int on the entry itself — before building the SQL record AND the
+        # YAML dump below — so both serializations agree, and SQLite's
+        # version-specific REAL->text float formatting can't rewrite every row on
+        # dump. Sub-second precision is not used by any reader.
+        lc = entry.get("last_checked")
+        if isinstance(lc, float):
+            entry["last_checked"] = int(lc)
+
         record = {col: entry.get(col) for col in columns if col not in ["hierarchy", "tags", "v1_locations", "v2_locations", "youtube_mosaic", "extra_metadata"]}
         record["url"] = url
         
@@ -160,7 +169,7 @@ def save_inventory(inv: Dict, shard_file: str = None):
         # Conversions
         record["is_microservice"] = 1 if record.get("is_microservice") else 0
         record["needs_ai_refresh"] = 1 if record.get("needs_ai_refresh") else 0
-        
+
         placeholders = ", ".join(["?"] * len(columns))
         values = [record[col] for col in columns]
         cursor.execute(f"INSERT OR REPLACE INTO resources ({', '.join(columns)}) VALUES ({placeholders})", values)
