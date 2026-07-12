@@ -14,10 +14,10 @@
 - [Partitioning MySQL on RDS: "How We Partitioned Airbnb’s Main Database in Two Weeks"](https://medium.com/airbnb-engineering/how-we-partitioned-airbnb-s-main-database-in-two-weeks-55f7e006ff21)
 - [Amazon RDS for SQL Server – Support for Windows Authentication](https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication)
 - [Why Support of PostgreSQL 9.5 by Amazon RDS is Such Great News](https://blog.rubyroidlabs.com/2016/04/postgresql-9-5)
-- [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://docs.aws.amazon.com/hands-on/latest/create-mysql-db/create-mysql-db.html)
+- [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html)
 - [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers.
 - [Working with an Amazon RDS DB Instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
-- [Creating a DB Instance Running the Oracle Database Engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
+- [Creating a DB Instance Running the Oracle Database Engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment)
 - [besanttechnologies.com: AWS – Relational Database Service](https://www.besanttechnologies.com/amazon-web-services-relational-database)
 - [Introducing the Aurora Storage Engine](https://aws.amazon.com/blogs/database/introducing-the-aurora-storage-engine)
@@ -33,7 +33,7 @@
 - [Securely connect to an Amazon RDS or Amazon EC2 database instance remotely with your preferred GUI](https://aws.amazon.com/blogs/database/securely-connect-to-an-amazon-rds-or-amazon-ec2-database-instance-remotely-with-your-preferred-gui)
 - [Modernize database stored procedures to use Amazon Aurora PostgreSQL federated queries, pg_cron, and AWS Lambda](https://aws.amazon.com/blogs/database/modernize-database-stored-procedures-to-use-amazon-aurora-postgresql-federated-queries-pg_cron-and-aws-lambda)
 - [Let’s Architect! Architecting with Amazon DynamoDB](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-with-amazon-dynamodb)
-- [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889)
+- [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889?gi=18c5f24a06ae)
 - [thenewstack.io: Diving into AWS Databases: Amazon RDS and DynamoDB Explained](https://thenewstack.io/diving-into-aws-databases-amazon-rds-and-dynamodb-explained) A look at the differences between these popular options, and between relational and nonrelational databases.
 
 ## AWS Database Migration Service DMS
@@ -52,17 +52,17 @@
 
 ## AWS Schema Conversion Tool
 
-- [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](https://cloudacademy.com/blog/migrating-data-to-aws)
+- [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](https://platform.qa.com/login)
 - [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](https://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support)
-- [Creating an AWS Schema Conversion Tool Project](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool.
+- [Creating an AWS Schema Conversion Tool Project](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide) Use SSL to connect to your source DB with the AWS Schema Conversion Tool.
 - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization)
 
 ## AWS Redshift
 
-- [Tutorial: Tuning Table Design](https://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) you will learn how to optimize the design of your tables.
+- [Tutorial: Tuning Table Design](https://docs.aws.amazon.com/redshift/latest/dg/tutorials-redshift.html) you will learn how to optimize the design of your tables.
 
 ## AWS Data Mesh and Batch Data Processing
-  - **(2026)** [Data Projects: Managing Data Assets at Netflix Scale](https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4) 🌟 - An introduction to Data Projects, an abstraction designed to manage access governance, identity, and assets collectively at scale.
+  - **(2026)** [Data Projects: Managing Data Assets at Netflix Scale](https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?gi=0790a4dd71d3&source=rss----2615bd06b42e---4) 🌟 - An introduction to Data Projects, an abstraction designed to manage access governance, identity, and assets collectively at scale.
 
 ## AWS NoSQL DynamoDB
 
