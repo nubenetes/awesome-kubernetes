@@ -46,7 +46,7 @@
 - [medium: Scrum Teams That Don’t Verify Their Outcomes Are Basically Waterfall Teams](https://medium.com/serious-scrum/scrum-teams-that-dont-verify-their-outcomes-are-basically-waterfall-teams-cb208acdcc61)
 - [codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟](https://octopus.com/devops)
 - [medium: Nine Steps to Successfully Start Your New Product Owner Job](https://medium.com/serious-scrum/nine-steps-to-successfully-start-your-new-product-owner-job-b276c85e3dde) What you should do when starting a new journey as a Product Owner
-- [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-development)
+- [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/newsroom/cloudbees-unify-ai-powered-devops-solution)
 - [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)
 - [infoq.com: Driving DevOps with Value Stream Management](https://www.infoq.com/articles/DevOps-value-stream)
 - [creately.com: How to Better Manage Your Projects with Kanban Boards](https://creately.com/blog/project-management/what-is-a-kanban-board)
@@ -92,7 +92,7 @@
 - [rebelscrum.site: Characteristics of a Great Product Owner](https://www.rebelscrum.site/post/characteristics-of-a-great-product-owner)
 - [devops.com: Breaking Down Silos: Applying Open Source Practices in the Workplace](https://devops.com/breaking-down-silos-applying-open-source-practices-in-the-workplace)
 - [devops.com: How Good Developers Become Good Engineering Managers](https://devops.com/how-good-developers-become-good-engineering-managers)
-- [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9)
+- [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9?gi=ee89778c6f98)
 - [techrepublic.com: What is Lean Software Development?](https://www.techrepublic.com/article/lean-development)
 - [medium.com/@ElizAyer: Meetings *are* the work](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)
 - [newsletter.pragmaticengineer.com: Engineering Leadership Skill Set Overlaps](https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps) How Staff Engineer, Engineering Manager (EM), Product Manager (PM), Tech Lead Manager (TLM) and Technical Program Manager (TPM) positions overlap in Big Tech and at high-growth startups. **If you are an individual contributor engineer, you really need to print this out and hang it somewhere**
@@ -108,7 +108,7 @@
 - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
 - [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://analoghq.ai/blog/es/tipos-de-consultoria) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
 - [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com)
-- [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
+- [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.wordpress.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [bbc.com: Por qué en Japón los jefes NO felicitan a sus empleados cuando hacen bien su trabajo](https://www.bbc.com/mundo/vert-cap-37270163)
 - [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://smoda.elpais.com/trabajo/apariencias-venderse-trabajo) Muchos trabajadores sufren en silencio la ‘performance’ diaria de quienes ponen más empeño en contar sus supuestos logros que en materializarlos.
 - [blogs.elconfidencial.com: Los españoles somos más improductivos que nunca y el problema no es de los empleados](https://www.elconfidencial.com/tecnologia/tribuna/2022-02-12/productividad-tecnologia-startups-apps_3373786) El progreso nunca ha venido de pretender que los humanos trabajemos como robots. Para tener un debate serio no debemos engañarnos sobre cómo funciona la productividad.
