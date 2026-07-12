@@ -45,7 +45,7 @@
 - [Kubernetes Security Best Practices 🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md)
 - [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
 - [Microsoft.com: Attack matrix for Kubernetes 🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes)
-- [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
+- [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444?gi=80338aff8208)
 - [thenewstack.io: Laying the Groundwork for Kubernetes Security, Across Workloads, Pods and Users](https://thenewstack.io/laying-the-groundwork-for-kubernetes-security-across-workloads-pods-and-users)
 - [horovits.wordpress.com: Kubernetes Security Best Practices](https://horovits.wordpress.com/2020/07/15/kubernetes-security-best-practices)
 - [containerjournal.com: How to Secure Your Kubernetes Cluster 🌟](https://cloudnativenow.com/topics/cloudnativesecurity/how-to-secure-your-kubernetes-cluster)
@@ -54,7 +54,7 @@
 - [tldrsec.com: Risk8s Business: Risk Analysis of Kubernetes Clusters 🌟](https://tldrsec.com/?404=%2Fguides%2Fkubernetes) A zero-to-hero guide for assessing the security risk of your Kubernetes cluster and hardening it.
 - [labs.bishopfox.com: Bad Pods: Kubernetes Pod Privilege Escalation 🌟](https://bishopfox.com/blog/kubernetes-pod-privilege-escalation) What are the risks associated with overly permissive pod creation in Kubernetes? The answer varies based on which of the host’s namespaces and security contexts are allowed. I will describe eight insecure pod configurations and the corresponding methods to perform privilege escalation. This article and the accompanying repository were created to help penetration testers and administrators better understand common misconfiguration scenarios.
 - [sysdig.com: Kubernetes Security Guide 🌟](https://www.sysdig.com/blog/kubernetes-security-guide) Best practices, guidance and steps for implementing Kubernetes security.
-- [resources.whitesourcesoftware.com: Kubernetes Security Best Practices 🌟](https://resources.whitesourcesoftware.com/blog-whitesource/kubernetes-security)
+- [resources.whitesourcesoftware.com: Kubernetes Security Best Practices 🌟](https://www.mend.io/blog/kubernetes-security)
 - [sysdig.com: Getting started with Kubernetes audit logs and Falco 🌟](https://www.sysdig.com/blog/kubernetes-audit-log-falco)
 - [thenewstack.io: Best Practices for Securely Setting up a Kubernetes Cluster](https://thenewstack.io/best-practices-for-securely-setting-up-a-kubernetes-cluster)
 - [thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟](https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd)
@@ -72,9 +72,9 @@
 - [blog.kasten.io: Kubernetes Ransomware Protection with Kasten K10 v4.0](https://blog.kasten.io/ransomware-protection-kasten-k10-v4)
 - [helpnetsecurity.com: Kubestriker: A security auditing tool for Kubernetes clusters 🌟](https://www.helpnetsecurity.com/2021/05/04/security-kubernetes) Kubestriker is an open-source, platform-agnostic tool for identifying security misconfigurations in Kubernetes clusters.
 - [Kubernetes Goat 🌟](https://madhuakula.com/kubernetes-goat) is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
-- [itnext.io: How-To: Kubernetes Cluster Network Security 🌟](https://itnext.io/how-to-kubernetes-cluster-network-security-f19bc99161f5)
+- [itnext.io: How-To: Kubernetes Cluster Network Security 🌟](https://itnext.io/how-to-kubernetes-cluster-network-security-f19bc99161f5?gi=52b241fbe2c3)
 - [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb)
-- [levelup.gitconnected.com: Enforce Audit Policy in Kubernetes (k8s)](https://levelup.gitconnected.com/enforce-audit-policy-in-kubernetes-k8s-34e504733300)
+- [levelup.gitconnected.com: Enforce Audit Policy in Kubernetes (k8s)](https://levelup.gitconnected.com/enforce-audit-policy-in-kubernetes-k8s-34e504733300?gi=7965ee578850)
 - [snyk.io: 10 Kubernetes Security Context settings you should understand](https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understand)
 - [magalix.com: Top 8 Kubernetes Security Best Practices 🌟](https://www.magalix.com/blog/top-8-kubernetes-security-best-practices)
 - [redhat.com: The State of Kubernetes Security](https://www.redhat.com/en/blog/state-kubernetes-security)
@@ -101,7 +101,7 @@
 - [venturebeat.com: Kubernetes security will have a breakout year in 2022](https://venturebeat.com/2021/12/27/kubernetes-security-will-have-a-breakout-year-in-2022)
 - [==medium: Comparing Kubernetes Security Frameworks and Guidance== 🌟](https://medium.com/@jonathan_37674/comparing-kubernetes-security-frameworks-and-guidance-f1c2821ea733) Comparing popular Kubernetes security and compliance frameworks, how they differ, when to use, common goals, and suggested tools.
     - [==blog.gitguardian.com: Hardening Your Kubernetes Cluster - Guidelines (Pt. 2)== 🌟](https://blog.gitguardian.com/hardening-your-k8s-pt-2) In this second episode, we will go through the NSA/CISA security recommendations and explain every piece of the guidelines.
-- [blog.devgenius.io: How is security managed in Kubernetes clusters?](https://blog.devgenius.io/how-is-security-managed-in-kubernetes-clusters-addefffd2b0) Best practices for managing security in Kubernetes at various layers
+- [blog.devgenius.io: How is security managed in Kubernetes clusters?](https://blog.devgenius.io/how-is-security-managed-in-kubernetes-clusters-addefffd2b0?gi=525c8314fd49) Best practices for managing security in Kubernetes at various layers
 - [blog.gitguardian.com: Kubernetes Hardening Tutorial Part 1: Pods](https://blog.gitguardian.com/kubernetes-tutorial-part-1-pods) Get a deeper understanding of Kubernetes Pods security with this first tutorial. After reading this article, you will learn:
     - How not to run pods as root
     - How to use immutable root fs (lock the root filesystem)
@@ -119,11 +119,11 @@
     - Etcd localhost port access due to SSRF vulnerability
     - Etcd Credential Stealing
     - Kube API server command execution
-- [faun.pub: From dev to admin: an easy Kubernetes privilege escalation you should be aware of — the attack](https://faun.pub/from-dev-to-admin-an-easy-kubernetes-privilege-escalation-you-should-be-aware-of-the-attack-950e6cf76cac) how easily a limited user (such as a developer) can escalate their privileges and become an admin of a cluster which has been set up using kubeadm.
+- [faun.pub: From dev to admin: an easy Kubernetes privilege escalation you should be aware of — the attack](https://faun.pub/from-dev-to-admin-an-easy-kubernetes-privilege-escalation-you-should-be-aware-of-the-attack-950e6cf76cac?gi=2fb8572a4dee) how easily a limited user (such as a developer) can escalate their privileges and become an admin of a cluster which has been set up using kubeadm.
 - [xenitab.github.io: Kubernetes Ephemeral Container Security 🌟](https://xenitab.github.io/blog/2022/04/12/ephemeral-container-security) Ephemeral containers are temp containers that can be attached after a Pod is created. But what happens when you use them on a hardened cluster? The answer is not so obvious as OPA, Kyverno, PSPs, etc. will do their best to (rightly) prevent execution.
 - [==armosec.io: How to Secure Deployments in Kubernetes?== 🌟](https://www.armosec.io/blog/secure-kubernetes-deployment) In Kubernetes, there are two aspects to security: cluster security and application security. you'll explore how to secure ‌Kubernetes deployments and applications in general.
 - [==medium.com/@dotdc: Is your Kubernetes API Server exposed? Learn how to check and fix!== 🌟](https://medium.com/@dotdc/is-your-kubernetes-api-server-exposed-learn-how-to-check-and-fix-609ab9638fae)
-- [levelup.gitconnected.com: The Core of Kubernetes Security: Clusters](https://levelup.gitconnected.com/the-core-of-kubernetes-security-clusters-5d9a69f1dba4)
+- [levelup.gitconnected.com: The Core of Kubernetes Security: Clusters](https://levelup.gitconnected.com/the-core-of-kubernetes-security-clusters-5d9a69f1dba4?gi=09c85ec0fdc8)
 - [sysdig.com: How attackers use exposed Prometheus server to exploit Kubernetes clusters | Miguel Hernández](https://www.sysdig.com/blog/exposed-prometheus-exploit-kubernetes-kubeconeu) What happens if an attacker accesses your Prometheus server? How much information can they get for fingerprinting the cluster? how attackers use this information and how to secure your cluster.
 - [==cast.ai: Kubernetes Security: 10 Best Practices from the Industry and Community== 🌟](https://cast.ai/blog/kubernetes-security-10-best-practices)
 - [thenewstack.io: Basic Principles Key to Securing Kubernetes’ Future](https://thenewstack.io/key-basic-principles-to-secure-kubernetes-future) Once these capabilities have been established, Ops teams can begin to look further afield and explore leveraging the value of their data through activities like testing and optimization.
@@ -131,12 +131,12 @@
 - [==medium.com/@badawekoo: Limit number of processes running in a Kubernetes pod==](https://medium.com/@badawekoo/limit-number-of-processes-running-in-a-kubernetes-pod-50ccf156ec18) When it comes to Kubernetes security, It is very important to harden the core components of the cluster which are pods, and limit the risks that can be originated from inside the pods. That’s why limiting number of processes that can run inside a pod will limit any vulnerabilities in your cluster.
 - [copado.com: Applying a Zero Trust Infrastructure in Kubernetes](https://www.copado.com/resources/blog/applying-a-zero-trust-infrastructure-in-kubernetes)
 - [dev.to/pavanbelagatti: Kubernetes Security Best Practices For Developers](https://dev.to/pavanbelagatti/kubernetes-security-best-practices-for-developers-2b92)
-- [==itnext.io: Journey Of A Microservice Application In The Kubernetes World== 🌟](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe) Security considerations: security related tools. you will discuss some security considerations and see how you can ensure (at least to some extent) that the application's specifications follow some of the best security practices.
+- [==itnext.io: Journey Of A Microservice Application In The Kubernetes World== 🌟](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe?gi=f844ff179fcd) Security considerations: security related tools. you will discuss some security considerations and see how you can ensure (at least to some extent) that the application's specifications follow some of the best security practices.
 - [tutorialboy24.blogspot.com: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 2) 🌟](https://tutorialboy24.blogspot.com/2022/09/a-detailed-talk-about-k8s-cluster.html) In this 2-part series, you will address 12 common attack points in Kubernetes clusters and discuss various risks in cloud-native scenarios based on practical experience
 - [medium.com/cloudyrion: Kubernetes end-to-end chain exploit](https://medium.com/cloudyrion/kubernetes-end-to-end-chain-exploit-c2be32688fd0) This article details the security flaws discovered in Kubernetes and GitOps tools due to improper configurations. It also demonstrates how an attacker could perform post-exploitation attacks, increasing their privileges and the attack surface.
-- [==itnext.io: Performing Security Checks for Deployed Kubernetes Manifests==](https://itnext.io/performing-security-checks-for-deployed-kubernetes-manifests-fa9d442b7951) An effective tool for checking security rule violations in Kubernetes deployments using **Polaris**
+- [==itnext.io: Performing Security Checks for Deployed Kubernetes Manifests==](https://itnext.io/performing-security-checks-for-deployed-kubernetes-manifests-fa9d442b7951?gi=896ee60f66d9) An effective tool for checking security rule violations in Kubernetes deployments using **Polaris**
 - [==securitycafe.ro: A COMPLETE KUBERNETES CONFIG REVIEW METHODOLOGY==](https://securitycafe.ro/2023/02/27/a-complete-kubernetes-config-review-methodology)
-- [==itnext.io: Introduction to Kubernetes Security for Security Professionals==](https://itnext.io/introduction-to-kubernetes-security-for-security-professionals-a61b424f7a2a) Presenting the architecture of Kubernetes and its associated security threats, for security professionals, including penetration testers and DevSecOps practitioners.
+- [==itnext.io: Introduction to Kubernetes Security for Security Professionals==](https://itnext.io/introduction-to-kubernetes-security-for-security-professionals-a61b424f7a2a?gi=b46e4b8e3fce) Presenting the architecture of Kubernetes and its associated security threats, for security professionals, including penetration testers and DevSecOps practitioners.
 - [dev.to/mattiasfjellstrom: Kubernetes-101: Security concepts](https://dev.to/mattiasfjellstrom/kubernetes-101-security-concepts-2f4f) The article provides an overview of Kubernetes security concepts, focusing on NetworkPolicies, ServiceAccounts, and Security Contexts
 - [blog.alexellis.io: What if your Pods need to trust self-signed certificates?](https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificates) Self-signed certificates are common within enterprise companies. But how do you distribute them and enable their use in Kubernetes as a user and a vendor?
 - [thenewstack.io: Securing Kubernetes in a Cloud Native World](https://thenewstack.io/securing-kubernetes-in-a-cloud-native-world) As cloud native technologies continue to advance, staying informed and adaptable is key to maintaining a secure Kubernetes ecosystem.
@@ -173,13 +173,13 @@
 ## Kubernetes Security Scanners
   - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free) - *(Related to devsecops topic)*
 
-- [==blog.cloudsecque.com: How to Improve the Security of Your Applications with Kubernetes Security Scanners==](https://blog.cloudsecque.com/how-to-improve-the-security-of-your-applications-with-kubernetes-security-scanners-cda97fd2f574) Kubernetes security scanners are tools that can be used to detect vulnerabilities and security issues in your applications.you will find:
+- [==blog.cloudsecque.com: How to Improve the Security of Your Applications with Kubernetes Security Scanners==](https://blog.cloudsecque.com/how-to-improve-the-security-of-your-applications-with-kubernetes-security-scanners-cda97fd2f574?gi=3ebd3bbf7134) Kubernetes security scanners are tools that can be used to detect vulnerabilities and security issues in your applications.you will find:
     - Grype
     - Trivy
     - Kubesec
     - Kube-bench
     - Kubeaudit
-- [techmanyu.com: Kubernetes Security with Kube-bench and Kube-hunter 🌟](https://www.techmanyu.com/kubernetes-security-with-kube-bench-and-kube-hunter-6765bf44ebc6)
+- [techmanyu.com: Kubernetes Security with Kube-bench and Kube-hunter 🌟](https://www.techmanyu.com/kubernetes-security-with-kube-bench-and-kube-hunter-6765bf44ebc6?gi=6d8668722716)
     - [kube-bench 🌟](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
         - [==devopscube.com/kube-bench-guide: Kube-Bench: Kubernetes CIS Benchmarking Tool==](https://devopscube.com/kube-bench-guide)
     - [kube-hunter 🌟](https://github.com/aquasecurity/kube-hunter) Hunt for security weaknesses in Kubernetes clusters
@@ -192,22 +192,22 @@
     - Use a read-only root filesystem
     - Drop scary capabilities, don't add new ones
     - Don't run privileged
-- [towardsdev.com: 12 Scanners to Find Security Vulnerabilities and Misconfigurations in Kubernetes](https://towardsdev.com/12-scanners-to-find-security-vulnerabilities-and-misconfigurations-in-kubernetes-332a738d076d)
+- [towardsdev.com: 12 Scanners to Find Security Vulnerabilities and Misconfigurations in Kubernetes](https://towardsdev.com/12-scanners-to-find-security-vulnerabilities-and-misconfigurations-in-kubernetes-332a738d076d?gi=8fbbc0fc1ae0)
 
 ## Security Checklist Kubernetes OWASP
 
 - [==kubernetes.io: Security Checklist== 🌟🌟](https://kubernetes.io/docs/concepts/security/security-checklist)
-- [itnext.io: Kubernetes OWASP Top 10: Centralised Policy Enforcement](https://itnext.io/kubernetes-owasp-top-10-centralised-policy-enforcement-9adc53438e22) This article covers the techniques for centralised policy enforcement in a Kubernetes cluster:
+- [itnext.io: Kubernetes OWASP Top 10: Centralised Policy Enforcement](https://itnext.io/kubernetes-owasp-top-10-centralised-policy-enforcement-9adc53438e22?gi=fd02d56200e9) This article covers the techniques for centralised policy enforcement in a Kubernetes cluster:
     - CI/CD pipelines
     - Security Admission controller
     - OPA and Gatekeeper
     - IDE linting and plug-ins
-- [faun.pub: Gatekeeper | K8 hardening backlog](https://faun.pub/gatekeeper-k8-hardening-backlog-956d1b6860b6) This article summarizes a list of recommendations for hardening Kubernetes clusters (both on-prem and cloud) with Admission and Mutation webhooks using the open-source tool Gatekeeper.
-- [systemweakness.com: OWASP-K8S Security: Insecure Workload Configurations](https://systemweakness.com/owasp-k8s-security-insecure-workload-configurations-c14c4028beb1) In this series of blogs we will focus on OWASP Top 10 Kubernetes vulnerabilities, Discussing each in a separate blog.
+- [faun.pub: Gatekeeper | K8 hardening backlog](https://faun.pub/gatekeeper-k8-hardening-backlog-956d1b6860b6?gi=5269db1320e5) This article summarizes a list of recommendations for hardening Kubernetes clusters (both on-prem and cloud) with Admission and Mutation webhooks using the open-source tool Gatekeeper.
+- [systemweakness.com: OWASP-K8S Security: Insecure Workload Configurations](https://systemweakness.com/owasp-k8s-security-insecure-workload-configurations-c14c4028beb1?gi=679f463e989d) In this series of blogs we will focus on OWASP Top 10 Kubernetes vulnerabilities, Discussing each in a separate blog.
 - [owasp.org: OWASP Kubernetes Top Ten](https://owasp.org/www-project-kubernetes-top-ten) OWASP Kubernetes Top Ten is aimed at helping security practitioners, system administrators, and developers prioritize risks around the Kubernetes ecosystem. This is a prioritized list of these risks backed by data.
 - [darkreading.com: Top 10 Kubernetes Security Risks Every DevSecOps Pro Should Know](https://www.darkreading.com/dr-tech/top-10-kubernetes-security-risks-every-devsecops-needs-to-know) The mission to run any containerized application on any infrastructure makes security a challenge on Kubernetes.
 - [==sysdig.com: OWASP Kubernetes Top 10== 🌟](https://www.sysdig.com/blog/top-owasp-kubernetes) One of the biggest concerns when using Kubernetes is whether we are complying with the security posture and taking into account all possible threats.
-- [itnext.io: Kubernetes OWASP Top 10: Secrets Management](https://itnext.io/kubernetes-owasp-top-10-secrets-management-c996faa87b47) you will discuss secrets management in Kubernetes:
+- [itnext.io: Kubernetes OWASP Top 10: Secrets Management](https://itnext.io/kubernetes-owasp-top-10-secrets-management-c996faa87b47?gi=9be3caf81444) you will discuss secrets management in Kubernetes:
     - Secrets objects
     - Managing Kubernetes Secrets
     - Manual Secret Creation
@@ -240,7 +240,7 @@
 
 ## CIS Benchmarks and CIS Operator
 
-- [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) Developed by a global community of cybersecurity professionals, CIS Benchmarks are a collection of best practices for securely configuring IT systems, software, networks, and cloud infrastructure.
+- [ibm.com: CIS Benchmarks](https://www.ibm.com/think/topics) Developed by a global community of cybersecurity professionals, CIS Benchmarks are a collection of best practices for securely configuring IT systems, software, networks, and cloud infrastructure.
 - [aymen-abdelwahed.medium.com: K8s Operators — CIS Kubernetes Benchmarks](https://aymen-abdelwahed.medium.com/k8s-operators-cis-benchmarks-8d7915d5cb2d) How can I run my workloads securely on top of Kubernetes? we'll be taking a look at the CIS-Benchmark, breaking the concept down to simple terms, and in the end, deploying the CIS-Operator using Helm charts and custom values
     - [rancher/cis-operator](https://github.com/rancher/cis-operator) This is an operator that can run on a given Kubernetes cluster and provide ability to run security scans as per the CIS benchmarks, on the cluster.
 
@@ -265,7 +265,7 @@
 - [medium.com/pareture: Kubernetes Bound Projected Service Account Token Volumes Might Surprise You](https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483) There is an important difference to understand and remember between default Service Account Projection and Bound Service Account Token Volumes.
 - [medium.com/geekculture: K8s — ServiceAccount Token](https://medium.com/geekculture/k8s-serviceaccount-token-313d62aee119) K8s ServiceAccount token deep dive
 - [motilayo.hashnode.dev: Exploring Kubernetes Service Account Tokens and Secure Workload Identity Federation](https://motilayo.hashnode.dev/exploring-kubernetes-service-account-tokens-and-secure-workload-identity-federation) Ever wonder how AWS IRSA, GCP workload identity or Azure AD workload identity work in Kubernetes? This article explores how OIDC works in a Kubernetes cluster to trust external workloads
-- [overcast.blog: Kubernetes Service Accounts: A Practical Guide](https://overcast.blog/kubernetes-service-accounts-a-practical-guide-f99c1ed65483)
+- [overcast.blog: Kubernetes Service Accounts: A Practical Guide](https://overcast.blog/kubernetes-service-accounts-a-practical-guide-f99c1ed65483?gi=94c45ba9d27f)
 
 ## Kubernetes Secrets
 
@@ -273,7 +273,7 @@
 - [Hands on your first Kubernetes secrets 🌟](https://www.theodo.com/en-uk/blog)
 - [dev.to: Store your Kubernetes Secrets in Git thanks to Kubeseal. Hello SealedSecret! 🌟](https://dev.to/stack-labs/store-your-kubernetes-secrets-in-git-thanks-to-kubeseal-hello-sealedsecret-2i6h)
 - [blog.doit-intl.com: Kubernetes and Secrets Management in the Cloud](https://blog.doit-intl.com/kubernetes-and-secrets-management-in-cloud-858533c20dca)
-- [itnext.io: Effective Secrets with Vault and Kubernetes](https://itnext.io/effective-secrets-with-vault-and-kubernetes-9af5f5c04d06)
+- [itnext.io: Effective Secrets with Vault and Kubernetes](https://itnext.io/effective-secrets-with-vault-and-kubernetes-9af5f5c04d06?gi=ddbcf25514cf)
 - [kubernetes.io: Encrypting Secret Data at Rest 🌟](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data)
 - ["Kubernetes base64 encodes secrets because that makes arbitrary data play nice with JSON. It had nothing to do with the security model (or lack thereof). It did not occur to us at the time that people could mistake base64 for some form of encryption"](https://x.com/originalavalamp)
     - ["I've always wondered how folks expect a system would be able to protect data at rest like that. If the public key and private key are local on the machine - nothing is secure no matter what algorithm is used"](https://x.com/jwendlandt)
@@ -292,14 +292,14 @@
 - [youtube: Manage Kubernetes Secrets With External Secrets Operator (ESO) 🌟](https://www.youtube.com/watch?v=SyRZe5YVCVk)
 - [carlosalca.medium.com: How to manage all my K8s secrets in git securely with Bitnami Sealed Secrets](https://carlosalca.medium.com/how-to-manage-all-my-k8s-secrets-in-git-securely-with-bitnami-sealed-secrets-43580b8fa0c7)
 - [==cloud.redhat.com: A Guide to Secrets Management with GitOps and Kubernetes== 🌟](https://www.redhat.com/en/blog/a-guide-to-secrets-management-with-gitops-and-kubernetes) **This article will discuss two architectural approaches to managing secrets with GitOps: encrypted secrets stored in Git and storing a reference to secrets in Git**
-- [itnext.io: Vault cluster with auto unseal on Kubernetes](https://itnext.io/vault-cluster-with-auto-unseal-on-kubernetes-8e469f9cdcfd)
+- [itnext.io: Vault cluster with auto unseal on Kubernetes](https://itnext.io/vault-cluster-with-auto-unseal-on-kubernetes-8e469f9cdcfd?gi=bd6c25a31d81)
 - [pjame-fb.medium.com: Kubernetes Secrets from Secrets Manager using External Secrets Operators](https://pjame-fb.medium.com/kubernetes-secrets-from-secrets-manager-using-external-secrets-operators-4819562c3b02) how to store your credentials in the Secrets Manager and automatically retrieve them for creating Kubernetes Secrets using External Secrets.
-- [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) you will compare the External Secrets Operator with Secret Storage CSI for using external secrets in a Kubernetes cluster. You will compare:
+- [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=e175b1f6ba24) you will compare the External Secrets Operator with Secret Storage CSI for using external secrets in a Kubernetes cluster. You will compare:
     - Architecture
     - Authorization management
     - Resource usage
     - GitOps friendliness
-- [==faun.pub: Secrets | Kubernetes==](https://faun.pub/secrets-kubernetes-298ea8dd9911) A deep dive into Kubernetes Secrets
+- [==faun.pub: Secrets | Kubernetes==](https://faun.pub/secrets-kubernetes-298ea8dd9911?gi=306bc120679c) A deep dive into Kubernetes Secrets
 - [medium.com/@knoldus: Using sealed secrets in Kubernetes](https://medium.com/@knoldus/using-sealed-secrets-in-kubernetes-7f7518d4c984)
     - [medium.com/@knoldus: Introduction to sealed secrets in Kubernetes](https://medium.com/@knoldus/introduction-to-sealed-secrets-in-kubernetes-7857b361a845)
 - [eminalemdar.medium.com: Cloud Native Secret Management with External Secrets Operator](https://eminalemdar.medium.com/cloud-native-secret-management-with-external-secrets-operator-2912f41f9c49)
@@ -315,23 +315,23 @@
 - [medium: Encrypting the certificate for Kubernetes (Let’s Encrypt) 🌟](https://medium.com/avmconsulting-blog/encrypting-the-certificate-for-kubernetes-lets-encrypt-805d2bf88b2a)
 - [rejupillai.com: Let’s Encrypt the Web (for free)](https://rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt)
 - [betterprogramming.pub: Kubernetes and SSL Certificate Management 🌟](https://betterprogramming.pub/kubernetes-and-ssl-certificate-management-5f6a4b6f5ae9) Manage SSL certificate orders in K8s with Helm and Let’s Encrypt.
-- [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://www.empowersurvivors.net) Automate the provisioning of Let's Encrypt certificates for ingress resources
-- [faun.pub: Automate Certificate Management In Kubernetes Using Cert-Manager](https://faun.pub/automate-certificate-management-in-kubernetes-using-cert-manager-d0745e5c7757)
+- [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://www.roseandglow.co.uk) Automate the provisioning of Let's Encrypt certificates for ingress resources
+- [faun.pub: Automate Certificate Management In Kubernetes Using Cert-Manager](https://faun.pub/automate-certificate-management-in-kubernetes-using-cert-manager-d0745e5c7757?gi=49f59e67b787)
 - [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) Automatically provision and manage TLS certificates in Kubernetes
 - [github.com/cert-manager: Policy Approver](https://github.com/cert-manager/approver-policy) Policy Approver is a cert-manager approver that is responsible for Approving or Denying CertificateRequests.
 - [jetstack.io: Getting started using cert-manager with the sig-network Gateway API](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)
 - [medium.com/@knoldus: Configure SSL certificate with cert-manager on Kubernetes](https://medium.com/@knoldus/configure-ssl-certificate-with-cert-manager-on-kubernetes-e5ca8a804e16)
-- [blog.devgenius.io: Automated DNS/TLS with External DNS & LetsEncrypt on Kubernetes](https://blog.devgenius.io/automated-dns-tls-with-external-dns-letsencrypt-on-kubernetes-6f4f41827df9) you'll learn how to create TLS certificates for your application with cert-manager and DNS entries with external DNS. Finally, you will expose your applications with an ingress resource to tie it all together.
-- [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8) When upgrading Cert-Manager, it's often required to update the CRDs. Unfortunately, it's not a straightforward process. you'll learn a few options that ensure a smooth Cert-Manager upgrade to avoid downtime of production deployment.
-- [==faun.pub: Let’s encrypt and CertManager==](https://faun.pub/lets-encrypt-and-certmanager-aa88775730b8) How to use CertManager and Let’s encrypt in Kubernetes
-- [armin.su: SSL certificates from Let’s Encrypt for Kubernetes Private Ingress via Terraform](https://armin.su/ssl-certificates-from-lets-encrypt-for-kubernetes-private-ingress-via-terraform-c9f595ee65fa)
+- [blog.devgenius.io: Automated DNS/TLS with External DNS & LetsEncrypt on Kubernetes](https://blog.devgenius.io/automated-dns-tls-with-external-dns-letsencrypt-on-kubernetes-6f4f41827df9?gi=c1180bb19f8a) you'll learn how to create TLS certificates for your application with cert-manager and DNS entries with external DNS. Finally, you will expose your applications with an ingress resource to tie it all together.
+- [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8?gi=a46837e6dbee) When upgrading Cert-Manager, it's often required to update the CRDs. Unfortunately, it's not a straightforward process. you'll learn a few options that ensure a smooth Cert-Manager upgrade to avoid downtime of production deployment.
+- [==faun.pub: Let’s encrypt and CertManager==](https://faun.pub/lets-encrypt-and-certmanager-aa88775730b8?gi=20af4e9518a2) How to use CertManager and Let’s encrypt in Kubernetes
+- [armin.su: SSL certificates from Let’s Encrypt for Kubernetes Private Ingress via Terraform](https://armin.su/ssl-certificates-from-lets-encrypt-for-kubernetes-private-ingress-via-terraform-c9f595ee65fa?gi=ecd2a2a50148)
 - [==dev.to: Kubernetes TLS, Demystified== 🌟](https://dev.to/otomato_io/possible-paths-2hfc)
 
 ## Kubernetes OpenID Connect OIDC
 
 - [gini/dexter](https://github.com/gini/dexter) dexter is an OIDC (OpenId Connect) helper designed to create a hassle-free Kubernetes login experience powered by Google or Azure as Identity Provider. All you need is a properly configured Google or Azure client ID & secret
 - [betterprogramming.pub: Kubernetes Authentication Sidecars: A Revelation in Microservice Architecture](https://betterprogramming.pub/kubernetes-authentication-sidecars-a-revelation-in-microservice-architecture-12c4608189ab) A history of authentication and how to solve authentication in a reusable way using sidecar containers in Kubernetes
-- [blog.devgenius.io: SSO Authentication for Applications in Kubernetes](https://blog.devgenius.io/sso-authentication-for-applications-in-kubernetes-aedc3c189d89) This post discusses using SSO authentication and authorization to secure apps in Kubernetes. The tutorial uses Dex and Traefik Forward Auth (or Oauth2-Proxy) to add additional security to ingresses or apps that do not support built-in OIDC
+- [blog.devgenius.io: SSO Authentication for Applications in Kubernetes](https://blog.devgenius.io/sso-authentication-for-applications-in-kubernetes-aedc3c189d89?gi=102173f49b0c) This post discusses using SSO authentication and authorization to secure apps in Kubernetes. The tutorial uses Dex and Traefik Forward Auth (or Oauth2-Proxy) to add additional security to ingresses or apps that do not support built-in OIDC
 
 ### OAuth2 Proxy
 
@@ -382,7 +382,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [medium.com/devops-mojo: Kubernetes — Role-Based Access Control (RBAC) Overview](https://medium.com/devops-mojo/kubernetes-role-based-access-control-rbac-overview-introduction-rbac-with-kubernetes-what-is-2004d13195df) RBAC with Kubernetes — Role, ClusterRole, RoleBinding, and ClusterRoleBinding.
 - [loft-sh.medium.com: 10 Essentials for Kubernetes Access Control](https://loft-sh.medium.com/10-essentials-for-kubernetes-access-control-a67ae72977dd)
 - [sumanthkumarc.medium.com: Kubernetes RBAC — Update default ClusterRoles without editing them](https://sumanthkumarc.medium.com/kubernetes-rbac-update-default-clusterroles-without-editing-them-ef206254e0)
-- [faun.pub: Assign permissions to an user in Kubernetes. An overview of RBAC-based AuthZ in k8s 🌟](https://faun.pub/assign-permissions-to-an-user-in-kubernetes-an-overview-of-rbac-based-authz-in-k8s-7d9e5e1099f1)
+- [faun.pub: Assign permissions to an user in Kubernetes. An overview of RBAC-based AuthZ in k8s 🌟](https://faun.pub/assign-permissions-to-an-user-in-kubernetes-an-overview-of-rbac-based-authz-in-k8s-7d9e5e1099f1?gi=bbf5514bc688)
 - [anaisurl.com: RBAC Explained with Examples 🌟](https://anaisurl.com/kubernetes-rbac) Kubernetes RBAC tutorial with two examples, using ServiceAccounts and openssl to create separate contexts for users
 - [medium.com/@badawekoo: Using RBAC in Kubernetes for authorization-Complete Demo-Part 1](https://medium.com/@badawekoo/using-rbac-in-kubernetes-for-authorization-complete-demo-part-1-83f0a1fb8f)
 - [thenewstack.io: Securing Access to Kubernetes Environments with Zero Trust](https://thenewstack.io/securing-access-to-kubernetes-environments-with-zero-trust)
@@ -392,7 +392,7 @@ Each of these alternatives provides different features and may be more suitable 
     - [==medium.com/@danielepolencic: How does RBAC work in kubernetes== 🌟](https://medium.com/@danielepolencic/how-does-rbac-work-in-kubernetes-d50dd34771ca) A short and visual thread on how Kubernetes RBAC works in Kubernetes
 - [==dominik-tornow.medium.com: Inside Kubernetes RBAC==](https://dominik-tornow.medium.com/inside-kubernetes-rbac-9988b08a738a)
 - [==medium.com/@jtdv01: Kubernetes Authorization and Role Based Access Controls== 🌟](https://medium.com/@jtdv01/kubernetes-authorization-and-role-based-access-controls-ca0b7acc17a4)
-- [==faun.pub: Give Users and Groups Access to Kubernetes Cluster Using RBAC==](https://faun.pub/give-users-and-groups-access-to-kubernetes-cluster-using-rbac-b614b6c0b383) Role-based access control (RBAC) is a way of granting users granular access to Kubernetes API resources. RBAC is a security design that limits access to Kubernetes resources based on the user's role.
+- [==faun.pub: Give Users and Groups Access to Kubernetes Cluster Using RBAC==](https://faun.pub/give-users-and-groups-access-to-kubernetes-cluster-using-rbac-b614b6c0b383?gi=974d066f36c6) Role-based access control (RBAC) is a way of granting users granular access to Kubernetes API resources. RBAC is a security design that limits access to Kubernetes resources based on the user's role.
 - [medium.com/@danielepolencic: AWS IAM Roles for service accounts for on-prem clusters](https://medium.com/@danielepolencic/binding-aws-iam-roles-to-kubernetes-service-account-for-on-prem-clusters-b8bac41f269d) In this short tutorial, you will learn how to configure the IAM roles for Service Account for a bare-metal cluster using minikube as an example.
 - [medium.com/andcloudio: Setting up Authentication and RBAC Authorization in Kubernetes](https://medium.com/andcloudio/creating-authentication-and-authorization-in-kubernetes-c6c5f0f1d2ad)
 - [dev.to: Configure RBAC in Kubernetes Like a Boss](https://dev.to/mstryoda/configure-rbac-in-kubernetes-like-a-boss-h67) You will configure RBAC both with kubectl and yaml definitions.
@@ -508,7 +508,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 - [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1](https://www.suse.com/c/rancher_blog/enhancing-kubernetes-security-with-pod-security-policies-part-1)
     - [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://www.suse.com/c/rancher_blog/enhancing-kubernetes-security-with-pod-security-policies-part-2)
 - [developer.squareup.com: Kubernetes Pod Security Policies (PSP)](https://developer.squareup.com/blog/kubernetes-pod-security-policies) an example with exception management
-- [itnext.io: Implementing a Secure-First Pod Security Policy Architecture](https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0)
+- [itnext.io: Implementing a Secure-First Pod Security Policy Architecture](https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0?gi=5f54b2b7e493)
 - [Neon Mirrors: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://kind-brown-cfb734.netlify.app/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno)
 - [ibrahims.medium.com: Security Context — Kubernetes](https://ibrahims.medium.com/security-context-kubernetes-9672ae2380f9)
 
@@ -530,7 +530,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 
 - [external-secrets.io 🌟](https://external-secrets.io) External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, and many more. The operator reads information from external APIs and automatically injects the values into a Kubernetes Secret.
 - [mahira-technology.medium.com: Kubernetes Secrets Management: Level Up with External Secrets Operator](https://mahira-technology.medium.com/kubernetes-secrets-management-level-up-with-external-secrets-operator-ed7d32df2189) Kubernetes has become a popular platform for deploying and managing containerized applications. As applications grow in complexity, managing secrets such as API keys, passwords, and certificates becomes increasingly important. While Kubernetes provides a built-in Secrets resource, it has limitations when it comes to managing secrets across multiple clusters or integrating with external secret management systems. This is where the External Secrets Operator (ESO) comes into play. ESO is an open-source Kubernetes operator that allows you to manage secrets from external secret management systems and synchronize them as Kubernetes Secrets.
-- [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)
+- [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373?gi=d826aa3197b2)
 
 ## CVE
 
