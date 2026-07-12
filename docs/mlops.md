@@ -31,7 +31,7 @@
 - [github: A very Long never ending Learning around Data Engineering & Machine Learning](https://github.com/abhishek-ch/around-dataengineering)
 - [towardsdatascience.com: A Kubernetes architecture for machine learning web-application deployments](https://towardsdatascience.com/a-kubernetes-architecture-for-machine-learning-web-application-deployments-632f7765ef29) Use Kubernetes to reduce machine learning infrastructure costs and scale resources with ease.
 - [cloud.google.com: How to use a machine learning model from a Google Sheet using BigQuery ML](https://cloud.google.com/blog/topics/developers-practitioners/how-use-machine-learning-model-google-sheet-using-bigquery-ml)
-- [itnext.io: Building ML Componentes on Kubernetes](https://itnext.io/building-ml-componentes-on-kubernetes-fc7e24cb9269)
+- [itnext.io: Building ML Componentes on Kubernetes](https://itnext.io/building-ml-componentes-on-kubernetes-fc7e24cb9269?gi=d3b90ca0a89f)
 - [towardsdatascience.com: Deploying An ML Model With FastAPI — A Succinct Guide](https://towardsdatascience.com/deploying-an-ml-model-with-fastapi-a-succinct-guide-69eceda27b21)
 - [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://opensource.microsoft.com/blog/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices)
 - [ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop) Example code for a basic ML Platform based on Pulumi, FastAPI, DVC, MLFlow and more
@@ -109,7 +109,7 @@
 
 - [kubeflow](https://www.kubeflow.org) The Machine Learning Toolkit for Kubernetes
 - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow)
-- [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline.you will learn how to deploy Kubeflow in AWS.
+- [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32?gi=0d9f947f4fa3) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline.you will learn how to deploy Kubeflow in AWS.
 - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)
 - [medium.com/dkatalis: Creating a Mutating Webhook for Great Good! Or: how to automatically provision Pods on a specific node pool](https://medium.com/dkatalis/creating-a-mutating-webhook-for-great-good-b21acb941207) how to automatically schedule Kubeflow pipeline Pods from any number of namespaces on dedicated GKE node pools
 
@@ -151,7 +151,7 @@
 - [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint)
     - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
     - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
-- [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c) Accelerate Model Development, Deployment, and Monitoring at Scale
+- [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c?gi=58f9c2754591) Accelerate Model Development, Deployment, and Monitoring at Scale
 - [youtube: Deploy Convolutional Neural Network (CNN) on Azure with Python | Deep Learning Deployment | MLOPS](https://www.youtube.com/watch?v=6sqGxVI3X1w)
 - [==learn.microsoft.com: Azure Well-Architected Framework perspective on Azure Machine Learning==](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-machine-learning)
 
@@ -172,14 +172,14 @@
 - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)
 - [redhat.com: Bring Your Own Knowledge - Automation Intelligent Assistant (RAG)](https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant)
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
-  - **(2026)** [Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning](https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4) 🌟 - How Netflix leverages predictive modeling and historical signals to forecast schedule slips in content launches.
+  - **(2026)** [Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning](https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?gi=783a201a0e41&source=rss----2615bd06b42e---4) 🌟 - How Netflix leverages predictive modeling and historical signals to forecast schedule slips in content launches.
 
 ## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
 - [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
     - [Nix](https://nix.dev/manual/nix/2.28)
     - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
-- [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart== 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/helm-charts/gpu-operator)
+- [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart== 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/-/helm-charts/gpu-operator/-?_lr=1)
 - [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup) Setup an NVIDIA RTX GPU on bare-metal Kubernetes, covering driver installation on Ubuntu 22.04, configuration, and troubleshooting.
 - [huggingface.co: Implementing Fractional GPUs in Kubernetes with Aliyun Scheduler](https://huggingface.co/blog/NileshInfer/implementing-fractional-gpus-in-kubernetes)
 
@@ -197,7 +197,7 @@
     - [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension)
 - [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) envd (ɪnˈvdɪ) is a command-line tool that helps you create the container-based development environment for AI/ML. https://envd.tensorchord.ai/
 - [postgresml/postgresml 🌟](https://github.com/postgresml/postgresml) PostgresML is an end-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database.
-- [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677)
+- [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677?gi=8bff000e0f9c)
 - [vaex.io](https://vaex.io) An ML Ready Fast DataFrame for Python
     - https://pypi.org/project/vaex/
 - [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
