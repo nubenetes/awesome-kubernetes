@@ -26,7 +26,7 @@
 
 - [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
 - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture)
-- [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
+- [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1?gi=2b72868d50d4)
 - [Is Serverless The End Of Kubernetes?](https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609) A comparison of both technologies to stop the debate about what is better.
 - [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49)
 - [medium: What a typical 100% Serverless Architecture looks like in AWS!](https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb)
@@ -37,7 +37,7 @@
 - [docs.google.com: Serverless Guide to Success 2021](https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic)
 - [vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds](https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2)
 - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes) If you are stuck at a crossroads and need some help deciding, here are some conditions which might help you make your selection.
-- [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
+- [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689?gi=7a79293b77b5) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
 - [readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟](https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount) **When designing serverless apps, you must consider the right level of scale. Your architecture choices will vary greatly depending on the expected load. "Just because serverless services can scale doesn't mean they will scale".**
 - [==jeromevdl.medium.com: When to use a Lambda function, and when not?== 🌟](https://jeromevdl.medium.com/when-to-use-a-lambda-function-and-when-not-9a225e6dd2dd)
 - [==c-sharpcorner.com: Why and When to use Azure Functions==](https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions)
@@ -109,9 +109,9 @@
 ### OpenFaaS
 
 - [OpenFaaS](https://www.openfaas.com)
-- [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9)
+- [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9?gi=6a5cbfbd40a5)
 - [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)
-- [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
+- [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c?gi=9683e834ed15)
 - [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java)
 - [dzone: Getting Started with the OpenFaaS Kubernetes Operator on EKS 🌟 [ARCHIVED]](http://web.archive.org/web/20230202080638/https://dzone.com/articles/getting-started-with-the-openfaas-kubernetes-opera)
 - [openfaas.com: Learn how to build functions faster using Rancher's kim and K3s](https://www.openfaas.com/blog/kim) Learn how the kim tool from Rancher can be used to build functions directly into a K3s cluster.
