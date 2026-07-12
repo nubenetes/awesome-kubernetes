@@ -19,7 +19,7 @@
 - [grafana.com: Introducing the new and improved New Relic plugin for Grafana](https://grafana.com/blog/introducing-the-new-and-improved-new-relic-plugin-for-grafana)
 - [Log Monitoring and Alerting with Grafana Loki](https://www.infracloud.io/blogs/grafana-loki-log-monitoring-alerting)
 - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)
-- [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c)
+- [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c?gi=a981c1b77db1)
 - [medium: Why Grafana: Part II](https://medium.com/lightspeed-venture-partners/why-grafana-part-ii-2e7e42e0f7bb)
 - [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin)
 - [thenewstack.io: Grafana Adds Logging to Its Enterprise Observability Stack 🌟](https://thenewstack.io/grafana-adds-logging-to-its-enterprise-observability-stack)
@@ -50,7 +50,7 @@
 
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
 - [sid-infinity-yadav.medium.com: Grafana Agent Kubernetes Operator](https://sid-infinity-yadav.medium.com/grafana-agent-kubernetes-operator-f89b744487f5)
-- [levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters](https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614)
+- [levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters](https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614?gi=0d8c1bb2c762)
 
 ## Grafana Faro
 
@@ -99,9 +99,9 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana Loki
 
 - [Grafana Loki](https://grafana.com/oss/loki)
-- [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
+- [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34?gi=0c71e6906ec1) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
 - [cleancloud-k8s.com: Handling Multiline Logs with Loki and Fluent Bit on Kubernetes](https://cleancloud-k8s.com/2022/01/19/handling-multiline-logging-with-loki-and-fluent-bit-on-kubernetes) In this blog post, you will learn how to handle multiline logs such as Java stack traces with Loki and Fluent Bit on Kubernetes.
-- [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc)
+- [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc?gi=787658167fbe)
 
 ## Grafana Beyla
 
