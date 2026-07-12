@@ -42,19 +42,19 @@
 - [==gitops.tech== 🌟](https://www.gitops.tech)
 - [==OpenGitOps.dev== 🌟](https://opengitops.dev) OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.
 - [==github.com/topics/gitops== 🌟](https://github.com/topics/gitops)
-- [weave.works: Guide to GitOps](https://www.weave.works/technologies/gitops)
-- [weave.works: What Is GitOps?](https://www.weave.works/blog/what-is-gitops-really)
+- [weave.works: Guide to GitOps](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
+- [weave.works: What Is GitOps?](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [atlassian.com: Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops)
-- [cloudbees.com: What is GitOps?](https://www.cloudbees.com/gitops/what-is-gitops)
+- [cloudbees.com: What is GitOps?](https://www.cloudbees.com/capabilities/ci-cd-workflows)
 - [Continuous GitOps, the way to do DevOps in Kubernetes](https://medium.com/@imarunrk/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster.
 - [thenewstack.io: What Is GitOps and Why It Might Be The Next Big Thing for DevOps](https://thenewstack.io/software-development)
 - [opensource.substack.com: All You Need To Know About GitOps](https://opensource.substack.com/p/all-you-need-to-know-about-gitops) A complete guide about GitOps, what why and how
-- [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster
+- [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb?gi=08e63e4d58c8) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster
 - [container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations)
-- [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) Deliver Infrastructure and Software running on it Rapidly and Reliably at Scale.
+- [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1?gi=7cfd5cc3840c) Deliver Infrastructure and Software running on it Rapidly and Reliably at Scale.
 - [medium: GitOps: Build infrastructure resilient applications 🌟](https://medium.com/@franoisdagostini/gitops-build-infrastructure-resilient-applications-95bbc939046d)
-- [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes 🌟](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster.
-- [itnext.io: Managing Kubernetes Secrets Securely with GitOps 🌟](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)
+- [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes 🌟](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb?gi=08e63e4d58c8) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster.
+- [itnext.io: Managing Kubernetes Secrets Securely with GitOps 🌟](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30?gi=46bee77069f8)
 - [sufle.io: Adopting GitOps for Enhanced Operations](https://www.sufle.io/blog/adopting-gitops-for-enhanced-operations)
 - [medium: GitOps : The Next Big Thing for DevOps and Automation!](https://medium.com/searce/gitops-the-next-big-thing-for-devops-and-automation-2a9597e51559) If you have similar questions like: “What’s GitOps?”, “Why we are moving towards this?”, “How and when one can implement this strategy in now running environment?”, “What are the tools it included?” then you have landed on the right page.
 - [thenewstack.io: Understanding GitOps: The Latest Tools and Philosophies](https://thenewstack.io/understanding-gitops-the-latest-tools-and-philosophies)
@@ -70,16 +70,16 @@
 
 - [geekflare.com: An Introduction to GitOps](https://geekflare.com/topic/development)
 - [thenewstack.io: GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered)
-- [kumomind.medium.com: Should I consider the GitOps methodology?](https://kumomind.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22)
+- [kumomind.medium.com: Should I consider the GitOps methodology?](https://madokai.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22)
 - [braindose.blog: 4 Key Characteristics for a Successful GitOps Implementation](https://braindose.blog/2020/03/18/4-key-characteristics-of-gitops)
 - [blog.container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations)
 - [gitops.tech: What is GitOps? 🌟](https://www.gitops.tech)
 - [thenewstack.io: Misconfiguration Worries Grow](https://thenewstack.io/misconfiguration-worries-grow)
 - [codefresh.io: The pains of GitOps 1.0 🌟](https://octopus.com/devops) GitOps as a practice for releasing software has several advantages, but like all other solutions before it, has also several shortcomings.
-- [weave.works: Managing Kubernetes with GitOps in a multi-cluster, multi-cloud world](https://www.weave.works/blog/managing-kubernetes-with-gitops-in-a-multi-cluster-multi-cloud-world)
+- [weave.works: Managing Kubernetes with GitOps in a multi-cluster, multi-cloud world](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [viewnext.com: ¿Qué es GitOps?](https://www.viewnext.com/que-es-gitops)
 - [thenewstack.io: Have Containers Will Travel: Why GitOps Is Essential for Multicloud 🌟](https://thenewstack.io/have-containers-will-travel-why-gitops-is-essential-for-multicloud)
-- [weave.works: Put Your Security Worries to Rest with GitOps Operational Control 🌟](https://www.weave.works/use-cases/security-with-gitops) GitOps workflows in the Weave Kubernetes Platform give teams a head start since they rely on Git’s strong correctness and security. Every pull request has a built-in and fully auditable trail. Many companies need to look beyond just compliance and seek a full GRC solution that’s integral to their workflows.
+- [weave.works: Put Your Security Worries to Rest with GitOps Operational Control 🌟](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745) GitOps workflows in the Weave Kubernetes Platform give teams a head start since they rely on Git’s strong correctness and security. Every pull request has a built-in and fully auditable trail. Many companies need to look beyond just compliance and seek a full GRC solution that’s integral to their workflows.
 - [thenewstack.io: Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference)
 - [about.gitlab.com: 3 Ways to approach GitOps 🌟](https://about.gitlab.com/blog/gitops-done-3-ways)
 - [developers.redhat.com: Why should developers care about GitOps?](https://developers.redhat.com/blog/2021/05/13/why-should-developers-care-about-gitops)
@@ -88,32 +88,32 @@
 - [en.sokube.ch: GitOps and the Millefeuille dilemma 🌟](https://en.sokube.ch/post/gitops-and-the-millefeuille-dilemma-1)
 - [octopus.com: How to structure your Git repository for DevOps automation](https://octopus.com/blog/devops-automation-repo-design)
 - [testingclouds.wordpress.com: GitOps Demystified](https://testingclouds.wordpress.com/2021/06/02/gitops-demystified)
-- [weave.works: Ops Automation - GitOps in the Modern Enterprise](https://www.weave.works/blog/gitops-in-the-modern-enterprise)
+- [weave.works: Ops Automation - GitOps in the Modern Enterprise](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [openshift.com: What is GitOps? 🌟](https://www.redhat.com/en/topics/devops/what-is-gitops) While DevOps provides an agile team structure, GitOps is a framework to start executing on the vision.
 - [thenewstack.io: Security Will Be Instrumental for the Success of GitOps](https://thenewstack.io/security-will-be-instrumental-for-the-success-of-gitops)
-- [weave.works: There’s More to GitOps Than Meets the Eye](https://www.weave.works/blog/theres-more-to-gitops-than-meets-the-eye)
+- [weave.works: There’s More to GitOps Than Meets the Eye](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [solo.io: GlooOps: Progressive delivery, the GitOps way](https://www.solo.io/blog)
-- [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://www.weave.works)
+- [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [thenewstack.io: A Look at GitOps for the Modern Enterprise 🌟](https://thenewstack.io/a-look-at-gitops-for-the-modern-enterprise)
 - [shipa.io: GitOps in the enterprise 🌟](https://shipa.io/gitops-in-the-enterprise)
-- [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b)
+- [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b?gi=d3ab8f3b1490)
 - [shipa.io: GitOps meets AppOps](https://shipa.io/gitops-meets-appops)
-- [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://go.weave.works/automating-kubernetes-with-gitops-wp.html)
+- [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [devopslearners.com: What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee) A small explanation for GitOps
-- [go.weave.works: The Practical Guide to GitOps (eBook)](https://www.weave.works)
+- [go.weave.works: The Practical Guide to GitOps (eBook)](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [enterprisersproject.com: How to explain GitOps in plain English](https://enterprisersproject.com/article/2021/6/gitops-explained-plain-english) What is GitOps and why is it important? How can IT leaders explain GitOps to others, especially if they don’t speak DevOps or cloud-native? Experts break it down
 - [redhat.com: An illustrated guide to GitOps](https://www.redhat.com/en/blog/illustrated-guide-gitops) Understanding the basic principles driving GitOps offers Enterprise Architects a new way of working in the modern enterprise.
 - [bunnyshell.com: GitOps vs. DevOps: What’s the Difference? 🌟](https://www.bunnyshell.com/blog/gitops-vs-devops)
 - [jimangel.io: Self-Updating GitOps](https://www.jimangel.io/posts/self-updating-gitops) Self-hosted, Self-healing, Self-updating, Self-patching Kubernetes madness
 - [stevesmith.tech: GitOps is a placebo](https://www.stevesmith.tech/blog/gitops-is-a-placebo)
-- [weave.works: The History of GitOps 🌟](https://www.weave.works/blog/the-history-of-gitops)
+- [weave.works: The History of GitOps 🌟](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [opensource.com: How to get the most out of GitOps right now](https://opensource.com/article/21/8/gitops) GitOps is a great starting point to understand what is running in production, but it may need a little more augmentation to get it working just right for your engineering team.
 - [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/en/blog/3-gitops-rules-architecture) Check out these three rules for using GitOps to get your enterprise architecture up and running effectively.
-- [weave.works: Hardening Git for GitOps (white paper)](https://go.weave.works/hardening-git-for-gitops.html)
+- [weave.works: Hardening Git for GitOps (white paper)](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [magalix.com: GitOps 101: What’s It All About?](https://www.magalix.com/blog/what-is-gitops)
 - [containerjournal.com: The 4 Levels of GitOps Maturity](https://cloudnativenow.com/features/the-4-levels-of-gitops-maturity)
 - [thenewstack.io: How to Get the Most out of GitOps](https://thenewstack.io/how-to-get-the-most-out-of-gitops) __Just as Kubernetes was accepted as the best way to do cloud native applications, GitOps is gaining recognition as the best way to do Kubernetes.__
-- [weave.works: Case Study: National Australia Bank Decreases Operational Overhead with GitOps](https://www.weave.works/blog/case-study-national-australia-bank-decreases-operational-overhead-with-gitops) New case study on how GitOps helped NAB, Australia's largest business bank decrease operational overhead for their move to EKS: "We turned to Weaveworks because of their extensive EKS and Kubernetes experience, including their close partnership with AWS".
+- [weave.works: Case Study: National Australia Bank Decreases Operational Overhead with GitOps](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745) New case study on how GitOps helped NAB, Australia's largest business bank decrease operational overhead for their move to EKS: "We turned to Weaveworks because of their extensive EKS and Kubernetes experience, including their close partnership with AWS".
 - [betterprogramming.pub: How GitOps Can Help Prevent Security Misconfigurations](https://betterprogramming.pub/how-gitops-can-help-prevent-security-misconfigurations-8b506dcd89e1) Cloud-native development comes with its own set of security risks. Know how to tackle them
 - [blogs.sap.com: Decentralized GitOps over multiple environments](https://blogs.sap.com/2021/05/06/decentralized-gitops-over-environments)
 - [thenewstack.io: Application Deployment Is Faster with GitOps](https://thenewstack.io/application-deployment-is-faster-with-gitops)
@@ -138,13 +138,13 @@
     - __The question of "How do I promote a release to the next environment?" is becoming increasingly popular among organizations that want to adopt GitOps. You should NOT use Git branches for modelling different environments.__
 - [codefresh.io: The pains of GitOps 1.0](https://octopus.com/devops)
 - [==thenewstack.io: Can You GitOps Your APIs?==](https://thenewstack.io/can-you-gitops-your-apis)
-- [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://www.weave.works/blog/gitops-takes-devops-teams-to-higher-levels-of-maturity)
+- [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [==linkedin.com pulse: WTH is GitOps? | Pavan Belagatti==](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti)
 - [medium.com/@buraktahtacioglu: GitOps Fundamentals — CNCF Roadmap](https://medium.com/@buraktahtacioglu/gitops-fundamentals-cncf-roadmap-fa686dbced9d) GitOps deployments:
     - A GitOps agent is deployed on the cluster.
     - The GitOps agent is monitoring one or more Git repositories that define applications and contain Kubernetes manifests (or Helm charts or Kustomize files).
 - [toolbox.com: Why Are Organizations Adopting GitOps for Continuous Deployment in 2022?](https://www.toolbox.com/tech/devops/articles/more-organizations-adopting-gitops) GitOps extracts best practices of DevOps and utilizes software development methods like version control, code review, and CI/CD pipelines. But is it a sustainable approach? Here’s a look at its pros and cons.
-- [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) GitOps and 5G - a deep dive into Deutsche Telekom’s experience
+- [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745) GitOps and 5G - a deep dive into Deutsche Telekom’s experience
 - [==thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea==](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea)
 - [harness.io: GitOps: The New Kid On The DevOps Block!](https://www.harness.io/blog) GitOps: the single source of truth, the evangelizer of as-code, and the bringer of CI/CD automation. Get an intro view into GitOps here!
 - [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) __explore how GitOps best serves organizations that develop cloud-native solutions based on containerization and microservices.__
@@ -176,11 +176,11 @@
     - Faster deployment
     - Better collaboration
 - [==dzone: The Essentials of GitOps== 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
-- [blog.devops.dev: GitOps — Fundamentals Part 0](https://blog.devops.dev/gitops-fundamentals-part-0-a8e63f8f9ce8)
+- [blog.devops.dev: GitOps — Fundamentals Part 0](https://blog.devops.dev/gitops-fundamentals-part-0-a8e63f8f9ce8?gi=37ac8334e848)
 - [==thenewstack.io: The Next Kubernetes Management Frontier: Automation. Automation Is No Longer a “Nice to Have”== 🌟🌟](https://thenewstack.io/the-next-kubernetes-management-frontier-automation) **Investing in a GitOps-ready, central control plane will point organizations in the right direction of the next Kubernetes management frontier.**
 - [loft.sh: GitOps + Kubernetes Explained](https://www.vcluster.com/blog/gitops-kubernetes-explained)
-- [msrishty.medium.com: Traditional CI-CD vs gitops 🌟](https://msrishty.medium.com/traditional-ci-cd-vs-gitops-e835728642fb)
-- [blog.developersteve.com: GitOps for Kubernetes Canary Deployments](https://blog.developersteve.com/gitops-for-kubernetes-canary-deployments-4aeab4043727)
+- [msrishty.medium.com: Traditional CI-CD vs gitops 🌟](https://blog.devops.dev/traditional-ci-cd-vs-gitops-e835728642fb?gi=ae79078d3e8f)
+- [blog.developersteve.com: GitOps for Kubernetes Canary Deployments](https://blog.developersteve.com/gitops-for-kubernetes-canary-deployments-4aeab4043727?gi=090d814378fa)
 - [thenewstack.io: GitOps as an Evolution of Kubernetes](https://thenewstack.io/gitops-as-an-evolution-of-kubernetes)
 - [github.blog: Applying GitOps principles to your operations](https://github.blog/enterprise-software/devops/applying-gitops-principles-to-your-operations) Could we use our Git repository as the source of truth for operational tasks, and somehow reconcile changes with our real-world view?
 - [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 1](https://hackernoon.com/what-is-gitops-and-why-it-is-almost-useless-part-1)
@@ -189,7 +189,7 @@
 - [medium.com/containers-101: Using GitOps for Databases](https://medium.com/containers-101/using-gitops-for-databases-f09a027184bb)
 - [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops)
 - [medium.com/@ahmed.fathy.elayaat: What is GitOps?](https://medium.com/@ahmed.fathy.elayaat/gitops-fc27ef5a7836)
-- [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) Don’t underestimate the Role of Culture in Successful GitOps Implementation. This article argues that GitOps requires a mindset shift. **Challenges like security enforcement and platform upgrades demand cross-team collaboration, and overcoming GitOps cultural barriers requires fostering teamwork and delineating responsibilities.**
+- [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604?gi=13b3d941ac3f) Don’t underestimate the Role of Culture in Successful GitOps Implementation. This article argues that GitOps requires a mindset shift. **Challenges like security enforcement and platform upgrades demand cross-team collaboration, and overcoming GitOps cultural barriers requires fostering teamwork and delineating responsibilities.**
 
 <center markdown="1">
 
@@ -246,7 +246,7 @@
 - [openshift.com: Announcing OpenShift GitOps](https://www.redhat.com/en/blog/announcing-openshift-gitops)
 - [ibm.com: Enable GitOps](https://www.ibm.com/garage) GitOps focuses on the Ops side of DevOps and shows how operations configurations, infrastructures, and actions are like software. Everything is code and code is managed with Git.
 - [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.redhat.com/en/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available)
-- [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://www.weave.works/blog/wkp-team-workspaces-rbac)
+- [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
 - [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://platform.cloudogu.com/en/blog/gitops-tools)
 - [shipa.io: From Terraform to GitOps to Pulumi 🌟 [ARCHIVED]](http://web.archive.org/web/20211020205037/https://shipa.io/2021/10/from-terraform-to-gitops-to-pulumi)
@@ -290,7 +290,7 @@
 ### WKSctl. Weave Kubernetes System Control
 
 - [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
-- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
+- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)
 
 ### Jenkins
@@ -328,7 +328,7 @@
 
 ### Weave GitOps
 
-- [Weave GitOps Enterprise](https://www.weave.works/product/gitops-enterprise)
+- [Weave GitOps Enterprise](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
     - Weave GitOps Enterprise is a continuous operations product that makes it easy to deploy and manage Kubernetes clusters and applications in any environment. With a single management console that lets you operate clusters running anywhere, in the public cloud, on the edge or in any hybrid scenario. Strong multi-tenancy can accelerate app delivery by providing developers with self-serve isolated workload namespaces across environments.
     - With Weave GitOps Enterprise, every change is recorded in Git – whether it's a change to application code or platform config and whoever was responsible. So you have a self-generating audit trail available at all times, and far fewer...
 - [thenewstack.io: Weave GitOps Core Integrates Git with Kubernetes](https://thenewstack.io/weave-gitops-core-integrates-git-with-kubernetes)
@@ -368,7 +368,7 @@
 
 ### Weave Kubernetes Platform
 
-- [weave.works: Weave Kubernetes Platform](https://www.weave.works) Automate Enterprise Kubernetes the GitOps way
+- [weave.works: Weave Kubernetes Platform](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745) Automate Enterprise Kubernetes the GitOps way
 - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
 
 ### Ubuntu Charmed Kubernetes
