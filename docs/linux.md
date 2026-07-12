@@ -68,7 +68,7 @@
 - [thevaluable.dev: A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced)
 - [redhat.com: Recursive Vim macros: One step further into automating repetitive tasks](https://www.redhat.com/en/blog/recursive-vim-macros) Take Vim to the limit with recursive macros.
 - [openvim.com](https://openvim.com) Interactive Vim tutorial for developers, sysadmins and Linux or Unix users.
-- [levelup.gitconnected.com: Vim: A How-To Guide](https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff) Key Techniques with Vim for Faster Programming
+- [levelup.gitconnected.com: Vim: A How-To Guide](https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff?gi=18e4902246b6) Key Techniques with Vim for Faster Programming
 
 ## Neovim
 
@@ -126,7 +126,7 @@
 - [Linux-tutorial.info](https://www.linux-tutorial.info)
 - [The Lone Sysadmin](https://lonesysadmin.net)
 - [LinuxLinks.com](https://www.linuxlinks.com)
-- [unixmages.com](https://unixmages.com)
+- [unixmages.com](https://www.chicken-roads.com)
 - [The Geek Stuff](https://www.thegeekstuff.com)
 - [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) A study notes book for the common knowledge and tasks of a Linux system admin.
 
@@ -236,7 +236,7 @@
 - [==jvns.ca: A list of new(ish) command line tools | Julia Evans==](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools)
 - [itsfoss.com: 5 htop Alternatives to Enhance Your Linux System Monitoring Experience](https://itsfoss.com/htop-alternatives)
 - [dev.to: 50 Linux Commands every developer NEED to know with example](https://dev.to/kanani_nirav/50-linux-commands-every-developer-need-to-know-with-example-mc)
-- [blog.devgenius.io: DevOps in Linux — Systemd Introduction](https://blog.devgenius.io/devops-in-linux-systemd-introduction-db7f49cb566b)
+- [blog.devgenius.io: DevOps in Linux — Systemd Introduction](https://blog.devgenius.io/devops-in-linux-systemd-introduction-db7f49cb566b?gi=504d3da42367)
 - [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) Difftastic is a CLI diff tool that compares files based on their syntax, not line-by-line. Difftastic produces accurate diffs that are easier for humans to read.
 - [digitalocean.com: How To Use Journalctl to View and Manipulate Systemd Logs 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)
 - [github.com/curl/wcurl 🌟](https://github.com/curl/wcurl) a simple wrapper around curl to easily download files
@@ -289,9 +289,9 @@
 - [pythonspeed.com: Please stop writing shell scripts](https://pythonspeed.com/articles/shell-scripts)
 - [linuxshelltips.com: What’s the Difference Between ${} and $() in Bash](https://www.linuxshelltips.com/difference-between-and-in-bash)
 - [medium.com/kubehub: A Series on Bash Scripting](https://medium.com/kubehub/a-series-on-bash-scripting-eecd0293fab5)
-- [levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script — Part 1](https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7) Everything You Need to Know to Write Bash Scripts
+- [levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script — Part 1](https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7?gi=335a55a11606) Everything You Need to Know to Write Bash Scripts
 - [medium.com: Shell Scripting for DevOps with Examples](https://medium.com/@saurabhdahibhate50/devops-day-04-task-e51d64ffbf16)
-- [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593) Process strings productively in your automation scripts with these syntaxes
+- [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593?gi=c80ac5947bbe) Process strings productively in your automation scripts with these syntaxes
 - [piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers](https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers)
 - [gnu.org/software/parallel](https://www.gnu.org/software/parallel) GNU parallel is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input. The typical input is a list of files, a list of hosts, a list of users, a list of URLs, or a list of tables. A job can also be a command that reads from a pipe. GNU parallel can then split the input and pipe it into commands in parallel.
 - [==youtube: Bash for Beginners==](https://www.youtube.com/playlist?list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l) Bash is considered a universal language when it comes to cloud computing and programming. Many languages support Bash commands to pass data and information and when it comes to the Cloud, all platforms support using it to interact with your environment.
@@ -321,7 +321,7 @@
 - https://github.com/bpftrace/bpftrace/blob/master/docs/reference_guide.md
 - https://github.com/bpftrace/bpftrace/blob/master/docs/tutorial_one_liners.md
 - https://github.com/bpftrace/bpftrace/blob/master/docs/internals_development.md
-- [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)
+- [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff?gi=07ee3c600473)
 
 ## Linux processes
   - [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) - *(Related to kubernetes topic)*
