@@ -38,8 +38,8 @@
 - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/new)
 - [AWS Forums](https://repost.aws)
-- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)
-- [AWS Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+- [AWS Knowledge Center](https://repost.aws/knowledge-center)
+- [AWS Glossary](https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html)
 - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
 - [AWS Support](https://aws.amazon.com/premiumsupport)
@@ -61,7 +61,7 @@
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://www.pluralsight.com/resources/blog/cloud/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
 - [dannys.cloud: 10 Best Free AWS Learning Resources for Beginners](https://dannys.cloud/10-best-free-aws-learning-resources-for-beginners) This blogpost provides free resources for beginners to get started with AWS through videos, whitepapers, labs, and certification guides.
 - [linkedin pulse: Listado de todos los Servicios de AWS (actualizado 1 de Enero 2021)](https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva)
-- [towardsaws.com: A Gentle Introduction to Amazon Web Services (AWS)](https://towardsaws.com/a-gentle-introduction-to-amazon-web-services-aws-50f18c7c57dc)
+- [towardsaws.com: A Gentle Introduction to Amazon Web Services (AWS)](https://towardsaws.com/a-gentle-introduction-to-amazon-web-services-aws-50f18c7c57dc?gi=a9a049b96b9c)
 - [docs.aws.amazon.com: The AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html)
 - [thenewstack.io: The AWS Shared Responsibility Model for Kubernetes](https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes)
 - [medium: AWS Services Every Developer Should Be Aware Of](https://medium.com/@ashish_fagna/aws-services-every-developer-should-be-aware-of-f7c48aaa854f)
@@ -83,7 +83,7 @@
 - [medium.com/gargee-bhatnagar: How to Create a Custom AMI with Image Pipeline and Automate its Creation Using EC2 Image Builder](https://medium.com/gargee-bhatnagar/how-to-create-a-custom-ami-with-image-pipeline-and-automate-its-creation-using-ec2-image-builder-7e194e39c8e9)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
 - [medium.com/@imaze.enabulele: Autoscaling EC2 Instances for High Availability and Stress Testing 🌟](https://medium.com/@imaze.enabulele/autoscaling-ec2-instances-for-high-availability-and-stress-testing-946b41f229e2)
-- [awstip.com: How to list all resources in your AWS account](https://awstip.com/how-to-list-all-resources-in-your-aws-account-c3f18061f71b)
+- [awstip.com: How to list all resources in your AWS account](https://awstip.com/how-to-list-all-resources-in-your-aws-account-c3f18061f71b?gi=34fb1d007762)
 - [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones) AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers.
 - [dev.to: Disaster Recovery Cheat-sheet/Write-up 🌟](https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62)
 - [terminalsandcoffee.com: Setting Up the AWS CLI & IAM User API Keys 🌟](https://terminalsandcoffee.com/setting-up-the-aws-cli-iam-user-api-keys-b83554e314e4)
@@ -105,8 +105,8 @@
   - [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld) - *(Related to devops topic)*
 
 - [Jayendra's Blog 🌟🌟](https://jayendrapatil.com)
-- [aws.plainenglish.io](https://aws.plainenglish.io)
-- [AWStip.com](https://awstip.com) Community of passionate AWS builders.
+- [aws.plainenglish.io](https://aws.plainenglish.io/?gi=30861b9c7fb9)
+- [AWStip.com](https://awstip.com/?gi=84ab3bb4f49a) Community of passionate AWS builders.
 
 ## AWS Free Resources
 
@@ -124,7 +124,7 @@
 - [Everything AWS | Search and discover 6K+ quality AWS repositories](https://app.polymersearch.com/discover/aws)
 - [workshops.aws: AWS Workshops](https://builder.aws.com/build/workshops?trk=265ae1c7-2dfc-44c6-bc73-a4d991b8bd7f&sc_channel=el) This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.
 You can filter by topic using the toolbar above.
-- [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)
+- [AWS Courses created by AWS experts](https://www.amazon.com)
 - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)
 - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 
@@ -162,7 +162,7 @@ You can filter by topic using the toolbar above.
   - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) 🌟 - This blog post introduces an enhanced local Integrated Development Environment (IDE) experience for AWS Step Functions, integrating Workflow Studio directly into Visual Studio Code (VS Code) via the AWS Toolkit extension. This allows developers to visually author and edit state machines locally, mirroring the AWS Console experience. The integration simplifies the development of distributed applications, process automation, microservice orchestration, and data/ML pipelines by providing a seamless workflow authoring experience within the developer's preferred IDE, synchronizing visual changes with the Amazon States Language (ASL) definition.
 
 - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer)
-- [Create an API Using the Swagger Specification and the API Gateway Extensions](https://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
+- [Create an API Using the Swagger Specification and the API Gateway Extensions](https://docs.aws.amazon.com/apigateway/latest/developerguide)
 
 ## AWS Patterns
   - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98) - *(Related to terraform topic)*
@@ -181,11 +181,11 @@ You can filter by topic using the toolbar above.
 
 ## AWS Management Console
 
-- [Working with the AWS Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+- [Working with the AWS Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg)
 
 ## Resource Hierarchies
 
-- [AWS, Azure, GCP: Resource Hierarchies](https://levelup.gitconnected.com/aws-azure-gcp-resource-hierarchies-25b829127511)
+- [AWS, Azure, GCP: Resource Hierarchies](https://levelup.gitconnected.com/aws-azure-gcp-resource-hierarchies-25b829127511?gi=0e46520abcd5)
 
 ## AWS Tags
 
