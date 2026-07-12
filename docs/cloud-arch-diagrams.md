@@ -13,7 +13,7 @@
 
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
 - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)
-- [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12)
+- [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e)
 
 ## MultiCloud
 
@@ -53,7 +53,7 @@
 
 ## AWS
   - [AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub Copilot](https://github.com/Azure/AZVerify) - *(Related to azure topic)*
-  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) - *(Related to azure topic)*
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/baseline-zone-redundant) - *(Related to azure topic)*
   - [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) - *(Related to azure topic)*
   - [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) - *(Related to azure topic)*
   - [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones) - *(Related to azure topic)*
@@ -66,7 +66,7 @@
 - [hava.io](https://www.hava.io)
 - [draw.io](https://app.diagrams.net)
 - [CloudMapper (OSS)](https://duo.com/blog)
-- [==Lucidchart==](https://www.lucidchart.com/pages)
+- [==Lucidchart==](https://lucid.co/lucidchart)
     - [==Lucidscale: Import your architecture==](https://lucid.co/lucidscale) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
 - [infviz.io](https://infviz.io)
 - [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer)
