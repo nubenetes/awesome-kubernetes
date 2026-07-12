@@ -89,9 +89,9 @@
 	| Insights | Monthly, Weekly or Daily | Instantly |
 	| Cost | Affordable at massive scale | Affordable at massive scale and speed |
 
-- [blog.direktiv.io: Event driven orchestration with Knative (part 1)](https://blog.direktiv.io/event-driven-orchestration-with-knative-part-1-fbdcc0e2ea03)
-- [blog.direktiv.io: Redefining event-driven orchestration for automation & applications](https://blog.direktiv.io/redefining-event-driven-orchestration-for-automation-applications-ec07d79f21c0)
-- [pub.towardsai.net: Deep Dive into Event-Driven architecture | Gul Ershad](https://pub.towardsai.net/software-engineering-baa4e7a8015c)
+- [blog.direktiv.io: Event driven orchestration with Knative (part 1)](https://blog.direktiv.io/event-driven-orchestration-with-knative-part-1-fbdcc0e2ea03?gi=f940c73fd2eb)
+- [blog.direktiv.io: Redefining event-driven orchestration for automation & applications](https://blog.direktiv.io/redefining-event-driven-orchestration-for-automation-applications-ec07d79f21c0?gi=638d7c97a9ee)
+- [pub.towardsai.net: Deep Dive into Event-Driven architecture | Gul Ershad](https://pub.towardsai.net/software-engineering-baa4e7a8015c?gi=cdaabbcfb7ab)
 - [developer.com: An Introduction to Event Driven Microservices](https://www.developer.com/design/event-driven-microservices)
 - [dzone.com: What Are Microservices and The Event Aggregator Pattern? 🌟](https://dzone.com/articles/microservices-and-the-event-aggregator-pattern) Learn about the Event Aggregator pattern for organizing event communication in a microservices architecture with an example.
 - [ibm.com: Event-driven cloud-native applications (microservices)](https://www.ibm.com/think/topics/cloud-native) The event backbone is being part of the microservices mesh, providing the publish-and-subscribe communication between microservices and enabling the support of loosely coupled event-driven microservices.
@@ -104,7 +104,7 @@
 - [medium.com/fiverr-engineering: How to Share Data Between Microservices on High Scale](https://medium.com/fiverr-engineering/how-to-share-data-between-microservices-on-high-scale-ab2bc663898d) Several approaches suitable for a scalable system considering tradeoffs between availability and consistency
 - [medium.com/codex: Microservices Communication — Queues Topics and Streams](https://medium.com/codex/microservices-communication-queues-topics-and-streams-597664d4b786) I will speak about types of messages broker that are famous in microservices communication.
 - [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4) 6 Reasons where you need to use Event Sourcing in Micro-services
-- [==emirayhan.medium.com: What is the difference Message Queue and Message Bus?== 🌟](https://emirayhan.medium.com/what-is-the-difference-message-queue-and-message-bus-7f2e2867eff6)
+- [==emirayhan.medium.com: What is the difference Message Queue and Message Bus?== 🌟](https://blog.stackademic.com/what-is-the-difference-message-queue-and-message-bus-7f2e2867eff6?gi=c427ed6b30be)
 - [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch) **An overview of my different series on patterns in distributed systems. A good collection of Messaging Patterns**
 - [medium.com/event-driven-utopia: Comparing Stateful Stream Processing and Streaming Databases](https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb) How do these two technologies work? how do they differ, and when is the right time to use them?
 - [thenewstack.io: How to Get Started with Data Streaming](https://thenewstack.io/how-to-get-started-with-data-streaming) With Kafka and associated tools, developers can create stream-processing pipelines that transform data for real-time applications.
@@ -139,7 +139,7 @@
 
 ### RabbitMQ message broker
 
-- [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
+- [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6?gi=379a01780cb4) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
 - [medium.com: **RabbitMQ vs. Kafka**](https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793) An architect’s dilemma
 - [blog.rabbitmq.com: First Application With RabbitMQ Streams](https://www.rabbitmq.com/blog/2021/07/19/rabbitmq-streams-first-application)
 - [geshan.com.np: How to use RabbitMQ and Node.js with Docker and Docker-compose](https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs)
@@ -190,7 +190,7 @@
 - Integration Platform as a Service (iPaaS) is a suite of cloud services enabling development, execution and governance of integration flows connecting any combination of on premises and cloud-based processes, services, applications and data within individual or across multiple organizations.
 - Integration platform as a service (iPaaS) is a set of automated tools for connecting software applications that are deployed in different environments. iPaaS is often used by large business-to-business (B2B) enterprises that need to integrate on-premises applications and data with cloud applications and data.
 - [blog.axway.com: What is iPaaS?](https://blog.axway.com/hybrid-integration/whats-ipaas)
-- [ibm.com: iPaaS (Integration-Platform-as-a-Service)](https://www.ibm.com/topics): iPaaS is a cloud-based solution that simplifies application integration across on-premises and cloud environments, to help you accelerate innovation and lower your integration and operations costs.
+- [ibm.com: iPaaS (Integration-Platform-as-a-Service)](https://www.ibm.com/think/topics): iPaaS is a cloud-based solution that simplifies application integration across on-premises and cloud environments, to help you accelerate innovation and lower your integration and operations costs.
 
 ### Red Hat Fuse and Red Hat Fuse Online
 
@@ -266,7 +266,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [confluent.fr: Infrastructure Modernization with Google Anthos and Apache Kafka](https://www.confluent.io/fr-fr/blog/modernize-apps-and-infrastructure-with-anthos-confluent-kafka)
 - [confluent.io: Apache Kafka DevOps with Kubernetes and GitOps](https://www.confluent.io/blog/devops-for-apache-kafka-with-kubernetes-and-gitops)
 - [Build a data streaming pipeline using Kafka Streams and Quarkus](https://developers.redhat.com/blog/2020/09/28/build-a-data-streaming-pipeline-using-kafka-streams-and-quarkus)
-- [levelup.gitconnected.com: Kafka for Engineers 🌟](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067) Here are things about Kafka that you need to understand as a software engineer.
+- [levelup.gitconnected.com: Kafka for Engineers 🌟](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067?gi=6fa7e902b401) Here are things about Kafka that you need to understand as a software engineer.
 - [confluent.io: How to Build and Deploy Scalable Machine Learning in Production with Apache Kafka](https://www.confluent.io/blog/build-deploy-scalable-machine-learning-production-apache-kafka)
 - [banzaicloud.com: Kafka on Kubernetes - using etcd 🌟](https://banzaicloud.com/blog/kafka-on-etcd)
 - [softwareengineeringdaily.com: Kafka Applications with Tim Berglund (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/16/kafka-applications-with-tim-berglund-repeat)
@@ -279,7 +279,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Google Pub/Sub Lite for Kafka Users](https://medium.com/google-cloud/google-pub-sub-lite-for-kafka-users-dec8a7cfc5e5)
 - [medium: 4 Microservices Caching Patterns at Wix](https://medium.com/wix-engineering/4-microservices-caching-patterns-at-wix-b4dfee1ae22f)
 - [Confluent.io: Intro to Apache Kafka: How Kafka Works 🌟](https://developer.confluent.io/what-is-apache-kafka)
-- [levelup.gitconnected.com: Kafka for Engineers](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067)
+- [levelup.gitconnected.com: Kafka for Engineers](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067?gi=6fa7e902b401)
 - [medium: Microservices in Rust with Kafka](https://medium.com/digitalfrontiers/microservices-in-rust-with-kafka-2b671295b24e)
 - [medium: Apache Kafka in a Nutshell 🌟](https://medium.com/swlh/apache-kafka-in-a-nutshell-5782b01d9ffb) Architecture, Use Cases, and a Getting Started guide — rolled into one
 - [confluent.io: Simplifying Apache Kafka Multi-Cluster Management Using Control Center and Cluster Registry](https://www.confluent.io/blog/simplify-multiple-kafka-cluster-management-monitoring-using-confluent)
@@ -308,7 +308,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper](https://www.confluent.io/blog/latest-apache-kafka-release)
 - [phoenixnap.com: How to Set Up and Run Kafka on Kubernetes 🌟](https://phoenixnap.com/kb/kafka-on-kubernetes)
 - [piotrminkowski.com: Knative Eventing with Quarkus, Kafka and Camel](https://piotrminkowski.com/2021/06/14/knative-eventing-with-quarkus-kafka-and-camel)
-- [itnext.io: Configuring Kafka Sources and Sinks declaratively in Kubernetes using Knative](https://itnext.io/configuring-kafka-sources-and-sinks-in-kubernetes-271e3757b208) This solves the complexity in work flow of compiling JARs and uploading them to a Kafka connect cluster. Using Knative it can be possible to leverage the Kubernetes cluster and define Kafka sources and sinks with Kubernetes objects.
+- [itnext.io: Configuring Kafka Sources and Sinks declaratively in Kubernetes using Knative](https://itnext.io/configuring-kafka-sources-and-sinks-in-kubernetes-271e3757b208?gi=f4db65c25ab6) This solves the complexity in work flow of compiling JARs and uploading them to a Kafka connect cluster. Using Knative it can be possible to leverage the Kubernetes cluster and define Kafka sources and sinks with Kubernetes objects.
 - [strimzi.io: Kafka upgrade improvements](https://strimzi.io/blog/2021/07/05/upgrade-improvements)
 - [developers.redhat.com: Getting started with Red Hat OpenShift Streams for Apache Kafka](https://developers.redhat.com/articles/2021/07/07/getting-started-red-hat-openshift-streams-apache-kafka)
 - [developers.redhat.com: Managing the API life cycle in an event-driven architecture: A practical approach 🌟](https://developers.redhat.com/articles/2021/07/07/managing-api-life-cycle-event-driven-architecture-practical-approach)
@@ -318,27 +318,27 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dzone: Next-Gen Data Pipes With Spark, Kafka and k8s 🌟](https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s) This article examines the architecture patterns and provides some sample code for the readers to implement in their own environment.
 - [confluent.io: Making Apache Kafka Serverless: Lessons From Confluent Cloud](https://www.confluent.io/blog/designing-an-elastic-apache-kafka-for-the-cloud)
 - [developer.confluent.io 🌟🌟](https://developer.confluent.io) over ten hours of FREE video courses with hands-on exercises, 50+ event streaming patterns, deep-dive articles on Kafka's internals, and a ton more.
-- [itnext.io: Sending Messages to Kafka in Kubernetes](https://itnext.io/sending-messages-to-kafka-cfb5a246f5eb)
+- [itnext.io: Sending Messages to Kafka in Kubernetes](https://itnext.io/sending-messages-to-kafka-cfb5a246f5eb?gi=2bbc971d76e4)
 - [cloudhut.dev: Running Apache Kafka on Kubernetes successfully](https://cloudhut.dev/blog/2021-06-24-running-kafka-on-kubernetes) A comparison for different installation methods for running Kafka in Kubernetes
 - [developers.redhat.com: The outbox pattern with Apache Kafka and Debezium 🌟](https://developers.redhat.com/articles/2021/09/01/outbox-pattern-apache-kafka-and-debezium)
 - [towardsdatascience.com: Overview of UI Tools for Monitoring and Management of Apache Kafka Clusters](https://towardsdatascience.com/overview-of-ui-tools-for-monitoring-and-management-of-apache-kafka-clusters-8c383f897e80)
 - [analyticsindiamag.com: How Uber is Leveraging Apache Kafka For More Than 300 Micro Services](https://analyticsindiamag.com/how-uber-is-leveraging-apache-kafka-for-more-than-300-micro-services)
-- [itnext.io: Securely Decoupling Kubernetes-based Applications on Amazon EKS using Kafka with SASL/SCRAM](https://itnext.io/securely-decoupling-applications-on-amazon-eks-using-kafka-with-sasl-scram-48c340e1ffe9) Securely decoupling Go-based microservices on Amazon EKS using Amazon MSK with IRSA, SASL/SCRAM, and data encryption
+- [itnext.io: Securely Decoupling Kubernetes-based Applications on Amazon EKS using Kafka with SASL/SCRAM](https://itnext.io/securely-decoupling-applications-on-amazon-eks-using-kafka-with-sasl-scram-48c340e1ffe9?gi=0b8e79e686dc) Securely decoupling Go-based microservices on Amazon EKS using Amazon MSK with IRSA, SASL/SCRAM, and data encryption
 - [medium: Running Kafka in Kubernetes, Part 1: Why we migrated our Kafka clusters to Kubernetes](https://medium.com/transferwise-engineering/running-kafka-in-kubernetes-part-1-why-we-migrated-our-kafka-clusters-to-kubernetes-722101a2e751) At Wise, we chose to migrate our Apache Kafka clusters, previously running on Amazon Web Services (AWS) EC2 instances, into a multi-cluster Kubernetes setup. This article is the first part of a two-part series aiming to outline the motivations behind this choice and the challenges we faced.
-- [betterprogramming.pub: How to Handle Duplicate Messages and Message Ordering in Kafka](https://betterprogramming.pub/how-to-handle-duplicate-messages-and-message-ordering-in-kafka-82e2fef82025) Dealing with the challenges faced when using Apache Kafka
+- [betterprogramming.pub: How to Handle Duplicate Messages and Message Ordering in Kafka](https://i-topolev-vladimir.medium.com/how-to-handle-duplicate-messages-and-message-ordering-in-kafka-82e2fef82025) Dealing with the challenges faced when using Apache Kafka
 - [medium: Optimizing Kafka Streams Apps on Kubernetes by Splitting Topologies](https://medium.com/bakdata/optimizing-kafka-streams-apps-on-kubernetes-by-splitting-topologies-ac6b4c90516e)
 - [blog.twitter.com: Processing billions of events in real time at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
-- [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)
+- [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inders-ai.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)
 - [datadoghq.com: Monitoring Kafka performance metrics](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics)
 - [blog.workwell.io: How to manage your Kafka consumers from the producer](https://blog.workwell.io/how-to-manage-your-kafka-consumers-from-the-producer-9933b88085dd)
 - [slack.engineering: Building Self-driving Kafka clusters using open source components](https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components)
 - [adam-kotwasinski.medium.com: Kafka mesh filter in Envoy](https://adam-kotwasinski.medium.com/kafka-mesh-filter-in-envoy-a70b3aefcdef)
-- [==conduktor.io: What is Apache Kafka?==](https://docs.conduktor.io/learn/what-is-apache-kafka) Learn about Apache Kafka and its ecosystem in 20 minutes.
+- [==conduktor.io: What is Apache Kafka?==](https://www.conduktor.io/kafka) Learn about Apache Kafka and its ecosystem in 20 minutes.
 - [medium.com/airwallex-engineering: Kafka Streams: Iterative Development and Blue-Green Deployment](https://medium.com/airwallex-engineering/kafka-streams-iterative-development-and-blue-green-deployment-fae88b26e75e) Blue-Green Deployment for Kafka Stream Applications.
 - [==redhat.com: How we use Apache Kafka to improve event-driven architecture performance==](https://www.redhat.com/en/blog/apache-kafka-EDA-performance) **When designing your event-driven architecture, consider these ways to configure Kafka to improve performance.**
 - [dev.to: Running Kafka on kubernetes for local development](https://dev.to/thegroo/running-kafka-on-kubernetes-for-local-development-2a54)
 - [medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache Kafka](https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b) An overview of how to build a fault-tolerant event delivery system by using non-blocking retries of Apache Kafka® in Udemy Payments Team
-- [==conduktor.io/kafka: Learn Apache Kafka like never before==](https://docs.conduktor.io/learn) Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.
+- [==conduktor.io/kafka: Learn Apache Kafka like never before==](https://www.conduktor.io/kafka) Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.
 - [developers.redhat.com: Which is better: A single Kafka cluster to rule them all, or many?](https://developers.redhat.com/articles/2022/03/10/which-better-single-kafka-cluster-rule-them-all-or-many)
 - [medium.com/dna-technology: Why we dropped event sourcing with Kafka Streams when given a second chance](https://medium.com/dna-technology/why-we-dropped-event-sourcing-with-kafka-streams-when-given-a-second-chance-b904a80bc4be)
 - [==kai-waehner.de: When NOT to use Apache Kafka?==](https://www.kai-waehner.de/blog/2022/01/04/when-not-to-use-apache-kafka)
@@ -347,7 +347,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [blog.developer.adobe.com: Exploring Kafka Producer’s Internals 🌟](https://blog.developer.adobe.com/exploring-kafka-producers-internals-37411b647d0f) This is the first part of a series where we explore Kafka client's internals. This post focuses on the Kafka Producer.
 - [medium.com/altitudehq: Kafka retries and maintaining the order of retry events 🌟](https://medium.com/altitudehq/kafka-retries-and-maintain-order-of-retry-events-313482044351)
 - [medium.com/cloudnesil: Kafka Streams State Store at Scale](https://medium.com/cloudnesil/kafka-streams-state-store-at-scale-390d9717b42a) Managing Interactive Queries on multiple application instances Alternative solutions and their comparisons.
-- [towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster](https://towardsdev.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5) how to benchmark Apache Kafka instances running on Kubernetes against parallel loads.
+- [towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster](https://im-pratham.medium.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5) how to benchmark Apache Kafka instances running on Kubernetes against parallel loads.
 - [==medium.com/@hardiktaneja_99752: Lessons after running Kafka in production== 🌟](https://medium.com/@hardiktaneja_99752/lessons-after-running-kafka-in-production-626974ffd700) TLDR: Have atleast as many paritions (P) as max number of consumers(C), but number of partitions should always be multiple of number of consumers. P = n * C, n =1,2,3…
 - [==betterprogramming.pub: Monitoring Kafka Applications — Implementing Healthchecks and Tracking Lag==](https://betterprogramming.pub/monitoring-kafkaapplications-implementing-healthchecks-and-tracking-lag-3976cc6f00d5) For KafkaConsumer, Streams, Spring-Kafka, Kafka-Connect
 - [thenewstack.io: LinkedIn Layered Architecture Minimizes Kafka Scaling Issues](https://thenewstack.io/linkedin-layered-architecture-minimizes-kafka-scaling-issues) With Kafka, too many data producers can cause issues, as can having too many data consumers. Here's how LinkedIn separated the resources to alleviate exhaustion.
@@ -430,7 +430,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
 
 - [Redpanda 🌟](https://www.redpanda.com) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
-- [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/open-source)
+- [Redpanda is now Free & Source Available](https://www.redpanda.com/blog/bsl-source-available-license)
 - [softwareengineeringdaily.com: Redpanda: Kafka Alternative with Alexander Gallego 🌟](https://softwareengineeringdaily.com/2021/01/22/redpanda-kafka-alternative-with-alexander-gallego)
 
 #### KsqlDB
@@ -463,7 +463,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 ### Zeebe
 
-- [Zeebe workflow engine](https://camunda.com/platform/zeebe)
+- [Zeebe workflow engine](https://camunda.com/platform/orchestration-engine)
 - [infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟](https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows)
 - [Orchestration Made Easy with Zeebe and Kafka](https://softobiz.com/microservice-orchestration-with-zeebe-and-kafka)
 
@@ -484,7 +484,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dataengineeringcentral.substack.com: Why is everyone trying to kill Airflow? 🌟](https://dataengineeringcentral.substack.com/p/why-is-everyone-trying-to-kill-airflow?sd=pf) Apache Airflow has been the ruler of Data Engineering orchestration for years, is the end in sight?
 - [airflow.apache.org: Add Owner Links to DAG](https://airflow.apache.org/docs/apache-airflow/stable/howto/add-owner-links.html) You can set the owner_links argument on your DAG object, which will make the owner a clickable link in the main DAGs view page instead of a search filter.
 - [docs.astronomer.io: Dynamically generating DAGs in Airflow](https://www.astronomer.io/docs/learn/dynamically-generating-dags) How to load DAGs from YAML files in Airflow dynamically?
-- [blog.devgenius.io: Send information from Databricks to Airflow](https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81)
+- [blog.devgenius.io: Send information from Databricks to Airflow](https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81?gi=99a8551b8572)
 - [==medium.com/apache-airflow: Passing Data Between Tasks with the KubernetesPodOperator in Apache Airflow== 🌟](https://medium.com/apache-airflow/passing-data-between-tasks-with-the-kubernetespodoperator-in-apache-airflow-7ae9e3e6675c) TL;DR: Use the @task.kubernetes decorator!
 - [medium.com/@piyush_74867: Apache Airflow on Kubernetes at scale — a peak under the hood](https://medium.com/@piyush_74867/apache-airflow-on-kubernetes-at-scale-a-peak-under-the-hood-1eebb9b4769b)
 - [medium.com/@alfahreiza: Building an ELT Pipeline: From CSV to BigQuery using dbt](https://medium.com/@alfahreiza/building-an-elt-pipeline-from-csv-to-bigquery-using-dbt-f6e3f30bfc9c)
