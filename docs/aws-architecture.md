@@ -20,7 +20,7 @@
 - [Strategies for consolidating AWS environments](https://aws.amazon.com/de/blogs/mt/strategies-for-consolidating-aws-environments)
 - [Maintain visibility over the use of cloud architecture patterns](https://aws.amazon.com/blogs/architecture/maintain-visibility-over-the-use-of-cloud-architecture-patterns) Cloud platform and enterprise architecture teams use architecture patterns to provide guidance for different use cases. Cloud architecture patterns are typically aggregates of multiple Amazon Web Services (AWS) resources, such as Elastic Load Balancing with Amazon Elastic Compute Cloud, or Amazon Relational Database Service with Amazon ElastiCache. In a large organization, cloud platform teams often have limited governance over cloud deployments, and, therefore, lack control or visibility over the actual cloud pattern adoption in their organization.
 - [Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/pt/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account)
-- [==awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture==](https://awstip.com/increase-security-and-efficiency-with-a-3-tier-cloud-architecture-bf5e835cd55a)
+- [==awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture==](https://awstip.com/increase-security-and-efficiency-with-a-3-tier-cloud-architecture-bf5e835cd55a?gi=1f6b410cd2f9)
 - [==github.com/ministryofjustice: Modernisation Platform - Architecture Decisions==](https://github.com/ministryofjustice/modernisation-platform/tree/main/architecture-decision-record) This is our architecture decision log, made during the design and build of the Modernisation Platform.
 
 ## AWS Well Architected Framework
@@ -35,7 +35,7 @@
   - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) 🌟 - A sample generative AI tool designed to evaluate Infrastructure as Code (IaC) definitions and architecture diagrams against AWS Well-Architected best practices. This repository provides a practical approach to leveraging AI for enhancing cloud architecture quality and compliance.
 
 - [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture)
-- [AWS Official Blog](https://blogs.aws.amazon.com)
+- [AWS Official Blog](https://aws.amazon.com/blogs/aws)
 - [AWS Labs GitHub](https://github.com/awslabs)
 - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql)
 - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data)
