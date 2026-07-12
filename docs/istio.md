@@ -26,7 +26,7 @@
 - [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)
 - [blog.christianposta.com: Istio as an Example of When Not to Do Microservices](https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices)
 - [istiobyexample.dev 🌟](https://istiobyexample.dev)
-    - [istiobyexample.dev: Fault Injection](https://istiobyexample.dev/fault-injection)
+    - [istiobyexample.dev: Fault Injection](https://istiobyexample.dev)
 - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)
 - [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)
 - [magalix.com: Getting Started With Istio: Overview And Installation](https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation)
@@ -34,7 +34,7 @@
 - [magalix.com: Working with Istio: Track your services with Kiali](https://www.magalix.com/blog/working-with-istio-track-your-services-with-kiali)
 - [banzaicloud.com: Istio telemetry V2 (Mixerless) deep dive](https://banzaicloud.com/blog/istio-mixerless-telemetry)
 - [medium.com: How to Manage Microservices on Kubernetes With Istio](https://medium.com/better-programming/how-to-manage-microservices-on-kubernetes-with-istio-c25e97a60a59) How to implement DevSecOps on microservices architecture with a service mesh
-- [github.com/askmeegs/learn-istio 🌟](https://github.com/askmeegs/learn-istio)
+- [github.com/askmeegs/learn-istio 🌟](https://github.com/meganokeefe/learn-istio)
 - [banzaicloud.com: What's new in Istio 1.6, a quick walkthrough](https://banzaicloud.com/blog/istio-1.6)
 - [Riding the Tiger: Lessons Learned Implementing Istio 🌟](https://zwischenzugs.com/2020/05/05/riding-the-tiger-lessons-learned-implementing-istio)
 - [dev.to/aurelievache: Understanding Istio: part 1 – Istio Components](https://dev.to/aurelievache/understanding-istio-part-1-istio-components-4ik5)
@@ -84,7 +84,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [solo.io: Configuration as Data, GitOps, and Controllers: it’s not simple for multi-cluster](https://www.solo.io/blog)
 - [solo.io: Istio’s networking: An in-depth look at traffic and architecture 🌟](https://www.solo.io/blog) Istio’s networking in a demo environment
 - [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog)
-- [==inder-devops.medium.com: On-premise to cloud migration mock drills using Istio== 🌟](https://inder-devops.medium.com/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38) Part 1 of a series of articles about cloud migration. Application workload migration from one kubernetes cluster to another using Istio. This article explains an approach that makes use of service mesh capability to migrate entire platform from onpremise to cloud or cluster to cluster migration.
+- [==inder-devops.medium.com: On-premise to cloud migration mock drills using Istio== 🌟](https://faun.pub/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38?gi=bd3b64972e30) Part 1 of a series of articles about cloud migration. Application workload migration from one kubernetes cluster to another using Istio. This article explains an approach that makes use of service mesh capability to migrate entire platform from onpremise to cloud or cluster to cluster migration.
 - [baeldung.com: Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)
 - [chrishaessig.medium.com: Multi cluster setup with istio](https://chrishaessig.medium.com/multi-cluster-setup-with-istio-c1c6437f4e8c)
 - [medium.com/@sumudu_liyan: How To Install Istio On Kubernetes Cluster](https://medium.com/@sumudu_liyan/how-to-install-istio-on-kubernetes-cluster-e831c12381b)
@@ -109,7 +109,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [alexandrev.medium.com: How To Enable Sticky Session on Your Kubernetes Workloads using Istio? 🌟](https://alexandrev.medium.com/how-to-enable-sticky-session-on-your-kubernetes-workloads-using-istio-e789014a6acd)
 - [medium.com/@wessel__: Istio with Authentik: securing your cluster and providing authentication and authorization](https://medium.com/@wessel__/istio-with-authentik-securing-your-cluster-and-providing-authentication-and-authorization-b5e48b331920) how to manage user access to individual apps deployed in your cluster using Istio and Authentik
 - [medium.com/@hammadsaif061: Simplifying Microservices Management with Kubernetes and Service Mesh](https://medium.com/@hammadsaif061/simplifying-microservices-management-with-kubernetes-and-service-mesh-de458ce566f1)
-- [==itnext.io: Taffic Shaping - Kubernetes & Istio== | Daniele Polencic](https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200) How can you roll out an app only to a subset of your users in Kubernetes? Let's explore Canary Releases with Istio, Kiali and the Gateway API!
+- [==itnext.io: Taffic Shaping - Kubernetes & Istio== | Daniele Polencic](https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200?gi=f9d53776f5ac) How can you roll out an app only to a subset of your users in Kubernetes? Let's explore Canary Releases with Istio, Kiali and the Gateway API!
 - [medium.com/@lupass93: Zero Trust Architecture on Kubernetes with Istio Service Mesh](https://medium.com/@lupass93/zero-trust-architecture-on-kubernetes-with-istio-service-mesh-eade6c5a3c53) This article will show how to implement a Zero Trust Architecture on Kubernetes with Istio:
     - What is Zero Trust Architecture
     - Istio Architecture
@@ -141,7 +141,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [kiali.io](https://kiali.io)
 - [github.com: kiali](https://github.com/kiali/kiali)
 - [medium.com: kiali project](https://medium.com/kialiproject)
-- [itnext.io: Find issues in your Istio mesh with Kiali](https://itnext.io/find-issues-in-your-istio-mesh-with-kiali-89d37d5e1fb1)
+- [itnext.io: Find issues in your Istio mesh with Kiali](https://itnext.io/find-issues-in-your-istio-mesh-with-kiali-89d37d5e1fb1?gi=f5d2b71bffab)
 
 ## Jaeger tracing. Open source, end-to-end distributed tracing
 
@@ -149,7 +149,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [jaegertracing.io](https://www.jaegertracing.io)
 - [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)
 - [hackernoon.com: How To Use OpenTelemetry And Jaeger To Implement Distributed Tracing And APM](https://hackernoon.com/how-to-use-opentelemetry-and-jaeger-to-implement-distributed-tracing-and-apm-jcx34fi)
-- [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4) Welcome to A beginner’s guide to Jaeger (5 Part Series)
+- [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4?gi=e8fa68de342f) Welcome to A beginner’s guide to Jaeger (5 Part Series)
 - [infracloud.io: Linking Traces with Continuous Profiling using Pyroscope](https://www.infracloud.io/blogs/linking-traces-continuous-profiling-pyroscope) The future of observability lies in distributed tracing with continuous profiling. how you can link traces with continuous profiling using Pyroscope and Jaeger.
 
 ## Envoy micro proxy
@@ -175,7 +175,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 ## Istio and AWS EKS
   - [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) - *(Related to kubernetes-tutorials topic)*
 
-- [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
+- [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0?gi=50a44e5039f6) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
 
 ## Istio Tools
   - [Application Gateway for Containers: Istio Integration](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) 🌟 - This post explores the integration of Azure Application Gateway for Containers (AGC) with Istio, a Kubernetes service mesh. It details how AGC can leverage Istio to provide end-to-end TLS encryption for traffic between AGC and application pods, even if the applications themselves do not natively support TLS. This is part of a series on AGC, focusing on security aspects and simplified TLS implementation.
