@@ -46,7 +46,7 @@
 
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions)
 - [Frequently Asked AWS Interview Questions](https://www.interviewbit.com/aws-interview-questions)
-- [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/top-aws-interview-questions-and-answers)
+- [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/blog/top-aws-interview-questions-and-answers)
 
 ## SQL Interview Questions
 
@@ -57,7 +57,7 @@
 
 - [automationreinvented.blogspot.com: Top 30 API Testing Interview Questions & Answers for SDET/API Automation-Rest Assured? SET-03](https://automationreinvented.blogspot.com/2020/11/top-30-api-testing-interview-questions.html)
 - [automationqahub.com: Latest API Testing Interview Questions And Answers](https://automationqahub.com/latest-api-testing-interview-questions-and-answers)
-- [grokkinginterview.com: 13 REST API interview questions you need to know](https://grokkinginterview.com/13-rest-api-interview-questions-you-need-to-know-f0e7ec857550)
+- [grokkinginterview.com: 13 REST API interview questions you need to know](https://grokkingtechinterview.com/13-rest-api-interview-questions-you-need-to-know-f0e7ec857550?gi=0139d4152c51)
 
 ## DevOps Interview Questions
 
@@ -89,7 +89,7 @@
 ## Microservices Interview Questions
 
 - [java67.com: Top 15 Microservices Interview Questions with Answers for 3 to 5 Years Experienced](https://www.java67.com/2021/02/microservices-interview-questions-answers-java-spring.html)
-- [towardsdev.com: Microservice Interview questions for Backend Developers series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a)
+- [towardsdev.com: Microservice Interview questions for Backend Developers series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a?gi=dc8d39e83a5a)
 
 ## Java and Java Collections Interview Questions
 
@@ -136,7 +136,7 @@
 
 ## Python Interview Questions
 
-- [Python mini-quiz](https://www.mypythonquiz.com)
+- [Python mini-quiz](https://mypythonquiz.com)
 - [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions)
 
 ## System Design Interview
