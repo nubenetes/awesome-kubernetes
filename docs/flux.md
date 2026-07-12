@@ -16,7 +16,7 @@
 - [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
 - [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
 - [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm)
-- [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)
+- [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30?gi=46bee77069f8)
 - [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://www.pluralsight.com/resources/blog/cloud/adopting-gitops-for-kubernetes-on-aws) Tips for adopting GitOps for your Kubernetes workload in AWS:
     - Use Git as your source of truth
     - Use a Git branch per environment
@@ -43,13 +43,13 @@
 - [fluxcd.io: How to GitOps Your Terraform](https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform)
 - [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd) GitOps provides a single source of truth for Kubernetes manifests, preventing configuration drift, allowing easy rollbacks and changes to production safely.
 - [==gist.github.com: GitOps for Helm Users== 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) In this step-by-step tutorial, you will learn how to convert a Helm chart into declarative Custom Resources for Flux and gradually migrate your workloads to be GitOps-friendly.
-- [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f) This concise tutorial will show you to bootstrap Flux CD on your local cluster and deploy your applications from your GitHub repository.
-- [weave.works: Flamingo: Expand Argo CD with Flux](https://www.weave.works/blog/flamingo-expand-argo-cd-with-flux)
+- [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f?gi=07cecdbbf4e8) This concise tutorial will show you to bootstrap Flux CD on your local cluster and deploy your applications from your GitHub repository.
+- [weave.works: Flamingo: Expand Argo CD with Flux](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 
 ## ArgoCD vs FluxCD
 
 - [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)
-- [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca) Andrei shares his professional experience and compares two popular GitOps tools: Argo CD and Flux CD. He explores their features, use cases, and the specific problems they solve.
+- [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca?gi=0a8d792b3223) Andrei shares his professional experience and compares two popular GitOps tools: Argo CD and Flux CD. He explores their features, use cases, and the specific problems they solve.
 
 ## Flux Terraform Controller
 
