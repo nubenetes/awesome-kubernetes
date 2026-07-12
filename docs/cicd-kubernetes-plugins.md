@@ -24,4 +24,4 @@
 - [GitLab Kubernetes Agent available on GitLab.com](https://docs.gitlab.com/releases)
 
 ## Kubernetes Job Scheduling
-  - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4) 🌟 - Netflix details its architectural migration from their proprietary Compute Managed Batch system to Kueue, a native Kubernetes queuing and job scheduling controller.
+  - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?gi=b7df13ef57ad&source=rss----2615bd06b42e---4) 🌟 - Netflix details its architectural migration from their proprietary Compute Managed Batch system to Kueue, a native Kubernetes queuing and job scheduling controller.
