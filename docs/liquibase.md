@@ -16,7 +16,7 @@
 
 ## Liquibase
 
-- [liquibase.org](https://www.liquibase.org)
+- [liquibase.org](https://www.liquibase.com/community)
 - [dzone: Introduction to Liquibase and Managing Your Database Source Code](https://dzone.com/articles/introduction-to-liquibase-and-managing-your-databa)
 - [dzone: Managing Your Database With Liquibase and Gradle](https://dzone.com/articles/managing-your-database-with-liquibase-and-gradle)
 - [dzone: Executing Liquibase: 3 Use Cases](https://dzone.com/articles/executing-liquibase-3-use-cases)
