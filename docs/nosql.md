@@ -15,7 +15,7 @@
 - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
 - [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [NoSQL vs. SQL: Choosing a Data Management Solution](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)
-- [NoSQL Guide, by Martin Fowler](https://martinfowler.com/nosql.html)
+- [NoSQL Guide, by Martin Fowler](https://martinfowler.com/data/index.html#nosql)
 - [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview)
 - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.facilcloud.com/noticias/?p=1294&lang=es_ES)
 - [zdnet.com: SQL, NoSQL? What's the difference these days?](https://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days)
@@ -51,13 +51,13 @@
 - [Avoiding pitfalls running Mongo 3.2 in Docker on OSX](https://iainhunter.wordpress.com/2016/01/12/avoiding-pitfalls-running-mongo-3-2-in-docker-on-osx)
 - [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)
 - [MongoDB Cloud Manager](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be)
-- [3T MongoChef – Your New MongoDB GUI](https://3t.io)
-    - [Connecting to your MongoDB at MongoLab](https://3t.io/blog/how-to-connect-to-mongolab)
+- [3T MongoChef – Your New MongoDB GUI](https://studio3t.com)
+    - [Connecting to your MongoDB at MongoLab](https://studio3t.com/knowledge-base/articles/connect-to-mongodb-atlas)
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/products/integrations/kubernetes)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport)
 - [==adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation== 🌟](https://adamtheautomator.com/mongodb-kubernetes) you'll learn how to deploy MongoDB to Kubernetes using the MongoDB Operator.
-- [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)
+- [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad?gi=73bd5bb561ae)
 - [thenewstack.io: Deploy MongoDB in a Container, Access It Outside the Cluster](https://thenewstack.io/deploy-mongodb-in-a-container-access-it-outside-the-cluster) How to a deploy a containerized version of MongoDB and connect to it from a machine or service outside of the hosting server.
 - [==github.com/oslabs-beta: Odin's Eye==](https://github.com/oslabs-beta/OdinsEye) Odin's Eye is a monitoring tool for Kubernetes and containerized MongoDB
 
@@ -68,7 +68,7 @@
 ### Alternatives
 
 - [Couchdb.apache.org](https://couchdb.apache.org)
-- [Cassandra.apache.org](https://cassandra.apache.org)
+- [Cassandra.apache.org](https://cassandra.apache.org/_/index.html)
     - [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster.
     - [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html)
     - [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.ibm.com/products/datastax)
@@ -85,8 +85,8 @@
 
 ## NewSQL
 
-- [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](https://www.nuodb.com)
-- [Traditional database replication drawbacks](https://www.nuodb.com/blog/replication-is-it-easy)
+- [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](https://www.3ds.com/nuodb-distributed-sql-database)
+- [Traditional database replication drawbacks](https://www.3ds.com/nuodb-distributed-sql-database)
 - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)
 
 ## Videos
@@ -112,4 +112,4 @@
 	</center>
 
 ### Cassandra
-  - **(2026)** [The Evolution of Cassandra Data Movement at Netflix](https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4) 🌟 - How Netflix redesigned their high-scale Cassandra-to-Iceberg data pipelines using Apache Cassandra Analytics.
+  - **(2026)** [The Evolution of Cassandra Data Movement at Netflix](https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?gi=b9ccc85333af&source=rss----2615bd06b42e---4) 🌟 - How Netflix redesigned their high-scale Cassandra-to-Iceberg data pipelines using Apache Cassandra Analytics.
