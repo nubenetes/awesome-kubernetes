@@ -23,22 +23,22 @@
 - [thenewstack.io: Why ArgoCD Is the Lifeline of GitOps](https://thenewstack.io/why-argo-cd-is-the-lifeline-of-gitops)
 - [openshift.com: Getting Started with ApplicationSets](https://www.redhat.com/en/blog/getting-started-with-applicationsets) "App of Apps" pattern.
 - [medium: Argo CD: A Tool for Kubernetes DevOps](https://medium.com/geekculture/argo-cd-a-tool-for-kubernetes-devops-c46f2881edfe)
-- [itnext.io: ArgoCD: users, access, and RBAC](https://itnext.io/argocd-users-access-and-rbac-ddf9f8b51bad)
+- [itnext.io: ArgoCD: users, access, and RBAC](https://itnext.io/argocd-users-access-and-rbac-ddf9f8b51bad?gi=bb4dfceb6e39)
 - [opensource.com: Automatically create multiple applications in Argo CD](https://opensource.com/article/21/7/automating-argo-cd)
 - [cloud.redhat.com: How to Use ArgoCD Deployments with GitHub Tokens](https://www.redhat.com/en/blog/how-to-use-argocd-deployments-with-github-tokens)
 - [blog.risingstack.com: Argo CD Kubernetes Tutorial](https://blog.risingstack.com/argo-cd-kubernetes-tutorial)
 - [wecloudpro.com: Deploying Helm Charts with ArgoCD](https://www.wecloudpro.com/2021/11/28/Argocd-helm.html)
 - [==thenewstack.io: GitOps on Kubernetes: Deciding Between Argo CD and Flux==](https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux)
 - [medium.com/gumgum-tech: Streamlining your Kubernetes adoption with Helmfile / ArgoCD and GitOps](https://medium.com/gumgum-tech/streamlining-your-kubernetes-adoption-with-helmfile-argocd-and-gitops-211937e21e29)
-- [levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes Cluster](https://levelup.gitconnected.com/getting-started-with-argocd-on-your-kubernetes-cluster-552ca5d8cf41) A step-by-step guide to set up ArgoCD on your Kubernetes cluster and synchronize your resources with your GitHub repository.
+- [levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes Cluster](https://levelup.gitconnected.com/getting-started-with-argocd-on-your-kubernetes-cluster-552ca5d8cf41?gi=e7f5e2c5374d) A step-by-step guide to set up ArgoCD on your Kubernetes cluster and synchronize your resources with your GitHub repository.
 - [digitalocean.com: How to Deploy to Kubernetes using Argo CD and GitOps](https://www.digitalocean.com/community/tutorials/how-to-deploy-to-kubernetes-using-argo-cd-and-gitops)
 - [aws.amazon.com: Cloud Native CI/CD with Tekton and ArgoCD on AWS](https://aws.amazon.com/blogs/containers/cloud-native-ci-cd-with-tekton-and-argocd-on-aws)
-- [blog.argoproj.io: New sync and diff strategies in ArgoCD](https://blog.argoproj.io/new-sync-and-diff-strategies-in-argocd-44195d3f8b8c)
+- [blog.argoproj.io: New sync and diff strategies in ArgoCD](https://blog.argoproj.io/new-sync-and-diff-strategies-in-argocd-44195d3f8b8c?gi=619f71432f35)
 - [igboie.medium.com: Kubernetes CI/CD with GitHub, GitHub Actions and Argo CD](https://igboie.medium.com/kubernetes-ci-cd-with-github-github-actions-and-argo-cd-36b88b6bda64)
 - [medium.com/containers-101: Using GitOps, Multiple Argo Instances, and Environments with Argo CD at Scale](https://medium.com/containers-101/using-gitops-multiple-argo-instances-and-environments-with-argo-cd-at-scale-e6b19c86be36)
-- [blog.argoproj.io: Best Practices for Multi-tenancy in Argo CD](https://blog.argoproj.io/best-practices-for-multi-tenancy-in-argo-cd-273e25a047b0)
+- [blog.argoproj.io: Best Practices for Multi-tenancy in Argo CD](https://blog.argoproj.io/best-practices-for-multi-tenancy-in-argo-cd-273e25a047b0?gi=b546d157b94d)
 - [medium.com/@ScrumPokerPro: Cloud native architecture with Kubernetes and ArgoCD](https://medium.com/@ScrumPokerPro/cloud-native-architecture-with-kubernetes-and-argocd-ebecda7784b8)
-- [faun.pub: Deploying Argo CD and Sealed Secrets with Helm](https://faun.pub/deploying-argo-cd-and-sealed-secrets-with-helm-8de12f53051b) you will go over the declarative setup of Argo CD and Sealed Secrets on a Kubernetes cluster. For deploying Argo CD and Sealed Secrets you will be using Helm Charts
+- [faun.pub: Deploying Argo CD and Sealed Secrets with Helm](https://faun.pub/deploying-argo-cd-and-sealed-secrets-with-helm-8de12f53051b?gi=3d9609896c6e) you will go over the declarative setup of Argo CD and Sealed Secrets on a Kubernetes cluster. For deploying Argo CD and Sealed Secrets you will be using Helm Charts
 - [amralaayassen.medium.com: How to create ArgoCD Applications Automatically using ApplicationSet? “Automation of GitOps”](https://amralaayassen.medium.com/how-to-create-argocd-applications-automatically-using-applicationset-automation-of-the-gitops-59455eaf4f72)
 - [blog.getambassador.io: GitOps in Kubernetes with ArgoCD](https://blog.getambassador.io/gitops-in-kubernetes-with-argocd-c6ea0e510741)
 - [blog.akuity.io: Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD](https://blog.akuity.io/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argo-cd-7c5b4057ee49) Do you know that Argo CD can support thousands of apps and hundreds of clusters?you will deep dive into Argo CD, bring answers and best practices on operating it at an enterprise scale
@@ -61,11 +61,11 @@
 - [medium.com/@versentfastforward: GitOps on Kubernetes with ArgoCD](https://medium.com/@versentfastforward/gitops-and-argocd-to-automate-kubernetes-deployments-640f3a086865) This is the first post in our series about Managing Complex Kubernetes Clusters. We introduce how we used ArgoCD to enforce GitOps by preventing any alternate means of deployment to your cluster other than through a commit in your GitOps repo.
     - [medium.com/@versentfastforward: One-click Bootstrap Deployment of ArgoCD](https://medium.com/@versentfastforward/one-click-bootstrap-deployment-of-argocd-e06f848aacc5) This is the second post in our series about Managing Complex Kubernetes Clusters. We describe how to create a bootstrap script that automates key prerequisites: deployment of ArgoCD and pointing it at the repo and cluster that it needs to use for deployments.
     - [medium.com/@versentfastforward: Structuring Your Repo for ArgoCD, Part 1](https://medium.com/@versentfastforward/structuring-your-repo-for-argocd-part-1-582817713b0) This is the third post in our series about Managing Complex Kubernetes Clusters. We address the challenge of eliminating duplication of YAML files and reduce the amount effort required to deploy Kubernetes in multiple environments, as well as the continuous deployment (CD) of containerized workloads without developing complex imperative pipelines.
-- [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4)
+- [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4?gi=b1a20ffc675c)
 - [jamalshahverdiev.medium.com: ArgoCD ApplicationSet with Applications, Image Updater and Notification controller with SSO](https://jamalshahverdiev.medium.com/argocd-applicationset-with-applications-image-updater-and-notification-controller-with-sso-bba3182dad8a)
 - [kubebyexample.com: Argo CD Overview 🌟](https://kubebyexample.com/learning-paths/argo-cd/argo-cd-overview)
-- [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510) you will find a list of best practices and tips for using ArgoCD automation at scale
-- [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56) What is ArgoCD and why use it
+- [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510?gi=938bf0a28d71) you will find a list of best practices and tips for using ArgoCD automation at scale
+- [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56?gi=5752a4dc022b) What is ArgoCD and why use it
 - [==dev.to: Argo CD and Sealed Secrets is a perfect match==](https://dev.to/timtsoitt/argo-cd-and-sealed-secrets-is-a-perfect-match-1dbf) how to configure Sealed Secrets with ArgoCD
 - [figments.medium.com: ArgoCD: The first step towards GitOps](https://figments.medium.com/argocd-the-first-step-towards-gitops-899732fbc33e) A core component of GitOps is enforcing the deployment of apps using Git. This means defining the app version and configuration you want in a Git repo, and using a tool like ArgoCD to sync the Git configuration to the deployment. we’ll look at how we can use ArgoCD to manage automatic Git based deployments of apps.
 - [medium.com/@nsfabrice2009: How to install ArgoCD on k8s cluster](https://medium.com/@nsfabrice2009/how-to-install-argocd-on-k8s-cluster-ad9084c71f16)
@@ -88,19 +88,19 @@
 - [medium.com/@jon.mclean: ArgoCD: The GitOps Way](https://medium.com/@jon.mclean/argocd-the-gitops-way-90f7eb0d2606)
 - [medium.com/@devopsrockers: Blue-Green Deployment on EKS using Argocd with Kubecost, Istio, External DNS, Grafana-Prometheus and More: “Build, Deploy a Resilient and Observability-Driven Application”](https://medium.com/@devopsrockers/blue-green-deployment-on-eks-using-argocd-with-kubecost-istio-external-dns-grafana-prometheus-d5d5508f0748)
 - [medium.com/@samuelbagattin: Partial Helm values encryption using AWS KMS with ArgoCD](https://medium.com/@samuelbagattin/partial-helm-values-encryption-using-aws-kms-with-argocd-aca1c0d36323) In this blog post, you'll learn how to encrypt only specific yaml fields in `values.yaml`, and how to configure ArgoCD to decrypt these secrets on the fly before installing a Helm release
-- [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7) Scale your Projects like a Fleet with Argo CD
+- [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7?gi=a8c8622eda97) Scale your Projects like a Fleet with Argo CD
 - [medium.com/@jerome.decoster: Create temporary environment from Pull Request with ArgoCD ApplicationSet](https://medium.com/@jerome.decoster/create-temporary-environment-from-pull-request-with-argocd-applicationset-1cef9803223a) you'll learn how to create a new environment for each pull request with ArgoCD:
     - Creating a Pull Request creates a new environment
     - Each git push builds an image and updates the app
     - Closing the pull request terminates the environment
 - [piotrminkowski.com: Manage Kubernetes Operators with ArgoCD](https://piotrminkowski.com/2023/05/05/manage-kubernetes-operators-with-argocd)
 - [medium.com/@geoffrey.muselli: ArgoCD: Multi-cluster Helm charts management in mono-repo](https://medium.com/@geoffrey.muselli/argocd-multi-cluster-helm-charts-installation-in-mono-repo-0a406ff7c578)
-- [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) Don’t Underestimate Labels with Kubernetes: Simplify, Don’t Overcomplicate. This article demonstrates how to create a lightweight Internal Developer Platform utilizing GitOps with Argo CD and leveraging Kubernetes labels to offer a streamlined and efficient solution for managing and deploying your infrastructure
+- [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4?gi=1808ca411239) Don’t Underestimate Labels with Kubernetes: Simplify, Don’t Overcomplicate. This article demonstrates how to create a lightweight Internal Developer Platform utilizing GitOps with Argo CD and leveraging Kubernetes labels to offer a streamlined and efficient solution for managing and deploying your infrastructure
 - [medium.com/otomi-platform: Helmfile and ArgoCD are better together](https://medium.com/otomi-platform/helmfile-and-argocd-better-together-f8d4587263ff)
-- [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88)
+- [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88?gi=9a1568771b0a)
 - [medium.com/globant: Using multiple sources for a Helm Chart deployment in ArgoCD](https://medium.com/globant/using-multiple-sources-for-a-helm-chart-deployment-in-argocd-cf3cd2d598fc)
-- [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983) This article teaches how to protect your ArgoCD clusters from accidental deletion using finalizers, a simple yet powerful mechanism that ensures the integrity of your cloud-native infrastructure
-- [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e)
+- [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983?gi=47f1ab1ab79a) This article teaches how to protect your ArgoCD clusters from accidental deletion using finalizers, a simple yet powerful mechanism that ensures the integrity of your cloud-native infrastructure
+- [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e?gi=95b5c450c748)
 - [developers.redhat.com: Enhance Kubernetes deployment efficiency with Argo CD and ApplicationSet](https://developers.redhat.com/articles/2024/06/06/enhance-kubernetes-deployment-efficiency-argo-cd-and-applicationset)
 - [==dev.to: Extending GitOps: Effortless continuous integration and deployment on Kubernetes==](https://dev.to/amplication/extending-gitops-effortless-continuous-integration-and-deployment-on-kubernetes-1oem) This article discusses using GitOps and Argo CD Image Updater for effortless continuous integration and deployment on Kubernetes
 - [dev.to/devsatasurion: Deploying Applications with GitHub Actions and ArgoCD to EKS: Best Practices and Techniques](https://dev.to/devsatasurion/deploying-applications-with-github-actions-and-argocd-to-eks-best-practices-and-techniques-4epc)
@@ -136,22 +136,22 @@
 - [infracloud.io: Progressive Delivery with Argo Rollouts : Blue-Green Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-blue-green-deployment) you'll learn how to perform a blue-green deployment using the Argo Rollouts controller and CRD.
 - [infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment)
 - [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6)
-- [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) we will learn how to automate Blue/Green Deployment with Argo Rollouts.
+- [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53?gi=f66f6941f2f6) we will learn how to automate Blue/Green Deployment with Argo Rollouts.
 - [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing) This blog post will teach you how to set up blue-green deployments using Argo Rollouts with DNS routing using **Azure Traffic Manager**
 - [codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://octopus.com/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts) how to use Argo Rollouts for settings/ConfigMaps using the Kustomize configmap generators. This is useful during blue/green deployments where you need a (templated) copy of the ConfigMap.
-- [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf)
+- [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf?gi=3a2f10ce8dc2)
 
 ## Argo Workflows
   - [Migrating CI/CD from Jenkins to Argo Workflows](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) - *(Related to cicd topic)*
 
-- [blog.argoproj.io: What’s new in Argo Workflows v3.3](https://blog.argoproj.io/whats-new-in-argo-workflows-v3-3-dd051d2f1c7)
+- [blog.argoproj.io: What’s new in Argo Workflows v3.3](https://blog.argoproj.io/whats-new-in-argo-workflows-v3-3-dd051d2f1c7?gi=3feba19d0b92)
 - [dev.to: The three meanings of "template" in Argo Workflows](https://dev.to/crenshaw_dev/the-three-meanings-of-template-in-argo-workflows-2paf)
-- [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce) you'll cover:
+- [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce?gi=83f17a508156) you'll cover:
     - High-level best practices you should know to secure your workflows
     - The various components that make up Argo, and how to secure those components
     - Dive into operating and using Argo securely
 
-- [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc) Kubernetes is designed for stateless scalable web applications, apps where if one process dies, then another process can be dropped in its place. Kubernetes makes one promise — it will kill your pods. Kubernetes expects applications built on it to be tolerant of both any disruption— so apps must be designed with that in mind.
+- [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc?gi=06babfc7f53d) Kubernetes is designed for stateless scalable web applications, apps where if one process dies, then another process can be dropped in its place. Kubernetes makes one promise — it will kill your pods. Kubernetes expects applications built on it to be tolerant of both any disruption— so apps must be designed with that in mind.
 
     ```text
     Dear user,
