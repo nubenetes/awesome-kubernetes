@@ -31,7 +31,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [2021 Gartner Report Top Trends Infra & Operations](https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021)
 - [CRI-O Lightweight Container Runtime for Kubernetes](https://cri-o.io)
 - [Open Container Initiative](https://opencontainers.org)
-- [agilemethodology.org](https://agilemethodology.org)
+- [agilemethodology.org](https://digital.ai/learn/resources/?_product=agility)
 - [agilemanifesto.org](https://agilemanifesto.org)
 - [12factor.net](https://12factor.net) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready) - [12-factor app infographic](https://dzone.com/whitepapers/the-12-factor-app-infographic) - [An illustrated guide to 12 Factor Apps 🌟](https://www.redhat.com/en/blog/12-factor-app)
 - [openpracticelibrary.com](https://openpracticelibrary.com) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
@@ -73,7 +73,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea)
 - [dzone.com/trendreports](https://dzone.com/trendreports)
 - [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
-- [The future of Kubernetes – and why developers should look beyond Kubernetes in 2022](https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
+- [The future of Kubernetes – and why developers should look beyond Kubernetes in 2022](https://www.eficode.com/insights/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
 - [cloudtechtwitter.com: Introduction to Kubernetes 🌟](https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html)
 - [GitHub Guides](https://github.com/readme/guides)
 - [learnk8s.io/news](https://learnkube.com/news-events-jobs) How do you keep up with Kubernetes? If you are looking for curated Kubernetes news, we have you covered on:
