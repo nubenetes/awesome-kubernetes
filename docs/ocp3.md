@@ -18,7 +18,7 @@
 
 - [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat)
 - [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources)
-- [blog.openshift.com/: Using OpenShift 3 on your **local environment** 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment)
+- [blog.openshift.com/: Using OpenShift 3 on your **local environment** 🌟](https://www.redhat.com/en/blog/using-openshift-3-on-your-local-environment)
 - [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https)
 - [blog.openshift.com/ - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life)
 - [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)
@@ -38,10 +38,10 @@
 
 ## OpenShift GitOps
 
-- [blog.openshift.com/: Introduction to GitOps with OpenShift](https://blog.openshift.com/introduction-to-gitops-with-openshift)
+- [blog.openshift.com/: Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
 - [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction)
-- [blog.openshift.com/: is it too late to integrate GitOps?](https://blog.openshift.com/is-it-too-late-to-integrate-gitops)
-- [blog.openshift.com/: OpenShift Authentication Integration with ArgoCD](https://blog.openshift.com/openshift-authentication-integration-with-argocd)
+- [blog.openshift.com/: is it too late to integrate GitOps?](https://www.redhat.com/en/blog/is-it-too-late-to-integrate-gitops)
+- [blog.openshift.com/: OpenShift Authentication Integration with ArgoCD](https://www.redhat.com/en/blog/openshift-authentication-integration-with-argocd)
 - [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops)
 
 ## Debugging apps
@@ -51,19 +51,19 @@
 
 ## Capacity Management
 
-- [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://blog.openshift.com/full-cluster-capacity-management-monitoring-openshift)
-- [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://blog.openshift.com/full-cluster-part-2-protecting-nodes)
-- [full-cluster-part-3-capacity-management](https://blog.openshift.com/full-cluster-part-3-capacity-management)
-- [blog.openshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler](https://blog.openshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler)
-- [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https://blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)
+- [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://www.redhat.com/en/blog/full-cluster-capacity-management-monitoring-openshift)
+- [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://www.redhat.com/en/blog/full-cluster-part-2-protecting-nodes)
+- [full-cluster-part-3-capacity-management](https://www.redhat.com/en/blog/full-cluster-part-3-capacity-management)
+- [blog.openshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler)
+- [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)
 
 ## OpenShift High Availability
 
 - [blog.openshift.com/tag/multi-datacenter](https://www.redhat.com/en/blog?f[0]=taxonomy_blog_post_category_tid:107161&f[1]=taxonomy_topic_tid:75521)
 - [blog.openshift.com/: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it)
 - [blog.openshift.com/: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum)
-- [OpenShift 3.11 Multi-cluster Federation](https://blog.openshift.com/kubernetes-federation-v2-on-openshift-3-11)
-- [Multi-cluster Federation in OpenShift 4 is called **KubeFed**](https://blog.openshift.com/federation-v2-is-now-kubefed)
+- [OpenShift 3.11 Multi-cluster Federation](https://www.redhat.com/en/blog/kubernetes-federation-v2-on-openshift-3-11)
+- [Multi-cluster Federation in OpenShift 4 is called **KubeFed**](https://www.redhat.com/en/blog/federation-v2-is-now-kubefed)
 - [**KubeFed Operator**](https://operatorhub.io/operator/kubefed-operator)
 
 ## Troubleshooting Java applications on Openshift
