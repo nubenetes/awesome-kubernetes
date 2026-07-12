@@ -29,13 +29,13 @@
 - [rancher.com: Custom alerts using Prometheus queries](https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries)
 - [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere) The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.
 - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)
-- [Faster Kubernetes Development with Rancher, DevSpace and Loft](https://www.rancher.com/blog/2020/faster-kubernetes-development-rancher-devspace-loft)
-- [Multi-Cluster Vulnerability Scanning with Alcide and Rancher](https://www.rancher.com/blog/2020/multi-cluster-vulnerability-scanning-alcide-rancher)
+- [Faster Kubernetes Development with Rancher, DevSpace and Loft](https://www.suse.com/c/rancher_blog/faster-kubernetes-development-with-rancher-devspace-and-loft)
+- [Multi-Cluster Vulnerability Scanning with Alcide and Rancher](https://www.suse.com/c/rancher_blog/multi-cluster-vulnerability-scanning-with-alcide-and-rancher)
 - [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher)
 - [rancher.com: Driving Kubernetes Adoption in Finance with Rancher](https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher)
 - [devclass.com: Open sauce - Rancher 2.5 puts new UI forward, gets to continuously delivering](https://www.devclass.com/ci-cd/2020/10/06/open-sauce-rancher-25-puts-new-ui-forward-gets-to-continuously-delivering/1628365)
-- [rancher.com: Rancher 2.5 Delivers On "Computing Everywhere" Strategy](https://www.rancher.com/blog/2020/rancher-2-5-delivers-computing-everwhere-strategy)
-- [rancher: Speed Up Development with Automated Kubernetes Deployments](https://www.rancher.com/blog/2020/speed-development-automated-kubernetes-deployments)
+- [rancher.com: Rancher 2.5 Delivers On "Computing Everywhere" Strategy](https://www.suse.com/c/rancher_blog/rancher-2-5-delivers-on-computing-everywhere-strategy)
+- [rancher: Speed Up Development with Automated Kubernetes Deployments](https://www.suse.com/c/rancher_blog/speed-up-development-with-automated-kubernetes-deployments)
 - [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops)
 - [SUSE & Rancher Community 🌟](https://www.rancher.com/community) Learn and share with other cloud native enthusiasts
 - [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher)
@@ -57,7 +57,7 @@
 
 ## Rancher and Terraform
 
-- [Deploy a Rancher Cluster with GitLab CI and Terraform](https://www.rancher.com/blog/2020/deploy-with-gitlab-ci)
+- [Deploy a Rancher Cluster with GitLab CI and Terraform](https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform)
 - [==akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher, Terraform and Ansible==](https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319) Automate the provisioning of on-premises Rancher RKE Clusters and the registration of their nodes via Terraform and Ansible
 
 ## Rancher Desktop
@@ -80,7 +80,7 @@
 
 ### Rancher 2 RKE
 
-- [**Rancher 2 RKE**](https://www.rancher.com/products/rke) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
+- [**Rancher 2 RKE**](https://www.rancher.com/products/secure-kubernetes-distribution) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
 - [Bootstrap RKE Kubernetes Cluster in AWS Environment](https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws)
 - [github.com/gruberdev/local-gitops: Local Gitops 🌟](https://github.com/gruberdev/local-gitops) An automated local cluster setup w/ tls, monitoring, ingress and DNS configuration. The goal of this project is to provide a simplified approach to creating your own local cluster, as well as all the utilities you'll need to run a functional cluster using GitOps
 - [github.com/rancherfederal/rke2-aws-tf](https://github.com/ranchergovernment/rke2-aws-tf) This repository is intended to clearly demonstrate one method of deploying rke2 in a highly available, resilient, scalable, and simple method on AWS
@@ -93,17 +93,17 @@
 - [**k3sup (said 'ketchup')**](https://github.com/alexellis/k3sup) is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
 - [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 - [k3s-gitlab](https://github.com/apk8s/k3s-gitlab) k3s + Gitlab install notes. Steps for utilizing k3s to manage a self-hosted Gitlab instance.
-- [Upgrade Your K3s Clusters Smoothly in Rancher 2.4](https://www.rancher.com/blog/2020/upgrade-your-k3s-cluster)
+- [Upgrade Your K3s Clusters Smoothly in Rancher 2.4](https://www.suse.com/c/rancher_blog/upgrade-your-k3s-clusters-smoothly-in-rancher-2-4)
 - [Keptn Control Plane on k3s](https://github.com/keptn-sandbox/keptn-on-k3s) It allows you to install the Keptn control plane running on K3s within  minutes! Great way to get started using Keptn!
 - [thenewstack.io: How K3s, Portworx, and Calico Can Serve as a Foundation of Cloud Native Edge Infrastructure](https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure)
 - [thenewstack.io: Tutorial - Configure Cloud Native Edge Infrastructure with K3s, Calico, Portworx](https://thenewstack.io/tutorial-configure-cloud-native-edge-infrastructure-with-k3s-calico-portworx)
 - [github.com/aws-samples/cdk-k3s-cluster 🌟](https://github.com/aws-samples/aws-cdk-for-k3scluster) is a new JSII construct library for AWS CDK that deploys a scalable Kubernetes K3s cluster on Graviton2 Arm-based (mg6 by default) Spot instances with one command on AWS.
-- [codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy](https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d)
+- [codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy](https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d?gi=2c2335720cfd)
 - [sysdig.com: K3s + Sysdig: Deploying and securing your cluster… in less than 8 minutes! 🌟](https://www.sysdig.com/blog/k3s-sysdig-falco)
-- [rancher.com: Set up Your K3s Cluster for High Availability](https://www.rancher.com/blog/2020/k3s-high-availability)
+- [rancher.com: Set up Your K3s Cluster for High Availability](https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean)
 - [blog.alexellis.io: Bare-metal Kubernetes with K3s](https://blog.alexellis.io/bare-metal-kubernetes-with-k3s)
-- [rancher.com: Set up K3s in High Availability using k3d](https://www.rancher.com/blog/2020/set-up-k3s-high-availability-using-k3d)
-- [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://www.rancher.com/blog/2020/k3s-high-availability)
+- [rancher.com: Set up K3s in High Availability using k3d](https://www.suse.com/c/rancher_blog/set-up-k3s-in-high-availability-using-k3d)
+- [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean)
 - [community.suse.com: Introduction to K3s 🌟](https://www.rancher.com/community)
 - [k3s_hetzner](https://gitlab.com/k3s_hetzner/k3s_hetzner) How to build a kubernetes cluster in [Hetzner Cloud](https://www.hetzner.com/cloud)
 - [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1)you'll learn:
@@ -119,7 +119,7 @@
 - Try out the  Kubernetes 1.23 with K3s distro: `curl -sfL https://get.k3s.io |INSTALL_K3S_VERSION="v1.23.1-rc1+k3s1" sh -` You can try on ubuntu katakoda playground in your browser :)
 - [==medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference==](https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0)
 - [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)](https://www.justinpolidori.it/posts/20220611_vcluster_auth) you'll learn how to grant access to users of a vcluster using DEX as a federated OpenID provider and kubelogin as a plugin for OIDC integration
-- [itnext.io: Running K3S workload in a restricted environment](https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005)
+- [itnext.io: Running K3S workload in a restricted environment](https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005?gi=35b2b4f933e8)
 - [dev.to/dashaun: K3s on Raspberry Pi and ClusterHat](https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k)
 - [blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide](https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e)
 
@@ -146,13 +146,13 @@
 
 ### K3S in Public Clouds
 
-- [Run Rancher 2.4 in Azure with K3s and MySQL](https://www.rancher.com/blog/2020/run-rancher-k3s-mysql)
+- [Run Rancher 2.4 in Azure with K3s and MySQL](https://www.suse.com/c/rancher_blog/run-rancher-2-4-in-azure-with-k3s-and-mysql)
 
 ### K3D
 
 - [**k3d**](https://github.com/k3d-io/k3d) k3s that runs in docker containers.
 - [cncf.io: Introduction to k3d: Run K3s in Docker](https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker)
-- [itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min](https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376)
+- [itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min](https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376?gi=ae1dcfe55fb2)
 - [dev.to/iamunnip: Building a local Kubernetes cluster using k3d](https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d)
 - [akyriako.medium.com: Provision a Highly Available K3S Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)
 
@@ -175,15 +175,15 @@
 
 ## Hosted Rancher
 
-- [Announcing **Hosted Rancher** with Rancher 2.4 🌟](https://www.rancher.com/blog/2020/announcing-hosted-rancher)
+- [Announcing **Hosted Rancher** with Rancher 2.4 🌟](https://www.suse.com/c/rancher_blog/announcing-hosted-rancher-with-rancher-2-4)
 
 ## Rancher on Microsoft Azure
 
-- [rancher.com/blog: Deploy Kubernetes Clusters on Microsoft Azure with Rancher](https://www.rancher.com/blog/2020/build-kubernetes-clusters-on-azure)
+- [rancher.com/blog: Deploy Kubernetes Clusters on Microsoft Azure with Rancher](https://www.suse.com/c/rancher_blog/deploy-kubernetes-clusters-on-microsoft-azure-with-rancher)
 
 ## Rancher RKE on vSphere
 
-- [rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE](https://www.rancher.com/blog/2020/stateful-kubernetes-workloads)
+- [rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE](https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke)
 
 ## Rancher Kubernetes on Oracle Cloud
 
@@ -197,8 +197,8 @@
 ## Rancher Fleet to manage multiple kubernetes clusters
 
 - [github.com/rancher/fleet](https://github.com/rancher/fleet) Fleet is GitOps at scale. Fleet can manage deployments from git of raw Kubernetes YAML, Helm charts, or Kustomize or any combination of the three.
-- [**Fleet** Management for kubernetes](https://www.rancher.com/blog/2020/fleet-management-kubernetes) a new open source project from the team at Rancher focused on managing fleets of Kubernetes clusters.
-- [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)
+- [**Fleet** Management for kubernetes](https://www.suse.com/c/rancher_blog/fleet-management-for-kubernetes-is-here) a new open source project from the team at Rancher focused on managing fleets of Kubernetes clusters.
+- [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325?gi=2797603ebea1)
 - [digitalis.io: Kubernetes GitOps Continuous Integration and Delivery with Fleet and Rancher](https://digitalis.io/post/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher)
 
 ## Kubernautic
@@ -208,4 +208,4 @@
 ## Harvester Hyperconverged Infrastructure Software
 
 - [Harvester](https://github.com/harvester/harvester) Rancher Harvester is an open source hyper-converged infrastructure (HCI) software built on Kubernetes. It is an open source alternative to vSphere and Nutanix.
-- [rancher.com: Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software](https://www.rancher.com/blog/2020/announcing-harvester-open-source-hyperconverged-infrastructure-software)
+- [rancher.com: Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software](https://www.suse.com/c/rancher_blog/announcing-harvester-open-source-hyperconverged-infrastructure-hci-software)
