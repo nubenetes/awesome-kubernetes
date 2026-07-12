@@ -35,7 +35,7 @@
 - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)
 - [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)
 - [tennexas.com: Kubernetes Troubleshooting Examples](https://tennexas.com/kubernetes-troubleshooting-examples)
-- [levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes](https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
+- [levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes](https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24?gi=8fafc09deed1)
 - [medium: Common Kubernetes Errors Made by Beginners [2021] 🌟](https://medium.com/nerd-for-tech/common-kubernetes-errors-made-by-beginners-274b50e18a01)
 - [cloud.redhat.com: Troubleshooting Sandboxed Containers Operator](https://www.redhat.com/en/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2)
 - [andydote.co.uk: The Problem with CPUs and Kubernetes](https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes)
@@ -45,17 +45,17 @@
 - [thenewstack.io: Living with Kubernetes: Debug Clusters in 8 Commands 🌟](https://thenewstack.io/living-with-kubernetes-debug-clusters-in-8-commands)
 - [dzone.com: The Three Pillars of Kubernetes Troubleshooting 🌟 [ARCHIVED]](http://web.archive.org/web/20220309105258/https://dzone.com/articles/the-three-pillars-of-kubernetes-troubleshooting) Diving into how the three pillars of understanding, managing and preventing for Kubernetes troubleshooting, and how it helps to conceive of what’s needed to be able to properly troubleshoot real-world Kubernetes stacks that are the hallmark of complex, distributed systems.
 - [freecodecamp.org: How to Simplify Kubernetes Troubleshooting](https://www.freecodecamp.org/news/how-to-simplify-kubernetes-troubleshooting)
-- [==itnext.io: Distroless Container Debugging on K8s/OpenShift==](https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad)
+- [==itnext.io: Distroless Container Debugging on K8s/OpenShift==](https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad?gi=d0d5fe8a33c5)
     - When people focusing more on the security of containers, distroless based images are frequently used to reduce the attack surface. In these images, the package manager, the non-dependent modules or libraries, even the shells are stripped off, only the app and its required dependencies are kept. For the statically linked executable, produced by golang for example, we can even use “scratch” as the base.
     - The potential exploit of vulnerability is therefore greatly reduced. But, on the other hand, it is difficult to troubleshoot the application if even the shell is not available, leaving only the logs from the app.
     - In this paper, we will explore different options to facilitate debugging by bringing back the shell.
 - [==speakerdeck.com/mhausenblas (redhat): Troubleshooting Kubernetes apps==](https://speakerdeck.com/mhausenblas/kubecologne-keynote-troubleshooting-kubernetes-apps)
 - [medium.com/@andrewachraf: Detect crashes in your Kubernetes cluster using kwatch and Slack 🌟](https://medium.com/@andrewachraf/detect-crashes-in-your-cluster-using-kwatch-an-slack-84b979e93e03) Monitor all changes in your Kubernetes(K8s) cluster & detects crashes in your running apps in real time
 - [==research.nccgroup.com: Detection Engineering for Kubernetes clusters==](https://www.nccgroup.com/research)you will learn how to detect anomalies in your cluster using Kubernetes Audit logs and Anomalies Detection Engineering.
-- [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 1)](https://pauldally.medium.com/debugging-networkpolicy-part-1-249921cdba37)
+- [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 1)](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37?gi=17a5f66e5f7c)
     - [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)](https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c)
 - [medium.com/geekculture: Common Pod Errors in Kubernetes to Watch Out For](https://medium.com/geekculture/common-pod-errors-in-kubernetes-to-watch-out-for-d808737f4ade)
-- [==faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1)==](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37) For something as important as NetworkPolicy, debugging is surprisingly painful.you will learn a few practical tips on how to debug your network policies
+- [==faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1)==](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37?gi=d0c46ea5dfd0) For something as important as NetworkPolicy, debugging is surprisingly painful.you will learn a few practical tips on how to debug your network policies
     - [==pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)==](https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c)
 - [tratnayake.dev: Oncall Adventures - When your Prometheus-Server mounted to GCE Persistent Disk on K8s is Full](https://tratnayake.dev/oncall-adventures-prometheus-filled-disk) you will follow Thilina's journey on debugging a failing Prometheus server on Kubernetes. The story starts with a wake-up call at 3.30 am 😅
 - [==sysdig.com: Understanding Kubernetes pod pending problems==](https://www.sysdig.com/blog/kubernetes-pod-pending-problems)
@@ -65,19 +65,19 @@
     - It starts, but doesn't work
     - There are too many pods!
     - But can you `curl` it?
-- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more.
+- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513?gi=a95914aa8486) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more.
 - [saiteja313.medium.com: Tracing DNS issues in Kubernetes](https://saiteja313.medium.com/tracing-dns-issues-in-kubernetes-28b38f782103)
 - [medium.com/@jasonmfehr: Kubernetes Informers: Opening the Mystery Box](https://medium.com/@jasonmfehr/kubernetes-informers-opening-the-mystery-box-4cd690a43a4) how the team at Cloudera found a performance issue with Kubernetes informers and how they managed to rectify the issue
 - [maxilect-company.medium.com: Graceful shutdown in a cloud environment (the example of Kubernetes + Spring Boot) 🌟](https://maxilect-company.medium.com/graceful-shutdown-in-a-cloud-environment-the-example-of-kubernetes-spring-boot-f922b41adaa0) you'll learn why it is crucial to think about graceful shutdown in Kubernetes and how you can approach this task. Many people think about starting an application in the cloud but rarely pay attention to how it ends. Once, we caught quite a few errors explicitly related to pods stopping. For example, we saw that Kubernetes occasionally kills our application before it releases resources, although it seems that this should not happen. It was impossible to reproduce the problem immediately, and we wondered what was happening under the hood?
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
 - [madeeshafernando.medium.com: Capturing Heap Dumps of stateless Kubernetes pods before container termination and export to AWS S3](https://madeeshafernando.medium.com/capturing-heap-dumps-of-stateless-kubernetes-pods-before-container-termination-and-export-to-aws-s3-9602378ee60b)
-- [faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)](https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3) you will follow Stephen's journey to identifying the root cause for cluster nodes running out of space on the Aliyun cloud
+- [faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)](https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3?gi=c72683b281b1) you will follow Stephen's journey to identifying the root cause for cluster nodes running out of space on the Aliyun cloud
 - [thenewstack.io: What David Flanagan Learned Fixing Kubernetes Clusters](https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters) David Flanagan has fixed 50+ Kubernetes clusters as part of his YouTube series, 'Klustered.' He shared what he learned at Civo Navigate.
 - [==github.com/metaleapca: metaleap-k8s-troubleshooting.pdf== 🌟🌟🌟](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf)
 - [nicolasbarlatier.hashnode.dev: .NET Core Tip 2: How to troubleshoot Memory Leaks within a .NET Console application running in a Linux Docker Container in Kubernetes](https://nicolasbarlatier.hashnode.dev/net-core-tip-2-how-to-troubleshoot-memory-leaks-within-a-net-console-application-running-in-a-linux-docker-container-in-kubernetes) In this step-by-step guide, you will learn how to troubleshoot a memory leak in a .Net Core application running within a Kubernetes cluster.
-- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more
+- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513?gi=a95914aa8486) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more
 - [==dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges==](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges) Bugs are inevitable and typically occur as a result of an error or oversight. Learn five Kubernetes debugging challenges and how to tackle them.
-- [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba) **The `/proc` directory is a special directory that holds all the details about our Linux system, such as — kernel, processes, and configuration parameters. how to explore the directory in a Kubernetes cluster**
+- [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba?gi=721bbf72365d) **The `/proc` directory is a special directory that holds all the details about our Linux system, such as — kernel, processes, and configuration parameters. how to explore the directory in a Kubernetes cluster**
 - [learnitguide.net: How To Troubleshoot Kubernetes Pods](https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html)
 - [learnitguide.net: How to Check Memory Usage of a Pod in Kubernetes?](https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html)
 - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) how to debug an application deployed in Kubernetes remotely using VS Code and Delve
@@ -96,7 +96,7 @@
 ## Kubernetes Network Troubleshooting
 
 - [==hwchiu.medium.com: Kubernetes Network Troubleshooting Approach== 🌟](https://hwchiu.medium.com/kubernetes-network-troubleshooting-approach-701de9463493)
-- [itnext.io: Tracing Pod2Pod Network Traffic in Kubernetes | Daniele Polencic](https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2)
+- [itnext.io: Tracing Pod2Pod Network Traffic in Kubernetes | Daniele Polencic](https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2?gi=1ea4bfbfa628)
 
 ## Exit Codes in Containers and Kubernetes
 
@@ -122,8 +122,8 @@
 
 ## Pod in Terminating or Unknown Status
 
-- [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://tonylixu.medium.com/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8) K8s Troubleshooting handbook
-- [blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8)
+- [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=046cd4419fd0) K8s Troubleshooting handbook
+- [blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=a9affe6d2f69)
 
 ## OOM Kills
   - [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) 🌟 - This article explains the 'OOMKilled' status in Kubernetes, detailing how the Linux kernel's Out-Of-Memory (OOM) Killer terminates pods when memory limits are exceeded. It covers common triggers such as incorrect resource limits, application memory leaks, traffic spikes, and resource competition among containers. The content also delves into the OOM Killer's scoring mechanism and provides insights into identifying and resolving these issues to prevent production environment disruptions.
@@ -133,14 +133,14 @@
 - [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/blogs/k8s-qos-oomkilled) This article discusses how to handle OOMKilled errors and how to configure Pod QoS to avoid them
 - [sysdig.com: Kubernetes OOM and CPU Throttling](https://www.sysdig.com/blog/troubleshoot-kubernetes-oom) Troubleshooting Memory and CPU problems. Do you know how memory and CPU usage can affect your cloud applications? you will discuss Out of Memory (OOM) and Throttling in Kubernetes.
 - [medium.com/@bm54cloud: Stressing a Kubernetes Pod to Induce an OOMKilled Error](https://medium.com/@bm54cloud/stressing-a-kubernetes-pod-to-induce-an-oomkilled-error-96f3be9c931d) Learn about memory requests and limits, and what happens when those limits are exceeded
-- [itnext.io: Kubernetes Silent Pod Killer](https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9) Tracking down invisible OOM Kills in Kubernetes
+- [itnext.io: Kubernetes Silent Pod Killer](https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9?gi=b61ce468ed02) Tracking down invisible OOM Kills in Kubernetes
     - This article delves into the issue of "Invisible OOM Kills" in Kubernetes, where child processes getting OOM Killed go unnoticed.
     - An “Invisible” OOM Kill occurs when a child process in a container ( any process which is not the main process, PID 1 ) gets OOM Killed. In that scenario, the OOM Kill that occurred is “invisible” to Kubernetes, and as users we wouldn’t be aware of it.
     - The Solution: The entire scenario changes with Kubernetes version 1.28. Starting from that version, Kubernetes enables, by default, a cgroup v2 feature known as “cgroup grouping.”
 
 ## Pause Container
 
-- [blog.devgenius.io: K8s — pause container](https://blog.devgenius.io/k8s-pause-container-f7abd1e9b488) Why we have pause container in K8s pod?
+- [blog.devgenius.io: K8s — pause container](https://blog.devgenius.io/k8s-pause-container-f7abd1e9b488?gi=659c7b1bb468) Why we have pause container in K8s pod?
 
 ## Preempted Pod
 
@@ -191,7 +191,7 @@
 - [sumanthkumarc.medium.com: Debugging namespace deletion issue in Kubernetes](https://sumanthkumarc.medium.com/debugging-namespace-deletion-issue-in-kubernetes-f6f8b40a4368)
 - [medium.com/linux-shots: Debug Kubernetes Pods Using Ephemeral Container](https://medium.com/linux-shots/debug-kubernetes-pods-using-ephemeral-container-f01378243ff)
 - [medium.com/@blgreco72: Debugging Kubernetes Services Locally 🌟](https://medium.com/@blgreco72/debugging-kubernetes-services-locally-8cb14bf8745a) There are various approaches for debugging Microservices hosted within Kubernetes. The approach used here does not alter the Kubernetes cluster in anyway to support developing Microservices, running external to the cluster, within the developer’s IDE. This is accomplished by mapping ports on the developer’s workstation to services that are normally only accessible from containers running within the cluster.
-- [zendesk.engineering: Debugging containerd](https://zendesk.engineering/debugging-containerd-a20f28a2a8bf)
+- [zendesk.engineering: Debugging containerd](https://zendesk.engineering/debugging-containerd-a20f28a2a8bf?gi=42f6b1a203d9)
 - [==heka-ai.medium.com: Introduction to Debugging: locally and live on Kubernetes with VSCode== 🌟](https://heka-ai.medium.com/introduction-to-debugging-locally-and-live-on-kubernetes-8c8ecd3acbaa) you'll learn how to debug your code in real-time on a Pod running on Kubernetes using VS Code
 - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers) Learn how to use Ephemeral Containers to debug Kubernetes workloads with and without the kubectl debug command
 - [eminaktas.medium.com: Debug Containerd in Production](https://eminaktas.medium.com/debug-containerd-in-production-fe93ef4e3ce2) how you can debug containerd with VSCode in a remote production environment.
