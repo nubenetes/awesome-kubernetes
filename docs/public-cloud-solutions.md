@@ -68,7 +68,7 @@
 - [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing)
 - [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service)
 - [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)
-- [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/managed-kubernetes)
+- [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/cloud/kubernetes)
 
 ## IoT Cloud
 
@@ -97,7 +97,7 @@
 - [sdxcentral.com: AWS Outage Stresses Telco Cloud Challenges](https://www.sdxcentral.com/articles/news/aws-outage-stresses-telco-cloud-challenges/2021/12)
 - [jamaica-gleaner.com: Amazon outage’s future implications](https://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)
 - [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834)
-- [faun.pub: Multi-Cloud is NOT the solution to the next AWS outage](https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573)
+- [faun.pub: Multi-Cloud is NOT the solution to the next AWS outage](https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573?gi=6446b11d8a3d)
 
 ## Podcasts
 
