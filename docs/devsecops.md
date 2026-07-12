@@ -157,7 +157,7 @@
 - [==redhat.com: Red Hat's approach to DevSecOps==](https://www.redhat.com/en/solutions/devsecops-approach)
 - [thenewstack.io: Open Source Democratized Software. Now Let’s Democratize Security](https://thenewstack.io/open-source-democratized-software-now-lets-democratize-security)
 - [==goteleport.com: Why DevSecOps is Going Passwordless==](https://goteleport.com/blog/devsecops-passwordless)
-- [==infosecwriteups.com: How I Discovered Thousands of Open Databases on AWS==](https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32) My journey on finding and reporting databases with sensitive data about Fortune-500 companies, Hospitals, Crypto platforms, Startups during due diligence, and more.
+- [==infosecwriteups.com: How I Discovered Thousands of Open Databases on AWS==](https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32?gi=e33fed68a2fb) My journey on finding and reporting databases with sensitive data about Fortune-500 companies, Hospitals, Crypto platforms, Startups during due diligence, and more.
 - [thenewstack.io: Want Real Cybersecurity Progress? Redefine the Security Team](https://thenewstack.io/want-real-cybersecurity-progress-redefine-the-security-team)
 - [devops.com: Taking a DevSecOps Approach to API Security](https://devops.com/why-traditional-approaches-to-api-security-dont-work)
 - [devops.com: Continuous Security: The Next Evolution of CI/CD](https://devops.com/continuous-security-the-next-evolution-of-ci-cd)
@@ -200,8 +200,8 @@
 - [dzone.com: How To Manage Vulnerabilities in Modern Cloud-Native Applications](https://dzone.com/articles/how-to-manage-vulnerabilities-in-modern-cloud-nati) The article describes how to secure cloud-native applications to identify, manage, and remediate vulnerabilities across the tech stack and ways of integrating security.
 - [auth0.com: A Passwordless Future! Passkeys for Java Developers](https://auth0.com/blog/webauthn-and-passkeys-for-java-developers) Passkeys and WebAuthn for Java developers. Learn how to get started with passkeys for your Java and Spring Boot applications.
 - [infracloud.io: How to Prevent Secret Leaks in Your Repositories](https://www.infracloud.io/blogs/prevent-secret-leaks-in-repositories)
-- [blog.devops.dev: End-to-End DevSecOps Kubernetes Project](https://blog.devops.dev/end-to-end-devsecops-kubernetes-project-4259f90722ef) In today’s rapidly evolving tech landscape, deploying applications using Kubernetes has become a crucial aspect of modern software development. This guide provides a detailed walkthrough for setting up an end-to-end Kubernetes project, covering everything from infrastructure provisioning to application deployment and monitoring.
-- [blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins](https://blog.stackademic.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-aws-eks-argocd-prometheus-fbbfdb956d1a)
+- [blog.devops.dev: End-to-End DevSecOps Kubernetes Project](https://blog.devops.dev/end-to-end-devsecops-kubernetes-project-4259f90722ef?gi=de6a6eb9d6cf) In today’s rapidly evolving tech landscape, deploying applications using Kubernetes has become a crucial aspect of modern software development. This guide provides a detailed walkthrough for setting up an end-to-end Kubernetes project, covering everything from infrastructure provisioning to application deployment and monitoring.
+- [blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins](https://blog.stackademic.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-aws-eks-argocd-prometheus-fbbfdb956d1a?gi=5d057ceaa591)
 
 ## Kubernetes Security Compliance Frameworks
 
@@ -391,7 +391,7 @@
 - [justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)](https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper) Learn how combining Gatekeeper + Cosign for image signature validation with the new external_data feature lets you stop untrusted docker images from being deployed on your Kubernetes cluster.
 - [sysdig.com: How to secure Kubernetes deployment with signature verification](https://www.sysdig.com/blog/secure-kubernetes-deployment-signature-verification) Cosign and Connaisseur allow us to secure the Kubernetes deployment with signature verification, ensuring that our images do not change
 - [medium.com/@slimm609: Secure image signing with Cosign and AWS KMS](https://medium.com/@slimm609/secure-image-signing-with-cosign-and-aws-kms-82bc25d7fdae)
-- [itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed and Encrypted Container Images](https://itnext.io/securing-kubernetes-workloads-a-practical-approach-to-signed-and-encrypted-container-images-ff6e98b65bcd) Podman — one tool to rule them all
+- [itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed and Encrypted Container Images](https://itnext.io/securing-kubernetes-workloads-a-practical-approach-to-signed-and-encrypted-container-images-ff6e98b65bcd?gi=6015d48f34df) Podman — one tool to rule them all
 
 ## GitHub security
   - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free) - This blog post from GitHub introduces the Code Security Risk Assessment, a free, one-click tool that scans up to 20 active repositories for vulnerabilities using CodeQL. It provides a dashboard summarizing findings by severity, language, detected rules, and vulnerable repositories, aiming to help organizations quickly identify and prioritize code security risks.
@@ -427,7 +427,7 @@
 - [blog.getambassador.io: Step-by-Step Centralized Authentication for Kubernetes with Keycloak and the Ambassador Edge Stack](https://blog.getambassador.io/centralized-authentication-with-keycloak-and-ambassador-edge-stack-d509ffbc7b6f)
 - [blog.sighup.io: How to run Keycloak in HA on Kubernetes](https://blog.sighup.io/keycloak-ha-on-kubernetes) How to setup Keycloak, the Open Source Identity and Access Management, in HA on Kubernetes.
 - [developers.redhat.com: Authentication and authorization using the Keycloak REST API](https://developers.redhat.com/blog/2020/11/24/authentication-and-authorization-using-the-keycloak-rest-api)
-- [faun.pub: Integrate Keycloak with HashiCorp Vault](https://faun.pub/integrate-keycloak-with-hashicorp-vault-5264a873dd2f) A How-To guide using Terraform
+- [faun.pub: Integrate Keycloak with HashiCorp Vault](https://faun.pub/integrate-keycloak-with-hashicorp-vault-5264a873dd2f?gi=892caa8abe8f) A How-To guide using Terraform
 - [openshift.com: Geographically Distributed Stateful Workloads - Part 3: Keycloak](https://www.redhat.com/en/blog/geographically-distributed-stateful-workloads-part-3-keycloak)
 - [blog.flant.com: Running fault-tolerant Keycloak with Infinispan in Kubernetes](https://palark.com/blog/ha-keycloak-infinispan-kubernetes)
 - [baeldung.com: A Quick Guide to Using Keycloak with Spring Boot](https://www.baeldung.com/spring-boot-keycloak)
@@ -532,7 +532,7 @@
 - [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
 - [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault) Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into **Flux** or other GitOps tools on Kubernetes.
 - [==hashicorp.com: How to Integrate Your Application with Vault: Static Secrets==](https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets) Learn how to retrieve static secrets from HashiCorp Vault in a real-world setting using a new sample application.
-- [blog.devops.dev: Using Vault in Kubernetes Production for Security Engineers](https://blog.devops.dev/using-vault-in-kubernetes-production-for-security-engineers-54d2f0aca4d1)
+- [blog.devops.dev: Using Vault in Kubernetes Production for Security Engineers](https://blog.devops.dev/using-vault-in-kubernetes-production-for-security-engineers-54d2f0aca4d1?gi=a734ee49843b)
 - [hashicorp.com: HashiCorp Vault 1.11 Adds Kubernetes Secrets Engine, PKI Updates, and More 🌟](https://www.hashicorp.com/blog/vault-1-11)
     - Favorite OSS feature is the K8S secrets engine that can generate K8S service accounts as dynamic secrets.
     - Favorite Ent feature is that Autopilot can now perform safe, automated upgrades.
@@ -571,7 +571,7 @@
 
 ### CyberArk Conjur
 
-- [conjur.org](https://www.conjur.org)
+- [conjur.org](https://www.paloaltonetworks.com/idira/machine/secrets-management)
 - [infracloud.io: Securing Kubernetes Secrets with Conjur 🌟](https://www.infracloud.io/blogs/securing-kubernetes-secrets-conjur)
 
 ### SOPS for Kubernetes
@@ -595,7 +595,7 @@
 - [aws.amazon.com: Managing secrets deployment in Kubernetes using Sealed Secrets 🌟](https://aws.amazon.com/blogs/opensource/managing-secrets-deployment-in-kubernetes-using-sealed-secrets)
 - [dzone: Managing Secrets Deployment in GitOps Workflow 🌟](https://dzone.com/articles/managing-kubernetes-secrets) The importance of keeping your secrets safe.
 - [blog.container-solutions.com: The Birth of the External Secrets Community](https://blog.container-solutions.com/the-birth-of-the-external-secrets-community)
-- [itnext.io: Secrets injection at runtime from external Vault into Kubernetes — POC](https://itnext.io/secrets-injection-from-external-vault-into-kubernetes-poc-83a52c8cf5cb)
+- [itnext.io: Secrets injection at runtime from external Vault into Kubernetes — POC](https://itnext.io/secrets-injection-from-external-vault-into-kubernetes-poc-83a52c8cf5cb?gi=8219e619ad30)
 - [jx-secret-postrenderer 🌟](https://github.com/jenkins-x-plugins/jx-secret-postrenderer) a helm postrenderer for working with helm and Kubernetes External Secrets. This post renderer lets you use helm charts which contain Secret resources and have those secrets managed by Kubernetes External Secrets without having to modify your charts. Want seamless support for kubernetes external secrets with existing helm charts? but you're not using Jenkins X yet? then why not try this helm post renderer.
 - [thenewstack.io: Managing Kubernetes Secrets with AWS Secrets Manager 🌟](https://thenewstack.io/managing-kubernetes-secrets-with-aws-secrets-manager)
 - [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook) - [github: k8s-vault-webhook](https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook) A k8s vault webhook is a Kubernetes webhook that can inject secrets into Kubernetes resources by connecting to multiple secret managers
@@ -617,7 +617,7 @@
 - [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security)
 - [medium: KubeSecOps Pipeline(Container security) in a cloudnative ecosystem](https://medium.com/@vaib16dec/kubesecops-pipeline-container-security-in-a-cloudnative-ecosystem-e59bf19a713d)
 - [sysdig.com: Sysdig 2021 container security and usage report: Shifting left is not enough 🌟](https://www.sysdig.com/blog/sysdig-2021-container-security-usage-report)
-- [itnext.io: Hardening Docker and Kubernetes with seccomp 🌟](https://itnext.io/hardening-docker-and-kubernetes-with-seccomp-a88b1b4e2111)
+- [itnext.io: Hardening Docker and Kubernetes with seccomp 🌟](https://itnext.io/hardening-docker-and-kubernetes-with-seccomp-a88b1b4e2111?gi=1d854cda667c)
 - [redhat.com: Improving Linux container security with seccomp 🌟](https://www.redhat.com/en/blog/container-security-seccomp) Try this method of using an OCI runtime hook for tracing syscalls before you build a container.
 - [openshift.com: Signing and Verifying Container Images 🌟](https://www.redhat.com/en/blog/signing-and-verifying-container-images)
 - [redhat.com: Introducing Red Hat Vulnerability Scanner Certification](https://www.redhat.com/en/blog/introducing-red-hat-vulnerability-scanner-certification)
@@ -663,13 +663,13 @@
     - [falco.org: Detect Malicious Behaviour on Kubernetes API Server through gathering Audit Logs by using FluentBit - Part 2](https://falco.org/blog/detect-malicious-behaviour-on-kubernetes-api-server-through-gathering-audit-logs-by-using-fluentbit-part-2)
 - [kubearmor.io](https://kubearmor.io) Runtime protection for Kubernetes & other cloud Workloads. KubeArmor uses eBPF and Linux Security Modules (LSM) to provide policy based system
 to restrict any unwanted, malicious behavior of cloud-native workloads at runtime.
-    - [itnext.io: Protecting Your Kubernetes Environment With KubeArmor](https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b) how to use KubeArmor to define policies and protect your containerized workloads. You will test the setup against the ShellShock vulnerability and compare it to AppArmor.
+    - [itnext.io: Protecting Your Kubernetes Environment With KubeArmor](https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b?gi=e304baadaae4) how to use KubeArmor to define policies and protect your containerized workloads. You will test the setup against the ShellShock vulnerability and compare it to AppArmor.
 
 ## Helm Charts Security. Helm Secrets
 
 - [medium: Who’s at the Helm?](https://dlorenc.medium.com/whos-at-the-helm-1101c37bf0f1) Or, how to deploy 25+ CVEs to prod in one command!
-- [itnext.io: Helm 3 — Secrets management, an alternative approach 🌟](https://itnext.io/helm-3-secrets-management-4f23041f05c3)
-- [==itnext.io: Manage Auto-generated Secrets In Your Helm Charts== 🌟](https://itnext.io/manage-auto-generated-secrets-in-your-helm-charts-5aee48ba6918)
+- [itnext.io: Helm 3 — Secrets management, an alternative approach 🌟](https://itnext.io/helm-3-secrets-management-4f23041f05c3?gi=453117a4fd5b)
+- [==itnext.io: Manage Auto-generated Secrets In Your Helm Charts== 🌟](https://itnext.io/manage-auto-generated-secrets-in-your-helm-charts-5aee48ba6918?gi=7fbfeb99508d)
 - [dev-vibe.medium.com: Encrypt Helm sensitive data](https://dev-vibe.medium.com/encrypt-helm-sensitive-data-9d7622e41d00) A guide on how to stay safe when pushing helm values files containing Your passwords and other sensitive data to the version control tool.
 
 ## Password Recovery
@@ -690,7 +690,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 
 ## Other Security Tools
 
-- [itnext.io: Top 6 Threat Detection Tools for Containers](https://itnext.io/top-6-threat-detection-tools-for-containers-3dd80b77777e) Essentials to Securing Threats for Containerized Cloud-Native Applications
+- [itnext.io: Top 6 Threat Detection Tools for Containers](https://itnext.io/top-6-threat-detection-tools-for-containers-3dd80b77777e?gi=e958204df4f6) Essentials to Securing Threats for Containerized Cloud-Native Applications
 - [thenewstack.io: AWS Open Sources Security Tools](https://thenewstack.io/aws-open-sources-security-tools) AWS is open sourcing its Cedar policy language and authorization engine and Snapchange, an open source snapshot-based fuzzing tool.
 
 ### Torq. No code Security Automation
@@ -728,7 +728,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 - [blog.mimacom.com: A Summary of log4j Exploit in a Log4shell - What Happened and What You Can Do About It](https://blog.mimacom.com/log4j-in-a-log4shell)
 - [cyberscoop.com: The Log4j flaw is the latest reminder that quick security fixes are easier said than done](https://cyberscoop.com/log4j-hack-security-update-ransomware)
 - [vpnranks.com: Belgian Defense Ministry Under Cyber Attack Due to Log4j Vulnerability](https://www.vpnranks.com/news/belgian-defense-ministry-under-cyber-attack-due-to-log4j-vulnerability)
-- [dynatrace.com: Log4Shell vulnerability discovery and mitigation require automatic and intelligent observability](https://www.dynatrace.com/news/blog/log4shell-vulnerability-discovery-and-mitigation)
+- [dynatrace.com: Log4Shell vulnerability discovery and mitigation require automatic and intelligent observability](https://www.dynatrace.com/news/blog/what-is-log4shell)
 - [thenewstack.io: Yet Another Log4j Security Problem Appears](https://thenewstack.io/yet-another-log4j-security-problem-appears)
 - [==cisagov/log4j-scanner==](https://github.com/cisagov/log4j-scanner) **log4j-scanner is a project derived from other members of the open-source community by CISA to help organizations identify potentially vulnerable web services affected by the log4j vulnerabilities.**
 - [venturebeat.com: What Log4Shell teaches us about open source security](https://venturebeat.com/2021/12/18/what-log4shell-teaches-us-about-open-source-security)
