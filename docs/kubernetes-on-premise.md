@@ -73,7 +73,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 - [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
 - [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04)
-- [itnext.io: Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1) you’ll see how to make use of kubeadm bootstrap to set up and join 3 master instances as members of our cluster.
+- [itnext.io: Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1?gi=7f135b166a22) you’ll see how to make use of kubeadm bootstrap to set up and join 3 master instances as members of our cluster.
 - [Set up a Bare Metal Kubernetes cluster with](https://www.theodo.com/en-fr/blog)
 - [blog.tobias-huebner.org: Low-budget self-hosted Kubernetes 🌟](https://blog.tobias-huebner.org/low-budget-kubernetes-self-hosted-series)
 - [mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm)
@@ -81,7 +81,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [blog.radwell.codes: Provisioning Single-node Kubernetes Cluster using kubeadm on Ubuntu 20.04](https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04)
 - [medium.com/@ZiXianZeroX: Setting Up an On-premise Kubernetes Cluster from Scratch](https://medium.com/@ZiXianZeroX/setting-up-an-on-premise-kubernetes-cluster-from-scratch-8e3a6b415387)
 - [thenewstack.io: How to Deploy Kubernetes with Kubeadm and containerd](https://thenewstack.io/how-to-deploy-kubernetes-with-kubeadm-and-containerd)
-- [faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm. 1/3](https://faun.pub/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b) you'll create a HA Kubernetes cluster with multi masters topology, with an external Etcd cluster as a base layer and a MetalLB load balancer. On all worker nodes, you'll deploy a GlusterFS for storage.
+- [faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm. 1/3](https://faun.pub/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b?gi=6deba9a0f139) you'll create a HA Kubernetes cluster with multi masters topology, with an external Etcd cluster as a base layer and a MetalLB load balancer. On all worker nodes, you'll deploy a GlusterFS for storage.
 - [blog.learncodeonline.in: Kubernetes Cluster Deployment on CentOS Linux](https://blog.learncodeonline.in/kubernetes-cluster-deployment-on-centos-linux)
 - [github.com/kubernetes/kubeadm: High Availability Considerations](https://github.com/kubernetes/kubeadm/blob/main/docs/ha-considerations.md)
 - [medium.com/@brunosquassoni: Creating a Kubernetes Cluster [STEP BY STEP]](https://medium.com/@brunosquassoni/creating-a-kubernetes-cluster-step-by-step-bd9ae3c85275)
@@ -113,7 +113,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ## WKSctl
 
 - [**Weave Kubernetes System Control - wksctl**](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
-- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
+- [WKSctl - A New OSS Kubernetes Manager using GitOps](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)
 
 ## Terraform (kubernetes the hard way)
@@ -136,12 +136,12 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ## ClusterAPI
 
 - [==ClusterAPI==](https://cluster-api.sigs.k8s.io) Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.
-- [itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)](https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89)
+- [itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)](https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89?gi=8fe61ee6fa7f)
 - [medium: ClusterOps: 1-Line Commit to Upgrade Your Kubernetes Clusters 🌟](https://medium.com/swlh/clusterops-1-line-commit-to-upgrade-your-kubernetes-clusters-de3548124d04)
 - [cncf.io webinar: Deploying Kubernetes to bare metal using cluster API](https://www.cncf.io/webinars/deploying-kubernetes-to-bare-metal-using-cluster-api)
-- [itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)](https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89)
+- [itnext.io: Multi-Cloud and Multi-Cluster Declarative Kubernetes Cluster Creation and Management with Cluster API (CAPI — v1alpha3)](https://itnext.io/multi-cloud-and-multi-cluster-declarative-kubernetes-cluster-creation-and-management-with-cluster-6df8efdc2a89?gi=8fe61ee6fa7f)
 - [github.com: Cluster API Helm Chart](https://github.com/kgamanji/cluster-api-helm-chart) - [youtube: Cluster API & FluxCD - the power of GitOps](https://www.youtube.com/watch?v=QbSw8dPhHGM&ab_channel=KatieGamanji) A Helm chart to install Cluster API manifests
-- [weave.works: Manage Thousands of Clusters with GitOps and the Cluster API](https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api)
+- [weave.works: Manage Thousands of Clusters with GitOps and the Cluster API](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [thenewstack.io: Cluster API Offers a Way to Manage Multiple Kubernetes Deployments](https://thenewstack.io/cluster-api-offers-a-way-to-manage-multiple-kubernetes-deployments)
 - [thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API](https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api)
 - [cncf.io: Kubernetes Cluster API reaches production readiness with version 1.0](https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0)
@@ -200,7 +200,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Weave Kubernetes Platform
 
-- [weave.works: Weave Kubernetes Platform](https://www.weave.works) Automate Enterprise Kubernetes the GitOps way
+- [weave.works: Weave Kubernetes Platform](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745) Automate Enterprise Kubernetes the GitOps way
 - [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
 
 ### Ubuntu Charmed Kubernetes
