@@ -74,7 +74,7 @@
 - [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability)
 - [thenewstack.io: Monitoring as Code: What It Is and Why You Need It 🌟](https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it)
 - [thenewstack.io: Observability Won’t Replace Monitoring (Because It Shouldn’t) 🌟](https://thenewstack.io/observability-wont-replace-monitoring-because-it-shouldnt)
-- [matiasmct.medium.com: Observability at Scale](https://matiasmct.medium.com/observability-at-scale-52d0d9a5fb9b)
+- [matiasmct.medium.com: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b?gi=8f60ed6ebc85)
 - [dynatrace.com: How to solve the challenges of multicloud AWS, Azure and GCP observability](https://www.dynatrace.com/news/blog)
 - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)
     - [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
@@ -82,7 +82,7 @@
 - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability)
 - [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics)
 - [thenewstack.io: Best Practices to Optimize Infrastructure Monitoring within DevOps Teams](https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams)
-- [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e)
+- [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e?gi=6a51a4ccf392)
 - [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skillfield.com.au/blog/monitoring-kubernetes-and-docker-container-logs)
 - [thenewstack.io: Growing Adoption of Observability Powers Business Transformation](https://thenewstack.io/growing-adoption-of-observability-powers-business-transformation)
 - [blog.thundra.io: What CI Observability Means for DevOps 🌟](https://blog.thundra.io/what-ci-observability-means-for-devops)
@@ -109,14 +109,14 @@
 - [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/2270578/the-red-method-a-new-strategy-for-monitoring-microservices.html) By using the RED metrics—rate, error, and duration—you can get a solid understanding of how your services are performing for end-users.
 - [intellipaat.com: Top 10 DevOps Monitoring Tools](https://intellipaat.com/blog/devops-monitoring-tools) Are you a DevOps engineer? Are you confused about which DevOps monitoring tools to use for monitoring? If so, go through this comprehensive blog to know more about different types of DevOps monitoring tools, their purpose, and their importance.
 - [==cncf.io: How to add observability to your application pipeline==](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline)
-- [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f)
+- [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f?gi=36fda68991fa)
 - [logz.io: A Monitoring Reality Check: More of the Same Won’t Work](https://logz.io/blog/monitoring-reality-check)
 - [medium.com/buildpiper: Observability for Monitoring Microservices — Top 5 Ways!](https://medium.com/buildpiper/observability-for-monitoring-microservices-top-5-ways-587871e726d0) Knowing what’s running inside the container, how the application and code are performing is critical for tackling important issues. Discussed here are some important Microservices monitoring tools and approaches. Take a look!
 - [medium.com/@cbkwgl: Continuous Monitoring in DevOps 🌟](https://medium.com/@cbkwgl/continuous-monitoring-in-devops-8d4db48a0e24)
 - [logz.io: The Open Source Observability Adoption and Migration Curve](https://logz.io/blog/open-source-observability-adoption-migration-curve)
 - [==devopscube.com: What Is Observability? Comprehensive Beginners Guide==](https://devopscube.com/what-is-observability)
-- [tiagodiasgeneroso.medium.com: Observability Concepts you should know](https://tiagodiasgeneroso.medium.com/observability-concepts-you-should-know-943fc057b208)
-- [faun.pub: Getting started with Observability](https://faun.pub/getting-started-with-observability-657d57aab1c7) How to implement Observability
+- [tiagodiasgeneroso.medium.com: Observability Concepts you should know](https://blog.devgenius.io/observability-concepts-you-should-know-943fc057b208?gi=4356fbd705e3)
+- [faun.pub: Getting started with Observability](https://faun.pub/getting-started-with-observability-657d57aab1c7?gi=c65fd54d4e35) How to implement Observability
 - [medium.com/@badawekoo: Monitoring in DevOps lifecycle](https://medium.com/@badawekoo/monitoring-in-devops-lifecycle-4d9a2f277eb0)
 - [laduram.medium.com: The Future of Observability](https://laduram.medium.com/the-future-of-observability-c33cd7ff644a)
 - [devops.com: Where Does Observability Stand Today, and Where is it Going Next?](https://devops.com/where-does-observability-stand-today-and-where-is-it-going-next)
@@ -383,7 +383,7 @@ done
     - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector)
     - [medium.com: **Jaeger embraces OpenTelemetry collector** 🌟](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
     - [Best Practices for Deploying Jaeger on Kubernetes in Production](https://thenewstack.io/best-practices-for-deploying-jaeger-on-kubernetes-in-production)
-    - [faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to Jaeger (5 Part Series)](https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182)
+    - [faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to Jaeger (5 Part Series)](https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182?gi=c975914f6fa7)
 - [**zipkin.io**](https://zipkin.io)
     - [javatechonline.com: How To Implement Distributed Logging Tracing Using Sleuth Zipkin](https://javatechonline.com/distributed-tracing-logging-using-sleuth-zipkin)
     - [thenewstack.io: Perform Distributed Tracing with Zipkin](https://thenewstack.io/perform-distributed-tracing-with-zipkin) Open source Zipkin offers a robust set of features that make it easier for developers to understand and optimize complex distributed systems.
@@ -476,7 +476,7 @@ done
 - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
 - [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 - Exception Tracking:
-    - [sentry.io](https://sentry.io/welcome)
+    - [sentry.io](https://sentry.io/welcome/)
     - APMs like Dynatrace, etc.
 - APM Tools:
     - [datadoghq.com](https://www.datadoghq.com)
@@ -518,7 +518,7 @@ done
 - [dynatrace.com: openshift monitoring](https://www.dynatrace.com/hub/detail/red-hat-openshift)
 - [dynatrace.com: Dynatrace monitoring for Kubernetes and OpenShift](https://www.dynatrace.com/technologies/kubernetes-monitoring)
 - [dynatrace.com: Deploy OneAgent on OpenShift Container Platform](https://docs.dynatrace.com/docs/ingest-from/setup-on-container-platforms/kubernetes/legacy/deploy-oneagent-operator-openshift-legacy)
-- [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/successful-kubernetes-monitoring-3-pitfalls-to-avoid)
+- [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/what-is-kubernetes-2)
 - [My Dynatrace proof of concept 🌟](https://github.com/nubenetes/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf)
 - [Tutorial: Guide to automated SRE-driven performance engineering 🌟](https://www.dynatrace.com/news/blog/guide-to-automated-sre-driven-performance-engineering-analysis)
 - [dynatrace.com: 4 steps to modernize your IT service operations with Dynatrace](https://www.dynatrace.com/news/blog/4-steps-to-modernize-your-it-service-operations-with-dynatrace)
@@ -537,7 +537,7 @@ done
 Messaging Solution|Monitoring Solution|URL
 :-------|:-------|:-----
 ActiveMQ 5.8.0+|[Dynatrace](https://www.dynatrace.com)|[ref](https://docs.dynatrace.com/docs/observe/infrastructure-observability/extensions/activemq)
-ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io) + Prometheus|[ref1](https://activemq.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
+ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io) + Prometheus|[ref1](https://artemis.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
 IBM MQ|[IBM MQ](https://github.com/ibm-messaging) Exporter for Prometheus|[ref](https://github.com/ibm-messaging/mq-metric-samples/tree/master/cmd/mq_prometheus)
 Kafka|[Dynatrace](https://www.dynatrace.com)|[ref1](https://docs.dynatrace.com/docs/observe/infrastructure-observability/extensions/confluent-cloud-kafka), [ref2](https://www.dynatrace.com/news/blog/introducing-kafka-process-monitoring), [ref3](https://answers.dynatrace.com/spaces/482/dynatrace-open-qa/questions/232421/dynatrace-distributed-tracing-with-kafka.html)
 Kafka|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[ref1](https://github.com/prometheus/jmx_exporter), [ref2](https://github.com/prometheus/jmx_exporter), [ref3](https://github.com/prometheus/jmx_exporter), [ref4](https://strimzi.io/blog/2019/10/14/improving-prometheus-metrics), [ref5](https://medium.com/activewizards-machine-learning-company/kafka-monitoring-with-prometheus-telegraf-and-grafana-6228fed736f1), [ref6](https://medium.com/@nblaye/exporting-kafka-jmx-metrics-to-grafana-1b9d32fe900a), [ref7](https://blog.knoldus.com/monitoring-kafka-with-prometheus-and-grafana)
@@ -576,11 +576,11 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 ## Krossboard Converged Kubernetes usage analytics
 
 - [Krossboard](https://krossboard.app) All in one single place, Krossboard tracks the usage of all your clusters over time, it helps forecast capacity scale up/down, thereby enabling you to easily anticipate and master operations costs.
-- [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)
+- [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://rodrigue-chakode.medium.com/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)
 
 ## Instana APM
 
-- [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana 🌟](https://www.cloudbees.com/blog/automated-build-deploy-feedback-using-instana)
+- [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana 🌟](https://www.cloudbees.com/blog/jenkins-tutorial-get-started-quickly-and-easily-with-ci)
 
 ## Monitoring Etcd
 
