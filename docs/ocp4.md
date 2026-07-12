@@ -793,7 +793,7 @@ oc login
 ## Quay Container Registry
 
 - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)
-- [Red Hat Quay](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/quay)
+- [Red Hat Quay](https://www.redhat.com/en/technologies/cloud-computing/quay)
 - [projectquay.io](https://www.projectquay.io)
 - [quay.io](https://quay.io)
 - [GitHub Quay (OSS)](https://github.com/quay/quay)
