@@ -107,7 +107,7 @@
 - Tip: Use kyverno to monitor for usage of deprecated resources ahead of the Kubernetes 1.22 release (validation check to scan and report usage of deprecated resources) - [ref](https://github.com/kyverno/policies/issues/80) - [ref2](https://x.com/Marcus_Noble_/status/1417007780888825856)
 - [aws.amazon.com: Easy as one-two-three policy management with Kyverno on Amazon EKS 🌟](https://aws.amazon.com/blogs/containers/easy-as-one-two-three-policy-management-with-kyverno-on-amazon-eks)
 - [kyverno.io: Mutating Resources](https://kyverno.io/docs/writing-policies/mutate) Modify resources during admission control (Kyverno supports mutating resources).
-- [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.squadcast.com/blog/kyverno-policy-management-in-kubernetes)
+- [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.solarwinds.com/blog/category/incident-response)
 - [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3)
 - [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check_deprecated_apis) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
 - [kyverno.io: Generating resources into existing namespaces](https://kyverno.io/docs/writing-policies/generate)
