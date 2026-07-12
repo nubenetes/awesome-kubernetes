@@ -58,7 +58,7 @@
 - [blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟](https://www.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database)
 - [thenewstack.io: Databases — Finally — Get Containerized](https://thenewstack.io/databases-finally-get-containerized)
 - [percona.com: Autoscaling Databases in Kubernetes for MongoDB, MySQL, and PostgreSQL](https://www.percona.com/blog/autoscaling-databases-in-kubernetes-for-mongodb-mysql-and-postgresql)
-- [levelup.gitconnected.com: How to design a system to scale to your first 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d) Think Big, Do Small, Learn Fast
+- [levelup.gitconnected.com: How to design a system to scale to your first 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d?gi=2d80313c98c7) Think Big, Do Small, Learn Fast
 - [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)
 - [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types 🌟🌟](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106) When to use SQL vs. NoSQL database? Deep dive, differences, decision tree, and cloud cheatsheet to choose the best database for your data type and use case.
 - [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations) Deploying ASP.NET Core applications to Kubernetes - Part 7. Learn how to run database migrations with init containers and Jobs in Kubernetes.
@@ -82,7 +82,7 @@
 - [thenewstack.io: How Radical API Design Changed the Way We Access Databases](https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases)
 - [==architecturenotes.co: Things You Should Know About Databases==](https://architecturenotes.co/p/things-you-should-know-about-databases) This is the first post in a series called Things You Should Know. Think of it as a primer to level set from base principles on various topics. Today we are discussing databases!
 - [vladmihalcea.com: A beginner’s guide to database multitenancy](https://vladmihalcea.com/database-multitenancy)
-- [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959) 90% of the customers believe it is ready for stateful workloads, and a large majority (70%) are running them in production with databases topping the list. Companies report significant benefits to standardization, consistency, and management as key drivers.
+- [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959?gi=89e2eb270320) 90% of the customers believe it is ready for stateful workloads, and a large majority (70%) are running them in production with databases topping the list. Companies report significant benefits to standardization, consistency, and management as key drivers.
 - [thenewstack.io: More Database, Analytics Workloads Ran on Kubernetes in 2022](https://thenewstack.io/more-database-analytics-workloads-ran-on-kubernetes-in-2022) More than three in four participants in the new Data on Kubernetes survey now acknowledge the use of databases on Kubernetes, up from 50% in 2021.
 - [medium.com/@bijit211987: Kubernetes ready for stateful workloads and to Revolutionize Enterprise Database Management](https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2)
 - [==medium.com/javarevisited: Top Performance issues every developer/architect must know — part 1-Database==](https://medium.com/javarevisited/top-performance-issues-every-developer-architect-must-know-part-1-fc1ad6e1644b)
@@ -143,7 +143,7 @@
 - [threadreaderapp.com:  Kelsey Hightower: "Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes" 🌟](https://threadreaderapp.com/thread/963413508300812295.html)
 - [thenewstack.io: Data on Kubernetes: The Next Frontier](https://thenewstack.io/data-on-kubernetes-the-next-frontier) “The interesting opportunity I see in the Kubernetes ecosystem,” Evenson continued, “is that, with the advent of custom resources and Kubernetes, you can build bespoke APIs for your application really easily. We’re in the world of operator explosion. In essence, it makes Kubernetes applications aware.”
 - [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.redhat.com/en/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift)
-- [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)
+- [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://transporeon-visibility-hub.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)
 
 <center markdown="1">
 
@@ -161,7 +161,7 @@
 
 ## Database Continuous Integration
 
-- [cloudbees.com: Introductory Handbook for Database Continuous Integration](https://www.cloudbees.com/blog/beginners-guide-to-continuous-integration-and-deployment)
+- [cloudbees.com: Introductory Handbook for Database Continuous Integration](https://www.cloudbees.com/blog/ci-cd-pipeline?ref=the-mergify-blog)
 
 ## Databases on Kubernetes
 
@@ -192,7 +192,7 @@
 
 ## Operator Lifecycle Manager (OLM)
 
-- [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)
+- [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04?gi=dc9bd69b27a7)
 
 ## Spilo PostgreSQL Operator
 
@@ -228,7 +228,7 @@
 - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool)
 - [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table)
 - [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance)
-- [pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER) in MySQL](https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4) Database schema relationships of tables
+- [pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER) in MySQL](https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4?gi=3e2c6420db3c) Database schema relationships of tables
 - [dbasecenter.com: The top 5 MySQL performance variables](https://dbasecenter.com/blog/the-top-5-mysql-performance-variables)
 - [opensource.com](https://opensource.com/article/21/5/mysql-query-tuning) Tune your MySQL queries like a pro. Optimizing your queries isn't a dark art; it's just simple engineering.
 - [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops)
@@ -291,7 +291,7 @@
 
 - [RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes](https://github.com/RedisLabs/redis-enterprise-k8s-docs) This page describes how to deploy Redis Enterprise on Kubernetes using the Redis Enterprise Operator.
 - [tech.trell.co: Redis Cluster Creation Automation](https://tech.trell.co/redis-cluster-creation-automation-5e71eedf0e56)
-- [blog.devgenius.io: How to use Redis Pub/Sub in your Python Application 🌟](https://blog.devgenius.io/how-to-use-redis-pub-sub-in-your-python-application-b6d5e11fc8de)
+- [blog.devgenius.io: How to use Redis Pub/Sub in your Python Application 🌟](https://blog.devgenius.io/how-to-use-redis-pub-sub-in-your-python-application-b6d5e11fc8de?gi=575b7c1d8a43)
 
 ## Rockset
 
