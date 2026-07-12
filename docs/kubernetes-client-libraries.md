@@ -27,8 +27,8 @@
 - [Rate Limiting in Controller-Runtime and Client-go](https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting)
 - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.
-- [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)
-- [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481) Learn to programmatically talk to the Kubernetes cluster using the Official Client Go Library. you'll learn how to build a simple CLI that connects to the Kubernetes cluster and displays the server version. In the process, you will learn Go and the client-go package.
+- [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299?gi=1679d538877a)
+- [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481?gi=2241474fe428) Learn to programmatically talk to the Kubernetes cluster using the Official Client Go Library. you'll learn how to build a simple CLI that connects to the Kubernetes cluster and displays the server version. In the process, you will learn Go and the client-go package.
 - [iximiuz.com: How To Develop Kubernetes CLIs Like a Pro](https://iximiuz.com/en/posts/kubernetes-api-go-cli) Build You Own kubectl The Simple Way. Learn how to use the http://k8s.io/cli-runtime library to develop Kubernetes CLI tools that behave like and are as potent as the mighty kubectl.
 
 ## Python Client for Kubernetes
@@ -36,7 +36,7 @@
 - [github.com/kubernetes-client/python](https://github.com/kubernetes-client/python)
 - [github.com/kubernetes-client/python-base](https://github.com/kubernetes-client/python-base)
 - [==medium.com/@dimitrijevskiv: Monitor Kubernetes pod status from a Jenkins pipeline==](https://medium.com/@dimitrijevskiv/monitor-kubernetes-pod-status-from-a-jenkins-pipeline-e25c744d944d)
-- [blog.devgenius.io: Automate Kubernetes With Python 🌟](https://blog.devgenius.io/automate-kubernetes-with-python-2150c290afe7) The Kubernetes Python module is a very powerful client that allows you to easily automate interactions with a Kubernetes cluster.
+- [blog.devgenius.io: Automate Kubernetes With Python 🌟](https://blog.devgenius.io/automate-kubernetes-with-python-2150c290afe7?gi=2b6f729de111) The Kubernetes Python module is a very powerful client that allows you to easily automate interactions with a Kubernetes cluster.
 - [martinheinz.dev/blog/73: Automate All the Boring Kubernetes Operations with Python 🌟](https://martinheinz.dev/blog/73) you will look at how you can leverage the Kubernetes Python Client library to automate any tasks. Examples:
     - Triggering a rollout
     - Scaling a deployment
@@ -46,7 +46,7 @@
 
 ## Java Clients for Kubernetes
 
-- [==itnext.io: Difference between Fabric8 and Official Kubernetes Java Client== 🌟](https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af)
+- [==itnext.io: Difference between Fabric8 and Official Kubernetes Java Client== 🌟](https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af?gi=a8678db6e2d6)
 
 ### Official Java client library for kubernetes
 
@@ -62,7 +62,7 @@
 - [blog.marcnuri.com: Fabric8 Kubernetes Client for Java introduction](https://blog.marcnuri.com/kubernetes-client-java-fabric8-introduction)
 - [blog.marcnuri.com: Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm)
 - [developers.redhat.com: How to generate code using Fabric8 Kubernetes Client](https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client)
-- [==levelup.gitconnected.com: First Try on Java Operator SDK==](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de) Demo on java-operator-sdk and compare it with Kubebuilder
+- [==levelup.gitconnected.com: First Try on Java Operator SDK==](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de?gi=3695a278e444) Demo on java-operator-sdk and compare it with Kubebuilder
 - [developers.redhat.com: How to use Fabric8 Java Client with Kubernetes](https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes) In this 5-part series, you'll learn how to use Fabric8 Kubernetes Client to interact with Kubernetes custom resources using its REST API
 
 ## CDK8s
