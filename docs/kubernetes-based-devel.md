@@ -24,26 +24,26 @@
 
 - [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
     - [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html)
-    - [itnext.io: How to experiment locally on Kubernetes with minikube and your local Dockerfiles](https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your-local-dockerfiles-48833fcd90c9)
+    - [itnext.io: How to experiment locally on Kubernetes with minikube and your local Dockerfiles](https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your-local-dockerfiles-48833fcd90c9?gi=13651e082a04)
     - [nfrankel.medium.com: Goodbye minikube](https://nfrankel.medium.com/goodbye-minikube-340070edc5af) I’ve been using minikube as my local cluster since I started to learn Kubernetes. But I’ve decided to let it go in favor of kind. Here’s the story.
     - [linux.com: Getting Started With Kubernetes Is Easy With Minikube](https://www.linux.com/audience/devops/getting-started-kubernetes-easy-minikube)
-    - [==faun.pub: Accessing a remote minikube from a local computer==](https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd) Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine. how to connect to a remote computer with minikube installed.
+    - [==faun.pub: Accessing a remote minikube from a local computer==](https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd?gi=c61c20c9e49f) Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine. how to connect to a remote computer with minikube installed.
     - [==adamtheautomator.com: Jumpstart Kubernetes Locally with this MiniKube Tutorial==](https://adamtheautomator.com/minikube-tutorial) You'll usually find Kubernetes where it makes sense — i.e. in cloud environments. But how do you speed up development for Kubernetes? Could you test deployments locally?
     - [devopscube.com: Kubernetes Minikube Tutorial for Beginners](https://devopscube.com/kubernetes-minikube-tutorial)
 - [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes. Kind is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
     - [kubernetes-development-environment-in-a-box](https://github.com/ManagedKube/kubernetes-development-environment-in-a-box) This project is geared toward running multiple isolated KinD cluster on a single instance. This project produces an AMI image that can run an instance that has Docker and multiple isolated Kubernetes clusters running in it using KinD. The main use case is to setup one node that can run multiple fully isolated Kubernetes cluster on it for development purposes.
-    - [faun.pub: Finally, (successfully…) setup docker registry inside kind Kubernetes cluster](https://faun.pub/finally-successfully-setup-docker-registry-inside-kind-kubernetes-cluster-5b0381dbb2ec)
+    - [faun.pub: Finally, (successfully…) setup docker registry inside kind Kubernetes cluster](https://faun.pub/finally-successfully-setup-docker-registry-inside-kind-kubernetes-cluster-5b0381dbb2ec?gi=67d6e06c8bfc)
     - [==blog.kubesimplify.com: Yours Kindly Drone==](https://blog.kubesimplify.com/yours-kindly-drone) **Kubernetes Native Continuous Integration (CI) on your laptops. A hands-on tutorial on how to use KinD and Drone to set up CI with Kubernetes on your local machine. At the end of these steps, you will have a completely functional Kubernetes & CI to build and deploy cloud-native apps on K8s**
     - [medyagh/setup-minikube](https://github.com/medyagh/setup-minikube) setup-minikube is a Github action that creates a temporary minikube cluster for testing
     - [dev.to: How to run Minikube on Apple M1 chip without Docker Desktop using Colima](https://dev.to/everythingdevops/how-to-run-minikube-on-apple-m1-chip-without-docker-desktop-h76)
 - [store.docker.com: Docker Community Edition EDGE with kubernetes. Installing Kubernetes using the Docker Client](https://docs.docker.com/desktop/setup/install/windows-install) Currently only available in **Edge** edition.
 - [medium.com: Local Kubernetes for Linux — MiniKube vs MicroK8s](https://medium.com/containers-101/local-kubernetes-for-linux-minikube-vs-microk8s-1b2acad068d3)
-- [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2) Several options to start playing with K8s in no time
+- [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2?gi=10244542445b) Several options to start playing with K8s in no time
 - [padok.fr: MiniKube, Kubeadm, Kind, K3S, how to get started on Kubernetes?](https://www.theodo.com/en-fr/blog/kubernetes-technologies-kubeadm-vs-minikube-kind-and-k3s)
 - [loft.sh: Kubernetes Development Environments – A Comparison](https://website.vcluster.com/blog/kubernetes-development-environments-a-comparison)
 - [opensource.com: 4 ways to run Kubernetes locally](https://opensource.com/article/20/11/run-kubernetes-locally) Set up a local development environment or just try out the container orchestration platform with these tools.
 - [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)
-- [itnext.io: Kubernetes local playground alternatives](https://itnext.io/kubernetes-local-playground-alternatives-e1a590632b9f)
+- [itnext.io: Kubernetes local playground alternatives](https://itnext.io/kubernetes-local-playground-alternatives-e1a590632b9f?gi=0955fbd1ac42)
 - [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)
 - [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments)
 - [Metal Kubes](https://github.com/shank-git/metal-kubes) Create OnPrem Kubernetes Cluster. Install Kubernetes Cluster on Bare Metal Machines
@@ -52,7 +52,7 @@
 
 ## Kubernetes Based Development. Kubernetes Development Tools
 
-- [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
+- [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535?gi=6520a7bdc70b) A guide to developing containerized software
 - [==kubevious== 🌟🌟](https://github.com/kubevious/kubevious) Kubevious is a read-only dashboard and config validator. Kubevious gives deep insights on app config and structure.
 - [==tilt.dev==](https://tilt.dev) You can use Tilt to easily build and run your application on Kubernetes. In comparison with similar tools, it provides [UI for managing the process and cloud platform](https://cloud.tilt.dev) to share data with your team.
     - [medium: Happy trip to Kubernetes in our company](https://medium.com/condorlabs-engineering/happy-trip-to-kubernetes-in-our-company-85ecfde573fd) Kubernetes Local Development Made Easy! Not Minikube, neither Skaffold, but Tilt to the rescue.
@@ -79,7 +79,7 @@
 - [docker.com: Kubernetes in Production Environments](https://www.docker.com/blog/dear-moby-2-kubernetes-in-production) What is the best way to develop if my prod environment runs Kubernetes? Using Docker Compose does come with conditions:
     - It’s another tool in your arsenal. This means another set of manifests to maintain and update. If you need to define a new environment variable, you’ll need to add it to both your Compose file and Kubernetes manifests.
     - You’ll have to vet changes against either prod or a staging environment since you’re not running Kubernetes locally.
-- [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681) This article will be helpful for anyone interested in setting up a local Kubernetes dev/test environment in a reproducible and easy way.
+- [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681?gi=9e9347efd086) This article will be helpful for anyone interested in setting up a local Kubernetes dev/test environment in a reproducible and easy way.
 - [yash-kukreja-98.medium.com: Develop on Kubernetes Series — Demystifying the For vs Owns vs Watches controller-builders in controller-runtime](https://yash-kukreja-98.medium.com/develop-on-kubernetes-series-demystifying-the-for-vs-owns-vs-watches-controller-builders-in-c11ab32a046e)
 
 ### Skaffold. Local Kubernetes Development
@@ -137,7 +137,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 - [==kubeapps.dev== 🌟](https://kubeapps.dev) Kubeapps is an in-cluster web-based application that enables users with a one-time installation to deploy, manage, and upgrade applications on a Kubernetes cluster
 - [==github.com/openshift/console== 🌟](https://github.com/openshift/console)
     - [engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes 🌟](https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubernetes)
-- [levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard on Raspberry Pi Cluster (Part 2)](https://levelup.gitconnected.com/step-by-step-slow-guide-kubernetes-dashboard-on-raspberry-pi-cluster-part-2-acdc8f9b5b99) How to setup self-signed certificate for Kubernetes Dashboard and expose it via load-balancer
+- [levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard on Raspberry Pi Cluster (Part 2)](https://levelup.gitconnected.com/step-by-step-slow-guide-kubernetes-dashboard-on-raspberry-pi-cluster-part-2-acdc8f9b5b99?gi=bb2a6f07e505) How to setup self-signed certificate for Kubernetes Dashboard and expose it via load-balancer
 - [getseabird.github.io 🌟](https://getseabird.github.io) - [github.com/getseabird/seabird](https://github.com/getseabird/seabird) Seabird is a native cross-platform Kubernetes desktop client that makes it super easy to explore your cluster's resources. We aim to visualize all common resource types in a simple, bloat-free user interface.
 - [==github.com/cyclops-ui/cyclops== 🌟](https://github.com/cyclops-ui/cyclops)
     - Cyclops is a powerful user interface for managing and interacting with Kubernetes clusters
@@ -178,7 +178,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 - [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) Lens - The Kubernetes IDE extension that displays Kubernetes resources and their relations as a force graph.
 - [thedevopslife.com: Kubernetes IDE and UI – Lens IDE](https://thedevopslife.com/kubernetes-gui-lens-ide)
 - [medium.com/k8slens: Lens 6 Released, Vision for the Future, New Subscription Model and Features Available](https://medium.com/k8slens/lens-6-released-vision-for-the-future-new-subscription-model-and-features-available-628ff21fe14a) Over 650,000 people and tens-of-thousands of businesses develop and operate their Kubernetes on k8slens. Lens for Web Browsers — Enable new use cases for people preferring the Lens experience via web browsers. Even tablets and mobile phones!
-- [blog.devgenius.io: Is it time to migrate from Lens to OpenLens to manage your Kubernetes clusters?](https://blog.devgenius.io/is-it-time-to-migrate-from-lens-to-openlens-75496e5758d8)
+- [blog.devgenius.io: Is it time to migrate from Lens to OpenLens to manage your Kubernetes clusters?](https://blog.devgenius.io/is-it-time-to-migrate-from-lens-to-openlens-75496e5758d8?gi=c91cd89fe535)
 - [medium.com/k8slens: Eliminating Kubernetes Complexity for Developers Using Lens](https://medium.com/k8slens/eliminating-kubernetes-complexity-for-developers-using-lens-5c199e5aff4e)
 - [medium.com/k8slens: Lens Kubernetes is all you need in the development env to build, ship, and run](https://medium.com/k8slens/lens-kubernetes-is-all-you-need-in-the-development-env-to-build-ship-and-run-5c1980a12fcf)
 
