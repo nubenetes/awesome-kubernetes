@@ -46,7 +46,7 @@
 - [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
 - [maven.apache.org: Introduction to the Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 - [Handwritten Maven archetype project scaffolding](https://www.programmersought.com/article/1858176023)
-- [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html)
+- [programmer.ink: Maven scaffolding best practices](https://www.koterstore.nl/service/payment-methods)
 - [Create the scaffolding for your microservice](https://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven) We will use an existing maven archetype that assembles a CDI-based Camel java project that we will then alter to implement the service.
 
 ### Maven Tests
@@ -80,7 +80,7 @@ mvn dependency:tree     (how you got something on your classpath)
 - [jetbrains.com/help/idea/maven-support.html](https://www.jetbrains.com/help/idea/maven-support.html)
 - [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea)
 - [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea)
-- [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project)
+- [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/maven-java-project-with-intellij-idea)
 
 ### Maven Plugins
 
