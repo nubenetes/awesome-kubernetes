@@ -22,7 +22,7 @@
 
 ## Introduction
 
-- [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712)
+- [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712?gi=0662b37c3ea7)
 - [medium: 4 Simple Kubernetes Terminal Customizations to Boost Your Productivity](https://medium.com/better-programming/4-simple-kubernetes-terminal-customizations-to-boost-your-productivity-deda60a19924)
 - [medium: Ready-to-use commands and tips for kubectl](https://medium.com/flant-com/kubectl-commands-and-tips-7b33de0c5476)
 - [medium: Be fast with Kubectl 1.19 CKAD/CKA 🌟](https://medium.com/faun/be-fast-with-kubectl-1-18-ckad-cka-31be00acc443) Collection of the fastest ways to create k8s resources using kubectl ≥ 1.18
@@ -51,9 +51,9 @@
 - [blogs.nakam.org: What Happens When? K8s Edition 🌟](https://blogs.nakam.org/what-happens-when-k8s-edition) What happens when you do kubectl create deploy nginx --image=nginx --replicas=3
 - [inlets.dev: Fixing the Developer Experience of Kubernetes Port Forwarding](https://inlets.dev/blog/2022/06/24/fixing-kubectl-port-forward.html) This article shows you some of the frustrations of using kubectl for port-forwarding and how to fix the developer experience.
 - [==medium.com/swlh: Break Down Kubernetes Server-Side Apply (Advanced kubectl)== 🌟](https://medium.com/swlh/break-down-kubernetes-server-side-apply-5d59f6a14e26) Are you already using the SSA? Do you know the difference between CSA and SSA?
-- [blog.devgenius.io: K8s — Manage Multiple Clusters Using kubectl at Scale](https://blog.devgenius.io/k8s-manage-multiple-clusters-using-kubectl-at-scale-9f200c692099) Manage multiple K8s clusters efficiently using kubectl
-- [==itnext.io: How to Restart Kubernetes Pods With Kubectl== 🌟](https://itnext.io/how-to-restart-kubernetes-pods-with-kubectl-2a7834a6b961) A pod is the smallest unit in Kubernetes (K8S). They should run until they are replaced by a new deployment. Because of this, there is no way to restart a pod, instead, it should be replaced.
-- [awstip.com: Kubernetes — Creating deployments via command line and with YAML files](https://awstip.com/kubernetes-creating-deployments-via-command-line-and-with-yaml-files-783eaad7b3be)
+- [blog.devgenius.io: K8s — Manage Multiple Clusters Using kubectl at Scale](https://blog.devgenius.io/k8s-manage-multiple-clusters-using-kubectl-at-scale-9f200c692099?gi=05153fdb0788) Manage multiple K8s clusters efficiently using kubectl
+- [==itnext.io: How to Restart Kubernetes Pods With Kubectl== 🌟](https://itnext.io/how-to-restart-kubernetes-pods-with-kubectl-2a7834a6b961?gi=f0dc7a811eeb) A pod is the smallest unit in Kubernetes (K8S). They should run until they are replaced by a new deployment. Because of this, there is no way to restart a pod, instead, it should be replaced.
+- [awstip.com: Kubernetes — Creating deployments via command line and with YAML files](https://awstip.com/kubernetes-creating-deployments-via-command-line-and-with-yaml-files-783eaad7b3be?gi=bccab80596c6)
 - [superbrothers/zsh-kubectl-prompt 🌟](https://github.com/superbrothers/zsh-kubectl-prompt) Display information about the kubectl current context and namespace in zsh prompt.
 - [medium.com/@emmaliaocode: kubectl create vs kubectl apply. What’s the difference?](https://medium.com/@emmaliaocode/kubectl-create-vs-kubectl-apply-whats-the-differences-f6472f4c6c86)
 - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) colorizes kubectl output
@@ -69,7 +69,7 @@
     - gke-outdated
 - [howtogeek.com: Getting Started With Kubectl to Manage Kubernetes Clusters](https://www.howtogeek.com/devops/getting-started-with-kubectl-to-manage-kubernetes-clusters) Kubernetes is a container orchestration engine that lets you deploy containerised workloads in a scalable way.
 - [medium.com/@jake.page91: The guide to kubectl I never had](https://medium.com/@jake.page91/the-guide-to-kubectl-i-never-had-3874cc6074ff)
-- [itnext.io: Kubernetes Contexts: Complete Guide for Developers](https://itnext.io/kubernetes-contexts-complete-guide-for-developers-7ea5b2fc75c7) An introduction to Kubeconfig and Contexts. It’s finally time to understand how kubectl connects to Kubernetes.
+- [itnext.io: Kubernetes Contexts: Complete Guide for Developers](https://itnext.io/kubernetes-contexts-complete-guide-for-developers-7ea5b2fc75c7?gi=ec41e5825c02) An introduction to Kubeconfig and Contexts. It’s finally time to understand how kubectl connects to Kubernetes.
 
 ## Kubectl Cheat Sheets
 
@@ -78,12 +78,12 @@
 ## Kubectl aliases
 
 - [ahmetb/kubectl-aliases](https://github.com/ahmetb/kubectl-aliases) Programmatically generated handy kubectl aliases. This repository contains a script to generate hundreds of convenient shell aliases for kubectl, so you no longer need to spell out every single command and --flag over and over again
-- [blog.devgenius.io: Daily useful Kubernetes aliases](https://blog.devgenius.io/daily-useful-kubernetes-aliases-c35f7f411f39)
+- [blog.devgenius.io: Daily useful Kubernetes aliases](https://blog.devgenius.io/daily-useful-kubernetes-aliases-c35f7f411f39?gi=c894c90b3e0c)
 
 ## Kubectl explain
 
 - [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain)
-- [==itnext.io: Using ‘kubectl explain’ for Custom Resources==](https://itnext.io/understanding-kubectl-explain-9d703396cc8) Goal: Explore if ‘kubectl explain’ can be used to discover static information about Custom Resources
+- [==itnext.io: Using ‘kubectl explain’ for Custom Resources==](https://itnext.io/understanding-kubectl-explain-9d703396cc8?gi=45cba007f649) Goal: Explore if ‘kubectl explain’ can be used to discover static information about Custom Resources
 
 ```for r in $(kubectl api-resources|grep -v ^N|awk '{print $1}');do kubectl explain $r --recursive;done```
 
@@ -113,7 +113,7 @@ complete -F __start_kubectl k
 ## kubectl exec
   - [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command) - *(Related to kubernetes-tools topic)*
 
-- [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03) the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
+- [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03?gi=b92128dbb7b2) the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
 - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl) This article compares `kubectl exec` and SSH and discusses their strengths and weaknesses
 
 ## kubectl scale
