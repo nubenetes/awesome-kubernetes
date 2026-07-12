@@ -61,7 +61,7 @@
 - [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea) An overview to clone a repository, push changes, and make pull requests in VS code
 - [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/playfulprogramming/visual-studio-code-tips-tricks-snippets-5041)
 - [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)
-- [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) These shortcuts make the lives of developers easier.
+- [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631?gi=0fbd0f1f2ab6) These shortcuts make the lives of developers easier.
 - [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) Use PlantUML directly in the Visual Studio Code
 - [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity)
 - [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)
@@ -179,7 +179,7 @@ A simple extension to make indentation more readable
 #### GitHub Copilot
 
 - [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
+- [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/agents/overview)
 - [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031)
 
 #### More Extensions (Blogs)
@@ -249,7 +249,7 @@ A simple extension to make indentation more readable
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code)
 - [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) **A Visual Studio Code extension that lets you easily mirror traffic from your Kubernetes cluster to your development environment.** When you start debugging, mirrord will prompt you to select a pod to mirror traffic from. It will then mirror all traffic from that pod to the process you're debugging.
-    - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544) On some occasions, you might want to be able to debug code running in pods in a Kubernetes cluster. This article will teach you how to use mirrord to develop your local code against a remote Kubernetes cluster
+    - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544?gi=80470584832c) On some occasions, you might want to be able to debug code running in pods in a Kubernetes cluster. This article will teach you how to use mirrord to develop your local code against a remote Kubernetes cluster
 - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)
 
 ## Python in Visual Studio Code
@@ -296,9 +296,9 @@ A simple extension to make indentation more readable
 
 ### Online VSCode
 
-- [github.dev](https://github.dev/github/dev)
+- [github.dev](https://vscode.dev/github/github/dev)
 - [==gitpod.io== 🌟🌟](https://ona.com) - [github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) Gitpod automates the provisioning of ready-to-code development environments. Gitpod is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser. Tightly integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result, team members can instantly start coding with fresh, ephemeral and fully-compiled dev environments - no matter if you are building a new feature, want to fix a bug or do a code review.
-    - [gitpod.io: VS Code in the browser for everyone](https://ona.com/blog/openvscode-server-launch)
+    - [gitpod.io: VS Code in the browser for everyone](https://ona.com/stories/gitpod-is-now-ona)
     - [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser)
 - [github1s.com 🌟](https://github1s.com) One second to read GitHub code with VS Code.
 - [vscode.dev 🌟](https://vscode.dev)
