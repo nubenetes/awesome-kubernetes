@@ -66,8 +66,8 @@
 ## AWS CLI and AWS SDK
 
 - [Amazon CLI Documentation](https://aws.amazon.com/cli)
-- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/index.html)
-- [New usage examples have been added to the CLI for CodePipeline API Reference](https://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html)
+- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/index.html)
+- [New usage examples have been added to the CLI for CodePipeline API Reference](https://docs.aws.amazon.com/cli/latest/reference/codepipeline)
 - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan)
 - List running instances using 'awscli':
 
@@ -84,7 +84,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1)
 - [AWS SDK for Java](https://aws.amazon.com/sdk-for-java)
 - [medium: AWS CLI with jq and Bash](https://medium.com/circuitpeople/aws-cli-with-jq-and-bash-9d54e2eabaf1) The CLI is utilitarian, but a little jq sauce makes it beautiful
-- [aws.plainenglish.io: Lessons Learned From Switching to AWS SDK v3](https://aws.plainenglish.io/lessons-learned-from-switching-to-aws-sdk-v3-6babe1530a59) Dive into some lessons learned before you switch your Node.js lambda functions over to the latest and greatest
+- [aws.plainenglish.io: Lessons Learned From Switching to AWS SDK v3](https://aws.plainenglish.io/lessons-learned-from-switching-to-aws-sdk-v3-6babe1530a59?gi=cad113c196fc) Dive into some lessons learned before you switch your Node.js lambda functions over to the latest and greatest
 - [blog.awsfundamentals.com: Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://awsfundamentals.com/blog/aws-s3-rm-removing-files)
 - [==dev.to/franciscogm: AWS CLI SSO made easy==](https://dev.to/franciscogm/aws-cli-sso-made-easy-3bh9)
 
