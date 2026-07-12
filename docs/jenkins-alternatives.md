@@ -56,7 +56,7 @@
 ## Alternatives
   - [Buildbot](https://buildbot.net) - *(Related to cicd topic)*
 
-- [Cloudbees Flow](https://www.cloudbees.com/capabilities/continuous-delivery)
+- [Cloudbees Flow](https://www.cloudbees.com/capabilities/ci-cd-workflows?contentType=application/pdf&wchannelid=ygl06f4wfj&wmediaid=9qcwsqshzr)
 - [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
 - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 - [Agola](https://agola.io)
@@ -181,7 +181,7 @@
 ### Jenkins X
 
 - [jenkins-x.io](https://jayex.io)
-- [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly)
+- [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/guides/building-cloud-native-apps-painlessly)
 - [devopstoolkitseries.com](https://www.devopstoolkitseries.com)
     - [youtube: Jenkins X: The Recipe For Continuous Delivery](https://www.youtube.com/watch?v=ihHr-iLfEGo)
 - [Book: The DevOps 2.6 Toolkit: Jenkins X](https://leanpub.com/the-devops-2-6-toolkit)
