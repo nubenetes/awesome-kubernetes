@@ -178,7 +178,7 @@
 - [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
 - [medium: How to Become a DevOps Engineer in 2020 (Tj Blogumas)](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
 - [medium: How to Become a DevOps Engineer in 2020 (Shane Shown)](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52)
-- [Digestible DevOps: The 7 DevOps Practices](https://levelup.gitconnected.com/digestible-devops-the-7-devops-practices-8bd8b34e1418) Breaking down DevOps into practical chunks for real-world implementation.
+- [Digestible DevOps: The 7 DevOps Practices](https://levelup.gitconnected.com/digestible-devops-the-7-devops-practices-8bd8b34e1418?gi=2b2636efcded) Breaking down DevOps into practical chunks for real-world implementation.
 - [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance) There’s a myth about DevOps which is hard to shake free of: that “success” means fully automating your deployments from code check-in to production.
 - [Hating code of others](https://statemanagement.substack.com/p/hating-the-code-of-others) We struggle to appreciate the meaning and intent of other people's work because we fail to understand the deeply personal and subjective quality of software development.
 - [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/innovacion/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia)
@@ -238,7 +238,7 @@
 - [linkedin.com/pulse: Top 10 skills a DevOps engineer should possess](https://www.linkedin.com/pulse/top-10-skills-devops-engineer-should-possess-saurabh-badhwar)
 - [devops.com: How Containers Simplify DevOps Workflows and CI/CD Pipelines 🌟](https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines)
 - [dev.to: 5 GitHub Projects to make you a better DevOps Engineer 🌟](https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl)
-- [cloudbees.com: How to Nail DevOps Governance and Compliance in a Highly Regulated Industry 🌟](https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry)
+- [cloudbees.com: How to Nail DevOps Governance and Compliance in a Highly Regulated Industry 🌟](https://www.cloudbees.com/blog/devops-methodology-understanding-the-approach-and-philosophy)
 - [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/en/blog/it-automation-book) Download this collection of short stories about the excitement, frustrations, and challenges associated with learning IT automation.
 - [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know)  The future of DevOps according to CloudBees' CEO: **"no company should re-write code that you can repeat through automation.”**
 - [zdnet.com: Stop calling DevOps teams 'DevOps teams' 🌟🌟](https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams) Latest Puppet survey finds DevOps teams actually have a variety of roles that are more in line with business goals.
@@ -277,13 +277,13 @@
 - [reviewnprep.com: DevOps Basics](https://reviewnprep.com/blog/devops-basics)
 - [==dev.to: How I learn new technologies as a DevOps Engineer (without being overwhelmed 👏) | TechWorld with Nana==](https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e)
 - [medium.com/@hunkarbozkurt: What is DevOps? How Was DevOps Derived?](https://medium.com/@hunkarbozkurt/what-is-devops-how-was-devops-derived-660ef47d42d6)
-- [blog.devops.dev: Devops Best Practices for Continuous Delivery 🌟](https://blog.devops.dev/devops-best-practices-for-continuous-delivery-2f0ebbae65c6)
+- [blog.devops.dev: Devops Best Practices for Continuous Delivery 🌟](https://blog.devops.dev/devops-best-practices-for-continuous-delivery-2f0ebbae65c6?gi=b78aeb5c758b)
 - [devops.com: he Real Pipeline](https://devops.com/the-real-pipeline) Your toolchains need to include stability and security tools.
 - [information-age.com: DevOps vs Agile: distinguishing and combining the two](https://www.information-age.com/devops-vs-agile-distinguishing-and-combining-the-two-20117)
 - [medium.com/@devfire: How To Become a DevOps Engineer In Six Months or Less, Part 6: Observe](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-part-7-monitor-47c61aea0bf7)
 - [rcls.medium.com: Stop calling yourselves DevOps engineers](https://rcls.medium.com/stop-calling-yourselves-devops-engineers-f9dfec382d0d)
 - [enterprisersproject.com: DevOps: Why shift left goes wrong](https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong) The shift-left approach helps development teams make software better and faster. So why hasn't it caught on - and how can you beat the barriers to success?
-- [==itnext.io: DevOps Big Picture (On-Premises)==](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c)
+- [==itnext.io: DevOps Big Picture (On-Premises)==](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c?gi=b38a6d7ee028)
 - [medium.com/agileinsider: DevOps Principles and Practices Explained in Ten Minutes](https://medium.com/agileinsider/devops-principles-and-practices-explained-in-ten-minutes-6cec7e1dae6d)
 - [medium.com/@perspectivementor: 6 Essential Skills for Landing a DevOps Job in 2024](https://medium.com/@perspectivementor/6-essential-skills-for-landing-a-devops-job-in-2024-88f6c19341d7)
 - [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024)
@@ -355,8 +355,8 @@
 
 ## Netflix and DevOps
 
-- [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)
-- [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
+- [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249?gi=b0b46c74fee6)
+- [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79?gi=2d33f6ea25bc)
 
 ## Public Cloud DevOps
 
@@ -434,7 +434,7 @@ Resolve your software incidents 10x faster
 - [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)
 - [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre) Platform engineering is the next stage of evolution. Like DevOps, it enables developer self-service. Like SRE, it reduces errors and increases reliability.
 - [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://www.salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4) TLTR: We have reached a point where the adoption and understanding of Kubernetes and Kubernetes tools are mature enough to start hiding them away from the teams consuming them. This blog post explores some of the approaches different development tools take to provide a better and simplified experience for developers while allowing platform teams to curate the resources these tools use and how they behave.
-- [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering/-in-2023-dev-first-collaboration-and-apis) Developer platforms won't eliminate DevOps but will prioritize developer experience.
+- [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis/) Developer platforms won't eliminate DevOps but will prioritize developer experience.
 - [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0)
 - [thenewstack.io: Architecture and Design Considerations for Platform Engineering Teams](https://thenewstack.io/platform-engineering/architecture-and-design-considerations-for-platform-engineering-teams) What exactly is a platform? Is it an internal developer platform, a developer self-service portal or simply a developer onboarding tool?
 - [dev.to/thenjdevopsguy: Platform Engineering On Kubernetes Part 4: Internal Developer Platforms](https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh)
@@ -459,7 +459,7 @@ Resolve your software incidents 10x faster
 - [infoq.com: Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better)
 - [syntasso.io: Platform Engineering: Orchestrating Applications, Platforms, and Infrastructure](https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure)
 - [thenewstack.io: 5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product)
-- [overcast.blog: 15 Cloud-Native DevOps Tools You Should Know](https://overcast.blog/15-cloud-native-devops-tools-you-should-know-36129057a15c)
+- [overcast.blog: 15 Cloud-Native DevOps Tools You Should Know](https://overcast.blog/15-cloud-native-devops-tools-you-should-know-36129057a15c?gi=24729cc21c86)
 - [==seal.io: Open Source Platform Engineering for Dev & Ops==](https://gpustack.ai)
 - [humanitec.com: Why every Internal Developer Platform needs a backend](https://humanitec.com/blog/why-every-internal-developer-platform-needs-a-backend) It’s not enough to just have an Internal Developer Platform. To get results, it needs to be done right, and that means building an effective platform backend, a Platform Orchestrator.
 - [piotrminkowski.com: IDP on OpenShift with Red Hat Developer Hub](https://piotrminkowski.com/2024/07/04/idp-on-openshift-with-red-hat-developer-hub)
