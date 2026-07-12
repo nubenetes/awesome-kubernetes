@@ -27,20 +27,20 @@
 - [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627)
 - [pauldally.medium.com: Kustomize Best Practices (Part 1)](https://pauldally.medium.com/kustomize-best-practices-part-1-86f9f22d2f20) Kubectl includes a very useful command called kustomize that allows a template-free way to customize Kubernetes application configuration.
     - [pauldally.medium.com: Kustomize Best Practices (Part 2)](https://pauldally.medium.com/kustomize-best-practices-part-2-c560f1fa1409)
-- [notmattlucas.com: Kubernetes Configuration with Kustomize](https://notmattlucas.com/kubernetes-configuration-with-kustomize-f4dbba250f3)
+- [notmattlucas.com: Kubernetes Configuration with Kustomize](https://notmattlucas.com/kubernetes-configuration-with-kustomize-f4dbba250f3?gi=e4bbe15847f9)
 - [medium.com/@nanditasahu031: How to Start with Kustomize — it’s Features](https://medium.com/@nanditasahu031/how-to-start-with-kustomize-its-features-dd541c3d2fa8)
 - [harness.io: Comparing Helm vs Kustomize](https://www.harness.io/blog/helm-vs-kustomize)
 - [nicolasbarlatier.hashnode.dev: Introduction Kubernetes and Kustomize: How to easily customize any resource configuration with Kustomize?](https://nicolasbarlatier.hashnode.dev/introduction-kubernetes-and-kustomize-how-to-easily-customize-any-resource-configuration-with-kustomize) how to use Kustomize to template the number of replicas in a workload based on the environment (e.g. 1 pod in dev, 10 pods in prod)
 - [==github.com/kostis-codefresh: How to Model Your Gitops Environments with kustomize== 🌟](https://github.com/kostis-codefresh/gitops-environment-promotion) In this repository, you'll find an example of how to model Kustomize folders for a GitOps application and promote releases between environments
 - [dev.to: Kubernetes Kustomize Tutorial: A Beginner-Friendly Developer Guide!](https://dev.to/pavanbelagatti/kubernetes-kustomize-tutorial-a-beginner-friendly-developer-guide-322n)
 - [pauldally.medium.com: Kustomize Best Practices (part 3)](https://pauldally.medium.com/kustomize-best-practices-part-3-1dbaa15fd16a)
-- [levelup.gitconnected.com: Helm vs. Kustomize: Navigating Kubernetes Configuration Complexity](https://levelup.gitconnected.com/helm-vs-kustomize-navigating-kubernetes-configuration-complexity-ae86596c3cf2)
+- [levelup.gitconnected.com: Helm vs. Kustomize: Navigating Kubernetes Configuration Complexity](https://levelup.gitconnected.com/helm-vs-kustomize-navigating-kubernetes-configuration-complexity-ae86596c3cf2?gi=fbcc2e72261d)
 - [==devopscube.com/kustomize-tutorial: Kustomize Tutorial: Comprehensive Guide For Beginners== 🌟](https://devopscube.com/kustomize-tutorial)
-- [blog.devgenius.io: Kustomize — K8 manifest patching](https://blog.devgenius.io/kustomize-simple-manifest-manipulation-9330f7f40d5d) how to manipulate YAML files using Kustomize
-- [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295) Gain speed and clarity by adopting GitOps for your deployments
+- [blog.devgenius.io: Kustomize — K8 manifest patching](https://blog.devgenius.io/kustomize-simple-manifest-manipulation-9330f7f40d5d?gi=4bcc01910b74) how to manipulate YAML files using Kustomize
+- [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295?gi=f4af71b4dff7) Gain speed and clarity by adopting GitOps for your deployments
 - [==techiescamp.com: Kubernetes Kustomize Crash Course==](https://courses.devopscube.com/l/products) In this Kustomize crash course, you will learn all the Kustomize concepts and deploy an application using Kustomize on a Kubernetes cluster.
 - [==devopscube.com/kuztomize-configmap-generators: Kuztomize Secret & Configmap Generators [Practical Examples]==](https://devopscube.com/kuztomize-configmap-generators)
-- [==itnext.io: Generating, transforming, and patching Kubernetes configuration with Kustomize==](https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b)
+- [==itnext.io: Generating, transforming, and patching Kubernetes configuration with Kustomize==](https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b?gi=058ff53ee08e)
 
 ## Secretize plugin
 
@@ -48,7 +48,7 @@
 
 ## Comparison between Helm and Kustomize for Kubernetes yaml management
 
-- [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators.
+- [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e?gi=5f36edc0e097) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators.
 - [harness.io: Comparing Helm vs Kustomize 🌟](https://www.harness.io/blog/helm-vs-kustomize)
 - [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627) Helm and Kustomize are often compared with each other in the context of managing Kubernetes manifest file. Although those two tools have similar features, they are fundamentally different. I’ll compare them from several points of view with a sample application.
 
