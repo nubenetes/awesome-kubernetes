@@ -36,12 +36,12 @@
 
 ## AWS Elastic Beanstalk
 
-- [AWS Elastic Beanstalk Documentation](https://aws.amazon.com/documentation/elastic-beanstalk)
+- [AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elastic-beanstalk)
 - [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)
 - [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html)
 - [AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support)
 - [AWS Elastic Beanstalk Supports Application Load Balancer](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer)
-- [Configuring an Application Load Balancer](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html)
+- [Configuring an Application Load Balancer](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg)
 - [AWS Elastic Beanstalk Supports Nginx Proxy Server with Tomcat](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-nginx-proxy-server-with-tomcat)
 
 ## AWS OpsWorks
@@ -64,7 +64,7 @@
 
 ## AWS for Windows
 
-- [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS
+- [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://www.rackspace.com/blog) step-by-step guide about patch and AMI management for Windows on AWS
 
 ## AWS IoT
 
@@ -81,7 +81,7 @@
 
 - [AWS Partner Network](https://aws.amazon.com/partners)
     - [APN Technology Partners](https://aws.amazon.com/partners/paths)
-    - [APN Consulting Partners](https://aws.amazon.com/partners/consulting)
+    - [APN Consulting Partners](https://aws.amazon.com/partners/paths)
 - [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn)
     - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium)
     - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst)
@@ -134,7 +134,7 @@
 
 - [CDK](https://aws.amazon.com/cdk)
 - [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk)
-- [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
+- [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4?gi=0a62c978230b)
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application)
 - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
 - [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)
@@ -144,7 +144,7 @@
 ## AWS Session Manager
 
 - [aws.amazon.com: AWS Systems Manager announces support for port forwarding to remote hosts using Session Manager](https://aws.amazon.com/about-aws/whats-new/2022/05/aws-systems-manager-support-port-forwarding-remote-hosts-using-session-manager)
-- [faun.pub: Using AWS Session Manager For Port Forwarding To Remote Hosts](https://faun.pub/using-aws-session-manager-for-port-forwarding-to-remote-hosts-8168589ba579)
+- [faun.pub: Using AWS Session Manager For Port Forwarding To Remote Hosts](https://faun.pub/using-aws-session-manager-for-port-forwarding-to-remote-hosts-8168589ba579?gi=3f57d80f1ece)
 
 ## AWS Cloud Endure
 
