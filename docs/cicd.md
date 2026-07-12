@@ -65,7 +65,7 @@
 - [CI/CD Best Practices 🌟](https://blog.bitsrc.io/ci-cd-best-practices-bca0ef665677)
 - [harness.io: What is a CI/CD Platform and why should I care? 🌟](https://www.harness.io/blog/what-is-cicd-platform-why-should-i-care)
 - [harness.io: 3 Ways to Use Automation in CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines)
-- [cloudbees.com: 7 Tips for Creating A Successful CI/CD Pipeline 🌟](https://www.cloudbees.com/blog/tips-creating-successful-cicd-pipeline)
+- [cloudbees.com: 7 Tips for Creating A Successful CI/CD Pipeline 🌟](https://www.cloudbees.com/blog/ci-cd-pipeline)
 - [javi-kata.medium.com: CI/CD the journey of a dummy team 🌟](https://javi-kata.medium.com/ci-cd-the-journey-of-a-dummy-team-f51a061684bc) This article tries to help people in how to achieve CI/CD starting from a feature branching model (gitflow).
 - [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html)
 - [tripwire.com: Everything You Need to Know About CI/CD and Security](https://www.tripwire.com/state-of-security/devops/everything-need-to-know-about-ci-cd-security)
@@ -90,7 +90,7 @@
 - [community.dataminer.services: CI/CD and the Agile Principles](https://community.dataminer.services/ci-cd-and-the-agile-principles)
 - [medium: Automated Build and Deploy Pipelines for Kubernetes](https://medium.com/codezero-reflections/automated-build-and-deploy-pipelines-for-kubernetes-d268542cca52)
 - [medium: Next Generation Kubernetes Deployments](https://medium.com/codezero-reflections/next-generation-kubernetes-deployments-12637eae9d68)
-- [==levelup.gitconnected.com: Basics of CI/CD==](https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04)
+- [==levelup.gitconnected.com: Basics of CI/CD==](https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04?gi=408cf78b46a6)
 - [techrepublic.com: CI/CD platforms: How to choose the right continuous integration and delivery system for your business](https://www.techrepublic.com/article/how-to-choose-the-right-cicd-platform)
 - [==stackoverflow.blog: Fulfilling the promise of CI/CD==](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd) When people say “CI/CD,” they are only talking about continuous integration. Nobody is talking about (or practicing) continuous deployment. AT ALL. It’s like we have all forgotten it exists. It's time to change that.
 - [==speakerdeck.com: Deployment Scripting != Continuous Delivery==](https://speakerdeck.com/devopslx/cd-and-optimized-cloud-spend?slide=12)
@@ -116,7 +116,7 @@
 ## CI/CD Pipelines With Kubernetes
   - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon) - *(Related to argo topic)*
   - [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) - *(Related to iac topic)*
-  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5?gi=c9d378207430) - *(Related to helm topic)*
 
 - [==dzone.com: An Overview of CI/CD Pipelines With Kubernetes==](https://dzone.com/articles/an-overview-of-cicd-pipelines-with-kubernetes) Take a look at CI/CD approaches in a Kubernetes ecosystem, best practices for implementing an efficient CI/CD framework, and popular open-source CI/CD tools.
 - [==thenewstack.io: Kubernetes CI/CD Pipelines Explained==](https://thenewstack.io/kubernetes-ci-cd-pipelines-explained) Building an effective CI/CD pipeline requires diligent technical analysis, a generous amount of planning and choosing the right set of tools.
@@ -144,7 +144,7 @@
 
 - [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery)
 - [harness.io: Progressive Delivery: Everything You Need to Know](https://www.harness.io/blog)
-- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works)
+- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 
 ## Deployment Strategies
 
@@ -154,7 +154,7 @@
     - Last but not least, a shadow release is complex and requires extra work to mock egress traffic which is mandatory when calling external dependencies with mutable actions (email, bank, etc.). However, this technique can be useful when migrating to a new database technology and use shadow traffic to monitor system performance under load.
 - [harness.io: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://www.harness.io/blog/blue-green-canary-deployment-strategies)
 - [medium: Continuous Kubernetes blue-green deployments on Azure using Nginx, AppGateway or TrafficManager — part 2](https://medium.com/@denniszielke/continuous-kubernetes-blue-green-deployments-on-azure-using-nginx-appgateway-or-trafficmanager-4490bce29cb)
-- [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d)
+- [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d?gi=8c922a4e985a)
 - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)
 - [cd.foundation: Intro to Deployment Strategies: Blue-Green, Canary, and More 🌟](https://cd.foundation/blog/2021/03/24/intro-to-deployment-strategies-blue-green-canary-and-more)
 - [opsmx.com: What is Blue Green Deployment ?](https://www.opsmx.com/blog/blue-green-deployment)
@@ -231,7 +231,7 @@
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) - GitHub's Copilot can now assist users by explaining why an Actions job failed. This feature, now Generally Available, allows users to select 'Explain Error' from a failing check in the pull request merge box or on the Actions job page. Copilot analyzes the job and provides tailored guidance for resolution, consuming one chat message per use. This integration aims to streamline debugging and improve CI/CD workflows.
 
 - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)
-- [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)
+- [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/enterprise-need-modern-software-delivery?utm_campaign=dev-2025&utm_content=hypercore-hybrid-row-storage-engine)
 - [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022) CI/CD is an integral part of any successful DevOps team. This list includes the finest CI/CD tools currently available in the market.
 - [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6) How to decide whether you should self-host, go with a SaaS option, or bundle your choice of CI tool through a vendor
 
