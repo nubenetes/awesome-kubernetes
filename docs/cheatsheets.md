@@ -109,7 +109,7 @@
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
-- [==awsgeek.com/Amazon-S3==](https://www.awsgeek.com/Amazon-S3)
+- [==awsgeek.com/Amazon-S3==](http://www.awsgeek.com/Amazon-S3)
 
 ## Google Cloud Cheat Sheets
 
@@ -201,7 +201,7 @@
     - `kubectl --help`
 - [betterprogramming.pub: Kubectl Commands All Beginners Must Know](https://betterprogramming.pub/kubectl-commands-all-beginners-must-know-e504349fcec9) Control Kubernetes Cluster like a Pro
 - [medium.com/@devopsfolks8546: Kubectl Commands Cheat Sheet. List Of Kubernetes Most Useful Commands](https://medium.com/@devopsfolks8546/1-pods-c3d1a9349ba0)
-- [faun.pub: Kubernetes Commands for Deployment and Management](https://faun.pub/kubernetes-commands-for-deployment-and-management-e10a74c95015)
+- [faun.pub: Kubernetes Commands for Deployment and Management](https://faun.pub/kubernetes-commands-for-deployment-and-management-e10a74c95015?gi=c3cb3dbb2fd9)
 - [learncloudnative.com: Kubernetes CLI (kubectl) tips you didn't know about](https://learncloudnative.com/blog/2022-05-10-kubectl-tips)
 - [cloudtechtwitter.com: kubernetes common commands](https://www.cloudtechtwitter.com/2022/05/kubernetes-common-commands.html)
 - [==thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet== 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet) A concise but comprehensive guide to using and managing horizontal and vertical autoscaling in the Kubernetes environment.
@@ -211,7 +211,7 @@
 
 ## Kubernetes Kustomize Cheat Sheet
 
-- [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f)
+- [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f?gi=73b1ede741fa)
 
 ## Docker Cheat Sheets
 
@@ -393,7 +393,7 @@
 ## Helm Cheat Sheets
 
 - [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)
-- [faun.pub: Helm Command Cheat Sheet | By M. Sharma](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131) This cheat sheet covers all important Helm operations and provides examples to help you understand its syntax and features
+- [faun.pub: Helm Command Cheat Sheet | By M. Sharma](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131?gi=d9886df4eead) This cheat sheet covers all important Helm operations and provides examples to help you understand its syntax and features
 
 ## Maven Cheat Sheets
 
@@ -438,7 +438,7 @@
 - [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
 - [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
 - [JMeter Web Application Testing Cheatsheet](https://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)
-- [CheatSheet for JMeter __time Function Calls](https://www.ufcquechoisir-brest.org)
+- [CheatSheet for JMeter __time Function Calls](https://dota.us.com)
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](https://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
@@ -458,7 +458,7 @@
 ## Kafka
 
 - [codingharbour.com: kafkacat cheatsheet](https://codingharbour.com/kafkacat-cheatsheet) Kafkacat is a versatile tool for producing and consuming messages, as well as exploring the cluster and topic metadata. Download the 1-page cheatsheet to get the most out of this awesome CLI tool.
-- [betterprogramming.pub: 15 Kafka CLI Commands For Everyday Programming](https://betterprogramming.pub/kafka-cli-commands-1a135a4ae1bd) Demonstrating the use of the most commonly used Kafka Command Line Interface Commands
+- [betterprogramming.pub: 15 Kafka CLI Commands For Everyday Programming](https://gmyrianthous.medium.com/kafka-cli-commands-1a135a4ae1bd) Demonstrating the use of the most commonly used Kafka Command Line Interface Commands
 
 ## Machine Learning
   - [Quiz Grader](https://github.com/ned1313/quiz-grader) - *(Related to ai topic)*
@@ -473,7 +473,7 @@
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
 - [docs.microsoft.com: Build JavaScript applications using TypeScript](https://www.typescriptlang.org)
-- [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway, and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686) Step-by-Step Guide: NestJS Applications with TypeScript, gRPC, API Gateway, Authentication, and Validation.
+- [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway, and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686?gi=41703b0de9f4) Step-by-Step Guide: NestJS Applications with TypeScript, gRPC, API Gateway, Authentication, and Validation.
 - [freecodecamp.org: How TypeScript Interfaces Work – Explained with Examples](https://www.freecodecamp.org/news/how-typescript-interfaces-work)
 
 ## Jupyter
@@ -511,7 +511,7 @@
 - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet)
 - https://blog.finxter.com/python-cheat-sheets
 - https://www.pythoncheatsheet.org
-- [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c)
+- [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c?gi=1a8aea4a4537)
 - [github.com/ekramasif: Basic Machine Learning - Python Cheatsheet](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb)
 
 ## Go
