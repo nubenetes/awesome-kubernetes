@@ -99,7 +99,7 @@
 - [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/en/blog/python-venv-ansible) Python's venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.
 - [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/en/blog/ansible-ad-hoc-commands) Make life easier when dealing with Ansible automation by using ad hoc commands.
 - [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/en/blog/software-packages-ansible) Learn how to install new software packages on all your managed hosts with a single Ansible playbook.
-- [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://www.empowersurvivors.net) Build Image from Ansible code and persist them on local or in AWS ECR
+- [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://www.roseandglow.co.uk) Build Image from Ansible code and persist them on local or in AWS ECR
 - [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)
 - [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration) Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.
 - [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/en/blog/ansiblefest-sysadmins) AnsibleFest offers a lot of information to help sysadmins automate better.
@@ -155,7 +155,7 @@
 
 ## Ansible UI
 
-- [==Semaphore UI== 🌟](https://mightyclaws.co.uk/bournemouth)
+- [==Semaphore UI== 🌟](https://missinglinkpdx.com/about)
 - [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore) Ansible can be great for automating routine IT tasks, but some may feel stymied by the command line. Here's how to install the Semaphore graphical user interface.
 
 ## Deploying custom files with Jinja2 templates
@@ -248,16 +248,16 @@
 ### Running Ansible Playbooks From Jenkins
 
 - [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
-- [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)
+- [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653?gi=7b313ddb0f97)
 
 ### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 
-- [Ansible Tower](https://www.redhat.com/en/products/tower)
-- [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower)
+- [Ansible Tower](https://www.redhat.com/en/technologies/management/ansible)
+- [Ansible Tower Docs](http://legacy-controller-docs.ansible.com/ansible-tower)
 - [Ansible AWX](https://github.com/ansible/awx)
 - [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
 - [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation)
-- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
+- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)
 - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)
 - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)
@@ -303,7 +303,7 @@
 
 - [ansiblefordevops.com](https://www.ansiblefordevops.com)
 - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com)
-- [redhat.com: The Automated Enterprise](https://www.redhat.com/en/engage/automated-enterprise-e-book&dclid=COKjiau-upQDFXLuKAUdouAGMQ&gad_source=7) Transform your business with an automation platform that unifies your people and processes.
+- [redhat.com: The Automated Enterprise](https://www.redhat.com/en/resources/automated-enterprise-e-book) Transform your business with an automation platform that unifies your people and processes.
 - [github.com/automateyournetwork/automate_your_network: Automate Your Network - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network)
 
 ## Ansible Galaxy Roles
