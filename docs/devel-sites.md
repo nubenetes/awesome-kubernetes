@@ -26,7 +26,7 @@
 - https://opensource.apple.com 🌟
 - https://www.frontendmentor.io  Improve your front-end coding skills by building real projects
 - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) Recursos gratuitos para empezar a ser un Frontend Developer o ampliar conocimientos
-- [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
+- [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977?gi=243ed891f0ab) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
 - [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software)
 - [==dzone.com: Software Engineering Best Practices That High-Performing Teams Follow==](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
