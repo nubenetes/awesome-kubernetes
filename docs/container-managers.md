@@ -63,7 +63,7 @@
 ### Podman. Pod Manager tool
 
 - [Podman.io](https://podman.io)
-- [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/podman)
+- [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/podman-container-tools/podman)
     - Libpod is a library used to create container pods. Home of Podman.
     - Libpod provides a library for applications looking to use the Container Pod concept, popularized by Kubernetes. Libpod also contains the Pod Manager tool (Podman). Podman manages pods, containers, container images, and container volumes.
 - [Intro to Podman](https://developers.redhat.com/blog/2018/08/29/intro-to-podman)
@@ -144,19 +144,19 @@
   - [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) - *(Related to kubernetes-tools topic)*
 
 - [How to use the --privileged flag with container engines](https://www.redhat.com/en/blog/privileged-flag-container-engines) Let's take a deep dive into what the --privileged flag does for container engines such as Podman, Docker, and Buildah.
-- [itnext.io: Docker, Kaniko, Buildah](https://itnext.io/docker-kaniko-buildah-209abdde5f94) Different ways to build container images
+- [itnext.io: Docker, Kaniko, Buildah](https://itnext.io/docker-kaniko-buildah-209abdde5f94?gi=2a3756ed035a) Different ways to build container images
 - [blog.kubesimplify.com: Getting started with ko: A fast container image builder for your Go applications](https://blog.kubesimplify.com/getting-started-with-ko-a-fast-container-image-builder-for-your-go-applications)
 
 ### Buildah
 
 - [Buildah.io](https://buildah.io) A tool that facilitates building [Open Container Initiative (OCI)](https://opencontainers.org) container images
-    - [github.com/containers/buildah](https://github.com/containers/buildah)
+    - [github.com/containers/buildah](https://github.com/podman-container-tools/buildah)
 - [developers.redhat.com: Getting started with Buildah](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah)
 - [youtube: How to live without Docker for developers - Part 1 | Migration from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov)
 
 ### Skopeo
 
-- [Skopeo](https://github.com/containers/skopeo) is a command line utility that performs various operations on container images and image repositories.
+- [Skopeo](https://github.com/podman-container-tools/skopeo) is a command line utility that performs various operations on container images and image repositories.
 - [Promoting container images between registries with skopeo](https://www.redhat.com/en/blog/promoting-container-images-between-registries-with-skopeo)
 
 ## Images
