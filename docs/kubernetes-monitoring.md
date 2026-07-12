@@ -20,10 +20,10 @@
 - [DZone: Kubernetes Monitoring Essentials](https://dzone.com/refcardz/monitoring-kubernetes)
 - [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     - [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) **kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.**
-    - [faun.pub: Becoming DevOps — Observability](https://faun.pub/becoming-devops-observability-152b292c05b9) Observability with Kube-Prometheus
-    - [levelup.gitconnected.com: Installing & Exploring the Kube-Prometheus Project](https://levelup.gitconnected.com/installing-exploring-the-kube-prometheus-project-eef375d49f6b)
+    - [faun.pub: Becoming DevOps — Observability](https://faun.pub/becoming-devops-observability-152b292c05b9?gi=20fd2ff1af79) Observability with Kube-Prometheus
+    - [levelup.gitconnected.com: Installing & Exploring the Kube-Prometheus Project](https://levelup.gitconnected.com/installing-exploring-the-kube-prometheus-project-eef375d49f6b?gi=45379be08ced)
 - [medium: Kubernetes Monitoring: Kube-State-Metrics](https://medium.com/@chrisedrego/kubernetes-monitoring-kube-state-metrics-df6546aea324)
-- [Kubernetes Monitoring 101 — Core pipeline & Services Pipeline](https://levelup.gitconnected.com/kubernetes-monitoring-101-core-pipeline-services-pipeline-a34cd4cc9627)
+- [Kubernetes Monitoring 101 — Core pipeline & Services Pipeline](https://levelup.gitconnected.com/kubernetes-monitoring-101-core-pipeline-services-pipeline-a34cd4cc9627?gi=a38c0806f95f)
 - [medium: Utilizing and monitoring kubernetes cluster resources more effectively](https://medium.com/@martin.schneppenheim/utilizing-and-monitoring-kubernetes-cluster-resources-more-effectively-using-this-tool-df4c68ec2053)
 - [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices)
 - [magalix.com: Best Practices And Tools For Monitoring Your Kubernetes Cluster](https://www.magalix.com/blog/best-practices-and-tools-for-monitoring-your-kubernetes-cluster)
@@ -35,7 +35,7 @@
     - [circonus.com: Guide to Monitoring Kubernetes, Part 2: Which Metrics and Health Conditions You Should be Monitoring](https://www.circonus.com/2021/01/guide-to-monitoring-kubernetes-part-2-which-metrics-and-health-conditions-you-should-be-monitoring)
 - [infracloud.io: Monitoring Kubernetes cert-manager Certificates with BotKube](https://www.infracloud.io/blogs/monitoring-kubernetes-cert-manager-certificates) - [botkube.io](https://botkube.io)
 - [kube-state-metrics 🌟](https://github.com/kubernetes/kube-state-metrics) **Add-on agent to generate and expose cluster-level metrics. kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects. (See examples in the Metrics section below.) It is not focused on the health of the individual Kubernetes components, but rather on the health of the various objects inside, such as deployments, nodes and pods.**
-- [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60)
+- [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60?gi=681cdfef2d74)
 - [cncf.io: Avoiding Kubernetes cluster outages with synthetic monitoring](https://www.cncf.io/blog/2021/08/10/avoiding-kubernetes-cluster-outages-with-synthetic-monitoring)
 - [medium: Replication Controller & Replica sets in Kubernetes](https://medium.com/avmconsulting-blog/replication-controller-replica-sets-in-kubernetes-820f3cec7170)
 - [kubermatic.com: The Complete Guide to Kubernetes Metrics](https://www.kubermatic.com/blog/the-complete-guide-to-kubernetes-metrics)
@@ -44,7 +44,7 @@
 - [loft.sh: Kubernetes Cost Monitoring with Prometheus & Grafana](https://www.vcluster.com/blog/kubernetes-cost-monitoring-with-prometheus-and-grafana)
 - [==anaisurl.com: Full Tutorial: Monitoring and Troubleshooting stack with Prometheus, Grafana, Loki and Komodor== 🌟](https://anaisurl.com/full-tutorial-monitoring)
 - [medium.com/is-it-observable: How to collect metrics in a Kubernetes cluster](https://medium.com/is-it-observable/how-to-collect-metrics-in-a-kubernetes-cluster-9ad4a69aafb0)
-- [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913)
+- [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913?gi=4274967ca73d)
 - [medium.com/@lucapompei91: Kubernetes observability](https://medium.com/@lucapompei91/kubernetes-observability-17a7875a38f6)
 - [==dev.to: Monitoring Kubernetes cluster logs and metrics using Grafana, Prometheus and Loki==](https://dev.to/leroykayanda/kubernetes-monitoring-using-grafana-3dhc)
 - [hitesh-pattanayak.medium.com: Observability in Kubernetes](https://hitesh-pattanayak.medium.com/observability-in-kubernetes-b53d6ea1b37d)
@@ -70,7 +70,7 @@
 - [newrelic.com: Pixie](https://newrelic.com/platform/kubernetes-pixie)
     - [xgrid.medium.com: Tackling Kubernetes Observability Challenges with Pixie](https://xgrid.medium.com/tackling-kubernetes-observability-challenges-with-pixie-a03cbad93148)
     - [newrelic.com: What Is eBPF and Why Does It Matter for Observability?](https://newrelic.com/blog/observability/what-is-ebpf)
-- [awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm](https://awstip.com/monitoring-your-eks-cluster-with-the-power-of-prometheus-and-grafana-through-helm-%EF%B8%8F-1e8dc1ad5620)
+- [awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm](https://awstip.com/monitoring-your-eks-cluster-with-the-power-of-prometheus-and-grafana-through-helm-%EF%B8%8F-1e8dc1ad5620?gi=d247862505d1)
 - [grafana.com: A beginner's guide to Kubernetes application monitoring](https://grafana.com/blog/a-beginners-guide-to-kubernetes-application-monitoring)
 - [medium.com/@poseidon.os: Poseidon: A Kubernetes Cluster Visualization & Cost Analysis Tool](https://medium.com/@poseidon.os/poseidon-a-kubernetes-cluster-visualization-cost-analysis-tool-d0fb55c2858c)
 - [==aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU Limits== 🌟](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits) **you'll discuss how CPU throttling can affect Kubernetes' node performance, and how to avoid this by setting the right values for limits. The author also suggests using Prometheus as a tool to help set reasonable limits**
@@ -79,12 +79,12 @@
 - [medium.com/@lambdaEranga: Monitor Kubernets Services/Endpoints with Prometheus Blackbox Exporter 🌟](https://medium.com/@lambdaEranga/monitor-kubernets-services-endpoints-with-prometheus-blackbox-exporter-a64e062c05d5) you will discuss monitoring different endpoints/services in a Kubernetes cluster using Prometheus Blackbox Exporter
 - [samiislam0306.medium.com: Insightful Monitoring of Kubernetes Clusters with Traces](https://samiislam0306.medium.com/insightful-monitoring-of-kubernetes-clusters-with-traces-c7c3b33ed07e) Gain valuable insights into the performance of your Kubernetes cluster with trace monitoring. A guide that helps you optimize your operations for maximum efficiency and productivity.
 - [medium.com/@walissonscd: Monitoring Kubernetes Cluster Resources: Using Top Metrics Commands](https://medium.com/@walissonscd/monitoring-kubernetes-cluster-resources-using-top-metrics-commands-a60408765321)
-- [==blog.devops.dev: Prometheus metrics within Kubernetes — an aerial view== | Joseph Esrig](https://blog.devops.dev/prometheus-metrics-within-kubernetes-an-ariel-view-d1d3b7d75418)
+- [==blog.devops.dev: Prometheus metrics within Kubernetes — an aerial view== | Joseph Esrig](https://blog.devops.dev/prometheus-metrics-within-kubernetes-an-ariel-view-d1d3b7d75418?gi=6a64384376a4)
 - [grafana.com: How to monitor Kubernetes clusters with the Prometheus Operator](https://grafana.com/blog/how-to-monitor-kubernetes-clusters-with-the-prometheus-operator) In this guide, you'll learn how to deploy and use the Prometheus Operator to configure and manage Prometheus instances in your Kubernetes cluster. You'll also discover how to deploy Grafana to help analyze and visualize the health of your clusters.
 - [blog.palark.com: Service communication monitoring in Kubernetes with NetFlow](https://palark.com/blog/kubernetes-services-interaction-monitoring-with-netflow)
 - [betterprogramming.pub: Improve Cluster Monitoring With Network Mapping in Grafana](https://betterprogramming.pub/improve-cluster-monitoring-with-network-mapping-in-grafana-fa8bb479fd47) A deep dive into obtaining network maps and correlating IP with cluster workloads to speed up debugging
 - [betterprogramming.pub: Kubernetes Observability Part 1: Events, Logs, and Integration With Slack, OpenAI, and Grafana](https://betterprogramming.pub/kubernetes-observability-part-1-events-logs-integration-with-slack-openai-and-grafana-62068cf43ec) Build a Kubernetes custom controller to watch Kubernetes Events and forward them to Grafana Loki using Promtail
-- [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1)
+- [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1?gi=878d85f8dc31)
 - [opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability](https://opentelemetry.io/blog/2023/k8s-runtime-observability)
 - [medium.com/@onai.rotich: Understand container metrics and why they matter](https://medium.com/@onai.rotich/understand-container-metrics-and-why-they-matter-9e88434ca62a) In this 2-part article, you will explore the key metrics to scrape in your cluster
 - [kkamalesh117.medium.com: Setting up Prometheus and Grafana Integration on Kubernetes with Helm](https://kkamalesh117.medium.com/setting-up-prometheus-and-grafana-integration-on-kubernetes-with-helm-dfc63823608c)
@@ -93,7 +93,7 @@
 - [medium.com/@martin.hodges: Adding observability to a Kubernetes cluster using Prometheus](https://medium.com/@martin.hodges/adding-observability-to-a-kubernetes-cluster-using-prometheus-c2cba6c0fdaa) Monitoring your services is vital and should be considered as part of your underlying infrastructure for your services. You should put this in place ahead of creating and deploying your services.I look at how to deploy Prometheus provide the observability you need to run your services.
 - [addozhang.medium.com: Non-intrusive Inject OpenTelemetry Auto-Instrumentation in Kubernetes](https://addozhang.medium.com/non-intrusive-inject-opentelemetry-auto-instrumentation-in-kubernetes-a9dfd49fc714)
 - [medium.com/@abhisman.sarkar: Kubernetes Monitoring: Effective Cluster Tracking with Prometheus](https://medium.com/@abhisman.sarkar/kubernetes-monitoring-effective-cluster-tracking-with-prometheus-b0ed5b3efb32)
-- [==aws.plainenglish.io: Mastering Monitoring: The Complete Guide to Using Prometheus and Grafana with Kubernetes==](https://aws.plainenglish.io/mastering-monitoring-the-complete-guide-to-using-prometheus-and-grafana-with-kubernetes-e53d8306123d)
+- [==aws.plainenglish.io: Mastering Monitoring: The Complete Guide to Using Prometheus and Grafana with Kubernetes==](https://aws.plainenglish.io/mastering-monitoring-the-complete-guide-to-using-prometheus-and-grafana-with-kubernetes-e53d8306123d?gi=779256015eab)
 - [medium.com/@muppedaanvesh: A Hands-On Guide to Kubernetes Monitoring Using Prometheus & Grafana](https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-grafana-%EF%B8%8F-b0e00b1ae039) Understanding Prometheus & Grafana Setup in Kubernetes: A Comprehensive Guide
 - [==signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial== 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring)
 
@@ -107,7 +107,7 @@
 - [portworx.com: How to backup and restore Elasticsearch on Kubernetes](https://portworx.com/how-to-backup-and-restore-elasticsearch-on-kubernetes)
 - [papertrail.com: Quick and Easy Way to Implement Kubernetes Logging](https://www.papertrail.com/blog/quick-and-easy-way-to-implement-kubernetes-logging) The SolarWinds® Papertrail™ team is excited to announce SolarWinds rKubeLog, an open-source project designed to streamline Kubernetes logging. rKubeLog allows you to forward logs to Papertrail from within a Kubernetes cluster without using a daemon or setting up application-level logging or a logging sidecar.
 - [qlinh.com: Leveraging Kubernetes audit logs for threat detection](https://qlinh.com/infosec/2020/09/30/threat-detection-with-kubernetes-audit-logs.html) Kubernetes audit logs can provide great visibility into the operation and inner workings of your cluster. Learn how to leverage Kubernetes audit logs for threat detection
-- [itnext.io: Kubernetes Logging in Production](https://itnext.io/kubernetes-logging-in-production-545ea88d9a4a)
+- [itnext.io: Kubernetes Logging in Production](https://itnext.io/kubernetes-logging-in-production-545ea88d9a4a?gi=33ba823c959c)
 - [opensource.com: What you need to know about cluster logging in Kubernetes 🌟](https://opensource.com/article/21/11/cluster-logging-kubernetes) Explore how different container logging patterns in Kubernetes work.
 - [==devopscube.com: Kubernetes Logging Tutorial For Beginners== 🌟](https://devopscube.com/kubernetes-logging-tutorial)
 - [medium.com/vmacwrites: Kubernetes Audit Logs: Who created or deleted a namespace?](https://medium.com/vmacwrites/kubernetes-audit-logs-who-created-or-deleted-a-namespace-7d55c20d2730) Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.
@@ -116,11 +116,11 @@
     - In Kubernetes 1.19, we are adding support for structured logs, which natively support (key, value) pairs and object references. We have also updated many logging calls such that over 99% of logging volume in a typical deployment are now migrated to the structured format.
     - To maintain backwards compatibility, structured logs will still be outputted as a string where the string contains representations of those “key”=”value” pairs. Starting in alpha in 1.19, logs can also be outputted in JSON format using the --logging-format=json flag.
 - [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3) Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.
-- [blog.devops.dev: Importance of Logging In Kubernetes, Intro to Grafana Loki & deploying with helm-charts](https://blog.devops.dev/importance-of-logging-in-kubernetes-and-intro-to-grafana-loki-f8dc6f736e6)
+- [blog.devops.dev: Importance of Logging In Kubernetes, Intro to Grafana Loki & deploying with helm-charts](https://blog.devops.dev/importance-of-logging-in-kubernetes-and-intro-to-grafana-loki-f8dc6f736e6?gi=0cf53d6aa231)
 - [faun.pub: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://faun.pub/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-86076da0812f) We are going to learn how to use the Sidecar Container pattern to install Logstash and FluentD on Kubernetes for log aggregation.
 - [dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi)
 - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs)
-- [blog.amhaish.com: Observing the K8 cluster using ELK stack](https://blog.amhaish.com/observing-the-k8-cluster-using-elk-stack-7d4264fdb0e3)
+- [blog.amhaish.com: Observing the K8 cluster using ELK stack](https://blog.amhaish.com/observing-the-k8-cluster-using-elk-stack-7d4264fdb0e3?gi=0fd1b11ef814)
 - [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) The Logging operator automates the deployment and configuration of a Kubernetes logging pipeline. The operator deploys and configures a Fluent Bit daemonset on every node to collect container and application logs from the node file system.
 - [akyriako.medium.com: Kubernetes Logging with Grafana Loki & Promtail in under 10 minutes 🌟](https://akyriako.medium.com/kubernetes-logging-with-grafana-loki-promtail-in-under-10-minutes-d2847d526f9e) Consolidate all your Kubernetes logs in a intuitive Grafana dashboard.
 - [yuminlee2.medium.com: Kubernetes: Container and Pod Logging](https://yuminlee2.medium.com/kubernetes-container-and-pod-logging-82ec5c057cb2)
@@ -142,12 +142,12 @@
 
 ## Monitoring Certificates Expiration
 
-- [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d)
+- [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d?gi=8428eba9173b)
 
 ## kubeshark
   - [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) - *(Related to kubernetes-tools topic)*
 
-- [==kubeshark.co==](https://www.immo-pop.com/login) The API Traffic Viewer for  kubernetes. Deep visibility and monitoring of all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster.
+- [==kubeshark.co==](https://erp.immo-pop.com) The API Traffic Viewer for  kubernetes. Deep visibility and monitoring of all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster.
 - [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) The API traffic viewer for Kubernetes providing deep visibility into all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster. Think TCPDump and Wireshark re-invented for Kubernetes
 - [medium.com/kernel-space: KubeShark: Wireshark for Kubernetes](https://medium.com/kernel-space/kubeshark-wireshark-for-kubernetes-4069a5f5aa3d)
 
