@@ -14,7 +14,7 @@
 - [medium.com/adidoescode: Chaos Engineering: How simulating adversity can help build eCommerce Resilience](https://medium.com/adidoescode/chaos-engineering-how-simulating-adversity-can-help-build-ecommerce-resilience-4a799c8912dc)
 - [opsmx.com: What is Chaos Engineering?](https://www.opsmx.com/blog/what-is-chaos-engineering)
 - [aws.amazon.com: Verify the resilience of your workloads using Chaos Engineering](https://aws.amazon.com/blogs/architecture/verify-the-resilience-of-your-workloads-using-chaos-engineering)
-- [faun.pub: What is Chaos Engineering?](https://faun.pub/what-is-chaos-engineering-a89b64db9af0) Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
+- [faun.pub: What is Chaos Engineering?](https://faun.pub/what-is-chaos-engineering-a89b64db9af0?gi=0eb5d0d5495c) Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
 
 ## Chaos Engineering for kubernetes/Openshift
   - [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) - *(Related to devops topic)*
@@ -29,7 +29,7 @@
 - [infoq.com: Chaos Engineering on Kubernetes : Chaos Mesh Generally Available with v1.0](https://www.infoq.com/news/2020/10/kubernetes-chaos-mesh-ga)
 - [chaos-mesh.org: Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier](https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier)
 - [thenewstack.io: Develop a Daily Reporting System for Chaos Mesh to Improve System Resilience](https://thenewstack.io/develop-a-daily-reporting-system-for-chaos-mesh-to-improve-system-resilience)
-- [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://www.pingcap.com/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci)
+- [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://chaos-mesh.org/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci/)
 - [openshift.com: Introduction to Kraken, a Chaos Tool for OpenShift/Kubernetes](https://www.redhat.com/en/blog/introduction-to-kraken-a-chaos-tool-for-openshift/kubernetes)
 - [thenewstack.io: Chaos Engineering Progressively Moves to Production](https://thenewstack.io/chaos-engineering-progressively-moves-to-production)
 - [blog.flant.com: Open Source solutions for chaos engineering in Kubernetes](https://palark.com/blog/chaos-engineering-in-kubernetes-open-source-tools)
@@ -56,7 +56,7 @@
     - Failing infrastructure dependencies
     - Network problems
 
-- [awstip.com: Kubernetes Chaos Monkey: A Scheduled Random Pod Deletion Python Script for Testing Cluster Resilience](https://awstip.com/kubernetes-chaos-monkey-a-scheduled-random-pod-deletion-python-script-for-testing-cluster-6eac429554b2)
+- [awstip.com: Kubernetes Chaos Monkey: A Scheduled Random Pod Deletion Python Script for Testing Cluster Resilience](https://awstip.com/kubernetes-chaos-monkey-a-scheduled-random-pod-deletion-python-script-for-testing-cluster-6eac429554b2?gi=f7561053e26f)
 - [medium.com/@alex.ivenin: Chaos engineering in kubernetes](https://medium.com/@alex.ivenin/chaos-engineering-in-kubernetes-4de425132ba1)
 
 ## Chaos Engineering for serverless computing
