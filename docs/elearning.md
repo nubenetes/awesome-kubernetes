@@ -20,7 +20,7 @@
 - [edx.org](https://www.edx.org)
 - [Coursera.org](https://www.coursera.org)
 - [codecademy.com](https://www.codecademy.com)
-- [Udacity.com](https://eu.udacity.com)
+- [Udacity.com](https://www.udacity.com)
 - [guru99.com](https://www.guru99.com)
 - [tutorialspoint.com](https://www.tutorialspoint.com)
 - [typing.io: Typing Practice for Programmers](https://typing.io)
@@ -53,7 +53,7 @@
 ## Spanish E-learning
   - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) - *(Related to ai topic)*
 
-- [open-bootcamp.com](https://open-bootcamp.com)
+- [open-bootcamp.com](https://ultracamp.es)
 
 ## Opinions
 
