@@ -10,7 +10,7 @@
 - [kubernetes.io - WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop)
 - [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)
 - [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update) Docker Desktop Edge users will be able to use Docker Desktop with WSL 2 rather than our legacy HyperV based backend. This is available not only for Windows Pro and Windows Enterprise, but also for Windows Home users.  
-- [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f)
+- [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f?gi=02b235b13c45)
 - [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246)
 - [pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia para el sector TI](https://pandorafms.com/blog/es/wsl2)
 - [dev.to: Install Docker on Windows (WSL) without Docker Desktop 🌟](https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9)
