@@ -31,7 +31,7 @@
 - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)
 - [medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟](https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f)
 - [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0)
-- [weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟](https://www.weave.works)
+- [weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://www.suse.com/c/rancher_blog/using-hybrid-and-multi-cloud-service-mesh-based-applications-for-distributed-deployments) Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process. In this blog, we’ll provide an overview of the most common microservice communication requirements that the Service Mesh architecture pattern solves.
 - [thenewstack.io: Offloading Authentication and Authorization from Application Code to a Service Mesh](https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh)
 - [thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals](https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals)
@@ -55,7 +55,7 @@
 - [thenewstack.io: Secure Your Service Mesh: A 13-Item Checklist](https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist)
 - [infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh](https://www.infoq.com/articles/cloud-native-architecture-adoption-part3)
 - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021)
-- [==itnext.io: Stupid Simple Service Mesh — What, When, Why== 🌟](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41)
+- [==itnext.io: Stupid Simple Service Mesh — What, When, Why== 🌟](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41?gi=f17cdb565828)
 - [thenewstack.io: The Hidden Costs of Service Meshes](https://thenewstack.io/the-hidden-costs-of-service-meshes)
 - [learnsteps.com: What is a service mesh? Is it born with Kubernetes?](https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes)
 - [==medium: Microservices and the World with a Service Mesh== | Adarsh Prabhu](https://medium.com/@adarsh.prabhu/microservices-and-the-world-with-a-service-mesh-ec9a709dd4b5) We will look at how the unruly world of distributed microservices can be tamed by using a Service Mesh. Service Meshes form the backbone of some of the very complex applications out there. They solve critical issues of the microservices architecture and provide better Traffic Management, Security and Observability. In most cases these features are enabled without requiring any code changes.
@@ -81,7 +81,7 @@
 
 ## Service Mesh Testing
 
-- [itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source)](https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298) There are quite a few open-source toolsets to test and measure performance impact of service meshes.you will compare: Fortio, Nighthawk, Wrk2, Httpbin, Meshery, Isotope, Hyperfoil, Service-mesh-benchmark, Locust & more.
+- [itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source)](https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298?gi=eb16a21a4694) There are quite a few open-source toolsets to test and measure performance impact of service meshes.you will compare: Fortio, Nighthawk, Wrk2, Httpbin, Meshery, Isotope, Hyperfoil, Service-mesh-benchmark, Locust & more.
 
 ## Consul Service Mesh
 
@@ -100,7 +100,7 @@
 
 ### Consul Connect
 
-- [consul Connect](https://developer.hashicorp.com/consul/docs/connect/index.html)
+- [consul Connect](https://developer.hashicorp.com/consul/docs/connect)
 
 ## Linkerd Service Mesh
 
@@ -114,7 +114,7 @@
 - [linkerd.io: Benchmarking Linkerd and Istio](https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html)
 - [linkerd.io: Announcing Linkerd's Graduation](https://linkerd.io/2021/07/28/announcing-cncf-graduation/index.html)
 - [containerjournal.com: Linkerd’s CNCF Graduation Due to its Simplicity](https://cloudnativenow.com/features/linkerds-cncf-graduation-due-to-its-simplicity)
-- [itnext.io: A Practical Guide for Linkerd Authorization Policies](https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9)
+- [itnext.io: A Practical Guide for Linkerd Authorization Policies](https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9?gi=00200565fd61)
 - "Installed Linkerd in staging yesterday using Helm and Terraform. It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production."
 - [linkerd.io: Benchmarking Linkerd and Istio: 2021 Redux](https://linkerd.io/2021/11/29/linkerd-vs-istio-benchmarks-2021/index.html)
 - [buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces](https://www.buoyant.io/blog/locking-down-network-traffic-between-kubernetes-namespaces)
@@ -128,7 +128,7 @@
 
 ## Maesh Service Mesh
 
-- [Maesh](https://traefik.io/traefik-mesh)
+- [Maesh](https://traefik.io)
 
 ## Traffic Director (Google's Service Mesh)
 
@@ -177,7 +177,7 @@
 
 ## Kubernetes Networking
   - [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) - *(Related to kubernetes-networking topic)*
-  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) - *(Related to kubernetes-networking topic)*
+  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-retired/ingate) - *(Related to kubernetes-networking topic)*
   - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik) - *(Related to kubernetes-networking topic)*
   - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) - *(Related to kubernetes-networking topic)*
 
