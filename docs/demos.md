@@ -102,7 +102,7 @@
 
 ## DevOps Blogs
 
-- [DevStack](https://devstack.in) All about DevOps
+- [DevStack](https://resume-builder.natwarrathor961.workers.dev) All about DevOps
 
 ## Kubernetes Blogs
   - [Awesome NotebookLM Slide Prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - *(Related to ai topic)*
@@ -133,12 +133,12 @@
 
 - [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://labs.demoredhat.com/demos)
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/toolkit)
-- [blog.stephane-robert.info: Ansible - Utiliser MySQL comme inventaire dynamique (Use MySQL as a dynamic inventory)](https://blog.stephane-robert.info/post/ansible-utiliser-mysql-comme-inventaire-dynamique)
+- [blog.stephane-robert.info: Ansible - Utiliser MySQL comme inventaire dynamique (Use MySQL as a dynamic inventory)](https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/inventaires/dynamiques)
 - [opensource.com: Build a Kubernetes Minecraft server with Ansible's Helm modules](https://opensource.com/article/20/10/kubernetes-minecraft-ansible) Deploy a Minecraft server into a Kubernetes cluster with Ansible's new collections.
 - [kubernetes-advocate.medium.com: Website Deployment to AWS with Ansible](https://kubernetes-advocate.medium.com/how-to-deploy-a-website-to-aws-with-ansible-e878a63dd93)
 - [konstruktoid.medium.com: Running a NGINX container using rootless Docker with Ansible](https://konstruktoid.medium.com/running-a-nginx-container-using-rootless-docker-with-ansible-a2bfcedd3b07)
 - [kmahi2600.medium.com: Launching A WordPress Application With MYSQL Database in K8S Cluster On AWS Using Ansible](https://kmahi2600.medium.com/launching-a-wordpress-application-with-mysql-database-in-k8s-cluster-on-aws-using-ansible-a78d6bf12b1a)
-- [faun.pub: Automation: Deploying an app in GKE using Ansible](https://faun.pub/automation-deploying-an-app-in-gke-using-ansible-4b6687967ac3) Ansible infrastructure-as-code to automate Nginx deployment in Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
+- [faun.pub: Automation: Deploying an app in GKE using Ansible](https://faun.pub/automation-deploying-an-app-in-gke-using-ansible-4b6687967ac3?gi=a6c0f08a2961) Ansible infrastructure-as-code to automate Nginx deployment in Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
 - [galaxy.ansible.com/ansible/product_demos 🌟](https://galaxy.ansible.com/ansible/product_demos)
 - [ankush-chavan.medium.com: Creating Multi-Cloud Kubernetes Cluster on AWS, Azure, and GCP cloud](https://ankush-chavan.medium.com/creating-multi-cloud-kubernetes-cluster-on-aws-azure-and-gcp-cloud-92d64633bdfc)
 - [redhat.com: Build a lab in 36 seconds with Ansible](https://www.redhat.com/en/blog/build-VM-fast-ansible) Using Ansible makes provisioning virtual machines automated, flexible, repeatable, and fast.
@@ -161,19 +161,19 @@
 - [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
 - [Mautic](https://github.com/mautic/docker-mautic)
 - [howtoforge.com: How to create a Deployment in Kubernetes](https://www.howtoforge.com/create-a-deployment-in-kubernetes)
-- [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
+- [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370?gi=e76e2936f1af)
 - [Kubernetes workshop in a box](https://archive.kabisa.nl/tech/k8s-workshop-in-a-box)
     - [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
 - [medium.com/@Kubernetes_Advocate 🌟](https://medium.com/@Kubernetes_Advocate)
     - [medium.com/avmconsulting-blog](https://medium.com/avmconsulting-blog)
 - [medium: Efficient Node Out-of-Resource Management in Kubernetes](https://medium.com/kubernetes-tutorials/efficient-node-out-of-resource-management-in-kubernetes-67f158da6e59)
-- [itnext.io: K8s raise StatefulSet volume size with low impact](https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6) Shown step-by-step on a simple example application
+- [itnext.io: K8s raise StatefulSet volume size with low impact](https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6?gi=a1a077bdcad0) Shown step-by-step on a simple example application
 - [Kubernetes Examples](https://github.com/ContainerSolutions/kubernetes-examples)
 - [medium: Prometheus-Grafana on K8s](https://medium.com/@sdhah1999/prometheus-grafana-on-k8s-6efee4af4036)
 - [blog.scottlowe.org: Using kubectl via an SSH Tunnel](https://blog.scottlowe.org/2020/06/16/using-kubectl-via-an-ssh-tunnel) Learn how to use kubectl via an SSH Tunnel to connect to the Kubernetes API server.
 - [trainings.kubernauts.sh](https://trainings.kubernauts.sh) Learn Kubernetes by doing and run into problems!
 - [magalix.com: How To Integrate OPA Into Your Kubernetes Cluster Using Kube-mgmt](https://www.magalix.com/blog/how-to-integrate-opa-into-your-kubernetes-cluster-using-kube-mgmt)
-- [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1)
+- [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1?gi=7f135b166a22)
 - [medium: Build a Federation of Multiple Kubernetes Clusters With Kubefed V2](https://medium.com/better-programming/build-a-federation-of-multiple-kubernetes-clusters-with-kubefed-v2-8d2f7d9e198a)
 - [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed) This article walks you through creating a service, exposing it with an Ingress, and adding Single Sign On. The article uses Okta (but of course you’re free to use any other OIDC SSO provider you prefer)
 - [medium: Kubernetes in a nutshell — tutorial for beginners 🌟🌟](https://medium.com/swlh/kubernetes-in-a-nutshell-tutorial-for-beginners-caa442dfd6c0) Deploy a complete application stack just in a few steps!
@@ -190,7 +190,7 @@
 - [nfrankel/jvm-controller](https://github.com/nfrankel/jvm-controller) Example on how to write a kubernetes controller in Java. The demo code for nfrankel's talk on Kubernetes operators in Java.
 - [matthewpalmer.net: Kubernetes Ingress with Nginx Example 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)
 - [developers.redhat.com: Deploying Node.js applications to Kubernetes with Nodeshift and Minikube](https://developers.redhat.com/blog/2021/03/09/deploying-node-js-applications-to-kubernetes-with-nodeshift-and-minikube)
-- [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3)you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
+- [itnext.io: Breaking down and fixing Kubernetes](https://blog.aenix.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3?gi=cfb25669736b)you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
 - [dev.to: Implementing a simple K8s admission controller in Go](https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg)
 - [ishantgaurav.in: Complete Application Deployment using Kubernetes](https://ishantgaurav.in/2021/06/22/complete-application-deployment-using-kubernetes)
 - [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6) Autoscale compute-intensive workloads to keep up with changing demand
@@ -202,7 +202,7 @@
 - [youtube: Deploy Docker image to Kubernetes Cluster | CI-CD for Azure Kubernetes Service | Mohamed Radwan - DevOps](https://www.youtube.com/watch?v=4DUhc0MjdUc&feature=youtu.be&ab_channel=MohamedRadwan-DevOps)
 - [howtoforge.com: How to deploy your first pod on a Kubernetes Cluster](https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster)
 - [==github.com/AdminTurnedDevOps/kubernetes-examples==](https://github.com/AdminTurnedDevOps/kubernetes-examples) This repo contains a bunch of Kubernetes examples
-- [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4) Part II: Deployment Using YAML Configuration
+- [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4?gi=f139a2e869b0) Part II: Deployment Using YAML Configuration
 - [==medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker (kind)==](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) you'll learn how to build a multi-node kind cluster with `extraPortMappings` to forward requests from your host to an NGINX ingress controller
 - [devxblog.hashnode.dev: Deploying Microservices with Persistent Volumes in Kubernetes - Kubernetes Microservice Flask Application](https://devxblog.hashnode.dev/kubernetes-microservice-flask-application-1)
 - [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Write a Configuration File](https://medium.com/@hmquan08011996/set-up-microservice-on-kubernetes-write-config-file-8df7c2b07a4c) Deployed the microservice to Kubernetes
@@ -211,7 +211,7 @@
 ### Webhooks app
 
 - [==webhooks.app==](https://webhooks.app) Webhook endpoints available for your tests and demos.
-- [itnext.io: Journey Of A Microservice Application In The Kubernetes World](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-bdfe795532ef) Presentation of webhooks.app . TL;DR
+- [itnext.io: Journey Of A Microservice Application In The Kubernetes World](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-bdfe795532ef?gi=27082a81d9b2) Presentation of webhooks.app . TL;DR
 ==webhooks.app is an open source application following the microservice architecture. Its purpose is to provide a webhook endpoint for demos. In this series of articles, I will present the application and several steps I used (and will use) to have it running in production in a Kubernetes cluster.==
 
 ### Django on K8s
@@ -237,13 +237,13 @@
 #### Spring Initializr and k8s Initializer
 
 - [Spring Initializr 🌟](https://start.spring.io) a web application that can generate a Spring Boot project structure, fill in your project details, pick your options, and download a bundled up project
-- [k8s Initializer 🌟](https://blackbird.a8r.io/initializer) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
+- [k8s Initializer 🌟](https://blackbird.a8r.io) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
 - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML
 - [hashicorp.com: Getting Started with Ambassador and Consul Using Kubernetes Initializer](https://www.hashicorp.com/blog/getting-started-with-ambassador-and-consul-using-kubernetes-initializer) Kubernetes Initializer built by Ambassador Labs provides a new experience for simplifying the deployment of Ambassador and Consul in a Sandbox Kubernetes environment.
 
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
 
-- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
+- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681?gi=b2bcbc960290)
 
 ### Istio Service Mesh
 
@@ -292,14 +292,14 @@
 - [medium: AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)
 - [github.com/stacksimplify/aws-eks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/aws-eks-kubernetes-masterclass)
 - [hbollon/k8s-voting-app-aws](https://github.com/hbollon/k8s-voting-app-aws) Example of a distributed voting app running on Kubernetes. Written in Golang with Terraform definitions to deploy to AWS EKS
-- [aws.plainenglish.io: Deploying Application on Amazon EKS](https://aws.plainenglish.io/deploying-application-on-amazon-eks-211eb46c069c)
+- [aws.plainenglish.io: Deploying Application on Amazon EKS](https://aws.plainenglish.io/deploying-application-on-amazon-eks-211eb46c069c?gi=2407c6a4b334)
 
 ### Azure AKS
 
 - [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
 - [channel9.msdn.com: Troubleshoot AKS cluster issues with AKS Diagnostics and AKS Periscope](https://learn.microsoft.com/en-us/shows/azure-friday/troubleshoot-aks-cluster-issues-with-aks-diagnostics-and-aks-periscope)
 - [trstringer.com: Deploy to AKS from GitHub Actions 🌟](https://trstringer.com/deploy-to-aks-from-github-actions)
-- [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions/-self-hosted)
+- [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted/)
 - [medium.com/bb-tutorials-and-thoughts: How to Build and Deploy MERN Stack on Azure AKS](https://medium.com/bb-tutorials-and-thoughts/how-to-build-and-deploy-mern-stack-on-azure-aks-c25eaf27b9d0) MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. Express and Node make up the middle (application) tier.
     - You will dockerize the app and push that image to the Azure container registry
     - You will pull the image and deploy it to AKS
@@ -434,22 +434,22 @@
 - [developers.redhat.com: From code to production with OpenShift Pipelines and Argo CD](https://developers.redhat.com/blog/2020/09/10/from-code-to-production-with-openshift-pipelines-and-argo-cd)
 - [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 1](https://developers.redhat.com/blog/2020/10/01/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-1)
     - [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 2](https://developers.redhat.com/blog/2020/10/14/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-2)
-- [itnext.io: Deploy Argo CD with Ingress and TLS in Three Steps: No YAML Yak Shaving Required 🌟](https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491)
+- [itnext.io: Deploy Argo CD with Ingress and TLS in Three Steps: No YAML Yak Shaving Required 🌟](https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491?gi=0aa7a7eee420)
     - [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://blackbird.a8r.io)
 - [developers.redhat.com: Introduction to Tekton and Argo CD for multicluster development](https://developers.redhat.com/blog/2020/09/03/introduction-to-tekton-and-argo-cd-for-multicluster-development)
-- [itnext.io: Solving ArgoCD Secret Management with the argocd-vault-plugin 🌟](https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05)
+- [itnext.io: Solving ArgoCD Secret Management with the argocd-vault-plugin 🌟](https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05?gi=007ea6fe23c2)
 - [youtube: Exploring The Cloud-native Kubernetes CI/CD Pipeline Tool Landscape](https://www.youtube.com/watch?v=5XWwjyikWMQ&feature=emb_logo&ab_channel=Konveyor) In this meetup, we explore the new era of Kubernetes continuous integration continuous deployment pipelines based on a set of fancy tools as Tekton Pipelines, ArgoCD or Helm. We walk through the new DevOps and GitOps technologies landscape and a real demonstration of how these tools work together in order to make developers and system administrators lives easier. [repo1](https://github.com/acidonper/jump-app-gitops) , [repo2](https://github.com/acidonper/jump-app-docs) , [slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVoMnVrcVR5Tjl0dlBGWkx2UTZzMHA3N1N3QXxBQ3Jtc0tsZkZrcUpfSzhBX1EzdUtOanRqV3o2WDZpdkhPY0NyODhmbERSQUhROFRPa2pZRC13Q3l0ekQ2MjR1LTIyY254VmhwdHVack1XeDJiRWVBMUl6U3RDRHo3cF9XVDVJRTluLWJFVXNYUjF5OFV4ZlN5SQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F14fSLwfEVpDU-3udMGEW9bQATCAOy0F8b6UOgNgDkD3A%2Fedit%3Fusp%3Dsharing)
-- [blog.argoproj.io: Introducing the ApplicationSet Controller for Argo CD](https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5)
+- [blog.argoproj.io: Introducing the ApplicationSet Controller for Argo CD](https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5?gi=225f62b91e41)
 - [vzilla.co.uk: GitOps - Getting started with ArgoCD](https://vzilla.co.uk/vzilla-blog/gitops-getting-started-with-argocd)
 - [openshift.com: SSO Integration for the OpenShift GitOps Operator](https://www.redhat.com/en/blog/sso-integration-for-the-openshift-gitops-operator) This is a demo-heavy blog. Readers of this blog will get an idea about why SSO is important, how OpenShift handles authN/authZ and a step-by-step guide on using Red Hat Single Sign-On(RHSSO) to log in to an Argo CD application.
 - [openshift.com: How to Use HashiCorp Vault and Argo CD for GitOps on OpenShift](https://www.redhat.com/en/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift)
-- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
+- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0?gi=38e705ebe56e)
 - [piotrminkowski.com: Kubernetes CI/CD with Tekton and ArgoCD 🌟](https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-argocd)
 - [infracloud.io: Multicluster GitOps with ArgoCD](https://www.infracloud.io/blogs/multicluster-gitops-argocd)
 - [developers.redhat.com: Managing GitOps control planes for secure GitOps practices 🌟](https://developers.redhat.com/articles/2021/08/03/managing-gitops-control-planes-secure-gitops-practices)
 - [opensource.com: Get started with Argo CD 🌟](https://opensource.com/article/21/8/argo-cd) Argo CD is a simple pull-based GitOps deployment tool that syncs Kubernetes manifest files with a cluster for easy, no-nonsense deployments.
-- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
-- [blog.argoproj.io: Introducing the AppSource Controller for ArgoCD](https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643)
+- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0?gi=38e705ebe56e)
+- [blog.argoproj.io: Introducing the AppSource Controller for ArgoCD](https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643?gi=8ed6308013ab)
 - [==piotrminkowski.com: Continuous Delivery on Kubernetes with Database using ArgoCD and Liquibase==](https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase)
 - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
 - [gokuldevops.medium.com: Argo CD-Sample app deployment](https://gokuldevops.medium.com/argo-cdsample-app-deployment-56b36601f279) Argo CD one of the most popular continues deployment tools used in Kubernetes. It is very simple to use and quite powerful. Personally, it is the first tool in my mind when I think of Kubernetes GitOps.
@@ -464,7 +464,7 @@
 
 ### Deploying Web Applications with Eclipse JKube (formerly known as Fabric8 Maven Plugin)
 
-- [Building and Deploying a Weather Web Application onto Kubernetes/Red Hat OpenShift using Eclipse JKube](https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4)
+- [Building and Deploying a Weather Web Application onto Kubernetes/Red Hat OpenShift using Eclipse JKube](https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4?gi=2c8458bdeb26)
 - [Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube)
     - [medium: Deploy Quarkus Todo List App to Kubernetes Using Eclipse JKube](https://medium.com/swlh/deploy-quarkus-todo-list-app-to-kubernetes-using-eclipse-jkube-c774ef6b68f0)
 - [youtube: Deploy your Java applications to the Cloud using Eclipse JKube (petclinic) 🌟](https://www.youtube.com/watch?v=vgIwRX4LXfU)
@@ -489,7 +489,7 @@
 ### OKD
 
 - [medium.com: Installing an OKD 4.5 Cluster](https://medium.com/@craig_robinson/guide-installing-an-okd-4-5-cluster-508a2631cbee)
-    - [itnext.io: Guide: Installing an OKD 4.5 Cluster](https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee)
+    - [itnext.io: Guide: Installing an OKD 4.5 Cluster](https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee?gi=4592f956211c)
 - [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources)
 
 ### Helm demos
@@ -541,8 +541,8 @@
 - [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline)
 - [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy)
 - [lambdatest.com: How To Create Jenkins Multibranch Pipeline 🌟](https://www.testmuai.com/blog/how-to-create-jenkins-multibranch-pipeline)
-- [faun.pub: [DevOps] Create your first CI/CD pipeline!!](https://faun.pub/devops-create-your-first-ci-cd-pipeline-ed054ba1404f) A CI/CD pipeline is a series of steps that must be performed in order to deliver a new version of software.A CI/CD pipeline introduces monitoring and automation to improve the process of application development, particularly at the integration and testing phases, as well as during delivery and deployment. Although it is possible to manually execute each of the steps of a CI/CD pipeline, the true value of CI/CD pipelines is realized through automation.
-- [lakshaws.medium.com: CI/CD Pipeline for Dockerized Applications](https://lakshaws.medium.com/ci-cd-pipeline-for-dockerized-applications-f1003e821812) Kubernetes is becoming de-facto standard for containerized applications and it is important to be aware and get yourself familiarized with of CI/CD Pipeline for Dockerized Applications. I have created the CI/CD Pipeline Using AWS, Jenkins and EKS as major components.
+- [faun.pub: [DevOps] Create your first CI/CD pipeline!!](https://faun.pub/devops-create-your-first-ci-cd-pipeline-ed054ba1404f?gi=a44a7be53840) A CI/CD pipeline is a series of steps that must be performed in order to deliver a new version of software.A CI/CD pipeline introduces monitoring and automation to improve the process of application development, particularly at the integration and testing phases, as well as during delivery and deployment. Although it is possible to manually execute each of the steps of a CI/CD pipeline, the true value of CI/CD pipelines is realized through automation.
+- [lakshaws.medium.com: CI/CD Pipeline for Dockerized Applications](https://lakshmanandevops.medium.com/ci-cd-pipeline-for-dockerized-applications-f1003e821812) Kubernetes is becoming de-facto standard for containerized applications and it is important to be aware and get yourself familiarized with of CI/CD Pipeline for Dockerized Applications. I have created the CI/CD Pipeline Using AWS, Jenkins and EKS as major components.
 - [github.com/arun-gupta/docker-jenkins-pipeline: Docker + Java + Jenkins Pipeline](https://github.com/arun-gupta/docker-jenkins-pipeline) Devops for Java EE
 
 ### Jenkins Declarative Pipelines with OpenShift
@@ -665,9 +665,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [Demo/Evaluation Installations](https://spinnaker.io/docs/setup/install)
 - [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker)
 - [imperialwicket/spinnaker-demo](https://github.com/imperialwicket/spinnaker-demo)
-- [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689)
-- [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf)
-- [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce)
+- [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689?gi=f4e8d5ce2c73)
+- [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf?gi=50a9fc7cfb8e)
+- [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce?gi=d7f1e06a4e38)
 - [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker) learn how to setup Spinnaker and integrate it with Gitlab CI and Jenkins to build and run CI and CD pipelines.
 - [armory.io: How to Set Up Liquibase in Spinnaker](https://www.harness.io/products/continuous-delivery)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.harness.io/products/continuous-delivery)
@@ -705,7 +705,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL
 
-- [griddynamics/mpl](https://github.com/griddynamics/mpl)
+- [griddynamics/mpl](https://github.com/griddynamics-archive/mpl)
 - [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.comdeveloping-a-modular-pipeline-library-to-improve-devops-collaboration)
 - [youtube: Modular Pipeline Library: 4. Petclinic Pipeline 🌟](https://www.youtube.com/watch?v=GLtvxY1S3Aw) MPL demo video about more or less real petclinic pipeline with selenium tests, comparison to bare jenkinsfile pipeline without mpl, modules override mechanisms.
 
@@ -754,16 +754,16 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [medium: Fetch Application Inventory using Systems Manager](https://medium.com/cloud-techies/application-inventory-using-system-manager-f3eeb75d3279) Get application inventory from each EC2 instance and store it in centralized account S3 bucket. To query the information from s3 bucket, we are integrating Glue, Athena (from another account).
 - [youtube: Build a Music Sharing App with Amazon S3 and AWS Amplify](https://www.youtube.com/watch?v=6W2TuBDaaiI&ab_channel=AliSpittel)
 - [freecodecamp.org: How to Deploy a React App to Production Using Docker and NGINX with API Proxies](https://www.freecodecamp.org/news/how-to-deploy-react-apps-to-production)
-- [itnext.io: Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f) Import data from Amazon RDS into Amazon S3 using Amazon MSK, Apache Kafka Connect, Debezium, Apicurio Registry, and Amazon EKS
+- [itnext.io: Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f?gi=30c869b2da6a) Import data from Amazon RDS into Amazon S3 using Amazon MSK, Apache Kafka Connect, Debezium, Apicurio Registry, and Amazon EKS
 - [jfrog.com: 5 Steps to Hosting Your Application on Amazon Cloud Container Service](https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service)
 - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour) Get your microservices where they need to be.
 - [==AdminTurnedDevOps/DevOps-The-Hard-Way-AWS==](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS) **This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS**
 - [==medium.com/@adrianarba: CI/CD defined through terraform using AWS CodePipeline, AWS CodeCommit, and AWS CodeBuild==](https://medium.com/@adrianarba/ci-cd-defined-through-terraform-using-aws-codepipeline-aws-codecommit-and-aws-codebuild-12ade4d9cfa3)
-- [faun.pub: Using AWS Session Manager With Ansible To Execute Playbook On EC2](https://faun.pub/using-aws-session-manager-with-ansible-to-execute-playbook-on-ec2-ac97fa17b187) we’ll see how we can use AWS Session Manager instead of SSH to connect to an EC2 instance and execute a playboook.
+- [faun.pub: Using AWS Session Manager With Ansible To Execute Playbook On EC2](https://faun.pub/using-aws-session-manager-with-ansible-to-execute-playbook-on-ec2-ac97fa17b187?gi=65c00a62cfe1) we’ll see how we can use AWS Session Manager instead of SSH to connect to an EC2 instance and execute a playboook.
 - [betterprogramming.pub: Build a Cloud-Native Multiprocessing Framework](https://betterprogramming.pub/build-a-cloud-native-multiprocessing-framework-b33cfc2c02b9) How to convert a local multiprocessing framework to the cloud
 - [github.com/aws-samples: Guide to Resource Tagging Automation](https://github.com/aws-samples/resource-tagging-automation) A Lambda function for Resource Tagging Automation
-- [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067) Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
-- [towardsaws.com: Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services | Brandi McCall](https://towardsaws.com/integrating-python-amazon-api-gateway-lambda-sqs-and-sns-services-6015631d5527)
+- [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067?gi=dfc2505b929a) Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
+- [towardsaws.com: Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services | Brandi McCall](https://towardsaws.com/integrating-python-amazon-api-gateway-lambda-sqs-and-sns-services-6015631d5527?gi=406f0d3ea179)
 - [github.com/unitypark/aws-serverless-demos](https://github.com/unitypark/aws-serverless-demos)
     - [github.com/unitypark: AWS Serverless Demos - cloudfront-http-api-cognito](https://github.com/unitypark/aws-serverless-demos/tree/main/serverless-web-hosting/cloudfront-http-api-cognito)
 
@@ -835,7 +835,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
 - [dev.to: Go, Kafka and gRPC clean architecture CQRS microservices with Jaeger tracing](https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj)
 - [ably.com: Building a realtime ticket booking solution with Kafka, FastAPI, and Ably](https://ably.com/blog/realtime-ticket-booking-solution-kafka-fastapi-ably)
-- [itnext.io: Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7)
+- [itnext.io: Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7?gi=8a32e9b589a9)
 - [codeopinion.com: Troubleshooting Kafka with 2000 Microservices](https://codeopinion.com/troubleshooting-kafka-with-2000-microservices)
 
 ## Apache Camel and ActiveMQ. Event driven integration
@@ -869,13 +869,13 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [middlewareinventory.com: Terraform Create Multiple EC2 with different Configs – for_each and count together](https://www.middlewareinventory.com/blog/terraform-create-multiple-ec2-different-config)
 - [the-tech-guy.in: Automating LAMP deployment using Terraform and Ansible](https://the-tech-guy.in/2022/03/08/automating-lamp-config-using-terraform-and-ansible)
 - [betterprogramming.pub: All Hail the Monolith — Celebrating the Verbosity of the Unified Architecture in Terraform](https://betterprogramming.pub/all-hail-the-monolith-celebrating-the-verbosity-of-the-unified-architecture-in-terraform-81b53e3a03ae)
-- [faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform](https://faun.pub/aws-ecs-blue-green-deployment-setup-using-terraform-b56bb4f656ea)
+- [faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform](https://faun.pub/aws-ecs-blue-green-deployment-setup-using-terraform-b56bb4f656ea?gi=3c278d8c79c6)
 - [medium.com/@cyber-security: [DevOps] 01 - Example project with Terraform](https://medium.com/@cyber-security/devops-01-example-project-with-terraform-ade540824db1)
-- [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2)
+- [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2?gi=ff503c09829a)
 - [medium.com/@zeloygabri: Deploying 2-Tier AWS Architecture using Terraform](https://medium.com/@zeloygabri/deploying-2-tier-aws-architecture-using-terraform-b4167b035751)
 - [christopher-lawshe.medium.com: Building infrastructure with Terraform: EC2, Jenkins, S3 and more](https://christopher-lawshe.medium.com/building-infrastructure-with-terraform-ec2-jenkins-s3-and-more-4ec30f53a44a)
 - [dev.to: Creating a Rest API with Infrastructure as Code (Terraform) & Serverless (Lambda + Python) - Part 2 CI/CD](https://dev.to/aws-builders/creating-a-rest-api-with-infrastructure-as-code-terraform-serverless-lambda-python-part-2-cicd-g8h)
-- [==towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?==](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47)
+- [==towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?==](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47?gi=f5982b661dfc)
 - [blog.awsfundamentals.com: Using S3 with Terraform](https://awsfundamentals.com/blog/using-s3-with-terraform)
 - [devopscube.com/terraform-aws-rds](https://devopscube.com/terraform-aws-rds) Terraform AWS RDS Provisioning Tutorial
 - [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit Chat App in Container Apps using Terraform | Paolo Salvatori](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app-in-container-app/3885602)
@@ -896,11 +896,11 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal)
 - [github.com/major/imagebuilder-containerized](https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml) Image Builder in Github Actions building a CentOS Stream image, uploading it to S3, and importing it into EC2 -- all from within a CentOS Stream container.
 - [docs.microsoft.com: Build and deploy applications to Azure by using GitHub Actions 🌟](https://learn.microsoft.com/en-us/training/modules/github-actions-cd)
-- [itnext.io: Github: Github Actions overview and ArgoCD deployment example](https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832)
+- [itnext.io: Github: Github Actions overview and ArgoCD deployment example](https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832?gi=79c4f1529fc4)
 - [debianmaster/actions-k3s](https://github.com/debianmaster/actions-k3s) Github action for spinning up local k3s instance and running kubectl commands
 - [==judebantony.github.io: DevSecOps with GitHub Action and SaaS Tools==](https://judebantony.github.io/cicd-github-action-example) CICD Using GitHub Action and Harness
 - [codeproject.com: Making a Simple Data Pipeline Part 4: CI/CD with GitHub Actions](https://www.codeproject.com/Articles/5320647/Making-a-Simple-Data-Pipeline-Part-4-CI-CD-with-Gi)
-- [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746) Deploying Helm Charts on AWS EKS Cluster using ArgoCD and GitOps.
+- [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746?gi=514c7be43858) Deploying Helm Charts on AWS EKS Cluster using ArgoCD and GitOps.
 - [freecodecamp.org: How to Setup a CI/CD Pipeline with GitHub Actions and AWS](https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws)
 - [nicwortel.nl: Continuous deployment to Kubernetes with GitHub Actions](https://nth-root.nl/en/guides/automate-kubernetes-deployments-with-github-actions) how to use GitHub Actions to automatically test, build and deploy your Docker images to Kubernetes on every commit to the main branch
 - [medium.com/geekculture: GitOps — Github Actions K8s Deploy Workflow](https://medium.com/geekculture/gitops-github-actions-k8s-deploy-workflow-54f0d9a1d11b)
@@ -909,7 +909,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [thomasthornton.cloud: If, elseif or else in GitHub Actions](https://thomasthornton.cloud/if-elseif-or-else-in-github-actions)
 - [kaleshreya907.medium.com: GitHub Actions: Netflix Deployment](https://kaleshreya907.medium.com/step2a-install-docker-and-run-sonarqube-container-faa42d01f5fe)
 - [medium.com/@ebonyymonae: Github Actions and Automation](https://medium.com/@ebonyymonae/github-actions-and-automation-9637aa06af64)
-- [levelup.gitconnected.com: GitHub Actions, self-hosted runners on Amazon EKS & spot instances](https://levelup.gitconnected.com/github-actions-self-hosted-runners-on-amazon-eks-spot-instances-bc3abcd5d38f) How to spin up ephemeral runners in Kubernetes.
+- [levelup.gitconnected.com: GitHub Actions, self-hosted runners on Amazon EKS & spot instances](https://levelup.gitconnected.com/github-actions-self-hosted-runners-on-amazon-eks-spot-instances-bc3abcd5d38f?gi=750954c74595) How to spin up ephemeral runners in Kubernetes.
 - [medium.com/@eduardo854: Building Your GitOps Pipeline with GitHub Actions, DockerHub, and Helm Repository](https://medium.com/@eduardo854/building-your-gitops-pipeline-with-github-actions-dockerhub-and-helm-repository-553c4873116e)
 - [dev.to/aws-builders: From Scratch: OIDC Providers](https://dev.to/aws-builders/from-scratch-oidc-providers-252d)
 
@@ -928,8 +928,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ## OpenTelemetry
 
-- [blog.devgenius.io: Running the OpenTelemetry Demo App in Kubernetes](https://blog.devgenius.io/running-opentelemetry-demo-app-in-kubernetes-95dccd613e0b)
-- [itnext.io: OpenTelemetry — Understanding SLI and SLO with OpenTelemetry Demo](https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0)
+- [blog.devgenius.io: Running the OpenTelemetry Demo App in Kubernetes](https://blog.devgenius.io/running-opentelemetry-demo-app-in-kubernetes-95dccd613e0b?gi=14ad92a1425b)
+- [itnext.io: OpenTelemetry — Understanding SLI and SLO with OpenTelemetry Demo](https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0?gi=b2b21a4e0377)
 - [devops.com: Measuring the Progress of the OpenTelemetry Project](https://devops.com/measuring-the-progress-of-the-opentelemetry-project)
 
 ## QR Codes
