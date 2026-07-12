@@ -119,7 +119,7 @@
 
 - [cloud.hashicorp.com: HashiCorp Cloud](https://cloud.hashicorp.com) The fastest way to get up and running with HashiCorp tools. HashiCorp Cloud Platform is a fully managed platform for Terraform, Vault, Consul, and more.
 - [hashicorp.com: Multi-Region Replication Now Available with HCP Vault](https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault) New HCP Vault Plus Clusters adds high availability replication of secrets and policies across cloud regions.
-- [levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0)
+- [levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0?gi=f72400898afd)
 
 ## Blogs and Newsletters
   - [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac) - *(Related to iac topic)*
@@ -188,7 +188,7 @@
 - [hashicorp.com: Share Modules Across Organizations with Terraform Enterprise](https://www.hashicorp.com/blog/share-modules-across-organizations-terraform-enterprise) Terraform Enterprise now offers users the ability to consume private modules across organizations, providing greater management consistency.
 - [freecodecamp.org: What is Terraform? Learn Terraform and Infrastructure as Code](https://www.freecodecamp.org/news/what-is-terraform-learn-infrastructure-as-code)
 - [hashicorp.com: Announcing HashiCorp Terraform 0.15 General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability)
-- [itnext.io: How to use Terraform to create a small-scale Cloud Infrastructure 🌟](https://itnext.io/how-to-use-terraform-to-create-a-small-scale-cloud-infrastructure-abf54fabc9dd)
+- [itnext.io: How to use Terraform to create a small-scale Cloud Infrastructure 🌟](https://itnext.io/how-to-use-terraform-to-create-a-small-scale-cloud-infrastructure-abf54fabc9dd?gi=b4b5bc129285)
 - [acloudguru.com: Securing your multi-cloud Terraform pipelines with policy-as-code](https://www.pluralsight.com/resources/blog/cloud/securing-your-multi-cloud-terraform-pipelines-with-policy-as-code)
 - [medium: Terraform — Remote States Overview 🌟](https://medium.com/devops-mojo/terraform-remote-states-overview-what-is-terraform-remote-state-storage-introduction-936223a0e9d0) What is Terraform Remote State — Introduction to Terraform Remote Storage!
 - [prcode.co.uk: Connect Azure MySQL to Private Endpoint with Terraform](https://prcode.co.uk/2021/04/29/connect-azure-mysql-to-private-endpoint-with-terraform)
@@ -206,7 +206,7 @@
 - [hashicorp.com: New Terraform Tutorials on HashiCorp Learn](https://www.hashicorp.com/blog/new-terraform-tutorials-on-hashicorp-learn) From working with providers, to managing resources, to working with Terraform on AWS, we have a lot of new hands-on Terraform exercises to try.
 - [hashicorp.com: Announcing Support for Amazon ECS Anywhere in the Terraform AWS Provider](https://www.hashicorp.com/blog/announcing-launch-day-support-for-amazon-ecs-anywhere-terraform-aws-provider) The Terraform AWS provider now supports ECS Anywhere, a new capability in Amazon ECS that supports running and managing container-based applications on customers’ on-premises servers.
 - [hashicorp.com: Announcing HashiCorp Terraform 1.0 General Availability 🌟](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-1-0-general-availability)
-- [acloudguru.com: What does the Terraform 1.0 release mean for you?](https://acloudguru.com/blog/engineering/what-does-the-terraform-1-0-release-mean-for-you)
+- [acloudguru.com: What does the Terraform 1.0 release mean for you?](https://www.pluralsight.com/resources/blog/cloud/what-does-the-terraform-1-0-release-mean-for-you)
 - [thenewstack.io: Terraform 1.0 Reflects What HashiCorp Has Learned About Infrastructure-as-Code](https://thenewstack.io/terraform-1-0-reflects-what-hashicorp-has-learned-about-infrastructure-as-code)
 - [medium: terraform | git commit -m “all the secrets” | sops tool for managing secrets 🌟](https://medium.com/cloudandthings/terraform-git-commit-m-all-the-secrets-5dfea9b111de) - [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/getsops/sops)
 - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d) Heroku is great, but how about using Terraform, AWS, Docker and have full control over the entire stack?
@@ -241,8 +241,8 @@
 - [==middlewareinventory.com: Terraform For Each Examples – How to use for_each | Devops Junction==](https://www.middlewareinventory.com/blog/terraform-for-each-examples)
 - [==medium.com/nerd-for-tech: Terraforming the GitOps Way !!!==](https://medium.com/nerd-for-tech/terraforming-the-gitops-way-9417cf4abf58)
 - [terrateam.io: Terraform Pre-Commit Hooks](https://terrateam.io/blog/terraform-pre-commit-hooks) Terraform Code Improvements. There are many tools that can make sure your Terraform repo remains well-formated and tested. Using Git pre-commit hooks, one can easily incorporate these tools into everyday Terraform workflow.
-- [faun.pub: Terraform-Prevent Conditionally Created Resources From Deletion 🌟](https://faun.pub/terraform-prevent-conditionally-created-resources-from-deletion-dcec1b793565) we’ll see how we can prevent a resource, conditionally created by Terraform from getting deleted.
-- [==faun.pub: 5 Best Terraform Tools That You Need in 2022== 🌟](https://faun.pub/5-best-terraform-tools-that-you-need-in-2022-a3db2334c524) Tools that can simplify your infrastructure code
+- [faun.pub: Terraform-Prevent Conditionally Created Resources From Deletion 🌟](https://faun.pub/terraform-prevent-conditionally-created-resources-from-deletion-dcec1b793565?gi=dc4f46650feb) we’ll see how we can prevent a resource, conditionally created by Terraform from getting deleted.
+- [==faun.pub: 5 Best Terraform Tools That You Need in 2022== 🌟](https://faun.pub/5-best-terraform-tools-that-you-need-in-2022-a3db2334c524?gi=17eafd682403) Tools that can simplify your infrastructure code
 - [dev.to/kubestack: A Better Way to Provision Kubernetes Resources Using Terraform 🌟](https://dev.to/kubestack/a-better-way-to-provision-kubernetes-resources-using-terraform-355n) how to create Kubernetes resources using Terraform via the Helm and Kustomize providers. The resource will be created/destroyed as part of the usual terraform apply command.
 - [betterprogramming.pub: Design by Contract in Terraform](https://betterprogramming.pub/design-by-contracts-in-terraform-63467a749c1a) Understanding custom condition checks
 - [youtube: Terrraform + Ansible: Automating configuration in infrastructure](https://www.youtube.com/watch?v=DeNflzdjxVM)
@@ -250,19 +250,19 @@
 - [==terraform.io: Provisioners==](https://developer.hashicorp.com/terraform/language/provisioners) **Provisioners can be used to model specific actions on the local machine or on a remote machine in order to prepare servers or other infrastructure objects for service.**
     - [==terraform.io: Creation-Time Provisioners== 🌟](https://developer.hashicorp.com/terraform/language/provisioners)
     - [terraform.io: Destroy-Time Provisioners 🌟](https://developer.hashicorp.com/terraform/language/provisioners)
-- [faun.pub: The Lifecycle of a Terraform Resource — Lifecycle Meta-Argument](https://faun.pub/the-lifecycle-of-a-terraform-resource-lifecycle-meta-argument-3cc4555ec976) we will take a look at the various stages a Terraform resource goes through during its lifetime. We will look at the default resource behavior, before looking at the lifecycle meta-argument which can allow you to customize that behavior.
+- [faun.pub: The Lifecycle of a Terraform Resource — Lifecycle Meta-Argument](https://faun.pub/the-lifecycle-of-a-terraform-resource-lifecycle-meta-argument-3cc4555ec976?gi=b930cd3b7905) we will take a look at the various stages a Terraform resource goes through during its lifetime. We will look at the default resource behavior, before looking at the lifecycle meta-argument which can allow you to customize that behavior.
 - [medium.com/@dugouchet.a: Manage your terraform like a container](https://medium.com/@dugouchet.a/manage-your-terraform-like-a-container-d2acbc46d7d4)
 - [medium.com/spacelift: Terraform vs. Kubernetes: Key Differences and Comparison](https://medium.com/spacelift/terraform-vs-kubernetes-key-differences-and-comparison-a42847e8be1c)
 - [infoq.com: Terraform 1.3 Release Introduces Simplified Refactoring Experience 🌟](https://www.infoq.com/news/2022/09/terraform-simplified-refactoring) This release introduces optional object type attributes with defaults and expands the capabilities of moved blocks.
 - [medium.com/nerd-for-tech: Building a Two-Tier Architecture for High Availability using Terraform](https://medium.com/nerd-for-tech/building-a-two-tier-architecture-for-high-availability-using-terraform-ae6296fb2126)
-- [==towardsaws.com: Import Existing AWS Infrastructure to Terraform==](https://towardsaws.com/import-existing-aws-architecture-to-terraform-368b66c48275)
+- [==towardsaws.com: Import Existing AWS Infrastructure to Terraform==](https://towardsaws.com/import-existing-aws-architecture-to-terraform-368b66c48275?gi=a4d271293d36)
 - [==medium.com/google-cloud: Automate Terraform documentation like a pro!==](https://medium.com/google-cloud/automate-terraform-documentation-like-a-pro-ed3e19998808)
 - [buildkite.com: Manage your CI/CD resources as Code with Terraform](https://buildkite.com/resources/blog/manage-your-ci-cd-resources-as-code-with-terraform)
 - [==blog.gruntwork.io: Terraform tips & tricks: loops, if-statements, and gotchas==](https://www.gruntwork.io/blog/terraform-tips-tricks-loops-if-statements-and-gotchas)
 - [medium.com/@adolfo.diaz.zar: Secret Management with Terraform 🌟](https://medium.com/@adolfo.diaz.zar/secret-management-with-terraform-6b5e02f9437e)
-- [awstip.com: Refactor Terraform code with Moved Blocks — a new way without manually modifying the state](https://awstip.com/refactor-terraform-code-with-moved-blocks-a-new-way-without-manually-modifying-the-state-5ed1d80ed53e)
+- [awstip.com: Refactor Terraform code with Moved Blocks — a new way without manually modifying the state](https://awstip.com/refactor-terraform-code-with-moved-blocks-a-new-way-without-manually-modifying-the-state-5ed1d80ed53e?gi=605864603038)
 - [dev.to: Using Terraform To Manage Infrastructure Resources | Pavan Belagatti](https://dev.to/pavanbelagatti/using-terraform-to-manage-infrastructure-resources-32da)
-- [faun.pub: Terraform null provider and null_resource explained 🌟](https://faun.pub/terraform-null-provider-and-null-resource-explained-6a8d674cad63)
+- [faun.pub: Terraform null provider and null_resource explained 🌟](https://faun.pub/terraform-null-provider-and-null-resource-explained-6a8d674cad63?gi=41c800c25289)
 - [spectrocloud.com: Deploying complex infrastructure with a Terraform state machine](https://www.spectrocloud.com/blog/deploying-complex-infrastructure-with-a-terraform-state-machine)
 - [swwapnilp.medium.com: How Does Slack Use Terraform?](https://swwapnilp.medium.com/how-does-slack-use-terraform-104b1e96c97d)
 - [hashicorp.com: Terraform Abstraction Tips: Just Because You Can Doesn't Mean You Should](https://www.hashicorp.com/resources/terraform-abstraction-tips-just-because-you-can-doesnt-mean-you-should) Learn how to think about balancing automation and abstraction against maintainability when building your Terraform setup.
@@ -271,7 +271,7 @@
 - [==tekanaid.com: Terraform for Beginners – A Beginner’s Guide to Automating Cloud Infrastructure== 🌟](https://tekanaid.com/posts/terraform-for-beginners-course-and-training)
 - [==terrahaxs.com: Choosing the Right Terraform Loop: count vs for_each== 🌟](https://www.terrahaxs.com/blog/count-vs-for-each)
 - [==digitalocean.com: How To Structure a Terraform Project== 🌟](https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project) **Learn about structuring Terraform projects according to their general purpose and complexity. Then, you’ll create a project with a simple structure using the more common features of Terraform: variables, locals, data sources, and provisioners.**
-- [==getbetterdevops.io: How To Deploy Helm Charts With Terraform== 🌟](https://www.empowersurvivors.net) Do you know you can deploy HelmCharts as any other Terraform resources? It's possible with the official Helm provider.
+- [==getbetterdevops.io: How To Deploy Helm Charts With Terraform== 🌟](https://www.roseandglow.co.uk) Do you know you can deploy HelmCharts as any other Terraform resources? It's possible with the official Helm provider.
 - [==medium.com/@dsdatsme: Terraform GitOps CI/CD with Approval & Notifications==](https://medium.com/@dsdatsme/terraform-gitops-ci-cd-with-approval-notifications-6f0807299fc4)
 - [github.com/DhruvinSoni30/Terraform_multiple_modules](https://github.com/DhruvinSoni30/Terraform_multiple_modules) **How to work with multiple terraform modules?**
 - [spacelift.io: Terraform Files – How to Structure a Terraform Project](https://spacelift.io/blog/terraform-files)
@@ -294,8 +294,8 @@
     - ❓❓ So, how can I ensure that what is committed using Git is really applied. How to be notified if there is a change compared to the desired state and how to automatically apply what is in my code (GitOps)?
     - This is the promise of tf-controller, an Open Source Kubernetes operator from Weaveworks, tightly related to Flux (a GitOps engine from the same company). Flux is one of the solutions I really appreciate, that's why I invite you to have a look on my previous article
 - [praveendandu24.medium.com: Mastering Terraform: From Essential Commands to Effortless EC2 Instance Provisioning](https://praveendandu24.medium.com/mastering-terraform-from-essential-commands-to-effortless-ec2-instance-provisioning-d2d25659450c)
-- [faun.pub: Import your existing cloud infra into Terraform](https://faun.pub/import-your-existing-cloud-infra-into-terraform-ca70da146152) Import manually created cloud resources into Terraform and also generate configuration for the imported resources
-- [gravitydevops.com: Terraform: A Step-by-Step Guide from Basics to Advanced Techniques](https://gravitydevops.com/terraform-tutorials-basic-to-advanced-2025)
+- [faun.pub: Import your existing cloud infra into Terraform](https://faun.pub/import-your-existing-cloud-infra-into-terraform-ca70da146152?gi=c44be4eee876) Import manually created cloud resources into Terraform and also generate configuration for the imported resources
+- [gravitydevops.com: Terraform: A Step-by-Step Guide from Basics to Advanced Techniques](https://gravitydevops.com/terraform-tutorials-basic-to-advanced)
 - [==ikunalsingh.hashnode.dev: Dynamic Operations in Terraform with Functions - Use templatefile to dynamically generate a script==](https://ikunalsingh.hashnode.dev/dynamic-operations-in-terraform-with-functions) Streamline Your Infrastructure Management: Learn How to Perform Dynamic Operations in Terraform with Functions
 - [blog.gruntwork.io: How to use Terraform as a team](https://www.gruntwork.io/blog/how-to-use-terraform-as-a-team) Collaboration, coding guidelines, and workflow for Terraform projects
 - [kkamalesh117.medium.com: Terraform Variables & Providers (Part-1)](https://kkamalesh117.medium.com/terraform-variables-providers-c66f68747050)
@@ -310,7 +310,7 @@
 - [nedinthecloud.com: Replacing The Template Cloudinit Config Data Source](https://nedinthecloud.com/2022/01/18/replacing-the-template_cloudinit_config-data-source)
 - [==hashicorp.com: Testing HashiCorp Terraform==](https://www.hashicorp.com/blog/testing-hashicorp-terraform)
 - [==youtube: Stop using shared secrets! CI/CD authentication the proper way==](https://www.youtube.com/watch?v=sd2wuAVush4)
-- [blog.devgenius.io: Kubernetes on Proxmox with Terraform](https://blog.devgenius.io/kubernetes-on-proxmox-with-terraform-6880921af6e4)
+- [blog.devgenius.io: Kubernetes on Proxmox with Terraform](https://blog.devgenius.io/kubernetes-on-proxmox-with-terraform-6880921af6e4?gi=2e505c380289)
 - [medium.com/@orellanaluke: Terraform and the Art of Small: My Guide to Navigating Smarter, Safer State Management](https://medium.com/@orellanaluke/terraform-and-the-art-of-small-my-guide-to-navigating-smarter-safer-state-management-cd156533ccf7)
 - [==youtube.com: Terraform Basics | Ned in the Cloud==](https://www.youtube.com/playlist?list=PLXb5972EMl4BfKVDMaJH6Pg9SI6q_HqMg)
 - [youtube: How to Deploy an E-Commerce Website to AWS With Terraform || Terraform Hands-on Project | Tech with Helen](https://www.youtube.com/watch?v=iLgEK6A31HM)
@@ -318,12 +318,12 @@
 - [build5nines.com: Terraform: Code Project Organization Strategies (based on team, workload, or monolithic)](https://build5nines.com/terraform-code-project-organization-strategies-based-on-team-workload-or-monolithic)
 - [medium.com/@ebonyymonae: Terraform Basics](https://medium.com/@ebonyymonae/terraform-for-newbies-1f4c4bcd2ace)
 - [dev.to/grrywlsn: Self-service infrastructure as code](https://dev.to/grrywlsn/self-service-infrastructure-as-code-23bl)
-- [aws.plainenglish.io: The Automation Fellowship: Packer, Terraform, and Ansible — PART III](https://aws.plainenglish.io/the-automation-fellowship-packer-terraform-and-ansible-part-iii-73571ef103e1) Part 3: An explanation of three essential automation tools — Packer, Terraform, and Ansible.
+- [aws.plainenglish.io: The Automation Fellowship: Packer, Terraform, and Ansible — PART III](https://aws.plainenglish.io/the-automation-fellowship-packer-terraform-and-ansible-part-iii-73571ef103e1?gi=ccde134f6250) Part 3: An explanation of three essential automation tools — Packer, Terraform, and Ansible.
 - [youtube: Transforma tu EMPRESA con Terraform: Catálogo de Servicios | Nito Moreno](https://www.youtube.com/watch?v=IORvnr4u8z8)
 - [==shrihariharidas73.medium.com: Terraform & HashiCorp Vault Integration: Seamless Secrets Management==](https://shrihariharidas73.medium.com/terraform-hashicorp-vault-integration-seamless-secrets-management-46f41cf735f1)
 - [ccseyhan.medium.com: What Is Terraform Reusability and How to Achieve It](https://ccseyhan.medium.com/what-is-terraform-reusability-and-how-to-achieve-it-97d9565e394d)
 - [build5nines.com: Should .terraform.lock.hcl file be added to .gitignore or committed to Git repo?](https://build5nines.com/should-terraform-lock-hcl-file-be-added-to-gitignore-or-committed-to-git-repo)
-- [itnext.io: GitHub Actions: Terraform deployments with a review of planned changes](https://itnext.io/github-actions-terraform-deployments-with-a-review-of-planned-changes-30143358bb5c)
+- [itnext.io: GitHub Actions: Terraform deployments with a review of planned changes](https://itnext.io/github-actions-terraform-deployments-with-a-review-of-planned-changes-30143358bb5c?gi=7ad138aaff4c)
 - [medium.com/@prasadanilmore: The Magic of Visualizing Your Cloud Infrastructure: Real-time Terraform Visualization](https://medium.com/@prasadanilmore/the-magic-of-visualizing-your-cloud-infrastructure-real-time-terraform-visualization-c85ac0ca4933)
 - [build5nines.com: Terraform: How to for_each through a list(objects)](https://build5nines.com/terraform-how-to-for_each-through-a-listobjects)
 - [medium.com/netpremacy-global-services: The beginning of the end for Terraform?](https://medium.com/netpremacy-global-services/the-beginning-of-the-end-for-terraform-cfffcd2c5420)
@@ -506,7 +506,7 @@
   - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 - A comprehensive GitHub repository containing a free ebook on Terraform best practices, translated into multiple languages. It covers various aspects of writing and structuring Terraform code.
 
 - [github.com/ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices)
-- [globaldatanet.com: Terraform CI/CD Best Practices](https://globaldatanet.com/tech-blog/terraform-cicd-best-practices)
+- [globaldatanet.com: Terraform CI/CD Best Practices](https://www.x1f.one)
 - [==bridgecrew.io: Terraform security 101: Best practices for secure infrastructure as code== 🌟](https://bridgecrew.io/blog/terraform-security-101-best-practices-for-secure-infrastructure-as-code)
 - [medium.com/@ranjana-jha: Infrastructure as a code best practices : Terraform](https://medium.com/@ranjana-jha/infrastructure-as-a-code-best-practices-terraform-d7ae4291d621)
 - [sairamkrish.medium.com: Terraform — Best practices and project setup](https://sairamkrish.medium.com/terraform-best-practices-and-project-setup-1772ad04cf5e)
@@ -565,7 +565,7 @@
   - [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes) - *(Related to iac topic)*
   - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform) - *(Related to azure topic)*
   - [Application Network Security in Azure Subnets, Endpoints, DNS, NSGs with Terraform Code](https://medium.com/@codebob75/application-network-security-in-azure-subnets-endpoints-dns-nsgs-with-terraform-code-0bcabdb3a65b) - *(Related to azure topic)*
-  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51) - An article introducing 'The Maester', a Terraform module designed to manage various Kubernetes resources, simplifying their deployment and configuration.
+  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51?gi=4475c993bd52) - An article introducing 'The Maester', a Terraform module designed to manage various Kubernetes resources, simplifying their deployment and configuration.
 
 - [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
 - [hodovi.cc: Creating a Low Cost Managed Kubernetes Cluster for Personal Development using Terraform](https://hodovi.cc/blog/creating-low-cost-managed-kubernetes-cluster-personal-development-terraform)
@@ -575,7 +575,7 @@
 - [phillipsj.net: Dynamically Loaded Terraform Providers 🌟](https://www.phillipsj.net/posts/dynamically-loaded-terraform-providers) Have you ever been faced with some situations where you need information from your Terraform execution to configure a provider ? Like spinning up a kubernetes cluster and dynamically deploying to it with Terraform? Check this short article for more !
 - [hashicorp.com: Announcing Version 2.0 of the Kubernetes and Helm Providers for HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/announcing-version-2-0-kubernetes-and-helm-providers-for-hashicorp-terraform)
 - [hashicorp.com: Wait Conditions in the Kubernetes Provider for HashiCorp Terraform](https://www.hashicorp.com/blog/wait-conditions-in-the-kubernetes-provider-for-hashicorp-terraform)
-- [itnext.io: Terraform: don’t use kubernetes provider with your cluster resource! 🌟](https://itnext.io/terraform-dont-use-kubernetes-provider-with-your-cluster-resource-d8ec5319d14a)
+- [itnext.io: Terraform: don’t use kubernetes provider with your cluster resource! 🌟](https://itnext.io/terraform-dont-use-kubernetes-provider-with-your-cluster-resource-d8ec5319d14a?gi=0e0e7d4625b3)
 - [learnk8s.io/kubernetes-terraform: Creating Kubernetes clusters with Terraform](https://learnkube.com/kubernetes-terraform)
 - [blog.kasten.io: Working with Kubernetes and Terraform Part 1: Concepts Behind Terraform and Kubernetes](https://blog.kasten.io/concepts-behind-terraform-and-kubernetes)
 - [thenewstack.io: A Better Way to Provision Kubernetes Using Terraform](https://thenewstack.io/a-better-way-to-provision-kubernetes-using-terraform)
@@ -684,18 +684,18 @@
 - [aws.amazon.com: Save time with automated security checks of your Terraform scripts](https://aws.amazon.com/blogs/infrastructure-and-automation/save-time-with-automated-security-checks-of-terraform-scripts) Looking for a way to automate security checks of your Terraform scripts directly into your continuous integration and continuous delivery (CI/CD) pipeline? How about a way to view the results of those security checks and address issues before deployment, all with built-in notifications? Then check out our solution using Checkov, a static code analysis tool for flagging security and compliance problems.
 - [haque-zubair.medium.com: AWS API Gateway & Lambda with Terraform](https://haque-zubair.medium.com/aws-lambda-api-gateway-with-terraform-bd143b1c56bb)
 - [medium.com/@abhimanyubajaj98: Deploying Kubernetes from Scratch with Terraform: A Step-by-Step Guide](https://medium.com/@abhimanyubajaj98/deploying-kubernetes-from-scratch-with-terraform-a-step-by-step-guide-7d628910efd0)
-- [aws.plainenglish.io: Building AWS Infrastructure with Terraform Modules](https://aws.plainenglish.io/building-aws-infrastructure-with-terraform-modules-2cee480be24d) Also learn how to create an S3 backend for easy state file versioning
+- [aws.plainenglish.io: Building AWS Infrastructure with Terraform Modules](https://aws.plainenglish.io/building-aws-infrastructure-with-terraform-modules-2cee480be24d?gi=9e31cc7928c6) Also learn how to create an S3 backend for easy state file versioning
 - [khainas.dev: Create SSH tunnel in AWS with Terraform](https://khainas.dev/create-ssh-tunnel-in-aws-with-terraform-62d1f6968e5d) Or the adventures of the JUMP Instance
-- [faun.pub: Configuring a Highly Available Infrastructure in AWS using Terraform](https://faun.pub/configuring-a-highly-available-infrastructure-in-aws-using-terraform-2fc9dbb519b6)
-- [towardsaws.com: Terraform Basics: Creating Custom AWS VPC, Subnets, and Route Tables](https://towardsaws.com/terraform-basics-creating-custom-aws-vpc-subnets-and-route-tables-4e7075135e99)
+- [faun.pub: Configuring a Highly Available Infrastructure in AWS using Terraform](https://faun.pub/configuring-a-highly-available-infrastructure-in-aws-using-terraform-2fc9dbb519b6?gi=c790c3778b9f)
+- [towardsaws.com: Terraform Basics: Creating Custom AWS VPC, Subnets, and Route Tables](https://towardsaws.com/terraform-basics-creating-custom-aws-vpc-subnets-and-route-tables-4e7075135e99?gi=719f7373c4d6)
 - [medium.com/@anatoliydadashev: Terraform & AWS decoupled architecture](https://medium.com/@anatoliydadashev/terraform-aws-decoupled-architecture-9135df865310)
 - [dev.to: How to deploy a serverless website with Terraform](https://dev.to/aws-builders/how-to-deploy-a-serverless-website-with-terraform-5677)
-- [==towardsaws.com: Creating a Bastion Host for Secure Access to Your AWS Infrastructure with Terraform==](https://towardsaws.com/creating-a-bastion-host-for-secure-access-to-your-aws-infrastructure-with-terraform-17ee287bb3d)
+- [==towardsaws.com: Creating a Bastion Host for Secure Access to Your AWS Infrastructure with Terraform==](https://towardsaws.com/creating-a-bastion-host-for-secure-access-to-your-aws-infrastructure-with-terraform-17ee287bb3d?gi=6e2f0315bfe5)
 - [==github.com/aws-samples: AWS Service Catalog Engine for Terraform==](https://github.com/aws-samples/service-catalog-engine-for-terraform-os) The AWS Service Catalog Terraform Reference Engine (TRE) provides an example for you to configure and install a Terraform engine in your AWS Service Catalog administrator account. With the engine installed into your account, you can use Service Catalog as a single tool to organize, govern, and distribute your Terraform configurations within AWS.
 - [dev.to: Terraforming AWS RDS : Scaling Postgres](https://dev.to/yet_anotherdev/aws-rds-scaling-postgres-30ic)
 - [medium.com/aws-infrastructure: Create AWS VPC Infrastructure with Terraform](https://medium.com/aws-infrastructure/create-aws-vpc-infrastructure-with-terraform-308afed9fe31)
 - [numericaideas.com: Auto Scaling Group on AWS with Terraform](https://numericaideas.com/blog/auto-scaling-group-on-aws-with-terraform)
-- [aws.plainenglish.io: Terraform Hands-on Project](https://aws.plainenglish.io/terraform-hands-on-project-d2105bbc0c62) Day-66 Build Your Own AWS Infrastructure
+- [aws.plainenglish.io: Terraform Hands-on Project](https://aws.plainenglish.io/terraform-hands-on-project-d2105bbc0c62?gi=af48c2488c1c) Day-66 Build Your Own AWS Infrastructure
 - [devopscube.com: AWS Terraform Autoscaling Group With ALB Deployment Tutorial](https://devopscube.com/terraform-autoscaling-group)
 - [medium.com/cloud-native-daily: How to Securely Manage Terraform State File in AWS Using Terraform](https://medium.com/cloud-native-daily/how-to-securely-manage-terraform-state-file-in-aws-using-terraform-7c20b211c9cb) A step-by-step guide on how to securely manage, as well as share state files in AWS by using Terraform.
 - [dev.to/monarene: Dynamic Volume Provisioning in Kubernetes with AWS and Terraform](https://dev.to/monarene/dynamic-volume-provisioning-in-kubernetes-with-aws-and-terraform-3m6h) you'll learn about Persistent Volumes and how they are provisioned, managed, and configured in AWS. You'll compare Static and Dynamic volume provisioning, how they overlap, and which provisioning mechanism you should employ
@@ -704,8 +704,8 @@
 - [github.com/squareops/terraform-aws-vpc](https://github.com/squareops/terraform-aws-vpc) Terraform Module to create an AWS VPC network with VPN and configure Peering b/w multiple VPCs
 - [devxblog.hashnode.dev: Terraform with AWS](https://devxblog.hashnode.dev/terraform-with-aws)
 - [dev.to/aws-builders: Deploying a Containerized App to ECS Fargate Using a Private ECR Repo & Terragrunt](https://dev.to/aws-builders/deploying-a-containerized-app-to-ecs-fargate-using-a-private-ecr-repo-terragrunt-5b8a)
-- [blog.devops.dev: How to create an AWS sandbox account using terraform](https://blog.devops.dev/how-to-create-an-aws-sandbox-account-using-terraform-c3592a6d8abd)
-- [towardsaws.com: Automating Static Website Deployment: A Guide to CI/CD with AWS and Terraform](https://towardsaws.com/automating-static-website-deployment-a-guide-to-ci-cd-with-aws-and-terraform-bb6fcbae5667)
+- [blog.devops.dev: How to create an AWS sandbox account using terraform](https://blog.devops.dev/how-to-create-an-aws-sandbox-account-using-terraform-c3592a6d8abd?gi=439ef0e028a9)
+- [towardsaws.com: Automating Static Website Deployment: A Guide to CI/CD with AWS and Terraform](https://towardsaws.com/automating-static-website-deployment-a-guide-to-ci-cd-with-aws-and-terraform-bb6fcbae5667?gi=75a887d57206)
 - [youtube: Three tier architecture using Terraform in AWs](https://www.youtube.com/watch?v=3uDxwNOtilU)
 - [github.com/tokarev-artem/auto-ec2-setup](https://github.com/tokarev-artem/auto-ec2-setup) This project was created for automatic and 5 minutes setup ec2 instances for hosting php applications
 - [dev.to/chinmay13: AWS Networking with Terraform: VPC Transit Gateway between VPCs](https://dev.to/chinmay13/aws-networking-with-terraform-vpc-transit-gateway-between-vpcs-1ne4)
@@ -733,8 +733,8 @@
 - [github.com/maddevsio/aws-eks-base: Boilerplate for a basic AWS infrastructure with EKS cluster 🌟](https://github.com/maddevsio/aws-eks-base) This boilerplate contains the know-how of the Mad Devs team for the rapid deployment of a Kubernetes cluster, supporting services, and the underlying infrastructure in the Amazon cloud.
 - [github.com/aws-samples/aws-eks-accelerator-for-terraform: AWS EKS Accelerator for Terraform 🌟](https://github.com/aws-ia/terraform-aws-eks-blueprints) The AWS EKS Accelerator for Terraform is a framework designed to help deploy and operate secure multi-account, multi-region AWS environments. The power of the solution is the configuration file which enables the users to provide a unique terraform state for each cluster and manage multiple clusters from one repository.
 - [sebinxavi.medium.com: EKS cluster deployment using Terraform](https://sebinxavi.medium.com/eks-cluster-deployment-using-terraform-685c89b14f72)
-- [itnext.io: How to Design and Provision a Production-Ready EKS Cluster](https://itnext.io/how-to-design-and-provision-a-production-ready-eks-cluster-f24156ac29b2) A comprehensive guide to create and configure a production-grade Kubernetes cluster on AWS with Terraform, Helm, and other open-source tools.
-- [faun.pub: Building an EKS Fargate cluster with Terraform](https://faun.pub/building-an-eks-fargate-cluster-with-terraform-9736813e1196)
+- [itnext.io: How to Design and Provision a Production-Ready EKS Cluster](https://itnext.io/how-to-design-and-provision-a-production-ready-eks-cluster-f24156ac29b2?gi=b6f2b85de037) A comprehensive guide to create and configure a production-grade Kubernetes cluster on AWS with Terraform, Helm, and other open-source tools.
+- [faun.pub: Building an EKS Fargate cluster with Terraform](https://faun.pub/building-an-eks-fargate-cluster-with-terraform-9736813e1196?gi=986ed0be156b)
 - [medium.com/devgurus: Building production grade EKS clusters using Terraform](https://medium.com/devgurus/building-production-grade-eks-clusters-using-terraform-df016d239a54)
 - [medium.com/devops-mojo: Terraform — Provision Amazon EKS Cluster using Terraform](https://medium.com/devops-mojo/terraform-provision-amazon-eks-cluster-using-terraform-deploy-create-aws-eks-kubernetes-cluster-tf-4134ab22c594)
 - [dev.to: Creating an EKS Cluster and Node Group with Terraform](https://dev.to/aws-builders/creating-an-eks-cluster-and-node-group-with-terraform-1lf6)
@@ -751,11 +751,11 @@
     - 1 IAM role
     - 1 S3
 - [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) Terraform module which creates AWS EKS (Kubernetes) resources
-- [==itnext.io: Build EKS cluster with Terraform== 🌟](https://itnext.io/build-an-eks-cluster-with-terraform-d35db8005963) This post describes the creation of a multi-zone Kubernetes Cluster in AWS, using Terraform with some extra modules:
+- [==itnext.io: Build EKS cluster with Terraform== 🌟](https://itnext.io/build-an-eks-cluster-with-terraform-d35db8005963?gi=0ff5e22cd287) This post describes the creation of a multi-zone Kubernetes Cluster in AWS, using Terraform with some extra modules:
     - ExternalDNS
     - AWS Load Balancer controller
-- [faun.pub: Amazon EKS with Terraform and GitOps in minutes](https://faun.pub/aws-eks-with-terraform-and-gitops-in-minutes-b3ca33171209)
-- [awstip.com: Streamlining AWS EKS Cluster Volume Management with Helm and Terraform: EBS CSI Driver + Self-Managed AddOn Option](https://awstip.com/streamlining-aws-eks-cluster-volume-management-with-helm-and-terraform-ebs-csi-driver-78e1d51532ee) how to configure OIDC Provider as Identity Provider in AWS IAM Service and install the EKS EBS CSI Driver as a self-managed add-On using Terraform and Helm
+- [faun.pub: Amazon EKS with Terraform and GitOps in minutes](https://faun.pub/aws-eks-with-terraform-and-gitops-in-minutes-b3ca33171209?gi=39fa28e8bf5a)
+- [awstip.com: Streamlining AWS EKS Cluster Volume Management with Helm and Terraform: EBS CSI Driver + Self-Managed AddOn Option](https://awstip.com/streamlining-aws-eks-cluster-volume-management-with-helm-and-terraform-ebs-csi-driver-78e1d51532ee?gi=33ba8c562805) how to configure OIDC Provider as Identity Provider in AWS IAM Service and install the EKS EBS CSI Driver as a self-managed add-On using Terraform and Helm
 - [hewi.blog: Deploying an EKS cluster using Terraform](https://hewi.blog/deploying-an-eks-cluster-using-terraform) how to provision an EKS cluster using Terraform and deploy a demo application to test it
 - [platformwale.blog: Create Amazon EKS Cluster within its VPC using Terraform](https://platformwale.blog/2023/07/15/create-amazon-eks-cluster-within-its-vpc-using-terraform)
 - [medium.com/@ernestkwashie3: Provisioning Amazon Elastic Kubernetes Service (EKS) Cluster using Terraform](https://medium.com/@ernestkwashie3/provisioning-amazon-elastic-kubernetes-service-eks-cluster-using-terraform-5e07f1f0dc32)
@@ -824,7 +824,7 @@
 - [hlokensgard.no/knowledge-sharing: Miro Mind map over Azure Landing Zones element, Terraform modules, GitHub Code](https://hlokensgard.no/knowledge-sharing)
 - [learn.microsoft.com: Introduction to using Azure Verified Modules for Terraform](https://learn.microsoft.com/en-us/samples/azure-samples/avm-terraform-labs/avm-terraform-labs) - [github.com/azure-samples/avm-terraform-labs](https://github.com/azure-samples/avm-terraform-labs)
 - [thomasthornton.cloud: Enabling PostgreSQL flexible server logs and configuring a retention period using Terraform](https://thomasthornton.cloud/enabling-postgresql-flexible-server-logs-and-configuring-a-retention-period-using-terraform)
-- [awstip.com: Deploying Azure Infrastructure with Terraform](https://awstip.com/deploying-azure-infrastructure-with-terraform-e34046c65d0f)
+- [awstip.com: Deploying Azure Infrastructure with Terraform](https://awstip.com/deploying-azure-infrastructure-with-terraform-e34046c65d0f?gi=91abf4aaad19)
 - [build5nines.com: Terraform: Import Existing Azure Resources into State (.tfstate)](https://build5nines.com/terraform-import-existing-azure-resources-into-state-tfstate)
 - [build5nines.com: Terraform: Deploy Azure App Service with Key Vault Secret Integration](https://build5nines.com/terraform-deploy-azure-app-service-with-key-vault-secret-integration)
 - [build5nines.com: What is Azure Private Link and How to Deploy with Terraform](https://build5nines.com/what-is-azure-private-link-and-how-to-deploy-with-terraform)
@@ -857,7 +857,7 @@
 #### Terraform in Azure DevOps. Azure DevOps with terraform
 
 - [==adamtheautomator.com: How to Build Infrastructure with Terraform in Azure DevOps== 🌟](https://adamtheautomator.com/terraform-azure-devops)
-- [faun.pub: Azure DevOps: Deploying Azure Resources using Terraform](https://faun.pub/azure-devops-deploying-azure-resources-using-terraform-1f2fe46c6aa0) Infrastructure as Code | Terraform | Azure | Azure DevOps
+- [faun.pub: Azure DevOps: Deploying Azure Resources using Terraform](https://faun.pub/azure-devops-deploying-azure-resources-using-terraform-1f2fe46c6aa0?gi=b4aaeddd055a) Infrastructure as Code | Terraform | Azure | Azure DevOps
 - [==build5nines.com: Deploy Terraform using Azure DevOps YAML Pipelines==](https://build5nines.com/deploy-terraform-using-azure-devops-yaml-pipelines)
 - [==thomasthornton.cloud: Deploy Terraform using Azure DevOps==](https://thomasthornton.cloud/deploy-terraform-using-azure-devops)
 - [ibrahims.medium.com: Azure Terraform Pipeline — DevOps](https://ibrahims.medium.com/azure-terraform-pipeline-devops-b57005a37936)
@@ -881,7 +881,7 @@
 
 - [github.com/Azure/terraform-azurerm-aks](https://github.com/Azure/terraform-azurerm-aks) Terraform Module for deploying an AKS cluster
 - [learnk8s.io/terraform-aks 🌟](https://learnkube.com/terraform-aks)
-- [itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes Cluster in Azure](https://itnext.io/how-we-used-terraform-to-create-and-manage-a-ha-aks-kubernetes-cluster-in-azure-812f64896c08) Learn how to use Terraform to manage a highly-available Azure AKS Kubernetes cluster with Azure AD integration and Calico network policies enabled.
+- [itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes Cluster in Azure](https://itnext.io/how-we-used-terraform-to-create-and-manage-a-ha-aks-kubernetes-cluster-in-azure-812f64896c08?gi=2af27b81b616) Learn how to use Terraform to manage a highly-available Azure AKS Kubernetes cluster with Azure AD integration and Calico network policies enabled.
 - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
 - [github.com/kuhlman-labs/terraform-azurerm-landing-zone](https://github.com/kuhlman-labs/terraform-azurerm-landing-zone) A curated collection of Terraform azurerm modules
 - [hashicorp.com: Build a Quick AKS Cluster the Easy Way with Terraform Cloud 🌟](https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud)
@@ -1004,9 +1004,9 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
 - [offensive-terraform.github.io: Offensive Terraform Modules 🌟](https://offensive-terraform.github.io) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
 - [digitalocean.com: How To Build a Custom Terraform Module](https://www.digitalocean.com/community/tutorials/how-to-build-a-custom-terraform-module)
 - [thomasthornton.cloud: Writing reusable Terraform modules (azure)](https://thomasthornton.cloud/writing-reusable-terraform-modules)
-- [blog.devops.dev: Terraform Modules](https://blog.devops.dev/terraform-modules-db392bb7e950)
+- [blog.devops.dev: Terraform Modules](https://blog.devops.dev/terraform-modules-db392bb7e950?gi=4e0b23fd8610)
 - [dev.to: Terraform Modules for Advanced Users](https://dev.to/gofirefly/terraform-modules-for-advanced-users-4n56)
-- [blog.devops.dev: How to manage multiple environments with terraform with the use of modules?](https://blog.devops.dev/how-to-manage-multiple-environments-with-terraform-with-the-use-of-modules-d4ca512d7b4a)
+- [blog.devops.dev: How to manage multiple environments with terraform with the use of modules?](https://blog.devops.dev/how-to-manage-multiple-environments-with-terraform-with-the-use-of-modules-d4ca512d7b4a?gi=1927e5def71c)
 - [betterprogramming.pub: Reusable EC2 Instances Using Terraform Modules](https://betterprogramming.pub/reusable-ec2-instances-using-terraform-modules-59aac51f1fb) A guide to mastering EC2 restructuring
 
 ### Terraform AWS Modules
@@ -1136,7 +1136,7 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
 
 ## Terraform Associate Certification
 
-- [itnext.io: My Journey to HashiCorp Certified: Terraform Associate](https://itnext.io/my-journey-to-hashicorp-certified-terraform-associate-f91f397a01e0)
+- [itnext.io: My Journey to HashiCorp Certified: Terraform Associate](https://itnext.io/my-journey-to-hashicorp-certified-terraform-associate-f91f397a01e0?gi=60cc921e4714)
 - [medium.com/bb-tutorials-and-thoughts: 250 Practice Questions For Terraform Associate Certification](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
 - [tomwechsler/HashiCorp_Certified_Terraform_Associate](https://github.com/tomwechsler/HashiCorp_Certified_Terraform_Associate) All about HashiCorp Certified: Terraform Associate and exam preparation!
 
