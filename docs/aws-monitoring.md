@@ -46,4 +46,4 @@
 - [blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success](https://blogs.splunk.com/2016/06/22/aws-video)
 
 ## Service Topology and Dependency Mapping
-  - **(2026)** [From Silos to Service Topology: Why Netflix Built a Real-Time Service Map](https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4) 🌟 - Netflix details the architecture of Service Topology, a system that combines eBPF, IPC metrics, and distributed tracing to construct a real-time microservice dependency graph.
+  - **(2026)** [From Silos to Service Topology: Why Netflix Built a Real-Time Service Map](https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?gi=82dbd1ef7444&source=rss----2615bd06b42e---4) 🌟 - Netflix details the architecture of Service Topology, a system that combines eBPF, IPC metrics, and distributed tracing to construct a real-time microservice dependency graph.
