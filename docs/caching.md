@@ -69,7 +69,7 @@
     - [The Varnish Book](https://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
 - [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)
 - [Red Hat Developer Blog. Tag: Varnish](https://developerblog.redhat.com/tag/varnish)
-- [Red Hat Enterprise Linux Blog. Tag: Varnish](https://rhelblog.redhat.com/tag/varnish)
+- [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux)
 - [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html)
 - [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://www.hitch-tls.org)
 - [slideshare: Varnish - Tips & Tricks - 4Developers 2015](https:/https://www.slideshare.net/piotrpasich/varnish-47199139)
@@ -88,7 +88,7 @@
 - [Slideshare: Introduction to Redis](https:/https://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
 - [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/p/redis) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
-- [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce) how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
+- [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce?gi=131c0b8b3a24) how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
 - [medium.com/lightricks-tech-blog: Step by Step Guide: How to create a Dynamic Service Endpoint via K8S API](https://medium.com/lightricks-tech-blog/step-by-step-guide-how-to-create-a-dynamic-service-endpoint-via-k8s-api-1024309cb226) This article explains how to deploy Redis HA in Kubernetes and create a Service that always points to the master Redis. It also demonstrates how to interact with Kubernetes API from inside a pod using a script to update the endpoint dynamically.
 
 ## Nginx High-performance caching
