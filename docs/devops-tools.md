@@ -38,7 +38,7 @@
 - [ASDF 🌟](https://asdf-vm.com) Manage multiple runtime versions with a single CLI tool
 - [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools)
 - [zigiwave.medium.com: Top 10 Tools your DevOps Teams Should Use in 2022](https://zigiwave.medium.com/top-10-tools-your-devops-teams-should-use-in-2022-569700f40426)
-- [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3)
+- [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3?gi=ed880b09ddb6)
 - [medium.com/leapp-cloud: Top 10 uncommon DevOps tools you should know](https://medium.com/leapp-cloud/top-10-uncommon-devops-tools-you-should-know-91dadde9777e)
 - [medium.com/4th-coffee: 10 New DevOps Tools to Watch in 2023 🌟](https://medium.com/4th-coffee/10-new-devops-tools-to-watch-in-2023-e974dbb1f1bb)
 - [medium.com/4th-coffee: 10 Best DevOps Tools for Start-ups](https://medium.com/4th-coffee/10-best-devops-tools-for-start-ups-91eb69bc3128)
@@ -67,12 +67,12 @@
 - [Devtron](https://github.com/devtron-labs/devtron) is an Open Source End-to-End Software Delivery workflow for Kubernetes.
 - It leverages popular DevOps tools to provide a No-Code, ***Unified Heroku-like*** Experience for Kubernetes.
 - Integrations happen with existing Open-source systems like argocd, Argo workflow, Clair, hibernator, grafana, Prometheus, envoy, and many others and add capabilities on top of them to enable self serve for developers and DevOps.
-- [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1)
+- [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1?gi=74681532aab3)
 - [medium.com/cp-massive-programming: Deploying Devtron in a Local K8s Kind Cluster using Terraform](https://medium.com/cp-massive-programming/deploying-devtron-in-a-local-k8s-kind-cluster-using-terraform-cea9d4d9636) Short Hands-On guide on how to deploy Devtron in a local Kubernetes cluster created with kind and Terraform
 
 ## Codegiant
 
-- [codegiant.io: Build software faster](https://codegiant.io/home) Codegiant is a DevSecOps platform with built-in best practices that enables your team to deliver faster.
+- [codegiant.io: Build software faster](https://codegiant.io) Codegiant is a DevSecOps platform with built-in best practices that enables your team to deliver faster.
 
 ## CapabilityPE (capipe)
 
