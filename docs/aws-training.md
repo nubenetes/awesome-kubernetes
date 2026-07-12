@@ -15,7 +15,7 @@
     - [github.com/acantril/learn-cantrill-io-labs](https://github.com/acantril/learn-cantrill-io-labs)
     - [linkedin.com/pulse: So, you think you're an associate level Solutions Architect?](https://www.linkedin.com/pulse/so-you-think-youre-associate-level-solutions-adrian-cantrill)
 - [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing)
-- [acloudguru.com: 10 fun hands-on projects to learn AWS](https://www.pluralsight.com/cloud-guru/blog/engineering/10-fun-hands-on-projects-to-learn-aws)
+- [acloudguru.com: 10 fun hands-on projects to learn AWS](https://www.pluralsight.com/resources/blog/cloud/10-fun-hands-on-projects-to-learn-aws)
 - [portal.tutorialsdojo.com: AWS Digital Courses (free)](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2)
 - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws) There's probably nothing you can't build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.
 - [==explore.skillbuilder.aws/learn: AWS Skill Builder== 🌟](https://skillbuilder.aws) Your learning center to build in-demand cloud skills
