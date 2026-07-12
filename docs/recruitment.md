@@ -29,7 +29,7 @@
 - [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs)
 - [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 3,900 global remote workers share the good, bad, and unexpected of the new status quo
 - [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat)
-- [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers)
+- [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://web.archive.org/web/20210515000000/https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers)
 - [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job) Around the world, workers are quitting their jobs in record numbers – and bosses are still scrambling to figure out how to keep them
 - [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan) Employees are leaving their workplaces in record numbers in a wave named "#TheGreatResignation.”
 - [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)
@@ -293,7 +293,7 @@
 
 	![interviews getting harder](images/interviews_getting_harder.jfif)
 
-	[![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
+	[![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html)
 
 	![new job every 3 years](images/new_job_every_3_years.jfif)
 
