@@ -64,7 +64,7 @@
 ## OpenShift on Public Cloud
 
 - OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)
-- [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/dedicated) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
+- [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 - [Amazon Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws)
 - [OpenShift on Google Cloud](https://docs.cloud.google.com/compute/docs/containers)
 - [Microsoft Azure Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/azure)
@@ -201,11 +201,11 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ##### Deploying OpenShift 4.4 to VMware vSphere 7
 
-- [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/deploying-openshift-4.4-to-vmware-vsphere-7)
+- [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 <center markdown="1">
 
-[![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/deploying-openshift-4.4-to-vmware-vsphere-7)
+[![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 </center>
 <br/>
@@ -219,7 +219,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ## Security
 
-- [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599)
+- [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599?gi=140333d6ee28)
   
 ### How is OpenShift Container Platform Secured?
 
@@ -253,7 +253,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
     - [docs.openshift.com: Configuring network policy with OpenShift SDN](https://docs.openshift.com/container-platform/4.4/networking/configuring-networkpolicy.html)
-- [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/networkpolicies-and-microsegmentation)
+- [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/networkpolicies-and-microsegmentation)
 - [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://www.redhat.com/en/blog/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator)
 - [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 - [redhat.com: Network traffic control for containers in Red Hat OpenShift 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift)
@@ -275,13 +275,13 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 #### OpenShift Route and OpenShift Ingress
 
-- [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/kubernetes-ingress-vs-openshift-route)
+- [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route)
 - [cloud.ibm.com: OpenShift Ingress](https://cloud.ibm.com/docs/openshift?topic=openshift-ingress)
 
 #### OpenShift Egress
 
 - [Accessing External Services Using Egress Router](https://www.redhat.com/en/blog/accessing-external-services-using-egress-router)
-- [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/how-to-enable-static-egress-ip-in-ocp)
+- [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)
 - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options) Network security is a crucial part of any of Software as a Service type business. Read on to see how to implement OpenShift to create better network security.
 
 ## Openshift Compliant Docker Images
@@ -330,7 +330,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ## OpenShift Dedicated
 
-- [OpenShift Dedicated 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/products/dedicated)
+- [OpenShift Dedicated 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)
 - [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 
 ## Other Awesome Lists
