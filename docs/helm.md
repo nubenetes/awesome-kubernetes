@@ -45,7 +45,7 @@
 - [daveops.xyz: Running DB migrations on Kubernetes with Helm](https://daveops.xyz/en/2020/09/18/running-db-migrations-on-kubernetes-with-helm)
 - [mbbaig.blog: How to create custom Helm charts 🌟](https://mbbaig.blog/how-to-create-custom-helm-charts)
 - [dev.to: Introduction to Helm 🌟](https://dev.to/leading-edje/introduction-to-helm-50jl)
-- [itnext.io: Helm 3 Umbrella Charts & Standalone Chart Image Tags — An Alternative Approach](https://itnext.io/helm-3-umbrella-charts-standalone-chart-image-tags-an-alternative-approach-78a218d74e2d) Helm umbrella charts, for those who aren’t familiar, describe and encapsulate a deployable collection of loosely couple Kubernetes components as a higher-order Helm chart. In other words, a collection of software elements that each have their own individual charts but, for whatever reason (e.g. design choices, ease of deployability, versioning complexities), must be installed or upgraded as a since atomic unit.
+- [itnext.io: Helm 3 Umbrella Charts & Standalone Chart Image Tags — An Alternative Approach](https://itnext.io/helm-3-umbrella-charts-standalone-chart-image-tags-an-alternative-approach-78a218d74e2d?gi=7b0c708b161b) Helm umbrella charts, for those who aren’t familiar, describe and encapsulate a deployable collection of loosely couple Kubernetes components as a higher-order Helm chart. In other words, a collection of software elements that each have their own individual charts but, for whatever reason (e.g. design choices, ease of deployability, versioning complexities), must be installed or upgraded as a since atomic unit.
 - [rancher.com: Create Reproducible Security in Kubernetes with Helm 3 and Helm Charts](https://www.suse.com/c/rancher_blog/create-reproducible-security-in-kubernetes-with-helm-3-and-helm-charts)
 - [jfrog.com: Steering Straight with Helm Charts Best Practices 🌟](https://jfrog.com/blog/helm-charts-best-practices)
 - [rancher.com: Create Reproducible Security in Kubernetes with Helm 3 and Helm Charts](https://www.suse.com/c/rancher_blog/create-reproducible-security-in-kubernetes-with-helm-3-and-helm-charts)
@@ -64,7 +64,7 @@
 - [jasiek-petryk.medium.com: Setting up a private Helm chart repository on GitHub](https://jasiek-petryk.medium.com/setting-up-a-private-helm-chart-repository-on-github-4a767703cec8)
 - [betterprogramming.pub: How To Continuously Test and Deploy Your Helm Charts on Kubernetes Clusters Using Kind](https://betterprogramming.pub/how-to-continuously-test-and-deploy-your-helm-charts-on-kubernetes-clusters-using-kind-d71e3585d2dc) Set up your CI/CD tools to easily test and publish charts on ephemeral Kubernetes clusters
 - [blog.flant.com: Making the most out of Helm templates 🌟](https://palark.com/blog/advanced-helm-templating) The standard Helm library and traditional approaches to creating Helm charts are generally okay to automate non-complex tasks. But the growing complexity and number of Helm charts rapidly make the minimalistic Helm templates and controversial standard Helm library insufficient. we will show you how to make your Helm templates much more flexible and dynamic by implementing your own Helm “functions” and exploiting the capabilities of the tpl function.
-- [levelup.gitconnected.com: Helm 101 for Developers](https://levelup.gitconnected.com/helm-101-for-developers-1c28e734937e)
+- [levelup.gitconnected.com: Helm 101 for Developers](https://levelup.gitconnected.com/helm-101-for-developers-1c28e734937e?gi=123a51f04a56)
 - [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
 - [developers.redhat.com: Deploy Node.js applications to Red Hat OpenShift with Helm](https://developers.redhat.com/articles/2021/07/20/deploy-nodejs-applications-red-hat-openshift-helm)
 - [thenewstack.io: Upgrade Helm if You Don’t Want to Share Your Username and Password (Helm’s CVE-2021-32690) 🌟](https://thenewstack.io/upgrade-helm-if-you-dont-want-to-share-your-username-and-password)
@@ -89,7 +89,7 @@
 - [mlepeshkin.medium.com: Automated Kubernetes deployment with Helm and additional templating](https://mlepeshkin.medium.com/automated-kubernetes-deployment-with-helm-and-additional-templating-dc960689609f)
 - [==dev.to/francoislp: Post-mortem: 1h30 downtime on a Saturday morning==](https://dev.to/francoislp/post-mortem-1h30-downtime-on-a-saturday-morning-5af0) Read how 4 YAML lines brought down 3 APIs for 1h30 on a Saturday morning. In the end, the issue was a Helm chart misconfiguration where 2 settings were conflicting with each other.
 - [==blog.ediri.io: How To Unit Test Your Helm Charts==](https://blog.ediri.io/how-to-unit-test-your-helm-charts) With the help of helm-unittest and the AAA pattern
-- [==itnext.io: Reference Other Values in Helm Chart Values File==](https://itnext.io/reference-other-values-in-helm-chart-values-file-19d44d9276c7) Helm offers a template engine that allows you to merge configuration values into templates.the __"tpl" function to evaluate strings as templates to have even more flexibility in your values.yaml__
+- [==itnext.io: Reference Other Values in Helm Chart Values File==](https://itnext.io/reference-other-values-in-helm-chart-values-file-19d44d9276c7?gi=3ff4d2dab194) Helm offers a template engine that allows you to merge configuration values into templates.the __"tpl" function to evaluate strings as templates to have even more flexibility in your values.yaml__
 - [==medium.com/@percenuage: My adventure with Helm as GitOps in a distributed architecture==](https://medium.com/@percenuage/my-adventure-with-helm-as-gitops-in-a-distributed-architecture-6a6fdc6f11bd) some practical tips on how to manage your Helm charts and __GitOps__ workflows:
     - Common vs multiple Helm charts
     - Values YAML hierarchy
@@ -103,14 +103,14 @@
 - [dev.to: HULL Tutorial 01: Introducing HULL, the Helm Universal Layer Library](https://dev.to/gre9ory/hull-tutorial-01-introducing-hull-the-helm-universal-layer-library-4njb)
 - [==medium.com/codex: Simplifying Kubernetes Deployments With Helm Package Manager== 🌟](https://medium.com/codex/simplifying-kubernetes-deployments-with-helm-package-manager-bf834c51818d)
 - [==medium.com/geekculture: Helm — Advanced Commands== 🌟](https://medium.com/geekculture/helm-advanced-commands-9365097475b)
-- [levelup.gitconnected.com: Helm—Named Templates](https://levelup.gitconnected.com/helm-named-templates-de2efc3875d0) A deep dive into partial or subtemplates
-- [faun.pub: Helm — Template Actions, Functions, and Pipelines 🌟](https://faun.pub/helm-template-actions-functions-and-pipelines-16ed23ed336f) Overview of helm template actions, functions, and pipelines
+- [levelup.gitconnected.com: Helm—Named Templates](https://levelup.gitconnected.com/helm-named-templates-de2efc3875d0?gi=26acc0b65d45) A deep dive into partial or subtemplates
+- [faun.pub: Helm — Template Actions, Functions, and Pipelines 🌟](https://faun.pub/helm-template-actions-functions-and-pipelines-16ed23ed336f?gi=ab56fbd27d79) Overview of helm template actions, functions, and pipelines
 - [shipmight.com: Understanding Helm upgrade flags](https://shipmight.com/blog/understanding-helm-upgrade-reset-reuse-values) Every now and then you’ll need to use the `--reset-values` and `--reuse-values` flags when running a Helm upgrade. Let's dive into how they actually work and also look at a gotcha when the values of a chart have changed in-between upgrades
-- [==blog.devops.dev: Stop cloning helm charts! Enough!== 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7)
+- [==blog.devops.dev: Stop cloning helm charts! Enough!== 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7?gi=c2cad1327eb5)
 - [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)
 - [medium.com/gquiman: K8Studio, Helm and Kubernetes management](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c)
-- [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)
-- [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c) the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
+- [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c?gi=555cc235ace8)
+- [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c?gi=c6f5043e0d50) the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
 - [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)
 - [dev.to: Helm Release Time-To-Live(TTL)⏳💀 for Temporary Environments](https://dev.to/rtpro/helm-release-time-to-livettl-for-temporary-environments-1239) When working with Kubernetes, it’s often the case that you’ll need to create temporary environments/namespaces. You might need this as a way to limit the resources use, handle dev/staging environments, or just as a way to contain your tests while working on them. If you have used Helm before, you know that installing applications via Helm charts is simple by using the helm install command. The problem is that after installing a package, you or the user still needs to manually delete the package. With this in mind, we are going to explore how we set Time-To-Live Expiration for helm releases via the Helm release plugin, and create temporary Environments with Time-To-Live to make our lives easier with Helm.
 - [sysdig.com: Helm security and best practices](https://www.sysdig.com/blog/how-to-secure-helm)
@@ -120,13 +120,13 @@
 - [fenyuk.medium.com: Helm for Kubernetes. Datree for keeping cluster secure and healthy 🌟](https://fenyuk.medium.com/helm-for-kubernetes-datree-for-keeping-cluster-secure-and-healthy-6fbd10f0d958)
 - [fenyuk.medium.com: Helm for Kubernetes. GitOps with Argo CD 🌟](https://fenyuk.medium.com/helm-for-kubernetes-gitops-with-argo-cd-c8f80330596)
 - [medium.com/geekculture: HELM — How Release Information is Stored](https://medium.com/geekculture/helm-how-release-information-is-stored-778d7f0b7498) Advanced Helm usage
-- [levelup.gitconnected.com: Helm — Data Sharing Between Parent and Child Chart](https://levelup.gitconnected.com/helm-data-sharing-between-parent-and-child-chart-c4487a452d4e) Data exchange between parent and child chart in helm. you will explore a few strategies to share data between Helm charts:
+- [levelup.gitconnected.com: Helm — Data Sharing Between Parent and Child Chart](https://levelup.gitconnected.com/helm-data-sharing-between-parent-and-child-chart-c4487a452d4e?gi=4d1d07339bc1) Data exchange between parent and child chart in helm. you will explore a few strategies to share data between Helm charts:
     - Overriding values from a parent chart
     - Making child chart data available to the parent chart
     - Global chart values
     - Sharing templates with subcharts
 
-- [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423)
+- [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423?gi=e3b904bce1f6)
 - [medium.com/geekculture: Helm Chart Wait for All Dependencies Before Starting Kubernetes Pods](https://medium.com/geekculture/helm-chart-wait-for-all-dependencies-before-starting-kubernetes-pods-cc0a3ddbf02b) Improve the quality of your helm charts by supporting wait for dependencies feature
 - [blog.knell.it: Making your Helm Chart observable for Prometheus](https://christianhuth.de/making-your-helm-chart-observable-for-prometheus) In this blog post, I walk you through the various steps required to make an existing Helm chart observable by Prometheus.
 - [==mattias.engineer/courses/kubernetes/helm: Kubernetes-101: Helm== 🌟](https://mattias.engineer/courses/kubernetes/helm)
@@ -144,7 +144,7 @@
 - [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)
 - [Frigate](https://frigate.readthedocs.io/en/latest) is a tool for automatically generating documentation for your Helm charts. It will use the chart’s Chart.yaml and values.yaml files in order to generate the content in a markup language of your choice.
 - [rafay.co: Helm Chart Hooks Tutorial](https://rafay.co/ai-and-cloud-native-blog/helm-chart-hooks-tutorial)
-- [itnext.io: Helm: reusable chart — named templates, and a generic chart for multiple applications](https://itnext.io/helm-reusable-chart-named-templates-and-a-generic-chart-for-multiple-applications-13d9b26e9244) Designing reusable chart with Helm:  named templates, and a generic chart for multiple applications
+- [itnext.io: Helm: reusable chart — named templates, and a generic chart for multiple applications](https://itnext.io/helm-reusable-chart-named-templates-and-a-generic-chart-for-multiple-applications-13d9b26e9244?gi=ed6ec1dbc663) Designing reusable chart with Helm:  named templates, and a generic chart for multiple applications
 - [thenewstack.io: Applying Kubernetes Security Best Practices to Helm Charts 🌟](https://thenewstack.io/applying-kubernetes-security-best-practices-to-helm-charts)
 - [medium: Highway to Helm: How to efficiently manage chart sources](https://medium.com/adevinta-tech-blog/highway-to-helm-how-to-efficiently-manage-chart-sources-f5749ba8031e) we’ll go through two ways to manage the source files of Helm charts, we’ll discuss the different factors that make one more suitable than the other, depending on your organisational structure, and we’ll provide guidance on choosing the right way to go by sharing what conditions are in favour of each of the two methods.
 - [helm-docs](https://github.com/norwoodj/helm-docs) The `helm-docs` tool auto-generates documentation from helm charts into markdown files. The resulting files contain metadata about their respective chart and a table with each of the chart's values, their defaults, and an optional description parsed from comments.
@@ -152,7 +152,7 @@
 ## Helm Dashboard
 
 - [medium.com/geekculture: K8s — Helm Dashboard](https://medium.com/geekculture/k8s-helm-dashboard-d7509c5fee88) The missing UI of Helm
-- [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2)
+- [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2?gi=73dcdae80b54)
 - [github.com/komodorio/helm-dashboard 🌟](https://github.com/komodorio/helm-dashboard) The Helm Dashboard plugin offers a UI-driven way to view the installed Helm charts, and see their revision history and corresponding Kubernetes resources. Also, you can perform simple actions like roll back to a revision or upgrade to a newer version
 
 ## Kubecrt
@@ -169,15 +169,15 @@
 
 ## Helm Charts repositories
   - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) - *(Related to prometheus topic)*
-  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) 🌟 - This article explains how to automate Kubernetes deployments using Helm charts. It covers the creation of Helm charts, their structure, and how to use them for consistent and repeatable application deployments in Kubernetes environments.
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5?gi=c9d378207430) 🌟 - This article explains how to automate Kubernetes deployments using Helm charts. It covers the creation of Helm charts, their structure, and how to use them for consistent and repeatable application deployments in Kubernetes environments.
 
 - [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts)
-- [hub.helm.sh 🌟](https://hub.helm.sh) -> [artifacthub.io 🌟](https://artifacthub.io) Find, install and publish
+- [hub.helm.sh 🌟](https://artifacthub.io) -> [artifacthub.io 🌟](https://artifacthub.io) Find, install and publish
 Kubernetes packages
     - [New Location For Stable and Incubator Charts](https://helm.sh/blog/new-location-stable-incubator-charts)
     - [charts.helm.sh/stable 🌟](https://charts.helm.sh/stable)
     - [charts.helm.sh/incubator 🌟](https://charts.helm.sh/incubator)
-- [Bitnami Helm Charts](https://bitnami.com/stacks?stack=helm)
+- [Bitnami Helm Charts](https://bitnami.com/home)
 - [JFrog ChartCenter](https://chartcenter.io)
 - [Artifact Hub 🌟](https://artifacthub.io) Find, install and publish Kubernetes packages
 - [KubeApps Hub](https://kubeapps.dev)
@@ -190,7 +190,7 @@ Kubernetes packages
 - [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins)
 - [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts) Helm 3 compliant (Simpler and more secure than helm 2)
 - [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
-- [Choerodon Nexus3 🌟](https://artifacthub.io/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
+- [Choerodon Nexus3 🌟](https://artifacthub.io/packages/helm/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
 - [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
 - [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
 - [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
@@ -214,7 +214,7 @@ Kubernetes packages
 
 ## Database Migrations
 
-- [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805)
+- [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805?gi=6fa3ad57a5bf)
 
 ## Helm Tools
   - [Nelm: A Helm Alternative for Kubernetes Deployments](https://github.com/werf/nelm) - Nelm is a Kubernetes deployment tool designed as a modern alternative to Helm. It aims to address long-standing issues in Helm and introduce new features, managing Helm Charts and facilitating their deployment to Kubernetes.
