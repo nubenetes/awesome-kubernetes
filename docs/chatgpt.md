@@ -84,7 +84,7 @@
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) - *(Related to cicd topic)*
 
 - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
-- [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
+- [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=79a3a79d2753)
 - [numerous.ai](https://numerous.ai) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.
 - [chat.openai.com/g/g-6eSNNNvsB-kubernetes-terraformer: Kubernetes Terraformer](https://chatgpt.com/g/g-6eSNNNvsB-kubernetes-terraformer) Converts Kubernetes YAML to Terraform HCL, extracting key variables. By Mark Tinderholt
 
