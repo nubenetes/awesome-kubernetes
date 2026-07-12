@@ -48,17 +48,17 @@
 ### Java on Kubernetes. Java Memory Arguments for Containers
 
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)
-- [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.
+- [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58?gi=c77909b80243) Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.
 - [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.
 - [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43) you'll discuss JVM warmup issues, high heap memory utilisation and how those affect Java apps deployed in Kubernetes. You'll then learn how to work around them.
-- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.
+- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6?gi=4c2824304439) Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.
 - [medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container](https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46)
-- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) How to use the Kubernetes memory requests and limits in combination with JVM Heap and stay out of trouble.
+- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6?gi=4c2824304439) How to use the Kubernetes memory requests and limits in combination with JVM Heap and stay out of trouble.
 - [medium.com/@sharprazor.app: Memory settings for Java process running in Kubernetes pod](https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64) Managing the memory usage of a Java process running in a Kubernetes pod is more challenging than one might expect. Even with proper JVM memory configurations, OOMKilled issues can still arise and you wonder why.
     - There is no way to guarantee the complete memory bundary of a Java process since the JVM respects only the heap size limit; not non-heap memory, which will depend on various factors. Start with a 75% ratio of heap to non-heap memory, and keep a close watch on how your memory behaves. If things get out of hand, you can tweak your pod’s memory limits or fiddle with the heap-to-non-heapratio to dodge the OOMKilled mishaps.
 - [==medium.com/codex: Running JVM Applications on Kubernetes: Beyond java -jar==](https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34) **Discover some important tips about running JVM applications in containerized environments orchestrated by Kubernetes.** The article provides essential tips for optimizing JVM applications running on Kubernetes, focusing on ergonomics, memory sizing, CPU overbooking, and HPA configuration
 - [lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes](https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf)
-- [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)
+- [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff?gi=07ee3c600473)
     - Learn how to debug CPU utilization issues in a Java app using asynchronous programming techniques like CompletableFuture
     - Discover how to identify and resolve CPU bottlenecks using JVM arguments and container resource allocation
     - Another workaround for this issue was to set the “-XX: ActiveProcessorCount” JVM argument to the number of cores that are allocated to the java container. We found this recommendation in a comment on the openjdk issue tracker. The application team validated this and the central Load Tests were run with this workaround. Post the load tests, the application team upgraded the java version to 17 where these issues were already resolved.
@@ -92,7 +92,7 @@ etc|N/A
 - [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers)
 - [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift)
 - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) If you've tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here's how to fix it.
-- [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d)
+- [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d?gi=56dfdcca2ad5)
 - [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers)
 
 ### Debugging java applications on OpenShift and Kubernetes
@@ -119,13 +119,13 @@ etc|N/A
 
 ## Garbage Collection and Heap Offloading
 
-- [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](https://ehcache.org)
+- [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](https://www.ehcache.org)
 - [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal)
-- [Free eGuide: JVM Troubleshooting Guide](https://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html)
+- [Free eGuide: JVM Troubleshooting Guide](https://freepromagazine.blogspot.com/2014/07/free-eguide-jvm-troubleshooting-guide.html)
 - [Cambios importantes en la gestión de memoria de Java 8 de Oracle](https://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8)
 - [PermGen eliminado](https://www.infoq.com/articles/Java-PERMGEN-Removed)
 - [On heap vs off heap memory usage](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)
-- [How Garbage Collection differs in the three big JVMs](https://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms)
+- [How Garbage Collection differs in the three big JVMs](https://www.dynatrace.com/news/blog/how-garbage-collection-differs-in-the-three-big-jvms/)
 - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)we will try to understand the Java memory model and how garbage collection works.I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.
 - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) When you aren't using objects, but they aren't touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.
 - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)
