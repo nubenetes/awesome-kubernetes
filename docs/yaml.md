@@ -34,18 +34,18 @@
 - [abhisheksaini.hashnode.dev: YAML For Data Representation?](https://abhisheksaini.hashnode.dev/yaml-for-representation) YAML is a better option than JSON when comes to representation of Data
 - [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files)
 - [opensource.com: Make YAML as easy as it looks](https://opensource.com/article/21/9/yaml-cheat-sheet) YAML looks simple so why is it so hard to write? Learn the two secrets to YAML success.
-- [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9) Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.
+- [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9?gi=d99ca1ea538c) Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.
 - [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml)
-- [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab) This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.
+- [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab?gi=0b4a9f33e4e1) This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.
 - [==realpython.com: YAML: The Missing Battery in Python==](https://realpython.com/python-yaml) Python lacks built-in support for the YAML data format, commonly used for configuration and serialization, despite clear similarities between the two languages. you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on PyYAML.
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 - [==spacelift.io/blog/yaml==](https://spacelift.io/blog/yaml) YAML Tutorial : A Complete Language Guide with Examples
 - [ruudvanasseldonk.com: The yaml document from hell](https://ruuda.nl/2023/the-yaml-document-from-hell)
-- [itnext.io: Python, YAML, and Kubernetes — The Art of Mastering Configuration](https://itnext.io/python-yaml-and-kubernetes-the-art-of-mastering-configuration-cd60029b3f62) A practical guide to simplifying Kubernetes configuration management with Python and YAML
+- [itnext.io: Python, YAML, and Kubernetes — The Art of Mastering Configuration](https://itnext.io/python-yaml-and-kubernetes-the-art-of-mastering-configuration-cd60029b3f62?gi=da5fc9ffb33a) A practical guide to simplifying Kubernetes configuration management with Python and YAML
 
 ### K8s YAML tips
 
-- [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81)
+- [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81?gi=14d66399955b)
 
 ### YAML anchors and aliases
 
@@ -81,7 +81,7 @@
 - [==onlineyamltools.com== 🌟](https://onlineyamltools.com)
 - [avencera/yamine](https://github.com/avencera/yamine) A simple CLI for combining json and yaml files
 - [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
-- [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45) - [ref2 at hackernoon.com](https://hackernoon.com/how-to-create-kubernetes-yaml-files)
+- [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45?gi=fa18b98704bb) - [ref2 at hackernoon.com](https://hackernoon.com/how-to-create-kubernetes-yaml-files)
 - [datree.io](https://www.datree.io) Prevent Kubernetes Misconfigurations From Reaching Production
     - [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 - [23andMe/Yamale](https://github.com/23andMe/Yamale) A schema and validator for YAML. Ensure that your schema definitions come from internal or trusted sources. Yamale does not protect against intentionally malicious schemas.
@@ -151,7 +151,7 @@
     - **Built-in checkers**: Tools in this category bundle opinionated checks for security, best practices, etc.
     - **Custom validators**: Tools in this category allow writing custom checks in several languages such as Rego and Javascript.
 - [Validating Kubernetes YAML for best practice and policies 🌟](https://learnkube.com/validating-kubernetes-yaml) and compare six different tools:
-    - [Kubeval](https://teresaforcades.com/pensament/medicina.html)
+    - [Kubeval](https://liveslot168-rtpp.cyou/ls168-fld)
     - [Kube-score 🌟](https://github.com/zegl/kube-score) **Kubernetes object analysis with recommendations for improved reliability and security. kube-score is a opensource tool that performs static code analysis of Kubernetes object definitions. The output is a list of recommendations where one can improve to make application more secure and resilient.**
     - [Config-lint](https://stelligent.github.io/config-lint)
     - [Copper](https://github.com/cloud66-oss/copper)
