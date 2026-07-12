@@ -61,7 +61,7 @@
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops) LLMOps: MLOps for Large Language Models
 - [github.com/mlabonne/llm-course](https://github.com/mlabonne/llm-course) Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
-- [itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes](https://itnext.io/deploy-flexible-and-custom-setups-with-anything-llm-on-kubernetes-a2b5687f2bcc) Step-by-Step Guide to Deploy Anything LLM with OpenAI, Azure AI, and Ollama
+- [itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes](https://itnext.io/deploy-flexible-and-custom-setups-with-anything-llm-on-kubernetes-a2b5687f2bcc?gi=6ae60398d669) Step-by-Step Guide to Deploy Anything LLM with OpenAI, Azure AI, and Ollama
 
 ## The MAD (ML/AI/Data) Landscape
   - [Ignore Prior Instructions: AI Still Befuddled by Basic Reasoning](https://thenewstack.io/ignore-prior-instructions-ai-still-befuddled-by-basic-reasoning) - An article discussing the limitations of current AI models, particularly their struggles with understanding and acting upon explicit instructions and basic reasoning, even when the instructions are clear. It highlights how AI can still be 'befuddled' by simple logical tasks.
