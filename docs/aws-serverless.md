@@ -5,12 +5,12 @@
 
 ## Introduction
 
-- [you can use Python with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
+- [you can use Python with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/python-package.html)
 - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](https://www.giantflyingsaucer.com/blog/?p=5730)
 - [AWS Lambda, Echo, and the Future of Cloud Automation](https://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
 - [Serverless: The Future of Software Architecture?](https://acg-notice.pluralsight.com)
 - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)
-- [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/limits.html)
+- [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda](https://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
@@ -47,10 +47,10 @@
 - [aws.amazon.com: Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC)](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac)
 - [aws.amazon.com: Understanding AWS Lambda scaling and throughput](https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput)
 - [How to enforce user quota on AWS AppSync with Lambda Authorizer](https://aws.amazon.com/blogs/mobile/how-to-enforce-user-quota-on-aws-appsync-with-lambda-authorizer) API Quotas define the valid amount of calls available for a consumer during a specific amount of time. Enforcing quotas protects your API from unintentional abuse, minimizes data exfiltration and protects your resources from excessive usage. Beyond the mentioned security benefits, it can also unlock your capabilities to monetize the digital assets sitting behind the API.
-- [aws.plainenglish.io: Let's design a serverless ETL pipeline with AWS services](https://aws.plainenglish.io/lets-design-a-serverless-etl-pipeline-with-aws-services-9ab88c95afd4)
+- [aws.plainenglish.io: Let's design a serverless ETL pipeline with AWS services](https://aws.plainenglish.io/lets-design-a-serverless-etl-pipeline-with-aws-services-9ab88c95afd4?gi=43eba997dfd2)
 - [theserverlessmindset.com: Choosing the Best Database for Your Serverless Project](https://www.theserverlessmindset.com/p/best-serverless-database) It comes down to a few options, and one of them is the best (but your prior experience may change that)
 - [aidansteele/secretsctx](https://github.com/aidansteele/secretsctx) secretsctx is a Lambda extension (packaged as a Lambda layer) that injects secret values from AWS Parameter Store and AWS Secrets Manager into your Lambda function's invocation "context".
-- [faun.pub: Serverless With Spring Boot & AWS Lambda](https://faun.pub/serverless-with-spring-boot-aws-lambda-bc76c1de2b12)
+- [faun.pub: Serverless With Spring Boot & AWS Lambda](https://faun.pub/serverless-with-spring-boot-aws-lambda-bc76c1de2b12?gi=11421b274b13)
 - [aws.amazon.com: New – Accelerate Your Lambda Functions with Lambda SnapStart](https://aws.amazon.com/blogs/aws/new-accelerate-your-lambda-functions-with-lambda-snapstart)
 - [infoworld.com: AWS Lambda kickstarts Java functions](https://www.infoworld.com/article/2337529/aws-lambda-kickstarts-java-functions.html) AWS Lambda SnapStart cuts Java startup times by initializing Java functions ahead of time and caching a snapshot of the initialized execution environment.
 - [medium.com/@dan.avila7: Prueba tus proyectos serverless de forma local con serverless-offline](https://medium.com/@dan.avila7/prueba-tus-proyectos-serverless-de-forma-local-con-serverless-offline-2e555f2b5e9b) En este artículo veremos como instalar y configurar el plugin serverless-offline con sls framework para realizar pruebas locales de las funciones lambda antes de realizar el deploy en AWS.
@@ -60,7 +60,7 @@
 - [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)
 - [medium.com/lego-engineering: A Journey into Serverless and Handling Step Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99) Have you ever wondered how you would handle failures in your AWS Step Functions? And what benefits would a robust failure-handling system have?
 - [dev.to/aws-builders: Introduction to AWS SAM (Serverless Application Model)](https://dev.to/aws-builders/introduction-to-aws-sam-serverless-application-model-12oc)
-- [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236)
+- [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236?gi=de5362b73d03)
 - [medium.com/@sassenthusiast: Serverless Simplified: Integrating Docker Containers into AWS Lambda via serverless.yml](https://medium.com/@sassenthusiast/serverless-simplified-integrating-docker-containers-into-aws-lambda-via-serverless-yml-cdef9be1681e)
 
 ## AWS Fargate
