@@ -91,7 +91,7 @@
 - [github.com/iximiuz: Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering) List of awesome tools to tinker with containers.
 - [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) This repository provides a working, deployable, open source based, AWS Lambda handler and CDK Python code. This handler embodies Serverless best practices and has all the bells and whistles for a proper production ready handler.
 - [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) A collection of tools to improve your containerized apps security posture
-- [steveazz/awesome-slo: Awesome SLOs](https://github.com/steve-mt/awesome-slo) A curated list of useful resources for SLIs/SLOs
+- [steveazz/awesome-slo: Awesome SLOs](https://github.com/stevedotmt/awesome-slo) A curated list of useful resources for SLIs/SLOs
 - [github.com/Noovolari/awesome-cloudops: Awesome CloudOps](https://github.com/Noovolari/awesome-cloudops) A curated list of tools and best practices for CloudOps
 - [github.com/collections/learn-to-code 🌟](https://github.com/collections/learn-to-code)
 - [github.com/palark/awesome-devops-telegram: Awesome DevOps Telegram](https://github.com/palark/awesome-devops-telegram) A curated list of public Telegram channels and groups (chats) dedicated to DevOps, SRE, and Platform Engineering. English language only.
@@ -229,7 +229,7 @@
 - Awesome Go:
     - [Awesome Go](https://github.com/avelino/awesome-go)
         - [awesome-go.com](https://awesome-go.com)
-        - [==golangrepo.com== 🌟](https://golangrepo.com) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
+        - [==golangrepo.com== 🌟](https://pkg.go.dev) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
     - [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
     - [nleiva/go-links](https://github.com/nleiva/go-links)
 - Awesome .NET Core:
