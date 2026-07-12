@@ -107,9 +107,9 @@
 - [Distributed Load Testing on AWS 🌟](https://docs.aws.amazon.com/solutions/distributed-load-testing-on-aws)
     - [amazon.com: Introducing Distributed Load Testing v1.3](https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3)
 - [Locust](https://locust.io) An open source load testing tool. Define user behaviour with Python code, and swarm your system with millions of simultaneous users.
-- [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea)
+- [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea?gi=dc2fd1e0aa40)
 - [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema)
-- [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
+- [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3?gi=326e8f3237d5)
 - [==Iter8==](https://iter8.tools) Kubernetes Release Optimizer
     - [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos) Iter8’s command-line interface (CLI) makes it simple and easy to set up load tests for HTTP services with SLO specifications, verify that the target service meets the SLOs, and create a visual report of the load test.
 - [tsenart/vegeta 🌟](https://github.com/tsenart/vegeta) HTTP load testing tool and library. It's over 9000! Vegeta is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
