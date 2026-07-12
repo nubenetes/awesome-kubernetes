@@ -112,7 +112,7 @@
   - [DevOps Roadmap for 2026](https://github.com/milanm/DevOps-Roadmap) - *(Related to devops topic)*
   - [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker) - *(Related to container-managers topic)*
   - [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide) - *(Related to jenkins topic)*
-  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5) - *(Related to helm topic)*
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5?gi=c9d378207430) - *(Related to helm topic)*
   - [useHooks - React Hooks Library](https://usehooks.com) - *(Related to javascript topic)*
 
 ### Neptune
