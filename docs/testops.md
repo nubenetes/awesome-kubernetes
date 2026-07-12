@@ -16,7 +16,7 @@
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [xeridia.co.uk: Benefits of Test-Driven Development in DevOps Environments](https://www.xeridia.co.uk/blog/benefits-test-driven-development-devops-environments)
 - [softwarebusinessgrowth.com: Parallel System Validation – The End Of DevOps](https://www.varinsights.com/doc/parallel-system-validation-the-end-of-devops-0001)
-- [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)
+- [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791?gi=902871e1fce5)
 - [gcreddy.com: Domain Knowledge for Software Testers](https://www.gcreddy.com/2016/06/domain-knowledge-for-testers.html)
 - [==blog.gurock.com: What Is DevTestOps?==](https://www.testrail.com/blog/what-is-devtestops)
 
