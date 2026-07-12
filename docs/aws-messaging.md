@@ -8,7 +8,7 @@
 ## AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service
 
 - [dev.to: Getting started with SNS and SQS](https://dev.to/aws-builders/getting-started-with-sns-and-sqs-3m4i)
-- [Limits in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
+- [Limits in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-quotas.html)
 - [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs)
 - The **Simple Notification Service**, or SNS for short, is one of the central services to build serverless architectures in the AWS cloud. SNS itself is a serverless messaging service that can distribute massive numbers of messages to different recipients. These include mobile end-user devices, like smartphones and tablets, but also other services inside the AWS ecosystem.
 - SNS’ ability to target AWS services makes it the perfect companion for AWS Lambda. If you need custom logic, go for Lambda; if you need to fan out messages to multiple other services in parallel, SNS is the place to be.
@@ -23,7 +23,7 @@
 
 - https://aws.amazon.com/eventbridge
 - [==Building an event-driven application with Amazon EventBridge==](https://aws.amazon.com/blogs/compute/building-an-event-driven-application-with-amazon-eventbridge) **“In event-driven architecture, each component of the application raises an event whenever anything changes. Other components listen and decide what to do with it and how they would like to react.”** – by @talia_nassi
-- [faun.pub: Implementing Event Driven Architecture With AWS EventBridge — Event-Driven Messaging Pattern](https://faun.pub/implementing-event-driven-architecture-with-aws-eventbridge-event-driven-messaging-pattern-9d29262bfade)
+- [faun.pub: Implementing Event Driven Architecture With AWS EventBridge — Event-Driven Messaging Pattern](https://faun.pub/implementing-event-driven-architecture-with-aws-eventbridge-event-driven-messaging-pattern-9d29262bfade?gi=da1a028e34c2)
 
 ## Tweets
 
