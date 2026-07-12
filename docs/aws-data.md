@@ -6,15 +6,15 @@
 
 ## Introduction
 
-- [aws.amazon.com/big-data](https://aws.amazon.com/big-data)
-- [blogs.aws.amazon.com/bigdata](https://blogs.aws.amazon.com/bigdata)
+- [aws.amazon.com/big-data](https://aws.amazon.com/big-data/datalakes-and-analytics)
+- [blogs.aws.amazon.com/bigdata](https://aws.amazon.com/blogs/big-data)
 - [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](https://aws.amazon.com/blogs/big-data/querying-amazon-kinesis-streams-directly-with-sql-and-spark-streaming)
-- [Using Spark SQL for ETL](https://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
+- [Using Spark SQL for ETL](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)
 - [whizlabs.com: AWS Kinesis vs Kafka Apache](https://www.whizlabs.com/blog/kinesis-vs-kafka)
 
 ## AWS Data Lake
 
-- [Building a Data Lake on AWS](https://aws.amazon.com/big-data/datalakes-and-analytics/data-lake-on-aws) AWS provides a highly scalable, flexible, secure, and cost-effective solution for your organization to build a Data Lake – a data repository for both structured and unstructured data that is designed to be easily accessible for on-demand data analytics enabling you to answer questions as they arise.
+- [Building a Data Lake on AWS](https://aws.amazon.com/big-data/datalakes-and-analyticsdata-lake-on-aws) AWS provides a highly scalable, flexible, secure, and cost-effective solution for your organization to build a Data Lake – a data repository for both structured and unstructured data that is designed to be easily accessible for on-demand data analytics enabling you to answer questions as they arise.
 
 ## AWS Data Pipeline (aka Big Data Pipelines or Data Streams)
 
