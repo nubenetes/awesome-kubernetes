@@ -23,7 +23,7 @@
 - [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional)
 - [christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve your Microsft Excel skills?](https://christianmartinezfinancialfox.medium.com/how-to-use-chatgpt-to-improve-your-microsft-excel-skills-41817b6465df)
 - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code) With so many AI-powered assistants waiting to be explored, we've now entered the phase where excited coders are trying their own homegrown experiments — and sharing the results online.
-- [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr)
+- [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr/?vgo_ee=B2LdcAisW0USe2SGa2vXHre1CBHAV46fMWfE8WyurkkB6VgMfZXDQKUXblBhWFcECgnLTLVKPEO6MgjAd9gfe)
 
 ## TableauGPT
 
@@ -84,7 +84,7 @@
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) - *(Related to cicd topic)*
 
 - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
-- [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
+- [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=8c462b0d4aa3)
 - [numerous.ai](https://numerous.ai) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.
 - [chat.openai.com/g/g-6eSNNNvsB-kubernetes-terraformer: Kubernetes Terraformer](https://chatgpt.com/g/g-6eSNNNvsB-kubernetes-terraformer) Converts Kubernetes YAML to Terraform HCL, extracting key variables. By Mark Tinderholt
 
