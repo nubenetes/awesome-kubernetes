@@ -91,7 +91,7 @@
 - [SLOconf](https://www.sloconf.com) The first SLO Conference for Site Reliability Engineers
 - [thenewstack.io: Automate User Satisfaction with This GitOps-Friendly Spec for Service Level Objectives](https://thenewstack.io/automate-user-satisfaction-with-this-gitops-friendly-spec-for-service-level-objectives) Organizations looking to tighten up their ops with some site reliability engineering (SRE) should take a look at the recently-released OpenSLO specification, a GitOps-friendly template for establishing Service Level Objectives (SLO) to specify and even enforce the range of reliability required (and afforded) for a system.
 - [sre.google: The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos)
-- [blog.acethecloud.com: A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for Your IT Services](https://blog.acethecloud.com/a-step-by-step-guide-to-calculating-slas-slis-and-slos-for-your-it-services-6f0a07b67bb5)
+- [blog.acethecloud.com: A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for Your IT Services](https://blog.acethecloud.com/a-step-by-step-guide-to-calculating-slas-slis-and-slos-for-your-it-services-6f0a07b67bb5?gi=cf3ea61a2e17)
 - [medium.com/picsart-engineering: Prioritizing Development Efforts with SLOs in Microservices](https://medium.com/picsart-engineering/prioritizing-development-efforts-with-slos-in-microservices-109ecd9b9b92)
 
 ### OpenSLO
@@ -151,4 +151,4 @@
 </details>
 
 ## Canary Analysis
-  - **(2026)** [The Data Canary: How Netflix Validates Catalog Metadata](https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4) 🌟 - How Netflix built an automated data canary system that validates critical catalog metadata transformations using production traffic.
+  - **(2026)** [The Data Canary: How Netflix Validates Catalog Metadata](https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?gi=d207ab9cb1e7&source=rss----2615bd06b42e---4) 🌟 - How Netflix built an automated data canary system that validates critical catalog metadata transformations using production traffic.
