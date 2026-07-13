@@ -299,7 +299,7 @@
 - [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
 - [channel9.msdn.com: Troubleshoot AKS cluster issues with AKS Diagnostics and AKS Periscope](https://learn.microsoft.com/en-us/shows/azure-friday/troubleshoot-aks-cluster-issues-with-aks-diagnostics-and-aks-periscope)
 - [trstringer.com: Deploy to AKS from GitHub Actions 🌟](https://trstringer.com/deploy-to-aks-from-github-actions)
-- [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions/)
+- [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions)
 - [medium.com/bb-tutorials-and-thoughts: How to Build and Deploy MERN Stack on Azure AKS](https://medium.com/bb-tutorials-and-thoughts/how-to-build-and-deploy-mern-stack-on-azure-aks-c25eaf27b9d0) MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. Express and Node make up the middle (application) tier.
     - You will dockerize the app and push that image to the Azure container registry
     - You will pull the image and deploy it to AKS

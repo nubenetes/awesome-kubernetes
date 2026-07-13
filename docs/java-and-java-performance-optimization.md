@@ -125,7 +125,7 @@ etc|N/A
 - [Cambios importantes en la gestión de memoria de Java 8 de Oracle](https://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8)
 - [PermGen eliminado](https://www.infoq.com/articles/Java-PERMGEN-Removed)
 - [On heap vs off heap memory usage](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)
-- [How Garbage Collection differs in the three big JVMs](https://www.dynatrace.com/news/blog/how-garbage-collection-differs-in-the-three-big-jvms/)
+- [How Garbage Collection differs in the three big JVMs](https://www.dynatrace.com/news/blog/how-garbage-collection-differs-in-the-three-big-jvms)
 - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)we will try to understand the Java memory model and how garbage collection works.I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.
 - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) When you aren't using objects, but they aren't touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.
 - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)

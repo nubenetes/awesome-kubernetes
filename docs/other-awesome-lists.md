@@ -229,7 +229,7 @@
 - Awesome Go:
     - [Awesome Go](https://github.com/avelino/awesome-go)
         - [awesome-go.com](https://awesome-go.com)
-        - [==golangrepo.com== 🌟](https://pkg.go.dev/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
+        - [==golangrepo.com== 🌟](https://pkg.go.dev) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
     - [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
     - [nleiva/go-links](https://github.com/nleiva/go-links)
 - Awesome .NET Core:

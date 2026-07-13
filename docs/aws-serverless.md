@@ -10,7 +10,7 @@
 - [AWS Lambda, Echo, and the Future of Cloud Automation](https://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
 - [Serverless: The Future of Software Architecture?](https://acg-notice.pluralsight.com)
 - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)
-- [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html?utm_campaign=Aqua%20Digest&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_8fVAQvgyvkVxzLK7U7FGVsIIrkUv32NiIXrf9DJXz2LuW5S1TxXc0yHfco28O7TZPj4-7)
+- [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html&_hsenc=p2ANqtz-_8fVAQvgyvkVxzLK7U7FGVsIIrkUv32NiIXrf9DJXz2LuW5S1TxXc0yHfco28O7TZPj4-7)
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda](https://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
