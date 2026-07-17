@@ -79,7 +79,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in AI analysis to commit."
           else
-            git commit -m "chore: update inventory AI analysis"
+            git commit -m "chore: update inventory AI analysis [skip ci]"
             # Retry rebase+push to survive concurrent bot pushes to develop.
             for i in {1..5}; do
               git pull origin develop --rebase && git push origin develop && exit 0
