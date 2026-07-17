@@ -64,7 +64,7 @@ jobs:
           # caused a perpetual cosmetic develop<->master drift (see pr_guardian.py).
           git add docs/ README.md data/inventory.yaml data/inventory.sql src/memory/
           if ! git diff --cached --quiet; then
-            git commit -m "style(cleaner): auto-correcting formatting & URL normalization"
+            git commit -m "style(cleaner): auto-correcting formatting & URL normalization [skip ci]"
             git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "⚠️ Push failed (likely fork permission limit)."
           else
             echo "No formatting changes to commit."

@@ -7,6 +7,7 @@ on:
     paths-ignore:
       - 'README.md'
       - 'data/inventory.yaml'
+      - 'data/inventory.sql'
       - 'docs/**'
       - 'v2-docs/**'
   workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
