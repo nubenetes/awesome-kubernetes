@@ -27,42 +27,42 @@
 ## Explore the Ecosystem
 
 <div class="hero-badge-row">
-  <a href="./kubernetes/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/kubernetes/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--cyan">
       <img src="/images/kubernetes_logo.png" alt="Kubernetes"/>
       <div class="hero-badge-title">Ecosystem Core</div>
       <div class="hero-badge-subtitle">Explore Kubernetes</div>
     </div>
   </a>
-  <a href="./ai-agents-mcp/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/ai-agents-mcp/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--purple">
       <img src="/images/ai_agents_logo.png" alt="AI & MCP Agents"/>
       <div class="hero-badge-title">AI & MCP Agents</div>
       <div class="hero-badge-subtitle">Agentic Ecosystem</div>
     </div>
   </a>
-  <a href="./tech-digest/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/tech-digest/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--amber">
       <div class="hero-badge-icon">📊</div>
       <div class="hero-badge-title">Intelligence Digest</div>
       <div class="hero-badge-subtitle">Top picks · 3/6/12 months</div>
     </div>
   </a>
-  <a href="./videos/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/videos/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--pink">
       <img src="/images/video_hub_logo.png" alt="Agentic Video Hub"/>
       <div class="hero-badge-title">Agentic Video Hub</div>
       <div class="hero-badge-subtitle">Architect Video Library</div>
     </div>
   </a>
-  <a href="./topic-map/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/topic-map/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--indigo">
       <div class="hero-badge-icon">🗺️</div>
       <div class="hero-badge-title">Topic Map</div>
       <div class="hero-badge-subtitle">All Categories · Directory</div>
     </div>
   </a>
-  <a href="./introduction/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/introduction/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--teal">
       <img src="/images/hero-car.png" alt="Nubenetes Car"/>
       <div class="hero-badge-title">Get Started</div>
@@ -302,8 +302,8 @@
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
 </div>
 <div class="digest-links">
-  <a href="./tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>
-  <a href="./industry-digest/" class="digest-link-card">🌍 Industry & Geo Digest →</a>
+  <a href="/tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>
+  <a href="/industry-digest/" class="digest-link-card">🌍 Industry & Geo Digest →</a>
 </div>
 </div>
 
