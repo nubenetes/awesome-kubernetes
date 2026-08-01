@@ -38,13 +38,6 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
 #### On-premises
 
   - **(2020)** [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A video demonstrating VM Import/Export steps to convert on-premises hypervisor disk images directly into active AWS EC2 instances. Live Grounding points out that while modern migration favors automated agents like AWS MGN, raw VM imports are still critical for offline image importing, licensing checks, and legacy OS setups.
-## Data and Analytics
-
-### Data Protection
-
-#### AWS Backup
-
-  - **(2021)** [**AWS Backup Adds Support for Amazon S3**](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces preview support for centralizing data protection across S3 buckets using AWS Backup policies. It allows security and operations teams to automate backups, lifecycles, and restores of S3 objects alongside other AWS resources. This replaces customized AWS Lambda or S3 replication-based snapshot workarounds with a managed compliance framework.
 ## Infrastructure
 
 ### Disaster Recovery (1)
@@ -61,7 +54,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
   - **(2021)** [Quick Restoration through Replacing the Root Volumes of Amazon EC2 instances](https://aws.amazon.com/blogs/compute/quick-restoration-through-replacing-the-root-volumes-of-amazon-ec2) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This AWS blog post introduces root volume replacement features for running EC2 instances, eliminating reboot downtime during failure remediation. Live Grounding shows this capability is vital for debugging critical virtual machines, allowing live hot-swapping from a golden image or secure snapshot.
 #### AWS Services
 
-##### AWS Backup (1)
+##### AWS Backup
 
   - **(2026)** [==AWS Backup Service==](https://aws.amazon.com/backup) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical portal for AWS Backup, a fully managed backup hub that centralizes and automates data protection across various AWS services. Live Grounding affirms AWS Backup as the primary enterprise solution for compliance auditing, cross-account security, and centralized backup policies.
 ##### Multi-region (1)
@@ -95,7 +88,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
   - **(2016)** [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural retrospective analyzing service failures during a historic AWS Sydney region outage. Live Grounding highlights how this post underscores the vital design-for-failure paradigm, proving that high availability requires cross-region failovers, active-active topologies, and robust client retry configurations.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

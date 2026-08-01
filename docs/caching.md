@@ -51,9 +51,6 @@
 - [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
 - [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching)
 - [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
-  - **(2026)** [Introducing Cache Response Rules](https://blog.cloudflare.com/introducing-cache-response-rules) 🌟 - Cloudflare launches Cache Response Rules to fix stray caching headers from origins before edge storage.
-  - **(2026)** [Improving Smart Tiered Cache for Public Cloud Regions](https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds) 🌟 - Cloudflare's Smart Tiered Cache now natively optimizes single-path routing for origins deployed on anycast IP networks.
-  - **(2024)** [Deep Dive into Cloudflare Workers Cache](https://blog.cloudflare.com/workers-cache) 🌟 - A comprehensive look at the new programmatic caching capabilities and architecture for Cloudflare Workers.
 
 ## HAProxy
 

@@ -23,9 +23,9 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 
 #### General Reference
 
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/using-openshift-3-on-your-local-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
 ## CICD
 
 ### Gitops
@@ -56,13 +56,6 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2019)** [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://www.redhat.com/en/blog/full-cluster-capacity-management-monitoring-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight initiates a series on OpenShift capacity planning. Live Grounding details Prometheus and Grafana alerts, memory saturation metrics, and CPU scheduling limits. Essential for cluster administrators managing highly dense node resources.
   - **(2019)** [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://www.redhat.com/en/blog/full-cluster-part-2-protecting-nodes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on securing host resources from rogue applications. Live Grounding details eviction thresholds, pod limits, and system-reserved configuration paths inside OpenShift clusters. Vital for maintaining node reliability.
   - **(2019)** [full-cluster-part-3-capacity-management](https://www.redhat.com/en/blog/full-cluster-part-3-capacity-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews multi-tenant resource optimization. Live Grounding analyzes quotas, LimitRanges, and tenant isolation layers in enterprise workloads. Highly effective for designing multi-team cluster footprints.
-## Observability
-
-### Application Monitoring
-
-#### Java JMX
-
-  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 ## Platform Architecture
 
 ### Administration
@@ -136,7 +129,7 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2018)** [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers through configuring ASP.NET Core microservices with end-to-end TLS encryption on OpenShift. Discusses dynamic integration of local server certificates using OpenShift's service serving certificates feature.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

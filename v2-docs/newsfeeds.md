@@ -16,10 +16,9 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
 #### General Reference
 
   - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/jenkinsci in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
   - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
   - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/kubernetes in the Kubernetes Tools ecosystem.
-  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering GitLab Collective in the Kubernetes Tools ecosystem.
   - [reddit.com/r/gradle](https://www.reddit.com/r/gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/gradle in the Kubernetes Tools ecosystem.
   - [reddit.com/r/QualityAssurance](https://www.reddit.com/r/QualityAssurance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/QualityAssurance in the Kubernetes Tools ecosystem.
   - [reddit.com/r/jmeter](https://www.reddit.com/r/jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/jmeter in the Kubernetes Tools ecosystem.
@@ -39,6 +38,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/bashonubuntuonwindows in the Kubernetes Tools ecosystem.
   - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Stack Overflow Collectives 🌟 in the Kubernetes Tools ecosystem.
   - [Go Collective](https://stackoverflow.com/collectives/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Go Collective in the Kubernetes Tools ecosystem.
+  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering GitLab Collective in the Kubernetes Tools ecosystem.
 ## Finops and Cloud Cost
 
 ### Community Resources
@@ -54,7 +54,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
   - **(2023)** [AWS Forums](https://repost.aws) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy discussion forum resource for AWS developers troubleshooting infrastructure configurations and billing queries. Note: The platform has largely migrated to AWS Re:Post for community support.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Workfromhome](./workfromhome.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Interview Questions](./interview-questions.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

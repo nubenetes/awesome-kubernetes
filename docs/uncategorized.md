@@ -24,15 +24,3 @@ If you meet the requirements and wish to claim a specific inactive handle, you c
   - **(2026)** [GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source](https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source) 🌟 - GitHub joins an advocacy coalition seeking amendments to the California AI Transparency Act to ensure compliance mechanisms align with global open source distribution models.
 
   - **(2026)** [From pledge to practice: Building a more inclusive open source ecosystem](https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem) 🌟 - GitHub reviews its progress on open-source accessibility goals, introducing practical tools like the AI-powered GitHub Accessibility Scanner and the Figma Accessibility Annotation Toolkit.
-
-## AI Infrastructure
-  - **(2026)** [Building AI infrastructure with the Effingham County community](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community) 🌟 - OpenAI's Project Camellia datacenter infrastructure project in Effingham County, Georgia.
-
-  - **(2026)** [Google expands Alabama data center campus, funds community efforts](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026) 🌟 - Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.
-
-## Architecture Optimization
-  - **(2026)** [Architecture optimization: Don't stop early case-folding source code at memory speed](https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed) 🌟 - An engineering deep dive into optimizing case-folding source code at memory speed to enhance architectural throughput.
-
-## Data Analytics
-  - **(2026)** [Modeling Device Capabilities for Analytics](https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4) 🌟 - Netflix has built a comprehensive device capability data model to support analytics across its diverse global device ecosystem.
-  - **(2026)** [Data Projects: Managing Data Assets at Netflix Scale](https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4) 🌟 - Netflix's 'Data Projects' introduces a durable, team-owned application identity model to govern massive data assets and scheduled asynchronous workflows.

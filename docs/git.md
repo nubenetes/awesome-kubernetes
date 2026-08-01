@@ -886,6 +886,3 @@ Automate them.
 </center>
 </details>
   - [Purposeful Commits](https://chrisarcand.com/purposeful-commits) 🌟 - A blog post by Chris Arcand discussing strategies for managing Git commit history, advocating for practices that result in a cleaner and more understandable history by avoiding noisy merge commits and WIP messages, ultimately making it easier to track changes, revert regressions, and understand the evolution of a codebase.
-
-## GitOps
-  - **(2026)** [Argo CD](https://github.com/argoproj/argo-cd) 🌟 - Declarative Continuous Deployment for Kubernetes.

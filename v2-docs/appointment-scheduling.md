@@ -35,7 +35,7 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
   - **(2021)** [Google Calendar appointment slots](https://support.google.com/calendar/answer/190998) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Legacy Google Calendar booking block system. Live grounding shows this feature was officially retired in late 2024, fully replaced by Google's newer 'Appointment Schedules' tool.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [Interview Questions](./interview-questions.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

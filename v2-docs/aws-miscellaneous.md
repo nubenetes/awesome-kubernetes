@@ -24,7 +24,7 @@ description: "Curated, AI-ranked AWS Miscellaneous resources for the 2026 Cloud 
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
 

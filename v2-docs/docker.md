@@ -1,5 +1,5 @@
 ---
-description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive and more — curated Cloud Native tools, guides and references."
+description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more — curated Cloud Native tools, guides and references."
 ---
 # Docker
 
@@ -73,13 +73,6 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Container Delivery
 
   - **(2023)** [dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive Guide](https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architects high-performance integration pipelines utilizing localized image-building agents. Emphasizes step caching, secure build variable injection, and automated image lifecycle promotion directly to secure registries.
-## Cloud Computing
-
-### Training
-
-#### Multi-cloud Education
-
-  - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Cloud Infrastructure
 
 ### AWS
@@ -94,13 +87,6 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Application Architecture (1)
 
   - **(2021)** [freecodecamp.org: Learn How to Deploy 12 Apps to AWS, Azure, & Google Cloud](https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive multi-cloud deployment course demonstrating how to package and release applications across AWS, Azure, and Google Cloud container environments (ECS, Container Apps, and Cloud Run).
-## Container Management
-
-### Docker Security
-
-#### Insecure Registries
-
-  - **(2024)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historical reference from the retired Docker documentation archive illustrating how to configure the Docker daemon to handshake with unencrypted registries. It provides flags and config file options required to bypass default TLS validation checks for local testing. In modern secure container platform patterns, this practice is deprecated and replaced by end-to-end TLS.
 ## Container Runtime
 
 ### Core Infrastructure
@@ -253,6 +239,9 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Build Optimization (1)
 
   - **(2024)** [augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security](https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides twelve optimization patterns aligning build speeds with image security. Topics focus on multi-stage build workflows, package manager caching, minimal base systems, and dynamic secret loading.
+#### Compliance Frameworks
+
+  - **(2025)** [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The gold-standard security reference outlining precise configuration structures for Docker environments. Covers namespaces, read-only filesystems, network configurations, and active runtime protection policies.
 #### Kernel Isolation
 
   - **(2022)** [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security exploration contrasting container shared-kernel mechanisms against sandboxed hypervisor layers like Firecracker and gVisor. Analyzes side-channel vulnerabilities and threat vectors.
@@ -262,6 +251,9 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Process Boundaries
 
   - **(2023)** [securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes](https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the operational nature of containers as isolated host processes. Analyzes syscall structures, cgroup isolation properties, and modern runtime inspection workflows for developers.
+#### Supply Chain Security
+
+  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An urgent technical warning investigating cryptojacking campaigns spreading malware via compromised registries. Underscores the critical requirement for automated image validation and registry access restrictions.
 #### Vulnerability Assessment
 
   - **(2021)** [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical manual outlining static security scanning on developer workstations. Demonstrates how to discover vulnerabilities and outdated packages inside target OCI layers prior to CI deployment.
@@ -330,9 +322,6 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Build Optimization (2)
 
   - **(2021)** [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to working with Docker's build cache. Shows how to invalidate the cache, structure layers efficiently, and use CLI prune utilities to optimize build speeds.
-#### Build Tools
-
-  - **(2021)** [**technology.doximity.com: Buildpacks vs Dockerfiles 🌟**](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Contrasts declarative Cloud Native Buildpacks (CNB) with manual imperative Dockerfile structures. Analyzes the security, consistency, and build speed tradeoffs, arguing that CNBs represent a superior approach to packaging corporate applications at scale.
 #### Dockerfile Specs
 
   - **(2022)** [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores `CMD` and `ENTRYPOINT` behaviors inside Dockerfiles. Details how default runtime parameters interact with target binaries during execution.
@@ -413,8 +402,9 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2026)** [redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub](https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This press release details the collaboration between Red Hat and Docker to list Universal Base Images directly on the Docker Hub registry. It emphasizes the goal of democratizing enterprise-grade containerization layers, allowing any open-source or commercial developer to utilize secure and standardized packages. This partnership established UBI as a primary pillar of the container software supply chain.
   - **(2021)** [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative article analyzing the strategic importance of hosting Red Hat Universal Base Images on Docker Hub. It highlights how developers benefit from instant access to cryptographically signed, compliant, and regularly updated base layers that easily pass enterprise security audits. The piece underscores the role of UBI in eliminating legal and performance compliance issues across environments.
   - **(2020)** [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide explains the structure, licensing, and optimization of Red Hat Universal Base Images (UBI) for developers using Docker or other non-RHEL runtimes. It showcases how UBI provides a free, secure, and enterprise-grade base image platform that maintains strict compatibility with Red Hat Enterprise Linux. It is crucial for standardizing commercial container dependencies.
-#### Container Management (1)
+#### Container Management
 
+  - **(2026)** [Portainer 🌟](https://www.portainer.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portainer is a leading container management platform designed to simplify Docker, Kubernetes, and Azure ACI environments through an intuitive web interface. It allows platform administrators to easily deploy stacks, monitor real-time resources, manage networks/volumes, and control user access (RBAC). In 2026, it serves as a robust bridging portal between command-line container engines and full-scale orchestration management.
   - **(2026)** [Portainer Community Edition](https://www.portainer.io/install) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Community Edition of Portainer provides a self-hosted, lightweight administration portal for managing standalone Docker daemons, Swarm clusters, and edge environments. It abstracts complex container and volume operations into a responsive dashboard, reducing operational friction. It remains a popular, stable, and highly trusted portal for developer environments and internal infrastructure management.
 #### Debugging
 
@@ -475,7 +465,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2020)** [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.com/software/2020/04/08/compose-yourselves-docker-has-published-multi-container-app-spec-needs-contributors-to-help-maintain-and-develop-it/311866) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece chronicles Docker's donation of the Compose specification to the open-source community, highlighting the industry's drive to formalize multi-container application definitions. By establishing an open spec, it enabled tools like Podman-compose and cloud runtimes to deploy applications using standardized YAML models. It provides valuable historical context on container schema evolution.
 ### Kubernetes
 
-#### Container Management (2)
+#### Container Management (1)
 
   - **(2026)** [thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer](https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This step-by-step article illustrates how Portainer's web UI can be utilized to deploy a persistent application (e.g., WordPress with MySQL) onto a Kubernetes cluster. It demystifies the setup of Persistent Volume Claims (PVCs), service ingress, and network isolation, mapping these complex Kubernetes abstractions into accessible dashboard steps. It serves as an excellent onboarding tutorial for operations teams adapting to K8s paradigms.
 ### Linux OS Integration
@@ -618,7 +608,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

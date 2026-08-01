@@ -132,12 +132,3 @@
   - **(2026)** [Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog](https://blog.cloudflare.com/enforce-first-as-bgp) 🌟 - Learn the routing mechanics and configuration policies to enforce First AS validation on EBGP sessions to safeguard networks from malformed path hijacks.
 
   - **(2026)** [Adopting AV1 for Real-Time Communication (RTC) at Scale](https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta) 🌟 - Meta shares the multi-year effort of adopting and scaling AV1 for real-time video calls in Messenger and WhatsApp, focusing on rate control, device eligibility, and error resilience.
-  - **(2026)** [BGP ORIGIN attribute manipulation and its impact on the Internet](https://blog.cloudflare.com/bgp-origin-attribute) 🌟 - Cloudflare analysis reveals that nearly 70% of BGP paths have manipulated ORIGIN attributes to steer traffic.
-
-## Internet Disruptions
-  - **(2026)** [Natural Disasters and Government Interference: Examining Q2 2026's Major Internet Disruption Events](https://blog.cloudflare.com/q2-2026-internet-disruption-summary) 🌟 - Cloudflare Radar's quarterly analysis of global internet disruptions caused by natural disasters, geopolitical shutdowns, and DNSSEC key rollovers.
-  - **(2026)** [How the 2026 World Cup affected Internet traffic](https://blog.cloudflare.com/2026-world-cup-internet-traffic) 🌟 - An in-depth review of how the 2026 World Cup streaming dynamically altered global Internet traffic volume.
-
-## Cloudflare
-  - **(2026)** [Cloudflare Internal DNS is now generally available](https://blog.cloudflare.com/internal-dns) 🌟 - Cloudflare announces the GA of Internal DNS to provide a single control plane for public and private resolution.
-  - **(2026)** [A broken DNSSEC rollover took down .AL. Now 1.1.1.1 tells you when validation is bypassed](https://blog.cloudflare.com/dnssec-nta-ede-33) 🌟 - Following a DNSSEC failure in the .AL TLD, Cloudflare’s 1.1.1.1 resolver now surfaces EDE 33 to indicate Negative Trust Anchors.

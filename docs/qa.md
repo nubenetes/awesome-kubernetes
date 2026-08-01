@@ -55,7 +55,6 @@ the #1 test automation community.
 - https://automationqahub.com/
 - https://www.botplayautomation.com/
 - https://www.lambdatest.com/
-  - **(2026)** [The Data Canary: How Netflix Validates Catalog Metadata](https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4) 🌟 - Netflix's automated data canary system that validates critical catalog metadata transformations using production traffic and chaos experiments.
 
 ## Testing Frameworks
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Linux Dev Env resources for 2026, AI-ranked: Windows Terminal 1.0, cmder and more — curated Cloud Native tools, guides and references."
+description: "Top Linux Dev Env resources for 2026, AI-ranked: ASDF, Windows Terminal 1.0 and more — curated Cloud Native tools, guides and references."
 ---
 # WSL: Linux Dev Environment on Windows
 
@@ -52,6 +52,13 @@ description: "Top Linux Dev Env resources for 2026, AI-ranked: Windows Terminal 
   - **(2021)** [bleepingcomputer.com: Windows 11 can now install WSL from the Microsoft' Store 🌟](https://www.bleepingcomputer.com/news/microsoft/windows-11-can-now-install-wsl-from-the-microsoft-store) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical review details Microsoft's strategic shift to deliver WSL as an application through the Microsoft Store on Windows 11. Decoupling WSL from core OS updates allows rapid feature and driver iterations without requiring full system reboots. It guarantees that development teams can access the latest filesystem speed improvements and driver updates immediately.
   - **(2020)** [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Microsoft's streamlined WSL installation process, highlighting the creation of the unified `wsl --install` command. This enhancement automates feature enablement and default distribution retrieval, lowering the onboarding barrier for DevOps engineers. This simplification is highly beneficial for enterprise-wide developer environment standardization.
   - **(2020)** [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This release overview highlights improvements to the `wsl --install` process in Windows Insider Build 20246, enabling customized distribution selection during initialization. These upgrades allow teams to script automated workspace setup processes without manual user interaction. This automated workflow is essential for building reproducible local development environments via code.
+## Local Developer Environment
+
+### Version Management
+
+#### Multi-language Runtimes
+
+  - **(2026)** [==ASDF 🌟==](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible CLI runtime version manager that unifies environment configurations (Node.js, Ruby, Python, Elixir, Go, and more) under a single .tool-versions file. Successfully eliminates environment drift across development machines and CI runners via a robust plugin-driven architecture.
 ## Local Development
 
 ### Operating Systems
@@ -62,7 +69,7 @@ description: "Top Linux Dev Env resources for 2026, AI-ranked: Windows Terminal 
   - **(2026)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide optimizing local Windows workflows with WSL2. Provides performance instructions on using WSL2 backends alongside Docker Desktop, configuring VS Code remote-containers, and mitigating cross-file system read/write overhead.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

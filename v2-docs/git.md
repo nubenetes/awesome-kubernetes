@@ -65,6 +65,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
 #### Access Control
 
+  - **(2024)** [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to implement OIDC (OpenID Connect) federated identity credentials between GitHub Actions and Microsoft Azure. Eliminates the critical security risk of long-lived corporate service principal credentials by relying on cryptographically short-lived runtime tokens.
   - **(2021)** [github.blog: GitHub Actions: Control permissions for GITHUB_TOKEN 🌟](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes crucial YAML syntax controls for configuring granular scopes on standard `GITHUB_TOKEN` values. Restricts security threat profiles by allowing administrators to configure strict read/write variables on repository sub-objects.
 #### Open Source Workflows
 
@@ -108,13 +109,6 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Gitlab Operator
 
   - **(2022)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/gko-on-ocp) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational installation guide for deploying the GitLab Kubernetes Operator on Red Hat OpenShift. Discusses Ingress controllers, Security Context Constraints (SCC), and persistent storage volumes.
-## Cloud Native Operations
-
-### Kubernetes
-
-#### Policy Enforcement
-
-  - **(2022)** [==datree.io==](https://www.datree.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade CLI validation engine built to run policy and configuration checks on Kubernetes manifests. Datree evaluates configurations against schema rules and security standards before they reach clusters. This is a critical validation step for CI/CD GitOps pipelines.
 ## Community
 
 ### Developer Relations
@@ -960,7 +954,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes rapid tactics for extracting uncommitted, unstaged alterations into a newly spawned local feature branch. Guides developers on preserving workspace fluidity when starting feature-work inside the wrong branch context without triggering merge hazards.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
 

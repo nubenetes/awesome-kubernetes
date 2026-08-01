@@ -40,15 +40,6 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
 #### Internal Developer Platforms
 
   - **(2021)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Matrix is Postman's internal developer tool designed to orchestrate local microservices development, simplifying the execution and coordination of dependent services. It acts as a lightweight developer portal, bridging the gap between local compose files and remote staging environments. Live engineering truth reveals it as a custom service runner that enhances developer workflow automation and mitigates configuration drift.
-## Quality Assurance
-
-### API Testing Automation
-
-#### Postman Guides
-
-##### Testing Frameworks
-
-  - **(2021)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this masterclass from FreeCodeCamp for comprehensive API testing utilizing Postman. Live Grounding notes that while GUI based testing is powerful for debugging, exporting these suites for CLI integration via Newman remains the gold standard for automated pipelines. It serves as an essential foundational guide for quality engineering.
 ## Security and Governance
 
 ### API Lifecycle (1)
@@ -68,11 +59,6 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [Drools](https://kie.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Drools is a powerful, production-ready Business Rules Management System (BRMS) featuring a forward and backward-chaining inference engine (RETE OO-algorithm) for decoupling enterprise logic from complex microservice structures.
 ## Software Testing
 
-### API Automation
-
-#### KIE Server
-
-  - **(2020)** [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on setting up automated REST API test runners for KIE decision services. Demonstrates performance execution metrics, payload validation models, and CI integration pipelines using Postman and Newman test wrappers.
 ### API Security
 
 #### Postman Integrations
@@ -98,7 +84,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

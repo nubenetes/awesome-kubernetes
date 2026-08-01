@@ -158,14 +158,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Vulnerability Exploitation
 
   - **(2020)** [labs.bishopfox.com: Bad Pods: Kubernetes Pod Privilege Escalation 🌟](https://bishopfox.com/blog/kubernetes-pod-privilege-escalation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly cited technical analysis demonstrating how misconfigured container host namespaces, capabilities, and volume mounts can be exploited to escape container boundaries and gain full host-level access.
-## Policy-as-code
-
-### Kyverno Administration
-
-  - **(2020)** [kyverno.io 🌟](https://kyverno.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kyverno is a declarative Kubernetes-native policy engine. Designed specifically for Kubernetes, it simplifies policy management by allowing administrators to validate, mutate, and generate resources without writing complex Rego code.
-### Kyverno Rules and Policies
-
-  - **(2020)** [kyverno.io/policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official catalog of Kyverno policies, providing ready-to-deploy manifests for Pod Security standards, multi-tenant workspace isolation, label validation, and compliance auto-generation.
 ## RBAC and Authorization
 
 ### Privilege Escalation
@@ -233,6 +225,9 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### AWS EKS Network
 
   - **(2024)** [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS configuration documentation detailing the network security boundaries for Amazon EKS clusters. It defines minimal requirements for control-plane-to-node communication over secure ports. This ensures highly restrictive ingress/egress patterns in security groups.
+#### EKS Hardening
+
+  - **(2024)** [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive enterprise guide for hardening EKS clusters against cloud-native threats. It covers network segregation, IAM roles for service accounts (IRSA), secrets encryption, and runtime defense. This is a foundational checklist for any platform engineering team running on AWS.
 ### Cluster Hardening (2)
 
 #### Audit Logs
@@ -289,6 +284,9 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2022)** [dev.to/gabrielbiasi: Automatic SSO in Kubernetes workloads using a sidecar container](https://dev.to/gabrielbiasi/automatic-sso-in-kubernetes-workloads-using-a-sidecar-container-3752)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated SSO sidecar integration pattern inside Kubernetes pods, abstracting authentication logic away from application-level containers. Details OAuth token management and redirect intercept strategies executed transparently at the pod level. Simplifies identity integration across multiple microservices.
 ### Identity and Access
 
+#### AKS
+
+  - **(2024)** [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive handbook for architecting identity boundaries in Azure Kubernetes Service (AKS). It details the integration of Entra ID with native Kubernetes RBAC to eliminate static credentials. Utilizing managed identities ensures secure, audit-compliant interactions with external Azure cloud assets.
 #### AWS IRSA
 
 ##### Hybrid Cloud
@@ -437,6 +435,11 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2022)** [xenitab.github.io: Kubernetes Ephemeral Container Security 🌟](https://xenitab.github.io/blog/2022/04/12/ephemeral-container-security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores security boundaries regarding ephemeral debugging containers, analyzing potential escalation threats through 'kubectl debug'. Highlights how improper RBAC permissions on debugging tools can expose the underlying host or container namespace. Outlines defensive constraints like restricting hostIPC and hostPID mappings.
 ### Secrets Management (2)
 
+#### Cloud Integrations (1)
+
+##### Azure
+
+  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 #### Conceptual (1)
 
   - **(2022)** [macchaffee.com: Plain Kubernetes Secrets are fine 🌟](https://www.macchaffee.com/blog/2022/k8s-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An alternative architectural perspective defending native Kubernetes Secrets. Argues that when matched with strong RBAC controls, namespace boundaries, and cluster-level etcd KMS encryption, native solutions provide sufficient enterprise protection.
@@ -565,7 +568,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

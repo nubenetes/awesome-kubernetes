@@ -10,4 +10,3 @@
 - [acloudguru.com: AWS adds to the no-code pile: Is it the end of the engineer?](https://www.pluralsight.com/resources/blog/cloud/aws-adds-to-the-no-code-pile-is-it-the-end-of-the-engineer)
 - [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months)
   - **(2019)** [n8n](https://github.com/n8n-io/n8n) 🌟 - An extensible, fair-code workflow automation platform combining visual node-based composition with advanced custom coding and native AI agent capabilities.
-  - **(2026)** [Creating and Managing ChatGPT Sites](https://openai.com/academy/chatgpt-sites) 🌟 - A capability for generating, previewing, and publishing interactive websites and lightweight applications directly from ChatGPT.

@@ -197,6 +197,9 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
 #### Best Practices (1)
 
   - **(2023)** [==freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟==](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive blueprint for designing RESTful API endpoints using industry-standard conventions. It explains semantic HTTP verbs (GET, POST, PUT, DELETE), logical plural resource naming, status code mappings, and pagination practices. Adhering to these standards ensures intuitive consumption and predictable API performance.
+#### Documentation
+
+  - **(2024)** [==Devdocs.io API Documentation 🌟==](https://devdocs.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DevDocs combines multiple API documentations into a single, searchable, fast, and offline-capable user interface. By indexing documentation for dozens of languages, frameworks, and web technologies in a unified workspace, it optimizes developer workflow speed. It is widely recognized as a crucial utility tool in modern, high-velocity engineering environments.
 #### Fundamentals
 
   - **(2024)** [==postman.com: What is an API?==](https://www.postman.com/what-is-an-api) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Postman’s foundational guide explaining the mechanics of Application Programming Interfaces (APIs). It covers request-response patterns, typical protocols, payloads (JSON/XML), and the strategic business value of exposing software interfaces. It serves as an industry-standard primer for developers starting with web services.
@@ -303,6 +306,13 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
 #### Trends
 
   - **(2021)** [**thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures**](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines the industry shift toward AsyncAPI as the default specification for event networks. Outlines how standardizing AsyncAPI structures provides OpenAPI-style interface validation to queues and message streams.
+## Infrastructure
+
+### Artificial Intelligence
+
+#### Hardware Acceleration
+
+  - **(2025)** [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dedicated AI computer systems utilizing Wafer-Scale Engine (WSE) technology. Delivers unprecedented compute density and memory bandwidth to train large-scale neural networks without the distributed communication overhead of traditional GPU clusters.
 ## Microservices
 
 ### Design Patterns
@@ -364,7 +374,7 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
   - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Lowcode Nocode](./lowcode-nocode.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

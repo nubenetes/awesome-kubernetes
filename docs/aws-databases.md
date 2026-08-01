@@ -69,9 +69,3 @@
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub)
 
   - **(2026)** [How we built Cloudflare's data platform and an AI agent on top of it](https://blog.cloudflare.com/our-unified-data-platform) 🌟 - Cloudflare introduces Town Lake, their in-house unified data platform featuring a single SQL interface, and Skipper, an AI agent enabling natural language queries over metadata, ClickHouse, and R2 logs.
-
-## Cloudflare Key-Value Stores
-  - **(2026)** [Introducing Meerkat - an experiment in global consensus](https://blog.cloudflare.com/meerkat-introduction) 🌟 - Cloudflare introduces Meerkat, an experimental distributed key-value store using the QuePaxa consensus algorithm.
-
-## ClickHouse
-  - **(2026)** [ClickHouse](https://github.com/ClickHouse/ClickHouse) 🌟 - ClickHouse® is a real-time analytics database management system.

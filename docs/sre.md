@@ -152,6 +152,3 @@
 
 ## Canary Analysis
   - **(2026)** [The Data Canary: How Netflix Validates Catalog Metadata](https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?gi=d207ab9cb1e7&source=rss----2615bd06b42e---4) 🌟 - How Netflix built an automated data canary system that validates critical catalog metadata transformations using production traffic.
-
-## Service Topology
-  - **(2026)** [Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned](https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4) 🌟 - A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale.

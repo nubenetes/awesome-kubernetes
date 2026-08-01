@@ -68,7 +68,13 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 
 #### DevOps Integrations
 
+  - **(2020)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This integration study outlines the cooperative benefits of leveraging Red Hat OpenShift alongside JFrog Artifactory to drive secure, enterprise-grade cloud-native development. It covers automated build triggers, container compliance, and continuous deployment workflows. It showcases how combining these enterprise tools streamlines DevOps practices at scale.
   - **(2020)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial demonstrating practical steps to configure and run JFrog Artifactory on Red Hat OpenShift container clusters. It guides platform engineers through deployment steps, operator configuration, and cluster-wide pull authorization parameters. It focuses on validating container origin trust within regulated enterprise clusters.
+### Pipeline Automation
+
+#### Jfrog Pipelines
+
+  - **(2021)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the transition of software build jobs from standard Jenkins architectures to optimized JFrog Pipelines. It details structural enhancements in build speeds, caching mechanisms, and overall pipeline orchestrations using Artifactory integrations. This technical blog demonstrates techniques for reducing CI bottleneck overhead.
 ## Container Management
 
 ### Docker Security
@@ -76,6 +82,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 #### Insecure Registries
 
   - **(2020)** [==Configure Docker Service To Use Insecure Registry==](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry) <span class='md-tag md-tag--info'>⭐ 48</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55410868" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 12 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-55410868)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy wiki repository explaining systems-level configurations required to allow the Docker daemon to communicate with insecure, self-hosted registries. It highlights modification of systemd services and the daemon.json config file. This historic resource has been unmaintained for several years and serves solely as a retro technical reference.
+  - **(2024)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historical reference from the retired Docker documentation archive illustrating how to configure the Docker daemon to handshake with unencrypted registries. It provides flags and config file options required to bypass default TLS validation checks for local testing. In modern secure container platform patterns, this practice is deprecated and replaced by end-to-end TLS.
   - **(2018)** [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Community forum thread detailing user-submitted troubleshooting tips and configuration overrides for the `--insecure-registry` docker daemon parameter. This historical Q&A addresses common handshake and certificate mapping issues during registry prototyping. Modern security postures mandate avoiding insecure setups in production environments.
 ### P2P Container Distribution
 
@@ -136,7 +143,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

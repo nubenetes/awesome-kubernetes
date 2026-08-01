@@ -135,6 +135,3 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Kubernetes, are there hidden costs to running many cluster nodes?<br><br>Let me explain… (spoiler: yes) <a href="https://t.co/ErYdu8JR5E">pic.twitter.com/ErYdu8JR5E</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1584893971544915968?ref_src=twsrc%5Etfw">October 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </center>
-
-## AI Cost Optimization
-  - **(2026)** [Copilot vs. raw API access: What are you actually paying for?](https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for) 🌟 - Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it.

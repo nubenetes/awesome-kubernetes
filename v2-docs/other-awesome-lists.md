@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available kubectl plugins, Awesome Kubectl plugins and more — curated Cloud Native tools, guides and."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Test Automation, Tech Interview Handbook and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 
@@ -13,8 +13,8 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   <div class="awesome-hero__badge">⭐ AWESOME LISTS ⭐</div>
   <div class="awesome-hero__sub">The best curated <code>awesome-*</code> lists · AI-classified · link-validated</div>
   <div class="awesome-hero__stats">
-    <span class="awesome-hero__stat"><strong>123</strong>curated lists</span>
-    <span class="awesome-hero__stat"><strong>32</strong>categories</span>
+    <span class="awesome-hero__stat"><strong>122</strong>curated lists</span>
+    <span class="awesome-hero__stat"><strong>31</strong>categories</span>
   </div>
 </div>
 
@@ -33,10 +33,6 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   <a class="awesome-card" href="#api-development">
     <span class="awesome-card__name">API Development</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">2</span><span class="awesome-card__stars">lists</span></span>
-  </a>
-  <a class="awesome-card" href="#application-integration">
-    <span class="awesome-card__name">Application Integration</span>
-    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#artificial-intelligence">
     <span class="awesome-card__name">Artificial Intelligence</span>
@@ -98,8 +94,8 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
     <span class="awesome-card__name">Developer Tools</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">5</span><span class="awesome-card__stars">lists</span></span>
   </a>
-  <a class="awesome-card" href="#documentation-1">
-    <span class="awesome-card__name">Documentation (1)</span>
+  <a class="awesome-card" href="#documentation">
+    <span class="awesome-card__name">Documentation</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#infrastructure">
@@ -183,13 +179,6 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Resources (2)
 
   - **(2026)** [==Awesome API Management Tools==](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) <span class='md-tag md-tag--info'>⭐ 86</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5b855f6d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 11 L 30 12 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-5b855f6d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A directory focused on API design portals, lifecycle management tools, and specification utilities (like OpenAPI/Swagger). This list aids enterprise architects in establishing API-first development strategies and internal developer platform registries. It supports transition pathways from monolithic configurations to service meshes.
-## Application Integration
-
-### API Design
-
-#### Documentation
-
-  - **(2024)** [==Devdocs.io API Documentation 🌟==](https://devdocs.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DevDocs combines multiple API documentations into a single, searchable, fast, and offline-capable user interface. By indexing documentation for dozens of languages, frameworks, and web technologies in a unified workspace, it optimizes developer workflow speed. It is widely recognized as a crucial utility tool in modern, high-velocity engineering environments.
 ## Artificial Intelligence
 
 ### Llmops and Mlops
@@ -484,7 +473,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Powershell
 
   - **(2026)** [==janikvonrotz/awesome-powershell==](https://github.com/janikvonrotz/awesome-powershell) <span class='md-tag md-tag--info'>⭐ 5396</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9cc577c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 13 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-9cc577c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated repository detailing modules, cmdlets, and automation patterns using cross-platform PowerShell. Invaluable for platform engineers managing hybrid cloud setups, Windows nodes inside container networks, or Active Directory automation. This serves as a vital tool for enterprise systems integration.
-## Documentation (1)
+## Documentation
 
 ### Alternative Docs
 
@@ -737,7 +726,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
 

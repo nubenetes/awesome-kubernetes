@@ -60,13 +60,6 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Operational Cost
 
   - **(2020)** [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Challenges the popular industry narrative that serverless frameworks simplify system designs. While highlighting significant cost reductions, this case study warns about the operational complexities of distributed event routing, IAM configuration boundaries, and cold start mitigations.
-## Cloud Infrastructure and Orchestration
-
-### Serverless Architecture
-
-#### Case Studies
-
-  - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
 ## Cloud Native
 
 ### Faas Basics
@@ -119,7 +112,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### CICD
 
   - **(2019)** [**theburningmonk.com: Why you should use ephemeral environments when you do serverless**](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Recommends utilizing ephemeral stack deployments per developer or pull request. Highlights how to leverage zero-marginal-cost resource provisioning characteristics of cloud serverless.
-#### Case Studies (1)
+#### Case Studies
 
   - **(2022)** [**thenewstack.io: How Daily.Dev Built a Low-Budget Serverless Scraping Pipeline for Online Articles**](https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details how daily.dev constructed a cost-efficient article parsing ecosystem by combining serverless scraping pipelines, queue storage, and ephemeral container tasks.
   - **(2020)** [**dashbird.io: Serverless Case Study – Coca-Cola**](https://dashbird.io/blog/serverless-case-study-coca-cola) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A key industrial case study tracking how Coca-Cola migrated critical transaction systems to serverless, noting immense scale capacity and severe operational cost savings.
@@ -213,16 +206,9 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Serverless (3)
 
   - **(2024)** [**Azure Functions Cost Considerations and Optimization**](https://build5nines.com/azure-functions-cost-considerations-and-optimization) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.
-## Infrastructure As Code
-
-### Serverless Integration
-
-#### Hybrid Automation
-
-  - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

@@ -15,8 +15,8 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 
 #### General Reference
 
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
   - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
@@ -114,13 +114,6 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Egress Firewalls
 
   - **(2024)** [**Accessing External Services Using Egress Router**](https://www.redhat.com/en/blog/accessing-external-services-using-egress-router) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Deep-dive into configuring Red Hat OpenShift Egress Router pods to map outbound traffic to dedicated public IPs. This facilitates firewalled external resources (like legacy DBs) to authorize connections from fluid Kubernetes pods securely.
-## Performance Engineering
-
-### Kubernetes Optimization
-
-#### Autonomous Tuning
-
-  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ## Platform Engineering (1)
 
 ### Architectural Insights
@@ -215,7 +208,7 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

@@ -18,7 +18,7 @@ description: "Curated, AI-ranked AWS Training resources for the 2026 Cloud Nativ
   - **(2023)** [A curated list of AWS resources to prepare for the AWS Certifications](https://gist.github.com/leonardofed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, community-maintained GitHub Gist featuring a structured registry of mock exams, official whitepapers, and cloud design cheatsheets. It provides a reliable directory for self-directed preparation across multiple AWS credentials.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
 

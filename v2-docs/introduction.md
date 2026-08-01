@@ -285,6 +285,13 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
+#### Multi-region Deployments
+
+??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
+    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
+
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -334,6 +341,15 @@ graph TD
 #### Business Drivers
 
   - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
+### Storage and Hybrid Systems
+
+#### Topology Comparison
+
+??? note "blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds"
+    **[Access Resource](https://www.min.io/blog)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
+
 ## Cloud Infrastructure
 
 ### Automation
@@ -341,6 +357,9 @@ graph TD
 #### Concepts
 
   - **(2021)** [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies cloud automation paradigms, describing how automated resource provisioning, scaling, and configuration reduce operational overhead and human error. Key focus is placed on programmatic API orchestration and infrastructure-as-code.
+#### Glossary
+
+  - **(2022)** [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive terminology reference mapping modern DevOps, configuration management, and automation jargon. Offers clear, enterprise-aligned definitions for terms like CI/CD, IaC, GitOps, and orchestration engines.
 ### DevOps
 
 #### Infrastructure Abstraction
@@ -362,13 +381,6 @@ graph TD
   - **(2021)** [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core differences between vanilla Kubernetes and Red Hat OpenShift, evaluating deployment mechanics, security configurations (SCC vs RBAC), built-in routing, out-of-the-box monitoring, and support models.
   - **(2021)** [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational comparison detailing the architectural boundaries of Kubernetes and OpenShift. Explores developer workflows, installation processes, built-in CI/CD pipelines, and licensing structures.
   - **(2019)** [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares upstream open-source Kubernetes with Red Hat OpenShift. Focuses on user-interface options, CLI differences, security policies, image registry capabilities, and integrated CI/CD toolchain setups in enterprise deployments.
-## Cloud Infrastructure and Orchestration
-
-### Public Cloud Administration
-
-#### AWS Fundamentals
-
-  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native and Kubernetes Core
 
 ### Business Value and ROI
@@ -384,6 +396,13 @@ graph TD
     **[Access Resource](https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896)** 🌟🌟🌟🌟 | Level: Advanced
     
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
+
+#### Fundamentals (1)
+
+??? note "cloud.google.com: What is Kubernetes? 🌟"
+    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
+    
+    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 #### Orchestrator Comparison
 
@@ -509,7 +528,7 @@ graph TD
 
 ### Containerization (1)
 
-#### Fundamentals (1)
+#### Fundamentals (2)
 
   - **(2020)** [opensource.com: 6 container concepts you need to understand](https://opensource.com/article/20/12/containers-101) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies Linux kernel-level container mechanisms by breaking down the core abstractions. Provides clear explanations of namespaces, cgroups, container images, registries, runtimes, and the relationship between containers and virtual machines.
   - **(2021)** [makeuseof.com: hich Container System Should You Use: Kubernetes or Docker?](https://www.makeuseof.com/kubernetes-or-docker) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the common beginner point of confusion comparing Docker with Kubernetes. Explains that Docker is a containerization engine focused on packing and running single application workloads, while Kubernetes is an orchestrator managing fleets of containers across physical resources.
@@ -531,7 +550,7 @@ graph TD
 
 ### Kubernetes Orchestration
 
-#### Fundamentals (2)
+#### Fundamentals (3)
 
   - **(2020)** [loves.cloud: Kubernetes: An Introduction](https://loves.cloud/kubernetes-an-introduction) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the foundational architecture of Kubernetes, tracing its heritage from Google's internal Borg system to an open-source standard. Explains core concepts such as Pods, Services, Deployments, and the control plane architecture (API Server, etcd, Scheduler, Controller Manager) for bare-metal and cloud migrations.
 #### Future Trends
@@ -632,6 +651,9 @@ graph TD
 
 ### Software Engineering Principles
 
+#### Developer Cognitive Load
+
+  - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
 #### Programming Languages
 
   - **(2021)** [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Revisa los lenguajes de programación más influyentes y demandados del año 2021, evaluando su adopción en microservicios, frontend y desarrollo móvil. Ayuda a los equipos de desarrollo a evaluar qué tecnologías garantizan mayor facilidad para contratar talento y compatibilidad de librerías a largo plazo.
@@ -656,7 +678,7 @@ graph TD
 
 ### Quantum Computing
 
-#### Fundamentals (3)
+#### Fundamentals (4)
 
   - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
 ## Frontend Architecture
@@ -781,11 +803,6 @@ graph TD
 #### Lessons Learned
 
   - **(2021)** [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid engineering post-mortem of catastrophic distributed systems architectures. It warns against over-engineered microservice boundaries, distributed transactions, massive latency chains, and premature optimization that results in 'distributed monoliths'.
-### Data Management (2)
-
-#### Event-driven Architecture
-
-  - **(2016)** [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece outlines Martin Kleppmann's paradigm of 'turning the database inside-out'. It advocates for treating state logs as a first-class citizen, enabling downstream services to process and construct specialized read-optimized views.
 ### Design Patterns (3)
 
 #### Best Practices (2)
@@ -879,7 +896,7 @@ graph TD
     
     Establishes a rigorous decision framework for migrating from monolithic systems to microservices, balancing organization size, domain boundaries, and cognitive load. The synthesis emphasizes that microservices should only be selected when parallel development velocity and independent horizontal scaling justify the added network complexity.
 
-#### Fundamentals (4)
+#### Fundamentals (5)
 
 ??? note "thenewstack.io: What Is Microservices Architecture?"
     **[Access Resource](https://thenewstack.io/microservices/what-is-microservices-architecture)** 🌟🌟🌟🌟 | Level: Beginner
@@ -943,6 +960,15 @@ graph TD
 
   - **(2024)** [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Kubernetes' evolution from a simple microservices hosting platform to an advanced orchestrator for heavy batch processing, AI/ML training runs, and high-performance computing (HPC) jobs.
 ## Platform Engineering (3)
+
+### Internal Developer Platforms
+
+#### Organizational Structure (1)
+
+??? note "softwareengineeringdaily.com: The Rise of Platform Engineering 🌟"
+    **[Access Resource](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Historically significant piece tracking the evolution from traditional DevOps silos to Platform Engineering. Discusses building Internal Developer Platforms (IDPs) to lower cognitive load for application developers, establishing self-service infrastructure portals, and applying product management principles to internal tooling.
 
 ### Paas Solutions
 
@@ -1142,7 +1168,7 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
 

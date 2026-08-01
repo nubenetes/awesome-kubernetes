@@ -36,6 +36,11 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2021)** [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides targeted code snippets, auto-complete utilities, and syntax validations optimized for declarative Jenkinsfiles. It dramatically reduces developer syntax errors when managing complex multi-stage pipeline steps.
 ## Cloud Infrastructure
 
+### GCP Ecosystem
+
+#### IDE Integrations
+
+  - **(2025)** [Google Cloud Code](https://cloud.google.com/code) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful suite of IDE plugins (VS Code, IntelliJ) designed to accelerate development of cloud-native systems on GCP. Curator highlights focus on debugging Kubernetes clusters directly from local workstations. Live engineering teams use Cloud Code to minimize the gap between local code changes and GCP deployment environments, driving faster development feedback loops.
 ### Infrastructure As Code
 
 #### Azure
@@ -87,6 +92,13 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### Kubernetes Integration
 
   - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
+## Cloud Platform
+
+### AWS Infrastructure
+
+#### Developer Tooling
+
+  - **(2021)** [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS announcement highlighting the release of updated AWS Toolkits for popular IDEs (Cloud9, JetBrains, VS Code), expanding interaction capabilities to over 200 resource types. This update greatly reduced context switching for developers, enabling local generation of IAM, DynamoDB, and CloudFormation schemas without visiting the AWS web console.
 ## Cloud-native Development
 
 ### Azure (2)
@@ -276,6 +288,11 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### VS Code (1)
 
   - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28747</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-604f5ec7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-604f5ec7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
+### IDE Extensions
+
+#### Azure Learning
+
+  - **(2024)** [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual Studio Code extension designed to accelerate cloud onboarding directly within the developer workspace. It streamlines access to Azure training modules and sandboxed labs, reducing cognitive context switching during technical training.
 ## Development
 
 ### DevOps
@@ -335,7 +352,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### VS Code Tooling (11)
 
   - **(2026)** [**Path Intellisense**](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides dynamic path autocompletion during import statements and file references. This capability reduces import failures across large directories. Although modern language servers have improved built-in path resolution, this extension remains popular for deep directory layouts.
-### IDE Extensions
+### IDE Extensions (1)
 
 #### Git Integration (1)
 
@@ -464,7 +481,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2015)** [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing VS Code's native source control integration, enabling developers to execute Git workflows directly within the editor. It covers staging, committing, branching, and resolving merge conflicts without switching to an external terminal.
 ## Documentation (3)
 
-### Developer Tooling
+### Developer Tooling (1)
 
 #### IDE Platforms
 
@@ -534,9 +551,14 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### Unit Testing
 
   - **(2026)** [**Jest**](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Integrates Jest unit testing workflows directly into the editor. It offers real-time inline test failures, active watch mode triggers, and visual coverage reports. This setup simplifies local feedback loops for enterprise microservices developed in TypeScript or JavaScript.
+### Tooling
+
+#### AI Code Assistants
+
+  - **(2021)** [Kite 🌟](https://kite.com) <span class='md-tag md-tag--warning'>[NOT APPLICABLE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Kite as a local-AI completion helper. Live Grounding confirms the project is fully retired and non-operational, with software development workflows now dominated by sophisticated cloud and local models like GitHub Copilot, Cursor, and modern LSP tooling.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

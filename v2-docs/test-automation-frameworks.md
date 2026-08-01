@@ -183,7 +183,7 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
   - **(2022)** [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An engineering guide demonstrating how to leverage Selenium for scraping complex, dynamic JavaScript-rendered single-page applications where simple HTTP libraries fail. It outlines managing browser sessions, interacting with dynamic elements, bypassing basic detection systems, and extracting raw DOM data systematically.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [AWS Databases](./aws-databases.md) | [AWS](./aws.md)
 

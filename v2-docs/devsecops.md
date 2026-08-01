@@ -9,13 +9,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 !!! info "Architectural Context"
     Detailed reference for DevSecOps and Security. Container in the context of Hardened Infrastructure.
 
-## Application Development
-
-### Cloud-native Java
-
-#### Tanzu Framework
-
-  - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -32,13 +25,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - [dzone: Managing Secrets Deployment in GitOps Workflow 🌟](https://dzone.com/articles/managing-kubernetes-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Managing Secrets Deployment in GitOps Workflow 🌟 in the Kubernetes Tools ecosystem.
   - [dzone: A Practical Guide for Container Security](https://dzone.com/articles/a-practical-guide-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: A Practical Guide for Container Security in the Kubernetes Tools ecosystem.
   - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison in the Kubernetes Tools ecosystem.
-## Cloud Architecture
-
-### Infrastructure Automation
-
-#### Hybrid Cloud Strategy
-
-  - **(2021)** [cloudify.co: Your Guide to Infrastructure Automation & Hybrid Cloud Orchestration 🌟](https://docs.cloudify.co) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural manual focused on multi-cloud orchestration and automation frameworks. Discusses leveraging open-source TOSCA-based standards to orchestrate compute resources, handle multi-site network topologies, and coordinate complex deployments across multiple hypervisors.
 ## Cloud Native Operations
 
 ### Kubernetes
@@ -46,23 +32,9 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Advanced Templating
 
   - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
-## Container Infrastructure
-
-### CICD
-
-#### Pipeline Security
-
-  - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
-## Containers
-
-### Security and Hardening
-
-#### Supply Chain Security
-
-  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An urgent technical warning investigating cryptojacking campaigns spreading malware via compromised registries. Underscores the critical requirement for automated image validation and registry access restrictions.
 ## DevOps
 
-### CICD (1)
+### CICD
 
 #### Harness CD Integration
 
@@ -170,18 +142,11 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Open Source Curation
 
   - **(2021)** [cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews top open-source security tooling from 2021, including static analysis tools, vulnerability scanners, runtime anomaly detectors, and compliance auditors used within CI/CD pipelines.
-## Linux
-
-### Security
-
-#### Auditing
-
-  - **(2021)** [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step tutorial on executing Lynis for systemic compliance checks, privilege audits, and vulnerability detection. Live grounding notes that while CentOS is deprecated, Lynis remains an enterprise-stable auditor on Rocky, Alma, and generic RHEL-family distributions.
 ## Networking and Security
 
 ### Kubernetes Networking
 
-#### Security and Hardening (1)
+#### Security and Hardening
 
   - **(2020)** [**blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof**](https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on validating network security policies using automated policy-verification and security-testing tools instead of assuming they work. Explains techniques for writing reliable assertions for ingress and egress rules. Live Grounding notes that modern 2026 enterprise teams actively integrate policy checkers (such as Sonobuoy, Cilium Hubble, or OPA) into CI/CD pipelines.
 ## Observability (1)
@@ -203,7 +168,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Validation and Linting
 
   - **(2025)** [==KubeLinter==](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3469</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-99439a6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 4 L 30 13 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-99439a6f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade static analyzer for raw Kubernetes manifest files and Helm charts. Translates security benchmarks, privileged container checks, and missing resource limits into actionable DevOps signals.
-## Security (1)
+## Security
 
 ### AI and Secops
 
@@ -255,7 +220,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### SOAR Workflows
 
   - **(2022)** [torq.io: 5 Security Automation Examples for Non-Developers](https://torq.io/blog/5-security-automation-examples-for-non-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides practical implementation examples for low-code/no-code security automation using SOAR architectures. Focuses on integrating threat telemetry sources, executing dynamic IP quarantine actions, and orchestrating Slack-based manual approval steps for access provisioning.
-### CICD (2)
+### CICD (1)
 
 #### Continuous Integration
 
@@ -313,9 +278,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Aqua Security Integration
 
   - **(2021)** [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference implementation analyzes Aqua Security's threat protection suite inside Kubernetes platforms. It details automated configuration of image scanning workflows, continuous drift detection mechanisms, and custom-built runtime profiles. Grounded in actual platform defense, this approach addresses immediate container exploitation vectors by establishing clear trust domains.
-#### Devsecops
-
-  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 #### Hardening Standards
 
   - **(2021)** [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles ten key principles of container hardening. Focuses on restricting privileged users, defining hard CPU/memory resource limits, enforcing read-only root filesystems, applying seccomp filters, and eliminating administrative packages from final container builds.
@@ -362,7 +324,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2025)** [**git-secret.io**](https://git-secret.io) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A bash-based tool for encrypting sensitive files inside Git repositories using GPG keys. It ensures configuration files containing private keys or credentials can be stored in public repos while remaining inaccessible to unauthorized eyes.
   - **(2022)** [**developers.redhat.com: Protect secrets in Git with the clean/smudge filter**](https://developers.redhat.com/articles/2022/02/02/protect-secrets-git-cleansmudge-filter) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the deployment of Git clean/smudge filters as a local workstation guardrail. This configuration transparently encrypts and decrypts sensitive file values during Git staging and checkout processes, preventing accidental upstream exposure of raw development secrets.
   - **(2020)** [git-cipher](https://github.com/wincent/git-cipher) <span class='md-tag md-tag--info'>⭐ 90</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-19613ecc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 4 L 20 3 L 30 10 L 40 13 L 50 8" fill="none" stroke="url(#spark-grad-19613ecc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An older utility designed to cryptographically secure and decrypt files transparently inside Git workspaces. Largely superseded by modern alternatives like SOPS, it serves as an educational reference for understanding custom Git-filter operations.
-### Devsecops (1)
+### Devsecops
 
 #### Business Strategy
 
@@ -488,9 +450,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2022)** [unixarena.com: Terraform – Source credentials from AWS secret Manager](https://unixarena.com/2022/04/terraform-source-credentials-from-aws-secret-manager.html) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Illustrates how to source cloud infrastructure credentials dynamic-on-demand from AWS Secrets Manager using standard Terraform data resources. Avoids persisting plaintext administrative credentials within static project variable configurations.
 ### Kubernetes Security (1)
 
-#### Admission Controllers
-
-  - **(2022)** [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference manual for the Banzai Cloud Kubernetes Vault Webhook. Explains mutating webhook mechanics that intercept pod creation to inject secure credentials into environment variables at runtime, using an in-memory execution wrapper to eliminate the need for persistent agent containers.
 #### Azure Integrations
 
   - **(2023)** [==Azure Key Vault to Kubernetes==](https://github.com/SparebankenVest/azure-key-vault-to-kubernetes) <span class='md-tag md-tag--info'>⭐ 452</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba472675" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 12 L 30 13 L 40 3 L 50 13" fill="none" stroke="url(#spark-grad-ba472675)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The underlying GitHub repository for the `akv2k8s` project. Features Kubernetes Custom Resource Definitions (CRDs) like `AzureKeyVaultSecret` that run-loop to synchronize Azure credentials into physical Kubernetes secrets. Useful for architectures requiring strict backward compatibility with native Kubernetes secret bindings.
@@ -599,7 +558,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Bitwarden Ecosystem
 
   - **(2023)** [thenewstack.io: Walkthrough: Bitwarden’s New Secrets Manager](https://thenewstack.io/walkthrough-bitwardens-new-secrets-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Bitwarden's specialized Secrets Manager. Evaluates its zero-knowledge architecture, CLI, programmatic API tokens, and SDK accessibility, highlighting its viability as an alternative to complex secrets management engines for distributed development teams.
-#### CICD (3)
+#### CICD (2)
 
   - **(2022)** [**thenewstack.io: Managing Secrets in Your DevOps Pipeline**](https://thenewstack.io/managing-secrets-in-your-devops-pipeline) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Highlights architectural approaches to secret injection throughout continuous integration pipelines. Contrasts early injection techniques (build-time) against late runtime injection patterns, evaluating their respective security footprints.
   - **(2020)** [jenkins-x.io: Setting up the secrets for your installation](https://jayex.io/v3/admin/setup/secrets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deployment guide detailing how to construct and map cryptographic secrets needed for Jenkins X core installations. Covers external secrets integration and mapping cloud-provider-backed secret managers directly to ephemeral cluster values.
@@ -709,13 +668,13 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2022)** [thenewstack.io: Security Insights into Infrastructure-as-Code](https://thenewstack.io/security-insights-into-infrastructure-as-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines vulnerability mapping and mitigation strategies in Infrastructure-as-Code files, emphasizing Terraform, CloudFormation, and Ansible templates. Discusses the dangers of utilizing loose public access defaults and unsecured parameters. Focuses on the imperative of automated pipeline compliance scanning.
 ### Supply Chain
 
-#### CICD (4)
+#### CICD (3)
 
   - **(2022)** [goteleport.com: Anatomy of a Cloud Infrastructure Attack via a Pull Request](https://goteleport.com/blog/hack-via-pull-request) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a forensic simulation of a CI/CD supply-chain breach, demonstrating how unauthorized pull requests can exploit runners to exfiltrate cloud credentials. Highlights mitigation strategies like OpenID Connect (OIDC) authentication, ephemeral runners, and branch protection rules.
 #### Dependency Management
 
   - **(2022)** [blog.sonatype.com: Python Packages Upload Your AWS Keys, env vars, Secrets to the Web](https://www.sonatype.com/blog/python-packages-upload-your-aws-keys-env-vars-secrets-to-web) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical warning analysis of malicious packages uploaded to public registries like PyPI. Details how typosquatting and supply-chain compromises are used to harvest AWS credentials and environment variables, highlighting the importance of dependency locking and private proxy firewalls.
-### Supply Chain Security (1)
+### Supply Chain Security
 
 #### AWS Integration
 
@@ -816,7 +775,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 
   - **(2021)** [blog.aquasec.com: A Security Review of Docker Official Images: Which Do You Trust? (with trivy)](https://blog.aquasec.com/docker-official-images) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured vulnerability study evaluating official Docker base images using the Trivy scanner. Illustrates how standard distributions accumulate vast libraries of unneeded and highly dangerous packages, reinforcing the architectural requirement to move towards optimized base images such as Alpine or Distroless.
   - **(2021)** [iximiuz.com: The need for slimmer containers. Scanning official Python images with Snyk](https://iximiuz.com/en/posts/thick-container-vulnerabilities) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth technical article demonstrating the correlation between container footprint size and security surface area. Compares standard debian-based Python base images with alpine and distroless alternatives utilizing Snyk. Highlights how removing utility packages significantly reduces threat profiles.
-#### CICD (5)
+#### CICD (4)
 
   - **(2024)** [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses integrating Anchore container security gates directly within automated CI/CD build scripts. Focuses on automated SBOM extraction, system package inspection, and vulnerability threshold enforcement, blocking problematic deployment builds long before registry promotion.
 #### CNAPP Platform
@@ -854,11 +813,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Ansible and Cyberark
 
   - **(2021)** [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights patterns for automated incident remediation and threat response using CyberArk security profiles triggered by Ansible playbooks. Details dynamic credential rotation and rapid privilege revocation scenarios under active security events. Provides an enterprise-grade framework for unifying dev-sec-ops monitoring with automated compliance enforcement.
-### CICD (6)
-
-#### Penetration Testing (1)
-
-  - **(2021)** [research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines](https://www.nccgroup.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case-study driven review from NCC Group outlining real-world exploits used to compromise continuous delivery channels. Common vectors include poorly protected secrets, dependency confusion attacks, and unauthenticated pipeline runners. This security research highlights the critical importance of runtime monitoring and pipeline isolation to prevent supply-chain compromises.
 ### Cloud Security (1)
 
 #### Identity and Access Management (2)
@@ -902,7 +856,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Industry Trends (1)
 
   - **(2021)** [devclass.com: Docker: It’s not dead yet, but there’s a tendency to walk away, security report finds](https://www.devclass.com/containers/2021/01/13/docker-its-not-dead-yet-but-theres-a-tendency-to-walk-away-security-report-finds/1620265)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores shifting enterprise preferences from traditional Docker runtimes to modern, container runtime standards like containerd and CRI-O. Focuses on security reports indicating how Kubernetes runtime deprecations and attack-surface reduction drive this trend.
-### Devsecops (2)
+### Devsecops (1)
 
 #### AWS Implementations
 
@@ -964,7 +918,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2022)** [permission.site](https://permission.site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive security validation platform that allows engineers to test how various browser APIs, iframe permissions, and Content Security Policies (CSP) behave, enabling precise verification of client-side web application security postures.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 
