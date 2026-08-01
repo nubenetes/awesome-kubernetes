@@ -68,6 +68,9 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: complete-alias
 #### Kubectl Plugins
 
   - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes/#kubectl-plugins) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference compilation highlights external tools and kubectl extensions managed via Krew. It details how third-party plugins (like `neat`, `kns`, or security-focused extensions) expand basic kubectl operational debugging and cluster-inspection capabilities.
+#### Productivity (1)
+
+  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
 ## Kubernetes Platform
 
 ### Cluster Administration
@@ -95,6 +98,13 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: complete-alias
 #### Config Management
 
   - **(2023)** [**learnitguide.net: How to Create ConfigMap from Properties File Using K8s' Client**](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Demonstrates methods to compile Kubernetes ConfigMaps from structured properties files. Bridges common application configurations with native cloud manifest patterns.
+## Observability
+
+### Debugging
+
+#### CLI Operations
+
+  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
 ## Operations and UX
 
 ### CLI Plugins
@@ -102,23 +112,9 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: complete-alias
 #### Output Formatting
 
   - **(2026)** [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1446</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fc213f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 8 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-fc213f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubecolor is a highly adopted command-line wrapper for kubectl that colorizes terminal outputs. It improves cluster observability by visually distinguishing resource types, labels, statuses, and namespaces during interactive CLI operations.
-## Orchestration
-
-### Kubernetes (3)
-
-#### CLI Management
-
-  - **(2026)** [==kubernetes.io 🌟==](https://kubernetes.io/docs/reference/kubectl/quick-reference) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical reference documentation for the kubectl command-line utility. Provides up-to-date syntax patterns for resource creation, patch edits, formatting outputs, and real-time container log analysis across active nodes.
-## Storage and Data
-
-### Performance Benchmarking
-
-#### Etcd Storage Tuning
-
-  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

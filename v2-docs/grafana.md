@@ -9,6 +9,13 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 !!! info "Architectural Context"
     Detailed reference for Grafana in the context of Architectural Foundations.
 
+## Infrastructure As Code
+
+### Package Archives
+
+#### Visualization
+
+  - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
 ## Kubernetes Tools
 
 ### General Reference
@@ -24,7 +31,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
   - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d9b8e9d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 9 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-d9b8e9d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
 ## Observability
 
-### Infrastructure As Code
+### Infrastructure As Code (1)
 
 #### Grafana Provisioning
 
@@ -48,7 +55,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 #### JVM Monitoring
 
   - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
-### Visualization
+### Visualization (1)
 
 #### Grafana Configuration
 
@@ -56,7 +63,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 #### Grafana Extensibility
 
   - **(2020)** [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented walkthrough showing how to construct custom backend data plugins for Grafana using Go. It focuses on implementing optimized query parsers, managing API secrets, and routing telemetry queries directly to non-native time-series databases.
-#### Infrastructure As Code (1)
+#### Infrastructure As Code (2)
 
   - **(2026)** [==Grafana provisioning Ansible Role==](https://github.com/cloudalchemy/ansible-grafana) <span class='md-tag md-tag--info'>⭐ 503</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55eda8f0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 3 L 30 9 L 40 9 L 50 11" fill="none" stroke="url(#spark-grad-55eda8f0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated Ansible role engineered by Cloud Alchemy to deploy, configure, and maintain Grafana services. It translates Grafana's file-based provisioning API parameters into clean Ansible playbooks, standardizing monitoring stack deployments across virtualized environments.
 #### Product Updates
@@ -88,7 +95,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 #### Grafana Alerting
 
   - **(2021)** [grafana.com: Top 5 user-requested synthetic monitoring alerts in Grafana Cloud](https://grafana.com/blog/top-5-user-requested-synthetic-monitoring-alerts-in-grafana-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shares actionable configurations for the most prominent user-requested synthetic monitoring alerts in Grafana Cloud, including DNS failures, HTTP latency spikes, SSL certificate expirations, and global availability drops. Facilitates preemptive identification of microservice edge-network connectivity failures before user impact occurs.
-### Visualization (1)
+### Visualization (2)
 
 #### Dashboard Design
 
@@ -179,7 +186,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
 

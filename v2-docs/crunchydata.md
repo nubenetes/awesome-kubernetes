@@ -182,6 +182,9 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 
   - **(2020)** [info.crunchydata.com: Deploy pgAdmin4 with PostgreSQL on Kubernetes](https://www.crunchydata.com/blog/deploy-pgadmin4-with-postgresql-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides the deployment of pgAdmin4 web client panels alongside database clusters inside Kubernetes. Reviews network ingress definitions, volume mounts, and credential injection mechanics.
   - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
+#### Developer Tutorials
+
+  - **(2026)** [learn.crunchydata.com 🌟](https://www.crunchydata.com/developers/tutorials) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive educational portal offering structured developer exercises focused on core database engineering. Includes tasks on indexing optimizations, raw performance telemetry, and complex JSON data orchestration strategies in PostgreSQL.
 #### Enterprise Solutions
 
   - **(2026)** [crunchydata.com](https://www.crunchydata.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Corporate entry point for Crunchy Data, a driving force behind enterprise-hardened, fully open-source PostgreSQL. Represents a suite of production support, compliance validation patterns, and cloud-native integration tools.
@@ -215,7 +218,7 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
   - **(2019)** [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains OpenShift Service Accounts, Role-Based Access Control (RBAC), and Security Context Constraints (SCC). Understanding SCCs is vital when deploying complex operators that need custom security postures, such as stateful databases. This reference outlines how to grant specific system permissions safely, protecting multi-tenant clusters from security compromise.
 
 ---
-💡 **Explore Related:** [Message Queue](./message-queue.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

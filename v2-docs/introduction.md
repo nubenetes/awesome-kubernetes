@@ -357,9 +357,6 @@ graph TD
 #### Concepts
 
   - **(2021)** [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies cloud automation paradigms, describing how automated resource provisioning, scaling, and configuration reduce operational overhead and human error. Key focus is placed on programmatic API orchestration and infrastructure-as-code.
-#### Glossary
-
-  - **(2022)** [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive terminology reference mapping modern DevOps, configuration management, and automation jargon. Offers clear, enterprise-aligned definitions for terms like CI/CD, IaC, GitOps, and orchestration engines.
 ### DevOps
 
 #### Infrastructure Abstraction
@@ -651,9 +648,6 @@ graph TD
 
 ### Software Engineering Principles
 
-#### Developer Cognitive Load
-
-  - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
 #### Programming Languages
 
   - **(2021)** [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Revisa los lenguajes de programación más influyentes y demandados del año 2021, evaluando su adopción en microservicios, frontend y desarrollo móvil. Ayuda a los equipos de desarrollo a evaluar qué tecnologías garantizan mayor facilidad para contratar talento y compatibilidad de librerías a largo plazo.
@@ -803,6 +797,11 @@ graph TD
 #### Lessons Learned
 
   - **(2021)** [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid engineering post-mortem of catastrophic distributed systems architectures. It warns against over-engineered microservice boundaries, distributed transactions, massive latency chains, and premature optimization that results in 'distributed monoliths'.
+### Data Management (2)
+
+#### Event-driven Architecture
+
+  - **(2016)** [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece outlines Martin Kleppmann's paradigm of 'turning the database inside-out'. It advocates for treating state logs as a first-class citizen, enabling downstream services to process and construct specialized read-optimized views.
 ### Design Patterns (3)
 
 #### Best Practices (2)
@@ -960,15 +959,6 @@ graph TD
 
   - **(2024)** [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Kubernetes' evolution from a simple microservices hosting platform to an advanced orchestrator for heavy batch processing, AI/ML training runs, and high-performance computing (HPC) jobs.
 ## Platform Engineering (3)
-
-### Internal Developer Platforms
-
-#### Organizational Structure (1)
-
-??? note "softwareengineeringdaily.com: The Rise of Platform Engineering 🌟"
-    **[Access Resource](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)** 🌟🌟🌟🌟🌟 | Level: Advanced
-    
-    Historically significant piece tracking the evolution from traditional DevOps silos to Platform Engineering. Discusses building Internal Developer Platforms (IDPs) to lower cognitive load for application developers, establishing self-service infrastructure portals, and applying product management principles to internal tooling.
 
 ### Paas Solutions
 
@@ -1168,7 +1158,7 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
 

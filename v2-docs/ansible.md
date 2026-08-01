@@ -1,5 +1,5 @@
 ---
-description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more — curated Cloud Native tools, guides and references."
+description: "Top Ansible resources for 2026, AI-ranked: AWX, Gradle Cheat Sheets and more — curated Cloud Native tools, guides and references."
 ---
 # Configuration Management. Ansible
 
@@ -320,6 +320,20 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
 #### Practical Labs
 
   - **(2021)** [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn) <span class='md-tag md-tag--warning'>[FRENCH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical lab illustrating the deployment of Prometheus Node Exporter. Details how to utilize modular Ansible roles to dynamically configure, enable, and monitor Linux targets.
+## Devsecops and Registry
+
+### Java Tools
+
+#### Gradle Reference
+
+  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
+## Hybrid Cloud and Enterprise
+
+### Openshift
+
+#### Data Management
+
+  - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure As Code (1)
 
 ### Ansible (4)
@@ -568,7 +582,7 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [Kustomize](./kustomize.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Pulumi](./pulumi.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 

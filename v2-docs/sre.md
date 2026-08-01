@@ -139,13 +139,6 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2022)** [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cortex's architectural guide evaluating modern SRE tooling stacks. Highlights service catalogs, central tracking, alert deduplication, automated runbooks, and performance benchmarking.
   - **(2021)** [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the fundamental tooling categories necessary for robust SRE practices, spanning declarative Infrastructure as Code (IaC), performance profiling, on-call management, and automated monitoring integrations.
   - **(2021)** [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluative overview of top-tier reliability platforms. Focuses on tools addressing continuous anomaly detection, SLO dashboards, chaos engineering, and incident management pipelines.
-## Platform Engineering (1)
-
-### Design Methodology
-
-#### Platform Democracy
-
-  - **(2023)** [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the shift from top-down platform imposition to a collaborative platform democracy model where users actively influence platform features. Focuses on Kratix-style platform design that co-creates platform capabilities to better align with actual developer workflows and organizational requirements.
 ## Reliability Engineering (1)
 
 ### Cloud Native Paradigms
@@ -183,14 +176,9 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 #### Core Architectures
 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
-### Version Control Systems
-
-#### Git Workflows
-
-  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
 
 ---
-💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [Developerportals](./developerportals.md) | [QA](./qa.md) | [Project Management Tools](./project-management-tools.md)
 
-🔗 **See Also:** [AWS Databases](./aws-databases.md) | [AWS](./aws.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

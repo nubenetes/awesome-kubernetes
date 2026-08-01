@@ -17,7 +17,14 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
 
   - **(None)** [](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/doc-history.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-## Infrastructure As Code
+## Cloud Computing
+
+### AWS
+
+#### Infrastructure As Code
+
+  - **(2022)** [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, open-access video bootcamp by freeCodeCamp focusing on AWS CloudFormation. Teaches declarative resource provisioning, nested templates, drift detection, and deployment strategies for managing large AWS architectures as code.
+## Infrastructure As Code (1)
 
 ### Automated Generation
 
@@ -67,7 +74,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
   - **(2022)** [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detailing the YAML patterns required to create and lock down basic AWS S3 buckets inside CloudFormation templates. It details parameters for versioning rules, basic access controls, and server-side encryption.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

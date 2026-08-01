@@ -179,7 +179,7 @@ description: "Top Yaml resources for 2026, AI-ranked: Polaris, KubeLinter and mo
   - **(2023)** [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market breakdown contrasting modern validation utilities for Kubernetes platforms. Reviews differences between structural validators, OPA-based policy enforcement engines, and semantic layout detectors.
 
 ---
-💡 **Explore Related:** [Message Queue](./message-queue.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

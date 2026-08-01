@@ -217,11 +217,6 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2020)** [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/articles/the-problem-with-org-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the friction between traditional hierarchical organizational charts and the dynamic, communication-focused patterns required for modern software delivery. Highlights how Conway's Law dictates that systems design mirrors communication structures, recommending shifting towards Team Topologies-aligned structures to streamline product delivery.
 ## Platform Engineering
 
-### Gitops
-
-#### Helm Lifecycle Management
-
-  - **(2022)** [**codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟**](https://octopus.com/devops) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the application of visual Kanban paradigms to Kubernetes deployment pipelines, specifically managing and promoting Helm releases across environments. Contrasts traditional CI/CD promotion techniques with visual value stream modeling, demonstrating how platform teams can reduce deployment friction and coordinate microservice boundaries with clear board transitions.
 ### Innersource
 
 #### DevOps Transition
@@ -295,13 +290,6 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2021)** [Understanding Responsibility Assignment Matrix (RACI Matrix)](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the design and execution of the Responsibility Assignment Matrix (RACI), highlighting its critical role in multi-stakeholder enterprise engineering projects. Details how to clarify roles (Responsible, Accountable, Consulted, Informed) to eliminate organizational ambiguity and speed up operational decision-making.
   - **(2021)** [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://analoghq.ai/blog/es/matriz-raci) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a detailed breakdown of the RACI model for assigning responsibility within multidisciplinary digital product teams. Explores how defining ownership upfront helps prevent friction during agile development iterations and release activities.
   - **(2021)** [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An academic and practical analysis of responsibility delegation using the RACI framework. Discusses common implementation pitfalls, such as assigning multiple 'Accountable' parties, and how to balance ownership in complex software delivery and systems administration projects.
-## Security
-
-### Container Security
-
-#### Devsecops
-
-  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 ## Software Engineering
 
 ### Agile Methodologies (3)
@@ -321,11 +309,6 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Engineering Culture (1)
 
   - **(2021)** [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](https://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critiques the anti-pattern of Promotion Driven Development (PDD), where engineers select unnecessary, highly complex tools and over-engineer architectures to pad resumes for promotions. Warns against the resulting complexity, technical debt, and team maintenance burdens.
-### Collaboration
-
-#### Documentation Specifications
-
-  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Hybrid Methodologies
 
 #### Agile-waterfall Integration
@@ -345,7 +328,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [Developerportals](./developerportals.md) | [QA](./qa.md) | [Project Management Tools](./project-management-tools.md)
 
-🔗 **See Also:** [AWS Databases](./aws-databases.md) | [AWS](./aws.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

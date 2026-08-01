@@ -55,13 +55,6 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 #### Openshift Infrastructure Deployment
 
   - **(2023)** [Openshift Baremetal - Installer's Bake-off: Agent vs Assisted vs IPI](https://www.youtube.com/watch?si=vK_9UKjGV8F24Ebt&v=1v15VSKPZRU&feature=youtu.be) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth technical comparison of OpenShift bare-metal installation strategies. Weighs the architectural pros and cons of Installer-Provisioned Infrastructure (IPI), Assisted Installer setups, and isolated Agent-based workflows.
-## Cloud Native Infrastructure
-
-### Service Mesh
-
-#### Tutorials
-
-  - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
 ## Cloud-native Infrastructure
 
 ### Learning Resources
@@ -69,13 +62,6 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 #### Kubernetes Courses
 
   - **(2024)** [**wardviaene/kubernetes-course**](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1732</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d6612bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 8 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-9d6612bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Accompanying codebase for Ward Viaene's comprehensive Kubernetes course, demonstrating deployments, configurations, microservice communication patterns, and cloud migrations. (Live Grounding: Widely trusted community-backed repository illustrating production-grade YAML configurations).
-## Container Orchestration (1)
-
-### AKS Labs
-
-#### Hands-on Learning
-
-  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
 ## DevOps
 
 ### Automation
@@ -83,13 +69,6 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 #### Education Tooling
 
   - **(2023)** [Quiz Grader](https://github.com/ned1313/quiz-grader) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. Processes markdown-based inputs to generate structured performance assessments, supporting classroom and self-assessment operations.
-## Frontend Development
-
-### React Framework
-
-#### State Management
-
-  - **(2019)** [useHooks - React Hooks Library](https://usehooks.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-ready React hook recipes facilitating decoupled side effects, event listener bindings, dynamic state persistence, and responsive UI behaviors without custom boilerplate code.
 ## Fundamentals
 
 ### Developer Workflows
@@ -97,15 +76,6 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 #### Architecture
 
   - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-first manual illustrating structural components and cluster design properties. Guides programmers to understand how their API payload deployments translates to actual container lifecycle actions on physical machines.
-## Infrastructure
-
-### Networking
-
-#### Fundamentals (1)
-
-##### Service Discovery
-
-  - **(2024)** [**Kubernetes Services and Load Balancing Explained**](https://learnkube.com/kubernetes-services-and-load-balancing) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A contemporary structural breakdown explaining how Kubernetes leverages service endpoints to build abstract load balancing layers. Reviews the operations of kube-proxy in writing local node routing rules and traces how traffic migrates from virtual endpoints to real pod ports.
 ## Kubernetes Tools
 
 ### General Reference
@@ -131,7 +101,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 ##### Platform Engineering
 
   - **(2026)** [==100 Days Of Kubernetes: 100daysofkubernetes.io==](https://100daysofkubernetes.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly progressive community learning roadmap tracing advanced modern platform architectures. Chronicles continuous topics ranging from standard containers to advanced Envoy proxying, service meshes, and GitOps deployments.
-#### Fundamentals (2)
+#### Fundamentals (1)
 
   - **(2025)** [**devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide**](https://devopscube.com/kubernetes-tutorials-beginners) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional introductory portal that distills container architecture into highly digestible guides. Explores standard pod mechanics, ingress controllers, environment configs, and scaling strategies with clean procedural steps.
 #### Hands-on Labs (1)
@@ -173,7 +143,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 ##### Enterprise Fundamentals
 
   - **(2024)** [**youtube playlist: DevNation Lessons: Kubernetes Fundamentals**](https://www.youtube.com/playlist?list=PLf3vm0UK6HKpOqIY2fcu_M0sCSpluyXMW) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat's developer lessons focused on real-world system patterns, detailing secure service integration, configurations separation, and cluster administration patterns within heavy enterprise networks.
-##### Fundamentals (3)
+##### Fundamentals (2)
 
   - **(2024)** [youtube playlist: Thetips4you - Kubernetes Tutorial for Beginners](https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory video collection teaching standard configuration, secret integration, dynamic cloud volumes, and fundamental deployment syntax. Recommended for engineers transitioning from traditional VM hypervisors.
 ##### Networking and Core
@@ -187,18 +157,6 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 #### Visual Learning
 
   - **(2022)** [**cloud.google.com: kubernetes comic**](https://cloud.google.com/kubernetes-engine/kubernetes-comic) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's classic, highly creative visual guide explaining modern container scaling, lifecycle, and orchestration concepts through graphic storytelling. Perfect for explaining Kubernetes business advantages to technical managers.
-## Platform Engineering (1)
-
-### Kubernetes Gitops and Packaging
-
-#### Learning Hubs
-
-  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
-### Legacy Sandboxes
-
-#### Interactive Learning
-
-  - **(2022)** [katacoda.com 🌟](https://www.katacoda.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Katacoda was a widely used interactive browser platform for practicing Kubernetes and container administration. The platform was officially terminated by O'Reilly in 2022. Platform engineers in 2026 utilize alternatives like Killercoda for sandbox exercises.
 ## Professional Development
 
 ### Opinion and Strategy (1)
@@ -215,7 +173,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2024)** [==Build Your Own X==](https://github.com/codecrafters-io/build-your-own-x) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An immensely popular community-driven compilation of step-by-step guides for building complex software systems (compilers, databases, operating systems, Docker) from scratch. Perfect for deep pedagogical exploration of core engineering systems.
 
 ---
-💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
 

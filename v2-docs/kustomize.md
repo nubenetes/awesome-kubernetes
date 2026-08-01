@@ -63,16 +63,9 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
 #### Kubestack
 
   - **(2026)** [==Kubestack Gitops Framework==](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b44ef4f3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 12 L 30 9 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-b44ef4f3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Terraform-driven GitOps framework configured to simplify public cloud Kubernetes platform deployments and application configurations. It leverages native inheritance behaviors of Terraform modules to manage multi-cluster topologies predictably. It bridges infrastructure provisioning and GitOps continuous delivery workflows.
-## Infrastructure Security
-
-### Inbound Traffic Management
-
-#### Traefik
-
-  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical integration blog detailing how to deploy and customize the Traefik v2.2 Ingress Controller using Kustomize configurations. It illustrates how to define overlays for environment-specific network values, secure SSL contexts, and service exposures. Useful reference for managing non-trivial ingress manifests programmatically.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Pulumi](./pulumi.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 

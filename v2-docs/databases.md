@@ -57,11 +57,27 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Secrets Management
 
   - **(2021)** [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates security pipelines for managing MongoDB database credentials inside GitHub. Automates deployment configurations securely through GitOps, injecting secrets directly to Percona Kubernetes Operator instances.
+## Cloud Native Infrastructure
+
+### Observability
+
+#### Prometheus
+
+##### Database Monitoring
+
+  - **(2020)** [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical integration guide on monitoring ClickHouse database clusters with Prometheus and Grafana. It details how to enable ClickHouse's native Prometheus metrics exporter in config.xml, configures Prometheus to scrape ClickHouse metrics, and reviews visualization dashboards.
 ## Cloud-native Design
 
 ### Architecture Patterns
 
   - **(2022)** [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines stored procedures and database triggers in cloud-native microservice topologies. Warns against architectural coupling and operational performance bottlenecks, advocating for stateless application logic to preserve horizontal scalability.
+## Cloud-native Infrastructure
+
+### Infrastructure Provisioning
+
+#### Kubernetes Operators (1)
+
+  - **(2022)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the paradigm shift of utilizing Kubernetes-native custom resource definitions (CRDs) and operators to provision external cloud resources (such as AWS ACK, GCP Config Connector, and Azure Service Operator). This declarative Infrastructure-as-Code pattern replaces external Terraform runs with continuous control loops inside the cluster. (Live Grounding: Standardizes management under unified Kubernetes control planes, resolving out-of-band drifts).
 ## Data Analytics
 
 ### Real-time Analytics
@@ -104,7 +120,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Future Trends
 
   - **(2021)** [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the systemic shift toward automated multi-cloud database topologies managed exclusively by Kubernetes. Outlines standard enterprise savings, compliance, and rapid multi-tenant provisioning strategies.
-### Kubernetes Operators (1)
+### Kubernetes Operators (2)
 
 #### Standards
 
@@ -258,7 +274,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Gitops
 
   - **(2022)** [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Percona's technical case study on deploying MySQL clusters inside Kubernetes using GitOps pipelines. Connects ArgoCD or Flux workflows with declarative Percona Operators to automate database replication topologies.
-#### Kubernetes Operators (2)
+#### Kubernetes Operators (3)
 
   - **(2024)** [kubedb.com](https://kubedb.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of KubeDB, an operator platform for automating databases on Kubernetes. Highlights declarative management of clustering, scheduling backups, and schema updates across multiple database engines (PostgreSQL, MySQL, MongoDB).
 #### Mysql Operators
@@ -327,6 +343,13 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Real-time Analytics (1)
 
   - **(2025)** [Apache Druid](https://druid.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation repository for Apache Druid, a real-time analytical database optimized for sub-second ad-hoc queries over massive streaming event data volumes. Standard core utility for streaming platforms.
+## Observability (1)
+
+### Distributed Storage
+
+#### Victoriametrics
+
+  - **(2024)** [VictoriaMetrics](https://victoriametrics.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of VictoriaMetrics, an extremely fast and cost-effective TSDB solution. Widely used as a drop-in replacement for Prometheus storage owing to high compression ratios and out-of-the-box cluster scalability.
 ## Postgresql (1)
 
 ### Alternative Paradigms
@@ -461,6 +484,9 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2023)** [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide outlining core strategies for relational query optimization. Highlights planning optimization via EXPLAIN plans, index selection logic, partition tuning, and the avoidance of common performance-draining database queries.
 ## SQL Server
 
+### Backup Administration
+
+  - **(2025)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates native PowerShell script templates to automate Microsoft SQL Server backups. Offers a valuable guide for planning traditional database state transitions into hybrid Kubernetes clusters.
 ### DevOps
 
   - **(2022)** [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical DevOps pipeline patterns for Azure SQL. Outlines dynamic deployment workflows using GitHub Actions and Azure DevOps to coordinate declarative state synchronizations matching app changes.
@@ -509,9 +535,12 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Architecture (1)
 
   - **(2021)** [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical architectural article arguing against the systemic misuse of blockchain technologies for transactional audit logging. Demonstrates that time-series databases provide equivalent historic immutability, superior indexing speed, and scalable writes.
+### Victoriametrics (1)
+
+  - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Message Queue](./message-queue.md) | [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 
