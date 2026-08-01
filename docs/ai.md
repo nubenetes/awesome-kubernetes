@@ -166,3 +166,6 @@ security from the beginning with continuous testing, automation, zero trust, and
     </center>
 
   - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 - Amazon ECS adds 20-second high-resolution metrics for Target Tracking policies, decreasing scale-out trigger delay by 76% and end-to-end task provisioning time by 72%.
+
+## Kubernetes
+  - **(2026)** [Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks | AWS News Blog](https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks) 🌟 - Amazon EKS introduces Kubernetes version rollbacks, allowing administrators to reverse cluster upgrades within seven days.

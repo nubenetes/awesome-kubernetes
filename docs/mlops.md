@@ -94,6 +94,7 @@
 - [==youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform==](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale)
 - [==Ray==](https://docs.ray.io/en/latest) is an open-source unified framework for scaling AI and Python applications. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert.
   - **(2026)** [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) 🌟 - Meta introduces SilverTorch, a unified PyTorch model-based system that replaces separate microservices for vector indexing, filtering, and scoring with a single GPU-optimized execution graph.
+  - **(2026)** [Meta's AI Storage Blueprint at Scale](https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale) 🌟 - The architectural blueprint and evolution of Meta's data storage infrastructure designed to feed exabyte-scale AI training.
 
 ## Object Detection Libraries
 
@@ -104,6 +105,7 @@
 - https://mlflow.org
 - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server) A Helm chart for MLFlow On Kubernetes
 - [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow) An Apache Airflow provider to interact with MLflow using Operators and Hooks
+  - **(2026)** [MLflow](https://github.com/mlflow/mlflow) 🌟 - Open source platform for the machine learning lifecycle.
 
 ## Kubeflow
 
