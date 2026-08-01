@@ -1142,6 +1142,7 @@ elastic quotas - Effortless optimization at its finest!
 ### Komodor Workflows
 
 - [komodor.com: Komodor Workflows: Automated Troubleshooting at the Speed of WHOOSH!](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro)
+  - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4) 🌟 - An architectural deep-dive into how Netflix transitioned its massive-scale batch processing to Kubernetes using the Kueue job scheduler.
 
 ## Azure Eraser
 
