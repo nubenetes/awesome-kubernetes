@@ -12,14 +12,14 @@ To ensure industrial-grade precision, every resource in V2 is classified using o
 
 | Tag | Description | Engineering Context |
 | :--- | :--- | :--- |
-| <a href="./tags/#de-facto-standard"><span class="md-tag md-tag--success">[DE FACTO STANDARD]</span></a> | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
-| <a href="./tags/#enterprise-stable"><span class="md-tag md-tag--success">[ENTERPRISE-STABLE]</span></a> | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
-| <a href="./tags/#emerging"><span class="md-tag md-tag--warning">[EMERGING]</span></a> | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
-| <a href="./tags/#guide"><span class="md-tag md-tag--secondary">[GUIDE]</span></a> | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
-| <a href="./tags/#case-study"><span class="md-tag md-tag--secondary">[CASE STUDY]</span></a> | Real-world evidence. | Practical implementations and architectural lessons from production environments. |
-| <a href="./tags/#community-tool"><span class="md-tag md-tag--info">[COMMUNITY-TOOL]</span></a> | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |
-| <a href="./tags/#legacy"><span class="md-tag md-tag--critical">[LEGACY]</span></a> | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
-| <a href="./tags/#spanish-content"><span class="md-tag md-tag--warning">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |
+| <a href="/tags/#de-facto-standard"><span class="md-tag md-tag--success">[DE FACTO STANDARD]</span></a> | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
+| <a href="/tags/#enterprise-stable"><span class="md-tag md-tag--success">[ENTERPRISE-STABLE]</span></a> | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
+| <a href="/tags/#emerging"><span class="md-tag md-tag--warning">[EMERGING]</span></a> | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
+| <a href="/tags/#guide"><span class="md-tag md-tag--secondary">[GUIDE]</span></a> | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
+| <a href="/tags/#case-study"><span class="md-tag md-tag--secondary">[CASE STUDY]</span></a> | Real-world evidence. | Practical implementations and architectural lessons from production environments. |
+| <a href="/tags/#community-tool"><span class="md-tag md-tag--info">[COMMUNITY-TOOL]</span></a> | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |
+| <a href="/tags/#legacy"><span class="md-tag md-tag--critical">[LEGACY]</span></a> | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
+| <a href="/tags/#spanish-content"><span class="md-tag md-tag--warning">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |
 
 ## Technical Impact (Relevance Score)
 
