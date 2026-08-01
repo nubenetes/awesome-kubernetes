@@ -36,7 +36,7 @@ description: "Top Noops resources for 2026, AI-ranked: 7 arguments against NoOps
   - **(2021)** [Serverless Computing: Moving from DevOps to NoOps](https://devops.com/serverless-computing-moving-from-devops-to-noops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how serverless architectures drive NoOps execution. Emphasizes shifting operations responsibilities (e.g., node provisioning, patching, scaling) to public cloud platforms, allowing developers to focus strictly on code components.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

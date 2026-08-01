@@ -200,6 +200,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
 
 #### Best Practices
 
+  - **(2015)** [==Bash Pitfalls 🌟==](https://mywiki.wooledge.org/BashPitfalls) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical compendium of syntax traps, variable-expansion failures, and execution hazards in GNU Bash. This reference provides deep architectural insight into bash process substitution, globbing, and pipeline evaluation. Live Grounding verifies this wiki as the definitive industry guide for engineering resilient, non-deterministic system scripts.
   - **(2020)** [**pythonspeed.com: Please stop writing shell scripts**](https://pythonspeed.com/articles/shell-scripts) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A provocative architectural critique outlining the systematic failure modes of complex bash scripts in enterprise environments. It advocates for transitioning back to robust, typed languages like Python for complex logic. Live Grounding highlights this paradigm shift in DevOps, where script complexity mandates structured programming.
   - **(2021)** [dev.to: Writing Bash Scripts Like A Pro - Part 1 - Styling Guide](https://dev.to/unfor19/writing-bash-scripts-like-a-pro-part-1-styling-guide-4bin) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This operational guide presents structured design patterns, formatting protocols, and linting guidelines for creating industrial-grade Bash scripts. It prioritizes codebase legibility and predictive execution paths. Live Grounding emphasizes its synergy with contemporary static analysis tools to maintain complex configuration scripts.
   - **(2012)** [robertmuth.blogspot.com: Better Bash Scripting in 15 Minutes](https://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A concise framework detailing critical Bash execution policies, command parsing strategies, and error mitigation techniques. It emphasizes the structural shift from rapid prototyping to production-grade shell scripting. While historically useful, Live Grounding indicates that modern environments frequently augment these guidelines with automated linters like ShellCheck.
@@ -269,6 +270,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
   - **(2009)** [==Oh My Zsh==](https://ohmyz.sh) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier framework for managing Zsh shell configurations. It comes packaged with thousands of community-authored helper functions, themes, and CLI integrations. Live Grounding highlights its unparalleled adoption across developer workstations, standardizing interactive command-line interfaces.
 #### Tricks and Tweaks
 
+  - **(2008)** [**CommandLineFu 🌟**](https://www.commandlinefu.com/commands/browse) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An interactive, crowd-sourced catalog of advanced Linux command execution scripts, categorized by utility and syntax goals. Live Grounding confirms it is widely used by system administrators to query fast fixes and operational bash templates.
   - **(2011)** [climagic.org](https://www.climagic.org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, community-curated archive demonstrating shell scripting snippets, terminal jokes, and advanced command-line recipes. Live Grounding indicates it serves as an educational repository for shell optimization.
   - **(2009)** [Linux 101 Hacks](https://linux.101hacks.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive list of command-line shortcuts, system configurations, and utility operations designed to optimize server interactions. Live Grounding notes that while command defaults have updated, the fundamentals of text manipulation remain relevant.
   - **(2009)** [twitter.com/commandlinefu](https://x.com/commandlinefu) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Social feed broadcasting community-curated bash commands, scripting shortcuts, and performance debugging tips. Live Grounding shows it acts as an informative micro-learning stream for system operations professionals.
@@ -279,13 +281,6 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
 #### Hypervisors
 
   - **(2023)** [**github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟**](https://github.com/cyberus-technology/virtualbox-kvm) <span class='md-tag md-tag--info'>⭐ 1113</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0928cf86" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 8 L 30 3 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-0928cf86)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A performance-focused extension enabling Oracle VirtualBox to delegate execution directly to the native Linux Kernel-based Virtual Machine (KVM) backend. It removes proprietary kernel module requirements. Live Grounding highlights its architectural value for running clean virtualization loops inside Linux workstations.
-## Kubernetes
-
-### Resource Management
-
-#### CPU Throttling
-
-  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
 ## Kubernetes Tools
 
 ### General Reference
@@ -418,6 +413,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
 ??? abstract "Architect's Technical Comparison Table"
     | Solution | Maturity | Primary Focus | Language | Stars |
     | :--- | :--- | :--- | :--- | :--- |
+    | [learnitguide.net 🌟](https://www.learnitguide.net) |  | SysAdmin Tutorials | English | 🌟🌟🌟🌟 |
     | [The Geek Stuff](https://www.thegeekstuff.com) |  | SysAdmin Tutorials | English | 🌟🌟🌟🌟 |
     | [linuxteck.com](https://www.linuxteck.com) |  | SysAdmin Tutorials | English | 🌟🌟🌟 |
     | [howtoforge.com](https://www.howtoforge.com) |  | SysAdmin Tutorials | English | 🌟🌟🌟 |
@@ -427,6 +423,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
     | [Linux Skills](https://www.youtube.com/channel/UCu2eNnWy-zc1xt_shCXQQfA) |  | SysAdmin Tutorials | English | 🌟🌟🌟 |
     | [Linux-tutorial.info](https://www.linux-tutorial.info) |  | SysAdmin Tutorials | English | 🌟🌟 |
 
+  - **(2026)** [**learnitguide.net 🌟**](https://www.learnitguide.net) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated educational platform providing in-depth guides on enterprise Linux administration, DevOps tools, automation, and cloud platforms. Its systematic tutorials are designed to prepare system administrators for managing highly available enterprise environments.
   - **(2026)** [**The Geek Stuff**](https://www.thegeekstuff.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptionally popular command reference and Linux administration blog, known for its concise "15 practical examples" format. Covers database tuning, bash programming, security hardening, and server automation essentials.
   - **(2026)** [linuxteck.com](https://www.linuxteck.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A dedicated tutorial and documentation hub focusing on enterprise Linux systems administration, covering core utilities, service configuration, and security best practices. The platform provides structured command-line examples suitable for automating server maintenance and maintaining system reliability.
   - **(2026)** [howtoforge.com](https://www.howtoforge.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive repository of step-by-step Linux installation and configuration tutorials, heavily focusing on hosting environments, mail servers, and virtualization. It serves as an essential tactical resource for setting up reproducible server configurations across various Linux distributions.
@@ -518,6 +515,9 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
   - **(2023)** [blog.ashwinchat.com: 9 Months of Full Time Neovim + Tmux](https://blog.ashwinchat.com/9-months-of-full-time-vim) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly reflective engineering journal detailing a 9-month migration from IDEs to a unified Neovim and Tmux terminal setup. Evaluates configuration complexity, speed gains, and terminal ergonomics.
 ## Security (2)
 
+### Auditing
+
+  - **(2021)** [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step tutorial on executing Lynis for systemic compliance checks, privilege audits, and vulnerability detection. Live grounding notes that while CentOS is deprecated, Lynis remains an enterprise-stable auditor on Rocky, Alma, and generic RHEL-family distributions.
 ### Data Sanitation
 
   - **(2021)** [opensource.com: 4 Linux tools to erase your data](https://opensource.com/article/21/10/linux-tools-erase-data) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Investigates file shredding and disk zeroing mechanisms utilizing native commands like `shred`, `dd`, `srm`, and custom tooling. Demonstrates the operational physics of hard write manipulation to prevent residual forensic extraction.
@@ -589,7 +589,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
   - **(2022)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to integrate `guestfish` pipelines into cloud image provisioning scripts. Details the automated modification of network configurations, credential injection, and software installations within raw VM images.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [AWS Databases](./aws-databases.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS](./aws.md)
 

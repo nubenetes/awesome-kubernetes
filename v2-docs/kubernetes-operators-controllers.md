@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, K8Spin Operator and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, Keel and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Operators and Controllers
 
@@ -40,13 +40,6 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
   - [cncf.io: Kubernetes Operators 101](https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes Operators 101 in the Kubernetes Tools ecosystem.
   - [cncf.io: CNCF Operator White Paper (PDF) 🌟](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: CNCF Operator White Paper (PDF) 🌟 in the Kubernetes Tools ecosystem.
-## Architecture
-
-### Kubernetes Operators
-
-#### Java Quarkus
-
-  - **(2026)** [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced developer reference for implementing custom Kubernetes Operators in Java using Quarkus. Curator Insight highlights Quarkus' small memory footprint. Live Grounding shows a significant surge in Java Operator SDK adoption for enterprise platforms.
 ## CICD
 
 ### Kubernetes and Containers
@@ -54,13 +47,6 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Self-hosted Infrastructure
 
   - **(2020)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6298</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-69d3828b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 3 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-69d3828b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Kubernetes operator designed to manage self-hosted GitHub Actions runner infrastructure dynamically. Integrates natively with Horizontal Pod Autoscaler (HPA) targets to scale runner deployments in response to webhook event metrics.
-## Cloud Infrastructure
-
-### Kubernetes and Operators
-
-#### Platform Engineering
-
-  - **(2026)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares traditional static IaC runtimes against active reconciliation patterns in Kubernetes Operators. Highlights instances where platform engineering teams require continuously running controller loops to prevent configuration drifts.
 ## Cloud Native Infrastructure
 
 ### Kubernetes Extension
@@ -95,13 +81,6 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Tool Comparison
 
   - **(2021)** [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting the tradeoffs between different operator developer tools like Helm, Ansible, and Go. It establishes a maturity model to help teams choose tools based on their application's lifecycle complexity. Essential reference for migration strategies from simple manifest templates to active state-reconciliation loops.
-## Data and AI
-
-### Batch Scheduling
-
-#### Kueue
-
-  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ## Data and Databases
 
 ### Lifecycle Management
@@ -123,15 +102,6 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 ##### Operators (2)
 
   - **(2023)** [==gemini==](https://github.com/FairwindsOps/gemini) <span class='md-tag md-tag--info'>⭐ 434</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7d138458" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 4 L 20 7 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-7d138458)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A declarative volume snapshot management controller that automates standard backup schedules. It utilizes the native Kubernetes VolumeSnapshot APIs to orchestrate retention policies and dynamic cross-region backup restorations.
-## Developer Experience
-
-### Inner Loop
-
-#### Development Tools
-
-##### Operators (3)
-
-  - **(2022)** [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Bypasses standard development lifecycles by executing code directly inside Kubernetes environments. It connects local systems directly with cluster networks, eliminating slow container build-and-push cycles.
 ## Extensibility and Development
 
 ### Controller Architecture
@@ -188,72 +158,67 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Provisioning
 
-##### Operators (4)
+##### Operators (3)
 
   - **(2024)** [==Bare Metal Operator==](https://github.com/metal3-io/baremetal-operator) <span class='md-tag md-tag--info'>⭐ 745</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3d97fd1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 11 L 20 10 L 30 11 L 40 6 L 50 11" fill="none" stroke="url(#spark-grad-e3d97fd1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Metal3 driver integration designed to inspect, provision, and maintain bare-metal servers using standard Kubernetes resources. It bridges Kubernetes management layers directly to physical infrastructure provisioning.
 ### Cluster Management
 
 #### Node Upgrades
 
-##### Operators (5)
+##### Operators (4)
 
   - **(2024)** [==rancher/system-upgrade-controller: System Upgrade Controller==](https://github.com/rancher/system-upgrade-controller) <span class='md-tag md-tag--info'>⭐ 952</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-82f616fe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 11 L 30 8 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-82f616fe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Orchestrates OS-level and Kubernetes runtime updates across node pools. It structures a sequential drain, upgrade, and uncordon pipeline to maintain continuous service availability.
 ### Control Plane
 
 #### Etcd Coordination
 
-##### Operators (6)
+##### Operators (5)
 
   - **(2022)** [==Quentin-M/etcd-cloud-operator==](https://github.com/Quentin-M/etcd-cloud-operator) <span class='md-tag md-tag--info'>⭐ 234</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b6ac039e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 9 L 20 4 L 30 5 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-b6ac039e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An early framework designed to coordinate etcd state engines in dynamic environments. Modern production setups have moved towards official cloud-provider tooling or alternative operators.
 ### Data Management (1)
 
 #### Apache Flink
 
-##### Operators (7)
+##### Operators (6)
 
   - **(2024)** [==spotify/flink-on-k8s-operator: Kubernetes Operator for Apache Flink==](https://github.com/spotify/flink-on-k8s-operator) <span class='md-tag md-tag--info'>⭐ 225</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d1feec5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 3 L 30 10 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-0d1feec5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Developed by Spotify, this operator simplifies Apache Flink execution. It manages stream-processing job lifecycles, dynamically allocates cluster resources, and automates state checkpointing.
 #### Databases
 
-##### Operators (8)
+##### Operators (7)
 
   - **(2024)** [==DB Operator 🌟==](https://github.com/kloeckner-i/db-operator) <span class='md-tag md-tag--info'>⭐ 163</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f4db1fda" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 6 L 30 8 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-f4db1fda)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The DB Operator facilitates external and in-cluster database administration. It manages PostgreSQL and MySQL configurations natively by separating deployment credentials from application logic, automating dynamic user and table creation using custom resources.
 #### In-memory Databases
 
-##### Operators (9)
+##### Operators (8)
 
   - **(2023)** [==krestomatio/keydb-operator==](https://github.com/krestomatio/keydb-operator) <span class='md-tag md-tag--info'>⭐ 59</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-041d5e2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 8 L 30 13 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-041d5e2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages KeyDB setups, providing high-speed, multi-threaded cache nodes with automated replica synchronization, cluster scaling, and rapid failover handling.
 #### Mongodb
 
-##### Operators (10)
+##### Operators (9)
 
   - **(2023)** [==OT-CONTAINER-KIT/mongodb-operator: MongoDB Operator==](https://github.com/OT-CONTAINER-KIT/mongodb-operator) <span class='md-tag md-tag--info'>⭐ 49</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c6a0d893" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 9 L 30 13 L 40 4 L 50 13" fill="none" stroke="url(#spark-grad-c6a0d893)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages MongoDB databases, replica sets, and sharded environments. It automates scaling, credential updates, and physical storage volume mounts within the cluster.
 #### Object Storage
 
-##### Operators (11)
+##### Operators (10)
 
   - **(2022)** [==didil/autobucket-operator==](https://github.com/didil/autobucket-operator) <span class='md-tag md-tag--info'>⭐ 12</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-85640f53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 13 L 30 7 L 40 5 L 50 12" fill="none" stroke="url(#spark-grad-85640f53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A developer-focused operator that dynamically constructs cloud-native storage buckets (e.g., AWS S3) via dynamic pod annotations, streamlining access to stateful storage assets.
 #### Postgresql
 
-##### Operators (12)
+##### Operators (11)
 
   - **(2024)** [==reactive-tech/kubegres==](https://github.com/reactive-tech/kubegres) <span class='md-tag md-tag--info'>⭐ 1351</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e93f2eec" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-e93f2eec)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubegres is a lightweight operator for managing PostgreSQL clusters. It coordinates master-replica setups, automated failovers, and physical backups using native StateSets with minimal footprint.
 #### Streaming Data
 
-##### Operators (13)
+##### Operators (12)
 
   - **(2023)** [==pravega/pravega-operator==](https://github.com/pravega/pravega-operator) <span class='md-tag md-tag--info'>⭐ 40</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8f34b53d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 7 L 30 5 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-8f34b53d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deploys and maintains high-throughput Pravega streaming architectures, orchestrating the state of BookKeeper, ZooKeeper, and active cluster storage segments.
 ### Gitops
 
 #### Infrastructure-as-code
 
-##### Operators (14)
+##### Operators (13)
 
   - **(2024)** [==isaaguilar/terraform-operator: Terraform Operator==](https://github.com/GalleyBytes/terraform-operator) <span class='md-tag md-tag--info'>⭐ 380</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fce37aca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 9 L 20 5 L 30 4 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-fce37aca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Executes declarative Terraform pipelines natively as custom resources inside clusters. It matches dynamic GitOps deployment models to external cloud infrastructure, allowing teams to unify orchestration under a single control plane.
-### Hardware
-
-#### GPU Virtualization
-
-  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
 ### Networking
 
 #### Ingress
@@ -268,32 +233,6 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Hardware Integration
 
   - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3788</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8308a262" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 7 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-8308a262)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
-## Infrastructure As Code
-
-### AI Integrations
-
-#### Validation and Testing
-
-  - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
-### Ansible
-
-#### Core Concepts
-
-  - **(2022)** [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive primer exploring how to declare, structure, and organize Ansible inventories. Covers standard INI and YAML file declarations, host-group structures, nested grouping, and introductory dynamic inventory strategies.
-## Kubernetes
-
-### Troubleshooting
-
-#### Playbooks
-
-  - **(2023)** [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This compilation details ten authentic, highly technical outage scenarios encountered in production Kubernetes clusters, complete with step-by-step diagnostic paths and resolutions. It covers complex issues like DNS resolution failure, certificate expiration, and stateful volume mounting locks. The practical nature of these scenarios makes this an invaluable resource for active operations teams.
-## Kubernetes Developer Experience
-
-### Inner-loop Automation
-
-#### Guides
-
-  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
 ## Kubernetes Gitops and Packaging
 
 ### Argo Project Ecosystem
@@ -307,7 +246,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Video Processing
 
-##### Operators (15)
+##### Operators (14)
 
   - **(2023)** [==gst-pipeline-operator: A Kubernetes operator for running audio/video processing' pipelines==](https://github.com/tinyzimmer/gst-pipeline-operator) <span class='md-tag md-tag--info'>⭐ 24</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f15f54a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 6 L 30 9 L 40 10 L 50 7" fill="none" stroke="url(#spark-grad-1f15f54a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly specialized operator configured to execute GStreamer audio/video pipelines inside clusters, scaling media ingestion, processing topologies, and delivery channels dynamically.
 ## Networking (1)
@@ -316,7 +255,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Service Discovery
 
-##### Operators (16)
+##### Operators (15)
 
   - **(2023)** [==Meerkat==](https://github.com/borchero/meerkat) <span class='md-tag md-tag--info'>⭐ 38</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8469b7e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 9 L 30 7 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-8469b7e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dynamic networking operator designed to update and map external DNS routes. It reads internal networking resource allocations to dynamically register up-to-date hostname directories.
 ### DNS and Ingress
@@ -333,14 +272,14 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Host Port Allocation
 
-##### Operators (17)
+##### Operators (16)
 
   - **(2022)** [==HostPort Operator==](https://github.com/rmb938/hostport-allocator) <span class='md-tag md-tag--info'>⭐ 18</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bab93ec5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 2 L 30 10 L 40 8 L 50 12" fill="none" stroke="url(#spark-grad-bab93ec5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An allocation controller that coordinates and locks dedicated hostPorts for pods. It mitigates physical scheduling conflicts when multiple high-performance workloads require direct edge node exposure.
 ### Load Balancing
 
 #### High Availability
 
-##### Operators (18)
+##### Operators (17)
 
   - **(2023)** [==redhat-cop/keepalived-operator: Keepalived operator==](https://github.com/redhat-cop/keepalived-operator) <span class='md-tag md-tag--info'>⭐ 123</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0c43f46b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 2 L 30 6 L 40 8 L 50 12" fill="none" stroke="url(#spark-grad-0c43f46b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages Keepalived deployments within Kubernetes clusters. It coordinates VIP (Virtual IP) failover protocols across physical or virtual cluster node interfaces.
 ### Operator
@@ -359,31 +298,31 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Pipeline Management
 
-##### Operators (19)
+##### Operators (18)
 
   - **(2023)** [==Logging Operator==](https://github.com/OT-CONTAINER-KIT/logging-operator) <span class='md-tag md-tag--info'>⭐ 51</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-94966b68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 10 L 30 2 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-94966b68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Simplifies multi-tenant logging infrastructure by coordinating central Fluentd and Fluent Bit setups. It manages complex logging filters and output endpoints declaratively.
 ### Metrics
 
 #### Thanos Orchestration
 
-##### Operators (20)
+##### Operators (19)
 
   - **(2023)** [==banzaicloud/thanos-operator 🌟==](https://github.com/banzaicloud/thanos-operator) <span class='md-tag md-tag--info'>⭐ 283</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6df9678b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 6 L 20 4 L 30 3 L 40 2 L 50 7" fill="none" stroke="url(#spark-grad-6df9678b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Streamlines Thanos-based monitoring architectures by provisioning Query, Store, Compact, and Ruler resources. It manages historical metrics storage across dynamic environments.
 #### Timeseries Databases
 
-##### Operators (21)
+##### Operators (20)
 
   - **(2024)** [==VictoriaMetrics/operator==](https://github.com/VictoriaMetrics/operator) <span class='md-tag md-tag--info'>⭐ 566</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5d997e16" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 5 L 30 12 L 40 4 L 50 6" fill="none" stroke="url(#spark-grad-5d997e16)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Coordinates components of VictoriaMetrics (including VMCluster and VMAgent). It manages complex metrics scraping rules and automates long-term TSDB storage scaling.
 ### Monitoring
 
 #### External Integration
 
-##### Operators (22)
+##### Operators (21)
 
   - **(2023)** [==uptimerobot-operator==](https://github.com/brennerm/uptimerobot-operator) <span class='md-tag md-tag--info'>⭐ 60</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a5d992a1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 9 L 30 12 L 40 3 L 50 11" fill="none" stroke="url(#spark-grad-a5d992a1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Synchronizes current routing profiles with the UptimeRobot API. It dynamically configures exterior synthetic latency testing targets as new ingresses scale up or out.
 #### Ingress Monitoring
 
-##### Operators (23)
+##### Operators (22)
 
   - **(2023)** [==IngressMonitorController (Deprecated)==](https://github.com/stakater/IngressMonitorController) <span class='md-tag md-tag--info'>⭐ 735</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9be43478" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 6 L 20 12 L 30 7 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-9be43478)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An older monitoring operator designed to orchestrate uptime checks across multiple external platforms. Live Grounding indicates that this project has been archived and deprecated in favor of active native alternatives.
 ## Operations and Reliability
@@ -415,7 +354,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - **(2025)** [==github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟==](https://github.com/NCCloud/mayfly) <span class='md-tag md-tag--info'>⭐ 337</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-38117167" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 7 L 20 4 L 30 7 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-38117167)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Mayfly introduces time-to-live policies on generic Kubernetes resources and testing namespaces. Once designated duration guidelines are reached, Mayfly executes automated teardowns, ensuring transient tests do not leave lingering etcd records or unused services.
 ## Orchestration
 
-### Kubernetes (1)
+### Kubernetes
 
 #### Networking (2)
 
@@ -423,7 +362,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Observability (3)
 
   - **(2024)** [kube-fluentd-operator 🌟](https://github.com/vmware-archive/kube-fluentd-operator) <span class='md-tag md-tag--info'>⭐ 321</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ddcd09b3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 3 L 30 6 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-ddcd09b3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A now-archived operator designed to dynamically construct namespace-specific Fluentd logging pipelines in Kubernetes. Modern platform engineering architectures have largely transitioned to standardized OpenTelemetry or Fluent Bit routing setups.
-#### Operators (24)
+#### Operators (23)
 
   - **(2025)** [Speculator: Redis Operator](https://github.com/OT-CONTAINER-KIT/redis-operator) <span class='md-tag md-tag--info'>⭐ 1379</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-81fd12c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 5 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-81fd12c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced Redis Operator developed by OT Container Kit. Features automated failover management, backup orchestrations, persistence configuration, and Redis Sentinel cluster sizing within Kubernetes native deployments.
   - **(2025)** [Kotal operator](https://github.com/kotalco/kotal) <span class='md-tag md-tag--info'>⭐ 221</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7aa72624" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 11 L 30 11 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-7aa72624)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-client blockchain node operator for Kubernetes. Simplifies configuring and maintaining decentralized networks (such as Ethereum and IPFS) through native Kubernetes custom resources.
@@ -433,7 +372,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - **(2020)** [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrated guide defining the role, architecture, and common deployment strategies of Kubernetes Operators. Explains how custom controllers automate day-2 infrastructure management tasks like scaling, backups, and state healing.
   - **(2020)** [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on Kubernetes Operator lifecycle maturity models, introducing toolkits like KUDO (Kubernetes Universal Declarative Operator). Covers operational challenges, telemetry gathering, and unified configuration schemas.
   - **(2019)** [infoq.com: Kubernetes Operators in Depth](https://www.infoq.com/articles/kubernetes-operators-in-depth) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-density architectural breakdown exploring the reconciliation loop, custom controller watch mechanisms, and cache behaviors inside the Kubernetes API server model. Essential reading for platform architects building operators.
-## Platform Engineering (1)
+## Platform Engineering
 
 ### Gitops and Configuration
 
@@ -465,19 +404,19 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Synthetic Monitoring
 
-##### Operators (25)
+##### Operators (24)
 
   - **(2024)** [==kuberhealthy 🌟==](https://github.com/kuberhealthy/kuberhealthy) <span class='md-tag md-tag--info'>⭐ 2247</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7784f7db" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 2 L 30 5 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-7784f7db)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kuberhealthy schedules dynamic, real-world actions as background test suites. It detects underlying API, network, or storage decay that static monitoring tools overlook by continually validating that clusters are functionally operational.
 ### Testing
 
 #### Load Testing
 
-##### Operators (26)
+##### Operators (25)
 
   - **(2022)** [kubeload - load testing](https://github.com/Efrat19/kubeload) <span class='md-tag md-tag--info'>⭐ 24</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-65b2b8d0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 6 L 30 13 L 40 10 L 50 7" fill="none" stroke="url(#spark-grad-65b2b8d0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operator framework that manages and scales load testing deployments inside a cluster. It coordinates distributed engines to simulate realistic traffic profiles against selected cluster endpoints, streamlining continuous integration workflows.
 #### Performance Benchmarking
 
-##### Operators (27)
+##### Operators (26)
 
   - **(2024)** [==cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks==](https://github.com/cloud-bulldozer/benchmark-operator) <span class='md-tag md-tag--info'>⭐ 305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-94be6cd9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 4 L 20 6 L 30 3 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-94be6cd9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automates heavy performance testing (e.g., FIO, uperf) within active clusters. It deploys targets, isolates benchmark metrics, and exports execution data to visualization layers.
 ## Resources
@@ -486,54 +425,54 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Migration
 
-##### Operators (28)
+##### Operators (27)
 
   - **(2021)** [thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator 🌟](https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-world case study outlining the transition from Helm charts to custom Go operators. It discusses the scaling limitations of template parsing when implementing complex state machines.
 ### Education
 
 #### Architectural Decision
 
-##### Operators (29)
+##### Operators (28)
 
   - **(2021)** [kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟](https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the competitive operational advantages of selecting the Operator pattern over traditional scripting approaches, focusing on automated self-healing and standardized state reconciliation.
 #### Concepts
 
-##### Operators (30)
+##### Operators (29)
 
   - **(2021)** [container-solutions.com: Kubernetes Operators Explained](https://blog.container-solutions.com/kubernetes-operators-explained) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An foundational architectural guide explaining the design of the Kubernetes Operator pattern. It covers the core mechanics of custom controllers, the reconciliation loop, and CRDs, codifying operational knowledge into software.
 #### Deep Dive
 
-##### Operators (31)
+##### Operators (30)
 
   - **(2021)** [iximiuz.com: Exploring Kubernetes Operator Pattern 🌟](https://iximiuz.com/en/posts/kubernetes-operator-pattern) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis on the mechanics of the controller runtime. It explains internal structures such as informers, dynamic work queues, and client-go caches, illustrating how reconciliation loops run concurrently.
 #### Introductory
 
-##### Operators (32)
+##### Operators (31)
 
   - **(2021)** [learnsteps.com: Advance Kubernetes: What exactly are Kubernetes Operators?](https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory post explaining the mechanics of custom Kubernetes controllers. It maps physical operator duties to software loops to illustrate the benefits of declarative configurations.
 #### Java Ecosystem
 
-##### Operators (33)
+##### Operators (32)
 
   - **(2021)** [spring.io: Get to Know a Kubernetes Operator!](https://spring.io/blog/2021/11/19/get-to-know-a-kubernetes-operator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide demonstrating the Java Operator SDK. It details how Java-centric teams can write native controllers using GraalVM to compile down to low-memory native executables.
 #### Official Guide
 
-##### Operators (34)
+##### Operators (33)
 
   - **(2021)** [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory blog post from the Kubernetes maintainers details the process of writing an active controller that automatically validates and formats Pod label schemas.
 #### Trade-off Evaluation
 
-##### Operators (35)
+##### Operators (34)
 
   - **(2021)** [blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)](https://blog.px.dev/k8s-operator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the advantages and disadvantages of deploying Operators. It contrasts automation capabilities against increased control-plane pressure and code maintenance costs.
 #### Tutorial Series
 
-##### Operators (36)
+##### Operators (35)
 
   - **(2021)** [medium.com: Getting Started With Kubernetes Operators (Helm Based) - Part 1](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multi-phase training guide tracking operator design frameworks. It walks through building Helm-based control planes, transitioning to Ansible controllers, and writing performant Golang reconcilers.
 #### Value Proposition
 
-##### Operators (37)
+##### Operators (36)
 
   - **(2022)** [practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators](https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses why operators are well-suited for stateful databases and complex storage platforms, translating operational procedures into reliable code loops.
 ## Security
@@ -542,60 +481,50 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 #### Dynamic RBAC
 
-##### Operators (38)
+##### Operators (37)
 
   - **(2023)** [==redhat-cop/dynamic-rbac-operator: Dynamic RBAC Operator==](https://github.com/redhat-cop/dynamic-rbac-operator) <span class='md-tag md-tag--info'>⭐ 23</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5f3b103f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 3 L 30 9 L 40 2 L 50 7" fill="none" stroke="url(#spark-grad-5f3b103f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dynamically coordinates RBAC permissions based on directory groups or namespace annotations, simplifying user onboarding and access control administration.
 #### RBAC
 
-##### Operators (39)
+##### Operators (38)
 
   - **(2024)** [==FairwindsOps/rbac-manager: RBAC Manager 🌟==](https://github.com/FairwindsOps/rbac-manager) <span class='md-tag md-tag--info'>⭐ 1654</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f2635684" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 2 L 30 3 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-f2635684)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — RBAC Manager mitigates the configuration overhead of managing Kubernetes users and permissions. It provides structured Custom Resources that simplify standard RoleBindings and ClusterRoleBindings under a clean API.
 ### Enterprise Architecture
 
 #### Air-gapped Environments
 
-##### Operators (40)
+##### Operators (39)
 
   - **(2021)** [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains critical design rules for deploying operators inside highly secure, disconnected, or air-gapped systems, detailing offline container registries, local metadata hosting, and strict network configurations.
 ### Multi-tenancy (1)
 
-#### Platform Engineering (2)
+#### Platform Engineering (1)
 
-##### Operators (41)
+##### Operators (40)
 
   - **(2024)** [==Capsule Operator==](https://github.com/projectcapsule/capsule) <span class='md-tag md-tag--info'>⭐ 2095</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a3363b44" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 11 L 30 3 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-a3363b44)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Capsule aggregates namespaces into virtual 'tenants', providing secure multi-tenancy. It enforces dynamic network isolation, storage limits, and ingress classes, forming a foundation for platform engineering.
 ### Secrets Management
 
-#### AWS Integration
-
-##### Operators (42)
-
-  - **(2021)** [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review describing the open-sourcing of kube-secret-syncer. The tool synchronizes secrets dynamically from AWS Secrets Manager to Kubernetes namespaces, removing manual config synchronization overhead.
-#### Cloud Integrations
-
-##### Azure
-
-  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 #### Multi-provider Secrets
 
-##### Operators (43)
+##### Operators (41)
 
   - **(2024)** [==digitalis-io/vals-operator==](https://github.com/digitalis-io/vals-operator) <span class='md-tag md-tag--info'>⭐ 167</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4f63835a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 11 L 30 4 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-4f63835a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Utilizes the vals framework to dynamically parse and inject secrets from Vault, AWS SSM, and GCP Secret Manager. It prevents local credential storage risks and eliminates third-party platform lock-in.
 #### Registry Authentication
 
-##### Operators (44)
+##### Operators (42)
 
   - **(2023)** [==registry-creds==](https://github.com/alexellis/registry-creds) <span class='md-tag md-tag--info'>⭐ 350</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c177b471" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 5 L 30 6 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-c177b471)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatically syncs image pull credentials across diverse namespaces from registry platforms like ECR, GCR, and Docker Hub. It solves multi-tenant credential sharing securely without requiring manual duplications.
 #### Simplification
 
-##### Operators (45)
+##### Operators (43)
 
   - **(2022)** [Michaelpalacce/SimpleSecrets](https://github.com/Michaelpalacce/SimpleSecrets) <span class='md-tag md-tag--info'>⭐ 25</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9f757130" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 2 L 20 12 L 30 9 L 40 10 L 50 9" fill="none" stroke="url(#spark-grad-9f757130)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental secrets management utility that simplifies distributing and syncing environment configurations securely across multiple namespaces.
 ### Vulnerability Management
 
 #### Scanning (1)
 
-##### Operators (46)
+##### Operators (44)
 
   - **(2023)** [==ckotzbauer/vulnerability-operator==](https://github.com/ckotzbauer/vulnerability-operator) <span class='md-tag md-tag--info'>⭐ 87</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-20725f36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 2 L 30 5 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-20725f36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Integrates scanning engines with active cluster runtimes, cross-referencing running container image tags against security databases to alert administrators to new vulnerabilities.
 ## Security and Compliance
@@ -632,13 +561,13 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Cron Engines
 
   - **(2025)** [==github.com/furiko-io/furiko==](https://github.com/furiko-io/furiko) <span class='md-tag md-tag--info'>⭐ 502</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-622150ef" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 10 L 30 5 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-622150ef)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Furiko is an advanced execution platform designed to host ad-hoc and cron jobs in complex production clusters. It expands upon native CronJob limitations by offering comprehensive concurrency controls, deep execution history archives, and parameterized triggers suited for high-throughput batch environments.
-#### Operators (47)
+#### Operators (45)
 
   - **(2024)** [==github.com/ContainerSolutions/delayed-jobs-operator==](https://github.com/ContainerSolutions/delayed-jobs-operator) <span class='md-tag md-tag--info'>⭐ 10</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b34679e0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 12 L 30 4 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-b34679e0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A minor controller designed to rate-limit or defer the spin-up of batch execution workloads. It introduces explicit queues or temporal delays before initiating pods, safeguarding backend databases from heavy, simultaneous connection storms.
   - **(2024)** [github.com/lukaszraczylo/jobs-manager-operator 🌟](https://github.com/lukaszraczylo/jobs-manager-operator) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized job execution supervisor focused on automated lifecycle pruning. It dynamically clears completed or broken jobs based on custom-defined TTL guidelines, preventing etcd congestion caused by historical batch resources.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

@@ -36,13 +36,6 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
 #### Git Manipulation
 
   - **(2015)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A shell-based contribution graphic simulation script. Evaluated as a legacy tool under Minimum Viable Quality metrics due to lack of active commits since 2015. Retained only to showcase historical Git metadata manipulation patterns.
-## Engineering Leadership
-
-### Remote Work
-
-#### Team Management
-
-  - **(2021)** [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers tactical guidelines for managing distributed engineering teams working in remote environments. Recommends implementing asynchronous collaboration tools, defining objective performance milestones, and promoting active virtual team meetings to ensure software project alignment and mitigate remote developer isolation.
 ## Industry Analysis
 
 ### Automation Impact
@@ -130,7 +123,7 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
 #### Generational Dynamics
 
   - **(2021)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of generational workplace transitions, detailing why entry-level cohorts demand greater cultural alignment and transparent organizational pipelines. It guides engineering managers in refining talent onboarding strategies and organizational goal architectures.
-### Remote Work (1)
+### Remote Work
 
 #### Future Of Work
 
@@ -220,7 +213,7 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
 #### Contract Analysis
 
   - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ad0d1fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 8 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-3ad0d1fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
-#### Remote Work (2)
+#### Remote Work (1)
 
   - **(2022)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the debate surrounding salary adjustment based on geographic location for teleworkers. Live Grounding: Discusses the socioeconomic and architectural impact of localized vs. flat salary structures in a remote-first tech ecosystem, emphasizing how cost-of-living adjustments affect developer retention and organizational design.
 ### Education
@@ -265,7 +258,7 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [Finops](./finops.md) | [HR](./hr.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

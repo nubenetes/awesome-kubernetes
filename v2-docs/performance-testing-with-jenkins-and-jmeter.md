@@ -1,5 +1,5 @@
 ---
-description: "Top Performance Testing With Jenkins And Jmeter resources for 2026, AI-ranked: Locust, performance-plugin and more — curated Cloud Native tools, guides and."
+description: "Top Performance Testing With Jenkins And Jmeter resources for 2026, AI-ranked: Locust, Iter8 and more — curated Cloud Native tools, guides and references."
 ---
 # Performance testing with jenkins and JMeter or Gatling
 
@@ -53,6 +53,13 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2024)** [docs.microsoft.com: Azure Load Testing](https://learn.microsoft.com/en-us/azure/app-testing) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Azure's managed load testing service that lets developers generate high-scale load using existing Apache JMeter scripts. Synthesizing live cloud updates, it integrates seamlessly with Azure Monitor to provide end-to-end insights from client-side response times to server-side resource bottlenecks, aiding rapid optimization.
   - **(2021)** [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The launch blog post detailing the debut of Microsoft's Azure Load Testing service. It explains how the tool bridges the gap between raw load generation and cloud application monitoring, allowing developers to execute JMeter scripts in an automated cloud-native paradigm directly from GitHub Actions or Azure Pipelines.
   - **(2021)** [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry reporting on Azure's entry into fully managed performance testing, discussing how it leverages Apache JMeter under the hood. It provides a historical snapshot of Microsoft's move to simplify distributed load testing for engineering teams, eliminating the manual upkeep of VM scale sets for load generation.
+## Cloud Native
+
+### Kubernetes
+
+#### Progressive Delivery
+
+  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Infrastructure
 
 ### Testing
@@ -125,7 +132,7 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
+💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [AWS Databases](./aws-databases.md) | [AWS](./aws.md)
 

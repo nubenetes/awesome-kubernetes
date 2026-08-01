@@ -16,6 +16,13 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### General Reference
 
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
+## Cloud Infrastructure
+
+### Security and Compliance
+
+#### Policy Enforcement
+
+  - **(2021)** [aws.amazon.com: Easy as one-two-three policy management with Kyverno on Amazon EKS 🌟](https://aws.amazon.com/blogs/containers/easy-as-one-two-three-policy-management-with-kyverno-on-amazon-eks) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the deployment of Kyverno on Amazon EKS to enforce policy as code using native Kubernetes resources. It demonstrates how to write policies to restrict root privileges, mutate incoming resources, and audit cluster compliance directly without writing complex Rego code.
 ## Cloud Native Security
 
 ### Infrastructure Security
@@ -101,7 +108,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Policy-as-code (3)
 
   - **(2021)** [kubermatic.com: Using Open Policy Agent With Kubermatic Kubernetes Platform](https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the implementation of OPA Gatekeeper within Kubermatic Kubernetes Platform (KKP) for programmatic multi-cluster fleet management. Illustrates how operators can centrally define, distribute, and enforce admission controller policies across dozens of hybrid and multi-cloud Kubernetes deployments.
-### Security and Compliance
+### Security and Compliance (1)
 
 #### Cloud Security
 
@@ -134,6 +141,16 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Cryptographic Signatures
 
   - **(2022)** [blog.sigstore.dev: How to verify container images with Kyverno using KMS,' Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced technical exploration of enterprise container security architectures. Provides steps to construct a validation loop that verifies image signatures dynamically using Kyverno, integrated directly with KMS key stores, Sigstore Cosign, and OIDC-based Workload Identity.
+## Kubernetes Security (1)
+
+### Policy-as-code (5)
+
+#### Kyverno Administration
+
+  - **(2020)** [kyverno.io 🌟](https://kyverno.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kyverno is a declarative Kubernetes-native policy engine. Designed specifically for Kubernetes, it simplifies policy management by allowing administrators to validate, mutate, and generate resources without writing complex Rego code.
+#### Kyverno Rules and Policies
+
+  - **(2020)** [kyverno.io/policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official catalog of Kyverno policies, providing ready-to-deploy manifests for Pod Security standards, multi-tenant workspace isolation, label validation, and compliance auto-generation.
 ## Public Cloud
 
 ### Azure Integration
@@ -157,14 +174,14 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Spring Security
 
   - **(2022)** [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation tutorial detailing the deployment of an OAuth2-compliant resource server using Spring Security. It guides through configuring middleware to parse and authenticate incoming JWT requests.
-### Policy Enforcement
+### Policy Enforcement (1)
 
 #### Admission Control
 
   - **(2022)** [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7aafde66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 3 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-7aafde66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [Crossplane](./crossplane.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

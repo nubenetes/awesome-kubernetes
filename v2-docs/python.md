@@ -641,9 +641,6 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### CLI Generation
 
   - **(2025)** [==google/python-fire 🌟==](https://github.com/google/python-fire) <span class='md-tag md-tag--info'>⭐ 28203</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-164e2e2e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 2 L 30 12 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-164e2e2e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight presents Google Fire as a library that instantly derives fully operational CLI endpoints from any Python object. Live Grounding confirms its extensive use in data engineering pipelines to easily export complex programmatic code without setting up manual parsing boilerplate.
-#### Computer Science Foundations
-
-  - **(2024)** [Think Python](https://allendowney.github.io/ThinkPython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard manual detailing computer science foundations using Python. Progresses through data structures, algorithms, functional routines, and object-oriented modeling with highly verified, elegant coding conventions.
 #### Debugging Tools
 
   - **(2016)** [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-989d858b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 13 L 30 11 L 40 3 L 50 11" fill="none" stroke="url(#spark-grad-989d858b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details a utility designed to capture and track mutational state transitions in Python objects over time. Live Grounding observes that while the repository is now dormant and unmaintained, the architecture of immutable tracking states remains a core conceptual design in complex state-machine debugging.
@@ -769,9 +766,6 @@ Live Grounding: Details legacy OS module calls, comparing speed metrics against 
 Live Grounding: Details custom provider integration, localized structured schemas, testing configurations, and managing deterministic seed states for repeatable automated validations.
 ### Tooling (1)
 
-#### AI Code Assistants
-
-  - **(2021)** [Kite 🌟](https://kite.com) <span class='md-tag md-tag--warning'>[NOT APPLICABLE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Kite as a local-AI completion helper. Live Grounding confirms the project is fully retired and non-operational, with software development workflows now dominated by sophisticated cloud and local models like GitHub Copilot, Cursor, and modern LSP tooling.
 #### Developer Productivity (1)
 
   - **(2022)** [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight profiles basic developer tools for Python users. Live Grounding points out that while simple tools are important for learners, enterprise environments mandate modern standard pipelines composed of specialized IDEs, linters, and containerized runtimes.
@@ -825,7 +819,7 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](https://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

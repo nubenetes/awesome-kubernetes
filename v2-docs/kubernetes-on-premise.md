@@ -37,6 +37,13 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Zero Trust
 
   - **(2026)** [==defenseunicorns/zarf==](https://github.com/zarf-dev/zarf) <span class='md-tag md-tag--info'>⭐ 1925</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7f272ef8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 2 L 30 12 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-7f272ef8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly resilient developer tool designed by Defense Unicorns to package, deploy, and manage Kubernetes clusters and cloud-native applications in strictly air-gapped, offline, or secure zero-trust environments. Zarf bundles container registries, Helm charts, binary dependencies, and configurations into a single cryptographically signed archive file, completely removing internet reliance.
+## DevOps Culture
+
+### Organizational Design
+
+#### Culture and Governance
+
+  - **(2023)** [**blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟**](https://blogs.vmware.com/cloud-foundation) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores structural and cultural transformations required to establish a high-performing DevOps initiative. Focuses on decentralizing operational decisions, psychological safety, and establishing platform teams to enable developers.
 ## Education
 
 ### Kubernetes
@@ -239,6 +246,9 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Security
 
   - **(2020)** [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical troubleshooting guide mapping out the precise sequence required to rotate internal etcd client and peer certificates within a running, Kops-managed cluster. Addresses avoidance of control plane downtime and potential etcd split-brain scenarios during CA transitions.
+#### Ubuntu Stack
+
+  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.
 ### Gitops (1)
 
 #### Legacy Tools
@@ -265,7 +275,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Container Managers](./container-managers.md) | [Docker](./docker.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

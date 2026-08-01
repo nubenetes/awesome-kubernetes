@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk8s, JKube and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk8s, GitHub: Eclipse JKube and more — curated Cloud Native tools, guides and references."
 ---
 # Client Libraries for Kubernetes
 
@@ -9,14 +9,6 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 !!! info "Architectural Context"
     Detailed reference for Client Libraries for Kubernetes in the context of The Container Stack.
 
-## App Development
-
-### Java
-
-#### Kubernetes Clients
-
-  - **(2020)** [Fabric8](https://fabric8.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Fabric8 historically offered a comprehensive development and integration platform for Kubernetes. While its global platform features have been deprecated or superseded, its core libraries and Eclipse JKube build helpers continue to be vital utilities in Java environments.
-  - **(2020)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to implementing JVM program orchestration on Kubernetes clusters using the Fluent API of the Fabric8 Kubernetes Java Client. The framework supports seamless resource state management, custom resources (CRDs), and secure API server interactions.
 ## Cloud Native and Kubernetes
 
 ### CLI Development
@@ -63,19 +55,6 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 
 #### Eclipse Jkube
 
-##### Developer Workflow
-
-  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
-##### Migration
-
-  - **(2020)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The official Eclipse foundation migration documentation for moving from Fabric8 to JKube. Live Grounding confirms this is the authoritative reference for modifying existing POM.xml profiles, aligning configuration namespaces, and preserving legacy custom templates under the new JKube APIs.
-  - **(2020)** [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — This Red Hat technical guide provides step-by-step instructions for transitioning legacy configurations from the Fabric8 Maven Plugin to Eclipse JKube 1.0.0. Live Grounding highlights its historical and architectural value in easing technical debt during legacy container-modernization efforts. It ensures continuous delivery pipelines are adapted correctly with zero manifest generation disruption.
-##### Quarkus Integration
-
-  - **(2021)** [YouTube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video guide by Marc Nuri illustrating how to deploy a Quarkus microservice to Kubernetes using Eclipse JKube plugins. Live Grounding shows that JKube's framework detection shines in native GraalVM compile steps, producing ultra-optimized, small-footprint containers without complex Dockerfile configurations.
-##### Release Announcement
-
-  - **(2020)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Red Hat release announcement for Eclipse JKube 1.0.0, highlighting its framework-detection features for Quarkus, Spring Boot, and WildFly. Live Grounding shows that this release established configuration-free Kubernetes containerization for Java, moving the ecosystem toward hands-off cluster-native builds. It proved the viability of auto-detecting Java web framework archetypes.
 ##### Source Code
 
   - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 849</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2dc7ec48" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 4 L 30 5 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-2dc7ec48)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
@@ -93,13 +72,6 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 #### Cdk8s
 
   - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2899cf8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 12 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-2899cf8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
-## Developer Experience
-
-### Inner Loop
-
-#### Maven Integration
-
-  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 ## Kubernetes Development
 
 ### Code Generation
@@ -118,7 +90,7 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 #### Operators
 
   - **(2026)** [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Java Operator SDK is an open-source, enterprise-grade framework for developing reliable Kubernetes operators using pure Java. It handles complex reconciliation patterns, informer caches, and API interactions seamlessly.
-#### Quarkus Integration (1)
+#### Quarkus Integration
 
   - **(2023)** [blog.marcnuri.com: Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed technical guide showing how to leverage Quarkus, GraalVM native image compilation, and the Fabric8 client to build sub-second startup Kubernetes controllers. By integrating Eclipse JKube, developers can deploy footprint-optimized Java applications perfectly suited for serverless scaling.
 ### Java Tooling
@@ -128,7 +100,7 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
   - **(2021)** [blog.marcnuri.com](https://blog.marcnuri.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of Eclipse JKube 1.4.0 improvements, focusing on streamlined Helm chart compilation, upgraded core API clients, and enhanced native build properties for container engines.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

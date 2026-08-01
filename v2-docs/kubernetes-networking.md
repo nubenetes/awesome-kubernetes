@@ -17,20 +17,6 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 
   - [engineering.mercari.com: Managing Network Policies for namespaces isolation' on a multi-tenant Kubernetes cluster](https://engineering.mercari.com/en/blog/entry/20220214-managing-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Managing Network Policies for namespaces isolation' on a multi-tenant Kubernetes cluster in the Kubernetes Tools ecosystem.
   - [dzone: How to Understand and Set Up Kubernetes Networking 🌟](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: How to Understand and Set Up Kubernetes Networking 🌟 in the Kubernetes Tools ecosystem.
-## Container Orchestration
-
-### Kubernetes Networking (1)
-
-#### Kube-proxy
-
-  - **(2025)** [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the transition of `kube-proxy` from traditional `iptables` and IPVS modes to the modern `nftables` backend in Kubernetes. Highlighting structural efficiency, the article explores how nftables reduces CPU-bound routing overhead and improves packet processing scalability in massive cluster environments.
-## Deployment and Orchestration
-
-### Cluster Provisioning
-
-#### Remote Access
-
-  - **(2020)** [blog.alexellis.io: Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores techniques for securely accessing the Kubernetes API control plane of isolated or private networks without exposing standard firewall ports. Explains how reverse-proxy tunnels provide secure endpoints. Live Grounding validates that tunnel mechanisms like inlets, Tailscale, or Cloudflare Tunnels have become common choices for secure edge environments.
 ## Infrastructure
 
 ### Networking
@@ -103,9 +89,6 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 ##### Security and TLS
 
   - **(2021)** [**devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes**](https://devopscube.com/configure-ingress-tls-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A tutorial guiding developers through TLS/SSL certificate generation, binding, and storage in ingress environments. Explains how to leverage native cert-manager pipelines to secure internet-facing applications automatically with Let's Encrypt certificates.
-##### Tooling
-
-  - **(2022)** [**ingressbuilder.jetstack.io 🌟🌟**](https://ingressbuilder.jetstack.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An interactive utility created by Jetstack that aids in generating syntactic-proof configurations for Kubernetes Ingress resources. Automates cert-manager annotations and rewrite-target generation, limiting YAML drafting errors.
 ##### Tunnels
 
   - **(2023)** [**inlets.dev: How to Get Ingress for Private Kubernetes Clusters**](https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deconstructs architectures designed to route public traffic into nested enterprise VPN networks. Leverages secure tunnels to channel request paths from public exit nodes directly into localized development networks.
@@ -279,7 +262,7 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
   - **(2021)** [buoyant.io: Kubernetes network policies with Cilium and Linkerd](https://www.buoyant.io/blog/kubernetes-network-policies-with-cilium-and-linkerd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural integration study detailing how to combine Cilium's efficient L3/L4 eBPF security policies with Linkerd's lightweight L7 mutual TLS encryption.
 ## Networking and Security
 
-### Kubernetes Networking (2)
+### Kubernetes Networking (1)
 
 #### Deep Dive (1)
 
@@ -324,7 +307,7 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
   - **(2021)** [**blog.cloudflare.com: Moving k8s communication to gRPC**](https://blog.cloudflare.com/moving-k8s-communication-to-grpc) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insightful case study detailing Cloudflare's transition of internal microservices and Kubernetes cluster control-plane communications from traditional REST/JSON endpoints to high-performance gRPC over HTTP/2. Live Grounding shows that adopting gRPC significantly reduces CPU utilization and network latency across high-throughput distributed architectures.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Servicemesh](./servicemesh.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Servicemesh](./servicemesh.md) | [Web Servers](./web-servers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 

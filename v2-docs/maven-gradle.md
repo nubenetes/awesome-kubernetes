@@ -1,5 +1,5 @@
 ---
-description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Eclipse JKube and more — curated Cloud Native tools, guides and references."
+description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, JKube and more — curated Cloud Native tools, guides and references."
 ---
 # Maven, Gradle and SDKMAN
 
@@ -89,9 +89,19 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
 
 #### Eclipse Jkube
 
+##### Migration
+
+  - **(2020)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The official Eclipse foundation migration documentation for moving from Fabric8 to JKube. Live Grounding confirms this is the authoritative reference for modifying existing POM.xml profiles, aligning configuration namespaces, and preserving legacy custom templates under the new JKube APIs.
+  - **(2020)** [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — This Red Hat technical guide provides step-by-step instructions for transitioning legacy configurations from the Fabric8 Maven Plugin to Eclipse JKube 1.0.0. Live Grounding highlights its historical and architectural value in easing technical debt during legacy container-modernization efforts. It ensures continuous delivery pipelines are adapted correctly with zero manifest generation disruption.
 ##### Overview
 
   - **(2020)** [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory blog post showcasing the capabilities of JKube's Kubernetes Maven and Gradle plugins. Live Grounding points to this resource as an excellent conceptual primer, explaining the transition from raw Java byte code to orchestrator-ready container configurations with minimal configuration overhead.
+##### Quarkus Integration
+
+  - **(2021)** [YouTube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video guide by Marc Nuri illustrating how to deploy a Quarkus microservice to Kubernetes using Eclipse JKube plugins. Live Grounding shows that JKube's framework detection shines in native GraalVM compile steps, producing ultra-optimized, small-footprint containers without complex Dockerfile configurations.
+##### Release Announcement
+
+  - **(2020)** [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Red Hat release announcement for Eclipse JKube 1.0.0, highlighting its framework-detection features for Quarkus, Spring Boot, and WildFly. Live Grounding shows that this release established configuration-free Kubernetes containerization for Java, moving the ecosystem toward hands-off cluster-native builds. It proved the viability of auto-detecting Java web framework archetypes.
 ##### Release Notes
 
   - **(2021)** [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An update detailing features and improvements delivered in Eclipse JKube 1.4.0. Live Grounding indicates that updates like 1.4.0 stabilized multi-platform image generation capabilities and introduced robust handling of custom Helm charts and manifest validation rules.
@@ -121,6 +131,13 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
 
   - **(2015)** [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early-era developer's log exploring task setups in Gradle. Live Grounding confirms its value is now purely historical, documenting the community transition away from rigid, XML-heavy Maven structures towards flexible, code-based build files.
   - **(2026)** [==gradle.org==](https://gradle.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary landing portal for Gradle, a high-performance, open-source build automation system. Live Grounding confirms Gradle's position as a dominant enterprise build engine, optimizing multi-project build caching, incremental compilation, and providing highly flexible Groovy and Kotlin DSL structures.
+## Developer Experience
+
+### Inner Loop
+
+#### Maven Integration
+
+  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 ## Developer Productivity
 
 ### IDE Integrations
@@ -133,7 +150,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [API](./api.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
 
