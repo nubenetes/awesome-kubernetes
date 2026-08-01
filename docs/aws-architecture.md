@@ -39,6 +39,8 @@
 - [AWS Labs GitHub](https://github.com/awslabs)
 - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql)
 - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data)
+  - **(2026)** [AWS Weekly Roundup: Claude Opus 5, Athens Local Zone & Lambda .NET](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026) 🌟 - AWS roundup for July 27, 2026, highlighting the launch of Claude Opus 5 on Bedrock, a new Local Zone in Athens, and Lambda durable execution for .NET.
+  - **(2026)** [AWS Weekly Roundup: OpenAI GPT-5.6 on Bedrock and Prompt-Driven Lambda](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026) 🌟 - Highlights from July 20, 2026, featuring one-click Lambda setup via prompts and the groundbreaking inclusion of OpenAI GPT-5.6 models natively on Amazon Bedrock.
 
 ## AWS Case Studies
 
