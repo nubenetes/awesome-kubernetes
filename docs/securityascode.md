@@ -167,3 +167,10 @@
   - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) - *(Related to azure topic)*
 
 - [Azure Policy](azure.md)
+
+## Cloudflare WAF
+  - **(2026)** [Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities](https://blog.cloudflare.com/wordpress-vulnerabilities) 🌟 - Cloudflare deploys urgent WAF protections to defend against critical RCE and SQLi vulnerabilities in WordPress.
+  - **(2026)** [Introducing Precursor: detecting agentic behavior with continuous client-side signals](https://blog.cloudflare.com/introducing-precursor) 🌟 - Cloudflare releases Precursor, injecting JavaScript telemetry to detect bot interactions without CAPTCHAs.
+
+## Post-Quantum Cryptography
+  - **(2026)** [Why we cannot wait for better post-quantum signature algorithms](https://blog.cloudflare.com/ml-dsa-will-have-to-do) 🌟 - Cloudflare argues for immediate migration to ML-DSA and ML-KEM to achieve post-quantum security before 2029.
