@@ -26,12 +26,12 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: develop
 
       - name: Python 3.11 Environment Provisioning
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -42,7 +42,7 @@ jobs:
           pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv playwright PyYAML tenacity
 
       - name: Cache Playwright Binaries
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: playwright-cache
         with:
           path: ~/.cache/ms-playwright
@@ -53,7 +53,7 @@ jobs:
         run: playwright install chromium --with-deps
 
       - name: Restore Link Checker Cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         id: link-checker-cache
         with:
           path: |
@@ -111,7 +111,7 @@ jobs:
 
       - name: Save Link Checker Cache
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: |
             shard_result.json
