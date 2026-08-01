@@ -45,9 +45,6 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
 
   - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews scaling methodologies for massive enterprise continuous delivery systems. Addresses parallel task routing, build agent autoscaling, caching mechanisms, and automatic rollbacks upon deployment errors.
   - **(2026)** [intellipaat.com: Top DevOps Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/devops-interview-questions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A broad-spectrum reference manual for fundamental DevOps interview evaluations. Features technical breakdowns of virtualization, basic configuration pipelines, microservice deployment strategies, and monitoring solutions.
-#### Cloud Networking
-
-  - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural scenario walkthrough evaluating VPC partition layout designs. Focuses on address planning, NAT placements, security group hierarchies, and transit routing rules within high-availability clouds.
 #### Database and SQL
 
   - **(2026)** [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides fundamental SQL database query interview questions. Teaches logical query execution paths, normalization theories, basic syntax structure, and joining mechanisms across tabular databases.
@@ -176,7 +173,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [Finops](./finops.md) | [HR](./hr.md)
+💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

@@ -329,7 +329,6 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### AWS Backup
 
   - **(2022)** [==Announcing the general availability of AWS Backup for Amazon S3==](https://aws.amazon.com/about-aws/whats-new/2022/02/general-availability-aws-backup-amazon-s3) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Reaches General Availability, providing complete managed backup, restore, and lifecycle orchestration of Amazon S3 data. It supports cross-region, cross-account capabilities, and immutable backup copies using AWS Backup Vault Lock. Architecturally, it streamlines data compliance audits, proving protection policies for petabyte-scale S3 data lakes.
-  - **(2021)** [**AWS Backup Adds Support for Amazon S3**](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces preview support for centralizing data protection across S3 buckets using AWS Backup policies. It allows security and operations teams to automate backups, lifecycles, and restores of S3 objects alongside other AWS resources. This replaces customized AWS Lambda or S3 replication-based snapshot workarounds with a managed compliance framework.
 #### Compliance (2)
 
   - **(2021)** [**Monitor, Evaluate, and Demonstrate Backup Compliance with AWS Backup Audit Manager**](https://aws.amazon.com/blogs/aws/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces AWS Backup Audit Manager, a feature to monitor, evaluate, and demonstrate the compliance posture of data backup operations against pre-defined organizational standard controls. It automates compliance reporting, providing auditor-ready historical evidence. Architecturally, it replaces manual backup audits and ensures strict data governance.
@@ -409,7 +408,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2021)** [Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru](https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational curriculum focusing on utilizing CodeGuru's machine-learning engines to detect concurrency bugs, resource leaks, and performance bottlenecks in Java and Python. These courses provide hands-on telemetry guides to maximize DevSecOps efficiency. Architecturally, CodeGuru integrates into CI/CD pipelines to enforce static and dynamic code quality.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

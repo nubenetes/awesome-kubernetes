@@ -1,5 +1,5 @@
 ---
-description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more — curated Cloud Native tools, guides and references."
+description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — curated Cloud Native tools, guides and references."
 ---
 # Docker
 
@@ -219,11 +219,6 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
 #### Lifecycle Management
 
   - **(2018)** [stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines release artifact numbering frameworks for corporate environments. Outlines semantic naming paradigms and explains the operational risks of using volatile tags in automated orchestration environments.
-### Networking
-
-#### Deep Dive
-
-  - **(2023)** [iximiuz.com: Container Networking Is Simple! 🌟](https://labs.iximiuz.com/tutorials/container-networking-from-scratch) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This comprehensive deep-dive tutorial demonstrates how container networking is constructed from scratch using native Linux namespaces, veth pairs, and bridge devices. It walks through creating isolated environments step-by-step and configuring IP routing and NAT to route outbound and inbound traffic safely.
 ### Orchestration Concepts
 
 #### Architecture Comparison
@@ -239,9 +234,6 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
 #### Build Optimization (1)
 
   - **(2024)** [augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security](https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides twelve optimization patterns aligning build speeds with image security. Topics focus on multi-stage build workflows, package manager caching, minimal base systems, and dynamic secret loading.
-#### Compliance Frameworks
-
-  - **(2025)** [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The gold-standard security reference outlining precise configuration structures for Docker environments. Covers namespaces, read-only filesystems, network configurations, and active runtime protection policies.
 #### Kernel Isolation
 
   - **(2022)** [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security exploration contrasting container shared-kernel mechanisms against sandboxed hypervisor layers like Firecracker and gVisor. Analyzes side-channel vulnerabilities and threat vectors.
@@ -251,9 +243,6 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
 #### Process Boundaries
 
   - **(2023)** [securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes](https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the operational nature of containers as isolated host processes. Analyzes syscall structures, cgroup isolation properties, and modern runtime inspection workflows for developers.
-#### Supply Chain Security
-
-  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An urgent technical warning investigating cryptojacking campaigns spreading malware via compromised registries. Underscores the critical requirement for automated image validation and registry access restrictions.
 #### Vulnerability Assessment
 
   - **(2021)** [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical manual outlining static security scanning on developer workstations. Demonstrates how to discover vulnerabilities and outdated packages inside target OCI layers prior to CI deployment.
@@ -308,7 +297,7 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
   - **(2021)** [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines historical advancements in the Docker developer ecosystem, analyzing features like multi-architecture build mechanisms and enhanced orchestration tooling.
 ### Docker Networking and Volumes
 
-#### Networking (1)
+#### Networking
 
   - **(2021)** [**iximiuz.com: What Actually Happens When You Publish a Container Port 🌟**](https://iximiuz.com/en/posts/docker-publish-container-ports) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An elite architectural exploration of how published ports route traffic. Explains packet pathways from the host NIC through iptables, DNAT rules, virtual interfaces, and down to the application's listen sockets.
 #### Volumes
@@ -322,6 +311,9 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
 #### Build Optimization (2)
 
   - **(2021)** [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to working with Docker's build cache. Shows how to invalidate the cache, structure layers efficiently, and use CLI prune utilities to optimize build speeds.
+#### Build Tools
+
+  - **(2021)** [**technology.doximity.com: Buildpacks vs Dockerfiles 🌟**](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Contrasts declarative Cloud Native Buildpacks (CNB) with manual imperative Dockerfile structures. Analyzes the security, consistency, and build speed tradeoffs, arguing that CNBs represent a superior approach to packaging corporate applications at scale.
 #### Dockerfile Specs
 
   - **(2022)** [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores `CMD` and `ENTRYPOINT` behaviors inside Dockerfiles. Details how default runtime parameters interact with target binaries during execution.
@@ -404,7 +396,6 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
   - **(2020)** [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide explains the structure, licensing, and optimization of Red Hat Universal Base Images (UBI) for developers using Docker or other non-RHEL runtimes. It showcases how UBI provides a free, secure, and enterprise-grade base image platform that maintains strict compatibility with Red Hat Enterprise Linux. It is crucial for standardizing commercial container dependencies.
 #### Container Management
 
-  - **(2026)** [Portainer 🌟](https://www.portainer.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portainer is a leading container management platform designed to simplify Docker, Kubernetes, and Azure ACI environments through an intuitive web interface. It allows platform administrators to easily deploy stacks, monitor real-time resources, manage networks/volumes, and control user access (RBAC). In 2026, it serves as a robust bridging portal between command-line container engines and full-scale orchestration management.
   - **(2026)** [Portainer Community Edition](https://www.portainer.io/install) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Community Edition of Portainer provides a self-hosted, lightweight administration portal for managing standalone Docker daemons, Swarm clusters, and edge environments. It abstracts complex container and volume operations into a responsive dashboard, reducing operational friction. It remains a popular, stable, and highly trusted portal for developer environments and internal infrastructure management.
 #### Debugging
 
@@ -608,7 +599,7 @@ description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more �
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Kubernetes Monitoring](./kubernetes-monitoring.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

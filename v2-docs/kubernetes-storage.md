@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolSync and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEBS and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Storage. Cloud Native Storage
 
@@ -97,13 +97,28 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
   - **(2021)** [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed New Relic platform tutorial detailing how Kubernetes Volumes function. It maps practical configurations from local directories up to persistent network volumes, helping engineers establish robust observability patterns around disk metrics.
   - **(2021)** [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A focused architectural introduction explaining the crucial distinction between a declared Volume (the backend data provider) and a volumeMount (how that data is projected inside a container). It covers essential syntax parameters for configuration.
   - **(2021)** [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-oriented guide explaining the conceptual differences between filesystems, generic container volumes, and Persistent Volumes. It uses clear examples, such as an NFS-backed Volume, to clarify how and when to use each configuration pattern.
+## Platform Engineering
+
+### Ecosystem
+
+#### Marketplace
+
+  - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
 ## Storage
 
+### Distributed Storage
+
+#### Ceph
+
+  - **(2026)** [Red Hat Ceph Storage](https://ceph.io/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Ceph Storage is an enterprise product offering distributed block, file, and object storage coupled with multi-cloud data federation via NooBaa. It incorporates enterprise efficiency tools like global data compression, data deduplication, asynchronous multi-site replication, and strong encryption policies.
 ### Enterprise Storage
 
 #### Legacy Platforms
 
   - **(2020)** [Reduxio](https://www.reduxio.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Reduxio was an enterprise storage innovator that designed unified primary and secondary storage frameworks with granular, instantaneous recovery capabilities. Though the product has transitioned into a legacy technology, its foundational approaches to metadata-defined back-dating continue to influence cloud-native backup paradigms.
+#### Red Hat Storage
+
+  - **(2021)** [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural overview analyzes the Red Hat OpenShift Container Storage platform (now OpenShift Data Foundation). It details how combining Ceph, NooBaa, and Rook creates an integrated control plane to deliver multi-cloud block, file, and object endpoints for OpenShift workloads.
 ### Kubernetes CSI
 
 #### Documentation
@@ -129,6 +144,9 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
 
   - **(2026)** [==VolSync 🌟==](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 978</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8702f91" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 7 L 30 8 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-c8702f91)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — VolSync is an open-source Kubernetes operator developed by Backube to orchestrate cross-cluster persistent volume data replication. Supporting engines like rsync, rclone, and restic, it delivers a platform-agnostic framework for executing disaster recovery policies.
   - **(2021)** [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory overview of VolSync's design goals and features, showing how the controller simplifies complex multi-cluster persistence synchronization. It details how the operator abstracts underlying storage structures, allowing unified data movement across diverse cloud backends.
+#### Benchmarking
+
+  - **(2026)** [kubestr.io](https://kubestr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubestr is an open-source CLI toolkit engineered to auto-discover, inspect, and benchmark persistent storage configurations within a Kubernetes cluster. By running in-cluster FIO test cases, it provides architects with validated throughput and latency metrics for active storage configurations.
 #### Container Attached Storage (1)
 
   - **(2026)** [==OpenEBS==](https://openebs.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — OpenEBS is an adaptable Container Attached Storage (CAS) system that transforms local node storage or cloud-attached disks into dedicated dynamic persistent volumes for stateful applications. Utilizing engines like Mayastor and LocalPV, it isolates I/O processing on a per-pod basis to deliver high-performance scalability.
@@ -168,6 +186,9 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
 #### Storage Operators
 
   - **(2026)** [==libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes==](https://github.com/libopenstorage/stork) <span class='md-tag md-tag--info'>⭐ 401</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-45da6b45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 11 L 30 6 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-45da6b45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Stork (Storage Operator Runtime for Kubernetes) is an open-source utility developed by Portworx to facilitate storage-aware scheduling and backup operations. It communicates with local storage nodes to ensure container workloads are scheduled on the exact physical hardware housing their replicated volumes.
+#### Storage Orchestrators
+
+  - **(2026)** [==Rook==](https://rook.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rook acts as a production-hardened CNCF graduated storage orchestrator that natively embeds Ceph within Kubernetes. By managing disks, pools, and filesystems as declarative resources, Rook eliminates manual storage administration and bridges Kubernetes-native paradigms with high-availability bare metal storage.
 ### Object Storage (1)
 
 #### Minio
@@ -190,7 +211,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
   - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
 
 ---
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Container Managers](./container-managers.md) | [Docker](./docker.md)
+💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Project Management Methodology](./project-management-methodology.md) | [AWS Databases](./aws-databases.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
 

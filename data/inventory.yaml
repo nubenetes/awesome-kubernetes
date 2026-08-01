@@ -14883,6 +14883,7 @@ https://aws-quickstart.github.io/quickstart-eks-rancher:
   v2_locations:
   - rancher.md
   - aws-containers.md
+  - aws.md
   youtube_mosaic: {}
 https://aws.amazon.com:
   title: AWS OpsWorks
@@ -27539,6 +27540,7 @@ https://aws.amazon.com/devops:
   - jenkins-alternatives.md
   - aws-devops.md
   - devops.md
+  - aws.md
   youtube_mosaic: {}
 https://aws.amazon.com/devops-guru:
   title: Amazon DevOps Guru
@@ -72746,6 +72748,7 @@ https://claude101.com:
   v2_locations:
   - ai.md
   - chatgpt.md
+  - developerportals.md
   youtube_mosaic: {}
 https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context:
   title: '==clavinjune.dev: Working With Remote Docker Using Docker Context=='
@@ -81327,6 +81330,7 @@ https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-be
   v1_locations: []
   v2_locations:
   - ocp4.md
+  - registries.md
   youtube_mosaic: {}
 https://cloudpak8s.io:
   title: 'IBM Cloud Pak Playbook: cloudpak8s.io'
@@ -291364,6 +291368,7 @@ https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy:
   v2_locations:
   - kubernetes-networking.md
   - kubernetes-tools.md
+  - networking.md
   youtube_mosaic: {}
 https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total:
   title: 'Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager'
@@ -314655,6 +314660,7 @@ https://mattias.engineer/blog/2025/azure-ipam-with-terraform:
   v2_locations:
   - terraform.md
   - azure.md
+  - networking.md
   youtube_mosaic: {}
 https://mattias.engineer/blog/2025/azure-portal-export-terraform:
   title: Export Terraform Code from the Azure Portal
@@ -363198,6 +363204,7 @@ https://octopus.com/devops:
   - helm.md
   - kubernetes-based-devel.md
   - project-management-methodology.md
+  - scaffolding.md
   youtube_mosaic: {}
 https://octopus.com/devops/gitops:
   title: 'codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane
@@ -377949,6 +377956,7 @@ https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces:
   v1_locations: []
   v2_locations:
   - demos.md
+  - registries.md
   youtube_mosaic: {}
 https://platform.cloudogu.com/en/blog/gitops-tools:
   title: "cloudogu.com: Automation Assistants: GitOps tools in comparison \U0001F31F"
@@ -384240,6 +384248,7 @@ https://publicapis.io:
   v1_locations: []
   v2_locations:
   - api.md
+  - developerportals.md
   youtube_mosaic: {}
 https://publications.opengroup.org:
   title: null
@@ -386215,6 +386224,7 @@ https://quay.io:
   v1_locations: []
   v2_locations:
   - ocp4.md
+  - registries.md
   youtube_mosaic: {}
 https://quickref.me/index.html:
   title: QuickRef.ME - Quick Reference Cheat Sheets
@@ -387631,6 +387641,7 @@ https://rapidapi.com:
   v1_locations: []
   v2_locations:
   - api.md
+  - developerportals.md
   youtube_mosaic: {}
 https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference:
   title: API Marketplace vs API Gateway (What’s the Difference?)
@@ -411953,6 +411964,7 @@ https://techcommunity.microsoft.com/blog/azuremigrationblog/implement-azure-land
   v2_locations:
   - iac.md
   - azure.md
+  - networking.md
   youtube_mosaic: {}
 https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841:
   title: Introducing Subnet Peering in Azure
@@ -549409,6 +549421,7 @@ https://www.redhat.com/en/blog/keep-your-applications-secure-with-automatic-rebu
   v1_locations: []
   v2_locations:
   - ocp4.md
+  - registries.md
   youtube_mosaic: {}
 https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features:
   title: 'openshift.com: Kubernetes 1.21 Grows Innovative New Features'
@@ -552078,6 +552091,7 @@ https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-conta
   v1_locations: []
   v2_locations:
   - ocp4.md
+  - registries.md
   youtube_mosaic: {}
 https://www.redhat.com/en/blog/red-hat-openshift-4.7-is-now-available:
   title: 'openshift.com: Red Hat OpenShift 4.7 Is Now Available'
@@ -610425,6 +610439,7 @@ https://labs.iximiuz.com/tutorials/container-networking-from-scratch:
   v1_locations: []
   v2_locations:
   - docker.md
+  - networking.md
   youtube_mosaic: {}
 https://nubenetes.com/kubernetes-alternatives:
   title: Docker Swarm
