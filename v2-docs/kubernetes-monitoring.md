@@ -93,20 +93,6 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Object State Monitoring
 
   - **(2024)** [**kube-state-metrics 🌟**](https://github.com/kubernetes/kube-state-metrics) <span class='md-tag md-tag--info'>⭐ 6137</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7fd1fac3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 5 L 30 5 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-7fd1fac3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A vital system service that translates raw Kubernetes API server state data (e.g., deployments, pod counts, resource limits, cronjobs) into high-fidelity Prometheus metrics. Unlike cAdvisor, which captures resource usage, kube-state-metrics models cluster resource orchestration configurations.
-## Infrastructure
-
-### Hardware
-
-#### GPU Virtualization
-
-  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
-## Kubernetes (2)
-
-### Resource Management
-
-#### CPU Throttling
-
-  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
 ## Log Management and Diagnostics
 
 ### Audit Logging
@@ -159,7 +145,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Ebpf-based Telemetry (1)
 
   - **(2023)** [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the implementation of Google's 'Four Golden Signals' within Kubernetes, highlighting how eBPF-powered tools like Cilium provide transparent application level metrics (latency, traffic, errors, saturation) without relying on traditional sidecar architectures.
-### Resource Management (1)
+### Resource Management
 
 #### Sizing and Quotas
 
@@ -273,7 +259,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
   - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational text establishing distributed systems monitoring fundamentals. Introduces the 'four golden signals' (latency, traffic, errors, and saturation) and addresses the core engineering trade-offs between white-box and black-box monitoring. Curator Insight: Seminal SRE literature defining core telemetry metrics. Live Grounding: Remains the architectural blueprint for modern production-grade telemetry frameworks globally.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

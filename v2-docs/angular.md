@@ -9,13 +9,6 @@ description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native arc
 !!! info "Architectural Context"
     Detailed reference for Angular framework in the context of Developer Ecosystem.
 
-## App Development
-
-### Frontend
-
-#### Continuous Delivery
-
-  - **(2019)** [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details clean patterns for deploying Angular-based web applications on OpenShift. Demonstrates injecting environment variables at container start time instead of packaging distinct, static bundles for each target environment.
 ## Frontend Development
 
 ### Web Frameworks
@@ -28,7 +21,7 @@ description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native arc
   - **(2026)** [angular.io: Building and serving Angular apps](https://angular.dev/guide/build) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official instructions covering deployment execution and active asset compilation within the Angular CLI environment. Emphasizes production bundling configurations, static asset caching, and lazy loading strategies.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

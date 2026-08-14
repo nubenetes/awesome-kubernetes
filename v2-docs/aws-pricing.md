@@ -65,7 +65,7 @@ description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native
   - **(2022)** [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural techniques to trim EKS clusters expenditures, describing auto-scalers (Karpenter), spot instances usage, strict namespace limits, and FinOps practices to optimize CPU allocation.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [Faq](./faq.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

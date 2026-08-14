@@ -24,7 +24,7 @@ description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Nat
   - **(2021)** [digitalocean.com: How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive tutorial on attaching Chrome DevTools directly to Node.js backend processes. Step-by-step guidance on setting execution break points, inspecting call stacks, and detecting memory leaks.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

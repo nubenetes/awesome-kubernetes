@@ -34,7 +34,7 @@ description: "Curated, AI-ranked Cloudflare resources for the 2026 Cloud Native 
   - **(2026)** [blog.cloudflare.com: Zero Trust Private Networking Rules](https://blog.cloudflare.com/zero-trust-private-networking-rules) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural documentation for defining identity-aware, Zero Trust private network topologies in Cloudflare. Explains granular permission structures to govern internal database and API access paths.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Networking](./networking.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

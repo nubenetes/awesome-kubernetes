@@ -638,9 +638,14 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Event-driven Architecture
 
   - **(2023)** [ibm.com: Event-driven cloud-native applications (microservices)](https://www.ibm.com/think/topics/cloud-native) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This IBM resource details how event-driven applications scale natively inside Kubernetes clusters. It focuses on isolating boundaries and implementing lightweight message-driven scaling paths for complex enterprise systems.
-### Decomposition
+### Data Management
 
 #### Event-driven Architecture (1)
+
+  - **(2016)** [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece outlines Martin Kleppmann's paradigm of 'turning the database inside-out'. It advocates for treating state logs as a first-class citizen, enabling downstream services to process and construct specialized read-optimized views.
+### Decomposition
+
+#### Event-driven Architecture (2)
 
   - **(2020)** [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article outlines methodologies for finding boundaries within tight-knit monolithic structures to facilitate migration. It contrasts synchronous runtime calls with asynchronous eventing boundaries, demonstrating how to isolate transactional domains using Domain-Driven Design (DDD) aggregates.
 ### Distributed Transactions
@@ -655,10 +660,10 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2019)** [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This resource maps Domain-Driven Design (DDD) concepts onto messaging architectures. It explores how to structure messaging channels and aggregate roots to avoid distributed monolith structures and optimize data routing.
 ### Enterprise Integration (2)
 
-#### Event-driven Architecture (2)
+#### Event-driven Architecture (3)
 
   - **(2021)** [redhat.com: Event-driven architecture: Understanding the essential benefits 🌟](https://www.redhat.com/en/blog/event-driven-architecture-essentials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Red Hat architectural summary documents the enterprise benefits of Event-Driven Architectures (EDA). It focuses on asynchronous communication, decoupling execution contexts, and enabling real-time analytics integrations.
-### Event-driven Architecture (3)
+### Event-driven Architecture (4)
 
 #### Industry Trends
 
@@ -684,9 +689,16 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2020)** [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis advocating for Event Sourcing inside microservice frameworks. It details how recording every event state change enables historical auditability and decouples read queries from primary transaction engines via CQRS.
 ### Web Development
 
-#### Event-driven Architecture (4)
+#### Event-driven Architecture (5)
 
   - **(2020)** [stackoverflow.blog: How event-driven architecture solves modern web app problems 🌟](https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This study from StackOverflow contrasts traditional request-response architectures with asynchronous event structures. It explains how shifting to non-blocking patterns resolves high-concurrency web app bottlenecks, increasing system fault tolerance.
+## Networking and Security
+
+### Load Balancing
+
+#### Performance and Tuning
+
+  - **(2023)** [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟==](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional, highly-detailed exploration of how Kubernetes handles long-lived connections such as gRPC, HTTP/2, and WebSockets. Analyzes why standard iptables-based kube-proxy L4 load balancing fails to distribute traffic evenly, causing backend starvation. Live Grounding highlights that resolving these issues requires client-side load balancing, proxy-assisted gRPC routing, or active connection-termination intervals.
 ## Orchestration
 
 ### Workflow Engines
@@ -741,7 +753,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

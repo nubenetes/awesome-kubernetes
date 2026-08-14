@@ -99,7 +99,6 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 #### Tutorials
 
   - **(2022)** [freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured, end-to-end tutorial designed to teach engineers how to deploy, monitor, and secure microservices using Istio. Covers key topics including canary releases, distributed tracing integration, and mutual TLS configuration.
-  - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
 ## Continuous Delivery
 
 ### Gitops
@@ -211,7 +210,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
   - **(2023)** [redhat-scholars: istio-tutorial 🌟](https://github.com/redhat-scholars/istio-tutorial) <span class='md-tag md-tag--info'>⭐ 1206</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d267da7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 4 L 30 10 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-0d267da7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive scenario-driven learning path designed by Red Hat. Covers service deployment, routing, traffic splitting, canary deployments, circuit breakers, and advanced security models using Envoy.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Networking](./networking.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

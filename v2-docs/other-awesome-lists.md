@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS, Awesome Compose and more — curated Cloud Native tools, guides and references."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Visual Studio Code, Awesome Compose and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 
@@ -721,7 +721,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

@@ -101,7 +101,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
 
 ---
-💡 **Explore Related:** [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md) | [Ibm_Cloud](./ibm_cloud.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

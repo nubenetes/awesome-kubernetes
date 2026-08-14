@@ -1,5 +1,5 @@
 ---
-description: "Top Java And Java Performance Optimization resources for 2026, AI-ranked: Byteman, Running Jenkins on Java 11 and more — curated Cloud Native tools, guides and."
+description: "Top Java And Java Performance Optimization resources for 2026, AI-ranked: Byteman, Jillegal OffHeap Module and more — curated Cloud Native tools, guides and."
 ---
 # Java and Memory Management
 
@@ -25,16 +25,6 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
   - **(None)** [](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
   - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Understanding the Java Memory Model and Garbage Collection 🌟 in the Kubernetes Tools ecosystem.
   - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Memory Leaks and Java Code in the Kubernetes Tools ecosystem.
-## CICD
-
-### Jenkins Management
-
-#### Infrastructure Upgrades
-
-  - **(2019)** [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Comprehensive administration runbook describing JVM upgrade pathways from Java 8 to Java 11. Addresses class-loading modifications, modularization parameters, and deprecated agent arguments.
-#### JVM Performance Tuning
-
-  - **(2016)** [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical infrastructure advisory detailing memory allocation and G1GC GC argument tuning for massive Jenkins instances. Provides ready-to-use flag structures to eliminate long-duration Stop-The-World JVM freezes.
 ## Cloud Native Infrastructure
 
 ### Kubernetes
@@ -82,6 +72,13 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
 
   - **(2023)** [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep presentation deck outlining hands-on strategies for profiling complex enterprise Java deployments. Explores diagnosing thread contention, locking bottlenecks, heap leaks, and high JIT compilation latency.
   - **(2020)** [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores backporting JDK Flight Recorder to OpenJDK 8u, enabling low-overhead hardware and software event monitoring in production environments. Demonstrates negligible performance drag (<1%) compared to legacy profilers.
+## Java Platform
+
+### Runtime and JVM
+
+#### Garbage Collection (1)
+
+  - **(2021)** [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical evaluation tracking the performance evolution and design changes of garbage collectors from JDK 8 to JDK 17. The analysis highlights significant throughput gains, memory footprint reductions, and sub-millisecond pause-time optimizations achieved in modern G1 and ZGC algorithms, making Java 17 highly optimized for containerized microservice execution environments.
 ## Observability (1)
 
 ### Application Monitoring
@@ -145,7 +142,7 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
   - **(2024)** [Byteman](https://byteman.jboss.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly robust runtime bytecode injection tool utilizing JBoss rule engines to trace, test, and inject faults into live Java applications. By using Event-Condition-Action (ECA) rules without requiring source code modifications, it remains a vital instrument for simulating extreme edge cases, chaos engineering, and tracing complex cloud microservices.
   - **(2021)** [developers.redhat.com: A faster way to access JDK Flight Recorder data](https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of modern JVM Flight Recorder streaming capabilities. It reviews strategies for consuming real-time telemetry events via Java in-memory APIs, offering low-latency, zero-overhead diagnostic monitoring without relying on bulky local file dumps.
   - **(2020)** [developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed Red Hat guide walking through real-time runtime JVM tracing using the JMC Agent. It explains how to dynamically inject custom JDK Flight Recorder (JFR) event declarations into third-party libraries and production codebases on-the-fly, bypassing the need for restarts or manual instrumentation.
-#### Garbage Collection (1)
+#### Garbage Collection (2)
 
   - **(2011)** [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental learning resource explaining basic JVM Garbage Collection loops, young-and-old generational divisions, and classic algorithms (such as Serial and Parallel collectors). While standard for conceptual onboarding, developers should supplement this material with modern G1GC and low-latency concurrent garbage collectors.
 #### Memory Management (1)
@@ -158,7 +155,7 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
   - **(2020)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JVM checkpoint/restore methodologies focusing on Coordinated Restore at Checkpoint (CRaC) and external CRIU mechanisms. This approach enables instantaneous microservice startup by taking cold snapshots of memory, dramatically lowering latency penalties in serverless deployments.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

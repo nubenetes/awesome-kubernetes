@@ -20,6 +20,13 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
   - [portworx.com: Kubernetes Persistent Volume Tutorial by Portworx](https://portworx.com/tutorial-kubernetes-persistent-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering portworx.com: Kubernetes Persistent Volume Tutorial by Portworx in the Kubernetes Tools ecosystem.
   - [Portworx](https://portworx.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Portworx in the Kubernetes Tools ecosystem.
   - [LightOS](https://www.lightbitslabs.com/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering LightOS in the Kubernetes Tools ecosystem.
+## Cloud Architecture and Infrastructure Strategy
+
+### Storage and Hybrid Systems
+
+#### Topology Comparison
+
+  - **(2023)** [**blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds**](https://www.min.io/blog) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
 ## Cloud Infrastructure and Orchestration
 
 ### Storage and Databases
@@ -76,6 +83,16 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
 #### Storage Paradigms (1)
 
   - **(2020)** [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural case study advocating for the strict decoupling of compute nodes and storage backends within log-aggregation systems. This pattern, exemplified by Loki and Elasticsearch, ensures that volatile search workloads do not degrade raw historical index durability.
+## Enterprise Integration
+
+### Cloud-native Storage
+
+#### IBM Spectrum Scale Integration
+
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
+#### IBM Storage Systems
+
+  - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
 ## Kubernetes Storage Implementation
 
 ### Persistent Volumes and Provisioners
@@ -97,13 +114,6 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
   - **(2021)** [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed New Relic platform tutorial detailing how Kubernetes Volumes function. It maps practical configurations from local directories up to persistent network volumes, helping engineers establish robust observability patterns around disk metrics.
   - **(2021)** [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A focused architectural introduction explaining the crucial distinction between a declared Volume (the backend data provider) and a volumeMount (how that data is projected inside a container). It covers essential syntax parameters for configuration.
   - **(2021)** [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-oriented guide explaining the conceptual differences between filesystems, generic container volumes, and Persistent Volumes. It uses clear examples, such as an NFS-backed Volume, to clarify how and when to use each configuration pattern.
-## Platform Engineering
-
-### Ecosystem
-
-#### Marketplace
-
-  - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
 ## Storage
 
 ### Distributed Storage
@@ -209,9 +219,14 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
 #### Industry Research
 
   - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
+### Performance Benchmarking
+
+#### Etcd Storage Tuning
+
+  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Kubernetes Releases](./kubernetes-releases.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

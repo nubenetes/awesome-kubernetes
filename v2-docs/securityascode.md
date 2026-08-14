@@ -16,6 +16,18 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### General Reference
 
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
+## Cloud Infrastructure
+
+### Azure Networking
+
+#### Security
+
+  - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
+### Security and Compliance
+
+#### Policy Enforcement
+
+  - **(2021)** [aws.amazon.com: Easy as one-two-three policy management with Kyverno on Amazon EKS 🌟](https://aws.amazon.com/blogs/containers/easy-as-one-two-three-policy-management-with-kyverno-on-amazon-eks) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the deployment of Kyverno on Amazon EKS to enforce policy as code using native Kubernetes resources. It demonstrates how to write policies to restrict root privileges, mutate incoming resources, and audit cluster compliance directly without writing complex Rego code.
 ## Cloud Native Security
 
 ### Infrastructure Security
@@ -39,6 +51,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - **(2021)** [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report outlining CNCF policy-as-code initiatives designed to patch security deficiencies within container orchestration. Compares the operational paradigms of Rego-based OPA and YAML-native Kyverno for policy-driven environments.
 #### Kyverno
 
+  - **(2024)** [==A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742==](https://github.com/kubernetes/kubernetes/issues/126811) <span class='md-tag md-tag--info'>⭐ 123002</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5a0334c0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 2 L 30 11 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-5a0334c0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kyverno security policy designed to block custom Nginx Ingress snippet configurations, preventing exploitation of CVE-2021-25742. Demonstrates the practical power of declarative security rules in blocking ingress privilege escalations.
   - **(2021)** [cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟](https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates automated security practice implementation inside OpenShift clusters utilizing Kyverno. Explores Kyverno's YAML-native approach, highlighting how platform engineers write policies using standard Kubernetes resource models without learning new programming languages.
 #### Kyverno Training
 
@@ -101,7 +114,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Policy-as-code (3)
 
   - **(2021)** [kubermatic.com: Using Open Policy Agent With Kubermatic Kubernetes Platform](https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the implementation of OPA Gatekeeper within Kubermatic Kubernetes Platform (KKP) for programmatic multi-cluster fleet management. Illustrates how operators can centrally define, distribute, and enforce admission controller policies across dozens of hybrid and multi-cloud Kubernetes deployments.
-### Security and Compliance
+### Security and Compliance (1)
 
 #### Cloud Security
 
@@ -134,6 +147,16 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Cryptographic Signatures
 
   - **(2022)** [blog.sigstore.dev: How to verify container images with Kyverno using KMS,' Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced technical exploration of enterprise container security architectures. Provides steps to construct a validation loop that verifies image signatures dynamically using Kyverno, integrated directly with KMS key stores, Sigstore Cosign, and OIDC-based Workload Identity.
+## Kubernetes Security (1)
+
+### Policy-as-code (5)
+
+#### Kyverno Administration
+
+  - **(2020)** [kyverno.io 🌟](https://kyverno.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kyverno is a declarative Kubernetes-native policy engine. Designed specifically for Kubernetes, it simplifies policy management by allowing administrators to validate, mutate, and generate resources without writing complex Rego code.
+#### Kyverno Rules and Policies
+
+  - **(2020)** [kyverno.io/policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official catalog of Kyverno policies, providing ready-to-deploy manifests for Pod Security standards, multi-tenant workspace isolation, label validation, and compliance auto-generation.
 ## Public Cloud
 
 ### Azure Integration
@@ -141,24 +164,43 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Cloud Governance
 
   - **(2026)** [**Azure Policy**](https://nubenetes.com/azure/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
-## Security
+## Security (1)
 
+### Devsecops
+
+#### Vulnerability Scanning
+
+  - **(2022)** [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides users in configuring GitHub's integrated developer security capabilities to find vulnerabilities, scan code dependencies, and detect exposed tokens. Highlights configuring automated pipelines to safeguard repository secrets prior to creating deployment packages. Speeds up software supply-chain validation workflows.
+### IAM
+
+#### Protocols
+
+  - **(2022)** [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industrial-grade review of the OAuth 2.0 protocol specifications, flows, and grant types. Provides system architects with core design criteria to safely establish authorization states between microservice deployments. Underlines secure handling of access, refresh, and id tokens.
+  - **(2022)** [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architecture overview of OpenID Connect (OIDC) acting as the authentication layer on top of OAuth 2.0. Analyzes ID token syntax, discovery endpoints, and flows for multi-tenant systems. Essential background knowledge for implementing cloud-native federated identities.
 ### Identity and Access
 
+#### Entra ID
+
+  - **(2024)** [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official guidelines detailing the technical configuration of Microsoft Entra ID to establish strong cloud tenant boundaries. It highlights multi-factor authentication, conditional access pathways, and identity protection rules. Essential reading for platform engineers aligning cloud-native infrastructure with corporate compliance frameworks.
 #### Oauth2
 
   - **(2022)** [rapidapi.com:What is OAuth2.0?](https://rapidapi.com/guides/oath2-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive foundational guide breaking down the OAuth 2.0 authorization framework. It delineates core concepts including authentication flows, grant types, token lifecycles, and security delegation mechanics.
 #### Spring Security
 
   - **(2022)** [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation tutorial detailing the deployment of an OAuth2-compliant resource server using Spring Security. It guides through configuring middleware to parse and authenticate incoming JWT requests.
-### Policy Enforcement
+### Kubernetes Security (2)
+
+#### Policy As Code
+
+  - **(2021)** [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/blogs/kubernetes-pod-security-policies-opa) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Evaluates using Open Policy Agent (OPA) and Gatekeeper to enforce pod security. Live grounding alerts: Native Kubernetes Pod Security Policies (PSPs) are fully deprecated. This article remains valuable for migration projects transitioning from legacy PSPs to modern OPA/Gatekeeper policy-as-code equivalents.
+### Policy Enforcement (1)
 
 #### Admission Control
 
   - **(2022)** [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7aafde66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 3 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-7aafde66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Pulumi](./pulumi.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

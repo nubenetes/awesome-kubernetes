@@ -13,6 +13,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 
   - [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
+## AI and Agents
+
+### Environments
+
+#### Cloud Agents
+
+  - **(2025)** [Development Environments for Cloud Agents](https://cursor.com/blog/cloud-agent-development-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of building custom sandboxes and isolated development runtimes for LLM-based autonomous cloud agents. Discusses secure API mocking, resource isolation, and state rollbacks.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -31,8 +38,20 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - [dzone.com: What Is APIOps? How to Be Successful at It](https://dzone.com/articles/what-is-apiops-and-how-to-be-successful-at-apiops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: What Is APIOps? How to Be Successful at It in the Kubernetes Tools ecosystem.
   - [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and' SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and' SREs in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/openshift-end-to-end-cluster-customization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
+## Architecture
+
+### Patterns
+
+#### Twelve-factor App
+
+  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
 ## Automation
 
+### Agentic Systems
+
+#### MCP Server
+
+  - **(2026)** [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the stable release of Azure MCP (Model Context Protocol) Server 2.0, enabling secure, self-hosted agentic automation workflows. It provides architectural patterns for running local AI agents with direct, API-driven access to Azure resource management, optimizing operational automation via language model integrations.
 ### Noops Evolution
 
   - **(2020)** [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Proposes a five-step path toward fully abstracted, frictionless environments (NoOps). Argues that standard automation must evolve into self-healing platforms that hide low-level operations from microservice developers.
@@ -43,6 +62,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Reference Architectures
 
   - **(2024)** [==Ansible for DevOps Examples==](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9787</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-253833c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 10 L 30 4 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-253833c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-standard GitHub repository containing configuration blueprints for Jeff Geerling's 'Ansible for DevOps'. Serves as a primary reference for deploying Kubernetes clusters and microservices.
+## CICD
+
+### Security
+
+#### Network Access Control
+
+  - **(2024)** [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official update outlining changes in public IP routing paths for Azure DevOps hosted agents. Crucial information for maintaining zero-trust firewall configurations.
 ## CICD and DevOps
 
 ### Infrastructure As Code
@@ -55,13 +81,6 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Career Path
 
   - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba31f722" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 3 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-ba31f722)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
-## Career and Interview Preparation
-
-### Interview Prep
-
-#### Cloud Networking
-
-  - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural scenario walkthrough evaluating VPC partition layout designs. Focuses on address planning, NAT placements, security group hierarchies, and transit routing rules within high-availability clouds.
 ## Chaos Engineering
 
 ### Curated Playbooks
@@ -69,6 +88,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Awesome Lists
 
   - **(2023)** [==Awesome Chaos Engineering==](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6589</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-65c32571" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 5 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-65c32571)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier curated directory of resources, tools, and papers dedicated to the practice of Chaos Engineering. It indexes tools for simulating network latency, injecting resource stress, and terminating instances across various platforms, with a strong focus on cloud-native environments. This is a must-have reference for engineering teams building self-healing, fault-tolerant distributed systems.
+## Cloud Application Platforms
+
+### Azure App Service
+
+#### App Service Diagnostics
+
+  - **(2025)** [**Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues**](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical breakdown of the Azure App Service Auto-Heal capability, showing how to trigger automated mitigation actions during performance regressions. It explains how to collect diagnostic artifacts, such as thread dumps, memory dumps, and profiler traces, right before an instance restarts. This proactive debugging practice prevents transient microservice failures from escalating into major outages.
 ## Cloud Architecture
 
 ### Multicloud Solutions
@@ -88,6 +114,11 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2022)** [searchitoperations.techtarget.com: Tips and tools to achieve a serverless DevOps workflow](https://www.techtarget.com/searchitoperations/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the fundamental paradigm shifts involved in building DevOps pipelines for abstracted serverless runtimes. The author breaks down the unique testing, cold-start optimization, and automated IAM policies required for ephemeral compute. Live architecture designs indicate that employing native CI tools combined with frameworks like AWS SAM or Serverless Framework is key to maintaining deployment reliability at scale.
 ## Cloud Infrastructure
 
+### AWS Ecosystem
+
+#### Cloud Services
+
+  - **(2026)** [AWS DevOps 🌟](https://aws.amazon.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s primary DevOps portal, presenting their native continuous delivery and infrastructure management stack, including CodePipeline, CodeBuild, and CloudFormation. While curator listings highlight frictionless integration with EC2 and ECS, live architectural patterns in 2026 showcase teams frequently combining AWS-native compute with cloud-agnostic deployment runtimes to avoid platform lock-in.
 ### Automation (1)
 
 #### Developer Workflows
@@ -99,6 +130,22 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Sysadmin Practices
 
   - **(2021)** [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/en/blog/it-automation-book)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines transition stages from traditional system administration scripting to unified declarative automation models. Uses real-world enterprise scenarios to show how to build configuration environments using tools like Ansible.
+### Enterprise Containers
+
+#### Strategy
+
+  - **(2021)** [contino.io: How to Make Enterprise Container Strategies That Last (Part One)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-focused strategic guide detailing how to design durable container adoption initiatives. It emphasizes aligning developer enablement with platform engineering teams, setting up proper governance models, and establishing realistic operational metrics, ensuring organization-wide Kubernetes migrations don't stall due to cultural friction.
+### GCP Ecosystem
+
+#### CICD (1)
+
+  - **(2026)** [Google Cloud Build](https://cloud.google.com/build) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's serverless continuous integration and continuous delivery platform, enabling high-performance builds across multiple languages. The curator highlights its deep integration with GKE and secure Docker artifact pipelines. Live telemetry confirms that Cloud Build is highly effective for cost-sensitive scaling operations due to its pay-as-you-go billing model.
+#### DevOps Frameworks
+
+  - **(2026)** [cloud.google.com: DevOps](https://cloud.google.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's primary DevOps hub, anchoring its research around DORA (DevOps Research and Assessment) and native cloud capabilities like Cloud Build and GKE. Curator reviews emphasize high-velocity software delivery architectures. Modern GCP engineering patterns rely on these principles to deploy secure, distributed, and containerized architectures on Google Cloud Platform.
+#### Developer Tools
+
+  - **(2026)** [Cloud Developer Tools](https://cloud.google.com/products/tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of Google Cloud developer tools, spanning Cloud Shell, Artifact Registry, and Cloud Code extensions. The curator highlights its streamline-driven integration with local IDE environments. Live platform development metrics show these tools dramatically reduce local setup time for developers building serverless applications or microservices targeted at GCP.
 ### Network Infrastructure
 
 #### Netdevops
@@ -133,12 +180,15 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2020)** [Corporate culture complicates Kubernetes and container collaboration 🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explains how legacy organizational divisions obstruct Kubernetes deployments. Points out the importance of breaking down departmental silos to exploit container multi-tenancy correctly.
 ## Continuous Delivery
 
-### CICD
+### CICD (2)
 
   - **(2020)** [learnsteps.com: DevOps Interview Question: How will you set up a CI/CD pipeline? 🌟](https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical architectural blueprint of modern pipeline assembly: testing validations, container building, canary promotions, and rollbacks. Essential resource for production architecture preparation.
 ### Database Delivery
 
   - **(2020)** [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues that continuous build validation is incomplete if database schema deployments remain a manual task. Outlines database migrations integrated directly inside deployment stages.
+### Release Strategies
+
+  - **(2020)** [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://platform.qa.com/login) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis of separating physical code deployment from logical user release. Examines the use of feature flag systems and proxy-level traffic management to perform risk-free production promotions.
 ### Security Policy
 
   - **(2020)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines corporate initiatives aimed at embedding security validations and automated pipeline compliance directly within Jenkins-based and unified enterprise orchestration systems.
@@ -183,6 +233,20 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 
   - **(2021)** [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents the 'Data as Code' philosophy, where datasets are treated with the same version control, testing, and continuous delivery disciplines as application source code. The author argues that data pipelines must have rigorous validation tests before execution. Live enterprise analytics frameworks validate this trend, showing that treating data declaratively is essential for stable, reproducible machine learning and analytical pipelines.
   - **(2021)** [arrikto.com: What is Data as Code 🌟](https://www.arrikto.com/blog/what-is-data-as-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the foundational architectural pillars of Data as Code, focusing on git-like versioning for datasets, isolated staging environments, and immutable data storage snapshots. Curator points map this to reproducible machine learning pipelines. Live operational telemetry shows these patterns are key to preventing data drift and ensuring compliance with regulatory data auditing guidelines.
+## Deployment and Delivery
+
+### CICD (3)
+
+#### Self-hosted Runners
+
+  - **(2025)** [Buildbot](https://buildbot.net) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Python-based framework designed for continuous integration testing. Although largely surpassed by Kubernetes-native engines, Buildbot remains a robust, highly extensible platform for complex, non-standard compilation requirements.
+## DevOps and Learning Resources
+
+### Video Courses
+
+#### Ansible (1)
+
+  - **(2022)** [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive video tutorial series mapping out foundational DevOps patterns using Ansible. Progresses from single-target ad-hoc commands to complex corporate role orchestration.
 ## DevOps and Platforms
 
 ### Automation (2)
@@ -265,7 +329,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Upskilling Directories
 
   - **(2022)** [orange-quarter.com: Upskill yourself with these 5 DevOps resources](https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Lists top educational channels including dzone, Arrested DevOps, and Devopsdays. Live Grounding: Connects platform developers with specialized podcasts, community conferences, and interactive platforms to fast-track career evolution.
-### Security
+### Security (1)
 
 #### Threat Modeling
 
@@ -277,9 +341,9 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2023)** [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Details how MTTR influences business outcome reliability and pipeline maturity. Live Grounding: Details how real-time logging, distributed tracing, and incident response runbooks directly improve telemetry metrics inside microservices deployments.
 ## DevOps and SRE
 
-### CICD (1)
+### CICD (4)
 
-#### Architecture
+#### Architecture (1)
 
   - **(2023)** [devops.com: he Real Pipeline](https://devops.com/the-real-pipeline) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes the reality of modern continuous delivery pipelines, contrasting linear textbook designs against highly complex, non-linear feedback loops. Curator highlights stress the integration of multi-stage automated tests. Live architectural reviews in 2026 show that successful enterprise implementations rely heavily on policy-as-code and canary release orchestration rather than simple, step-by-step automated deployment scripts.
 #### Tool Integrations
@@ -349,9 +413,6 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 
 ### Organizational Design
 
-#### Culture and Governance
-
-  - **(2023)** [**blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟**](https://blogs.vmware.com/cloud-foundation) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores structural and cultural transformations required to establish a high-performing DevOps initiative. Focuses on decentralizing operational decisions, psychological safety, and establishing platform teams to enable developers.
 #### DevOps Bottlenecks
 
   - **(2023)** [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/software-services/what-s-holding-devops-back-) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Diagnostic deep dive into the common bottlenecks holding legacy organizations back from true DevOps adoption. Identifies organizational silos, tool fatigue, lack of training, and legacy governance frameworks as persistent pain points.
@@ -462,7 +523,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2021)** [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the future of software delivery, highlighting platforms that reduce developer friction. Discusses using Kubernetes operators, declarative configurations, and AI-assisted deployment systems to handle hybrid-cloud setups.
 ### Metrics and Assessment
 
-#### CICD (2)
+#### CICD (5)
 
   - **(2021)** [bmc.com: DevOps Metrics for Optimizing CI/CD Pipelines](https://www.bmc.com/blogs/devops-ci-cd-metrics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on tracking and analyzing CI/CD metrics to optimize performance. Focuses on identifying pipeline bottlenecks, measuring build and deployment speeds, and tracking success rates to improve team efficiency.
 #### Operational Excellence
@@ -608,28 +669,28 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Drift Detection (1)
 
   - **(2022)** [thenewstack.io: Cloud Drift Detection: How to Resolve Out-of-State Changes](https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide on auditing actual cloud environment states against declarative IaC templates. Details the recovery mechanics necessary to align divergent environments programmatically.
-### Security (1)
+### Security (2)
 
 #### Infrastructure As Code (3)
 
   - **(2023)** [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how continuous drift monitoring acts as a primary security perimeter control. Validating resource declarations against cloud runtimes prevents bad actors from executing persistence actions via untracked configuration edits.
 ## Infrastructure As Code (4)
 
+### CICD (6)
+
+#### Self-hosted Runners (1)
+
+  - **(2025)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of Cloud Posse Terraform modules designed to automate secure, dynamically autoscaling self-hosted GitHub Actions runners inside AWS networks, optimization execution speed while keeping compute costs minimal.
 ### IaC Fundamentals
 
 #### Overview (2)
 
   - **(2026)** [==IaC Infrastructure as Code==](https://nubenetes.com/iac/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nubenetes architectural reference portal on Infrastructure as Code (IaC). Outlines fundamental philosophies, lifecycle management, and paradigm shifts of treating bare-metal, cloud, or cluster state as declarative, version-controlled code.
-## Kubernetes (1)
+### Terraform
 
-### Troubleshooting
+#### Entra ID Integration
 
-#### Guides (1)
-
-  - **(2023)** [Kubernetes Troubleshooting Guide: Common Pitfalls and Solutions](https://autodotes.com/posts/s90PP9397WYTsAWaRapd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A robust troubleshooting guide compiling common pitfalls, anti-patterns, and direct remedies for everyday Kubernetes operation. It spans topics from service networking misconfigurations to persistent volume mounting failures. This resource provides clear checklists to help platform engineers accelerate incident resolution times.
-#### Playbooks
-
-  - **(2023)** [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This compilation details ten authentic, highly technical outage scenarios encountered in production Kubernetes clusters, complete with step-by-step diagnostic paths and resolutions. It covers complex issues like DNS resolution failure, certificate expiration, and stateful volume mounting locks. The practical nature of these scenarios makes this an invaluable resource for active operations teams.
+  - **(2024)** [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A focused technical workaround detailing how to dynamically capture the current executing User Principal Name (UPN) inside Terraform scripts without relying on wide Microsoft Entra ID read access.
 ## Management
 
 ### Observability
@@ -671,9 +732,16 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Articles
 
   - **(2016)** [thenewstack.io: Tigera's Calico Aims to Ease Connectivity Pain with Kubernetes](https://thenewstack.io/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early architectural analysis detail of Project Calico's approach to easing IP-management and network connectivity bottlenecks in scaling clusters. It breaks down how Calico bypasses virtual overlay networks by utilizing standard BGP route propagation, facilitating direct IP routing while enforcing strict network security policies at the Linux kernel level.
+## Operations
+
+### Local Environment Setup
+
+#### Package Management
+
+  - **(2023)** [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step local workstation bootstrapping guide using the Windows Chocolatey package manager. Instructs how to quickly establish consistent local administration tooling, installing docker-cli, terraform, aws-cli, and ecs-cli to prepare for cloud resource management.
 ## Orchestration
 
-### Kubernetes (2)
+### Kubernetes (1)
 
 #### Core Concepts (2)
 
@@ -685,13 +753,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 
 ### Containerization (2)
 
-#### CICD (3)
+#### CICD (7)
 
   - **(2021)** [devops.com: How Containers Simplify DevOps Workflows and CI/CD Pipelines 🌟](https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes structural benefits of using containers as immutable deployment artifacts. Explains how containers prevent environment drift, accelerate automated build times, and streamline target infrastructure orchestration.
 #### Value Realization
 
   - **(2021)** [thenewstack.io: Maximizing the Value of Containerization for DevOps](https://thenewstack.io/maximizing-the-value-of-containerization-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how containerized virtualization architectures secure strict consistency across development, staging, and production networks. Analyzes image optimization protocols, layer caching mechanisms, secure base images, and container orchestrator deployment strategies.
-### Kubernetes (3)
+### Kubernetes (2)
 
 #### DevOps Integration
 
@@ -708,14 +776,14 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Platform As A Runtime
 
   - **(2024)** [infoq.com: Platform as a Runtime - the Next Step in Platform Engineering](https://www.infoq.com/articles/platform-runtime-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Proposes 'Platform as a Runtime' (PaaR) as the evolutionary phase beyond static developer portals. Analyzes dynamic orchestration engines that compile abstract developer intentions into cloud-native infrastructure resources on the fly, transforming static templates into active runtime lifecycles.
-### Architecture (1)
+### Architecture (2)
 
 #### Gitops Repository Design
 
   - **(2023)** [humanitec.com: How to design your repository structures to nail platform engineering](https://humanitec.com/blog/how-to-design-your-repository-structures-to-nail-platform-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep architectural dive into GitOps-aligned repository topologies. Discusses split-repository layouts separating application code from environment configurations, enabling declarative platform orchestrators (like Humanitec or ArgoCD) to work seamlessly while maintaining strong security boundaries.
 ### Business Value (1)
 
-#### Strategy
+#### Strategy (1)
 
   - **(2023)** [infoworld.com: Why platform engineering?](https://www.infoworld.com/article/2338392/why-platform-engineering.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the economic and organizational imperatives driving the shift to platform engineering. Focuses on scaling development teams, lowering time-to-market, and solving the cognitive overload bottleneck introduced by modern cloud-native service proliferation.
 ### CICD and DevOps (1)
@@ -740,9 +808,12 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2023)** [dev.to/thenjdevopsguy: What Is Platform Engineering (And What Is It Not?)](https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the core definition of Platform Engineering by highlighting key industry anti-patterns. Emphasizes that simply renaming a DevOps team to a Platform team without introducing product-centric paradigms and developer self-service fails to yield the desired operational efficiencies.
 ### Design Methodology
 
-#### Architecture (2)
+#### Architecture (3)
 
   - **(2023)** [thenewstack.io: Architecture and Design Considerations for Platform Engineering Teams](https://thenewstack.io/platform-engineering/architecture-and-design-considerations-for-platform-engineering-teams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into architectural design principles for platform engineering. Outlines critical decisions around modular tool chains, declarative configurations, open API design, and self-healing systems that form the structural foundation of enterprise IDPs.
+#### Platform Democracy
+
+  - **(2023)** [Platform Democracy: Rethinking Who Builds and Consumes Your Internal Platform](https://www.syntasso.io/post/platform-democracy-rethinking-who-builds-and-consumes-your-internal-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the shift from top-down platform imposition to a collaborative platform democracy model where users actively influence platform features. Focuses on Kratix-style platform design that co-creates platform capabilities to better align with actual developer workflows and organizational requirements.
 ### DevOps Evolution
 
 #### Observability (1)
@@ -766,7 +837,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Kubernetes Fleet
 
   - **(2023)** [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/councils/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/?streamIndex=0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Delivers executive-level and architectural analysis on scale-out Kubernetes management. Discusses how dedicated platform engineering teams act as force multipliers, streamlining cluster lifecycle automation, centralized governance, and cost optimization across hybrid and multi-cloud environments.
-### Guides (2)
+### Guides (1)
 
 #### Foundational
 
@@ -799,7 +870,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Articles (1)
 
   - **(2025)** [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated repository of technical articles, case studies, and editorial content analyzing the evolution of Platform Engineering from traditional DevOps. Provides critical architectural comparisons, community trends, and technical insights on tool adoption in enterprise environments.
-#### Kubernetes (4)
+#### Kubernetes (3)
 
   - **(2023)** [siliconangle.com: The rise of platform engineering in the Kubernetes era](https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis from KubeCon covering the strategic convergence of cloud-native infrastructure and platform engineering. Details how standardizing on Kubernetes APIs enables organizations to construct extensible control planes that mask infrastructure complexity for developers.
 ### Infrastructure Migration
@@ -814,13 +885,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2023)** [dev.to: Platform Engineering and Internal Developer Platform (IDP)](https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores AWS-specific implementations and patterns of Platform Engineering and IDPs. Details the boundaries between application code, infrastructure as code (IaC), and platform orchestrators to create repeatable golden paths for development teams.
 ### Internal Developer Platforms
 
-#### Architecture (3)
+#### Architecture (4)
 
   - **(2024)** [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes five primary use cases of Internal Developer Platforms (IDPs). Highlights automated environment provisioning, self-service continuous delivery pipelines, unified application configuration, access management, and infrastructure observability to optimize the developer experience.
 #### Organizational Structure
 
   - **(2020)** [==softwareengineeringdaily.com: The Rise of Platform Engineering 🌟==](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Historically significant piece tracking the evolution from traditional DevOps silos to Platform Engineering. Discusses building Internal Developer Platforms (IDPs) to lower cognitive load for application developers, establishing self-service infrastructure portals, and applying product management principles to internal tooling.
-### Kubernetes (5)
+### Kubernetes (4)
 
 #### IDP Implementation
 
@@ -847,7 +918,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2023)** [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dissects the distinct responsibilities, metrics, and overlaps between DevOps, Site Reliability Engineering (SRE), and Platform Engineering. Provides a clear taxonomy mapping showing how platform teams deliver the golden paths that SRE and DevOps practices operate upon.
 ### Pillars
 
-#### Security (2)
+#### Security (3)
 
   - **(2023)** [thenewstack.io: The 6 Pillars of Platform Engineering: Part 1 — Security](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the security pillar of Platform Engineering, showing how to bake access control, compliance, vulnerability scanning, and secrets management directly into the paved path. This strategy ensures security compliance is passive and frictionless for product developers.
 ### Product Management
@@ -865,6 +936,11 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Developer Hub
 
   - **(2024)** [piotrminkowski.com: IDP on OpenShift with Red Hat Developer Hub](https://piotrminkowski.com/2024/07/04/idp-on-openshift-with-red-hat-developer-hub) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on technical blueprint demonstrating how to design and build an IDP utilizing Red Hat Developer Hub (based on Backstage) on top of Red Hat OpenShift. Explores deployment templates, catalog integration, cluster authentication, and secure GitOps-driven application pipelines.
+## Product Management (1)
+
+### Methodology (2)
+
+  - **(2020)** [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Bridges the gap between technical release pipelines and business product management. Explains DevOps principles, release gating, and CD strategies to align cross-functional teams with deployment automation architectures.
 ## Quality Assurance (1)
 
 ### Test Automation
@@ -898,14 +974,19 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Core Architectures
 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
-## Strategy (1)
+### Version Control
+
+#### Git Best Practices
+
+  - **(2018)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical essay discussing optimal commit message hygiene and atomic commits. Argues that purposeful, structured histories are critical for tracking down regression roots and ensuring easy codebase traversability.
+## Strategy (2)
 
 ### Enterprise Performance
 
   - **(2020)** [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights strategic advantages realized by organizations building automated code assembly and validation workflows. Demonstrates how inner-source code bases accelerate release schedules.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [QA](./qa.md) | [Project Management Tools](./project-management-tools.md)
+💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

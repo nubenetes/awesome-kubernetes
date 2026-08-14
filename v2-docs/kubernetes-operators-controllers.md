@@ -40,6 +40,13 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
   - [cncf.io: Kubernetes Operators 101](https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes Operators 101 in the Kubernetes Tools ecosystem.
   - [cncf.io: CNCF Operator White Paper (PDF) 🌟](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: CNCF Operator White Paper (PDF) 🌟 in the Kubernetes Tools ecosystem.
+## Architecture
+
+### Kubernetes Operators
+
+#### Java Quarkus
+
+  - **(2026)** [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced developer reference for implementing custom Kubernetes Operators in Java using Quarkus. Curator Insight highlights Quarkus' small memory footprint. Live Grounding shows a significant surge in Java Operator SDK adoption for enterprise platforms.
 ## CICD
 
 ### Kubernetes and Containers
@@ -47,6 +54,13 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Self-hosted Infrastructure
 
   - **(2020)** [==github.com/actions/actions-runner-controller 🌟==](https://github.com/actions/actions-runner-controller) <span class='md-tag md-tag--info'>⭐ 6298</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-69d3828b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 3 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-69d3828b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Kubernetes operator designed to manage self-hosted GitHub Actions runner infrastructure dynamically. Integrates natively with Horizontal Pod Autoscaler (HPA) targets to scale runner deployments in response to webhook event metrics.
+## Cloud Infrastructure
+
+### Kubernetes and Operators
+
+#### Platform Engineering
+
+  - **(2026)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares traditional static IaC runtimes against active reconciliation patterns in Kubernetes Operators. Highlights instances where platform engineering teams require continuously running controller loops to prevent configuration drifts.
 ## Cloud Native Infrastructure
 
 ### Kubernetes Extension
@@ -81,6 +95,13 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Tool Comparison
 
   - **(2021)** [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.redhat.com/en/blog/build-your-kubernetes-operator-with-the-right-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting the tradeoffs between different operator developer tools like Helm, Ansible, and Go. It establishes a maturity model to help teams choose tools based on their application's lifecycle complexity. Essential reference for migration strategies from simple manifest templates to active state-reconciliation loops.
+## Data and AI
+
+### Batch Scheduling
+
+#### Kueue
+
+  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ## Data and Databases
 
 ### Lifecycle Management
@@ -238,6 +259,18 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 ##### Operators (15)
 
   - **(2024)** [==isaaguilar/terraform-operator: Terraform Operator==](https://github.com/GalleyBytes/terraform-operator) <span class='md-tag md-tag--info'>⭐ 380</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fce37aca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 9 L 20 5 L 30 4 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-fce37aca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Executes declarative Terraform pipelines natively as custom resources inside clusters. It matches dynamic GitOps deployment models to external cloud infrastructure, allowing teams to unify orchestration under a single control plane.
+### Hardware
+
+#### GPU Virtualization
+
+  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
+### Networking
+
+#### Ingress
+
+##### Azure Application Gateway
+
+  - **(2025)** [**Introduction to Azure Application Gateway for Containers (AGC)**](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introductory architecture guide covering the capabilities of Azure's modern Application Gateway for Containers (AGC). Illustrates how it integrates natively via Gateway API parameters to deliver low-latency application routing.
 ## Infrastructure and Hardware
 
 ### AIML Infrastructure
@@ -245,13 +278,18 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Hardware Integration
 
   - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3788</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8308a262" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 7 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-8308a262)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
-## Kubernetes Developer Experience
+## Infrastructure As Code
 
-### Inner-loop Automation
+### AI Integrations
 
-#### Guides
+#### Validation and Testing
 
-  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
+  - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
+### Ansible
+
+#### Core Concepts
+
+  - **(2022)** [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive primer exploring how to declare, structure, and organize Ansible inventories. Covers standard INI and YAML file declarations, host-group structures, nested grouping, and introductory dynamic inventory strategies.
 ## Kubernetes Gitops and Packaging
 
 ### Argo Project Ecosystem
@@ -268,7 +306,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 ##### Operators (16)
 
   - **(2023)** [==gst-pipeline-operator: A Kubernetes operator for running audio/video processing' pipelines==](https://github.com/tinyzimmer/gst-pipeline-operator) <span class='md-tag md-tag--info'>⭐ 24</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f15f54a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 6 L 30 9 L 40 10 L 50 7" fill="none" stroke="url(#spark-grad-1f15f54a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly specialized operator configured to execute GStreamer audio/video pipelines inside clusters, scaling media ingestion, processing topologies, and delivery channels dynamically.
-## Networking
+## Networking (1)
 
 ### DNS
 
@@ -375,7 +413,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 
 ### Kubernetes
 
-#### Networking (1)
+#### Networking (2)
 
   - **(2023)** [github.com/carlosedp/lbconfig-operator: External Load Balancer Operator' 🌟](https://github.com/carlosedp/lbconfig-operator) <span class='md-tag md-tag--info'>⭐ 63</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f649b7f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 3 L 20 11 L 30 9 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-1f649b7f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operator that dynamically provisions and configures external hardware/software load balancers (such as F5 BIG-IP or HAProxy) based on Kubernetes ingress or service resource updates.
 #### Observability (3)
@@ -391,7 +429,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - **(2020)** [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/wp-content/uploads/2020/01/kubernetes-operator.jpg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrated guide defining the role, architecture, and common deployment strategies of Kubernetes Operators. Explains how custom controllers automate day-2 infrastructure management tasks like scaling, backups, and state healing.
   - **(2020)** [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on Kubernetes Operator lifecycle maturity models, introducing toolkits like KUDO (Kubernetes Universal Declarative Operator). Covers operational challenges, telemetry gathering, and unified configuration schemas.
   - **(2019)** [infoq.com: Kubernetes Operators in Depth](https://www.infoq.com/articles/kubernetes-operators-in-depth) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-density architectural breakdown exploring the reconciliation loop, custom controller watch mechanisms, and cache behaviors inside the Kubernetes API server model. Essential reading for platform architects building operators.
-## Platform Engineering
+## Platform Engineering (1)
 
 ### Gitops and Configuration
 
@@ -517,7 +555,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - **(2021)** [openshift.com: Is your Operator Air-Gap Friendly?](https://www.redhat.com/en/blog/is-your-operator-air-gap-friendly) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains critical design rules for deploying operators inside highly secure, disconnected, or air-gapped systems, detailing offline container registries, local metadata hosting, and strict network configurations.
 ### Multi-tenancy (1)
 
-#### Platform Engineering (1)
+#### Platform Engineering (2)
 
 ##### Operators (42)
 
@@ -529,6 +567,11 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 ##### Operators (43)
 
   - **(2021)** [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review describing the open-sourcing of kube-secret-syncer. The tool synchronizes secrets dynamically from AWS Secrets Manager to Kubernetes namespaces, removing manual config synchronization overhead.
+#### Cloud Integrations
+
+##### Azure
+
+  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 #### Multi-provider Secrets
 
 ##### Operators (44)
@@ -591,7 +634,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - **(2024)** [github.com/lukaszraczylo/jobs-manager-operator 🌟](https://github.com/lukaszraczylo/jobs-manager-operator) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized job execution supervisor focused on automated lifecycle pruning. It dynamically clears completed or broken jobs based on custom-defined TTL guidelines, preventing etcd congestion caused by historical batch resources.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

@@ -18,7 +18,7 @@ description: "Curated, AI-ranked AWS Training resources for the 2026 Cloud Nativ
   - **(2023)** [A curated list of AWS resources to prepare for the AWS Certifications](https://gist.github.com/leonardofed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, community-maintained GitHub Gist featuring a structured registry of mock exams, official whitepapers, and cloud design cheatsheets. It provides a reliable directory for self-directed preparation across multiple AWS credentials.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

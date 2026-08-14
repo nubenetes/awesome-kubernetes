@@ -32,11 +32,6 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Edge Security
 
   - **(2021)** [aws.amazon.com: Authorization@Edge using cookies: Protect your Amazon CloudFront content from being downloaded by unauthenticated users](https://aws.amazon.com/de/blogs/networking-and-content-delivery/authorizationedge-using-cookies-protect-your-amazon-cloudfront-content-from-being-downloaded-by-unauthenticated-users) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents edge security patterns leveraging Lambda@Edge or CloudFront Functions to validate cookies and JWTs. This approach prevents unauthorized downloads of static content directly at the CDN tier, dramatically reducing backend origin load.
-#### DNS and Domain Management
-
-##### Route 53
-
-  - **(2021)** [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular tutorial on migrating DNS management to Amazon Route 53 from external registrars. While straightforward, real-world deployment requires careful TTL planning and nameserver transition strategies to prevent query dropouts and route interruptions during migration.
 #### Direct Connect
 
 ##### BGP Routing
@@ -79,9 +74,6 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Serverless Integration
 
   - **(2020)** [dashbird.io: AWS Elastic Load Balancing from a Serverless perspective](https://dashbird.io/blog/aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Application Load Balancer configurations when integrated with serverless backends like AWS Lambda. Details pricing, cold-starts, and architectural trade-offs compared to API Gateway. Live systems often choose ALB for cost-effective, high-volume HTTP routing.
-#### Network Management
-
-  - **(2019)** [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AWS Network Manager as a single pane of glass for monitoring global hybrid networks. Live cloud architectures utilize Network Manager to synthesize telemetry from AWS Transit Gateway, SD-WAN devices, and on-premises branch offices into actionable alerts.
 #### Networking Concepts
 
   - **(2020)** [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes AWS's core networking constructs for software engineers. While early guides treat VPC and subnetting as peripheral, modern development architectures position these as foundational security boundaries. The guide details CIDR blocks, VPC structure, and security groups.
@@ -149,7 +141,7 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

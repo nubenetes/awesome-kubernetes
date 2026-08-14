@@ -77,6 +77,11 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Ioc Containers
 
   - **(2025)** [Lamar](https://jasperfx.github.io/lamar) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced, high-performance IoC container and assembly scanning engine compatible with Microsoft's DI standards. Leverages Roslyn-powered dynamic code compilation to optimize dependency resolution pathways in microservices.
+### Artificial Intelligence
+
+#### Agent Integration
+
+  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
 ### Client Technologies
 
 #### CICD and DevOps
@@ -108,7 +113,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
   - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

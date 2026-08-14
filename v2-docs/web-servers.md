@@ -59,6 +59,16 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
 #### Haproxy
 
   - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
+### Multi-cluster
+
+#### DNS
+
+  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
+## Nginxconfig
+
+### Community Tools
+
+  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 ## Traffic Management
 
 ### Kubernetes Ingress Controllers
@@ -83,7 +93,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Networking](./networking.md) | [Cloudflare](./cloudflare.md)
+💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

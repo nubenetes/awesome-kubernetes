@@ -28,6 +28,11 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 ### Jenkins Alternatives
 
   - **(2024)** [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.testmuai.com/blog/best-jenkins-alternatives) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Surveys the shifting ecosystem of modern Continuous Integration (CI) tools, contrasting traditional server-based systems with cloud-native architectures. Outlines key replacements for Jenkins (such as GitHub Actions, GitLab CI, and CircleCI), detailing differences in hosting topologies, plugin dependency models, and configuration maintenance burdens.
+### Openshift and Jfrog
+
+#### DevOps Integrations
+
+  - **(2020)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This integration study outlines the cooperative benefits of leveraging Red Hat OpenShift alongside JFrog Artifactory to drive secure, enterprise-grade cloud-native development. It covers automated build triggers, container compliance, and continuous deployment workflows. It showcases how combining these enterprise tools streamlines DevOps practices at scale.
 ### Tool Comparison
 
   - **(2024)** [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.testmuai.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the structural and financial differences between JetBrains TeamCity and open-source Jenkins. Highlights Jenkins' raw extensibility via thousands of community-authored plugins against TeamCity's high-quality out-of-the-box features, configuration-as-code capabilities, and refined user-access controls.
@@ -43,6 +48,11 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2026)** [**Awesome GitHub Actions**](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27907</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6685da38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 12 L 30 3 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-6685da38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-backed library for GitHub Actions workflows, custom actions, and orchestrator tools. Streamlines structural pipelines by detailing matrix patterns, self-hosted runner optimizations, and security hardening configurations.
 ## Deployment and Delivery
 
+### Application Delivery
+
+#### Waypoint
+
+  - **(2024)** [waypointproject.io](https://developer.hashicorp.com/waypoint) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HashiCorp Waypoint provides developers with a structured application delivery model across multiple underlying orchestrators. Utilizing a single declarative configuration file, it unifies the build, deployment, and release pipeline stages.
 ### CICD (2)
 
 #### Cloud-native CI
@@ -54,6 +64,9 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 #### Deployment Strategies
 
   - **(2021)** [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&ab_channel=JFrog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This technical tutorial demonstrates orchestration of blue/green deployments using NGINX as an ingress traffic controller and JFrog Artifactory as the container registry. It highlights automating immutable artifact promotions and shifting traffic paths smoothly to prevent production downtime.
+#### Industry Reports
+
+  - **(2024)** [GigaOm's Radar for Enterprise CI/CD 🌟](https://jfrog.com/pipelines)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry analyst review of enterprise CI/CD solutions. Highlights the positioning of systems like JFrog Pipelines on parameters including multi-cloud portability, automated governance, secure distribution, and hybrid scalability.
 #### Kubernetes-native CI
 
   - **(2022)** [==csweichel/werft==](https://github.com/csweichel/werft) <span class='md-tag md-tag--info'>⭐ 194</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-82a5d1ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 4 L 30 13 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-82a5d1ac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Werft is a lightweight, Kubernetes-native CI system designed to launch build tasks as custom pods directly from Git actions. Bypassing bulky traditional build systems, it leverages native Kubernetes scheduling to guarantee isolated, deterministic execution environments.
@@ -87,9 +100,14 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2021)** [Deploy Spinnaker CD Pipelines in Kubernetes](https://www.opsmx.com/blog/deploy-spinnaker-cd-pipelines-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step configuration guide illustrating Spinnaker deployment within a target Kubernetes cluster using the Spinnaker Operator. Outlines how to define cloud providers and manage internal persistence layers for pipeline reliability.
 ## DevOps
 
+### CICD (3)
+
+#### Tooling
+
+  - **(2021)** [devops.com: 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares seven dominant open-source CI/CD frameworks, assessing execution speed, plugin ecosystems, maintenance overhead, and architectural fitness for hybrid and Kubernetes configurations.
 ### Container Orchestration
 
-#### CICD (3)
+#### CICD (4)
 
   - **(2023)** [github.com: RedHat Actions 🌟](https://github.com/redhat-actions) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main organizational hub housing Red Hat's official actions for OpenShift deployment. These components standardize cluster authentication, CLI installation, and container orchestration tasks directly in pipeline code. Acts as the primary bridge for enterprise Kubernetes pipeline operations.
 #### Self-hosted Runners
@@ -97,7 +115,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2024)** [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Holds Red Hat's containerized self-hosted GitHub Actions runner configurations optimized for execution on OpenShift clusters. Offers secure scaling patterns that allow pipelines to process resource-intensive compilation and container builds natively within the cluster fabric.
 ## Devsecops
 
-### CICD (4)
+### CICD (5)
 
 #### Tekton Pipelines
 
@@ -109,7 +127,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 
 ### Red Hat Openshift
 
-#### CICD (5)
+#### CICD (6)
 
   - **(2021)** [==Jenkins-X + Tekton on OpenShift==](https://github.com/openshift/tektoncd-pipeline-operator) <span class='md-tag md-tag--info'>⭐ 53</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-aded2868" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 7 L 30 9 L 40 11 L 50 11" fill="none" stroke="url(#spark-grad-aded2868)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community-maintained repository detailing the configuration of Jenkins X alongside Tekton on Red Hat OpenShift. Offers resource definitions and custom templates designed to respect OpenShift-specific Security Context Constraints (SCC).
   - **(2020)** [CI/CD OpenShift and Tekton](https://www.sonatype.com/blog/new-cloud-native-ci/cd-projects-openshift-and-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth blog post detailing cloud-native CI/CD on Red Hat OpenShift using the Tekton Pipelines operator. It analyzes how OpenShift Pipelines provides on-demand containerized execution environments to eliminate resource-hungry, idle build servers.
@@ -118,7 +136,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2020)** [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c4936a94" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 12 L 30 11 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-c4936a94)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy helper repository containing customized Dockerfiles designed to package Jenkins X binaries for OpenShift container platforms. This repository facilitates deployment compliance inside restricted cluster ecosystems.
 ## Infrastructure
 
-### CICD (6)
+### CICD (7)
 
 #### Kubernetes-native CI (1)
 
@@ -130,16 +148,9 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 #### Appops and Gitops
 
   - **(2025)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5513</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cdd1e066" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 13 L 30 12 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-cdd1e066)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
-## Mlops
-
-### Kubernetes
-
-#### Kubeflow
-
-  - **(2026)** [==kubeflow==](https://www.kubeflow.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubeflow is the leading cloud-native open-source MLOps suite designed to construct, deploy, and run modular machine learning workflows on Kubernetes clusters. Provides a comprehensive platform for managing Jupyter notebooks, workflow pipelines, and highly optimized inference deployments.
 ## Platform Architecture
 
-### CICD (7)
+### CICD (8)
 
 #### Tekton Pipelines (1)
 
@@ -156,7 +167,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 #### Database Integration
 
   - **(2026)** [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide focused on the isolated integration of relational databases inside automated validation pipelines. Discusses execution patterns such as ephemeral test container sidecars to safely run structural migrations during active test stages.
-### CICD (8)
+### CICD (9)
 
 #### Advanced Configurations
 
@@ -251,7 +262,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2026)** [==onedev==](https://github.com/theonedev/onedev) <span class='md-tag md-tag--info'>⭐ 15041</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-12cd9f45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 4 L 30 3 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-12cd9f45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An all-in-one, highly scalable self-hosted Git service and CI/CD platform. Features visual pipeline construction, interactive code navigation, and issue-tracking, optimized to run as a single-node setup or distributed across Kubernetes environments.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Registries](./registries.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md) | [Flux](./flux.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

@@ -47,7 +47,7 @@ description: "Curated, AI-ranked Cloud Asset Inventory resources for the 2026 Cl
   - **(2024)** [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — CloudCanvas is an emerging interactive workspace tool tailored for designing cloud topologies and auto-generating infrastructure-as-code manifests. By linking architectural nodes directly to API-driven configurations, it helps bridge the gap between architectural diagramming and operational execution.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [Faq](./faq.md)
+💡 **Explore Related:** [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md) | [DevOps Tools](./devops-tools.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

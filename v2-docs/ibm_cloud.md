@@ -1,5 +1,5 @@
 ---
-description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, IBM Spectrum and more — curated Cloud Native tools, guides and references."
+description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
 ---
 # IBM
 
@@ -26,14 +26,6 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, IBM Spectr
   - **(2026)** [**DockerHub: websphere-liberty**](https://hub.docker.com/_/websphere-liberty) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official WebSphere Liberty image on Docker Hub, providing a highly optimized cloud-native runtime designed for Java EE and MicroProfile. Live Grounding emphasizes its value for enterprise application modernization, delivering low-footprint containers with IBM technical backing.
 ## Enterprise Integration
 
-### Cloud-native Storage
-
-#### IBM Spectrum Scale Integration
-
-  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
-#### IBM Storage Systems
-
-  - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
 ### Enterprise Mainframe
 
 #### Bare Metal Installation
@@ -78,7 +70,7 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, IBM Spectr
   - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how IBM brought containerization architectures (like z/OS Container Extensions) to its zSystems mainframes. Live Grounding confirms this as a key modernization vector, enabling developers to build and test mainframe workloads using Git-driven Docker/Kubernetes workflows.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

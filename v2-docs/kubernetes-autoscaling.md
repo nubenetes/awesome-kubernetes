@@ -24,6 +24,13 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 #### Sidecar Pattern
 
   - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
+## Finops and Cloud Cost
+
+### Kubernetes Finops
+
+#### Foundational Concepts
+
+  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 ## Infrastructure and Platform
 
 ### Autoscaling (1)
@@ -152,7 +159,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - **(2023)** [symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers](https://symbiosis.host)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative performance study evaluating cluster provisioning latency across eight prominent cloud providers (such as AWS EKS, GCP GKE, Azure AKS, DigitalOcean, and Symbiosis). Tracks control plane bootstrap speed, node joining times, and API availability to guide DevOps teams in emergency scale-out or dynamic environment workflows.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

@@ -42,7 +42,7 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Registries](./registries.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

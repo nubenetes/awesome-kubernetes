@@ -100,6 +100,13 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### NoSQL
 
   - **(2012)** [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Martin Fowler’s classic presentation detailing NoSQL database paradigms. Analyzes key-value, document, column-family, and graph databases, clarifying aggregate-oriented modeling and performance trade-offs against relational databases.
+## Infrastructure
+
+### Caching
+
+#### Redis
+
+  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Observability
 
 ### Microservices Monitoring
@@ -109,7 +116,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

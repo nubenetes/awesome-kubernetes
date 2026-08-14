@@ -111,13 +111,6 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 
   - **(2024)** [Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS framework defining multi-account best practices using AWS Organizations and AWS Control Tower. It outlines critical isolation patterns for security, billing, and operational autonomy. Architecturally, it serves as the foundation for modern enterprise landing zones, ensuring strict blast-radius limitation.
   - **(2024)** [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical analysis of the pitfalls and administrative hurdles encountered when migrating AWS accounts between Organizational Units (OUs) or organizations. It examines the operational impact on Service Control Policies (SCPs), resource shares, CloudFormation StackSets, and global integrations during transition phases.
-### Certification
-
-#### AWS (2)
-
-##### Solutions Architect Professional
-
-  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Cloud Engineering
 
 ### Devsecops
@@ -125,13 +118,6 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### Security
 
   - **(2024)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security deep dive into AWS IAM OIDC trust relationships. Explains how misconfigured OIDC settings can allow unauthorized actions in GitHub Actions pipelines and outlines steps to prevent account compromise.
-## Cloud Native Platforms
-
-### Azure
-
-#### Security Automation
-
-  - **(2024)** [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instructional resource on deploying ACME Bot inside Azure. Automates key lifecycles of Let's Encrypt certificates directly into secure Key Vaults.
 ## Devsecops (1)
 
 ### Policy As Code
@@ -153,13 +139,6 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### System Administration
 
   - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27773</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-32d078ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 2 L 30 6 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-32d078ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon hardening, secure user boundaries, kernel performance optimizations, and automated intrusion monitoring. In modern 2026 operations, this guide remains a vital source for building secure base golden images inside automated IaC pipelines.
-## Security and Governance
-
-### CICD
-
-#### Azure and Github Integration
-
-  - **(2022)** [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the mechanism of securing deployment pipelines on Azure by leveraging GitHub Actions with OIDC federation. This setup eliminates credential rotation burdens and prevents high-privilege credential leakage. The article guides developers through creating federated credentials in Azure AD and configuring GitHub workflows for passwordless authentication.
 ## Security and Identity
 
 ### AWS IAM (1)
@@ -208,7 +187,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

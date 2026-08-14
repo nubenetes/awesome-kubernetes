@@ -1,5 +1,5 @@
 ---
-description: "Top MLOps resources for 2026, AI-ranked: Ray, Kaggle Competitions and more — curated Cloud Native tools, guides and references."
+description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more — curated Cloud Native tools, guides and references."
 ---
 # Machine Learning Ops (MLOps) and Data Science
 
@@ -229,6 +229,7 @@ description: "Top MLOps resources for 2026, AI-ranked: Ray, Kaggle Competitions 
   - **(2023)** [dev.to/pavanbelagatti: Deploy Any AI/ML Application On Kubernetes: A Step-by-Step Guide!](https://dev.to/pavanbelagatti/deploy-any-aiml-application-on-kubernetes-a-step-by-step-guide-2i37) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on guide showing how to package, deploy, and scale diverse machine learning applications using Kubernetes manifests. Focuses on establishing proper ingress routing, service definitions, CPU/GPU resource constraints, and continuous monitoring sidecars within a native cluster environment.
 ### Kubeflow
 
+  - **(2026)** [==kubeflow==](https://www.kubeflow.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubeflow is the leading cloud-native open-source MLOps suite designed to construct, deploy, and run modular machine learning workflows on Kubernetes clusters. Provides a comprehensive platform for managing Jupyter notebooks, workflow pipelines, and highly optimized inference deployments.
   - **(2021)** [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the practical orchestration of complex ML workflows using Kubeflow pipelines on Kubernetes. Outlines the underlying architecture, components (e.g., pipelines, notebook servers, metadata), and strategic advantages over non-containerized distributed ML setups.
 ## Learning Roadmap (1)
 
@@ -366,7 +367,7 @@ description: "Top MLOps resources for 2026, AI-ranked: Ray, Kaggle Competitions 
   - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a3327ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 13 L 30 12 L 40 11 L 50 3" fill="none" stroke="url(#spark-grad-8a3327ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

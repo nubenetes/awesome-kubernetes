@@ -81,16 +81,9 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 #### Pulumi Registry (1)
 
   - **(2021)** [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed insight into the launch of the Pulumi Registry, a public marketplace supporting modular package sharing and reusability of multi-cloud components across diverse language boundaries.
-## Kubernetes Developer Experience
-
-### Graph-based Dev and Test
-
-#### Garden Documentation
-
-  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

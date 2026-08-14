@@ -37,6 +37,13 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Zero Trust
 
   - **(2026)** [==defenseunicorns/zarf==](https://github.com/zarf-dev/zarf) <span class='md-tag md-tag--info'>⭐ 1925</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7f272ef8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 2 L 30 12 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-7f272ef8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly resilient developer tool designed by Defense Unicorns to package, deploy, and manage Kubernetes clusters and cloud-native applications in strictly air-gapped, offline, or secure zero-trust environments. Zarf bundles container registries, Helm charts, binary dependencies, and configurations into a single cryptographically signed archive file, completely removing internet reliance.
+## DevOps Culture
+
+### Organizational Design
+
+#### Culture and Governance
+
+  - **(2023)** [**blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟**](https://blogs.vmware.com/cloud-foundation) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores structural and cultural transformations required to establish a high-performing DevOps initiative. Focuses on decentralizing operational decisions, psychological safety, and establishing platform teams to enable developers.
 ## Education
 
 ### Kubernetes
@@ -86,8 +93,16 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Sandboxing
 
   - **(2021)** [==Kata Containers on MicroK8s==](https://github.com/didier-durand/microk8s-kata-containers) <span class='md-tag md-tag--info'>⭐ 34</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ab473c19" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 6 L 30 12 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-ab473c19)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community repository providing integration instructions and configurations to run Kata Containers within a Canonical MicroK8s environment. This architecture allows security teams to deploy hardware-isolated, hypervisor-sandboxed container runtimes (using QEMU or Cloud Hypervisor) inside lightweight local clusters, resolving tenant isolation concerns in multi-tenant environments.
+### Hybrid Cloud
+
+#### Gitops (1)
+
+  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical case study showcasing hybrid cloud management by linking Canonical's Charmed Kubernetes clusters with Microsoft Azure Arc. It details how Azure Arc acts as an overlay management plane, allowing administrators to push unified GitOps policies, access controls, and application resources to on-premises Charmed clusters.
 ### Kubernetes Distributions
 
+#### Automated Operations
+
+  - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
 #### Custom Installers
 
   - **(2026)** [kurl.sh](https://kurl.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source online utility and framework designed to construct custom, production-ready, air-gapped Kubernetes distribution installers. Replicated/kurl aggregates chosen components (like CNIs, storage, and registries) into a single bash-driven installer script to facilitate simple downstream application deliveries.
@@ -124,6 +139,13 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2020)** [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/cloud-infrastructure/vsphere) <span class='md-tag md-tag--warning'>[PROPRIETARY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A transformative enterprise initiative (Project Pacific) that embedded native Kubernetes capabilities directly into the ESXi hypervisor. vSphere with Tanzu enables virtualization administrators to manage VMs and native Tanzu Kubernetes Grid (TKG) guest clusters inside a single vSphere Client interface, converging IT operations.
   - **(2020)** [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on architectural exploration of the early vSphere with Kubernetes implementation. The post walks through supervisor cluster enablement, native vSphere Pods execution, storage class integration with VMware CNS (Cloud Native Storage), and basic network policies.
   - **(2020)** [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical guide demonstrating how to declare and bootstrap Tanzu Kubernetes Grid (TKG) workload clusters (guest clusters) inside a vSphere supervisor cluster. Explains the underlying declarative custom resource definition (CRD) configurations matching Cluster API mechanics.
+## Kubernetes (1)
+
+### Operations
+
+#### Productivity
+
+  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
 ## Kubernetes Platforms
 
 ### Mirantis
@@ -238,11 +260,14 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Ubuntu Stack
 
   - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.
-### Gitops (1)
+### Gitops (2)
 
 #### Legacy Tools
 
   - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-edca5296" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 10 L 30 4 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-edca5296)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
+#### Media (1)
+
+  - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ technical review detailing the core benefits of using WKSctl to manage host infrastructure via GitOps, analyzing how automated controllers handle node upgrades and configurations without manual ssh actions.
 ### Infrastructure-as-code
 
 #### Exoscale
@@ -264,7 +289,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

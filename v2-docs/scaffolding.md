@@ -18,18 +18,16 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and
   - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
 ## Kubernetes Developer Experience
 
+### Graph-based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 ### Inner-loop Automation
 
 #### Skaffold
 
   - **(2026)** [**Skaffold 🌟**](https://skaffold.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google's Skaffold remains an industry-leading workflow engine that orchestrates code building, artifact pushing, and target deployment steps. It features smart caching, file sync capability, and multi-profile handling configurations.
-## Platform Engineering
-
-### Gitops
-
-#### Helm Lifecycle Management
-
-  - **(2022)** [**codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟**](https://octopus.com/devops) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the application of visual Kanban paradigms to Kubernetes deployment pipelines, specifically managing and promoting Helm releases across environments. Contrasts traditional CI/CD promotion techniques with visual value stream modeling, demonstrating how platform teams can reduce deployment friction and coordinate microservice boundaries with clear board transitions.
 ## Software Engineering
 
 ### Application Scaffolding
@@ -46,7 +44,7 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and
   - **(2025)** [Maven](https://nubenetes.com/maven-gradle/) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [QA](./qa.md) | [Project Management Tools](./project-management-tools.md)
+💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

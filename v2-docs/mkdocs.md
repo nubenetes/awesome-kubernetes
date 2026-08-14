@@ -110,7 +110,7 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
   - **(2026)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The authoritative reference guide for GitHub Flavored Markdown (GFM). Essential for managing documentation structures, creating rich README files, formatting issue trackers, and building interactive templates within the developer workflow.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

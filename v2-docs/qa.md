@@ -180,7 +180,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - **(2022)** [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven architectural advantages of isolated component testing. Details why using service mocks, localized databases, and sandboxed test environments accelerates regression tracking and simplifies dependency configurations.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [Project Management Tools](./project-management-tools.md) | [Scaffolding](./scaffolding.md)
+💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

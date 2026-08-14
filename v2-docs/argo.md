@@ -142,11 +142,6 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
 ##### Terraform Integration
 
   - **(2022)** [seraf.dev: ArgoCD Tutorial — (with Terraform)](https://seraf.dev/argocd-tutorial-with-terraform-af77ddea2e6e) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers on bootstrapping an entire ArgoCD installation, including repositories, projects, and application instances, declaratively via the official HashiCorp Terraform provider for ArgoCD.
-#### Authentication and SSO (1)
-
-##### Openshift
-
-  - **(2022)** [**openshift.com: OpenShift Authentication Integration with ArgoCD**](https://www.redhat.com/en/blog/openshift-authentication-integration-with-argocd) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the integration of OpenShift's native OAuth server with ArgoCD. Explains how to map OpenShift user groups to ArgoCD RBAC roles, establishing a secure, unified single sign-on (SSO) experience for enterprise platforms.
 #### Github Actions
 
 ##### AWS EKS (1)
@@ -207,7 +202,7 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
   - **(2022)** [securityaffairs.co: Argo CD flaw could allow stealing sensitive data from Kubernetes Apps](https://securityaffairs.com/127708/hacking/kubernetes-argo-cd-flaw.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the threat landscape exposed by vulnerability CVE-2022-24348 in multi-tenant environments. Emphasizes why prompt patching of GitOps controllers is critical when handling multi-tenant repositories on shared control planes.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Registries](./registries.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

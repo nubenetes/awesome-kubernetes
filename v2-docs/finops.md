@@ -117,9 +117,6 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Cost Platforms
 
   - **(2022)** [**thenewstack.io: Finout Gets a Handle on Kubernetes Costs**](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Reviews Finout's capability to combine multiple cloud invoices (such as AWS, Snowflake, Datadog) and Kubernetes metrics into a single interface. Demonstrates how to link infrastructure spend directly to actual business unit metrics.
-#### Foundational Concepts
-
-  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 #### Observability Integrations
 
   - **(2023)** [**thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs**](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Discusses Grafana's work to build native cost-monitoring tools directly into standard monitoring dashboards. Explores using Prometheus metrics from OpenCost to display cluster financial trends alongside hardware utilization data.
@@ -156,7 +153,7 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
   - **(2026)** [Tether (USDt)](https://tether.to) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for the Tether (USDt) stablecoin, mapping out collateral verifications, multi-blockchain compatibility layers, and institutional fiat liquidity standards. Important for distributed ledger payments and micro-payment applications.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [HR](./hr.md) | [Recruitment](./recruitment.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

@@ -135,8 +135,8 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 
 ### General Reference
 
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
   - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
   - [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monitoring Self-Destructing Apps Using Prometheus in the Kubernetes Tools ecosystem.
   - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus in the Kubernetes Tools ecosystem.
   - [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Set Up and Integrate Prometheus With Grafana for Monitoring. in the Kubernetes Tools ecosystem.
@@ -206,6 +206,9 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17615</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6d66d1c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 7 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-6d66d1c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
 ### Monitoring
 
+#### Metrics Collection
+
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Getting Started
 
   - **(2023)** [grafana.com: Get started with Prometheus with these three easy projects](https://grafana.com/blog/get-started-with-prometheus-with-these-three-easy-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on, multi-project tutorial designed to build core competencies with Prometheus metrics collections, PromQL search syntax, and standard Node Exporter integrations.
@@ -348,9 +351,18 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 #### Grafana Dashboards
 
   - **(2026)** [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated dashboard collection optimized for displaying metrics gathered via Telegraf. Provides visual paradigms for memory, system operations, disk throughput, and CPU scaling.
+## Systems Design
+
+### Observability (2)
+
+#### Infrastructure Design
+
+##### Telemetry Pipelines
+
+  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 
