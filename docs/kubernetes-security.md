@@ -318,6 +318,7 @@
 - [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://www.roseandglow.co.uk) Automate the provisioning of Let's Encrypt certificates for ingress resources
 - [faun.pub: Automate Certificate Management In Kubernetes Using Cert-Manager](https://faun.pub/automate-certificate-management-in-kubernetes-using-cert-manager-d0745e5c7757?gi=49f59e67b787)
 - [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) Automatically provision and manage TLS certificates in Kubernetes
+- **(2026)** [TokenTimer](https://github.com/tokentimerch/tokentimer-core) 🌟 - AGPL-3.0 certificate lifecycle management for Kubernetes, with Helm and cert-manager integration.
 - [github.com/cert-manager: Policy Approver](https://github.com/cert-manager/approver-policy) Policy Approver is a cert-manager approver that is responsible for Approving or Denying CertificateRequests.
 - [jetstack.io: Getting started using cert-manager with the sig-network Gateway API](https://www.cyberark.com/venafi-and-cyberark-machine-identity-security)
 - [medium.com/@knoldus: Configure SSL certificate with cert-manager on Kubernetes](https://medium.com/@knoldus/configure-ssl-certificate-with-cert-manager-on-kubernetes-e5ca8a804e16)
