@@ -1,5 +1,5 @@
 ---
-description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier and more — curated Cloud Native tools, guides and references."
+description: "Top Gitops resources for 2026, AI-ranked: openshift-applier, github: Flux and more — curated Cloud Native tools, guides and references."
 ---
 # GitOps
 
@@ -72,20 +72,6 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
 #### Terraform Practices
 
   - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-550aaba1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-550aaba1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
-### Kubernetes and Operators
-
-#### Platform Engineering
-
-  - **(2026)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares traditional static IaC runtimes against active reconciliation patterns in Kubernetes Operators. Highlights instances where platform engineering teams require continuously running controller loops to prevent configuration drifts.
-## Cloud Native
-
-### Kubernetes
-
-#### Cluster API
-
-##### Clusterclass
-
-  - **(2024)** [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the ClusterClass feature inside Kubernetes Cluster API. Enables building reusable, abstract cluster topologies that simplify control-plane configuration and worker node pool management across diverse host infrastructure.
 ## Cluster Management
 
 ### Gitops (3)
@@ -93,6 +79,9 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
 #### Anthos
 
   - **(2025)** [Anthos Config Management](https://docs.cloud.google.com/kubernetes-engine/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The primary management platform docs covering Anthos Config Management. This framework bundles Config Sync, policy-as-code enforcement (Gatekeeper), and tenant isolation to maintain compliant configuration postures across hybrid cloud environments.
+#### Config Sync
+
+  - **(2025)** [Config Sync](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Config Sync is Google Cloud's GitOps-native configuration engine optimized for Anthos and GKE clusters. It securely syncs cluster state configurations and namespace boundaries directly from trusted Git, OCI, or Helm registries with continuous validation.
 #### Legacy Tools
 
   - **(2022)** [thenewstack.io: Weave GitOps Trusted Delivery: A Road to Kubernetes Sanity?](https://thenewstack.io/weave-gitops-trusted-delivery-a-road-to-kubernetes-sanity)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An archived analytical exploration highlighting Weave's 'Trusted Delivery' framework, emphasizing secure supply chain integration with OPA policies and cryptographically verified pipelines inside Kubernetes environments.
@@ -196,11 +185,6 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
   - **(2023)** [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailing structural implementations of progressive delivery, such as automated canaries, A/B testing, and blue-green rollouts, working in tandem with GitOps tools (like Flagger or Argo Rollouts) to control application lifecycle safety dynamically.
 ## Deployment and Delivery
 
-### Application Delivery (1)
-
-#### Waypoint
-
-  - **(2024)** [waypointproject.io](https://developer.hashicorp.com/waypoint) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HashiCorp Waypoint provides developers with a structured application delivery model across multiple underlying orchestrators. Utilizing a single declarative configuration file, it unifies the build, deployment, and release pipeline stages.
 ### Gitops (5)
 
 #### Octopilot
@@ -358,18 +342,6 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
 ##### Infrastructure As Code (2)
 
   - **(2025)** [**EntraExporter**](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 866</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e45a48f7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 2 L 30 2 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-e45a48f7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An essential open-source PowerShell tool designed to export entire Microsoft Entra ID tenant configurations to local JSON files. In 2026, EntraExporter is widely used by security and architecture teams to establish configuration baselines, detect drift, and archive tenant states for compliance audits.
-## Infrastructure
-
-### Hybrid Cloud
-
-#### Gitops (7)
-
-  - **(2021)** [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://canonical.com/blog/gitops-with-azure-arc-and-charmed-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical case study showcasing hybrid cloud management by linking Canonical's Charmed Kubernetes clusters with Microsoft Azure Arc. It details how Azure Arc acts as an overlay management plane, allowing administrators to push unified GitOps policies, access controls, and application resources to on-premises Charmed clusters.
-### Kubernetes Distributions
-
-#### Automated Operations
-
-  - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
 ## Infrastructure As Code (3)
 
 ### Kubernetes Provisioning
@@ -379,10 +351,10 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
   - **(2024)** [Kubestack: Terraform GitOps Framework 🌟](https://www.kubestack.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubestack is a specialized GitOps framework tailored for managing cloud-managed and bare-metal Kubernetes clusters using Terraform. Featuring a robust multi-tier environment structure, it guarantees absolute parity from local development platforms through to multi-zone production configurations. It helps platform engineers declare and provision compliant Kubernetes footprints.
 ### Kubestack
 
-#### Gitops (8)
+#### Gitops (7)
 
   - **(2021)** [thenewstack.io: KubeStack: Towards Full-Stack GitOps](https://thenewstack.io/kubestack-towards-full-stack-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review mapping Kubestack's strategies for providing complete declarative lifecycle management for both underlying cloud infrastructure and application layer resources.
-## Kubernetes (1)
+## Kubernetes
 
 ### Cluster Operations
 
@@ -401,21 +373,7 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
 #### Automation (3)
 
   - **(2021)** [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-445d2e7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 10 L 30 11 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-445d2e7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight automation operator designed to monitor services and dynamically generate DNS-mapped Ingress resources to reduce manual administrative overhead.
-## Orchestration and Packaging
-
-### Helm and Gitops
-
-#### Helm Overview
-
-  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
-## Platform Architecture
-
-### Gitops (9)
-
-#### Modern Pipelines
-
-  - **(2020)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces robust continuous delivery architectures utilizing Tekton for image construction and Argo CD for GitOps-based state syncs. Serves as the primary operational blueprint for enterprise microservice platforms in 2026.
-## Platform Engineering (1)
+## Platform Engineering
 
 ### Gitops and Deployment
 
@@ -441,17 +399,14 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
   - **(2020)** [==open-cluster-management.io==](https://open-cluster-management.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open Cluster Management (OCM) is a modular, extensible CNCF project designed to orchestrate fleets of Kubernetes clusters at scale. It defines standardized API abstractions for cluster registration, application deployment policies, and compliance management.
 ## Provisioning
 
-### Gitops (10)
+### Gitops (8)
 
 #### Legacy Tools (1)
 
   - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-edca5296" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 10 L 30 4 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-edca5296)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
-#### Media
-
-  - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ technical review detailing the core benefits of using WKSctl to manage host infrastructure via GitOps, analyzing how automated controllers handle node upgrades and configurations without manual ssh actions.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Registries](./registries.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

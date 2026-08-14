@@ -1,5 +1,5 @@
 ---
-description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — curated Cloud Native tools, guides and references."
+description: "Top Docker resources for 2026, AI-ranked: nerdctl, dive and more — curated Cloud Native tools, guides and references."
 ---
 # Docker
 
@@ -46,6 +46,7 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
 
 #### General Reference
 
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [docker.com: Top Questions for Getting Started with Docker 🌟](https://www.docker.com/blog/top-questions-for-getting-started-with-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Top Questions for Getting Started with Docker 🌟 in the Kubernetes Tools ecosystem.
   - [docker.com: Docker Hub Experimental CLI tool](https://www.docker.com/blog/docker-hub-experimental-cli-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A curated technical resource and architectural guide covering docker.com: Docker Hub Experimental CLI tool in the Kubernetes Tools ecosystem.
@@ -54,7 +55,6 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
   - [docker.com: Docker Compose: What’s New, What’s Changing, What’s Next](https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Docker Compose: What’s New, What’s Changing, What’s Next in the Kubernetes Tools ecosystem.
   - [dzone: Components of Container Management](https://dzone.com/articles/components-of-container-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Components of Container Management in the Kubernetes Tools ecosystem.
   - [docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices](https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices in the Kubernetes Tools ecosystem.
-  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
   - [docker.com: Reduce Your Image Size with the Dive-In Docker Extension](https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Reduce Your Image Size with the Dive-In Docker Extension in the Kubernetes Tools ecosystem.
   - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Creating the best Linux Development experience on Windows & WSL 2 in the Kubernetes Tools ecosystem.
   - [docker.com: Announcing the Compose Specification 🌟](https://www.docker.com/blog/announcing-the-compose-specification)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Announcing the Compose Specification 🌟 in the Kubernetes Tools ecosystem.
@@ -311,9 +311,6 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
 #### Build Optimization (2)
 
   - **(2021)** [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to working with Docker's build cache. Shows how to invalidate the cache, structure layers efficiently, and use CLI prune utilities to optimize build speeds.
-#### Build Tools
-
-  - **(2021)** [**technology.doximity.com: Buildpacks vs Dockerfiles 🌟**](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Contrasts declarative Cloud Native Buildpacks (CNB) with manual imperative Dockerfile structures. Analyzes the security, consistency, and build speed tradeoffs, arguing that CNBs represent a superior approach to packaging corporate applications at scale.
 #### Dockerfile Specs
 
   - **(2022)** [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores `CMD` and `ENTRYPOINT` behaviors inside Dockerfiles. Details how default runtime parameters interact with target binaries during execution.
@@ -333,13 +330,6 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
 #### Registry Management
 
   - **(2021)** [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide on managing and tagging container images within Red Hat OpenShift. Discusses the utilization of internal OpenShift registries and how ImageStream abstractions decouple physical registries from deployable targets.
-## Data and AI
-
-### Apache Spark
-
-#### Orchestration
-
-  - **(2021)** [**datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available**](https://www.datamechanics.co) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces the critical General Availability (GA) milestone of Apache Spark on Kubernetes in the Spark 3.1 release. Details the architectural advantages of using native Kubernetes scheduler bindings instead of standalone Spark or YARN schedulers. Live Grounding validates that this release marked the turning point for Kubernetes-native data engineering pipelines.
 ## Data Science
 
 ### R Ecosystem
@@ -599,7 +589,7 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Kubernetes Releases](./kubernetes-releases.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

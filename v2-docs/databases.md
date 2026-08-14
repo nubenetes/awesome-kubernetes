@@ -241,6 +241,20 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Migrations
 
   - **(2024)** [==SHMIG==](https://github.com/mbucc/shmig) <span class='md-tag md-tag--info'>⭐ 474</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09c58a37" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 7 L 30 4 L 40 11 L 50 13" fill="none" stroke="url(#spark-grad-09c58a37)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A minimalist Shell-based database migration utility. Designed to remain programming-language agnostic, it manages schema evolutionary steps and structured rollbacks executing plain raw SQL scripts.
+## Databases
+
+### Postgresql (1)
+
+#### Database Administration
+
+  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
+## DevOps
+
+### CICD
+
+#### Fundamentals
+
+  - **(2022)** [cloudbees.com: Key Components of a CI/CD Pipeline](https://www.cloudbees.com/blog/ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core structural parts of pipeline delivery workflows. Details standard roles for source version managers, build runtimes, package registries, and staging environments.
 ## Distributed SQL
 
 ### APIs
@@ -314,7 +328,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2025)** [==Spilo: HA PostgreSQL Clusters with Docker==](https://github.com/zalando/spilo) <span class='md-tag md-tag--info'>⭐ 1839</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2c312736" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 10 L 20 7 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-2c312736)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spilo is Zalando's container image bundling PostgreSQL, Patroni, pgBackRest, and WAL-E/WAL-G. Built for mission-critical production reliability, it serves as the stable, standard database core for the Zalando Postgres Operator.
 ## Kubernetes Workloads
 
-### CICD
+### CICD (1)
 
 #### Database Migrations
 
@@ -350,7 +364,12 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Victoriametrics
 
   - **(2024)** [VictoriaMetrics](https://victoriametrics.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of VictoriaMetrics, an extremely fast and cost-effective TSDB solution. Widely used as a drop-in replacement for Prometheus storage owing to high compression ratios and out-of-the-box cluster scalability.
-## Postgresql (1)
+### Postgresql (2)
+
+#### Database Monitoring (1)
+
+  - **(2020)** [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on implementation guide for deploying a scalable monitoring architecture for PostgreSQL. Instructs on integrating postgres_exporter configurations, configuring Prometheus scrape pools, and importing Grafana analytics interfaces.
+## Postgresql (3)
 
 ### Alternative Paradigms
 
@@ -364,7 +383,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Backups
 
   - **(2024)** [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) <span class='md-tag md-tag--info'>⭐ 563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-73479964" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 7 L 30 5 L 40 8 L 50 10" fill="none" stroke="url(#spark-grad-73479964)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simple CLI automation utility for backing up PostgreSQL databases. Features structured schema and data exports, customizable compression, automated backup retention sweeps, and cron-friendly integration configurations.
-### Database Administration
+### Database Administration (1)
 
   - **(2021)** [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the performance impact of indexing foreign keys in PostgreSQL. Evaluates join performance, query plans, and lock contention during parent table updates to optimize schema write throughput.
 ### Database Architecture (1)
@@ -376,7 +395,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Extensions
 
   - **(2024)** [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) <span class='md-tag md-tag--info'>⭐ 581</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-60e9e17d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 8 L 30 7 L 40 4 L 50 6" fill="none" stroke="url(#spark-grad-60e9e17d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Percona's advanced query performance monitoring extension for PostgreSQL. Extends the capabilities of pg_stat_statements with bucket-based statistics, client IP address tracking, visual execution plan analysis, and granular resource utilization metrics.
-### Fundamentals
+### Fundamentals (1)
 
   - **(2021)** [towardsdatascience.com: Practical Introduction to PostgreSQL](https://towardsdatascience.com/practical-introduction-to-postgresql-5f73d3d394e) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introductory guide to PostgreSQL. Covers basic architecture, core relational operations, basic optimization, and index configurations, providing a clean onboarding path for engineers.
 ### Kubernetes (1)
@@ -484,10 +503,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2023)** [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide outlining core strategies for relational query optimization. Highlights planning optimization via EXPLAIN plans, index selection logic, partition tuning, and the avoidance of common performance-draining database queries.
 ## SQL Server
 
-### Backup Administration
-
-  - **(2025)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates native PowerShell script templates to automate Microsoft SQL Server backups. Offers a valuable guide for planning traditional database state transitions into hybrid Kubernetes clusters.
-### DevOps
+### DevOps (1)
 
   - **(2022)** [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical DevOps pipeline patterns for Azure SQL. Outlines dynamic deployment workflows using GitHub Actions and Azure DevOps to coordinate declarative state synchronizations matching app changes.
 ### Enterprise Deployment
@@ -530,6 +546,13 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Crunchy Postgresql
 
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
+## System Architecture
+
+### Data Management
+
+#### Enterprise Migration
+
+  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ## Time-series
 
 ### Architecture (1)
@@ -540,7 +563,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

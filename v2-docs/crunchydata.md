@@ -22,9 +22,9 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 
 #### General Reference
 
+  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ref3 in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.slideshare.net/slideshow/operating-postgresql-at-scale-with-kubernetes-137132067/137132067)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.slideshare.net in the Kubernetes Tools ecosystem.
   - [dzone: PostgreSQL HA and Kubernetes](https://dzone.com/articles/postgresql-ha-and-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: PostgreSQL HA and Kubernetes in the Kubernetes Tools ecosystem.
-  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ref3 in the Kubernetes Tools ecosystem.
 ## Cloud Native
 
 ### GKE
@@ -181,7 +181,6 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 #### Database Administration (1)
 
   - **(2020)** [info.crunchydata.com: Deploy pgAdmin4 with PostgreSQL on Kubernetes](https://www.crunchydata.com/blog/deploy-pgadmin4-with-postgresql-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides the deployment of pgAdmin4 web client panels alongside database clusters inside Kubernetes. Reviews network ingress definitions, volume mounts, and credential injection mechanics.
-  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
 #### Developer Tutorials
 
   - **(2026)** [learn.crunchydata.com 🌟](https://www.crunchydata.com/developers/tutorials) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive educational portal offering structured developer exercises focused on core database engineering. Includes tasks on indexing optimizations, raw performance telemetry, and complex JSON data orchestration strategies in PostgreSQL.
@@ -205,7 +204,6 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 #### Database Monitoring
 
   - **(2020)** [info.crunchydata.com: Monitoring PostgreSQL clusters in kubernetes](https://www.crunchydata.com/blog/monitoring-postgresql-clusters-in-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details structural metric collection architectures for Kubernetes-hosted PostgreSQL. Describes the integration of specialized postgres_exporter containers to feed telemetry into Prometheus targets with visualized dashboard outputs.
-  - **(2020)** [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on implementation guide for deploying a scalable monitoring architecture for PostgreSQL. Instructs on integrating postgres_exporter configurations, configuring Prometheus scrape pools, and importing Grafana analytics interfaces.
 #### Long-term Storage
 
   - **(2020)** [info.crunchydata.com: Introducing the Postgres Prometheus Adapter](https://www.crunchydata.com/blog/using-postgres-to-back-prometheus-for-your-postgresql-monitoring-1) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to using the Postgres Prometheus Adapter to store Prometheus time-series metrics. Covers performance metrics, schema structures, and remote-write configurations.
@@ -218,7 +216,7 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
   - **(2019)** [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains OpenShift Service Accounts, Role-Based Access Control (RBAC), and Security Context Constraints (SCC). Understanding SCCs is vital when deploying complex operators that need custom security postures, such as stateful databases. This reference outlines how to grant specific system permissions safely, protecting multi-tenant clusters from security compromise.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

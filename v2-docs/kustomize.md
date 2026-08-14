@@ -65,7 +65,7 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
   - **(2026)** [==Kubestack Gitops Framework==](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b44ef4f3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 12 L 30 9 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-b44ef4f3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Terraform-driven GitOps framework configured to simplify public cloud Kubernetes platform deployments and application configurations. It leverages native inheritance behaviors of Terraform modules to manage multi-cluster topologies predictably. It bridges infrastructure provisioning and GitOps continuous delivery workflows.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Pulumi](./pulumi.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

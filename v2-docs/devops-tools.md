@@ -9,6 +9,20 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
 !!! info "Architectural Context"
     Detailed reference for DevOps Tools aka Toolchain in the context of Architectural Foundations.
 
+## AI and Platform Engineering
+
+### AI Assistants
+
+#### Developer Productivity
+
+  - **(2025)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — General availability announcement detailing Copilot's integration into the GitHub Actions run logs. Empowers engineers to ask AI to interpret errors, trace failures, and propose immediate pipeline repair steps.
+## AI Engineering
+
+### Agentic Frameworks
+
+#### Developer Experience
+
+  - **(2025)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.
 ## CICD
 
 ### AI and Automation
@@ -41,9 +55,17 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
 
 ### CICD (2)
 
-#### Developer Productivity
+#### Developer Productivity (1)
 
   - **(2025)** [**action-tmate: Debug GitHub Actions via SSH**](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-378402c1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 5 L 30 4 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-378402c1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An essential interactive troubleshooting tool that opens a secure tmate SSH session directly into active GitHub Actions runners, enabling real-time terminal diagnostics of failing pipeline runs.
+#### Enterprise Tooling
+
+  - **(2025)** [PMEase QuickBuild](https://www.pmease.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A powerful commercial build and configuration management tool geared towards large enterprises. Combines high-capacity agents, visual dependency chains, and precise audit trails for legacy and cloud-native workloads.
+### Platform Engineering
+
+#### Kubernetes Management
+
+  - **(2025)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-centric, lightweight PaaS layer running directly on top of Kubernetes. Canine simplifies native container deployments and configurations, reducing cognitive load and shortening inner-loop development iterations.
 ## DevOps and Platform Engineering
 
 ### Architecture and Orchestration
@@ -82,11 +104,17 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
 
 ### AI Code Assistants
 
+#### Effort Frameworks
+
+  - **(2026)** [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference document outlines the effort metrics and execution paradigms utilized by Cursor's Bugbot tool inside the editor context. It guides development teams in managing priority levels for automated debugging routines across repositories.
 #### Prompt Templates
 
   - **(2026)** [==Claude Code Templates==](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 28036</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-95ae7120" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 11 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-95ae7120)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Claude Code Templates is an extensive community library containing structured system designs, context guidelines, and prompt schemas optimized for Anthropic's Claude Code and CLI. It helps teams configure context-aware coding agents that integrate smoothly into microservice development cycles.
 ### Developer Knowledge
 
+#### Cheat Sheets
+
+  - **(2025)** [**QuickRef.ME - Quick Reference Cheat Sheets**](https://quickref.me/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — QuickRef.ME offers highly organized cheat sheets covering major programming languages, CLI utilities, databases, and platform architectures. It serves as a rapid reference dashboard that reduces lookup overhead during continuous programming cycles.
 #### Curation Repositories
 
   - **(2021)** [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This evaluation spotlights eleven critical open-source DevOps projects covering areas like monitoring, infrastructure automation, container workflows, and CI/CD frameworks. It presents real-world architectural trade-offs, helping teams evaluate modern platform engineering toolchains.
@@ -106,7 +134,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
   - **(2023)** [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide to Vagrant for configuring local virtual machine environments. It explains how to write Vagrantfiles, configure local networks, and run provisioning engines like Ansible to ensure consistent local developer environments.
 ## Kubernetes and Container Orchestration
 
-### Platform Engineering
+### Platform Engineering (1)
 
 #### Appops and Gitops
 
@@ -145,6 +173,14 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
   - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
 ## Software Engineering
 
+### Ai-assisted Development
+
+#### CLI Tools
+
+  - **(2026)** [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highlights setup and early integration techniques for GitHub Copilot CLI, translating natural language prompts into executable terminal and shell scripts. Enhances sysadmin and shell workflow automation while maintaining a human-in-the-loop review step for safety and correctness.
+#### Multi-repository Architecture
+
+  - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
 ### Version Control Systems
 
 #### Git Workflows
@@ -152,7 +188,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
   - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

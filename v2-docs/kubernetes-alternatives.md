@@ -151,7 +151,7 @@ description: "Top Kubernetes Alternatives resources for 2026, AI-ranked: dreamla
   - **(2026)** [Taubyte](https://taubyte.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative WebAssembly-native edge cloud designed to eliminate typical virtualization layers. Offers decentralized and autonomous execution of lightweight, globally scaling serverless routines.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Openshift](./openshift.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

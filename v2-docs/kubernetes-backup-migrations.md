@@ -16,13 +16,22 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
 #### Enterprise Migration
 
   - **(2020)** [**konveyor 🌟**](https://konveyor.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An open-source application modernization platform that helps developers migrate legacy virtual machines, stateful services, and bare-metal workloads to Kubernetes. It provides discovery, analysis, and execution tools for large-scale container migrations.
+## Databases
+
+### SQL Server
+
+#### Backup Administration
+
+  - **(2025)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates native PowerShell script templates to automate Microsoft SQL Server backups. Offers a valuable guide for planning traditional database state transitions into hybrid Kubernetes clusters.
+## Hybrid Cloud and Enterprise
+
+### Openshift
+
+#### Data Management
+
+  - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure
 
-### Cluster Management
-
-#### RKE2
-
-  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
 ### Control Plane
 
 #### ETCD Administration
@@ -104,19 +113,9 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
   - **(2022)** [**kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟**](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A detailed community report detailing the deployment profiles of Konveyor, Tackle, KubeVirt, and Forklift. Walks through translating legacy application profiles into clean Kubernetes blueprints.
   - **(2021)** [**containerjournal.com: Red Hat, IBM Launch Konveyor to Aggregate Kubernetes Tools**](https://cloudnativenow.com/features/red-hat-ibm-launch-konveyor-to-aggregate-kubernetes-tools) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces the launch of the Konveyor community workspace, bringing together migration tools under a single framework backed by Red Hat and IBM to facilitate migration paths into Kubernetes.
   - **(2021)** [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through demonstrating Crane's core architecture. Highlights dynamic resource mapping, metadata updates, and persistent volume sync during migration windows.
-## Kubernetes
-
-### Data Management
-
-#### Backup
-
-  - **(2021)** [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ensuring disaster recovery capability in Kubernetes requires robust backup strategies for both cluster state (etcd) and persistent volume data. This reference highlights best practices including scheduling automated snapshot intervals, isolating backup storage, and regularly testing recovery procedures. Adhering to these patterns safeguards enterprise workloads against data corruption and ransomware.
-#### Checkpointing API
-
-  - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

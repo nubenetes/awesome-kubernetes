@@ -18,6 +18,11 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2021)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of Red Hat's Node.js reference architecture focusing on secure container images. Outlines distroless base choices, multi-stage Docker builds, user permissions management, and resource allocation policies for production runtimes.
 ## Developer Productivity
 
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ### Package Management
 
 #### Supply Chain Security
@@ -110,7 +115,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Python](./python.md) | [Java_Frameworks](./java_frameworks.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

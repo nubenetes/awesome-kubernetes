@@ -116,6 +116,13 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Runtime Isolation
 
   - **(2020)** [thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟](https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares the security architecture and attack surfaces of primary container runtimes: Docker, CRI-O, and Containerd. Discusses rootless execution, sandboxed runtimes (Kata, gVisor), and syscall filtering.
+## Networking (1)
+
+### CNI
+
+#### Cilium
+
+  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
 ## Networking and Security
 
 ### Security Compliance
@@ -151,14 +158,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Vulnerability Exploitation
 
   - **(2020)** [labs.bishopfox.com: Bad Pods: Kubernetes Pod Privilege Escalation 🌟](https://bishopfox.com/blog/kubernetes-pod-privilege-escalation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly cited technical analysis demonstrating how misconfigured container host namespaces, capabilities, and volume mounts can be exploited to escape container boundaries and gain full host-level access.
-## Policy-as-code
-
-### Kyverno Administration
-
-  - **(2020)** [kyverno.io 🌟](https://kyverno.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kyverno is a declarative Kubernetes-native policy engine. Designed specifically for Kubernetes, it simplifies policy management by allowing administrators to validate, mutate, and generate resources without writing complex Rego code.
-### Kyverno Rules and Policies
-
-  - **(2020)** [kyverno.io/policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official catalog of Kyverno policies, providing ready-to-deploy manifests for Pod Security standards, multi-tenant workspace isolation, label validation, and compliance auto-generation.
 ## RBAC and Authorization
 
 ### Privilege Escalation
@@ -280,10 +279,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Authentication and Authorization
 
   - **(2022)** [dev.to/thenjdevopsguy: The 4 C’s Of Kubernetes Security](https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates enterprise patterns for integrating Kubernetes Role-Based Access Control (RBAC) with corporate directory systems (OIDC, Active Directory). Examines tools like Dex to implement single sign-on (SSO) strategies across multi-cluster environments. Essential reading for cluster operations scaling across departments.
-#### Protocols
-
-  - **(2022)** [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industrial-grade review of the OAuth 2.0 protocol specifications, flows, and grant types. Provides system architects with core design criteria to safely establish authorization states between microservice deployments. Underlines secure handling of access, refresh, and id tokens.
-  - **(2022)** [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architecture overview of OpenID Connect (OIDC) acting as the authentication layer on top of OAuth 2.0. Analyzes ID token syntax, discovery endpoints, and flows for multi-tenant systems. Essential background knowledge for implementing cloud-native federated identities.
 #### SSO
 
   - **(2022)** [dev.to/gabrielbiasi: Automatic SSO in Kubernetes workloads using a sidecar container](https://dev.to/gabrielbiasi/automatic-sso-in-kubernetes-workloads-using-a-sidecar-container-3752)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated SSO sidecar integration pattern inside Kubernetes pods, abstracting authentication logic away from application-level containers. Details OAuth token management and redirect intercept strategies executed transparently at the pod level. Simplifies identity integration across multiple microservices.
@@ -565,7 +560,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Pulumi](./pulumi.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

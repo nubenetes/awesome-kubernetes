@@ -27,17 +27,15 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
 #### Openshift
 
   - **(2022)** [cloud.redhat.com: Getting Started running Spark workloads on OpenShift](https://www.redhat.com/en/blog/getting-started-running-spark-workloads-on-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an enterprise guide to running containerized Apache Spark workloads within Red Hat OpenShift, highlighting security-first practices and security context constraints (SCCs). Illustrates leveraging OpenShift's cluster monitoring and dynamic storage classes for big data analytics. Live Grounding confirms OpenShift remains a preferred, secure platform for regulated enterprises executing large-scale analytical tasks.
+#### Orchestration
+
+  - **(2021)** [**datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available**](https://www.datamechanics.co) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces the critical General Availability (GA) milestone of Apache Spark on Kubernetes in the Spark 3.1 release. Details the architectural advantages of using native Kubernetes scheduler bindings instead of standalone Spark or YARN schedulers. Live Grounding validates that this release marked the turning point for Kubernetes-native data engineering pipelines.
 #### Performance and Tuning
 
   - **(2022)** [==coderstan.com: Apache Spark on Kubernetes—Lessons Learned from Launching Millions of Spark Executors (Databricks Data+AI Summit 2022)==](https://coderstan.com/2022/07/15/spark-on-kubernetes-launching-millions-of-spark-executors) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Shares high-scale operational insights and hard-earned engineering lessons from managing millions of Spark executors on Kubernetes clusters. Details scheduling bottlenecks, DNS limits, local SSD configurations, and executor startup latency optimizations. Live Grounding highlights these exact tuning principles as standard operating procedures for operating hyperscale, cost-efficient data platforms today.
 #### Streaming and Scheduling
 
   - **(2023)** [**docs.databricks.com: Use scheduler pools for multiple streaming workloads**](https://docs.databricks.com/aws/en/structured-streaming/production) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deep dives into configuring Spark scheduler pools to enforce Fair Scheduling (FAIR) when running multiple concurrent Structured Streaming queries in a shared production workspace. Prevents heavy resource queries from starving lightweight streaming jobs. Live Grounding verifies that proper allocation of pool weights remains a mandatory configuration practice for robust multi-tenant streaming pipelines.
-### Batch Scheduling
-
-#### Kueue
-
-  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ### Cloud Platforms
 
 #### Databricks
@@ -55,7 +53,7 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
   - **(2021)** [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details industry survey results illustrating the widespread migration of Big Data and stateful analytics workloads onto Kubernetes. Shows the transition from static, dedicated bare-metal clusters to dynamic, container-orchestrated platforms. Live Grounding confirms this historical trajectory has culminated in 2026, where cloud-native orchestration is the unquestioned standard for running Spark, Flink, and ML training pipelines.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

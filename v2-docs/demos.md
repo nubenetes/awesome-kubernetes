@@ -269,6 +269,11 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Pytest and Github Actions
 
   - **(2022)** [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to build automated validation checkpoints within GitHub Actions. Outlines the orchestration of Python-based Pytest test suites triggered on repository push, focusing on reliable quality gates and test reporting pipelines.
+### Automation Ecosystems
+
+#### Jenkins and Nexus
+
+  - **(2019)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates a full CD pipeline design combining Jenkins automation pipelines, Sonatype Nexus artifact caching, and the Cloudogu developer platform ecosystem. It discusses how to decouple build outputs, secure package verification, and trigger orchestrations. It demonstrates how standardizing on artifact-centric builds minimizes drift in multi-environment configurations.
 ### Azure
 
 #### Github Actions
@@ -336,11 +341,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Ansible and Helm
 
   - **(2020)** [opensource.com: Build a Kubernetes Minecraft server with Ansible's Helm modules](https://opensource.com/article/20/10/kubernetes-minecraft-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates utilizing Ansible's native Helm modules to declare and manage deployments within a Kubernetes cluster, illustrated by spinning up a stateful Minecraft server instance. (Live Grounding: Highlights the cross-functional utility of leveraging Ansible playbooks to drive Kubernetes native packaging models).
-### Infrastructure
-
-#### Rancher
-
-  - **(2020)** [Deploy a Rancher Cluster with GitLab CI and Terraform](https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step automation blueprint demonstrating how to provision and orchestrate Rancher multi-cluster control planes. Harnesses Terraform to scale target virtual machines and GitLab CI to deploy and maintain management-plane state configurations.
 ### Java (1)
 
 #### Automated Workflows
@@ -616,6 +616,13 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 ##### Developer Workflow
 
   - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
+### Runtimes
+
+#### Jboss EAP
+
+##### Microprofile
+
+  - **(2020)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement for Red Hat JBoss EAP Expansion Pack (XP) 1.0, enabling support for MicroProfile specifications on top of enterprise application servers. Live Grounding indicates JBoss EAP XP has become a core element for Red Hat customers modernization strategies, providing a bridge between traditional and cloud-native application patterns.
 ## Container Orchestration
 
 ### Kubernetes (1)
@@ -664,13 +671,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### CICD (4)
 
   - **(2021)** [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://travelrasik.com/category/asia) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Multi-part technical walk-through detailing automated deployment patterns for Azure Data Factory (ADF) pipelines. Highlights ARM template generation, parameterization strategies, and continuous integration workflows via Azure DevOps.
-## Data Science
-
-### Tooling
-
-#### Data Wrangling
-
-  - **(2023)** [**Getting Started with Data Wrangler in VS Code**](https://code.visualstudio.com/docs/datascience/data-wrangler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines VS Code's visual data preparation extension. Live Grounding shows that Data Wrangler bridges the visual gap in exploratory data analysis (EDA), generating reproducible Python code in Pandas and Polars dialects directly inside Jupyter environments.
 ## Data Storage
 
 ### Databases
@@ -1004,7 +1004,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Anthos Config Management
 
   - **(2020)** [Tutorial: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive guide on establishing declarative configuration management in multi-cluster environments using Anthos Config Management (ACM). The tutorial details Git-to-cluster synchronization protocols, security policies via Config Controller, and cluster-state reconciliation mechanisms, representing a stable paradigm for enterprise hybrid-cloud control planes.
-## Infrastructure (1)
+## Infrastructure
 
 ### Artifact Management
 
@@ -1521,7 +1521,7 @@ Live Grounding: Built by a non-technical editor, the interactive application sho
   - **(2020)** [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on setting up automated REST API test runners for KIE decision services. Demonstrates performance execution metrics, payload validation models, and CI integration pipelines using Postman and Newman test wrappers.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

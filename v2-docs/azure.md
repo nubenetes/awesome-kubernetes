@@ -101,9 +101,13 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 
 ### AI and Automation
 
+#### AI PR Automation
+
+  - **(2025)** [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tutorial showing how to automate the generation of pull request descriptions within Azure DevOps pipelines using Azure OpenAI APIs. Streamlines developer velocity and documentation standards.
 #### Model Context Protocol
 
   - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1813</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2b346c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 2 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-2b346c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
+  - **(2025)** [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Microsoft announcement outlining the preview release of the Azure DevOps MCP Server. Details how developer agents leverage safe API contexts to build and deploy complex assets.
 ### DevOps Platforms
 
 #### Devtest Labs
@@ -129,11 +133,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Azure DevOps Platform
 
   - **(2023)** [zartis.com: Simplify Your SDLC with Azure DevOps 🌟](https://www.zartis.com/simplify-your-sdlc-with-azure-devops) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores structural methods to decrease release lead-times by leveraging integrated boards, automated tests, and deployment gates inside the Azure DevOps ecosystem.
-### Security
-
-#### Network Access Control
-
-  - **(2024)** [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official update outlining changes in public IP routing paths for Azure DevOps hosted agents. Crucial information for maintaining zero-trust firewall configurations.
 ### Security and Compliance
 
 #### Access Control
@@ -181,7 +180,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2026)** [==learn.microsoft.com: Environment variables and app settings in Azure App Service==](https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official reference detailing how App Settings and Connection Strings map directly to environment variables at container execution time. It covers critical security aspects, including referencing Key Vault secrets natively to prevent plaintext credential leaks in code. This configuration framework forms the architectural baseline for deploying portable, 12-factor cloud-native applications.
 #### App Service Diagnostics
 
-  - **(2025)** [**Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues**](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical breakdown of the Azure App Service Auto-Heal capability, showing how to trigger automated mitigation actions during performance regressions. It explains how to collect diagnostic artifacts, such as thread dumps, memory dumps, and profiler traces, right before an instance restarts. This proactive debugging practice prevents transient microservice failures from escalating into major outages.
   - **(2024)** [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html) <span class='md-tag md-tag--warning'>[NODE.JS CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement and documentation highlighting advanced diagnostic tools built specifically for Node.js workloads running on Linux-based Azure App Services. It explains the integration of CPU profiling, memory allocation tracking, and automated core dump collection. These tools enable real-time analysis of single-threaded event loop blockages and memory leaks directly from the Azure portal.
 #### Custom Containers
 
@@ -240,6 +238,11 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Azure Pipelines Architecture
 
   - **(2022)** [thinksys.com: Azure DevOps Pipeline Complete Guide 2022](https://thinksys.com/azure/azure-devops-pipeline-complete-guide) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Provides a comprehensive guide to Azure Pipelines, examining agent pools, environment gates, YAML schemas, and artifact generation. Modern engineering patterns in 2026 have completely deprecated classic visual release pipelines. Modern deployment strategies mandate programmatic YAML-only architectures that incorporate pipeline decorators and secure agent injection.
+#### Build Environments
+
+##### Runtime Configuration
+
+  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to dynamically install Java 23 onto Azure DevOps pipeline agents using automated setup tasks. In 2026, using localized runtime installation tasks is preferred over relying on pre-baked VM images, allowing pipelines to remain flexible and easily adapt to new framework versions.
 #### Conditional Logic And Expressions
 
   - **(2023)** [**techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟**](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-devops-pipelines-if-expressions-and-conditions/3737159) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Breaks down the syntax and runtime evaluation of conditional if-expressions in Azure Pipelines' YAML parser. Masterful command of compile-time versus execution-time evaluation is crucial in 2026 for building dynamic pipelines that auto-adjust steps based on branch targets, variables, or system telemetry.
@@ -364,6 +367,33 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2024)** [techcommunity.microsoft.com: New feature: easily assign regulatory compliance policies to your Azure Landing Zone](https://techcommunity.microsoft.com/blog/azurearchitectureblog/new-feature-easily-assign-regulatory-compliance-policies-to-your-azure-landing-z/4074957) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines simplified mechanisms to assign regulatory compliance policies to Azure Landing Zone hierarchy trees. The feature enables platform administrators to quickly map PCI-DSS, ISO 27001, or FedRAMP benchmarks to specific landing zones, ensuring automated, non-disruptive governance across all workloads.
 ## Cloud Infrastructure
 
+### Azure Networking
+
+#### Cost Optimization
+
+  - **(2026)** [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This cost-analysis guide scrutinizes the pricing structures of Azure networking patterns, contrasting VNet Peering, Private Link, Virtual WAN, and ExpressRoute. It provides system architects with actionable formulas to optimize egress and internal data transfer fees, which are critical for high-throughput, multi-region distributed microservices.
+  - **(2025)** [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep analysis of the financial implications of Azure data transit. The guide breaks down costs associated with intra-region, inter-region, availability zone traversal, and internet egress. It is highly valuable for designing cost-efficient microservices that utilize high-frequency data synchronizations.
+#### Hybrid Connectivity
+
+  - **(2025)** [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines best practices for designing resilient Azure ExpressRoute topologies to safeguard production-critical hybrid cloud environments. Architects are guided through configuring dual-homing, active-active paths, BFD (Bidirectional Forwarding Detection), and automated failover strategies to prevent network isolation.
+#### Latency Optimization
+
+  - **(2025)** [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the utility of Azure Proximity Placement Groups (PPGs) to achieve sub-millisecond physical latency for interdependent compute resources. It outlines design considerations for co-locating VMs, Virtual Machine Scale Sets, and Kubernetes nodes within the same physical data center boundary to support high-performance microservices.
+#### Multi-tenant Topology
+
+  - **(2025)** [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official exploration of Azure Virtual Network Manager (AVNM) capabilities for coordinating network topologies across distinct enterprise Entra ID tenants. Architects learn how to leverage AVNM to scale governance, enforce global security rules, and simplify cross-tenant hub-and-spoke peerings programmatically.
+#### Network Topology
+
+  - **(2025)** [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blueprint for Azure Hub-and-Spoke network design patterns. This guide details how to centralize shared infrastructure services—such as firewalls, DNS, and ExpressRoute gateways—within a hub VNet, while separating distinct microservice workloads into isolated spoke VNets.
+#### Private Access
+
+  - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
+#### Security
+
+  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
+#### Subnet Peering
+
+  - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
 ### Container Orchestration (2)
 
 #### AKS Fleet Manager
@@ -418,6 +448,9 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2022)** [github.com/nnellans/bicep-guide](https://github.com/nnellans/bicep-guide) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cf5aef13" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 4 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-cf5aef13)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured walkthrough repository outlining best practices, modular structures, and orchestration techniques in Azure Bicep. It acts as a reference for constructing scalable, reusable IaC configurations with built-in parameterization and deployment scopes.
   - **(2022)** [build5nines.com: Get Started with Azure Bicep – Alternative to ARM Templates](https://build5nines.com/get-started-with-azure-bicep) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Azure Bicep as Microsoft's strategic evolution beyond JSON-based ARM templates. It contrasts the language's simplified abstraction layer, compilation mechanics, and automatic dependency resolution against traditional enterprise patterns.
   - **(2021)** [github.com/johnlokerse/azure-bicep-cheat-sheet: Azure Bicep Cheat Sheet](https://github.com/johnlokerse/azure-bicep-cheat-sheet) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive quick-reference guide designed to accelerate Azure Bicep development. It provides syntax mappings, parameter declarations, and deployment command structures to streamline the transition from ARM JSON to domain-specific language architectures.
+#### Azure IPAM
+
+  - **(2025)** [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive guide to automating Azure IP Address Management (IPAM) using Terraform. It outlines strategies for programmatic subnet delegation, non-overlapping address space allocation, and enterprise-wide IP tracking to prevent resource collision in complex hub-and-spoke virtual architectures.
 #### Azure Verified Modules
 
   - **(2024)** [azure.github.io/Azure-Verified-Modules 🌟](https://azure.github.io/Azure-Verified-Modules) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central documentation portal for Azure Verified Modules (AVM), Microsoft's standardized, validated IaC building blocks. Supports both Bicep and Terraform, guaranteeing reliable, hardened, and highly consistent deployments at enterprise scale.
@@ -534,6 +567,9 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Portal Core
 
   - **(2026)** [Microsoft Azure](https://azure.microsoft.com/en-us) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master platform portal link for Microsoft Azure services. Used by enterprise architects to model global computing resources, secure network rings, and Kubernetes nodes.
+#### Security Automation
+
+  - **(2024)** [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instructional resource on deploying ACME Bot inside Azure. Automates key lifecycles of Let's Encrypt certificates directly into secure Key Vaults.
 #### Visualization and Insights
 
   - **(2026)** [azurecharts.com: Azure Charts](https://azurecharts.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual tracking tool detailing Azure services. Dynamically graphs compliance updates, service availability maps, and feature changes in real-time.
@@ -630,7 +666,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2022)** [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows how to build and execute JMESPath expressions within standard Azure CLI inputs, enabling programmatic array sorting and resource discovery.
 #### Azure Storage (1)
 
-##### Cost Optimization
+##### Cost Optimization (1)
 
   - **(2022)** [techcommunity.microsoft.com: Azure Storage Blob Count & Capacity usage Calculator](https://techcommunity.microsoft.com/blog/azurepaasblog/azure-storage-blob-count--capacity-usage-calculator/3516855) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents dynamic automation options to calculate blob count and physical storage requirements across premium Azure Storage containers, facilitating cost modeling operations.
 #### Inventory Auditing
@@ -734,13 +770,11 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2021)** [teacdmin.net: How To Enable Multiple RDP Sessions on Windows Server](https://tecadmin.net/how-to-enable-multiple-rdp-sessions-on-windows-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — System engineering guide detailing how to bypass the standard session limit constraints on Windows Server platforms by configuring Remote Desktop Services (RDS) policies. Explains licensing requirements, group policy objects (GPO), and host configurations to enable multi-user concurrent administrative operations within infrastructure-as-a-service (IaaS) instances.
 ## Container Orchestration (3)
 
-### AKS Labs
-
-#### Hands-on Learning
-
-  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
 ### Azure Kubernetes Service
 
+#### AKS Fleet Manager (1)
+
+  - **(2025)** [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](https://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on utilizing Azure Kubernetes Service (AKS) Fleet Manager to coordinate multi-cluster scaling for modern AI and data-heavy services. It details multi-cluster updates, global load balancing, and orchestration patterns that bypass single-cluster scaling bottlenecks, supporting highly distributed deep learning and large-scale analytical runtimes.
 #### Well-architected Framework (1)
 
   - **(2026)** [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official technical guide mapping Azure Well-Architected Framework (WAF) principles to Azure Kubernetes Service (AKS). It details architectural guidance on cluster networking, high availability, node pools, security integration, and cost management. This serves as the definitive reference for engineering enterprise-grade, highly resilient Kubernetes control and data planes on Azure.
@@ -846,13 +880,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Windows Tooling
 
   - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f02f28d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 5 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-3f02f28d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
-## Developer Tools
-
-### IDE Extensions
-
-#### Azure Learning
-
-  - **(2024)** [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual Studio Code extension designed to accelerate cloud onboarding directly within the developer workspace. It streamlines access to Azure training modules and sandboxed labs, reducing cognitive context switching during technical training.
 ## Devsecops and Platform Engineering
 
 ### CICD and DevOps
@@ -908,6 +935,9 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 
 ### Azure Optimization
 
+#### AI Cost Management
+
+  - **(2025)** [**Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads**](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses cost-optimization techniques for AI and large language model (LLM) workloads running on Azure. Discusses GPU node autoprovisioning, vector database optimization, and Azure OpenAI API consumption pricing models.
 #### Landing Zones (2)
 
   - **(2025)** [==Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization==](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details how to configure a FinOps-compliant Azure Landing Zone. Uses Azure Policy and management groups to enforce resource tag policies, mandate budget limits at subscription boundaries, and automate continuous cost governance.
@@ -1134,7 +1164,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 ##### Azure Application Gateway
 
   - **(2025)** [==Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs==](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry capture.
-  - **(2025)** [**Introduction to Azure Application Gateway for Containers (AGC)**](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introductory architecture guide covering the capabilities of Azure's modern Application Gateway for Containers (AGC). Illustrates how it integrates natively via Gateway API parameters to deliver low-latency application routing.
 ## Infrastructure and Platform
 
 ### Tenant Governance (1)
@@ -1173,9 +1202,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Azure Verified Modules (2)
 
   - **(2025)** [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the general availability of Terraform-based Azure Verified Modules (AVM) for constructing platform landing zones. These modules offer verified, highly robust IaC templates that align with Microsoft's official structural guidelines. This release significantly reduces the development overhead required to build enterprise platform hubs.
-#### Entra ID Integration
-
-  - **(2024)** [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A focused technical workaround detailing how to dynamically capture the current executing User Principal Name (UPN) inside Terraform scripts without relying on wide Microsoft Entra ID read access.
 #### Export Utility
 
   - **(2025)** [Export Terraform Code from the Azure Portal](https://mattias.engineer/blog/2025/azure-portal-export-terraform) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A practical exploration of the Azure Portal's feature for exporting active cloud resource configurations directly into functional HashiCorp Terraform modules. Decreases setup friction for legacy system migrations.
@@ -1192,7 +1218,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2025)** [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized Terraform registry module designed to automate IP Address Management (IPAM) inside multi-VNet architectures. Standardizes subnetworking allocations dynamically to prevent prefix overlapping.
 ### Terraform Providers
 
-#### Azure IPAM
+#### Azure IPAM (1)
 
   - **(2024)** [==Terraform Provider for Azure IPAM==](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 10</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-75d6d25b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 4 L 30 7 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-75d6d25b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Custom open-source Terraform provider built to automate cloud IP address allocation directly from centralized Azure IPAM solutions. Ensures smooth networking configuration inside containerized setups.
 ### Verification and AI
@@ -1455,18 +1481,18 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Azure Firewall
 
   - **(2024)** [==github.com/nicolgit/azure-firewall-mon: az-firewall-mon==](https://github.com/nicolgit/azure-firewall-mon) <span class='md-tag md-tag--info'>⭐ 91</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-08e4b21c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 7 L 20 12 L 30 13 L 40 9 L 50 8" fill="none" stroke="url(#spark-grad-08e4b21c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Real-time log viewer utility for Azure Firewall. Parses JSON diagnostic streams directly from Log Analytics, providing colorized output detailing connection actions (allow/deny) on live terminals.
-### Secrets Management
-
-#### Cloud Integrations
-
-##### Azure (2)
-
-  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 ### Threat Hunting
 
 #### Active Directory (1)
 
   - **(2025)** [==github.com/JPCERTCC/LogonTracer==](https://github.com/JPCERTCC/LogonTracer) <span class='md-tag md-tag--info'>⭐ 3182</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-34f28261" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 4 L 30 13 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-34f28261)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Incident response tool mapping Active Directory authentication logs onto Neo4j graph databases. Visually identifies anomalous domain login correlations, pass-the-hash movements, and identity exploitation attacks.
+## Security and Governance
+
+### CICD (6)
+
+#### Azure and Github Integration
+
+  - **(2022)** [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the mechanism of securing deployment pipelines on Azure by leveraging GitHub Actions with OIDC federation. This setup eliminates credential rotation burdens and prevents high-privilege credential leakage. The article guides developers through creating federated credentials in Azure AD and configuring GitHub workflows for passwordless authentication.
 ## Security and Identity
 
 ### API Security
@@ -1484,7 +1510,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Continuous Security
 
   - **(2023)** [devops.com: DevSecOps in Azure](https://devops.com/devsecops-in-azure) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the technical blueprint for establishing DevSecOps practices within the Azure ecosystem. Details security scanners, credential detection tools, container analysis systems, and runtime enforcement loops.
-### Hybrid Connectivity
+### Hybrid Connectivity (1)
 
 #### Point-to-site VPN
 
@@ -1561,7 +1587,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2020)** [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://commandline.ninja/use-powershell-to-find-services-configured-to-run-as-another-user) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated auditing solution leveraging custom WMI queries to locate active background services configured with custom service-account parameters rather than default LocalSystem context pools.
 ## Software Engineering
 
-### CICD (6)
+### CICD (7)
 
 #### Mobile DevOps
 
@@ -1575,7 +1601,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2024)** [==Azure-Samples/jmeter-aci-terraform==](https://github.com/Azure-Samples/jmeter-aci-terraform) <span class='md-tag md-tag--info'>⭐ 119</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6fec9c21" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 4 L 20 6 L 30 6 L 40 12 L 50 13" fill="none" stroke="url(#spark-grad-6fec9c21)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — IaC template leveraging Terraform to provision distributed Apache JMeter load testing engines within Azure Container Instances (ACI). Allows engineers to spin up high-throughput parallel load agents in serverless environments without cluster maintenance.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

@@ -49,20 +49,12 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### History and Insights
 
   - **(2026)** [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth video interview exploring the early development, design constraints, and technological milestones of HashiCorp's suite. Offers high-level insights into state management and the evolution of cloud orchestration.
-#### Migration Strategies
-
-  - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
 #### Schema Generation
 
   - **(2026)** [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8de5391d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 12 L 30 4 L 40 7 L 50 12" fill="none" stroke="url(#spark-grad-8de5391d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool that parses declared Terraform configurations to generate structural JSON Schemas. Useful for running runtime validation scripts on dynamic inputs or verifying API schemas during configuration processing.
 #### Terraform Practices
 
   - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-550aaba1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-550aaba1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
-### Kubernetes and Operators
-
-#### GCP Resources
-
-  - **(2026)** [cloud.google.com/config-connector](https://docs.cloud.google.com/config-connector/docs/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains GCP Config Connector implementation patterns. Lets engineers configure Google Cloud infrastructure through Kubernetes Custom Resource Definitions, utilizing Kubernetes controllers to construct databases, IAM permissions, and storage endpoints.
 ## Cloud Management
 
 ### Finops
@@ -126,11 +118,6 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Terminology
 
   - **(2022)** [thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code](https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies foundational interfaces—GUIs, CLIs, and APIs—used in automated provisioning workflows. Details how modern declarative execution pipelines abstract these layers to guarantee predictable environment configurations.
-#### Terraform
-
-##### Secrets
-
-  - **(2025)** [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the design and execution mechanics of Ephemeral Values introduced in modern Terraform releases. Discusses preventing credential leakages by keeping sensitive short-lived resources completely out of persistent state logs.
 #### Tool Comparison
 
   - **(2023)** [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares Terraform and Ansible, focusing on state management and typical use cases. Shows how Terraform specializes in declarative stateful cloud provisioning, while Ansible excels at stateless procedural host and configuration management.
@@ -175,7 +162,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [Pulumi](./pulumi.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

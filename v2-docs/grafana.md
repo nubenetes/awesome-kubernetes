@@ -9,6 +9,15 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 !!! info "Architectural Context"
     Detailed reference for Grafana in the context of Architectural Foundations.
 
+## Cloud Architecture
+
+### Certification
+
+#### AWS
+
+##### Solutions Architect Professional
+
+  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Infrastructure As Code
 
 ### Package Archives
@@ -16,6 +25,13 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 #### Visualization
 
   - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
+## Kubernetes and Cloud Native
+
+### CICD
+
+#### Continuous Deployment
+
+  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the microservices CI/CD series, detailing continuous deployment onto active Kubernetes clusters. Focuses on orchestrating declarative manifest YAML files, configuring deployment strategies like rolling updates, and handling Kubernetes secrets securely.
 ## Kubernetes Tools
 
 ### General Reference
@@ -186,7 +202,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

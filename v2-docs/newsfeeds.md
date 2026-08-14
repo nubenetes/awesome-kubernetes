@@ -54,7 +54,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
   - **(2023)** [AWS Forums](https://repost.aws) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy discussion forum resource for AWS developers troubleshooting infrastructure configurations and billing queries. Note: The platform has largely migrated to AWS Re:Post for community support.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [HR](./hr.md) | [Recruitment](./recruitment.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

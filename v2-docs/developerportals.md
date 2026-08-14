@@ -232,13 +232,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Tutorials (1)
 
   - **(2024)** [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide to bootstrapping Backstage, configuring the software catalog, and writing custom templates. The resource outlines practical steps to integrate local tooling with the developer portal, enabling swift adoption of self-service developer templates.
-## Software Architecture and .NET Development
-
-### Artificial Intelligence
-
-#### Agent Integration
-
-  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
 ## Software Engineering
 
 ### AI Tools
@@ -253,23 +246,9 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - **(2026)** [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive index of public, developer-friendly APIs categorized by domain (e.g., weather, auth, finance). Serving as a core design-discovery tool, it enables engineers to rapidly find mock data, integration targets, and third-party solutions for prototyping.
 ### Ai-assisted Development
 
-#### CLI Tools
-
-  - **(2026)** [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highlights setup and early integration techniques for GitHub Copilot CLI, translating natural language prompts into executable terminal and shell scripts. Enhances sysadmin and shell workflow automation while maintaining a human-in-the-loop review step for safety and correctness.
 #### Github Copilot
 
   - **(2026)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Authoritative guidelines from GitHub designed to optimize interaction with Copilot. Covers prompt engineering tactics (such as context-setting files and comments), managing AI security and license compliance, and verifying generated output.
-#### LLM Prompting
-
-  - **(2025)** [Claude 101: Free Guides to Master Claude](https://claude101.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated reference hub containing structured tutorials, system prompting templates, and context optimization strategies for leveraging Anthropic's Claude models. Focuses on maximizing the quality of complex reasoning pipelines and architectural code reviews.
-#### Multi-repository Architecture
-
-  - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
-### Collaboration
-
-#### Documentation Specifications
-
-  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Command-line Utilities
 
 #### Terminal Emulators
@@ -282,7 +261,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [QA](./qa.md) | [Project Management Tools](./project-management-tools.md) | [Scaffolding](./scaffolding.md)
+💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

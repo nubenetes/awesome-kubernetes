@@ -42,23 +42,11 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
   - **(2022)** [cybercoders.com: What Hiring Managers look for in a Full Stack Developer](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market intelligence report surveying hiring requirements for full stack engineering roles. It maps out key technical benchmarks such as comfort with distributed system paradigms, experience with container systems like Docker/Kubernetes, and familiarity with cloud platforms, alongside essential communication and agile development competencies.
 ## Cloud Infrastructure
 
-### Enterprise Containers
-
-#### Strategy
-
-  - **(2021)** [contino.io: How to Make Enterprise Container Strategies That Last (Part One)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-focused strategic guide detailing how to design durable container adoption initiatives. It emphasizes aligning developer enablement with platform engineering teams, setting up proper governance models, and establishing realistic operational metrics, ensuring organization-wide Kubernetes migrations don't stall due to cultural friction.
 ### Storage and Databases
 
 #### Storage Strategy
 
   - **(2022)** [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural comparison between container-native and container-ready storage systems for Kubernetes. It explains how container-native storage operates inside the orchestration engine using CSI (Container Storage Interface), offering dynamic scaling and pod-level isolation, whereas container-ready options rely on enterprise external SAN/NAS storage arrays mapped to Kubernetes nodes.
-## DevOps
-
-### CICD
-
-#### Kubernetes Orchestration
-
-  - **(2021)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Accelerating release cycles in Kubernetes environments requires modernizing the CI/CD pipeline with cloud-native orchestration techniques. By automating build, test, and container promotion workflows, teams can minimize deployment errors and configuration drift. The focus is on implementing progressive delivery strategies such as canary and blue-green deployments to de-risk production releases.
 ## Kubernetes Tools
 
 ### General Reference
@@ -105,16 +93,9 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
 #### Case Study
 
   - **(2019)** [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This real-world enterprise case study details Verizon's migration journey from a legacy monolithic architecture to containerized workloads on Red Hat OpenShift. It highlights practical strategies for managing stateful applications, addressing legacy security constraints, and overcoming organizational resistance. The resulting deployment demonstrates how automated orchestration accelerates feature delivery and improves cluster utilization.
-## Networking
-
-### Multi-cluster
-
-#### DNS
-
-  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

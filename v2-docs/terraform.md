@@ -974,6 +974,7 @@ description: "Top Terraform resources for 2026, AI-ranked: terraform-cdk, Infrac
 #### Tutorials (1)
 
   - **(2023)** [**learnk8s.io/terraform-aks 🌟**](https://learnkube.com/terraform-aks) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An educational deep-dive into provisioning and bootstrapping an Azure Kubernetes Service (AKS) cluster using Terraform. Covers declarative infrastructure configuration, state management, and basic cluster connectivity verification.
+  - **(2022)** [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step practical guide detailing the construction of an AKS cluster using Terraform. Walks through basic variables, resource groups, virtual networks, and node configuration blocks.
 ## Platform Engineering (2)
 
 ### AKS (2)
@@ -1017,7 +1018,7 @@ description: "Top Terraform resources for 2026, AI-ranked: terraform-cdk, Infrac
   - **(2023)** [==AWS Lambda the Terraform Way==](https://github.com/nsriram/lambda-the-terraform-way) <span class='md-tag md-tag--info'>⭐ 1260</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a88e588" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-8a88e588)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely starred open-source template repository outlining best practices for packaging, versioning, and deploying AWS Lambda functions natively using Terraform. Eliminates dependencies on external serverless frameworks by leveraging HCL zip archiving capabilities.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Pulumi](./pulumi.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

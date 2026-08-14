@@ -31,11 +31,6 @@ description: "Top Container Managers resources for 2026, AI-ranked: podman, buil
 #### Vm-in-container
 
   - **(2021)** [opensource.com: Run a Linux virtual machine in Podman](https://opensource.com/article/21/7/linux-podman) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An architectural exploration of executing a nested Linux VM directly within an OCI-compliant container managed by Podman. This setup leverages nested systemd instances, enabling engineers to package legacy system-level workloads, VMs, or multi-process service layers without full VM overhead.
-### CICD
-
-#### Pipeline Security
-
-  - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
 ### Container Engines
 
 #### Comparative Analysis
@@ -233,9 +228,6 @@ description: "Top Container Managers resources for 2026, AI-ranked: podman, buil
 #### Image Building
 
   - **(2026)** [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by cloud-native expert Alex Ellis, this post explores build tools (such as BuildKit, Buildah, and Kaniko) that compile container images without relying on a local Docker daemon. It unpacks the benefits of using non-docker setups inside Kubernetes CI/CD runner environments, avoiding Docker-in-Docker (DinD) security compromises. It serves as an essential manual for modern cloud pipeline designs.
-#### Runtimes (1)
-
-  - **(2026)** [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison analyzing the structural differences between Docker and Podman. It highlights Podman's daemonless, rootless-by-default execution model and explains how this design reduces security attack vectors compared to Docker's centralized daemon. It also details Podman's native support for pod-like multi-container groupings, easing transitions toward Kubernetes.
 ### Containers
 
 #### Image Building (1)
@@ -247,11 +239,6 @@ description: "Top Container Managers resources for 2026, AI-ranked: podman, buil
 #### Migration
 
   - **(2022)** [youtube: How to live without Docker for developers - Part 1 | Migration from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video-based tutorial guiding developers through migration from Docker to Podman and Buildah, detailing how to live without a daemon. It contrasts performance profiles, daemon socket vulnerabilities, and tool-chain integrations. Highly recommended for system architects looking to secure local environments and standardize on OCI-compliant developer workflows.
-### Kernel
-
-#### Resource Allocation
-
-  - **(2021)** [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) <span class='md-tag md-tag--warning'>[C/BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A system-level deep dive explaining Linux control groups (cgroups v1/v2). Demonstrates how Kubernetes translates resource limits/requests in YAML manifests to cgroup system boundaries, enforcing CPU and memory quotas.
 ## Log Management and Diagnostics
 
 ### Command Line Tools
@@ -280,7 +267,7 @@ description: "Top Container Managers resources for 2026, AI-ranked: podman, buil
   - **(2026)** [==buildah==](https://buildah.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildah specializes in crafting OCI-compliant container images without requiring a background container daemon. It enables fine-grained Layer management, dramatically reducing the security footprint of target images by keeping build tools outside the final layers.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

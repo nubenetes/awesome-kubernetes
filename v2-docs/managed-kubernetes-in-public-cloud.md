@@ -130,6 +130,11 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Automation
 
   - **(2026)** [==github.com/awslabs: Kubernetes Migration Factory User Guide 🌟==](https://github.com/awslabs/aws-kubernetes-migration-factory) <span class='md-tag md-tag--info'>⭐ 130</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ee1d8784" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 11 L 30 8 L 40 2 L 50 13" fill="none" stroke="url(#spark-grad-ee1d8784)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The AWS Kubernetes Migration Factory provides an automated, programmatic framework for migrating legacy VM-based or on-premises workloads into Amazon EKS. Curator Insight notes its structured pipelines that reduce migration errors, while Live Grounding confirms its utility in enterprise-scale rehosting plans. Key features include source-to-target automation, pre-migration validation, and automated target cluster provisioning.
+### Container Orchestration
+
+#### EKS Security
+
+  - **(2023)** [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — EKS Pod Identity simplifies the association of IAM roles with Kubernetes service accounts. This model bypasses the complexities of OIDC trust configurations, offering highly scalable, secure, and isolated credential structures for containers.
 ### Continuous Delivery
 
 #### Gitops
@@ -192,9 +197,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### PCI DSS
 
   - **(2020)** [aws whitepapers: Architecting Amazon EKS for PCI DSS Compliance (pdf) 🌟🌟](https://d1.awsstatic.com/whitepapers/architecting-amazon-eks-for-pci-dss-compliance.pdf) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative AWS whitepaper providing rigorous architectural guidelines for running Payment Card Industry Data Security Standard (PCI DSS) workloads on EKS. It focuses on network isolation, encryption at rest/transit, IAM control planes, and auditable logging configurations.
-#### Policy Enforcement
-
-  - **(2021)** [aws.amazon.com: Easy as one-two-three policy management with Kyverno on Amazon EKS 🌟](https://aws.amazon.com/blogs/containers/easy-as-one-two-three-policy-management-with-kyverno-on-amazon-eks) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the deployment of Kyverno on Amazon EKS to enforce policy as code using native Kubernetes resources. It demonstrates how to write policies to restrict root privileges, mutate incoming resources, and audit cluster compliance directly without writing complex Rego code.
 ### Storage
 
 #### Amazon EFS
@@ -418,6 +420,9 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Finops
 
   - **(2022)** [cloud.google.com: Know more, spend less: how GKE cost optimization insights help you optimize Kubernetes](https://cloud.google.com/blog/products/containers-kubernetes/gke-cost-optimization-insights-now-ga) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines GKE's native cost optimization insights, which surface over-provisioned CPU/Memory metrics directly within the console. Guides platform architects on utilizing automated rightsizing recommendations to minimize container cost overruns while maintaining necessary performance profiles.
+#### GKE Core
+
+  - **(2025)** [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core landing documentation for Google Kubernetes Engine (GKE), highlighting GKE's industry-standard capabilities. Specifically focuses on setting up node pools with custom kernel parameters, eliminating post-bootstrap script workarounds. Provides the baseline reference for standard-setting enterprise container management.
 #### Industry Analysis
 
   - **(2021)** [techcrunch.com: Google Cloud puts its Kubernetes Engine on autopilot](https://techcrunch.com/2021/02/24/google-cloud-puts-its-kubernetes-engine-on-autopilot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — TechCrunch's coverage of GKE Autopilot, highlighting its impact on managed container orchestration trends. Focuses on the trade-offs of restricting low-level node configurations in exchange for SLA-backed operations and optimized bin-packing. Evaluates the strategic TCO reductions of serverless-style Kubernetes models.
@@ -673,11 +678,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [docs.microsoft.com: Start and stop an Azure Kubernetes Service (AKS) node pool 🌟](https://learn.microsoft.com/en-us/azure/aks/start-stop-nodepools) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official Microsoft technical guide documenting native start/stop capabilities inside AKS user node pools. Simplifies operational management by shutting down scaling instances to minimize computing costs during inactive schedules.
 ## Orchestration
 
-### AKS
-
-#### Tutorials
-
-  - **(2022)** [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step practical guide detailing the construction of an AKS cluster using Terraform. Walks through basic variables, resource groups, virtual networks, and node configuration blocks.
 ### Azure Compute
 
 #### AKS and ACI
@@ -792,7 +792,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt](https://www.digitalocean.com/resources/articles/kubernetes-for-startups) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural strategy guide assessing the costs and benefits of introducing Kubernetes inside early-stage startup ecosystems. Covers common mistakes like over-engineering cluster setups early on and maps out criteria for when to transition from PaaS tools to fully-managed Kubernetes environments.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Digitalocean](./digitalocean.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
 

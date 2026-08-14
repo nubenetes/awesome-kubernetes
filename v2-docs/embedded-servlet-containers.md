@@ -21,7 +21,7 @@ description: "Curated, AI-ranked Embedded Servlet Containers resources for the 2
   - **(2026)** [Undertow](https://undertow.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly performant, modular web server designed by Red Hat. Written in Java, it features non-blocking, asynchronous capabilities, functioning as a powerful, lightweight container engine for high-density microservices.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Python](./python.md) | [Java_Frameworks](./java_frameworks.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
 

@@ -279,17 +279,11 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
 #### Resources
 
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4b9ffdc6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 7 L 30 12 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-4b9ffdc6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
-## Kubernetes Management
-
-### Monitoring and Observability
-
-#### Etcd Monitoring
-
-  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
 ## Kubernetes Tools
 
 ### General Reference
 
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Performance Patterns in Microservices-Based Integrations in the Kubernetes Tools ecosystem.
   - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions in the Kubernetes Tools ecosystem.
   - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering CNCF End User Technology Radar: Observability, September 2020 🌟 in the Kubernetes Tools ecosystem.
@@ -309,7 +303,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
   - [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: Grok Pattern Examples for Log Parsing in the Kubernetes Tools ecosystem.
   - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: The Keys to Performance Tuning and Testing in the Kubernetes Tools ecosystem.
   - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to read a Thread Dump in the Kubernetes Tools ecosystem.
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - [Dzone: Zipkin vs. Jaeger: Getting Started With Tracing](https://dzone.com/articles/zipkin-vs-jaeger-getting-started-with-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Zipkin vs. Jaeger: Getting Started With Tracing in the Kubernetes Tools ecosystem.
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: APM Tools Comparison in the Kubernetes Tools ecosystem.
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know in the Kubernetes Tools ecosystem.
@@ -354,9 +347,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
   - **(2020)** [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the usage of JDK Flight Recorder (JFR) and JDK Mission Control (JMC) for low-overhead, production-grade JVM diagnostic profiling. Explains trace capture of memory, CPU, and I/O cycles.
   - **(2020)** [Remote Debugging of Java Applications on OpenShift](https://www.redhat.com/en/blog/remote-debugging-java-applications-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses specifically on configuring JDWP parameters in enterprise Java container builds to allow secure, remote interactive debugging from IDEs directly to pods in OpenShift.
   - **(2020)** [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical solution article detailing how to trigger, extract, and analyze memory heap dumps from JVMs running inside Linux containers, leveraging standard OpenJDK CLI tools.
-#### Java JMX
-
-  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 #### Java Spring Boot
 
   - **(2022)** [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a step-by-step architectural guide on routing Logback appender JSON streams from Spring Boot microservices into Logstash, indexing them in Elasticsearch, and visualizing error trends in Kibana.
@@ -463,11 +453,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
 #### Prometheus Scale
 
   - **(2020)** [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](https://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4147c062" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 13 L 30 11 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-4147c062)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Leverages ETCD service registration to provide dynamic clustering and automated scrape sharding for distributed Prometheus deployments. While offering a lightweight alternative for scale-out setups, modern production environments in 2026 predominantly utilize Thanos, Cortex, or VictoriaMetrics for highly available global metrics engines.
-### Monitoring
-
-#### Metrics Collection
-
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 ### Opentelemetry (1)
 
 #### Collector Infrastructure
@@ -540,7 +525,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
   - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
 ## Security (1)
 
-### Monitoring (1)
+### Monitoring
 
 #### Host Security
 
@@ -594,11 +579,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
 ##### Telemetry Routing
 
   - **(2019)** [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical exploration of the 'Observability Pipeline' architectural pattern, illustrating how to decouple telemetry sources from destinations using intermediate routing layers (e.g., Vector). Curator Insight: Deep-dive on data routing middleware. Live Grounding: A fundamental design paradigm for modern platform engineering, preventing vendor lock-in and optimizing ingestion costs.
-#### Infrastructure Design
-
-##### Telemetry Pipelines
-
-  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 #### Logging Systems
 
 ##### Architecture (1)
@@ -606,7 +586,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
   - **(2022)** [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural system architecture deep-dive covering high-volume log collection, queuing, indexing, and durable storage tiers (such as ELK, Grafana Loki, or OpenSearch). Curator Insight: Deep blueprint on logging pipeline design. Live Grounding: Essential reading for scaling logging clusters without sacrificing lookup speeds or bloating cloud storage costs.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
 
