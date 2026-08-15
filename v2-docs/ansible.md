@@ -9,10 +9,6 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
 !!! info "Architectural Context"
     Detailed reference for Configuration Management. Ansible in the context of Hardened Infrastructure.
 
-## Standard Reference
-
-  - [ansible.com: Ansible whitepaper](https://www.ansible.com/resources/whitepapers/ansible-in-depth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -507,6 +503,11 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
   - **(2018)** [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to testing Ansible configuration playbooks using the Molecule framework. The guide focuses on improving role determinism and reliability by enforcing lint checks and testing playbooks inside standardized container environments.
 ### Configuration Management (3)
 
+#### Ansible (5)
+
+##### Architecture and Orchestration
+
+  - **(2020)** [**ansible.com: Ansible whitepaper**](https://www.ansible.com/resources/whitepapers/ansible-in-depth) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This authoritative whitepaper dissects Ansible's agentless, push-based architecture, demonstrating its reliance on standard SSH and WinRM for secure, low-overhead execution. It illustrates how declarative YAML playbooks drive idempotent configuration management and orchestration across hybrid infrastructure. Essential for Site Reliability Engineers, the text bridges foundational automation concepts with enterprise-scale Day-2 operational realities.
 #### Enterprise Tooling
 
   - **(2025)** [==chef.io==](https://www.chef.io) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Chef is an enterprise-grade infrastructure configuration management platform. While traditionally targeting virtual machines, it provides robust cloud-native toolkits to manage bare-metal nodes, OS compliance, and security policies.

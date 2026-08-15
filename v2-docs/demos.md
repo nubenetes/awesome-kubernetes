@@ -9,10 +9,6 @@ description: "Top Demos resources for 2026, AI-ranked: Developer Sandbox, SdkMan
 !!! info "Architectural Context"
     Detailed reference for DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts in the context of Architectural Foundations.
 
-## Standard Reference
-
-  - [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## AI And Machine Learning  Enterprise AI  Keynote Summaries
 
   - **(2026)** [**Catch up on 12 major I/O 2026 moments**](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: This video index serves as an essential summary of Google's major infrastructure and platform updates for developers tracking 2026 architectural trends.
@@ -431,6 +427,15 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Pipeline-as-code
 
   - **(2017)** [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical Jenkinsfile configuration by Kohsuke Kawaguchi showcasing early Declarative Pipeline patterns for Java projects. Illustrates stage definitions, testing cycles, and artifact archival within a self-hosted Jenkins master node environment.
+## Cloud Infrastructure
+
+### Kubernetes
+
+#### Azure Kubernetes Service
+
+##### CICD (3)
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — This guide details the configuration of a self-hosted GitHub Actions runner operating on an Azure Virtual Machine, leveraging system-assigned Managed Identities for passwordless authentication to Azure Kubernetes Service (AKS). By eliminating the need for long-lived static credentials, this architectural pattern significantly hardens the CI/CD pipeline's security posture and aligns with zero-trust principles. Platform engineers can utilize this approach to streamline deployment workflows while ensuring fine-grained, identity-based access control via Azure RBAC.
 ## Cloud Iot
 
 ### Digital Twins
@@ -449,7 +454,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 ### Continuous Integration
 
-#### CICD (3)
+#### CICD (4)
 
 ##### Red Hat Openshift
 
@@ -461,7 +466,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2020)** [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) <span class='md-tag md-tag--info'>⭐ 18</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0c5edf9a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 7 L 30 5 L 40 13 L 50 6" fill="none" stroke="url(#spark-grad-0c5edf9a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A minimal, highly instructional boilerplate repository demonstrating Open Policy Agent (OPA) integration inside Kubernetes using Gatekeeper. Helps bootstrap policy-as-code paradigms to secure deployments and enforce structural admission controls.
 ## Cloud Native Architecture
 
-### Kubernetes
+### Kubernetes (1)
 
 #### Fundamentals
 
@@ -625,7 +630,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2020)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement for Red Hat JBoss EAP Expansion Pack (XP) 1.0, enabling support for MicroProfile specifications on top of enterprise application servers. Live Grounding indicates JBoss EAP XP has become a core element for Red Hat customers modernization strategies, providing a bridge between traditional and cloud-native application patterns.
 ## Container Orchestration
 
-### Kubernetes (1)
+### Kubernetes (2)
 
 #### Application Migration (1)
 
@@ -668,7 +673,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 ### Azure Data Factory
 
-#### CICD (4)
+#### CICD (5)
 
   - **(2021)** [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://travelrasik.com/category/asia) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Multi-part technical walk-through detailing automated deployment patterns for Azure Data Factory (ADF) pipelines. Highlights ARM template generation, parameterization strategies, and continuous integration workflows via Azure DevOps.
 ## Data Storage
@@ -692,7 +697,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2020)** [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dives into Red Hat OpenShift's persistent volume (PV) framework, focusing on the Container Storage Interface (CSI). Explains dynamic storage allocation, access modes, and how to safely secure transaction-heavy datastores.
 ## DevOps
 
-### CICD (5)
+### CICD (6)
 
 #### Github Actions (2)
 
@@ -845,7 +850,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2020)** [aalmiray/q-cli](https://github.com/aalmiray/q-cli) <span class='md-tag md-tag--info'>⭐ 11</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0761b2c7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 3 L 30 9 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-0761b2c7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early community command-line interface helper for bootstrapping and managing Quarkus projects. While the official Quarkus CLI eventually integrated these capabilities, this repository represents a pivotal step in Quarkus DX history.
 ## Devsecops and Automation
 
-### CICD (6)
+### CICD (7)
 
 #### AWS and Jenkins
 
@@ -1030,7 +1035,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2021)** [kruyt.org: Running a mailserver in Kubernetes](https://kruyt.org/running-a-mailserver-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical deployment architectural guide detailing the orchestration of high-availability mail servers on Kubernetes. Analyzes the complexities of handling persistent storage for mail stores (via PV/PVC), dynamic IMAP/SMTP routing setups, and the crucial network security protocols (DKIM, SPF, DMARC) required to maintain high IP reputation inside cloud infrastructures.
 ## Infrastructure and DevOps
 
-### CICD (7)
+### CICD (8)
 
 #### Jenkins Tutorials
 
@@ -1227,7 +1232,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Masterclass
 
   - **(2023)** [**github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟**](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly comprehensive masterclass repository containing declarative HCL files and manifests to deploy AKS with Azure Disks, Azure Files, Application Gateway ingress, and active Azure AD integration.
-### Kubernetes (2)
+### Kubernetes (3)
 
 #### EKS Training
 
@@ -1239,7 +1244,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2021)** [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Delineates critical security configurations and hardening guidelines for Rancher Kubernetes Engine (RKE) deployments. Explores secure etcd database clustering, role-based access control policies, TLS configuration, and master node network isolation.
 ## Platform Architecture
 
-### CICD (8)
+### CICD (9)
 
 #### Legacy Jenkins
 
@@ -1261,7 +1266,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Red Hat Ecosystem
 
   - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
-### CICD (9)
+### CICD (10)
 
 #### AWS and Argo CD
 
