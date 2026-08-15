@@ -9,13 +9,18 @@ description: "Curated, AI-ranked AWS DevOps resources for the 2026 Cloud Native 
 !!! info "Architectural Context"
     Detailed reference for AWS DevOps. AWS CodePipeline in the context of Architectural Foundations.
 
-## Standard Reference
+## Cloud Infrastructure
 
-  - [Amazon DevOps Guru](https://aws.amazon.com/devops-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
+### Observability and Aiops
 
+#### AWS Cloud Operations
+
+##### Anomaly Detection
+
+  - **(2020)** [**Amazon DevOps Guru**](https://aws.amazon.com/devops-guru) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--primary'>[AWS]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MACHINE-LEARNING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — Amazon DevOps Guru is a fully managed AIOps service that applies pre-trained machine learning models to AWS telemetry, enabling automated anomaly detection and operational insight generation. By continuously analyzing metrics, events, and trace data from services like Amazon CloudWatch and AWS X-Ray, it establishes dynamic baselines to identify anomalous application behavior. The service significantly accelerates incident response for Site Reliability Engineering (SRE) teams by surfacing contextualized alerts that include correlated root causes, blast radius estimates, and actionable prescriptive remediation recommendations.
 
 ---
 💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Kubernetes Storage](./kubernetes-storage.md) | [IaC](./iac.md)
 

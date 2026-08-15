@@ -33,7 +33,7 @@ jobs:
       - name: Installation of Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth tenacity
+          pip install --no-cache-dir pydantic PyGithub aiohttp beautifulsoup4 httpx fake-useragent pytz python-dotenv twikit>=2.1.2 playwright playwright-stealth pyyaml tenacity
           # Playwright is required because Gemini evaluator or curator might use it indirectly, 
           # even if backup extraction doesn't strictly need it.
           playwright install chromium --with-deps

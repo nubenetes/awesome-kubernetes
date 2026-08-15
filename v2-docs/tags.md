@@ -12,11 +12,17 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 
 <div class="v2-tag-heatmap">
 <a class="v2-heat-tag v2-heat-3" href="#agnostic-content" title="61 resources">Agnostic<span class="v2-heat-n">61</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#aiops" title="1 resources">Aiops<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#aks" title="1 resources">Aks<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#ansible-content" title="3 resources">Ansible<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#any-content" title="1 resources">Any<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#apacheconf-content" title="1 resources">Apacheconf<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#api-first" title="1 resources">Api-First<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#architecture" title="1 resources">Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#asciidoc-content" title="1 resources">Asciidoc<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#automation" title="2 resources">Automation<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#awk-content" title="3 resources">Awk<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#aws" title="1 resources">Aws<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#ballerina-content" title="1 resources">Ballerina<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="#bash-content" title="110 resources">Bash<span class="v2-heat-n">110</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#bash-arm-content" title="1 resources">Bash/Arm<span class="v2-heat-n">1</span></a>
@@ -31,24 +37,29 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-3" href="#c-plus-plus-content" title="22 resources">C++<span class="v2-heat-n">22</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#c-bash-content" title="1 resources">C/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#c-c-plus-plus-content" title="1 resources">C/C++<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#case-study" title="117 resources">Case Study<span class="v2-heat-n">117</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#case-study" title="118 resources">Case Study<span class="v2-heat-n">118</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#ci-cd" title="3 resources">Ci-Cd<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="#community-tool" title="7512 resources">Community-Tool<span class="v2-heat-n">7512</span></a>
+<a class="v2-heat-tag v2-heat-6" href="#community-tool" title="7506 resources">Community-Tool<span class="v2-heat-n">7506</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="#de-facto-standard" title="1139 resources">De Facto Standard<span class="v2-heat-n">1139</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#dev-dx" title="1 resources">Dev-Dx<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#developer-experience" title="1 resources">Developer-Experience<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#docker-shell-content" title="1 resources">Docker/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#dockerfile-content" title="21 resources">Dockerfile<span class="v2-heat-n">21</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#dockerfile-shell-content" title="1 resources">Dockerfile/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#emerging" title="82 resources">Emerging<span class="v2-heat-n">82</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="1106 resources">Enterprise-Stable<span class="v2-heat-n">1106</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="1112 resources">Enterprise-Stable<span class="v2-heat-n">1112</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#german-content" title="1 resources">German<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#git" title="2 resources">Git<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#github-actions" title="1 resources">Github-Actions<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-5" href="#go-content" title="1048 resources">Go<span class="v2-heat-n">1048</span></a>
@@ -60,13 +71,14 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-3" href="#groovy-content" title="59 resources">Groovy<span class="v2-heat-n">59</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#guide" title="1082 resources">Guide<span class="v2-heat-n">1082</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#guide" title="1083 resources">Guide<span class="v2-heat-n">1083</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#haskell-content" title="4 resources">Haskell<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-4" href="#hcl-content" title="228 resources">Hcl<span class="v2-heat-n">228</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#hcl-packer-content" title="1 resources">Hcl/Packer<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#hcl-yaml-content" title="4 resources">Hcl/Yaml<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#helm-content" title="1 resources">Helm<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#html-content" title="36 resources">Html<span class="v2-heat-n">36</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#iam" title="1 resources">Iam<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#image-pdf-content" title="1 resources">Image/Pdf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#ini-content" title="1 resources">Ini<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#ini-yaml-content" title="1 resources">Ini/Yaml<span class="v2-heat-n">1</span></a>
@@ -82,22 +94,27 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-2" href="#jsonnet-content" title="5 resources">Jsonnet<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#kubernetes" title="1 resources">Kubernetes<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="#legacy" title="553 resources">Legacy<span class="v2-heat-n">553</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="#markdown-content" title="345 resources">Markdown<span class="v2-heat-n">345</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#merge-queue" title="1 resources">Merge-Queue<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#nginx-conf-content" title="1 resources">Nginx Conf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#nix-content" title="2 resources">Nix<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#node-js-content" title="3 resources">Node.Js<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#norwegian-content" title="1 resources">Norwegian<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#objective-c-content" title="1 resources">Objective-C<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#observability" title="1 resources">Observability<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#ocaml-content" title="1 resources">Ocaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#pdf-content" title="11 resources">Pdf<span class="v2-heat-n">11</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#perl-content" title="2 resources">Perl<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#php-content" title="4 resources">Php<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#platform-engineering" title="1 resources">Platform-Engineering<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#powershell-sql-content" title="1 resources">Powershell / Sql<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#powershell-content" title="67 resources">Powershell<span class="v2-heat-n">67</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#powershell-bash-content" title="1 resources">Powershell/Bash<span class="v2-heat-n">1</span></a>
@@ -116,10 +133,12 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-1" href="#r-content" title="1 resources">R<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#regex-content" title="1 resources">Regex<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#rego-content" title="10 resources">Rego<span class="v2-heat-n">10</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#release-engineering" title="1 resources">Release-Engineering<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#robot-content" title="1 resources">Robot<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#ruby-content" title="20 resources">Ruby<span class="v2-heat-n">20</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#rust-content" title="39 resources">Rust<span class="v2-heat-n">39</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#scala-content" title="4 resources">Scala<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#security" title="1 resources">Security<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#sed-content" title="1 resources">Sed<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#sentinel-content" title="1 resources">Sentinel<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="#shell-content" title="182 resources">Shell<span class="v2-heat-n">182</span></a>
@@ -131,6 +150,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-3" href="#sql-content" title="43 resources">Sql<span class="v2-heat-n">43</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#sql-typescript-content" title="1 resources">Sql/Typescript<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#sql-yaml-content" title="1 resources">Sql/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#sre" title="2 resources">SRE<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#terraform-content" title="8 resources">Terraform<span class="v2-heat-n">8</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#typescript-go-content" title="1 resources">Typescript / Go<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#typescript-rust-content" title="1 resources">Typescript / Rust<span class="v2-heat-n">1</span></a>
@@ -164,13 +184,17 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 ### Maturity and Quality
 
 1. [De Facto Standard](#de-facto-standard) (1139 resources)
-1. [Enterprise-Stable](#enterprise-stable) (1106 resources)
+1. [Enterprise-Stable](#enterprise-stable) (1112 resources)
 1. [Emerging](#emerging) (82 resources)
-1. [Guide](#guide) (1082 resources)
-1. [Case Study](#case-study) (117 resources)
-1. [Community-Tool](#community-tool) (7512 resources)
+1. [Guide](#guide) (1083 resources)
+1. [Case Study](#case-study) (118 resources)
+1. [Community-Tool](#community-tool) (7506 resources)
 1. [Legacy](#legacy) (553 resources)
 1. [Spanish Content](#spanish-content) (208 resources)
+
+### Technical Domains
+
+[Ci-Cd](#ci-cd) (3) · [Automation](#automation) (2) · [Git](#git) (2) · [SRE](#sre) (2) · [Aiops](#aiops) (1) · [Aks](#aks) (1) · [Api-First](#api-first) (1) · [Architecture](#architecture) (1) · [Aws](#aws) (1) · [Dev-Dx](#dev-dx) (1) · [Developer-Experience](#developer-experience) (1) · [Github-Actions](#github-actions) (1) · [Iam](#iam) (1) · [Kubernetes](#kubernetes) (1) · [Machine-Learning](#machine-learning) (1) · [Merge-Queue](#merge-queue) (1) · [Observability](#observability) (1) · [Platform-Engineering](#platform-engineering) (1) · [Release-Engineering](#release-engineering) (1) · [Security](#security) (1)
 
 ### Language and Format
 
@@ -296,7 +320,7 @@ Resources indexed by their primary source language or document format.
 ## Enterprise-Stable {#enterprise-stable}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1106 resources under Enterprise-Stable</summary>
+<summary>Click to view top 100 of 1112 resources under Enterprise-Stable</summary>
 
   - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./docker.md)*
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./cicd.md)*
@@ -399,7 +423,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**tecmint.com: How to Install htop on CentOS 8**](https://www.tecmint.com/install-htop-on-centos-8) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./linux.md)*
   - **(2026)** [**tecmint.com: How to Install and Configure ‘Collectd’ and ‘Collectd-Web’ to Monitor Server Resources in Linux**](https://www.tecmint.com/install-collectd-and-collectd-web-to-monitor-server-resources-in-linux) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./linux.md)*
 
-*... and 1006 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 1012 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -503,7 +527,7 @@ Resources indexed by their primary source language or document format.
 ## Guide {#guide}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1082 resources under Guide</summary>
+<summary>Click to view top 100 of 1083 resources under Guide</summary>
 
   - **(2026)** [==bregman-arie/devops-exercises 🌟==](https://github.com/bregman-arie/devops-exercises) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[PYTHON/YAML CONTENT]</span> — *Go to [Section](./demos.md)*
   - **(2026)** [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners 🌟🌟🌟==](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-tutorials.md)*
@@ -599,14 +623,14 @@ Resources indexed by their primary source language or document format.
   - **(2022)** [**blog.kubesimplify.com: DIY: How To Build A Kubernetes Policy Engine**](https://blog.kubesimplify.com/diy-how-to-build-a-kubernetes-policy-engine) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes.md)*
   - **(2022)** [**cloud.google.com: kubernetes comic**](https://cloud.google.com/kubernetes-engine/kubernetes-comic) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-tutorials.md)*
   - **(2022)** [**openshift.com: OpenShift Authentication Integration with ArgoCD**](https://www.redhat.com/en/blog/openshift-authentication-integration-with-argocd) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./ocp3.md)*
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
   - **(2022)** [**realpython.com: Machine Learning With Python 🌟🌟🌟**](https://realpython.com/learning-paths/machine-learning-python) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./python.md)*
   - **(2022)** [**piotrminkowski.com: Manage Multiple Kubernetes Clusters with ArgoCD 🌟**](https://piotrminkowski.com/2022/12/09/manage-multiple-kubernetes-clusters-with-argocd) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./argo.md)*
   - **(2022)** [**openshift.com: Getting Started with ApplicationSets**](https://www.redhat.com/en/blog/getting-started-with-applicationsets) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./argo.md)*
   - **(2022)** [**infracloud.io: Progressive Delivery with Argo Rollouts : Blue-Green Deployment**](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-blue-green-deployment) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./argo.md)*
   - **(2022)** [**infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment**](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./argo.md)*
-  - **(2022)** [**codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts**](https://octopus.com/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./argo.md)*
 
-*... and 982 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 983 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -616,7 +640,7 @@ Resources indexed by their primary source language or document format.
 ## Case Study {#case-study}
 
 <details markdown="1">
-<summary>Click to view top 100 of 117 resources under Case Study</summary>
+<summary>Click to view top 100 of 118 resources under Case Study</summary>
 
   - **(2023)** [==engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive==](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2023)** [==quarkus.io: VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus==](https://quarkus.io/blog/decathlon-user-story) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./customer.md)*
@@ -641,6 +665,7 @@ Resources indexed by their primary source language or document format.
   - **(2022)** [**api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?**](https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./kubernetes-networking.md)*
   - **(2022)** [**thenewstack.io: How Daily.Dev Built a Low-Budget Serverless Scraping Pipeline for Online Articles**](https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./serverless.md)*
   - **(2021)** [**cloud.redhat.com: Global Load Balancer Approaches 🌟**](https://www.redhat.com/en/blog/global-load-balancer-approaches) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./kubernetes-networking.md)*
+  - **(2020)** [**ansible.com: Ansible whitepaper**](https://www.ansible.com/resources/whitepapers/ansible-in-depth) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./ansible.md)*
   - **(2020)** [**dashbird.io: Serverless Case Study – Coca-Cola**](https://dashbird.io/blog/serverless-case-study-coca-cola) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./serverless.md)*
   - **(2019)** [**Whitepaper: Migrating Your Databases to AWS**](https://aws.amazon.com/dms/?audit=2019q1) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./aws.md)*
   - **(2016)** [**nylas.com: Profiling Python in Production**](https://www.nylas.com/blog/performance) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./python.md)*
@@ -717,9 +742,8 @@ Resources indexed by their primary source language or document format.
   - **(2021)** [analyticsindiamag.com: How Uber is Leveraging Apache Kafka For More Than 300 Micro Services](https://analyticsindiamag.com/how-uber-is-leveraging-apache-kafka-for-more-than-300-micro-services) <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./message-queue.md)*
   - **(2021)** [slack.engineering: Building Self-driving Kafka clusters using open source components](https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components) <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./message-queue.md)*
   - **(2021)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices) <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./postman.md)*
-  - **(2020)** [Cloud-Native Development Survey Details Kubernetes, Serverless Data](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx) <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes.md)*
 
-*... and 17 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 18 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -729,7 +753,7 @@ Resources indexed by their primary source language or document format.
 ## Community-Tool {#community-tool}
 
 <details markdown="1">
-<summary>Click to view top 100 of 7512 resources under Community-Tool</summary>
+<summary>Click to view top 100 of 7506 resources under Community-Tool</summary>
 
   - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./gitops.md)*
@@ -832,7 +856,7 @@ Resources indexed by their primary source language or document format.
   - **(2025)** [SQL Police Department](https://sqlpd.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./elearning.md)*
   - **(2024)** [shipwright-io/build: shipwright](https://github.com/shipwright-io/build) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
 
-*... and 7412 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 7406 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -1138,6 +1162,32 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Aiops {#aiops}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Aiops</summary>
+
+  - **(2020)** [**Amazon DevOps Guru**](https://aws.amazon.com/devops-guru) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--primary'>[AWS]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MACHINE-LEARNING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./aws.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Aks {#aks}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Aks</summary>
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Ansible Content {#ansible-content}
 
 <details markdown="1">
@@ -1179,12 +1229,52 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Api-First {#api-first}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Api-First</summary>
+
+  - **(2023)** [**thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs**](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-FIRST]</span> <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--primary'>[DEVELOPER-EXPERIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./devops.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Architecture {#architecture}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Architecture</summary>
+
+  - **(2023)** [**thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs**](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-FIRST]</span> <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--primary'>[DEVELOPER-EXPERIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./devops.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Asciidoc Content {#asciidoc-content}
 
 <details markdown="1">
 <summary>Click to view 1 resources under Asciidoc Content</summary>
 
   - **(2022)** [gitlab.com/redhatdemocentral: Healthcare](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/healthcare.adoc) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[ASCIIDOC CONTENT]</span> — *Go to [Section](./demos.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Automation {#automation}
+
+<details markdown="1">
+<summary>Click to view 2 resources under Automation</summary>
+
+  - **(2017)** [**Auto-merge between release branches**](https://gitlab.com/gitlab-org/gitlab/-/issues/2785) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--primary'>[DEV-DX]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[RELEASE-ENGINEERING]</span> — *Go to [Section](./git.md)*
+  - **(2017)** [**Provide merge bot functionality**](https://gitlab.com/gitlab-org/gitlab/-/issues/14595) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[MERGE-QUEUE]</span> — *Go to [Section](./git.md)*
 
 </details>
 
@@ -1200,6 +1290,19 @@ Resources indexed by their primary source language or document format.
   - **(2004)** [**pement.org: Handy one-line scripts for AWK**](https://www.pement.org/awk/awk1line.txt) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[AWK CONTENT]</span> — *Go to [Section](./linux.md)*
   - **(2021)** [thenewstack.io: An Introduction to AWK](https://thenewstack.io/an-introduction-to-awk) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[AWK CONTENT]</span> — *Go to [Section](./linux.md)*
   - **(2020)** [igoroseledko.com: Awk & sed Snippets for SysAdmins](https://www.igoroseledko.com/awk-sed-snippets-for-sysadmins) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[AWK CONTENT]</span> — *Go to [Section](./linux.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Aws {#aws}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Aws</summary>
+
+  - **(2020)** [**Amazon DevOps Guru**](https://aws.amazon.com/devops-guru) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--primary'>[AWS]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MACHINE-LEARNING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./aws.md)*
 
 </details>
 
@@ -1598,6 +1701,21 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Ci-Cd {#ci-cd}
+
+<details markdown="1">
+<summary>Click to view 3 resources under Ci-Cd</summary>
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
+  - **(2017)** [**Auto-merge between release branches**](https://gitlab.com/gitlab-org/gitlab/-/issues/2785) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--primary'>[DEV-DX]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[RELEASE-ENGINEERING]</span> — *Go to [Section](./git.md)*
+  - **(2017)** [**Provide merge bot functionality**](https://gitlab.com/gitlab-org/gitlab/-/issues/14595) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[MERGE-QUEUE]</span> — *Go to [Section](./git.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Clojure Content {#clojure-content}
 
 <details markdown="1">
@@ -1642,6 +1760,32 @@ Resources indexed by their primary source language or document format.
 <summary>Click to view 1 resources under Dart Content</summary>
 
   - **(2025)** [**kubenav**](https://github.com/kubenav/kubenav) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[DART CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Dev-Dx {#dev-dx}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Dev-Dx</summary>
+
+  - **(2017)** [**Auto-merge between release branches**](https://gitlab.com/gitlab-org/gitlab/-/issues/2785) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--primary'>[DEV-DX]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[RELEASE-ENGINEERING]</span> — *Go to [Section](./git.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Developer-Experience {#developer-experience}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Developer-Experience</summary>
+
+  - **(2023)** [**thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs**](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-FIRST]</span> <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--primary'>[DEVELOPER-EXPERIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./devops.md)*
 
 </details>
 
@@ -1781,6 +1925,33 @@ Resources indexed by their primary source language or document format.
 <summary>Click to view 1 resources under German Content</summary>
 
   - **(2023)** [**deloitte.com/de: EMEA Center of Excellence for Application Modernization and Migration**](https://www.deloitte.com/de/de/services/consulting/services/center-of-excellence-application-modernization.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GERMAN CONTENT]</span> — *Go to [Section](./introduction.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Github-Actions {#github-actions}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Github-Actions</summary>
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Git {#git}
+
+<details markdown="1">
+<summary>Click to view 2 resources under Git</summary>
+
+  - **(2017)** [**Auto-merge between release branches**](https://gitlab.com/gitlab-org/gitlab/-/issues/2785) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--primary'>[DEV-DX]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[RELEASE-ENGINEERING]</span> — *Go to [Section](./git.md)*
+  - **(2017)** [**Provide merge bot functionality**](https://gitlab.com/gitlab-org/gitlab/-/issues/14595) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[MERGE-QUEUE]</span> — *Go to [Section](./git.md)*
 
 </details>
 
@@ -2312,6 +2483,19 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Iam {#iam}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Iam</summary>
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Image/Pdf Content {#image-pdf-content}
 
 <details markdown="1">
@@ -2741,6 +2925,19 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Kubernetes {#kubernetes}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Kubernetes</summary>
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Lua Content {#lua-content}
 
 <details markdown="1">
@@ -2748,6 +2945,19 @@ Resources indexed by their primary source language or document format.
 
   - **(2026)** [==apisix==](https://github.com/apache/apisix) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> — *Go to [Section](./developerportals.md)*
   - **(2022)** [redhat.com: 5 scripts for getting started with the Nmap Scripting Engine](https://www.redhat.com/en/blog/nmap-scripting-engine) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> — *Go to [Section](./linux.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Machine-Learning {#machine-learning}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Machine-Learning</summary>
+
+  - **(2020)** [**Amazon DevOps Guru**](https://aws.amazon.com/devops-guru) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--primary'>[AWS]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MACHINE-LEARNING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./aws.md)*
 
 </details>
 
@@ -2907,6 +3117,19 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Merge-Queue {#merge-queue}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Merge-Queue</summary>
+
+  - **(2017)** [**Provide merge bot functionality**](https://gitlab.com/gitlab-org/gitlab/-/issues/14595) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[MERGE-QUEUE]</span> — *Go to [Section](./git.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Multi Content {#multi-content}
 
 <details markdown="1">
@@ -2989,6 +3212,19 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Observability {#observability}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Observability</summary>
+
+  - **(2020)** [**Amazon DevOps Guru**](https://aws.amazon.com/devops-guru) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--primary'>[AWS]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MACHINE-LEARNING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./aws.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Ocaml Content {#ocaml-content}
 
 <details markdown="1">
@@ -3048,6 +3284,19 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [coolify.io](https://coolify.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> — *Go to [Section](./kubernetes-alternatives.md)*
   - **(2026)** [Wordpress P2](https://wordpress.com/p2) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> — *Go to [Section](./workfromhome.md)*
   - **(2021)** [laravel-news.com: Generate GitHub Actions Config for Laravel Projects with Ghygen](https://laravel-news.com/generate-github-actions-config-for-laravel-projects-with-ghygen) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> — *Go to [Section](./git.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Platform-Engineering {#platform-engineering}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Platform-Engineering</summary>
+
+  - **(2023)** [**thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs**](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-FIRST]</span> <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--primary'>[DEVELOPER-EXPERIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./devops.md)*
 
 </details>
 
@@ -3471,6 +3720,19 @@ Resources indexed by their primary source language or document format.
 
 <div class="v2-tag-section" markdown="1">
 
+## Release-Engineering {#release-engineering}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Release-Engineering</summary>
+
+  - **(2017)** [**Auto-merge between release branches**](https://gitlab.com/gitlab-org/gitlab/-/issues/2785) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--primary'>[DEV-DX]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[RELEASE-ENGINEERING]</span> — *Go to [Section](./git.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
 ## Robot Content {#robot-content}
 
 <details markdown="1">
@@ -3576,6 +3838,19 @@ Resources indexed by their primary source language or document format.
   - **(2016)** [**Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming**](https://aws.amazon.com/blogs/big-data/querying-amazon-kinesis-streams-directly-with-sql-and-spark-streaming) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> — *Go to [Section](./aws.md)*
   - **(2025)** [github.com/DataCater/datacater (real-time, cloud-native data pipeline platform)](https://github.com/DataCater/datacater) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2025)** [gatling.io](https://gatling.io) <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> — *Go to [Section](./performance-testing-with-jenkins-and-jmeter.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## Security {#security}
+
+<details markdown="1">
+<summary>Click to view 1 resources under Security</summary>
+
+  - **(2022)** [**trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions' Self-Hosted Runner 🌟**](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AKS]</span> <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GITHUB-ACTIONS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAM]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — *Go to [Section](./demos.md)*
 
 </details>
 
@@ -3850,6 +4125,20 @@ Resources indexed by their primary source language or document format.
 <summary>Click to view 1 resources under Sql/Yaml Content</summary>
 
   - **(2023)** [techcommunity.microsoft.com: SQL Server containers on Kubernetes with S3-compatible object storage - Getting started](https://techcommunity.microsoft.com/blog/sqlserver/sql-server-containers-on-kubernetes-with-s3-compatible-object-storage---getting-/3717003) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SQL/YAML CONTENT]</span> — *Go to [Section](./managed-kubernetes-in-public-cloud.md)*
+
+</details>
+
+</div>
+
+<div class="v2-tag-section" markdown="1">
+
+## SRE {#sre}
+
+<details markdown="1">
+<summary>Click to view 2 resources under SRE</summary>
+
+  - **(2023)** [**thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs**](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-FIRST]</span> <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--primary'>[DEVELOPER-EXPERIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./devops.md)*
+  - **(2020)** [**Amazon DevOps Guru**](https://aws.amazon.com/devops-guru) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--primary'>[AWS]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MACHINE-LEARNING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — *Go to [Section](./aws.md)*
 
 </details>
 

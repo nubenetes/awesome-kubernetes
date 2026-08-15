@@ -9,10 +9,6 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 !!! info "Architectural Context"
     Detailed reference for DevOps in the context of Platform & Site Reliability.
 
-## Standard Reference
-
-  - [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
-
 ## AI and Agents
 
 ### Environments
@@ -385,6 +381,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### DORA Keys
 
   - **(2024)** [dynatrace.com: 9 key DevOps metrics for success - What are the four main DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the industry-standard DORA metrics (Deployment Frequency, Lead Time for Changes, Change Failure Rate, and MTTR) alongside advanced instrumentation models. Curator observations position these four markers as the absolute benchmark of elite delivery organizations. Live engineering practices emphasize that automating the capture of this telemetry is essential to establishing real-time value-stream visibility.
+### Platform Engineering
+
+#### Internal Developer Platforms
+
+##### Strategy and Evolution
+
+  - **(2023)** [**thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and' APIs**](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-FIRST]</span> <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--primary'>[DEVELOPER-EXPERIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — This piece delineates the evolution of platform engineering toward a developer-first paradigm, focusing on API-driven Internal Developer Platforms (IDPs). By treating the internal platform as a discrete product, organizations can abstract underlying infrastructure complexities and lower the cognitive load for feature teams. The methodology successfully bridges SRE reliability constraints with rapid continuous integration, establishing a robust, self-service operational model that heavily optimizes the developer experience.
 ### Professional Development (1)
 
 #### Learning Methodologies
@@ -416,7 +419,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### DevOps Bottlenecks
 
   - **(2023)** [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/software-services/what-s-holding-devops-back-) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Diagnostic deep dive into the common bottlenecks holding legacy organizations back from true DevOps adoption. Identifies organizational silos, tool fatigue, lack of training, and legacy governance frameworks as persistent pain points.
-### Platform Engineering
+### Platform Engineering (1)
 
 #### Platformops
 
@@ -518,7 +521,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Market Evolution
 
   - **(2021)** [devops.com: DevOps Trends to Watch in 2021 🌟](https://devops.com/devops-trends-to-watch-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights dominant technological vectors including standardizing on-demand GitOps continuous deployment frameworks, native policy-as-code automation engines, multi-cluster federated networks, and progressive delivery orchestrators.
-#### Platform Engineering (1)
+#### Platform Engineering (2)
 
   - **(2021)** [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the future of software delivery, highlighting platforms that reduce developer friction. Discusses using Kubernetes operators, declarative configurations, and AI-assisted deployment systems to handle hybrid-cloud setups.
 ### Metrics and Assessment
@@ -537,7 +540,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Culture (2)
 
   - **(2021)** [devops.com: Yeah, You’re Doing DevOps](https://devops.com/yeah-youre-doing-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical assessment of core delivery principles. Defines real DevOps maturity through deployment feedback speeds, shared code testing responsibilities, and team collaboration setups, rather than just using automation tools.
-### Platform Engineering (2)
+### Platform Engineering (3)
 
 #### Organizational Culture
 
@@ -764,7 +767,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### DevOps Integration
 
   - **(2021)** [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://cloudnativenow.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines nine architecture pillars that transform Kubernetes into a standard engine for continuous application lifecycle management. Highlights container orchestrations, configuration schemas, secret management, persistent state storage strategies, and unified network policy definitions.
-## Platform Engineering (3)
+## Platform Engineering (4)
 
 ### AI Platform
 
@@ -883,7 +886,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Cloud Architecture (1)
 
   - **(2023)** [dev.to: Platform Engineering and Internal Developer Platform (IDP)](https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores AWS-specific implementations and patterns of Platform Engineering and IDPs. Details the boundaries between application code, infrastructure as code (IaC), and platform orchestrators to create repeatable golden paths for development teams.
-### Internal Developer Platforms
+### Internal Developer Platforms (1)
 
 #### Architecture (4)
 

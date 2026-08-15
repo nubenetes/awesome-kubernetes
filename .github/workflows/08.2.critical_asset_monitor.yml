@@ -27,7 +27,7 @@ jobs:
       - name: Dependencies Installation
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir httpx PyYAML PyGithub beautifulsoup4 tenacity
+          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity beautifulsoup4
           
       - name: Critical Health Audit Execution
         env:
@@ -41,7 +41,7 @@ jobs:
           from src.gitops_manager import RepositoryController
 
           async def check():
-              with open('data/inventory.yaml', 'r') as f:
+              with open('data/inventory.yaml', 'r', encoding='utf-8') as f:
                   inv = yaml.safe_load(f) or {}
               
               critical_links = [u for u, d in inv.items() if any(t in ['[DE FACTO STANDARD]', '[ENTERPRISE-STABLE]'] for t in d.get('tags', []))]
@@ -63,16 +63,16 @@ jobs:
                       inv[url]['status'] = 'offline'
                       inv[url]['last_offline'] = datetime.now().isoformat()
                   
-                  with open('data/inventory.yaml', 'w') as f:
+                  with open('data/inventory.yaml', 'w', encoding='utf-8') as f:
                       yaml.dump(inv, f, sort_keys=False, allow_unicode=True)
                   
-                  with open('data/inventory.yaml', 'r') as f:
+                  with open('data/inventory.yaml', 'r', encoding='utf-8') as f:
                       updated_inv = f.read()
                   
                   # Create PR/Issue
                   git = RepositoryController(os.environ['GH_TOKEN'], 'nubenetes/awesome-kubernetes')
                   body = '### 🚨 Critical Assets Offline\n\n' + '\n'.join([f'- {u}' for u in dead])
-                  git.apply_multi_file_changes({'data/inventory.yaml': updated_inv}, {'removals': len(dead)})
+                  git.apply_multi_file_changes({'data/inventory.yaml': updated_inv}, {'removals': len(dead)}, safety_report=body)
                   print('[OK] Inventory updated and PR created.')
               else:
                   print('[OK] All critical assets are online.')
