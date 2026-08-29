@@ -15,7 +15,6 @@ search:
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
     | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
-    | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
 
 === "Last 6 Months"
 
@@ -38,16 +37,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Gaia-X.eu](https://gaia-x.eu) | 🔴 critical | Establishes the European framework for federated data sovereignty, cloud interoperability, and hyperscaler independence across EU enterprise architectures. |
-    | 2026-05-17 | [justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)](https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper) | 🟡 high | Demonstrates practical container supply chain security by combining CNCF Cosign image signing with OPA Gatekeeper policy enforcement. |
-    | 2026-05-17 | [versusmind.eu: Dapr - a serverless runtime for distributed applications' 🌟](https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications) | 🟡 high | Explores the Dapr distributed application runtime for abstracting cloud-native microservice integration and state management. |
-    | 2026-06-01 | [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) | 🟡 high | Delivers a comprehensive open-source academic curriculum for mastering Kubernetes orchestration, storage, and CI/CD pipelines. |
-    | 2026-06-01 | [http3-explained.haxx.se: HTTP/3 explained 🌟](https://http3-explained.haxx.se) | 🟡 high | Provides an authoritative engineering manual for implementing HTTP/3 and QUIC protocols in modern cloud networking stacks. |
-    | 2026-05-17 | [augmentedmind.de: Docker optimization guide: the 12 best tips to optimize' Docker image security](https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security) | 🟡 high | Offers essential security best practices for hardening container images against modern software supply chain vulnerabilities. |
-    | 2026-05-17 | [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1) | 🔵 medium | Showcases lightweight Kubernetes local development workflows leveraging K3s and k3d to accelerate testing feedback loops. |
-    | 2026-05-17 | [blog.knell.it: Making your Helm Chart observable for Prometheus](https://blog.knell.it/making-your-helm-chart-observable-for-prometheus) | 🔵 medium | Details how to build built-in Prometheus observability and scraping configurations directly into Kubernetes Helm charts. |
-    | 2026-05-17 | [Templating on OpenShift: should I use Helm templates or OpenShift templates?' 🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates) | 🔵 medium | Presents an architectural comparison to help teams choose between Helm charts and OpenShift templates for enterprise deployments. |
-    | 2026-06-14 | [medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1 \|' Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1) | 🔵 medium | Guides the deployment of enterprise-grade secret management infrastructure inside Kubernetes using HashiCorp Vault and Raft storage. |
+    | 2026-06-01 | [Gaia-X.eu](https://gaia-x.eu) | 🔴 critical | Gaia-X defines the strategic architectural framework for federated cloud infrastructure and data sovereignty across Europe. |
+    | 2026-06-01 | [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) | 🟡 high | Provides official government policy and technical blueprints aimed at reducing hyperscaler lock-in across European enterprise cloud deployments. |
+    | 2026-06-01 | [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) | 🟡 high | A widely adopted, high-quality open-source academic curriculum from the University of Helsinki training engineers in cloud-native operational practices. |
+    | 2026-06-01 | [http3-explained.haxx.se: HTTP/3 explained 🌟](https://http3-explained.haxx.se) | 🟡 high | Serves as the definitive engineering manual on HTTP/3 and QUIC, fundamentally impacting modern cloud-native edge and transport networking. |
+    | 2026-06-14 | [medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1 \|' Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1) | 🟡 high | Demonstrates production-ready patterns for deploying and managing enterprise secret infrastructure inside Kubernetes using HashiCorp Vault. |
+    | 2026-06-14 | [ruudvanasseldonk.com: The yaml document from hell](https://ruuda.nl/2023/the-yaml-document-from-hell) | 🔵 medium | Documents critical syntactical edge cases in YAML specifications that frequently cause silent misconfigurations in Kubernetes manifests. |
+    | 2026-06-01 | [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html) | 🔵 medium | Outlines concrete architectural patterns for securing CI/CD pipelines interfacing directly with Kubernetes cluster APIs. |
+    | 2026-06-01 | [thomasmaurer.ch](https://www.thomasmaurer.ch) | 🔵 medium | Delivers practical architectural insights into Azure Arc and hybrid cloud governance strategies widely adopted in European enterprises. |
+    | 2026-06-01 | [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) | 🔵 medium | Introduces an AST-based structural diffing paradigm that improves code review precision across complex cloud-native codebases. |
+    | 2026-05-17 | [kateyes.co.uk](https://www.kateyes.co.uk) | 🔵 medium | Provides platform teams with lightweight real-time cluster visualization and operational diagnostics without heavy observability agent overhead. |
 
 === "Last 6 Months"
 
@@ -86,16 +85,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España](https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a) | 🔴 critical | The launch of a local AWS region fundamentally accelerates cloud-native infrastructure adoption, data sovereignty compliance, and latency optimization for Spanish enterprise workloads. |
-    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🟡 high | Highlights the critical necessity of multi-region resilience and high-availability architecture in cloud-native ecosystem designs. |
-    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🟡 high | Provides essential technical guidance for Linux performance tuning, storage optimization, and low-level system administration in enterprise environments. |
-    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🟡 high | Offers vital strategic insights on enterprise AI adoption, demonstrating that incremental cloud-native rollouts yield far higher success rates than monolithic transformations. |
-    | 2026-06-14 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) | 🔵 medium | Addresses key operational challenges in scaling external DevSecOps capabilities and eliminating knowledge silos across enterprise IT teams. |
-    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Showcases modern enterprise digital transformation through scalable B2B API marketplaces for automated service integrations. |
-    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🔵 medium | Delivers production-ready PSD2 financial API infrastructure enabling secure, compliant microservices integration for fintech platforms. |
-    | 2026-05-17 | [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains) | 🔵 medium | Introduces remote-engine execution and distributed collaboration tooling designed for cloud-centric developer workflows. |
-    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Strengthens the local engineering pipeline by providing an up-to-date, localized technical foundation in Python programming. |
-    | 2026-05-17 | [Túneles SSH](https://www.atareao.es/ubuntu/tuneles-ssh) | 🔵 medium | Details fundamental SSH tunneling and secure networking mechanisms essential for managing remote cloud infrastructure. |
+    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🟡 high | Highlights the operational risks of hyperscaler lock-in and underscores the architectural necessity of multi-region resilience and cloud-neutral strategies. |
+    | 2026-06-14 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) | 🟡 high | Addresses critical organizational bottlenecks in scaling DevSecOps and maintaining technical sovereignty within Spanish enterprise IT ecosystems. |
+    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🟡 high | Provides essential low-level Linux performance tuning and systems administration knowledge foundational to operating production cloud infrastructure. |
+    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🟡 high | Demonstrates production-ready enterprise API design and compliance architectures within the Spanish banking and fintech sector. |
+    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🔵 medium | Offers pragmatic strategic guidance on avoiding high-risk, oversized enterprise AI deployments in favor of iterative platform adoption. |
+    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Showcases modernized API-first enterprise integration architecture within the Spanish insurance sector. |
+    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Expands local developer onboarding and foundational software engineering skills across the Spanish-speaking technical community. |
+    | 2026-06-14 | [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es) | 🔵 medium | Analyzes tech talent retention and workplace factors impacting engineering team stability across Spanish organizations. |
+    | 2026-06-14 | [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://www.vogue.es/lideres) | 🔵 medium | Discusses engineering management evolution and leadership practices necessary for reducing developer burnout and turnover. |
+    | 2026-06-01 | [freelance.es](https://freelance.es) | 🔵 medium | Provides operational and legal support structures for independent technical contractors navigating the Spanish market. |
 
 === "Last 6 Months"
 
@@ -134,16 +133,7 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) | 🟡 high | Provides a critical migration guide from deprecated Kubernetes External Secrets to modern paradigms like External Secrets Operator and Secrets Store CSI Driver. |
-    | 2026-05-17 | [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry) | 🟡 high | Addresses production cloud native observability by detailing Prometheus Operator deployment in private registry environments using Helm 3. |
-    | 2026-05-17 | [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how) | 🟡 high | Explains foundational GitOps principles essential for automated, declarative infrastructure management and deployment in Kubernetes. |
-    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🔵 medium | Translates service taxonomies across public cloud providers to help architects design resilient multi-cloud container platforms. |
-    | 2026-05-17 | [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus) | 🔵 medium | Delivers an operational overview of Prometheus, the CNCF standard for cloud native metrics and alerting. |
-    | 2026-05-17 | [ishantgaurav.in: Kubernetes – Sidecar Container Pattern](https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern) | 🔵 medium | Details the sidecar pattern required for augmenting workload capabilities such as proxying, logging, and security in Kubernetes. |
-    | 2026-05-17 | [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins) | 🔵 medium | Demonstrates how to leverage dynamic Kubernetes worker nodes for running scalable parallel CI/CD build pipelines. |
-    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations](https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations) | 🔵 medium | Covers advanced scheduling primitives using taints and tolerations to isolate enterprise workloads on dedicated node pools. |
-    | 2026-05-17 | [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs) | 🔵 medium | Focuses on essential container logging practices necessary for maintainable Kubernetes cluster operations. |
-    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet](https://blog.learncodeonline.in/kubernetes-scheduling-daemonset) | 🔵 medium | Explores DaemonSets for running node-level system daemons across all Kubernetes cluster nodes automatically. |
+    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🔵 medium | A comprehensive side-by-side taxonomy mapping tool designed to translate service names across multiple major cloud providers. Extremely useful for engineering teams designing multi-cloud system archit |
 
 === "Last 6 Months"
 

@@ -49,6 +49,7 @@
 - [Metal Kubes](https://github.com/shank-git/metal-kubes) Create OnPrem Kubernetes Cluster. Install Kubernetes Cluster on Bare Metal Machines
 - [blog.flant.com: Small Kubernetes for your local experiments: k0s, MicroK8s, kind, k3s, and Minikube](https://palark.com/blog/small-local-kubernetes-comparison)
 - [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) Playground for setting up small Kubernetes cluster on some **vagrant** boxes and practice with various examples to get familiar with K8s.
+- [nodejs-k8s](https://github.com/Megapixel99/nodejs-k8s) A reimplementation of the core Kubernetes APIs (pods, deployments, replica sets, services, jobs, namespaces and configmaps) in Node.js, serving the same HTTP/JSON and protobuf surface as a real kube-apiserver so that an unmodified **kubectl** talks to it directly with standard Kubernetes YAML. Objects are persisted in MongoDB instead of etcd, with writes ordered through a Raft log behind an etcd-compatible store, and pods are run as sibling Docker containers. Useful as a lightweight API server for learning kubectl and for exercising operators and controllers without provisioning a cluster.
 
 ## Kubernetes Based Development. Kubernetes Development Tools
 
