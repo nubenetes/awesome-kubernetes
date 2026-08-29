@@ -137,7 +137,6 @@
     - This article delves into the issue of "Invisible OOM Kills" in Kubernetes, where child processes getting OOM Killed go unnoticed.
     - An “Invisible” OOM Kill occurs when a child process in a container ( any process which is not the main process, PID 1 ) gets OOM Killed. In that scenario, the OOM Kill that occurred is “invisible” to Kubernetes, and as users we wouldn’t be aware of it.
     - The Solution: The entire scenario changes with Kubernetes version 1.28. Starting from that version, Kubernetes enables, by default, a cgroup v2 feature known as “cgroup grouping.”
-- [github.com/inevolin: Kubernetes CPU limits: the mistake, the why, and proof](https://github.com/inevolin/k8s-cpu-limits-analyzed) - A reproducible benchmark showing how CPU limits cause throttling and can also lead to OOM kills.
 
 ## Pause Container
 

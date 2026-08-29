@@ -13,15 +13,15 @@
       <guid isPermaLink="true">https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Anthropic's official CLI introduces autonomous agentic software engineering directly into terminal-based developer environments.</description>
+      <description>[CRITICAL] Anthropic's official CLI agent sets a benchmark for autonomous terminal-based codebase refactoring and software engineering.</description>
     </item>
     <item>
-      <title>Project Calico 🌟</title>
-      <link>https://www.tigera.io/project-calico</link>
-      <guid isPermaLink="true">https://www.tigera.io/project-calico</guid>
+      <title>cursor.com: Cursor AI Code Editor</title>
+      <link>https://cursor.com</link>
+      <guid isPermaLink="true">https://cursor.com</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Calico is an industry-standard networking and network security solution providing high-performance eBPF-driven policy enforcement.</description>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] Acts as the flagship AI-native development environment driving broad enterprise transition to agentic programming workflows.</description>
     </item>
     <item>
       <title>Crossplane</title>
@@ -29,7 +29,7 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane to manage multi-cloud infrastructure declaratively.</description>
+      <description>[CRITICAL] Crossplane revolutionizes infrastructure management by transforming Kubernetes into a universal, declarative multi-cloud control plane.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -37,7 +37,7 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] NVIDIA's device plugin is the essential industry standard for orchestrating hardware-accelerated AI/ML workloads on Kubernetes.</description>
+      <description>[CRITICAL] It serves as the essential foundational layer for scheduling and running modern AI/ML and GPU-accelerated workloads on Kubernetes.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -45,7 +45,7 @@
       <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Provides the foundational cloud native standard for running memory-efficient, high-throughput LLM inference on Kubernetes.</description>
+      <description>[CRITICAL] Defines the production standard for hosting high-performance, memory-efficient LLM inference workloads on Kubernetes clusters.</description>
     </item>
     <item>
       <title>Tetragon (Cilium)</title>
@@ -53,15 +53,15 @@
       <guid isPermaLink="true">https://github.com/cilium/tetragon</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Tetragon leverages eBPF to deliver real-time, kernel-level security observability and automated runtime enforcement for Kubernetes workloads.</description>
+      <description>[CRITICAL] Provides real-time kernel-level runtime enforcement and security observability for Kubernetes using eBPF.</description>
     </item>
     <item>
-      <title>Helm</title>
-      <link>https://nubenetes.com/helm</link>
-      <guid isPermaLink="true">https://nubenetes.com/helm</guid>
+      <title>==dagger/dagger: Dagger is a portable devkit for CICD==</title>
+      <link>https://github.com/dagger/dagger</link>
+      <guid isPermaLink="true">https://github.com/dagger/dagger</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Helm remains the ubiquitous package manager and templating standard for deploying complex application architectures to Kubernetes.</description>
+      <description>[CRITICAL] Dagger introduces a paradigm shift in CI/CD by replacing brittle DSLs with programmable, BuildKit-backed pipelines in general-purpose languages.</description>
     </item>
     <item>
       <title>github.com: Istio</title>
@@ -69,7 +69,7 @@
       <guid isPermaLink="true">https://github.com/istio/istio</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] Serves as the dominant enterprise service mesh providing zero-trust security and modern ambient/sidecar data plane topologies.</description>
+      <description>[CRITICAL] Serves as the industry standard open-source service mesh control plane powering zero-trust mTLS and dynamic traffic routing.</description>
     </item>
     <item>
       <title>github.com/kubernetes: **Kubernetes Cluster Autoscaler**</title>
@@ -77,7 +77,7 @@
       <guid isPermaLink="true">https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Cluster Autoscaler is the foundational core component ensuring dynamic node capacity management and cost efficiency across production cloud clusters.</description>
+      <description>[CRITICAL] Remains the core production-standard engine for dynamic node elasticity and cluster autoscaling across all major cloud providers.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -85,7 +85,7 @@
       <guid isPermaLink="true">https://github.com/fluxcd/flux2</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Flux v2 provides the foundational GitOps toolkit architecture for modular, multi-tenant Kubernetes state reconciliation.</description>
+      <description>[CRITICAL] Flux v2 provides the foundational GitOps Toolkit controllers powering decoupled, automated reconciliation across enterprise Kubernetes clusters.</description>
     </item>
     <item>
       <title>github.com/prometheus/prometheus</title>
@@ -93,7 +93,7 @@
       <guid isPermaLink="true">https://github.com/prometheus/prometheus</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Remains the foundational CNCF-graduated time-series engine that defines modern Kubernetes monitoring standard practices.</description>
+      <description>[CRITICAL] Represents the foundational, de facto cloud-native telemetry and alerting standard powering metric collection across the Kubernetes ecosystem.</description>
     </item>
     <item>
       <title>containerd - An open and reliable container runtime</title>
@@ -101,7 +101,7 @@
       <guid isPermaLink="true">https://github.com/containerd/containerd</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Containers &amp; Runtime</category>
-      <description>[CRITICAL] It serves as the core, industry-standard container runtime engine underpinning Kubernetes production clusters globally.</description>
+      <description>[CRITICAL] It is the foundational CNCF-graduated container runtime powering modern Kubernetes clusters and production container workloads.</description>
     </item>
     <item>
       <title>runc</title>
@@ -109,7 +109,7 @@
       <guid isPermaLink="true">https://github.com/opencontainers/runc</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Containers &amp; Runtime</category>
-      <description>[CRITICAL] It is the canonical low-level OCI runtime reference implementation that directly handles Linux process isolation and container creation.</description>
+      <description>[CRITICAL] It serves as the canonical OCI reference low-level container runtime executing Linux cgroups and namespace isolation.</description>
     </item>
     <item>
       <title>hashicorp/vault</title>
@@ -117,7 +117,7 @@
       <guid isPermaLink="true">https://github.com/hashicorp/vault</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] HashiCorp Vault remains the premier enterprise engine for Zero Trust secrets management, dynamic credentials, and data protection.</description>
+      <description>[CRITICAL] Acts as the standard enterprise backbone for dynamic secrets management and zero-trust identity brokering.</description>
     </item>
     <item>
       <title>OpenTelemetry Collector</title>
@@ -125,15 +125,7 @@
       <guid isPermaLink="true">https://github.com/open-telemetry/opentelemetry-collector</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Serves as the universal, vendor-agnostic telemetry processing pipeline for traces, metrics, and logs in cloud-native architectures.</description>
-    </item>
-    <item>
-      <title>kube-prometheus</title>
-      <link>https://github.com/prometheus-operator/kube-prometheus</link>
-      <guid isPermaLink="true">https://github.com/prometheus-operator/kube-prometheus</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Provides the complete reference deployment stack for end-to-end Kubernetes cluster observability out of the box.</description>
+      <description>[CRITICAL] Serves as the vendor-agnostic industry standard pipeline for collecting, processing, and exporting distributed traces, metrics, and logs across cloud-native environments.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -141,7 +133,7 @@
       <guid isPermaLink="true">https://github.com/kubernetes-sigs/gateway-api</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] Establishes the next-generation, role-oriented routing specification that succeeds legacy Kubernetes Ingress resources.</description>
+      <description>[CRITICAL] Defines the official next-generation specification superseding Ingress with role-oriented, expressive service routing APIs.</description>
     </item>
     <item>
       <title>github.com/vmware-tanzu/velero</title>
@@ -149,23 +141,31 @@
       <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] It serves as the industry-standard disaster recovery and backup solution for persistent volumes and stateful Kubernetes cluster topologies.</description>
+      <description>[CRITICAL] Velero is the essential open-source standard for backing up, migrating, and recovering Kubernetes cluster workloads and persistent volumes.</description>
     </item>
     <item>
-      <title>trivy</title>
-      <link>https://github.com/aquasecurity/trivy</link>
-      <guid isPermaLink="true">https://github.com/aquasecurity/trivy</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Trivy is the de facto comprehensive vulnerability and misconfiguration scanner for containers, SBOMs, and Infrastructure as Code.</description>
+      <title>OpenTofu 1.12: the Feature Terraform Never Shipped</title>
+      <link>https://www.infoq.com/news/2026/05/opentofu-release-terraform</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/05/opentofu-release-terraform</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Introduces landmark language capabilities to OpenTofu that resolve long-standing upstream Terraform architectural limitations.</description>
     </item>
     <item>
-      <title>GitHub MCP Server</title>
-      <link>https://github.com/modelcontextprotocol/servers</link>
-      <guid isPermaLink="true">https://github.com/modelcontextprotocol/servers</guid>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Serves as the canonical repository for Model Context Protocol (MCP) servers, standardizing tool integration across AI agents.</description>
+      <title>New in Terraform 1.15: Dynamic sources, variable deprecation, and more</title>
+      <link>https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more</link>
+      <guid isPermaLink="true">https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Delivers major enterprise enhancements to core Terraform including native dynamic module sources and modernized variable handling.</description>
+    </item>
+    <item>
+      <title>The Agentic Infrastructure Era</title>
+      <link>https://www.pulumi.com/blog/the-agentic-infrastructure-era</link>
+      <guid isPermaLink="true">https://www.pulumi.com/blog/the-agentic-infrastructure-era</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Defines a major paradigm shift in IaC toward autonomous, self-healing, and LLM agent-driven platform provisioning.</description>
     </item>
   </channel>
 </rss>
